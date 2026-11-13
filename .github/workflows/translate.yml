@@ -1,0 +1,148 @@
+name: Translate documentation
+
+on:
+  workflow_dispatch:
+    inputs:
+      page_id:
+        description: 'Page ID (empty: all configured pages)'
+        type: string
+        required: false
+      limit:
+        description: 'Maximum translation units for this run (positive integer)'
+        type: string
+        required: true
+        default: '20'
+      refresh:
+        description: 'Refresh machine translations marked as needing review'
+        type: boolean
+        default: false
+
+permissions:
+  contents: read
+
+concurrency:
+  group: documentation-translation
+  cancel-in-progress: false
+
+env:
+  ELECTRON_SKIP_BINARY_DOWNLOAD: '1'
+
+jobs:
+  translate:
+    if: github.ref == format('refs/heads/{0}', github.event.repository.default_branch)
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    permissions:
+      contents: write
+      pull-requests: write
+    steps:
+      - name: Checkout
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+      - name: Set up pnpm
+        uses: pnpm/action-setup@73e46992e05b19abd31f2f3c20e0e7370d762115 # v6.1.1
+      - name: Set up Node.js
+        uses: actions/setup-node@949feb2413d6458794dcd2491c4babbbce0c15c1 # v7.1.0
+        with:
+          node-version: '24'
+          cache: pnpm
+      - name: Validate inputs
+        env:
+          UNIT_LIMIT: ${{ inputs.limit }}
+        run: |
+          if ! [[ "$UNIT_LIMIT" =~ ^[1-9][0-9]*$ ]]; then
+            echo 'The translation limit must be a positive integer.' >&2
+            exit 1
+          fi
+      - name: Install dependencies
+        run: pnpm install --frozen-lockfile
+      - name: Test translation pipeline
+        run: pnpm docs:ja:test
+      - name: Prepare current source snapshot
+        run: pnpm docs:ja:build
+      - name: Plan translation
+        env:
+          PAGE_ID: ${{ inputs.page_id }}
+          UNIT_LIMIT: ${{ inputs.limit }}
+          REFRESH: ${{ inputs.refresh }}
+        run: |
+          args=(--limit "$UNIT_LIMIT")
+          if [ -n "$PAGE_ID" ]; then args+=(--page "$PAGE_ID"); fi
+          if [ "$REFRESH" = true ]; then args+=(--refresh); fi
+          pnpm docs:ja:plan "${args[@]}" | tee "$RUNNER_TEMP/translation-plan.txt"
+          {
+            echo '### Translation plan'
+            echo '```text'
+            cat "$RUNNER_TEMP/translation-plan.txt"
+            echo '```'
+          } >> "$GITHUB_STEP_SUMMARY"
+      - name: Translate with Gemini API SDK
+        id: translation
+        timeout-minutes: 30
+        continue-on-error: true
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY || vars.GEMINI_API_KEY }}
+          PAGE_ID: ${{ inputs.page_id }}
+          UNIT_LIMIT: ${{ inputs.limit }}
+          REFRESH: ${{ inputs.refresh }}
+        run: |
+          if [ -z "$GEMINI_API_KEY" ]; then
+            echo 'Set the repository Actions variable or secret GEMINI_API_KEY.' >&2
+            exit 1
+          fi
+          printf '::add-mask::%s\n' "$GEMINI_API_KEY"
+          args=(--limit "$UNIT_LIMIT")
+          if [ -n "$PAGE_ID" ]; then args+=(--page "$PAGE_ID"); fi
+          if [ "$REFRESH" = true ]; then args+=(--refresh); fi
+          pnpm docs:ja:translate "${args[@]}"
+      - name: Preserve translation memory (including partial progress)
+        if: always() && (steps.translation.outcome == 'success' || steps.translation.outcome == 'failure')
+        uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7.0.2
+        with:
+          name: translation-memory-${{ github.run_id }}-${{ github.run_attempt }}
+          path: i18n/translations/ja/*.json
+          if-no-files-found: error
+          retention-days: 30
+      - name: Build and validate updated translations
+        run: |
+          pnpm docs:ja:build --skip-client-build
+          pnpm docs:ja:validate
+      - name: Save translation changes as a pull request
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
+          DEFAULT_BRANCH: ${{ github.event.repository.default_branch }}
+          TRANSLATION_OUTCOME: ${{ steps.translation.outcome }}
+        run: |
+          git add -- i18n/translations/ja/
+          if git diff --cached --quiet; then
+            echo 'No translation changes.' >> "$GITHUB_STEP_SUMMARY"
+            exit 0
+          fi
+          branch="translations/run-${GITHUB_RUN_ID}-${GITHUB_RUN_ATTEMPT}"
+          git switch --create "$branch"
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git commit -m 'docs: update Japanese translation memory'
+          gh auth setup-git
+          git push origin "HEAD:refs/heads/$branch"
+          cat > "$RUNNER_TEMP/translation-pr.md" <<BODY
+          ## 日本語訳の更新
+
+          Gemini APIの公式SDKで翻訳JSONを更新しました。ビルドと静的リンク検証を実行しています。
+
+          - 翻訳ステップの結果: ${TRANSLATION_OUTCOME}
+          - 実行ログ: ${GITHUB_SERVER_URL}/${GITHUB_REPOSITORY}/actions/runs/${GITHUB_RUN_ID}
+
+          一部失敗した場合も成功済みの訳を含みます。このPRをマージして再実行すると、未完了部分から続行できます。
+          マージ後にGitHub Pagesへ公開されます。APIキーや生成HTMLは含めていません。
+          BODY
+          url=$(gh pr create --base "$DEFAULT_BRANCH" --head "$branch" \
+            --title 'docs: 日本語訳を更新' --body-file "$RUNNER_TEMP/translation-pr.md")
+          echo "Translation pull request: $url" >> "$GITHUB_STEP_SUMMARY"
+      - name: Report incomplete translation
+        if: steps.translation.outcome == 'failure'
+        run: |
+          echo 'Translation failed. Completed batches are preserved in the artifact and, when changed, the pull request.' >&2
+          exit 1

@@ -97,6 +97,7 @@ interface NoteMapping {
 
 interface Config {
     baseUrl: string;
+    locale?: string;
     noteMappings: NoteMapping[];
 }
 
@@ -182,6 +183,12 @@ async function buildDocsInner(config?: Config) {
 
     // Wait for becca to be loaded before importing data
     await becca_loader.beccaLoaded;
+
+    if (config?.locale) {
+        const { options } = await import("@triliumnext/core");
+        options.setOption("locale", config.locale);
+        await (await import("@triliumnext/server/src/services/i18n.js")).initializeTranslations();
+    }
 
     if (config) {
         // Config-based build (reads from edit-docs-config.yaml)

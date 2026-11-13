@@ -59,7 +59,15 @@
     "dev:linter-fix": "cross-env NODE_OPTIONS=--max_old_space_size=4096 eslint . --fix",
     "postinstall": "pnpm prepare",
     "prepare": "pnpm run --filter pdfjs-viewer build && pnpm run --filter web-clipper postinstall",
-    "update-contributors": "tsx ./scripts/update-contributors.ts"
+    "update-contributors": "tsx ./scripts/update-contributors.ts",
+    "docs:ja:build": "pnpm --filter build-docs exec tsx src/translation-preview.ts",
+    "docs:ja:preview": "pnpm http-server site-ja -p 9001 -c-1",
+    "docs:ja:check": "node apps/build-docs/translation-preview/check.mjs",
+    "docs:ja:plan": "pnpm --filter build-docs exec tsx src/translation/cli.ts plan",
+    "docs:ja:translate": "pnpm --filter build-docs exec tsx src/translation/cli.ts translate",
+    "docs:ja:test": "pnpm --filter build-docs exec tsx --test src/translation/*.spec.ts src/documentation-links.spec.ts",
+    "docs:ja:extract": "pnpm --filter build-docs exec tsx src/translation/cli.ts extract",
+    "docs:ja:validate": "pnpm --filter build-docs exec tsx src/translation/validate-site.ts"
   },
   "private": true,
   "devDependencies": {

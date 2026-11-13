@@ -3,6 +3,11 @@
 <head>
     <%- snippets["head:start"] %>
     <meta charset="utf-8">
+    <% if (note.getLabelValue("translationPreview") === "identity") { %>
+        <link rel="stylesheet" href="/translation-preview.css">
+        <script type="module" src="/translation-preview.js"></script>
+        <meta name="robots" content="noindex,follow">
+    <% } %>
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <link rel="shortcut icon" href="<%= faviconUrl %>">
@@ -73,6 +78,18 @@
         <div id="main">
             <div id="content" class="<%= contentClasses %>"<% if (language.content) { %> lang="<%= language.content.lang %>" dir="<%= language.content.dir %>"<% } %> data-tab-title-placeholder="<%= t("share_theme.tab-title") %>" data-tab-previous-label="<%= t("share_theme.previous-tabs") %>" data-tab-next-label="<%= t("share_theme.next-tabs") %>" data-copy-code-label="<%= t("share_theme.copy-code") %>">
                 <%- snippets["content:start"] %>
+                <% if (note.getLabelValue("translationPreview") === "identity") { %>
+                    <aside class="translation-notice" lang="ja" aria-label="翻訳について">
+                        <p><strong>Trilium Notes 非公式日本語翻訳プレビュー</strong></p>
+                        <p>このサイトは公式サイトではありません。生成AIによる日本語翻訳サイトの表示を確認するための試作です。</p>
+                        <div class="translation-actions">
+                            <a href="<%= note.getLabelValue("translationSourceUrl") %>" target="_blank" rel="noopener noreferrer">公式の原文を開く ↗</a>
+                            <button id="translation-toggle" type="button" aria-pressed="false" aria-controls="translation-body" hidden>英語原文を表示</button>
+                        </div>
+                        <p id="translation-status" role="status">表示確認用：本文は英語原文を仮の訳文として使用しています。翻訳はまだ行っていません。</p>
+                        <small class="translation-revision">翻訳元コミット：<%= note.getLabelValue("translationRevision")?.slice(0, 12) %></small>
+                    </aside>
+                <% } %>
                 <% if (showTitle && titleIcon) { %>
                     <div id="title-row">
                         <span class="tn-icon <%= titleIcon %>" aria-hidden="true"></span>
@@ -81,10 +98,17 @@
                 <% } else if (showTitle) { %>
                     <h1 id="title"><%= note.title %></h1>
                 <% } %>
+                <% if (note.getLabelValue("translationPreview") === "identity") { %>
+                    <template id="translation-original"><%- content %></template>
+                    <div id="translation-body" lang="en">
+                <% } %>
                 <% if (isEmpty && !childLinks.length && note.type !== "book") { %>
                     <p><%= t("share_page.no-content") %></p>
                 <% } else { %>
                     <%- content %>
+                <% } %>
+                <% if (note.getLabelValue("translationPreview") === "identity") { %>
+                    </div>
                 <% } %>
                 <%- snippets["content:end"] %>
             </div>
