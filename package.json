@@ -67,7 +67,8 @@
     "docs:ja:translate": "pnpm --filter build-docs exec tsx src/translation/cli.ts translate",
     "docs:ja:test": "pnpm --filter build-docs exec tsx --test src/translation/*.spec.ts src/documentation-links.spec.ts",
     "docs:ja:extract": "pnpm --filter build-docs exec tsx src/translation/cli.ts extract",
-    "docs:ja:validate": "pnpm --filter build-docs exec tsx src/translation/validate-site.ts"
+    "docs:ja:validate": "pnpm --filter build-docs exec tsx src/translation/validate-site.ts",
+    "docs:ja:collect": "pnpm --filter build-docs exec tsx src/translation/cli.ts collect"
   },
   "private": true,
   "devDependencies": {

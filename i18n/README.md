@@ -6,10 +6,12 @@
 初期対象は User Guide、Quick Start、FAQ、Note Types の4ページです。
 対象とモデルは `apps/build-docs/translation-preview/config.json` で設定します。
 モデルの初期値は `gemini-3.5-flash-lite` です。
-Google公式の `@google/genai` SDKから Gemini API を呼び出します。
+Google公式の `@google/genai` SDKから **Gemini Batch API** を呼び出します。
+通常の同期 `models.generateContent` は使いません。送信は `batches.create`、取得は `batches.get` です。
 SDKの `enterprise` と `vertexai` を明示的に `false` にしているため、
 Enterprise Agent Platform 用の環境変数があっても接続先を切り替えません。
-SDKの利用方法は [公式ドキュメント](https://ai.google.dev/gemini-api/docs/libraries) を参照してください。
+SDKの利用方法は [公式ドキュメント](https://ai.google.dev/gemini-api/docs/libraries)、
+非同期処理は [Batch APIの説明](https://ai.google.dev/gemini-api/docs/batch-api) を参照してください。
 
 ## 操作
 
@@ -31,8 +33,12 @@ mise exec -- pnpm docs:ja:extract
 # 初回は一部だけ試すことも可能。
 mise exec -- pnpm docs:ja:translate --page s3YCWHBfmYuM --limit 10
 
-# 選択済みページの未翻訳・失敗部分を翻訳。
+# 選択済みページの未翻訳・失敗部分を非同期Batch APIへ送信。
 mise exec -- pnpm docs:ja:translate
+
+# 時間をおいて完了結果を取得。処理中なら後で同じコマンドを再実行。
+# このコマンドは新しいジョブを送信しません。
+mise exec -- pnpm docs:ja:collect
 
 # 保存したJSONからサイトを再生成。API呼び出しなし。
 mise exec -- pnpm docs:ja:build --skip-client-build
@@ -48,9 +54,19 @@ GEMINI_API_KEY=your-key-here
 ```
 
 キーがなくても、計画・原文抽出・保存済み訳からのビルド・テストは動きます。
-翻訳はリクエストごとに最大16単位・原文約10,000文字をまとめて逐次実行します。
-1単位が上限を超える場合、その単位だけを送ります。
-`--limit` は実行全体の翻訳単位数の上限です。金額やトークン数の上限ではありません。
+1リクエストを最大16単位・原文約10,000文字に分割し、選択したリクエスト群を
+1つのBatch APIジョブにまとめて非同期送信します。1単位が文字数上限を超える場合は単独で送ります。
+現在はインライン入力を使用し、SDKへ渡す入力が19MBを超える場合は送信せず停止します。
+`--limit` を減らして分割してください。金額やトークン数の上限ではありません。
+
+`translate` は既存ジョブを確認した後、未送信の単位だけを新規送信して終了します。
+`collect` は既存ジョブの取得だけを行います。長時間のポーリング待機は行いません。
+Batch APIは非同期のため、送信直後には訳文がそろわないことがあります。
+完了までの目標時間は公式資料では24時間です。
+
+ジョブID・リクエストと原文の対応・結果を `i18n/batches/` に永続化します。
+ローカルではこのディレクトリを残してください。CIでは専用ブランチに保存します。
+[台帳の形式と送信状態の復旧](batches/README.md)も参照してください。
 
 ## JSONの内容
 
@@ -64,7 +80,8 @@ GEMINI_API_KEY=your-key-here
 - `status`：`pending`、`translated`、`reviewed`、`needs-review`、`failed`。
 - `active`：現在の原文で使われているか。削除・変更前の訳は非アクティブで残します。
 - `conditions`：モデル、翻訳プロンプトと用語集のハッシュ。
-- `translatedAt`：翻訳した日時。
+- `translatedAt`：対応するバッチの作成日時。
+- `requests[].batchJob` / `requestKey`：結果を取得したBatch APIジョブとリクエストの識別子。
 
 本文中の HTML、URL、コード、数式などは `__TRILIUM_PH_0__` のようなトークンで保護します。
 トークンは原文の構造から復元し、AIが新しいHTMLを埋め込むことはできません。
@@ -86,9 +103,12 @@ mise exec -- pnpm docs:ja:plan --refresh
 mise exec -- pnpm docs:ja:translate --refresh --page s3YCWHBfmYuM
 ```
 
-成功したバッチごとにJSONを一時ファイル経由で保存します。
-途中の失敗後は、同じコマンドを実行すると未完了部分から再開します。
-複数の翻訳コマンドを同時には実行しないでください。
+送信前に台帳へ意図を記録し、ジョブIDを取得したら即座に保存します。
+処理中の同じ原文・文脈・翻訳条件は再送しません。ジョブ作成時の通信結果が不明な場合も、
+自動リトライで二重ジョブを作ることはせず、台帳を残して停止します。
+完了結果はキーで照合し、妥当なリクエストだけを翻訳JSONへ原子的に保存します。
+原文や文脈が変わった結果は現在の訳文へ適用しません。
+複数の翻訳コマンドをローカルで同時には実行しないでください。
 
 ## 原文更新と表示
 
@@ -108,7 +128,7 @@ mise exec -- pnpm docs:ja:test
 mise exec -- pnpm docs:ja:check
 ```
 
-APIテストにはモック応答を使います。実際の翻訳品質とモデルへのアクセス可否は、
+Batch APIテストにはSDK経由のモック応答を使います。実際の翻訳品質とモデルへのアクセス可否は、
 APIキーを設定した実翻訳で確認する必要があります。
 
 ## GitHub Pagesへの公開

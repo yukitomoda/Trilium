@@ -1,7 +1,9 @@
-import { readFile } from "node:fs/promises";
+import { execFileSync } from "node:child_process";
+import { appendFile, readFile } from "node:fs/promises";
 import { join, resolve } from "node:path";
 
-import { translateBatch } from "./gemini";
+import { loadJobs, replayResults, reservedUnits, runBatchTranslation } from "./batch-jobs";
+import { createBatchService } from "./gemini";
 import { loadMemory, pendingUnits, reconcile, saveMemory } from "./memory";
 import { extractPage, hash } from "./segments";
 import { type Snapshot, translationSettings } from "./site";
@@ -10,8 +12,8 @@ async function main() {
     const root = resolve(__dirname, "../../../..");
     const args = process.argv.slice(2);
     const command = args[0];
-    if (![ "plan", "extract", "translate" ].includes(command)) {
-        throw new Error("Usage: cli.ts plan|extract|translate "
+    if (![ "plan", "extract", "translate", "collect" ].includes(command)) {
+        throw new Error("Usage: cli.ts plan|extract|translate|collect "
             + "[--page NOTE_ID] [--limit UNITS] [--refresh]");
     }
     for (let index = 1; index < args.length; index++) {
@@ -47,11 +49,14 @@ async function main() {
     if (snapshot.metadataHash !== hash(metadata)) {
         throw new Error("Source metadata changed; run pnpm docs:ja:build first");
     }
-    const pages = snapshot.pages.filter((page) => !pageId || page.pageId === pageId);
-    if (!pages.length) throw new Error("No matching page in the current build");
+    const pages = snapshot.pages;
+    if (pageId && !pages.some((page) => page.pageId === pageId)) {
+        throw new Error("No matching page in the current build");
+    }
     const settings = await translationSettings(root, config.model);
     const planned = [];
-    let remaining = limit;
+    const directory = join(root, "i18n/batches");
+    const jobs = await loadJobs(directory);
     for (const page of pages) {
         if (hash(await readFile(join(root, page.sourceFile), "utf8")) !== page.sourceHash) {
             throw new Error(`Source changed: ${page.sourceFile}; run pnpm docs:ja:build first`);
@@ -62,19 +67,25 @@ async function main() {
             pageId: page.pageId, sourceFile: page.sourceFile, sourceRevision: snapshot.revision
         }, settings.conditions);
         await document.close();
-        const pending = pendingUnits(memory, args.includes("--refresh"));
-        const units = pending.slice(0, remaining);
-        remaining -= units.length;
-        const review = memory.units.filter((unit) => unit.active
-            && unit.status === "needs-review").length;
-        console.log(`${page.title}: ${pending.length} pending, ${review} need review, `
-            + `${units.length} selected`);
-        planned.push({ path, memory, units });
+        planned.push({ path, memory, title: page.title });
     }
-    const total = planned.reduce((sum, page) => sum + page.units.length, 0);
-    const chars = planned.flatMap((page) => page.units)
-        .reduce((sum, unit) => sum + unit.source.length + unit.context.length, 0);
-    console.log(`${total} units; ${chars} source/context characters; model=${config.model}`);
+    replayResults(planned, jobs, settings.conditions);
+    const reserved = reservedUnits(jobs, settings.conditions);
+    let remaining = command === "collect" ? 0 : limit;
+    let total = 0;
+    for (const page of planned) {
+        const pending = pendingUnits(page.memory, args.includes("--refresh"));
+        const available = pending.filter((unit) => !reserved.has(
+            `${page.memory.pageId}:${unit.id}:${unit.contextHash}`));
+        const selected = !pageId || page.memory.pageId === pageId
+            ? Math.min(remaining, available.length) : 0;
+        remaining -= selected;
+        total += selected;
+        console.log(`${page.title}: ${pending.length} pending, `
+            + `${pending.length - available.length} in Batch API, ${selected} selected`);
+    }
+    console.log(`${total} units to submit; model=${config.model}; `
+        + `${jobs.filter((job) => job.phase === "pending").length} unfinished jobs`);
     if (command === "plan") return;
     if (command === "extract") {
         for (const page of planned) await saveMemory(page.path, page.memory);
@@ -88,52 +99,30 @@ async function main() {
         }
     }
     const apiKey = process.env.GEMINI_API_KEY || process.env.GOOGLE_API_KEY;
-    if (total && !apiKey) {
+    if (!apiKey && (total > 0 || jobs.some((job) => job.name && job.phase === "pending"))) {
         throw new Error("Set GEMINI_API_KEY (or GOOGLE_API_KEY) in the environment or .env.local");
     }
-    for (const page of planned) {
-        // Persist active/obsolete state even if there is nothing new to translate.
-        await saveMemory(page.path, page.memory);
-        // Small batches bound output size and preserve progress on later failures.
-        for (let offset = 0; offset < page.units.length;) {
-            const batch = [];
-            let size = 0;
-            while (offset < page.units.length && batch.length < 16) {
-                const unit = page.units[offset];
-                if (batch.length && size + unit.source.length > 10000) break;
-                batch.push(unit);
-                size += unit.source.length;
-                offset++;
-            }
-            try {
-                const result = await translateBatch(batch, {
-                    apiKey: apiKey!, model: config.model, prompt: settings.prompt,
-                    glossary: settings.glossary
-                });
-                const at = new Date().toISOString();
-                for (const unit of batch) {
-                    unit.translation = result.translations.get(unit.id)!;
-                    unit.status = "translated";
-                    unit.conditions = settings.conditions;
-                    unit.translatedAt = at;
-                    delete unit.error;
-                }
-                page.memory.requests.push({ at, model: config.model,
-                    modelVersion: result.modelVersion, usage: result.usage });
-                await saveMemory(page.path, page.memory);
-                console.log(`Saved ${batch.length} units: ${page.memory.pageId}`);
-            } catch (error) {
-                for (const unit of batch) {
-                    unit.status = "failed";
-                    unit.error = error instanceof Error ? error.message : "Translation failed";
-                }
-                await saveMemory(page.path, page.memory);
-                throw error;
-            }
-        }
+    const service = () => createBatchService({ apiKey: apiKey ?? "", model: config.model,
+        prompt: settings.prompt, glossary: settings.glossary });
+    const result = await runBatchTranslation(planned, {
+        directory, conditions: settings.conditions,
+        service: { create: (...args) => service().create(...args),
+            get: (...args) => service().get(...args) },
+        submit: command === "translate", limit, pageId, refresh: args.includes("--refresh"),
+        checkpoint: process.env.BATCH_STATE_CHECKPOINT === "1" ? async () => {
+            execFileSync("bash", [ join(root,
+                "apps/build-docs/translation-preview/batch-state.sh"), "save" ], {
+                cwd: root, stdio: "inherit"
+            });
+        } : undefined
+    });
+    if (process.env.GITHUB_OUTPUT) {
+        await appendFile(process.env.GITHUB_OUTPUT, `received_requests=${result.received}\n`
+            + `pending_jobs=${result.pending}\nsubmitted_units=${result.submitted}\n`);
     }
-    console.log("Translation memory saved. "
-        + "Run pnpm docs:ja:build --skip-client-build to update the site.");
+    console.log(`Batch API: ${result.submitted} units submitted; ${result.pending} jobs pending.`);
+    console.log("Run docs:ja:collect later, then docs:ja:build --skip-client-build.");
+    if (result.failed) throw new Error("Some batch requests failed; valid results were saved");
 }
 main().catch((error) => {
     console.error(error.message);

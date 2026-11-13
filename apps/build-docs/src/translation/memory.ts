@@ -23,7 +23,8 @@ export interface Memory {
     sourceFile: string;
     sourceRevision: string;
     units: Unit[];
-    requests: { at: string; model: string; modelVersion?: string; usage?: unknown }[];
+    requests: { at: string; model: string; modelVersion?: string; usage?: unknown;
+        batchJob?: string; requestKey?: string }[];
 }
 
 export async function loadMemory(path: string): Promise<Memory | undefined> {

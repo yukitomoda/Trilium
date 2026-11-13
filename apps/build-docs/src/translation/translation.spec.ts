@@ -4,7 +4,6 @@ import { tmpdir } from "node:os";
 import { join } from "node:path";
 import { test } from "node:test";
 
-import { translateBatch } from "./gemini";
 import { loadMemory, pendingUnits, reconcile, saveMemory, usableTranslations } from "./memory";
 import { extractPage } from "./segments";
 
@@ -105,57 +104,4 @@ void test("memory persists atomically and can resume after failure", async () =>
         assert.equal(pendingUnits(loaded).length, 1);
         assert.equal(loaded.units[0].translation, "ガイド");
     } finally { await document.close(); await rm(dir, { recursive: true, force: true }); }
-});
-
-void test("Gemini retries rate limits, validates IDs and records actual usage", async () => {
-    const keys = [ "GOOGLE_GENAI_USE_ENTERPRISE", "GOOGLE_GENAI_USE_VERTEXAI" ];
-    const originalEnv = keys.map((key) => process.env[key]);
-    for (const key of keys) process.env[key] = "true";
-    const document = extractPage(html("<p>Hello</p>"), "Guide");
-    try {
-        let calls = 0;
-        const mockFetch: typeof fetch = async (url, init) => {
-            assert.equal(new URL(String(url)).hostname, "generativelanguage.googleapis.com");
-            assert.equal(new Headers(init!.headers).get("x-goog-api-key"), "secret");
-            const request = JSON.parse(init!.body as string);
-            assert.equal(request.generationConfig.responseMimeType, "application/json");
-            assert.equal(request.systemInstruction.parts[0].text, "translate");
-            calls++;
-            if (calls === 1) return new Response("limited", { status: 429 });
-            return Response.json({ candidates: [ { finishReason: "STOP", content: { parts: [ {
-                text: JSON.stringify({ translations: document.segments.map((unit) => ({
-                    id: unit.id, translation: "日本語"
-                })) })
-            } ] } } ], modelVersion: "actual-model", usageMetadata: { totalTokenCount: 12 } });
-        };
-        const result = await translateBatch(document.segments, {
-            apiKey: "secret", model: conditions.model, prompt: "translate", glossary: {},
-            fetch: mockFetch, retryDelayMs: 0
-        });
-        assert.equal(calls, 2);
-        assert.equal(result.modelVersion, "actual-model");
-        assert.deepEqual(result.usage, { totalTokenCount: 12 });
-        await assert.rejects(() => translateBatch(document.segments, {
-            apiKey: "secret", model: conditions.model, prompt: "translate", glossary: {},
-            fetch: async () => Response.json({ candidates: [ { finishReason: "STOP", content: {
-                parts: [ { text: '{"translations":[]}' } ]
-            } } ] })
-        }), /count/);
-        let authCalls = 0;
-        await assert.rejects(() => translateBatch(document.segments, {
-            apiKey: "secret", model: conditions.model, prompt: "translate", glossary: {},
-            fetch: async () => {
-                authCalls++;
-                return Response.json({ error: { message: "secret", code: 403 } }, { status: 403 });
-            }
-        }), (error: Error) => error.message.startsWith("Gemini HTTP 403")
-            && !error.message.includes("secret"));
-        assert.equal(authCalls, 1);
-    } finally {
-        await document.close();
-        keys.forEach((key, index) => {
-            if (originalEnv[index] === undefined) delete process.env[key];
-            else process.env[key] = originalEnv[index];
-        });
-    }
 });

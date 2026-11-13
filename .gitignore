@@ -75,3 +75,7 @@ apps/edit-docs/output.zip
 # Local translation credentials and atomic-write temporary files
 /.env.local
 /i18n/translations/ja/*.tmp
+
+# Batch API journals are persisted on the dedicated CI state branch.
+/i18n/batches/*.json
+/i18n/batches/*.tmp
