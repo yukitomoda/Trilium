@@ -145,7 +145,8 @@ void test("SDK uses batch endpoints and never retries create", async () => {
                     const body = JSON.parse(init.body as string);
                     const wire = body.batch.inputConfig.requests.requests[0];
                     assert.equal(wire.metadata.key, "request-one");
-                    assert.equal(wire.request.generationConfig.responseMimeType, "application/json");
+                    assert.equal(wire.request.generationConfig.responseMimeType,
+                        "application/json");
                     assert.equal(wire.request.generationConfig.responseJsonSchema
                         .properties.requestKey.enum[0], "request-one");
                     return Response.json({ name: "batches/job",
