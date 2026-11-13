@@ -1,0 +1,185 @@
+{
+  "schemaVersion": 1,
+  "id": "771cb30a-3991-4e9a-ad5b-1e4dd658c238",
+  "phase": "submitting",
+  "createdAt": "2026-11-13T12:16:54.850Z",
+  "conditions": {
+    "model": "gemini-3.5-flash-lite",
+    "promptHash": "bbb51470ef65893911eb27cda97a3bbf5ad1ef6630e575f31b25e0f7daf16cb1",
+    "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+  },
+  "requests": [
+    {
+      "key": "s3YCWHBfmYuM_ef9b047fffd03482",
+      "pageId": "s3YCWHBfmYuM",
+      "units": [
+        {
+          "id": "u_9d179a5caae96eb1af012b1b_0",
+          "kind": "title",
+          "source": "Quick Start",
+          "sourceHash": "9d179a5caae96eb1af012b1bcf8fe2094449e9395ac86a163fce3ded744ca11a",
+          "context": "Quick Start",
+          "contextHash": "328908a83269e0db2035621d0110a68fba3dad6330d66d58a7371cb377e0d5e4"
+        },
+        {
+          "id": "u_bd397bdcd0b124acc5c3e0bd_0",
+          "kind": "p",
+          "source": "__TRILIUM_PH_0__Local only desktop/laptop__TRILIUM_PH_1__ - Allows a single instance on a desktop and will save the notes locally on that desktop.",
+          "sourceHash": "bd397bdcd0b124acc5c3e0bdbfb1a0ea088190e9fbcdbb6666385fb81029f655",
+          "context": "Quick Start > Choose the setup",
+          "contextHash": "b7dc449c3ab5d8b698ddd2288597ccb11259895aba394a230783a7b0e7d2c125"
+        },
+        {
+          "id": "u_947e2e0f77c1fb87a0df52cc_0",
+          "kind": "li",
+          "source": "__TRILIUM_PH_0__Desktop Installation__TRILIUM_PH_1__",
+          "sourceHash": "947e2e0f77c1fb87a0df52cc8108b1583b1b700e1fab5a9f87e9e6a187c5a151",
+          "context": "Quick Start > Choose the setup",
+          "contextHash": "b7dc449c3ab5d8b698ddd2288597ccb11259895aba394a230783a7b0e7d2c125"
+        },
+        {
+          "id": "u_de97eb6f315748e027def249_0",
+          "kind": "p",
+          "source": "__TRILIUM_PH_0__Server with web only access__TRILIUM_PH_1__ - Installs the application on the server and allows access from any web browser on any device, including mobile.",
+          "sourceHash": "de97eb6f315748e027def249e61bb2d34c8138943aa7ad7cc1da83df81d9bd35",
+          "context": "Quick Start > Choose the setup",
+          "contextHash": "b7dc449c3ab5d8b698ddd2288597ccb11259895aba394a230783a7b0e7d2c125"
+        },
+        {
+          "id": "u_9739455cc0f394fce071283d_0",
+          "kind": "li",
+          "source": "__TRILIUM_PH_0__Server Installation__TRILIUM_PH_1__",
+          "sourceHash": "9739455cc0f394fce071283dc2f2cd3249ac9ac2640a352f238323174af6a26d",
+          "context": "Quick Start > Choose the setup",
+          "contextHash": "b7dc449c3ab5d8b698ddd2288597ccb11259895aba394a230783a7b0e7d2c125"
+        },
+        {
+          "id": "u_1556cb00c05dffed34932bf3_0",
+          "kind": "li",
+          "source": "__TRILIUM_PH_0__Mobile Frontend__TRILIUM_PH_1__ (optional)",
+          "sourceHash": "1556cb00c05dffed34932bf3b942c5fde67b1f668f3024eba7e66be039deebb5",
+          "context": "Quick Start > Choose the setup",
+          "contextHash": "b7dc449c3ab5d8b698ddd2288597ccb11259895aba394a230783a7b0e7d2c125"
+        },
+        {
+          "id": "u_5befeb9cf03308a8193026b9_0",
+          "kind": "li",
+          "source": "__TRILIUM_PH_0__Third-party cloud hosting__TRILIUM_PH_1__",
+          "sourceHash": "5befeb9cf03308a8193026b9aa8fee95dd8f73f8ca46dbb1b84c2b6833f657e3",
+          "context": "Quick Start > Choose the setup",
+          "contextHash": "b7dc449c3ab5d8b698ddd2288597ccb11259895aba394a230783a7b0e7d2c125"
+        },
+        {
+          "id": "u_b0e172b30973350def257f34_0",
+          "kind": "p",
+          "source": "__TRILIUM_PH_0__Combination of server and desktop/laptop__TRILIUM_PH_1__ - Install the application on both a server, for web access and data synchronisation, and desktop instance(s). This allows all the data to be stored on the server and either accessed from the web browser, or the desktop application. The desktop application will sync and store the data locally so that it can be used when offline.",
+          "sourceHash": "b0e172b30973350def257f34140f666bbbca524558ab6fb352057f5ba9aedc6f",
+          "context": "Quick Start > Choose the setup",
+          "contextHash": "b7dc449c3ab5d8b698ddd2288597ccb11259895aba394a230783a7b0e7d2c125"
+        },
+        {
+          "id": "u_9739455cc0f394fce071283d_1",
+          "kind": "li",
+          "source": "__TRILIUM_PH_0__Server Installation__TRILIUM_PH_1__",
+          "sourceHash": "9739455cc0f394fce071283dc2f2cd3249ac9ac2640a352f238323174af6a26d",
+          "context": "Quick Start > Choose the setup",
+          "contextHash": "b7dc449c3ab5d8b698ddd2288597ccb11259895aba394a230783a7b0e7d2c125"
+        },
+        {
+          "id": "u_1556cb00c05dffed34932bf3_1",
+          "kind": "li",
+          "source": "__TRILIUM_PH_0__Mobile Frontend__TRILIUM_PH_1__ (optional)",
+          "sourceHash": "1556cb00c05dffed34932bf3b942c5fde67b1f668f3024eba7e66be039deebb5",
+          "context": "Quick Start > Choose the setup",
+          "contextHash": "b7dc449c3ab5d8b698ddd2288597ccb11259895aba394a230783a7b0e7d2c125"
+        },
+        {
+          "id": "u_947e2e0f77c1fb87a0df52cc_1",
+          "kind": "li",
+          "source": "__TRILIUM_PH_0__Desktop Installation__TRILIUM_PH_1__",
+          "sourceHash": "947e2e0f77c1fb87a0df52cc8108b1583b1b700e1fab5a9f87e9e6a187c5a151",
+          "context": "Quick Start > Choose the setup",
+          "contextHash": "b7dc449c3ab5d8b698ddd2288597ccb11259895aba394a230783a7b0e7d2c125"
+        },
+        {
+          "id": "u_4aa9b488084517931162675f_0",
+          "kind": "li",
+          "source": "__TRILIUM_PH_0__Synchronization__TRILIUM_PH_1__",
+          "sourceHash": "4aa9b488084517931162675f03ef76012105568dcf483ccb7fb4bdcc58518e67",
+          "context": "Quick Start > Choose the setup",
+          "contextHash": "b7dc449c3ab5d8b698ddd2288597ccb11259895aba394a230783a7b0e7d2c125"
+        },
+        {
+          "id": "u_70e361f1bf09802ca442fbd6_0",
+          "kind": "h2",
+          "source": "Choose the setup__TRILIUM_PH_0__",
+          "sourceHash": "70e361f1bf09802ca442fbd676b676eef290e8391a39f876b207a14b9bd85553",
+          "context": "Quick Start > Choose the setup",
+          "contextHash": "b7dc449c3ab5d8b698ddd2288597ccb11259895aba394a230783a7b0e7d2c125"
+        }
+      ]
+    },
+    {
+      "key": "i6dbnitykE5D_631062bb89fa96c3",
+      "pageId": "i6dbnitykE5D",
+      "units": [
+        {
+          "id": "u_17eb3cbda8daecbb04b8eac7_0",
+          "kind": "title",
+          "source": "FAQ",
+          "sourceHash": "17eb3cbda8daecbb04b8eac73a1357b24b32589d1b664c5e3ab3604d33df9cdd",
+          "context": "FAQ",
+          "contextHash": "dbc468a14b601d5d9240aeb72b9fcd2f8aed2f4e30932876edf8d16ec313846b"
+        },
+        {
+          "id": "u_991a272209435ca11df5c492_0",
+          "kind": "p",
+          "source": "Naming software is hard. I lived in Ontario when I first started the project and Trillium (the flower) is sort of a provincial logo, many institutions in Ontario are named \"Trillium [something]\". So I kept hearing/reading it almost everyday, I liked the sound of it and its nature motif, so I just reused it.",
+          "sourceHash": "991a272209435ca11df5c4923fe5f6bd47bfc0b10bccf7513d855c01aa7a0e87",
+          "context": "FAQ > Inspiration for the name “Trilium”",
+          "contextHash": "2aefba86ecae4c45e8cbdeeced1f92fbc3bfb03a8025f12299fe8284a7d41b73"
+        },
+        {
+          "id": "u_272aaae04764feaaa140f592_0",
+          "kind": "p",
+          "source": "__TRILIUM_PH_0__– Zadam (original Trilium maintainer)__TRILIUM_PH_1__",
+          "sourceHash": "272aaae04764feaaa140f592e8bae164f3fae61a655492ee3a5fc0b99e446dec",
+          "context": "FAQ > Inspiration for the name “Trilium”",
+          "contextHash": "2aefba86ecae4c45e8cbdeeced1f92fbc3bfb03a8025f12299fe8284a7d41b73"
+        },
+        {
+          "id": "u_f905b755b57f5274f6144536_0",
+          "kind": "p",
+          "source": "Despite the fact that the Trillium flower has two “l\"s, the Trilium application only has one.",
+          "sourceHash": "f905b755b57f5274f6144536b62319ffdd23bfa943df617dbeceb263e76c3ce6",
+          "context": "FAQ > Inspiration for the name “Trilium”",
+          "contextHash": "2aefba86ecae4c45e8cbdeeced1f92fbc3bfb03a8025f12299fe8284a7d41b73"
+        },
+        {
+          "id": "u_8ed75cb77c507e3e017e7d90_0",
+          "kind": "p",
+          "source": "Trilium has no separate folder type: any note can have child notes, so any note can act as a folder. A note can hold its own content and have children at the same time, unlike a file system, which separates files from directories.",
+          "sourceHash": "8ed75cb77c507e3e017e7d9003996c6e2c9d54a306b48a7ffba1483f00ab7a99",
+          "context": "FAQ > How do I create a folder?",
+          "contextHash": "1e0c9dd2ddb46e877164a8a61a051b1c31039b151eb80fbbd0db25e9503d5100"
+        },
+        {
+          "id": "u_4f15f782c15b8530aa4e9aac_0",
+          "kind": "p",
+          "source": "To organize notes into a folder:",
+          "sourceHash": "4f15f782c15b8530aa4e9aac4a2330c12a3e6bf6f0fba36b9fd08ac8c04025f1",
+          "context": "FAQ > How do I create a folder?",
+          "contextHash": "1e0c9dd2ddb46e877164a8a61a051b1c31039b151eb80fbbd0db25e9503d5100"
+        },
+        {
+          "id": "u_eb401a1e73a96ec6e920bda4_0",
+          "kind": "li",
+          "source": "Create a note that acts as the folder, for example \"Projects\".",
+          "sourceHash": "eb401a1e73a96ec6e920bda405c74c8adad1cd975568b8328a80a195dd491b96",
+          "context": "FAQ > How do I create a folder?",
+          "contextHash": "1e0c9dd2ddb46e877164a8a61a051b1c31039b151eb80fbbd0db25e9503d5100"
+        }
+      ]
+    }
+  ]
+}
