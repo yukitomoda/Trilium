@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "id": "d56db7b0-a9d4-4631-80c3-85d327876641",
-  "phase": "pending",
+  "phase": "complete",
   "createdAt": "2026-11-14T02:17:59.284Z",
   "conditions": {
     "model": "gemini-3.5-flash-lite",
@@ -37,9 +37,32 @@
           "context": "Quick Start > Choose the setup",
           "contextHash": "b7dc449c3ab5d8b698ddd2288597ccb11259895aba394a230783a7b0e7d2c125"
         }
-      ]
+      ],
+      "result": {
+        "key": "s3YCWHBfmYuM_f74d910604ab447e",
+        "translations": {
+          "u_9d179a5caae96eb1af012b1b_0": "クイックスタート",
+          "u_bd397bdcd0b124acc5c3e0bd_0": "__TRILIUM_PH_0__ローカル専用のデスクトップ/ラップトップ__TRILIUM_PH_1__ - デスクトップ上で単一インスタンスを実行し、ノートはそのデスクトップ上にローカル保存されます。",
+          "u_947e2e0f77c1fb87a0df52cc_0": "__TRILIUM_PH_0__デスクトップ版のインストール__TRILIUM_PH_1__"
+        },
+        "modelVersion": "gemini-3.5-flash-lite",
+        "usage": {
+          "promptTokenCount": 492,
+          "candidatesTokenCount": 187,
+          "totalTokenCount": 679,
+          "promptTokensDetails": [
+            {
+              "modality": "TEXT",
+              "tokenCount": 492
+            }
+          ],
+          "serviceTier": "standard"
+        }
+      }
     }
   ],
   "name": "batches/9i5n9adtzvhhgy1hqru3bn780dzlv0t27m0h",
-  "state": "JOB_STATE_PENDING"
+  "state": "JOB_STATE_SUCCEEDED",
+  "diagnostics": [],
+  "rejectedResponses": []
 }
