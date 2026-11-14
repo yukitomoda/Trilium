@@ -1,0 +1,539 @@
+{
+  "schemaVersion": 1,
+  "pageId": "2mUhVmZK8RF3",
+  "sourceFile": "docs/User Guide/User Guide/Advanced Usage/Hidden Notes.md",
+  "sourceRevision": "03d17b60f59b5efc29b880b11481471d0fe0ff57",
+  "units": [
+    {
+      "id": "u_9a689508b7813b74a9a98faa_0",
+      "kind": "title",
+      "source": "Hidden Notes",
+      "sourceHash": "9a689508b7813b74a9a98faa0ddbafe88ce92f6a7b6d063984a79fc7f973343b",
+      "context": "Hidden Notes",
+      "contextHash": "e164cd8a8b668f819c4c2ff7540846d22503d99e92813878fc143bf00d997b61",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_db62e03c1a409819dc8d9e9e_0",
+      "kind": "p",
+      "source": "For easy extensibility, a lot of features in Trilium make use of actual notes to store information as opposed to having them stored in a separate location in the database. This allows some functions such as __TRILIUM_PH_0__Attributes__TRILIUM_PH_1__, __TRILIUM_PH_2__Relations__TRILIUM_PH_3__ or even __TRILIUM_PH_4__Search__TRILIUM_PH_5__ and __TRILIUM_PH_6__Links__TRILIUM_PH_7__ to be able to operate on them.",
+      "sourceHash": "db62e03c1a409819dc8d9e9e57cd8591221af422267251c10a5aca7d3f36f45d",
+      "context": "Hidden Notes",
+      "contextHash": "e164cd8a8b668f819c4c2ff7540846d22503d99e92813878fc143bf00d997b61",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_e4bfd1fc11c43b09f40e6518_0",
+      "kind": "p",
+      "source": "As the name suggests, these notes are hidden to the user by default to prevent cluttering the note tree and to prevent them from being accidentally deleted.",
+      "sourceHash": "e4bfd1fc11c43b09f40e6518030ffe39f4ad008e62e523b5b694a38bca7ca61e",
+      "context": "Hidden Notes",
+      "contextHash": "e164cd8a8b668f819c4c2ff7540846d22503d99e92813878fc143bf00d997b61",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_6c0d51e46b5c5a2a61070c91_0",
+      "kind": "p",
+      "source": "The hidden notes are stored in the user's __TRILIUM_PH_0__Database__TRILIUM_PH_1__ just like normal notes, but they have a unique __TRILIUM_PH_2__Note ID__TRILIUM_PH_3__ which allows them to be distinguished from the normal ones.",
+      "sourceHash": "6c0d51e46b5c5a2a61070c91c33d49eda67635d839a040d5c884f0b734b84263",
+      "context": "Hidden Notes",
+      "contextHash": "e164cd8a8b668f819c4c2ff7540846d22503d99e92813878fc143bf00d997b61",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_5c728695b1e4e6d05ca6891c_0",
+      "kind": "h2",
+      "source": "Accessing the hidden note tree__TRILIUM_PH_0__",
+      "sourceHash": "5c728695b1e4e6d05ca6891c94f23ca0f5da09d3e54d7bdbe8b68d6f008659c9",
+      "context": "Hidden Notes > Accessing the hidden note tree",
+      "contextHash": "bd0b4b84ea9c6d2556d02a9aa5eb47eaef58e25490bd5e315e18a0b706037f7f",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_ea1eccdf27a2a536b738ff9a_0",
+      "kind": "p",
+      "source": "From the __TRILIUM_PH_0__Global menu__TRILIUM_PH_1__, select __TRILIUM_PH_2__Advanced__TRILIUM_PH_3__ → __TRILIUM_PH_4__Hidden notes__TRILIUM_PH_5__.",
+      "sourceHash": "ea1eccdf27a2a536b738ff9a9d645c83c4dbd4223ffc583c09cc396db21aa010",
+      "context": "Hidden Notes > Accessing the hidden note tree",
+      "contextHash": "bd0b4b84ea9c6d2556d02a9aa5eb47eaef58e25490bd5e315e18a0b706037f7f",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_a56d8e4a4aabc97d65f77616_0",
+      "kind": "h2",
+      "source": "Contents of the hidden note tree__TRILIUM_PH_0__",
+      "sourceHash": "a56d8e4a4aabc97d65f77616daf9edad4481f2bb4ddb65bdc8032bfc2325184a",
+      "context": "Hidden Notes > Contents of the hidden note tree",
+      "contextHash": "0bb4c0f135ece8460ee107f7994e3347e6b03df27aa319f141c16e326c50c1b4",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_e69c4f323d942cd17d5a57d3_0",
+      "kind": "p",
+      "source": "Here is a brief summary of all the notes within the hidden tree:",
+      "sourceHash": "e69c4f323d942cd17d5a57d3e16091f284448e90c483b1649523afce7997293f",
+      "context": "Hidden Notes > Contents of the hidden note tree",
+      "contextHash": "0bb4c0f135ece8460ee107f7994e3347e6b03df27aa319f141c16e326c50c1b4",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_5b08b4a7912419b56daf4cb6_0",
+      "kind": "th",
+      "source": "Note",
+      "sourceHash": "5b08b4a7912419b56daf4cb6c4f36a83c710844d74319429dbc36bdd3fd6c1d0",
+      "context": "Hidden Notes > Contents of the hidden note tree",
+      "contextHash": "0bb4c0f135ece8460ee107f7994e3347e6b03df27aa319f141c16e326c50c1b4",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_4b00baa636b92e18b7a75884_0",
+      "kind": "th",
+      "source": "Description",
+      "sourceHash": "4b00baa636b92e18b7a75884790f0769c3e702d20d8822e708f69ab2f07c7103",
+      "context": "Hidden Notes > Contents of the hidden note tree",
+      "contextHash": "0bb4c0f135ece8460ee107f7994e3347e6b03df27aa319f141c16e326c50c1b4",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_148a922f21420b092db22af8_0",
+      "kind": "td",
+      "source": "__TRILIUM_PH_0__Note Map__TRILIUM_PH_1__",
+      "sourceHash": "148a922f21420b092db22af8fcc695e20361a6521c1948f4fa2a6aaa5e66473b",
+      "context": "Hidden Notes > Contents of the hidden note tree",
+      "contextHash": "0bb4c0f135ece8460ee107f7994e3347e6b03df27aa319f141c16e326c50c1b4",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_6cfe46525aead7199babb63d_0",
+      "kind": "p",
+      "source": "This note is actually opened when the __TRILIUM_PH_0__Note Map__TRILIUM_PH_1__ feature that is accessed from the __TRILIUM_PH_2__Launch Bar__TRILIUM_PH_3__.",
+      "sourceHash": "6cfe46525aead7199babb63df3bc9b34bd37e3773b2738f85279b1bebf34ae4b",
+      "context": "Hidden Notes > Contents of the hidden note tree",
+      "contextHash": "0bb4c0f135ece8460ee107f7994e3347e6b03df27aa319f141c16e326c50c1b4",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_e2540d40fdd7ff44372a3092_0",
+      "kind": "p",
+      "source": "It is possible to create any child notes in it without any additional meaning. For example, it can be used to store a list of note maps which can be linked to from other notes or __TRILIUM_PH_0__bookmarked__TRILIUM_PH_1__.",
+      "sourceHash": "e2540d40fdd7ff44372a3092d40a458ce2ecb5e2c122527d1b059b99dfebf7a1",
+      "context": "Hidden Notes > Contents of the hidden note tree",
+      "contextHash": "0bb4c0f135ece8460ee107f7994e3347e6b03df27aa319f141c16e326c50c1b4",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_f8ff08776a7101c4d7fc0e50_0",
+      "kind": "td",
+      "source": "__TRILIUM_PH_0__SQL Console History__TRILIUM_PH_1__",
+      "sourceHash": "f8ff08776a7101c4d7fc0e50e33ef78ed8fafb96915c9f81f7f40bc5aad9f0b4",
+      "context": "Hidden Notes > Contents of the hidden note tree",
+      "contextHash": "0bb4c0f135ece8460ee107f7994e3347e6b03df27aa319f141c16e326c50c1b4",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_2156b63d6ebfd0f276f0cad8_0",
+      "kind": "p",
+      "source": "When SQL queries or commands are executed in the __TRILIUM_PH_0__SQL Console__TRILIUM_PH_1__, they are stored here, grouped by month. Only the query is stored and not the results.",
+      "sourceHash": "2156b63d6ebfd0f276f0cad832e3ce21dfe72c280bd749e738be5e3ce39fa5f5",
+      "context": "Hidden Notes > Contents of the hidden note tree",
+      "contextHash": "0bb4c0f135ece8460ee107f7994e3347e6b03df27aa319f141c16e326c50c1b4",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_b51d9a3d39d2b64b38fe37a6_0",
+      "kind": "p",
+      "source": "This section can be accessed without going to the hidden tree by simply going to the __TRILIUM_PH_0__Global menu__TRILIUM_PH_1__ and selecting Advanced → SQL console history.",
+      "sourceHash": "b51d9a3d39d2b64b38fe37a69bc49b6d8d11eed90ea5dbc22c9d2671831dd243",
+      "context": "Hidden Notes > Contents of the hidden note tree",
+      "contextHash": "0bb4c0f135ece8460ee107f7994e3347e6b03df27aa319f141c16e326c50c1b4",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_c5fe7a26ca71ec2e506707ea_0",
+      "kind": "p",
+      "source": "Notes can be added as children of this tree, but it's generally not recommended to do so to not interfere with the normal history process.",
+      "sourceHash": "c5fe7a26ca71ec2e506707ea373ce551f74851918f41d87c7c0885179d8023a6",
+      "context": "Hidden Notes > Contents of the hidden note tree",
+      "contextHash": "0bb4c0f135ece8460ee107f7994e3347e6b03df27aa319f141c16e326c50c1b4",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_9507d1ec0402b203895e8601_0",
+      "kind": "td",
+      "source": "__TRILIUM_PH_0__Search History__TRILIUM_PH_1__",
+      "sourceHash": "9507d1ec0402b203895e86011f89b3d1470e7fd862768e4f6de3481e56eb8886",
+      "context": "Hidden Notes > Contents of the hidden note tree",
+      "contextHash": "0bb4c0f135ece8460ee107f7994e3347e6b03df27aa319f141c16e326c50c1b4",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_146a1009dc7ba91557ee03da_0",
+      "kind": "p",
+      "source": "Whenever a search is executed from the full __TRILIUM_PH_0__Search__TRILIUM_PH_1__, the query will be stored here, grouped by month. Only the search parameters are stored and not the results themselves.",
+      "sourceHash": "146a1009dc7ba91557ee03da45731795afb2955f03e59cf38216e555084e8586",
+      "context": "Hidden Notes > Contents of the hidden note tree",
+      "contextHash": "0bb4c0f135ece8460ee107f7994e3347e6b03df27aa319f141c16e326c50c1b4",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_ccfd24432ba186e39423c054_0",
+      "kind": "p",
+      "source": "This section can be accessed without going to the hidden tree by simply going to the __TRILIUM_PH_0__Global menu__TRILIUM_PH_1__ and selecting Advanced → Search history.",
+      "sourceHash": "ccfd24432ba186e39423c054abe4c040099bb780f956d01c21eee9832a4c6cfc",
+      "context": "Hidden Notes > Contents of the hidden note tree",
+      "contextHash": "0bb4c0f135ece8460ee107f7994e3347e6b03df27aa319f141c16e326c50c1b4",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_c5fe7a26ca71ec2e506707ea_1",
+      "kind": "p",
+      "source": "Notes can be added as children of this tree, but it's generally not recommended to do so to not interfere with the normal history process.",
+      "sourceHash": "c5fe7a26ca71ec2e506707ea373ce551f74851918f41d87c7c0885179d8023a6",
+      "context": "Hidden Notes > Contents of the hidden note tree",
+      "contextHash": "0bb4c0f135ece8460ee107f7994e3347e6b03df27aa319f141c16e326c50c1b4",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_40c83ab0fffd0d491ff642e8_0",
+      "kind": "td",
+      "source": "__TRILIUM_PH_0__Bulk Action__TRILIUM_PH_1__",
+      "sourceHash": "40c83ab0fffd0d491ff642e8cd63f10196cd33e9f2a3b629d48d99834ea75561",
+      "context": "Hidden Notes > Contents of the hidden note tree",
+      "contextHash": "0bb4c0f135ece8460ee107f7994e3347e6b03df27aa319f141c16e326c50c1b4",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_f57197cd0e0b6ca37fefc37c_0",
+      "kind": "p",
+      "source": "This section is used for __TRILIUM_PH_0__Bulk Actions__TRILIUM_PH_1__. The last configuration for bulk actions will be stored as part of this note, each action in its own __TRILIUM_PH_2__ label.",
+      "sourceHash": "f57197cd0e0b6ca37fefc37c9c9c95e0c85fd98a1f05a3b0d3a05a1329c44eb7",
+      "context": "Hidden Notes > Contents of the hidden note tree",
+      "contextHash": "0bb4c0f135ece8460ee107f7994e3347e6b03df27aa319f141c16e326c50c1b4",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_7342b37846cad0b373301a71_0",
+      "kind": "p",
+      "source": "Notes can be added as children of this tree, but there won't be any benefit in doing so.",
+      "sourceHash": "7342b37846cad0b373301a712cf2ed67dcc4af4a9d3bd241862abb45453aab47",
+      "context": "Hidden Notes > Contents of the hidden note tree",
+      "contextHash": "0bb4c0f135ece8460ee107f7994e3347e6b03df27aa319f141c16e326c50c1b4",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_756cb0c088f998a090e79e27_0",
+      "kind": "td",
+      "source": "__TRILIUM_PH_0__Backend Log__TRILIUM_PH_1__",
+      "sourceHash": "756cb0c088f998a090e79e277aad9d3cbb192a906fcb42ad559aedfcafedfbf3",
+      "context": "Hidden Notes > Contents of the hidden note tree",
+      "contextHash": "0bb4c0f135ece8460ee107f7994e3347e6b03df27aa319f141c16e326c50c1b4",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_172793b9d245282240d6593a_0",
+      "kind": "p",
+      "source": "This note corresponds to the backend log feature (see __TRILIUM_PH_0__Error logs__TRILIUM_PH_1__).",
+      "sourceHash": "172793b9d245282240d6593a839343662e53ffa566dbe8b2941e133a87d50b08",
+      "context": "Hidden Notes > Contents of the hidden note tree",
+      "contextHash": "0bb4c0f135ece8460ee107f7994e3347e6b03df27aa319f141c16e326c50c1b4",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_a2b95ee6bdb6e43f24c6fde0_0",
+      "kind": "p",
+      "source": "This item can be accessed without going to the hidden try by going to the __TRILIUM_PH_0__Global menu__TRILIUM_PH_1__ and selecting Advanced → Backend log.",
+      "sourceHash": "a2b95ee6bdb6e43f24c6fde0e8de5aac17712ba1c4bfd9a207f96b68b78649ca",
+      "context": "Hidden Notes > Contents of the hidden note tree",
+      "contextHash": "0bb4c0f135ece8460ee107f7994e3347e6b03df27aa319f141c16e326c50c1b4",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_c3a625bd0fbe5894c0bcffa9_0",
+      "kind": "td",
+      "source": "__TRILIUM_PH_0__User Hidden__TRILIUM_PH_1__",
+      "sourceHash": "c3a625bd0fbe5894c0bcffa9b903ea71ae724ff29d25e2e2e21d996fd67eeb00",
+      "context": "Hidden Notes > Contents of the hidden note tree",
+      "contextHash": "0bb4c0f135ece8460ee107f7994e3347e6b03df27aa319f141c16e326c50c1b4",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_a7a453c55998ac1018753dee_0",
+      "kind": "td",
+      "source": "This section can be used by __TRILIUM_PH_0__scripts__TRILIUM_PH_1__ to create their own notes that should not be directly visible to the user. The note can be identified by scripts by its unique ID: __TRILIUM_PH_2__",
+      "sourceHash": "a7a453c55998ac1018753dee27099c8783aca49ea4766cf51d9709f5fd2eea62",
+      "context": "Hidden Notes > Contents of the hidden note tree",
+      "contextHash": "0bb4c0f135ece8460ee107f7994e3347e6b03df27aa319f141c16e326c50c1b4",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_ee200e49624caae725daa996_0",
+      "kind": "td",
+      "source": "__TRILIUM_PH_0__Launch Bar Templates__TRILIUM_PH_1__",
+      "sourceHash": "ee200e49624caae725daa99666084da60bb6ef1bbf1762bcd87083e3a845e55c",
+      "context": "Hidden Notes > Contents of the hidden note tree",
+      "contextHash": "0bb4c0f135ece8460ee107f7994e3347e6b03df27aa319f141c16e326c50c1b4",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_db8709b2b99dc262cb4a73cf_0",
+      "kind": "p",
+      "source": "This section contains the templates for the creation of launchers in the __TRILIUM_PH_0__Launch Bar__TRILIUM_PH_1__. It is not possible to create child notes here.",
+      "sourceHash": "db8709b2b99dc262cb4a73cf8c330b9d4954580a405b03184b75e9e841c59de2",
+      "context": "Hidden Notes > Contents of the hidden note tree",
+      "contextHash": "0bb4c0f135ece8460ee107f7994e3347e6b03df27aa319f141c16e326c50c1b4",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_ff0672fa096ed81537fb1fce_0",
+      "kind": "p",
+      "source": "Theoretically some of the notes here can be customized, but there's not much benefit to be had in doing so.",
+      "sourceHash": "ff0672fa096ed81537fb1fce8f71bb6b6590ad2a157ea46755a82da77e547d57",
+      "context": "Hidden Notes > Contents of the hidden note tree",
+      "contextHash": "0bb4c0f135ece8460ee107f7994e3347e6b03df27aa319f141c16e326c50c1b4",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_dcc89d9adeae62654e3676cd_0",
+      "kind": "td",
+      "source": "__TRILIUM_PH_0__Shared Notes__TRILIUM_PH_1__",
+      "sourceHash": "dcc89d9adeae62654e3676cd0fccf259fc9fce870bcc8342e6b97d18dddd9449",
+      "context": "Hidden Notes > Contents of the hidden note tree",
+      "contextHash": "0bb4c0f135ece8460ee107f7994e3347e6b03df27aa319f141c16e326c50c1b4",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_74ad6ec467979c2c5ae7b699_0",
+      "kind": "p",
+      "source": "This tree lists all of the notes that are __TRILIUM_PH_0__shared__TRILIUM_PH_1__ publicly. It can be useful to track down which notes are shared regardless of their position in the note tree.",
+      "sourceHash": "74ad6ec467979c2c5ae7b699fb5be40467949ae377e3bc6cc44990654b105710",
+      "context": "Hidden Notes > Contents of the hidden note tree",
+      "contextHash": "0bb4c0f135ece8460ee107f7994e3347e6b03df27aa319f141c16e326c50c1b4",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_26a985c0cef6b73c6b22f2f6_0",
+      "kind": "p",
+      "source": "This section can be accessed without going to the hidden tree simply by going to the __TRILIUM_PH_0__Global menu__TRILIUM_PH_1__ and selecting __TRILIUM_PH_2__Advanced__TRILIUM_PH_3__ → __TRILIUM_PH_4__Shared notes__TRILIUM_PH_5__.",
+      "sourceHash": "26a985c0cef6b73c6b22f2f6847212a4338f9e1b8cf19b04679be59022ccd247",
+      "context": "Hidden Notes > Contents of the hidden note tree",
+      "contextHash": "0bb4c0f135ece8460ee107f7994e3347e6b03df27aa319f141c16e326c50c1b4",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_f1e50a951fcaf8fd2e4b8af4_0",
+      "kind": "p",
+      "source": "Sub-notes cannot be created here.",
+      "sourceHash": "f1e50a951fcaf8fd2e4b8af43b1a87576b73d34a512e341f58c2bb018ebb127e",
+      "context": "Hidden Notes > Contents of the hidden note tree",
+      "contextHash": "0bb4c0f135ece8460ee107f7994e3347e6b03df27aa319f141c16e326c50c1b4",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_491ff322823a8cabbbf7ede8_0",
+      "kind": "td",
+      "source": "__TRILIUM_PH_0__Launch Bar__TRILIUM_PH_1__",
+      "sourceHash": "491ff322823a8cabbbf7ede814e9d204a04e28698b8777b66b21f2237148cd44",
+      "context": "Hidden Notes > Contents of the hidden note tree",
+      "contextHash": "0bb4c0f135ece8460ee107f7994e3347e6b03df27aa319f141c16e326c50c1b4",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_265df8478469717d6a304ca3_0",
+      "kind": "p",
+      "source": "The tree contains both available and displayed items of the __TRILIUM_PH_0__Launch Bar__TRILIUM_PH_1__.",
+      "sourceHash": "265df8478469717d6a304ca32b1d18e26847b908bdb98e0a40e51106a2c26412",
+      "context": "Hidden Notes > Contents of the hidden note tree",
+      "contextHash": "0bb4c0f135ece8460ee107f7994e3347e6b03df27aa319f141c16e326c50c1b4",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_5b9fa116268d959a76136f97_0",
+      "kind": "p",
+      "source": "This section can be accessed without going to the hidden tree by:",
+      "sourceHash": "5b9fa116268d959a76136f97732b026ca425ff3723e4e86ea664f2755141ae9f",
+      "context": "Hidden Notes > Contents of the hidden note tree",
+      "contextHash": "0bb4c0f135ece8460ee107f7994e3347e6b03df27aa319f141c16e326c50c1b4",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_f0d4243853920688b517cd02_0",
+      "kind": "li",
+      "source": "Going to the __TRILIUM_PH_0__Global menu__TRILIUM_PH_1__ and selecting __TRILIUM_PH_2__Configure launch bar…__TRILIUM_PH_3__.",
+      "sourceHash": "f0d4243853920688b517cd02a87bec11ae0ac5863abe307f332cc2412c5d56dc",
+      "context": "Hidden Notes > Contents of the hidden note tree",
+      "contextHash": "0bb4c0f135ece8460ee107f7994e3347e6b03df27aa319f141c16e326c50c1b4",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_146c838554cd38b26d9bacf3_0",
+      "kind": "li",
+      "source": "Right-clicking an empty space on the __TRILIUM_PH_0__Launch Bar__TRILIUM_PH_1__ and selecting __TRILIUM_PH_2__Configure launch bar…__TRILIUM_PH_3__.",
+      "sourceHash": "146c838554cd38b26d9bacf3a51339ca3ebccae96c657999b90a6c2e7bb0f063",
+      "context": "Hidden Notes > Contents of the hidden note tree",
+      "contextHash": "0bb4c0f135ece8460ee107f7994e3347e6b03df27aa319f141c16e326c50c1b4",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_f1e50a951fcaf8fd2e4b8af4_1",
+      "kind": "p",
+      "source": "Sub-notes cannot be created here.",
+      "sourceHash": "f1e50a951fcaf8fd2e4b8af43b1a87576b73d34a512e341f58c2bb018ebb127e",
+      "context": "Hidden Notes > Contents of the hidden note tree",
+      "contextHash": "0bb4c0f135ece8460ee107f7994e3347e6b03df27aa319f141c16e326c50c1b4",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_00b58505efce8c744a480f0a_0",
+      "kind": "td",
+      "source": "__TRILIUM_PH_0__Options__TRILIUM_PH_1__",
+      "sourceHash": "00b58505efce8c744a480f0af4ad68d171e86bd992f6c82841b1d333593c1b46",
+      "context": "Hidden Notes > Contents of the hidden note tree",
+      "contextHash": "0bb4c0f135ece8460ee107f7994e3347e6b03df27aa319f141c16e326c50c1b4",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_0b3a5ec86a2e5b290779661f_0",
+      "kind": "p",
+      "source": "This section stores the list of __TRILIUM_PH_0__Options__TRILIUM_PH_1__.",
+      "sourceHash": "0b3a5ec86a2e5b290779661f3b569c15211c04467d4bcc699776acde9a3136bd",
+      "context": "Hidden Notes > Contents of the hidden note tree",
+      "contextHash": "0bb4c0f135ece8460ee107f7994e3347e6b03df27aa319f141c16e326c50c1b4",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_5b9fa116268d959a76136f97_1",
+      "kind": "p",
+      "source": "This section can be accessed without going to the hidden tree by:",
+      "sourceHash": "5b9fa116268d959a76136f97732b026ca425ff3723e4e86ea664f2755141ae9f",
+      "context": "Hidden Notes > Contents of the hidden note tree",
+      "contextHash": "0bb4c0f135ece8460ee107f7994e3347e6b03df27aa319f141c16e326c50c1b4",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_db2cbf57ca9ffc1de1eebf83_0",
+      "kind": "li",
+      "source": "Going to the __TRILIUM_PH_0__Global menu__TRILIUM_PH_1__ and selecting __TRILIUM_PH_2__Options__TRILIUM_PH_3__.",
+      "sourceHash": "db2cbf57ca9ffc1de1eebf835bf097bf789ba52c24c0e98c16a8e2384c83c1b0",
+      "context": "Hidden Notes > Contents of the hidden note tree",
+      "contextHash": "0bb4c0f135ece8460ee107f7994e3347e6b03df27aa319f141c16e326c50c1b4",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_8d37b811ea621ae9920bedcb_0",
+      "kind": "li",
+      "source": "Pressing the dedicated Options icon in the __TRILIUM_PH_0__Launch Bar__TRILIUM_PH_1__.",
+      "sourceHash": "8d37b811ea621ae9920bedcbbb2e3eac25f9eeadc1d34a27609265f7245bb5e6",
+      "context": "Hidden Notes > Contents of the hidden note tree",
+      "contextHash": "0bb4c0f135ece8460ee107f7994e3347e6b03df27aa319f141c16e326c50c1b4",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_6289cacd535a52f44bd00ad6_0",
+      "kind": "td",
+      "source": "__TRILIUM_PH_0__Mobile Launch Bar__TRILIUM_PH_1__",
+      "sourceHash": "6289cacd535a52f44bd00ad619c1a9a2a959a60bdf0fea79e98ae9cb0608edcf",
+      "context": "Hidden Notes > Contents of the hidden note tree",
+      "contextHash": "0bb4c0f135ece8460ee107f7994e3347e6b03df27aa319f141c16e326c50c1b4",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_67892ad56a89f8158fe9c9ad_0",
+      "kind": "p",
+      "source": "This is very similar to the __TRILIUM_PH_0__Launch Bar__TRILIUM_PH_1__, but is dedicated for the mobile UI only.",
+      "sourceHash": "67892ad56a89f8158fe9c9ad8eae735f4f6001fe8faf882a12e5cbfc13abf8f2",
+      "context": "Hidden Notes > Contents of the hidden note tree",
+      "contextHash": "0bb4c0f135ece8460ee107f7994e3347e6b03df27aa319f141c16e326c50c1b4",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_cbba1338833d2064c33e37d0_0",
+      "kind": "p",
+      "source": "Accessing it outside the __TRILIUM_PH_0__Launch Bar__TRILIUM_PH_1__ is the same as the Launch Bar, but needs to be done so from the mobile interface.",
+      "sourceHash": "cbba1338833d2064c33e37d0ae14512d6373061f03781127a5bf5ea81b5b943a",
+      "context": "Hidden Notes > Contents of the hidden note tree",
+      "contextHash": "0bb4c0f135ece8460ee107f7994e3347e6b03df27aa319f141c16e326c50c1b4",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_d934c9ef7be6b7a181bd098b_0",
+      "kind": "td",
+      "source": "__TRILIUM_PH_0__User Guide__TRILIUM_PH_1__",
+      "sourceHash": "d934c9ef7be6b7a181bd098b43379025d891a4b5e180047bdef05ac46f7202dc",
+      "context": "Hidden Notes > Contents of the hidden note tree",
+      "contextHash": "0bb4c0f135ece8460ee107f7994e3347e6b03df27aa319f141c16e326c50c1b4",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_012f32937854a4bbcff65b2f_0",
+      "kind": "td",
+      "source": "This is where the User Guide appears in the note tree. Its notes are not stored in the database: Trilium builds them from files that ship with the application each time it starts, so they cannot be edited, moved or cloned, and they are not synchronized.",
+      "sourceHash": "012f32937854a4bbcff65b2f9a31a07e5588667c0d43de97304d2db0ae4e7837",
+      "context": "Hidden Notes > Contents of the hidden note tree",
+      "contextHash": "0bb4c0f135ece8460ee107f7994e3347e6b03df27aa319f141c16e326c50c1b4",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_b190d47815633246b0ab18a6_0",
+      "kind": "image-alt",
+      "source": "記事画像",
+      "sourceHash": "b190d47815633246b0ab18a61d9b8e8ea36504fe3f8bc230a7753096915c9ff2",
+      "context": "Hidden Notes > Contents of the hidden note tree",
+      "contextHash": "0bb4c0f135ece8460ee107f7994e3347e6b03df27aa319f141c16e326c50c1b4",
+      "status": "pending",
+      "active": true
+    }
+  ],
+  "requests": []
+}

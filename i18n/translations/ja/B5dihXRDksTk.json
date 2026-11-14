@@ -1,0 +1,109 @@
+{
+  "schemaVersion": 1,
+  "pageId": "B5dihXRDksTk",
+  "sourceFile": "docs/User Guide/User Guide/Basic Concepts and Features/Notes/Note badges.md",
+  "sourceRevision": "03d17b60f59b5efc29b880b11481471d0fe0ff57",
+  "units": [
+    {
+      "id": "u_88d32aaff6a031289c9eb7c2_0",
+      "kind": "title",
+      "source": "Note badges",
+      "sourceHash": "88d32aaff6a031289c9eb7c2dd87fc4ca23de15f95c5711acb1537a3a7443e44",
+      "context": "Note badges",
+      "contextHash": "d0b45127e7c441deb7737f6765a33a363e6ce54f36dbf41918fc14118766e24a",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_06001f3ad9134639a4f33837_0",
+      "kind": "p",
+      "source": "Note badges appear near the fixed note title and indicate important information about the note such as whether it is read-only. Some of the badges are also interactive.",
+      "sourceHash": "06001f3ad9134639a4f33837fc96fa9703313e59a59546e739048b387945778f",
+      "context": "Note badges",
+      "contextHash": "d0b45127e7c441deb7737f6765a33a363e6ce54f36dbf41918fc14118766e24a",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_362aa375916e69977b59100e_0",
+      "kind": "p",
+      "source": "The following badges are available:",
+      "sourceHash": "362aa375916e69977b59100ee4df855ca8875797d161f0181874663e6969a8a8",
+      "context": "Note badges",
+      "contextHash": "d0b45127e7c441deb7737f6765a33a363e6ce54f36dbf41918fc14118766e24a",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_8d6d3d5bfcdf51e300358e1d_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__ __TRILIUM_PH_1__Read-only badge__TRILIUM_PH_2__, which will be shown if the note is not editable due to either automatic read-only or manual read-only. Clicking on the badge will temporarily edit the note. On the pages of the built-in user guide, which cannot be edited, the badge does nothing when clicked.",
+      "sourceHash": "8d6d3d5bfcdf51e300358e1d5d7939402fd3d31c8043d7ade76dbf708a024f93",
+      "context": "Note badges",
+      "contextHash": "d0b45127e7c441deb7737f6765a33a363e6ce54f36dbf41918fc14118766e24a",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_f7882c990620b02125fc87f5_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__ __TRILIUM_PH_1__Share badge__TRILIUM_PH_2__, which will indicate that the current note is shared. The badge will also indicate if the share is on the local network (for the desktop application without __TRILIUM_PH_3__Synchronization__TRILIUM_PH_4__ set up) or publicly accessible (for the server).",
+      "sourceHash": "f7882c990620b02125fc87f5d6c25453cb685e73423cd45732d3582169cdf2b2",
+      "context": "Note badges",
+      "contextHash": "d0b45127e7c441deb7737f6765a33a363e6ce54f36dbf41918fc14118766e24a",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_976b4fb1d3aab6e14f8f02b2_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__ __TRILIUM_PH_1__Web clip badge__TRILIUM_PH_2__, which will indicate if the note was clipped using the __TRILIUM_PH_3__Web Clipper__TRILIUM_PH_4__. The badge acts as a link, so it can be clicked on to navigate to the page or right clicked for more options. When the clipper also saved the page's description, its author, or the dates it was published and last updated, clicking the badge shows these details instead, with a link to the page at the top.",
+      "sourceHash": "976b4fb1d3aab6e14f8f02b283f884311edcb7b5193cbec1bd048251ea6077a0",
+      "context": "Note badges",
+      "contextHash": "d0b45127e7c441deb7737f6765a33a363e6ce54f36dbf41918fc14118766e24a",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_1950dcef584dbbde36e42a72_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__ __TRILIUM_PH_1__Execute badge__TRILIUM_PH_2__, for __TRILIUM_PH_3__scripts__TRILIUM_PH_4__ or __TRILIUM_PH_5__saved SQL queries__TRILIUM_PH_6__ which have an execute button or a description.",
+      "sourceHash": "1950dcef584dbbde36e42a72262eb0895b75bf185db9b7d846299952a8de8f7d",
+      "context": "Note badges",
+      "contextHash": "d0b45127e7c441deb7737f6765a33a363e6ce54f36dbf41918fc14118766e24a",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_0f3669ff816a0a9cf1107a38_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__ __TRILIUM_PH_1__Template badge__TRILIUM_PH_2__, for __TRILIUM_PH_3__Templates__TRILIUM_PH_4__ (including workspace templates, for which the badge reads __TRILIUM_PH_5__Workspace template__TRILIUM_PH_6__). Notes created from a template inherit its attributes, so the badge is a reminder that changing them affects every such note. Clicking the badge switches the template between being offered everywhere and only while hoisted into its workspace, the latter only for a template inside a workspace (see __TRILIUM_PH_7__Workspaces__TRILIUM_PH_8__). It also opens __TRILIUM_PH_9__Template properties...__TRILIUM_PH_10__, where the default title and location of new notes are set.",
+      "sourceHash": "0f3669ff816a0a9cf1107a388799cf9556462ab44eb0bd314bc2feedaa42fed3",
+      "context": "Note badges",
+      "contextHash": "d0b45127e7c441deb7737f6765a33a363e6ce54f36dbf41918fc14118766e24a",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_4c2f400c3d1edbf67894857a_0",
+      "kind": "li",
+      "source": "For __TRILIUM_PH_0__Active content__TRILIUM_PH_1__ (e.g. scripts, styles), a dedicated badge will be shown indicating the type of note and with an option to easily enable or disable it.",
+      "sourceHash": "4c2f400c3d1edbf67894857a57b14014cda2e2b12f89fd879c6a3fd9d9faf33a",
+      "context": "Note badges",
+      "contextHash": "d0b45127e7c441deb7737f6765a33a363e6ce54f36dbf41918fc14118766e24a",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_b190d47815633246b0ab18a6_0",
+      "kind": "image-alt",
+      "source": "記事画像",
+      "sourceHash": "b190d47815633246b0ab18a61d9b8e8ea36504fe3f8bc230a7753096915c9ff2",
+      "context": "Note badges",
+      "contextHash": "d0b45127e7c441deb7737f6765a33a363e6ce54f36dbf41918fc14118766e24a",
+      "status": "pending",
+      "active": true
+    }
+  ],
+  "requests": []
+}

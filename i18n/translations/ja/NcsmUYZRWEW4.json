@@ -1,0 +1,889 @@
+{
+  "schemaVersion": 1,
+  "pageId": "NcsmUYZRWEW4",
+  "sourceFile": "docs/User Guide/User Guide/Miscellaneous/Patterns of personal knowledge.md",
+  "sourceRevision": "03d17b60f59b5efc29b880b11481471d0fe0ff57",
+  "units": [
+    {
+      "id": "u_38a714aca3448570a4e768e7_0",
+      "kind": "title",
+      "source": "Patterns of personal knowledge",
+      "sourceHash": "38a714aca3448570a4e768e7d919749dda95c17af3aea8351864cb7d613b8f96",
+      "context": "Patterns of personal knowledge",
+      "contextHash": "959e09d2d302519da41ace577c73cede282a4a726df19c2b7029a9fa91f72f9e",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_fda5d4a9afce624e6b01b0c8_0",
+      "kind": "p",
+      "source": "This article is a description of the original author of Trilium (zadam) in regards with his own knowledge base.",
+      "sourceHash": "fda5d4a9afce624e6b01b0c816ece1405c3faf0382879f37c4afcc9b40f71c05",
+      "context": "Patterns of personal knowledge",
+      "contextHash": "959e09d2d302519da41ace577c73cede282a4a726df19c2b7029a9fa91f72f9e",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_c252654d8048ad281b7de92e_0",
+      "kind": "p",
+      "source": "This page contains description of some of the patterns I use to organize information in my knowledge base. This is meant to give some inspiration of how one might create and structure their knowledge base in general and also specifically in Trilium Notes. It also gives some background and justification for some of the design decisions.",
+      "sourceHash": "c252654d8048ad281b7de92eef625f2926687ce70dc1ca39c6338c0df989bcfa",
+      "context": "Patterns of personal knowledge",
+      "contextHash": "959e09d2d302519da41ace577c73cede282a4a726df19c2b7029a9fa91f72f9e",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_a5a9cf25f2236fdee0517a72_0",
+      "kind": "h2",
+      "source": "Meta patterns__TRILIUM_PH_0__",
+      "sourceHash": "a5a9cf25f2236fdee0517a72f37ed4b4cc7d4f7c899da8ffb33bfafaa80ea853",
+      "context": "Patterns of personal knowledge > Meta patterns",
+      "contextHash": "a543d30fed415d1d7d264dee30aae486f3876475ed1ca154707520dd968766cb",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_6e7644ad8552605d1a198773_0",
+      "kind": "p",
+      "source": "Just to be clear, meta patterns are \"patterns of patterns\", i.e. patterns appearing in other patterns.",
+      "sourceHash": "6e7644ad8552605d1a1987739b61d79cd189dd3df22282b1306ac80f1d0799bd",
+      "context": "Patterns of personal knowledge > Meta patterns",
+      "contextHash": "a543d30fed415d1d7d264dee30aae486f3876475ed1ca154707520dd968766cb",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_9cea328ab48251d5b5a3c672_0",
+      "kind": "h3",
+      "source": "Hierarchical organization of information__TRILIUM_PH_0__",
+      "sourceHash": "9cea328ab48251d5b5a3c672502ef215e70915bf552a222a88afaa28f898a4c9",
+      "context": "Patterns of personal knowledge > Meta patterns > Hierarchical organization of information",
+      "contextHash": "887a2b4b553be122e58e3021dc26deccb7f675206b8051030ae69786263fda21",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_71c90169cf8ad0ad201b0047_0",
+      "kind": "p",
+      "source": "Basic meta pattern is that I sort notes (units of information) into a hierarchy - I have some \"top level\" notes which represent coarse grained organization, these then split into sub-notes defining finer grained organization and so on. I consider this hierarchical (tree) organization very efficient for organization of large amounts of information. A lot of note taking software (such as Evernote) are frustratingly limited in this regard which limits scalability of the software to large amounts of notes.",
+      "sourceHash": "71c90169cf8ad0ad201b00472e1ae932d97ab7ab1a4810c2c1a6281a14bee5ce",
+      "context": "Patterns of personal knowledge > Meta patterns > Hierarchical organization of information",
+      "contextHash": "887a2b4b553be122e58e3021dc26deccb7f675206b8051030ae69786263fda21",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_56faa66ec85b4040b96b67ef_0",
+      "kind": "h4",
+      "source": "Scalability__TRILIUM_PH_0__",
+      "sourceHash": "56faa66ec85b4040b96b67efbb3eee69a3419e32aedc0664a3f0267b37911e18",
+      "context": "Patterns of personal knowledge > Meta patterns > Hierarchical organization of information > Scalability",
+      "contextHash": "5dae92a8c9e7bc9725bb948c4a26ab599f417c03f16c1666c704b85a7c74b098",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_b6320cb85a926f59ed02d5a3_0",
+      "kind": "p",
+      "source": "It's important to frame the following (meta) patterns with some idea of how large amount of data are we talking about.",
+      "sourceHash": "b6320cb85a926f59ed02d5a3d5148c8db71d19c616ba8b109aeb459525b9b668",
+      "context": "Patterns of personal knowledge > Meta patterns > Hierarchical organization of information > Scalability",
+      "contextHash": "5dae92a8c9e7bc9725bb948c4a26ab599f417c03f16c1666c704b85a7c74b098",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_de6d7b9278a8b4c5a0dcb548_0",
+      "kind": "p",
+      "source": "My rule of thumb for estimation of size of personal knowledge base is that you can reasonably produce around 10 notes a day, which is 3650 in a year. I plan to use my knowledge base long term (with or without Trilium Notes), probably decades so you can easily get to number 100 000 or even more. Right now, my personal knowledge base has around 10 000 notes.",
+      "sourceHash": "de6d7b9278a8b4c5a0dcb54870bc6ac794c034a5a9097d87b1a1eb47e6f3ccb5",
+      "context": "Patterns of personal knowledge > Meta patterns > Hierarchical organization of information > Scalability",
+      "contextHash": "5dae92a8c9e7bc9725bb948c4a26ab599f417c03f16c1666c704b85a7c74b098",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_34f1ba0496c23e30d330ff7d_0",
+      "kind": "p",
+      "source": "100 000 is a number to which most note taking software doesn't scale well (in both performance and UI). Yet I don't think it's really very much considering a lifetime of knowledge.",
+      "sourceHash": "34f1ba0496c23e30d330ff7de651e6db9c3ab9c9ccbbe9d9fa2c6ada227a6dc4",
+      "context": "Patterns of personal knowledge > Meta patterns > Hierarchical organization of information > Scalability",
+      "contextHash": "5dae92a8c9e7bc9725bb948c4a26ab599f417c03f16c1666c704b85a7c74b098",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_d8d40a6dbde1b72e9cfe1cbe_0",
+      "kind": "h4",
+      "source": "Lazy hierarchy__TRILIUM_PH_0__",
+      "sourceHash": "d8d40a6dbde1b72e9cfe1cbe0f9ee7e3abce39d03ddb8377737689141b4fbd8e",
+      "context": "Patterns of personal knowledge > Meta patterns > Hierarchical organization of information > Lazy hierarchy",
+      "contextHash": "d59eca64e41c0f1891756bb9ae2e54e529bcafd270230f692096cc99cd33ec25",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_4ee2d90394f02ee4b85e83c2_0",
+      "kind": "p",
+      "source": "My approach to creating the hierarchy is being lazy - I don't create the structure first and then fill it with notes, instead I create single note for some specific topic and start using this one note. Once the content starts to grow, and I see how __TRILIUM_PH_0__some__TRILIUM_PH_1__ parts could be split out, I move them out into separate sub notes. As an example I have a book review for __TRILIUM_PH_2__The Fellowship of the Ring__TRILIUM_PH_3__:",
+      "sourceHash": "4ee2d90394f02ee4b85e83c2691b87827a26ab78e55b5f77c14f89e922933c91",
+      "context": "Patterns of personal knowledge > Meta patterns > Hierarchical organization of information > Lazy hierarchy",
+      "contextHash": "d59eca64e41c0f1891756bb9ae2e54e529bcafd270230f692096cc99cd33ec25",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_f808a43b0355d78141ed2096_0",
+      "kind": "li",
+      "source": "Book reviews",
+      "sourceHash": "f808a43b0355d78141ed2096b1a043fa1fc92359347dc941637d4830399aa53a",
+      "context": "Patterns of personal knowledge > Meta patterns > Hierarchical organization of information > Lazy hierarchy",
+      "contextHash": "d59eca64e41c0f1891756bb9ae2e54e529bcafd270230f692096cc99cd33ec25",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_2db67162aa7b2dd7e0f1a8f0_0",
+      "kind": "li",
+      "source": "The Fellowship of the Ring",
+      "sourceHash": "2db67162aa7b2dd7e0f1a8f0497b2dc66b8fcc1180f0bf0c2f3c88a7fc29d614",
+      "context": "Patterns of personal knowledge > Meta patterns > Hierarchical organization of information > Lazy hierarchy",
+      "contextHash": "d59eca64e41c0f1891756bb9ae2e54e529bcafd270230f692096cc99cd33ec25",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_47b23bd726c02bdbc426f7a3_0",
+      "kind": "p",
+      "source": "The note contains basic book info (author, publisher etc.), book highlights with the comments and then overall review. Now it turns out there's far too many book highlights and overall review is also rather long, so I want to change the structure to the following:",
+      "sourceHash": "47b23bd726c02bdbc426f7a347d2619f221a59f4939c44d44ad098f8fb161a4d",
+      "context": "Patterns of personal knowledge > Meta patterns > Hierarchical organization of information > Lazy hierarchy",
+      "contextHash": "d59eca64e41c0f1891756bb9ae2e54e529bcafd270230f692096cc99cd33ec25",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_f808a43b0355d78141ed2096_1",
+      "kind": "li",
+      "source": "Book reviews",
+      "sourceHash": "f808a43b0355d78141ed2096b1a043fa1fc92359347dc941637d4830399aa53a",
+      "context": "Patterns of personal knowledge > Meta patterns > Hierarchical organization of information > Lazy hierarchy",
+      "contextHash": "d59eca64e41c0f1891756bb9ae2e54e529bcafd270230f692096cc99cd33ec25",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_735674f41469cb2087700ed2_0",
+      "kind": "li",
+      "source": "The Fellowship of the Ring       __TRILIUM_PH_0__(still contains basic info)__TRILIUM_PH_1__",
+      "sourceHash": "735674f41469cb2087700ed27a4d500a3359dac50ef5c59ab6632ad21f241c52",
+      "context": "Patterns of personal knowledge > Meta patterns > Hierarchical organization of information > Lazy hierarchy",
+      "contextHash": "d59eca64e41c0f1891756bb9ae2e54e529bcafd270230f692096cc99cd33ec25",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_fb47d95ae71603763832157d_0",
+      "kind": "li",
+      "source": "Highlights",
+      "sourceHash": "fb47d95ae71603763832157d980793065cdac5c9d726d61ab0dbe9e9867c17c9",
+      "context": "Patterns of personal knowledge > Meta patterns > Hierarchical organization of information > Lazy hierarchy",
+      "contextHash": "d59eca64e41c0f1891756bb9ae2e54e529bcafd270230f692096cc99cd33ec25",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_a23eab53b1b6dcc704830df0_0",
+      "kind": "li",
+      "source": "Review",
+      "sourceHash": "a23eab53b1b6dcc704830df086a066f86378c934798c54665181cf2d0c55b74b",
+      "context": "Patterns of personal knowledge > Meta patterns > Hierarchical organization of information > Lazy hierarchy",
+      "contextHash": "d59eca64e41c0f1891756bb9ae2e54e529bcafd270230f692096cc99cd33ec25",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_abb2a9b53e166d95059fe5ef_0",
+      "kind": "p",
+      "source": "If I used standard text file stored in a filesystem I would soon run into an annoying problem that in order to split out the Highlights and Review into sub-notes I would also have to convert __TRILIUM_PH_0__The Fellowship of the Ring__TRILIUM_PH_1__ from text file into directory and split out all sections of the note into sub-notes. Instead, Trilium treats all notes as equal - both leaf notes and inner notes can have both text content which allows me to sub-structure only content which needs it.",
+      "sourceHash": "abb2a9b53e166d95059fe5ef745504522142bdf9996d8f961c22bcc99d287e88",
+      "context": "Patterns of personal knowledge > Meta patterns > Hierarchical organization of information > Lazy hierarchy",
+      "contextHash": "d59eca64e41c0f1891756bb9ae2e54e529bcafd270230f692096cc99cd33ec25",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_4edecae084e56dd264b4cc30_0",
+      "kind": "h3",
+      "source": "Sorting notes into multiple places in the hierarchy__TRILIUM_PH_0__",
+      "sourceHash": "4edecae084e56dd264b4cc3015beef4c9885698e5035b3a681273db84e95b279",
+      "context": "Patterns of personal knowledge > Meta patterns > Sorting notes into multiple places in the hierarchy",
+      "contextHash": "4f10465388529c8f7adc827b191a8933522d3c86969c0790fd5194ea604c9752",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_46f309d5383a8c65ce946605_0",
+      "kind": "p",
+      "source": "While organizing the notes into the hierarchy, you very quickly run into a dilemma - your note seem to belong to two places in the hierarchy equally. As an example - you want to make a note about __TRILIUM_PH_0__bash__TRILIUM_PH_1__ - does it belong to \"OS / Linux\" or \"Programming / Scripting languages\"? This is actually a false dichotomy forced down by the limits of the basic tree hierarchy - the answer is __TRILIUM_PH_2__of course it belongs to both__TRILIUM_PH_3__. This is the reason why Trilium doesn't use standard tree structure (which requires every note to have exactly one parent), but an extension which allows every note to have several parents, thus effectively allowing it to appear in multiple places in the hierarchy. For lack of better term I call this \"cloning\". The main problem with this term is that it suggests that each clone must have an original, but here all clones are completely equal - effectively there's no original.",
+      "sourceHash": "46f309d5383a8c65ce94660586ec2c5746570ffc5b66c974fb947ae5dccacadd",
+      "context": "Patterns of personal knowledge > Meta patterns > Sorting notes into multiple places in the hierarchy",
+      "contextHash": "4f10465388529c8f7adc827b191a8933522d3c86969c0790fd5194ea604c9752",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_c55c8821ee4a1e328433aacb_0",
+      "kind": "p",
+      "source": "In tech lingo, it might be better to describe it as a __TRILIUM_PH_0__hard link__TRILIUM_PH_1__ with an important difference that it is possible to hard link (clone) a directory (inner note).",
+      "sourceHash": "c55c8821ee4a1e328433aacb772a87dc23fb75a23a26f78425fe124a21d77f56",
+      "context": "Patterns of personal knowledge > Meta patterns > Sorting notes into multiple places in the hierarchy",
+      "contextHash": "4f10465388529c8f7adc827b191a8933522d3c86969c0790fd5194ea604c9752",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_35f4142f319e383e00d2bc67_0",
+      "kind": "h3",
+      "source": "Protected notes__TRILIUM_PH_0__",
+      "sourceHash": "35f4142f319e383e00d2bc672e7fc75a50a2466d9f6ff4f581e9d4a678eab441",
+      "context": "Patterns of personal knowledge > Meta patterns > Protected notes",
+      "contextHash": "6a8bb20ab1d3599ac14584fa938ca8f900a70e5c28faeac6dd291a36b138fdae",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_5a1c1356457fa0576000739a_0",
+      "kind": "p",
+      "source": "I have Trilium Notes opened non-stop. Sometimes I forget to lock my computer when going to the bathroom. Sometimes I let a friend or family member to use my computer for a minute without supervision. They might click on (running) Trilium and inadvertently see a note I really don't want anybody to see (personal diary, credentials). To cover this, Trilium has a concept of \"__TRILIUM_PH_0__protected notes__TRILIUM_PH_1__\" - protected note is encrypted and on top of that requires the user to enter the password every 5 minutes which guarantees that such note can be in a readable state only for small amount of time. Working with ordinary (not protected) notes don't require password so you're not bothered by extra security when it's not needed.",
+      "sourceHash": "5a1c1356457fa0576000739a58608c15275eb001df8c162d8193b0f49def8045",
+      "context": "Patterns of personal knowledge > Meta patterns > Protected notes",
+      "contextHash": "6a8bb20ab1d3599ac14584fa938ca8f900a70e5c28faeac6dd291a36b138fdae",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_5e85d48bbdae46e6d4853dae_0",
+      "kind": "h3",
+      "source": "Archiving notes__TRILIUM_PH_0__",
+      "sourceHash": "5e85d48bbdae46e6d4853daea56822255a666fb1d80ac58a10dec419d46d1502",
+      "context": "Patterns of personal knowledge > Meta patterns > Archiving notes",
+      "contextHash": "a29c6d848bdbc906d4133d31a3a79c37c3130c26d80994a2d566d0bc09f331b8",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_9c61bd3307baa09178c5b279_0",
+      "kind": "p",
+      "source": "Notes can lose relevancy with time - let's say I switch jobs - all the notes specific to the former employer immediately lose most of its import. This doesn't mean I want to delete these notes though - typically I just want them to somehow deprioritize - in Trilium I would do that by assigning an __TRILIUM_PH_0__inherited__TRILIUM_PH_1__ __TRILIUM_PH_2__label__TRILIUM_PH_3__ __TRILIUM_PH_4__ to the company root note. The main effect of this label is that all the notes from this sub-tree are filtered out from search results (fast search via note autocomplete is my main __TRILIUM_PH_5__navigation approach__TRILIUM_PH_6__). Apart from this, I also typically move such outdated notes to some less prominent place in the hierarchy.",
+      "sourceHash": "9c61bd3307baa09178c5b2792dbea427de099fabc3496612a5360d61656ecf4a",
+      "context": "Patterns of personal knowledge > Meta patterns > Archiving notes",
+      "contextHash": "a29c6d848bdbc906d4133d31a3a79c37c3130c26d80994a2d566d0bc09f331b8",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_f7e1bbad4aeee104a62bb67f_0",
+      "kind": "p",
+      "source": "I use archivation also for notes which are not very relevant from their creation - an example might be automatically imported reddit comments.",
+      "sourceHash": "f7e1bbad4aeee104a62bb67fd44db0a17d5e4c66ae66dc8ae11da5667cc21527",
+      "context": "Patterns of personal knowledge > Meta patterns > Archiving notes",
+      "contextHash": "a29c6d848bdbc906d4133d31a3a79c37c3130c26d80994a2d566d0bc09f331b8",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_aa797fbeb6f6880e21ddb1a2_0",
+      "kind": "p",
+      "source": "Sometimes there's no clear __TRILIUM_PH_0__category__TRILIUM_PH_1__ split between relevant and non-relevant notes, in that case I just create \"__TRILIUM_PH_2__OLD__TRILIUM_PH_3__\" note with __TRILIUM_PH_4__ label and move all irrelevant notes there. So my credentials note might look something like this:",
+      "sourceHash": "aa797fbeb6f6880e21ddb1a25434bd58e85673befb57762e5a2acb608b033fb6",
+      "context": "Patterns of personal knowledge > Meta patterns > Archiving notes",
+      "contextHash": "a29c6d848bdbc906d4133d31a3a79c37c3130c26d80994a2d566d0bc09f331b8",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_4a9821dbcffdf1a8c6a99fc2_0",
+      "kind": "li",
+      "source": "Credentials",
+      "sourceHash": "4a9821dbcffdf1a8c6a99fc227459147c0c35fdc3da1b7ffa1ff9166a4e49b72",
+      "context": "Patterns of personal knowledge > Meta patterns > Archiving notes",
+      "contextHash": "a29c6d848bdbc906d4133d31a3a79c37c3130c26d80994a2d566d0bc09f331b8",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_c095dd0caa424a4a546764ca_0",
+      "kind": "li",
+      "source": "Personal",
+      "sourceHash": "c095dd0caa424a4a546764cac2939c8aa4e47635240baeb7b341107b218b0c9f",
+      "context": "Patterns of personal knowledge > Meta patterns > Archiving notes",
+      "contextHash": "a29c6d848bdbc906d4133d31a3a79c37c3130c26d80994a2d566d0bc09f331b8",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_d60d92c2353a726bf2c9cd8f_0",
+      "kind": "li",
+      "source": "OLD       __TRILIUM_PH_0__(contains a bunch of notes with credentials for services I don't use anymore)__TRILIUM_PH_1__",
+      "sourceHash": "d60d92c2353a726bf2c9cd8fd1b4eefead1e7207d1dd149d2d83bd6cdcaa2445",
+      "context": "Patterns of personal knowledge > Meta patterns > Archiving notes",
+      "contextHash": "a29c6d848bdbc906d4133d31a3a79c37c3130c26d80994a2d566d0bc09f331b8",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_dc6c8e1c817dfe8142d63a72_0",
+      "kind": "li",
+      "source": "Gmail",
+      "sourceHash": "dc6c8e1c817dfe8142d63a72f74f2dcb72bf07c0e2f927186ead979b3e05373b",
+      "context": "Patterns of personal knowledge > Meta patterns > Archiving notes",
+      "contextHash": "a29c6d848bdbc906d4133d31a3a79c37c3130c26d80994a2d566d0bc09f331b8",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_840258434987b24214993cce_0",
+      "kind": "li",
+      "source": "Github",
+      "sourceHash": "840258434987b24214993cce907e78d9587d2ec2c6fd7406823c4b3686dd5796",
+      "context": "Patterns of personal knowledge > Meta patterns > Archiving notes",
+      "contextHash": "a29c6d848bdbc906d4133d31a3a79c37c3130c26d80994a2d566d0bc09f331b8",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_2e4082528321785ecffbf68d_0",
+      "kind": "li",
+      "source": "...",
+      "sourceHash": "2e4082528321785ecffbf68d0e72f370b466cb498ec1d7dbbec567eb54dcbd55",
+      "context": "Patterns of personal knowledge > Meta patterns > Archiving notes",
+      "contextHash": "a29c6d848bdbc906d4133d31a3a79c37c3130c26d80994a2d566d0bc09f331b8",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_1f25cc0a5394b03a7ed21c00_0",
+      "kind": "h2",
+      "source": "Patterns__TRILIUM_PH_0__",
+      "sourceHash": "1f25cc0a5394b03a7ed21c00ad0a8f9ee30142d6a4b41a90757ec8833fb7b913",
+      "context": "Patterns of personal knowledge > Patterns",
+      "contextHash": "3859ed30acf9269061b5c10a3669176573cab9f1827a7502bca631e2b9a2f51a",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_492996d6b3e3718e0b5f9252_0",
+      "kind": "h3",
+      "source": "Day note__TRILIUM_PH_0__",
+      "sourceHash": "492996d6b3e3718e0b5f9252431d8d64a724e0c8fa2e1ffdb0191933192f79d1",
+      "context": "Patterns of personal knowledge > Patterns > Day note",
+      "contextHash": "1bb183b34f5c9c6957915b9cdda1e038bc9c8282e4ad5dc90abfcc669565b46a",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_6331ed3ac256a059b56c21b2_0",
+      "kind": "p",
+      "source": "Every day has its note which contains or references everything related to the given day. Structure looks like this:",
+      "sourceHash": "6331ed3ac256a059b56c21b24a7cb75d7fa1c30fd77cae79541624988de1d400",
+      "context": "Patterns of personal knowledge > Patterns > Day note",
+      "contextHash": "1bb183b34f5c9c6957915b9cdda1e038bc9c8282e4ad5dc90abfcc669565b46a",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_65fae6620ded9649a3b1afd0_0",
+      "kind": "li",
+      "source": "2018",
+      "sourceHash": "65fae6620ded9649a3b1afd0be912ffa06d315e00f1ad1f1f2b2f316226436c1",
+      "context": "Patterns of personal knowledge > Patterns > Day note",
+      "contextHash": "1bb183b34f5c9c6957915b9cdda1e038bc9c8282e4ad5dc90abfcc669565b46a",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_892d5ef37c45935e28290ac8_0",
+      "kind": "li",
+      "source": "11 - November",
+      "sourceHash": "892d5ef37c45935e28290ac8709ab7f8147326289d123a696e6c00baf7b40acf",
+      "context": "Patterns of personal knowledge > Patterns > Day note",
+      "contextHash": "1bb183b34f5c9c6957915b9cdda1e038bc9c8282e4ad5dc90abfcc669565b46a",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_e2ed94c8edd9916113353a96_0",
+      "kind": "li",
+      "source": "26 - Monday",
+      "sourceHash": "e2ed94c8edd9916113353a96527d8e04eb59f9787f2aa43afbe2b0c40c136be5",
+      "context": "Patterns of personal knowledge > Patterns > Day note",
+      "contextHash": "1bb183b34f5c9c6957915b9cdda1e038bc9c8282e4ad5dc90abfcc669565b46a",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_8760605dbf10443a664cd055_0",
+      "kind": "li",
+      "source": "27 - Tuesday",
+      "sourceHash": "8760605dbf10443a664cd0557bce9ad69eacbd2eccf94717b68a89f376d0e1c9",
+      "context": "Patterns of personal knowledge > Patterns > Day note",
+      "contextHash": "1bb183b34f5c9c6957915b9cdda1e038bc9c8282e4ad5dc90abfcc669565b46a",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_39709017b6b92eeda852455d_0",
+      "kind": "li",
+      "source": "subnote 1",
+      "sourceHash": "39709017b6b92eeda852455db9a29a5d2b865bd1fca17fb4b0a55f8dc21ee5d9",
+      "context": "Patterns of personal knowledge > Patterns > Day note",
+      "contextHash": "1bb183b34f5c9c6957915b9cdda1e038bc9c8282e4ad5dc90abfcc669565b46a",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_3778a40eaa14ce8e2413c634_0",
+      "kind": "p",
+      "source": "Day note serves as a workspace and note inbox at the same time - it's the default location to create a note when I don't have time to think about proper placement. At the end of the day I typically review my day note and clone the notes into suitable locations in the hierarchy.",
+      "sourceHash": "3778a40eaa14ce8e2413c6346c5fd7010774babd2224bb9a8a3024e16c139081",
+      "context": "Patterns of personal knowledge > Patterns > Day note",
+      "contextHash": "1bb183b34f5c9c6957915b9cdda1e038bc9c8282e4ad5dc90abfcc669565b46a",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_87fd5319c25f84a1b31a5c43_0",
+      "kind": "p",
+      "source": "Trilium has this pattern partly built-in - Trilium understands and can create this Year / Month / Day structure semi-automatically (on API call). There's also global keyboard shortcut __TRILIUM_PH_0__ which will create new note in the day note.",
+      "sourceHash": "87fd5319c25f84a1b31a5c43384ae634a277af8d6a5159a9634795ae6df1102d",
+      "context": "Patterns of personal knowledge > Patterns > Day note",
+      "contextHash": "1bb183b34f5c9c6957915b9cdda1e038bc9c8282e4ad5dc90abfcc669565b46a",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_1abf4eac5f24f0bcad863023_0",
+      "kind": "p",
+      "source": "What notes do I keep under this day note?",
+      "sourceHash": "1abf4eac5f24f0bcad863023285c1670597925f583b5cc122d309f107a41f624",
+      "context": "Patterns of personal knowledge > Patterns > Day note",
+      "contextHash": "1bb183b34f5c9c6957915b9cdda1e038bc9c8282e4ad5dc90abfcc669565b46a",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_b28639bc12f5f1595da1aea5_0",
+      "kind": "li",
+      "source": "TODO list for given day (this can be automated - see __TRILIUM_PH_0__Task Manager__TRILIUM_PH_1__)",
+      "sourceHash": "b28639bc12f5f1595da1aea54d8415b91338bae19e0a56a2b21d273a43953823",
+      "context": "Patterns of personal knowledge > Patterns > Day note",
+      "contextHash": "1bb183b34f5c9c6957915b9cdda1e038bc9c8282e4ad5dc90abfcc669565b46a",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_18dc3005be74cf634e8ce871_0",
+      "kind": "li",
+      "source": "Personal diary",
+      "sourceHash": "18dc3005be74cf634e8ce871862514c6933fd529f9205b12956181f5ec2cc2c0",
+      "context": "Patterns of personal knowledge > Patterns > Day note",
+      "contextHash": "1bb183b34f5c9c6957915b9cdda1e038bc9c8282e4ad5dc90abfcc669565b46a",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_e01e542484dd600d0def6ba9_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__clones__TRILIUM_PH_1__ of notes I created during this day (which kind of represents what I've been working on).",
+      "sourceHash": "e01e542484dd600d0def6ba97f94c261c49641f7639e5c67bc06a7f296d96444",
+      "context": "Patterns of personal knowledge > Patterns > Day note",
+      "contextHash": "1bb183b34f5c9c6957915b9cdda1e038bc9c8282e4ad5dc90abfcc669565b46a",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_d9055240b0b27917fac39e80_0",
+      "kind": "li",
+      "source": "I often clone notes (or sub-trees) of e.g. projects I'm working on at given day so they are at hand",
+      "sourceHash": "d9055240b0b27917fac39e80e0a7caf559f70cb604d4185430cfc11d48c769fc",
+      "context": "Patterns of personal knowledge > Patterns > Day note",
+      "contextHash": "1bb183b34f5c9c6957915b9cdda1e038bc9c8282e4ad5dc90abfcc669565b46a",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_ffa3fb00fbfec3b056d07c67_0",
+      "kind": "li",
+      "source": "I have some __TRILIUM_PH_0__scripts__TRILIUM_PH_1__ which allow me to track certain daily metrics (like weight). These are saved into one daily \"data note\" (actually JSON __TRILIUM_PH_2__code note__TRILIUM_PH_3__).",
+      "sourceHash": "ffa3fb00fbfec3b056d07c67e1ca1a61b7c3ce8d88147098e0fccf15efa683ea",
+      "context": "Patterns of personal knowledge > Patterns > Day note",
+      "contextHash": "1bb183b34f5c9c6957915b9cdda1e038bc9c8282e4ad5dc90abfcc669565b46a",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_d56a00638dbe228fbbf02c75_0",
+      "kind": "li",
+      "source": "I have other scripts which then help me to visualize these data (see a __TRILIUM_PH_0__Weight Tracker__TRILIUM_PH_1__ example)",
+      "sourceHash": "d56a00638dbe228fbbf02c75cc903bab8cff72d1d806ef0fdabec916e3d49485",
+      "context": "Patterns of personal knowledge > Patterns > Day note",
+      "contextHash": "1bb183b34f5c9c6957915b9cdda1e038bc9c8282e4ad5dc90abfcc669565b46a",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_25a4ac8386c06bf7a63df784_0",
+      "kind": "li",
+      "source": "I have a script which automatically imports all my comments from reddit into the day note.",
+      "sourceHash": "25a4ac8386c06bf7a63df784042946994e0114c39cc67de09546fef2159e9fe7",
+      "context": "Patterns of personal knowledge > Patterns > Day note",
+      "contextHash": "1bb183b34f5c9c6957915b9cdda1e038bc9c8282e4ad5dc90abfcc669565b46a",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_1d565b2cb38e0eff303c02a0_0",
+      "kind": "li",
+      "source": "People are sometimes wondering why. The answer is that I usually put some effort and thought into a comment and that's why I feel it's worth preserving, especially if it can be done automatically.",
+      "sourceHash": "1d565b2cb38e0eff303c02a093aa9244964236915d64f480ed0470640276ef74",
+      "context": "Patterns of personal knowledge > Patterns > Day note",
+      "contextHash": "1bb183b34f5c9c6957915b9cdda1e038bc9c8282e4ad5dc90abfcc669565b46a",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_c78282e9b7bb689cb0a21091_0",
+      "kind": "p",
+      "source": "For most notes, this day note placement is __TRILIUM_PH_0__secondary__TRILIUM_PH_1__ and their primary location is somewhere else (e.g. for a book review I've been working on it's __TRILIUM_PH_2__Book / Reviews__TRILIUM_PH_3__, not the day note). So for this pattern to work, ability to __TRILIUM_PH_4__clone__TRILIUM_PH_5__ notes into multiple places is pretty fundamental.",
+      "sourceHash": "c78282e9b7bb689cb0a21091ac522ea569f6c54995767b91d348873cd5620a45",
+      "context": "Patterns of personal knowledge > Patterns > Day note",
+      "contextHash": "1bb183b34f5c9c6957915b9cdda1e038bc9c8282e4ad5dc90abfcc669565b46a",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_d5f266bdc23e03d56ef87f05_0",
+      "kind": "h3",
+      "source": "Projects__TRILIUM_PH_0__",
+      "sourceHash": "d5f266bdc23e03d56ef87f0583bdc0787bb21bb616c7aa2a1dabf3c16e1eb146",
+      "context": "Patterns of personal knowledge > Patterns > Projects",
+      "contextHash": "6d0d42f1a299d5bc819785a418bb390ae62389bf7aaefa9e9d7ebe0e289ee5c5",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_9d666bbd8f8d885b41c7b2c3_0",
+      "kind": "p",
+      "source": "__TRILIUM_PH_0__Project__TRILIUM_PH_1__ is pretty self-explanatory, for me specifically it also means being long term (years) - an example of a project might be Trilium Notes or university studies. Given their longevity, projects can be large and deep, but their structure is very domain specific, and I don't see any common patterns. What's pretty clear is they are often widely interconnected with other parts of the knowledge base - e.g. university credentials are cloned from \"Credentials / University\" top level notes and Trilium related blog posts are in \"Blog / [Name of the blog] / Trilium\".",
+      "sourceHash": "9d666bbd8f8d885b41c7b2c3ca64822424c5cd956829c9288f2f10752da877e2",
+      "context": "Patterns of personal knowledge > Patterns > Projects",
+      "contextHash": "6d0d42f1a299d5bc819785a418bb390ae62389bf7aaefa9e9d7ebe0e289ee5c5",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_00b6caab405884ae2ab38ecf_0",
+      "kind": "p",
+      "source": "__TRILIUM_PH_0__Epics__TRILIUM_PH_1__ are the same thing as projects, but differ in scope - they are typically several months long and as such are usually placed into a year note (e.g. __TRILIUM_PH_2__2018 / Epics__TRILIUM_PH_3__). Epics are often of work nature (also cloned into work note) and personal (e.g. currently I have large epic for moving to a different city).",
+      "sourceHash": "00b6caab405884ae2ab38ecf436d45c9b263035f5e17ffb9d30157d84fe93c31",
+      "context": "Patterns of personal knowledge > Patterns > Projects",
+      "contextHash": "6d0d42f1a299d5bc819785a418bb390ae62389bf7aaefa9e9d7ebe0e289ee5c5",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_9be6a5fce421bb3f51f59a37_0",
+      "kind": "p",
+      "source": "I don't have a term for short term projects (typically several days long), but continuing the scrum analogy I might call them __TRILIUM_PH_0__story__TRILIUM_PH_1__. These are often placed directly into day notes and manually moved from one day to another (or place into a month note, e.g. __TRILIUM_PH_2__2018 / 11 - November__TRILIUM_PH_3__).",
+      "sourceHash": "9be6a5fce421bb3f51f59a37ea713d46a0d8c5a6cd4b8592b4af874c74e68dfb",
+      "context": "Patterns of personal knowledge > Patterns > Projects",
+      "contextHash": "6d0d42f1a299d5bc819785a418bb390ae62389bf7aaefa9e9d7ebe0e289ee5c5",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_6371fca63594d52ab3454fb8_0",
+      "kind": "h3",
+      "source": "Credentials__TRILIUM_PH_0__",
+      "sourceHash": "6371fca63594d52ab3454fb88effff4327fb0f258de5dd9494bad53b8d3ae44f",
+      "context": "Patterns of personal knowledge > Patterns > Credentials",
+      "contextHash": "121cb4961739b3e29280259ad40a512e792cfb638fe2fa6c01ac6391b1090be5",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_ebd28cd2c368069c4ff67e7b_0",
+      "kind": "p",
+      "source": "I keep all my credentials in the knowledge base, they are sorted into categories - work related, project related, personal per country etc. These notes are of course __TRILIUM_PH_0__protected__TRILIUM_PH_1__ and are often cloned into other places (e.g. project credentials are cloned into the project itself). This is a pretty important advantage compared to traditional tools like KeePass - all the relevant information is centralized into one place without compromising security.",
+      "sourceHash": "ebd28cd2c368069c4ff67e7b6f64b1346d8c32cea590c5a7e8a04976b13293f9",
+      "context": "Patterns of personal knowledge > Patterns > Credentials",
+      "contextHash": "121cb4961739b3e29280259ad40a512e792cfb638fe2fa6c01ac6391b1090be5",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_90587c69b83c682608135635_0",
+      "kind": "h3",
+      "source": "People profiles__TRILIUM_PH_0__",
+      "sourceHash": "90587c69b83c682608135635fc9a81455aac41d9f6950b6626a9e355fda5ad53",
+      "context": "Patterns of personal knowledge > Patterns > People profiles",
+      "contextHash": "4ec729d56d9a5f38825be7eb305e2017ea43bee4dea5e09ffa3f24ffc4f48bbb",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_25ca6577bdaa937599947955_0",
+      "kind": "p",
+      "source": "This might seem creepy to some, but I keep a profile on most people. It contains pretty standard things like date of birth, contacts, address, but also current and previous employments, their hobbies and worldviews and sometimes even important (IM/mail/meatspace) conversations. Just about everything I find notable. It helps to refresh some basic info before meeting people, especially if you haven't been in touch in a while. It gets pretty awkward to ask for the tenth time where do they work for example, because you keep forgetting it.",
+      "sourceHash": "25ca6577bdaa937599947955aee52ace0c8ffbd2f18da236d345053e84f3d39f",
+      "context": "Patterns of personal knowledge > Patterns > People profiles",
+      "contextHash": "4ec729d56d9a5f38825be7eb305e2017ea43bee4dea5e09ffa3f24ffc4f48bbb",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_9e711aaad4585963966c737f_0",
+      "kind": "p",
+      "source": "Naturally I have a lot of (extended) family members, friends, acquaintances etc. so I need some way to sort them. My main method is to sort them by social circle (work, high school, sports club etc.), sometimes also by their town of residence. Family __TRILIUM_PH_0__circle__TRILIUM_PH_1__ is still too large so the further organization is by __TRILIUM_PH_2__clan__TRILIUM_PH_3__ (as in \"Smiths\"). Some people are members of several such circles, so they are just cloned into multiple places.",
+      "sourceHash": "9e711aaad4585963966c737f29958779a03a850ccdeb65a6dd071ccba646000c",
+      "context": "Patterns of personal knowledge > Patterns > People profiles",
+      "contextHash": "4ec729d56d9a5f38825be7eb305e2017ea43bee4dea5e09ffa3f24ffc4f48bbb",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_78cd930fbc35773f234f87cf_0",
+      "kind": "p",
+      "source": "For family specifically it's pretty useful to create a __TRILIUM_PH_0__Relation Map__TRILIUM_PH_1__ to visualize relationships:",
+      "sourceHash": "78cd930fbc35773f234f87cf81d3ffbc199d2370763e96a29c325c5c7e19e4af",
+      "context": "Patterns of personal knowledge > Patterns > People profiles",
+      "contextHash": "4ec729d56d9a5f38825be7eb305e2017ea43bee4dea5e09ffa3f24ffc4f48bbb",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_474b91510443c6a00bcbaf20_0",
+      "kind": "h3",
+      "source": "Books__TRILIUM_PH_0__",
+      "sourceHash": "474b91510443c6a00bcbaf20de32d20b885a0a491213b16a6b992a474cf5f7c0",
+      "context": "Patterns of personal knowledge > Patterns > Books",
+      "contextHash": "15891500a3a69546ffcb66cff9f1bcbe98bbaa873c79d5475ba2d7ae39371497",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_02daea8210711b22e462d7fa_0",
+      "kind": "p",
+      "source": "Of course, I keep standard \"To read\" list. I also keep a record on the books I've read - typically one book has one subtree where the root has some basic info like author, page count, publication date, date started, date finished (in the form of __TRILIUM_PH_0__Promoted Attributes__TRILIUM_PH_1__). I also write a (private) review and keep list of highlights from Kindle, optionally with some commentary, these are usually stored in sub notes (unless they are pretty short).",
+      "sourceHash": "02daea8210711b22e462d7fab8389faf3adde7fd5466a9f311c8d50d7d451435",
+      "context": "Patterns of personal knowledge > Patterns > Books",
+      "contextHash": "15891500a3a69546ffcb66cff9f1bcbe98bbaa873c79d5475ba2d7ae39371497",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_fc701588ec2843d0bda247d9_0",
+      "kind": "p",
+      "source": "To keep the list of books manageable, I sort them per year (of reading them), this also gives me some basic overview of \"reading performance\" for given year. I plan to create a __TRILIUM_PH_0__script__TRILIUM_PH_1__ which would show some timeline chart visualizing book attributes __TRILIUM_PH_2__ - __TRILIUM_PH_3__ to have nicer view of my reading sprints and trends.",
+      "sourceHash": "fc701588ec2843d0bda247d9db85e38b2280cd9d82a522f30dd3fa44d53a58aa",
+      "context": "Patterns of personal knowledge > Patterns > Books",
+      "contextHash": "15891500a3a69546ffcb66cff9f1bcbe98bbaa873c79d5475ba2d7ae39371497",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_0750cb56bc4904560ced10c2_0",
+      "kind": "p",
+      "source": "Some specific authors also have their own note which contains cloned book reviews, links to interviews and other related resources.",
+      "sourceHash": "0750cb56bc4904560ced10c2db865287941056e5ed392d2b98469cc9d1f1f325",
+      "context": "Patterns of personal knowledge > Patterns > Books",
+      "contextHash": "15891500a3a69546ffcb66cff9f1bcbe98bbaa873c79d5475ba2d7ae39371497",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_75deeb40016b8be0dd7a86e3_0",
+      "kind": "p",
+      "source": "I have similar system for movies and TV shows, but not as sophisticated.",
+      "sourceHash": "75deeb40016b8be0dd7a86e3a78faebd63f3de778b596cf7d0cb201a104d59a9",
+      "context": "Patterns of personal knowledge > Patterns > Books",
+      "contextHash": "15891500a3a69546ffcb66cff9f1bcbe98bbaa873c79d5475ba2d7ae39371497",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_9a090b3802c1dc4c02f458f7_0",
+      "kind": "h3",
+      "source": "Personal diary__TRILIUM_PH_0__",
+      "sourceHash": "9a090b3802c1dc4c02f458f7b91da2fae1baff1fb380a56c20d50f35f12506a1",
+      "context": "Patterns of personal knowledge > Patterns > Personal diary",
+      "contextHash": "2b4f84f6da8e2120ae7603d06ac8105c5495e81521c21fdd2c3e9b2e4371a97e",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_8c6703c0d245031c6a796dfe_0",
+      "kind": "p",
+      "source": "This is a place to reflect on events, experiences, new findings etc. This can help you get deeper understanding of your inner self, clarify your thinking and make better decisions as a result.",
+      "sourceHash": "8c6703c0d245031c6a796dfea4e542bf688931e742a97c31012b513d492bf695",
+      "context": "Patterns of personal knowledge > Patterns > Personal diary",
+      "contextHash": "2b4f84f6da8e2120ae7603d06ac8105c5495e81521c21fdd2c3e9b2e4371a97e",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_4f3488e2c8080c686ea366eb_0",
+      "kind": "p",
+      "source": "I sort personal diary notes directly under __TRILIUM_PH_0__day note__TRILIUM_PH_1__ (explained above), but it can be cloned also to e.g. \"trip note\" (if the diary note is about given trip) or to person's profile (if the person plays a role in the diary note). All my diary notes are __TRILIUM_PH_2__protected__TRILIUM_PH_3__ since they are usually pretty sensitive.",
+      "sourceHash": "4f3488e2c8080c686ea366eb4d618e32ab87db78d7530ee8300fc38f7c523027",
+      "context": "Patterns of personal knowledge > Patterns > Personal diary",
+      "contextHash": "2b4f84f6da8e2120ae7603d06ac8105c5495e81521c21fdd2c3e9b2e4371a97e",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_261280cae5e937d211469582_0",
+      "kind": "h3",
+      "source": "Documents__TRILIUM_PH_0__",
+      "sourceHash": "261280cae5e937d2114695827eff6713f7bf15573c17abe475c766db9c74d52e",
+      "context": "Patterns of personal knowledge > Patterns > Documents",
+      "contextHash": "51a90bc85ab5615b91c823940255b56db221df48a5b9249b9e8f01b0bcbb44b6",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_71275c0bb0e152f083249ae0_0",
+      "kind": "p",
+      "source": "I keep all my personal documents (ID, passport, education certificates ...) scanned in the knowledge base. They are __TRILIUM_PH_0__synchronized__TRILIUM_PH_1__ across every PC which provides decent backup and makes them available everywhere.",
+      "sourceHash": "71275c0bb0e152f083249ae08d8663312a663e43a31f61dbed17524386994b09",
+      "context": "Patterns of personal knowledge > Patterns > Documents",
+      "contextHash": "51a90bc85ab5615b91c823940255b56db221df48a5b9249b9e8f01b0bcbb44b6",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_b14ff116d06d36a4751cf73c_0",
+      "kind": "p",
+      "source": "Advantage compared to e.g. keeping them in Dropbox or Google Drive is that they are not stored on some 3rd party server and they can be encrypted (see __TRILIUM_PH_0__Protected Notes__TRILIUM_PH_1__).",
+      "sourceHash": "b14ff116d06d36a4751cf73cc624f49feeff85ef5bcb3148c6292211ec7aa788",
+      "context": "Patterns of personal knowledge > Patterns > Documents",
+      "contextHash": "51a90bc85ab5615b91c823940255b56db221df48a5b9249b9e8f01b0bcbb44b6",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_72f5a46c7f9214e535b6c3f1_0",
+      "kind": "h3",
+      "source": "Inventory__TRILIUM_PH_0__",
+      "sourceHash": "72f5a46c7f9214e535b6c3f18527bcc23009fdeddad726a985b9349241602747",
+      "context": "Patterns of personal knowledge > Patterns > Inventory",
+      "contextHash": "aa53f5662fe03e07251ca99a1458d463a36627ec0cddb086fb46311972fc3ecd",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_982f643483788a62ca268311_0",
+      "kind": "p",
+      "source": "Inventory contains documents and other relevant importation for my important belongings - e.g. for car you can keep the registration card, maintenance record, related costs etc. I also keep inventory for some items personally important to me - mainly computers, phones, cameras and similar electronics. This can be practical at times but also provides sentimental value.",
+      "sourceHash": "982f643483788a62ca2683115dffd8eac808712f0d6b48c99ce8a8ac9c41af1f",
+      "context": "Patterns of personal knowledge > Patterns > Inventory",
+      "contextHash": "aa53f5662fe03e07251ca99a1458d463a36627ec0cddb086fb46311972fc3ecd",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_5d02346a8a0b5007e370ae83_0",
+      "kind": "h3",
+      "source": "Topic knowledge base__TRILIUM_PH_0__",
+      "sourceHash": "5d02346a8a0b5007e370ae83e800084dd1d8af6a1a7937b645d88fba31664f8c",
+      "context": "Patterns of personal knowledge > Patterns > Topic knowledge base",
+      "contextHash": "0ef5e5a88641adcac719a509877dd7a72af65f2f6141335e8555b6da7cce63f1",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_de2947a4e31d4f6d28e9e5c0_0",
+      "kind": "p",
+      "source": "This where I store hard \"knowledge\" - summarized topics and findings from different domains. Topics can range from traditional sciences - physics, history, economy to philosophy, mental models, apps (notes about specific apps I use) etc. Of course this is very subjective - given what I do, my Physics sub-tree is pretty sparse compared to my Programming subtree.",
+      "sourceHash": "de2947a4e31d4f6d28e9e5c08f8e10b0fb6ce44c4a0f8eec5db6cfc4786132b9",
+      "context": "Patterns of personal knowledge > Patterns > Topic knowledge base",
+      "contextHash": "0ef5e5a88641adcac719a509877dd7a72af65f2f6141335e8555b6da7cce63f1",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_e547c4635a4e77b5d7ee264f_0",
+      "kind": "h3",
+      "source": "Work knowledge base__TRILIUM_PH_0__",
+      "sourceHash": "e547c4635a4e77b5d7ee264f6f82446e195be530b0ced7b2e54ea4e3be0b9b61",
+      "context": "Patterns of personal knowledge > Patterns > Work knowledge base",
+      "contextHash": "8c9ada6fcd124d528ab1ad65e232a556e78da75d393824cfb175db65e3b9bda0",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_9afa56079c24fd4c24f8cb67_0",
+      "kind": "p",
+      "source": "I usually keep top level note for the company I currently work at (past jobs are moved elsewhere). I track basic organization of the company (divisions, business units), who is who (__TRILIUM_PH_0__Relation Map__TRILIUM_PH_1__) are again useful for visualization), projects I work at etc.",
+      "sourceHash": "9afa56079c24fd4c24f8cb6725c1607eb8b65208243a9ea298facd662ca2410a",
+      "context": "Patterns of personal knowledge > Patterns > Work knowledge base",
+      "contextHash": "8c9ada6fcd124d528ab1ad65e232a556e78da75d393824cfb175db65e3b9bda0",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_6cecab008708acc9130eb9d6_0",
+      "kind": "p",
+      "source": "There's a number of credentials to various company services I need to use. Companies usually have a bunch of complex processes and tools. I record meeting minutes, link to the company wiki (which is usually difficult to find relevant info). In general there's a lot of company specific information I need to know or need have them at hand in a nice structure I can understand. Often it's just copy pasting and reshuffling of existing information into something more understandable for me.",
+      "sourceHash": "6cecab008708acc9130eb9d660f57d3a65acffef2dc649a0593a0328a2e652d7",
+      "context": "Patterns of personal knowledge > Patterns > Work knowledge base",
+      "contextHash": "8c9ada6fcd124d528ab1ad65e232a556e78da75d393824cfb175db65e3b9bda0",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_26a9ce732bc6e5fc2c732c57_0",
+      "kind": "p",
+      "source": "From my experience, keeping this makes me more productive and even more importantly dramatically reduces frustration and stress.",
+      "sourceHash": "26a9ce732bc6e5fc2c732c57fa6648a8919f9679d51c49a05aa11b3e0a03b84f",
+      "context": "Patterns of personal knowledge > Patterns > Work knowledge base",
+      "contextHash": "8c9ada6fcd124d528ab1ad65e232a556e78da75d393824cfb175db65e3b9bda0",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_95dec0a2822769f549a729b2_0",
+      "kind": "h2",
+      "source": "Conclusion__TRILIUM_PH_0__",
+      "sourceHash": "95dec0a2822769f549a729b2197084e25328bee11cbdc46d03b6b63d7ed9d3a5",
+      "context": "Patterns of personal knowledge > Conclusion",
+      "contextHash": "af1e5b749ee85eb55244f7ff97c457b78216c5477edcce9d6ac1d8faf97f0ceb",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_3797ad5262094fbc66309562_0",
+      "kind": "p",
+      "source": "I could probably go on with more patterns (e.g. study notes, travelling), but I think you get the idea. Whatever is important in your life, it probably makes sense to document and track it.",
+      "sourceHash": "3797ad5262094fbc66309562f76ad310f4ba49ae48a73437aa3dadad40d21215",
+      "context": "Patterns of personal knowledge > Conclusion",
+      "contextHash": "af1e5b749ee85eb55244f7ff97c457b78216c5477edcce9d6ac1d8faf97f0ceb",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_b190d47815633246b0ab18a6_0",
+      "kind": "image-alt",
+      "source": "記事画像",
+      "sourceHash": "b190d47815633246b0ab18a61d9b8e8ea36504fe3f8bc230a7753096915c9ff2",
+      "context": "Patterns of personal knowledge > Conclusion",
+      "contextHash": "af1e5b749ee85eb55244f7ff97c457b78216c5477edcce9d6ac1d8faf97f0ceb",
+      "status": "pending",
+      "active": true
+    }
+  ],
+  "requests": []
+}

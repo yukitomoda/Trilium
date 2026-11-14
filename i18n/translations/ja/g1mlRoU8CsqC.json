@@ -1,0 +1,799 @@
+{
+  "schemaVersion": 1,
+  "pageId": "g1mlRoU8CsqC",
+  "sourceFile": "docs/User Guide/User Guide/Theme development/Creating an icon pack.md",
+  "sourceRevision": "03d17b60f59b5efc29b880b11481471d0fe0ff57",
+  "units": [
+    {
+      "id": "u_35b04a71503865f9df01910d_0",
+      "kind": "title",
+      "source": "Creating an icon pack",
+      "sourceHash": "35b04a71503865f9df01910dbe69f91cad6f05123f272a4e538696d93c1123ff",
+      "context": "Creating an icon pack",
+      "contextHash": "116332f95d0fbd448bc49ca3cc5070869c65395de28b5b094d7da2b3ae349533",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_113229d3a6aa26e9550fa849_0",
+      "kind": "p",
+      "source": "This page explains, step‑by‑step, how to create a custom icon pack. For a general description of how to use already existing icon packs, see __TRILIUM_PH_0__Icon Packs__TRILIUM_PH_1__.",
+      "sourceHash": "113229d3a6aa26e9550fa849be69e3ec103da23a4720e6183d8630ccb52fc79e",
+      "context": "Creating an icon pack",
+      "contextHash": "116332f95d0fbd448bc49ca3cc5070869c65395de28b5b094d7da2b3ae349533",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_5de2d247d1185522b96b7d87_0",
+      "kind": "p",
+      "source": "First read the quick flow to get the overall steps. After that there is a concrete example (Phosphor) with a small Node.js script you can run to generate the manifest.",
+      "sourceHash": "5de2d247d1185522b96b7d87849e2d5194e868ed2870fa0e0d6665249bd785c3",
+      "context": "Creating an icon pack",
+      "contextHash": "116332f95d0fbd448bc49ca3cc5070869c65395de28b5b094d7da2b3ae349533",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_f8a84c8cb0ab89e202ee510d_0",
+      "kind": "h2",
+      "source": "Quick flow (what you need to do)__TRILIUM_PH_0__",
+      "sourceHash": "f8a84c8cb0ab89e202ee510d4d14ab24ea4a81481433af83d158491fd903df71",
+      "context": "Creating an icon pack > Quick flow (what you need to do)",
+      "contextHash": "d4178668216d88e40c5a3d27ed2ad2c56291ce6fcf6cc0cfe307fad1f6179f81",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_9d2e3f8f3fa4117d66276e2f_0",
+      "kind": "li",
+      "source": "Verify the icon set is a font (one of: .woff2, .woff, .ttf).",
+      "sourceHash": "9d2e3f8f3fa4117d66276e2fe23d658e063a2e612dd4e7963ffa915958b3af38",
+      "context": "Creating an icon pack > Quick flow (what you need to do)",
+      "contextHash": "d4178668216d88e40c5a3d27ed2ad2c56291ce6fcf6cc0cfe307fad1f6179f81",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_ab4505c7229bc7ffa98f726f_0",
+      "kind": "li",
+      "source": "Obtain a list that maps icon names to Unicode code points (often provided as a JSON like __TRILIUM_PH_0__ or a CSS file).",
+      "sourceHash": "ab4505c7229bc7ffa98f726fa08be7d9d26533ba46cba2f4e493e425c1bb88b1",
+      "context": "Creating an icon pack > Quick flow (what you need to do)",
+      "contextHash": "d4178668216d88e40c5a3d27ed2ad2c56291ce6fcf6cc0cfe307fad1f6179f81",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_fcfe96be2af3d60f6a67ba3d_0",
+      "kind": "li",
+      "source": "Create a manifest JSON that maps icon ids to glyphs and search terms.",
+      "sourceHash": "fcfe96be2af3d60f6a67ba3d054a37c2731717257efd62dbf10573c3fac54e24",
+      "context": "Creating an icon pack > Quick flow (what you need to do)",
+      "contextHash": "d4178668216d88e40c5a3d27ed2ad2c56291ce6fcf6cc0cfe307fad1f6179f81",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_24227b796ddea96619d7fe8c_0",
+      "kind": "li",
+      "source": "Create a Trilium note of type Code, set language to JSON, paste the manifest as the note content.",
+      "sourceHash": "24227b796ddea96619d7fe8cb0871c7206f1ae4324718ea509fe18430aa7d2e6",
+      "context": "Creating an icon pack > Quick flow (what you need to do)",
+      "contextHash": "d4178668216d88e40c5a3d27ed2ad2c56291ce6fcf6cc0cfe307fad1f6179f81",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_918aa12f5527ab07d95b0ff1_0",
+      "kind": "li",
+      "source": "Upload the font file as an attachment to the same note (MIME type must be __TRILIUM_PH_0__, __TRILIUM_PH_1__, or __TRILIUM_PH_2__ and role __TRILIUM_PH_3__).",
+      "sourceHash": "918aa12f5527ab07d95b0ff1b6c776f312679921a6f2c9d38ddbe9d110c95e45",
+      "context": "Creating an icon pack > Quick flow (what you need to do)",
+      "contextHash": "d4178668216d88e40c5a3d27ed2ad2c56291ce6fcf6cc0cfe307fad1f6179f81",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_73b537a2c19e1c3c3325c0ad_0",
+      "kind": "li",
+      "source": "Add the label __TRILIUM_PH_0__ to the note (prefix: letters, digits, hyphen, underscore and non-ASCII characters only).",
+      "sourceHash": "73b537a2c19e1c3c3325c0ada30e952318ab6f7e997c068ab1dec04ec16dd50d",
+      "context": "Creating an icon pack > Quick flow (what you need to do)",
+      "contextHash": "d4178668216d88e40c5a3d27ed2ad2c56291ce6fcf6cc0cfe307fad1f6179f81",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_a7c14ed8f8d47db5558e2d87_0",
+      "kind": "li",
+      "source": "Refresh the client and verify the icon pack appears in the icon selector.",
+      "sourceHash": "a7c14ed8f8d47db5558e2d87fad9261b2bd61658a132b2c8a05e4e44035808af",
+      "context": "Creating an icon pack > Quick flow (what you need to do)",
+      "contextHash": "d4178668216d88e40c5a3d27ed2ad2c56291ce6fcf6cc0cfe307fad1f6179f81",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_29b2f94576842377977aa95a_0",
+      "kind": "h2",
+      "source": "Verify the icon set__TRILIUM_PH_0__",
+      "sourceHash": "29b2f94576842377977aa95af6aa4f7bcc0105c919a0e8ecd1ad9e3fbf3030e1",
+      "context": "Creating an icon pack > Verify the icon set",
+      "contextHash": "4b93a822f130328856c8b7ff74c559c0dff219e80c1718f98c85f25a2890e38f",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_f4807c6ce2a45a28ef293cf8_0",
+      "kind": "p",
+      "source": "The first step is to analyze if the icon set being packed can be integrated into Trilium.",
+      "sourceHash": "f4807c6ce2a45a28ef293cf82b4d18527670280e95f5d54782bbffda50a872f4",
+      "context": "Creating an icon pack > Verify the icon set",
+      "contextHash": "4b93a822f130328856c8b7ff74c559c0dff219e80c1718f98c85f25a2890e38f",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_fab80aec80aed19248f40871_0",
+      "kind": "p",
+      "source": "Trilium only supports __TRILIUM_PH_0__font-based icon sets__TRILIUM_PH_1__, with the following formats:",
+      "sourceHash": "fab80aec80aed19248f40871f33e8b22e61b45f72c336c962350edef81abe817",
+      "context": "Creating an icon pack > Verify the icon set",
+      "contextHash": "4b93a822f130328856c8b7ff74c559c0dff219e80c1718f98c85f25a2890e38f",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_d4b6ce63cda023db269c6373_0",
+      "kind": "th",
+      "source": "Extension",
+      "sourceHash": "d4b6ce63cda023db269c637371a4b7fcf7f8efe0dd3d8a0545a2d33d3fbaab27",
+      "context": "Creating an icon pack > Verify the icon set",
+      "contextHash": "4b93a822f130328856c8b7ff74c559c0dff219e80c1718f98c85f25a2890e38f",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_9b9613b34198e2ee2a71a0f0_0",
+      "kind": "th",
+      "source": "MIME type",
+      "sourceHash": "9b9613b34198e2ee2a71a0f01da7ad965cc7ad9dbaffbbb84aad9de3332b07ff",
+      "context": "Creating an icon pack > Verify the icon set",
+      "contextHash": "4b93a822f130328856c8b7ff74c559c0dff219e80c1718f98c85f25a2890e38f",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_4b00baa636b92e18b7a75884_0",
+      "kind": "th",
+      "source": "Description",
+      "sourceHash": "4b00baa636b92e18b7a75884790f0769c3e702d20d8822e708f69ab2f07c7103",
+      "context": "Creating an icon pack > Verify the icon set",
+      "contextHash": "4b93a822f130328856c8b7ff74c559c0dff219e80c1718f98c85f25a2890e38f",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_71df470c80b1065cf3bb2a90_0",
+      "kind": "td",
+      "source": "Recommended due to great compression (low size).",
+      "sourceHash": "71df470c80b1065cf3bb2a9095408b95c0f83ca366b84d2cd4d2289c99c7cb03",
+      "context": "Creating an icon pack > Verify the icon set",
+      "contextHash": "4b93a822f130328856c8b7ff74c559c0dff219e80c1718f98c85f25a2890e38f",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_6f1f5e84d90e7808177daaf5_0",
+      "kind": "td",
+      "source": "Higher compatibility, but the font file is bigger.",
+      "sourceHash": "6f1f5e84d90e7808177daaf53790be009e98a67ab0d378516e7824614ee943c7",
+      "context": "Creating an icon pack > Verify the icon set",
+      "contextHash": "4b93a822f130328856c8b7ff74c559c0dff219e80c1718f98c85f25a2890e38f",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_5fd266e30f1f3c3f5c3bcbf8_0",
+      "kind": "td",
+      "source": "Most common, but highest font size.",
+      "sourceHash": "5fd266e30f1f3c3f5c3bcbf8b2904dad1fc7f11893c5bd3fc871d6b808a8841c",
+      "context": "Creating an icon pack > Verify the icon set",
+      "contextHash": "4b93a822f130328856c8b7ff74c559c0dff219e80c1718f98c85f25a2890e38f",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_1efbf8071be5e7bad0f51195_0",
+      "kind": "p",
+      "source": "Trilium __TRILIUM_PH_0__does not__TRILIUM_PH_1__ support the following formats:",
+      "sourceHash": "1efbf8071be5e7bad0f511955955412f444a529baec6583aa33192a29f803448",
+      "context": "Creating an icon pack > Verify the icon set",
+      "contextHash": "4b93a822f130328856c8b7ff74c559c0dff219e80c1718f98c85f25a2890e38f",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_4d925bba800ddef665281953_0",
+      "kind": "li",
+      "source": "SVG-based fonts.",
+      "sourceHash": "4d925bba800ddef665281953e93cef7712265bda212f841e81f11ecd32c04aa0",
+      "context": "Creating an icon pack > Verify the icon set",
+      "contextHash": "4b93a822f130328856c8b7ff74c559c0dff219e80c1718f98c85f25a2890e38f",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_efe0b7fce79cbb30ffd1ec16_0",
+      "kind": "li",
+      "source": "Individual SVGs.",
+      "sourceHash": "efe0b7fce79cbb30ffd1ec1609ba83a58be4eba7c3bc059257471fd38cae3c63",
+      "context": "Creating an icon pack > Verify the icon set",
+      "contextHash": "4b93a822f130328856c8b7ff74c559c0dff219e80c1718f98c85f25a2890e38f",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_e40b63ecbc456bfabab9b774_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__ fonts (legacy and proprietary).",
+      "sourceHash": "e40b63ecbc456bfabab9b774c582208e4c8ff409c538815c2155c7d28dead406",
+      "context": "Creating an icon pack > Verify the icon set",
+      "contextHash": "4b93a822f130328856c8b7ff74c559c0dff219e80c1718f98c85f25a2890e38f",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_63262cf9bce80508429e8dbf_0",
+      "kind": "li",
+      "source": "Duotone icons, since it requires a special CSS format that Trilium doesn't support.",
+      "sourceHash": "63262cf9bce80508429e8dbff4a1ed260ec1761861ee426b5eee4db950ef8cb9",
+      "context": "Creating an icon pack > Verify the icon set",
+      "contextHash": "4b93a822f130328856c8b7ff74c559c0dff219e80c1718f98c85f25a2890e38f",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_f5a839b4352e187f6a67e946_0",
+      "kind": "li",
+      "source": "Any other font format not specified in the __TRILIUM_PH_0__Supported formats__TRILIUM_PH_1__ section.",
+      "sourceHash": "f5a839b4352e187f6a67e94640d6a0fc7c1cf9cf48fe14a1e1f29af42d8abef0",
+      "context": "Creating an icon pack > Verify the icon set",
+      "contextHash": "4b93a822f130328856c8b7ff74c559c0dff219e80c1718f98c85f25a2890e38f",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_3585ba16f7bdd242e02a5656_0",
+      "kind": "p",
+      "source": "In this case, the font must be manually converted to one of the supported formats (ideally __TRILIUM_PH_0__).",
+      "sourceHash": "3585ba16f7bdd242e02a565608b9ac7de9780755c9c4da3c7c5f06006b99eede",
+      "context": "Creating an icon pack > Verify the icon set",
+      "contextHash": "4b93a822f130328856c8b7ff74c559c0dff219e80c1718f98c85f25a2890e38f",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_383569ceeebffc1e5e6a005d_0",
+      "kind": "h2",
+      "source": "Manifest format__TRILIUM_PH_0__",
+      "sourceHash": "383569ceeebffc1e5e6a005d68cb0daf1024495c878e52900fbfd69050e01f74",
+      "context": "Creating an icon pack > Manifest format",
+      "contextHash": "cf4a1851ef1f0bd0faea98ea02919853095e9963bfd2ab1407a311bac213f00b",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_ebcd65525819f17e8e80d38c_0",
+      "kind": "p",
+      "source": "The manifest is a JSON object with an __TRILIUM_PH_0__ map. Each entry key is the CSS/class id you will use (Trilium uses the CSS class when rendering). Value object:",
+      "sourceHash": "ebcd65525819f17e8e80d38c1c5c86dfac4c9a6d2e9da32fb2e418cd8397664e",
+      "context": "Creating an icon pack > Manifest format",
+      "contextHash": "cf4a1851ef1f0bd0faea98ea02919853095e9963bfd2ab1407a311bac213f00b",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_f2c2e24b85948b1a53a9ce07_0",
+      "kind": "li",
+      "source": "glyph: the single character (the glyph) — can be the escaped Unicode (e.g. \"\\ue9c2\") or the literal character.",
+      "sourceHash": "f2c2e24b85948b1a53a9ce07111188198a606c66f5fcad2ffcc9ad0c0e0693e5",
+      "context": "Creating an icon pack > Manifest format",
+      "contextHash": "cf4a1851ef1f0bd0faea98ea02919853095e9963bfd2ab1407a311bac213f00b",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_e3008f2cde7953c84a935f8c_0",
+      "kind": "li",
+      "source": "terms: array of search aliases; the first term is used as display name in the selector.",
+      "sourceHash": "e3008f2cde7953c84a935f8c04292740c2a5bc232ff7d0a5bea939c4d6c3b7a6",
+      "context": "Creating an icon pack > Manifest format",
+      "contextHash": "cf4a1851ef1f0bd0faea98ea02919853095e9963bfd2ab1407a311bac213f00b",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_766699abbc3492263c7209b1_0",
+      "kind": "p",
+      "source": "Example minimal manifest:",
+      "sourceHash": "766699abbc3492263c7209b10055c8c3f9e208ad0b052ce4bbefb2c2b4ea22b0",
+      "context": "Creating an icon pack > Manifest format",
+      "contextHash": "cf4a1851ef1f0bd0faea98ea02919853095e9963bfd2ab1407a311bac213f00b",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_cda9756ccf018c1a0a907308_0",
+      "kind": "li",
+      "source": "You can supply glyph as the escaped __TRILIUM_PH_0__ sequence or as the actual UTF‑8 character. The CSS form (__TRILIUM_PH_1__, as written in a stylesheet's __TRILIUM_PH_2__) is accepted too, so glyphs copied out of the font's own CSS work as they stand.",
+      "sourceHash": "cda9756ccf018c1a0a907308d8771cc4b4042260090faabf720156d5d30ac4b1",
+      "context": "Creating an icon pack > Manifest format",
+      "contextHash": "cf4a1851ef1f0bd0faea98ea02919853095e9963bfd2ab1407a311bac213f00b",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_7ba50983081b5d2a3fb44d95_0",
+      "kind": "li",
+      "source": "It is also possible to use the unescaped glyph inside the JSON. It will appear strange (e.g. ), but it will be rendered properly regardless.",
+      "sourceHash": "7ba50983081b5d2a3fb44d95f7a00e26536d9d75c34f0e016fe149297de52889",
+      "context": "Creating an icon pack > Manifest format",
+      "contextHash": "cf4a1851ef1f0bd0faea98ea02919853095e9963bfd2ab1407a311bac213f00b",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_699c23a3d4137e9392fce577_0",
+      "kind": "li",
+      "source": "The manifest keys (e.g. __TRILIUM_PH_0__) should match the class names used by the font (prefix + name is a common pattern).",
+      "sourceHash": "699c23a3d4137e9392fce57724cee759dca03a9ff754412c496dcc30724c8348",
+      "context": "Creating an icon pack > Manifest format",
+      "contextHash": "cf4a1851ef1f0bd0faea98ea02919853095e9963bfd2ab1407a311bac213f00b",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_148749f394061af442a3a131_0",
+      "kind": "li",
+      "source": "Like the prefix, a manifest key becomes a CSS class name, so it can contain only letters, digits, hyphens, underscores and non-ASCII characters. Punctuation and whitespace (e.g. __TRILIUM_PH_0__ or __TRILIUM_PH_1__) are not usable as class names; icons with such a key are skipped and an error is logged in __TRILIUM_PH_2__Backend (server) logs__TRILIUM_PH_3__, while the rest of the pack still loads.",
+      "sourceHash": "148749f394061af442a3a131bcc7db829cb8b9a9ce04393bc02f75b79debd290",
+      "context": "Creating an icon pack > Manifest format",
+      "contextHash": "cf4a1851ef1f0bd0faea98ea02919853095e9963bfd2ab1407a311bac213f00b",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_30cb8633ebec03bd61f79964_0",
+      "kind": "h2",
+      "source": "Concrete example: Phosphor Icons__TRILIUM_PH_0__",
+      "sourceHash": "30cb8633ebec03bd61f799642a8e071a91bba7597543a6c2a0d00a422460ea9e",
+      "context": "Creating an icon pack > Concrete example: Phosphor Icons",
+      "contextHash": "98f3e57a48e640c2add138bcb5326f1af9785e86a209bdc01b4c3b9b292d1b22",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_35c7471547a65f1eb51e7425_0",
+      "kind": "p",
+      "source": "__TRILIUM_PH_0__Phosphor Icons__TRILIUM_PH_1__ provide a __TRILIUM_PH_2__ that includes __TRILIUM_PH_3__ (the codepoint) and __TRILIUM_PH_4__ (the icon name). The goal: convert that into Trilium's manifest.",
+      "sourceHash": "35c7471547a65f1eb51e742566071106f86c86616ae51b095c2cbcc3f7561c87",
+      "context": "Creating an icon pack > Concrete example: Phosphor Icons",
+      "contextHash": "98f3e57a48e640c2add138bcb5326f1af9785e86a209bdc01b4c3b9b292d1b22",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_7f6db13441697411c91d7f69_0",
+      "kind": "p",
+      "source": "Sample __TRILIUM_PH_0__ excerpt:",
+      "sourceHash": "7f6db13441697411c91d7f69a7ab4de26cff64666d8b760a99de7b993e39eb5a",
+      "context": "Creating an icon pack > Concrete example: Phosphor Icons",
+      "contextHash": "98f3e57a48e640c2add138bcb5326f1af9785e86a209bdc01b4c3b9b292d1b22",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_4059328f73c707ce2dbc77a7_0",
+      "kind": "summary",
+      "source": "A tiny Node.js script to produce the manifest",
+      "sourceHash": "4059328f73c707ce2dbc77a7f325319259e8bba1a03e4b150911082458f6de9c",
+      "context": "Creating an icon pack > Concrete example: Phosphor Icons",
+      "contextHash": "98f3e57a48e640c2add138bcb5326f1af9785e86a209bdc01b4c3b9b292d1b22",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_2a5b6a56c9545b03b586989a_0",
+      "kind": "p",
+      "source": "Place __TRILIUM_PH_0__ in the same directory and run with Node 20+):",
+      "sourceHash": "2a5b6a56c9545b03b586989ad47e28ffeff314b95770bd93a0e550dc33f944ea",
+      "context": "Creating an icon pack > Concrete example: Phosphor Icons",
+      "contextHash": "98f3e57a48e640c2add138bcb5326f1af9785e86a209bdc01b4c3b9b292d1b22",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_70546336733e8c3007e4dcaf_0",
+      "kind": "p",
+      "source": "What to do with the script:",
+      "sourceHash": "70546336733e8c3007e4dcaf3d9aedbe7dd39beced99c438bab8c0695048a17c",
+      "context": "Creating an icon pack > Concrete example: Phosphor Icons",
+      "contextHash": "98f3e57a48e640c2add138bcb5326f1af9785e86a209bdc01b4c3b9b292d1b22",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_c70b85ad744181d61105ab48_0",
+      "kind": "li",
+      "source": "Put __TRILIUM_PH_0__ and __TRILIUM_PH_1__ in a folder.",
+      "sourceHash": "c70b85ad744181d61105ab4833c184eb9475b72f63804b3698458f9cd89c4cef",
+      "context": "Creating an icon pack > Concrete example: Phosphor Icons",
+      "contextHash": "98f3e57a48e640c2add138bcb5326f1af9785e86a209bdc01b4c3b9b292d1b22",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_efc7b6a8aea2d0c51989dd81_0",
+      "kind": "li",
+      "source": "Run: node build-manifest.js",
+      "sourceHash": "efc7b6a8aea2d0c51989dd817481685336761cc96d8a0daeeb9f0ab987cf38d4",
+      "context": "Creating an icon pack > Concrete example: Phosphor Icons",
+      "contextHash": "98f3e57a48e640c2add138bcb5326f1af9785e86a209bdc01b4c3b9b292d1b22",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_4ede325a6664c3e41560bcca_0",
+      "kind": "li",
+      "source": "The script writes __TRILIUM_PH_0__ — open it, verify contents, then copy into a Trilium Code note (language: JSON).",
+      "sourceHash": "4ede325a6664c3e41560bccaabce2265216e99bb427cea218e050da2eebc3020",
+      "context": "Creating an icon pack > Concrete example: Phosphor Icons",
+      "contextHash": "98f3e57a48e640c2add138bcb5326f1af9785e86a209bdc01b4c3b9b292d1b22",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_7ef27e1c942869907182c1e0_0",
+      "kind": "p",
+      "source": "__TRILIUM_PH_0__Mind the escape format when processing CSS__TRILIUM_PH_1__",
+      "sourceHash": "7ef27e1c942869907182c1e0bae1e3cad01910a7e6f77b8dc4ae0dc34f15898e",
+      "context": "Creating an icon pack > Concrete example: Phosphor Icons",
+      "contextHash": "98f3e57a48e640c2add138bcb5326f1af9785e86a209bdc01b4c3b9b292d1b22",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_025287a126dc742732497dd1_0",
+      "kind": "p",
+      "source": "The Unicode escape syntax is different in CSS (__TRILIUM_PH_0__) when compared to JSON (__TRILIUM_PH_1__). Notice how the JSON escape is __TRILIUM_PH_2__ and not __TRILIUM_PH_3__. Both forms are accepted: keep the CSS escape by writing the backslash itself as __TRILIUM_PH_4__ in the JSON, or convert it to the JSON escape __TRILIUM_PH_5__.",
+      "sourceHash": "025287a126dc742732497dd19b87834a60b845555a25113c42a7750344234843",
+      "context": "Creating an icon pack > Concrete example: Phosphor Icons",
+      "contextHash": "98f3e57a48e640c2add138bcb5326f1af9785e86a209bdc01b4c3b9b292d1b22",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_6de8ba6cd4e4a3ee59fe7b96_0",
+      "kind": "p",
+      "source": "As a more compact alternative, provide the un-escaped character directly, as UTF-8 is supported.",
+      "sourceHash": "6de8ba6cd4e4a3ee59fe7b96ee4d4e288c0abb3694d71464c92b4f4b8212cda5",
+      "context": "Creating an icon pack > Concrete example: Phosphor Icons",
+      "contextHash": "98f3e57a48e640c2add138bcb5326f1af9785e86a209bdc01b4c3b9b292d1b22",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_e95c1f891cb517dd652b1a85_0",
+      "kind": "h3",
+      "source": "Assigning the prefix__TRILIUM_PH_0__",
+      "sourceHash": "e95c1f891cb517dd652b1a854ba0b078966e2c29b2ed217cef1e23f080643d42",
+      "context": "Creating an icon pack > Concrete example: Phosphor Icons > Assigning the prefix",
+      "contextHash": "3230312e6806aaac9b65bdea5a152f6678823035fa2d737d53cb832efc754ed9",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_2d6e6c7d61e0334868145b8f_0",
+      "kind": "p",
+      "source": "Before an icon pack can be used, it needs to have a prefix defined. This prefix uniquely identifies the icon pack so that it can be used throughout the application.",
+      "sourceHash": "2d6e6c7d61e0334868145b8fa861e7981ef4a0ddfa8c988e3a3625b250209e8c",
+      "context": "Creating an icon pack > Concrete example: Phosphor Icons > Assigning the prefix",
+      "contextHash": "3230312e6806aaac9b65bdea5a152f6678823035fa2d737d53cb832efc754ed9",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_c41ccbd8a3c8cd0c04986ca3_0",
+      "kind": "p",
+      "source": "To do so, Trilium makes use of the same format that was used for the internal icon pack (Boxicons). For example, when an icon from Boxicons is set, it looks like this: __TRILIUM_PH_0__. In this case, the icon pack prefix is __TRILIUM_PH_1__ and the icon class name is __TRILIUM_PH_2__.",
+      "sourceHash": "c41ccbd8a3c8cd0c04986ca3751b14d3a6d33c9f2ebde0fd941d3c9e8291814e",
+      "context": "Creating an icon pack > Concrete example: Phosphor Icons > Assigning the prefix",
+      "contextHash": "3230312e6806aaac9b65bdea5a152f6678823035fa2d737d53cb832efc754ed9",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_a363613622ef47d56f3f2bd3_0",
+      "kind": "p",
+      "source": "In order for an icon pack to be recognized, the prefix must be specified in the __TRILIUM_PH_0__ label. ",
+      "sourceHash": "a363613622ef47d56f3f2bd3847c9f0beadcb396993fbb2b975cfc2c9c3a0e2a",
+      "context": "Creating an icon pack > Concrete example: Phosphor Icons > Assigning the prefix",
+      "contextHash": "3230312e6806aaac9b65bdea5a152f6678823035fa2d737d53cb832efc754ed9",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_1032fd1fc0f9c922f7c11c87_0",
+      "kind": "p",
+      "source": "For our example with Phosphor Icons, we can use the __TRILIUM_PH_0__ prefix since it also matches the prefix set in the original CSS. So in this case it would be __TRILIUM_PH_1__.",
+      "sourceHash": "1032fd1fc0f9c922f7c11c87bf2df9d8d5835830b9aae72a440972dc2a8b28ae",
+      "context": "Creating an icon pack > Concrete example: Phosphor Icons > Assigning the prefix",
+      "contextHash": "3230312e6806aaac9b65bdea5a152f6678823035fa2d737d53cb832efc754ed9",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_aef3d3aef6cde3e762471d7f_0",
+      "kind": "p",
+      "source": "The prefix must consist of only letters, digits, hyphens, underscores and non-ASCII characters. If the prefix doesn't match these constraints, the icon pack will be ignored and an error will be logged in __TRILIUM_PH_0__Backend (server) logs__TRILIUM_PH_1__.",
+      "sourceHash": "aef3d3aef6cde3e762471d7fd2e3dd6ff28eeee97899b0e551144993e989e3a7",
+      "context": "Creating an icon pack > Concrete example: Phosphor Icons > Assigning the prefix",
+      "contextHash": "3230312e6806aaac9b65bdea5a152f6678823035fa2d737d53cb832efc754ed9",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_f41fa99e2cdfa023a6a785ce_0",
+      "kind": "h2",
+      "source": "Creating the Trilium icon pack note__TRILIUM_PH_0__",
+      "sourceHash": "f41fa99e2cdfa023a6a785ceca4a77a64aeef46b9dfc3a45414a8a6aceb033f0",
+      "context": "Creating an icon pack > Creating the Trilium icon pack note",
+      "contextHash": "513956ee82d36e30cbc4a4f92cbe90ba749bd8340195a0dc46b7ec04b7c31545",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_6037fd8a829ecf2c3690c11c_0",
+      "kind": "li",
+      "source": "Create a note of type __TRILIUM_PH_0__Code__TRILIUM_PH_1__.",
+      "sourceHash": "6037fd8a829ecf2c3690c11c7086525e9ba46f50840b79e95f33b4563d8c28aa",
+      "context": "Creating an icon pack > Creating the Trilium icon pack note",
+      "contextHash": "513956ee82d36e30cbc4a4f92cbe90ba749bd8340195a0dc46b7ec04b7c31545",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_5597abf4378d52ba3b38efe1_0",
+      "kind": "li",
+      "source": "Set the language to __TRILIUM_PH_0__JSON__TRILIUM_PH_1__.",
+      "sourceHash": "5597abf4378d52ba3b38efe13c950ae4a4d8d5beeec5a329f70a8d94ca2b90dd",
+      "context": "Creating an icon pack > Creating the Trilium icon pack note",
+      "contextHash": "513956ee82d36e30cbc4a4f92cbe90ba749bd8340195a0dc46b7ec04b7c31545",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_3516769047f09723b400fe92_0",
+      "kind": "li",
+      "source": "Rename the note. The name of the note will also be the name of the icon pack as displayed in the list of icons.",
+      "sourceHash": "3516769047f09723b400fe92f9aa2442eb24ead4cd941fd2a7ffbfb8e5fc846b",
+      "context": "Creating an icon pack > Creating the Trilium icon pack note",
+      "contextHash": "513956ee82d36e30cbc4a4f92cbe90ba749bd8340195a0dc46b7ec04b7c31545",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_bf8784acace7b5443a9f4356_0",
+      "kind": "li",
+      "source": "Copy and paste the manifest generated in the previous step as the content of this note.",
+      "sourceHash": "bf8784acace7b5443a9f435661e394fcd62fb41b5bd27fb64c7a25dd6ac2cfd7",
+      "context": "Creating an icon pack > Creating the Trilium icon pack note",
+      "contextHash": "513956ee82d36e30cbc4a4f92cbe90ba749bd8340195a0dc46b7ec04b7c31545",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_bfbc5f697ead0cde04969bf0_0",
+      "kind": "li",
+      "source": "Go to the __TRILIUM_PH_0__note attachment__TRILIUM_PH_1__ and upload the font file (in __TRILIUM_PH_2__, __TRILIUM_PH_3__, __TRILIUM_PH_4__) format.",
+      "sourceHash": "bfbc5f697ead0cde04969bf043312bc5bea9568eba197e526ef2393b080fc05a",
+      "context": "Creating an icon pack > Creating the Trilium icon pack note",
+      "contextHash": "513956ee82d36e30cbc4a4f92cbe90ba749bd8340195a0dc46b7ec04b7c31545",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_249c2b7ef76762c0b08b2e64_0",
+      "kind": "li",
+      "source": "Trilium identifies the font to use from attachments via the MIME type, make sure the MIME type is displayed correctly after uploading the attachment (for example __TRILIUM_PH_0__).",
+      "sourceHash": "249c2b7ef76762c0b08b2e64ea188dacf64b0363903bdb43803beb83ae9a85dc",
+      "context": "Creating an icon pack > Creating the Trilium icon pack note",
+      "contextHash": "513956ee82d36e30cbc4a4f92cbe90ba749bd8340195a0dc46b7ec04b7c31545",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_d507fb8557c66a8f1f6a4429_0",
+      "kind": "li",
+      "source": "Make sure the __TRILIUM_PH_0__ appears as __TRILIUM_PH_1__, otherwise the font will not be identified.",
+      "sourceHash": "d507fb8557c66a8f1f6a4429785f63234e60f015635baa9945dc42913c0a89b1",
+      "context": "Creating an icon pack > Creating the Trilium icon pack note",
+      "contextHash": "513956ee82d36e30cbc4a4f92cbe90ba749bd8340195a0dc46b7ec04b7c31545",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_2f63d122170bbba160241855_0",
+      "kind": "li",
+      "source": "Multiple attachments are supported, but only one font will actually be used in Trilium's order of preference: __TRILIUM_PH_0__, __TRILIUM_PH_1__, __TRILIUM_PH_2__. As such, there's not much reason to upload more than one font per icon pack.",
+      "sourceHash": "2f63d122170bbba16024185594710788a737b9bba014b669a12a9403ea3ca0d1",
+      "context": "Creating an icon pack > Creating the Trilium icon pack note",
+      "contextHash": "513956ee82d36e30cbc4a4f92cbe90ba749bd8340195a0dc46b7ec04b7c31545",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_e70ac91cfd2b6f1d451a09a2_0",
+      "kind": "li",
+      "source": "Add label: __TRILIUM_PH_0__ (for Phosphor example: __TRILIUM_PH_1__).",
+      "sourceHash": "e70ac91cfd2b6f1d451a09a2cb3c6e603ce29a7c5ad82ec51965e5f9996a010c",
+      "context": "Creating an icon pack > Creating the Trilium icon pack note",
+      "contextHash": "513956ee82d36e30cbc4a4f92cbe90ba749bd8340195a0dc46b7ec04b7c31545",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_b6b98cd972bb7dd1faba5f41_0",
+      "kind": "h3",
+      "source": "Final steps__TRILIUM_PH_0__",
+      "sourceHash": "b6b98cd972bb7dd1faba5f41981368bd5173eab0a43486894138e6b1351df588",
+      "context": "Creating an icon pack > Creating the Trilium icon pack note > Final steps",
+      "contextHash": "e286a878daf90c48b258ba9475f43dc3f2b32c1fdc172e42640b7dd98826b072",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_708f988bcd804419613bde2c_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__Refresh the client__TRILIUM_PH_1__",
+      "sourceHash": "708f988bcd804419613bde2c32ea82990900eac99d245379b8539c5fdb48263a",
+      "context": "Creating an icon pack > Creating the Trilium icon pack note > Final steps",
+      "contextHash": "e286a878daf90c48b258ba9475f43dc3f2b32c1fdc172e42640b7dd98826b072",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_b4778f1d2ce5f2c80024936e_0",
+      "kind": "li",
+      "source": "Change the icon of the note and look for the __TRILIUM_PH_0__Filter__TRILIUM_PH_1__ icon in the top-right side.",
+      "sourceHash": "b4778f1d2ce5f2c80024936eeae696013b18857d065b45d36fccd445a6359014",
+      "context": "Creating an icon pack > Creating the Trilium icon pack note > Final steps",
+      "contextHash": "e286a878daf90c48b258ba9475f43dc3f2b32c1fdc172e42640b7dd98826b072",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_70f6ea51f1bf0a8f0d16a6bd_0",
+      "kind": "li",
+      "source": "Check if the new icon pack is displayed there and click on it to see the full list of icons.",
+      "sourceHash": "70f6ea51f1bf0a8f0d16a6bdb57ae2ec7d24504226cba40e34b878951baeff27",
+      "context": "Creating an icon pack > Creating the Trilium icon pack note > Final steps",
+      "contextHash": "e286a878daf90c48b258ba9475f43dc3f2b32c1fdc172e42640b7dd98826b072",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_4063bbb4d129b92dfb2ad335_0",
+      "kind": "li",
+      "source": "Go through most of the items to look for issues such as missing icon, wrong names (some icons have aliases/terms that can cause issues).",
+      "sourceHash": "4063bbb4d129b92dfb2ad335a7d3821d00a4feeced3ff11d0ddedf6cadc55210",
+      "context": "Creating an icon pack > Creating the Trilium icon pack note > Final steps",
+      "contextHash": "e286a878daf90c48b258ba9475f43dc3f2b32c1fdc172e42640b7dd98826b072",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_af9aa31ef258ee6587d4094c_0",
+      "kind": "li",
+      "source": "Optionally, assign an icon from the new icon pack to this note. This icon will be used in the icon pack filter for a visual distinction.",
+      "sourceHash": "af9aa31ef258ee6587d4094c51c31ce1ad8f5fa23fa86b6eed65694ba51e168d",
+      "context": "Creating an icon pack > Creating the Trilium icon pack note > Final steps",
+      "contextHash": "e286a878daf90c48b258ba9475f43dc3f2b32c1fdc172e42640b7dd98826b072",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_1451760cc6244c2b169dda9c_0",
+      "kind": "li",
+      "source": "The icon pack can then be __TRILIUM_PH_0__exported as ZIP__TRILIUM_PH_1__ in order to be distributed to other users.",
+      "sourceHash": "1451760cc6244c2b169dda9cc280cea26e00ab1a4e595bfd1bcb79a8352b3eda",
+      "context": "Creating an icon pack > Creating the Trilium icon pack note > Final steps",
+      "contextHash": "e286a878daf90c48b258ba9475f43dc3f2b32c1fdc172e42640b7dd98826b072",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_fe33568d4d3078b7bc2a6bf2_0",
+      "kind": "li",
+      "source": "It's important to note that icon packs are considered “unsafe” by default, so “Safe mode” must be disabled when importing the ZIP.",
+      "sourceHash": "fe33568d4d3078b7bc2a6bf2f5787dfaa9428b4d2c785a7983f5fba7187118d4",
+      "context": "Creating an icon pack > Creating the Trilium icon pack note > Final steps",
+      "contextHash": "e286a878daf90c48b258ba9475f43dc3f2b32c1fdc172e42640b7dd98826b072",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_812b27de36b6f529d70b570b_0",
+      "kind": "li",
+      "source": "Consider linking new users to the __TRILIUM_PH_0__Icon Packs__TRILIUM_PH_1__ documentation in order to understand how to import and use an icon pack.",
+      "sourceHash": "812b27de36b6f529d70b570b07ab4fafa3fee85df0b50ac164c5cd425b923160",
+      "context": "Creating an icon pack > Creating the Trilium icon pack note > Final steps",
+      "contextHash": "e286a878daf90c48b258ba9475f43dc3f2b32c1fdc172e42640b7dd98826b072",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_1df58905e1d926b704db7bd6_0",
+      "kind": "h3",
+      "source": "Troubleshooting__TRILIUM_PH_0__",
+      "sourceHash": "1df58905e1d926b704db7bd6ba98e64862730090a642714bbd833fa236b37a0a",
+      "context": "Creating an icon pack > Creating the Trilium icon pack note > Troubleshooting",
+      "contextHash": "bdcc0a7ca26ef0c6e3616fb7f329a369a8aced68318f0880ded9dfdd13f504b3",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_f1578caea1278218d3f6cfe3_0",
+      "kind": "p",
+      "source": "If the icon pack doesn't show up, look through the __TRILIUM_PH_0__Backend (server) logs__TRILIUM_PH_1__ for clues.",
+      "sourceHash": "f1578caea1278218d3f6cfe304b757d84cdf8f3c0779b2c747d1a1ef0d2a3ed0",
+      "context": "Creating an icon pack > Creating the Trilium icon pack note > Troubleshooting",
+      "contextHash": "bdcc0a7ca26ef0c6e3616fb7f329a369a8aced68318f0880ded9dfdd13f504b3",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_a18a78f986127d4f8c385962_0",
+      "kind": "li",
+      "source": "One example is if the font could not be retrieved: __TRILIUM_PH_0__.",
+      "sourceHash": "a18a78f986127d4f8c385962eb1e445a488feb7bad5899c42f25ecac604cd117",
+      "context": "Creating an icon pack > Creating the Trilium icon pack note > Troubleshooting",
+      "contextHash": "bdcc0a7ca26ef0c6e3616fb7f329a369a8aced68318f0880ded9dfdd13f504b3",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_f7ad84a2ecffa0b9d85cb375_0",
+      "kind": "li",
+      "source": "Make sure the prefix is unique and not already taken by some other icon pack. When there are two icon packs with the same prefix, only one is used. The server logs will indicate if this situation occurs.",
+      "sourceHash": "f7ad84a2ecffa0b9d85cb3755060e7d94783e24e4497db539d5ec1e766cf8397",
+      "context": "Creating an icon pack > Creating the Trilium icon pack note > Troubleshooting",
+      "contextHash": "bdcc0a7ca26ef0c6e3616fb7f329a369a8aced68318f0880ded9dfdd13f504b3",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_5c181f1f377e0e9f7ba8813b_0",
+      "kind": "li",
+      "source": "Make sure the prefix consists only of letters, digits, hyphens, underscores and non-ASCII characters.",
+      "sourceHash": "5c181f1f377e0e9f7ba8813b8bf4aae6b4a96363642011f1a2edc22e5b429f48",
+      "context": "Creating an icon pack > Creating the Trilium icon pack note > Troubleshooting",
+      "contextHash": "bdcc0a7ca26ef0c6e3616fb7f329a369a8aced68318f0880ded9dfdd13f504b3",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_bac9abf8a924d00bbf589706_0",
+      "kind": "li",
+      "source": "If the pack loads but individual icons are missing, check the logs for __TRILIUM_PH_0__ — that key uses characters outside the allowed set and needs renaming in the manifest.",
+      "sourceHash": "bac9abf8a924d00bbf589706f8a2b315f4674f2c74c1e039cd5333d72db962d3",
+      "context": "Creating an icon pack > Creating the Trilium icon pack note > Troubleshooting",
+      "contextHash": "bdcc0a7ca26ef0c6e3616fb7f329a369a8aced68318f0880ded9dfdd13f504b3",
+      "status": "pending",
+      "active": true
+    }
+  ],
+  "requests": []
+}

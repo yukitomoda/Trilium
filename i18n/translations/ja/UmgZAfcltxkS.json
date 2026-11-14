@@ -1,0 +1,889 @@
+{
+  "schemaVersion": 1,
+  "pageId": "UmgZAfcltxkS",
+  "sourceFile": "docs/User Guide/User Guide/Note Types/Text/Link Previews.md",
+  "sourceRevision": "03d17b60f59b5efc29b880b11481471d0fe0ff57",
+  "units": [
+    {
+      "id": "u_e0cb5b978cfffd332dab10ac_0",
+      "kind": "title",
+      "source": "Link Previews",
+      "sourceHash": "e0cb5b978cfffd332dab10ac789ca0dbcc29329faf84287a16898d9d6d56dc8c",
+      "context": "Link Previews",
+      "contextHash": "fd0d3eed73c3f79467932187006d1eaea6f4482f100819c366faca1f34283865",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_24790d8826fe526e62f82d54_0",
+      "kind": "p",
+      "source": "Link previews turn a pasted URL into a rich, metadata-aware widget that can be displayed in three visual modes:",
+      "sourceHash": "24790d8826fe526e62f82d547f4ba46bb879991d9529790d55b0050a293a2f17",
+      "context": "Link Previews",
+      "contextHash": "fd0d3eed73c3f79467932187006d1eaea6f4482f100819c366faca1f34283865",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_688a9f0cddd4f1e3e188aa2a_0",
+      "kind": "h2",
+      "source": "Link display modes__TRILIUM_PH_0__",
+      "sourceHash": "688a9f0cddd4f1e3e188aa2acc3d18bada26123a1fe72556af141ac9096d853e",
+      "context": "Link Previews > Link display modes",
+      "contextHash": "974b2072e980bdd610a6aa113e73f33a98533b61fd65613eeae9a8113081dbd1",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_0f44b28d221ba10ab8b0046b_0",
+      "kind": "p",
+      "source": "A link preview can be displayed in one of three link display modes:",
+      "sourceHash": "0f44b28d221ba10ab8b0046bbb9f1dc9b9e1f3afa6eca376f02c5922e812f6ea",
+      "context": "Link Previews > Link display modes",
+      "contextHash": "974b2072e980bdd610a6aa113e73f33a98533b61fd65613eeae9a8113081dbd1",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_b34cc6159d65487fac8f4410_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__Icon & text__TRILIUM_PH_1__ — a link showing the site's favicon and page title (quite similar to __TRILIUM_PH_2__Internal (reference) links__TRILIUM_PH_3__). Use this when you want the link to flow with the surrounding paragraph.",
+      "sourceHash": "b34cc6159d65487fac8f4410a79b8e0b84d57a75e82b486d448af2ea10872043",
+      "context": "Link Previews > Link display modes",
+      "contextHash": "974b2072e980bdd610a6aa113e73f33a98533b61fd65613eeae9a8113081dbd1",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_b24a092c2ee1af0f8feb6c62_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__Card__TRILIUM_PH_1__ — a block-level preview with thumbnail, title, description, and site name. Use this when the link is the focus of a paragraph.",
+      "sourceHash": "b24a092c2ee1af0f8feb6c62f5b104d497b3a25de0d20cc37703c815dbe873db",
+      "context": "Link Previews > Link display modes",
+      "contextHash": "974b2072e980bdd610a6aa113e73f33a98533b61fd65613eeae9a8113081dbd1",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_6fee8479e5c7cd7f409cde47_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__Embed__TRILIUM_PH_1__ — a block-level player.",
+      "sourceHash": "6fee8479e5c7cd7f409cde472a70c911c33c4644e959d53d86f0a5a5855097d1",
+      "context": "Link Previews > Link display modes",
+      "contextHash": "974b2072e980bdd610a6aa113e73f33a98533b61fd65613eeae9a8113081dbd1",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_97ddcce2ddb4f0d1c08f38c6_0",
+      "kind": "li",
+      "source": "Supported for YouTube videos, which play in the YouTube player, and for audio and video files at a web address, which play in the media player of Trilium.",
+      "sourceHash": "97ddcce2ddb4f0d1c08f38c6808c8d1577ca6e9f49d7900555629d60ce440d37",
+      "context": "Link Previews > Link display modes",
+      "contextHash": "974b2072e980bdd610a6aa113e73f33a98533b61fd65613eeae9a8113081dbd1",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_546779e35b4a6cf2a58609c6_0",
+      "kind": "li",
+      "source": "To prevent unwanted remote requests, nothing is loaded from the site until you click play. Until then, a video shows its thumbnail with a play button, and an audio file its controls.",
+      "sourceHash": "546779e35b4a6cf2a58609c64472d97145d4ea3b04149f7386e50047ed43c3b3",
+      "context": "Link Previews > Link display modes",
+      "contextHash": "974b2072e980bdd610a6aa113e73f33a98533b61fd65613eeae9a8113081dbd1",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_0dcb5717037947f126a712db_0",
+      "kind": "li",
+      "source": "The player can be resized and aligned (see __TRILIUM_PH_0__Audio and video__TRILIUM_PH_1__ below).",
+      "sourceHash": "0dcb5717037947f126a712dbf8f84eb500344781da88a56e9105ad71f4ab03a0",
+      "context": "Link Previews > Link display modes",
+      "contextHash": "974b2072e980bdd610a6aa113e73f33a98533b61fd65613eeae9a8113081dbd1",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_9f0d8ead08bd9251f4c62a23_0",
+      "kind": "p",
+      "source": "A fourth link display mode, __TRILIUM_PH_0__Text__TRILIUM_PH_1__, inserts an ordinary link without a preview.",
+      "sourceHash": "9f0d8ead08bd9251f4c62a23a66e69e5d1b8e7878600548e51bc537349b22a28",
+      "context": "Link Previews > Link display modes",
+      "contextHash": "974b2072e980bdd610a6aa113e73f33a98533b61fd65613eeae9a8113081dbd1",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_c2719be2f48bde6823652620_0",
+      "kind": "p",
+      "source": "Since v0.107.0, __TRILIUM_PH_0__Display as__TRILIUM_PH_1__ and the __TRILIUM_PH_2__Display__TRILIUM_PH_3__ menu show __TRILIUM_PH_4__Text__TRILIUM_PH_5__ instead of __TRILIUM_PH_6__Plain link__TRILIUM_PH_7__, and __TRILIUM_PH_8__Icon & text__TRILIUM_PH_9__ instead of __TRILIUM_PH_10__Inline__TRILIUM_PH_11__.",
+      "sourceHash": "c2719be2f48bde682365262000fa97aa0faa50600e5eff2380170c6d7d67fcae",
+      "context": "Link Previews > Link display modes",
+      "contextHash": "974b2072e980bdd610a6aa113e73f33a98533b61fd65613eeae9a8113081dbd1",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_60b370eccb30381edd39260a_0",
+      "kind": "figcaption",
+      "source": "__TRILIUM_PH_0__Icon & text__TRILIUM_PH_1__ link preview",
+      "sourceHash": "60b370eccb30381edd39260aae2dcbf08aa536ef894e68d768393b58249d4979",
+      "context": "Link Previews > Link display modes",
+      "contextHash": "974b2072e980bdd610a6aa113e73f33a98533b61fd65613eeae9a8113081dbd1",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_869b5c43465d19946fee28c7_0",
+      "kind": "figcaption",
+      "source": "__TRILIUM_PH_0__Card__TRILIUM_PH_1__ link preview",
+      "sourceHash": "869b5c43465d19946fee28c756460258dee88530670d9dde0a1e590bc50b0468",
+      "context": "Link Previews > Link display modes",
+      "contextHash": "974b2072e980bdd610a6aa113e73f33a98533b61fd65613eeae9a8113081dbd1",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_1332176b60747916aff4ee58_0",
+      "kind": "figcaption",
+      "source": "__TRILIUM_PH_0__Embed__TRILIUM_PH_1__ link preview",
+      "sourceHash": "1332176b60747916aff4ee58f873580da005e1aec4017fda6ff96c8c1530f957",
+      "context": "Link Previews > Link display modes",
+      "contextHash": "974b2072e980bdd610a6aa113e73f33a98533b61fd65613eeae9a8113081dbd1",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_4586e8af9b38e4dfa7e36955_0",
+      "kind": "h2",
+      "source": "Inserting a link preview__TRILIUM_PH_0__",
+      "sourceHash": "4586e8af9b38e4dfa7e369550572331a0e9adf59f29160de8e7d8e06b4257f2d",
+      "context": "Link Previews > Inserting a link preview",
+      "contextHash": "9e28b3ec3e6eb9dbac8cc3211ada1b06836218cabc33e9139e944ed625b5c027",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_d394b638e3a2c07cc85bea79_0",
+      "kind": "p",
+      "source": "There are four ways to create one:",
+      "sourceHash": "d394b638e3a2c07cc85bea793fdc4b9182bfd3fcf05799580faa8069029e0ed3",
+      "context": "Link Previews > Inserting a link preview",
+      "contextHash": "9e28b3ec3e6eb9dbac8cc3211ada1b06836218cabc33e9139e944ed625b5c027",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_b011ba6d0d0eac94ee5180a3_0",
+      "kind": "h3",
+      "source": "1. By pasting a URL__TRILIUM_PH_0__",
+      "sourceHash": "b011ba6d0d0eac94ee5180a37bf039c59f0f82fb9b2c0f18eade05966f10f8ab",
+      "context": "Link Previews > Inserting a link preview > 1. By pasting a URL",
+      "contextHash": "3bdcee0140e2b8c2d4cafbb425ef0532d9db7bb98f547539e70a25a40fbf5214",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_4d2ad2a7e23537c80b6dc348_0",
+      "kind": "p",
+      "source": "A link preview is automatically created:",
+      "sourceHash": "4d2ad2a7e23537c80b6dc34869aeeced01d0f6ae09957d0e0ac1737a513e8131",
+      "context": "Link Previews > Inserting a link preview > 1. By pasting a URL",
+      "contextHash": "3bdcee0140e2b8c2d4cafbb425ef0532d9db7bb98f547539e70a25a40fbf5214",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_80998a22d664c69c6e0a8ad3_0",
+      "kind": "li",
+      "source": "By pasting the URL and pressing __TRILIUM_PH_0__Space__TRILIUM_PH_1__. This will create an __TRILIUM_PH_2__Icon & text__TRILIUM_PH_3__ link preview.",
+      "sourceHash": "80998a22d664c69c6e0a8ad37147d0fa7ce42aea075f5177ec62deed184340f3",
+      "context": "Link Previews > Inserting a link preview > 1. By pasting a URL",
+      "contextHash": "3bdcee0140e2b8c2d4cafbb425ef0532d9db7bb98f547539e70a25a40fbf5214",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_26f0d5eb58841c2e66b1be8f_0",
+      "kind": "li",
+      "source": "When at the start of a new paragraph, pressing __TRILIUM_PH_0__Enter__TRILIUM_PH_1__ will create a __TRILIUM_PH_2__card__TRILIUM_PH_3__, or an __TRILIUM_PH_4__embed__TRILIUM_PH_5__ for a YouTube video or an audio or video file.",
+      "sourceHash": "26f0d5eb58841c2e66b1be8fbfd94d93ca7863c527a73d09b809502b710470f0",
+      "context": "Link Previews > Inserting a link preview > 1. By pasting a URL",
+      "contextHash": "3bdcee0140e2b8c2d4cafbb425ef0532d9db7bb98f547539e70a25a40fbf5214",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_6051d30c87dbbb041c278e4b_0",
+      "kind": "p",
+      "source": "To undo an automatic link preview, press __TRILIUM_PH_0__Ctrl__TRILIUM_PH_1__+__TRILIUM_PH_2__Z__TRILIUM_PH_3__ immediately afterwards which keeps it as a text link instead. Alternatively, once a link preview was created, click on the link and select __TRILIUM_PH_4__Text__TRILIUM_PH_5__ from the link preview toolbar, which makes a link that reads as the title of the page.",
+      "sourceHash": "6051d30c87dbbb041c278e4b157678403a479240a4537cae75b452e27df1c2de",
+      "context": "Link Previews > Inserting a link preview > 1. By pasting a URL",
+      "contextHash": "3bdcee0140e2b8c2d4cafbb425ef0532d9db7bb98f547539e70a25a40fbf5214",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_de65684c6003756a082ab13f_0",
+      "kind": "p",
+      "source": "This automatic conversion can be disabled by going to __TRILIUM_PH_0__Options__TRILIUM_PH_1__ → __TRILIUM_PH_2__Text Notes__TRILIUM_PH_3__ and unchecking __TRILIUM_PH_4__Autogenerate link previews__TRILIUM_PH_5__ from the __TRILIUM_PH_6__Features__TRILIUM_PH_7__ section.",
+      "sourceHash": "de65684c6003756a082ab13fd2f062f49a50516f1c881fc92b8b621590b2ede0",
+      "context": "Link Previews > Inserting a link preview > 1. By pasting a URL",
+      "contextHash": "3bdcee0140e2b8c2d4cafbb425ef0532d9db7bb98f547539e70a25a40fbf5214",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_09a77ae0edd88fdbd4cdb09d_0",
+      "kind": "p",
+      "source": "If the link is not accessible to the Trilium server (or the network request fails for any other reason), it will not be converted to a link preview. The address of an audio or video file whose name ends in a known extension, such as __TRILIUM_PH_0__, __TRILIUM_PH_1__, __TRILIUM_PH_2__ or __TRILIUM_PH_3__, becomes an __TRILIUM_PH_4__embed__TRILIUM_PH_5__ all the same.",
+      "sourceHash": "09a77ae0edd88fdbd4cdb09d324e8ece9f3113f39597266e03fb6809da232622",
+      "context": "Link Previews > Inserting a link preview > 1. By pasting a URL",
+      "contextHash": "3bdcee0140e2b8c2d4cafbb425ef0532d9db7bb98f547539e70a25a40fbf5214",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_6618b8f61e0eef9e86b9d567_0",
+      "kind": "p",
+      "source": "A URL is only auto-converted when the pasted text __TRILIUM_PH_0__is__TRILIUM_PH_1__ the URL. Links with a display name (e.g. __TRILIUM_PH_2__Trilium Notes website__TRILIUM_PH_3__) are left as text links.",
+      "sourceHash": "6618b8f61e0eef9e86b9d5671c6c4290c4fb78419f35ebf8675192324e361635",
+      "context": "Link Previews > Inserting a link preview > 1. By pasting a URL",
+      "contextHash": "3bdcee0140e2b8c2d4cafbb425ef0532d9db7bb98f547539e70a25a40fbf5214",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_c575ce7f4ea8e7e9e864e429_0",
+      "kind": "h3",
+      "source": "2. From the link dialog__TRILIUM_PH_0__",
+      "sourceHash": "c575ce7f4ea8e7e9e864e42956ce39e96f9259fd37f63c610617517855b953be",
+      "context": "Link Previews > Inserting a link preview > 2. From the link dialog",
+      "contextHash": "bea47322a7aa333f0f0ef8bec6dbb9e73cf165ea8427fe8db23852a3f9a9f50d",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_e02b03e62fb0b033bf567604_0",
+      "kind": "p",
+      "source": "Since v0.107.0, a link preview is created from the same __TRILIUM_PH_0__Add link__TRILIUM_PH_1__ dialog as any other link (see __TRILIUM_PH_2__External links__TRILIUM_PH_3__):",
+      "sourceHash": "e02b03e62fb0b033bf567604d8b7aae475e859fa582deb2979c8f4387dcfa079",
+      "context": "Link Previews > Inserting a link preview > 2. From the link dialog",
+      "contextHash": "bea47322a7aa333f0f0ef8bec6dbb9e73cf165ea8427fe8db23852a3f9a9f50d",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_f2c67f716b5ca8bffd953a36_0",
+      "kind": "li",
+      "source": "Press __TRILIUM_PH_0__ in the __TRILIUM_PH_1__Formatting toolbar__TRILIUM_PH_2__, or press __TRILIUM_PH_3__Ctrl__TRILIUM_PH_4__+__TRILIUM_PH_5__K__TRILIUM_PH_6__, to open the dialog on __TRILIUM_PH_7__Web page__TRILIUM_PH_8__.",
+      "sourceHash": "f2c67f716b5ca8bffd953a360798c87c56610c5b24fba46eb676fb20fc4df7fd",
+      "context": "Link Previews > Inserting a link preview > 2. From the link dialog",
+      "contextHash": "bea47322a7aa333f0f0ef8bec6dbb9e73cf165ea8427fe8db23852a3f9a9f50d",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_e408bb00410cf2c864f6fb74_0",
+      "kind": "li",
+      "source": "Type or paste the address, then pick the preview in __TRILIUM_PH_0__Display as__TRILIUM_PH_1__: __TRILIUM_PH_2__Icon & text__TRILIUM_PH_3__, __TRILIUM_PH_4__Card__TRILIUM_PH_5__ or, for a YouTube video or the address of an audio or video file, __TRILIUM_PH_6__Embed__TRILIUM_PH_7__. __TRILIUM_PH_8__Text__TRILIUM_PH_9__ inserts an ordinary link. __TRILIUM_PH_10__Display as__TRILIUM_PH_11__ is not shown when text is selected, since the link then keeps the selected text.",
+      "sourceHash": "e408bb00410cf2c864f6fb748c46cefa03bb9ff63a0658feada1d68afdf60830",
+      "context": "Link Previews > Inserting a link preview > 2. From the link dialog",
+      "contextHash": "bea47322a7aa333f0f0ef8bec6dbb9e73cf165ea8427fe8db23852a3f9a9f50d",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_c5c6c903da08002352fd2b22_0",
+      "kind": "li",
+      "source": "Optionally, type a __TRILIUM_PH_0__Link title__TRILIUM_PH_1__ to show instead of the page's own title. A __TRILIUM_PH_2__Card__TRILIUM_PH_3__ also offers a __TRILIUM_PH_4__Description__TRILIUM_PH_5__ to show instead of the page's own description.",
+      "sourceHash": "c5c6c903da08002352fd2b22ca92469010095276fcb6c50de1f1746a01984544",
+      "context": "Link Previews > Inserting a link preview > 2. From the link dialog",
+      "contextHash": "bea47322a7aa333f0f0ef8bec6dbb9e73cf165ea8427fe8db23852a3f9a9f50d",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_101069cb762c01dae6afe7d8_0",
+      "kind": "li",
+      "source": "When you leave the address field, or paste the address with the __TRILIUM_PH_0__ __TRILIUM_PH_1__Paste__TRILIUM_PH_2__ button, Trilium reads the page and fills an empty __TRILIUM_PH_3__Link title__TRILIUM_PH_4__, and the empty __TRILIUM_PH_5__Description__TRILIUM_PH_6__ of a card, with the page's own. A spinner at the end of a field shows that its value is loading; once you type in the field, what you type is kept. Switching __TRILIUM_PH_7__Display as__TRILIUM_PH_8__ to __TRILIUM_PH_9__Card__TRILIUM_PH_10__ fills the __TRILIUM_PH_11__Description__TRILIUM_PH_12__ the same way, without reading the page again.",
+      "sourceHash": "101069cb762c01dae6afe7d8649d064fa9774b1ad1359b1a799021b8a1fb98ed",
+      "context": "Link Previews > Inserting a link preview > 2. From the link dialog",
+      "contextHash": "bea47322a7aa333f0f0ef8bec6dbb9e73cf165ea8427fe8db23852a3f9a9f50d",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_feefa0a7c6afe578d73d68fc_0",
+      "kind": "li",
+      "source": "Press __TRILIUM_PH_0__Enter__TRILIUM_PH_1__ or __TRILIUM_PH_2__Insert link__TRILIUM_PH_3__ to confirm. The link appears right away and turns into the preview once Trilium has read the page.",
+      "sourceHash": "feefa0a7c6afe578d73d68fc883dbdb98728350ea6d066c18cc2bf18419064a3",
+      "context": "Link Previews > Inserting a link preview > 2. From the link dialog",
+      "contextHash": "bea47322a7aa333f0f0ef8bec6dbb9e73cf165ea8427fe8db23852a3f9a9f50d",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_a6a4ff144f21c8d9ecefecf0_0",
+      "kind": "p",
+      "source": "To keep the dialog from reading the page, go to __TRILIUM_PH_0__Options__TRILIUM_PH_1__ → __TRILIUM_PH_2__Text Notes__TRILIUM_PH_3__ and, in the __TRILIUM_PH_4__Features__TRILIUM_PH_5__ section, turn off __TRILIUM_PH_6__Automatically retrieve titles for text links__TRILIUM_PH_7__ (for __TRILIUM_PH_8__Text__TRILIUM_PH_9__) or __TRILIUM_PH_10__Automatically retrieve title and description for icon & text links and cards__TRILIUM_PH_11__ (for __TRILIUM_PH_12__Icon & text__TRILIUM_PH_13__ and __TRILIUM_PH_14__Card__TRILIUM_PH_15__). Both are on by default. While they are on, Trilium contacts the page as soon as you leave the address field, also for a text link. Inserting an __TRILIUM_PH_16__Icon & text__TRILIUM_PH_17__ link or a __TRILIUM_PH_18__Card__TRILIUM_PH_19__ reads the page either way, since the preview is built from it.",
+      "sourceHash": "a6a4ff144f21c8d9ecefecf08cc8d08354fcb13def5bb908831b49f5df720df4",
+      "context": "Link Previews > Inserting a link preview > 2. From the link dialog",
+      "contextHash": "bea47322a7aa333f0f0ef8bec6dbb9e73cf165ea8427fe8db23852a3f9a9f50d",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_4ae349419ed74bfc791c3b83_0",
+      "kind": "p",
+      "source": "Alternatively, use __TRILIUM_PH_0__Slash Commands__TRILIUM_PH_1__ and choose __TRILIUM_PH_2__Link to a web page (with icon)__TRILIUM_PH_3__ or __TRILIUM_PH_4__Link to a web page (as a card)__TRILIUM_PH_5__ (both are also found by __TRILIUM_PH_6__link preview__TRILIUM_PH_7__). Each opens the same dialog on __TRILIUM_PH_8__Web page__TRILIUM_PH_9__, with __TRILIUM_PH_10__Icon & text__TRILIUM_PH_11__ or __TRILIUM_PH_12__Card__TRILIUM_PH_13__ already picked.",
+      "sourceHash": "4ae349419ed74bfc791c3b83f24ba8a85b00634e5bc6d0525aef5f2faad2cb2a",
+      "context": "Link Previews > Inserting a link preview > 2. From the link dialog",
+      "contextHash": "bea47322a7aa333f0f0ef8bec6dbb9e73cf165ea8427fe8db23852a3f9a9f50d",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_54d3625efa426d9af2458055_0",
+      "kind": "p",
+      "source": "To turn an existing link into a preview, open its __TRILIUM_PH_0__Edit link__TRILIUM_PH_1__ dialog and change __TRILIUM_PH_2__Display as__TRILIUM_PH_3__, or pick a display in the __TRILIUM_PH_4__Display__TRILIUM_PH_5__ menu of the link's toolbar. Either way, a link whose text differs from its address keeps that text as the title of the preview.",
+      "sourceHash": "54d3625efa426d9af24580555acac686aa6987f61986afd788bb1ab9deeb57e5",
+      "context": "Link Previews > Inserting a link preview > 2. From the link dialog",
+      "contextHash": "bea47322a7aa333f0f0ef8bec6dbb9e73cf165ea8427fe8db23852a3f9a9f50d",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_aef3a1d63a7fb178e579f90f_0",
+      "kind": "h3",
+      "source": "3. From the Insert menu, for audio and video__TRILIUM_PH_0__",
+      "sourceHash": "aef3a1d63a7fb178e579f90f9d38e276734605e3e7c7b8f2f91ab5205f8330f9",
+      "context": "Link Previews > Inserting a link preview > 3. From the Insert menu, for audio and video",
+      "contextHash": "a83c4bb21585af988df6c84b8cdc75ed7537e2cfbc9c5ea40f170914812b8d9d",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_a8bd897832c96261259adcea_0",
+      "kind": "p",
+      "source": "Choose __TRILIUM_PH_0__ __TRILIUM_PH_1__Audio/video embed__TRILIUM_PH_2__ from the __TRILIUM_PH_3__Insert buttons__TRILIUM_PH_4__ menu or the __TRILIUM_PH_5__Slash Commands__TRILIUM_PH_6__. Paste the address of a YouTube video, or of an audio or video file, and press __TRILIUM_PH_7__Insert media__TRILIUM_PH_8__ or __TRILIUM_PH_9__Enter__TRILIUM_PH_10__ to insert it as an __TRILIUM_PH_11__Embed__TRILIUM_PH_12__. The __TRILIUM_PH_13__ __TRILIUM_PH_14__Paste__TRILIUM_PH_15__ button at the end of the field replaces its text with the text on the clipboard. This button is shown only where Trilium can read the clipboard: in the desktop app, and in a browser over HTTPS unless access to the clipboard was blocked.",
+      "sourceHash": "a8bd897832c96261259adceab93b71e5038e217b5cae1297fba9e8a9d4c62810",
+      "context": "Link Previews > Inserting a link preview > 3. From the Insert menu, for audio and video",
+      "contextHash": "a83c4bb21585af988df6c84b8cdc75ed7537e2cfbc9c5ea40f170914812b8d9d",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_365ce29a96ea808626d97791_0",
+      "kind": "p",
+      "source": "The media is inserted once Trilium has read the address, which can take a few seconds: the title and thumbnail of a YouTube video, or whether a file is audio or video. When the address cannot be read, or is that of a web page rather than of a YouTube video or a media file, an error is shown and the prompt stays open. Opening another note in the meantime cancels the insertion.",
+      "sourceHash": "365ce29a96ea808626d97791cf7f5e2bad8841e57fe2a784dfef0ef2642a0094",
+      "context": "Link Previews > Inserting a link preview > 3. From the Insert menu, for audio and video",
+      "contextHash": "a83c4bb21585af988df6c84b8cdc75ed7537e2cfbc9c5ea40f170914812b8d9d",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_027067e144b831846d696ffa_0",
+      "kind": "h3",
+      "source": "4. By saving browser tabs from the Web Clipper__TRILIUM_PH_0__",
+      "sourceHash": "027067e144b831846d696ffa70eb488d0dd69d8038e9053dc46edb65d720529e",
+      "context": "Link Previews > Inserting a link preview > 4. By saving browser tabs from the Web Clipper",
+      "contextHash": "17b6673ecbd3cd951cab06c2e2def1adc2e5c5c2f1c9ab26bc648f28528b5164",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_e120d810f36b7a9cd7baef8f_0",
+      "kind": "p",
+      "source": "When the __TRILIUM_PH_0__Web Clipper__TRILIUM_PH_1__ saves the tabs of a window, each tab becomes an __TRILIUM_PH_2__Icon & text__TRILIUM_PH_3__ link preview showing the title and favicon the browser displays for it. Because this data comes from the browser, pages behind a login keep their real title, and the Trilium server does not contact the saved pages.",
+      "sourceHash": "e120d810f36b7a9cd7baef8f296ebe4b27240e84eaf41ffdff3dbfed8d8bdd56",
+      "context": "Link Previews > Inserting a link preview > 4. By saving browser tabs from the Web Clipper",
+      "contextHash": "17b6673ecbd3cd951cab06c2e2def1adc2e5c5c2f1c9ab26bc648f28528b5164",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_456351fb91f20113fad51937_0",
+      "kind": "p",
+      "source": "When __TRILIUM_PH_0__Autogenerate link previews__TRILIUM_PH_1__ is turned off, the tabs are saved as a list of text links instead.",
+      "sourceHash": "456351fb91f20113fad51937484a4fbdfce60724a193bd570a888739a5a4637b",
+      "context": "Link Previews > Inserting a link preview > 4. By saving browser tabs from the Web Clipper",
+      "contextHash": "17b6673ecbd3cd951cab06c2e2def1adc2e5c5c2f1c9ab26bc648f28528b5164",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_d40b4f7e218a172eba35924e_0",
+      "kind": "h2",
+      "source": "Altering an existing link preview__TRILIUM_PH_0__",
+      "sourceHash": "d40b4f7e218a172eba35924e87b5a791dda993367fcb802b72285d385291962d",
+      "context": "Link Previews > Altering an existing link preview",
+      "contextHash": "fbfe0d0c7312ecacd9bd92de91cc63c4f6b0d60a88ca85e7926354379f6f805d",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_ee0ab69964004f6f87225379_0",
+      "kind": "p",
+      "source": "Click on an inserted __TRILIUM_PH_0__Icon & text__TRILIUM_PH_1__ or __TRILIUM_PH_2__Card__TRILIUM_PH_3__ link preview to select it, and a small toolbar will appear with the following options:",
+      "sourceHash": "ee0ab69964004f6f8722537944d42e1b1dd0f61c582927c0fb03a22228e139d3",
+      "context": "Link Previews > Altering an existing link preview",
+      "contextHash": "fbfe0d0c7312ecacd9bd92de91cc63c4f6b0d60a88ca85e7926354379f6f805d",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_3123855200a08375565b53f5_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__Open link__TRILIUM_PH_1__, which opens the page in a new tab, and __TRILIUM_PH_2__ __TRILIUM_PH_3__Copy address (URL)__TRILIUM_PH_4__.",
+      "sourceHash": "3123855200a08375565b53f594e0e0444bdd66223a51480637214964676fd6e2",
+      "context": "Link Previews > Altering an existing link preview",
+      "contextHash": "fbfe0d0c7312ecacd9bd92de91cc63c4f6b0d60a88ca85e7926354379f6f805d",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_857a1e5c9d3c29df01b7b7c8_0",
+      "kind": "li",
+      "source": "The __TRILIUM_PH_0__ __TRILIUM_PH_1__Edit link__TRILIUM_PH_2__ button, which opens the __TRILIUM_PH_3__Edit link__TRILIUM_PH_4__ dialog on the link preview, as does pressing __TRILIUM_PH_5__Ctrl__TRILIUM_PH_6__+__TRILIUM_PH_7__K__TRILIUM_PH_8__ while it is selected. The dialog changes its address, its __TRILIUM_PH_9__Link title__TRILIUM_PH_10__ (especially useful if the title is hidden behind a login screen), the __TRILIUM_PH_11__Description__TRILIUM_PH_12__ of a card and how it is displayed. A new address shows the title and description of the new page, unless you type your own.",
+      "sourceHash": "857a1e5c9d3c29df01b7b7c817dc630579b3bd230cbc90f673ca371cfe9d1824",
+      "context": "Link Previews > Altering an existing link preview",
+      "contextHash": "fbfe0d0c7312ecacd9bd92de91cc63c4f6b0d60a88ca85e7926354379f6f805d",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_6a7c929a11bd28072f063dbf_0",
+      "kind": "li",
+      "source": "The __TRILIUM_PH_0__Display__TRILIUM_PH_1__ menu, which converts the preview to a normal link that reads as its title (__TRILIUM_PH_2__Text__TRILIUM_PH_3__) or switches it to another display mode (__TRILIUM_PH_4__Icon & text__TRILIUM_PH_5__, __TRILIUM_PH_6__Card__TRILIUM_PH_7__ or __TRILIUM_PH_8__Embed__TRILIUM_PH_9__).",
+      "sourceHash": "6a7c929a11bd28072f063dbfcd8804614d69188819a603ae2e4b79baa402eaac",
+      "context": "Link Previews > Altering an existing link preview",
+      "contextHash": "fbfe0d0c7312ecacd9bd92de91cc63c4f6b0d60a88ca85e7926354379f6f805d",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_028ab948bca026cd4df0441e_0",
+      "kind": "li",
+      "source": "The Embed option is only shown for a YouTube video or an audio or video file. A __TRILIUM_PH_0__Card__TRILIUM_PH_1__ of a file whose address does not end in a known extension, such as __TRILIUM_PH_2__ or __TRILIUM_PH_3__, no longer offers it.",
+      "sourceHash": "028ab948bca026cd4df0441efac8cc5b9498e3a479b4bf8930d68361efb25ff6",
+      "context": "Link Previews > Altering an existing link preview",
+      "contextHash": "fbfe0d0c7312ecacd9bd92de91cc63c4f6b0d60a88ca85e7926354379f6f805d",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_c70a0b3d1be3c13f89d5ffb0_0",
+      "kind": "li",
+      "source": "The __TRILIUM_PH_0__ __TRILIUM_PH_1__More actions__TRILIUM_PH_2__ menu, with __TRILIUM_PH_3__ __TRILIUM_PH_4__Open link__TRILIUM_PH_5__, __TRILIUM_PH_6__ __TRILIUM_PH_7__Edit link__TRILIUM_PH_8__, __TRILIUM_PH_9__ __TRILIUM_PH_10__Copy address (URL)__TRILIUM_PH_11__, the same display modes under __TRILIUM_PH_12__ __TRILIUM_PH_13__Display as__TRILIUM_PH_14__, and __TRILIUM_PH_15__ __TRILIUM_PH_16__Unlink__TRILIUM_PH_17__, which replaces the preview with its address as plain text.",
+      "sourceHash": "c70a0b3d1be3c13f89d5ffb0f7cda711e4fa579b021cbc2403c8c3f49334358c",
+      "context": "Link Previews > Altering an existing link preview",
+      "contextHash": "fbfe0d0c7312ecacd9bd92de91cc63c4f6b0d60a88ca85e7926354379f6f805d",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_ede30e6e50630aff58c1ac20_0",
+      "kind": "p",
+      "source": "Right-clicking a link preview selects it and opens its __TRILIUM_PH_0__More actions__TRILIUM_PH_1__ menu.",
+      "sourceHash": "ede30e6e50630aff58c1ac204a40a9b727b27f1a8bf37241336297a75b571ce8",
+      "context": "Link Previews > Altering an existing link preview",
+      "contextHash": "fbfe0d0c7312ecacd9bd92de91cc63c4f6b0d60a88ca85e7926354379f6f805d",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_ef65acf22e48a16ed467e88f_0",
+      "kind": "h3",
+      "source": "Audio and video__TRILIUM_PH_0__",
+      "sourceHash": "ef65acf22e48a16ed467e88fac09bde660ca73fa3f0675fd7f74c23ec0f7eb08",
+      "context": "Link Previews > Altering an existing link preview > Audio and video",
+      "contextHash": "c467f8a1d52c0bc9d49197125fbd0e0fec4d0061b716a29becb62ff6f91fca8e",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_ccca8a28758491941c6bec26_0",
+      "kind": "p",
+      "source": "A YouTube video, a video file or an audio file shown as an __TRILIUM_PH_0__Embed__TRILIUM_PH_1__ has a size, a position, a title and a caption, like an __TRILIUM_PH_2__Include Note__TRILIUM_PH_3__. A video keeps its shape, so a YouTube Short stands upright and an older video can be 4:3. A YouTube video inserted in an earlier version is 16:9 until it is inserted again. In the editor, a click on the video both plays it and selects it, and so does a later click on the player.",
+      "sourceHash": "ccca8a28758491941c6bec2638bc0072475a048ba825e1ac8013e6dc7c81cf2d",
+      "context": "Link Previews > Altering an existing link preview > Audio and video",
+      "contextHash": "c467f8a1d52c0bc9d49197125fbd0e0fec4d0061b716a29becb62ff6f91fca8e",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_75663e2f3413c15416ac53a4_0",
+      "kind": "p",
+      "source": "A video file or an audio file plays in the media player of Trilium, the one of __TRILIUM_PH_0__File__TRILIUM_PH_1__ notes, with its play button, seek bar and volume. A video file shows a picture of one of its frames, taken when it is inserted (see __TRILIUM_PH_2__Where the preview data comes from__TRILIUM_PH_3__ below), and a __TRILIUM_PH_4__ icon when it has none. An audio file shows a row of controls. When a file cannot be played, a message takes the place of the player, at the size of the video. Under it is the error that the site answered, if any, such as __TRILIUM_PH_5__HTTP 404: Not found__TRILIUM_PH_6__ for a file that is no longer there.",
+      "sourceHash": "75663e2f3413c15416ac53a4d8be9db16cdaca321c13642bb7a3008133ce810f",
+      "context": "Link Previews > Altering an existing link preview > Audio and video",
+      "contextHash": "c467f8a1d52c0bc9d49197125fbd0e0fec4d0061b716a29becb62ff6f91fca8e",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_937f31dc24d3bff495c255f1_0",
+      "kind": "p",
+      "source": "The toolbar of a selected embed offers:",
+      "sourceHash": "937f31dc24d3bff495c255f16583689613d491dd46079f832fd417c1e80b353b",
+      "context": "Link Previews > Altering an existing link preview > Audio and video",
+      "contextHash": "c467f8a1d52c0bc9d49197125fbd0e0fec4d0061b716a29becb62ff6f91fca8e",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_5e034aefceea0168aa447e50_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__ __TRILIUM_PH_1__Copy address (URL)__TRILIUM_PH_2__.",
+      "sourceHash": "5e034aefceea0168aa447e508b6ecde636a47a3fe33648c99c5e7dfa2a9589cc",
+      "context": "Link Previews > Altering an existing link preview > Audio and video",
+      "contextHash": "c467f8a1d52c0bc9d49197125fbd0e0fec4d0061b716a29becb62ff6f91fca8e",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_424aa942fa9d5ad364245829_0",
+      "kind": "li",
+      "source": "The __TRILIUM_PH_0__Display__TRILIUM_PH_1__ menu, which turns the embed into an __TRILIUM_PH_2__Icon & text__TRILIUM_PH_3__ or __TRILIUM_PH_4__Card__TRILIUM_PH_5__ link preview with its title, or a __TRILIUM_PH_6__Text__TRILIUM_PH_7__ link that reads as its title. The text of its caption stays, as a paragraph after it.",
+      "sourceHash": "424aa942fa9d5ad36424582936e4dfab99b10b5e03eb824983ee92a433e310f5",
+      "context": "Link Previews > Altering an existing link preview > Audio and video",
+      "contextHash": "c467f8a1d52c0bc9d49197125fbd0e0fec4d0061b716a29becb62ff6f91fca8e",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_58fa9916b3a1d7d780472e13_0",
+      "kind": "li",
+      "source": "The __TRILIUM_PH_0__ __TRILIUM_PH_1__More actions__TRILIUM_PH_2__ menu:",
+      "sourceHash": "58fa9916b3a1d7d780472e130ddce4cd87d15a856687ca189ec06544c94e88f4",
+      "context": "Link Previews > Altering an existing link preview > Audio and video",
+      "contextHash": "c467f8a1d52c0bc9d49197125fbd0e0fec4d0061b716a29becb62ff6f91fca8e",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_b87b07de3aff5646a7057c09_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__ __TRILIUM_PH_1__Open externally__TRILIUM_PH_2__ opens the media outside Trilium: in the browser, or in the app that handles the link, such as the YouTube app on Android.",
+      "sourceHash": "b87b07de3aff5646a7057c0993c2d8edb2975f6813146923276363b5dc42cccc",
+      "context": "Link Previews > Altering an existing link preview > Audio and video",
+      "contextHash": "c467f8a1d52c0bc9d49197125fbd0e0fec4d0061b716a29becb62ff6f91fca8e",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_18739552e3100605eec9ee83_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__ __TRILIUM_PH_1__Edit...__TRILIUM_PH_2__ opens the __TRILIUM_PH_3__Edit link__TRILIUM_PH_4__ dialog with only the __TRILIUM_PH_5__Address (URL)__TRILIUM_PH_6__ and the __TRILIUM_PH_7__Link title__TRILIUM_PH_8__ of the media, as does pressing __TRILIUM_PH_9__Ctrl__TRILIUM_PH_10__+__TRILIUM_PH_11__K__TRILIUM_PH_12__ while the embed is selected. With another address, the embed plays the new media and keeps its size, position, title and caption. It takes the thumbnail and the shape of the new media, and a video file gets a picture of one of its frames, as when it is inserted. A video at its first size takes the first size of the new video, and an audio file in place of a video, or a video in place of an audio file, takes the size of new media. A new address shows the title of the new media, unless you type your own. When the address is not that of a YouTube video, an audio or a video file, the embed stays as it was and Trilium shows an error.",
+      "sourceHash": "18739552e3100605eec9ee838bb4b7cd36a78e44b7a8eed762795b523befbd52",
+      "context": "Link Previews > Altering an existing link preview > Audio and video",
+      "contextHash": "c467f8a1d52c0bc9d49197125fbd0e0fec4d0061b716a29becb62ff6f91fca8e",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_5e034aefceea0168aa447e50_1",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__ __TRILIUM_PH_1__Copy address (URL)__TRILIUM_PH_2__.",
+      "sourceHash": "5e034aefceea0168aa447e508b6ecde636a47a3fe33648c99c5e7dfa2a9589cc",
+      "context": "Link Previews > Altering an existing link preview > Audio and video",
+      "contextHash": "c467f8a1d52c0bc9d49197125fbd0e0fec4d0061b716a29becb62ff6f91fca8e",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_cf7e05c94636cae456d4fa96_0",
+      "kind": "li",
+      "source": "The display modes of the __TRILIUM_PH_0__Display__TRILIUM_PH_1__ menu under __TRILIUM_PH_2__ __TRILIUM_PH_3__Display as__TRILIUM_PH_4__.",
+      "sourceHash": "cf7e05c94636cae456d4fa96302a4c57a44559df61c4ebada75e8b411ed99252",
+      "context": "Link Previews > Altering an existing link preview > Audio and video",
+      "contextHash": "c467f8a1d52c0bc9d49197125fbd0e0fec4d0061b716a29becb62ff6f91fca8e",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_19ff60c0aa920f9c530ca7d6_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__Size__TRILIUM_PH_1__: a __TRILIUM_PH_2__Resizable__TRILIUM_PH_3__ video can be resized and placed in the text, a __TRILIUM_PH_4__Full__TRILIUM_PH_5__ video takes the width of the note, or less when it would be taller than most of the window, and a __TRILIUM_PH_6__Compact__TRILIUM_PH_7__ video is a row with its title alone. A new video is __TRILIUM_PH_8__Resizable__TRILIUM_PH_9__. A YouTube video inserted in an earlier version is __TRILIUM_PH_10__Full__TRILIUM_PH_11__. An audio file is __TRILIUM_PH_12__Compact__TRILIUM_PH_13__, a row of controls, or __TRILIUM_PH_14__Resizable__TRILIUM_PH_15__, a box with the controls under the visualizer, whose width can be resized. __TRILIUM_PH_16__Default__TRILIUM_PH_17__ returns the media to the size it was inserted at.",
+      "sourceHash": "19ff60c0aa920f9c530ca7d6e703ebecd9881703795ad6980424e6641a0f911e",
+      "context": "Link Previews > Altering an existing link preview > Audio and video",
+      "contextHash": "c467f8a1d52c0bc9d49197125fbd0e0fec4d0061b716a29becb62ff6f91fca8e",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_7f5188858e1342d8f2933684_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__Position__TRILIUM_PH_1__: under __TRILIUM_PH_2__Break text__TRILIUM_PH_3__, __TRILIUM_PH_4__ __TRILIUM_PH_5__Align left__TRILIUM_PH_6__, __TRILIUM_PH_7__ __TRILIUM_PH_8__Align center__TRILIUM_PH_9__ and __TRILIUM_PH_10__ __TRILIUM_PH_11__Align right__TRILIUM_PH_12__ place the video on lines of its own, at that side of the note. Under __TRILIUM_PH_13__Wrap text__TRILIUM_PH_14__, __TRILIUM_PH_15__ __TRILIUM_PH_16__Align left__TRILIUM_PH_17__ and __TRILIUM_PH_18__ __TRILIUM_PH_19__Align right__TRILIUM_PH_20__ place it at that side and let the text run beside it. __TRILIUM_PH_21__Align center__TRILIUM_PH_22__ is the default. Only a __TRILIUM_PH_23__Resizable__TRILIUM_PH_24__ video or audio file can be positioned.",
+      "sourceHash": "7f5188858e1342d8f2933684c12dca534f898f0d7bf5859504507f5bf079d44d",
+      "context": "Link Previews > Altering an existing link preview > Audio and video",
+      "contextHash": "c467f8a1d52c0bc9d49197125fbd0e0fec4d0061b716a29becb62ff6f91fca8e",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_9e454ebcb78e067580089f95_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__Show title__TRILIUM_PH_1__ shows the title of the media above it, as a link to the media. New media is inserted without its title. The __TRILIUM_PH_2__ button of the title opens this same menu.",
+      "sourceHash": "9e454ebcb78e067580089f951f1c459b8b028b0c14b1508202020b1d37000689",
+      "context": "Link Previews > Altering an existing link preview > Audio and video",
+      "contextHash": "c467f8a1d52c0bc9d49197125fbd0e0fec4d0061b716a29becb62ff6f91fca8e",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_30cb735cf94ce67a95134dad_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__Show caption__TRILIUM_PH_1__ adds a caption under the video, centered, and puts the cursor in it. The caption is part of the text note, so it can be formatted like the rest of the text. While the cursor is in the caption, the video stays selected and keeps its toolbar. Choosing __TRILIUM_PH_2__Show caption__TRILIUM_PH_3__ again removes the caption.",
+      "sourceHash": "30cb735cf94ce67a95134dad8fa478feccd387caf79825879f0e14e708830c32",
+      "context": "Link Previews > Altering an existing link preview > Audio and video",
+      "contextHash": "c467f8a1d52c0bc9d49197125fbd0e0fec4d0061b716a29becb62ff6f91fca8e",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_6859c1d06393af8f5c3ac047_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__ __TRILIUM_PH_1__Delete block__TRILIUM_PH_2__ removes the video from the note.",
+      "sourceHash": "6859c1d06393af8f5c3ac047e0d9192e0738ba90b28bf09ed0f4e3685bddd17f",
+      "context": "Link Previews > Altering an existing link preview > Audio and video",
+      "contextHash": "c467f8a1d52c0bc9d49197125fbd0e0fec4d0061b716a29becb62ff6f91fca8e",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_cceecb708195bfd1e3244020_0",
+      "kind": "p",
+      "source": "Right-clicking a video file or an audio file opens the same __TRILIUM_PH_0__More actions__TRILIUM_PH_1__ menu. So does right-clicking a YouTube video, but only until it plays: from then on, the right-click goes to YouTube's player, which shows its own menu.",
+      "sourceHash": "cceecb708195bfd1e3244020f4a08b52561cac537e9441e2adde85686cab6093",
+      "context": "Link Previews > Altering an existing link preview > Audio and video",
+      "contextHash": "c467f8a1d52c0bc9d49197125fbd0e0fec4d0061b716a29becb62ff6f91fca8e",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_34a8fb06e4427631c9396d1e_0",
+      "kind": "p",
+      "source": "To resize a __TRILIUM_PH_0__Resizable__TRILIUM_PH_1__ video or audio file, select it and drag the handle in its bottom-right corner, or its bottom-left corner for one aligned to the right. The height of a video follows the width. __TRILIUM_PH_2__Default__TRILIUM_PH_3__ in the __TRILIUM_PH_4__Size__TRILIUM_PH_5__ submenu returns a video to its first size.",
+      "sourceHash": "34a8fb06e4427631c9396d1e5125492392bef0e4112518dd0d1859b9c922e8a1",
+      "context": "Link Previews > Altering an existing link preview > Audio and video",
+      "contextHash": "c467f8a1d52c0bc9d49197125fbd0e0fec4d0061b716a29becb62ff6f91fca8e",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_40a4b07916488a6dcb81398d_0",
+      "kind": "p",
+      "source": "On a __TRILIUM_PH_0__shared page__TRILIUM_PH_1__, the media keeps its width, position and caption, but not its title. A video or audio file plays in the browser's own player once the visitor clicks it. In the mobile layout, media with a position other than __TRILIUM_PH_2__Align center__TRILIUM_PH_3__ takes the full width.",
+      "sourceHash": "40a4b07916488a6dcb81398dbceb93611e11f29c6ea80385aaea017214f0362b",
+      "context": "Link Previews > Altering an existing link preview > Audio and video",
+      "contextHash": "c467f8a1d52c0bc9d49197125fbd0e0fec4d0061b716a29becb62ff6f91fca8e",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_b49c3e573a697d018bb9d820_0",
+      "kind": "h2",
+      "source": "Where the preview data comes from__TRILIUM_PH_0__",
+      "sourceHash": "b49c3e573a697d018bb9d82047cb568ea7217da1f0fee6fddaf09e0872306a17",
+      "context": "Link Previews > Where the preview data comes from",
+      "contextHash": "f995d4c2c3b9f2d1d4c0f3f9b4ddc05ecd0816c7214efb5a737b26878e8c0483",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_4ea18d0a66cd2fbae43d7e15_0",
+      "kind": "p",
+      "source": "When you insert a link preview, Trilium fetches metadata once and stores it with the note:",
+      "sourceHash": "4ea18d0a66cd2fbae43d7e15680c1ccc9463fbe41ca1ad78a6c09847d5dd5129",
+      "context": "Link Previews > Where the preview data comes from",
+      "contextHash": "f995d4c2c3b9f2d1d4c0f3f9b4ddc05ecd0816c7214efb5a737b26878e8c0483",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_8b24be71bdbcb6d0069de655_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__YouTube URLs__TRILIUM_PH_1__: the title, the channel name and the shape of the video are fetched via YouTube's public oEmbed endpoint, and the video's thumbnail is downloaded at up to 1280×720.",
+      "sourceHash": "8b24be71bdbcb6d0069de6554eca287f7f9d3b521ca7ce8d5afa4e56eb15dfae",
+      "context": "Link Previews > Where the preview data comes from",
+      "contextHash": "f995d4c2c3b9f2d1d4c0f3f9b4ddc05ecd0816c7214efb5a737b26878e8c0483",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_11f611b0f90d250585e58c59_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__Audio and video files__TRILIUM_PH_1__: Trilium reads the start of the file, enough to tell audio from video and, for most MP4 and WebM files, the shape of the video. The rest of the file is not downloaded, and the file is not copied into Trilium. Once a video file is inserted, the editor takes a picture of a frame a few seconds into it as its thumbnail. The frame is read through the Trilium server, so the site of the file sees the server and not your browser. The standalone (browser) and mobile versions have no such server: they read the frame from the site directly, and a video whose site does not let other sites read it has no thumbnail.",
+      "sourceHash": "11f611b0f90d250585e58c59d3b465a3537c95221ae7d6a1d80b5b16a08e53ca",
+      "context": "Link Previews > Where the preview data comes from",
+      "contextHash": "f995d4c2c3b9f2d1d4c0f3f9b4ddc05ecd0816c7214efb5a737b26878e8c0483",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_cdbce3d115b6086b670a20de_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__All other URLs__TRILIUM_PH_1__: Trilium fetches the page and reads OpenGraph tags (__TRILIUM_PH_2__, __TRILIUM_PH_3__, __TRILIUM_PH_4__, __TRILIUM_PH_5__), falling back to the page's __TRILIUM_PH_6__ and __TRILIUM_PH_7__. The site's favicon and the page's image are downloaded as well.",
+      "sourceHash": "cdbce3d115b6086b670a20de00b452f979088b1f47d024d1bbd808cc31974230",
+      "context": "Link Previews > Where the preview data comes from",
+      "contextHash": "f995d4c2c3b9f2d1d4c0f3f9b4ddc05ecd0816c7214efb5a737b26878e8c0483",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_de739a9eeeabaf333eb16544_0",
+      "kind": "p",
+      "source": "The text is kept in the note's HTML. The images are kept as system __TRILIUM_PH_0__Attachments__TRILIUM_PH_1__ of the note, listed under __TRILIUM_PH_2__Generated by Trilium__TRILIUM_PH_3__.",
+      "sourceHash": "de739a9eeeabaf333eb165448a9bdda31479f7faca69682f4fe2ab3540072d1c",
+      "context": "Link Previews > Where the preview data comes from",
+      "contextHash": "f995d4c2c3b9f2d1d4c0f3f9b4ddc05ecd0816c7214efb5a737b26878e8c0483",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_68149687a2ddbc68cde75459_0",
+      "kind": "p",
+      "source": "Because the data is stored in the note itself, link previews continue to render correctly when you reopen the note, share/publish it, or export to HTML — without any further network requests.",
+      "sourceHash": "68149687a2ddbc68cde7545973296ba0e4166f63323e026f8618d1bef3686824",
+      "context": "Link Previews > Where the preview data comes from",
+      "contextHash": "f995d4c2c3b9f2d1d4c0f3f9b4ddc05ecd0816c7214efb5a737b26878e8c0483",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_3cec9b62b06f6ac742e9472c_0",
+      "kind": "p",
+      "source": "The metadata is captured __TRILIUM_PH_0__at insertion time__TRILIUM_PH_1__ and is not automatically refreshed. If the linked page later changes its title or thumbnail, you'll need to re-insert the link to pick up the new values. To refresh a link, simply create it again.",
+      "sourceHash": "3cec9b62b06f6ac742e9472cef2799b478478e73d1c2c037354ff98621bdb0a0",
+      "context": "Link Previews > Where the preview data comes from",
+      "contextHash": "f995d4c2c3b9f2d1d4c0f3f9b4ddc05ecd0816c7214efb5a737b26878e8c0483",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_4ef2a4f4bdaaced8449d0bb7_0",
+      "kind": "p",
+      "source": "A YouTube embed inserted before v0.107.0 keeps its smaller thumbnail, shown blurred, until the link is inserted again.",
+      "sourceHash": "4ef2a4f4bdaaced8449d0bb775787035e1eb4f8b00e6423fcc06acc0981e26b5",
+      "context": "Link Previews > Where the preview data comes from",
+      "contextHash": "f995d4c2c3b9f2d1d4c0f3f9b4ddc05ecd0816c7214efb5a737b26878e8c0483",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_d04ca2a9ad9b79375f305721_0",
+      "kind": "p",
+      "source": "When accessing a __TRILIUM_PH_0__Server Installation__TRILIUM_PH_1__, the data is fetched from the remote URL by the server and not the client.",
+      "sourceHash": "d04ca2a9ad9b79375f3057213f2e1b5fa39ad5ca99be39eb7c6203af6ef3dde6",
+      "context": "Link Previews > Where the preview data comes from",
+      "contextHash": "f995d4c2c3b9f2d1d4c0f3f9b4ddc05ecd0816c7214efb5a737b26878e8c0483",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_aa0769a49dea2bd508588388_0",
+      "kind": "h2",
+      "source": "Known limitations__TRILIUM_PH_0__",
+      "sourceHash": "aa0769a49dea2bd508588388f10e461353bc81955bdd0a12b9767eefbc8a3281",
+      "context": "Link Previews > Known limitations",
+      "contextHash": "4e459c0f6192c8169a1590f4a4681818f120882d5f8f508a0fb2bc9dc30bc8c4",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_04e0ee4fb6a64fe546836b64_0",
+      "kind": "li",
+      "source": "The Embed display mode supports YouTube and audio and video files. Pages of other video and media platforms fall back to a Card preview.",
+      "sourceHash": "04e0ee4fb6a64fe546836b64e1bf83f04578ef1a084e1c3fc23b54cb7e2ef28b",
+      "context": "Link Previews > Known limitations",
+      "contextHash": "4e459c0f6192c8169a1590f4a4681818f120882d5f8f508a0fb2bc9dc30bc8c4",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_739fe75c338fd40b2fd44348_0",
+      "kind": "li",
+      "source": "An audio or video file plays from its address: it needs that address to be reachable, and stops playing when the file is moved or deleted. It plays only in a format that the browser, or the desktop app, supports.",
+      "sourceHash": "739fe75c338fd40b2fd443486c451bc58416e799167d9591a81a257bcd7c70d0",
+      "context": "Link Previews > Known limitations",
+      "contextHash": "4e459c0f6192c8169a1590f4a4681818f120882d5f8f508a0fb2bc9dc30bc8c4",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_8f3df4bc1e50f494af783e3e_0",
+      "kind": "li",
+      "source": "A file served over plain __TRILIUM_PH_0__ might not play in the desktop app or from a Trilium server reached over __TRILIUM_PH_1__.",
+      "sourceHash": "8f3df4bc1e50f494af783e3e3aa57852f5c30106351b10613973f7c84364329e",
+      "context": "Link Previews > Known limitations",
+      "contextHash": "4e459c0f6192c8169a1590f4a4681818f120882d5f8f508a0fb2bc9dc30bc8c4",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_c974ab2c8b600f9ece347600_0",
+      "kind": "li",
+      "source": "An audio file shows no visualizer and no waveform, unlike an audio __TRILIUM_PH_0__File__TRILIUM_PH_1__ note, since the site of the file does not generally let Trilium read its sound.",
+      "sourceHash": "c974ab2c8b600f9ece34760009b932f256938cabc8e3ea2dd0af3920949da087",
+      "context": "Link Previews > Known limitations",
+      "contextHash": "4e459c0f6192c8169a1590f4a4681818f120882d5f8f508a0fb2bc9dc30bc8c4",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_de9a2e4a13a9f4f8419a6c36_0",
+      "kind": "li",
+      "source": "Pages that block automated fetches may produce a minimal preview (hostname only).",
+      "sourceHash": "de9a2e4a13a9f4f8419a6c36db9346a9a9f6bf46bb30bdc4ae250ee85920af76",
+      "context": "Link Previews > Known limitations",
+      "contextHash": "4e459c0f6192c8169a1590f4a4681818f120882d5f8f508a0fb2bc9dc30bc8c4",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_0094a41202716c9d9b12db36_0",
+      "kind": "li",
+      "source": "Link previews require the Trilium server to reach the target URL, so they won't generate previews for pages on networks the server can't see.",
+      "sourceHash": "0094a41202716c9d9b12db36868509ed4f0507288d501f1ab3c560145278c1ea",
+      "context": "Link Previews > Known limitations",
+      "contextHash": "4e459c0f6192c8169a1590f4a4681818f120882d5f8f508a0fb2bc9dc30bc8c4",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_b190d47815633246b0ab18a6_0",
+      "kind": "image-alt",
+      "source": "記事画像",
+      "sourceHash": "b190d47815633246b0ab18a61d9b8e8ea36504fe3f8bc230a7753096915c9ff2",
+      "context": "Link Previews > Known limitations",
+      "contextHash": "4e459c0f6192c8169a1590f4a4681818f120882d5f8f508a0fb2bc9dc30bc8c4",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_b190d47815633246b0ab18a6_1",
+      "kind": "image-alt",
+      "source": "記事画像",
+      "sourceHash": "b190d47815633246b0ab18a61d9b8e8ea36504fe3f8bc230a7753096915c9ff2",
+      "context": "Link Previews > Known limitations",
+      "contextHash": "4e459c0f6192c8169a1590f4a4681818f120882d5f8f508a0fb2bc9dc30bc8c4",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_b190d47815633246b0ab18a6_2",
+      "kind": "image-alt",
+      "source": "記事画像",
+      "sourceHash": "b190d47815633246b0ab18a61d9b8e8ea36504fe3f8bc230a7753096915c9ff2",
+      "context": "Link Previews > Known limitations",
+      "contextHash": "4e459c0f6192c8169a1590f4a4681818f120882d5f8f508a0fb2bc9dc30bc8c4",
+      "status": "pending",
+      "active": true
+    }
+  ],
+  "requests": []
+}

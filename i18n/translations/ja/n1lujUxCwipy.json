@@ -1,0 +1,199 @@
+{
+  "schemaVersion": 1,
+  "pageId": "n1lujUxCwipy",
+  "sourceFile": "docs/User Guide/User Guide/Installation & Setup/Upgrading TriliumNext.md",
+  "sourceRevision": "03d17b60f59b5efc29b880b11481471d0fe0ff57",
+  "units": [
+    {
+      "id": "u_53cc83cb13944ef652b6f28e_0",
+      "kind": "title",
+      "source": "Upgrading TriliumNext",
+      "sourceHash": "53cc83cb13944ef652b6f28ec78a8852fc46252d45b6cd92126af4e9e82c273b",
+      "context": "Upgrading TriliumNext",
+      "contextHash": "343ce516bf9db455dfcdd98b57684b9b4208bd9c92a7c049376ae8b75f5417a5",
+      "status": "translated",
+      "active": true,
+      "translation": "TriliumNextのアップグレード",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_d93f213b14bc66a659189fe3_0",
+      "kind": "p",
+      "source": "This document outlines the steps required to upgrade Trilium to a new release version.",
+      "sourceHash": "d93f213b14bc66a659189fe36373fc2d5758943b2665103b4af6c46ce3269c83",
+      "context": "Upgrading TriliumNext",
+      "contextHash": "343ce516bf9db455dfcdd98b57684b9b4208bd9c92a7c049376ae8b75f5417a5",
+      "status": "translated",
+      "active": true,
+      "translation": "このドキュメントでは、Triliumを新しいリリースバージョンにアップグレードするために必要な手順の概要を説明します。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_38bfcfa57037717e7d5a6ea5_0",
+      "kind": "h2",
+      "source": "How to Upgrade__TRILIUM_PH_0__",
+      "sourceHash": "38bfcfa57037717e7d5a6ea51cef4b6e4938f9a94a1abe6cd237775d5e5f68f7",
+      "context": "Upgrading TriliumNext > How to Upgrade",
+      "contextHash": "0a68db1452e0b63e82c70ded809e57ef294ea1fc3cd04c55044fba8ea34c9847",
+      "status": "translated",
+      "active": true,
+      "translation": "アップグレードの方法__TRILIUM_PH_0__",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_11e00a44cca4a6bf7a550397_0",
+      "kind": "p",
+      "source": "Trilium does not support built-in automatic upgrades; all updates must be performed manually. The upgrade process varies depending on the installation method:",
+      "sourceHash": "11e00a44cca4a6bf7a5503970b50e7c61f5cde53b3e771836b98c75585e86e7b",
+      "context": "Upgrading TriliumNext > How to Upgrade",
+      "contextHash": "0a68db1452e0b63e82c70ded809e57ef294ea1fc3cd04c55044fba8ea34c9847",
+      "status": "translated",
+      "active": true,
+      "translation": "Triliumは組み込みの自動アップグレードをサポートしていません。すべての更新は手動で行う必要があります。アップグレードの手順は、インストール方法によって異なります。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_ffd7811b8a77f029b99b9e80_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0____TRILIUM_PH_1__Docker Server Installation__TRILIUM_PH_2____TRILIUM_PH_3__: Pull the new image and restart the container.",
+      "sourceHash": "ffd7811b8a77f029b99b9e80dd4f1a1b0bb7e85f61d05b5871c3e17c3ea7dbcd",
+      "context": "Upgrading TriliumNext > How to Upgrade",
+      "contextHash": "0a68db1452e0b63e82c70ded809e57ef294ea1fc3cd04c55044fba8ea34c9847",
+      "status": "translated",
+      "active": true,
+      "translation": "__TRILIUM_PH_0____TRILIUM_PH_1__Dockerサーバーのインストール__TRILIUM_PH_2____TRILIUM_PH_3__：新しいイメージをプルし、コンテナを再起動します。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_ad356f5d89bd537ec047aa46_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__Other Installations__TRILIUM_PH_1__: Download the latest version from the __TRILIUM_PH_2__release page__TRILIUM_PH_3__ and replace the existing application files.",
+      "sourceHash": "ad356f5d89bd537ec047aa46b26f27f29d0245b90e05f7ff0dac839532335a05",
+      "context": "Upgrading TriliumNext > How to Upgrade",
+      "contextHash": "0a68db1452e0b63e82c70ded809e57ef294ea1fc3cd04c55044fba8ea34c9847",
+      "status": "translated",
+      "active": true,
+      "translation": "__TRILIUM_PH_0__その他のインストール__TRILIUM_PH_1__：__TRILIUM_PH_2__リリースページ__TRILIUM_PH_3__から最新バージョンをダウンロードし、既存のアプリケーションファイルを置き換えます。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_de2b1a7c5733681c239649af_0",
+      "kind": "h2",
+      "source": "Database Compatibility and Migration__TRILIUM_PH_0__",
+      "sourceHash": "de2b1a7c5733681c239649af877d2c9c26a56ca7c8daba32820d6b85e86fd7f7",
+      "context": "Upgrading TriliumNext > Database Compatibility and Migration",
+      "contextHash": "578d89c7de5070dd34ed70d900a4ce8e1ac44fac7b1a351d07f719cce8d624c9",
+      "status": "translated",
+      "active": true,
+      "translation": "データベースの互換性と移行__TRILIUM_PH_0__",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_0d2c0f1a4309bf0de4369115_0",
+      "kind": "p",
+      "source": "Upon startup, Trilium will automatically migrate the __TRILIUM_PH_0__database__TRILIUM_PH_1__ to the new version. Note that after migration, older versions of Trilium will be unable to read the database. If you need to revert to a previous version of Trilium and its database, you can restore the __TRILIUM_PH_2__backup__TRILIUM_PH_3__ that is created prior to migration.",
+      "sourceHash": "0d2c0f1a4309bf0de43691154717a26514a0cdf975d66d6745cc39529575f543",
+      "context": "Upgrading TriliumNext > Database Compatibility and Migration",
+      "contextHash": "578d89c7de5070dd34ed70d900a4ce8e1ac44fac7b1a351d07f719cce8d624c9",
+      "status": "translated",
+      "active": true,
+      "translation": "起動時に、Triliumは自動的に__TRILIUM_PH_0__データベース__TRILIUM_PH_1__を新しいバージョンに移行します。移行後は、古いバージョンのTriliumでデータベースを読み取れなくなることに注意してください。Triliumとそのデータベースを以前のバージョンに戻す必要がある場合は、移行前に作成された__TRILIUM_PH_2__バックアップ__TRILIUM_PH_3__を復元できます。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_0c0b3ab93c9213d5ece41867_0",
+      "kind": "h2",
+      "source": "Sync Compatibility__TRILIUM_PH_0__",
+      "sourceHash": "0c0b3ab93c9213d5ece41867caa187c039dbff7bc4505414bf6305b663a1ff81",
+      "context": "Upgrading TriliumNext > Sync Compatibility",
+      "contextHash": "eaae3a10462c789521cab9dd7c55d993704095f59892130bdf7da6f356e1c5c1",
+      "status": "translated",
+      "active": true,
+      "translation": "同期の互換性__TRILIUM_PH_0__",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_af003c6304d56f987bc39bb9_0",
+      "kind": "p",
+      "source": "The __TRILIUM_PH_0__synchronization__TRILIUM_PH_1__ protocol used by Trilium is versioned, requiring all members of the sync cluster to use the same protocol version. Therefore, when upgrading to a new version, you may need to upgrade all instances in the sync cluster. Changes to the sync protocol version are typically indicated on the release page.",
+      "sourceHash": "af003c6304d56f987bc39bb9274bc4e506044ce25b7ef6a67618c3ae17469497",
+      "context": "Upgrading TriliumNext > Sync Compatibility",
+      "contextHash": "eaae3a10462c789521cab9dd7c55d993704095f59892130bdf7da6f356e1c5c1",
+      "status": "translated",
+      "active": true,
+      "translation": "Triliumで使用される__TRILIUM_PH_0__同期__TRILIUM_PH_1__プロトコルにはバージョンがあり、同期クラスターのすべてのメンバーが同じプロトコルバージョンを使用する必要があります。したがって、新しいバージョンにアップグレードする際、同期クラスター内のすべてのインスタンスをアップグレードする必要がある場合があります。同期プロトコルバージョンの変更は、通常、リリースページに記載されます。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    }
+  ],
+  "requests": [
+    {
+      "at": "2026-11-14T11:28:45.803Z",
+      "model": "gemini-3.5-flash-lite",
+      "batchJob": "batches/02spwqy837h8pi7qzqmeo4fgsqo7bgs45hwh",
+      "requestKey": "n1lujUxCwipy_a25856f77f474e2c",
+      "modelVersion": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 1101,
+        "candidatesTokenCount": 744,
+        "totalTokenCount": 1845,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 1101
+          }
+        ],
+        "serviceTier": "standard"
+      }
+    }
+  ]
+}

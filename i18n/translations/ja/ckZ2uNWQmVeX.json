@@ -1,0 +1,169 @@
+{
+  "schemaVersion": 1,
+  "pageId": "ckZ2uNWQmVeX",
+  "sourceFile": "docs/User Guide/User Guide/Basic Concepts and Features/Import & Export/Importing data from other applications.md",
+  "sourceRevision": "03d17b60f59b5efc29b880b11481471d0fe0ff57",
+  "units": [
+    {
+      "id": "u_43eb4b4f2a9f6ff6d4f3de2d_0",
+      "kind": "title",
+      "source": "Importing data from other applications",
+      "sourceHash": "43eb4b4f2a9f6ff6d4f3de2d0b834bac37f4e3834806e876fd9bf2cca79a9e9c",
+      "context": "Importing data from other applications",
+      "contextHash": "07a9b06e5554d24a0fad571aa658003c06b9e70265c3bef300a2848d75ef502a",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_9f90cec5452b72a80f8dbba0_0",
+      "kind": "p",
+      "source": "Starting with version v0.104.0, Trilium's importer was expanded to application-specific imports. Unlike the standard HTML or __TRILIUM_PH_0__Markdown__TRILIUM_PH_1__ import/export, these importers are tailored to support the features and note structure of a particular application.",
+      "sourceHash": "9f90cec5452b72a80f8dbba0dae17cb941e1657f1b3f86d093bbae61dc0da439",
+      "context": "Importing data from other applications",
+      "contextHash": "07a9b06e5554d24a0fad571aa658003c06b9e70265c3bef300a2848d75ef502a",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_b6216e0d84479bddd9243c8a_0",
+      "kind": "h2",
+      "source": "Supported applications__TRILIUM_PH_0__",
+      "sourceHash": "b6216e0d84479bddd9243c8a615889c7ffb87267658aef3408aaeb45fe66fe63",
+      "context": "Importing data from other applications > Supported applications",
+      "contextHash": "7640b90a75df90d0be9d41bdacc3894d875218acd3bfe2ff13180933d70c4793",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_c13512880468e0e3be35285e_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__Microsoft OneNote__TRILIUM_PH_1__, by connecting to your account using Microsoft Graph.",
+      "sourceHash": "c13512880468e0e3be35285e96d84c784a9f613c4c28df3d50292eddc7ec786b",
+      "context": "Importing data from other applications > Supported applications",
+      "contextHash": "7640b90a75df90d0be9d41bdacc3894d875218acd3bfe2ff13180933d70c4793",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_1a06048fbeb68cc89d5c9647_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__Notion__TRILIUM_PH_1__, via a ZIP export.",
+      "sourceHash": "1a06048fbeb68cc89d5c96472343e17e7c88e8309e9c100d26ad22ed447808a3",
+      "context": "Importing data from other applications > Supported applications",
+      "contextHash": "7640b90a75df90d0be9d41bdacc3894d875218acd3bfe2ff13180933d70c4793",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_ce12e2680a59117be4729b88_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__Google Keep__TRILIUM_PH_1__, via a ZIP export from __TRILIUM_PH_2__Google Takeout__TRILIUM_PH_3__ (Keep has no dedicated export mechanism).",
+      "sourceHash": "ce12e2680a59117be4729b88cb8ed6946c93a9d9bcc77528fe60eaf2aaeaf641",
+      "context": "Importing data from other applications > Supported applications",
+      "contextHash": "7640b90a75df90d0be9d41bdacc3894d875218acd3bfe2ff13180933d70c4793",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_8539a3ba042976cdf4a8a8ca_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__Evernote__TRILIUM_PH_1__, via an ENEX export.",
+      "sourceHash": "8539a3ba042976cdf4a8a8ca8fa5059a8df211b1736ecdafdd6f48569e472ff4",
+      "context": "Importing data from other applications > Supported applications",
+      "contextHash": "7640b90a75df90d0be9d41bdacc3894d875218acd3bfe2ff13180933d70c4793",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_e86edf15861434f245751c39_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__Anytype__TRILIUM_PH_1__, via a JSON export.",
+      "sourceHash": "e86edf15861434f245751c3908bc720c87ae351b55655d819032320f241e3509",
+      "context": "Importing data from other applications > Supported applications",
+      "contextHash": "7640b90a75df90d0be9d41bdacc3894d875218acd3bfe2ff13180933d70c4793",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_bbe396edba58708d5d5816b1_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__Obsidian__TRILIUM_PH_1__, via a ZIP of the vault.",
+      "sourceHash": "bbe396edba58708d5d5816b137855d27d2b695869a6a833adeb36f18a86d014f",
+      "context": "Importing data from other applications > Supported applications",
+      "contextHash": "7640b90a75df90d0be9d41bdacc3894d875218acd3bfe2ff13180933d70c4793",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_54b1a85e4bcc07ca75096ac7_0",
+      "kind": "h2",
+      "source": "Importing data from another application__TRILIUM_PH_0__",
+      "sourceHash": "54b1a85e4bcc07ca75096ac75468dc5a658b7cbf46c6aac107acf23e2e5c3c31",
+      "context": "Importing data from other applications > Importing data from another application",
+      "contextHash": "b02ff20da9348cfabb6c8cfea47d67d993c438adfff5f03ff20c7896f5c1f047",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_1b079aaeffb5c7b18c022077_0",
+      "kind": "p",
+      "source": "To import from an application, there are two ways to access the import dialog:",
+      "sourceHash": "1b079aaeffb5c7b18c0220779926cb3129efc48ab39ca59a47c61096c1e52e9d",
+      "context": "Importing data from other applications > Importing data from another application",
+      "contextHash": "b02ff20da9348cfabb6c8cfea47d67d993c438adfff5f03ff20c7896f5c1f047",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_a5f55fdcb851548dd555adce_0",
+      "kind": "li",
+      "source": "In the __TRILIUM_PH_0__Note Tree__TRILIUM_PH_1__, right click on a note and select __TRILIUM_PH_2__Import into note__TRILIUM_PH_3__.",
+      "sourceHash": "a5f55fdcb851548dd555adce39e29f801337840f7736e3b77b555788c20918bc",
+      "context": "Importing data from other applications > Importing data from another application",
+      "contextHash": "b02ff20da9348cfabb6c8cfea47d67d993c438adfff5f03ff20c7896f5c1f047",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_e96a2e54b2b0229177589eea_0",
+      "kind": "li",
+      "source": "In the __TRILIUM_PH_0__Note menu__TRILIUM_PH_1__, select __TRILIUM_PH_2__Import files__TRILIUM_PH_3__.",
+      "sourceHash": "e96a2e54b2b0229177589eea9f9e8da23523724f6a50985f4e8f0d457ac19050",
+      "context": "Importing data from other applications > Importing data from another application",
+      "contextHash": "b02ff20da9348cfabb6c8cfea47d67d993c438adfff5f03ff20c7896f5c1f047",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_577721602cdc04fd3c9052e9_0",
+      "kind": "p",
+      "source": "A list of supported applications will appear at the top, each with their own configuration. Simply click one and proceed with the on-screen instructions.",
+      "sourceHash": "577721602cdc04fd3c9052e9e65788cc2a50c88768dc654b0d68fb942742f82c",
+      "context": "Importing data from other applications > Importing data from another application",
+      "contextHash": "b02ff20da9348cfabb6c8cfea47d67d993c438adfff5f03ff20c7896f5c1f047",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_71bbc6b2122862c85eb89536_0",
+      "kind": "h2",
+      "source": "Acknowledgement__TRILIUM_PH_0__",
+      "sourceHash": "71bbc6b2122862c85eb89536addca2d0eb41f42f8dc3932867cbac1bc6e97343",
+      "context": "Importing data from other applications > Acknowledgement",
+      "contextHash": "f759e0e4d1f911dd139f46e0b4cce5c800beeda4fecefb9bde1734e1c65b4c49",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_969fc937a561e29ed626331c_0",
+      "kind": "li",
+      "source": "Trilium's importer is inspired by Obsidian's __TRILIUM_PH_0__Importer plugin__TRILIUM_PH_1__ (licensed under the MIT license), for example regarding the OneNote connection process or the Notion ID management.",
+      "sourceHash": "969fc937a561e29ed626331c67400900f4173c3d0bc06686a26bce30be611303",
+      "context": "Importing data from other applications > Acknowledgement",
+      "contextHash": "f759e0e4d1f911dd139f46e0b4cce5c800beeda4fecefb9bde1734e1c65b4c49",
+      "status": "pending",
+      "active": true
+    }
+  ],
+  "requests": []
+}

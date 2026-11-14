@@ -1,0 +1,206 @@
+{
+  "schemaVersion": 1,
+  "pageId": "l2VkvOwUNfZj",
+  "sourceFile": "docs/User Guide/User Guide/Installation & Setup/Server Installation/HTTPS (TLS).md",
+  "sourceRevision": "03d17b60f59b5efc29b880b11481471d0fe0ff57",
+  "units": [
+    {
+      "id": "u_6ec107490532d6a305e89f40_0",
+      "kind": "title",
+      "source": "HTTPS (TLS)",
+      "sourceHash": "6ec107490532d6a305e89f40413b1cd6563817aed5bae74684e1058be96538a6",
+      "context": "HTTPS (TLS)",
+      "contextHash": "caf91140b404ead2b111f0f15a55e34c2322056be5d13f42c3916d53a744cfe1",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_3c213b0696656261cc81eb06_0",
+      "kind": "p",
+      "source": "Configuring TLS is essential for __TRILIUM_PH_0__server installation__TRILIUM_PH_1__ in Trilium. This guide details the steps to set up TLS within Trilium itself.",
+      "sourceHash": "3c213b0696656261cc81eb06aabbf2d6f56b2dcd67923db4b25ae20359639fe5",
+      "context": "HTTPS (TLS)",
+      "contextHash": "caf91140b404ead2b111f0f15a55e34c2322056be5d13f42c3916d53a744cfe1",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_eeefd477c9d1ddeab2d25891_0",
+      "kind": "p",
+      "source": "While Trilium supports HTTPS on its own, it's generally a good idea to use a __TRILIUM_PH_0__reverse proxy__TRILIUM_PH_1__ instead with TLS termination. You can follow a __TRILIUM_PH_2__guide like this__TRILIUM_PH_3__ for such setups.",
+      "sourceHash": "eeefd477c9d1ddeab2d258915c97cf2a0c6c576aa3edac3f4337b66492855831",
+      "context": "HTTPS (TLS)",
+      "contextHash": "caf91140b404ead2b111f0f15a55e34c2322056be5d13f42c3916d53a744cfe1",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_b7f2faea1072795175dd95b9_0",
+      "kind": "h2",
+      "source": "Obtaining a TLS Certificate__TRILIUM_PH_0__",
+      "sourceHash": "b7f2faea1072795175dd95b94fc529a9086691c5867b89ad88304f3b16aaae9b",
+      "context": "HTTPS (TLS) > Obtaining a TLS Certificate",
+      "contextHash": "b1f516b46f79adde7204491c9d0df9a8263860bbe7994e2ff7ec932d2dc2ec9a",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_8146b636e5cee866574dbcde_0",
+      "kind": "p",
+      "source": "You have two options for obtaining a TLS certificate:",
+      "sourceHash": "8146b636e5cee866574dbcdef774b86e71f3bf05ab5aa1e5957074cc7e034cc7",
+      "context": "HTTPS (TLS) > Obtaining a TLS Certificate",
+      "contextHash": "b1f516b46f79adde7204491c9d0df9a8263860bbe7994e2ff7ec932d2dc2ec9a",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_827c69faee7574eae802eac3_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__Recommended__TRILIUM_PH_1__: Obtain a TLS certificate signed by a root certificate authority. For personal use, __TRILIUM_PH_2__Let's Encrypt__TRILIUM_PH_3__ is an excellent choice. It is free, automated, and straightforward. Certbot can facilitate automatic TLS setup.",
+      "sourceHash": "827c69faee7574eae802eac3c58e740928cc055af1f9eaaa0a0f57e10c39979d",
+      "context": "HTTPS (TLS) > Obtaining a TLS Certificate",
+      "contextHash": "b1f516b46f79adde7204491c9d0df9a8263860bbe7994e2ff7ec932d2dc2ec9a",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_83d478fef4ea1e607e654bb8_0",
+      "kind": "li",
+      "source": "Generate a self-signed certificate. This option is not recommended due to the additional complexity of importing the certificate into all machines connecting to the server.",
+      "sourceHash": "83d478fef4ea1e607e654bb8d608cfc6c6b3916d72d5989efe76532d7b4eb7b4",
+      "context": "HTTPS (TLS) > Obtaining a TLS Certificate",
+      "contextHash": "b1f516b46f79adde7204491c9d0df9a8263860bbe7994e2ff7ec932d2dc2ec9a",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_66b8cd61cf185a4a54fb8fa3_0",
+      "kind": "h2",
+      "source": "Modifying __TRILIUM_PH_0____TRILIUM_PH_1__",
+      "sourceHash": "66b8cd61cf185a4a54fb8fa32f4699000cb02a5559dc94eab851990053247c4d",
+      "context": "HTTPS (TLS) > Modifying config.ini",
+      "contextHash": "467c27e374eeaad0f71162a16e6347a985457cffdc9aa50d868d94feef8c3fec",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_a800944ea11c35d7fec81051_0",
+      "kind": "p",
+      "source": "Once you have your certificate, modify the __TRILIUM_PH_0__ file in the __TRILIUM_PH_1__data directory__TRILIUM_PH_2__ to configure Trilium to use it:",
+      "sourceHash": "a800944ea11c35d7fec81051a9cd1e1850dc21d1cb9cb363138e2ffd0fe66b9d",
+      "context": "HTTPS (TLS) > Modifying config.ini",
+      "contextHash": "467c27e374eeaad0f71162a16e6347a985457cffdc9aa50d868d94feef8c3fec",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_85119f0e56ff200612209ee8_0",
+      "kind": "p",
+      "source": "You can also review the __TRILIUM_PH_0__configuration__TRILIUM_PH_1__ file to provide all __TRILIUM_PH_2__ values as environment variables instead. For example, you can configure TLS using environment variables:",
+      "sourceHash": "85119f0e56ff200612209ee83d6108947319d50cf85dcf041741773eea0a9e79",
+      "context": "HTTPS (TLS) > Modifying config.ini",
+      "contextHash": "467c27e374eeaad0f71162a16e6347a985457cffdc9aa50d868d94feef8c3fec",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_9d991fae23d6a0ce0780563d_0",
+      "kind": "p",
+      "source": "The above example shows how this is set up in an environment where the certificate was generated using Let's Encrypt's ACME utility. Your paths may differ. For Docker installations, ensure these paths are within a volume or another directory accessible by the Docker container, such as __TRILIUM_PH_0__.",
+      "sourceHash": "9d991fae23d6a0ce0780563d63497f2fed0947ffa33a43d25f24d4094e81122e",
+      "context": "HTTPS (TLS) > Modifying config.ini",
+      "contextHash": "467c27e374eeaad0f71162a16e6347a985457cffdc9aa50d868d94feef8c3fec",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_e8947a2e9012167509dc560c_0",
+      "kind": "p",
+      "source": "After configuring __TRILIUM_PH_0__, restart Trilium and access the hostname using \"https\".",
+      "sourceHash": "e8947a2e9012167509dc560c0ede8912d20aae4936cfaca38372ff0fa626f323",
+      "context": "HTTPS (TLS) > Modifying config.ini",
+      "contextHash": "467c27e374eeaad0f71162a16e6347a985457cffdc9aa50d868d94feef8c3fec",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_85c7ebf9a3771274a53d4f7b_0",
+      "kind": "h2",
+      "source": "Self-Signed Certificate__TRILIUM_PH_0__",
+      "sourceHash": "85c7ebf9a3771274a53d4f7b5abfa1ef6e3b1be043ef93fc9287fa5fb1c447d5",
+      "context": "HTTPS (TLS) > Self-Signed Certificate",
+      "contextHash": "5d653bae723711e88f498ed6a18f57c1176c5bbeabc8b4e06ed47404d7fbaf66",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_23aba48f3e814990b7c48952_0",
+      "kind": "p",
+      "source": "If you opt to use a self-signed certificate for your server instance, note that the desktop instance will not trust it by default.",
+      "sourceHash": "23aba48f3e814990b7c4895273c94fb845427e3a079d177faf166ffdb1b39439",
+      "context": "HTTPS (TLS) > Self-Signed Certificate",
+      "contextHash": "5d653bae723711e88f498ed6a18f57c1176c5bbeabc8b4e06ed47404d7fbaf66",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_8fbf83324d41482378ad03c8_0",
+      "kind": "p",
+      "source": "To bypass this, disable certificate validation by setting the following environment variable (for Linux):",
+      "sourceHash": "8fbf83324d41482378ad03c8457c05dcec50a6fd45cf4bb0e79eae7b3372b7d5",
+      "context": "HTTPS (TLS) > Self-Signed Certificate",
+      "contextHash": "5d653bae723711e88f498ed6a18f57c1176c5bbeabc8b4e06ed47404d7fbaf66",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_619bd64e8ffa00f605d623a9_0",
+      "kind": "p",
+      "source": "Trilium provides scripts to start in this mode, such as __TRILIUM_PH_0__ for Windows.",
+      "sourceHash": "619bd64e8ffa00f605d623a953f5d2efe31fc629ffa8ca1d207451aa2c1210c6",
+      "context": "HTTPS (TLS) > Self-Signed Certificate",
+      "contextHash": "5d653bae723711e88f498ed6a18f57c1176c5bbeabc8b4e06ed47404d7fbaf66",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_e987b127572ed7b317e92bf4_0",
+      "kind": "p",
+      "source": "__TRILIUM_PH_0__Warning__TRILIUM_PH_1__: Disabling TLS certificate validation is insecure. Proceed only if you fully understand the implications.",
+      "sourceHash": "e987b127572ed7b317e92bf487d5d2984109280079b8ce6750f53a600ccaa548",
+      "context": "HTTPS (TLS) > Self-Signed Certificate",
+      "contextHash": "5d653bae723711e88f498ed6a18f57c1176c5bbeabc8b4e06ed47404d7fbaf66",
+      "status": "translated",
+      "active": true,
+      "translation": "__TRILIUM_PH_0__警告__TRILIUM_PH_1__: TLS証明書の検証を無効化することは安全ではありません。影響を十分に理解している場合にのみ進めてください。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    }
+  ],
+  "requests": [
+    {
+      "at": "2026-11-14T11:28:45.803Z",
+      "model": "gemini-3.5-flash-lite",
+      "batchJob": "batches/02spwqy837h8pi7qzqmeo4fgsqo7bgs45hwh",
+      "requestKey": "l2VkvOwUNfZj_ef8c4d39b05b68f4",
+      "modelVersion": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 397,
+        "candidatesTokenCount": 116,
+        "totalTokenCount": 513,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 397
+          }
+        ],
+        "serviceTier": "standard"
+      }
+    }
+  ]
+}

@@ -1,0 +1,249 @@
+{
+  "schemaVersion": 1,
+  "pageId": "bnyigUA2UK7s",
+  "sourceFile": "docs/User Guide/User Guide/Troubleshooting/Error logs/Backend (server) logs.md",
+  "sourceRevision": "03d17b60f59b5efc29b880b11481471d0fe0ff57",
+  "units": [
+    {
+      "id": "u_35eb95821576df09346c271d_0",
+      "kind": "title",
+      "source": "Backend (server) logs",
+      "sourceHash": "35eb95821576df09346c271dc239720b12999de479c496a0feb27238be706118",
+      "context": "Backend (server) logs",
+      "contextHash": "e3a0e2072afb8d7aba774c37e6632433a3f3edddb4979743202822a49ac40486",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_7c2a0162daf0520b0f89988d_0",
+      "kind": "h2",
+      "source": "Accessing via the backend log__TRILIUM_PH_0__",
+      "sourceHash": "7c2a0162daf0520b0f89988d8a2e725ec4bd7242693261506633068912a74a20",
+      "context": "Backend (server) logs > Accessing via the backend log",
+      "contextHash": "80fe26c798abd0943d3322d1be32d3b53a3a8a90f7194ad438f8102a7e806d3c",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_36cec7be8b4e1defb8a47765_0",
+      "kind": "p",
+      "source": "In the __TRILIUM_PH_0__Global menu__TRILIUM_PH_1__, go to __TRILIUM_PH_2__Advanced__TRILIUM_PH_3__ → __TRILIUM_PH_4__Backend log__TRILIUM_PH_5__. This will display the current backend log (i.e. today's), with the historical information available only on disk (see below).",
+      "sourceHash": "36cec7be8b4e1defb8a477657a816a9fc95b3adc3516d65fce26d58b004b7c2a",
+      "context": "Backend (server) logs > Accessing via the backend log",
+      "contextHash": "80fe26c798abd0943d3322d1be32d3b53a3a8a90f7194ad438f8102a7e806d3c",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_7f85051eb29ba8fea2a29936_0",
+      "kind": "p",
+      "source": "The log is colored to make it easier to read: request status codes by class, slow SQL queries, warnings in amber and errors in red. The statement of a slow SQL query is highlighted the same way as in the __TRILIUM_PH_0__SQL Console__TRILIUM_PH_1__, using the color scheme of code notes (see __TRILIUM_PH_2__Color schemes__TRILIUM_PH_3__ in __TRILIUM_PH_4__Code__TRILIUM_PH_5__).",
+      "sourceHash": "7f85051eb29ba8fea2a29936fcce5bd0a50c22bd5d72a0dff837a13527db1038",
+      "context": "Backend (server) logs > Accessing via the backend log",
+      "contextHash": "80fe26c798abd0943d3322d1be32d3b53a3a8a90f7194ad438f8102a7e806d3c",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_49cbd0b9387b6e2add071e2f_0",
+      "kind": "p",
+      "source": "A search that the app runs in the background, for example to filter a collection, or that a script runs is followed by a __TRILIUM_PH_0__ line with its query and the number of notes it returned. The query is highlighted the same way as in a __TRILIUM_PH_1__Saved Search__TRILIUM_PH_2__. Quick search and saved searches don't add this line.",
+      "sourceHash": "49cbd0b9387b6e2add071e2f01c1b4719d53235c96757252771f8a2c003b1417",
+      "context": "Backend (server) logs > Accessing via the backend log",
+      "contextHash": "80fe26c798abd0943d3322d1be32d3b53a3a8a90f7194ad438f8102a7e806d3c",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_bdff083862356a2aa046132d_0",
+      "kind": "p",
+      "source": "Interaction since v0.104.0:",
+      "sourceHash": "bdff083862356a2aa046132d17a137ad1a69cd567080e0b04c60b35ab64b4e34",
+      "context": "Backend (server) logs > Accessing via the backend log",
+      "contextHash": "80fe26c798abd0943d3322d1be32d3b53a3a8a90f7194ad438f8102a7e806d3c",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_a3b07ebcfb58027d81df63de_0",
+      "kind": "li",
+      "source": "The file can be downloaded as a text file using the __TRILIUM_PH_0__ button in the __TRILIUM_PH_1__Note menu__TRILIUM_PH_2__ area.",
+      "sourceHash": "a3b07ebcfb58027d81df63de70f5d661fcf4bdcbdae863c16c3be3cbf5d6b0a1",
+      "context": "Backend (server) logs > Accessing via the backend log",
+      "contextHash": "80fe26c798abd0943d3322d1be32d3b53a3a8a90f7194ad438f8102a7e806d3c",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_b4f843f42878142bdfcd1c5f_0",
+      "kind": "li",
+      "source": "The file can also be searched just like a normal __TRILIUM_PH_0__Code__TRILIUM_PH_1__ note.",
+      "sourceHash": "b4f843f42878142bdfcd1c5ffc4d6f605734962a4772cd426be04f341a87fe9d",
+      "context": "Backend (server) logs > Accessing via the backend log",
+      "contextHash": "80fe26c798abd0943d3322d1be32d3b53a3a8a90f7194ad438f8102a7e806d3c",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_4266629c4e6383ccae619d7a_0",
+      "kind": "h2",
+      "source": "Location on the disk__TRILIUM_PH_0__",
+      "sourceHash": "4266629c4e6383ccae619d7a96b8d80f19f0c1ebd2895a1204ed37500e4a1bf7",
+      "context": "Backend (server) logs > Location on the disk",
+      "contextHash": "94c8431a0942bf71111693387e8e7c84bb312fa8dae0876783d548f277a1e07a",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_6071380aa16ca8397c3f589f_0",
+      "kind": "p",
+      "source": "Backend logs are stored on the file system. To find them, open the __TRILIUM_PH_0__Data directory__TRILIUM_PH_1__, go to the __TRILIUM_PH_2__ subdirectory and find the latest log file, e.g. __TRILIUM_PH_3__. ",
+      "sourceHash": "6071380aa16ca8397c3f589f7a431381c6a26b002c465ccca57dbca2ebf05729",
+      "context": "Backend (server) logs > Location on the disk",
+      "contextHash": "94c8431a0942bf71111693387e8e7c84bb312fa8dae0876783d548f277a1e07a",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_19aafb564dee4db8f78dd28f_0",
+      "kind": "h2",
+      "source": "In the terminal__TRILIUM_PH_0__",
+      "sourceHash": "19aafb564dee4db8f78dd28f4936cd2b3e7df41648f4354289d386c60e562f56",
+      "context": "Backend (server) logs > In the terminal",
+      "contextHash": "53f3eaf5ef102d079cb5a7167ffd300ae87ee227eddcac4118be974cc7e51cd3",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_d5e6411c07565688cc2599f7_0",
+      "kind": "p",
+      "source": "The server also prints every log entry to its standard output, which is what __TRILIUM_PH_0__ or __TRILIUM_PH_1__ show. When that output is a terminal, each entry starts with its time and is colored like the backend log in the app: request status codes by class, slow SQL queries, warnings in yellow and errors in red. The statement of a slow SQL query and the query of a search are shown without syntax highlighting there. The startup banner with the Trilium logo and version information is colored too. Output to a file, a pipe or a container log stays plain text without the time, since those tools add their own.",
+      "sourceHash": "d5e6411c07565688cc2599f72a0381bb2834c8dc2caf7f69c1cee9c2a732455c",
+      "context": "Backend (server) logs > In the terminal",
+      "contextHash": "53f3eaf5ef102d079cb5a7167ffd300ae87ee227eddcac4118be974cc7e51cd3",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_56ec2c7caa3acbc07575f088_0",
+      "kind": "p",
+      "source": "To turn the colors off in a terminal, set the __TRILIUM_PH_0__ environment variable; to force them on elsewhere, set __TRILIUM_PH_1__.",
+      "sourceHash": "56ec2c7caa3acbc07575f0886a5311a5f59290425950d68f63f7a8ed443333c6",
+      "context": "Backend (server) logs > In the terminal",
+      "contextHash": "53f3eaf5ef102d079cb5a7167ffd300ae87ee227eddcac4118be974cc7e51cd3",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_63ab1c7e0f23c23d16637534_0",
+      "kind": "h2",
+      "source": "Reporting backend bugs__TRILIUM_PH_0__",
+      "sourceHash": "63ab1c7e0f23c23d1663753417fd6246e8196ea5db905dc6c0cec2221851b0eb",
+      "context": "Backend (server) logs > Reporting backend bugs",
+      "contextHash": "0ab56c44dc3ecf38bdad2185387dd9f1a5e5c200630ce1044d7203b4aa42a867",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_cd56336efad32e85c485458f_0",
+      "kind": "p",
+      "source": "You can attach the whole file to the bug report (preferable) or open it and copy-paste only the last lines / lines you believe are relevant.",
+      "sourceHash": "cd56336efad32e85c485458f317eac7dd951ed6732f2331c02116ea4cf0e1440",
+      "context": "Backend (server) logs > Reporting backend bugs",
+      "contextHash": "0ab56c44dc3ecf38bdad2185387dd9f1a5e5c200630ce1044d7203b4aa42a867",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_245904cd804d3ffe0f10c68a_0",
+      "kind": "h2",
+      "source": "Customizing the retention of logs__TRILIUM_PH_0__",
+      "sourceHash": "245904cd804d3ffe0f10c68ab9782cb573ee37d1596046173b1b7088626c2f7a",
+      "context": "Backend (server) logs > Customizing the retention of logs",
+      "contextHash": "d746aaa6d8c63fbf8e4affeadf612cedd88042768c69c3d8656fe1f233882153",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_2bcf626218cdc1c08eeb75aa_0",
+      "kind": "p",
+      "source": "The backend logs are fully managed by the Trilium server. By default the last 90 days worth of logs are kept; the logs older than that are deleted in order to reduce the space consumption.",
+      "sourceHash": "2bcf626218cdc1c08eeb75aa54ceac58ecf9877e41f70aeaa736dc2d7feb7ec8",
+      "context": "Backend (server) logs > Customizing the retention of logs",
+      "contextHash": "d746aaa6d8c63fbf8e4affeadf612cedd88042768c69c3d8656fe1f233882153",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_7f87b8a7c2c87ec0226038be_0",
+      "kind": "p",
+      "source": "It's possible to change the retention period by modifying the __TRILIUM_PH_0__Configuration (config.ini or environment variables)__TRILIUM_PH_1__ via the __TRILIUM_PH_2__ file:",
+      "sourceHash": "7f87b8a7c2c87ec0226038beb25eb8f2bb3ce99ba0ef862ddfb8e71d0734e75a",
+      "context": "Backend (server) logs > Customizing the retention of logs",
+      "contextHash": "d746aaa6d8c63fbf8e4affeadf612cedd88042768c69c3d8656fe1f233882153",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_70fc5816de7137d78541157f_0",
+      "kind": "p",
+      "source": "Or via the environment variable __TRILIUM_PH_0__.",
+      "sourceHash": "70fc5816de7137d78541157f2950f1f43922c7f8ebdbbd7fa7f5e60e60e16934",
+      "context": "Backend (server) logs > Customizing the retention of logs",
+      "contextHash": "d746aaa6d8c63fbf8e4affeadf612cedd88042768c69c3d8656fe1f233882153",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_b4b94cc46f2b739b742984a9_0",
+      "kind": "p",
+      "source": "Special cases:",
+      "sourceHash": "b4b94cc46f2b739b742984a9b7c076478974747b21e128a4eaf592644071185f",
+      "context": "Backend (server) logs > Customizing the retention of logs",
+      "contextHash": "d746aaa6d8c63fbf8e4affeadf612cedd88042768c69c3d8656fe1f233882153",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_b141975b299a4128bed7a1cd_0",
+      "kind": "li",
+      "source": "Positive values indicate the number of days worth of logs to keep",
+      "sourceHash": "b141975b299a4128bed7a1cdfb5487f452c920ad750868cecd2cef2c015d3584",
+      "context": "Backend (server) logs > Customizing the retention of logs",
+      "contextHash": "d746aaa6d8c63fbf8e4affeadf612cedd88042768c69c3d8656fe1f233882153",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_8fcc0b8c0b02c39f15b2c907_0",
+      "kind": "li",
+      "source": "A value of 0 results with the default value (90 days) to be used",
+      "sourceHash": "8fcc0b8c0b02c39f15b2c907f5f523018e6b745fe5f17d6173bbc5d9d421d444",
+      "context": "Backend (server) logs > Customizing the retention of logs",
+      "contextHash": "d746aaa6d8c63fbf8e4affeadf612cedd88042768c69c3d8656fe1f233882153",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_d0a277959a00ae92f176beb5_0",
+      "kind": "li",
+      "source": "Negative values (e.g. __TRILIUM_PH_0__) result with all logs to be kept, irrespective how ancient and numerous (and",
+      "sourceHash": "d0a277959a00ae92f176beb547602c214d800113c4bca1d63b5644948a358560",
+      "context": "Backend (server) logs > Customizing the retention of logs",
+      "contextHash": "d746aaa6d8c63fbf8e4affeadf612cedd88042768c69c3d8656fe1f233882153",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_4ee1c90ec89dc3ad1c2aaa20_0",
+      "kind": "p",
+      "source": "If you set the retention days to a low number, you might notice that not all the log files are being deleted. This is because a minimum number of logs (7 at the time of writing) is maintained at all times.",
+      "sourceHash": "4ee1c90ec89dc3ad1c2aaa20b308da553266768f25e6a588eca0af257ba05351",
+      "context": "Backend (server) logs > Customizing the retention of logs",
+      "contextHash": "d746aaa6d8c63fbf8e4affeadf612cedd88042768c69c3d8656fe1f233882153",
+      "status": "pending",
+      "active": true
+    }
+  ],
+  "requests": []
+}

@@ -1,0 +1,209 @@
+{
+  "schemaVersion": 1,
+  "pageId": "wX4HbRucYSDD",
+  "sourceFile": "docs/User Guide/User Guide/Advanced Usage/Database.md",
+  "sourceRevision": "03d17b60f59b5efc29b880b11481471d0fe0ff57",
+  "units": [
+    {
+      "id": "u_3bc573173f8fb1bf365c85af_0",
+      "kind": "title",
+      "source": "Database",
+      "sourceHash": "3bc573173f8fb1bf365c85af017f01b40d373a4a74c84a41dff962de0692179b",
+      "context": "Database",
+      "contextHash": "fa7fe67124e94375d97e50896e0c32f44b03bb7ed5e9fb026341b55da724126b",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_49a128b521d82112d57ee058_0",
+      "kind": "p",
+      "source": "Your Trilium data is stored in a __TRILIUM_PH_0__SQLite__TRILIUM_PH_1__ database which contains all notes, tree structure, metadata, and most of the configuration. The database file is named __TRILIUM_PH_2__ and is stored in the application's default __TRILIUM_PH_3__Data directory__TRILIUM_PH_4__.",
+      "sourceHash": "49a128b521d82112d57ee058f169aaed89f9f4d0756bf84647e6adb0b96840f7",
+      "context": "Database",
+      "contextHash": "fa7fe67124e94375d97e50896e0c32f44b03bb7ed5e9fb026341b55da724126b",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_e1acb77b8320d2f0e0965d47_0",
+      "kind": "h2",
+      "source": "Demo Notes__TRILIUM_PH_0__",
+      "sourceHash": "e1acb77b8320d2f0e0965d479e7d394c66cff81381c6341073d37a84fe1849aa",
+      "context": "Database > Demo Notes",
+      "contextHash": "d28f01090b16282a5fc115683a7a7214e92714bbf7e7e7c1edfa2a66beba16e5",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_9ef34c58e95e888c8c865353_0",
+      "kind": "p",
+      "source": "When first starting Trilium, it will provide a set of notes to showcase various features of the application.",
+      "sourceHash": "9ef34c58e95e888c8c8653534c030d25b2b28c18fb9ac15a90229b8ba8e0c5fe",
+      "context": "Database > Demo Notes",
+      "contextHash": "d28f01090b16282a5fc115683a7a7214e92714bbf7e7e7c1edfa2a66beba16e5",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_033f14bb641183b69aa58ba7_0",
+      "kind": "p",
+      "source": "For more information see __TRILIUM_PH_0__Demo Notes__TRILIUM_PH_1__.",
+      "sourceHash": "033f14bb641183b69aa58ba76c6fea55a8f938bdff72dee41d2558e5b123fd39",
+      "context": "Database > Demo Notes",
+      "contextHash": "d28f01090b16282a5fc115683a7a7214e92714bbf7e7e7c1edfa2a66beba16e5",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_3c8d39b8a5e7c6af7c3944c7_0",
+      "kind": "h2",
+      "source": "Manually Modifying the Database__TRILIUM_PH_0__",
+      "sourceHash": "3c8d39b8a5e7c6af7c3944c70fc8ca10604c7edb6fd73f20eb9443d517cbaaa6",
+      "context": "Database > Manually Modifying the Database",
+      "contextHash": "ff3fd2a392f4d56b80535cdb66cc93df43ac8326e4bb6818fc6b69d1a3c0857c",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_71022a67b0b576fe00f6d928_0",
+      "kind": "p",
+      "source": "Trilium provides a lot of flexibility, and with it, opportunities for advanced users to tweak it. If you need to explore or modify the database directly, you can use a tool such as __TRILIUM_PH_0__SQLite Browser__TRILIUM_PH_1__ to work directly on the database file.",
+      "sourceHash": "71022a67b0b576fe00f6d928e2c4213364ae7039d57c19f5b66b92584bd63a36",
+      "context": "Database > Manually Modifying the Database",
+      "contextHash": "ff3fd2a392f4d56b80535cdb66cc93df43ac8326e4bb6818fc6b69d1a3c0857c",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_ccc28bf8382b12b94383b148_0",
+      "kind": "p",
+      "source": "See __TRILIUM_PH_0__Manually altering the database__TRILIUM_PH_1__ for more information.",
+      "sourceHash": "ccc28bf8382b12b94383b1484dc228e040777ce415d9852e05a46ab3a2c0f625",
+      "context": "Database > Manually Modifying the Database",
+      "contextHash": "ff3fd2a392f4d56b80535cdb66cc93df43ac8326e4bb6818fc6b69d1a3c0857c",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_bef48e398a34a6d90a06faa9_0",
+      "kind": "h2",
+      "source": "How to Reset the Database__TRILIUM_PH_0__",
+      "sourceHash": "bef48e398a34a6d90a06faa9d13ed77754b49270b798510f5ff2872459d4219c",
+      "context": "Database > How to Reset the Database",
+      "contextHash": "5e978db0a9262748b7735a198aec6e171fb134f5da7133dd257726c1b4e0ae4d",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_2ab173c3822c58a776f2c9fa_0",
+      "kind": "p",
+      "source": "If you want to start again and:",
+      "sourceHash": "2ab173c3822c58a776f2c9fab87986b361fa11a4f3ba3c1fdbf49e1175773ea3",
+      "context": "Database > How to Reset the Database",
+      "contextHash": "5e978db0a9262748b7735a198aec6e171fb134f5da7133dd257726c1b4e0ae4d",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_5b5bf4dbd2d3b93e08b03768_0",
+      "kind": "li",
+      "source": "Create and switch to a new blank knowledge base",
+      "sourceHash": "5b5bf4dbd2d3b93e08b03768e70f2c51e75a2587fb6bd65a8bef61d8a5ad6cd3",
+      "context": "Database > How to Reset the Database",
+      "contextHash": "5e978db0a9262748b7735a198aec6e171fb134f5da7133dd257726c1b4e0ae4d",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_3bc62e31e70e7c78ad4ecfc2_0",
+      "kind": "li",
+      "source": "Use a different knowledge base synced from a server or desktop application",
+      "sourceHash": "3bc62e31e70e7c78ad4ecfc215acc1f4d17b25642f880775798d20395cea0858",
+      "context": "Database > How to Reset the Database",
+      "contextHash": "5e978db0a9262748b7735a198aec6e171fb134f5da7133dd257726c1b4e0ae4d",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_6d347c07c0c1318933f0b565_0",
+      "kind": "li",
+      "source": "Restore a backup",
+      "sourceHash": "6d347c07c0c1318933f0b56512e7eefde119a1388ba07580b6108df0e11d6593",
+      "context": "Database > How to Reset the Database",
+      "contextHash": "5e978db0a9262748b7735a198aec6e171fb134f5da7133dd257726c1b4e0ae4d",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_a06c0df5dae172c04c66cf51_0",
+      "kind": "p",
+      "source": "You can navigate to __TRILIUM_PH_0__Options__TRILIUM_PH_1__ → __TRILIUM_PH_2__Database__TRILIUM_PH_3__ and click the __TRILIUM_PH_4__Start over__TRILIUM_PH_5__ button. You'll be prompted to restart the application, with the option to back up your current database before proceeding.",
+      "sourceHash": "a06c0df5dae172c04c66cf5159a1adfcec65f9d675021064c07085902748548f",
+      "context": "Database > How to Reset the Database",
+      "contextHash": "5e978db0a9262748b7735a198aec6e171fb134f5da7133dd257726c1b4e0ae4d",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_17e21eecc4d72520de3984c7_0",
+      "kind": "p",
+      "source": "For the web client, Trilium cannot restart automatically. You'll need to manually restart the server/container and then reload the web application.",
+      "sourceHash": "17e21eecc4d72520de3984c7fb71a8898f8ff7fee19f9d7efba3b6da41971fa6",
+      "context": "Database > How to Reset the Database",
+      "contextHash": "5e978db0a9262748b7735a198aec6e171fb134f5da7133dd257726c1b4e0ae4d",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_260cd2540b8bb34b2ad0036f_0",
+      "kind": "p",
+      "source": "After restarting, the setup screen will appear. You can choose to back up your existing database, then proceed with the setup menu as if it's a new installation. The existing database will only be overwritten after selecting to create a new database, sync with a server, or restore from a backup.",
+      "sourceHash": "260cd2540b8bb34b2ad0036f2d0d59313453ec5209bfd9bd6698a44bd68b9ddd",
+      "context": "Database > How to Reset the Database",
+      "contextHash": "5e978db0a9262748b7735a198aec6e171fb134f5da7133dd257726c1b4e0ae4d",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_dcc9b7d5e40d9654f0798947_0",
+      "kind": "h3",
+      "source": "The Legacy Method__TRILIUM_PH_0__",
+      "sourceHash": "dcc9b7d5e40d9654f0798947c8b91123bd7eb1f1f3dcfb094424aa82ece7d44e",
+      "context": "Database > How to Reset the Database > The Legacy Method",
+      "contextHash": "3bfb515ec368f3bbc37fe269c71cbe82d0602985c5030038122f17031f26f896",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_2d1d3e1317c1f4017987dfc8_0",
+      "kind": "p",
+      "source": "If you are experimenting with Trilium and want to return it to its original state, you can do that by deleting the current database. When you restart the application, it will generate a new database containing the original demo notes.",
+      "sourceHash": "2d1d3e1317c1f4017987dfc8788042990b9e359a3ad087ec8bc9b11217ef7088",
+      "context": "Database > How to Reset the Database > The Legacy Method",
+      "contextHash": "3bfb515ec368f3bbc37fe269c71cbe82d0602985c5030038122f17031f26f896",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_23c52ad40c59c56dde34124a_0",
+      "kind": "p",
+      "source": "To delete the database, simply go to the __TRILIUM_PH_0__data directory__TRILIUM_PH_1__ and delete the __TRILIUM_PH_2__ file (and any other files starting with __TRILIUM_PH_3__).",
+      "sourceHash": "23c52ad40c59c56dde34124a83ec2ba920e00c86908084838620a4d3ae7b6327",
+      "context": "Database > How to Reset the Database > The Legacy Method",
+      "contextHash": "3bfb515ec368f3bbc37fe269c71cbe82d0602985c5030038122f17031f26f896",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_d40bd5e8b33bb5e3a545c12d_0",
+      "kind": "p",
+      "source": "If you do not need to preserve any configurations that might be stored in the __TRILIUM_PH_0__ file, you can just delete all of the __TRILIUM_PH_1__data directory's__TRILIUM_PH_2__ contents to fully restore the application to its original state. You can also review the __TRILIUM_PH_3__configuration__TRILIUM_PH_4__ file to provide all __TRILIUM_PH_5__ values as environment variables instead.",
+      "sourceHash": "d40bd5e8b33bb5e3a545c12d5ad37be2f61acb16b357ffd2b266d63e2caa5317",
+      "context": "Database > How to Reset the Database > The Legacy Method",
+      "contextHash": "3bfb515ec368f3bbc37fe269c71cbe82d0602985c5030038122f17031f26f896",
+      "status": "pending",
+      "active": true
+    }
+  ],
+  "requests": []
+}

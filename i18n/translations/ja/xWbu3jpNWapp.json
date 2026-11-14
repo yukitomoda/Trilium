@@ -1,0 +1,2239 @@
+{
+  "schemaVersion": 1,
+  "pageId": "xWbu3jpNWapp",
+  "sourceFile": "docs/User Guide/User Guide/Collections/Calendar.md",
+  "sourceRevision": "03d17b60f59b5efc29b880b11481471d0fe0ff57",
+  "units": [
+    {
+      "id": "u_2a8fe63f879bccedcbd0119b_0",
+      "kind": "title",
+      "source": "Calendar",
+      "sourceHash": "2a8fe63f879bccedcbd0119b91c9ea9418b7b39d2bb680a6ed06c5cedec113eb",
+      "context": "Calendar",
+      "contextHash": "d5d0a30b517e3beab07609d7e54c378db5e15066f22280af453f587f7eec7474",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_c8f0b2dd85d6a98181c2baa6_0",
+      "kind": "p",
+      "source": "The Calendar view will display each child note in a calendar that has a start date and optionally an end date, as an event.",
+      "sourceHash": "c8f0b2dd85d6a98181c2baa6a96ed6854b9614e97c875bd5de810b21a419eb1b",
+      "context": "Calendar",
+      "contextHash": "d5d0a30b517e3beab07609d7e54c378db5e15066f22280af453f587f7eec7474",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_35783978ad5ca612d666913b_0",
+      "kind": "p",
+      "source": "The Calendar view has multiple display modes:",
+      "sourceHash": "35783978ad5ca612d666913bca63836e47eb4a9fce8d8f77a8fb7b4c363afbd0",
+      "context": "Calendar",
+      "contextHash": "d5d0a30b517e3beab07609d7e54c378db5e15066f22280af453f587f7eec7474",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_d4ca5e178d8125b82caed3a3_0",
+      "kind": "li",
+      "source": "Month view, where the entire month is displayed and all-day events can be inserted. Both time-specific events and all-day events are listed.",
+      "sourceHash": "d4ca5e178d8125b82caed3a3803637c0462b22158b6718bdcdf592f27706af15",
+      "context": "Calendar",
+      "contextHash": "d5d0a30b517e3beab07609d7e54c378db5e15066f22280af453f587f7eec7474",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_efc8d51a34d0676b7f8a0920_0",
+      "kind": "li",
+      "source": "Week view, where all the 7 days of the week (or 5 if the weekends are hidden) are displayed in columns. This mode allows entering and displaying time-specific events, not just all-day events.",
+      "sourceHash": "efc8d51a34d0676b7f8a09205c2d99a33484360808b89c79824feeb20e396243",
+      "context": "Calendar",
+      "contextHash": "d5d0a30b517e3beab07609d7e54c378db5e15066f22280af453f587f7eec7474",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_5cc8e81047c7dc3c86ee85e7_0",
+      "kind": "li",
+      "source": "Day view, which views only a single day. Especially useful for heavy agendas or mobile views.",
+      "sourceHash": "5cc8e81047c7dc3c86ee85e7224d0a77c75e67c3945d99722beb41b2952f2c23",
+      "context": "Calendar",
+      "contextHash": "d5d0a30b517e3beab07609d7e54c378db5e15066f22280af453f587f7eec7474",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_c090c9956d82af87786ec2df_0",
+      "kind": "li",
+      "source": "List view, which displays all the events of a given month in sequence.",
+      "sourceHash": "c090c9956d82af87786ec2dffafa871fcd851ebb1574b629274d4aa21099d0a9",
+      "context": "Calendar",
+      "contextHash": "d5d0a30b517e3beab07609d7e54c378db5e15066f22280af453f587f7eec7474",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_06cff0933d207d18572583fd_0",
+      "kind": "li",
+      "source": "Year view, which displays the entire year for quick reference.",
+      "sourceHash": "06cff0933d207d18572583fd6d4e795eafac356dbddc90094f0f98e4aaaacb98",
+      "context": "Calendar",
+      "contextHash": "d5d0a30b517e3beab07609d7e54c378db5e15066f22280af453f587f7eec7474",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_ef160a29a4ba78246c9fa18f_0",
+      "kind": "p",
+      "source": "Unlike other Collection view types, the Calendar view also allows some kind of interaction, such as moving events around as well as creating new ones.",
+      "sourceHash": "ef160a29a4ba78246c9fa18fb76edfbe39ad00710998c4a95008770ef1d1a4d6",
+      "context": "Calendar",
+      "contextHash": "d5d0a30b517e3beab07609d7e54c378db5e15066f22280af453f587f7eec7474",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_2c2a245aef6082e366a7949a_0",
+      "kind": "h2",
+      "source": "Creating a calendar__TRILIUM_PH_0__",
+      "sourceHash": "2c2a245aef6082e366a7949adf91f8c41d4458c2ac38cf630c53ba332e7e1047",
+      "context": "Calendar > Creating a calendar",
+      "contextHash": "c1bd32a9f10e513d050ba23e43f1f8a4aca338c6ead41c412f45bebd1fbd58f2",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_0a9bfe4825d2a7b5c0fe2c82_0",
+      "kind": "p",
+      "source": "Right click on an existing note in the __TRILIUM_PH_0__Note Tree__TRILIUM_PH_1__ and select __TRILIUM_PH_2__Insert child note__TRILIUM_PH_3__ → __TRILIUM_PH_4__Collection__TRILIUM_PH_5__ → __TRILIUM_PH_6__Calendar__TRILIUM_PH_7__.",
+      "sourceHash": "0a9bfe4825d2a7b5c0fe2c82a21eefae8a5e800994a6108c336f2bddb80c9a29",
+      "context": "Calendar > Creating a calendar",
+      "contextHash": "c1bd32a9f10e513d050ba23e43f1f8a4aca338c6ead41c412f45bebd1fbd58f2",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_6878fd68402abbe012d0ed84_0",
+      "kind": "h2",
+      "source": "Creating a new event/note__TRILIUM_PH_0__",
+      "sourceHash": "6878fd68402abbe012d0ed842a9775bb141b927c1e3e8ca0a41f6cf58b003b34",
+      "context": "Calendar > Creating a new event/note",
+      "contextHash": "3a6f4fb02b9594a31249ecdadf6403deb7c50504ab22baed10b906c61e56823b",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_e1574205d3a01f9647e36c4d_0",
+      "kind": "p",
+      "source": "To create a new event:",
+      "sourceHash": "e1574205d3a01f9647e36c4d298a9b7b4ac4a82270ac2e7a8fb2d6ea594caec8",
+      "context": "Calendar > Creating a new event/note",
+      "contextHash": "3a6f4fb02b9594a31249ecdadf6403deb7c50504ab22baed10b906c61e56823b",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_980726b195ba792db22d2799_0",
+      "kind": "li",
+      "source": "First, click the desired day (month & year views) or the desired timeslot (day view).",
+      "sourceHash": "980726b195ba792db22d279938d6f18a31282870a637cac3fa5891232c850ab2",
+      "context": "Calendar > Creating a new event/note",
+      "contextHash": "3a6f4fb02b9594a31249ecdadf6403deb7c50504ab22baed10b906c61e56823b",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_664fcfe419f1b449daea2610_0",
+      "kind": "li",
+      "source": "Alternatively, drag across multiple days (or time slots) to set both the start and end date.",
+      "sourceHash": "664fcfe419f1b449daea26100c3ba60033b66cb9740f9074ec74f9972286f8fa",
+      "context": "Calendar > Creating a new event/note",
+      "contextHash": "3a6f4fb02b9594a31249ecdadf6403deb7c50504ab22baed10b906c61e56823b",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_6734016cfbc49af842098861_0",
+      "kind": "p",
+      "source": "In either cases, a small popup will show with a prompt for a title and the date & time of the event that will be created. The date and time can be changed there the same way as in the popup view of an existing event (see below).",
+      "sourceHash": "6734016cfbc49af842098861ab18da8f466680518c71e17021a5e0679cc8423b",
+      "context": "Calendar > Creating a new event/note",
+      "contextHash": "3a6f4fb02b9594a31249ecdadf6403deb7c50504ab22baed10b906c61e56823b",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_9f0eda1ba0038febcdb6dcc1_0",
+      "kind": "p",
+      "source": "At this point, the event hasn't been created yet to protect against accidental clicks. Add a title optionally and press the __TRILIUM_PH_0__Create__TRILIUM_PH_1__ button. If no title is provided, the event will follow the __TRILIUM_PH_2__Default Note Title__TRILIUM_PH_3__ rules.",
+      "sourceHash": "9f0eda1ba0038febcdb6dcc11521ee62053742019d594ecf97fe8f5e27322b8d",
+      "context": "Calendar > Creating a new event/note",
+      "contextHash": "3a6f4fb02b9594a31249ecdadf6403deb7c50504ab22baed10b906c61e56823b",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_e62a954e2383981e0fa0e5c7_0",
+      "kind": "p",
+      "source": "The __TRILIUM_PH_0__ template field below the date and time shows the note type or template the event's note is made from. To make the event from another one, press the field and select it from the list; the calendar remembers the choice for the next event. Select __TRILIUM_PH_1__More templates…__TRILIUM_PH_2__ to change which templates are listed (see __TRILIUM_PH_3__Event templates__TRILIUM_PH_4__). The date and time entered for the event replace any dates and times the template carries.",
+      "sourceHash": "e62a954e2383981e0fa0e5c7fcfe49ef5b4553f88532d60f8726a7b398af8aff",
+      "context": "Calendar > Creating a new event/note",
+      "contextHash": "3a6f4fb02b9594a31249ecdadf6403deb7c50504ab22baed10b906c61e56823b",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_58d054688312c6fb7478c5f1_0",
+      "kind": "p",
+      "source": "To give the event a time before creating it (for example, after clicking a day in the month view), press __TRILIUM_PH_0__Add time__TRILIUM_PH_1__ and set the start and end time; the duration is shown to the right of them. To make the event all-day again, press the __TRILIUM_PH_2__ button at the end of the row. Adding or removing a time keeps the dates, so an event can start at a time on one day and end at a time on another (for example, a night shift). Changing the start date or time moves the end by the same amount, keeping the duration. An empty end date means the event ends on the day it starts; setting the end time before the start time moves the end date to the next day.",
+      "sourceHash": "58d054688312c6fb7478c5f1672b2007986b242c489ef239ec0827c90bf1c98b",
+      "context": "Calendar > Creating a new event/note",
+      "contextHash": "3a6f4fb02b9594a31249ecdadf6403deb7c50504ab22baed10b906c61e56823b",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_969338675fe8a98c8c89f8dc_0",
+      "kind": "p",
+      "source": "After creating the event, it will show up on the calendar. To edit the content of the event (including recurrence), click on it to bring it into the popup view.",
+      "sourceHash": "969338675fe8a98c8c89f8dc794e2c8141c49d6de1b75bd91d53287be6209549",
+      "context": "Calendar > Creating a new event/note",
+      "contextHash": "3a6f4fb02b9594a31249ecdadf6403deb7c50504ab22baed10b906c61e56823b",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_c25708e4b79957b8811d633a_0",
+      "kind": "p",
+      "source": "Creating new notes from the calendar will respect the __TRILIUM_PH_0__ relation if set on the Collection note.",
+      "sourceHash": "c25708e4b79957b8811d633aefac847d109c893b07a69b00b60e26defa533678",
+      "context": "Calendar > Creating a new event/note",
+      "contextHash": "3a6f4fb02b9594a31249ecdadf6403deb7c50504ab22baed10b906c61e56823b",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_1a52beeed1ccfbbbc0eca31e_0",
+      "kind": "h2",
+      "source": "Interacting with events__TRILIUM_PH_0__",
+      "sourceHash": "1a52beeed1ccfbbbc0eca31e5e5a0e597017486177036cec8f4a0e987def41cb",
+      "context": "Calendar > Interacting with events",
+      "contextHash": "38b9c290015908a2db63c501b4efc3ca8b2aa55fd907c7247cf39da927e23040",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_143453620406e9ad3657184e_0",
+      "kind": "li",
+      "source": "Hovering the mouse over an event will display information about the note.__TRILIUM_PH_0____TRILIUM_PH_1__",
+      "sourceHash": "143453620406e9ad3657184e013fa35b54c792f7aacb150a9932b5fd30b65d4b",
+      "context": "Calendar > Interacting with events",
+      "contextHash": "38b9c290015908a2db63c501b4efc3ca8b2aa55fd907c7247cf39da927e23040",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_b21f7da7bb29cb37349b3252_0",
+      "kind": "li",
+      "source": "Left clicking the event will open a dedicated popup to quickly configure the event or edit its note content.",
+      "sourceHash": "b21f7da7bb29cb37349b3252bcf6ca62b7a0b61b515413e24801b1100c051574",
+      "context": "Calendar > Interacting with events",
+      "contextHash": "38b9c290015908a2db63c501b4efc3ca8b2aa55fd907c7247cf39da927e23040",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_3439d8d5157ff51f247d2b12_0",
+      "kind": "li",
+      "source": "Right click will offer more options including opening the note in a new split or window.",
+      "sourceHash": "3439d8d5157ff51f247d2b12eac871de70bc6bff6b47a157389475b9bdde6ea8",
+      "context": "Calendar > Interacting with events",
+      "contextHash": "38b9c290015908a2db63c501b4efc3ca8b2aa55fd907c7247cf39da927e23040",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_cd931838861db6bf71ec5abc_0",
+      "kind": "li",
+      "source": "Drag and drop an event on the calendar to move it to another day.",
+      "sourceHash": "cd931838861db6bf71ec5abc63485a5bc3a6ce2e3d971b3b423045bfdc4f58e6",
+      "context": "Calendar > Interacting with events",
+      "contextHash": "38b9c290015908a2db63c501b4efc3ca8b2aa55fd907c7247cf39da927e23040",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_aba5fd93b948a812b5bf1c47_0",
+      "kind": "li",
+      "source": "The length of an event can be changed by placing the mouse to the right edge of the event and dragging the mouse around.",
+      "sourceHash": "aba5fd93b948a812b5bf1c47e37c3cb710a0fcc2d320ac23a78c1bfe7262fc1b",
+      "context": "Calendar > Interacting with events",
+      "contextHash": "38b9c290015908a2db63c501b4efc3ca8b2aa55fd907c7247cf39da927e23040",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_e83d26f255696501b3145dd6_0",
+      "kind": "p",
+      "source": "On a __TRILIUM_PH_0__read-only__TRILIUM_PH_1__ calendar, events can't be dragged, resized or created, their context menu only offers the places to open them in, and the button to pin the current date is hidden. Switching between the month, week and day views still works, but the choice isn't saved.",
+      "sourceHash": "e83d26f255696501b3145dd6135c841e10b5aa61ff759517c8065644100a144b",
+      "context": "Calendar > Interacting with events",
+      "contextHash": "38b9c290015908a2db63c501b4efc3ca8b2aa55fd907c7247cf39da927e23040",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_af17f1d5990b45dffe282cab_0",
+      "kind": "h3",
+      "source": "Popup view__TRILIUM_PH_0__",
+      "sourceHash": "af17f1d5990b45dffe282cabf932d9544338e5a22cbbb1a56f6e82287674bc5b",
+      "context": "Calendar > Interacting with events > Popup view",
+      "contextHash": "ae9a8a0b41bad70e2cf82e59b4c87c63d03cb21484c6477d9d9ca3adb24a7589",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_bc0b96198ccffd74456919dc_0",
+      "kind": "p",
+      "source": "When an event is clicked, a popup will show near the event which contains the following inforamtion:",
+      "sourceHash": "bc0b96198ccffd74456919dc3c432ecfa70611d9ffa16629df0bdf020320bc03",
+      "context": "Calendar > Interacting with events > Popup view",
+      "contextHash": "ae9a8a0b41bad70e2cf82e59b4c87c63d03cb21484c6477d9d9ca3adb24a7589",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_b6c22b891c9ac4c196e8ad06_0",
+      "kind": "li",
+      "source": "The title and icon of the event, both editable.",
+      "sourceHash": "b6c22b891c9ac4c196e8ad06d05b52f320a0cd34d8df15776551173d3132833c",
+      "context": "Calendar > Interacting with events > Popup view",
+      "contextHash": "ae9a8a0b41bad70e2cf82e59b4c87c63d03cb21484c6477d9d9ca3adb24a7589",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_1945e46f020f4416615fd8b0_0",
+      "kind": "li",
+      "source": "Buttons to interact with the event:",
+      "sourceHash": "1945e46f020f4416615fd8b02d5ae23a86b33e52473c6a67241e95522b591352",
+      "context": "Calendar > Interacting with events > Popup view",
+      "contextHash": "ae9a8a0b41bad70e2cf82e59b4c87c63d03cb21484c6477d9d9ca3adb24a7589",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_582948b5f2b247f065ceed99_0",
+      "kind": "li",
+      "source": "Open the event in the same pane, new tab, etc.",
+      "sourceHash": "582948b5f2b247f065ceed999e44b5de6a313100fd59bee2f8c63778777970d2",
+      "context": "Calendar > Interacting with events > Popup view",
+      "contextHash": "ae9a8a0b41bad70e2cf82e59b4c87c63d03cb21484c6477d9d9ca3adb24a7589",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_2ebe52425a936dbfada13301_0",
+      "kind": "li",
+      "source": "Color picker to change the color of the event.",
+      "sourceHash": "2ebe52425a936dbfada13301a350a45c784b5de683b80416bb1fe647d7dbbe5f",
+      "context": "Calendar > Interacting with events > Popup view",
+      "contextHash": "ae9a8a0b41bad70e2cf82e59b4c87c63d03cb21484c6477d9d9ca3adb24a7589",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_4ec2f066c35b8c46d4bcb238_0",
+      "kind": "li",
+      "source": "Button to remove the event from the calendar, which can optionally delete its corresponding note.",
+      "sourceHash": "4ec2f066c35b8c46d4bcb238bc19c942b47c6c9304f3d3a9d69b5310ff797b90",
+      "context": "Calendar > Interacting with events > Popup view",
+      "contextHash": "ae9a8a0b41bad70e2cf82e59b4c87c63d03cb21484c6477d9d9ca3adb24a7589",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_660ec03df7bde10ff3c763b9_0",
+      "kind": "li",
+      "source": "Calendar-specific features:",
+      "sourceHash": "660ec03df7bde10ff3c763b9becc9f66fc553d2e268af7a549df231dac65a8af",
+      "context": "Calendar > Interacting with events > Popup view",
+      "contextHash": "ae9a8a0b41bad70e2cf82e59b4c87c63d03cb21484c6477d9d9ca3adb24a7589",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_09ccc4e67166929f49610b04_0",
+      "kind": "li",
+      "source": "The start date and, for an event spanning several days, the end date.",
+      "sourceHash": "09ccc4e67166929f49610b04a72c45fafdcde57747bb496a1fd67979d02f6c42",
+      "context": "Calendar > Interacting with events > Popup view",
+      "contextHash": "ae9a8a0b41bad70e2cf82e59b4c87c63d03cb21484c6477d9d9ca3adb24a7589",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_2e761208a8b223faf1a7c730_0",
+      "kind": "li",
+      "source": "The start and end time with the duration to the right of them, and a __TRILIUM_PH_0__ button that removes the time, making the event all-day. An all-day event shows an __TRILIUM_PH_1__Add time__TRILIUM_PH_2__ button instead.",
+      "sourceHash": "2e761208a8b223faf1a7c73021d441b1526556ed0c6ddeb3f221ec135f8cc92a",
+      "context": "Calendar > Interacting with events > Popup view",
+      "contextHash": "ae9a8a0b41bad70e2cf82e59b4c87c63d03cb21484c6477d9d9ca3adb24a7589",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_3aa5ebf61b4fe9b712833f26_0",
+      "kind": "li",
+      "source": "A full recurrence editor, opened from the dropdown below the time, to have the same event show up weekly, monthly, etc.",
+      "sourceHash": "3aa5ebf61b4fe9b712833f26376ad891a5a0430931c505d454ee8412e77cd804",
+      "context": "Calendar > Interacting with events > Popup view",
+      "contextHash": "ae9a8a0b41bad70e2cf82e59b4c87c63d03cb21484c6477d9d9ca3adb24a7589",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_280b2bb1cf4756a970986941_0",
+      "kind": "li",
+      "source": "The __TRILIUM_PH_0__Promoted Attributes__TRILIUM_PH_1__ of the marker, if any.",
+      "sourceHash": "280b2bb1cf4756a9709869414cd2fff99f440d04fcb19e1ad60bc8bc7adc7ded",
+      "context": "Calendar > Interacting with events > Popup view",
+      "contextHash": "ae9a8a0b41bad70e2cf82e59b4c87c63d03cb21484c6477d9d9ca3adb24a7589",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_769fd91478bf4c81d8ecd9c8_0",
+      "kind": "li",
+      "source": "The note's content which can be edited directly from the panel.",
+      "sourceHash": "769fd91478bf4c81d8ecd9c86396919af8abdb581123ea6c0bb78f5237f38f98",
+      "context": "Calendar > Interacting with events > Popup view",
+      "contextHash": "ae9a8a0b41bad70e2cf82e59b4c87c63d03cb21484c6477d9d9ca3adb24a7589",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_7751292bf459110d14fd2c54_0",
+      "kind": "p",
+      "source": "To dismiss the popup:",
+      "sourceHash": "7751292bf459110d14fd2c54a2dccb8a5fc469945df6b50e64873a3d28f9d8f3",
+      "context": "Calendar > Interacting with events > Popup view",
+      "contextHash": "ae9a8a0b41bad70e2cf82e59b4c87c63d03cb21484c6477d9d9ca3adb24a7589",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_c8f87a76ac620ba168eb2a0c_0",
+      "kind": "li",
+      "source": "Press the X button at the top-right of the popup.",
+      "sourceHash": "c8f87a76ac620ba168eb2a0c12e100229e6cfe0335bc9379d2f2f9bdac14c7bf",
+      "context": "Calendar > Interacting with events > Popup view",
+      "contextHash": "ae9a8a0b41bad70e2cf82e59b4c87c63d03cb21484c6477d9d9ca3adb24a7589",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_b5678fd08263898e5a9bd841_0",
+      "kind": "li",
+      "source": "In the calendar, press anywhere outside the popup.",
+      "sourceHash": "b5678fd08263898e5a9bd841e389ccb3243033ae68d09589ebb4af0085410f26",
+      "context": "Calendar > Interacting with events > Popup view",
+      "contextHash": "ae9a8a0b41bad70e2cf82e59b4c87c63d03cb21484c6477d9d9ca3adb24a7589",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_f020569af8cb90d3a41cad4a_0",
+      "kind": "li",
+      "source": "Or simply press the __TRILIUM_PH_0__Escape__TRILIUM_PH_1__ key.",
+      "sourceHash": "f020569af8cb90d3a41cad4a4407f5ef1c19df9a9e958ee9a37701a4c9de3cb2",
+      "context": "Calendar > Interacting with events > Popup view",
+      "contextHash": "ae9a8a0b41bad70e2cf82e59b4c87c63d03cb21484c6477d9d9ca3adb24a7589",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_e88cdd789a126be0ef83f820_0",
+      "kind": "p",
+      "source": "It is possible to switch between events by clicking on them even when the popup view is already open.",
+      "sourceHash": "e88cdd789a126be0ef83f820c3bdc40f5bb28283a39b2b9d17821da6c946e3c0",
+      "context": "Calendar > Interacting with events > Popup view",
+      "contextHash": "ae9a8a0b41bad70e2cf82e59b4c87c63d03cb21484c6477d9d9ca3adb24a7589",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_10f795f5aa764121cdfcc3f4_0",
+      "kind": "p",
+      "source": "Events can have __TRILIUM_PH_0__Internal (reference) links__TRILIUM_PH_1__ between them and clicking on such a link will automatically navigate the calendar to the right date and the popup view to the new note.",
+      "sourceHash": "10f795f5aa764121cdfcc3f46254e2106f5d00fe8d1504440859c15bd5fb32f7",
+      "context": "Calendar > Interacting with events > Popup view",
+      "contextHash": "ae9a8a0b41bad70e2cf82e59b4c87c63d03cb21484c6477d9d9ca3adb24a7589",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_9858d47e03aab8832605ee9f_0",
+      "kind": "h2",
+      "source": "Interaction on mobile__TRILIUM_PH_0__",
+      "sourceHash": "9858d47e03aab8832605ee9ff96a7facf228eb5936e6c61039d64621d0289947",
+      "context": "Calendar > Interaction on mobile",
+      "contextHash": "e7fdbc687d6844144ef6e8ca4444fe147b4b484973b124ae477adce6053d668d",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_4a85b013cea5de4bcc178285_0",
+      "kind": "p",
+      "source": "When Trilium is on mobile, the interaction with the calendar is slightly different:",
+      "sourceHash": "4a85b013cea5de4bcc1782852e935bb77cf41d05d354a8c114d6c38744e37852",
+      "context": "Calendar > Interaction on mobile",
+      "contextHash": "e7fdbc687d6844144ef6e8ca4444fe147b4b484973b124ae477adce6053d668d",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_c13e62245edc3fcf57aa1731_0",
+      "kind": "li",
+      "source": "Clicking on an event displays the popup view, which allows editing the event.",
+      "sourceHash": "c13e62245edc3fcf57aa1731829f44c440122396017e4d974b8d3354a304358f",
+      "context": "Calendar > Interaction on mobile",
+      "contextHash": "e7fdbc687d6844144ef6e8ca4444fe147b4b484973b124ae477adce6053d668d",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_5107acda3ca3e2382d105fc7_0",
+      "kind": "li",
+      "source": "Long-presing an event triggers the contextual menu, including the option to open in __TRILIUM_PH_0__Quick edit__TRILIUM_PH_1__.",
+      "sourceHash": "5107acda3ca3e2382d105fc757ee09446a3c916a0288d061bfd8e1b8e1b92202",
+      "context": "Calendar > Interaction on mobile",
+      "contextHash": "e7fdbc687d6844144ef6e8ca4444fe147b4b484973b124ae477adce6053d668d",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_839a6f1e43460c9e20ec4a98_0",
+      "kind": "li",
+      "source": "To insert a new event, touch and hold the empty space. When successful, the empty space will become colored to indicate the selection.",
+      "sourceHash": "839a6f1e43460c9e20ec4a9803c4bd8ab88c9c68ea57a97f567bcc91ed164ee8",
+      "context": "Calendar > Interaction on mobile",
+      "contextHash": "e7fdbc687d6844144ef6e8ca4444fe147b4b484973b124ae477adce6053d668d",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_c66ce477d87e716f429f58d7_0",
+      "kind": "li",
+      "source": "Before releasing, drag across multiple spaces to create multi-day events.",
+      "sourceHash": "c66ce477d87e716f429f58d78148e2ccc56814df0fae41138a1726a7c6ba2518",
+      "context": "Calendar > Interaction on mobile",
+      "contextHash": "e7fdbc687d6844144ef6e8ca4444fe147b4b484973b124ae477adce6053d668d",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_3c7f522215f5c39287fca48c_0",
+      "kind": "li",
+      "source": "When released, a prompt will appear to enter the note title.",
+      "sourceHash": "3c7f522215f5c39287fca48c43ac2f7db082659b0cd29cb3f11b40138d3d2852",
+      "context": "Calendar > Interaction on mobile",
+      "contextHash": "e7fdbc687d6844144ef6e8ca4444fe147b4b484973b124ae477adce6053d668d",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_7ea61d0268153d7b53290ab7_0",
+      "kind": "li",
+      "source": "To move an existing event, touch and hold the event until the empty space near it will become colored.",
+      "sourceHash": "7ea61d0268153d7b53290ab757a1d794a8d7f4eb0b36b4a875de7042f9b5653c",
+      "context": "Calendar > Interaction on mobile",
+      "contextHash": "e7fdbc687d6844144ef6e8ca4444fe147b4b484973b124ae477adce6053d668d",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_c0dc7d5ea0ac9fcc300b1793_0",
+      "kind": "li",
+      "source": "At this point the event can be dragged across other days on the calendar.",
+      "sourceHash": "c0dc7d5ea0ac9fcc300b179373425707b0e4ab535f7ef7cb6c34c61a2da1e2ee",
+      "context": "Calendar > Interaction on mobile",
+      "contextHash": "e7fdbc687d6844144ef6e8ca4444fe147b4b484973b124ae477adce6053d668d",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_9f13f8ff8854106080207198_0",
+      "kind": "li",
+      "source": "Or the event can be resized by tapping on the small circle to the right end of the event.",
+      "sourceHash": "9f13f8ff8854106080207198394cf4262f73c9e91033c0c82e28d0da0c5217b3",
+      "context": "Calendar > Interaction on mobile",
+      "contextHash": "e7fdbc687d6844144ef6e8ca4444fe147b4b484973b124ae477adce6053d668d",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_4a1b0a890e91ed21f3c5e086_0",
+      "kind": "li",
+      "source": "To exit out of editing mode, simply tap the empty space anywhere on the calendar.",
+      "sourceHash": "4a1b0a890e91ed21f3c5e086de0dafe61f2b140a035cbb5992475904db664598",
+      "context": "Calendar > Interaction on mobile",
+      "contextHash": "e7fdbc687d6844144ef6e8ca4444fe147b4b484973b124ae477adce6053d668d",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_4a7faa5d108b61ed3071e931_0",
+      "kind": "h2",
+      "source": "Configuring the calendar view__TRILIUM_PH_0__",
+      "sourceHash": "4a7faa5d108b61ed3071e931675187d265147b6b06391085108c06a6df90404b",
+      "context": "Calendar > Configuring the calendar view",
+      "contextHash": "6f169e0f478e6d9e0c9556d8a3eeb36a564c6e89e9152dbadee5b070062addb9",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_5403e1370c019f93a344a664_0",
+      "kind": "p",
+      "source": "In the __TRILIUM_PH_0__Collection Properties__TRILIUM_PH_1__, it's possible to:",
+      "sourceHash": "5403e1370c019f93a344a6640bad0ee5d3b43f27dd74164a05baadaac8b82207",
+      "context": "Calendar > Configuring the calendar view",
+      "contextHash": "6f169e0f478e6d9e0c9556d8a3eeb36a564c6e89e9152dbadee5b070062addb9",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_e30ed6ef168e60e3d172c036_0",
+      "kind": "li",
+      "source": "Hide weekends from the week view.",
+      "sourceHash": "e30ed6ef168e60e3d172c03621e320f5efb5869c45e020c49e810a1a0375ce10",
+      "context": "Calendar > Configuring the calendar view",
+      "contextHash": "6f169e0f478e6d9e0c9556d8a3eeb36a564c6e89e9152dbadee5b070062addb9",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_453489a7a1b55bc133057292_0",
+      "kind": "li",
+      "source": "Display week numbers on the calendar.",
+      "sourceHash": "453489a7a1b55bc133057292af292ca7810c8d75ab93dd62ef0c4ca83f8f50f9",
+      "context": "Calendar > Configuring the calendar view",
+      "contextHash": "6f169e0f478e6d9e0c9556d8a3eeb36a564c6e89e9152dbadee5b070062addb9",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_0ff6cac670281c08a58963f3_0",
+      "kind": "li",
+      "source": "Hide routine events from the month, year and list views (see __TRILIUM_PH_0__Hiding routine events__TRILIUM_PH_1__).",
+      "sourceHash": "0ff6cac670281c08a58963f335540976aa671a50e3e8f414cf0ff8b0308ec65d",
+      "context": "Calendar > Configuring the calendar view",
+      "contextHash": "6f169e0f478e6d9e0c9556d8a3eeb36a564c6e89e9152dbadee5b070062addb9",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_f00bb052c2048827a74da94c_0",
+      "kind": "li",
+      "source": "Set the slot duration (the length of each time row in day/week view).",
+      "sourceHash": "f00bb052c2048827a74da94c53bece2108c3649af6dc6a31c40b6ab7c238802c",
+      "context": "Calendar > Configuring the calendar view",
+      "contextHash": "6f169e0f478e6d9e0c9556d8a3eeb36a564c6e89e9152dbadee5b070062addb9",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_87a20f17d425ee73c30df275_0",
+      "kind": "li",
+      "source": "Set the slot label interval (how often time labels appear on the axis in day/week view).",
+      "sourceHash": "87a20f17d425ee73c30df275be2809f9dce86ebd9c2103c265bcaf1921531021",
+      "context": "Calendar > Configuring the calendar view",
+      "contextHash": "6f169e0f478e6d9e0c9556d8a3eeb36a564c6e89e9152dbadee5b070062addb9",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_5d05915786929ca12ea325ad_0",
+      "kind": "p",
+      "source": "The same settings are also listed under __TRILIUM_PH_0__General__TRILIUM_PH_1__ in the __TRILIUM_PH_2__ __TRILIUM_PH_3__Calendar properties__TRILIUM_PH_4__ dialog (see __TRILIUM_PH_5__Event templates__TRILIUM_PH_6__ for how to open it). The time slots are listed there whichever view the calendar is in. Its __TRILIUM_PH_7__Included notes__TRILIUM_PH_8__ section sets whether archived notes are shown and how deep the calendar looks for events (see __TRILIUM_PH_9__Limiting the depth__TRILIUM_PH_10__).",
+      "sourceHash": "5d05915786929ca12ea325ad16f1d7239f81525bf4bf997f5f0c4817dc6d7d8d",
+      "context": "Calendar > Configuring the calendar view",
+      "contextHash": "6f169e0f478e6d9e0c9556d8a3eeb36a564c6e89e9152dbadee5b070062addb9",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_36b1d9e00dcc94376a686c2d_0",
+      "kind": "h3",
+      "source": "Event templates__TRILIUM_PH_0__",
+      "sourceHash": "36b1d9e00dcc94376a686c2d39d40894a5d56d41f8c888433c5c58432966b121",
+      "context": "Calendar > Configuring the calendar view > Event templates",
+      "contextHash": "b070b09e03727a05164e18089f16886c0aeea47c5bf90e05b1db1a4205fb5428",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_8639c3b5edaae0c38e97a8c8_0",
+      "kind": "p",
+      "source": "By default, a new event is a __TRILIUM_PH_0__Text__TRILIUM_PH_1__ note. To make events from other note types, or from __TRILIUM_PH_2__Templates__TRILIUM_PH_3__ with predefined content and attributes (such as a color), open the __TRILIUM_PH_4__ __TRILIUM_PH_5__Calendar properties__TRILIUM_PH_6__ dialog from the __TRILIUM_PH_7__Note menu__TRILIUM_PH_8__ or from the settings menu of the __TRILIUM_PH_9__Collection Properties__TRILIUM_PH_10__, and find __TRILIUM_PH_11__Event templates__TRILIUM_PH_12__. Here you can:",
+      "sourceHash": "8639c3b5edaae0c38e97a8c8355dfb77017492ddb262106c8cff9441f09efeb9",
+      "context": "Calendar > Configuring the calendar view > Event templates",
+      "contextHash": "b070b09e03727a05164e18089f16886c0aeea47c5bf90e05b1db1a4205fb5428",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_24866270fb38e24b45baf1d5_0",
+      "kind": "li",
+      "source": "Include a note type or note template already created in your knowledge base by pressing the __TRILIUM_PH_0__ __TRILIUM_PH_1__Add existing template__TRILIUM_PH_2__ button and then selecting the desired note type or template.",
+      "sourceHash": "24866270fb38e24b45baf1d56f98f5e31fbad067b9612f2563a167aa0764d7a5",
+      "context": "Calendar > Configuring the calendar view > Event templates",
+      "contextHash": "b070b09e03727a05164e18089f16886c0aeea47c5bf90e05b1db1a4205fb5428",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_394c599b6bc8b1e07c666318_0",
+      "kind": "li",
+      "source": "Create a new template by pressing the __TRILIUM_PH_0__ __TRILIUM_PH_1__Create a new template__TRILIUM_PH_2__ button. The template is created as a child of the calendar, and is not shown as an event.",
+      "sourceHash": "394c599b6bc8b1e07c666318345d1c5d6483f1273e415d6ff790cd49d69eca84",
+      "context": "Calendar > Configuring the calendar view > Event templates",
+      "contextHash": "b070b09e03727a05164e18089f16886c0aeea47c5bf90e05b1db1a4205fb5428",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_9ad2ebf7cf75344769dfaa08_0",
+      "kind": "li",
+      "source": "Press the __TRILIUM_PH_0__ button to remove a template from the list. The template is removed only from the list, not deleted.",
+      "sourceHash": "9ad2ebf7cf75344769dfaa08c2e181754ea9f26ef65557c16f8c97b173eebe3c",
+      "context": "Calendar > Configuring the calendar view > Event templates",
+      "contextHash": "b070b09e03727a05164e18089f16886c0aeea47c5bf90e05b1db1a4205fb5428",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_e020577b99a4da1ef53ea82e_0",
+      "kind": "li",
+      "source": "Press the __TRILIUM_PH_0__ button of a custom template to edit, open in a new window, duplicate, or delete it.",
+      "sourceHash": "e020577b99a4da1ef53ea82ef2e840db5783087a4387446a633fdf5da3aeb531",
+      "context": "Calendar > Configuring the calendar view > Event templates",
+      "contextHash": "b070b09e03727a05164e18089f16886c0aeea47c5bf90e05b1db1a4205fb5428",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_ba359052b61b3c3c5ad5b19c_0",
+      "kind": "li",
+      "source": "Drag a template by its handle to reorder the list shown when creating an event.",
+      "sourceHash": "ba359052b61b3c3c5ad5b19c7564a205f986f18b8fb3b956da7c093c2b8a385c",
+      "context": "Calendar > Configuring the calendar view > Event templates",
+      "contextHash": "b070b09e03727a05164e18089f16886c0aeea47c5bf90e05b1db1a4205fb5428",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_8c9db20d9d228cfe8780ea1b_0",
+      "kind": "p",
+      "source": "The dialog is not available on a read-only calendar, or on a calendar marked with __TRILIUM_PH_0__ or __TRILIUM_PH_1__ (see __TRILIUM_PH_2__Using with the Journal / calendar__TRILIUM_PH_3__).",
+      "sourceHash": "8c9db20d9d228cfe8780ea1b6adfcdef2a1c3a860580d16a7fcb03884676d770",
+      "context": "Calendar > Configuring the calendar view > Event templates",
+      "contextHash": "b070b09e03727a05164e18089f16886c0aeea47c5bf90e05b1db1a4205fb5428",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_fa1de5b25f877e7614ee6792_0",
+      "kind": "h3",
+      "source": "Event attributes__TRILIUM_PH_0__",
+      "sourceHash": "fa1de5b25f877e7614ee67928b892917e4e224c3e6554e3843545a6ae06a2f66",
+      "context": "Calendar > Configuring the calendar view > Event attributes",
+      "contextHash": "854bb40be05db7401eb5eaefcbb6854ffec931d50609f4e1f4e7ba69633e046a",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_ae8feecfb2e1d23cab19baf7_0",
+      "kind": "p",
+      "source": "Events can show the values of their attributes below their title, in the month view, and in the week and day views for all-day events and for timed ones tall enough to hold them. To choose which attributes are shown, open the __TRILIUM_PH_0__ __TRILIUM_PH_1__Calendar properties__TRILIUM_PH_2__ dialog (see __TRILIUM_PH_3__Event templates__TRILIUM_PH_4__ for how to open it) and find __TRILIUM_PH_5__Event attributes__TRILIUM_PH_6__. It lists the __TRILIUM_PH_7__Promoted Attributes__TRILIUM_PH_8__ the calendar defines, and those its events define themselves. Here you can:",
+      "sourceHash": "ae8feecfb2e1d23cab19baf75c20df36371f7b4e783056dee756cbd4548a50a4",
+      "context": "Calendar > Configuring the calendar view > Event attributes",
+      "contextHash": "854bb40be05db7401eb5eaefcbb6854ffec931d50609f4e1f4e7ba69633e046a",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_04bde19b1dcbffeb3e385920_0",
+      "kind": "li",
+      "source": "Turn an attribute on to show it on the events. New attributes are hidden until you turn them on, which keeps the calendar from getting cluttered.",
+      "sourceHash": "04bde19b1dcbffeb3e385920dc36c81a58f2a8c990f1a819e02ffeca37db55cf",
+      "context": "Calendar > Configuring the calendar view > Event attributes",
+      "contextHash": "854bb40be05db7401eb5eaefcbb6854ffec931d50609f4e1f4e7ba69633e046a",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_7b8d6fb47f48a939c4b1b03a_0",
+      "kind": "li",
+      "source": "Drag an attribute by its handle to change the order in which the events show them.",
+      "sourceHash": "7b8d6fb47f48a939c4b1b03a65b1382e20db6c19e7c705fb2a8e3a530e4c486c",
+      "context": "Calendar > Configuring the calendar view > Event attributes",
+      "contextHash": "854bb40be05db7401eb5eaefcbb6854ffec931d50609f4e1f4e7ba69633e046a",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_5f9eaa84e1cb9d476595a12b_0",
+      "kind": "li",
+      "source": "Create a new attribute, which is shown on the events right away, or edit or delete one the calendar defines.",
+      "sourceHash": "5f9eaa84e1cb9d476595a12bbba5c6fbefeabd18ba8b2f6c28d81eb3f92d3e5f",
+      "context": "Calendar > Configuring the calendar view > Event attributes",
+      "contextHash": "854bb40be05db7401eb5eaefcbb6854ffec931d50609f4e1f4e7ba69633e046a",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_471d7b6b77cf9c87e36dc36b_0",
+      "kind": "p",
+      "source": "The dates, times and recurrence of the events are not listed, as the calendar always shows them itself.",
+      "sourceHash": "471d7b6b77cf9c87e36dc36bd13a37da1b45d92729897bec0154146b7167a01b",
+      "context": "Calendar > Configuring the calendar view > Event attributes",
+      "contextHash": "854bb40be05db7401eb5eaefcbb6854ffec931d50609f4e1f4e7ba69633e046a",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_5536f37b14e2a54da1d5fa52_0",
+      "kind": "p",
+      "source": "To change an attribute's value without opening the event, right-click the event (or long-press it on a phone) and use the __TRILIUM_PH_0__Attributes__TRILIUM_PH_1__ section of its context menu. It lists the shown attributes of the “checkbox”, “select” and “date” types, and works as on a __TRILIUM_PH_2__Kanban Board__TRILIUM_PH_3__.",
+      "sourceHash": "5536f37b14e2a54da1d5fa52ec2ebeee3f1402189ea3103da6cb96eea5ec862c",
+      "context": "Calendar > Configuring the calendar view > Event attributes",
+      "contextHash": "854bb40be05db7401eb5eaefcbb6854ffec931d50609f4e1f4e7ba69633e046a",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_b5e15f35d9487f05d4a4ccc2_0",
+      "kind": "p",
+      "source": "If an event has a __TRILIUM_PH_0__ label, including one inherited from the calendar, the attributes listed in that label are shown instead.",
+      "sourceHash": "b5e15f35d9487f05d4a4ccc254fc2a1a325e04d678b6c29df819d576945cd526",
+      "context": "Calendar > Configuring the calendar view > Event attributes",
+      "contextHash": "854bb40be05db7401eb5eaefcbb6854ffec931d50609f4e1f4e7ba69633e046a",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_4ff39a9082f82c5eb86bfbe0_0",
+      "kind": "h2",
+      "source": "Configuring the calendar using attributes__TRILIUM_PH_0__",
+      "sourceHash": "4ff39a9082f82c5eb86bfbe009657a40bff32bbfa9adf5f05772ae711aa57302",
+      "context": "Calendar > Configuring the calendar using attributes",
+      "contextHash": "cc66bfdb9855aee9cd4d074e84f5768d24c20dc4cf38d30298f2e57197409927",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_8e1828283f6f00112cfccdcd_0",
+      "kind": "p",
+      "source": "The following attributes can be added to the Collection type:",
+      "sourceHash": "8e1828283f6f00112cfccdcd9345249d663b49771bdca83202072f0e4fb559fa",
+      "context": "Calendar > Configuring the calendar using attributes",
+      "contextHash": "cc66bfdb9855aee9cd4d074e84f5768d24c20dc4cf38d30298f2e57197409927",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_35c0bf70ca5d522e8ba978b6_0",
+      "kind": "th",
+      "source": "Name",
+      "sourceHash": "35c0bf70ca5d522e8ba978b640f821f415f624efd78755e25997b4e35377719a",
+      "context": "Calendar > Configuring the calendar using attributes",
+      "contextHash": "cc66bfdb9855aee9cd4d074e84f5768d24c20dc4cf38d30298f2e57197409927",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_4b00baa636b92e18b7a75884_0",
+      "kind": "th",
+      "source": "Description",
+      "sourceHash": "4b00baa636b92e18b7a75884790f0769c3e702d20d8822e708f69ab2f07c7103",
+      "context": "Calendar > Configuring the calendar using attributes",
+      "contextHash": "cc66bfdb9855aee9cd4d074e84f5768d24c20dc4cf38d30298f2e57197409927",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_a5341dae93355e34b087d60e_0",
+      "kind": "td",
+      "source": "When present (regardless of value), it will hide Saturday and Sundays from the calendar.",
+      "sourceHash": "a5341dae93355e34b087d60e634bd7d8a6665fe55af1c698af9d48c3092b46ed",
+      "context": "Calendar > Configuring the calendar using attributes",
+      "contextHash": "cc66bfdb9855aee9cd4d074e84f5768d24c20dc4cf38d30298f2e57197409927",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_64fbefda1d6722d393ef840e_0",
+      "kind": "td",
+      "source": "When present (regardless of value), it will show the number of the week on the calendar.",
+      "sourceHash": "64fbefda1d6722d393ef840ed8e622fb9ee6795dd860759af4d0d80abcb8b638",
+      "context": "Calendar > Configuring the calendar using attributes",
+      "contextHash": "cc66bfdb9855aee9cd4d074e84f5768d24c20dc4cf38d30298f2e57197409927",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_ff8947f2eb472d3f0be20a02_0",
+      "kind": "td",
+      "source": "When present (regardless of value), it will hide routine events from the month, year and list views. See __TRILIUM_PH_0__Hiding routine events__TRILIUM_PH_1__.",
+      "sourceHash": "ff8947f2eb472d3f0be20a022fec841304b99cda7c796c74a33436e60d7bbe62",
+      "context": "Calendar > Configuring the calendar using attributes",
+      "contextHash": "cc66bfdb9855aee9cd4d074e84f5768d24c20dc4cf38d30298f2e57197409927",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_41bb9311d626598654b2f192_0",
+      "kind": "td",
+      "source": "Change the date the calendar opens on. When not present, the calendar opens on the current date.",
+      "sourceHash": "41bb9311d626598654b2f192b20b52891efcdc8af4a8f199476f464266659751",
+      "context": "Calendar > Configuring the calendar using attributes",
+      "contextHash": "cc66bfdb9855aee9cd4d074e84f5768d24c20dc4cf38d30298f2e57197409927",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_23b55b81d711122c283125a4_0",
+      "kind": "p",
+      "source": "Which view to display in the calendar:",
+      "sourceHash": "23b55b81d711122c283125a4a91af585c5e917904fbc3855d4c8a0d3d0097df7",
+      "context": "Calendar > Configuring the calendar using attributes",
+      "contextHash": "cc66bfdb9855aee9cd4d074e84f5768d24c20dc4cf38d30298f2e57197409927",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_45e6ea6cb29e207aeaf61a25_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__ for the __TRILIUM_PH_1__day__TRILIUM_PH_2__ view;",
+      "sourceHash": "45e6ea6cb29e207aeaf61a259f9dfd96706bf6115ea9e6ed8229ce0004819b01",
+      "context": "Calendar > Configuring the calendar using attributes",
+      "contextHash": "cc66bfdb9855aee9cd4d074e84f5768d24c20dc4cf38d30298f2e57197409927",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_92db118448bc0f8a9393d265_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__ for the __TRILIUM_PH_1__week__TRILIUM_PH_2__ view;",
+      "sourceHash": "92db118448bc0f8a9393d265abcb71cb60157b13610d6f3b211e36bcacb4199d",
+      "context": "Calendar > Configuring the calendar using attributes",
+      "contextHash": "cc66bfdb9855aee9cd4d074e84f5768d24c20dc4cf38d30298f2e57197409927",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_29d6d35d437931feb3f7e3be_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__ for the __TRILIUM_PH_1__month__TRILIUM_PH_2__ view;",
+      "sourceHash": "29d6d35d437931feb3f7e3be9d3ff8e76424ba7f05d6c621abf5ff154da16970",
+      "context": "Calendar > Configuring the calendar using attributes",
+      "contextHash": "cc66bfdb9855aee9cd4d074e84f5768d24c20dc4cf38d30298f2e57197409927",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_7f4517c6d2401e0bdb1e7665_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__ for the __TRILIUM_PH_1__year__TRILIUM_PH_2__ view;",
+      "sourceHash": "7f4517c6d2401e0bdb1e766500dfc5d2bad4be27cfd70dc68ffe2c86711b5c78",
+      "context": "Calendar > Configuring the calendar using attributes",
+      "contextHash": "cc66bfdb9855aee9cd4d074e84f5768d24c20dc4cf38d30298f2e57197409927",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_7dc5d69431fd62bcd8c3b460_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__ for the __TRILIUM_PH_1__list__TRILIUM_PH_2__ view.",
+      "sourceHash": "7dc5d69431fd62bcd8c3b4607c8575e4397029443867fc398dd33f560ba38872",
+      "context": "Calendar > Configuring the calendar using attributes",
+      "contextHash": "cc66bfdb9855aee9cd4d074e84f5768d24c20dc4cf38d30298f2e57197409927",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_0e905f92ad743cd30cd889d2_0",
+      "kind": "p",
+      "source": "Any other value will be dismissed and the default view (month) will be used instead.",
+      "sourceHash": "0e905f92ad743cd30cd889d2ccce668bf707dfe59a363b7670595fd9fa777c5b",
+      "context": "Calendar > Configuring the calendar using attributes",
+      "contextHash": "cc66bfdb9855aee9cd4d074e84f5768d24c20dc4cf38d30298f2e57197409927",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_909561efbd51e1342bd3221f_0",
+      "kind": "p",
+      "source": "The value of this label is automatically updated when changing the view using the UI buttons.",
+      "sourceHash": "909561efbd51e1342bd3221fb7b41ef15302deec985949f319bb4c4ae82de6fc",
+      "context": "Calendar > Configuring the calendar using attributes",
+      "contextHash": "cc66bfdb9855aee9cd4d074e84f5768d24c20dc4cf38d30298f2e57197409927",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_213e80dd998ceada05119be4_0",
+      "kind": "td",
+      "source": "Sets how long each timeslot is on the calendar. Defaults to __TRILIUM_PH_0__ (15 minutes). Must have the format \"HH:MM:SS\". For example, to create timeslots for every 10 minutes, you would set __TRILIUM_PH_1__.",
+      "sourceHash": "213e80dd998ceada05119be4a317b38b00313c6262b60e6a376b6acd1195939f",
+      "context": "Calendar > Configuring the calendar using attributes",
+      "contextHash": "cc66bfdb9855aee9cd4d074e84f5768d24c20dc4cf38d30298f2e57197409927",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_d1bc03923873daeced731d6e_0",
+      "kind": "td",
+      "source": "Sets how often the timeslots on the calendar should be labeled. Defaults to __TRILIUM_PH_0__ (1 hour). Must have the format \"HH:MM:SS\". For example, to label timeslots every 30 minutes, you would set __TRILIUM_PH_1__.",
+      "sourceHash": "d1bc03923873daeced731d6e3bfa40079025900d0755c8aaed6044a7d483560d",
+      "context": "Calendar > Configuring the calendar using attributes",
+      "contextHash": "cc66bfdb9855aee9cd4d074e84f5768d24c20dc4cf38d30298f2e57197409927",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_ef1879ca54f19adb15e3abcc_0",
+      "kind": "td",
+      "source": "Defines the template for newly created notes in the calendar (via dragging or clicking).",
+      "sourceHash": "ef1879ca54f19adb15e3abcc6826846036ccc5300eada6d25369f4daab47f617",
+      "context": "Calendar > Configuring the calendar using attributes",
+      "contextHash": "cc66bfdb9855aee9cd4d074e84f5768d24c20dc4cf38d30298f2e57197409927",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_1544ce80afbe2d06e0ae5d04_0",
+      "kind": "p",
+      "source": "In addition, the first day of the week can be either Sunday or Monday and can be adjusted from the application settings.",
+      "sourceHash": "1544ce80afbe2d06e0ae5d0451ab7564615351002293d2bba24d0a110f3bb39d",
+      "context": "Calendar > Configuring the calendar using attributes",
+      "contextHash": "cc66bfdb9855aee9cd4d074e84f5768d24c20dc4cf38d30298f2e57197409927",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_d8dbad14b0ac688c9262bfd7_0",
+      "kind": "h2",
+      "source": "Configuring the calendar events using attributes__TRILIUM_PH_0__",
+      "sourceHash": "d8dbad14b0ac688c9262bfd78a021e1451baa0f5f51815052bd51f814c63c8b9",
+      "context": "Calendar > Configuring the calendar events using attributes",
+      "contextHash": "7dd5f06fbab17c228c1cb5fb81be133f175c13f43b1856f40e9d3363e9252502",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_8fe18c41310fbfee4a8487f9_0",
+      "kind": "p",
+      "source": "For each note of the calendar, the following attributes can be used:",
+      "sourceHash": "8fe18c41310fbfee4a8487f996461c1d7096998894c72fe902707baa2b259f41",
+      "context": "Calendar > Configuring the calendar events using attributes",
+      "contextHash": "7dd5f06fbab17c228c1cb5fb81be133f175c13f43b1856f40e9d3363e9252502",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_35c0bf70ca5d522e8ba978b6_1",
+      "kind": "th",
+      "source": "Name",
+      "sourceHash": "35c0bf70ca5d522e8ba978b640f821f415f624efd78755e25997b4e35377719a",
+      "context": "Calendar > Configuring the calendar events using attributes",
+      "contextHash": "7dd5f06fbab17c228c1cb5fb81be133f175c13f43b1856f40e9d3363e9252502",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_4b00baa636b92e18b7a75884_1",
+      "kind": "th",
+      "source": "Description",
+      "sourceHash": "4b00baa636b92e18b7a75884790f0769c3e702d20d8822e708f69ab2f07c7103",
+      "context": "Calendar > Configuring the calendar events using attributes",
+      "contextHash": "7dd5f06fbab17c228c1cb5fb81be133f175c13f43b1856f40e9d3363e9252502",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_217bc57b5bdedcbf821d4d15_0",
+      "kind": "td",
+      "source": "The date the event starts, which will display it in the calendar. The format is __TRILIUM_PH_0__ (year, month and day separated by a minus sign).",
+      "sourceHash": "217bc57b5bdedcbf821d4d150cde52c6415609c8cc6155382899dd8248596edd",
+      "context": "Calendar > Configuring the calendar events using attributes",
+      "contextHash": "7dd5f06fbab17c228c1cb5fb81be133f175c13f43b1856f40e9d3363e9252502",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_1d7e722c63846f08732519a9_0",
+      "kind": "td",
+      "source": "Similar to __TRILIUM_PH_0__, mentions the end date if the event spans across multiple days. The date is inclusive, so the end day is also considered. The attribute can be missing for single-day events.",
+      "sourceHash": "1d7e722c63846f08732519a92561b72ff9d1c2fa08a35a8b018461d3ffc92486",
+      "context": "Calendar > Configuring the calendar events using attributes",
+      "contextHash": "7dd5f06fbab17c228c1cb5fb81be133f175c13f43b1856f40e9d3363e9252502",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_4686a11230c36a06553600b9_0",
+      "kind": "td",
+      "source": "The time the event starts at. If this value is missing, then the event is considered a full-day event. The format is __TRILIUM_PH_0__ (hours in 24-hour format and minutes).",
+      "sourceHash": "4686a11230c36a06553600b96e5871cbc78643cfadc1213130c579191f8490a7",
+      "context": "Calendar > Configuring the calendar events using attributes",
+      "contextHash": "7dd5f06fbab17c228c1cb5fb81be133f175c13f43b1856f40e9d3363e9252502",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_4da4c73bcad438ad539f1172_0",
+      "kind": "td",
+      "source": "Similar to __TRILIUM_PH_0__, it mentions the time at which the event ends (in relation with __TRILIUM_PH_1__ if present, or __TRILIUM_PH_2__).",
+      "sourceHash": "4da4c73bcad438ad539f1172f95c9e7b3a35ae440990bc102e6cf73fb187b1ee",
+      "context": "Calendar > Configuring the calendar events using attributes",
+      "contextHash": "7dd5f06fbab17c228c1cb5fb81be133f175c13f43b1856f40e9d3363e9252502",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_510f4c2a39f752bf6d6863fb_0",
+      "kind": "td",
+      "source": "This is an optional CalDAV __TRILIUM_PH_0__ string that if present, determines whether a task should repeat or not. Note that it does not include the __TRILIUM_PH_1__ attribute, which is derived from the __TRILIUM_PH_2__ and __TRILIUM_PH_3__ directly. For examples of valid __TRILIUM_PH_4__ strings see __TRILIUM_PH_5__https://icalendar.org/rrule-tool.html__TRILIUM_PH_6__",
+      "sourceHash": "510f4c2a39f752bf6d6863fbd03707d513461c9c1f59c2d7f26c241aaece2c14",
+      "context": "Calendar > Configuring the calendar events using attributes",
+      "contextHash": "7dd5f06fbab17c228c1cb5fb81be133f175c13f43b1856f40e9d3363e9252502",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_a61158b02674902484012483_0",
+      "kind": "td",
+      "source": "Displays the event with a specified color (named such as __TRILIUM_PH_0__, __TRILIUM_PH_1__ or hex such as __TRILIUM_PH_2__). This will also change the color of the note in other places such as the note tree.",
+      "sourceHash": "a61158b02674902484012483920595136d11cb4ac23f76d324a1082fb6f30ee8",
+      "context": "Calendar > Configuring the calendar events using attributes",
+      "contextHash": "7dd5f06fbab17c228c1cb5fb81be133f175c13f43b1856f40e9d3363e9252502",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_6a66b587e2b8dfa76f1b7e94_0",
+      "kind": "td",
+      "source": "__TRILIUM_PH_0__❌️ Removed since v0.100.0. Use__TRILIUM_PH_1__ __TRILIUM_PH_2__ __TRILIUM_PH_3__instead.__TRILIUM_PH_4__       __TRILIUM_PH_5__  __TRILIUM_PH_6__Similar to __TRILIUM_PH_7__, but applies the color only for the event in the calendar and not for other places such as the note tree.",
+      "sourceHash": "6a66b587e2b8dfa76f1b7e942c3a3da63f1a46deb4eccebdf774a4abe2f87dcf",
+      "context": "Calendar > Configuring the calendar events using attributes",
+      "contextHash": "7dd5f06fbab17c228c1cb5fb81be133f175c13f43b1856f40e9d3363e9252502",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_aad36f34d02b60c194f31c08_0",
+      "kind": "td",
+      "source": "If present, the icon of the note will be displayed to the left of the event title.",
+      "sourceHash": "aad36f34d02b60c194f31c0864cf8dd2e06d9c10de60578a13067026770ab242",
+      "context": "Calendar > Configuring the calendar events using attributes",
+      "contextHash": "7dd5f06fbab17c228c1cb5fb81be133f175c13f43b1856f40e9d3363e9252502",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_9e00c02cb41ce01c9e99e4cd_0",
+      "kind": "td",
+      "source": "Changes the title of an event to point to an attribute of the note other than the title, can either a label or a relation (without the __TRILIUM_PH_0__ or __TRILIUM_PH_1__ symbol). See __TRILIUM_PH_2__Use-cases__TRILIUM_PH_3__ for more information.",
+      "sourceHash": "9e00c02cb41ce01c9e99e4cd137eca073ee97ee776bf4a8f08c33828d3396bb0",
+      "context": "Calendar > Configuring the calendar events using attributes",
+      "contextHash": "7dd5f06fbab17c228c1cb5fb81be133f175c13f43b1856f40e9d3363e9252502",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_79eb2d56e17da1b773f75b0c_0",
+      "kind": "td",
+      "source": "Changes the title an event is displayed with on the calendar, filled in again for every occurrence of a repeating event. See __TRILIUM_PH_0__Use-cases__TRILIUM_PH_1__ for displaying an age on a birthday.",
+      "sourceHash": "79eb2d56e17da1b773f75b0c75be33489bdb463d403d68bbc4c4d7744ba3500b",
+      "context": "Calendar > Configuring the calendar events using attributes",
+      "contextHash": "7dd5f06fbab17c228c1cb5fb81be133f175c13f43b1856f40e9d3363e9252502",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_6761e39d89fb9b5ce6e3e3a5_0",
+      "kind": "td",
+      "source": "Takes precedence over the __TRILIUM_PH_0__Event attributes__TRILIUM_PH_1__ chosen in the calendar's properties. Allows displaying the value of one or more attributes in the calendar, in the order given, like this:            __TRILIUM_PH_2__  __TRILIUM_PH_3____TRILIUM_PH_4__           __TRILIUM_PH_5__  __TRILIUM_PH_6____TRILIUM_PH_7__          __TRILIUM_PH_8__  __TRILIUM_PH_9__It can also be used with relations, case in which it will display the title of the target note:           __TRILIUM_PH_10__  __TRILIUM_PH_11____TRILIUM_PH_12__",
+      "sourceHash": "6761e39d89fb9b5ce6e3e3a5ed6b1b35aeb29562e7c938eca591eb2d55a5d1fd",
+      "context": "Calendar > Configuring the calendar events using attributes",
+      "contextHash": "7dd5f06fbab17c228c1cb5fb81be133f175c13f43b1856f40e9d3363e9252502",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_d2049e7903df5c36f58311f8_0",
+      "kind": "td",
+      "source": "Allows using a different label to represent the start date, other than __TRILIUM_PH_0__ (e.g. __TRILIUM_PH_1__). The label name __TRILIUM_PH_2__must not be__TRILIUM_PH_3__ prefixed with __TRILIUM_PH_4__. If the label is not defined for a note, the default will be used instead.",
+      "sourceHash": "d2049e7903df5c36f58311f8d88c242ad8490f13027926c5adbc75d73d377ffb",
+      "context": "Calendar > Configuring the calendar events using attributes",
+      "contextHash": "7dd5f06fbab17c228c1cb5fb81be133f175c13f43b1856f40e9d3363e9252502",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_b580a44dd7f0500d9c299bfe_0",
+      "kind": "td",
+      "source": "Similar to __TRILIUM_PH_0__, allows changing the attribute which is being used to read the end date.",
+      "sourceHash": "b580a44dd7f0500d9c299bfe28d54f9024ea34e4618d6ab7c785dad0bc279305",
+      "context": "Calendar > Configuring the calendar events using attributes",
+      "contextHash": "7dd5f06fbab17c228c1cb5fb81be133f175c13f43b1856f40e9d3363e9252502",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_ad2b494f81c0c5ae9be0414f_0",
+      "kind": "td",
+      "source": "Similar to __TRILIUM_PH_0__, allows changing the attribute which is being used to read the start time.",
+      "sourceHash": "ad2b494f81c0c5ae9be0414fc95551996bab58a29e58918a294d5b95e37196fa",
+      "context": "Calendar > Configuring the calendar events using attributes",
+      "contextHash": "7dd5f06fbab17c228c1cb5fb81be133f175c13f43b1856f40e9d3363e9252502",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_6015a5a0f5a6a98a05bd5d49_0",
+      "kind": "td",
+      "source": "Similar to __TRILIUM_PH_0__, allows changing the attribute which is being used to read the end time.",
+      "sourceHash": "6015a5a0f5a6a98a05bd5d49f957f07025c95c1d73c649426ebbebd66e41faf7",
+      "context": "Calendar > Configuring the calendar events using attributes",
+      "contextHash": "7dd5f06fbab17c228c1cb5fb81be133f175c13f43b1856f40e9d3363e9252502",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_f2ce11dd77f8f3e4a0df8ab0_0",
+      "kind": "h2",
+      "source": "How the calendar works__TRILIUM_PH_0__",
+      "sourceHash": "f2ce11dd77f8f3e4a0df8ab02d47bc9d83483766c03842dd0808b3d3943fbd4f",
+      "context": "Calendar > How the calendar works",
+      "contextHash": "e697b7bb466d2cdd935a2fa41fea0877391fd47914e410cf4bf7dd43fd7b48c3",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_157abc43723c529554d1988a_0",
+      "kind": "p",
+      "source": "The calendar displays all the child notes of the Collection that have a __TRILIUM_PH_0__. An __TRILIUM_PH_1__ can optionally be added.",
+      "sourceHash": "157abc43723c529554d1988aafc20901c464faae4756979edf604afe734ff086",
+      "context": "Calendar > How the calendar works",
+      "contextHash": "e697b7bb466d2cdd935a2fa41fea0877391fd47914e410cf4bf7dd43fd7b48c3",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_07c8f31510824f04d7a080ac_0",
+      "kind": "p",
+      "source": "A text note with a start date is shown with the __TRILIUM_PH_0__ icon in the note tree and elsewhere, unless it has an icon of its own (set with __TRILIUM_PH_1__). The start date is read from the label __TRILIUM_PH_2__ names, if any.",
+      "sourceHash": "07c8f31510824f04d7a080acd34188db29c048810abd6899ac5fb9680f37420f",
+      "context": "Calendar > How the calendar works",
+      "contextHash": "e697b7bb466d2cdd935a2fa41fea0877391fd47914e410cf4bf7dd43fd7b48c3",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_18c1692759028464738dc70b_0",
+      "kind": "p",
+      "source": "The start date & end date can easily be edited from the calendar collection itself by clicking on the event. To edit the date while in the event note itself, the following attributes can be added to the Collection note:",
+      "sourceHash": "18c1692759028464738dc70be90a990f0a540a8c9253f09f7324fd2698cf928b",
+      "context": "Calendar > How the calendar works",
+      "contextHash": "e697b7bb466d2cdd935a2fa41fea0877391fd47914e410cf4bf7dd43fd7b48c3",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_dc71ed9a97b96153878ad4f4_0",
+      "kind": "p",
+      "source": "This will result in:",
+      "sourceHash": "dc71ed9a97b96153878ad4f40393e9246d848ef605edbe690c7b7da431c2a900",
+      "context": "Calendar > How the calendar works",
+      "contextHash": "e697b7bb466d2cdd935a2fa41fea0877391fd47914e410cf4bf7dd43fd7b48c3",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_5bafaac6d288387a337a9744_0",
+      "kind": "p",
+      "source": "When not used in a Journal, the calendar is recursive. That is, it will look for events not just in its child notes but also in the children of these child notes.",
+      "sourceHash": "5bafaac6d288387a337a9744c7eaec806c348c16c12cd40b2e108315d838f020",
+      "context": "Calendar > How the calendar works",
+      "contextHash": "e697b7bb466d2cdd935a2fa41fea0877391fd47914e410cf4bf7dd43fd7b48c3",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_c0c3b73f93203d2448fbbe68_0",
+      "kind": "h3",
+      "source": "Limiting the depth__TRILIUM_PH_0__",
+      "sourceHash": "c0c3b73f93203d2448fbbe68350ad108a71a899440ff2abbc1f5b46095af7102",
+      "context": "Calendar > How the calendar works > Limiting the depth",
+      "contextHash": "53e788b1410d48b5590b532ae0d20710895021c36a1e2324acd541c21244bf5a",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_333ca1ca3cfc4aa16026a4ae_0",
+      "kind": "p",
+      "source": "To limit how deep the calendar looks for events, set __TRILIUM_PH_0__Maximum nesting depth__TRILIUM_PH_1__ under __TRILIUM_PH_2__Included notes__TRILIUM_PH_3__ in the __TRILIUM_PH_4____TRILIUM_PH_5__Calendar properties__TRILIUM_PH_6__ dialog (see __TRILIUM_PH_7__Event templates__TRILIUM_PH_8__ for how to open it), or the __TRILIUM_PH_9__ label: __TRILIUM_PH_10__ shows only the child notes, __TRILIUM_PH_11__ adds their children, and so on. Without a value, events are looked for at every level. The setting doesn't apply in a Journal.",
+      "sourceHash": "333ca1ca3cfc4aa16026a4ae5b3c6aca8304bcbd329f08cc3ddd9ea0f5364107",
+      "context": "Calendar > How the calendar works > Limiting the depth",
+      "contextHash": "53e788b1410d48b5590b532ae0d20710895021c36a1e2324acd541c21244bf5a",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_c1b0686b3a0092e47a4a1b47_0",
+      "kind": "h2",
+      "source": "Recurrence__TRILIUM_PH_0__",
+      "sourceHash": "c1b0686b3a0092e47a4a1b47a88a2b7fa6b05c10ac385bddb9f1b0e86b754d75",
+      "context": "Calendar > Recurrence",
+      "contextHash": "78b1cc98ba5af0871c3a481449dd99db4a1c6016cc2987f7af8428f427e4c78b",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_d28305990687cccb15471e63_0",
+      "kind": "p",
+      "source": "The built in calendar view also supports repeating tasks (e.g. every week, every month as well as more complex recurrency rules).",
+      "sourceHash": "d28305990687cccb15471e638f628c621fc14c467f895d85c17e9798ecc0104f",
+      "context": "Calendar > Recurrence",
+      "contextHash": "78b1cc98ba5af0871c3a481449dd99db4a1c6016cc2987f7af8428f427e4c78b",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_1e6289f455e3838aac7df587_0",
+      "kind": "p",
+      "source": "Starting with v0.105.0, recurrence can be directly edited from the calendar by clicking on an event and then selecting the __TRILIUM_PH_0__Repeats__TRILIUM_PH_1__ option.",
+      "sourceHash": "1e6289f455e3838aac7df587bc3d24bc18b3ef4ba0cc884c3cd7f1628fa990a1",
+      "context": "Calendar > Recurrence",
+      "contextHash": "78b1cc98ba5af0871c3a481449dd99db4a1c6016cc2987f7af8428f427e4c78b",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_d5d0f776a162400a5da5d518_0",
+      "kind": "h3",
+      "source": "Custom recurrence using a subset of RRULE__TRILIUM_PH_0__",
+      "sourceHash": "d5d0f776a162400a5da5d518ed44e4071883ab3f0f0548e07956e3adb1b8c6a3",
+      "context": "Calendar > Recurrence > Custom recurrence using a subset of RRULE",
+      "contextHash": "7f79baaedaddcd10e00b618f784983928d40a464f83af662be4cc2a1cabdad52",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_53abe60e64328b5df3475d32_0",
+      "kind": "p",
+      "source": "If the existing recurrence editor from the event popup is not sufficient, more complex rules can be manually set via the __TRILIUM_PH_0__ label.",
+      "sourceHash": "53abe60e64328b5df3475d32f57b37dd6e9e395b39232b4b643b59a37ac787b9",
+      "context": "Calendar > Recurrence > Custom recurrence using a subset of RRULE",
+      "contextHash": "7f79baaedaddcd10e00b618f784983928d40a464f83af662be4cc2a1cabdad52",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_11e963b29ba6e6b9cc2a3087_0",
+      "kind": "p",
+      "source": "For example, to make a note repeat on the calendar:",
+      "sourceHash": "11e963b29ba6e6b9cc2a308777d8e3cb989c87bf6cd3908a431ec92e0c9975ea",
+      "context": "Calendar > Recurrence > Custom recurrence using a subset of RRULE",
+      "contextHash": "7f79baaedaddcd10e00b618f784983928d40a464f83af662be4cc2a1cabdad52",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_eafa17445e49fee7688f9e8c_0",
+      "kind": "li",
+      "source": "Every Day - __TRILIUM_PH_0__",
+      "sourceHash": "eafa17445e49fee7688f9e8cd98e3ba0bfaf88f56897e6d3d4746093a5618987",
+      "context": "Calendar > Recurrence > Custom recurrence using a subset of RRULE",
+      "contextHash": "7f79baaedaddcd10e00b618f784983928d40a464f83af662be4cc2a1cabdad52",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_28c8a468582fb68c678b8df7_0",
+      "kind": "li",
+      "source": "Every 3 days - __TRILIUM_PH_0__",
+      "sourceHash": "28c8a468582fb68c678b8df78274dfd3cdd77f2292f41b46f1aaecffdbe89205",
+      "context": "Calendar > Recurrence > Custom recurrence using a subset of RRULE",
+      "contextHash": "7f79baaedaddcd10e00b618f784983928d40a464f83af662be4cc2a1cabdad52",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_2df8caafc28a723346990afb_0",
+      "kind": "li",
+      "source": "Every week - __TRILIUM_PH_0__",
+      "sourceHash": "2df8caafc28a723346990afb41f4fa7f346ff49abdfc20a15cbe4e3f35a5c12a",
+      "context": "Calendar > Recurrence > Custom recurrence using a subset of RRULE",
+      "contextHash": "7f79baaedaddcd10e00b618f784983928d40a464f83af662be4cc2a1cabdad52",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_4525fad0e19cb2c377167ba5_0",
+      "kind": "li",
+      "source": "Every 2 weeks on Monday, Wednesday and Friday - __TRILIUM_PH_0__",
+      "sourceHash": "4525fad0e19cb2c377167ba5cc326df3744caa3125cd9a4f26b25a371b5d861c",
+      "context": "Calendar > Recurrence > Custom recurrence using a subset of RRULE",
+      "contextHash": "7f79baaedaddcd10e00b618f784983928d40a464f83af662be4cc2a1cabdad52",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_7b48fdb1d7a8d620e0c71e12_0",
+      "kind": "li",
+      "source": "Every 3 months - __TRILIUM_PH_0__",
+      "sourceHash": "7b48fdb1d7a8d620e0c71e12ff1d1ef8cb7ba7ec132d3174d87ccb89aece6175",
+      "context": "Calendar > Recurrence > Custom recurrence using a subset of RRULE",
+      "contextHash": "7f79baaedaddcd10e00b618f784983928d40a464f83af662be4cc2a1cabdad52",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_bf0c98e3b88b854ff6fb49c8_0",
+      "kind": "li",
+      "source": "Every 2 months on the First Sunday - __TRILIUM_PH_0__",
+      "sourceHash": "bf0c98e3b88b854ff6fb49c8aba04142e6b0cbd0cba2282de0a24c16e9ea2729",
+      "context": "Calendar > Recurrence > Custom recurrence using a subset of RRULE",
+      "contextHash": "7f79baaedaddcd10e00b618f784983928d40a464f83af662be4cc2a1cabdad52",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_173ff7c58877e354ff0a76e7_0",
+      "kind": "li",
+      "source": "Every month on the Last Friday - __TRILIUM_PH_0__",
+      "sourceHash": "173ff7c58877e354ff0a76e7e0323bc17e9cffbbd6876bebc42a0849473de34f",
+      "context": "Calendar > Recurrence > Custom recurrence using a subset of RRULE",
+      "contextHash": "7f79baaedaddcd10e00b618f784983928d40a464f83af662be4cc2a1cabdad52",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_808bcdd421f8c6d22314d3ee_0",
+      "kind": "p",
+      "source": "For other examples of valid __TRILIUM_PH_0__ strings see __TRILIUM_PH_1__https://icalendar.org/rrule-tool.html__TRILIUM_PH_2__",
+      "sourceHash": "808bcdd421f8c6d22314d3ee7d5d3377f45a75c27101ca2a086da77c8d0a97a7",
+      "context": "Calendar > Recurrence > Custom recurrence using a subset of RRULE",
+      "contextHash": "7f79baaedaddcd10e00b618f784983928d40a464f83af662be4cc2a1cabdad52",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_a3f3c073181917b64b54659c_0",
+      "kind": "p",
+      "source": "Note that the recurrence string does not include the __TRILIUM_PH_0__ attribute as defined in the iCAL specifications. This is derived directly from the __TRILIUM_PH_1__ and __TRILIUM_PH_2__ attributes",
+      "sourceHash": "a3f3c073181917b64b54659c2e95b20c450bbde687876a79408e7648350eff9b",
+      "context": "Calendar > Recurrence > Custom recurrence using a subset of RRULE",
+      "contextHash": "7f79baaedaddcd10e00b618f784983928d40a464f83af662be4cc2a1cabdad52",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_96c0915424c2a434cf3862e5_0",
+      "kind": "p",
+      "source": "If you want to override the label the calendar uses to fetch the recurrence string, you can use the __TRILIUM_PH_0__ attribute. For example, you can set __TRILIUM_PH_1__. Then you can set your recurrence string like __TRILIUM_PH_2__",
+      "sourceHash": "96c0915424c2a434cf3862e540b451ad3fe655ae9347415c3e0867a05f22a6c7",
+      "context": "Calendar > Recurrence > Custom recurrence using a subset of RRULE",
+      "contextHash": "7f79baaedaddcd10e00b618f784983928d40a464f83af662be4cc2a1cabdad52",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_f189587e6ec6e0399bca7611_0",
+      "kind": "p",
+      "source": "Also note that the recurrence label can be made promoted as with the start and end dates. ",
+      "sourceHash": "f189587e6ec6e0399bca7611ff4ccbfbcb422a44f67551e11a8b0fbc8f399dd6",
+      "context": "Calendar > Recurrence > Custom recurrence using a subset of RRULE",
+      "contextHash": "7f79baaedaddcd10e00b618f784983928d40a464f83af662be4cc2a1cabdad52",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_19c3a4650bcc68f29e07f4a1_0",
+      "kind": "p",
+      "source": "If the recurrence string is not valid, a toast will be shown with the note ID and title of the note with the erroneous recurrence message. This note will not be added to the calendar",
+      "sourceHash": "19c3a4650bcc68f29e07f4a136201f869631916e742864fd70e81970d7dff160",
+      "context": "Calendar > Recurrence > Custom recurrence using a subset of RRULE",
+      "contextHash": "7f79baaedaddcd10e00b618f784983928d40a464f83af662be4cc2a1cabdad52",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_c585b8bdc49d5a85896e4015_0",
+      "kind": "h3",
+      "source": "Hiding routine events__TRILIUM_PH_0__",
+      "sourceHash": "c585b8bdc49d5a85896e4015037299d819108167a3772d34ecebf98e3375115a",
+      "context": "Calendar > Recurrence > Hiding routine events",
+      "contextHash": "2d2164baefa420d6aab9113185b3720bd553ee5a88383624f275da6af61b927b",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_5729c4e04383ac0888ad9802_0",
+      "kind": "p",
+      "source": "Events that repeat on most days of the week, such as sleep or working hours, fill every cell of the month view. To hide them from the views that show many days at once, check __TRILIUM_PH_0__Hide routine events__TRILIUM_PH_1__ in the __TRILIUM_PH_2__Collection Properties__TRILIUM_PH_3__ (or set __TRILIUM_PH_4__).",
+      "sourceHash": "5729c4e04383ac0888ad9802c8e4c108f976f2f5b6ae16a462239f1bda31f225",
+      "context": "Calendar > Recurrence > Hiding routine events",
+      "contextHash": "2d2164baefa420d6aab9113185b3720bd553ee5a88383624f275da6af61b927b",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_6eda21b98488704a204d48b8_0",
+      "kind": "p",
+      "source": "An event counts as routine when it has a start time and repeats on 4 or more days a week on average, for example:",
+      "sourceHash": "6eda21b98488704a204d48b8e5f5978565dff4ece08f0fe3b7c6ba6b2234871a",
+      "context": "Calendar > Recurrence > Hiding routine events",
+      "contextHash": "2d2164baefa420d6aab9113185b3720bd553ee5a88383624f275da6af61b927b",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_2cf869687d33aa2f5148d0c7_0",
+      "kind": "th",
+      "source": "Event",
+      "sourceHash": "2cf869687d33aa2f5148d0c728ecc22fd47877fd28c9ba71feb11b9bfb2df0ca",
+      "context": "Calendar > Recurrence > Hiding routine events",
+      "contextHash": "2d2164baefa420d6aab9113185b3720bd553ee5a88383624f275da6af61b927b",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_877fdfa62d69fe877377005e_0",
+      "kind": "th",
+      "source": "Days a week",
+      "sourceHash": "877fdfa62d69fe877377005ee08bdbaa465998fddfc919782d98f143d6d7bd9f",
+      "context": "Calendar > Recurrence > Hiding routine events",
+      "contextHash": "2d2164baefa420d6aab9113185b3720bd553ee5a88383624f275da6af61b927b",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_3ce85897f75d396ee6033f45_0",
+      "kind": "th",
+      "source": "Hidden from the month, year and list views",
+      "sourceHash": "3ce85897f75d396ee6033f4556098d60e1f484f199bc7bb7bda1c41acc71c864",
+      "context": "Calendar > Recurrence > Hiding routine events",
+      "contextHash": "2d2164baefa420d6aab9113185b3720bd553ee5a88383624f275da6af61b927b",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_79985afc31fce12b2d545082_0",
+      "kind": "td",
+      "source": "Every day from 23:00 to 07:00",
+      "sourceHash": "79985afc31fce12b2d5450828ef412e09eca6aac5e87db7a6734fd90dbd6799e",
+      "context": "Calendar > Recurrence > Hiding routine events",
+      "contextHash": "2d2164baefa420d6aab9113185b3720bd553ee5a88383624f275da6af61b927b",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_ca1a3345500cdc68e64a6619_0",
+      "kind": "td",
+      "source": "7",
+      "sourceHash": "ca1a3345500cdc68e64a66199824886e37cc056209f979318b377396beb35b9e",
+      "context": "Calendar > Recurrence > Hiding routine events",
+      "contextHash": "2d2164baefa420d6aab9113185b3720bd553ee5a88383624f275da6af61b927b",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_3861c2186be47b0afbedaf6c_0",
+      "kind": "td",
+      "source": "Yes",
+      "sourceHash": "3861c2186be47b0afbedaf6c6c7ae1a9113d8d360cc01b55dd0a8a3c2b68acd2",
+      "context": "Calendar > Recurrence > Hiding routine events",
+      "contextHash": "2d2164baefa420d6aab9113185b3720bd553ee5a88383624f275da6af61b927b",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_7a38ec8ca6d429c56b78bc6f_0",
+      "kind": "td",
+      "source": "Monday to Friday from 09:00 to 17:00",
+      "sourceHash": "7a38ec8ca6d429c56b78bc6fd6cd091c65a12ab47c4e06ff8a7bce3927a82bcd",
+      "context": "Calendar > Recurrence > Hiding routine events",
+      "contextHash": "2d2164baefa420d6aab9113185b3720bd553ee5a88383624f275da6af61b927b",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_06af3e4540f213e37419eaf0_0",
+      "kind": "td",
+      "source": "5",
+      "sourceHash": "06af3e4540f213e37419eaf0476d2b25777daaad05f045ecf1465bb568095f7b",
+      "context": "Calendar > Recurrence > Hiding routine events",
+      "contextHash": "2d2164baefa420d6aab9113185b3720bd553ee5a88383624f275da6af61b927b",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_3861c2186be47b0afbedaf6c_1",
+      "kind": "td",
+      "source": "Yes",
+      "sourceHash": "3861c2186be47b0afbedaf6c6c7ae1a9113d8d360cc01b55dd0a8a3c2b68acd2",
+      "context": "Calendar > Recurrence > Hiding routine events",
+      "contextHash": "2d2164baefa420d6aab9113185b3720bd553ee5a88383624f275da6af61b927b",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_4ad048e20c5dfd42bb5b223f_0",
+      "kind": "td",
+      "source": "Every other day at 07:00",
+      "sourceHash": "4ad048e20c5dfd42bb5b223f6c68179d54c7c0fcfc3a7e74fddb4e7d5c7b52fc",
+      "context": "Calendar > Recurrence > Hiding routine events",
+      "contextHash": "2d2164baefa420d6aab9113185b3720bd553ee5a88383624f275da6af61b927b",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_f953a583efcacce1cb4748bc_0",
+      "kind": "td",
+      "source": "3.5",
+      "sourceHash": "f953a583efcacce1cb4748bcec1a1b42e1a9a8567dc6e6f7717a13656c7d9fb7",
+      "context": "Calendar > Recurrence > Hiding routine events",
+      "contextHash": "2d2164baefa420d6aab9113185b3720bd553ee5a88383624f275da6af61b927b",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_5800932accb3b3ae09cf1fd9_0",
+      "kind": "td",
+      "source": "No",
+      "sourceHash": "5800932accb3b3ae09cf1fd9c23df583364f955b40fab842da297100512e6519",
+      "context": "Calendar > Recurrence > Hiding routine events",
+      "contextHash": "2d2164baefa420d6aab9113185b3720bd553ee5a88383624f275da6af61b927b",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_a4a62c75f13ab2b70d1077ce_0",
+      "kind": "td",
+      "source": "Monday, Wednesday and Friday at 18:00",
+      "sourceHash": "a4a62c75f13ab2b70d1077ce8843901acfa302a8bd0fad28645d55cb4b242517",
+      "context": "Calendar > Recurrence > Hiding routine events",
+      "contextHash": "2d2164baefa420d6aab9113185b3720bd553ee5a88383624f275da6af61b927b",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_5bc2aea9ea357746faf117c3_0",
+      "kind": "td",
+      "source": "3",
+      "sourceHash": "5bc2aea9ea357746faf117c3dd454a84734c987f9fabb43f89d1862a8d5677f4",
+      "context": "Calendar > Recurrence > Hiding routine events",
+      "contextHash": "2d2164baefa420d6aab9113185b3720bd553ee5a88383624f275da6af61b927b",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_5800932accb3b3ae09cf1fd9_1",
+      "kind": "td",
+      "source": "No",
+      "sourceHash": "5800932accb3b3ae09cf1fd9c23df583364f955b40fab842da297100512e6519",
+      "context": "Calendar > Recurrence > Hiding routine events",
+      "contextHash": "2d2164baefa420d6aab9113185b3720bd553ee5a88383624f275da6af61b927b",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_db1febd31a97af908e9419c7_0",
+      "kind": "td",
+      "source": "Every day, without a start time",
+      "sourceHash": "db1febd31a97af908e9419c7a96a85726a4fe80bf1bc810096cfc6669cf32f6f",
+      "context": "Calendar > Recurrence > Hiding routine events",
+      "contextHash": "2d2164baefa420d6aab9113185b3720bd553ee5a88383624f275da6af61b927b",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_ca1a3345500cdc68e64a6619_1",
+      "kind": "td",
+      "source": "7",
+      "sourceHash": "ca1a3345500cdc68e64a66199824886e37cc056209f979318b377396beb35b9e",
+      "context": "Calendar > Recurrence > Hiding routine events",
+      "contextHash": "2d2164baefa420d6aab9113185b3720bd553ee5a88383624f275da6af61b927b",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_a25b537a65a5d94bc1153822_0",
+      "kind": "td",
+      "source": "No, as it lasts the whole day",
+      "sourceHash": "a25b537a65a5d94bc11538220f1919824085fe13696da55b37ee49ecbb2820f4",
+      "context": "Calendar > Recurrence > Hiding routine events",
+      "contextHash": "2d2164baefa420d6aab9113185b3720bd553ee5a88383624f275da6af61b927b",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_a3a9019b5e4861bada869d8e_0",
+      "kind": "td",
+      "source": "Every month or every year",
+      "sourceHash": "a3a9019b5e4861bada869d8e6cb07ed0c410d5af827251474ef75687991e3e8a",
+      "context": "Calendar > Recurrence > Hiding routine events",
+      "contextHash": "2d2164baefa420d6aab9113185b3720bd553ee5a88383624f275da6af61b927b",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_ba8ddc67f537c113d0aac60e_0",
+      "kind": "td",
+      "source": "—",
+      "sourceHash": "ba8ddc67f537c113d0aac60eb47df94e6424cf9d59d0a00691f6422f58a5c64c",
+      "context": "Calendar > Recurrence > Hiding routine events",
+      "contextHash": "2d2164baefa420d6aab9113185b3720bd553ee5a88383624f275da6af61b927b",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_5800932accb3b3ae09cf1fd9_2",
+      "kind": "td",
+      "source": "No",
+      "sourceHash": "5800932accb3b3ae09cf1fd9c23df583364f955b40fab842da297100512e6519",
+      "context": "Calendar > Recurrence > Hiding routine events",
+      "contextHash": "2d2164baefa420d6aab9113185b3720bd553ee5a88383624f275da6af61b927b",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_873f64a1c229351373e2ea21_0",
+      "kind": "p",
+      "source": "The day and week views always show routine events. To show them everywhere again, uncheck the option.",
+      "sourceHash": "873f64a1c229351373e2ea21473f2d2fb0a0e6171f76da0509a6c0ee76d828d1",
+      "context": "Calendar > Recurrence > Hiding routine events",
+      "contextHash": "2d2164baefa420d6aab9113185b3720bd553ee5a88383624f275da6af61b927b",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_829af628d8fa2be64da9001a_0",
+      "kind": "h2",
+      "source": "Customizing the slot duration and label interval__TRILIUM_PH_0__",
+      "sourceHash": "829af628d8fa2be64da9001a0dbce7f62ab7aa5272004c822556a1579e1510ac",
+      "context": "Calendar > Customizing the slot duration and label interval",
+      "contextHash": "6cc95ff98e73efa335c8cb0393a0ca18f5a65d10a27a82a7cb55c977986b2207",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_72b6ca5a8b26c6bb565f6bed_0",
+      "kind": "p",
+      "source": "Time slots in day and week views can be customized from __TRILIUM_PH_0__Collection Properties__TRILIUM_PH_1__",
+      "sourceHash": "72b6ca5a8b26c6bb565f6bed5433d2fd758c2885a44f2484295beecc9c4add71",
+      "context": "Calendar > Customizing the slot duration and label interval",
+      "contextHash": "6cc95ff98e73efa335c8cb0393a0ca18f5a65d10a27a82a7cb55c977986b2207",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_de8aefbc244bf90e564cf48b_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__Slot duration__TRILIUM_PH_1__ controls how tall each time slot is on the calendar (essentially the smallest unit of time the grid is divided into).",
+      "sourceHash": "de8aefbc244bf90e564cf48b914f89ba027981f3d489ad28b15a1441cf2f7bff",
+      "context": "Calendar > Customizing the slot duration and label interval",
+      "contextHash": "6cc95ff98e73efa335c8cb0393a0ca18f5a65d10a27a82a7cb55c977986b2207",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_3229d7516155ed9b836f98af_0",
+      "kind": "li",
+      "source": "A shorter duration means more rows and finer granularity; a longer one means fewer, chunkier rows.",
+      "sourceHash": "3229d7516155ed9b836f98afa8e1b6fa4d9b427a647d2d44214eda5732cd326c",
+      "context": "Calendar > Customizing the slot duration and label interval",
+      "contextHash": "6cc95ff98e73efa335c8cb0393a0ca18f5a65d10a27a82a7cb55c977986b2207",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_3587474d884a44e9c220b9d0_0",
+      "kind": "li",
+      "source": "The default is one row every 15 minutes.",
+      "sourceHash": "3587474d884a44e9c220b9d09c5b793461d8d938d3f89b964ff79776a2c243b7",
+      "context": "Calendar > Customizing the slot duration and label interval",
+      "contextHash": "6cc95ff98e73efa335c8cb0393a0ca18f5a65d10a27a82a7cb55c977986b2207",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_70148354e535e2efa604f531_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__Label interval__TRILIUM_PH_1__ controls how often a time label appears on the left-hand axis.",
+      "sourceHash": "70148354e535e2efa604f531ad771a9b31cb854ae123b542698699bfe7e2d609",
+      "context": "Calendar > Customizing the slot duration and label interval",
+      "contextHash": "6cc95ff98e73efa335c8cb0393a0ca18f5a65d10a27a82a7cb55c977986b2207",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_e8e010955d650c3632bff6bd_0",
+      "kind": "li",
+      "source": "This is independent of the slot size: you can have very small slots but only label every hour to keep the axis readable.",
+      "sourceHash": "e8e010955d650c3632bff6bd729acbc42759d4a64aa388d83aaa96c15aab478c",
+      "context": "Calendar > Customizing the slot duration and label interval",
+      "contextHash": "6cc95ff98e73efa335c8cb0393a0ca18f5a65d10a27a82a7cb55c977986b2207",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_494a3009a9e663cda8e0f12f_0",
+      "kind": "li",
+      "source": "The default is a time label shown every hour.",
+      "sourceHash": "494a3009a9e663cda8e0f12f94fa72c9241eac0dbc97d96b7a9d9295d973982e",
+      "context": "Calendar > Customizing the slot duration and label interval",
+      "contextHash": "6cc95ff98e73efa335c8cb0393a0ca18f5a65d10a27a82a7cb55c977986b2207",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_6cd7d7ef42f4db760dca41bf_0",
+      "kind": "p",
+      "source": "These values can also be customized directly via the __TRILIUM_PH_0__ and __TRILIUM_PH_1__ __TRILIUM_PH_2__labels__TRILIUM_PH_3__. Both values use __TRILIUM_PH_4__ format. Hours can go up to __TRILIUM_PH_5__ (__TRILIUM_PH_6__), while minutes and seconds must be between __TRILIUM_PH_7__ and __TRILIUM_PH_8__. The minimum meaningful duration is 1 minute (__TRILIUM_PH_9__).",
+      "sourceHash": "6cd7d7ef42f4db760dca41bf3a94e66749794ef4ca7733abe121ca5a1ef96eeb",
+      "context": "Calendar > Customizing the slot duration and label interval",
+      "contextHash": "6cc95ff98e73efa335c8cb0393a0ca18f5a65d10a27a82a7cb55c977986b2207",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_a1242242c34d124f391c4802_0",
+      "kind": "h2",
+      "source": "Use-cases__TRILIUM_PH_0__",
+      "sourceHash": "a1242242c34d124f391c4802b246d146bc2a728bae55b9f86f90c63b1551d29d",
+      "context": "Calendar > Use-cases",
+      "contextHash": "c0d545f2a3a3ba30900f7f6fdcf2a05799104af530fa7aea9b25c5696bb0b2da",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_ae16ad5339331462a8adaf21_0",
+      "kind": "h3",
+      "source": "Using with the Journal / calendar__TRILIUM_PH_0__",
+      "sourceHash": "ae16ad5339331462a8adaf21bcbd2d9eeac2563de9d7b6cbaef093fd98ce53ff",
+      "context": "Calendar > Use-cases > Using with the Journal / calendar",
+      "contextHash": "d3737d0e7181fd2388e8b1f80314efb5f55f06c3e87b9f75a5e0732912acf076",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_4e2ccb08f2a12cd6cadba942_0",
+      "kind": "p",
+      "source": "It is possible to integrate the calendar view into the Journal with day notes. In order to do so change the note type of the Journal note (calendar root) to Collection and then select the Calendar View.",
+      "sourceHash": "4e2ccb08f2a12cd6cadba94202f7b9b306a3b52c9ff194ca0af89679eb9836c8",
+      "context": "Calendar > Use-cases > Using with the Journal / calendar",
+      "contextHash": "d3737d0e7181fd2388e8b1f80314efb5f55f06c3e87b9f75a5e0732912acf076",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_d0e86643945ce5a27cff4cf7_0",
+      "kind": "p",
+      "source": "While in journal mode, the popup editor will not show dates, recurrence, colors or removal, since day notes aren't editable events.",
+      "sourceHash": "d0e86643945ce5a27cff4cf7b2679cce945e6f68c743291364cf0f384a929762",
+      "context": "Calendar > Use-cases > Using with the Journal / calendar",
+      "contextHash": "d3737d0e7181fd2388e8b1f80314efb5f55f06c3e87b9f75a5e0732912acf076",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_0946758da8e9dd8aa24a3d40_0",
+      "kind": "p",
+      "source": "Based on the __TRILIUM_PH_0__ (or __TRILIUM_PH_1__) attribute, the calendar will know that it's in a calendar and apply the following:",
+      "sourceHash": "0946758da8e9dd8aa24a3d40d97ee2cf8d7a9eed43bc5b53950da604dbb52902",
+      "context": "Calendar > Use-cases > Using with the Journal / calendar",
+      "contextHash": "d3737d0e7181fd2388e8b1f80314efb5f55f06c3e87b9f75a5e0732912acf076",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_366866d12d4585f987d658ed_0",
+      "kind": "li",
+      "source": "The calendar events are now rendered based on their __TRILIUM_PH_0__ attribute rather than __TRILIUM_PH_1__.",
+      "sourceHash": "366866d12d4585f987d658ed1d00123a87d39cb7984c5f9a8ff160b48cd2a4f2",
+      "context": "Calendar > Use-cases > Using with the Journal / calendar",
+      "contextHash": "d3737d0e7181fd2388e8b1f80314efb5f55f06c3e87b9f75a5e0732912acf076",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_44242166d8d9fa1cc4c7f19c_0",
+      "kind": "li",
+      "source": "Interactive editing such as dragging over an empty era or resizing an event is no longer possible.",
+      "sourceHash": "44242166d8d9fa1cc4c7f19c5de8b168a50700baf6c2a38fd322f2f73576ed96",
+      "context": "Calendar > Use-cases > Using with the Journal / calendar",
+      "contextHash": "d3737d0e7181fd2388e8b1f80314efb5f55f06c3e87b9f75a5e0732912acf076",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_d1e37e9ad681dcc77e0d0647_0",
+      "kind": "li",
+      "source": "Clicking on the empty space on a date will automatically open that day's note or create it if it does not exist.",
+      "sourceHash": "d1e37e9ad681dcc77e0d064753fceb8c7c88a97a14019cef4faa0f6ee13f8f96",
+      "context": "Calendar > Use-cases > Using with the Journal / calendar",
+      "contextHash": "d3737d0e7181fd2388e8b1f80314efb5f55f06c3e87b9f75a5e0732912acf076",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_ac0fe6de5210897730b9f314_0",
+      "kind": "li",
+      "source": "Direct children of a day note will be displayed on the calendar despite not having a __TRILIUM_PH_0__ attribute. Children of the child notes will not be displayed.",
+      "sourceHash": "ac0fe6de5210897730b9f31486d1949446a4eed9847c4d443bcb1f587a4542b7",
+      "context": "Calendar > Use-cases > Using with the Journal / calendar",
+      "contextHash": "d3737d0e7181fd2388e8b1f80314efb5f55f06c3e87b9f75a5e0732912acf076",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_c8b5f06b024834629f302878_0",
+      "kind": "h3",
+      "source": "Using a different attribute as event title__TRILIUM_PH_0__",
+      "sourceHash": "c8b5f06b024834629f30287833d42106771aee7ed3b627eaaa00fcac89a92c87",
+      "context": "Calendar > Use-cases > Using a different attribute as event title",
+      "contextHash": "cbe47cd0f75ffaab60495ea8d396aa95c1a5e3a92d1bb6c6681bfd3c4a51f5c3",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_f6118befef98ba610119954a_0",
+      "kind": "p",
+      "source": "__TRILIUM_PH_0__By default, events are displayed on the calendar by their note title. However, it is possible to configure a different attribute to be displayed instead.",
+      "sourceHash": "f6118befef98ba610119954a2859d8a0afbde69d71adf4459f0d47b8284a5202",
+      "context": "Calendar > Use-cases > Using a different attribute as event title",
+      "contextHash": "cbe47cd0f75ffaab60495ea8d396aa95c1a5e3a92d1bb6c6681bfd3c4a51f5c3",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_c8584f16b35607f89e34f390_0",
+      "kind": "p",
+      "source": "To do so, assign __TRILIUM_PH_0__ to the child note (not the calendar/Collection note), with the value being __TRILIUM_PH_1__ where __TRILIUM_PH_2__ can be any label (make not to add the __TRILIUM_PH_3__ prefix). The attribute can also come through inheritance such as a template attribute. If the note does not have the requested label, the title of the note will be used instead.",
+      "sourceHash": "c8584f16b35607f89e34f3906fe798447e256c428a4f24fa21696245c34a1668",
+      "context": "Calendar > Use-cases > Using a different attribute as event title",
+      "contextHash": "cbe47cd0f75ffaab60495ea8d396aa95c1a5e3a92d1bb6c6681bfd3c4a51f5c3",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_af8b308a9f12a004c37a1863_0",
+      "kind": "h3",
+      "source": "Using a relation attribute as event title__TRILIUM_PH_0__",
+      "sourceHash": "af8b308a9f12a004c37a1863b97da328861cf0b50a63603aa1410ca0e7166a3a",
+      "context": "Calendar > Use-cases > Using a relation attribute as event title",
+      "contextHash": "60a49d3251bcf03fe63dd276ae135e7f8c63f52bb0d28bf42b5e8d728f82ceb6",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_a4e86ab3154c1657ebbc40ce_0",
+      "kind": "p",
+      "source": "__TRILIUM_PH_0__Similarly to using an attribute, use __TRILIUM_PH_1__ and set it to __TRILIUM_PH_2__ where __TRILIUM_PH_3__ is the name of the relation to use.",
+      "sourceHash": "a4e86ab3154c1657ebbc40ceb35a0a14c7634f539d3b224c613d5b06650f9616",
+      "context": "Calendar > Use-cases > Using a relation attribute as event title",
+      "contextHash": "60a49d3251bcf03fe63dd276ae135e7f8c63f52bb0d28bf42b5e8d728f82ceb6",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_44271e519bfe9c9c1be9698d_0",
+      "kind": "p",
+      "source": "Moreover, if there are more relations of the same name, they will be displayed as multiple events coming from the same note.",
+      "sourceHash": "44271e519bfe9c9c1be9698dd3eefa4cc3d06150e812dbf400a963375b1b4c04",
+      "context": "Calendar > Use-cases > Using a relation attribute as event title",
+      "contextHash": "60a49d3251bcf03fe63dd276ae135e7f8c63f52bb0d28bf42b5e8d728f82ceb6",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_1b2df0c03e3bf2183bccbf9d_0",
+      "kind": "p",
+      "source": "__TRILIUM_PH_0__Note that it's even possible to have a __TRILIUM_PH_1__ on the target note (e.g. “John Smith”) which will try to render an attribute of it. Note that it's not possible to use a relation here as well for safety reasons (an accidental recursion  of attributes could cause the application to loop infinitely).",
+      "sourceHash": "1b2df0c03e3bf2183bccbf9d8ec219df976e31bcd6754bb8c23d8c3cad835107",
+      "context": "Calendar > Use-cases > Using a relation attribute as event title",
+      "contextHash": "60a49d3251bcf03fe63dd276ae135e7f8c63f52bb0d28bf42b5e8d728f82ceb6",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_43ddc8e3f4956327a6a6611b_0",
+      "kind": "h3",
+      "source": "Displaying an age on a recurring event__TRILIUM_PH_0__",
+      "sourceHash": "43ddc8e3f4956327a6a6611b72c0f3552a6cc0fa75fffeb8dd77de32671f30ca",
+      "context": "Calendar > Use-cases > Displaying an age on a recurring event",
+      "contextHash": "3d4f1b0b0276f8642745e897334b7ca252197c7dc3c873065adc9c43b3c02305",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_6e43dde31613cd40b35ee28b_0",
+      "kind": "p",
+      "source": "A birthday or an anniversary repeats every year, and what is interesting about each occurrence is the number of years it marks. To display it:",
+      "sourceHash": "6e43dde31613cd40b35ee28bcc60dbc981f4e05db5d21cc6a470f03ecaf22047",
+      "context": "Calendar > Use-cases > Displaying an age on a recurring event",
+      "contextHash": "3d4f1b0b0276f8642745e897334b7ca252197c7dc3c873065adc9c43b3c02305",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_5af58ede5367cf54612ebede_0",
+      "kind": "li",
+      "source": "Set the event's start date to the original date (for example, the date of birth).",
+      "sourceHash": "5af58ede5367cf54612ebede2275088fe787853b4d71ef52fd769eb837bac97a",
+      "context": "Calendar > Use-cases > Displaying an age on a recurring event",
+      "contextHash": "3d4f1b0b0276f8642745e897334b7ca252197c7dc3c873065adc9c43b3c02305",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_d2292ba5895a63f17feb6599_0",
+      "kind": "li",
+      "source": "Click the event, then select the __TRILIUM_PH_0__Repeats__TRILIUM_PH_1__ dropdown.",
+      "sourceHash": "d2292ba5895a63f17feb65995689b193eac423ac2d75935e338c19eeac708f12",
+      "context": "Calendar > Use-cases > Displaying an age on a recurring event",
+      "contextHash": "3d4f1b0b0276f8642745e897334b7ca252197c7dc3c873065adc9c43b3c02305",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_48a313727aa6f0b072b76d95_0",
+      "kind": "li",
+      "source": "Select __TRILIUM_PH_0__Yearly__TRILIUM_PH_1__ and check __TRILIUM_PH_2__Show the number of years in the title__TRILIUM_PH_3__.",
+      "sourceHash": "48a313727aa6f0b072b76d95b015dc8fa44a17b397f082ca7e72ed40ee7ff9ce",
+      "context": "Calendar > Use-cases > Displaying an age on a recurring event",
+      "contextHash": "3d4f1b0b0276f8642745e897334b7ca252197c7dc3c873065adc9c43b3c02305",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_0a7ef05addf7053a8d07face_0",
+      "kind": "p",
+      "source": "The event is then displayed as “John Smith (35)” in 2025, “John Smith (36)” in 2026, and so on. Only the calendar is affected; the note keeps its own title.",
+      "sourceHash": "0a7ef05addf7053a8d07face1b8c73116d5129efccd62bc9bf9ef6d1569736c6",
+      "context": "Calendar > Use-cases > Displaying an age on a recurring event",
+      "contextHash": "3d4f1b0b0276f8642745e897334b7ca252197c7dc3c873065adc9c43b3c02305",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_773866023c72fd172ec73fe8_0",
+      "kind": "p",
+      "source": "The checkbox sets the __TRILIUM_PH_0__ label, which sets the title an event is displayed with and is filled in again for every occurrence the recurrence rule produces:",
+      "sourceHash": "773866023c72fd172ec73fe88bfa99a4988370795be644902731f7aa3a0473c4",
+      "context": "Calendar > Use-cases > Displaying an age on a recurring event",
+      "contextHash": "3d4f1b0b0276f8642745e897334b7ca252197c7dc3c873065adc9c43b3c02305",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_1f8b7bf51590adbb7dbbe7d9_0",
+      "kind": "p",
+      "source": "To word the title differently, edit the label directly. The checkbox is then disabled, as it is when the template is inherited, so that it never overwrites a template of your own.",
+      "sourceHash": "1f8b7bf51590adbb7dbbe7d9ca2dbaa36eb9314dafdbe80064c3e6e5f20a9f63",
+      "context": "Calendar > Use-cases > Displaying an age on a recurring event",
+      "contextHash": "3d4f1b0b0276f8642745e897334b7ca252197c7dc3c873065adc9c43b3c02305",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_21d4d82c9edbe544c2ce2cff_0",
+      "kind": "p",
+      "source": "The following values can be used in the template:",
+      "sourceHash": "21d4d82c9edbe544c2ce2cffca06ecdd1a0fe63e5192e78821c5ce184ae3e6ee",
+      "context": "Calendar > Use-cases > Displaying an age on a recurring event",
+      "contextHash": "3d4f1b0b0276f8642745e897334b7ca252197c7dc3c873065adc9c43b3c02305",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_4c84cbff1153e6df8a060c3b_0",
+      "kind": "th",
+      "source": "Value",
+      "sourceHash": "4c84cbff1153e6df8a060c3bb5c15624b66d5173adb4aca1c13ed769658311ee",
+      "context": "Calendar > Use-cases > Displaying an age on a recurring event",
+      "contextHash": "3d4f1b0b0276f8642745e897334b7ca252197c7dc3c873065adc9c43b3c02305",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_4b00baa636b92e18b7a75884_2",
+      "kind": "th",
+      "source": "Description",
+      "sourceHash": "4b00baa636b92e18b7a75884790f0769c3e702d20d8822e708f69ab2f07c7103",
+      "context": "Calendar > Use-cases > Displaying an age on a recurring event",
+      "contextHash": "3d4f1b0b0276f8642745e897334b7ca252197c7dc3c873065adc9c43b3c02305",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_f46c691e197691dcc658cf9c_0",
+      "kind": "td",
+      "source": "The title the event would otherwise be displayed with: the note title, or the attribute __TRILIUM_PH_0__ points to.",
+      "sourceHash": "f46c691e197691dcc658cf9cca9d4969e7f3147689483dfb530c793fe46be02a",
+      "context": "Calendar > Use-cases > Displaying an age on a recurring event",
+      "contextHash": "3d4f1b0b0276f8642745e897334b7ca252197c7dc3c873065adc9c43b3c02305",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_40618dd2498f81c11aea3a32_0",
+      "kind": "td",
+      "source": "The whole years between __TRILIUM_PH_0__ and the occurrence being displayed. It is __TRILIUM_PH_1__ on the first occurrence.",
+      "sourceHash": "40618dd2498f81c11aea3a324d89f6cbbeb7172311d70a52b77a9ccff4a94758",
+      "context": "Calendar > Use-cases > Displaying an age on a recurring event",
+      "contextHash": "3d4f1b0b0276f8642745e897334b7ca252197c7dc3c873065adc9c43b3c02305",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_a4247f26e7587a1683193456_0",
+      "kind": "td",
+      "source": "The date of the occurrence being displayed, as a __TRILIUM_PH_0__day.js__TRILIUM_PH_1__ object. For example, __TRILIUM_PH_2__.",
+      "sourceHash": "a4247f26e7587a16831934569e2f66cfc81d145773afb30acf2888977a8b0f57",
+      "context": "Calendar > Use-cases > Displaying an age on a recurring event",
+      "contextHash": "3d4f1b0b0276f8642745e897334b7ca252197c7dc3c873065adc9c43b3c02305",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_a797c3b6d4136ad23eae10c2_0",
+      "kind": "td",
+      "source": "The date the event starts on, in the same form. For example, __TRILIUM_PH_0__.",
+      "sourceHash": "a797c3b6d4136ad23eae10c27756cc903658698ecd0938cbbb63f9a401d63e88",
+      "context": "Calendar > Use-cases > Displaying an age on a recurring event",
+      "contextHash": "3d4f1b0b0276f8642745e897334b7ca252197c7dc3c873065adc9c43b3c02305",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_853f7b1bc7383529ad959ed3_0",
+      "kind": "p",
+      "source": "To use the same template for every event of a calendar, make the label inheritable on the Collection note:",
+      "sourceHash": "853f7b1bc7383529ad959ed3700d528bb1a55b32ac25b9943454563b50751414",
+      "context": "Calendar > Use-cases > Displaying an age on a recurring event",
+      "contextHash": "3d4f1b0b0276f8642745e897334b7ca252197c7dc3c873065adc9c43b3c02305",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_b348689cc4af07b866ccfddd_0",
+      "kind": "p",
+      "source": "A template that cannot be read — an unknown value, or an expression other than a value and the __TRILIUM_PH_0__ call shown above — leaves the event with its plain title and reports the reason in the browser console.",
+      "sourceHash": "b348689cc4af07b866ccfddd14349d043b6be280f887fe8e88c26ddf5e8b2459",
+      "context": "Calendar > Use-cases > Displaying an age on a recurring event",
+      "contextHash": "3d4f1b0b0276f8642745e897334b7ca252197c7dc3c873065adc9c43b3c02305",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_b190d47815633246b0ab18a6_0",
+      "kind": "image-alt",
+      "source": "記事画像",
+      "sourceHash": "b190d47815633246b0ab18a61d9b8e8ea36504fe3f8bc230a7753096915c9ff2",
+      "context": "Calendar > Use-cases > Displaying an age on a recurring event",
+      "contextHash": "3d4f1b0b0276f8642745e897334b7ca252197c7dc3c873065adc9c43b3c02305",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_b190d47815633246b0ab18a6_1",
+      "kind": "image-alt",
+      "source": "記事画像",
+      "sourceHash": "b190d47815633246b0ab18a61d9b8e8ea36504fe3f8bc230a7753096915c9ff2",
+      "context": "Calendar > Use-cases > Displaying an age on a recurring event",
+      "contextHash": "3d4f1b0b0276f8642745e897334b7ca252197c7dc3c873065adc9c43b3c02305",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_b190d47815633246b0ab18a6_2",
+      "kind": "image-alt",
+      "source": "記事画像",
+      "sourceHash": "b190d47815633246b0ab18a61d9b8e8ea36504fe3f8bc230a7753096915c9ff2",
+      "context": "Calendar > Use-cases > Displaying an age on a recurring event",
+      "contextHash": "3d4f1b0b0276f8642745e897334b7ca252197c7dc3c873065adc9c43b3c02305",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_b190d47815633246b0ab18a6_3",
+      "kind": "image-alt",
+      "source": "記事画像",
+      "sourceHash": "b190d47815633246b0ab18a61d9b8e8ea36504fe3f8bc230a7753096915c9ff2",
+      "context": "Calendar > Use-cases > Displaying an age on a recurring event",
+      "contextHash": "3d4f1b0b0276f8642745e897334b7ca252197c7dc3c873065adc9c43b3c02305",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_b190d47815633246b0ab18a6_4",
+      "kind": "image-alt",
+      "source": "記事画像",
+      "sourceHash": "b190d47815633246b0ab18a61d9b8e8ea36504fe3f8bc230a7753096915c9ff2",
+      "context": "Calendar > Use-cases > Displaying an age on a recurring event",
+      "contextHash": "3d4f1b0b0276f8642745e897334b7ca252197c7dc3c873065adc9c43b3c02305",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_b190d47815633246b0ab18a6_5",
+      "kind": "image-alt",
+      "source": "記事画像",
+      "sourceHash": "b190d47815633246b0ab18a61d9b8e8ea36504fe3f8bc230a7753096915c9ff2",
+      "context": "Calendar > Use-cases > Displaying an age on a recurring event",
+      "contextHash": "3d4f1b0b0276f8642745e897334b7ca252197c7dc3c873065adc9c43b3c02305",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_b190d47815633246b0ab18a6_6",
+      "kind": "image-alt",
+      "source": "記事画像",
+      "sourceHash": "b190d47815633246b0ab18a61d9b8e8ea36504fe3f8bc230a7753096915c9ff2",
+      "context": "Calendar > Use-cases > Displaying an age on a recurring event",
+      "contextHash": "3d4f1b0b0276f8642745e897334b7ca252197c7dc3c873065adc9c43b3c02305",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_b190d47815633246b0ab18a6_7",
+      "kind": "image-alt",
+      "source": "記事画像",
+      "sourceHash": "b190d47815633246b0ab18a61d9b8e8ea36504fe3f8bc230a7753096915c9ff2",
+      "context": "Calendar > Use-cases > Displaying an age on a recurring event",
+      "contextHash": "3d4f1b0b0276f8642745e897334b7ca252197c7dc3c873065adc9c43b3c02305",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_b190d47815633246b0ab18a6_8",
+      "kind": "image-alt",
+      "source": "記事画像",
+      "sourceHash": "b190d47815633246b0ab18a61d9b8e8ea36504fe3f8bc230a7753096915c9ff2",
+      "context": "Calendar > Use-cases > Displaying an age on a recurring event",
+      "contextHash": "3d4f1b0b0276f8642745e897334b7ca252197c7dc3c873065adc9c43b3c02305",
+      "status": "pending",
+      "active": true
+    }
+  ],
+  "requests": []
+}

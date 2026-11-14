@@ -1,0 +1,749 @@
+{
+  "schemaVersion": 1,
+  "pageId": "OFXdgB2nNk1F",
+  "sourceFile": "docs/User Guide/User Guide/Advanced Usage/Attributes/Promoted Attributes.md",
+  "sourceRevision": "03d17b60f59b5efc29b880b11481471d0fe0ff57",
+  "units": [
+    {
+      "id": "u_79e5148a28d4d5d5c47fc61f_0",
+      "kind": "title",
+      "source": "Promoted Attributes",
+      "sourceHash": "79e5148a28d4d5d5c47fc61ff0d3df00811cb881bc6c63b4714984b49b550426",
+      "context": "Promoted Attributes",
+      "contextHash": "801383a2780c98a35823d69369916b1ae35175bfab51e29360acf9022dd493e1",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_e9b03f25753ac8406d2ef09c_0",
+      "kind": "p",
+      "source": "Promoted attributes are __TRILIUM_PH_0__attributes__TRILIUM_PH_1__ which are displayed prominently in the UI which allow them to be easily viewed and edited.",
+      "sourceHash": "e9b03f25753ac8406d2ef09cf31e5c08c240800e7078ba79fbfe4b2c0fa2bf4c",
+      "context": "Promoted Attributes",
+      "contextHash": "801383a2780c98a35823d69369916b1ae35175bfab51e29360acf9022dd493e1",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_e51ce9fef723d8e891f9f060_0",
+      "kind": "p",
+      "source": "The promoted attributes are shown underneath the __TRILIUM_PH_0__Title__TRILIUM_PH_1__ of the note, in a collapsible section. For full-height notes such as __TRILIUM_PH_2__Canvas__TRILIUM_PH_3__, the promoted attributes are collapsed by default to make room.",
+      "sourceHash": "e51ce9fef723d8e891f9f06023daf4dac5a9f6675b8b1434f5defa560b412dbd",
+      "context": "Promoted Attributes",
+      "contextHash": "801383a2780c98a35823d69369916b1ae35175bfab51e29360acf9022dd493e1",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_9658130f051911cbecd076f5_0",
+      "kind": "p",
+      "source": "One way of seeing promoted attributes is as a kind of form with several fields. Each field is just regular attribute, the only difference is that they appear on the note itself.",
+      "sourceHash": "9658130f051911cbecd076f5f7796df61bceef24bf2e2501596c2a1c43d8f50f",
+      "context": "Promoted Attributes",
+      "contextHash": "801383a2780c98a35823d69369916b1ae35175bfab51e29360acf9022dd493e1",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_ed927c19ca51308f4a9bd2a2_0",
+      "kind": "p",
+      "source": "Attributes can be pretty useful since they allow for querying and script automation etc. but they are also inconveniently hidden. This allows you to select few of the important ones and push them to the front of the user.",
+      "sourceHash": "ed927c19ca51308f4a9bd2a2c6efe43ea3bb902c4de71caf453f9290f89d422f",
+      "context": "Promoted Attributes",
+      "contextHash": "801383a2780c98a35823d69369916b1ae35175bfab51e29360acf9022dd493e1",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_f246a399f30116e6abfa8c4e_0",
+      "kind": "h2",
+      "source": "Attribute definition__TRILIUM_PH_0__",
+      "sourceHash": "f246a399f30116e6abfa8c4e23add08d6a4da0afd2d3918f7982676461ebd1ba",
+      "context": "Promoted Attributes > Attribute definition",
+      "contextHash": "c025c4c5d05551e9263b00a1ad41697e63cd446f865d8cf0a5f9ca4286e07172",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_037c923d68a5942581a03c62_0",
+      "kind": "p",
+      "source": "In order to have promoted attributes, there needs to be a way to define them.",
+      "sourceHash": "037c923d68a5942581a03c622aa2731220ddbd1a6044c60f547757b3f88384b3",
+      "context": "Promoted Attributes > Attribute definition",
+      "contextHash": "c025c4c5d05551e9263b00a1ad41697e63cd446f865d8cf0a5f9ca4286e07172",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_fbde2c3d69dc16e0caf75de0_0",
+      "kind": "p",
+      "source": "Technically, attributes are only name-value pairs where both name and value are strings.",
+      "sourceHash": "fbde2c3d69dc16e0caf75de0c9e1ff8e4bb9229092ca1e2f40c2776852bac899",
+      "context": "Promoted Attributes > Attribute definition",
+      "contextHash": "c025c4c5d05551e9263b00a1ad41697e63cd446f865d8cf0a5f9ca4286e07172",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_d42236bd199fee32790259ff_0",
+      "kind": "p",
+      "source": "The __TRILIUM_PH_0__Attribute definition__TRILIUM_PH_1__ specifies how should this value be interpreted:",
+      "sourceHash": "d42236bd199fee32790259ffda7cebcf655d918f677e9b8af612fe56e383ba7b",
+      "context": "Promoted Attributes > Attribute definition",
+      "contextHash": "c025c4c5d05551e9263b00a1ad41697e63cd446f865d8cf0a5f9ca4286e07172",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_2cc57fe15abdf3427b3f4547_0",
+      "kind": "li",
+      "source": "Is it just string, or is it a date?",
+      "sourceHash": "2cc57fe15abdf3427b3f4547d799f41099c2f935c20cefeba6ca0c5126ba4f49",
+      "context": "Promoted Attributes > Attribute definition",
+      "contextHash": "c025c4c5d05551e9263b00a1ad41697e63cd446f865d8cf0a5f9ca4286e07172",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_949d34f808a403e6809874ab_0",
+      "kind": "li",
+      "source": "Should we allow multiple values or note?",
+      "sourceHash": "949d34f808a403e6809874abbf5cddeabe9f8545661bed1b77657ac91abdb3d5",
+      "context": "Promoted Attributes > Attribute definition",
+      "contextHash": "c025c4c5d05551e9263b00a1ad41697e63cd446f865d8cf0a5f9ca4286e07172",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_560f35f2c72323753a7a3330_0",
+      "kind": "li",
+      "source": "Should we __TRILIUM_PH_0__promote__TRILIUM_PH_1__ the attribute or not?",
+      "sourceHash": "560f35f2c72323753a7a3330106d2c4859dc31726725d32d6e3b0d475aa3a35a",
+      "context": "Promoted Attributes > Attribute definition",
+      "contextHash": "c025c4c5d05551e9263b00a1ad41697e63cd446f865d8cf0a5f9ca4286e07172",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_5bffe72c4e2581c02cf79196_0",
+      "kind": "h2",
+      "source": "Types of attributes__TRILIUM_PH_0__",
+      "sourceHash": "5bffe72c4e2581c02cf79196d7d4c71a6c2e3022c1c65f092ccaafc464da0400",
+      "context": "Promoted Attributes > Types of attributes",
+      "contextHash": "ba3fb2fd35eb74fc252a6a9d665fdfd3f41d56793b8c8d9c45fd31ba12cce437",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_5dd7701f3866d5a26ed4e66d_0",
+      "kind": "p",
+      "source": "Attribute definitions have a dedicated type field which will change how the value will be edited in the promoted attributes section.",
+      "sourceHash": "5dd7701f3866d5a26ed4e66dec436f1ce5ccd0764eee4c4c9ff435c78b3705f6",
+      "context": "Promoted Attributes > Types of attributes",
+      "contextHash": "ba3fb2fd35eb74fc252a6a9d665fdfd3f41d56793b8c8d9c45fd31ba12cce437",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_e5753499f50ad7aab078be4b_0",
+      "kind": "p",
+      "source": "The following types are supported:",
+      "sourceHash": "e5753499f50ad7aab078be4bf8fc22caaeb438a4a896899b96fff065b328e2c7",
+      "context": "Promoted Attributes > Types of attributes",
+      "contextHash": "ba3fb2fd35eb74fc252a6a9d665fdfd3f41d56793b8c8d9c45fd31ba12cce437",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_142b591d16b3164da29834a9_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__Text__TRILIUM_PH_1__, the default option which allows any type of text to be edited, similar to normal labels that don't have a type associated.",
+      "sourceHash": "142b591d16b3164da29834a92946b32f51916684b8023dd6f400adfd23b6789d",
+      "context": "Promoted Attributes > Types of attributes",
+      "contextHash": "ba3fb2fd35eb74fc252a6a9d665fdfd3f41d56793b8c8d9c45fd31ba12cce437",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_c3cbe416aae1fad53e29ff3f_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__Multi-line text__TRILIUM_PH_1__, similar to a normal text field, but rendered in a bigger text box that also supports writing on multiple lines.",
+      "sourceHash": "c3cbe416aae1fad53e29ff3f1a65d7d63ca99330f6f08ffc68e53563488daead",
+      "context": "Promoted Attributes > Types of attributes",
+      "contextHash": "ba3fb2fd35eb74fc252a6a9d665fdfd3f41d56793b8c8d9c45fd31ba12cce437",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_5c424f814bf2502388e21204_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__Number__TRILIUM_PH_1__, will display as a number input field with up/down arrows.",
+      "sourceHash": "5c424f814bf2502388e212043f32859ff07721ace5ac7ca8d5cea87aaf58c7de",
+      "context": "Promoted Attributes > Types of attributes",
+      "contextHash": "ba3fb2fd35eb74fc252a6a9d665fdfd3f41d56793b8c8d9c45fd31ba12cce437",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_406414db3f8b5044b00fb21c_0",
+      "kind": "li",
+      "source": "Optionally a __TRILIUM_PH_0__precision__TRILIUM_PH_1__ which sets how many decimals the value steps by and is displayed with.",
+      "sourceHash": "406414db3f8b5044b00fb21cb03d89e9ba9547252590fa4b8dc2a2985d32d1d0",
+      "context": "Promoted Attributes > Types of attributes",
+      "contextHash": "ba3fb2fd35eb74fc252a6a9d665fdfd3f41d56793b8c8d9c45fd31ba12cce437",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_ae57b2d1d6624780dd3f9190_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__Checkbox__TRILIUM_PH_1__, which renders as a checkbox for a true/false value. In the label definition, this type is written as __TRILIUM_PH_2__.",
+      "sourceHash": "ae57b2d1d6624780dd3f9190c340819633ad0ae934a8597566b0c1102cf7d442",
+      "context": "Promoted Attributes > Types of attributes",
+      "contextHash": "ba3fb2fd35eb74fc252a6a9d665fdfd3f41d56793b8c8d9c45fd31ba12cce437",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_ce2b9d4683313ee5e816d72e_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__Select,__TRILIUM_PH_1__ which provides a list of user-defined options when editing.",
+      "sourceHash": "ce2b9d4683313ee5e816d72e327a9e2b541b15dec3d03b159ecb5063cf6b77bc",
+      "context": "Promoted Attributes > Types of attributes",
+      "contextHash": "ba3fb2fd35eb74fc252a6a9d665fdfd3f41d56793b8c8d9c45fd31ba12cce437",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_74a4c3af8acbab2106b99306_0",
+      "kind": "li",
+      "source": "The list is not fixed, meaning that new options can be easily added from the promoted attribute.",
+      "sourceHash": "74a4c3af8acbab2106b99306528d89fa736795d5c277c536d3181c363cd5ab61",
+      "context": "Promoted Attributes > Types of attributes",
+      "contextHash": "ba3fb2fd35eb74fc252a6a9d665fdfd3f41d56793b8c8d9c45fd31ba12cce437",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_67d1094cf0974d19125bc967_0",
+      "kind": "li",
+      "source": "Renaming an option does not change the existing values since the value is stored as text. Consider a __TRILIUM_PH_0__bulk rename__TRILIUM_PH_1__.",
+      "sourceHash": "67d1094cf0974d19125bc9676afecc66001ac6a7e8f073143eca5b56afd74efc",
+      "context": "Promoted Attributes > Types of attributes",
+      "contextHash": "ba3fb2fd35eb74fc252a6a9d665fdfd3f41d56793b8c8d9c45fd31ba12cce437",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_a434986a7451e4dc709f01be_0",
+      "kind": "li",
+      "source": "The items do not have a custom color or icon. This is intentional as selects are meant to be light-weight. For a more customizable option, consider using __TRILIUM_PH_0__Relations__TRILIUM_PH_1__ instead which use notes as items and those notes can be colorized and also carry an icon.",
+      "sourceHash": "a434986a7451e4dc709f01bee5fc9553d15cfee43776c13937bdf56ef637ed95",
+      "context": "Promoted Attributes > Types of attributes",
+      "contextHash": "ba3fb2fd35eb74fc252a6a9d665fdfd3f41d56793b8c8d9c45fd31ba12cce437",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_63e7279d272ffedc94c8bbb6_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__Date,__TRILIUM_PH_1__ which provides a date picker.",
+      "sourceHash": "63e7279d272ffedc94c8bbb615b8536d0821c2346e5756d6171d1e84c22c2d70",
+      "context": "Promoted Attributes > Types of attributes",
+      "contextHash": "ba3fb2fd35eb74fc252a6a9d665fdfd3f41d56793b8c8d9c45fd31ba12cce437",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_766f037d4aef060b472ae6cd_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__Date & Time,__TRILIUM_PH_1__ which provides a date & time picker.",
+      "sourceHash": "766f037d4aef060b472ae6cd18e7881a9e825b5b7556fcc77904b7b56c6d5809",
+      "context": "Promoted Attributes > Types of attributes",
+      "contextHash": "ba3fb2fd35eb74fc252a6a9d665fdfd3f41d56793b8c8d9c45fd31ba12cce437",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_aaad105f0a63e2d84de2ea29_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__Time,__TRILIUM_PH_1__ which provides a time picker.",
+      "sourceHash": "aaad105f0a63e2d84de2ea294161d4684940cb0792a40953d4a91db7d2f63f6d",
+      "context": "Promoted Attributes > Types of attributes",
+      "contextHash": "ba3fb2fd35eb74fc252a6a9d665fdfd3f41d56793b8c8d9c45fd31ba12cce437",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_520182f74c11d1c91cbe21f9_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__URL,__TRILIUM_PH_1__ which provides a button to open the web address in a new window.",
+      "sourceHash": "520182f74c11d1c91cbe21f9f4723a313e06e26980db932ef5c7d11774a01e84",
+      "context": "Promoted Attributes > Types of attributes",
+      "contextHash": "ba3fb2fd35eb74fc252a6a9d665fdfd3f41d56793b8c8d9c45fd31ba12cce437",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_c5325f1ec84621a85f0bee84_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__Email__TRILIUM_PH_1__, which provides a button to quickly send an email to that address using your operating system's default app.",
+      "sourceHash": "c5325f1ec84621a85f0bee84a2dc1748a53e046ee738efc051f42b7b3da6ee3d",
+      "context": "Promoted Attributes > Types of attributes",
+      "contextHash": "ba3fb2fd35eb74fc252a6a9d665fdfd3f41d56793b8c8d9c45fd31ba12cce437",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_58e10e29330b14905697563d_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__Phone__TRILIUM_PH_1__, which provides a button to quickly call that number using your operating system's default app.",
+      "sourceHash": "58e10e29330b14905697563d1ba1bff51eb0f31b829f71ff9bac6ca6ba011ced",
+      "context": "Promoted Attributes > Types of attributes",
+      "contextHash": "ba3fb2fd35eb74fc252a6a9d665fdfd3f41d56793b8c8d9c45fd31ba12cce437",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_ec8ccb12da3c2dae131d3654_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__Color__TRILIUM_PH_1__, which provides a color picker and a way to remove the value.",
+      "sourceHash": "ec8ccb12da3c2dae131d3654781a55fd4c9909dfffbb7f14d2c866556759d54c",
+      "context": "Promoted Attributes > Types of attributes",
+      "contextHash": "ba3fb2fd35eb74fc252a6a9d665fdfd3f41d56793b8c8d9c45fd31ba12cce437",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_2ec7c4b17a9c5ccc4b87a1f0_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__Relation__TRILIUM_PH_1__, which points to another note and uses __TRILIUM_PH_2__Relations__TRILIUM_PH_3__ instead of __TRILIUM_PH_4__Labels__TRILIUM_PH_5__.",
+      "sourceHash": "2ec7c4b17a9c5ccc4b87a1f0d8d17e2333b2ea81dd6988816786abac3d79b955",
+      "context": "Promoted Attributes > Types of attributes",
+      "contextHash": "ba3fb2fd35eb74fc252a6a9d665fdfd3f41d56793b8c8d9c45fd31ba12cce437",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_37394eb5e10045f858a6330d_0",
+      "kind": "p",
+      "source": "For label-based attributes, these types are not enforced by the attribute system, meaning that changing the type afterwards does not guarantee that the values in it correspond to the type (e.g. turning a text into a number).",
+      "sourceHash": "37394eb5e10045f858a6330d3ec60f4f2f67b47f4c929cab612e78fc04950b79",
+      "context": "Promoted Attributes > Types of attributes",
+      "contextHash": "ba3fb2fd35eb74fc252a6a9d665fdfd3f41d56793b8c8d9c45fd31ba12cce437",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_521fae47ca36c227c8ead72e_0",
+      "kind": "h2",
+      "source": "Multiple values__TRILIUM_PH_0__",
+      "sourceHash": "521fae47ca36c227c8ead72ecfe3ac9ae72a8e60409b145f253b1e7020dfd97f",
+      "context": "Promoted Attributes > Multiple values",
+      "contextHash": "a7c300d576857afe8b777b144fe00c2a25373aab665d2d11dea674aa1660e018",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_4a801c1851c8dcf530f3a2bc_0",
+      "kind": "p",
+      "source": "When the definition allows multiple values, each value is shown as a chip and a new one is added in the box after them. Press the __TRILIUM_PH_0__ on a chip to remove that value.",
+      "sourceHash": "4a801c1851c8dcf530f3a2bc03cbda98de75bae2e0ec3eb87d9f6bf992c183a6",
+      "context": "Promoted Attributes > Multiple values",
+      "contextHash": "a7c300d576857afe8b777b144fe00c2a25373aab665d2d11dea674aa1660e018",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_eb27661f658d22b4a96cd807_0",
+      "kind": "li",
+      "source": "For free-form types such as __TRILIUM_PH_0__Text__TRILIUM_PH_1__, __TRILIUM_PH_2__Number__TRILIUM_PH_3__ or __TRILIUM_PH_4__Date__TRILIUM_PH_5__, press __TRILIUM_PH_6__Enter__TRILIUM_PH_7__ (or leave the field) to add what was typed. The same value can be added more than once, for example two payments of the same amount.",
+      "sourceHash": "eb27661f658d22b4a96cd80714a4e1a16a43c39b64ef372096a7806449c4c000",
+      "context": "Promoted Attributes > Multiple values",
+      "contextHash": "a7c300d576857afe8b777b144fe00c2a25373aab665d2d11dea674aa1660e018",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_c2376e52b2dd25df48e90475_0",
+      "kind": "li",
+      "source": "For __TRILIUM_PH_0__Select__TRILIUM_PH_1__, __TRILIUM_PH_2__Checkbox__TRILIUM_PH_3__ and __TRILIUM_PH_4__Relation__TRILIUM_PH_5__ attributes, a value is picked from the list rather than typed, and each one can be picked only once.",
+      "sourceHash": "c2376e52b2dd25df48e90475dce6eb26c9b48b58f68e7cf3f9cd5ecde5be896b",
+      "context": "Promoted Attributes > Multiple values",
+      "contextHash": "a7c300d576857afe8b777b144fe00c2a25373aab665d2d11dea674aa1660e018",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_c2f91888e0702a6afa4aa386_0",
+      "kind": "h2",
+      "source": "Creating a new promoted attribute definition__TRILIUM_PH_0__",
+      "sourceHash": "c2f91888e0702a6afa4aa3868b4a8caaa14d51ab7e810ca3f487582ab65f7db9",
+      "context": "Promoted Attributes > Creating a new promoted attribute definition",
+      "contextHash": "b4bfadfa068b0a995a85d8afa8d4630204283743dfb05c5dac536ee7ff444e0e",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_1cba2a5affc018611d6e3256_0",
+      "kind": "p",
+      "source": "To create a new promoted attribute:",
+      "sourceHash": "1cba2a5affc018611d6e3256f046875d4bfa7164f7588d39559fee9650056ee0",
+      "context": "Promoted Attributes > Creating a new promoted attribute definition",
+      "contextHash": "b4bfadfa068b0a995a85d8afa8d4630204283743dfb05c5dac536ee7ff444e0e",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_fb62c511a3e587f854efeadb_0",
+      "kind": "li",
+      "source": "Go to a note.",
+      "sourceHash": "fb62c511a3e587f854efeadb221c31b15e4f152779206a3b1f4e3a68c48c83f6",
+      "context": "Promoted Attributes > Creating a new promoted attribute definition",
+      "contextHash": "b4bfadfa068b0a995a85d8afa8d4630204283743dfb05c5dac536ee7ff444e0e",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_38b6d66202d9cf97db0c2511_0",
+      "kind": "li",
+      "source": "Go to the __TRILIUM_PH_0__Attributes tab__TRILIUM_PH_1__ in the __TRILIUM_PH_2__Right Sidebar__TRILIUM_PH_3__.",
+      "sourceHash": "38b6d66202d9cf97db0c2511b0e4fec162e786dbca5832985c39b44321d6e487",
+      "context": "Promoted Attributes > Creating a new promoted attribute definition",
+      "contextHash": "b4bfadfa068b0a995a85d8afa8d4630204283743dfb05c5dac536ee7ff444e0e",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_720c3a97772e69021315406b_0",
+      "kind": "li",
+      "source": "Press the __TRILIUM_PH_0__ button for the top-most section (__TRILIUM_PH_1__Owned attributes__TRILIUM_PH_2__).",
+      "sourceHash": "720c3a97772e69021315406b5e439997003359019f2d62ec49101cba7a754e06",
+      "context": "Promoted Attributes > Creating a new promoted attribute definition",
+      "contextHash": "b4bfadfa068b0a995a85d8afa8d4630204283743dfb05c5dac536ee7ff444e0e",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_468c77c68431b52ea6b3ca3c_0",
+      "kind": "li",
+      "source": "Select either __TRILIUM_PH_0__Add new label definition…__TRILIUM_PH_1__ or __TRILIUM_PH_2__Add new relation definition…__TRILIUM_PH_3__.",
+      "sourceHash": "468c77c68431b52ea6b3ca3ca97d54a70f88b5be3b98277c99871479abfe0cfe",
+      "context": "Promoted Attributes > Creating a new promoted attribute definition",
+      "contextHash": "b4bfadfa068b0a995a85d8afa8d4630204283743dfb05c5dac536ee7ff444e0e",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_352c86f3c81262217e968d02_0",
+      "kind": "li",
+      "source": "Select the name which will be name of the label or relation that will be created when the promoted attribute is edited.",
+      "sourceHash": "352c86f3c81262217e968d029d0506dfe00b354d133a50c0ff0234cc018d5884",
+      "context": "Promoted Attributes > Creating a new promoted attribute definition",
+      "contextHash": "b4bfadfa068b0a995a85d8afa8d4630204283743dfb05c5dac536ee7ff444e0e",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_17947c9cbf7a30a201936545_0",
+      "kind": "li",
+      "source": "Ensure __TRILIUM_PH_0__Promoted__TRILIUM_PH_1__ is checked in order to display it at the top of notes.",
+      "sourceHash": "17947c9cbf7a30a201936545484dc74ccd3dfbe5b902c3b8f6384424bdcf2c13",
+      "context": "Promoted Attributes > Creating a new promoted attribute definition",
+      "contextHash": "b4bfadfa068b0a995a85d8afa8d4630204283743dfb05c5dac536ee7ff444e0e",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_647403c63ab5a185bba78b84_0",
+      "kind": "li",
+      "source": "Optionally, choose an __TRILIUM_PH_0__Alias__TRILIUM_PH_1__ which will be displayed next to the promoted attribute instead of the attribute name. Generally it's best to choose a “user-friendly” name since it can contain spaces and other characters which are not supported as attribute names.",
+      "sourceHash": "647403c63ab5a185bba78b84bdf2207711beb53d67668a184746635ae1109e90",
+      "context": "Promoted Attributes > Creating a new promoted attribute definition",
+      "contextHash": "b4bfadfa068b0a995a85d8afa8d4630204283743dfb05c5dac536ee7ff444e0e",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_cf22b5580563e13c0d91682f_0",
+      "kind": "li",
+      "source": "Check __TRILIUM_PH_0__Inheritable__TRILIUM_PH_1__ to apply it to this note and all its descendants. To keep it only for the current note, un-check it.",
+      "sourceHash": "cf22b5580563e13c0d91682fe1ccdd3f6f77e07d10496bafd284f3541de0eb1c",
+      "context": "Promoted Attributes > Creating a new promoted attribute definition",
+      "contextHash": "b4bfadfa068b0a995a85d8afa8d4630204283743dfb05c5dac536ee7ff444e0e",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_75aeb4ed02328fbd20b6b4af_0",
+      "kind": "li",
+      "source": "Press __TRILIUM_PH_0__Save & Close__TRILIUM_PH_1__ to apply the changes.",
+      "sourceHash": "75aeb4ed02328fbd20b6b4afcc59336d4ff557e94264527461b4192d94ed47c0",
+      "context": "Promoted Attributes > Creating a new promoted attribute definition",
+      "contextHash": "b4bfadfa068b0a995a85d8afa8d4630204283743dfb05c5dac536ee7ff444e0e",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_53a59f8b5da0819528fd1332_0",
+      "kind": "p",
+      "source": "Alternatively, promoted attributes can be created from the __TRILIUM_PH_0__Status bar__TRILIUM_PH_1__ by going to __TRILIUM_PH_2__ (__TRILIUM_PH_3__Attributes__TRILIUM_PH_4__), pressing the __TRILIUM_PH_5__ button and selecting __TRILIUM_PH_6__Add new label definition…__TRILIUM_PH_7__. The resulting attribute can also be copy-pasted or written manually (albeit discouraged).",
+      "sourceHash": "53a59f8b5da0819528fd1332c28a4ffe77b1894be441525ec4e543ac2b47ec06",
+      "context": "Promoted Attributes > Creating a new promoted attribute definition",
+      "contextHash": "b4bfadfa068b0a995a85d8afa8d4630204283743dfb05c5dac536ee7ff444e0e",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_8798e55680010ab1d34f9a6c_0",
+      "kind": "h2",
+      "source": "How attribute definitions actually work__TRILIUM_PH_0__",
+      "sourceHash": "8798e55680010ab1d34f9a6cb15b3bc0da45caec266e610d0e1d8d84245d4005",
+      "context": "Promoted Attributes > How attribute definitions actually work",
+      "contextHash": "f8b68bc6d60b918a9aa3e011447b4c47dcebc21142a72d5db647ae9f498fbecf",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_f185f8f50ab725718eced4ab_0",
+      "kind": "p",
+      "source": "When a new promoted attribute definition is created, it creates a corresponding label prefixed with either __TRILIUM_PH_0__ or __TRILIUM_PH_1__, depending on the definition type:",
+      "sourceHash": "f185f8f50ab725718eced4ab94c026ff8228cb69d73e5857deffb39cf315053b",
+      "context": "Promoted Attributes > How attribute definitions actually work",
+      "contextHash": "f8b68bc6d60b918a9aa3e011447b4c47dcebc21142a72d5db647ae9f498fbecf",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_98797425f19ab1c933e03f5d_0",
+      "kind": "p",
+      "source": "The only purpose of the attribute definition is to set up a template. If the attribute was marked as promoted, then it's also displayed to the user for easy editing.",
+      "sourceHash": "98797425f19ab1c933e03f5d228a87f7d6826e797e61b5420f4854969bef9309",
+      "context": "Promoted Attributes > How attribute definitions actually work",
+      "contextHash": "f8b68bc6d60b918a9aa3e011447b4c47dcebc21142a72d5db647ae9f498fbecf",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_6cfd9b0efa8aadfc1b35d16f_0",
+      "kind": "td",
+      "source": "Notice how the promoted attribute definition only creates a “Due date” box above the text content.",
+      "sourceHash": "6cfd9b0efa8aadfc1b35d16fe6feab14bcbb975dde63f33dc372198ecf6ca5f8",
+      "context": "Promoted Attributes > How attribute definitions actually work",
+      "contextHash": "f8b68bc6d60b918a9aa3e011447b4c47dcebc21142a72d5db647ae9f498fbecf",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_bfe0f30cbdc873746cfa4a12_0",
+      "kind": "td",
+      "source": "Once a value is set by the user, a new label (or relation, depending on the type) is created. The name of the attribute matches one set when creating the promoted attribute.",
+      "sourceHash": "bfe0f30cbdc873746cfa4a12011fe713248b68a1eeaddd71a6aaf5e1279bc86e",
+      "context": "Promoted Attributes > How attribute definitions actually work",
+      "contextHash": "f8b68bc6d60b918a9aa3e011447b4c47dcebc21142a72d5db647ae9f498fbecf",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_7902d835f668a15007a973ee_0",
+      "kind": "p",
+      "source": "So there's one attribute for value and one for definition. But notice how an definition attribute can be made __TRILIUM_PH_0__Inheritable__TRILIUM_PH_1__, meaning that it's also applied to all descendant notes. In this case, the definition used for the whole sub-tree while \"value\" attributes are for each not individually.",
+      "sourceHash": "7902d835f668a15007a973eee64a45c43d954ea10d5352627ffc82bc8865a7e3",
+      "context": "Promoted Attributes > How attribute definitions actually work",
+      "contextHash": "f8b68bc6d60b918a9aa3e011447b4c47dcebc21142a72d5db647ae9f498fbecf",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_1729e2f59b41f365d6f1e0c1_0",
+      "kind": "h2",
+      "source": "Using system attributes__TRILIUM_PH_0__",
+      "sourceHash": "1729e2f59b41f365d6f1e0c1b5c9c3f49a6d3c061076b22ac27015e659f35ca4",
+      "context": "Promoted Attributes > Using system attributes",
+      "contextHash": "2da68289163322cb7ea09c3df9dfe164d1fa1e56868033a1e0a8b63f4f52a268",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_612103f88be2dfde7d223e43_0",
+      "kind": "p",
+      "source": "It's possible to create promoted attributes out of system attributes, to be able to easily alter them.",
+      "sourceHash": "612103f88be2dfde7d223e43e5af0c2a072a4637423be4c7a8397e941504a283",
+      "context": "Promoted Attributes > Using system attributes",
+      "contextHash": "2da68289163322cb7ea09c3df9dfe164d1fa1e56868033a1e0a8b63f4f52a268",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_a94742f8639e3f548a480c2f_0",
+      "kind": "p",
+      "source": "Here are a few practical examples:",
+      "sourceHash": "a94742f8639e3f548a480c2f38251e7a9309b54baf50c63858150ab6acd62f7f",
+      "context": "Promoted Attributes > Using system attributes",
+      "contextHash": "2da68289163322cb7ea09c3df9dfe164d1fa1e56868033a1e0a8b63f4f52a268",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_ab7bd3fb73fbd61800ad76a2_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__Collections__TRILIUM_PH_1__ already make use of this practice, for example:",
+      "sourceHash": "ab7bd3fb73fbd61800ad76a28ba1403e622983fdb336359c640c218a3eb4c374",
+      "context": "Promoted Attributes > Using system attributes",
+      "contextHash": "2da68289163322cb7ea09c3df9dfe164d1fa1e56868033a1e0a8b63f4f52a268",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_23d90bc378b07b4bf7500006_0",
+      "kind": "li",
+      "source": "Calendars add “Start Date”, “End Date”, “Start Time” and “End Time” as promoted attributes. These map to system attributes such as __TRILIUM_PH_0__ which are then interpreted by the calendar view.",
+      "sourceHash": "23d90bc378b07b4bf75000069176a317a5e3b34ab357f4c83ed856385eef4f32",
+      "context": "Promoted Attributes > Using system attributes",
+      "contextHash": "2da68289163322cb7ea09c3df9dfe164d1fa1e56868033a1e0a8b63f4f52a268",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_5ff2d928b29c86debd8d7eb4_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__Presentation__TRILIUM_PH_1__ adds a “Background” promoted attribute for each of the slide to easily be able to customize.",
+      "sourceHash": "5ff2d928b29c86debd8d7eb4fedcb1db021b8b498a7252eafc88e54b6804a730",
+      "context": "Promoted Attributes > Using system attributes",
+      "contextHash": "2da68289163322cb7ea09c3df9dfe164d1fa1e56868033a1e0a8b63f4f52a268",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_fe7c4a1fd795f842cb9d80fa_0",
+      "kind": "li",
+      "source": "The Trilium documentation (which is edited in Trilium) uses a promoted attribute to be able to easily edit the __TRILIUM_PH_0__ (see __TRILIUM_PH_1__Sharing__TRILIUM_PH_2__) in order to form clean URLs.",
+      "sourceHash": "fe7c4a1fd795f842cb9d80fa0e22d6534427dbd723bb9de3f4d403b4a7bacbb9",
+      "context": "Promoted Attributes > Using system attributes",
+      "contextHash": "2da68289163322cb7ea09c3df9dfe164d1fa1e56868033a1e0a8b63f4f52a268",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_a858eb77d31fdbc69a456ed4_0",
+      "kind": "li",
+      "source": "If you always edit a particular system attribute such as __TRILIUM_PH_0__, simply create a promoted attribute for it to make it easier.",
+      "sourceHash": "a858eb77d31fdbc69a456ed4bb637d689e773c65d7aa6edf44d8fe6b42b2e91b",
+      "context": "Promoted Attributes > Using system attributes",
+      "contextHash": "2da68289163322cb7ea09c3df9dfe164d1fa1e56868033a1e0a8b63f4f52a268",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_61045c54e01e6cec841ad1dd_0",
+      "kind": "h3",
+      "source": "Inverse relation__TRILIUM_PH_0__",
+      "sourceHash": "61045c54e01e6cec841ad1dde628982e51d8f6474ccd019022cfb887c0612fd7",
+      "context": "Promoted Attributes > Using system attributes > Inverse relation",
+      "contextHash": "2aed45eb30074eff1c1d277c538b39151365ede15d23f522a4d670fe704554e9",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_fa52537d17e1779c4cc4e8cc_0",
+      "kind": "p",
+      "source": "Some relations always occur in pairs - my favorite example is on the family. If you have a note representing husband and note representing wife, then there might be a relation between those two of __TRILIUM_PH_0__. This is bidirectional relationship - meaning that if a relation is pointing from husband to wife then there should be always another relation pointing from wife to husband.",
+      "sourceHash": "fa52537d17e1779c4cc4e8cc817bab07424f7105a700a98ef60c045f97cf28af",
+      "context": "Promoted Attributes > Using system attributes > Inverse relation",
+      "contextHash": "2aed45eb30074eff1c1d277c538b39151365ede15d23f522a4d670fe704554e9",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_92ce04df68a16d801149f50a_0",
+      "kind": "p",
+      "source": "Another example is with parent-child relationship. Again these always occur in pairs, but in this case it's not exact same relation - the one going from parent to child might be called __TRILIUM_PH_0__ and the other one going from child to parent might be called __TRILIUM_PH_1__.",
+      "sourceHash": "92ce04df68a16d801149f50a25699fa6df92dc6b8601e6e886fb898fce8f6da0",
+      "context": "Promoted Attributes > Using system attributes > Inverse relation",
+      "contextHash": "2aed45eb30074eff1c1d277c538b39151365ede15d23f522a4d670fe704554e9",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_64c97593065ffd73e5e306ef_0",
+      "kind": "p",
+      "source": "Relation definition allows you to specify such \"inverse relation\" - for the relation you just define you specify which is the inverse relation. Note that in the second example we should have two relation definitions - one for __TRILIUM_PH_0__ which defines __TRILIUM_PH_1__ as inverse relation and then second relation definition for __TRILIUM_PH_2__ which defines __TRILIUM_PH_3__ as inverse relation.",
+      "sourceHash": "64c97593065ffd73e5e306efed12e9bd25e4274e9c60a81cb05a72581deeb714",
+      "context": "Promoted Attributes > Using system attributes > Inverse relation",
+      "contextHash": "2aed45eb30074eff1c1d277c538b39151365ede15d23f522a4d670fe704554e9",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_52114eb87e544b9f79e9fa41_0",
+      "kind": "p",
+      "source": "What this does internally is that whenever we save a relation which has defined inverse relation, we check that this inverse relation exists on the relation target note. Similarly, when we delete relation, we also delete inverse relation on the target note.",
+      "sourceHash": "52114eb87e544b9f79e9fa41b3351df3b413432aae11d82121e3f2b67609b30b",
+      "context": "Promoted Attributes > Using system attributes > Inverse relation",
+      "contextHash": "2aed45eb30074eff1c1d277c538b39151365ede15d23f522a4d670fe704554e9",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_b056715d5493280169407022_0",
+      "kind": "h2",
+      "source": "See also__TRILIUM_PH_0__",
+      "sourceHash": "b056715d549328016940702234a644413c07c0558c4f59edcc3d85ec15afe208",
+      "context": "Promoted Attributes > See also",
+      "contextHash": "57d97a74c69b2291e79a18ba0433d02d6f7e87da83f28ef818ebf410a1635307",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_731f338b7dc2ae0f1eace42f_0",
+      "kind": "li",
+      "source": "The __TRILIUM_PH_0__Table__TRILIUM_PH_1__ collection makes heavy use of promoted attributes to define the columns of the table, since they already carry the type information. When made inheritable, it's also easy to change those fields when the child notes are opened.",
+      "sourceHash": "731f338b7dc2ae0f1eace42f077097d67bfe615fc6af27299af55dc6c753cf37",
+      "context": "Promoted Attributes > See also",
+      "contextHash": "57d97a74c69b2291e79a18ba0433d02d6f7e87da83f28ef818ebf410a1635307",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_b190d47815633246b0ab18a6_0",
+      "kind": "image-alt",
+      "source": "記事画像",
+      "sourceHash": "b190d47815633246b0ab18a61d9b8e8ea36504fe3f8bc230a7753096915c9ff2",
+      "context": "Promoted Attributes > See also",
+      "contextHash": "57d97a74c69b2291e79a18ba0433d02d6f7e87da83f28ef818ebf410a1635307",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_b190d47815633246b0ab18a6_1",
+      "kind": "image-alt",
+      "source": "記事画像",
+      "sourceHash": "b190d47815633246b0ab18a61d9b8e8ea36504fe3f8bc230a7753096915c9ff2",
+      "context": "Promoted Attributes > See also",
+      "contextHash": "57d97a74c69b2291e79a18ba0433d02d6f7e87da83f28ef818ebf410a1635307",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_b190d47815633246b0ab18a6_2",
+      "kind": "image-alt",
+      "source": "記事画像",
+      "sourceHash": "b190d47815633246b0ab18a61d9b8e8ea36504fe3f8bc230a7753096915c9ff2",
+      "context": "Promoted Attributes > See also",
+      "contextHash": "57d97a74c69b2291e79a18ba0433d02d6f7e87da83f28ef818ebf410a1635307",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_b190d47815633246b0ab18a6_3",
+      "kind": "image-alt",
+      "source": "記事画像",
+      "sourceHash": "b190d47815633246b0ab18a61d9b8e8ea36504fe3f8bc230a7753096915c9ff2",
+      "context": "Promoted Attributes > See also",
+      "contextHash": "57d97a74c69b2291e79a18ba0433d02d6f7e87da83f28ef818ebf410a1635307",
+      "status": "pending",
+      "active": true
+    }
+  ],
+  "requests": []
+}

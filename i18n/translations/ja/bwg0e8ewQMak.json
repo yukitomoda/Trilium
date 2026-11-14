@@ -1,0 +1,339 @@
+{
+  "schemaVersion": 1,
+  "pageId": "bwg0e8ewQMak",
+  "sourceFile": "docs/User Guide/User Guide/Basic Concepts and Features/Notes/Protected Notes.md",
+  "sourceRevision": "03d17b60f59b5efc29b880b11481471d0fe0ff57",
+  "units": [
+    {
+      "id": "u_3fea256c3a37fbe1a613c607_0",
+      "kind": "title",
+      "source": "Protected Notes",
+      "sourceHash": "3fea256c3a37fbe1a613c60741341d73e227feffefda4de4db0fc512cbad7650",
+      "context": "Protected Notes",
+      "contextHash": "4bbdb8e76f77167410e120ddcb8b51de00ea5721adc3ff7033b8db4f6a704835",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_0a6af9900c5e1b352df3aae9_0",
+      "kind": "p",
+      "source": "Trilium is designed to store a wide variety of data, including sensitive information such as personal journals, credentials, or confidential documents. To safeguard this type of content, Trilium offers the option to protect notes, which involves the following measures:",
+      "sourceHash": "0a6af9900c5e1b352df3aae937a9ff865c699ce3f6231f7a9ffa55443a1853af",
+      "context": "Protected Notes",
+      "contextHash": "4bbdb8e76f77167410e120ddcb8b51de00ea5721adc3ff7033b8db4f6a704835",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_69f0de115f7d691258db44c1_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__Encryption:__TRILIUM_PH_1__ Protected notes are encrypted using a key derived from your password. This ensures that without the correct password, protected notes remain indecipherable. Even if someone gains access to your Trilium __TRILIUM_PH_2__database__TRILIUM_PH_3__, they won't be able to read your encrypted notes.",
+      "sourceHash": "69f0de115f7d691258db44c186338711bf6f347f4cabb91dd36cfceb6d08dbc3",
+      "context": "Protected Notes",
+      "contextHash": "4bbdb8e76f77167410e120ddcb8b51de00ea5721adc3ff7033b8db4f6a704835",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_038b042761ecfaca35ec300e_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__Time-limited access:__TRILIUM_PH_1__ To access protected notes, you must first enter your password, which decrypts the note for reading and writing. However, after a specified period of inactivity (10 minutes by default), the note is unloaded from memory, requiring you to re-enter your password to access it again.",
+      "sourceHash": "038b042761ecfaca35ec300e339d90f2e189e202eb13d3054a2aacc1f04cd045",
+      "context": "Protected Notes",
+      "contextHash": "4bbdb8e76f77167410e120ddcb8b51de00ea5721adc3ff7033b8db4f6a704835",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_9c2e19af3385e40d3dc923f6_0",
+      "kind": "li",
+      "source": "The session timeout is extended automatically while you're interacting with the protected note, so if you're actively editing, the session remains open. However, if you switch to an unprotected note, the session timer starts, and the session expires after 10 minutes of inactivity unless you return to the protected notes.",
+      "sourceHash": "9c2e19af3385e40d3dc923f67f9366d4099f91a7661a5aab4aadf0dc2b6554ca",
+      "context": "Protected Notes",
+      "contextHash": "4bbdb8e76f77167410e120ddcb8b51de00ea5721adc3ff7033b8db4f6a704835",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_00bbee9b022e9e3c139186f3_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__Protection scope:__TRILIUM_PH_1__ Protected notes ensure the confidentiality of their content and partially their integrity. While unauthorized users cannot read or edit protected notes, they can still delete or move them outside of the protected session.",
+      "sourceHash": "00bbee9b022e9e3c139186f30812daffba4ca5f031cd8d2b81021d98be25ba72",
+      "context": "Protected Notes",
+      "contextHash": "4bbdb8e76f77167410e120ddcb8b51de00ea5721adc3ff7033b8db4f6a704835",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_5dd3ac9196e5f198b2bea758_0",
+      "kind": "h2",
+      "source": "Using Protected Notes__TRILIUM_PH_0__",
+      "sourceHash": "5dd3ac9196e5f198b2bea75897ff80f4ba336acfa3af4a8a791c36358211c996",
+      "context": "Protected Notes > Using Protected Notes",
+      "contextHash": "006b769c0913bb847efc2a042a8ce5002de9681db78a5ed8bef6e950db3b9c37",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_fe3f4f7952867982d8b561cb_0",
+      "kind": "p",
+      "source": "By default, notes are unprotected. To protect a note, simply click on the shield icon next to the note's title, as shown here:",
+      "sourceHash": "fe3f4f7952867982d8b561cb0660b9154427efe3f73f1b56c383612b2e83b3ee",
+      "context": "Protected Notes > Using Protected Notes",
+      "contextHash": "006b769c0913bb847efc2a042a8ce5002de9681db78a5ed8bef6e950db3b9c37",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_aa2909ea640b23af7046bbbf_0",
+      "kind": "h2",
+      "source": "What is Encrypted?__TRILIUM_PH_0__",
+      "sourceHash": "aa2909ea640b23af7046bbbf0a4b7df23826183b6356cc73722334850498db56",
+      "context": "Protected Notes > What is Encrypted?",
+      "contextHash": "9920dee315d9538d25bebc1b2ea4a92f2c7a215e88390e842770543fccc54df1",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_3e9c2cd25f370966059a2e08_0",
+      "kind": "p",
+      "source": "Trilium encrypts the data within protected notes but not their metadata. Specifically:",
+      "sourceHash": "3e9c2cd25f370966059a2e08dfc20e028c3a5d06aef9c284160f128f514abcf2",
+      "context": "Protected Notes > What is Encrypted?",
+      "contextHash": "9920dee315d9538d25bebc1b2ea4a92f2c7a215e88390e842770543fccc54df1",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_aefa114ae6751a6bcb343637_0",
+      "kind": "p",
+      "source": "__TRILIUM_PH_0__Encrypted:__TRILIUM_PH_1__",
+      "sourceHash": "aefa114ae6751a6bcb3436376bb1deaaceb13086c0ccffbdacb2f6deaf7ecb4c",
+      "context": "Protected Notes > What is Encrypted?",
+      "contextHash": "9920dee315d9538d25bebc1b2ea4a92f2c7a215e88390e842770543fccc54df1",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_a7575294d34f63028c00e165_0",
+      "kind": "li",
+      "source": "Note title",
+      "sourceHash": "a7575294d34f63028c00e165fd1752c7fa863f045cb1d0b50aa68c95f4e37358",
+      "context": "Protected Notes > What is Encrypted?",
+      "contextHash": "9920dee315d9538d25bebc1b2ea4a92f2c7a215e88390e842770543fccc54df1",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_2272098a1793b06286894215_0",
+      "kind": "li",
+      "source": "Note content",
+      "sourceHash": "2272098a1793b06286894215ce1f6a2558a8ba41cfd04f7ccb70d697256a5365",
+      "context": "Protected Notes > What is Encrypted?",
+      "contextHash": "9920dee315d9538d25bebc1b2ea4a92f2c7a215e88390e842770543fccc54df1",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_d81355c11b1183557ad81c5b_0",
+      "kind": "li",
+      "source": "Images",
+      "sourceHash": "d81355c11b1183557ad81c5b87ba2fd6ff827c81d18dc290ff8b338ea63358cc",
+      "context": "Protected Notes > What is Encrypted?",
+      "contextHash": "9920dee315d9538d25bebc1b2ea4a92f2c7a215e88390e842770543fccc54df1",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_b09ce53e6b0fdce089fe75c3_0",
+      "kind": "li",
+      "source": "File attachments",
+      "sourceHash": "b09ce53e6b0fdce089fe75c389d0119e8884eec93615e1d7328fd0f7b55035b2",
+      "context": "Protected Notes > What is Encrypted?",
+      "contextHash": "9920dee315d9538d25bebc1b2ea4a92f2c7a215e88390e842770543fccc54df1",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_c8fe1d0dcfa8c472dce71ee1_0",
+      "kind": "p",
+      "source": "__TRILIUM_PH_0__Not encrypted:__TRILIUM_PH_1__",
+      "sourceHash": "c8fe1d0dcfa8c472dce71ee1af15858e2339924b461589fe45b1b58d42601f31",
+      "context": "Protected Notes > What is Encrypted?",
+      "contextHash": "9920dee315d9538d25bebc1b2ea4a92f2c7a215e88390e842770543fccc54df1",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_c17bee010c2ee472023b88bb_0",
+      "kind": "li",
+      "source": "Note structure (i.e., it remains visible that there are protected notes)",
+      "sourceHash": "c17bee010c2ee472023b88bb2d7f3eda76c0f033a7a445ab3154afbc9b4c43e5",
+      "context": "Protected Notes > What is Encrypted?",
+      "contextHash": "9920dee315d9538d25bebc1b2ea4a92f2c7a215e88390e842770543fccc54df1",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_4c8c9277dff33db2752d1f1f_0",
+      "kind": "li",
+      "source": "Metadata, such as the last modified date",
+      "sourceHash": "4c8c9277dff33db2752d1f1f12275330d5c862495cc0de3be1d724848204d3d4",
+      "context": "Protected Notes > What is Encrypted?",
+      "contextHash": "9920dee315d9538d25bebc1b2ea4a92f2c7a215e88390e842770543fccc54df1",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_c63529f561c833af3e2b4376_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__Attributes__TRILIUM_PH_1__",
+      "sourceHash": "c63529f561c833af3e2b4376ba8343f625dc90ac32dd599c7e07ccf2ff124fce",
+      "context": "Protected Notes > What is Encrypted?",
+      "contextHash": "9920dee315d9538d25bebc1b2ea4a92f2c7a215e88390e842770543fccc54df1",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_65e2a094893044f266084081_0",
+      "kind": "h2",
+      "source": "Encryption Details__TRILIUM_PH_0__",
+      "sourceHash": "65e2a094893044f266084081de2b389cc6beb3938412e9190c3a32012ce0ba9c",
+      "context": "Protected Notes > Encryption Details",
+      "contextHash": "1e81386b5296d18ff106698772c0e2bf5a6643404f93b4c2a1fa8325873a925f",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_4f88f8164fdbfe709b5034bb_0",
+      "kind": "p",
+      "source": "The following steps outline how encryption and decryption work in Trilium:",
+      "sourceHash": "4f88f8164fdbfe709b5034bbc7935bd5f925a093254df02f88b07708c61280e8",
+      "context": "Protected Notes > Encryption Details",
+      "contextHash": "1e81386b5296d18ff106698772c0e2bf5a6643404f93b4c2a1fa8325873a925f",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_2d85149d786df2b97b5c9e3a_0",
+      "kind": "li",
+      "source": "The user enters a password.",
+      "sourceHash": "2d85149d786df2b97b5c9e3acf26485b4faf96b680baa5f748dd657442288217",
+      "context": "Protected Notes > Encryption Details",
+      "contextHash": "1e81386b5296d18ff106698772c0e2bf5a6643404f93b4c2a1fa8325873a925f",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_556d314df628e3a1a4dc3b57_0",
+      "kind": "li",
+      "source": "The password is passed through the __TRILIUM_PH_0__scrypt__TRILIUM_PH_1__ algorithm along with a \"password verification\" __TRILIUM_PH_2__salt__TRILIUM_PH_3__ to confirm that the password is correct.",
+      "sourceHash": "556d314df628e3a1a4dc3b573bd470be9fbdb0776847593488a8b97262f393d3",
+      "context": "Protected Notes > Encryption Details",
+      "contextHash": "1e81386b5296d18ff106698772c0e2bf5a6643404f93b4c2a1fa8325873a925f",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_a31894b97dca5f600a5addea_0",
+      "kind": "li",
+      "source": "The password is then processed again through scrypt with an \"encryption\" salt, which generates a hash.",
+      "sourceHash": "a31894b97dca5f600a5addea6edcadafeb086ebfbe47cfb9713b719495abbb9d",
+      "context": "Protected Notes > Encryption Details",
+      "contextHash": "1e81386b5296d18ff106698772c0e2bf5a6643404f93b4c2a1fa8325873a925f",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_c003c31b649117c5994bbee7_0",
+      "kind": "li",
+      "source": "Scrypt is used for __TRILIUM_PH_0__key stretching__TRILIUM_PH_1__ to make the password harder to guess.",
+      "sourceHash": "c003c31b649117c5994bbee731245d52dc4a3fdce918adee473cd40c11eddafa",
+      "context": "Protected Notes > Encryption Details",
+      "contextHash": "1e81386b5296d18ff106698772c0e2bf5a6643404f93b4c2a1fa8325873a925f",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_11ba027074366cb837b17b8c_0",
+      "kind": "li",
+      "source": "The generated hash is used to decrypt the actual __TRILIUM_PH_0__data encryption key__TRILIUM_PH_1__.",
+      "sourceHash": "11ba027074366cb837b17b8c869012723aabedee8cce1d562c125677a26f04b0",
+      "context": "Protected Notes > Encryption Details",
+      "contextHash": "1e81386b5296d18ff106698772c0e2bf5a6643404f93b4c2a1fa8325873a925f",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_94c9ddc55ccae5c09aa53d82_0",
+      "kind": "li",
+      "source": "The data encryption key is encrypted using __TRILIUM_PH_0__AES-128__TRILIUM_PH_1__ with a random __TRILIUM_PH_2__IV__TRILIUM_PH_3__.",
+      "sourceHash": "94c9ddc55ccae5c09aa53d82160889279368b48ab832dfc36c3043ccf39af041",
+      "context": "Protected Notes > Encryption Details",
+      "contextHash": "1e81386b5296d18ff106698772c0e2bf5a6643404f93b4c2a1fa8325873a925f",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_3be84bcdf20db81e572f00c2_0",
+      "kind": "li",
+      "source": "The data encryption key is randomly generated during the __TRILIUM_PH_0__database__TRILIUM_PH_1__ initialization and remains constant throughout the document’s lifetime. When the password is changed, only this key is re-encrypted.",
+      "sourceHash": "3be84bcdf20db81e572f00c223c1344780fe27fc5141ea9ec85ce748d4ccf8ca",
+      "context": "Protected Notes > Encryption Details",
+      "contextHash": "1e81386b5296d18ff106698772c0e2bf5a6643404f93b4c2a1fa8325873a925f",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_20ab598e224d4ff0dc9b0e5a_0",
+      "kind": "li",
+      "source": "The data encryption key is then used to decrypt the actual content of the note, including its title and body.",
+      "sourceHash": "20ab598e224d4ff0dc9b0e5a7bc42f605a139be85ae6df3fdcb2f22625aabb4b",
+      "context": "Protected Notes > Encryption Details",
+      "contextHash": "1e81386b5296d18ff106698772c0e2bf5a6643404f93b4c2a1fa8325873a925f",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_b2bc6c3c760956a15967a182_0",
+      "kind": "li",
+      "source": "The encryption algorithm used is AES-128 with __TRILIUM_PH_0__CBC mode__TRILIUM_PH_1__, where a unique IV is generated for each encryption operation and stored with the cipher text.",
+      "sourceHash": "b2bc6c3c760956a15967a182a5adf14244ad2cd113f0e6bf4cfffee3854477d9",
+      "context": "Protected Notes > Encryption Details",
+      "contextHash": "1e81386b5296d18ff106698772c0e2bf5a6643404f93b4c2a1fa8325873a925f",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_66f86a35c4ca4205e13cef6d_0",
+      "kind": "h2",
+      "source": "Sharing Protected Notes__TRILIUM_PH_0__",
+      "sourceHash": "66f86a35c4ca4205e13cef6daf8bfdbe15f48cbc8baff323026bec26308fbd96",
+      "context": "Protected Notes > Sharing Protected Notes",
+      "contextHash": "9e82d879e34f64426cefaa8832a41b833116c2975c3caa64176054eae3594af3",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_030f8e687146bd50023f071a_0",
+      "kind": "p",
+      "source": "Protected notes cannot be shared in the same way as regular notes. Their encryption ensures that only authorized users with the correct password can access them.",
+      "sourceHash": "030f8e687146bd50023f071a08c37da78bb726ddf290561a96e3550d21ab3d43",
+      "context": "Protected Notes > Sharing Protected Notes",
+      "contextHash": "9e82d879e34f64426cefaa8832a41b833116c2975c3caa64176054eae3594af3",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_019d00d7698f17028bd34466_0",
+      "kind": "image-alt",
+      "source": "example animation of unlocking protected notes",
+      "sourceHash": "019d00d7698f17028bd344669afbf29f5e62276329ddcc99eefa020b9211a98d",
+      "context": "Protected Notes > Sharing Protected Notes",
+      "contextHash": "9e82d879e34f64426cefaa8832a41b833116c2975c3caa64176054eae3594af3",
+      "status": "pending",
+      "active": true
+    }
+  ],
+  "requests": []
+}

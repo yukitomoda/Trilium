@@ -1,0 +1,479 @@
+{
+  "schemaVersion": 1,
+  "pageId": "vZWERwf8U3nx",
+  "sourceFile": "docs/User Guide/User Guide/Basic Concepts and Features/Notes/Note Revisions.md",
+  "sourceRevision": "03d17b60f59b5efc29b880b11481471d0fe0ff57",
+  "units": [
+    {
+      "id": "u_5ce6cb59ccd2ee655d1bdc52_0",
+      "kind": "title",
+      "source": "Note Revisions",
+      "sourceHash": "5ce6cb59ccd2ee655d1bdc528af6a319e8a4535c5052ca9c0aa4eb29bf8d5fc2",
+      "context": "Note Revisions",
+      "contextHash": "6e04a42400f0231e3c194bcb69b984b8ade3f15329e3d8fd47528d55fee768ab",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_7215a38eb92ef095166e51ed_0",
+      "kind": "p",
+      "source": "Trilium supports seamless versioning of notes by storing snapshots (\"revisions\") of notes at regular intervals.",
+      "sourceHash": "7215a38eb92ef095166e51ed1a73285660c2e51f18dbd88101e7dcd4dc607810",
+      "context": "Note Revisions",
+      "contextHash": "6e04a42400f0231e3c194bcb69b984b8ade3f15329e3d8fd47528d55fee768ab",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_2995ccab6c75dc0efef5d707_0",
+      "kind": "p",
+      "source": "To display the revisions, press the __TRILIUM_PH_0__Note menu__TRILIUM_PH_1__ and select __TRILIUM_PH_2__Note revisions…__TRILIUM_PH_3__ (__TRILIUM_PH_4__).",
+      "sourceHash": "2995ccab6c75dc0efef5d7075f3b406f9b0504881f4d03fb499fbb86a95d490f",
+      "context": "Note Revisions",
+      "contextHash": "6e04a42400f0231e3c194bcb69b984b8ade3f15329e3d8fd47528d55fee768ab",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_27591f4e86746d469eb2d832_0",
+      "kind": "h2",
+      "source": "Interaction__TRILIUM_PH_0__",
+      "sourceHash": "27591f4e86746d469eb2d8323f6dda382149928ec0550ca8a5a6fdfc24cab9a6",
+      "context": "Note Revisions > Interaction",
+      "contextHash": "498bac8a365da4febffd983cd819b9b760d69aece84290afd41341dabb1ae617",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_c9a938e9b0ca703520ec98e6_0",
+      "kind": "p",
+      "source": "This documentation matches the redesign of the note revisions dialog on v0.103.0, older versions have a similar dialog but with some differences.",
+      "sourceHash": "c9a938e9b0ca703520ec98e69772741850125b9fa7331b55b4051f996353fe1f",
+      "context": "Note Revisions > Interaction",
+      "contextHash": "498bac8a365da4febffd983cd819b9b760d69aece84290afd41341dabb1ae617",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_1a9f1d7b2b432abcd1625742_0",
+      "kind": "li",
+      "source": "The full list of revisions are displayed on the left in reverse chronological order.",
+      "sourceHash": "1a9f1d7b2b432abcd16257429dfc8bec8c3b45153116b97154e93f1d4de4c3f3",
+      "context": "Note Revisions > Interaction",
+      "contextHash": "498bac8a365da4febffd983cd819b9b760d69aece84290afd41341dabb1ae617",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_80e4c57cbef69387607dab3a_0",
+      "kind": "li",
+      "source": "The revisions are grouped by the date the revision was taken.",
+      "sourceHash": "80e4c57cbef69387607dab3a8d77458affa7140016361f1b2d71fe891c18b509",
+      "context": "Note Revisions > Interaction",
+      "contextHash": "498bac8a365da4febffd983cd819b9b760d69aece84290afd41341dabb1ae617",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_06a057fcdf00828749386847_0",
+      "kind": "li",
+      "source": "This list does not contain the __TRILIUM_PH_0__current state__TRILIUM_PH_1__ of the note, so it is possible to have notes with no revisions/snapshots saved.",
+      "sourceHash": "06a057fcdf00828749386847255b4c9ef98dfe2cadb346ea358e250c010cd42b",
+      "context": "Note Revisions > Interaction",
+      "contextHash": "498bac8a365da4febffd983cd819b9b760d69aece84290afd41341dabb1ae617",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_c4bf693ab1c36590e7ba64b0_0",
+      "kind": "li",
+      "source": "The icon of a revision indicates the __TRILIUM_PH_0__source__TRILIUM_PH_1__ of that revision (e.g. a __TRILIUM_PH_2__ icon for a manually saved revision).",
+      "sourceHash": "c4bf693ab1c36590e7ba64b064cf3092571598feed789ed8a9eabf2d63ec2574",
+      "context": "Note Revisions > Interaction",
+      "contextHash": "498bac8a365da4febffd983cd819b9b760d69aece84290afd41341dabb1ae617",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_7fb5979e40b9bebb8b0b8c7f_0",
+      "kind": "li",
+      "source": "Pressing the __TRILIUM_PH_0__ button on the top-right of the dialog displays multiple options, including:",
+      "sourceHash": "7fb5979e40b9bebb8b0b8c7f8c0b2ad56208e51c6866930c6c6c809bee5badc0",
+      "context": "Note Revisions > Interaction",
+      "contextHash": "498bac8a365da4febffd983cd819b9b760d69aece84290afd41341dabb1ae617",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_8de649362c5aa34b841df56e_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__ Saving a new revision now.",
+      "sourceHash": "8de649362c5aa34b841df56eb70d82221e1c8c487ad69490261932899a9bf1b3",
+      "context": "Note Revisions > Interaction",
+      "contextHash": "498bac8a365da4febffd983cd819b9b760d69aece84290afd41341dabb1ae617",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_3332a316790da36466f3aae7_0",
+      "kind": "li",
+      "source": "Checking the interval and limit for this note (see below).",
+      "sourceHash": "3332a316790da36466f3aae7102e759d5f53b5cb4cac71a2e1215727b2d9851b",
+      "context": "Note Revisions > Interaction",
+      "contextHash": "498bac8a365da4febffd983cd819b9b760d69aece84290afd41341dabb1ae617",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_1dce282642fb26aea4f9370a_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__ Deleting all the revisions of this note.",
+      "sourceHash": "1dce282642fb26aea4f9370a97ef56e736430051cf03b470e3f537529eb66022",
+      "context": "Note Revisions > Interaction",
+      "contextHash": "498bac8a365da4febffd983cd819b9b760d69aece84290afd41341dabb1ae617",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_093c18b665f37f9606c175c6_0",
+      "kind": "li",
+      "source": "For supported notes (text, code), changes are highlighted. This behavior can be toggled via the __TRILIUM_PH_0__Highlight changes__TRILIUM_PH_1__ at the top of the dialog.",
+      "sourceHash": "093c18b665f37f9606c175c66fdd01f17692b323302b198bfe437cd22648567c",
+      "context": "Note Revisions > Interaction",
+      "contextHash": "498bac8a365da4febffd983cd819b9b760d69aece84290afd41341dabb1ae617",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_2a3379969ce1410373a164f2_0",
+      "kind": "li",
+      "source": "The highlighted changes are relative to the __TRILIUM_PH_0__current state of the note__TRILIUM_PH_1__, not to the revision prior to this one.",
+      "sourceHash": "2a3379969ce1410373a164f22852431682ace3536b49e10c2891ef85a18fc51a",
+      "context": "Note Revisions > Interaction",
+      "contextHash": "498bac8a365da4febffd983cd819b9b760d69aece84290afd41341dabb1ae617",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_301d51847f4960a30903f2c3_0",
+      "kind": "li",
+      "source": "For any given revision, the buttons on the top-right allow operating on it:",
+      "sourceHash": "301d51847f4960a30903f2c32993207129a5a126912150210d54773388f95e1a",
+      "context": "Note Revisions > Interaction",
+      "contextHash": "498bac8a365da4febffd983cd819b9b760d69aece84290afd41341dabb1ae617",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_55caeb0e88f84d4a63a104be_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__ Deleting the revision.",
+      "sourceHash": "55caeb0e88f84d4a63a104bedcfafc9980e41956f2c61e973f20ba13f2848db1",
+      "context": "Note Revisions > Interaction",
+      "contextHash": "498bac8a365da4febffd983cd819b9b760d69aece84290afd41341dabb1ae617",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_60ef215f6d435797c1f5ce3d_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__ Downloading the revision locally.",
+      "sourceHash": "60ef215f6d435797c1f5ce3d0066f3bbecafbe663f4c5a8803927d817e950a4a",
+      "context": "Note Revisions > Interaction",
+      "contextHash": "498bac8a365da4febffd983cd819b9b760d69aece84290afd41341dabb1ae617",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_1079431ec9431e0c137124d0_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__ Restoring the revision, which replaces the current content of the note with the one from the revision. Another revision is saved containing the current content of the note.",
+      "sourceHash": "1079431ec9431e0c137124d0657172e705408478034ffbffb75353ebd0e4c3a6",
+      "context": "Note Revisions > Interaction",
+      "contextHash": "498bac8a365da4febffd983cd819b9b760d69aece84290afd41341dabb1ae617",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_9fb9728c52f218d4915d2d24_0",
+      "kind": "h2",
+      "source": "Named revisions__TRILIUM_PH_0__",
+      "sourceHash": "9fb9728c52f218d4915d2d24bf5bba4b97dfabee9f3ef037552c859eb1c011af",
+      "context": "Note Revisions > Named revisions",
+      "contextHash": "90d60d1a040bed3a9115b6b11f1761a4b806643482245c03a42bf1b57dc643d3",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_501204b2f578b0b7f51534b3_0",
+      "kind": "p",
+      "source": "Named revisions are a new feature of Trilium v0.103.0 which allows adding a short description of what the changes in the snapshot contain.",
+      "sourceHash": "501204b2f578b0b7f51534b392ac962d7dc4c7933c2de4954a5f83e03f795469",
+      "context": "Note Revisions > Named revisions",
+      "contextHash": "90d60d1a040bed3a9115b6b11f1761a4b806643482245c03a42bf1b57dc643d3",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_842560445dda493ae0a30330_0",
+      "kind": "p",
+      "source": "In the list of note revisions:",
+      "sourceHash": "842560445dda493ae0a3033097d48d4b32bd7d80c94f1bd72443f09cc7d40983",
+      "context": "Note Revisions > Named revisions",
+      "contextHash": "90d60d1a040bed3a9115b6b11f1761a4b806643482245c03a42bf1b57dc643d3",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_36e1ec041014d98d924a8093_0",
+      "kind": "li",
+      "source": "The name of the revision is displayed underneath the time of the revision in the sidebar, as well as at the top of the dialog where it is displayed in full.",
+      "sourceHash": "36e1ec041014d98d924a809309fa557cde575c900ecd707ca662533d41828dc0",
+      "context": "Note Revisions > Named revisions",
+      "contextHash": "90d60d1a040bed3a9115b6b11f1761a4b806643482245c03a42bf1b57dc643d3",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_64ec10a5f48c7eb32df6d342_0",
+      "kind": "li",
+      "source": "Clicking on the __TRILIUM_PH_0__ edit button near the name of the revision allows it to be changed.",
+      "sourceHash": "64ec10a5f48c7eb32df6d3424720bf20eaa7d9b027684d65e36a21a144fad063",
+      "context": "Note Revisions > Named revisions",
+      "contextHash": "90d60d1a040bed3a9115b6b11f1761a4b806643482245c03a42bf1b57dc643d3",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_478a20deba2d1e296829c821_0",
+      "kind": "p",
+      "source": "To create a named revision, either:",
+      "sourceHash": "478a20deba2d1e296829c821cdc71e45a917431a163f357ca008c16f3e374019",
+      "context": "Note Revisions > Named revisions",
+      "contextHash": "90d60d1a040bed3a9115b6b11f1761a4b806643482245c03a42bf1b57dc643d3",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_d72fedef20d4adc1309a2212_0",
+      "kind": "li",
+      "source": "Go to the __TRILIUM_PH_0__Note menu__TRILIUM_PH_1__, select __TRILIUM_PH_2__Note revisions…__TRILIUM_PH_3__ → __TRILIUM_PH_4__Save named revision…__TRILIUM_PH_5__ (__TRILIUM_PH_6__), enter the name of revision and confirm.",
+      "sourceHash": "d72fedef20d4adc1309a22125713f963f3a09265fa8f381b3691e716383a3c3a",
+      "context": "Note Revisions > Named revisions",
+      "contextHash": "90d60d1a040bed3a9115b6b11f1761a4b806643482245c03a42bf1b57dc643d3",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_3b1ce2b7c7e3fc0a58f77926_0",
+      "kind": "li",
+      "source": "Use the corresponding __TRILIUM_PH_0__keyboard shortcut__TRILIUM_PH_1__ or the __TRILIUM_PH_2__Jump to & command palette__TRILIUM_PH_3__ command with the same name.",
+      "sourceHash": "3b1ce2b7c7e3fc0a58f7792633a0ebb1ce1ebe9e616af9e27072084323e17d7a",
+      "context": "Note Revisions > Named revisions",
+      "contextHash": "90d60d1a040bed3a9115b6b11f1761a4b806643482245c03a42bf1b57dc643d3",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_170357d1fa0f8d5cdc705749_0",
+      "kind": "li",
+      "source": "Save a revision normally, and adjust the name afterwards from the note revision list.",
+      "sourceHash": "170357d1fa0f8d5cdc7057499607ad8e9faa9f8df4d1621131a44889a085f0b8",
+      "context": "Note Revisions > Named revisions",
+      "contextHash": "90d60d1a040bed3a9115b6b11f1761a4b806643482245c03a42bf1b57dc643d3",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_47c171c10df40ec4b1cf60b7_0",
+      "kind": "h2",
+      "source": "When revisions are saved__TRILIUM_PH_0__",
+      "sourceHash": "47c171c10df40ec4b1cf60b70d27ab20c7a5b6d2dcb1274647da6792c2e6ff35",
+      "context": "Note Revisions > When revisions are saved",
+      "contextHash": "e64ea9144cbf33c5348d6d5f9f54da37eb349b7a27222499f0b6f7ed78bdb6ea",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_c4015cbebef4411532733ee4_0",
+      "kind": "p",
+      "source": "Revisions are saved:",
+      "sourceHash": "c4015cbebef4411532733ee43efd87237ef53e3008b7cb5a25805178971b96fa",
+      "context": "Note Revisions > When revisions are saved",
+      "contextHash": "e64ea9144cbf33c5348d6d5f9f54da37eb349b7a27222499f0b6f7ed78bdb6ea",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_ca1f72e9e7d069560113d5bf_0",
+      "kind": "li",
+      "source": "Automatically at a fixed interval. This behavior can be configured (see below).",
+      "sourceHash": "ca1f72e9e7d069560113d5bfc9f7322d88acee3c52d1e00b33a658b58b151fa3",
+      "context": "Note Revisions > When revisions are saved",
+      "contextHash": "e64ea9144cbf33c5348d6d5f9f54da37eb349b7a27222499f0b6f7ed78bdb6ea",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_5bb0d667cc78776cd6cf622e_0",
+      "kind": "li",
+      "source": "Manually, by:",
+      "sourceHash": "5bb0d667cc78776cd6cf622e87288d58f0ced13c783b917c8a0a07addfd6b36f",
+      "context": "Note Revisions > When revisions are saved",
+      "contextHash": "e64ea9144cbf33c5348d6d5f9f54da37eb349b7a27222499f0b6f7ed78bdb6ea",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_e565cd12169304c7157f5749_0",
+      "kind": "li",
+      "source": "Going to the __TRILIUM_PH_0__Note menu__TRILIUM_PH_1__ and selecting __TRILIUM_PH_2__Note revisions…__TRILIUM_PH_3__ → __TRILIUM_PH_4__Save revision__TRILIUM_PH_5__ (__TRILIUM_PH_6__).",
+      "sourceHash": "e565cd12169304c7157f57498441d293025dda134787e63e5c1d71286ae07ca4",
+      "context": "Note Revisions > When revisions are saved",
+      "contextHash": "e64ea9144cbf33c5348d6d5f9f54da37eb349b7a27222499f0b6f7ed78bdb6ea",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_73da22a09f96c64fac549929_0",
+      "kind": "li",
+      "source": "Using the __TRILIUM_PH_0__Force Save Revision__TRILIUM_PH_1__ __TRILIUM_PH_2__keyboard shortcut__TRILIUM_PH_3__.",
+      "sourceHash": "73da22a09f96c64fac549929c67f1390610bfaffdc36a88858b2fa0e71e85343",
+      "context": "Note Revisions > When revisions are saved",
+      "contextHash": "e64ea9144cbf33c5348d6d5f9f54da37eb349b7a27222499f0b6f7ed78bdb6ea",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_4c60b73d3472b00ce2b755c8_0",
+      "kind": "li",
+      "source": "In the __TRILIUM_PH_0__Note Revisions__TRILIUM_PH_1__ dialog, pressing the __TRILIUM_PH_2__ button in the top-right and selecting __TRILIUM_PH_3__Save a revision now__TRILIUM_PH_4__.",
+      "sourceHash": "4c60b73d3472b00ce2b755c8078373c21c51a3ad28329a0caf0008c252f23daa",
+      "context": "Note Revisions > When revisions are saved",
+      "contextHash": "e64ea9144cbf33c5348d6d5f9f54da37eb349b7a27222499f0b6f7ed78bdb6ea",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_917f787f245d9c29978a813b_0",
+      "kind": "p",
+      "source": "Additionally, revisions can also come from somewhere else, and this is indicated via the icon of the revision:",
+      "sourceHash": "917f787f245d9c29978a813b5d148eb000c43b6751eedf40e2149a5e9251a1ff",
+      "context": "Note Revisions > When revisions are saved",
+      "contextHash": "e64ea9144cbf33c5348d6d5f9f54da37eb349b7a27222499f0b6f7ed78bdb6ea",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_bf4b742b88c6baa2ffd02a0e_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__ Generated externally, by __TRILIUM_PH_1__ETAPI (REST API)__TRILIUM_PH_2__.",
+      "sourceHash": "bf4b742b88c6baa2ffd02a0e57c4d8ff71355868d5a0bff3ddbc19015b58b88a",
+      "context": "Note Revisions > When revisions are saved",
+      "contextHash": "e64ea9144cbf33c5348d6d5f9f54da37eb349b7a27222499f0b6f7ed78bdb6ea",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_cd5b0a3ff2eeac48d3f995d3_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__ A modification created by __TRILIUM_PH_1__AI__TRILIUM_PH_2__.",
+      "sourceHash": "cd5b0a3ff2eeac48d3f995d34adc77db2e64fcb7d05af411fbb7f795de20b5fa",
+      "context": "Note Revisions > When revisions are saved",
+      "contextHash": "e64ea9144cbf33c5348d6d5f9f54da37eb349b7a27222499f0b6f7ed78bdb6ea",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_f83c2a3851a71883085cad43_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__ A revision is restored, causing the existing note content to be saved as a revision to prevent potential data loss.",
+      "sourceHash": "f83c2a3851a71883085cad43975374f13872aa2f3683b01ef289d5391d13acc9",
+      "context": "Note Revisions > When revisions are saved",
+      "contextHash": "e64ea9144cbf33c5348d6d5f9f54da37eb349b7a27222499f0b6f7ed78bdb6ea",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_706862cf35e04cb5af934dfb_0",
+      "kind": "h4",
+      "source": "Snapshot interval__TRILIUM_PH_0__",
+      "sourceHash": "706862cf35e04cb5af934dfb6f7c1aa4d799f5191c983752d243d969f9c3189f",
+      "context": "Note Revisions > When revisions are saved > Snapshot interval",
+      "contextHash": "b7d79515141774b81ed17063614cb3b189e6806dccb2cdf232ee7e6ce97c606e",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_97bdcee711cc6b2d58335205_0",
+      "kind": "p",
+      "source": "Time interval of taking note snapshot is configurable in the Options → Other dialog. This provides a trade-off between more revisions and more data to store.",
+      "sourceHash": "97bdcee711cc6b2d583352052e2b4be5b5e624716412f01926a94bb65ccd6c52",
+      "context": "Note Revisions > When revisions are saved > Snapshot interval",
+      "contextHash": "b7d79515141774b81ed17063614cb3b189e6806dccb2cdf232ee7e6ce97c606e",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_e864a3ec3074185cacafe22a_0",
+      "kind": "p",
+      "source": "To turn off note versioning for a particular note (or sub-tree), add __TRILIUM_PH_0__ __TRILIUM_PH_1__label__TRILIUM_PH_2__ to the note.",
+      "sourceHash": "e864a3ec3074185cacafe22a935201290d0cd38630e000c062fbcc6d9ade8b2e",
+      "context": "Note Revisions > When revisions are saved > Snapshot interval",
+      "contextHash": "b7d79515141774b81ed17063614cb3b189e6806dccb2cdf232ee7e6ce97c606e",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_6641de58760796eb0c740ef5_0",
+      "kind": "h4",
+      "source": "Maximum revisions__TRILIUM_PH_0__",
+      "sourceHash": "6641de58760796eb0c740ef553e5a029c714bb745170065f18ebe9021a2f5741",
+      "context": "Note Revisions > When revisions are saved > Maximum revisions",
+      "contextHash": "7f9581294f748125dc4ca7ca622be07c0ef4c9aad32e03b8eedbb921870ccbd1",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_a23531bca4730426b6cd7bad_0",
+      "kind": "p",
+      "source": "The limit on the number of note snapshots can be configured in the Options → Other dialog. The note revision snapshot number limit refers to the maximum number of revisions that can be saved for each note. Where -1 means no limit, 0 means delete all revisions. You can set the maximum revisions for a single note through the __TRILIUM_PH_0__ label.",
+      "sourceHash": "a23531bca4730426b6cd7badb0da6e05ff959d014bdb0e6020c873cf7413a577",
+      "context": "Note Revisions > When revisions are saved > Maximum revisions",
+      "contextHash": "7f9581294f748125dc4ca7ca622be07c0ef4c9aad32e03b8eedbb921870ccbd1",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_2c829729334790abfda14835_0",
+      "kind": "p",
+      "source": "The note limit will not take effect immediately; it will only apply when the note is modified.",
+      "sourceHash": "2c829729334790abfda14835a8fb1a110ec2f57ec3d57859fe02cd4569178e6b",
+      "context": "Note Revisions > When revisions are saved > Maximum revisions",
+      "contextHash": "7f9581294f748125dc4ca7ca622be07c0ef4c9aad32e03b8eedbb921870ccbd1",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_7c43d188dc748e11bfb1d006_0",
+      "kind": "p",
+      "source": "You can click the __TRILIUM_PH_0__Erase now__TRILIUM_PH_1__ button under __TRILIUM_PH_2__Erase excess revision snapshots__TRILIUM_PH_3__ to apply the changes immediately.",
+      "sourceHash": "7c43d188dc748e11bfb1d006c0050ad7a8866f2fb883825333fc2019adfb905a",
+      "context": "Note Revisions > When revisions are saved > Maximum revisions",
+      "contextHash": "7f9581294f748125dc4ca7ca622be07c0ef4c9aad32e03b8eedbb921870ccbd1",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_b190d47815633246b0ab18a6_0",
+      "kind": "image-alt",
+      "source": "記事画像",
+      "sourceHash": "b190d47815633246b0ab18a61d9b8e8ea36504fe3f8bc230a7753096915c9ff2",
+      "context": "Note Revisions > When revisions are saved > Maximum revisions",
+      "contextHash": "7f9581294f748125dc4ca7ca622be07c0ef4c9aad32e03b8eedbb921870ccbd1",
+      "status": "pending",
+      "active": true
+    }
+  ],
+  "requests": []
+}

@@ -1,0 +1,239 @@
+{
+  "schemaVersion": 1,
+  "pageId": "YKWqdJhzi2VY",
+  "sourceFile": "docs/User Guide/User Guide/Advanced Usage/Database/Manually altering the database/SQL Console.md",
+  "sourceRevision": "03d17b60f59b5efc29b880b11481471d0fe0ff57",
+  "units": [
+    {
+      "id": "u_98013fc2323732bfc27759df_0",
+      "kind": "title",
+      "source": "SQL Console",
+      "sourceHash": "98013fc2323732bfc27759dfc8ce6c4c965c935678a77fcbdf432f22f6f459f3",
+      "context": "SQL Console",
+      "contextHash": "65da5f2011f8562eb620f0434f1bf903a7f91a04996a03924ba6c934053e25eb",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_4f81ec811302d13693ee236e_0",
+      "kind": "p",
+      "source": "Starting with v0.104.0, backend scripts are disabled by default to reduce the attack surface. See __TRILIUM_PH_0__Security__TRILIUM_PH_1__ for more information.",
+      "sourceHash": "4f81ec811302d13693ee236e16c8382d9e087b3aec3f034bac588f482fd9b354",
+      "context": "SQL Console",
+      "contextHash": "65da5f2011f8562eb620f0434f1bf903a7f91a04996a03924ba6c934053e25eb",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_e4ce69274e14da2827053512_0",
+      "kind": "p",
+      "source": "The SQL Console is Trilium's built-in database editor.",
+      "sourceHash": "e4ce69274e14da2827053512ecbf166fb362bbb8ceb3967237c75e7a803c1387",
+      "context": "SQL Console",
+      "contextHash": "65da5f2011f8562eb620f0434f1bf903a7f91a04996a03924ba6c934053e25eb",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_170329402d340efcb5833770_0",
+      "kind": "p",
+      "source": "It can be accessed by going to the __TRILIUM_PH_0__Global menu__TRILIUM_PH_1__ → Advanced → SQL console.",
+      "sourceHash": "170329402d340efcb5833770635167d1c7a01df536724f6dae0b271c198bc5d9",
+      "context": "SQL Console",
+      "contextHash": "65da5f2011f8562eb620f0434f1bf903a7f91a04996a03924ba6c934053e25eb",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_e869f14815ca9f42af6aabcb_0",
+      "kind": "h3",
+      "source": "Interaction__TRILIUM_PH_0__",
+      "sourceHash": "e869f14815ca9f42af6aabcb2850edd1acc151bfa740d234b22ea9ce50d92ab2",
+      "context": "SQL Console > Interaction",
+      "contextHash": "33f1894f4094dfa6c4ece4c9e6048e352df63be1f42231b886b39301e04da037",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_2cec9c4bb8075c9e1e3b5ddc_0",
+      "kind": "li",
+      "source": "Hovering the mouse over one of the tables listed at the top of the document will show the columns and their data type.",
+      "sourceHash": "2cec9c4bb8075c9e1e3b5ddca5239b42e070096f7b5f2548e6a06774016e35c7",
+      "context": "SQL Console > Interaction",
+      "contextHash": "33f1894f4094dfa6c4ece4c9e6048e352df63be1f42231b886b39301e04da037",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_3fc7185b719e79bc7cf2f0dc_0",
+      "kind": "li",
+      "source": "Only one SQL statement can be run at once.",
+      "sourceHash": "3fc7185b719e79bc7cf2f0dcee0bf7c3444a6d7bb21822e2d0ea4356ba9b0adf",
+      "context": "SQL Console > Interaction",
+      "contextHash": "33f1894f4094dfa6c4ece4c9e6048e352df63be1f42231b886b39301e04da037",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_3bfae6adf8a1b1a08133463a_0",
+      "kind": "li",
+      "source": "To run the statement, press the __TRILIUM_PH_0__Execute__TRILIUM_PH_1__ icon.",
+      "sourceHash": "3bfae6adf8a1b1a08133463a3e3a05502274b6a38ed48717dfa4f10250fc376d",
+      "context": "SQL Console > Interaction",
+      "contextHash": "33f1894f4094dfa6c4ece4c9e6048e352df63be1f42231b886b39301e04da037",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_2cb782a1bcbfcdd0594ffe09_0",
+      "kind": "li",
+      "source": "For queries that return a result, the data will displayed in a table.",
+      "sourceHash": "2cb782a1bcbfcdd0594ffe09f6d18d609785739b94b72326f161f6fdffa31f52",
+      "context": "SQL Console > Interaction",
+      "contextHash": "33f1894f4094dfa6c4ece4c9e6048e352df63be1f42231b886b39301e04da037",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_7c92db802808f22eb9a97767_0",
+      "kind": "li",
+      "source": "For statements (e.g. __TRILIUM_PH_0__, __TRILIUM_PH_1__), the number of affected rows is displayed.",
+      "sourceHash": "7c92db802808f22eb9a977670c79815b55dea63655378596c74a902bd6ac1048",
+      "context": "SQL Console > Interaction",
+      "contextHash": "33f1894f4094dfa6c4ece4c9e6048e352df63be1f42231b886b39301e04da037",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_9c91d04b8f68d3e5efddbf72_0",
+      "kind": "h3",
+      "source": "Interacting with the table__TRILIUM_PH_0__",
+      "sourceHash": "9c91d04b8f68d3e5efddbf72fef6b5811d22683319564e7b15f76236bb06be5f",
+      "context": "SQL Console > Interacting with the table",
+      "contextHash": "104ad639ae43e167d4f45631e480e70a6672c99ecef7f8ff5753e4a094c967b2",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_0fdf9c3025855d6c0dd89c46_0",
+      "kind": "p",
+      "source": "After executing a query, a table with the results will be displayed:",
+      "sourceHash": "0fdf9c3025855d6c0dd89c46ec6ce5b170fe79e25f9bcc68b8e39d737777b234",
+      "context": "SQL Console > Interacting with the table",
+      "contextHash": "104ad639ae43e167d4f45631e480e70a6672c99ecef7f8ff5753e4a094c967b2",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_85594faae6e9e1cb79a74784_0",
+      "kind": "li",
+      "source": "Clicking on a column allows sorting ascending or descending. The __TRILIUM_PH_0__ column numbers the rows and can't be sorted.",
+      "sourceHash": "85594faae6e9e1cb79a74784ec59f556bd73772d5841a532e6abb9ab54b5ab65",
+      "context": "SQL Console > Interacting with the table",
+      "contextHash": "104ad639ae43e167d4f45631e480e70a6672c99ecef7f8ff5753e4a094c967b2",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_45e010d90c757f37d268ade7_0",
+      "kind": "li",
+      "source": "Underneath each column there is an input field which allows filtering by text.",
+      "sourceHash": "45e010d90c757f37d268ade7bf895ed36a8207012d0bcf627fb7605019dace26",
+      "context": "SQL Console > Interacting with the table",
+      "contextHash": "104ad639ae43e167d4f45631e480e70a6672c99ecef7f8ff5753e4a094c967b2",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_0ed39a728730219edf2fb12e_0",
+      "kind": "li",
+      "source": "Press __TRILIUM_PH_0__Ctrl__TRILIUM_PH_1__+__TRILIUM_PH_2__C__TRILIUM_PH_3__ to copy the current cell to clipboard.",
+      "sourceHash": "0ed39a728730219edf2fb12efa410807ad538e07502a14c11a7c8a0642ccf2f4",
+      "context": "SQL Console > Interacting with the table",
+      "contextHash": "104ad639ae43e167d4f45631e480e70a6672c99ecef7f8ff5753e4a094c967b2",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_54e916c2a965dac4ecea109d_0",
+      "kind": "li",
+      "source": "Multiple cells can be selected by dragging or by holding __TRILIUM_PH_0__Shift__TRILIUM_PH_1__ + arrow keys",
+      "sourceHash": "54e916c2a965dac4ecea109d4782c5ae9007579556a95d86da679b8c7989773d",
+      "context": "SQL Console > Interacting with the table",
+      "contextHash": "104ad639ae43e167d4f45631e480e70a6672c99ecef7f8ff5753e4a094c967b2",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_15cc26cbabc07b4b1296a67b_0",
+      "kind": "li",
+      "source": "Results are paginated for performance reasons. The controls at the bottom of the table can be used to navigate through pages.",
+      "sourceHash": "15cc26cbabc07b4b1296a67bd98bc7c8751d1e4454c014ae39e1972b467e3d8e",
+      "context": "SQL Console > Interacting with the table",
+      "contextHash": "104ad639ae43e167d4f45631e480e70a6672c99ecef7f8ff5753e4a094c967b2",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_144a8eed288b60c50cafa631_0",
+      "kind": "h3",
+      "source": "Saved SQL console__TRILIUM_PH_0__",
+      "sourceHash": "144a8eed288b60c50cafa6313fae5d554a5e61b9e2bf7b797e0346ff8d82a84e",
+      "context": "SQL Console > Saved SQL console",
+      "contextHash": "720dca735273d176cd5e996d0199f4fb59cbafd13fbe2809e3bb9743c0eebb7e",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_5ff7da810ac7b2d05ed99850_0",
+      "kind": "p",
+      "source": "SQL queries or commands can be saved into a dedicated note.",
+      "sourceHash": "5ff7da810ac7b2d05ed998502da256fe7647b6ad5f493b0fe28975d51a826b73",
+      "context": "SQL Console > Saved SQL console",
+      "contextHash": "720dca735273d176cd5e996d0199f4fb59cbafd13fbe2809e3bb9743c0eebb7e",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_785083dd16e3e99593a8a0fd_0",
+      "kind": "p",
+      "source": "To do so, simply write the query and press the __TRILIUM_PH_0__ button. Once saved, the note will appear in __TRILIUM_PH_1__Day Notes__TRILIUM_PH_2__ by default. It is possible to change the default location of saved queries by assigning a __TRILIUM_PH_3__ __TRILIUM_PH_4__label__TRILIUM_PH_5__.",
+      "sourceHash": "785083dd16e3e99593a8a0fd41353784e41b67c5a905f180af196935cb967232",
+      "context": "SQL Console > Saved SQL console",
+      "contextHash": "720dca735273d176cd5e996d0199f4fb59cbafd13fbe2809e3bb9743c0eebb7e",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_4f74079c97bcb45ddd0abddc_0",
+      "kind": "p",
+      "source": "The note can be locked for editing by pressing the __TRILIUM_PH_0__Lock__TRILIUM_PH_1__ button in the note actions section near the title bar. When editing is locked, the SQL statement is hidden from view.",
+      "sourceHash": "4f74079c97bcb45ddd0abddc50c739d17c9c662dc0b6db3e57ff2add57bff46e",
+      "context": "SQL Console > Saved SQL console",
+      "contextHash": "720dca735273d176cd5e996d0199f4fb59cbafd13fbe2809e3bb9743c0eebb7e",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_b190d47815633246b0ab18a6_0",
+      "kind": "image-alt",
+      "source": "記事画像",
+      "sourceHash": "b190d47815633246b0ab18a61d9b8e8ea36504fe3f8bc230a7753096915c9ff2",
+      "context": "SQL Console > Saved SQL console",
+      "contextHash": "720dca735273d176cd5e996d0199f4fb59cbafd13fbe2809e3bb9743c0eebb7e",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_b190d47815633246b0ab18a6_1",
+      "kind": "image-alt",
+      "source": "記事画像",
+      "sourceHash": "b190d47815633246b0ab18a61d9b8e8ea36504fe3f8bc230a7753096915c9ff2",
+      "context": "SQL Console > Saved SQL console",
+      "contextHash": "720dca735273d176cd5e996d0199f4fb59cbafd13fbe2809e3bb9743c0eebb7e",
+      "status": "pending",
+      "active": true
+    }
+  ],
+  "requests": []
+}

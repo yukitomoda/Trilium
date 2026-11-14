@@ -1,0 +1,239 @@
+{
+  "schemaVersion": 1,
+  "pageId": "yIhgI5H7A2Sm",
+  "sourceFile": "docs/User Guide/User Guide/Scripting/Frontend Basics.md",
+  "sourceRevision": "03d17b60f59b5efc29b880b11481471d0fe0ff57",
+  "units": [
+    {
+      "id": "u_369fa0218dcf9dc4db833602_0",
+      "kind": "title",
+      "source": "Frontend Basics",
+      "sourceHash": "369fa0218dcf9dc4db833602a82fb8a6d89e711b728e278c9194c94ccb0a0ac9",
+      "context": "Frontend Basics",
+      "contextHash": "f6b7a4b19af6c4164a602c841c2ccbc384bc2e5f5fc4d967ed33dfecb9a1355b",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_716f3195e83b67ff9ba69435_0",
+      "kind": "p",
+      "source": "Front-end scripts are custom JavaScript notes that are run on the client (browser environment)",
+      "sourceHash": "716f3195e83b67ff9ba694354039ddcf1bc06fcf045c6032cab9ec42b03db2db",
+      "context": "Frontend Basics",
+      "contextHash": "f6b7a4b19af6c4164a602c841c2ccbc384bc2e5f5fc4d967ed33dfecb9a1355b",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_a8ea30f75da6e67b08d97291_0",
+      "kind": "p",
+      "source": "There are four flavors of front-end scripts:",
+      "sourceHash": "a8ea30f75da6e67b08d9729175816e4dbbe497fcd9114750d6da38fca8c6b2db",
+      "context": "Frontend Basics",
+      "contextHash": "f6b7a4b19af6c4164a602c841c2ccbc384bc2e5f5fc4d967ed33dfecb9a1355b",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_e5a11f0c8339d76617a014b7_0",
+      "kind": "td",
+      "source": "Regular scripts",
+      "sourceHash": "e5a11f0c8339d76617a014b7c8b401fd1a7f2eae459200b2fd0e7009f7834c6b",
+      "context": "Frontend Basics",
+      "contextHash": "f6b7a4b19af6c4164a602c841c2ccbc384bc2e5f5fc4d967ed33dfecb9a1355b",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_b078254a7fc535b3b47a8b6d_0",
+      "kind": "td",
+      "source": "These are run with the current app and note context. These can be run either manually or automatically on start-up.",
+      "sourceHash": "b078254a7fc535b3b47a8b6dc0d45638920274dd25a171df9f4be2c698e8fbe2",
+      "context": "Frontend Basics",
+      "contextHash": "f6b7a4b19af6c4164a602c841c2ccbc384bc2e5f5fc4d967ed33dfecb9a1355b",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_31ea838794c15e5665915ec2_0",
+      "kind": "td",
+      "source": "__TRILIUM_PH_0__Custom Widgets__TRILIUM_PH_1__",
+      "sourceHash": "31ea838794c15e5665915ec2e69fb1ad93e0403f28b8c5b66b446522f07c10b3",
+      "context": "Frontend Basics",
+      "contextHash": "f6b7a4b19af6c4164a602c841c2ccbc384bc2e5f5fc4d967ed33dfecb9a1355b",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_f8b299162984ba747ca8e7fa_0",
+      "kind": "td",
+      "source": "These can introduce new UI elements in various positions, such as near the __TRILIUM_PH_0__Note Tree__TRILIUM_PH_1__, content area or even the __TRILIUM_PH_2__Right Sidebar__TRILIUM_PH_3__.",
+      "sourceHash": "f8b299162984ba747ca8e7fa54cb12d41f5a61fe06f4e38d449efd4186676e32",
+      "context": "Frontend Basics",
+      "contextHash": "f6b7a4b19af6c4164a602c841c2ccbc384bc2e5f5fc4d967ed33dfecb9a1355b",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_c8a5b0dbe92d8c583a1a81db_0",
+      "kind": "td",
+      "source": "__TRILIUM_PH_0__Launch Bar Widgets__TRILIUM_PH_1__",
+      "sourceHash": "c8a5b0dbe92d8c583a1a81db365858f5dc69c83408808152f06591a14630c19d",
+      "context": "Frontend Basics",
+      "contextHash": "f6b7a4b19af6c4164a602c841c2ccbc384bc2e5f5fc4d967ed33dfecb9a1355b",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_2e1756424039195f431979f8_0",
+      "kind": "td",
+      "source": "Similar to __TRILIUM_PH_0__Custom Widgets__TRILIUM_PH_1__, but dedicated to the __TRILIUM_PH_2__Launch Bar__TRILIUM_PH_3__. These can simply introduce new buttons or graphical elements to the bar.",
+      "sourceHash": "2e1756424039195f431979f886cbafa91a08824bc7fd5a153dc49e276b6ca831",
+      "context": "Frontend Basics",
+      "contextHash": "f6b7a4b19af6c4164a602c841c2ccbc384bc2e5f5fc4d967ed33dfecb9a1355b",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_3d79dea8751c39b5a89d23f6_0",
+      "kind": "td",
+      "source": "__TRILIUM_PH_0__Render Note__TRILIUM_PH_1__",
+      "sourceHash": "3d79dea8751c39b5a89d23f6a579fc97284dc7be11e3e916c800484c9d5266f3",
+      "context": "Frontend Basics",
+      "contextHash": "f6b7a4b19af6c4164a602c841c2ccbc384bc2e5f5fc4d967ed33dfecb9a1355b",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_b25d7a45d68046eb44586c97_0",
+      "kind": "td",
+      "source": "This allows rendering custom content inside a note, using either HTML or Preact JSX.",
+      "sourceHash": "b25d7a45d68046eb44586c9793f0584f350a592cdda5462dcb93bcdfa67817d2",
+      "context": "Frontend Basics",
+      "contextHash": "f6b7a4b19af6c4164a602c841c2ccbc384bc2e5f5fc4d967ed33dfecb9a1355b",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_049629c50d3fd43a7b184a43_0",
+      "kind": "p",
+      "source": "For more advanced behaviors that do not require a user interface (e.g. batch modifying notes), see __TRILIUM_PH_0__Backend scripts__TRILIUM_PH_1__.",
+      "sourceHash": "049629c50d3fd43a7b184a434b9be3f6cb2a903618c2d744d8f0eb3997c98626",
+      "context": "Frontend Basics",
+      "contextHash": "f6b7a4b19af6c4164a602c841c2ccbc384bc2e5f5fc4d967ed33dfecb9a1355b",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_2d8c8947d3dfe75e5fc2a314_0",
+      "kind": "h2",
+      "source": "Scripts__TRILIUM_PH_0__",
+      "sourceHash": "2d8c8947d3dfe75e5fc2a314b5f53a67e45d5118e6157358e9e73537f31fcde6",
+      "context": "Frontend Basics > Scripts",
+      "contextHash": "6f3211fe339032a0c359804098fac9bb8ee9fb9c70aa4cff8e01a273bac33e66",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_c23bd9fd261d0d59b7b8332d_0",
+      "kind": "p",
+      "source": "Scripts don't have any special requirements. They can be run manually using the __TRILIUM_PH_0__Execute__TRILIUM_PH_1__ button on the code note or they can be run automatically, see __TRILIUM_PH_2__Frontend Events__TRILIUM_PH_3__.",
+      "sourceHash": "c23bd9fd261d0d59b7b8332d5a2e69f5b91911a468172d15c189cb2ee4bf9611",
+      "context": "Frontend Basics > Scripts",
+      "contextHash": "6f3211fe339032a0c359804098fac9bb8ee9fb9c70aa4cff8e01a273bac33e66",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_ef4a197b9b91f2a99b425db8_0",
+      "kind": "h2",
+      "source": "Widgets__TRILIUM_PH_0__",
+      "sourceHash": "ef4a197b9b91f2a99b425db8dcc7a1992b560d6f3431a3b61c4c5df5434fd8cf",
+      "context": "Frontend Basics > Widgets",
+      "contextHash": "cedcb7824809904df280198b3320e5044b5176712ec7198a6afbd145661be99e",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_db6c142bb61f2265b0b4507d_0",
+      "kind": "p",
+      "source": "Widgets require a certain format in order for Trilium to be able to integrate them into the UI.",
+      "sourceHash": "db6c142bb61f2265b0b4507d6785c9a245a7c73fe20ed6c50577e952c12060dc",
+      "context": "Frontend Basics > Widgets",
+      "contextHash": "cedcb7824809904df280198b3320e5044b5176712ec7198a6afbd145661be99e",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_f88648fb2a5da6fa34eccfa3_0",
+      "kind": "li",
+      "source": "For legacy widgets, the script note must export a __TRILIUM_PH_0__ or a derived one (see __TRILIUM_PH_1__Note context aware widget__TRILIUM_PH_2__ or __TRILIUM_PH_3__Right pane widget__TRILIUM_PH_4__).",
+      "sourceHash": "f88648fb2a5da6fa34eccfa3c46aa62374c293ac4a5fb478a4a93bf56087b031",
+      "context": "Frontend Basics > Widgets",
+      "contextHash": "cedcb7824809904df280198b3320e5044b5176712ec7198a6afbd145661be99e",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_84ee7071e602c04a65acd4d2_0",
+      "kind": "li",
+      "source": "For Preact widgets, a built-in helper called __TRILIUM_PH_0__ needs to be used.",
+      "sourceHash": "84ee7071e602c04a65acd4d24190dadb2adfc104e202ca27491a8dc54fc9c80f",
+      "context": "Frontend Basics > Widgets",
+      "contextHash": "cedcb7824809904df280198b3320e5044b5176712ec7198a6afbd145661be99e",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_8dc7f408a17144b48155fb53_0",
+      "kind": "p",
+      "source": "For more information, see __TRILIUM_PH_0__Custom Widgets__TRILIUM_PH_1__.",
+      "sourceHash": "8dc7f408a17144b48155fb53ee0adf216ec7aef7ab2717ab2c11672567f4729f",
+      "context": "Frontend Basics > Widgets",
+      "contextHash": "cedcb7824809904df280198b3320e5044b5176712ec7198a6afbd145661be99e",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_2073a1be0869413e8de3b91d_0",
+      "kind": "h2",
+      "source": "Script API__TRILIUM_PH_0__",
+      "sourceHash": "2073a1be0869413e8de3b91d142c10a48d3d5a58f614d9d78193a0922b42e889",
+      "context": "Frontend Basics > Script API",
+      "contextHash": "baddd396033eab3e6928d38dff475cf3f7cf86d581c4da286ccd7912d4c3b6af",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_8c233866777b20522a8f9284_0",
+      "kind": "p",
+      "source": "The front-end API of Trilium is available to all scripts running in the front-end context as global variable __TRILIUM_PH_0__. For a reference of the API, see __TRILIUM_PH_1__Frontend API__TRILIUM_PH_2__.",
+      "sourceHash": "8c233866777b20522a8f9284fb7810168f509ea1b90430c2a0e2a4b49c987104",
+      "context": "Frontend Basics > Script API",
+      "contextHash": "baddd396033eab3e6928d38dff475cf3f7cf86d581c4da286ccd7912d4c3b6af",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_4e2cd9f08daaeaa45445ab67_0",
+      "kind": "h3",
+      "source": "Tutorial__TRILIUM_PH_0__",
+      "sourceHash": "4e2cd9f08daaeaa45445ab67e16f199b800305acba92b3c1b138f4740a587f85",
+      "context": "Frontend Basics > Script API > Tutorial",
+      "contextHash": "fed8923437433e9a5bc36170cdaf3b87d9adc78fa3e1e7e5d8539fbaa292efe5",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_ae5ccbdc56380688e3848bac_0",
+      "kind": "p",
+      "source": "For more information on building widgets, take a look at __TRILIUM_PH_0__Widget Basics__TRILIUM_PH_1__.",
+      "sourceHash": "ae5ccbdc56380688e3848bac6f8fc4378a3c184c2070d0fcd828b2c7889e9ef2",
+      "context": "Frontend Basics > Script API > Tutorial",
+      "contextHash": "fed8923437433e9a5bc36170cdaf3b87d9adc78fa3e1e7e5d8539fbaa292efe5",
+      "status": "pending",
+      "active": true
+    }
+  ],
+  "requests": []
+}

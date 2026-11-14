@@ -1,0 +1,379 @@
+{
+  "schemaVersion": 1,
+  "pageId": "HcABDtFCkbFN",
+  "sourceFile": "docs/User Guide/User Guide/Note Types/Render Note.md",
+  "sourceRevision": "03d17b60f59b5efc29b880b11481471d0fe0ff57",
+  "units": [
+    {
+      "id": "u_926211d135c65cdbaf7cc0d3_0",
+      "kind": "title",
+      "source": "Render Note",
+      "sourceHash": "926211d135c65cdbaf7cc0d322b94fc274c9bd38f00cf7765489e6998879cc70",
+      "context": "Render Note",
+      "contextHash": "28026ddef7a2ceef3fd4d35042dade3ae17ee9e86fb01e9a68211c279299430b",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_effcbaf6ef2f93a83919d120_0",
+      "kind": "p",
+      "source": "Render Note is a special case of __TRILIUM_PH_0__front-end scripting__TRILIUM_PH_1__ which allows rendering custom content inside a note. This makes it possible to create custom dashboards, or to use a custom note editor.",
+      "sourceHash": "effcbaf6ef2f93a83919d12028a4994b74f55fb85ddedff02ba74b25b9ed9168",
+      "context": "Render Note",
+      "contextHash": "28026ddef7a2ceef3fd4d35042dade3ae17ee9e86fb01e9a68211c279299430b",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_2e9d9a44cbcd940346073d2c_0",
+      "kind": "p",
+      "source": "The content can either be a vanilla HTML, or Preact JSX.",
+      "sourceHash": "2e9d9a44cbcd940346073d2ca12bad7b7470c9585517a590a629eb7d8574c3c5",
+      "context": "Render Note",
+      "contextHash": "28026ddef7a2ceef3fd4d35042dade3ae17ee9e86fb01e9a68211c279299430b",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_b3bc4099df585be4720d3e68_0",
+      "kind": "h2",
+      "source": "Creating a render note__TRILIUM_PH_0__",
+      "sourceHash": "b3bc4099df585be4720d3e68c4f90b38f1f9a531b487679c63ebedb4ded5c3bd",
+      "context": "Render Note > Creating a render note",
+      "contextHash": "1b0a1e9df26fa0a10d9baf7c33bdd87b3960d60eccf084e0ca37ad36e051cc1c",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_0b97598e513286728f3523f7_0",
+      "kind": "li",
+      "source": "Create a __TRILIUM_PH_0__Code__TRILIUM_PH_1__ note with the:",
+      "sourceHash": "0b97598e513286728f3523f7cd2011a8066fbf8e78b19cf117acb0e8be130dda",
+      "context": "Render Note > Creating a render note",
+      "contextHash": "1b0a1e9df26fa0a10d9baf7c33bdd87b3960d60eccf084e0ca37ad36e051cc1c",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_4eff4657524148a8e608560f_0",
+      "kind": "li",
+      "source": "HTML language for the legacy/vanilla method, with what needs to be displayed (for example __TRILIUM_PH_0__).",
+      "sourceHash": "4eff4657524148a8e608560f688a3039f54821c9375f1f7d5f357dc54bd6ca32",
+      "context": "Render Note > Creating a render note",
+      "contextHash": "1b0a1e9df26fa0a10d9baf7c33bdd87b3960d60eccf084e0ca37ad36e051cc1c",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_78e1b4cb3eaedb1d29e58de2_0",
+      "kind": "li",
+      "source": "JSX for the Preact-based approach (see below).",
+      "sourceHash": "78e1b4cb3eaedb1d29e58de281009e5830feba4f7accf1e3eae56b3a2032c9ee",
+      "context": "Render Note > Creating a render note",
+      "contextHash": "1b0a1e9df26fa0a10d9baf7c33bdd87b3960d60eccf084e0ca37ad36e051cc1c",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_2083a874093438cabd60e32b_0",
+      "kind": "li",
+      "source": "Create a __TRILIUM_PH_0__Render Note__TRILIUM_PH_1__.",
+      "sourceHash": "2083a874093438cabd60e32bd5a2280e80d458bca5a4bbc1241571db50c40c60",
+      "context": "Render Note > Creating a render note",
+      "contextHash": "1b0a1e9df26fa0a10d9baf7c33bdd87b3960d60eccf084e0ca37ad36e051cc1c",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_6bfcca49e0fa6bdaf0b38c60_0",
+      "kind": "li",
+      "source": "Assign the __TRILIUM_PH_0__ __TRILIUM_PH_1__relation__TRILIUM_PH_2__ to point at the previously created code note.",
+      "sourceHash": "6bfcca49e0fa6bdaf0b38c60736dac27c9cd2bbceecc7484f927756acaaef7e8",
+      "context": "Render Note > Creating a render note",
+      "contextHash": "1b0a1e9df26fa0a10d9baf7c33bdd87b3960d60eccf084e0ca37ad36e051cc1c",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_35d1e9e342e186e2ec94b760_0",
+      "kind": "h2",
+      "source": "Legacy scripting using jQuery__TRILIUM_PH_0__",
+      "sourceHash": "35d1e9e342e186e2ec94b760e2e45efa0c0b8ac885c292cfc3a97720a45f78ea",
+      "context": "Render Note > Legacy scripting using jQuery",
+      "contextHash": "ca890da464837dcf8779d17509884b182e487ca0a865137f045e384907558914",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_800636bbf2ae0c9e19908293_0",
+      "kind": "p",
+      "source": "A static HTML is generally not enough for __TRILIUM_PH_0__Scripting__TRILIUM_PH_1__. The next step is to automatically change parts of the note using JavaScript.",
+      "sourceHash": "800636bbf2ae0c9e19908293a2dba6c24eb610ef405fdd86dc081b731a5b4358",
+      "context": "Render Note > Legacy scripting using jQuery",
+      "contextHash": "ca890da464837dcf8779d17509884b182e487ca0a865137f045e384907558914",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_768a509f44d978b7821e7173_0",
+      "kind": "p",
+      "source": "For a simple example, we are going to create a render note that displays the current date in a field.",
+      "sourceHash": "768a509f44d978b7821e71737683a4c06dd15c20a7a1371ea172a74469ac76fb",
+      "context": "Render Note > Legacy scripting using jQuery",
+      "contextHash": "ca890da464837dcf8779d17509884b182e487ca0a865137f045e384907558914",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_5c59b7ee51442cb0c1a58911_0",
+      "kind": "p",
+      "source": "To do so, first create an HTML code note with the following content:",
+      "sourceHash": "5c59b7ee51442cb0c1a58911cc453f457a2b16eee76a8c04371ddbd8dddb764f",
+      "context": "Render Note > Legacy scripting using jQuery",
+      "contextHash": "ca890da464837dcf8779d17509884b182e487ca0a865137f045e384907558914",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_64974e2f0d7dda3b5bb598b0_0",
+      "kind": "p",
+      "source": "Now we need to add the script. Create another __TRILIUM_PH_0__Code__TRILIUM_PH_1__, but this time of JavaScript (frontend) language. Make sure the newly created note is a direct child of the HTML note created previously; with the following content:",
+      "sourceHash": "64974e2f0d7dda3b5bb598b0c49bb1f0014faa54c67c66a479cb60022e38fb36",
+      "context": "Render Note > Legacy scripting using jQuery",
+      "contextHash": "ca890da464837dcf8779d17509884b182e487ca0a865137f045e384907558914",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_9e7d5fed6e0379f2d4b812dc_0",
+      "kind": "p",
+      "source": "Now create a render note at any place and set its __TRILIUM_PH_0__ relation to point to the HTML note. When the render note is accessed it will display:",
+      "sourceHash": "9e7d5fed6e0379f2d4b812dc44bd7920d46d5f8256b2885e2b1427133189ac08",
+      "context": "Render Note > Legacy scripting using jQuery",
+      "contextHash": "ca890da464837dcf8779d17509884b182e487ca0a865137f045e384907558914",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_fc6de2fdd480a964c7f18dbd_0",
+      "kind": "p",
+      "source": "__TRILIUM_PH_0__Current date & time__TRILIUM_PH_1____TRILIUM_PH_2__The current date & time is Sun Apr 06 2025 15:26:29 GMT+0300 (Eastern European Summer Time)",
+      "sourceHash": "fc6de2fdd480a964c7f18dbd7fa905cc93cab1795a4b6c4f2a686b4031f89487",
+      "context": "Render Note > Legacy scripting using jQuery",
+      "contextHash": "ca890da464837dcf8779d17509884b182e487ca0a865137f045e384907558914",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_b5b1573863a25dcb8dfcd8e5_0",
+      "kind": "h2",
+      "source": "Dynamic content using Preact & JSX__TRILIUM_PH_0__",
+      "sourceHash": "b5b1573863a25dcb8dfcd8e52842a30136af17203c54f51d46a2886e73b30dda",
+      "context": "Render Note > Dynamic content using Preact & JSX",
+      "contextHash": "5cfdbfaa3e0f69ba4c56ec41b587a169cb621bc80cf50c4f9d9f34d794186ce4",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_3b83dfb92280c8513179097c_0",
+      "kind": "p",
+      "source": "As a more modern alternative to jQuery, it's possible to use Preact & JSX to render pages. Since JSX is a superset of JavaScript, there's no need to provide a HTML anymore.",
+      "sourceHash": "3b83dfb92280c8513179097cdd5875fd3255e70999dd98ada0c53bb26868a4ff",
+      "context": "Render Note > Dynamic content using Preact & JSX",
+      "contextHash": "5cfdbfaa3e0f69ba4c56ec41b587a169cb621bc80cf50c4f9d9f34d794186ce4",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_96599d1b9535d54b056bccca_0",
+      "kind": "p",
+      "source": "Here are the steps to creating a simple render note:",
+      "sourceHash": "96599d1b9535d54b056bccca4b9dfb3dcdf74f1003f36f484dbe4d79b0787291",
+      "context": "Render Note > Dynamic content using Preact & JSX",
+      "contextHash": "5cfdbfaa3e0f69ba4c56ec41b587a169cb621bc80cf50c4f9d9f34d794186ce4",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_9cc5361beeb0f7c606cff1fd_0",
+      "kind": "p",
+      "source": "Create a note of type __TRILIUM_PH_0__Render Note__TRILIUM_PH_1__.",
+      "sourceHash": "9cc5361beeb0f7c606cff1fdfe9f0992ee7c0c403f4e6915edd6d879f3b6c78b",
+      "context": "Render Note > Dynamic content using Preact & JSX",
+      "contextHash": "5cfdbfaa3e0f69ba4c56ec41b587a169cb621bc80cf50c4f9d9f34d794186ce4",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_cff194f14e156a8d52e12aea_0",
+      "kind": "p",
+      "source": "Create a child __TRILIUM_PH_0__Code__TRILIUM_PH_1__ note with JSX as the language.__TRILIUM_PH_2__As an example, use the following content:",
+      "sourceHash": "cff194f14e156a8d52e12aea18a2d0b0292b50b0537ba6131167f02fe85b230a",
+      "context": "Render Note > Dynamic content using Preact & JSX",
+      "contextHash": "5cfdbfaa3e0f69ba4c56ec41b587a169cb621bc80cf50c4f9d9f34d794186ce4",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_283d4676f4c4219cdcc1eba2_0",
+      "kind": "p",
+      "source": "In the parent render note, define a __TRILIUM_PH_0__ relation pointing to the newly created child.",
+      "sourceHash": "283d4676f4c4219cdcc1eba2c82755ef8843931c52e89b7d867a31a6c1a2c9f0",
+      "context": "Render Note > Dynamic content using Preact & JSX",
+      "contextHash": "5cfdbfaa3e0f69ba4c56ec41b587a169cb621bc80cf50c4f9d9f34d794186ce4",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_5c5552f244619d354bdd4c52_0",
+      "kind": "p",
+      "source": "Refresh the render note and it should display a “Hello world” message.",
+      "sourceHash": "5c5552f244619d354bdd4c52d6df9177efbc18203c687321bed6ffd85a918751",
+      "context": "Render Note > Dynamic content using Preact & JSX",
+      "contextHash": "5cfdbfaa3e0f69ba4c56ec41b587a169cb621bc80cf50c4f9d9f34d794186ce4",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_287e349c58ae0a025629bfa8_0",
+      "kind": "h2",
+      "source": "Refreshing the note__TRILIUM_PH_0__",
+      "sourceHash": "287e349c58ae0a025629bfa8711faeaea0be90c15dd9b7c735f3382f428943c1",
+      "context": "Render Note > Refreshing the note",
+      "contextHash": "a9b6e848b99fabd8f18c9f31adacd63a0c24ac3d5e991697154eebd106171f6d",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_48dcd23778fe248ebec0f45d_0",
+      "kind": "p",
+      "source": "It's possible to refresh the note via:",
+      "sourceHash": "48dcd23778fe248ebec0f45db31a257ba9cd965e031e6f5e077c2126695ec38f",
+      "context": "Render Note > Refreshing the note",
+      "contextHash": "a9b6e848b99fabd8f18c9f31adacd63a0c24ac3d5e991697154eebd106171f6d",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_52860d7bdfb298f9f42f8313_0",
+      "kind": "li",
+      "source": "The __TRILIUM_PH_0__ button in the __TRILIUM_PH_1__Note buttons__TRILIUM_PH_2__ area.",
+      "sourceHash": "52860d7bdfb298f9f42f831343025e33c84e1f7a5260ea594b171992f0f21ab1",
+      "context": "Render Note > Refreshing the note",
+      "contextHash": "a9b6e848b99fabd8f18c9f31adacd63a0c24ac3d5e991697154eebd106171f6d",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_0e1e3c41428a09933d3c702d_0",
+      "kind": "li",
+      "source": "The “Render active note” __TRILIUM_PH_0__keyboard shortcut__TRILIUM_PH_1__ (not assigned by default).",
+      "sourceHash": "0e1e3c41428a09933d3c702d524f66ed72c63c4369bd3e488cdd872c885f9a48",
+      "context": "Render Note > Refreshing the note",
+      "contextHash": "a9b6e848b99fabd8f18c9f31adacd63a0c24ac3d5e991697154eebd106171f6d",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_7c23ff6234ce4f519229a252_0",
+      "kind": "h2",
+      "source": "Printing__TRILIUM_PH_0__",
+      "sourceHash": "7c23ff6234ce4f519229a252ad9199b1a4d9330eb028702c114645b3688e3b1e",
+      "context": "Render Note > Printing",
+      "contextHash": "b833cf4da3010469929aa6a560c7adc3254c331a6a1990ca8154ee84c825b055",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_2b4198be2af6ab1c623cd899_0",
+      "kind": "p",
+      "source": "A render note can be printed or exported as PDF from the __TRILIUM_PH_0__Note menu__TRILIUM_PH_1__ once its __TRILIUM_PH_2__ relation is set (see __TRILIUM_PH_3__Printing & Exporting as PDF__TRILIUM_PH_4__). Unlike other notes, it is printed exactly as it is displayed: the script does not run again, so what was typed, selected or loaded in the note is kept.",
+      "sourceHash": "2b4198be2af6ab1c623cd899791a8903dd443e371d6c3e3076c12dcc1ebd5651",
+      "context": "Render Note > Printing",
+      "contextHash": "b833cf4da3010469929aa6a560c7adc3254c331a6a1990ca8154ee84c825b055",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_643a0ae7927d57a8ce5cdefa_0",
+      "kind": "li",
+      "source": "The content is laid out again at the width of the page, so elements sized by the script for the screen (such as charts) might not fit.",
+      "sourceHash": "643a0ae7927d57a8ce5cdefa3df2038b51c2e040baa9e7890243a0b81b685c75",
+      "context": "Render Note > Printing",
+      "contextHash": "b833cf4da3010469929aa6a560c7adc3254c331a6a1990ca8154ee84c825b055",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_7bf2ea3fc27198e0916e0f7c_0",
+      "kind": "li",
+      "source": "Scrolling areas, such as a table in a scrolling container, are printed at their full height, without a scrollbar.",
+      "sourceHash": "7bf2ea3fc27198e0916e0f7c70b1473d0fee73fa82d214381b9a9fcd52c1e97e",
+      "context": "Render Note > Printing",
+      "contextHash": "b833cf4da3010469929aa6a560c7adc3254c331a6a1990ca8154ee84c825b055",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_e0c35b86569592453f71d322_0",
+      "kind": "li",
+      "source": "To adjust the layout for printing, use a __TRILIUM_PH_0__ relation.",
+      "sourceHash": "e0c35b86569592453f71d3220141cfc970911acc4b2b5733cebad0098f98cdb5",
+      "context": "Render Note > Printing",
+      "contextHash": "b833cf4da3010469929aa6a560c7adc3254c331a6a1990ca8154ee84c825b055",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_3fe83118843df4d5655cfc25_0",
+      "kind": "li",
+      "source": "The light colors are used for printing, whatever the current theme.",
+      "sourceHash": "3fe83118843df4d5655cfc2540843b35ad004333a87144b918d0dbd4376c2b1f",
+      "context": "Render Note > Printing",
+      "contextHash": "b833cf4da3010469929aa6a560c7adc3254c331a6a1990ca8154ee84c825b055",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_7004ee09587337f231827b96_0",
+      "kind": "p",
+      "source": "When a render note is printed as part of a __TRILIUM_PH_0__List View__TRILIUM_PH_1__ collection, or from another view such as its attachments, it is not on screen, so its script runs again for the print. In a collection, the output is printed without the note's own styles.",
+      "sourceHash": "7004ee09587337f231827b96c757b8bc1855565552dfbce6bd565cf3083d3325",
+      "context": "Render Note > Printing",
+      "contextHash": "b833cf4da3010469929aa6a560c7adc3254c331a6a1990ca8154ee84c825b055",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_c082f387d1c0df76acd83423_0",
+      "kind": "h2",
+      "source": "Examples__TRILIUM_PH_0__",
+      "sourceHash": "c082f387d1c0df76acd8342318dd0b05fcae53b1c2e9c880ce3e75d11f5eaa20",
+      "context": "Render Note > Examples",
+      "contextHash": "1460eeca11e537a13b0658b1ac44ed6d552c5fff28bb85e3e5e998547004d301",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_b4b73208f4a8ee33c2e8941f_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__Weight Tracker__TRILIUM_PH_1__ which is present in the __TRILIUM_PH_2__Demo Notes__TRILIUM_PH_3__.",
+      "sourceHash": "b4b73208f4a8ee33c2e8941f6d8e55796a5e351f213b88ca89dd9c8e19c6ef40",
+      "context": "Render Note > Examples",
+      "contextHash": "1460eeca11e537a13b0658b1ac44ed6d552c5fff28bb85e3e5e998547004d301",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_b190d47815633246b0ab18a6_0",
+      "kind": "image-alt",
+      "source": "記事画像",
+      "sourceHash": "b190d47815633246b0ab18a61d9b8e8ea36504fe3f8bc230a7753096915c9ff2",
+      "context": "Render Note > Examples",
+      "contextHash": "1460eeca11e537a13b0658b1ac44ed6d552c5fff28bb85e3e5e998547004d301",
+      "status": "pending",
+      "active": true
+    }
+  ],
+  "requests": []
+}

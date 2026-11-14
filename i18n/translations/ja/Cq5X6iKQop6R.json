@@ -1,0 +1,379 @@
+{
+  "schemaVersion": 1,
+  "pageId": "Cq5X6iKQop6R",
+  "sourceFile": "docs/User Guide/User Guide/Advanced Usage/Attributes/Relations.md",
+  "sourceRevision": "03d17b60f59b5efc29b880b11481471d0fe0ff57",
+  "units": [
+    {
+      "id": "u_39559f648f5438bd3ff6beda_0",
+      "kind": "title",
+      "source": "Relations",
+      "sourceHash": "39559f648f5438bd3ff6bedac062dcd30545e816b1a45303fa7c19b880af1ab2",
+      "context": "Relations",
+      "contextHash": "ba39aabe5da59950f2613ffbe227e06b619cb600ad7e3ec2f7fd296f8edc5026",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_4022b663dbf3e601a72c23a5_0",
+      "kind": "p",
+      "source": "A relation is similar to a __TRILIUM_PH_0__label__TRILIUM_PH_1__, but instead of having a text value it refers to another note.",
+      "sourceHash": "4022b663dbf3e601a72c23a51e55069db430d234ada7a482aac1a815996b7ff9",
+      "context": "Relations",
+      "contextHash": "ba39aabe5da59950f2613ffbe227e06b619cb600ad7e3ec2f7fd296f8edc5026",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_793ffc73dc833d90fb704f29_0",
+      "kind": "h2",
+      "source": "Common use cases__TRILIUM_PH_0__",
+      "sourceHash": "793ffc73dc833d90fb704f293dba499ee52b245296d9c4180317254913e0a7f2",
+      "context": "Relations > Common use cases",
+      "contextHash": "8a0e13f64913129cc3149db4901ffccf8fa0264097a213eb075cfdee8dd47f27",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_6597638f3df7eb8151ced5bf_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__Metadata Relationships for personal use__TRILIUM_PH_1__: For example, linking a book note to an author note.__TRILIUM_PH_2__This can be combined with __TRILIUM_PH_3__Promoted Attributes__TRILIUM_PH_4__ to make their display more user-friendly.",
+      "sourceHash": "6597638f3df7eb8151ced5bfcf592e39ab7f93e3aa07f79749ab3381c5d21efe",
+      "context": "Relations > Common use cases",
+      "contextHash": "8a0e13f64913129cc3149db4901ffccf8fa0264097a213eb075cfdee8dd47f27",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_c513a3dabfd3222423817157_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__Configuration__TRILIUM_PH_1__: For configuring some notes such as __TRILIUM_PH_2__Render Note__TRILIUM_PH_3__, or configuring __TRILIUM_PH_4__Sharing__TRILIUM_PH_5__ or __TRILIUM_PH_6__Templates__TRILIUM_PH_7__ (see the list below).",
+      "sourceHash": "c513a3dabfd32224238171571db21382d67d1c9d6aca1f661d3e76cf5e007ae4",
+      "context": "Relations > Common use cases",
+      "contextHash": "8a0e13f64913129cc3149db4901ffccf8fa0264097a213eb075cfdee8dd47f27",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_7b65cfa9ef5a6026033c0e30_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__Scripting__TRILIUM_PH_1__: Attaching scripts to events or conditions related to the note.",
+      "sourceHash": "7b65cfa9ef5a6026033c0e3037fa8d77807d72ea82ee5a3a7d509b31aff5f535",
+      "context": "Relations > Common use cases",
+      "contextHash": "8a0e13f64913129cc3149db4901ffccf8fa0264097a213eb075cfdee8dd47f27",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_f4c99a97a1dc71d727b73476_0",
+      "kind": "h2",
+      "source": "Creating a relation using the visual editor__TRILIUM_PH_0__",
+      "sourceHash": "f4c99a97a1dc71d727b73476cf9cf752a20ac49592871436da0f57efdf0d9dbd",
+      "context": "Relations > Creating a relation using the visual editor",
+      "contextHash": "dafd4042d5a669da761de1445078afaccd5828bd5c91568d00872a7f48af7ea2",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_38b6d66202d9cf97db0c2511_0",
+      "kind": "li",
+      "source": "Go to the __TRILIUM_PH_0__Attributes tab__TRILIUM_PH_1__ in the __TRILIUM_PH_2__Right Sidebar__TRILIUM_PH_3__.",
+      "sourceHash": "38b6d66202d9cf97db0c2511b0e4fec162e786dbca5832985c39b44321d6e487",
+      "context": "Relations > Creating a relation using the visual editor",
+      "contextHash": "dafd4042d5a669da761de1445078afaccd5828bd5c91568d00872a7f48af7ea2",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_0588da1c16aaf12662b6b06f_0",
+      "kind": "li",
+      "source": "Press the __TRILIUM_PH_0__ button (__TRILIUM_PH_1__Add a new attribute__TRILIUM_PH_2__) to the right of the __TRILIUM_PH_3__Owned attributes__TRILIUM_PH_4__ section.",
+      "sourceHash": "0588da1c16aaf12662b6b06fbe3145c02851aa813e1afc6a6b5358b7aeaffbed",
+      "context": "Relations > Creating a relation using the visual editor",
+      "contextHash": "dafd4042d5a669da761de1445078afaccd5828bd5c91568d00872a7f48af7ea2",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_26f1b3c65487e624f2323eb4_0",
+      "kind": "li",
+      "source": "Select __TRILIUM_PH_0__Add new relation__TRILIUM_PH_1__ for the relation.",
+      "sourceHash": "26f1b3c65487e624f2323eb4cade613e6a1a90d9f1a6aa820eee906564a2733a",
+      "context": "Relations > Creating a relation using the visual editor",
+      "contextHash": "dafd4042d5a669da761de1445078afaccd5828bd5c91568d00872a7f48af7ea2",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_fa941ea488dc771b69724b6b_0",
+      "kind": "p",
+      "source": "While in the visual editor, set the desired name and the __TRILIUM_PH_0__Target note__TRILIUM_PH_1__ (the note to point to). Unlike labels, relations cannot exist with a target note.",
+      "sourceHash": "fa941ea488dc771b69724b6b3ecd0ce2fd7846cc9292e9364e3fa0653769fd0a",
+      "context": "Relations > Creating a relation using the visual editor",
+      "contextHash": "dafd4042d5a669da761de1445078afaccd5828bd5c91568d00872a7f48af7ea2",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_2c2afef72f9129bfc1b784d6_0",
+      "kind": "p",
+      "source": "Children can inherit this relation, click the relation and check __TRILIUM_PH_0__Inheritable__TRILIUM_PH_1__. See __TRILIUM_PH_2__Attribute Inheritance__TRILIUM_PH_3__ for more information.",
+      "sourceHash": "2c2afef72f9129bfc1b784d60a73700f21750c503d4e864c2b8f699c632156a5",
+      "context": "Relations > Creating a relation using the visual editor",
+      "contextHash": "dafd4042d5a669da761de1445078afaccd5828bd5c91568d00872a7f48af7ea2",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_cf54a31e163ab32c6e90ec92_0",
+      "kind": "p",
+      "source": "Alternatively, press __TRILIUM_PH_0__Alt__TRILIUM_PH_1__+__TRILIUM_PH_2__L__TRILIUM_PH_3__ which will open the attribute details (same view as when an existing attribute is clicked) in the __TRILIUM_PH_4__Status bar__TRILIUM_PH_5__.",
+      "sourceHash": "cf54a31e163ab32c6e90ec92a5878966f6c64443a27504249237d32618984eb0",
+      "context": "Relations > Creating a relation using the visual editor",
+      "contextHash": "dafd4042d5a669da761de1445078afaccd5828bd5c91568d00872a7f48af7ea2",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_f1fe2a4e47e437dc2c877c16_0",
+      "kind": "h2",
+      "source": "Creating a relation manually__TRILIUM_PH_0__",
+      "sourceHash": "f1fe2a4e47e437dc2c877c16ffab6405c96e4d969839205eb5aa3454fe956086",
+      "context": "Relations > Creating a relation manually",
+      "contextHash": "e43df6cf0fc3803c0b3838fe259df2910850f4d39a7b5f0b97a3645cd9391fa7",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_1aba29f99534eb7fe87cf187_0",
+      "kind": "p",
+      "source": "In the __TRILIUM_PH_0__Status bar__TRILIUM_PH_1__, press the __TRILIUM_PH_2__ button to show the list of the attributes.",
+      "sourceHash": "1aba29f99534eb7fe87cf18785b54c09e18f59452e081731998786df4c58a63a",
+      "context": "Relations > Creating a relation manually",
+      "contextHash": "e43df6cf0fc3803c0b3838fe259df2910850f4d39a7b5f0b97a3645cd9391fa7",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_98be0cc874795d75fc7b1f01_0",
+      "kind": "li",
+      "source": "To create a relation called __TRILIUM_PH_0__:",
+      "sourceHash": "98be0cc874795d75fc7b1f01c929421bfaf247941804a4670b40a616462f382e",
+      "context": "Relations > Creating a relation manually",
+      "contextHash": "e43df6cf0fc3803c0b3838fe259df2910850f4d39a7b5f0b97a3645cd9391fa7",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_a193dd6e3697e623a7de8dba_0",
+      "kind": "li",
+      "source": "Click the input box to focus it.",
+      "sourceHash": "a193dd6e3697e623a7de8dbabd7ab3db1429c120979c26cfa7ff67ca75d50427",
+      "context": "Relations > Creating a relation manually",
+      "contextHash": "e43df6cf0fc3803c0b3838fe259df2910850f4d39a7b5f0b97a3645cd9391fa7",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_8c5797f3d72d7d203a723b23_0",
+      "kind": "li",
+      "source": "Type __TRILIUM_PH_0__ .",
+      "sourceHash": "8c5797f3d72d7d203a723b2302ea9ffbef27bd8d84a5e4e0e74135f14b8e3a1d",
+      "context": "Relations > Creating a relation manually",
+      "contextHash": "e43df6cf0fc3803c0b3838fe259df2910850f4d39a7b5f0b97a3645cd9391fa7",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_bbcbde65b6786ec7fb05ead6_0",
+      "kind": "li",
+      "source": "After this, an autocompletion box should appear.",
+      "sourceHash": "bbcbde65b6786ec7fb05ead63b3863328d5eee203752cadfac689f5517b63e7e",
+      "context": "Relations > Creating a relation manually",
+      "contextHash": "e43df6cf0fc3803c0b3838fe259df2910850f4d39a7b5f0b97a3645cd9391fa7",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_a2767164358f0613980e3a8a_0",
+      "kind": "li",
+      "source": "Type the title of the note to point to and press __TRILIUM_PH_0__Enter__TRILIUM_PH_1__ to confirm (or click the desired note).",
+      "sourceHash": "a2767164358f0613980e3a8ace4aea16b8bfa28631705466b454cff0c28f0b33",
+      "context": "Relations > Creating a relation manually",
+      "contextHash": "e43df6cf0fc3803c0b3838fe259df2910850f4d39a7b5f0b97a3645cd9391fa7",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_d34a56bcae6dbb0b87fc1eb9_0",
+      "kind": "li",
+      "source": "Alternatively copy a note from the __TRILIUM_PH_0__Note Tree__TRILIUM_PH_1__ and paste it after the __TRILIUM_PH_2__ sign (without the __TRILIUM_PH_3__ , in this case).",
+      "sourceHash": "d34a56bcae6dbb0b87fc1eb97c4113a6e8b114f54444dbcbf457994191df4681",
+      "context": "Relations > Creating a relation manually",
+      "contextHash": "e43df6cf0fc3803c0b3838fe259df2910850f4d39a7b5f0b97a3645cd9391fa7",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_f8bf2e75209d1a263e701818_0",
+      "kind": "li",
+      "source": "To create an inheritable relation, follow the same steps as previously described but instead of __TRILIUM_PH_0__ write __TRILIUM_PH_1__.",
+      "sourceHash": "f8bf2e75209d1a263e701818b184644f21f80117748f3d5829309bae57542459",
+      "context": "Relations > Creating a relation manually",
+      "contextHash": "e43df6cf0fc3803c0b3838fe259df2910850f4d39a7b5f0b97a3645cd9391fa7",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_cf6bde3dbfa53a0adab0c1ee_0",
+      "kind": "h2",
+      "source": "Predefined relations__TRILIUM_PH_0__",
+      "sourceHash": "cf6bde3dbfa53a0adab0c1eef05201b5de14e736814c3d4fc3588f2787ef3fd9",
+      "context": "Relations > Predefined relations",
+      "contextHash": "651a5c667c90939b63b97b1bfe9af6e88ac0c7dab89615bbe33432c8090ce363",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_cc00d1009b8fe4acf225446a_0",
+      "kind": "p",
+      "source": "These relations are supported and used internally by Trilium.",
+      "sourceHash": "cc00d1009b8fe4acf225446a2a59dbf4385cfd2f25afd99f8196c73475222771",
+      "context": "Relations > Predefined relations",
+      "contextHash": "651a5c667c90939b63b97b1bfe9af6e88ac0c7dab89615bbe33432c8090ce363",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_6f0c4b80edc06ac84ea5ebee_0",
+      "kind": "th",
+      "source": "Label",
+      "sourceHash": "6f0c4b80edc06ac84ea5ebeecce95361bd8cf2fe8361d0f209fa5bd9a27884b3",
+      "context": "Relations > Predefined relations",
+      "contextHash": "651a5c667c90939b63b97b1bfe9af6e88ac0c7dab89615bbe33432c8090ce363",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_4b00baa636b92e18b7a75884_0",
+      "kind": "th",
+      "source": "Description",
+      "sourceHash": "4b00baa636b92e18b7a75884790f0769c3e702d20d8822e708f69ab2f07c7103",
+      "context": "Relations > Predefined relations",
+      "contextHash": "651a5c667c90939b63b97b1bfe9af6e88ac0c7dab89615bbe33432c8090ce363",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_52eb89b1ebfa99a27086656d_0",
+      "kind": "td",
+      "source": "See __TRILIUM_PH_0__Backend Events__TRILIUM_PH_1__",
+      "sourceHash": "52eb89b1ebfa99a27086656d8c6eb6c028afb9e083c8aa82fb67f900aa4237f9",
+      "context": "Relations > Predefined relations",
+      "contextHash": "651a5c667c90939b63b97b1bfe9af6e88ac0c7dab89615bbe33432c8090ce363",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_f4054603f70c5f236b438ea8_0",
+      "kind": "td",
+      "source": "note's attributes will be inherited even without a parent-child relationship, note's content and subtree will be added to instance notes if empty. See documentation for details.",
+      "sourceHash": "f4054603f70c5f236b438ea845876df99832678528572bd593ac8c9914136a02",
+      "context": "Relations > Predefined relations",
+      "contextHash": "651a5c667c90939b63b97b1bfe9af6e88ac0c7dab89615bbe33432c8090ce363",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_6b9090c1c65c787692785fca_0",
+      "kind": "td",
+      "source": "set on a template note, points to the note under which notes created from the template are placed when no other location is picked; when set several times, the note is cloned into every target. See __TRILIUM_PH_0__Templates__TRILIUM_PH_1__.",
+      "sourceHash": "6b9090c1c65c787692785fca27bc18c2756d2e365967f5b534d1e6a45610fffd",
+      "context": "Relations > Predefined relations",
+      "contextHash": "651a5c667c90939b63b97b1bfe9af6e88ac0c7dab89615bbe33432c8090ce363",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_aa17071c6648ec8d4e306b81_0",
+      "kind": "td",
+      "source": "note's attributes will be inherited even without a parent-child relationship. See __TRILIUM_PH_0__Templates__TRILIUM_PH_1__ for a similar concept. See __TRILIUM_PH_2__Attribute Inheritance__TRILIUM_PH_3__ in the documentation.",
+      "sourceHash": "aa17071c6648ec8d4e306b818ae48b75c4d95e433568e7171df7110fb896d4f1",
+      "context": "Relations > Predefined relations",
+      "contextHash": "651a5c667c90939b63b97b1bfe9af6e88ac0c7dab89615bbe33432c8090ce363",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_cf7a190f2f7defe5e87a7d01_0",
+      "kind": "td",
+      "source": "notes of type __TRILIUM_PH_0__Render Note__TRILIUM_PH_1__ will be rendered using a code note (HTML or script) and it is necessary to point using this relation to which note should be rendered",
+      "sourceHash": "cf7a190f2f7defe5e87a7d01457a640025d8fe7b1744da69ac0c10c2e06c4ddb",
+      "context": "Relations > Predefined relations",
+      "contextHash": "651a5c667c90939b63b97b1bfe9af6e88ac0c7dab89615bbe33432c8090ce363",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_76f467a6a45d436ad932051f_0",
+      "kind": "td",
+      "source": "Used in the context of custom __TRILIUM_PH_0__Launch Bar Widgets__TRILIUM_PH_1__, to refer to the widget that will be rendered.",
+      "sourceHash": "76f467a6a45d436ad932051f4684bdd0f766c359b199685d57b784fd6ee544f2",
+      "context": "Relations > Predefined relations",
+      "contextHash": "651a5c667c90939b63b97b1bfe9af6e88ac0c7dab89615bbe33432c8090ce363",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_7c9f3672a1b018d0aec0f4a1_0",
+      "kind": "td",
+      "source": "CSS note which will be injected into the share page. CSS note must be in the shared sub-tree as well. Consider using __TRILIUM_PH_0__ and __TRILIUM_PH_1__ as well.",
+      "sourceHash": "7c9f3672a1b018d0aec0f4a12a222cc5438f086fceaf0a486dfc5e97164fedf3",
+      "context": "Relations > Predefined relations",
+      "contextHash": "651a5c667c90939b63b97b1bfe9af6e88ac0c7dab89615bbe33432c8090ce363",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_06f0c2d673c0a453c8ddec9c_0",
+      "kind": "td",
+      "source": "JavaScript note which will be injected into the share page. JS note must be in the shared sub-tree as well. Consider using __TRILIUM_PH_0__.",
+      "sourceHash": "06f0c2d673c0a453c8ddec9c4abdaeb53714819a410121699280cc93cf06a0f4",
+      "context": "Relations > Predefined relations",
+      "contextHash": "651a5c667c90939b63b97b1bfe9af6e88ac0c7dab89615bbe33432c8090ce363",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_fc6a204210036a51918a0d94_0",
+      "kind": "td",
+      "source": "HTML note which will be injected into the share page at locations specified by the __TRILIUM_PH_0__ label. HTML note must be in the shared sub-tree as well. Consider using __TRILIUM_PH_1__.",
+      "sourceHash": "fc6a204210036a51918a0d94b8fa06588a59948ca58530e5a15f2137e1bc227c",
+      "context": "Relations > Predefined relations",
+      "contextHash": "651a5c667c90939b63b97b1bfe9af6e88ac0c7dab89615bbe33432c8090ce363",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_0e69b7a6adfd33f7d39d27ab_0",
+      "kind": "td",
+      "source": "Embedded JavaScript note that will be used as the template for displaying the shared note. Falls back to the default template. Consider using __TRILIUM_PH_0__.",
+      "sourceHash": "0e69b7a6adfd33f7d39d27ab16c221f5b8c4e5736ca55fb868136ea7e66f7eb8",
+      "context": "Relations > Predefined relations",
+      "contextHash": "651a5c667c90939b63b97b1bfe9af6e88ac0c7dab89615bbe33432c8090ce363",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_f246fec2d3b1e90be7056de1_0",
+      "kind": "td",
+      "source": "Favicon note to be set in the shared page. Typically you want to set it to share root and make it inheritable. Favicon note must be in the shared sub-tree as well. Consider using __TRILIUM_PH_0__.",
+      "sourceHash": "f246fec2d3b1e90be7056de160acc0694bd6b3955ca4943224a10cf718978161",
+      "context": "Relations > Predefined relations",
+      "contextHash": "651a5c667c90939b63b97b1bfe9af6e88ac0c7dab89615bbe33432c8090ce363",
+      "status": "pending",
+      "active": true
+    }
+  ],
+  "requests": []
+}

@@ -1,0 +1,379 @@
+{
+  "schemaVersion": 1,
+  "pageId": "oBo3iHIZnbG2",
+  "sourceFile": "docs/User Guide/User Guide/Note Types/Text/Spell Check.md",
+  "sourceRevision": "03d17b60f59b5efc29b880b11481471d0fe0ff57",
+  "units": [
+    {
+      "id": "u_a7ec66c390139b268420ac3d_0",
+      "kind": "title",
+      "source": "Spell Check",
+      "sourceHash": "a7ec66c390139b268420ac3d259a5e310e2258e71c688b35d83033c90dd4377a",
+      "context": "Spell Check",
+      "contextHash": "c7792f24e82bb420190ae76ec932708602404f637c1f371142fe99a4875fcdd9",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_bd4c663e15a8ad272a56ba0a_0",
+      "kind": "p",
+      "source": "Trilium supports spell checking for your notes. How it works depends on whether you're using the __TRILIUM_PH_0__desktop application__TRILIUM_PH_1__ (Electron) or accessing Trilium through a __TRILIUM_PH_2__web browser__TRILIUM_PH_3__.",
+      "sourceHash": "bd4c663e15a8ad272a56ba0a9eab20f4a43e5c949201c54880e10f721f8f7aab",
+      "context": "Spell Check",
+      "contextHash": "c7792f24e82bb420190ae76ec932708602404f637c1f371142fe99a4875fcdd9",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_5a640e3022496a734baec662_0",
+      "kind": "h2",
+      "source": "Desktop__TRILIUM_PH_0__",
+      "sourceHash": "5a640e3022496a734baec66263a2e85f2e0b268f0cabd8717277be81f4a8133e",
+      "context": "Spell Check > Desktop",
+      "contextHash": "ddf216beaa11215f47c94a242d292e3a933d4dafd37aaebc3e6f7c267576900c",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_28e79cccf0e9e6b4687844fd_0",
+      "kind": "p",
+      "source": "The desktop app uses Chromium's built-in spellchecker. You can configure it from __TRILIUM_PH_0__Options__TRILIUM_PH_1__ → __TRILIUM_PH_2__Spell Check__TRILIUM_PH_3__.",
+      "sourceHash": "28e79cccf0e9e6b4687844fd383af34bf3c49217f18b5e127502d7660965f497",
+      "context": "Spell Check > Desktop",
+      "contextHash": "ddf216beaa11215f47c94a242d292e3a933d4dafd37aaebc3e6f7c267576900c",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_b7d6a800f1deee1244eb8628_0",
+      "kind": "h3",
+      "source": "Enabling spell check__TRILIUM_PH_0__",
+      "sourceHash": "b7d6a800f1deee1244eb8628ac44ee1bb9baca881289f7f7d72862eafacde1c5",
+      "context": "Spell Check > Desktop > Enabling spell check",
+      "contextHash": "8f262c69c9fb978654b747bf05c36ee04e91d679afbc255de7523b7bec3d0f96",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_294363544880ff0b51aa8234_0",
+      "kind": "p",
+      "source": "Toggle __TRILIUM_PH_0__Check spelling__TRILIUM_PH_1__ to enable or disable the spellchecker. A restart is required for changes to take effect — use the restart button at the bottom of the section.",
+      "sourceHash": "294363544880ff0b51aa8234545a0b48ed497d3599c131a23ee0f0e36a576639",
+      "context": "Spell Check > Desktop > Enabling spell check",
+      "contextHash": "8f262c69c9fb978654b747bf05c36ee04e91d679afbc255de7523b7bec3d0f96",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_e9d8600f48325b2dc2b09b29_0",
+      "kind": "h3",
+      "source": "Choosing languages__TRILIUM_PH_0__",
+      "sourceHash": "e9d8600f48325b2dc2b09b296d7b1b86029764b0d76e3c63a175174a4b3c0771",
+      "context": "Spell Check > Desktop > Choosing languages",
+      "contextHash": "93bf60a72b9df754dd2059be9df833aaf3fc4f7dd515adc2378c879eff4a44c8",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_fb2aec5dba9803fe36a14b0d_0",
+      "kind": "p",
+      "source": "When spell check is enabled, a __TRILIUM_PH_0__Spell Check Languages__TRILIUM_PH_1__ section appears listing all languages available on your system. Select one or more languages by checking the boxes. The spellchecker will accept words that are valid in __TRILIUM_PH_2__any__TRILIUM_PH_3__ of the selected languages.",
+      "sourceHash": "fb2aec5dba9803fe36a14b0d12e4b143c68eef72118f51c8ccf421c901f481eb",
+      "context": "Spell Check > Desktop > Choosing languages",
+      "contextHash": "93bf60a72b9df754dd2059be9df833aaf3fc4f7dd515adc2378c879eff4a44c8",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_395d7b44d3a78ffb543f85ec_0",
+      "kind": "p",
+      "source": "The available languages depend on your operating system's installed language packs. For example, on Windows you can add languages through __TRILIUM_PH_0__Options__TRILIUM_PH_1__ → __TRILIUM_PH_2__Time & Language__TRILIUM_PH_3__ → __TRILIUM_PH_4__Language & Region__TRILIUM_PH_5__ → __TRILIUM_PH_6__Add a language__TRILIUM_PH_7__.",
+      "sourceHash": "395d7b44d3a78ffb543f85ec159cf53438ca08073442b7e6067bc9756062b212",
+      "context": "Spell Check > Desktop > Choosing languages",
+      "contextHash": "93bf60a72b9df754dd2059be9df833aaf3fc4f7dd515adc2378c879eff4a44c8",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_a7935226dfb2117bd8389e75_0",
+      "kind": "p",
+      "source": "The changes take effect only after restarting the application.",
+      "sourceHash": "a7935226dfb2117bd8389e756169d6d47082281c01bb4207378aedd1afe412eb",
+      "context": "Spell Check > Desktop > Choosing languages",
+      "contextHash": "93bf60a72b9df754dd2059be9df833aaf3fc4f7dd515adc2378c879eff4a44c8",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_3bb26f7e087c50c332cf74cd_0",
+      "kind": "h3",
+      "source": "Custom dictionary__TRILIUM_PH_0__",
+      "sourceHash": "3bb26f7e087c50c332cf74cda6dd9d05a41c9388b4972eeecc965296f5c32e51",
+      "context": "Spell Check > Desktop > Custom dictionary",
+      "contextHash": "a6d46eba81629b4a2e381e484ac6729a08b03efcfe9955b9d78a081fedb51e94",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_0cb60d61260e4d6899322d83_0",
+      "kind": "p",
+      "source": "This function is available starting with Trilium v0.103.0.",
+      "sourceHash": "0cb60d61260e4d6899322d839a376296dcd40ab2108f7bd206688b2379921642",
+      "context": "Spell Check > Desktop > Custom dictionary",
+      "contextHash": "a6d46eba81629b4a2e381e484ac6729a08b03efcfe9955b9d78a081fedb51e94",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_91eb846b840eb1e2f24391be_0",
+      "kind": "p",
+      "source": "Words you add to the dictionary (e.g. via the right-click context menu → \"Add to dictionary\") are stored in a __TRILIUM_PH_0__synced note__TRILIUM_PH_1__ inside Trilium. This means your custom dictionary automatically syncs across all your devices.",
+      "sourceHash": "91eb846b840eb1e2f24391be9f07a5a23eed439188b91c416f544db86f45b7c9",
+      "context": "Spell Check > Desktop > Custom dictionary",
+      "contextHash": "a6d46eba81629b4a2e381e484ac6729a08b03efcfe9955b9d78a081fedb51e94",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_92df9734e6387f3efefa972f_0",
+      "kind": "p",
+      "source": "You can view and edit the dictionary directly from __TRILIUM_PH_0__Settings__TRILIUM_PH_1__ → __TRILIUM_PH_2__Spell Check__TRILIUM_PH_3__ → __TRILIUM_PH_4__Custom Dictionary__TRILIUM_PH_5__ → __TRILIUM_PH_6__Edit dictionary__TRILIUM_PH_7__. This opens the underlying note, which contains one word per line. You can add, remove, or modify entries as you like.",
+      "sourceHash": "92df9734e6387f3efefa972f06ad60824b4b38d72c8263f53e5b415ed273cef7",
+      "context": "Spell Check > Desktop > Custom dictionary",
+      "contextHash": "a6d46eba81629b4a2e381e484ac6729a08b03efcfe9955b9d78a081fedb51e94",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_09bfd41ea7a06e5acb4e92ff_0",
+      "kind": "p",
+      "source": "Changes to the custom dictionary (whether from the editor or the context menu) take effect after restarting the application.",
+      "sourceHash": "09bfd41ea7a06e5acb4e92ff741d3352c6138b6daef7988d910d2a080a0d0b6d",
+      "context": "Spell Check > Desktop > Custom dictionary",
+      "contextHash": "a6d46eba81629b4a2e381e484ac6729a08b03efcfe9955b9d78a081fedb51e94",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_b1efa4776695800ee822c3ac_0",
+      "kind": "h4",
+      "source": "How the custom dictionary works__TRILIUM_PH_0__",
+      "sourceHash": "b1efa4776695800ee822c3acd0d839a9f49adc4c2a9eeee0583f6ea3af0204d0",
+      "context": "Spell Check > Desktop > Custom dictionary > How the custom dictionary works",
+      "contextHash": "fdc6057cf284be5b8ac1de39f7b313918fe34438b55ad04f95447140da44139c",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_87fc44b1237229652f3fe7b9_0",
+      "kind": "li",
+      "source": "When you right-click a misspelled word and choose \"Add to dictionary\", the word is saved both to Electron's local spellchecker and to the synced dictionary note.",
+      "sourceHash": "87fc44b1237229652f3fe7b9ec5888d848975aedc31f0e73871f4cde17112bf9",
+      "context": "Spell Check > Desktop > Custom dictionary > How the custom dictionary works",
+      "contextHash": "fdc6057cf284be5b8ac1de39f7b313918fe34438b55ad04f95447140da44139c",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_e0c9104abfe9f707a631887c_0",
+      "kind": "li",
+      "source": "On startup, Trilium loads all words from the dictionary note into the spellchecker session.",
+      "sourceHash": "e0c9104abfe9f707a631887cdd5cb5e018e6615edfff7939765d2d64f3b82697",
+      "context": "Spell Check > Desktop > Custom dictionary > How the custom dictionary works",
+      "contextHash": "fdc6057cf284be5b8ac1de39f7b313918fe34438b55ad04f95447140da44139c",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_b6f108f26b4375d4f0af7b5f_0",
+      "kind": "li",
+      "source": "If Trilium detects words in Electron's local dictionary but the dictionary note is empty (e.g. on first use), it performs a __TRILIUM_PH_0__one-time import__TRILIUM_PH_1__ of those words into the note.",
+      "sourceHash": "b6f108f26b4375d4f0af7b5f5f447f39ca85fe67ee9b9936c180e174aeba62ed",
+      "context": "Spell Check > Desktop > Custom dictionary > How the custom dictionary works",
+      "contextHash": "fdc6057cf284be5b8ac1de39f7b313918fe34438b55ad04f95447140da44139c",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_f5d6df59a11c02aaa6a03b2b_0",
+      "kind": "li",
+      "source": "Words that are in Electron's local dictionary but __TRILIUM_PH_0__not__TRILIUM_PH_1__ in the note (e.g. you removed them manually) are cleaned up from the local dictionary on startup.",
+      "sourceHash": "f5d6df59a11c02aaa6a03b2b40b8b917305f959a549f784f60af055636211d8a",
+      "context": "Spell Check > Desktop > Custom dictionary > How the custom dictionary works",
+      "contextHash": "fdc6057cf284be5b8ac1de39f7b313918fe34438b55ad04f95447140da44139c",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_e3ff651aa3e6924878718da3_0",
+      "kind": "h4",
+      "source": "Known limitations__TRILIUM_PH_0__",
+      "sourceHash": "e3ff651aa3e6924878718da3a9774bcaa946bb575968720534daa2f7f3cba177",
+      "context": "Spell Check > Desktop > Custom dictionary > Known limitations",
+      "contextHash": "c66bfb2f5357687fe9c0343ccabaf552ef4f74e5b5e07d86c2c45cf33faabb19",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_4a3681e00a2a90d29aab779b_0",
+      "kind": "p",
+      "source": "On Windows and macOS, Electron delegates \"Add to dictionary\" to the operating system's user dictionary. This means:",
+      "sourceHash": "4a3681e00a2a90d29aab779b0bad5c1a83285de40105a0b3d46b772c630f8c02",
+      "context": "Spell Check > Desktop > Custom dictionary > Known limitations",
+      "contextHash": "c66bfb2f5357687fe9c0343ccabaf552ef4f74e5b5e07d86c2c45cf33faabb19",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_d4d44646851ce0916538faa5_0",
+      "kind": "li",
+      "source": "Words added via the context menu are also written to the OS-level dictionary (e.g. __TRILIUM_PH_0__ on Windows).",
+      "sourceHash": "d4d44646851ce0916538faa5b81db2e5b3ca6d2d4ae5181328970d53e4b56e42",
+      "context": "Spell Check > Desktop > Custom dictionary > Known limitations",
+      "contextHash": "c66bfb2f5357687fe9c0343ccabaf552ef4f74e5b5e07d86c2c45cf33faabb19",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_0cf4d245fff4df429501adf4_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__Removing a word__TRILIUM_PH_1__ from the Trilium dictionary note prevents it from being loaded into the spellchecker on next startup, but does __TRILIUM_PH_2__not__TRILIUM_PH_3__ remove it from the OS dictionary. The word may still be accepted by the OS spellchecker until you remove it from the OS dictionary manually.",
+      "sourceHash": "0cf4d245fff4df429501adf4e9cebdf45d38e3030e360430900097573571e71a",
+      "context": "Spell Check > Desktop > Custom dictionary > Known limitations",
+      "contextHash": "c66bfb2f5357687fe9c0343ccabaf552ef4f74e5b5e07d86c2c45cf33faabb19",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_cfb66563d42834069e75746e_0",
+      "kind": "h2",
+      "source": "Web browser__TRILIUM_PH_0__",
+      "sourceHash": "cfb66563d42834069e75746e84d0aa9bbadf2e67e670d6a2f658bc2a49e0ae61",
+      "context": "Spell Check > Web browser",
+      "contextHash": "f996d3a7f579c5a1946f5e71e5ffa666cea5329a56350dc45dda969cb5f2e6c9",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_7d30f6bbaac9d931c7d63d91_0",
+      "kind": "p",
+      "source": "When accessing Trilium through a web browser, spell checking is handled entirely by the browser itself. Trilium does not control the browser's spellchecker — language selection, dictionaries, and all other settings are managed through your browser's preferences.",
+      "sourceHash": "7d30f6bbaac9d931c7d63d912592879339161439532389b54887093cc7dfbf1c",
+      "context": "Spell Check > Web browser",
+      "contextHash": "f996d3a7f579c5a1946f5e71e5ffa666cea5329a56350dc45dda969cb5f2e6c9",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_e4e35133de2f06616790a007_0",
+      "kind": "p",
+      "source": "The __TRILIUM_PH_0__Note contextual menu__TRILIUM_PH_1__ has a special behavior in which a right-clicked word (without selection) shows the browser's default contextual menu which allows the spellcheck to function.",
+      "sourceHash": "e4e35133de2f06616790a007af2b88c912d603c5a48d4376541b627ec6603f14",
+      "context": "Spell Check > Web browser",
+      "contextHash": "f996d3a7f579c5a1946f5e71e5ffa666cea5329a56350dc45dda969cb5f2e6c9",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_ca36559c224c895a269a19f6_0",
+      "kind": "p",
+      "source": "The Spell Check settings page in Trilium will indicate that these options apply only to desktop builds.",
+      "sourceHash": "ca36559c224c895a269a19f6946359759937ea49ed4ea4e95ffd9b6b25b81b48",
+      "context": "Spell Check > Web browser",
+      "contextHash": "f996d3a7f579c5a1946f5e71e5ffa666cea5329a56350dc45dda969cb5f2e6c9",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_4ae3cb835e54307a83b650c7_0",
+      "kind": "h2",
+      "source": "Frequently asked questions__TRILIUM_PH_0__",
+      "sourceHash": "4ae3cb835e54307a83b650c78232cb8cb26c51dcaa7a58b86165009e52a612ff",
+      "context": "Spell Check > Frequently asked questions",
+      "contextHash": "c39b104d24bbe341248e693085aa1d7e4d87eab82ed78fc02a96c2c7aebc43cc",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_8f29787707fc4e057fead0f6_0",
+      "kind": "h3",
+      "source": "Do I need to restart after every change?__TRILIUM_PH_0__",
+      "sourceHash": "8f29787707fc4e057fead0f659696c4dae93189b14526cac4cec0b99490fba9f",
+      "context": "Spell Check > Frequently asked questions > Do I need to restart after every change?",
+      "contextHash": "5e002de7884c21281f022ea077cbce0919cca8ff8f9bce1769e33d1fa2b6f2a2",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_0437d05a2c3739b5ecd80b76_0",
+      "kind": "p",
+      "source": "Yes. Spell check language selection and the custom dictionary are loaded once at startup. Any changes require a restart to take effect.",
+      "sourceHash": "0437d05a2c3739b5ecd80b76312d147f0fa06e78f93d8e5c0b736a304b56c1c2",
+      "context": "Spell Check > Frequently asked questions > Do I need to restart after every change?",
+      "contextHash": "5e002de7884c21281f022ea077cbce0919cca8ff8f9bce1769e33d1fa2b6f2a2",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_8d7de158d983a45c28cb4cd8_0",
+      "kind": "h3",
+      "source": "Can I use multiple spell check languages at the same time?__TRILIUM_PH_0__",
+      "sourceHash": "8d7de158d983a45c28cb4cd89268ad18f73c64292613426e8df6593da2b1c70f",
+      "context": "Spell Check > Frequently asked questions > Can I use multiple spell check languages at the same time?",
+      "contextHash": "1e3331930874522e18bb551da7167ae5ec360360f043d4bb41bc66d96b07975c",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_cf13bc67cb1b7fb7c0276f02_0",
+      "kind": "p",
+      "source": "Yes. Select as many languages as you need from the checklist. The spellchecker will accept words from any of the selected languages.",
+      "sourceHash": "cf13bc67cb1b7fb7c0276f02b113286f09a464e09791238b24fc4fd29b0cd4be",
+      "context": "Spell Check > Frequently asked questions > Can I use multiple spell check languages at the same time?",
+      "contextHash": "1e3331930874522e18bb551da7167ae5ec360360f043d4bb41bc66d96b07975c",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_8cb9f61eae471157e4f074f6_0",
+      "kind": "h3",
+      "source": "My custom words disappeared after syncing to a new device — what happened?__TRILIUM_PH_0__",
+      "sourceHash": "8cb9f61eae471157e4f074f6957ed6cd06eab86ba032311b75070cd53d2412ee",
+      "context": "Spell Check > Frequently asked questions > My custom words disappeared after syncing to a new device — what happened?",
+      "contextHash": "7dcbea14274e61824fb60bdda58df9278bdb000d5cea764a8dd6dc5c13ea882d",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_2e88b49900dfe6f347770d64_0",
+      "kind": "p",
+      "source": "On the first launch of a new device, Trilium may import existing local dictionary words into the note. If the note already has words from another device (via sync), those are preserved. Make sure sync completes before restarting the application on a new device.",
+      "sourceHash": "2e88b49900dfe6f347770d64f3f952bd0ee57938b14bb1e3b1b0d2e4fc760368",
+      "context": "Spell Check > Frequently asked questions > My custom words disappeared after syncing to a new device — what happened?",
+      "contextHash": "7dcbea14274e61824fb60bdda58df9278bdb000d5cea764a8dd6dc5c13ea882d",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_fdb22d36d301a20cb7fc9359_0",
+      "kind": "h3",
+      "source": "I removed a word from the dictionary note but it's still accepted__TRILIUM_PH_0__",
+      "sourceHash": "fdb22d36d301a20cb7fc9359033eb00e8f28ddc4820ba5498eb04f27017f1d08",
+      "context": "Spell Check > Frequently asked questions > I removed a word from the dictionary note but it's still accepted",
+      "contextHash": "cdd6eb8e55bb046596817bb214706a73a6e41f03aba9ee7899640e48a94fe214",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_1ae5d16c2e9b0cf097098047_0",
+      "kind": "p",
+      "source": "This is likely due to the OS-level dictionary retaining the word (see __TRILIUM_PH_0__Known limitations__TRILIUM_PH_1__ above). You can manually remove it from your operating system's user dictionary.",
+      "sourceHash": "1ae5d16c2e9b0cf097098047dd9c27d4670fc878d23a716aea0c5142772af3a0",
+      "context": "Spell Check > Frequently asked questions > I removed a word from the dictionary note but it's still accepted",
+      "contextHash": "cdd6eb8e55bb046596817bb214706a73a6e41f03aba9ee7899640e48a94fe214",
+      "status": "pending",
+      "active": true
+    }
+  ],
+  "requests": []
+}

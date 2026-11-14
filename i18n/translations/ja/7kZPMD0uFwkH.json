@@ -1,0 +1,149 @@
+{
+  "schemaVersion": 1,
+  "pageId": "7kZPMD0uFwkH",
+  "sourceFile": "docs/User Guide/User Guide/Scripting/Frontend Basics/Examples/Downloading responses from Google Forms.md",
+  "sourceRevision": "03d17b60f59b5efc29b880b11481471d0fe0ff57",
+  "units": [
+    {
+      "id": "u_59e6df6b2448c93fe91d9df4_0",
+      "kind": "title",
+      "source": "Downloading responses from Google Forms",
+      "sourceHash": "59e6df6b2448c93fe91d9df4d72eba1a94fe579392700235ce47e9de0dfd1500",
+      "context": "Downloading responses from Google Forms",
+      "contextHash": "85a7a592fb05a4e79ab4abaf0ec8f2b37f1d7c1cad2f6cbeb33c875f2f015075",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_9e0903bd2cce50ae56e67e72_0",
+      "kind": "p",
+      "source": "This tutorial showcases a basic integration with Google Forms, where we are able to download the responses of a form using the “Link to Sheets\" functionality.",
+      "sourceHash": "9e0903bd2cce50ae56e67e72441d55e08a59c2f7da6296e8f74dd108142b04e9",
+      "context": "Downloading responses from Google Forms",
+      "contextHash": "85a7a592fb05a4e79ab4abaf0ec8f2b37f1d7c1cad2f6cbeb33c875f2f015075",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_36c75e83935d642ec5ac7e75_0",
+      "kind": "p",
+      "source": "Note that the link will be publicly accessible to everyone (however the link is in a hard-to-guess format such as __TRILIUM_PH_0__). Make sure you are not accidentally publishing sensitive information.",
+      "sourceHash": "36c75e83935d642ec5ac7e75997151bf1b28e9fcef44c51cf07145c11819a5ed",
+      "context": "Downloading responses from Google Forms",
+      "contextHash": "85a7a592fb05a4e79ab4abaf0ec8f2b37f1d7c1cad2f6cbeb33c875f2f015075",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_59fde91d2b346a1f8241fb02_0",
+      "kind": "h2",
+      "source": "Obtaining the CSV link__TRILIUM_PH_0__",
+      "sourceHash": "59fde91d2b346a1f8241fb02540839d9dfe6b8943c148f125a536f2356400a81",
+      "context": "Downloading responses from Google Forms > Obtaining the CSV link",
+      "contextHash": "d573cc0b69c52e38bb9431850e2160176f5ebd2ce6328c4fb98abf0a2ec52c73",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_375f1da3fa57c70bde3c3a43_0",
+      "kind": "li",
+      "source": "Open the Google Forms in a browser.",
+      "sourceHash": "375f1da3fa57c70bde3c3a43efb2e8908014b13f3c9ad106aeec9099618ec7cd",
+      "context": "Downloading responses from Google Forms > Obtaining the CSV link",
+      "contextHash": "d573cc0b69c52e38bb9431850e2160176f5ebd2ce6328c4fb98abf0a2ec52c73",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_48dbfabfc6f2d77b8f8f99f2_0",
+      "kind": "li",
+      "source": "Select the “Responses” tab and click on “Link to Sheets”.",
+      "sourceHash": "48dbfabfc6f2d77b8f8f99f213e3f6277c91d2cca71e285c7b97b493e237f598",
+      "context": "Downloading responses from Google Forms > Obtaining the CSV link",
+      "contextHash": "d573cc0b69c52e38bb9431850e2160176f5ebd2ce6328c4fb98abf0a2ec52c73",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_1b2430f5f545e99b79d29c35_0",
+      "kind": "li",
+      "source": "Select “Create a new spreadsheet” and press “Create”.",
+      "sourceHash": "1b2430f5f545e99b79d29c359dd7111b9679f01694768f715a3cbd9e96bf29d7",
+      "context": "Downloading responses from Google Forms > Obtaining the CSV link",
+      "contextHash": "d573cc0b69c52e38bb9431850e2160176f5ebd2ce6328c4fb98abf0a2ec52c73",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_056d961c948ddae217d3125f_0",
+      "kind": "li",
+      "source": "In Google Sheets, select File → Share → Publish to web.",
+      "sourceHash": "056d961c948ddae217d3125f99b79bbe7ef235863c5ab7f7c53b1373c0fb90fc",
+      "context": "Downloading responses from Google Forms > Obtaining the CSV link",
+      "contextHash": "d573cc0b69c52e38bb9431850e2160176f5ebd2ce6328c4fb98abf0a2ec52c73",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_2f3a024bc3e51bfd8bc8018a_0",
+      "kind": "li",
+      "source": "In the “Publish to the web” screen, make sure the “Link” tab is selected and instead of “Web page”, select “Comma-separated values (.csv)”.",
+      "sourceHash": "2f3a024bc3e51bfd8bc8018a9e0cd3b0ae601e0595ef3ec0646aabf41e472a0a",
+      "context": "Downloading responses from Google Forms > Obtaining the CSV link",
+      "contextHash": "d573cc0b69c52e38bb9431850e2160176f5ebd2ce6328c4fb98abf0a2ec52c73",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_36a1750fe7bb49853c0975a0_0",
+      "kind": "li",
+      "source": "Copy the given link which will be used for the upcoming script.",
+      "sourceHash": "36a1750fe7bb49853c0975a04c6c050947072dae51730a5e34f4d4594804cf89",
+      "context": "Downloading responses from Google Forms > Obtaining the CSV link",
+      "contextHash": "d573cc0b69c52e38bb9431850e2160176f5ebd2ce6328c4fb98abf0a2ec52c73",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_30c537f1232ee31b03c84b5d_0",
+      "kind": "h2",
+      "source": "Creating the script__TRILIUM_PH_0__",
+      "sourceHash": "30c537f1232ee31b03c84b5dcabf1aec8c055aabcf75de8b2f47e73c98cefafc",
+      "context": "Downloading responses from Google Forms > Creating the script",
+      "contextHash": "48fcaeef07985f7f9826a49bcb9b618ecfebfe624c9d472553e8c2924242f154",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_97c5efc0c1386faf28297fd2_0",
+      "kind": "p",
+      "source": "Create a “JS Frontend” script:",
+      "sourceHash": "97c5efc0c1386faf28297fd20a82288f8579813828f87225f98aa46253ce8549",
+      "context": "Downloading responses from Google Forms > Creating the script",
+      "contextHash": "48fcaeef07985f7f9826a49bcb9b618ecfebfe624c9d472553e8c2924242f154",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_c6a2d0421b169ca2ac654b21_0",
+      "kind": "p",
+      "source": "Note that the data will be received as a string and there is no library to do the CSV parsing for us. To do a very simple parsing of CSV:",
+      "sourceHash": "c6a2d0421b169ca2ac654b2141136f79305fec8133e76ba30c18d42619b876f9",
+      "context": "Downloading responses from Google Forms > Creating the script",
+      "contextHash": "48fcaeef07985f7f9826a49bcb9b618ecfebfe624c9d472553e8c2924242f154",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_02f5b9b57ca9ff1b8d40afa8_0",
+      "kind": "p",
+      "source": "This will return the data as an array of arrays.",
+      "sourceHash": "02f5b9b57ca9ff1b8d40afa8e605a244613996ee2660523d16e53c86b4216a2c",
+      "context": "Downloading responses from Google Forms > Creating the script",
+      "contextHash": "48fcaeef07985f7f9826a49bcb9b618ecfebfe624c9d472553e8c2924242f154",
+      "status": "pending",
+      "active": true
+    }
+  ],
+  "requests": []
+}

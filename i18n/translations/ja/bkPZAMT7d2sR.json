@@ -1,0 +1,449 @@
+{
+  "schemaVersion": 1,
+  "pageId": "bkPZAMT7d2sR",
+  "sourceFile": "docs/User Guide/User Guide/AI/Providers.md",
+  "sourceRevision": "03d17b60f59b5efc29b880b11481471d0fe0ff57",
+  "units": [
+    {
+      "id": "u_f254fbfb0d30ad07af1e9005_0",
+      "kind": "title",
+      "source": "Providers",
+      "sourceHash": "f254fbfb0d30ad07af1e9005318a798f2a58319a5162a14917315697aa03bb35",
+      "context": "Providers",
+      "contextHash": "996c32b35f2182a9c83815395113f92344269ebb4ab3525017c4cafaa3d1a8fd",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_3840b4b9d6968c7492304dd2_0",
+      "kind": "p",
+      "source": "Providers are added in the __TRILIUM_PH_0__Model Providers__TRILIUM_PH_1__ section of the AI settings, with __TRILIUM_PH_2__Add Model Provider__TRILIUM_PH_3__. Each one lists the models selected for it, which are the ones the chat offers; a provider with no models selected is not offered in the chat.",
+      "sourceHash": "3840b4b9d6968c7492304dd278cb045b29b6a8eab8135e74bcffef875f8918c6",
+      "context": "Providers",
+      "contextHash": "996c32b35f2182a9c83815395113f92344269ebb4ab3525017c4cafaa3d1a8fd",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_e089f0483ca0c0498aff222a_0",
+      "kind": "h2",
+      "source": "Cloud providers using API keys__TRILIUM_PH_0__",
+      "sourceHash": "e089f0483ca0c0498aff222aaf0dadac72e9bc2cf0ad63fb6a6553ad85c9b2ab",
+      "context": "Providers > Cloud providers using API keys",
+      "contextHash": "2e60f6cf6c88eedf5767cd2004e72b910059ed983116341cfc33b04504162be2",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_05d985afa74a6b910b6b7f72_0",
+      "kind": "p",
+      "source": "Currently, the following cloud providers are supported:",
+      "sourceHash": "05d985afa74a6b910b6b7f72933886d2a12bb38355aee13bfece1d33d83d3db6",
+      "context": "Providers > Cloud providers using API keys",
+      "contextHash": "2e60f6cf6c88eedf5767cd2004e72b910059ed983116341cfc33b04504162be2",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_254e3c50a0a7f4433d66660a_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__ __TRILIUM_PH_1__Anthropic__TRILIUM_PH_2__",
+      "sourceHash": "254e3c50a0a7f4433d66660a7718cdf99fb052520afb576326ddf2f2c17202ca",
+      "context": "Providers > Cloud providers using API keys",
+      "contextHash": "2e60f6cf6c88eedf5767cd2004e72b910059ed983116341cfc33b04504162be2",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_84b47c5217551ae4e9adb82f_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__ OpenAI",
+      "sourceHash": "84b47c5217551ae4e9adb82f98c4cd623dc3cae2aec1fa6ba88d0cc14dfb1c82",
+      "context": "Providers > Cloud providers using API keys",
+      "contextHash": "2e60f6cf6c88eedf5767cd2004e72b910059ed983116341cfc33b04504162be2",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_7f5c6b5ed1c73a8badb7530c_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__ Gemini",
+      "sourceHash": "7f5c6b5ed1c73a8badb7530c2864e8be7719667605214b6086f5858a922d0423",
+      "context": "Providers > Cloud providers using API keys",
+      "contextHash": "2e60f6cf6c88eedf5767cd2004e72b910059ed983116341cfc33b04504162be2",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_4f88fcc2112fbedde104972e_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__ DeepSeek",
+      "sourceHash": "4f88fcc2112fbedde104972e32992be04e5098b1132bbcf48d44cb39698255d1",
+      "context": "Providers > Cloud providers using API keys",
+      "contextHash": "2e60f6cf6c88eedf5767cd2004e72b910059ed983116341cfc33b04504162be2",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_7f75592d486693e9f9fd5621_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__ __TRILIUM_PH_1__OpenRouter__TRILIUM_PH_2__",
+      "sourceHash": "7f75592d486693e9f9fd562115f511928e70dda8846e4d9ed3ff19825e79c037",
+      "context": "Providers > Cloud providers using API keys",
+      "contextHash": "2e60f6cf6c88eedf5767cd2004e72b910059ed983116341cfc33b04504162be2",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_17a1557d07d532fc71c106a9_0",
+      "kind": "p",
+      "source": "For all the providers, an API key is needed. Note that this is charged separately from the subscription you might already have (e.g. Claude Pro). If that might be a problem, consider using either a subscription provider (see below) or using it externally via MCP.",
+      "sourceHash": "17a1557d07d532fc71c106a98022a8f23384e63073d35acf00ec884fc82f7b37",
+      "context": "Providers > Cloud providers using API keys",
+      "contextHash": "2e60f6cf6c88eedf5767cd2004e72b910059ed983116341cfc33b04504162be2",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_c60c7aa96668735fe0eea194_0",
+      "kind": "p",
+      "source": "Do note that most other LLM providers (e.g. Groq, Mistral, Together) can still be used in Trilium via the OpenAI-compatible custom endpoint (see below).",
+      "sourceHash": "c60c7aa96668735fe0eea194861f1445accbd3dfd33f6a1f204acfef40070ab3",
+      "context": "Providers > Cloud providers using API keys",
+      "contextHash": "2e60f6cf6c88eedf5767cd2004e72b910059ed983116341cfc33b04504162be2",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_c5aa90af05a411b2e2df7278_0",
+      "kind": "p",
+      "source": "If you are using a proxy or gateway, you can also configure the base URL, otherwise the default will be used.",
+      "sourceHash": "c5aa90af05a411b2e2df7278c742646ccf4abd8e1463af0b0c65784a831f86c2",
+      "context": "Providers > Cloud providers using API keys",
+      "contextHash": "2e60f6cf6c88eedf5767cd2004e72b910059ed983116341cfc33b04504162be2",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_a79ba6e1607a3dc4d64d41b1_0",
+      "kind": "p",
+      "source": "For OpenRouter, the models are billed to your OpenRouter credits, and their prices, context windows and the attachments they read come from OpenRouter's own model list:",
+      "sourceHash": "a79ba6e1607a3dc4d64d41b1b37909f895fb5a084b6e22fcf97f0c2ea4de14b2",
+      "context": "Providers > Cloud providers using API keys",
+      "contextHash": "2e60f6cf6c88eedf5767cd2004e72b910059ed983116341cfc33b04504162be2",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_33fddc4fbff63167de358a9f_0",
+      "kind": "li",
+      "source": "The __TRILIUM_PH_0__Latest__TRILIUM_PH_1__ models that can use tools are selected by default, such as __TRILIUM_PH_2__Anthropic: Claude Sonnet Latest__TRILIUM_PH_3__. OpenRouter points each of them at the newest model of its line, so the selection stays current without editing the provider.",
+      "sourceHash": "33fddc4fbff63167de358a9f3710861461bbc7c4eadabc3d2797a5c3ada31139",
+      "context": "Providers > Cloud providers using API keys",
+      "contextHash": "2e60f6cf6c88eedf5767cd2004e72b910059ed983116341cfc33b04504162be2",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_96ed58af62ea8f11ad8d6cd6_0",
+      "kind": "li",
+      "source": "Models that reason have a reasoning effort dropdown in the chat (__TRILIUM_PH_0__Low__TRILIUM_PH_1__, __TRILIUM_PH_2__Medium__TRILIUM_PH_3__ or __TRILIUM_PH_4__High__TRILIUM_PH_5__).",
+      "sourceHash": "96ed58af62ea8f11ad8d6cd6178d2ac221a2b646e6b1cd77927083ddd12b0ac6",
+      "context": "Providers > Cloud providers using API keys",
+      "contextHash": "2e60f6cf6c88eedf5767cd2004e72b910059ed983116341cfc33b04504162be2",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_20cc4fdae7337352710dc2d6_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__Auto Router__TRILIUM_PH_1__ (__TRILIUM_PH_2__) picks a model for each message. Below each reply, the chat names the model that wrote it, which is also the case when a __TRILIUM_PH_3__Latest__TRILIUM_PH_4__ model was used.",
+      "sourceHash": "20cc4fdae7337352710dc2d6ee29f21f2ab0ec16980cc7f41b6c6daaa5bb79d7",
+      "context": "Providers > Cloud providers using API keys",
+      "contextHash": "2e60f6cf6c88eedf5767cd2004e72b910059ed983116341cfc33b04504162be2",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_1401723dd09e7c7924de7ed2_0",
+      "kind": "li",
+      "source": "The cost shown below a reply is what OpenRouter billed for it, rather than an estimate from the listed prices.",
+      "sourceHash": "1401723dd09e7c7924de7ed2a250db7c238d4452c183910e9260d4fa2bc21b72",
+      "context": "Providers > Cloud providers using API keys",
+      "contextHash": "2e60f6cf6c88eedf5767cd2004e72b910059ed983116341cfc33b04504162be2",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_698ba3cc64bd059ad683736d_0",
+      "kind": "li",
+      "source": "Image generation models and the deferred __TRILIUM_PH_0__batch__TRILIUM_PH_1__ variants are not listed.",
+      "sourceHash": "698ba3cc64bd059ad683736dfa7f86f2650cb9da43ec1cd7c1d12c1c96b6ad04",
+      "context": "Providers > Cloud providers using API keys",
+      "contextHash": "2e60f6cf6c88eedf5767cd2004e72b910059ed983116341cfc33b04504162be2",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_72b272ec628396c74735f59c_0",
+      "kind": "li",
+      "source": "Chat titles are generated with __TRILIUM_PH_0__Anthropic: Claude Haiku Latest__TRILIUM_PH_1__.",
+      "sourceHash": "72b272ec628396c74735f59c0ebf5893b698857a3c1c6d2584959d328b5ce789",
+      "context": "Providers > Cloud providers using API keys",
+      "contextHash": "2e60f6cf6c88eedf5767cd2004e72b910059ed983116341cfc33b04504162be2",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_61424a4bf6423969f5abaf7b_0",
+      "kind": "li",
+      "source": "Requests are attributed to Trilium on your OpenRouter activity page.",
+      "sourceHash": "61424a4bf6423969f5abaf7b8735e16fb478128fda165ad5c9b2a3fe0dbea6ad",
+      "context": "Providers > Cloud providers using API keys",
+      "contextHash": "2e60f6cf6c88eedf5767cd2004e72b910059ed983116341cfc33b04504162be2",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_76e786356bdb1caefae91064_0",
+      "kind": "p",
+      "source": "For Gemini, a chat that doesn't specify a model uses __TRILIUM_PH_0__, and the automatically generated chat titles use __TRILIUM_PH_1__. A model you select explicitly is used as is and isn't affected by these defaults.",
+      "sourceHash": "76e786356bdb1caefae91064568ddbd5e82e5213230495d2401baf6f9d06e903",
+      "context": "Providers > Cloud providers using API keys",
+      "contextHash": "2e60f6cf6c88eedf5767cd2004e72b910059ed983116341cfc33b04504162be2",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_bd7440f91798f0f24e4a0d26_0",
+      "kind": "p",
+      "source": "We don't plan to support all cloud providers, even if the library we are using would theoretically support them. Before opening a PR adding support for a different cloud provider, make sure to discuss it over __TRILIUM_PH_0__GitHub Discussions__TRILIUM_PH_1__.",
+      "sourceHash": "bd7440f91798f0f24e4a0d26a5cd2190b12398a995edbce28f29f8c146ad535b",
+      "context": "Providers > Cloud providers using API keys",
+      "contextHash": "2e60f6cf6c88eedf5767cd2004e72b910059ed983116341cfc33b04504162be2",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_9607795a1a985b7581dfc70a_0",
+      "kind": "p",
+      "source": "See also the dedicated __TRILIUM_PH_0__Privacy__TRILIUM_PH_1__ section to better understand what data is being sent to a cloud provider.",
+      "sourceHash": "9607795a1a985b7581dfc70af6fe49f97afb521faa6f8500ba9cb59ba9ae1224",
+      "context": "Providers > Cloud providers using API keys",
+      "contextHash": "2e60f6cf6c88eedf5767cd2004e72b910059ed983116341cfc33b04504162be2",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_c2f5ba10dd19316df6776eea_0",
+      "kind": "h2",
+      "source": "Subscription-based providers__TRILIUM_PH_0__",
+      "sourceHash": "c2f5ba10dd19316df6776eeaf2c59f2f18f64e7a9625f9f6834819a711daaae2",
+      "context": "Providers > Subscription-based providers",
+      "contextHash": "5d627ac8dbeb173225af716bd1ffc97022d22aeed6cdf07eff782e3ce3e37a89",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_c4496c41b5262d3e15b4263b_0",
+      "kind": "p",
+      "source": "Trilium integrates multiple __TRILIUM_PH_0__Subscription-based providers__TRILIUM_PH_1__:",
+      "sourceHash": "c4496c41b5262d3e15b4263b3e56b7c795331cc8d7bd3ba5e23066bc5b45c917",
+      "context": "Providers > Subscription-based providers",
+      "contextHash": "5d627ac8dbeb173225af716bd1ffc97022d22aeed6cdf07eff782e3ce3e37a89",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_a4de73915133a944291c1a4e_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__ Claude Code by reusing your CLI.",
+      "sourceHash": "a4de73915133a944291c1a4e07e70b47950c75822a019e816727be622cffc82c",
+      "context": "Providers > Subscription-based providers",
+      "contextHash": "5d627ac8dbeb173225af716bd1ffc97022d22aeed6cdf07eff782e3ce3e37a89",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_7141491394eeef7595e2be06_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__ GitHub Copilot by reusing your CLI's ACP.",
+      "sourceHash": "7141491394eeef7595e2be0633690b90e7b03ac738123dc5c9fd3c96457fca18",
+      "context": "Providers > Subscription-based providers",
+      "contextHash": "5d627ac8dbeb173225af716bd1ffc97022d22aeed6cdf07eff782e3ce3e37a89",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_6c42deb51db2094843d725c8_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__ Google Antigravity by downloading and setting up an ACP for Trilium.",
+      "sourceHash": "6c42deb51db2094843d725c83fa93224eda62c8d5b1b39204dd54252f0c34de9",
+      "context": "Providers > Subscription-based providers",
+      "contextHash": "5d627ac8dbeb173225af716bd1ffc97022d22aeed6cdf07eff782e3ce3e37a89",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_710c3a4d669197e4587eaa5b_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__ OpenAI Codex by reusing your CLI through an ACP adapter shipped with Trilium.",
+      "sourceHash": "710c3a4d669197e4587eaa5b376474309dd9e950e25ad3d3db2cbb1374966896",
+      "context": "Providers > Subscription-based providers",
+      "contextHash": "5d627ac8dbeb173225af716bd1ffc97022d22aeed6cdf07eff782e3ce3e37a89",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_b7d4cfe970fae32ba9a695fd_0",
+      "kind": "h2",
+      "source": "Local/self-hosted providers__TRILIUM_PH_0__",
+      "sourceHash": "b7d4cfe970fae32ba9a695fdb58e3a25c01568c3578974f7c2cabb7ff62a24b6",
+      "context": "Providers > Local/self-hosted providers",
+      "contextHash": "93ae2317fc50d6d20895659aa5ab78608282a0bd3dcff58d0f97b0023f11e638",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_893191e1dc3e3fba4c3372ef_0",
+      "kind": "p",
+      "source": "Local or self-hosted providers are a free alternative which respects your privacy but requires specific hardware.",
+      "sourceHash": "893191e1dc3e3fba4c3372ef4474711e3692eb502122e0a506cd89f93725c9ff",
+      "context": "Providers > Local/self-hosted providers",
+      "contextHash": "93ae2317fc50d6d20895659aa5ab78608282a0bd3dcff58d0f97b0023f11e638",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_452413d37ac6244492626c9c_0",
+      "kind": "p",
+      "source": "Trilium directly supports the following local providers:",
+      "sourceHash": "452413d37ac6244492626c9c924f98921901d77d00a35f01a3946ff63f47ee82",
+      "context": "Providers > Local/self-hosted providers",
+      "contextHash": "93ae2317fc50d6d20895659aa5ab78608282a0bd3dcff58d0f97b0023f11e638",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_d67972ec616e56e479835533_0",
+      "kind": "p",
+      "source": "__TRILIUM_PH_0__ Ollama",
+      "sourceHash": "d67972ec616e56e479835533d865b2f968be6cb4161fa009c596272a30a930a0",
+      "context": "Providers > Local/self-hosted providers",
+      "contextHash": "93ae2317fc50d6d20895659aa5ab78608282a0bd3dcff58d0f97b0023f11e638",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_7376f7f9bfca3ab927021a42_0",
+      "kind": "p",
+      "source": "Generally Ollama runs in the background so it should be directly usable in Trilium as long as the models are downloaded (e.g. __TRILIUM_PH_0__).",
+      "sourceHash": "7376f7f9bfca3ab927021a4234e78be771c14ee0da7afbaaa9c522e5f500bdf4",
+      "context": "Providers > Local/self-hosted providers",
+      "contextHash": "93ae2317fc50d6d20895659aa5ab78608282a0bd3dcff58d0f97b0023f11e638",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_93c5f30c5ce195cf6fa85cc9_0",
+      "kind": "p",
+      "source": "__TRILIUM_PH_0__ LM Studio",
+      "sourceHash": "93c5f30c5ce195cf6fa85cc96b0f249ecc999b075f1381967b33d89eaae126d5",
+      "context": "Providers > Local/self-hosted providers",
+      "contextHash": "93ae2317fc50d6d20895659aa5ab78608282a0bd3dcff58d0f97b0023f11e638",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_7502c31201c3fb4479274d42_0",
+      "kind": "p",
+      "source": "The OpenAI-compatible server is __TRILIUM_PH_0__disabled__TRILIUM_PH_1__ by default in LM Studio installations. First download your desired models through the graphical interface, then go to __TRILIUM_PH_2__Settings__TRILIUM_PH_3__ → __TRILIUM_PH_4__Developer__TRILIUM_PH_5__ and toggle __TRILIUM_PH_6__Developer mode__TRILIUM_PH_7__. On the left there will be a new __TRILIUM_PH_8__Developer__TRILIUM_PH_9__ tab, with a toggle to start it up.",
+      "sourceHash": "7502c31201c3fb4479274d42da86aab5eb01bcd281b791a27e418ad998afb56a",
+      "context": "Providers > Local/self-hosted providers",
+      "contextHash": "93ae2317fc50d6d20895659aa5ab78608282a0bd3dcff58d0f97b0023f11e638",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_8d5fa469b05e1f169333b3cf_0",
+      "kind": "p",
+      "source": "Even for local providers that are not directly supported by Trilium, you can still use a custom endpoint (see below).",
+      "sourceHash": "8d5fa469b05e1f169333b3cfa007d87d6306c412ec8d4b79d25acd0787815e41",
+      "context": "Providers > Local/self-hosted providers",
+      "contextHash": "93ae2317fc50d6d20895659aa5ab78608282a0bd3dcff58d0f97b0023f11e638",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_afd476793a9c33febcaa07d4_0",
+      "kind": "p",
+      "source": "When dealing with self-hosted LLM models, depending on the training and the size of the model, the quality of the output may vary. Before __TRILIUM_PH_0__reporting issues__TRILIUM_PH_1__ regarding the quality of the output (e.g. hallucinating tool calls), consider benchmarking the response against a cloud provider (Claude Sonnet is recommended).",
+      "sourceHash": "afd476793a9c33febcaa07d4044a1cc034ac8cbe0381bccf481216cfef754acd",
+      "context": "Providers > Local/self-hosted providers",
+      "contextHash": "93ae2317fc50d6d20895659aa5ab78608282a0bd3dcff58d0f97b0023f11e638",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_2469254e9e779deb122b5a12_0",
+      "kind": "h2",
+      "source": "Custom endpoints__TRILIUM_PH_0__",
+      "sourceHash": "2469254e9e779deb122b5a12cbf0c5deb5933f44ea0c38de9a7545222d14e0fa",
+      "context": "Providers > Custom endpoints",
+      "contextHash": "9670a5043e302bfb1dd527934357292d58d95a6b801741dc351b866839200bb0",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_04ee21f518cdb56bc7c4259f_0",
+      "kind": "p",
+      "source": "If your desired hosted (e.g. Groq, Mistral, Together) or local LLM provider is not listed in Trilium, you can use the dedicated __TRILIUM_PH_0__OpenAI-compatible__TRILIUM_PH_1__ provider from the __TRILIUM_PH_2__Custom endpoint__TRILIUM_PH_3__ section.",
+      "sourceHash": "04ee21f518cdb56bc7c4259f1585e69f47ff58f43d9498b5261b9fd29ecce803",
+      "context": "Providers > Custom endpoints",
+      "contextHash": "9670a5043e302bfb1dd527934357292d58d95a6b801741dc351b866839200bb0",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_81782c393162cdfa37545395_0",
+      "kind": "p",
+      "source": "This allows you to set the base URL to an OpenAI-compatible API, with an optional API key if required by the service.",
+      "sourceHash": "81782c393162cdfa37545395825729670c077fa74a53bb32d6e9b49fa3d0488e",
+      "context": "Providers > Custom endpoints",
+      "contextHash": "9670a5043e302bfb1dd527934357292d58d95a6b801741dc351b866839200bb0",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_07160d464a3f362a23efbc68_0",
+      "kind": "p",
+      "source": "Enter the base URL exactly as the service documents it, including its version path, such as __TRILIUM_PH_0__ or __TRILIUM_PH_1__. Only a bare host such as __TRILIUM_PH_2__ is completed with __TRILIUM_PH_3__.",
+      "sourceHash": "07160d464a3f362a23efbc68446c0b01c38d6f7157cf68098a1bf840dbea3c79",
+      "context": "Providers > Custom endpoints",
+      "contextHash": "9670a5043e302bfb1dd527934357292d58d95a6b801741dc351b866839200bb0",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_b95d1b84f5bf5d01400a68cb_0",
+      "kind": "p",
+      "source": "The endpoint can run on the same machine as Trilium, elsewhere on your local network or on a Tailscale tailnet. Trilium refuses link-local addresses (__TRILIUM_PH_0__) and cloud metadata endpoints, which no model server is served on.",
+      "sourceHash": "b95d1b84f5bf5d01400a68cb64f30e4c9c6e7e5d1a05b3d6fe0a99a310ce5b2e",
+      "context": "Providers > Custom endpoints",
+      "contextHash": "9670a5043e302bfb1dd527934357292d58d95a6b801741dc351b866839200bb0",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_e0fde451a3aba4c83530dfcd_0",
+      "kind": "p",
+      "source": "For custom endpoints, the pricing of the models is not known so the cost of a conversation will not be displayed; this is especially relevant for hosted providers.",
+      "sourceHash": "e0fde451a3aba4c83530dfcd47abb4e5daa01f1f0a28cfaf5a77c371d381604d",
+      "context": "Providers > Custom endpoints",
+      "contextHash": "9670a5043e302bfb1dd527934357292d58d95a6b801741dc351b866839200bb0",
+      "status": "pending",
+      "active": true
+    }
+  ],
+  "requests": []
+}

@@ -1,0 +1,259 @@
+{
+  "schemaVersion": 1,
+  "pageId": "TjLYAo3JMO8X",
+  "sourceFile": "docs/User Guide/User Guide/Scripting/Frontend Basics/Examples/New Task launcher button.md",
+  "sourceRevision": "03d17b60f59b5efc29b880b11481471d0fe0ff57",
+  "units": [
+    {
+      "id": "u_39952e55bad6f0ee6a28d2c4_0",
+      "kind": "title",
+      "source": "\"New Task\" launcher button",
+      "sourceHash": "39952e55bad6f0ee6a28d2c4a0646bac69763b93cf39185286057bd30abd4e1b",
+      "context": "\"New Task\" launcher button",
+      "contextHash": "e359a17bb8e35d1e0432199c80e45e6063c94813c052941ac128dd70838d6e9b",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_534c78ad09695ebcf7d041d3_0",
+      "kind": "p",
+      "source": "This documentation is outdated, as it refers to using the deprecated __TRILIUM_PH_0__ API which will only create widgets for desktop.",
+      "sourceHash": "534c78ad09695ebcf7d041d35569bdad262329bb3eb6ebc167572d47a669d85b",
+      "context": "\"New Task\" launcher button",
+      "contextHash": "e359a17bb8e35d1e0432199c80e45e6063c94813c052941ac128dd70838d6e9b",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_50625a33bfeef5ee1b4daf1b_0",
+      "kind": "p",
+      "source": "Instead, a custom launcher widget can be created using the __TRILIUM_PH_0__Launch Bar Widgets__TRILIUM_PH_1__ documentation.",
+      "sourceHash": "50625a33bfeef5ee1b4daf1bb85fb442d0ac861480d2557823f3d8f850ef102e",
+      "context": "\"New Task\" launcher button",
+      "contextHash": "e359a17bb8e35d1e0432199c80e45e6063c94813c052941ac128dd70838d6e9b",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_8bd428ea61db5fb48f8192d7_0",
+      "kind": "p",
+      "source": "In this example we are going to extend the functionality of __TRILIUM_PH_0__Task Manager__TRILIUM_PH_1__ showcase (which comes by default with Trilium) by adding a button in the __TRILIUM_PH_2__Launch Bar__TRILIUM_PH_3__  (__TRILIUM_PH_4__) to create a new task automatically and open it.",
+      "sourceHash": "8bd428ea61db5fb48f8192d77bcbc2cc547ef3736226c8521180380d4ef52734",
+      "context": "\"New Task\" launcher button",
+      "contextHash": "e359a17bb8e35d1e0432199c80e45e6063c94813c052941ac128dd70838d6e9b",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_aa3663ad912cee416701141c_0",
+      "kind": "h2",
+      "source": "Creating the note__TRILIUM_PH_0__",
+      "sourceHash": "aa3663ad912cee416701141ca60b6dba963ce0468e23496bbbdca50a7ace0dd1",
+      "context": "\"New Task\" launcher button > Creating the note",
+      "contextHash": "732a9acdb18551f472c9781a43e9ab85e274f642a5a17650e9db3bc952c647d0",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_5d9f467f3d51200696d3e66f_0",
+      "kind": "li",
+      "source": "First, create a new __TRILIUM_PH_0__Code__TRILIUM_PH_1__ note type with the __TRILIUM_PH_2__JavaScript (Trilium frontend)__TRILIUM_PH_3__ language.",
+      "sourceHash": "5d9f467f3d51200696d3e66fdaa172699b6729713166874ec8902456ab1eab35",
+      "context": "\"New Task\" launcher button > Creating the note",
+      "contextHash": "732a9acdb18551f472c9781a43e9ab85e274f642a5a17650e9db3bc952c647d0",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_c0bc249bb5b6b76770e2d0e5_0",
+      "kind": "li",
+      "source": "Define the __TRILIUM_PH_0__ label in __TRILIUM_PH_1__Attributes__TRILIUM_PH_2__.",
+      "sourceHash": "c0bc249bb5b6b76770e2d0e539f2fdcf789465e138cc02bebebcba7f66757bb7",
+      "context": "\"New Task\" launcher button > Creating the note",
+      "contextHash": "732a9acdb18551f472c9781a43e9ab85e274f642a5a17650e9db3bc952c647d0",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_7917bec3b03efe2b4d9d9091_0",
+      "kind": "h2",
+      "source": "Content of the script__TRILIUM_PH_0__",
+      "sourceHash": "7917bec3b03efe2b4d9d90911a58abd665eb1fce4dbffa9cd755f384ff74bed0",
+      "context": "\"New Task\" launcher button > Content of the script",
+      "contextHash": "649f03ed65ee1e28c9c84c9f204dcd21156922fff79bd95b63c4f7e95ae8050c",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_7feef93a477aebe84891f2a6_0",
+      "kind": "p",
+      "source": "Copy-paste the following script:",
+      "sourceHash": "7feef93a477aebe84891f2a606b6877d13ac66b145554f73ad86e5778338fafb",
+      "context": "\"New Task\" launcher button > Content of the script",
+      "contextHash": "649f03ed65ee1e28c9c84c9f204dcd21156922fff79bd95b63c4f7e95ae8050c",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_5a3e3fb5dea1fa3543fdb2cb_0",
+      "kind": "h2",
+      "source": "Testing the functionality__TRILIUM_PH_0__",
+      "sourceHash": "5a3e3fb5dea1fa3543fdb2cb9e2d5efc37824c8f5977eb7c656096808b548ba2",
+      "context": "\"New Task\" launcher button > Testing the functionality",
+      "contextHash": "07193b814cb4d1356e342ff4bce201cb888d7a7cc255bd88f13f06bdc76a51f2",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_40de2bb6d6f2e6bd4a4af315_0",
+      "kind": "p",
+      "source": "Since we set the script to be run on start-up, all we need to do is to __TRILIUM_PH_0__refresh the application__TRILIUM_PH_1__.",
+      "sourceHash": "40de2bb6d6f2e6bd4a4af3156e75d98fd3a8064a5cf9bb3d6b932628a7c44fd6",
+      "context": "\"New Task\" launcher button > Testing the functionality",
+      "contextHash": "07193b814cb4d1356e342ff4bce201cb888d7a7cc255bd88f13f06bdc76a51f2",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_1aa696ac92aa7fe0820ca3e0_0",
+      "kind": "h2",
+      "source": "Understanding how the script works__TRILIUM_PH_0__",
+      "sourceHash": "1aa696ac92aa7fe0820ca3e07909f87a1bbb219b435fa9e496541ed9a64c5717",
+      "context": "\"New Task\" launcher button > Understanding how the script works",
+      "contextHash": "0cd7440e302aeddadfd221a1ece5c00c6812abde31ee271f1077d065f486eb3d",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_015a19dd38c73c57610fb93a_0",
+      "kind": "p",
+      "source": "This uses the __TRILIUM_PH_0__Front-end API__TRILIUM_PH_1__ to create a icon in the __TRILIUM_PH_2__Launch Bar__TRILIUM_PH_3__, by specifying:",
+      "sourceHash": "015a19dd38c73c57610fb93af4927545669b2c9c4977e21689fabe8f7e81ec0f",
+      "context": "\"New Task\" launcher button > Understanding how the script works",
+      "contextHash": "0cd7440e302aeddadfd221a1ece5c00c6812abde31ee271f1077d065f486eb3d",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_fa55569da65c8d286391f600_0",
+      "kind": "li",
+      "source": "A title",
+      "sourceHash": "fa55569da65c8d286391f6009ba3451cd394ada91f50b513a1ade29c9fcb5c60",
+      "context": "\"New Task\" launcher button > Understanding how the script works",
+      "contextHash": "0cd7440e302aeddadfd221a1ece5c00c6812abde31ee271f1077d065f486eb3d",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_8103d2a88de456a313a860aa_0",
+      "kind": "li",
+      "source": "A corresponding boxicons icon (without the __TRILIUM_PH_0__ prefix).",
+      "sourceHash": "8103d2a88de456a313a860aae63d6a94880636c5af037e94d3829c5500650291",
+      "context": "\"New Task\" launcher button > Understanding how the script works",
+      "contextHash": "0cd7440e302aeddadfd221a1ece5c00c6812abde31ee271f1077d065f486eb3d",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_db60c4e05fd7382a4e424fbb_0",
+      "kind": "li",
+      "source": "Optionally, a keyboard shortcut to assign to it.",
+      "sourceHash": "db60c4e05fd7382a4e424fbbc50754ad129831d1558ce9297619efc3760799b7",
+      "context": "\"New Task\" launcher button > Understanding how the script works",
+      "contextHash": "0cd7440e302aeddadfd221a1ece5c00c6812abde31ee271f1077d065f486eb3d",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_d03973d7fd5c26f10cbdf289_0",
+      "kind": "li",
+      "source": "The action, which will be executed when the button is pressed.",
+      "sourceHash": "d03973d7fd5c26f10cbdf28979ba41150eaebd4253235eb62ade5d7ff0b4472e",
+      "context": "\"New Task\" launcher button > Understanding how the script works",
+      "contextHash": "0cd7440e302aeddadfd221a1ece5c00c6812abde31ee271f1077d065f486eb3d",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_87d891247910f864c8d0145a_0",
+      "kind": "li",
+      "source": "This portion of code is actually executed on the server (backend) and not on the client (i.e. browser).",
+      "sourceHash": "87d891247910f864c8d0145a0ec333fa507f59258319c81bceca9497b701635a",
+      "context": "\"New Task\" launcher button > Understanding how the script works",
+      "contextHash": "0cd7440e302aeddadfd221a1ece5c00c6812abde31ee271f1077d065f486eb3d",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_89e8e8ad02666251807f5266_0",
+      "kind": "li",
+      "source": "The reason is that the creating notes is the responsibility of the server.",
+      "sourceHash": "89e8e8ad02666251807f5266ee8e03e236f75f6c91b7860ed5c59394e3995668",
+      "context": "\"New Task\" launcher button > Understanding how the script works",
+      "contextHash": "0cd7440e302aeddadfd221a1ece5c00c6812abde31ee271f1077d065f486eb3d",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_fd1eab3e0dc7936823641410_0",
+      "kind": "li",
+      "source": "Here we can also see that it is possible to return results from the server execution and read them in the client (__TRILIUM_PH_0__).",
+      "sourceHash": "fd1eab3e0dc7936823641410149a5edf0fbe76c1cc8fbafe605632c79542389d",
+      "context": "\"New Task\" launcher button > Understanding how the script works",
+      "contextHash": "0cd7440e302aeddadfd221a1ece5c00c6812abde31ee271f1077d065f486eb3d",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_d784702c04221ac56e9d7f05_0",
+      "kind": "li",
+      "source": "Here we identify a note with the __TRILIUM_PH_0__label__TRILIUM_PH_1__ __TRILIUM_PH_2__. This is how the __TRILIUM_PH_3__Task Manager__TRILIUM_PH_4__ showcase knows where to place all the different tasks.",
+      "sourceHash": "d784702c04221ac56e9d7f053342327a41fc1365c60a94110359613e1394d13e",
+      "context": "\"New Task\" launcher button > Understanding how the script works",
+      "contextHash": "0cd7440e302aeddadfd221a1ece5c00c6812abde31ee271f1077d065f486eb3d",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_2a3702b3d6b488acd879eb66_0",
+      "kind": "li",
+      "source": "Normally this might return a __TRILIUM_PH_0__ value if no such note could be identified, but error handling is outside the scope of this example. ",
+      "sourceHash": "2a3702b3d6b488acd879eb66e7beef325da6acfbaa69d2ecce7aed521cfeb697",
+      "context": "\"New Task\" launcher button > Understanding how the script works",
+      "contextHash": "0cd7440e302aeddadfd221a1ece5c00c6812abde31ee271f1077d065f486eb3d",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_80a18fc8cc77d086910d5950_0",
+      "kind": "li",
+      "source": "We create a new child note within the to-do root note (first argument) with the title “New task\" (second argument) and no content by default (third argument).",
+      "sourceHash": "80a18fc8cc77d086910d5950fb3672fec1400e3475ca10ccb225e4577dc426c5",
+      "context": "\"New Task\" launcher button > Understanding how the script works",
+      "contextHash": "0cd7440e302aeddadfd221a1ece5c00c6812abde31ee271f1077d065f486eb3d",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_c010393ee5c3606a4a47fb68_0",
+      "kind": "li",
+      "source": "Back on the client, since we created a new note on the server, we now need to wait for the change to be reflected in the client.",
+      "sourceHash": "c010393ee5c3606a4a47fb68b4d4677c398ec11832971bd29001781eb951873e",
+      "context": "\"New Task\" launcher button > Understanding how the script works",
+      "contextHash": "0cd7440e302aeddadfd221a1ece5c00c6812abde31ee271f1077d065f486eb3d",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_cc17219c29feb4bb3c638690_0",
+      "kind": "li",
+      "source": "Since we know the __TRILIUM_PH_0__ID__TRILIUM_PH_1__ of the newly created note, all we have to do now is to show this note to the user.",
+      "sourceHash": "cc17219c29feb4bb3c6386906ffce14cf2248558521a020d2491883eb9f85b1c",
+      "context": "\"New Task\" launcher button > Understanding how the script works",
+      "contextHash": "0cd7440e302aeddadfd221a1ece5c00c6812abde31ee271f1077d065f486eb3d",
+      "status": "pending",
+      "active": true
+    }
+  ],
+  "requests": []
+}

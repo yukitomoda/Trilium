@@ -1,0 +1,1639 @@
+{
+  "schemaVersion": 1,
+  "pageId": "eIg8jdvaoNNd",
+  "sourceFile": "docs/User Guide/User Guide/Basic Concepts and Features/Navigation/Search.md",
+  "sourceRevision": "03d17b60f59b5efc29b880b11481471d0fe0ff57",
+  "units": [
+    {
+      "id": "u_ff085f7a20503765797dbbe2_0",
+      "kind": "title",
+      "source": "Search",
+      "sourceHash": "ff085f7a20503765797dbbe264844de8f710f68e9c5e0942abfb5f4f88d9f667",
+      "context": "Search",
+      "contextHash": "49c266baaaa70981ea188fa714d5c40cf13830d786a861c9943ae0d26a7f3fe9",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_e38ea6bca251371309145160_0",
+      "kind": "p",
+      "source": "Note search enables you to find notes by searching for text in the title, content, or __TRILIUM_PH_0__attributes__TRILIUM_PH_1__ of the notes. You also have the option to save your searches, which will create a special search note which is visible on your navigation tree and contains the search results as sub-items.",
+      "sourceHash": "e38ea6bca2513713091451601a1f895b8f2bb95beb4c16306d4f9e0edc84f877",
+      "context": "Search",
+      "contextHash": "49c266baaaa70981ea188fa714d5c40cf13830d786a861c9943ae0d26a7f3fe9",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_c4023f18aa0284c74b3bf4bb_0",
+      "kind": "h2",
+      "source": "Types of search__TRILIUM_PH_0__",
+      "sourceHash": "c4023f18aa0284c74b3bf4bb60b6e7a3dab5c0de45f5ab191aa488ce3760726b",
+      "context": "Search > Types of search",
+      "contextHash": "3017918c59cea3966e44f1bd30c531a5b6fc7af966f23b50a5b32908a31fcfcb",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_52e3178c35a0390c38d77309_0",
+      "kind": "p",
+      "source": "There are multiple types of searches, all using the same search mechanism and query language:",
+      "sourceHash": "52e3178c35a0390c38d77309dc42d01d568211f32f5e3368b5d075d805792c3a",
+      "context": "Search > Types of search",
+      "contextHash": "3017918c59cea3966e44f1bd30c531a5b6fc7af966f23b50a5b32908a31fcfcb",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_b6e4ffa1c54cab8bc8da58cd_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__Quick search__TRILIUM_PH_1__ which can be found in the __TRILIUM_PH_2__Launch Bar__TRILIUM_PH_3__ for small one-off searches.",
+      "sourceHash": "b6e4ffa1c54cab8bc8da58cd7aafee7a68dd32bc9f71046e928930f2d07e3760",
+      "context": "Search > Types of search",
+      "contextHash": "3017918c59cea3966e44f1bd30c531a5b6fc7af966f23b50a5b32908a31fcfcb",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_a964be9f60d61f9cd41647ee_0",
+      "kind": "li",
+      "source": "The results are shown in a popup and it has an infinite scroll.",
+      "sourceHash": "a964be9f60d61f9cd41647eeed97e4747cc4d2fbc0d9154be17eb62c906fe5d2",
+      "context": "Search > Types of search",
+      "contextHash": "3017918c59cea3966e44f1bd30c531a5b6fc7af966f23b50a5b32908a31fcfcb",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_62a294ef190944b58db37b88_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__Full search__TRILIUM_PH_1__ is the more advanced search mechanism.",
+      "sourceHash": "62a294ef190944b58db37b88763bf45911a80df807682f979e988ab55a00c2e5",
+      "context": "Search > Types of search",
+      "contextHash": "3017918c59cea3966e44f1bd30c531a5b6fc7af966f23b50a5b32908a31fcfcb",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_ca8242103ae41ee82d5c0d38_0",
+      "kind": "li",
+      "source": "The results are displayed in a separate page and it has multiple advanced features (search script, fast search, include archived notes, order by, limit).",
+      "sourceHash": "ca8242103ae41ee82d5c0d38ef1fd3a4317b5fd791ea77818bd378f9e9d58f5f",
+      "context": "Search > Types of search",
+      "contextHash": "3017918c59cea3966e44f1bd30c531a5b6fc7af966f23b50a5b32908a31fcfcb",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_f9bc4567027df47a5d6af7dc_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__Bulk Actions__TRILIUM_PH_1__ such as adding a label/relation can be applied to the results.",
+      "sourceHash": "f9bc4567027df47a5d6af7dc7b54cd69bea433ac81acf7b26e609c2a419a5e65",
+      "context": "Search > Types of search",
+      "contextHash": "3017918c59cea3966e44f1bd30c531a5b6fc7af966f23b50a5b32908a31fcfcb",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_dfa27acd7c4848f548f9406c_0",
+      "kind": "li",
+      "source": "The results are paginated and they can be displayed in any __TRILIUM_PH_0__Collections__TRILIUM_PH_1__ view (e.g. grid, list, calendar, table).",
+      "sourceHash": "dfa27acd7c4848f548f9406cf613cc9b37b54d6e3992829a7a32af8522da05a2",
+      "context": "Search > Types of search",
+      "contextHash": "3017918c59cea3966e44f1bd30c531a5b6fc7af966f23b50a5b32908a31fcfcb",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_fd44f5d2d9257036180024d7_0",
+      "kind": "li",
+      "source": "Some __TRILIUM_PH_0__Collections__TRILIUM_PH_1__ such as board view have a dedicated search bar which applies to that collection.",
+      "sourceHash": "fd44f5d2d9257036180024d7e73b3091418ff83ff5202854b6919f321e025d54",
+      "context": "Search > Types of search",
+      "contextHash": "3017918c59cea3966e44f1bd30c531a5b6fc7af966f23b50a5b32908a31fcfcb",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_4cb652108acac8eeca7d5813_0",
+      "kind": "li",
+      "source": "In this case, the results are displayed directly in the collection instead of a popup and they are limited to the collection but the query language remains the same.",
+      "sourceHash": "4cb652108acac8eeca7d5813aa756a0069501eb7182702aba0f20adfae49f022",
+      "context": "Search > Types of search",
+      "contextHash": "3017918c59cea3966e44f1bd30c531a5b6fc7af966f23b50a5b32908a31fcfcb",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_95b3ba12ddde87a97e3d5852_0",
+      "kind": "p",
+      "source": "__TRILIUM_PH_0__Jump to note__TRILIUM_PH_1__ is a similar concept but it's mainly used to search for notes by title, not by content. Nevertheless, it also features a way to search in full text if the results are unsatisfactory.",
+      "sourceHash": "95b3ba12ddde87a97e3d5852b6b9dc49de3fd84b0b2ec56e9bade6fff5d14ed4",
+      "context": "Search > Types of search",
+      "contextHash": "3017918c59cea3966e44f1bd30c531a5b6fc7af966f23b50a5b32908a31fcfcb",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_e07e24c7ad694826eed539f6_0",
+      "kind": "h2",
+      "source": "Accessing the search__TRILIUM_PH_0__",
+      "sourceHash": "e07e24c7ad694826eed539f630ff7631840df0ff5a166c01ac85f1b54b4ecde7",
+      "context": "Search > Accessing the search",
+      "contextHash": "1b3a7feb7c4996fa233022919f2c27315e30499f5ec84e4dfb30ea40940b0bfa",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_724d339facd9811d6ac8c664_0",
+      "kind": "li",
+      "source": "From the __TRILIUM_PH_0__Launch Bar__TRILIUM_PH_1__, look for the dedicated __TRILIUM_PH_2__ search button.",
+      "sourceHash": "724d339facd9811d6ac8c664025706143cac9e02e24d4c742269c670aa15080f",
+      "context": "Search > Accessing the search",
+      "contextHash": "1b3a7feb7c4996fa233022919f2c27315e30499f5ec84e4dfb30ea40940b0bfa",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_f3a3dc607089f70985fa0e05_0",
+      "kind": "li",
+      "source": "To limit the search to a note and its children, select __TRILIUM_PH_0__Search in subtree__TRILIUM_PH_1__ (__TRILIUM_PH_2__) from the __TRILIUM_PH_3__Note tree contextual menu__TRILIUM_PH_4__ or press __TRILIUM_PH_5__Ctrl__TRILIUM_PH_6__+__TRILIUM_PH_7__Shift__TRILIUM_PH_8__+__TRILIUM_PH_9__S__TRILIUM_PH_10__.",
+      "sourceHash": "f3a3dc607089f70985fa0e0544edc3174f11334affcded83114a28fa73077b64",
+      "context": "Search > Accessing the search",
+      "contextHash": "1b3a7feb7c4996fa233022919f2c27315e30499f5ec84e4dfb30ea40940b0bfa",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_895746c246e3b07e28c574d6_0",
+      "kind": "li",
+      "source": "Go to __TRILIUM_PH_0__Jump to & command palette__TRILIUM_PH_1__, look for something then press __TRILIUM_PH_2__Show in full search__TRILIUM_PH_3__ below the results (or __TRILIUM_PH_4__Ctrl__TRILIUM_PH_5__+__TRILIUM_PH_6__Enter__TRILIUM_PH_7__).",
+      "sourceHash": "895746c246e3b07e28c574d6654f6aa63eff4c24c32784d2920fd34a1c9cab76",
+      "context": "Search > Accessing the search",
+      "contextHash": "1b3a7feb7c4996fa233022919f2c27315e30499f5ec84e4dfb30ea40940b0bfa",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_27591f4e86746d469eb2d832_0",
+      "kind": "h2",
+      "source": "Interaction__TRILIUM_PH_0__",
+      "sourceHash": "27591f4e86746d469eb2d8323f6dda382149928ec0550ca8a5a6fdfc24cab9a6",
+      "context": "Search > Interaction",
+      "contextHash": "815256cfd24860082d9f40d5f30c5a59760eacc365170647a2db22089cbc88b2",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_270ba1778befbbb74ba06a32_0",
+      "kind": "p",
+      "source": "To search for notes, click on the __TRILIUM_PH_0__ icon in the __TRILIUM_PH_1__Launch Bar__TRILIUM_PH_2__ or press the keyboard __TRILIUM_PH_3__shortcut__TRILIUM_PH_4__.",
+      "sourceHash": "270ba1778befbbb74ba06a32ebe2c757f92403ff8a50418bccdbc1680ff965fd",
+      "context": "Search > Interaction",
+      "contextHash": "815256cfd24860082d9f40d5f30c5a59760eacc365170647a2db22089cbc88b2",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_9fe5e60a6c35a9246799615a_0",
+      "kind": "li",
+      "source": "Set the text to search for in the __TRILIUM_PH_0__Search string__TRILIUM_PH_1__ field.",
+      "sourceHash": "9fe5e60a6c35a9246799615a2a687f26f99f8fa13d75a4667bcdcec8a4d4fe24",
+      "context": "Search > Interaction",
+      "contextHash": "815256cfd24860082d9f40d5f30c5a59760eacc365170647a2db22089cbc88b2",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_579230cafc448f5fea6ca166_0",
+      "kind": "li",
+      "source": "Apart from searching for words literally, there is also the possibility to search for attributes or properties of notes.",
+      "sourceHash": "579230cafc448f5fea6ca16657b5c359aa8a4dc8caddcfceb2e92a245cfd74fc",
+      "context": "Search > Interaction",
+      "contextHash": "815256cfd24860082d9f40d5f30c5a59760eacc365170647a2db22089cbc88b2",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_82ca3f2c4551e2566c53e24a_0",
+      "kind": "li",
+      "source": "See the examples below for more information.",
+      "sourceHash": "82ca3f2c4551e2566c53e24a3de9294a53de940535d24a0bab5be607473140c7",
+      "context": "Search > Interaction",
+      "contextHash": "815256cfd24860082d9f40d5f30c5a59760eacc365170647a2db22089cbc88b2",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_080c45df33bff0f1bc453f48_0",
+      "kind": "li",
+      "source": "To limit the search to a note and its sub-children, set a note in __TRILIUM_PH_0__Ancestor__TRILIUM_PH_1__.",
+      "sourceHash": "080c45df33bff0f1bc453f48da3cfe64589c4c34c3ead7f1e770c2d81d7e7b64",
+      "context": "Search > Interaction",
+      "contextHash": "815256cfd24860082d9f40d5f30c5a59760eacc365170647a2db22089cbc88b2",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_2cd33dcaf2fb6cdd1c24d8b4_0",
+      "kind": "li",
+      "source": "This value is also pre-filled if the search is triggered from a __TRILIUM_PH_0__hoisted note__TRILIUM_PH_1__ or a __TRILIUM_PH_2__workspace__TRILIUM_PH_3__.",
+      "sourceHash": "2cd33dcaf2fb6cdd1c24d8b42d608d129db241724f181a1d8a87a1363e25be16",
+      "context": "Search > Interaction",
+      "contextHash": "815256cfd24860082d9f40d5f30c5a59760eacc365170647a2db22089cbc88b2",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_9ef7ac423381f43ac96403b6_0",
+      "kind": "li",
+      "source": "To search the entire database, keep the value empty.",
+      "sourceHash": "9ef7ac423381f43ac96403b64625faa9db87fbed71351a4f3ec8be9144b2d44f",
+      "context": "Search > Interaction",
+      "contextHash": "815256cfd24860082d9f40d5f30c5a59760eacc365170647a2db22089cbc88b2",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_57183db1312fdfe47ba0822e_0",
+      "kind": "li",
+      "source": "To limit the search to only a few levels of hierarchy (e.g. look in sub-children but not in sub-sub-children of a note), set the __TRILIUM_PH_0__depth__TRILIUM_PH_1__ field to one of the provided values.",
+      "sourceHash": "57183db1312fdfe47ba0822e49de6555a6acf1e568294cab148aa3b8d2053767",
+      "context": "Search > Interaction",
+      "contextHash": "815256cfd24860082d9f40d5f30c5a59760eacc365170647a2db22089cbc88b2",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_21cc3e37bfe16b8f16764b01_0",
+      "kind": "li",
+      "source": "In addition to that, the search can be configured via the __TRILIUM_PH_0__Add search option__TRILIUM_PH_1__ menu, as described in the follow-up section.",
+      "sourceHash": "21cc3e37bfe16b8f16764b010cb840d033e01f5541b6c24434fe7387af1d9ef5",
+      "context": "Search > Interaction",
+      "contextHash": "815256cfd24860082d9f40d5f30c5a59760eacc365170647a2db22089cbc88b2",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_06439c5dbf11944eacf3dde9_0",
+      "kind": "li",
+      "source": "Press __TRILIUM_PH_0__Search__TRILIUM_PH_1__ (__TRILIUM_PH_2__) to trigger the search. The results are displayed below the search configuration pane.",
+      "sourceHash": "06439c5dbf11944eacf3dde9899d7855cb97c81a97792abf9d84d69b790b2541",
+      "context": "Search > Interaction",
+      "contextHash": "815256cfd24860082d9f40d5f30c5a59760eacc365170647a2db22089cbc88b2",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_bee477584441ce45eb6caed1_0",
+      "kind": "li",
+      "source": "The __TRILIUM_PH_0__Search & Execute actions__TRILIUM_PH_1__ (__TRILIUM_PH_2__) entry in the menu beside __TRILIUM_PH_3__Search__TRILIUM_PH_4__ is only relevant if at least one action has been added (as described in the section below).",
+      "sourceHash": "bee477584441ce45eb6caed17b68b809e2396ad307d9585224f23db4bd9a143b",
+      "context": "Search > Interaction",
+      "contextHash": "815256cfd24860082d9f40d5f30c5a59760eacc365170647a2db22089cbc88b2",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_c43283888fc2b8d64a7c4741_0",
+      "kind": "li",
+      "source": "The __TRILIUM_PH_0__Save to note__TRILIUM_PH_1__ (__TRILIUM_PH_2__) entry in the same menu will create a new note with the search configuration. For more information, see __TRILIUM_PH_3__Saved Search__TRILIUM_PH_4__.",
+      "sourceHash": "c43283888fc2b8d64a7c4741cfa166f93145b85e6de5ca91f8887ece9f315f73",
+      "context": "Search > Interaction",
+      "contextHash": "815256cfd24860082d9f40d5f30c5a59760eacc365170647a2db22089cbc88b2",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_173eb5dfe9205894c659d17f_0",
+      "kind": "h2",
+      "source": "Features__TRILIUM_PH_0__",
+      "sourceHash": "173eb5dfe9205894c659d17f720b8c5c74f26222a129e8eedc92f012fab78d12",
+      "context": "Search > Features",
+      "contextHash": "283e7956d48fd82a051cee0bcfff64a9b6312279c9cec16428c07a78f47ba8a6",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_fcf53eb339e2cc3d4616d3b5_0",
+      "kind": "h3",
+      "source": "Autocomplete__TRILIUM_PH_0__",
+      "sourceHash": "fcf53eb339e2cc3d4616d3b5d9acd047d1f357869b65cdc13ad9dfeb9cf792dc",
+      "context": "Search > Features > Autocomplete",
+      "contextHash": "dba9cf59c915272a63fd752a742b8956ce4e4c5e2edd55cff436a913c8d15dee",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_5735ff549c056d9974740cbc_0",
+      "kind": "p",
+      "source": "To help with the syntax, Trilium offers an autocomplete functionality which can be triggered by pressing __TRILIUM_PH_0__Ctrl__TRILIUM_PH_1__+__TRILIUM_PH_2__Space__TRILIUM_PH_3__.",
+      "sourceHash": "5735ff549c056d9974740cbc9c68a8d1b91d0f07663265a1090701522ee69e98",
+      "context": "Search > Features > Autocomplete",
+      "contextHash": "dba9cf59c915272a63fd752a742b8956ce4e4c5e2edd55cff436a913c8d15dee",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_cb9fd2832cb66fa1fad3e439_0",
+      "kind": "p",
+      "source": "Some suggestions also open on their own as you type: label and relation names after __TRILIUM_PH_0__ and __TRILIUM_PH_1__, fields after __TRILIUM_PH_2__, operators, values, and notes after __TRILIUM_PH_3__. Keywords such as __TRILIUM_PH_4__, __TRILIUM_PH_5__, __TRILIUM_PH_6__, __TRILIUM_PH_7__ and __TRILIUM_PH_8__ appear only on __TRILIUM_PH_9__Ctrl__TRILIUM_PH_10__+__TRILIUM_PH_11__Space__TRILIUM_PH_12__, since a plain word is usually a search term.",
+      "sourceHash": "cb9fd2832cb66fa1fad3e439b6d615ab06b4f5b04657a43e3010ba396f6189a2",
+      "context": "Search > Features > Autocomplete",
+      "contextHash": "dba9cf59c915272a63fd752a742b8956ce4e4c5e2edd55cff436a913c8d15dee",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_aed8c91992508c00803dc2e1_0",
+      "kind": "p",
+      "source": "No suggestion is selected when a list opens on its own, so __TRILIUM_PH_0__Enter__TRILIUM_PH_1__ runs the search as typed. To insert a suggestion, select it with __TRILIUM_PH_2__Down__TRILIUM_PH_3__ and press __TRILIUM_PH_4__Enter__TRILIUM_PH_5__. The list opened with __TRILIUM_PH_6__Ctrl__TRILIUM_PH_7__+__TRILIUM_PH_8__Space__TRILIUM_PH_9__ and the notes after __TRILIUM_PH_10__ open on the best match instead, so __TRILIUM_PH_11__Enter__TRILIUM_PH_12__ inserts it.",
+      "sourceHash": "aed8c91992508c00803dc2e182731132010eb59c1b99d2f4304f8617c3cc46df",
+      "context": "Search > Features > Autocomplete",
+      "contextHash": "dba9cf59c915272a63fd752a742b8956ce4e4c5e2edd55cff436a913c8d15dee",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_453d58dcc7835da52483edb5_0",
+      "kind": "p",
+      "source": "The autocomplete offers:",
+      "sourceHash": "453d58dcc7835da52483edb5c6d9946c3d53412775ed6eb6589f00b6b6246fab",
+      "context": "Search > Features > Autocomplete",
+      "contextHash": "dba9cf59c915272a63fd752a742b8956ce4e4c5e2edd55cff436a913c8d15dee",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_be6c68a50fb0784313588cf1_0",
+      "kind": "li",
+      "source": "Basic operators such as __TRILIUM_PH_0__ and keywords (__TRILIUM_PH_1__, __TRILIUM_PH_2__).",
+      "sourceHash": "be6c68a50fb0784313588cf127cb96389659dedb8b27049d27622639a97f3ae1",
+      "context": "Search > Features > Autocomplete",
+      "contextHash": "dba9cf59c915272a63fd752a742b8956ce4e4c5e2edd55cff436a913c8d15dee",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_be13cee4a0f0980108687a13_0",
+      "kind": "li",
+      "source": "Fields for object-like fields such as __TRILIUM_PH_0__ or __TRILIUM_PH_1__, triggered by typing __TRILIUM_PH_2__.",
+      "sourceHash": "be13cee4a0f0980108687a1328a00671a47a824f7e6c2bb34469e5dd44ec1ee4",
+      "context": "Search > Features > Autocomplete",
+      "contextHash": "dba9cf59c915272a63fd752a742b8956ce4e4c5e2edd55cff436a913c8d15dee",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_cf1e986a01e6eb3b41e31d89_0",
+      "kind": "li",
+      "source": "Contextual enumerations such as __TRILIUM_PH_0__ or __TRILIUM_PH_1__.",
+      "sourceHash": "cf1e986a01e6eb3b41e31d89355e04d09e157a3f65e1320f3056617edf8b28c8",
+      "context": "Search > Features > Autocomplete",
+      "contextHash": "dba9cf59c915272a63fd752a742b8956ce4e4c5e2edd55cff436a913c8d15dee",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_e6597dbb8beb19a26afc5b9d_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__Label__TRILIUM_PH_1__ names by typing __TRILIUM_PH_2__.",
+      "sourceHash": "e6597dbb8beb19a26afc5b9ded4e36fb538d70e5699ba105dfaf5d4a170f48a0",
+      "context": "Search > Features > Autocomplete",
+      "contextHash": "dba9cf59c915272a63fd752a742b8956ce4e4c5e2edd55cff436a913c8d15dee",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_18fbe1d5ceedd52065a5268a_0",
+      "kind": "li",
+      "source": "A small gear on the name's icon indicates a system attribute.",
+      "sourceHash": "18fbe1d5ceedd52065a5268af98b2e27f953f6a51ffd94c0a97a56bd6a7f2367",
+      "context": "Search > Features > Autocomplete",
+      "contextHash": "dba9cf59c915272a63fd752a742b8956ce4e4c5e2edd55cff436a913c8d15dee",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_b10c4279aa6a408dc0c1a1ab_0",
+      "kind": "li",
+      "source": "After typing the label name, the value is also autocompleted with values that are present in the database.",
+      "sourceHash": "b10c4279aa6a408dc0c1a1ab3548defd42aba4d9a8f5311e9e73ffe600609598",
+      "context": "Search > Features > Autocomplete",
+      "contextHash": "dba9cf59c915272a63fd752a742b8956ce4e4c5e2edd55cff436a913c8d15dee",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_9a45a7accaaaa0608877034d_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__Relation__TRILIUM_PH_1__ names by typing __TRILIUM_PH_2__.",
+      "sourceHash": "9a45a7accaaaa0608877034d0403d83222a00824e43b8af22a9f353c92bb5493",
+      "context": "Search > Features > Autocomplete",
+      "contextHash": "dba9cf59c915272a63fd752a742b8956ce4e4c5e2edd55cff436a913c8d15dee",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_e0f9755fe28e12b271ef35bd_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__Note ID__TRILIUM_PH_1__s can be inserted easily by typing __TRILIUM_PH_2__ and looking for a note.",
+      "sourceHash": "e0f9755fe28e12b271ef35bde830b134e876e26fe4cdc084e6254b058a70272e",
+      "context": "Search > Features > Autocomplete",
+      "contextHash": "dba9cf59c915272a63fd752a742b8956ce4e4c5e2edd55cff436a913c8d15dee",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_8ddc75eb0ae2644410b4d6c0_0",
+      "kind": "li",
+      "source": "If the note ID is under a valid syntax, it will be shown as a chip of the note instead of the raw ID.",
+      "sourceHash": "8ddc75eb0ae2644410b4d6c02015db7a2350152aee3dfbb885d0d7fe2c8633a5",
+      "context": "Search > Features > Autocomplete",
+      "contextHash": "dba9cf59c915272a63fd752a742b8956ce4e4c5e2edd55cff436a913c8d15dee",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_77c93ebdd752f269f5fbf2c8_0",
+      "kind": "li",
+      "source": "This is especially useful for queries that make use of the note ID such as searching by template: __TRILIUM_PH_0__",
+      "sourceHash": "77c93ebdd752f269f5fbf2c8493ddb43d196a73067a608a91a2377b5f9e595cc",
+      "context": "Search > Features > Autocomplete",
+      "contextHash": "dba9cf59c915272a63fd752a742b8956ce4e4c5e2edd55cff436a913c8d15dee",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_ad8047929a47f7e7d0bbef86_0",
+      "kind": "h3",
+      "source": "Syntax highlighting__TRILIUM_PH_0__",
+      "sourceHash": "ad8047929a47f7e7d0bbef86192a97675fe9533b729efe88a5cb2c039c0c891d",
+      "context": "Search > Features > Syntax highlighting",
+      "contextHash": "17940128991a0451197fe3f7065cccec091ff610ed9e4e1a6174e3b7ff27cbfb",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_afefde5857e7ba618e3509f6_0",
+      "kind": "p",
+      "source": "The search input features syntax highlighting, making recognized fields such as __TRILIUM_PH_0__ and operators like __TRILIUM_PH_1__ stand out.",
+      "sourceHash": "afefde5857e7ba618e3509f6b625b6d12e6a8a15462fbdee52e8ec2e7bd672b4",
+      "context": "Search > Features > Syntax highlighting",
+      "contextHash": "17940128991a0451197fe3f7065cccec091ff610ed9e4e1a6174e3b7ff27cbfb",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_5ab3c9580b155d12b2f1e035_0",
+      "kind": "p",
+      "source": "The same highlighting is available in __TRILIUM_PH_0__Code__TRILIUM_PH_1__ notes, for example to keep a collection of queries: set the language of the note to __TRILIUM_PH_2__Trilium Search Query__TRILIUM_PH_3__. The language is not enabled by default; add it from __TRILIUM_PH_4__Options__TRILIUM_PH_5__ → __TRILIUM_PH_6__Code Notes__TRILIUM_PH_7__ → __TRILIUM_PH_8__Available MIME types in the dropdown__TRILIUM_PH_9__.",
+      "sourceHash": "5ab3c9580b155d12b2f1e035934bf5eee8b4ad3cc2b5ccb140bad0600d0d12f5",
+      "context": "Search > Features > Syntax highlighting",
+      "contextHash": "17940128991a0451197fe3f7065cccec091ff610ed9e4e1a6174e3b7ff27cbfb",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_2f41bf2056584dad17229b27_0",
+      "kind": "h3",
+      "source": "Error highlighting & linting__TRILIUM_PH_0__",
+      "sourceHash": "2f41bf2056584dad17229b272718d4b4b1d3736882a2961f76ce4c695a7832da",
+      "context": "Search > Features > Error highlighting & linting",
+      "contextHash": "4e029b06577316b1313bb0bc3e5a1b5ed4fcd475f9167338b0e53239ebdff2bd",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_e57fc57426fefbc53ff12299_0",
+      "kind": "p",
+      "source": "The search is also checked for errors in two phases, which will be displayed as a red squiggle:",
+      "sourceHash": "e57fc57426fefbc53ff1229919a8946f7054fde1a9c6887de598b486c1bb3c45",
+      "context": "Search > Features > Error highlighting & linting",
+      "contextHash": "4e029b06577316b1313bb0bc3e5a1b5ed4fcd475f9167338b0e53239ebdff2bd",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_733d18462e63dc6e30fb15ae_0",
+      "kind": "li",
+      "source": "Linter errors which identify common error patterns and also provide a way to fix them.",
+      "sourceHash": "733d18462e63dc6e30fb15aef2e7d2ea16f59e7344e66bc46a11a9640afb6c89",
+      "context": "Search > Features > Error highlighting & linting",
+      "contextHash": "4e029b06577316b1313bb0bc3e5a1b5ed4fcd475f9167338b0e53239ebdff2bd",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_681190998c4a4add67364659_0",
+      "kind": "li",
+      "source": "Search errors which are checked by the server, without indicating the exact place the error occurred.",
+      "sourceHash": "681190998c4a4add67364659b34850d676273be509a75bcefa2f6704087cca54",
+      "context": "Search > Features > Error highlighting & linting",
+      "contextHash": "4e029b06577316b1313bb0bc3e5a1b5ed4fcd475f9167338b0e53239ebdff2bd",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_558578a410eaff462c6faad1_0",
+      "kind": "p",
+      "source": "An error the search only runs into while running, such as an operator that note content cannot be searched with, is shown in a __TRILIUM_PH_0__Search error__TRILIUM_PH_1__ card instead: below the search string, or at the top of the __TRILIUM_PH_2__Quick search__TRILIUM_PH_3__ results.",
+      "sourceHash": "558578a410eaff462c6faad13b55ab9fe2cf5356d6d05f4ed5a7ff811153a687",
+      "context": "Search > Features > Error highlighting & linting",
+      "contextHash": "4e029b06577316b1313bb0bc3e5a1b5ed4fcd475f9167338b0e53239ebdff2bd",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_1dcb81f6ad3f97869e490eb0_0",
+      "kind": "h3",
+      "source": "Multiline__TRILIUM_PH_0__",
+      "sourceHash": "1dcb81f6ad3f97869e490eb0e6aca3c65a6ec838789f43f1bfc8d02ac7d649c3",
+      "context": "Search > Features > Multiline",
+      "contextHash": "12e9000bcc5545b65dba67c60b6e18bb549acb23a13fa2282c6ea38d66f586a2",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_6f15ffd46ac63bbd9f38f5d1_0",
+      "kind": "p",
+      "source": "Long or complicated searches can be formatted by using newlines, similar to SQL queries. Newlines are treated just like spaces.",
+      "sourceHash": "6f15ffd46ac63bbd9f38f5d15f1282c9f63ebe2c8ae8474314872a51d761a59b",
+      "context": "Search > Features > Multiline",
+      "contextHash": "12e9000bcc5545b65dba67c60b6e18bb549acb23a13fa2282c6ea38d66f586a2",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_594cb6abb9d154522a56e761_0",
+      "kind": "p",
+      "source": "To add a new line, press __TRILIUM_PH_0__Shift__TRILIUM_PH_1__+__TRILIUM_PH_2__Enter__TRILIUM_PH_3__.",
+      "sourceHash": "594cb6abb9d154522a56e761127f35fd3eba477d2aa5ab9ab27c4a01afc79700",
+      "context": "Search > Features > Multiline",
+      "contextHash": "12e9000bcc5545b65dba67c60b6e18bb549acb23a13fa2282c6ea38d66f586a2",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_33517516d7e47dfe73ee573f_0",
+      "kind": "p",
+      "source": "Multiline is available only for the full search, other inputs such as the quick search or the collection filter are single line.",
+      "sourceHash": "33517516d7e47dfe73ee573fa23a5339052ebcaa9622a2568871239c490336f6",
+      "context": "Search > Features > Multiline",
+      "contextHash": "12e9000bcc5545b65dba67c60b6e18bb549acb23a13fa2282c6ea38d66f586a2",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_e55c9187d949f728e5fcb23d_0",
+      "kind": "h2",
+      "source": "Search options__TRILIUM_PH_0__",
+      "sourceHash": "e55c9187d949f728e5fcb23de98ee4e64419e733fbea63f56eb3f1397cf049e5",
+      "context": "Search > Search options",
+      "contextHash": "e04bea1def4466a0e14a039294977124a48cc649c49d8e294885b2b830381723",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_31d3b355790b2258d46a68c3_0",
+      "kind": "p",
+      "source": "Click __TRILIUM_PH_0__Add search option__TRILIUM_PH_1__ to choose an option to apply.",
+      "sourceHash": "31d3b355790b2258d46a68c3a3f234ccd78e6e5a09d57d73960499524b281b12",
+      "context": "Search > Search options",
+      "contextHash": "e04bea1def4466a0e14a039294977124a48cc649c49d8e294885b2b830381723",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_326cb1e2b10cb533264e2363_0",
+      "kind": "li",
+      "source": "For each search option selected, the search configuration will update to reveal the entry. Each search option will have its own configuration.",
+      "sourceHash": "326cb1e2b10cb533264e23633efe7a20dbd4212880b9e2f871dc586746fb870e",
+      "context": "Search > Search options",
+      "contextHash": "e04bea1def4466a0e14a039294977124a48cc649c49d8e294885b2b830381723",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_5d2cc6de8088e993096aed2e_0",
+      "kind": "li",
+      "source": "To remove a search option, simply press the __TRILIUM_PH_0__ button to the right of it.",
+      "sourceHash": "5d2cc6de8088e993096aed2e9e39888afdbe18174d21146574230f3064e903ff",
+      "context": "Search > Search options",
+      "contextHash": "e04bea1def4466a0e14a039294977124a48cc649c49d8e294885b2b830381723",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_3a4dc37eca2e240f3b331697_0",
+      "kind": "p",
+      "source": "The options available are:",
+      "sourceHash": "3a4dc37eca2e240f3b331697021c8b105551b94cc0f96b3aadfa21f118de9242",
+      "context": "Search > Search options",
+      "contextHash": "e04bea1def4466a0e14a039294977124a48cc649c49d8e294885b2b830381723",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_c0d3ad96b94d9b456be970e2_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__ Search script",
+      "sourceHash": "c0d3ad96b94d9b456be970e2acfbeeb0e0b6525bea882746a32b8e900b2dcf23",
+      "context": "Search > Search options",
+      "contextHash": "e04bea1def4466a0e14a039294977124a48cc649c49d8e294885b2b830381723",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_3e8ed1e9e5fae6300148ff75_0",
+      "kind": "li",
+      "source": "This feature allows writing a __TRILIUM_PH_0__Code__TRILIUM_PH_1__ note that will handle the search on its own.",
+      "sourceHash": "3e8ed1e9e5fae6300148ff75716f4c1ef469e79bcc56e9c26b35fb96cc3072ee",
+      "context": "Search > Search options",
+      "contextHash": "e04bea1def4466a0e14a039294977124a48cc649c49d8e294885b2b830381723",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_0645330be5de1676d5cd34df_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__ Fast search",
+      "sourceHash": "0645330be5de1676d5cd34df9a73c15932afce7ab3b772731e50ae44d38abf0a",
+      "context": "Search > Search options",
+      "contextHash": "e04bea1def4466a0e14a039294977124a48cc649c49d8e294885b2b830381723",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_f5d276a46d6b837e3b590825_0",
+      "kind": "li",
+      "source": "The search will not look into the content of the notes, but it will still look into note titles and attributes, relations (based on the search query).",
+      "sourceHash": "f5d276a46d6b837e3b590825f330900aab5490b5480124e85f23f18bd934204d",
+      "context": "Search > Search options",
+      "contextHash": "e04bea1def4466a0e14a039294977124a48cc649c49d8e294885b2b830381723",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_c314d3b530263830131676d6_0",
+      "kind": "li",
+      "source": "This method can speed up the search considerably for large __TRILIUM_PH_0__databases__TRILIUM_PH_1__.",
+      "sourceHash": "c314d3b530263830131676d6cf9bdc41a6b154e46f7ccd4aa7e1828a4c1d8dc7",
+      "context": "Search > Search options",
+      "contextHash": "e04bea1def4466a0e14a039294977124a48cc649c49d8e294885b2b830381723",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_597da22e0a91376be73fc471_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__ Include archived",
+      "sourceHash": "597da22e0a91376be73fc471f51268eeb89f5eca5ef6d981a26af0da2709f454",
+      "context": "Search > Search options",
+      "contextHash": "e04bea1def4466a0e14a039294977124a48cc649c49d8e294885b2b830381723",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_f26c61de68d1214038406cb6_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__Archived Notes__TRILIUM_PH_1__ will also be included in the results, whereas otherwise they would be ignored.",
+      "sourceHash": "f26c61de68d1214038406cb64bd80aae247c27f69bc19d3f80f66f0e97322872",
+      "context": "Search > Search options",
+      "contextHash": "e04bea1def4466a0e14a039294977124a48cc649c49d8e294885b2b830381723",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_4ec655c687d63837d0e57690_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__ Order by",
+      "sourceHash": "4ec655c687d63837d0e5769091826b876d1f8a03e0da0b38641d4c92a7f2db52",
+      "context": "Search > Search options",
+      "contextHash": "e04bea1def4466a0e14a039294977124a48cc649c49d8e294885b2b830381723",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_6c2d19e8390cb7fd8035d2c7_0",
+      "kind": "li",
+      "source": "Allows changing the criteria for ordering the results, for example to order by creation date or alphabetically instead of by relevancy (default).",
+      "sourceHash": "6c2d19e8390cb7fd8035d2c7cddb05de4dfa894eec7deb5f19008f0dd43ed7bd",
+      "context": "Search > Search options",
+      "contextHash": "e04bea1def4466a0e14a039294977124a48cc649c49d8e294885b2b830381723",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_0a0373990f7ea8e96ee82148_0",
+      "kind": "li",
+      "source": "It's also possible to change the order (ascending or descending) of the results.",
+      "sourceHash": "0a0373990f7ea8e96ee821489342993a964dc80b7905191f7f3dacafa834bdef",
+      "context": "Search > Search options",
+      "contextHash": "e04bea1def4466a0e14a039294977124a48cc649c49d8e294885b2b830381723",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_a09ce22d2e1c17e6256b8dd0_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__ Limit",
+      "sourceHash": "a09ce22d2e1c17e6256b8dd0b80ad53e0b47be48f7dfcbed43325a1e39db2b5c",
+      "context": "Search > Search options",
+      "contextHash": "e04bea1def4466a0e14a039294977124a48cc649c49d8e294885b2b830381723",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_b9c1c617437c525360436a86_0",
+      "kind": "li",
+      "source": "Limits the results to a given maximum.",
+      "sourceHash": "b9c1c617437c525360436a867582bf984f9ce797907718e326104ec082e72ae9",
+      "context": "Search > Search options",
+      "contextHash": "e04bea1def4466a0e14a039294977124a48cc649c49d8e294885b2b830381723",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_1359803a60a18dd43e605314_0",
+      "kind": "li",
+      "source": "This can help if the number of results would otherwise be high, at the cost of not being able to view all the results.",
+      "sourceHash": "1359803a60a18dd43e6053146689ae94d5692641b0755bed8eb206f82315a525",
+      "context": "Search > Search options",
+      "contextHash": "e04bea1def4466a0e14a039294977124a48cc649c49d8e294885b2b830381723",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_1a8c23a9a1dccd57feb8f7bf_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__ Debug",
+      "sourceHash": "1a8c23a9a1dccd57feb8f7bfc2eeb7f34611c56a539276e5d1af91a5102784f2",
+      "context": "Search > Search options",
+      "contextHash": "e04bea1def4466a0e14a039294977124a48cc649c49d8e294885b2b830381723",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_aafe03f25c437ad4a4601ae0_0",
+      "kind": "li",
+      "source": "This will print additional information in the server log (see __TRILIUM_PH_0__Error logs__TRILIUM_PH_1__), regarding how the search expression was parsed.",
+      "sourceHash": "aafe03f25c437ad4a4601ae0ae005aaaacd03bd7980d20b2a088fca06443d8f4",
+      "context": "Search > Search options",
+      "contextHash": "e04bea1def4466a0e14a039294977124a48cc649c49d8e294885b2b830381723",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_c168a0271e63f77b1952855c_0",
+      "kind": "li",
+      "source": "This function is especially useful after understanding the search functionality in detail, in order to determine why a complex search query is not working as expected.",
+      "sourceHash": "c168a0271e63f77b1952855c93797a07e33273fd57a7ebbf662398d9ba37b613",
+      "context": "Search > Search options",
+      "contextHash": "e04bea1def4466a0e14a039294977124a48cc649c49d8e294885b2b830381723",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_51515866232564e9bdff9901_0",
+      "kind": "p",
+      "source": "The same menu ends with a __TRILIUM_PH_0__Bulk actions__TRILIUM_PH_1__ section for applying changes such as adding a label or a relation to the matched notes. Its groups—__TRILIUM_PH_2__Labels__TRILIUM_PH_3__, __TRILIUM_PH_4__Relations__TRILIUM_PH_5__, __TRILIUM_PH_6__Notes__TRILIUM_PH_7__ and __TRILIUM_PH_8__Other__TRILIUM_PH_9__—each open a list of the actions in the corresponding group of the __TRILIUM_PH_10__Bulk Actions__TRILIUM_PH_11__ dialog, which is an alternative for operating directly with notes within the __TRILIUM_PH_12__Note Tree__TRILIUM_PH_13__. Choosing one adds it to the search; unlike the other options, the same action can be added more than once (e.g. to apply multiple labels). After defining the actions, first press __TRILIUM_PH_14__Search__TRILIUM_PH_15__ to check the matched notes and then choose __TRILIUM_PH_16__Search & Execute actions__TRILIUM_PH_17__ from the menu beside it to trigger the actions.",
+      "sourceHash": "51515866232564e9bdff990122e2209f476cd9d9e0c2391ee21fde29f26078f2",
+      "context": "Search > Search options",
+      "contextHash": "e04bea1def4466a0e14a039294977124a48cc649c49d8e294885b2b830381723",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_a665667e0383019364efa457_0",
+      "kind": "h2",
+      "source": "Viewing search results__TRILIUM_PH_0__",
+      "sourceHash": "a665667e0383019364efa457a165c492b84da6b1f13326625d045d18306c9138",
+      "context": "Search > Viewing search results",
+      "contextHash": "afd7703feb3ee575503c23c63f07223fcfcee6410773486ea56b34e6d6c9cea0",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_b8afa5fdbfcdefbc4a1a3ebd_0",
+      "kind": "p",
+      "source": "Results appear below the search pane, by default in the __TRILIUM_PH_0__Search preview__TRILIUM_PH_1__ view. Each result is drawn as a __TRILIUM_PH_2__snippet card__TRILIUM_PH_3__ with the note title, the path to it, a short excerpt of the matching text, and the attributes that matched. The excerpt of a code note keeps its indentation and is shown in the code font.",
+      "sourceHash": "b8afa5fdbfcdefbc4a1a3ebd91cc8609ff2ec057bc25cb80de7a5e8e57c52ade",
+      "context": "Search > Viewing search results",
+      "contextHash": "afd7703feb3ee575503c23c63f07223fcfcee6410773486ea56b34e6d6c9cea0",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_50de7e20a39e12514a21a1df_0",
+      "kind": "p",
+      "source": "To show the results as a plain note list instead, choose __TRILIUM_PH_0__List__TRILIUM_PH_1__ from the __TRILIUM_PH_2__Collection Properties__TRILIUM_PH_3__ bar. The __TRILIUM_PH_4__List__TRILIUM_PH_5__ view shows one row per note, with the note's title and content preview.",
+      "sourceHash": "50de7e20a39e12514a21a1dfb4f2e447fee20117c54b92d6f4bf0922106bba2b",
+      "context": "Search > Viewing search results",
+      "contextHash": "afd7703feb3ee575503c23c63f07223fcfcee6410773486ea56b34e6d6c9cea0",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_71642262cd7a9a389e54407b_0",
+      "kind": "p",
+      "source": "The search will also highlight the words from the title or content that matched:",
+      "sourceHash": "71642262cd7a9a389e54407bc2190387eeab28ffbbb08cb4d7cc4e6b28bd858f",
+      "context": "Search > Viewing search results",
+      "contextHash": "afd7703feb3ee575503c23c63f07223fcfcee6410773486ea56b34e6d6c9cea0",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_2c6a565fad3ac1f424498030_0",
+      "kind": "li",
+      "source": "With a solid underlined green for a direct match;",
+      "sourceHash": "2c6a565fad3ac1f42449803059b8d817b57f274b984db59f8cddb4239c566fd9",
+      "context": "Search > Viewing search results",
+      "contextHash": "afd7703feb3ee575503c23c63f07223fcfcee6410773486ea56b34e6d6c9cea0",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_1a8216ef1852f804363ad626_0",
+      "kind": "li",
+      "source": "With a dotted underline orange for a partial match (matched by the fuzzy search).",
+      "sourceHash": "1a8216ef1852f804363ad626d3b77ed735b083d796c577690dc445f68c355809",
+      "context": "Search > Viewing search results",
+      "contextHash": "afd7703feb3ee575503c23c63f07223fcfcee6410773486ea56b34e6d6c9cea0",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_81990f0edd1a5ffc42d0096c_0",
+      "kind": "p",
+      "source": "In addition, the __TRILIUM_PH_0__Search preview__TRILIUM_PH_1__ view offers:",
+      "sourceHash": "81990f0edd1a5ffc42d0096ccbd57ed207bcbfaa760b6bc2af36ed00b425961a",
+      "context": "Search > Viewing search results",
+      "contextHash": "afd7703feb3ee575503c23c63f07223fcfcee6410773486ea56b34e6d6c9cea0",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_a470ac81473be61c241ec95c_0",
+      "kind": "li",
+      "source": "The __TRILIUM_PH_0__total number of results__TRILIUM_PH_1__ is always shown, so you can immediately tell how broad a query is.",
+      "sourceHash": "a470ac81473be61c241ec95c0c51711b019540eb6fa988ad9edbdf01458f4d93",
+      "context": "Search > Viewing search results",
+      "contextHash": "afd7703feb3ee575503c23c63f07223fcfcee6410773486ea56b34e6d6c9cea0",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_05e885bc55dbd7550b338ca9_0",
+      "kind": "li",
+      "source": "A __TRILIUM_PH_0__page-size selector__TRILIUM_PH_1__ lets you choose how many results to display per page. Your choice is remembered and synced across your devices (stored in the __TRILIUM_PH_2__ option), so you do not have to reset it on every device.",
+      "sourceHash": "05e885bc55dbd7550b338ca91d2a8b786682cfdeafebf36b090b00ce1b04daac",
+      "context": "Search > Viewing search results",
+      "contextHash": "afd7703feb3ee575503c23c63f07223fcfcee6410773486ea56b34e6d6c9cea0",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_31e83e95004168e98043040b_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__Clicking a result's title__TRILIUM_PH_1__ opens the note and jumps straight to the first match. The in-note find bar opens pre-filled with the first word of your search, so you can step through its matches with the find controls. To have the find bar look for a whole phrase instead, put the phrase in quotes in the search, e.g. __TRILIUM_PH_2__. In read-only notes, the other words of the search are highlighted as well. The excerpt and attributes can be selected without opening the note.",
+      "sourceHash": "31e83e95004168e98043040ba26c1c3994f9d576e7f53b4df79bc17c616458a9",
+      "context": "Search > Viewing search results",
+      "contextHash": "afd7703feb3ee575503c23c63f07223fcfcee6410773486ea56b34e6d6c9cea0",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_800dd6adf17cdaea0554e2dc_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__Open all results in new tabs__TRILIUM_PH_1__ (__TRILIUM_PH_2__, the button above the results) opens every result in a tab of its own, up to 50. Each tab opens on its first match with the find bar pre-filled, as when clicking a result.",
+      "sourceHash": "800dd6adf17cdaea0554e2dc9b123ac9b0fc7adecef31ff38d4a14dd134d0a3a",
+      "context": "Search > Viewing search results",
+      "contextHash": "afd7703feb3ee575503c23c63f07223fcfcee6410773486ea56b34e6d6c9cea0",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_342b2ceaee745c93cf0d66c4_0",
+      "kind": "li",
+      "source": "If a match is inside a __TRILIUM_PH_0__collapsed section__TRILIUM_PH_1__ (for example a folded heading), that section is expanded automatically so the match is visible.",
+      "sourceHash": "342b2ceaee745c93cf0d66c4ddd870ebb46ba1ecc3e411fbef11b9aaa2da09b4",
+      "context": "Search > Viewing search results",
+      "contextHash": "afd7703feb3ee575503c23c63f07223fcfcee6410773486ea56b34e6d6c9cea0",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_c5e03881f5fbd8341b868520_0",
+      "kind": "li",
+      "source": "When the excerpt is cut short, a __TRILIUM_PH_0__Show more__TRILIUM_PH_1__ button expands the card to the note's full content, with the search terms highlighted. __TRILIUM_PH_2__Show less__TRILIUM_PH_3__ returns to the excerpt.",
+      "sourceHash": "c5e03881f5fbd8341b868520ecf61fa70100a954bf41bd19939374f5cf7b2851",
+      "context": "Search > Viewing search results",
+      "contextHash": "afd7703feb3ee575503c23c63f07223fcfcee6410773486ea56b34e6d6c9cea0",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_45dc8d28d08288689e530a03_0",
+      "kind": "p",
+      "source": "A saved search can also be __TRILIUM_PH_0__printed or exported as PDF__TRILIUM_PH_1__ from the __TRILIUM_PH_2__Print/export to PDF…__TRILIUM_PH_3__ item of the __TRILIUM_PH_4__Note menu__TRILIUM_PH_5__, in either __TRILIUM_PH_6__Search preview__TRILIUM_PH_7__ or __TRILIUM_PH_8__List__TRILIUM_PH_9__ view. The results are laid out as a list, as they stand when printing starts.",
+      "sourceHash": "45dc8d28d08288689e530a039019454f3906045f46c121df856a5ed22564347f",
+      "context": "Search > Viewing search results",
+      "contextHash": "afd7703feb3ee575503c23c63f07223fcfcee6410773486ea56b34e6d6c9cea0",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_0472a4fa9c9ea8c4c82e187f_0",
+      "kind": "h2",
+      "source": "Simple Note Search Examples__TRILIUM_PH_0__",
+      "sourceHash": "0472a4fa9c9ea8c4c82e187f264c35558beb64451ce5c3317af3bbabf7c57896",
+      "context": "Search > Simple Note Search Examples",
+      "contextHash": "dba191964a869b9a1d960f78f03d62f20da20d31ed48223787f19f82d2230629",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_884f5df361a883f18ad986d2_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__: Full-text search to find notes containing both \"rings\" and \"tolkien\".",
+      "sourceHash": "884f5df361a883f18ad986d237723245bcc25ab4234441f3a0cd29daa501786c",
+      "context": "Search > Simple Note Search Examples",
+      "contextHash": "dba191964a869b9a1d960f78f03d62f20da20d31ed48223787f19f82d2230629",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_b7b5105bcd2b397cd58b33a0_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__: Full-text search where \"The Lord of the Rings\" must match exactly.",
+      "sourceHash": "b7b5105bcd2b397cd58b33a09904ec8c6f3eacb52765ef5e493cc65738d53bb8",
+      "context": "Search > Simple Note Search Examples",
+      "contextHash": "dba191964a869b9a1d960f78f03d62f20da20d31ed48223787f19f82d2230629",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_f38f84069ea8562a35ae0a51_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__: Find notes containing \"rings\" or \"tolkien\" in their content.",
+      "sourceHash": "f38f84069ea8562a35ae0a519c47721909875297111cf515ad50078fd7c22b09",
+      "context": "Search > Simple Note Search Examples",
+      "contextHash": "dba191964a869b9a1d960f78f03d62f20da20d31ed48223787f19f82d2230629",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_ebe86eb6f5ade48993f523b5_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__: Combine full-text and attribute search to find notes containing \"towers\" and having the \"book\" label. Writing __TRILIUM_PH_1__ does the same; to search for the word \"and\" itself, put it in quotes.",
+      "sourceHash": "ebe86eb6f5ade48993f523b50b1179f6de5c062006470545670c27922bfaf09a",
+      "context": "Search > Simple Note Search Examples",
+      "contextHash": "dba191964a869b9a1d960f78f03d62f20da20d31ed48223787f19f82d2230629",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_3ca66167edcc29ad7289f2dd_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__ or __TRILIUM_PH_1__: A __TRILIUM_PH_2__ or __TRILIUM_PH_3__ inside a word is part of the text, so these find notes containing \"c#\" or \"towers#book\". To start a label or relation, put a space before it.",
+      "sourceHash": "3ca66167edcc29ad7289f2dd8a1eb51b66e881260a0206148f3e75f88637f3af",
+      "context": "Search > Simple Note Search Examples",
+      "contextHash": "dba191964a869b9a1d960f78f03d62f20da20d31ed48223787f19f82d2230629",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_d35cef600e91cf6193de134e_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__: Search for notes containing \"towers\" and having either the \"book\" or \"author\" label.",
+      "sourceHash": "d35cef600e91cf6193de134e978db91c115f57df2333d5b5d9454b8a8c5a5a0b",
+      "context": "Search > Simple Note Search Examples",
+      "contextHash": "dba191964a869b9a1d960f78f03d62f20da20d31ed48223787f19f82d2230629",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_98cfccdade0f1e8af1dcb6bc_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__: Search for notes containing \"towers\" and not having the \"book\" label.",
+      "sourceHash": "98cfccdade0f1e8af1dcb6bcd3f49f3995fe2c00df86207209a05a0998b2ea34",
+      "context": "Search > Simple Note Search Examples",
+      "contextHash": "dba191964a869b9a1d960f78f03d62f20da20d31ed48223787f19f82d2230629",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_0f7726c79b414fe15fca6e5b_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__: Find notes with the \"book\" label and \"publicationYear\" set to 1954.",
+      "sourceHash": "0f7726c79b414fe15fca6e5b973966bf04ed7957f4ae4c78e840cbef7462fe03",
+      "context": "Search > Simple Note Search Examples",
+      "contextHash": "dba191964a869b9a1d960f78f03d62f20da20d31ed48223787f19f82d2230629",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_f1d2612d4a9e2627194304e4_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__: Find notes with the \"genre\" label containing the substring \"fan\". Additional operators include __TRILIUM_PH_1__ for \"contains\", __TRILIUM_PH_2__ for \"starts with\", __TRILIUM_PH_3__ for \"ends with\", and __TRILIUM_PH_4__ for \"is not equal to\".",
+      "sourceHash": "f1d2612d4a9e2627194304e4449f1fc1eb74a1e7b625fffccf9c88ae41195052",
+      "context": "Search > Simple Note Search Examples",
+      "contextHash": "dba191964a869b9a1d960f78f03d62f20da20d31ed48223787f19f82d2230629",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_1f8cb98d81825bff068d8cd0_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__: Use numeric operators to find all books published in the 1950s.",
+      "sourceHash": "1f8cb98d81825bff068d8cd07ee8fff478e85f16441f1e446b2c7b4562758aa2",
+      "context": "Search > Simple Note Search Examples",
+      "contextHash": "dba191964a869b9a1d960f78f03d62f20da20d31ed48223787f19f82d2230629",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_56dda467d9b7c9606b35f7ec_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__: Find notes with the \"dateNote\" label within the last 30 days. Supported date values include NOW +- seconds, TODAY +- days, MONTH +- months, YEAR +- years.",
+      "sourceHash": "56dda467d9b7c9606b35f7ec54e2f5a695793e02d826569706a42986e72a59fe",
+      "context": "Search > Simple Note Search Examples",
+      "contextHash": "dba191964a869b9a1d960f78f03d62f20da20d31ed48223787f19f82d2230629",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_1e5580ad94ba5c291c418bd4_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__: Find notes related to an author whose title contains \"Tolkien\".",
+      "sourceHash": "1e5580ad94ba5c291c418bd446bcd226aae3f685cc4364db55140a406c370fa6",
+      "context": "Search > Simple Note Search Examples",
+      "contextHash": "dba191964a869b9a1d960f78f03d62f20da20d31ed48223787f19f82d2230629",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_e755fc6805410f243610f3b3_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__: Use the '%=' operator to match a regular expression (regex). This feature has been available since Trilium 0.52.",
+      "sourceHash": "e755fc6805410f243610f3b310e730a6bb6d282dfab3247819a653890e6d94bd",
+      "context": "Search > Simple Note Search Examples",
+      "contextHash": "dba191964a869b9a1d960f78f03d62f20da20d31ed48223787f19f82d2230629",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_5037e0e5819b9b2c4ec7d640_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__: Find notes that mention a time. Backslashes in a regex must be escaped.",
+      "sourceHash": "5037e0e5819b9b2c4ec7d64050bd3502c1f7b3dc7e35423a1bc92f246a7a482b",
+      "context": "Search > Simple Note Search Examples",
+      "contextHash": "dba191964a869b9a1d960f78f03d62f20da20d31ed48223787f19f82d2230629",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_f53cb071fa7ef2626513b9c6_0",
+      "kind": "h2",
+      "source": "Advanced Use Cases__TRILIUM_PH_0__",
+      "sourceHash": "f53cb071fa7ef2626513b9c6804204265e267a60f9bee4da13446c65eb4505d1",
+      "context": "Search > Advanced Use Cases",
+      "contextHash": "278d1665f54f85d588cf2905430a3dc3f7d5c66ac69af96fb31fc1a851963029",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_5b699892201f3da2d88c5fbc_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__: Search for notes with an \"author\" relation to a note that has a \"son\" relation to \"Christopher Tolkien\". This can be modeled with the following note structure:",
+      "sourceHash": "5b699892201f3da2d88c5fbcf083c88a115b784d5f414ad6ccd2a82eb53dba4f",
+      "context": "Search > Advanced Use Cases",
+      "contextHash": "278d1665f54f85d588cf2905430a3dc3f7d5c66ac69af96fb31fc1a851963029",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_acdf03370acdccb340e729ee_0",
+      "kind": "li",
+      "source": "Books",
+      "sourceHash": "acdf03370acdccb340e729ee1cf7437d12515763bed523301b319cebfccf76b3",
+      "context": "Search > Advanced Use Cases",
+      "contextHash": "278d1665f54f85d588cf2905430a3dc3f7d5c66ac69af96fb31fc1a851963029",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_2b04db348adeae3a916b40e5_0",
+      "kind": "li",
+      "source": "Lord of the Rings",
+      "sourceHash": "2b04db348adeae3a916b40e5c893f3ad463b3332b85192d44e4a8d7d4d21c123",
+      "context": "Search > Advanced Use Cases",
+      "contextHash": "278d1665f54f85d588cf2905430a3dc3f7d5c66ac69af96fb31fc1a851963029",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_eb4f4f16fd4f387e15692555_0",
+      "kind": "li",
+      "source": "label: “book”",
+      "sourceHash": "eb4f4f16fd4f387e156925552350cb8060c7da7906ece748902869708829ed72",
+      "context": "Search > Advanced Use Cases",
+      "contextHash": "278d1665f54f85d588cf2905430a3dc3f7d5c66ac69af96fb31fc1a851963029",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_ee6c2425adc290a5e8b65e6b_0",
+      "kind": "li",
+      "source": "relation: “author” points to “J. R. R. Tolkien” note",
+      "sourceHash": "ee6c2425adc290a5e8b65e6b80241813ae265f3684bce028a0257f1112d1867c",
+      "context": "Search > Advanced Use Cases",
+      "contextHash": "278d1665f54f85d588cf2905430a3dc3f7d5c66ac69af96fb31fc1a851963029",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_98cb9947631d6a3ec21d2bf3_0",
+      "kind": "li",
+      "source": "People",
+      "sourceHash": "98cb9947631d6a3ec21d2bf3337606376f6d9decc9daa220851e9a868cf94e08",
+      "context": "Search > Advanced Use Cases",
+      "contextHash": "278d1665f54f85d588cf2905430a3dc3f7d5c66ac69af96fb31fc1a851963029",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_91084eb7c3f7fdc74b0c16d7_0",
+      "kind": "li",
+      "source": "J. R. R. Tolkien",
+      "sourceHash": "91084eb7c3f7fdc74b0c16d716129012e623afe7fdb2fe0b2a09d79e67cdaf59",
+      "context": "Search > Advanced Use Cases",
+      "contextHash": "278d1665f54f85d588cf2905430a3dc3f7d5c66ac69af96fb31fc1a851963029",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_0b41a89ed237f083a35ae58a_0",
+      "kind": "li",
+      "source": "relation: “son” points to \"Christopher Tolkien\" note",
+      "sourceHash": "0b41a89ed237f083a35ae58a8d78251bd3eb84e9013757b856e94b172da24899",
+      "context": "Search > Advanced Use Cases",
+      "contextHash": "278d1665f54f85d588cf2905430a3dc3f7d5c66ac69af96fb31fc1a851963029",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_a4dad898f931592bf7120f1a_0",
+      "kind": "li",
+      "source": "Christopher Tolkien",
+      "sourceHash": "a4dad898f931592bf7120f1a81b0b1115265d8f1ec278cb4c5c3a529f2ed4d83",
+      "context": "Search > Advanced Use Cases",
+      "contextHash": "278d1665f54f85d588cf2905430a3dc3f7d5c66ac69af96fb31fc1a851963029",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_29f0044d098488ca137c9355_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__: Use boolean expressions and parentheses to group expressions.",
+      "sourceHash": "29f0044d098488ca137c9355c42311ef148583aface4576db4c6c9ffb50ac608",
+      "context": "Search > Advanced Use Cases",
+      "contextHash": "278d1665f54f85d588cf2905430a3dc3f7d5c66ac69af96fb31fc1a851963029",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_b43a746ade33b388e5357f1f_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__: A group can open the expression part directly, without a __TRILIUM_PH_1__ or __TRILIUM_PH_2__ before the parenthesis. Here it finds notes containing \"towers\" whose genre is fantasy or scifi.",
+      "sourceHash": "b43a746ade33b388e5357f1f89ab9d11f37582d0a58b69f3adb71168ae29aa8a",
+      "context": "Search > Advanced Use Cases",
+      "contextHash": "278d1665f54f85d588cf2905430a3dc3f7d5c66ac69af96fb31fc1a851963029",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_7aa465634f26e7bb151c26cd_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__: Find notes with a parent named \"Books\".",
+      "sourceHash": "7aa465634f26e7bb151c26cd1ca31c739e123640ff6617236a931971eb7b91be",
+      "context": "Search > Advanced Use Cases",
+      "contextHash": "278d1665f54f85d588cf2905430a3dc3f7d5c66ac69af96fb31fc1a851963029",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_293bd15eb70b4939aa8460be_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__: Find notes with a grandparent named \"Books\".",
+      "sourceHash": "293bd15eb70b4939aa8460bea4d36c3d3500dc45117c6f361b9b94988495b33f",
+      "context": "Search > Advanced Use Cases",
+      "contextHash": "278d1665f54f85d588cf2905430a3dc3f7d5c66ac69af96fb31fc1a851963029",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_521d019fcfc4b5014ab4a215_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__: Find notes with an ancestor named \"Books\".",
+      "sourceHash": "521d019fcfc4b5014ab4a215ce8c14dd76883f9030627cea07f2c329f996610a",
+      "context": "Search > Advanced Use Cases",
+      "contextHash": "278d1665f54f85d588cf2905430a3dc3f7d5c66ac69af96fb31fc1a851963029",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_63ab2dcd878a8b614568cbbe_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__: Find notes with a child named \"sub-note\".",
+      "sourceHash": "63ab2dcd878a8b614568cbbe89e59ffeae5fec79dca6302e6884f166c2ab76fd",
+      "context": "Search > Advanced Use Cases",
+      "contextHash": "278d1665f54f85d588cf2905430a3dc3f7d5c66ac69af96fb31fc1a851963029",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_7030cbd2f3b700c24ff6373f_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__: Find notes linking to a note named \"Tolkien\".",
+      "sourceHash": "7030cbd2f3b700c24ff6373f653d94ecb84d29ee93ac4d5f9ec74a059ef84d20",
+      "context": "Search > Advanced Use Cases",
+      "contextHash": "278d1665f54f85d588cf2905430a3dc3f7d5c66ac69af96fb31fc1a851963029",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_400938fcd7b5fb41b84b3f4f_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__: Find the notes that \"Reading list\" links to.",
+      "sourceHash": "400938fcd7b5fb41b84b3f4fd41e5b8b5722b72c6e537534819878ff3f55c709",
+      "context": "Search > Advanced Use Cases",
+      "contextHash": "278d1665f54f85d588cf2905430a3dc3f7d5c66ac69af96fb31fc1a851963029",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_4a95b93434da855d88a4aaed_0",
+      "kind": "li",
+      "source": "A link is a relation you created, such as __TRILIUM_PH_0__, or one that content creates: an internal link (__TRILIUM_PH_1__), an image (__TRILIUM_PH_2__), an included note (__TRILIUM_PH_3__) or a relation map connection (__TRILIUM_PH_4__). Relations that configure a note, such as __TRILIUM_PH_5__ or a saved search's __TRILIUM_PH_6__, are not links.",
+      "sourceHash": "4a95b93434da855d88a4aaed5f5364ed3f34ab4c3e98e04e69aeddfc1f2f4b31",
+      "context": "Search > Advanced Use Cases",
+      "contextHash": "278d1665f54f85d588cf2905430a3dc3f7d5c66ac69af96fb31fc1a851963029",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_b362874571bb63d424fd989b_0",
+      "kind": "p",
+      "source": "See also __TRILIUM_PH_0__Under the hood__TRILIUM_PH_1__ for more syntax references.",
+      "sourceHash": "b362874571bb63d424fd989bda09b3fa4df2038879f7fd465fdd03894c4088c8",
+      "context": "Search > Advanced Use Cases",
+      "contextHash": "278d1665f54f85d588cf2905430a3dc3f7d5c66ac69af96fb31fc1a851963029",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_678d986b4bc218d9c3008c45_0",
+      "kind": "h3",
+      "source": "Search with Note Properties__TRILIUM_PH_0__",
+      "sourceHash": "678d986b4bc218d9c3008c45808c12cdce3aa4187693012ecebbfcc45373ceb3",
+      "context": "Search > Advanced Use Cases > Search with Note Properties",
+      "contextHash": "a1032c3ba60b9e6f37d03e3f23ca275fde7084f3312f38e1bdd483177f46effe",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_644699b541c5c0657e501ec1_0",
+      "kind": "p",
+      "source": "Notes have properties that can be used in searches, such as __TRILIUM_PH_0__, __TRILIUM_PH_1__, __TRILIUM_PH_2__, __TRILIUM_PH_3__, __TRILIUM_PH_4__, __TRILIUM_PH_5__, __TRILIUM_PH_6__, __TRILIUM_PH_7__, __TRILIUM_PH_8__, __TRILIUM_PH_9__, __TRILIUM_PH_10__, __TRILIUM_PH_11__, __TRILIUM_PH_12__, __TRILIUM_PH_13__, __TRILIUM_PH_14__, __TRILIUM_PH_15__, __TRILIUM_PH_16__, __TRILIUM_PH_17__, __TRILIUM_PH_18__, __TRILIUM_PH_19__, __TRILIUM_PH_20__, __TRILIUM_PH_21__, __TRILIUM_PH_22__, __TRILIUM_PH_23__, __TRILIUM_PH_24__, and __TRILIUM_PH_25__.",
+      "sourceHash": "644699b541c5c0657e501ec17168c33d154539ccef703a69ab4e6af4540837df",
+      "context": "Search > Advanced Use Cases > Search with Note Properties",
+      "contextHash": "a1032c3ba60b9e6f37d03e3f23ca275fde7084f3312f38e1bdd483177f46effe",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_b09e76b4f85fade8a9b6eed1_0",
+      "kind": "p",
+      "source": "These properties can be accessed via the __TRILIUM_PH_0__ prefix, e.g., __TRILIUM_PH_1__.",
+      "sourceHash": "b09e76b4f85fade8a9b6eed1bf3c52e51ab6b798edd22a7848ca0ea0f1183c2e",
+      "context": "Search > Advanced Use Cases > Search with Note Properties",
+      "contextHash": "a1032c3ba60b9e6f37d03e3f23ca275fde7084f3312f38e1bdd483177f46effe",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_8964bb70fa39819f8c2643d7_0",
+      "kind": "h3",
+      "source": "Order by and Limit__TRILIUM_PH_0__",
+      "sourceHash": "8964bb70fa39819f8c2643d7a5b2accf66fbaf0e01e5efdb6fca1da03c3b6a09",
+      "context": "Search > Advanced Use Cases > Order by and Limit",
+      "contextHash": "243be10713ca64fac2d85c773efee8279540584c57a96708a7e6ab1a190b521e",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_a4010aaec3272d769da6a797_0",
+      "kind": "p",
+      "source": "This example will:",
+      "sourceHash": "a4010aaec3272d769da6a7978f2737dd0e3e6d5c33e826a52d2656201db39d96",
+      "context": "Search > Advanced Use Cases > Order by and Limit",
+      "contextHash": "243be10713ca64fac2d85c773efee8279540584c57a96708a7e6ab1a190b521e",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_a71eec81aa9d182607b721e3_0",
+      "kind": "li",
+      "source": "Find notes with the author label \"Tolkien\".",
+      "sourceHash": "a71eec81aa9d182607b721e36e1fd3675ee029998e03ff6aa1e9348ae562a3b1",
+      "context": "Search > Advanced Use Cases > Order by and Limit",
+      "contextHash": "243be10713ca64fac2d85c773efee8279540584c57a96708a7e6ab1a190b521e",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_906fe690b0f66937c612ca8d_0",
+      "kind": "li",
+      "source": "Order the results by __TRILIUM_PH_0__ in descending order.",
+      "sourceHash": "906fe690b0f66937c612ca8d251ed4f99ed1a0578cc9031c9687cdcddf4314a8",
+      "context": "Search > Advanced Use Cases > Order by and Limit",
+      "contextHash": "243be10713ca64fac2d85c773efee8279540584c57a96708a7e6ab1a190b521e",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_b24cd9ef59c15a527947c230_0",
+      "kind": "li",
+      "source": "Use __TRILIUM_PH_0__ as a secondary ordering if publication dates are equal.",
+      "sourceHash": "b24cd9ef59c15a527947c23096a2cdde10403776f3c374db6983b53a0531850d",
+      "context": "Search > Advanced Use Cases > Order by and Limit",
+      "contextHash": "243be10713ca64fac2d85c773efee8279540584c57a96708a7e6ab1a190b521e",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_bba917b02a38646bd1627b9b_0",
+      "kind": "li",
+      "source": "Limit the results to the first 10 notes.",
+      "sourceHash": "bba917b02a38646bd1627b9be68748d1bd2ef0496ec45fd111a45f79bdff5421",
+      "context": "Search > Advanced Use Cases > Order by and Limit",
+      "contextHash": "243be10713ca64fac2d85c773efee8279540584c57a96708a7e6ab1a190b521e",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_c9dd2278ffc7a943913500db_0",
+      "kind": "h3",
+      "source": "Negation__TRILIUM_PH_0__",
+      "sourceHash": "c9dd2278ffc7a943913500dbef2cc1c4b210380bc01e276d055a9f28cb929987",
+      "context": "Search > Advanced Use Cases > Negation",
+      "contextHash": "b5f66038682c6bf1fb20d318ebdaacfbd75855e460444cff7ee837e7d3e96689",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_709165810fa5eeb02a52df07_0",
+      "kind": "p",
+      "source": "Some queries can only be expressed with negation:",
+      "sourceHash": "709165810fa5eeb02a52df073e2586a76854c66636fe91d445f774e57eed8735",
+      "context": "Search > Advanced Use Cases > Negation",
+      "contextHash": "b5f66038682c6bf1fb20d318ebdaacfbd75855e460444cff7ee837e7d3e96689",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_5f112bb812002e515ca9bdbc_0",
+      "kind": "p",
+      "source": "This query finds all book notes not in the \"Tolkien\" subtree.",
+      "sourceHash": "5f112bb812002e515ca9bdbc50e7096b38ac9ecdb453c56ac1dbbd786c4d2227",
+      "context": "Search > Advanced Use Cases > Negation",
+      "contextHash": "b5f66038682c6bf1fb20d318ebdaacfbd75855e460444cff7ee837e7d3e96689",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_a4accf4ccdf37d137a508ef3_0",
+      "kind": "h2",
+      "source": "Under the Hood__TRILIUM_PH_0__",
+      "sourceHash": "a4accf4ccdf37d137a508ef32d7977e2a1a31532b742477be30517e7a8058c5b",
+      "context": "Search > Under the Hood",
+      "contextHash": "c0f975285f230bc6b7ccc2647f946c93e8d5638d321eaa41eda041d0ba577cb2",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_5a670a251d872f53da18f236_0",
+      "kind": "p",
+      "source": "See the __TRILIUM_PH_0__dedicated page__TRILIUM_PH_1__ to understand how progressive search works in Trilium, as well as some advanced use cases.",
+      "sourceHash": "5a670a251d872f53da18f236dd870c870c1de4cb302df7b2253e173bf1d68524",
+      "context": "Search > Under the Hood",
+      "contextHash": "c0f975285f230bc6b7ccc2647f946c93e8d5638d321eaa41eda041d0ba577cb2",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_14349f1a5612d519f8831bfc_0",
+      "kind": "h2",
+      "source": "Auto-Trigger Search from URL__TRILIUM_PH_0__",
+      "sourceHash": "14349f1a5612d519f8831bfc43bf1f2cf0872022f35c24235d3ccda67bccbf6b",
+      "context": "Search > Auto-Trigger Search from URL",
+      "contextHash": "fdb81e4235ec971a102733d0b7b39f2274d43f70f223ce0c36186aaef24d1786",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_ac403f3f2f9f75f5fb7e50cc_0",
+      "kind": "p",
+      "source": "You can open Trilium and automatically trigger a search by including the search __TRILIUM_PH_0__url encoded__TRILIUM_PH_1__ string in the URL:",
+      "sourceHash": "ac403f3f2f9f75f5fb7e50ccfe93e0229b4f5b920c3c10c72dca0889f3238801",
+      "context": "Search > Auto-Trigger Search from URL",
+      "contextHash": "fdb81e4235ec971a102733d0b7b39f2274d43f70f223ce0c36186aaef24d1786",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_5be46dbae780fd02344a6606_0",
+      "kind": "h2",
+      "source": "Search Configuration__TRILIUM_PH_0__",
+      "sourceHash": "5be46dbae780fd02344a6606b052abc571ef0d05c9e1b8c1ca9da3a3f2cbba11",
+      "context": "Search > Search Configuration",
+      "contextHash": "5ff5657df32363c13a6efd5c86dad353fa36a9ede4ed780e7630a2320e08e1a1",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_60dc13f9c78e6c943c388e39_0",
+      "kind": "h3",
+      "source": "Parameters__TRILIUM_PH_0__",
+      "sourceHash": "60dc13f9c78e6c943c388e39626879f9239f41240b36818c938cd06245594ef2",
+      "context": "Search > Search Configuration > Parameters",
+      "contextHash": "35d084ed0bd87e5c3be8968d939020b1ee8c700ad34d3c73125a49c8cd49579d",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_d0ea24bdd89e09dce64d91c7_0",
+      "kind": "th",
+      "source": "Parameter",
+      "sourceHash": "d0ea24bdd89e09dce64d91c78db27d63c085d49c77361387a3546a025ab6d000",
+      "context": "Search > Search Configuration > Parameters",
+      "contextHash": "35d084ed0bd87e5c3be8968d939020b1ee8c700ad34d3c73125a49c8cd49579d",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_4c84cbff1153e6df8a060c3b_0",
+      "kind": "th",
+      "source": "Value",
+      "sourceHash": "4c84cbff1153e6df8a060c3bb5c15624b66d5173adb4aca1c13ed769658311ee",
+      "context": "Search > Search Configuration > Parameters",
+      "contextHash": "35d084ed0bd87e5c3be8968d939020b1ee8c700ad34d3c73125a49c8cd49579d",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_4b00baa636b92e18b7a75884_0",
+      "kind": "th",
+      "source": "Description",
+      "sourceHash": "4b00baa636b92e18b7a75884790f0769c3e702d20d8822e708f69ab2f07c7103",
+      "context": "Search > Search Configuration > Parameters",
+      "contextHash": "35d084ed0bd87e5c3be8968d939020b1ee8c700ad34d3c73125a49c8cd49579d",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_5bc2aea9ea357746faf117c3_0",
+      "kind": "td",
+      "source": "3",
+      "sourceHash": "5bc2aea9ea357746faf117c3dd454a84734c987f9fabb43f89d1862a8d5677f4",
+      "context": "Search > Search Configuration > Parameters",
+      "contextHash": "35d084ed0bd87e5c3be8968d939020b1ee8c700ad34d3c73125a49c8cd49579d",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_977552cd394810ea425468c5_0",
+      "kind": "td",
+      "source": "Minimum characters the __TRILIUM_PH_0__ and __TRILIUM_PH_1__ operators accept",
+      "sourceHash": "977552cd394810ea425468c53a1d71e3b89ebc87888a8f6c8eeed58d8e9ed7b5",
+      "context": "Search > Search Configuration > Parameters",
+      "contextHash": "35d084ed0bd87e5c3be8968d939020b1ee8c700ad34d3c73125a49c8cd49579d",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_d8dddfd81b28870c9313c882_0",
+      "kind": "td",
+      "source": "2",
+      "sourceHash": "d8dddfd81b28870c9313c882639feb9ee4256ea5114118165173f116d433b342",
+      "context": "Search > Search Configuration > Parameters",
+      "contextHash": "35d084ed0bd87e5c3be8968d939020b1ee8c700ad34d3c73125a49c8cd49579d",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_858f20a9642730692ac0ba3e_0",
+      "kind": "td",
+      "source": "Ceiling on character changes, reached only by 7+ character terms; shorter terms allow fewer. See the __TRILIUM_PH_0__Fuzzy tolerance__TRILIUM_PH_1__ section above",
+      "sourceHash": "858f20a9642730692ac0ba3e43c3207362883145cffd1c0b7fcabc9f1c27caf5",
+      "context": "Search > Search Configuration > Parameters",
+      "contextHash": "35d084ed0bd87e5c3be8968d939020b1ee8c700ad34d3c73125a49c8cd49579d",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_06af3e4540f213e37419eaf0_0",
+      "kind": "td",
+      "source": "5",
+      "sourceHash": "06af3e4540f213e37419eaf0476d2b25777daaad05f045ecf1465bb568095f7b",
+      "context": "Search > Search Configuration > Parameters",
+      "contextHash": "35d084ed0bd87e5c3be8968d939020b1ee8c700ad34d3c73125a49c8cd49579d",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_90867f97661d8c41e940f2c7_0",
+      "kind": "td",
+      "source": "Minimum exact results before fuzzy fallback",
+      "sourceHash": "90867f97661d8c41e940f2c7d9f85d3bf0567d72507790051d7db3a3c37eccee",
+      "context": "Search > Search Configuration > Parameters",
+      "contextHash": "35d084ed0bd87e5c3be8968d939020b1ee8c700ad34d3c73125a49c8cd49579d",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_8c64ec87a9e920c1cb36f4f9_0",
+      "kind": "td",
+      "source": "10MB",
+      "sourceHash": "8c64ec87a9e920c1cb36f4f937dc419e9af410c0b7b5480c3ea6b0da9fe887b0",
+      "context": "Search > Search Configuration > Parameters",
+      "contextHash": "35d084ed0bd87e5c3be8968d939020b1ee8c700ad34d3c73125a49c8cd49579d",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_f990408e2465f68c6421335a_0",
+      "kind": "td",
+      "source": "Maximum note content size for search processing",
+      "sourceHash": "f990408e2465f68c6421335a05f63806fa5690dcda2b2d0182ca36f6419eb1a2",
+      "context": "Search > Search Configuration > Parameters",
+      "contextHash": "35d084ed0bd87e5c3be8968d939020b1ee8c700ad34d3c73125a49c8cd49579d",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_f37380e24731e0a7ea55192d_0",
+      "kind": "h3",
+      "source": "Limits__TRILIUM_PH_0__",
+      "sourceHash": "f37380e24731e0a7ea55192d1a605e8640fa1a3b5d73cbb1346f6eeea1a4ce25",
+      "context": "Search > Search Configuration > Limits",
+      "contextHash": "31647c1db1fd44df7890ab967d977c7bd2b5e1755fc3b255a1bee43379b695d7",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_5d9f0f8e4bb2b917a9599ed1_0",
+      "kind": "li",
+      "source": "Searched note content is limited to 10MB per note to prevent performance issues",
+      "sourceHash": "5d9f0f8e4bb2b917a9599ed1aba8874a6094e79e4f00a220058fe1dc0490b62c",
+      "context": "Search > Search Configuration > Limits",
+      "contextHash": "31647c1db1fd44df7890ab967d977c7bd2b5e1755fc3b255a1bee43379b695d7",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_f36760ce430951c337f2d6c7_0",
+      "kind": "li",
+      "source": "Notes exceeding this limit will still be included in title and attribute searches",
+      "sourceHash": "f36760ce430951c337f2d6c73326f3a10acb52132b5c8aa2fa440c207ccdac86",
+      "context": "Search > Search Configuration > Limits",
+      "contextHash": "31647c1db1fd44df7890ab967d977c7bd2b5e1755fc3b255a1bee43379b695d7",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_87ee455121afd34f108677f7_0",
+      "kind": "li",
+      "source": "Terms of 3 characters or fewer are matched exactly; typo tolerance starts at 4 characters",
+      "sourceHash": "87ee455121afd34f108677f75d42f2f945018d2822e16ff6daff9b2eb5e65f73",
+      "context": "Search > Search Configuration > Limits",
+      "contextHash": "31647c1db1fd44df7890ab967d977c7bd2b5e1755fc3b255a1bee43379b695d7",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_b190d47815633246b0ab18a6_0",
+      "kind": "image-alt",
+      "source": "記事画像",
+      "sourceHash": "b190d47815633246b0ab18a61d9b8e8ea36504fe3f8bc230a7753096915c9ff2",
+      "context": "Search > Search Configuration > Limits",
+      "contextHash": "31647c1db1fd44df7890ab967d977c7bd2b5e1755fc3b255a1bee43379b695d7",
+      "status": "pending",
+      "active": true
+    }
+  ],
+  "requests": []
+}

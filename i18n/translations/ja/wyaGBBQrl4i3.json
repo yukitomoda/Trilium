@@ -1,0 +1,329 @@
+{
+  "schemaVersion": 1,
+  "pageId": "wyaGBBQrl4i3",
+  "sourceFile": "docs/User Guide/User Guide/Basic Concepts and Features/UI Elements/Note Tree/Hiding the subtree.md",
+  "sourceRevision": "03d17b60f59b5efc29b880b11481471d0fe0ff57",
+  "units": [
+    {
+      "id": "u_614dd062960183ef47795442_0",
+      "kind": "title",
+      "source": "Hiding the subtree",
+      "sourceHash": "614dd062960183ef47795442b08b9b9fd8ea06c6e4a5d4ef1a12a54ed9c3e0d6",
+      "context": "Hiding the subtree",
+      "contextHash": "183d126a8bf82c6c85539a1b380bd7f74ccf32b30836904c19e3d7fe9e4d4fa1",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_da29142879b0810da1860ec4_0",
+      "kind": "figcaption",
+      "source": "An example of a collection with a relatively large number of children that are hidden from the tree.",
+      "sourceHash": "da29142879b0810da1860ec426caccb2308786bddc5003ce145732a8cfe91957",
+      "context": "Hiding the subtree",
+      "contextHash": "183d126a8bf82c6c85539a1b380bd7f74ccf32b30836904c19e3d7fe9e4d4fa1",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_84c5add4f9fd2db7741864ab_0",
+      "kind": "p",
+      "source": "The tree works well when the notes are structured in a hierarchy so that the number of items stays small. When a note has a large number of notes (in the order of thousands or tens of thousands), two problems arise:",
+      "sourceHash": "84c5add4f9fd2db7741864ab2ee697d2e3a3a2b0aff4bbc85a9a0c53479764f3",
+      "context": "Hiding the subtree",
+      "contextHash": "183d126a8bf82c6c85539a1b380bd7f74ccf32b30836904c19e3d7fe9e4d4fa1",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_d40d0d7de0d15a459862a80b_0",
+      "kind": "li",
+      "source": "Navigating between notes becomes cumbersome and the tree itself gets cluttered with a large amount of notes.",
+      "sourceHash": "d40d0d7de0d15a459862a80ba6e6df2e597e67a380dd8f31ef6bb00daa5185fd",
+      "context": "Hiding the subtree",
+      "contextHash": "183d126a8bf82c6c85539a1b380bd7f74ccf32b30836904c19e3d7fe9e4d4fa1",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_029bb048a011d2c7c9f1ed4e_0",
+      "kind": "li",
+      "source": "The large amount of notes can slow down the application considerably.",
+      "sourceHash": "029bb048a011d2c7c9f1ed4e380ae5665f9963d0a9f9877c98b94ea8ac434f33",
+      "context": "Hiding the subtree",
+      "contextHash": "183d126a8bf82c6c85539a1b380bd7f74ccf32b30836904c19e3d7fe9e4d4fa1",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_0de417d1242761164eb58531_0",
+      "kind": "p",
+      "source": "Since v0.102.0, Trilium allows the tree to hide the child notes of particular notes. This works for both __TRILIUM_PH_0__Collections__TRILIUM_PH_1__ and normal notes.",
+      "sourceHash": "0de417d1242761164eb585316330940c0a60b3ea462ee7c4f69cdd9a78c866c6",
+      "context": "Hiding the subtree",
+      "contextHash": "183d126a8bf82c6c85539a1b380bd7f74ccf32b30836904c19e3d7fe9e4d4fa1",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_27591f4e86746d469eb2d832_0",
+      "kind": "h2",
+      "source": "Interaction__TRILIUM_PH_0__",
+      "sourceHash": "27591f4e86746d469eb2d8323f6dda382149928ec0550ca8a5a6fdfc24cab9a6",
+      "context": "Hiding the subtree > Interaction",
+      "contextHash": "c0916bf32baddd25cf9335a890b33782de04df2a0d0658b35ff92839153af96a",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_fadda7afd11bffce90bb2f28_0",
+      "kind": "p",
+      "source": "When the subtree of a note is hidden, there are a few subtle changes:",
+      "sourceHash": "fadda7afd11bffce90bb2f2868f6896dd4b16b947fd2373fae126851cfcb0675",
+      "context": "Hiding the subtree > Interaction",
+      "contextHash": "c0916bf32baddd25cf9335a890b33782de04df2a0d0658b35ff92839153af96a",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_a0bb6ecb7411c7a155103156_0",
+      "kind": "li",
+      "source": "To indicate that the subtree is hidden, the note will not have an expand button and it will display the number of children to the right.",
+      "sourceHash": "a0bb6ecb7411c7a155103156a89e17ba66a697e882d9199f7875ebd6b197b3fa",
+      "context": "Hiding the subtree > Interaction",
+      "contextHash": "c0916bf32baddd25cf9335a890b33782de04df2a0d0658b35ff92839153af96a",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_380b9c5aedcf0f45bbe3fcef_0",
+      "kind": "li",
+      "source": "It's not possible to add a new note directly from the tree.",
+      "sourceHash": "380b9c5aedcf0f45bbe3fcef41e14cce9d1051833b58c030b15c462e2cb4e586",
+      "context": "Hiding the subtree > Interaction",
+      "contextHash": "c0916bf32baddd25cf9335a890b33782de04df2a0d0658b35ff92839153af96a",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_b7906248e2336ac9e838a302_0",
+      "kind": "li",
+      "source": "For __TRILIUM_PH_0__Collections__TRILIUM_PH_1__, it's best to use the built-in mechanism to create notes (for example by creating a new point on a geo-map, or by adding a new row in a table).",
+      "sourceHash": "b7906248e2336ac9e838a302e118aaff3c449beec2213beb3e1cc40bef5246a4",
+      "context": "Hiding the subtree > Interaction",
+      "contextHash": "c0916bf32baddd25cf9335a890b33782de04df2a0d0658b35ff92839153af96a",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_8d60fdf0ecad748e564f417a_0",
+      "kind": "li",
+      "source": "For normal notes, it's still possible to create children via other means such as using the __TRILIUM_PH_0__Internal (reference) links__TRILIUM_PH_1__ system.",
+      "sourceHash": "8d60fdf0ecad748e564f417aaf93cc9635849295ad3d40ee28fd7480419b9db4",
+      "context": "Hiding the subtree > Interaction",
+      "contextHash": "c0916bf32baddd25cf9335a890b33782de04df2a0d0658b35ff92839153af96a",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_43c6438b7bc618d47fc48a50_0",
+      "kind": "li",
+      "source": "Notes can be dragged from outside the note, case in which they will be cloned into it.",
+      "sourceHash": "43c6438b7bc618d47fc48a50838c2875cf8671b8d9f9d874d5fd0f61aff9f5a6",
+      "context": "Hiding the subtree > Interaction",
+      "contextHash": "c0916bf32baddd25cf9335a890b33782de04df2a0d0658b35ff92839153af96a",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_2f5d853277a413968e836469_0",
+      "kind": "li",
+      "source": "Instead of switching to the child notes that were copied, the parent note is highlighted instead.",
+      "sourceHash": "2f5d853277a413968e836469a6020fc23dae946d09f648c6541992635009646f",
+      "context": "Hiding the subtree > Interaction",
+      "contextHash": "c0916bf32baddd25cf9335a890b33782de04df2a0d0658b35ff92839153af96a",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_da64b36873eca14d6933daaf_0",
+      "kind": "li",
+      "source": "A notification will indicate this behavior.",
+      "sourceHash": "da64b36873eca14d6933daafccc62ff5f65d7923a718557a736a23c39f9ba22e",
+      "context": "Hiding the subtree > Interaction",
+      "contextHash": "c0916bf32baddd25cf9335a890b33782de04df2a0d0658b35ff92839153af96a",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_213b93b9c2d602301c4a2650_0",
+      "kind": "li",
+      "source": "Similarly, features such as cut/copy and then paste into the note will also work.",
+      "sourceHash": "213b93b9c2d602301c4a26505e56e593bab37a1de1730a21371e2b413ea31bd1",
+      "context": "Hiding the subtree > Interaction",
+      "contextHash": "c0916bf32baddd25cf9335a890b33782de04df2a0d0658b35ff92839153af96a",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_45f4bd46487fe47a396093ae_0",
+      "kind": "h2",
+      "source": "Spotlighting__TRILIUM_PH_0__",
+      "sourceHash": "45f4bd46487fe47a396093ae422e0358828065f7f6b4d49ee56bfa733ebb50d4",
+      "context": "Hiding the subtree > Spotlighting",
+      "contextHash": "0ece62e9c918ef68ee02b1ee68089c049f3086e3fee87c010969858ab9d85543",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_da1df6146b1a22a289c87a45_0",
+      "kind": "p",
+      "source": "Even if the subtree of a note is hidden, if a child note manages to become active, it will still appear inside the tree in a special state called __TRILIUM_PH_0__spotlighted__TRILIUM_PH_1__.",
+      "sourceHash": "da1df6146b1a22a289c87a4520059b9ee0b50660be291eef547cf6c38a9bbb2d",
+      "context": "Hiding the subtree > Spotlighting",
+      "contextHash": "0ece62e9c918ef68ee02b1ee68089c049f3086e3fee87c010969858ab9d85543",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_fb1d15a276c1befd5822f5e8_0",
+      "kind": "p",
+      "source": "During this state, the note remains under its normal hierarchy, so that its easy to tell its location. In addition, this means that:",
+      "sourceHash": "fb1d15a276c1befd5822f5e819ebf8e4c20b4178d7860b68f65fec5ca67ef02c",
+      "context": "Hiding the subtree > Spotlighting",
+      "contextHash": "0ece62e9c918ef68ee02b1ee68089c049f3086e3fee87c010969858ab9d85543",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_a14903d10eaf762650812ded_0",
+      "kind": "li",
+      "source": "The note position is clearly visible when using the __TRILIUM_PH_0__Search__TRILIUM_PH_1__.",
+      "sourceHash": "a14903d10eaf762650812ded6c31c7d24b9c173ff4678682084381fd73a7656e",
+      "context": "Hiding the subtree > Spotlighting",
+      "contextHash": "0ece62e9c918ef68ee02b1ee68089c049f3086e3fee87c010969858ab9d85543",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_2cd7b241e02aad7123910250_0",
+      "kind": "li",
+      "source": "The note can still be operated on from the tree, such as adding a __TRILIUM_PH_0__Branch prefix__TRILIUM_PH_1__ or moving it outside the collection.",
+      "sourceHash": "2cd7b241e02aad712391025051427227adc29a40606f5a6f92db1c8458f17023",
+      "context": "Hiding the subtree > Spotlighting",
+      "contextHash": "0ece62e9c918ef68ee02b1ee68089c049f3086e3fee87c010969858ab9d85543",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_443f4f6dd9707b8cf3df15d6_0",
+      "kind": "p",
+      "source": "The note appears in italics to indicate its temporary display. When switching to another note, the spotlighted note will disappear.",
+      "sourceHash": "443f4f6dd9707b8cf3df15d6e3c7d5e4346a2a3a941882badc842d95838469ba",
+      "context": "Hiding the subtree > Spotlighting",
+      "contextHash": "0ece62e9c918ef68ee02b1ee68089c049f3086e3fee87c010969858ab9d85543",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_d0c360999ac2683b44782b89_0",
+      "kind": "p",
+      "source": "Only one note can be highlighted at the time. When working with multiple notes such as dragging them into the collection, no note will be spotlighted. This is intentional to avoid displaying a partial state of the subtree.",
+      "sourceHash": "d0c360999ac2683b44782b8989e098fccd099605084218cb01c73929b0bb10ac",
+      "context": "Hiding the subtree > Spotlighting",
+      "contextHash": "0ece62e9c918ef68ee02b1ee68089c049f3086e3fee87c010969858ab9d85543",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_a9906148534cf11ec0ff09a6_0",
+      "kind": "h2",
+      "source": "Working with collections__TRILIUM_PH_0__",
+      "sourceHash": "a9906148534cf11ec0ff09a63b7fa8f3a38460858c9ca0fda43756085d57bc41",
+      "context": "Hiding the subtree > Working with collections",
+      "contextHash": "a4a4d0c7b97ad5d5db620894549206d524a54423e5f9380b2dfcf50d92594f12",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_a3f1f8d988d210ee93a2cd18_0",
+      "kind": "p",
+      "source": "For large collections, it can be helpful to hide their child notes for performance reasons or de-cluttering the tree.",
+      "sourceHash": "a3f1f8d988d210ee93a2cd18fe9444b161c0c4f3d72819830f5421af75abf300",
+      "context": "Hiding the subtree > Working with collections",
+      "contextHash": "a4a4d0c7b97ad5d5db620894549206d524a54423e5f9380b2dfcf50d92594f12",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_e4226e3c469ecb8036e7f878_0",
+      "kind": "p",
+      "source": "To toggle this behavior:",
+      "sourceHash": "e4226e3c469ecb8036e7f878cbe42a436b1fd82223b5c7dc23efbf9e2585fcde",
+      "context": "Hiding the subtree > Working with collections",
+      "contextHash": "a4a4d0c7b97ad5d5db620894549206d524a54423e5f9380b2dfcf50d92594f12",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_4ac521a6263382c38a37196d_0",
+      "kind": "li",
+      "source": "Open the collection and in __TRILIUM_PH_0__Collection Properties__TRILIUM_PH_1__, look for __TRILIUM_PH_2__Hide child notes in tree__TRILIUM_PH_3__.",
+      "sourceHash": "4ac521a6263382c38a37196d3c68f9134eb5cbab63bb912c47378270aed24d31",
+      "context": "Hiding the subtree > Working with collections",
+      "contextHash": "a4a4d0c7b97ad5d5db620894549206d524a54423e5f9380b2dfcf50d92594f12",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_fca60ffc86d69cc6b8177e53_0",
+      "kind": "li",
+      "source": "Right click the collection note in the __TRILIUM_PH_0__Note Tree__TRILIUM_PH_1__ and select __TRILIUM_PH_2__Advanced__TRILIUM_PH_3__ → __TRILIUM_PH_4__Show subtree__TRILIUM_PH_5__.",
+      "sourceHash": "fca60ffc86d69cc6b8177e535dbb836bea8caf5923eac1a744f7439a140bbd5a",
+      "context": "Hiding the subtree > Working with collections",
+      "contextHash": "a4a4d0c7b97ad5d5db620894549206d524a54423e5f9380b2dfcf50d92594f12",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_4d0834b08eeb69cf3e6b6341_0",
+      "kind": "h2",
+      "source": "Working with normal notes__TRILIUM_PH_0__",
+      "sourceHash": "4d0834b08eeb69cf3e6b6341a14f1249efa21c313f509f378f1ad9ac22c6303f",
+      "context": "Hiding the subtree > Working with normal notes",
+      "contextHash": "85a3dab6776f61d45c172cc9448d5f209de64cd33c8e5011878d972a30025c2e",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_b95fc588321661ac054580b4_0",
+      "kind": "p",
+      "source": "It's possible to hide the subtree for normal notes as well, not just collections. To do so, right click the note in the __TRILIUM_PH_0__Note Tree__TRILIUM_PH_1__ and select __TRILIUM_PH_2__Advanced__TRILIUM_PH_3__ → __TRILIUM_PH_4__Hide subtree.__TRILIUM_PH_5__",
+      "sourceHash": "b95fc588321661ac054580b4375b60bae73a004c05ab9b6b00890c6562083680",
+      "context": "Hiding the subtree > Working with normal notes",
+      "contextHash": "85a3dab6776f61d45c172cc9448d5f209de64cd33c8e5011878d972a30025c2e",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_b190d47815633246b0ab18a6_0",
+      "kind": "image-alt",
+      "source": "記事画像",
+      "sourceHash": "b190d47815633246b0ab18a61d9b8e8ea36504fe3f8bc230a7753096915c9ff2",
+      "context": "Hiding the subtree > Working with normal notes",
+      "contextHash": "85a3dab6776f61d45c172cc9448d5f209de64cd33c8e5011878d972a30025c2e",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_b190d47815633246b0ab18a6_1",
+      "kind": "image-alt",
+      "source": "記事画像",
+      "sourceHash": "b190d47815633246b0ab18a61d9b8e8ea36504fe3f8bc230a7753096915c9ff2",
+      "context": "Hiding the subtree > Working with normal notes",
+      "contextHash": "85a3dab6776f61d45c172cc9448d5f209de64cd33c8e5011878d972a30025c2e",
+      "status": "pending",
+      "active": true
+    }
+  ],
+  "requests": []
+}

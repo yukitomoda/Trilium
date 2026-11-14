@@ -1,0 +1,629 @@
+{
+  "schemaVersion": 1,
+  "pageId": "TiQbQDgP8L5t",
+  "sourceFile": "docs/User Guide/User Guide/Advanced Usage/Text Extraction (OCR).md",
+  "sourceRevision": "03d17b60f59b5efc29b880b11481471d0fe0ff57",
+  "units": [
+    {
+      "id": "u_7db1fd9826661d34f544c88d_0",
+      "kind": "title",
+      "source": "Text Extraction (OCR)",
+      "sourceHash": "7db1fd9826661d34f544c88d15e63eb79cdb1192d37bffb78ede467755ade429",
+      "context": "Text Extraction (OCR)",
+      "contextHash": "2536c1ee3e037b7a11b72b6ce8828f7aaa10178501dc14a80be4cbaaea202121",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_2a3f6adec4e219846df4186e_0",
+      "kind": "p",
+      "source": "Optical Character Recognition is the process in which the text from images or PDFs is extracted.",
+      "sourceHash": "2a3f6adec4e219846df4186ee77c9baf147df2fcf77a598c2bdac046239ee457",
+      "context": "Text Extraction (OCR)",
+      "contextHash": "2536c1ee3e037b7a11b72b6ce8828f7aaa10178501dc14a80be4cbaaea202121",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_42b15b090ca780371337b35b_0",
+      "kind": "h2",
+      "source": "Built-in support__TRILIUM_PH_0__",
+      "sourceHash": "42b15b090ca780371337b35b2f39d85db07ef8fcbcb363e4fbc0d3c0733ad279",
+      "context": "Text Extraction (OCR) > Built-in support",
+      "contextHash": "5b81c705ae5e45abc76df7dbc42616e34a60402906655991c4995b749c776b25",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_c4bee48ec3e0ba2bff1c79fc_0",
+      "kind": "p",
+      "source": "Since v0.103.0, Trilium has built-in support for OCR. The extracted text can be:",
+      "sourceHash": "c4bee48ec3e0ba2bff1c79fc994a1a6ada41531630ec41e626516c1755aef2b2",
+      "context": "Text Extraction (OCR) > Built-in support",
+      "contextHash": "5b81c705ae5e45abc76df7dbc42616e34a60402906655991c4995b749c776b25",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_51a77c225bd679fb35d96eb8_0",
+      "kind": "li",
+      "source": "Integrated with __TRILIUM_PH_0__Search__TRILIUM_PH_1__, to quickly find the image or file based on snippets of text.",
+      "sourceHash": "51a77c225bd679fb35d96eb8c5ab05e220eb3dd20e9ed542a0eb34a053cb1de2",
+      "context": "Text Extraction (OCR) > Built-in support",
+      "contextHash": "5b81c705ae5e45abc76df7dbc42616e34a60402906655991c4995b749c776b25",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_7beb7faafd506308815ea5e5_0",
+      "kind": "li",
+      "source": "Integrated with the __TRILIUM_PH_0__AI__TRILIUM_PH_1__ feature, which allows the agent to access the content of a non-text note.",
+      "sourceHash": "7beb7faafd506308815ea5e5389f3079ac2daf9ae1789483078dd31ede76c0db",
+      "context": "Text Extraction (OCR) > Built-in support",
+      "contextHash": "5b81c705ae5e45abc76df7dbc42616e34a60402906655991c4995b749c776b25",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_9150e4f076a4928b90b4416e_0",
+      "kind": "li",
+      "source": "Manually accessed for other purposes (e.g. copying into a note or sending it somewhere else).",
+      "sourceHash": "9150e4f076a4928b90b4416e6b01181b0e778b974c3ce90ad1ba18972b58bdc8",
+      "context": "Text Extraction (OCR) > Built-in support",
+      "contextHash": "5b81c705ae5e45abc76df7dbc42616e34a60402906655991c4995b749c776b25",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_9ee7bb727750e0d4cf9b9378_0",
+      "kind": "h2",
+      "source": "Supported formats__TRILIUM_PH_0__",
+      "sourceHash": "9ee7bb727750e0d4cf9b9378d59ea667bc705f767f3616102853ff696b602e7a",
+      "context": "Text Extraction (OCR) > Supported formats",
+      "contextHash": "a41400fbe50cb96fdf4cd4d17943592ee2a451212184d9fb7def0abc8c3edc8a",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_aa31f41ea7ef77e3a539f52a_0",
+      "kind": "p",
+      "source": "OCR in Trilium supports the following formats:",
+      "sourceHash": "aa31f41ea7ef77e3a539f52ae1d1207ed5bbb8ed4f9dc8f7c53304bc9ff831d6",
+      "context": "Text Extraction (OCR) > Supported formats",
+      "contextHash": "a41400fbe50cb96fdf4cd4d17943592ee2a451212184d9fb7def0abc8c3edc8a",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_184b9689d40a938077c0bac6_0",
+      "kind": "h3",
+      "source": "Images__TRILIUM_PH_0__",
+      "sourceHash": "184b9689d40a938077c0bac6e09028e55f03afa1267917df3d623099fe299c52",
+      "context": "Text Extraction (OCR) > Supported formats > Images",
+      "contextHash": "e5f97670838043aa671597af3ed3f13fd72659ad1c07c73682489c939df34f84",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_0fa734e88394e18ea048c8c5_0",
+      "kind": "li",
+      "source": "Both __TRILIUM_PH_0__individual image notes__TRILIUM_PH_1__ and __TRILIUM_PH_2__attachments in text files__TRILIUM_PH_3__ are supported.",
+      "sourceHash": "0fa734e88394e18ea048c8c5a66d73eb68e080e0edf75564aa4bbee5b20c1a14",
+      "context": "Text Extraction (OCR) > Supported formats > Images",
+      "contextHash": "e5f97670838043aa671597af3ed3f13fd72659ad1c07c73682489c939df34f84",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_7fb1b50d6ea24e72f82309b8_0",
+      "kind": "li",
+      "source": "Supported formats:",
+      "sourceHash": "7fb1b50d6ea24e72f82309b8c63479850f998e93f6a84c325c333f0dd3185681",
+      "context": "Text Extraction (OCR) > Supported formats > Images",
+      "contextHash": "e5f97670838043aa671597af3ed3f13fd72659ad1c07c73682489c939df34f84",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_f2def29630be701a0caa0701_0",
+      "kind": "li",
+      "source": "JPEG",
+      "sourceHash": "f2def29630be701a0caa0701f8ecff2ef26f34b00ea77210ffe74cd498e559a8",
+      "context": "Text Extraction (OCR) > Supported formats > Images",
+      "contextHash": "e5f97670838043aa671597af3ed3f13fd72659ad1c07c73682489c939df34f84",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_d389b67235845cf23ee6b6a0_0",
+      "kind": "li",
+      "source": "PNG",
+      "sourceHash": "d389b67235845cf23ee6b6a0ca41c96b800488203085ccc6d218b24cf2846c65",
+      "context": "Text Extraction (OCR) > Supported formats > Images",
+      "contextHash": "e5f97670838043aa671597af3ed3f13fd72659ad1c07c73682489c939df34f84",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_b9f9af85691fe320739e7c71_0",
+      "kind": "li",
+      "source": "GIF (only non-animated)",
+      "sourceHash": "b9f9af85691fe320739e7c7106d4eb230456fe63995511bf34a5c7a0fe0cfddb",
+      "context": "Text Extraction (OCR) > Supported formats > Images",
+      "contextHash": "e5f97670838043aa671597af3ed3f13fd72659ad1c07c73682489c939df34f84",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_41274110e4034c67f5678a51_0",
+      "kind": "li",
+      "source": "BMP",
+      "sourceHash": "41274110e4034c67f5678a511ab37264d062b19c66049af3f5a8df2f8cd31053",
+      "context": "Text Extraction (OCR) > Supported formats > Images",
+      "contextHash": "e5f97670838043aa671597af3ed3f13fd72659ad1c07c73682489c939df34f84",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_4f74da46dad9db81b6316f2f_0",
+      "kind": "li",
+      "source": "WebP",
+      "sourceHash": "4f74da46dad9db81b6316f2fa1790accce51010f3113c88b71a4ba8c9081665d",
+      "context": "Text Extraction (OCR) > Supported formats > Images",
+      "contextHash": "e5f97670838043aa671597af3ed3f13fd72659ad1c07c73682489c939df34f84",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_c666301ccf6ed5d1b00ccb6d_0",
+      "kind": "li",
+      "source": "Note that this feature works best for computer-rendered text rather than handwriting.",
+      "sourceHash": "c666301ccf6ed5d1b00ccb6d28c1f1132ddadec5f216e7d1478bd41b06152140",
+      "context": "Text Extraction (OCR) > Supported formats > Images",
+      "contextHash": "e5f97670838043aa671597af3ed3f13fd72659ad1c07c73682489c939df34f84",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_9e1f3dfab50101cd940425f5_0",
+      "kind": "li",
+      "source": "The underlying technology is Tesseract.js.",
+      "sourceHash": "9e1f3dfab50101cd940425f5b7ce6bb77092aae425b976267ee5a4e654338167",
+      "context": "Text Extraction (OCR) > Supported formats > Images",
+      "contextHash": "e5f97670838043aa671597af3ed3f13fd72659ad1c07c73682489c939df34f84",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_d02ece12d1f5d3b4265319c7_0",
+      "kind": "h3",
+      "source": "PDFs__TRILIUM_PH_0__",
+      "sourceHash": "d02ece12d1f5d3b4265319c7bc05828a823f44aa8a3326525cf2d8c264a87e7a",
+      "context": "Text Extraction (OCR) > Supported formats > PDFs",
+      "contextHash": "8f4cdcb0516d1d182824368055960e943ed893df5a1c76bf64605fc92d3ae613",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_01ab6f0c850e0a0a802b2497_0",
+      "kind": "p",
+      "source": "The PDF extraction supports:",
+      "sourceHash": "01ab6f0c850e0a0a802b249728daebbf5a21bb8308bff01ff207ae61578a8c36",
+      "context": "Text Extraction (OCR) > Supported formats > PDFs",
+      "contextHash": "8f4cdcb0516d1d182824368055960e943ed893df5a1c76bf64605fc92d3ae613",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_781c46e520c8057877bef64e_0",
+      "kind": "li",
+      "source": "PDFs with text information (e.g. a PDF created by a browser or a word processing application), in which the text is extracted.",
+      "sourceHash": "781c46e520c8057877bef64e8bc34cd27119bcd64357ab8f6bcc40a36ac32882",
+      "context": "Text Extraction (OCR) > Supported formats > PDFs",
+      "contextHash": "8f4cdcb0516d1d182824368055960e943ed893df5a1c76bf64605fc92d3ae613",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_7ab6e84d780f3efe5853373b_0",
+      "kind": "li",
+      "source": "Scanned PDFs, and other PDFs whose text cannot be selected (such as documents whose text was converted to outlines), in which the text is extracted through an OCR process.",
+      "sourceHash": "7ab6e84d780f3efe5853373b04448f032ec5b358ac3e1c85f5b905361c24f24a",
+      "context": "Text Extraction (OCR) > Supported formats > PDFs",
+      "contextHash": "8f4cdcb0516d1d182824368055960e943ed893df5a1c76bf64605fc92d3ae613",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_86bd62926c0d7bd2bf3945ba_0",
+      "kind": "li",
+      "source": "Mixed PDFs, containing both text and images with text content.",
+      "sourceHash": "86bd62926c0d7bd2bf3945baa349e278ab34a96268b31120069c228def70dbe4",
+      "context": "Text Extraction (OCR) > Supported formats > PDFs",
+      "contextHash": "8f4cdcb0516d1d182824368055960e943ed893df5a1c76bf64605fc92d3ae613",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_6b31151ab7027f423c72a901_0",
+      "kind": "p",
+      "source": "Note that OCR extraction is limited to 50 pages per PDF, pages containing text information (not as an image) are not subject to this limitation.",
+      "sourceHash": "6b31151ab7027f423c72a90151e59d0e3cfff892788bcbbbe04809ba64f05df6",
+      "context": "Text Extraction (OCR) > Supported formats > PDFs",
+      "contextHash": "8f4cdcb0516d1d182824368055960e943ed893df5a1c76bf64605fc92d3ae613",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_ef5df80f78fab911a90334f5_0",
+      "kind": "p",
+      "source": "Text extraction for scanned PDFs using OCR was introduced in v0.106.0. If a scanned PDF was already processed by an earlier version, reprocess it individually via __TRILIUM_PH_0__Process OCR__TRILIUM_PH_1__; batch processing only handles files that haven't been OCR'd yet.",
+      "sourceHash": "ef5df80f78fab911a90334f5d73b193d8c11fcfb6647d7592c4ba22a5c54ffcb",
+      "context": "Text Extraction (OCR) > Supported formats > PDFs",
+      "contextHash": "8f4cdcb0516d1d182824368055960e943ed893df5a1c76bf64605fc92d3ae613",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_c2a75440bf5823d0dcfd725a_0",
+      "kind": "h3",
+      "source": "Office documents__TRILIUM_PH_0__",
+      "sourceHash": "c2a75440bf5823d0dcfd725aaa252a69d45eecfc07cc6e118c835a8c475516dc",
+      "context": "Text Extraction (OCR) > Supported formats > Office documents",
+      "contextHash": "502ca2c4719a33900186c122e21ebc07944c110ca228ebc8db498c0891a2a6f7",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_9ae171845821d7cb76951628_0",
+      "kind": "p",
+      "source": "The text will be extracted from the following file formats:",
+      "sourceHash": "9ae171845821d7cb76951628ce3f99bd5cc2d29294ebef6e95f3a0ce7e4ae0a7",
+      "context": "Text Extraction (OCR) > Supported formats > Office documents",
+      "contextHash": "502ca2c4719a33900186c122e21ebc07944c110ca228ebc8db498c0891a2a6f7",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_8feaf128338e37359ad53836_0",
+      "kind": "li",
+      "source": "Microsoft Word documents",
+      "sourceHash": "8feaf128338e37359ad538361f070b3c7113bacbcc6c276e25374cc705e4e41e",
+      "context": "Text Extraction (OCR) > Supported formats > Office documents",
+      "contextHash": "502ca2c4719a33900186c122e21ebc07944c110ca228ebc8db498c0891a2a6f7",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_bf7d7a5bb3fb8f58f8513d49_0",
+      "kind": "li",
+      "source": "Microsoft Excel documents",
+      "sourceHash": "bf7d7a5bb3fb8f58f8513d4924315a68b71d6dc86be059c51a57d9d86ac5e34f",
+      "context": "Text Extraction (OCR) > Supported formats > Office documents",
+      "contextHash": "502ca2c4719a33900186c122e21ebc07944c110ca228ebc8db498c0891a2a6f7",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_be2ecb701b5f462baa8bdfd0_0",
+      "kind": "li",
+      "source": "Only the raw text information, the cell structure is not maintained.",
+      "sourceHash": "be2ecb701b5f462baa8bdfd0a47352162798259d33ab4bfa7628e9a64ef367c9",
+      "context": "Text Extraction (OCR) > Supported formats > Office documents",
+      "contextHash": "502ca2c4719a33900186c122e21ebc07944c110ca228ebc8db498c0891a2a6f7",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_83ecdccaf7738c0b23c63daa_0",
+      "kind": "li",
+      "source": "Values are extracted raw, so searching for dates will not work. The OpenDocument alternative will actually extract the properly formatted value.",
+      "sourceHash": "83ecdccaf7738c0b23c63daa965bbefccc57af0730e54f7d1363f5e979526047",
+      "context": "Text Extraction (OCR) > Supported formats > Office documents",
+      "contextHash": "502ca2c4719a33900186c122e21ebc07944c110ca228ebc8db498c0891a2a6f7",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_2cab2f214d95bf966cd39a9e_0",
+      "kind": "li",
+      "source": "Microsoft PowerPoint documents",
+      "sourceHash": "2cab2f214d95bf966cd39a9eb814aa8d207a5b48f67cbbbb1c7c1fd6325586de",
+      "context": "Text Extraction (OCR) > Supported formats > Office documents",
+      "contextHash": "502ca2c4719a33900186c122e21ebc07944c110ca228ebc8db498c0891a2a6f7",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_6724dfd745456526b30eae5d_0",
+      "kind": "li",
+      "source": "The OpenDocument alternatives to the previous formats (Text, Spreadsheet, Presentation), created by editors such as LibreOffice and OpenOffice.",
+      "sourceHash": "6724dfd745456526b30eae5d8a4f3345a46fa380050118570cab198dbbc40daf",
+      "context": "Text Extraction (OCR) > Supported formats > Office documents",
+      "contextHash": "502ca2c4719a33900186c122e21ebc07944c110ca228ebc8db498c0891a2a6f7",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_901c4958d34be4adf142e72f_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__Rich Text Format (RTF)__TRILIUM_PH_1__, since v0.104.0.",
+      "sourceHash": "901c4958d34be4adf142e72f98b24617e48eb051ffb9e61bacf67fe58ceb5c25",
+      "context": "Text Extraction (OCR) > Supported formats > Office documents",
+      "contextHash": "502ca2c4719a33900186c122e21ebc07944c110ca228ebc8db498c0891a2a6f7",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_5f5415b6dba2b9e97d7fc44c_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__EPUB__TRILIUM_PH_1__, since v0.104.1.",
+      "sourceHash": "5f5415b6dba2b9e97d7fc44c335c8d465ca7e8c71f28ebd206755623307fe209",
+      "context": "Text Extraction (OCR) > Supported formats > Office documents",
+      "contextHash": "502ca2c4719a33900186c122e21ebc07944c110ca228ebc8db498c0891a2a6f7",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_7b429c0d4ddb2cb0db33e278_0",
+      "kind": "h2",
+      "source": "Configuring and triggering OCR__TRILIUM_PH_0__",
+      "sourceHash": "7b429c0d4ddb2cb0db33e278c0f6ee28a59f86240f66d4bacc064ca469a44b05",
+      "context": "Text Extraction (OCR) > Configuring and triggering OCR",
+      "contextHash": "5659cbc8ca6aec6ec2b94f9112287a99568a11a32727ffa389472f5f9846851d",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_adebd305ed88c35338fc9ec7_0",
+      "kind": "p",
+      "source": "The OCR can be configured by going to __TRILIUM_PH_0__Options__TRILIUM_PH_1__ → __TRILIUM_PH_2__Media__TRILIUM_PH_3__ and looking for the __TRILIUM_PH_4__Text Extraction (OCR)__TRILIUM_PH_5__ section.",
+      "sourceHash": "adebd305ed88c35338fc9ec7d4e5b4dd770cdb5b4feac3f0be59098fcc730039",
+      "context": "Text Extraction (OCR) > Configuring and triggering OCR",
+      "contextHash": "5659cbc8ca6aec6ec2b94f9112287a99568a11a32727ffa389472f5f9846851d",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_409027d71049477ee90dd921_0",
+      "kind": "p",
+      "source": "There are three ways to trigger the OCR:",
+      "sourceHash": "409027d71049477ee90dd921026cdb3f9e955ce487a6f79257418aed4ac81932",
+      "context": "Text Extraction (OCR) > Configuring and triggering OCR",
+      "contextHash": "5659cbc8ca6aec6ec2b94f9112287a99568a11a32727ffa389472f5f9846851d",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_09958f42731569c385a81067_0",
+      "kind": "li",
+      "source": "By enabling __TRILIUM_PH_0__Auto-process new files__TRILIUM_PH_1__ which will process only the notes or attachments created after enabling the option, existing files will remain unprocessed.",
+      "sourceHash": "09958f42731569c385a81067edbd118f50432385e9c5a26874932befeeb21d60",
+      "context": "Text Extraction (OCR) > Configuring and triggering OCR",
+      "contextHash": "5659cbc8ca6aec6ec2b94f9112287a99568a11a32727ffa389472f5f9846851d",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_c6d6493517b5035c46f0e063_0",
+      "kind": "li",
+      "source": "By pressing __TRILIUM_PH_0__Start Batch Processing__TRILIUM_PH_1__ which will process all the existing notes.",
+      "sourceHash": "c6d6493517b5035c46f0e06353b90926dfb7a4300c7d8b62052e3ebd10b2be32",
+      "context": "Text Extraction (OCR) > Configuring and triggering OCR",
+      "contextHash": "5659cbc8ca6aec6ec2b94f9112287a99568a11a32727ffa389472f5f9846851d",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_ddbfdc5c8e49746f32ee1a70_0",
+      "kind": "li",
+      "source": "By manually requesting for an image or file to have its text extracted, regardless of whether the automatic processing is enabled or not.",
+      "sourceHash": "ddbfdc5c8e49746f32ee1a707ce8f18de2cbaf27be6c9a42659871c0f057e229",
+      "context": "Text Extraction (OCR) > Configuring and triggering OCR",
+      "contextHash": "5659cbc8ca6aec6ec2b94f9112287a99568a11a32727ffa389472f5f9846851d",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_cebef3556047c0573c9b5578_0",
+      "kind": "h3",
+      "source": "Minimum confidence__TRILIUM_PH_0__",
+      "sourceHash": "cebef3556047c0573c9b5578e58c950bfde2cd7b3bd72836ac8d8db3d5c7eace",
+      "context": "Text Extraction (OCR) > Configuring and triggering OCR > Minimum confidence",
+      "contextHash": "3d7baf2c546610cc346f36b74c5844e00c1796a1b199619789e7bbb148fd2899",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_65d0b980085cdfa7f1d3ab10_0",
+      "kind": "p",
+      "source": "When extracting text from an image, there is a certain level of confidence which indicates whether the extracted text appears relevant.",
+      "sourceHash": "65d0b980085cdfa7f1d3ab108256d7d682d1a5412b5c0d8888618a4931eb5bec",
+      "context": "Text Extraction (OCR) > Configuring and triggering OCR > Minimum confidence",
+      "contextHash": "3d7baf2c546610cc346f36b74c5844e00c1796a1b199619789e7bbb148fd2899",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_5656d8258d9fbaf233b05619_0",
+      "kind": "p",
+      "source": "When the minimum confidence is set to a low percentage, the text extraction can interpret symbols and drawings incorrectly resulting in garbled text.",
+      "sourceHash": "5656d8258d9fbaf233b05619857f3de693255d2d3cf29117360329b94eb303b7",
+      "context": "Text Extraction (OCR) > Configuring and triggering OCR > Minimum confidence",
+      "contextHash": "3d7baf2c546610cc346f36b74c5844e00c1796a1b199619789e7bbb148fd2899",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_56aef5f289abaeb311ddb7e8_0",
+      "kind": "p",
+      "source": "If the extracted text for a note or an attachment quality is lower than the minimum confidence, the OCR is disregarded.",
+      "sourceHash": "56aef5f289abaeb311ddb7e8e5d918a9a409d05fafd3812ee285145bc48cc327",
+      "context": "Text Extraction (OCR) > Configuring and triggering OCR > Minimum confidence",
+      "contextHash": "3d7baf2c546610cc346f36b74c5844e00c1796a1b199619789e7bbb148fd2899",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_39bd66f81a996269d20ff77c_0",
+      "kind": "h2",
+      "source": "Language management__TRILIUM_PH_0__",
+      "sourceHash": "39bd66f81a996269d20ff77c3c176cba63d20e75c2ef64df7e722fd4571f7f5c",
+      "context": "Text Extraction (OCR) > Language management",
+      "contextHash": "76f5f2d444c2b824e3864a8fdaa58d72e8d2fbf3699a69d54e7897e98b8fa4a7",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_33d8d68ea26cccf1cb0e20e4_0",
+      "kind": "p",
+      "source": "OCR needs to be aware of the language of the content in order for it to work correctly. The reason is that each language has its own data which needs to be downloaded, and accents or other symbols will not be supported by the default language.",
+      "sourceHash": "33d8d68ea26cccf1cb0e20e4fc10da9b330f6cda64c3050acbced65efaa5afc1",
+      "context": "Text Extraction (OCR) > Language management",
+      "contextHash": "76f5f2d444c2b824e3864a8fdaa58d72e8d2fbf3699a69d54e7897e98b8fa4a7",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_9595c63db4d907ccbf5bef57_0",
+      "kind": "p",
+      "source": "To configure the languages that are supported by the OCR, simply go to __TRILIUM_PH_0__Options__TRILIUM_PH_1__ → __TRILIUM_PH_2__Language & Region__TRILIUM_PH_3__ and adjust the __TRILIUM_PH_4__Content languages__TRILIUM_PH_5__.",
+      "sourceHash": "9595c63db4d907ccbf5bef5790bb44067c5482df541d09a5cb830a46edc035dd",
+      "context": "Text Extraction (OCR) > Language management",
+      "contextHash": "76f5f2d444c2b824e3864a8fdaa58d72e8d2fbf3699a69d54e7897e98b8fa4a7",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_52b9795d5646ff922e91e8f5_0",
+      "kind": "p",
+      "source": "When there are no content languages defined, the user interface __TRILIUM_PH_0__Language__TRILIUM_PH_1__ is used instead.",
+      "sourceHash": "52b9795d5646ff922e91e8f58943ca4ecce63ae26e74f4ca7b0f871702993e05",
+      "context": "Text Extraction (OCR) > Language management",
+      "contextHash": "76f5f2d444c2b824e3864a8fdaa58d72e8d2fbf3699a69d54e7897e98b8fa4a7",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_5d0e1dae41dd0c974b8c57fe_0",
+      "kind": "p",
+      "source": "After making this change, the automatic processing or manual reprocessing will take into consideration the new languages.",
+      "sourceHash": "5d0e1dae41dd0c974b8c57fec7da4a0ceac9e429d12e5ee2b4d9020b4b93eb0d",
+      "context": "Text Extraction (OCR) > Language management",
+      "contextHash": "76f5f2d444c2b824e3864a8fdaa58d72e8d2fbf3699a69d54e7897e98b8fa4a7",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_e0406edcc52c740902545537_0",
+      "kind": "p",
+      "source": "To enforce the detection in a particular language for a given note, use the __TRILIUM_PH_0__ __TRILIUM_PH_1__attribute__TRILIUM_PH_2__, similar to __TRILIUM_PH_3__text content language__TRILIUM_PH_4__. For __TRILIUM_PH_5__Attachments__TRILIUM_PH_6__, it's not possible to manually adjust the language.",
+      "sourceHash": "e0406edcc52c7409025455376f11c4c5f01b9caee53619d52f039a82c27af3ae",
+      "context": "Text Extraction (OCR) > Language management",
+      "contextHash": "76f5f2d444c2b824e3864a8fdaa58d72e8d2fbf3699a69d54e7897e98b8fa4a7",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_3c0dbe31b817955c48f555bb_0",
+      "kind": "p",
+      "source": "The trained data for each language is not packaged with Trilium, as that would require a significant amount of space that might not be otherwise needed. As such, when the trained data will be downloaded automatically via __TRILIUM_PH_0__Tesseract.js__TRILIUM_PH_1__.",
+      "sourceHash": "3c0dbe31b817955c48f555bb037449759751813547f0292e8c23a7b68eac1d71",
+      "context": "Text Extraction (OCR) > Language management",
+      "contextHash": "76f5f2d444c2b824e3864a8fdaa58d72e8d2fbf3699a69d54e7897e98b8fa4a7",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_c16dfd00d12b2c32c61a05d7_0",
+      "kind": "p",
+      "source": "The downloaded trained data is located in the __TRILIUM_PH_0__Data directory__TRILIUM_PH_1__, in the __TRILIUM_PH_2__ directory.",
+      "sourceHash": "c16dfd00d12b2c32c61a05d75d9b0cb4f6fd718209287db3408c91b8a47ff85a",
+      "context": "Text Extraction (OCR) > Language management",
+      "contextHash": "76f5f2d444c2b824e3864a8fdaa58d72e8d2fbf3699a69d54e7897e98b8fa4a7",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_eba7ab9781e172d45cf8c611_0",
+      "kind": "h2",
+      "source": "Viewing extracted content for a single note__TRILIUM_PH_0__",
+      "sourceHash": "eba7ab9781e172d45cf8c611446946b8853af07864e9a9ed97767d695c05aafa",
+      "context": "Text Extraction (OCR) > Viewing extracted content for a single note",
+      "contextHash": "c9fb8ed67d69f581e46bc5dc7648c587f5c9faf2b28412612faf85eaf573a265",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_3caed1640d7b3abfa1e3ff94_0",
+      "kind": "p",
+      "source": "To access the extracted content of a note:",
+      "sourceHash": "3caed1640d7b3abfa1e3ff945c2a4216addfa17f2c6e30592b55da17a94a1b46",
+      "context": "Text Extraction (OCR) > Viewing extracted content for a single note",
+      "contextHash": "c9fb8ed67d69f581e46bc5dc7648c587f5c9faf2b28412612faf85eaf573a265",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_955455efeced48c0d6d16067_0",
+      "kind": "li",
+      "source": "For __TRILIUM_PH_0__File__TRILIUM_PH_1__ notes, go to the __TRILIUM_PH_2__Note menu__TRILIUM_PH_3__ → __TRILIUM_PH_4__Advanced__TRILIUM_PH_5__ → __TRILIUM_PH_6__View OCR Text__TRILIUM_PH_7__.",
+      "sourceHash": "955455efeced48c0d6d160677b9930a697d9f38df27213e71c1995311a17b1d4",
+      "context": "Text Extraction (OCR) > Viewing extracted content for a single note",
+      "contextHash": "c9fb8ed67d69f581e46bc5dc7648c587f5c9faf2b28412612faf85eaf573a265",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_8ff816512273a3aa596ea35c_0",
+      "kind": "li",
+      "source": "For __TRILIUM_PH_0__Attachments__TRILIUM_PH_1__ (e.g. __TRILIUM_PH_2__Images__TRILIUM_PH_3__ in __TRILIUM_PH_4__Text__TRILIUM_PH_5__ notes), double-click the attachment to view the details, press the […] button at the left and select __TRILIUM_PH_6__View extracted text (OCR)__TRILIUM_PH_7__.",
+      "sourceHash": "8ff816512273a3aa596ea35c9d35127d6655b7c92ecadda110e4dbb915a38b0b",
+      "context": "Text Extraction (OCR) > Viewing extracted content for a single note",
+      "contextHash": "c9fb8ed67d69f581e46bc5dc7648c587f5c9faf2b28412612faf85eaf573a265",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_bf81af99e83e5c0be6ee44eb_0",
+      "kind": "p",
+      "source": "This section allows:",
+      "sourceHash": "bf81af99e83e5c0be6ee44eb24a9ee1820fe1fefdbeca431eacb48e46dc6b196",
+      "context": "Text Extraction (OCR) > Viewing extracted content for a single note",
+      "contextHash": "c9fb8ed67d69f581e46bc5dc7648c587f5c9faf2b28412612faf85eaf573a265",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_1b9b961e38bddbf19fa2aa76_0",
+      "kind": "li",
+      "source": "Viewing the extracted text, which can be copied elsewhere if needed or just to check the quality of the extraction.",
+      "sourceHash": "1b9b961e38bddbf19fa2aa760ca721b94051be5d7d149ffea287f1d75a70acaa",
+      "context": "Text Extraction (OCR) > Viewing extracted content for a single note",
+      "contextHash": "c9fb8ed67d69f581e46bc5dc7648c587f5c9faf2b28412612faf85eaf573a265",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_d36930cb8cab72fce98d90d6_0",
+      "kind": "li",
+      "source": "If the note has not been extracted yet, pressing __TRILIUM_PH_0__Process OCR__TRILIUM_PH_1__ will process it in the background. If the extraction confidence is lower than the minimum confidence, there will be a notification.",
+      "sourceHash": "d36930cb8cab72fce98d90d65ece31ec5f9a3c79ddd9797e779eba1ac88c9b9d",
+      "context": "Text Extraction (OCR) > Viewing extracted content for a single note",
+      "contextHash": "c9fb8ed67d69f581e46bc5dc7648c587f5c9faf2b28412612faf85eaf573a265",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_b8e1917f315bd3f76c33e8bf_0",
+      "kind": "li",
+      "source": "Similarly, if the minimum confidence was changed in settings, it is possible to press the __TRILIUM_PH_0__Process OCR__TRILIUM_PH_1__ button again to extract the text again.",
+      "sourceHash": "b8e1917f315bd3f76c33e8bf70989b2275d74752f92c3c8a85145ea5f09497e2",
+      "context": "Text Extraction (OCR) > Viewing extracted content for a single note",
+      "contextHash": "c9fb8ed67d69f581e46bc5dc7648c587f5c9faf2b28412612faf85eaf573a265",
+      "status": "pending",
+      "active": true
+    }
+  ],
+  "requests": []
+}

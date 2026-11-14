@@ -1,0 +1,499 @@
+{
+  "schemaVersion": 1,
+  "pageId": "0vhv7lsOLy82",
+  "sourceFile": "docs/User Guide/User Guide/Basic Concepts and Features/Notes/Attachments.md",
+  "sourceRevision": "03d17b60f59b5efc29b880b11481471d0fe0ff57",
+  "units": [
+    {
+      "id": "u_03d2b920960f630f09345319_0",
+      "kind": "title",
+      "source": "Attachments",
+      "sourceHash": "03d2b920960f630f093453199f6b508d8710322bd2c53de2011325d2b7169ec9",
+      "context": "Attachments",
+      "contextHash": "634de114775082f002bb5cfdba0a28e768be807c798159c549e7bc930525b476",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_525a781edc5d729f2119e352_0",
+      "kind": "p",
+      "source": "A __TRILIUM_PH_0__note__TRILIUM_PH_1__ in Trilium can __TRILIUM_PH_2__own__TRILIUM_PH_3__ one or more attachments, which can be either images or files. These attachments can be displayed or linked within the note that owns them.",
+      "sourceHash": "525a781edc5d729f2119e35239f97c5880d8267bb3c7918f7d0f59d6df69fe5c",
+      "context": "Attachments",
+      "contextHash": "634de114775082f002bb5cfdba0a28e768be807c798159c549e7bc930525b476",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_bde1fcd75fd76f76d07e991a_0",
+      "kind": "p",
+      "source": "This can be especially useful to include dependencies for your __TRILIUM_PH_0__scripts__TRILIUM_PH_1__. The __TRILIUM_PH_2__Weight Tracker__TRILIUM_PH_3__ shows how to use __TRILIUM_PH_4__chartjs__TRILIUM_PH_5__ which is attached to the script note.",
+      "sourceHash": "bde1fcd75fd76f76d07e991a4392016f5affa17da16dfeca1b5648477cddc6d2",
+      "context": "Attachments",
+      "contextHash": "634de114775082f002bb5cfdba0a28e768be807c798159c549e7bc930525b476",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_815173fea2544ec499f7621d_0",
+      "kind": "p",
+      "source": "Each note exclusively owns its attachments, meaning attachments cannot be shared or linked from one note to another. If an attachment link is copied to a different note, the attachment itself is duplicated, and the copies are managed independently thereafter.",
+      "sourceHash": "815173fea2544ec499f7621df0902cc6c47b1da8fc7fbce730d64b90febc91a6",
+      "context": "Attachments",
+      "contextHash": "634de114775082f002bb5cfdba0a28e768be807c798159c549e7bc930525b476",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_339d5cca315f8920c00513b6_0",
+      "kind": "p",
+      "source": "Attachments, especially image files, are the recommended method for embedding visuals in notes. It is important to link image attachments within the text of the owning note; otherwise, they will be automatically deleted after a configurable timeout period if not referenced.",
+      "sourceHash": "339d5cca315f8920c00513b65f168691fc15613f41bc331058e0a3e2b5049c37",
+      "context": "Attachments",
+      "contextHash": "634de114775082f002bb5cfdba0a28e768be807c798159c549e7bc930525b476",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_72a3d526a73a322a988c66f8_0",
+      "kind": "h2",
+      "source": "Types of attachments__TRILIUM_PH_0__",
+      "sourceHash": "72a3d526a73a322a988c66f8ce65f1aaf33d1baf035628612331cb37e1fcd5da",
+      "context": "Attachments > Types of attachments",
+      "contextHash": "1503c376a55df7c492037723b7b542d2f0799285ec1d5ab13818f9f1f52eccab",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_61cf015734f7c24ad560d195_0",
+      "kind": "p",
+      "source": "There are two different types of attachment:",
+      "sourceHash": "61cf015734f7c24ad560d195924fb18dad3503c2457b6f63a49e476124559123",
+      "context": "Attachments > Types of attachments",
+      "contextHash": "1503c376a55df7c492037723b7b542d2f0799285ec1d5ab13818f9f1f52eccab",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_036c6d061b99822f062cb312_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__User content__TRILIUM_PH_1__, representing files or images that are uploaded and part of the content of the note.",
+      "sourceHash": "036c6d061b99822f062cb31205c5a54c4b7762bdbf456279482f7bba336c12ba",
+      "context": "Attachments > Types of attachments",
+      "contextHash": "1503c376a55df7c492037723b7b542d2f0799285ec1d5ab13818f9f1f52eccab",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_cbfa232161874ac2a6ccedd0_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__System attachments__TRILIUM_PH_1__ which are used internally by Trilium and can be of multiple types, including:",
+      "sourceHash": "cbfa232161874ac2a6ccedd0f2f7c836472891372f4f5a830ba9f0136406689c",
+      "context": "Attachments > Types of attachments",
+      "contextHash": "1503c376a55df7c492037723b7b542d2f0799285ec1d5ab13818f9f1f52eccab",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_27d2d8514575e60c24caea9e_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__Collections__TRILIUM_PH_1__ to store information about views such as the column information for the __TRILIUM_PH_2__Kanban Board__TRILIUM_PH_3__.",
+      "sourceHash": "27d2d8514575e60c24caea9e906714ee31f30a8cf9d07f6960f9759ab4cebe6a",
+      "context": "Attachments > Types of attachments",
+      "contextHash": "1503c376a55df7c492037723b7b542d2f0799285ec1d5ab13818f9f1f52eccab",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_792fae3900c2bc9ae982882f_0",
+      "kind": "li",
+      "source": "Icons and cover images for __TRILIUM_PH_0__Link Previews__TRILIUM_PH_1__.",
+      "sourceHash": "792fae3900c2bc9ae982882f8aaa515791bddc87b13474cc99420b31d4191ad1",
+      "context": "Attachments > Types of attachments",
+      "contextHash": "1503c376a55df7c492037723b7b542d2f0799285ec1d5ab13818f9f1f52eccab",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_f341539bec893fe9ac85753e_0",
+      "kind": "li",
+      "source": "Debug information for some importers such as __TRILIUM_PH_0__Microsoft OneNote__TRILIUM_PH_1__ (only if the debug flag was enabled at import time).",
+      "sourceHash": "f341539bec893fe9ac85753eb4f0c341c8ca9eab08bb4f6a6f88bac06b553af2",
+      "context": "Attachments > Types of attachments",
+      "contextHash": "1503c376a55df7c492037723b7b542d2f0799285ec1d5ab13818f9f1f52eccab",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_f202634d6d05d9cced4907e4_0",
+      "kind": "li",
+      "source": "The transcript of a __TRILIUM_PH_0__Meeting transcription__TRILIUM_PH_1__, which is also shown above the note's content.",
+      "sourceHash": "f202634d6d05d9cced4907e47a9354d6a63009b1a06ebb40aea2e6d7e5ce3fe4",
+      "context": "Attachments > Types of attachments",
+      "contextHash": "1503c376a55df7c492037723b7b542d2f0799285ec1d5ab13818f9f1f52eccab",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_3610eeda7f5b4537590734d9_0",
+      "kind": "li",
+      "source": "The SVG picture of a __TRILIUM_PH_0__Canvas__TRILIUM_PH_1__ note (__TRILIUM_PH_2__), and of each drawing canvas in a text note (see __TRILIUM_PH_3__Drawing canvases__TRILIUM_PH_4__ in __TRILIUM_PH_5__Include Note__TRILIUM_PH_6__), used for previews and shared pages.",
+      "sourceHash": "3610eeda7f5b4537590734d95916ee9f83d266fa06770c88da847a17e7a690bb",
+      "context": "Attachments > Types of attachments",
+      "contextHash": "1503c376a55df7c492037723b7b542d2f0799285ec1d5ab13818f9f1f52eccab",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_5bf4ac31e7041deae434023e_0",
+      "kind": "p",
+      "source": "The system attachments are displayed at the end of the attachments list, in a dedicated section (__TRILIUM_PH_0__Generated by Trilium__TRILIUM_PH_1__).",
+      "sourceHash": "5bf4ac31e7041deae434023e590ed01f02316679808f63bb4538803dd6e3b41f",
+      "context": "Attachments > Types of attachments",
+      "contextHash": "1503c376a55df7c492037723b7b542d2f0799285ec1d5ab13818f9f1f52eccab",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_5583b4badb3e72dea239f6fd_0",
+      "kind": "h2",
+      "source": "Uploading attachments__TRILIUM_PH_0__",
+      "sourceHash": "5583b4badb3e72dea239f6fd746922b5eaa973e4ec4a51201a92dd5af5f49487",
+      "context": "Attachments > Uploading attachments",
+      "contextHash": "3cb2711ce5de5f15e54a49651ed8a7eb4adf31fa9a9493ca079c30fdedde7d6a",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_61ac023429f1b5b587c42869_0",
+      "kind": "p",
+      "source": "The __TRILIUM_PH_0____TRILIUM_PH_1__Attachments__TRILIUM_PH_2__ item of the __TRILIUM_PH_3__Note menu__TRILIUM_PH_4__ opens the list of the note's attachments.",
+      "sourceHash": "61ac023429f1b5b587c428695b345695bc0ef0ade76e314e65262e0e74824852",
+      "context": "Attachments > Uploading attachments",
+      "contextHash": "3cb2711ce5de5f15e54a49651ed8a7eb4adf31fa9a9493ca079c30fdedde7d6a",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_ffd23a3c608f21121acacc91_0",
+      "kind": "li",
+      "source": "To upload files as attachments, press __TRILIUM_PH_0__Upload attachments__TRILIUM_PH_1__ at the top of the list and select one or more files.",
+      "sourceHash": "ffd23a3c608f21121acacc91ab12162601ecea108897f248e7a3ceb76cf9c36a",
+      "context": "Attachments > Uploading attachments",
+      "contextHash": "3cb2711ce5de5f15e54a49651ed8a7eb4adf31fa9a9493ca079c30fdedde7d6a",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_658ed969d4ed5907af4d0c2b_0",
+      "kind": "li",
+      "source": "Alternatively, drag one or more files from the file explorer and drop them anywhere on the list. Pictures are compressed if __TRILIUM_PH_0__Automatic image compression__TRILIUM_PH_1__ is enabled in __TRILIUM_PH_2__Options__TRILIUM_PH_3__ → __TRILIUM_PH_4__Media__TRILIUM_PH_5__.",
+      "sourceHash": "658ed969d4ed5907af4d0c2b06de8cddcea9c2024805ac85c6831d80c9b8fa18",
+      "context": "Attachments > Uploading attachments",
+      "contextHash": "3cb2711ce5de5f15e54a49651ed8a7eb4adf31fa9a9493ca079c30fdedde7d6a",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_710735e4ded4488f17334229_0",
+      "kind": "h2",
+      "source": "Attaching files from a text note__TRILIUM_PH_0__",
+      "sourceHash": "710735e4ded4488f17334229a4c9f2835ebcce6b64d74a6ef04284291731c32f",
+      "context": "Attachments > Attaching files from a text note",
+      "contextHash": "78053f512f78ef57b7568ec8eab435b5b086b9803e77af1dba5086dfd76ee7d9",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_5cbaf68b7caf117925a6b8c0_0",
+      "kind": "p",
+      "source": "To attach files to a __TRILIUM_PH_0__Text__TRILIUM_PH_1__ note and embed them in its content, press the __TRILIUM_PH_2____TRILIUM_PH_3__Attach file__TRILIUM_PH_4__ button in the __TRILIUM_PH_5__Formatting toolbar__TRILIUM_PH_6__, choose __TRILIUM_PH_7__Attach and embed file__TRILIUM_PH_8__ and select one or more files (see __TRILIUM_PH_9__Embedding an attachment__TRILIUM_PH_10__ below). The same menu offers __TRILIUM_PH_11__Image__TRILIUM_PH_12__, which inserts pictures (see __TRILIUM_PH_13__Images__TRILIUM_PH_14__), and __TRILIUM_PH_15__Attach file as a link__TRILIUM_PH_16__, which links the files instead. Both file actions are also available as __TRILIUM_PH_17__Attach file as a link__TRILIUM_PH_18__ and __TRILIUM_PH_19__Attach and embed file__TRILIUM_PH_20__ in the __TRILIUM_PH_21__Slash Commands__TRILIUM_PH_22__. On a phone, the menu also offers __TRILIUM_PH_23__Camera__TRILIUM_PH_24__ (see __TRILIUM_PH_25__Mobile Frontend__TRILIUM_PH_26__).",
+      "sourceHash": "5cbaf68b7caf117925a6b8c08d67fa7b578cca58e02cc30c8fead6d62bc0e681",
+      "context": "Attachments > Attaching files from a text note",
+      "contextHash": "78053f512f78ef57b7568ec8eab435b5b086b9803e77af1dba5086dfd76ee7d9",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_4c4d6b3e0badd45a36ae0383_0",
+      "kind": "p",
+      "source": "When files are attached as links:",
+      "sourceHash": "4c4d6b3e0badd45a36ae0383d23fa4f9a3e5bf4b577a27ce078e61f25da95bb6",
+      "context": "Attachments > Attaching files from a text note",
+      "contextHash": "78053f512f78ef57b7568ec8eab435b5b086b9803e77af1dba5086dfd76ee7d9",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_1ba09342a23e957e9e5ddb14_0",
+      "kind": "li",
+      "source": "Each file becomes an attachment of the note, and a link to it is inserted at the cursor. Several files produce several links, separated by a space.",
+      "sourceHash": "1ba09342a23e957e9e5ddb14beadb2fdc7eaf73fc491a377b542ab488a3810dc",
+      "context": "Attachments > Attaching files from a text note",
+      "contextHash": "78053f512f78ef57b7568ec8eab435b5b086b9803e77af1dba5086dfd76ee7d9",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_b5ee91b3858ca04e4f919fa2_0",
+      "kind": "li",
+      "source": "While a file uploads, its link shows the file name and a toast shows the progress.",
+      "sourceHash": "b5ee91b3858ca04e4f919fa2f4452dacbeaf99917db96d2d5f47ce92e2fc4c25",
+      "context": "Attachments > Attaching files from a text note",
+      "contextHash": "78053f512f78ef57b7568ec8eab435b5b086b9803e77af1dba5086dfd76ee7d9",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_d16aa124d1be050fa6acc082_0",
+      "kind": "li",
+      "source": "Pictures appear as links rather than images, and are attached exactly as they are, without being compressed. To display a picture in the text, use __TRILIUM_PH_0__Image__TRILIUM_PH_1__ in the same menu instead (see __TRILIUM_PH_2__Images__TRILIUM_PH_3__).",
+      "sourceHash": "d16aa124d1be050fa6acc082e5d5ebe5375e83c667dd3e55c28352e8a7c06b97",
+      "context": "Attachments > Attaching files from a text note",
+      "contextHash": "78053f512f78ef57b7568ec8eab435b5b086b9803e77af1dba5086dfd76ee7d9",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_a6c91d648fb7d8dddb57bd99_0",
+      "kind": "p",
+      "source": "Dragging a file that is not a picture from the file explorer onto the text also attaches it and inserts a link to it.",
+      "sourceHash": "a6c91d648fb7d8dddb57bd998f4655d6725110a3cff6b3e57d6021fb4698a759",
+      "context": "Attachments > Attaching files from a text note",
+      "contextHash": "78053f512f78ef57b7568ec8eab435b5b086b9803e77af1dba5086dfd76ee7d9",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_84b7dec07ab3568327bd7254_0",
+      "kind": "h2",
+      "source": "Acting on an attachment link__TRILIUM_PH_0__",
+      "sourceHash": "84b7dec07ab3568327bd7254609062303710b351c4a7dc4d8291bd4422043c04",
+      "context": "Attachments > Acting on an attachment link",
+      "contextHash": "14fb49f94b861c2ea4ce0dbb72c94f4f41febbeb7307c0cb5acb1b313a9ac7cf",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_9a85cc760a4be82a2f0ba31d_0",
+      "kind": "p",
+      "source": "Right-clicking a link to an attachment shows the ways to open it, followed by actions on the attachment: opening it externally, downloading it, uploading a new revision, renaming or deleting it, and converting it into a note. In a text note being edited, the same entries are in the __TRILIUM_PH_0__ __TRILIUM_PH_1__More actions__TRILIUM_PH_2__ menu of the popup of the link, which right-clicking the link opens. The popup also has a __TRILIUM_PH_3__ __TRILIUM_PH_4__Download__TRILIUM_PH_5__ button.",
+      "sourceHash": "9a85cc760a4be82a2f0ba31db26b479ae68c451e994d6b73183e6b12fa0825ec",
+      "context": "Attachments > Acting on an attachment link",
+      "contextHash": "14fb49f94b861c2ea4ce0dbb72c94f4f41febbeb7307c0cb5acb1b313a9ac7cf",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_26f04615e5556a25f71c267c_0",
+      "kind": "p",
+      "source": "Links follow changes to their attachment: renaming it updates the title they show, and deleting it removes them from the text notes open for editing at that moment. Converting it into a note turns its links into links to the new note.",
+      "sourceHash": "26f04615e5556a25f71c267ceb9d48ed9c4c90d256c7c2fd0be637f7815ef3da",
+      "context": "Attachments > Acting on an attachment link",
+      "contextHash": "14fb49f94b861c2ea4ce0dbb72c94f4f41febbeb7307c0cb5acb1b313a9ac7cf",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_8a10d535e999269a6f1e9bdc_0",
+      "kind": "h2",
+      "source": "Embedding an attachment__TRILIUM_PH_0__",
+      "sourceHash": "8a10d535e999269a6f1e9bdcad81d5a6a046de30f38ffad160d308b8ddc141e4",
+      "context": "Attachments > Embedding an attachment",
+      "contextHash": "85bcaa063bad2bd1970403b69607df8c8410f04b6488ec2cf5fb8e58bb21e77b",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_d5d74f4350e979ff69ca3a89_0",
+      "kind": "p",
+      "source": "An attachment can be shown in the text instead of linked, the way __TRILIUM_PH_0__Include Note__TRILIUM_PH_1__ shows a note: a picture is displayed, a PDF, a video or a document is previewed, a code or text file is shown with syntax highlighting, and a Markdown file such as a __TRILIUM_PH_2__ file is shown rendered. An embedded code file can also be edited in place (see __TRILIUM_PH_3__Editing an include in place__TRILIUM_PH_4__ in __TRILIUM_PH_5__Include Note__TRILIUM_PH_6__), and an embedded Markdown file shows its source, its rendering or both, as an included Markdown note does (see __TRILIUM_PH_7__Included Markdown__TRILIUM_PH_8__ there).",
+      "sourceHash": "d5d74f4350e979ff69ca3a896d851159ecabbfea68d9f07da03bd6bba76f8513",
+      "context": "Attachments > Embedding an attachment",
+      "contextHash": "85bcaa063bad2bd1970403b69607df8c8410f04b6488ec2cf5fb8e58bb21e77b",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_59aed4fb03be127281d3a0ef_0",
+      "kind": "li",
+      "source": "To attach files and embed them straight away, press the __TRILIUM_PH_0____TRILIUM_PH_1__Attach file__TRILIUM_PH_2__ button and choose __TRILIUM_PH_3__Attach and embed file__TRILIUM_PH_4__. Each file gets an embed of its own, which shows the file name while the file uploads.",
+      "sourceHash": "59aed4fb03be127281d3a0efe642d3a69704e4399b3934c9ecc6ab6b98efed8d",
+      "context": "Attachments > Embedding an attachment",
+      "contextHash": "85bcaa063bad2bd1970403b69607df8c8410f04b6488ec2cf5fb8e58bb21e77b",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_a54606a621b5c9c3a51ce5b3_0",
+      "kind": "li",
+      "source": "To embed an attachment that is already linked, right-click a link to it in a text note being edited and select __TRILIUM_PH_0__Convert link to an embed__TRILIUM_PH_1__, near the end of the menu.",
+      "sourceHash": "a54606a621b5c9c3a51ce5b36802284c3f5a6b280e22ceefd33c7ab2f5c08058",
+      "context": "Attachments > Embedding an attachment",
+      "contextHash": "85bcaa063bad2bd1970403b69607df8c8410f04b6488ec2cf5fb8e58bb21e77b",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_81550fc6b3b23d9addc095ea_0",
+      "kind": "li",
+      "source": "A drawing canvas, inserted with __TRILIUM_PH_0____TRILIUM_PH_1__Drawing canvas__TRILIUM_PH_2__ in the __TRILIUM_PH_3____TRILIUM_PH_4__Insert__TRILIUM_PH_5__ menu, is an embed of a __TRILIUM_PH_6__ attachment that can be drawn on in place. An attached Excalidraw file (__TRILIUM_PH_7__) is embedded as a drawing canvas too (see __TRILIUM_PH_8__Drawing canvases__TRILIUM_PH_9__ in __TRILIUM_PH_10__Include Note__TRILIUM_PH_11__).",
+      "sourceHash": "81550fc6b3b23d9addc095ea3dcf23b289b6a2e49c8c4b3bf5689882624744a7",
+      "context": "Attachments > Embedding an attachment",
+      "contextHash": "85bcaa063bad2bd1970403b69607df8c8410f04b6488ec2cf5fb8e58bb21e77b",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_0738b11127ef1db4de11e15a_0",
+      "kind": "li",
+      "source": "An embed gets the box size that suits the attachment, as a new included note does (see __TRILIUM_PH_0__Box sizes__TRILIUM_PH_1__ there). To change its size, select the embed and use the box size menu in its toolbar, or the __TRILIUM_PH_2__Size__TRILIUM_PH_3__ submenu of its __TRILIUM_PH_4____TRILIUM_PH_5__More actions__TRILIUM_PH_6__ menu. A __TRILIUM_PH_7__Resizable__TRILIUM_PH_8__ embed can also be resized by dragging its handles, and an __TRILIUM_PH_9__Expandable__TRILIUM_PH_10__ one in height (see __TRILIUM_PH_11__Resizing__TRILIUM_PH_12__ there). A __TRILIUM_PH_13__Resizable__TRILIUM_PH_14__ embed can be placed at the left or the right of the note, with or without the text running beside it, from the __TRILIUM_PH_15__Position__TRILIUM_PH_16__ submenu of its menu (see __TRILIUM_PH_17__Positioning__TRILIUM_PH_18__ there).",
+      "sourceHash": "0738b11127ef1db4de11e15a29e36eb7e4fba87aee8cd6890936f163b685617e",
+      "context": "Attachments > Embedding an attachment",
+      "contextHash": "85bcaa063bad2bd1970403b69607df8c8410f04b6488ec2cf5fb8e58bb21e77b",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_d3400afb0bac8e99e7f8fbec_0",
+      "kind": "li",
+      "source": "An embed can have a caption, as an included note can (see __TRILIUM_PH_0__Caption__TRILIUM_PH_1__ there).",
+      "sourceHash": "d3400afb0bac8e99e7f8fbec7ff335001660263bcbd5da54973b133f31bb38a8",
+      "context": "Attachments > Embedding an attachment",
+      "contextHash": "85bcaa063bad2bd1970403b69607df8c8410f04b6488ec2cf5fb8e58bb21e77b",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_0f5db71e07b4bda0300c4bfa_0",
+      "kind": "li",
+      "source": "To show only the attachment, turn off __TRILIUM_PH_0__Show title__TRILIUM_PH_1__ in the embed's __TRILIUM_PH_2____TRILIUM_PH_3__More actions__TRILIUM_PH_4__ menu, as for an included note (see __TRILIUM_PH_5__Title__TRILIUM_PH_6__ there).",
+      "sourceHash": "0f5db71e07b4bda0300c4bfa56639c6f979aa17cfedf03e088cc2f1fe951c8a9",
+      "context": "Attachments > Embedding an attachment",
+      "contextHash": "85bcaa063bad2bd1970403b69607df8c8410f04b6488ec2cf5fb8e58bb21e77b",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_9639d03fef71802ba511407d_0",
+      "kind": "li",
+      "source": "To open the attachment in a new tab, press the __TRILIUM_PH_0__ (__TRILIUM_PH_1__Open in new tab)__TRILIUM_PH_2__ button at the end of the embed's title.",
+      "sourceHash": "9639d03fef71802ba511407d77537139ae18b9307dd93647047fdb62b056bcb5",
+      "context": "Attachments > Embedding an attachment",
+      "contextHash": "85bcaa063bad2bd1970403b69607df8c8410f04b6488ec2cf5fb8e58bb21e77b",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_f1856ff4fc19e808adb2d64b_0",
+      "kind": "li",
+      "source": "An embed of size __TRILIUM_PH_0__Compact__TRILIUM_PH_1__ shows only the title of the attachment and its size, in a single row, whatever the attachment is: a drawing canvas or a video shows nothing of its content there. Its buttons are __TRILIUM_PH_2____TRILIUM_PH_3__Open externally__TRILIUM_PH_4__ and __TRILIUM_PH_5____TRILIUM_PH_6__Download__TRILIUM_PH_7__. An audio file at __TRILIUM_PH_8__Compact__TRILIUM_PH_9__ is a row of player controls instead, without its title until __TRILIUM_PH_10__Show title__TRILIUM_PH_11__ is turned on.",
+      "sourceHash": "f1856ff4fc19e808adb2d64b088b6c88a6348700b348be1832ff9ca56323010f",
+      "context": "Attachments > Embedding an attachment",
+      "contextHash": "85bcaa063bad2bd1970403b69607df8c8410f04b6488ec2cf5fb8e58bb21e77b",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_9db76ef98cac6149fcb1f8c7_0",
+      "kind": "li",
+      "source": "To show an embed of size __TRILIUM_PH_0__Resizable__TRILIUM_PH_1__ or __TRILIUM_PH_2__Full__TRILIUM_PH_3__ on the whole screen, press the __TRILIUM_PH_4__ (__TRILIUM_PH_5__Fullscreen)__TRILIUM_PH_6__ button at the end of its title. To return, press __TRILIUM_PH_7__ (__TRILIUM_PH_8__Exit fullscreen)__TRILIUM_PH_9__ in the top-right corner, or __TRILIUM_PH_10__Esc__TRILIUM_PH_11__.",
+      "sourceHash": "9db76ef98cac6149fcb1f8c7f3472f1b176f9c29802dd7084f7ee5d96aa29a17",
+      "context": "Attachments > Embedding an attachment",
+      "contextHash": "85bcaa063bad2bd1970403b69607df8c8410f04b6488ec2cf5fb8e58bb21e77b",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_f3db6f7efc5d1466ea7a2b3d_0",
+      "kind": "li",
+      "source": "To turn the embed back into a link, choose __TRILIUM_PH_0__Convert to link__TRILIUM_PH_1__ in the menu that right-clicking the title row of the embed or pressing its __TRILIUM_PH_2____TRILIUM_PH_3__More actions__TRILIUM_PH_4__ button opens. It is in the last group, after __TRILIUM_PH_5____TRILIUM_PH_6__Delete block__TRILIUM_PH_7__, which removes the embed from the note, and __TRILIUM_PH_8____TRILIUM_PH_9__Delete attachment...__TRILIUM_PH_10__, which deletes the attachment itself. __TRILIUM_PH_11____TRILIUM_PH_12__Convert attachment into note...__TRILIUM_PH_13__ follows it.",
+      "sourceHash": "f3db6f7efc5d1466ea7a2b3d21d611d91e0c271655d6b47e880efdc91f597766",
+      "context": "Attachments > Embedding an attachment",
+      "contextHash": "85bcaa063bad2bd1970403b69607df8c8410f04b6488ec2cf5fb8e58bb21e77b",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_e986ca1016d91203811e7bf9_0",
+      "kind": "p",
+      "source": "An embed follows its attachment like a link does. Converting the attachment into a note turns the embed into an included note. In a __TRILIUM_PH_0__shared note__TRILIUM_PH_1__, an embedded picture is displayed with its caption, a drawing canvas as a picture of the drawing, a video or audio file in the browser's player, and any other attachment, or a picture in a __TRILIUM_PH_2__Compact__TRILIUM_PH_3__ embed, appears as a link to download it.",
+      "sourceHash": "e986ca1016d91203811e7bf937fa098b218c8ef4c182a3879eca67806122b3f8",
+      "context": "Attachments > Embedding an attachment",
+      "contextHash": "85bcaa063bad2bd1970403b69607df8c8410f04b6488ec2cf5fb8e58bb21e77b",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_a242d95ac780c4fd455f5f9f_0",
+      "kind": "h2",
+      "source": "Converting notes to attachments__TRILIUM_PH_0__",
+      "sourceHash": "a242d95ac780c4fd455f5f9fbd2d62d367ab6b5206d52413e60d804200c7030c",
+      "context": "Attachments > Converting notes to attachments",
+      "contextHash": "339476c0bbe7f9c8fa686de8d52cf050fa475cfd3921852cf69cea690bd18329",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_42e05594ae0fb1531e5cbe41_0",
+      "kind": "p",
+      "source": "__TRILIUM_PH_0__File__TRILIUM_PH_1__ notes can be easily converted to attachments of the parent note.",
+      "sourceHash": "42e05594ae0fb1531e5cbe41f04893a52e44b9ce5f8807d6f44f5f5e96979150",
+      "context": "Attachments > Converting notes to attachments",
+      "contextHash": "339476c0bbe7f9c8fa686de8d52cf050fa475cfd3921852cf69cea690bd18329",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_4aa592f328e007e456668e14_0",
+      "kind": "p",
+      "source": "To do so:",
+      "sourceHash": "4aa592f328e007e456668e14c5218dcb1f38831eca67cb0f8cb725b769ca8c0e",
+      "context": "Attachments > Converting notes to attachments",
+      "contextHash": "339476c0bbe7f9c8fa686de8d52cf050fa475cfd3921852cf69cea690bd18329",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_2caec580be66c4deec918a36_0",
+      "kind": "li",
+      "source": "For a single note, press the context menu from the __TRILIUM_PH_0__Note menu__TRILIUM_PH_1__ and select __TRILIUM_PH_2__Convert into attachment__TRILIUM_PH_3__.",
+      "sourceHash": "2caec580be66c4deec918a36d1d4bb6156a6348f8013a816fd4469a76bc61c4b",
+      "context": "Attachments > Converting notes to attachments",
+      "contextHash": "339476c0bbe7f9c8fa686de8d52cf050fa475cfd3921852cf69cea690bd18329",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_0bf41436007f5bd31b1dc536_0",
+      "kind": "li",
+      "source": "For multiple notes, select the given notes in the __TRILIUM_PH_0__Note Tree__TRILIUM_PH_1__, right click → Advanced → __TRILIUM_PH_2__Convert to attachment…__TRILIUM_PH_3__.",
+      "sourceHash": "0bf41436007f5bd31b1dc53625e864ff387d48e1d9d06eee5c9af9ccd155260a",
+      "context": "Attachments > Converting notes to attachments",
+      "contextHash": "339476c0bbe7f9c8fa686de8d52cf050fa475cfd3921852cf69cea690bd18329",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_86d88687ed54d4b6f20ffd2b_0",
+      "kind": "h2",
+      "source": "Attachment previews__TRILIUM_PH_0__",
+      "sourceHash": "86d88687ed54d4b6f20ffd2b41ff0e8ddbbc0ec19739662f693f0a6dd4a7bf05",
+      "context": "Attachments > Attachment previews",
+      "contextHash": "603f8a7404f9d9a20288f9f3dd3f8a1b632a486fe714e3151bbf78344555080f",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_a15108964b55441678207a3f_0",
+      "kind": "p",
+      "source": "Attachments share the same content preview for images, videos, PDFs, etc. as the __TRILIUM_PH_0__File__TRILIUM_PH_1__ note type. A Markdown attachment is previewed rendered, as a __TRILIUM_PH_2__Markdown__TRILIUM_PH_3__ note is.",
+      "sourceHash": "a15108964b55441678207a3f9bb7fbefa46f0a3c618a84cc7457756b7d31c6d6",
+      "context": "Attachments > Attachment previews",
+      "contextHash": "603f8a7404f9d9a20288f9f3dd3f8a1b632a486fe714e3151bbf78344555080f",
+      "status": "pending",
+      "active": true
+    }
+  ],
+  "requests": []
+}

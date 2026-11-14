@@ -1,0 +1,148 @@
+{
+  "schemaVersion": 1,
+  "pageId": "iGTnKjubbXkA",
+  "sourceFile": "docs/User Guide/User Guide/Installation & Setup/Server Installation/System Requirements.md",
+  "sourceRevision": "03d17b60f59b5efc29b880b11481471d0fe0ff57",
+  "units": [
+    {
+      "id": "u_eed42be216fabe5c1cbc1bd0_0",
+      "kind": "title",
+      "source": "System Requirements",
+      "sourceHash": "eed42be216fabe5c1cbc1bd0377382f7c26de71511b7e54826bae329886932ba",
+      "context": "System Requirements",
+      "contextHash": "ac272c8f84973eca9ec80e0499c5a8bfd45e669d5922afffe6131fdc5b9c29b7",
+      "status": "translated",
+      "active": true,
+      "translation": "システム要件",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_1ffb0bc315217f5bd53e4b65_0",
+      "kind": "li",
+      "source": "Using Docker, the server can be run on Windows, Linux and macOS devices.",
+      "sourceHash": "1ffb0bc315217f5bd53e4b6553ff7ac9585a576b4ab6c7aea0b5de832762f1ae",
+      "context": "System Requirements",
+      "contextHash": "ac272c8f84973eca9ec80e0499c5a8bfd45e669d5922afffe6131fdc5b9c29b7",
+      "status": "translated",
+      "active": true,
+      "translation": "Dockerを使用することで、サーバーはWindows、Linux、macOSの各デバイスで実行できます。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_9ed11451c71464a0df027c61_0",
+      "kind": "li",
+      "source": "Native binaries are provided for Linux x64 and ARM (__TRILIUM_PH_0__).",
+      "sourceHash": "9ed11451c71464a0df027c619adaa5d1bd86c3cbad4dc042c5ab7b3f986c481b",
+      "context": "System Requirements",
+      "contextHash": "ac272c8f84973eca9ec80e0499c5a8bfd45e669d5922afffe6131fdc5b9c29b7",
+      "status": "translated",
+      "active": true,
+      "translation": "Linux x64およびARM向けのネイティブバイナリが提供されています（__TRILIUM_PH_0__）。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_d425d64f28f2b13d7256011c_0",
+      "kind": "h2",
+      "source": "Legacy ARM support__TRILIUM_PH_0__",
+      "sourceHash": "d425d64f28f2b13d7256011c8d8ebed2db5f3a75fbd02ea39a1963891e16acd3",
+      "context": "System Requirements > Legacy ARM support",
+      "contextHash": "894e01875b677e9067060e2e17f73341d9d104bdef42701e1cad536d3056913d",
+      "status": "translated",
+      "active": true,
+      "translation": "レガシーARMのサポート__TRILIUM_PH_0__",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_d4a0fe4c24ef0eaae8d044fc_0",
+      "kind": "p",
+      "source": "The Docker builds also provide __TRILIUM_PH_0__ and __TRILIUM_PH_1__ platforms. These platforms are considered legacy since Trilium uses Node.js version 24 which have __TRILIUM_PH_2__officially downgraded support__TRILIUM_PH_3__ for these platforms to “experimental”.",
+      "sourceHash": "d4a0fe4c24ef0eaae8d044fc346cd3fa655de9fced5cde0f77ec2d8254222cc7",
+      "context": "System Requirements > Legacy ARM support",
+      "contextHash": "894e01875b677e9067060e2e17f73341d9d104bdef42701e1cad536d3056913d",
+      "status": "translated",
+      "active": true,
+      "translation": "Dockerビルドでは、__TRILIUM_PH_0__および__TRILIUM_PH_1__のプラットフォームも提供しています。Triliumで使用しているNode.jsのバージョン24において、これらのプラットフォームのサポートが__TRILIUM_PH_2__公式に「実験的」へダウングレード__TRILIUM_PH_3__されたため、これらのプラットフォームはレガシーとみなされます。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_4e01666785011f5eea55733f_0",
+      "kind": "p",
+      "source": "As a result, Trilium needs to use Node.js 22 for these versions. As soon as soon Node.js 22 will no longer be compatible, support for __TRILIUM_PH_0__ and __TRILIUM_PH_1__ will be dropped entirely.",
+      "sourceHash": "4e01666785011f5eea55733fe91fdc49faf4b62da49640c64e937fb0ec6ae924",
+      "context": "System Requirements > Legacy ARM support",
+      "contextHash": "894e01875b677e9067060e2e17f73341d9d104bdef42701e1cad536d3056913d",
+      "status": "translated",
+      "active": true,
+      "translation": "その結果、Triliumではこれらのバージョン向けにNode.js 22を使用する必要があります。Node.js 22との互換性がなくなり次第、__TRILIUM_PH_0__および__TRILIUM_PH_1__のサポートは完全に終了します。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_49024ca93fe7c0a3c501cb10_0",
+      "kind": "p",
+      "source": "Regardless of upstream support, these platforms are supported on a best-effort basis and are not officially supported by the Trilium development team. Bug reports are accepted but they will not be treated with priority; contributions are welcome.",
+      "sourceHash": "49024ca93fe7c0a3c501cb10a2c5dd53f829a5168b5f0d0f6b7349732ef2d27b",
+      "context": "System Requirements > Legacy ARM support",
+      "contextHash": "894e01875b677e9067060e2e17f73341d9d104bdef42701e1cad536d3056913d",
+      "status": "translated",
+      "active": true,
+      "translation": "アップストリームのサポート状況に関わらず、これらのプラットフォームはベストエフォートベースでサポートされており、Trilium開発チームによる公式サポートはありません。バグ報告は受け付けますが優先的には扱われません。コントリビューションは歓迎します。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    }
+  ],
+  "requests": [
+    {
+      "at": "2026-11-14T11:28:45.803Z",
+      "model": "gemini-3.5-flash-lite",
+      "batchJob": "batches/02spwqy837h8pi7qzqmeo4fgsqo7bgs45hwh",
+      "requestKey": "iGTnKjubbXkA_cbe9c01c3e94f4b0",
+      "modelVersion": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 811,
+        "candidatesTokenCount": 524,
+        "totalTokenCount": 1335,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 811
+          }
+        ],
+        "serviceTier": "standard"
+      }
+    }
+  ]
+}

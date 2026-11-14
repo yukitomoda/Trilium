@@ -1,0 +1,725 @@
+{
+  "schemaVersion": 1,
+  "pageId": "rWX5eY045zbE",
+  "sourceFile": "docs/User Guide/User Guide/Installation & Setup/Server Installation/1. Installing the server/Using Docker.md",
+  "sourceRevision": "03d17b60f59b5efc29b880b11481471d0fe0ff57",
+  "units": [
+    {
+      "id": "u_9c25e25a1d08f692f9f6fe12_0",
+      "kind": "title",
+      "source": "Using Docker",
+      "sourceHash": "9c25e25a1d08f692f9f6fe127a252ecce58a640a746bee258092713858108e3b",
+      "context": "Using Docker",
+      "contextHash": "7fc8fa6fb4621f431a79d18370402726b4a0fecc5215d0a6ed8ea282d27e2516",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_e9d61f3c162cbe2174a32692_0",
+      "kind": "p",
+      "source": "Official docker images are published on docker hub for __TRILIUM_PH_0__AMD64__TRILIUM_PH_1__, __TRILIUM_PH_2__ARMv7__TRILIUM_PH_3__ and __TRILIUM_PH_4__ARM64/v8__TRILIUM_PH_5__: __TRILIUM_PH_6__https://hub.docker.com/r/triliumnext/trilium/__TRILIUM_PH_7__",
+      "sourceHash": "e9d61f3c162cbe2174a32692b38e8c2b6378712a451f89d9bdd815509090def6",
+      "context": "Using Docker",
+      "contextHash": "7fc8fa6fb4621f431a79d18370402726b4a0fecc5215d0a6ed8ea282d27e2516",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_0830ab526c6cc11955f8b25e_0",
+      "kind": "h2",
+      "source": "Prerequisites__TRILIUM_PH_0__",
+      "sourceHash": "0830ab526c6cc11955f8b25e4ba420cd3662c0ee9e97d36dc5178aee1876d4ca",
+      "context": "Using Docker > Prerequisites",
+      "contextHash": "bcca400598bf216ad3fe6fb2ddac463f706e7de777634ebb353b7a5ab17a6130",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_b92485a8c2db7857545d9aad_0",
+      "kind": "p",
+      "source": "Ensure Docker is installed on your system.",
+      "sourceHash": "b92485a8c2db7857545d9aad17fe8acc84a8c422d7da29263dae2961a9d9140b",
+      "context": "Using Docker > Prerequisites",
+      "contextHash": "bcca400598bf216ad3fe6fb2ddac463f706e7de777634ebb353b7a5ab17a6130",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_814216c16c2d96a1a0435d5b_0",
+      "kind": "p",
+      "source": "If you need help installing Docker, reference the __TRILIUM_PH_0__Docker Installation Docs__TRILIUM_PH_1__",
+      "sourceHash": "814216c16c2d96a1a0435d5bba50c5e9b3e4c254ab96d580898370969b84fdab",
+      "context": "Using Docker > Prerequisites",
+      "contextHash": "bcca400598bf216ad3fe6fb2ddac463f706e7de777634ebb353b7a5ab17a6130",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_a9ee5df2ee3a5306f3abf5d8_0",
+      "kind": "p",
+      "source": "By default, the container starts as root, prepares the data directory and then runs Trilium as an unprivileged user. It can also run entirely without root, as described in __TRILIUM_PH_0__Running as a non-root user__TRILIUM_PH_1__ below.",
+      "sourceHash": "a9ee5df2ee3a5306f3abf5d8248e33d2525a4880291c17433d5fc5b4bdc2d727",
+      "context": "Using Docker > Prerequisites",
+      "contextHash": "bcca400598bf216ad3fe6fb2ddac463f706e7de777634ebb353b7a5ab17a6130",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_edb3a397b8025ef18fecff79_0",
+      "kind": "p",
+      "source": "If you're using a SMB/CIFS share or folder as your Trilium data directory, __TRILIUM_PH_0__you'll need__TRILIUM_PH_1__ to add the mount options of __TRILIUM_PH_2__ and __TRILIUM_PH_3__ when mounting your SMB share.",
+      "sourceHash": "edb3a397b8025ef18fecff79026ba142a404f847d5681d095c1012ae63d9610b",
+      "context": "Using Docker > Prerequisites",
+      "contextHash": "bcca400598bf216ad3fe6fb2ddac463f706e7de777634ebb353b7a5ab17a6130",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_b837cabfe8aca0a58e7edd75_0",
+      "kind": "h2",
+      "source": "Running with Docker Compose__TRILIUM_PH_0__",
+      "sourceHash": "b837cabfe8aca0a58e7edd75bd19bcc848cbfc3e3ccf79f6c3d6bc3d8e4f3a4e",
+      "context": "Using Docker > Running with Docker Compose",
+      "contextHash": "8bd7a932f8657a34b46f53e977b2882766d947b79dc8b880fd01ec94e611d10c",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_69e1ba2fd22f96a13c6df682_0",
+      "kind": "h3",
+      "source": "Grab the latest docker-compose.yml:__TRILIUM_PH_0__",
+      "sourceHash": "69e1ba2fd22f96a13c6df6823c5e69746a7e17fbb93fd22dbe0f150eff3abf79",
+      "context": "Using Docker > Running with Docker Compose > Grab the latest docker-compose.yml:",
+      "contextHash": "15a8b728d5d1ad3fd05e7892cece30eb16456c244c43edc8023e001117186686",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_b35e089b7816397aa68c9ef8_0",
+      "kind": "p",
+      "source": "Optionally, edit the __TRILIUM_PH_0__ file to configure the container settings prior to starting it. Unless configured otherwise, the data directory will be __TRILIUM_PH_1__ next to __TRILIUM_PH_2__ and the container will be accessible at port 8080.",
+      "sourceHash": "b35e089b7816397aa68c9ef8de16519c0193b648c45a5a8f0ddfee5f63b7cade",
+      "context": "Using Docker > Running with Docker Compose > Grab the latest docker-compose.yml:",
+      "contextHash": "15a8b728d5d1ad3fd05e7892cece30eb16456c244c43edc8023e001117186686",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_a059f770a4141e9fc80c2a39_0",
+      "kind": "p",
+      "source": "To keep the data somewhere else, edit the __TRILIUM_PH_0__ entry in __TRILIUM_PH_1__ and change the host path before the colon (for example __TRILIUM_PH_2__). Leave the path after the colon unchanged.",
+      "sourceHash": "a059f770a4141e9fc80c2a3981f55ec51d2e866d8db883f92d2bfa1f5f2a2299",
+      "context": "Using Docker > Running with Docker Compose > Grab the latest docker-compose.yml:",
+      "contextHash": "15a8b728d5d1ad3fd05e7892cece30eb16456c244c43edc8023e001117186686",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_73eba93344ce6bfd62c4e481_0",
+      "kind": "h3",
+      "source": "Start the container:__TRILIUM_PH_0__",
+      "sourceHash": "73eba93344ce6bfd62c4e481683436cdcf759a5dcbc12bc8cdf39a84a44942de",
+      "context": "Using Docker > Running with Docker Compose > Start the container:",
+      "contextHash": "17bda7a4b9a00e5cb957bb3cab97c43ff376915055965aa7ad11672e567fed2f",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_71d35ac94bc8b71c939493fd_0",
+      "kind": "p",
+      "source": "Run the following command to start the container in the background:",
+      "sourceHash": "71d35ac94bc8b71c939493fd0ef41b0c43f488a66a8fc44dfa62c3bd8a4e09c9",
+      "context": "Using Docker > Running with Docker Compose > Start the container:",
+      "contextHash": "17bda7a4b9a00e5cb957bb3cab97c43ff376915055965aa7ad11672e567fed2f",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_ccbd24b3fdb3005ad543161e_0",
+      "kind": "h2",
+      "source": "Running without Docker Compose / Further Configuration__TRILIUM_PH_0__",
+      "sourceHash": "ccbd24b3fdb3005ad543161e1b249ab5d3f8af5b21eae97259de05486877c5bf",
+      "context": "Using Docker > Running without Docker Compose / Further Configuration",
+      "contextHash": "a0f42a0af4ec2ddf8c40421ea9ecd4f6b69db9096d6b5bc459f5a0e4407bbb93",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_6f96aed3b5765c9707d61d72_0",
+      "kind": "h3",
+      "source": "Pulling the Docker Image__TRILIUM_PH_0__",
+      "sourceHash": "6f96aed3b5765c9707d61d72682b1b601f40e5d1f7cb102675b4779b88c3d471",
+      "context": "Using Docker > Running without Docker Compose / Further Configuration > Pulling the Docker Image",
+      "contextHash": "1ebe68a90b7879567408c6108d8008d44f5bc1c75d28f853f4287bc2b1099e9a",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_70e022a10ccf0f0f8116272b_0",
+      "kind": "p",
+      "source": "To pull the image, use the following command, replacing __TRILIUM_PH_0__ with the desired version or tag, such as __TRILIUM_PH_1__ or just __TRILIUM_PH_2__. (See published tag names at __TRILIUM_PH_3__https://hub.docker.com/r/triliumnext/trilium/tags__TRILIUM_PH_4__.):",
+      "sourceHash": "70e022a10ccf0f0f8116272b2e00aedf954a3372f1213fc4560fcb4c23467732",
+      "context": "Using Docker > Running without Docker Compose / Further Configuration > Pulling the Docker Image",
+      "contextHash": "1ebe68a90b7879567408c6108d8008d44f5bc1c75d28f853f4287bc2b1099e9a",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_711eb089a3357625693e3001_0",
+      "kind": "p",
+      "source": "__TRILIUM_PH_0__Warning:__TRILIUM_PH_1__ Avoid using the \"latest\" tag, as it may automatically upgrade your instance to a new minor version, potentially disrupting sync setups or causing other issues.",
+      "sourceHash": "711eb089a3357625693e3001a3517917ef5002e96a6da551ec76c12adc47ce34",
+      "context": "Using Docker > Running without Docker Compose / Further Configuration > Pulling the Docker Image",
+      "contextHash": "1ebe68a90b7879567408c6108d8008d44f5bc1c75d28f853f4287bc2b1099e9a",
+      "status": "translated",
+      "active": true,
+      "translation": "__TRILIUM_PH_0__警告:__TRILIUM_PH_1__ 「latest」タグの使用は避けてください。インスタンスが自動的に新しいマイナーバージョンにアップグレードされ、同期設定の破損やその他の問題を引き起こす可能性があります。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_5fad3891027b813aaca9dcc8_0",
+      "kind": "h3",
+      "source": "Preparing the Data Directory__TRILIUM_PH_0__",
+      "sourceHash": "5fad3891027b813aaca9dcc8bdd521ce4c2cc59c174b6cccff85f57e54c0ae24",
+      "context": "Using Docker > Running without Docker Compose / Further Configuration > Preparing the Data Directory",
+      "contextHash": "231474bb1c50c4bccac533c9658d148bf613cef968ac1826a87774cb68fd8e96",
+      "status": "translated",
+      "active": true,
+      "translation": "データディレクトリの準備__TRILIUM_PH_0__",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_726b27c10283f2b3d6baa77b_0",
+      "kind": "p",
+      "source": "Trilium requires a directory on the host system to store its data. This directory must be mounted into the Docker container with write permissions.",
+      "sourceHash": "726b27c10283f2b3d6baa77b61614ff45c4fa596e122b414dd5ec73a4991a0ca",
+      "context": "Using Docker > Running without Docker Compose / Further Configuration > Preparing the Data Directory",
+      "contextHash": "231474bb1c50c4bccac533c9658d148bf613cef968ac1826a87774cb68fd8e96",
+      "status": "translated",
+      "active": true,
+      "translation": "Triliumのデータを保存するには、ホストシステム上のディレクトリが必要です。このディレクトリは、書き込み権限を持たせてDockerコンテナにマウントする必要があります。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_98664723a048115e31a6db78_0",
+      "kind": "h3",
+      "source": "Running the Docker Container__TRILIUM_PH_0__",
+      "sourceHash": "98664723a048115e31a6db78e8c0f17987e772e13f0c2506b39bab00a706b705",
+      "context": "Using Docker > Running without Docker Compose / Further Configuration > Running the Docker Container",
+      "contextHash": "0323f0b4c6cb3ab7bc8bc7478df72ffd2909749bcd55edc0fa70b4ac1a9211a6",
+      "status": "translated",
+      "active": true,
+      "translation": "Dockerコンテナの実行__TRILIUM_PH_0__",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_3041c51f696829c838aecaa1_0",
+      "kind": "p",
+      "source": "Local Access Only",
+      "sourceHash": "3041c51f696829c838aecaa11cdac7abf3840dfdde46e3c3dfe70ac649a5bf99",
+      "context": "Using Docker > Running without Docker Compose / Further Configuration > Running the Docker Container",
+      "contextHash": "0323f0b4c6cb3ab7bc8bc7478df72ffd2909749bcd55edc0fa70b4ac1a9211a6",
+      "status": "translated",
+      "active": true,
+      "translation": "ローカルアクセスのみ",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_b26d15ac96f718ea11736901_0",
+      "kind": "p",
+      "source": "Run the container to make it accessible only from the localhost. This setup is suitable for testing or when using a proxy server like Nginx or Apache.",
+      "sourceHash": "b26d15ac96f718ea11736901a0f5282a55f686563bfc4d3dc0e257be9c4b98b9",
+      "context": "Using Docker > Running without Docker Compose / Further Configuration > Running the Docker Container",
+      "contextHash": "0323f0b4c6cb3ab7bc8bc7478df72ffd2909749bcd55edc0fa70b4ac1a9211a6",
+      "status": "translated",
+      "active": true,
+      "translation": "ローカルホストからのみアクセスできるようにコンテナを実行します。この設定は、テスト時やNginx、Apacheなどのプロキシサーバーを使用する場合に適しています。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_31f1db9ecc3eba081b989314_0",
+      "kind": "li",
+      "source": "Verify the container is running using __TRILIUM_PH_0__.",
+      "sourceHash": "31f1db9ecc3eba081b9893145dcbb9bd1af32ed068724354f3fb5238ff4ec3a4",
+      "context": "Using Docker > Running without Docker Compose / Further Configuration > Running the Docker Container",
+      "contextHash": "0323f0b4c6cb3ab7bc8bc7478df72ffd2909749bcd55edc0fa70b4ac1a9211a6",
+      "status": "translated",
+      "active": true,
+      "translation": "__TRILIUM_PH_0__を使用してコンテナが実行中であることを確認します。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_f89477bb5badd78b6f180a82_0",
+      "kind": "li",
+      "source": "Access Trilium via a web browser at __TRILIUM_PH_0__.",
+      "sourceHash": "f89477bb5badd78b6f180a82a55d6a16b660f2cbe7c407c12af942a71e2802cd",
+      "context": "Using Docker > Running without Docker Compose / Further Configuration > Running the Docker Container",
+      "contextHash": "0323f0b4c6cb3ab7bc8bc7478df72ffd2909749bcd55edc0fa70b4ac1a9211a6",
+      "status": "translated",
+      "active": true,
+      "translation": "ウェブブラウザで __TRILIUM_PH_0__ にアクセスしてTriliumを利用します。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_b8fcb32a65e6cbd95a6ef37f_0",
+      "kind": "p",
+      "source": "Local Network Access",
+      "sourceHash": "b8fcb32a65e6cbd95a6ef37fb307b67fdd5eb50524d7a61ee6a170b1e6b5950b",
+      "context": "Using Docker > Running without Docker Compose / Further Configuration > Running the Docker Container",
+      "contextHash": "0323f0b4c6cb3ab7bc8bc7478df72ffd2909749bcd55edc0fa70b4ac1a9211a6",
+      "status": "translated",
+      "active": true,
+      "translation": "ローカルネットワークからのアクセス",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_c0a03d238ccfed7e0c723ffc_0",
+      "kind": "p",
+      "source": "To make the container accessible only on your local network, first create a new Docker network:",
+      "sourceHash": "c0a03d238ccfed7e0c723ffc82a0193a41277dd37004dce432c89196d9d65a73",
+      "context": "Using Docker > Running without Docker Compose / Further Configuration > Running the Docker Container",
+      "contextHash": "0323f0b4c6cb3ab7bc8bc7478df72ffd2909749bcd55edc0fa70b4ac1a9211a6",
+      "status": "translated",
+      "active": true,
+      "translation": "ローカルネットワーク内からのみコンテナにアクセスできるようにするには、まず新しいDockerネットワークを作成します。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_47f42fbb95902a6178028234_0",
+      "kind": "p",
+      "source": "Then, run the container with the network settings:",
+      "sourceHash": "47f42fbb95902a61780282344450c07c681e891548ea7246186002d391df4dd0",
+      "context": "Using Docker > Running without Docker Compose / Further Configuration > Running the Docker Container",
+      "contextHash": "0323f0b4c6cb3ab7bc8bc7478df72ffd2909749bcd55edc0fa70b4ac1a9211a6",
+      "status": "translated",
+      "active": true,
+      "translation": "次に、ネットワーク設定を指定してコンテナを実行します。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_fd8ac8c48b320d65d0895311_0",
+      "kind": "p",
+      "source": "To set a different user ID (UID) and group ID (GID) for the saved data, use the __TRILIUM_PH_0__ and __TRILIUM_PH_1__ environment variables:",
+      "sourceHash": "fd8ac8c48b320d65d089531172118cc18b513340e1a919465a402bc686c64709",
+      "context": "Using Docker > Running without Docker Compose / Further Configuration > Running the Docker Container",
+      "contextHash": "0323f0b4c6cb3ab7bc8bc7478df72ffd2909749bcd55edc0fa70b4ac1a9211a6",
+      "status": "translated",
+      "active": true,
+      "translation": "保存されるデータのユーザーID（UID）およびグループID（GID）を変更するには、__TRILIUM_PH_0__ および __TRILIUM_PH_1__ 環境変数を使用します。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_2aa65cbe1d20f9c805623e8c_0",
+      "kind": "p",
+      "source": "Find the local IP address using __TRILIUM_PH_0__ and access the service from devices on the local network.",
+      "sourceHash": "2aa65cbe1d20f9c805623e8c69a6a4b9534d536fc735977a5e82c5dc993e21fe",
+      "context": "Using Docker > Running without Docker Compose / Further Configuration > Running the Docker Container",
+      "contextHash": "0323f0b4c6cb3ab7bc8bc7478df72ffd2909749bcd55edc0fa70b4ac1a9211a6",
+      "status": "translated",
+      "active": true,
+      "translation": "__TRILIUM_PH_0__ を使用してローカルIPアドレスを確認し、ローカルネットワーク上のデバイスからサービスにアクセスします。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_82a23cfa7a9336e1b3cd8976_0",
+      "kind": "p",
+      "source": "Global Access",
+      "sourceHash": "82a23cfa7a9336e1b3cd8976fc8f407e768eec1fa27f681a342b711102caa809",
+      "context": "Using Docker > Running without Docker Compose / Further Configuration > Running the Docker Container",
+      "contextHash": "0323f0b4c6cb3ab7bc8bc7478df72ffd2909749bcd55edc0fa70b4ac1a9211a6",
+      "status": "translated",
+      "active": true,
+      "translation": "グローバルアクセス",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_bfd0244f78a2ee235f8d8962_0",
+      "kind": "p",
+      "source": "To allow access from any IP address, run the container as follows:",
+      "sourceHash": "bfd0244f78a2ee235f8d8962c36b54c7398f1003c6b355952285b3d26247fb8c",
+      "context": "Using Docker > Running without Docker Compose / Further Configuration > Running the Docker Container",
+      "contextHash": "0323f0b4c6cb3ab7bc8bc7478df72ffd2909749bcd55edc0fa70b4ac1a9211a6",
+      "status": "translated",
+      "active": true,
+      "translation": "任意のIPアドレスからのアクセスを許可するには、次のようにコンテナを実行します。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_6e8f435886570058a52a70b2_0",
+      "kind": "p",
+      "source": "Stop the container with __TRILIUM_PH_0__, where the container ID is obtained from __TRILIUM_PH_1__.",
+      "sourceHash": "6e8f435886570058a52a70b263916de1d92058c7187b8a688768f3d261ec9a80",
+      "context": "Using Docker > Running without Docker Compose / Further Configuration > Running the Docker Container",
+      "contextHash": "0323f0b4c6cb3ab7bc8bc7478df72ffd2909749bcd55edc0fa70b4ac1a9211a6",
+      "status": "translated",
+      "active": true,
+      "translation": "__TRILIUM_PH_0__ でコンテナを停止します。コンテナIDは __TRILIUM_PH_1__ から取得できます。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_4081159222ae98fb16ba4b42_0",
+      "kind": "h3",
+      "source": "Custom Data Directory__TRILIUM_PH_0__",
+      "sourceHash": "4081159222ae98fb16ba4b42c4bcbc8322ec43f915f7ad6fda4a339d87a1126c",
+      "context": "Using Docker > Running without Docker Compose / Further Configuration > Custom Data Directory",
+      "contextHash": "143f6a628841f865368355377d400d316445bc46232f8594f92a56c9d46fe2bc",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_e187525234caac549d323a03_0",
+      "kind": "p",
+      "source": "For a custom data directory, use:",
+      "sourceHash": "e187525234caac549d323a039d61e20407231901e256ddcdac9bf0d293fecdee",
+      "context": "Using Docker > Running without Docker Compose / Further Configuration > Custom Data Directory",
+      "contextHash": "143f6a628841f865368355377d400d316445bc46232f8594f92a56c9d46fe2bc",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_2374a40bea8229258be90546_0",
+      "kind": "p",
+      "source": "If you want to run your instance in a non-default way, please use the volume switch as follows: __TRILIUM_PH_0__. It is important to be aware of how Docker works for volumes, with the first path being your own and the second the one to virtually bind to. __TRILIUM_PH_1__https://docs.docker.com/storage/volumes/__TRILIUM_PH_2__ The path before the colon is the host directory, and the path after the colon is the container's path. More details can be found in the __TRILIUM_PH_3__Docker Volumes Documentation__TRILIUM_PH_4__.",
+      "sourceHash": "2374a40bea8229258be90546380cd1888d6a1e3f60559cb87f7cdbe96a60d341",
+      "context": "Using Docker > Running without Docker Compose / Further Configuration > Custom Data Directory",
+      "contextHash": "143f6a628841f865368355377d400d316445bc46232f8594f92a56c9d46fe2bc",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_dae3f04729e0afe574efbf41_0",
+      "kind": "h2",
+      "source": "Reverse Proxy__TRILIUM_PH_0__",
+      "sourceHash": "dae3f04729e0afe574efbf4174858e23cca76d4108315eab6c2c5bc3f3f0a930",
+      "context": "Using Docker > Reverse Proxy",
+      "contextHash": "0749c335070c6e7ae71c3839bc2114cd516fbef98073fcd1f7bd3482201cfb41",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_368360ec1bd6c439df083c13_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__Nginx__TRILIUM_PH_1__",
+      "sourceHash": "368360ec1bd6c439df083c139b80c70efecc8fd71db60b6e17fa5fae2d5580a3",
+      "context": "Using Docker > Reverse Proxy",
+      "contextHash": "0749c335070c6e7ae71c3839bc2114cd516fbef98073fcd1f7bd3482201cfb41",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_0de9966a1486352f283b19fa_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__Apache__TRILIUM_PH_1__",
+      "sourceHash": "0de9966a1486352f283b19fadbf1ae31b26d330b3e6294de0643d610ca081f86",
+      "context": "Using Docker > Reverse Proxy",
+      "contextHash": "0749c335070c6e7ae71c3839bc2114cd516fbef98073fcd1f7bd3482201cfb41",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_a6531afd5e4bdcdab69e6233_0",
+      "kind": "h3",
+      "source": "Note on timezones__TRILIUM_PH_0__",
+      "sourceHash": "a6531afd5e4bdcdab69e62331dbe7422750c64e3892788a307302f39f80e5d9e",
+      "context": "Using Docker > Reverse Proxy > Note on timezones",
+      "contextHash": "3421809bd893570d46863b280a03515b63e3bcece00e384c80b6f4d8dc97f631",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_c6d4ac14f4e0658e165bb3f7_0",
+      "kind": "p",
+      "source": "If you are having timezone issues and you are not using docker-compose, you may need to add a __TRILIUM_PH_0__ environment variable with the __TRILIUM_PH_1__TZ identifier__TRILIUM_PH_2__ of your local timezone.",
+      "sourceHash": "c6d4ac14f4e0658e165bb3f747404e83ba1b41f2f668a0c58e444686008b6e44",
+      "context": "Using Docker > Reverse Proxy > Note on timezones",
+      "contextHash": "3421809bd893570d46863b280a03515b63e3bcece00e384c80b6f4d8dc97f631",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_2b75c98cfba2620f25f79886_0",
+      "kind": "h3",
+      "source": "Other environment variables__TRILIUM_PH_0__",
+      "sourceHash": "2b75c98cfba2620f25f798860c528848f76474e4168bed45f8dfec1f1fb60555",
+      "context": "Using Docker > Reverse Proxy > Other environment variables",
+      "contextHash": "2eee6492efc78ae2ef0cd9f0951a558686fbc70f3fa58f77d09adac8c46ed222",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_9f0897ef18387f96e9badacc_0",
+      "kind": "p",
+      "source": "For the complete list of environment variables Trilium reads (network settings, authentication, sync, etc.), see __TRILIUM_PH_0__Configuration (config.ini or environment variables)__TRILIUM_PH_1__.",
+      "sourceHash": "9f0897ef18387f96e9badacc9f8e2e5ae2750c07a41b523af4fb46a1b18bf04f",
+      "context": "Using Docker > Reverse Proxy > Other environment variables",
+      "contextHash": "2eee6492efc78ae2ef0cd9f0951a558686fbc70f3fa58f77d09adac8c46ed222",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_75de6286e3f0c279942eeedc_0",
+      "kind": "h2",
+      "source": "Running as a non-root user__TRILIUM_PH_0__",
+      "sourceHash": "75de6286e3f0c279942eeedc745414dbc14d3edf486546c187684a1158311c91",
+      "context": "Using Docker > Running as a non-root user",
+      "contextHash": "154e7087c137f6942d25df100d0539e0b0afcd83afda4267e895b2b67603141a",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_6024b0da580cfe9954a6d41e_0",
+      "kind": "p",
+      "source": "By default, the container starts as root, gives the data directory to the __TRILIUM_PH_0__ user (UID and GID __TRILIUM_PH_1__, or the values of __TRILIUM_PH_2__ and __TRILIUM_PH_3__) and then runs Trilium as that user. Some environments do not allow a container to start as root at all, for example rootless Docker or Podman, or Kubernetes with __TRILIUM_PH_4__. Starting with v0.107.0, the same image can run entirely as a non-root user instead.",
+      "sourceHash": "6024b0da580cfe9954a6d41ed5b6d3ad7daf3c894cac327d6b7f04b6573d7022",
+      "context": "Using Docker > Running as a non-root user",
+      "contextHash": "154e7087c137f6942d25df100d0539e0b0afcd83afda4267e895b2b67603141a",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_efa03cb024082208e5c38533_0",
+      "kind": "p",
+      "source": "To run Trilium as a non-root user, set the user with Docker's __TRILIUM_PH_0__ flag:",
+      "sourceHash": "efa03cb024082208e5c3853342f5414a19a0f6c295a67fe0e977cfb3c3aae52d",
+      "context": "Using Docker > Running as a non-root user",
+      "contextHash": "154e7087c137f6942d25df100d0539e0b0afcd83afda4267e895b2b67603141a",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_e45c7e575ff7e16f5d55ff64_0",
+      "kind": "p",
+      "source": "With Docker Compose, add __TRILIUM_PH_0__ to the service in __TRILIUM_PH_1__:",
+      "sourceHash": "e45c7e575ff7e16f5d55ff64c6d073caac46f96696770a87c78001e9c555e7bf",
+      "context": "Using Docker > Running as a non-root user",
+      "contextHash": "154e7087c137f6942d25df100d0539e0b0afcd83afda4267e895b2b67603141a",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_df11c821ae1c7e882c9fcdb6_0",
+      "kind": "p",
+      "source": "The image also runs with a read-only root filesystem and without any capabilities, for example with __TRILIUM_PH_0__.",
+      "sourceHash": "df11c821ae1c7e882c9fcdb672d2c5d4695c7bf776ddd2c0045bbdc480ab6ba7",
+      "context": "Using Docker > Running as a non-root user",
+      "contextHash": "154e7087c137f6942d25df100d0539e0b0afcd83afda4267e895b2b67603141a",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_08924c35f4bbaa5437209ccd_0",
+      "kind": "p",
+      "source": "Without root, the container cannot change the ownership of files, so:",
+      "sourceHash": "08924c35f4bbaa5437209ccd33c2d58eb2b94a328c2860e2348e01a1fa36b95d",
+      "context": "Using Docker > Running as a non-root user",
+      "contextHash": "154e7087c137f6942d25df100d0539e0b0afcd83afda4267e895b2b67603141a",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_bf128677dd150562f8114060_0",
+      "kind": "p",
+      "source": "The data directory on the host must exist and belong to that user before the container starts. If the directory is missing, Docker creates it as root, and Trilium cannot write to it. For example:",
+      "sourceHash": "bf128677dd150562f8114060459e1bf225bb62c8b9971b5e0bf0f96f8caa4e40",
+      "context": "Using Docker > Running as a non-root user",
+      "contextHash": "154e7087c137f6942d25df100d0539e0b0afcd83afda4267e895b2b67603141a",
+      "status": "translated",
+      "active": true,
+      "translation": "ホスト側のデータディレクトリは、コンテナが起動する前に存在し、かつそのユーザーの所有物である必要があります。ディレクトリが存在しない場合、Docker はそれを root として作成するため、Trilium が書き込みを行えなくなります。例：",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_e2eea319489f7159c95f5f83_0",
+      "kind": "p",
+      "source": "A named volume instead of a host directory only works for UID __TRILIUM_PH_0__: Docker gives a new volume the owner of the image's data directory, which is the __TRILIUM_PH_1__ user.",
+      "sourceHash": "e2eea319489f7159c95f5f83387992cafad89ae5d267ea0a4396c3a6e135915a",
+      "context": "Using Docker > Running as a non-root user",
+      "contextHash": "154e7087c137f6942d25df100d0539e0b0afcd83afda4267e895b2b67603141a",
+      "status": "translated",
+      "active": true,
+      "translation": "ホストディレクトリの代わりに名前付きボリュームを使用する方法は、UID __TRILIUM_PH_0__ の場合にのみ機能します。Docker は新しいボリュームにイメージのデータディレクトリの所有者（つまり __TRILIUM_PH_1__ ユーザー）を割り当てるためです。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_1162e7411a1b7df36124ed91_0",
+      "kind": "p",
+      "source": "__TRILIUM_PH_0__ and __TRILIUM_PH_1__ are ignored. The user comes from __TRILIUM_PH_2__ or __TRILIUM_PH_3__ alone.",
+      "sourceHash": "1162e7411a1b7df36124ed91d38d2b71cb798866b358275715cd5db041b1a96e",
+      "context": "Using Docker > Running as a non-root user",
+      "contextHash": "154e7087c137f6942d25df100d0539e0b0afcd83afda4267e895b2b67603141a",
+      "status": "translated",
+      "active": true,
+      "translation": "__TRILIUM_PH_0__ および __TRILIUM_PH_1__ は無視されます。ユーザーは __TRILIUM_PH_2__ または __TRILIUM_PH_3__ のみから決定されます。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_738ede401dcf5dbb7c659214_0",
+      "kind": "p",
+      "source": "If Trilium cannot use its data directory, it stops at startup and prints which directory or files it cannot use, who owns them, and the command that fixes it.",
+      "sourceHash": "738ede401dcf5dbb7c659214c1a831e3a7ea85c77a269d18e0d7d65b677f4e84",
+      "context": "Using Docker > Running as a non-root user",
+      "contextHash": "154e7087c137f6942d25df100d0539e0b0afcd83afda4267e895b2b67603141a",
+      "status": "translated",
+      "active": true,
+      "translation": "Trilium がデータディレクトリを使用できない場合、起動時に停止し、使用できないディレクトリやファイル、それらを所有しているユーザー、およびそれを修正するためのコマンドが出力されます。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_f5cc2ae82414db159033daf0_0",
+      "kind": "p",
+      "source": "An installation that ran as root leaves its files owned by UID __TRILIUM_PH_0__, or by __TRILIUM_PH_1__ if it was set. To switch it to __TRILIUM_PH_2__, either use that same UID, or give the data directory to the new user first, for example with __TRILIUM_PH_3__.",
+      "sourceHash": "f5cc2ae82414db159033daf0f07d8c04ef3b3436fe1b61d1e174c40228540b5b",
+      "context": "Using Docker > Running as a non-root user",
+      "contextHash": "154e7087c137f6942d25df100d0539e0b0afcd83afda4267e895b2b67603141a",
+      "status": "translated",
+      "active": true,
+      "translation": "root として実行されたインストールでは、ファイルの所有権が UID __TRILIUM_PH_0__（または設定されていた場合は __TRILIUM_PH_1__）のままになります。これを __TRILIUM_PH_2__ に切り替えるには、同じ UID を使用するか、あらかじめ __TRILIUM_PH_3__ などを使用してデータディレクトリの所有権を新しいユーザーに譲渡してください。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    }
+  ],
+  "requests": [
+    {
+      "at": "2026-11-14T11:28:45.803Z",
+      "model": "gemini-3.5-flash-lite",
+      "batchJob": "batches/02spwqy837h8pi7qzqmeo4fgsqo7bgs45hwh",
+      "requestKey": "rWX5eY045zbE_922806ebd41e8120",
+      "modelVersion": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 1426,
+        "candidatesTokenCount": 887,
+        "totalTokenCount": 2313,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 1426
+          }
+        ],
+        "serviceTier": "standard"
+      }
+    },
+    {
+      "at": "2026-11-14T11:28:45.803Z",
+      "model": "gemini-3.5-flash-lite",
+      "batchJob": "batches/02spwqy837h8pi7qzqmeo4fgsqo7bgs45hwh",
+      "requestKey": "rWX5eY045zbE_4f37f5a10cf930ad",
+      "modelVersion": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 789,
+        "candidatesTokenCount": 479,
+        "totalTokenCount": 1268,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 789
+          }
+        ],
+        "serviceTier": "standard"
+      }
+    }
+  ]
+}

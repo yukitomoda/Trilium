@@ -1,0 +1,240 @@
+{
+  "schemaVersion": 1,
+  "pageId": "nRqcgfTb97uV",
+  "sourceFile": "docs/User Guide/User Guide/Installation & Setup/Desktop Installation/Using the desktop application as a server.md",
+  "sourceRevision": "03d17b60f59b5efc29b880b11481471d0fe0ff57",
+  "units": [
+    {
+      "id": "u_0ec4982d1aa404cf633bf9d3_0",
+      "kind": "title",
+      "source": "Using the desktop application as a server",
+      "sourceHash": "0ec4982d1aa404cf633bf9d313106bf552dacb0730eb3acc2b064798ffc0c86f",
+      "context": "Using the desktop application as a server",
+      "contextHash": "c1e2ae4047b69b5e0f493740e2ade94867f348d6b2bbb2a50c8cbdcf59367fde",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_b169d26b5ecc8e0f953094be_0",
+      "kind": "p",
+      "source": "Sometimes, setting up a __TRILIUM_PH_0__dedicated server installation__TRILIUM_PH_1__ is not feasible. The desktop application ships with a fully functional server instance by default.",
+      "sourceHash": "b169d26b5ecc8e0f953094be1a3073c48c2e50ba0269b724bd02662f0426789d",
+      "context": "Using the desktop application as a server",
+      "contextHash": "c1e2ae4047b69b5e0f493740e2ade94867f348d6b2bbb2a50c8cbdcf59367fde",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_970ed7996d9d73fbe7f0666f_0",
+      "kind": "p",
+      "source": "For security reasons, this feature is __TRILIUM_PH_0__not enabled__TRILIUM_PH_1__ by default. To enable it, enable __TRILIUM_PH_2__Network access__TRILIUM_PH_3__ in __TRILIUM_PH_4__Security__TRILIUM_PH_5__.",
+      "sourceHash": "970ed7996d9d73fbe7f0666f6482a2c9219a4a1415c7776a7ddee0b0b1eb95b9",
+      "context": "Using the desktop application as a server",
+      "contextHash": "c1e2ae4047b69b5e0f493740e2ade94867f348d6b2bbb2a50c8cbdcf59367fde",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_0544c57d39f976d74960a0c2_0",
+      "kind": "p",
+      "source": "After enabling network access and restarting the application, you can access this web interface locally by navigating to __TRILIUM_PH_0__http://localhost:37840/login__TRILIUM_PH_1__.",
+      "sourceHash": "0544c57d39f976d74960a0c2ccbcea8c4c36b0f48b2799e063c61bb3e54b1bac",
+      "context": "Using the desktop application as a server",
+      "contextHash": "c1e2ae4047b69b5e0f493740e2ade94867f348d6b2bbb2a50c8cbdcf59367fde",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_65ccacf46686415eacbf8afb_0",
+      "kind": "p",
+      "source": "The web interface asks for a password to log in. If you haven't set one yet, set it in the desktop application under __TRILIUM_PH_0__Options__TRILIUM_PH_1__ → __TRILIUM_PH_2__Password & Auth__TRILIUM_PH_3__ first; for security reasons, the password can't be set from the browser.",
+      "sourceHash": "65ccacf46686415eacbf8afb974a5a9b5d2839f2d4a4cdb8e49a6e6d94e98f88",
+      "context": "Using the desktop application as a server",
+      "contextHash": "c1e2ae4047b69b5e0f493740e2ade94867f348d6b2bbb2a50c8cbdcf59367fde",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_3cf21277723b36a0c4623fad_0",
+      "kind": "p",
+      "source": "The server embedded in the desktop application will only run as long as the desktop application itself is running. So closing the application will also close the server. To overcome this, you can try hiding the application in the system tray.",
+      "sourceHash": "3cf21277723b36a0c4623fadc6ce1d4fa03839e1102c430e06f54a1eafcf5fd1",
+      "context": "Using the desktop application as a server",
+      "contextHash": "c1e2ae4047b69b5e0f493740e2ade94867f348d6b2bbb2a50c8cbdcf59367fde",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_737d4e755eebc0d5c72af5a7_0",
+      "kind": "h2",
+      "source": "Mobile interface__TRILIUM_PH_0__",
+      "sourceHash": "737d4e755eebc0d5c72af5a7ffa5a23ee888e826ec27f71a446d2210f2407fe5",
+      "context": "Using the desktop application as a server > Mobile interface",
+      "contextHash": "decd3fb82112d0fc05ec6ef0b434ea56dc084f18a76e69ee0d2ec68852f359de",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_6f843165884590d6e60bf824_0",
+      "kind": "p",
+      "source": "By default, this will display the desktop user interface, even on mobile. To switch to the mobile version, simply go to the __TRILIUM_PH_0__Global menu__TRILIUM_PH_1__ and select “Switch to the mobile version”.",
+      "sourceHash": "6f843165884590d6e60bf824ec3547582145e133fb4f53c8438e46d72100dab9",
+      "context": "Using the desktop application as a server > Mobile interface",
+      "contextHash": "decd3fb82112d0fc05ec6ef0b434ea56dc084f18a76e69ee0d2ec68852f359de",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_8f696d4d7c6b1b68511482c0_0",
+      "kind": "h2",
+      "source": "Allowing the port externally on Windows with Windows Defender Firewall__TRILIUM_PH_0__",
+      "sourceHash": "8f696d4d7c6b1b68511482c0a9b231a7b34c5e9fbcce844350e31f12e7d6d3b7",
+      "context": "Using the desktop application as a server > Allowing the port externally on Windows with Windows Defender Firewall",
+      "contextHash": "52ed0744fccb91c7068e08c6d004f2fc23b0629ef82c5b5862b55592b922287d",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_fe001e124670dc029b11e070_0",
+      "kind": "p",
+      "source": "First, find out the IP of your desktop server by running __TRILIUM_PH_0__ in your local terminal. Then try accessing __TRILIUM_PH_1__ on another device. If it doesn't work, then most likely the port is blocked by your operating system's firewall.",
+      "sourceHash": "fe001e124670dc029b11e0704162ec68f0215160b516ec3deb4936056ea7979e",
+      "context": "Using the desktop application as a server > Allowing the port externally on Windows with Windows Defender Firewall",
+      "contextHash": "52ed0744fccb91c7068e08c6d004f2fc23b0629ef82c5b5862b55592b922287d",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_b2c3a88c4f521ef516fd2834_0",
+      "kind": "p",
+      "source": "If you use Windows Defender Firewall:",
+      "sourceHash": "b2c3a88c4f521ef516fd2834dd977e1f1c7319c300d36b3b974276cf91002682",
+      "context": "Using the desktop application as a server > Allowing the port externally on Windows with Windows Defender Firewall",
+      "contextHash": "52ed0744fccb91c7068e08c6d004f2fc23b0629ef82c5b5862b55592b922287d",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_17c5d02b69b2e03b3eeb951c_0",
+      "kind": "li",
+      "source": "Go to Windows's start menu and look for “Windows Defender Firewall with Advanced Security”.",
+      "sourceHash": "17c5d02b69b2e03b3eeb951c3a126c3e7d2c9a33de408beb6a6bed35d5cc7e08",
+      "context": "Using the desktop application as a server > Allowing the port externally on Windows with Windows Defender Firewall",
+      "contextHash": "52ed0744fccb91c7068e08c6d004f2fc23b0629ef82c5b5862b55592b922287d",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_654bf2389df5773667041c55_0",
+      "kind": "li",
+      "source": "Go to “Inbound Rules” on the left tree, and select “New Rule” in the “Actions” sidebar on the right.",
+      "sourceHash": "654bf2389df5773667041c558a5103ce20ec9046068e59625ee1f2beb194a6b5",
+      "context": "Using the desktop application as a server > Allowing the port externally on Windows with Windows Defender Firewall",
+      "contextHash": "52ed0744fccb91c7068e08c6d004f2fc23b0629ef82c5b5862b55592b922287d",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_338a11637c53dace5d093335_0",
+      "kind": "li",
+      "source": "Select “Port” and press “Next”.",
+      "sourceHash": "338a11637c53dace5d093335485cd3bb488a904ddc55a25d7a4ba4adc6d44c4d",
+      "context": "Using the desktop application as a server > Allowing the port externally on Windows with Windows Defender Firewall",
+      "contextHash": "52ed0744fccb91c7068e08c6d004f2fc23b0629ef82c5b5862b55592b922287d",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_c802bbce4753b39bb2582ff6_0",
+      "kind": "li",
+      "source": "Type in __TRILIUM_PH_0__ in the “Specific local ports” section and then press “Next”.",
+      "sourceHash": "c802bbce4753b39bb2582ff6f75d1a925f25870f27c613c86b499b165b21f9dc",
+      "context": "Using the desktop application as a server > Allowing the port externally on Windows with Windows Defender Firewall",
+      "contextHash": "52ed0744fccb91c7068e08c6d004f2fc23b0629ef82c5b5862b55592b922287d",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_badbfce08baa4d69e4b11254_0",
+      "kind": "li",
+      "source": "Leave “Allow the connection” checked and press “Next”.",
+      "sourceHash": "badbfce08baa4d69e4b1125465de170dbfe1d5396a34a2324a7f486037677427",
+      "context": "Using the desktop application as a server > Allowing the port externally on Windows with Windows Defender Firewall",
+      "contextHash": "52ed0744fccb91c7068e08c6d004f2fc23b0629ef82c5b5862b55592b922287d",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_c718b4f1b287187327ac133f_0",
+      "kind": "li",
+      "source": "Configure the networks to apply to (check all if unsure) and then press “Next”.",
+      "sourceHash": "c718b4f1b287187327ac133f9f94b812bb27e266acd23f1db8ea9e5232673330",
+      "context": "Using the desktop application as a server > Allowing the port externally on Windows with Windows Defender Firewall",
+      "contextHash": "52ed0744fccb91c7068e08c6d004f2fc23b0629ef82c5b5862b55592b922287d",
+      "status": "translated",
+      "active": true,
+      "translation": "適用するネットワークを設定し（不明な場合はすべてにチェックを入れてください）、「次へ」を押します。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_3d702283d2b4146b53621f39_0",
+      "kind": "li",
+      "source": "Add an appropriate name to the rule (e.g. “Trilium Notes”) and press “Finish”.",
+      "sourceHash": "3d702283d2b4146b53621f392ad8334ebbb459e711fbe15b508eec062c857ba1",
+      "context": "Using the desktop application as a server > Allowing the port externally on Windows with Windows Defender Firewall",
+      "contextHash": "52ed0744fccb91c7068e08c6d004f2fc23b0629ef82c5b5862b55592b922287d",
+      "status": "translated",
+      "active": true,
+      "translation": "ルールに適した名前（例：「Trilium Notes」など）を入力し、「完了」を押します。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_fb04e03dd6434b08efe26521_0",
+      "kind": "p",
+      "source": "Since v0.104.0, the port used by Trilium is accessible only on __TRILIUM_PH_0__. To enable across the local network, see __TRILIUM_PH_1__Network Access__TRILIUM_PH_2__.",
+      "sourceHash": "fb04e03dd6434b08efe265218b9c66782d430fe9d808d3305727e9ea86ce86d5",
+      "context": "Using the desktop application as a server > Allowing the port externally on Windows with Windows Defender Firewall",
+      "contextHash": "52ed0744fccb91c7068e08c6d004f2fc23b0629ef82c5b5862b55592b922287d",
+      "status": "translated",
+      "active": true,
+      "translation": "v0.104.0以降、Triliumで使用されるポートには __TRILIUM_PH_0__ からのみアクセス可能です。ローカルネットワーク全体で有効にするには、__TRILIUM_PH_1__ネットワークアクセス__TRILIUM_PH_2__ を参照してください。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    }
+  ],
+  "requests": [
+    {
+      "at": "2026-11-14T11:28:45.803Z",
+      "model": "gemini-3.5-flash-lite",
+      "batchJob": "batches/02spwqy837h8pi7qzqmeo4fgsqo7bgs45hwh",
+      "requestKey": "nRqcgfTb97uV_6350c1b89b4fee44",
+      "modelVersion": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 576,
+        "candidatesTokenCount": 244,
+        "totalTokenCount": 820,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 576
+          }
+        ],
+        "serviceTier": "standard"
+      }
+    }
+  ]
+}

@@ -1,0 +1,159 @@
+{
+  "schemaVersion": 1,
+  "pageId": "SPirpZypehBG",
+  "sourceFile": "docs/User Guide/User Guide/Scripting/Backend scripts.md",
+  "sourceRevision": "03d17b60f59b5efc29b880b11481471d0fe0ff57",
+  "units": [
+    {
+      "id": "u_ee9a3811a2049fd739e92d75_0",
+      "kind": "title",
+      "source": "Backend scripts",
+      "sourceHash": "ee9a3811a2049fd739e92d752b07cd8c53ea233938263bca19821b3d1d285e8d",
+      "context": "Backend scripts",
+      "contextHash": "f9f85e47a1b6be13fa67f647fd7f08778f5353a9584ad0fe58db42dd40c75983",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_a9b3fa604d917cbdc0c09484_0",
+      "kind": "p",
+      "source": "Unlike __TRILIUM_PH_0__front-end scripts__TRILIUM_PH_1__ which run on the client / browser-side, back-end scripts run directly on the Node.js environment of the Trilium server.",
+      "sourceHash": "a9b3fa604d917cbdc0c09484c63e8ee630ca32244741c9613bc27a6534409c89",
+      "context": "Backend scripts",
+      "contextHash": "f9f85e47a1b6be13fa67f647fd7f08778f5353a9584ad0fe58db42dd40c75983",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_962474601f8ae111775e61c3_0",
+      "kind": "p",
+      "source": "Back-end scripts can be used both on a __TRILIUM_PH_0__Server Installation__TRILIUM_PH_1__ (where it will run on the device the server is running on), or on the __TRILIUM_PH_2__Desktop Installation__TRILIUM_PH_3__ (where it will run on the PC).",
+      "sourceHash": "962474601f8ae111775e61c3ec589c61428d51d38abb6c34993f2023a54d5c06",
+      "context": "Backend scripts",
+      "contextHash": "f9f85e47a1b6be13fa67f647fd7f08778f5353a9584ad0fe58db42dd40c75983",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_4f81ec811302d13693ee236e_0",
+      "kind": "p",
+      "source": "Starting with v0.104.0, backend scripts are disabled by default to reduce the attack surface. See __TRILIUM_PH_0__Security__TRILIUM_PH_1__ for more information.",
+      "sourceHash": "4f81ec811302d13693ee236e16c8382d9e087b3aec3f034bac588f482fd9b354",
+      "context": "Backend scripts",
+      "contextHash": "f9f85e47a1b6be13fa67f647fd7f08778f5353a9584ad0fe58db42dd40c75983",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_dc51cae6a0663919f6bab07a_0",
+      "kind": "h2",
+      "source": "Advantages of backend scripts__TRILIUM_PH_0__",
+      "sourceHash": "dc51cae6a0663919f6bab07a683e3f380986cdb5a4d04e3ad46fbebc8f66323a",
+      "context": "Backend scripts > Advantages of backend scripts",
+      "contextHash": "b16b93156c32712f661a623a4e14d9b8109b5e275e709b235efc849672649f46",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_a654000cd0f3d76801caa00d_0",
+      "kind": "p",
+      "source": "The benefit of backend scripts is that they can be pretty powerful, for example to have access to the underlying system, for example it can read files or execute processes.",
+      "sourceHash": "a654000cd0f3d76801caa00d335986523331cc25c0b342b8057e2f78964488a8",
+      "context": "Backend scripts > Advantages of backend scripts",
+      "contextHash": "b16b93156c32712f661a623a4e14d9b8109b5e275e709b235efc849672649f46",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_cb1b265df1b586249f6e2664_0",
+      "kind": "p",
+      "source": "However, the main benefit of backend scripts is that they have easier access to the notes since the information about them is already loaded in memory. Whereas on the client, notes have to be manually loaded first.",
+      "sourceHash": "cb1b265df1b586249f6e2664e79a7724fd8daea9a5bf48f5fa2ee5928ad468a4",
+      "context": "Backend scripts > Advantages of backend scripts",
+      "contextHash": "b16b93156c32712f661a623a4e14d9b8109b5e275e709b235efc849672649f46",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_e3c0e23e60bdc00692b113ca_0",
+      "kind": "h2",
+      "source": "Creating a backend script__TRILIUM_PH_0__",
+      "sourceHash": "e3c0e23e60bdc00692b113ca48ef43e48a42a1e172e0bd77e63c1d58bbedbf93",
+      "context": "Backend scripts > Creating a backend script",
+      "contextHash": "d6716de92660dfb5c98418e2fc194ca1a02bd35bff9d77fc67dae8aa3c639cff",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_98f65e49960699ed741b9710_0",
+      "kind": "p",
+      "source": "Create a new __TRILIUM_PH_0__Code__TRILIUM_PH_1__ note and select the language __TRILIUM_PH_2__JavaScript (Trilium backend)__TRILIUM_PH_3__, or choose __TRILIUM_PH_4__Insert child note__TRILIUM_PH_5__ → __TRILIUM_PH_6__Code__TRILIUM_PH_7__ → __TRILIUM_PH_8__Backend script__TRILIUM_PH_9__ in the __TRILIUM_PH_10__Note tree contextual menu__TRILIUM_PH_11__, which does both in one step.",
+      "sourceHash": "98f65e49960699ed741b9710af59c43158c6e7ed3a26c120f4cf29f519037f06",
+      "context": "Backend scripts > Creating a backend script",
+      "contextHash": "d6716de92660dfb5c98418e2fc194ca1a02bd35bff9d77fc67dae8aa3c639cff",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_03e7ba46176c2a92ba21d22c_0",
+      "kind": "h2",
+      "source": "Running backend scripts__TRILIUM_PH_0__",
+      "sourceHash": "03e7ba46176c2a92ba21d22cff67138452b7374e3ed82d99fb92953cc79ce252",
+      "context": "Backend scripts > Running backend scripts",
+      "contextHash": "1731b61cdc485b9c5ab2e15eb3eff27ccafd086cb379d0357f98282df0a392a8",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_d17cf6e519adbe4ed88a814f_0",
+      "kind": "p",
+      "source": "Backend scripts can be either run manually (via the Execute button on the script page), or they can be triggered on certain events.",
+      "sourceHash": "d17cf6e519adbe4ed88a814f08287d0de815ded8d7f0540e884f1fb7dfe8debe",
+      "context": "Backend scripts > Running backend scripts",
+      "contextHash": "1731b61cdc485b9c5ab2e15eb3eff27ccafd086cb379d0357f98282df0a392a8",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_da5ff70442c8bb61985480c6_0",
+      "kind": "p",
+      "source": "When a script run manually or from a launcher throws an error, Trilium shows a __TRILIUM_PH_0__Scripting error__TRILIUM_PH_1__ notification with the error message and a link to the note that failed. If the error comes from a child note the script requires, the link points to that child note. Changes the script made to notes before the error are rolled back.",
+      "sourceHash": "da5ff70442c8bb61985480c658ab2e8e167770f741d16cf6305e0bcc9d51b1b9",
+      "context": "Backend scripts > Running backend scripts",
+      "contextHash": "1731b61cdc485b9c5ab2e15eb3eff27ccafd086cb379d0357f98282df0a392a8",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_5c168b3f9d1438d1d96e3496_0",
+      "kind": "p",
+      "source": "In addition, scripts can be run automatically when the server starts up, on a fixed time interval or when a certain event occurs (such as an attribute being modified). For more information, see the dedicated __TRILIUM_PH_0__Events__TRILIUM_PH_1__ page.",
+      "sourceHash": "5c168b3f9d1438d1d96e349613c5f4b4d42916f46f697975529c6a6dcce8db59",
+      "context": "Backend scripts > Running backend scripts",
+      "contextHash": "1731b61cdc485b9c5ab2e15eb3eff27ccafd086cb379d0357f98282df0a392a8",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_2073a1be0869413e8de3b91d_0",
+      "kind": "h2",
+      "source": "Script API__TRILIUM_PH_0__",
+      "sourceHash": "2073a1be0869413e8de3b91d142c10a48d3d5a58f614d9d78193a0922b42e889",
+      "context": "Backend scripts > Script API",
+      "contextHash": "607f0d3bc4ef664d90c333eba67f05031a0d146fb7a1b25529a425ddc1d3599d",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_5c180277153711db63f6ba25_0",
+      "kind": "p",
+      "source": "Trilium exposes a set of APIs that can be directly consumed by scripts, under the __TRILIUM_PH_0__ object. For a reference of this API, see __TRILIUM_PH_1__Backend API__TRILIUM_PH_2__.",
+      "sourceHash": "5c180277153711db63f6ba25473f1ac9289cdc8faed92900fda3383b74e1a995",
+      "context": "Backend scripts > Script API",
+      "contextHash": "607f0d3bc4ef664d90c333eba67f05031a0d146fb7a1b25529a425ddc1d3599d",
+      "status": "pending",
+      "active": true
+    }
+  ],
+  "requests": []
+}

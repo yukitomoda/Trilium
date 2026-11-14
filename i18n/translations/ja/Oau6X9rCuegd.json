@@ -1,0 +1,249 @@
+{
+  "schemaVersion": 1,
+  "pageId": "Oau6X9rCuegd",
+  "sourceFile": "docs/User Guide/User Guide/Basic Concepts and Features/Import & Export/Markdown.md",
+  "sourceRevision": "03d17b60f59b5efc29b880b11481471d0fe0ff57",
+  "units": [
+    {
+      "id": "u_ee74dcdf15c392a79852c55a_0",
+      "kind": "title",
+      "source": "Markdown",
+      "sourceHash": "ee74dcdf15c392a79852c55aef0dfe9e2caa74bce92b0b48ad7bddc6cc1dfbe1",
+      "context": "Markdown",
+      "contextHash": "0e52f6b9d02515c59bb4fdeec2762fdbe701080c82986fc4dfbefcb1e2389817",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_f24c3cf9db8ea24de66f3dd7_0",
+      "kind": "p",
+      "source": "Trilium supports Markdown for both import and export, while trying to keep compatibility as high as possible.",
+      "sourceHash": "f24c3cf9db8ea24de66f3dd7fd29870f7e2c9aae61e84003ea6d777d49fc233e",
+      "context": "Markdown",
+      "contextHash": "0e52f6b9d02515c59bb4fdeec2762fdbe701080c82986fc4dfbefcb1e2389817",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_8995cfbfb440ba475c7cb019_0",
+      "kind": "h2",
+      "source": "Import__TRILIUM_PH_0__",
+      "sourceHash": "8995cfbfb440ba475c7cb01980d5454f2993f2039f188696993a2b89a3423348",
+      "context": "Markdown > Import",
+      "contextHash": "bbdc994012d8e76195c9443067569ff81706f260d12841e6ce044f8bb3f0a693",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_b80086dfff4db229b743e28a_0",
+      "kind": "h3",
+      "source": "Clipboard import__TRILIUM_PH_0__",
+      "sourceHash": "b80086dfff4db229b743e28a910ce1c520f40f7c5b92588c6c4b8b5f32ab5225",
+      "context": "Markdown > Import > Clipboard import",
+      "contextHash": "a9cc0cc317a3a6afce25d054bd215120112fd65fd12eb67379ba0c4c7e3b4a6c",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_55c03aa613a16aaf242626e3_0",
+      "kind": "p",
+      "source": "If you want to import just a chunk of markdown from clipboard, you can do it from editor block menu:",
+      "sourceHash": "55c03aa613a16aaf242626e3ef7b1448558f723aa31b47e6e7a4f9d12dbf97ca",
+      "context": "Markdown > Import > Clipboard import",
+      "contextHash": "a9cc0cc317a3a6afce25d054bd215120112fd65fd12eb67379ba0c4c7e3b4a6c",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_dc7f62a594d869804163c154_0",
+      "kind": "h3",
+      "source": "File import__TRILIUM_PH_0__",
+      "sourceHash": "dc7f62a594d869804163c154b44323f2f58eedfb05402ee584effc0e5df4c28f",
+      "context": "Markdown > Import > File import",
+      "contextHash": "90a070ac55ed896f9eeb8fadb4cc0b729823ac9eb13b1f68592a7c12eb1c856c",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_e6f8e747cc24aa9cca89a460_0",
+      "kind": "p",
+      "source": "You can also import Markdown files from files:",
+      "sourceHash": "e6f8e747cc24aa9cca89a460e2d8242a94547ba96e2d2fca326a038c74c78bda",
+      "context": "Markdown > Import > File import",
+      "contextHash": "90a070ac55ed896f9eeb8fadb4cc0b729823ac9eb13b1f68592a7c12eb1c856c",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_fb6b7e87c83af97b449bca8a_0",
+      "kind": "li",
+      "source": "single markdown file (with .md extension)",
+      "sourceHash": "fb6b7e87c83af97b449bca8ab1075797fa299f4061eeca224648b8ecaa54a700",
+      "context": "Markdown > Import > File import",
+      "contextHash": "90a070ac55ed896f9eeb8fadb4cc0b729823ac9eb13b1f68592a7c12eb1c856c",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_edc8ffc5953241be063dcbd1_0",
+      "kind": "li",
+      "source": "whole tree of markdown files (packaged into __TRILIUM_PH_0__.zip__TRILIUM_PH_1__ archive)",
+      "sourceHash": "edc8ffc5953241be063dcbd139f4d959a640d087bb8e14d9176aef4e99b8b545",
+      "context": "Markdown > Import > File import",
+      "contextHash": "90a070ac55ed896f9eeb8fadb4cc0b729823ac9eb13b1f68592a7c12eb1c856c",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_09136863d08a82197d20ddc9_0",
+      "kind": "li",
+      "source": "Markdown files need to be packaged into ZIP archive because browser can't read directories, only single files.",
+      "sourceHash": "09136863d08a82197d20ddc90601df4b47112ba4da90b25c5af79cca863acc8f",
+      "context": "Markdown > Import > File import",
+      "contextHash": "90a070ac55ed896f9eeb8fadb4cc0b729823ac9eb13b1f68592a7c12eb1c856c",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_8992c8591237f75d93ac1569_0",
+      "kind": "li",
+      "source": "You can use e.g. __TRILIUM_PH_0__7-zip__TRILIUM_PH_1__ to package directory of markdown files into the ZIP file",
+      "sourceHash": "8992c8591237f75d93ac1569010889e2300bb476e8f178b00948e3317cbaa21d",
+      "context": "Markdown > Import > File import",
+      "contextHash": "90a070ac55ed896f9eeb8fadb4cc0b729823ac9eb13b1f68592a7c12eb1c856c",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_f25e6fd9896b35977cd3b412_0",
+      "kind": "h2",
+      "source": "Export__TRILIUM_PH_0__",
+      "sourceHash": "f25e6fd9896b35977cd3b4122dcd88bed3f0fde883805883a4a0f82504b8c58c",
+      "context": "Markdown > Export",
+      "contextHash": "6ed0161cce8c8ca2dbdfac95fd2269b0215228d671f299f466c0c3aea79e8629",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_ce440abeabb273ed75ed3a70_0",
+      "kind": "h3",
+      "source": "Subtree export__TRILIUM_PH_0__",
+      "sourceHash": "ce440abeabb273ed75ed3a702ea87fc7f6398aba8fc48ebcadeb0ed437ad9586",
+      "context": "Markdown > Export > Subtree export",
+      "contextHash": "f324ba0d84f2e5520d4962bdbdc805165b5cab5687230aa8397bcd0ceacba206",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_5bd4e6f7324721310d80c719_0",
+      "kind": "p",
+      "source": "You can export whole subtree to ZIP archive which will have directory structured modelled after subtree structure:",
+      "sourceHash": "5bd4e6f7324721310d80c719660b56879c31ec67d5d1ad7ca0af2b7b5640f8ad",
+      "context": "Markdown > Export > Subtree export",
+      "contextHash": "f324ba0d84f2e5520d4962bdbdc805165b5cab5687230aa8397bcd0ceacba206",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_99204f0d5d9f47bae4dae77e_0",
+      "kind": "h3",
+      "source": "Single note export__TRILIUM_PH_0__",
+      "sourceHash": "99204f0d5d9f47bae4dae77ec15565ae9e24b11704150875fdba6ef3f49b23cf",
+      "context": "Markdown > Export > Single note export",
+      "contextHash": "c4aa45d1725634d955a40f0cb505b61294ff233c7ff604e716656e1b994e7c64",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_a9bf9afc5655ada3a329de3e_0",
+      "kind": "p",
+      "source": "If you want to export just single note without its subtree, you can do it from Note actions menu:",
+      "sourceHash": "a9bf9afc5655ada3a329de3e94301dd43781999e1bb530c0ff0b0ff19f597249",
+      "context": "Markdown > Export > Single note export",
+      "contextHash": "c4aa45d1725634d955a40f0cb505b61294ff233c7ff604e716656e1b994e7c64",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_89f7697e99ddd049aca09fcd_0",
+      "kind": "h3",
+      "source": "Exporting protected notes__TRILIUM_PH_0__",
+      "sourceHash": "89f7697e99ddd049aca09fcd893a3e4f7b848a6504bf321546270bd10c5ee074",
+      "context": "Markdown > Export > Exporting protected notes",
+      "contextHash": "e2a96826b42369bde3c14697f56e4e475648d1961834092ce7919a8eb915dbfe",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_208d68e51fd24c44c981a2c5_0",
+      "kind": "p",
+      "source": "If you want to export protected notes, enter a protected session first! This will export the notes in an unencrypted form, so if you reimport into Trilium, make sure to re-protect these notes.",
+      "sourceHash": "208d68e51fd24c44c981a2c50cb5df5437f165e0f75eb7c1950aa5cee0bfc2d7",
+      "context": "Markdown > Export > Exporting protected notes",
+      "contextHash": "e2a96826b42369bde3c14697f56e4e475648d1961834092ce7919a8eb915dbfe",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_2bd4b3cca74ab238d2a0b27e_0",
+      "kind": "h2",
+      "source": "Supported syntax__TRILIUM_PH_0__",
+      "sourceHash": "2bd4b3cca74ab238d2a0b27eee2436726f1d38b2c05eba3eb02ca91e7dbd12f2",
+      "context": "Markdown > Supported syntax",
+      "contextHash": "668bf91d07bd6f62d884b0711ef5970507693d0cbeb929e589a9905f272d6c06",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_2e04c1133ffa95d02ac72096_0",
+      "kind": "p",
+      "source": "See the dedicated page: __TRILIUM_PH_0__Supported syntax__TRILIUM_PH_1__",
+      "sourceHash": "2e04c1133ffa95d02ac720960ee60501778c42afb54550e79516963dbf5756a9",
+      "context": "Markdown > Supported syntax",
+      "contextHash": "668bf91d07bd6f62d884b0711ef5970507693d0cbeb929e589a9905f272d6c06",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_b190d47815633246b0ab18a6_0",
+      "kind": "image-alt",
+      "source": "記事画像",
+      "sourceHash": "b190d47815633246b0ab18a61d9b8e8ea36504fe3f8bc230a7753096915c9ff2",
+      "context": "Markdown > Supported syntax",
+      "contextHash": "668bf91d07bd6f62d884b0711ef5970507693d0cbeb929e589a9905f272d6c06",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_b190d47815633246b0ab18a6_1",
+      "kind": "image-alt",
+      "source": "記事画像",
+      "sourceHash": "b190d47815633246b0ab18a61d9b8e8ea36504fe3f8bc230a7753096915c9ff2",
+      "context": "Markdown > Supported syntax",
+      "contextHash": "668bf91d07bd6f62d884b0711ef5970507693d0cbeb929e589a9905f272d6c06",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_b190d47815633246b0ab18a6_2",
+      "kind": "image-alt",
+      "source": "記事画像",
+      "sourceHash": "b190d47815633246b0ab18a61d9b8e8ea36504fe3f8bc230a7753096915c9ff2",
+      "context": "Markdown > Supported syntax",
+      "contextHash": "668bf91d07bd6f62d884b0711ef5970507693d0cbeb929e589a9905f272d6c06",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_b190d47815633246b0ab18a6_3",
+      "kind": "image-alt",
+      "source": "記事画像",
+      "sourceHash": "b190d47815633246b0ab18a61d9b8e8ea36504fe3f8bc230a7753096915c9ff2",
+      "context": "Markdown > Supported syntax",
+      "contextHash": "668bf91d07bd6f62d884b0711ef5970507693d0cbeb929e589a9905f272d6c06",
+      "status": "pending",
+      "active": true
+    }
+  ],
+  "requests": []
+}

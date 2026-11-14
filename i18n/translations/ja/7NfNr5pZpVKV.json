@@ -1,0 +1,249 @@
+{
+  "schemaVersion": 1,
+  "pageId": "7NfNr5pZpVKV",
+  "sourceFile": "docs/User Guide/User Guide/Theme development/Creating a custom theme.md",
+  "sourceRevision": "03d17b60f59b5efc29b880b11481471d0fe0ff57",
+  "units": [
+    {
+      "id": "u_e87caf57a561269ea8dc515b_0",
+      "kind": "title",
+      "source": "Creating a custom theme",
+      "sourceHash": "e87caf57a561269ea8dc515b02267912f4c3ac5e8d22f2d1bf65369030587bb4",
+      "context": "Creating a custom theme",
+      "contextHash": "8681f02e1127ce4f6ff2d418d98c50fe77c13aeac977692c38424cf69ab36a52",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_fad312b3cf5ed92fd4e6bbdd_0",
+      "kind": "h2",
+      "source": "Step 1. Find a place to place the themes__TRILIUM_PH_0__",
+      "sourceHash": "fad312b3cf5ed92fd4e6bbdd935fce450602499664730c032af1e41e95428a85",
+      "context": "Creating a custom theme > Step 1. Find a place to place the themes",
+      "contextHash": "eb6a7dfcd722cf76a39c37b8999777e915978d17fae6c90e23d38b5b659084d9",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_e504d8f6c74216c0fcf88586_0",
+      "kind": "p",
+      "source": "Organization is an important aspect of managing a knowledge base. When developing a new theme or importing an existing one it's a good idea to keep them into one place.",
+      "sourceHash": "e504d8f6c74216c0fcf88586ec207d5c8038d76606cfc1e0e20e640c578cf209",
+      "context": "Creating a custom theme > Step 1. Find a place to place the themes",
+      "contextHash": "eb6a7dfcd722cf76a39c37b8999777e915978d17fae6c90e23d38b5b659084d9",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_c934023f9c973fe034be3969_0",
+      "kind": "p",
+      "source": "As such, the first step is to create a new note to gather all the themes.",
+      "sourceHash": "c934023f9c973fe034be3969188526287c843003adf8b530f4037fd8391e9a03",
+      "context": "Creating a custom theme > Step 1. Find a place to place the themes",
+      "contextHash": "eb6a7dfcd722cf76a39c37b8999777e915978d17fae6c90e23d38b5b659084d9",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_9d76cd8f7b72b955c6cfbe90_0",
+      "kind": "h2",
+      "source": "Step 2. Create the theme__TRILIUM_PH_0__",
+      "sourceHash": "9d76cd8f7b72b955c6cfbe9086ad6df41c52d51986aa71d4c15ac881b782fe80",
+      "context": "Creating a custom theme > Step 2. Create the theme",
+      "contextHash": "b4d40ddb5362e783d017bf39b329fa4ddef8f2f6482275a24af5238b9449b4ba",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_53122d4756bbe955f8c46822_0",
+      "kind": "td",
+      "source": "Themes are code notes with a special attribute. Start by creating a new code note.",
+      "sourceHash": "53122d4756bbe955f8c468222f9d5dc1b34d6b8d0837669c48d432337a6409e5",
+      "context": "Creating a custom theme > Step 2. Create the theme",
+      "contextHash": "b4d40ddb5362e783d017bf39b329fa4ddef8f2f6482275a24af5238b9449b4ba",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_53b7ea1b6b48957db793a07e_0",
+      "kind": "td",
+      "source": "Then change the note type to a CSS code.",
+      "sourceHash": "53b7ea1b6b48957db793a07e7304a3086c2103e9fbe7e520a316bf20a3a8ca52",
+      "context": "Creating a custom theme > Step 2. Create the theme",
+      "contextHash": "b4d40ddb5362e783d017bf39b329fa4ddef8f2f6482275a24af5238b9449b4ba",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_93e4d68834a10ca74eeee4c0_0",
+      "kind": "td",
+      "source": "In the attributes of the note (the __TRILIUM_PH_0____TRILIUM_PH_1__ button in the __TRILIUM_PH_2__Status bar__TRILIUM_PH_3__), define the __TRILIUM_PH_4__ attribute to point to any desired name. This is the name that will show up in the appearance section in settings.",
+      "sourceHash": "93e4d68834a10ca74eeee4c0266f79b59c7d335a67bbfd5e7246cec97409b824",
+      "context": "Creating a custom theme > Step 2. Create the theme",
+      "contextHash": "b4d40ddb5362e783d017bf39b329fa4ddef8f2f6482275a24af5238b9449b4ba",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_465b0c5be1e502d37a8265b2_0",
+      "kind": "h2",
+      "source": "Step 3. Define the theme's CSS__TRILIUM_PH_0__",
+      "sourceHash": "465b0c5be1e502d37a8265b26e584621ab7b0a9ca031e521be1e6db82d652ac6",
+      "context": "Creating a custom theme > Step 3. Define the theme's CSS",
+      "contextHash": "f932ddf06cfd44d8cabbf67ecfd84c3555887cff31c96f0f17cd8dea70fc3c2d",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_4694888d8c45dc22b6799000_0",
+      "kind": "p",
+      "source": "As a very simple example we will change the background color of the launcher pane to a shade of blue.",
+      "sourceHash": "4694888d8c45dc22b67990009d77d8f1e4ff1468171e8e28646283dd4c505216",
+      "context": "Creating a custom theme > Step 3. Define the theme's CSS",
+      "contextHash": "f932ddf06cfd44d8cabbf67ecfd84c3555887cff31c96f0f17cd8dea70fc3c2d",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_d2442d4dd70fbcc6c6f6f7d2_0",
+      "kind": "p",
+      "source": "To alter the different variables of the theme:",
+      "sourceHash": "d2442d4dd70fbcc6c6f6f7d28dd1b6bb35ccd59944ddfb51922f8a2154f75656",
+      "context": "Creating a custom theme > Step 3. Define the theme's CSS",
+      "contextHash": "f932ddf06cfd44d8cabbf67ecfd84c3555887cff31c96f0f17cd8dea70fc3c2d",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_09edf4017e0cec279931eb32_0",
+      "kind": "h2",
+      "source": "Step 4. Activating the theme__TRILIUM_PH_0__",
+      "sourceHash": "09edf4017e0cec279931eb32fd4ff08bddce2b4c923771cc8209a4ad7e330d80",
+      "context": "Creating a custom theme > Step 4. Activating the theme",
+      "contextHash": "ad00934423964dd5dcbf53403e85029ab76ecd149706cdce65f6574d8c4cd754",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_eb8bb2cbebaec0f958a62b4e_0",
+      "kind": "p",
+      "source": "Refresh the application (Ctrl+Shift+R is a good way to do so) and go to settings. You should see the newly created theme:",
+      "sourceHash": "eb8bb2cbebaec0f958a62b4e656e8a54b0f8f8e5b44e46083d295a2e49e4333a",
+      "context": "Creating a custom theme > Step 4. Activating the theme",
+      "contextHash": "ad00934423964dd5dcbf53403e85029ab76ecd149706cdce65f6574d8c4cd754",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_67bb4075d7bfb57fdd5942a2_0",
+      "kind": "p",
+      "source": "Afterwards the application will refresh itself with the new theme:",
+      "sourceHash": "67bb4075d7bfb57fdd5942a2949d4f54a238c7d5ecad8d7418b67ff6af676de1",
+      "context": "Creating a custom theme > Step 4. Activating the theme",
+      "contextHash": "ad00934423964dd5dcbf53403e85029ab76ecd149706cdce65f6574d8c4cd754",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_9ffffab7ab7968e9bfce14af_0",
+      "kind": "p",
+      "source": "Do note that the theme will be based off of the legacy theme. To override that and base the theme on the Modern theme, see __TRILIUM_PH_0__Customize the Next theme__TRILIUM_PH_1__.",
+      "sourceHash": "9ffffab7ab7968e9bfce14af954a64d80abdccfea4e072f1b29744bef0d0b7e0",
+      "context": "Creating a custom theme > Step 4. Activating the theme",
+      "contextHash": "ad00934423964dd5dcbf53403e85029ab76ecd149706cdce65f6574d8c4cd754",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_24341a3b9566de6233efd14c_0",
+      "kind": "h2",
+      "source": "Step 5. Making changes__TRILIUM_PH_0__",
+      "sourceHash": "24341a3b9566de6233efd14cfac8e8c2d42f1bbac5813c5522a32699d4f6b6e8",
+      "context": "Creating a custom theme > Step 5. Making changes",
+      "contextHash": "4894c6cc0ec1525f8e815a2efdf9cdc8166d88010798f0f91a67bcc8c2cac918",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_8b3aaea5ab3f44c4d258287a_0",
+      "kind": "p",
+      "source": "Simply go back to the note and change according to needs. To apply the changes to the current window, press __TRILIUM_PH_0__Ctrl__TRILIUM_PH_1__+__TRILIUM_PH_2__Shift__TRILIUM_PH_3__+__TRILIUM_PH_4__R__TRILIUM_PH_5__ to refresh.",
+      "sourceHash": "8b3aaea5ab3f44c4d258287ac189586a246811ce4fd24afc4d45141a666285f1",
+      "context": "Creating a custom theme > Step 5. Making changes",
+      "contextHash": "4894c6cc0ec1525f8e815a2efdf9cdc8166d88010798f0f91a67bcc8c2cac918",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_0f713c41c42e7e00e9c07c5e_0",
+      "kind": "p",
+      "source": "It's a good idea to keep two windows, one for editing and the other one for previewing the changes.",
+      "sourceHash": "0f713c41c42e7e00e9c07c5ed9ed792d6ecd7e003863d416d586bab6abc873a5",
+      "context": "Creating a custom theme > Step 5. Making changes",
+      "contextHash": "4894c6cc0ec1525f8e815a2efdf9cdc8166d88010798f0f91a67bcc8c2cac918",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_b190d47815633246b0ab18a6_0",
+      "kind": "image-alt",
+      "source": "記事画像",
+      "sourceHash": "b190d47815633246b0ab18a61d9b8e8ea36504fe3f8bc230a7753096915c9ff2",
+      "context": "Creating a custom theme > Step 5. Making changes",
+      "contextHash": "4894c6cc0ec1525f8e815a2efdf9cdc8166d88010798f0f91a67bcc8c2cac918",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_b190d47815633246b0ab18a6_1",
+      "kind": "image-alt",
+      "source": "記事画像",
+      "sourceHash": "b190d47815633246b0ab18a61d9b8e8ea36504fe3f8bc230a7753096915c9ff2",
+      "context": "Creating a custom theme > Step 5. Making changes",
+      "contextHash": "4894c6cc0ec1525f8e815a2efdf9cdc8166d88010798f0f91a67bcc8c2cac918",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_b190d47815633246b0ab18a6_2",
+      "kind": "image-alt",
+      "source": "記事画像",
+      "sourceHash": "b190d47815633246b0ab18a61d9b8e8ea36504fe3f8bc230a7753096915c9ff2",
+      "context": "Creating a custom theme > Step 5. Making changes",
+      "contextHash": "4894c6cc0ec1525f8e815a2efdf9cdc8166d88010798f0f91a67bcc8c2cac918",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_b190d47815633246b0ab18a6_3",
+      "kind": "image-alt",
+      "source": "記事画像",
+      "sourceHash": "b190d47815633246b0ab18a61d9b8e8ea36504fe3f8bc230a7753096915c9ff2",
+      "context": "Creating a custom theme > Step 5. Making changes",
+      "contextHash": "4894c6cc0ec1525f8e815a2efdf9cdc8166d88010798f0f91a67bcc8c2cac918",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_b190d47815633246b0ab18a6_4",
+      "kind": "image-alt",
+      "source": "記事画像",
+      "sourceHash": "b190d47815633246b0ab18a61d9b8e8ea36504fe3f8bc230a7753096915c9ff2",
+      "context": "Creating a custom theme > Step 5. Making changes",
+      "contextHash": "4894c6cc0ec1525f8e815a2efdf9cdc8166d88010798f0f91a67bcc8c2cac918",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_b190d47815633246b0ab18a6_5",
+      "kind": "image-alt",
+      "source": "記事画像",
+      "sourceHash": "b190d47815633246b0ab18a61d9b8e8ea36504fe3f8bc230a7753096915c9ff2",
+      "context": "Creating a custom theme > Step 5. Making changes",
+      "contextHash": "4894c6cc0ec1525f8e815a2efdf9cdc8166d88010798f0f91a67bcc8c2cac918",
+      "status": "pending",
+      "active": true
+    }
+  ],
+  "requests": []
+}

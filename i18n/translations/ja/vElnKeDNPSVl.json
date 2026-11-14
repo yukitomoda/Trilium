@@ -1,0 +1,119 @@
+{
+  "schemaVersion": 1,
+  "pageId": "vElnKeDNPSVl",
+  "sourceFile": "docs/User Guide/User Guide/Scripting/Logging.md",
+  "sourceRevision": "03d17b60f59b5efc29b880b11481471d0fe0ff57",
+  "units": [
+    {
+      "id": "u_afa37a67c4c9980635be491e_0",
+      "kind": "title",
+      "source": "Logging",
+      "sourceHash": "afa37a67c4c9980635be491e18f53d7626cc50608981cb85d33df2992b1103a3",
+      "context": "Logging",
+      "contextHash": "d3ef01b4a9c9910364c9b26b2499c8787a0461d2d24ab80376fff736a288b34c",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_406bc5196ac92e619cd8e97d_0",
+      "kind": "p",
+      "source": "Both front-end and back-end notes can log messages for debugging.",
+      "sourceHash": "406bc5196ac92e619cd8e97d4bc6f9f946e49b31d3f03b184ee21408d33d6cdc",
+      "context": "Logging",
+      "contextHash": "d3ef01b4a9c9910364c9b26b2499c8787a0461d2d24ab80376fff736a288b34c",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_876e02af6a335a4c15777456_0",
+      "kind": "h2",
+      "source": "UI logging via __TRILIUM_PH_0____TRILIUM_PH_1__",
+      "sourceHash": "876e02af6a335a4c157774566710637afe2a2b929999a1ebaeab8baa20c6b3a4",
+      "context": "Logging > UI logging via api.log",
+      "contextHash": "ef159b2a3bc8068fff8a6125338bc670e2a971ee4673e9ea97daf348794ef783",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_c1eeee213bee15daf533cfbf_0",
+      "kind": "p",
+      "source": "The API log feature integrates with the script editor and it displays all the messages logged via __TRILIUM_PH_0__. This works for both back-end and front-end scripts.",
+      "sourceHash": "c1eeee213bee15daf533cfbfb35855acac2807fc936de50642f9d3204ee74e18",
+      "context": "Logging > UI logging via api.log",
+      "contextHash": "ef159b2a3bc8068fff8a6125338bc670e2a971ee4673e9ea97daf348794ef783",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_f9b1d96b6b2885426375c1d2_0",
+      "kind": "p",
+      "source": "The API log panel will appear at the bottom of a note (including in __TRILIUM_PH_0__Quick edit__TRILIUM_PH_1__) after executing a script that uses __TRILIUM_PH_2__. It can be dismissed temporarily by pressing the close button in the top-right of the panel.",
+      "sourceHash": "f9b1d96b6b2885426375c1d246b74df1d9c9df0d0f961a301df1cf57af5dc75d",
+      "context": "Logging > UI logging via api.log",
+      "contextHash": "ef159b2a3bc8068fff8a6125338bc670e2a971ee4673e9ea97daf348794ef783",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_adcc55539ded38f1d1f08797_0",
+      "kind": "p",
+      "source": "Apart from strings, an object can be passed as well in which case it will be pretty-formatted if possible (e.g. recursive objects are not supported).",
+      "sourceHash": "adcc55539ded38f1d1f087971bfaa3a148553ea7e5f2660763e3beedd247936f",
+      "context": "Logging > UI logging via api.log",
+      "contextHash": "ef159b2a3bc8068fff8a6125338bc670e2a971ee4673e9ea97daf348794ef783",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_38916fc9371b31fd97a13127_0",
+      "kind": "h2",
+      "source": "Console logging__TRILIUM_PH_0__",
+      "sourceHash": "38916fc9371b31fd97a13127e693732faf3508bb4763fe03e4aa42b222b2b4ea",
+      "context": "Logging > Console logging",
+      "contextHash": "214965454c6519962b94ac08057255bbf110929df3e2e333da3401c45d501cfe",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_36cd4d0a6041ef24c378323c_0",
+      "kind": "p",
+      "source": "For logs that are not directly visible to the user, the standard __TRILIUM_PH_0__ can be used as well.",
+      "sourceHash": "36cd4d0a6041ef24c378323cad90903be803dea5b3c1a02002c7fe948c738c54",
+      "context": "Logging > Console logging",
+      "contextHash": "214965454c6519962b94ac08057255bbf110929df3e2e333da3401c45d501cfe",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_8cb48fe8cf3986d6d10e85e8_0",
+      "kind": "li",
+      "source": "For front-end scripts, the log will be shown in the Developer Tools (also known as Inspect).",
+      "sourceHash": "8cb48fe8cf3986d6d10e85e8165c1b85b94ae489d158a7cabee2480d4343041e",
+      "context": "Logging > Console logging",
+      "contextHash": "214965454c6519962b94ac08057255bbf110929df3e2e333da3401c45d501cfe",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_45014d9d5e17ad9a89ac3e89_0",
+      "kind": "li",
+      "source": "For back-end scripts, the log will be shown in the server output while running but __TRILIUM_PH_0__will not__TRILIUM_PH_1__ be visible in the __TRILIUM_PH_2__Backend (server) logs__TRILIUM_PH_3__.",
+      "sourceHash": "45014d9d5e17ad9a89ac3e89b7180b961c6fdf3692829879d75ad77e84b338a3",
+      "context": "Logging > Console logging",
+      "contextHash": "214965454c6519962b94ac08057255bbf110929df3e2e333da3401c45d501cfe",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_b190d47815633246b0ab18a6_0",
+      "kind": "image-alt",
+      "source": "記事画像",
+      "sourceHash": "b190d47815633246b0ab18a61d9b8e8ea36504fe3f8bc230a7753096915c9ff2",
+      "context": "Logging > Console logging",
+      "contextHash": "214965454c6519962b94ac08057255bbf110929df3e2e333da3401c45d501cfe",
+      "status": "pending",
+      "active": true
+    }
+  ],
+  "requests": []
+}

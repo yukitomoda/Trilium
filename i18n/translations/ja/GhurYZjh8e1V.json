@@ -1,0 +1,99 @@
+{
+  "schemaVersion": 1,
+  "pageId": "GhurYZjh8e1V",
+  "sourceFile": "docs/User Guide/User Guide/Scripting/Frontend Basics/Custom Widgets/Note context aware widget.md",
+  "sourceRevision": "03d17b60f59b5efc29b880b11481471d0fe0ff57",
+  "units": [
+    {
+      "id": "u_6b78ddd1dc12d30c7ef47c04_0",
+      "kind": "title",
+      "source": "Note context aware widget",
+      "sourceHash": "6b78ddd1dc12d30c7ef47c041e91d0eb2e65844e8e5223efdb64eb6770c682dd",
+      "context": "Note context aware widget",
+      "contextHash": "38056d8742b2d4f4fce0e19f55548ded8e2a764925ff72e67fe97f75bbd76e36",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_72502eaac9b5728857048b85_0",
+      "kind": "p",
+      "source": "Note context-aware widgets are a different type of widget which automatically react to changes in the current note.",
+      "sourceHash": "72502eaac9b5728857048b859044b07ece4ce2140849763955b5c81a721d6bb3",
+      "context": "Note context aware widget",
+      "contextHash": "38056d8742b2d4f4fce0e19f55548ded8e2a764925ff72e67fe97f75bbd76e36",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_ed2cbe2a4a1c5964d31b9e13_0",
+      "kind": "p",
+      "source": "Important aspects:",
+      "sourceHash": "ed2cbe2a4a1c5964d31b9e130633837cc4a64d8f14a08b5c7bd64730b0f9789a",
+      "context": "Note context aware widget",
+      "contextHash": "38056d8742b2d4f4fce0e19f55548ded8e2a764925ff72e67fe97f75bbd76e36",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_996cab19015a94d3a9f7b8fb_0",
+      "kind": "li",
+      "source": "The widget must export a __TRILIUM_PH_0__ and not an instance of the class (e.g. __TRILIUM_PH_1__) because it needs to be multiplied for each note, so that splits work correctly.",
+      "sourceHash": "996cab19015a94d3a9f7b8fbd18131e148bbb781a6682e60ee34b74ccc25e72e",
+      "context": "Note context aware widget",
+      "contextHash": "38056d8742b2d4f4fce0e19f55548ded8e2a764925ff72e67fe97f75bbd76e36",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_c5dde00f00aabd9f8370d726_0",
+      "kind": "li",
+      "source": "Since the __TRILIUM_PH_0__ is exported instead of an instance, the __TRILIUM_PH_1__ getter must be __TRILIUM_PH_2__, otherwise the widget is ignored.",
+      "sourceHash": "c5dde00f00aabd9f8370d726a97f28e396f484bc805b940aca612d1d0fd4eeb2",
+      "context": "Note context aware widget",
+      "contextHash": "38056d8742b2d4f4fce0e19f55548ded8e2a764925ff72e67fe97f75bbd76e36",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_2b600c484b383aa3c3cfa179_0",
+      "kind": "h2",
+      "source": "Example displaying the current note title__TRILIUM_PH_0__",
+      "sourceHash": "2b600c484b383aa3c3cfa17923a69cad1b10aacf27b435396040f923b3daabc5",
+      "context": "Note context aware widget > Example displaying the current note title",
+      "contextHash": "ae6d844bdfaca2078b956f110135b77c3e3dff4e998ab82f744f3a4bc7d2e720",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_9fe0132622a2814611aa4295_0",
+      "kind": "p",
+      "source": "This is a note context-aware widget that simply displays the name the current note. ",
+      "sourceHash": "9fe0132622a2814611aa42952f01d771f23b0c6f6d94a7427e812222d6f4d64d",
+      "context": "Note context aware widget > Example displaying the current note title",
+      "contextHash": "ae6d844bdfaca2078b956f110135b77c3e3dff4e998ab82f744f3a4bc7d2e720",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_3c39a0d37c837a5f87473e92_0",
+      "kind": "h3",
+      "source": "Classic example__TRILIUM_PH_0__",
+      "sourceHash": "3c39a0d37c837a5f87473e92d311cc40acb841b22dba985d272694475e94dc0d",
+      "context": "Note context aware widget > Example displaying the current note title > Classic example",
+      "contextHash": "1f948ef6f7350751490b16d493377805efdf396d8aad6a193ba7f9a56e1460bb",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_a5d732611f15c49ea41e2c61_0",
+      "kind": "h3",
+      "source": "Preact (v0.101.0+)__TRILIUM_PH_0__",
+      "sourceHash": "a5d732611f15c49ea41e2c61e15107901ab8e6caf37e1e04b85c647908edf77b",
+      "context": "Note context aware widget > Example displaying the current note title > Preact (v0.101.0+)",
+      "contextHash": "f40d3b143b2fd1a9f30fc8598d4a1109fd97502aedb44a45614c63501025f71a",
+      "status": "pending",
+      "active": true
+    }
+  ],
+  "requests": []
+}

@@ -1,0 +1,139 @@
+{
+  "schemaVersion": 1,
+  "pageId": "kBrnXNG3Hplm",
+  "sourceFile": "docs/User Guide/User Guide/Basic Concepts and Features/Navigation/Tree Concepts.md",
+  "sourceRevision": "03d17b60f59b5efc29b880b11481471d0fe0ff57",
+  "units": [
+    {
+      "id": "u_0c50f4639f7465b2ba05ad0a_0",
+      "kind": "title",
+      "source": "Tree Concepts",
+      "sourceHash": "0c50f4639f7465b2ba05ad0afc038e50cdfd12bbb6642fe94a3229d255b2525e",
+      "context": "Tree Concepts",
+      "contextHash": "873e24fd83120ab002c8679f46fe8cd0efee3b900d8c67bc0fd2a0e102ccbd97",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_4908d9d1516f61d258e690f7_0",
+      "kind": "p",
+      "source": "This page explains the basic concepts related to the tree structure of notes in TriliumNext.",
+      "sourceHash": "4908d9d1516f61d258e690f7f3c8a369c48b36661225ee3cb0aa4de321db2e6f",
+      "context": "Tree Concepts",
+      "contextHash": "873e24fd83120ab002c8679f46fe8cd0efee3b900d8c67bc0fd2a0e102ccbd97",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_926f670ed52ba64fef54148c_0",
+      "kind": "h2",
+      "source": "Note__TRILIUM_PH_0__",
+      "sourceHash": "926f670ed52ba64fef54148cae16466ff97b680f9cd080ff6ef9cee102762881",
+      "context": "Tree Concepts > Note",
+      "contextHash": "50e80c5487f53896fa79d3349b259453cf68a9be5d11d822d0e7082a5f6390fc",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_563e390d46fb443b860c1a76_0",
+      "kind": "p",
+      "source": "A note is the central entity in TriliumNext. For more details, see __TRILIUM_PH_0__Notes__TRILIUM_PH_1__.",
+      "sourceHash": "563e390d46fb443b860c1a7695e8b868e1cb3ba5ddb0b127fdf83101b78aed7c",
+      "context": "Tree Concepts > Note",
+      "contextHash": "50e80c5487f53896fa79d3349b259453cf68a9be5d11d822d0e7082a5f6390fc",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_8b053846b923f8e111accdbd_0",
+      "kind": "h2",
+      "source": "Branch__TRILIUM_PH_0__",
+      "sourceHash": "8b053846b923f8e111accdbd21cb1646aa3532612f1906f39f8af66658c95329",
+      "context": "Tree Concepts > Branch",
+      "contextHash": "ab1a872c0239d1eb28e52a39659e4effc03cf510337da2c15f7b26fec9c951a8",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_f3d0dcd4621190d240284924_0",
+      "kind": "p",
+      "source": "A branch describes the placement of a note within the note tree. Essentially, it is a tuple of __TRILIUM_PH_0__ and __TRILIUM_PH_1__, indicating that the given note is placed as a child under the specified parent note.",
+      "sourceHash": "f3d0dcd4621190d2402849246b01fa06f3e1e526d8690773c0000c166766b9a9",
+      "context": "Tree Concepts > Branch",
+      "contextHash": "ab1a872c0239d1eb28e52a39659e4effc03cf510337da2c15f7b26fec9c951a8",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_8164e9a7cc78179638606efd_0",
+      "kind": "p",
+      "source": "Each note can have multiple branches, meaning any note can be placed in multiple locations within the tree. This concept is referred to as __TRILIUM_PH_0__Cloning Notes__TRILIUM_PH_1__.",
+      "sourceHash": "8164e9a7cc78179638606efdb433a346adc914f50e9f4c933879bdc63e4f4643",
+      "context": "Tree Concepts > Branch",
+      "contextHash": "ab1a872c0239d1eb28e52a39659e4effc03cf510337da2c15f7b26fec9c951a8",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_01fac19d0083763091d749fa_0",
+      "kind": "h2",
+      "source": "Prefix__TRILIUM_PH_0__",
+      "sourceHash": "01fac19d0083763091d749fa76a7f9702e4092e58b47ddabc5a9d547f1395653",
+      "context": "Tree Concepts > Prefix",
+      "contextHash": "5c29959b3e6b9499f809a1300c264b839879e143cc44b8d116722e3bd1c08d37",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_180c7e97334c6ec1944c44e7_0",
+      "kind": "p",
+      "source": "A prefix is a branch-specific title modifier for a note. If you place your note in two different locations within the tree and want to alter the title slightly in one of those placements, you can use a prefix.",
+      "sourceHash": "180c7e97334c6ec1944c44e7390d2a135a62b243475073fa529e234f34da629b",
+      "context": "Tree Concepts > Prefix",
+      "contextHash": "5c29959b3e6b9499f809a1300c264b839879e143cc44b8d116722e3bd1c08d37",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_0994acb5cb179f9ef838c55d_0",
+      "kind": "p",
+      "source": "To edit a prefix, right-click on the note in the tree pane and select __TRILIUM_PH_0__Edit branch prefix__TRILIUM_PH_1__.",
+      "sourceHash": "0994acb5cb179f9ef838c55d90bddab4df37c3f0f197f6e208f1c9c56ab36f60",
+      "context": "Tree Concepts > Prefix",
+      "contextHash": "5c29959b3e6b9499f809a1300c264b839879e143cc44b8d116722e3bd1c08d37",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_db8a8621109853435a192d38_0",
+      "kind": "p",
+      "source": "The prefix is not part of the note itself and is not encrypted when the note is protected. This can be useful if you want part of the title to remain visible in the tree for easier navigation, even when the note is protected.",
+      "sourceHash": "db8a8621109853435a192d389f01148ab615d2db24ae8939248e0886941a93a5",
+      "context": "Tree Concepts > Prefix",
+      "contextHash": "5c29959b3e6b9499f809a1300c264b839879e143cc44b8d116722e3bd1c08d37",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_6f82d2bd39131b3d966e2fdc_0",
+      "kind": "h2",
+      "source": "Subtree__TRILIUM_PH_0__",
+      "sourceHash": "6f82d2bd39131b3d966e2fdcbaac2d02b2a00af86de14a452a6879161444476a",
+      "context": "Tree Concepts > Subtree",
+      "contextHash": "03fe9df74ba71fab3d86acf41db2162aa151a3013c16c10dd96eaf6314f51561",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_891e887c05bd605f8c0d6b00_0",
+      "kind": "p",
+      "source": "A subtree consists of a particular note (the subtree root) and all its children and descendants. Some operations, such as exporting, work on entire subtrees.",
+      "sourceHash": "891e887c05bd605f8c0d6b00919e17a6afc97e4fa82d003ad1594d612e77a005",
+      "context": "Tree Concepts > Subtree",
+      "contextHash": "03fe9df74ba71fab3d86acf41db2162aa151a3013c16c10dd96eaf6314f51561",
+      "status": "pending",
+      "active": true
+    }
+  ],
+  "requests": []
+}

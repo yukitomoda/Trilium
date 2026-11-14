@@ -1,0 +1,969 @@
+{
+  "schemaVersion": 1,
+  "pageId": "HI6GBBIduIgv",
+  "sourceFile": "docs/User Guide/User Guide/Advanced Usage/Attributes/Labels.md",
+  "sourceRevision": "03d17b60f59b5efc29b880b11481471d0fe0ff57",
+  "units": [
+    {
+      "id": "u_5d7d25708c6a67da8161750a_0",
+      "kind": "title",
+      "source": "Labels",
+      "sourceHash": "5d7d25708c6a67da8161750a6cb4f20d1d541f88c97c10c3b0583282808728a2",
+      "context": "Labels",
+      "contextHash": "934b8899c3d918d4b40bbb3512aed9c4ecd639c4be8e2263106536922a423121",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_f89c070ebc6798b9a8b83c29_0",
+      "kind": "p",
+      "source": "A label is an __TRILIUM_PH_0__attribute__TRILIUM_PH_1__ of a note which has a name and optionally a value.",
+      "sourceHash": "f89c070ebc6798b9a8b83c295744424de246f399aa36b10fc8ccdc950f47947d",
+      "context": "Labels",
+      "contextHash": "934b8899c3d918d4b40bbb3512aed9c4ecd639c4be8e2263106536922a423121",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_793ffc73dc833d90fb704f29_0",
+      "kind": "h2",
+      "source": "Common use cases__TRILIUM_PH_0__",
+      "sourceHash": "793ffc73dc833d90fb704f293dba499ee52b245296d9c4180317254913e0a7f2",
+      "context": "Labels > Common use cases",
+      "contextHash": "7b76231fdef71aa966913dc3da51c5ddf2042d1c55f083e3344ffab99f92c367",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_d3a186e3a92591b86b2b6097_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__Metadata for personal use__TRILIUM_PH_1__: Assign labels with optional values for categorization, such as __TRILIUM_PH_2__, __TRILIUM_PH_3__, or __TRILIUM_PH_4__. This can be combined with __TRILIUM_PH_5__Promoted Attributes__TRILIUM_PH_6__ to make their display more user-friendly.",
+      "sourceHash": "d3a186e3a92591b86b2b60971f77ae7b9c26d24c8e837881f697a904ae4d28c1",
+      "context": "Labels > Common use cases",
+      "contextHash": "7b76231fdef71aa966913dc3da51c5ddf2042d1c55f083e3344ffab99f92c367",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_33092025d6b4c196eaf01e2e_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__Configuration__TRILIUM_PH_1__: Labels can configure advanced features or settings (see reference below).",
+      "sourceHash": "33092025d6b4c196eaf01e2e39d4aaaa02e0c7350017813c80c3217c3c9d9c29",
+      "context": "Labels > Common use cases",
+      "contextHash": "7b76231fdef71aa966913dc3da51c5ddf2042d1c55f083e3344ffab99f92c367",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_fa299510def739a6527f89f0_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__Scripts and Plugins__TRILIUM_PH_1__: Used to tag notes with special metadata, such as the \"weight\" attribute in the __TRILIUM_PH_2__Weight Tracker__TRILIUM_PH_3__.",
+      "sourceHash": "fa299510def739a6527f89f09a100cd0cf32e31ab6ddd0f8dd66faafe2a3e6a8",
+      "context": "Labels > Common use cases",
+      "contextHash": "7b76231fdef71aa966913dc3da51c5ddf2042d1c55f083e3344ffab99f92c367",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_76e3583b0b56aac3112e557e_0",
+      "kind": "h2",
+      "source": "Creating a label using the visual editor__TRILIUM_PH_0__",
+      "sourceHash": "76e3583b0b56aac3112e557e97b7c7fed48957d3dc97b6b7b21d6da394fcb945",
+      "context": "Labels > Creating a label using the visual editor",
+      "contextHash": "fca3807273e43efbe217e1c2fda93e846f22b27a33135b5fa319e3719551adaa",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_38b6d66202d9cf97db0c2511_0",
+      "kind": "li",
+      "source": "Go to the __TRILIUM_PH_0__Attributes tab__TRILIUM_PH_1__ in the __TRILIUM_PH_2__Right Sidebar__TRILIUM_PH_3__.",
+      "sourceHash": "38b6d66202d9cf97db0c2511b0e4fec162e786dbca5832985c39b44321d6e487",
+      "context": "Labels > Creating a label using the visual editor",
+      "contextHash": "fca3807273e43efbe217e1c2fda93e846f22b27a33135b5fa319e3719551adaa",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_f8e1400340cafd9f97623577_0",
+      "kind": "li",
+      "source": "Press the __TRILIUM_PH_0__ (Add attribute) button at the end of the list, or via the __TRILIUM_PH_1__ button at the top-right of the section → __TRILIUM_PH_2__Add new label__TRILIUM_PH_3__.",
+      "sourceHash": "f8e1400340cafd9f976235771b45f4d4e9f91c5ac4d16ec9d110db8f2083b8d8",
+      "context": "Labels > Creating a label using the visual editor",
+      "contextHash": "fca3807273e43efbe217e1c2fda93e846f22b27a33135b5fa319e3719551adaa",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_f9cc3e05488048550944848e_0",
+      "kind": "p",
+      "source": "While in the visual editor:",
+      "sourceHash": "f9cc3e05488048550944848eb37509e49e6af2ca1d3043da27618858c6108580",
+      "context": "Labels > Creating a label using the visual editor",
+      "contextHash": "fca3807273e43efbe217e1c2fda93e846f22b27a33135b5fa319e3719551adaa",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_cc96e49725c65a68ef6b6330_0",
+      "kind": "li",
+      "source": "Set the desired name.",
+      "sourceHash": "cc96e49725c65a68ef6b6330e6f381fdfa8119ef5579f1183aa0a6aee9b22257",
+      "context": "Labels > Creating a label using the visual editor",
+      "contextHash": "fca3807273e43efbe217e1c2fda93e846f22b27a33135b5fa319e3719551adaa",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_84379ba73e5f8c3231a5b64d_0",
+      "kind": "li",
+      "source": "Optionally, set the value of the label. Labels can exist without a value.",
+      "sourceHash": "84379ba73e5f8c3231a5b64dea678bd5309675d39e0b0fc7094206ecd4f869a7",
+      "context": "Labels > Creating a label using the visual editor",
+      "contextHash": "fca3807273e43efbe217e1c2fda93e846f22b27a33135b5fa319e3719551adaa",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_7d3e142b4cb7bb4bbf120d16_0",
+      "kind": "li",
+      "source": "Children can inherit this relation, click the relation and check __TRILIUM_PH_0__Inheritable__TRILIUM_PH_1__. See __TRILIUM_PH_2__Attribute Inheritance__TRILIUM_PH_3__ for more information.",
+      "sourceHash": "7d3e142b4cb7bb4bbf120d164e936ac283932013ab2ff8b0e023abb9df2644b7",
+      "context": "Labels > Creating a label using the visual editor",
+      "contextHash": "fca3807273e43efbe217e1c2fda93e846f22b27a33135b5fa319e3719551adaa",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_cf54a31e163ab32c6e90ec92_0",
+      "kind": "p",
+      "source": "Alternatively, press __TRILIUM_PH_0__Alt__TRILIUM_PH_1__+__TRILIUM_PH_2__L__TRILIUM_PH_3__ which will open the attribute details (same view as when an existing attribute is clicked) in the __TRILIUM_PH_4__Status bar__TRILIUM_PH_5__.",
+      "sourceHash": "cf54a31e163ab32c6e90ec92a5878966f6c64443a27504249237d32618984eb0",
+      "context": "Labels > Creating a label using the visual editor",
+      "contextHash": "fca3807273e43efbe217e1c2fda93e846f22b27a33135b5fa319e3719551adaa",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_55df228d450ffdcbe947a334_0",
+      "kind": "h2",
+      "source": "Creating a label manually__TRILIUM_PH_0__",
+      "sourceHash": "55df228d450ffdcbe947a334e806666c03d46963a276d65052e7ca4162034a4c",
+      "context": "Labels > Creating a label manually",
+      "contextHash": "c108a06ada409416ed9b37fcfefa40d4e716307a44509d3aa7c44e696488d404",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_1aba29f99534eb7fe87cf187_0",
+      "kind": "p",
+      "source": "In the __TRILIUM_PH_0__Status bar__TRILIUM_PH_1__, press the __TRILIUM_PH_2__ button to show the list of the attributes.",
+      "sourceHash": "1aba29f99534eb7fe87cf18785b54c09e18f59452e081731998786df4c58a63a",
+      "context": "Labels > Creating a label manually",
+      "contextHash": "c108a06ada409416ed9b37fcfefa40d4e716307a44509d3aa7c44e696488d404",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_a193dd6e3697e623a7de8dba_0",
+      "kind": "li",
+      "source": "Click the input box to focus it.",
+      "sourceHash": "a193dd6e3697e623a7de8dbabd7ab3db1429c120979c26cfa7ff67ca75d50427",
+      "context": "Labels > Creating a label manually",
+      "contextHash": "c108a06ada409416ed9b37fcfefa40d4e716307a44509d3aa7c44e696488d404",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_12d1b2f7662d31d77816cca6_0",
+      "kind": "li",
+      "source": "To create a label called __TRILIUM_PH_0__ with no value, simply type __TRILIUM_PH_1__.",
+      "sourceHash": "12d1b2f7662d31d77816cca623da61c8ca3578f14c2d56e751320e12834dd94f",
+      "context": "Labels > Creating a label manually",
+      "contextHash": "c108a06ada409416ed9b37fcfefa40d4e716307a44509d3aa7c44e696488d404",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_730bae2eb6e4b8b95910f7e0_0",
+      "kind": "li",
+      "source": "To create a label called __TRILIUM_PH_0__ with a value __TRILIUM_PH_1__, simply type __TRILIUM_PH_2__.",
+      "sourceHash": "730bae2eb6e4b8b95910f7e07e51d429a9182178549fcebf5f5d53d61981db94",
+      "context": "Labels > Creating a label manually",
+      "contextHash": "c108a06ada409416ed9b37fcfefa40d4e716307a44509d3aa7c44e696488d404",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_74e150b43e6f776e6ee50fb2_0",
+      "kind": "li",
+      "source": "If the value contains spaces, then the text must be quoted: __TRILIUM_PH_0__.",
+      "sourceHash": "74e150b43e6f776e6ee50fb23460e436693b775713abbb2f272445488d6b04b4",
+      "context": "Labels > Creating a label manually",
+      "contextHash": "c108a06ada409416ed9b37fcfefa40d4e716307a44509d3aa7c44e696488d404",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_841230f0e805517f5348e286_0",
+      "kind": "li",
+      "source": "If the string contains quotes (regardless of whether it has spaces), then the text must be quoted with apostrophes instead: __TRILIUM_PH_0__.",
+      "sourceHash": "841230f0e805517f5348e2867947beb40984641e4c822160e174e70763989ab7",
+      "context": "Labels > Creating a label manually",
+      "contextHash": "c108a06ada409416ed9b37fcfefa40d4e716307a44509d3aa7c44e696488d404",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_bd80cd5a33be579c1b9d2a96_0",
+      "kind": "li",
+      "source": "To create an inheritable label called __TRILIUM_PH_0__, simply write __TRILIUM_PH_1__ for no value or __TRILIUM_PH_2__ if there is a value.",
+      "sourceHash": "bd80cd5a33be579c1b9d2a9637992ced511563eae7887650b4bc99368947cf3a",
+      "context": "Labels > Creating a label manually",
+      "contextHash": "c108a06ada409416ed9b37fcfefa40d4e716307a44509d3aa7c44e696488d404",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_a61c6970267378729af7e595_0",
+      "kind": "h2",
+      "source": "Predefined labels__TRILIUM_PH_0__",
+      "sourceHash": "a61c6970267378729af7e59596e328ea242e575af18c9f2ef422e20b60829dc9",
+      "context": "Labels > Predefined labels",
+      "contextHash": "76dc05b35c3de00083f6c3c145b0359c692fdedc03fef503d6012ab163c82388",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_17c6c6168d526d69f16023ee_0",
+      "kind": "p",
+      "source": "This is a list of labels that Trilium natively supports.",
+      "sourceHash": "17c6c6168d526d69f16023ee07bfe4caf16e5f9f87ce1f23473be17ed90e0ec2",
+      "context": "Labels > Predefined labels",
+      "contextHash": "76dc05b35c3de00083f6c3c145b0359c692fdedc03fef503d6012ab163c82388",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_d48a91c7cf8c9550ced599db_0",
+      "kind": "p",
+      "source": "Some labels presented here end with a __TRILIUM_PH_0__. That means that there are multiple labels with the same prefix, consult the specific page linked in the description of that label for more information.",
+      "sourceHash": "d48a91c7cf8c9550ced599dbff56fab7d214c691b789282cdc0ee7e6301bc0f9",
+      "context": "Labels > Predefined labels",
+      "contextHash": "76dc05b35c3de00083f6c3c145b0359c692fdedc03fef503d6012ab163c82388",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_6f0c4b80edc06ac84ea5ebee_0",
+      "kind": "th",
+      "source": "Label",
+      "sourceHash": "6f0c4b80edc06ac84ea5ebeecce95361bd8cf2fe8361d0f209fa5bd9a27884b3",
+      "context": "Labels > Predefined labels",
+      "contextHash": "76dc05b35c3de00083f6c3c145b0359c692fdedc03fef503d6012ab163c82388",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_4b00baa636b92e18b7a75884_0",
+      "kind": "th",
+      "source": "Description",
+      "sourceHash": "4b00baa636b92e18b7a75884790f0769c3e702d20d8822e708f69ab2f07c7103",
+      "context": "Labels > Predefined labels",
+      "contextHash": "76dc05b35c3de00083f6c3c145b0359c692fdedc03fef503d6012ab163c82388",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_7825754313869db9826cf5a1_0",
+      "kind": "td",
+      "source": "Disables automatic creation of __TRILIUM_PH_0__Note Revisions__TRILIUM_PH_1__ for a particular note. Useful for e.g. large, but unimportant notes - e.g. large JS libraries used for scripting.",
+      "sourceHash": "7825754313869db9826cf5a1c83546115f90e1c242b12f035af01cf0f688de48",
+      "context": "Labels > Predefined labels",
+      "contextHash": "76dc05b35c3de00083f6c3c145b0359c692fdedc03fef503d6012ab163c82388",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_e281f75efc2821d516b4152a_0",
+      "kind": "td",
+      "source": "Limits the maximum number of __TRILIUM_PH_0__Note Revisions__TRILIUM_PH_1__ for a particular note, overriding the global settings.",
+      "sourceHash": "e281f75efc2821d516b4152a794fa4879ffdd0043787c0b17b28a64d0184778e",
+      "context": "Labels > Predefined labels",
+      "contextHash": "76dc05b35c3de00083f6c3c145b0359c692fdedc03fef503d6012ab163c82388",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_3a5f9ab23ffd443faa197a67_0",
+      "kind": "td",
+      "source": "Marks the note which should be used as root for __TRILIUM_PH_0__Day Notes__TRILIUM_PH_1__. Only one should be marked as such.",
+      "sourceHash": "3a5f9ab23ffd443faa197a67a111f17924850b2538df9729dccfef087d029f48",
+      "context": "Labels > Predefined labels",
+      "contextHash": "76dc05b35c3de00083f6c3c145b0359c692fdedc03fef503d6012ab163c82388",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_b2a3427b0525ee44850a2d68_0",
+      "kind": "td",
+      "source": "Hides notes from default search results and dialogs. Archived notes can optionally be hidden in the __TRILIUM_PH_0__Note Tree__TRILIUM_PH_1__.",
+      "sourceHash": "b2a3427b0525ee44850a2d68e855e4008e8b98f4345fc971655e6567f6428151",
+      "context": "Labels > Predefined labels",
+      "contextHash": "76dc05b35c3de00083f6c3c145b0359c692fdedc03fef503d6012ab163c82388",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_bdda2965e8df01a5c826ac68_0",
+      "kind": "td",
+      "source": "Excludes this note and its children when exporting.",
+      "sourceHash": "bdda2965e8df01a5c826ac683e35442ecc9aa2f7fa2de866089ba41d04c8eec3",
+      "context": "Labels > Predefined labels",
+      "contextHash": "76dc05b35c3de00083f6c3c145b0359c692fdedc03fef503d6012ab163c82388",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_d35fd44c8d2801c00348bfa9_0",
+      "kind": "td",
+      "source": "__TRILIUM_PH_0__, __TRILIUM_PH_1__, __TRILIUM_PH_2__",
+      "sourceHash": "d35fd44c8d2801c00348bfa923685f72b3742b134997fc12b2b5fee60691e3e5",
+      "context": "Labels > Predefined labels",
+      "contextHash": "76dc05b35c3de00083f6c3c145b0359c692fdedc03fef503d6012ab163c82388",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_ae995c8de8f91f892a210387_0",
+      "kind": "td",
+      "source": "See __TRILIUM_PH_0__Backend Events__TRILIUM_PH_1__.",
+      "sourceHash": "ae995c8de8f91f892a2103874c2bc82b421f79b4898563fafa592989188ba6a9",
+      "context": "Labels > Predefined labels",
+      "contextHash": "76dc05b35c3de00083f6c3c145b0359c692fdedc03fef503d6012ab163c82388",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_ffdfac49f4589f5530567fc8_0",
+      "kind": "td",
+      "source": "Scripts with this label won't be included into parent script execution.",
+      "sourceHash": "ffdfac49f4589f5530567fc8e0e6dcf5ad1084c0528527689c6485e84d552e31",
+      "context": "Labels > Predefined labels",
+      "contextHash": "76dc05b35c3de00083f6c3c145b0359c692fdedc03fef503d6012ab163c82388",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_0a07cd04fe1229b159971ac8_0",
+      "kind": "td",
+      "source": "__TRILIUM_PH_0__, __TRILIUM_PH_1__, __TRILIUM_PH_2__, __TRILIUM_PH_3__, __TRILIUM_PH_4__, __TRILIUM_PH_5__, __TRILIUM_PH_6__",
+      "sourceHash": "0a07cd04fe1229b159971ac849d863e37caa5501dc94d9d8ad61e04adac05b59",
+      "context": "Labels > Predefined labels",
+      "contextHash": "76dc05b35c3de00083f6c3c145b0359c692fdedc03fef503d6012ab163c82388",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_dc53002c6ecfab3c84b51aae_0",
+      "kind": "td",
+      "source": "Manages automatic/permanent sorting. See __TRILIUM_PH_0__Sorting Notes__TRILIUM_PH_1__.",
+      "sourceHash": "dc53002c6ecfab3c84b51aae051366f609dea2793c1733223579cba62f3b83d2",
+      "context": "Labels > Predefined labels",
+      "contextHash": "76dc05b35c3de00083f6c3c145b0359c692fdedc03fef503d6012ab163c82388",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_dfbd76a7ec0aa16a3d2fcf1a_0",
+      "kind": "td",
+      "source": "Hide __TRILIUM_PH_0__Promoted Attributes__TRILIUM_PH_1__ on this note. Generally useful when defining inherited attributes, but the parent note doesn't need them.",
+      "sourceHash": "dfbd76a7ec0aa16a3d2fcf1abd2b776731d84e8958488df49b2d4f93ff20bd57",
+      "context": "Labels > Predefined labels",
+      "contextHash": "76dc05b35c3de00083f6c3c145b0359c692fdedc03fef503d6012ab163c82388",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_ca8c8fbe686e977fbf403281_0",
+      "kind": "td",
+      "source": "Marks a note to always be __TRILIUM_PH_0__read-only__TRILIUM_PH_1__, if it's a supported note (text, code, mermaid).",
+      "sourceHash": "ca8c8fbe686e977fbf40328195939b481a32d1b52c52c5de61143e920dbe4d02",
+      "context": "Labels > Predefined labels",
+      "contextHash": "76dc05b35c3de00083f6c3c145b0359c692fdedc03fef503d6012ab163c82388",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_379e92cdd6508e48fc44f69c_0",
+      "kind": "td",
+      "source": "Disables automatic __TRILIUM_PH_0__read-only mode__TRILIUM_PH_1__ for the given note.",
+      "sourceHash": "379e92cdd6508e48fc44f69c73703547a2957a1256113167fe244321c17c04d9",
+      "context": "Labels > Predefined labels",
+      "contextHash": "76dc05b35c3de00083f6c3c145b0359c692fdedc03fef503d6012ab163c82388",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_eaa7ba3bd7a5e78c8d9f1803_0",
+      "kind": "td",
+      "source": "Marks CSS notes which are loaded into the Trilium application and can thus be used to modify Trilium's looks. See __TRILIUM_PH_0__Custom app-wide CSS__TRILIUM_PH_1__ for more info.",
+      "sourceHash": "eaa7ba3bd7a5e78c8d9f180388e94903b55430c343dbff73498f34d5b3922c44",
+      "context": "Labels > Predefined labels",
+      "contextHash": "76dc05b35c3de00083f6c3c145b0359c692fdedc03fef503d6012ab163c82388",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_cd7ac15a131cd75a8fd30873_0",
+      "kind": "td",
+      "source": "Marks CSS notes which are full Trilium themes and are thus available in Trilium options. See __TRILIUM_PH_0__Theme development__TRILIUM_PH_1__ for more information.",
+      "sourceHash": "cd7ac15a131cd75a8fd308739efac76550bb1f8a53bda3c7d4fdcecb10585682",
+      "context": "Labels > Predefined labels",
+      "contextHash": "76dc05b35c3de00083f6c3c145b0359c692fdedc03fef503d6012ab163c82388",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_7dc00494bd26904c9478e8c7_0",
+      "kind": "td",
+      "source": "Set to __TRILIUM_PH_0__, __TRILIUM_PH_1__, or __TRILIUM_PH_2__ to use the corresponding TriliumNext theme (auto, light or dark) as the base for a custom theme, instead of the legacy one. See __TRILIUM_PH_3__Customize the Next theme__TRILIUM_PH_4__ for more information.",
+      "sourceHash": "7dc00494bd26904c9478e8c76f46704e29d9c568ce4e2e470f27a0b0ea4c0a6e",
+      "context": "Labels > Predefined labels",
+      "contextHash": "76dc05b35c3de00083f6c3c145b0359c692fdedc03fef503d6012ab163c82388",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_980011de3f7fcd4fb4fe6960_0",
+      "kind": "td",
+      "source": "Marks a font as selectable in the Options → Appearance font selection. See __TRILIUM_PH_0__Personalizing the font__TRILIUM_PH_1__.",
+      "sourceHash": "980011de3f7fcd4fb4fe696036941c064171970f41dd8935c5511beffddbec5e",
+      "context": "Labels > Predefined labels",
+      "contextHash": "76dc05b35c3de00083f6c3c145b0359c692fdedc03fef503d6012ab163c82388",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_a32bc85948609e439a90a33f_0",
+      "kind": "td",
+      "source": "Value of this label is then added as CSS class to the node representing given note in the __TRILIUM_PH_0__Note Tree__TRILIUM_PH_1__. This can be useful for advanced theming. Can be used in template notes.",
+      "sourceHash": "a32bc85948609e439a90a33ff0f3d1556378a31cdccf485a4f834e222c049f54",
+      "context": "Labels > Predefined labels",
+      "contextHash": "76dc05b35c3de00083f6c3c145b0359c692fdedc03fef503d6012ab163c82388",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_add4220092eff809f44657f6_0",
+      "kind": "td",
+      "source": "value of this label is added as a CSS class to the icon on the tree which can help visually distinguish the notes in the tree. Example might be bx bx-home - icons are taken from boxicons. Can be used in template notes.",
+      "sourceHash": "add4220092eff809f44657f61a108b5d6a87e15a234403af60f55bbe5bf02a19",
+      "context": "Labels > Predefined labels",
+      "contextHash": "76dc05b35c3de00083f6c3c145b0359c692fdedc03fef503d6012ab163c82388",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_0776074205fe177a818a0631_0",
+      "kind": "td",
+      "source": "Specifies the number of items per page in __TRILIUM_PH_0__Note List__TRILIUM_PH_1__.",
+      "sourceHash": "0776074205fe177a818a06315be279c3b0470162b1608e9095d9b4f68398b2df",
+      "context": "Labels > Predefined labels",
+      "contextHash": "76dc05b35c3de00083f6c3c145b0359c692fdedc03fef503d6012ab163c82388",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_08cf048a6e0cb7b0eefa6f5e_0",
+      "kind": "td",
+      "source": "See __TRILIUM_PH_0__Custom Request Handler__TRILIUM_PH_1__.",
+      "sourceHash": "08cf048a6e0cb7b0eefa6f5e114c94abbd377fda37d13da8e7bcc874959ae210",
+      "context": "Labels > Predefined labels",
+      "contextHash": "76dc05b35c3de00083f6c3c145b0359c692fdedc03fef503d6012ab163c82388",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_2b760c6a20e5fc09e3c0a555_0",
+      "kind": "td",
+      "source": "See __TRILIUM_PH_0__Custom Resource Providers__TRILIUM_PH_1__.",
+      "sourceHash": "2b760c6a20e5fc09e3c0a5552075b3096d9ba891c2e177e378d5be5198e23320",
+      "context": "Labels > Predefined labels",
+      "contextHash": "76dc05b35c3de00083f6c3c145b0359c692fdedc03fef503d6012ab163c82388",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_948048c0677cb4d9f1fc83ff_0",
+      "kind": "td",
+      "source": "Marks this note as a custom widget which will be added to the Trilium component tree. See __TRILIUM_PH_0__Custom Widgets__TRILIUM_PH_1__ for more information.",
+      "sourceHash": "948048c0677cb4d9f1fc83ffed421c2c1d25fc20c75f8db1415da9675766d828",
+      "context": "Labels > Predefined labels",
+      "contextHash": "76dc05b35c3de00083f6c3c145b0359c692fdedc03fef503d6012ab163c82388",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_50773d2e4d9653a5f5679bc0_0",
+      "kind": "td",
+      "source": "New search notes will be created as children of this note (see __TRILIUM_PH_0__Saved Search__TRILIUM_PH_1__).",
+      "sourceHash": "50773d2e4d9653a5f5679bc0372ad735201c1bc33599873333938d28b939ecf9",
+      "context": "Labels > Predefined labels",
+      "contextHash": "76dc05b35c3de00083f6c3c145b0359c692fdedc03fef503d6012ab163c82388",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_c0fa9659c92d371577b2c256_0",
+      "kind": "td",
+      "source": "__TRILIUM_PH_0__ and related attributes",
+      "sourceHash": "c0fa9659c92d371577b2c256e6ef9176b1e9af25d63bafa53683671817cfb20a",
+      "context": "Labels > Predefined labels",
+      "contextHash": "76dc05b35c3de00083f6c3c145b0359c692fdedc03fef503d6012ab163c82388",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_e5b2961da04bac697217dbf5_0",
+      "kind": "td",
+      "source": "See __TRILIUM_PH_0__Workspaces__TRILIUM_PH_1__.",
+      "sourceHash": "e5b2961da04bac697217dbf527f38d81ce2ed00d7b578a1c4b6488b4dfe18cd7",
+      "context": "Labels > Predefined labels",
+      "contextHash": "76dc05b35c3de00083f6c3c145b0359c692fdedc03fef503d6012ab163c82388",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_100699075a973f7e574410dd_0",
+      "kind": "td",
+      "source": "Default inbox location for new notes. See __TRILIUM_PH_0__Note Inbox__TRILIUM_PH_1__ for more information.",
+      "sourceHash": "100699075a973f7e574410ddcd2bda90fb1bfdf657f706c62a3b903924dc9dee",
+      "context": "Labels > Predefined labels",
+      "contextHash": "76dc05b35c3de00083f6c3c145b0359c692fdedc03fef503d6012ab163c82388",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_3af2b21505f88d69e69bfdfa_0",
+      "kind": "td",
+      "source": "Default location of __TRILIUM_PH_0__SQL Console__TRILIUM_PH_1__ saved queries.",
+      "sourceHash": "3af2b21505f88d69e69bfdfa90d1ca21533d1d211918551c915d9d67f1362321",
+      "context": "Labels > Predefined labels",
+      "contextHash": "76dc05b35c3de00083f6c3c145b0359c692fdedc03fef503d6012ab163c82388",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_36d00a1197b030488487f5c2_0",
+      "kind": "td",
+      "source": "Indicates this note is a __TRILIUM_PH_0__bookmark__TRILIUM_PH_1__.",
+      "sourceHash": "36d00a1197b030488487f5c21324b93d672099dcb25e355f95b2ea5740df1e25",
+      "context": "Labels > Predefined labels",
+      "contextHash": "76dc05b35c3de00083f6c3c145b0359c692fdedc03fef503d6012ab163c82388",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_1b6a6ab86570749bd965f40d_0",
+      "kind": "td",
+      "source": "Note with this label will appear in bookmarks, or on the launch bar when dropped onto it, as a folder (allowing access to its children). The __TRILIUM_PH_0__Show as a folder__TRILIUM_PH_1__ option in the button's context menu toggles it. See __TRILIUM_PH_2__Bookmarks__TRILIUM_PH_3__ for more information.",
+      "sourceHash": "1b6a6ab86570749bd965f40d12294b6f0e7d807d10e34051d92ec8f2028ae25f",
+      "context": "Labels > Predefined labels",
+      "contextHash": "76dc05b35c3de00083f6c3c145b0359c692fdedc03fef503d6012ab163c82388",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_ba0a333d27f75095316b5e4d_0",
+      "kind": "td",
+      "source": "Where a click on the note's button in the launch bar opens it: __TRILIUM_PH_0__ (the default), __TRILIUM_PH_1__, __TRILIUM_PH_2__, __TRILIUM_PH_3__ or __TRILIUM_PH_4__. Applies to bookmarks, notes dropped onto the launch bar and the notes in a bookmark folder. The __TRILIUM_PH_5__Open mode__TRILIUM_PH_6__ submenu in the button's context menu sets it, as an inheritable label on a folder so that the notes in it follow. See __TRILIUM_PH_7__Bookmarks__TRILIUM_PH_8__ for more information.",
+      "sourceHash": "ba0a333d27f75095316b5e4d806bd635beb85312dcb03a39ad21a95c818f3b6a",
+      "context": "Labels > Predefined labels",
+      "contextHash": "76dc05b35c3de00083f6c3c145b0359c692fdedc03fef503d6012ab163c82388",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_9920cd2b4a2e5f56ce78e47b_0",
+      "kind": "td",
+      "source": "See the attribute reference in __TRILIUM_PH_0__Sharing__TRILIUM_PH_1__.",
+      "sourceHash": "9920cd2b4a2e5f56ce78e47b17ee71059800455f787ac9f06eba4cc3807de3da",
+      "context": "Labels > Predefined labels",
+      "contextHash": "76dc05b35c3de00083f6c3c145b0359c692fdedc03fef503d6012ab163c82388",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_0a21de8c93afbce9b0583aa8_0",
+      "kind": "td",
+      "source": "__TRILIUM_PH_0__, __TRILIUM_PH_1__",
+      "sourceHash": "0a21de8c93afbce9b0583aa863adaf20995cd9952fa81b71db769a0a917216eb",
+      "context": "Labels > Predefined labels",
+      "contextHash": "76dc05b35c3de00083f6c3c145b0359c692fdedc03fef503d6012ab163c82388",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_30bd88fa46658ccaa288bd88_0",
+      "kind": "td",
+      "source": "Comma delimited names of relations which should be displayed/hidden in a __TRILIUM_PH_0__Relation Map__TRILIUM_PH_1__ (both the note type and the __TRILIUM_PH_2__Note Map (Link map, Tree map)__TRILIUM_PH_3__ general functionality).",
+      "sourceHash": "30bd88fa46658ccaa288bd8831f8d36fcf4cea50e8554c7a9d91eca003b1bdbc",
+      "context": "Labels > Predefined labels",
+      "contextHash": "76dc05b35c3de00083f6c3c145b0359c692fdedc03fef503d6012ab163c82388",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_c04c48429d24f469fd550629_0",
+      "kind": "td",
+      "source": "Default title of notes created as children of this note. This value is evaluated as a JavaScript string and thus can be enriched with dynamic content via the injected __TRILIUM_PH_0__ and __TRILIUM_PH_1__ variables.        __TRILIUM_PH_2__  __TRILIUM_PH_3__See __TRILIUM_PH_4__Default Note Title__TRILIUM_PH_5__ for more info.",
+      "sourceHash": "c04c48429d24f469fd550629d423a93781e49ff2ff0cab97bb05c4869f78cfd3",
+      "context": "Labels > Predefined labels",
+      "contextHash": "76dc05b35c3de00083f6c3c145b0359c692fdedc03fef503d6012ab163c82388",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_fc97a68550df46fe57e7ff6b_0",
+      "kind": "td",
+      "source": "Set on a template note: default title of notes created from the template, taking precedence over the parent's __TRILIUM_PH_0__. Evaluated the same way as __TRILIUM_PH_1__. See __TRILIUM_PH_2__Default Note Title__TRILIUM_PH_3__.",
+      "sourceHash": "fc97a68550df46fe57e7ff6b8d3abcccba54e8a04a55358a51adfffe046ce91b",
+      "context": "Labels > Predefined labels",
+      "contextHash": "76dc05b35c3de00083f6c3c145b0359c692fdedc03fef503d6012ab163c82388",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_3c09f141da8c7f66b5af8d0b_0",
+      "kind": "td",
+      "source": "This note will appear in the selection of available template when creating new note. See __TRILIUM_PH_0__Templates__TRILIUM_PH_1__ for more information.",
+      "sourceHash": "3c09f141da8c7f66b5af8d0ba042103207ff58e6bc7718e98da0e0cc0192e0c6",
+      "context": "Labels > Predefined labels",
+      "contextHash": "76dc05b35c3de00083f6c3c145b0359c692fdedc03fef503d6012ab163c82388",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_87a6a5672ef9f5bcabafc129_0",
+      "kind": "td",
+      "source": "defines color of the note in note tree, links etc. Use any valid CSS color value like 'red' or #a13d5f         __TRILIUM_PH_0__Note: this color may be automatically adjusted when displayed to ensure sufficient contrast with the background.",
+      "sourceHash": "87a6a5672ef9f5bcabafc129e71ac4e377477b15c38cde8afd50783794d4a2cf",
+      "context": "Labels > Predefined labels",
+      "contextHash": "76dc05b35c3de00083f6c3c145b0359c692fdedc03fef503d6012ab163c82388",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_3f44f1483220f8609f257ad0_0",
+      "kind": "td",
+      "source": "Defines a keyboard shortcut which will immediately jump to this note. Example: 'ctrl+alt+e'. Requires frontend reload for the change to take effect.",
+      "sourceHash": "3f44f1483220f8609f257ad07a611d5693fb96a7c64eec795dd30acc8dcff904",
+      "context": "Labels > Predefined labels",
+      "contextHash": "76dc05b35c3de00083f6c3c145b0359c692fdedc03fef503d6012ab163c82388",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_2de184f7058e3effcd581439_0",
+      "kind": "td",
+      "source": "Opening this link won't change hoisting even if the note is not displayable in the current hoisted subtree.",
+      "sourceHash": "2de184f7058e3effcd58143925b7183b7f5824735e284ca2a6a4eb3c4be43edb",
+      "context": "Labels > Predefined labels",
+      "contextHash": "76dc05b35c3de00083f6c3c145b0359c692fdedc03fef503d6012ab163c82388",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_6493e9ecca5961395a477b12_0",
+      "kind": "td",
+      "source": "Title of the button which will execute the current code note",
+      "sourceHash": "6493e9ecca5961395a477b1275de9f7632d8c0ef5b12592ee65a694f64c88cf9",
+      "context": "Labels > Predefined labels",
+      "contextHash": "76dc05b35c3de00083f6c3c145b0359c692fdedc03fef503d6012ab163c82388",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_ead44881f31efcb9d8f2045e_0",
+      "kind": "td",
+      "source": "Longer description of the current code note displayed together with the execute button",
+      "sourceHash": "ead44881f31efcb9d8f2045ec5c7769e26a0c0e417a0c9bfbca275298d7fbc10",
+      "context": "Labels > Predefined labels",
+      "contextHash": "76dc05b35c3de00083f6c3c145b0359c692fdedc03fef503d6012ab163c82388",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_2b8e72b04ab361dca19b85e9_0",
+      "kind": "td",
+      "source": "Notes with this label will be hidden from the __TRILIUM_PH_0__Note Map__TRILIUM_PH_1__.",
+      "sourceHash": "2b8e72b04ab361dca19b85e9059b865027bbcc0ee84d9a67afb4a8232ac060be",
+      "context": "Labels > Predefined labels",
+      "contextHash": "76dc05b35c3de00083f6c3c145b0359c692fdedc03fef503d6012ab163c82388",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_3682bb2cb1e75a249fd26b78_0",
+      "kind": "td",
+      "source": "Hides this note from the AI chat and the MCP server. Make it inheritable to hide the notes below it as well. See __TRILIUM_PH_0__Privacy__TRILIUM_PH_1__.",
+      "sourceHash": "3682bb2cb1e75a249fd26b78510c8cb7255de56fb4576d28205a1a1dd0b4c8df",
+      "context": "Labels > Predefined labels",
+      "contextHash": "76dc05b35c3de00083f6c3c145b0359c692fdedc03fef503d6012ab163c82388",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_32fd2551ba68fff117ee9add_0",
+      "kind": "td",
+      "source": "New notes will be created at the top of the parent note, not on the bottom.",
+      "sourceHash": "32fd2551ba68fff117ee9add13429b4825a4bb89644fc755872bae984b5cbaa3",
+      "context": "Labels > Predefined labels",
+      "contextHash": "76dc05b35c3de00083f6c3c145b0359c692fdedc03fef503d6012ab163c82388",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_24a2625948c9372bf4e99b83_0",
+      "kind": "td",
+      "source": "Hides the __TRILIUM_PH_0__Note List__TRILIUM_PH_1__ for that particular note.",
+      "sourceHash": "24a2625948c9372bf4e99b831dd85aebb79ee492ba51d482da0389a9b65bc719",
+      "context": "Labels > Predefined labels",
+      "contextHash": "76dc05b35c3de00083f6c3c145b0359c692fdedc03fef503d6012ab163c82388",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_2f4c0ae4c2bc33e3c9430cdf_0",
+      "kind": "td",
+      "source": "Hides all child notes of this note from the tree, displaying a badge with the count of hidden children. Children remain accessible via search or direct links.",
+      "sourceHash": "2f4c0ae4c2bc33e3c9430cdf6eedcf5e7e8eeaf36718636cbe43bc836e27f3c4",
+      "context": "Labels > Predefined labels",
+      "contextHash": "76dc05b35c3de00083f6c3c145b0359c692fdedc03fef503d6012ab163c82388",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_dc1960689b6decd710159c1a_0",
+      "kind": "td",
+      "source": "When exporting to PDF, changes the orientation of the page to landscape instead of portrait.",
+      "sourceHash": "dc1960689b6decd710159c1abf558b9073e1d1dff29bbe02a4f74f35fc262bd8",
+      "context": "Labels > Predefined labels",
+      "contextHash": "76dc05b35c3de00083f6c3c145b0359c692fdedc03fef503d6012ab163c82388",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_4879d0c8b4b3e1d3725f6852_0",
+      "kind": "td",
+      "source": "When exporting to PDF, changes the size of the page. Supported values: __TRILIUM_PH_0__, __TRILIUM_PH_1__, __TRILIUM_PH_2__, __TRILIUM_PH_3__, __TRILIUM_PH_4__, __TRILIUM_PH_5__, __TRILIUM_PH_6__, __TRILIUM_PH_7__, __TRILIUM_PH_8__, __TRILIUM_PH_9__, __TRILIUM_PH_10__.",
+      "sourceHash": "4879d0c8b4b3e1d3725f6852db6cc454e433b323aa068b7b6e7b2ae7f4523b34",
+      "context": "Labels > Predefined labels",
+      "contextHash": "76dc05b35c3de00083f6c3c145b0359c692fdedc03fef503d6012ab163c82388",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_0a21de8c93afbce9b0583aa8_1",
+      "kind": "td",
+      "source": "__TRILIUM_PH_0__, __TRILIUM_PH_1__",
+      "sourceHash": "0a21de8c93afbce9b0583aa863adaf20995cd9952fa81b71db769a0a917216eb",
+      "context": "Labels > Predefined labels",
+      "contextHash": "76dc05b35c3de00083f6c3c145b0359c692fdedc03fef503d6012ab163c82388",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_ca8926c2c69a741cec0fb36a_0",
+      "kind": "td",
+      "source": "Additional printing options, generally configured through the __TRILIUM_PH_0__Printing & Exporting as PDF__TRILIUM_PH_1__ dialog.",
+      "sourceHash": "ca8926c2c69a741cec0fb36aeb967150b2213f3c67b7eaac4e5d42c6119645c0",
+      "context": "Labels > Predefined labels",
+      "contextHash": "76dc05b35c3de00083f6c3c145b0359c692fdedc03fef503d6012ab163c82388",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_c19e74f1fc8396223150b290_0",
+      "kind": "td",
+      "source": "Indicates the latitude and longitude of a note, to be displayed in a __TRILIUM_PH_0__Geo Map__TRILIUM_PH_1__.",
+      "sourceHash": "c19e74f1fc8396223150b2904c9c82df974dded835cdbb111db9d66f42d876ea",
+      "context": "Labels > Predefined labels",
+      "contextHash": "76dc05b35c3de00083f6c3c145b0359c692fdedc03fef503d6012ab163c82388",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_80c72ac247c9db3808a57bc1_0",
+      "kind": "td",
+      "source": "Indicates the coordinates for the points of a __TRILIUM_PH_0__shapec__TRILIUM_PH_1__ drawn on the __TRILIUM_PH_2__Geo Map__TRILIUM_PH_3__ (e.g. area, rectangle, circle).",
+      "sourceHash": "80c72ac247c9db3808a57bc1a555b2aed0e971739d41bcd58bf1e682d98e8006",
+      "context": "Labels > Predefined labels",
+      "contextHash": "76dc05b35c3de00083f6c3c145b0359c692fdedc03fef503d6012ab163c82388",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_87f263d2a2a10e2d208b23fb_0",
+      "kind": "td",
+      "source": "Defines specific options for the __TRILIUM_PH_0__Geo Map__TRILIUM_PH_1__.",
+      "sourceHash": "87f263d2a2a10e2d208b23fb185f0e13bb2fbe5026fe284e5006529e7326d46b",
+      "context": "Labels > Predefined labels",
+      "contextHash": "76dc05b35c3de00083f6c3c145b0359c692fdedc03fef503d6012ab163c82388",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_b3aaf4ddc1b852d211f50065_0",
+      "kind": "td",
+      "source": "Defines specific options for the __TRILIUM_PH_0__Calendar__TRILIUM_PH_1__.",
+      "sourceHash": "b3aaf4ddc1b852d211f50065dd8e4b637751103b4098a4cb54a7570dbf540028",
+      "context": "Labels > Predefined labels",
+      "contextHash": "76dc05b35c3de00083f6c3c145b0359c692fdedc03fef503d6012ab163c82388",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_9b48f5c63f0e12ceef906e57_0",
+      "kind": "td",
+      "source": "Sets the view of child notes (e.g. grid or list). See __TRILIUM_PH_0__Note List__TRILIUM_PH_1__ for more information.",
+      "sourceHash": "9b48f5c63f0e12ceef906e5717a3ba005f5e5b5d441f5f901619548173e0d571",
+      "context": "Labels > Predefined labels",
+      "contextHash": "76dc05b35c3de00083f6c3c145b0359c692fdedc03fef503d6012ab163c82388",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_c0aa57d7f91d5c7cd5521e56_0",
+      "kind": "td",
+      "source": "Defines the URL of the __TRILIUM_PH_0__Web View__TRILIUM_PH_1__.",
+      "sourceHash": "c0aa57d7f91d5c7cd5521e5602282da503e919867901d18606d954ace259a5da",
+      "context": "Labels > Predefined labels",
+      "contextHash": "76dc05b35c3de00083f6c3c145b0359c692fdedc03fef503d6012ab163c82388",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_d35fd44c8d2801c00348bfa9_1",
+      "kind": "td",
+      "source": "__TRILIUM_PH_0__, __TRILIUM_PH_1__, __TRILIUM_PH_2__",
+      "sourceHash": "d35fd44c8d2801c00348bfa923685f72b3742b134997fc12b2b5fee60691e3e5",
+      "context": "Labels > Predefined labels",
+      "contextHash": "76dc05b35c3de00083f6c3c145b0359c692fdedc03fef503d6012ab163c82388",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_ba980bffa53ffb09cbb6eb06_0",
+      "kind": "td",
+      "source": "Per-note Code editor settings: indentation width, indent with tabs vs. spaces, and word wrapping. See __TRILIUM_PH_0__Code__TRILIUM_PH_1__.",
+      "sourceHash": "ba980bffa53ffb09cbb6eb06cf347f5e5108d663ba478ada4cf3050212d0b925",
+      "context": "Labels > Predefined labels",
+      "contextHash": "76dc05b35c3de00083f6c3c145b0359c692fdedc03fef503d6012ab163c82388",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_bd915abe76577ad31e6a9944_0",
+      "kind": "td",
+      "source": "__TRILIUM_PH_0__, __TRILIUM_PH_1__, __TRILIUM_PH_2__, __TRILIUM_PH_3__, __TRILIUM_PH_4__",
+      "sourceHash": "bd915abe76577ad31e6a99442b8ab3a3e176acd09907efc9e99dab0a8de67c4f",
+      "context": "Labels > Predefined labels",
+      "contextHash": "76dc05b35c3de00083f6c3c145b0359c692fdedc03fef503d6012ab163c82388",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_e48146faa0428785f33d7cc6_0",
+      "kind": "td",
+      "source": "Customizes the title naming pattern of day / week / month / quarter / year notes. See __TRILIUM_PH_0__Day Notes__TRILIUM_PH_1__.",
+      "sourceHash": "e48146faa0428785f33d7cc650df6799a4ee6520a47684cbd1961b479ba1d6a9",
+      "context": "Labels > Predefined labels",
+      "contextHash": "76dc05b35c3de00083f6c3c145b0359c692fdedc03fef503d6012ab163c82388",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_0a21de8c93afbce9b0583aa8_2",
+      "kind": "td",
+      "source": "__TRILIUM_PH_0__, __TRILIUM_PH_1__",
+      "sourceHash": "0a21de8c93afbce9b0583aa863adaf20995cd9952fa81b71db769a0a917216eb",
+      "context": "Labels > Predefined labels",
+      "contextHash": "76dc05b35c3de00083f6c3c145b0359c692fdedc03fef503d6012ab163c82388",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_b8873bd6a328f26cd469073f_0",
+      "kind": "td",
+      "source": "Enables optional week and quarter notes in the calendar hierarchy; set on the calendar root. See __TRILIUM_PH_0__Day Notes__TRILIUM_PH_1__.",
+      "sourceHash": "b8873bd6a328f26cd469073fac9603c09983796d78a36fe7702b84aa85b20cc1",
+      "context": "Labels > Predefined labels",
+      "contextHash": "76dc05b35c3de00083f6c3c145b0359c692fdedc03fef503d6012ab163c82388",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_e658eed3e069fb847ce7e49a_0",
+      "kind": "td",
+      "source": "Expands the note to the full editor width, ignoring the configured content width (useful for wide tables). See __TRILIUM_PH_0__Content width__TRILIUM_PH_1__.",
+      "sourceHash": "e658eed3e069fb847ce7e49afe5d81c17a129237b1bd25c5126b394d4b472fa4",
+      "context": "Labels > Predefined labels",
+      "contextHash": "76dc05b35c3de00083f6c3c145b0359c692fdedc03fef503d6012ab163c82388",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_2ee706b866db6a3b1e2f6c44_0",
+      "kind": "td",
+      "source": "Identifies a custom icon pack by its prefix. See __TRILIUM_PH_0__Creating an icon pack__TRILIUM_PH_1__.",
+      "sourceHash": "2ee706b866db6a3b1e2f6c44eb2cc4a66015a731e6b70d919f52f617b4911033",
+      "context": "Labels > Predefined labels",
+      "contextHash": "76dc05b35c3de00083f6c3c145b0359c692fdedc03fef503d6012ab163c82388",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_80a0c675bf2747d8000b45ca_0",
+      "kind": "td",
+      "source": "Overrides the default location where the Web Clipper saves clippings (defaults to the day note). See __TRILIUM_PH_0__Web Clipper__TRILIUM_PH_1__.",
+      "sourceHash": "80a0c675bf2747d8000b45ca8e40ffc821ed50cbc4255f1a27e972f137552e7b",
+      "context": "Labels > Predefined labels",
+      "contextHash": "76dc05b35c3de00083f6c3c145b0359c692fdedc03fef503d6012ab163c82388",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_c8429a92e12e2844b3c743d9_0",
+      "kind": "td",
+      "source": "__TRILIUM_PH_0__ , __TRILIUM_PH_1__",
+      "sourceHash": "c8429a92e12e2844b3c743d9e900142979a7fc3e629a0b4f60578a69f0c78f24",
+      "context": "Labels > Predefined labels",
+      "contextHash": "76dc05b35c3de00083f6c3c145b0359c692fdedc03fef503d6012ab163c82388",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_7795e308b7fe83a232208658_0",
+      "kind": "td",
+      "source": "Used internally for the in-app help.",
+      "sourceHash": "7795e308b7fe83a23220865825727ef294eac635e56092f99c33f44d8a89e946",
+      "context": "Labels > Predefined labels",
+      "contextHash": "76dc05b35c3de00083f6c3c145b0359c692fdedc03fef503d6012ab163c82388",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_953e5ed6e1addb0c9a30ee3f_0",
+      "kind": "td",
+      "source": "Defines a custom prompt to be used for the __TRILIUM_PH_0__In-editor AI assistant__TRILIUM_PH_1__'s quick actions.",
+      "sourceHash": "953e5ed6e1addb0c9a30ee3fb550851cadc679c2361e65cff291484222a49d34",
+      "context": "Labels > Predefined labels",
+      "contextHash": "76dc05b35c3de00083f6c3c145b0359c692fdedc03fef503d6012ab163c82388",
+      "status": "pending",
+      "active": true
+    }
+  ],
+  "requests": []
+}

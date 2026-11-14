@@ -1,0 +1,179 @@
+{
+  "schemaVersion": 1,
+  "pageId": "xYjQUYhpbUEW",
+  "sourceFile": "docs/User Guide/User Guide/Advanced Usage/Advanced Showcases/Task Manager.md",
+  "sourceRevision": "03d17b60f59b5efc29b880b11481471d0fe0ff57",
+  "units": [
+    {
+      "id": "u_2907f6bee37bd508accd96b2_0",
+      "kind": "title",
+      "source": "Task Manager",
+      "sourceHash": "2907f6bee37bd508accd96b2885d114f813129260239b0e538c292347f73c3b8",
+      "context": "Task Manager",
+      "contextHash": "58d65c201fc09fb0db9b9a8975323f110b12d9b63f4e77f07ac728ed79c689e1",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_e8a3c1711b601a3c9b8d4924_0",
+      "kind": "p",
+      "source": "Task Manager is a __TRILIUM_PH_0__promoted attributes__TRILIUM_PH_1__ and __TRILIUM_PH_2__scripts__TRILIUM_PH_3__showcase present in the __TRILIUM_PH_4__demo notes__TRILIUM_PH_5__.",
+      "sourceHash": "e8a3c1711b601a3c9b8d4924f85d0e569c6cb9fb8927823804e7942ee7304ec5",
+      "context": "Task Manager",
+      "contextHash": "58d65c201fc09fb0db9b9a8975323f110b12d9b63f4e77f07ac728ed79c689e1",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_e2c1668587503153631e16c3_0",
+      "kind": "h2",
+      "source": "Demo__TRILIUM_PH_0__",
+      "sourceHash": "e2c1668587503153631e16c32cc71076665534948359fa91816f5bbdc3102c02",
+      "context": "Task Manager > Demo",
+      "contextHash": "be7f0a69a48e8298393bb092a6215f66564238b2148e54a3dae297fc8d39e804",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_92923591a36027ea7ea81931_0",
+      "kind": "p",
+      "source": "Task Manager manages outstanding (TODO) tasks and finished tasks (non-empty doneDate attribute). Outstanding tasks are further categorized by location and arbitrary tags - whenever you change tag attribute in the task note, this task is then automatically moved to appropriate location.",
+      "sourceHash": "92923591a36027ea7ea81931d1d40d874013f9b00b98974c2afc79010927c92b",
+      "context": "Task Manager > Demo",
+      "contextHash": "be7f0a69a48e8298393bb092a6215f66564238b2148e54a3dae297fc8d39e804",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_758ad999fbdbd0185076f551_0",
+      "kind": "p",
+      "source": "Task Manager also integrates with __TRILIUM_PH_0__day notes__TRILIUM_PH_1__ - notes are __TRILIUM_PH_2__cloned__TRILIUM_PH_3__ into day note to both todoDate note and doneDate note (with __TRILIUM_PH_4__prefix__TRILIUM_PH_5__ of either \"TODO\" or \"DONE\").",
+      "sourceHash": "758ad999fbdbd0185076f551895bfc7e5bec50ba02701c591b09a97331a99d28",
+      "context": "Task Manager > Demo",
+      "contextHash": "be7f0a69a48e8298393bb092a6215f66564238b2148e54a3dae297fc8d39e804",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_c788b3e403abfb1a09af9098_0",
+      "kind": "h2",
+      "source": "Implementation__TRILIUM_PH_0__",
+      "sourceHash": "c788b3e403abfb1a09af9098634a31335c2cfe467269b1329a5b6cad297e5acc",
+      "context": "Task Manager > Implementation",
+      "contextHash": "368ba8b93f7ca3e5ef1a009b913cf32dd6065d08e481e73dc18563f89d4f578e",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_f7575c80d4240ef99aaffcf2_0",
+      "kind": "p",
+      "source": "New tasks are created in the TODO note which has __TRILIUM_PH_0__ __TRILIUM_PH_1__relation__TRILIUM_PH_2__(see __TRILIUM_PH_3__attribute inheritance__TRILIUM_PH_4__) pointing to the task template.",
+      "sourceHash": "f7575c80d4240ef99aaffcf2a7395fb43b8173624b4467fa59712e78307512c2",
+      "context": "Task Manager > Implementation",
+      "contextHash": "368ba8b93f7ca3e5ef1a009b913cf32dd6065d08e481e73dc18563f89d4f578e",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_b26e0b7fe3e137d3f5a595a3_0",
+      "kind": "h3",
+      "source": "Attributes__TRILIUM_PH_0__",
+      "sourceHash": "b26e0b7fe3e137d3f5a595a37711b59016737cbf4b8ac37a66407cc087ee03e6",
+      "context": "Task Manager > Implementation > Attributes",
+      "contextHash": "8c201da3b9457525457409ee2121f0754c50198db8338b70fa366a8469eb18b2",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_c213cf87149a039e530b0d12_0",
+      "kind": "p",
+      "source": "Task template defines several __TRILIUM_PH_0__promoted attributes__TRILIUM_PH_1__ - todoDate, doneDate, tags, location. Importantly it also defines __TRILIUM_PH_2__ relation - __TRILIUM_PH_3__event__TRILIUM_PH_4__ handler which is run on attribute change. This __TRILIUM_PH_5__script__TRILIUM_PH_6__ handles when e.g. we fill out the doneDate attribute - meaning the task is done and should be moved to \"Done\" note and removed from TODO, locations and tags.",
+      "sourceHash": "c213cf87149a039e530b0d12270ae418d6bb73f9e3487547f6a455f1f2579617",
+      "context": "Task Manager > Implementation > Attributes",
+      "contextHash": "8c201da3b9457525457409ee2121f0754c50198db8338b70fa366a8469eb18b2",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_cd271c1e00e94b3b5301ffbe_0",
+      "kind": "h3",
+      "source": "New task button__TRILIUM_PH_0__",
+      "sourceHash": "cd271c1e00e94b3b5301ffbebd398816e8fca1deed33fb033cf0deee60d684a3",
+      "context": "Task Manager > Implementation > New task button",
+      "contextHash": "1b57d4c0d2b49053a3ed3e03b642f558ed3d0e220279f3f6298c08efb2ca8ef9",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_c2f7d025602e4e9de9f08041_0",
+      "kind": "p",
+      "source": "There's also \"button\" note which contains simple script which adds a button to create new note (task) in the TODO note.",
+      "sourceHash": "c2f7d025602e4e9de9f08041ccdb0e5dd58275be15a1a23348a09dd807a7594a",
+      "context": "Task Manager > Implementation > New task button",
+      "contextHash": "1b57d4c0d2b49053a3ed3e03b642f558ed3d0e220279f3f6298c08efb2ca8ef9",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_ea225bbd6b433fe9e21c9b40_0",
+      "kind": "h3",
+      "source": "CSS__TRILIUM_PH_0__",
+      "sourceHash": "ea225bbd6b433fe9e21c9b401e21de8fb4ae737dde46ddb6626ded7c1b96e722",
+      "context": "Task Manager > Implementation > CSS",
+      "contextHash": "885778edbec95fb16e98b979ad60448319c65e65eb8b775e90f387c377812af4",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_e1d1736f02a0b3f3ab8dc008_0",
+      "kind": "p",
+      "source": "In the demo screenshot above you may notice that TODO tasks are in red color and DONE tasks are green.",
+      "sourceHash": "e1d1736f02a0b3f3ab8dc008ead111731031c7783f23353c40f9bf19eb7e4010",
+      "context": "Task Manager > Implementation > CSS",
+      "contextHash": "885778edbec95fb16e98b979ad60448319c65e65eb8b775e90f387c377812af4",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_721c8707b45ff860b8cf0711_0",
+      "kind": "p",
+      "source": "This is done by having this CSS __TRILIUM_PH_0__code note__TRILIUM_PH_1__ which defines extra CSS classes:",
+      "sourceHash": "721c8707b45ff860b8cf0711792a4efe3bc303679e3691a5cb49e41698042416",
+      "context": "Task Manager > Implementation > CSS",
+      "contextHash": "885778edbec95fb16e98b979ad60448319c65e65eb8b775e90f387c377812af4",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_e5b6057e702da38af2fdd7dd_0",
+      "kind": "p",
+      "source": "This __TRILIUM_PH_0__code note__TRILIUM_PH_1__ has __TRILIUM_PH_2__ __TRILIUM_PH_3__label__TRILIUM_PH_4__which is recognized by Trilium on startup and loaded as CSS into the application.",
+      "sourceHash": "e5b6057e702da38af2fdd7ddf8c794a502a7aeac84ed1a32c7096406e7ca7c25",
+      "context": "Task Manager > Implementation > CSS",
+      "contextHash": "885778edbec95fb16e98b979ad60448319c65e65eb8b775e90f387c377812af4",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_ba58d5f7dc5223c14408eba6_0",
+      "kind": "p",
+      "source": "Second part of this functionality is based in event handler described above which assigns __TRILIUM_PH_0__ label to the task to either \"done\" or \"todo\" based on the task status.",
+      "sourceHash": "ba58d5f7dc5223c14408eba6c43bccd85f7cb4f5cfc542aca678ad4127241362",
+      "context": "Task Manager > Implementation > CSS",
+      "contextHash": "885778edbec95fb16e98b979ad60448319c65e65eb8b775e90f387c377812af4",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_b190d47815633246b0ab18a6_0",
+      "kind": "image-alt",
+      "source": "記事画像",
+      "sourceHash": "b190d47815633246b0ab18a61d9b8e8ea36504fe3f8bc230a7753096915c9ff2",
+      "context": "Task Manager > Implementation > CSS",
+      "contextHash": "885778edbec95fb16e98b979ad60448319c65e65eb8b775e90f387c377812af4",
+      "status": "pending",
+      "active": true
+    }
+  ],
+  "requests": []
+}

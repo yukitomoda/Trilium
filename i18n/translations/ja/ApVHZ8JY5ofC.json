@@ -1,0 +1,179 @@
+{
+  "schemaVersion": 1,
+  "pageId": "ApVHZ8JY5ofC",
+  "sourceFile": "docs/User Guide/User Guide/Scripting/Script API/Day.js.md",
+  "sourceRevision": "03d17b60f59b5efc29b880b11481471d0fe0ff57",
+  "units": [
+    {
+      "id": "u_f37ce7a7f686557c2a2ca40b_0",
+      "kind": "title",
+      "source": "Day.js",
+      "sourceHash": "f37ce7a7f686557c2a2ca40bb2ec87ba0c1d8142ada51e4194fc7fe9dc3b530e",
+      "context": "Day.js",
+      "contextHash": "05124e249af01fc310aedcfd597686f39a2a6e6e397653978e67aa8800482f2f",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_b4aef4d55785a12f913f4d9f_0",
+      "kind": "p",
+      "source": "Day.js is a date manipulation library that's used by Trilium, but it's also shared with both front-end and back-end scripts. For more information about the library itself, consult the __TRILIUM_PH_0__official documentation__TRILIUM_PH_1__.",
+      "sourceHash": "b4aef4d55785a12f913f4d9f46ec854d234053ef0a289787fec680b33e3948a9",
+      "context": "Day.js",
+      "contextHash": "05124e249af01fc310aedcfd597686f39a2a6e6e397653978e67aa8800482f2f",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_3f108b388a40bf2cedfa8f49_0",
+      "kind": "h2",
+      "source": "How to use__TRILIUM_PH_0__",
+      "sourceHash": "3f108b388a40bf2cedfa8f49f5aff11ae666688506cf618e5aedc2d0d8f8699c",
+      "context": "Day.js > How to use",
+      "contextHash": "40e260e98807da4c5a5e0292fb4c4a2539c5015726f499d08ce944a8134a150d",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_d2c42c5ceee3a120e832167a_0",
+      "kind": "p",
+      "source": "The __TRILIUM_PH_0__ method is provided directly in the __TRILIUM_PH_1__ global:",
+      "sourceHash": "d2c42c5ceee3a120e832167ab33b5ebf99331b8c2e8525a9a2296f3ffc8a2de6",
+      "context": "Day.js > How to use",
+      "contextHash": "40e260e98807da4c5a5e0292fb4c4a2539c5015726f499d08ce944a8134a150d",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_8e49c03c625d8557bc4e2ab2_0",
+      "kind": "h2",
+      "source": "Plugins__TRILIUM_PH_0__",
+      "sourceHash": "8e49c03c625d8557bc4e2ab23bae1a43a8f27402d1100dd9a12267ce6060f03f",
+      "context": "Day.js > Plugins",
+      "contextHash": "d9ccefe380acb5a79323587aec6c56513971801ecca6f5073ff3b2de6de93ed4",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_ae4467a4a84d7b86c3c0b311_0",
+      "kind": "p",
+      "source": "Day.js uses a modular, plugin-based architecture. Generally these plugins must be imported, but this process doesn't work inside Trilium scripts due to the use of a bundler.",
+      "sourceHash": "ae4467a4a84d7b86c3c0b3115895bcbba5084083c020fccceec6188b371805f9",
+      "context": "Day.js > Plugins",
+      "contextHash": "d9ccefe380acb5a79323587aec6c56513971801ecca6f5073ff3b2de6de93ed4",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_9cec21d94874c641bb6b0022_0",
+      "kind": "p",
+      "source": "Since v0.100.0, the same set of plugins is available for both front-end and back-end scripts.",
+      "sourceHash": "9cec21d94874c641bb6b00225d0ef1a2d8c26de891798650b5a5022ccae8fccc",
+      "context": "Day.js > Plugins",
+      "contextHash": "d9ccefe380acb5a79323587aec6c56513971801ecca6f5073ff3b2de6de93ed4",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_6dd19f474addfbccb7498ad9_0",
+      "kind": "p",
+      "source": "The following Day.js plugins are directly integrated into Trilium:",
+      "sourceHash": "6dd19f474addfbccb7498ad99aa54c1c45f6a6625eda4b9bd9fdecbc8ff2ffaf",
+      "context": "Day.js > Plugins",
+      "contextHash": "d9ccefe380acb5a79323587aec6c56513971801ecca6f5073ff3b2de6de93ed4",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_4d7f7c17dd1d5f043906e102_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__AdvancedFormat__TRILIUM_PH_1__",
+      "sourceHash": "4d7f7c17dd1d5f043906e102bf6700305a1ede33a24889ab8174fbf0659cd9e1",
+      "context": "Day.js > Plugins",
+      "contextHash": "d9ccefe380acb5a79323587aec6c56513971801ecca6f5073ff3b2de6de93ed4",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_e46f01393bbd4ff87f756d1a_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__Duration__TRILIUM_PH_1__, since v0.100.0.",
+      "sourceHash": "e46f01393bbd4ff87f756d1ae250e5d711cb635884e2ab02a863acf1ccab3c6a",
+      "context": "Day.js > Plugins",
+      "contextHash": "d9ccefe380acb5a79323587aec6c56513971801ecca6f5073ff3b2de6de93ed4",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_03bacdd97a481d09042f8b0a_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__IsBetween__TRILIUM_PH_1__",
+      "sourceHash": "03bacdd97a481d09042f8b0a439887814ea3f6c2fa75303045a5fbe2d44158a5",
+      "context": "Day.js > Plugins",
+      "contextHash": "d9ccefe380acb5a79323587aec6c56513971801ecca6f5073ff3b2de6de93ed4",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_b4078a99c07f82f60ebd1a85_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__IsoWeek__TRILIUM_PH_1__",
+      "sourceHash": "b4078a99c07f82f60ebd1a85c13eb0661280e1492bf8ae0f5421e06149359e68",
+      "context": "Day.js > Plugins",
+      "contextHash": "d9ccefe380acb5a79323587aec6c56513971801ecca6f5073ff3b2de6de93ed4",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_d7520d0457dba710947bed25_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__IsSameOrAfter__TRILIUM_PH_1__",
+      "sourceHash": "d7520d0457dba710947bed25d6b7b24139d8bbcf4caa5bb49f47edabc8353602",
+      "context": "Day.js > Plugins",
+      "contextHash": "d9ccefe380acb5a79323587aec6c56513971801ecca6f5073ff3b2de6de93ed4",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_50f87f705f7fc7417da3022c_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__IsSameOrBefore__TRILIUM_PH_1__",
+      "sourceHash": "50f87f705f7fc7417da3022ce3da4eb121ef4be17c1da128b0cef7c3c8e2058b",
+      "context": "Day.js > Plugins",
+      "contextHash": "d9ccefe380acb5a79323587aec6c56513971801ecca6f5073ff3b2de6de93ed4",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_2dcb8dc622bb62bc28a4bda4_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__QuarterOfYear__TRILIUM_PH_1__",
+      "sourceHash": "2dcb8dc622bb62bc28a4bda45f01f050e7877b1144b493a9454e62e5e22eed33",
+      "context": "Day.js > Plugins",
+      "contextHash": "d9ccefe380acb5a79323587aec6c56513971801ecca6f5073ff3b2de6de93ed4",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_bea0343d1e3816130e102c92_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__UTC__TRILIUM_PH_1__",
+      "sourceHash": "bea0343d1e3816130e102c921bf463cd2aa341a0760471d4e52b6cd1d406b765",
+      "context": "Day.js > Plugins",
+      "contextHash": "d9ccefe380acb5a79323587aec6c56513971801ecca6f5073ff3b2de6de93ed4",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_b47a1cc821c04ed789a0162e_0",
+      "kind": "p",
+      "source": "If another Day.js plugin might be needed for scripting purposes, feel free to open a feature request for it. Depending on the size of the plugin and the potential use of it inside the Trilium code base, it has a chance of being integrated.",
+      "sourceHash": "b47a1cc821c04ed789a0162e76c42270ad417d706e7e0c423066c37bb3d4d0d1",
+      "context": "Day.js > Plugins",
+      "contextHash": "d9ccefe380acb5a79323587aec6c56513971801ecca6f5073ff3b2de6de93ed4",
+      "status": "pending",
+      "active": true
+    }
+  ],
+  "requests": []
+}

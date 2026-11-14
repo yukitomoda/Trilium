@@ -1,0 +1,699 @@
+{
+  "schemaVersion": 1,
+  "pageId": "cRRrdZjgyhNc",
+  "sourceFile": "docs/User Guide/User Guide/AI/Privacy.md",
+  "sourceRevision": "03d17b60f59b5efc29b880b11481471d0fe0ff57",
+  "units": [
+    {
+      "id": "u_7cc99ce4e694e1e72cf1c27a_0",
+      "kind": "title",
+      "source": "Privacy",
+      "sourceHash": "7cc99ce4e694e1e72cf1c27a11ccdee092c3bca3c2e3b55daaa61234d58453b5",
+      "context": "Privacy",
+      "contextHash": "54a57c3147c49f33de5898b87084ad2b14c4ab308f762454bf92aca907478ad5",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_d3cec28e118be0a1d391064a_0",
+      "kind": "p",
+      "source": "Trilium sends nothing to an AI provider until you send a message. Enabling the integration, adding a provider or opening a chat transmits nothing on its own, the one exception is that listing a provider's models sends your API key to that provider, so the list can be fetched.",
+      "sourceHash": "d3cec28e118be0a1d391064aed3a1607644a87b63c6d73fa1dd51cfd9d030d5d",
+      "context": "Privacy",
+      "contextHash": "54a57c3147c49f33de5898b87084ad2b14c4ab308f762454bf92aca907478ad5",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_b6693933b0c055b3f2d5e101_0",
+      "kind": "p",
+      "source": "Once you send a message or run the __TRILIUM_PH_0__In-editor AI assistant__TRILIUM_PH_1__, what leaves your machine depends on the provider you chose and on which context options are enabled.",
+      "sourceHash": "b6693933b0c055b3f2d5e101578fe5a02af6d34ca1be3d9578d41fe59185b880",
+      "context": "Privacy",
+      "contextHash": "54a57c3147c49f33de5898b87084ad2b14c4ab308f762454bf92aca907478ad5",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_07eb00bf6eb88b802b8a7c18_0",
+      "kind": "h2",
+      "source": "Where your notes go__TRILIUM_PH_0__",
+      "sourceHash": "07eb00bf6eb88b802b8a7c1811e77e816f3cdbf09d025331cc69d7e11fad5008",
+      "context": "Privacy > Where your notes go",
+      "contextHash": "6230e3b7dee5b6118cc577e6fdf5821af9d7fe96121f5cb235a4e23b49049bec",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_f4044a20ddc5718f96e0eb38_0",
+      "kind": "th",
+      "source": "Provider type",
+      "sourceHash": "f4044a20ddc5718f96e0eb387a403226345286cae14b3ea348c4eb6791759f1c",
+      "context": "Privacy > Where your notes go",
+      "contextHash": "6230e3b7dee5b6118cc577e6fdf5821af9d7fe96121f5cb235a4e23b49049bec",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_eafbc75fd481604c5d9f70c5_0",
+      "kind": "th",
+      "source": "Destination",
+      "sourceHash": "eafbc75fd481604c5d9f70c5cab20c84c3572063c74a8ead880d6bd4131cc3c1",
+      "context": "Privacy > Where your notes go",
+      "contextHash": "6230e3b7dee5b6118cc577e6fdf5821af9d7fe96121f5cb235a4e23b49049bec",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_1c916fa37978d68344d8d75b_0",
+      "kind": "td",
+      "source": "Cloud providers",
+      "sourceHash": "1c916fa37978d68344d8d75b8349a7af83c5933e89954ea41e65fd0b3aadf922",
+      "context": "Privacy > Where your notes go",
+      "contextHash": "6230e3b7dee5b6118cc577e6fdf5821af9d7fe96121f5cb235a4e23b49049bec",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_7ce2313617a9616b38ce195c_0",
+      "kind": "td",
+      "source": "The provider's servers (Anthropic, OpenAI, Google, DeepSeek). OpenRouter passes each message on to the lab that runs the chosen model, according to the privacy settings of your OpenRouter account.",
+      "sourceHash": "7ce2313617a9616b38ce195ccb707d3529bc6704b2cd9763587353f86633ac92",
+      "context": "Privacy > Where your notes go",
+      "contextHash": "6230e3b7dee5b6118cc577e6fdf5821af9d7fe96121f5cb235a4e23b49049bec",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_0ce6fb2f5e36d421ed404e07_0",
+      "kind": "td",
+      "source": "Subscription-based",
+      "sourceHash": "0ce6fb2f5e36d421ed404e07c1f8384c428a0e2e6f3a171a4e90df0416df3a9a",
+      "context": "Privacy > Where your notes go",
+      "contextHash": "6230e3b7dee5b6118cc577e6fdf5821af9d7fe96121f5cb235a4e23b49049bec",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_26105c665de19eaa30f48330_0",
+      "kind": "td",
+      "source": "The provider's servers, via Claude Code running locally",
+      "sourceHash": "26105c665de19eaa30f48330014f84fb84c9e119c5e6488ad6f93fae3a7eec92",
+      "context": "Privacy > Where your notes go",
+      "contextHash": "6230e3b7dee5b6118cc577e6fdf5821af9d7fe96121f5cb235a4e23b49049bec",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_b2887919f2f7bad98aed2183_0",
+      "kind": "td",
+      "source": "Local / self-hosted",
+      "sourceHash": "b2887919f2f7bad98aed21831c0b260c90a1e8b4592fc231cb46056f0fbdbe45",
+      "context": "Privacy > Where your notes go",
+      "contextHash": "6230e3b7dee5b6118cc577e6fdf5821af9d7fe96121f5cb235a4e23b49049bec",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_7e78a4765d883e9e8ad91048_0",
+      "kind": "td",
+      "source": "Nothing leaves the machine running the model",
+      "sourceHash": "7e78a4765d883e9e8ad9104820ab008a9968c5569e07a94df36b5cdc842a67da",
+      "context": "Privacy > Where your notes go",
+      "contextHash": "6230e3b7dee5b6118cc577e6fdf5821af9d7fe96121f5cb235a4e23b49049bec",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_9ea511ae9372a0214df0e3c6_0",
+      "kind": "td",
+      "source": "Custom endpoint",
+      "sourceHash": "9ea511ae9372a0214df0e3c6a705c2df3923e5c43ebbc704ceb5ff6f0008ab69",
+      "context": "Privacy > Where your notes go",
+      "contextHash": "6230e3b7dee5b6118cc577e6fdf5821af9d7fe96121f5cb235a4e23b49049bec",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_21a725ffa7aa079a3a962a27_0",
+      "kind": "td",
+      "source": "Wherever it was pointed, which may be your own hardware or a hosted service",
+      "sourceHash": "21a725ffa7aa079a3a962a279940193f9e406e2c6005285beb4d2c389b604d4f",
+      "context": "Privacy > Where your notes go",
+      "contextHash": "6230e3b7dee5b6118cc577e6fdf5821af9d7fe96121f5cb235a4e23b49049bec",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_b1c0a1b24fb04a8881e38910_0",
+      "kind": "p",
+      "source": "This is the reason the provider list is grouped this way, and why Trilium pre-selects nothing: the choice of where your note content is sent is made explicitly by you, before anything is sent.",
+      "sourceHash": "b1c0a1b24fb04a8881e389109a8e44a9e81e871fd7c0f4496d479c24d3a945a9",
+      "context": "Privacy > Where your notes go",
+      "contextHash": "6230e3b7dee5b6118cc577e6fdf5821af9d7fe96121f5cb235a4e23b49049bec",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_1fac71ee84b9cfa1c819bae2_0",
+      "kind": "p",
+      "source": "The __TRILIUM_PH_0__In-editor AI assistant__TRILIUM_PH_1__ has a model selection of its own, so it may be answered by a different provider than the one in the chat. The row at the bottom of the assistant's menu always names the one being used.",
+      "sourceHash": "1fac71ee84b9cfa1c819bae2f999190d3aabf736c3f2e72fac42fe5f61f113cf",
+      "context": "Privacy > Where your notes go",
+      "contextHash": "6230e3b7dee5b6118cc577e6fdf5821af9d7fe96121f5cb235a4e23b49049bec",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_f780ef55697b7c59ff6bd2b0_0",
+      "kind": "h2",
+      "source": "What is actually sent__TRILIUM_PH_0__",
+      "sourceHash": "f780ef55697b7c59ff6bd2b079bfdd8755f06a5623c6e19fc82c49e6b386c8d4",
+      "context": "Privacy > What is actually sent",
+      "contextHash": "1459ca20eb313d8d74a144826c4c3f52b98c3d5ee2e8bf01778dadbbb55d5866",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_6bc158d21d36739f02d18387_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__Always, with every message__TRILIUM_PH_1__",
+      "sourceHash": "6bc158d21d36739f02d1838788e00e27ded75bd36b0f52bd51a7fb04cb43ed26",
+      "context": "Privacy > What is actually sent",
+      "contextHash": "1459ca20eb313d8d74a144826c4c3f52b98c3d5ee2e8bf01778dadbbb55d5866",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_5f40cb17af7c9d1f69c7d06f_0",
+      "kind": "li",
+      "source": "The conversation itself: your messages and the assistant's replies, including earlier turns",
+      "sourceHash": "5f40cb17af7c9d1f69c7d06fd7b8672b46cfbe22acf43879bd69b6c5eb858b1b",
+      "context": "Privacy > What is actually sent",
+      "contextHash": "1459ca20eb313d8d74a144826c4c3f52b98c3d5ee2e8bf01778dadbbb55d5866",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_1ce61b534223cf39a7203b74_0",
+      "kind": "li",
+      "source": "Trilium's system prompt describing how to format answers and use tools.",
+      "sourceHash": "1ce61b534223cf39a7203b74d9ffd572b62a856872ab3cdce5d6d8a849c5e993",
+      "context": "Privacy > What is actually sent",
+      "contextHash": "1459ca20eb313d8d74a144826c4c3f52b98c3d5ee2e8bf01778dadbbb55d5866",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_b32f3f8a2b32db51e7293d77_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__The current note, only when note context is enabled.__TRILIUM_PH_1__",
+      "sourceHash": "b32f3f8a2b32db51e7293d77321f3cd90369dc125dd64f0b28bd385129de8732",
+      "context": "Privacy > What is actually sent",
+      "contextHash": "1459ca20eb313d8d74a144826c4c3f52b98c3d5ee2e8bf01778dadbbb55d5866",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_54393e4b187fff563f293b1b_0",
+      "kind": "li",
+      "source": "In the sidebar chat this is the file icon at the bottom; the dedicated chat note type never sends a current note.",
+      "sourceHash": "54393e4b187fff563f293b1b82571b68dfb6eec319f85f4f6c9e52e685ed6998",
+      "context": "Privacy > What is actually sent",
+      "contextHash": "1459ca20eb313d8d74a144826c4c3f52b98c3d5ee2e8bf01778dadbbb55d5866",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_6079b323b2dcc448083cf707_0",
+      "kind": "li",
+      "source": "What travels is a metadata block: the note's ID, title, type, creation and modification dates, its parent IDs, the titles of up to 20 children, up to 20 attributes, and a preview of the content.",
+      "sourceHash": "6079b323b2dcc448083cf707432da3e936db806a1cf0337cabffd44a676fb94a",
+      "context": "Privacy > What is actually sent",
+      "contextHash": "1459ca20eb313d8d74a144826c4c3f52b98c3d5ee2e8bf01778dadbbb55d5866",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_85b8b4b92b7a401a68882d47_0",
+      "kind": "li",
+      "source": "Notes above a size threshold send a size hint instead of the text, and the model must call a tool to read further.",
+      "sourceHash": "85b8b4b92b7a401a68882d47f8cd57f09162c9de0fb20c4169b3d02302862b8f",
+      "context": "Privacy > What is actually sent",
+      "contextHash": "1459ca20eb313d8d74a144826c4c3f52b98c3d5ee2e8bf01778dadbbb55d5866",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_3a8f67bc46a248a2d63e3fcd_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__Any note the model asks for, when note access is enabled.__TRILIUM_PH_1__",
+      "sourceHash": "3a8f67bc46a248a2d63e3fcd5b8719b208f2bb84cf3c19d6a4abf7b76d7cfed8",
+      "context": "Privacy > What is actually sent",
+      "contextHash": "1459ca20eb313d8d74a144826c4c3f52b98c3d5ee2e8bf01778dadbbb55d5866",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_612057fabed25f9e032ca4cb_0",
+      "kind": "li",
+      "source": "Tools let the model search your tree and read notes, attributes and attachments beyond the current one.",
+      "sourceHash": "612057fabed25f9e032ca4cb5f38d0b34c053b69e3fe9bd64832f770988a3d7b",
+      "context": "Privacy > What is actually sent",
+      "contextHash": "1459ca20eb313d8d74a144826c4c3f52b98c3d5ee2e8bf01778dadbbb55d5866",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_f5ed0a9d6a6d08c968617574_0",
+      "kind": "li",
+      "source": "It decides what to fetch, and each call waits for you to allow it, unless the chat's permission mode lets reads or every call run on their own, or you allowed that tool for the chat. The reachable scope is your whole tree, except for notes you exclude (see __TRILIUM_PH_0__Excluding notes__TRILIUM_PH_1__ below).",
+      "sourceHash": "f5ed0a9d6a6d08c9686175748e28e3d1297e825177fde2c1f4bef6a7975ae156",
+      "context": "Privacy > What is actually sent",
+      "contextHash": "1459ca20eb313d8d74a144826c4c3f52b98c3d5ee2e8bf01778dadbbb55d5866",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_864a216874869a07f26406b5_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__Attachments and mentions__TRILIUM_PH_1__, when you add them: images, PDFs and text files are sent to the provider, and an __TRILIUM_PH_2__ mention makes that note fetchable.",
+      "sourceHash": "864a216874869a07f26406b57f1abdb737f1486a45b889ce3d9140b78dabae38",
+      "context": "Privacy > What is actually sent",
+      "contextHash": "1459ca20eb313d8d74a144826c4c3f52b98c3d5ee2e8bf01778dadbbb55d5866",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_0629cc663758f8906aa1034f_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__Your search query__TRILIUM_PH_1__, when web search is enabled, the model's search terms reach the provider's own search infrastructure, or the search provider chosen in the __TRILIUM_PH_2__Tools__TRILIUM_PH_3__ menu (Brave Search, Tavily, Exa, Serper, Perplexity or your SearXNG instance).",
+      "sourceHash": "0629cc663758f8906aa1034f75c887f2ba32464b980c4ae566f68da38f9d1b49",
+      "context": "Privacy > What is actually sent",
+      "contextHash": "1459ca20eb313d8d74a144826c4c3f52b98c3d5ee2e8bf01778dadbbb55d5866",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_e6976472d92817ea387e3cdc_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__The pages the model reads__TRILIUM_PH_1__, when web search goes through a search provider or a DeepSeek model's built-in search: Trilium fetches each page the model asks for from the site itself, so the site sees a request from the machine running Trilium. The page's text is then sent to the model's provider.",
+      "sourceHash": "e6976472d92817ea387e3cdc4512aafebb690d802d9fe7c065f59efa5cab7450",
+      "context": "Privacy > What is actually sent",
+      "contextHash": "1459ca20eb313d8d74a144826c4c3f52b98c3d5ee2e8bf01778dadbbb55d5866",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_677e0e5bd259d880e02ee980_0",
+      "kind": "h2",
+      "source": "The in-editor AI assistant__TRILIUM_PH_0__",
+      "sourceHash": "677e0e5bd259d880e02ee980c3678b915cf82031b9ef26117edbefea0910c8cd",
+      "context": "Privacy > The in-editor AI assistant",
+      "contextHash": "d617661aa2c25462d69b1b9527064212085fabfdcc7d12e129cf33cb22233b92",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_e3ec86dd161366fc22aee43c_0",
+      "kind": "p",
+      "source": "A run of the __TRILIUM_PH_0__In-editor AI assistant__TRILIUM_PH_1__ sends a different set than a chat message. For quick actions, it sends it the moment you pick an action, there is no send button to reconsider at. For the free-form __TRILIUM_PH_2__Ask AI__TRILIUM_PH_3__, there is a dedicated send button and model selector.",
+      "sourceHash": "e3ec86dd161366fc22aee43cbb72787438ac9dc309e9141921d0784207f4ffae",
+      "context": "Privacy > The in-editor AI assistant",
+      "contextHash": "d617661aa2c25462d69b1b9527064212085fabfdcc7d12e129cf33cb22233b92",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_677d6db80f80cf6cda138809_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__The passage you selected__TRILIUM_PH_1__, or the paragraph the cursor is in when you pick a quick action without selecting anything. Opened from the menu of the drag handle, the assistant sends the whole blocks that the handle shades instead.",
+      "sourceHash": "677d6db80f80cf6cda138809127bb0f032ba3f6b3164a1b1c7770efb73d3082f",
+      "context": "Privacy > The in-editor AI assistant",
+      "contextHash": "d617661aa2c25462d69b1b9527064212085fabfdcc7d12e129cf33cb22233b92",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_bca32267a878422ccb31420a_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__Up to 1500 characters of the note on each side of that passage__TRILIUM_PH_1__, as plain text. The assistant is told this is context only and must not be rewritten, but it is sent regardless of whether you selected it: a run on a single sentence still transmits the paragraphs around it.",
+      "sourceHash": "bca32267a878422ccb31420a474d87deccc0dc45dcb4e527b382b4f899d1792a",
+      "context": "Privacy > The in-editor AI assistant",
+      "contextHash": "d617661aa2c25462d69b1b9527064212085fabfdcc7d12e129cf33cb22233b92",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_1c087170731146053cd526ba_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__Where the note sits__TRILIUM_PH_1__: its title and the titles of its parents, as a breadcrumb.",
+      "sourceHash": "1c087170731146053cd526ba0b6edb3f43303af7dc39c271ae2dbd29eb15401a",
+      "context": "Privacy > The in-editor AI assistant",
+      "contextHash": "d617661aa2c25462d69b1b9527064212085fabfdcc7d12e129cf33cb22233b92",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_b98934be1f14b0eb7fad9958_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__Trilium's writing-assistant instructions__TRILIUM_PH_1__, which describe the formatting it may produce.",
+      "sourceHash": "b98934be1f14b0eb7fad9958f170cd8e040b3d49cc5b0d7f9b2e348e09b13114",
+      "context": "Privacy > The in-editor AI assistant",
+      "contextHash": "d617661aa2c25462d69b1b9527064212085fabfdcc7d12e129cf33cb22233b92",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_62552a8b9187bab84283fe81_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__Earlier turns of the same exchange__TRILIUM_PH_1__, once you follow up on a response.",
+      "sourceHash": "62552a8b9187bab84283fe81c71e0ffaa935b831e5f735a48b6cbada36d347a8",
+      "context": "Privacy > The in-editor AI assistant",
+      "contextHash": "d617661aa2c25462d69b1b9527064212085fabfdcc7d12e129cf33cb22233b92",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_157b5e6d71177ecefec7c63d_0",
+      "kind": "p",
+      "source": "No note metadata block is sent, web search is never enabled, and the assistant has no note tools so it can read nothing beyond the text listed above.",
+      "sourceHash": "157b5e6d71177ecefec7c63d4643fbb290ec2d296ef4651325f9c32cf09c5f7d",
+      "context": "Privacy > The in-editor AI assistant",
+      "contextHash": "d617661aa2c25462d69b1b9527064212085fabfdcc7d12e129cf33cb22233b92",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_3a57ebda0961119273a44996_0",
+      "kind": "h2",
+      "source": "Protected notes__TRILIUM_PH_0__",
+      "sourceHash": "3a57ebda0961119273a4499659cb8b70c405c8a24161509d4d7edbdcbc2f401b",
+      "context": "Privacy > Protected notes",
+      "contextHash": "58c8a88aa1a380a8e2d56542946b35f6e0eeddd47e6f63c86d34fda8386cdea0",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_6dd99f499ee5e77efe905d03_0",
+      "kind": "p",
+      "source": "While your __TRILIUM_PH_0__protected session__TRILIUM_PH_1__ is locked, protected notes send neither title nor content. __TRILIUM_PH_2__While it is unlocked they are treated like any other note,__TRILIUM_PH_3__ a note the model reads through a tool is sent to the provider in full. If you keep sensitive material in protected notes, be aware that unlocking them removes that boundary for the duration of the session.",
+      "sourceHash": "6dd99f499ee5e77efe905d034fc31e6005f7fc9b13c0b23854039440eaa9cfcb",
+      "context": "Privacy > Protected notes",
+      "contextHash": "58c8a88aa1a380a8e2d56542946b35f6e0eeddd47e6f63c86d34fda8386cdea0",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_0832550751fcf03552588c62_0",
+      "kind": "p",
+      "source": "The same applies to the __TRILIUM_PH_0__In-editor AI assistant__TRILIUM_PH_1__: it works on whatever is open in the editor, so running it inside an unlocked protected note sends that note's text like any other.",
+      "sourceHash": "0832550751fcf03552588c6231e7b602f71b615d04870018d2e4606904f4ce62",
+      "context": "Privacy > Protected notes",
+      "contextHash": "58c8a88aa1a380a8e2d56542946b35f6e0eeddd47e6f63c86d34fda8386cdea0",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_049de5382d9d869b5da664d4_0",
+      "kind": "h2",
+      "source": "Excluding notes__TRILIUM_PH_0__",
+      "sourceHash": "049de5382d9d869b5da664d49de8a1af12b1606e59e60c0aed41e66e0bd80627",
+      "context": "Privacy > Excluding notes",
+      "contextHash": "06ecb2be95e3458424401f50a4c8b455fe48fb732bc92a9d89ddbb23d6595afb",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_3f6f8beb88a3a16f75d7aea3_0",
+      "kind": "p",
+      "source": "Add the __TRILIUM_PH_0__ __TRILIUM_PH_1__label__TRILIUM_PH_2__ to a note to hide it from the AI chat and the __TRILIUM_PH_3__MCP server__TRILIUM_PH_4__. The label covers only that note: the notes below it stay visible unless you make the label __TRILIUM_PH_5__inheritable__TRILIUM_PH_6__, and a child can opt back in with __TRILIUM_PH_7__.",
+      "sourceHash": "3f6f8beb88a3a16f75d7aea353e25f4a59f0f1258b420489fa403bcf0490a81f",
+      "context": "Privacy > Excluding notes",
+      "contextHash": "06ecb2be95e3458424401f50a4c8b455fe48fb732bc92a9d89ddbb23d6595afb",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_8a484620d8a38a722ad06660_0",
+      "kind": "p",
+      "source": "A note created from a template inherits all of the template's labels (see __TRILIUM_PH_0__Templates__TRILIUM_PH_1__), so adding __TRILIUM_PH_2__ to a template hides every note that uses it, not just the template.",
+      "sourceHash": "8a484620d8a38a722ad066607292de479de0f2955dfbfd551264f1c3061281d5",
+      "context": "Privacy > Excluding notes",
+      "contextHash": "06ecb2be95e3458424401f50a4c8b455fe48fb732bc92a9d89ddbb23d6595afb",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_33cdf99f78df3510da889db9_0",
+      "kind": "p",
+      "source": "For an excluded note:",
+      "sourceHash": "33cdf99f78df3510da889db9370affbcfc5215299ebb6c6f3cf1d915b5ac0452",
+      "context": "Privacy > Excluding notes",
+      "contextHash": "06ecb2be95e3458424401f50a4c8b455fe48fb732bc92a9d89ddbb23d6595afb",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_78c04108982ecec84ba3dbd6_0",
+      "kind": "li",
+      "source": "The note tools report it as not found: it is left out of search results, child lists and subtrees, and relations that point to it are not shown.",
+      "sourceHash": "78c04108982ecec84ba3dbd613044fc1ff07d8ae4513f27e403f76e728b7e3c8",
+      "context": "Privacy > Excluding notes",
+      "contextHash": "06ecb2be95e3458424401f50a4c8b455fe48fb732bc92a9d89ddbb23d6595afb",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_aa7d7d8b08a1b18ed14920a1_0",
+      "kind": "li",
+      "source": "The model cannot read, edit, move, clone or rename it, create notes under it, or remove the label. It also cannot delete a note that has an excluded note below it.",
+      "sourceHash": "aa7d7d8b08a1b18ed14920a161be138535dc06d3f994c070be0ce4cd975975b0",
+      "context": "Privacy > Excluding notes",
+      "contextHash": "06ecb2be95e3458424401f50a4c8b455fe48fb732bc92a9d89ddbb23d6595afb",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_f7cee7461757c9bc57b58b6a_0",
+      "kind": "li",
+      "source": "Its metadata is not sent as the current note, even when note context is enabled.",
+      "sourceHash": "f7cee7461757c9bc57b58b6aae6a74141c610b96b421d946f43218c201f6d08d",
+      "context": "Privacy > Excluding notes",
+      "contextHash": "06ecb2be95e3458424401f50a4c8b455fe48fb732bc92a9d89ddbb23d6595afb",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_5aa4cfffb4d0d90db01cc305_0",
+      "kind": "li",
+      "source": "A visible child does not show it as a parent, and the model cannot move the child out of it.",
+      "sourceHash": "5aa4cfffb4d0d90db01cc305e0557e0b979b1287c95bc5ae5733712297ffacfb",
+      "context": "Privacy > Excluding notes",
+      "contextHash": "06ecb2be95e3458424401f50a4c8b455fe48fb732bc92a9d89ddbb23d6595afb",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_3c7d6f35e8758f1fb396f2a4_0",
+      "kind": "p",
+      "source": "Unlike a protected note, an excluded note stays hidden while your protected session is unlocked. The exclusion applies to the note tools only. It is not encryption, and it does not cover:",
+      "sourceHash": "3c7d6f35e8758f1fb396f2a405e89b6b3873af4dcc2ce233675eb5d4915ccec7",
+      "context": "Privacy > Excluding notes",
+      "contextHash": "06ecb2be95e3458424401f50a4c8b455fe48fb732bc92a9d89ddbb23d6595afb",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_c9d7b448de12fcfa707ac981_0",
+      "kind": "li",
+      "source": "Files you attach to a message yourself.",
+      "sourceHash": "c9d7b448de12fcfa707ac9811c952f15235ec87a6dcf7a3bf119356eb4b5b7a0",
+      "context": "Privacy > Excluding notes",
+      "contextHash": "06ecb2be95e3458424401f50a4c8b455fe48fb732bc92a9d89ddbb23d6595afb",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_2801dae656191fc01fb4655b_0",
+      "kind": "li",
+      "source": "The __TRILIUM_PH_0__In-editor AI assistant__TRILIUM_PH_1__ when you run it inside the note.",
+      "sourceHash": "2801dae656191fc01fb4655bd4539ff6ce481405959c1db2f0f649b9d20e7858",
+      "context": "Privacy > Excluding notes",
+      "contextHash": "06ecb2be95e3458424401f50a4c8b455fe48fb732bc92a9d89ddbb23d6595afb",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_4e36e9a2d0a62eafb22e06ed_0",
+      "kind": "li",
+      "source": "Text from the note that appears in other notes, such as a link with the note's title.",
+      "sourceHash": "4e36e9a2d0a62eafb22e06edb746b920a63edf8d6ad7a7f5fdc4bdab8738a9d6",
+      "context": "Privacy > Excluding notes",
+      "contextHash": "06ecb2be95e3458424401f50a4c8b455fe48fb732bc92a9d89ddbb23d6595afb",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_0d8b4da69bc67c8ba4f3501b_0",
+      "kind": "li",
+      "source": "What a search query can test. Search never returns an excluded note, but a query can still match a visible note through an excluded one: by its title in the note path, through a relation (__TRILIUM_PH_0__), a parent or child (__TRILIUM_PH_1__), or a label the visible note inherits from it. A model that guesses can learn whether an excluded note contains a given word.",
+      "sourceHash": "0d8b4da69bc67c8ba4f3501b0aa6ccb4767495f52336788c50b254f6f6106b5e",
+      "context": "Privacy > Excluding notes",
+      "contextHash": "06ecb2be95e3458424401f50a4c8b455fe48fb732bc92a9d89ddbb23d6595afb",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_48c2a8521fa30a613b78f14e_0",
+      "kind": "h2",
+      "source": "What you control__TRILIUM_PH_0__",
+      "sourceHash": "48c2a8521fa30a613b78f14e12ca11d16bcc7221f159fb03169c73beb982357b",
+      "context": "Privacy > What you control",
+      "contextHash": "3f25f1b54b590fa97e960fa266e8f7771a90f7821895605251990f278c2a11d7",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_1a4a53b5f73de054aeda08d8_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__Which provider__TRILIUM_PH_1__: the single decision that determines whether anything leaves your machine at all.",
+      "sourceHash": "1a4a53b5f73de054aeda08d8ea01d3c11fc362d501f75329ded90c107fffd8d4",
+      "context": "Privacy > What you control",
+      "contextHash": "3f25f1b54b590fa97e960fa266e8f7771a90f7821895605251990f278c2a11d7",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_aa341bf000cd3d16759c5c34_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__Note access__TRILIUM_PH_1__: turn it off in the __TRILIUM_PH_2____TRILIUM_PH_3__Tools__TRILIUM_PH_4__ menu at the bottom of the chat, and the model can read nothing beyond what you type.",
+      "sourceHash": "aa341bf000cd3d16759c5c346ca90bea7132777f12534fa48770b56fda86dcb7",
+      "context": "Privacy > What you control",
+      "contextHash": "3f25f1b54b590fa97e960fa266e8f7771a90f7821895605251990f278c2a11d7",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_b9ae9a1a7599b805a81f157c_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__The current note:__TRILIUM_PH_1__ the file icon in the sidebar chat.",
+      "sourceHash": "b9ae9a1a7599b805a81f157c68308390f2f7e2156b3c02bc9345e5b45a204190",
+      "context": "Privacy > What you control",
+      "contextHash": "3f25f1b54b590fa97e960fa266e8f7771a90f7821895605251990f278c2a11d7",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_ddfc22d0545d66587078ad72_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__Notes the AI cannot reach:__TRILIUM_PH_1__ the __TRILIUM_PH_2__ label, see __TRILIUM_PH_3__Excluding notes__TRILIUM_PH_4__ above.",
+      "sourceHash": "ddfc22d0545d66587078ad72c1094a5e1858ec843ec6319fd7d47b0fc92e6986",
+      "context": "Privacy > What you control",
+      "contextHash": "3f25f1b54b590fa97e960fa266e8f7771a90f7821895605251990f278c2a11d7",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_515882c7e16106a60d55b70a_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__Web search:__TRILIUM_PH_1__ also in the __TRILIUM_PH_2__Tools__TRILIUM_PH_3__ menu.",
+      "sourceHash": "515882c7e16106a60d55b70a4da4c923740934db741619af11d3148c46322b58",
+      "context": "Privacy > What you control",
+      "contextHash": "3f25f1b54b590fa97e960fa266e8f7771a90f7821895605251990f278c2a11d7",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_5a8bae20d73babfa5dcce679_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__Which tool calls ask first:__TRILIUM_PH_1__ the __TRILIUM_PH_2__Permissions__TRILIUM_PH_3__ submenu of the __TRILIUM_PH_4__Tools__TRILIUM_PH_5__ menu. __TRILIUM_PH_6__Always ask__TRILIUM_PH_7__ has every call wait for you, reads included. A new chat starts in the mode you picked last, so a chat after one set to __TRILIUM_PH_8__Don't ask__TRILIUM_PH_9__ asks about nothing either. Until you pick a mode, chats start in __TRILIUM_PH_10__Ask before changes__TRILIUM_PH_11__, where the AI reads and searches your notes without asking.",
+      "sourceHash": "5a8bae20d73babfa5dcce679ef5cd6c8559e9123e931fbc0501ad8f3e3cfa3b9",
+      "context": "Privacy > What you control",
+      "contextHash": "3f25f1b54b590fa97e960fa266e8f7771a90f7821895605251990f278c2a11d7",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_3bd47dc2881441df8e8a27aa_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__The editor assistant__TRILIUM_PH_1__: it has no per-run toggles. What you control is whether you run it, what you select before you do and which model answers.",
+      "sourceHash": "3bd47dc2881441df8e8a27aac417e93d01e52c17e3ec796da54c58e2bdcdfe43",
+      "context": "Privacy > What you control",
+      "contextHash": "3f25f1b54b590fa97e960fa266e8f7771a90f7821895605251990f278c2a11d7",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_514692aad6adea27181cc2a5_0",
+      "kind": "p",
+      "source": "With note access and note context both off, the provider receives only the words you typed.",
+      "sourceHash": "514692aad6adea27181cc2a53ee5d22ca27c38ef43b53c62b13a170d653aabda",
+      "context": "Privacy > What you control",
+      "contextHash": "3f25f1b54b590fa97e960fa266e8f7771a90f7821895605251990f278c2a11d7",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_10a4ec7597000fc4cb575cb3_0",
+      "kind": "h2",
+      "source": "Keeping everything local__TRILIUM_PH_0__",
+      "sourceHash": "10a4ec7597000fc4cb575cb32d7251674bb621351a8a8e30e7abefbac8343571",
+      "context": "Privacy > Keeping everything local",
+      "contextHash": "3249c6926a862f806db66b9363b53c9bc521e8ae99754629b2210666bd810050",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_2db695c6d574b432dc11c44a_0",
+      "kind": "p",
+      "source": "Adding an Ollama or LM Studio provider keeps every message on the machine running the model, and Trilium marks their models as free because no metered API is involved. The trade-off is quality and hardware: a small local model may fail at tool calls that a cloud model handles, so a local setup that misbehaves is worth benchmarking against a cloud provider before reporting it as a bug.",
+      "sourceHash": "2db695c6d574b432dc11c44aa1f4d7b2058675fd08268e3344fd308e36074e1e",
+      "context": "Privacy > Keeping everything local",
+      "contextHash": "3249c6926a862f806db66b9363b53c9bc521e8ae99754629b2210666bd810050",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_80b91aa07d7be6cb95dbf05c_0",
+      "kind": "h2",
+      "source": "Telemetry & security__TRILIUM_PH_0__",
+      "sourceHash": "80b91aa07d7be6cb95dbf05cb1fe54ced0248d3c8ea0c269a0340563f16b0018",
+      "context": "Privacy > Telemetry & security",
+      "contextHash": "88aba830d7112b7084bb82105155c0f79abbbc26b84f2e2a1a77642d3b318843",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_7d576bf040ae4a9c3f4a65a0_0",
+      "kind": "p",
+      "source": "Trilium itself collects no telemetry from the AI integration.",
+      "sourceHash": "7d576bf040ae4a9c3f4a65a04be79d816072be284d1d6f40fc034d56df5388f6",
+      "context": "Privacy > Telemetry & security",
+      "contextHash": "88aba830d7112b7084bb82105155c0f79abbbc26b84f2e2a1a77642d3b318843",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_9223f19743961618d53bfc0b_0",
+      "kind": "p",
+      "source": "Your API key is stored in your database, sent only to the provider it belongs to, and is write-only through the options API so that a malevolent __TRILIUM_PH_0__Scripting__TRILIUM_PH_1__ cannot access it. If you have backend or SQL console access enabled, a malevolent script __TRILIUM_PH_2__could potentially exfiltrate your API keys__TRILIUM_PH_3__.",
+      "sourceHash": "9223f19743961618d53bfc0b53f2a345d9c7fd310f9b105e3459fcacddbe91e6",
+      "context": "Privacy > Telemetry & security",
+      "contextHash": "88aba830d7112b7084bb82105155c0f79abbbc26b84f2e2a1a77642d3b318843",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_9bb7b90a1906fded2113f191_0",
+      "kind": "p",
+      "source": "The built-in MCP server is off by default. When enabled, every request must carry an ETAPI token, which grants the same full read and write access to your notes as the REST API; treat one like a password. On desktop it is reachable only from __TRILIUM_PH_0__ unless you turn on __TRILIUM_PH_1__Network Access__TRILIUM_PH_2__.",
+      "sourceHash": "9bb7b90a1906fded2113f191b7ece5e7b38b0923be0071972ed8a641cfc576d2",
+      "context": "Privacy > Telemetry & security",
+      "contextHash": "88aba830d7112b7084bb82105155c0f79abbbc26b84f2e2a1a77642d3b318843",
+      "status": "pending",
+      "active": true
+    }
+  ],
+  "requests": []
+}

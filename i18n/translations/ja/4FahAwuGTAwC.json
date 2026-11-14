@@ -1,0 +1,259 @@
+{
+  "schemaVersion": 1,
+  "pageId": "4FahAwuGTAwC",
+  "sourceFile": "docs/User Guide/User Guide/Advanced Usage/Note source.md",
+  "sourceRevision": "03d17b60f59b5efc29b880b11481471d0fe0ff57",
+  "units": [
+    {
+      "id": "u_3a33fcd338a06d75b420a7fe_0",
+      "kind": "title",
+      "source": "Note source",
+      "sourceHash": "3a33fcd338a06d75b420a7fe8eed5dc260d11177ae6a40c166281291959a6417",
+      "context": "Note source",
+      "contextHash": "9ddee823d43bd7cd41bf6ce61ae7b86597d3449f7a975c564e0fbd1194ab043a",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_fb091ce7e2291478cd543b29_0",
+      "kind": "h2",
+      "source": "Understanding the source code of the different notes__TRILIUM_PH_0__",
+      "sourceHash": "fb091ce7e2291478cd543b298dfe0d230a3ed3ec152897614999aa1ff4b1f235",
+      "context": "Note source > Understanding the source code of the different notes",
+      "contextHash": "5f1b1f76c48c14c1b8e19d1730df1500631ab36147fdf34954363dec23d15d70",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_3951dc1b0c87b8e0c6641b41_0",
+      "kind": "p",
+      "source": "Internally, the structure of the content of each note is different based on the __TRILIUM_PH_0__Note Types__TRILIUM_PH_1__.",
+      "sourceHash": "3951dc1b0c87b8e0c6641b414655ecb3b4709ca83450147d4db2fdbf3e6ac736",
+      "context": "Note source > Understanding the source code of the different notes",
+      "contextHash": "5f1b1f76c48c14c1b8e19d1730df1500631ab36147fdf34954363dec23d15d70",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_1027d9e1431380cfd7e954a5_0",
+      "kind": "p",
+      "source": "For example:",
+      "sourceHash": "1027d9e1431380cfd7e954a5d4db80b11e206e376be8715fbf750ef9d78ae154",
+      "context": "Note source > Understanding the source code of the different notes",
+      "contextHash": "5f1b1f76c48c14c1b8e19d1730df1500631ab36147fdf34954363dec23d15d70",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_c28493d08ad68f065646fd87_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__Text__TRILIUM_PH_1__ notes are represented internally as HTML, using the __TRILIUM_PH_2__CKEditor__TRILIUM_PH_3__ representation. Note that due to the custom plugins, some HTML elements are specific to Trilium only, for example the admonitions.",
+      "sourceHash": "c28493d08ad68f065646fd8718bc8700147c4f7444a55cf5391bcb1ee9cb32bf",
+      "context": "Note source > Understanding the source code of the different notes",
+      "contextHash": "5f1b1f76c48c14c1b8e19d1730df1500631ab36147fdf34954363dec23d15d70",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_7571bbcb6fb227ce9f6a1b40_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__Code__TRILIUM_PH_1__ notes are plain text and are represented internally as-is.",
+      "sourceHash": "7571bbcb6fb227ce9f6a1b40a726885ab7b61cedfa2fe917f285cba9105667bd",
+      "context": "Note source > Understanding the source code of the different notes",
+      "contextHash": "5f1b1f76c48c14c1b8e19d1730df1500631ab36147fdf34954363dec23d15d70",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_eb0fb637690e5c320d1d962d_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__Geo Map__TRILIUM_PH_1__ notes contain only minimal information (viewport, zoom) as a JSON.",
+      "sourceHash": "eb0fb637690e5c320d1d962d582103b96e470bc33789f3a6e3686914a689c36c",
+      "context": "Note source > Understanding the source code of the different notes",
+      "contextHash": "5f1b1f76c48c14c1b8e19d1730df1500631ab36147fdf34954363dec23d15d70",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_e03e8eae65408c31b248238d_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__Canvas__TRILIUM_PH_1__ notes are represented as JSON, with Trilium's own information alongside with __TRILIUM_PH_2__Excalidraw__TRILIUM_PH_3__'s internal JSON representation format.",
+      "sourceHash": "e03e8eae65408c31b248238d2ad794d1d1c465bb5c87855c349978b382b49b48",
+      "context": "Note source > Understanding the source code of the different notes",
+      "contextHash": "5f1b1f76c48c14c1b8e19d1730df1500631ab36147fdf34954363dec23d15d70",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_f3e47b2027f11a0a9850b608_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__Mind Map__TRILIUM_PH_1__ notes are represented as JSON, with the internal format of __TRILIUM_PH_2__MindElixir__TRILIUM_PH_3__.",
+      "sourceHash": "f3e47b2027f11a0a9850b60818196b6c7869428191f8e38621673550e626d502",
+      "context": "Note source > Understanding the source code of the different notes",
+      "contextHash": "5f1b1f76c48c14c1b8e19d1730df1500631ab36147fdf34954363dec23d15d70",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_5df3f9f0c45f0db8aad53d8b_0",
+      "kind": "p",
+      "source": "Note that some information is also stored as __TRILIUM_PH_0__Attachments__TRILIUM_PH_1__. For example __TRILIUM_PH_2__Canvas__TRILIUM_PH_3__ notes use the attachments feature to store the custom libraries, and alongside with __TRILIUM_PH_4__Mind Map__TRILIUM_PH_5__ and other similar note types it stores an SVG representation of the content for use in other features such as including in other notes, shared notes, etc.",
+      "sourceHash": "5df3f9f0c45f0db8aad53d8b5f2ac6d1caef7d9065ac1fdb1d2641597a2718f8",
+      "context": "Note source > Understanding the source code of the different notes",
+      "contextHash": "5f1b1f76c48c14c1b8e19d1730df1500631ab36147fdf34954363dec23d15d70",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_83bb2946d9df1803db6985be_0",
+      "kind": "p",
+      "source": "Here's part of the HTML representation of this note, as it's stored in the database (but prettified).",
+      "sourceHash": "83bb2946d9df1803db6985bef849c3410cd182bea5611211cf79e90f32443578",
+      "context": "Note source > Understanding the source code of the different notes",
+      "contextHash": "5f1b1f76c48c14c1b8e19d1730df1500631ab36147fdf34954363dec23d15d70",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_31d8bba18513ef8e8ec54be3_0",
+      "kind": "h2",
+      "source": "Viewing the source code__TRILIUM_PH_0__",
+      "sourceHash": "31d8bba18513ef8e8ec54be3f2296367a9a8c8ead029021e9a86655602ae7301",
+      "context": "Note source > Viewing the source code",
+      "contextHash": "8a03e8d9f6c105cd8d61de949e196f511e376dae2192bfbffe73ac7a52da7624",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_233f6e2c0dcc133e3c65a378_0",
+      "kind": "p",
+      "source": "It is possible to view the source code of a note by pressing the contextual menu in __TRILIUM_PH_0__Note menu__TRILIUM_PH_1__ and selecting __TRILIUM_PH_2__Note source__TRILIUM_PH_3__.",
+      "sourceHash": "233f6e2c0dcc133e3c65a378ea939a1833660ec05ad2dcbce59be4d4990fbe2e",
+      "context": "Note source > Viewing the source code",
+      "contextHash": "8a03e8d9f6c105cd8d61de949e196f511e376dae2192bfbffe73ac7a52da7624",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_6fb074f43c858b1c6e8642ed_0",
+      "kind": "p",
+      "source": "The source code will be displayed in a new tab.",
+      "sourceHash": "6fb074f43c858b1c6e8642ed661062893db1d1821b407f3c91888880da2375a2",
+      "context": "Note source > Viewing the source code",
+      "contextHash": "8a03e8d9f6c105cd8d61de949e196f511e376dae2192bfbffe73ac7a52da7624",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_6b792ceb4ca0a5dfa1f81cf8_0",
+      "kind": "p",
+      "source": "For some note types, such as text notes and JSON notes, the source code is also formatted in order to be more easily readable.",
+      "sourceHash": "6b792ceb4ca0a5dfa1f81cf86345762b8ad935df7828697a4e2cc3b4b753b07f",
+      "context": "Note source > Viewing the source code",
+      "contextHash": "8a03e8d9f6c105cd8d61de949e196f511e376dae2192bfbffe73ac7a52da7624",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_12262a11f0790832553f8d96_0",
+      "kind": "h2",
+      "source": "Modifying the source code__TRILIUM_PH_0__",
+      "sourceHash": "12262a11f0790832553f8d96664403b9dcc43278dfe2c0793a1a5d3fcbbb076b",
+      "context": "Note source > Modifying the source code",
+      "contextHash": "05b422e58761fcac3691c4f616600c0444666f8441a42d01723bd82dfaaf1ab0",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_379cce63a584c689b4d94483_0",
+      "kind": "p",
+      "source": "It is possible to modify the source code of a note directly, however not via the __TRILIUM_PH_0__Note source__TRILIUM_PH_1__ functionality. ",
+      "sourceHash": "379cce63a584c689b4d94483ee5b9be9f6d4daa31c763252d4036ebbbf95af68",
+      "context": "Note source > Modifying the source code",
+      "contextHash": "05b422e58761fcac3691c4f616600c0444666f8441a42d01723bd82dfaaf1ab0",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_4aa592f328e007e456668e14_0",
+      "kind": "p",
+      "source": "To do so:",
+      "sourceHash": "4aa592f328e007e456668e14c5218dcb1f38831eca67cb0f8cb725b769ca8c0e",
+      "context": "Note source > Modifying the source code",
+      "contextHash": "05b422e58761fcac3691c4f616600c0444666f8441a42d01723bd82dfaaf1ab0",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_2a21ea8b10695acaaa0cfbb6_0",
+      "kind": "li",
+      "source": "Change the note type from the real note type (e.g. Canvas, Geo Type) to Code (plain text) or the corresponding format such as JSON or HTML.",
+      "sourceHash": "2a21ea8b10695acaaa0cfbb66bec6b319faeadebe6339ce5a03f2d9aef3e689f",
+      "context": "Note source > Modifying the source code",
+      "contextHash": "05b422e58761fcac3691c4f616600c0444666f8441a42d01723bd82dfaaf1ab0",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_089ac5f2fcba1194d9e2c0d7_0",
+      "kind": "li",
+      "source": "Confirm the warning about changing the note type.",
+      "sourceHash": "089ac5f2fcba1194d9e2c0d7d896811e6d05461de16edb2a58c3a73fda74210a",
+      "context": "Note source > Modifying the source code",
+      "contextHash": "05b422e58761fcac3691c4f616600c0444666f8441a42d01723bd82dfaaf1ab0",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_619230a133308896c08cc8c6_0",
+      "kind": "li",
+      "source": "The source code will appear, make the necessary modifications.",
+      "sourceHash": "619230a133308896c08cc8c65dc05c576eeb7da3afa4197c57d018f40864feb8",
+      "context": "Note source > Modifying the source code",
+      "contextHash": "05b422e58761fcac3691c4f616600c0444666f8441a42d01723bd82dfaaf1ab0",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_1516bb2954ff5a534d7cc8ce_0",
+      "kind": "li",
+      "source": "Change the note type back to the real note type.",
+      "sourceHash": "1516bb2954ff5a534d7cc8ce6594dd3e348bda2bc26be8bf930b85e442f4ef81",
+      "context": "Note source > Modifying the source code",
+      "contextHash": "05b422e58761fcac3691c4f616600c0444666f8441a42d01723bd82dfaaf1ab0",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_7dfc2a9641b92d4447022387_0",
+      "kind": "p",
+      "source": "Depending on the changes made, there is a risk that the note will not render properly. It's best to save a revision before making any big changes.",
+      "sourceHash": "7dfc2a9641b92d4447022387bf9c8f91ff96a92dc4389eda5c94d6d68a65dcc5",
+      "context": "Note source > Modifying the source code",
+      "contextHash": "05b422e58761fcac3691c4f616600c0444666f8441a42d01723bd82dfaaf1ab0",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_537ac950be829ddd1272a52d_0",
+      "kind": "p",
+      "source": "If the note does not render properly, modify the source code again or revert to a prior revision. Since the error handling for unexpected changes might not always be perfect, it be required to refresh the application.",
+      "sourceHash": "537ac950be829ddd1272a52debbcfa8ca6ac7a09a70018890eff0aa50c921a7a",
+      "context": "Note source > Modifying the source code",
+      "contextHash": "05b422e58761fcac3691c4f616600c0444666f8441a42d01723bd82dfaaf1ab0",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_b190d47815633246b0ab18a6_0",
+      "kind": "image-alt",
+      "source": "記事画像",
+      "sourceHash": "b190d47815633246b0ab18a61d9b8e8ea36504fe3f8bc230a7753096915c9ff2",
+      "context": "Note source > Modifying the source code",
+      "contextHash": "05b422e58761fcac3691c4f616600c0444666f8441a42d01723bd82dfaaf1ab0",
+      "status": "pending",
+      "active": true
+    }
+  ],
+  "requests": []
+}

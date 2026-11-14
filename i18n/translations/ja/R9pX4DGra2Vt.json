@@ -1,0 +1,1569 @@
+{
+  "schemaVersion": 1,
+  "pageId": "R9pX4DGra2Vt",
+  "sourceFile": "docs/User Guide/User Guide/Advanced Usage/Sharing.md",
+  "sourceRevision": "03d17b60f59b5efc29b880b11481471d0fe0ff57",
+  "units": [
+    {
+      "id": "u_ff4296dc6d1b6f280ea9a628_0",
+      "kind": "title",
+      "source": "Sharing",
+      "sourceHash": "ff4296dc6d1b6f280ea9a6286fcd2d1c7903f07793bed6c8fcf0b769d844cf2f",
+      "context": "Sharing",
+      "contextHash": "bbedc70e985fe0b6b32c173bf2676cab7d103138c05397f2835d821715b48a89",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_0bebee5e385dd483db1be9a1_0",
+      "kind": "p",
+      "source": "Trilium allows you to share selected notes as __TRILIUM_PH_0__publicly accessible__TRILIUM_PH_1__ read-only documents. This feature is particularly useful for publishing content directly from your Trilium notes, making it accessible to others online.",
+      "sourceHash": "0bebee5e385dd483db1be9a1ba2704b882a524161dab8da05db98984bf271130",
+      "context": "Sharing",
+      "contextHash": "bbedc70e985fe0b6b32c173bf2676cab7d103138c05397f2835d821715b48a89",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_0751cceede56632977554370_0",
+      "kind": "h2",
+      "source": "Features, interaction and limitations__TRILIUM_PH_0__",
+      "sourceHash": "0751cceede566329775543703f87327fe0ace8cbccf98706b09950af810f52db",
+      "context": "Sharing > Features, interaction and limitations",
+      "contextHash": "f8a23ca16875bdd034568477e367c460b1b5fd207aca9f90aa8b791ea1c6f074",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_e637b90dd61bbd6d57de9b6d_0",
+      "kind": "li",
+      "source": "Searching by note title.",
+      "sourceHash": "e637b90dd61bbd6d57de9b6db63d2c81415839e170b57140e2e8a880cfced3ee",
+      "context": "Sharing > Features, interaction and limitations",
+      "contextHash": "f8a23ca16875bdd034568477e367c460b1b5fd207aca9f90aa8b791ea1c6f074",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_c4438d678ae8594df6276d7a_0",
+      "kind": "li",
+      "source": "Light and dark mode, following the visitor's system setting by default, also while the page is open. The visitor can pick __TRILIUM_PH_0__Light__TRILIUM_PH_1__, __TRILIUM_PH_2__Dark__TRILIUM_PH_3__ or __TRILIUM_PH_4__System__TRILIUM_PH_5__ with the buttons at the top of the navigation pane; the choice is remembered by the browser.",
+      "sourceHash": "c4438d678ae8594df6276d7a06b98b5705e1d370208d6c6083870c0a41c82461",
+      "context": "Sharing > Features, interaction and limitations",
+      "contextHash": "f8a23ca16875bdd034568477e367c460b1b5fd207aca9f90aa8b791ea1c6f074",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_41a9c27f8cf732474bb78423_0",
+      "kind": "li",
+      "source": "A layout centered on wide screens, with the navigation tree and the table of contents at either side of the content, and a mobile-friendly layout on narrow ones. There, the navigation tree slides in from the menu button in the header, and lists the headings of the current page below its entry (at the top of the pane, for a page the tree does not show).",
+      "sourceHash": "41a9c27f8cf732474bb7842398303504c57fcad909ffc1c9b3c58cc802e5c28c",
+      "context": "Sharing > Features, interaction and limitations",
+      "contextHash": "f8a23ca16875bdd034568477e367c460b1b5fd207aca9f90aa8b791ea1c6f074",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_33b755569df908cbddd2b46a_0",
+      "kind": "li",
+      "source": "Collapsible tree with the same note icons as the application. It keeps the sections the visitor expanded and its scroll position while they move between the pages of the site, and shows the current note.",
+      "sourceHash": "33b755569df908cbddd2b46ab0961ab78d6b7f3180ca645b3a66e548671ac86e",
+      "context": "Sharing > Features, interaction and limitations",
+      "contextHash": "f8a23ca16875bdd034568477e367c460b1b5fd207aca9f90aa8b791ea1c6f074",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_6793da84d4fa8ef6de678443_0",
+      "kind": "li",
+      "source": "Customizable logo.",
+      "sourceHash": "6793da84d4fa8ef6de678443d9ceff95d8eb3c7f71554de539c6ff422e5bbf27",
+      "context": "Sharing > Features, interaction and limitations",
+      "contextHash": "f8a23ca16875bdd034568477e367c460b1b5fd207aca9f90aa8b791ea1c6f074",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_81703ae4d789712a49abd06b_0",
+      "kind": "li",
+      "source": "Quick navigation buttons (previous and next note).",
+      "sourceHash": "81703ae4d789712a49abd06be22999cb5f4085fe87939923a598931973228192",
+      "context": "Sharing > Features, interaction and limitations",
+      "contextHash": "f8a23ca16875bdd034568477e367c460b1b5fd207aca9f90aa8b791ea1c6f074",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_3f9b2e9aecf0e03c008230cb_0",
+      "kind": "li",
+      "source": "Notes that hide their children from the tree with __TRILIUM_PH_0__ (such as a __TRILIUM_PH_1__Kanban Board__TRILIUM_PH_2__) show a badge counting them in place of listing them. The page of one of those children shows only that child below its parent, and the previous and next buttons skip them.",
+      "sourceHash": "3f9b2e9aecf0e03c008230cbdd4475fc4c7f7e6fb5cef5de52a6d98601c3fbaf",
+      "context": "Sharing > Features, interaction and limitations",
+      "contextHash": "f8a23ca16875bdd034568477e367c460b1b5fd207aca9f90aa8b791ea1c6f074",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_335e663cb122710f174b67d3_0",
+      "kind": "li",
+      "source": "The subpages of a text or code note shown below its content as cards, as in the application. Each card shows the icon of the subpage and the start of its text (or its __TRILIUM_PH_0__), or, for a subpage without text, links to its own first subpages. The cards can be hidden with __TRILIUM_PH_1__.",
+      "sourceHash": "335e663cb122710f174b67d3abb9b36de5168bef23643cc8d91bb7231cf6b9d6",
+      "context": "Sharing > Features, interaction and limitations",
+      "contextHash": "f8a23ca16875bdd034568477e367c460b1b5fd207aca9f90aa8b791ea1c6f074",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_8458de16a56d8fa8153a18bb_0",
+      "kind": "li",
+      "source": "Displaying the date of the last update of the note, written out in the application's language.",
+      "sourceHash": "8458de16a56d8fa8153a18bb0feadd2750b14655b3f30fe2d7d56b53fe72c52e",
+      "context": "Sharing > Features, interaction and limitations",
+      "contextHash": "f8a23ca16875bdd034568477e367c460b1b5fd207aca9f90aa8b791ea1c6f074",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_0eda4b2f59973658121b65d0_0",
+      "kind": "li",
+      "source": "Marking the page with the application's language and its text direction, and the content of the note with its own __TRILIUM_PH_0__content language__TRILIUM_PH_1__, for screen readers and right-to-left text.",
+      "sourceHash": "0eda4b2f59973658121b65d0662756f428379028fbbf8ac2c2a690e548c2d3ab",
+      "context": "Sharing > Features, interaction and limitations",
+      "contextHash": "f8a23ca16875bdd034568477e367c460b1b5fd207aca9f90aa8b791ea1c6f074",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_bcb7508035caf5b44d6e6ecb_0",
+      "kind": "h3",
+      "source": "By note type__TRILIUM_PH_0__",
+      "sourceHash": "bcb7508035caf5b44d6e6ecbefa8e05fcefdd75a1c4d71063a39de44323e9785",
+      "context": "Sharing > Features, interaction and limitations > By note type",
+      "contextHash": "f78b4420118f8efac76944df59850235459e3b0f46be3b0ad3ddaecc546cf5a0",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_5c3de0e8cd48fe5d85888eef_0",
+      "kind": "th",
+      "source": "Supported features",
+      "sourceHash": "5c3de0e8cd48fe5d85888eefce55b9891a172ab708ce4b284478564e4abd4d3b",
+      "context": "Sharing > Features, interaction and limitations > By note type",
+      "contextHash": "f78b4420118f8efac76944df59850235459e3b0f46be3b0ad3ddaecc546cf5a0",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_93b52a9f6d1119626c6fe56b_0",
+      "kind": "th",
+      "source": "Limitations",
+      "sourceHash": "93b52a9f6d1119626c6fe56b72c4f6f82fd4be5238d6d209ea226d07fe640392",
+      "context": "Sharing > Features, interaction and limitations > By note type",
+      "contextHash": "f78b4420118f8efac76944df59850235459e3b0f46be3b0ad3ddaecc546cf5a0",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_ce8a8837ae7751084db326c7_0",
+      "kind": "th",
+      "source": "__TRILIUM_PH_0__Text__TRILIUM_PH_1__",
+      "sourceHash": "ce8a8837ae7751084db326c78f50f1cfab39a5e502cdd5f147eee337e7d4c74a",
+      "context": "Sharing > Features, interaction and limitations > By note type",
+      "contextHash": "f78b4420118f8efac76944df59850235459e3b0f46be3b0ad3ddaecc546cf5a0",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_79fc8013ec9b16d584923608_0",
+      "kind": "li",
+      "source": "Table of contents, keeping the inline formatting of the headings, such as code or bold text.",
+      "sourceHash": "79fc8013ec9b16d584923608f2517e79d85d0768a485bcb3e8b5065e7c554fe7",
+      "context": "Sharing > Features, interaction and limitations > By note type",
+      "contextHash": "f78b4420118f8efac76944df59850235459e3b0f46be3b0ad3ddaecc546cf5a0",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_6a18ac58e3f4f9683ba43e6d_0",
+      "kind": "li",
+      "source": "A link next to each heading, shown while the pointer is over the heading. Clicking it shows the address of the section in the address bar of the browser and copies it, to share a link to the section.",
+      "sourceHash": "6a18ac58e3f4f9683ba43e6dc3c2618493e445d07510831c7df4882d99d1fc31",
+      "context": "Sharing > Features, interaction and limitations > By note type",
+      "contextHash": "f78b4420118f8efac76944df59850235459e3b0f46be3b0ad3ddaecc546cf5a0",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_4b5035b87a0fa82d8fff76c5_0",
+      "kind": "li",
+      "source": "Syntax highlight of code blocks, in the language selected for each block and in the colors of the VS Code light or dark theme, following the page's mode. For “Auto-detected” blocks, the language is guessed among the ones enabled in __TRILIUM_PH_0__Options__TRILIUM_PH_1__ → __TRILIUM_PH_2__Code Notes__TRILIUM_PH_3__; a language not enabled there is not highlighted.",
+      "sourceHash": "4b5035b87a0fa82d8fff76c52af9b5447678514e16ff1c94d135d470828db8b6",
+      "context": "Sharing > Features, interaction and limitations > By note type",
+      "contextHash": "f78b4420118f8efac76944df59850235459e3b0f46be3b0ad3ddaecc546cf5a0",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_a8cd0a556a33decd116b602a_0",
+      "kind": "li",
+      "source": "A button in the top right corner of each code block, shown while the pointer is over the block, that copies its code. Pages opened over plain HTTP do not have it, since browsers allow copying to the clipboard only on secure (HTTPS) pages.",
+      "sourceHash": "a8cd0a556a33decd116b602a9ba429e5bd08dfc4500912047aaeaa64ee728ffd",
+      "context": "Sharing > Features, interaction and limitations > By note type",
+      "contextHash": "f78b4420118f8efac76944df59850235459e3b0f46be3b0ad3ddaecc546cf5a0",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_25f770037e0a8349474a48c8_0",
+      "kind": "li",
+      "source": "Rendering for math equations.",
+      "sourceHash": "25f770037e0a8349474a48c83e344a9a3d4b179c511764751147e4c4758cffa0",
+      "context": "Sharing > Features, interaction and limitations > By note type",
+      "contextHash": "f78b4420118f8efac76944df59850235459e3b0f46be3b0ad3ddaecc546cf5a0",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_7dcdfaf4d8b942d767be23e7_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__Including notes__TRILIUM_PH_1__ (only if the included notes are also shared).",
+      "sourceHash": "7dcdfaf4d8b942d767be23e727b8396de0cd4561c822db0c1ff97f91a45c5e4b",
+      "context": "Sharing > Features, interaction and limitations > By note type",
+      "contextHash": "f78b4420118f8efac76944df59850235459e3b0f46be3b0ad3ddaecc546cf5a0",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_f61ed5e260a118291d261be0_0",
+      "kind": "li",
+      "source": "Drawing canvases, shown as pictures.",
+      "sourceHash": "f61ed5e260a118291d261be0f14d57e7e4d3b8721481e480d5202de85188c0d6",
+      "context": "Sharing > Features, interaction and limitations > By note type",
+      "contextHash": "f78b4420118f8efac76944df59850235459e3b0f46be3b0ad3ddaecc546cf5a0",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_3b12fb08ba33927c4d0e9338_0",
+      "kind": "li",
+      "source": "Mermaid diagrams in code blocks, drawn in the page's light or dark mode and redrawn when the visitor switches it.",
+      "sourceHash": "3b12fb08ba33927c4d0e93385f3241b9815dca1c9640c2ca31ece427a2f67462",
+      "context": "Sharing > Features, interaction and limitations > By note type",
+      "contextHash": "f78b4420118f8efac76944df59850235459e3b0f46be3b0ad3ddaecc546cf5a0",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_a8761350ead34e22c2ff8f82_0",
+      "kind": "th",
+      "source": "__TRILIUM_PH_0__Code__TRILIUM_PH_1__",
+      "sourceHash": "a8761350ead34e22c2ff8f8236daabf14041bf0c040f9c3a9c200492c672c7a5",
+      "context": "Sharing > Features, interaction and limitations > By note type",
+      "contextHash": "f78b4420118f8efac76944df59850235459e3b0f46be3b0ad3ddaecc546cf5a0",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_58272c1d11ea556ca2189dc3_0",
+      "kind": "li",
+      "source": "Syntax highlight, in the language of the note and in the colors of the VS Code light or dark theme, following the page's mode. A language not enabled in __TRILIUM_PH_0__Options__TRILIUM_PH_1__ → __TRILIUM_PH_2__Code Notes__TRILIUM_PH_3__ is not highlighted. The lines are numbered unless __TRILIUM_PH_4__Line numbers__TRILIUM_PH_5__ is turned off in the same section.",
+      "sourceHash": "58272c1d11ea556ca2189dc3158aad5e52cb8b19132f95d08b339d6bced90b8c",
+      "context": "Sharing > Features, interaction and limitations > By note type",
+      "contextHash": "f78b4420118f8efac76944df59850235459e3b0f46be3b0ad3ddaecc546cf5a0",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_d893a220d5186562e43cbe6b_0",
+      "kind": "th",
+      "source": "__TRILIUM_PH_0__Saved Search__TRILIUM_PH_1__",
+      "sourceHash": "d893a220d5186562e43cbe6b6fd588ab9b4deeb5fcd44eb517f2d3dc05d79806",
+      "context": "Sharing > Features, interaction and limitations > By note type",
+      "contextHash": "f78b4420118f8efac76944df59850235459e3b0f46be3b0ad3ddaecc546cf5a0",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_fd11846af5b1a97ea520049a_0",
+      "kind": "td",
+      "source": "Not supported.",
+      "sourceHash": "fd11846af5b1a97ea520049a0d583a632982b39e2a27fef1fa4f9f06f7c10663",
+      "context": "Sharing > Features, interaction and limitations > By note type",
+      "contextHash": "f78b4420118f8efac76944df59850235459e3b0f46be3b0ad3ddaecc546cf5a0",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_636b2439a75bef9bdb3c47e8_0",
+      "kind": "th",
+      "source": "__TRILIUM_PH_0__Relation Map__TRILIUM_PH_1__",
+      "sourceHash": "636b2439a75bef9bdb3c47e8e6d4dfc0b74ee2c724996cbec70b066e49b61e8b",
+      "context": "Sharing > Features, interaction and limitations > By note type",
+      "contextHash": "f78b4420118f8efac76944df59850235459e3b0f46be3b0ad3ddaecc546cf5a0",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_fd11846af5b1a97ea520049a_1",
+      "kind": "td",
+      "source": "Not supported.",
+      "sourceHash": "fd11846af5b1a97ea520049a0d583a632982b39e2a27fef1fa4f9f06f7c10663",
+      "context": "Sharing > Features, interaction and limitations > By note type",
+      "contextHash": "f78b4420118f8efac76944df59850235459e3b0f46be3b0ad3ddaecc546cf5a0",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_078f7bc10adc034310303785_0",
+      "kind": "th",
+      "source": "__TRILIUM_PH_0__Note Map__TRILIUM_PH_1__",
+      "sourceHash": "078f7bc10adc034310303785d9ad084b89f0a30412885dbe7b8531fea051dc30",
+      "context": "Sharing > Features, interaction and limitations > By note type",
+      "contextHash": "f78b4420118f8efac76944df59850235459e3b0f46be3b0ad3ddaecc546cf5a0",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_fd11846af5b1a97ea520049a_2",
+      "kind": "td",
+      "source": "Not supported.",
+      "sourceHash": "fd11846af5b1a97ea520049a0d583a632982b39e2a27fef1fa4f9f06f7c10663",
+      "context": "Sharing > Features, interaction and limitations > By note type",
+      "contextHash": "f78b4420118f8efac76944df59850235459e3b0f46be3b0ad3ddaecc546cf5a0",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_19e2b066d85b7131b850c6a4_0",
+      "kind": "th",
+      "source": "__TRILIUM_PH_0__Render Note__TRILIUM_PH_1__",
+      "sourceHash": "19e2b066d85b7131b850c6a4e17c159698a8d73adc61fca12f1d47612dffb282",
+      "context": "Sharing > Features, interaction and limitations > By note type",
+      "contextHash": "f78b4420118f8efac76944df59850235459e3b0f46be3b0ad3ddaecc546cf5a0",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_fd11846af5b1a97ea520049a_3",
+      "kind": "td",
+      "source": "Not supported.",
+      "sourceHash": "fd11846af5b1a97ea520049a0d583a632982b39e2a27fef1fa4f9f06f7c10663",
+      "context": "Sharing > Features, interaction and limitations > By note type",
+      "contextHash": "f78b4420118f8efac76944df59850235459e3b0f46be3b0ad3ddaecc546cf5a0",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_7cd7770b28be80f1d18fc6de_0",
+      "kind": "th",
+      "source": "__TRILIUM_PH_0__Collections__TRILIUM_PH_1__",
+      "sourceHash": "7cd7770b28be80f1d18fc6de5abf1bbc8390d4e4321deacd65e5b7d56585fdf5",
+      "context": "Sharing > Features, interaction and limitations > By note type",
+      "contextHash": "f78b4420118f8efac76944df59850235459e3b0f46be3b0ad3ddaecc546cf5a0",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_bd024e4fafdb1845517563cd_0",
+      "kind": "li",
+      "source": "The child notes are shown as cards, or as a list when the view type of the collection is __TRILIUM_PH_0__List__TRILIUM_PH_1__. Each shows its icon and the start of its text (or its __TRILIUM_PH_2__), or, for a child note without text, links to its own first child notes.",
+      "sourceHash": "bd024e4fafdb1845517563cd86861971f3ff7845d36c59420f1d8617fd27f711",
+      "context": "Sharing > Features, interaction and limitations > By note type",
+      "contextHash": "f78b4420118f8efac76944df59850235459e3b0f46be3b0ad3ddaecc546cf5a0",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_9bea7cb9fc18dedcc34062d9_0",
+      "kind": "li",
+      "source": "The calendar, table, board, geo map, dashboard and presentation view types are shown as in the app, but read-only.",
+      "sourceHash": "9bea7cb9fc18dedcc34062d98c4f303390ec9c86afe353c29e8347cef79251a2",
+      "context": "Sharing > Features, interaction and limitations > By note type",
+      "contextHash": "f78b4420118f8efac76944df59850235459e3b0f46be3b0ad3ddaecc546cf5a0",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_74651f16db4d2f2c53dff4af_0",
+      "kind": "th",
+      "source": "__TRILIUM_PH_0__Mermaid Diagrams__TRILIUM_PH_1__",
+      "sourceHash": "74651f16db4d2f2c53dff4af25301361e47f4f6b4b857e343d691845f6a49266",
+      "context": "Sharing > Features, interaction and limitations > By note type",
+      "contextHash": "f78b4420118f8efac76944df59850235459e3b0f46be3b0ad3ddaecc546cf5a0",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_1943241de6bb098cc4e886d4_0",
+      "kind": "li",
+      "source": "The diagram is drawn in the page's light or dark mode and redrawn when the visitor switches it. In browsers with JavaScript disabled, the image saved when the note was last edited is shown instead, and the source of the diagram can be expanded below it.",
+      "sourceHash": "1943241de6bb098cc4e886d4fabffe6a2840fa0352e7c1603e1cfdfda147e45a",
+      "context": "Sharing > Features, interaction and limitations > By note type",
+      "contextHash": "f78b4420118f8efac76944df59850235459e3b0f46be3b0ad3ddaecc546cf5a0",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_06b06959331d2bba04106d68_0",
+      "kind": "li",
+      "source": "The diagram fills the page and can be zoomed with the __TRILIUM_PH_0____TRILIUM_PH_1__ and __TRILIUM_PH_2____TRILIUM_PH_3__ buttons in its bottom corner or with the mouse wheel, between 50% and 1000% of its fitted size, and on touch screens by pinching. Clicking the percentage between the buttons, or double-clicking the diagram, shows it whole again. The diagram can be panned by dragging it.",
+      "sourceHash": "06b06959331d2bba04106d68d8166d16819939a8f6c955210a435f76900fa65a",
+      "context": "Sharing > Features, interaction and limitations > By note type",
+      "contextHash": "f78b4420118f8efac76944df59850235459e3b0f46be3b0ad3ddaecc546cf5a0",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_7df7865d91005ca947a26a95_0",
+      "kind": "th",
+      "source": "__TRILIUM_PH_0__Canvas__TRILIUM_PH_1__",
+      "sourceHash": "7df7865d91005ca947a26a9523fc8725630543089e22134a0580e46f0a0b349a",
+      "context": "Sharing > Features, interaction and limitations > By note type",
+      "contextHash": "f78b4420118f8efac76944df59850235459e3b0f46be3b0ad3ddaecc546cf5a0",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_f14797c6ad22e54a098a2d10_0",
+      "kind": "li",
+      "source": "The diagram is displayed as a vector image.",
+      "sourceHash": "f14797c6ad22e54a098a2d106ee2a380dd4048013466fea1819d59f1862585cd",
+      "context": "Sharing > Features, interaction and limitations > By note type",
+      "contextHash": "f78b4420118f8efac76944df59850235459e3b0f46be3b0ad3ddaecc546cf5a0",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_cfcf50c5a49a5275f278647d_0",
+      "kind": "li",
+      "source": "No further interaction supported.",
+      "sourceHash": "cfcf50c5a49a5275f278647d26a2af02da097702dd43ac746c0cb753dc5458e3",
+      "context": "Sharing > Features, interaction and limitations > By note type",
+      "contextHash": "f78b4420118f8efac76944df59850235459e3b0f46be3b0ad3ddaecc546cf5a0",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_7d8e51c1f2abaa8749c3361b_0",
+      "kind": "th",
+      "source": "__TRILIUM_PH_0__Web View__TRILIUM_PH_1__",
+      "sourceHash": "7d8e51c1f2abaa8749c3361b019476615980fad3feaa2212805700012fc29ff4",
+      "context": "Sharing > Features, interaction and limitations > By note type",
+      "contextHash": "f78b4420118f8efac76944df59850235459e3b0f46be3b0ad3ddaecc546cf5a0",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_fd11846af5b1a97ea520049a_4",
+      "kind": "td",
+      "source": "Not supported.",
+      "sourceHash": "fd11846af5b1a97ea520049a0d583a632982b39e2a27fef1fa4f9f06f7c10663",
+      "context": "Sharing > Features, interaction and limitations > By note type",
+      "contextHash": "f78b4420118f8efac76944df59850235459e3b0f46be3b0ad3ddaecc546cf5a0",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_18504d9b85eae161ef4f05b9_0",
+      "kind": "th",
+      "source": "__TRILIUM_PH_0__Mind Map__TRILIUM_PH_1__",
+      "sourceHash": "18504d9b85eae161ef4f05b9bfcd64a5d48ae40330c8e6775f7931ce37b43e67",
+      "context": "Sharing > Features, interaction and limitations > By note type",
+      "contextHash": "f78b4420118f8efac76944df59850235459e3b0f46be3b0ad3ddaecc546cf5a0",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_87ec8df9ef40f1a48af0a4cb_0",
+      "kind": "td",
+      "source": "The diagram is displayed as a vector image.",
+      "sourceHash": "87ec8df9ef40f1a48af0a4cb9ebab658abda972cc1ac33be5bb32d5a5e26a236",
+      "context": "Sharing > Features, interaction and limitations > By note type",
+      "contextHash": "f78b4420118f8efac76944df59850235459e3b0f46be3b0ad3ddaecc546cf5a0",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_cfcf50c5a49a5275f278647d_1",
+      "kind": "li",
+      "source": "No further interaction supported.",
+      "sourceHash": "cfcf50c5a49a5275f278647d26a2af02da097702dd43ac746c0cb753dc5458e3",
+      "context": "Sharing > Features, interaction and limitations > By note type",
+      "contextHash": "f78b4420118f8efac76944df59850235459e3b0f46be3b0ad3ddaecc546cf5a0",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_cf8e31d6e27eab916af15b60_0",
+      "kind": "th",
+      "source": "__TRILIUM_PH_0__Geo Map__TRILIUM_PH_1__",
+      "sourceHash": "cf8e31d6e27eab916af15b60fc52f857341242056c85e9eedb17cf65eccefa61",
+      "context": "Sharing > Features, interaction and limitations > By note type",
+      "contextHash": "f78b4420118f8efac76944df59850235459e3b0f46be3b0ad3ddaecc546cf5a0",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_fd11846af5b1a97ea520049a_5",
+      "kind": "td",
+      "source": "Not supported.",
+      "sourceHash": "fd11846af5b1a97ea520049a0d583a632982b39e2a27fef1fa4f9f06f7c10663",
+      "context": "Sharing > Features, interaction and limitations > By note type",
+      "contextHash": "f78b4420118f8efac76944df59850235459e3b0f46be3b0ad3ddaecc546cf5a0",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_160e0fc77e246b3f18199b8a_0",
+      "kind": "th",
+      "source": "__TRILIUM_PH_0__File__TRILIUM_PH_1__",
+      "sourceHash": "160e0fc77e246b3f18199b8a9640cd81653dd1a2a80ba1ec45e769bea24571b6",
+      "context": "Sharing > Features, interaction and limitations > By note type",
+      "contextHash": "f78b4420118f8efac76944df59850235459e3b0f46be3b0ad3ddaecc546cf5a0",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_6e453b2a8cff7b9c0b5eafa9_0",
+      "kind": "td",
+      "source": "A PDF is shown in a viewer and a video or audio file plays in the browser's player. Any other file can be downloaded.",
+      "sourceHash": "6e453b2a8cff7b9c0b5eafa947d5fc948d0f20c680cf9ece4e3211a132072026",
+      "context": "Sharing > Features, interaction and limitations > By note type",
+      "contextHash": "f78b4420118f8efac76944df59850235459e3b0f46be3b0ad3ddaecc546cf5a0",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_cfcf50c5a49a5275f278647d_2",
+      "kind": "li",
+      "source": "No further interaction supported.",
+      "sourceHash": "cfcf50c5a49a5275f278647d26a2af02da097702dd43ac746c0cb753dc5458e3",
+      "context": "Sharing > Features, interaction and limitations > By note type",
+      "contextHash": "f78b4420118f8efac76944df59850235459e3b0f46be3b0ad3ddaecc546cf5a0",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_1f036a59a2e17e514461d9b1_0",
+      "kind": "p",
+      "source": "While the sharing feature is powerful, it has some limitations:",
+      "sourceHash": "1f036a59a2e17e514461d9b1af0353cd34edc678211b8c9be31a4bed8b7b1731",
+      "context": "Sharing > Features, interaction and limitations > By note type",
+      "contextHash": "f78b4420118f8efac76944df59850235459e3b0f46be3b0ad3ddaecc546cf5a0",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_40724acd0bdc8bf43374ead9_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__Static Note Tree__TRILIUM_PH_1__",
+      "sourceHash": "40724acd0bdc8bf43374ead9608030b1fe17b73f1b9de2b0db314afc2494e24c",
+      "context": "Sharing > Features, interaction and limitations > By note type",
+      "contextHash": "f78b4420118f8efac76944df59850235459e3b0f46be3b0ad3ddaecc546cf5a0",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_3aac9b5198bdfaba265b6425_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__Protected Notes__TRILIUM_PH_1__: Cannot be shared.",
+      "sourceHash": "3aac9b5198bdfaba265b642544488fab226c4cadc7b91343bb191435304f42eb",
+      "context": "Sharing > Features, interaction and limitations > By note type",
+      "contextHash": "f78b4420118f8efac76944df59850235459e3b0f46be3b0ad3ddaecc546cf5a0",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_b69b4e15498b0df3132fa36a_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__Include Notes__TRILIUM_PH_1__: Not supported.",
+      "sourceHash": "b69b4e15498b0df3132fa36a6a408c840b3eaca05f7d984612a90fba8f0a9bb2",
+      "context": "Sharing > Features, interaction and limitations > By note type",
+      "contextHash": "f78b4420118f8efac76944df59850235459e3b0f46be3b0ad3ddaecc546cf5a0",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_f433c05ae417d9e21943bdf9_0",
+      "kind": "p",
+      "source": "Some of these limitations may be addressed in future updates.",
+      "sourceHash": "f433c05ae417d9e21943bdf9717131e0e431a056e855460c5d4b5c39ffc2748a",
+      "context": "Sharing > Features, interaction and limitations > By note type",
+      "contextHash": "f78b4420118f8efac76944df59850235459e3b0f46be3b0ad3ddaecc546cf5a0",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_0830ab526c6cc11955f8b25e_0",
+      "kind": "h2",
+      "source": "Prerequisites__TRILIUM_PH_0__",
+      "sourceHash": "0830ab526c6cc11955f8b25e4ba420cd3662c0ee9e97d36dc5178aee1876d4ca",
+      "context": "Sharing > Prerequisites",
+      "contextHash": "23cbeb5437fe87732e710eded9c394a96270ca257442ac4e789f9eb3747248b9",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_1876bc81067bc51dccca1cca_0",
+      "kind": "p",
+      "source": "To use the sharing feature, you must have a __TRILIUM_PH_0__Server Installation__TRILIUM_PH_1__ of Trilium. This is necessary because the notes will be hosted from the server.",
+      "sourceHash": "1876bc81067bc51dccca1ccafbbf25fcc0bb9720a6ba7805d91f393ea28cd27a",
+      "context": "Sharing > Prerequisites",
+      "contextHash": "23cbeb5437fe87732e710eded9c394a96270ca257442ac4e789f9eb3747248b9",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_9bac36ef5d91e075158a8c06_0",
+      "kind": "h2",
+      "source": "Sharing a note__TRILIUM_PH_0__",
+      "sourceHash": "9bac36ef5d91e075158a8c0650574bcccb29048d37169782a3985893a07d0044",
+      "context": "Sharing > Sharing a note",
+      "contextHash": "aac5c3ed8f5ec6618f2b8025f121351ca9e027c6274ad1e55048cbc17f5ed722",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_d22fffa500a000a81f0c6a79_0",
+      "kind": "p",
+      "source": "__TRILIUM_PH_0__Enable Sharing__TRILIUM_PH_1__: To share a note, toggle the __TRILIUM_PH_2__ switch within the note's interface. Once sharing is enabled, an URL will appear, which you can click to access the shared note.",
+      "sourceHash": "d22fffa500a000a81f0c6a794ce29e05547a125ec185dd83c7b1e298e30eb763",
+      "context": "Sharing > Sharing a note",
+      "contextHash": "aac5c3ed8f5ec6618f2b8025f121351ca9e027c6274ad1e55048cbc17f5ed722",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_b386c6a9d18f2919f2251bb8_0",
+      "kind": "p",
+      "source": "__TRILIUM_PH_0__Access the Shared Note__TRILIUM_PH_1__: The link provided will open the note in your browser. If your server is not configured with a public IP, the URL will refer to __TRILIUM_PH_2__.",
+      "sourceHash": "b386c6a9d18f2919f2251bb820ed54b3b34222dc837c9531e39f21e7a70db753",
+      "context": "Sharing > Sharing a note",
+      "contextHash": "aac5c3ed8f5ec6618f2b8025f121351ca9e027c6274ad1e55048cbc17f5ed722",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_ca36c314610072f2cf68a06f_0",
+      "kind": "h2",
+      "source": "Sharing a note subtree__TRILIUM_PH_0__",
+      "sourceHash": "ca36c314610072f2cf68a06f0e5ace0d98feb2eaf46aa1ade28fb60adbcf5784",
+      "context": "Sharing > Sharing a note subtree",
+      "contextHash": "2fb3805e02e52c766d3831629c112e1df05671179e0af5b362586cb2d49a17a6",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_f3934a93189380ab1bfd7530_0",
+      "kind": "p",
+      "source": "When you share a note, you actually share the entire subtree of notes beneath it. If the note has child notes, they will also be included in the shared content. For example, sharing the \"Formatting\" subtree will display a page with basic navigation for exploring all the notes within that subtree.",
+      "sourceHash": "f3934a93189380ab1bfd7530f0a4b9754bdb38448768e9800edeba43fd0eeddf",
+      "context": "Sharing > Sharing a note subtree",
+      "contextHash": "2fb3805e02e52c766d3831629c112e1df05671179e0af5b362586cb2d49a17a6",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_9e6232cf33de1dcfa71dfa12_0",
+      "kind": "h2",
+      "source": "Viewing and managing shared notes__TRILIUM_PH_0__",
+      "sourceHash": "9e6232cf33de1dcfa71dfa12311fceada9ad6172205f2a5af59e6c1e541de4f7",
+      "context": "Sharing > Viewing and managing shared notes",
+      "contextHash": "6ef427fdda5a6f292ab665d388e071dea9d6ab4028406f650a06329c03e960a2",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_ac15af7d1824fda369ee71d2_0",
+      "kind": "p",
+      "source": "You can view a list of all shared notes by clicking on __TRILIUM_PH_0__Advanced__TRILIUM_PH_1__ → __TRILIUM_PH_2__Shared notes__TRILIUM_PH_3__ in the __TRILIUM_PH_4__Global menu__TRILIUM_PH_5__. This allows you to manage and navigate through all the notes you have made public.",
+      "sourceHash": "ac15af7d1824fda369ee71d2da3595985dc039eb89fe294f6a9e88dcf44abeb9",
+      "context": "Sharing > Viewing and managing shared notes",
+      "contextHash": "6ef427fdda5a6f292ab665d388e071dea9d6ab4028406f650a06329c03e960a2",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_f90fc1039181a69a9774435d_0",
+      "kind": "h2",
+      "source": "Security considerations__TRILIUM_PH_0__",
+      "sourceHash": "f90fc1039181a69a9774435d439fb01cf2d99566e7cb611188b0a4738220a05d",
+      "context": "Sharing > Security considerations",
+      "contextHash": "fc1a383288317e786950a0b7e9febc6a101c276350fa907d772c8e4031ade963",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_e76fbcece559024451417841_0",
+      "kind": "li",
+      "source": "Shared notes are published on the open internet and can be accessed by anyone with the URL unless the notes are password-protected.",
+      "sourceHash": "e76fbcece559024451417841ae518e86cd5ffaebce739d533a91cff67f56aca6",
+      "context": "Sharing > Security considerations",
+      "contextHash": "fc1a383288317e786950a0b7e9febc6a101c276350fa907d772c8e4031ade963",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_90516f141f9cd8352182cbb1_0",
+      "kind": "li",
+      "source": "The URL's randomness does not provide security, so it is crucial not to share sensitive information through this feature.",
+      "sourceHash": "90516f141f9cd8352182cbb1372588385e01144927f5db8381087d14f3850f87",
+      "context": "Sharing > Security considerations",
+      "contextHash": "fc1a383288317e786950a0b7e9febc6a101c276350fa907d772c8e4031ade963",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_f87828245c81304a770309ca_0",
+      "kind": "li",
+      "source": "Trilium takes precautions to protect your publicly shared instance from leaking information for non-shared notes, including opening a separate read-only connection to the __TRILIUM_PH_0__Database__TRILIUM_PH_1__. Depending on your threat model, it might make more sense to use __TRILIUM_PH_2__Exporting static HTML for web publishing__TRILIUM_PH_3__ and use battle-tested web servers such as Nginx or Apache to serve static content.",
+      "sourceHash": "f87828245c81304a770309ca89fd0545455b6d334defbb20a4a678b47855d8c1",
+      "context": "Sharing > Security considerations",
+      "contextHash": "fc1a383288317e786950a0b7e9febc6a101c276350fa907d772c8e4031ade963",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_570b00a83b39214754c5919c_0",
+      "kind": "h3",
+      "source": "Password protection__TRILIUM_PH_0__",
+      "sourceHash": "570b00a83b39214754c5919c48c67aac5a3c4dbf728c5f6bd9edd5dfe4d15722",
+      "context": "Sharing > Security considerations > Password protection",
+      "contextHash": "7ec094425cadfa24351464f00533819d820c46bb11cfc0ff21a22f6c9c46e2d3",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_2b6a154adb69a6c1a24086dd_0",
+      "kind": "p",
+      "source": "To protect shared notes with a username and password, you can use the __TRILIUM_PH_0__ attribute. Add this label to the note with the format __TRILIUM_PH_1__. To protect an entire subtree, make sure the label is __TRILIUM_PH_2__inheritable__TRILIUM_PH_3__.",
+      "sourceHash": "2b6a154adb69a6c1a24086dd09cd8fd8cafb827832793e113d86854fcfd97471",
+      "context": "Sharing > Security considerations > Password protection",
+      "contextHash": "7ec094425cadfa24351464f00533819d820c46bb11cfc0ff21a22f6c9c46e2d3",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_59bef56bd47e8159b00fbeca_0",
+      "kind": "h2",
+      "source": "Advanced sharing options__TRILIUM_PH_0__",
+      "sourceHash": "59bef56bd47e8159b00fbecac74c5ba5c09a2c526c89e19e01ad6461a6692bf9",
+      "context": "Sharing > Advanced sharing options",
+      "contextHash": "42ceda4a407cb8c89390bede4cf50a0e7475bd9e9ed8d8ed8475997c28c898f6",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_7f1a4ec989a76a628a6c7967_0",
+      "kind": "h3",
+      "source": "Customizing the appearance of shared notes__TRILIUM_PH_0__",
+      "sourceHash": "7f1a4ec989a76a628a6c79674ff61d2ed055dd3d30009a2d8b31670a7733ecaa",
+      "context": "Sharing > Advanced sharing options > Customizing the appearance of shared notes",
+      "contextHash": "97f2c8555dedbfaa631255982789411270de4a8134c1330eb51caeb83fc52f56",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_4ba28fbe8bf05b55891e8be3_0",
+      "kind": "p",
+      "source": "The default design should be a good starting point, but you can customize it using your own CSS:",
+      "sourceHash": "4ba28fbe8bf05b55891e8be35bef858694b9d36e4e1106d702a7dee2be79fc9d",
+      "context": "Sharing > Advanced sharing options > Customizing the appearance of shared notes",
+      "contextHash": "97f2c8555dedbfaa631255982789411270de4a8134c1330eb51caeb83fc52f56",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_ef7a4ef12c5f61c251f5982c_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__Custom CSS__TRILIUM_PH_1__: Link a CSS __TRILIUM_PH_2__Code__TRILIUM_PH_3__ note to the shared page by adding a __TRILIUM_PH_4__ relation to the note. If you want this style to apply to the entire subtree, make the label inheritable. You can hide the CSS code note from the tree navigation by adding the __TRILIUM_PH_5__ label.",
+      "sourceHash": "ef7a4ef12c5f61c251f5982c1a4f0290ebd61ddb7ca191700bf618a4a1e66a1c",
+      "context": "Sharing > Advanced sharing options > Customizing the appearance of shared notes",
+      "contextHash": "97f2c8555dedbfaa631255982789411270de4a8134c1330eb51caeb83fc52f56",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_ea625ce56ca185f841095f6e_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__Omitting Default CSS__TRILIUM_PH_1__: For extensive styling changes, use the __TRILIUM_PH_2__ label to avoid conflicts with Trilium's __TRILIUM_PH_3__default stylesheet__TRILIUM_PH_4__.",
+      "sourceHash": "ea625ce56ca185f841095f6e6337ffa7448b6560e7ccad5579d2793fb7fa3578",
+      "context": "Sharing > Advanced sharing options > Customizing the appearance of shared notes",
+      "contextHash": "97f2c8555dedbfaa631255982789411270de4a8134c1330eb51caeb83fc52f56",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_fb56a3c8bd1a3fadb7a63137_0",
+      "kind": "h3",
+      "source": "Adding JavaScript__TRILIUM_PH_0__",
+      "sourceHash": "fb56a3c8bd1a3fadb7a6313771ceda4b558cbfd171c85c8aa66d22d3e56ef24a",
+      "context": "Sharing > Advanced sharing options > Adding JavaScript",
+      "contextHash": "fc660158b13e7cfc10195cc26453a0469bcd570dc24ee33d3d94aadb733c5fd2",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_aacb350dc4c144e46c78712d_0",
+      "kind": "p",
+      "source": "You can inject custom JavaScript into the shared note using the __TRILIUM_PH_0__ relation. This allows you to access note attributes or traverse the note tree using the __TRILIUM_PH_1__ API, which retrieves note data based on its ID.",
+      "sourceHash": "aacb350dc4c144e46c78712d93aab278626bcd01b98153babaa610c0ebfdd68f",
+      "context": "Sharing > Advanced sharing options > Adding JavaScript",
+      "contextHash": "fc660158b13e7cfc10195cc26453a0469bcd570dc24ee33d3d94aadb733c5fd2",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_8b1dfec9ba66a013c6f02a9d_0",
+      "kind": "h3",
+      "source": "Adding custom HTML__TRILIUM_PH_0__",
+      "sourceHash": "8b1dfec9ba66a013c6f02a9d507c868136a176077d5de13b7d3b4859fe1131ab",
+      "context": "Sharing > Advanced sharing options > Adding custom HTML",
+      "contextHash": "8b774b51a8e2fe8090e8f36fef19d497b535039b68b2a78254d5d31784837ddb",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_fe05034ff86e3ef5a9b203eb_0",
+      "kind": "p",
+      "source": "You can inject custom HTML snippets into specific locations of the shared page using the __TRILIUM_PH_0__ relation. The HTML note should contain the raw HTML content you want to inject, and you can control where it appears by adding the __TRILIUM_PH_1__ label to the HTML snippet note itself.",
+      "sourceHash": "fe05034ff86e3ef5a9b203eb9d91f75607bc32ef236f3359cff52f8c77a0c458",
+      "context": "Sharing > Advanced sharing options > Adding custom HTML",
+      "contextHash": "8b774b51a8e2fe8090e8f36fef19d497b535039b68b2a78254d5d31784837ddb",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_1f8c4c46d4a6ea56026ad656_0",
+      "kind": "p",
+      "source": "The __TRILIUM_PH_0__ label accepts values in the format __TRILIUM_PH_1__:",
+      "sourceHash": "1f8c4c46d4a6ea56026ad6569ead9ca21b687622725fa19e177866dcb26e9af7",
+      "context": "Sharing > Advanced sharing options > Adding custom HTML",
+      "contextHash": "8b774b51a8e2fe8090e8f36fef19d497b535039b68b2a78254d5d31784837ddb",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_88a370842cb37cda1f2058ae_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__Locations__TRILIUM_PH_1__: __TRILIUM_PH_2__, __TRILIUM_PH_3__, __TRILIUM_PH_4__",
+      "sourceHash": "88a370842cb37cda1f2058ae5d235a68db9a13f01379c4a80654cc011a822984",
+      "context": "Sharing > Advanced sharing options > Adding custom HTML",
+      "contextHash": "8b774b51a8e2fe8090e8f36fef19d497b535039b68b2a78254d5d31784837ddb",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_9de24be75a2de82413dd2607_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__Positions__TRILIUM_PH_1__: __TRILIUM_PH_2__, __TRILIUM_PH_3__",
+      "sourceHash": "9de24be75a2de82413dd26071b53c2b0a84bc9026dd3c804bba44cf8fe56d371",
+      "context": "Sharing > Advanced sharing options > Adding custom HTML",
+      "contextHash": "8b774b51a8e2fe8090e8f36fef19d497b535039b68b2a78254d5d31784837ddb",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_1027d9e1431380cfd7e954a5_0",
+      "kind": "p",
+      "source": "For example:",
+      "sourceHash": "1027d9e1431380cfd7e954a5d4db80b11e206e376be8715fbf750ef9d78ae154",
+      "context": "Sharing > Advanced sharing options > Adding custom HTML",
+      "contextHash": "8b774b51a8e2fe8090e8f36fef19d497b535039b68b2a78254d5d31784837ddb",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_ee519559a391a38157147fc5_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__ - Injects HTML at the beginning of the __TRILIUM_PH_1__ section",
+      "sourceHash": "ee519559a391a38157147fc5dd121b55235edf3483df09225af9b4b6e2aecaad",
+      "context": "Sharing > Advanced sharing options > Adding custom HTML",
+      "contextHash": "8b774b51a8e2fe8090e8f36fef19d497b535039b68b2a78254d5d31784837ddb",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_26ebb6092f27d62f3b4788a7_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__ - Injects HTML at the end of the __TRILIUM_PH_1__ section (default)",
+      "sourceHash": "26ebb6092f27d62f3b4788a73a6b26ed727b83fb5ecd97eb98a600ceb63b19cb",
+      "context": "Sharing > Advanced sharing options > Adding custom HTML",
+      "contextHash": "8b774b51a8e2fe8090e8f36fef19d497b535039b68b2a78254d5d31784837ddb",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_ee519559a391a38157147fc5_1",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__ - Injects HTML at the beginning of the __TRILIUM_PH_1__ section",
+      "sourceHash": "ee519559a391a38157147fc5dd121b55235edf3483df09225af9b4b6e2aecaad",
+      "context": "Sharing > Advanced sharing options > Adding custom HTML",
+      "contextHash": "8b774b51a8e2fe8090e8f36fef19d497b535039b68b2a78254d5d31784837ddb",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_3db5a318e1c4605f60039466_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__ - Injects HTML at the beginning of the content area",
+      "sourceHash": "3db5a318e1c4605f600394668f0af1b7709098827517a12526455df3f6319a98",
+      "context": "Sharing > Advanced sharing options > Adding custom HTML",
+      "contextHash": "8b774b51a8e2fe8090e8f36fef19d497b535039b68b2a78254d5d31784837ddb",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_04f251eb4facdb7a02835f02_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__ - Injects HTML at the end of the content area",
+      "sourceHash": "04f251eb4facdb7a02835f027cab13cf179ed3f4d608e401ff0a5ff3525012a9",
+      "context": "Sharing > Advanced sharing options > Adding custom HTML",
+      "contextHash": "8b774b51a8e2fe8090e8f36fef19d497b535039b68b2a78254d5d31784837ddb",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_e006a8aecf0286d45cef1a67_0",
+      "kind": "p",
+      "source": "If no location is specified, the HTML will be injected at __TRILIUM_PH_0__ by default.",
+      "sourceHash": "e006a8aecf0286d45cef1a678fd148662f6d08aba480d68aa10cd244aead21a9",
+      "context": "Sharing > Advanced sharing options > Adding custom HTML",
+      "contextHash": "8b774b51a8e2fe8090e8f36fef19d497b535039b68b2a78254d5d31784837ddb",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_e90f8ac4a490de96195c49b6_0",
+      "kind": "p",
+      "source": "Example:",
+      "sourceHash": "e90f8ac4a490de96195c49b60e3382ccd3acc31ed3881e762c735166fe474e57",
+      "context": "Sharing > Advanced sharing options > Adding custom HTML",
+      "contextHash": "8b774b51a8e2fe8090e8f36fef19d497b535039b68b2a78254d5d31784837ddb",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_650e07f12c0e8ea59b7a6be0_0",
+      "kind": "h3",
+      "source": "Custom share templates__TRILIUM_PH_0__",
+      "sourceHash": "650e07f12c0e8ea59b7a6be04a98baaf4b2f3081ce0ec0ccbedde5382c4d82f7",
+      "context": "Sharing > Advanced sharing options > Custom share templates",
+      "contextHash": "76abaf45db23f795b557831db347d366414aa7e1f839db741c874f8f352af3ca",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_9e317bb8afbf1cdd7366de78_0",
+      "kind": "p",
+      "source": "To completely redesign the share, it is possible to create or use an existing __TRILIUM_PH_0__custom share template__TRILIUM_PH_1__.",
+      "sourceHash": "9e317bb8afbf1cdd7366de78945e2fc6ba9b83091eeb435279a7250d5ccd1b45",
+      "context": "Sharing > Advanced sharing options > Custom share templates",
+      "contextHash": "76abaf45db23f795b557831db347d366414aa7e1f839db741c874f8f352af3ca",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_4e2c2eb20823c28d715e057d_0",
+      "kind": "h3",
+      "source": "Creating human-readable URL aliases__TRILIUM_PH_0__",
+      "sourceHash": "4e2c2eb20823c28d715e057d42354c2239bb96c8a22fd31c956eab00789b7f61",
+      "context": "Sharing > Advanced sharing options > Creating human-readable URL aliases",
+      "contextHash": "b87950d040a41a5cc1325ac61ae27b6a88c2a0f9f14da71646498e538bbaad9c",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_0f908ccb1cdd115e5480071d_0",
+      "kind": "p",
+      "source": "Shared notes typically have URLs like __TRILIUM_PH_0__, where the last part is the note's ID. You can make these URLs more user-friendly by adding the __TRILIUM_PH_1__ label to individual notes (e.g., __TRILIUM_PH_2__). This will change the URL to __TRILIUM_PH_3__. The URL with the note's ID keeps working and redirects to the alias.",
+      "sourceHash": "0f908ccb1cdd115e5480071dc026638b85a99b2ed7a9cc5185f4c3116734b147",
+      "context": "Sharing > Advanced sharing options > Creating human-readable URL aliases",
+      "contextHash": "b87950d040a41a5cc1325ac61ae27b6a88c2a0f9f14da71646498e538bbaad9c",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_e50938a0415bf127a0c133c2_0",
+      "kind": "p",
+      "source": "__TRILIUM_PH_0__Important__TRILIUM_PH_1__:",
+      "sourceHash": "e50938a0415bf127a0c133c2cc82c36dce7c44068dfd472894b452f1de476dc7",
+      "context": "Sharing > Advanced sharing options > Creating human-readable URL aliases",
+      "contextHash": "b87950d040a41a5cc1325ac61ae27b6a88c2a0f9f14da71646498e538bbaad9c",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_37d1c8926af0cc92b47bfba7_0",
+      "kind": "li",
+      "source": "Ensure that aliases are unique.",
+      "sourceHash": "37d1c8926af0cc92b47bfba7fbed7c84764606e8a8a1656d2355159d9eef7ffe",
+      "context": "Sharing > Advanced sharing options > Creating human-readable URL aliases",
+      "contextHash": "b87950d040a41a5cc1325ac61ae27b6a88c2a0f9f14da71646498e538bbaad9c",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_cb4313c15c235d9c03fbbe22_0",
+      "kind": "li",
+      "source": "Using slashes (__TRILIUM_PH_0__) within aliases to create subpaths is not supported.",
+      "sourceHash": "cb4313c15c235d9c03fbbe221eb1ddcea7c3176615d213a48ceaa0a2d03a6f4b",
+      "context": "Sharing > Advanced sharing options > Creating human-readable URL aliases",
+      "contextHash": "b87950d040a41a5cc1325ac61ae27b6a88c2a0f9f14da71646498e538bbaad9c",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_5f5e86c11e398502c6c610b4_0",
+      "kind": "li",
+      "source": "To easily identify pages that don't have a share alias, run a __TRILIUM_PH_0__Search__TRILIUM_PH_1__ with __TRILIUM_PH_2__.",
+      "sourceHash": "5f5e86c11e398502c6c610b4faa3c86cfbbafda18f6864671fbae8696f8ee9a9",
+      "context": "Sharing > Advanced sharing options > Creating human-readable URL aliases",
+      "contextHash": "b87950d040a41a5cc1325ac61ae27b6a88c2a0f9f14da71646498e538bbaad9c",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_55eae00eca7817eb8b5f628f_0",
+      "kind": "li",
+      "source": "To be able to enter the share alias faster, consider using __TRILIUM_PH_0__Promoted Attributes__TRILIUM_PH_1__ (for example __TRILIUM_PH_2__).",
+      "sourceHash": "55eae00eca7817eb8b5f628f1b0124a113da37022e88cab10120d543848022b9",
+      "context": "Sharing > Advanced sharing options > Creating human-readable URL aliases",
+      "contextHash": "b87950d040a41a5cc1325ac61ae27b6a88c2a0f9f14da71646498e538bbaad9c",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_66722eb4a380b36daa009497_0",
+      "kind": "h3",
+      "source": "Setting a custom favicon__TRILIUM_PH_0__",
+      "sourceHash": "66722eb4a380b36daa00949761fa9e025d13de5aa522c7574a220d8b4707a7a0",
+      "context": "Sharing > Advanced sharing options > Setting a custom favicon",
+      "contextHash": "7e5dc490e429f9411ac682f045807f8611b8dc214de33dd4d7bbd12f8d357cff",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_90cfbe71985b3a9bfcb2b839_0",
+      "kind": "p",
+      "source": "To customize the favicon for your shared pages, create a relation __TRILIUM_PH_0__ pointing to a file note containing the favicon (e.g., in __TRILIUM_PH_1__ format).",
+      "sourceHash": "90cfbe71985b3a9bfcb2b839ac0ec7d0f36ee4fa05db78158281a49f47293838",
+      "context": "Sharing > Advanced sharing options > Setting a custom favicon",
+      "contextHash": "7e5dc490e429f9411ac682f045807f8611b8dc214de33dd4d7bbd12f8d357cff",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_705b681b9e870353bc01250a_0",
+      "kind": "h3",
+      "source": "Sharing a note as the root__TRILIUM_PH_0__",
+      "sourceHash": "705b681b9e870353bc01250a20054b53714655f5b6a8737ecd59cc88b9f3bf13",
+      "context": "Sharing > Advanced sharing options > Sharing a note as the root",
+      "contextHash": "798ede0bda211ea08f2f53639c100e91ab97c15e7d7294aca7b057e18907c239",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_7486dac7b2e651ded27efb3c_0",
+      "kind": "p",
+      "source": "You can designate a specific note or folder as the root of your shared content by adding the __TRILIUM_PH_0__ label. This note will be linked when visiting __TRILIUM_PH_1__, making it easier to use Trilium as a fully-fledged website.",
+      "sourceHash": "7486dac7b2e651ded27efb3ce10cb0346e8ce5f2c843d6e31dc31ca1eb882d14",
+      "context": "Sharing > Advanced sharing options > Sharing a note as the root",
+      "contextHash": "798ede0bda211ea08f2f53639c100e91ab97c15e7d7294aca7b057e18907c239",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_b4e80c37331f3ecc2fe0ad0c_0",
+      "kind": "p",
+      "source": "Consider combining this with the __TRILIUM_PH_0__ label, which will display a list of all shared notes.",
+      "sourceHash": "b4e80c37331f3ecc2fe0ad0c0663e37815a851d693c6670b04fd819651ad81e4",
+      "context": "Sharing > Advanced sharing options > Sharing a note as the root",
+      "contextHash": "798ede0bda211ea08f2f53639c100e91ab97c15e7d7294aca7b057e18907c239",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_18a527724d6425d723f98210_0",
+      "kind": "h3",
+      "source": "Displaying an index of shared notes__TRILIUM_PH_0__",
+      "sourceHash": "18a527724d6425d723f982103b2bc50b3c762bce5c443bd35a7c2c3410fe6a53",
+      "context": "Sharing > Advanced sharing options > Displaying an index of shared notes",
+      "contextHash": "789c0606ddee215ea41859c9822bd64e2fdd0b2dbfc2523baca01f6b3c66791b",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_df9bb5fbf224691f17d957c8_0",
+      "kind": "p",
+      "source": "When accessing a share, the sub-notes will be displayed in a tree on the left. But since multiple note trees can be shared, it might be useful to display a list of all the different share trees.",
+      "sourceHash": "df9bb5fbf224691f17d957c85bb3031c1cefa9896780cbc42c133cbe613b1c47",
+      "context": "Sharing > Advanced sharing options > Displaying an index of shared notes",
+      "contextHash": "789c0606ddee215ea41859c9822bd64e2fdd0b2dbfc2523baca01f6b3c66791b",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_a5fff3773db75566581f36bc_0",
+      "kind": "p",
+      "source": "To do so, create a shared text note and apply the __TRILIUM_PH_0__ label. When viewed, the list of shared roots will be displayed at the bottom of the note.",
+      "sourceHash": "a5fff3773db75566581f36bccb93027458ef9d3c43da6fdf2bd17641bdc787c1",
+      "context": "Sharing > Advanced sharing options > Displaying an index of shared notes",
+      "contextHash": "789c0606ddee215ea41859c9822bd64e2fdd0b2dbfc2523baca01f6b3c66791b",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_3d8d5c00a884d4f462218e90_0",
+      "kind": "h3",
+      "source": "Linking to an external website__TRILIUM_PH_0__",
+      "sourceHash": "3d8d5c00a884d4f462218e907a6b562d51333db126fcea6faa39ae90119f17df",
+      "context": "Sharing > Advanced sharing options > Linking to an external website",
+      "contextHash": "aa056d5cc635562ba8f2e1b074415fe84f9aa2da256d737ef41a4889a54ea547",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_3c3f9abad1dfeefd334901a0_0",
+      "kind": "p",
+      "source": "Sometimes it's useful to include a link to an external website alongside your shared notes — for example in the shared navigation or in an index. To do so, add the __TRILIUM_PH_0__ label to a note, with the target URL as its value (e.g. __TRILIUM_PH_1__).",
+      "sourceHash": "3c3f9abad1dfeefd334901a0f07fea4b2dfb1ba273007836b64e472ffbd56c16",
+      "context": "Sharing > Advanced sharing options > Linking to an external website",
+      "contextHash": "aa056d5cc635562ba8f2e1b074415fe84f9aa2da256d737ef41a4889a54ea547",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_2f71744e807078edddd313aa_0",
+      "kind": "p",
+      "source": "Any link pointing to this note will then redirect to the external website and open in a new browser tab, instead of opening the note's own shared page. Opening the note's shared URL by its ID also redirects to the external website. This applies to:",
+      "sourceHash": "2f71744e807078edddd313aa1f1d01404c4f16cf900e948b90d55ef434516a87",
+      "context": "Sharing > Advanced sharing options > Linking to an external website",
+      "contextHash": "aa056d5cc635562ba8f2e1b074415fe84f9aa2da256d737ef41a4889a54ea547",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_240c60b44f0a8063c1e6fb4f_0",
+      "kind": "li",
+      "source": "the listing produced by the __TRILIUM_PH_0__ label;",
+      "sourceHash": "240c60b44f0a8063c1e6fb4f83cd14ab098159155a2eaa0d5ab7f62fdc42c1c5",
+      "context": "Sharing > Advanced sharing options > Linking to an external website",
+      "contextHash": "aa056d5cc635562ba8f2e1b074415fe84f9aa2da256d737ef41a4889a54ea547",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_6748367b918acf25948cacb9_0",
+      "kind": "li",
+      "source": "the navigation tree of the shared site;",
+      "sourceHash": "6748367b918acf25948cacb93c602e137ca30015144fd50d6dedb4bd359ff796",
+      "context": "Sharing > Advanced sharing options > Linking to an external website",
+      "contextHash": "aa056d5cc635562ba8f2e1b074415fe84f9aa2da256d737ef41a4889a54ea547",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_658bb600d803179dbf154b01_0",
+      "kind": "li",
+      "source": "the \"Subpages\" list shown under a parent note;",
+      "sourceHash": "658bb600d803179dbf154b01ec3a3ec6842d7c6e3adc08e236b36322b102db8d",
+      "context": "Sharing > Advanced sharing options > Linking to an external website",
+      "contextHash": "aa056d5cc635562ba8f2e1b074415fe84f9aa2da256d737ef41a4889a54ea547",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_81e539ba0af3e72754516ea7_0",
+      "kind": "li",
+      "source": "inline links to this note from within other shared notes.",
+      "sourceHash": "81e539ba0af3e72754516ea7e0946060857817e79353c596742f4cea6232e230",
+      "context": "Sharing > Advanced sharing options > Linking to an external website",
+      "contextHash": "aa056d5cc635562ba8f2e1b074415fe84f9aa2da256d737ef41a4889a54ea547",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_487bb765e7bfb2a45d2dbcb9_0",
+      "kind": "p",
+      "source": "The URL must be absolute and include the scheme (e.g. __TRILIUM_PH_0__).",
+      "sourceHash": "487bb765e7bfb2a45d2dbcb9303f6fa48f49d62e95b7971f3fa12893e410daa5",
+      "context": "Sharing > Advanced sharing options > Linking to an external website",
+      "contextHash": "aa056d5cc635562ba8f2e1b074415fe84f9aa2da256d737ef41a4889a54ea547",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_c5aceafc14cd1e25f3b5583f_0",
+      "kind": "p",
+      "source": "The note still exists in the share tree and its own page remains reachable by its direct URL — the label only changes how links to it behave.",
+      "sourceHash": "c5aceafc14cd1e25f3b5583f60e67a3b20601ea75e5071f9f383ddf12d11bd35",
+      "context": "Sharing > Advanced sharing options > Linking to an external website",
+      "contextHash": "aa056d5cc635562ba8f2e1b074415fe84f9aa2da256d737ef41a4889a54ea547",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_baaea13badd03ad529737f52_0",
+      "kind": "h2",
+      "source": "Attribute reference__TRILIUM_PH_0__",
+      "sourceHash": "baaea13badd03ad529737f5245bd3355dd1b45521f88d42bebea1900f6b6a7bf",
+      "context": "Sharing > Attribute reference",
+      "contextHash": "6cbbcc62ed9553d3c049c0168ac73558b4a0e8cbbaf028f648bd4c727ed34d09",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_67933175e11c8103ebd903b8_0",
+      "kind": "th",
+      "source": "Attribute",
+      "sourceHash": "67933175e11c8103ebd903b83cc7e72c19784c8e5d00ec48e14a7b191bd199a9",
+      "context": "Sharing > Attribute reference",
+      "contextHash": "6cbbcc62ed9553d3c049c0168ac73558b4a0e8cbbaf028f648bd4c727ed34d09",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_4b00baa636b92e18b7a75884_0",
+      "kind": "th",
+      "source": "Description",
+      "sourceHash": "4b00baa636b92e18b7a75884790f0769c3e702d20d8822e708f69ab2f07c7103",
+      "context": "Sharing > Attribute reference",
+      "contextHash": "6cbbcc62ed9553d3c049c0168ac73558b4a0e8cbbaf028f648bd4c727ed34d09",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_a52908a418b58b53e11a62a0_0",
+      "kind": "td",
+      "source": "this note is hidden from the left navigation tree, from its parent's list of subpages, from shared note maps and from the share's search, but still accessible with its URL",
+      "sourceHash": "a52908a418b58b53e11a62a099e5fe563f5116999f306634b250b225722c59f2",
+      "context": "Sharing > Attribute reference",
+      "contextHash": "6cbbcc62ed9553d3c049c0168ac73558b4a0e8cbbaf028f648bd4c727ed34d09",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_e7c53d2129893b43f7f176b1_0",
+      "kind": "td",
+      "source": "when a link points to this note (from the share index, a subpage list, or an inline link in another shared note), it redirects to the given external URL in a new tab instead of the note's shared page. Value is the absolute URL, e.g. __TRILIUM_PH_0__.",
+      "sourceHash": "e7c53d2129893b43f7f176b1cc7d62909e94fb1d17985f700ec689f7e6add779",
+      "context": "Sharing > Attribute reference",
+      "contextHash": "6cbbcc62ed9553d3c049c0168ac73558b4a0e8cbbaf028f648bd4c727ed34d09",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_89242c15e2d000c2ecf24ed6_0",
+      "kind": "td",
+      "source": "define an alias using which the note will be available under __TRILIUM_PH_0__",
+      "sourceHash": "89242c15e2d000c2ecf24ed67e1ed86f42c9249e7bb7f8856a0b740095381c4d",
+      "context": "Sharing > Attribute reference",
+      "contextHash": "6cbbcc62ed9553d3c049c0168ac73558b4a0e8cbbaf028f648bd4c727ed34d09",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_75a9035a908feeabc38b126d_0",
+      "kind": "td",
+      "source": "default share page CSS will be omitted. Use when you make extensive styling changes.",
+      "sourceHash": "75a9035a908feeabc38b126d521b225e5357d060102b73413e966b6399f531fe",
+      "context": "Sharing > Attribute reference",
+      "contextHash": "6cbbcc62ed9553d3c049c0168ac73558b4a0e8cbbaf028f648bd4c727ed34d09",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_8c68ec6515a653ca1f5410c4_0",
+      "kind": "td",
+      "source": "marks note which is served on /share root.",
+      "sourceHash": "8c68ec6515a653ca1f5410c44d531e86e877ea0a720c95d9530d7dbafa450785",
+      "context": "Sharing > Attribute reference",
+      "contextHash": "6cbbcc62ed9553d3c049c0168ac73558b4a0e8cbbaf028f648bd4c727ed34d09",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_136ae2d23b3064bae4bc0d94_0",
+      "kind": "td",
+      "source": "define text to be added to the HTML meta tag for description. It also describes the note in the list of subpages of its parent, in place of the start of its text.",
+      "sourceHash": "136ae2d23b3064bae4bc0d9475f7027a741fdf00deb32051a54c508d94e94acb",
+      "context": "Sharing > Attribute reference",
+      "contextHash": "6cbbcc62ed9553d3c049c0168ac73558b4a0e8cbbaf028f648bd4c727ed34d09",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_8ea875bd77428eef0648b0f3_0",
+      "kind": "td",
+      "source": "Note will be served in its raw format, without HTML wrapper. See also __TRILIUM_PH_0__Serving directly the content of a note__TRILIUM_PH_1__ for an alternative method without setting an attribute.",
+      "sourceHash": "8ea875bd77428eef0648b0f3977a06609fe7f37cfababe1a71562057a9b5f208",
+      "context": "Sharing > Attribute reference",
+      "contextHash": "6cbbcc62ed9553d3c049c0168ac73558b4a0e8cbbaf028f648bd4c727ed34d09",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_c43a3a9ea2ab22e55c9ccea4_0",
+      "kind": "p",
+      "source": "Indicates to web crawlers that the page should not be indexed of this note by:",
+      "sourceHash": "c43a3a9ea2ab22e55c9ccea4dbb782c26d690972d3f38e095c328b9c19e9964d",
+      "context": "Sharing > Attribute reference",
+      "contextHash": "6cbbcc62ed9553d3c049c0168ac73558b4a0e8cbbaf028f648bd4c727ed34d09",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_85c5d4c506cc44e5d9f02886_0",
+      "kind": "li",
+      "source": "Setting the __TRILIUM_PH_0__ HTTP header.",
+      "sourceHash": "85c5d4c506cc44e5d9f028863615b5319a9b8ddbf9be9ed6ee6b933556eda08c",
+      "context": "Sharing > Attribute reference",
+      "contextHash": "6cbbcc62ed9553d3c049c0168ac73558b4a0e8cbbaf028f648bd4c727ed34d09",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_5a45417be06210ee2cd5c354_0",
+      "kind": "li",
+      "source": "Setting the __TRILIUM_PH_0__ meta tag.",
+      "sourceHash": "5a45417be06210ee2cd5c354fbc45cc2eec4e95f394744e99deb232548001d3b",
+      "context": "Sharing > Attribute reference",
+      "contextHash": "6cbbcc62ed9553d3c049c0168ac73558b4a0e8cbbaf028f648bd4c727ed34d09",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_1594b42e0f26e666945ddaef_0",
+      "kind": "td",
+      "source": "require credentials to access this shared note. Value is expected to be in format __TRILIUM_PH_0__. Don't forget to make this inheritable to apply to child-notes/images.",
+      "sourceHash": "1594b42e0f26e666945ddaef15b1501d2d054839fd54105a91515354449740fc",
+      "context": "Sharing > Attribute reference",
+      "contextHash": "6cbbcc62ed9553d3c049c0168ac73558b4a0e8cbbaf028f648bd4c727ed34d09",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_f85ae0bd75f89da01bdf11f5_0",
+      "kind": "td",
+      "source": "Note with this label will list all roots of shared notes.",
+      "sourceHash": "f85ae0bd75f89da01bdf11f579d62ba457858a5efc6b9144fb9cca1329d2c391",
+      "context": "Sharing > Attribute reference",
+      "contextHash": "6cbbcc62ed9553d3c049c0168ac73558b4a0e8cbbaf028f648bd4c727ed34d09",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_e8096ace99d0d45905b990bb_0",
+      "kind": "td",
+      "source": "defines where custom HTML injected via __TRILIUM_PH_0__ relation should be placed. Applied to the HTML snippet note itself. Format: __TRILIUM_PH_1__ where location is __TRILIUM_PH_2__, __TRILIUM_PH_3__, or __TRILIUM_PH_4__ and position is __TRILIUM_PH_5__ or __TRILIUM_PH_6__. Defaults to __TRILIUM_PH_7__.",
+      "sourceHash": "e8096ace99d0d45905b990bb57d3e90807428788dc849a66944d4758af2a5120",
+      "context": "Sharing > Attribute reference",
+      "contextHash": "6cbbcc62ed9553d3c049c0168ac73558b4a0e8cbbaf028f648bd4c727ed34d09",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_c29f6e1c1bb07eb9ccff9467_0",
+      "kind": "h3",
+      "source": "Customizing logo__TRILIUM_PH_0__",
+      "sourceHash": "c29f6e1c1bb07eb9ccff9467f92d44393f4925f6d5967e018dc8cf58fadcb2b6",
+      "context": "Sharing > Attribute reference > Customizing logo",
+      "contextHash": "e8566d9e9325f82ffcf8a621db16cf9ab1f7cea7190d218b3911cbed5a171fb8",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_4b6a64193875f2fcc68ab693_0",
+      "kind": "p",
+      "source": "It's possible to adjust the logo which is displayed above the navigation tree (in the header, on a narrow screen).",
+      "sourceHash": "4b6a64193875f2fcc68ab6937f5bf2ece8eaa49e127e8501267cd2f73322b89f",
+      "context": "Sharing > Attribute reference > Customizing logo",
+      "contextHash": "e8566d9e9325f82ffcf8a621db16cf9ab1f7cea7190d218b3911cbed5a171fb8",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_67933175e11c8103ebd903b8_1",
+      "kind": "th",
+      "source": "Attribute",
+      "sourceHash": "67933175e11c8103ebd903b83cc7e72c19784c8e5d00ec48e14a7b191bd199a9",
+      "context": "Sharing > Attribute reference > Customizing logo",
+      "contextHash": "e8566d9e9325f82ffcf8a621db16cf9ab1f7cea7190d218b3911cbed5a171fb8",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_4b00baa636b92e18b7a75884_1",
+      "kind": "th",
+      "source": "Description",
+      "sourceHash": "4b00baa636b92e18b7a75884790f0769c3e702d20d8822e708f69ab2f07c7103",
+      "context": "Sharing > Attribute reference > Customizing logo",
+      "contextHash": "e8566d9e9325f82ffcf8a621db16cf9ab1f7cea7190d218b3911cbed5a171fb8",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_7929193a304f5f31d797930f_0",
+      "kind": "td",
+      "source": "Relation set to an image to use as logo. The image must be part of the share tree (it can be hidden if needed). Without it, the logo is the icon of the shared root note.",
+      "sourceHash": "7929193a304f5f31d797930f228015c0a437c73a0e033ab9d85df4cd77c7013b",
+      "context": "Sharing > Attribute reference > Customizing logo",
+      "contextHash": "e8566d9e9325f82ffcf8a621db16cf9ab1f7cea7190d218b3911cbed5a171fb8",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_600bb7f950714cfdd91207a5_0",
+      "kind": "td",
+      "source": "The width of the logo, as a number without unit. With __TRILIUM_PH_0__, it sets the proportions of the logo, which is shown 32 pixels wide. Default is __TRILIUM_PH_1__.",
+      "sourceHash": "600bb7f950714cfdd91207a51141888b21e02c2e40c0936a32976fe5ac0212ea",
+      "context": "Sharing > Attribute reference > Customizing logo",
+      "contextHash": "e8566d9e9325f82ffcf8a621db16cf9ab1f7cea7190d218b3911cbed5a171fb8",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_43c065198f33cf86bd9a4968_0",
+      "kind": "td",
+      "source": "The height of the logo, as a number without unit. With __TRILIUM_PH_0__, it sets the proportions of the logo. Default is __TRILIUM_PH_1__.",
+      "sourceHash": "43c065198f33cf86bd9a49686fea8b3a70d1eb2d58a098132769313e22094a32",
+      "context": "Sharing > Attribute reference > Customizing logo",
+      "contextHash": "e8566d9e9325f82ffcf8a621db16cf9ab1f7cea7190d218b3911cbed5a171fb8",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_9759741d4ba3fdabf66883f2_0",
+      "kind": "td",
+      "source": "URL to navigate to when the logo is pressed.",
+      "sourceHash": "9759741d4ba3fdabf66883f214c396825c0f203282e271e5f83325bb31b2daa4",
+      "context": "Sharing > Attribute reference > Customizing logo",
+      "contextHash": "e8566d9e9325f82ffcf8a621db16cf9ab1f7cea7190d218b3911cbed5a171fb8",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_f973aaf96b9c8b63ad1ee01a_0",
+      "kind": "h3",
+      "source": "Customizing OpenGraph__TRILIUM_PH_0__",
+      "sourceHash": "f973aaf96b9c8b63ad1ee01ac929ff34d75af41efe030d08b287a63c2b5f22a8",
+      "context": "Sharing > Attribute reference > Customizing OpenGraph",
+      "contextHash": "b41cc5c8ac9043b2d86ef2975e7dab0fd39baa59b16bdb8dd6840e11dd9f6f01",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_145b1c39d18393370aed0d76_0",
+      "kind": "p",
+      "source": "A meta-property is left out of the page when its attribute is not set. Without an image, link previews use a small card.",
+      "sourceHash": "145b1c39d18393370aed0d76cdf786c08f683c7d5cf46aa74b7968fadd54670a",
+      "context": "Sharing > Attribute reference > Customizing OpenGraph",
+      "contextHash": "b41cc5c8ac9043b2d86ef2975e7dab0fd39baa59b16bdb8dd6840e11dd9f6f01",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_67933175e11c8103ebd903b8_2",
+      "kind": "th",
+      "source": "Attribute",
+      "sourceHash": "67933175e11c8103ebd903b83cc7e72c19784c8e5d00ec48e14a7b191bd199a9",
+      "context": "Sharing > Attribute reference > Customizing OpenGraph",
+      "contextHash": "b41cc5c8ac9043b2d86ef2975e7dab0fd39baa59b16bdb8dd6840e11dd9f6f01",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_4b00baa636b92e18b7a75884_2",
+      "kind": "th",
+      "source": "Description",
+      "sourceHash": "4b00baa636b92e18b7a75884790f0769c3e702d20d8822e708f69ab2f07c7103",
+      "context": "Sharing > Attribute reference > Customizing OpenGraph",
+      "contextHash": "b41cc5c8ac9043b2d86ef2975e7dab0fd39baa59b16bdb8dd6840e11dd9f6f01",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_8820734ce162d6daa58368a2_0",
+      "kind": "td",
+      "source": "This adjusts the __TRILIUM_PH_0__ meta-property.",
+      "sourceHash": "8820734ce162d6daa58368a247b6971a794e65d6ca5da0d9af3d70d5b1379e63",
+      "context": "Sharing > Attribute reference > Customizing OpenGraph",
+      "contextHash": "b41cc5c8ac9043b2d86ef2975e7dab0fd39baa59b16bdb8dd6840e11dd9f6f01",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_48405fb1cb2dae0187e62721_0",
+      "kind": "td",
+      "source": "This adjusts the __TRILIUM_PH_0__ and __TRILIUM_PH_1__ meta-properties. It is also the address a relative __TRILIUM_PH_2__ is completed with, so it should be the public address of the shared site, such as __TRILIUM_PH_3__.",
+      "sourceHash": "48405fb1cb2dae0187e62721f4b83d8d3d199dd1e475c8b67f39ef5ffec8cac0",
+      "context": "Sharing > Attribute reference > Customizing OpenGraph",
+      "contextHash": "b41cc5c8ac9043b2d86ef2975e7dab0fd39baa59b16bdb8dd6840e11dd9f6f01",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_a57993cdb48218b4a1917d6a_0",
+      "kind": "td",
+      "source": "Adjusts the __TRILIUM_PH_0__ meta-property.",
+      "sourceHash": "a57993cdb48218b4a1917d6a04148b825758714934a44581d197f65cde1961d4",
+      "context": "Sharing > Attribute reference > Customizing OpenGraph",
+      "contextHash": "b41cc5c8ac9043b2d86ef2975e7dab0fd39baa59b16bdb8dd6840e11dd9f6f01",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_1bc35c93e1f1218a40a2ccea_0",
+      "kind": "td",
+      "source": "Can be either a label with the address of an image, or a relation to an image __TRILIUM_PH_0__File__TRILIUM_PH_1__. This controls the __TRILIUM_PH_2__ meta-property. Sites that show a preview of the link load the image from their own servers, so a relative address, which the relation always gives, is completed with __TRILIUM_PH_3__; without it, the image does not show in such previews.",
+      "sourceHash": "1bc35c93e1f1218a40a2ccea2bfd1ee8a8dc34e2e4a23a99f289bc86169bcc94",
+      "context": "Sharing > Attribute reference > Customizing OpenGraph",
+      "contextHash": "b41cc5c8ac9043b2d86ef2975e7dab0fd39baa59b16bdb8dd6840e11dd9f6f01",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_e7f9883d0930dff63019a0cd_0",
+      "kind": "h2",
+      "source": "Credits__TRILIUM_PH_0__",
+      "sourceHash": "e7f9883d0930dff63019a0cd21c7ddb853899d9dfdb0ff3e1f6f023140e378c3",
+      "context": "Sharing > Credits",
+      "contextHash": "a88d78d9eaf2f252176ecf0b9c6ae3857b4872e5cb35e0073e355061a89ad0ff",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_1e6002b508dd2a3146b7a23c_0",
+      "kind": "p",
+      "source": "Since v0.95.0, a new theme was introduced (and enabled by default) which greatly improves the visual aspect of the Share feature, as well as its functionality (such as mobile support, dark/light mode, collapsible tree, etc.). This theme is an adaptation of the __TRILIUM_PH_0__Trilium Rocks!__TRILIUM_PH_1__ by __TRILIUM_PH_2__zerebos__TRILIUM_PH_3__.",
+      "sourceHash": "1e6002b508dd2a3146b7a23cbd915b95a26bd010bdf584cdf4b31fc570c2bd40",
+      "context": "Sharing > Credits",
+      "contextHash": "a88d78d9eaf2f252176ecf0b9c6ae3857b4872e5cb35e0073e355061a89ad0ff",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_b190d47815633246b0ab18a6_0",
+      "kind": "image-alt",
+      "source": "記事画像",
+      "sourceHash": "b190d47815633246b0ab18a61d9b8e8ea36504fe3f8bc230a7753096915c9ff2",
+      "context": "Sharing > Credits",
+      "contextHash": "a88d78d9eaf2f252176ecf0b9c6ae3857b4872e5cb35e0073e355061a89ad0ff",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_b15d8fefcd733d9786c8a32a_0",
+      "kind": "image-alt",
+      "source": "Share Note",
+      "sourceHash": "b15d8fefcd733d9786c8a32a38882db052194d5a7410a246af62d112e964fd6e",
+      "context": "Sharing > Credits",
+      "contextHash": "a88d78d9eaf2f252176ecf0b9c6ae3857b4872e5cb35e0073e355061a89ad0ff",
+      "status": "pending",
+      "active": true
+    }
+  ],
+  "requests": []
+}

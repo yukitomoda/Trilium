@@ -1,0 +1,249 @@
+{
+  "schemaVersion": 1,
+  "pageId": "J5Ex1ZrMbyJ6",
+  "sourceFile": "docs/User Guide/User Guide/Advanced Usage/Custom Request Handler.md",
+  "sourceRevision": "03d17b60f59b5efc29b880b11481471d0fe0ff57",
+  "units": [
+    {
+      "id": "u_a2ba39b0c1eaf6dd0c92fc73_0",
+      "kind": "title",
+      "source": "Custom Request Handler",
+      "sourceHash": "a2ba39b0c1eaf6dd0c92fc73010851458374d0252c382f6a3ad918259ed979ec",
+      "context": "Custom Request Handler",
+      "contextHash": "ca0a17445a0a53dcab2331b61bfbd5a170cba37400e2d0e356c6ea02490ea870",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_ed2eeb3249d413795658f122_0",
+      "kind": "p",
+      "source": "Trilium provides a mechanism for __TRILIUM_PH_0__scripts__TRILIUM_PH_1__ to open a public REST endpoint. This opens a way for various integrations with other services - a simple example would be creating new note from Slack by issuing a slash command (e.g. __TRILIUM_PH_2__).",
+      "sourceHash": "ed2eeb3249d413795658f122bcd109dcf39995fb50da6938c50c1ccbed961609",
+      "context": "Custom Request Handler",
+      "contextHash": "ca0a17445a0a53dcab2331b61bfbd5a170cba37400e2d0e356c6ea02490ea870",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_1b2a82feaa96a6d8bfbf892d_0",
+      "kind": "h2",
+      "source": "Create note from outside Trilium__TRILIUM_PH_0__",
+      "sourceHash": "1b2a82feaa96a6d8bfbf892d8f85469e2b0807853db695b8b03ba180018f484a",
+      "context": "Custom Request Handler > Create note from outside Trilium",
+      "contextHash": "d8ec78c981f0894f31578cd42e3f38521db38bb1c74916d9191d68ede01b4fef",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_815dfb77124f725bea1283c6_0",
+      "kind": "p",
+      "source": "Let's take a look at an example. The goal is to provide a REST endpoint to which we can send title and content and Trilium will create a note.",
+      "sourceHash": "815dfb77124f725bea1283c6abec244e5550d436d59d81ec3624a8bf67340427",
+      "context": "Custom Request Handler > Create note from outside Trilium",
+      "contextHash": "d8ec78c981f0894f31578cd42e3f38521db38bb1c74916d9191d68ede01b4fef",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_6a31646073c1e3dcc5267b8e_0",
+      "kind": "p",
+      "source": "We'll start with creating a JavaScript backend __TRILIUM_PH_0__code note__TRILIUM_PH_1__ containing:",
+      "sourceHash": "6a31646073c1e3dcc5267b8ec0d03d7d7e6985b689d7adbf877ac80b44a54ff5",
+      "context": "Custom Request Handler > Create note from outside Trilium",
+      "contextHash": "d8ec78c981f0894f31578cd42e3f38521db38bb1c74916d9191d68ede01b4fef",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_1e0313ad8e2b36f16bccbae0_0",
+      "kind": "p",
+      "source": "This script note has also following two attributes:",
+      "sourceHash": "1e0313ad8e2b36f16bccbae08240f3d1aed58ad1d98d2f1afa2d535fb5866e67",
+      "context": "Custom Request Handler > Create note from outside Trilium",
+      "contextHash": "d8ec78c981f0894f31578cd42e3f38521db38bb1c74916d9191d68ede01b4fef",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_a4ed0306e0c62a7d6874b6e0_0",
+      "kind": "li",
+      "source": "label __TRILIUM_PH_0__ with value __TRILIUM_PH_1__",
+      "sourceHash": "a4ed0306e0c62a7d6874b6e06835cfcd9767d5c73c908308e151ccbabe8f45cf",
+      "context": "Custom Request Handler > Create note from outside Trilium",
+      "contextHash": "d8ec78c981f0894f31578cd42e3f38521db38bb1c74916d9191d68ede01b4fef",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_d47e924b0d9ace6d3aca0720_0",
+      "kind": "li",
+      "source": "relation __TRILIUM_PH_0__ pointing to a note where new notes should be saved",
+      "sourceHash": "d47e924b0d9ace6d3aca0720309352400810cb98067a6ddb060a95e331dd0a60",
+      "context": "Custom Request Handler > Create note from outside Trilium",
+      "contextHash": "d8ec78c981f0894f31578cd42e3f38521db38bb1c74916d9191d68ede01b4fef",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_334f6d442c88c8b08eab1eb7_0",
+      "kind": "h3",
+      "source": "Explanation__TRILIUM_PH_0__",
+      "sourceHash": "334f6d442c88c8b08eab1eb7552ba44488f7494e9a21f44f339105622bb6e110",
+      "context": "Custom Request Handler > Create note from outside Trilium > Explanation",
+      "contextHash": "74dbe4acc5a8843c2f832f1923ce80e8906838ca1f85bbe10a80c65cf09b73aa",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_0f23b4de7a8d61580472678f_0",
+      "kind": "p",
+      "source": "Let's test this by using an HTTP client to send a request:",
+      "sourceHash": "0f23b4de7a8d61580472678f63ba6c1732b9951112b66f1e437d9021778d11fa",
+      "context": "Custom Request Handler > Create note from outside Trilium > Explanation",
+      "contextHash": "74dbe4acc5a8843c2f832f1923ce80e8906838ca1f85bbe10a80c65cf09b73aa",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_91e6d75395d5ae062a72fcaf_0",
+      "kind": "p",
+      "source": "Notice the __TRILIUM_PH_0__ part in the request path - Trilium considers any request with this prefix as \"custom\" and tries to find a matching handler by looking at all notes which have __TRILIUM_PH_1__ __TRILIUM_PH_2__label__TRILIUM_PH_3__. Value of this label then contains a regular expression which will match the request path (in our case trivial regex \"create-note\").",
+      "sourceHash": "91e6d75395d5ae062a72fcaff46c1c341ff2f19e3a708676e4efab31d0758b22",
+      "context": "Custom Request Handler > Create note from outside Trilium > Explanation",
+      "contextHash": "74dbe4acc5a8843c2f832f1923ce80e8906838ca1f85bbe10a80c65cf09b73aa",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_c31267057c099ba7ca399909_0",
+      "kind": "p",
+      "source": "Trilium will then find our code note created above and execute it. __TRILIUM_PH_0__, __TRILIUM_PH_1__ are set to __TRILIUM_PH_2__request__TRILIUM_PH_3__ and __TRILIUM_PH_4__response__TRILIUM_PH_5__objects from which we can get details of the request and also respond.",
+      "sourceHash": "c31267057c099ba7ca399909b558a97253d79dc4faabb2700dc49a4acf03dc8d",
+      "context": "Custom Request Handler > Create note from outside Trilium > Explanation",
+      "contextHash": "74dbe4acc5a8843c2f832f1923ce80e8906838ca1f85bbe10a80c65cf09b73aa",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_e8a703f6e6f69624a468d1f9_0",
+      "kind": "p",
+      "source": "In the code note we check the request method and then use trivial authentication - keep in mind that these endpoints are by default totally unauthenticated, and you need to take care of this yourself.",
+      "sourceHash": "e8a703f6e6f69624a468d1f90734b32874949ab505c59fbe9d86c2cd5027d9f7",
+      "context": "Custom Request Handler > Create note from outside Trilium > Explanation",
+      "contextHash": "74dbe4acc5a8843c2f832f1923ce80e8906838ca1f85bbe10a80c65cf09b73aa",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_840c94930c2fcf71a73396ac_0",
+      "kind": "p",
+      "source": "Once we pass these checks we will just create the desired note using __TRILIUM_PH_0__Script API__TRILIUM_PH_1__.",
+      "sourceHash": "840c94930c2fcf71a73396acb723a9df13e6b9d52943e0cfc265ce34d133f455",
+      "context": "Custom Request Handler > Create note from outside Trilium > Explanation",
+      "contextHash": "74dbe4acc5a8843c2f832f1923ce80e8906838ca1f85bbe10a80c65cf09b73aa",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_df4a8dc0f65cd967dd681623_0",
+      "kind": "h2",
+      "source": "Custom resource provider__TRILIUM_PH_0__",
+      "sourceHash": "df4a8dc0f65cd967dd681623fc28ecf8a1b875c24099748dbad6cf27a98459d1",
+      "context": "Custom Request Handler > Custom resource provider",
+      "contextHash": "ed9e2e0e17217a024c3a0b1a404fab081993871303904b42b737a6d52b632446",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_77f7fbac8cd81fe50467f8a6_0",
+      "kind": "p",
+      "source": "Another common use case is that you want to just expose a file note - in such case you create label __TRILIUM_PH_0__ (value is again path regex).",
+      "sourceHash": "77f7fbac8cd81fe50467f8a690ada2f54723a7f7833ed85dbc43d77e84e99c19",
+      "context": "Custom Request Handler > Custom resource provider",
+      "contextHash": "ed9e2e0e17217a024c3a0b1a404fab081993871303904b42b737a6d52b632446",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_6b5fe6af5317a322ef1914e0_0",
+      "kind": "p",
+      "source": "For more information, see __TRILIUM_PH_0__Custom Resource Providers__TRILIUM_PH_1__.",
+      "sourceHash": "6b5fe6af5317a322ef1914e05abc2d429c293a9f7455d2e2bd997852d54ab771",
+      "context": "Custom Request Handler > Custom resource provider",
+      "contextHash": "ed9e2e0e17217a024c3a0b1a404fab081993871303904b42b737a6d52b632446",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_c6054b411553d664087cbc1d_0",
+      "kind": "h2",
+      "source": "Advanced concepts__TRILIUM_PH_0__",
+      "sourceHash": "c6054b411553d664087cbc1d216ab9ef6cf38e4427289505fdf69afe341158f5",
+      "context": "Custom Request Handler > Advanced concepts",
+      "contextHash": "b21f6fc75d26212cda2616ac0c216473e4fb0ec2c2e2da61c85a3a0c27a737df",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_d6dda1ece88d4324af562748_0",
+      "kind": "p",
+      "source": "__TRILIUM_PH_0__ and __TRILIUM_PH_1__ are Express.js objects - you can always look into its __TRILIUM_PH_2__documentation__TRILIUM_PH_3__ for details.",
+      "sourceHash": "d6dda1ece88d4324af562748e7d6a4c6b25c2458c2a40dc7ec05ebf57b7a9134",
+      "context": "Custom Request Handler > Advanced concepts",
+      "contextHash": "b21f6fc75d26212cda2616ac0c216473e4fb0ec2c2e2da61c85a3a0c27a737df",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_60dc13f9c78e6c943c388e39_0",
+      "kind": "h3",
+      "source": "Parameters__TRILIUM_PH_0__",
+      "sourceHash": "60dc13f9c78e6c943c388e39626879f9239f41240b36818c938cd06245594ef2",
+      "context": "Custom Request Handler > Advanced concepts > Parameters",
+      "contextHash": "c4d932f915745eb1d15d720e245151ca589c67b8065014480059619e507ca137",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_7dad052fe86138f5cbd6128c_0",
+      "kind": "p",
+      "source": "REST request paths often contain parameters in the URL, e.g.:",
+      "sourceHash": "7dad052fe86138f5cbd6128c22a5eecaff8200c98db3e718b0dff0fc9832fcdb",
+      "context": "Custom Request Handler > Advanced concepts > Parameters",
+      "contextHash": "c4d932f915745eb1d15d720e245151ca589c67b8065014480059619e507ca137",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_45d8618babde2a809f176afa_0",
+      "kind": "p",
+      "source": "The last part is dynamic so the matching of the URL must also be dynamic - for this reason the matching is done with regular expressions. Following __TRILIUM_PH_0__ value would match it:",
+      "sourceHash": "45d8618babde2a809f176afa62449bf1484d2b5760adcdfad0945b4dbd9d3404",
+      "context": "Custom Request Handler > Advanced concepts > Parameters",
+      "contextHash": "c4d932f915745eb1d15d720e245151ca589c67b8065014480059619e507ca137",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_b7c4fbf071720522d38d9141_0",
+      "kind": "p",
+      "source": "Additionally, this also defines a matching group with the use of parenthesis which then makes it easier to extract the value. The matched groups are available in __TRILIUM_PH_0__:",
+      "sourceHash": "b7c4fbf071720522d38d9141c47cf02e4bdfff36bb75a748bed870930b79857b",
+      "context": "Custom Request Handler > Advanced concepts > Parameters",
+      "contextHash": "c4d932f915745eb1d15d720e245151ca589c67b8065014480059619e507ca137",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_f501e83d7eec0e1f12000552_0",
+      "kind": "p",
+      "source": "Often you also need query params (as in e.g. __TRILIUM_PH_0__), you can get those with standard express __TRILIUM_PH_1__.",
+      "sourceHash": "f501e83d7eec0e1f12000552671ad81b56a62a61e3e16f072353329fac2ba8b9",
+      "context": "Custom Request Handler > Advanced concepts > Parameters",
+      "contextHash": "c4d932f915745eb1d15d720e245151ca589c67b8065014480059619e507ca137",
+      "status": "pending",
+      "active": true
+    }
+  ],
+  "requests": []
+}

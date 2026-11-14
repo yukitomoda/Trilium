@@ -1,0 +1,669 @@
+{
+  "schemaVersion": 1,
+  "pageId": "aGlEvb9hyDhS",
+  "sourceFile": "docs/User Guide/User Guide/Basic Concepts and Features/Notes/Sorting Notes.md",
+  "sourceRevision": "03d17b60f59b5efc29b880b11481471d0fe0ff57",
+  "units": [
+    {
+      "id": "u_44d3b055266d7a6789356cfc_0",
+      "kind": "title",
+      "source": "Sorting Notes",
+      "sourceHash": "44d3b055266d7a6789356cfc31d96d3e299785610c1a7223aeac28f171d0f1a5",
+      "context": "Sorting Notes",
+      "contextHash": "571faff16acd42d9fb90decc97bb9bc380891e156b82e2a58d2a0c633960c872",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_6370fcadb49e26d1264c7c3a_0",
+      "kind": "p",
+      "source": "Trilium can sort the child notes of a note once, using the __TRILIUM_PH_0__Sort by…__TRILIUM_PH_1__ dialog, or keep them sorted permanently, using the __TRILIUM_PH_2__ label. Both sort by the same criteria: the title, the creation or modification date, or the value of a label on the child notes, and both can combine several of these into sorting levels.",
+      "sourceHash": "6370fcadb49e26d1264c7c3afabb87bad36c990610a99b9f7def4db87d00b1c1",
+      "context": "Sorting Notes",
+      "contextHash": "571faff16acd42d9fb90decc97bb9bc380891e156b82e2a58d2a0c633960c872",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_51ce615067381506cc920821_0",
+      "kind": "h2",
+      "source": "Sorting once with the dialog__TRILIUM_PH_0__",
+      "sourceHash": "51ce615067381506cc920821903e9206499e80055ca90bc6008b63b7c79e3206",
+      "context": "Sorting Notes > Sorting once with the dialog",
+      "contextHash": "fcb47ef324cd4dd2f1fd82f6839a383bbdbde31b9881eaa5d8f9f7be332b33c8",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_bbaad1f0f9b40148a92428a9_0",
+      "kind": "p",
+      "source": "To sort the children of a note once, right-click it in the __TRILIUM_PH_0__Note Tree__TRILIUM_PH_1__ and select __TRILIUM_PH_2__Sort by…__TRILIUM_PH_3__, or select it and press __TRILIUM_PH_4__Alt__TRILIUM_PH_5__+__TRILIUM_PH_6__S__TRILIUM_PH_7__. The order is applied to the existing child notes only; notes added later are placed wherever they are created.",
+      "sourceHash": "bbaad1f0f9b40148a92428a97384c3f619fdf26ec06734c112da8fda5df93ba2",
+      "context": "Sorting Notes > Sorting once with the dialog",
+      "contextHash": "fcb47ef324cd4dd2f1fd82f6839a383bbdbde31b9881eaa5d8f9f7be332b33c8",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_865bf6a5be5c04d64ca2f027_0",
+      "kind": "p",
+      "source": "The dialog consists of:",
+      "sourceHash": "865bf6a5be5c04d64ca2f027f5ae6ba6cfa78ef79c8a98b5f76e9fbbc16e6600",
+      "context": "Sorting Notes > Sorting once with the dialog",
+      "contextHash": "fcb47ef324cd4dd2f1fd82f6839a383bbdbde31b9881eaa5d8f9f7be332b33c8",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_59d3dc55493ee5046f81e26d_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__Sorting criteria__TRILIUM_PH_1__, a list of levels. Each level sorts by __TRILIUM_PH_2__Title__TRILIUM_PH_3__, __TRILIUM_PH_4__Date created__TRILIUM_PH_5__, __TRILIUM_PH_6__Date modified__TRILIUM_PH_7__ or __TRILIUM_PH_8__Label__TRILIUM_PH_9__ (followed by the name of the label), __TRILIUM_PH_10__Ascending__TRILIUM_PH_11__ or __TRILIUM_PH_12__Descending__TRILIUM_PH_13__.",
+      "sourceHash": "59d3dc55493ee5046f81e26d0217e5dbc4280649789572c0eb3f9c72456a6820",
+      "context": "Sorting Notes > Sorting once with the dialog",
+      "contextHash": "fcb47ef324cd4dd2f1fd82f6839a383bbdbde31b9881eaa5d8f9f7be332b33c8",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_e36ceabd1b7b57c8ade38647_0",
+      "kind": "li",
+      "source": "To sort by more than one criterion, select __TRILIUM_PH_0__Add level__TRILIUM_PH_1__. The first level decides the order; the next level only decides between notes the previous ones left equal (see __TRILIUM_PH_2__Sort levels__TRILIUM_PH_3__ below).",
+      "sourceHash": "e36ceabd1b7b57c8ade38647b0ea928d7c2759fdc97b20b240cb121b4232a1a4",
+      "context": "Sorting Notes > Sorting once with the dialog",
+      "contextHash": "fcb47ef324cd4dd2f1fd82f6839a383bbdbde31b9881eaa5d8f9f7be332b33c8",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_f9c7cb7eeef5e63791431b2b_0",
+      "kind": "li",
+      "source": "To change the order of the levels, use the __TRILIUM_PH_0__ and __TRILIUM_PH_1__ buttons. To remove a level, use the __TRILIUM_PH_2__ button.",
+      "sourceHash": "f9c7cb7eeef5e63791431b2be753f6f1265dbc834018983edf5d62bd21b69a3c",
+      "context": "Sorting Notes > Sorting once with the dialog",
+      "contextHash": "fcb47ef324cd4dd2f1fd82f6839a383bbdbde31b9881eaa5d8f9f7be332b33c8",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_eb71837a4b44ded8a7b8f4bc_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__Sort folders at the top__TRILIUM_PH_1__, which places notes that have children of their own before the others. When the first level is descending, they are placed at the bottom instead.",
+      "sourceHash": "eb71837a4b44ded8a7b8f4bc6c9c073e4249a845f6f531096dea72eaf2e5fad9",
+      "context": "Sorting Notes > Sorting once with the dialog",
+      "contextHash": "fcb47ef324cd4dd2f1fd82f6839a383bbdbde31b9881eaa5d8f9f7be332b33c8",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_5c76d421144630c957b108fa_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__Natural sort__TRILIUM_PH_1__, which compares numbers and characters by the rules of a language (see __TRILIUM_PH_2__How values are compared__TRILIUM_PH_3__ below). __TRILIUM_PH_4__Natural sort language__TRILIUM_PH_5__ sets the language code, for example __TRILIUM_PH_6__ for Chinese.",
+      "sourceHash": "5c76d421144630c957b108fab612ae90e01c2a440a376b4b8aee5b1fadaf78b6",
+      "context": "Sorting Notes > Sorting once with the dialog",
+      "contextHash": "fcb47ef324cd4dd2f1fd82f6839a383bbdbde31b9881eaa5d8f9f7be332b33c8",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_c5114dbe45118a45e6047acf_0",
+      "kind": "p",
+      "source": "Notes with __TRILIUM_PH_0__ or __TRILIUM_PH_1__ stay at the top or bottom, as with automatic sorting (see __TRILIUM_PH_2__Pinning notes to the top or bottom__TRILIUM_PH_3__ below).",
+      "sourceHash": "c5114dbe45118a45e6047acf70c314bf9b97fefb484b36258153da8b2e6c92aa",
+      "context": "Sorting Notes > Sorting once with the dialog",
+      "contextHash": "fcb47ef324cd4dd2f1fd82f6839a383bbdbde31b9881eaa5d8f9f7be332b33c8",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_d3572d8c5216fda69d91246e_0",
+      "kind": "h2",
+      "source": "Keeping child notes sorted__TRILIUM_PH_0__",
+      "sourceHash": "d3572d8c5216fda69d91246e5ad71b85e72cfd00bccd373a3c9e22939c25b98e",
+      "context": "Sorting Notes > Keeping child notes sorted",
+      "contextHash": "a236f5b6bc86dac761cdb015bd3fb043da5ad32a3e57eb436c09007183cb918b",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_6f709ef0a652db455ef503f6_0",
+      "kind": "p",
+      "source": "To keep the children of a note sorted, add the __TRILIUM_PH_0__ __TRILIUM_PH_1__label__TRILIUM_PH_2__ to it. Trilium sorts its child notes again whenever a child is added or changes, and whenever the sorting labels change.",
+      "sourceHash": "6f709ef0a652db455ef503f6156afcb0744576b839bd7f094027c3d3e91408d3",
+      "context": "Sorting Notes > Keeping child notes sorted",
+      "contextHash": "a236f5b6bc86dac761cdb015bd3fb043da5ad32a3e57eb436c09007183cb918b",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_6f0c4b80edc06ac84ea5ebee_0",
+      "kind": "th",
+      "source": "Label",
+      "sourceHash": "6f0c4b80edc06ac84ea5ebeecce95361bd8cf2fe8361d0f209fa5bd9a27884b3",
+      "context": "Sorting Notes > Keeping child notes sorted",
+      "contextHash": "a236f5b6bc86dac761cdb015bd3fb043da5ad32a3e57eb436c09007183cb918b",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_4b00baa636b92e18b7a75884_0",
+      "kind": "th",
+      "source": "Description",
+      "sourceHash": "4b00baa636b92e18b7a75884790f0769c3e702d20d8822e708f69ab2f07c7103",
+      "context": "Sorting Notes > Keeping child notes sorted",
+      "contextHash": "a236f5b6bc86dac761cdb015bd3fb043da5ad32a3e57eb436c09007183cb918b",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_defb56b5a5d7419149037e22_0",
+      "kind": "td",
+      "source": "Keeps the child notes sorted. Without a value, they are sorted by title; with a value, by the levels it lists (see __TRILIUM_PH_0__Sort levels__TRILIUM_PH_1__ below). __TRILIUM_PH_2__ turns sorting off.",
+      "sourceHash": "defb56b5a5d7419149037e226f3161cd5e512abc0e7e4ddfa5a901d15231bae3",
+      "context": "Sorting Notes > Keeping child notes sorted",
+      "contextHash": "a236f5b6bc86dac761cdb015bd3fb043da5ad32a3e57eb436c09007183cb918b",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_68f3277b57a457e418e4e59e_0",
+      "kind": "td",
+      "source": "__TRILIUM_PH_0__ (the default) or __TRILIUM_PH_1__. The direction of every level that doesn't specify its own.",
+      "sourceHash": "68f3277b57a457e418e4e59e121e6e4c82db17a95a729e211c39f4dae81066c1",
+      "context": "Sorting Notes > Keeping child notes sorted",
+      "contextHash": "a236f5b6bc86dac761cdb015bd3fb043da5ad32a3e57eb436c09007183cb918b",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_c10e41f269b0886021bab2fa_0",
+      "kind": "td",
+      "source": "Places notes that have children of their own before the others, or after them when __TRILIUM_PH_0__ is __TRILIUM_PH_1__.",
+      "sourceHash": "c10e41f269b0886021bab2fa20ef546e427a4598139acb81d56eaeb52b6a5d42",
+      "context": "Sorting Notes > Keeping child notes sorted",
+      "contextHash": "a236f5b6bc86dac761cdb015bd3fb043da5ad32a3e57eb436c09007183cb918b",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_ef09b99aa40fae0a5f368543_0",
+      "kind": "td",
+      "source": "Compares numbers by their value instead of character by character, so 2 comes before 10.",
+      "sourceHash": "ef09b99aa40fae0a5f368543ad5a0ee995e8991e2afa2feb7d70d6cddb5e6bbb",
+      "context": "Sorting Notes > Keeping child notes sorted",
+      "contextHash": "a236f5b6bc86dac761cdb015bd3fb043da5ad32a3e57eb436c09007183cb918b",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_66002e5c4504408849cba09b_0",
+      "kind": "td",
+      "source": "The language code for __TRILIUM_PH_0__, for example __TRILIUM_PH_1__ or __TRILIUM_PH_2__.",
+      "sourceHash": "66002e5c4504408849cba09b1cd251bc8524967eccbfc82835496d43a0bbf1c5",
+      "context": "Sorting Notes > Keeping child notes sorted",
+      "contextHash": "a236f5b6bc86dac761cdb015bd3fb043da5ad32a3e57eb436c09007183cb918b",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_f526ea63724b5f0c9da61224_0",
+      "kind": "td",
+      "source": "On a child note: keeps it at the top of its sorted parent.",
+      "sourceHash": "f526ea63724b5f0c9da61224019434ac0aad0b793672acf7e6eb59c719ac4633",
+      "context": "Sorting Notes > Keeping child notes sorted",
+      "contextHash": "a236f5b6bc86dac761cdb015bd3fb043da5ad32a3e57eb436c09007183cb918b",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_8a3eadd075cde7addc3f4cf2_0",
+      "kind": "td",
+      "source": "On a child note: keeps it at the bottom of its sorted parent.",
+      "sourceHash": "8a3eadd075cde7addc3f4cf2c1e1acd4bcb5de832544bde5bc616bfe79881aca",
+      "context": "Sorting Notes > Keeping child notes sorted",
+      "contextHash": "a236f5b6bc86dac761cdb015bd3fb043da5ad32a3e57eb436c09007183cb918b",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_3709851292280cbb31e5249e_0",
+      "kind": "p",
+      "source": "The labels apply to the note that carries them and, when made __TRILIUM_PH_0__inheritable__TRILIUM_PH_1__, to every note below it, so a single __TRILIUM_PH_2__ sorts a whole subtree. A note created from a __TRILIUM_PH_3__template__TRILIUM_PH_4__ that has __TRILIUM_PH_5__ keeps its children sorted too. To exclude part of such a subtree, add __TRILIUM_PH_6__ to the note whose children must keep their manual order; to exclude everything below it as well, make that label inheritable too.",
+      "sourceHash": "3709851292280cbb31e5249eadb2b30214701e0104fa821096da838674294248",
+      "context": "Sorting Notes > Keeping child notes sorted",
+      "contextHash": "a236f5b6bc86dac761cdb015bd3fb043da5ad32a3e57eb436c09007183cb918b",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_4b84f13a7318e37a72b7ef30_0",
+      "kind": "h2",
+      "source": "Sort levels__TRILIUM_PH_0__",
+      "sourceHash": "4b84f13a7318e37a72b7ef30bf367e04b73511893914b182a69f1dd8fa76e812",
+      "context": "Sorting Notes > Sort levels",
+      "contextHash": "e3e4362b103fbde79da0e66771451f75d7c61792982de3764c3918dca0106987",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_09cac914b0c370d6c0e3cdaf_0",
+      "kind": "p",
+      "source": "The value of __TRILIUM_PH_0__ is a comma-separated list of levels, written like the __TRILIUM_PH_1__ of a __TRILIUM_PH_2__search__TRILIUM_PH_3__. Each level is one of:",
+      "sourceHash": "09cac914b0c370d6c0e3cdaf38152bf3e0c6d69c02a1ad9472f03b6eded853ca",
+      "context": "Sorting Notes > Sort levels",
+      "contextHash": "e3e4362b103fbde79da0e66771451f75d7c61792982de3764c3918dca0106987",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_e9eecd9922d6a5f45e33a306_0",
+      "kind": "li",
+      "source": "A label on the child notes, written with __TRILIUM_PH_0__, such as __TRILIUM_PH_1__.",
+      "sourceHash": "e9eecd9922d6a5f45e33a3065d5c6e45cc9521578ad07ddd231c3959890e6aaf",
+      "context": "Sorting Notes > Sort levels",
+      "contextHash": "e3e4362b103fbde79da0e66771451f75d7c61792982de3764c3918dca0106987",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_4eb4d80d1d475654902df531_0",
+      "kind": "li",
+      "source": "One of the properties __TRILIUM_PH_0__, __TRILIUM_PH_1__ and __TRILIUM_PH_2__, written without __TRILIUM_PH_3__.",
+      "sourceHash": "4eb4d80d1d475654902df531f18c3d47219a805d76d4aa5110ad2b8886583d37",
+      "context": "Sorting Notes > Sort levels",
+      "contextHash": "e3e4362b103fbde79da0e66771451f75d7c61792982de3764c3918dca0106987",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_6542ab37ed87185a66c66d9d_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__, which only the notes with children of their own have (see __TRILIUM_PH_1__Grouping__TRILIUM_PH_2__ below).",
+      "sourceHash": "6542ab37ed87185a66c66d9d0eceba0efa0e6dc8f50dfd278a0f5a323e22cf7e",
+      "context": "Sorting Notes > Sort levels",
+      "contextHash": "e3e4362b103fbde79da0e66771451f75d7c61792982de3764c3918dca0106987",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_3601fb892848b09d4322f5e8_0",
+      "kind": "p",
+      "source": "A level can be followed by __TRILIUM_PH_0__ or __TRILIUM_PH_1__ to set its direction; otherwise it follows __TRILIUM_PH_2__.",
+      "sourceHash": "3601fb892848b09d4322f5e824af72b04b8b50d7d9708be7f2334717095ed5dd",
+      "context": "Sorting Notes > Sort levels",
+      "contextHash": "e3e4362b103fbde79da0e66771451f75d7c61792982de3764c3918dca0106987",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_4ee36292a028c0af3f332b2b_0",
+      "kind": "p",
+      "source": "The child notes are sorted by the first level. Notes that are equal at that level are sorted by the second level, and so on. Notes equal at every level are sorted by title, in the direction of __TRILIUM_PH_0__.",
+      "sourceHash": "4ee36292a028c0af3f332b2b417c3cd0595a7edede84e87c5cde9b78cf3c76a6",
+      "context": "Sorting Notes > Sort levels",
+      "contextHash": "e3e4362b103fbde79da0e66771451f75d7c61792982de3764c3918dca0106987",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_3dffb44c7f0ca09a4b58fa2e_0",
+      "kind": "p",
+      "source": "A child note that doesn't have a level's label is placed after every child that has it, whichever direction the level runs in. Between two notes that both lack it, the next level decides.",
+      "sourceHash": "3dffb44c7f0ca09a4b58fa2e3b4a9af88dd81950477f7123fc39e565ebf8e9cf",
+      "context": "Sorting Notes > Sort levels",
+      "contextHash": "e3e4362b103fbde79da0e66771451f75d7c61792982de3764c3918dca0106987",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_ade6afeea3bdf81e59a0c776_0",
+      "kind": "p",
+      "source": "For example, __TRILIUM_PH_0__ on a parent with these children:",
+      "sourceHash": "ade6afeea3bdf81e59a0c77602c7ab7efae917852d62a26bf257d315bd014af6",
+      "context": "Sorting Notes > Sort levels",
+      "contextHash": "e3e4362b103fbde79da0e66771451f75d7c61792982de3764c3918dca0106987",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_98280ff2d495be158726bfdc_0",
+      "kind": "th",
+      "source": "Child note",
+      "sourceHash": "98280ff2d495be158726bfdc1a77602c1b6a36f20d8172a0c0b65a37d36c59f6",
+      "context": "Sorting Notes > Sort levels",
+      "contextHash": "e3e4362b103fbde79da0e66771451f75d7c61792982de3764c3918dca0106987",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_66a3d233b6a019e060074f8b_0",
+      "kind": "th",
+      "source": "Labels",
+      "sourceHash": "66a3d233b6a019e060074f8b4593525c9f043f3a2b860b83251748cdb7c460b7",
+      "context": "Sorting Notes > Sort levels",
+      "contextHash": "e3e4362b103fbde79da0e66771451f75d7c61792982de3764c3918dca0106987",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_fc023e8d2c62e9aee35fef99_0",
+      "kind": "td",
+      "source": "Book report",
+      "sourceHash": "fc023e8d2c62e9aee35fef992aa64993a3f3a48603f1ce88a8190c201bc00b39",
+      "context": "Sorting Notes > Sort levels",
+      "contextHash": "e3e4362b103fbde79da0e66771451f75d7c61792982de3764c3918dca0106987",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_3ea23fa311149e90dd626d8c_0",
+      "kind": "td",
+      "source": "Groceries",
+      "sourceHash": "3ea23fa311149e90dd626d8c183df9ebcae4e5d0ca30c14853aad38980697679",
+      "context": "Sorting Notes > Sort levels",
+      "contextHash": "e3e4362b103fbde79da0e66771451f75d7c61792982de3764c3918dca0106987",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_3a875f02d34fbca1580dac6d_0",
+      "kind": "td",
+      "source": "Taxes",
+      "sourceHash": "3a875f02d34fbca1580dac6d54c70b1ad738703738c0ccfc6e8579b974313e0f",
+      "context": "Sorting Notes > Sort levels",
+      "contextHash": "e3e4362b103fbde79da0e66771451f75d7c61792982de3764c3918dca0106987",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_58faf17f92c8d6ec1cf77289_0",
+      "kind": "td",
+      "source": "Ideas",
+      "sourceHash": "58faf17f92c8d6ec1cf77289d0b18fbc04e249cf7bc6ae18bb2f98b5d0538927",
+      "context": "Sorting Notes > Sort levels",
+      "contextHash": "e3e4362b103fbde79da0e66771451f75d7c61792982de3764c3918dca0106987",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_b0ebd5ae9683508be58ed29f_0",
+      "kind": "td",
+      "source": "none",
+      "sourceHash": "b0ebd5ae9683508be58ed29fbcbd359eabffbc1237354e94d241a566e88afa62",
+      "context": "Sorting Notes > Sort levels",
+      "contextHash": "e3e4362b103fbde79da0e66771451f75d7c61792982de3764c3918dca0106987",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_813a1d1953f1306cea75714a_0",
+      "kind": "p",
+      "source": "sorts them as __TRILIUM_PH_0__Taxes__TRILIUM_PH_1__, __TRILIUM_PH_2__Book report__TRILIUM_PH_3__, __TRILIUM_PH_4__Groceries__TRILIUM_PH_5__, __TRILIUM_PH_6__Ideas__TRILIUM_PH_7__. The highest priority comes first; __TRILIUM_PH_8__Taxes__TRILIUM_PH_9__ and __TRILIUM_PH_10__Book report__TRILIUM_PH_11__ share it, so the earlier due date decides between them. __TRILIUM_PH_12__Ideas__TRILIUM_PH_13__ has no priority and goes last.",
+      "sourceHash": "813a1d1953f1306cea75714aa3135b6eb6c8b15d52f60a9db76b41cfa91e4d5b",
+      "context": "Sorting Notes > Sort levels",
+      "contextHash": "e3e4362b103fbde79da0e66771451f75d7c61792982de3764c3918dca0106987",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_8795ecf317ae44438b24fdc5_0",
+      "kind": "p",
+      "source": "A value that is a single name without __TRILIUM_PH_0__ is read the way older versions did: __TRILIUM_PH_1__, __TRILIUM_PH_2__ or __TRILIUM_PH_3__ is a property, and any other name is a label, so __TRILIUM_PH_4__ sorts by the __TRILIUM_PH_5__ label of the children.",
+      "sourceHash": "8795ecf317ae44438b24fdc50b8bf89279e74d9af8dffca2068a6a9c0638ccab",
+      "context": "Sorting Notes > Sort levels",
+      "contextHash": "e3e4362b103fbde79da0e66771451f75d7c61792982de3764c3918dca0106987",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_19e4c12baf1d24d905be8873_0",
+      "kind": "p",
+      "source": "Since v0.107.0, a label in a __TRILIUM_PH_0__ value with more than one level, or with a direction, must be written with __TRILIUM_PH_1__. In v0.106.0 the names were written bare, as in __TRILIUM_PH_2__; such a value now reads both names as properties that don't exist, and the notes fall back to sorting by title. Add a __TRILIUM_PH_3__ before each label name to restore it.",
+      "sourceHash": "19e4c12baf1d24d905be8873732f729bfd5c94a8c283953f82a0c0c32dd7c595",
+      "context": "Sorting Notes > Sort levels",
+      "contextHash": "e3e4362b103fbde79da0e66771451f75d7c61792982de3764c3918dca0106987",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_1fd4e4db543dc7c0038bb825_0",
+      "kind": "h2",
+      "source": "Grouping with __TRILIUM_PH_0__ and __TRILIUM_PH_1____TRILIUM_PH_2__",
+      "sourceHash": "1fd4e4db543dc7c0038bb825bd4833df197db71511c247a1618a33cf175e03c4",
+      "context": "Sorting Notes > Grouping with first and last",
+      "contextHash": "4ce1b056528c536d2d3fba8dde021dc18a94d950b431b0968da440b5c0bdb7e5",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_d07cb3cf200bfe8a89d6350b_0",
+      "kind": "p",
+      "source": "A label followed by __TRILIUM_PH_0__ or __TRILIUM_PH_1__ doesn't sort by the label's value: it places the child notes that have the label, with any value, before or after the rest. The levels that follow then sort within each group. Grouping ignores __TRILIUM_PH_2__.",
+      "sourceHash": "d07cb3cf200bfe8a89d6350b656f8075a56f0497be106a867bfbd29f4a09ad65",
+      "context": "Sorting Notes > Grouping with first and last",
+      "contextHash": "4ce1b056528c536d2d3fba8dde021dc18a94d950b431b0968da440b5c0bdb7e5",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_ade6afeea3bdf81e59a0c776_1",
+      "kind": "p",
+      "source": "For example, __TRILIUM_PH_0__ on a parent with these children:",
+      "sourceHash": "ade6afeea3bdf81e59a0c77602c7ab7efae917852d62a26bf257d315bd014af6",
+      "context": "Sorting Notes > Grouping with first and last",
+      "contextHash": "4ce1b056528c536d2d3fba8dde021dc18a94d950b431b0968da440b5c0bdb7e5",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_98280ff2d495be158726bfdc_1",
+      "kind": "th",
+      "source": "Child note",
+      "sourceHash": "98280ff2d495be158726bfdc1a77602c1b6a36f20d8172a0c0b65a37d36c59f6",
+      "context": "Sorting Notes > Grouping with first and last",
+      "contextHash": "4ce1b056528c536d2d3fba8dde021dc18a94d950b431b0968da440b5c0bdb7e5",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_66a3d233b6a019e060074f8b_1",
+      "kind": "th",
+      "source": "Labels",
+      "sourceHash": "66a3d233b6a019e060074f8b4593525c9f043f3a2b860b83251748cdb7c460b7",
+      "context": "Sorting Notes > Grouping with first and last",
+      "contextHash": "4ce1b056528c536d2d3fba8dde021dc18a94d950b431b0968da440b5c0bdb7e5",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_fa44239fb1144cff971278a8_0",
+      "kind": "td",
+      "source": "Old project",
+      "sourceHash": "fa44239fb1144cff971278a863868f7f280dd921730a812c009899da60784924",
+      "context": "Sorting Notes > Grouping with first and last",
+      "contextHash": "4ce1b056528c536d2d3fba8dde021dc18a94d950b431b0968da440b5c0bdb7e5",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_b0a5998feb703f803640b1b7_0",
+      "kind": "td",
+      "source": "Draft",
+      "sourceHash": "b0a5998feb703f803640b1b776656ee1da67fea65d581e795ce06d3615f56748",
+      "context": "Sorting Notes > Grouping with first and last",
+      "contextHash": "4ce1b056528c536d2d3fba8dde021dc18a94d950b431b0968da440b5c0bdb7e5",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_92a46f2277ec5a2b7320d812_0",
+      "kind": "td",
+      "source": "Launch",
+      "sourceHash": "92a46f2277ec5a2b7320d8121bde3931e940ed3f3847a81cf95acce1f6048a6e",
+      "context": "Sorting Notes > Grouping with first and last",
+      "contextHash": "4ce1b056528c536d2d3fba8dde021dc18a94d950b431b0968da440b5c0bdb7e5",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_f478459efc0c080331008190_0",
+      "kind": "td",
+      "source": "Meeting notes",
+      "sourceHash": "f478459efc0c080331008190d3c995df2d6c684271d18ac4e9ff9c6a0a6acc58",
+      "context": "Sorting Notes > Grouping with first and last",
+      "contextHash": "4ce1b056528c536d2d3fba8dde021dc18a94d950b431b0968da440b5c0bdb7e5",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_b0ebd5ae9683508be58ed29f_1",
+      "kind": "td",
+      "source": "none",
+      "sourceHash": "b0ebd5ae9683508be58ed29fbcbd359eabffbc1237354e94d241a566e88afa62",
+      "context": "Sorting Notes > Grouping with first and last",
+      "contextHash": "4ce1b056528c536d2d3fba8dde021dc18a94d950b431b0968da440b5c0bdb7e5",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_767dca2730fd335b609a32f6_0",
+      "kind": "p",
+      "source": "sorts them as __TRILIUM_PH_0__Launch__TRILIUM_PH_1__, __TRILIUM_PH_2__Draft__TRILIUM_PH_3__, __TRILIUM_PH_4__Meeting notes__TRILIUM_PH_5__, __TRILIUM_PH_6__Old project__TRILIUM_PH_7__. The __TRILIUM_PH_8__archived note__TRILIUM_PH_9__ goes below all the others despite its high priority, and the rest are sorted by priority.",
+      "sourceHash": "767dca2730fd335b609a32f6632d4df060dae010d7116291ec6079ecc2cd25fd",
+      "context": "Sorting Notes > Grouping with first and last",
+      "contextHash": "4ce1b056528c536d2d3fba8dde021dc18a94d950b431b0968da440b5c0bdb7e5",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_f2a5bf0899e785b07a0ed96d_0",
+      "kind": "p",
+      "source": "__TRILIUM_PH_0__ and __TRILIUM_PH_1__ group the notes that have children of their own. A __TRILIUM_PH_2__ level without __TRILIUM_PH_3__ or __TRILIUM_PH_4__ also places them first, in either direction. __TRILIUM_PH_5__ is a shortcut for a __TRILIUM_PH_6__ level; it has no effect when __TRILIUM_PH_7__ already contains __TRILIUM_PH_8__.",
+      "sourceHash": "f2a5bf0899e785b07a0ed96df69b7475f7a649c213a2e88720ed163bcfd18d7b",
+      "context": "Sorting Notes > Grouping with first and last",
+      "contextHash": "4ce1b056528c536d2d3fba8dde021dc18a94d950b431b0968da440b5c0bdb7e5",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_5f3717153bc8c65d6003a47d_0",
+      "kind": "h2",
+      "source": "Pinning notes to the top or bottom__TRILIUM_PH_0__",
+      "sourceHash": "5f3717153bc8c65d6003a47d298ef02715ff0746910b3dd9e45696e7270e0241",
+      "context": "Sorting Notes > Pinning notes to the top or bottom",
+      "contextHash": "f6b4d5739fc002919a81d1b2579a882e121ee3a74bc83b66508d781447deaf7d",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_71332b31c2f598a16ed79a25_0",
+      "kind": "p",
+      "source": "A child note with __TRILIUM_PH_0__ stays at the top of a sorted parent, and one with __TRILIUM_PH_1__ stays at the bottom, whatever the levels of __TRILIUM_PH_2__ say. When several notes have __TRILIUM_PH_3__, they are sorted by the label's value, so __TRILIUM_PH_4__ comes before __TRILIUM_PH_5__, and a __TRILIUM_PH_6__ without a value comes first. __TRILIUM_PH_7__ works the other way round: the last notes are __TRILIUM_PH_8__, then __TRILIUM_PH_9__, then a __TRILIUM_PH_10__ without a value at the very end.",
+      "sourceHash": "71332b31c2f598a16ed79a25b132196138fa248daa8638577e03508ed20e14cb",
+      "context": "Sorting Notes > Pinning notes to the top or bottom",
+      "contextHash": "f6b4d5739fc002919a81d1b2579a882e121ee3a74bc83b66508d781447deaf7d",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_9c851e04c08c5c9e63983a00_0",
+      "kind": "p",
+      "source": "__TRILIUM_PH_0__ places the folders right after the __TRILIUM_PH_1__ notes.",
+      "sourceHash": "9c851e04c08c5c9e63983a0095ef2b63dac5f190405285bfcb893b04b833a940",
+      "context": "Sorting Notes > Pinning notes to the top or bottom",
+      "contextHash": "f6b4d5739fc002919a81d1b2579a882e121ee3a74bc83b66508d781447deaf7d",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_4add21a480776bb1eb1227d7_0",
+      "kind": "p",
+      "source": "To pin notes within groups instead of the whole list, name __TRILIUM_PH_0__ and __TRILIUM_PH_1__ in __TRILIUM_PH_2__ at the position where they apply. For example:",
+      "sourceHash": "4add21a480776bb1eb1227d76492f41dfac7d255869fac23593f52dc59a6af16",
+      "context": "Sorting Notes > Pinning notes to the top or bottom",
+      "contextHash": "f6b4d5739fc002919a81d1b2579a882e121ee3a74bc83b66508d781447deaf7d",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_efb9c08a9c82b8c3530a07cc_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__ keeps archived notes below all the others, including those with __TRILIUM_PH_1__. __TRILIUM_PH_2__ and __TRILIUM_PH_3__ then apply within the archived and the non-archived group separately.",
+      "sourceHash": "efb9c08a9c82b8c3530a07ccae3552f0e161a73dff92fbe23af9969c38c7ea0f",
+      "context": "Sorting Notes > Pinning notes to the top or bottom",
+      "contextHash": "f6b4d5739fc002919a81d1b2579a882e121ee3a74bc83b66508d781447deaf7d",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_fec800ba5ad27bdbae270f86_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__ also places folders first within each group. __TRILIUM_PH_1__ does the same: its __TRILIUM_PH_2__ level goes right after the last of __TRILIUM_PH_3__ and __TRILIUM_PH_4__.",
+      "sourceHash": "fec800ba5ad27bdbae270f86307861807041cbee024ee8e93b4782ebdf906ad9",
+      "context": "Sorting Notes > Pinning notes to the top or bottom",
+      "contextHash": "f6b4d5739fc002919a81d1b2579a882e121ee3a74bc83b66508d781447deaf7d",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_5247270f75bbe0a1cba7ee4c_0",
+      "kind": "li",
+      "source": "Written with __TRILIUM_PH_0__ or __TRILIUM_PH_1__, __TRILIUM_PH_2__ and __TRILIUM_PH_3__ ignore their values. To order several pinned notes by value, add a level after them, such as __TRILIUM_PH_4__.",
+      "sourceHash": "5247270f75bbe0a1cba7ee4c6e0958f1cc7308cc130a886a631b28d200a46cff",
+      "context": "Sorting Notes > Pinning notes to the top or bottom",
+      "contextHash": "f6b4d5739fc002919a81d1b2579a882e121ee3a74bc83b66508d781447deaf7d",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_35ca0cbe2d36460a27ee319b_0",
+      "kind": "h2",
+      "source": "How values are compared__TRILIUM_PH_0__",
+      "sourceHash": "35ca0cbe2d36460a27ee319b76083493783bb582021980ff0790789d542fab9e",
+      "context": "Sorting Notes > How values are compared",
+      "contextHash": "138041a3234aea8d2ddb39ce4263101fa50d0ea62ca5739465a7f45a9447b6c3",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_cac2ccacdeac2cb25b2fe7f6_0",
+      "kind": "li",
+      "source": "Values are compared as text, character by character, without regard to letter case. Dates in the __TRILIUM_PH_0__ form sort correctly, but numbers don't: __TRILIUM_PH_1__ comes before __TRILIUM_PH_2__. Either pad the numbers with zeros (__TRILIUM_PH_3__, __TRILIUM_PH_4__) or enable __TRILIUM_PH_5__.",
+      "sourceHash": "cac2ccacdeac2cb25b2fe7f6e36624f54d47d6440b51ab958e2ac80f953d8c10",
+      "context": "Sorting Notes > How values are compared",
+      "contextHash": "138041a3234aea8d2ddb39ce4263101fa50d0ea62ca5739465a7f45a9447b6c3",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_0ca036f4f82c2340492bacb3_0",
+      "kind": "li",
+      "source": "With __TRILIUM_PH_0__, numbers are compared by their value, and the comparison follows the rules of the language set by __TRILIUM_PH_1__ (or the default one), which also ignores accents.",
+      "sourceHash": "0ca036f4f82c2340492bacb36cb881a4c34cd53b3ab2cd7c597566d7325b3060",
+      "context": "Sorting Notes > How values are compared",
+      "contextHash": "138041a3234aea8d2ddb39ce4263101fa50d0ea62ca5739465a7f45a9447b6c3",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_efe4b50091a9588abc9068bf_0",
+      "kind": "li",
+      "source": "The title of a note includes its __TRILIUM_PH_0__Branch prefix__TRILIUM_PH_1__, if it has one in this parent, as __TRILIUM_PH_2__.",
+      "sourceHash": "efe4b50091a9588abc9068bf8052ea497cc228986953a24c4060241978cef40e",
+      "context": "Sorting Notes > How values are compared",
+      "contextHash": "138041a3234aea8d2ddb39ce4263101fa50d0ea62ca5739465a7f45a9447b6c3",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_ff7c7922ee1c8bc9a11a4dcc_0",
+      "kind": "li",
+      "source": "A label without a value still counts as present: it sorts before the notes that don't have the label, and among the notes that have it, as the smallest value.",
+      "sourceHash": "ff7c7922ee1c8bc9a11a4dcce8f3ff23e1bee2739d0eef41c4f815c801e2235a",
+      "context": "Sorting Notes > How values are compared",
+      "contextHash": "138041a3234aea8d2ddb39ce4263101fa50d0ea62ca5739465a7f45a9447b6c3",
+      "status": "pending",
+      "active": true
+    }
+  ],
+  "requests": []
+}

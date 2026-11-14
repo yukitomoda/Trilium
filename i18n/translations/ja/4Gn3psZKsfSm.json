@@ -1,0 +1,179 @@
+{
+  "schemaVersion": 1,
+  "pageId": "4Gn3psZKsfSm",
+  "sourceFile": "docs/User Guide/User Guide/Scripting/Frontend Basics/Launch Bar Widgets.md",
+  "sourceRevision": "03d17b60f59b5efc29b880b11481471d0fe0ff57",
+  "units": [
+    {
+      "id": "u_074e7e3deb4d063e0a947aad_0",
+      "kind": "title",
+      "source": "Launch Bar Widgets",
+      "sourceHash": "074e7e3deb4d063e0a947aaddb8e532cff202052896655e965d12f045a8f26e2",
+      "context": "Launch Bar Widgets",
+      "contextHash": "043c2fdcbe463ac1316a375240349d91518f2e497c93947774240596f6d3c3b9",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_bb80a53add9bed7a7f34c5c5_0",
+      "kind": "p",
+      "source": "Launch bar widgets are a subset of __TRILIUM_PH_0__Custom Widgets__TRILIUM_PH_1__ that can be used to render custom buttons and widgets inside the __TRILIUM_PH_2__Launch Bar__TRILIUM_PH_3__.",
+      "sourceHash": "bb80a53add9bed7a7f34c5c5b48514c8b4c12bef558e7b73c6f5829cd5fe704d",
+      "context": "Launch Bar Widgets",
+      "contextHash": "043c2fdcbe463ac1316a375240349d91518f2e497c93947774240596f6d3c3b9",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_f6131621fcdbd4abbfdaae44_0",
+      "kind": "h2",
+      "source": "Creating a launch bar widget for the desktop layout__TRILIUM_PH_0__",
+      "sourceHash": "f6131621fcdbd4abbfdaae44905bd2683728fcce4bc50e81394413d9fdcbc3ae",
+      "context": "Launch Bar Widgets > Creating a launch bar widget for the desktop layout",
+      "contextHash": "1d1e7d5daf45a87723c142121674ee75f67d3045dfcfda7877fafc5c34c28d0e",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_24710eea88cd35eafa64e275_0",
+      "kind": "p",
+      "source": "Unlike __TRILIUM_PH_0__Custom Widgets__TRILIUM_PH_1__, the process of setting up a launch bar widget is slightly different:",
+      "sourceHash": "24710eea88cd35eafa64e275113cffba90769ace194aa6765e435118e6995e23",
+      "context": "Launch Bar Widgets > Creating a launch bar widget for the desktop layout",
+      "contextHash": "1d1e7d5daf45a87723c142121674ee75f67d3045dfcfda7877fafc5c34c28d0e",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_8e9d14f7d47c984f3d8bfd87_0",
+      "kind": "li",
+      "source": "Create a Code note of type __TRILIUM_PH_0__JavaScript (front-end)__TRILIUM_PH_1__ or JSX (for Preact-based widgets).",
+      "sourceHash": "8e9d14f7d47c984f3d8bfd87d2ba95c6647a12e7474174e65f9f96c316a053d1",
+      "context": "Launch Bar Widgets > Creating a launch bar widget for the desktop layout",
+      "contextHash": "1d1e7d5daf45a87723c142121674ee75f67d3045dfcfda7877fafc5c34c28d0e",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_b464ba938e133449257b5689_0",
+      "kind": "li",
+      "source": "The script itself uses the same concepts as __TRILIUM_PH_0__Custom Widgets__TRILIUM_PH_1__, including the use of a __TRILIUM_PH_2__ or a __TRILIUM_PH_3__ (according to needs).",
+      "sourceHash": "b464ba938e133449257b56895400cbda63545ffc9cbc057be91af12d5eb7c7b4",
+      "context": "Launch Bar Widgets > Creating a launch bar widget for the desktop layout",
+      "contextHash": "1d1e7d5daf45a87723c142121674ee75f67d3045dfcfda7877fafc5c34c28d0e",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_beec06d52ebc1a94b9e7bc52_0",
+      "kind": "li",
+      "source": "As examples in both legacy and Preact format, see __TRILIUM_PH_0__Note Title Widget__TRILIUM_PH_1__ and __TRILIUM_PH_2__Analog Watch__TRILIUM_PH_3__.",
+      "sourceHash": "beec06d52ebc1a94b9e7bc52bee780b4c724559540a5c20ce039c2ca8dff8a86",
+      "context": "Launch Bar Widgets > Creating a launch bar widget for the desktop layout",
+      "contextHash": "1d1e7d5daf45a87723c142121674ee75f67d3045dfcfda7877fafc5c34c28d0e",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_72a57d976fb367114f5d2125_0",
+      "kind": "li",
+      "source": "Don't set __TRILIUM_PH_0__, as that attribute is reserved for __TRILIUM_PH_1__Custom Widgets__TRILIUM_PH_2__.",
+      "sourceHash": "72a57d976fb367114f5d2125501148a3a6d059d76bbbafb7bb6c830ff45ae538",
+      "context": "Launch Bar Widgets > Creating a launch bar widget for the desktop layout",
+      "contextHash": "1d1e7d5daf45a87723c142121674ee75f67d3045dfcfda7877fafc5c34c28d0e",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_9205e727e2141859334d9c20_0",
+      "kind": "li",
+      "source": "In the __TRILIUM_PH_0__Global menu__TRILIUM_PH_1__, select __TRILIUM_PH_2__Configure launchbar__TRILIUM_PH_3__.",
+      "sourceHash": "9205e727e2141859334d9c2060dd597c59b94442ee9b878243f93384488793b5",
+      "context": "Launch Bar Widgets > Creating a launch bar widget for the desktop layout",
+      "contextHash": "1d1e7d5daf45a87723c142121674ee75f67d3045dfcfda7877fafc5c34c28d0e",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_b21c8c835ffe358956caabc6_0",
+      "kind": "li",
+      "source": "In the __TRILIUM_PH_0__Visible Launchers__TRILIUM_PH_1__ section, select __TRILIUM_PH_2__Add a custom widget__TRILIUM_PH_3__.",
+      "sourceHash": "b21c8c835ffe358956caabc6e688998fa1d97f9b62dff8fbbb5737bda5c61d4f",
+      "context": "Launch Bar Widgets > Creating a launch bar widget for the desktop layout",
+      "contextHash": "1d1e7d5daf45a87723c142121674ee75f67d3045dfcfda7877fafc5c34c28d0e",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_1cf49fe2edd449d7b4adfed2_0",
+      "kind": "li",
+      "source": "Give the newly created launcher a name (and optionally a name).",
+      "sourceHash": "1cf49fe2edd449d7b4adfed21e198b3ca89c6560de1c5b2c0876ec2ebe02af62",
+      "context": "Launch Bar Widgets > Creating a launch bar widget for the desktop layout",
+      "contextHash": "1d1e7d5daf45a87723c142121674ee75f67d3045dfcfda7877fafc5c34c28d0e",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_9a7fb5b1b18165a5d62952b4_0",
+      "kind": "li",
+      "source": "In the __TRILIUM_PH_0__Promoted Attributes__TRILIUM_PH_1__ section, modify the __TRILIUM_PH_2__widget__TRILIUM_PH_3__ field to point to the newly created note.",
+      "sourceHash": "9a7fb5b1b18165a5d62952b4efbf450d41a00758b26f8884c85b7c2eb4b89de1",
+      "context": "Launch Bar Widgets > Creating a launch bar widget for the desktop layout",
+      "contextHash": "1d1e7d5daf45a87723c142121674ee75f67d3045dfcfda7877fafc5c34c28d0e",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_cef6e4b49d85156dfab9a468_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__Refresh__TRILIUM_PH_1__ the UI.",
+      "sourceHash": "cef6e4b49d85156dfab9a46802a0175d40236df267ee6274a0a20a439a13b51e",
+      "context": "Launch Bar Widgets > Creating a launch bar widget for the desktop layout",
+      "contextHash": "1d1e7d5daf45a87723c142121674ee75f67d3045dfcfda7877fafc5c34c28d0e",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_a584e67f9d7fa368294d12a5_0",
+      "kind": "h2",
+      "source": "Mobile layout__TRILIUM_PH_0__",
+      "sourceHash": "a584e67f9d7fa368294d12a5a90be4e790e9fab265cdedcc7ceba9a871914f16",
+      "context": "Launch Bar Widgets > Mobile layout",
+      "contextHash": "1bba875461818ccdd7eaeb5b5de379e4bf7f9220ecba07df2379df684a29db22",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_72ec39d2a947de0cba94dc41_0",
+      "kind": "p",
+      "source": "Custom launch bar widgets are also supported on the __TRILIUM_PH_0__Mobile Frontend__TRILIUM_PH_1__. To do so:",
+      "sourceHash": "72ec39d2a947de0cba94dc41c6363617f332e93a9ec509b77f81f9f56ddf324a",
+      "context": "Launch Bar Widgets > Mobile layout",
+      "contextHash": "1bba875461818ccdd7eaeb5b5de379e4bf7f9220ecba07df2379df684a29db22",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_a6a6a1b83e0c5488c07e42f3_0",
+      "kind": "li",
+      "source": "Go to __TRILIUM_PH_0__Global menu__TRILIUM_PH_1__ → __TRILIUM_PH_2__Advanced__TRILIUM_PH_3__ → __TRILIUM_PH_4__Hidden notes__TRILIUM_PH_5__.",
+      "sourceHash": "a6a6a1b83e0c5488c07e42f3f48516160b5d6ba1431aeab9f9eb9fde6002f025",
+      "context": "Launch Bar Widgets > Mobile layout",
+      "contextHash": "1bba875461818ccdd7eaeb5b5de379e4bf7f9220ecba07df2379df684a29db22",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_89bb33a7cc65be924e72254e_0",
+      "kind": "li",
+      "source": "Look for __TRILIUM_PH_0__Mobile Launch Bar__TRILIUM_PH_1__ and follow the same creation mechanism as in the previous section.",
+      "sourceHash": "89bb33a7cc65be924e72254ed5abe7b24273af776fdb252b4db459f935d0b241",
+      "context": "Launch Bar Widgets > Mobile layout",
+      "contextHash": "1bba875461818ccdd7eaeb5b5de379e4bf7f9220ecba07df2379df684a29db22",
+      "status": "pending",
+      "active": true
+    }
+  ],
+  "requests": []
+}

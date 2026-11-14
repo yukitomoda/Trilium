@@ -1,0 +1,1419 @@
+{
+  "schemaVersion": 1,
+  "pageId": "nBAXQFj20hS1",
+  "sourceFile": "docs/User Guide/User Guide/Note Types/Text/Include Note.md",
+  "sourceRevision": "03d17b60f59b5efc29b880b11481471d0fe0ff57",
+  "units": [
+    {
+      "id": "u_2ee9482bee8eeb1ceeafe3cb_0",
+      "kind": "title",
+      "source": "Include Note",
+      "sourceHash": "2ee9482bee8eeb1ceeafe3cb557ee6803989ff5fd0048dbaa40f1982db308c04",
+      "context": "Include Note",
+      "contextHash": "4b4eb14a6abd99d3a60f2d6e196fc22f8f0d5ecadd31047a3eb19cf1a0e966eb",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_8e2a6e6f08dd12a45f07e6f7_0",
+      "kind": "p",
+      "source": "Text notes can \"include\" another note as a read-only widget or an interactive widget, depending on the type of note.",
+      "sourceHash": "8e2a6e6f08dd12a45f07e6f73ec116702ac1ad8d394c45ef10d5327474a2731a",
+      "context": "Include Note",
+      "contextHash": "4b4eb14a6abd99d3a60f2d6e196fc22f8f0d5ecadd31047a3eb19cf1a0e966eb",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_77f2fb0eacfe3448001fd32a_0",
+      "kind": "p",
+      "source": "This can be useful for e.g. including a dynamically generated chart (from scripts & \"render HTML\" note) or other more advanced use cases.",
+      "sourceHash": "77f2fb0eacfe3448001fd32aa54362a3dcebec5cd5d7a8a0c9a87973846c631e",
+      "context": "Include Note",
+      "contextHash": "4b4eb14a6abd99d3a60f2d6e196fc22f8f0d5ecadd31047a3eb19cf1a0e966eb",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_866da4d199b77e497f0dae4c_0",
+      "kind": "h2",
+      "source": "Including a note__TRILIUM_PH_0__",
+      "sourceHash": "866da4d199b77e497f0dae4c7c6b6d2774be9928fb10c0ccd56afe4909d2832b",
+      "context": "Include Note > Including a note",
+      "contextHash": "8bb3d7ce15b6b9d066c7dfb8c2e7235ca7cd5aedac31f0886a54a6d866a119c9",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_4548953f4d64c5363fee8303_0",
+      "kind": "p",
+      "source": "In the __TRILIUM_PH_0__Formatting toolbar__TRILIUM_PH_1__, look for the __TRILIUM_PH_2__ button. There is also a keyboard shortcut defined for it but it is not allocated by default.",
+      "sourceHash": "4548953f4d64c5363fee83033409e848a2de3c237359eaf8f2c33aeed0f0ef57",
+      "context": "Include Note > Including a note",
+      "contextHash": "8bb3d7ce15b6b9d066c7dfb8c2e7235ca7cd5aedac31f0886a54a6d866a119c9",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_4a994ba40aed7e8d24c6423b_0",
+      "kind": "p",
+      "source": "The __TRILIUM_PH_0__Include note__TRILIUM_PH_1__ dialog opens in a popup next to the cursor on desktop, with two rows: __TRILIUM_PH_2__Note__TRILIUM_PH_3__, where you search for the note to include, and __TRILIUM_PH_4__Box size__TRILIUM_PH_5__ (see __TRILIUM_PH_6__Box sizes__TRILIUM_PH_7__ below), a row of buttons each with a small drawing of the size, with a sentence under it describing the size chosen. Once a note is picked, press __TRILIUM_PH_8__Include note__TRILIUM_PH_9__ or __TRILIUM_PH_10__Enter__TRILIUM_PH_11__ to include it. Typing the title of a note that does not exist offers to create it.",
+      "sourceHash": "4a994ba40aed7e8d24c6423ba60b0a493f5b6cd40c85a5e083366ee496a3cf0c",
+      "context": "Include Note > Including a note",
+      "contextHash": "8bb3d7ce15b6b9d066c7dfb8c2e7235ca7cd5aedac31f0886a54a6d866a119c9",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_01f6155fe50dfe17510e65bc_0",
+      "kind": "p",
+      "source": "An image note, a __TRILIUM_PH_0__Canvas__TRILIUM_PH_1__ or a __TRILIUM_PH_2__Mermaid Diagrams__TRILIUM_PH_3__ note picked in the dialog is inserted as an image rather than included, so instead of the size buttons, the __TRILIUM_PH_4__Box size__TRILIUM_PH_5__ row says so. In a text note, the image can be resized once it is in the text, and the dialog reminds you of that, as it reminds you that the size of an include can be changed later.",
+      "sourceHash": "01f6155fe50dfe17510e65bc09d644ac01880ab9d143b77df3ec5954e0f4bbd0",
+      "context": "Include Note > Including a note",
+      "contextHash": "8bb3d7ce15b6b9d066c7dfb8c2e7235ca7cd5aedac31f0886a54a6d866a119c9",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_3b4d073cca3cc70146189594_0",
+      "kind": "p",
+      "source": "To include a note that is already linked, right-click a reference link to it in a text note being edited and select __TRILIUM_PH_0__Convert link to an included note__TRILIUM_PH_1__, at the end of the menu. The include gets the box size that suits the note, as one added from the button does.",
+      "sourceHash": "3b4d073cca3cc701461895949378d23d7292394d94142e7aab8d444b5f17f0bf",
+      "context": "Include Note > Including a note",
+      "contextHash": "8bb3d7ce15b6b9d066c7dfb8c2e7235ca7cd5aedac31f0886a54a6d866a119c9",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_7d5498c1d103d4f704384bc5_0",
+      "kind": "p",
+      "source": "An __TRILIUM_PH_0__attachment__TRILIUM_PH_1__ can be included the same way, from the context menu of a link to it (see __TRILIUM_PH_2__Embedding an attachment__TRILIUM_PH_3__ there).",
+      "sourceHash": "7d5498c1d103d4f704384bc592a4c051362b556c82e90929ba2ad19fd5ff4c72",
+      "context": "Include Note > Including a note",
+      "contextHash": "8bb3d7ce15b6b9d066c7dfb8c2e7235ca7cd5aedac31f0886a54a6d866a119c9",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_1ddb2d4a26a178961eb25692_0",
+      "kind": "p",
+      "source": "A link to blocks of a text note is converted the same way, with __TRILIUM_PH_0__Convert link to note excerpt__TRILIUM_PH_1__, and the include then shows only those blocks. See __TRILIUM_PH_2__Block references__TRILIUM_PH_3__.",
+      "sourceHash": "1ddb2d4a26a178961eb25692ab48bb805a3b07bd6cdd4385a02eea682b6e720b",
+      "context": "Include Note > Including a note",
+      "contextHash": "8bb3d7ce15b6b9d066c7dfb8c2e7235ca7cd5aedac31f0886a54a6d866a119c9",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_ec3792b95b2e569c6df9142e_0",
+      "kind": "h2",
+      "source": "Box sizes__TRILIUM_PH_0__",
+      "sourceHash": "ec3792b95b2e569c6df9142e9d24a3d9f39b6e9f8d23c2696eb5e383c93fac8e",
+      "context": "Include Note > Box sizes",
+      "contextHash": "4bb1b9c47fb35fa9f0361ef4e4826cafa8eeaa7fa8fca3a15c7532a08d358e08",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_62e2346da89e29e788c21012_0",
+      "kind": "p",
+      "source": "The box size sets how much of the included note is shown, and whether the box can be resized.",
+      "sourceHash": "62e2346da89e29e788c210125f42a2842f33feac147d099b5d770d5f89a27f8c",
+      "context": "Include Note > Box sizes",
+      "contextHash": "4bb1b9c47fb35fa9f0361ef4e4826cafa8eeaa7fa8fca3a15c7532a08d358e08",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_fd9e899a96002b4e5c0d64a7_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__Compact__TRILIUM_PH_1__ shows a single row instead of the content: the note's icon, its title with the path to the note above it, and buttons to act on the note. The included note is never rendered, so wherever the note is shown outside the editor, such as in print, in a tooltip or on a shared page, a __TRILIUM_PH_2__Compact__TRILIUM_PH_3__ include appears as a link to the included note. An included audio file is the exception: its __TRILIUM_PH_4__Compact__TRILIUM_PH_5__ box is a row of player controls, without a title until __TRILIUM_PH_6__Show title__TRILIUM_PH_7__ is turned on.",
+      "sourceHash": "fd9e899a96002b4e5c0d64a773ec51224736dd8c3d390890e3add1cc7ea7b14f",
+      "context": "Include Note > Box sizes",
+      "contextHash": "4bb1b9c47fb35fa9f0361ef4e4826cafa8eeaa7fa8fca3a15c7532a08d358e08",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_2ddc66dfbd2b620f5153bcda_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__Resizable__TRILIUM_PH_1__ shows the content in a box that can be resized to any width and height (see __TRILIUM_PH_2__Resizing__TRILIUM_PH_3__ below). Text scrolls inside the box, while a picture, a diagram or a video is scaled down to fit it. Until it is resized, the box takes the full width of the note and about 20 lines of height.",
+      "sourceHash": "2ddc66dfbd2b620f5153bcda6bb9345a00bcdfc2c5a130e37626c51c96e5f349",
+      "context": "Include Note > Box sizes",
+      "contextHash": "4bb1b9c47fb35fa9f0361ef4e4826cafa8eeaa7fa8fca3a15c7532a08d358e08",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_64c2ba5256fddb2db386f3bf_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__Full__TRILIUM_PH_1__ shows the whole content, at the full width of the note.",
+      "sourceHash": "64c2ba5256fddb2db386f3bf44a7291a2e147f55713628a3c35bc2eede3e35d5",
+      "context": "Include Note > Box sizes",
+      "contextHash": "4bb1b9c47fb35fa9f0361ef4e4826cafa8eeaa7fa8fca3a15c7532a08d358e08",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_b9e8a775415bda79e7a992f5_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__Expandable__TRILIUM_PH_1__ shows only the title until its __TRILIUM_PH_2__ arrow is pressed. In a read-only note, a click anywhere on the title row other than its buttons and link expands or collapses it as well. It takes the full width of the note, and its height can be resized once it is expanded.",
+      "sourceHash": "b9e8a775415bda79e7a992f5888fa06c77712fed8b986022d09774d1ddf36aa6",
+      "context": "Include Note > Box sizes",
+      "contextHash": "4bb1b9c47fb35fa9f0361ef4e4826cafa8eeaa7fa8fca3a15c7532a08d358e08",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_feac9344f23d2458b7e67cc2_0",
+      "kind": "p",
+      "source": "Since v0.107.0, the box sizes were reworked: __TRILIUM_PH_0__Small__TRILIUM_PH_1__ and __TRILIUM_PH_2__Medium__TRILIUM_PH_3__ are replaced by __TRILIUM_PH_4__Resizable__TRILIUM_PH_5__. An include saved as __TRILIUM_PH_6__Small__TRILIUM_PH_7__ or __TRILIUM_PH_8__Medium__TRILIUM_PH_9__ by an earlier version opens as __TRILIUM_PH_10__Resizable__TRILIUM_PH_11__, at the height it had.",
+      "sourceHash": "feac9344f23d2458b7e67cc2366a46e7f5cdf6286cf026d392f6213d358cfd1d",
+      "context": "Include Note > Box sizes",
+      "contextHash": "4bb1b9c47fb35fa9f0361ef4e4826cafa8eeaa7fa8fca3a15c7532a08d358e08",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_e45f5761daccdbb6268610b1_0",
+      "kind": "p",
+      "source": "A new include gets the size that suits what it shows:",
+      "sourceHash": "e45f5761daccdbb6268610b186921afba8468c79fa37a6af10e249ace2ecd0a9",
+      "context": "Include Note > Box sizes",
+      "contextHash": "4bb1b9c47fb35fa9f0361ef4e4826cafa8eeaa7fa8fca3a15c7532a08d358e08",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_cd327461d4af26d188392a00_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__Compact__TRILIUM_PH_1__ for a note or an attachment that has no preview, such as a relation map or an archive, and for audio.",
+      "sourceHash": "cd327461d4af26d188392a00cae32ee0bbdb07c88a555a0da6592caa438b09c2",
+      "context": "Include Note > Box sizes",
+      "contextHash": "4bb1b9c47fb35fa9f0361ef4e4826cafa8eeaa7fa8fca3a15c7532a08d358e08",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_4fe6b9f96fb9b98624ed747e_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__Full__TRILIUM_PH_1__ for a code note or a code file, such as a __TRILIUM_PH_2__, __TRILIUM_PH_3__ or __TRILIUM_PH_4__ attachment, and for an excerpt of the blocks of a text note.",
+      "sourceHash": "4fe6b9f96fb9b98624ed747e61f6c8c98a5b39a6687ed315672919178faee3c5",
+      "context": "Include Note > Box sizes",
+      "contextHash": "4bb1b9c47fb35fa9f0361ef4e4826cafa8eeaa7fa8fca3a15c7532a08d358e08",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_813bbdec58b6d215265d9c96_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__Resizable__TRILIUM_PH_1__ for anything else.",
+      "sourceHash": "813bbdec58b6d215265d9c96b70f18043a8426cef6c251599e3986c96578d498",
+      "context": "Include Note > Box sizes",
+      "contextHash": "4bb1b9c47fb35fa9f0361ef4e4826cafa8eeaa7fa8fca3a15c7532a08d358e08",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_196b1b08d8fe8649f77701b6_0",
+      "kind": "p",
+      "source": "The __TRILIUM_PH_0__Include note__TRILIUM_PH_1__ dialog selects that size among its __TRILIUM_PH_2__Box size__TRILIUM_PH_3__ buttons once the note is picked, and you can choose another one there. To change the size later, select the include and use the __TRILIUM_PH_4__Box size__TRILIUM_PH_5__ menu in its toolbar, or the __TRILIUM_PH_6__Size__TRILIUM_PH_7__ submenu of its __TRILIUM_PH_8__More actions__TRILIUM_PH_9__ menu. Both have __TRILIUM_PH_10__Default__TRILIUM_PH_11__, which puts the include back at the size it started with, without a resized width or height; it is unavailable while the include is already there. For an included code or Markdown note and an embedded code or Markdown file, the __TRILIUM_PH_12__Box size__TRILIUM_PH_13__ menu is the __TRILIUM_PH_14__ button, whose tooltip names the current size.",
+      "sourceHash": "196b1b08d8fe8649f77701b6c52dfe41957af923e420e071a2d30a802fe40986",
+      "context": "Include Note > Box sizes",
+      "contextHash": "4bb1b9c47fb35fa9f0361ef4e4826cafa8eeaa7fa8fca3a15c7532a08d358e08",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_dee2595aed0318a4439f4fd9_0",
+      "kind": "h2",
+      "source": "Resizing__TRILIUM_PH_0__",
+      "sourceHash": "dee2595aed0318a4439f4fd9534a6fdaeb05d47664e4fc5e0461c6c3f1477a64",
+      "context": "Include Note > Resizing",
+      "contextHash": "febc9e3f7fafc34c0b45c20a8b21458db5b7f742f3425dac2cc3426fb0e3f1e8",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_df069d4a0b5c6ba2026bc9d4_0",
+      "kind": "p",
+      "source": "A __TRILIUM_PH_0__Resizable__TRILIUM_PH_1__ include can be resized to any width and height, and an __TRILIUM_PH_2__Expandable__TRILIUM_PH_3__ include in height. A __TRILIUM_PH_4__Compact__TRILIUM_PH_5__ or __TRILIUM_PH_6__Full__TRILIUM_PH_7__ include always fits its content.",
+      "sourceHash": "df069d4a0b5c6ba2026bc9d4ce07c9cc74693c90f58c7765e3889de30d124049",
+      "context": "Include Note > Resizing",
+      "contextHash": "febc9e3f7fafc34c0b45c20a8b21458db5b7f742f3425dac2cc3426fb0e3f1e8",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_8111a5419a7418e2727c03b3_0",
+      "kind": "li",
+      "source": "To resize an include, select it and drag the handle in its bottom-right corner. To change only the width or only the height, drag the middle of its right or bottom edge instead, where a touch screen shows a handle too. In right-to-left text, the handle is in the bottom-left corner and the width changes from the left edge.",
+      "sourceHash": "8111a5419a7418e2727c03b371daf2830c9fc56332c4f486f76e73e92dc13bdb",
+      "context": "Include Note > Resizing",
+      "contextHash": "febc9e3f7fafc34c0b45c20a8b21458db5b7f742f3425dac2cc3426fb0e3f1e8",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_fa5062db9977ddb1f69445c1_0",
+      "kind": "li",
+      "source": "Resizing works with a mouse, a pen or a finger.",
+      "sourceHash": "fa5062db9977ddb1f69445c1b2e9fcd52381349db3e04f8c4f1e6bd2eebbd9df",
+      "context": "Include Note > Resizing",
+      "contextHash": "febc9e3f7fafc34c0b45c20a8b21458db5b7f742f3425dac2cc3426fb0e3f1e8",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_c5b32d80b3a8b47a9d27aa00_0",
+      "kind": "li",
+      "source": "While the height changes, moving the handle near the top or the bottom of the note scrolls the note.",
+      "sourceHash": "c5b32d80b3a8b47a9d27aa00fc5726a938433865e4837b286c2c61d3149902be",
+      "context": "Include Note > Resizing",
+      "contextHash": "febc9e3f7fafc34c0b45c20a8b21458db5b7f742f3425dac2cc3426fb0e3f1e8",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_a461307043e77ee30933fff5_0",
+      "kind": "li",
+      "source": "An include narrower than the note is centered, so changing its width moves both of its sides. An include aligned to the left or the right keeps that side in place and has its handles on the other side (see __TRILIUM_PH_0__Positioning__TRILIUM_PH_1__ below). Making an include as wide as the note returns it to the full width.",
+      "sourceHash": "a461307043e77ee30933fff576da0f3410bce847a9d534cb6900a6aae5420a77",
+      "context": "Include Note > Resizing",
+      "contextHash": "febc9e3f7fafc34c0b45c20a8b21458db5b7f742f3425dac2cc3426fb0e3f1e8",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_47de8bb5b3760706700bea7c_0",
+      "kind": "li",
+      "source": "To cancel a resize, press __TRILIUM_PH_0__Esc__TRILIUM_PH_1__ before releasing the handle.",
+      "sourceHash": "47de8bb5b3760706700bea7c1eb7cd21a07d284d1548318c259f2dc78051ae3a",
+      "context": "Include Note > Resizing",
+      "contextHash": "febc9e3f7fafc34c0b45c20a8b21458db5b7f742f3425dac2cc3426fb0e3f1e8",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_14ec26b90ba0c1219f531c21_0",
+      "kind": "li",
+      "source": "To reset the size, double-click the corner handle, or double-tap it on a touch screen. Double-clicking the right or bottom edge resets only the width or the height.",
+      "sourceHash": "14ec26b90ba0c1219f531c21532bec8cc4c83338e872a580a225d3a6863b006e",
+      "context": "Include Note > Resizing",
+      "contextHash": "febc9e3f7fafc34c0b45c20a8b21458db5b7f742f3425dac2cc3426fb0e3f1e8",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_43b1cec86ebd12be29572d25_0",
+      "kind": "li",
+      "source": "Choosing __TRILIUM_PH_0__Compact__TRILIUM_PH_1__ or __TRILIUM_PH_2__Full__TRILIUM_PH_3__ removes the resized width and height, and choosing __TRILIUM_PH_4__Expandable__TRILIUM_PH_5__ removes the width, as it takes the full width of the note. __TRILIUM_PH_6__Resizable__TRILIUM_PH_7__ keeps both, and __TRILIUM_PH_8__Default__TRILIUM_PH_9__ removes both.",
+      "sourceHash": "43b1cec86ebd12be29572d25ad38257c535b2c8a543c7a6bb8613010c2f20564",
+      "context": "Include Note > Resizing",
+      "contextHash": "febc9e3f7fafc34c0b45c20a8b21458db5b7f742f3425dac2cc3426fb0e3f1e8",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_4339e18ec864ea64a5ae068f_0",
+      "kind": "li",
+      "source": "While an __TRILIUM_PH_0__Expandable__TRILIUM_PH_1__ include is collapsed, it cannot be resized.",
+      "sourceHash": "4339e18ec864ea64a5ae068f524d8766db078dfa9deea7c9f5f59346ac7b59de",
+      "context": "Include Note > Resizing",
+      "contextHash": "febc9e3f7fafc34c0b45c20a8b21458db5b7f742f3425dac2cc3426fb0e3f1e8",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_f2417d3eccc4df1c42d50160_0",
+      "kind": "h2",
+      "source": "Positioning__TRILIUM_PH_0__",
+      "sourceHash": "f2417d3eccc4df1c42d501607fdad3a4d60f4c5392d0914b8024235490a54196",
+      "context": "Include Note > Positioning",
+      "contextHash": "60f1766758c1fc410420f8da095b06ad094de01d75c453ecaf1b5651ea6f091b",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_9f4ab8baeb2362d5d1f41801_0",
+      "kind": "p",
+      "source": "An include can sit on lines of its own or have the text wrap around it, as an __TRILIUM_PH_0__image__TRILIUM_PH_1__ can.",
+      "sourceHash": "9f4ab8baeb2362d5d1f41801065e37cf1f1306c0f50f350f522a0b7623182b40",
+      "context": "Include Note > Positioning",
+      "contextHash": "60f1766758c1fc410420f8da095b06ad094de01d75c453ecaf1b5651ea6f091b",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_b9b3ff4550887959f7b1ed05_0",
+      "kind": "li",
+      "source": "To change the position, open the __TRILIUM_PH_0__More actions__TRILIUM_PH_1__ menu of the include in a note being edited (see __TRILIUM_PH_2__Opening an included note__TRILIUM_PH_3__ below) and choose an entry of its __TRILIUM_PH_4__Position__TRILIUM_PH_5__ submenu:",
+      "sourceHash": "b9b3ff4550887959f7b1ed055f3feedd18bfb235457fd0b4682825dbf035a35d",
+      "context": "Include Note > Positioning",
+      "contextHash": "60f1766758c1fc410420f8da095b06ad094de01d75c453ecaf1b5651ea6f091b",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_09852b1d6846dd276277f535_0",
+      "kind": "li",
+      "source": "Under __TRILIUM_PH_0__Break text__TRILIUM_PH_1__, __TRILIUM_PH_2__ __TRILIUM_PH_3__Align left__TRILIUM_PH_4__, __TRILIUM_PH_5__ __TRILIUM_PH_6__Align center__TRILIUM_PH_7__ and __TRILIUM_PH_8__ __TRILIUM_PH_9__Align right__TRILIUM_PH_10__ place the include on lines of its own, at that side of the note. __TRILIUM_PH_11__Align center__TRILIUM_PH_12__ is the default.",
+      "sourceHash": "09852b1d6846dd276277f535d07506bf524554ac561a0504a456edbfc078533b",
+      "context": "Include Note > Positioning",
+      "contextHash": "60f1766758c1fc410420f8da095b06ad094de01d75c453ecaf1b5651ea6f091b",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_4e693fbe0f5cc7dbe6712595_0",
+      "kind": "li",
+      "source": "Under __TRILIUM_PH_0__Wrap text__TRILIUM_PH_1__, __TRILIUM_PH_2__ __TRILIUM_PH_3__Align left__TRILIUM_PH_4__ and __TRILIUM_PH_5__ __TRILIUM_PH_6__Align right__TRILIUM_PH_7__ place the include at that side and let the text run beside it.",
+      "sourceHash": "4e693fbe0f5cc7dbe67125954b9626c2e9d1713ecfa96456ccaea42b5e57bd88",
+      "context": "Include Note > Positioning",
+      "contextHash": "60f1766758c1fc410420f8da095b06ad094de01d75c453ecaf1b5651ea6f091b",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_ffb35264bab0d2d686e382fa_0",
+      "kind": "li",
+      "source": "Only a __TRILIUM_PH_0__Resizable__TRILIUM_PH_1__ include can be placed in the text. It takes the full width of the note until it is resized, so a new position shows once it is resized narrower (see __TRILIUM_PH_2__Resizing__TRILIUM_PH_3__ above). An __TRILIUM_PH_4__Expandable__TRILIUM_PH_5__ include takes the full width and offers the __TRILIUM_PH_6__Break text__TRILIUM_PH_7__ positions alone, which align the content inside its box. A __TRILIUM_PH_8__Compact__TRILIUM_PH_9__ or __TRILIUM_PH_10__Full__TRILIUM_PH_11__ include has no __TRILIUM_PH_12__Position__TRILIUM_PH_13__ submenu. A position is kept through a change of box size, and shows again once the include is __TRILIUM_PH_14__Resizable__TRILIUM_PH_15__.",
+      "sourceHash": "ffb35264bab0d2d686e382fa068f690051e938de72a9a8012e92c9d45825b895",
+      "context": "Include Note > Positioning",
+      "contextHash": "60f1766758c1fc410420f8da095b06ad094de01d75c453ecaf1b5651ea6f091b",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_69f43aabb6cbc47026534e62_0",
+      "kind": "li",
+      "source": "In the mobile layout, an include with a position other than __TRILIUM_PH_0__Align center__TRILIUM_PH_1__ takes the full width, and only its height can be resized.",
+      "sourceHash": "69f43aabb6cbc47026534e62f7123ec10c1fb09582b91449c56c0d85ed25ef54",
+      "context": "Include Note > Positioning",
+      "contextHash": "60f1766758c1fc410420f8da095b06ad094de01d75c453ecaf1b5651ea6f091b",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_a57bc25ef35c0b46deac68dc_0",
+      "kind": "h2",
+      "source": "Caption__TRILIUM_PH_0__",
+      "sourceHash": "a57bc25ef35c0b46deac68dcafc105872cba85ec107874b5c7fd709eb95e1a6c",
+      "context": "Include Note > Caption",
+      "contextHash": "07f8fea983201ac7093b9527b15797b100005300ad9673131201cf7af9555a48",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_0d3aa1f5e3a2e42469d94e96_0",
+      "kind": "p",
+      "source": "An include can have a caption, shown centered at the bottom of its box. The caption is part of the text note, so it can be formatted like the rest of the text, for example in bold or with a link.",
+      "sourceHash": "0d3aa1f5e3a2e42469d94e966248771106f2c4accf6e60e05f0b709aaf76fea9",
+      "context": "Include Note > Caption",
+      "contextHash": "07f8fea983201ac7093b9527b15797b100005300ad9673131201cf7af9555a48",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_18ab70afb82ec38bc9673790_0",
+      "kind": "li",
+      "source": "To add a caption, select the include, press the __TRILIUM_PH_0__ __TRILIUM_PH_1__Toggle caption on__TRILIUM_PH_2__ button in its toolbar and type the caption. While the cursor is in the caption, the include stays selected and keeps its toolbar.",
+      "sourceHash": "18ab70afb82ec38bc967379030d0cb7e2e3f2e1494144a50b17cbc055a69fdcb",
+      "context": "Include Note > Caption",
+      "contextHash": "07f8fea983201ac7093b9527b15797b100005300ad9673131201cf7af9555a48",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_3810c756961c572333bfcaed_0",
+      "kind": "li",
+      "source": "To remove the caption, press the same button again. Pressing it once more brings back the text it had, as long as the note stays open.",
+      "sourceHash": "3810c756961c572333bfcaed0265d5a2d32fbe78697fc9f9c900e28be43513b1",
+      "context": "Include Note > Caption",
+      "contextHash": "07f8fea983201ac7093b9527b15797b100005300ad9673131201cf7af9555a48",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_35bf3f945cf416813b21cf6e_0",
+      "kind": "li",
+      "source": "A __TRILIUM_PH_0__Compact__TRILIUM_PH_1__ include has no caption, unless it is an audio file. Switching an include to __TRILIUM_PH_2__Compact__TRILIUM_PH_3__ removes its caption, and switching it back to a larger size restores the caption, as long as the note stays open.",
+      "sourceHash": "35bf3f945cf416813b21cf6e72e5b5faded6e71e8eaac59c0883a3c6b27fc52e",
+      "context": "Include Note > Caption",
+      "contextHash": "07f8fea983201ac7093b9527b15797b100005300ad9673131201cf7af9555a48",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_39a616ba362e1ce38904398d_0",
+      "kind": "li",
+      "source": "An __TRILIUM_PH_0__Expandable__TRILIUM_PH_1__ include shows its caption under the title while the content is collapsed, and under the content once it is expanded.",
+      "sourceHash": "39a616ba362e1ce38904398d1b8fba8626f0332df26d76d1f26bc697ed318e1c",
+      "context": "Include Note > Caption",
+      "contextHash": "07f8fea983201ac7093b9527b15797b100005300ad9673131201cf7af9555a48",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_04bdecd3216eb0300f060d6d_0",
+      "kind": "h2",
+      "source": "Title__TRILIUM_PH_0__",
+      "sourceHash": "04bdecd3216eb0300f060d6d3fab69e3eb57bab574913853d85afae604360c5c",
+      "context": "Include Note > Title",
+      "contextHash": "7aff4474c814b6d143e1006fc36ec8f4943f4b4207008b6d46ed1ee30b032494",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_344cc190720dbdd82c8dda1c_0",
+      "kind": "p",
+      "source": "The title row of an include links to the included note and holds its buttons. To show only the content, turn off __TRILIUM_PH_0__Show title__TRILIUM_PH_1__ in the menu of the include, which right-clicking the title row or pressing its __TRILIUM_PH_2__ __TRILIUM_PH_3__More actions__TRILIUM_PH_4__ button opens (see __TRILIUM_PH_5__Opening an included note__TRILIUM_PH_6__ below).",
+      "sourceHash": "344cc190720dbdd82c8dda1ccd1c2aacf931c114751d134760169e6d16476ba7",
+      "context": "Include Note > Title",
+      "contextHash": "7aff4474c814b6d143e1006fc36ec8f4943f4b4207008b6d46ed1ee30b032494",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_95d318d4be2d7f0e940d40ab_0",
+      "kind": "li",
+      "source": "While the title is hidden, select the include and press the __TRILIUM_PH_0__ __TRILIUM_PH_1__More actions__TRILIUM_PH_2__ button in its toolbar to open the same menu, where turning on __TRILIUM_PH_3__Show title__TRILIUM_PH_4__ shows the title again.",
+      "sourceHash": "95d318d4be2d7f0e940d40abc4c22a6cad156c6a4f565739705d13ff76132bfd",
+      "context": "Include Note > Title",
+      "contextHash": "7aff4474c814b6d143e1006fc36ec8f4943f4b4207008b6d46ed1ee30b032494",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_1096f697382d8671feabc7e0_0",
+      "kind": "li",
+      "source": "A __TRILIUM_PH_0__Compact__TRILIUM_PH_1__ or __TRILIUM_PH_2__Expandable__TRILIUM_PH_3__ include always shows its title, so __TRILIUM_PH_4__Show title__TRILIUM_PH_5__ is unavailable in its menu. An audio file at __TRILIUM_PH_6__Compact__TRILIUM_PH_7__ is the exception: it starts without its title, which __TRILIUM_PH_8__Show title__TRILIUM_PH_9__ shows above its controls.",
+      "sourceHash": "1096f697382d8671feabc7e0ce129813cfc2d83612cca4fd65b0725e17d94bbb",
+      "context": "Include Note > Title",
+      "contextHash": "7aff4474c814b6d143e1006fc36ec8f4943f4b4207008b6d46ed1ee30b032494",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_b2569e48ba0fb5cac2cced26_0",
+      "kind": "h2",
+      "source": "Opening an included note__TRILIUM_PH_0__",
+      "sourceHash": "b2569e48ba0fb5cac2cced26327d253bd5b49f7dd306bb7b44e7581ee9a62fa5",
+      "context": "Include Note > Opening an included note",
+      "contextHash": "d4d2586c99424fb3131cc2d0c4485cfa3668620ccd3d8ee4a173c5379b9a09b0",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_e92dc69d9445b8da2f41907e_0",
+      "kind": "p",
+      "source": "To open an included note in a new tab, press the __TRILIUM_PH_0__ __TRILIUM_PH_1__Open in new tab__TRILIUM_PH_2__ button at the end of its title. An embedded attachment has the same button.",
+      "sourceHash": "e92dc69d9445b8da2f41907ed682750c46581896a19b27a29228413cbdc93080",
+      "context": "Include Note > Opening an included note",
+      "contextHash": "d4d2586c99424fb3131cc2d0c4485cfa3668620ccd3d8ee4a173c5379b9a09b0",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_68405f53679af0ff9318869a_0",
+      "kind": "p",
+      "source": "The __TRILIUM_PH_0__ __TRILIUM_PH_1__More actions__TRILIUM_PH_2__ button at the end of the title row opens the same menu as right-clicking anywhere on the title row: the other places to open the note in and, for an embedded attachment, the actions on the attachment.",
+      "sourceHash": "68405f53679af0ff9318869a5eb28f07cb0fbed94d27ae09c64640b99e9e6f21",
+      "context": "Include Note > Opening an included note",
+      "contextHash": "d4d2586c99424fb3131cc2d0c4485cfa3668620ccd3d8ee4a173c5379b9a09b0",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_137f981713cb5a55f2469a6c_0",
+      "kind": "p",
+      "source": "In a note being edited, the menu also has the __TRILIUM_PH_0__Size__TRILIUM_PH_1__ submenu, __TRILIUM_PH_2__Show title__TRILIUM_PH_3__ and __TRILIUM_PH_4__Show caption__TRILIUM_PH_5__, each a switch that is on while it is in effect, and the __TRILIUM_PH_6__Position__TRILIUM_PH_7__ submenu after __TRILIUM_PH_8__Size__TRILIUM_PH_9__ (see __TRILIUM_PH_10__Positioning__TRILIUM_PH_11__ above). The menu ends with __TRILIUM_PH_12__ __TRILIUM_PH_13__Delete block__TRILIUM_PH_14__, which removes the include from the note, followed by __TRILIUM_PH_15__Convert to link__TRILIUM_PH_16__. For an embedded attachment, __TRILIUM_PH_17__Delete attachment...__TRILIUM_PH_18__ follows __TRILIUM_PH_19__Delete block__TRILIUM_PH_20__, and __TRILIUM_PH_21__Convert attachment into note...__TRILIUM_PH_22__ follows __TRILIUM_PH_23__Convert to link__TRILIUM_PH_24__. A drawing canvas, a Mermaid diagram, an included text, code or Markdown note and an embedded code or Markdown file also have __TRILIUM_PH_25__Editable__TRILIUM_PH_26__, above __TRILIUM_PH_27__Size__TRILIUM_PH_28__. An included code or Markdown note, an embedded code or Markdown file and a Mermaid diagram also have the __TRILIUM_PH_29__Word wrap__TRILIUM_PH_30__ and __TRILIUM_PH_31__Line numbers__TRILIUM_PH_32__ submenus after __TRILIUM_PH_33__Editable__TRILIUM_PH_34__ (see __TRILIUM_PH_35__Editing an include in place__TRILIUM_PH_36__ below). A Mermaid diagram, an included Markdown note and an embedded Markdown file also have __TRILIUM_PH_37__Source view__TRILIUM_PH_38__, __TRILIUM_PH_39__Split view__TRILIUM_PH_40__ and __TRILIUM_PH_41__Preview__TRILIUM_PH_42__ after these submenus. For an embedded attachment they follow its first group of actions; for an included note, the places to open it in.",
+      "sourceHash": "137f981713cb5a55f2469a6cb0502b53e7dec5ffc9b97e519db361e2631568c6",
+      "context": "Include Note > Opening an included note",
+      "contextHash": "d4d2586c99424fb3131cc2d0c4485cfa3668620ccd3d8ee4a173c5379b9a09b0",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_f9a6bde51be1277299d459a4_0",
+      "kind": "p",
+      "source": "To show an include of size __TRILIUM_PH_0__Resizable__TRILIUM_PH_1__ or __TRILIUM_PH_2__Full__TRILIUM_PH_3__ on the whole screen, press the __TRILIUM_PH_4__ __TRILIUM_PH_5__Fullscreen__TRILIUM_PH_6__ button at the end of its title. An excerpt of the blocks of a note has an __TRILIUM_PH_7__ __TRILIUM_PH_8__Edit excerpt__TRILIUM_PH_9__ button there instead; see __TRILIUM_PH_10__Block references__TRILIUM_PH_11__. To return, press __TRILIUM_PH_12__ __TRILIUM_PH_13__Exit fullscreen__TRILIUM_PH_14__ in the top-right corner, or __TRILIUM_PH_15__Esc__TRILIUM_PH_16__.",
+      "sourceHash": "f9a6bde51be1277299d459a4edf6b02b29e444e69c2188b1941d325e5ffb1f1a",
+      "context": "Include Note > Opening an included note",
+      "contextHash": "d4d2586c99424fb3131cc2d0c4485cfa3668620ccd3d8ee4a173c5379b9a09b0",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_9df858299df2759cf30498b9_0",
+      "kind": "p",
+      "source": "A __TRILIUM_PH_0__Compact__TRILIUM_PH_1__ include has these buttons instead, followed by the same __TRILIUM_PH_2__More actions__TRILIUM_PH_3__ button:",
+      "sourceHash": "9df858299df2759cf30498b9eba98f91b6647a8208905e528cd0698c4e6f705a",
+      "context": "Include Note > Opening an included note",
+      "contextHash": "d4d2586c99424fb3131cc2d0c4485cfa3668620ccd3d8ee4a173c5379b9a09b0",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_077dff8fe89c47ed007a2581_0",
+      "kind": "li",
+      "source": "For a note, __TRILIUM_PH_0__ __TRILIUM_PH_1__Quick edit__TRILIUM_PH_2__ opens the note in __TRILIUM_PH_3__Quick edit__TRILIUM_PH_4__, and __TRILIUM_PH_5__ __TRILIUM_PH_6__Open in new tab__TRILIUM_PH_7__ opens it in a new tab.",
+      "sourceHash": "077dff8fe89c47ed007a2581caee2ea95c9d61abc9314a64c0ce11f614f87cfd",
+      "context": "Include Note > Opening an included note",
+      "contextHash": "d4d2586c99424fb3131cc2d0c4485cfa3668620ccd3d8ee4a173c5379b9a09b0",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_151e079dd9c4ad4c1a4e0d90_0",
+      "kind": "li",
+      "source": "For an embedded attachment, __TRILIUM_PH_0__ __TRILIUM_PH_1__Open externally__TRILIUM_PH_2__ opens the file in another application, and __TRILIUM_PH_3__ __TRILIUM_PH_4__Download__TRILIUM_PH_5__ downloads it. The size of the file is shown under its title.",
+      "sourceHash": "151e079dd9c4ad4c1a4e0d903a0a2ca627d67065609403a3143180fb429149a3",
+      "context": "Include Note > Opening an included note",
+      "contextHash": "d4d2586c99424fb3131cc2d0c4485cfa3668620ccd3d8ee4a173c5379b9a09b0",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_996e2a39305cc5fc27a4a5f3_0",
+      "kind": "h2",
+      "source": "Converting an include to a link__TRILIUM_PH_0__",
+      "sourceHash": "996e2a39305cc5fc27a4a5f3a762126d890b595394792c6a0e1b1b93f38ddab7",
+      "context": "Include Note > Converting an include to a link",
+      "contextHash": "2dd66ac338b7c792b8e95be4fca92cb49a21c15c678905d7dd0e1e4952fd29c1",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_a15de8d78ec23a7df3dd54b7_0",
+      "kind": "p",
+      "source": "To replace an include with a link to the included note, choose __TRILIUM_PH_0__Convert to link__TRILIUM_PH_1__ in the last group of its __TRILIUM_PH_2__More actions__TRILIUM_PH_3__ menu. An embedded attachment turns into a link to the attachment the same way.",
+      "sourceHash": "a15de8d78ec23a7df3dd54b7792cb055407815cef77e4eac256021d838a09750",
+      "context": "Include Note > Converting an include to a link",
+      "contextHash": "2dd66ac338b7c792b8e95be4fca92cb49a21c15c678905d7dd0e1e4952fd29c1",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_d3705b55b781c95b77341676_0",
+      "kind": "h2",
+      "source": "Includes inside an included note__TRILIUM_PH_0__",
+      "sourceHash": "d3705b55b781c95b773416769dfc970ce1ebc0a6c5c9602a5a26f523baaf0f24",
+      "context": "Include Note > Includes inside an included note",
+      "contextHash": "dc5d4ced048a542d435a150c2c9e0053bb2d7ddb45a61ad9e8fd5e42789a3ecc",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_0fff45c72dd1abd25e6cd776_0",
+      "kind": "p",
+      "source": "The includes of an included note show as __TRILIUM_PH_0__Compact__TRILIUM_PH_1__ boxes, whatever their own box size: a row with the icon and title of the note, and buttons to open it, but not its content. This keeps a note that includes notes which include further notes, such as a journal built from templates, quick to open. Opening the included note shows its own includes at the box size they were given.",
+      "sourceHash": "0fff45c72dd1abd25e6cd776c9a28a2d97062a8b31709682c836ebbfa01f81af",
+      "context": "Include Note > Includes inside an included note",
+      "contextHash": "dc5d4ced048a542d435a150c2c9e0053bb2d7ddb45a61ad9e8fd5e42789a3ecc",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_8a5942955bb6754793ee16d4_0",
+      "kind": "p",
+      "source": "An include of a note that is already shown around it shows as a link to that note instead. For example, if note __TRILIUM_PH_0__A__TRILIUM_PH_1__ includes note __TRILIUM_PH_2__B__TRILIUM_PH_3__ and __TRILIUM_PH_4__B__TRILIUM_PH_5__ includes __TRILIUM_PH_6__A__TRILIUM_PH_7__, opening __TRILIUM_PH_8__A__TRILIUM_PH_9__ shows __TRILIUM_PH_10__B__TRILIUM_PH_11__ in a box, and inside that box a link back to __TRILIUM_PH_12__A__TRILIUM_PH_13__.",
+      "sourceHash": "8a5942955bb6754793ee16d427c6f9dc1fd81b8d15b918e8129d0b01fd069ee9",
+      "context": "Include Note > Includes inside an included note",
+      "contextHash": "dc5d4ced048a542d435a150c2c9e0053bb2d7ddb45a61ad9e8fd5e42789a3ecc",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_2b3346d35d6548be131a4c06_0",
+      "kind": "h2",
+      "source": "Missing notes and attachments__TRILIUM_PH_0__",
+      "sourceHash": "2b3346d35d6548be131a4c06d17236184384abf3f1b8ea33ad647b4ee59dc1f6",
+      "context": "Include Note > Missing notes and attachments",
+      "contextHash": "b58e7d372d35d0f27286aad6e31712e294a09362d9b7c304d95e72576a635ebc",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_c335a4647940c4edbc8fa78f_0",
+      "kind": "p",
+      "source": "An include whose note or attachment no longer exists, for example because it was deleted, keeps its size and shows the __TRILIUM_PH_0__ icon in place of the content, with the ID of the missing note or attachment. To remove the include, select it and press __TRILIUM_PH_1__Delete__TRILIUM_PH_2__.",
+      "sourceHash": "c335a4647940c4edbc8fa78f1dfc418b50fdc2cb1162250b3084672951f0df35",
+      "context": "Include Note > Missing notes and attachments",
+      "contextHash": "b58e7d372d35d0f27286aad6e31712e294a09362d9b7c304d95e72576a635ebc",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_d56f98c519408319b489f13d_0",
+      "kind": "p",
+      "source": "Content added by a newer version of Trilium, which this version cannot show, appears the same way with the __TRILIUM_PH_0__ icon. Editing the note keeps that content unchanged, so it shows again once Trilium is updated.",
+      "sourceHash": "d56f98c519408319b489f13d0514e44623888754e856753c152820d1c06d93a8",
+      "context": "Include Note > Missing notes and attachments",
+      "contextHash": "b58e7d372d35d0f27286aad6e31712e294a09362d9b7c304d95e72576a635ebc",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_2e8b2384d5b5a7fa19753d71_0",
+      "kind": "h2",
+      "source": "Included notes in the share functionality__TRILIUM_PH_0__",
+      "sourceHash": "2e8b2384d5b5a7fa19753d71b06dbbcf1ca83c0adf672d8456551b53830887e5",
+      "context": "Include Note > Included notes in the share functionality",
+      "contextHash": "56ce35848cfeaa0b0096a4257b552d7ddbd932b8fed9984bf24968e733da9dfa",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_6efc10a3748f59dd0c8097c4_0",
+      "kind": "p",
+      "source": "If a __TRILIUM_PH_0__shared note__TRILIUM_PH_1__ contains one or more included notes, they will be displayed in the content of the note as if they were part of the note itself. An include resized narrower than the note keeps its width and its position. On a narrow screen, an include with a position other than __TRILIUM_PH_2__Align center__TRILIUM_PH_3__ takes the full width. The caption of an include is shown under the included content. An __TRILIUM_PH_4__Expandable__TRILIUM_PH_5__ include shows its title and stays collapsed until it is clicked, with its caption under the title until then. Its headings are left out of the page's table of contents. A __TRILIUM_PH_6__Compact__TRILIUM_PH_7__ include is shown as a link to the included note instead, and so is an include that would show a note already shown around it, such as a note that includes itself. The same goes for a printed or exported note.",
+      "sourceHash": "6efc10a3748f59dd0c8097c4457f3fe95934c8dec4a500137099272df3bb3415",
+      "context": "Include Note > Included notes in the share functionality",
+      "contextHash": "56ce35848cfeaa0b0096a4257b552d7ddbd932b8fed9984bf24968e733da9dfa",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_7f08879229f4f5f8d1b93aad_0",
+      "kind": "p",
+      "source": "An included video or audio file, whether a note or an attachment, plays in the browser's player.",
+      "sourceHash": "7f08879229f4f5f8d1b93aadda676e54756fad1651fde337f8b25e10d2cb4a30",
+      "context": "Include Note > Included notes in the share functionality",
+      "contextHash": "56ce35848cfeaa0b0096a4257b552d7ddbd932b8fed9984bf24968e733da9dfa",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_2861440747aa003ba199571b_0",
+      "kind": "p",
+      "source": "For this to work, the included notes must also be shared. However, they can still be hidden from the note tree via __TRILIUM_PH_0__.",
+      "sourceHash": "2861440747aa003ba199571b08ceb8b4cb1ecc3bccd55c2b9640ea878662f73f",
+      "context": "Include Note > Included notes in the share functionality",
+      "contextHash": "56ce35848cfeaa0b0096a4257b552d7ddbd932b8fed9984bf24968e733da9dfa",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_d4d15596efa4b742fb291670_0",
+      "kind": "p",
+      "source": "An include whose note or attachment is missing or not shared shows __TRILIUM_PH_0__This content is not available__TRILIUM_PH_1__ in its place, and so does content added by a newer version of Trilium.",
+      "sourceHash": "d4d15596efa4b742fb2916702a4f7c358d3be6dc2cbcbaf772f5949bbd70fff8",
+      "context": "Include Note > Included notes in the share functionality",
+      "contextHash": "56ce35848cfeaa0b0096a4257b552d7ddbd932b8fed9984bf24968e733da9dfa",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_d1ae0aa040c25e6763403167_0",
+      "kind": "h2",
+      "source": "Interactive notes__TRILIUM_PH_0__",
+      "sourceHash": "d1ae0aa040c25e6763403167f413b92e8c4c80c22609dbfef16daa82758caa49",
+      "context": "Include Note > Interactive notes",
+      "contextHash": "dbca4f381b98c46c90137f02f8a68b0e82f0cf50c9e16059224bee7503ed4136",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_56b81bb5b04ca4c30b4fb7d1_0",
+      "kind": "p",
+      "source": "Since v0.104.0, included notes might become interactive depending on their note type:",
+      "sourceHash": "56b81bb5b04ca4c30b4fb7d1ab43472768b79454259813a0c9d42b07d5b5ac7e",
+      "context": "Include Note > Interactive notes",
+      "contextHash": "dbca4f381b98c46c90137f02f8a68b0e82f0cf50c9e16059224bee7503ed4136",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_c508167cf6dc3cbcdcc3d947_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__Collections__TRILIUM_PH_1__ (e.g. __TRILIUM_PH_2__Geo Map__TRILIUM_PH_3__) will render fully interactive, including creating new notes.",
+      "sourceHash": "c508167cf6dc3cbcdcc3d9474c8ef18b29efb55a4aff50740ebf4c729382d75c",
+      "context": "Include Note > Interactive notes",
+      "contextHash": "dbca4f381b98c46c90137f02f8a68b0e82f0cf50c9e16059224bee7503ed4136",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_7843899892e34e64cca00870_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__Saved Search__TRILIUM_PH_1__ will also display the results.",
+      "sourceHash": "7843899892e34e64cca00870b5e8db4bcb50aaf39ee1fa69688ba766611520bb",
+      "context": "Include Note > Interactive notes",
+      "contextHash": "dbca4f381b98c46c90137f02f8a68b0e82f0cf50c9e16059224bee7503ed4136",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_4507a19957ee09689b93bbbe_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__Web View__TRILIUM_PH_1__ provides an interactive preview of the website.",
+      "sourceHash": "4507a19957ee09689b93bbbee338d7a2156945974daed319fe816547b697bbed",
+      "context": "Include Note > Interactive notes",
+      "contextHash": "dbca4f381b98c46c90137f02f8a68b0e82f0cf50c9e16059224bee7503ed4136",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_45cd216e084b80c7777cd6e7_0",
+      "kind": "h2",
+      "source": "Included images__TRILIUM_PH_0__",
+      "sourceHash": "45cd216e084b80c7777cd6e75eccbd0af9cd2f8b13b8c2d9a0b3e12623d3d5c0",
+      "context": "Include Note > Included images",
+      "contextHash": "56855eee9864a1bdb175d54d9fa8f0e30588e339fa8a42c59a9416235ff02d5f",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_e428e88050e56b84d5211486_0",
+      "kind": "p",
+      "source": "An included image, whether an image note or an image attachment, is shown in the image viewer, which zooms and pans it:",
+      "sourceHash": "e428e88050e56b84d5211486b79d85af3bd20c88908506a9089094b3695830fd",
+      "context": "Include Note > Included images",
+      "contextHash": "56855eee9864a1bdb175d54d9fa8f0e30588e339fa8a42c59a9416235ff02d5f",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_8e50b64fdd43b9d09c216f7d_0",
+      "kind": "li",
+      "source": "To zoom, press the __TRILIUM_PH_0__ __TRILIUM_PH_1__Zoom in__TRILIUM_PH_2__ and __TRILIUM_PH_3__ __TRILIUM_PH_4__Zoom out__TRILIUM_PH_5__ buttons in the bottom-right corner of the image, or pinch on a touch screen. The percentage between them resets the zoom.",
+      "sourceHash": "8e50b64fdd43b9d09c216f7d7e4ddfe1daaaea8cdadd5135c104ff5d597dceb7",
+      "context": "Include Note > Included images",
+      "contextHash": "56855eee9864a1bdb175d54d9fa8f0e30588e339fa8a42c59a9416235ff02d5f",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_33deccae27d1bb4c008d1683_0",
+      "kind": "li",
+      "source": "To zoom with the mouse wheel, click the image first. Until then, the mouse wheel scrolls the note.",
+      "sourceHash": "33deccae27d1bb4c008d1683bb9beff1144f7027d7724201023e579fe83a8d29",
+      "context": "Include Note > Included images",
+      "contextHash": "56855eee9864a1bdb175d54d9fa8f0e30588e339fa8a42c59a9416235ff02d5f",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_3ac8244172d364e7bda015d4_0",
+      "kind": "li",
+      "source": "To pan an image that is zoomed in, drag it. At its fitted size, dragging the image on a touch screen scrolls the note.",
+      "sourceHash": "3ac8244172d364e7bda015d4a4696ae2ca28cb2eeb46d706d693124d248a524c",
+      "context": "Include Note > Included images",
+      "contextHash": "56855eee9864a1bdb175d54d9fa8f0e30588e339fa8a42c59a9416235ff02d5f",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_fc66a5e2cd70d6eaecb67d63_0",
+      "kind": "li",
+      "source": "To return to the fitted size, double-click the image.",
+      "sourceHash": "fc66a5e2cd70d6eaecb67d632c44c10661c990b3edb8c3f202d1345b59228de8",
+      "context": "Include Note > Included images",
+      "contextHash": "56855eee9864a1bdb175d54d9fa8f0e30588e339fa8a42c59a9416235ff02d5f",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_04a87cd31f23f1512df470ea_0",
+      "kind": "p",
+      "source": "In a __TRILIUM_PH_0__Resizable__TRILIUM_PH_1__ box, the image is scaled down to fit the height of the box. In fullscreen, it fits the screen.",
+      "sourceHash": "04a87cd31f23f1512df470ea7b34acc49c019c9de04d7d9055fd741ab10bfcb4",
+      "context": "Include Note > Included images",
+      "contextHash": "56855eee9864a1bdb175d54d9fa8f0e30588e339fa8a42c59a9416235ff02d5f",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_1461d180cec510f711d53ed4_0",
+      "kind": "h2",
+      "source": "Editing an include in place__TRILIUM_PH_0__",
+      "sourceHash": "1461d180cec510f711d53ed46ecedf0d1c301069365082ea17e4c38624e85721",
+      "context": "Include Note > Editing an include in place",
+      "contextHash": "b0cb7b9e27b31b2e3c4161bc1115bc712cd6609d3317ada66b3f10fb5ba8fdb4",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_e5a798ef0a622eda597b73a8_0",
+      "kind": "p",
+      "source": "An included text note, an included code note and an embedded code file such as a __TRILIUM_PH_0__, __TRILIUM_PH_1__ or __TRILIUM_PH_2__ attachment can be edited without leaving the note that includes them. Until then, a code note or file is shown read-only in the code editor, where its code can be selected and copied, and its blocks folded and unfolded with the arrows in its gutter. Included Markdown can be edited too, see __TRILIUM_PH_3__Included Markdown__TRILIUM_PH_4__ below.",
+      "sourceHash": "e5a798ef0a622eda597b73a800bbe8d4a8292f46657f77a81dcf2e1f519505c8",
+      "context": "Include Note > Editing an include in place",
+      "contextHash": "b0cb7b9e27b31b2e3c4161bc1115bc712cd6609d3317ada66b3f10fb5ba8fdb4",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_e5067a3043087b5aea17a8bc_0",
+      "kind": "li",
+      "source": "To edit, select the include and turn on the __TRILIUM_PH_0__ __TRILIUM_PH_1__Editable__TRILIUM_PH_2__ button at the start of its toolbar, or turn on __TRILIUM_PH_3__Editable__TRILIUM_PH_4__ in its __TRILIUM_PH_5__ __TRILIUM_PH_6__More actions__TRILIUM_PH_7__ menu. Turn __TRILIUM_PH_8__Editable__TRILIUM_PH_9__ off to stop editing.",
+      "sourceHash": "e5067a3043087b5aea17a8bca8cf786e9843d9704e444216eb337bbba50c5157",
+      "context": "Include Note > Editing an include in place",
+      "contextHash": "b0cb7b9e27b31b2e3c4161bc1115bc712cd6609d3317ada66b3f10fb5ba8fdb4",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_ccb55f273889b327f3c9c28c_0",
+      "kind": "li",
+      "source": "While __TRILIUM_PH_0__Editable__TRILIUM_PH_1__ is on, the arrow keys move the caret into the include and back out, as through the rest of the text. Entering from above or from the left puts the caret at the start of the include, and entering from below or from the right puts it at the end. A collapsed __TRILIUM_PH_2__Expandable__TRILIUM_PH_3__ include is skipped.",
+      "sourceHash": "ccb55f273889b327f3c9c28ce04ab6de37f719a8193bd00ddb9e120c1f1b472d",
+      "context": "Include Note > Editing an include in place",
+      "contextHash": "b0cb7b9e27b31b2e3c4161bc1115bc712cd6609d3317ada66b3f10fb5ba8fdb4",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_eda57ed19ad20a9d51d2268f_0",
+      "kind": "li",
+      "source": "While an included text note has the focus, the formatting toolbar applies to it. The notes it includes in turn stay read-only.",
+      "sourceHash": "eda57ed19ad20a9d51d2268f6bebe45ffd470be95a199a657277069e13ff36ac",
+      "context": "Include Note > Editing an include in place",
+      "contextHash": "b0cb7b9e27b31b2e3c4161bc1115bc712cd6609d3317ada66b3f10fb5ba8fdb4",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_e8a72223e73a3259b4710393_0",
+      "kind": "li",
+      "source": "Code is edited in the same code editor as a __TRILIUM_PH_0__Code__TRILIUM_PH_1__ note, with its theme, indentation and line wrapping settings.",
+      "sourceHash": "e8a72223e73a3259b47103934e34e1780f1b99a44d9cca05974e61c68d430565",
+      "context": "Include Note > Editing an include in place",
+      "contextHash": "b0cb7b9e27b31b2e3c4161bc1115bc712cd6609d3317ada66b3f10fb5ba8fdb4",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_8092ea90fb914456da65614d_0",
+      "kind": "li",
+      "source": "Typing __TRILIUM_PH_0__ in the code lists the __TRILIUM_PH_1__Code Snippets__TRILIUM_PH_2__ of its language, as in a code note.",
+      "sourceHash": "8092ea90fb914456da65614d24ab7bd9bfb074db5318c086ff316dffc55c5211",
+      "context": "Include Note > Editing an include in place",
+      "contextHash": "b0cb7b9e27b31b2e3c4161bc1115bc712cd6609d3317ada66b3f10fb5ba8fdb4",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_1981e95a04e7be43d0fa088d_0",
+      "kind": "li",
+      "source": "The toolbar of an included code note or an embedded code file also has the language and indentation menus of the __TRILIUM_PH_0__Status bar__TRILIUM_PH_1__, between __TRILIUM_PH_2__Editable__TRILIUM_PH_3__ and the __TRILIUM_PH_4__ __TRILIUM_PH_5__Box size__TRILIUM_PH_6__ menu: __TRILIUM_PH_7__Change language mode__TRILIUM_PH_8__, which shows the current language, and __TRILIUM_PH_9__Change tab width__TRILIUM_PH_10__, which shows the current indentation. __TRILIUM_PH_11__Re-indent content to__TRILIUM_PH_12__ converts the indentation of the code itself and saves it to the included note or file, whether __TRILIUM_PH_13__Editable__TRILIUM_PH_14__ is on or off.",
+      "sourceHash": "1981e95a04e7be43d0fa088dc2cad046cf46b45b532cb7741045a6aa206e7538",
+      "context": "Include Note > Editing an include in place",
+      "contextHash": "b0cb7b9e27b31b2e3c4161bc1115bc712cd6609d3317ada66b3f10fb5ba8fdb4",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_f9b9a363cb261d63c75b9643_0",
+      "kind": "li",
+      "source": "For an included note, the menus change the note, as they do in its own tab.",
+      "sourceHash": "f9b9a363cb261d63c75b96436bb73388f94e20907815d5abe25ad38df56d9985",
+      "context": "Include Note > Editing an include in place",
+      "contextHash": "b0cb7b9e27b31b2e3c4161bc1115bc712cd6609d3317ada66b3f10fb5ba8fdb4",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_fcd1fa658777f03f78f9231e_0",
+      "kind": "li",
+      "source": "For an embedded code file, the language and indentation settings change only how this include shows the file, and are saved with the note that includes it. The language replaces the one that the file name gives, and the __TRILIUM_PH_0__Use default__TRILIUM_PH_1__ entries return to the indentation set in __TRILIUM_PH_2__Options__TRILIUM_PH_3__ → __TRILIUM_PH_4__Code Notes__TRILIUM_PH_5__. These settings leave the file itself unchanged, and other includes of it keep their own settings.",
+      "sourceHash": "fcd1fa658777f03f78f9231eb0460245c73d5d2da7be6146e1b6bcfdd1da02b0",
+      "context": "Include Note > Editing an include in place",
+      "contextHash": "b0cb7b9e27b31b2e3c4161bc1115bc712cd6609d3317ada66b3f10fb5ba8fdb4",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_e91edc537015afcb4d1cc4a2_0",
+      "kind": "li",
+      "source": "The __TRILIUM_PH_0__ __TRILIUM_PH_1__More actions__TRILIUM_PH_2__ menu of an included code or Markdown note, an embedded code or Markdown file and a __TRILIUM_PH_3__Mermaid diagram__TRILIUM_PH_4__ has two more submenus after __TRILIUM_PH_5__Editable__TRILIUM_PH_6__, each with __TRILIUM_PH_7__Auto__TRILIUM_PH_8__, __TRILIUM_PH_9__On__TRILIUM_PH_10__ and __TRILIUM_PH_11__Off__TRILIUM_PH_12__. They change how the code editor shows the source.",
+      "sourceHash": "e91edc537015afcb4d1cc4a2a52762a6c3bcb03f515246b2d86de8dc9766318c",
+      "context": "Include Note > Editing an include in place",
+      "contextHash": "b0cb7b9e27b31b2e3c4161bc1115bc712cd6609d3317ada66b3f10fb5ba8fdb4",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_ec02808762c8d80abc1e5b8d_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__Word wrap__TRILIUM_PH_1__ wraps long lines instead of scrolling them. __TRILIUM_PH_2__Auto__TRILIUM_PH_3__ follows the setting in __TRILIUM_PH_4__Options__TRILIUM_PH_5__ → __TRILIUM_PH_6__Code Notes__TRILIUM_PH_7__. For an included note, it sets the __TRILIUM_PH_8__ label of the note, as the __TRILIUM_PH_9__Word wrap__TRILIUM_PH_10__ submenu of its __TRILIUM_PH_11__Note menu__TRILIUM_PH_12__ does for a code note. For an embedded file or a Mermaid diagram, it changes only this include.",
+      "sourceHash": "ec02808762c8d80abc1e5b8d530acda620cd6ddd9c0c4f7808939a7319f4db6e",
+      "context": "Include Note > Editing an include in place",
+      "contextHash": "b0cb7b9e27b31b2e3c4161bc1115bc712cd6609d3317ada66b3f10fb5ba8fdb4",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_3e570a70eb21c492eb1a4c67_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__Line numbers__TRILIUM_PH_1__ shows or hides the numbers at the start of each line. __TRILIUM_PH_2__Auto__TRILIUM_PH_3__ follows the setting in __TRILIUM_PH_4__Options__TRILIUM_PH_5__ → __TRILIUM_PH_6__Code Notes__TRILIUM_PH_7__. It changes only this include, for an included note as well.",
+      "sourceHash": "3e570a70eb21c492eb1a4c67bcfd993ab24272ca240509a6a9d0114be0a7ba59",
+      "context": "Include Note > Editing an include in place",
+      "contextHash": "b0cb7b9e27b31b2e3c4161bc1115bc712cd6609d3317ada66b3f10fb5ba8fdb4",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_335b605226eeb0a91fd07bac_0",
+      "kind": "li",
+      "source": "The changes are saved as you type, to the included note or to the attachment, as they would be in its own tab.",
+      "sourceHash": "335b605226eeb0a91fd07bac685eb1bf3e608efdf8a6fe60dcac31b29e99aa5f",
+      "context": "Include Note > Editing an include in place",
+      "contextHash": "b0cb7b9e27b31b2e3c4161bc1115bc712cd6609d3317ada66b3f10fb5ba8fdb4",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_2012bf76a6539f0e2f6f796e_0",
+      "kind": "li",
+      "source": "The changes made in the code editor of an include are part of the undo history of the note that includes it, together with the changes to its text, in the order they were made. This includes the source of included Markdown and of a __TRILIUM_PH_0__Mermaid diagram__TRILIUM_PH_1__, and the changes to a drawing canvas (see below).",
+      "sourceHash": "2012bf76a6539f0e2f6f796e91036bb96fd4a471579cf528b7e8f05cf9a21f87",
+      "context": "Include Note > Editing an include in place",
+      "contextHash": "b0cb7b9e27b31b2e3c4161bc1115bc712cd6609d3317ada66b3f10fb5ba8fdb4",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_7791c2799966c569bea23708_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__Ctrl__TRILIUM_PH_1__+__TRILIUM_PH_2__Z__TRILIUM_PH_3__ undoes the last change of the note, and __TRILIUM_PH_4__Ctrl__TRILIUM_PH_5__+__TRILIUM_PH_6__Y__TRILIUM_PH_7__ or __TRILIUM_PH_8__Ctrl__TRILIUM_PH_9__+__TRILIUM_PH_10__Shift__TRILIUM_PH_11__+__TRILIUM_PH_12__Z__TRILIUM_PH_13__ redoes it, whether the caret is in the text or in an include, and also while __TRILIUM_PH_14__Editable__TRILIUM_PH_15__ is off. The __TRILIUM_PH_16__ __TRILIUM_PH_17__Undo__TRILIUM_PH_18__ and __TRILIUM_PH_19__ __TRILIUM_PH_20__Redo__TRILIUM_PH_21__ buttons of the formatting toolbar do the same. With the Vim key bindings, __TRILIUM_PH_22__ and __TRILIUM_PH_23__Ctrl__TRILIUM_PH_24__+__TRILIUM_PH_25__R__TRILIUM_PH_26__ in an include do the same too.",
+      "sourceHash": "7791c2799966c569bea23708333e46999643edbca45d1156fa79d07821815887",
+      "context": "Include Note > Editing an include in place",
+      "contextHash": "b0cb7b9e27b31b2e3c4161bc1115bc712cd6609d3317ada66b3f10fb5ba8fdb4",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_e1e1698f4ba09635749a3544_0",
+      "kind": "li",
+      "source": "The focus moves to the change that was undone or redone: into the code editor or the drawing canvas of the include, or back to the text.",
+      "sourceHash": "e1e1698f4ba09635749a3544d9caac82660cb8eb2fad18d67cb88522a7870bdd",
+      "context": "Include Note > Editing an include in place",
+      "contextHash": "b0cb7b9e27b31b2e3c4161bc1115bc712cd6609d3317ada66b3f10fb5ba8fdb4",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_aeb658cdb4a2afd7ce3ab8eb_0",
+      "kind": "li",
+      "source": "Undoing a change of an included note saves the included note again. Once the included note has been changed elsewhere, for example in another tab, its earlier changes can no longer be undone from here, and undo skips them.",
+      "sourceHash": "aeb658cdb4a2afd7ce3ab8ebb77ce8f9b93025206ebf2d1b072a3cfaffb507da",
+      "context": "Include Note > Editing an include in place",
+      "contextHash": "b0cb7b9e27b31b2e3c4161bc1115bc712cd6609d3317ada66b3f10fb5ba8fdb4",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_19f39dfe71b1833729f1848a_0",
+      "kind": "li",
+      "source": "An included text note keeps an undo history of its own.",
+      "sourceHash": "19f39dfe71b1833729f1848ab44221066589f0ea723c97f29977f9ac467af317",
+      "context": "Include Note > Editing an include in place",
+      "contextHash": "b0cb7b9e27b31b2e3c4161bc1115bc712cd6609d3317ada66b3f10fb5ba8fdb4",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_917ce3e2bc91edfb7911119d_0",
+      "kind": "li",
+      "source": "An include of __TRILIUM_PH_0__Block references__TRILIUM_PH_1__ edits only the referenced blocks.",
+      "sourceHash": "917ce3e2bc91edfb7911119d4b3abde6b1048505b15b4b83f074d7988b28a816",
+      "context": "Include Note > Editing an include in place",
+      "contextHash": "b0cb7b9e27b31b2e3c4161bc1115bc712cd6609d3317ada66b3f10fb5ba8fdb4",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_c76a5c3a642e4e7a45abdb9c_0",
+      "kind": "li",
+      "source": "Editing is not available in a __TRILIUM_PH_0__read-only note__TRILIUM_PH_1__, for an included note marked __TRILIUM_PH_2__, or for an attachment of another note.",
+      "sourceHash": "c76a5c3a642e4e7a45abdb9c8bcd976eb89a2a8da890147fd566bc7420eef2e4",
+      "context": "Include Note > Editing an include in place",
+      "contextHash": "b0cb7b9e27b31b2e3c4161bc1115bc712cd6609d3317ada66b3f10fb5ba8fdb4",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_96480af9750a35e8a2d51db0_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__Search in note__TRILIUM_PH_1__ finds the text of included text and code notes among the results of the note around them, and replaces it while __TRILIUM_PH_2__Editable__TRILIUM_PH_3__ is on.",
+      "sourceHash": "96480af9750a35e8a2d51db0549a0032c082186c5d525f6dbc07c1fd124d7d69",
+      "context": "Include Note > Editing an include in place",
+      "contextHash": "b0cb7b9e27b31b2e3c4161bc1115bc712cd6609d3317ada66b3f10fb5ba8fdb4",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_1918ffe25b28318351497de6_0",
+      "kind": "h2",
+      "source": "Included Markdown__TRILIUM_PH_0__",
+      "sourceHash": "1918ffe25b28318351497de6e32746792671734357568153bfc461374c0f2227",
+      "context": "Include Note > Included Markdown",
+      "contextHash": "472d50a7b5a40b6d47606b21a4be0d19a035026135b033f514552d02f64f2157",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_2cab317ac2bcf799193e367a_0",
+      "kind": "p",
+      "source": "An included __TRILIUM_PH_0__Markdown__TRILIUM_PH_1__ note and an embedded Markdown file, such as a __TRILIUM_PH_2__ attachment, are shown with the same three views as a Markdown note in its own tab (see __TRILIUM_PH_3__Note types with split view__TRILIUM_PH_4__): __TRILIUM_PH_5__ __TRILIUM_PH_6__Source view__TRILIUM_PH_7__, __TRILIUM_PH_8__ __TRILIUM_PH_9__Split view__TRILIUM_PH_10__ and __TRILIUM_PH_11__ __TRILIUM_PH_12__Preview__TRILIUM_PH_13__.",
+      "sourceHash": "2cab317ac2bcf799193e367a54d2089c806f0043d98df20e5f54d2be6689e9a5",
+      "context": "Include Note > Included Markdown",
+      "contextHash": "472d50a7b5a40b6d47606b21a4be0d19a035026135b033f514552d02f64f2157",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_3a96bd4c39cfc13761426d9f_0",
+      "kind": "li",
+      "source": "To switch the view, press one of the three buttons in the title row of the include. In a note being edited, the toolbar of the include has the same buttons after __TRILIUM_PH_0__Editable__TRILIUM_PH_1__, and its __TRILIUM_PH_2__ __TRILIUM_PH_3__More actions__TRILIUM_PH_4__ menu has them as __TRILIUM_PH_5__Source view__TRILIUM_PH_6__, __TRILIUM_PH_7__Split view__TRILIUM_PH_8__ and __TRILIUM_PH_9__Preview__TRILIUM_PH_10__.",
+      "sourceHash": "3a96bd4c39cfc13761426d9fe02802b9d78c033e741cec00a169d572cc937b61",
+      "context": "Include Note > Included Markdown",
+      "contextHash": "472d50a7b5a40b6d47606b21a4be0d19a035026135b033f514552d02f64f2157",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_339c5ff850572f4879706129_0",
+      "kind": "li",
+      "source": "Until a view is chosen, the include shows the __TRILIUM_PH_0__Preview__TRILIUM_PH_1__, and the __TRILIUM_PH_2__Split view__TRILIUM_PH_3__ while __TRILIUM_PH_4__Editable__TRILIUM_PH_5__ is on.",
+      "sourceHash": "339c5ff850572f4879706129dc51853ea1e574ded6c9b1a0e3c3fed199b048e7",
+      "context": "Include Note > Included Markdown",
+      "contextHash": "472d50a7b5a40b6d47606b21a4be0d19a035026135b033f514552d02f64f2157",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_8791a750f688c472b857729e_0",
+      "kind": "li",
+      "source": "To edit the Markdown, turn on __TRILIUM_PH_0__Editable__TRILIUM_PH_1__ (see __TRILIUM_PH_2__Editing an include in place__TRILIUM_PH_3__ above). The source is edited in the code editor of a Markdown note, and the preview follows the changes as you type. While __TRILIUM_PH_4__Editable__TRILIUM_PH_5__ is off, the source can be read and copied but not changed.",
+      "sourceHash": "8791a750f688c472b857729e394d0645ff41f2410efc58d9cb09a74ea9ef677a",
+      "context": "Include Note > Included Markdown",
+      "contextHash": "472d50a7b5a40b6d47606b21a4be0d19a035026135b033f514552d02f64f2157",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_8ab7a94973a29ae2df0c56ca_0",
+      "kind": "li",
+      "source": "The source has the slash commands and the __TRILIUM_PH_0__ and __TRILIUM_PH_1__ note links of a __TRILIUM_PH_2__Markdown__TRILIUM_PH_3__ note. A note created from the __TRILIUM_PH_4__ or __TRILIUM_PH_5__ list goes under the included note, or for an embedded file under the note that includes it, and __TRILIUM_PH_6__ uploads the image to that same note.",
+      "sourceHash": "8ab7a94973a29ae2df0c56ca322a09e079047e358e5504d28b208b00399b0767",
+      "context": "Include Note > Included Markdown",
+      "contextHash": "472d50a7b5a40b6d47606b21a4be0d19a035026135b033f514552d02f64f2157",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_66da02eeda37f4766377c23b_0",
+      "kind": "li",
+      "source": "The __TRILIUM_PH_0__Word wrap__TRILIUM_PH_1__ and __TRILIUM_PH_2__Line numbers__TRILIUM_PH_3__ submenus of the __TRILIUM_PH_4__More actions__TRILIUM_PH_5__ menu change how the source shows, as for code (see __TRILIUM_PH_6__Editing an include in place__TRILIUM_PH_7__ above).",
+      "sourceHash": "66da02eeda37f4766377c23b3b3a54416b26a5223738767143f02618e3e4bdfb",
+      "context": "Include Note > Included Markdown",
+      "contextHash": "472d50a7b5a40b6d47606b21a4be0d19a035026135b033f514552d02f64f2157",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_88ff032af0064fa53765c9cb_0",
+      "kind": "li",
+      "source": "As in a Markdown note, the preview scrolls along with the source and highlights the block where the cursor is, and __TRILIUM_PH_0__Ctrl__TRILIUM_PH_1__+__TRILIUM_PH_2__B__TRILIUM_PH_3__, __TRILIUM_PH_4__Ctrl__TRILIUM_PH_5__+__TRILIUM_PH_6__I__TRILIUM_PH_7__, __TRILIUM_PH_8__Ctrl__TRILIUM_PH_9__+__TRILIUM_PH_10__M__TRILIUM_PH_11__ and __TRILIUM_PH_12__Ctrl__TRILIUM_PH_13__+__TRILIUM_PH_14__Shift__TRILIUM_PH_15__+__TRILIUM_PH_16__X__TRILIUM_PH_17__ format the selection.",
+      "sourceHash": "88ff032af0064fa53765c9cb5edfae8de35e0c955a3178faae0bd25e0049e99b",
+      "context": "Include Note > Included Markdown",
+      "contextHash": "472d50a7b5a40b6d47606b21a4be0d19a035026135b033f514552d02f64f2157",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_c93b4ca53883c0096decc8d6_0",
+      "kind": "li",
+      "source": "In a note being edited, the view is saved with the include, so two includes of the same note can show different views. In a __TRILIUM_PH_0__read-only note__TRILIUM_PH_1__, the view can be changed too, until the note is opened again.",
+      "sourceHash": "c93b4ca53883c0096decc8d69cb29815efe2d5b949d187f420b86bc26225f1f6",
+      "context": "Include Note > Included Markdown",
+      "contextHash": "472d50a7b5a40b6d47606b21a4be0d19a035026135b033f514552d02f64f2157",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_836000b3cc5e8425d7c6c472_0",
+      "kind": "li",
+      "source": "While the source shows, and wherever the Markdown can be edited, the include has the height of its box size, or the height it was resized to, so turning __TRILIUM_PH_0__Editable__TRILIUM_PH_1__ on or off keeps its size. Otherwise, as in a read-only note, the preview fits its text up to that height. A __TRILIUM_PH_2__Full__TRILIUM_PH_3__ include fits its content instead.",
+      "sourceHash": "836000b3cc5e8425d7c6c4724e8c1879fa214bcc63f239e2927c43bd2d79fd9c",
+      "context": "Include Note > Included Markdown",
+      "contextHash": "472d50a7b5a40b6d47606b21a4be0d19a035026135b033f514552d02f64f2157",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_79e8ab4ae267f357bd51c1ee_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__Search in note__TRILIUM_PH_1__ searches the source while it shows, and the preview otherwise.",
+      "sourceHash": "79e8ab4ae267f357bd51c1ee539b686fdbfcc7ee3b5f7829c78ec9f87cafb02a",
+      "context": "Include Note > Included Markdown",
+      "contextHash": "472d50a7b5a40b6d47606b21a4be0d19a035026135b033f514552d02f64f2157",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_9b42df7ceda44b529179c83a_0",
+      "kind": "h2",
+      "source": "Drawing canvases__TRILIUM_PH_0__",
+      "sourceHash": "9b42df7ceda44b529179c83ae43d28a912eef89fa99b7978a67f54c05d3138ef",
+      "context": "Include Note > Drawing canvases",
+      "contextHash": "a2cd96259cee6528f22a378ae1235364e1c8c610c347d80d6d221ae70b4dd098",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_9505ec18719584bd7e6f1168_0",
+      "kind": "p",
+      "source": "A drawing canvas is an Excalidraw canvas, like the one of a __TRILIUM_PH_0__Canvas__TRILIUM_PH_1__ note, drawn directly in the text note. It is not a note of its own: the drawing is kept in a __TRILIUM_PH_2__ __TRILIUM_PH_3__attachment__TRILIUM_PH_4__ of the text note and is saved together with the text.",
+      "sourceHash": "9505ec18719584bd7e6f1168a6a994ee14f8b5c8b75f93174829ec8a46dda73b",
+      "context": "Include Note > Drawing canvases",
+      "contextHash": "a2cd96259cee6528f22a378ae1235364e1c8c610c347d80d6d221ae70b4dd098",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_76bcc6a04817f60e7dbe4956_0",
+      "kind": "li",
+      "source": "To insert a drawing canvas, open the __TRILIUM_PH_0__ __TRILIUM_PH_1__Insert__TRILIUM_PH_2__ menu of the __TRILIUM_PH_3__Formatting toolbar__TRILIUM_PH_4__ and choose __TRILIUM_PH_5__ __TRILIUM_PH_6__Drawing canvas__TRILIUM_PH_7__, above __TRILIUM_PH_8__Mermaid diagram__TRILIUM_PH_9__. It is also available as __TRILIUM_PH_10__Drawing canvas__TRILIUM_PH_11__ in the __TRILIUM_PH_12__Slash Commands__TRILIUM_PH_13__. The canvas is added empty and editable, in a __TRILIUM_PH_14__Resizable__TRILIUM_PH_15__ box with its title hidden, and takes the focus, ready for drawing.",
+      "sourceHash": "76bcc6a04817f60e7dbe4956b88b5c8600d6b51f9093917628f3d7d076e404a1",
+      "context": "Include Note > Drawing canvases",
+      "contextHash": "a2cd96259cee6528f22a378ae1235364e1c8c610c347d80d6d221ae70b4dd098",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_06fa0feb1dcddb33bc34d07b_0",
+      "kind": "li",
+      "source": "To draw or write over an image, select the image and press the __TRILIUM_PH_0__ __TRILIUM_PH_1__Convert image to a drawing canvas__TRILIUM_PH_2__ button of its toolbar. The image is replaced by an editable drawing canvas in a __TRILIUM_PH_3__Resizable__TRILIUM_PH_4__ box, with its title hidden and the focus in it. The image sits at its original size in the middle of the canvas, zoomed so that all of it shows, and is locked so that it cannot be selected or moved by accident. While it is locked, the canvas can be zoomed in on the image but not zoomed out past it or scrolled beyond its edges. To move or resize the image anyway, right-click it and choose __TRILIUM_PH_5__Unlock__TRILIUM_PH_6__. The caption of the image is kept, but not its alignment or link. Only an image on its own line can be converted, not one inside a paragraph. Undo brings the image back.",
+      "sourceHash": "06fa0feb1dcddb33bc34d07b048a161761793c9c5b1a1e356df637c2dff0b973",
+      "context": "Include Note > Drawing canvases",
+      "contextHash": "a2cd96259cee6528f22a378ae1235364e1c8c610c347d80d6d221ae70b4dd098",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_a43b3b894a9b0b98b34f30e3_0",
+      "kind": "li",
+      "source": "An Excalidraw file (__TRILIUM_PH_0__) attached with __TRILIUM_PH_1__Attach and embed file__TRILIUM_PH_2__, under the __TRILIUM_PH_3____TRILIUM_PH_4__Attach file__TRILIUM_PH_5__ button, becomes a drawing canvas too, in a __TRILIUM_PH_6__Resizable__TRILIUM_PH_7__ box titled with the file name. It starts with __TRILIUM_PH_8__Editable__TRILIUM_PH_9__ off, so the drawing shows but cannot be changed until __TRILIUM_PH_10__Editable__TRILIUM_PH_11__ is turned on (see below).",
+      "sourceHash": "a43b3b894a9b0b98b34f30e3ad43ae9144e526181d8e6fa820ea47a1700de148",
+      "context": "Include Note > Drawing canvases",
+      "contextHash": "a2cd96259cee6528f22a378ae1235364e1c8c610c347d80d6d221ae70b4dd098",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_fd57da26444ee74109a3aff5_0",
+      "kind": "li",
+      "source": "To draw on a canvas that does not have the focus, click it first. The canvas then has the tools, menus and keyboard shortcuts of a Canvas note. The toolbars, the menus and the properties of the selected shapes show only while the canvas has the focus, so elsewhere the drawing reads like a picture in the text.",
+      "sourceHash": "fd57da26444ee74109a3aff51db9063566e9bf99275a96e9d0200cdb10301348",
+      "context": "Include Note > Drawing canvases",
+      "contextHash": "a2cd96259cee6528f22a378ae1235364e1c8c610c347d80d6d221ae70b4dd098",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_9088c0ca6c1358ae1a008d77_0",
+      "kind": "li",
+      "source": "The mouse wheel and the touchpad scroll the note over a canvas too, as over the text. To zoom, use the zoom buttons of the canvas toolbar. The percentage between them opens a menu with __TRILIUM_PH_0__Zoom to fit__TRILIUM_PH_1__, which shows the whole drawing, and __TRILIUM_PH_2__Reset zoom__TRILIUM_PH_3__. To move around the drawing, use the __TRILIUM_PH_4__ __TRILIUM_PH_5__Hand__TRILIUM_PH_6__ tool. The zoom and position are saved with the drawing, so the canvas opens again where it was left, wherever the note is shown. In fullscreen, the mouse wheel moves and zooms the drawing instead.",
+      "sourceHash": "9088c0ca6c1358ae1a008d778f02df4ed7842824044711361c7aed5b1ef0a765",
+      "context": "Include Note > Drawing canvases",
+      "contextHash": "a2cd96259cee6528f22a378ae1235364e1c8c610c347d80d6d221ae70b4dd098",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_52eb6e6ab17492e998225ff3_0",
+      "kind": "li",
+      "source": "The canvas keeps the size it was drawn at. In a narrower note, for example on a phone, it shrinks down to three quarters of that size, then scrolls sideways instead. The resize handle shows more or less of the drawing at the same zoom, and __TRILIUM_PH_0__Full__TRILIUM_PH_1__ widens it across the note. Fullscreen has a zoom and position of its own and leaves those of the canvas as they were.",
+      "sourceHash": "52eb6e6ab17492e998225ff32dba677facef91f28d5ccc36c0165f43e95685a5",
+      "context": "Include Note > Drawing canvases",
+      "contextHash": "a2cd96259cee6528f22a378ae1235364e1c8c610c347d80d6d221ae70b4dd098",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_3072637d97d01c74bb0d4562_0",
+      "kind": "li",
+      "source": "The __TRILIUM_PH_0__ __TRILIUM_PH_1__No tool__TRILIUM_PH_2__ button, first among the tools of the canvas toolbar, leaves the drawing alone: the mouse does nothing on it, and a touch gesture over it scrolls the note instead of drawing on, selecting or moving the drawing. In the mobile layout, a canvas starts with no tool and returns to it whenever it loses the focus, so that the note scrolls over its drawings until a tool is picked. Fullscreen has no use for it: a canvas with no tool switches to the __TRILIUM_PH_3__Selection__TRILIUM_PH_4__ tool as it goes fullscreen.",
+      "sourceHash": "3072637d97d01c74bb0d4562ed43089feb7ae3a468bd1aabf5e03958b16ab22c",
+      "context": "Include Note > Drawing canvases",
+      "contextHash": "a2cd96259cee6528f22a378ae1235364e1c8c610c347d80d6d221ae70b4dd098",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_4f9cb1c9dcb66d76af0bdbdd_0",
+      "kind": "li",
+      "source": "The canvas toolbar replaces the Excalidraw menu: __TRILIUM_PH_0__Export image__TRILIUM_PH_1__, __TRILIUM_PH_2__Find on canvas__TRILIUM_PH_3__, __TRILIUM_PH_4__Library__TRILIUM_PH_5__ and __TRILIUM_PH_6__Help__TRILIUM_PH_7__ are at the end of its __TRILIUM_PH_8__ __TRILIUM_PH_9__More tools__TRILIUM_PH_10__ menu. In fullscreen, the Excalidraw menu shows again. In the mobile layout, the canvas toolbar is in the formatting toolbar at the bottom of the screen, behind the __TRILIUM_PH_11__Canvas ›__TRILIUM_PH_12__ button.",
+      "sourceHash": "4f9cb1c9dcb66d76af0bdbdd7f5f8f0e5a4a8f3490ff2763fd61a5347adb1ca7",
+      "context": "Include Note > Drawing canvases",
+      "contextHash": "a2cd96259cee6528f22a378ae1235364e1c8c610c347d80d6d221ae70b4dd098",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_32f742e3b79a41707e1ed36b_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__Search in note__TRILIUM_PH_1__ finds the text of the drawing among the results of the note and highlights each result on the canvas, which moves only to show a result outside its view. Inside a canvas, the shortcut of the search, __TRILIUM_PH_2__Ctrl__TRILIUM_PH_3__+__TRILIUM_PH_4__F__TRILIUM_PH_5__ on desktop, opens it instead of the Excalidraw search, which stays available as __TRILIUM_PH_6__Find on canvas__TRILIUM_PH_7__.",
+      "sourceHash": "32f742e3b79a41707e1ed36b89e79b36d5f6c04c96f22b47289a77a173eb838e",
+      "context": "Include Note > Drawing canvases",
+      "contextHash": "a2cd96259cee6528f22a378ae1235364e1c8c610c347d80d6d221ae70b4dd098",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_a4922e1f4b15657f003ad970_0",
+      "kind": "li",
+      "source": "The changes to the drawing are part of the undo history of the text note (see __TRILIUM_PH_0__Editing an include in place__TRILIUM_PH_1__ above). __TRILIUM_PH_2__Ctrl__TRILIUM_PH_3__+__TRILIUM_PH_4__Z__TRILIUM_PH_5__, __TRILIUM_PH_6__Ctrl__TRILIUM_PH_7__+__TRILIUM_PH_8__Y__TRILIUM_PH_9__ and the __TRILIUM_PH_10__ __TRILIUM_PH_11__Undo__TRILIUM_PH_12__ and __TRILIUM_PH_13__ __TRILIUM_PH_14__Redo__TRILIUM_PH_15__ buttons of the canvas toolbar undo and redo the last change of the note, in the drawing or in the text.",
+      "sourceHash": "a4922e1f4b15657f003ad970f444a200dca5f577983ebf4964e90ef3cb79ce28",
+      "context": "Include Note > Drawing canvases",
+      "contextHash": "a2cd96259cee6528f22a378ae1235364e1c8c610c347d80d6d221ae70b4dd098",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_4021a51aa66604eed18175ac_0",
+      "kind": "li",
+      "source": "A new drawing has the background color of the note. A background chosen from the Excalidraw menu replaces it.",
+      "sourceHash": "4021a51aa66604eed18175ac034ac93014330e03382e2a1e3fb60b68341ba410",
+      "context": "Include Note > Drawing canvases",
+      "contextHash": "a2cd96259cee6528f22a378ae1235364e1c8c610c347d80d6d221ae70b4dd098",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_76e4facb4c91884be2e57f98_0",
+      "kind": "li",
+      "source": "To protect a finished drawing from accidental changes, select it and turn off __TRILIUM_PH_0__Editable__TRILIUM_PH_1__ in its __TRILIUM_PH_2__ __TRILIUM_PH_3__More actions__TRILIUM_PH_4__ menu. The drawing then shows as a still picture, at the zoom and position it had, and can no longer be changed, zoomed or moved. To draw again, turn on the __TRILIUM_PH_5__ __TRILIUM_PH_6__Editable__TRILIUM_PH_7__ button at the start of its toolbar, which shows only while __TRILIUM_PH_8__Editable__TRILIUM_PH_9__ is off, or turn __TRILIUM_PH_10__Editable__TRILIUM_PH_11__ back on in the menu.",
+      "sourceHash": "76e4facb4c91884be2e57f980cc8ff3ea7b7cd52df34b216a188bab51a5cb13d",
+      "context": "Include Note > Drawing canvases",
+      "contextHash": "a2cd96259cee6528f22a378ae1235364e1c8c610c347d80d6d221ae70b4dd098",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_c8717bce80fff453c450c651_0",
+      "kind": "li",
+      "source": "The box sizes, resizing, the caption and the title work as for an included note, but the toolbar of a drawing leaves the box size and the position to its __TRILIUM_PH_0__More actions__TRILIUM_PH_1__ menu (see __TRILIUM_PH_2__Positioning__TRILIUM_PH_3__ above). A __TRILIUM_PH_4__Compact__TRILIUM_PH_5__ drawing canvas shows its title row alone, without the drawing.",
+      "sourceHash": "c8717bce80fff453c450c6518155dc262987cd5c53e1534cc37b8ac40c2b83f6",
+      "context": "Include Note > Drawing canvases",
+      "contextHash": "a2cd96259cee6528f22a378ae1235364e1c8c610c347d80d6d221ae70b4dd098",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_7f92d10aa2c8c3c3dd127d85_0",
+      "kind": "li",
+      "source": "In the desktop layout, Excalidraw keeps its desktop interface however small the box is. In the mobile layout, a narrow or short box switches it to a compact interface. For more room, choose __TRILIUM_PH_0__Full__TRILIUM_PH_1__, or show the title and press __TRILIUM_PH_2__ __TRILIUM_PH_3__Fullscreen__TRILIUM_PH_4__.",
+      "sourceHash": "7f92d10aa2c8c3c3dd127d8516ce7f3775280bdedcc0eaee2413a690fc84f394",
+      "context": "Include Note > Drawing canvases",
+      "contextHash": "a2cd96259cee6528f22a378ae1235364e1c8c610c347d80d6d221ae70b4dd098",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_3c84d3929eb37d0e691d57ab_0",
+      "kind": "li",
+      "source": "In the compact interface, the buttons for the selection are on a rail at the side of the screen while the canvas has the focus, so they stay in reach wherever the canvas is scrolled: __TRILIUM_PH_0__ __TRILIUM_PH_1__Edit__TRILIUM_PH_2__ opens the properties of the selected shapes or of the chosen tool in a panel at the bottom of the screen, above the formatting toolbar, __TRILIUM_PH_3__ __TRILIUM_PH_4__Duplicate__TRILIUM_PH_5__ and __TRILIUM_PH_6__ __TRILIUM_PH_7__Delete__TRILIUM_PH_8__ act on the selected shapes, and __TRILIUM_PH_9__ __TRILIUM_PH_10__Done__TRILIUM_PH_11__ finishes a line or an arrow drawn point by point. The rail shows only the buttons that apply, and leaves when none does. The properties close when the selection is cleared, and open again only with __TRILIUM_PH_12__Edit__TRILIUM_PH_13__. In fullscreen, these buttons are at the bottom of the canvas instead.",
+      "sourceHash": "3c84d3929eb37d0e691d57abcabc77861d0eeb186010c6a3e1301c9fd5b3b53e",
+      "context": "Include Note > Drawing canvases",
+      "contextHash": "a2cd96259cee6528f22a378ae1235364e1c8c610c347d80d6d221ae70b4dd098",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_bd9ed9c6e607e68cf9e945d7_0",
+      "kind": "li",
+      "source": "Pictures added to the drawing are stored in the same attachment. A converted image is kept as an image attachment of the note instead, named with a generated code.",
+      "sourceHash": "bd9ed9c6e607e68cf9e945d7b443b1ef226c1f5c2fa00fc31fb8a6be68044221",
+      "context": "Include Note > Drawing canvases",
+      "contextHash": "a2cd96259cee6528f22a378ae1235364e1c8c610c347d80d6d221ae70b4dd098",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_bd1ed594aff976f7e9441fa9_0",
+      "kind": "li",
+      "source": "In a __TRILIUM_PH_0__read-only note__TRILIUM_PH_1__, the drawing shows as a still picture too, with a gray box in its place until it is drawn.",
+      "sourceHash": "bd1ed594aff976f7e9441fa9499b075d3b4b66572633e0efaa129aa3ce6d6c85",
+      "context": "Include Note > Drawing canvases",
+      "contextHash": "a2cd96259cee6528f22a378ae1235364e1c8c610c347d80d6d221ae70b4dd098",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_c01a9fcbf86e801dcedeebb4_0",
+      "kind": "li",
+      "source": "On a __TRILIUM_PH_0__shared page__TRILIUM_PH_1__, the drawing is shown as the same picture, in light or dark colors to match the page. Each change to the drawing saves this picture as an SVG image attachment of the note, also named with a generated code, which the list of attachments shows under __TRILIUM_PH_2__Generated by Trilium__TRILIUM_PH_3__.",
+      "sourceHash": "c01a9fcbf86e801dcedeebb48ba4ac4143be399cbfec22bd3c8e985097a7b83c",
+      "context": "Include Note > Drawing canvases",
+      "contextHash": "a2cd96259cee6528f22a378ae1235364e1c8c610c347d80d6d221ae70b4dd098",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_571428e18f272ffaf69c2f69_0",
+      "kind": "h3",
+      "source": "Limitations__TRILIUM_PH_0__",
+      "sourceHash": "571428e18f272ffaf69c2f69011aa3bc3fe4014613594b77afe75199deb1c111",
+      "context": "Include Note > Drawing canvases > Limitations",
+      "contextHash": "1276ce7092519d41fac0fe4593ce69a6a31075b3764a2c4d4d227546a02ed704",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_790ee25dd3d3765c1437c129_0",
+      "kind": "li",
+      "source": "The Excalidraw shape library is not saved for a drawing canvas.",
+      "sourceHash": "790ee25dd3d3765c1437c1290e5623d681c654fd58dbc43e1ba81e3f2b9e3864",
+      "context": "Include Note > Drawing canvases > Limitations",
+      "contextHash": "1276ce7092519d41fac0fe4593ce69a6a31075b3764a2c4d4d227546a02ed704",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_83d8b1c88a5dfed87c62e56e_0",
+      "kind": "li",
+      "source": "Outside the editor, for example in a tooltip, when printing or in the list of attachments, the drawing is shown as a picture.",
+      "sourceHash": "83d8b1c88a5dfed87c62e56ea61e6a8c21d35f682740cfe325c070c1fa017cbb",
+      "context": "Include Note > Drawing canvases > Limitations",
+      "contextHash": "1276ce7092519d41fac0fe4593ce69a6a31075b3764a2c4d4d227546a02ed704",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_c2ade65616781fb02ce852a6_0",
+      "kind": "li",
+      "source": "A drawing has no picture for shared pages until its first change, except one converted from an image. Until then, for example for an attached __TRILIUM_PH_0__ file, a shared page shows a link to download the drawing instead.",
+      "sourceHash": "c2ade65616781fb02ce852a64280b2827b1e6d9d93e7987cd9d8a3172f141ef4",
+      "context": "Include Note > Drawing canvases > Limitations",
+      "contextHash": "1276ce7092519d41fac0fe4593ce69a6a31075b3764a2c4d4d227546a02ed704",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_340d1261d8e197e67e1420f7_0",
+      "kind": "li",
+      "source": "In Safari, the picture of a drawing on a shared page follows the light or dark appearance of the system rather than the theme chosen on the page.",
+      "sourceHash": "340d1261d8e197e67e1420f73e3dbc82a35073767f41f0f97bea95b4a11e6106",
+      "context": "Include Note > Drawing canvases > Limitations",
+      "contextHash": "1276ce7092519d41fac0fe4593ce69a6a31075b3764a2c4d4d227546a02ed704",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_50ae42d4edb8514b425ab61f_0",
+      "kind": "li",
+      "source": "A copy of a drawing canvas pasted in the same note shares the drawing with the original, zoom and position included. A copy pasted in another note gets a drawing of its own.",
+      "sourceHash": "50ae42d4edb8514b425ab61f9160b64e064563d10d144e7f93961a728f784998",
+      "context": "Include Note > Drawing canvases > Limitations",
+      "contextHash": "1276ce7092519d41fac0fe4593ce69a6a31075b3764a2c4d4d227546a02ed704",
+      "status": "pending",
+      "active": true
+    }
+  ],
+  "requests": []
+}

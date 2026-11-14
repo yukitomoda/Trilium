@@ -1,0 +1,609 @@
+{
+  "schemaVersion": 1,
+  "pageId": "WN5z4M8ASACJ",
+  "sourceFile": "docs/User Guide/User Guide/Theme development/Reference.md",
+  "sourceRevision": "03d17b60f59b5efc29b880b11481471d0fe0ff57",
+  "units": [
+    {
+      "id": "u_724e4c7e1c49891fc3219014_0",
+      "kind": "title",
+      "source": "Reference",
+      "sourceHash": "724e4c7e1c49891fc32190147d2c3e94227029973a4335947b75fcfab2c189c6",
+      "context": "Reference",
+      "contextHash": "71bf90935fc231d20126e2087eeb583c6aa419fc3dd1b6847bfe376b9200eaa0",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_d5dcfc4f9d813f2c34eceafa_0",
+      "kind": "h2",
+      "source": "Detecting mobile vs. desktop__TRILIUM_PH_0__",
+      "sourceHash": "d5dcfc4f9d813f2c34eceafa154ed0055084be5015d758b5db891feab5b468c8",
+      "context": "Reference > Detecting mobile vs. desktop",
+      "contextHash": "7cba021da61f756e7f873f53487337177f98eec1acda287da34ff95183d94fa3",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_a610566024a01c7efb886631_0",
+      "kind": "p",
+      "source": "The mobile layout is different than the one on the desktop. Use __TRILIUM_PH_0__ and __TRILIUM_PH_1__ to differentiate between them.",
+      "sourceHash": "a610566024a01c7efb8866313e9cc7c91cac5598c9ccd67d70e5f623d0d5c3ab",
+      "context": "Reference > Detecting mobile vs. desktop",
+      "contextHash": "7cba021da61f756e7f873f53487337177f98eec1acda287da34ff95183d94fa3",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_aa56e390fea2cda0e083f929_0",
+      "kind": "p",
+      "source": "Do note that there is also a “tablet mode” in the mobile layout. For that particular case media queries are required:",
+      "sourceHash": "aa56e390fea2cda0e083f929f820931d8f6810ca1f88609714cae5d1f7b4e4d8",
+      "context": "Reference > Detecting mobile vs. desktop",
+      "contextHash": "7cba021da61f756e7f873f53487337177f98eec1acda287da34ff95183d94fa3",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_d48ff34aa811fd119f7657af_0",
+      "kind": "h2",
+      "source": "Detecting horizontal vs. vertical layout__TRILIUM_PH_0__",
+      "sourceHash": "d48ff34aa811fd119f7657af420bd964ab049d0aa3816d35365a109a481ffb09",
+      "context": "Reference > Detecting horizontal vs. vertical layout",
+      "contextHash": "b3230bd55dfa14285116651e51fd76176ba9dd788d4d33cf191764975b4e3b50",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_a5150477b315842ad56ef5ac_0",
+      "kind": "p",
+      "source": "The user can select between vertical layout (the classical one, where the launcher bar is on the left) and a horizontal layout (where the launcher bar is on the top and tabs are full-width).",
+      "sourceHash": "a5150477b315842ad56ef5accc7fac5f24993e14176a9aa4b894bc9324aed1a8",
+      "context": "Reference > Detecting horizontal vs. vertical layout",
+      "contextHash": "b3230bd55dfa14285116651e51fd76176ba9dd788d4d33cf191764975b4e3b50",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_2283cac52c141519f4528b7e_0",
+      "kind": "p",
+      "source": "Different styles can be applied by using classes at __TRILIUM_PH_0__ level:",
+      "sourceHash": "2283cac52c141519f4528b7e740713f1a5f1cd620a2e79a0a157ab0279b72048",
+      "context": "Reference > Detecting horizontal vs. vertical layout",
+      "contextHash": "b3230bd55dfa14285116651e51fd76176ba9dd788d4d33cf191764975b4e3b50",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_73b5107d3a4a3c120d6a1dae_0",
+      "kind": "p",
+      "source": "The two different layouts use different containers (but they are present in the DOM regardless of the user's choice), for example __TRILIUM_PH_0__ and __TRILIUM_PH_1__ can be used to customize the background of the content section.",
+      "sourceHash": "73b5107d3a4a3c120d6a1daef63e158f6daf288a1bfa0ab0a066fabdbe4b375d",
+      "context": "Reference > Detecting horizontal vs. vertical layout",
+      "contextHash": "b3230bd55dfa14285116651e51fd76176ba9dd788d4d33cf191764975b4e3b50",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_174bff3ed709b6fb1e65d310_0",
+      "kind": "h2",
+      "source": "Detecting platform (Windows, macOS) or Electron__TRILIUM_PH_0__",
+      "sourceHash": "174bff3ed709b6fb1e65d31053269c2227cb9350b26f7e53551f700173be9d3d",
+      "context": "Reference > Detecting platform (Windows, macOS) or Electron",
+      "contextHash": "7d253f8ade08881ca40ce49a0c03ded4393320061ace0936edbdaab4a0bd5ddf",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_9028b08cda609567d8bfeb5c_0",
+      "kind": "p",
+      "source": "__TRILIUM_PH_0__ Windows",
+      "sourceHash": "9028b08cda609567d8bfeb5c077ea2ce86b96d0d80f556472f1aadf6e943cda7",
+      "context": "Reference > Detecting platform (Windows, macOS) or Electron",
+      "contextHash": "7d253f8ade08881ca40ce49a0c03ded4393320061ace0936edbdaab4a0bd5ddf",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_ecfd539e69da61eb4c5900e6_0",
+      "kind": "p",
+      "source": "__TRILIUM_PH_0__ macOS",
+      "sourceHash": "ecfd539e69da61eb4c5900e685366b62d8431052e266b191b3636982574c6da0",
+      "context": "Reference > Detecting platform (Windows, macOS) or Electron",
+      "contextHash": "7d253f8ade08881ca40ce49a0c03ded4393320061ace0936edbdaab4a0bd5ddf",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_7efaadd9bda4621e7000702b_0",
+      "kind": "p",
+      "source": "__TRILIUM_PH_0__ Electron (desktop app)",
+      "sourceHash": "7efaadd9bda4621e7000702b96b105b39869e6d543c33c5710a266382e96a01a",
+      "context": "Reference > Detecting platform (Windows, macOS) or Electron",
+      "contextHash": "7d253f8ade08881ca40ce49a0c03ded4393320061ace0936edbdaab4a0bd5ddf",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_464af889f978e0a993700a91_0",
+      "kind": "p",
+      "source": "To distinguish between a __TRILIUM_PH_0__Desktop Installation__TRILIUM_PH_1__ and a __TRILIUM_PH_2__Server Installation__TRILIUM_PH_3__:",
+      "sourceHash": "464af889f978e0a993700a91fabd2334c10d75d805201a315ec650ad608b7a01",
+      "context": "Reference > Detecting platform (Windows, macOS) or Electron",
+      "contextHash": "7d253f8ade08881ca40ce49a0c03ded4393320061ace0936edbdaab4a0bd5ddf",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_aa61634476cfe7567a660d4f_0",
+      "kind": "p",
+      "source": "Can be chained with Windows/macOS detections (e.g. __TRILIUM_PH_0__).",
+      "sourceHash": "aa61634476cfe7567a660d4f3eddd1a22bda9a24da5e2f743179457c114a458b",
+      "context": "Reference > Detecting platform (Windows, macOS) or Electron",
+      "contextHash": "7d253f8ade08881ca40ce49a0c03ded4393320061ace0936edbdaab4a0bd5ddf",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_693b644549c7a65f361bda95_0",
+      "kind": "h3",
+      "source": "Native title bar__TRILIUM_PH_0__",
+      "sourceHash": "693b644549c7a65f361bda957e36283625cf5970f4d0bd34017f0450e330841f",
+      "context": "Reference > Detecting platform (Windows, macOS) or Electron > Native title bar",
+      "contextHash": "319cf5b059d44218ed2b89305d2950eee982363d0b391736a6411148592bf114",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_73a855ef50073f092d698eb0_0",
+      "kind": "p",
+      "source": "It's possible to detect if the user has selected the native title bar or the custom title bar by querying against __TRILIUM_PH_0__:",
+      "sourceHash": "73a855ef50073f092d698eb05efaab587224fa701701ac51f944056b3982f0e7",
+      "context": "Reference > Detecting platform (Windows, macOS) or Electron > Native title bar",
+      "contextHash": "319cf5b059d44218ed2b89305d2950eee982363d0b391736a6411148592bf114",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_6f4d7975efaa90ef66c88e13_0",
+      "kind": "h3",
+      "source": "Native window buttons__TRILIUM_PH_0__",
+      "sourceHash": "6f4d7975efaa90ef66c88e13be5abf0f775164195f9e29b2f8a430702b82b2ad",
+      "context": "Reference > Detecting platform (Windows, macOS) or Electron > Native window buttons",
+      "contextHash": "5f945ba7e49786b816f8debbffdfe9579a6908822e21800bbaa91b0e95cc993e",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_43b96f0f3075916e6cc80720_0",
+      "kind": "p",
+      "source": "When running under Electron with native title bar off, a feature was introduced to use the platform-specific window buttons such as the semaphore on macOS.",
+      "sourceHash": "43b96f0f3075916e6cc80720e9662aac69619da0e86a8bea71b5689f79adb6a2",
+      "context": "Reference > Detecting platform (Windows, macOS) or Electron > Native window buttons",
+      "contextHash": "5f945ba7e49786b816f8debbffdfe9579a6908822e21800bbaa91b0e95cc993e",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_a841cea683ad95583a488a07_0",
+      "kind": "p",
+      "source": "See __TRILIUM_PH_0__Native title bar buttons by eliandoran · Pull Request #702 · TriliumNext/Notes__TRILIUM_PH_1__ for the original implementation of this feature, including screenshots.",
+      "sourceHash": "a841cea683ad95583a488a07ff319ee15abb80be8cd8d025735be0e8dbfbfe62",
+      "context": "Reference > Detecting platform (Windows, macOS) or Electron > Native window buttons",
+      "contextHash": "5f945ba7e49786b816f8debbffdfe9579a6908822e21800bbaa91b0e95cc993e",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_9028b08cda609567d8bfeb5c_1",
+      "kind": "p",
+      "source": "__TRILIUM_PH_0__ Windows",
+      "sourceHash": "9028b08cda609567d8bfeb5c077ea2ce86b96d0d80f556472f1aadf6e943cda7",
+      "context": "Reference > Detecting platform (Windows, macOS) or Electron > Native window buttons",
+      "contextHash": "5f945ba7e49786b816f8debbffdfe9579a6908822e21800bbaa91b0e95cc993e",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_65bfbe1a266e3fcb42213a41_0",
+      "kind": "p",
+      "source": "The colors of the native window button area can be adjusted using a RGB hex color:",
+      "sourceHash": "65bfbe1a266e3fcb42213a415561332d778aee241f68b2f0ac473a7cb7b8a4e8",
+      "context": "Reference > Detecting platform (Windows, macOS) or Electron > Native window buttons",
+      "contextHash": "5f945ba7e49786b816f8debbffdfe9579a6908822e21800bbaa91b0e95cc993e",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_fa861884148d083c8ef942a1_0",
+      "kind": "p",
+      "source": "It is also possible to use transparency at the cost of reduced hover colors using a RGBA hex color:",
+      "sourceHash": "fa861884148d083c8ef942a195e6b6eefa53f0372976ea8f042bd7eff91f77f8",
+      "context": "Reference > Detecting platform (Windows, macOS) or Electron > Native window buttons",
+      "contextHash": "5f945ba7e49786b816f8debbffdfe9579a6908822e21800bbaa91b0e95cc993e",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_ac66e6ee082eb43d6a48a8c8_0",
+      "kind": "p",
+      "source": "Note that the value is read when the window is initialized and then it is refreshed only when the user changes their light/dark mode preference.",
+      "sourceHash": "ac66e6ee082eb43d6a48a8c839b5f1bbe80fae7a112e46c392d3cbd566302c7b",
+      "context": "Reference > Detecting platform (Windows, macOS) or Electron > Native window buttons",
+      "contextHash": "5f945ba7e49786b816f8debbffdfe9579a6908822e21800bbaa91b0e95cc993e",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_ecfd539e69da61eb4c5900e6_1",
+      "kind": "p",
+      "source": "__TRILIUM_PH_0__ macOS",
+      "sourceHash": "ecfd539e69da61eb4c5900e685366b62d8431052e266b191b3636982574c6da0",
+      "context": "Reference > Detecting platform (Windows, macOS) or Electron > Native window buttons",
+      "contextHash": "5f945ba7e49786b816f8debbffdfe9579a6908822e21800bbaa91b0e95cc993e",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_8bd00a58aa24f013585ffe0e_0",
+      "kind": "p",
+      "source": "On macOS the semaphore window buttons are enabled by default when the native title bar is disabled. The offset of the buttons can be adjusted using:",
+      "sourceHash": "8bd00a58aa24f013585ffe0ef5b7f538ed57c8bd01b56f46db718c30436ee25a",
+      "context": "Reference > Detecting platform (Windows, macOS) or Electron > Native window buttons",
+      "contextHash": "5f945ba7e49786b816f8debbffdfe9579a6908822e21800bbaa91b0e95cc993e",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_68b6a05c5b837cda18c4edd0_0",
+      "kind": "h3",
+      "source": "Background/transparency effects on Windows (Mica)__TRILIUM_PH_0__",
+      "sourceHash": "68b6a05c5b837cda18c4edd0bae2c9f0d125bdb8b6efd07dd206c8d7d512e2ae",
+      "context": "Reference > Detecting platform (Windows, macOS) or Electron > Background/transparency effects on Windows (Mica)",
+      "contextHash": "69ad3a6529ad4054ad2e007f9bc90d5bda487b465e170aace8ebc9bccdc994ba",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_ffebbee1d7181d0705b7915e_0",
+      "kind": "p",
+      "source": "Windows 11 offers a special background/transparency effect called Mica, which can be enabled by themes by setting the __TRILIUM_PH_0__ variable at __TRILIUM_PH_1__ level:",
+      "sourceHash": "ffebbee1d7181d0705b7915e4d5adf5d0e88c90933fbd108f8bbd4a3a4955003",
+      "context": "Reference > Detecting platform (Windows, macOS) or Electron > Background/transparency effects on Windows (Mica)",
+      "contextHash": "69ad3a6529ad4054ad2e007f9bc90d5bda487b465e170aace8ebc9bccdc994ba",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_5b2764ae104f9e80db297bbc_0",
+      "kind": "p",
+      "source": "The value can be either __TRILIUM_PH_0__ (especially useful for the horizontal layout) or __TRILIUM_PH_1__ (ideal for the vertical layout).",
+      "sourceHash": "5b2764ae104f9e80db297bbcf5ee8b2c1ae12f04eda4b0e13634311e1ebd9cc3",
+      "context": "Reference > Detecting platform (Windows, macOS) or Electron > Background/transparency effects on Windows (Mica)",
+      "contextHash": "69ad3a6529ad4054ad2e007f9bc90d5bda487b465e170aace8ebc9bccdc994ba",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_543805a7e15a0fa339a40619_0",
+      "kind": "p",
+      "source": "Do note that the Mica effect is applied at __TRILIUM_PH_0__ level and the theme needs to make the entire hierarchy (semi-)transparent in order for it to be visible. Use the TrilumNext theme as an inspiration.",
+      "sourceHash": "543805a7e15a0fa339a4061922b73e8a20ed14b7a62d2b27dcfcc9bb083edab2",
+      "context": "Reference > Detecting platform (Windows, macOS) or Electron > Background/transparency effects on Windows (Mica)",
+      "contextHash": "69ad3a6529ad4054ad2e007f9bc90d5bda487b465e170aace8ebc9bccdc994ba",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_b0124828e7ee251f70506f7a_0",
+      "kind": "h2",
+      "source": "Note icons, tab workspace accent color__TRILIUM_PH_0__",
+      "sourceHash": "b0124828e7ee251f70506f7a81a255282c46aebd0d136e722dd40641a04571a0",
+      "context": "Reference > Note icons, tab workspace accent color",
+      "contextHash": "050c0e3e0e0f714d4e80078e17862fea5d3a541543c9b209d346e680f66fbce4",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_ba797e19dbed0b0382922eb2_0",
+      "kind": "p",
+      "source": "Theme capabilities are small adjustments done through CSS variables that can affect the layout or the visual aspect of the application.",
+      "sourceHash": "ba797e19dbed0b0382922eb28ed14c737da197ea15bbaff04309fd8b42c3bc51",
+      "context": "Reference > Note icons, tab workspace accent color",
+      "contextHash": "050c0e3e0e0f714d4e80078e17862fea5d3a541543c9b209d346e680f66fbce4",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_34f5284bff31a03a2c961436_0",
+      "kind": "p",
+      "source": "In the tab bar, to display the icons of notes instead of the icon of the workspace:",
+      "sourceHash": "34f5284bff31a03a2c9614364ae93ad3e2de993c77d77591c8802c6dba32757e",
+      "context": "Reference > Note icons, tab workspace accent color",
+      "contextHash": "050c0e3e0e0f714d4e80078e17862fea5d3a541543c9b209d346e680f66fbce4",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_72b132bdf7c1e30c158469c9_0",
+      "kind": "p",
+      "source": "When a workspace is hoisted for a given tab, it is possible to get the background color of that workspace, for example to apply a small strip on the tab instead of the whole background color:",
+      "sourceHash": "72b132bdf7c1e30c158469c9fef7e90e46f83cf456db7d3b95c471dbd946a1a8",
+      "context": "Reference > Note icons, tab workspace accent color",
+      "contextHash": "050c0e3e0e0f714d4e80078e17862fea5d3a541543c9b209d346e680f66fbce4",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_f6ec579a66fe01d3d829268a_0",
+      "kind": "h2",
+      "source": "Custom fonts__TRILIUM_PH_0__",
+      "sourceHash": "f6ec579a66fe01d3d829268a090883393be89cbe9f56aad9df47831883348513",
+      "context": "Reference > Custom fonts",
+      "contextHash": "c63cd6869c23c53899c6691fe90f78782e4712ae5acbe2497f0aff11cb3d7b8c",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_ca5117e1b80ed335c3ccdbe8_0",
+      "kind": "p",
+      "source": "The recommended way of using customized fonts is to import a font directly in Trilium. See __TRILIUM_PH_0__Personalizing the font__TRILIUM_PH_1__ for information on how to do so.",
+      "sourceHash": "ca5117e1b80ed335c3ccdbe84fe8beb26865b86e11b306da36f8b13d647a4c09",
+      "context": "Reference > Custom fonts",
+      "contextHash": "c63cd6869c23c53899c6691fe90f78782e4712ae5acbe2497f0aff11cb3d7b8c",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_1c025fbcffa5c173853e41d4_0",
+      "kind": "p",
+      "source": "Alternatively, for a theme providing its own font, __TRILIUM_PH_0__Custom resource providers__TRILIUM_PH_1__ can be used: Import a font into Trilium and assign it __TRILIUM_PH_2__ and then import the font in CSS via __TRILIUM_PH_3__. Use __TRILIUM_PH_4__ if you run your Trilium server on a different path than __TRILIUM_PH_5__.",
+      "sourceHash": "1c025fbcffa5c173853e41d4448f46172265d158237556920b9f40133303751d",
+      "context": "Reference > Custom fonts",
+      "contextHash": "c63cd6869c23c53899c6691fe90f78782e4712ae5acbe2497f0aff11cb3d7b8c",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_53772086d446b6daa3dc833a_0",
+      "kind": "h2",
+      "source": "Dark and light themes__TRILIUM_PH_0__",
+      "sourceHash": "53772086d446b6daa3dc833a97a55f84a26afd853a7bf96e84073f78daa97e32",
+      "context": "Reference > Dark and light themes",
+      "contextHash": "bdc1fcd79ba2985ebbafa4eac4cc6957b14a9f298be2efe70260a63a5d55c06c",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_63678f53d1ad3fa50838b544_0",
+      "kind": "p",
+      "source": "A light theme needs to have the following CSS:",
+      "sourceHash": "63678f53d1ad3fa50838b544c41d6fa62c8c5320a49e89bfe476f62287e9f616",
+      "context": "Reference > Dark and light themes",
+      "contextHash": "bdc1fcd79ba2985ebbafa4eac4cc6957b14a9f298be2efe70260a63a5d55c06c",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_cc40b843f946b93bf815830c_0",
+      "kind": "p",
+      "source": "if the theme is dark, then __TRILIUM_PH_0__ needs to be __TRILIUM_PH_1__. A dark __TRILIUM_PH_2__ also tells the Dark Reader browser extension to leave the page alone.",
+      "sourceHash": "cc40b843f946b93bf815830c54a5a2ddef3006afc3db5e48fa8564e0bc2a6fc9",
+      "context": "Reference > Dark and light themes",
+      "contextHash": "bdc1fcd79ba2985ebbafa4eac4cc6957b14a9f298be2efe70260a63a5d55c06c",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_9bf6ccdd90ce2a5f976100f0_0",
+      "kind": "p",
+      "source": "If the theme is auto (e.g. supports both light or dark based on __TRILIUM_PH_0__) it must also declare (in addition to setting __TRILIUM_PH_1__ to either __TRILIUM_PH_2__ or __TRILIUM_PH_3__):",
+      "sourceHash": "9bf6ccdd90ce2a5f976100f0fff859a598d039eba30e9d38381c031b9167538e",
+      "context": "Reference > Dark and light themes",
+      "contextHash": "bdc1fcd79ba2985ebbafa4eac4cc6957b14a9f298be2efe70260a63a5d55c06c",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_fb5e697c302ec42e2a9764c4_0",
+      "kind": "p",
+      "source": "This will affect the behavior of the Electron application by informing the operating system of the color preference (e.g. background effects will appear correct on Windows).",
+      "sourceHash": "fb5e697c302ec42e2a9764c478164cddaaed58c9a497d17f36eb71db89e28f40",
+      "context": "Reference > Dark and light themes",
+      "contextHash": "bdc1fcd79ba2985ebbafa4eac4cc6957b14a9f298be2efe70260a63a5d55c06c",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_95187a3abb3cbbbaba446f18_0",
+      "kind": "h2",
+      "source": "Adaptive text and table colors__TRILIUM_PH_0__",
+      "sourceHash": "95187a3abb3cbbbaba446f183d252cc7231eb0e8515dd070c8e6965ecae8a62a",
+      "context": "Reference > Adaptive text and table colors",
+      "contextHash": "0c17fbd88ee50ff22c8495f28b697397cf3a4805fb76fb4e5611805b0543077f",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_353ce4e91eef62c1c07f37bb_0",
+      "kind": "p",
+      "source": "Colors applied in a text note, from the font color and background color buttons (see __TRILIUM_PH_0__General formatting__TRILIUM_PH_1__) or from the table and cell properties (see __TRILIUM_PH_2__Tables__TRILIUM_PH_3__), are shown in a shade that suits the theme: the hue stays, while the lightness and the saturation are kept within limits. A theme can change these limits, for example if its page background is much darker or lighter than the one of the built-in themes:",
+      "sourceHash": "353ce4e91eef62c1c07f37bbe022a7a27dd0a329d0454ae3f8325fecf966e8fd",
+      "context": "Reference > Adaptive text and table colors",
+      "contextHash": "0c17fbd88ee50ff22c8495f28b697397cf3a4805fb76fb4e5611805b0543077f",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_64ab596b5b24741d8d4088a7_0",
+      "kind": "p",
+      "source": "Each variable is named __TRILIUM_PH_0__:",
+      "sourceHash": "64ab596b5b24741d8d4088a719d933618c6ea485c883dbe45e958fb1a513ec60",
+      "context": "Reference > Adaptive text and table colors",
+      "contextHash": "0c17fbd88ee50ff22c8495f28b697397cf3a4805fb76fb4e5611805b0543077f",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_0a23d3a1a721837eb87d2a7c_0",
+      "kind": "li",
+      "source": "The role is __TRILIUM_PH_0__ (font color), __TRILIUM_PH_1__ (font background color), __TRILIUM_PH_2__ or __TRILIUM_PH_3__ (tables and cells).",
+      "sourceHash": "0a23d3a1a721837eb87d2a7cd9753f0379a9729fd99baaabf70439036effbf22",
+      "context": "Reference > Adaptive text and table colors",
+      "contextHash": "0c17fbd88ee50ff22c8495f28b697397cf3a4805fb76fb4e5611805b0543077f",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_9a470a4b913ef4ef381497ee_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__ or __TRILIUM_PH_1__ is the kind of theme the limit applies to, as declared by __TRILIUM_PH_2__.",
+      "sourceHash": "9a470a4b913ef4ef381497ee89bd9057c8b18bcd75432dbd5b05870e1fe9dec2",
+      "context": "Reference > Adaptive text and table colors",
+      "contextHash": "0c17fbd88ee50ff22c8495f28b697397cf3a4805fb76fb4e5611805b0543077f",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_b0f4ceaeadabd05b7defdf07_0",
+      "kind": "li",
+      "source": "The limit is __TRILIUM_PH_0__ or __TRILIUM_PH_1__ (the CIELAB lightness, from 0 for black to 100 for white), or __TRILIUM_PH_2__ (how saturated the color can be; __TRILIUM_PH_3__ sets no practical limit). Each value must be a plain number, otherwise the colors lose their adaptation.",
+      "sourceHash": "b0f4ceaeadabd05b7defdf072493d2a9c00685b497663369628754c085ce4269",
+      "context": "Reference > Adaptive text and table colors",
+      "contextHash": "0c17fbd88ee50ff22c8495f28b697397cf3a4805fb76fb4e5611805b0543077f",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_d092a4b50167bb729a486221_0",
+      "kind": "p",
+      "source": "The defaults are:",
+      "sourceHash": "d092a4b50167bb729a4862217f4c8b7253847c9eeca327eba093877d310d7ed1",
+      "context": "Reference > Adaptive text and table colors",
+      "contextHash": "0c17fbd88ee50ff22c8495f28b697397cf3a4805fb76fb4e5611805b0543077f",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_0cc9ef7b319f439f313e7a34_0",
+      "kind": "th",
+      "source": "Role",
+      "sourceHash": "0cc9ef7b319f439f313e7a3439a5a47cc171e74b27113c18c410fd3a38707d34",
+      "context": "Reference > Adaptive text and table colors",
+      "contextHash": "0c17fbd88ee50ff22c8495f28b697397cf3a4805fb76fb4e5611805b0543077f",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_1977c87ed1132324efbdaee6_0",
+      "kind": "th",
+      "source": "Light themes",
+      "sourceHash": "1977c87ed1132324efbdaee6bc56045381b6d761964cdd47510bd6cfaf98d6c0",
+      "context": "Reference > Adaptive text and table colors",
+      "contextHash": "0c17fbd88ee50ff22c8495f28b697397cf3a4805fb76fb4e5611805b0543077f",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_6f1eb73eee6ef5dc3d42cdab_0",
+      "kind": "th",
+      "source": "Dark themes",
+      "sourceHash": "6f1eb73eee6ef5dc3d42cdabeda1ba893bebf2cf68da48add494e3607a39f839",
+      "context": "Reference > Adaptive text and table colors",
+      "contextHash": "0c17fbd88ee50ff22c8495f28b697397cf3a4805fb76fb4e5611805b0543077f",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_0a21de8c93afbce9b0583aa8_0",
+      "kind": "td",
+      "source": "__TRILIUM_PH_0__, __TRILIUM_PH_1__",
+      "sourceHash": "0a21de8c93afbce9b0583aa863adaf20995cd9952fa81b71db769a0a917216eb",
+      "context": "Reference > Adaptive text and table colors",
+      "contextHash": "0c17fbd88ee50ff22c8495f28b697397cf3a4805fb76fb4e5611805b0543077f",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_0a21de8c93afbce9b0583aa8_1",
+      "kind": "td",
+      "source": "__TRILIUM_PH_0__, __TRILIUM_PH_1__",
+      "sourceHash": "0a21de8c93afbce9b0583aa863adaf20995cd9952fa81b71db769a0a917216eb",
+      "context": "Reference > Adaptive text and table colors",
+      "contextHash": "0c17fbd88ee50ff22c8495f28b697397cf3a4805fb76fb4e5611805b0543077f",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_0a21de8c93afbce9b0583aa8_2",
+      "kind": "td",
+      "source": "__TRILIUM_PH_0__, __TRILIUM_PH_1__",
+      "sourceHash": "0a21de8c93afbce9b0583aa863adaf20995cd9952fa81b71db769a0a917216eb",
+      "context": "Reference > Adaptive text and table colors",
+      "contextHash": "0c17fbd88ee50ff22c8495f28b697397cf3a4805fb76fb4e5611805b0543077f",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_0a21de8c93afbce9b0583aa8_3",
+      "kind": "td",
+      "source": "__TRILIUM_PH_0__, __TRILIUM_PH_1__",
+      "sourceHash": "0a21de8c93afbce9b0583aa863adaf20995cd9952fa81b71db769a0a917216eb",
+      "context": "Reference > Adaptive text and table colors",
+      "contextHash": "0c17fbd88ee50ff22c8495f28b697397cf3a4805fb76fb4e5611805b0543077f",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_0a21de8c93afbce9b0583aa8_4",
+      "kind": "td",
+      "source": "__TRILIUM_PH_0__, __TRILIUM_PH_1__",
+      "sourceHash": "0a21de8c93afbce9b0583aa863adaf20995cd9952fa81b71db769a0a917216eb",
+      "context": "Reference > Adaptive text and table colors",
+      "contextHash": "0c17fbd88ee50ff22c8495f28b697397cf3a4805fb76fb4e5611805b0543077f",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_0a21de8c93afbce9b0583aa8_5",
+      "kind": "td",
+      "source": "__TRILIUM_PH_0__, __TRILIUM_PH_1__",
+      "sourceHash": "0a21de8c93afbce9b0583aa863adaf20995cd9952fa81b71db769a0a917216eb",
+      "context": "Reference > Adaptive text and table colors",
+      "contextHash": "0c17fbd88ee50ff22c8495f28b697397cf3a4805fb76fb4e5611805b0543077f",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_0a21de8c93afbce9b0583aa8_6",
+      "kind": "td",
+      "source": "__TRILIUM_PH_0__, __TRILIUM_PH_1__",
+      "sourceHash": "0a21de8c93afbce9b0583aa863adaf20995cd9952fa81b71db769a0a917216eb",
+      "context": "Reference > Adaptive text and table colors",
+      "contextHash": "0c17fbd88ee50ff22c8495f28b697397cf3a4805fb76fb4e5611805b0543077f",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_0a21de8c93afbce9b0583aa8_7",
+      "kind": "td",
+      "source": "__TRILIUM_PH_0__, __TRILIUM_PH_1__",
+      "sourceHash": "0a21de8c93afbce9b0583aa863adaf20995cd9952fa81b71db769a0a917216eb",
+      "context": "Reference > Adaptive text and table colors",
+      "contextHash": "0c17fbd88ee50ff22c8495f28b697397cf3a4805fb76fb4e5611805b0543077f",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_21d85fa19b8591fafaa45136_0",
+      "kind": "p",
+      "source": "The limits apply while a note is displayed, so a change to them affects every note at once. The note itself keeps each color as it was picked, in its __TRILIUM_PH_0__, __TRILIUM_PH_1__ or __TRILIUM_PH_2__ style, and a second time in a __TRILIUM_PH_3__, __TRILIUM_PH_4__ or __TRILIUM_PH_5__ variable, which the adaptation reads.",
+      "sourceHash": "21d85fa19b8591fafaa45136009f943536f4676ec4246bb7dbb02abdd878eb2b",
+      "context": "Reference > Adaptive text and table colors",
+      "contextHash": "0c17fbd88ee50ff22c8495f28b697397cf3a4805fb76fb4e5611805b0543077f",
+      "status": "pending",
+      "active": true
+    }
+  ],
+  "requests": []
+}

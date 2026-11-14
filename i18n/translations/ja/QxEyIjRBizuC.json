@@ -1,0 +1,599 @@
+{
+  "schemaVersion": 1,
+  "pageId": "QxEyIjRBizuC",
+  "sourceFile": "docs/User Guide/User Guide/Note Types/Text/Developer-specific formatting/Code blocks.md",
+  "sourceRevision": "03d17b60f59b5efc29b880b11481471d0fe0ff57",
+  "units": [
+    {
+      "id": "u_f56aa1a04883d47c59850afe_0",
+      "kind": "title",
+      "source": "Code blocks",
+      "sourceHash": "f56aa1a04883d47c59850afee137e239fbfcb08375bb44bcdf562f1b7a320c2e",
+      "context": "Code blocks",
+      "contextHash": "ea9255d5c74dbc572fdacaaa710b8d56f0ad7c34080d00836c82f3984d5efc96",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_62e53172ffd236511b364fa0_0",
+      "kind": "p",
+      "source": "The code blocks feature allows entering pieces of code in text notes.",
+      "sourceHash": "62e53172ffd236511b364fa0540c83e08e6b24deca13df5a34a82e4f31f3a0e4",
+      "context": "Code blocks",
+      "contextHash": "ea9255d5c74dbc572fdacaaa710b8d56f0ad7c34080d00836c82f3984d5efc96",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_77cb0e5a81df2731bb0bc169_0",
+      "kind": "p",
+      "source": "Note that this feature is meant for generally small snippets of code. For larger files such as an entire log, see the __TRILIUM_PH_0__Code__TRILIUM_PH_1__ note type instead.",
+      "sourceHash": "77cb0e5a81df2731bb0bc169ffca92f84a683b9e9de53aaf47639b05e4296cc0",
+      "context": "Code blocks",
+      "contextHash": "ea9255d5c74dbc572fdacaaa710b8d56f0ad7c34080d00836c82f3984d5efc96",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_5db5d8479a8aa531eed6bf01_0",
+      "kind": "h2",
+      "source": "Inserting a code block__TRILIUM_PH_0__",
+      "sourceHash": "5db5d8479a8aa531eed6bf012432c8fbe542a715c0c4369f24dfa9d2dc48d854",
+      "context": "Code blocks > Inserting a code block",
+      "contextHash": "27a4fb4b9803906a5227f6b2d00a74459587c0dfa2a8c026c482abd08a9d7662",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_388f44139e1f94aa8d7c656d_0",
+      "kind": "li",
+      "source": "Via the __TRILIUM_PH_0__Formatting toolbar__TRILIUM_PH_1__, look for the __TRILIUM_PH_2__ button.",
+      "sourceHash": "388f44139e1f94aa8d7c656d4ad1b746a394c89584740a169ec2835f6b6e2736",
+      "context": "Code blocks > Inserting a code block",
+      "contextHash": "27a4fb4b9803906a5227f6b2d00a74459587c0dfa2a8c026c482abd08a9d7662",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_498cc3c50bed6c2c8768dbb8_0",
+      "kind": "li",
+      "source": "Pressing directly on the icon will insert a code block with the language that was selected most recently. If this is the first time a code block is inserted, the language will be “Auto-detected” by default.",
+      "sourceHash": "498cc3c50bed6c2c8768dbb86d7e1a7a9bbe95537b74ded6bcd7ea3cee3df9be",
+      "context": "Code blocks > Inserting a code block",
+      "contextHash": "27a4fb4b9803906a5227f6b2d00a74459587c0dfa2a8c026c482abd08a9d7662",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_71c206a69eb3c2479311b9bd_0",
+      "kind": "li",
+      "source": "Pressing the arrow next to the icon, which will show a popup with the available languages.",
+      "sourceHash": "71c206a69eb3c2479311b9bd6df5cf251b0d1ae075d496886b7d5a34d036e6c0",
+      "context": "Code blocks > Inserting a code block",
+      "contextHash": "27a4fb4b9803906a5227f6b2d00a74459587c0dfa2a8c026c482abd08a9d7662",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_d0911f6416f3f880bf7b3fc4_0",
+      "kind": "li",
+      "source": "Type __TRILIUM_PH_0__ (as in Markdown).",
+      "sourceHash": "d0911f6416f3f880bf7b3fc477abd1e2a6fbf30418043c25670306579af520fa",
+      "context": "Code blocks > Inserting a code block",
+      "contextHash": "27a4fb4b9803906a5227f6b2d00a74459587c0dfa2a8c026c482abd08a9d7662",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_134da7cae27309c6761b5035_0",
+      "kind": "li",
+      "source": "Note that it's not possible to specify the language, as it will default to the last selected language.",
+      "sourceHash": "134da7cae27309c6761b50358145b92e1367415d24f3ad7f1b255f6258af33f7",
+      "context": "Code blocks > Inserting a code block",
+      "contextHash": "27a4fb4b9803906a5227f6b2d00a74459587c0dfa2a8c026c482abd08a9d7662",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_d7c0ae5aa60bf7ac603dda3e_0",
+      "kind": "li",
+      "source": "Paste several lines of code copied from Visual Studio Code.",
+      "sourceHash": "d7c0ae5aa60bf7ac603dda3e8a37a163322b93840a6ad8163bfccaeb8a4f9ac6",
+      "context": "Code blocks > Inserting a code block",
+      "contextHash": "27a4fb4b9803906a5227f6b2d00a74459587c0dfa2a8c026c482abd08a9d7662",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_b70c8ea29557975878f17358_0",
+      "kind": "li",
+      "source": "The code block uses the language of the file in Visual Studio Code.",
+      "sourceHash": "b70c8ea29557975878f1735891caec0c51950020783d53fdaf29807586462c05",
+      "context": "Code blocks > Inserting a code block",
+      "contextHash": "27a4fb4b9803906a5227f6b2d00a74459587c0dfa2a8c026c482abd08a9d7662",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_765bdf3545f737503fe1e1cb_0",
+      "kind": "li",
+      "source": "If that language is not in the list of languages, the code block uses __TRILIUM_PH_0__Auto-detected__TRILIUM_PH_1__.",
+      "sourceHash": "765bdf3545f737503fe1e1cbf79b07ed89dcd0b7807915619b17ee3d52e14aa1",
+      "context": "Code blocks > Inserting a code block",
+      "contextHash": "27a4fb4b9803906a5227f6b2d00a74459587c0dfa2a8c026c482abd08a9d7662",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_071e0d8a538ef7b776c0f134_0",
+      "kind": "li",
+      "source": "The colors of the Visual Studio Code theme are removed.",
+      "sourceHash": "071e0d8a538ef7b776c0f13427f5743f571230eb1741eaa89b9be93ff43ba645",
+      "context": "Code blocks > Inserting a code block",
+      "contextHash": "27a4fb4b9803906a5227f6b2d00a74459587c0dfa2a8c026c482abd08a9d7662",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_b58573e420c61b5531a84409_0",
+      "kind": "li",
+      "source": "A single line becomes inline code instead of a code block.",
+      "sourceHash": "b58573e420c61b5531a84409729a11b30d57a0dbbc11cfb74220bbd5f97d7c4b",
+      "context": "Code blocks > Inserting a code block",
+      "contextHash": "27a4fb4b9803906a5227f6b2d00a74459587c0dfa2a8c026c482abd08a9d7662",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_004c53eb1cd29185a9160d40_0",
+      "kind": "li",
+      "source": "In Firefox, the code block always uses __TRILIUM_PH_0__Auto-detected__TRILIUM_PH_1__. Firefox can't read the language from Visual Studio Code.",
+      "sourceHash": "004c53eb1cd29185a9160d40a980a145d13f9a9689f80845972a64e976dd63cd",
+      "context": "Code blocks > Inserting a code block",
+      "contextHash": "27a4fb4b9803906a5227f6b2d00a74459587c0dfa2a8c026c482abd08a9d7662",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_1b96d6029d44e8c54ef25557_0",
+      "kind": "h2",
+      "source": "Exiting out of the code block__TRILIUM_PH_0__",
+      "sourceHash": "1b96d6029d44e8c54ef25557629764c50703faf0ddfbb16c9b036aee2a44d08e",
+      "context": "Code blocks > Exiting out of the code block",
+      "contextHash": "6a532837d2cc10e763a21852ea696a25d4177bea121ddf87fce247d81bf00316",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_0d9ef63d1aa63931ba0ffff3_0",
+      "kind": "li",
+      "source": "To exit out of a code block and enter a normal paragraph, move the cursor at the end of the code block and press Enter twice.",
+      "sourceHash": "0d9ef63d1aa63931ba0ffff33f0bb7896cec0139eadb5c63715bed3bf473bd17",
+      "context": "Code blocks > Exiting out of the code block",
+      "contextHash": "6a532837d2cc10e763a21852ea696a25d4177bea121ddf87fce247d81bf00316",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_d14aa4c38b44787ff889d806_0",
+      "kind": "li",
+      "source": "Similarly, to insert a paragraph above the note block, move the cursor at the beginning of the code block and press Enter twice.",
+      "sourceHash": "d14aa4c38b44787ff889d806403cf3499938d7b54e5ff0777cdd7232e34600e2",
+      "context": "Code blocks > Exiting out of the code block",
+      "contextHash": "6a532837d2cc10e763a21852ea696a25d4177bea121ddf87fce247d81bf00316",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_6259c17e3dda50fb5c71e788_0",
+      "kind": "p",
+      "source": "If you've pasted a code block with a more complex HTML structure, exiting out of the code block by pressing Enter multiple times might not work. In that case the best approach is to delete the code block entirely and use Ctrl+Shift+V (paste as plain text).",
+      "sourceHash": "6259c17e3dda50fb5c71e7889cfcc4f8b4daf4968ded2ee45ae3b0f956575c88",
+      "context": "Code blocks > Exiting out of the code block",
+      "contextHash": "6a532837d2cc10e763a21852ea696a25d4177bea121ddf87fce247d81bf00316",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_da8a053483eea79c98a83d50_0",
+      "kind": "h2",
+      "source": "Syntax highlighting & color schemes__TRILIUM_PH_0__",
+      "sourceHash": "da8a053483eea79c98a83d50384e13d69e4c5fdae8d9b9df2935e29f4d3b90a7",
+      "context": "Code blocks > Syntax highlighting & color schemes",
+      "contextHash": "f11bacb65d885dd1db8f96242ca680925e95c89b7678278ed2f7dfc2b8b14ef0",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_13950bf255e91a10cbdf2511_0",
+      "kind": "p",
+      "source": "Since TriliumNext v0.90.12, Trilium will try to offer syntax highlighting to the code block. Note that the syntax highlighting mechanism is slightly different than the one in __TRILIUM_PH_0__Code__TRILIUM_PH_1__ notes as different technologies are involved.",
+      "sourceHash": "13950bf255e91a10cbdf2511931b96c266d5f544fb092a4e46992a489094f808",
+      "context": "Code blocks > Syntax highlighting & color schemes",
+      "contextHash": "f11bacb65d885dd1db8f96242ca680925e95c89b7678278ed2f7dfc2b8b14ef0",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_fc4ae0b3d4843566243c61a7_0",
+      "kind": "p",
+      "source": "Interaction:",
+      "sourceHash": "fc4ae0b3d4843566243c61a706f07f3ad62a47bb4d3d2cc9caf2ef792bf1ba67",
+      "context": "Code blocks > Syntax highlighting & color schemes",
+      "contextHash": "f11bacb65d885dd1db8f96242ca680925e95c89b7678278ed2f7dfc2b8b14ef0",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_f0a75b864c5041a8bd1753c4_0",
+      "kind": "li",
+      "source": "When the language is set to __TRILIUM_PH_0__Auto-detected__TRILIUM_PH_1__ (by default), Trilium will try to identify the programming language (or similar) that corresponds to the given snippet of text and highlight it. Only the languages enabled in __TRILIUM_PH_2__Options__TRILIUM_PH_3__ → __TRILIUM_PH_4__Code Notes__TRILIUM_PH_5__ → __TRILIUM_PH_6__Available MIME types in the dropdown__TRILIUM_PH_7__ are considered. If this is problematic, consider changing the language of the code block manually.",
+      "sourceHash": "f0a75b864c5041a8bd1753c472a2f81246927d3f6885e23701558b74df390846",
+      "context": "Code blocks > Syntax highlighting & color schemes",
+      "contextHash": "f11bacb65d885dd1db8f96242ca680925e95c89b7678278ed2f7dfc2b8b14ef0",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_9d5540207a63ea184419f49e_0",
+      "kind": "li",
+      "source": "When the language is set to __TRILIUM_PH_0__Plain text__TRILIUM_PH_1__, there will be no syntax highlighting.",
+      "sourceHash": "9d5540207a63ea184419f49e5f33d81a628b856a958a156173ad456042b76c16",
+      "context": "Code blocks > Syntax highlighting & color schemes",
+      "contextHash": "f11bacb65d885dd1db8f96242ca680925e95c89b7678278ed2f7dfc2b8b14ef0",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_0523f7b9d02fb8fd0f82f907_0",
+      "kind": "p",
+      "source": "Note that when editing a text note, syntax highlighting is automatically disabled if the code block is too big (somewhere around 500 lines). In __TRILIUM_PH_0__Read-Only Notes__TRILIUM_PH_1__, in print and on a __TRILIUM_PH_2__shared page__TRILIUM_PH_3__, a code block of more than 500 lines or 50,000 characters is shown without syntax highlighting. These limits are not configurable.",
+      "sourceHash": "0523f7b9d02fb8fd0f82f907f7260a393f7f43663674733c7bf847b7e39c0feb",
+      "context": "Code blocks > Syntax highlighting & color schemes",
+      "contextHash": "f11bacb65d885dd1db8f96242ca680925e95c89b7678278ed2f7dfc2b8b14ef0",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_6cc7d75f7e0f263eef347476_0",
+      "kind": "p",
+      "source": "In order to configure this new feature, a section has been added in __TRILIUM_PH_0__Options__TRILIUM_PH_1__ → __TRILIUM_PH_2__Appearance__TRILIUM_PH_3__ to control the syntax highlighting. There the color scheme can be chosen, from a builtin selection of themes from Highlight.js. __TRILIUM_PH_4__VS Code (Light)__TRILIUM_PH_5__ and __TRILIUM_PH_6__VS Code (Dark)__TRILIUM_PH_7__ use the same colors as the default themes of __TRILIUM_PH_8__Code__TRILIUM_PH_9__ notes, so a code block and a code note color the same code alike.",
+      "sourceHash": "6cc7d75f7e0f263eef347476ac90c1183e22deed3778c5ed30e7f00f768bac4d",
+      "context": "Code blocks > Syntax highlighting & color schemes",
+      "contextHash": "f11bacb65d885dd1db8f96242ca680925e95c89b7678278ed2f7dfc2b8b14ef0",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_482c4903da7b467a905833d5_0",
+      "kind": "li",
+      "source": "It is possible to disable the syntax highlighting for all the notes by selecting “No syntax highlighting” in the “Color scheme” option.",
+      "sourceHash": "482c4903da7b467a905833d5918461e2dc0271b9e90ff77a04279efb552663a7",
+      "context": "Code blocks > Syntax highlighting & color schemes",
+      "contextHash": "f11bacb65d885dd1db8f96242ca680925e95c89b7678278ed2f7dfc2b8b14ef0",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_3f7769d7b0c0e3ba822b5732_0",
+      "kind": "li",
+      "source": "Word wrapping is disabled by default, but can be configured from the same section.",
+      "sourceHash": "3f7769d7b0c0e3ba822b57326277c2f93226cf5a824770d7e777618b24f811c1",
+      "context": "Code blocks > Syntax highlighting & color schemes",
+      "contextHash": "f11bacb65d885dd1db8f96242ca680925e95c89b7678278ed2f7dfc2b8b14ef0",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_1092bd75ae7788cf64ecffa6_0",
+      "kind": "li",
+      "source": "The tab width can also be adjusted from Options.",
+      "sourceHash": "1092bd75ae7788cf64ecffa6d5ef78fc9a692b6e6339445e996dcef6ff8fcc29",
+      "context": "Code blocks > Syntax highlighting & color schemes",
+      "contextHash": "f11bacb65d885dd1db8f96242ca680925e95c89b7678278ed2f7dfc2b8b14ef0",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_3edcd69365e1ce13b21be9fa_0",
+      "kind": "p",
+      "source": "__TRILIUM_PH_0__Context regarding syntax highlighting__TRILIUM_PH_1__",
+      "sourceHash": "3edcd69365e1ce13b21be9fa996d6f8bdc28a81683cbcf7613bb7918ecb8f77b",
+      "context": "Code blocks > Syntax highlighting & color schemes",
+      "contextHash": "f11bacb65d885dd1db8f96242ca680925e95c89b7678278ed2f7dfc2b8b14ef0",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_aae910af11504413b56f236e_0",
+      "kind": "p",
+      "source": "In order to achieve the syntax highlight, the Highlight.js library is being used. Do note that support for syntax highlighting in code blocks is not a supported feature of the text editor we are using CKEditor), but rather a hack which makes use of the highlights API (used for highlighting search results for example). Nevertheless, we haven't noticed any major issues during the development of the feature, but feel free to report any issues you might have.",
+      "sourceHash": "aae910af11504413b56f236e1fef459f29451e0389442ec2d3112f0cb3ee070e",
+      "context": "Code blocks > Syntax highlighting & color schemes",
+      "contextHash": "f11bacb65d885dd1db8f96242ca680925e95c89b7678278ed2f7dfc2b8b14ef0",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_583e0d9cbf1eb5047557c688_0",
+      "kind": "p",
+      "source": "Most of the work to achieve the syntax highlight itself was already done by __TRILIUM_PH_0__antoniotejada__TRILIUM_PH_1__ in __TRILIUM_PH_2__https://github.com/antoniotejada/Trilium-SyntaxHighlightWidget__TRILIUM_PH_3__. On our side we added customization but also additional functionality.",
+      "sourceHash": "583e0d9cbf1eb5047557c688316973e1447a53e0aadbc182a455cd46a2bef743",
+      "context": "Code blocks > Syntax highlighting & color schemes",
+      "contextHash": "f11bacb65d885dd1db8f96242ca680925e95c89b7678278ed2f7dfc2b8b14ef0",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_afb5cbe68832ec67bcc8fdac_0",
+      "kind": "h3",
+      "source": "Migrating from existing syntax highlight plugins__TRILIUM_PH_0__",
+      "sourceHash": "afb5cbe68832ec67bcc8fdac754f977c9a7fcf0d4cd4b345fc2891868d4458d1",
+      "context": "Code blocks > Syntax highlighting & color schemes > Migrating from existing syntax highlight plugins",
+      "contextHash": "8b4790e4d62a962958ad7bc4e83807ce8bdba29f14d914967554685b8d1cf878",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_65c04f78b18bc0d90e75d58e_0",
+      "kind": "p",
+      "source": "If you are already using a syntax highlighting plugin such as the __TRILIUM_PH_0__Trilium-SyntaxHighlightWidget__TRILIUM_PH_1__ we are basing off of, it is important to disable that plugin before upgrading in order for it not to conflict with our implementation.",
+      "sourceHash": "65c04f78b18bc0d90e75d58e0471f6f498f2085ee607f10ef84e591cf0748974",
+      "context": "Code blocks > Syntax highlighting & color schemes > Migrating from existing syntax highlight plugins",
+      "contextHash": "8b4790e4d62a962958ad7bc4e83807ce8bdba29f14d914967554685b8d1cf878",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_2eeec43809742a04695c6478_0",
+      "kind": "p",
+      "source": "Should you encounter any issues after the migration, try running Trilium in safe mode.",
+      "sourceHash": "2eeec43809742a04695c64788e3428405f2f1c8682de522b0ec6b4ef349eb620",
+      "context": "Code blocks > Syntax highlighting & color schemes > Migrating from existing syntax highlight plugins",
+      "contextHash": "8b4790e4d62a962958ad7bc4e83807ce8bdba29f14d914967554685b8d1cf878",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_068b605ebc2ce9a8571ebcba_0",
+      "kind": "h2",
+      "source": "Changing the language of a code block__TRILIUM_PH_0__",
+      "sourceHash": "068b605ebc2ce9a8571ebcba751ab245341211eaa3bb7996cb776c00aaa5e504",
+      "context": "Code blocks > Changing the language of a code block",
+      "contextHash": "df22defee520818f715d59411b0447488dca08264f13d351e217e1d76510f8d3",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_8b2c36d95d70a286568a073b_0",
+      "kind": "p",
+      "source": "Simply click anywhere inside the code block and press again the code block button in the __TRILIUM_PH_0__Formatting toolbar__TRILIUM_PH_1__:__TRILIUM_PH_2____TRILIUM_PH_3__",
+      "sourceHash": "8b2c36d95d70a286568a073b6152edce1f991d2e50aff33b0c5612ad172ce003",
+      "context": "Code blocks > Changing the language of a code block",
+      "contextHash": "df22defee520818f715d59411b0447488dca08264f13d351e217e1d76510f8d3",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_f3e1e2c253fceaee63aaa4f1_0",
+      "kind": "h2",
+      "source": "Adjusting the list of languages__TRILIUM_PH_0__",
+      "sourceHash": "f3e1e2c253fceaee63aaa4f1e399660db547ecf4f2f01363daf0aee1f7f810b0",
+      "context": "Code blocks > Adjusting the list of languages",
+      "contextHash": "2bde1c0f22b6d9db157151221b2c70889a45d4d02bf617a0080022f873b174e6",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_291880efb7c14c69592423a2_0",
+      "kind": "p",
+      "source": "The code blocks feature shares the list of languages with the __TRILIUM_PH_0__Code__TRILIUM_PH_1__ note type.",
+      "sourceHash": "291880efb7c14c69592423a2ab732e4cde9b861f54a82cf70aae3d1751794255",
+      "context": "Code blocks > Adjusting the list of languages",
+      "contextHash": "2bde1c0f22b6d9db157151221b2c70889a45d4d02bf617a0080022f873b174e6",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_eb0da6a9322fb613b48bdaaa_0",
+      "kind": "p",
+      "source": "The supported languages, and the order in which they are listed, can be adjusted by going to __TRILIUM_PH_0__Options__TRILIUM_PH_1__ → __TRILIUM_PH_2__Code Notes__TRILIUM_PH_3__ → __TRILIUM_PH_4__Available MIME types in the dropdown__TRILIUM_PH_5__. See __TRILIUM_PH_6__Code__TRILIUM_PH_7__ for how to add, remove and reorder them.",
+      "sourceHash": "eb0da6a9322fb613b48bdaaa1109162a7579b8c095c5df41d556fca742fedb4a",
+      "context": "Code blocks > Adjusting the list of languages",
+      "contextHash": "2bde1c0f22b6d9db157151221b2c70889a45d4d02bf617a0080022f873b174e6",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_a472d310f776d125bbe6a9f6_0",
+      "kind": "p",
+      "source": "Note that the list of languages is not immediately refreshed, you'd have to manually __TRILIUM_PH_0__refresh the application__TRILIUM_PH_1__.",
+      "sourceHash": "a472d310f776d125bbe6a9f6248bee8e28fc633d92d6f21bf7025d577d46f4d5",
+      "context": "Code blocks > Adjusting the list of languages",
+      "contextHash": "2bde1c0f22b6d9db157151221b2c70889a45d4d02bf617a0080022f873b174e6",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_af4f64a9b906f55faa68e5a3_0",
+      "kind": "h2",
+      "source": "Text replacements and ligatures__TRILIUM_PH_0__",
+      "sourceHash": "af4f64a9b906f55faa68e5a3231cd65f50e2b9bb2b774581ae9eef3b5402a9ac",
+      "context": "Code blocks > Text replacements and ligatures",
+      "contextHash": "ab8962247f2581a488f0e51f3a9ef3f0dc9919a80b51e76d9deb9b80915d5619",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_204e125a27904dcf6c6c1dac_0",
+      "kind": "p",
+      "source": "__TRILIUM_PH_0__Automatic replacements__TRILIUM_PH_1__ are a feature of text notes which converts some character sequences into another and some of them interfere with programming text, such as the conversion of quotes. While in a code block, the automatic replacements __TRILIUM_PH_2__are not effect__TRILIUM_PH_3__. The only way the automatic replacements can interfere is if the text is typed/pasted before being put in a code block.",
+      "sourceHash": "204e125a27904dcf6c6c1dac955f8d0ae700ab341173c3c2b58dcb6a18a51817",
+      "context": "Code blocks > Text replacements and ligatures",
+      "contextHash": "ab8962247f2581a488f0e51f3a9ef3f0dc9919a80b51e76d9deb9b80915d5619",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_3140340d1f365474bae5e2e7_0",
+      "kind": "p",
+      "source": "A different feature is __TRILIUM_PH_0__programming ligatures__TRILIUM_PH_1__, which is simply a display affordance which turns __TRILIUM_PH_2__ into __TRILIUM_PH_3__ or __TRILIUM_PH_4__ as __TRILIUM_PH_5__ . These come from the __TRILIUM_PH_6__font__TRILIUM_PH_7__. The underlying text is not actually changed, and copying it out gives you back __TRILIUM_PH_8__ and __TRILIUM_PH_9__.",
+      "sourceHash": "3140340d1f365474bae5e2e71ccd82ea52f4414dc2d98478bba1591cdfae72d2",
+      "context": "Code blocks > Text replacements and ligatures",
+      "contextHash": "ab8962247f2581a488f0e51f3a9ef3f0dc9919a80b51e76d9deb9b80915d5619",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_72ac0ca7159a3739a059e371_0",
+      "kind": "p",
+      "source": "Ligatures can be disabled in __TRILIUM_PH_0__Options__TRILIUM_PH_1____TRILIUM_PH_2__→ Appearance → Fonts → Programming ligatures.__TRILIUM_PH_3__",
+      "sourceHash": "72ac0ca7159a3739a059e37162637a972f613db31759b682a7fb77b3b3b28799",
+      "context": "Code blocks > Text replacements and ligatures",
+      "contextHash": "ab8962247f2581a488f0e51f3a9ef3f0dc9919a80b51e76d9deb9b80915d5619",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_13c03fca749e9842d587ffbb_0",
+      "kind": "h2",
+      "source": "Extended code blocks__TRILIUM_PH_0__",
+      "sourceHash": "13c03fca749e9842d587ffbbdf4265e403ffd60b3beeee57741786c76e653d68",
+      "context": "Code blocks > Extended code blocks",
+      "contextHash": "dce8f46fc7687c91b68f9675d110b06189af52a9029dcd1ffd89986c90841f74",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_c22c4fd1d2cfc767ff7601de_0",
+      "kind": "p",
+      "source": "Extended code blocks are experimental, and they change as they mature. To use them, turn on __TRILIUM_PH_0__Extended code blocks__TRILIUM_PH_1__ in __TRILIUM_PH_2__Options__TRILIUM_PH_3__ → __TRILIUM_PH_4__Advanced__TRILIUM_PH_5__ → __TRILIUM_PH_6__Experimental Options__TRILIUM_PH_7__.",
+      "sourceHash": "c22c4fd1d2cfc767ff7601de0458b8fb2c75394307536e7573f9bd62c9d58ac5",
+      "context": "Code blocks > Extended code blocks",
+      "contextHash": "dce8f46fc7687c91b68f9675d110b06189af52a9029dcd1ffd89986c90841f74",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_05d46a36237598b1c72d4f11_0",
+      "kind": "p",
+      "source": "An extended code block is a code block that is edited with the code editor of a __TRILIUM_PH_0__Code__TRILIUM_PH_1__ note, inside the text. It has the same syntax highlighting and code folding as a code note, and it suits longer pieces of code.",
+      "sourceHash": "05d46a36237598b1c72d4f11469f1340395770b80b7bedb8ed5a1d43d770f40d",
+      "context": "Code blocks > Extended code blocks",
+      "contextHash": "dce8f46fc7687c91b68f9675d110b06189af52a9029dcd1ffd89986c90841f74",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_5dc8299141d508a771440dd5_0",
+      "kind": "li",
+      "source": "To insert one, open the __TRILIUM_PH_0__ __TRILIUM_PH_1__Insert__TRILIUM_PH_2__ menu of the __TRILIUM_PH_3__Formatting toolbar__TRILIUM_PH_4__ and choose __TRILIUM_PH_5__ __TRILIUM_PH_6__Extended code block__TRILIUM_PH_7__, after __TRILIUM_PH_8__Columns__TRILIUM_PH_9__. It is also available as __TRILIUM_PH_10__Extended code block__TRILIUM_PH_11__ in the __TRILIUM_PH_12__Slash Commands__TRILIUM_PH_13__.",
+      "sourceHash": "5dc8299141d508a771440dd53498bcf5547d4bf68cc151331abb78c7621a6483",
+      "context": "Code blocks > Extended code blocks",
+      "contextHash": "dce8f46fc7687c91b68f9675d110b06189af52a9029dcd1ffd89986c90841f74",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_db82c98adef06337e12dee57_0",
+      "kind": "li",
+      "source": "A new block is empty and editable, in a __TRILIUM_PH_0__Full__TRILIUM_PH_1__ box, and takes the focus. Its language is the one set last on an extended code block, or __TRILIUM_PH_2__Plain text__TRILIUM_PH_3__.",
+      "sourceHash": "db82c98adef06337e12dee57d3ab1a5959f50ffa14ff072112e9885e2787376a",
+      "context": "Code blocks > Extended code blocks",
+      "contextHash": "dce8f46fc7687c91b68f9675d110b06189af52a9029dcd1ffd89986c90841f74",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_cbd9846a37fe4eefa4913524_0",
+      "kind": "li",
+      "source": "A click places the cursor in the code, as in a code block. Over a __TRILIUM_PH_0__Small__TRILIUM_PH_1__ or __TRILIUM_PH_2__Medium__TRILIUM_PH_3__ box, the mouse wheel scrolls the code.",
+      "sourceHash": "cbd9846a37fe4eefa49135249734af25d264e633fcf544138ba4c752083b448f",
+      "context": "Code blocks > Extended code blocks",
+      "contextHash": "dce8f46fc7687c91b68f9675d110b06189af52a9029dcd1ffd89986c90841f74",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_60c5ea092ca5a78ccb4d9d5a_0",
+      "kind": "li",
+      "source": "The block shows in a box like the one of an included code note, with the corners and the shadow of a code block. While the block is editable, its language shows in its top corner, as for a code block. While it is read-only, because __TRILIUM_PH_0__Editable__TRILIUM_PH_1__ is unchecked or the note is one of the __TRILIUM_PH_2__Read-Only Notes__TRILIUM_PH_3__, that corner has a __TRILIUM_PH_4__ __TRILIUM_PH_5__Copy to clipboard__TRILIUM_PH_6__ button instead, as a code block of a read-only note does.",
+      "sourceHash": "60c5ea092ca5a78ccb4d9d5a3dc781b55b2550d6add03692d558ad6bf1e43412",
+      "context": "Code blocks > Extended code blocks",
+      "contextHash": "dce8f46fc7687c91b68f9675d110b06189af52a9029dcd1ffd89986c90841f74",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_52aae3245bb5e2f15b985a5e_0",
+      "kind": "li",
+      "source": "Its toolbar has the __TRILIUM_PH_0__Change language mode__TRILIUM_PH_1__ and __TRILIUM_PH_2__Change tab width__TRILIUM_PH_3__ menus of an embedded code file, described in __TRILIUM_PH_4__Editing an include in place__TRILIUM_PH_5__ in __TRILIUM_PH_6__Include Note__TRILIUM_PH_7__, and the __TRILIUM_PH_8__ __TRILIUM_PH_9__Copy to clipboard__TRILIUM_PH_10__ button, which copies the code as the one of a code block does. Its __TRILIUM_PH_11__ __TRILIUM_PH_12__More actions__TRILIUM_PH_13__ menu has __TRILIUM_PH_14__Editable__TRILIUM_PH_15__, which shows the code read-only once unchecked, the __TRILIUM_PH_16__Word wrap__TRILIUM_PH_17__ and __TRILIUM_PH_18__Line numbers__TRILIUM_PH_19__ submenus, the __TRILIUM_PH_20__Size__TRILIUM_PH_21__ submenu, with __TRILIUM_PH_22__Resizable__TRILIUM_PH_23__, __TRILIUM_PH_24__Full__TRILIUM_PH_25__ and __TRILIUM_PH_26__Default__TRILIUM_PH_27__, the __TRILIUM_PH_28__Position__TRILIUM_PH_29__ submenu, and __TRILIUM_PH_30__ __TRILIUM_PH_31__Delete block__TRILIUM_PH_32__, which removes the block from the note.",
+      "sourceHash": "52aae3245bb5e2f15b985a5e466906c4a0a747bfa3826d590f5a52020a2d49ef",
+      "context": "Code blocks > Extended code blocks",
+      "contextHash": "dce8f46fc7687c91b68f9675d110b06189af52a9029dcd1ffd89986c90841f74",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_27b00ffefc80d4b9f80cee85_0",
+      "kind": "li",
+      "source": "The __TRILIUM_PH_0__Position__TRILIUM_PH_1__ submenu places the block as it places an include, described in __TRILIUM_PH_2__Positioning__TRILIUM_PH_3__ in __TRILIUM_PH_4__Include Note__TRILIUM_PH_5__: on lines of its own at the left, the center or the right, or at the left or the right with the text running beside it. Only a __TRILIUM_PH_6__Resizable__TRILIUM_PH_7__ box can be placed, and it takes the full width of the note until it is resized narrower. In the mobile layout, a block with a position other than __TRILIUM_PH_8__Align center__TRILIUM_PH_9__ takes the full width.",
+      "sourceHash": "27b00ffefc80d4b9f80cee85877e48adfaf037735d2e3aa23a96d3a10f1fdce0",
+      "context": "Code blocks > Extended code blocks",
+      "contextHash": "dce8f46fc7687c91b68f9675d110b06189af52a9029dcd1ffd89986c90841f74",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_618dbc6b7bfc32a8a26d8227_0",
+      "kind": "li",
+      "source": "The changes made in the block are part of the undo history of the text note.",
+      "sourceHash": "618dbc6b7bfc32a8a26d822799bb4af1b5291754e3177d5ffb87cf3e9a247e92",
+      "context": "Code blocks > Extended code blocks",
+      "contextHash": "dce8f46fc7687c91b68f9675d110b06189af52a9029dcd1ffd89986c90841f74",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_bd39683975162cfd57677454_0",
+      "kind": "p",
+      "source": "The code stays in the note as a code block of its language. The Markdown export, __TRILIUM_PH_0__shared pages__TRILIUM_PH_1__ and printing show it as a code block, and copying it into another application pastes a code block. Pasted into a text note, it becomes an extended code block again, with its settings.",
+      "sourceHash": "bd39683975162cfd5767745494d712b6b6417ec28dd4f325a3f386dff39c5c50",
+      "context": "Code blocks > Extended code blocks",
+      "contextHash": "dce8f46fc7687c91b68f9675d110b06189af52a9029dcd1ffd89986c90841f74",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_551b297dc6c6f9f36506bfdd_0",
+      "kind": "p",
+      "source": "Turning __TRILIUM_PH_0__Extended code blocks__TRILIUM_PH_1__ off again removes them from the __TRILIUM_PH_2__Insert__TRILIUM_PH_3__ menu and the slash commands only: the extended code blocks already in notes keep working. A version of Trilium without this feature shows them as code blocks, and saves them back as code blocks, without their box size and other settings.",
+      "sourceHash": "551b297dc6c6f9f36506bfdd10349452c776a7e3dd673b7be55bc9e58ef6f673",
+      "context": "Code blocks > Extended code blocks",
+      "contextHash": "dce8f46fc7687c91b68f9675d110b06189af52a9029dcd1ffd89986c90841f74",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_b190d47815633246b0ab18a6_0",
+      "kind": "image-alt",
+      "source": "記事画像",
+      "sourceHash": "b190d47815633246b0ab18a61d9b8e8ea36504fe3f8bc230a7753096915c9ff2",
+      "context": "Code blocks > Extended code blocks",
+      "contextHash": "dce8f46fc7687c91b68f9675d110b06189af52a9029dcd1ffd89986c90841f74",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_b190d47815633246b0ab18a6_1",
+      "kind": "image-alt",
+      "source": "記事画像",
+      "sourceHash": "b190d47815633246b0ab18a61d9b8e8ea36504fe3f8bc230a7753096915c9ff2",
+      "context": "Code blocks > Extended code blocks",
+      "contextHash": "dce8f46fc7687c91b68f9675d110b06189af52a9029dcd1ffd89986c90841f74",
+      "status": "pending",
+      "active": true
+    }
+  ],
+  "requests": []
+}

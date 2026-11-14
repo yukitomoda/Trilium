@@ -1,0 +1,1489 @@
+{
+  "schemaVersion": 1,
+  "pageId": "Gzjqa934BdH4",
+  "sourceFile": "docs/User Guide/User Guide/Advanced Usage/Configuration (config.ini or environment variables).md",
+  "sourceRevision": "03d17b60f59b5efc29b880b11481471d0fe0ff57",
+  "units": [
+    {
+      "id": "u_07fbe174507ac1b74b44c0a4_0",
+      "kind": "title",
+      "source": "Configuration (config.ini or environment variables)",
+      "sourceHash": "07fbe174507ac1b74b44c0a4cadbb304bc67ec37d82e9ac89c4d0f2f573dd7b4",
+      "context": "Configuration (config.ini or environment variables)",
+      "contextHash": "7dd5e46afed4d25d35ee7571443e9d4bc82f513bbc442e1c2d9c1599143130cc",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_d457c03ea04b8b4b976047c0_0",
+      "kind": "p",
+      "source": "Trilium supports configuration via a file named __TRILIUM_PH_0__ and environment variables. This document provides a comprehensive reference for all configuration options.",
+      "sourceHash": "d457c03ea04b8b4b976047c0b61409468ff60d9708e379d12dd0cc15cc2bdb94",
+      "context": "Configuration (config.ini or environment variables)",
+      "contextHash": "7dd5e46afed4d25d35ee7571443e9d4bc82f513bbc442e1c2d9c1599143130cc",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_d1e3e89bcfd1865d2c2d3d20_0",
+      "kind": "h2",
+      "source": "Location of the configuration file__TRILIUM_PH_0__",
+      "sourceHash": "d1e3e89bcfd1865d2c2d3d2037d7575b83d477e3e2d0492fadd78038b126a5c9",
+      "context": "Configuration (config.ini or environment variables) > Location of the configuration file",
+      "contextHash": "4d855115f22afb8942460a1e49a08320a592e201bb601490d5bb52b88b6496b2",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_a95652d71707dc79b5a27be8_0",
+      "kind": "p",
+      "source": "The configuration file is not located in the same directory as the application. Instead, the __TRILIUM_PH_0__ is located in the __TRILIUM_PH_1__Data directory__TRILIUM_PH_2__. As such, the configuration file is only available after starting the application and creating a database.",
+      "sourceHash": "a95652d71707dc79b5a27be85ffac11ba96de603cf458485b428c815c3d0e0be",
+      "context": "Configuration (config.ini or environment variables) > Location of the configuration file",
+      "contextHash": "4d855115f22afb8942460a1e49a08320a592e201bb601490d5bb52b88b6496b2",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_1acce2387d4e64edc0e60173_0",
+      "kind": "h2",
+      "source": "Configuration Precedence__TRILIUM_PH_0__",
+      "sourceHash": "1acce2387d4e64edc0e60173062ba251c85731518dc214c2acdf9b7b4770afc5",
+      "context": "Configuration (config.ini or environment variables) > Configuration Precedence",
+      "contextHash": "81a6d1e59659b055211132a1ddfc6d03254d51cce233d5ad410ae4b6d02f86f8",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_6da09b334ee6c4d543e08b73_0",
+      "kind": "p",
+      "source": "Configuration values are loaded in the following order of precedence (highest to lowest):",
+      "sourceHash": "6da09b334ee6c4d543e08b73edd586a5876af986a5e7c886c07b237566c5532f",
+      "context": "Configuration (config.ini or environment variables) > Configuration Precedence",
+      "contextHash": "81a6d1e59659b055211132a1ddfc6d03254d51cce233d5ad410ae4b6d02f86f8",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_6fd1b4610705c33d009c54fe_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__Environment variables__TRILIUM_PH_1__ (checked first)",
+      "sourceHash": "6fd1b4610705c33d009c54fe69b480812df5b0691991881ea3cf66341ebe7b82",
+      "context": "Configuration (config.ini or environment variables) > Configuration Precedence",
+      "contextHash": "81a6d1e59659b055211132a1ddfc6d03254d51cce233d5ad410ae4b6d02f86f8",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_d39c040da2bd28d8c3ae61c9_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__config.ini file values__TRILIUM_PH_1__",
+      "sourceHash": "d39c040da2bd28d8c3ae61c9fff0a50f58b20e24d1a1851d1420183bbf814bcc",
+      "context": "Configuration (config.ini or environment variables) > Configuration Precedence",
+      "contextHash": "81a6d1e59659b055211132a1ddfc6d03254d51cce233d5ad410ae4b6d02f86f8",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_942558836c81e78a5dedf171_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__Default values__TRILIUM_PH_1__",
+      "sourceHash": "942558836c81e78a5dedf171d093aff77f8f32c04fad1e6a283a2439d981f152",
+      "context": "Configuration (config.ini or environment variables) > Configuration Precedence",
+      "contextHash": "81a6d1e59659b055211132a1ddfc6d03254d51cce233d5ad410ae4b6d02f86f8",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_0fc9f66efcad995ec499d76b_0",
+      "kind": "h2",
+      "source": "Environment Variable Patterns__TRILIUM_PH_0__",
+      "sourceHash": "0fc9f66efcad995ec499d76b5015fe4abc18aeef534e599f97318383b877e586",
+      "context": "Configuration (config.ini or environment variables) > Environment Variable Patterns",
+      "contextHash": "eb4094e82bd04b58a939fe7c4d3c30ec7abce84531d5231c2b3600632f7e14d2",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_898a3fd1fc7468cd522efa51_0",
+      "kind": "p",
+      "source": "Trilium supports multiple environment variable patterns for flexibility. The primary pattern is: __TRILIUM_PH_0__",
+      "sourceHash": "898a3fd1fc7468cd522efa51c7ea175af2d0742f9e7751f482c279f69068684f",
+      "context": "Configuration (config.ini or environment variables) > Environment Variable Patterns",
+      "contextHash": "eb4094e82bd04b58a939fe7c4d3c30ec7abce84531d5231c2b3600632f7e14d2",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_4f89a333ad646a73ee085826_0",
+      "kind": "p",
+      "source": "Where:",
+      "sourceHash": "4f89a333ad646a73ee085826d9f829f043e20e3fcd50578c646f9d0b147bda92",
+      "context": "Configuration (config.ini or environment variables) > Environment Variable Patterns",
+      "contextHash": "eb4094e82bd04b58a939fe7c4d3c30ec7abce84531d5231c2b3600632f7e14d2",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_78ce86ebf985e2acf87f5a92_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__ is the INI section name in UPPERCASE",
+      "sourceHash": "78ce86ebf985e2acf87f5a92b219e5a66c07edd9bba944882fc392e6109a65fe",
+      "context": "Configuration (config.ini or environment variables) > Environment Variable Patterns",
+      "contextHash": "eb4094e82bd04b58a939fe7c4d3c30ec7abce84531d5231c2b3600632f7e14d2",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_9bb5a61a0540753c8c405000_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__ is the camelCase configuration key converted to UPPERCASE (e.g., __TRILIUM_PH_1__ → __TRILIUM_PH_2__)",
+      "sourceHash": "9bb5a61a0540753c8c405000ffa450402149c540456f46f2e86785553c568af2",
+      "context": "Configuration (config.ini or environment variables) > Environment Variable Patterns",
+      "contextHash": "eb4094e82bd04b58a939fe7c4d3c30ec7abce84531d5231c2b3600632f7e14d2",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_61c6276b8154a459ca25a4d2_0",
+      "kind": "p",
+      "source": "Additionally, shorter aliases are available for common configurations (see Alternative Variables section below).",
+      "sourceHash": "61c6276b8154a459ca25a4d270a74e432939509ab458cce3b8c82a59e0acd804",
+      "context": "Configuration (config.ini or environment variables) > Environment Variable Patterns",
+      "contextHash": "eb4094e82bd04b58a939fe7c4d3c30ec7abce84531d5231c2b3600632f7e14d2",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_bd53c0b4126c5512a622d164_0",
+      "kind": "h2",
+      "source": "Environment Variable Reference__TRILIUM_PH_0__",
+      "sourceHash": "bd53c0b4126c5512a622d16491c1e256ded16220408e52438e002f17b4cd69e7",
+      "context": "Configuration (config.ini or environment variables) > Environment Variable Reference",
+      "contextHash": "eafa143435ac32f1f864dc743c45bc5feafe92f319a490ab45a4b0918a27bc56",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_0ac241249bf8b4c1185c3c60_0",
+      "kind": "p",
+      "source": "General",
+      "sourceHash": "0ac241249bf8b4c1185c3c60ca27defdbcc7ab8b7f11b5e9e4396e3509ebf14d",
+      "context": "Configuration (config.ini or environment variables) > Environment Variable Reference",
+      "contextHash": "eafa143435ac32f1f864dc743c45bc5feafe92f319a490ab45a4b0918a27bc56",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_1e8b245076ba4b7991fdc7b4_0",
+      "kind": "th",
+      "source": "Environment Variable",
+      "sourceHash": "1e8b245076ba4b7991fdc7b4186a847eff14f01958ce8ef779aef6ba553cd26b",
+      "context": "Configuration (config.ini or environment variables) > Environment Variable Reference",
+      "contextHash": "eafa143435ac32f1f864dc743c45bc5feafe92f319a490ab45a4b0918a27bc56",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_f8bfabed24dff0a6c63a9d3c_0",
+      "kind": "th",
+      "source": "Type",
+      "sourceHash": "f8bfabed24dff0a6c63a9d3c8bb6083befac650c35780d34c16ebaab76fcfaef",
+      "context": "Configuration (config.ini or environment variables) > Environment Variable Reference",
+      "contextHash": "eafa143435ac32f1f864dc743c45bc5feafe92f319a490ab45a4b0918a27bc56",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_e765a6977fbd7d51b43aabab_0",
+      "kind": "th",
+      "source": "Default",
+      "sourceHash": "e765a6977fbd7d51b43aabab21c012d617ff3e30e02255a2c93b3a6a58bb18ae",
+      "context": "Configuration (config.ini or environment variables) > Environment Variable Reference",
+      "contextHash": "eafa143435ac32f1f864dc743c45bc5feafe92f319a490ab45a4b0918a27bc56",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_4b00baa636b92e18b7a75884_0",
+      "kind": "th",
+      "source": "Description",
+      "sourceHash": "4b00baa636b92e18b7a75884790f0769c3e702d20d8822e708f69ab2f07c7103",
+      "context": "Configuration (config.ini or environment variables) > Environment Variable Reference",
+      "contextHash": "eafa143435ac32f1f864dc743c45bc5feafe92f319a490ab45a4b0918a27bc56",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_9e1a82c02bd30efcbba8492c_0",
+      "kind": "td",
+      "source": "string",
+      "sourceHash": "9e1a82c02bd30efcbba8492cd2bc4ef7d8610b1d459ab89fe5465fe676cabd41",
+      "context": "Configuration (config.ini or environment variables) > Environment Variable Reference",
+      "contextHash": "eafa143435ac32f1f864dc743c45bc5feafe92f319a490ab45a4b0918a27bc56",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_1d23c5874abccaf5d487c0e7_0",
+      "kind": "td",
+      "source": "\"\"",
+      "sourceHash": "1d23c5874abccaf5d487c0e73492fd69a144746e029c819d61544d73eda9600d",
+      "context": "Configuration (config.ini or environment variables) > Environment Variable Reference",
+      "contextHash": "eafa143435ac32f1f864dc743c45bc5feafe92f319a490ab45a4b0918a27bc56",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_957acca7c637639099d5f622_0",
+      "kind": "td",
+      "source": "Instance name for API identification",
+      "sourceHash": "957acca7c637639099d5f622c97a6b0abf8ff0e98602358fbe7214a027378b81",
+      "context": "Configuration (config.ini or environment variables) > Environment Variable Reference",
+      "contextHash": "eafa143435ac32f1f864dc743c45bc5feafe92f319a490ab45a4b0918a27bc56",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_bd9765b0499a01deda87e4e1_0",
+      "kind": "td",
+      "source": "boolean",
+      "sourceHash": "bd9765b0499a01deda87e4e159f4c325808605c3b950d113bc7e331a7fccbc47",
+      "context": "Configuration (config.ini or environment variables) > Environment Variable Reference",
+      "contextHash": "eafa143435ac32f1f864dc743c45bc5feafe92f319a490ab45a4b0918a27bc56",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_7a1ac049b820ef5f13abc297_0",
+      "kind": "td",
+      "source": "false",
+      "sourceHash": "7a1ac049b820ef5f13abc2974b6cac98920f2270ceac02f5ff0778424041aab9",
+      "context": "Configuration (config.ini or environment variables) > Environment Variable Reference",
+      "contextHash": "eafa143435ac32f1f864dc743c45bc5feafe92f319a490ab45a4b0918a27bc56",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_7e494a1868da49ea9d3458d2_0",
+      "kind": "td",
+      "source": "Disable authentication (server only)",
+      "sourceHash": "7e494a1868da49ea9d3458d295e03a7a78a036bdf9ea7c0fb629bdd466cbadbb",
+      "context": "Configuration (config.ini or environment variables) > Environment Variable Reference",
+      "contextHash": "eafa143435ac32f1f864dc743c45bc5feafe92f319a490ab45a4b0918a27bc56",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_bd9765b0499a01deda87e4e1_1",
+      "kind": "td",
+      "source": "boolean",
+      "sourceHash": "bd9765b0499a01deda87e4e159f4c325808605c3b950d113bc7e331a7fccbc47",
+      "context": "Configuration (config.ini or environment variables) > Environment Variable Reference",
+      "contextHash": "eafa143435ac32f1f864dc743c45bc5feafe92f319a490ab45a4b0918a27bc56",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_7a1ac049b820ef5f13abc297_1",
+      "kind": "td",
+      "source": "false",
+      "sourceHash": "7a1ac049b820ef5f13abc2974b6cac98920f2270ceac02f5ff0778424041aab9",
+      "context": "Configuration (config.ini or environment variables) > Environment Variable Reference",
+      "contextHash": "eafa143435ac32f1f864dc743c45bc5feafe92f319a490ab45a4b0918a27bc56",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_5e3a50bf9d331032d4c72e2d_0",
+      "kind": "td",
+      "source": "Disable automatic backups",
+      "sourceHash": "5e3a50bf9d331032d4c72e2d70f81bc6abdf79cdd12abd8151f039dd5cd5069d",
+      "context": "Configuration (config.ini or environment variables) > Environment Variable Reference",
+      "contextHash": "eafa143435ac32f1f864dc743c45bc5feafe92f319a490ab45a4b0918a27bc56",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_bd9765b0499a01deda87e4e1_2",
+      "kind": "td",
+      "source": "boolean",
+      "sourceHash": "bd9765b0499a01deda87e4e159f4c325808605c3b950d113bc7e331a7fccbc47",
+      "context": "Configuration (config.ini or environment variables) > Environment Variable Reference",
+      "contextHash": "eafa143435ac32f1f864dc743c45bc5feafe92f319a490ab45a4b0918a27bc56",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_7a1ac049b820ef5f13abc297_2",
+      "kind": "td",
+      "source": "false",
+      "sourceHash": "7a1ac049b820ef5f13abc2974b6cac98920f2270ceac02f5ff0778424041aab9",
+      "context": "Configuration (config.ini or environment variables) > Environment Variable Reference",
+      "contextHash": "eafa143435ac32f1f864dc743c45bc5feafe92f319a490ab45a4b0918a27bc56",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_ab99134b1003c2ef30fef712_0",
+      "kind": "td",
+      "source": "Disable desktop icon creation",
+      "sourceHash": "ab99134b1003c2ef30fef712f65b634547bb20348b5467ae736fe6273a057c51",
+      "context": "Configuration (config.ini or environment variables) > Environment Variable Reference",
+      "contextHash": "eafa143435ac32f1f864dc743c45bc5feafe92f319a490ab45a4b0918a27bc56",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_bd9765b0499a01deda87e4e1_3",
+      "kind": "td",
+      "source": "boolean",
+      "sourceHash": "bd9765b0499a01deda87e4e159f4c325808605c3b950d113bc7e331a7fccbc47",
+      "context": "Configuration (config.ini or environment variables) > Environment Variable Reference",
+      "contextHash": "eafa143435ac32f1f864dc743c45bc5feafe92f319a490ab45a4b0918a27bc56",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_7a1ac049b820ef5f13abc297_3",
+      "kind": "td",
+      "source": "false",
+      "sourceHash": "7a1ac049b820ef5f13abc2974b6cac98920f2270ceac02f5ff0778424041aab9",
+      "context": "Configuration (config.ini or environment variables) > Environment Variable Reference",
+      "contextHash": "eafa143435ac32f1f864dc743c45bc5feafe92f319a490ab45a4b0918a27bc56",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_9f1ae11e5dbb7e0239e3193d_0",
+      "kind": "td",
+      "source": "Enable read-only mode",
+      "sourceHash": "9f1ae11e5dbb7e0239e3193dd7c398f2b808942d92a12d2d14a636b3430b7560",
+      "context": "Configuration (config.ini or environment variables) > Environment Variable Reference",
+      "contextHash": "eafa143435ac32f1f864dc743c45bc5feafe92f319a490ab45a4b0918a27bc56",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_58206d75a42e256371c8851b_0",
+      "kind": "p",
+      "source": "Network",
+      "sourceHash": "58206d75a42e256371c8851bac4212ea87f7effe3c7c34586280434196af8d6a",
+      "context": "Configuration (config.ini or environment variables) > Environment Variable Reference",
+      "contextHash": "eafa143435ac32f1f864dc743c45bc5feafe92f319a490ab45a4b0918a27bc56",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_1e8b245076ba4b7991fdc7b4_1",
+      "kind": "th",
+      "source": "Environment Variable",
+      "sourceHash": "1e8b245076ba4b7991fdc7b4186a847eff14f01958ce8ef779aef6ba553cd26b",
+      "context": "Configuration (config.ini or environment variables) > Environment Variable Reference",
+      "contextHash": "eafa143435ac32f1f864dc743c45bc5feafe92f319a490ab45a4b0918a27bc56",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_f8bfabed24dff0a6c63a9d3c_1",
+      "kind": "th",
+      "source": "Type",
+      "sourceHash": "f8bfabed24dff0a6c63a9d3c8bb6083befac650c35780d34c16ebaab76fcfaef",
+      "context": "Configuration (config.ini or environment variables) > Environment Variable Reference",
+      "contextHash": "eafa143435ac32f1f864dc743c45bc5feafe92f319a490ab45a4b0918a27bc56",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_e765a6977fbd7d51b43aabab_1",
+      "kind": "th",
+      "source": "Default",
+      "sourceHash": "e765a6977fbd7d51b43aabab21c012d617ff3e30e02255a2c93b3a6a58bb18ae",
+      "context": "Configuration (config.ini or environment variables) > Environment Variable Reference",
+      "contextHash": "eafa143435ac32f1f864dc743c45bc5feafe92f319a490ab45a4b0918a27bc56",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_4b00baa636b92e18b7a75884_1",
+      "kind": "th",
+      "source": "Description",
+      "sourceHash": "4b00baa636b92e18b7a75884790f0769c3e702d20d8822e708f69ab2f07c7103",
+      "context": "Configuration (config.ini or environment variables) > Environment Variable Reference",
+      "contextHash": "eafa143435ac32f1f864dc743c45bc5feafe92f319a490ab45a4b0918a27bc56",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_9e1a82c02bd30efcbba8492c_1",
+      "kind": "td",
+      "source": "string",
+      "sourceHash": "9e1a82c02bd30efcbba8492cd2bc4ef7d8610b1d459ab89fe5465fe676cabd41",
+      "context": "Configuration (config.ini or environment variables) > Environment Variable Reference",
+      "contextHash": "eafa143435ac32f1f864dc743c45bc5feafe92f319a490ab45a4b0918a27bc56",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_dbccc23912dd4a0e87402bfe_0",
+      "kind": "td",
+      "source": "\"0.0.0.0\"",
+      "sourceHash": "dbccc23912dd4a0e87402bfe4240769baceabdcf16134d71047a3a14917e30ae",
+      "context": "Configuration (config.ini or environment variables) > Environment Variable Reference",
+      "contextHash": "eafa143435ac32f1f864dc743c45bc5feafe92f319a490ab45a4b0918a27bc56",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_3eec43f4e661182df82a5640_0",
+      "kind": "td",
+      "source": "Server host binding",
+      "sourceHash": "3eec43f4e661182df82a564073ce17c34ca27a6ad90590b347d1c3f692b3f919",
+      "context": "Configuration (config.ini or environment variables) > Environment Variable Reference",
+      "contextHash": "eafa143435ac32f1f864dc743c45bc5feafe92f319a490ab45a4b0918a27bc56",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_9e1a82c02bd30efcbba8492c_2",
+      "kind": "td",
+      "source": "string",
+      "sourceHash": "9e1a82c02bd30efcbba8492cd2bc4ef7d8610b1d459ab89fe5465fe676cabd41",
+      "context": "Configuration (config.ini or environment variables) > Environment Variable Reference",
+      "contextHash": "eafa143435ac32f1f864dc743c45bc5feafe92f319a490ab45a4b0918a27bc56",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_2e1b1c018b32dbe1e9139498_0",
+      "kind": "td",
+      "source": "\"8080\"",
+      "sourceHash": "2e1b1c018b32dbe1e913949809e2dd723df8f654909a1a835f5b1e5803054392",
+      "context": "Configuration (config.ini or environment variables) > Environment Variable Reference",
+      "contextHash": "eafa143435ac32f1f864dc743c45bc5feafe92f319a490ab45a4b0918a27bc56",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_ca26373418cdfc19073471e3_0",
+      "kind": "td",
+      "source": "Server port",
+      "sourceHash": "ca26373418cdfc19073471e336f9d7253b39c1c58d0578df8b753b63a6f330ea",
+      "context": "Configuration (config.ini or environment variables) > Environment Variable Reference",
+      "contextHash": "eafa143435ac32f1f864dc743c45bc5feafe92f319a490ab45a4b0918a27bc56",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_bd9765b0499a01deda87e4e1_4",
+      "kind": "td",
+      "source": "boolean",
+      "sourceHash": "bd9765b0499a01deda87e4e159f4c325808605c3b950d113bc7e331a7fccbc47",
+      "context": "Configuration (config.ini or environment variables) > Environment Variable Reference",
+      "contextHash": "eafa143435ac32f1f864dc743c45bc5feafe92f319a490ab45a4b0918a27bc56",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_7a1ac049b820ef5f13abc297_4",
+      "kind": "td",
+      "source": "false",
+      "sourceHash": "7a1ac049b820ef5f13abc2974b6cac98920f2270ceac02f5ff0778424041aab9",
+      "context": "Configuration (config.ini or environment variables) > Environment Variable Reference",
+      "contextHash": "eafa143435ac32f1f864dc743c45bc5feafe92f319a490ab45a4b0918a27bc56",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_0d8a482cb3f313535a3d237c_0",
+      "kind": "td",
+      "source": "Enable HTTPS",
+      "sourceHash": "0d8a482cb3f313535a3d237c374313441a5cfa7b0b8195995d7865442fbf7511",
+      "context": "Configuration (config.ini or environment variables) > Environment Variable Reference",
+      "contextHash": "eafa143435ac32f1f864dc743c45bc5feafe92f319a490ab45a4b0918a27bc56",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_9e1a82c02bd30efcbba8492c_3",
+      "kind": "td",
+      "source": "string",
+      "sourceHash": "9e1a82c02bd30efcbba8492cd2bc4ef7d8610b1d459ab89fe5465fe676cabd41",
+      "context": "Configuration (config.ini or environment variables) > Environment Variable Reference",
+      "contextHash": "eafa143435ac32f1f864dc743c45bc5feafe92f319a490ab45a4b0918a27bc56",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_1d23c5874abccaf5d487c0e7_1",
+      "kind": "td",
+      "source": "\"\"",
+      "sourceHash": "1d23c5874abccaf5d487c0e73492fd69a144746e029c819d61544d73eda9600d",
+      "context": "Configuration (config.ini or environment variables) > Environment Variable Reference",
+      "contextHash": "eafa143435ac32f1f864dc743c45bc5feafe92f319a490ab45a4b0918a27bc56",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_9ec323149850cba17eb568e7_0",
+      "kind": "td",
+      "source": "SSL certificate path",
+      "sourceHash": "9ec323149850cba17eb568e753b19f5226cb69a657fd160b821a2f8e43b8e14e",
+      "context": "Configuration (config.ini or environment variables) > Environment Variable Reference",
+      "contextHash": "eafa143435ac32f1f864dc743c45bc5feafe92f319a490ab45a4b0918a27bc56",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_9e1a82c02bd30efcbba8492c_4",
+      "kind": "td",
+      "source": "string",
+      "sourceHash": "9e1a82c02bd30efcbba8492cd2bc4ef7d8610b1d459ab89fe5465fe676cabd41",
+      "context": "Configuration (config.ini or environment variables) > Environment Variable Reference",
+      "contextHash": "eafa143435ac32f1f864dc743c45bc5feafe92f319a490ab45a4b0918a27bc56",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_1d23c5874abccaf5d487c0e7_2",
+      "kind": "td",
+      "source": "\"\"",
+      "sourceHash": "1d23c5874abccaf5d487c0e73492fd69a144746e029c819d61544d73eda9600d",
+      "context": "Configuration (config.ini or environment variables) > Environment Variable Reference",
+      "contextHash": "eafa143435ac32f1f864dc743c45bc5feafe92f319a490ab45a4b0918a27bc56",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_c3f8f57969cfc67ae5250ae5_0",
+      "kind": "td",
+      "source": "SSL key path",
+      "sourceHash": "c3f8f57969cfc67ae5250ae56b0c78611b762dff2f20ba0d631a07122f69dc23",
+      "context": "Configuration (config.ini or environment variables) > Environment Variable Reference",
+      "contextHash": "eafa143435ac32f1f864dc743c45bc5feafe92f319a490ab45a4b0918a27bc56",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_9e1a82c02bd30efcbba8492c_5",
+      "kind": "td",
+      "source": "string",
+      "sourceHash": "9e1a82c02bd30efcbba8492cd2bc4ef7d8610b1d459ab89fe5465fe676cabd41",
+      "context": "Configuration (config.ini or environment variables) > Environment Variable Reference",
+      "contextHash": "eafa143435ac32f1f864dc743c45bc5feafe92f319a490ab45a4b0918a27bc56",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_7a1ac049b820ef5f13abc297_5",
+      "kind": "td",
+      "source": "false",
+      "sourceHash": "7a1ac049b820ef5f13abc2974b6cac98920f2270ceac02f5ff0778424041aab9",
+      "context": "Configuration (config.ini or environment variables) > Environment Variable Reference",
+      "contextHash": "eafa143435ac32f1f864dc743c45bc5feafe92f319a490ab45a4b0918a27bc56",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_05d6bbd4faf261452cf56f74_0",
+      "kind": "td",
+      "source": "Addresses of the reverse proxy to trust, see __TRILIUM_PH_0__Trusted proxy__TRILIUM_PH_1__",
+      "sourceHash": "05d6bbd4faf261452cf56f740a4f367a3ee177a36afd6e7fdce384fd163b30a4",
+      "context": "Configuration (config.ini or environment variables) > Environment Variable Reference",
+      "contextHash": "eafa143435ac32f1f864dc743c45bc5feafe92f319a490ab45a4b0918a27bc56",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_9e1a82c02bd30efcbba8492c_6",
+      "kind": "td",
+      "source": "string",
+      "sourceHash": "9e1a82c02bd30efcbba8492cd2bc4ef7d8610b1d459ab89fe5465fe676cabd41",
+      "context": "Configuration (config.ini or environment variables) > Environment Variable Reference",
+      "contextHash": "eafa143435ac32f1f864dc743c45bc5feafe92f319a490ab45a4b0918a27bc56",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_1d23c5874abccaf5d487c0e7_3",
+      "kind": "td",
+      "source": "\"\"",
+      "sourceHash": "1d23c5874abccaf5d487c0e73492fd69a144746e029c819d61544d73eda9600d",
+      "context": "Configuration (config.ini or environment variables) > Environment Variable Reference",
+      "contextHash": "eafa143435ac32f1f864dc743c45bc5feafe92f319a490ab45a4b0918a27bc56",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_6c54e99a8f3238f4d9abe1ac_0",
+      "kind": "td",
+      "source": "CORS allowed origins",
+      "sourceHash": "6c54e99a8f3238f4d9abe1ac3c9d8cc902ddd21886e5ef2773581ccf91f6456a",
+      "context": "Configuration (config.ini or environment variables) > Environment Variable Reference",
+      "contextHash": "eafa143435ac32f1f864dc743c45bc5feafe92f319a490ab45a4b0918a27bc56",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_9e1a82c02bd30efcbba8492c_7",
+      "kind": "td",
+      "source": "string",
+      "sourceHash": "9e1a82c02bd30efcbba8492cd2bc4ef7d8610b1d459ab89fe5465fe676cabd41",
+      "context": "Configuration (config.ini or environment variables) > Environment Variable Reference",
+      "contextHash": "eafa143435ac32f1f864dc743c45bc5feafe92f319a490ab45a4b0918a27bc56",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_1d23c5874abccaf5d487c0e7_4",
+      "kind": "td",
+      "source": "\"\"",
+      "sourceHash": "1d23c5874abccaf5d487c0e73492fd69a144746e029c819d61544d73eda9600d",
+      "context": "Configuration (config.ini or environment variables) > Environment Variable Reference",
+      "contextHash": "eafa143435ac32f1f864dc743c45bc5feafe92f319a490ab45a4b0918a27bc56",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_8d619c9bc78856973396e01b_0",
+      "kind": "td",
+      "source": "CORS allowed methods",
+      "sourceHash": "8d619c9bc78856973396e01b9098e131e465a43910acc4d300435541fdc58a04",
+      "context": "Configuration (config.ini or environment variables) > Environment Variable Reference",
+      "contextHash": "eafa143435ac32f1f864dc743c45bc5feafe92f319a490ab45a4b0918a27bc56",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_9e1a82c02bd30efcbba8492c_8",
+      "kind": "td",
+      "source": "string",
+      "sourceHash": "9e1a82c02bd30efcbba8492cd2bc4ef7d8610b1d459ab89fe5465fe676cabd41",
+      "context": "Configuration (config.ini or environment variables) > Environment Variable Reference",
+      "contextHash": "eafa143435ac32f1f864dc743c45bc5feafe92f319a490ab45a4b0918a27bc56",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_1d23c5874abccaf5d487c0e7_5",
+      "kind": "td",
+      "source": "\"\"",
+      "sourceHash": "1d23c5874abccaf5d487c0e73492fd69a144746e029c819d61544d73eda9600d",
+      "context": "Configuration (config.ini or environment variables) > Environment Variable Reference",
+      "contextHash": "eafa143435ac32f1f864dc743c45bc5feafe92f319a490ab45a4b0918a27bc56",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_690375ccb53c0fdfd0f73eae_0",
+      "kind": "td",
+      "source": "CORS allowed headers",
+      "sourceHash": "690375ccb53c0fdfd0f73eae761b9eddef72aaee8824ee4a9f3bd0c656756134",
+      "context": "Configuration (config.ini or environment variables) > Environment Variable Reference",
+      "contextHash": "eafa143435ac32f1f864dc743c45bc5feafe92f319a490ab45a4b0918a27bc56",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_9e1a82c02bd30efcbba8492c_9",
+      "kind": "td",
+      "source": "string",
+      "sourceHash": "9e1a82c02bd30efcbba8492cd2bc4ef7d8610b1d459ab89fe5465fe676cabd41",
+      "context": "Configuration (config.ini or environment variables) > Environment Variable Reference",
+      "contextHash": "eafa143435ac32f1f864dc743c45bc5feafe92f319a490ab45a4b0918a27bc56",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_01c59d9e0b940363a4ab8c8f_0",
+      "kind": "td",
+      "source": "same-origin",
+      "sourceHash": "01c59d9e0b940363a4ab8c8fc6a7ebfa1024d37354095d43a6a4b25da164be33",
+      "context": "Configuration (config.ini or environment variables) > Environment Variable Reference",
+      "contextHash": "eafa143435ac32f1f864dc743c45bc5feafe92f319a490ab45a4b0918a27bc56",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_9953266941c9e00b2fe021a0_0",
+      "kind": "td",
+      "source": "CORS Resource Policy allows same-origin/same-site/cross-origin as values, will error if not",
+      "sourceHash": "9953266941c9e00b2fe021a0c3d4facb433a8dee0fa3dc2d09aeb6228dc15640",
+      "context": "Configuration (config.ini or environment variables) > Environment Variable Reference",
+      "contextHash": "eafa143435ac32f1f864dc743c45bc5feafe92f319a490ab45a4b0918a27bc56",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_a05c299bb66cee25b388d2a5_0",
+      "kind": "p",
+      "source": "Session",
+      "sourceHash": "a05c299bb66cee25b388d2a58b66c3d61916cdec063a0beaecb5c206423341e5",
+      "context": "Configuration (config.ini or environment variables) > Environment Variable Reference",
+      "contextHash": "eafa143435ac32f1f864dc743c45bc5feafe92f319a490ab45a4b0918a27bc56",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_1e8b245076ba4b7991fdc7b4_2",
+      "kind": "th",
+      "source": "Environment Variable",
+      "sourceHash": "1e8b245076ba4b7991fdc7b4186a847eff14f01958ce8ef779aef6ba553cd26b",
+      "context": "Configuration (config.ini or environment variables) > Environment Variable Reference",
+      "contextHash": "eafa143435ac32f1f864dc743c45bc5feafe92f319a490ab45a4b0918a27bc56",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_f8bfabed24dff0a6c63a9d3c_2",
+      "kind": "th",
+      "source": "Type",
+      "sourceHash": "f8bfabed24dff0a6c63a9d3c8bb6083befac650c35780d34c16ebaab76fcfaef",
+      "context": "Configuration (config.ini or environment variables) > Environment Variable Reference",
+      "contextHash": "eafa143435ac32f1f864dc743c45bc5feafe92f319a490ab45a4b0918a27bc56",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_e765a6977fbd7d51b43aabab_2",
+      "kind": "th",
+      "source": "Default",
+      "sourceHash": "e765a6977fbd7d51b43aabab21c012d617ff3e30e02255a2c93b3a6a58bb18ae",
+      "context": "Configuration (config.ini or environment variables) > Environment Variable Reference",
+      "contextHash": "eafa143435ac32f1f864dc743c45bc5feafe92f319a490ab45a4b0918a27bc56",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_4b00baa636b92e18b7a75884_2",
+      "kind": "th",
+      "source": "Description",
+      "sourceHash": "4b00baa636b92e18b7a75884790f0769c3e702d20d8822e708f69ab2f07c7103",
+      "context": "Configuration (config.ini or environment variables) > Environment Variable Reference",
+      "contextHash": "eafa143435ac32f1f864dc743c45bc5feafe92f319a490ab45a4b0918a27bc56",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_198dbdda9115b772ae963552_0",
+      "kind": "td",
+      "source": "integer",
+      "sourceHash": "198dbdda9115b772ae96355212c3aad2bca44bbb433d1c74da7c37b0be14c92d",
+      "context": "Configuration (config.ini or environment variables) > Environment Variable Reference",
+      "contextHash": "eafa143435ac32f1f864dc743c45bc5feafe92f319a490ab45a4b0918a27bc56",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_4c7284d20e7fb439f3917f2a_0",
+      "kind": "td",
+      "source": "1814400",
+      "sourceHash": "4c7284d20e7fb439f3917f2ab6f1fb40174fd427bc5bceb8339f473b50dfd80b",
+      "context": "Configuration (config.ini or environment variables) > Environment Variable Reference",
+      "contextHash": "eafa143435ac32f1f864dc743c45bc5feafe92f319a490ab45a4b0918a27bc56",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_f414ecb332deae561cd6d7e5_0",
+      "kind": "td",
+      "source": "Session cookie max age in seconds (21 days)",
+      "sourceHash": "f414ecb332deae561cd6d7e5185e650733932358f79f6366a17bd6e59c4707f3",
+      "context": "Configuration (config.ini or environment variables) > Environment Variable Reference",
+      "contextHash": "eafa143435ac32f1f864dc743c45bc5feafe92f319a490ab45a4b0918a27bc56",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_38bfaba1dddda89d55c13ac7_0",
+      "kind": "p",
+      "source": "Sync",
+      "sourceHash": "38bfaba1dddda89d55c13ac7198604a0f1b057b7fda791ca399e178bad0ba148",
+      "context": "Configuration (config.ini or environment variables) > Environment Variable Reference",
+      "contextHash": "eafa143435ac32f1f864dc743c45bc5feafe92f319a490ab45a4b0918a27bc56",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_1e8b245076ba4b7991fdc7b4_3",
+      "kind": "th",
+      "source": "Environment Variable",
+      "sourceHash": "1e8b245076ba4b7991fdc7b4186a847eff14f01958ce8ef779aef6ba553cd26b",
+      "context": "Configuration (config.ini or environment variables) > Environment Variable Reference",
+      "contextHash": "eafa143435ac32f1f864dc743c45bc5feafe92f319a490ab45a4b0918a27bc56",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_f8bfabed24dff0a6c63a9d3c_3",
+      "kind": "th",
+      "source": "Type",
+      "sourceHash": "f8bfabed24dff0a6c63a9d3c8bb6083befac650c35780d34c16ebaab76fcfaef",
+      "context": "Configuration (config.ini or environment variables) > Environment Variable Reference",
+      "contextHash": "eafa143435ac32f1f864dc743c45bc5feafe92f319a490ab45a4b0918a27bc56",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_e765a6977fbd7d51b43aabab_3",
+      "kind": "th",
+      "source": "Default",
+      "sourceHash": "e765a6977fbd7d51b43aabab21c012d617ff3e30e02255a2c93b3a6a58bb18ae",
+      "context": "Configuration (config.ini or environment variables) > Environment Variable Reference",
+      "contextHash": "eafa143435ac32f1f864dc743c45bc5feafe92f319a490ab45a4b0918a27bc56",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_4b00baa636b92e18b7a75884_3",
+      "kind": "th",
+      "source": "Description",
+      "sourceHash": "4b00baa636b92e18b7a75884790f0769c3e702d20d8822e708f69ab2f07c7103",
+      "context": "Configuration (config.ini or environment variables) > Environment Variable Reference",
+      "contextHash": "eafa143435ac32f1f864dc743c45bc5feafe92f319a490ab45a4b0918a27bc56",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_9e1a82c02bd30efcbba8492c_10",
+      "kind": "td",
+      "source": "string",
+      "sourceHash": "9e1a82c02bd30efcbba8492cd2bc4ef7d8610b1d459ab89fe5465fe676cabd41",
+      "context": "Configuration (config.ini or environment variables) > Environment Variable Reference",
+      "contextHash": "eafa143435ac32f1f864dc743c45bc5feafe92f319a490ab45a4b0918a27bc56",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_1d23c5874abccaf5d487c0e7_6",
+      "kind": "td",
+      "source": "\"\"",
+      "sourceHash": "1d23c5874abccaf5d487c0e73492fd69a144746e029c819d61544d73eda9600d",
+      "context": "Configuration (config.ini or environment variables) > Environment Variable Reference",
+      "contextHash": "eafa143435ac32f1f864dc743c45bc5feafe92f319a490ab45a4b0918a27bc56",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_53322266f82d0c7c4d6eff6e_0",
+      "kind": "td",
+      "source": "Sync server host URL",
+      "sourceHash": "53322266f82d0c7c4d6eff6e6aa9cb56be2969ced87cb7c2f1f50bd4ec60d24d",
+      "context": "Configuration (config.ini or environment variables) > Environment Variable Reference",
+      "contextHash": "eafa143435ac32f1f864dc743c45bc5feafe92f319a490ab45a4b0918a27bc56",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_9e1a82c02bd30efcbba8492c_11",
+      "kind": "td",
+      "source": "string",
+      "sourceHash": "9e1a82c02bd30efcbba8492cd2bc4ef7d8610b1d459ab89fe5465fe676cabd41",
+      "context": "Configuration (config.ini or environment variables) > Environment Variable Reference",
+      "contextHash": "eafa143435ac32f1f864dc743c45bc5feafe92f319a490ab45a4b0918a27bc56",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_29d2f88debe7c8822daf0a72_0",
+      "kind": "td",
+      "source": "\"120000\"",
+      "sourceHash": "29d2f88debe7c8822daf0a7299ddc8f9c3e28ec62b7ec2afc6905b9d6f417c41",
+      "context": "Configuration (config.ini or environment variables) > Environment Variable Reference",
+      "contextHash": "eafa143435ac32f1f864dc743c45bc5feafe92f319a490ab45a4b0918a27bc56",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_58137bbcd41e67cfceda6e79_0",
+      "kind": "td",
+      "source": "Sync server timeout in milliseconds",
+      "sourceHash": "58137bbcd41e67cfceda6e79ee2587aff5d02a532d07e3b3c7900799bfc542c4",
+      "context": "Configuration (config.ini or environment variables) > Environment Variable Reference",
+      "contextHash": "eafa143435ac32f1f864dc743c45bc5feafe92f319a490ab45a4b0918a27bc56",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_9e1a82c02bd30efcbba8492c_12",
+      "kind": "td",
+      "source": "string",
+      "sourceHash": "9e1a82c02bd30efcbba8492cd2bc4ef7d8610b1d459ab89fe5465fe676cabd41",
+      "context": "Configuration (config.ini or environment variables) > Environment Variable Reference",
+      "contextHash": "eafa143435ac32f1f864dc743c45bc5feafe92f319a490ab45a4b0918a27bc56",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_1d23c5874abccaf5d487c0e7_7",
+      "kind": "td",
+      "source": "\"\"",
+      "sourceHash": "1d23c5874abccaf5d487c0e73492fd69a144746e029c819d61544d73eda9600d",
+      "context": "Configuration (config.ini or environment variables) > Environment Variable Reference",
+      "contextHash": "eafa143435ac32f1f864dc743c45bc5feafe92f319a490ab45a4b0918a27bc56",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_d20bbc3e030eb3b8e1de9d2a_0",
+      "kind": "td",
+      "source": "Sync proxy URL",
+      "sourceHash": "d20bbc3e030eb3b8e1de9d2a850f151461d2eb3462302ebfe6467f3593fa8445",
+      "context": "Configuration (config.ini or environment variables) > Environment Variable Reference",
+      "contextHash": "eafa143435ac32f1f864dc743c45bc5feafe92f319a490ab45a4b0918a27bc56",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_c4a37e5f65b8b76a779bf6aa_0",
+      "kind": "p",
+      "source": "MultiFactorAuthentication",
+      "sourceHash": "c4a37e5f65b8b76a779bf6aae1a44cffc45c9e7d0fa09d0d363d71069751cf41",
+      "context": "Configuration (config.ini or environment variables) > Environment Variable Reference",
+      "contextHash": "eafa143435ac32f1f864dc743c45bc5feafe92f319a490ab45a4b0918a27bc56",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_5cbf6921629c476ee1f23c3d_0",
+      "kind": "p",
+      "source": "See __TRILIUM_PH_0__Signing in with OpenID Connect__TRILIUM_PH_1__.",
+      "sourceHash": "5cbf6921629c476ee1f23c3d023037996e9a2d38c705263caf3f33d872966479",
+      "context": "Configuration (config.ini or environment variables) > Environment Variable Reference",
+      "contextHash": "eafa143435ac32f1f864dc743c45bc5feafe92f319a490ab45a4b0918a27bc56",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_833f5f037e549864ba5b2f26_0",
+      "kind": "p",
+      "source": "Logging",
+      "sourceHash": "833f5f037e549864ba5b2f2668e8e9538b595ea5d3739af92589c5576c0aaa34",
+      "context": "Configuration (config.ini or environment variables) > Environment Variable Reference",
+      "contextHash": "eafa143435ac32f1f864dc743c45bc5feafe92f319a490ab45a4b0918a27bc56",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_1e8b245076ba4b7991fdc7b4_4",
+      "kind": "th",
+      "source": "Environment Variable",
+      "sourceHash": "1e8b245076ba4b7991fdc7b4186a847eff14f01958ce8ef779aef6ba553cd26b",
+      "context": "Configuration (config.ini or environment variables) > Environment Variable Reference",
+      "contextHash": "eafa143435ac32f1f864dc743c45bc5feafe92f319a490ab45a4b0918a27bc56",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_f8bfabed24dff0a6c63a9d3c_4",
+      "kind": "th",
+      "source": "Type",
+      "sourceHash": "f8bfabed24dff0a6c63a9d3c8bb6083befac650c35780d34c16ebaab76fcfaef",
+      "context": "Configuration (config.ini or environment variables) > Environment Variable Reference",
+      "contextHash": "eafa143435ac32f1f864dc743c45bc5feafe92f319a490ab45a4b0918a27bc56",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_e765a6977fbd7d51b43aabab_4",
+      "kind": "th",
+      "source": "Default",
+      "sourceHash": "e765a6977fbd7d51b43aabab21c012d617ff3e30e02255a2c93b3a6a58bb18ae",
+      "context": "Configuration (config.ini or environment variables) > Environment Variable Reference",
+      "contextHash": "eafa143435ac32f1f864dc743c45bc5feafe92f319a490ab45a4b0918a27bc56",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_4b00baa636b92e18b7a75884_4",
+      "kind": "th",
+      "source": "Description",
+      "sourceHash": "4b00baa636b92e18b7a75884790f0769c3e702d20d8822e708f69ab2f07c7103",
+      "context": "Configuration (config.ini or environment variables) > Environment Variable Reference",
+      "contextHash": "eafa143435ac32f1f864dc743c45bc5feafe92f319a490ab45a4b0918a27bc56",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_198dbdda9115b772ae963552_1",
+      "kind": "td",
+      "source": "integer",
+      "sourceHash": "198dbdda9115b772ae96355212c3aad2bca44bbb433d1c74da7c37b0be14c92d",
+      "context": "Configuration (config.ini or environment variables) > Environment Variable Reference",
+      "contextHash": "eafa143435ac32f1f864dc743c45bc5feafe92f319a490ab45a4b0918a27bc56",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_d1776d285ea0cd5da707b26b_0",
+      "kind": "td",
+      "source": "90",
+      "sourceHash": "d1776d285ea0cd5da707b26bf7efbf78dc20f26e0169fc80235ad3b183ed0486",
+      "context": "Configuration (config.ini or environment variables) > Environment Variable Reference",
+      "contextHash": "eafa143435ac32f1f864dc743c45bc5feafe92f319a490ab45a4b0918a27bc56",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_6bf46c910d1f1f81456c1a5c_0",
+      "kind": "td",
+      "source": "Number of days to retain log files",
+      "sourceHash": "6bf46c910d1f1f81456c1a5c6a837f79c904284e2cb5bcb1b14b8fc87d342ebd",
+      "context": "Configuration (config.ini or environment variables) > Environment Variable Reference",
+      "contextHash": "eafa143435ac32f1f864dc743c45bc5feafe92f319a490ab45a4b0918a27bc56",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_e3ae1b50f09e78a09c4f203d_0",
+      "kind": "p",
+      "source": "Development",
+      "sourceHash": "e3ae1b50f09e78a09c4f203dc862d53b865f6c6d00d2e4076e31ee85a6e42593",
+      "context": "Configuration (config.ini or environment variables) > Environment Variable Reference",
+      "contextHash": "eafa143435ac32f1f864dc743c45bc5feafe92f319a490ab45a4b0918a27bc56",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_1e8b245076ba4b7991fdc7b4_5",
+      "kind": "th",
+      "source": "Environment Variable",
+      "sourceHash": "1e8b245076ba4b7991fdc7b4186a847eff14f01958ce8ef779aef6ba553cd26b",
+      "context": "Configuration (config.ini or environment variables) > Environment Variable Reference",
+      "contextHash": "eafa143435ac32f1f864dc743c45bc5feafe92f319a490ab45a4b0918a27bc56",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_f8bfabed24dff0a6c63a9d3c_5",
+      "kind": "th",
+      "source": "Type",
+      "sourceHash": "f8bfabed24dff0a6c63a9d3c8bb6083befac650c35780d34c16ebaab76fcfaef",
+      "context": "Configuration (config.ini or environment variables) > Environment Variable Reference",
+      "contextHash": "eafa143435ac32f1f864dc743c45bc5feafe92f319a490ab45a4b0918a27bc56",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_e765a6977fbd7d51b43aabab_5",
+      "kind": "th",
+      "source": "Default",
+      "sourceHash": "e765a6977fbd7d51b43aabab21c012d617ff3e30e02255a2c93b3a6a58bb18ae",
+      "context": "Configuration (config.ini or environment variables) > Environment Variable Reference",
+      "contextHash": "eafa143435ac32f1f864dc743c45bc5feafe92f319a490ab45a4b0918a27bc56",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_4b00baa636b92e18b7a75884_5",
+      "kind": "th",
+      "source": "Description",
+      "sourceHash": "4b00baa636b92e18b7a75884790f0769c3e702d20d8822e708f69ab2f07c7103",
+      "context": "Configuration (config.ini or environment variables) > Environment Variable Reference",
+      "contextHash": "eafa143435ac32f1f864dc743c45bc5feafe92f319a490ab45a4b0918a27bc56",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_bd9765b0499a01deda87e4e1_5",
+      "kind": "td",
+      "source": "boolean",
+      "sourceHash": "bd9765b0499a01deda87e4e159f4c325808605c3b950d113bc7e331a7fccbc47",
+      "context": "Configuration (config.ini or environment variables) > Environment Variable Reference",
+      "contextHash": "eafa143435ac32f1f864dc743c45bc5feafe92f319a490ab45a4b0918a27bc56",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_7a1ac049b820ef5f13abc297_6",
+      "kind": "td",
+      "source": "false",
+      "sourceHash": "7a1ac049b820ef5f13abc2974b6cac98920f2270ceac02f5ff0778424041aab9",
+      "context": "Configuration (config.ini or environment variables) > Environment Variable Reference",
+      "contextHash": "eafa143435ac32f1f864dc743c45bc5feafe92f319a490ab45a4b0918a27bc56",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_95c0b0d5ee7dc98970f03592_0",
+      "kind": "td",
+      "source": "If __TRILIUM_PH_0__, the application will not start if automatic database migrations are pending and would modify the database schema.",
+      "sourceHash": "95c0b0d5ee7dc98970f035929220a66a43a16fc6b777b09524b285ddf65fc4f3",
+      "context": "Configuration (config.ini or environment variables) > Environment Variable Reference",
+      "contextHash": "eafa143435ac32f1f864dc743c45bc5feafe92f319a490ab45a4b0918a27bc56",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_3293746f1e04ac3d4de487c3_0",
+      "kind": "summary",
+      "source": "Alternative environment variables",
+      "sourceHash": "3293746f1e04ac3d4de487c38852178e0facc7453d1c59fa393270c2261bcf9d",
+      "context": "Configuration (config.ini or environment variables) > Environment Variable Reference",
+      "contextHash": "eafa143435ac32f1f864dc743c45bc5feafe92f319a490ab45a4b0918a27bc56",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_da20ac795b28bf34b93b0b95_0",
+      "kind": "p",
+      "source": "The following alternative environment variable names are also supported and work identically to their longer counterparts.",
+      "sourceHash": "da20ac795b28bf34b93b0b95cb167662e90738128545851e4493e7add2e537eb",
+      "context": "Configuration (config.ini or environment variables) > Environment Variable Reference",
+      "contextHash": "eafa143435ac32f1f864dc743c45bc5feafe92f319a490ab45a4b0918a27bc56",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_167a9811452c5188b60d80c4_0",
+      "kind": "p",
+      "source": "Network CORS",
+      "sourceHash": "167a9811452c5188b60d80c484c3210a8fb79d009e3c721eb121f083fa2c96af",
+      "context": "Configuration (config.ini or environment variables) > Environment Variable Reference",
+      "contextHash": "eafa143435ac32f1f864dc743c45bc5feafe92f319a490ab45a4b0918a27bc56",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_78b22365b97f3a4e2167cc60_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__ (alternative to __TRILIUM_PH_1__)",
+      "sourceHash": "78b22365b97f3a4e2167cc60576b56beda1ff0bf4434975c8732fc1f7ead2f9b",
+      "context": "Configuration (config.ini or environment variables) > Environment Variable Reference",
+      "contextHash": "eafa143435ac32f1f864dc743c45bc5feafe92f319a490ab45a4b0918a27bc56",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_78b22365b97f3a4e2167cc60_1",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__ (alternative to __TRILIUM_PH_1__)",
+      "sourceHash": "78b22365b97f3a4e2167cc60576b56beda1ff0bf4434975c8732fc1f7ead2f9b",
+      "context": "Configuration (config.ini or environment variables) > Environment Variable Reference",
+      "contextHash": "eafa143435ac32f1f864dc743c45bc5feafe92f319a490ab45a4b0918a27bc56",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_78b22365b97f3a4e2167cc60_2",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__ (alternative to __TRILIUM_PH_1__)",
+      "sourceHash": "78b22365b97f3a4e2167cc60576b56beda1ff0bf4434975c8732fc1f7ead2f9b",
+      "context": "Configuration (config.ini or environment variables) > Environment Variable Reference",
+      "contextHash": "eafa143435ac32f1f864dc743c45bc5feafe92f319a490ab45a4b0918a27bc56",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_78b22365b97f3a4e2167cc60_3",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__ (alternative to __TRILIUM_PH_1__)",
+      "sourceHash": "78b22365b97f3a4e2167cc60576b56beda1ff0bf4434975c8732fc1f7ead2f9b",
+      "context": "Configuration (config.ini or environment variables) > Environment Variable Reference",
+      "contextHash": "eafa143435ac32f1f864dc743c45bc5feafe92f319a490ab45a4b0918a27bc56",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_38bfaba1dddda89d55c13ac7_1",
+      "kind": "p",
+      "source": "Sync",
+      "sourceHash": "38bfaba1dddda89d55c13ac7198604a0f1b057b7fda791ca399e178bad0ba148",
+      "context": "Configuration (config.ini or environment variables) > Environment Variable Reference",
+      "contextHash": "eafa143435ac32f1f864dc743c45bc5feafe92f319a490ab45a4b0918a27bc56",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_78b22365b97f3a4e2167cc60_4",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__ (alternative to __TRILIUM_PH_1__)",
+      "sourceHash": "78b22365b97f3a4e2167cc60576b56beda1ff0bf4434975c8732fc1f7ead2f9b",
+      "context": "Configuration (config.ini or environment variables) > Environment Variable Reference",
+      "contextHash": "eafa143435ac32f1f864dc743c45bc5feafe92f319a490ab45a4b0918a27bc56",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_78b22365b97f3a4e2167cc60_5",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__ (alternative to __TRILIUM_PH_1__)",
+      "sourceHash": "78b22365b97f3a4e2167cc60576b56beda1ff0bf4434975c8732fc1f7ead2f9b",
+      "context": "Configuration (config.ini or environment variables) > Environment Variable Reference",
+      "contextHash": "eafa143435ac32f1f864dc743c45bc5feafe92f319a490ab45a4b0918a27bc56",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_78b22365b97f3a4e2167cc60_6",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__ (alternative to __TRILIUM_PH_1__)",
+      "sourceHash": "78b22365b97f3a4e2167cc60576b56beda1ff0bf4434975c8732fc1f7ead2f9b",
+      "context": "Configuration (config.ini or environment variables) > Environment Variable Reference",
+      "contextHash": "eafa143435ac32f1f864dc743c45bc5feafe92f319a490ab45a4b0918a27bc56",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_0a7250dadceb17cf4d992019_0",
+      "kind": "p",
+      "source": "OAuth/MFA",
+      "sourceHash": "0a7250dadceb17cf4d992019461ea2d855ed733582a083be556d36f5b0a8b7b1",
+      "context": "Configuration (config.ini or environment variables) > Environment Variable Reference",
+      "contextHash": "eafa143435ac32f1f864dc743c45bc5feafe92f319a490ab45a4b0918a27bc56",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_78b22365b97f3a4e2167cc60_7",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__ (alternative to __TRILIUM_PH_1__)",
+      "sourceHash": "78b22365b97f3a4e2167cc60576b56beda1ff0bf4434975c8732fc1f7ead2f9b",
+      "context": "Configuration (config.ini or environment variables) > Environment Variable Reference",
+      "contextHash": "eafa143435ac32f1f864dc743c45bc5feafe92f319a490ab45a4b0918a27bc56",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_78b22365b97f3a4e2167cc60_8",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__ (alternative to __TRILIUM_PH_1__)",
+      "sourceHash": "78b22365b97f3a4e2167cc60576b56beda1ff0bf4434975c8732fc1f7ead2f9b",
+      "context": "Configuration (config.ini or environment variables) > Environment Variable Reference",
+      "contextHash": "eafa143435ac32f1f864dc743c45bc5feafe92f319a490ab45a4b0918a27bc56",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_78b22365b97f3a4e2167cc60_9",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__ (alternative to __TRILIUM_PH_1__)",
+      "sourceHash": "78b22365b97f3a4e2167cc60576b56beda1ff0bf4434975c8732fc1f7ead2f9b",
+      "context": "Configuration (config.ini or environment variables) > Environment Variable Reference",
+      "contextHash": "eafa143435ac32f1f864dc743c45bc5feafe92f319a490ab45a4b0918a27bc56",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_78b22365b97f3a4e2167cc60_10",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__ (alternative to __TRILIUM_PH_1__)",
+      "sourceHash": "78b22365b97f3a4e2167cc60576b56beda1ff0bf4434975c8732fc1f7ead2f9b",
+      "context": "Configuration (config.ini or environment variables) > Environment Variable Reference",
+      "contextHash": "eafa143435ac32f1f864dc743c45bc5feafe92f319a490ab45a4b0918a27bc56",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_78b22365b97f3a4e2167cc60_11",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__ (alternative to __TRILIUM_PH_1__)",
+      "sourceHash": "78b22365b97f3a4e2167cc60576b56beda1ff0bf4434975c8732fc1f7ead2f9b",
+      "context": "Configuration (config.ini or environment variables) > Environment Variable Reference",
+      "contextHash": "eafa143435ac32f1f864dc743c45bc5feafe92f319a490ab45a4b0918a27bc56",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_78b22365b97f3a4e2167cc60_12",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__ (alternative to __TRILIUM_PH_1__)",
+      "sourceHash": "78b22365b97f3a4e2167cc60576b56beda1ff0bf4434975c8732fc1f7ead2f9b",
+      "context": "Configuration (config.ini or environment variables) > Environment Variable Reference",
+      "contextHash": "eafa143435ac32f1f864dc743c45bc5feafe92f319a490ab45a4b0918a27bc56",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_78b22365b97f3a4e2167cc60_13",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__ (alternative to __TRILIUM_PH_1__)",
+      "sourceHash": "78b22365b97f3a4e2167cc60576b56beda1ff0bf4434975c8732fc1f7ead2f9b",
+      "context": "Configuration (config.ini or environment variables) > Environment Variable Reference",
+      "contextHash": "eafa143435ac32f1f864dc743c45bc5feafe92f319a490ab45a4b0918a27bc56",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_78b22365b97f3a4e2167cc60_14",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__ (alternative to __TRILIUM_PH_1__)",
+      "sourceHash": "78b22365b97f3a4e2167cc60576b56beda1ff0bf4434975c8732fc1f7ead2f9b",
+      "context": "Configuration (config.ini or environment variables) > Environment Variable Reference",
+      "contextHash": "eafa143435ac32f1f864dc743c45bc5feafe92f319a490ab45a4b0918a27bc56",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_833f5f037e549864ba5b2f26_1",
+      "kind": "p",
+      "source": "Logging",
+      "sourceHash": "833f5f037e549864ba5b2f2668e8e9538b595ea5d3739af92589c5576c0aaa34",
+      "context": "Configuration (config.ini or environment variables) > Environment Variable Reference",
+      "contextHash": "eafa143435ac32f1f864dc743c45bc5feafe92f319a490ab45a4b0918a27bc56",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_78b22365b97f3a4e2167cc60_15",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__ (alternative to __TRILIUM_PH_1__)",
+      "sourceHash": "78b22365b97f3a4e2167cc60576b56beda1ff0bf4434975c8732fc1f7ead2f9b",
+      "context": "Configuration (config.ini or environment variables) > Environment Variable Reference",
+      "contextHash": "eafa143435ac32f1f864dc743c45bc5feafe92f319a490ab45a4b0918a27bc56",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_f473259da1d2ecf17e12c623_0",
+      "kind": "h2",
+      "source": "Boolean Values__TRILIUM_PH_0__",
+      "sourceHash": "f473259da1d2ecf17e12c6236c512d3dd8ac147f45e4b95de909f8d30c3fa61a",
+      "context": "Configuration (config.ini or environment variables) > Boolean Values",
+      "contextHash": "43ea7f52451d847179ab7dc2fb677ac194885c7e934a9f95078ca008deb8b4ad",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_a9075962f9bb8a593d8aa8bf_0",
+      "kind": "p",
+      "source": "Boolean environment variables accept the following values:",
+      "sourceHash": "a9075962f9bb8a593d8aa8bf8b2c6cf7081de41d91e91b9464dd18ed107b352d",
+      "context": "Configuration (config.ini or environment variables) > Boolean Values",
+      "contextHash": "43ea7f52451d847179ab7dc2fb677ac194885c7e934a9f95078ca008deb8b4ad",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_1256173d2c7417c7833c4642_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__True__TRILIUM_PH_1__: __TRILIUM_PH_2__, __TRILIUM_PH_3__, __TRILIUM_PH_4__",
+      "sourceHash": "1256173d2c7417c7833c4642228d6e967242832ac9129188cc80c3ebf735fdb6",
+      "context": "Configuration (config.ini or environment variables) > Boolean Values",
+      "contextHash": "43ea7f52451d847179ab7dc2fb677ac194885c7e934a9f95078ca008deb8b4ad",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_cfd11c202547082664f04342_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__False__TRILIUM_PH_1__: __TRILIUM_PH_2__, __TRILIUM_PH_3__, __TRILIUM_PH_4__",
+      "sourceHash": "cfd11c202547082664f0434231b8a97f42abbc57685c4ca07090c7124238b17f",
+      "context": "Configuration (config.ini or environment variables) > Boolean Values",
+      "contextHash": "43ea7f52451d847179ab7dc2fb677ac194885c7e934a9f95078ca008deb8b4ad",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_126fea9fb07d782875ea9eb7_0",
+      "kind": "li",
+      "source": "Any other value defaults to __TRILIUM_PH_0__",
+      "sourceHash": "126fea9fb07d782875ea9eb7d8fbcf47db8b3b1850d76563d34cde51c3ea25b0",
+      "context": "Configuration (config.ini or environment variables) > Boolean Values",
+      "contextHash": "43ea7f52451d847179ab7dc2fb677ac194885c7e934a9f95078ca008deb8b4ad",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_fbfec2d28d9a8eeb4e820c6e_0",
+      "kind": "h2",
+      "source": "Using Environment Variables__TRILIUM_PH_0__",
+      "sourceHash": "fbfec2d28d9a8eeb4e820c6ef6cada0058f48a4caff1f7c4ccba0487615fefb1",
+      "context": "Configuration (config.ini or environment variables) > Using Environment Variables",
+      "contextHash": "a88d189d89187c09f1b2c8b48db822a444695481bdb2ef11af02ba3b421bcaaf",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_79818ad07ba1ea387e6cb503_0",
+      "kind": "p",
+      "source": "Both naming patterns are fully supported and can be used interchangeably:",
+      "sourceHash": "79818ad07ba1ea387e6cb5035d3854cc5713c76fcf107f52d09040b332d2e8d0",
+      "context": "Configuration (config.ini or environment variables) > Using Environment Variables",
+      "contextHash": "a88d189d89187c09f1b2c8b48db822a444695481bdb2ef11af02ba3b421bcaaf",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_61d7ed183a07528e2d9e43dc_0",
+      "kind": "li",
+      "source": "The longer format follows the section/key pattern for consistency with the INI file structure",
+      "sourceHash": "61d7ed183a07528e2d9e43dcd88fff23654724c3c651b26c7020e0eb8b11e3dd",
+      "context": "Configuration (config.ini or environment variables) > Using Environment Variables",
+      "contextHash": "a88d189d89187c09f1b2c8b48db822a444695481bdb2ef11af02ba3b421bcaaf",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_3af35804264337922475eaf1_0",
+      "kind": "li",
+      "source": "The shorter alternatives provide convenience for common configurations",
+      "sourceHash": "3af35804264337922475eaf11d12d0ea495aa260435ac3849c9c32aa92f9dd5f",
+      "context": "Configuration (config.ini or environment variables) > Using Environment Variables",
+      "contextHash": "a88d189d89187c09f1b2c8b48db822a444695481bdb2ef11af02ba3b421bcaaf",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_113d4186d3881e8b81161192_0",
+      "kind": "li",
+      "source": "You can use whichever format you prefer - both are equally valid",
+      "sourceHash": "113d4186d3881e8b8116119288b728a0ccc551422756ee55810eeba1949affd3",
+      "context": "Configuration (config.ini or environment variables) > Using Environment Variables",
+      "contextHash": "a88d189d89187c09f1b2c8b48db822a444695481bdb2ef11af02ba3b421bcaaf",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_c082f387d1c0df76acd83423_0",
+      "kind": "h2",
+      "source": "Examples__TRILIUM_PH_0__",
+      "sourceHash": "c082f387d1c0df76acd8342318dd0b05fcae53b1c2e9c880ce3e75d11f5eaa20",
+      "context": "Configuration (config.ini or environment variables) > Examples",
+      "contextHash": "7295253361081297e4ba20a3b312ab0e3ebfe7f56555dd8ad6596ed88beab3ab",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_d3246f12f04f7644f04e4b88_0",
+      "kind": "p",
+      "source": "__TRILIUM_PH_0__ Docker Compose",
+      "sourceHash": "d3246f12f04f7644f04e4b887c0a0ff41b1c656b00d6e841ec786894f07b8f0b",
+      "context": "Configuration (config.ini or environment variables) > Examples",
+      "contextHash": "7295253361081297e4ba20a3b312ab0e3ebfe7f56555dd8ad6596ed88beab3ab",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_c66115fd84105423de44ff04_0",
+      "kind": "p",
+      "source": "__TRILIUM_PH_0__ Linux Shell",
+      "sourceHash": "c66115fd84105423de44ff04dd2baeefc00a7bbf75bc44858f2ec26f462e19d1",
+      "context": "Configuration (config.ini or environment variables) > Examples",
+      "contextHash": "7295253361081297e4ba20a3b312ab0e3ebfe7f56555dd8ad6596ed88beab3ab",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_caaf24f968a5dd3311fff3cc_0",
+      "kind": "h2",
+      "source": "config.ini Reference__TRILIUM_PH_0__",
+      "sourceHash": "caaf24f968a5dd3311fff3cc16a8739acf0dcc81fa14a36543e7678b30cd9f51",
+      "context": "Configuration (config.ini or environment variables) > config.ini Reference",
+      "contextHash": "93a637626244ffae8feff7f848473dabfa74167dfc8cb034b18bfb33de684569",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_19953b71ae0b87f9cc3373a5_0",
+      "kind": "p",
+      "source": "For the complete list of configuration options and their INI file format, please review the __TRILIUM_PH_0__config-sample.ini__TRILIUM_PH_1__ file in the Trilium repository.",
+      "sourceHash": "19953b71ae0b87f9cc3373a5f7fb909d7f7d539c8a7979c39cb9047665665d5e",
+      "context": "Configuration (config.ini or environment variables) > config.ini Reference",
+      "contextHash": "93a637626244ffae8feff7f848473dabfa74167dfc8cb034b18bfb33de684569",
+      "status": "pending",
+      "active": true
+    }
+  ],
+  "requests": []
+}

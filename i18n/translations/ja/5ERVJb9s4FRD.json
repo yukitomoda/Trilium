@@ -1,0 +1,250 @@
+{
+  "schemaVersion": 1,
+  "pageId": "5ERVJb9s4FRD",
+  "sourceFile": "docs/User Guide/User Guide/Installation & Setup/Server Installation/2. Reverse proxy/Traefik.md",
+  "sourceRevision": "03d17b60f59b5efc29b880b11481471d0fe0ff57",
+  "units": [
+    {
+      "id": "u_bb9f301d09994fc47bec07c4_0",
+      "kind": "title",
+      "source": "Traefik",
+      "sourceHash": "bb9f301d09994fc47bec07c4a2bcd5aaa8653a39d2330e252e784bcc892a766b",
+      "context": "Traefik",
+      "contextHash": "54ace6970a10f1825917542ff3221a163249d02a148914e7d1f3039cf5206649",
+      "status": "translated",
+      "active": true,
+      "translation": "Traefik",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_d70285f838d69c8dc8a20ca1_0",
+      "kind": "p",
+      "source": "The goal of this article is to configure Traefik proxy and HTTPS. See __TRILIUM_PH_0__#7768__TRILIUM_PH_1__ for reference.",
+      "sourceHash": "d70285f838d69c8dc8a20ca1f6a35595b96cd334683541b7779674732e603180",
+      "context": "Traefik",
+      "contextHash": "54ace6970a10f1825917542ff3221a163249d02a148914e7d1f3039cf5206649",
+      "status": "translated",
+      "active": true,
+      "translation": "この記事の目的は、TraefikプロキシとHTTPSを設定することです。参照先として __TRILIUM_PH_0__#7768__TRILIUM_PH_1__ をご覧ください。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_a3a471954a7cf9add6855232_0",
+      "kind": "h2",
+      "source": "Breaking change in Traefik 3.6.4__TRILIUM_PH_0__",
+      "sourceHash": "a3a471954a7cf9add685523215fa0cefb48cbad94efb36095ed3aa0c03a24317",
+      "context": "Traefik > Breaking change in Traefik 3.6.4",
+      "contextHash": "97a03cce822cf9a826624ebbc47e0c9f5ff2954491d60c97e1c04545b0d6dd0f",
+      "status": "translated",
+      "active": true,
+      "translation": "Traefik 3.6.4における破壊的変更__TRILIUM_PH_0__",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_8171e79b1dbcea07101316e5_0",
+      "kind": "p",
+      "source": "Traefik 3.6.4 introduced a __TRILIUM_PH_0__breaking change__TRILIUM_PH_1__ regarding how percent-encoded characters are handled in URLs. Trilium puts the title of an image or attachment in its URL path, so one whose title contains __TRILIUM_PH_2__ or __TRILIUM_PH_3__ is requested at a path such as __TRILIUM_PH_4__. Traefik rejects these paths with HTTP 400, and the image does not load. Search is not affected, because it sends its text in a query parameter.",
+      "sourceHash": "8171e79b1dbcea07101316e5755bde3e5973408a7d1943e647bc85e9715f98a4",
+      "context": "Traefik > Breaking change in Traefik 3.6.4",
+      "contextHash": "97a03cce822cf9a826624ebbc47e0c9f5ff2954491d60c97e1c04545b0d6dd0f",
+      "status": "translated",
+      "active": true,
+      "translation": "Traefik 3.6.4では、URL内のパーセントエンコードされた文字の処理方法に関して __TRILIUM_PH_0__破壊的変更__TRILIUM_PH_1__ が導入されました。Triliumは画像や添付ファイルのタイトルをそのURLパスに含めるため、タイトルに __TRILIUM_PH_2__ または __TRILIUM_PH_3__ を含むものは __TRILIUM_PH_4__ のようなパスでリクエストされます。TraefikはこれらのパスをHTTP 400で拒否するため、画像が読み込まれません。検索はクエリパラメータでテキストを送信するため、影響を受けません。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_7405eba904096dcb53973406_0",
+      "kind": "p",
+      "source": "The easiest solution is to update to Traefik 3.6.7 or later which reverts this configuration change. Alternatively, the configuration can be changed according to the section below.",
+      "sourceHash": "7405eba904096dcb53973406cbc2de932e7b3c3ec669e0063a480375c1755dd9",
+      "context": "Traefik > Breaking change in Traefik 3.6.4",
+      "contextHash": "97a03cce822cf9a826624ebbc47e0c9f5ff2954491d60c97e1c04545b0d6dd0f",
+      "status": "translated",
+      "active": true,
+      "translation": "最も簡単な解決策は、この設定変更を元に戻すTraefik 3.6.7以降にアップデートすることです。または、以下のセクションに従って設定を変更することもできます。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_0b53cc80da467614dd3578d3_0",
+      "kind": "summary",
+      "source": "Configuration change",
+      "sourceHash": "0b53cc80da467614dd3578d3389e9fb930ac5b19c7a74116f7ed70abe505cb7d",
+      "context": "Traefik > Breaking change in Traefik 3.6.4",
+      "contextHash": "97a03cce822cf9a826624ebbc47e0c9f5ff2954491d60c97e1c04545b0d6dd0f",
+      "status": "translated",
+      "active": true,
+      "translation": "設定の変更",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_9276cb8c76e295ec3727c3de_0",
+      "kind": "p",
+      "source": "To solve this, the Traefik __TRILIUM_PH_0____TRILIUM_PH_1__static__TRILIUM_PH_2__ configuration__TRILIUM_PH_3__ must be modified in order to allow those characters:",
+      "sourceHash": "9276cb8c76e295ec3727c3dec092048cf0a9bc52766182e465b53ce2965cd21f",
+      "context": "Traefik > Breaking change in Traefik 3.6.4",
+      "contextHash": "97a03cce822cf9a826624ebbc47e0c9f5ff2954491d60c97e1c04545b0d6dd0f",
+      "status": "translated",
+      "active": true,
+      "translation": "これを解決するには、それらの文字を許可するためにTraefikの __TRILIUM_PH_0____TRILIUM_PH_1__static__TRILIUM_PH_2__ 設定__TRILIUM_PH_3__ を変更する必要があります。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_0b2bd4e8884753d60f088063_0",
+      "kind": "p",
+      "source": "If images still fail to load, you might need to enable more encoded character groups. For more information, see __TRILIUM_PH_0__the relevant GitHub issue__TRILIUM_PH_1__; feel free to report your findings.",
+      "sourceHash": "0b2bd4e8884753d60f08806386c4cb141e7d70d29b57d836b6532e5204d0072d",
+      "context": "Traefik > Breaking change in Traefik 3.6.4",
+      "contextHash": "97a03cce822cf9a826624ebbc47e0c9f5ff2954491d60c97e1c04545b0d6dd0f",
+      "status": "translated",
+      "active": true,
+      "translation": "それでも画像が読み込まれない場合は、より多くのエンコードされた文字グループを有効にする必要がある場合があります。詳細については、__TRILIUM_PH_0__関連するGitHubのissue__TRILIUM_PH_1__ を参照してください。見つかった結果を気軽に報告してください。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_ea43c5e280f90e688219ec14_0",
+      "kind": "h3",
+      "source": "Build the docker-compose file__TRILIUM_PH_0__",
+      "sourceHash": "ea43c5e280f90e688219ec1432d76da9e02af2db5aa0d1f97536652414e7d5ae",
+      "context": "Traefik > Breaking change in Traefik 3.6.4 > Build the docker-compose file",
+      "contextHash": "b1dc42053e8d7b2b796514a6713ed18e82d197ce7f83aa553d6b3164b12c2be2",
+      "status": "translated",
+      "active": true,
+      "translation": "docker-composeファイルの構築__TRILIUM_PH_0__",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_17ec7538ec91f37540ff64d3_0",
+      "kind": "p",
+      "source": "Setting up Traefik as reverse proxy requires setting the following labels:",
+      "sourceHash": "17ec7538ec91f37540ff64d3137c102b600d47a480284d1844c4fe1f8ce7d7fd",
+      "context": "Traefik > Breaking change in Traefik 3.6.4 > Build the docker-compose file",
+      "contextHash": "b1dc42053e8d7b2b796514a6713ed18e82d197ce7f83aa553d6b3164b12c2be2",
+      "status": "translated",
+      "active": true,
+      "translation": "リバースプロキシとしてTraefikを設定するには、次のラベルを設定する必要があります。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_cfb6c25b12dae4daed5698bf_0",
+      "kind": "h3",
+      "source": "Setup needed environment variables__TRILIUM_PH_0__",
+      "sourceHash": "cfb6c25b12dae4daed5698bfb4b8761edefc7459a2befbab4ac20a5abe41741b",
+      "context": "Traefik > Breaking change in Traefik 3.6.4 > Setup needed environment variables",
+      "contextHash": "6cd41d8519519031f485d7de964b8a803cbea6c6d0b62554a97d70ad3c2ae168",
+      "status": "translated",
+      "active": true,
+      "translation": "必要な環境変数の設定__TRILIUM_PH_0__",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_eb793f34abab86a34eac1820_0",
+      "kind": "p",
+      "source": "After setting up a reverse proxy, make sure to configure the __TRILIUM_PH_0__Trusted proxy__TRILIUM_PH_1__.",
+      "sourceHash": "eb793f34abab86a34eac1820c0594827be39f59e217bc16669eaaf0b4e974fea",
+      "context": "Traefik > Breaking change in Traefik 3.6.4 > Setup needed environment variables",
+      "contextHash": "6cd41d8519519031f485d7de964b8a803cbea6c6d0b62554a97d70ad3c2ae168",
+      "status": "translated",
+      "active": true,
+      "translation": "リバースプロキシを設定した後は、必ず __TRILIUM_PH_0__信頼できるプロキシ__TRILIUM_PH_1__ を設定してください。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_782807133d99686f951f7bc1_0",
+      "kind": "h3",
+      "source": "Example __TRILIUM_PH_0____TRILIUM_PH_1__",
+      "sourceHash": "782807133d99686f951f7bc1e6190aef6da3ffdd6cc85562720ae8bc49fa8060",
+      "context": "Traefik > Breaking change in Traefik 3.6.4 > Example docker-compose.yaml",
+      "contextHash": "37833abf13ba18ae7750c0669a4da7d6f59290e2cbcad30bbd6cc5c1da0170d0",
+      "status": "translated",
+      "active": true,
+      "translation": "例 __TRILIUM_PH_0____TRILIUM_PH_1__",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    }
+  ],
+  "requests": [
+    {
+      "at": "2026-11-14T11:28:45.803Z",
+      "model": "gemini-3.5-flash-lite",
+      "batchJob": "batches/02spwqy837h8pi7qzqmeo4fgsqo7bgs45hwh",
+      "requestKey": "5ERVJb9s4FRD_917a8083400d418e",
+      "modelVersion": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 1413,
+        "candidatesTokenCount": 857,
+        "totalTokenCount": 2270,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 1413
+          }
+        ],
+        "serviceTier": "standard"
+      }
+    }
+  ]
+}

@@ -1,0 +1,233 @@
+{
+  "schemaVersion": 1,
+  "pageId": "Un4wj2Mak2Ky",
+  "sourceFile": "docs/User Guide/User Guide/Installation & Setup/Desktop Installation/Nix flake.md",
+  "sourceRevision": "03d17b60f59b5efc29b880b11481471d0fe0ff57",
+  "units": [
+    {
+      "id": "u_580c2c316df0a23c6447544a_0",
+      "kind": "title",
+      "source": "Nix flake",
+      "sourceHash": "580c2c316df0a23c6447544a8564d80f62b70d9d67d2ab8d8fd94fbfa636b137",
+      "context": "Nix flake",
+      "contextHash": "1c880880a05a21d0a1fa14f67d4a05e56adcfbe4a3ae6a694ac0fc6dbb103965",
+      "status": "translated",
+      "active": true,
+      "translation": "Nix flake",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_8c41a714094994e529e6827c_0",
+      "kind": "p",
+      "source": "Since TriliumNext 0.94.1, the desktop and server applications can be built using __TRILIUM_PH_0__Nix__TRILIUM_PH_1__.",
+      "sourceHash": "8c41a714094994e529e6827c4a43c9edfee942357933b82765c4f4d6bd5851a5",
+      "context": "Nix flake",
+      "contextHash": "1c880880a05a21d0a1fa14f67d4a05e56adcfbe4a3ae6a694ac0fc6dbb103965",
+      "status": "translated",
+      "active": true,
+      "translation": "TriliumNext 0.94.1以降、デスクトップアプリおよびサーバーアプリを __TRILIUM_PH_0__Nix__TRILIUM_PH_1__ を使用してビルドできるようになりました。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_c797c697ba85c78677583a46_0",
+      "kind": "h2",
+      "source": "System requirements__TRILIUM_PH_0__",
+      "sourceHash": "c797c697ba85c78677583a46fd28bb2e75bfac502920cdb2b94c4125f1b183d0",
+      "context": "Nix flake > System requirements",
+      "contextHash": "b8e90532747579359254d61c4ab887136fffa727a73a4a8f1e0e39f4a175ca2e",
+      "status": "translated",
+      "active": true,
+      "translation": "システム要件__TRILIUM_PH_0__",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_8c01dd14a603928aa4ae63d2_0",
+      "kind": "p",
+      "source": "Installation of Nix on Mac or Linux (__TRILIUM_PH_0__download page__TRILIUM_PH_1__). About 3-4 gigabytes of additional storage space, for build artifacts.",
+      "sourceHash": "8c01dd14a603928aa4ae63d2a9a5b129afb67329c3a1ca85542854f2a9abebfa",
+      "context": "Nix flake > System requirements",
+      "contextHash": "b8e90532747579359254d61c4ab887136fffa727a73a4a8f1e0e39f4a175ca2e",
+      "status": "translated",
+      "active": true,
+      "translation": "MacまたはLinuxへのNixのインストール（__TRILIUM_PH_0__ダウンロードページ__TRILIUM_PH_1__）。ビルド成果物用に、追加で約3〜4GBのストレージ容量が必要です。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_6f4ffa16adf7ee4a31d08c80_0",
+      "kind": "h2",
+      "source": "Run directly__TRILIUM_PH_0__",
+      "sourceHash": "6f4ffa16adf7ee4a31d08c80fbd8b4eb7ea0a6c07dd95d04c1fef11dd2f5416f",
+      "context": "Nix flake > Run directly",
+      "contextHash": "4e0a53047c4abba8676b0853264331c957427cd46e7523184dab2a6f3695d42d",
+      "status": "translated",
+      "active": true,
+      "translation": "直接実行__TRILIUM_PH_0__",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_20f0e8069a0be9cf19475706_0",
+      "kind": "p",
+      "source": "Using __TRILIUM_PH_0__nix run__TRILIUM_PH_1__, the desktop app can be started as: __TRILIUM_PH_2__",
+      "sourceHash": "20f0e8069a0be9cf194757061d0dde03d8806a1ddd55becabbb89329b4f30cfe",
+      "context": "Nix flake > Run directly",
+      "contextHash": "4e0a53047c4abba8676b0853264331c957427cd46e7523184dab2a6f3695d42d",
+      "status": "translated",
+      "active": true,
+      "translation": "__TRILIUM_PH_0__nix run__TRILIUM_PH_1__ を使用して、デスクトップアプリを次のように起動できます: __TRILIUM_PH_2__",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_dce30bbcc30a6837b1f43af9_0",
+      "kind": "p",
+      "source": "Running the server requires explicitly specifying the desired package: __TRILIUM_PH_0__",
+      "sourceHash": "dce30bbcc30a6837b1f43af974541ef38535c6d0a9f7401eec5418e365ced81b",
+      "context": "Nix flake > Run directly",
+      "contextHash": "4e0a53047c4abba8676b0853264331c957427cd46e7523184dab2a6f3695d42d",
+      "status": "translated",
+      "active": true,
+      "translation": "サーバーを実行するには、目的のパッケージを明示的に指定する必要があります: __TRILIUM_PH_0__",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_51a383776473863bfbee5db3_0",
+      "kind": "p",
+      "source": "Instead of a version (__TRILIUM_PH_0__ above), you can also specify a commit hash (or a branch name). This makes it easy to test development builds.",
+      "sourceHash": "51a383776473863bfbee5db366176d2a66cec1566825edee4979475109abed5b",
+      "context": "Nix flake > Run directly",
+      "contextHash": "4e0a53047c4abba8676b0853264331c957427cd46e7523184dab2a6f3695d42d",
+      "status": "translated",
+      "active": true,
+      "translation": "バージョン（上記の __TRILIUM_PH_0__）の代わりに、コミットハッシュ（またはブランチ名）を指定することもできます。これにより、開発ビルドのテストが簡単になります。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_3215fdbe00e8a0665a93b37e_0",
+      "kind": "h2",
+      "source": "Install on NixOS__TRILIUM_PH_0__",
+      "sourceHash": "3215fdbe00e8a0665a93b37e1baa1557f568bb09630a6a7595c5564c1b5348dd",
+      "context": "Nix flake > Install on NixOS",
+      "contextHash": "760b4caeea45480c96d43f501736c0559e6567db2f5899a3968a7b8a0ffbbee1",
+      "status": "translated",
+      "active": true,
+      "translation": "NixOSへのインストール__TRILIUM_PH_0__",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_4b0ac83e44d9f99348e497f2_0",
+      "kind": "p",
+      "source": "Add to your __TRILIUM_PH_0__:",
+      "sourceHash": "4b0ac83e44d9f99348e497f280bbc3e01eae3dca9c4a48d216ae339829778db8",
+      "context": "Nix flake > Install on NixOS",
+      "contextHash": "760b4caeea45480c96d43f501736c0559e6567db2f5899a3968a7b8a0ffbbee1",
+      "status": "translated",
+      "active": true,
+      "translation": "__TRILIUM_PH_0__ に追加します:",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_4b0ac83e44d9f99348e497f2_1",
+      "kind": "p",
+      "source": "Add to your __TRILIUM_PH_0__:",
+      "sourceHash": "4b0ac83e44d9f99348e497f280bbc3e01eae3dca9c4a48d216ae339829778db8",
+      "context": "Nix flake > Install on NixOS",
+      "contextHash": "760b4caeea45480c96d43f501736c0559e6567db2f5899a3968a7b8a0ffbbee1",
+      "status": "translated",
+      "active": true,
+      "translation": "__TRILIUM_PH_0__ に追加します:",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_84670f68ef7eaa82bd4d0b10_0",
+      "kind": "p",
+      "source": "The flake aims to be compatible with the latest NixOS stable and unstable.",
+      "sourceHash": "84670f68ef7eaa82bd4d0b10c9acf0fcfabb36b6cec784bfcc65004f4ebe13d6",
+      "context": "Nix flake > Install on NixOS",
+      "contextHash": "760b4caeea45480c96d43f501736c0559e6567db2f5899a3968a7b8a0ffbbee1",
+      "status": "translated",
+      "active": true,
+      "translation": "このflakeは、NixOSの最新の安定版（stable）および不安定版（unstable）との互換性を目指しています。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    }
+  ],
+  "requests": [
+    {
+      "at": "2026-11-14T11:28:45.803Z",
+      "model": "gemini-3.5-flash-lite",
+      "batchJob": "batches/02spwqy837h8pi7qzqmeo4fgsqo7bgs45hwh",
+      "requestKey": "Un4wj2Mak2Ky_0ba06236de0a7511",
+      "modelVersion": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 1061,
+        "candidatesTokenCount": 714,
+        "totalTokenCount": 1775,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 1061
+          }
+        ],
+        "serviceTier": "standard"
+      }
+    }
+  ]
+}

@@ -1,0 +1,529 @@
+{
+  "schemaVersion": 1,
+  "pageId": "MgibgPcfeuGz",
+  "sourceFile": "docs/User Guide/User Guide/Scripting/Frontend Basics/Custom Widgets.md",
+  "sourceRevision": "03d17b60f59b5efc29b880b11481471d0fe0ff57",
+  "units": [
+    {
+      "id": "u_be504f7cb634cdef06fe1f42_0",
+      "kind": "title",
+      "source": "Custom Widgets",
+      "sourceHash": "be504f7cb634cdef06fe1f42a20dcd7e81446e1ea05d2b35e0d3e698322b5403",
+      "context": "Custom Widgets",
+      "contextHash": "08f7c7b55fe0febbbe603746f7c73402c6fd6f10f4d8ebbc4804808609adf4c2",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_7b95e961a4f1e61960a1632e_0",
+      "kind": "p",
+      "source": "Custom widgets are a special subset of scripts that render graphical elements in certain parts of the application. These can be used to add new functionality to the Trilium application.",
+      "sourceHash": "7b95e961a4f1e61960a1632e25bdcec06ce8711cd4ef38f6c88f990b17f84500",
+      "context": "Custom Widgets",
+      "contextHash": "08f7c7b55fe0febbbe603746f7c73402c6fd6f10f4d8ebbc4804808609adf4c2",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_ee2ee784fd11158c8b5d6f7d_0",
+      "kind": "h2",
+      "source": "Preact with JSX vs. vanilla jQuery__TRILIUM_PH_0__",
+      "sourceHash": "ee2ee784fd11158c8b5d6f7d99d1eee8a5e59c2af628f1f740d4535fb606224f",
+      "context": "Custom Widgets > Preact with JSX vs. vanilla jQuery",
+      "contextHash": "076d8eecc533c3dbe7f9414756658542494e3728c13bafbd737191aa81fafb33",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_f537cf74f609e7fe37e2ecff_0",
+      "kind": "p",
+      "source": "In older versions of Trilium, custom widgets were exclusively written in a combination of jQuery with Trilium's internal widget architecture (e.g., __TRILIUM_PH_0__, __TRILIUM_PH_1__).",
+      "sourceHash": "f537cf74f609e7fe37e2ecffb2e7abc0960fb2ffddd9e4adf162433fc09fb371",
+      "context": "Custom Widgets > Preact with JSX vs. vanilla jQuery",
+      "contextHash": "076d8eecc533c3dbe7f9414756658542494e3728c13bafbd737191aa81fafb33",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_71415502a7fdb18d6a1c3b26_0",
+      "kind": "p",
+      "source": "Starting with v0.101.0, custom widgets can also be written in JSX using the __TRILIUM_PH_0__Preact__TRILIUM_PH_1__ framework. Both legacy and Preact widgets have the same capabilities, with a single difference:",
+      "sourceHash": "71415502a7fdb18d6a1c3b268698ec19ab551c675abaeeeb9aafeb1527d6ca5d",
+      "context": "Custom Widgets > Preact with JSX vs. vanilla jQuery",
+      "contextHash": "076d8eecc533c3dbe7f9414756658542494e3728c13bafbd737191aa81fafb33",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_9d20581e8bccf0a2333304a8_0",
+      "kind": "li",
+      "source": "Preact widgets are content-sized by default whereas legacy widgets need __TRILIUM_PH_0__ applied in the constructor. For more information, see the corresponding section in __TRILIUM_PH_1__Troubleshooting__TRILIUM_PH_2__.",
+      "sourceHash": "9d20581e8bccf0a2333304a872d2ddc29e40069e51d8425981f2046bf4dca5f2",
+      "context": "Custom Widgets > Preact with JSX vs. vanilla jQuery",
+      "contextHash": "076d8eecc533c3dbe7f9414756658542494e3728c13bafbd737191aa81fafb33",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_db613a7af980943f9d0409b1_0",
+      "kind": "p",
+      "source": "Wherever possible, widget examples will be both in the legacy and Preact format.",
+      "sourceHash": "db613a7af980943f9d0409b1f9240af53935da178f766baf2486b7efc67019c9",
+      "context": "Custom Widgets > Preact with JSX vs. vanilla jQuery",
+      "contextHash": "076d8eecc533c3dbe7f9414756658542494e3728c13bafbd737191aa81fafb33",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_07b367a1edd91ca588e6f5ca_0",
+      "kind": "h2",
+      "source": "Creating a custom widget__TRILIUM_PH_0__",
+      "sourceHash": "07b367a1edd91ca588e6f5ca49532ea891f14b4e375a7c9265a9f1ff70db87af",
+      "context": "Custom Widgets > Creating a custom widget",
+      "contextHash": "ad0bf89f7fa011f9c8af9e920773ff9af81951ea8eb39b034c9f5249fb52e9e0",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_c4fefc0ac58202f8682cbfb2_0",
+      "kind": "p",
+      "source": "The quickest way is __TRILIUM_PH_0__Insert child note__TRILIUM_PH_1__ → __TRILIUM_PH_2__Code__TRILIUM_PH_3__ → __TRILIUM_PH_4__Widget__TRILIUM_PH_5__ in the __TRILIUM_PH_6__Note tree contextual menu__TRILIUM_PH_7__. It creates a JSX note with the __TRILIUM_PH_8__ label and a minimal Preact widget to start from.",
+      "sourceHash": "c4fefc0ac58202f8682cbfb2d840b609afa99b802869283ff0890431d211c2d3",
+      "context": "Custom Widgets > Creating a custom widget",
+      "contextHash": "ad0bf89f7fa011f9c8af9e920773ff9af81951ea8eb39b034c9f5249fb52e9e0",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_f0acc88edf2d14c78f3cea52_0",
+      "kind": "p",
+      "source": "To set one up by hand instead:",
+      "sourceHash": "f0acc88edf2d14c78f3cea527fe170a54239d125926493c66676581012bf72c8",
+      "context": "Custom Widgets > Creating a custom widget",
+      "contextHash": "ad0bf89f7fa011f9c8af9e920773ff9af81951ea8eb39b034c9f5249fb52e9e0",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_3cb5162f5187378d8063fcdc_0",
+      "kind": "li",
+      "source": "Create a __TRILIUM_PH_0__Code__TRILIUM_PH_1__ note.",
+      "sourceHash": "3cb5162f5187378d8063fcdc362aabb68a11aa54cb6b001e1cfb592bf37dbed9",
+      "context": "Custom Widgets > Creating a custom widget",
+      "contextHash": "ad0bf89f7fa011f9c8af9e920773ff9af81951ea8eb39b034c9f5249fb52e9e0",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_d3090d6518c2d71ca95e693c_0",
+      "kind": "li",
+      "source": "Set the language to:",
+      "sourceHash": "d3090d6518c2d71ca95e693c3b792cb0f6dc52cd89a6d020009dece05f96546e",
+      "context": "Custom Widgets > Creating a custom widget",
+      "contextHash": "ad0bf89f7fa011f9c8af9e920773ff9af81951ea8eb39b034c9f5249fb52e9e0",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_d58170b8790a4d154bbf0741_0",
+      "kind": "li",
+      "source": "JavaScript (frontend) for legacy widgets using jQuery.",
+      "sourceHash": "d58170b8790a4d154bbf07419e3ffca5ed9a9cfd9c70604d28b1984576db2669",
+      "context": "Custom Widgets > Creating a custom widget",
+      "contextHash": "ad0bf89f7fa011f9c8af9e920773ff9af81951ea8eb39b034c9f5249fb52e9e0",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_57ede022ea44291045a4ea6e_0",
+      "kind": "li",
+      "source": "JSX for Preact widgets. You might need to go to Options → Code to enable the language first.",
+      "sourceHash": "57ede022ea44291045a4ea6e7ad5df2cbfa7ed57c0c57cb74df6e5b7ecacec2b",
+      "context": "Custom Widgets > Creating a custom widget",
+      "contextHash": "ad0bf89f7fa011f9c8af9e920773ff9af81951ea8eb39b034c9f5249fb52e9e0",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_5d4118d0bc0422d0f47f2f49_0",
+      "kind": "li",
+      "source": "Apply the __TRILIUM_PH_0__ __TRILIUM_PH_1__label__TRILIUM_PH_2__.",
+      "sourceHash": "5d4118d0bc0422d0f47f2f491ad5ec91ed2ef7511a26311de17e6c8cc36fd9bf",
+      "context": "Custom Widgets > Creating a custom widget",
+      "contextHash": "ad0bf89f7fa011f9c8af9e920773ff9af81951ea8eb39b034c9f5249fb52e9e0",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_f587eeddc65c30f631ee320e_0",
+      "kind": "h2",
+      "source": "Getting started with a simple example__TRILIUM_PH_0__",
+      "sourceHash": "f587eeddc65c30f631ee320e06fc1e23c8728b1a625997351a7338f76ebf5f8e",
+      "context": "Custom Widgets > Getting started with a simple example",
+      "contextHash": "f8714f19dd124e4c3887b43b5c39f068daa98b3ceb98a5ad176b6aadc8e9f51f",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_9c4c8197a4422b7799bae291_0",
+      "kind": "p",
+      "source": "Let's start by creating a widget that shows a message near the content area. Follow the previous section to create a code note, and use the following content.",
+      "sourceHash": "9c4c8197a4422b7799bae2912542b518bd75beeb79ecfc42226e76cca595231b",
+      "context": "Custom Widgets > Getting started with a simple example",
+      "contextHash": "f8714f19dd124e4c3887b43b5c39f068daa98b3ceb98a5ad176b6aadc8e9f51f",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_5de2d4334b5fd5479f1c1f69_0",
+      "kind": "p",
+      "source": "__TRILIUM_PH_0__ Preact",
+      "sourceHash": "5de2d4334b5fd5479f1c1f69897ff4ecfbbcfe5ea70cc8a1e82a341d6826d1ea",
+      "context": "Custom Widgets > Getting started with a simple example",
+      "contextHash": "f8714f19dd124e4c3887b43b5c39f068daa98b3ceb98a5ad176b6aadc8e9f51f",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_078311f718db3c2f171a553d_0",
+      "kind": "p",
+      "source": "__TRILIUM_PH_0__ Legacy",
+      "sourceHash": "078311f718db3c2f171a553dc2264496361914d13053730ff6346a5d0e44aae3",
+      "context": "Custom Widgets > Getting started with a simple example",
+      "contextHash": "f8714f19dd124e4c3887b43b5c39f068daa98b3ceb98a5ad176b6aadc8e9f51f",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_8b6676a74470d482f65c00cd_0",
+      "kind": "p",
+      "source": "__TRILIUM_PH_0__Refresh the application__TRILIUM_PH_1__ and the widget should appear underneath the content area.",
+      "sourceHash": "8b6676a74470d482f65c00cd36085aef6a984b84c6a0f8e788513dffe4ddd6ab",
+      "context": "Custom Widgets > Getting started with a simple example",
+      "contextHash": "f8714f19dd124e4c3887b43b5c39f068daa98b3ceb98a5ad176b6aadc8e9f51f",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_0e98910fb9f6a081a4675f3c_0",
+      "kind": "h2",
+      "source": "Widget location (parent widget)__TRILIUM_PH_0__",
+      "sourceHash": "0e98910fb9f6a081a4675f3ce7baf276f6ad7a87b2351ac0df28944147ce7f72",
+      "context": "Custom Widgets > Widget location (parent widget)",
+      "contextHash": "6d6116f99dc63eb3f6bc3bd8c58f170ec7f35bded248d2951bd30b98d17c1c0d",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_6afb33cee33e8fda9962dea4_0",
+      "kind": "p",
+      "source": "A widget can be placed in one of the following sections of the applications:",
+      "sourceHash": "6afb33cee33e8fda9962dea4c2e6c13a96e43f44d4cf54181e88dc132ab1c935",
+      "context": "Custom Widgets > Widget location (parent widget)",
+      "contextHash": "6d6116f99dc63eb3f6bc3bd8c58f170ec7f35bded248d2951bd30b98d17c1c0d",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_ed9d3b309ca0da40f296e47a_0",
+      "kind": "th",
+      "source": "Value for __TRILIUM_PH_0__",
+      "sourceHash": "ed9d3b309ca0da40f296e47a32b87d622496578fc14e1d7645ffd27f681eb827",
+      "context": "Custom Widgets > Widget location (parent widget)",
+      "contextHash": "6d6116f99dc63eb3f6bc3bd8c58f170ec7f35bded248d2951bd30b98d17c1c0d",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_4b00baa636b92e18b7a75884_0",
+      "kind": "th",
+      "source": "Description",
+      "sourceHash": "4b00baa636b92e18b7a75884790f0769c3e702d20d8822e708f69ab2f07c7103",
+      "context": "Custom Widgets > Widget location (parent widget)",
+      "contextHash": "6d6116f99dc63eb3f6bc3bd8c58f170ec7f35bded248d2951bd30b98d17c1c0d",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_328c7fa59ca3c6b43cfef576_0",
+      "kind": "th",
+      "source": "Sample widget",
+      "sourceHash": "328c7fa59ca3c6b43cfef57606cc8de0ae983690f9cfaaba42b4c1f2081526cf",
+      "context": "Custom Widgets > Widget location (parent widget)",
+      "contextHash": "6d6116f99dc63eb3f6bc3bd8c58f170ec7f35bded248d2951bd30b98d17c1c0d",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_4241d58b02c9340d646fe845_0",
+      "kind": "th",
+      "source": "Special requirements",
+      "sourceHash": "4241d58b02c9340d646fe845d762be488f7d2a473dfde67d9239e04f8a0b754e",
+      "context": "Custom Widgets > Widget location (parent widget)",
+      "contextHash": "6d6116f99dc63eb3f6bc3bd8c58f170ec7f35bded248d2951bd30b98d17c1c0d",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_29f12243fcc8cef9adfa7e6e_0",
+      "kind": "td",
+      "source": "Appears within the same pane that holds the __TRILIUM_PH_0__Note Tree__TRILIUM_PH_1__.",
+      "sourceHash": "29f12243fcc8cef9adfa7e6ed82ccd70d2c1502f3ea18868bb2003734a6a1595",
+      "context": "Custom Widgets > Widget location (parent widget)",
+      "contextHash": "6d6116f99dc63eb3f6bc3bd8c58f170ec7f35bded248d2951bd30b98d17c1c0d",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_176914ed2d621ab87d58450a_0",
+      "kind": "td",
+      "source": "Same as above, with only a different __TRILIUM_PH_0__.",
+      "sourceHash": "176914ed2d621ab87d58450af1f97567520040c457fb00c2fbd056feffe409fe",
+      "context": "Custom Widgets > Widget location (parent widget)",
+      "contextHash": "6d6116f99dc63eb3f6bc3bd8c58f170ec7f35bded248d2951bd30b98d17c1c0d",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_875949a611f24e9e06e48187_0",
+      "kind": "td",
+      "source": "None.",
+      "sourceHash": "875949a611f24e9e06e48187f3cbf1b024da15a0453e1db1f90a7e0f4868fb07",
+      "context": "Custom Widgets > Widget location (parent widget)",
+      "contextHash": "6d6116f99dc63eb3f6bc3bd8c58f170ec7f35bded248d2951bd30b98d17c1c0d",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_a0eb0a19cc1966633172c413_0",
+      "kind": "td",
+      "source": "In the content area. If a split is open, the widget will span all of the splits.",
+      "sourceHash": "a0eb0a19cc1966633172c413a2c546db626f25cd7b8b034e6cc53fc7b8a7ffe4",
+      "context": "Custom Widgets > Widget location (parent widget)",
+      "contextHash": "6d6116f99dc63eb3f6bc3bd8c58f170ec7f35bded248d2951bd30b98d17c1c0d",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_7f5b40fbd2c7df7a78242fb1_0",
+      "kind": "td",
+      "source": "See example above.",
+      "sourceHash": "7f5b40fbd2c7df7a78242fb163fa96a64a411f2547102d350730ad65a479a6c3",
+      "context": "Custom Widgets > Widget location (parent widget)",
+      "contextHash": "6d6116f99dc63eb3f6bc3bd8c58f170ec7f35bded248d2951bd30b98d17c1c0d",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_875949a611f24e9e06e48187_1",
+      "kind": "td",
+      "source": "None.",
+      "sourceHash": "875949a611f24e9e06e48187f3cbf1b024da15a0453e1db1f90a7e0f4868fb07",
+      "context": "Custom Widgets > Widget location (parent widget)",
+      "contextHash": "6d6116f99dc63eb3f6bc3bd8c58f170ec7f35bded248d2951bd30b98d17c1c0d",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_534b9a5960d487c6cdeabdb1_0",
+      "kind": "p",
+      "source": "In the content area, inside the note detail area. If a split is open, the widget will be contained inside the split.",
+      "sourceHash": "534b9a5960d487c6cdeabdb1d7af6ef5eede57ad1266c4a2c101d52e08df60bd",
+      "context": "Custom Widgets > Widget location (parent widget)",
+      "contextHash": "6d6116f99dc63eb3f6bc3bd8c58f170ec7f35bded248d2951bd30b98d17c1c0d",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_c1ba8e6a9bf3cbe4e2895d0f_0",
+      "kind": "p",
+      "source": "This is ideal if the widget is note-specific.",
+      "sourceHash": "c1ba8e6a9bf3cbe4e2895d0f3a908ac50413b780c9d4fd2de2bde88c4c04d2ed",
+      "context": "Custom Widgets > Widget location (parent widget)",
+      "contextHash": "6d6116f99dc63eb3f6bc3bd8c58f170ec7f35bded248d2951bd30b98d17c1c0d",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_85e6a7d1654f0587dfdfc1d0_0",
+      "kind": "td",
+      "source": "__TRILIUM_PH_0__Note context aware widget__TRILIUM_PH_1__",
+      "sourceHash": "85e6a7d1654f0587dfdfc1d0d5a5f33f7e41617ca10dc79fb2fecbd89b20f01f",
+      "context": "Custom Widgets > Widget location (parent widget)",
+      "contextHash": "6d6116f99dc63eb3f6bc3bd8c58f170ec7f35bded248d2951bd30b98d17c1c0d",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_996cab19015a94d3a9f7b8fb_0",
+      "kind": "li",
+      "source": "The widget must export a __TRILIUM_PH_0__ and not an instance of the class (e.g. __TRILIUM_PH_1__) because it needs to be multiplied for each note, so that splits work correctly.",
+      "sourceHash": "996cab19015a94d3a9f7b8fbd18131e148bbb781a6682e60ee34b74ccc25e72e",
+      "context": "Custom Widgets > Widget location (parent widget)",
+      "contextHash": "6d6116f99dc63eb3f6bc3bd8c58f170ec7f35bded248d2951bd30b98d17c1c0d",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_c5dde00f00aabd9f8370d726_0",
+      "kind": "li",
+      "source": "Since the __TRILIUM_PH_0__ is exported instead of an instance, the __TRILIUM_PH_1__ getter must be __TRILIUM_PH_2__, otherwise the widget is ignored.",
+      "sourceHash": "c5dde00f00aabd9f8370d726a97f28e396f484bc805b940aca612d1d0fd4eeb2",
+      "context": "Custom Widgets > Widget location (parent widget)",
+      "contextHash": "6d6116f99dc63eb3f6bc3bd8c58f170ec7f35bded248d2951bd30b98d17c1c0d",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_11bf54258338a7b33243b7da_0",
+      "kind": "td",
+      "source": "In the __TRILIUM_PH_0__Right Sidebar__TRILIUM_PH_1__, as a dedicated section.",
+      "sourceHash": "11bf54258338a7b33243b7da1936bbfa9e6a12d96e14cb99174bed8735ca80e2",
+      "context": "Custom Widgets > Widget location (parent widget)",
+      "contextHash": "6d6116f99dc63eb3f6bc3bd8c58f170ec7f35bded248d2951bd30b98d17c1c0d",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_2cbccf65009efec55b419372_0",
+      "kind": "td",
+      "source": "__TRILIUM_PH_0__Right pane widget__TRILIUM_PH_1__",
+      "sourceHash": "2cbccf65009efec55b419372de837bf2e4c65f2416de659455f2ab88f7969243",
+      "context": "Custom Widgets > Widget location (parent widget)",
+      "contextHash": "6d6116f99dc63eb3f6bc3bd8c58f170ec7f35bded248d2951bd30b98d17c1c0d",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_9e1924670e7ff53957bdff2b_0",
+      "kind": "li",
+      "source": "Although not mandatory, it's best to use a __TRILIUM_PH_0__ instead of a __TRILIUM_PH_1__ or a __TRILIUM_PH_2__.",
+      "sourceHash": "9e1924670e7ff53957bdff2b6287edbce1565e092836f4db6011dba36d0803a0",
+      "context": "Custom Widgets > Widget location (parent widget)",
+      "contextHash": "6d6116f99dc63eb3f6bc3bd8c58f170ec7f35bded248d2951bd30b98d17c1c0d",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_f1a170e1d6c42e91789a21ab_0",
+      "kind": "p",
+      "source": "To position the widget somewhere else, just change the value passed to __TRILIUM_PH_0__ for legacy widgets or the __TRILIUM_PH_1__ field for Preact. Do note that some positions such as __TRILIUM_PH_2__ and __TRILIUM_PH_3__ have special requirements that need to be accounted for (see the table above).",
+      "sourceHash": "f1a170e1d6c42e91789a21ab1a34c98345578ebacb908f37c8a93fa8584ab2a1",
+      "context": "Custom Widgets > Widget location (parent widget)",
+      "contextHash": "6d6116f99dc63eb3f6bc3bd8c58f170ec7f35bded248d2951bd30b98d17c1c0d",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_4cc09b64543fca7ecb58b14d_0",
+      "kind": "h2",
+      "source": "Multiple widgets in a single note__TRILIUM_PH_0__",
+      "sourceHash": "4cc09b64543fca7ecb58b14d0b5a6fb4164dd7ad73978883f2fd03cc65f45431",
+      "context": "Custom Widgets > Multiple widgets in a single note",
+      "contextHash": "310282372917540b9114dd4a434b4dc69bd439e3f2ba8932932b2696570a4733",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_d65fb6d70d5a5d910ee211f3_0",
+      "kind": "p",
+      "source": "A widget note usually returns one widget, but it can also return an array of them. This is useful when several widgets share code or state, since they can all live in the same note instead of being split across notes that need a shared module.",
+      "sourceHash": "d65fb6d70d5a5d910ee211f313ba2e68f174a2cdf6e40e930b4499c1f13c1b23",
+      "context": "Custom Widgets > Multiple widgets in a single note",
+      "contextHash": "310282372917540b9114dd4a434b4dc69bd439e3f2ba8932932b2696570a4733",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_79929d582a27a2c72407274b_0",
+      "kind": "p",
+      "source": "Each widget of the array is registered on its own, so they can have different parents and positions. A widget that is missing its __TRILIUM_PH_0__ (or __TRILIUM_PH_1__ for Preact) is reported as an error without affecting the other widgets of the note.",
+      "sourceHash": "79929d582a27a2c72407274bea2bccb350addfdfa93ee5dec42880630fba7656",
+      "context": "Custom Widgets > Multiple widgets in a single note",
+      "contextHash": "310282372917540b9114dd4a434b4dc69bd439e3f2ba8932932b2696570a4733",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_5de2d4334b5fd5479f1c1f69_1",
+      "kind": "p",
+      "source": "__TRILIUM_PH_0__ Preact",
+      "sourceHash": "5de2d4334b5fd5479f1c1f69897ff4ecfbbcfe5ea70cc8a1e82a341d6826d1ea",
+      "context": "Custom Widgets > Multiple widgets in a single note",
+      "contextHash": "310282372917540b9114dd4a434b4dc69bd439e3f2ba8932932b2696570a4733",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_078311f718db3c2f171a553d_1",
+      "kind": "p",
+      "source": "__TRILIUM_PH_0__ Legacy",
+      "sourceHash": "078311f718db3c2f171a553dc2264496361914d13053730ff6346a5d0e44aae3",
+      "context": "Custom Widgets > Multiple widgets in a single note",
+      "contextHash": "310282372917540b9114dd4a434b4dc69bd439e3f2ba8932932b2696570a4733",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_0302f67c178f590bd4886c50_0",
+      "kind": "h2",
+      "source": "Launch bar widgets__TRILIUM_PH_0__",
+      "sourceHash": "0302f67c178f590bd4886c502d23d757714b70a508da3486714eb0aa662c1bc5",
+      "context": "Custom Widgets > Launch bar widgets",
+      "contextHash": "78a86c311232161bdf210cd2ed016d810352820b12204002a427eaf8e1e338e3",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_cd26d3d881716e999dfb53d7_0",
+      "kind": "p",
+      "source": "Launch bar widgets are similar to __TRILIUM_PH_0__Custom widgets__TRILIUM_PH_1__ but are specific to the __TRILIUM_PH_2__Launch Bar__TRILIUM_PH_3__. See __TRILIUM_PH_4__Launch Bar Widgets__TRILIUM_PH_5__ for more information.",
+      "sourceHash": "cd26d3d881716e999dfb53d7068dd7e3d7a83a97c0ad094646d4f6050719d745",
+      "context": "Custom Widgets > Launch bar widgets",
+      "contextHash": "78a86c311232161bdf210cd2ed016d810352820b12204002a427eaf8e1e338e3",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_0a7123aafcc82a3d214277c6_0",
+      "kind": "h2",
+      "source": "Custom position__TRILIUM_PH_0__",
+      "sourceHash": "0a7123aafcc82a3d214277c66400767806eff042a0b7cb47fff707647e74db89",
+      "context": "Custom Widgets > Custom position",
+      "contextHash": "2935e3f34736d17bf5673712033455ab3918258de2d461bf2aed4326c811ce01",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_f93a6428c609d80dbd19bcff_0",
+      "kind": "p",
+      "source": "The position of a custom widget is defined via a __TRILIUM_PH_0__ integer.",
+      "sourceHash": "f93a6428c609d80dbd19bcffe404cda940d4d9091740fa6af536525c1db9293d",
+      "context": "Custom Widgets > Custom position",
+      "contextHash": "2935e3f34736d17bf5673712033455ab3918258de2d461bf2aed4326c811ce01",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_5de2d4334b5fd5479f1c1f69_2",
+      "kind": "p",
+      "source": "__TRILIUM_PH_0__ Preact",
+      "sourceHash": "5de2d4334b5fd5479f1c1f69897ff4ecfbbcfe5ea70cc8a1e82a341d6826d1ea",
+      "context": "Custom Widgets > Custom position",
+      "contextHash": "2935e3f34736d17bf5673712033455ab3918258de2d461bf2aed4326c811ce01",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_078311f718db3c2f171a553d_2",
+      "kind": "p",
+      "source": "__TRILIUM_PH_0__ Legacy",
+      "sourceHash": "078311f718db3c2f171a553dc2264496361914d13053730ff6346a5d0e44aae3",
+      "context": "Custom Widgets > Custom position",
+      "contextHash": "2935e3f34736d17bf5673712033455ab3918258de2d461bf2aed4326c811ce01",
+      "status": "pending",
+      "active": true
+    }
+  ],
+  "requests": []
+}

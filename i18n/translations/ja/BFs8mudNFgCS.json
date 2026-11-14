@@ -1,0 +1,199 @@
+{
+  "schemaVersion": 1,
+  "pageId": "BFs8mudNFgCS",
+  "sourceFile": "docs/User Guide/User Guide/Basic Concepts and Features/Notes.md",
+  "sourceRevision": "03d17b60f59b5efc29b880b11481471d0fe0ff57",
+  "units": [
+    {
+      "id": "u_5b6207d43b54cd9084d2e5a8_0",
+      "kind": "title",
+      "source": "Notes",
+      "sourceHash": "5b6207d43b54cd9084d2e5a8c4bcb8a8d972871ed834d11d908d023bdd14c6c9",
+      "context": "Notes",
+      "contextHash": "8a7525b1492fb84833f5c4a69b30f4bfbb134f9b666b61a2c1872d63d234c085",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_56caa17eeae2312abd4f1ea0_0",
+      "kind": "p",
+      "source": "Note is a central entity in Trilium. Main attributes of note are __TRILIUM_PH_0__title__TRILIUM_PH_1__ and content.",
+      "sourceHash": "56caa17eeae2312abd4f1ea02eaf4f7e276d215b8356a3c7c44a460b3c1c60b3",
+      "context": "Notes",
+      "contextHash": "8a7525b1492fb84833f5c4a69b30f4bfbb134f9b666b61a2c1872d63d234c085",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_9f647562af148ab09c407d30_0",
+      "kind": "h3",
+      "source": "Note types__TRILIUM_PH_0__",
+      "sourceHash": "9f647562af148ab09c407d302e75ed6c649e239ef4374fe40f82f92a1ccc2c4e",
+      "context": "Notes > Note types",
+      "contextHash": "2bc210a1d78909b1fb5bc584e8beefdea77d3bc3dab1567b663309e542c3c906",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_71cda24a608c8ed6672423e2_0",
+      "kind": "p",
+      "source": "The main note type is a rich-text note type called __TRILIUM_PH_0__Text__TRILIUM_PH_1__. For diagrams and drawing there is __TRILIUM_PH_2__Canvas__TRILIUM_PH_3__ and __TRILIUM_PH_4__Mermaid Diagrams__TRILIUM_PH_5__.",
+      "sourceHash": "71cda24a608c8ed6672423e2e650dad558abbf3d612d9d22582565fc1b4a6da8",
+      "context": "Notes > Note types",
+      "contextHash": "2bc210a1d78909b1fb5bc584e8beefdea77d3bc3dab1567b663309e542c3c906",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_da93117e4b8df3715befadcd_0",
+      "kind": "p",
+      "source": "There are also more complex note types such as __TRILIUM_PH_0__Saved Search__TRILIUM_PH_1__, __TRILIUM_PH_2__Render Note__TRILIUM_PH_3__ that usually go hand-in-hand with __TRILIUM_PH_4__Scripting__TRILIUM_PH_5__.",
+      "sourceHash": "da93117e4b8df3715befadcd338f8e0d9f640bb7b163f08b3509930a5d212b3a",
+      "context": "Notes > Note types",
+      "contextHash": "2bc210a1d78909b1fb5bc584e8beefdea77d3bc3dab1567b663309e542c3c906",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_bf30ee34fd9c49a100a30d99_0",
+      "kind": "p",
+      "source": "In Trilium there's no specific \"folder\" note type. Any note can have children and thus be a folder. To make a note that only shows its children, like a folder in other applications, use a __TRILIUM_PH_0__Grid View__TRILIUM_PH_1__ or __TRILIUM_PH_2__List View__TRILIUM_PH_3__ collection. See also __TRILIUM_PH_4__FAQ__TRILIUM_PH_5__.",
+      "sourceHash": "bf30ee34fd9c49a100a30d996880675c76dbac47e0ab8b07a3edd1b2171f809d",
+      "context": "Notes > Note types",
+      "contextHash": "2bc210a1d78909b1fb5bc584e8beefdea77d3bc3dab1567b663309e542c3c906",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_d8e5e6c2f7e509671fd64945_0",
+      "kind": "h3",
+      "source": "Root note__TRILIUM_PH_0__",
+      "sourceHash": "d8e5e6c2f7e509671fd6494518490625ca1069caefb2d6c3b01875870a5e2cf1",
+      "context": "Notes > Root note",
+      "contextHash": "bd029e2cbb56fea768668a76b607b133c05899cd49a0bedc565ae4ea7faa8cd7",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_df71c31330b46fdce97f5328_0",
+      "kind": "p",
+      "source": "There's one special note called \"root note\" which is root of the note tree. All other notes are placed below it in the structure.",
+      "sourceHash": "df71c31330b46fdce97f532890c9969df63b1e7c40e188041422c7baf87eaa5f",
+      "context": "Notes > Root note",
+      "contextHash": "bd029e2cbb56fea768668a76b607b133c05899cd49a0bedc565ae4ea7faa8cd7",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_2c2a69217078fb2e879cffb9_0",
+      "kind": "h3",
+      "source": "Tree structure__TRILIUM_PH_0__",
+      "sourceHash": "2c2a69217078fb2e879cffb9db79f4d1071ba8b9a0a6e6a44e243b4aca5ce2aa",
+      "context": "Notes > Tree structure",
+      "contextHash": "44bffd16e441471f1204f3a75828b82020cc15219595382f07cfe59c6ae37a40",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_13c03ea7433407440d48262f_0",
+      "kind": "p",
+      "source": "Importantly, note itself doesn't carry information on its placement in note tree. See __TRILIUM_PH_0__Cloning Notes__TRILIUM_PH_1__ for details.",
+      "sourceHash": "13c03ea7433407440d48262f2c9975ea6b678f044bb62e83ad1330b8aed21f1e",
+      "context": "Notes > Tree structure",
+      "contextHash": "44bffd16e441471f1204f3a75828b82020cc15219595382f07cfe59c6ae37a40",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_a7b94e574300a05aa7c3c829_0",
+      "kind": "p",
+      "source": "Tree structure of notes can resemble file system - but compared to that notes in Trilium can act as both file and directory - meaning that note can both have its own content and have children. \"Leaf note\" is a note which doesn't have any children.",
+      "sourceHash": "a7b94e574300a05aa7c3c8293d7e40af4f87c2759e7e7538549dfe19dde00a6b",
+      "context": "Notes > Tree structure",
+      "contextHash": "44bffd16e441471f1204f3a75828b82020cc15219595382f07cfe59c6ae37a40",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_adf288730215cb89f63b8093_0",
+      "kind": "h3",
+      "source": "Deleting / undeleting notes__TRILIUM_PH_0__",
+      "sourceHash": "adf288730215cb89f63b80932b601549753a13804440076643afe8ca39364ea2",
+      "context": "Notes > Deleting / undeleting notes",
+      "contextHash": "b20e63aee47b8cfb30d6bce4d368cb8f0fbaa9ba1d4c8214f1d3ef5a43b8e171",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_b2bf8668a747594b1c2d3715_0",
+      "kind": "p",
+      "source": "When you delete a note in Trilium, it is actually only marked for deletion (soft-delete) - the actual content, title, attributes etc. are not deleted, only hidden.",
+      "sourceHash": "b2bf8668a747594b1c2d3715ab874a54e30947546303e7b8f805baf12ec6e349",
+      "context": "Notes > Deleting / undeleting notes",
+      "contextHash": "b20e63aee47b8cfb30d6bce4d368cb8f0fbaa9ba1d4c8214f1d3ef5a43b8e171",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_c440e44186eea9ccf9800dac_0",
+      "kind": "p",
+      "source": "Within (by default) 7 days, it is possible to undelete these soft-deleted notes - open the __TRILIUM_PH_0__Recent Changes__TRILIUM_PH_1__ dialog, and you will see a list of all modified notes including the deleted ones. Notes available for undeletion have a link to do so. This is kind of \"trash can\" functionality known from e.g. Windows.",
+      "sourceHash": "c440e44186eea9ccf9800dac960e03ebef07b939497639337595f12205ec1f13",
+      "context": "Notes > Deleting / undeleting notes",
+      "contextHash": "b20e63aee47b8cfb30d6bce4d368cb8f0fbaa9ba1d4c8214f1d3ef5a43b8e171",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_fcc7167bb245ab90e1718cd5_0",
+      "kind": "p",
+      "source": "Clicking an undelete will recover the note, its content and attributes - note should be just as before being deleted. This action will also undelete note's children which have been deleted in the same action.",
+      "sourceHash": "fcc7167bb245ab90e1718cd528ad3e8650f90243fc6ece8745bb3b8f5de21969",
+      "context": "Notes > Deleting / undeleting notes",
+      "contextHash": "b20e63aee47b8cfb30d6bce4d368cb8f0fbaa9ba1d4c8214f1d3ef5a43b8e171",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_800fc8d24ba1957576560802_0",
+      "kind": "p",
+      "source": "To be able to undelete a note, it is necessary that deleted note's parent must be undeleted (otherwise there's no place where we can undelete it to). This might become a problem when you delete more notes in succession - the solution is then undelete in the reverse order of your deletion.",
+      "sourceHash": "800fc8d24ba195757656080220c44b889245caeb44d4ae04d6851b67459594a7",
+      "context": "Notes > Deleting / undeleting notes",
+      "contextHash": "b20e63aee47b8cfb30d6bce4d368cb8f0fbaa9ba1d4c8214f1d3ef5a43b8e171",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_1dcf1d95b6a8155ce44be682_0",
+      "kind": "p",
+      "source": "After the 7 days (configurable) the notes will be \"erased\" - their title, content, revisions and attributes will be erased, and it will not be possible anymore to recover them (unless you restore a __TRILIUM_PH_0__Backup__TRILIUM_PH_1__).",
+      "sourceHash": "1dcf1d95b6a8155ce44be68259c139ecdd2fbc39511a42858866c68e5a1de1b2",
+      "context": "Notes > Deleting / undeleting notes",
+      "contextHash": "b20e63aee47b8cfb30d6bce4d368cb8f0fbaa9ba1d4c8214f1d3ef5a43b8e171",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_b056715d5493280169407022_0",
+      "kind": "h2",
+      "source": "See also__TRILIUM_PH_0__",
+      "sourceHash": "b056715d549328016940702234a644413c07c0558c4f59edcc3d85ec15afe208",
+      "context": "Notes > See also",
+      "contextHash": "3181b1fb5e350c7034e23c7c91707cb77239607b5d23510e89babff6c253bd44",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_054bb8108e719645ba68cb0c_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__Read-Only Notes__TRILIUM_PH_1__",
+      "sourceHash": "054bb8108e719645ba68cb0cd91ef3cb8aa7edf9b87e52f51f1092aec4a8ee5e",
+      "context": "Notes > See also",
+      "contextHash": "3181b1fb5e350c7034e23c7c91707cb77239607b5d23510e89babff6c253bd44",
+      "status": "pending",
+      "active": true
+    }
+  ],
+  "requests": []
+}

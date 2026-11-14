@@ -1,0 +1,679 @@
+{
+  "schemaVersion": 1,
+  "pageId": "A9Oc6YKKc65v",
+  "sourceFile": "docs/User Guide/User Guide/Basic Concepts and Features/Keyboard Shortcuts.md",
+  "sourceRevision": "03d17b60f59b5efc29b880b11481471d0fe0ff57",
+  "units": [
+    {
+      "id": "u_6646b0ec3d6c0892f5648d15_0",
+      "kind": "title",
+      "source": "Keyboard Shortcuts",
+      "sourceHash": "6646b0ec3d6c0892f5648d153c2cc0c3121d107db3ee4a6e639c0a7d050b430b",
+      "context": "Keyboard Shortcuts",
+      "contextHash": "59cdaa26dd9dcd4cbcded97a7b91029b396bcfdbfd927356facbeb163283a3df",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_af7403a58f847ad73768dd61_0",
+      "kind": "p",
+      "source": "This is supposed to be a complete list of keyboard shortcuts. Note that some of these may work only in certain contexts (e.g. in tree pane or note editor).",
+      "sourceHash": "af7403a58f847ad73768dd61e69391eb1cbf5b9f2eaba98152fbdf93e497cd1f",
+      "context": "Keyboard Shortcuts",
+      "contextHash": "59cdaa26dd9dcd4cbcded97a7b91029b396bcfdbfd927356facbeb163283a3df",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_9006b8bfb1b687ff9e46bd93_0",
+      "kind": "h2",
+      "source": "Configuring keyboard shortcuts__TRILIUM_PH_0__",
+      "sourceHash": "9006b8bfb1b687ff9e46bd938cc89914869f6a71c12d3b6375403ef7468dc78b",
+      "context": "Keyboard Shortcuts > Configuring keyboard shortcuts",
+      "contextHash": "340e8fdb9843377f127c4147efcb3db236931626979e25843d00705a06f241e4",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_581896ea7443b827bd1cf394_0",
+      "kind": "p",
+      "source": "It is also possible to configure most keyboard shortcuts in __TRILIUM_PH_0__Options__TRILIUM_PH_1__ → __TRILIUM_PH_2__Shortcuts__TRILIUM_PH_3__.",
+      "sourceHash": "581896ea7443b827bd1cf39403317e7634b8b880302c3636981a676db5849e55",
+      "context": "Keyboard Shortcuts > Configuring keyboard shortcuts",
+      "contextHash": "340e8fdb9843377f127c4147efcb3db236931626979e25843d00705a06f241e4",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_1a30dbc93373e66e4a3f5d5f_0",
+      "kind": "p",
+      "source": "On the __TRILIUM_PH_0__Desktop Installation__TRILIUM_PH_1__, it's also possible to make shortcuts global by pressing on the globe icon near the key combination, which makes the shortcut work even without Trilium being in focus.",
+      "sourceHash": "1a30dbc93373e66e4a3f5d5f59e0e2b3a474e2cc8671053f9e46d35d11a95aff",
+      "context": "Keyboard Shortcuts > Configuring keyboard shortcuts",
+      "contextHash": "340e8fdb9843377f127c4147efcb3db236931626979e25843d00705a06f241e4",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_82523188e2fd46e259e73c8f_0",
+      "kind": "h3",
+      "source": "Keyboard layouts__TRILIUM_PH_0__",
+      "sourceHash": "82523188e2fd46e259e73c8f17e75a183e6237bfae398fa1c6c930601be9c724",
+      "context": "Keyboard Shortcuts > Configuring keyboard shortcuts > Keyboard layouts",
+      "contextHash": "a85ee577a6c15a7c44d688a912d0ea7d7f76b03d35ab1d3ffd05a4eb4a2c6e38",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_d3f8ba40f8354cb265bc883f_0",
+      "kind": "p",
+      "source": "Shortcuts follow the characters printed on the keys of the active keyboard layout. On a French AZERTY keyboard, for example, __TRILIUM_PH_0__Ctrl__TRILIUM_PH_1__+__TRILIUM_PH_2__Z__TRILIUM_PH_3__ is the key labeled Z.",
+      "sourceHash": "d3f8ba40f8354cb265bc883f6fb840d9dac2496dab7c077822bbd1c6b59e5528",
+      "context": "Keyboard Shortcuts > Configuring keyboard shortcuts > Keyboard layouts",
+      "contextHash": "a85ee577a6c15a7c44d688a912d0ea7d7f76b03d35ab1d3ffd05a4eb4a2c6e38",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_f7c843f348c037e6c3c5de13_0",
+      "kind": "p",
+      "source": "On a layout that doesn't type Latin letters, such as Russian, Greek or Hebrew, a key that types a letter of that alphabet counts as the key at the same position on a US QWERTY keyboard. __TRILIUM_PH_0__Ctrl__TRILIUM_PH_1__+__TRILIUM_PH_2__J__TRILIUM_PH_3__ is then the key that types __TRILIUM_PH_4__ on a Russian keyboard, so shortcuts keep working without switching the layout first.",
+      "sourceHash": "f7c843f348c037e6c3c5de13634b30eace7c3ff22393a58bfe137882abd65fb0",
+      "context": "Keyboard Shortcuts > Configuring keyboard shortcuts > Keyboard layouts",
+      "contextHash": "a85ee577a6c15a7c44d688a912d0ea7d7f76b03d35ab1d3ffd05a4eb4a2c6e38",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_24cc0a75b90d303b241c1876_0",
+      "kind": "p",
+      "source": "Keys that type punctuation still follow their own character. On a Russian keyboard, the key that types __TRILIUM_PH_0__ triggers __TRILIUM_PH_1__Ctrl__TRILIUM_PH_2__+__TRILIUM_PH_3__.__TRILIUM_PH_4__, not the shortcut of the US key at its position.",
+      "sourceHash": "24cc0a75b90d303b241c18767fb812fa185d9cde707811a0adcd0b2e5a66054c",
+      "context": "Keyboard Shortcuts > Configuring keyboard shortcuts > Keyboard layouts",
+      "contextHash": "a85ee577a6c15a7c44d688a912d0ea7d7f76b03d35ab1d3ffd05a4eb4a2c6e38",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_7c9957d3d1b61c6fe8cab9d8_0",
+      "kind": "h2",
+      "source": "Shortcut reference__TRILIUM_PH_0__",
+      "sourceHash": "7c9957d3d1b61c6fe8cab9d81e8da5b5c870d9275a36b0439e88c8186d22bd14",
+      "context": "Keyboard Shortcuts > Shortcut reference",
+      "contextHash": "a9ebc7acf543bd88e8738ef8e656c6eb46ed70a7468eb9b947a97546084754a0",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_c9fbc2025ddd95b957cc2507_0",
+      "kind": "p",
+      "source": "All these shortcuts indicate the default key-bindings which can be changed individually from __TRILIUM_PH_0__Options__TRILIUM_PH_1__ → __TRILIUM_PH_2__Shortcuts.__TRILIUM_PH_3__",
+      "sourceHash": "c9fbc2025ddd95b957cc25075846f2f0a4c0f5f8cdc1980b5e0f231da4003c8a",
+      "context": "Keyboard Shortcuts > Shortcut reference",
+      "contextHash": "a9ebc7acf543bd88e8738ef8e656c6eb46ed70a7468eb9b947a97546084754a0",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_f71038a5fa5aba82dc551882_0",
+      "kind": "h3",
+      "source": "Tree__TRILIUM_PH_0__",
+      "sourceHash": "f71038a5fa5aba82dc551882fda995e9681c8ea5425ade507796383873851f18",
+      "context": "Keyboard Shortcuts > Shortcut reference > Tree",
+      "contextHash": "83e6bec35d4c32acc28a1456ac210ccdd7a095466c5ace91eb55838c903decaf",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_fbf2d3920418ea8cdf162ccc_0",
+      "kind": "p",
+      "source": "See the corresponding section: __TRILIUM_PH_0__Keyboard shortcuts__TRILIUM_PH_1__",
+      "sourceHash": "fbf2d3920418ea8cdf162ccc39a1b0866a668a28281aafcd941ec6cefeb2c13a",
+      "context": "Keyboard Shortcuts > Shortcut reference > Tree",
+      "contextHash": "83e6bec35d4c32acc28a1456ac210ccdd7a095466c5ace91eb55838c903decaf",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_65051e62b5e1c5e3507d1f6d_0",
+      "kind": "h3",
+      "source": "Note navigation__TRILIUM_PH_0__",
+      "sourceHash": "65051e62b5e1c5e3507d1f6d587b125bc1aa11a777955d36a0d086b40bcf2b54",
+      "context": "Keyboard Shortcuts > Shortcut reference > Note navigation",
+      "contextHash": "2fd500bf7a787f546d791003f526915cf9342f09fb43abe065efbf10472c6927",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_f5125aa942d6e3ec50313ca2_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__Alt__TRILIUM_PH_1__+__TRILIUM_PH_2__←__TRILIUM_PH_3__, __TRILIUM_PH_4__Alt__TRILIUM_PH_5__+__TRILIUM_PH_6__→__TRILIUM_PH_7__ – go back / forwards in the history",
+      "sourceHash": "f5125aa942d6e3ec50313ca2e022d32a8bc2809265d676b383e202789944f846",
+      "context": "Keyboard Shortcuts > Shortcut reference > Note navigation",
+      "contextHash": "2fd500bf7a787f546d791003f526915cf9342f09fb43abe065efbf10472c6927",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_95a4c8fd32fe75aa51cef568_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__Ctrl__TRILIUM_PH_1__+__TRILIUM_PH_2__J__TRILIUM_PH_3__ – show __TRILIUM_PH_4__\"Jump to\" dialog__TRILIUM_PH_5__",
+      "sourceHash": "95a4c8fd32fe75aa51cef568a71fe55e9e339a74c8fe0c0c8f7a4e9adc57247d",
+      "context": "Keyboard Shortcuts > Shortcut reference > Note navigation",
+      "contextHash": "2fd500bf7a787f546d791003f526915cf9342f09fb43abe065efbf10472c6927",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_f46044ad67c4ce1492aadf1e_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__Ctrl__TRILIUM_PH_1__+__TRILIUM_PH_2__.__TRILIUM_PH_3__ – scroll to current note (useful when you scroll away from your note or your focus is currently in the editor)",
+      "sourceHash": "f46044ad67c4ce1492aadf1ea4ffd202f34177fff96841a7aae7c28ddecd9723",
+      "context": "Keyboard Shortcuts > Shortcut reference > Note navigation",
+      "contextHash": "2fd500bf7a787f546d791003f526915cf9342f09fb43abe065efbf10472c6927",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_25036d4f44853a53a3b51b41_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__Backspace__TRILIUM_PH_1__ – jumps to parent note",
+      "sourceHash": "25036d4f44853a53a3b51b419b593220b453e29e8e362f65ef44ff374fd3ac09",
+      "context": "Keyboard Shortcuts > Shortcut reference > Note navigation",
+      "contextHash": "2fd500bf7a787f546d791003f526915cf9342f09fb43abe065efbf10472c6927",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_daef74a0cdf958cee57faaf1_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__Alt__TRILIUM_PH_1__+__TRILIUM_PH_2__C__TRILIUM_PH_3__ – collapse whole note tree",
+      "sourceHash": "daef74a0cdf958cee57faaf1af5590ab177fd99ced4e5df01df10e4b0088e4c5",
+      "context": "Keyboard Shortcuts > Shortcut reference > Note navigation",
+      "contextHash": "2fd500bf7a787f546d791003f526915cf9342f09fb43abe065efbf10472c6927",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_f86fe5d0e4c6e041260e04be_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__Alt__TRILIUM_PH_1__+__TRILIUM_PH_2__-__TRILIUM_PH_3__ (alt with minus sign) – collapse subtree (if some subtree takes too much space on tree pane you can collapse it)",
+      "sourceHash": "f86fe5d0e4c6e041260e04be3c767a586af7cb79a92fae9bf2252e9255b8af1f",
+      "context": "Keyboard Shortcuts > Shortcut reference > Note navigation",
+      "contextHash": "2fd500bf7a787f546d791003f526915cf9342f09fb43abe065efbf10472c6927",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_3ddbdbd9d293130868ccef01_0",
+      "kind": "li",
+      "source": "you can define a __TRILIUM_PH_0__label__TRILIUM_PH_1__ __TRILIUM_PH_2__ with e.g. value __TRILIUM_PH_3__ . Pressing this keyboard combination will then bring you to the note on which it is defined. Note that Trilium must be reloaded/restarted (__TRILIUM_PH_4__Ctrl__TRILIUM_PH_5__+__TRILIUM_PH_6__R__TRILIUM_PH_7__ ) for changes to be in effect.",
+      "sourceHash": "3ddbdbd9d293130868ccef014775de62d4af947713db4fe5959129fecb00465b",
+      "context": "Keyboard Shortcuts > Shortcut reference > Note navigation",
+      "contextHash": "2fd500bf7a787f546d791003f526915cf9342f09fb43abe065efbf10472c6927",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_0ecec22ba92de65b28081c73_0",
+      "kind": "p",
+      "source": "See demo of some of these features in __TRILIUM_PH_0__note navigation__TRILIUM_PH_1__.",
+      "sourceHash": "0ecec22ba92de65b28081c7318b860865ce0bdd1bed02e7e2a595839ed58fecd",
+      "context": "Keyboard Shortcuts > Shortcut reference > Note navigation",
+      "contextHash": "2fd500bf7a787f546d791003f526915cf9342f09fb43abe065efbf10472c6927",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_a85103d1380dbbcb4dada3de_0",
+      "kind": "h3",
+      "source": "Tabs__TRILIUM_PH_0__",
+      "sourceHash": "a85103d1380dbbcb4dada3deb440c53c3d56dcfb988e45600fabb93d9880f9d3",
+      "context": "Keyboard Shortcuts > Shortcut reference > Tabs",
+      "contextHash": "61e8a7ca11b3a0fdcafb78dfed3a288e0d57e3f50a793f21463d0f3c8c61da17",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_9bb8f999492edb24b54df2be_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__Ctrl__TRILIUM_PH_1__ + __TRILIUM_PH_2__🖱 Left click__TRILIUM_PH_3__ – (or middle mouse click) on note link opens note in a new tab",
+      "sourceHash": "9bb8f999492edb24b54df2be83f57d3feaf25d44b5a6bd496134d780dfa3b60f",
+      "context": "Keyboard Shortcuts > Shortcut reference > Tabs",
+      "contextHash": "61e8a7ca11b3a0fdcafb78dfed3a288e0d57e3f50a793f21463d0f3c8c61da17",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_057ee0c294ad9b28e1a09622_0",
+      "kind": "p",
+      "source": "Only in desktop (electron build):",
+      "sourceHash": "057ee0c294ad9b28e1a096224befba150e6381b8ef26586b382fa8b97674121e",
+      "context": "Keyboard Shortcuts > Shortcut reference > Tabs",
+      "contextHash": "61e8a7ca11b3a0fdcafb78dfed3a288e0d57e3f50a793f21463d0f3c8c61da17",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_0c0c321320606a9ecef26269_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__Ctrl__TRILIUM_PH_1__+__TRILIUM_PH_2__T__TRILIUM_PH_3__ – opens empty tab",
+      "sourceHash": "0c0c321320606a9ecef262690690c631898edc9c29a0366a63715b149d1b57cc",
+      "context": "Keyboard Shortcuts > Shortcut reference > Tabs",
+      "contextHash": "61e8a7ca11b3a0fdcafb78dfed3a288e0d57e3f50a793f21463d0f3c8c61da17",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_264392bb990b551f2c175e94_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__Ctrl__TRILIUM_PH_1__+__TRILIUM_PH_2__W__TRILIUM_PH_3__ – closes active tab",
+      "sourceHash": "264392bb990b551f2c175e946589f08f227a79dddd9b645b5fe7d16376d3b173",
+      "context": "Keyboard Shortcuts > Shortcut reference > Tabs",
+      "contextHash": "61e8a7ca11b3a0fdcafb78dfed3a288e0d57e3f50a793f21463d0f3c8c61da17",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_303cdbdbaa81a1383c1f1194_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__Ctrl__TRILIUM_PH_1__+__TRILIUM_PH_2__Tab__TRILIUM_PH_3__ – activates next tab",
+      "sourceHash": "303cdbdbaa81a1383c1f11947d8aff8def286d1f1e3910ae36a1ad872d84b5cd",
+      "context": "Keyboard Shortcuts > Shortcut reference > Tabs",
+      "contextHash": "61e8a7ca11b3a0fdcafb78dfed3a288e0d57e3f50a793f21463d0f3c8c61da17",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_8a882e2d65df300b35e4d3da_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__Ctrl__TRILIUM_PH_1__+__TRILIUM_PH_2__Shift__TRILIUM_PH_3__+__TRILIUM_PH_4__Tab__TRILIUM_PH_5__ – activates previous tab",
+      "sourceHash": "8a882e2d65df300b35e4d3da37bbb5e4e815bf2aae8772be1f5e941225d9aef6",
+      "context": "Keyboard Shortcuts > Shortcut reference > Tabs",
+      "contextHash": "61e8a7ca11b3a0fdcafb78dfed3a288e0d57e3f50a793f21463d0f3c8c61da17",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_99923dd3f1960c46b7d7111a_0",
+      "kind": "h3",
+      "source": "Splits__TRILIUM_PH_0__",
+      "sourceHash": "99923dd3f1960c46b7d7111a57ebc73ef89555da5dd018640708cffe6ee526e1",
+      "context": "Keyboard Shortcuts > Shortcut reference > Splits",
+      "contextHash": "3e2355dc7690767c26fbcd61160fd742f8560e13c4e58c763ffbe03d0e0ad0ce",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_21f31337532fe677713c260e_0",
+      "kind": "p",
+      "source": "__TRILIUM_PH_0__Split View__TRILIUM_PH_1__ can also be controlled through keyboard actions, such as:",
+      "sourceHash": "21f31337532fe677713c260ecc23b023327223b23d0b29c1ae7a13babd0cd06b",
+      "context": "Keyboard Shortcuts > Shortcut reference > Splits",
+      "contextHash": "3e2355dc7690767c26fbcd61160fd742f8560e13c4e58c763ffbe03d0e0ad0ce",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_7c897abc692c8752ac21422f_0",
+      "kind": "li",
+      "source": "Creating a new split",
+      "sourceHash": "7c897abc692c8752ac21422fcf4d69d59d479c3052277b8d7870d84d3a33de01",
+      "context": "Keyboard Shortcuts > Shortcut reference > Splits",
+      "contextHash": "3e2355dc7690767c26fbcd61160fd742f8560e13c4e58c763ffbe03d0e0ad0ce",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_c9884d1f0641c32539a7206d_0",
+      "kind": "li",
+      "source": "Closing the active split",
+      "sourceHash": "c9884d1f0641c32539a7206d9007b208d0dba1afe9cf31e66dbf4190d40f0bbb",
+      "context": "Keyboard Shortcuts > Shortcut reference > Splits",
+      "contextHash": "3e2355dc7690767c26fbcd61160fd742f8560e13c4e58c763ffbe03d0e0ad0ce",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_c5c18043cd57b0a4c5b62acf_0",
+      "kind": "li",
+      "source": "Moving a split left/right",
+      "sourceHash": "c5c18043cd57b0a4c5b62acf4c508cf385fb2bd22eca700dce38d151b2dfdcc7",
+      "context": "Keyboard Shortcuts > Shortcut reference > Splits",
+      "contextHash": "3e2355dc7690767c26fbcd61160fd742f8560e13c4e58c763ffbe03d0e0ad0ce",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_9ab9873ff90130fa640500f7_0",
+      "kind": "li",
+      "source": "Focusing the split to the left/right.",
+      "sourceHash": "9ab9873ff90130fa640500f790255f96dc2c841655c8190a33d61350ae754d2e",
+      "context": "Keyboard Shortcuts > Shortcut reference > Splits",
+      "contextHash": "3e2355dc7690767c26fbcd61160fd742f8560e13c4e58c763ffbe03d0e0ad0ce",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_e006a4e7c465484194bc147e_0",
+      "kind": "p",
+      "source": "All these keyboard shortcuts do not have a default set, go to __TRILIUM_PH_0__Options__TRILIUM_PH_1__ → __TRILIUM_PH_2__Shortcuts__TRILIUM_PH_3__ and look for the __TRILIUM_PH_4__Split View__TRILIUM_PH_5__ category.",
+      "sourceHash": "e006a4e7c465484194bc147e7c2ce55b30559ac02200da3491b3d17229271db8",
+      "context": "Keyboard Shortcuts > Shortcut reference > Splits",
+      "contextHash": "3e2355dc7690767c26fbcd61160fd742f8560e13c4e58c763ffbe03d0e0ad0ce",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_7f4c8b5bae94ef9aefc94a75_0",
+      "kind": "h3",
+      "source": "Context menus__TRILIUM_PH_0__",
+      "sourceHash": "7f4c8b5bae94ef9aefc94a7593772ba232af67e93f07dfe94ec68075b367ce63",
+      "context": "Keyboard Shortcuts > Shortcut reference > Context menus",
+      "contextHash": "1d4cdf0a931c93d24b3ca425c193dd0df0a9564e3cc51f040c5f1707096e66e2",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_604b97707f028559b30c49dc_0",
+      "kind": "p",
+      "source": "Every context menu can be operated from the keyboard, however it was opened, for example with the __TRILIUM_PH_0__Menu__TRILIUM_PH_1__ key in a text note to reach the spelling suggestions. These keys are fixed and cannot be changed in the options.",
+      "sourceHash": "604b97707f028559b30c49dc8c9e0697999907f58676d4931cd51959b32b2d82",
+      "context": "Keyboard Shortcuts > Shortcut reference > Context menus",
+      "contextHash": "1d4cdf0a931c93d24b3ca425c193dd0df0a9564e3cc51f040c5f1707096e66e2",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_ce624367bd39718fbea37ea3_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__↑__TRILIUM_PH_1__, __TRILIUM_PH_2__↓__TRILIUM_PH_3__ – move to the previous / next item, skipping disabled ones and wrapping around at either end",
+      "sourceHash": "ce624367bd39718fbea37ea3b820152520606d4b50534e2cf5e4c50f9ed5e033",
+      "context": "Keyboard Shortcuts > Shortcut reference > Context menus",
+      "contextHash": "1d4cdf0a931c93d24b3ca425c193dd0df0a9564e3cc51f040c5f1707096e66e2",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_2a85bb9b2f809fea75c9bdcb_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__Home__TRILIUM_PH_1__, __TRILIUM_PH_2__End__TRILIUM_PH_3__ – move to the first / last item",
+      "sourceHash": "2a85bb9b2f809fea75c9bdcb757ee70adfc1e4517d5967c16018d18ce6e2d4ca",
+      "context": "Keyboard Shortcuts > Shortcut reference > Context menus",
+      "contextHash": "1d4cdf0a931c93d24b3ca425c193dd0df0a9564e3cc51f040c5f1707096e66e2",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_e1603283dd63d7134b30a29e_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__→__TRILIUM_PH_1__ – open the submenu of the current item, or move to the next column in a submenu laid out in columns",
+      "sourceHash": "e1603283dd63d7134b30a29e4b812812f122009dff9f582f18478084de8edece",
+      "context": "Keyboard Shortcuts > Shortcut reference > Context menus",
+      "contextHash": "1d4cdf0a931c93d24b3ca425c193dd0df0a9564e3cc51f040c5f1707096e66e2",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_089bea11442f5defed16d382_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__←__TRILIUM_PH_1__ – move to the previous column, or close the submenu and go back to its item",
+      "sourceHash": "089bea11442f5defed16d382b9768d9205118daf65cee11f08c60cd3f6b873cc",
+      "context": "Keyboard Shortcuts > Shortcut reference > Context menus",
+      "contextHash": "1d4cdf0a931c93d24b3ca425c193dd0df0a9564e3cc51f040c5f1707096e66e2",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_18e9d40febd2a463795e6323_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__Enter__TRILIUM_PH_1__ or __TRILIUM_PH_2__Space__TRILIUM_PH_3__ – run the current item, or open its submenu",
+      "sourceHash": "18e9d40febd2a463795e632329ce83ed91220289953ddcabf06b4b19b7761c3c",
+      "context": "Keyboard Shortcuts > Shortcut reference > Context menus",
+      "contextHash": "1d4cdf0a931c93d24b3ca425c193dd0df0a9564e3cc51f040c5f1707096e66e2",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_7726ed91d55b1fd86c4d60aa_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__Esc__TRILIUM_PH_1__ – close the innermost submenu, then the menu itself",
+      "sourceHash": "7726ed91d55b1fd86c4d60aa281bff8d37747d494c3cf4e48fb95b5ae818d188",
+      "context": "Keyboard Shortcuts > Shortcut reference > Context menus",
+      "contextHash": "1d4cdf0a931c93d24b3ca425c193dd0df0a9564e3cc51f040c5f1707096e66e2",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_7af09238b6d755a7260cfac4_0",
+      "kind": "li",
+      "source": "typing the first letters of an item – jump to the next item whose title starts with them",
+      "sourceHash": "7af09238b6d755a7260cfac4c91173404424a5c9a06ded0603b941c54adb7f9e",
+      "context": "Keyboard Shortcuts > Shortcut reference > Context menus",
+      "contextHash": "1d4cdf0a931c93d24b3ca425c193dd0df0a9564e3cc51f040c5f1707096e66e2",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_34cab23fafa9fbbfc5dc87b2_0",
+      "kind": "p",
+      "source": "With a right-to-left language, __TRILIUM_PH_0__←__TRILIUM_PH_1__ and __TRILIUM_PH_2__→__TRILIUM_PH_3__ swap roles.",
+      "sourceHash": "34cab23fafa9fbbfc5dc87b22e09f367c5b9f861ad68a91cf1e996e3e6e89924",
+      "context": "Keyboard Shortcuts > Shortcut reference > Context menus",
+      "contextHash": "1d4cdf0a931c93d24b3ca425c193dd0df0a9564e3cc51f040c5f1707096e66e2",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_71b988903b4823682b0d4f86_0",
+      "kind": "h3",
+      "source": "Creating notes__TRILIUM_PH_0__",
+      "sourceHash": "71b988903b4823682b0d4f8610da7ce8a18539643d025462960dd095658a9e89",
+      "context": "Keyboard Shortcuts > Shortcut reference > Creating notes",
+      "contextHash": "98f92544af04de35d6f7a48510dbf1b35aa1ef3b27426cda72c7cf668430d7f9",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_05fb64337bc9518728c0f696_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__Ctrl__TRILIUM_PH_1__+__TRILIUM_PH_2__O__TRILIUM_PH_3__ – creates new note after the current note",
+      "sourceHash": "05fb64337bc9518728c0f69642b8dee2c0b55abec6e1db1568e63bb24e487210",
+      "context": "Keyboard Shortcuts > Shortcut reference > Creating notes",
+      "contextHash": "98f92544af04de35d6f7a48510dbf1b35aa1ef3b27426cda72c7cf668430d7f9",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_da0226a145152d1b8ca59ff9_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__Ctrl__TRILIUM_PH_1__+__TRILIUM_PH_2__P__TRILIUM_PH_3__ – creates new sub-note into current note",
+      "sourceHash": "da0226a145152d1b8ca59ff9a2d2a68c7eaa0170dd7d39120b644b020562f3df",
+      "context": "Keyboard Shortcuts > Shortcut reference > Creating notes",
+      "contextHash": "98f92544af04de35d6f7a48510dbf1b35aa1ef3b27426cda72c7cf668430d7f9",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_1273e002d19973d42ea364a0_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__F2__TRILIUM_PH_1__ – edit the __TRILIUM_PH_2__Branch prefix__TRILIUM_PH_3__ of current note clone",
+      "sourceHash": "1273e002d19973d42ea364a03c4b1d0edf1df377d9ca9e7d2ccda000f0ad8a72",
+      "context": "Keyboard Shortcuts > Shortcut reference > Creating notes",
+      "contextHash": "98f92544af04de35d6f7a48510dbf1b35aa1ef3b27426cda72c7cf668430d7f9",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_e69c13d1b761099d409557d6_0",
+      "kind": "h3",
+      "source": "Editing notes__TRILIUM_PH_0__",
+      "sourceHash": "e69c13d1b761099d409557d6cdb963636a29255c99c6a3cbaa810b22dc1ad1a3",
+      "context": "Keyboard Shortcuts > Shortcut reference > Editing notes",
+      "contextHash": "83ad4dbb48ee4fe1e0b3d7588b96a0ede619fd390b9d653dc01af9caeaa16b26",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_04263038881dc3ead60f6d81_0",
+      "kind": "p",
+      "source": "For keyboard shortcuts specific to __TRILIUM_PH_0__Text__TRILIUM_PH_1__ notes, refer to __TRILIUM_PH_2__Keyboard shortcuts__TRILIUM_PH_3__ and __TRILIUM_PH_4__Markdown-like formatting__TRILIUM_PH_5__.",
+      "sourceHash": "04263038881dc3ead60f6d816ac1c71acbf8cb53b66a4263309ca29d9b0fa5e0",
+      "context": "Keyboard Shortcuts > Shortcut reference > Editing notes",
+      "contextHash": "83ad4dbb48ee4fe1e0b3d7588b96a0ede619fd390b9d653dc01af9caeaa16b26",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_08f90594276411f56636e1c9_0",
+      "kind": "li",
+      "source": "Enter in tree pane switches from tree pane into note title. Enter from note title switches focus to text editor. __TRILIUM_PH_0__Ctrl__TRILIUM_PH_1__+__TRILIUM_PH_2__.__TRILIUM_PH_3__ switches back from editor to tree pane.",
+      "sourceHash": "08f90594276411f56636e1c9941626a8c3c8d1322969829efd1f0ebed56074ac",
+      "context": "Keyboard Shortcuts > Shortcut reference > Editing notes",
+      "contextHash": "83ad4dbb48ee4fe1e0b3d7588b96a0ede619fd390b9d653dc01af9caeaa16b26",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_d963bb4acd2952c2c8e599d8_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__Ctrl__TRILIUM_PH_1__+__TRILIUM_PH_2__.__TRILIUM_PH_3__ – jump away from the editor to tree pane and scroll to current note",
+      "sourceHash": "d963bb4acd2952c2c8e599d8c054c4b0205bc34250c3c5293279b70d2ac667bb",
+      "context": "Keyboard Shortcuts > Shortcut reference > Editing notes",
+      "contextHash": "83ad4dbb48ee4fe1e0b3d7588b96a0ede619fd390b9d653dc01af9caeaa16b26",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_4b1a7fd0a405f7df91889961_0",
+      "kind": "h3",
+      "source": "Runtime shortcuts__TRILIUM_PH_0__",
+      "sourceHash": "4b1a7fd0a405f7df91889961b45f1c0a67f33500151494606fb6fda00b097f68",
+      "context": "Keyboard Shortcuts > Shortcut reference > Runtime shortcuts",
+      "contextHash": "280dea3b90e629c8d85c31c159517a2e1de34543769ee57b5751f58fbec5da9d",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_4f32d87f823a3dc1fbc7f385_0",
+      "kind": "p",
+      "source": "These are hooked in Electron to be similar to native browser keyboard shortcuts.",
+      "sourceHash": "4f32d87f823a3dc1fbc7f38593abf8c602eb827798d7ef56e9a496d643957294",
+      "context": "Keyboard Shortcuts > Shortcut reference > Runtime shortcuts",
+      "contextHash": "280dea3b90e629c8d85c31c159517a2e1de34543769ee57b5751f58fbec5da9d",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_7bfb5e4da364dd1f083a9bc2_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__F5__TRILIUM_PH_1__, __TRILIUM_PH_2__Ctrl__TRILIUM_PH_3__+__TRILIUM_PH_4__R__TRILIUM_PH_5__ – reloads Trilium front-end",
+      "sourceHash": "7bfb5e4da364dd1f083a9bc2f180114a301262ae2a4dcdf8596601da6aed5c90",
+      "context": "Keyboard Shortcuts > Shortcut reference > Runtime shortcuts",
+      "contextHash": "280dea3b90e629c8d85c31c159517a2e1de34543769ee57b5751f58fbec5da9d",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_92820553b382c8c471c46be0_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__Ctrl__TRILIUM_PH_1__+__TRILIUM_PH_2__Shift__TRILIUM_PH_3__+__TRILIUM_PH_4__I__TRILIUM_PH_5__ – show developer tools",
+      "sourceHash": "92820553b382c8c471c46be0ad48afcfd50999d729c6675a73d112799be4ab29",
+      "context": "Keyboard Shortcuts > Shortcut reference > Runtime shortcuts",
+      "contextHash": "280dea3b90e629c8d85c31c159517a2e1de34543769ee57b5751f58fbec5da9d",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_4546cef5447cd022ceca9fa5_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__Ctrl__TRILIUM_PH_1__+__TRILIUM_PH_2__F__TRILIUM_PH_3__ – show search dialog",
+      "sourceHash": "4546cef5447cd022ceca9fa517671271d2d852771fe81f7d18e5b82f5a07b35c",
+      "context": "Keyboard Shortcuts > Shortcut reference > Runtime shortcuts",
+      "contextHash": "280dea3b90e629c8d85c31c159517a2e1de34543769ee57b5751f58fbec5da9d",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_a4ae6e6e8d38c72b191baae7_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__Ctrl__TRILIUM_PH_1__+__TRILIUM_PH_2__-__TRILIUM_PH_3__ – zoom out",
+      "sourceHash": "a4ae6e6e8d38c72b191baae7c2d2e0d7ad7230996b6b69b076eb17506bde510b",
+      "context": "Keyboard Shortcuts > Shortcut reference > Runtime shortcuts",
+      "contextHash": "280dea3b90e629c8d85c31c159517a2e1de34543769ee57b5751f58fbec5da9d",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_55a2765d53af7508482efabb_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__Ctrl__TRILIUM_PH_1__+__TRILIUM_PH_2__=__TRILIUM_PH_3__ – zoom in",
+      "sourceHash": "55a2765d53af7508482efabb8b01264a5265afeccd98392f6502e1885f61ecb3",
+      "context": "Keyboard Shortcuts > Shortcut reference > Runtime shortcuts",
+      "contextHash": "280dea3b90e629c8d85c31c159517a2e1de34543769ee57b5751f58fbec5da9d",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_81cad3dd7691fe099fca3bc1_0",
+      "kind": "h3",
+      "source": "Other__TRILIUM_PH_0__",
+      "sourceHash": "81cad3dd7691fe099fca3bc178178d1768850b44ed7935093218002dddbfa2f9",
+      "context": "Keyboard Shortcuts > Shortcut reference > Other",
+      "contextHash": "1dad8037f62b65c66ec4c19517eb25e7bd03695759089c92ade4dba4f53e31b1",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_d2c8501bce38841ea646c3b6_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__Alt__TRILIUM_PH_1__+__TRILIUM_PH_2__O__TRILIUM_PH_3__ – show SQL console (use only if you know what you're doing)",
+      "sourceHash": "d2c8501bce38841ea646c3b6fe7838c6296b5f75d594195b6786f3a5db18c72a",
+      "context": "Keyboard Shortcuts > Shortcut reference > Other",
+      "contextHash": "1dad8037f62b65c66ec4c19517eb25e7bd03695759089c92ade4dba4f53e31b1",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_b7c36915ef978ee8a73d821f_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__Alt__TRILIUM_PH_1__+__TRILIUM_PH_2__M__TRILIUM_PH_3__ – distraction-free mode - display only note editor, everything else is hidden",
+      "sourceHash": "b7c36915ef978ee8a73d821fef6af42fe42753a60df9264a15636c54839f0f21",
+      "context": "Keyboard Shortcuts > Shortcut reference > Other",
+      "contextHash": "1dad8037f62b65c66ec4c19517eb25e7bd03695759089c92ade4dba4f53e31b1",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_d44b98c0b188d723ea74c888_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__F11 __TRILIUM_PH_1__ – toggle full screen",
+      "sourceHash": "d44b98c0b188d723ea74c888e1eb3dfd0b8d65597a4ba7b456706f4398c8f786",
+      "context": "Keyboard Shortcuts > Shortcut reference > Other",
+      "contextHash": "1dad8037f62b65c66ec4c19517eb25e7bd03695759089c92ade4dba4f53e31b1",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_04a25530b443504c34442d6d_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__Ctrl__TRILIUM_PH_1__+__TRILIUM_PH_2__S__TRILIUM_PH_3__ – toggle __TRILIUM_PH_4__search__TRILIUM_PH_5__ form in tree pane",
+      "sourceHash": "04a25530b443504c34442d6d481395ec642708706a9331fbf64924627d68cc22",
+      "context": "Keyboard Shortcuts > Shortcut reference > Other",
+      "contextHash": "1dad8037f62b65c66ec4c19517eb25e7bd03695759089c92ade4dba4f53e31b1",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_d5bc4a6f983eaedb91889b59_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__Alt__TRILIUM_PH_1__+__TRILIUM_PH_2__A__TRILIUM_PH_3__ – show note __TRILIUM_PH_4__attributes__TRILIUM_PH_5__ dialog",
+      "sourceHash": "d5bc4a6f983eaedb91889b59dbfd37dd26a470e6ba0c807d4c7520014ae10229",
+      "context": "Keyboard Shortcuts > Shortcut reference > Other",
+      "contextHash": "1dad8037f62b65c66ec4c19517eb25e7bd03695759089c92ade4dba4f53e31b1",
+      "status": "pending",
+      "active": true
+    }
+  ],
+  "requests": []
+}

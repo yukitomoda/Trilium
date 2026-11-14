@@ -1,0 +1,839 @@
+{
+  "schemaVersion": 1,
+  "pageId": "eFhxp9laTW1S",
+  "sourceFile": "docs/User Guide/User Guide/AI/Providers/Subscription-based providers.md",
+  "sourceRevision": "03d17b60f59b5efc29b880b11481471d0fe0ff57",
+  "units": [
+    {
+      "id": "u_c2db2c359f5278eee5923ae2_0",
+      "kind": "title",
+      "source": "Subscription-based providers",
+      "sourceHash": "c2db2c359f5278eee5923ae218c5b84b437337950788d46c1cc309b6a5cc9baf",
+      "context": "Subscription-based providers",
+      "contextHash": "351ac2d46a65fddae93026ab72425cf0397289d89bfaaaf9a798161338291d0f",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_cc3dadde65b328b363b4ff25_0",
+      "kind": "p",
+      "source": "Some cloud providers offer a subscription, which has a fixed monthly fee instead of pay-per-use (unlike the API keys).",
+      "sourceHash": "cc3dadde65b328b363b4ff259f080a6f5bae09562bb084796bbc7bb9503a0f4c",
+      "context": "Subscription-based providers",
+      "contextHash": "351ac2d46a65fddae93026ab72425cf0397289d89bfaaaf9a798161338291d0f",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_38da009ff09bc87264d343ea_0",
+      "kind": "p",
+      "source": "In a nutshell, subscription-based providers work by either reusing your existing CLI tools (e.g. Claude Code, GitHub Copilot and OpenAI Codex via ACP) whereas some require installing the ACP server manually (e.g. Google Antigravity). Because they require something to be installed on your device, these providers are not available on Mobile (Android or iOS) or standalone mode.",
+      "sourceHash": "38da009ff09bc87264d343ea7a1eabca3c1fcd05408732e5258484cd9f54bce6",
+      "context": "Subscription-based providers",
+      "contextHash": "351ac2d46a65fddae93026ab72425cf0397289d89bfaaaf9a798161338291d0f",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_9607795a1a985b7581dfc70a_0",
+      "kind": "p",
+      "source": "See also the dedicated __TRILIUM_PH_0__Privacy__TRILIUM_PH_1__ section to better understand what data is being sent to a cloud provider.",
+      "sourceHash": "9607795a1a985b7581dfc70af6fe49f97afb521faa6f8500ba9cb59ba9ae1224",
+      "context": "Subscription-based providers",
+      "contextHash": "351ac2d46a65fddae93026ab72425cf0397289d89bfaaaf9a798161338291d0f",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_36ce3512a1215e30106133dd_0",
+      "kind": "h2",
+      "source": "Using the Flatpak__TRILIUM_PH_0__",
+      "sourceHash": "36ce3512a1215e30106133dd5bc0e37945d84e64547920c5684a755ca983c8df",
+      "context": "Subscription-based providers > Using the Flatpak",
+      "contextHash": "991609bed5ac78a410634b80383fb151e0c9bb6d8fcc8fed705efad30068dea1",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_571ad3dd9f5d172c5fc275da_0",
+      "kind": "p",
+      "source": "The Flatpak version of Trilium (see __TRILIUM_PH_0__Installing from Flathub__TRILIUM_PH_1__) runs in a sandbox that hides the programs installed on your computer, so on its own it cannot find Claude Code, the GitHub Copilot CLI, the Codex CLI or Google's Antigravity ACP server. Trilium can start them outside the sandbox once you allow it to:",
+      "sourceHash": "571ad3dd9f5d172c5fc275da5fc6f64158b662496566990749f62721afa494c6",
+      "context": "Subscription-based providers > Using the Flatpak",
+      "contextHash": "991609bed5ac78a410634b80383fb151e0c9bb6d8fcc8fed705efad30068dea1",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_572617fc20ba44872f42b8e6_0",
+      "kind": "p",
+      "source": "Install the CLI on your computer and sign in to it, as described below for each provider.",
+      "sourceHash": "572617fc20ba44872f42b8e65d7438531cd30ab912048002037793de97d0e551",
+      "context": "Subscription-based providers > Using the Flatpak",
+      "contextHash": "991609bed5ac78a410634b80383fb151e0c9bb6d8fcc8fed705efad30068dea1",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_3928a5f01d44478d638549d8_0",
+      "kind": "p",
+      "source": "Allow Trilium to start programs outside its sandbox by running this in a terminal:",
+      "sourceHash": "3928a5f01d44478d638549d83ea6522976139a995b8ab94628384c59bd3f3f58",
+      "context": "Subscription-based providers > Using the Flatpak",
+      "contextHash": "991609bed5ac78a410634b80383fb151e0c9bb6d8fcc8fed705efad30068dea1",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_478eb4e9d2295531886476af_0",
+      "kind": "p",
+      "source": "Restart Trilium, then go to __TRILIUM_PH_0__Options__TRILIUM_PH_1__ → __TRILIUM_PH_2__AI / LLM__TRILIUM_PH_3__ and add the provider.",
+      "sourceHash": "478eb4e9d2295531886476afca21cc5d81e852dad7524ba0b1de331cf9adc7d7",
+      "context": "Subscription-based providers > Using the Flatpak",
+      "contextHash": "991609bed5ac78a410634b80383fb151e0c9bb6d8fcc8fed705efad30068dea1",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_50021f67b47c488f493f5b44_0",
+      "kind": "p",
+      "source": "Trilium then looks the CLI up in your computer's __TRILIUM_PH_0__ and in your login shell's, and starts it there through __TRILIUM_PH_1__. Until the permission is granted, adding one of these providers fails with a message that repeats these steps.",
+      "sourceHash": "50021f67b47c488f493f5b44687668dd72ad1f2a1e67bace000d32365dc3af0e",
+      "context": "Subscription-based providers > Using the Flatpak",
+      "contextHash": "991609bed5ac78a410634b80383fb151e0c9bb6d8fcc8fed705efad30068dea1",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_3b3b508f7f1ca027189675fa_0",
+      "kind": "p",
+      "source": "This permission lets Trilium run any program on your computer outside the sandbox, which is the same access an installation outside Flatpak has. To take it back, run __TRILIUM_PH_0__ and restart Trilium.",
+      "sourceHash": "3b3b508f7f1ca027189675fa509d333d5e122dc4f3d3331960e1178f3a5b6e08",
+      "context": "Subscription-based providers > Using the Flatpak",
+      "contextHash": "991609bed5ac78a410634b80383fb151e0c9bb6d8fcc8fed705efad30068dea1",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_d74f55a479d1381f59a7dc5c_0",
+      "kind": "p",
+      "source": "The environment variables that point Trilium at a CLI (such as __TRILIUM_PH_0__) name a file inside the sandbox, so with the Flatpak, leave them unset and let Trilium find the CLI on your computer.",
+      "sourceHash": "d74f55a479d1381f59a7dc5c174e751f5dfe62e43bbecc09f128b5f5120363b3",
+      "context": "Subscription-based providers > Using the Flatpak",
+      "contextHash": "991609bed5ac78a410634b80383fb151e0c9bb6d8fcc8fed705efad30068dea1",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_b9cb73b6fe69200e384daac1_0",
+      "kind": "h2",
+      "source": "__TRILIUM_PH_0__ Claude Code__TRILIUM_PH_1__",
+      "sourceHash": "b9cb73b6fe69200e384daac1f78d6feccbadc818bd8bb0ff5aaed04b86428d58",
+      "context": "Subscription-based providers >  Claude Code",
+      "contextHash": "052c90c5cd5aaf3800364763355402b23a2555998ec305694c83af4954d87b7c",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_39342eaae83e8131c01b07fa_0",
+      "kind": "p",
+      "source": "To use a subscription:",
+      "sourceHash": "39342eaae83e8131c01b07fa9eb18f6eab8591eaaab3da134ecceb7cbb1cd8df",
+      "context": "Subscription-based providers >  Claude Code",
+      "contextHash": "052c90c5cd5aaf3800364763355402b23a2555998ec305694c83af4954d87b7c",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_239fa4dbf9de64b10e364b0d_0",
+      "kind": "li",
+      "source": "First, Claude Code needs to be installed on the machine that runs Trilium. So for a __TRILIUM_PH_0__Desktop Installation__TRILIUM_PH_1__, Claude needs to be installed locally and for a __TRILIUM_PH_2__Server Installation__TRILIUM_PH_3__ accessed via a browser, Claude needs to be installed on the server.",
+      "sourceHash": "239fa4dbf9de64b10e364b0da5f5224662e16bd1005163dcde6df21843ad4751",
+      "context": "Subscription-based providers >  Claude Code",
+      "contextHash": "052c90c5cd5aaf3800364763355402b23a2555998ec305694c83af4954d87b7c",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_f81888a811f67576a99ba6d4_0",
+      "kind": "li",
+      "source": "Claude Code must already be authenticated. To do so, run __TRILIUM_PH_0__ in a terminal once, type __TRILIUM_PH_1__ and follow the instructions.",
+      "sourceHash": "f81888a811f67576a99ba6d46fffe7f0401880cd073db031ba6b279a7654ad1b",
+      "context": "Subscription-based providers >  Claude Code",
+      "contextHash": "052c90c5cd5aaf3800364763355402b23a2555998ec305694c83af4954d87b7c",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_91f3c1e954db2bad3891a137_0",
+      "kind": "li",
+      "source": "Go to __TRILIUM_PH_0__Options__TRILIUM_PH_1__ → __TRILIUM_PH_2__AI / LLM__TRILIUM_PH_3__ and add the Claude Code provider.",
+      "sourceHash": "91f3c1e954db2bad3891a1373e37674541c8b6647962acaeeeb6d87710e74cc9",
+      "context": "Subscription-based providers >  Claude Code",
+      "contextHash": "052c90c5cd5aaf3800364763355402b23a2555998ec305694c83af4954d87b7c",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_1a4803ebeb3c9867067f2079_0",
+      "kind": "summary",
+      "source": "How Trilium identifies your Claude Code binary",
+      "sourceHash": "1a4803ebeb3c9867067f20799d85c67e9b542447635bbc872b0be64fd129eee6",
+      "context": "Subscription-based providers >  Claude Code",
+      "contextHash": "052c90c5cd5aaf3800364763355402b23a2555998ec305694c83af4954d87b7c",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_1f939adc2e191eab3eec9268_0",
+      "kind": "p",
+      "source": "In this order:",
+      "sourceHash": "1f939adc2e191eab3eec926803393bcacd08158131be85744bc460c22776dc0b",
+      "context": "Subscription-based providers >  Claude Code",
+      "contextHash": "052c90c5cd5aaf3800364763355402b23a2555998ec305694c83af4954d87b7c",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_f9a61dcac37c13cd842e7183_0",
+      "kind": "li",
+      "source": "By looking for a __TRILIUM_PH_0__ environment variable pointing to the Claude binary. This allows overriding the path if needed.",
+      "sourceHash": "f9a61dcac37c13cd842e7183102f44cd5781599aa928303f537540587ddc4a4f",
+      "context": "Subscription-based providers >  Claude Code",
+      "contextHash": "052c90c5cd5aaf3800364763355402b23a2555998ec305694c83af4954d87b7c",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_bdfec65da630e482d939d225_0",
+      "kind": "li",
+      "source": "By looking for __TRILIUM_PH_0__ in your PATH, generally works in most circumstances.",
+      "sourceHash": "bdfec65da630e482d939d225cb9eb6e964e73c664f7ec20a05c02860a3b5c307",
+      "context": "Subscription-based providers >  Claude Code",
+      "contextHash": "052c90c5cd5aaf3800364763355402b23a2555998ec305694c83af4954d87b7c",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_c46b9f7036157d9bb5933a27_0",
+      "kind": "li",
+      "source": "By asking your login shell for its __TRILIUM_PH_0__ which lets a desktop install find a CLI installed through __TRILIUM_PH_1__, __TRILIUM_PH_2__, __TRILIUM_PH_3__ or Homebrew, since a GUI-launched app doesn't inherit your terminal's environment.",
+      "sourceHash": "c46b9f7036157d9bb5933a2748e28c46613483598505a96189db58a4898f7d1c",
+      "context": "Subscription-based providers >  Claude Code",
+      "contextHash": "052c90c5cd5aaf3800364763355402b23a2555998ec305694c83af4954d87b7c",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_3d3a5789ec4af633a339d593_0",
+      "kind": "p",
+      "source": "After your provider is set up, you'll benefit from the same features as an API key (note tools, web search, extended thinking, image/PDF attachments, streaming).",
+      "sourceHash": "3d3a5789ec4af633a339d593b7685e8cb9f9461fbe626782be3c8d14972a83be",
+      "context": "Subscription-based providers >  Claude Code",
+      "contextHash": "052c90c5cd5aaf3800364763355402b23a2555998ec305694c83af4954d87b7c",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_43a4f20ca5ecb4ad2ba4b5b1_0",
+      "kind": "p",
+      "source": "Trilium intentionally uses your Claude Code binary in order not to have to package a ~250 MB client with it, but this comes at a cost: there is a small risk for a version incompatibility, if the version installed locally doesn't match the one expected by Trilium. Generally it's best to keep both Claude Code and Trilium updated to the latest version.",
+      "sourceHash": "43a4f20ca5ecb4ad2ba4b5b1ce192da96f1fe5ca0bb8f39266098a91c85b59ad",
+      "context": "Subscription-based providers >  Claude Code",
+      "contextHash": "052c90c5cd5aaf3800364763355402b23a2555998ec305694c83af4954d87b7c",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_d492d3a4260efe953943200a_0",
+      "kind": "h2",
+      "source": "__TRILIUM_PH_0__ GitHub Copilot__TRILIUM_PH_1__",
+      "sourceHash": "d492d3a4260efe953943200a35b2dc7b87dba30c4cefc4085bfd83776f4ff0a6",
+      "context": "Subscription-based providers >  GitHub Copilot",
+      "contextHash": "25c133f13fb745abf5466ef70ba34197318384050df4716b3b2462f8d91c9d11",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_8768cb54fd8c9ae8c65b97e4_0",
+      "kind": "p",
+      "source": "This subscription-based provider is still in beta. It is safe to use (won't use additional funds and respects the terms of use), but you might experience small issues. Consider __TRILIUM_PH_0__Reporting issues__TRILIUM_PH_1__.",
+      "sourceHash": "8768cb54fd8c9ae8c65b97e4a3b7bf02fec1baa7c94b4972c837d00555538023",
+      "context": "Subscription-based providers >  GitHub Copilot",
+      "contextHash": "25c133f13fb745abf5466ef70ba34197318384050df4716b3b2462f8d91c9d11",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_a18558b8daf4055040e32a87_0",
+      "kind": "p",
+      "source": "GitHub Copilot gives access to the models of your GitHub Copilot subscription (Pro, Pro+, Business or Enterprise), without an API key. Usage counts against your Copilot plan.",
+      "sourceHash": "a18558b8daf4055040e32a8777d10c06c84e2c70ef65a61ad1281b18a15503f0",
+      "context": "Subscription-based providers >  GitHub Copilot",
+      "contextHash": "25c133f13fb745abf5466ef70ba34197318384050df4716b3b2462f8d91c9d11",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_972085baee5cf33d0b3ab3f6_0",
+      "kind": "li",
+      "source": "Install the GitHub Copilot CLI on the machine that runs Trilium, for example with __TRILIUM_PH_0__. As with Claude Code, for a __TRILIUM_PH_1__Server Installation__TRILIUM_PH_2__ it needs to be installed on the server.",
+      "sourceHash": "972085baee5cf33d0b3ab3f6c6f2b384e7d45f2846d40dbacbbed9c9de93e2ef",
+      "context": "Subscription-based providers >  GitHub Copilot",
+      "contextHash": "25c133f13fb745abf5466ef70ba34197318384050df4716b3b2462f8d91c9d11",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_fbfa81b64883e546d836ab32_0",
+      "kind": "li",
+      "source": "Sign in by running __TRILIUM_PH_0__ in a terminal once. If you already use GitHub Copilot in another editor on the same machine, that login is reused.",
+      "sourceHash": "fbfa81b64883e546d836ab32502af4db2e6b0c484e2683aed4bba2c29a4e24e0",
+      "context": "Subscription-based providers >  GitHub Copilot",
+      "contextHash": "25c133f13fb745abf5466ef70ba34197318384050df4716b3b2462f8d91c9d11",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_52dfeeab2e67c065c83fd236_0",
+      "kind": "li",
+      "source": "Go to __TRILIUM_PH_0__Options__TRILIUM_PH_1__ → __TRILIUM_PH_2__AI / LLM__TRILIUM_PH_3__ and add the GitHub Copilot provider.",
+      "sourceHash": "52dfeeab2e67c065c83fd236e0b292edc3825253f85d0f2207b159d73fa7ab9f",
+      "context": "Subscription-based providers >  GitHub Copilot",
+      "contextHash": "25c133f13fb745abf5466ef70ba34197318384050df4716b3b2462f8d91c9d11",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_62d57203d5403e57a908adba_0",
+      "kind": "summary",
+      "source": "How Trilium identifies your Copilot CLI binary",
+      "sourceHash": "62d57203d5403e57a908adba52a7ab06528c1dd9d413a2ce4b8517d3ca6e959e",
+      "context": "Subscription-based providers >  GitHub Copilot",
+      "contextHash": "25c133f13fb745abf5466ef70ba34197318384050df4716b3b2462f8d91c9d11",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_1f939adc2e191eab3eec9268_1",
+      "kind": "p",
+      "source": "In this order:",
+      "sourceHash": "1f939adc2e191eab3eec926803393bcacd08158131be85744bc460c22776dc0b",
+      "context": "Subscription-based providers >  GitHub Copilot",
+      "contextHash": "25c133f13fb745abf5466ef70ba34197318384050df4716b3b2462f8d91c9d11",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_d33c4a289272b2d96d9f2a43_0",
+      "kind": "li",
+      "source": "By looking for a __TRILIUM_PH_0__ environment variable pointing to the Copilot binary.",
+      "sourceHash": "d33c4a289272b2d96d9f2a43845d79c571572bde7b3dd1787a2c5178033d4277",
+      "context": "Subscription-based providers >  GitHub Copilot",
+      "contextHash": "25c133f13fb745abf5466ef70ba34197318384050df4716b3b2462f8d91c9d11",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_7aef3950bb81247dc77bcd49_0",
+      "kind": "li",
+      "source": "By looking for __TRILIUM_PH_0__ in your PATH.",
+      "sourceHash": "7aef3950bb81247dc77bcd4910dc44e9919d45e83f5e1a1d33f93a9fd049d23a",
+      "context": "Subscription-based providers >  GitHub Copilot",
+      "contextHash": "25c133f13fb745abf5466ef70ba34197318384050df4716b3b2462f8d91c9d11",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_e64d9ea35c73b074c5b7c637_0",
+      "kind": "li",
+      "source": "By asking your login shell for its __TRILIUM_PH_0__, the same as for Claude Code.",
+      "sourceHash": "e64d9ea35c73b074c5b7c637542b546a3fe26cce742aee67610bbd4476c62ea7",
+      "context": "Subscription-based providers >  GitHub Copilot",
+      "contextHash": "25c133f13fb745abf5466ef70ba34197318384050df4716b3b2462f8d91c9d11",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_cd754130d1707a3abf215293_0",
+      "kind": "h3",
+      "source": "Known limitations__TRILIUM_PH_0__",
+      "sourceHash": "cd754130d1707a3abf215293f26406e0027864b87358c9e1c405e802d5cfcf23",
+      "context": "Subscription-based providers >  GitHub Copilot > Known limitations",
+      "contextHash": "3c773ed4636d8901769bbe9961b22d245ab5131644c744a208e4f939923539cf",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_b47085ad384399bea119339e_0",
+      "kind": "li",
+      "source": "The agent can only work with your notes through Trilium's note tools; its own file, shell and web tools are blocked for security reasons.",
+      "sourceHash": "b47085ad384399bea119339e3a2226a05092e940cd8f11b65c849ab356cb0e3e",
+      "context": "Subscription-based providers >  GitHub Copilot > Known limitations",
+      "contextHash": "3c773ed4636d8901769bbe9961b22d245ab5131644c744a208e4f939923539cf",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_567ee179ecad03b6f6fea2af_0",
+      "kind": "li",
+      "source": "Images can be attached to the conversation, PDFs cannot. The LLM should still be able to read PDF notes and attachments via __TRILIUM_PH_0__Text Extraction (OCR)__TRILIUM_PH_1__ when the note tools are enabled.",
+      "sourceHash": "567ee179ecad03b6f6fea2af4229978516f3a72fc52dac69b21de46b30c3337c",
+      "context": "Subscription-based providers >  GitHub Copilot > Known limitations",
+      "contextHash": "3c773ed4636d8901769bbe9961b22d245ab5131644c744a208e4f939923539cf",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_ecd643d58a4ee580991eee85_0",
+      "kind": "h2",
+      "source": "__TRILIUM_PH_0__ Google Antigravity__TRILIUM_PH_1__",
+      "sourceHash": "ecd643d58a4ee580991eee85419c62391cb7424bcb4e01ae27b114a6cfdd5521",
+      "context": "Subscription-based providers >  Google Antigravity",
+      "contextHash": "48373d2daaa7a28a2ece157a823dcfd27fd5641e72345c1e35a39733fd7117aa",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_8768cb54fd8c9ae8c65b97e4_1",
+      "kind": "p",
+      "source": "This subscription-based provider is still in beta. It is safe to use (won't use additional funds and respects the terms of use), but you might experience small issues. Consider __TRILIUM_PH_0__Reporting issues__TRILIUM_PH_1__.",
+      "sourceHash": "8768cb54fd8c9ae8c65b97e4a3b7bf02fec1baa7c94b4972c837d00555538023",
+      "context": "Subscription-based providers >  Google Antigravity",
+      "contextHash": "48373d2daaa7a28a2ece157a823dcfd27fd5641e72345c1e35a39733fd7117aa",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_51577bc8576ff463ded8a79d_0",
+      "kind": "p",
+      "source": "Google Antigravity gives access to Gemini models using a Google account (free, Google AI Pro or Google AI Ultra), without an API key. At the time of writing, a free Google account is enough to use it.",
+      "sourceHash": "51577bc8576ff463ded8a79d06ae1809328889edf47745d69eeda0c6381319d8",
+      "context": "Subscription-based providers >  Google Antigravity",
+      "contextHash": "48373d2daaa7a28a2ece157a823dcfd27fd5641e72345c1e35a39733fd7117aa",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_9817ff0398d5138b97ecc905_0",
+      "kind": "p",
+      "source": "Unlike Claude Code or GitHub Copilot, Google's Antigravity ACP server is not part of the CLI so it needs to be installed manually just for Trilium. The downloaded archive is around 112-334 MB and the extracted size is around 230 MB-2 GB based on the platform.",
+      "sourceHash": "9817ff0398d5138b97ecc905c72c8904bdc8d4ec4f035fb745180d29978208ba",
+      "context": "Subscription-based providers >  Google Antigravity",
+      "contextHash": "48373d2daaa7a28a2ece157a823dcfd27fd5641e72345c1e35a39733fd7117aa",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_9028b08cda609567d8bfeb5c_0",
+      "kind": "p",
+      "source": "__TRILIUM_PH_0__ Windows",
+      "sourceHash": "9028b08cda609567d8bfeb5c077ea2ce86b96d0d80f556472f1aadf6e943cda7",
+      "context": "Subscription-based providers >  Google Antigravity",
+      "contextHash": "48373d2daaa7a28a2ece157a823dcfd27fd5641e72345c1e35a39733fd7117aa",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_887b6c8b2b6f4fa5a768c3f4_0",
+      "kind": "li",
+      "source": "Download Google's Antigravity ACP server for your platform. The link is shown when adding the provider in __TRILIUM_PH_0__Options__TRILIUM_PH_1__ → __TRILIUM_PH_2__AI / LLM__TRILIUM_PH_3__. Unpack it on the device that runs Trilium.",
+      "sourceHash": "887b6c8b2b6f4fa5a768c3f4e748bcffa1f5e94b9943d8210432b9817af234cd",
+      "context": "Subscription-based providers >  Google Antigravity",
+      "contextHash": "48373d2daaa7a28a2ece157a823dcfd27fd5641e72345c1e35a39733fd7117aa",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_e50046b2b168c0d23ceeeee9_0",
+      "kind": "li",
+      "source": "Make it findable by Trilium, either:",
+      "sourceHash": "e50046b2b168c0d23ceeeee9dce1e82310c0fb8f05423cc503d123ed72689d7b",
+      "context": "Subscription-based providers >  Google Antigravity",
+      "contextHash": "48373d2daaa7a28a2ece157a823dcfd27fd5641e72345c1e35a39733fd7117aa",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_8615abffea7d754cfb053ff7_0",
+      "kind": "li",
+      "source": "by adding the unpacked folder to your PATH, or",
+      "sourceHash": "8615abffea7d754cfb053ff7c511933d988617b4647a388bfe0707b8a238222f",
+      "context": "Subscription-based providers >  Google Antigravity",
+      "contextHash": "48373d2daaa7a28a2ece157a823dcfd27fd5641e72345c1e35a39733fd7117aa",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_42e4509948bc8e791915c28b_0",
+      "kind": "li",
+      "source": "by setting a __TRILIUM_PH_0__ environment variable pointing to __TRILIUM_PH_1__.",
+      "sourceHash": "42e4509948bc8e791915c28b8479f5937a852c09e2af2da656a0d3a8798533d4",
+      "context": "Subscription-based providers >  Google Antigravity",
+      "contextHash": "48373d2daaa7a28a2ece157a823dcfd27fd5641e72345c1e35a39733fd7117aa",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_2d9dd674ed1f38ef3fbe503d_0",
+      "kind": "li",
+      "source": "Go to __TRILIUM_PH_0__Options__TRILIUM_PH_1__ → AI / LLM and add the __TRILIUM_PH_2__ __TRILIUM_PH_3__Google Antigravity__TRILIUM_PH_4__ provider. When the list of models is loaded for the first time, the Google sign-in page opens in a browser on the machine running Trilium; finish signing in there.",
+      "sourceHash": "2d9dd674ed1f38ef3fbe503ddecf62bb234901a2c03a3e223f3724ab51b85281",
+      "context": "Subscription-based providers >  Google Antigravity",
+      "contextHash": "48373d2daaa7a28a2ece157a823dcfd27fd5641e72345c1e35a39733fd7117aa",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_06f29a59191900c3abc017ed_0",
+      "kind": "p",
+      "source": "__TRILIUM_PH_0__ Linux & __TRILIUM_PH_1__ macOS",
+      "sourceHash": "06f29a59191900c3abc017edd1986cff7a238bd97ad34107e2531db30dba10f9",
+      "context": "Subscription-based providers >  Google Antigravity",
+      "contextHash": "48373d2daaa7a28a2ece157a823dcfd27fd5641e72345c1e35a39733fd7117aa",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_887b6c8b2b6f4fa5a768c3f4_1",
+      "kind": "li",
+      "source": "Download Google's Antigravity ACP server for your platform. The link is shown when adding the provider in __TRILIUM_PH_0__Options__TRILIUM_PH_1__ → __TRILIUM_PH_2__AI / LLM__TRILIUM_PH_3__. Unpack it on the device that runs Trilium.",
+      "sourceHash": "887b6c8b2b6f4fa5a768c3f4e748bcffa1f5e94b9943d8210432b9817af234cd",
+      "context": "Subscription-based providers >  Google Antigravity",
+      "contextHash": "48373d2daaa7a28a2ece157a823dcfd27fd5641e72345c1e35a39733fd7117aa",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_e50046b2b168c0d23ceeeee9_1",
+      "kind": "li",
+      "source": "Make it findable by Trilium, either:",
+      "sourceHash": "e50046b2b168c0d23ceeeee9dce1e82310c0fb8f05423cc503d123ed72689d7b",
+      "context": "Subscription-based providers >  Google Antigravity",
+      "contextHash": "48373d2daaa7a28a2ece157a823dcfd27fd5641e72345c1e35a39733fd7117aa",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_8615abffea7d754cfb053ff7_1",
+      "kind": "li",
+      "source": "by adding the unpacked folder to your PATH, or",
+      "sourceHash": "8615abffea7d754cfb053ff7c511933d988617b4647a388bfe0707b8a238222f",
+      "context": "Subscription-based providers >  Google Antigravity",
+      "contextHash": "48373d2daaa7a28a2ece157a823dcfd27fd5641e72345c1e35a39733fd7117aa",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_42e4509948bc8e791915c28b_1",
+      "kind": "li",
+      "source": "by setting a __TRILIUM_PH_0__ environment variable pointing to __TRILIUM_PH_1__.",
+      "sourceHash": "42e4509948bc8e791915c28b8479f5937a852c09e2af2da656a0d3a8798533d4",
+      "context": "Subscription-based providers >  Google Antigravity",
+      "contextHash": "48373d2daaa7a28a2ece157a823dcfd27fd5641e72345c1e35a39733fd7117aa",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_2d9dd674ed1f38ef3fbe503d_1",
+      "kind": "li",
+      "source": "Go to __TRILIUM_PH_0__Options__TRILIUM_PH_1__ → AI / LLM and add the __TRILIUM_PH_2__ __TRILIUM_PH_3__Google Antigravity__TRILIUM_PH_4__ provider. When the list of models is loaded for the first time, the Google sign-in page opens in a browser on the machine running Trilium; finish signing in there.",
+      "sourceHash": "2d9dd674ed1f38ef3fbe503ddecf62bb234901a2c03a3e223f3724ab51b85281",
+      "context": "Subscription-based providers >  Google Antigravity",
+      "contextHash": "48373d2daaa7a28a2ece157a823dcfd27fd5641e72345c1e35a39733fd7117aa",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_961b83af66bea3cc9b69a6a1_0",
+      "kind": "p",
+      "source": "NixOS",
+      "sourceHash": "961b83af66bea3cc9b69a6a1bece6340eacdceb0ef1cd5d525cec945f0a84e3c",
+      "context": "Subscription-based providers >  Google Antigravity",
+      "contextHash": "48373d2daaa7a28a2ece157a823dcfd27fd5641e72345c1e35a39733fd7117aa",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_3f8a029255c99b231b05e2cf_0",
+      "kind": "p",
+      "source": "On NixOS, __TRILIUM_PH_0__ package is already available but only in __TRILIUM_PH_1__ at the time of writing. The easiest method to test it out is to use the __TRILIUM_PH_2__ with flakes:",
+      "sourceHash": "3f8a029255c99b231b05e2cf10952ded77fe553b021d1f0f5bd7985246822456",
+      "context": "Subscription-based providers >  Google Antigravity",
+      "contextHash": "48373d2daaa7a28a2ece157a823dcfd27fd5641e72345c1e35a39733fd7117aa",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_a1a352134221d810ac4b611a_0",
+      "kind": "p",
+      "source": "Go to __TRILIUM_PH_0__Options__TRILIUM_PH_1__ → AI / LLM and add the __TRILIUM_PH_2__ __TRILIUM_PH_3__Google Antigravity__TRILIUM_PH_4__ provider. When the list of models is loaded for the first time, the Google sign-in page opens in a browser on the machine running Trilium; finish signing in there.",
+      "sourceHash": "a1a352134221d810ac4b611a2b1dea3f258a3c05be92c83fb49e8d4dfb80bf47",
+      "context": "Subscription-based providers >  Google Antigravity",
+      "contextHash": "48373d2daaa7a28a2ece157a823dcfd27fd5641e72345c1e35a39733fd7117aa",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_4efde6df02e48d318a3404b8_0",
+      "kind": "p",
+      "source": "Trilium needs __TRILIUM_PH_0__ to use Google Antigravity. It comes with Windows 10 and later, macOS and most Linux distributions.",
+      "sourceHash": "4efde6df02e48d318a3404b830c59a88bb794dbcae776a8f99690c92d1f78a28",
+      "context": "Subscription-based providers >  Google Antigravity",
+      "contextHash": "48373d2daaa7a28a2ece157a823dcfd27fd5641e72345c1e35a39733fd7117aa",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_cd754130d1707a3abf215293_1",
+      "kind": "h3",
+      "source": "Known limitations__TRILIUM_PH_0__",
+      "sourceHash": "cd754130d1707a3abf215293f26406e0027864b87358c9e1c405e802d5cfcf23",
+      "context": "Subscription-based providers >  Google Antigravity > Known limitations",
+      "contextHash": "6a650c0353df37073882ccb4288bd6f4ae16c6710510c890e1a41f2f6e6eebcb",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_040562f44ceb4de1679727f0_0",
+      "kind": "li",
+      "source": "The agent can only work with your notes through Trilium's note tools; its own file and shell tools are blocked for security reasons.",
+      "sourceHash": "040562f44ceb4de1679727f0760104155a28f24b8ef54caa07f2a41bcb723ae2",
+      "context": "Subscription-based providers >  Google Antigravity > Known limitations",
+      "contextHash": "6a650c0353df37073882ccb4288bd6f4ae16c6710510c890e1a41f2f6e6eebcb",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_ca4d7e8364a91afadddf7f75_0",
+      "kind": "li",
+      "source": "The Antigravity ACP server requires authentication via a login link. The login link needs to be run on the same device, so it might not be possible to set up the provider while using the web version of a Docker installation. __TRILIUM_PH_0__Desktop Installation__TRILIUM_PH_1__ should work fine.",
+      "sourceHash": "ca4d7e8364a91afadddf7f7506f5b0457c7d82c231d9dbc3a51f0b0f627a6a54",
+      "context": "Subscription-based providers >  Google Antigravity > Known limitations",
+      "contextHash": "6a650c0353df37073882ccb4288bd6f4ae16c6710510c890e1a41f2f6e6eebcb",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_567ee179ecad03b6f6fea2af_1",
+      "kind": "li",
+      "source": "Images can be attached to the conversation, PDFs cannot. The LLM should still be able to read PDF notes and attachments via __TRILIUM_PH_0__Text Extraction (OCR)__TRILIUM_PH_1__ when the note tools are enabled.",
+      "sourceHash": "567ee179ecad03b6f6fea2af4229978516f3a72fc52dac69b21de46b30c3337c",
+      "context": "Subscription-based providers >  Google Antigravity > Known limitations",
+      "contextHash": "6a650c0353df37073882ccb4288bd6f4ae16c6710510c890e1a41f2f6e6eebcb",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_5f75f8d3dee4162cac71108c_0",
+      "kind": "li",
+      "source": "The results of tool calls (e.g. reading a note, writing attributes) are not properly displayed because they are not exposed by the ACP server.",
+      "sourceHash": "5f75f8d3dee4162cac71108c36c86d225f7283a0c53fe634682dfc7d2e978946",
+      "context": "Subscription-based providers >  Google Antigravity > Known limitations",
+      "contextHash": "6a650c0353df37073882ccb4288bd6f4ae16c6710510c890e1a41f2f6e6eebcb",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_1347e195ecc75a9b0d55a143_0",
+      "kind": "h2",
+      "source": "__TRILIUM_PH_0__ OpenAI Codex__TRILIUM_PH_1__",
+      "sourceHash": "1347e195ecc75a9b0d55a143c2123a086d3a86bf69fcf3d4fd386f91fdba33de",
+      "context": "Subscription-based providers >  OpenAI Codex",
+      "contextHash": "b708e53fce05451586469fc3617a66780914ff1bb9e329138aaa312129c3614d",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_8768cb54fd8c9ae8c65b97e4_2",
+      "kind": "p",
+      "source": "This subscription-based provider is still in beta. It is safe to use (won't use additional funds and respects the terms of use), but you might experience small issues. Consider __TRILIUM_PH_0__Reporting issues__TRILIUM_PH_1__.",
+      "sourceHash": "8768cb54fd8c9ae8c65b97e4a3b7bf02fec1baa7c94b4972c837d00555538023",
+      "context": "Subscription-based providers >  OpenAI Codex",
+      "contextHash": "b708e53fce05451586469fc3617a66780914ff1bb9e329138aaa312129c3614d",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_200b99ffb084fe1c0bae4350_0",
+      "kind": "p",
+      "source": "OpenAI Codex gives access to the Codex models of your ChatGPT plan (Free, Go, Plus, Pro or Business), without an API key. At the time of writing, a free ChatGPT account is enough to use it. Usage counts against your plan's Codex limits, which are small on the Free plan.",
+      "sourceHash": "200b99ffb084fe1c0bae4350de1fb070283f1659e429ac0919f474a4bc6dbb91",
+      "context": "Subscription-based providers >  OpenAI Codex",
+      "contextHash": "b708e53fce05451586469fc3617a66780914ff1bb9e329138aaa312129c3614d",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_4bda315cccc0624db830f247_0",
+      "kind": "p",
+      "source": "__TRILIUM_PH_0____TRILIUM_PH_1____TRILIUM_PH_2__ Most platforms",
+      "sourceHash": "4bda315cccc0624db830f247fa9bd4ec46056d60e4648ffbb6aec932459c07c3",
+      "context": "Subscription-based providers >  OpenAI Codex",
+      "contextHash": "b708e53fce05451586469fc3617a66780914ff1bb9e329138aaa312129c3614d",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_1317fa2cadcd37cc5f29505f_0",
+      "kind": "li",
+      "source": "Install the Codex CLI on the machine that runs Trilium, for example with __TRILIUM_PH_0__. As with Claude Code, for a __TRILIUM_PH_1__Server Installation__TRILIUM_PH_2__ it needs to be installed on the server. Trilium ships the ACP adapter that connects to it, so nothing else is needed.",
+      "sourceHash": "1317fa2cadcd37cc5f29505f2693bcc36b36d9ef70fd8f5256e420a11310909b",
+      "context": "Subscription-based providers >  OpenAI Codex",
+      "contextHash": "b708e53fce05451586469fc3617a66780914ff1bb9e329138aaa312129c3614d",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_b953eae8ebc4bc61b2b2f9bf_0",
+      "kind": "li",
+      "source": "Go to __TRILIUM_PH_0__Options__TRILIUM_PH_1__ → __TRILIUM_PH_2__AI / LLM__TRILIUM_PH_3__ and add the __TRILIUM_PH_4__ __TRILIUM_PH_5__OpenAI Codex__TRILIUM_PH_6__ provider. When the list of models is loaded for the first time, the ChatGPT sign-in page opens in a browser on the machine running Trilium; finish signing in there.",
+      "sourceHash": "b953eae8ebc4bc61b2b2f9bf69bf29f8d4954b0b8d2d56c3016cc4496d5818ba",
+      "context": "Subscription-based providers >  OpenAI Codex",
+      "contextHash": "b708e53fce05451586469fc3617a66780914ff1bb9e329138aaa312129c3614d",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_961b83af66bea3cc9b69a6a1_1",
+      "kind": "p",
+      "source": "NixOS",
+      "sourceHash": "961b83af66bea3cc9b69a6a1bece6340eacdceb0ef1cd5d525cec945f0a84e3c",
+      "context": "Subscription-based providers >  OpenAI Codex",
+      "contextHash": "b708e53fce05451586469fc3617a66780914ff1bb9e329138aaa312129c3614d",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_28975fc434b3c2a0eed9d231_0",
+      "kind": "p",
+      "source": "On NixOS, Codex is available as the __TRILIUM_PH_0__ package in nixpkgs. The stable channel can lag behind Codex's releases, so a newer version can be taken from __TRILIUM_PH_1__:",
+      "sourceHash": "28975fc434b3c2a0eed9d231fb1b37872b72f0e17b4195f07fa95e30a32d9f24",
+      "context": "Subscription-based providers >  OpenAI Codex",
+      "contextHash": "b708e53fce05451586469fc3617a66780914ff1bb9e329138aaa312129c3614d",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_e7993cde234a01db321af056_0",
+      "kind": "p",
+      "source": "Go to __TRILIUM_PH_0__Options__TRILIUM_PH_1__ → __TRILIUM_PH_2__AI / LLM__TRILIUM_PH_3__ and add the __TRILIUM_PH_4__ __TRILIUM_PH_5__OpenAI Codex__TRILIUM_PH_6__ provider. When the list of models is loaded for the first time, the ChatGPT sign-in page opens in a browser on the machine running Trilium; finish signing in there.",
+      "sourceHash": "e7993cde234a01db321af0564b4e213353c071d25e3fd2cc73356dc438e7eb71",
+      "context": "Subscription-based providers >  OpenAI Codex",
+      "contextHash": "b708e53fce05451586469fc3617a66780914ff1bb9e329138aaa312129c3614d",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_81bd66f100a6cfc09155d7bb_0",
+      "kind": "p",
+      "source": "Trilium keeps its own Codex sign-in and settings, separate from any Codex CLI you use in a terminal, so an existing __TRILIUM_PH_0__ is not reused.",
+      "sourceHash": "81bd66f100a6cfc09155d7bb01ca1de8c1b3a2df20fbc2464c2beeb6372a5157",
+      "context": "Subscription-based providers >  OpenAI Codex",
+      "contextHash": "b708e53fce05451586469fc3617a66780914ff1bb9e329138aaa312129c3614d",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_3fb5071f05a33cc63a83e397_0",
+      "kind": "summary",
+      "source": "How Trilium identifies your Codex CLI binary",
+      "sourceHash": "3fb5071f05a33cc63a83e3975b9e6bcb59f021cf12813757d4a4d3bb9964bfb9",
+      "context": "Subscription-based providers >  OpenAI Codex",
+      "contextHash": "b708e53fce05451586469fc3617a66780914ff1bb9e329138aaa312129c3614d",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_1f939adc2e191eab3eec9268_2",
+      "kind": "p",
+      "source": "In this order:",
+      "sourceHash": "1f939adc2e191eab3eec926803393bcacd08158131be85744bc460c22776dc0b",
+      "context": "Subscription-based providers >  OpenAI Codex",
+      "contextHash": "b708e53fce05451586469fc3617a66780914ff1bb9e329138aaa312129c3614d",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_2cb94cd72874d345d49086c7_0",
+      "kind": "li",
+      "source": "By looking for a __TRILIUM_PH_0__ environment variable pointing to the Codex binary.",
+      "sourceHash": "2cb94cd72874d345d49086c7cc0b36165e96512ebeed41ee7ade6c0205be4579",
+      "context": "Subscription-based providers >  OpenAI Codex",
+      "contextHash": "b708e53fce05451586469fc3617a66780914ff1bb9e329138aaa312129c3614d",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_7aef3950bb81247dc77bcd49_1",
+      "kind": "li",
+      "source": "By looking for __TRILIUM_PH_0__ in your PATH.",
+      "sourceHash": "7aef3950bb81247dc77bcd4910dc44e9919d45e83f5e1a1d33f93a9fd049d23a",
+      "context": "Subscription-based providers >  OpenAI Codex",
+      "contextHash": "b708e53fce05451586469fc3617a66780914ff1bb9e329138aaa312129c3614d",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_e64d9ea35c73b074c5b7c637_1",
+      "kind": "li",
+      "source": "By asking your login shell for its __TRILIUM_PH_0__, the same as for Claude Code.",
+      "sourceHash": "e64d9ea35c73b074c5b7c637542b546a3fe26cce742aee67610bbd4476c62ea7",
+      "context": "Subscription-based providers >  OpenAI Codex",
+      "contextHash": "b708e53fce05451586469fc3617a66780914ff1bb9e329138aaa312129c3614d",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_6f0d673c95f6b74181c9765a_0",
+      "kind": "p",
+      "source": "Trilium needs __TRILIUM_PH_0__ to use OpenAI Codex, the same as for Google Antigravity: Trilium checks every tool call Codex makes through it. It comes with Windows 10 and later, macOS and most Linux distributions.",
+      "sourceHash": "6f0d673c95f6b74181c9765a0b2e83e80a623c57731def7d5cf113b0d77e3813",
+      "context": "Subscription-based providers >  OpenAI Codex",
+      "contextHash": "b708e53fce05451586469fc3617a66780914ff1bb9e329138aaa312129c3614d",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_cd754130d1707a3abf215293_2",
+      "kind": "h3",
+      "source": "Known limitations__TRILIUM_PH_0__",
+      "sourceHash": "cd754130d1707a3abf215293f26406e0027864b87358c9e1c405e802d5cfcf23",
+      "context": "Subscription-based providers >  OpenAI Codex > Known limitations",
+      "contextHash": "c5f3ede5b03f41e55d166a8b37e64bb29c45e237cf1b9caba622a8ebe550a1af",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_68973cd1c38e8641fb2203d2_0",
+      "kind": "li",
+      "source": "The agent can only work with your notes through Trilium's note tools, and search the web when the chat allows it; its own file, shell and other tools are blocked for security reasons.",
+      "sourceHash": "68973cd1c38e8641fb2203d2aade7d47757af7210701cfc03421b50c62bdda13",
+      "context": "Subscription-based providers >  OpenAI Codex > Known limitations",
+      "contextHash": "c5f3ede5b03f41e55d166a8b37e64bb29c45e237cf1b9caba622a8ebe550a1af",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_0a0512613eadc90fdf8ca849_0",
+      "kind": "li",
+      "source": "The ChatGPT sign-in opens in a browser on the device running Trilium, so it might not be possible to set up the provider while using the web version of a Docker installation. __TRILIUM_PH_0__Desktop Installation__TRILIUM_PH_1__ should work fine.",
+      "sourceHash": "0a0512613eadc90fdf8ca8495777062bf801a16b2ce5876902d10b83b3456223",
+      "context": "Subscription-based providers >  OpenAI Codex > Known limitations",
+      "contextHash": "c5f3ede5b03f41e55d166a8b37e64bb29c45e237cf1b9caba622a8ebe550a1af",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_a4307417f46d7574902c3f67_0",
+      "kind": "li",
+      "source": "Images and SVGs can be attached to the conversation, PDFs cannot. The LLM should still be able to read PDF notes and attachments via __TRILIUM_PH_0__Text Extraction (OCR)__TRILIUM_PH_1__ when the note tools are enabled.",
+      "sourceHash": "a4307417f46d7574902c3f675723b20c102b9cc39a7bb9a432ca034d49a9bb0f",
+      "context": "Subscription-based providers >  OpenAI Codex > Known limitations",
+      "contextHash": "c5f3ede5b03f41e55d166a8b37e64bb29c45e237cf1b9caba622a8ebe550a1af",
+      "status": "pending",
+      "active": true
+    }
+  ],
+  "requests": []
+}

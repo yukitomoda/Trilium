@@ -1,0 +1,99 @@
+{
+  "schemaVersion": 1,
+  "pageId": "m1lbrzyKDaRB",
+  "sourceFile": "docs/User Guide/User Guide/Advanced Usage/Note ID.md",
+  "sourceRevision": "03d17b60f59b5efc29b880b11481471d0fe0ff57",
+  "units": [
+    {
+      "id": "u_c61e3a1ea88410f4a0eb7f30_0",
+      "kind": "title",
+      "source": "Note ID",
+      "sourceHash": "c61e3a1ea88410f4a0eb7f30c9146df2ae1c01f8768b9d7a85ef40f0602729e3",
+      "context": "Note ID",
+      "contextHash": "8b9788063828eeb7d52a0566303bca66157f88acb0608cef707c2944c4d7f52a",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_be4cbfddc2dcd67b5adf6657_0",
+      "kind": "p",
+      "source": "Whereas some applications use file names to uniquely identify notes, Trilium uses the concept of Note ID.",
+      "sourceHash": "be4cbfddc2dcd67b5adf665750e4a96da4fc8c19b3152484d8a0cb4f694233af",
+      "context": "Note ID",
+      "contextHash": "8b9788063828eeb7d52a0566303bca66157f88acb0608cef707c2944c4d7f52a",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_f5d3b54c8a78219b3d338f2e_0",
+      "kind": "p",
+      "source": "Generally, the Note ID is a 12-character long alphanumeric sequence (including both lower and upper case letter) that is randomly generated for each new note.",
+      "sourceHash": "f5d3b54c8a78219b3d338f2e7ad1ffee6359d007cbc4c79e4c02953696f38f9a",
+      "context": "Note ID",
+      "contextHash": "8b9788063828eeb7d52a0566303bca66157f88acb0608cef707c2944c4d7f52a",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_77124b724ed243166f0579af_0",
+      "kind": "h2",
+      "source": "How does the import/export affect the note IDs__TRILIUM_PH_0__",
+      "sourceHash": "77124b724ed243166f0579af08756aef6ab920ed7eb1567c5e077100bf5d7732",
+      "context": "Note ID > How does the import/export affect the note IDs",
+      "contextHash": "bb49bc60933ec3f4846fb2173667c90a320d899416b7b141b5836db2af3225f0",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_7fc67250405e22078781ab8d_0",
+      "kind": "p",
+      "source": "When notes are exported, their note ID is kept in the metadata of the export. However when they are imported back in, a new note ID is generated for all the notes. This also includes other entities that are part of the import/export process such as __TRILIUM_PH_0__Attachments__TRILIUM_PH_1__.",
+      "sourceHash": "7fc67250405e22078781ab8dfbf815563d0c97842ea0d63a111c6627921d241b",
+      "context": "Note ID > How does the import/export affect the note IDs",
+      "contextHash": "bb49bc60933ec3f4846fb2173667c90a320d899416b7b141b5836db2af3225f0",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_1252e3a0f813b06620c17029_0",
+      "kind": "h2",
+      "source": "Note collisions__TRILIUM_PH_0__",
+      "sourceHash": "1252e3a0f813b06620c17029c457cdd94e9d95b5861f69f6ac099fcaa1b9cdfc",
+      "context": "Note ID > Note collisions",
+      "contextHash": "6e2fb5f15768655a6552941df364700625688586a9039b94b0c2a3ad4f0e2644",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_e42faf3373d91ef840730b70_0",
+      "kind": "p",
+      "source": "Since the Note ID is a fixed-width randomly generated number, due to the __TRILIUM_PH_0__pigeonhole principle__TRILIUM_PH_1__, there is a possibility that a newly created note will have the same ID as an existing note.",
+      "sourceHash": "e42faf3373d91ef840730b70fe5104f66c842c964392bfcc0f39d24dbca43663",
+      "context": "Note ID > Note collisions",
+      "contextHash": "6e2fb5f15768655a6552941df364700625688586a9039b94b0c2a3ad4f0e2644",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_4db8868d3b201e4a7b78ffd2_0",
+      "kind": "p",
+      "source": "Since the note ID is alphanumeric and the length is 12 we have __TRILIUM_PH_0__ unique IDs. However since we are generating them randomly, we can use a collision calculator such as the one for __TRILIUM_PH_1__Nano ID__TRILIUM_PH_2__ to determine that we'd need to create 1000 notes per hour every hour for 9 centuries in order to have at least 1% probability of a note collision.",
+      "sourceHash": "4db8868d3b201e4a7b78ffd268a8872c23d53ed5b8522850eedd77cf33c15168",
+      "context": "Note ID > Note collisions",
+      "contextHash": "6e2fb5f15768655a6552941df364700625688586a9039b94b0c2a3ad4f0e2644",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_1ec1b496ad60ff0f99acf09c_0",
+      "kind": "p",
+      "source": "As such, Trilium does not take any explicit action against potential note collisions, similar to other software that makes uses of unique hashes such as __TRILIUM_PH_0__Git__TRILIUM_PH_1__. If one would theoretically occur, what would most likely happen is that the existing note will be replaced by the new one.",
+      "sourceHash": "1ec1b496ad60ff0f99acf09c9f526789eb768f88ca4ae1de4d2348d43d9cb55b",
+      "context": "Note ID > Note collisions",
+      "contextHash": "6e2fb5f15768655a6552941df364700625688586a9039b94b0c2a3ad4f0e2644",
+      "status": "pending",
+      "active": true
+    }
+  ],
+  "requests": []
+}

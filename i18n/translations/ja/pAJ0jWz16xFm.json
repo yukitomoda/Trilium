@@ -1,0 +1,89 @@
+{
+  "schemaVersion": 1,
+  "pageId": "pAJ0jWz16xFm",
+  "sourceFile": "docs/User Guide/User Guide/Scripting/Breaking changes/v0.103.0 `cheerio` is now deprecated.md",
+  "sourceRevision": "03d17b60f59b5efc29b880b11481471d0fe0ff57",
+  "units": [
+    {
+      "id": "u_d97187b3acca8c8eda335bd8_0",
+      "kind": "title",
+      "source": "v0.103.0: `cheerio` is now deprecated",
+      "sourceHash": "d97187b3acca8c8eda335bd8758632f64c5c2231a2dd20f452f298a579376fe0",
+      "context": "v0.103.0: `cheerio` is now deprecated",
+      "contextHash": "c7cfbf85f6a363ba0e415f504b8e853ca3a7b75139be33983bea494d0376d8da",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_ca112ec92f107fbd1c7f00b2_0",
+      "kind": "p",
+      "source": "The __TRILIUM_PH_0__ library is deprecated and will be removed in a future version.",
+      "sourceHash": "ca112ec92f107fbd1c7f00b23673a184574f98e3e4bb9408a51c37018d38a2c3",
+      "context": "v0.103.0: `cheerio` is now deprecated",
+      "contextHash": "c7cfbf85f6a363ba0e415f504b8e853ca3a7b75139be33983bea494d0376d8da",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_089508301852901c21dbb3e5_0",
+      "kind": "p",
+      "source": "__TRILIUM_PH_0__ was removed in v0.106.0. See __TRILIUM_PH_1__v0.106.0: Removal of cheerio__TRILIUM_PH_2__ for the full migration guide.",
+      "sourceHash": "089508301852901c21dbb3e551b15adc1ccf9f18effde0dc6a963c3bd8075712",
+      "context": "v0.103.0: `cheerio` is now deprecated",
+      "contextHash": "c7cfbf85f6a363ba0e415f504b8e853ca3a7b75139be33983bea494d0376d8da",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_00f9d2b54afd26d0e622bf80_0",
+      "kind": "h2",
+      "source": "Reasoning__TRILIUM_PH_0__",
+      "sourceHash": "00f9d2b54afd26d0e622bf80c6bb694f63780aaa4bc47b6190d74be29e46ba2a",
+      "context": "v0.103.0: `cheerio` is now deprecated > Reasoning",
+      "contextHash": "2d80c3aee2ddac22d839c63c0f47f0fcb650772dfdd738da67099ed39c4753e0",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_bdeed1efe6882dd948ca92dd_0",
+      "kind": "p",
+      "source": "Cheerio is only used for the scripting API while the server internally uses __TRILIUM_PH_0__ for HTML parsing. Removing __TRILIUM_PH_1__ reduces bundle size and maintenance overhead.",
+      "sourceHash": "bdeed1efe6882dd948ca92dd6ddc6029b3a8fac5d8763921ab0158a600299d4a",
+      "context": "v0.103.0: `cheerio` is now deprecated > Reasoning",
+      "contextHash": "2d80c3aee2ddac22d839c63c0f47f0fcb650772dfdd738da67099ed39c4753e0",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_20fa45b6645bbb5f8810a9ca_0",
+      "kind": "h2",
+      "source": "Migration__TRILIUM_PH_0__",
+      "sourceHash": "20fa45b6645bbb5f8810a9ca0051dce36dbe7a151999e844b1f5d0771b0d9f24",
+      "context": "v0.103.0: `cheerio` is now deprecated > Migration",
+      "contextHash": "cf2609f8d237ad37f56644973ffeaa234a31b3d1ac0e80d4c27ac52b1791d3e1",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_5b001d68b54fb87174934fc8_0",
+      "kind": "p",
+      "source": "Before (__TRILIUM_PH_0__):",
+      "sourceHash": "5b001d68b54fb87174934fc8516098ee198694cf722de0a86037104543ff38c7",
+      "context": "v0.103.0: `cheerio` is now deprecated > Migration",
+      "contextHash": "cf2609f8d237ad37f56644973ffeaa234a31b3d1ac0e80d4c27ac52b1791d3e1",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_e50a3ad32c2fd70bb00b725d_0",
+      "kind": "p",
+      "source": "After (__TRILIUM_PH_0__):",
+      "sourceHash": "e50a3ad32c2fd70bb00b725dd6d81b9408242926ba08b84e87bf96c7f1840665",
+      "context": "v0.103.0: `cheerio` is now deprecated > Migration",
+      "contextHash": "cf2609f8d237ad37f56644973ffeaa234a31b3d1ac0e80d4c27ac52b1791d3e1",
+      "status": "pending",
+      "active": true
+    }
+  ],
+  "requests": []
+}

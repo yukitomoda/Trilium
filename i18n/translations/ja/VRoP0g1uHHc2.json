@@ -1,0 +1,479 @@
+{
+  "schemaVersion": 1,
+  "pageId": "VRoP0g1uHHc2",
+  "sourceFile": "docs/User Guide/User Guide/Note Types/Text/In-editor AI assistant.md",
+  "sourceRevision": "03d17b60f59b5efc29b880b11481471d0fe0ff57",
+  "units": [
+    {
+      "id": "u_9510483680f4ab7cc133da95_0",
+      "kind": "title",
+      "source": "In-editor AI assistant",
+      "sourceHash": "9510483680f4ab7cc133da959ccffac627d176fe0b0e02c7fe37ea1ece3f7938",
+      "context": "In-editor AI assistant",
+      "contextHash": "39a4e2827b934b70eb0d86f28e23c2289b56d4afbf0bf4197245786fbaedae26",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_ea0177b964640753ab6b5989_0",
+      "kind": "p",
+      "source": "The AI assistant works on the text you are already writing: select a passage and have it rewritten, translated or turned into a table, or ask for new content at the cursor. Unlike the __TRILIUM_PH_0__AI chat__TRILIUM_PH_1__, it does not open a conversation window, the result is previewed in place and only enters the note when you accept it.",
+      "sourceHash": "ea0177b964640753ab6b5989e3673597edd059509d2858b0c12d04faf7f514b5",
+      "context": "In-editor AI assistant",
+      "contextHash": "39a4e2827b934b70eb0d86f28e23c2289b56d4afbf0bf4197245786fbaedae26",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_1dada5cbf21f0a58afb9d005_0",
+      "kind": "h2",
+      "source": "Requirements__TRILIUM_PH_0__",
+      "sourceHash": "1dada5cbf21f0a58afb9d005aa20e3c65e3bde3d35a168b4e59fb2ae4bab6564",
+      "context": "In-editor AI assistant > Requirements",
+      "contextHash": "b6bbd0c435d8741696cf073e74fe85a957bc03dd1ebaef51113c6c782ac95772",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_d892803499918ba38a8e9333_0",
+      "kind": "p",
+      "source": "The assistant is only available once at least one provider is configured in __TRILIUM_PH_0__Options__TRILIUM_PH_1__ → __TRILIUM_PH_2__AI / LLM__TRILIUM_PH_3__, with at least one model selected for it. Until then the toolbar entry is not shown at all.",
+      "sourceHash": "d892803499918ba38a8e93339800ac1c0ceb8a9ddf7d6eec47cfc8b5906a7c99",
+      "context": "In-editor AI assistant > Requirements",
+      "contextHash": "b6bbd0c435d8741696cf073e74fe85a957bc03dd1ebaef51113c6c782ac95772",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_91a19cdb84522d1084ca4e34_0",
+      "kind": "h2",
+      "source": "Accessing the AI assistant__TRILIUM_PH_0__",
+      "sourceHash": "91a19cdb84522d1084ca4e34470f7a655fb56c9f0664082234a3bdc975d81e2d",
+      "context": "In-editor AI assistant > Accessing the AI assistant",
+      "contextHash": "20e460d6153fcf454f30926e4b4eae5715e7c28bd43c782b06f13f44b4365350",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_2567baa47c6d60d33e3250fa_0",
+      "kind": "p",
+      "source": "To access the AI assistant:",
+      "sourceHash": "2567baa47c6d60d33e3250fac9cda62f5f7a2ccc356f8cb68c7b75192e82eafd",
+      "context": "In-editor AI assistant > Accessing the AI assistant",
+      "contextHash": "20e460d6153fcf454f30926e4b4eae5715e7c28bd43c782b06f13f44b4365350",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_0ccddba4263bedf90b7e1666_0",
+      "kind": "li",
+      "source": "Look for the __TRILIUM_PH_0__ button in the __TRILIUM_PH_1__Formatting toolbar__TRILIUM_PH_2__. Press the button itself to enter the __TRILIUM_PH_3__Ask AI__TRILIUM_PH_4__ mode or press the arrow key next to it to access the quick commands and the model selection. On a phone, the button has no arrow: tapping it opens the same menu at the bottom of the screen, with __TRILIUM_PH_5__Ask AI…__TRILIUM_PH_6__ at its top, and a group such as __TRILIUM_PH_7__Translate__TRILIUM_PH_8__ opens as a page of its own.",
+      "sourceHash": "0ccddba4263bedf90b7e1666baec9d6ded6a578bbf515d9079a65f98f5c88b7a",
+      "context": "In-editor AI assistant > Accessing the AI assistant",
+      "contextHash": "20e460d6153fcf454f30926e4b4eae5715e7c28bd43c782b06f13f44b4365350",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_dd668db6ce347e7950240fc2_0",
+      "kind": "li",
+      "source": "Look for __TRILIUM_PH_0__AI assistant__TRILIUM_PH_1__ or any of the __TRILIUM_PH_2__AI__TRILIUM_PH_3__-prefixed quick commands in __TRILIUM_PH_4__Slash Commands__TRILIUM_PH_5__.",
+      "sourceHash": "dd668db6ce347e7950240fc293f9e6e3d0300a5ff3676735053dfb0be36cbb46",
+      "context": "In-editor AI assistant > Accessing the AI assistant",
+      "contextHash": "20e460d6153fcf454f30926e4b4eae5715e7c28bd43c782b06f13f44b4365350",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_ea94b88525f6c13dfe9d8bf9_0",
+      "kind": "li",
+      "source": "Press __TRILIUM_PH_0__Ctrl__TRILIUM_PH_1__+__TRILIUM_PH_2__Shift__TRILIUM_PH_3__+__TRILIUM_PH_4__K__TRILIUM_PH_5__.",
+      "sourceHash": "ea94b88525f6c13dfe9d8bf9b01a15ecd7c3efdc866c0b545e42c4381be9ec66",
+      "context": "In-editor AI assistant > Accessing the AI assistant",
+      "contextHash": "20e460d6153fcf454f30926e4b4eae5715e7c28bd43c782b06f13f44b4365350",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_b68d3b7c366cce83919a463c_0",
+      "kind": "li",
+      "source": "Select a text and choose the __TRILIUM_PH_0__AI assistant__TRILIUM_PH_1__ option in the __TRILIUM_PH_2__Note contextual menu__TRILIUM_PH_3__.",
+      "sourceHash": "b68d3b7c366cce83919a463c4a50a321376317e55f758e0c9ba0d86ebe955ea1",
+      "context": "In-editor AI assistant > Accessing the AI assistant",
+      "contextHash": "20e460d6153fcf454f30926e4b4eae5715e7c28bd43c782b06f13f44b4365350",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_8530c253cc62339a11a51dfe_0",
+      "kind": "li",
+      "source": "Click or right-click the drag handle to the left of a paragraph and choose __TRILIUM_PH_0__AI assistant__TRILIUM_PH_1__, see __TRILIUM_PH_2__Formatting toolbar__TRILIUM_PH_3__. It offers the same items as the toolbar button, and works on the blocks that the handle shades. If the assistant is already open, it starts over on these blocks, and a response you have not inserted is dropped.",
+      "sourceHash": "8530c253cc62339a11a51dfef978a92f51dfe594e44b56dffc55e825ee97ea6d",
+      "context": "In-editor AI assistant > Accessing the AI assistant",
+      "contextHash": "20e460d6153fcf454f30926e4b4eae5715e7c28bd43c782b06f13f44b4365350",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_c72107b8f0c03fb0b7a934a2_0",
+      "kind": "h2",
+      "source": "What the assistant works on__TRILIUM_PH_0__",
+      "sourceHash": "c72107b8f0c03fb0b7a934a266f8ccc1ab2215c7a5d0c52dfa407858a450b003",
+      "context": "In-editor AI assistant > What the assistant works on",
+      "contextHash": "01af85ee11716aeb47edc3847ab548702daed523fd080b525c4b44c3323cdd38",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_b3346fddf7403acdf5a03ce3_0",
+      "kind": "th",
+      "source": "Situation",
+      "sourceHash": "b3346fddf7403acdf5a03ce36e87f91e913603dcc441aa66ba069418a91f0087",
+      "context": "In-editor AI assistant > What the assistant works on",
+      "contextHash": "01af85ee11716aeb47edc3847ab548702daed523fd080b525c4b44c3323cdd38",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_0ebd8796be98a141a049206c_0",
+      "kind": "th",
+      "source": "What is sent",
+      "sourceHash": "0ebd8796be98a141a049206cf3fd7a709f9993b5cbb2f26fbadc3ac53a1c070e",
+      "context": "In-editor AI assistant > What the assistant works on",
+      "contextHash": "01af85ee11716aeb47edc3847ab548702daed523fd080b525c4b44c3323cdd38",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_d0ffd0b70123e3d0cbcbec87_0",
+      "kind": "td",
+      "source": "Text is selected",
+      "sourceHash": "d0ffd0b70123e3d0cbcbec879b03c8ab6bb5078056c1ab9e9b1b8145eb88c20e",
+      "context": "In-editor AI assistant > What the assistant works on",
+      "contextHash": "01af85ee11716aeb47edc3847ab548702daed523fd080b525c4b44c3323cdd38",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_bcd7fa941017d7cfa9fc3ce0_0",
+      "kind": "td",
+      "source": "The selection.",
+      "sourceHash": "bcd7fa941017d7cfa9fc3ce02727be9a2ab6f1004e9bbde98af082ee4352be0d",
+      "context": "In-editor AI assistant > What the assistant works on",
+      "contextHash": "01af85ee11716aeb47edc3847ab548702daed523fd080b525c4b44c3323cdd38",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_2fffd464e685e3f9da0e48bc_0",
+      "kind": "td",
+      "source": "Nothing is selected, and you pick a quick action",
+      "sourceHash": "2fffd464e685e3f9da0e48bc63a5103f07aec2e25899bb68ac05891adcedc229",
+      "context": "In-editor AI assistant > What the assistant works on",
+      "contextHash": "01af85ee11716aeb47edc3847ab548702daed523fd080b525c4b44c3323cdd38",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_cef5d580224430bb6e2d410f_0",
+      "kind": "td",
+      "source": "The paragraph the cursor is in.",
+      "sourceHash": "cef5d580224430bb6e2d410f0ee403375e3abc6d8c78841c1f7e9c55df7c0fcd",
+      "context": "In-editor AI assistant > What the assistant works on",
+      "contextHash": "01af85ee11716aeb47edc3847ab548702daed523fd080b525c4b44c3323cdd38",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_98c4c30f446333e27940cd85_0",
+      "kind": "td",
+      "source": "Nothing is selected, and you type your own prompt",
+      "sourceHash": "98c4c30f446333e27940cd85cad07d552a1b0154deff608475be8057ad9fa1f9",
+      "context": "In-editor AI assistant > What the assistant works on",
+      "contextHash": "01af85ee11716aeb47edc3847ab548702daed523fd080b525c4b44c3323cdd38",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_23c196b32f35969432fb08c1_0",
+      "kind": "td",
+      "source": "Nothing, the response is new content written at the cursor.",
+      "sourceHash": "23c196b32f35969432fb08c13b6ccddefc8aa99e686059db4234aec6ae50848f",
+      "context": "In-editor AI assistant > What the assistant works on",
+      "contextHash": "01af85ee11716aeb47edc3847ab548702daed523fd080b525c4b44c3323cdd38",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_6ea4886cfdc81bf03009997c_0",
+      "kind": "td",
+      "source": "You open the assistant from the menu of the drag handle",
+      "sourceHash": "6ea4886cfdc81bf03009997c60e27d8d112cabe2c34c1a663a6654bfba294094",
+      "context": "In-editor AI assistant > What the assistant works on",
+      "contextHash": "01af85ee11716aeb47edc3847ab548702daed523fd080b525c4b44c3323cdd38",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_9046b236c44dce69f859621c_0",
+      "kind": "td",
+      "source": "The whole blocks that the handle shades, even when only part of their text is selected.",
+      "sourceHash": "9046b236c44dce69f859621c6a8ce01aa32e93307ab93d147f3ea987e9ce176c",
+      "context": "In-editor AI assistant > What the assistant works on",
+      "contextHash": "01af85ee11716aeb47edc3847ab548702daed523fd080b525c4b44c3323cdd38",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_4fb3b7425d7187a15ba8cb88_0",
+      "kind": "p",
+      "source": "In all cases the assistant also sends the text before and after the target, so that the model can tell what it is writing into: asked to __TRILIUM_PH_0__Continue writing__TRILIUM_PH_1__ or to summarize, a model that can only see the selected words is guessing at the document around them. This surrounding text is context only, it is never rewritten.",
+      "sourceHash": "4fb3b7425d7187a15ba8cb88898b87ff124a8513343747c8cf2c39b5684c4e4d",
+      "context": "In-editor AI assistant > What the assistant works on",
+      "contextHash": "01af85ee11716aeb47edc3847ab548702daed523fd080b525c4b44c3323cdd38",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_6f6210fb9c025bdc89e00b15_0",
+      "kind": "p",
+      "source": "That means a single run sends more than the passage you highlighted. See __TRILIUM_PH_0__Privacy__TRILIUM_PH_1__ for exactly what leaves your machine.",
+      "sourceHash": "6f6210fb9c025bdc89e00b1551ff0f92998263b4db5ef2352f708090a00c1db0",
+      "context": "In-editor AI assistant > What the assistant works on",
+      "contextHash": "01af85ee11716aeb47edc3847ab548702daed523fd080b525c4b44c3323cdd38",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_16fb0bbc6573031f8539218a_0",
+      "kind": "h2",
+      "source": "Quick actions__TRILIUM_PH_0__",
+      "sourceHash": "16fb0bbc6573031f8539218aeaef935671b99ded2ea50b2919ac39fe87d745e1",
+      "context": "In-editor AI assistant > Quick actions",
+      "contextHash": "087fca871dd00d7b222175eac45f65554f402e02e00414904b0711b300ab977e",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_0cf934618a17785828324228_0",
+      "kind": "p",
+      "source": "The arrow beside the toolbar button opens a menu of ready-made instructions, grouped by what they do.",
+      "sourceHash": "0cf934618a17785828324228aa8053554afd8aa2b51c1193a0a0de3a64407c2c",
+      "context": "In-editor AI assistant > Quick actions",
+      "contextHash": "087fca871dd00d7b222175eac45f65554f402e02e00414904b0711b300ab977e",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_f2c0ae3882049c14a2c6e988_0",
+      "kind": "li",
+      "source": "The __TRILIUM_PH_0__Reformat__TRILIUM_PH_1__ actions produce real Trilium content rather than plain text: __TRILIUM_PH_2__Diagram__TRILIUM_PH_3__ inserts a Mermaid diagram, __TRILIUM_PH_4__Callout__TRILIUM_PH_5__ an admonition, and __TRILIUM_PH_6__Collapsible__TRILIUM_PH_7__ a collapsible block.",
+      "sourceHash": "f2c0ae3882049c14a2c6e9888ddd0323dec0bf6f20ee832db893e9b873ae85a3",
+      "context": "In-editor AI assistant > Quick actions",
+      "contextHash": "087fca871dd00d7b222175eac45f65554f402e02e00414904b0711b300ab977e",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_2d71f71e99259ce77e8642aa_0",
+      "kind": "li",
+      "source": "The __TRILIUM_PH_0__Translate__TRILIUM_PH_1__ group lists the __TRILIUM_PH_2__content languages__TRILIUM_PH_3__ you have enabled, or a predefined list if no content languages are set. It can be filled from within the editor, the last entry of the submenu opens the language configuration directly.",
+      "sourceHash": "2d71f71e99259ce77e8642aacf41fe627b9661ed8985ba844157f4e18fe12f5c",
+      "context": "In-editor AI assistant > Quick actions",
+      "contextHash": "087fca871dd00d7b222175eac45f65554f402e02e00414904b0711b300ab977e",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_ab45ee77d46eeffe392efd9f_0",
+      "kind": "p",
+      "source": "Actions that need something to work on are greyed out when there is nothing to work on (for example an empty paragraph with no selection).",
+      "sourceHash": "ab45ee77d46eeffe392efd9f31275d561cb0659844b8f2d620d9359412dfeb48",
+      "context": "In-editor AI assistant > Quick actions",
+      "contextHash": "087fca871dd00d7b222175eac45f65554f402e02e00414904b0711b300ab977e",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_f6dc02e00e3170de46377dcc_0",
+      "kind": "h2",
+      "source": "Asking for something specific__TRILIUM_PH_0__",
+      "sourceHash": "f6dc02e00e3170de46377dcc52486edf80fef1e636eb802d8c3540d41abd3381",
+      "context": "In-editor AI assistant > Asking for something specific",
+      "contextHash": "f66e8904fb920fea5a414b712a78060c67bca934e2239f127f5b66497eecb6b5",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_b3dd1db29ee0baa4140c04a3_0",
+      "kind": "p",
+      "source": "Choosing __TRILIUM_PH_0__Ask AI…__TRILIUM_PH_1__ (__TRILIUM_PH_2__) opens a prompt where you can describe the change in your own words, for example: \"make this less formal\", \"add a row for 2024\", \"write an intro paragraph for this section\". Press __TRILIUM_PH_3__Enter__TRILIUM_PH_4__ or the __TRILIUM_PH_5__ send button to run it.",
+      "sourceHash": "b3dd1db29ee0baa4140c04a3c892c68f1c870adf21b4c7cf0cfaaca6fad05b8b",
+      "context": "In-editor AI assistant > Asking for something specific",
+      "contextHash": "f66e8904fb920fea5a414b712a78060c67bca934e2239f127f5b66497eecb6b5",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_49fc1b1116e04a5c75e982a6_0",
+      "kind": "p",
+      "source": "Once a response arrives you can keep going in the same prompt, and the assistant treats it as a conversation rather than as a fresh request: after __TRILIUM_PH_0__Translate this to German__TRILIUM_PH_1__, asking for __TRILIUM_PH_2__make it shorter__TRILIUM_PH_3__ shortens the German, not the original.",
+      "sourceHash": "49fc1b1116e04a5c75e982a63bf5cd991d0b08336392d5dedad213c104c09a0c",
+      "context": "In-editor AI assistant > Asking for something specific",
+      "contextHash": "f66e8904fb920fea5a414b712a78060c67bca934e2239f127f5b66497eecb6b5",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_bb205968028b1bcccc795cf4_0",
+      "kind": "h2",
+      "source": "Reviewing the result__TRILIUM_PH_0__",
+      "sourceHash": "bb205968028b1bcccc795cf480c2559c873aa9444784d9fe34b945db276280ef",
+      "context": "In-editor AI assistant > Reviewing the result",
+      "contextHash": "35fc6837a20d4ed2e9b0c2d086168a187c316103e56bed7414bb4ecd58f544a8",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_5ce4b277fccf29fe956d7b7a_0",
+      "kind": "p",
+      "source": "The response streams in as it is generated, and can be interrupted at any point by pressing the __TRILIUM_PH_0__Stop__TRILIUM_PH_1__ (__TRILIUM_PH_2__) button; whatever arrived before that stays usable.",
+      "sourceHash": "5ce4b277fccf29fe956d7b7ae4ed0ffea780f34387839e303f27138bcd5411a4",
+      "context": "In-editor AI assistant > Reviewing the result",
+      "contextHash": "35fc6837a20d4ed2e9b0c2d086168a187c316103e56bed7414bb4ecd58f544a8",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_5dc4314fc97a6fa142c4ced4_0",
+      "kind": "p",
+      "source": "Nothing is written into the note until you say so. The review offers:",
+      "sourceHash": "5dc4314fc97a6fa142c4ced440331f122f9c9c7e36e89f9d11a0136bea4dd368",
+      "context": "In-editor AI assistant > Reviewing the result",
+      "contextHash": "35fc6837a20d4ed2e9b0c2d086168a187c316103e56bed7414bb4ecd58f544a8",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_6d65a7d782a758892497d74e_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__Result__TRILIUM_PH_1__, which displays the response as it will be inserted.",
+      "sourceHash": "6d65a7d782a758892497d74e4bfeaa30f34d91fa1dfb010bc70122b8a71d9272",
+      "context": "In-editor AI assistant > Reviewing the result",
+      "contextHash": "35fc6837a20d4ed2e9b0c2d086168a187c316103e56bed7414bb4ecd58f544a8",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_12ce21d22d326fd8052c26fd_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__Changes__TRILIUM_PH_1__, which displays an inline diff against the original, with insertions and deletions marked. When the model rewrote the passage rather than editing it, the review opens on __TRILIUM_PH_2__Result__TRILIUM_PH_3__ instead: a diff of two texts with little in common is harder to read than the answer itself.",
+      "sourceHash": "12ce21d22d326fd8052c26fd7597c2790c8172b832c7627042d22b7b22df138f",
+      "context": "In-editor AI assistant > Reviewing the result",
+      "contextHash": "35fc6837a20d4ed2e9b0c2d086168a187c316103e56bed7414bb4ecd58f544a8",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_0e29a8d793c662fc0e50fda1_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__Try again__TRILIUM_PH_1__ (__TRILIUM_PH_2__), to re-run the same instruction.",
+      "sourceHash": "0e29a8d793c662fc0e50fda1842906c82e54ab98e66e4a63b199100f7820a4da",
+      "context": "In-editor AI assistant > Reviewing the result",
+      "contextHash": "35fc6837a20d4ed2e9b0c2d086168a187c316103e56bed7414bb4ecd58f544a8",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_15550e5343343c32c529ec5f_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__Replace__TRILIUM_PH_1__, which substitutes the original passage",
+      "sourceHash": "15550e5343343c32c529ec5feb3f7e101e2092bd30a86caecbbbedf6267f5e35",
+      "context": "In-editor AI assistant > Reviewing the result",
+      "contextHash": "35fc6837a20d4ed2e9b0c2d086168a187c316103e56bed7414bb4ecd58f544a8",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_9a470fe8fdb795e76cdc72ff_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__Insert below__TRILIUM_PH_1__, which keeps the original and adds the response after it.",
+      "sourceHash": "9a470fe8fdb795e76cdc72ffafc7e5cccb6a4d2afb2516fe084c9295a426d8eb",
+      "context": "In-editor AI assistant > Reviewing the result",
+      "contextHash": "35fc6837a20d4ed2e9b0c2d086168a187c316103e56bed7414bb4ecd58f544a8",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_ca13ab3fda609e80e7c89a57_0",
+      "kind": "p",
+      "source": "Trilium also reports the model that produced it, the tokens consumed and, for providers that report it, the price.",
+      "sourceHash": "ca13ab3fda609e80e7c89a5728c3713a6c0b8be6f0dee945ef0872b4daf7be56",
+      "context": "In-editor AI assistant > Reviewing the result",
+      "contextHash": "35fc6837a20d4ed2e9b0c2d086168a187c316103e56bed7414bb4ecd58f544a8",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_e502108cc309f82db5f84bf7_0",
+      "kind": "p",
+      "source": "If you ask for a correction and there is nothing to correct, the assistant will indicate it instead of showing a blank diff.",
+      "sourceHash": "e502108cc309f82db5f84bf7a818597214f292b52b1d8edffb75e4672eadaff6",
+      "context": "In-editor AI assistant > Reviewing the result",
+      "contextHash": "35fc6837a20d4ed2e9b0c2d086168a187c316103e56bed7414bb4ecd58f544a8",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_6574a80e1de990bab784fe28_0",
+      "kind": "h2",
+      "source": "Choosing the model__TRILIUM_PH_0__",
+      "sourceHash": "6574a80e1de990bab784fe281977a0935c7354d8a39974e06f860fe75e1303f4",
+      "context": "In-editor AI assistant > Choosing the model",
+      "contextHash": "77d2fcd09d57625f4f18a109d86201b269d38b60feab647aa1e89c80d779e9a9",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_604de0b6b685edb6e8c1d470_0",
+      "kind": "p",
+      "source": "The bottom of the quick actions menu shows which model the assistant runs on, and lets you pick another from the models you selected in __TRILIUM_PH_0__Options__TRILIUM_PH_1__ → __TRILIUM_PH_2__AI / LLM__TRILIUM_PH_3__, grouped by provider.",
+      "sourceHash": "604de0b6b685edb6e8c1d4703be25c8ba14f4c79e6345d9921f7f7ef87cdef82",
+      "context": "In-editor AI assistant > Choosing the model",
+      "contextHash": "77d2fcd09d57625f4f18a109d86201b269d38b60feab647aa1e89c80d779e9a9",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_2e47f77de06f9fddd1340096_0",
+      "kind": "p",
+      "source": "The model can also be changed while asking for something specific, or after the assistant has generated its response (i.e. if the response needs a better model).",
+      "sourceHash": "2e47f77de06f9fddd13400963c06c83a45cdf144fa95c1566775e76703e7ab48",
+      "context": "In-editor AI assistant > Choosing the model",
+      "contextHash": "77d2fcd09d57625f4f18a109d86201b269d38b60feab647aa1e89c80d779e9a9",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_4806e0d4df0539d20058ef11_0",
+      "kind": "p",
+      "source": "This choice is separate from the model used by the chat, and is remembered across notes and devices. Left unset, the assistant follows the first configured provider.",
+      "sourceHash": "4806e0d4df0539d20058ef1134d21c3e2c3e80f529a320de487dab2301d1e818",
+      "context": "In-editor AI assistant > Choosing the model",
+      "contextHash": "77d2fcd09d57625f4f18a109d86201b269d38b60feab647aa1e89c80d779e9a9",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_b190d47815633246b0ab18a6_0",
+      "kind": "image-alt",
+      "source": "記事画像",
+      "sourceHash": "b190d47815633246b0ab18a61d9b8e8ea36504fe3f8bc230a7753096915c9ff2",
+      "context": "In-editor AI assistant > Choosing the model",
+      "contextHash": "77d2fcd09d57625f4f18a109d86201b269d38b60feab647aa1e89c80d779e9a9",
+      "status": "pending",
+      "active": true
+    }
+  ],
+  "requests": []
+}

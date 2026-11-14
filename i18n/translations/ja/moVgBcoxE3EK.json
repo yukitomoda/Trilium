@@ -1,0 +1,165 @@
+{
+  "schemaVersion": 1,
+  "pageId": "moVgBcoxE3EK",
+  "sourceFile": "docs/User Guide/User Guide/Installation & Setup/Server Installation/1. Installing the server/On NixOS.md",
+  "sourceRevision": "03d17b60f59b5efc29b880b11481471d0fe0ff57",
+  "units": [
+    {
+      "id": "u_c267dab18859ae864634214d_0",
+      "kind": "title",
+      "source": "On NixOS",
+      "sourceHash": "c267dab18859ae864634214d773f4137c090eaa39bbdf7d3f45952cc39f4b38f",
+      "context": "On NixOS",
+      "contextHash": "39ee310acededfb75a611a4f2c0c785caa451dceac69b883ec91641b95c13a3f",
+      "status": "translated",
+      "active": true,
+      "translation": "NixOSでの利用",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_f466e9dc3959b5422b6798cf_0",
+      "kind": "p",
+      "source": "This page describes configuring the Trilium module included in NixOS.",
+      "sourceHash": "f466e9dc3959b5422b6798cfc707aa38ec604df181c1328c448c7a55b35fee89",
+      "context": "On NixOS",
+      "contextHash": "39ee310acededfb75a611a4f2c0c785caa451dceac69b883ec91641b95c13a3f",
+      "status": "translated",
+      "active": true,
+      "translation": "このページでは、NixOSに含まれるTriliumモジュールの設定方法について説明します。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_1dada5cbf21f0a58afb9d005_0",
+      "kind": "h2",
+      "source": "Requirements__TRILIUM_PH_0__",
+      "sourceHash": "1dada5cbf21f0a58afb9d005aa20e3c65e3bde3d35a168b4e59fb2ae4bab6564",
+      "context": "On NixOS > Requirements",
+      "contextHash": "5bd1b06d1e1ff60fe9e1d091446209a4d9d5a1a40bbfed626a49da8a37ddbaed",
+      "status": "translated",
+      "active": true,
+      "translation": "要件__TRILIUM_PH_0__",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_12fcad0bfda62468756bcac8_0",
+      "kind": "p",
+      "source": "__TRILIUM_PH_0__NixOS__TRILIUM_PH_1__ installation.",
+      "sourceHash": "12fcad0bfda62468756bcac8c4b1d2128911b2e826a2828f399957be5d23ebce",
+      "context": "On NixOS > Requirements",
+      "contextHash": "5bd1b06d1e1ff60fe9e1d091446209a4d9d5a1a40bbfed626a49da8a37ddbaed",
+      "status": "translated",
+      "active": true,
+      "translation": "__TRILIUM_PH_0__NixOS__TRILIUM_PH_1__のインストール。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_91e318d9b9bed0d1467013a3_0",
+      "kind": "h2",
+      "source": "Configuration__TRILIUM_PH_0__",
+      "sourceHash": "91e318d9b9bed0d1467013a3e6d72d61f50dc1076d2d68cc43d0cdd7e4947ffe",
+      "context": "On NixOS > Configuration",
+      "contextHash": "f180617d06dea992d81fcac5a44a2324a059b1a7e3d26c839f81ea8e87dd464d",
+      "status": "translated",
+      "active": true,
+      "translation": "設定__TRILIUM_PH_0__",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_fd2063369c829cdf08284930_0",
+      "kind": "p",
+      "source": "Add this to your __TRILIUM_PH_0__:",
+      "sourceHash": "fd2063369c829cdf0828493007019c6bc5b66cf7f5aec5b58ef2fde5cb2e2e5d",
+      "context": "On NixOS > Configuration",
+      "contextHash": "f180617d06dea992d81fcac5a44a2324a059b1a7e3d26c839f81ea8e87dd464d",
+      "status": "translated",
+      "active": true,
+      "translation": "これを__TRILIUM_PH_0__に追加します：",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_0a6ad2325d4886c7830e75a3_0",
+      "kind": "p",
+      "source": "Uncomment any option you would like to change.",
+      "sourceHash": "0a6ad2325d4886c7830e75a3e98ed99d4e9df66e2bd42d6451ee0b9b89b0fb0b",
+      "context": "On NixOS > Configuration",
+      "contextHash": "f180617d06dea992d81fcac5a44a2324a059b1a7e3d26c839f81ea8e87dd464d",
+      "status": "translated",
+      "active": true,
+      "translation": "変更したいオプションのコメントアウトを解除してください。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_9de74a6567e655bf5769f8ac_0",
+      "kind": "p",
+      "source": "See the __TRILIUM_PH_0__NixOS options list__TRILIUM_PH_1__ for more options (including nginx reverse proxy configuration).",
+      "sourceHash": "9de74a6567e655bf5769f8ac354cafb63c6783b08f15fce07f908708525260c7",
+      "context": "On NixOS > Configuration",
+      "contextHash": "f180617d06dea992d81fcac5a44a2324a059b1a7e3d26c839f81ea8e87dd464d",
+      "status": "translated",
+      "active": true,
+      "translation": "その他のオプション（nginxリバースプロキシの設定など）については、__TRILIUM_PH_0__NixOS options list__TRILIUM_PH_1__を参照してください。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    }
+  ],
+  "requests": [
+    {
+      "at": "2026-11-14T11:28:45.803Z",
+      "model": "gemini-3.5-flash-lite",
+      "batchJob": "batches/02spwqy837h8pi7qzqmeo4fgsqo7bgs45hwh",
+      "requestKey": "moVgBcoxE3EK_c5d559a1714567f5",
+      "modelVersion": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 742,
+        "candidatesTokenCount": 419,
+        "totalTokenCount": 1161,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 742
+          }
+        ],
+        "serviceTier": "standard"
+      }
+    }
+  ]
+}

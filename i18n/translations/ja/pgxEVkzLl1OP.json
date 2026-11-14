@@ -1,0 +1,309 @@
+{
+  "schemaVersion": 1,
+  "pageId": "pgxEVkzLl1OP",
+  "sourceFile": "docs/User Guide/User Guide/Advanced Usage/ETAPI (REST API).md",
+  "sourceRevision": "03d17b60f59b5efc29b880b11481471d0fe0ff57",
+  "units": [
+    {
+      "id": "u_a72e24ac283f09ef4a7d7095_0",
+      "kind": "title",
+      "source": "ETAPI (REST API)",
+      "sourceHash": "a72e24ac283f09ef4a7d7095060ad80fbc1b4bcaa656ef67ec3ba7c685ff4701",
+      "context": "ETAPI (REST API)",
+      "contextHash": "25a0fb5be71767b7f25ecb9f5e85d54e3af491f60173bbbd394a886e4a9d540d",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_fc2c52e30b0b6aa0d0ef6679_0",
+      "kind": "p",
+      "source": "For a quick start, consult the __TRILIUM_PH_0__API Reference__TRILIUM_PH_1__.",
+      "sourceHash": "fc2c52e30b0b6aa0d0ef6679c9c9eade719cb2793018bfef4788b0e7f4cea1f1",
+      "context": "ETAPI (REST API)",
+      "contextHash": "25a0fb5be71767b7f25ecb9f5e85d54e3af491f60173bbbd394a886e4a9d540d",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_32fd6821a54e7f65dff2a135_0",
+      "kind": "p",
+      "source": "ETAPI is Trilium's public/external REST API. It is available since Trilium v0.50.",
+      "sourceHash": "32fd6821a54e7f65dff2a1355825f4f9f128d3281ec0a3796050dcdb92a3195a",
+      "context": "ETAPI (REST API)",
+      "contextHash": "25a0fb5be71767b7f25ecb9f5e85d54e3af491f60173bbbd394a886e4a9d540d",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_c66e6700b040e47dfc182171_0",
+      "kind": "h2",
+      "source": "API clients__TRILIUM_PH_0__",
+      "sourceHash": "c66e6700b040e47dfc1821718b579cfb4438bc32dd1ff54a1dedd229c7fd6f7c",
+      "context": "ETAPI (REST API) > API clients",
+      "contextHash": "0c7e998d5f483bb59d3f47850678c11a3fbe7e91e0ec89cfa148b9c75d25ce56",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_3693b7214ea1f89e8c85886a_0",
+      "kind": "p",
+      "source": "As an alternative to calling the API directly, there are client libraries to simplify this",
+      "sourceHash": "3693b7214ea1f89e8c85886ad7350059cd45b4feb877ed90355f84719de3da26",
+      "context": "ETAPI (REST API) > API clients",
+      "contextHash": "0c7e998d5f483bb59d3f47850678c11a3fbe7e91e0ec89cfa148b9c75d25ce56",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_302e5719666d40eee332c731_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__trilium-py__TRILIUM_PH_1__, you can use Python to communicate with Trilium.",
+      "sourceHash": "302e5719666d40eee332c731d6f2510fdc485f2b21b87c44e70def426c97bc38",
+      "context": "ETAPI (REST API) > API clients",
+      "contextHash": "0c7e998d5f483bb59d3f47850678c11a3fbe7e91e0ec89cfa148b9c75d25ce56",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_cb2c272c88a60674bd91f3ec_0",
+      "kind": "h2",
+      "source": "Obtaining a token__TRILIUM_PH_0__",
+      "sourceHash": "cb2c272c88a60674bd91f3ecc9f00b6f9442f427ef1f743cab02d1e33efe3aee",
+      "context": "ETAPI (REST API) > Obtaining a token",
+      "contextHash": "508ceac07b7bdddcba98ab2db6b4a62affed9d888a4be9b32b0ba239526513da",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_e9c0ad77088d754497f5cd69_0",
+      "kind": "p",
+      "source": "All operations with the REST API have to be authenticated using a token. You can get this token either from __TRILIUM_PH_0__Options__TRILIUM_PH_1__ → __TRILIUM_PH_2__ETAPI__TRILIUM_PH_3__ or programmatically using the __TRILIUM_PH_4__ REST call (see the __TRILIUM_PH_5__spec__TRILIUM_PH_6__). With __TRILIUM_PH_7__multi-factor authentication__TRILIUM_PH_8__ enabled, __TRILIUM_PH_9__ also needs the one-time password or a recovery code in __TRILIUM_PH_10__.",
+      "sourceHash": "e9c0ad77088d754497f5cd690944f3e7c86462e840826b6f537797c9f6157dde",
+      "context": "ETAPI (REST API) > Obtaining a token",
+      "contextHash": "508ceac07b7bdddcba98ab2db6b4a62affed9d888a4be9b32b0ba239526513da",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_88da781ae430cf721085354d_0",
+      "kind": "p",
+      "source": "A token stays valid until it is deleted in __TRILIUM_PH_0__Options__TRILIUM_PH_1__ → __TRILIUM_PH_2__ETAPI__TRILIUM_PH_3__ or through __TRILIUM_PH_4__. Changing the password does not revoke it, including a token obtained through __TRILIUM_PH_5__, so a script keeps working after a password change.",
+      "sourceHash": "88da781ae430cf721085354d9b74bd1d3bd006e2d451296243c957fd6dbf9b1b",
+      "context": "ETAPI (REST API) > Obtaining a token",
+      "contextHash": "508ceac07b7bdddcba98ab2db6b4a62affed9d888a4be9b32b0ba239526513da",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_dd293c0e1cac46f69e69d829_0",
+      "kind": "h2",
+      "source": "Authentication__TRILIUM_PH_0__",
+      "sourceHash": "dd293c0e1cac46f69e69d82938e872710365a07dc23b84b4263ceb05925781e2",
+      "context": "ETAPI (REST API) > Authentication",
+      "contextHash": "ab191f02343ecb058f882c35ad6873a75e3c0fb7613358df3f3bb1e80aab575f",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_a5481fe572c13edd5951d7c9_0",
+      "kind": "h3",
+      "source": "Via the __TRILIUM_PH_0__ header__TRILIUM_PH_1__",
+      "sourceHash": "a5481fe572c13edd5951d7c91a156a2687ac6af1642c8e5c0e6a47f9081275c4",
+      "context": "ETAPI (REST API) > Authentication > Via the Authorization header",
+      "contextHash": "98b0b979dd72070216b8c93c4fc7f572bf6a0cbade054b17f551e30fc5d08364",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_261a7bf69b267602752d84ab_0",
+      "kind": "p",
+      "source": "where __TRILIUM_PH_0__ is the token obtained in the previous step.",
+      "sourceHash": "261a7bf69b267602752d84ab6246d3025b31a7e81c6bd8addb859d6d9575e9e9",
+      "context": "ETAPI (REST API) > Authentication > Via the Authorization header",
+      "contextHash": "98b0b979dd72070216b8c93c4fc7f572bf6a0cbade054b17f551e30fc5d08364",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_a4fd249ab4836b11a94ab195_0",
+      "kind": "p",
+      "source": "For compatibility with various tools, it's also possible to specify the value of the __TRILIUM_PH_0__ header in the format __TRILIUM_PH_1__ (since 0.93.0).",
+      "sourceHash": "a4fd249ab4836b11a94ab195153a3f3ce9d001be7e681409d5d7326e12f3540c",
+      "context": "ETAPI (REST API) > Authentication > Via the Authorization header",
+      "contextHash": "98b0b979dd72070216b8c93c4fc7f572bf6a0cbade054b17f551e30fc5d08364",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_62dc74f76f2a5e27099c2a2e_0",
+      "kind": "h3",
+      "source": "Basic authentication__TRILIUM_PH_0__",
+      "sourceHash": "62dc74f76f2a5e27099c2a2e94d71e5eaf63dbdc0b890ccb18eb41247b8374a2",
+      "context": "ETAPI (REST API) > Authentication > Basic authentication",
+      "contextHash": "474b0753564812c67c02dff07d22a4587d345cc9df0978afbf62e2855f417228",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_3e6c99c99e0dffe0532f9647_0",
+      "kind": "p",
+      "source": "Since v0.56 you can also use basic auth format:",
+      "sourceHash": "3e6c99c99e0dffe0532f96475dc5438ca92ebc11faa84ecfa5254e4bd84c4b95",
+      "context": "ETAPI (REST API) > Authentication > Basic authentication",
+      "contextHash": "474b0753564812c67c02dff07d22a4587d345cc9df0978afbf62e2855f417228",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_9101ab56f617a391cafb801e_0",
+      "kind": "li",
+      "source": "Where __TRILIUM_PH_0__ - this is a standard Basic Auth serialization",
+      "sourceHash": "9101ab56f617a391cafb801eeb899529c044ede8ab458a406d7af22a54df9fa5",
+      "context": "ETAPI (REST API) > Authentication > Basic authentication",
+      "contextHash": "474b0753564812c67c02dff07d22a4587d345cc9df0978afbf62e2855f417228",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_359c5b7410138d6be3f2ebe3_0",
+      "kind": "li",
+      "source": "Where __TRILIUM_PH_0__ is \"etapi\"",
+      "sourceHash": "359c5b7410138d6be3f2ebe3008a1d3ec8e1fce65d56eb1371571f71d01f96c7",
+      "context": "ETAPI (REST API) > Authentication > Basic authentication",
+      "contextHash": "474b0753564812c67c02dff07d22a4587d345cc9df0978afbf62e2855f417228",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_c2f4ad2a047f75134e588f0a_0",
+      "kind": "li",
+      "source": "And __TRILIUM_PH_0__ is the generated ETAPI token described above.",
+      "sourceHash": "c2f4ad2a047f75134e588f0a53818135295745afb97f58d0f052557c8b291734",
+      "context": "ETAPI (REST API) > Authentication > Basic authentication",
+      "contextHash": "474b0753564812c67c02dff07d22a4587d345cc9df0978afbf62e2855f417228",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_500ac9a68c4580343dccd86d_0",
+      "kind": "p",
+      "source": "Basic Auth is meant to be used with tools which support only basic auth.",
+      "sourceHash": "500ac9a68c4580343dccd86df45a93064aeb99edf18a53a19c00316e3fd1c268",
+      "context": "ETAPI (REST API) > Authentication > Basic authentication",
+      "contextHash": "474b0753564812c67c02dff07d22a4587d345cc9df0978afbf62e2855f417228",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_1340aca3ce4096e4f1158885_0",
+      "kind": "h2",
+      "source": "Interaction using Bash scripts__TRILIUM_PH_0__",
+      "sourceHash": "1340aca3ce4096e4f1158885a9d454d7292af66932a602b725f24ac414b50c97",
+      "context": "ETAPI (REST API) > Interaction using Bash scripts",
+      "contextHash": "109b7f07024bfb340d79f12e0ecbb9fa2679d8d345f989e5d2a6101ebe8847db",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_f086e80850440a5500e1a0da_0",
+      "kind": "p",
+      "source": "It is possible to write simple Bash scripts to interact with Trilium. As an example, here's how to obtain the HTML content of a note:",
+      "sourceHash": "f086e80850440a5500e1a0dadcb6989ca732ef1ce5070688bc0e5ac4703287f8",
+      "context": "ETAPI (REST API) > Interaction using Bash scripts",
+      "contextHash": "109b7f07024bfb340d79f12e0ecbb9fa2679d8d345f989e5d2a6101ebe8847db",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_2e9657917c6b02370d84df32_0",
+      "kind": "p",
+      "source": "Make sure to replace the values of:",
+      "sourceHash": "2e9657917c6b02370d84df32d7790aee9ff36d659ad8c9f94af9be8e99aaeea9",
+      "context": "ETAPI (REST API) > Interaction using Bash scripts",
+      "contextHash": "109b7f07024bfb340d79f12e0ecbb9fa2679d8d345f989e5d2a6101ebe8847db",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_b12d8795c1e61592145be3cd_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__ with your ETAPI token.",
+      "sourceHash": "b12d8795c1e61592145be3cd2cb6e400cec9980ffe82fe1d96136d01c8ae9721",
+      "context": "ETAPI (REST API) > Interaction using Bash scripts",
+      "contextHash": "109b7f07024bfb340d79f12e0ecbb9fa2679d8d345f989e5d2a6101ebe8847db",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_85767886b22c98036250e416_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__ with the correct protocol, host name and port to your Trilium instance.",
+      "sourceHash": "85767886b22c98036250e416c26bfd977b787f699b03a11cfa7a633b78629524",
+      "context": "ETAPI (REST API) > Interaction using Bash scripts",
+      "contextHash": "109b7f07024bfb340d79f12e0ecbb9fa2679d8d345f989e5d2a6101ebe8847db",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_4d29430de6c18567ed178fcc_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__ with an existing note ID to download.",
+      "sourceHash": "4d29430de6c18567ed178fcce48e6d103e9ae946b0fb9f6f714f47d1531b585e",
+      "context": "ETAPI (REST API) > Interaction using Bash scripts",
+      "contextHash": "109b7f07024bfb340d79f12e0ecbb9fa2679d8d345f989e5d2a6101ebe8847db",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_43ba6346c57e7572b6ea09f4_0",
+      "kind": "p",
+      "source": "As another example, to obtain a .zip export of a note and place it in a directory called __TRILIUM_PH_0__, simply replace the last statement in the script with:",
+      "sourceHash": "43ba6346c57e7572b6ea09f415872f47311c66c0363fad4dbb3ada56ae48aee0",
+      "context": "ETAPI (REST API) > Interaction using Bash scripts",
+      "contextHash": "109b7f07024bfb340d79f12e0ecbb9fa2679d8d345f989e5d2a6101ebe8847db",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_fd5a71ce17fba39510eadfaa_0",
+      "kind": "h2",
+      "source": "Uploading binary content__TRILIUM_PH_0__",
+      "sourceHash": "fd5a71ce17fba39510eadfaa726f9d278e849bf0ead09711a694866afb949d59",
+      "context": "ETAPI (REST API) > Uploading binary content",
+      "contextHash": "eb5e6c9cc620f56dd77308c42d6b56e798f0165041cefe50a9da759b8b56f1a1",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_0c20b319cadf616c93e98550_0",
+      "kind": "p",
+      "source": "A JSON request body can only carry text, so the __TRILIUM_PH_0__ field of __TRILIUM_PH_1__ stores exactly the string it receives. To upload an image, a PDF or any other binary file, send the raw bytes to the content endpoint with the __TRILIUM_PH_2__ content type. The same applies to the content of a note (__TRILIUM_PH_3__).",
+      "sourceHash": "0c20b319cadf616c93e98550d00ada572ba6116a671ed74d70aa01751a67a0cf",
+      "context": "ETAPI (REST API) > Uploading binary content",
+      "contextHash": "eb5e6c9cc620f56dd77308c42d6b56e798f0165041cefe50a9da759b8b56f1a1",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_19890e8552a162641faf97c9_0",
+      "kind": "p",
+      "source": "To attach a file to a note, create the attachment without content, then upload the file to it:",
+      "sourceHash": "19890e8552a162641faf97c9ca1830d7286a363db536d78d43ecd85ce5cd10cb",
+      "context": "ETAPI (REST API) > Uploading binary content",
+      "contextHash": "eb5e6c9cc620f56dd77308c42d6b56e798f0165041cefe50a9da759b8b56f1a1",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_bb131d37412bbe3c28e23219_0",
+      "kind": "p",
+      "source": "Use __TRILIUM_PH_0__ rather than __TRILIUM_PH_1__, which strips line breaks from the file. For an image, set __TRILIUM_PH_2__ to __TRILIUM_PH_3__ and __TRILIUM_PH_4__ to the image's type, such as __TRILIUM_PH_5__.",
+      "sourceHash": "bb131d37412bbe3c28e23219debc3f81b6b7a713bdba50d5480dfaa96bde3b17",
+      "context": "ETAPI (REST API) > Uploading binary content",
+      "contextHash": "eb5e6c9cc620f56dd77308c42d6b56e798f0165041cefe50a9da759b8b56f1a1",
+      "status": "pending",
+      "active": true
+    }
+  ],
+  "requests": []
+}
