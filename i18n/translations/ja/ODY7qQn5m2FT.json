@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "pageId": "ODY7qQn5m2FT",
   "sourceFile": "docs/User Guide/User Guide/Installation & Setup/Backup.md",
-  "sourceRevision": "bbc6051da7fab504dac8c69279859c8cb9c61eef",
+  "sourceRevision": "f9d13f6c63cadab8586cbd99a6949884087fe858",
   "units": [
     {
       "id": "u_491cd88f148de2a1a10f26fa_0",
@@ -987,8 +987,15 @@
       "sourceHash": "71d84a2b30f1956311152d1d80d13d14588e5d443bff1bf4dea7040ca2d37bb2",
       "context": "Backup > Disabling backup",
       "contextHash": "a85232196805b7c37599b64cb17758e99b9e057c9263baceccefec780ad9ef45",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "バックアップの無効化__TRILIUM_PH_0__",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T16:50:34.717Z"
     },
     {
       "id": "u_8edbf308342673be4362f39a_0",
@@ -997,8 +1004,15 @@
       "sourceHash": "8edbf308342673be4362f39a17a4dbd7ab99246f6b91f82d44602bf0aa3b68ad",
       "context": "Backup > Disabling backup",
       "contextHash": "a85232196805b7c37599b64cb17758e99b9e057c9263baceccefec780ad9ef45",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "推奨はされませんが、__TRILIUM_PH_0__ の __TRILIUM_PH_1__データディレクトリ__TRILIUM_PH_2__ でバックアップを無効にすることが可能です：",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T16:50:34.717Z"
     },
     {
       "id": "u_0742e02d1ae250c49a2ce0ee_0",
@@ -1007,8 +1021,15 @@
       "sourceHash": "0742e02d1ae250c49a2ce0eef0077512cae82542a2c25e4bf0b5da038725759e",
       "context": "Backup > Disabling backup",
       "contextHash": "a85232196805b7c37599b64cb17758e99b9e057c9263baceccefec780ad9ef45",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "また、__TRILIUM_PH_0__設定__TRILIUM_PH_1__ ファイルを確認して、すべての __TRILIUM_PH_2__ の値を環境変数として代わりに指定することもできます。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T16:50:34.717Z"
     },
     {
       "id": "u_0a581ac23a82b56fe1ea8ebc_0",
@@ -1017,8 +1038,15 @@
       "sourceHash": "0a581ac23a82b56fe1ea8ebc2bdb31989e5010b82370871d6d15badff8238a26",
       "context": "Backup > Disabling backup",
       "contextHash": "a85232196805b7c37599b64cb17758e99b9e057c9263baceccefec780ad9ef45",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "__TRILIUM_PH_0__サンプル設定__TRILIUM_PH_1__ を参照してください。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T16:50:34.717Z"
     }
   ],
   "requests": [
@@ -1074,6 +1102,25 @@
           {
             "modality": "TEXT",
             "tokenCount": 1755
+          }
+        ],
+        "serviceTier": "standard"
+      }
+    },
+    {
+      "at": "2026-11-14T16:50:34.717Z",
+      "model": "gemini-3.5-flash-lite",
+      "batchJob": "batches/wazxmzaiela6jn8aqd7kybq00i98rm3g571n",
+      "requestKey": "ODY7qQn5m2FT_a1aaeb706468c401",
+      "modelVersion": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 595,
+        "candidatesTokenCount": 296,
+        "totalTokenCount": 891,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 595
           }
         ],
         "serviceTier": "standard"
