@@ -46,3 +46,20 @@ GitHub Actionsでは `collect_only` と `recheck_completed` の両方をオン�
 欠けた結果がある完了済みバッチだけを再取得し、翻訳の新規送信は行いません。
 正常な翻訳結果と人手修正は維持します。Gemini側の保存期間が過ぎている場合は
 再取得できない可能性があるため、台帳を削除せず取得エラーを確認してください。
+
+### 出力形式
+
+新規依頼では各inline requestの `config.responseMimeType` と
+`config.responseSchema` で構造化出力を指定します。
+`translations` は `{ "翻訳単位ID": "訳文" }` というオブジェクトにし、
+対象IDをスキーマの `properties` と `required` に列挙します。
+返答の項目順には依存せず、件数・ID・保護マーカーをローカルでも検証します。
+過去の正常な `{id, translation}` 配列も読み込めますが、IDのない文字列配列は
+順番が入れ替わる実例があるため、推測で割り当てず検証エラーとして保存します。
+
+構造化出力の変更後は、まず `page_id=s3YCWHBfmYuM`、`limit=3`、
+`collect_only=false`、`recheck_completed=false` で小さく新規依頼し、
+定期回収または `collect_only=true` の手動実行でPRが作られることを確認してください。
+これは既存バッチの再取得とは異なり、新しい有料の翻訳依頼です。
+SDK経由でスキーマが送信されることは自動テストしていますが、実際のモデルから
+スキーマどおり返ることは、この実サービスでの確認が必要です。

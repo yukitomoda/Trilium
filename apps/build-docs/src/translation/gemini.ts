@@ -1,4 +1,4 @@
-import { ApiError, type BatchJob, type GenerateContentResponse, GoogleGenAI } from "@google/genai";
+import { ApiError, type BatchJob, type GenerateContentResponse, GoogleGenAI, Type } from "@google/genai";
 
 import { type Segment, validateTranslation } from "./segments";
 
@@ -33,21 +33,24 @@ export function parseBatchResponse(data: GenerateContentResponse, requests: Batc
     if (candidate?.finishReason !== "STOP") throw new Error("Incomplete Gemini batch response");
     const text = candidate.content?.parts?.filter((part) => !part.thought)
         .map((part) => part.text ?? "").join("") ?? "";
-    let result: { requestKey: string; translations: { id: string; translation: string }[] };
+    let result: { requestKey: string; translations: Record<string, string> | { id: string; translation: string }[] };
     try { result = JSON.parse(text); } catch { throw new Error("Invalid batch response JSON"); }
     const request = requests.find((request) => request.key === result?.requestKey);
-    if (!request || !Array.isArray(result.translations)
-        || result.translations.length !== request.units.length) {
+    const entries = Array.isArray(result?.translations) ? result.translations
+        : result?.translations && typeof result.translations === "object"
+            ? Object.entries(result.translations).map(([ id, translation ]) => ({ id, translation }))
+            : undefined;
+    if (!request || !entries || entries.length !== request.units.length) {
         throw new Error("Unexpected batch request key or translation count");
     }
     const expected = new Map(request.units.map((unit) => [ unit.id, unit ]));
-    const receivedIds = result.translations.map((entry) =>
+    const receivedIds = entries.map((entry) =>
         typeof entry?.id === "string" && /^u_[a-f0-9]{1,64}_\d{1,8}$/.test(entry.id)
             ? entry.id : null);
     const seenIds = new Set<string>();
     const unknownPositions: number[] = [];
     const duplicatePositions: number[] = [];
-    for (const [ index, entry ] of result.translations.entries()) {
+    for (const [ index, entry ] of entries.entries()) {
         if (!entry || !expected.has(entry.id)) unknownPositions.push(index);
         if (seenIds.has(entry?.id)) duplicatePositions.push(index);
         seenIds.add(entry?.id);
@@ -58,7 +61,7 @@ export function parseBatchResponse(data: GenerateContentResponse, requests: Batc
             missingIds: [ ...expected.keys() ].filter((id) => !seenIds.has(id)) });
     }
     const translations: Record<string, string> = {};
-    for (const entry of result.translations) {
+    for (const entry of entries) {
         const unit = expected.get(entry.id);
         if (!unit || Object.hasOwn(translations, entry.id)) {
             throw new Error("Unexpected or duplicate translation ID");
@@ -95,16 +98,15 @@ export function createBatchService(options: GeminiOptions): BatchService {
                 config: {
                     systemInstruction: options.prompt,
                     responseMimeType: "application/json",
-                    responseJsonSchema: {
-                        type: "object", required: [ "requestKey", "translations" ],
+                    responseSchema: {
+                        type: Type.OBJECT, required: [ "requestKey", "translations" ],
                         properties: {
-                            requestKey: { type: "string", enum: [ request.key ] },
-                            translations: { type: "array", items: {
-                                type: "object", required: [ "id", "translation" ],
-                                properties: { id: { type: "string",
-                                    enum: request.units.map((unit) => unit.id) },
-                                translation: { type: "string" } }
-                            } }
+                            requestKey: { type: Type.STRING, enum: [ request.key ] },
+                            translations: { type: Type.OBJECT,
+                                required: request.units.map((unit) => unit.id),
+                                properties: Object.fromEntries(request.units.map((unit) => [
+                                    unit.id, { type: Type.STRING }
+                                ])) }
                         }
                     }
                 }

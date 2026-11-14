@@ -147,11 +147,19 @@ void test("SDK uses batch endpoints and never retries create", async () => {
                     assert.equal(wire.metadata.key, "request-one");
                     assert.equal(wire.request.generationConfig.responseMimeType,
                         "application/json");
-                    assert.equal(wire.request.generationConfig.responseJsonSchema
+                    assert.equal(wire.request.generationConfig.responseSchema
                         .properties.requestKey.enum[0], "request-one");
-                    assert.deepEqual(wire.request.generationConfig.responseJsonSchema
-                        .properties.translations.items.properties.id.enum,
-                    request.units.map((unit) => unit.id));
+                    assert.deepEqual(wire.request.generationConfig.responseSchema
+                        .properties.translations.required, request.units.map((unit) => unit.id));
+                    const schema = wire.request.generationConfig.responseSchema
+                        .properties.translations;
+                    assert.equal(schema.type, "OBJECT");
+                    assert.equal(wire.request.generationConfig.responseJsonSchema, undefined);
+                    assert.deepEqual(wire.request.systemInstruction.parts, [ { text: "Translate" } ]);
+                    const input = JSON.parse(wire.request.contents[0].parts[0].text);
+                    assert.deepEqual(input.units.map((u: { id: string }) => u.id),
+                        request.units.map((u) => u.id));
+                    assert.deepEqual(Object.keys(schema.properties), request.units.map((u) => u.id));
                     return Response.json({ name: "batches/job",
                         metadata: { state: "BATCH_STATE_PENDING" } });
                 }
@@ -256,5 +264,26 @@ void test("translation ID diagnostics distinguish duplicates from unknown IDs", 
             assert.ok(!JSON.stringify(error.details).includes("untrusted model text"));
             return true;
         });
+    } finally { await rm(root, { recursive: true, force: true }); }
+});
+
+void test("keyed translations ignore order and reject unlabelled string arrays", async () => {
+    const root = await mkdtemp(join(tmpdir(), "trilium-keyed-"));
+    try {
+        const request = { key: "one", pageId: "one", units: (await page(root, "one")).memory.units };
+        const data = response(request);
+        const keyed = Object.fromEntries([ ...request.units ].reverse()
+            .map((unit) => [ unit.id, unit.source.replace("Hello", "こんにちは") ]));
+        data.candidates![0].content!.parts![0].text = JSON.stringify({
+            requestKey: request.key, translations: keyed });
+        const parsed = parseBatchResponse(data, [ request ]);
+        assert.equal(parsed.translations[request.units[1].id], "こんにちは one");
+        data.candidates![0].content!.parts![0].text = JSON.stringify({
+            requestKey: request.key, translations: Object.values(keyed) });
+        assert.throws(() => parseBatchResponse(data, [ request ]), TranslationIdError);
+        delete keyed[request.units[0].id];
+        data.candidates![0].content!.parts![0].text = JSON.stringify({
+            requestKey: request.key, translations: keyed });
+        assert.throws(() => parseBatchResponse(data, [ request ]), /translation count/);
     } finally { await rm(root, { recursive: true, force: true }); }
 });
