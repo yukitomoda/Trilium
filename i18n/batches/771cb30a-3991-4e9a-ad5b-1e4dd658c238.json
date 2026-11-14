@@ -190,12 +190,134 @@
     {
       "responseIndex": 0,
       "requestKey": "s3YCWHBfmYuM_ef9b047fffd03482",
-      "reason": "Unexpected or duplicate translation ID"
+      "reason": "Unexpected or duplicate translation ID",
+      "idMismatch": {
+        "expectedIds": [
+          "u_9d179a5caae96eb1af012b1b_0",
+          "u_bd397bdcd0b124acc5c3e0bd_0",
+          "u_947e2e0f77c1fb87a0df52cc_0",
+          "u_de97eb6f315748e027def249_0",
+          "u_9739455cc0f394fce071283d_0",
+          "u_1556cb00c05dffed34932bf3_0",
+          "u_5befeb9cf03308a8193026b9_0",
+          "u_b0e172b30973350def257f34_0",
+          "u_9739455cc0f394fce071283d_1",
+          "u_1556cb00c05dffed34932bf3_1",
+          "u_947e2e0f77c1fb87a0df52cc_1",
+          "u_4aa9b488084517931162675f_0",
+          "u_70e361f1bf09802ca442fbd6_0"
+        ],
+        "receivedIds": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        "unknownPositions": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ],
+        "duplicatePositions": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ],
+        "missingIds": [
+          "u_9d179a5caae96eb1af012b1b_0",
+          "u_bd397bdcd0b124acc5c3e0bd_0",
+          "u_947e2e0f77c1fb87a0df52cc_0",
+          "u_de97eb6f315748e027def249_0",
+          "u_9739455cc0f394fce071283d_0",
+          "u_1556cb00c05dffed34932bf3_0",
+          "u_5befeb9cf03308a8193026b9_0",
+          "u_b0e172b30973350def257f34_0",
+          "u_9739455cc0f394fce071283d_1",
+          "u_1556cb00c05dffed34932bf3_1",
+          "u_947e2e0f77c1fb87a0df52cc_1",
+          "u_4aa9b488084517931162675f_0",
+          "u_70e361f1bf09802ca442fbd6_0"
+        ]
+      }
     },
     {
       "responseIndex": 1,
       "requestKey": "i6dbnitykE5D_631062bb89fa96c3",
-      "reason": "Unexpected or duplicate translation ID"
+      "reason": "Unexpected or duplicate translation ID",
+      "idMismatch": {
+        "expectedIds": [
+          "u_17eb3cbda8daecbb04b8eac7_0",
+          "u_991a272209435ca11df5c492_0",
+          "u_272aaae04764feaaa140f592_0",
+          "u_f905b755b57f5274f6144536_0",
+          "u_8ed75cb77c507e3e017e7d90_0",
+          "u_4f15f782c15b8530aa4e9aac_0",
+          "u_eb401a1e73a96ec6e920bda4_0"
+        ],
+        "receivedIds": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        "unknownPositions": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "duplicatePositions": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "missingIds": [
+          "u_17eb3cbda8daecbb04b8eac7_0",
+          "u_991a272209435ca11df5c492_0",
+          "u_272aaae04764feaaa140f592_0",
+          "u_f905b755b57f5274f6144536_0",
+          "u_8ed75cb77c507e3e017e7d90_0",
+          "u_4f15f782c15b8530aa4e9aac_0",
+          "u_eb401a1e73a96ec6e920bda4_0"
+        ]
+      }
     }
   ],
   "error": "Some batch responses were invalid; valid responses were retained"
