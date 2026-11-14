@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "id": "8226e41f-fedc-4ca3-8879-3bfa4cb1ff93",
-  "phase": "pending",
+  "phase": "complete",
   "createdAt": "2026-11-14T11:28:45.803Z",
   "conditions": {
     "model": "gemini-3.5-flash-lite",
@@ -141,7 +141,41 @@
           "context": "Feature Highlights",
           "contextHash": "b68abdcb4c10b78d22a1d50b922c886bd8e2d6c7b24f66d0fff92b4174a9ba02"
         }
-      ]
+      ],
+      "result": {
+        "key": "BOCnjTMBCoxW_3c419375dac57bde",
+        "translations": {
+          "u_e7197b3e98cab917597dcb12_0": "機能ハイライト",
+          "u_e90a91503d308358b182a41c_0": "このセクションでは、バージョンごとの最も重要な変更点を紹介します。変更点の完全なリストについては、各リリースの変更履歴を参照してください。簡潔にするため、ベータバージョンはスキップし、機能は最も近い安定版にまとめられています。",
+          "u_c538dbe0c55aab8f4358c3f0_0": "v0.105.0:",
+          "u_c25f81516ba08f6f5bd9f1bf_0": "テキストノートに、フルチャットを必要としない簡単な校正やその他のテキストベースの操作を行うための __TRILIUM_PH_0__エディタ内AIアシスタント__TRILIUM_PH_1__ が追加されました。",
+          "u_1f442ab7bb75d8d2c69a1fc2_0": "v0.101.0:",
+          "u_e09fcf530a00ffbdf504f71b_0": "新しいレイアウトが導入され、リボンやフローティングボタンを他のUI要素に統合するなどのUI/UXの大幅な変更や、__TRILIUM_PH_0__パンくずリスト__TRILIUM_PH_1__などの新機能が導入されました。",
+          "u_c593faf253f803f9d3d895aa_0": "v0.97.0:",
+          "u_4d4b29bd154a2a08ccaefa16_0": "ブックが__TRILIUM_PH_0__コレクション__TRILIUM_PH_1__になりました。",
+          "u_31091c2671684b86329c6518_0": "__TRILIUM_PH_0__テーブル__TRILIUM_PH_1__は、編集可能なグリッドにノートと属性を表示する新しいコレクションタイプです。",
+          "u_936236ddb2b28446e2f20682_0": "新しいタブを開く代わりにポップアップでノートを編集する新しい方法として、__TRILIUM_PH_0__クイック編集__TRILIUM_PH_1__が導入されました。これは__TRILIUM_PH_2__コレクション__TRILIUM_PH_3__ともよく統合されています。",
+          "u_72724c90d70d01c9c1aea036_0": "v0.96.0:",
+          "u_c6afff4cea13c3d256cabda7_0": "CKEditorチームとの協力により、__TRILIUM_PH_0__テキスト__TRILIUM_PH_1__にプレミアム機能が追加されました。",
+          "u_7177e6fa14a11fba152c1dbb_0": "__TRILIUM_PH_0__スラッシュコマンド__TRILIUM_PH_1__",
+          "u_50faefe92622ac0fe2229bd5_0": "__TRILIUM_PH_0__テキストスニペット__TRILIUM_PH_1__",
+          "u_23cb42f47de5db4a1c286871_0": "v0.95.0:",
+          "u_d484aafca07c574e34a9c6c4_0": "検索、展開可能なツリー、ナイトモードなどを備えた、__TRILIUM_PH_0__共有__TRILIUM_PH_1__向けのより使いやすいテーマが導入されました。"
+        },
+        "modelVersion": "gemini-3.5-flash-lite",
+        "usage": {
+          "promptTokenCount": 1334,
+          "candidatesTokenCount": 978,
+          "totalTokenCount": 2312,
+          "promptTokensDetails": [
+            {
+              "modality": "TEXT",
+              "tokenCount": 1334
+            }
+          ],
+          "serviceTier": "standard"
+        }
+      }
     },
     {
       "key": "BOCnjTMBCoxW_b5cfc95181c64625",
@@ -275,7 +309,41 @@
           "context": "Feature Highlights",
           "contextHash": "b68abdcb4c10b78d22a1d50b922c886bd8e2d6c7b24f66d0fff92b4174a9ba02"
         }
-      ]
+      ],
+      "result": {
+        "key": "BOCnjTMBCoxW_b5cfc95181c64625",
+        "translations": {
+          "u_d339dfe897bb186189792c75_0": "v0.94.0:",
+          "u_4013b3e6dc53f9e6258ec4c9_0": "Ollama などのセルフホスト型 LLM や ChatGPT などの業界標準を使用した、__TRILIUM_PH_0__AI__TRILIUM_PH_1__ との統合が追加されました。",
+          "u_a70f6b685304e71a2260bf3f_0": "v0.92.5:",
+          "u_edab43bbfa18cd89d42aff1e_0": "Windows 版のバイナリに署名が付与されるようになりました。",
+          "u_0ab3b63e90d841f9fcfa59a0_0": "__TRILIUM_PH_0__TOTP を使用した多要素認証__TRILIUM_PH_1__ が導入されました。",
+          "u_32e2d8ad236f3115ed7fa545_0": "v0.92.4:",
+          "u_b1d79b3fa0d74dab726cfa5f_0": "macOS 版のバイナリに署名が付与されるようになりました。",
+          "u_3bc50d8e0e2cef76497576db_0": "__TRILIUM_PH_0__テキスト__TRILIUM_PH_1__ ノートで、__TRILIUM_PH_2__コンテンツ言語と右から左への記述（RTL）のサポート__TRILIUM_PH_3__ が調整できるようになりました。",
+          "u_af9c016aefca1c65cea0082c_0": "__TRILIUM_PH_0__印刷と PDF としてのエクスポート__TRILIUM_PH_1__",
+          "u_b339b225ade87cd06155425a_0": "__TRILIUM_PH_0__禅モード__TRILIUM_PH_1__",
+          "u_d7129030ac577c1867638fa3_0": "開始日と終了日に基づいてノートを月次グリッドで表示できる __TRILIUM_PH_0__カレンダー__TRILIUM_PH_1__。",
+          "u_a84febc437ab522a94df1ec6_0": "v0.91.5:",
+          "u_28cdc61be507ab2d399dfcf5_0": "モバイル版の大幅な改善。",
+          "u_0906d0925d4dff0d841018a6_0": "__TRILIUM_PH_0__テキスト__TRILIUM_PH_1__ ノートで __TRILIUM_PH_2__脚注__TRILIUM_PH_3__ がサポートされるようになりました。",
+          "u_116d14862d240566cc89b80a_0": "Mermaid ダイアグラムを __TRILIUM_PH_0__テキスト__TRILIUM_PH_1__ ノート内にインラインで挿入できるようになりました。",
+          "u_3726542b75c6265c8b002b26_0": "TriliumNext テーマが導入され、アプリケーションによりモダンなデザインがもたらされました。"
+        },
+        "modelVersion": "gemini-3.5-flash-lite",
+        "usage": {
+          "promptTokenCount": 1250,
+          "candidatesTokenCount": 903,
+          "totalTokenCount": 2153,
+          "promptTokensDetails": [
+            {
+              "modality": "TEXT",
+              "tokenCount": 1250
+            }
+          ],
+          "serviceTier": "standard"
+        }
+      }
     },
     {
       "key": "BOCnjTMBCoxW_67d5343fc4e92355",
@@ -305,7 +373,28 @@
           "context": "Feature Highlights",
           "contextHash": "b68abdcb4c10b78d22a1d50b922c886bd8e2d6c7b24f66d0fff92b4174a9ba02"
         }
-      ]
+      ],
+      "result": {
+        "key": "BOCnjTMBCoxW_67d5343fc4e92355",
+        "translations": {
+          "u_c57aff4f14d56d96c7cc2442_0": "__TRILIUM_PH_0__ジオマップ__TRILIUM_PH_1__。旅行の計画を簡単に立てられるよう、ノートを地理的な地図上のマーカーとして表示します。",
+          "u_83404aff670844e350f0ef67_0": "v0.90.8:",
+          "u_bda2e5041ef55c4e6e347287_0": "新しいノートタイプが導入されました: __TRILIUM_PH_0__マインドマップ__TRILIUM_PH_1__"
+        },
+        "modelVersion": "gemini-3.5-flash-lite",
+        "usage": {
+          "promptTokenCount": 495,
+          "candidatesTokenCount": 213,
+          "totalTokenCount": 708,
+          "promptTokensDetails": [
+            {
+              "modality": "TEXT",
+              "tokenCount": 495
+            }
+          ],
+          "serviceTier": "standard"
+        }
+      }
     },
     {
       "key": "nRqcgfTb97uV_5908fc7b05ca8cd9",
@@ -439,7 +528,8 @@
           "context": "Using the desktop application as a server > Allowing the port externally on Windows with Windows Defender Firewall",
           "contextHash": "52ed0744fccb91c7068e08c6d004f2fc23b0629ef82c5b5862b55592b922287d"
         }
-      ]
+      ],
+      "error": "Missing or invalid batch response"
     },
     {
       "key": "nRqcgfTb97uV_6350c1b89b4fee44",
@@ -469,7 +559,28 @@
           "context": "Using the desktop application as a server > Allowing the port externally on Windows with Windows Defender Firewall",
           "contextHash": "52ed0744fccb91c7068e08c6d004f2fc23b0629ef82c5b5862b55592b922287d"
         }
-      ]
+      ],
+      "result": {
+        "key": "nRqcgfTb97uV_6350c1b89b4fee44",
+        "translations": {
+          "u_c718b4f1b287187327ac133f_0": "適用するネットワークを設定し（不明な場合はすべてにチェックを入れてください）、「次へ」を押します。",
+          "u_3d702283d2b4146b53621f39_0": "ルールに適した名前（例：「Trilium Notes」など）を入力し、「完了」を押します。",
+          "u_fb04e03dd6434b08efe26521_0": "v0.104.0以降、Triliumで使用されるポートには __TRILIUM_PH_0__ からのみアクセス可能です。ローカルネットワーク全体で有効にするには、__TRILIUM_PH_1__ネットワークアクセス__TRILIUM_PH_2__ を参照してください。"
+        },
+        "modelVersion": "gemini-3.5-flash-lite",
+        "usage": {
+          "promptTokenCount": 576,
+          "candidatesTokenCount": 244,
+          "totalTokenCount": 820,
+          "promptTokensDetails": [
+            {
+              "modality": "TEXT",
+              "tokenCount": 576
+            }
+          ],
+          "serviceTier": "standard"
+        }
+      }
     },
     {
       "key": "Rp0q8bSP6Ayl_2711b995c4935573",
@@ -563,7 +674,36 @@
           "context": "System Requirements",
           "contextHash": "ac272c8f84973eca9ec80e0499c5a8bfd45e669d5922afffe6131fdc5b9c29b7"
         }
-      ]
+      ],
+      "result": {
+        "key": "Rp0q8bSP6Ayl_2711b995c4935573",
+        "translations": {
+          "u_eed42be216fabe5c1cbc1bd0_0": "システム要件",
+          "u_629df4be36ff538b84199604_0": "Trilium のデスクトップ版は、以下の3つの主要なオペレーティングシステムすべてをサポートしています：",
+          "u_9028b08cda609567d8bfeb5c_0": "__TRILIUM_PH_0__ Windows",
+          "u_997555dfb23fffd50cf959b6_0": "Windows 11 が公式にサポートされています。",
+          "u_1bbde63f002cc50dbf88ed6a_0": "Windows on ARM もサポートされています。",
+          "u_ac3fefba84b2bcef1f9aed1d_0": "__TRILIUM_PH_0__ Linux",
+          "u_4091a3345cdbc183736c61f3_0": "NixOS を含む、ほとんどのモダンなディストリビューションがサポートされています。",
+          "u_5e5f713abcf4cf535adce817_0": "ARM は __TRILIUM_PH_0__ でサポートされています（ARM v7 はサポートされていません）。",
+          "u_ecfd539e69da61eb4c5900e6_0": "__TRILIUM_PH_0__ macOS",
+          "u_fb2b59120e1818c39f83bb9e_0": "最小サポート OS：macOS Ventura",
+          "u_fc81994f8156f88af4b79a60_0": "Intel および Apple Silicon デバイスの両方がサポートされています。"
+        },
+        "modelVersion": "gemini-3.5-flash-lite",
+        "usage": {
+          "promptTokenCount": 816,
+          "candidatesTokenCount": 502,
+          "totalTokenCount": 1318,
+          "promptTokensDetails": [
+            {
+              "modality": "TEXT",
+              "tokenCount": 816
+            }
+          ],
+          "serviceTier": "standard"
+        }
+      }
     },
     {
       "key": "Un4wj2Mak2Ky_0ba06236de0a7511",
@@ -665,7 +805,37 @@
           "context": "Nix flake > Install on NixOS",
           "contextHash": "760b4caeea45480c96d43f501736c0559e6567db2f5899a3968a7b8a0ffbbee1"
         }
-      ]
+      ],
+      "result": {
+        "key": "Un4wj2Mak2Ky_0ba06236de0a7511",
+        "translations": {
+          "u_580c2c316df0a23c6447544a_0": "Nix flake",
+          "u_8c41a714094994e529e6827c_0": "TriliumNext 0.94.1以降、デスクトップアプリおよびサーバーアプリを __TRILIUM_PH_0__Nix__TRILIUM_PH_1__ を使用してビルドできるようになりました。",
+          "u_c797c697ba85c78677583a46_0": "システム要件__TRILIUM_PH_0__",
+          "u_8c01dd14a603928aa4ae63d2_0": "MacまたはLinuxへのNixのインストール（__TRILIUM_PH_0__ダウンロードページ__TRILIUM_PH_1__）。ビルド成果物用に、追加で約3〜4GBのストレージ容量が必要です。",
+          "u_6f4ffa16adf7ee4a31d08c80_0": "直接実行__TRILIUM_PH_0__",
+          "u_20f0e8069a0be9cf19475706_0": "__TRILIUM_PH_0__nix run__TRILIUM_PH_1__ を使用して、デスクトップアプリを次のように起動できます: __TRILIUM_PH_2__",
+          "u_dce30bbcc30a6837b1f43af9_0": "サーバーを実行するには、目的のパッケージを明示的に指定する必要があります: __TRILIUM_PH_0__",
+          "u_51a383776473863bfbee5db3_0": "バージョン（上記の __TRILIUM_PH_0__）の代わりに、コミットハッシュ（またはブランチ名）を指定することもできます。これにより、開発ビルドのテストが簡単になります。",
+          "u_3215fdbe00e8a0665a93b37e_0": "NixOSへのインストール__TRILIUM_PH_0__",
+          "u_4b0ac83e44d9f99348e497f2_0": "__TRILIUM_PH_0__ に追加します:",
+          "u_4b0ac83e44d9f99348e497f2_1": "__TRILIUM_PH_0__ に追加します:",
+          "u_84670f68ef7eaa82bd4d0b10_0": "このflakeは、NixOSの最新の安定版（stable）および不安定版（unstable）との互換性を目指しています。"
+        },
+        "modelVersion": "gemini-3.5-flash-lite",
+        "usage": {
+          "promptTokenCount": 1061,
+          "candidatesTokenCount": 714,
+          "totalTokenCount": 1775,
+          "promptTokensDetails": [
+            {
+              "modality": "TEXT",
+              "tokenCount": 1061
+            }
+          ],
+          "serviceTier": "standard"
+        }
+      }
     },
     {
       "key": "swSFivWk6KkA_22a4555abfdbd213",
@@ -799,7 +969,41 @@
           "context": "Network Access",
           "contextHash": "d1d90f97abb0a5ee89ac835f5fe5ccbdb5ff4d96b24dc1ab44635b7f1ae2252a"
         }
-      ]
+      ],
+      "result": {
+        "key": "swSFivWk6KkA_22a4555abfdbd213",
+        "translations": {
+          "u_a394e0d6d466cdfe6ec63ec7_0": "ネットワークアクセス",
+          "u_47279ff75256c827617d0e59_0": "v0.104.0以前では、__TRILIUM_PH_0__デスクトップアプリケーション__TRILIUM_PH_1__もネットワークポートを開き、__TRILIUM_PH_2__ETAPI (REST API)__TRILIUM_PH_3__へのアクセスを提供したり、Webサーバーとして使用したりすることさえできました（__TRILIUM_PH_4__デスクトップアプリケーションをサーバーとして使用する__TRILIUM_PH_5__を参照してください）。",
+          "u_5cf6f6e1a829a9150088d19a_0": "攻撃対象領域を減らすため、Triliumでは、LAN経由でサービスを提供するのではなく、ローカルデバイス（例：__TRILIUM_PH_0__）に対してのみこれらのサービスを有効にするようになりました。",
+          "u_da8bd01b36a749b5c7a3c5bd_0": "影響を受ける機能の詳細については、以下の表を参照してください。",
+          "u_7bc7acf4e4f5f74e27413374_0": "機能",
+          "u_b9e654aa52d3af2439b10315_0": "ネットワークアクセス OFF",
+          "u_1acb455e87b4c023df8ae182_0": "ネットワークアクセス ON",
+          "u_bb626252ae27388ed82180f0_0": "__TRILIUM_PH_0__Webクリッパー__TRILIUM_PH_1__",
+          "u_d82f6f5a2d4283657cdefce7_0": "🔒️ __TRILIUM_PH_0__ のみ（同一デバイス上のブラウザ拡張機能からは引き続きアクセス可能）",
+          "u_4c9e574e1efd4aa918be30ee_0": "🌐 __TRILIUM_PH_0__ + LAN",
+          "u_9d3914f997e4dd3f87c08848_0": "__TRILIUM_PH_0__ETAPI (REST API)__TRILIUM_PH_1__",
+          "u_c661127e24dedf60376520d3_0": "🔒️ __TRILIUM_PH_0__ のみ",
+          "u_4c9e574e1efd4aa918be30ee_1": "🌐 __TRILIUM_PH_0__ + LAN",
+          "u_f1e50af9e907a9af46093d2f_0": "__TRILIUM_PH_0__LLM MCP__TRILIUM_PH_1__（設定で有効にしている場合のみ）",
+          "u_d44f7e07a2fd72ffd7259995_0": "🔒️ __TRILIUM_PH_0__ のみ（認証が必要）",
+          "u_a7011eb48cc6af28f189fbc7_0": "🌐 __TRILIUM_PH_0__ + LAN（認証が必要）"
+        },
+        "modelVersion": "gemini-3.5-flash-lite",
+        "usage": {
+          "promptTokenCount": 1234,
+          "candidatesTokenCount": 810,
+          "totalTokenCount": 2044,
+          "promptTokensDetails": [
+            {
+              "modality": "TEXT",
+              "tokenCount": 1234
+            }
+          ],
+          "serviceTier": "standard"
+        }
+      }
     },
     {
       "key": "swSFivWk6KkA_10f70c6b4135b5c2",
@@ -853,7 +1057,31 @@
           "context": "Network Access",
           "contextHash": "d1d90f97abb0a5ee89ac835f5fe5ccbdb5ff4d96b24dc1ab44635b7f1ae2252a"
         }
-      ]
+      ],
+      "result": {
+        "key": "swSFivWk6KkA_10f70c6b4135b5c2",
+        "translations": {
+          "u_78eb27e7b05a6ffe6721681d_0": "__TRILIUM_PH_0__ウェブアプリ__TRILIUM_PH_1__",
+          "u_43f597ec31c335a8bd5cc080_0": "❌️ 完全無効 (403)。デスクトップアプリのみ使用可能です。",
+          "u_4c9e574e1efd4aa918be30ee_2": "🌐 __TRILIUM_PH_0__ + LAN",
+          "u_9b148295971cc0f7e1d69fdd_0": "ノートの__TRILIUM_PH_0__共有__TRILIUM_PH_1__",
+          "u_64f229a30b0014b7987383f3_0": "❌️ 完全無効 (403)。__TRILIUM_PH_0__同期__TRILIUM_PH_1__を使用している場合、これは__TRILIUM_PH_2__サーバー__TRILIUM_PH_3__の一部として引き続き機能します。",
+          "u_4c9e574e1efd4aa918be30ee_3": "🌐 __TRILIUM_PH_0__ + LAN"
+        },
+        "modelVersion": "gemini-3.5-flash-lite",
+        "usage": {
+          "promptTokenCount": 681,
+          "candidatesTokenCount": 373,
+          "totalTokenCount": 1054,
+          "promptTokensDetails": [
+            {
+              "modality": "TEXT",
+              "tokenCount": 681
+            }
+          ],
+          "serviceTier": "standard"
+        }
+      }
     },
     {
       "key": "7iwde4lsKc6O_a119f9f2bca1b2fd",
@@ -987,7 +1215,41 @@
           "context": "Tray icon & automatic startup > Tray icon > Opening a new window from the taskbar",
           "contextHash": "125964a5bf61d8df0de45bdf7210d339e6a521bff3f41ae8e66ebb44c4b12827"
         }
-      ]
+      ],
+      "result": {
+        "key": "7iwde4lsKc6O_a119f9f2bca1b2fd",
+        "translations": {
+          "u_1dd39d3a6ae1daa6e18c040c_0": "トレイアイコンと自動起動",
+          "u_ab0fb9c586d704a60f06fc24_0": "自動起動およびシステムトレイとのより優れた統合は v0.104.0 で導入されました。それ以前のバージョンには、__TRILIUM_PH_0__Options__TRILIUM_PH_1__ → __TRILIUM_PH_2__Others__TRILIUM_PH_3__ で確認できるシステムトレイのオプションのみがありました。",
+          "u_8fef90f4b138bd73d202daa1_0": "トレイアイコン__TRILIUM_PH_0__",
+          "u_7aefc3204b2600ce77ec5d7d_0": "デスクトップアプリケーションには、すべてのオペレーティングシステムにおいてシステムトレイとのネイティブ統合があります。",
+          "u_a454e3fd28249b6224f0dbb0_0": "トレイアイコンはデフォルトで有効になっていますが、__TRILIUM_PH_0__Options__TRILIUM_PH_1__ → __TRILIUM_PH_2__Desktop__TRILIUM_PH_3__ から切り替えることができます。",
+          "u_86be999a5df3ea783ed12ebe_0": "トレイアイコンには次の機能があります:",
+          "u_66173ef87a55f08fb4bf9643_0": "クリックすると、最後のウィンドウが非表示（トレイアイコンに最小化）になります。もう一度クリックすると、そのウィンドウが表示されます。",
+          "u_e3abe92e691618b194bb78a2_0": "右クリックすると、次のオプションが表示されます:",
+          "u_f97db91f7026674521897dd2_0": "アクティブなノートで識別される各ウィンドウを個別に表示または非表示にできます。",
+          "u_eb2ddbc0f86661ed31061fe9_0": "新しいウィンドウを開くことができます。",
+          "u_794e805028293fd70a94ecb7_0": "新しいノートを直接作成でき、__TRILIUM_PH_0__Note Inbox__TRILIUM_PH_1__（インボックスが利用できない場合は__TRILIUM_PH_2__Day Notes__TRILIUM_PH_3__）に作成されます。",
+          "u_95f2f1e1635c0486a9bc0585_0": "今日のデイノートを開くことができます。",
+          "u_527c9e7ea6524b75f8f4dc9f_0": "ブックマークと最近のノートがサブメニューに表示され、それらをクリックするとそのノートに移動します。",
+          "u_f8f6b335a31a6192603a3b18_0": "アプリケーションを終了します。",
+          "u_92f8b48683d52b65a64c1f01_0": "タスクバーから新しいウィンドウを開く__TRILIUM_PH_0__",
+          "u_5c24c6505b82545cda408a00_0": "また、アプリケーションのアイコンを右クリックすることで、トレイアイコンなしでも新しいウィンドウを開くことができます:"
+        },
+        "modelVersion": "gemini-3.5-flash-lite",
+        "usage": {
+          "promptTokenCount": 1379,
+          "candidatesTokenCount": 844,
+          "totalTokenCount": 2223,
+          "promptTokensDetails": [
+            {
+              "modality": "TEXT",
+              "tokenCount": 1379
+            }
+          ],
+          "serviceTier": "standard"
+        }
+      }
     },
     {
       "key": "7iwde4lsKc6O_1601ea73eb6b0e5c",
@@ -1121,7 +1383,8 @@
           "context": "Tray icon & automatic startup > Automatic startup > Linux: custom launch command for packagers",
           "contextHash": "49d5cd9cac34bb4fa95c61ed40db6231dc9079eaaa87d2ea933147a36820d6c5"
         }
-      ]
+      ],
+      "error": "Missing or invalid batch response"
     },
     {
       "key": "7iwde4lsKc6O_ef24831983296a3c",
@@ -1143,7 +1406,27 @@
           "context": "Tray icon & automatic startup > Automatic startup > Linux: custom launch command for packagers",
           "contextHash": "49d5cd9cac34bb4fa95c61ed40db6231dc9079eaaa87d2ea933147a36820d6c5"
         }
-      ]
+      ],
+      "result": {
+        "key": "7iwde4lsKc6O_ef24831983296a3c",
+        "translations": {
+          "u_6c7480862fba7027d7099afb_0": "値は __TRILIUM_PH_0__ の行にそのまま書き込まれるため、スペースを含むパスはあらかじめクォーテーションで囲んでおく必要があります。__TRILIUM_PH_1__Start minimized to tray__TRILIUM_PH_2__ が有効な場合は、__TRILIUM_PH_3__ がそこに追加されます。__TRILIUM_PH_4__ は、AppImage のパスと実行中の実行ファイルのどちらよりも優先されます。",
+          "u_b190d47815633246b0ab18a6_0": "記事画像"
+        },
+        "modelVersion": "gemini-3.5-flash-lite",
+        "usage": {
+          "promptTokenCount": 516,
+          "candidatesTokenCount": 213,
+          "totalTokenCount": 729,
+          "promptTokensDetails": [
+            {
+              "modality": "TEXT",
+              "tokenCount": 516
+            }
+          ],
+          "serviceTier": "standard"
+        }
+      }
     },
     {
       "key": "hvRfsDr591WP_1addc7f53848bd58",
@@ -1205,7 +1488,32 @@
           "context": "Troubleshooting > Trilium only shows a blank window",
           "contextHash": "3b86f782c40d4b3c059c5c8c077b62d535d12ba25fbf973f00d4f6c43dd6dbb5"
         }
-      ]
+      ],
+      "result": {
+        "key": "hvRfsDr591WP_1addc7f53848bd58",
+        "translations": {
+          "u_b485142a769733ab72fdfbd9_0": "トラブルシューティング",
+          "u_87d0eeabb6de889b68fba58d_0": "Triliumが真っ白なウィンドウしか表示しない__TRILIUM_PH_0__",
+          "u_f3896c44f9fa9ef125056798_0": "Triliumは、Google Chromeのオープンソース版であるChromiumをベースにしたElectronを使用しています。パフォーマンスを向上させるために__TRILIUM_PH_0__GPUアクセラレーション__TRILIUM_PH_1__を利用しますが、GPUの非互換性（特に古いモデルの内蔵グラフィックス）により何も描画されず、真っ白なウィンドウになってしまう場合があります。",
+          "u_ae70601272993e27112a3979_0": "これを回避するには、次のコマンドライン引数をつけてTriliumを実行してみてください。",
+          "u_d9361993dd14e3bf5b4667ed_0": "それでも解決しない場合は、次のコマンドもお試しください。",
+          "u_14a2264020154077988b6edd_0": "__TRILIUM_PH_0__ （Wayland環境でX11での描画を強制します）",
+          "u_90f0afd1cdecbe7f71f495c9_0": "この操作のあとでTriliumが正常に描画される場合、TriliumにはGPUアクセラレーションを無効にする組み込みオプションが用意されています。__TRILIUM_PH_0__オプション__TRILIUM_PH_1__ → __TRILIUM_PH_2__外観__TRILIUM_PH_3__に移動し、__TRILIUM_PH_4__パフォーマンス__TRILIUM_PH_5__セクションを探して、__TRILIUM_PH_6__ハードウェアアクセラレーション (GPU)__TRILIUM_PH_7__のチェックを外してください。"
+        },
+        "modelVersion": "gemini-3.5-flash-lite",
+        "usage": {
+          "promptTokenCount": 881,
+          "candidatesTokenCount": 540,
+          "totalTokenCount": 1421,
+          "promptTokensDetails": [
+            {
+              "modality": "TEXT",
+              "tokenCount": 881
+            }
+          ],
+          "serviceTier": "standard"
+        }
+      }
     },
     {
       "key": "poXkQfguuA0U_3d4b4b5dfde358b7",
@@ -1339,7 +1647,41 @@
           "context": "Desktop Installation > Startup Scripts",
           "contextHash": "03dc02339532b43f004aa96526e4851fb0619029659b986443f475ce1ddadb0a"
         }
-      ]
+      ],
+      "result": {
+        "key": "poXkQfguuA0U_3d4b4b5dfde358b7",
+        "translations": {
+          "u_34d9d452b5cd622a470e1f19_0": "デスクトップ版のインストール",
+          "u_56aee4f3eca536420e4f381e_0": "デスクトップ版 Trilium をインストールするには、以下の手順に従います:",
+          "u_7a33884ad7aab2a7606e4ed3_0": "__TRILIUM_PH_0__最新リリースのダウンロード__TRILIUM_PH_1__: GitHubの__TRILIUM_PH_2__最新リリースページ__TRILIUM_PH_3__から、お使いのオペレーティングシステムに適したバイナリを取得します。",
+          "u_c058ebd856b7befb70256b43_0": "__TRILIUM_PH_0__パッケージの展開__TRILIUM_PH_1__: ダウンロードしたパッケージを任意の場所に解凍します。",
+          "u_9078150eb4955852d4db2b11_0": "__TRILIUM_PH_0__アプリケーションの実行__TRILIUM_PH_1__: 解凍したフォルダ内にある__TRILIUM_PH_2__実行ファイルを起動して Trilium を起動します。",
+          "u_d4cd1a70b488b9ef428618c1_0": "Flathub からのインストール__TRILIUM_PH_0__",
+          "u_34ab21aa511d47e82c9db44e_0": "Linux では、Trilium は x86_64 および ARM (aarch64) の両方で __TRILIUM_PH_0__Flathub__TRILIUM_PH_1__ からも入手できます。ソフトウェアセンター (GNOME Software や KDE Discover など) またはターミナルからインストールします:",
+          "u_9ee0bd07b343aa5ee6078adf_0": "他の Flatpak と同様に、アップデートはソフトウェアセンターまたは __TRILIUM_PH_0__ を通じて提供されます。",
+          "u_7fb11946775810eca092f475_0": "Flathub 版はサンドボックス内で実行され、__TRILIUM_PH_0__データディレクトリ__TRILIUM_PH_1__ を __TRILIUM_PH_2__ に保持します。__TRILIUM_PH_3__、__TRILIUM_PH_4__、AppImage、または __TRILIUM_PH_5__ のインストールにおけるデータディレクトリ (__TRILIUM_PH_6__) は参照できないため、空のデータベースで起動します。既存のノートを引き継ぐには:",
+          "u_fcf44c2d5acd4173d79cc7b6_0": "古いインストール環境と Flatpak の両方で Trilium を終了します。",
+          "u_1b316b68a2c6a7e76439294e_0": "古いデータディレクトリをサンドボックス内にコピーします:",
+          "u_2b94617517d3e17548c7c711_0": "Flatpak 版を起動します。",
+          "u_103c10950aa51fe339ad8a28_0": "Flatpak 版を以前に起動したために __TRILIUM_PH_0__ が既に存在する場合は、まずそれを削除するか名前を変更してください。",
+          "u_e987fc2370e93e6be031c526_0": "また、サンドボックスは __TRILIUM_PH_0__サブスクリプションベースのAIプロバイダー__TRILIUM_PH_1__ (Claude Code、GitHub Copilot、OpenAI Codex、Google Antigravity) が実行するコマンドラインツールも隠蔽します。そのページでは、Flatpak がそれらを起動できるようにする権限について説明しています。",
+          "u_531967948fb5ebe3b64ebf09_0": "起動スクリプト__TRILIUM_PH_0__",
+          "u_ab669b6bf0d5d996f7ef2695_0": "Trilium では、操作感をカスタマイズするためのさまざまな起動スクリプトを提供しています:"
+        },
+        "modelVersion": "gemini-3.5-flash-lite",
+        "usage": {
+          "promptTokenCount": 1459,
+          "candidatesTokenCount": 1028,
+          "totalTokenCount": 2487,
+          "promptTokensDetails": [
+            {
+              "modality": "TEXT",
+              "tokenCount": 1459
+            }
+          ],
+          "serviceTier": "standard"
+        }
+      }
     },
     {
       "key": "poXkQfguuA0U_7bebcc02010b93bb",
@@ -1393,7 +1735,31 @@
           "context": "Desktop Installation > Synchronization",
           "contextHash": "a0fe392a8bf226a8468b610410c4bc7e01f44c8fb1ca9566817852703fa5130f"
         }
-      ]
+      ],
+      "result": {
+        "key": "poXkQfguuA0U_7bebcc02010b93bb",
+        "translations": {
+          "u_62c99ab0d37e191a569bf18e_0": "__TRILIUM_PH_0__: __TRILIUM_PH_1__TLS証明書__TRILIUM_PH_2__の検証を行わずにTriliumを起動します。自己署名証明書を使用するサーバーに接続する場合に便利です。",
+          "u_8a2f1b2e3a81c03211f1c50c_0": "または、Triliumを起動する前に __TRILIUM_PH_0__ 環境変数を設定します。",
+          "u_e635b9c69dccb70931aab35c_0": "__TRILIUM_PH_0__: ポータブルモードでTriliumを起動します。__TRILIUM_PH_1__データディレクトリ__TRILIUM_PH_2__がアプリケーションのディレクトリ内に作成されるため、設定全体を簡単に移動させることができます。Electronの内部データ（キャッシュ、辞書など）もデータディレクトリ内に保存されるため、システムのローミングプロファイルにはファイルが書き込まれません。",
+          "u_d02d1094628a1688c63cba99_0": "__TRILIUM_PH_0__: アプリケーションのクラッシュの原因となる可能性のある起動スクリプトを無効にし、「セーフモード」でTriliumを起動します。",
+          "u_5104dd0609f9cacdcd0c7eac_0": "同期__TRILIUM_PH_0__",
+          "u_7522220e6691f75dfe830672_0": "サーバーインスタンスとデータを同期したいTriliumデスクトップユーザーは、詳細な手順について __TRILIUM_PH_0__同期__TRILIUM_PH_1__ガイドを参照してください。"
+        },
+        "modelVersion": "gemini-3.5-flash-lite",
+        "usage": {
+          "promptTokenCount": 796,
+          "candidatesTokenCount": 456,
+          "totalTokenCount": 1252,
+          "promptTokensDetails": [
+            {
+              "modality": "TEXT",
+              "tokenCount": 796
+            }
+          ],
+          "serviceTier": "standard"
+        }
+      }
     },
     {
       "key": "ZNAjFcxqHr9V_d7c1f9f70542d5b8",
@@ -1407,7 +1773,26 @@
           "context": "Simple auto-update for server",
           "contextHash": "2166dbcd7d2ff9cce59213d9138203bd3230f5cbdba5ea49a8c7664b7f4e1270"
         }
-      ]
+      ],
+      "result": {
+        "key": "ZNAjFcxqHr9V_d7c1f9f70542d5b8",
+        "translations": {
+          "u_bce5ee443cfe9a80bbfd080a_0": "サーバー向けの簡単な自動アップデート"
+        },
+        "modelVersion": "gemini-3.5-flash-lite",
+        "usage": {
+          "promptTokenCount": 363,
+          "candidatesTokenCount": 63,
+          "totalTokenCount": 426,
+          "promptTokensDetails": [
+            {
+              "modality": "TEXT",
+              "tokenCount": 363
+            }
+          ],
+          "serviceTier": "standard"
+        }
+      }
     },
     {
       "key": "3tW6mORuTHnB_61a1b86fe0a189ab",
@@ -1541,7 +1926,41 @@
           "context": "Packaged version for Linux > Configure Trilium to auto-run on boot with systemd",
           "contextHash": "d5042bcf0c92006e7f8ae5274dfaafb37d92bd999ec9285a5d0f6e0f8542d5b9"
         }
-      ]
+      ],
+      "result": {
+        "key": "3tW6mORuTHnB_61a1b86fe0a189ab",
+        "translations": {
+          "u_cf40b69b567321847d74b9b4_0": "Linux用パッケージ版",
+          "u_40276e5c1804ca953807a4fa_0": "これは基本的に、Triliumのソースコード、nodeモジュール、node.jsランタイムを1つの7zファイルにまとめたものです。",
+          "u_0a0d067e9d032a31798e4782_0": "手順__TRILIUM_PH_0__",
+          "u_fa6aec78eff6208d5a988eaf_0": "サーバーにSSH接続します",
+          "u_fe27ad2eecd462830295110f_0": "サーバー上で __TRILIUM_PH_0__（または __TRILIUM_PH_1__）を使用して最新の __TRILIUM_PH_2__ をダウンロードします（__TRILIUM_PH_3__リリースページ__TRILIUM_PH_4__からリンクをコピーしてください。__TRILIUM_PH_5__の接尾辞に注意してください）。",
+          "u_5c10f32665d0e8f25bcb75b3_0": "アーカイブを解凍します（例：__TRILIUM_PH_0__を使用）",
+          "u_c2ebfadf40c2f6fe9d1c009a_0": "ブラウザを開いて http://[サーバーのホスト名]:8080 にアクセスすると、Triliumの初期化ページが表示されるはずです。",
+          "u_31c2897da564f76502c70543_0": "コンソールにサーバーがアクセス可能なアドレスの一覧が表示されるため、そこからコピーすることもできます。",
+          "u_c059852e6753f17e5945dacb_0": "上記の手順の問題点は、SSH接続を閉じるとTriliumのプロセスが終了してしまうことです。それを回避するには、次の2つの方法があります。",
+          "u_7becf5194cafcad24ba09fec_0": "（例：__TRILIUM_PH_0__Ctrl__TRILIUM_PH_1__ + __TRILIUM_PH_2__C__TRILIUM_PH_3__で）プロセスを終了し、次のように再度実行します：__TRILIUM_PH_4__。（nohupはプロセスをバックグラウンドで実行し続け、__TRILIUM_PH_5__はバックグラウンドで実行します）",
+          "u_b5c1964627668678a7560579_0": "システム起動時にTriliumがバックグラウンドで自動実行されるようにsystemdを設定する",
+          "u_9c8e4d8bfc5e502a76e2fb02_0": "systemdを使用して起動時にTriliumが自動実行されるように設定する__TRILIUM_PH_0__",
+          "u_7161105ae167fb732c8d132d_0": "ダウンロード後、Triliumを解凍して移動します：",
+          "u_c92d956d3f8ff4cb33448ae6_0": "サービスを作成します：",
+          "u_296ad7df33b68dce4b382d08_0": "ファイルに以下を貼り付けます（必要に応じてユーザーとグループを置き換えてください）：",
+          "u_1f132a138fdcb5c648b2f3b7_0": "ファイルを保存し（CTRL-S）、終了します（CTRL-X）"
+        },
+        "modelVersion": "gemini-3.5-flash-lite",
+        "usage": {
+          "promptTokenCount": 1405,
+          "candidatesTokenCount": 959,
+          "totalTokenCount": 2364,
+          "promptTokensDetails": [
+            {
+              "modality": "TEXT",
+              "tokenCount": 1405
+            }
+          ],
+          "serviceTier": "standard"
+        }
+      }
     },
     {
       "key": "3tW6mORuTHnB_f82dae981039cd94",
@@ -1651,7 +2070,38 @@
           "context": "Packaged version for Linux > TLS",
           "contextHash": "ea67f2ad9199e814d0a6956e4954182fa0e46360984446b61b81908a9896ba66"
         }
-      ]
+      ],
+      "result": {
+        "key": "3tW6mORuTHnB_f82dae981039cd94",
+        "translations": {
+          "u_dee19892bfbc958a143d1ac7_0": "サービスを有効化して起動します：",
+          "u_9ac2996f03d77cbf99585f4e_0": "これでブラウザで http://[your-server-hostname]:8080 を開くことができ、Triliumの初期化ページが表示されるはずです。",
+          "u_182eb35db034a54f3a2497a6_0": "サーバーの簡単な自動アップデート__TRILIUM_PH_0__",
+          "u_9cdc92dcb937083f53b68a31_0": "スクリプトは __TRILIUM_PH_0__Simple auto-update for server__TRILIUM_PH_1__ にあります。",
+          "u_46053cacc51251063db73b6f_0": "Triliumを実行するユーザーと同じユーザーで実行してください。",
+          "u_4b912f2650f59f30a9ab5f4d_0": "__TRILIUM_PH_0__ として実行する場合は、コマンドから __TRILIUM_PH_1__ を削除してください。",
+          "u_6eb7fa2f2742c02c6b22041b_0": "__TRILIUM_PH_0__ が必要です：",
+          "u_16cdc58d3eefc71e5a245a5f_0": "上記のサービスを停止し、（__TRILIUM_PH_0__ がないことを前提として）すべてを上書きして、サービスを再起動します。また、Triliumディレクトリにバージョンファイルを作成し、より新しいバージョンの場合にのみアップデートされるようにします。",
+          "u_748168b4e19e0812882058d9_0": "よくある問題__TRILIUM_PH_0__",
+          "u_1e003e1202b63a534a3035b6_0": "古くなった glibc__TRILIUM_PH_0__",
+          "u_4b428ff9fdae7df067ae91db_0": "このようなエラーが発生した場合は、glibcをアップグレードするか（通常は最新のディストリビューションバージョンへのアップグレード）、他の __TRILIUM_PH_0__サーバーのインストール__TRILIUM_PH_1__ 方法を使用する必要があります。",
+          "u_bf284d5f6a2b43e62e6827fc_0": "TLS__TRILIUM_PH_0__",
+          "u_9b7bf4392078ddb0a981a353_0": "セキュアな利用に必須である __TRILIUM_PH_0__TLSの設定__TRILIUM_PH_1__ を忘れないようにしてください！"
+        },
+        "modelVersion": "gemini-3.5-flash-lite",
+        "usage": {
+          "promptTokenCount": 1221,
+          "candidatesTokenCount": 765,
+          "totalTokenCount": 1986,
+          "promptTokensDetails": [
+            {
+              "modality": "TEXT",
+              "tokenCount": 1221
+            }
+          ],
+          "serviceTier": "standard"
+        }
+      }
     },
     {
       "key": "rWX5eY045zbE_aa92c763e0fd08e2",
@@ -1785,7 +2235,8 @@
           "context": "Using Docker > Running without Docker Compose / Further Configuration > Pulling the Docker Image",
           "contextHash": "1ebe68a90b7879567408c6108d8008d44f5bc1c75d28f853f4287bc2b1099e9a"
         }
-      ]
+      ],
+      "error": "Missing or invalid batch response"
     },
     {
       "key": "rWX5eY045zbE_922806ebd41e8120",
@@ -1919,7 +2370,41 @@
           "context": "Using Docker > Running without Docker Compose / Further Configuration > Running the Docker Container",
           "contextHash": "0323f0b4c6cb3ab7bc8bc7478df72ffd2909749bcd55edc0fa70b4ac1a9211a6"
         }
-      ]
+      ],
+      "result": {
+        "key": "rWX5eY045zbE_922806ebd41e8120",
+        "translations": {
+          "u_711eb089a3357625693e3001_0": "__TRILIUM_PH_0__警告:__TRILIUM_PH_1__ 「latest」タグの使用は避けてください。インスタンスが自動的に新しいマイナーバージョンにアップグレードされ、同期設定の破損やその他の問題を引き起こす可能性があります。",
+          "u_5fad3891027b813aaca9dcc8_0": "データディレクトリの準備__TRILIUM_PH_0__",
+          "u_726b27c10283f2b3d6baa77b_0": "Triliumのデータを保存するには、ホストシステム上のディレクトリが必要です。このディレクトリは、書き込み権限を持たせてDockerコンテナにマウントする必要があります。",
+          "u_98664723a048115e31a6db78_0": "Dockerコンテナの実行__TRILIUM_PH_0__",
+          "u_3041c51f696829c838aecaa1_0": "ローカルアクセスのみ",
+          "u_b26d15ac96f718ea11736901_0": "ローカルホストからのみアクセスできるようにコンテナを実行します。この設定は、テスト時やNginx、Apacheなどのプロキシサーバーを使用する場合に適しています。",
+          "u_31f1db9ecc3eba081b989314_0": "__TRILIUM_PH_0__を使用してコンテナが実行中であることを確認します。",
+          "u_f89477bb5badd78b6f180a82_0": "ウェブブラウザで __TRILIUM_PH_0__ にアクセスしてTriliumを利用します。",
+          "u_b8fcb32a65e6cbd95a6ef37f_0": "ローカルネットワークからのアクセス",
+          "u_c0a03d238ccfed7e0c723ffc_0": "ローカルネットワーク内からのみコンテナにアクセスできるようにするには、まず新しいDockerネットワークを作成します。",
+          "u_47f42fbb95902a6178028234_0": "次に、ネットワーク設定を指定してコンテナを実行します。",
+          "u_fd8ac8c48b320d65d0895311_0": "保存されるデータのユーザーID（UID）およびグループID（GID）を変更するには、__TRILIUM_PH_0__ および __TRILIUM_PH_1__ 環境変数を使用します。",
+          "u_2aa65cbe1d20f9c805623e8c_0": "__TRILIUM_PH_0__ を使用してローカルIPアドレスを確認し、ローカルネットワーク上のデバイスからサービスにアクセスします。",
+          "u_82a23cfa7a9336e1b3cd8976_0": "グローバルアクセス",
+          "u_bfd0244f78a2ee235f8d8962_0": "任意のIPアドレスからのアクセスを許可するには、次のようにコンテナを実行します。",
+          "u_6e8f435886570058a52a70b2_0": "__TRILIUM_PH_0__ でコンテナを停止します。コンテナIDは __TRILIUM_PH_1__ から取得できます。"
+        },
+        "modelVersion": "gemini-3.5-flash-lite",
+        "usage": {
+          "promptTokenCount": 1426,
+          "candidatesTokenCount": 887,
+          "totalTokenCount": 2313,
+          "promptTokensDetails": [
+            {
+              "modality": "TEXT",
+              "tokenCount": 1426
+            }
+          ],
+          "serviceTier": "standard"
+        }
+      }
     },
     {
       "key": "rWX5eY045zbE_3242ff563d14a9c8",
@@ -2053,7 +2538,8 @@
           "context": "Using Docker > Running as a non-root user",
           "contextHash": "154e7087c137f6942d25df100d0539e0b0afcd83afda4267e895b2b67603141a"
         }
-      ]
+      ],
+      "error": "Missing or invalid batch response"
     },
     {
       "key": "rWX5eY045zbE_4f37f5a10cf930ad",
@@ -2099,7 +2585,30 @@
           "context": "Using Docker > Running as a non-root user",
           "contextHash": "154e7087c137f6942d25df100d0539e0b0afcd83afda4267e895b2b67603141a"
         }
-      ]
+      ],
+      "result": {
+        "key": "rWX5eY045zbE_4f37f5a10cf930ad",
+        "translations": {
+          "u_bf128677dd150562f8114060_0": "ホスト側のデータディレクトリは、コンテナが起動する前に存在し、かつそのユーザーの所有物である必要があります。ディレクトリが存在しない場合、Docker はそれを root として作成するため、Trilium が書き込みを行えなくなります。例：",
+          "u_e2eea319489f7159c95f5f83_0": "ホストディレクトリの代わりに名前付きボリュームを使用する方法は、UID __TRILIUM_PH_0__ の場合にのみ機能します。Docker は新しいボリュームにイメージのデータディレクトリの所有者（つまり __TRILIUM_PH_1__ ユーザー）を割り当てるためです。",
+          "u_1162e7411a1b7df36124ed91_0": "__TRILIUM_PH_0__ および __TRILIUM_PH_1__ は無視されます。ユーザーは __TRILIUM_PH_2__ または __TRILIUM_PH_3__ のみから決定されます。",
+          "u_738ede401dcf5dbb7c659214_0": "Trilium がデータディレクトリを使用できない場合、起動時に停止し、使用できないディレクトリやファイル、それらを所有しているユーザー、およびそれを修正するためのコマンドが出力されます。",
+          "u_f5cc2ae82414db159033daf0_0": "root として実行されたインストールでは、ファイルの所有権が UID __TRILIUM_PH_0__（または設定されていた場合は __TRILIUM_PH_1__）のままになります。これを __TRILIUM_PH_2__ に切り替えるには、同じ UID を使用するか、あらかじめ __TRILIUM_PH_3__ などを使用してデータディレクトリの所有権を新しいユーザーに譲渡してください。"
+        },
+        "modelVersion": "gemini-3.5-flash-lite",
+        "usage": {
+          "promptTokenCount": 789,
+          "candidatesTokenCount": 479,
+          "totalTokenCount": 1268,
+          "promptTokensDetails": [
+            {
+              "modality": "TEXT",
+              "tokenCount": 789
+            }
+          ],
+          "serviceTier": "standard"
+        }
+      }
     },
     {
       "key": "moVgBcoxE3EK_c5d559a1714567f5",
@@ -2169,7 +2678,33 @@
           "context": "On NixOS > Configuration",
           "contextHash": "f180617d06dea992d81fcac5a44a2324a059b1a7e3d26c839f81ea8e87dd464d"
         }
-      ]
+      ],
+      "result": {
+        "key": "moVgBcoxE3EK_c5d559a1714567f5",
+        "translations": {
+          "u_c267dab18859ae864634214d_0": "NixOSでの利用",
+          "u_f466e9dc3959b5422b6798cf_0": "このページでは、NixOSに含まれるTriliumモジュールの設定方法について説明します。",
+          "u_1dada5cbf21f0a58afb9d005_0": "要件__TRILIUM_PH_0__",
+          "u_12fcad0bfda62468756bcac8_0": "__TRILIUM_PH_0__NixOS__TRILIUM_PH_1__のインストール。",
+          "u_91e318d9b9bed0d1467013a3_0": "設定__TRILIUM_PH_0__",
+          "u_fd2063369c829cdf08284930_0": "これを__TRILIUM_PH_0__に追加します：",
+          "u_0a6ad2325d4886c7830e75a3_0": "変更したいオプションのコメントアウトを解除してください。",
+          "u_9de74a6567e655bf5769f8ac_0": "その他のオプション（nginxリバースプロキシの設定など）については、__TRILIUM_PH_0__NixOS options list__TRILIUM_PH_1__を参照してください。"
+        },
+        "modelVersion": "gemini-3.5-flash-lite",
+        "usage": {
+          "promptTokenCount": 742,
+          "candidatesTokenCount": 419,
+          "totalTokenCount": 1161,
+          "promptTokensDetails": [
+            {
+              "modality": "TEXT",
+              "tokenCount": 742
+            }
+          ],
+          "serviceTier": "standard"
+        }
+      }
     },
     {
       "key": "J1Bb6lVlwU5T_359b0da367e01a01",
@@ -2303,7 +2838,41 @@
           "context": "Manually > Run",
           "contextHash": "4c70350b05c239638621092b22aa1b028b2633f1208270b97276e78724abcff5"
         }
-      ]
+      ],
+      "result": {
+        "key": "J1Bb6lVlwU5T_359b0da367e01a01",
+        "translations": {
+          "u_1ce0da74fa7c56415a2b0c9f_0": "手動インストール",
+          "u_a9f580607e0ff4ad8a17efc4_0": "このページでは、サーバーにTriliumを手動でインストールする方法について説明します。__TRILIUM_PH_0__これは十分にサポートされているインストール方法ではなく、問題が発生する可能性があることに注意してください。また、ここに記載されている情報はかなり古くなっています。__TRILIUM_PH_1__ __TRILIUM_PH_2__Dockerサーバーインストール__TRILIUM_PH_3__ __TRILIUM_PH_4__または__TRILIUM_PH_5__ __TRILIUM_PH_6__パッケージ化されたサーバーインストール__TRILIUM_PH_7____TRILIUM_PH_8__のいずれかを使用することをお勧めします。__TRILIUM_PH_9__",
+          "u_1dada5cbf21f0a58afb9d005_0": "要件__TRILIUM_PH_0__",
+          "u_a5671db810b22d6361a59ef1_0": "Triliumはnode.jsアプリケーションです。サポートされている（テスト済みの）node.jsのバージョンは、最新の14.X.Xおよび16.X.Xです。Triliumは古いバージョンでも動作する可能性があります。",
+          "u_c0f2af74bbdd866c40bc3df7_0": "以下のコマンドでnodeのバージョンを確認できます（node.jsがインストールされている必要があります）：",
+          "u_22816fdc200e0d24a9c6c9b5_0": "使用しているLinuxディストリビューションに古いバージョンのnode.jsしかない場合は、node.jsのウェブサイトにあるインストール手順を参照してください。主要なほとんどのディストリビューションが網羅されています。",
+          "u_73e9e43473616c6f41f6f2ad_0": "依存関係__TRILIUM_PH_0__",
+          "u_df45b5ac0ad39e3c6ecc9693_0": "いくつかの依存関係が必要です。Debianおよびその派生ディストリビューション（Ubuntuなど）用のコマンドは以下の通りです：",
+          "u_570fd05b1306763eb91a0132_0": "インストール__TRILIUM_PH_0__",
+          "u_345b8d166c6dec28d8b9ae72_0": "ダウンロード__TRILIUM_PH_0__",
+          "u_2526e7326fdd1d3f2daf0f02_0": "__TRILIUM_PH_0__https://github.com/TriliumNext/Trilium/releases/latest__TRILIUM_PH_1__からソースコードのzipまたはtarをダウンロードできます。",
+          "u_4712072532ad6e96367aa887_0": "ベータ版を含む最新バージョンについては、Gitリポジトリを__TRILIUM_PH_0__から__TRILIUM_PH_1__ __TRILIUM_PH_2__ __TRILIUM_PH_3__ブランチ__TRILIUM_PH_4__でクローンしてください：",
+          "u_570fd05b1306763eb91a0132_1": "インストール__TRILIUM_PH_0__",
+          "u_98c378a88ce6367a2f2280bc_0": "実行__TRILIUM_PH_0__",
+          "u_ea8e2b8f0437da9d92cf1c76_0": "アプリケーションはデフォルトでポート8080で起動するため、ブラウザを開いて __TRILIUM_PH_0__http://localhost:8080__TRILIUM_PH_1__ にアクセスするとTriliumを利用できます（\"localhost\"はお使いのホスト名に置き換えてください）。",
+          "u_731d7f4d6a3d656fbb488e93_0": "サーバーの実行後、コンソールには、ネットワーク上の他のデバイスから使用できるアドレスを含め、アクセス可能なおおよそのアドレスが表示されます。"
+        },
+        "modelVersion": "gemini-3.5-flash-lite",
+        "usage": {
+          "promptTokenCount": 1461,
+          "candidatesTokenCount": 1105,
+          "totalTokenCount": 2566,
+          "promptTokensDetails": [
+            {
+              "modality": "TEXT",
+              "tokenCount": 1461
+            }
+          ],
+          "serviceTier": "standard"
+        }
+      }
     },
     {
       "key": "J1Bb6lVlwU5T_5850f428bfb485d6",
@@ -2325,7 +2894,27 @@
           "context": "Manually > TLS",
           "contextHash": "c3bde9d1775e3e02a6223db8ac12d5522142b2b55114621194a78f2ba9a0c5e9"
         }
-      ]
+      ],
+      "result": {
+        "key": "J1Bb6lVlwU5T_5850f428bfb485d6",
+        "translations": {
+          "u_bf284d5f6a2b43e62e6827fc_0": "TLS__TRILIUM_PH_0__",
+          "u_b49b88031813d9b275132e4e_0": "安全な利用に必須である__TRILIUM_PH_0__TLS の設定__TRILIUM_PH_1__を忘れないようにしてください。"
+        },
+        "modelVersion": "gemini-3.5-flash-lite",
+        "usage": {
+          "promptTokenCount": 441,
+          "candidatesTokenCount": 154,
+          "totalTokenCount": 595,
+          "promptTokensDetails": [
+            {
+              "modality": "TEXT",
+              "tokenCount": 441
+            }
+          ],
+          "serviceTier": "standard"
+        }
+      }
     },
     {
       "key": "DCmT6e7clMoP_422a4a717c6306dc",
@@ -2443,7 +3032,39 @@
           "context": "Using Kubernetes > How to install a chart",
           "contextHash": "501657529089d3af35aacb8d6d93e55814f00166ad6f9163a0763c67f0714d0d"
         }
-      ]
+      ],
+      "result": {
+        "key": "DCmT6e7clMoP_422a4a717c6306dc",
+        "translations": {
+          "u_9c5214a9bef24dcc5485ea3c_0": "Kubernetes の使用",
+          "u_b28c0d37131ebd1651b6499b_0": "Trilium は Docker で実行できるため、Kubernetes にデプロイすることも可能です。公式の Helm チャート、コミュニティ製の Helm チャートのいずれかを使用するか、独自の Kubernetes デプロイメントを構築してください。",
+          "u_9c4c3596d992c18402a43fb5_0": "推奨される方法は Helm チャートを使用することです。",
+          "u_6a8ea75662e6edfcb8918666_0": "root 権限__TRILIUM_PH_0__",
+          "u_6aa7d3b0693d98d8dc0f8476_0": "デフォルトでは、Trilium コンテナは root として起動し、データディレクトリの所有権を UID と GID __TRILIUM_PH_0__ に譲渡してから、権限を削減した状態で Trilium を実行します。そのため、権限を修正するための初期化コンテナは不要です。別の UID と GID を使用するには、__TRILIUM_PH_1__ および __TRILIUM_PH_2__ 環境変数を設定してください。",
+          "u_cf6f977bf299fa8e26743f32_0": "v0.107.0 以降では、__TRILIUM_PH_0__ Pod Security Standard で求められる非 root でのコンテナ実行も可能です。Kubernetes がボリュームをそのグループに割り当てるように、Pod のセキュリティコンテキストでユーザーと __TRILIUM_PH_1__ を設定してください：",
+          "u_8ecb6cf285eeb5864261b60d_0": "そのモードでは、__TRILIUM_PH_0__ と __TRILIUM_PH_1__ は無視されます。データディレクトリに必要な要件については、__TRILIUM_PH_2__Docker の使用__TRILIUM_PH_3__ の非 root ユーザーとしての実行に関するセクションを参照してください。",
+          "u_5c76dc2c0eb92fd8a07d5bc4_0": "Helm チャート__TRILIUM_PH_0__",
+          "u_74c1fe9ff4a77682ba222574_0": "__TRILIUM_PH_0__公式 Helm チャート__TRILIUM_PH_1__ (TriliumNext 製)、__TRILIUM_PH_2__ohdearaugustin__TRILIUM_PH_3__ による非公式 Helm チャート：__TRILIUM_PH_4__https://github.com/ohdearaugustin/charts__TRILIUM_PH_5__",
+          "u_99f6a572b6f991e1806171a8_0": "Helm リポジトリの追加__TRILIUM_PH_0__",
+          "u_8490dd2168739be9426ab15a_0": "以下は、その方法の例です",
+          "u_d7ffaf6c06f095c4f14d2093_0": "チャートのインストール方法__TRILIUM_PH_0__",
+          "u_3ef4bc2c613e950805537607_0": "Helm チャートから __TRILIUM_PH_0____TRILIUM_PH_1____TRILIUM_PH_2__ を確認し、必要に応じて変更を加えた上で、独自のものを作成します：",
+          "u_176bc7f3ed769314207b184b_0": "Helm の使用方法の詳細については、Helm のドキュメントを参照するか、TriliumNext GitHub 組織でディスカッションを作成してください。"
+        },
+        "modelVersion": "gemini-3.5-flash-lite",
+        "usage": {
+          "promptTokenCount": 1343,
+          "candidatesTokenCount": 998,
+          "totalTokenCount": 2341,
+          "promptTokensDetails": [
+            {
+              "modality": "TEXT",
+              "tokenCount": 1343
+            }
+          ],
+          "serviceTier": "standard"
+        }
+      }
     },
     {
       "key": "klCWNks3ReaQ_2cb226a2960a8e93",
@@ -2521,7 +3142,34 @@
           "context": "Multiple server instances",
           "contextHash": "47a618f02062622db30d2cdf22281cb8b0ae4b21583dc4ba46635ac1f55db13b"
         }
-      ]
+      ],
+      "result": {
+        "key": "klCWNks3ReaQ_2cb226a2960a8e93",
+        "translations": {
+          "u_c1b0459bded4580930e36a7c_0": "複数のサーバーインスタンス",
+          "u_03bd4dda9f80f717c4dc07d4_0": "Triliumはマルチユーザーをサポートしていません。2人以上のユーザーがそれぞれ自分のノートセットを持つには、複数のサーバーインスタンスを設定する必要があります。また、複数の__TRILIUM_PH_0__sync__TRILIUM_PH_1__サーバーを使用することもできません。",
+          "u_4ba5264091a2ebe76ecefc90_0": "1台の物理サーバー上で複数のサーバーインスタンスを稼働させるには：",
+          "u_99f0a4957ff0cd3859bb8d75_0": "__TRILIUM_PH_0__Linux向けパッケージ版__TRILIUM_PH_1__または__TRILIUM_PH_2__手動インストール__TRILIUM_PH_3__の場合、サーバーを手動で起動する際にインスタンスごとに異なるポートとデータディレクトリを指定してください。",
+          "u_9b72cd7a60dab08438b13761_0": "2つ目のインスタンスの場合：",
+          "u_26b69e3407dd2674011eb917_0": "__TRILIUM_PH_0__を使用する場合は、__TRILIUM_PH_1__サービス設定で環境変数を設定__TRILIUM_PH_2__してください。",
+          "u_2732bfc0cd96e0df8cbec000_0": "__TRILIUM_PH_0__Dockerを使用する場合__TRILIUM_PH_1__は、それぞれ独自のポートバインディングとデータディレクトリを持つ2つの異なるコンテナを使用するだけです。",
+          "u_fb2cc9048feae56579a6a9dd_0": "__TRILIUM_PH_0__NixOSの場合__TRILIUM_PH_1__、唯一可能な方法はDocker OCIコンテナを使用するか、独自のサービス定義を持つ少なくとも1つのNixOSコンテナを使用することです。",
+          "u_b2c3d31432d2e8f64785c3c0_0": "サポートや追加のコンテキストについては、関連する__TRILIUM_PH_0__GitHubディスカッション__TRILIUM_PH_1__をご覧ください。"
+        },
+        "modelVersion": "gemini-3.5-flash-lite",
+        "usage": {
+          "promptTokenCount": 946,
+          "candidatesTokenCount": 622,
+          "totalTokenCount": 1568,
+          "promptTokensDetails": [
+            {
+              "modality": "TEXT",
+              "tokenCount": 946
+            }
+          ],
+          "serviceTier": "standard"
+        }
+      }
     },
     {
       "key": "Dgg7bR3b6K9j_d49e403fce27492e",
@@ -2535,7 +3183,26 @@
           "context": "1. Installing the server",
           "contextHash": "a77afff66a1b141a202ff1d45e1aaebcfe6652a14c3abf0289acee3fa387bee2"
         }
-      ]
+      ],
+      "result": {
+        "key": "Dgg7bR3b6K9j_d49e403fce27492e",
+        "translations": {
+          "u_ee308a8b9dfa10d8627b9e7e_0": "1. サーバーのインストール"
+        },
+        "modelVersion": "gemini-3.5-flash-lite",
+        "usage": {
+          "promptTokenCount": 364,
+          "candidatesTokenCount": 84,
+          "totalTokenCount": 448,
+          "promptTokensDetails": [
+            {
+              "modality": "TEXT",
+              "tokenCount": 364
+            }
+          ],
+          "serviceTier": "standard"
+        }
+      }
     },
     {
       "key": "ud6MShXL4WpO_8f78f3de94a172f4",
@@ -2645,7 +3312,38 @@
           "context": "Nginx > Configuring the trusted proxy",
           "contextHash": "036b6616f4ae55e2034dd29c0f052270c61dc35bca522056aa527b9d0652ecd1"
         }
-      ]
+      ],
+      "result": {
+        "key": "ud6MShXL4WpO_8f78f3de94a172f4",
+        "translations": {
+          "u_0e4e6581956c82ff9132cfa7_0": "Nginx",
+          "u_e17328ab5aff209295b53d6c_0": "NginxプロキシとHTTPSを設定します。ここでのオペレーティングシステムはUbuntuです。",
+          "u_a3b9986fcdbd3bc3f2be9c25_0": "Nginxのインストール__TRILIUM_PH_0__",
+          "u_df10c3c6c21a57eed42bbbff_0": "Nginxをダウンロードし、Apache2を削除します",
+          "u_adb542a355c4a1b89be9b2c1_0": "設定ファイルの作成__TRILIUM_PH_0__",
+          "u_7fe7840c014f6aba21846a62_0": "まず、設定ファイルを作成します：",
+          "u_38c60fdbb7fdbe45fa78a8e2_0": "ファイルに以下の内容を入力します（設定の一部を変更する必要があります）。これにより、HTTPSとプロキシが強制されたWeb環境を利用できるようになります。",
+          "u_5c00981ab6b1b2c9a7cda45a_0": "別のパスでの公開__TRILIUM_PH_0__",
+          "u_ff32f4ba95db35fa242e2681_0": "あるいは、別のパスでインスタンスを公開したい場合（複数のインスタンスを公開する場合などに便利です）、locationブロックを次のように更新します：",
+          "u_7fbc09ee5088bb77fdd3abc5_0": "__TRILIUM_PH_0__がスラッシュで終わっていない場合は、末尾にスラッシュ「/」を残さないように注意しながら、locationをご希望のパスに更新してください。",
+          "u_7f4f8b439b266082792cdde5_0": "同じパスを指定した__TRILIUM_PH_0__ディレクティブを追加します。これにより、複数のインスタンスに同時にログインした状態を維持できます。",
+          "u_f388e3c6d00390fb5d1a2bee_0": "信頼されたプロキシの設定__TRILIUM_PH_0__",
+          "u_eb793f34abab86a34eac1820_0": "リバースプロキシを設定した後は、必ず __TRILIUM_PH_0__Trusted proxy__TRILIUM_PH_1__を設定してください。"
+        },
+        "modelVersion": "gemini-3.5-flash-lite",
+        "usage": {
+          "promptTokenCount": 1084,
+          "candidatesTokenCount": 690,
+          "totalTokenCount": 1774,
+          "promptTokensDetails": [
+            {
+              "modality": "TEXT",
+              "tokenCount": 1084
+            }
+          ],
+          "serviceTier": "standard"
+        }
+      }
     },
     {
       "key": "fDLvzOx29Pfg_f4f695aed228574e",
@@ -2779,7 +3477,41 @@
           "context": "Apache using Docker > Setup the systemd service to start up the server",
           "contextHash": "a31cb5231b39246803771db6cc57f50ba01e088f74ad1f3500eea189587819c6"
         }
-      ]
+      ],
+      "result": {
+        "key": "fDLvzOx29Pfg_f4f695aed228574e",
+        "translations": {
+          "u_d1754997778ef2299bb63e6b_0": "Dockerを使用したApache",
+          "u_dbd524a769cc75b6b42f09ad_0": "このチュートリアルでは、Triliumサーバーで使用する __TRILIUM_PH_0__ のDNS Aレコードを作成していることを前提としています。",
+          "u_6d6ab9d14e9c9e49dbc4a6ab_0": "Dockerのセットアップ__TRILIUM_PH_0__",
+          "u_a34af0746f965b88f01fc3be_0": "Dockerイメージのダウンロードとコンテナの作成",
+          "u_1f4816ac18207607fb637c00_0": "Apacheプロキシの設定__TRILIUM_PH_0__",
+          "u_090dec844408403f70966460_0": "Apacheプロキシモジュールを有効にする",
+          "u_9f61b544222f6fdfad166a40_0": "新しいLet's Encrypt証明書を作成する",
+          "u_0c153403f6d7d29496202afa_0": "standalone（2）を選択し、作成された証明書の場所（通常は /etc/letsencrypt/live/...）をメモします",
+          "u_217bd3a163fd6066e0c620ca_0": "Apache用の新しいバーチャルホストファイルを作成します（サーバーのルートディレクトリを確認するために __TRILIUM_PH_0__ を使用するとよいでしょう。私の場合は /etc/apache2 です）",
+          "u_fe4627e442745e3f1827b62d_0": "次のテキストを構成ファイルに貼り付けます（必要に応じてカスタマイズしてください）",
+          "u_e92553323db18c388394bb08_0": "__TRILIUM_PH_0__ を使用してバーチャルホストを有効にします",
+          "u_ece1136e96ee98d23f30e333_0": "__TRILIUM_PH_0__ で apache2 を再読み込みします",
+          "u_f388e3c6d00390fb5d1a2bee_0": "信頼されたプロキシの設定__TRILIUM_PH_0__",
+          "u_eb793f34abab86a34eac1820_0": "リバースプロキシを設定した後は、必ず __TRILIUM_PH_0__信頼されたプロキシ__TRILIUM_PH_1__ を設定してください。",
+          "u_fced7cd00a3628377cafec9f_0": "サーバーを起動するためのsystemdサービスのセットアップ__TRILIUM_PH_0__",
+          "u_4e0e082eaa774e6439246f57_0": "起動時にDockerコンテナを開始するためのsystemdサービスを作成し、有効にします"
+        },
+        "modelVersion": "gemini-3.5-flash-lite",
+        "usage": {
+          "promptTokenCount": 1250,
+          "candidatesTokenCount": 760,
+          "totalTokenCount": 2010,
+          "promptTokensDetails": [
+            {
+              "modality": "TEXT",
+              "tokenCount": 1250
+            }
+          ],
+          "serviceTier": "standard"
+        }
+      }
     },
     {
       "key": "fDLvzOx29Pfg_69e88f11bd240b3e",
@@ -2801,7 +3533,27 @@
           "context": "Apache using Docker > Setup the systemd service to start up the server",
           "contextHash": "a31cb5231b39246803771db6cc57f50ba01e088f74ad1f3500eea189587819c6"
         }
-      ]
+      ],
+      "result": {
+        "key": "fDLvzOx29Pfg_69e88f11bd240b3e",
+        "translations": {
+          "u_387b820e0f5246bc08feee87_0": "__TRILIUM_PH_0__ という名前の新しい空のファイルを、以下の内容で作成します。",
+          "u_f71f8fe6e4812a120077e165_0": "サービスのインストール、有効化、および起動を行います。"
+        },
+        "modelVersion": "gemini-3.5-flash-lite",
+        "usage": {
+          "promptTokenCount": 439,
+          "candidatesTokenCount": 120,
+          "totalTokenCount": 559,
+          "promptTokensDetails": [
+            {
+              "modality": "TEXT",
+              "tokenCount": 439
+            }
+          ],
+          "serviceTier": "standard"
+        }
+      }
     },
     {
       "key": "LLzSMXACKhUs_4491ded10a2a33d3",
@@ -2935,7 +3687,41 @@
           "context": "Trusted proxy > Configuring the trusted proxy",
           "contextHash": "b29bb46ecf90c968d1eef13e6645709c91fb082894bfa4d8f17edf1e48d06efc"
         }
-      ]
+      ],
+      "result": {
+        "key": "LLzSMXACKhUs_4491ded10a2a33d3",
+        "translations": {
+          "u_88221245c85ac64574e3ed6b_0": "信頼されたプロキシ",
+          "u_b7fae963cb1f5b8c6793dd24_0": "Triliumサーバーを__TRILIUM_PH_0__リバースプロキシ__TRILIUM_PH_1__配下で実行している場合は、アプリケーションがクライアントの実際のIPアドレスを正しく識別できるように、信頼されたプロキシとして設定することが重要です。Triliumは、そのアドレスを__TRILIUM_PH_2__総当たり攻撃からの保護__TRILIUM_PH_3__、ログ内のサインイン失敗エントリ、および接続がHTTPS経由で行われたかどうかの検出に使用します。",
+          "u_7c9bb348a470e8e2b811766b_0": "この設定を行わないと、すべてのリクエストがリバースプロキシからのものとして表示されるため、すべてのクライアントがサインイン失敗の試行回数に関する制限を共有することになります。",
+          "u_f388e3c6d00390fb5d1a2bee_0": "信頼されたプロキシの設定__TRILIUM_PH_0__",
+          "u_adf100cc22aaa2ea55f1de0d_0": "リバースプロキシを信頼するには、__TRILIUM_PH_0__設定（config.iniまたは環境変数）__TRILIUM_PH_1__を修正し、__TRILIUM_PH_2__にリバースプロキシがTriliumへ接続する際のアドレスを設定します。",
+          "u_53ffcac66729bd06ba051385_0": "値は、カンマ区切りのIPアドレス、CIDR表記のサブネット、または以下のいずれかの名前です。",
+          "u_35c0bf70ca5d522e8ba978b6_0": "名前",
+          "u_9beb035b2694dac816b8ed37_0": "アドレス",
+          "u_0a21de8c93afbce9b0583aa8_0": "__TRILIUM_PH_0__, __TRILIUM_PH_1__",
+          "u_0a21de8c93afbce9b0583aa8_1": "__TRILIUM_PH_0__, __TRILIUM_PH_1__",
+          "u_be6c0a47642cdd4ef34f1341_0": "__TRILIUM_PH_0__, __TRILIUM_PH_1__, __TRILIUM_PH_2__, __TRILIUM_PH_3__",
+          "u_fb4653ca96786ef0b39dc051_0": "次にTriliumは、__TRILIUM_PH_0__ヘッダーからクライアントのアドレスを読み取ります。その際、信頼されたアドレスに属さない最も右側のエントリを採用します。クライアントがヘッダーに追加したエントリはプロキシが追加したエントリの左側にあるため、無視されます。",
+          "u_44c6e0c5f84805eefe60ffd4_0": "一般的なセットアップ：",
+          "u_9a4e97b521609d861267870c_0": "__TRILIUM_PH_0__リバースプロキシが同じマシン上で実行されている場合__TRILIUM_PH_1__：__TRILIUM_PH_2__を使用します。",
+          "u_74c66c5a80b454e7bcc03293_0": "__TRILIUM_PH_0__TriliumがDocker内で実行されており、リバースプロキシがホスト上または別のコンテナにある場合__TRILIUM_PH_1__：Dockerネットワークのサブネット（例：__TRILIUM_PH_2__）、またはすべてのDockerネットワークをカバーする__TRILIUM_PH_3__を使用します。環境変数の場合：__TRILIUM_PH_4__。",
+          "u_ec32fed8af0b54ad0e9eb0d8_0": "__TRILIUM_PH_0__リバースプロキシが別のマシン上で実行されている場合__TRILIUM_PH_1__：そのIPアドレスを使用します。"
+        },
+        "modelVersion": "gemini-3.5-flash-lite",
+        "usage": {
+          "promptTokenCount": 1469,
+          "candidatesTokenCount": 1099,
+          "totalTokenCount": 2568,
+          "promptTokensDetails": [
+            {
+              "modality": "TEXT",
+              "tokenCount": 1469
+            }
+          ],
+          "serviceTier": "standard"
+        }
+      }
     },
     {
       "key": "LLzSMXACKhUs_37f368a242111ee2",
@@ -2965,7 +3751,28 @@
           "context": "Trusted proxy > Configuring the trusted proxy",
           "contextHash": "b29bb46ecf90c968d1eef13e6645709c91fb082894bfa4d8f17edf1e48d06efc"
         }
-      ]
+      ],
+      "result": {
+        "key": "LLzSMXACKhUs_37f368a242111ee2",
+        "translations": {
+          "u_a5003b3c79dd5947a5817a79_0": "リバースプロキシの接続元アドレスのみをリストしてください。信頼されたアドレスから接続するすべてのクライアントは、__TRILIUM_PH_0__ ヘッダーを通じて別のクライアントであると偽る可能性があります。これは __TRILIUM_PH_1__ のような広範な値の場合に重要となります。ローカルネットワーク上のデバイスも Trilium に直接アクセスできる場合は、プロキシの正確なアドレスを使用してください。",
+          "u_caf0bfd002f08eff8fd60d6d_0": "__TRILIUM_PH_0__ の設定は避けてください。これにより、プロキシが受信ヘッダーを破棄しない限り、Trilium はクライアントが送信した値である __TRILIUM_PH_1__ の一番左のエントリを使用するようになります。プロキシは通常、代わりに値を追加するため（Nginx の __TRILIUM_PH_2__ など）、クライアントはリクエストごとに異なるアドレスを送信し、ログイン失敗回数の制限を回避することができます。",
+          "u_7f9327b7b10d7260d22bb05a_0": "詳細については、__TRILIUM_PH_0__Express behind proxies__TRILIUM_PH_1__ を参照してください。"
+        },
+        "modelVersion": "gemini-3.5-flash-lite",
+        "usage": {
+          "promptTokenCount": 634,
+          "candidatesTokenCount": 357,
+          "totalTokenCount": 991,
+          "promptTokensDetails": [
+            {
+              "modality": "TEXT",
+              "tokenCount": 634
+            }
+          ],
+          "serviceTier": "standard"
+        }
+      }
     },
     {
       "key": "5ERVJb9s4FRD_917a8083400d418e",
@@ -3075,7 +3882,38 @@
           "context": "Traefik > Breaking change in Traefik 3.6.4 > Example docker-compose.yaml",
           "contextHash": "37833abf13ba18ae7750c0669a4da7d6f59290e2cbcad30bbd6cc5c1da0170d0"
         }
-      ]
+      ],
+      "result": {
+        "key": "5ERVJb9s4FRD_917a8083400d418e",
+        "translations": {
+          "u_bb9f301d09994fc47bec07c4_0": "Traefik",
+          "u_d70285f838d69c8dc8a20ca1_0": "この記事の目的は、TraefikプロキシとHTTPSを設定することです。参照先として __TRILIUM_PH_0__#7768__TRILIUM_PH_1__ をご覧ください。",
+          "u_a3a471954a7cf9add6855232_0": "Traefik 3.6.4における破壊的変更__TRILIUM_PH_0__",
+          "u_8171e79b1dbcea07101316e5_0": "Traefik 3.6.4では、URL内のパーセントエンコードされた文字の処理方法に関して __TRILIUM_PH_0__破壊的変更__TRILIUM_PH_1__ が導入されました。Triliumは画像や添付ファイルのタイトルをそのURLパスに含めるため、タイトルに __TRILIUM_PH_2__ または __TRILIUM_PH_3__ を含むものは __TRILIUM_PH_4__ のようなパスでリクエストされます。TraefikはこれらのパスをHTTP 400で拒否するため、画像が読み込まれません。検索はクエリパラメータでテキストを送信するため、影響を受けません。",
+          "u_7405eba904096dcb53973406_0": "最も簡単な解決策は、この設定変更を元に戻すTraefik 3.6.7以降にアップデートすることです。または、以下のセクションに従って設定を変更することもできます。",
+          "u_0b53cc80da467614dd3578d3_0": "設定の変更",
+          "u_9276cb8c76e295ec3727c3de_0": "これを解決するには、それらの文字を許可するためにTraefikの __TRILIUM_PH_0____TRILIUM_PH_1__static__TRILIUM_PH_2__ 設定__TRILIUM_PH_3__ を変更する必要があります。",
+          "u_0b2bd4e8884753d60f088063_0": "それでも画像が読み込まれない場合は、より多くのエンコードされた文字グループを有効にする必要がある場合があります。詳細については、__TRILIUM_PH_0__関連するGitHubのissue__TRILIUM_PH_1__ を参照してください。見つかった結果を気軽に報告してください。",
+          "u_ea43c5e280f90e688219ec14_0": "docker-composeファイルの構築__TRILIUM_PH_0__",
+          "u_17ec7538ec91f37540ff64d3_0": "リバースプロキシとしてTraefikを設定するには、次のラベルを設定する必要があります。",
+          "u_cfb6c25b12dae4daed5698bf_0": "必要な環境変数の設定__TRILIUM_PH_0__",
+          "u_eb793f34abab86a34eac1820_0": "リバースプロキシを設定した後は、必ず __TRILIUM_PH_0__信頼できるプロキシ__TRILIUM_PH_1__ を設定してください。",
+          "u_782807133d99686f951f7bc1_0": "例 __TRILIUM_PH_0____TRILIUM_PH_1__"
+        },
+        "modelVersion": "gemini-3.5-flash-lite",
+        "usage": {
+          "promptTokenCount": 1413,
+          "candidatesTokenCount": 857,
+          "totalTokenCount": 2270,
+          "promptTokensDetails": [
+            {
+              "modality": "TEXT",
+              "tokenCount": 1413
+            }
+          ],
+          "serviceTier": "standard"
+        }
+      }
     },
     {
       "key": "vcjrb3VVYPZI_bbf5a0affe0f5897",
@@ -3209,7 +4047,41 @@
           "context": "2. Reverse proxy > Putting an authentication proxy in front of Trilium",
           "contextHash": "d5cd0178ac9b637fda10958b5fd2ae74618a20df74874ddce217ccea6515c802"
         }
-      ]
+      ],
+      "result": {
+        "key": "vcjrb3VVYPZI_bbf5a0affe0f5897",
+        "translations": {
+          "u_2da59b27e14a35a42819617b_0": "2. リバースプロキシ",
+          "u_f091ed465002b4e16c1fa636_0": "Triliumは通常、__TRILIUM_PH_0__リバースプロキシ__TRILIUM_PH_1__の背後でインターネットに公開されます。リバースプロキシはTLS終了を処理し、単一のパブリックなエントリーポイントを提供し、（オプションで）1つのドメインの下で複数のインスタンスをホストできるようにします。Trilium自体はローカルポート上で平文のHTTPで実行され続け、プロキシはその手前に配置されます。",
+          "u_f090c7505b29101096cef43e_0": "このセクションでは、プロキシ固有のガイドと、使用するプロキシに関係なく適用される設定について説明します。",
+          "u_26a4bec965f2b3114f14c8a1_0": "プロバイダーガイド__TRILIUM_PH_0__",
+          "u_368360ec1bd6c439df083c13_0": "__TRILIUM_PH_0__Nginx__TRILIUM_PH_1__",
+          "u_14baeb4324cbc24375b337f2_0": "__TRILIUM_PH_0__Traefik__TRILIUM_PH_1__",
+          "u_bc0a3dc7b8597438a2ae7f6d_0": "__TRILIUM_PH_0__Dockerを使用したApache__TRILIUM_PH_1__",
+          "u_4622c3f2733e7adf668edf16_0": "すべてのプロキシに共通する事項__TRILIUM_PH_0__",
+          "u_227c5e1fa26ecd713e35a617_0": "選択するプロキシに関係なく、以下の点を確認してください。",
+          "u_c85faadeff4adb64fa8454cf_0": "__TRILIUM_PH_0__WebSocketのアップグレードを転送します。__TRILIUM_PH_1__ Triliumは同期とライブUI更新にWebSocketを使用します。プロキシは__TRILIUM_PH_2__および__TRILIUM_PH_3__ヘッダーを通過させる必要があります。そうしないと、クライアントは読み込まれているように見えても更新を受信しません。",
+          "u_c9b8b5256f5feb6877b6a386_0": "__TRILIUM_PH_0__信頼されたプロキシを設定します。__TRILIUM_PH_1__ これにより、プロキシのアドレスではなく、実際のクライアントIP（レート制限、ログ記録、セキュアなCookie用）がTriliumに認識されます。__TRILIUM_PH_2__信頼されたプロキシ__TRILIUM_PH_3__を参照してください。",
+          "u_8062f1f98d52ab2c71845662_0": "__TRILIUM_PH_0__プロキシでTLSを終了させます。__TRILIUM_PH_1__ __TRILIUM_PH_2__HTTPS (TLS)__TRILIUM_PH_3__を参照してください。",
+          "u_633cf0b19b9bf74130f95b7e_0": "Triliumの手前に認証プロキシを配置する場合__TRILIUM_PH_0__",
+          "u_5b048c9ce739859d9c11c10d_0": "セットアップによっては、__TRILIUM_PH_0__フォワード認証 / SSOレイヤー__TRILIUM_PH_1__（Authelia、Authentik、oauth2-proxy、またはOIDCプラグイン）をプロキシに配置し、__TRILIUM_PH_2__すべての__TRILIUM_PH_3__リクエストが最初にインタラクティブなログインを通過するようにするものもあります。",
+          "u_9f87e19042899e1047ca84ed_0": "これにより、__TRILIUM_PH_0__同期と初期セットアップが中断されます。__TRILIUM_PH_1__ 同期はバックグラウンドで無人で実行されるマシン間プロセスであり、ブラウザを持たないため、インタラクティブなログインチャレンジを完了できません。プロキシが同期リクエストをインターセプトすると、想定されるJSONの代わりにHTMLログインページを返し、クライアントは次のようなエラーで失敗します。",
+          "u_e1c2354765f0ff36ceafa0bb_0": "これを解決するには2つの方法があります。"
+        },
+        "modelVersion": "gemini-3.5-flash-lite",
+        "usage": {
+          "promptTokenCount": 1581,
+          "candidatesTokenCount": 1195,
+          "totalTokenCount": 2776,
+          "promptTokensDetails": [
+            {
+              "modality": "TEXT",
+              "tokenCount": 1581
+            }
+          ],
+          "serviceTier": "standard"
+        }
+      }
     },
     {
       "key": "vcjrb3VVYPZI_58a447aee49cf234",
@@ -3247,7 +4119,29 @@
           "context": "2. Reverse proxy > Putting an authentication proxy in front of Trilium",
           "contextHash": "d5cd0178ac9b637fda10958b5fd2ae74618a20df74874ddce217ccea6515c802"
         }
-      ]
+      ],
+      "result": {
+        "key": "vcjrb3VVYPZI_58a447aee49cf234",
+        "translations": {
+          "u_9e47ec59fab4735c6794797a_0": "__TRILIUM_PH_0__推奨：Triliumの内蔵認証を使用してください。__TRILIUM_PH_1__ プロキシ側でTriliumにアクセス制限をかけないでください。Triliumは、__TRILIUM_PH_2__OpenID Connect__TRILIUM_PH_3__ を介したものを含め、Webインターフェースの認証を自身で行うことができます。これにより、同期エンドポイントは本来の設計通りに認証を行うことができます。",
+          "u_51ae4a4d0775f62396950382_0": "__TRILIUM_PH_0__同期エンドポイントをプロキシの認証から除外する。__TRILIUM_PH_1__ どうしてもプロキシで認証を維持する必要がある場合は、フォワード認証のチェックから以下のパスを除外してください：",
+          "u_6fc5f2221d11e6258d37e2a8_0": "これは安全です。Triliumはこれらのエンドポイントの認証を自身で行います。同期には共有シークレットに基づくチャレンジフリーのHMACハンドシェイクが使用され、1回限りのセットアップ用シードリクエストはパスワードで保護されているため、プロキシでこれらを除外しても、認証されていないアクセスにデータがさらされることはありません。",
+          "u_40f24cfca7fed7d255f13be1_0": "Nginxの例です。__TRILIUM_PH_0__ はフォワード認証のエンドポイントです："
+        },
+        "modelVersion": "gemini-3.5-flash-lite",
+        "usage": {
+          "promptTokenCount": 725,
+          "candidatesTokenCount": 418,
+          "totalTokenCount": 1143,
+          "promptTokensDetails": [
+            {
+              "modality": "TEXT",
+              "tokenCount": 725
+            }
+          ],
+          "serviceTier": "standard"
+        }
+      }
     },
     {
       "key": "l2VkvOwUNfZj_3ad8b6855a504eef",
@@ -3381,7 +4275,8 @@
           "context": "HTTPS (TLS) > Self-Signed Certificate",
           "contextHash": "5d653bae723711e88f498ed6a18f57c1176c5bbeabc8b4e06ed47404d7fbaf66"
         }
-      ]
+      ],
+      "error": "Missing or invalid batch response"
     },
     {
       "key": "l2VkvOwUNfZj_ef8c4d39b05b68f4",
@@ -3395,7 +4290,26 @@
           "context": "HTTPS (TLS) > Self-Signed Certificate",
           "contextHash": "5d653bae723711e88f498ed6a18f57c1176c5bbeabc8b4e06ed47404d7fbaf66"
         }
-      ]
+      ],
+      "result": {
+        "key": "l2VkvOwUNfZj_ef8c4d39b05b68f4",
+        "translations": {
+          "u_e987b127572ed7b317e92bf4_0": "__TRILIUM_PH_0__警告__TRILIUM_PH_1__: TLS証明書の検証を無効化することは安全ではありません。影響を十分に理解している場合にのみ進めてください。"
+        },
+        "modelVersion": "gemini-3.5-flash-lite",
+        "usage": {
+          "promptTokenCount": 397,
+          "candidatesTokenCount": 116,
+          "totalTokenCount": 513,
+          "promptTokensDetails": [
+            {
+              "modality": "TEXT",
+              "tokenCount": 397
+            }
+          ],
+          "serviceTier": "standard"
+        }
+      }
     },
     {
       "key": "lwAX5SvbrK2g_912c8a174c176c85",
@@ -3529,7 +4443,8 @@
           "context": "Resetting your password > By altering the database",
           "contextHash": "22003ee7eb6396af4605952a63f8e5b0e727ab21107382cec64094e0fc106895"
         }
-      ]
+      ],
+      "error": "Missing or invalid batch response"
     },
     {
       "key": "lwAX5SvbrK2g_7457ea61e2d14aa8",
@@ -3567,7 +4482,29 @@
           "context": "Resetting your password > Handling protected notes",
           "contextHash": "1d77de6f7d5a9c53888a51fdb66f049d198c4c88fcc19c3f6cdf53286ca25f95"
         }
-      ]
+      ],
+      "result": {
+        "key": "lwAX5SvbrK2g_7457ea61e2d14aa8",
+        "translations": {
+          "u_63df001ad32bbaae6609cec0_0": "__TRILIUM_PH_0__Options__TRILIUM_PH_1__ → __TRILIUM_PH_2__Password__TRILIUM_PH_3__ → __TRILIUM_PH_4__Change password__TRILIUM_PH_5__ に移動し、安全ではないパスワードを置き換えます。",
+          "u_5282b0509ff86000418e6bfd_0": "保護されたノートの扱い__TRILIUM_PH_0__",
+          "u_31ce62011f8c0f7005c20df0_0": "パスワードがリセットされた場合、保護されたノートはあなたのパスワードで暗号化されているためTriliumで復元する方法がなく、完全に失われます。",
+          "u_5556430d6eb3566c53c6c90c_0": "（現在復元不可能となっている）既存の保護されたノートについては、削除するか、保護されていないノートをエクスポートすることを検討してください。その後、__TRILIUM_PH_0__ を削除して新しくやり直してください。"
+        },
+        "modelVersion": "gemini-3.5-flash-lite",
+        "usage": {
+          "promptTokenCount": 642,
+          "candidatesTokenCount": 332,
+          "totalTokenCount": 974,
+          "promptTokensDetails": [
+            {
+              "modality": "TEXT",
+              "tokenCount": 642
+            }
+          ],
+          "serviceTier": "standard"
+        }
+      }
     },
     {
       "key": "0hzsNCP31IAB_24728057a01a7853",
@@ -3701,7 +4638,8 @@
           "context": "Authentication > Brute-force protection > Blocking repeated failures with fail2ban",
           "contextHash": "48c3591260f1e0d5b85406a000565ed3e630abb0e35f6ea8533c84eb76c87c83"
         }
-      ]
+      ],
+      "error": "Missing or invalid batch response"
     },
     {
       "key": "0hzsNCP31IAB_8583699ccce0cc53",
@@ -3811,7 +4749,8 @@
           "context": "Authentication > See also",
           "contextHash": "aa93bf70ddc427517f6a47304ff6e1428ab654398183f8c8c3fe9656f251b4f6"
         }
-      ]
+      ],
+      "error": "Missing or invalid batch response"
     },
     {
       "key": "7DAiwaf8Z7Rz_3bd51cf4df8ceac1",
@@ -3945,7 +4884,8 @@
           "context": "Multi-factor authentication with TOTP > Signing in",
           "contextHash": "9240bdab2a5641a10d2f573f6aeb6f141067acc93561f063e99447ce54932aea"
         }
-      ]
+      ],
+      "error": "Missing or invalid batch response"
     },
     {
       "key": "7DAiwaf8Z7Rz_2560dd8a607242d0",
@@ -4063,7 +5003,8 @@
           "context": "Multi-factor authentication with TOTP > Recovery codes",
           "contextHash": "8b6c3ad1c3e2165f9547d3b6dd15f9a4e5cf9953b204244c7efa0ba3ef331bcb"
         }
-      ]
+      ],
+      "error": "Missing or invalid batch response"
     },
     {
       "key": "IgkTHSaFfq6A_bf64e83ab9cbaf54",
@@ -4197,7 +5138,8 @@
           "context": "Setting up with various providers",
           "contextHash": "aed08d32912b31afd0bf72269d029e5f61b7e7e28478d8173d1d5b12d597f744"
         }
-      ]
+      ],
+      "error": "Missing or invalid batch response"
     },
     {
       "key": "IgkTHSaFfq6A_c0469699792d6ca6",
@@ -4331,7 +5273,41 @@
           "context": "Setting up with various providers",
           "contextHash": "aed08d32912b31afd0bf72269d029e5f61b7e7e28478d8173d1d5b12d597f744"
         }
-      ]
+      ],
+      "result": {
+        "key": "IgkTHSaFfq6A_c0469699792d6ca6",
+        "translations": {
+          "u_3e6f4c82c1e7b19ef7f850fa_0": "__TRILIUM_PH_0__Confidential__TRILIUM_PH_1__ にチェックが入っており、__TRILIUM_PH_2__Device authorization grant__TRILIUM_PH_3__ のチェックが外されていることを確認してください。",
+          "u_9d641a6cc13ee1b06e6f34ad_0": "スコープ（Scopes）の下にある __TRILIUM_PH_0__openid__TRILIUM_PH_1__、__TRILIUM_PH_2__profile__TRILIUM_PH_3__、__TRILIUM_PH_4__email__TRILIUM_PH_5__ にチェックを入れます（通常、リストの終盤にあります）。",
+          "u_49156c2674670116a176eab2_0": "アプリケーションを保存し、__TRILIUM_PH_0__Application ID__TRILIUM_PH_1__ と __TRILIUM_PH_2__Secret__TRILIUM_PH_3__ をコピーします。",
+          "u_fa41bfc34e48d1181f64640f_0": "__TRILIUM_PH_0__ を次のように調整します。__TRILIUM_PH_1__ と __TRILIUM_PH_2__ には前の手順の値を使用し、__TRILIUM_PH_3__ にはご自身の Trilium インスタンスの URL を指定します。",
+          "u_a87793174308160111a7b4a1_0": "セルフホスト版の GitLab を使用している場合は、__TRILIUM_PH_0__ も必ず更新し、上記の __TRILIUM_PH_1__ 行を維持してください。",
+          "u_69ec290769b8cf1e85598728_0": "GitLab のトークンエンドポイントは HTTP Basic で送信された資格情報をデコードしないため、__TRILIUM_PH_0__ がないとサインインが __TRILIUM_PH_1__ エラーで失敗します。Trilium は __TRILIUM_PH_2__ に対してこれを自動的に適用しますが、セルフホストの発行者 URL は検出できません。",
+          "u_9c70c3a1abf730d0bbf54e7d_0": "Kanidm",
+          "u_9627d424821d9349499c2580_0": "クライアントを作成し、リダイレクト URL を追加してスコープを付与します。__TRILIUM_PH_0__ はお使いの Trilium インスタンスの URL に、__TRILIUM_PH_1__ はサインインが許可されるメンバーを含む既存の Kanidm グループに置き換えてください。",
+          "u_a2284de67fc7ad3870884006_0": "__TRILIUM_PH_0__ スコープは必須です。これがないと、Kanidm はクライアントを通常の OAuth 2.0 として扱います。",
+          "u_c17b643cf7580fb3c90a74d3_0": "クライアントシークレットを読み取ります:",
+          "u_a1301ad219c1b25f4fc351a0_0": "__TRILIUM_PH_0__ を次のように調整します。__TRILIUM_PH_1__ には Kanidm インスタンスの URL を、__TRILIUM_PH_2__ にはステップ 2 の値を指定します。",
+          "u_cfc46f3ed7e4a01d6dff88cb_0": "ステップ 1 で選択したクライアント名は、クライアント ID であると同時に発行者 URL の最後のパスセグメントでもあるため、両者が一致している必要があります。",
+          "u_a9f230d45d3eaad30c2a7609_0": "Kanidm は ID トークンの署名に RS256 ではなく ES256 を使用します。Trilium は v0.105.0 以降でプロバイダーからこれを検出するため、追加の設定は不要です。__TRILIUM_PH_0__決して__TRILIUM_PH_1__ __TRILIUM_PH_2__ を実行しないでください。クライアントが RS256 にダウングレードされ、ES256 が完全に無効化されます。古い Trilium バージョンでは、サインインが __TRILIUM_PH_3__ エラーで失敗します。",
+          "u_d90d3c1a6623b526c99cbcb9_0": "Pocket ID",
+          "u_f24b0d686dd4da4537585435_0": "Pocket ID はパスワードレスであり、サインインにはパスキーが必要です。Trilium を OpenID Connect に切り替える__TRILIUM_PH_0__前__TRILIUM_PH_1__に、パスキーを登録して Pocket ID 自体にサインインできることを確認してください。確認しないと、どちら側でも認証できなくなる可能性があります。",
+          "u_ee4c9f06ca63ce4002d48bae_0": "管理者として Pocket ID にサインインし、__TRILIUM_PH_0__OIDC Clients__TRILIUM_PH_1__ → __TRILIUM_PH_2__Add OIDC Client__TRILIUM_PH_3__ に移動します。"
+        },
+        "modelVersion": "gemini-3.5-flash-lite",
+        "usage": {
+          "promptTokenCount": 1699,
+          "candidatesTokenCount": 1389,
+          "totalTokenCount": 3088,
+          "promptTokensDetails": [
+            {
+              "modality": "TEXT",
+              "tokenCount": 1699
+            }
+          ],
+          "serviceTier": "standard"
+        }
+      }
     },
     {
       "key": "IgkTHSaFfq6A_b99a4b6ad9a7ac80",
@@ -4449,7 +5425,8 @@
           "context": "Setting up with various providers",
           "contextHash": "aed08d32912b31afd0bf72269d029e5f61b7e7e28478d8173d1d5b12d597f744"
         }
-      ]
+      ],
+      "error": "Missing or invalid batch response"
     },
     {
       "key": "x1lQNKQBqLcA_834edb7798673688",
@@ -4583,7 +5560,8 @@
           "context": "Signing in with OpenID Connect > Setup > Configuring the authentication provider",
           "contextHash": "03165a1559a5e4e52bef9bd4fcab381084db665293fd9e811f01c3456555fada"
         }
-      ]
+      ],
+      "error": "Missing or invalid batch response"
     },
     {
       "key": "x1lQNKQBqLcA_acf584e12b2a352b",
@@ -4717,7 +5695,8 @@
           "context": "Signing in with OpenID Connect > Setup > Configuring the authentication provider",
           "contextHash": "03165a1559a5e4e52bef9bd4fcab381084db665293fd9e811f01c3456555fada"
         }
-      ]
+      ],
+      "error": "Missing or invalid batch response"
     },
     {
       "key": "x1lQNKQBqLcA_e28c7da4bde3da4a",
@@ -4851,7 +5830,8 @@
           "context": "Signing in with OpenID Connect > Setup > Configuring the authentication provider",
           "contextHash": "03165a1559a5e4e52bef9bd4fcab381084db665293fd9e811f01c3456555fada"
         }
-      ]
+      ],
+      "error": "Missing or invalid batch response"
     },
     {
       "key": "x1lQNKQBqLcA_a22ab153daf2a4e2",
@@ -4985,7 +5965,8 @@
           "context": "Signing in with OpenID Connect > Switching providers",
           "contextHash": "86efff3a2fb09ce1c8804ff0082777297bbf94a7b9ef544bfdab3131bb89528f"
         }
-      ]
+      ],
+      "error": "Missing or invalid batch response"
     },
     {
       "key": "x1lQNKQBqLcA_2cd1242b4bec0c59",
@@ -5119,7 +6100,41 @@
           "context": "Signing in with OpenID Connect > Troubleshooting > Setup fails with a WWW-Authenticate or invalid_client error",
           "contextHash": "aafac34c091577c680f3a0eaa190bf5f77c42baf567f3a9b1b73a5b1d9cdb867"
         }
-      ]
+      ],
+      "result": {
+        "key": "x1lQNKQBqLcA_2cd1242b4bec0c59",
+        "translations": {
+          "u_ddd44939f8c99b09e30299e4_0": "__TRILIUM_PH_0__OpenID Connect__TRILIUM_PH_1__ セクションで、__TRILIUM_PH_2__切断__TRILIUM_PH_3__ (__TRILIUM_PH_4__) ボタンを押します。",
+          "u_a6c5b9223d9263632d59a1eb_0": "セクションに切断されたことが表示されるまで待ちます。",
+          "u_4b091317ea3435dfaab8c6d6_0": "新しいプロバイダを指すように設定を変更します。",
+          "u_a1b3897bc1aebd6f72691dab_0": "サーバーを再起動します。",
+          "u_79e24cbf61b732923d9fe5cc_0": "通常のステップを繰り返して認証プロバイダに接続します。",
+          "u_16ea312463c0b834a0864f1d_0": "プロバイダを切り替える前に切断を行わないと、ログインできなくなる（資格情報が一致しなくなる）ため、一時的にロックされる可能性があります。これが発生した場合：",
+          "u_40ca2691dab3b13705adbfa2_0": "サーバーの設定を再度古いプロバイダに変更します。",
+          "u_c271f15a698aa062ee51b7b6_0": "サーバーを再起動し、上記の切断の手順に従います。",
+          "u_83df90881820040f291de60e_0": "サーバーの設定を再度新しいプロバイダに変更します。",
+          "u_580ced28c11d06a1e747c9bf_0": "サーバーを再度再起動します。",
+          "u_044532ae8db0147e58e70ca7_0": "OpenID Connectを一時的に無効化する__TRILIUM_PH_0__",
+          "u_9a5379626ab9bb952f19ac76_0": "OpenID Connect認証を無効にし、代わりに一時的にローカルのパスワードを使用するには、次の操作を行う必要があります：",
+          "u_686c1cd81b18aa8cd0488097_0": "__TRILIUM_PH_0__ または環境変数（プロバイダ情報のセットアップ方法による）を変更し、__TRILIUM_PH_1__ を別の名前にリネームするなどして（例：__TRILIUM_PH_2__）、多要素認証セクションを一時的に非アクティブ化します。",
+          "u_880479551ab4599e2af24536_0": "変更を有効にするためにサーバーを再起動します。",
+          "u_5c4f67f3fb841108e53d69c8_0": "トラブルシューティング__TRILIUM_PH_0__",
+          "u_7c64b73a0cc8775962cc7c91_0": "__TRILIUM_PH_0__ または __TRILIUM_PH_1__ エラーでセットアップが失敗する__TRILIUM_PH_2__"
+        },
+        "modelVersion": "gemini-3.5-flash-lite",
+        "usage": {
+          "promptTokenCount": 1346,
+          "candidatesTokenCount": 823,
+          "totalTokenCount": 2169,
+          "promptTokensDetails": [
+            {
+              "modality": "TEXT",
+              "tokenCount": 1346
+            }
+          ],
+          "serviceTier": "standard"
+        }
+      }
     },
     {
       "key": "x1lQNKQBqLcA_d156d852a44c089d",
@@ -5189,7 +6204,33 @@
           "context": "Signing in with OpenID Connect > Troubleshooting > Setup fails with OAUTH_RESPONSE_IS_NOT_CONFORM",
           "contextHash": "4576745a96567803d176978ad5db4a8615c9298e59930359e10bb07a39166b28"
         }
-      ]
+      ],
+      "result": {
+        "key": "x1lQNKQBqLcA_d156d852a44c089d",
+        "translations": {
+          "u_9103feaae76d1b11e6ea2947_0": "プロバイダーと Trilium の間で、トークンエンドポイントへのクライアント認証情報の送信方法に関する見解が一致していません。__TRILIUM_PH_0__ を __TRILIUM_PH_1__（またはすでに post に設定されている場合は __TRILIUM_PH_2__）に設定して再起動してください。プロバイダーによって異なりますが、（Authelia のように）クライアント登録時に方式が固定されているため __TRILIUM_PH_3__ を完全に拒否するものもあります。そのため、一方の値でうまくいかない場合は、もう一方を試してください。",
+          "u_58de100cd3566318297a6c15_0": "セットアップが __TRILIUM_PH_0____TRILIUM_PH_1__ で失敗する",
+          "u_8998507175f704a378a520c9_0": "__TRILIUM_PH_0__リバースプロキシ__TRILIUM_PH_1__ の背後で実行している場合、バッファオーバーフローが原因でこの問題が発生することもあります。__TRILIUM_PH_2__Nginx__TRILIUM_PH_3__ の修正サンプルは以下の通りです：",
+          "u_64b39e60ce8bd26197f2eca9_0": "セットアップが __TRILIUM_PH_0__ エラー__TRILIUM_PH_1__ で失敗する",
+          "u_21317612bb6ee6ba263d7250_0": "バージョンによっては、メッセージが __TRILIUM_PH_0__ または __TRILIUM_PH_1__ と表示されます。どちらも同じ意味であり、プロバイダーが RS256 以外のアルゴリズムで ID トークンに署名していることを示しています。Pocket ID (Ed25519) や Kanidm (ES256) などがこれに該当します。",
+          "u_3cd721055a4f61a4d96681d0_0": "v0.104.2 以降、Trilium はプロバイダーからアルゴリズムを自動的に検出し、ログにその結果が記録されます（__TRILIUM_PH_0__）。検出がプロバイダーに到達できない場合は RS256 にフォールバックするため、まず発行者（issuer）の URL が正しく到達可能であるか確認してください。それでも失敗する場合は、__TRILIUM_PH_1__ をプロバイダーが使用しているアルゴリズムに明示的に設定してください。",
+          "u_58de100cd3566318297a6c15_1": "セットアップが __TRILIUM_PH_0____TRILIUM_PH_1__ で失敗する",
+          "u_c75b1f9101b83555f6a4df58_0": "ベース URL が正しいこと、およびIDプロバイダーが実際に OpenID Connect をサポートしていることを確認してください。GitHub などの一部のプロバイダーは OAuth 2.0 のみを提供しています。"
+        },
+        "modelVersion": "gemini-3.5-flash-lite",
+        "usage": {
+          "promptTokenCount": 1167,
+          "candidatesTokenCount": 806,
+          "totalTokenCount": 1973,
+          "promptTokensDetails": [
+            {
+              "modality": "TEXT",
+              "tokenCount": 1167
+            }
+          ],
+          "serviceTier": "standard"
+        }
+      }
     },
     {
       "key": "yeEaYqosGLSh_24b3fa25f0fad3af",
@@ -5307,7 +6348,8 @@
           "context": "Third-party cloud hosting > Matching your version with the cloud instance",
           "contextHash": "fc562d90a46ebcf47cc5400f3053d7080664b44e55522c631bc4d4cb33296b87"
         }
-      ]
+      ],
+      "error": "Missing or invalid batch response"
     },
     {
       "key": "iGTnKjubbXkA_cbe9c01c3e94f4b0",
@@ -5369,7 +6411,32 @@
           "context": "System Requirements > Legacy ARM support",
           "contextHash": "894e01875b677e9067060e2e17f73341d9d104bdef42701e1cad536d3056913d"
         }
-      ]
+      ],
+      "result": {
+        "key": "iGTnKjubbXkA_cbe9c01c3e94f4b0",
+        "translations": {
+          "u_eed42be216fabe5c1cbc1bd0_0": "システム要件",
+          "u_1ffb0bc315217f5bd53e4b65_0": "Dockerを使用することで、サーバーはWindows、Linux、macOSの各デバイスで実行できます。",
+          "u_9ed11451c71464a0df027c61_0": "Linux x64およびARM向けのネイティブバイナリが提供されています（__TRILIUM_PH_0__）。",
+          "u_d425d64f28f2b13d7256011c_0": "レガシーARMのサポート__TRILIUM_PH_0__",
+          "u_d4a0fe4c24ef0eaae8d044fc_0": "Dockerビルドでは、__TRILIUM_PH_0__および__TRILIUM_PH_1__のプラットフォームも提供しています。Triliumで使用しているNode.jsのバージョン24において、これらのプラットフォームのサポートが__TRILIUM_PH_2__公式に「実験的」へダウングレード__TRILIUM_PH_3__されたため、これらのプラットフォームはレガシーとみなされます。",
+          "u_4e01666785011f5eea55733f_0": "その結果、Triliumではこれらのバージョン向けにNode.js 22を使用する必要があります。Node.js 22との互換性がなくなり次第、__TRILIUM_PH_0__および__TRILIUM_PH_1__のサポートは完全に終了します。",
+          "u_49024ca93fe7c0a3c501cb10_0": "アップストリームのサポート状況に関わらず、これらのプラットフォームはベストエフォートベースでサポートされており、Trilium開発チームによる公式サポートはありません。バグ報告は受け付けますが優先的には扱われません。コントリビューションは歓迎します。"
+        },
+        "modelVersion": "gemini-3.5-flash-lite",
+        "usage": {
+          "promptTokenCount": 811,
+          "candidatesTokenCount": 524,
+          "totalTokenCount": 1335,
+          "promptTokensDetails": [
+            {
+              "modality": "TEXT",
+              "tokenCount": 811
+            }
+          ],
+          "serviceTier": "standard"
+        }
+      }
     },
     {
       "key": "WOcw2SLH6tbX_6417adbf72a3c192",
@@ -5503,7 +6570,41 @@
           "context": "Server Installation > Configuration",
           "contextHash": "db9984662ee2d946a8a5cc1383fd5291ca99ba24675d8c5d164d18a1ad4146a6"
         }
-      ]
+      ],
+      "result": {
+        "key": "WOcw2SLH6tbX_6417adbf72a3c192",
+        "translations": {
+          "u_c436bcc2ea126b98bdb26cb3_0": "サーバーのインストール",
+          "u_a7d577d2ef9f456de4a2716c_0": "このガイドでは、独自のサーバーに Trilium をインストールする手順を説明します。__TRILIUM_PH_0__同期__TRILIUM_PH_1__を設定したい場合や、どこからでもアクセスできるブラウザで Trilium を使用したい場合に、このオプションを検討するとよいでしょう。",
+          "u_b45c1538e1b89f1278c97222_0": "インストールのオプション__TRILIUM_PH_0__",
+          "u_1732a4f5d89503c10fd9bc07_0": "サーバーに Trilium をインストールする方法はいくつかあり、それぞれにメリットがあります。",
+          "u_ac7632318ed7e91c3b6ff120_0": "__TRILIUM_PH_0__推奨__TRILIUM_PH_1__: __TRILIUM_PH_2__Docker インストール__TRILIUM_PH_3__ - __TRILIUM_PH_4__AMD64__TRILIUM_PH_5__ および __TRILIUM_PH_6__ARM__TRILIUM_PH_7__ アーキテクチャで使用できます。",
+          "u_5ba2d6c8765d89a316f6e1a1_0": "__TRILIUM_PH_0__パッケージ化されたサーバーのインストール__TRILIUM_PH_1__",
+          "u_5714ad4da1796877fc5cc774_0": "__TRILIUM_PH_0__PikaPods マネージドホスティング__TRILIUM_PH_1__",
+          "u_025af8d9cc458a86a32b1660_0": "__TRILIUM_PH_0__手動インストール__TRILIUM_PH_1__",
+          "u_36dcca34f917df99ab8cb691_0": "__TRILIUM_PH_0__Kubernetes__TRILIUM_PH_1__",
+          "u_5059c75d8c710d297bb18a5c_0": "__TRILIUM_PH_0__Cloudron__TRILIUM_PH_1__",
+          "u_cebf7c3eefcacda1476f7633_0": "__TRILIUM_PH_0__HomelabOS__TRILIUM_PH_1__",
+          "u_9862952b47b60addc66c1510_0": "__TRILIUM_PH_0__NixOS モジュール__TRILIUM_PH_1__",
+          "u_451622ce1ac5ce6cf69f5b70_0": "サーバーのインストールには、ウェブおよび__TRILIUM_PH_0__モバイルフロントエンド__TRILIUM_PH_1__の両方が含まれます。",
+          "u_91e318d9b9bed0d1467013a3_0": "設定__TRILIUM_PH_0__",
+          "u_7a3b1d65628aeb46abb31375_0": "サーバーのインストール後、ポートの設定や__TRILIUM_PH_0__TLS__TRILIUM_PH_1__の有効化を行いたい場合があります。設定は Trilium の __TRILIUM_PH_2__ ファイルを介して管理され、デフォルトでは __TRILIUM_PH_3__データディレクトリ__TRILIUM_PH_4__内に配置されます。カスタマイズを開始するには、デフォルト値が記載された提供されている __TRILIUM_PH_5__ ファイルを __TRILIUM_PH_6__ にコピーしてください。",
+          "u_0742e02d1ae250c49a2ce0ee_0": "また、__TRILIUM_PH_0__設定__TRILIUM_PH_1__ファイルを確認して、すべての __TRILIUM_PH_2__ 値を環境変数として指定することもできます。"
+        },
+        "modelVersion": "gemini-3.5-flash-lite",
+        "usage": {
+          "promptTokenCount": 1451,
+          "candidatesTokenCount": 1074,
+          "totalTokenCount": 2525,
+          "promptTokensDetails": [
+            {
+              "modality": "TEXT",
+              "tokenCount": 1451
+            }
+          ],
+          "serviceTier": "standard"
+        }
+      }
     },
     {
       "key": "WOcw2SLH6tbX_7a3ad8f983638573",
@@ -5597,7 +6698,36 @@
           "context": "Server Installation > Reverse Proxy Setup",
           "contextHash": "b652880a1420227564ad75f5038afe1f590dd65d4e58e88eebb084be3ef71be5"
         }
-      ]
+      ],
+      "result": {
+        "key": "WOcw2SLH6tbX_7a3ad8f983638573",
+        "translations": {
+          "u_c885eeba6289489f57cc4b38_0": "設定ファイルの場所__TRILIUM_PH_0__",
+          "u_e818d57ec477a7f996ecd22d_0": "デフォルトでは、__TRILIUM_PH_0__、__TRILIUM_PH_1__データベース__TRILIUM_PH_2__、およびその他の重要なTriliumデータファイルは__TRILIUM_PH_3__dataディレクトリ__TRILIUM_PH_4__に保存されます。別の場所に変更したい場合は、__TRILIUM_PH_5__環境変数を設定することで変更できます。",
+          "u_63bc3027f018946cab382c41_0": "認証の無効化__TRILIUM_PH_0__",
+          "u_7b77787f6895e1213c074397_0": "__TRILIUM_PH_0__認証__TRILIUM_PH_1__をご覧ください。",
+          "u_69b54c558fd3efebc65e6d04_0": "リバースプロキシの設定__TRILIUM_PH_0__",
+          "u_bf8ad013bf9abfb2f240f97d_0": "Trilium用のリバースプロキシを設定するには、__TRILIUM_PH_0__nginx__TRILIUM_PH_1__または__TRILIUM_PH_2__Apache__TRILIUM_PH_3__を使用できます。また、Reverse proxyフォルダに保存されているドキュメントも確認できます。",
+          "u_bf00ceed8aea036120dd2924_0": "nginx",
+          "u_6bbb6380490070da35d0cdc2_0": "Triliumへのリクエストをプロキシするには、__TRILIUM_PH_0__設定に以下の構成を追加します：",
+          "u_735873dc9aa5df879817a45e_0": "ペイロードのサイズ制限を回避するには、__TRILIUM_PH_0__ブロックに次を含めます：",
+          "u_8057fa0b650d5315bf1e987f_0": "Apache",
+          "u_4a53f4160e784cfbe1b43fea_0": "Apacheの設定については、__TRILIUM_PH_0__Apache using Docker__TRILIUM_PH_1__ガイドをご参照ください。"
+        },
+        "modelVersion": "gemini-3.5-flash-lite",
+        "usage": {
+          "promptTokenCount": 1053,
+          "candidatesTokenCount": 673,
+          "totalTokenCount": 1726,
+          "promptTokensDetails": [
+            {
+              "modality": "TEXT",
+              "tokenCount": 1053
+            }
+          ],
+          "serviceTier": "standard"
+        }
+      }
     },
     {
       "key": "cbkrhQjrkKrh_c58c07cf33117efa",
@@ -5731,7 +6861,41 @@
           "context": "Synchronization > Setting Up Synchronization > Synchronizing a Desktop Instance from a Sync Server",
           "contextHash": "c0e681036062da5c131793dddee78729ddaf856641744e90d7e97befcb44e652"
         }
-      ]
+      ],
+      "result": {
+        "key": "cbkrhQjrkKrh_c58c07cf33117efa",
+        "translations": {
+          "u_1eec9745957e50a1826bcbe8_0": "同期",
+          "u_ea95d6c535381c3734c1beb0_0": "Trilium はオフラインファーストのメモアプリであり、すべてのデータをデスクトップクライアント上のローカルに保存します。ただし、サーバーインスタンスとの同期を設定するオプションも提供されており、複数のデスクトップクライアントを中央サーバーと同期させることができます。これにより、スター型のトポロジが形成されます。",
+          "u_a4edecd0feffaf771c785e7d_0": "この構成では、中央サーバー（__TRILIUM_PH_0__同期サーバー__TRILIUM_PH_1__と呼びます）と複数の__TRILIUM_PH_2__クライアント__TRILIUM_PH_3__（または__TRILIUM_PH_4__デスクトップ__TRILIUM_PH_5__）インスタンスが同期サーバーと同期します。一度設定すると、同期は自動的かつ継続的に行われ、手動での操作は必要ありません。",
+          "u_42de7c42ba0e93ad2577a3a6_0": "同期の設定__TRILIUM_PH_0__",
+          "u_88e87b06f4d80fd014a02b4c_0": "セキュリティに関する考慮事項__TRILIUM_PH_0__",
+          "u_32d3f262ae58c943fe9c3aba_0": "サーバーを安全に設定することは非常に重要であり、複雑になる場合があります。セキュリティを確保し潜在的な脆弱性を回避するためには、暗号化されていない HTTP 接続ではなく、有効な__TRILIUM_PH_0__TLS 証明書__TRILIUM_PH_1__（HTTPS）を使用することが極めて重要です。",
+          "u_092a500c0f3363c4e7d62120_0": "デスクトップインスタンスと同期サーバーの同期__TRILIUM_PH_0__",
+          "u_3682be872c379242421f533f_0": "この方法は、すでに Trilium のデスクトップインスタンスがあり、Web ホスト上に同期サーバーを設定したい場合に使用します。",
+          "u_fdf079180d7aed7c50eb6c20_0": "__TRILIUM_PH_0__サーバーのデプロイ__TRILIUM_PH_1__：サーバーインスタンスがデプロイされているが、初期化されていないことを確認します。",
+          "u_5f09fab6ab88781a0c119551_0": "__TRILIUM_PH_0__デスクトップの設定__TRILIUM_PH_1__：デスクトップインスタンスを開き、__TRILIUM_PH_2__オプション__TRILIUM_PH_3__ → __TRILIUM_PH_4__同期__TRILIUM_PH_5__ → __TRILIUM_PH_6__同期サーバー__TRILIUM_PH_7__ に移動し、__TRILIUM_PH_8__サーバーアドレス__TRILIUM_PH_9__を同期サーバーのアドレスに設定します。",
+          "u_d953cf0c2e1f7f32245f51bf_0": "同期サーバーは__TRILIUM_PH_0__設定（config.ini または環境変数）__TRILIUM_PH_1__によって上書きすることもでき、その場合はその値が優先されます。その場合、__TRILIUM_PH_2__使用中のサーバー__TRILIUM_PH_3__というフィールドにそれが示されます。",
+          "u_51e33c24c148e6140040a1e2_0": "__TRILIUM_PH_0__同期のテスト__TRILIUM_PH_1__：__TRILIUM_PH_2__同期のテスト__TRILIUM_PH_3__ボタンをクリックして、同期サーバーへの接続を確認します。",
+          "u_19a6ef296aad977c35905da1_0": "成功すると、クライアントはすべてのデータのサーバーインスタンスへのプッシュを開始します。",
+          "u_3670d54fcff85f7fbe830334_0": "この処理には少し時間がかかる場合がありますが、Trilium の使用を続けることは可能です。サーバーインスタンスを定期的に確認し、同期が完了したタイミングを確認してください。完了すると、サーバーにログイン画面が表示されます。",
+          "u_4ab73d98f2176ee5b785b957_0": "同期サーバーからのデスクトップインスタンスの同期__TRILIUM_PH_0__",
+          "u_dd961c83f3984c9d83fcc45a_0": "この方法は、すでに同期サーバーがあり、新しいデスクトップインスタンスをそれと同期するように設定したい場合に使用します。"
+        },
+        "modelVersion": "gemini-3.5-flash-lite",
+        "usage": {
+          "promptTokenCount": 1702,
+          "candidatesTokenCount": 1182,
+          "totalTokenCount": 2884,
+          "promptTokensDetails": [
+            {
+              "modality": "TEXT",
+              "tokenCount": 1702
+            }
+          ],
+          "serviceTier": "standard"
+        }
+      }
     },
     {
       "key": "cbkrhQjrkKrh_ad718ba66bada663",
@@ -5865,7 +7029,41 @@
           "context": "Synchronization > Troubleshooting > Certificate Issues",
           "contextHash": "b5c36b7c368343efba08501d29a58f5e63354810d63e2e94a80560b5eb48289f"
         }
-      ]
+      ],
+      "result": {
+        "key": "cbkrhQjrkKrh_ad718ba66bada663",
+        "translations": {
+          "u_f56157d47658b0ac5ea9c1e7_0": "__TRILIUM_PH_0__デスクトップのセットアップ__TRILIUM_PH_1__：__TRILIUM_PH_2__デスクトップ版のインストールページ__TRILIUM_PH_3__に従ってください。",
+          "u_e942fde1f7fcb7fd05c6ff90_0": "__TRILIUM_PH_0__初期設定__TRILIUM_PH_1__：プロンプトが表示されたら、同期サーバーとの同期を設定するオプションを選択します。",
+          "u_4327a7188455612d4d6bb192_0": "__TRILIUM_PH_0__サーバーの詳細__TRILIUM_PH_1__：Triliumサーバーのアドレスを設定し、サーバーのパスワードを入力します。サーバーで__TRILIUM_PH_2__TOTPによる多要素認証__TRILIUM_PH_3__が有効になっている場合は、認証アプリからのワンタイムパスワードまたはリカバリーコードも入力してください。",
+          "u_6c9c73fdc0aae0c19ed9a7a4_0": "__TRILIUM_PH_0__セットアップの完了__TRILIUM_PH_1__：「セットアップを完了」ボタンをクリックします。成功すると、次の画面が表示されます：",
+          "u_129369538266218e97cf600f_0": "同期が完了すると、自動的にTriliumアプリケーションにリダイレクトされます。",
+          "u_24f156ffbf8ab464ee1ead5f_0": "デスクトップ間の同期__TRILIUM_PH_0__",
+          "u_c5415e6058d239b95c50fd79_0": "この方法を使用すると、__TRILIUM_PH_0__サーバーのインストール__TRILIUM_PH_1__を必要とせずに、2つのデスクトップインスタンス間で同期を行うことができます。",
+          "u_b4da7053494ee9aa5bbfd745_0": "v0.104.0以降、この同期を機能させるにはLANアクセスを有効にする必要があります。その方法については、__TRILIUM_PH_0__ネットワークアクセス__TRILIUM_PH_1__を参照してください。",
+          "u_ea3d9bb8f3fbd552575af054_0": "プロキシの設定__TRILIUM_PH_0__",
+          "u_2bddbab9abfd05f6a4bf12c6_0": "2つのプロキシ設定がサポートされています：",
+          "u_597e4dfd4b4de21b7b495ad9_0": "__TRILIUM_PH_0__明示的なプロキシ設定__TRILIUM_PH_1__：「オプション」/「同期」でプロキシサーバーを設定します。認証を必要としないプロキシサーバーのみがサポートされています。",
+          "u_cc4bd8144ccef8bb9d1dd1e6_0": "__TRILIUM_PH_0__システムプロキシ設定__TRILIUM_PH_1__：プロキシサーバーが明示的に設定されていない場合、Triliumはシステムのプロキシ設定を使用します。",
+          "u_5c4f67f3fb841108e53d69c8_0": "トラブルシューティング__TRILIUM_PH_0__",
+          "u_d267b0168ef35d69c463eedf_0": "日時同期__TRILIUM_PH_0__",
+          "u_90980707f9cce17ce1f4d39e_0": "同期を成功させるには、クライアントとサーバーの両方の日時が一致している必要があり、許容誤差は最大5分です。",
+          "u_038515c41fe0c740d9dce87d_0": "証明書の問題__TRILIUM_PH_0__"
+        },
+        "modelVersion": "gemini-3.5-flash-lite",
+        "usage": {
+          "promptTokenCount": 1483,
+          "candidatesTokenCount": 974,
+          "totalTokenCount": 2457,
+          "promptTokensDetails": [
+            {
+              "modality": "TEXT",
+              "tokenCount": 1483
+            }
+          ],
+          "serviceTier": "standard"
+        }
+      }
     },
     {
       "key": "cbkrhQjrkKrh_d4f15023f4ae3047",
@@ -5943,7 +7141,34 @@
           "context": "Synchronization > Troubleshooting > Hash Check",
           "contextHash": "d3959cc50923aee4d42e73511d09a0828e9bdb615561ef5bb97a7db418ef127b"
         }
-      ]
+      ],
+      "result": {
+        "key": "cbkrhQjrkKrh_d4f15023f4ae3047",
+        "translations": {
+          "u_301d65f26c0f1a2904a85ea7_0": "TLSを使用する場合、Triliumはサーバー証明書を検証します。検証に失敗した場合（自己署名証明書や特定の企業プロキシなどが原因で）、__TRILIUM_PH_0__環境変数を__TRILIUM_PH_1__に設定してTriliumクライアントを実行できます：",
+          "u_11ca0067e6af34e41e2e14df_0": "これによりTLS証明書の検証が無効化され、セキュリティが大幅に低下し、中間者攻撃（MITM）に対して環境が脆弱になります。有効な署名済みサーバー証明書を使用することを強く推奨します。新しいバージョンのTriliumには、この目的のために__TRILIUM_PH_0__というスクリプトが含まれています。",
+          "u_12324869256c95f21cf09a2a_0": "競合の解決__TRILIUM_PH_0__",
+          "u_2cfc3e5c163fcf722d4ab974_0": "同期の前に複数のインスタンスで同じノートを編集した場合、Triliumは新しい方の変更を保持し、古い方を破棄することで競合を解決します。古いバージョンは__TRILIUM_PH_0__ノートの履歴__TRILIUM_PH_1__でアクセス可能なままであるため、必要に応じてデータを復元できます。",
+          "u_df4c466d2c82f466f55ec008_0": "ハッシュチェック__TRILIUM_PH_0__",
+          "u_01a1810a759f941d46310a84_0": "各同期の後、Triliumはクライアントと同期サーバーの両方で、同期されたすべてのデータのハッシュを計算します。不一致がある場合、Triliumは自動的に回復メカニズムを開始して問題を解決します。",
+          "u_b190d47815633246b0ab18a6_0": "記事画像",
+          "u_563523bd468dce02b4924ea3_0": "サーバーからの同期設定ページのスクリーンショット",
+          "u_dc2239e7671f49f09f06ff5b_0": "同期ページのスクリーンショット"
+        },
+        "modelVersion": "gemini-3.5-flash-lite",
+        "usage": {
+          "promptTokenCount": 939,
+          "candidatesTokenCount": 623,
+          "totalTokenCount": 1562,
+          "promptTokensDetails": [
+            {
+              "modality": "TEXT",
+              "tokenCount": 939
+            }
+          ],
+          "serviceTier": "standard"
+        }
+      }
     },
     {
       "key": "RDslemsQ6gCp_0f4aab0fbfbeab31",
@@ -6077,7 +7302,41 @@
           "context": "Mobile Frontend > Layout basics",
           "contextHash": "a36fa500a1d9151b09a106692e121faa3f902f7deeb6d8bd4a39c7de25e29c4c"
         }
-      ]
+      ],
+      "result": {
+        "key": "RDslemsQ6gCp_0f4aab0fbfbeab31",
+        "translations": {
+          "u_4c4b3ba2aa9bed31efad6bc5_0": "モバイルフロントエンド",
+          "u_23aca60853116a7ebad084f9_0": "Triliumには、スマートフォンやタブレットなどのタッチ操作デバイスに最適化されたモバイルWebフロントエンドがあります。ブラウザの検出に基づいて、ログインプロセス中に自動的に有効化されます。",
+          "u_e69c38b05da1daac087a2a34_0": "モバイルフロントエンドは、完全なデスクトップ版と比較して機能が制限されています。詳細については以下をご覧ください。",
+          "u_347154522578ad652f4f472a_0": "レイアウトの基本__TRILIUM_PH_0__",
+          "u_c365a6f3cbea7547e8d10817_0": "デスクトップ版とは異なり、モバイル版ではスマートフォンの限られた画面によりよく適合するように、UIが少し異なっています。",
+          "u_ad7506aa475db4da3be3774c_0": "デスクトップ版とモバイル版の違いについての（網羅的ではない）リストは次のとおりです。",
+          "u_2c2ef73eab41242247a7e743_0": "スマートフォンでは、__TRILIUM_PH_0__ノートツリー__TRILIUM_PH_1__はノートの下に配置されます。画面の左上にある__TRILIUM_PH_2__ボタンをタップすると、ノートがスライドして隠れ、ノートを保持しているフォルダー（ノートがハイライト表示されている状態）のツリーが表示されます。ツリーからノートを開くと、ノートがスライドして元に戻ります。",
+          "u_a4579144fa2a0cd1e2de0da5_0": "ノートをもう一度開かずに戻るには、ツリーがどのフォルダーを表示しているかにかかわらず、ツリーの右上にある__TRILIUM_PH_0__アイコン付きのタイトルをタップします。",
+          "u_1bc6042211d5efd979a52d72_0": "画面の左端からスワイプしてもツリーが表示されますが、プラットフォームによってはシステムまたはブラウザの戻るジェスチャーがそれを上書きする場合があります。",
+          "u_56afb4a460a09a47bb75e1d7_0": "各タブは、ツリーを表示していたかノートを表示していたかを記憶しており、ツリーのままにしたタブについては、ツリーが表示していたフォルダーも記憶します。タブを切り替えると、両方が元に戻ります。タブに再びノートが表示されると、そのツリーはノートを保持しているフォルダーに戻ります。",
+          "u_f6189562831dbca74d80777d_0": "新しいタブはツリーのルートで開き、その上に__TRILIUM_PH_0__ワークスペース__TRILIUM_PH_1__と__TRILIUM_PH_2__ブックマーク__TRILIUM_PH_3__（存在する場合）がリストされます。ワークスペースをタップすると、タブがその中にホイストされます。",
+          "u_072496deac3a4dd31a61acfa_0": "Androidアプリでは、システムの戻るジェスチャーまたはボタンを押すと、最初に最上位のメニューまたはダイアログが閉じられ、次に__TRILIUM_PH_0__オプション__TRILIUM_PH_1__の設定ページが閉じられ、次にノートがスライドしてツリーが表示され、次にツリー内で1階層上に移動します。ツリーの一番上で、アプリがバックグラウンドに移行します。",
+          "u_92f4a5fc2da470072afcce3d_0": "横向きのタブレットなどのより広い画面では、ノートツリーは代わりにノートの隣のサイドバーとして表示されます。そこでは、__TRILIUM_PH_0__ボタンで表示・非表示を切り替えることができ、その選択はデスクトップ版の左ペインとともに記憶されます。",
+          "u_5df101db8321719c40f8f2aa_0": "子ノートを持つノートには__TRILIUM_PH_0__が表示されます（iOSでは、リストされている子ノートの数が先頭に付きます）。これをタップすると子ノートがリストされ、他のノートをタップするとそれが開きます。子ノートがリストされているノートは最上部にあり、その内容のプレビューが表示されます。それをタップするか、フッターにある__TRILIUM_PH_1__開く__TRILIUM_PH_2__をタップすると、ノートが開きます。",
+          "u_f1136c72aef8e5f8af568b43_0": "ノートを長押しすると、__TRILIUM_PH_0__ノートツリーのコンテキストメニュー__TRILIUM_PH_1__が表示されます。そこから新しいタブでノートを開くと、ツリーが画面に残るため、複数のノートを続けて開くことができます。",
+          "u_6eef0fe007ccf98449a7980a_0": "__TRILIUM_PH_0__クイック検索__TRILIUM_PH_1__バーもノートツリーの上部に表示されます。"
+        },
+        "modelVersion": "gemini-3.5-flash-lite",
+        "usage": {
+          "promptTokenCount": 1641,
+          "candidatesTokenCount": 1314,
+          "totalTokenCount": 2955,
+          "promptTokensDetails": [
+            {
+              "modality": "TEXT",
+              "tokenCount": 1641
+            }
+          ],
+          "serviceTier": "standard"
+        }
+      }
     },
     {
       "key": "RDslemsQ6gCp_0c331739afea0128",
@@ -6211,7 +7470,41 @@
           "context": "Mobile Frontend > Editing text notes > The formatting toolbar",
           "contextHash": "fcfa95697f0ad2e6d0a45ad921babfa9d0dbd63c24764ee7639e793ffb3e74eb"
         }
-      ]
+      ],
+      "result": {
+        "key": "RDslemsQ6gCp_0c331739afea0128",
+        "translations": {
+          "u_5b4f91528fe7c13175603d3b_0": "フルバージョンの __TRILIUM_PH_0__Search__TRILIUM_PH_1__ 機能は、__TRILIUM_PH_2__Global menu__TRILIUM_PH_3__ または設定されている場合は __TRILIUM_PH_4__Launch Bar__TRILIUM_PH_5__ から実行できます。",
+          "u_c04dab86ad3ad8074c445c6c_0": "__TRILIUM_PH_0__Global menu__TRILIUM_PH_1__ はよりシンプルになっています。__TRILIUM_PH_2__New window__TRILIUM_PH_3__ と __TRILIUM_PH_4__Keyboard shortcuts__TRILIUM_PH_5__ が省略されており、__TRILIUM_PH_6__Switch to desktop version__TRILIUM_PH_7__ は __TRILIUM_PH_8__Advanced__TRILIUM_PH_9__ の下にあります。",
+          "u_38d4835f2f6a735bc7e2c4cf_0": "__TRILIUM_PH_0__Launch Bar__TRILIUM_PH_1__ は画面の下部に表示されます。",
+          "u_75dae89cf3c0edc4d8b25dfd_0": "ローンチバーはデスクトップ版とは異なるアイコン設定を使用します。設定方法の詳細については、専用のページを参照してください。",
+          "u_b3e53dad755943b84abce285_0": "ノート関連のアクションのほとんどは、ノートの右上にある横方向のドットアイコンにまとめられています。",
+          "u_240faf364fb2f716e4741b63_0": "__TRILIUM_PH_0__Right Sidebar__TRILIUM_PH_1__ はノートパネルに置き換わります。これは、それらのドットの左側にある __TRILIUM_PH_2__ ボタンを使用して画面の下部から開くシートです。そのタブ（アウトライン、属性、接続、AIチャット、ウィジェット）は、シートの下部にあるバーから切り替えます。",
+          "u_08566edbf477c4384d969ccd_0": "テキストノートでは、書式設定ツールバーが画面の下部に配置されます。以下の __TRILIUM_PH_0__Editing text notes__TRILIUM_PH_1__ を参照してください。",
+          "u_514ac74cd05959a9a7f00f4e_0": "iOSでは、タイトル行のボタン、ローンチバー、書式設定ツールバー、画面下部から開くメニュー、および短いダイアログは、画面の端から離れて浮かぶ半透明のペインになり、ノートはタイトル行とローンチバーの下でスクロールします。画面の半分より高いダイアログは不透明になり、代わりに画面の下部に固定されます。ペインを不透明にするには、__TRILIUM_PH_0__Options__TRILIUM_PH_1__ → __TRILIUM_PH_2__Appearance__TRILIUM_PH_3__ → __TRILIUM_PH_4__Performance__TRILIUM_PH_5__ に移動し、__TRILIUM_PH_6__Background effects for menus, popups and panels__TRILIUM_PH_7__ をオフにします。Androidでは、このオプションは表示されず、常に不透明です。",
+          "u_750398b0905e8300a60e038d_0": "オンスクリーンキーボードが開いている間は、キーボードのすぐ上の右下隅にある __TRILIUM_PH_0__ ボタンでキーボードを非表示にできます。テキストノートでは、このボタンは書式設定ツールバーの右端にあります。キーボードの代わりに書式設定ツールバーのメニューが開いている間は、ボタンが __TRILIUM_PH_1__ に変わり、メニューを閉じてキーボードを元に戻します。これはすべてのノートタイプおよびすべてのテキストフィールドで機能し、キーボードに __TRILIUM_PH_2__Done__TRILIUM_PH_3__ ボタンがないiOSアプリでキーボードを非表示にする唯一の方法です。",
+          "u_408d304b92c84a1d6b05af39_0": "__TRILIUM_PH_0__Tabs__TRILIUM_PH_1__ は、__TRILIUM_PH_2__Launch Bar__TRILIUM_PH_3__ 内のタブスイッチャーにまとめられています。ここでは、簡単に切り替えられるようにプレビュー付きの全画面グリッドでタブが表示され、閉じたタブの再開などの追加オプションも利用できます。スマートフォンでは、ノートツリーに残されたタブには、ノートのプレビューの代わりに、タブのノートが強調表示された、それが配置されていたフォルダが表示されます。",
+          "u_05922a8175684a5131421f37_0": "スイッチャーを開かずに前または次のタブに移動するには、ローンチバー上の任意の場所を左右にスワイプします。これは、タブスイッチャーがローンチバー内にあり、バーのすべてのボタンが画面内に収まる場合に機能します。収まらない場合、スワイプするとバーがスクロールします。ページは指に追従し、指が画面の端に達すると別のタブに到達します。フリックしない限り、途中の3分の1未満で離すと現在のタブにとどまります。最初または最後のタブを超えると、ページはわずかに伸び、離すと元の位置に戻ります。",
+          "u_8e5d5d87b863d2e9e0955adb_0": "v0.100.0以降、__TRILIUM_PH_0__Split View__TRILIUM_PH_1__ はモバイルビューでも使用できるようになりましたが、一度に最大2つのペインまでとなります。分割は水平方向ではなく垂直方向に表示されます。",
+          "u_4f58e3fc6eff7c598b064c49_0": "テキストノートの編集__TRILIUM_PH_0__",
+          "u_2874f79475ef5aad30b94b66_0": "書式設定ツールバー__TRILIUM_PH_0__",
+          "u_a6200bb35c63d554c32df3ad_0": "テキストノートでは、書式設定ツールバーは横方向にスクロールする1行として画面の下部に配置されます。これはテキストを編集している間のみ表示され、キーボードを非表示にするか、ノートのタイトルなどの別のフィールドに移動すると非表示になります。左から順に次のものが含まれています：",
+          "u_e8c230c2a1ca3489c44bc5d9_0": "__TRILIUM_PH_0__Undo__TRILIUM_PH_1__ と __TRILIUM_PH_2__Redo__TRILIUM_PH_3__。オンスクリーンキーボードにはこれらに対応するキーがないためです。"
+        },
+        "modelVersion": "gemini-3.5-flash-lite",
+        "usage": {
+          "promptTokenCount": 2137,
+          "candidatesTokenCount": 1667,
+          "totalTokenCount": 3804,
+          "promptTokensDetails": [
+            {
+              "modality": "TEXT",
+              "tokenCount": 2137
+            }
+          ],
+          "serviceTier": "standard"
+        }
+      }
     },
     {
       "key": "RDslemsQ6gCp_0f7ffdd2c058a946",
@@ -6345,7 +7638,8 @@
           "context": "Mobile Frontend > Editing text notes > Inserting content",
           "contextHash": "ae7b08b14cbaf637e7c09e596c4642abc4dded7381105fd22e502f28776ddd37"
         }
-      ]
+      ],
+      "error": "Missing or invalid batch response"
     },
     {
       "key": "RDslemsQ6gCp_a68b9e576591f9b2",
@@ -6479,7 +7773,41 @@
           "context": "Mobile Frontend > Editing text notes > Lists",
           "contextHash": "201c107dc33f336654fd97bd62c1b878467f1fc76091633d7c2b9ab471c7baf1"
         }
-      ]
+      ],
+      "result": {
+        "key": "RDslemsQ6gCp_a68b9e576591f9b2",
+        "translations": {
+          "u_25d4fd1e61ca81d1da87380f_0": "__TRILIUM_PH_0__テーブルの挿入__TRILIUM_PH_1__：テーブルのサイズです。",
+          "u_f4327802a296683ca7c5e027_0": "__TRILIUM_PH_0__列__TRILIUM_PH_1__：列の数です。",
+          "u_6daa0c1cd39bed8891e26887_0": "__TRILIUM_PH_0__脚注__TRILIUM_PH_1__：新しい脚注、または既存の脚注への参照です。",
+          "u_b9df1e359803c5b4f2aafbc8_0": "__TRILIUM_PH_0__日付/時刻__TRILIUM_PH_1__：日付と時刻の形式です。",
+          "u_81b6010450369195a97d3c36_0": "__TRILIUM_PH_0__テキストスニペットの挿入__TRILIUM_PH_1__：挿入するテンプレートです。テンプレートがない場合はグレーアウトされます。",
+          "u_b44c048cab648e31ad95c5c3_0": "ブロックの種類__TRILIUM_PH_0__",
+          "u_031a15109e13f8db14e8ca15_0": "__TRILIUM_PH_0__ブロックの種類ボタンをタップすると、画面の下部にブロックの種類がタイル状に表示され、現在のブロックの種類がハイライトされます：",
+          "u_2d570f7faf79c67e1cb5a877_0": "段落、および見出し2から6。",
+          "u_b145b2dd5e32dff9d927bc45_0": "箇条書きリスト、番号付きリスト、およびToDoリスト。",
+          "u_0ec202ae7ca0083dd893e610_1": "コードブロック、引用、およびアドモニション。",
+          "u_61d14856cd338aed89132fb5_0": "リスト内で段落や見出しを選択すると、項目が通常のテキストに戻ります。コードブロックも同様です。引用とアドモニションは項目を置き換えるのではなく現在のブロックを囲むため、ブロックと並行してハイライトされます。もう一度選択すると解除されます。",
+          "u_d71078ab56bcfad0d5ff1f3b_0": "行頭で __TRILIUM_PH_0__ 、 __TRILIUM_PH_1__ または __TRILIUM_PH_2__ と入力することでもリストを開始できます。",
+          "u_ae712971d397bc8dc8993b2e_0": "リスト__TRILIUM_PH_0__",
+          "u_a93cd7adf70b9bf6c8467637_0": "カーソルがリスト内にある間は、__TRILIUM_PH_0__Undo__TRILIUM_PH_1__ および __TRILIUM_PH_2__Redo__TRILIUM_PH_3__ の後ろに __TRILIUM_PH_4__List ›__TRILIUM_PH_5__ ボタンが続きます。その行には以下が含まれます：",
+          "u_9e27d8163476e560e85da584_0": "メイン行と同様に、インデントボタンと、項目を上下に移動するボタン。",
+          "u_e2441a28d05c7081149d4461_0": "__TRILIUM_PH_0__リストの種類__TRILIUM_PH_1__。これをタップすると、ToDoリスト、および箇条書きや番号付きリストのマーカー（四角形やローマ数字など）が、種類ごとに分類されたタイルとして開き、現在のものがハイライトされます。別の種類のタイルを選択すると、箇条書きリストを番号付きリストに変更したり、ToDoリストを箇条書きリストに戻したりするように、リストの種類がその形式に変更されます。"
+        },
+        "modelVersion": "gemini-3.5-flash-lite",
+        "usage": {
+          "promptTokenCount": 1524,
+          "candidatesTokenCount": 1069,
+          "totalTokenCount": 2593,
+          "promptTokensDetails": [
+            {
+              "modality": "TEXT",
+              "tokenCount": 1524
+            }
+          ],
+          "serviceTier": "standard"
+        }
+      }
     },
     {
       "key": "RDslemsQ6gCp_7318a97cc77a5cdf",
@@ -6613,7 +7941,8 @@
           "context": "Mobile Frontend > Editing text notes > Links and attachments",
           "contextHash": "6de73f042fd9dd1b79c1f708d0806ce3429b8490142f64e47ec5e6abf3ec34a5"
         }
-      ]
+      ],
+      "error": "Missing or invalid batch response"
     },
     {
       "key": "RDslemsQ6gCp_7b19f11b38ceb801",
@@ -6747,7 +8076,41 @@
           "context": "Mobile Frontend > Installing as a PWA",
           "contextHash": "0def13f45357a47dba4cbdfa30922318048969668e6ad23763a99d26e70f088b"
         }
-      ]
+      ],
+      "result": {
+        "key": "RDslemsQ6gCp_7b19f11b38ceb801",
+        "translations": {
+          "u_067dad858dcb99f0098e7749_0": "PWAとしてインストールする__TRILIUM_PH_0__",
+          "u_c829b57f183e28a5a6978f09_0": "モバイル版ビューはPWAとして設定できます。オフライン機能は提供されませんが、アプリケーションが全画面で表示され、携帯電話のホーム画面から簡単にアクセスできるようになります。",
+          "u_183c4e2b224d5e15047893c9_0": "__TRILIUM_PH_0__ Safariを使用するiOS",
+          "u_e981993b62cfbe574364eeef_0": "デフォルトのウェブブラウザを開き、お使いのTriliumインスタンスにアクセスします。",
+          "u_04868d13ee77a94e810690d9_0": "ログインします。",
+          "u_5e7e235cf2c45c104b310dc6_0": "画面の右下にある「[…]」ボタンを押し、「共有」を選択します。",
+          "u_a894e2bb392e7d6d244d9ea7_0": "下にスクロールして項目の一覧を表示させ、__TRILIUM_PH_0__ホーム画面に追加__TRILIUM_PH_1__を選択します。",
+          "u_2a6982cf930f778e7f75a828_0": "__TRILIUM_PH_0__追加__TRILIUM_PH_1__を押すと、ウェブアプリが利用可能になります。",
+          "u_44d7a75b0825f3aafac2f5eb_0": "__TRILIUM_PH_0__ Google Chromeを使用するAndroid",
+          "u_1a5f12c7e01484698fdd066c_0": "Google Chromeで全画面表示を行うには、サーバーがHTTPSで配信されている必要があります。HTTPを使用している場合、アプリは通常のウェブページ（ブックマークのようなもの）として表示されます。",
+          "u_e981993b62cfbe574364eeef_1": "デフォルトのウェブブラウザを開き、お使いのTriliumインスタンスにアクセスします。",
+          "u_04868d13ee77a94e810690d9_1": "ログインします。",
+          "u_ea82a7a276d2ec4fc7a82cfa_0": "画面の右上にある縦に3つ並んだドットのアイコンを押し、__TRILIUM_PH_0__ホーム画面に追加。__TRILIUM_PH_1__を選択します。",
+          "u_f0c406d3bb268cf0983e07d1_0": "__TRILIUM_PH_0__インストール__TRILIUM_PH_1__オプションを選択します。",
+          "u_9e5061e70b7f13112da14236_0": "適切な名前を選択します。",
+          "u_7264942742c81f0aadd6911a_0": "ウェブアプリは、ホーム画面ではなくアプリケーションとして表示されます。"
+        },
+        "modelVersion": "gemini-3.5-flash-lite",
+        "usage": {
+          "promptTokenCount": 1316,
+          "candidatesTokenCount": 799,
+          "totalTokenCount": 2115,
+          "promptTokensDetails": [
+            {
+              "modality": "TEXT",
+              "tokenCount": 1316
+            }
+          ],
+          "serviceTier": "standard"
+        }
+      }
     },
     {
       "key": "RDslemsQ6gCp_b7a7c1351df179ec",
@@ -6881,7 +8244,41 @@
           "context": "Mobile Frontend > Sharing to Trilium",
           "contextHash": "42b832e21b9c6a276d5ed617387bccaaf628352c2ff869b3be191f4ba2fd30d0"
         }
-      ]
+      ],
+      "result": {
+        "key": "RDslemsQ6gCp_b7a7c1351df179ec",
+        "translations": {
+          "u_1770d1e237a1088b10659ed8_0": "Brave を使用した Android",
+          "u_b55dce868cd41881a7b73603_0": "フルスクリーンで表示するには、サーバーが HTTPS 経由で提供されている必要があります。HTTP を使用している場合、アプリは（ブックマークのように）通常のウェブページとして表示されます。",
+          "u_e981993b62cfbe574364eeef_2": "デフォルトのウェブブラウザを開き、Trilium インスタンスにアクセスします。",
+          "u_04868d13ee77a94e810690d9_2": "ログインします。",
+          "u_b40ad5d7252f63a1585db846_0": "画面右下の縦の三点リーダーアイコンを押して、__TRILIUM_PH_0__ホーム画面に追加__TRILIUM_PH_1__を選択します。",
+          "u_9bee823af9b67eacd4cc2911_0": "__TRILIUM_PH_0__インストール__TRILIUM_PH_1__オプションを押します。",
+          "u_7264942742c81f0aadd6911a_1": "ウェブアプリはホーム画面ではなく、アプリケーションとして表示されます。",
+          "u_f1ebf31522a24052e6a4a8e3_0": "Samsung Browser",
+          "u_e981993b62cfbe574364eeef_3": "デフォルトのウェブブラウザを開き、Trilium インスタンスにアクセスします。",
+          "u_04868d13ee77a94e810690d9_3": "ログインします。",
+          "u_f69ac75866590f3339901f97_0": "画面右下のハンバーガーメニューを押します。",
+          "u_3490a06e2f93d978b7b9129d_0": "__TRILIUM_PH_0__追加__TRILIUM_PH_1__を選択し、続いて__TRILIUM_PH_2__ホーム画面__TRILIUM_PH_3__を選択します。",
+          "u_a3cc2f39fa11dc4c4f61a395_0": "__TRILIUM_PH_0__追加__TRILIUM_PH_1__を押すと、ウェブアプリがホームページに表示されます。",
+          "u_11df4eb642c04feb3e621abe_0": "Trilium への共有__TRILIUM_PH_0__",
+          "u_fd4b893959bbb8235e74881f_0": "Android で PWA としてインストールすると、Trilium がシステムの共有メニューに表示されるため、他のアプリからリンク、テキスト、画像、その他のファイルを送信できるようになります。共有されたコンテンツは __TRILIUM_PH_0__Note Inbox__TRILIUM_PH_1__ に保存され、Trilium は作成したノートを開きます:",
+          "u_818edb928baed64c5219dd49_0": "テキストまたはリンクはテキストノートになります。共有されたリンクは __TRILIUM_PH_0__ ラベルにも保存されます。"
+        },
+        "modelVersion": "gemini-3.5-flash-lite",
+        "usage": {
+          "promptTokenCount": 1341,
+          "candidatesTokenCount": 883,
+          "totalTokenCount": 2224,
+          "promptTokensDetails": [
+            {
+              "modality": "TEXT",
+              "tokenCount": 1341
+            }
+          ],
+          "serviceTier": "standard"
+        }
+      }
     },
     {
       "key": "RDslemsQ6gCp_06ab073ec45d80df",
@@ -6991,7 +8388,8 @@
           "context": "Mobile Frontend > Scripting",
           "contextHash": "686981a03ae070eac42b20fcce191399bf7e17a7d2e86a3e46e4a5d33be4abf8"
         }
-      ]
+      ],
+      "error": "Missing or invalid batch response"
     },
     {
       "key": "MtPxeAWVAzMg_6e89fe821235e678",
@@ -7125,7 +8523,41 @@
           "context": "Web Clipper > Functionality",
           "contextHash": "cd41daaa18cc5435fabb95aa0d0be9600253a2f3541b27c4ec6441333b5de4be"
         }
-      ]
+      ],
+      "result": {
+        "key": "MtPxeAWVAzMg_6e89fe821235e678",
+        "translations": {
+          "u_bf28095afc9f16e32b63fa8d_0": "Web Clipper",
+          "u_0244e553e05e79151c7951af_0": "Trilium Web Clipper は、ウェブ上のテキスト、スクリーンショット、ページ全体、短いノートをクリップして、Trilium Notes に直接保存できるようにするウェブブラウザ拡張機能です。",
+          "u_1cc6b28e7f54a076c32e5d3d_0": "対応ブラウザ__TRILIUM_PH_0__",
+          "u_a5c2f65c3b956e0a650f1d27_0": "Trilium Web Clipper は、公式に以下のウェブブラウザをサポートしています。",
+          "u_168bea2b3a4a8dd3af2f370c_0": "Mozilla Firefox（Manifest v2 を使用）",
+          "u_b454b6d6fa0c0425f354a7cb_0": "Google Chrome（Manifest v3 を使用）。理論上、他の Chromium ベースのブラウザでも動作するはずですが、公式サポート外となります。",
+          "u_4edbfc7e3a2958e92246eee8_0": "拡張機能の入手方法__TRILIUM_PH_0__",
+          "u_21a4b0126d5803d71c8ee051_0": "拡張機能は、公式のブラウザウェブストアから入手できます。",
+          "u_b9f21ae734e2562b88ea879a_0": "__TRILIUM_PH_0__Firefox__TRILIUM_PH_1__: __TRILIUM_PH_2__Firefox アドオンの Trilium Web Clipper__TRILIUM_PH_3__",
+          "u_62f1efbe92ceae7eb4962029_0": "__TRILIUM_PH_0__Chrome__TRILIUM_PH_1__: __TRILIUM_PH_2__Chrome ウェブストアの Trilium Web Clipper__TRILIUM_PH_3__",
+          "u_3f0efa5fea726eda49c9d81c_0": "機能__TRILIUM_PH_0__",
+          "u_4c9a0fb306cf9d818bba9395_0": "テキストを選択して、右クリックのコンテキストメニューからクリップする",
+          "u_c710e3bd42f487ca358b9fd2_0": "画像やリンクをクリックし、コンテキストメニューから保存する",
+          "u_5fbbdf444828802d0c00f707_0": "ポップアップまたはコンテキストメニューからページ全体を保存する",
+          "u_ed921bb905df2e3ef3792e08_0": "ブラウザに表示されている PDF をファイルノートとして保存する",
+          "u_3ee29617d64af3e90f3272b0_0": "選択した領域、ページの見えている部分、またはページ全体のスクリーンショットを、ポップアップまたはコンテキストメニューから保存する"
+        },
+        "modelVersion": "gemini-3.5-flash-lite",
+        "usage": {
+          "promptTokenCount": 1234,
+          "candidatesTokenCount": 848,
+          "totalTokenCount": 2082,
+          "promptTokensDetails": [
+            {
+              "modality": "TEXT",
+              "tokenCount": 1234
+            }
+          ],
+          "serviceTier": "standard"
+        }
+      }
     },
     {
       "key": "MtPxeAWVAzMg_ea493040dc3d573f",
@@ -7259,7 +8691,8 @@
           "context": "Web Clipper > The popup",
           "contextHash": "a1bda14103675b358455f1da5b02ae22f7f1dd1db37e5f047891d9206f33b24f"
         }
-      ]
+      ],
+      "error": "Missing or invalid batch response"
     },
     {
       "key": "MtPxeAWVAzMg_734b8512277f7c66",
@@ -7393,7 +8826,41 @@
           "context": "Web Clipper > Keyboard shortcuts",
           "contextHash": "289bb14510d0ce2f644107b5b2ffccad0e96256e49f3dfb3e54039547a8f2cf4"
         }
-      ]
+      ],
+      "result": {
+        "key": "MtPxeAWVAzMg_734b8512277f7c66",
+        "translations": {
+          "u_3987e89544f5cd11e88466d0_0": "Triliumが見つからない場合、ポップアップにはアクションが表示される代わりにその理由が説明され、Triliumを再検索するボタンとオプションを開くボタンが表示されます。",
+          "u_0d65b69f282505478a064b2b_0": "ポップアップの下部には、拡張機能がTriliumに接続されているかどうかが、接続状況の説明の横にある色付きのドット（接続時は緑色、互換性のないバージョンの場合は黄色、Triliumが見つからない場合は赤色）で表示され、その後に拡張機能のオプションとこのヘルプページへのボタンが続きます。バーにマウスを合わせると、接続を再確認するためのボタンが横に表示され、Triliumに接続できないか互換性がない間は表示されたままになります。",
+          "u_526cf29b713358c730748a6a_0": "クリップの保存場所__TRILIUM_PH_0__",
+          "u_71389d476c2543a86e239379_0": "Triliumは、これらのクリップを「clipper inbox」ノートの下に新しい子ノートとして保存します。",
+          "u_822e18c3360f7ae9e4deddcd_0": "デフォルトでは__TRILIUM_PH_0__Day Notes__TRILIUM_PH_1__ですが、他の任意のノートに__TRILIUM_PH_2__ラベル__TRILIUM_PH_3__ __TRILIUM_PH_4__を設定することで上書きできます。",
+          "u_c5518a634cca377208c1bcb4_0": "同じページからの同じ種類のさらなるクリップは、日数が後になってからや、そのノートがclipper inboxから移動された後であっても、最初のクリップによって作成されたノートに追加されます。ノートはその場所に留まり、インボックスに再度クローンされることはありません。PDFは例外です。PDFは前回保存されてから変更されている可能性があるため、保存するたびに新しいファイルノートが作成されます。",
+          "u_19d5addbcd5f9a9083d3d118_0": "クリップされたノートのアイコンには、保存された内容が表示されます：",
+          "u_e7443ea2ab6bf9a59205d850_0": "__TRILIUM_PH_0__ コンテキストメニューからの選択範囲、スクリーンショット、またはリンク；",
+          "u_1acecf18049782310e4dd076_0": "__TRILIUM_PH_0__ ページ（__TRILIUM_PH_1__Article__TRILIUM_PH_2__ または __TRILIUM_PH_3__Whole page__TRILIUM_PH_4__）；",
+          "u_fc24e5642842f6e639a9b637_0": "__TRILIUM_PH_0__ ブックマーク；",
+          "u_0d1a1f039a6be43edda7fdb6_0": "__TRILIUM_PH_0__ ウィンドウのタブ。",
+          "u_79bd8be87ccd14fff92d8968_0": "アイコンはノートの__TRILIUM_PH_0__ラベルから取得されるため、ノートに__TRILIUM_PH_1__ラベルを設定すると置き換わります。保存されたPDFには、Trilium内の他のPDFと同様に、PDFファイルのアイコンが付きます。",
+          "u_40e948d8fad8ace2932c5aa1_0": "埋め込み動画__TRILIUM_PH_0__",
+          "u_967b981e368bfc21ed20598d_0": "クリップされたページに埋め込まれたYouTube動画は、動画のタイトルとサムネイルを持つ__TRILIUM_PH_0__Link Previews__TRILIUM_PH_1__埋め込みとして保存されます。エディターに追加されたリンクプレビューと同様に、動画はクリックしたときのみ再生されます。その他の埋め込みコンテンツ（他のウェブサイトの動画など）は保存されません。",
+          "u_3ff024ca0e3f1cc8280d8855_0": "ポップアップのプレビューには、このような各動画がYouTubeアイコンと動画のショートリンクを持つチップとして表示され、保存されない埋め込みコンテンツは除外されます。",
+          "u_56b405fc55043d2d26adf683_0": "キーボードショートカット__TRILIUM_PH_0__"
+        },
+        "modelVersion": "gemini-3.5-flash-lite",
+        "usage": {
+          "promptTokenCount": 1565,
+          "candidatesTokenCount": 1115,
+          "totalTokenCount": 2680,
+          "promptTokensDetails": [
+            {
+              "modality": "TEXT",
+              "tokenCount": 1565
+            }
+          ],
+          "serviceTier": "standard"
+        }
+      }
     },
     {
       "key": "MtPxeAWVAzMg_2b0d45342955a114",
@@ -7527,7 +8994,41 @@
           "context": "Web Clipper > Configuration > When a clipping fails",
           "contextHash": "52459f3163805b643e0d9b62bca8656e92db3252e171dda4534ba65865ba2954"
         }
-      ]
+      ],
+      "result": {
+        "key": "MtPxeAWVAzMg_2b0d45342955a114",
+        "translations": {
+          "u_7023a1a08a000da51369c77b_0": "ほとんどの機能でキーボードショートカットを利用できます：",
+          "u_0559aa695570955cbbf125b7_0": "選択したテキストを保存：__TRILIUM_PH_0__Ctrl__TRILIUM_PH_1__+__TRILIUM_PH_2__Shift__TRILIUM_PH_3__+__TRILIUM_PH_4__S__TRILIUM_PH_5__ （Mac：__TRILIUM_PH_6__⌘__TRILIUM_PH_7__+__TRILIUM_PH_8__⇧__TRILIUM_PH_9__+__TRILIUM_PH_10__S__TRILIUM_PH_11__）",
+          "u_46d06cb701b325afe1a9e2b7_0": "ページ全体を保存：__TRILIUM_PH_0__Alt__TRILIUM_PH_1__+__TRILIUM_PH_2__Shift__TRILIUM_PH_3__+__TRILIUM_PH_4__S__TRILIUM_PH_5__ （Mac：__TRILIUM_PH_6__⌥__TRILIUM_PH_7__+__TRILIUM_PH_8__⇧__TRILIUM_PH_9__+__TRILIUM_PH_10__S__TRILIUM_PH_11__）",
+          "u_0115e5d270d56e40d3ae2afb_0": "領域のスクリーンショットを保存：__TRILIUM_PH_0__Ctrl__TRILIUM_PH_1__+__TRILIUM_PH_2__Shift__TRILIUM_PH_3__+__TRILIUM_PH_4__E__TRILIUM_PH_5__ （Mac：__TRILIUM_PH_6__⌘__TRILIUM_PH_7__+__TRILIUM_PH_8__⇧__TRILIUM_PH_9__+__TRILIUM_PH_10__E__TRILIUM_PH_11__）",
+          "u_1d5f30724b8e3f2cb3e07555_0": "現在のウィンドウのすべてのタブを保存：デフォルトのショートカットはありませんが、下記のように割り当てることができます。",
+          "u_b545e2bc3d63f259c5caf403_0": "ページ全体のスクリーンショットを保存：デフォルトのショートカットはありませんが、下記のように割り当てることができます。",
+          "u_4934cfc334a5f9b2943b9470_0": "カスタムショートカットを設定するには、お使いのブラウザの手順に従ってください。",
+          "u_eded9a1315553bb723b075c8_0": "__TRILIUM_PH_0__Firefox__TRILIUM_PH_1__：__TRILIUM_PH_2__ → 歯車アイコン ⚙️ → 拡張機能のショートカットを管理",
+          "u_30d49592c7506f2535955762_0": "__TRILIUM_PH_0__Chrome__TRILIUM_PH_1__：__TRILIUM_PH_2__",
+          "u_995bf402d3752832c495de4b_0": "Firefoxでは、デフォルトのショートカットが一部のブラウザ機能と干渉します。そのため、キーボードの組み合わせでWeb Clipperのアクションがトリガーされません。これを修正するには、機能する別のキーボードショートカットに変更してください。デフォルト値は将来のバージョンで調整される予定です。",
+          "u_91e318d9b9bed0d1467013a3_0": "設定__TRILIUM_PH_0__",
+          "u_1e59267b91ebce642918701b_0": "拡張機能は、実行中のTriliumインスタンスに接続する必要があります。デフォルトでは、ローカルコンピュータのポート37840でデスクトップアプリケーションを探します。（__TRILIUM_PH_0__環境変数を使用して起動された場合などにより）デスクトップアプリケーションが別のポートで実行されている場合は、拡張機能のオプションにそのポートを入力してください。拡張機能は、Triliumへの接続を1分ごとに再度確認するか、ポップアップの下部にある更新ボタンを押すとすぐに確認します。",
+          "u_e7b941c9aaad9eed9828d319_0": "デスクトップアプリケーションを実行していない場合や、デスクトップアプリケーションを実行せずに動作させたい場合は、__TRILIUM_PH_0__サーバー__TRILIUM_PH_1__のアドレスを設定することも可能です。",
+          "u_b5581f3a5897b5c4fd1e7f56_0": "サーバーに接続するには、拡張機能のオプションにサーバーのアドレスとパスワードを入力し、__TRILIUM_PH_0__Login to the server instance__TRILIUM_PH_1__を押します。サーバーで__TRILIUM_PH_2__多要素認証__TRILIUM_PH_3__を使用している場合は、認証アプリからの現在のコード（またはリカバリコードの1つ）を__TRILIUM_PH_4__Authentication code__TRILIUM_PH_5__にも入力してください。そうでない場合は空欄のままにします。パスワードとコードは、拡張機能用のトークンを取得するために一度だけ使用され、保存されません。",
+          "u_e387b4b73d1e4a34cd37ddaa_0": "クリップに失敗した場合__TRILIUM_PH_0__",
+          "u_4a2464e3840a364459784579_0": "キーボードショートカットやコンテキストメニューを使用してクリップを行った後、保存されたことを確認する通知がページの隅に表示され、Triliumで新しいノートを開くためのリンクが含まれます。ポップアップが保存される前に閉じられなかった限り、ポップアップから行ったクリップの結果はポップアップ内に報告されます。クリップを保存できなかった場合は、その理由がメッセージに表示されます："
+        },
+        "modelVersion": "gemini-3.5-flash-lite",
+        "usage": {
+          "promptTokenCount": 1905,
+          "candidatesTokenCount": 1534,
+          "totalTokenCount": 3439,
+          "promptTokensDetails": [
+            {
+              "modality": "TEXT",
+              "tokenCount": 1905
+            }
+          ],
+          "serviceTier": "standard"
+        }
+      }
     },
     {
       "key": "MtPxeAWVAzMg_06ce4ce39dab1d43",
@@ -7661,7 +9162,8 @@
           "context": "Web Clipper > Testing development versions",
           "contextHash": "553dfc9fb89f1f1d910581683ef45ecf88c6ebdc439a3c101527ac0d68e83611"
         }
-      ]
+      ],
+      "error": "Missing or invalid batch response"
     },
     {
       "key": "MtPxeAWVAzMg_f98014e9a16a34eb",
@@ -7779,7 +9281,8 @@
           "context": "Web Clipper > Credits",
           "contextHash": "53d2223c6ca2ddabfddf777fdcdc909060fe5c8ba8b1b9b6ecf72666e29d10c9"
         }
-      ]
+      ],
+      "error": "Missing or invalid batch response"
     },
     {
       "key": "n1lujUxCwipy_a25856f77f474e2c",
@@ -7865,7 +9368,35 @@
           "context": "Upgrading TriliumNext > Sync Compatibility",
           "contextHash": "eaae3a10462c789521cab9dd7c55d993704095f59892130bdf7da6f356e1c5c1"
         }
-      ]
+      ],
+      "result": {
+        "key": "n1lujUxCwipy_a25856f77f474e2c",
+        "translations": {
+          "u_53cc83cb13944ef652b6f28e_0": "TriliumNextのアップグレード",
+          "u_d93f213b14bc66a659189fe3_0": "このドキュメントでは、Triliumを新しいリリースバージョンにアップグレードするために必要な手順の概要を説明します。",
+          "u_38bfcfa57037717e7d5a6ea5_0": "アップグレードの方法__TRILIUM_PH_0__",
+          "u_11e00a44cca4a6bf7a550397_0": "Triliumは組み込みの自動アップグレードをサポートしていません。すべての更新は手動で行う必要があります。アップグレードの手順は、インストール方法によって異なります。",
+          "u_ffd7811b8a77f029b99b9e80_0": "__TRILIUM_PH_0____TRILIUM_PH_1__Dockerサーバーのインストール__TRILIUM_PH_2____TRILIUM_PH_3__：新しいイメージをプルし、コンテナを再起動します。",
+          "u_ad356f5d89bd537ec047aa46_0": "__TRILIUM_PH_0__その他のインストール__TRILIUM_PH_1__：__TRILIUM_PH_2__リリースページ__TRILIUM_PH_3__から最新バージョンをダウンロードし、既存のアプリケーションファイルを置き換えます。",
+          "u_de2b1a7c5733681c239649af_0": "データベースの互換性と移行__TRILIUM_PH_0__",
+          "u_0d2c0f1a4309bf0de4369115_0": "起動時に、Triliumは自動的に__TRILIUM_PH_0__データベース__TRILIUM_PH_1__を新しいバージョンに移行します。移行後は、古いバージョンのTriliumでデータベースを読み取れなくなることに注意してください。Triliumとそのデータベースを以前のバージョンに戻す必要がある場合は、移行前に作成された__TRILIUM_PH_2__バックアップ__TRILIUM_PH_3__を復元できます。",
+          "u_0c0b3ab93c9213d5ece41867_0": "同期の互換性__TRILIUM_PH_0__",
+          "u_af003c6304d56f987bc39bb9_0": "Triliumで使用される__TRILIUM_PH_0__同期__TRILIUM_PH_1__プロトコルにはバージョンがあり、同期クラスターのすべてのメンバーが同じプロトコルバージョンを使用する必要があります。したがって、新しいバージョンにアップグレードする際、同期クラスター内のすべてのインスタンスをアップグレードする必要がある場合があります。同期プロトコルバージョンの変更は、通常、リリースページに記載されます。"
+        },
+        "modelVersion": "gemini-3.5-flash-lite",
+        "usage": {
+          "promptTokenCount": 1101,
+          "candidatesTokenCount": 744,
+          "totalTokenCount": 1845,
+          "promptTokensDetails": [
+            {
+              "modality": "TEXT",
+              "tokenCount": 1101
+            }
+          ],
+          "serviceTier": "standard"
+        }
+      }
     },
     {
       "key": "ODY7qQn5m2FT_9e22aca7e0f8a25a",
@@ -7999,7 +9530,8 @@
           "context": "Backup > Creating a backup",
           "contextHash": "31aec06b4548db916796664ae5a6a0832cdd165a1cc6382d1021b7d44c293e2c"
         }
-      ]
+      ],
+      "error": "Missing or invalid batch response"
     },
     {
       "key": "ODY7qQn5m2FT_8209873bd862b3cc",
@@ -8133,7 +9665,41 @@
           "context": "Backup > Restoring a backup > The alternative way for restoring a backup",
           "contextHash": "788621b73c5746f1705a97a3649ae82ee520fed24345c6a894bc130dbdbca4c0"
         }
-      ]
+      ],
+      "result": {
+        "key": "ODY7qQn5m2FT_8209873bd862b3cc",
+        "translations": {
+          "u_7f58a98fae3c7bee94a9bdde_0": "アプリの再起動を促すメッセージが表示されます。確認すると、アプリが自動的に再起動します。",
+          "u_1c2dd295d02728d2e9795b2a_0": "__TRILIUM_PH_0__バックアップ名__TRILIUM_PH_1__または__TRILIUM_PH_2__パスワード__TRILIUM_PH_3__（どちらも任意）を設定し、__TRILIUM_PH_4__続行__TRILIUM_PH_5__を押します。",
+          "u_8da5e4df3ae8e200d82e7bf3_0": "__TRILIUM_PH_0__生成してダウンロード__TRILIUM_PH_1__ボタンを押し、ダウンロードが完了するまで待ちます。",
+          "u_24229fc2813997e9b22191bc_0": "ダウンロードしたファイルがデバイスに保存されていることを確認したら、__TRILIUM_PH_0__完了__TRILIUM_PH_1__を押して完了させます。",
+          "u_264881885a6823349b2c26fa_0": "バックアップのダウンロード__TRILIUM_PH_0__",
+          "u_892415c77034f26e6025c8fd_0": "__TRILIUM_PH_0__デスクトップおよびウェブクライアント__TRILIUM_PH_1__：既存のバックアップをダウンロードするには、__TRILIUM_PH_2__オプション__TRILIUM_PH_3__ → __TRILIUM_PH_4__バックアップ__TRILIUM_PH_5__ → __TRILIUM_PH_6__既存のバックアップ__TRILIUM_PH_7__に移動し、__TRILIUM_PH_8__ダウンロード__TRILIUM_PH_9__（__TRILIUM_PH_10__）を選択します。",
+          "u_f8ff3b4908df2772501eb4a1_0": "__TRILIUM_PH_0__スタンドアロンクライアント__TRILIUM_PH_1__：このバージョンでは自動バックアップはサポートされていません。__TRILIUM_PH_2__オプション__TRILIUM_PH_3__ → __TRILIUM_PH_4__バックアップ__TRILIUM_PH_5__ → __TRILIUM_PH_6__バックアップのダウンロード__TRILIUM_PH_7__に移動して、手動でバックアップを作成およびダウンロードできます。",
+          "u_f12a672c2fea8f37055fab8c_0": "バックアップの復元__TRILIUM_PH_0__",
+          "u_6410ce59379ba4c7f7cd8c40_0": "__TRILIUM_PH_0__新しいTriliumインスタンスの場合__TRILIUM_PH_1__：新しいTriliumインスタンスをセットアップする際、セットアップメニューの__TRILIUM_PH_2__バックアップから復元__TRILIUM_PH_3__オプションを使用すると、既存のバックアップの復元手順に沿って操作できます。",
+          "u_f0d37ce9666df362e99bffd2_0": "__TRILIUM_PH_0__既存のTriliumインスタンスの場合__TRILIUM_PH_1__：バックアップを復元して現在のデータベースを置き換えるには、__TRILIUM_PH_2__オプション__TRILIUM_PH_3__ → __TRILIUM_PH_4__バックアップ__TRILIUM_PH_5__に移動し、__TRILIUM_PH_6__バックアップの復元__TRILIUM_PH_7__をクリックします。復元プロセスを開始するためにアプリの再起動を求めるプロンプトが表示されます。再起動後、既存のデータベースを上書きする前にバックアップを作成するかどうかを選択できます。注意：ウェブクライアントの場合は、最初からやり直す機能（__TRILIUM_PH_8__オプション__TRILIUM_PH_9__ → __TRILIUM_PH_10__データベース__TRILIUM_PH_11__ → __TRILIUM_PH_12__最初からやり直す__TRILIUM_PH_13__（__TRILIUM_PH_14__））を使用してセットアップ画面に切り替え、バックアップを復元してください。",
+          "u_dd7a6c08e9b78338607cd0ff_0": "次に、デバイスからバックアップファイル（.dbまたは.tnbackup）を選択します。ウェブクライアントは、デスクトップアプリケーションと同様に、大規模なバックアップの処理に最適化されており、不安定なネットワーク環境に対しても耐性があります。",
+          "u_0d49521d7fd5b1348e133ea9_0": "データベースが暗号化されている場合は、バックアップファイルの暗号化に使用したパスワードの入力を求められます。正しいパスワードがないと、復号と復元を進めることはできません。",
+          "u_f8fe78fa710fa7ae48c5e91d_0": "バックアップの復元には、そのサイズに応じて時間がかかる場合があります。完了すると、Triliumは新しく復元されたデータベースを開きます。",
+          "u_66c49d7195d5645db9bdf54b_0": "バックアップを復元する別の方法__TRILIUM_PH_0__",
+          "u_fb1c3fd2edf420d7109114f5_0": "週次バックアップを復元したい場合（.db形式のみ、.tnbackupファイルはこの方法ではサポートされていません）の手順は以下の通りです：",
+          "u_f81726320fb3bdcb0420f24e_0": "Triliumが使用している__TRILIUM_PH_0__データディレクトリ__TRILIUM_PH_1__を見つけます。簡単な方法は、左上の「メニュー」から「Trilium Notesについて」（__TRILIUM_PH_2__）を開き、「データディレクトリ」を確認することです。"
+        },
+        "modelVersion": "gemini-3.5-flash-lite",
+        "usage": {
+          "promptTokenCount": 1891,
+          "candidatesTokenCount": 1474,
+          "totalTokenCount": 3365,
+          "promptTokensDetails": [
+            {
+              "modality": "TEXT",
+              "tokenCount": 1891
+            }
+          ],
+          "serviceTier": "standard"
+        }
+      }
     },
     {
       "key": "ODY7qQn5m2FT_62552cc08e5c974a",
@@ -8267,7 +9833,41 @@
           "context": "Backup > Backup encryption",
           "contextHash": "6a9b308bd8a3194885ed0477c6d538ba26df549deea4cd6b0f45ae130dcc51a8"
         }
-      ]
+      ],
+      "result": {
+        "key": "ODY7qQn5m2FT_62552cc08e5c974a",
+        "translations": {
+          "u_16ee131f79d2950dd85b3439_0": "今後、__TRILIUM_PH_0__ をデータディレクトリと呼びます",
+          "u_016574d001b772372cf66910_0": "__TRILIUM_PH_0__ を見つけてください - これは __TRILIUM_PH_1__Database__TRILIUM_PH_2__ のバックアップです。",
+          "u_c058caf1c99be33a6d4c7796_0": "この時点でTriliumを停止/終了します",
+          "u_2fcdb18c590e3e631bf8ad80_0": "__TRILIUM_PH_0__、__TRILIUM_PH_1__、__TRILIUM_PH_2__ を削除します（後の2つのファイルは自動生成されます）",
+          "u_0ed785096da435b558bcb389_0": "この __TRILIUM_PH_0__ をコピーし、__TRILIUM_PH_1__ に名前を変更します",
+          "u_befe17d93d35680207eded59_0": "例えば __TRILIUM_PH_0__ を使用するなどして、ファイルが書き込み可能であることを確認してください",
+          "u_8f82d5942188cbbb1c0e84c7_0": "Triliumを再度起動します",
+          "u_a81c29e6df34e59b68fea918_0": "同期を設定している場合は、同期クラスターのすべてのメンバーでこれを実行する必要があります。そうしないと、ドキュメントの古いバージョン（復元されたバックアップ）が検出され、新しいバージョンに同期されてしまいます。",
+          "u_c61c5699b757dba6ba7564f1_0": "Triliumでのバックアップ先の変更（デスクトップ版のみ）__TRILIUM_PH_0__",
+          "u_e48f573f5f76cccc3c73ee1e_0": "バージョン 0.105 以降、Trilium デスクトップクライアントではバックアップの保存先ディレクトリを変更できるようになりました。カスタムバックアップディレクトリを指定するには、次の手順に従います。",
+          "u_7b8b0c06e0f43a1e9e587ca9_0": "__TRILIUM_PH_0__Options__TRILIUM_PH_1__ → __TRILIUM_PH_2__Backup__TRILIUM_PH_3__ → __TRILIUM_PH_4__Backup location__TRILIUM_PH_5__ に移動します。",
+          "u_2fc8141763e941a89e1d572d_0": "__TRILIUM_PH_0__Select location__TRILIUM_PH_1__ ボタンをクリックします。",
+          "u_ba7049d639e725863db64a0f_0": "ファイルシステム上の書き込み可能なディレクトリを任意に選択します。オペレーティングシステムによっては、ネットワーク共有なども含まれる場合があります。",
+          "u_508294a83d8e150f0cab836d_0": "カスタムディレクトリを設定すると、手動および自動のバックアップはすべてそこに保存されます。選択したディレクトリが利用できなくなった場合、バックアップが失敗したり、デフォルトの場所にフォールバックしたりする可能性があります。",
+          "u_949bf804be0b3d51f648ae7e_0": "安全ではないバックアップ先を使用する際にプライバシーを向上させるため、バックアップ暗号化を有効にすることができます。これにより、正しいパスワードなしではバックアップファイルを読み取れなくなります。",
+          "u_c68a0b6fc6116a914b3334eb_0": "バックアップの暗号化__TRILIUM_PH_0__"
+        },
+        "modelVersion": "gemini-3.5-flash-lite",
+        "usage": {
+          "promptTokenCount": 1507,
+          "candidatesTokenCount": 1020,
+          "totalTokenCount": 2527,
+          "promptTokensDetails": [
+            {
+              "modality": "TEXT",
+              "tokenCount": 1507
+            }
+          ],
+          "serviceTier": "standard"
+        }
+      }
     },
     {
       "key": "ODY7qQn5m2FT_8a2a0add8908c510",
@@ -8401,7 +10001,41 @@
           "context": "Backup > Backup compression > Enabling Backup Compression (Desktop Only)",
           "contextHash": "e867ebbb097de7267c0f35f80294de952047f6efcd8d784dc324516c1850b1ec"
         }
-      ]
+      ],
+      "result": {
+        "key": "ODY7qQn5m2FT_8a2a0add8908c510",
+        "translations": {
+          "u_a12fa8fe0154d24c12e234ef_0": "Triliumではデータベースのバックアップの内容全体を保護できるため、正しいパスワードが入力されない限り読み取れない状態に保つことができます。これは、ネットワーク共有、暗号化されていない外付けドライブ、クラウドサービスなどの安全性の低い場所にバックアップを保存する場合に特に役立ちます。",
+          "u_04137c67acceda4f5e84d91f_0": "暗号化されたデータベースバックアップには、AES-256-GCMを採用したTrilium Backup Container（.tnbackup）フォーマットが使用されます。この認証付き暗号化モードはデータをスクランブルし、データが改ざんされていないことを確認するタグを生成します。パスワード自体が直接キーとして使用されることはなく、低速かつメモリ集約型になるよう設計された鍵導出関数であるscryptによって処理されるため、強力なハードウェアを使用した場合でも、総当たり攻撃によるパスワードの推測が困難になります。また、各バックアップには16バイトのランダムなソルトが割り当てられ、同じパスワードから同じ暗号化キーが2度生成されないようになっています。さらに、チャンクの順序、長さ、ヘッダーフラグなどの重要なメタデータは、「追加の認証データ（additional authenticated data）」を介して暗号化に暗号学的に結び付けられており、順序の変更、切り詰め、スプライシング操作などの検出されない改ざんを防ぎます。",
+          "u_4785d8815b3b05f637114270_0": "バックアップ暗号化の有効化__TRILIUM_PH_0__",
+          "u_312bdb23b51ea15eb9be5a12_0": "デスクトップアプリケーションで自動バックアップの暗号化を有効にするには：",
+          "u_07eb4d7ed042457ad071b840_0": "__TRILIUM_PH_0__オプション__TRILIUM_PH_1__ → __TRILIUM_PH_2__バックアップ__TRILIUM_PH_3__ → __TRILIUM_PH_4__バックアップオプション__TRILIUM_PH_5__ に移動します。",
+          "u_739f92b8221211abb5a66260_0": "__TRILIUM_PH_0__暗号化を有効にする__TRILIUM_PH_1__をクリックし、パスワードを設定します。",
+          "u_17e59aa996bbb6e4db048c74_0": "暗号化を有効にすると、新しく作成されるすべてのバックアップ（自動および手動の両方）が指定したパスワードで暗号化されます。暗号化を有効にする前に作成されたバックアップは、保護されていないままになります。",
+          "u_c5d2a3a71a8574d176b55e91_0": "__TRILIUM_PH_0__パスワードの変更__TRILIUM_PH_1__ボタンを使用して、いつでもパスワードを変更できます。新しいパスワードは、変更後に作成されたバックアップに適用されます。",
+          "u_d1bd42fcb6e8a60c60a22439_0": "暗号化を無効にするには、__TRILIUM_PH_0__オプション__TRILIUM_PH_1__ → __TRILIUM_PH_2__バックアップ__TRILIUM_PH_3__ → __TRILIUM_PH_4__暗号化を有効にする__TRILIUM_PH_5__のチェックを外します。",
+          "u_9a84515e5215cca0e132d1dd_0": "システムによっては、Triliumが暗号化パスワードを安全に保存するためのキーリングを利用できない場合があります。このような場合、暗号化オプションは無効になります。",
+          "u_6a110cdcde27c834f330cd09_0": "バックアップの圧縮__TRILIUM_PH_0__",
+          "u_f551330419297fbbfbd2cb2c_0": "ストレージフットプリントを最小限に抑えるため、データベースのバックアップをオプションで圧縮できます。この方法は、主にデータベースがテキストコンテンツで構成されている場合に効果的です。ただし、メディアファイル（画像、動画、音声）やPDF、ODF、DOCXファイルは、元のフォーマットですでに圧縮されているため、さらに圧縮しても効果はありません。",
+          "u_30d2ae29c7d42d64d60b092c_0": "圧縮されたバックアップは、RFC 1952 GZIP圧縮を採用したTrilium Backup Container（.tnbackup）を使用して保存されます。",
+          "u_64e7624e18a9fd9e08a200c3_0": "__TRILIUM_PH_0__注意：__TRILIUM_PH_1__圧縮を行うと、バックアップの作成と復元に必要な時間が増加します。また、自動バックアップ中のCPU使用率が高くなり、バッテリー駆動のデバイスではバッテリーの消耗が早くなる可能性があります。このオプションは必要な場合にのみ有効にしてください。",
+          "u_bbb6be080e85033c4e7a16c7_0": "バックアップ圧縮の有効化（デスクトップ版のみ）__TRILIUM_PH_0__",
+          "u_a2666ba0acf4a2eca5a5a89c_0": "新規の自動および手動バックアップの圧縮を有効にするには、__TRILIUM_PH_0__オプション__TRILIUM_PH_1__ → __TRILIUM_PH_2__バックアップ__TRILIUM_PH_3__ → __TRILIUM_PH_4__バックアップオプション__TRILIUM_PH_5__に移動し、__TRILIUM_PH_6__圧縮を有効にする__TRILIUM_PH_7__をオンに切り替えます。"
+        },
+        "modelVersion": "gemini-3.5-flash-lite",
+        "usage": {
+          "promptTokenCount": 1755,
+          "candidatesTokenCount": 1420,
+          "totalTokenCount": 3175,
+          "promptTokensDetails": [
+            {
+              "modality": "TEXT",
+              "tokenCount": 1755
+            }
+          ],
+          "serviceTier": "standard"
+        }
+      }
     },
     {
       "key": "ODY7qQn5m2FT_a1aaeb706468c401",
@@ -8439,7 +10073,8 @@
           "context": "Backup > Disabling backup",
           "contextHash": "a85232196805b7c37599b64cb17758e99b9e057c9263baceccefec780ad9ef45"
         }
-      ]
+      ],
+      "error": "Missing or invalid batch response"
     },
     {
       "key": "tAassRL4RSQL_4fa37c4569d9cb47",
@@ -8493,9 +10128,288 @@
           "context": "Data directory",
           "contextHash": "5e6050c24c42be856e48e5212f39f88ef71aa7ab18c9d5906cac32827a6be77c"
         }
-      ]
+      ],
+      "result": {
+        "key": "tAassRL4RSQL_4fa37c4569d9cb47",
+        "translations": {
+          "u_58bcb9fe93def7dbc3f07b2d_0": "データディレクトリ",
+          "u_7c61d315c9a649fa4ed51a0e_0": "データディレクトリの内容:",
+          "u_3bce4b752ec10ac6e8b35679_0": "__TRILIUM_PH_0__ - __TRILIUM_PH_1__データベース__TRILIUM_PH_2__",
+          "u_cdff63531a119c3e2ec24468_0": "__TRILIUM_PH_0__ - Triliumアプリケーションが実行されるポートなどのインスタンスレベルの設定",
+          "u_2d435c8253f0094c56d77e4f_0": "__TRILIUM_PH_0__ - ドキュメントの自動__TRILIUM_PH_1__バックアップ__TRILIUM_PH_2__を格納します",
+          "u_3528c9b06d272b3e853caa28_0": "__TRILIUM_PH_0__ - アプリケーションのログファイルを格納します"
+        },
+        "modelVersion": "gemini-3.5-flash-lite",
+        "usage": {
+          "promptTokenCount": 636,
+          "candidatesTokenCount": 337,
+          "totalTokenCount": 973,
+          "promptTokensDetails": [
+            {
+              "modality": "TEXT",
+              "tokenCount": 636
+            }
+          ],
+          "serviceTier": "standard"
+        }
+      }
     }
   ],
   "name": "batches/02spwqy837h8pi7qzqmeo4fgsqo7bgs45hwh",
-  "state": "JOB_STATE_PENDING"
+  "state": "JOB_STATE_SUCCEEDED",
+  "diagnostics": [
+    {
+      "responseIndex": 3,
+      "requestKey": "nRqcgfTb97uV_5908fc7b05ca8cd9",
+      "reason": "Translation changed protected placeholders"
+    },
+    {
+      "responseIndex": 10,
+      "requestKey": "7iwde4lsKc6O_1601ea73eb6b0e5c",
+      "reason": "Translation changed protected placeholders"
+    },
+    {
+      "responseIndex": 18,
+      "requestKey": "rWX5eY045zbE_aa92c763e0fd08e2",
+      "reason": "Translation changed protected placeholders"
+    },
+    {
+      "responseIndex": 20,
+      "requestKey": "rWX5eY045zbE_3242ff563d14a9c8",
+      "reason": "Translation changed protected placeholders"
+    },
+    {
+      "responseIndex": 36,
+      "requestKey": "l2VkvOwUNfZj_3ad8b6855a504eef",
+      "reason": "Translation changed protected placeholders"
+    },
+    {
+      "responseIndex": 38,
+      "requestKey": "lwAX5SvbrK2g_912c8a174c176c85",
+      "reason": "Translation changed protected placeholders"
+    },
+    {
+      "responseIndex": 40,
+      "requestKey": "0hzsNCP31IAB_24728057a01a7853",
+      "reason": "Translation changed protected placeholders"
+    },
+    {
+      "responseIndex": 41,
+      "requestKey": "0hzsNCP31IAB_8583699ccce0cc53",
+      "reason": "Translation changed protected placeholders"
+    },
+    {
+      "responseIndex": 42,
+      "requestKey": "7DAiwaf8Z7Rz_3bd51cf4df8ceac1",
+      "reason": "Translation changed protected placeholders"
+    },
+    {
+      "responseIndex": 43,
+      "requestKey": "7DAiwaf8Z7Rz_2560dd8a607242d0",
+      "reason": "Translation changed protected placeholders"
+    },
+    {
+      "responseIndex": 44,
+      "requestKey": "IgkTHSaFfq6A_bf64e83ab9cbaf54",
+      "reason": "Translation changed protected placeholders"
+    },
+    {
+      "responseIndex": 46,
+      "requestKey": "IgkTHSaFfq6A_b99a4b6ad9a7ac80",
+      "reason": "Translation changed protected placeholders"
+    },
+    {
+      "responseIndex": 47,
+      "requestKey": "x1lQNKQBqLcA_834edb7798673688",
+      "reason": "Translation changed protected placeholders"
+    },
+    {
+      "responseIndex": 48,
+      "requestKey": "x1lQNKQBqLcA_acf584e12b2a352b",
+      "reason": "Translation changed protected placeholders"
+    },
+    {
+      "responseIndex": 49,
+      "requestKey": "x1lQNKQBqLcA_e28c7da4bde3da4a",
+      "reason": "Translation changed protected placeholders"
+    },
+    {
+      "responseIndex": 50,
+      "requestKey": "x1lQNKQBqLcA_a22ab153daf2a4e2",
+      "reason": "Translation changed protected placeholders"
+    },
+    {
+      "responseIndex": 53,
+      "requestKey": "yeEaYqosGLSh_24b3fa25f0fad3af",
+      "reason": "Translation changed protected placeholders"
+    },
+    {
+      "responseIndex": 62,
+      "requestKey": "RDslemsQ6gCp_0f7ffdd2c058a946",
+      "reason": "Translation changed protected placeholders"
+    },
+    {
+      "responseIndex": 64,
+      "requestKey": "RDslemsQ6gCp_7318a97cc77a5cdf",
+      "reason": "Translation changed protected placeholders"
+    },
+    {
+      "responseIndex": 67,
+      "requestKey": "RDslemsQ6gCp_06ab073ec45d80df",
+      "reason": "Translation changed protected placeholders"
+    },
+    {
+      "responseIndex": 69,
+      "requestKey": "MtPxeAWVAzMg_ea493040dc3d573f",
+      "reason": "Translation changed protected placeholders"
+    },
+    {
+      "responseIndex": 72,
+      "requestKey": "MtPxeAWVAzMg_06ce4ce39dab1d43",
+      "reason": "Translation changed protected placeholders"
+    },
+    {
+      "responseIndex": 73,
+      "requestKey": "MtPxeAWVAzMg_f98014e9a16a34eb",
+      "reason": "Translation changed protected placeholders"
+    },
+    {
+      "responseIndex": 75,
+      "requestKey": "ODY7qQn5m2FT_9e22aca7e0f8a25a",
+      "reason": "Translation changed protected placeholders"
+    },
+    {
+      "responseIndex": 79,
+      "requestKey": "ODY7qQn5m2FT_a1aaeb706468c401",
+      "reason": "Translation changed protected placeholders"
+    }
+  ],
+  "rejectedResponses": [
+    {
+      "responseIndex": 3,
+      "text": "{\n  \"requestKey\": \"nRqcgfTb97uV_5908fc7b05ca8cd9\",\n  \"translations\": {\n    \"u_0ec4982d1aa404cf633bf9d3_0\": \"デスクトップアプリケーションをサーバーとして使用する\",\n    \"u_b169d26b5ecc8e0f953094be_0\": \"状況によっては、__TRILIUM_PH_0__専用サーバーのインストール__TRILIUM_PH_1__が現実的ではない場合があります。デスクトップアプリケーションには、デフォルトで完全に機能するサーバーインスタンスが付属しています。\",\n    \"u_970ed7996d9d73fbe7f0666f_0\": \"セキュリティ上の理由から、この機能はデフォルトでは__TRILIUM_PH_0__有効になっていません__TRILIUM_PH_1__。有効にするには、__TRILIUM_PH_4__セキュリティ__TRILIUM_PH_5__の__TRILIUM_PH_2__ネットワークアクセス__TRILIUM_PH_3__を有効にしてください。\",\n    \"u_0544c57d39f976d74960a0c2_0\": \"ネットワークアクセスを有効にしてアプリケーションを再起動した後、__TRILIUM_PH_0__http://localhost:37840/login__TRILIUM_PH_1__にアクセスすることで、ローカルからこのWebインターフェースにアクセスできます。\",\n    \"u_65ccacf46686415eacbf8afb_0\": \"Webインターフェースでは、ログインにパスワードが要求されます。まだ設定していない場合は、まずデスクトップアプリケーションの__TRILIUM_PH_0__オプション__TRILIUM_PH_1__ → __TRILIUM_PH_2__パスワードと認証__TRILIUM_PH_3__で設定してください。セキュリティ上の理由から、ブラウザからパスワードを設定することはできません。\",\n    \"u_3cf21277723b36a0c4623fad_0\": \"デスクトップアプリケーションに埋め込まれたサーバーは、デスクトップアプリケーション自体が実行されている間のみ動作します。したがって、アプリケーションを終了するとサーバーも終了します。これを回避するには、アプリケーションをシステムトレイに隠す方法を試すことができます。\",\n    \"u_737d4e755eebc0d5c72af5a7_0\": \"モバイルインターフェース__TRILIUM_PH_0__\",\n    \"u_6f843165884590d6e60bf824_0\": \"デフォルトでは、モバイル上でもデスクトップユーザーインターフェースが表示されます。モバイル版に切り替えるには、__TRILIUM_PH_0__グローバルメニュー__TRILIUM_PH_1__に移動し、「モバイル版に切り替え」を選択するだけです。\",\n    \"u_8f696d4d7c6b1b68511482c0_0\": \"Windows Defender ファイアウォールを使用してWindowsで外部からのポートを許可する__TRILIUM_PH_0__\",\n    \"u_fe001e124670dc029b11e070_0\": \"まず、ローカルのターミナルで__TRILIUM_PH_0__を実行して、デスクトップサーバーのIPを確認します。次に、別のデバイスで__TRILIUM_PH_1__へのアクセスを試みます。動作しない場合は、オペレーティングシステムのファイアウォールによってポートがブロックされている可能性が最も高いです。\",\n    \"u_b2c3a88c4f521ef516fd2834_0\": \"Windows Defender ファイアウォールを使用している場合：\",\n    \"u_17c5d02b69b2e03b3eeb951c_0\": \"Windowsのスタートメニューを開き、「セキュリティが強化された Windows Defender ファイアウォール」を検索します。\",\n    \"u_654bf2389df5773667041c55_0\": \"左側のツリーで「受信の規則」に移動し、右側の「操作」サイドバーで「新しい規則」を選択します。\",\n    \"u_338a11637c53dace5d093335_0\": \"「ポート」を選択し、「次へ」を押します。\",\n    \"u_c802bbce4753b39bb2582ff6_0\": \"「特定getLocalポート」のセクションに__TRILIUM_PH_0__と入力し、「次へ」を押します。\",\n    \"u_badbfce08baa4d69e4b11254_0\": \"「接続を許可する」にチェックを入れたまま、「次へ」を押します。\"\n  }\n}",
+      "finishReason": "STOP"
+    },
+    {
+      "responseIndex": 10,
+      "text": "{\n  \"requestKey\": \"7iwde4lsKc6O_1601ea73eb6b0e5c\",\n  \"translations\": {\n    \"u_44380a7d83491c64beeed569_0\": \"Windowsでは、タスクバーで __TRILIUM_PH_0__新しいウィンドウを開く__TRILIUM_PH_1__ を選択します。\",\n    \"u_a0df7166b2c4a94dac06bbd2_0\": \"Linuxでは、ドックまたはアプリケーションランチャー（GNOMEやKDEなど）で __TRILIUM_PH_0__新しいウィンドウ__TRILIUM_PH_1__ を選択します。\",\n    \"u_02acb6522de3f375bac0455a_0\": \"システムトレイへの閉じる動作__TRILIUM_PH_0__\",\n    \"u_e59a096d975999b7d334c09c_0\": \"これはデフォルトでは有効になっていないオプションで、特定の動作を許可します。最後のウィンドウが閉じられたときにアプリケーションを終了する代わりに、最後のウィンドウが非表示になり、トレイアイコンが利用可能な状態を維持します。\",\n    \"u_f883818751d17e544ab745ef_0\": \"このオプションを使用するには、トレイアイコンが有効になっている必要があります。有効になっていない場合、このオプションは効果がありません。\",\n    \"u_fa00dc13071a2a916fc081ca_0\": \"自動起動__TRILIUM_PH_0__\",\n    \"u_5f7fcf2d2a5a5f0bc4a74c93_0\": \"__TRILIUM_PH_0__オプション__TRILIUM_PH_1__ → __TRILIUM_PH_2__スタートアップ__TRILIUM_PH_3__ 内の2つのオプションで自動起動機能を制御します。\",\n    \"u_31ad57e21656689b9d1a101c_0\": \"__TRILIUM_PH_0__起動時に開始__TRILIUM_PH_1__ が有効な場合、現在のユーザーのログイン時にアプリケーションが自動的に起動します。\",\n    \"u_07e7012eaeb818dba2a79b1d_0\": \"Linuxでのサポートはデスクトップ環境によって異なることに注意してください。問題が発生した場合は、お気軽に __TRILIUM_PH_0__報告__TRILIUM_PH_1__してください。\",\n    \"u_b6aca8d7ed0ad5cdf4424b08_0\": \"__TRILIUM_PH_0__トレイに最小化して起動__TRILIUM_PH_1__ も有効な場合、アプリケーションはバックグラウンドで起動し、トレイアイコンから表示させることができます。\",\n    \"u_fba553d055bff7caecec0bd1_0\": \"これは __TRILIUM_PH_0__起動時に開始__TRILIUM_PH_1__ が有効な場合にのみ適用され、手動での起動はこのオプションの影響を受けません。\",\n    \"u_24a95252dc15be49f91d81cf_0\": \"Linux: Flatpak__TRILIUM_PH_0__\",\n    \"u_aeeb68dbd8ba9e3210c10666_0\": \"Flatpakは自動起動ディレクトリに直接書き込むことができないため、__TRILIUM_PH_0__起動時に開始__TRILIUM_PH_1__ は代わりにデスクトップのBackgroundポータルに要求を送り、__TRILIUM_PH_2__を作成します。デスクトップ環境がバックグラウンドでのアプリケーションの実行を許可する前に確認するように設定されている場合、初回にプロンプトが表示されます。これを拒否すると __TRILIUM_PH_3__起動時に開始__TRILIUM_PH_4__ は機能しなくなりますが、権限は後からシステム設定で変更できます。\",\n    \"u_9fa4dbc47616bef92b0ba9ee_0\": \"Linux: パッケージャー向けのカスタム起動コマンド__TRILIUM_PH_0__\",\n    \"u_9fde006f67464642484495a3_0\": \"Linuxでは、__TRILIUM_PH_0__起動時に開始__TRILIUM_PH_1__ はユーザーの自動起動ディレクトリ（__TRILIUM_PH_3__、通常は __TRILIUM_PH_4__）に __TRILIUM_PH_2__ エントリを書き込みます。その __TRILIUM_PH_5__ 行は、AppImageから実行されている場合はAppImageを指し、それ以外の場合は実行中の実行ファイル族を指します。\",\n    \"u_59a4dd8f3803872734f2f02b_0\": \"システム全体のElectronでTriliumを実行するディストリビューションパッケージ（例：__TRILIUM_PH_0__）は、Triliumなしで起動する単なるElectronバイナリであるため、実行中の実行ファイルに依存できません。このようなパッケージでは、ラッパースクリプトなどで __TRILIUM_PH_1__ 環境変数をTriliumを起動する完全なコマンドに設定できます。\"\n  }\n}",
+      "finishReason": "STOP"
+    },
+    {
+      "responseIndex": 18,
+      "text": "{\n  \"requestKey\": \"rWX5eY045zbE_aa92c763e0fd08e2\",\n  \"translations\": {\n    \"u_9c25e25a1d08f692f9f6fe12_0\": \"Dockerの使用方法\",\n    \"u_e9d61f3c162cbe2174a32692_0\": \"公式のDockerイメージは、Docker Hubで__TRILIUM_PH_0__AMD64__TRILIUM_PH_1__、__TRILIUM_PH_2__ARMv7__TRILIUM_PH_3__、__TRILIUM_PH_4__ARM64/v8__TRILIUM_PH_5__向けに公開されています: __TRILIUM_PH_6__https://hub.docker.com/r/triliumnext/trilium/__TRILIUM_PH_7__\",\n    \"u_0830ab526c6cc11955f8b25e_0\": \"前提条件__TRILIUM_PH_0__\",\n    \"u_b92485a8c2db7857545d9aad_0\": \"システムにDockerがインストールされていることを確認してください。\",\n    \"u_814216c16c2d96a1a0435d5b_0\": \"Dockerのインストールにヘルプが必要な場合は、__TRILIUM_PH_0__Docker インストールドキュメント__TRILIUM_PH_1__をご参照ください。\",\n    \"u_a9ee5df2ee3a5306f3abf5d8_0\": \"デフォルトでは、コンテナはrootとして起動し、データディレクトリを準備した後に特権を持たないユーザーとしてTriliumを実行します。以下の__TRILIUM_PH_0__非rootユーザーとしての実行__TRILIUM_PH_1__で説明されているように、rootを一切使用せずに実行することも可能です。\",\n    \"u_edb3a397b8025ef18fecff79_0\": \"SMB/CIFS共有またはフォルダをTriliumのデータディレクトリとして使用している場合は、SMB共有をマウントする際に__TRILIUM_PH_2__および__TRILIUM_PH_3__のマウントオプションを追加__TRILIUM_PH_1__する必要があります__TRILIUM_PH_0__。\",\n    \"u_b837cabfe8aca0a58e7edd75_0\": \"Docker Composeでの実行__TRILIUM_PH_0__\",\n    \"u_69e1ba2fd22f96a13c6df682_0\": \"最新のdocker-compose.ymlを取得します:__TRILIUM_PH_0__\",\n    \"u_b35e089b7816397aa68c9ef8_0\": \"必要に応じて、__TRILIUM_PH_0__ファイルを編集して起動前にコンテナの設定を行います。特に設定を変更しない場合、データディレクトリは__TRILIUM_PH_2__の隣の__TRILIUM_PH_1__になり、コンテナにはポート8080でアクセスできるようになります。\",\n    \"u_a059f770a4141e9fc80c2a39_0\": \"データを別の場所に保持するには、__TRILIUM_PH_1__内の__TRILIUM_PH_0__のエントリを編集し、コロンより前のホストパスを変更します（例: __TRILIUM_PH_2__）。コロンより後のパスは変更しないでください。\",\n    \"u_73eba93344ce6bfd62c4e481_0\": \"コンテナの起動:__TRILIUM_PH_0__\",\n    \"u_71d35ac94bc8b71c939493fd_0\": \"次のコマンドを実行して、コンテナをバックグラウンドで起動します。\",\n    \"u_ccbd24b3fdb3005ad543161e_0\": \"Docker Composeを使用しない実行 / その他の設定__TRILIUM_PH_0__\",\n    \"u_6f96aed3b5765c9707d61d72_0\": \"Dockerイメージのプル__TRILIUM_PH_0__\",\n    \"u_70e022a10ccf0f0f8116272b_0\": \"イメージをプルするには、次のコマンドを使用します。__TRILIUM_PH_0__の部分を、__TRILIUM_PH_1__や単に__TRILIUM_PH_2__などの希望するバージョンまたはタグに置き換えてください（公開されているタグ名は __TRILIUM_PH_3__https://hub.docker.com/r/triliumnext/trilium/tags__TRILIUM_PH_4__ を参照してください）。\"\n  }\n}",
+      "finishReason": "STOP"
+    },
+    {
+      "responseIndex": 20,
+      "text": "{\"requestKey\":\"rWX5eY045zbE_3242ff563d14a9c8\",\"translations\":{\"u_4081159222ae98fb16ba4b42_0\":\"カスタムデータディレクトリ__TRILIUM_PH_0__\",\"u_e187525234caac549d323a03_0\":\"カスタムデータディレクトリを使用するには、次のようにします。\",\"u_2374a40bea8229258be90546_0\":\"デフォルト以外の方法でインスタンスを実行する場合は、次のようにボリュームスイッチを使用してください: __TRILIUM_PH_0__。Docker のボリュームの仕組みを理解することが重要です。1 つ目のパスはホスト自身のパスであり、2 つ目は仮想的にバインドするパスです。__TRILIUM_PH_1__https://docs.docker.com/storage/volumes/__TRILIUM_PH_2__ コロンの前のパスはホストディレクトリであり、コロンの後のパスはコンテナ内のパスです。詳細については、__TRILIUM_PH_3__Docker ボリュームのドキュメント__TRILIUM_PH_4__をご覧ください。\",\"u_dae3f04729e0afe574efbf41_0\":\"リバースプロキシ__TRILIUM_PH_0__\",\"u_368360ec1bd6c439df083c13_0\":\"__TRILIUM_PH_0__Nginx__TRILIUM_PH_1__\",\"u_0de9966a1486352f283b19fa_0\":\"__TRILIUM_PH_0__Apache__TRILIUM_PH_1__\",\"u_a6531afd5e4bdcdab69e6233_0\":\"タイムゾーンに関する注意__TRILIUM_PH_0__\",\"u_c6d4ac14f4e0658e165bb3f7_0\":\"タイムゾーンに問題があり、docker-compose を使用していない場合は、ローカルタイムゾーンの __TRILIUM_PH_1__TZ 識別子__TRILIUM_PH_2__を指定した __TRILIUM_PH_0__ 環境変数を追加する必要がある場合があります。\",\"u_2b75c98cfba2620f25f79886_0\":\"その他の環境変数__TRILIUM_PH_0__\",\"u_9f0897ef18387f96e9badacc_0\":\"Trilium が読み込む環境変数（ネットワーク設定、認証、同期など）の完全なリストについては、__TRILIUM_PH_0__設定（config.ini または環境変数）__TRILIUM_PH_1__をご覧ください。\",\"u_75de6286e3f0c279942eeedc_0\":\"非 root ユーザーとしての実行__TRILIUM_PH_0__\",\"u_6024b0da580cfe9954a6d41e_0\":\"デフォルトでは、コンテナは root として起動し、データディレクトリを __TRILIUM_PH_0__ ユーザー（UID および GID __TRILIUM_PH_1__、または __TRILIUM_PH_2__ と __TRILIUM_PH_3__ の値）に渡し、そのユーザーとして Trilium を実行します。rootless Docker や Podman、あるいは __TRILIUM_PH_4__ を使用する Kubernetes など、環境によってはコンテナの root での起動が一切許可されない場合があります。v0.107.0 以降では、同じイメージを完全に非 root ユーザーとして実行することも可能です。\",\"u_efa03cb024082208e5c38533_0\":\"Trilium を非 root ユーザーとして実行するには、Docker の __TRILIUM_PH_0__ フラグでユーザーを設定します。\",\"u_e45c7e575ff7e16f5d55ff64_0\":\"Docker Compose の場合は、__TRILIUM_PH_1__ 内のサービスに __TRILIUM_PH_0__ を追加します。\",\"u_df11c821ae1c7e882c9fcdb6_0\":\"このイメージは、読み取り専用のルートファイルシステムを使用し、__TRILIUM_PH_0__ のようにケイパビリティなしでも実行できます。\",\"u_08924c35f4bbaa5437209ccd_0\":\"root 権限がない場合、コンテナはファイルの所有権を変更できないため、次の点に注意してください。\"}}",
+      "finishReason": "STOP"
+    },
+    {
+      "responseIndex": 36,
+      "text": "{\"requestKey\":\"l2VkvOwUNfZj_3ad8b6855a504eef\",\"translations\":{\"u_6ec107490532d6a305e89f40_0\":\"HTTPS (TLS)\",\"u_3c213b0696656261cc81eb06_0\":\"TLS の設定は、Trilium での __TRILIUM_PH_0__サーバーのインストール__TRILIUM_PH_1__において非常に重要です。このガイドでは、Trilium 自体の中で TLS をセットアップする手順を詳しく説明します。\",\"u_eeefd477c9d1ddeab2d25891_0\":\"Trilium 単体でも HTTPS をサポートしていますが、通常は TLS 終端を行う __TRILIUM_PH_0__リバースプロキシ__TRILIUM_PH_1__を代わりに使用することをお勧めします。このようなセットアップについては、__TRILIUM_PH_2__このようなガイド__TRILIUM_PH_3__を参考にしてください。\",\"u_b7f2faea1072795175dd95b9_0\":\"TLS 証明書の取得__TRILIUM_PH_0__\",\"u_8146b636e5cee866574dbcde_0\":\"TLS 証明書を取得するには、次の 2 つの方法があります。\",\"u_827c69faee7574eae802eac3_0\":\"__TRILIUM_PH_0__推奨__TRILIUM_PH_1__：ルート認証局によって署名された TLS 証明書を取得します。個人用には __TRILIUM_PH_2__Let's Encrypt__TRILIUM_PH_3__ が最適な選択肢です。無料かつ自動化されており、簡単です。Certbot を使用すると、TLS のセットアップを自動化できます。\",\"u_83d478fef4ea1e607e654bb8_0\":\"自己署名証明書を生成します。サーバーに接続するすべてのマシンの証明書をインポートする複雑さが増すため、このオプションはお勧めしません。\",\"u_66b8cd61cf185a4a54fb8fa3_0\":\"__TRILIUM_PH_0____TRILIUM_PH_1__の変更\",\"u_a800944ea11c35d7fec81051_0\":\"証明書を取得したら、__TRILIUM_PH_1__データディレクトリ__TR_IUM_PH_2__内の __TRILIUM_PH_0__ ファイルを変更して、証明書を使用するように Trilium を設定します：\",\"u_85119f0e56ff200612209ee8_0\":\"また、__TRILIUM_PH_0__設定__TRILIUM_PH_1__ファイルを確認して、代わりにすべての __TRILIUM_PH_2__値を環境変数として指定することもできます。たとえば、環境変数を使用して TLS を設定できます：\",\"u_9d991fae23d6a0ce0780563d_0\":\"上記の例は、Let's Encrypt の ACME ユーティリティを使用して証明書が生成された環境で、これがどのように設定されるかを示しています。パスは異なる場合があります。Docker インストールの場合は、これらのパスがボリューム内や、__TRILIUM_PH_0__ などの Docker コンテナからアクセス可能な別のディレクトリ内にあることを確認してください。\",\"u_e8947a2e9012167509dc560c_0\":\"__TRILIUM_PH_0__を設定した後、Trilium を再起動し、「https」を使用してホスト名にアクセスします。\",\"u_85c7ebf9a3771274a53d4f7b_0\":\"自己署名証明書__TRILIUM_PH_0__\",\"u_23aba48f3e814990b7c48952_0\":\"サーバーインスタンスに自己署名証明書を使用することを選択した場合、デスクトップインスタンスではデフォルトで信頼されないことに注意してください。\",\"u_8fbf83324d41482378ad03c8_0\":\"これを回避するには、次の環境変数（Linuxの場合）を設定して証明書の検証を無効にします。\",\"u_619bd64e8ffa00f605d623a9_0\":\"Trilium には、Windows 用の __TRILIUM_PH_0__ など、このモードで起動するためのスクリプトが用意されています。\"}}",
+      "finishReason": "STOP"
+    },
+    {
+      "responseIndex": 38,
+      "text": "{\n  \"requestKey\": \"lwAX5SvbrK2g_912c8a174c176c85\",\n  \"translations\": {\n    \"u_acfeb165dcf8765a8ff5f19c_0\": \"パスワードのリセット\",\n    \"u_0a38eea98b6958b2f7dcd224_0\": \"パスワードを忘れた場合：\",\n    \"u_72538d001d3b102fb59ad769_0\": \"保護されたノートは、パスワードなしでは復元できません。\",\n    \"u_badb1952311214a3a7fcf5bc_0\": \"保護されていないノートは回復可能です。\",\n    \"u_2c4163376be1bca0626f3129_0\": \"2つの方法があり、どちらもサーバーを実行しているデバイスへのアクセスが必要です。\",\n    \"u_5fb74cedd7e990efbc706acc_0\": \"認証を無効にする方法__TRILIUM_PH_0__\",\n    \"u_48b8f8fe03b2eb4aeceb61f1_0\": \"認証を無効にする方法については、__TRILIUM_PH_0__Authentication__TRILIUM_PH_1__ を参照してください。\",\n    \"u_2516d0e17e7b6378a95624ba_0\": \"サーバーを再起動します。\",\n    \"u_b6b1ef39fcf43ed2eb528a79_0\": \"__TRILIUM_PH_0__Options__TRILIUM_PH_1__ → [Password] → [Reset password] に移動します。\",\n    \"u_2a89aebf353a96cfc4780cb7_0\": \"手順 (1) と逆の手順で認証を再度有効にします。\",\n    \"u_2516d0e17e7b6378a95624ba_1\": \"サーバーを再起動します。\",\n    \"u_f9c5f5f240d8eaa27e8caf23_0\": \"新しいパスワードでログインします。\",\n    \"u_2e09508bf0975bdd3c52fb92_0\": \"データベースを変更する方法__TRILIUM_PH_0__\",\n    \"u_f1433df101d68aed7917edd9_0\": \"__TRILIUM_PH_2__data ディレクトリ__TRILIUM_PH_3__にある __TRILIUM_PH_0__database__TRILIUM_PH_1__ ファイルにアクセスします。SQLite クライアント（例：__TRILIUM_PH_5__DB Browser__TRILIUM_PH_6__）で __TRILIUM_PH_4__ ファイルを開きます。\",\n    \"u_163e64374481c9aaa659092a_0\": \"次のクエリを実行します：\",\n    \"u_8066d5dfa5d366f1c25c1732_0\": \"変更を実行した後、変更をコミット/書き込みます。__TRILIUM_PH_0__これにより、パスワードが__TRILIUM_PH_1__ __TRILIUM_PH_2____TRILIUM_PH_3__ に設定され、再びログインできるようになります。__TRILIUM_PH_4__\"\n  }\n}",
+      "finishReason": "STOP"
+    },
+    {
+      "responseIndex": 40,
+      "text": "{\"requestKey\":\"0hzsNCP31IAB_24728057a01a7853\",\"translations\":{\"u_629f90bb8a78d0e733ff9e84_0\":\"認証\",\"u_5bb1470d7543ba3ab733b182_0\":\"認証の無効化__TRILIUM_PH_0__\",\"u_65676a69355a9c7cc1fe7d4e_0\":\"Triliumを__TRILIUM_PH_0__のみで実行している場合、または認証が別のコンポーネントによって処理される場合は、__TRILIUM_PH_1__に以下を追加してTriliumの認証を無効化できます。\",\"u_36f21807ecd958c439cd67bb_0\":\"認証を無効化すると、v0.94.1以降では__TRILIUM_PH_0__多要素認証__TRILIUM_PH_1__もバイパスされます。\",\"u_3e9402f5cf2e684276345560_0\":\"ブルートフォース攻撃対策__TRILIUM_PH_0__\",\"u_4305402aadb45cc1a6133e63_0\":\"Triliumは、各IPアドレスからのサインイン失敗回数を15分間に10回までと制限しています。制限に達すると、Triliumは15分が経過するまで、正しいものを含め、そのアドレスからのそれ以降のリクエストをすべて拒否します。その際、サインインページには__TRILIUM_PH_0__ログイン試行回数が多すぎます__TR_LIUM_PH_1__が表示され、他のクライアントにはHTTPステータス429が返されます。\",\"u_d1995ca0dd9fd7b05c98489c_0\":\"この制限は、パスワードを使用するすべてのサインイン方法に適用されます。\",\"u_13733dd9ffd7c0789af30687_0\":\"サインインページ\",\"u_78c1148727c2ac1ae11005d3_0\":\"デスクトップまたはモバイルアプリからの__TRILIUM_PH_0__同期__TRILIUM_PH_1__の設定。\",\"u_cb37b24646390c5618380c45_0\":\"__TRILIUM_PH_0__Web Clipper__TRILIUM_PH_1__またはAndroid送信アプリの接続。\",\"u_0502fad861ee9161c9a4025a_0\":\"__TRILIUM_PH_0__ETAPI (REST API)__TRILIUM_PH_1__を通じたトークンの要求。\",\"u_00400fbd6e19d6d4d6f36236_0\":\"これらはすべて同じ制限に対してカウントされ、誤ったパスワード、誤ったワンタイムパスワード、および誤ったリカバリコードはそれぞれ1回の失敗試行としてカウントされます。成功したサインインはカウントされません。\",\"u_dbeabe53ca5984cb192bc425_0\":\"制限はアカウントごとではなくIPアドレスごとであるため、攻撃者が自分のアドレスからのサインインに失敗してあなたを締め出すことはできません。カウントはメモリ内に保持されるため、サーバーを再起動するとクリアされます。\",\"u_654c52898a57015102c4191f_0\":\"リバースプロキシの背後にある場合、__TRILIUM_PH_0__信頼されたプロキシ__TRILIUM_PH_1__として設定されていない限り、Triliumはすべてのリクエストがプロキシから来ていると認識します。その結果、すべてのクライアントが単一の制限を共有することになり、誰かによる少数の誤った試行が全員をブロックすることになります。\",\"u_45287a69b70c855cdb14dc45_0\":\"fail2banによる連続した失敗のブロック__TRILIUM_PH_0__\",\"u_17a1601a20e92f397cdcdef8_0\":\"サインインページでの失敗した試行にはHTTPステータス401が返され、__TRILIUM_PH_0__バックエンド（サーバー）ログ__TRILIUM_PH_1__には次のように記録されます。\"}}",
+      "finishReason": "STOP"
+    },
+    {
+      "responseIndex": 41,
+      "text": "{\"requestKey\":\"0hzsNCP31IAB_8583699ccce0cc53\",\"translations\":{\"u_a300f26bb6e7dd2785d08de8_0\":\"__TRILIUM_PH_0__Multi-Factor Authentication__TRILIUM_PH_1__ が有効な場合、間違ったワンタイムパスワードまたはリカバリコードは代わりに __TRILIUM_PH_2__ としてログに記録されます。fail2ban などのツールは、ログ行またはリバースプロキシのアクセスログにある __TRILIUM_PH_3__ への 401 応答のいずれかに一致させ、アドレスを 15 分間より長くブロックすることができます。\",\"u_f4b0542940596610807e8d9e_0\":\"セッションの仕組みについて__TRILIUM_PH_0__\",\"u_7ff4a39e4e27134da43fedfb_0\":\"Trilium にログインすると、アプリケーションはこのログインに関する情報をブラウザのクッキーだけでなく、サーバー上のセッションとしても保存します。\",\"u_b8e55ba818bc6c938f9bf70f_0\":\"「ログイン状態を保持する (Remember me)」にチェックが入っている場合、ログインの有効期限は 21 日間になります。この期間は __TRILIUM_PH_1__ 内の __TRILIUM_PH_0__ 値を変更することで調整できます。例えば、セッションの有効期限を 1 日にするには次のようにします:\",\"u_1fb9f000cd79ed86af89bb60_0\":\"「ログイン状態を保持する (Remember me)」のチェックを外した場合、動作が異なります。クライアント/ブラウザレベルでは認証に有効期限はありませんが、ユーザーがブラウザを閉じるとすぐに自動的にクリアされます。それにもかかわらず、サーバーも __TRILIUM_PH_0__アプリケーションとの最後のインタラクション__TRILIUM_PH_1__から約 24 時間経過すると、この認証を破棄します。\",\"u_b40fa9ca4dd2255ae1d6d128_0\":\"パスワードの変更またはリセットを行うと、変更を行ったセッションを含め、すべてのセッションからログアウトされます。開いているタブはログイン画面に戻り、新しいパスワードで再度ログインします。これは、別のインスタンスでパスワードが変更され、同期を通じてサーバーに到達した場合にも適用されます。\",\"u_5ef8fc3fd8abc5c9ae5f6dab_0\":\"パスワードを変更しても、__TRILIUM_PH_0__ETAPI (REST API)__TRILIUM_PH_1__ トークンは取り消されません。これらはスクリプトや連携のための個別の認証情報であり、削除するまで機能し続けます。誰かにセッションクッキーを取得された疑いがある場合は、パスワードを変更し、__TRILIUM_PH_2__オプション__TRILIUM_PH_3__ → __TRILIUM_PH_4__ETAPI__TRILIUM_PH_5__ に移動して、セッションを持つ誰でも新しいトークンを作成できるため、名前と __TRILIUM_PH_6__作成日時__TRILIUM_PH_7__ で見覚えのないトークンを削除してください。\",\"u_aff8a426281235566f5a2268_0\":\"アクティブなセッションの表示__TRILIUM_PH_0__\",\"u_a8ff0193b5bc7ca92619ed9e_0\":\"ログインセッションは現在、ユーザーデータと同じ __TRILIUM_PH_0__データベース__TRILIUM_PH_1__ に保存されています。どのセッションがアクティブであるかを表示するには、__TRILIUM_PH_2__SQL コンソール__TRILIUM_PH_3__ を開き、次のクエリを実行します:\",\"u_02ae7f725d7c3a844d94d694_0\":\"期限切れのセッションはサーバーによって定期的に（通常は 1 時間おきに）クリーンアップされます。\",\"u_b056715d5493280169407022_0\":\"関連項目__TRILIUM_PH_0__\",\"u_0794872140e012b697d74c5c_0\":\"__TRILIUM_PH_0__Multi-Factor Authentication__TRILIUM_PH_1__\",\"u_57dfa180ca1ed630274557ea_0\":\"__TRILIUM_PH_0__信頼できるプロキシ__TRILIUM_PH_1__\"}}",
+      "finishReason": "STOP"
+    },
+    {
+      "responseIndex": 42,
+      "text": "{\n  \"requestKey\": \"7DAiwaf8Z7Rz_3bd51cf4df8ceac1\",\n  \"translations\": {\n    \"u_a928acd3195c959029731c5f_0\": \"TOTPによる多要素認証\",\n    \"u_e39c84710ab9912177e7608b_0\": \"多要素認証（MFA）は、システム、アプリケーション、またはアカウントへのアクセスを許可する前に、ユーザーに2つ以上の検証要素の提供を求めるセキュリティプロセスです。これにより、パスワードの使用だけを超えた追加の保護層が加わります。\",\n    \"u_7f32891cc9d57b299c804771_0\": \"複数の検証方法を要求することにより、MFAは、万が一パスワードが流出した場合でも、不正アクセスのリスクを軽減するのに役立ちます。ノートに保存されている機密情報を保護するために強く推奨されます。\",\n    \"u_9cb8d3997d6cc75e735cba9e_0\": \"OpenID Connect (OIDC) との関係__TRILIUM_PH_0__\",\n    \"u_108e618d5e1d0c67f4054cb2_0\": \"多要素認証を使用すると、パスワード以外に身元の追加証明が要求されるため、Triliumへのログインがより安全になります。__TRILIUM_PH_0__OpenID Connectでのサインイン__TRILIUM_PH_1__は、認証を外部プロバイダ（Googleプロバイダや、Autheliaなどのセルフホスト型プロバイダなど）に委任する別の概念です。これらの認証プロバイダは、TOTPやパスキーなどの独自のセキュリティ機能を提供する場合があります。\",\n    \"u_5964a9d63ad11d98b839ae40_0\": \"時間制限付きワンタイムパスワード（TOTP）__TRILIUM_PH_0__\",\n    \"u_3d4c341094d9350b7ea7ae17_0\": \"TOTP（Time-Based One-Time Password）は、スマートフォンなどのデバイス上で、30秒ごとに変更される一意の一時コードを生成するセキュリティ機能です。アカウントにログインする際にパスワードと一緒にこのコードを使用するため、他の人がアクセスすることが非常に難しくなります。\",\n    \"u_f2bb324c737a8e6c52ce493e_0\": \"__TRILIUM_PH_0__オプション__TRILIUM_PH_1__ → __TRILIUM_PH_2__パスワードと認証__TRILIUM_PH_3__に移動します。\",\n    \"u_4d52dd345de3bea391cdda18_0\": \"__TRILIUM_PH_0__サインイン方法__TRILIUM_PH_1__で__TRILIUM_PH_2__ローカルパスワード__TRILIUM_PH_3__が選択されていることを確認します。\",\n    \"u_839c6af34bdad71b6573d3e6_0\": \"__TRILIUM_PH_0__二要素認証__TRILIUM_PH_1__セクションで、__TRILIUM_PH_2__設定__TRILIUM_PH_3__を押します。\",\n    \"u_483d4c026dbdea5eef18e873_0\": \"QRコードをスキャンするか、認証アプリにコードを手動で入力します。\",\n    \"u_59363289303ed25de41265cc_0\": \"認証アプリからの検証コードを入力して設定が成功したことを確認し、__TRILIUM_PH_0__検証して続行__TRILIUM_PH_1__を押します。\",\n    \"u_bceb447d55e699eded027f7a_0\": \"リカバリコードを保存し、確認にチェックを入れて__TRILIUM_PH_1__セットアップを完了__TRILIUM_PH_0__を押します。\",\n    \"u_9fd8531eb6bc6b85fdd9d458_0\": \"TOTPの設定が完了した後（ページを更新した後）、再度ログインする必要があります。\",\n    \"u_4bb79cddb7ce50faaf8ec099_0\": \"サインイン__TRILIUM_PH_0__\",\n    \"u_50e7a983bd26776b8fb8e20a_0\": \"TOTPが有効になると、サインインページのパスワードの下にある__TRILIUM_PH_0__ワンタイムパスワードまたはリカバリコード__TRILIUM_PH_1__に、認証アプリからのコードを入力するよう求められます。\"\n  }\n}",
+      "finishReason": "STOP"
+    },
+    {
+      "responseIndex": 43,
+      "text": "{\n  \"requestKey\": \"7DAiwaf8Z7Rz_2560dd8a607242d0\",\n  \"translations\": {\n    \"u_387fc7acfec59b87c18b19e3_0\": \"Triliumは、現在の30秒間のコードだけでなく、その直前と直後の期間のコードも受け入れるため、時計が多少ずれていても機能します。v0.106.0以降では、各コードは1回のみ受け付けられます。サインインが成功すると、そのコードおよびそれより古いコードは、有効期間内であっても拒否されます。\",\n    \"u_3bd7e22f2edddbb46f707974_0\": \"間違ったワンタイムパスワードは、間違ったパスワードと同様に、失敗した試行回数の制限にカウントされます。__TRILIUM_PH_2__Authentication__TRILIUM_PH_3__ 内の __TRILIUM_PH_0__Brute-force protection__TRILIUM_PH_1__ を参照してください。\",\n    \"u_351cd8310daf8979400f295e_0\": \"サーバーへのデバイスの接続__TRILIUM_PH_0__\",\n    \"u_3138fed037334440524e1a0c_0\": \"TOTPが有効になると、__TRILIUM_PH_0__Synchronization__TRILIUM_PH_1__ を介して新しいデスクトップアプリやモバイルアプリをサーバーに接続する際にも、2要素目の入力が求められます。__TRILIUM_PH_2__Connect to an existing server__TRILIUM_PH_3__ 画面で、サーバーのパスワードの下にある __TRILIUM_PH_4__One-time password or recovery code__TRILIUM_PH_5__ に、ワンタイムパスワードまたはリカバリコードを入力します。これがないと、サーバーは同期のセットアップを拒否します。\",\n    \"u_e472eefa937feb6dc255dccd_0\": \"2要素目が求められるのは、デバイスを最初に接続するときのみです。すでにセットアップされているデバイスは、これなしで同期を続行します。\",\n    \"u_66aa46fdc2f9d31e67170acd_0\": \"v0.107.0より前のバージョンでは、同期のセットアップ時に2要素目の入力を求められません。古いアプリにはそれを送信するフィールドがないため、サーバーと一緒にデスクトップアプリとモバイルアプリもアップデートしてください。\",\n    \"u_a64c9836d4daae7150097d22_0\": \"パスワードによるETAPIトークンの取得__TRILIUM_PH_0__\",\n    \"u_f709abb2eb81463b4442e0db_0\": \"TOTPが有効になると、__TRILIUM_PH_2__ 呼び出しを介して __TRILIUM_PH_0__ETAPI (REST API)__TRILIUM_PH_1__ のトークンを取得する際にも2要素目が必要になります。__TRILIUM_PH_4__ の隣に、__TRILIUM_PH_3__ としてワンタイムパスワードまたはリカバリコードを送信してください。各コードは1回のみ受け付けられます。\",\n    \"u_546a631b342615359831b381_0\": \"自動実行されるスクリプトやツールの場合は、代わりに __TRILIUM_PH_0__Options__TRILIUM_PH_1__ → __TRILIUM_PH_2__ETAPI__TRILIUM_PH_3__ でトークンを作成してください。そのようなトークンは、TOTPに関係なく機能します。\",\n    \"u_249e35591e07b35804c7ff34_0\": \"v0.107.0より前のバージョンでは、TOTPが有効な場合でも、パスワードのみでETAPIトークンが発行されます。\",\n    \"u_a17642297c701b81adde0bc0_0\": \"リカバリコード__TRILIUM_PH_0__\",\n    \"u_fa79df1680b4a3bdcdee2565_0\": \"認証アプリへのアクセスを失った場合、TOTPの代わりにリカバリコードを使用できます。Triliumには8つの異なるリカバリコードが用意されており、各リカバリコードは1回使用できます。\",\n    \"u_84bbe4bbc6618ab7ff0651c9_0\": \"リカバリコードを使用するには、単にパスワードでログインし、セキュリティトークンとしてリカバリコードを使用します。\",\n    \"u_5efb20d9e80436eb25ffdf87_0\": \"最初のリカバリコードのセットは、最初にTOTPをセットアップするときに生成されます。__TRILIUM_PH_0__Options__TRILIUM_PH_1__ → __TRILIUM_PH_2__Password & Auth__TRILIUM_PH_3__ に移動し、__TRILIUM_PH_4__Regenerate recovery codes__TRILIUM_PH_5__ ボタンを押すことで、いつでも再生成できます。これにより、新しいリカバリコードのセットが生成されると同時に、以前のコードが無効になります。\"\n  }\n}",
+      "finishReason": "STOP"
+    },
+    {
+      "responseIndex": 44,
+      "text": "{\n  \"requestKey\": \"IgkTHSaFfq6A_bf64e83ab9cbaf54\",\n  \"translations\": {\n    \"u_af501bd452952afb1e051c4e_0\": \"さまざまなプロバイダーでの設定\",\n    \"u_796c878b424feb3a6bbdb6af_0\": \"このページでは、Authelia、GitLab、Google などのさまざまなプロバイダーで __TRILIUM_PH_0__OpenID Connect によるサインイン__TRILIUM_PH_1__を設定する方法の手順を説明します。\",\n    \"u_d278054efde3c17f374c027c_0\": \"設定リファレンスは正確かつ最新の状態ですが、プロバイダー側のUIの変更に伴い、OAuthアプリケーションを作成する手順が若干異なる場合があります。\",\n    \"u_7f86ddb23ef1c5cae094e646_0\": \"Authelia\",\n    \"u_6c3f71167949ee77ffa2b911_0\": \"クライアントシークレットを生成します:\",\n    \"u_c094cfc42ece07c08fea2e77_0\": \"__TRILIUM_PH_0__ は Trilium に設定し、__TRILIUM_PH_1__（__TRILIUM_PH_2__ 文字列）は Authelia に設定します。\",\n    \"u_8dfa0cd3aed9dd0ad1738655_0\": \"Authelia の __TRILIUM_PH_1__ 内の __TRILIUM_PH_0__ にクライアントを追加し、__TRILIUM_PH_2__ をお使いの Trilium インスタンスの URL に置き換えます:\",\n    \"u_78cc76e89d32ec8dcbc05d53_0\": \"GitLab とは異なり、__TRILIUM_PH_0__ はプロバイダーが生成するものではなく、自分で選択する名前です。\",\n    \"u_88995f129b8fd64678ada5fe_0\": \"Authelia を再起動します。\",\n    \"u_4a255792f68ce2dab40b38e1_0\": \"ステップ 1 の __TRILIUM_PH_1__ を使用して、__TRILIUM_PH_0__ を調整します:\",\n    \"u_1e350e22c07aeab52b11d44a_0\": \"Authelia に対して __TRILIUM_PH_2__ を設定し__TRILIUM_PH_0__ない__TRILIUM_PH_1__でください。デフォルトで機密クライアントは __TRILIUM_PH_3__ になり、その他のメソッドは、Trilium がすでに使用しているデフォルトである __TRILIUM_PH_4__ で拒否されます。これは以下の GitLab の場合とは逆になります。\",\n    \"u_a8d2e4a7bf60c5fce2df5b84_0\": \"__TRILIUM_PH_0__ GitLab\",\n    \"u_eef7ca8f512e4b9e1f0b0f2e_0\": \"__TRILIUM_PH_0__gitlab.com__TRILIUM_PH_1__ または独自のセルフホストインスタンスのユーザー設定に移動します。\",\n    \"u_42ccaae2bbedafca9e8aabfa_0\": \"__TRILIUM_PH_0__Add new application__TRILIUM_PH_1__を押します。\",\n    \"u_3f4e23dfa65b07d74e7d212d_0\": \"名前を付けます（例: Trilium）。\",\n    \"u_cf7f9b26830eef9a82734cb6_0\": \"__TRILIUM_PH_0__Redirect URI__TRILIUM_PH_1__を __TRILIUM_PH_2__ に設定します\"\n  }\n}",
+      "finishReason": "STOP"
+    },
+    {
+      "responseIndex": 46,
+      "text": "{\n  \"requestKey\": \"IgkTHSaFfq6A_b99a4b6ad9a7ac80\",\n  \"translations\": {\n    \"u_3f4e23dfa65b07d74e7d212d_1\": \"名前を入力します（例: Trilium）。\",\n    \"u_def1bb905a2bb9f4bb9c2ef4_0\": \"__TRILIUM_PH_0__コールバック URL__TRILIUM_PH_1__を __TRILIUM_PH_2__ に設定し、__TRILIUM_PH_3__ をお使いの Trilium インスタンスの URL に置き換えます。\",\n    \"u_0c9a9dce55fadb23bdd0191d_0\": \"保存した後、__TRILIUM_PH_0__クライアント ID__TRILIUM_PH_1__、__TRILIUM_PH_2__クライアント シークレット__TRILIUM_PH_3__、および __TRILIUM_PH_4__OIDC ディスカバリー URL__TRILIUM_PH_5__ をコピーします。\",\n    \"u_5b0e1de6cd9bf7017d1c795c_0\": \"ステップ 4 の値を使用して、__TRILIUM_PH_0__ を次のように調整します:\",\n    \"u_39a951e59e894baa8978715d_0\": \"Pocket ID では、__TRILIUM_PH_2__ で終わる __TRILIUM_PH_0__OIDC ディスカバリー URL__TRILIUM_PH_1__ が提供されます。v0.105.0 以降では、そのまま貼り付けることができます。それより前のバージョンでは、そのサフィックスを削除し、その前の部分のみを使用してください。\",\n    \"u_feae02ca01bb5ceabe565269_0\": \"Pocket ID は初回起動時に RS256 署名キーを生成するため、追加の設定なしで動作します。Ed25519 (__TRILIUM_PH_0__) にローテーションした場合、ID トークンには代わりに EdDSA で署名されます。Trilium は v0.105.0 以降でこれを自動的に検出し、古いバージョンでは __TRILIUM_PH_1__ で失敗します。\",\n    \"u_430e6b40118bce5634a2e6a4_0\": \"__TRILIUM_PH_0____TRILIUM_PH_1__GitHub__TRILIUM_PH_2__\",\n    \"u_82c9b1fb9bc5fe06e534aaa8_0\": \"GitHub は OpenID Connect ではなく通常の OAuth 2.0 であるため、ID プロバイダーとして使用できません。そのため、__TRILIUM_PH_0__ で失敗します。\",\n    \"u_2263292ba819c09a0432e2a9_0\": \"__TRILIUM_PH_0__ Google\",\n    \"u_ffd4471dff33f15c73520b7a_0\": \"__TRILIUM_PH_0__Google Cloud のクライアント__TRILIUM_PH_1__ ダッシュボードに移動し、__TRILIUM_PH_2__クライアントを作成__TRILIUM_PH_3__を選択します。\",\n    \"u_088f5aa63e1a3884698d1af2_0\": \"__TRILIUM_PH_0__アプリケーションの種類__TRILIUM_PH_1__で、__TRILIUM_PH_2__ウェブアプリケーション__TRILIUM_PH_3__を選択します。\",\n    \"u_4d899c49abf592414c888bbe_0\": \"__TRILIUM_PH_0__承認済みのリダイレクト URI__TRILIUM_PH_1__に、__TRILIUM_PH_2__を設定します。\",\n    \"u_97d47644cd3adf701dff351c_0\": \"__TRILIUM_PH_0__作成__TRILIUM_PH_1__を押して、__TRILIUM_PH_2__クライアント ID__TRILIUM_PH_3__と__TRILIUM_PH_4__クライアント シークレット__TRILIUM_PH_5__をコピーします。\",\n    \"u_fa41bfc34e48d1181f64640f_1\": \"__TRILIUM_PH_0__を次のように調整し、__TRILIUM_PH_1__と__TRILIUM_PH_2__を前のステップの値に置き換え、さらに__TRILIUM_PH_3__をお使いの Trilium インスタンスの URL に置き換えます。\"\n  }\n}",
+      "finishReason": "STOP"
+    },
+    {
+      "responseIndex": 47,
+      "text": "{\n  \"requestKey\": \"x1lQNKQBqLcA_834edb7798673688\",\n  \"translations\": {\n    \"u_3689c7a08168cb1a2d58c4e2_0\": \"OpenID Connect によるサインイン\",\n    \"u_9cd6729d91b251211ae53be2_0\": \"OpenID は、Google や Authelia などの別サービスのカウントを使用してウェブサイトにログインし、身元を確認できるようにするための標準化された仕組みです。\",\n    \"u_98b84385a569135a925267ed_0\": \"OpenID が有効化されると、Trilium のパスワードベースの認証は、プロバイダを使用して接続するボタンに置き換えられます。つまり、多要素認証はプロバイダ側で処理される必要があるため、__TRILIUM_PH_0__TOTP による多要素認証__TRILIUM_PH_1__ の設定は機能しなくなります。\",\n    \"u_d7f6c27c2b1b976cbc752835_0\": \"セットアップ__TRILIUM_PH_0__\",\n    \"u_65fa878631037863d4245a72_0\": \"OpenID Connect による認証のセットアップは、2 段階のプロセスで行います。\",\n    \"u_95da33e2a22bec11a8bf7fe0_0\": \"まず、Trilium サーバーに、URL、クライアント ID、シークレットなどの認証プロバイダに関する情報を設定する必要があります。\",\n    \"u_0fbe4e3efc754f0e671fa544_0\": \"次に、プロバイダ上のアカウントと Trilium のアカウントを結びつけるために、ユーザーがオプションから接続する必要があります。\",\n    \"u_e7fdde6b79516c7918be786a_0\": \"認証プロバイダの設定__TRILIUM_PH_0__\",\n    \"u_a9153c9aaaed0be60ade75bf_0\": \"まず、認証プロバイダ（Google、Authelia など）が正しく設定されていることを確認してください。具体的な例については、__TRILIUM_PH_0__さまざまなプロバイダでのセットアップ__TRILIUM_PH_1__ を参照してください。\",\n    \"u_7dcb74dc6bd3dc18d5970afd_0\": \"Trilium のリダイレクト URL は __TRILIUM_PH_0__ です。\",\n    \"u_069c4a3c45aba75d97f3da6b_0\": \"ベース URL、クライアント ID、およびクライアント シークレットを取得する必要があります。\",\n    \"u_edd5cd8891215f9d6df20ca3_0\": \"__TRILIUM_PH_0__設定（config.ini または環境変数）__TRILIUM_PH_1__ を使用して、次の情報を設定します。\",\n    \"u_d8ee7ff2e00f2a89725999cb_0\": \"設定\",\n    \"u_374b27ee779195b72a6ff759_0\": \"__TRILIUM_PH_1__ セクションの __TRILIUM_PH_0__\",\n    \"u_22bcf0b971d23347ba3d327e_0\": \"環境変数\",\n    \"u_4b00baa636b92e18b7a75884_0\": \"説明\"\n  }\n}",
+      "finishReason": "STOP"
+    },
+    {
+      "responseIndex": 48,
+      "text": "{\n  \"requestKey\": \"x1lQNKQBqLcA_acf584e12b2a352b\",\n  \"translations\": {\n    \"u_b8647db4421679d4be40f386_0\": \"ベースURL*\",\n    \"u_02bb9bdf2701f109ba8ab324_0\": \"TriliumインスタンスのURL（例: __TRILIUM_PH_0__）。\",\n    \"u_b018c888f4f0c483a55f1c43_0\": \"クライアントID*\",\n    \"u_d3bcf7fc11d612350c210c1b_0\": \"プロバイダー設定からのクライアントID。\",\n    \"u_5d6cb644574a6b114e3688b4_0\": \"クライアントシークレット*\",\n    \"u_4b4652d5c27e0ee928c5705a_0\": \"プロバイダー設定からのクライアントシークレット。\",\n    \"u_fc69ec6d538f25868ba35b37_0\": \"クライアント認証方式\",\n    \"u_a4433f034e8f6c7b56b4c2fc_0\": \"トークンエンドポイントの認証方式: __TRILIUM_PH_0__ または __TRILIUM_PH_1__。空欄の場合は自動検出されます。__TRILIUM_PH_2__ または __TRILIUM_PH_3__ エラーでサインインに失敗した場合にのみ必要です。\",\n    \"u_eda521d2e24e3b066ab7230e_0\": \"IDトークンアルゴリズム\",\n    \"u_5392775aeb33f8a5629a8209_0\": \"__TRILIUM_PH_0__プロバイダーがIDトークンの署名に使用するアルゴリズム（例: __TRILIUM_PH_1__ __TRILIUM_PH_2____TRILIUM_PH_3__、__TRILIUM_PH_4__ __TRILIUM_PH_5____TRILIUM_PH_6__、__TRILIUM_PH_7__ __TRILIUM_PH_8____TRILIUM_PH_9__）。空欄の場合はプロバイダーから自動検出されます。__TRILIUM_PH_10__ __TRILIUM_PH_11__ __TRILIUM_PH_12__エラーでサインインに失敗した場合にのみ必要です。__TRILIUM_PH_13__\",\n    \"u_d2dce6f13b8e5338304b8ab7_0\": \"アスタリスク（*）は必須項目を示します\",\n    \"u_d573a44a2d5b8c862107e1b6_0\": \"デフォルトのOAuth発行者はGoogleです。AuthentikやAuth0などの他のサービスを使用するには、__TRILIUM_PH_3__ファイル内の __TRILIUM_PH_0__、__TRILIUM_PH_1__、__TRILIUM_PH_2__ を介して設定を構成できます。または、環境変数を使用してこれらの値を設定することもできます。\",\n    \"u_d8ee7ff2e00f2a89725999cb_1\": \"設定\",\n    \"u_374b27ee779195b72a6ff759_1\": \"__TRILIUM_PH_1__セクションの__TRILIUM_PH_0__\",\n    \"u_22bcf0b971d23347ba3d327e_1\": \"環境変数\",\n    \"u_4b00baa636b92e18b7a75884_1\": \"説明\"\n  }\n}",
+      "finishReason": "STOP"
+    },
+    {
+      "responseIndex": 49,
+      "text": "{\n  \"requestKey\": \"x1lQNKQBqLcA_e28c7da4bde3da4a\",\n  \"translations\": {\n    \"u_a3371a4520a4151327a30ee5_0\": \"発行者ベースURL\",\n    \"u_8e799918ff10855fb73a4b72_0\": \"発行者自体 (__TRILIUM_PH_0__) または完全なディスカバリーURL (__TRILIUM_PH_1__) のいずれかを指定します。__TRILIUM_PH_2__  __TRILIUM_PH_3____TRILIUM_PH_4__ を含むURLはそのまま使用されます __TRILIUM_PH_5__。これは、プロバイダーからコピー用のディスカバリーURLが提供された場合に便利です。末尾のスラッシュは含めても省略しても構いません。Triliumはプロバイダーが公開している表記に一致させます。__TRILIUM_PH_6__  __TRILIUM_PH_7__  __TRILIUM_PH_8__Authentikの「グローバル」発行者モードのように、プロバイダーがディスカバリードキュメントを提供するパスとは異なる発行者を公開している場合は、完全な形式を使用してください。\",\n    \"u_0552c12e5e7e75e0cfdcf8d3_0\": \"発行者名\",\n    \"u_ac4c86ae802ac3e4ecfa0693_0\": \"ログイン画面や設定で参照される、認証プロバイダーの名前です。デフォルトは「Google」です。\",\n    \"u_b68ab9527c8c038ae156f95d_0\": \"発行者アイコン\",\n    \"u_64f9e1d0a478d8fb76e61b72_0\": \"オプションで、プロバイダーのロゴへのURLを指定します。デフォルトではウェブサイトからファビコンの取得を試みるため、これは任意です。\",\n    \"u_18d31a2fe14e4c7b7d653646_0\": \"デフォルトのOAuth発行者はGoogleであるため、ここにあるすべてのフィールドは任意です。\",\n    \"u_3e9825e6aa4fc2a3163b6604_0\": \"必要に応じて、次の高度な設定を調整してください。すべて任意であり、妥当なデフォルト値が設定されています：\",\n    \"u_d8ee7ff2e00f2a89725999cb_2\": \"設定\",\n    \"u_374b27ee779195b72a6ff759_2\": \"__TRILIUM_PH_1__ セクションの __TRILIUM_PH_0__\",\n    \"u_22bcf0b971d23347ba3d327e_2\": \"環境変数\",\n    \"u_4b00baa636b92e18b7a75884_2\": \"説明\",\n    \"u_ba81e718f2ac16d642320571_0\": \"HTTPタイムアウト\",\n    \"u_82754bef829baae3f5b1e463_0\": \"プロバイダーのHTTPリクエスト（ディスカバリー、トークン交換、ユーザー情報）のタイムアウト（ミリ秒）。デフォルトは __TRILIUM_PH_0__（30秒）です。プロバイダーのコールドスタートが遅く、時々2回ログインを求められる場合は、この値を大きくしてください。受け付けられる最小値は __TRILIUM_PH_1__ です。\",\n    \"u_56fd94c63f3cb7a13fd571a3_0\": \"スコープ\",\n    \"u_95acaf4f40911e9214a3b156_0\": \"ログイン時に要求されるOIDCスコープのスペース区切りリスト。デフォルトは __TRILIUM_PH_0__ です。__TRILIUM_PH_1__ は必須であり、省略した場合は自動的に先頭に追加されます。\"\n  }\n}",
+      "finishReason": "STOP"
+    },
+    {
+      "responseIndex": 50,
+      "text": "{\n  \"requestKey\": \"x1lQNKQBqLcA_a22ab153daf2a4e2\",\n  \"translations\": {\n    \"u_9dfc05208b7ba5d100647337_0\": \"OIDC セッションの有効期限は、Trilium 自身のセッションクッキーの有効期限（__TRILIUM_PH_1__ セクションの __TRILIUM_PH_0__ 設定、デフォルトは 21 日間）に自動的に結び付けられます。そのため、OIDC ライブラリの短い内部デフォルト値で早期に期限切れになるのではなく、Trilium セッションが有効であるかぎり、1回のサインインが維持されます。\",\n    \"u_30d163f43e0f903e54042909_0\": \"変更を適用するにはサーバーを再起動します。\",\n    \"u_105e33369690b8c71d9fbb37_0\": \"レガシーの環境変数もサポートされています: __TRILIUM_PH_0__、__TRILIUM_PH_1__、__TRILIUM_PH_2__、およびプロバイダーをカスタマイズするための __TRILIUM_PH_3__、__TRILIUM_PH_4__、__TRILIUM_PH_5__、__TRILIUM_PH_6__、__TRILIUM_PH_7__、__TRILIUM_PH_8__、__TRILIUM_PH_9__。\",\n    \"u_c456de8cd429147c31faa41e_0\": \"認証プロバイダーへの接続__TRILIUM_PH_0__\",\n    \"u_1f0fccfba8fb697afc1d5bd4_0\": \"前のステップでサーバーの設定が完了したら、次のステップとして、認証プロバイダーのアカウントと Trilium インスタンスの間にリンクを作成します。これにより、他の有効なアカウントではなく、自分だけが Trilium インスタンスにアクセスできるようになります。\",\n    \"u_4aa592f328e007e456668e14_0\": \"これを行うには:\",\n    \"u_f2bb324c737a8e6c52ce493e_0\": \"__TRILIUM_PH_0__オプション__TRILIUM_PH_1__ → __TRILIUM_PH_2__パスワードと認証__TRILIUM_PH_3__ に移動します。\",\n    \"u_58f0b6220ae5a187ee7bab9b_0\": \"__TRILIUM_PH_0__サインイン方法__TRILIUM_PH_1__ フィールドで、__TRILIUM_PH_2__OpenID Connect プロバイダー__TRILIUM_PH_3__ を選択します。\",\n    \"u_53a955a539b1413d35898077_0\": \"__TRILIUM_PH_0__OpenID Connect__TRILIUM_PH_1__ セクションで、__TRILIUM_PH_2__アカウントを接続__TRILIUM_PH_3__（__TRILIUM_PH_4__）ボタンを探します。\",\n    \"u_45a3d5061279ee48ccb6b15a_0\": \"これにより認証プロバイダーにリダイレクトされ、必要に応じてサインインまたは操作の確認を行うことができます。\",\n    \"u_ae0ad28327c86fcd72d821c9_0\": \"認証が完了すると、Trilium アプリケーションにリダイレクトされて戻ります。\",\n    \"u_b12c7cd9c50af6f745a34147_0\": \"ログアウト__TRILIUM_PH_0__\",\n    \"u_34ff3978487591a93a0e5917_0\": \"Trilium からログアウトすると、そこからもログアウトするよう認証プロバイダーにリクエストが送信されます。この機能は認証プロバイダーに依存するため、受け付けられない場合があります（Google や Authelia はログアウト機能を尊重しないことが知られている例です）。\",\n    \"u_0090b57e49444d86ddb999eb_0\": \"プロバイダーの切り替え__TRILIUM_PH_0__\",\n    \"u_0386f5e9f3301e53a7bfdf25_0\": \"プロバイダーを切り替える場合（例: Google から Authelia に移行する場合）、次の手順を実行することが重要です:\",\n    \"u_16bc4731b69ff38333cf3e21_0\": \"__TRILIUM_PH_0__オプション__TRILIUM_PH_1__ → __TRILIUM_PH_2__パスワードと認証__TRILIUM_PH_3__ に移動します。\"\n  }\n}",
+      "finishReason": "STOP"
+    },
+    {
+      "responseIndex": 53,
+      "text": "{\"requestKey\":\"yeEaYqosGLSh_24b3fa25f0fad3af\",\"translations\":{\"u_39cb4c472117c495fa8f3f90_0\":\"サードパーティのクラウドホスティング\",\"u_a2fb19ac2fe36906c89c08be_0\":\"__TRILIUM_PH_0__ご自身のTriliumインスタンスをホストする__TRILIUM_PH_1__代わりの選択肢として、Triliumをすぐにサポートする2つのサービスが存在します。\",\"u_c2277ad614b8a04d840ef45c_0\":\"__TRILIUM_PH_0__免責事項__TRILIUM_PH_1__：Trilium Notesプロジェクトおよびメンテナーは、これらのプロジェクトのいずれとも直接提携していません。\",\"u_1724c3065b860c85eb5a758d_0\":\"PikaPodsはテスト目的のために親切にも無料クレジットを提供してくれました。\",\"u_c28aa4ceb39316324301d5f7_0\":\"クラウドインスタンスプロバイダー__TRILIUM_PH_0__\",\"u_bfe9e0993c42400899cd4ccd_0\":\"PikaPods__TRILIUM_PH_0__\",\"u_9060233c5d03f453f092f1a8_0\":\"__TRILIUM_PH_0__pikapods.com__TRILIUM_PH_1__にアクセスしてサインアップします。\",\"u_a3b843d9954917f57fa0dd17_0\":\"「利用可能なアプリ（Available Apps）」セクションで「TriliumNext__TRILIUM_PH_0__を探し、「実行する（Run your own）」を選択します。\",\"u_53fe1a5723d2b0b6db648360_0\":\"画面の指示に従って、独自のクラウドホスト型インスタンスを設定します。\",\"u_3d7cefb4ab51c893930477cc_0\":\"PikaPodsは通常、新しいバージョンのリリース後2週間以内に、Triliumインスタンスを最新バージョンに更新します。\",\"u_bdeb5e9b10fff63a66f746a0_0\":\"クラウドインスタンスとバージョンの一致__TRILIUM_PH_0__\",\"u_1e0a054aecea7b9ce62b79bc_0\":\"クラウドインスタンスと__TRILIUM_PH_2__デスクトップ__TRILIUM_PH_3__クライアントの間で__TRILIUM_PH_0__同期__TRILIUM_PH_1__を設定した後は、デスクトップアプリケーションとサーバーのバージョンが一致していることが重要ですのでご注意ください。\",\"u_2a4b4bbc6d987ea57bee9b5f_0\":\"クラウドインスタンスを設定する際は、ウェブブラウザからアクセスして__TRILIUM_PH_0__バージョン情報（About）__TRILIUM_PH_1__セクションを確認し、サーバーのバージョンを確認するのが最適です。通常、デスクトップとサーバーの__TRILIUM_PH_2__アプリバージョン__TRILIUM_PH_3__は同じであることが望ましいですが、__TRILIUM_PH_4__同期バージョン__TRILIUM_PH_5__が同じであれば、サーバーよりも新しいバージョンにデスクトップを更新しても問題ありません。\",\"u_49eed2155ca0ddef156342b4_0\":\"サーバーとデスクトップアプリケーションの間で__TRILIUM_PH_0__同期バージョン__TRILIUM_PH_1__が一致しない場合、同期は機能しません。\"}}",
+      "finishReason": "STOP"
+    },
+    {
+      "responseIndex": 62,
+      "text": "{\n  \"requestKey\": \"RDslemsQ6gCp_0f7ffdd2c058a946\",\n  \"translations\": {\n    \"u_86d74b23792f289db5e9ce21_0\": \"カーソルがある要素を示す強調表示されたボタン（要素内にある場合、__TRILIUM_PH_0__Table ›__TRILIUM_PH_1__や__TRILIUM_PH_2__List ›__TRILIUM_PH_3__など）。以下の__TRILIUM_PH_4__表、画像、その他の要素__TRILIUM_PH_5__および__TRILIUM_PH_6__リスト__TRILIUM_PH_7__をご覧ください。\",\n    \"u_d9e9ccdf6ce0f307e96669ec_0\": \"__TRILIUM_PH_0__ブロックタイプボタン、コンテンツを挿入するための__TRILIUM_PH_1__、およびテキストに適用される書式設定のための__TRILIUM_PH_2__。\",\n    \"u_481124ba0a065f5bbee4c640_0\": \"リンクを追加するための__TRILIUM_PH_0__と、ファイルを添付するための__TRILIUM_PH_1__。\",\n    \"u_99bea30c9619505026dca3d7_0\": \"インデントボタン、次に現在のブロックまたは選択されたブロックを上下に移動する__TRILIUM_PH_0__と__TRILIUM_PH_1__。キーボードの__TRILIUM_PH_2__Alt__TRILIUM_PH_3__+__TRILIUM_PH_4__↑__TRILIUM_PH_5__および__TRILIUM_PH_6__Alt__TRILIUM_PH_7__+__TRILIUM_PH_8__↓__TRILIUM_PH_9__と同じ動作をします。表内では、代わりに行を移動します。\",\n    \"u_d6a75a433dd556f1ab3afd8e_0\": \"プロバイダが設定されると表示される__TRILIUM_PH_0__AIアシスタントボタン。画面下部にメニューとしてクイックアクションを開き、最上部に__TRILIUM_PH_1__Ask AI…__TRILIUM_PH_2__が表示されます。\",\n    \"u_f70aebef0f165227a2e64b51_0\": \"キーボードが開いている間は、ツールバーの右端にある__TRILIUM_PH_0__ボタンでキーボードを非表示にできます。\",\n    \"u_aa26ae37cd587314bcf8afea_0\": \"__TRILIUM_PH_2__Options__TRILIUM_PH_3__ → __TRILIUM_PH_4__Text Notes__TRILIUM_PH_5__ → __TRILIUM_PH_6__Features__TRILIUM_PH_7__にある__TRILIUM_PH_0__Content hints__TRILIUM_PH_1__の設定に関わらず、ToDo項目の状態やそのショートカットなど、カーソル下の要素を説明するエディタの隅にあるヒントは表示されません。\",\n    \"u_6e5075a288916e7d8cce67d6_0\": \"コンテンツの挿入__TRILIUM_PH_0__\",\n    \"u_622ec79047b9b246151b4b20_0\": \"__TRILIUM_PH_0__ボタンを押すと、画面下部にタイルとして挿入項目が開きます：\",\n    \"u_5fafb430e5cf4a750a7d7ba5_0\": \"画像、表、ToDoリスト。\",\n    \"u_0ec202ae7ca0083dd893e610_0\": \"コードブロック、引用、アドモニション（警告・注記）。\",\n    \"u_62ebf3787290df1ea74692ad_0\": \"より一般的ではない、折りたたみ、タブ、段組み、水平線、改ページ、脚注、数式、描画キャンバス、Mermaidダイアグラム、ブックマーク、リンクおよびコンテンツ埋め込み、特殊文字、絵文字、アイコン、日付/時刻、テンプレート、およびMarkdownインポート。\",\n    \"u_b5716a48b27bd39de3430def_0\": \"画像はペーパークリップの下にもあり、ToDoリスト、コードブロック、引用、アドモニションもブロックタイプボタンの中にあります。\",\n    \"u_d3ba81aff6270a31e935e56e_0\": \"__TRILIUM_PH_0__のマークが付いたタイルは、選択肢のリストを開きます：\",\n    \"u_1e9d26321880d6911432e12c_0\": \"__TRILIUM_PH_0__Code block__TRILIUM_PH_1__：言語。\",\n    \"u_140e6445a8ee8245f459783b_0\": \"__TRILIUM_PH_0__Admonition__TRILIUM_PH_1__：そのタイプ。\"\n  }\n}",
+      "finishReason": "STOP"
+    },
+    {
+      "responseIndex": 64,
+      "text": "{\n  \"requestKey\": \"RDslemsQ6gCp_7318a97cc77a5cdf\",\n  \"translations\": {\n    \"u_a0efbe2ea1c8ce5528d60e74_0\": \"番号付きリストでは、__TRILIUM_PH_0__リストの開始番号を指定する __TRILIUM_PH_1__ と、リストのカウントダウン中にハイライトされる __TRILIUM_PH_2__ __TRILIUM_PH_3__逆順__TRILIUM_PH_4__ が使用できます。\",\n    \"u_e1ba135a7b6c217f7de3a591_0\": \"TODOリストでは、各タスクの状態に対応するボタンがあり、その後に状態を編集するための __TRILIUM_PH_0__ が続きます。\",\n    \"u_c31bdf768cca1d75b3267309_0\": \"ブロックタイプボタン、挿入メニュー、または __TRILIUM_PH_0__ 、 __TRILIUM_PH_1__ 、 __TRILIUM_PH_2__ のいずれかを入力してリストを開始すると、この行がすぐに表示されます。戻るボタンをタップすると、別のリストを開始するまで閉じられたままになります。\",\n    \"u_27187eab7052e2ad83bb3661_0\": \"テーブル、画像、その他の要素__TRILIUM_PH_0__\",\n    \"u_fd04e744067e00772e599a0d_0\": \"デスクトップ版で独自のツールバーを持つテーブル、画像、コードブロック、リンク、その他の要素にカーソルがある間は、__TRILIUM_PH_0__Table ›__TRILIUM_PH_1__ のようなその要素名を示すハイライトされたボタンが、__TRILIUM_PH_2__元に戻す__TRILIUM_PH_3__ および __TRILIUM_PH_4__やり直し__TRILIUM_PH_5__ の後に続きます。これにより、フォーマット用ツールバーが要素のツールバーに置き換わります。ツールバーの先頭には再度閉じるための戻るボタンがあり、その後にツールに対応する要素名が続きます。カーソルが要素から離れると、ボタンは消えます。\",\n    \"u_2f6a9f0164948551f4f3b940_0\": \"画像などの要素全体を選択するか、リンクをタップすると、ツールバーがすぐに表示されます。戻るボタンをタップすると、フォーマット用ツールバーに戻ります。\",\n    \"u_2540c0a9208cd9401bf524ca_0\": \"テーブルの列と行のアクションなど、選択肢のリストを持つ要素のツールバーのボタンは、画面下部にメニューとしてそのリストを開きます。テーブルのヘッダー行などのオン/オフを切り替えるオプションはスイッチになっています。\",\n    \"u_d3b4e46f96c0c6a03f4a66dc_0\": \"テキストのフォーマット__TRILIUM_PH_0__\",\n    \"u_902c8779653f767e8ad72d41_0\": \"テキストに適用されるフォーマット（太字、斜体、下線、取り消し線、インラインコード、上付き文字と下付き文字、キーボードショートカット、フォントサイズと色、およびフォーマットの削除）は専用の行に配置され、その後に現在のブロックの左寄せ、中央寄せ、右寄せ、両端揃えが続き、現在適用されているものがハイライトされます。行の末尾には、選択範囲をサブノートとして切り出すための __TRILIUM_PH_0__ があります。\",\n    \"u_6fa42c26968a33745151484f_0\": \"__TRILIUM_PH_1__ ボタンの後に __TRILIUM_PH_0__ をタップするとそれが表示され、メインの行に戻るにはその先頭にある __TRILIUM_PH_2__ をタップします。\",\n    \"u_3b5dea552a7a6812f289a37a_0\": \"テキストを選択するとこの行が単独で表示され、自分でその行を開閉していない限り、選択が解除されると（入力を開始したときなど）メインの行に戻ります。\",\n    \"u_bd120c19fb80b9528cff25df_0\": \"フォントサイズボタンをタップすると、サイズの一覧が画面下部のメニューとして開き、それぞれのサイズで描画され、現在適用されているものにチェックマークが付ます。\",\n    \"u_e252a3825235c515239b7bf1_0\": \"単一の色ボタンによって、テキストの色と背景色の個別ボタンが置き換えられます。これにより、テキスト用の色の行と背景用の色の行を含むメニューが開き、それぞれに色を削除するセルと、デバイスの色選択ツールを開くセルが含まれています。\",\n    \"u_57915d0b00a9d746240d593e_0\": \"リンクと添付ファイル__TRILIUM_PH_0__\",\n    \"u_86f53ff3ce80f07fe4a0453e_0\": \"__TRILIUM_PH_0__ リンクボタンによって、リンクと内部リンクの個別ボタンが置き換えられます。これにより、ノートやWebアドレスにリンクする __TRILIUM_PH_1__リンクの追加__TRILIUM_PH_2__ ダイアログ、またはカーソルがリンク内にある場合は __TRILIUM_PH_3__リンクの編集__TRILIUM_PH_4__ ダイアログが開きます。このダイアログは自動的にキーボードを開かないため、入力するにはノートまたはアドレスのフィールドをタップしてください。同じボタンが、インラインスタイルの後、テキストフォーマットの行にあり、選択したテキストをリンクに変換します。\",\n    \"u_a723f80d1d48d87d53ffa232_0\": \"__TRILIUM_PH_0__ ボタンは、__TRILIUM_PH_1__画像__TRILIUM_PH_2__、__TRILIUM_PH_3__カメラ__TRILIUM_PH_4__、__TRILIUM_PH_5__ファイルを添付して埋め込む__TRILIUM_PH_6__、__TRILIUM_PH_7__ファイルをリンクとして添付__TRILIUM_PH_8__ をリストとして開きます。これはデスクトップツールバーのメニューに __TRILIUM_PH_9__カメラ__TRILIUM_PH_10__ を追加したものです。__TRILIUM_PH_11__カメラ__TRILIUM_PH_12__ はデバイスのカメラを開いて撮影した写真を挿入し、その他はデバイスファイルピッカーを開きます。\"\n  }\n}",
+      "finishReason": "STOP"
+    },
+    {
+      "responseIndex": 67,
+      "text": "{\"requestKey\":\"RDslemsQ6gCp_06ab073ec45d80df\",\"translations\":{\"u_de935227e90317cb267ca651_0\":\"単一のファイルは画像ノートまたはファイルノートになり、インボックスに直接配置されます。\",\"u_6d1bb1a2857e80d2ba919816_0\":\"複数のファイル、またはテキストと一緒に共有されたファイルは、そのテキストを保持する新しいテキストノートの下に配置されます。\",\"u_7d576cc61baf570c98c6584b_0\":\"この方法で作成されたすべてのノートには __TRILIUM_PH_0__ ラベルが付与されます。これにより、ノート独自の __TRILIUM_PH_2__ がない限り、共有されたテキストノートには __TRILIUM_PH_1__ アイコンが設定されます。1回の共有で最大20個のファイルを含めることができます。\",\"u_f96be4f7b1d3b4d6e41a87fc_0\":\"共有するにはログインしている必要があります。セッションが期限切れの場合は、再度ログインしてからもう一度共有してください。\",\"u_76b1e53dd85278233c045cc2_0\":\"デスクトップアプリケーションでのテスト__TRILIUM_PH_0__\",\"u_bedd67da7783e9b19ba41e29_0\":\"専用の __TRILIUM_PH_0__サーバーのインストール__TRILIUM_PH_1__なしでTriliumを実行している場合でも、デスクトップアプリケーションを使用してモバイルアプリケーションをテストできます。詳細については、__TRILIUM_PH_2__デスクトップアプリケーションをサーバーとして使用する__TRILIUM_PH_3__を参照してください。アクセスするには __TRILIUM_PH_4__ に移動します。\",\"u_028d1bde393c87cc3ae35dac_0\":\"モバイル/デスクトップフロントエンドの強制__TRILIUM_PH_0__\",\"u_7eeaedf80348f02128c05d51_0\":\"Triliumは、モバイルとデスクトップのどちらのフロントエンドを使用するかを自動的に決定します。これが適切でない場合は、__TRILIUM_PH_2__ログイン__TRILIUM_PH_3__ページで __TRILIUM_PH_0__ または __TRILIUM_PH_1__ クエリパラメータを使用できます（注：ログアウトが必要な場合があります）。\",\"u_815db267f62e96ca042305ba_0\":\"または、__TRILIUM_PH_2__グローバルメニュー__TRILIUM_PH_3__で __TRILIUM_PH_0__モバイル版に切り替え__TRILIUM_PH_1__を単に選択することもできます。モバイル版では、代わりにそこで __TRILIUM_PH_4__詳細設定__TRILIUM_PH_5__ → __TRILIUM_PH_6__デスクトップ版に切り替え__TRILIUM_PH_7__を選択してください。\",\"u_44ce3017eda140a003796dc8_0\":\"スクリプト__TRILIUM_PH_0__\",\"u_b63da15f431fbef17b557e06_0\":\"通常のフロントエンドと同様に、__TRILIUM_PH_0__スクリプト__TRilIUM_PH_1__を使用して動作を変更できます。スクリプトノートを実行するには、__TRILIUM_PH_2__というラベルが付いている必要があります。\",\"u_31f83a1c804aed20553bc45d_0\":\"カスタムの __TRILIUM_PH_0__起動バー__TRILIUM_PH_1__ ウィジェットもサポートされています。__TRILIUM_PH_2__右ペインのウィジェット__TRILIUM_PH_3__は、ノートパネルの __TRILIUM_PH_4__ウィジェット__TRILIUM_PH_5__ タブに表示されます。\",\"u_b190d47815633246b0ab18a6_0\":\"記事画像\"}}",
+      "finishReason": "STOP"
+    },
+    {
+      "responseIndex": 69,
+      "text": "{\"requestKey\":\"MtPxeAWVAzMg_ea493040dc3d573f\",\"translations\":{\"u_c226f35240fbe49c581ee065_0\":\"ポップアップから短いテキストノートを作成する\",\"u_8a68f35f5f7a7f00af559b29_0\":\"ポップアップ__TRILIUM_PH_0__\",\"u_abcc8e0bdb4742d81320d85c_0\":\"ブラウザのツールバーにある拡張機能のボタンをクリックすると、ポップアップが開きます。\",\"u_b0aaf9cf54257526fa91f8af_0\":\"ポップアップには、現在のページから保存される内容が表示されます。保存前に編集可能なノートのタイトル、ウェブサイト、そしてその下にはプレビューが表示され、プレビューの先頭には独自のノート用のボックスとページの概要があります。プレビュー上の切り替えスイッチで、ページが提供する内容の中から保存するものを選択します。\",\"u_2ccc1cd24b6904aaf3b0aca0_0\":\"ページ上でテキストが選択されている場合の__TRILIUM_PH_0__選択範囲__TRILIUM_PH_1__：__TRILIUM_PH_2__選択範囲を保存__TRILIUM_PH_3__を使用すると、コンテキストメニューと同様に、そのページのクリップのノートに保存されます。\",\"u_1eda131d50bf0484c37b106c_0\":\"__TRILIUM_PH_0__ページ__TRILIUM_PH_1__：__TRILIUM_PH_2__ページをTriliumに保存__TRILIUM_PH_3__は、ページのテキストと画像を保存します。プレビューの上部にある小さなスイッチで、保持するページの量を__TRILIUM_PH_4__記事__TRILIUM_PH_5__（メニュー、サイドバー、フッターを除き、ページのメインテキストのみを保持する）と__TRILIUM_PH_6__ページ全体__TRILIUM_PH_7__（ページが表示するすべてを保持する）から選択します。__TRILIUM_PH_8__ページ全体__TRILIUM_PH_9__は、ギャラリーやカードのページなど、記事ではないページ用であり、__TRILIUM_PH_10__記事__TRILIUM_PH_11__ではコンテンツの一部が除外されてしまう場合に適しています。プレビューには、それぞれが保持する内容が表示されます。__TRILIUM_PH_12__記事__TRILIUM_PH_13__は、Triliumが記事を見つけられないページでは使用できません。ページに記載されている著者は、__TRILIUM_PH_14__アイコンでマークされ、説明の下に表示されます。保存前に編集またはクリアしたり、ページに著者の記載がない場合に入力したりすることができ、ノートの__TRILIUM_PH_15__ラベルに保存されます。ページに公開日の記載がある場合、その日付は著者の下に__TRILIUM_PH_16__アイコンでマークされて表示され、ノートの__TRILIUM_PH_17__ラベルに保存されます。最終更新日の記載がある場合、その日付はさらに下に__TRILIUM_PH_18__アイコンでマークされて表示され、__TRILIUM_PH_19__ラベルに保存されます。\",\"u_f93a160fb55661d895e5be80_0\":\"ブラウザのビューアにPDFが表示されている場合の__TRILIUM_PH_0__PDF__TRILIUM_PH_1__：__TRILIUM_PH_2__PDFをTriliumに保存__TRILIUM_PH_3__は、PDFをダウンロードし、Triliumの__TRILIUM_PH_4__PDF__TRILIUM_PH_5__ビューアで開くファイルノートとして保存します。ファイルノートには独自のテキストがないため、編集できるのはタイトルと説明のみです。ページのURLはノートの__TRILIUM_PH_6__ラベルに、PDFのファイル名は__TRILIUM_PH_7__に保存されます。PDFを保存するには、Trilium v0.107.0以降が必要です。\",\"u_589542739247ef0a7b64ffd4_0\":\"常時利用可能な__TRILIUM_PH_0__ブックマーク__TRILIUM_PH_1__：プレビューはなく、__TRILIUM_PH_2__ブックマークを保存__TRILIUM_PH_3__は、ノートのコンテンツとしてあなたのノートと共にページへのリンクを保存します。空のままにした場合、タイトルはページのタイトルのままになります。\",\"u_b7733fdb5a6e433d4f99e781_0\":\"__TRILIUM_PH_0__アイコンでマークされたノート用のボックスには、ポップアップが開いたときにカーソルが置かれるため、ページを保持する理由などのノートをすぐに入力できます。テキストに合わせてボックスが大きくなり、__TRILIUM_PH_1__選択範囲__TRILIUM_PH_2__、__TRILIUM_PH_3__ページ__TRILIUM_PH_4__、__TRILIUM_PH_5__ブックマーク__TRILIUM_PH_6__の間で切り替えてもその内容が維持されます。選択範囲またはページに関するノートは、クリップされたコンテンツの上に__TRILIUM_PH_7__ノート__TRILIUM_PH_8__の注意喚起（アドモニション）として保存されます。空のままにした場合、何も追加されません。ポップアップのいずれかのフィールドで__TRILIUM_PH_9__Ctrl__TRILIUM_PH_10__+__TRILIUM_PH_11__Enter__TRILIUM_PH_12__を押すと、選択されているモードに関わらず保存されます。\",\"u_eeeefa76dab0d714d56b1b70_0\":\"__TRILIUM_PH_0__アイコンでマークされた説明文は、ページの__TRILIUM_PH_1__メタタグ、またはソーシャルサイト向けに提供されているものから取得されます。保存前に編集またはクリアしたり、ページに説明がない場合に入力したりすることができ、ノートの__TRILIUM_PH_2__ラベルに保存されます。キーボードショートカットやコンテキストメニュー（スクリーンショットや画像を含む）で保存されたクリップには、ページが提供する通りの説明が設定されます。説明を取得する各クリップによってラベルが更新されます。説明、著者、日付は、ノートのタイトルの横にある__TRILIUM_PH_3__Webクリップ__TRILIUM_PH_4__バッジをクリックすると表示されます（__TRILIUM_PH_5__ノートのバッジ__TRILIUM_PH_6__を参照）。\",\"u_1bf0dbdf1c917f75e5af5743_0\":\"ポップアップは、選択範囲が存在する場合は選択範囲を対象に開き、そうでない場合は__TRILIUM_PH_0__ページ__TRILIUM_PH_1__を対象に開き、記事、または記事がない場合はページ全体を表示します。PDFの場合は__TRILIUM_PH_2__PDF__TRILIUM_PH_3__を対象に開きます。保存する内容がないページでは、__TRILIUM_PH_4__ブックマーク__TRILIUM_PH_5__を対象に開き、その旨を表示します。キーボードショートカットやコンテキストメニューを使用すると、プレビューなしで即座に保存されます。この方法でページ全体を保存すると、記事、記事がない場合はページ全体、またはタブにPDFが表示されている場合はPDFが保存されます。\",\"u_86353fff7bd937b6d611a68f_0\":\"拡張機能がアクセスできないページ（ブラウザ自身のページ、拡張機能ストア、および拡張機能がインストールされる前に開かれており再読み込みされていないページ）は保存やキャプチャができないため、ポップアップにはプレビューの代わりにその旨が表示され、そこでは__TRILIUM_PH_0__すべてのタブ__TRILIUM_PH_1__のみが利用可能な状態として残ります。\",\"u_68e204c841a8f865ced53974_0\":\"プレビューの下部にある一連のボタンから、その他のアクションを選択できます：__TRILIUM_PH_0__領域__TRILIUM_PH_1__（選択した領域のスクリーンショット）、__TRILIUM_PH_2__表示部分__TRILIUM_PH_3__（ページの表示部分のスクリーンショット）、__TRILIUM_PH_4__ページ全体__TRILIUM_PH_5__（ページ全体のスクリーンショット）、および__TRILIUM_PH_6__すべてのタブ__TRILIUM_PH_7__（現在のウィンドウにあるすべてのタブのリンクを__TRILIUM_PH_8__リンクプレビュー__TRILIUM_PH_9__のリストとして保存するか、__TRILIUM_PH_10__リンクプレビューを自動生成__TRILIUM_PH_11__がオフの場合はテキストリンクのリストとして保存します）。ボタンにマウスオーバーすると、完全な名前と、存在する場合はキーボードショートカットが表示されます。\",\"u_099659c9ea28925f209599fe_0\":\"__TRILIUM_PH_0__ページ全体__TRILIUM_PH_1__は、ページをスクロールしながら各部分のスクリーンショットを撮影して1つの画像に結合し、その後元のスクロール位置に戻ります。処理中はスクロールバーが非表示になるため、画像には写り込みません。保存されるまでタブを開いたままにしてください。他のタブに切り替えるとスクリーンショットの撮影が停止します。ウィンドウの上部に固定されるヘッダーは画像の最上部に一度だけ表示され、スクロール時に固定される見出しはページ内の位置に表示されます。スクロール中も固定されるその他の要素（Cookieバナーやチャットボタンなど）は除外され、ウィンドウ全体を満たす背景は画面ごとに繰り返されます。Firefoxでは、スクロールせずにページがキャプチャされるためより高速ですが、その場合背景は上部にのみ表示され、スクロールして画面内に表示されるまで読み込まれない画像が欠落する可能性があります。長いページは複数の画像に分割され、ノート内で上下に並べて保存されます。100画面よりも長いページはそこで切り捨てられ、保存後のメッセージにその旨が表示されます。Triliumではスクリーンショットは全高が維持されます。「オプション」→「メディア」の__TRILIUM_PH_4__画像を自動圧縮__TRILIUM_PH_5__の下にある__TRILIUM_PH_2__画像のリサイズ__TRILIUM_PH_3__は、幅のみを制限します。\",\"u_c0366e4a111e502053e3bcdf_0\":\"Triliumが保存を行っている間はポップアップが開いたままになります（長いページや大きなPDFの場合は数秒かかることがあります）。その間、他のアクションは完了するまで待機します。保存が完了すると、ポップアップ上部のバーに、クリップが保存されたことが緑色の文字で表示され（すでにクリップ済みであるという通知に置き換わります）、Triliumでノートを開くための__TRILIUM_PH_0__ノートを開く__TRILIUM_PH_1__（および__TRILIUM_PH_2__すべてのタブ__TRILIUM_PH_3__の実行後には__TRILIUM_PH_4__保存したタブを閉じる__TRILIUM_PH_5__）が表示されます。保存できなかった場合は、その理由が赤色で表示されます。同じクリップを誤って二重に保存することはできません。別のモードが選択されるまで、保存ボタンは無効のままになります。__TRILIUM_PH_6__切り抜き__TRILIUM_PH_7__は例外であり、ページの領域を選択できるようにポップアップが閉じ、ページ上の通知に結果が報告されます。\",\"u_74f7502a31de28c26cb1f989_0\":\"現在のページがすでにクリップされている場合は、上部にTriliumでノートを開くよう促す通知が表示されます。\"}}",
+      "finishReason": "STOP"
+    },
+    {
+      "responseIndex": 72,
+      "text": "{\n  \"requestKey\": \"MtPxeAWVAzMg_06ce4ce39dab1d43\",\n  \"translations\": {\n    \"u_dc130d33990bc08b6984a446_0\": \"Triliumが見つかりません：デスクトップアプリケーションを起動するか、拡張機能のオプションでサーバーアドレスとトークンを確認してください。\",\n    \"u_ef0b7cd1a1b261a832ec90c5_0\": \"Triliumと拡張機能のバージョンに互換性がありません：メッセージに記載されている方をアップデートしてください。\",\n    \"u_b4b166cb7985f380c9c25fd2_0\": \"Triliumがリクエストを拒否しました：メッセージにTriliumからの理由が記載されています。\",\n    \"u_73cb0487d20024b4e898e307_0\": \"ポップアップが拡張機能のバックグラウンドスクリプトに到達できなかったか、応答がありませんでした：ポップアップを閉じて再度開いてください。拡張機能がアップデートまたは再読み込みされたばかりの場合は、ページも再読み込みしてください。\",\n    \"u_3747c4b60b1bb0256207fcdc_0\": \"PDFを保存できませんでした：Triliumのバージョンが v0.107.0 より古い、ウェブサイトがPDFの再送信を拒否した、またはPDFのサイズが100MBを超えています。拡張機能はそのウェブサイトのブラウザのクッキーを使用してPDFをダウンロードするため、ログインが必要な裏にあるPDFもログイン中に保存できます。\",\n    \"u_a90697760c11358d19ee942f_0\": \"拡張機能はクリッピングの画像を自身でダウンロードし、ノートと一緒にTrilium内に保存されるようにします。（ウェブサイトがリクエストを拒否するなどして）一部の画像をダウンロードできない場合でもクリッピングは保存され、通知に不足している画像の数が表示されます。それらの画像は元のウェブサイト上のアドレスを保持します：__TRILIUM_PH_2__Options__TRILIUM_PH_3__ → __TRILIUM_PH_4__Media__TRILIUM_PH_5__ で __TRILIUM_PH_0__Download images automatically__TRILIUM_PH_1__ が有効になっている場合、Triliumはもう一度それらのダウンロードを試みます。そうでない場合、ノートは配信されている間はウェブサイトから画像を表示します。\",\n    \"u_4cb21e34f76d203fa3676d53_0\": \"通知はページ自体に表示されるため、拡張機能が実行できないページ（ブラウザ自体の設定ページ、拡張機能ストア、FirefoxのPDFビューアなど）には表示されません。このようなページ上のポップアップから保存されたクリッピングは、ポップアップ内で引き続き報告されます。\",\n    \"u_8e552e4b1f97cc40705883cd_0\": \"開発バージョンのテスト__TRILIUM_PH_0__\",\n    \"u_6741aee4de2f66e91f4acefe_0\": \"開発バージョンはプレリリースバージョンであり、通常はテスト目的を意図しています。これらはGoogleまたはFirefoxのウェブストアでは入手できませんが、次のいずれかからダウンロードできます：\",\n    \"u_4a6e29293c777e86fee15a67_0\": \"__TRILIUM_PH_2__Web Clipper.__TRILIUM_PH_3__ で始まるリリースを探して、__TRILIUM_PH_0__GitHub Releases__TRILIUM_PH_1__ からダウンロードする。\",\n    \"u_a1deeed35e7f8940722c5870_0\": \"__TRILIUM_PH_0____TRILIUM_PH_1__Deploy web clipper extension__TRILIUM_PH_2__ ワークフロー__TRILIUM_PH_3__を探して、GitHub Actionsのアーティファクトからダウンロードする。ワークフローの実行を選択すると、ZIPファイルが __TRILIUM_PH_6__ という名前で __TRILIUM_PH_4__Artifacts__TRILIUM_PH_5__ セクションに用意されます。\",\n    \"u_606f6a8f6a918710c0c9b071_0\": \"__TRILIUM_PH_0__ Chrome\",\n    \"u_08a242951df4228ee2d701e0_0\": \"__TRILIUM_PH_0__ をダウンロードします。\",\n    \"u_250c24dbfe09000d0012b874_0\": \"アーカイブを解凍します。\",\n    \"u_e34330387cec131641922c6b_0\": \"Chromeで __TRILIUM_PH_0__ に移動します。\",\n    \"u_f539d9d954a84f79bda82913_0\": \"ページの右上にある __TRILIUM_PH_0__Developer Mode__TRILIUM_PH_1__ を有効にします。\"\n  }\n}",
+      "finishReason": "STOP"
+    },
+    {
+      "responseIndex": 73,
+      "text": "{\n  \"requestKey\": \"MtPxeAWVAzMg_f98014e9a16a34eb\",\n  \"translations\": {\n    \"u_24cd4869d17a61544721f4c3_0\": \"ヘッダー付近にある __TRILIUM_PH_0__Load unpacked__TRILIUM_PH_1__ ボタンを押します。\",\n    \"u_a570f0b7cc989e5842399497_0\": \"手順（2）で展開したディレクトリを指定します。\",\n    \"u_93ce6947634d4bdefc05a0dd_0\": \"__TRILIUM_PH_0__ Firefox\",\n    \"u_2032b70349f76b38902839d3_0\": \"Firefoxは「リテール」版では署名のないパッケージのインストールをブロックします。ディスクから拡張機能をインストールできるようにするには、__TRILIUM_PH_0__Firefox Developer Edition__TRILIUM_PH_1__ またはブランド化されていないバージョンの Firefox（例：__TRILIUM_PH_2__GNU IceCat__TRILIUM_PH_3__）の使用を検討してください。\",\n    \"u_4f6e933133b12aa42ce408e3_0\": \"一度だけ __TRILIUM_PH_0__ に移動し、__TRILIUM_PH_1__ を __TRILIUM_PH_2__ に変更します。\",\n    \"u_8c668d9ee8120c4f139d5c73_0\": \"__TRILIUM_PH_0__ に移動します。\",\n    \"u_c113ed568c0c4da20beae673_0\": \"左側のナビゲーションで __TRILIUM_PH_0__Extensions__TRILIUM_PH_1__ を選択します。\",\n    \"u_1f226dcc3bf8b772107ca58e_0\": \"__TRILIUM_PH_2__Manage Your Extensions__TRILIUM_PH_3__ タイトルの右側にある __TRILIUM_PH_0__Gear__TRILIUM_PH_1__ アイコンを押します。\",\n    \"u_37a7993cb0078bd1ffc8b96e_0\": \"__TRILIUM_PH_0__Install Add-on From File…__TRILIUM_PH_1__ を選択します。\",\n    \"u_04485866b8f27602f07976a0_0\": \"__TRILIUM_PH_0__ を指定します。\",\n    \"u_38aa3674e3117dd02154d05b_0\": \"__TRILIUM_PH_0__Add__TRILIUM_PH_1__ ボタンを押して確認します。\",\n    \"u_e7f9883d0930dff63019a0cd_0\": \"クレジット__TRILIUM_PH_0__\",\n    \"u_d4c5639e02a533167f9456a8_0\": \"コードの一部は __TRILIUM_PH_0__Joplin Notes browser extension__TRILIUM_PH_1__ をベースにしています。\",\n    \"u_b190d47815633246b0ab18a6_0\": \"記事画像\"\n  }\n}",
+      "finishReason": "STOP"
+    },
+    {
+      "responseIndex": 75,
+      "text": "{\n  \"requestKey\": \"ODY7qQn5m2FT_9e22aca7e0f8a25a\",\n  \"translations\": {\n    \"u_491cd88f148de2a1a10f26fa_0\": \"バックアップ\",\n    \"u_b5d3f8cb468ea7aba2c4560f_0\": \"Triliumは、次のイベント時に __TRILIUM_PH_0__Database__TRILIUM_PH_1__ のコピーを保存するシンプルなバックアップスキームをサポートしています：\",\n    \"u_45751ff57586d8eb651388ca_0\": \"1日1回\",\n    \"u_a2985635774205e6b3bc7f75_0\": \"週に1回\",\n    \"u_c37bf051b42da51b8111acc0_0\": \"月に1回\",\n    \"u_a343374fc6184c89d02a2e90_0\": \"より新しいバージョンへのDB移行前\",\n    \"u_15c41da1bff6382b379b5f91_0\": \"したがって、合計で異なる時点の最大4つのバックアップが保持され、さまざまな問題から保護されます。これらのバックアップは、デフォルトでは __TRILIUM_PH_1__dataディレクトリ__TR_PH_2__ 内の __TRILIUM_PH_0__ ディレクトリに保存されます。\",\n    \"u_9b9dc1ab80af4aff88dd280a_0\": \"これは非常に基本的なバックアップソリューションにすぎないため、__TRILIUM_PH_0__Database__TRILIUM_PH_1__ をクラウドや別のコンピューターにバックアップするなど、より優れたバックアップソリューションを追加することをお勧めします。\",\n    \"u_97409d75630dabb32bad882e_0\": \"__TRILIUM_PH_0__Synchronization__TRILIUM_PH_1__ は、データを他のコンピュータに分散させるという性質上、バックアップ機能も提供していることに注意してください。\",\n    \"u_3f4647f2394764970ac21ccd_0\": \"バックアップの作成__TRILIUM_PH_0__\",\n    \"u_59b7725c911696fa7dd9e690_0\": \"__TRILIUM_PH_0__ デスクトップアプリおよびWebクライアントの場合\",\n    \"u_e3bd519f49916bb47dda349c_0\": \"__TRILIUM_PH_0__Options__TRILIUM_PH_1__ → __TRILIUM_PH_2__Backup__TRILIUM_PH_3__ に移動し、__TRILIUM_PH_4__Backup now__TRILIUM_PH_5__ ボタンを押します。\",\n    \"u_1d2bbc04a93a713eb3ab5767_0\": \"バックアップの作成には、特にデータベースが大きい場合、しばらく時間がかかることがあります。バックアップが完了すると、通知でお知らせします。\",\n    \"u_dfcac71380852f7c5b6f96af_0\": \"バックアップは __TRILIUM_PH_0__ として __TRILIUM_PH_1__Existing backups__TRILIUM_PH_2__ リストに保存され、そこからダウンロードできます。\",\n    \"u_ea4c2b546acb2eaf55bc7f5a_0\": \"__TRILIUM_PH_0__ スタンドアロンクライアントの場合\",\n    \"u_56668dbe8bb61d95c0527a72_0\": \"__TRILIUM_PH_0__Options__TRILIUM_PH_1__ → __TRILIUM_PH_2__Backup__TRILIUM_PH_3__ に移動し、__TRILIUM_PH_4__Download backup__TRILIUM_PH_5__ ボタンを押します。\"\n  }\n}",
+      "finishReason": "STOP"
+    },
+    {
+      "responseIndex": 79,
+      "text": "{\n  \"requestKey\": \"ODY7qQn5m2FT_a1aaeb706468c401\",\n  \"translations\": {\n    \"u_71d84a2b30f1956311152d1d_0\": \"バックアップの無効化__TRILIUM_PH_0__\",\n    \"u_8edbf308342673be4362f39a_0\": \"推奨されませんが、__TRILIUM_PH_1__data ディレクトリ__TRILIUM_PH_2__内の __TRILIUM_PH_0__ でバックアップを無効にすることが可能です__TRILIUM_PH_2__:\",\n    \"u_0742e02d1ae250c49a2ce0ee_0\": \"また、__TRILIUM_PH_0__設定__TRILIUM_PH_1__ファイルを確認して、すべての __TRILIUM_PH_2__ 値を環境変数として指定することもできます。\",\n    \"u_0a581ac23a82b56fe1ea8ebc_0\": \"__TRILIUM_PH_0__サンプル設定__TRILIUM_PH_1__をご覧ください。\"\n  }\n}",
+      "finishReason": "STOP"
+    }
+  ],
+  "error": "Some batch responses were invalid; valid responses were retained"
 }
