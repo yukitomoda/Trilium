@@ -25,6 +25,16 @@ void test("saved Japanese memory updates pages, navigation, TOC and search offli
         <template id="translation-original"><h2 id="setup">Setup</h2><p>Read this.</p></template>
         <div id="translation-body"><h2 id="setup">Setup</h2><p>Read this.</p></div>
         <a href="quick-start.html"><span>Quick Start</span></a>
+        <nav id="childLinks"><ul><li>
+          <a class="child-link-title" href="quick-start.html">Quick Start</a>
+          <p class="child-link-excerpt">Read this.</p>
+        </li><li>
+          <a class="child-link-title" href="With%20spaces.html">Guide</a>
+          <p class="child-link-excerpt">Read this.</p>
+        </li><li>
+          <a class="child-link-title" href="https://example.com/">External</a>
+          <p class="child-link-excerpt">External preview</p>
+        </li></ul></nav>
         <ul id="toc"><li><a href="#setup">Setup</a></li></ul></div></body></html>`;
         const snapshot: Snapshot = {
             schemaVersion: 1, revision: "revision", metadataHash: "metadata",
@@ -72,6 +82,8 @@ void test("saved Japanese memory updates pages, navigation, TOC and search offli
         assert.equal(doc.querySelector("#toc a")!.textContent, "設定");
         assert.equal(doc.querySelector("a[href='quick-start.html']")!.textContent,
             "クイックスタート");
+        assert.deepEqual(Array.from(doc.querySelectorAll(".child-link-excerpt"), (p) => p.textContent),
+            [ "こちらを読んでください。", "こちらを読んでください。", "External preview" ]);
         assert.match(doc.querySelector("#translation-original")!.innerHTML, /Read this/);
         assert.match(doc.querySelector("title")!.textContent, /ガイド/);
         const search = JSON.parse(await readFile(join(root,

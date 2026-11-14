@@ -53,7 +53,7 @@ export async function applySavedTranslations(
 ) {
     const { conditions } = await translationSettings(root, model);
     const titles = new Map<string, { source: string; translated: string }>();
-    const results: { path: string; html: string; content: string }[] = [];
+    const results: { path: string; html: string; content: string; excerpt: string }[] = [];
     for (const page of snapshot.pages) {
         const document = extractPage(page.html, page.title);
         const memory = reconcile(await loadMemory(join(root,
@@ -95,12 +95,15 @@ export async function applySavedTranslations(
         }
         // The English snapshot template is intentionally left untouched.
         results.push({ path: page.path, html: doc.documentElement.outerHTML,
-            content: searchText(body) });
+            content: searchText(body),
+            excerpt: Array.from(body.querySelectorAll("p"), (paragraph) => searchText(paragraph))
+                .filter(Boolean).join("\n").slice(0, 500) });
         await window.happyDOM.close();
         if (snapshot.pages.length > 50 && results.length % 50 === 0) {
             console.log(`Prepared translations: ${results.length}/${snapshot.pages.length} pages`);
         }
     }
+    const excerpts = new Map(results.map((result) => [ result.path, result.excerpt ]));
     for (const result of results) {
         const window = new Window();
         window.document.write(result.html);
@@ -111,8 +114,14 @@ export async function applySavedTranslations(
             const base = result.path === "/user-guide"
                 ? `${result.path  }/` : `${result.path  }.html`;
             const url = new URL(href, `https://local.invalid${  base}`);
-            const title = titles.get(url.pathname.replace(/\.html$/, "").replace(/\/$/, ""));
+            const targetPath = url.pathname.replace(/\.html$/, "").replace(/\/$/, "");
+            const title = titles.get(targetPath);
             if (!title) continue;
+            if (anchor.matches("#childLinks .child-link-title")) {
+                const preview = anchor.parentElement?.querySelector(".child-link-excerpt");
+                const excerpt = excerpts.get(targetPath);
+                if (preview && excerpt) preview.textContent = excerpt;
+            }
             const walker = doc.createTreeWalker(anchor, 4);
             let text;
             while ((text = walker.nextNode())) {
