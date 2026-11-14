@@ -1,0 +1,749 @@
+{
+  "schemaVersion": 1,
+  "pageId": "6f9hih2hXXZk",
+  "sourceFile": "docs/User Guide/User Guide/Note Types/Code.md",
+  "sourceRevision": "03d17b60f59b5efc29b880b11481471d0fe0ff57",
+  "units": [
+    {
+      "id": "u_ee250a4bbcba1f9fc404228a_0",
+      "kind": "title",
+      "source": "Code",
+      "sourceHash": "ee250a4bbcba1f9fc404228a10319bc32419238756c1830b5fa6495969d1f494",
+      "context": "Code",
+      "contextHash": "340f463033e0fd5ddeabb922df4d4f1b5747494d0f5ed9894f13b6e13ca831f5",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_a88de5deb56edcb621be83da_0",
+      "kind": "p",
+      "source": "Trilium supports creating \"code\" notes, i.e. notes which contain some sort of formal code - be it programming language (C++, JavaScript), structured data (JSON, XML) or other types of codes (CSS etc.).",
+      "sourceHash": "a88de5deb56edcb621be83da0439937fc6c277dbd462250d71e7400a3707c2d2",
+      "context": "Code",
+      "contextHash": "340f463033e0fd5ddeabb922df4d4f1b5747494d0f5ed9894f13b6e13ca831f5",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_3fa9fd0944d010c678a3946e_0",
+      "kind": "p",
+      "source": "This can be useful for a few things:",
+      "sourceHash": "3fa9fd0944d010c678a3946e2f71c138cb491dc6c0992cdf3d25cfb654edb874",
+      "context": "Code",
+      "contextHash": "340f463033e0fd5ddeabb922df4d4f1b5747494d0f5ed9894f13b6e13ca831f5",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_bae6323f75241499758e6323_0",
+      "kind": "li",
+      "source": "computer programmers can store code snippets as notes with syntax highlighting",
+      "sourceHash": "bae6323f75241499758e6323a33fe939b0c478ec3548a37320549a4ccefeec1c",
+      "context": "Code",
+      "contextHash": "340f463033e0fd5ddeabb922df4d4f1b5747494d0f5ed9894f13b6e13ca831f5",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_c2d07cfe6db34febb556e3e1_0",
+      "kind": "li",
+      "source": "JavaScript code notes can be executed inside Trilium for some extra functionality",
+      "sourceHash": "c2d07cfe6db34febb556e3e178d7e413df8ef44757e91c3d3cfc970ff203633a",
+      "context": "Code",
+      "contextHash": "340f463033e0fd5ddeabb922df4d4f1b5747494d0f5ed9894f13b6e13ca831f5",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_1569b1076ec31bf2513fcad3_0",
+      "kind": "li",
+      "source": "we call such JavaScript code notes \"scripts\" – see __TRILIUM_PH_0__Scripting__TRILIUM_PH_1__",
+      "sourceHash": "1569b1076ec31bf2513fcad37835e044d0217340cf0526ef743652fc9e50e699",
+      "context": "Code",
+      "contextHash": "340f463033e0fd5ddeabb922df4d4f1b5747494d0f5ed9894f13b6e13ca831f5",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_61dd45628a57065e84788e7f_0",
+      "kind": "li",
+      "source": "JSON, XML etc. can be used as storage for structured data (typically used in conjunction with scripting)",
+      "sourceHash": "61dd45628a57065e84788e7f0fa7762d76796698030eaef4ce6f7cfd709b8d29",
+      "context": "Code",
+      "contextHash": "340f463033e0fd5ddeabb922df4d4f1b5747494d0f5ed9894f13b6e13ca831f5",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_eefc1e0b81f3050939622d0d_0",
+      "kind": "p",
+      "source": "For shorter snippets of code that can be embedded in __TRILIUM_PH_0__Text__TRILIUM_PH_1__ notes, see __TRILIUM_PH_2__Code blocks__TRILIUM_PH_3__.",
+      "sourceHash": "eefc1e0b81f3050939622d0d55a89b41bfa6d41b04e3c9a63ecfbe9d47c09892",
+      "context": "Code",
+      "contextHash": "340f463033e0fd5ddeabb922df4d4f1b5747494d0f5ed9894f13b6e13ca831f5",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_0aaf78216723c9285f919c80_0",
+      "kind": "h2",
+      "source": "Creating a code note__TRILIUM_PH_0__",
+      "sourceHash": "0aaf78216723c9285f919c80a7d387aa683586da0b4ce1f1b06397fc5af7dca8",
+      "context": "Code > Creating a code note",
+      "contextHash": "3df36f7df15f08dcd0dae18b3fd4d4336924fcefd34e5bb988c69530633be638",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_9c16b6493110e9f2fe5419d3_0",
+      "kind": "p",
+      "source": "In the __TRILIUM_PH_0__Note Tree__TRILIUM_PH_1__, right-click a note and select __TRILIUM_PH_2__Insert child note__TRILIUM_PH_3__ or __TRILIUM_PH_4__Insert note after__TRILIUM_PH_5__, then:",
+      "sourceHash": "9c16b6493110e9f2fe5419d3df1432f447e5a56e90c7aa6d830bef8ee2380628",
+      "context": "Code > Creating a code note",
+      "contextHash": "3df36f7df15f08dcd0dae18b3fd4d4336924fcefd34e5bb988c69530633be638",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_aec66b36091c4ed64334a97f_0",
+      "kind": "li",
+      "source": "To create a plain text code note, select __TRILIUM_PH_0__Code__TRILIUM_PH_1__.",
+      "sourceHash": "aec66b36091c4ed64334a97f5dfe1a77c047c7ff0e38a8ca4456a3bc735963dd",
+      "context": "Code > Creating a code note",
+      "contextHash": "3df36f7df15f08dcd0dae18b3fd4d4336924fcefd34e5bb988c69530633be638",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_1df9d78ee3c53e3cc726ff6d_0",
+      "kind": "li",
+      "source": "To create a code note in a given language, hover __TRILIUM_PH_0__Code__TRILIUM_PH_1__ and select the language. The list shows the languages enabled in the options (see below), and ends with __TRILIUM_PH_2__Configure code notes...__TRILIUM_PH_3__, which opens them.",
+      "sourceHash": "1df9d78ee3c53e3cc726ff6d1be4c2d5a3fba5fd609fa3ca73d73cd789286151",
+      "context": "Code > Creating a code note",
+      "contextHash": "3df36f7df15f08dcd0dae18b3fd4d4336924fcefd34e5bb988c69530633be638",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_667eff42fd94e675d5b31923_0",
+      "kind": "h2",
+      "source": "Adjusting the language of a code note__TRILIUM_PH_0__",
+      "sourceHash": "667eff42fd94e675d5b31923eea6a6f08322655a8aa03aa463d8793da0c8b633",
+      "context": "Code > Adjusting the language of a code note",
+      "contextHash": "d513cb54804c743a426daed01b0830dd50dbea1004a2dd54b18135e13a646f83",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_3e941d1c3575b1e5dc33de05_0",
+      "kind": "p",
+      "source": "To change the language of a code note, look for the __TRILIUM_PH_0__ icon in the __TRILIUM_PH_1__Status bar__TRILIUM_PH_2__. When clicked it will reveal the list of available languages (which can be customized according to the section below). The menu also features a search bar to quickly filter, and icons to visually distinguish some of the programming languages.",
+      "sourceHash": "3e941d1c3575b1e5dc33de0502d6ada1e6e017846ed23fe9f1c2bc09fe231d3b",
+      "context": "Code > Adjusting the language of a code note",
+      "contextHash": "d513cb54804c743a426daed01b0830dd50dbea1004a2dd54b18135e13a646f83",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_ecc4c04414aacc45981d750c_0",
+      "kind": "p",
+      "source": "On the __TRILIUM_PH_0__Mobile Frontend__TRILIUM_PH_1__, the same list is available in the __TRILIUM_PH_2__Note menu__TRILIUM_PH_3__ → __TRILIUM_PH_4__Note settings__TRILIUM_PH_5__ → __TRILIUM_PH_6__Change language mode__TRILIUM_PH_7__.",
+      "sourceHash": "ecc4c04414aacc45981d750cbca275c237186140009de58a9cf429f8fed9040e",
+      "context": "Code > Adjusting the language of a code note",
+      "contextHash": "d513cb54804c743a426daed01b0830dd50dbea1004a2dd54b18135e13a646f83",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_f3e1e2c253fceaee63aaa4f1_0",
+      "kind": "h2",
+      "source": "Adjusting the list of languages__TRILIUM_PH_0__",
+      "sourceHash": "f3e1e2c253fceaee63aaa4f1e399660db547ecf4f2f01363daf0aee1f7f810b0",
+      "context": "Code > Adjusting the list of languages",
+      "contextHash": "1413c6c6a9bf65b86bf3c7ea8abcd610ba66efc9237db4c6faaf851421d6f66e",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_e9cf5c6516bc4c66fa2ab8d4_0",
+      "kind": "p",
+      "source": "Trilium supports syntax highlighting for many languages, but by default displays only some of them. To change which languages are offered, go to __TRILIUM_PH_0__Options__TRILIUM_PH_1__ → __TRILIUM_PH_2__Code Notes__TRILIUM_PH_3__ and find __TRILIUM_PH_4__Available MIME types in the dropdown__TRILIUM_PH_5__. Here you can:",
+      "sourceHash": "e9cf5c6516bc4c66fa2ab8d41153aeb1a4924b39b7abd38ec5ee94b2f9d0a4de",
+      "context": "Code > Adjusting the list of languages",
+      "contextHash": "1413c6c6a9bf65b86bf3c7ea8abcd610ba66efc9237db4c6faaf851421d6f66e",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_66041eb70e375769848caa69_0",
+      "kind": "li",
+      "source": "Add a language by pressing the __TRILIUM_PH_0__ __TRILIUM_PH_1__Add another language__TRILIUM_PH_2__ button, which also shows how many languages are left, and then selecting it. While picking, hover a language to see where it is syntax highlighted.",
+      "sourceHash": "66041eb70e375769848caa6914154caff54f1e554e5de429a6b5fd8b18ec436f",
+      "context": "Code > Adjusting the list of languages",
+      "contextHash": "1413c6c6a9bf65b86bf3c7ea8abcd610ba66efc9237db4c6faaf851421d6f66e",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_4164c808bf60adabde7aad14_0",
+      "kind": "li",
+      "source": "Press the __TRILIUM_PH_0__ button beside a language, or select it and press __TRILIUM_PH_1__Delete__TRILIUM_PH_2__, to remove it from the list. __TRILIUM_PH_3__Plain text__TRILIUM_PH_4__ cannot be removed.",
+      "sourceHash": "4164c808bf60adabde7aad14c7b3f073d7921648a863e71ef997938a48e9ea5a",
+      "context": "Code > Adjusting the list of languages",
+      "contextHash": "1413c6c6a9bf65b86bf3c7ea8abcd610ba66efc9237db4c6faaf851421d6f66e",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_d377b58a1d0fb3a52f184c32_0",
+      "kind": "li",
+      "source": "See where each language is syntax highlighted: the __TRILIUM_PH_0__Code blocks__TRILIUM_PH_1__ badge stands for code blocks in text notes, the __TRILIUM_PH_2__Code notes__TRILIUM_PH_3__ badge for code notes.",
+      "sourceHash": "d377b58a1d0fb3a52f184c325b93626a6779d4da872bfcbd1660c214d4ef08fc",
+      "context": "Code > Adjusting the list of languages",
+      "contextHash": "1413c6c6a9bf65b86bf3c7ea8abcd610ba66efc9237db4c6faaf851421d6f66e",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_57ac012deced7c6dd5f1f2f0_0",
+      "kind": "p",
+      "source": "The languages are listed in the same order wherever you choose one: the language menu in the __TRILIUM_PH_0__Status bar__TRILIUM_PH_1__, the __TRILIUM_PH_2__Code__TRILIUM_PH_3__ submenu when creating a note, and the language of a code block. By default, the list is sorted alphabetically, with __TRILIUM_PH_4__Plain text__TRILIUM_PH_5__ first. To use an order of your own:",
+      "sourceHash": "57ac012deced7c6dd5f1f2f056cddbb3d84a8342bfa5df038c03fd5a54ef281a",
+      "context": "Code > Adjusting the list of languages",
+      "contextHash": "1413c6c6a9bf65b86bf3c7ea8abcd610ba66efc9237db4c6faaf851421d6f66e",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_c86e2a028100323fe986ebd7_0",
+      "kind": "li",
+      "source": "Turn off the __TRILIUM_PH_0__Sort alphabetically__TRILIUM_PH_1__ switch at the top of the section.",
+      "sourceHash": "c86e2a028100323fe986ebd7de10ccf2715b6cfe7e840d586166e7488e9971db",
+      "context": "Code > Adjusting the list of languages",
+      "contextHash": "1413c6c6a9bf65b86bf3c7ea8abcd610ba66efc9237db4c6faaf851421d6f66e",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_dc42237f6633d90c5f47d67e_0",
+      "kind": "li",
+      "source": "Hold the __TRILIUM_PH_0__=__TRILIUM_PH_1__ handle shown beside a language, and then drag it up or down. Alternatively, select a language and press __TRILIUM_PH_2__Ctrl__TRILIUM_PH_3__+__TRILIUM_PH_4__↑__TRILIUM_PH_5__ or __TRILIUM_PH_6__Ctrl__TRILIUM_PH_7__+__TRILIUM_PH_8__↓__TRILIUM_PH_9__.",
+      "sourceHash": "dc42237f6633d90c5f47d67e6729292660f3d84b4212cf7b19644ec685da922f",
+      "context": "Code > Adjusting the list of languages",
+      "contextHash": "1413c6c6a9bf65b86bf3c7ea8abcd610ba66efc9237db4c6faaf851421d6f66e",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_d245af3b501fbead5f52e4fb_0",
+      "kind": "p",
+      "source": "Turning __TRILIUM_PH_0__Sort alphabetically__TRILIUM_PH_1__ back on does not discard your order: it is used again the next time the switch is turned off.",
+      "sourceHash": "d245af3b501fbead5f52e4fb4609976b2bceeb66e82ee49b536447750f59b2df",
+      "context": "Code > Adjusting the list of languages",
+      "contextHash": "1413c6c6a9bf65b86bf3c7ea8abcd610ba66efc9237db4c6faaf851421d6f66e",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_a472d310f776d125bbe6a9f6_0",
+      "kind": "p",
+      "source": "Note that the list of languages is not immediately refreshed, you'd have to manually __TRILIUM_PH_0__refresh the application__TRILIUM_PH_1__.",
+      "sourceHash": "a472d310f776d125bbe6a9f6248bee8e28fc633d92d6f21bf7025d577d46f4d5",
+      "context": "Code > Adjusting the list of languages",
+      "contextHash": "1413c6c6a9bf65b86bf3c7ea8abcd610ba66efc9237db4c6faaf851421d6f66e",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_36c42696e8df1294f7ec7e70_0",
+      "kind": "p",
+      "source": "The list of languages is also shared with the __TRILIUM_PH_0__Code blocks__TRILIUM_PH_1__ feature of __TRILIUM_PH_2__Text__TRILIUM_PH_3__ notes.",
+      "sourceHash": "36c42696e8df1294f7ec7e70a64aafe53292f7bc410a8ff5b2b2baff68a47628",
+      "context": "Code > Adjusting the list of languages",
+      "contextHash": "1413c6c6a9bf65b86bf3c7ea8abcd610ba66efc9237db4c6faaf851421d6f66e",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_814840bd626aac0696270ceb_0",
+      "kind": "h2",
+      "source": "Word wrap__TRILIUM_PH_0__",
+      "sourceHash": "814840bd626aac0696270ceb588a79230a9d626b47782be0706ed031a738888a",
+      "context": "Code > Word wrap",
+      "contextHash": "578e1ffb43055e6700ce408fbf2ca2d8a176066e4b8b9b3c068b5ff8148d0e2b",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_eb1eb3c97f50fe2b8d01bcd3_0",
+      "kind": "p",
+      "source": "Long lines can be displayed on multiple lines:",
+      "sourceHash": "eb1eb3c97f50fe2b8d01bcd3be4418ee7450ba2dba2cbb927f8c02ad41a4e81b",
+      "context": "Code > Word wrap",
+      "contextHash": "578e1ffb43055e6700ce408fbf2ca2d8a176066e4b8b9b3c068b5ff8148d0e2b",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_1e12aad99604f3ae3969a9d2_0",
+      "kind": "li",
+      "source": "Globally for all code notes, from __TRILIUM_PH_0__Options__TRILIUM_PH_1__ → __TRILIUM_PH_2__Code Notes.__TRILIUM_PH_3__",
+      "sourceHash": "1e12aad99604f3ae3969a9d27e7dc73bc63a4b41d9791e3c9d5548a47c6f2779",
+      "context": "Code > Word wrap",
+      "contextHash": "578e1ffb43055e6700ce408fbf2ca2d8a176066e4b8b9b3c068b5ff8148d0e2b",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_091455b1f62a93f13c68892c_0",
+      "kind": "li",
+      "source": "For a particular note, by going to the menu in __TRILIUM_PH_0__Note menu__TRILIUM_PH_1__ and selecting __TRILIUM_PH_2__Word wrap__TRILIUM_PH_3__ and selecting the appropriate option:",
+      "sourceHash": "091455b1f62a93f13c68892c1336d7f8a7610913107e23800bc680b2b5ac57db",
+      "context": "Code > Word wrap",
+      "contextHash": "578e1ffb43055e6700ce408fbf2ca2d8a176066e4b8b9b3c068b5ff8148d0e2b",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_9cc843cbed188304ef8d111f_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__Auto__TRILIUM_PH_1__, to respect the global word wrap for code notes.",
+      "sourceHash": "9cc843cbed188304ef8d111f734743cb326c159ad6664bc6291e0c13485a2fb7",
+      "context": "Code > Word wrap",
+      "contextHash": "578e1ffb43055e6700ce408fbf2ca2d8a176066e4b8b9b3c068b5ff8148d0e2b",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_13bdb7d716169555ed626d4e_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__On__TRILIUM_PH_1__ or __TRILIUM_PH_2__Off__TRILIUM_PH_3__, to change the state of the word wrap for this note regardless of the global option.",
+      "sourceHash": "13bdb7d716169555ed626d4eb6dc1805884542d7b78ae69b5f8f2c63eb0c0c2a",
+      "context": "Code > Word wrap",
+      "contextHash": "578e1ffb43055e6700ce408fbf2ca2d8a176066e4b8b9b3c068b5ff8148d0e2b",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_42aecf0c6a27017a933bce85_0",
+      "kind": "p",
+      "source": "Word wrapping can also be adjusted at note level through the __TRILIUM_PH_0__ __TRILIUM_PH_1__label__TRILIUM_PH_2__, which can also be inherited.",
+      "sourceHash": "42aecf0c6a27017a933bce859ec5ba031e91a82bfdbbf0ea615746d84431a670",
+      "context": "Code > Word wrap",
+      "contextHash": "578e1ffb43055e6700ce408fbf2ca2d8a176066e4b8b9b3c068b5ff8148d0e2b",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_1d4c5dfdf0ae4cefde7a535d_0",
+      "kind": "h2",
+      "source": "Line numbers__TRILIUM_PH_0__",
+      "sourceHash": "1d4c5dfdf0ae4cefde7a535dc3ed6927be28ec5e2e4cc5d8642f1b02dabbd80d",
+      "context": "Code > Line numbers",
+      "contextHash": "6223a7de6148abe5d4520b31bd3770f94a72c395bf9b47b2adbb15c13e2fec1f",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_0c07fbb505b180fa9f0d90ef_0",
+      "kind": "p",
+      "source": "The numbers at the start of each line can be hidden from __TRILIUM_PH_0__Options__TRILIUM_PH_1__ → __TRILIUM_PH_2__Code Notes__TRILIUM_PH_3__ → __TRILIUM_PH_4__Editor__TRILIUM_PH_5__ → __TRILIUM_PH_6__Line numbers__TRILIUM_PH_7__. The setting applies to every code editor, such as the source of a __TRILIUM_PH_8__Markdown__TRILIUM_PH_9__ note, and to code shown without its editor (see __TRILIUM_PH_10__Color schemes__TRILIUM_PH_11__ below).",
+      "sourceHash": "0c07fbb505b180fa9f0d90efb03c9f186371c9bb45d80dfdf8806bc8303b29b4",
+      "context": "Code > Line numbers",
+      "contextHash": "6223a7de6148abe5d4520b31bd3770f94a72c395bf9b47b2adbb15c13e2fec1f",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_bfe727450ef58c444be3bbd1_0",
+      "kind": "p",
+      "source": "An included code note or an embedded code file can show or hide them on its own through the __TRILIUM_PH_0__Line numbers__TRILIUM_PH_1__ submenu of its __TRILIUM_PH_2__More actions__TRILIUM_PH_3__ menu, see __TRILIUM_PH_4__Include Note__TRILIUM_PH_5__. Its __TRILIUM_PH_6__Auto__TRILIUM_PH_7__ entry follows the setting.",
+      "sourceHash": "bfe727450ef58c444be3bbd1d620516ed4cf05c5466b9bbfeb99f9805d8fdc8a",
+      "context": "Code > Line numbers",
+      "contextHash": "6223a7de6148abe5d4520b31bd3770f94a72c395bf9b47b2adbb15c13e2fec1f",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_e85931f4bb8dab34efebaa7a_0",
+      "kind": "h2",
+      "source": "Adjusting options using the status bar__TRILIUM_PH_0__",
+      "sourceHash": "e85931f4bb8dab34efebaa7add0d9133613cda64fa74a42346f973785152320c",
+      "context": "Code > Adjusting options using the status bar",
+      "contextHash": "d82367128f96d45f90b3a88eccd6d3e3e782879bf934f2fc5fac5234deff40c0",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_c3f1202198f864a98f7454d7_0",
+      "kind": "p",
+      "source": "The status bar at the bottom of the editor shows the position of the cursor, the current indentation settings and language.",
+      "sourceHash": "c3f1202198f864a98f7454d78fb2b274b8432417dbe3c2ff2d8eb3b1fb1bf578",
+      "context": "Code > Adjusting options using the status bar",
+      "contextHash": "d82367128f96d45f90b3a88eccd6d3e3e782879bf934f2fc5fac5234deff40c0",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_a0cddf8eadd35db32bbae7d9_0",
+      "kind": "p",
+      "source": "The cursor position is shown as __TRILIUM_PH_0__Ln__TRILIUM_PH_1__ (the line) and __TRILIUM_PH_2__Col__TRILIUM_PH_3__ (the column), both counted from 1. A tab counts as many columns as the display width of tabs, so the column matches where the cursor appears on screen. While text is selected, __TRILIUM_PH_4__Selected__TRILIUM_PH_5__ shows the number of selected characters, counting each line break as one.",
+      "sourceHash": "a0cddf8eadd35db32bbae7d9fb5d7c0d034f839ffa393a1c5cbbef45286b2a95",
+      "context": "Code > Adjusting options using the status bar",
+      "contextHash": "d82367128f96d45f90b3a88eccd6d3e3e782879bf934f2fc5fac5234deff40c0",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_df2cc45e38056b4d6214c1be_0",
+      "kind": "p",
+      "source": "Clicking on the indentation indicator opens a menu with three sections:",
+      "sourceHash": "df2cc45e38056b4d6214c1be0a8f00ba8ee6129976ad79866ab97d4a7f442fed",
+      "context": "Code > Adjusting options using the status bar",
+      "contextHash": "d82367128f96d45f90b3a88eccd6d3e3e782879bf934f2fc5fac5234deff40c0",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_87d556fb6ddb4fafd82ea9d1_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__Indent Using__TRILIUM_PH_1__ — switch between Spaces and Tabs (__TRILIUM_PH_2__). If a per-note override is active, a \"Reset to default\" option appears.",
+      "sourceHash": "87d556fb6ddb4fafd82ea9d1facf4da573e619b5c5eecd8c6b38049e2682b1a4",
+      "context": "Code > Adjusting options using the status bar",
+      "contextHash": "d82367128f96d45f90b3a88eccd6d3e3e782879bf934f2fc5fac5234deff40c0",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_f4a9e8dfe5eac548ac25a831_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__Display Width__TRILIUM_PH_1__ — choose from preset widths (1, 2, 3, 4, 6, 8). Changes are saved as a per-note __TRILIUM_PH_2__ label.",
+      "sourceHash": "f4a9e8dfe5eac548ac25a831c438aa1042d914e7191339192c6be1ed843c5c1c",
+      "context": "Code > Adjusting options using the status bar",
+      "contextHash": "d82367128f96d45f90b3a88eccd6d3e3e782879bf934f2fc5fac5234deff40c0",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_8e544a1e5d02c7c26bf8f9dd_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__Re-indent Content To__TRILIUM_PH_1__ — convert existing indentation to a different style. For example, re-indent a file from 4 spaces to 2 spaces, or from spaces to tabs. This rewrites the leading whitespace on every line while preserving alignment remainders.",
+      "sourceHash": "8e544a1e5d02c7c26bf8f9dda98d1d0ab7500b96689421b716accc4c77f0d6a8",
+      "context": "Code > Adjusting options using the status bar",
+      "contextHash": "d82367128f96d45f90b3a88eccd6d3e3e782879bf934f2fc5fac5234deff40c0",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_57f72059d899b856dabb83cb_0",
+      "kind": "p",
+      "source": "Clicking the language indicator lets you change the note's MIME type. As in the __TRILIUM_PH_0__Note type__TRILIUM_PH_1__ selector, typing narrows the list of languages.",
+      "sourceHash": "57f72059d899b856dabb83cbd44378b8c13320737ced517fa2f96e3c1e616626",
+      "context": "Code > Adjusting options using the status bar",
+      "contextHash": "d82367128f96d45f90b3a88eccd6d3e3e782879bf934f2fc5fac5234deff40c0",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_503bc06f949e6bcdc17b90d9_0",
+      "kind": "p",
+      "source": "The same two menus are in the toolbar of a code note or a code file included in a text note, see __TRILIUM_PH_0__Include Note__TRILIUM_PH_1__.",
+      "sourceHash": "503bc06f949e6bcdc17b90d90c8f9c57a9a2251124f9f901e98783fd33c85584",
+      "context": "Code > Adjusting options using the status bar",
+      "contextHash": "d82367128f96d45f90b3a88eccd6d3e3e782879bf934f2fc5fac5234deff40c0",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_6bf35df504d3ce7714016bd0_0",
+      "kind": "h3",
+      "source": "Re-indentation__TRILIUM_PH_0__",
+      "sourceHash": "6bf35df504d3ce7714016bd09edae2a47eac2a6cc412e6df8d2799fdaa2f3116",
+      "context": "Code > Adjusting options using the status bar > Re-indentation",
+      "contextHash": "f7a6f3fb112ffc8a19984d7374e6f4cb4999c8a8b705e68240b3df7652759ba6",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_e0ab0d3b72b7f87b937569de_0",
+      "kind": "p",
+      "source": "When you re-indent content, the editor:",
+      "sourceHash": "e0ab0d3b72b7f87b937569dec4ebc9a3ed7a774414e55fba93b6c16892a5b0d0",
+      "context": "Code > Adjusting options using the status bar > Re-indentation",
+      "contextHash": "f7a6f3fb112ffc8a19984d7374e6f4cb4999c8a8b705e68240b3df7652759ba6",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_519f8760af6e999e36d43b1f_0",
+      "kind": "li",
+      "source": "Measures the visual column width of each line's leading whitespace using the current style",
+      "sourceHash": "519f8760af6e999e36d43b1f13d1002b10d0b124e764beb7321f303861b24aa3",
+      "context": "Code > Adjusting options using the status bar > Re-indentation",
+      "contextHash": "f7a6f3fb112ffc8a19984d7374e6f4cb4999c8a8b705e68240b3df7652759ba6",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_2944e222094fb4f0d796fb34_0",
+      "kind": "li",
+      "source": "Calculates indent levels and any alignment remainder",
+      "sourceHash": "2944e222094fb4f0d796fb344ed753ccfeb747b877ab9818df41c2884d76c2dc",
+      "context": "Code > Adjusting options using the status bar > Re-indentation",
+      "contextHash": "f7a6f3fb112ffc8a19984d7374e6f4cb4999c8a8b705e68240b3df7652759ba6",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_271b1ef68d3deb95d1871665_0",
+      "kind": "li",
+      "source": "Rebuilds the leading whitespace in the target style",
+      "sourceHash": "271b1ef68d3deb95d1871665d9c63986f6598214b39a1abe8d54b4306f65c644",
+      "context": "Code > Adjusting options using the status bar > Re-indentation",
+      "contextHash": "f7a6f3fb112ffc8a19984d7374e6f4cb4999c8a8b705e68240b3df7652759ba6",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_7dd96f0ffc7ce9f6c91e5c4b_0",
+      "kind": "li",
+      "source": "Preserves non-leading whitespace, blank lines, and content without indentation",
+      "sourceHash": "7dd96f0ffc7ce9f6c91e5c4b5407c488d7d2ad3cb4871b2302861fa835b2c3f1",
+      "context": "Code > Adjusting options using the status bar > Re-indentation",
+      "contextHash": "f7a6f3fb112ffc8a19984d7374e6f4cb4999c8a8b705e68240b3df7652759ba6",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_ba628b38de452564c620e626_0",
+      "kind": "h2",
+      "source": "Transforming text__TRILIUM_PH_0__",
+      "sourceHash": "ba628b38de452564c620e626d6cae4f7dfb1e40c9fc581aeb83ca394879abfbc",
+      "context": "Code > Transforming text",
+      "contextHash": "250e05d485b3651bd2596725e08b61c4617cd938a5a2d5c6e9bff8d74e7228d8",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_5d4d34dc1f99bccbf4586ae8_0",
+      "kind": "p",
+      "source": "To change the selected lines or text, right-click the selection and open __TRILIUM_PH_0__Transform__TRILIUM_PH_1__. Its commands come in three groups:",
+      "sourceHash": "5d4d34dc1f99bccbf4586ae806beb930d59399d7b6539e0273b8e83b256e1d5c",
+      "context": "Code > Transforming text",
+      "contextHash": "250e05d485b3651bd2596725e08b61c4617cd938a5a2d5c6e9bff8d74e7228d8",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_a0483c1c810556bcb9e332b4_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__Sort ascending__TRILIUM_PH_1__, __TRILIUM_PH_2__Sort descending__TRILIUM_PH_3__, __TRILIUM_PH_4__Shuffle lines__TRILIUM_PH_5__, __TRILIUM_PH_6__Reverse line order__TRILIUM_PH_7__ and __TRILIUM_PH_8__Deduplicate lines__TRILIUM_PH_9__, which keeps the first copy of each line.",
+      "sourceHash": "a0483c1c810556bcb9e332b420ac2611317ed45246362f61e82aa097f20c6e09",
+      "context": "Code > Transforming text",
+      "contextHash": "250e05d485b3651bd2596725e08b61c4617cd938a5a2d5c6e9bff8d74e7228d8",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_99f5d41c9f25c0588bcf1c9f_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__Trim leading__TRILIUM_PH_1__, __TRILIUM_PH_2__Trim trailing__TRILIUM_PH_3__ and __TRILIUM_PH_4__Trim both__TRILIUM_PH_5__ remove the whitespace at the start, at the end or at both ends of each line. __TRILIUM_PH_6__Remove blank lines__TRILIUM_PH_7__ also removes the lines that hold only whitespace.",
+      "sourceHash": "99f5d41c9f25c0588bcf1c9f3dcd4d7660ea7f05702487741d9749daaaeb7265",
+      "context": "Code > Transforming text",
+      "contextHash": "250e05d485b3651bd2596725e08b61c4617cd938a5a2d5c6e9bff8d74e7228d8",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_3daf34901309eb104fd49065_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__To uppercase__TRILIUM_PH_1__, __TRILIUM_PH_2__To lowercase__TRILIUM_PH_3__, __TRILIUM_PH_4__To sentence case__TRILIUM_PH_5__, __TRILIUM_PH_6__To title case__TRILIUM_PH_7__ and __TRILIUM_PH_8__Remove diacritics__TRILIUM_PH_9__.",
+      "sourceHash": "3daf34901309eb104fd490654cbb6fbfccc4205413e29d624d5f015df03c6f0e",
+      "context": "Code > Transforming text",
+      "contextHash": "250e05d485b3651bd2596725e08b61c4617cd938a5a2d5c6e9bff8d74e7228d8",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_5a9fbec876c0d362d9ecf74d_0",
+      "kind": "p",
+      "source": "The commands of the first two groups change every line that the selection touches, even partly. Those of the third group change only the selected text. Each change is undone in one step with __TRILIUM_PH_0__Ctrl__TRILIUM_PH_1__+__TRILIUM_PH_2__Z__TRILIUM_PH_3__.",
+      "sourceHash": "5a9fbec876c0d362d9ecf74d5061005f7c67126d861043136987cd273b45b857",
+      "context": "Code > Transforming text",
+      "contextHash": "250e05d485b3651bd2596725e08b61c4617cd938a5a2d5c6e9bff8d74e7228d8",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_6a9f634ef21fa2e9bfc23880_0",
+      "kind": "li",
+      "source": "Sorting reads numbers, dates and times by their value, as sorting a table does (see __TRILIUM_PH_0__Tables__TRILIUM_PH_1__), and ignores the case of letters and the indentation. Blank lines go last.",
+      "sourceHash": "6a9f634ef21fa2e9bfc2388033dbf26cedcee53d687882912d647b74bb11d31d",
+      "context": "Code > Transforming text",
+      "contextHash": "250e05d485b3651bd2596725e08b61c4617cd938a5a2d5c6e9bff8d74e7228d8",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_bcaf0db854c9b9ff9edb4591_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__To sentence case__TRILIUM_PH_1__ lowercases the text and capitalizes the first word of each sentence and of each line. __TRILIUM_PH_2__To title case__TRILIUM_PH_3__ capitalizes every word except minor words such as \"of\" and \"the\", which stay lowercase unless they start or end a sentence.",
+      "sourceHash": "bcaf0db854c9b9ff9edb459185e6782506b4cee3fef5cf4c7daa4fae03a67d6e",
+      "context": "Code > Transforming text",
+      "contextHash": "250e05d485b3651bd2596725e08b61c4617cd938a5a2d5c6e9bff8d74e7228d8",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_0d0d0e2e21ae88432784250d_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__Remove diacritics__TRILIUM_PH_1__ turns letters such as __TRILIUM_PH_2__, __TRILIUM_PH_3__ and __TRILIUM_PH_4__ into __TRILIUM_PH_5__, __TRILIUM_PH_6__ and __TRILIUM_PH_7__, and removes the vowel points of Hebrew and Arabic. Letters such as __TRILIUM_PH_8__ and __TRILIUM_PH_9__ stay as they are.",
+      "sourceHash": "0d0d0e2e21ae88432784250dd81e67ceb20ee3e81d4f97fd67234df155a37029",
+      "context": "Code > Transforming text",
+      "contextHash": "250e05d485b3651bd2596725e08b61c4617cd938a5a2d5c6e9bff8d74e7228d8",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_72d8b273034159e8378354a5_0",
+      "kind": "li",
+      "source": "Sorting and the case changes follow the language set in __TRILIUM_PH_0__Options__TRILIUM_PH_1__ → __TRILIUM_PH_2__Language & Region__TRILIUM_PH_3__ → __TRILIUM_PH_4__Default content language__TRILIUM_PH_5__. In Turkish, for example, an uppercase __TRILIUM_PH_6__ is __TRILIUM_PH_7__.",
+      "sourceHash": "72d8b273034159e8378354a504c8119339146ce96b0ff39fd0a226596845fa4e",
+      "context": "Code > Transforming text",
+      "contextHash": "250e05d485b3651bd2596725e08b61c4617cd938a5a2d5c6e9bff8d74e7228d8",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_4f2b2fd4bc8f6e79d8467810_0",
+      "kind": "h2",
+      "source": "Color schemes__TRILIUM_PH_0__",
+      "sourceHash": "4f2b2fd4bc8f6e79d8467810d45a6d932cc2101de49224ef1b0f30dac9fc87d4",
+      "context": "Code > Color schemes",
+      "contextHash": "f5e3f99cd505d78d42f73acf567c7f110582e2d5b4e0f343c31a368fff5319cc",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_af1e7fae3b88666d1c4d8b78_0",
+      "kind": "p",
+      "source": "Since Trilium 0.94.0 the colors of code notes can be customized by going __TRILIUM_PH_0__Options__TRILIUM_PH_1__ → Code Notes and looking for the __TRILIUM_PH_2__Appearance__TRILIUM_PH_3__ section.",
+      "sourceHash": "af1e7fae3b88666d1c4d8b781b3b82cf0d61560807d82954068db0210fd608fa",
+      "context": "Code > Color schemes",
+      "contextHash": "f5e3f99cd505d78d42f73acf567c7f110582e2d5b4e0f343c31a368fff5319cc",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_4d57fc37f866affe9a657394_0",
+      "kind": "p",
+      "source": "A code note or a code file shown without its editor, such as in an __TRILIUM_PH_0__Include Note__TRILIUM_PH_1__, on the cards of __TRILIUM_PH_2__Collections__TRILIUM_PH_3__ or in a tooltip, uses the same colors and line numbers as the editor does. A printout uses the __TRILIUM_PH_4__Light theme__TRILIUM_PH_5__. A __TRILIUM_PH_6__shared page__TRILIUM_PH_7__ uses the VS Code light or dark theme, following the mode of the page.",
+      "sourceHash": "4d57fc37f866affe9a6573948645274ec61a82a45b6650700acdf7d37a16ef35",
+      "context": "Code > Color schemes",
+      "contextHash": "f5e3f99cd505d78d42f73acf567c7f110582e2d5b4e0f343c31a368fff5319cc",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_c6d601259d61d78c78ee7915_0",
+      "kind": "p",
+      "source": "__TRILIUM_PH_0__Why are there only a few themes whereas the code block themes for text notes have a lot?__TRILIUM_PH_1____TRILIUM_PH_2__The reason is that Code notes use a different technology than the one used in Text notes, and as such there is a more limited selection of themes. If you find a CodeMirror 6 (not 5) theme that you would like to use, let us know and we might consider adding it to the set of default themes. There is no possibility of adding new themes (at least for now), since the themes are defined in JavaScript and not at CSS level.",
+      "sourceHash": "c6d601259d61d78c78ee7915ac370f8be3506f90d332f4263af815eab1252723",
+      "context": "Code > Color schemes",
+      "contextHash": "f5e3f99cd505d78d42f73acf567c7f110582e2d5b4e0f343c31a368fff5319cc",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_aec08685396799ac6ea7720b_0",
+      "kind": "h2",
+      "source": "Programming ligatures__TRILIUM_PH_0__",
+      "sourceHash": "aec08685396799ac6ea7720b0f7d8895886ec450e38d641b3afd733ac4641f62",
+      "context": "Code > Programming ligatures",
+      "contextHash": "1734686e00cfc824d04ec4a264fc194f834045861229bf18d2c7af727cf6da39",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_a2781a350614f2d2e98807d7_0",
+      "kind": "p",
+      "source": "If you see __TRILIUM_PH_0__ displayed as __TRILIUM_PH_1__ or __TRILIUM_PH_2__ as __TRILIUM_PH_3__ inside a code note, those are __TRILIUM_PH_4__font ligature__TRILIUM_PH_5__: the default monospace font draws certain character pairs as a single symbol. The underlying text is not changed by Trilium (unlike text notes which have __TRILIUM_PH_6__Automatic replacements__TRILIUM_PH_7__), and copying it out gives you back __TRILIUM_PH_8__ and __TRILIUM_PH_9__.",
+      "sourceHash": "a2781a350614f2d2e98807d74bcf64e215f51b300093a8fb819bd6fb24b436b3",
+      "context": "Code > Programming ligatures",
+      "contextHash": "1734686e00cfc824d04ec4a264fc194f834045861229bf18d2c7af727cf6da39",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_2b2379b0f7fc64ed8a99cc9c_0",
+      "kind": "p",
+      "source": "This can be turned off with __TRILIUM_PH_0__Options__TRILIUM_PH_1____TRILIUM_PH_2__→ Appearance → Fonts → Programming ligatures__TRILIUM_PH_3__.",
+      "sourceHash": "2b2379b0f7fc64ed8a99cc9c09210f685578fc9fa14b4e8dea7bbea3bae4c990",
+      "context": "Code > Programming ligatures",
+      "contextHash": "1734686e00cfc824d04ec4a264fc194f834045861229bf18d2c7af727cf6da39",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_f8fe523260d26c7b359c7836_0",
+      "kind": "h2",
+      "source": "Virtual keyboard behavior__TRILIUM_PH_0__",
+      "sourceHash": "f8fe523260d26c7b359c783607929f8a52e628d7ce1f465b4e00fbaccdd093de",
+      "context": "Code > Virtual keyboard behavior",
+      "contextHash": "dfc9b5a92a33e21c4ca06fc65172f079bc16767715aa940df29bc36880267fb5",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_f7dd4ce3891863f9e2f98c42_0",
+      "kind": "p",
+      "source": "When using a virtual keyboard, keyboard suggestions and corrections are controlled as follows:",
+      "sourceHash": "f7dd4ce3891863f9e2f98c425ac839d2bd347374c1188def637beafa8595dfd8",
+      "context": "Code > Virtual keyboard behavior",
+      "contextHash": "dfc9b5a92a33e21c4ca06fc65172f079bc16767715aa940df29bc36880267fb5",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_8c2071dcc90ffbfdfe503502_0",
+      "kind": "li",
+      "source": "For __TRILIUM_PH_0__Markdown__TRILIUM_PH_1__ and plain text code notes, the autocorrect is __TRILIUM_PH_2__on__TRILIUM_PH_3__, as well as automatic capitalization.",
+      "sourceHash": "8c2071dcc90ffbfdfe503502216cac1d429312fc21a09877f5d0c159675065e5",
+      "context": "Code > Virtual keyboard behavior",
+      "contextHash": "dfc9b5a92a33e21c4ca06fc65172f079bc16767715aa940df29bc36880267fb5",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_c5b923dcbc330fb90f03b1e8_0",
+      "kind": "li",
+      "source": "For all the other code notes, the autocorrect is off in order to avoid issues when typing code.",
+      "sourceHash": "c5b923dcbc330fb90f03b1e87ab176d4e03274714201a36b393b1ffb43a6372f",
+      "context": "Code > Virtual keyboard behavior",
+      "contextHash": "dfc9b5a92a33e21c4ca06fc65172f079bc16767715aa940df29bc36880267fb5",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_06b0e0abfd1a112b5f640d1f_0",
+      "kind": "p",
+      "source": "Not all browsers and platforms respect this value, so the keyboard suggestions might appear without autocorrecting or the browser might disregard this and autocorrect anyway.",
+      "sourceHash": "06b0e0abfd1a112b5f640d1fd7e6aeac6b6d43e53ce2596324e206a7fd897da1",
+      "context": "Code > Virtual keyboard behavior",
+      "contextHash": "dfc9b5a92a33e21c4ca06fc65172f079bc16767715aa940df29bc36880267fb5",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_b190d47815633246b0ab18a6_0",
+      "kind": "image-alt",
+      "source": "記事画像",
+      "sourceHash": "b190d47815633246b0ab18a61d9b8e8ea36504fe3f8bc230a7753096915c9ff2",
+      "context": "Code > Virtual keyboard behavior",
+      "contextHash": "dfc9b5a92a33e21c4ca06fc65172f079bc16767715aa940df29bc36880267fb5",
+      "status": "pending",
+      "active": true
+    }
+  ],
+  "requests": []
+}

@@ -1,0 +1,279 @@
+{
+  "schemaVersion": 1,
+  "pageId": "KG48zgNY31NW",
+  "sourceFile": "docs/User Guide/User Guide/Note Types/File/Office documents.md",
+  "sourceRevision": "03d17b60f59b5efc29b880b11481471d0fe0ff57",
+  "units": [
+    {
+      "id": "u_e7241f2d13f6d96be6a13a5a_0",
+      "kind": "title",
+      "source": "Office documents",
+      "sourceHash": "e7241f2d13f6d96be6a13a5a25cebbfa1c26166787da534b240d5e1e2633e8d4",
+      "context": "Office documents",
+      "contextHash": "dc7d0a6b33ff1ce4ffd2fba3dec16151362de884cbda2cd7eb1f03cc361a168c",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_37270be30228a17b268b5174_0",
+      "kind": "p",
+      "source": "Since v0.105.0, office documents stored in Trilium display an inline preview of their content, without the need to download them or open them in an external application.",
+      "sourceHash": "37270be30228a17b268b517465d610cfb2f6f15063c8abd5582c4b5102270114",
+      "context": "Office documents",
+      "contextHash": "dc7d0a6b33ff1ce4ffd2fba3dec16151362de884cbda2cd7eb1f03cc361a168c",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_9ee7bb727750e0d4cf9b9378_0",
+      "kind": "h2",
+      "source": "Supported formats__TRILIUM_PH_0__",
+      "sourceHash": "9ee7bb727750e0d4cf9b9378d59ea667bc705f767f3616102853ff696b602e7a",
+      "context": "Office documents > Supported formats",
+      "contextHash": "a08e6bad1bc1198eb8f56b6d29ab9f6b71e9f87e3f2a74b53cfb3ea6887f24dc",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_9f874d7cd2a95cfb181a67dc_0",
+      "kind": "li",
+      "source": "Microsoft Office formats: Word (__TRILIUM_PH_0__), Excel (__TRILIUM_PH_1__) and PowerPoint (__TRILIUM_PH_2__).",
+      "sourceHash": "9f874d7cd2a95cfb181a67dcdfcb8db77c61d1251be52446083c1bfa547626ca",
+      "context": "Office documents > Supported formats",
+      "contextHash": "a08e6bad1bc1198eb8f56b6d29ab9f6b71e9f87e3f2a74b53cfb3ea6887f24dc",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_6724dfd745456526b30eae5d_0",
+      "kind": "li",
+      "source": "The OpenDocument alternatives to the previous formats (Text, Spreadsheet, Presentation), created by editors such as LibreOffice and OpenOffice.",
+      "sourceHash": "6724dfd745456526b30eae5d8a4f3345a46fa380050118570cab198dbbc40daf",
+      "context": "Office documents > Supported formats",
+      "contextHash": "a08e6bad1bc1198eb8f56b6d29ab9f6b71e9f87e3f2a74b53cfb3ea6887f24dc",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_a78ced4e385cc637a57aef05_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__Rich Text Format (RTF)__TRILIUM_PH_1__.",
+      "sourceHash": "a78ced4e385cc637a57aef05f17017e71e5c500abe2a14bbe608a952d9310ee8",
+      "context": "Office documents > Supported formats",
+      "contextHash": "a08e6bad1bc1198eb8f56b6d29ab9f6b71e9f87e3f2a74b53cfb3ea6887f24dc",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_13682e13a21514d37863cf92_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__EPUB__TRILIUM_PH_1__ e-books.",
+      "sourceHash": "13682e13a21514d37863cf92b081d36c15a510e95646e5c7926d76f20d959a7d",
+      "context": "Office documents > Supported formats",
+      "contextHash": "a08e6bad1bc1198eb8f56b6d29ab9f6b71e9f87e3f2a74b53cfb3ea6887f24dc",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_db7ac60ee6aaa9b815f525df_0",
+      "kind": "p",
+      "source": "Older Microsoft Office formats (__TRILIUM_PH_0__, __TRILIUM_PH_1__, __TRILIUM_PH_2__) are not supported.",
+      "sourceHash": "db7ac60ee6aaa9b815f525df0d9d36605a448b127d5a14155ba19ed6dadca8d2",
+      "context": "Office documents > Supported formats",
+      "contextHash": "a08e6bad1bc1198eb8f56b6d29ab9f6b71e9f87e3f2a74b53cfb3ea6887f24dc",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_7f765e67634fdaed95245a79_0",
+      "kind": "h2",
+      "source": "How it works__TRILIUM_PH_0__",
+      "sourceHash": "7f765e67634fdaed95245a793a97538a36bbeb219d8b6cb916f90dd02f941898",
+      "context": "Office documents > How it works",
+      "contextHash": "6957858acc9592116275180ce571371c6e66c3178db8ef5f7d2974492f912807",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_3b195a7bb69179121ca90577_0",
+      "kind": "p",
+      "source": "The document is converted to a simplified representation on the server and rendered as read-only content, similar to a __TRILIUM_PH_0__Text__TRILIUM_PH_1__ note.",
+      "sourceHash": "3b195a7bb69179121ca9057761d6f34b1f0805f18bb553bbb1400428226baa3f",
+      "context": "Office documents > How it works",
+      "contextHash": "6957858acc9592116275180ce571371c6e66c3178db8ef5f7d2974492f912807",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_364610b8842796e234a32b01_0",
+      "kind": "p",
+      "source": "The preview generally preserves:",
+      "sourceHash": "364610b8842796e234a32b018d3c6c5ab0b2e94daf05f02481d5962acd583f37",
+      "context": "Office documents > How it works",
+      "contextHash": "6957858acc9592116275180ce571371c6e66c3178db8ef5f7d2974492f912807",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_15d0ff1959014042f29159ec_0",
+      "kind": "li",
+      "source": "Headings, paragraphs and text alignment.",
+      "sourceHash": "15d0ff1959014042f29159ec4ed319851ebe3a52781df3b00d11b845f694d233",
+      "context": "Office documents > How it works",
+      "contextHash": "6957858acc9592116275180ce571371c6e66c3178db8ef5f7d2974492f912807",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_4e35094d5926e0cc8b703ed1_0",
+      "kind": "li",
+      "source": "Text formatting: bold, italic, underline, strikethrough, subscript/superscript, text and highlight colors, fonts and font sizes.",
+      "sourceHash": "4e35094d5926e0cc8b703ed13923ae9b44a697036a0e70f2098b7635740c7dc0",
+      "context": "Office documents > How it works",
+      "contextHash": "6957858acc9592116275180ce571371c6e66c3178db8ef5f7d2974492f912807",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_11cd60a52d30d9dbc34d4c09_0",
+      "kind": "li",
+      "source": "Bulleted and numbered lists.",
+      "sourceHash": "11cd60a52d30d9dbc34d4c094d38cd2ec9611bfbff355c56174dfe42c8640387",
+      "context": "Office documents > How it works",
+      "contextHash": "6957858acc9592116275180ce571371c6e66c3178db8ef5f7d2974492f912807",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_865059967498b30776a20bb0_0",
+      "kind": "li",
+      "source": "Tables, including merged cells and cell background colors.",
+      "sourceHash": "865059967498b30776a20bb0ee2d687eef64792dd1f8869007d5b2ab92d3fe2f",
+      "context": "Office documents > How it works",
+      "contextHash": "6957858acc9592116275180ce571371c6e66c3178db8ef5f7d2974492f912807",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_b8d6c30d5f7940a78cbb1876_0",
+      "kind": "li",
+      "source": "Embedded images.",
+      "sourceHash": "b8d6c30d5f7940a78cbb18763a784576eb21a1c5bf58dfa1ea773d5b9ca69dac",
+      "context": "Office documents > How it works",
+      "contextHash": "6957858acc9592116275180ce571371c6e66c3178db8ef5f7d2974492f912807",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_770c3ee3266ffceae2b69b66_0",
+      "kind": "li",
+      "source": "Links and footnotes.",
+      "sourceHash": "770c3ee3266ffceae2b69b66558fa3d1d913b2de901a9e4b40889bb2f6b28320",
+      "context": "Office documents > How it works",
+      "contextHash": "6957858acc9592116275180ce571371c6e66c3178db8ef5f7d2974492f912807",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_65649dae28c8bc8c7682e8b1_0",
+      "kind": "p",
+      "source": "To keep links readable regardless of the theme, the default hyperlink color applied automatically by word processors is ignored; links that were deliberately given a custom color by the author keep it.",
+      "sourceHash": "65649dae28c8bc8c7682e8b1c3e06ed696021a8d5b274b04f125945943290c65",
+      "context": "Office documents > How it works",
+      "contextHash": "6957858acc9592116275180ce571371c6e66c3178db8ef5f7d2974492f912807",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_2d166eed4e46d147ae179d3f_0",
+      "kind": "h2",
+      "source": "Limitations__TRILIUM_PH_0__",
+      "sourceHash": "2d166eed4e46d147ae179d3feba2dbd0d28887b22a99884dc255c7ff2e43988d",
+      "context": "Office documents > Limitations",
+      "contextHash": "90176f447878c483f6fc7e412bb7010a9f9e09eb631447bf6b6834550dac609e",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_570a1fe1e5db86b71ab80912_0",
+      "kind": "li",
+      "source": "The preview is read-only. To edit the document, download it or open it in an external application; the content of the note is not affected by the preview. Alternatively copy and paste it into a text note.",
+      "sourceHash": "570a1fe1e5db86b71ab80912017e0f100135eb5607568ac4641f04c48161121c",
+      "context": "Office documents > Limitations",
+      "contextHash": "90176f447878c483f6fc7e412bb7010a9f9e09eb631447bf6b6834550dac609e",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_12544adf98e2adccb54eeb0b_0",
+      "kind": "li",
+      "source": "The preview is a simplified rendering: complex layouts (columns, text boxes, headers and footers), charts and the precise styling of table borders are not reproduced.",
+      "sourceHash": "12544adf98e2adccb54eeb0b799062d1db19015875b9fa94e90d55deb5c5c31a",
+      "context": "Office documents > Limitations",
+      "contextHash": "90176f447878c483f6fc7e412bb7010a9f9e09eb631447bf6b6834550dac609e",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_c970d9c090601af5ffd2020f_0",
+      "kind": "li",
+      "source": "Documents larger than 20 MB are not previewed, to keep the server responsive. The usual download and open actions remain available.",
+      "sourceHash": "c970d9c090601af5ffd2020fa53058775da8e7b730ceb57d447553fedadda9f2",
+      "context": "Office documents > Limitations",
+      "contextHash": "90176f447878c483f6fc7e412bb7010a9f9e09eb631447bf6b6834550dac609e",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_bb9a8531c9bbdf46b7f088a2_0",
+      "kind": "li",
+      "source": "If the document cannot be converted, a notice is displayed instead and the file can still be downloaded or opened externally.",
+      "sourceHash": "bb9a8531c9bbdf46b7f088a2fcb1fcb268d940b122ef9c76a612e511d5960702",
+      "context": "Office documents > Limitations",
+      "contextHash": "90176f447878c483f6fc7e412bb7010a9f9e09eb631447bf6b6834550dac609e",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_43285c859cd46a09fd387045_0",
+      "kind": "h2",
+      "source": "Relation with other features__TRILIUM_PH_0__",
+      "sourceHash": "43285c859cd46a09fd3870459a32352c646ffe1698d500127707ee51f3896b7e",
+      "context": "Office documents > Relation with other features",
+      "contextHash": "bfa77ece066590f79cc412962027835c94f3d5bc9863efbb78966c37484976d4",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_39b8e243204f65b1b1e7f3af_0",
+      "kind": "li",
+      "source": "The same preview is used when an office document is displayed in the __TRILIUM_PH_0__Note List__TRILIUM_PH_1__ or embedded in a text note via __TRILIUM_PH_2__Include Note__TRILIUM_PH_3__, as well as for office documents stored as __TRILIUM_PH_4__Attachments__TRILIUM_PH_5__.",
+      "sourceHash": "39b8e243204f65b1b1e7f3af089ed929c5f8a6bf321fd0156328823b1712c334",
+      "context": "Office documents > Relation with other features",
+      "contextHash": "bfa77ece066590f79cc412962027835c94f3d5bc9863efbb78966c37484976d4",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_bd3fc21bd1a23a7f16fcadbb_0",
+      "kind": "li",
+      "source": "Independently of the preview, the text content of office documents is also extracted in the background so that it can be found with __TRILIUM_PH_0__Search__TRILIUM_PH_1__ via __TRILIUM_PH_2__Text Extraction (OCR)__TRILIUM_PH_3__.",
+      "sourceHash": "bd3fc21bd1a23a7f16fcadbb6a8c8cdb2c2f624db0d0a25af372a11528d52ad7",
+      "context": "Office documents > Relation with other features",
+      "contextHash": "bfa77ece066590f79cc412962027835c94f3d5bc9863efbb78966c37484976d4",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_c02b296cf4e5049e18e26da9_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__ and __TRILIUM_PH_1__ files can be converted to __TRILIUM_PH_2__Spreadsheets__TRILIUM_PH_3__ via the __TRILIUM_PH_4__import__TRILIUM_PH_5__ function.",
+      "sourceHash": "c02b296cf4e5049e18e26da9d21a61dc58cea6b419cf8fe486962839281a7e75",
+      "context": "Office documents > Relation with other features",
+      "contextHash": "bfa77ece066590f79cc412962027835c94f3d5bc9863efbb78966c37484976d4",
+      "status": "pending",
+      "active": true
+    }
+  ],
+  "requests": []
+}

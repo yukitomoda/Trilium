@@ -1,0 +1,354 @@
+{
+  "schemaVersion": 1,
+  "pageId": "J1Bb6lVlwU5T",
+  "sourceFile": "docs/User Guide/User Guide/Installation & Setup/Server Installation/1. Installing the server/Manually.md",
+  "sourceRevision": "03d17b60f59b5efc29b880b11481471d0fe0ff57",
+  "units": [
+    {
+      "id": "u_1ce0da74fa7c56415a2b0c9f_0",
+      "kind": "title",
+      "source": "Manually",
+      "sourceHash": "1ce0da74fa7c56415a2b0c9feda61fa5f145c5d3d2f4868c38f04a1d3a969a23",
+      "context": "Manually",
+      "contextHash": "57d0ea1cc4df85b4bfc27dcb07cc7a9339cfa1263bde196be587b9423eb9fe0f",
+      "status": "translated",
+      "active": true,
+      "translation": "手動インストール",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_a9f580607e0ff4ad8a17efc4_0",
+      "kind": "p",
+      "source": "This page describes manually installing Trilium on your server. __TRILIUM_PH_0__Note that this is a not well supported way to install Trilium, problems may appear, information laid out here is quite out of date. It is recommended to use either__TRILIUM_PH_1__ __TRILIUM_PH_2__Docker Server Installation__TRILIUM_PH_3__ __TRILIUM_PH_4__or__TRILIUM_PH_5__ __TRILIUM_PH_6__Packaged server installation__TRILIUM_PH_7____TRILIUM_PH_8__.__TRILIUM_PH_9__",
+      "sourceHash": "a9f580607e0ff4ad8a17efc461def57692cb35ea8581906a611fded051c92c50",
+      "context": "Manually",
+      "contextHash": "57d0ea1cc4df85b4bfc27dcb07cc7a9339cfa1263bde196be587b9423eb9fe0f",
+      "status": "translated",
+      "active": true,
+      "translation": "このページでは、サーバーにTriliumを手動でインストールする方法について説明します。__TRILIUM_PH_0__これは十分にサポートされているインストール方法ではなく、問題が発生する可能性があることに注意してください。また、ここに記載されている情報はかなり古くなっています。__TRILIUM_PH_1__ __TRILIUM_PH_2__Dockerサーバーインストール__TRILIUM_PH_3__ __TRILIUM_PH_4__または__TRILIUM_PH_5__ __TRILIUM_PH_6__パッケージ化されたサーバーインストール__TRILIUM_PH_7____TRILIUM_PH_8__のいずれかを使用することをお勧めします。__TRILIUM_PH_9__",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_1dada5cbf21f0a58afb9d005_0",
+      "kind": "h2",
+      "source": "Requirements__TRILIUM_PH_0__",
+      "sourceHash": "1dada5cbf21f0a58afb9d005aa20e3c65e3bde3d35a168b4e59fb2ae4bab6564",
+      "context": "Manually > Requirements",
+      "contextHash": "d54f84041972f07b2de72a48adc38f1372b983eb4850a29cbb920a2cd191b9fa",
+      "status": "translated",
+      "active": true,
+      "translation": "要件__TRILIUM_PH_0__",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_a5671db810b22d6361a59ef1_0",
+      "kind": "p",
+      "source": "Trilium is a node.js application. Supported (tested) version of node.js is latest 14.X.X and 16.X.X. Trilium might work with older versions as well.",
+      "sourceHash": "a5671db810b22d6361a59ef184bd33df75071639be6d212d8e8ea2006c86208a",
+      "context": "Manually > Requirements",
+      "contextHash": "d54f84041972f07b2de72a48adc38f1372b983eb4850a29cbb920a2cd191b9fa",
+      "status": "translated",
+      "active": true,
+      "translation": "Triliumはnode.jsアプリケーションです。サポートされている（テスト済みの）node.jsのバージョンは、最新の14.X.Xおよび16.X.Xです。Triliumは古いバージョンでも動作する可能性があります。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_c0f2af74bbdd866c40bc3df7_0",
+      "kind": "p",
+      "source": "You can check your node version with this command (node.js needs to be installed):",
+      "sourceHash": "c0f2af74bbdd866c40bc3df79bd3bb07350b5480ccc5e75b265a701a988a39e0",
+      "context": "Manually > Requirements",
+      "contextHash": "d54f84041972f07b2de72a48adc38f1372b983eb4850a29cbb920a2cd191b9fa",
+      "status": "translated",
+      "active": true,
+      "translation": "以下のコマンドでnodeのバージョンを確認できます（node.jsがインストールされている必要があります）：",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_22816fdc200e0d24a9c6c9b5_0",
+      "kind": "p",
+      "source": "If your Linux distribution has only an outdated version of node.js, you can take a look at the installation instruction on node.js website, which covers most popular distributions.",
+      "sourceHash": "22816fdc200e0d24a9c6c9b57b6936e4759c7e700e62a6f6cfd216aa11ebbbfe",
+      "context": "Manually > Requirements",
+      "contextHash": "d54f84041972f07b2de72a48adc38f1372b983eb4850a29cbb920a2cd191b9fa",
+      "status": "translated",
+      "active": true,
+      "translation": "使用しているLinuxディストリビューションに古いバージョンのnode.jsしかない場合は、node.jsのウェブサイトにあるインストール手順を参照してください。主要なほとんどのディストリビューションが網羅されています。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_73e9e43473616c6f41f6f2ad_0",
+      "kind": "h3",
+      "source": "Dependencies__TRILIUM_PH_0__",
+      "sourceHash": "73e9e43473616c6f41f6f2ad4c4909dad091d6bc7cd3e548abe7b1aaa7a7a2e1",
+      "context": "Manually > Requirements > Dependencies",
+      "contextHash": "fb13ee0c5d226d6528e4240af9eaad3f9adadda1cd7d2ca6ec39ad61958cbe27",
+      "status": "translated",
+      "active": true,
+      "translation": "依存関係__TRILIUM_PH_0__",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_df45b5ac0ad39e3c6ecc9693_0",
+      "kind": "p",
+      "source": "There are some dependencies required. You can see command for Debian and its derivatives (like Ubuntu) below:",
+      "sourceHash": "df45b5ac0ad39e3c6ecc96932ec9c7e23ce68ab49239a25e9d1025f9a9b0e390",
+      "context": "Manually > Requirements > Dependencies",
+      "contextHash": "fb13ee0c5d226d6528e4240af9eaad3f9adadda1cd7d2ca6ec39ad61958cbe27",
+      "status": "translated",
+      "active": true,
+      "translation": "いくつかの依存関係が必要です。Debianおよびその派生ディストリビューション（Ubuntuなど）用のコマンドは以下の通りです：",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_570fd05b1306763eb91a0132_0",
+      "kind": "h2",
+      "source": "Installation__TRILIUM_PH_0__",
+      "sourceHash": "570fd05b1306763eb91a013251c928993261a046cca41758aa8fb1d3bcb725fe",
+      "context": "Manually > Installation",
+      "contextHash": "b04a65bd2dbca1f25e2fcc16e517cfd0689979a58edd82391c32d213f5237158",
+      "status": "translated",
+      "active": true,
+      "translation": "インストール__TRILIUM_PH_0__",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_345b8d166c6dec28d8b9ae72_0",
+      "kind": "h3",
+      "source": "Download__TRILIUM_PH_0__",
+      "sourceHash": "345b8d166c6dec28d8b9ae72c6a328ff08f72c17adcbec5d6ca37f5aa13bb423",
+      "context": "Manually > Installation > Download",
+      "contextHash": "325cc055cebb22ac31286b94042cdc8f21e2549a433d4986fd15c6c00fd9be8a",
+      "status": "translated",
+      "active": true,
+      "translation": "ダウンロード__TRILIUM_PH_0__",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_2526e7326fdd1d3f2daf0f02_0",
+      "kind": "p",
+      "source": "You can either download source code zip/tar from __TRILIUM_PH_0__https://github.com/TriliumNext/Trilium/releases/latest__TRILIUM_PH_1__.",
+      "sourceHash": "2526e7326fdd1d3f2daf0f026c51fee5b904d00e7e5bf7c199a26bc7b85b28cc",
+      "context": "Manually > Installation > Download",
+      "contextHash": "325cc055cebb22ac31286b94042cdc8f21e2549a433d4986fd15c6c00fd9be8a",
+      "status": "translated",
+      "active": true,
+      "translation": "__TRILIUM_PH_0__https://github.com/TriliumNext/Trilium/releases/latest__TRILIUM_PH_1__からソースコードのzipまたはtarをダウンロードできます。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_4712072532ad6e96367aa887_0",
+      "kind": "p",
+      "source": "For the latest version including betas, clone Git repository __TRILIUM_PH_0__from__TRILIUM_PH_1__ __TRILIUM_PH_2__ __TRILIUM_PH_3__branch__TRILIUM_PH_4__ with:",
+      "sourceHash": "4712072532ad6e96367aa88751fecdf8474737ecb9db65a62d3a1bf100d0e0c6",
+      "context": "Manually > Installation > Download",
+      "contextHash": "325cc055cebb22ac31286b94042cdc8f21e2549a433d4986fd15c6c00fd9be8a",
+      "status": "translated",
+      "active": true,
+      "translation": "ベータ版を含む最新バージョンについては、Gitリポジトリを__TRILIUM_PH_0__から__TRILIUM_PH_1__ __TRILIUM_PH_2__ __TRILIUM_PH_3__ブランチ__TRILIUM_PH_4__でクローンしてください：",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_570fd05b1306763eb91a0132_1",
+      "kind": "h2",
+      "source": "Installation__TRILIUM_PH_0__",
+      "sourceHash": "570fd05b1306763eb91a013251c928993261a046cca41758aa8fb1d3bcb725fe",
+      "context": "Manually > Installation",
+      "contextHash": "b04a65bd2dbca1f25e2fcc16e517cfd0689979a58edd82391c32d213f5237158",
+      "status": "translated",
+      "active": true,
+      "translation": "インストール__TRILIUM_PH_0__",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_98c378a88ce6367a2f2280bc_0",
+      "kind": "h2",
+      "source": "Run__TRILIUM_PH_0__",
+      "sourceHash": "98c378a88ce6367a2f2280bc10d94e8684157fe66a4267d3f0bf437dc47af977",
+      "context": "Manually > Run",
+      "contextHash": "4c70350b05c239638621092b22aa1b028b2633f1208270b97276e78724abcff5",
+      "status": "translated",
+      "active": true,
+      "translation": "実行__TRILIUM_PH_0__",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_ea8e2b8f0437da9d92cf1c76_0",
+      "kind": "p",
+      "source": "The application by default starts up on port 8080, so you can open your browser and navigate to __TRILIUM_PH_0__http://localhost:8080__TRILIUM_PH_1__ to access Trilium (replace \"localhost\" with your hostname).",
+      "sourceHash": "ea8e2b8f0437da9d92cf1c768fdfec9221f61d0d484c7a5dc8863b5af319eb0b",
+      "context": "Manually > Run",
+      "contextHash": "4c70350b05c239638621092b22aa1b028b2633f1208270b97276e78724abcff5",
+      "status": "translated",
+      "active": true,
+      "translation": "アプリケーションはデフォルトでポート8080で起動するため、ブラウザを開いて __TRILIUM_PH_0__http://localhost:8080__TRILIUM_PH_1__ にアクセスするとTriliumを利用できます（\"localhost\"はお使いのホスト名に置き換えてください）。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_731d7f4d6a3d656fbb488e93_0",
+      "kind": "p",
+      "source": "Once the server is running, the console lists the addresses it can be reached on, including the ones other devices on your network can use.",
+      "sourceHash": "731d7f4d6a3d656fbb488e93186aafc086361493e316c67c760c502ca265f192",
+      "context": "Manually > Run",
+      "contextHash": "4c70350b05c239638621092b22aa1b028b2633f1208270b97276e78724abcff5",
+      "status": "translated",
+      "active": true,
+      "translation": "サーバーの実行後、コンソールには、ネットワーク上の他のデバイスから使用できるアドレスを含め、アクセス可能なおおよそのアドレスが表示されます。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_bf284d5f6a2b43e62e6827fc_0",
+      "kind": "h2",
+      "source": "TLS__TRILIUM_PH_0__",
+      "sourceHash": "bf284d5f6a2b43e62e6827fc298dbfe01a7f01b81194f6fa3c36aa3f89399ca5",
+      "context": "Manually > TLS",
+      "contextHash": "c3bde9d1775e3e02a6223db8ac12d5522142b2b55114621194a78f2ba9a0c5e9",
+      "status": "translated",
+      "active": true,
+      "translation": "TLS__TRILIUM_PH_0__",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_b49b88031813d9b275132e4e_0",
+      "kind": "p",
+      "source": "Don't forget to __TRILIUM_PH_0__configure TLS__TRILIUM_PH_1__ which is required for secure usage!",
+      "sourceHash": "b49b88031813d9b275132e4eef4a137e48750ece62aa501d3097f0170c88437c",
+      "context": "Manually > TLS",
+      "contextHash": "c3bde9d1775e3e02a6223db8ac12d5522142b2b55114621194a78f2ba9a0c5e9",
+      "status": "translated",
+      "active": true,
+      "translation": "安全な利用に必須である__TRILIUM_PH_0__TLS の設定__TRILIUM_PH_1__を忘れないようにしてください。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    }
+  ],
+  "requests": [
+    {
+      "at": "2026-11-14T11:28:45.803Z",
+      "model": "gemini-3.5-flash-lite",
+      "batchJob": "batches/02spwqy837h8pi7qzqmeo4fgsqo7bgs45hwh",
+      "requestKey": "J1Bb6lVlwU5T_359b0da367e01a01",
+      "modelVersion": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 1461,
+        "candidatesTokenCount": 1105,
+        "totalTokenCount": 2566,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 1461
+          }
+        ],
+        "serviceTier": "standard"
+      }
+    },
+    {
+      "at": "2026-11-14T11:28:45.803Z",
+      "model": "gemini-3.5-flash-lite",
+      "batchJob": "batches/02spwqy837h8pi7qzqmeo4fgsqo7bgs45hwh",
+      "requestKey": "J1Bb6lVlwU5T_5850f428bfb485d6",
+      "modelVersion": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 441,
+        "candidatesTokenCount": 154,
+        "totalTokenCount": 595,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 441
+          }
+        ],
+        "serviceTier": "standard"
+      }
+    }
+  ]
+}

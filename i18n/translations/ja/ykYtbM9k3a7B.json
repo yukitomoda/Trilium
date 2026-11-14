@@ -1,0 +1,109 @@
+{
+  "schemaVersion": 1,
+  "pageId": "ykYtbM9k3a7B",
+  "sourceFile": "docs/User Guide/User Guide/Scripting/Frontend Basics/Preact/Hooks.md",
+  "sourceRevision": "03d17b60f59b5efc29b880b11481471d0fe0ff57",
+  "units": [
+    {
+      "id": "u_60508343faeab0e538252cdd_0",
+      "kind": "title",
+      "source": "Hooks",
+      "sourceHash": "60508343faeab0e538252cdd4572ccec53f56bff9f6920653c57d986cb0ab0e2",
+      "context": "Hooks",
+      "contextHash": "d412a062620ef57bace76558a0384077b1919e66ba0a35af91e5a372f873e65e",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_c1fe36f64eb0b4bd5cca9e98_0",
+      "kind": "h2",
+      "source": "Standard Preact hooks__TRILIUM_PH_0__",
+      "sourceHash": "c1fe36f64eb0b4bd5cca9e9808ebc839b46cd4b166c0ca2c466ca76f2fda3382",
+      "context": "Hooks > Standard Preact hooks",
+      "contextHash": "8aee848741899af3a7ae6a7b29c0ee166f347622aae4e789ec5f4bcf85aeb31e",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_45ff5922e62f15f7db0b2a72_0",
+      "kind": "p",
+      "source": "All standard Preact hooks are available as an import in __TRILIUM_PH_0__.",
+      "sourceHash": "45ff5922e62f15f7db0b2a72deaa45436a03ebe7f0032cc032590bf6ba441710",
+      "context": "Hooks > Standard Preact hooks",
+      "contextHash": "8aee848741899af3a7ae6a7b29c0ee166f347622aae4e789ec5f4bcf85aeb31e",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_1027d9e1431380cfd7e954a5_0",
+      "kind": "p",
+      "source": "For example:",
+      "sourceHash": "1027d9e1431380cfd7e954a5d4db80b11e206e376be8715fbf750ef9d78ae154",
+      "context": "Hooks > Standard Preact hooks",
+      "contextHash": "8aee848741899af3a7ae6a7b29c0ee166f347622aae4e789ec5f4bcf85aeb31e",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_91e10d9e8be676c9008a17d9_0",
+      "kind": "h2",
+      "source": "Custom hooks__TRILIUM_PH_0__",
+      "sourceHash": "91e10d9e8be676c9008a17d98109161c3c48f51eba4636c9f6216f87b977a14a",
+      "context": "Hooks > Custom hooks",
+      "contextHash": "02e1a117fd138774a458b5008218cfe2f43390319e1de96b28aef295b5e89224",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_9fabe18368328ad3fb5681a5_0",
+      "kind": "p",
+      "source": "Trilium comes with a large set of custom hooks for Preact, all of which are also available to custom widgets and __TRILIUM_PH_0__Render Note__TRILIUM_PH_1__.",
+      "sourceHash": "9fabe18368328ad3fb5681a57b09ebb4a5d461265929642320d7e8d88d911ed8",
+      "context": "Hooks > Custom hooks",
+      "contextHash": "02e1a117fd138774a458b5008218cfe2f43390319e1de96b28aef295b5e89224",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_e86de00f4bbeba41afab9e15_0",
+      "kind": "p",
+      "source": "As a replacement to __TRILIUM_PH_0__Note context aware widget__TRILIUM_PH_1__, Preact exposes the current note context in the __TRILIUM_PH_2__ hook:",
+      "sourceHash": "e86de00f4bbeba41afab9e151520cc6d68f61786c06395611649390d030326fd",
+      "context": "Hooks > Custom hooks > useNoteContext",
+      "contextHash": "5a37df875bab0a6c4e0276cc3a9ed3d66adc8127469645c5dd92ec77aaeab24c",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_f00923578c996fc1c04e3609_0",
+      "kind": "p",
+      "source": "Note that the custom widget must be inside the content area (so note detail widget) for this to work properly, especially when dealing with splits.",
+      "sourceHash": "f00923578c996fc1c04e360914bf0a3f5da066461c330cb2e1229efdef7b1261",
+      "context": "Hooks > Custom hooks > useNoteContext",
+      "contextHash": "5a37df875bab0a6c4e0276cc3a9ed3d66adc8127469645c5dd92ec77aaeab24c",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_7cb12c20be8caa19e78c7e6d_0",
+      "kind": "p",
+      "source": "__TRILIUM_PH_0__ is an alternative to __TRILIUM_PH_1__ which works even if the widget is not within the note detail section and it automatically switches the note context as the user is navigating around between tabs and splits.",
+      "sourceHash": "7cb12c20be8caa19e78c7e6daa999b1637361ad9da714a875190497bff285d08",
+      "context": "Hooks > Custom hooks > useActiveNoteContext",
+      "contextHash": "2a0601d68aee3bea25e5c46a15f8fd41996280e95788fb4c11ae3fd36c578769",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_5226d954735816f19bb31541_0",
+      "kind": "p",
+      "source": "This hook allows “listening” for changes to a particular property of a __TRILIUM_PH_0__, such as the __TRILIUM_PH_1__ or __TRILIUM_PH_2__ of a note. The benefit from using the hook is that it actually reacts to changes, for example if the note title or type is changed.",
+      "sourceHash": "5226d954735816f19bb31541ca0be2222c361f8e55875d58b0e0e3bcb20502c1",
+      "context": "Hooks > Custom hooks > useNoteProperty",
+      "contextHash": "083b6c76d40a0004eaab737a53b9503be5cf6bcb22871b44f1655b56aa651832",
+      "status": "pending",
+      "active": true
+    }
+  ],
+  "requests": []
+}

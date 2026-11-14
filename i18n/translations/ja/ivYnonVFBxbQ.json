@@ -1,0 +1,819 @@
+{
+  "schemaVersion": 1,
+  "pageId": "ivYnonVFBxbQ",
+  "sourceFile": "docs/User Guide/User Guide/Advanced Usage/Bulk Actions.md",
+  "sourceRevision": "03d17b60f59b5efc29b880b11481471d0fe0ff57",
+  "units": [
+    {
+      "id": "u_563a9c10a61c87e7b653bad1_0",
+      "kind": "title",
+      "source": "Bulk Actions",
+      "sourceHash": "563a9c10a61c87e7b653bad103fe56717762e39cf493cafcfe711129045f152d",
+      "context": "Bulk Actions",
+      "contextHash": "24908cc5593d5d8ea1f67ad6b873dd49a8a045f441e35de15d8041d2caccfa93",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_41eee294a9dc405df85fa90b_0",
+      "kind": "p",
+      "source": "The __TRILIUM_PH_0__Bulk Actions__TRILIUM_PH_1__ dialog makes it easy to apply changes to multiple notes at once, ranging from simple actions such as adding or removing a label to being executing custom scripts.",
+      "sourceHash": "41eee294a9dc405df85fa90b9f2c28216da9e6eb3f432773bcb79b3b62bd67a9",
+      "context": "Bulk Actions",
+      "contextHash": "24908cc5593d5d8ea1f67ad6b873dd49a8a045f441e35de15d8041d2caccfa93",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_27591f4e86746d469eb2d832_0",
+      "kind": "h2",
+      "source": "Interaction__TRILIUM_PH_0__",
+      "sourceHash": "27591f4e86746d469eb2d8323f6dda382149928ec0550ca8a5a6fdfc24cab9a6",
+      "context": "Bulk Actions > Interaction",
+      "contextHash": "363e1ba1f130bb3ea902eb2d4d761baa6028d4c8887d8d4d57cff6dda5a284f2",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_06f877d47cd655fd3cd6fe80_0",
+      "kind": "li",
+      "source": "The first step is to select the notes in the __TRILIUM_PH_0__Note Tree__TRILIUM_PH_1__. It's possible to apply bulk actions to:",
+      "sourceHash": "06f877d47cd655fd3cd6fe80f24cc49010caa2ccca8f57bead4c0f8ea967d022",
+      "context": "Bulk Actions > Interaction",
+      "contextHash": "363e1ba1f130bb3ea902eb2d4d761baa6028d4c8887d8d4d57cff6dda5a284f2",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_48ecb67a958577fd2cfccf60_0",
+      "kind": "li",
+      "source": "A single note (and potentially its child notes) simply by clicking on it (with a left click or a right click).",
+      "sourceHash": "48ecb67a958577fd2cfccf6052869137b0d0f132f2e04778bdf59de1ca9951ef",
+      "context": "Bulk Actions > Interaction",
+      "contextHash": "363e1ba1f130bb3ea902eb2d4d761baa6028d4c8887d8d4d57cff6dda5a284f2",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_bb17d4dabbf1ba50b5b9c743_0",
+      "kind": "li",
+      "source": "Multiple notes. See __TRILIUM_PH_0__Multiple selection__TRILIUM_PH_1__ on how to do so.",
+      "sourceHash": "bb17d4dabbf1ba50b5b9c74331b02d258d62848dfad402b39b0a830afdf89867",
+      "context": "Bulk Actions > Interaction",
+      "contextHash": "363e1ba1f130bb3ea902eb2d4d761baa6028d4c8887d8d4d57cff6dda5a284f2",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_c91d173b3f5280c98f0ab656_0",
+      "kind": "li",
+      "source": "Right click in the __TRILIUM_PH_0__Note Tree__TRILIUM_PH_1__ and select __TRILIUM_PH_2__Advanced__TRILIUM_PH_3__ → __TRILIUM_PH_4__Apply bulk actions__TRILIUM_PH_5__.",
+      "sourceHash": "c91d173b3f5280c98f0ab6564e41e1eaae7064414d50ba0d6ace7e56fa96acd4",
+      "context": "Bulk Actions > Interaction",
+      "contextHash": "363e1ba1f130bb3ea902eb2d4d761baa6028d4c8887d8d4d57cff6dda5a284f2",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_b0a424491564a3c3b0650829_0",
+      "kind": "li",
+      "source": "The __TRILIUM_PH_0__Selected notes__TRILIUM_PH_1__ section at the top of the dialog lists the notes the actions apply to. When many notes are selected, only the first few are shown; click __TRILIUM_PH_2__+N more__TRILIUM_PH_3__ to show the rest.",
+      "sourceHash": "b0a424491564a3c3b0650829b001a6aed4461bb0d48a7852d4a32940e55ddadd",
+      "context": "Bulk Actions > Interaction",
+      "contextHash": "363e1ba1f130bb3ea902eb2d4d761baa6028d4c8887d8d4d57cff6dda5a284f2",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_71a7c2c8b3540f3682c81186_0",
+      "kind": "li",
+      "source": "To leave a note out without changing the selection in the note tree, press the __TRILIUM_PH_0__ button on its entry. The last remaining note cannot be removed.",
+      "sourceHash": "71a7c2c8b3540f3682c8118621ac3b61afd204a68536755413d00c2c23f079d6",
+      "context": "Bulk Actions > Interaction",
+      "contextHash": "363e1ba1f130bb3ea902eb2d4d761baa6028d4c8887d8d4d57cff6dda5a284f2",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_fe69b464d595e681ace0ca48_0",
+      "kind": "li",
+      "source": "By default, only the selected notes will be affected. To also include all the descendants of the notes, turn on __TRILIUM_PH_0__Include descendants of the selected notes__TRILIUM_PH_1__. The number of affected notes, shown below that option, updates to reflect the change.",
+      "sourceHash": "fe69b464d595e681ace0ca480c0630dcd25424e7fee2059f78b788436836160e",
+      "context": "Bulk Actions > Interaction",
+      "contextHash": "363e1ba1f130bb3ea902eb2d4d761baa6028d4c8887d8d4d57cff6dda5a284f2",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_ce366ad467402399a0f7ec6a_0",
+      "kind": "li",
+      "source": "To add an action, click __TRILIUM_PH_0__Add action__TRILIUM_PH_1__ (__TRILIUM_PH_2__) at the bottom of the __TRILIUM_PH_3__Chosen actions__TRILIUM_PH_4__ section and pick one from the menu. Hovering over an entry shows a short description of what it does; a detailed description of each is available in the next section.",
+      "sourceHash": "ce366ad467402399a0f7ec6ae002c88e2838db47104cf564be5cdf746424d43c",
+      "context": "Bulk Actions > Interaction",
+      "contextHash": "363e1ba1f130bb3ea902eb2d4d761baa6028d4c8887d8d4d57cff6dda5a284f2",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_263a88daabac36b16d64a29d_0",
+      "kind": "li",
+      "source": "Each chosen action appears as an entry in the __TRILIUM_PH_0__Chosen actions__TRILIUM_PH_1__ section, with its own configuration.",
+      "sourceHash": "263a88daabac36b16d64a29ddb08e6811f07b13f3574f3d7c2338d8b23b00e75",
+      "context": "Bulk Actions > Interaction",
+      "contextHash": "363e1ba1f130bb3ea902eb2d4d761baa6028d4c8887d8d4d57cff6dda5a284f2",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_ae2e842998cce6a0e0151f99_0",
+      "kind": "li",
+      "source": "To remove an action, simply press the __TRILIUM_PH_0__ button to the right of it.",
+      "sourceHash": "ae2e842998cce6a0e0151f997fc007d7dea4a1654c43f3627c3e410312a7ec8a",
+      "context": "Bulk Actions > Interaction",
+      "contextHash": "363e1ba1f130bb3ea902eb2d4d761baa6028d4c8887d8d4d57cff6dda5a284f2",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_58a038e70d77908e78ccc6dc_0",
+      "kind": "li",
+      "source": "It is possible to apply multiple actions of the same type, such as adding multiple types.",
+      "sourceHash": "58a038e70d77908e78ccc6dca7d43d8d1b30f7e46e461680ec0e196448cbc78b",
+      "context": "Bulk Actions > Interaction",
+      "contextHash": "363e1ba1f130bb3ea902eb2d4d761baa6028d4c8887d8d4d57cff6dda5a284f2",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_aea553c6252d77f124e1fac7_0",
+      "kind": "li",
+      "source": "The fields for a label or relation name suggest the names already used in the database as you type, marking the ones Trilium itself attaches a meaning to.",
+      "sourceHash": "aea553c6252d77f124e1fac73c6345ae0120a866370ead8641211382ac82f7a5",
+      "context": "Bulk Actions > Interaction",
+      "contextHash": "363e1ba1f130bb3ea902eb2d4d761baa6028d4c8887d8d4d57cff6dda5a284f2",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_dea11573061ecfb60f1fcbc4_0",
+      "kind": "li",
+      "source": "The value field of __TRILIUM_PH_0__Add label__TRILIUM_PH_1__ and __TRILIUM_PH_2__Update label value__TRILIUM_PH_3__ suggests the values the named label already has in the database.",
+      "sourceHash": "dea11573061ecfb60f1fcbc422f2f6c35e0363879cbba312d35bfb8b73f15542",
+      "context": "Bulk Actions > Interaction",
+      "contextHash": "363e1ba1f130bb3ea902eb2d4d761baa6028d4c8887d8d4d57cff6dda5a284f2",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_898ef031a57951bef0ac3034_0",
+      "kind": "li",
+      "source": "When all the actions are defined, press the __TRILIUM_PH_0__Apply to N notes__TRILIUM_PH_1__ button to trigger all of them at once. The button names the number of notes that will be affected, and stays disabled until at least one action is added.",
+      "sourceHash": "898ef031a57951bef0ac30344cfd55ffab6e315d89918eb9532e27db160fc04b",
+      "context": "Bulk Actions > Interaction",
+      "contextHash": "363e1ba1f130bb3ea902eb2d4d761baa6028d4c8887d8d4d57cff6dda5a284f2",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_cfc4175290bdbcec54348c87_0",
+      "kind": "li",
+      "source": "If an action is missing a field it needs, such as the name of the label to rename, the dialog does not run and points out the empty field instead.",
+      "sourceHash": "cfc4175290bdbcec54348c871dd50fd595e530f43b7b9342097b2c84d70961b6",
+      "context": "Bulk Actions > Interaction",
+      "contextHash": "363e1ba1f130bb3ea902eb2d4d761baa6028d4c8887d8d4d57cff6dda5a284f2",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_dc529c75a168b729ca1cbf70_0",
+      "kind": "li",
+      "source": "For convenience, the last bulk action configuration is saved for further use and will be restored when entering the dialog again.",
+      "sourceHash": "dc529c75a168b729ca1cbf70b9b5fef6646493dab1d11d041873e96ccfcde653",
+      "context": "Bulk Actions > Interaction",
+      "contextHash": "363e1ba1f130bb3ea902eb2d4d761baa6028d4c8887d8d4d57cff6dda5a284f2",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_7632f9287e26093444674917_0",
+      "kind": "h2",
+      "source": "Actions__TRILIUM_PH_0__",
+      "sourceHash": "7632f9287e26093444674917b4f78ed3b7dccb4636d1af46c596f3fcfcef2a29",
+      "context": "Bulk Actions > Actions",
+      "contextHash": "7a19a9586eee18b4c1de7b661a176ce99827e5209dc9667cc90ecb89a38d8b39",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_40af651cd79988ab93e4ca81_0",
+      "kind": "h3",
+      "source": "Labels__TRILIUM_PH_0__",
+      "sourceHash": "40af651cd79988ab93e4ca81ef95b28a1f7b541633da90fbb8e7d0abf29bd67f",
+      "context": "Bulk Actions > Actions > Labels",
+      "contextHash": "29c36ca52b8a91493993e8f61a3b8a07d13b5a7ac512d2994566539d5d56c678",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_1677b49a181cb5ac62d5d8eb_0",
+      "kind": "p",
+      "source": "These actions operate the __TRILIUM_PH_0__Labels__TRILIUM_PH_1__ of a note. Except for __TRILIUM_PH_2__Add label__TRILIUM_PH_3__, they only affect labels set directly on the note; inherited labels are left unchanged.",
+      "sourceHash": "1677b49a181cb5ac62d5d8eb05a16788a3095d6fca5a36ab94a957e765396853",
+      "context": "Bulk Actions > Actions > Labels",
+      "contextHash": "29c36ca52b8a91493993e8f61a3b8a07d13b5a7ac512d2994566539d5d56c678",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_4a539b1bc93f259643c3bd86_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__Add label__TRILIUM_PH_1__",
+      "sourceHash": "4a539b1bc93f259643c3bd862ed131eed69670409d85d176bfc3364c05bef448",
+      "context": "Bulk Actions > Actions > Labels",
+      "contextHash": "29c36ca52b8a91493993e8f61a3b8a07d13b5a7ac512d2994566539d5d56c678",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_499961829176c42457cd67c9_0",
+      "kind": "li",
+      "source": "For each note, it creates a __TRILIUM_PH_0__label__TRILIUM_PH_1__ of the given name. Keep the __TRILIUM_PH_2__New value__TRILIUM_PH_3__ field empty to create a label without a value, or complete it to assign a value.",
+      "sourceHash": "499961829176c42457cd67c9aae387cb2a72447b2ff7fb82b0518c4fd77a6249",
+      "context": "Bulk Actions > Actions > Labels",
+      "contextHash": "29c36ca52b8a91493993e8f61a3b8a07d13b5a7ac512d2994566539d5d56c678",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_4617ff67d261a830330c8b82_0",
+      "kind": "li",
+      "source": "The label is added even if the note already has one of the same name, so the note ends up with both. To change the value of an existing label instead, use __TRILIUM_PH_0__Update label value__TRILIUM_PH_1__.",
+      "sourceHash": "4617ff67d261a830330c8b825c62090ba132373b4517c2ab5145e94f9e6e6abf",
+      "context": "Bulk Actions > Actions > Labels",
+      "contextHash": "29c36ca52b8a91493993e8f61a3b8a07d13b5a7ac512d2994566539d5d56c678",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_454e434775ec8d154bc7d94c_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__Update label value__TRILIUM_PH_1__",
+      "sourceHash": "454e434775ec8d154bc7d94c37ea5c5edac0e2e1da576fadf2259971db37423f",
+      "context": "Bulk Actions > Actions > Labels",
+      "contextHash": "29c36ca52b8a91493993e8f61a3b8a07d13b5a7ac512d2994566539d5d56c678",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_b2242bc2a5c91c318a15ab64_0",
+      "kind": "li",
+      "source": "For each note, if it has a __TRILIUM_PH_0__label__TRILIUM_PH_1__ of the given name, it will change its value to the specified one. Leave __TRILIUM_PH_2__New value__TRILIUM_PH_3__ field empty to create a label without a value.",
+      "sourceHash": "b2242bc2a5c91c318a15ab64a745a074eba5bad94182f37fd99ab9c949cdd4f6",
+      "context": "Bulk Actions > Actions > Labels",
+      "contextHash": "29c36ca52b8a91493993e8f61a3b8a07d13b5a7ac512d2994566539d5d56c678",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_72c4159809b3abd668b7cb39_0",
+      "kind": "li",
+      "source": "Notes without the label will not be affected.",
+      "sourceHash": "72c4159809b3abd668b7cb39dccea713f46ca0c1b8ba3596f071d2294a64a19b",
+      "context": "Bulk Actions > Actions > Labels",
+      "contextHash": "29c36ca52b8a91493993e8f61a3b8a07d13b5a7ac512d2994566539d5d56c678",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_fb7d3af65c62b2a3ed7124a5_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0____TRILIUM_PH_1__Rename label__TRILIUM_PH_2____TRILIUM_PH_3__",
+      "sourceHash": "fb7d3af65c62b2a3ed7124a5bdc6d5b4ca5117cf37cbf4977244d850bfba475d",
+      "context": "Bulk Actions > Actions > Labels",
+      "contextHash": "29c36ca52b8a91493993e8f61a3b8a07d13b5a7ac512d2994566539d5d56c678",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_7d8ebd9081487a65892dc0fc_0",
+      "kind": "li",
+      "source": "For each note, if it has a __TRILIUM_PH_0__label__TRILIUM_PH_1__ of the given name, it will be renamed/replaced with a label of the new name. The value of the label (if present) will be kept intact.",
+      "sourceHash": "7d8ebd9081487a65892dc0fc68bfad3a77797537eb5ac21d99c83b04c4ba2865",
+      "context": "Bulk Actions > Actions > Labels",
+      "contextHash": "29c36ca52b8a91493993e8f61a3b8a07d13b5a7ac512d2994566539d5d56c678",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_72c4159809b3abd668b7cb39_1",
+      "kind": "li",
+      "source": "Notes without the label will not be affected.",
+      "sourceHash": "72c4159809b3abd668b7cb39dccea713f46ca0c1b8ba3596f071d2294a64a19b",
+      "context": "Bulk Actions > Actions > Labels",
+      "contextHash": "29c36ca52b8a91493993e8f61a3b8a07d13b5a7ac512d2994566539d5d56c678",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_3f85df1384df7b2bc684008e_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__Delete label__TRILIUM_PH_1__",
+      "sourceHash": "3f85df1384df7b2bc684008ea3daedf1d69963cf5330eb2e41213e1c8bd3e019",
+      "context": "Bulk Actions > Actions > Labels",
+      "contextHash": "29c36ca52b8a91493993e8f61a3b8a07d13b5a7ac512d2994566539d5d56c678",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_a4482cfe0b1845ad13a64902_0",
+      "kind": "li",
+      "source": "For each note, if it has a label of a given name, it will be deleted (regardless of whether it has a value or not).",
+      "sourceHash": "a4482cfe0b1845ad13a64902bd51da4b2c8107ffcd5cc70b3e7edb2bfc368a21",
+      "context": "Bulk Actions > Actions > Labels",
+      "contextHash": "29c36ca52b8a91493993e8f61a3b8a07d13b5a7ac512d2994566539d5d56c678",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_72c4159809b3abd668b7cb39_2",
+      "kind": "li",
+      "source": "Notes without the label will not be affected.",
+      "sourceHash": "72c4159809b3abd668b7cb39dccea713f46ca0c1b8ba3596f071d2294a64a19b",
+      "context": "Bulk Actions > Actions > Labels",
+      "contextHash": "29c36ca52b8a91493993e8f61a3b8a07d13b5a7ac512d2994566539d5d56c678",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_619d924e969308c4f9f09deb_0",
+      "kind": "h3",
+      "source": "Relations__TRILIUM_PH_0__",
+      "sourceHash": "619d924e969308c4f9f09deb566a7dd33d30be96541809772dcec7fb878ae641",
+      "context": "Bulk Actions > Actions > Relations",
+      "contextHash": "18f9bbd43c1b9fb8e7b861b2d8c9a093841e90e124f95b1b988ffe3dd3bf13bd",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_fb17141e0fb41b09175bbb38_0",
+      "kind": "p",
+      "source": "These actions operate the __TRILIUM_PH_0__Relations__TRILIUM_PH_1__ of a note. Except for __TRILIUM_PH_2__Add relation__TRILIUM_PH_3__, they only affect relations set directly on the note; inherited relations are left unchanged.",
+      "sourceHash": "fb17141e0fb41b09175bbb38f43dc9cb4c2db198562c7463fdcc8f6a90332fb5",
+      "context": "Bulk Actions > Actions > Relations",
+      "contextHash": "18f9bbd43c1b9fb8e7b861b2d8c9a093841e90e124f95b1b988ffe3dd3bf13bd",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_84fe6b92ff9235b11fae88e5_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__Add relation__TRILIUM_PH_1__",
+      "sourceHash": "84fe6b92ff9235b11fae88e504b479ab8ea22cd7aa291d572ecb7ba562fb9d46",
+      "context": "Bulk Actions > Actions > Relations",
+      "contextHash": "18f9bbd43c1b9fb8e7b861b2d8c9a093841e90e124f95b1b988ffe3dd3bf13bd",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_5c2e46392188ee523f7a129a_0",
+      "kind": "li",
+      "source": "For each note, it will create a relation pointing to the given note.",
+      "sourceHash": "5c2e46392188ee523f7a129a940c9691367f6b4bd3429078d30e39f37b641bde",
+      "context": "Bulk Actions > Actions > Relations",
+      "contextHash": "18f9bbd43c1b9fb8e7b861b2d8c9a093841e90e124f95b1b988ffe3dd3bf13bd",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_4e5a2f008b94d6af30e3252b_0",
+      "kind": "li",
+      "source": "The relation is added even if the note already has one of the same name.",
+      "sourceHash": "4e5a2f008b94d6af30e3252b0b35e090dd51b76ba6e1b8c788ebef3a5f02091d",
+      "context": "Bulk Actions > Actions > Relations",
+      "contextHash": "18f9bbd43c1b9fb8e7b861b2d8c9a093841e90e124f95b1b988ffe3dd3bf13bd",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_53f289a45302ed1f440e2315_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__Update relation target__TRILIUM_PH_1__",
+      "sourceHash": "53f289a45302ed1f440e23156633791c226c85cc5b118f018e24149181e39499",
+      "context": "Bulk Actions > Actions > Relations",
+      "contextHash": "18f9bbd43c1b9fb8e7b861b2d8c9a093841e90e124f95b1b988ffe3dd3bf13bd",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_0bb21a153f5ab78380397217_0",
+      "kind": "li",
+      "source": "For each note, it will modify a relation to point to the newly given note.",
+      "sourceHash": "0bb21a153f5ab78380397217e6ba0de54a0fb79738821dd7574a9c8c97fd4fdf",
+      "context": "Bulk Actions > Actions > Relations",
+      "contextHash": "18f9bbd43c1b9fb8e7b861b2d8c9a093841e90e124f95b1b988ffe3dd3bf13bd",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_3be1a3df756fd0ffd45fbe66_0",
+      "kind": "li",
+      "source": "Notes without this relation will not be affected.",
+      "sourceHash": "3be1a3df756fd0ffd45fbe66738b8d4891e158d61eedcdde9c0700a1cb24fcf4",
+      "context": "Bulk Actions > Actions > Relations",
+      "contextHash": "18f9bbd43c1b9fb8e7b861b2d8c9a093841e90e124f95b1b988ffe3dd3bf13bd",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_75c43966bc35f06eb7d200d6_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__Rename relation__TRILIUM_PH_1__",
+      "sourceHash": "75c43966bc35f06eb7d200d6471e4e397d1dbfe02a3d0ebb8218d4ef005e9996",
+      "context": "Bulk Actions > Actions > Relations",
+      "contextHash": "18f9bbd43c1b9fb8e7b861b2d8c9a093841e90e124f95b1b988ffe3dd3bf13bd",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_5fd0ec0a0547d204fd08618d_0",
+      "kind": "li",
+      "source": "For each note, if it has a relation of the given name, it will be renamed/replaced with a relation of the new name. The target note of the relation will be kept intact.",
+      "sourceHash": "5fd0ec0a0547d204fd08618d73a7f7d745dcb05a1c4be251f5693745aed83b1c",
+      "context": "Bulk Actions > Actions > Relations",
+      "contextHash": "18f9bbd43c1b9fb8e7b861b2d8c9a093841e90e124f95b1b988ffe3dd3bf13bd",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_3be1a3df756fd0ffd45fbe66_1",
+      "kind": "li",
+      "source": "Notes without this relation will not be affected.",
+      "sourceHash": "3be1a3df756fd0ffd45fbe66738b8d4891e158d61eedcdde9c0700a1cb24fcf4",
+      "context": "Bulk Actions > Actions > Relations",
+      "contextHash": "18f9bbd43c1b9fb8e7b861b2d8c9a093841e90e124f95b1b988ffe3dd3bf13bd",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_99bf850dfa3d1174b0968982_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__Delete relation__TRILIUM_PH_1__",
+      "sourceHash": "99bf850dfa3d1174b0968982ab3d0c0a34ab1776cec3a9e35284a9f085b4a974",
+      "context": "Bulk Actions > Actions > Relations",
+      "contextHash": "18f9bbd43c1b9fb8e7b861b2d8c9a093841e90e124f95b1b988ffe3dd3bf13bd",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_46d3c036c7cf98e3a045e484_0",
+      "kind": "li",
+      "source": "For each note, if it has a relation of the given name, it will be deleted.",
+      "sourceHash": "46d3c036c7cf98e3a045e484d3878d0f213a19e37d65f85b2bb9a9e4c9c76136",
+      "context": "Bulk Actions > Actions > Relations",
+      "contextHash": "18f9bbd43c1b9fb8e7b861b2d8c9a093841e90e124f95b1b988ffe3dd3bf13bd",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_3be1a3df756fd0ffd45fbe66_2",
+      "kind": "li",
+      "source": "Notes without this relation will not be affected.",
+      "sourceHash": "3be1a3df756fd0ffd45fbe66738b8d4891e158d61eedcdde9c0700a1cb24fcf4",
+      "context": "Bulk Actions > Actions > Relations",
+      "contextHash": "18f9bbd43c1b9fb8e7b861b2d8c9a093841e90e124f95b1b988ffe3dd3bf13bd",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_98958780cfcbe811d664842e_0",
+      "kind": "h3",
+      "source": "Notes__TRILIUM_PH_0__",
+      "sourceHash": "98958780cfcbe811d664842ea0a1c00877b19c1cc27f8d1dc743bf1231d25953",
+      "context": "Bulk Actions > Actions > Notes",
+      "contextHash": "313cbda6ca4fc90f2c7b01f530f3192600ccfd8a2cfc445db9197ac52df56c61",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_3480ce22ddfb0d99e4749e3b_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__Rename note__TRILIUM_PH_1__",
+      "sourceHash": "3480ce22ddfb0d99e4749e3bb99e23491caced9044af8b875caf556f8996af3c",
+      "context": "Bulk Actions > Actions > Notes",
+      "contextHash": "313cbda6ca4fc90f2c7b01f530f3192600ccfd8a2cfc445db9197ac52df56c61",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_77727f7eb01f254fc00d10d3_0",
+      "kind": "li",
+      "source": "For each note, it will change the title of the note to the given one.",
+      "sourceHash": "77727f7eb01f254fc00d10d34e36deb2edb31fdab5fc593ad8cafe847656c5fd",
+      "context": "Bulk Actions > Actions > Notes",
+      "contextHash": "313cbda6ca4fc90f2c7b01f530f3192600ccfd8a2cfc445db9197ac52df56c61",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_0fa14e09c0c53944edc5ad6e_0",
+      "kind": "li",
+      "source": "The title can contain expressions between __TRILIUM_PH_0__ and __TRILIUM_PH_1__, which are filled in for each note. They can read the note's properties, such as __TRILIUM_PH_2__, __TRILIUM_PH_3__ or __TRILIUM_PH_4__, and call __TRILIUM_PH_5__, __TRILIUM_PH_6__ or, on a date such as __TRILIUM_PH_7__, __TRILIUM_PH_8__. For example:",
+      "sourceHash": "0fa14e09c0c53944edc5ad6e94a2b4578bd71f28cd1b371aa6e84c7e28669429",
+      "context": "Bulk Actions > Actions > Notes",
+      "contextHash": "313cbda6ca4fc90f2c7b01f530f3192600ccfd8a2cfc445db9197ac52df56c61",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_9fe76416dcff556908a2c526_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__ will prefix all notes with __TRILIUM_PH_1__ .",
+      "sourceHash": "9fe76416dcff556908a2c52608e3ded6ef391d56db1ebf7bff5638b4e4918af9",
+      "context": "Bulk Actions > Actions > Notes",
+      "contextHash": "313cbda6ca4fc90f2c7b01f530f3192600ccfd8a2cfc445db9197ac52df56c61",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_c546802727a9dd0e054bb9b3_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__ will prefix the note titles with each note's creation date (in month-day format).",
+      "sourceHash": "c546802727a9dd0e054bb9b30f27b9b5bb7de829f6f5d444f2e40fd608f86022",
+      "context": "Bulk Actions > Actions > Notes",
+      "contextHash": "313cbda6ca4fc90f2c7b01f530f3192600ccfd8a2cfc445db9197ac52df56c61",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_8b5c1ca9fd1a63fe0727def2_0",
+      "kind": "li",
+      "source": "Only property access and those methods are allowed, not arbitrary JavaScript. While typing, the field completes the expressions, underlines one that is not allowed and shows the resulting title for the first selected note.",
+      "sourceHash": "8b5c1ca9fd1a63fe0727def231106691b719a45f454ff19940eb02f7c6f20828",
+      "context": "Bulk Actions > Actions > Notes",
+      "contextHash": "313cbda6ca4fc90f2c7b01f530f3192600ccfd8a2cfc445db9197ac52df56c61",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_3aa98b5dd49cb90d1667b6c3_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__Move note__TRILIUM_PH_1__",
+      "sourceHash": "3aa98b5dd49cb90d1667b6c3f6d3ea770e7e0bbe43d502cda435fc9f57c4e961",
+      "context": "Bulk Actions > Actions > Notes",
+      "contextHash": "313cbda6ca4fc90f2c7b01f530f3192600ccfd8a2cfc445db9197ac52df56c61",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_4f65ce8faecb5ad8681bbe35_0",
+      "kind": "li",
+      "source": "For each note, it will be moved to the specified parent note.",
+      "sourceHash": "4f65ce8faecb5ad8681bbe358529a221dab50a6834f88658e1b1c4dbe73df811",
+      "context": "Bulk Actions > Actions > Notes",
+      "contextHash": "313cbda6ca4fc90f2c7b01f530f3192600ccfd8a2cfc445db9197ac52df56c61",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_2bf8900fc171cf63fc16b93d_0",
+      "kind": "li",
+      "source": "A note with several parents is cloned to the new parent instead, since it is not clear which of its places to remove.",
+      "sourceHash": "2bf8900fc171cf63fc16b93d0a08b5c62fc1088150135a84942e553cb59e4216",
+      "context": "Bulk Actions > Actions > Notes",
+      "contextHash": "313cbda6ca4fc90f2c7b01f530f3192600ccfd8a2cfc445db9197ac52df56c61",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_ee1339be5b54818acc172ad5_0",
+      "kind": "li",
+      "source": "A note that cannot be placed there, such as a parent of the target note, stays where it is.",
+      "sourceHash": "ee1339be5b54818acc172ad5516c655639061b9667527076c3a5125ca2f15505",
+      "context": "Bulk Actions > Actions > Notes",
+      "contextHash": "313cbda6ca4fc90f2c7b01f530f3192600ccfd8a2cfc445db9197ac52df56c61",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_d1c952011a8b2508e56e3257_0",
+      "kind": "li",
+      "source": "As an alternative for less complex situations, the notes can be moved directly from within the __TRILIUM_PH_0__Note Tree__TRILIUM_PH_1__ via cut → paste or via the contextual menu.",
+      "sourceHash": "d1c952011a8b2508e56e32571d82c73adcd4b072bda7a40482a48d0f9f096558",
+      "context": "Bulk Actions > Actions > Notes",
+      "contextHash": "313cbda6ca4fc90f2c7b01f530f3192600ccfd8a2cfc445db9197ac52df56c61",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_735e659d5cfdf580617d785a_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__Convert note__TRILIUM_PH_1__",
+      "sourceHash": "735e659d5cfdf580617d785ab747377c77c7041418c4ac84313b65f32372af7a",
+      "context": "Bulk Actions > Actions > Notes",
+      "contextHash": "313cbda6ca4fc90f2c7b01f530f3192600ccfd8a2cfc445db9197ac52df56c61",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_7d39340f25282baf0270721c_0",
+      "kind": "li",
+      "source": "This allows a note to be converted from one type to another:",
+      "sourceHash": "7d39340f25282baf0270721c79c1621c9429aa8cc240ebb6b389b9d8c2d41122",
+      "context": "Bulk Actions > Actions > Notes",
+      "contextHash": "313cbda6ca4fc90f2c7b01f530f3192600ccfd8a2cfc445db9197ac52df56c61",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_e50797ac2914d15955a5537f_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__Text Notes → Markdown Notes__TRILIUM_PH_1__ — each __TRILIUM_PH_2__Text__TRILIUM_PH_3__ note is converted to a __TRILIUM_PH_4__Markdown__TRILIUM_PH_5__ note. Since Markdown does not support all the formatting capabilities of Text Notes, some formatting may be lost and some unsupported elements may even be dropped.",
+      "sourceHash": "e50797ac2914d15955a5537f9ca4b8cac4fb55504205ce7804ac666ef9161b4c",
+      "context": "Bulk Actions > Actions > Notes",
+      "contextHash": "313cbda6ca4fc90f2c7b01f530f3192600ccfd8a2cfc445db9197ac52df56c61",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_7e8c54276d00b4420c142376_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__Markdown Notes → Text Notes__TRILIUM_PH_1__ — each __TRILIUM_PH_2__Markdown__TRILIUM_PH_3__ note is converted to a __TRILIUM_PH_4__Text__TRILIUM_PH_5__ Note.",
+      "sourceHash": "7e8c54276d00b4420c1423767e0d30a82f558785cc8e2616e3d3cf2c47bc9a05",
+      "context": "Bulk Actions > Actions > Notes",
+      "contextHash": "313cbda6ca4fc90f2c7b01f530f3192600ccfd8a2cfc445db9197ac52df56c61",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_a192db7c12802efd64296a47_0",
+      "kind": "li",
+      "source": "For each converted note, a revision is saved automatically, allowing you to restore the original or recover any missing elements from it.",
+      "sourceHash": "a192db7c12802efd64296a47f7ac7fb6b896c74bbdeed643accbdac27566201d",
+      "context": "Bulk Actions > Actions > Notes",
+      "contextHash": "313cbda6ca4fc90f2c7b01f530f3192600ccfd8a2cfc445db9197ac52df56c61",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_63277e1e0a3324510f7c7046_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__Save revision__TRILIUM_PH_1__",
+      "sourceHash": "63277e1e0a3324510f7c7046c6a5e90017ec757668d8d248a09d4790232e1471",
+      "context": "Bulk Actions > Actions > Notes",
+      "contextHash": "313cbda6ca4fc90f2c7b01f530f3192600ccfd8a2cfc445db9197ac52df56c61",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_ce4a79417ee7615a2e4fa819_0",
+      "kind": "li",
+      "source": "Automatically creates a revision of each note. Optionally, a name can be assigned to this revision. See __TRILIUM_PH_0__Note Revisions__TRILIUM_PH_1__.",
+      "sourceHash": "ce4a79417ee7615a2e4fa819a777113c4662a1a41e9e365f9b399c0e236666e2",
+      "context": "Bulk Actions > Actions > Notes",
+      "contextHash": "313cbda6ca4fc90f2c7b01f530f3192600ccfd8a2cfc445db9197ac52df56c61",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_ad810506d04c087b93b178b0_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__Delete note__TRILIUM_PH_1__",
+      "sourceHash": "ad810506d04c087b93b178b009d670d5a7fe1fed672d1744599ef60f3aac73a0",
+      "context": "Bulk Actions > Actions > Notes",
+      "contextHash": "313cbda6ca4fc90f2c7b01f530f3192600ccfd8a2cfc445db9197ac52df56c61",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_4ae36f44108c3a67362b9687_0",
+      "kind": "li",
+      "source": "For each note, it will be deleted, including all of its clones and any child notes that are not cloned elsewhere.",
+      "sourceHash": "4ae36f44108c3a67362b9687e4f3c0c95a3235497f7fade13fa7666a0c9e3cc0",
+      "context": "Bulk Actions > Actions > Notes",
+      "contextHash": "313cbda6ca4fc90f2c7b01f530f3192600ccfd8a2cfc445db9197ac52df56c61",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_9f83b5f2bf02be0fa837e679_0",
+      "kind": "li",
+      "source": "Deleted notes can be restored from __TRILIUM_PH_0__Recent changes__TRILIUM_PH_1__ until they are erased.",
+      "sourceHash": "9f83b5f2bf02be0fa837e679e05c351943be1b6e20678315e3dec4617758aa8f",
+      "context": "Bulk Actions > Actions > Notes",
+      "contextHash": "313cbda6ca4fc90f2c7b01f530f3192600ccfd8a2cfc445db9197ac52df56c61",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_34f853b0bc48891d4ade1494_0",
+      "kind": "li",
+      "source": "As an alternative for less complex situations, the notes can be removed directly from within the __TRILIUM_PH_0__Note Tree__TRILIUM_PH_1__ by selecting them and pressing __TRILIUM_PH_2__Delete__TRILIUM_PH_3__.",
+      "sourceHash": "34f853b0bc48891d4ade1494e878875106fa02bb1bdc25cc805e723b4e258991",
+      "context": "Bulk Actions > Actions > Notes",
+      "contextHash": "313cbda6ca4fc90f2c7b01f530f3192600ccfd8a2cfc445db9197ac52df56c61",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_3fa25d300561543377973370_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__Delete note revisions__TRILIUM_PH_1__",
+      "sourceHash": "3fa25d30056154337797337049bb59c80b171c59cdfa50e3a49e2722214ce6a3",
+      "context": "Bulk Actions > Actions > Notes",
+      "contextHash": "313cbda6ca4fc90f2c7b01f530f3192600ccfd8a2cfc445db9197ac52df56c61",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_4215a27c5b3dc7c8caac4900_0",
+      "kind": "li",
+      "source": "This will permanently erase all the __TRILIUM_PH_0__Note Revisions__TRILIUM_PH_1__ of the notes. Unlike deleted notes, erased revisions cannot be restored.",
+      "sourceHash": "4215a27c5b3dc7c8caac4900022c10209bb85cd8727bf1220b4cdd899ce70c6d",
+      "context": "Bulk Actions > Actions > Notes",
+      "contextHash": "313cbda6ca4fc90f2c7b01f530f3192600ccfd8a2cfc445db9197ac52df56c61",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_3e2cfa639d7443b8e22392a0_0",
+      "kind": "h3",
+      "source": "Others__TRILIUM_PH_0__",
+      "sourceHash": "3e2cfa639d7443b8e22392a0abff876d0d7be818c53a4c95b9e6dc67d2aa4e10",
+      "context": "Bulk Actions > Actions > Others",
+      "contextHash": "6d43e189d9485e5d36e40f1b9af77712f259d3f3662d72a7918fe880822b3e39",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_340d5c89215032f9696a9dab_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__Execute script__TRILIUM_PH_1__",
+      "sourceHash": "340d5c89215032f9696a9dab1feb3fe560cf2a5ce84a4c1e6855c04be4bbc5a4",
+      "context": "Bulk Actions > Actions > Others",
+      "contextHash": "6d43e189d9485e5d36e40f1b9af77712f259d3f3662d72a7918fe880822b3e39",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_27a81610192b5aa15a2d13d7_0",
+      "kind": "li",
+      "source": "For more complex scenarios, it is possible to type in a JavaScript expression in order to apply the necessary changes.",
+      "sourceHash": "27a81610192b5aa15a2d13d7f55813fd8f775c2a0a54dbe16003d0af91531fbd",
+      "context": "Bulk Actions > Actions > Others",
+      "contextHash": "6d43e189d9485e5d36e40f1b9af77712f259d3f3662d72a7918fe880822b3e39",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_fe6d7fb1ea3f6dc762c76d2a_0",
+      "kind": "li",
+      "source": "The script runs on the server once for each note, with that note available as __TRILIUM_PH_0__ and the backend script API as __TRILIUM_PH_1__. The field completes both as you type and underlines mistakes, as the editor of a backend script note does.",
+      "sourceHash": "fe6d7fb1ea3f6dc762c76d2a59d0c0f93edc15f1a0449c26da3709b902fcd809",
+      "context": "Bulk Actions > Actions > Others",
+      "contextHash": "6d43e189d9485e5d36e40f1b9af77712f259d3f3662d72a7918fe880822b3e39",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_c459fe5e913872b35205cba0_0",
+      "kind": "li",
+      "source": "Examples:",
+      "sourceHash": "c459fe5e913872b35205cba0c7181d8c8b080d8ce339b7dfd725c9efc0c4d308",
+      "context": "Bulk Actions > Actions > Others",
+      "contextHash": "6d43e189d9485e5d36e40f1b9af77712f259d3f3662d72a7918fe880822b3e39",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_b40021a56fdf2b7f8cc0357f_0",
+      "kind": "p",
+      "source": "To apply a suffix (__TRILIUM_PH_0__ in this example), to the note title:",
+      "sourceHash": "b40021a56fdf2b7f8cc0357fba922c8e9f21d905da3e90b600ca9e6042757821",
+      "context": "Bulk Actions > Actions > Others",
+      "contextHash": "6d43e189d9485e5d36e40f1b9af77712f259d3f3662d72a7918fe880822b3e39",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_7c67baca229d3fb1fd27ed5f_0",
+      "kind": "p",
+      "source": "To alter attributes of a note based on another attribute, such as setting the __TRILIUM_PH_0__ label to the title of the note:",
+      "sourceHash": "7c67baca229d3fb1fd27ed5fac78c1f9a056856ef69da4fc91b7ed4ee0ed5cb9",
+      "context": "Bulk Actions > Actions > Others",
+      "contextHash": "6d43e189d9485e5d36e40f1b9af77712f259d3f3662d72a7918fe880822b3e39",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_b190d47815633246b0ab18a6_0",
+      "kind": "image-alt",
+      "source": "記事画像",
+      "sourceHash": "b190d47815633246b0ab18a61d9b8e8ea36504fe3f8bc230a7753096915c9ff2",
+      "context": "Bulk Actions > Actions > Others",
+      "contextHash": "6d43e189d9485e5d36e40f1b9af77712f259d3f3662d72a7918fe880822b3e39",
+      "status": "pending",
+      "active": true
+    }
+  ],
+  "requests": []
+}

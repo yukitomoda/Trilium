@@ -1,0 +1,354 @@
+{
+  "schemaVersion": 1,
+  "pageId": "fDLvzOx29Pfg",
+  "sourceFile": "docs/User Guide/User Guide/Installation & Setup/Server Installation/2. Reverse proxy/Apache using Docker.md",
+  "sourceRevision": "03d17b60f59b5efc29b880b11481471d0fe0ff57",
+  "units": [
+    {
+      "id": "u_d1754997778ef2299bb63e6b_0",
+      "kind": "title",
+      "source": "Apache using Docker",
+      "sourceHash": "d1754997778ef2299bb63e6bbcb55b3f1bff256b5f230b1842b6c5ad2e2f2236",
+      "context": "Apache using Docker",
+      "contextHash": "f688d480ea4085fe4a73277f133efcb9323ca1a2ec322e9ca32543da2e25d46a",
+      "status": "translated",
+      "active": true,
+      "translation": "Dockerを使用したApache",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_dbd524a769cc75b6b42f09ad_0",
+      "kind": "p",
+      "source": "This tutorial assumes that you have created a DNS A record for __TRILIUM_PH_0__ that you want to use for your Trilium server.",
+      "sourceHash": "dbd524a769cc75b6b42f09ad8905628a5351650bdcc46641028abbc91db69698",
+      "context": "Apache using Docker",
+      "contextHash": "f688d480ea4085fe4a73277f133efcb9323ca1a2ec322e9ca32543da2e25d46a",
+      "status": "translated",
+      "active": true,
+      "translation": "このチュートリアルでは、Triliumサーバーで使用する __TRILIUM_PH_0__ のDNS Aレコードを作成していることを前提としています。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_6d6ab9d14e9c9e49dbc4a6ab_0",
+      "kind": "h2",
+      "source": "Docker setup__TRILIUM_PH_0__",
+      "sourceHash": "6d6ab9d14e9c9e49dbc4a6ab7ee551fa1fbf61cafa8c9e28eed7f49162751348",
+      "context": "Apache using Docker > Docker setup",
+      "contextHash": "62cbe25a6d56f15217275d3254c484ec32c27388f1f1b5d96aaf7b55d236a04d",
+      "status": "translated",
+      "active": true,
+      "translation": "Dockerのセットアップ__TRILIUM_PH_0__",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_a34af0746f965b88f01fc3be_0",
+      "kind": "p",
+      "source": "Download docker image and create container",
+      "sourceHash": "a34af0746f965b88f01fc3be75dba9a336b55b636a27b5e00d3dc81df0038b90",
+      "context": "Apache using Docker > Docker setup",
+      "contextHash": "62cbe25a6d56f15217275d3254c484ec32c27388f1f1b5d96aaf7b55d236a04d",
+      "status": "translated",
+      "active": true,
+      "translation": "Dockerイメージのダウンロードとコンテナの作成",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_1f4816ac18207607fb637c00_0",
+      "kind": "h2",
+      "source": "Configuring the Apache proxy__TRILIUM_PH_0__",
+      "sourceHash": "1f4816ac18207607fb637c0008660dfe7c07851701db1f6f739bb35e2901e9a6",
+      "context": "Apache using Docker > Configuring the Apache proxy",
+      "contextHash": "74618b77e179c2302e2bc346fd7a690fb13efd45841504822b635e55dc96bbe5",
+      "status": "translated",
+      "active": true,
+      "translation": "Apacheプロキシの設定__TRILIUM_PH_0__",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_090dec844408403f70966460_0",
+      "kind": "p",
+      "source": "Enable apache proxy modules",
+      "sourceHash": "090dec844408403f70966460e9e685fddde70f6c5e3167d06377775da2bb867e",
+      "context": "Apache using Docker > Configuring the Apache proxy",
+      "contextHash": "74618b77e179c2302e2bc346fd7a690fb13efd45841504822b635e55dc96bbe5",
+      "status": "translated",
+      "active": true,
+      "translation": "Apacheプロキシモジュールを有効にする",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_9f61b544222f6fdfad166a40_0",
+      "kind": "p",
+      "source": "Create a new let's encrypt certificate",
+      "sourceHash": "9f61b544222f6fdfad166a40f39e7747ec940d35aa2ddb8e42428e2114925efb",
+      "context": "Apache using Docker > Configuring the Apache proxy",
+      "contextHash": "74618b77e179c2302e2bc346fd7a690fb13efd45841504822b635e55dc96bbe5",
+      "status": "translated",
+      "active": true,
+      "translation": "新しいLet's Encrypt証明書を作成する",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_0c153403f6d7d29496202afa_0",
+      "kind": "p",
+      "source": "Choose standalone (2) and note the location of the created certificates (typically /etc/letsencrypt/live/...)",
+      "sourceHash": "0c153403f6d7d29496202afa1978a9d338663333e270cf107fc327e755769a48",
+      "context": "Apache using Docker > Configuring the Apache proxy",
+      "contextHash": "74618b77e179c2302e2bc346fd7a690fb13efd45841504822b635e55dc96bbe5",
+      "status": "translated",
+      "active": true,
+      "translation": "standalone（2）を選択し、作成された証明書の場所（通常は /etc/letsencrypt/live/...）をメモします",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_217bd3a163fd6066e0c620ca_0",
+      "kind": "p",
+      "source": "Create a new virtual host file for apache (you may want to use __TRILIUM_PH_0__ to determine the server root location, mine is /etc/apache2)",
+      "sourceHash": "217bd3a163fd6066e0c620ca1dedf46d85f98c51be8384051a39aedcfe05e20b",
+      "context": "Apache using Docker > Configuring the Apache proxy",
+      "contextHash": "74618b77e179c2302e2bc346fd7a690fb13efd45841504822b635e55dc96bbe5",
+      "status": "translated",
+      "active": true,
+      "translation": "Apache用の新しいバーチャルホストファイルを作成します（サーバーのルートディレクトリを確認するために __TRILIUM_PH_0__ を使用するとよいでしょう。私の場合は /etc/apache2 です）",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_fe4627e442745e3f1827b62d_0",
+      "kind": "p",
+      "source": "Paste (and customize) the following text into the configuration file",
+      "sourceHash": "fe4627e442745e3f1827b62dbd21957dd24682101a3adf44189ae288e204c5a4",
+      "context": "Apache using Docker > Configuring the Apache proxy",
+      "contextHash": "74618b77e179c2302e2bc346fd7a690fb13efd45841504822b635e55dc96bbe5",
+      "status": "translated",
+      "active": true,
+      "translation": "次のテキストを構成ファイルに貼り付けます（必要に応じてカスタマイズしてください）",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_e92553323db18c388394bb08_0",
+      "kind": "p",
+      "source": "Enable the virtual host with __TRILIUM_PH_0__",
+      "sourceHash": "e92553323db18c388394bb08292f5c543cf84c55062461f3058735e28e1ee807",
+      "context": "Apache using Docker > Configuring the Apache proxy",
+      "contextHash": "74618b77e179c2302e2bc346fd7a690fb13efd45841504822b635e55dc96bbe5",
+      "status": "translated",
+      "active": true,
+      "translation": "__TRILIUM_PH_0__ を使用してバーチャルホストを有効にします",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_ece1136e96ee98d23f30e333_0",
+      "kind": "p",
+      "source": "Reload apache2 with __TRILIUM_PH_0__",
+      "sourceHash": "ece1136e96ee98d23f30e33362c76ba2d0ed0dc41258d5c2e7d82c97edde8a19",
+      "context": "Apache using Docker > Configuring the Apache proxy",
+      "contextHash": "74618b77e179c2302e2bc346fd7a690fb13efd45841504822b635e55dc96bbe5",
+      "status": "translated",
+      "active": true,
+      "translation": "__TRILIUM_PH_0__ で apache2 を再読み込みします",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_f388e3c6d00390fb5d1a2bee_0",
+      "kind": "h2",
+      "source": "Configuring the trusted proxy__TRILIUM_PH_0__",
+      "sourceHash": "f388e3c6d00390fb5d1a2beee18dbcd82c41b9fed136b018bba15b2fcf0a0cfa",
+      "context": "Apache using Docker > Configuring the trusted proxy",
+      "contextHash": "dfc5cdf967b9fa17cdf944a79238daf4bb5187f3acde342cb1d7897b638de749",
+      "status": "translated",
+      "active": true,
+      "translation": "信頼されたプロキシの設定__TRILIUM_PH_0__",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_eb793f34abab86a34eac1820_0",
+      "kind": "p",
+      "source": "After setting up a reverse proxy, make sure to configure the __TRILIUM_PH_0__Trusted proxy__TRILIUM_PH_1__.",
+      "sourceHash": "eb793f34abab86a34eac1820c0594827be39f59e217bc16669eaaf0b4e974fea",
+      "context": "Apache using Docker > Configuring the trusted proxy",
+      "contextHash": "dfc5cdf967b9fa17cdf944a79238daf4bb5187f3acde342cb1d7897b638de749",
+      "status": "translated",
+      "active": true,
+      "translation": "リバースプロキシを設定した後は、必ず __TRILIUM_PH_0__信頼されたプロキシ__TRILIUM_PH_1__ を設定してください。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_fced7cd00a3628377cafec9f_0",
+      "kind": "h2",
+      "source": "Setup the systemd service to start up the server__TRILIUM_PH_0__",
+      "sourceHash": "fced7cd00a3628377cafec9f1552ae62ee7c3a89fa6afea201b2ff5c7d37f670",
+      "context": "Apache using Docker > Setup the systemd service to start up the server",
+      "contextHash": "a31cb5231b39246803771db6cc57f50ba01e088f74ad1f3500eea189587819c6",
+      "status": "translated",
+      "active": true,
+      "translation": "サーバーを起動するためのsystemdサービスのセットアップ__TRILIUM_PH_0__",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_4e0e082eaa774e6439246f57_0",
+      "kind": "p",
+      "source": "Create and enable a systemd service to start the docker container on boot",
+      "sourceHash": "4e0e082eaa774e6439246f57d35f5ccc8bfb469e7e980e30db224a9527f87171",
+      "context": "Apache using Docker > Setup the systemd service to start up the server",
+      "contextHash": "a31cb5231b39246803771db6cc57f50ba01e088f74ad1f3500eea189587819c6",
+      "status": "translated",
+      "active": true,
+      "translation": "起動時にDockerコンテナを開始するためのsystemdサービスを作成し、有効にします",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_387b820e0f5246bc08feee87_0",
+      "kind": "p",
+      "source": "Create a new empty file called __TRILIUM_PH_0__ with the contents",
+      "sourceHash": "387b820e0f5246bc08feee8763e87131774a1db7d61e57e88066c04b8e71626c",
+      "context": "Apache using Docker > Setup the systemd service to start up the server",
+      "contextHash": "a31cb5231b39246803771db6cc57f50ba01e088f74ad1f3500eea189587819c6",
+      "status": "translated",
+      "active": true,
+      "translation": "__TRILIUM_PH_0__ という名前の新しい空のファイルを、以下の内容で作成します。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_f71f8fe6e4812a120077e165_0",
+      "kind": "p",
+      "source": "Install, enable and start service",
+      "sourceHash": "f71f8fe6e4812a120077e165faf005bc78d636203afdefa66edc7f5e15b619b1",
+      "context": "Apache using Docker > Setup the systemd service to start up the server",
+      "contextHash": "a31cb5231b39246803771db6cc57f50ba01e088f74ad1f3500eea189587819c6",
+      "status": "translated",
+      "active": true,
+      "translation": "サービスのインストール、有効化、および起動を行います。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    }
+  ],
+  "requests": [
+    {
+      "at": "2026-11-14T11:28:45.803Z",
+      "model": "gemini-3.5-flash-lite",
+      "batchJob": "batches/02spwqy837h8pi7qzqmeo4fgsqo7bgs45hwh",
+      "requestKey": "fDLvzOx29Pfg_f4f695aed228574e",
+      "modelVersion": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 1250,
+        "candidatesTokenCount": 760,
+        "totalTokenCount": 2010,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 1250
+          }
+        ],
+        "serviceTier": "standard"
+      }
+    },
+    {
+      "at": "2026-11-14T11:28:45.803Z",
+      "model": "gemini-3.5-flash-lite",
+      "batchJob": "batches/02spwqy837h8pi7qzqmeo4fgsqo7bgs45hwh",
+      "requestKey": "fDLvzOx29Pfg_69e88f11bd240b3e",
+      "modelVersion": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 439,
+        "candidatesTokenCount": 120,
+        "totalTokenCount": 559,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 439
+          }
+        ],
+        "serviceTier": "standard"
+      }
+    }
+  ]
+}

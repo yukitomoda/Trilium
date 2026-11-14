@@ -1,0 +1,169 @@
+{
+  "schemaVersion": 1,
+  "pageId": "1vHRoWCEjj0L",
+  "sourceFile": "docs/User Guide/User Guide/Note Types/Web View.md",
+  "sourceRevision": "03d17b60f59b5efc29b880b11481471d0fe0ff57",
+  "units": [
+    {
+      "id": "u_5795ed642972fa0f83b4d720_0",
+      "kind": "title",
+      "source": "Web View",
+      "sourceHash": "5795ed642972fa0f83b4d720f69c2ebbb145183a21e4fafb4d3cd2b36ec7535d",
+      "context": "Web View",
+      "contextHash": "34af323f963fabeb8b6afebdcc2c3d12c1a2ed691e1ad1277d5cff0f3dc27625",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_91e318d9b9bed0d1467013a3_0",
+      "kind": "h2",
+      "source": "Configuration__TRILIUM_PH_0__",
+      "sourceHash": "91e318d9b9bed0d1467013a3e6d72d61f50dc1076d2d68cc43d0cdd7e4947ffe",
+      "context": "Web View > Configuration",
+      "contextHash": "053136d3929a262856ab63412911aa70e3ae9668945e4730fb1b88ac7710d4c9",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_b1bae9e3ff6cb9dceab9944e_0",
+      "kind": "p",
+      "source": "A webview needs to know which URL to render, and it can be provided by setting the __TRILIUM_PH_0__ __TRILIUM_PH_1__label__TRILIUM_PH_2__, such as:",
+      "sourceHash": "b1bae9e3ff6cb9dceab9944ea09965b709f3b8037541ce4616eed4d39e8a02e8",
+      "context": "Web View > Configuration",
+      "contextHash": "053136d3929a262856ab63412911aa70e3ae9668945e4730fb1b88ac7710d4c9",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_73a8e78ec6a0c868eeabb4cf_0",
+      "kind": "p",
+      "source": "The URL needs to contain the full scheme.",
+      "sourceHash": "73a8e78ec6a0c868eeabb4cffa7f4232d10e2f2fc17e9f99df5fb20029618b38",
+      "context": "Web View > Configuration",
+      "contextHash": "053136d3929a262856ab63412911aa70e3ae9668945e4730fb1b88ac7710d4c9",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_b217598ef926cd5fbd1f5e58_0",
+      "kind": "h2",
+      "source": "Web view on the server vs. Electron__TRILIUM_PH_0__",
+      "sourceHash": "b217598ef926cd5fbd1f5e5871c61119522046baee24d2a8d53f25c96d900e5b",
+      "context": "Web View > Web view on the server vs. Electron",
+      "contextHash": "5e92a245e53850dc979156f10ba037f83321219d4b9e9bf4d58dd00f3b3a3525",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_70fad4d455460cf75d7ae7c9_0",
+      "kind": "p",
+      "source": "When accessing Trilium via a browser instead of the desktop application, the web view will still try to render the content of the desired webpage. However, since it's running in a browser there are quite a few limitations as opposed to the desktop one.",
+      "sourceHash": "70fad4d455460cf75d7ae7c942c241b24073a504a19dbb3f5dabf377a8ea61ed",
+      "context": "Web View > Web view on the server vs. Electron",
+      "contextHash": "5e92a245e53850dc979156f10ba037f83321219d4b9e9bf4d58dd00f3b3a3525",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_721495897a620587bb5935d0_0",
+      "kind": "p",
+      "source": "More specifically, quite a few websites oppose being embedded in another website (technically they have a non-permisive __TRILIUM_PH_0__ header). This is not bypassable by Trilium so the page will simply fail to render.",
+      "sourceHash": "721495897a620587bb5935d0495869e5c10e67c09e9e48dc969b839138322c60",
+      "context": "Web View > Web view on the server vs. Electron",
+      "contextHash": "5e92a245e53850dc979156f10ba037f83321219d4b9e9bf4d58dd00f3b3a3525",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_58aa96d400e5e95245d3624f_0",
+      "kind": "p",
+      "source": "You can diagnose this by right clicking the Trilium web page → Inspect (element) and looking in the “Console” tab for errors such as:",
+      "sourceHash": "58aa96d400e5e95245d3624f376911400a3cb4dbcbf80f9448597319d8a4e114",
+      "context": "Web View > Web view on the server vs. Electron",
+      "contextHash": "5e92a245e53850dc979156f10ba037f83321219d4b9e9bf4d58dd00f3b3a3525",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_6cdc9e1eeed5605a51ed690c_0",
+      "kind": "p",
+      "source": "There are a few websites that do render such as __TRILIUM_PH_0__.",
+      "sourceHash": "6cdc9e1eeed5605a51ed690c7c9a74575b2595349041a3c512ce91de68c0c433",
+      "context": "Web View > Web view on the server vs. Electron",
+      "contextHash": "5e92a245e53850dc979156f10ba037f83321219d4b9e9bf4d58dd00f3b3a3525",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_1f7f9a9bdd2fa6f1c1cdd069_0",
+      "kind": "p",
+      "source": "Do note that we are also applying some sandboxing constraints on the server side, so if you have any issues other than the unresolvable __TRILIUM_PH_0__ described above, feel free to report them.",
+      "sourceHash": "1f7f9a9bdd2fa6f1c1cdd0696fc2b80db4fdf521cf2b7da5d63afd4ec5fce212",
+      "context": "Web View > Web view on the server vs. Electron",
+      "contextHash": "5e92a245e53850dc979156f10ba037f83321219d4b9e9bf4d58dd00f3b3a3525",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_1a39226f39d741e840b4d3fb_0",
+      "kind": "p",
+      "source": "On the desktop side, a different technology is used which bypasses the constraints of an __TRILIUM_PH_0__ (__TRILIUM_PH_1__).",
+      "sourceHash": "1a39226f39d741e840b4d3fb70dbf538826579df75db44a888d5d7a079e51a1f",
+      "context": "Web View > Web view on the server vs. Electron",
+      "contextHash": "5e92a245e53850dc979156f10ba037f83321219d4b9e9bf4d58dd00f3b3a3525",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_708eaacb371497a5ed72639a_0",
+      "kind": "h2",
+      "source": "Embedding in other note types__TRILIUM_PH_0__",
+      "sourceHash": "708eaacb371497a5ed72639ad0f73c5d8dbd65945bac24de08cce0db60e01c91",
+      "context": "Web View > Embedding in other note types",
+      "contextHash": "64c9315107f63ed1cd802fb1d2a66972a1cbae150bb35bc554b279984c40f4e5",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_8ba9ef59b32ac701fa0c8e04_0",
+      "kind": "p",
+      "source": "Starting with v0.104.0, web views can be embedded into other note types:",
+      "sourceHash": "8ba9ef59b32ac701fa0c8e04e76310e296f898d22feea16fd3533db0a734571b",
+      "context": "Web View > Embedding in other note types",
+      "contextHash": "64c9315107f63ed1cd802fb1d2a66972a1cbae150bb35bc554b279984c40f4e5",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_ffc4a32bef979283603469a2_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__Dashboard__TRILIUM_PH_1__",
+      "sourceHash": "ffc4a32bef979283603469a2f6c2f86f25ecf61bf73cd31f34e5ffbdd5539568",
+      "context": "Web View > Embedding in other note types",
+      "contextHash": "64c9315107f63ed1cd802fb1d2a66972a1cbae150bb35bc554b279984c40f4e5",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_8c4fef0a1143c001d09a2520_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__Canvas__TRILIUM_PH_1__",
+      "sourceHash": "8c4fef0a1143c001d09a2520c56d6aa63b183f21ce69385324d4aa4b04430344",
+      "context": "Web View > Embedding in other note types",
+      "contextHash": "64c9315107f63ed1cd802fb1d2a66972a1cbae150bb35bc554b279984c40f4e5",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_76e8c5953c8dde1f51af31b5_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__Text__TRILIUM_PH_1__ notes via __TRILIUM_PH_2__Include Note__TRILIUM_PH_3__.",
+      "sourceHash": "76e8c5953c8dde1f51af31b5ebf2d97301effc0d99e63cf8f8793fb8521b8fda",
+      "context": "Web View > Embedding in other note types",
+      "contextHash": "64c9315107f63ed1cd802fb1d2a66972a1cbae150bb35bc554b279984c40f4e5",
+      "status": "pending",
+      "active": true
+    }
+  ],
+  "requests": []
+}

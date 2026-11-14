@@ -1,0 +1,2689 @@
+{
+  "schemaVersion": 1,
+  "pageId": "CtBQqbwXDx1w",
+  "sourceFile": "docs/User Guide/User Guide/Collections/Kanban Board.md",
+  "sourceRevision": "03d17b60f59b5efc29b880b11481471d0fe0ff57",
+  "units": [
+    {
+      "id": "u_064c15f4634e702a83f8ad5c_0",
+      "kind": "title",
+      "source": "Kanban Board",
+      "sourceHash": "064c15f4634e702a83f8ad5c2947a8a6d59806a4995abce9f2555dd31ec2439e",
+      "context": "Kanban Board",
+      "contextHash": "8e902805fe3b631135f99610ebdcf8e4d7c88d761238c72a06c47b6a476c45dc",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_8ffaf053137943e0af745a82_0",
+      "kind": "p",
+      "source": "The Board view lets you arrange subnotes as cards on a __TRILIUM_PH_0__Kanban board__TRILIUM_PH_1__.",
+      "sourceHash": "8ffaf053137943e0af745a826d12164f7554e0293359dc95f5237bc716f032d8",
+      "context": "Kanban Board",
+      "contextHash": "8e902805fe3b631135f99610ebdcf8e4d7c88d761238c72a06c47b6a476c45dc",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_02003681b8cf3ff9644d6f9e_0",
+      "kind": "h2",
+      "source": "Creating a Kanban board__TRILIUM_PH_0__",
+      "sourceHash": "02003681b8cf3ff9644d6f9e3d47a3b4eee59fbbac63ce733dab8642aff124f1",
+      "context": "Kanban Board > Creating a Kanban board",
+      "contextHash": "37969c1fb92b7f7cb952a16d89ba83f2ae252f09f8045bf072e98b3b27b65b39",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_04b980c6a6304334e2b3c4df_0",
+      "kind": "p",
+      "source": "Right-click an existing note in the __TRILIUM_PH_0__Note Tree__TRILIUM_PH_1__, select __TRILIUM_PH_2__Insert child note__TRILIUM_PH_3__ → __TRILIUM_PH_4__Collection__TRILIUM_PH_5__ → __TRILIUM_PH_6__Kanban Board__TRILIUM_PH_7__.",
+      "sourceHash": "04b980c6a6304334e2b3c4dfe6b1e3be548404ce17d81cbbcbc4bd7ab8937681",
+      "context": "Kanban Board > Creating a Kanban board",
+      "contextHash": "37969c1fb92b7f7cb952a16d89ba83f2ae252f09f8045bf072e98b3b27b65b39",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_7f765e67634fdaed95245a79_0",
+      "kind": "h2",
+      "source": "How it works__TRILIUM_PH_0__",
+      "sourceHash": "7f765e67634fdaed95245a793a97538a36bbeb219d8b6cb916f90dd02f941898",
+      "context": "Kanban Board > How it works",
+      "contextHash": "49fc93c857a68b6e59937547e054942602d25f69bf9e2cae349ab080108723d8",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_932052dd221903d0d308ad00_0",
+      "kind": "p",
+      "source": "When you first create a collection of the __TRILIUM_PH_0__Board__TRILIUM_PH_1__ type, a few subnotes are created, each with a __TRILIUM_PH_2__ label set. The board then groups each note by the value of its status attribute.",
+      "sourceHash": "932052dd221903d0d308ad0054de9fb4497f5e88a519ad7b94c7bfe61c939dd7",
+      "context": "Kanban Board > How it works",
+      "contextHash": "49fc93c857a68b6e59937547e054942602d25f69bf9e2cae349ab080108723d8",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_0ee35b2ae4c6fb894215dd43_0",
+      "kind": "p",
+      "source": "Notes are displayed recursively, so even grandchildren and more deeply nested notes will be displayed. However, unlike the __TRILIUM_PH_0__Table__TRILIUM_PH_1__, the notes are not displayed hierarchically.",
+      "sourceHash": "0ee35b2ae4c6fb894215dd4352baf09edd98cd573f0a4b05e217b19490f01739",
+      "context": "Kanban Board > How it works",
+      "contextHash": "49fc93c857a68b6e59937547e054942602d25f69bf9e2cae349ab080108723d8",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_6e565f405d2b3c145e8468d8_0",
+      "kind": "p",
+      "source": "To limit how deep the board looks, go to __TRILIUM_PH_0__Note menu__TRILIUM_PH_1__ → __TRILIUM_PH_2__Board properties__TRILIUM_PH_3__ and set __TRILIUM_PH_4__Maximum nesting depth__TRILIUM_PH_5__ (under the __TRILIUM_PH_6__Included notes__TRILIUM_PH_7__ section), or apply the __TRILIUM_PH_8__ label to the board note: __TRILIUM_PH_9__ shows only the children, __TRILIUM_PH_10__ adds their children, and so on. Without a value, every level is shown.",
+      "sourceHash": "6e565f405d2b3c145e8468d8e71ffb66efc21a9ef13ae8d71f6cc2325c283431",
+      "context": "Kanban Board > How it works",
+      "contextHash": "49fc93c857a68b6e59937547e054942602d25f69bf9e2cae349ab080108723d8",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_3bc1a48ec8a44075a1c412d9_0",
+      "kind": "h2",
+      "source": "Working with columns__TRILIUM_PH_0__",
+      "sourceHash": "3bc1a48ec8a44075a1c412d9bee659ecaba082edd5c11915df1b666e10d75456",
+      "context": "Kanban Board > Working with columns",
+      "contextHash": "ad161752fbe9023f531d90538726275bcbc5368ba16784d3d482fa8d1e90414f",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_81126eec20e24fddcd518ab6_0",
+      "kind": "h3",
+      "source": "Creating columns__TRILIUM_PH_0__",
+      "sourceHash": "81126eec20e24fddcd518ab65e8b1611e3adfb4634354a9943ad4046247e0627",
+      "context": "Kanban Board > Working with columns > Creating columns",
+      "contextHash": "f1bcc8b9526730838183e2042c6a9819662319e32baceef3c35831d361e3ad6d",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_563ebcdd7f5fcd77917a28f6_0",
+      "kind": "p",
+      "source": "You can create a new column by pressing the __TRILIUM_PH_0____TRILIUM_PH_1__Add column__TRILIUM_PH_2__ button located after the last column.",
+      "sourceHash": "563ebcdd7f5fcd77917a28f65ea6a119b2c0c1a4fd55f1ee8f1343d4a0c2ec6f",
+      "context": "Kanban Board > Working with columns > Creating columns",
+      "contextHash": "f1bcc8b9526730838183e2042c6a9819662319e32baceef3c35831d361e3ad6d",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_9062e37cee4581cfd43a3f0f_0",
+      "kind": "p",
+      "source": "Enter the new name (which must not match another column), optionally select an icon by pressing the circle at the start of the text box, and then press the (+) button or __TRILIUM_PH_0__Enter__TRILIUM_PH_1__. Click or tap outside the text box, or press __TRILIUM_PH_2__Esc__TRILIUM_PH_3__, to dismiss it.",
+      "sourceHash": "9062e37cee4581cfd43a3f0fec9ca6e8f9e707550ccc005768d71ba67ef05ffb",
+      "context": "Kanban Board > Working with columns > Creating columns",
+      "contextHash": "f1bcc8b9526730838183e2042c6a9819662319e32baceef3c35831d361e3ad6d",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_fbaaa96fe93d0e17c4677a6f_0",
+      "kind": "p",
+      "source": "Columns can also be added from a context menu:",
+      "sourceHash": "fbaaa96fe93d0e17c4677a6ff8873cec9517c5e00e3b53c72f9503e6a594d351",
+      "context": "Kanban Board > Working with columns > Creating columns",
+      "contextHash": "f1bcc8b9526730838183e2042c6a9819662319e32baceef3c35831d361e3ad6d",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_7d96d08b7ad7644d9e92c379_0",
+      "kind": "li",
+      "source": "To add a column at the end of the board, right-click an empty area of the board and select __TRILIUM_PH_0____TRILIUM_PH_1__Add new column__TRILIUM_PH_2__.",
+      "sourceHash": "7d96d08b7ad7644d9e92c37960282525b3098a0bab6211d9d9c3547c80842a27",
+      "context": "Kanban Board > Working with columns > Creating columns",
+      "contextHash": "f1bcc8b9526730838183e2042c6a9819662319e32baceef3c35831d361e3ad6d",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_e7caca3d6a12e13d725013bc_0",
+      "kind": "li",
+      "source": "To add a column next to an existing one, open its column menu and select __TRILIUM_PH_0____TRILIUM_PH_1__Add new column__TRILIUM_PH_2__ → __TRILIUM_PH_3__Before__TRILIUM_PH_4__ (__TRILIUM_PH_5__Ctrl__TRILIUM_PH_6__+__TRILIUM_PH_7__Shift__TRILIUM_PH_8__+__TRILIUM_PH_9__Enter__TRILIUM_PH_10__) or __TRILIUM_PH_11__After__TRILIUM_PH_12__ (__TRILIUM_PH_13__Ctrl__TRILIUM_PH_14__+__TRILIUM_PH_15__Enter__TRILIUM_PH_16__).",
+      "sourceHash": "e7caca3d6a12e13d725013bcf5f487745be8a48c056157abb5edec3ca19a4fb2",
+      "context": "Kanban Board > Working with columns > Creating columns",
+      "contextHash": "f1bcc8b9526730838183e2042c6a9819662319e32baceef3c35831d361e3ad6d",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_77d08f64d2adc4e5f2e93f5d_0",
+      "kind": "p",
+      "source": "Once a board is set up, the __TRILIUM_PH_0__Add column__TRILIUM_PH_1__ button can be hidden. To do so, go to __TRILIUM_PH_2__Note menu__TRILIUM_PH_3__ → __TRILIUM_PH_4__Board properties__TRILIUM_PH_5__ and turn off __TRILIUM_PH_6__Show the \"Add column\" button__TRILIUM_PH_7__ (under the __TRILIUM_PH_8__General__TRILIUM_PH_9__ section), or apply the __TRILIUM_PH_10__ label to the board note. Columns can still be added from the context menus above.",
+      "sourceHash": "77d08f64d2adc4e5f2e93f5d63af37178f4debf8abff1f54abd0b4857607572a",
+      "context": "Kanban Board > Working with columns > Creating columns",
+      "contextHash": "f1bcc8b9526730838183e2042c6a9819662319e32baceef3c35831d361e3ad6d",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_3e6d84c2d240a72cd62d5265_0",
+      "kind": "h3",
+      "source": "Reordering columns__TRILIUM_PH_0__",
+      "sourceHash": "3e6d84c2d240a72cd62d526519188f2a17c91935e4f5b1d07360f72718785c0e",
+      "context": "Kanban Board > Working with columns > Reordering columns",
+      "contextHash": "8f66a0993ae3620de8f28a654f423689ccfe41de65057d74090d6f6c7392dc30",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_b1d98d3b57218fb59a12fbf2_0",
+      "kind": "p",
+      "source": "The order of the columns can be changed at any time. There are several ways to do this:",
+      "sourceHash": "b1d98d3b57218fb59a12fbf2f82583a07b48fb9c1db2f1a442268e6b75b8f13a",
+      "context": "Kanban Board > Working with columns > Reordering columns",
+      "contextHash": "8f66a0993ae3620de8f28a654f423689ccfe41de65057d74090d6f6c7392dc30",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_1275b450e689f41a65050a91_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__Using touch or a mouse:__TRILIUM_PH_1__ Touch and hold the column header, or click and hold it with the mouse. Drag the column left or right until it reaches the desired location, and then release it.",
+      "sourceHash": "1275b450e689f41a65050a91d35ca516f7ed5b857351505f0d79c1fdc0a61633",
+      "context": "Kanban Board > Working with columns > Reordering columns",
+      "contextHash": "8f66a0993ae3620de8f28a654f423689ccfe41de65057d74090d6f6c7392dc30",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_281897a2011388f3d569aa95_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__Using the keyboard:__TRILIUM_PH_1__ While the keyboard focus is anywhere inside the column, you can use these key combinations. If the column header itself is focused, you can omit __TRILIUM_PH_2__Alt__TRILIUM_PH_3__:",
+      "sourceHash": "281897a2011388f3d569aa953b221aa3cb07927adc5e6390bd1a8effd3c44177",
+      "context": "Kanban Board > Working with columns > Reordering columns",
+      "contextHash": "8f66a0993ae3620de8f28a654f423689ccfe41de65057d74090d6f6c7392dc30",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_f481b2da30bb916feea72005_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__Ctrl__TRILIUM_PH_1__ + __TRILIUM_PH_2__Alt__TRILIUM_PH_3__ + __TRILIUM_PH_4__Right__TRILIUM_PH_5__: Move the column to the right.",
+      "sourceHash": "f481b2da30bb916feea720052cf3204638207ae44479dac17685f3acf14d5565",
+      "context": "Kanban Board > Working with columns > Reordering columns",
+      "contextHash": "8f66a0993ae3620de8f28a654f423689ccfe41de65057d74090d6f6c7392dc30",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_8021bb733cae6b27c94a29c4_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__Ctrl__TRILIUM_PH_1__ + __TRILIUM_PH_2__Alt__TRILIUM_PH_3__ + __TRILIUM_PH_4__Left__TRILIUM_PH_5__: Move the column to the left.",
+      "sourceHash": "8021bb733cae6b27c94a29c43f279d21c7ec30ef7d3d135fdfc3e1d2b883dabe",
+      "context": "Kanban Board > Working with columns > Reordering columns",
+      "contextHash": "8f66a0993ae3620de8f28a654f423689ccfe41de65057d74090d6f6c7392dc30",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_c115280b18b3146500a49a7d_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__Ctrl__TRILIUM_PH_1__ + __TRILIUM_PH_2__Alt__TRILIUM_PH_3__ + __TRILIUM_PH_4__Home__TRILIUM_PH_5__: Make it the first column.",
+      "sourceHash": "c115280b18b3146500a49a7df1b2544182893c193a5852bea8b634b0b0fc2e01",
+      "context": "Kanban Board > Working with columns > Reordering columns",
+      "contextHash": "8f66a0993ae3620de8f28a654f423689ccfe41de65057d74090d6f6c7392dc30",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_5234d2c2edfc23b4bf90be32_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__Ctrl__TRILIUM_PH_1__ + __TRILIUM_PH_2__Alt__TRILIUM_PH_3__ + __TRILIUM_PH_4__End__TRILIUM_PH_5__: Make it the last column.",
+      "sourceHash": "5234d2c2edfc23b4bf90be3203c5b9f225de0a2957ed70a351fec8c88de3c3f4",
+      "context": "Kanban Board > Working with columns > Reordering columns",
+      "contextHash": "8f66a0993ae3620de8f28a654f423689ccfe41de65057d74090d6f6c7392dc30",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_cf1e4f52d03ad5f7cf4e7726_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__Using the column menu:__TRILIUM_PH_1__ Open the column menu and use the __TRILIUM_PH_2__ __TRILIUM_PH_3__Move column__TRILIUM_PH_4__ submenu.",
+      "sourceHash": "cf1e4f52d03ad5f7cf4e772624253ba5868f43105f90584d63cf9d92b07b75f4",
+      "context": "Kanban Board > Working with columns > Reordering columns",
+      "contextHash": "8f66a0993ae3620de8f28a654f423689ccfe41de65057d74090d6f6c7392dc30",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_76a0f0647bebe76a2b16d636_0",
+      "kind": "h3",
+      "source": "Renaming and recoloring columns__TRILIUM_PH_0__",
+      "sourceHash": "76a0f0647bebe76a2b16d6363a6e636d21e6b12040a77365c25c8320e7c232f4",
+      "context": "Kanban Board > Working with columns > Renaming and recoloring columns",
+      "contextHash": "67865d8040dd1f39dade5b1963a781b8c6ca05b02ebfbb2dff8deabe48434b45",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_79cd0d779730c0bcf3ede90f_0",
+      "kind": "p",
+      "source": "To change the name of a column, open the column menu and select __TRILIUM_PH_0__ __TRILIUM_PH_1__Rename column__TRILIUM_PH_2__, or press __TRILIUM_PH_3__F2__TRILIUM_PH_4__ while the column header is selected.",
+      "sourceHash": "79cd0d779730c0bcf3ede90f12bfaba0b074d1ac22da57d976fea3d74adfa1aa",
+      "context": "Kanban Board > Working with columns > Renaming and recoloring columns",
+      "contextHash": "67865d8040dd1f39dade5b1963a781b8c6ca05b02ebfbb2dff8deabe48434b45",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_28d32c354156520f5149598b_0",
+      "kind": "p",
+      "source": "From the same menu, you can tint the column with a different color by using the color palette at the bottom of the menu.",
+      "sourceHash": "28d32c354156520f5149598bc95b6e69aa8d606a9c9dc0b2678f6a354783918a",
+      "context": "Kanban Board > Working with columns > Renaming and recoloring columns",
+      "contextHash": "67865d8040dd1f39dade5b1963a781b8c6ca05b02ebfbb2dff8deabe48434b45",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_f62c37cc5dcd80c9954d0880_0",
+      "kind": "h3",
+      "source": "Collapsing and expanding columns__TRILIUM_PH_0__",
+      "sourceHash": "f62c37cc5dcd80c9954d0880e45e8ea75525aa7b08edd47c54965448076f6766",
+      "context": "Kanban Board > Working with columns > Collapsing and expanding columns",
+      "contextHash": "83d6c143c085b168a88a47509d6b50d158d875d8cca6ab6865d4bae17a82db0e",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_d399fb3af0329e7645921f76_0",
+      "kind": "h4",
+      "source": "Collapsing__TRILIUM_PH_0__",
+      "sourceHash": "d399fb3af0329e7645921f7629d4218108d07829f98be60f7d76ad4eb460d0f9",
+      "context": "Kanban Board > Working with columns > Collapsing and expanding columns > Collapsing",
+      "contextHash": "4ec94718f1fc21bf0cf64c4a5c469251e25bdf4c038c94a3f6660d20c9fb33d3",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_3154f270a6273935609a024d_0",
+      "kind": "p",
+      "source": "A column can be collapsed (minimized) to occupy less space on the screen and make the board look less cluttered. This is particularly useful for columns that are not frequently used, or when you want to focus on only a few columns and keep the rest out of sight.",
+      "sourceHash": "3154f270a6273935609a024d29e6dccbbce31a7d8e2dd28e4087b0d7d47a1c50",
+      "context": "Kanban Board > Working with columns > Collapsing and expanding columns > Collapsing",
+      "contextHash": "4ec94718f1fc21bf0cf64c4a5c469251e25bdf4c038c94a3f6660d20c9fb33d3",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_53f3020294e0ab8469b0c782_0",
+      "kind": "p",
+      "source": "To collapse a column:",
+      "sourceHash": "53f3020294e0ab8469b0c782930cdfddb489fcf94f96a0d6d48cf68d95e0ec8a",
+      "context": "Kanban Board > Working with columns > Collapsing and expanding columns > Collapsing",
+      "contextHash": "4ec94718f1fc21bf0cf64c4a5c469251e25bdf4c038c94a3f6660d20c9fb33d3",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_2b69fcd5d6d8c94f267a942e_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__Using a mouse:__TRILIUM_PH_1__ Double-click the column header.",
+      "sourceHash": "2b69fcd5d6d8c94f267a942ebe4bef5085ca5d40cdec6bb1625c657357f60fd6",
+      "context": "Kanban Board > Working with columns > Collapsing and expanding columns > Collapsing",
+      "contextHash": "4ec94718f1fc21bf0cf64c4a5c469251e25bdf4c038c94a3f6660d20c9fb33d3",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_d2734491f314e28104c3f822_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__Using touch:__TRILIUM_PH_1__ Tap the column header, and then press the __TRILIUM_PH_2__ button on the side toolbar.",
+      "sourceHash": "d2734491f314e28104c3f822ac21616dc737df083083583bcdb96ebb848e9588",
+      "context": "Kanban Board > Working with columns > Collapsing and expanding columns > Collapsing",
+      "contextHash": "4ec94718f1fc21bf0cf64c4a5c469251e25bdf4c038c94a3f6660d20c9fb33d3",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_2292c0736b88794e5fb16421_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__Using the keyboard:__TRILIUM_PH_1__ Focus the column header, and then press __TRILIUM_PH_2__Space__TRILIUM_PH_3__.",
+      "sourceHash": "2292c0736b88794e5fb164218f4183b602bda708efdcae37c897d5b1511d6184",
+      "context": "Kanban Board > Working with columns > Collapsing and expanding columns > Collapsing",
+      "contextHash": "4ec94718f1fc21bf0cf64c4a5c469251e25bdf4c038c94a3f6660d20c9fb33d3",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_31314df1f1d09280bcd830e6_0",
+      "kind": "p",
+      "source": "Alternatively, you can use the __TRILIUM_PH_0__ __TRILIUM_PH_1__Collapse column__TRILIUM_PH_2__ command from the column menu.",
+      "sourceHash": "31314df1f1d09280bcd830e65c425ef2fca31ce9ed3ebad4aab3932eff1bd133",
+      "context": "Kanban Board > Working with columns > Collapsing and expanding columns > Collapsing",
+      "contextHash": "4ec94718f1fc21bf0cf64c4a5c469251e25bdf4c038c94a3f6660d20c9fb33d3",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_26efc21e07b7b2605c112759_0",
+      "kind": "p",
+      "source": "Once a column is collapsed, its cards are no longer visible, but the column can still receive cards from other columns:",
+      "sourceHash": "26efc21e07b7b2605c1127598aee7dd5f49aeb15d0cab99450c3e8a9753bed74",
+      "context": "Kanban Board > Working with columns > Collapsing and expanding columns > Collapsing",
+      "contextHash": "4ec94718f1fc21bf0cf64c4a5c469251e25bdf4c038c94a3f6660d20c9fb33d3",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_7f3b82413d0ce45aaa177949_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__Drop cards onto a collapsed column:__TRILIUM_PH_1__ The cards will be moved to the column (at the bottom if manual sorting is enabled).",
+      "sourceHash": "7f3b82413d0ce45aaa17794950c69b52e5eac24cbbab0bf0749f535787faa3a1",
+      "context": "Kanban Board > Working with columns > Collapsing and expanding columns > Collapsing",
+      "contextHash": "4ec94718f1fc21bf0cf64c4a5c469251e25bdf4c038c94a3f6660d20c9fb33d3",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_7eb84681784fd2e03f83fd57_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__Hold cards over a collapsed column for a few seconds:__TRILIUM_PH_1__ The column will expand, allowing you to drop the cards at the desired position (if manual sorting is enabled) or peek at the other cards before deciding whether to drop them.",
+      "sourceHash": "7eb84681784fd2e03f83fd5750d289b37245738e89fb0f183f43aa66d4885587",
+      "context": "Kanban Board > Working with columns > Collapsing and expanding columns > Collapsing",
+      "contextHash": "4ec94718f1fc21bf0cf64c4a5c469251e25bdf4c038c94a3f6660d20c9fb33d3",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_6ff030dcff452da08eed80a5_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__Move a card to a collapsed column using the keyboard:__TRILIUM_PH_1__ The column will temporarily expand to reveal the moved card. You can then continue moving the selected cards up or down, or to another column.",
+      "sourceHash": "6ff030dcff452da08eed80a5e68b580d0d112b4a6171294bd6e701fcd51dd6cc",
+      "context": "Kanban Board > Working with columns > Collapsing and expanding columns > Collapsing",
+      "contextHash": "4ec94718f1fc21bf0cf64c4a5c469251e25bdf4c038c94a3f6660d20c9fb33d3",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_80d1b824a0d0f52a268ff611_0",
+      "kind": "p",
+      "source": "Collapsed columns can still be reordered, and their menus remain available.",
+      "sourceHash": "80d1b824a0d0f52a268ff611e75b159007fe73f4d5ecbec08b421a086f8b3227",
+      "context": "Kanban Board > Working with columns > Collapsing and expanding columns > Collapsing",
+      "contextHash": "4ec94718f1fc21bf0cf64c4a5c469251e25bdf4c038c94a3f6660d20c9fb33d3",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_5f2d8a553afa86992e9e735a_0",
+      "kind": "p",
+      "source": "A collapsed column shows its title vertically, read from the bottom up. If any column title on the board contains Chinese, Japanese or Korean characters, the titles of all collapsed columns read from the top down instead, so that those characters stay upright.",
+      "sourceHash": "5f2d8a553afa86992e9e735a5065d5f4cc4a7e5f64511734f3e8b14483100077",
+      "context": "Kanban Board > Working with columns > Collapsing and expanding columns > Collapsing",
+      "contextHash": "4ec94718f1fc21bf0cf64c4a5c469251e25bdf4c038c94a3f6660d20c9fb33d3",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_1ed4701fd9cf75b298e908b9_0",
+      "kind": "h4",
+      "source": "Expanding__TRILIUM_PH_0__",
+      "sourceHash": "1ed4701fd9cf75b298e908b9b2070f90a68999f3cc0be0e94ce0ad3474977af9",
+      "context": "Kanban Board > Working with columns > Collapsing and expanding columns > Expanding",
+      "contextHash": "30242368588ebf37fd5f0d3226b13355a9df0563b28d2fd71ec7caca01159c65",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_da9702ebbd8ef783705358a2_0",
+      "kind": "p",
+      "source": "You can restore a collapsed column so that its content is visible again in the following ways:",
+      "sourceHash": "da9702ebbd8ef783705358a293a5b46bf85af32931af395f9ae678672b079ce0",
+      "context": "Kanban Board > Working with columns > Collapsing and expanding columns > Expanding",
+      "contextHash": "30242368588ebf37fd5f0d3226b13355a9df0563b28d2fd71ec7caca01159c65",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_901ac5c4ac0816ba16c8fbc5_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__Using a mouse:__TRILIUM_PH_1__ Click the collapsed column.",
+      "sourceHash": "901ac5c4ac0816ba16c8fbc5f4e40301d19377eb02ee9de8d4a635ff1b45907e",
+      "context": "Kanban Board > Working with columns > Collapsing and expanding columns > Expanding",
+      "contextHash": "30242368588ebf37fd5f0d3226b13355a9df0563b28d2fd71ec7caca01159c65",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_331dd7c741953489be2ca1d4_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__Using touch:__TRILIUM_PH_1__ Tap the collapsed column, and then press the __TRILIUM_PH_2__ button on the side toolbar.",
+      "sourceHash": "331dd7c741953489be2ca1d4ba5242b8b228227e6f24982a0393c0575a23121d",
+      "context": "Kanban Board > Working with columns > Collapsing and expanding columns > Expanding",
+      "contextHash": "30242368588ebf37fd5f0d3226b13355a9df0563b28d2fd71ec7caca01159c65",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_600addfc12da1e7f1e771b07_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__Using the keyboard:__TRILIUM_PH_1__ Move the focus to the collapsed column, and then press __TRILIUM_PH_2__Space__TRILIUM_PH_3__.",
+      "sourceHash": "600addfc12da1e7f1e771b0716c9eee7d4bccf00db009c5b2e6f40e465abc730",
+      "context": "Kanban Board > Working with columns > Collapsing and expanding columns > Expanding",
+      "contextHash": "30242368588ebf37fd5f0d3226b13355a9df0563b28d2fd71ec7caca01159c65",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_b98d2aace5a146e43cbf7129_0",
+      "kind": "h4",
+      "source": "Keeping a column collapsed__TRILIUM_PH_0__",
+      "sourceHash": "b98d2aace5a146e43cbf71292b0fbf7e6f678349da5844f5e0512fa81ff517b3",
+      "context": "Kanban Board > Working with columns > Collapsing and expanding columns > Keeping a column collapsed",
+      "contextHash": "6ed95541b255b2508cef8f27fc2f6ea7eac41751a478ad707b96733a68905f7a",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_3ea7dc445048c422059254b9_0",
+      "kind": "p",
+      "source": "By default, once a column is expanded, it remains expanded. However, you can configure a column to collapse again after you finish working with it. To activate this behavior, open the column menu and check __TRILIUM_PH_0__ __TRILIUM_PH_1__Keep the column collapsed__TRILIUM_PH_2__.",
+      "sourceHash": "3ea7dc445048c422059254b9b881778b779d615c54cb4135019163fb2049c1fc",
+      "context": "Kanban Board > Working with columns > Collapsing and expanding columns > Keeping a column collapsed",
+      "contextHash": "6ed95541b255b2508cef8f27fc2f6ea7eac41751a478ad707b96733a68905f7a",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_c5a876eae2e126ba9a78f133_0",
+      "kind": "p",
+      "source": "A column configured to remain collapsed will expand like any other collapsed column, but only temporarily, until another column is focused.",
+      "sourceHash": "c5a876eae2e126ba9a78f13337ac22d6f831d125ecc959cc56cb1642d01e5a8f",
+      "context": "Kanban Board > Working with columns > Collapsing and expanding columns > Keeping a column collapsed",
+      "contextHash": "6ed95541b255b2508cef8f27fc2f6ea7eac41751a478ad707b96733a68905f7a",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_760b9d6271624391f3707dc9_0",
+      "kind": "h4",
+      "source": "Collapsing and expanding all columns__TRILIUM_PH_0__",
+      "sourceHash": "760b9d6271624391f3707dc95ba683b2de7720eba79f5f38b92a434ce957dab7",
+      "context": "Kanban Board > Working with columns > Collapsing and expanding columns > Collapsing and expanding all columns",
+      "contextHash": "5e284c1c9ba8acf97252a24590e2a291b403e4c083d60868ffd79921e9486f52",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_acd95003273e7caec797300e_0",
+      "kind": "p",
+      "source": "You can expand or collapse all columns at once by using the __TRILIUM_PH_0__ (collapse) and __TRILIUM_PH_1__ (expand) buttons. On the desktop, these buttons are located at the bottom of the screen; on the mobile interface, they are in the header.",
+      "sourceHash": "acd95003273e7caec797300e4bae9c85fd5a3cd420d380a694fffe10405ee588",
+      "context": "Kanban Board > Working with columns > Collapsing and expanding columns > Collapsing and expanding all columns",
+      "contextHash": "5e284c1c9ba8acf97252a24590e2a291b403e4c083d60868ffd79921e9486f52",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_0947038cec125a6c3a46f29f_0",
+      "kind": "h3",
+      "source": "Sorting cards within a column__TRILIUM_PH_0__",
+      "sourceHash": "0947038cec125a6c3a46f29f8e334e2c1b1079c8836cfe656a813188b033b733",
+      "context": "Kanban Board > Working with columns > Sorting cards within a column",
+      "contextHash": "a5991e63d10246d1e89ab164503d4db6c639c58355573260ffcae61f6ec2a84a",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_3389d3ee6d002656492f2eb4_0",
+      "kind": "p",
+      "source": "By default, the cards in a column are sorted manually by moving them up and down. You can also keep them sorted automatically, using customizable criteria for each column. To customize the sorting options, open the column menu → __TRILIUM_PH_0__Sort__TRILIUM_PH_1__. The following options are available:",
+      "sourceHash": "3389d3ee6d002656492f2eb49bb8908050e223be06ea8486a73de4c08cec1647",
+      "context": "Kanban Board > Working with columns > Sorting cards within a column",
+      "contextHash": "a5991e63d10246d1e89ab164503d4db6c639c58355573260ffcae61f6ec2a84a",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_d3a2561014b470e173319254_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__ __TRILIUM_PH_1__Board's default__TRILIUM_PH_2__: Use the default sorting order (initially manual for new boards).",
+      "sourceHash": "d3a2561014b470e173319254bd2a7b6d8813c26ce3d6b4086e69da387ec5ca37",
+      "context": "Kanban Board > Working with columns > Sorting cards within a column",
+      "contextHash": "a5991e63d10246d1e89ab164503d4db6c639c58355573260ffcae61f6ec2a84a",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_2c33bb1f9d6a4eac47750462_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__ __TRILIUM_PH_1__Manually__TRILIUM_PH_2__: Sort cards by manually moving them up and down.",
+      "sourceHash": "2c33bb1f9d6a4eac47750462aa583ded678c4760e2cc0bf2f33c19fc8b8f2bb8",
+      "context": "Kanban Board > Working with columns > Sorting cards within a column",
+      "contextHash": "a5991e63d10246d1e89ab164503d4db6c639c58355573260ffcae61f6ec2a84a",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_5d95ad7e765de3f193eac11b_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__ __TRILIUM_PH_1__Title__TRILIUM_PH_2__: Sort cards by title.",
+      "sourceHash": "5d95ad7e765de3f193eac11b65e2f005ca1134748e0212cce8a0e0340e286860",
+      "context": "Kanban Board > Working with columns > Sorting cards within a column",
+      "contextHash": "a5991e63d10246d1e89ab164503d4db6c639c58355573260ffcae61f6ec2a84a",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_5b501d44e926372eae9d2b2a_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__ __TRILIUM_PH_1__Creation date & time__TRILIUM_PH_2__: Sort cards by the creation date and time of the note represented by each card. If a card was created from an existing note, the date and time will match the original creation date and time of that note, not when the card was added to the board.",
+      "sourceHash": "5b501d44e926372eae9d2b2a38be5031984e170b6c38d84671bccd5603c684b0",
+      "context": "Kanban Board > Working with columns > Sorting cards within a column",
+      "contextHash": "a5991e63d10246d1e89ab164503d4db6c639c58355573260ffcae61f6ec2a84a",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_de0adc608a92ae15ce68de43_0",
+      "kind": "li",
+      "source": "Any custom attribute: Any card attribute (see __TRILIUM_PH_0__Attributes__TRILIUM_PH_1__) can be used as a sorting criterion.",
+      "sourceHash": "de0adc608a92ae15ce68de43a8a191290590655f1ed89fa8a867f965510e0b17",
+      "context": "Kanban Board > Working with columns > Sorting cards within a column",
+      "contextHash": "a5991e63d10246d1e89ab164503d4db6c639c58355573260ffcae61f6ec2a84a",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_5151d3d64757a621d8ada4c7_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__ __TRILIUM_PH_1__Ascending__TRILIUM_PH_2__: Sort from smallest to largest (A to Z, 0 to 9, or oldest to newest).",
+      "sourceHash": "5151d3d64757a621d8ada4c72365330c1848634ef9904e68977070c4ebd63e95",
+      "context": "Kanban Board > Working with columns > Sorting cards within a column",
+      "contextHash": "a5991e63d10246d1e89ab164503d4db6c639c58355573260ffcae61f6ec2a84a",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_618b2a99cb68906b0d566a0e_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__ __TRILIUM_PH_1__Descending__TRILIUM_PH_2__: Sort in reverse order, from largest to smallest.",
+      "sourceHash": "618b2a99cb68906b0d566a0ed4bb4f8550f924c7f9b3109ff33fdf1f1380f4e3",
+      "context": "Kanban Board > Working with columns > Sorting cards within a column",
+      "contextHash": "a5991e63d10246d1e89ab164503d4db6c639c58355573260ffcae61f6ec2a84a",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_79c1f36436a9239bc62670fd_0",
+      "kind": "p",
+      "source": "The card order you set is preserved after you switch away from manual sorting. When you switch back to manual sorting, the cards will be in the same order in which you arranged them.",
+      "sourceHash": "79c1f36436a9239bc62670fdf830f48d9a3338ce994950e920f7facfb0a2b9d5",
+      "context": "Kanban Board > Working with columns > Sorting cards within a column",
+      "contextHash": "a5991e63d10246d1e89ab164503d4db6c639c58355573260ffcae61f6ec2a84a",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_7c63c2e3625e17e744498362_0",
+      "kind": "h4",
+      "source": "How card attributes are sorted__TRILIUM_PH_0__",
+      "sourceHash": "7c63c2e3625e17e74449836228fe3b394a75f24971a4158e059f1f2a8b85202f",
+      "context": "Kanban Board > Working with columns > Sorting cards within a column > How card attributes are sorted",
+      "contextHash": "3b4a0ac028a7251847bb7f92c02b62c40d81c9d4cc67d919e08a748ca56f837e",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_75d560766887cec36498a18b_0",
+      "kind": "p",
+      "source": "When cards are sorted by an attribute, they are ordered according to the following rules:",
+      "sourceHash": "75d560766887cec36498a18bfa344f6e5170201dc437603fcc787c6a14a89664",
+      "context": "Kanban Board > Working with columns > Sorting cards within a column > How card attributes are sorted",
+      "contextHash": "3b4a0ac028a7251847bb7f92c02b62c40d81c9d4cc67d919e08a748ca56f837e",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_ef0a1d15dc4b6e9b8c286835_0",
+      "kind": "th",
+      "source": "Attribute type",
+      "sourceHash": "ef0a1d15dc4b6e9b8c286835889de4d13e96eec1203ad8819e7730b49aceb131",
+      "context": "Kanban Board > Working with columns > Sorting cards within a column > How card attributes are sorted",
+      "contextHash": "3b4a0ac028a7251847bb7f92c02b62c40d81c9d4cc67d919e08a748ca56f837e",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_cffffabe66d12cec597d3c92_0",
+      "kind": "th",
+      "source": "Sort order (ascending)",
+      "sourceHash": "cffffabe66d12cec597d3c92aa6b6832646530163969064234b32510611f1d7c",
+      "context": "Kanban Board > Working with columns > Sorting cards within a column > How card attributes are sorted",
+      "contextHash": "3b4a0ac028a7251847bb7f92c02b62c40d81c9d4cc67d919e08a748ca56f837e",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_476c96509f663abd3f97a7ef_0",
+      "kind": "td",
+      "source": "Text, Multi-line text, URL, Email, Phone",
+      "sourceHash": "476c96509f663abd3f97a7ef8f974ac1dffeecc502ea1d16724a63737ec02b94",
+      "context": "Kanban Board > Working with columns > Sorting cards within a column > How card attributes are sorted",
+      "contextHash": "3b4a0ac028a7251847bb7f92c02b62c40d81c9d4cc67d919e08a748ca56f837e",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_aaf7bc7ca6c88a93b5d6d4e6_0",
+      "kind": "td",
+      "source": "A to Z, 0 to 9",
+      "sourceHash": "aaf7bc7ca6c88a93b5d6d4e6cca1b5462eab4e32609dcfb8b03b2c50f5050465",
+      "context": "Kanban Board > Working with columns > Sorting cards within a column > How card attributes are sorted",
+      "contextHash": "3b4a0ac028a7251847bb7f92c02b62c40d81c9d4cc67d919e08a748ca56f837e",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_3a37c466fe8923bf41628a1e_0",
+      "kind": "td",
+      "source": "Number",
+      "sourceHash": "3a37c466fe8923bf41628a1e07e7d8759a96aea81a20175bf798ad19342b8fb4",
+      "context": "Kanban Board > Working with columns > Sorting cards within a column > How card attributes are sorted",
+      "contextHash": "3b4a0ac028a7251847bb7f92c02b62c40d81c9d4cc67d919e08a748ca56f837e",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_9310cadc52013ecda9f5cb2b_0",
+      "kind": "td",
+      "source": "lowest → greatest",
+      "sourceHash": "9310cadc52013ecda9f5cb2bad7c91faba1e4c95478eecd2f7cb8b00b2d51267",
+      "context": "Kanban Board > Working with columns > Sorting cards within a column > How card attributes are sorted",
+      "contextHash": "3b4a0ac028a7251847bb7f92c02b62c40d81c9d4cc67d919e08a748ca56f837e",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_885e3dfda888edb0ad79cceb_0",
+      "kind": "td",
+      "source": "Date, Date & time",
+      "sourceHash": "885e3dfda888edb0ad79ccebfed8dffbe1f8bdf5e46fefb6af280ad6db19c3fd",
+      "context": "Kanban Board > Working with columns > Sorting cards within a column > How card attributes are sorted",
+      "contextHash": "3b4a0ac028a7251847bb7f92c02b62c40d81c9d4cc67d919e08a748ca56f837e",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_3cc134e73435efc119dd0ee3_0",
+      "kind": "td",
+      "source": "oldest → newest",
+      "sourceHash": "3cc134e73435efc119dd0ee3878ea4a1303c66961544b2ed31b03c802d718394",
+      "context": "Kanban Board > Working with columns > Sorting cards within a column > How card attributes are sorted",
+      "contextHash": "3b4a0ac028a7251847bb7f92c02b62c40d81c9d4cc67d919e08a748ca56f837e",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_4b9c25f69a3d1e15bfcd3af1_0",
+      "kind": "td",
+      "source": "Time",
+      "sourceHash": "4b9c25f69a3d1e15bfcd3af17e38dd8d6b976a75f375700df3c00531a742d393",
+      "context": "Kanban Board > Working with columns > Sorting cards within a column > How card attributes are sorted",
+      "contextHash": "3b4a0ac028a7251847bb7f92c02b62c40d81c9d4cc67d919e08a748ca56f837e",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_0b6976c1dc60b34313e00a21_0",
+      "kind": "td",
+      "source": "earliest hour (closest to 0) → latest hour (closest to 24)",
+      "sourceHash": "0b6976c1dc60b34313e00a2169a9ee52909e326106dd8ed6f0385a9fc7b79784",
+      "context": "Kanban Board > Working with columns > Sorting cards within a column > How card attributes are sorted",
+      "contextHash": "3b4a0ac028a7251847bb7f92c02b62c40d81c9d4cc67d919e08a748ca56f837e",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_b3a4844711b69b5681840801_0",
+      "kind": "td",
+      "source": "Checkbox",
+      "sourceHash": "b3a4844711b69b56818408018e978fb7624aded0af80e1993a4ff20299a0b351",
+      "context": "Kanban Board > Working with columns > Sorting cards within a column > How card attributes are sorted",
+      "contextHash": "3b4a0ac028a7251847bb7f92c02b62c40d81c9d4cc67d919e08a748ca56f837e",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_0d791e4d3460ff2876c825db_0",
+      "kind": "td",
+      "source": "unchecked → checked",
+      "sourceHash": "0d791e4d3460ff2876c825db4200db1e9da9e977aa68a33b087d1da905f8e907",
+      "context": "Kanban Board > Working with columns > Sorting cards within a column > How card attributes are sorted",
+      "contextHash": "3b4a0ac028a7251847bb7f92c02b62c40d81c9d4cc67d919e08a748ca56f837e",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_fb85e2dbee8cd5cb331b9b61_0",
+      "kind": "td",
+      "source": "Select",
+      "sourceHash": "fb85e2dbee8cd5cb331b9b611a81ce374778bd3b6ca45420eaf13eef625122fc",
+      "context": "Kanban Board > Working with columns > Sorting cards within a column > How card attributes are sorted",
+      "contextHash": "3b4a0ac028a7251847bb7f92c02b62c40d81c9d4cc67d919e08a748ca56f837e",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_4fd6dcc237a9c23a1c1a7a81_0",
+      "kind": "td",
+      "source": "The order in which the options are declared.       __TRILIUM_PH_0__For example, a select attribute declared with “Low”, “Medium”, and “High” options will be sorted as follows: Low → Medium → High.",
+      "sourceHash": "4fd6dcc237a9c23a1c1a7a811fee64a9970f1ac9fb0c3383ce9155958334c3fb",
+      "context": "Kanban Board > Working with columns > Sorting cards within a column > How card attributes are sorted",
+      "contextHash": "3b4a0ac028a7251847bb7f92c02b62c40d81c9d4cc67d919e08a748ca56f837e",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_9272d1e20ace22771d78c35e_0",
+      "kind": "td",
+      "source": "Color",
+      "sourceHash": "9272d1e20ace22771d78c35edb04ce532ecd9a60ac52c0e2224256dcf41ed8d4",
+      "context": "Kanban Board > Working with columns > Sorting cards within a column > How card attributes are sorted",
+      "contextHash": "3b4a0ac028a7251847bb7f92c02b62c40d81c9d4cc67d919e08a748ca56f837e",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_ab99d9f7adc8108069e26efc_0",
+      "kind": "td",
+      "source": "Grays → colors. Colors are ordered by their color-wheel __TRILIUM_PH_0__hue__TRILIUM_PH_1__ angle (from 0° to 360°).",
+      "sourceHash": "ab99d9f7adc8108069e26efc7181434638cb9426da98e82a8abb7e4dfe00a351",
+      "context": "Kanban Board > Working with columns > Sorting cards within a column > How card attributes are sorted",
+      "contextHash": "3b4a0ac028a7251847bb7f92c02b62c40d81c9d4cc67d919e08a748ca56f837e",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_3abdf428119c6b8a73b370b3_0",
+      "kind": "p",
+      "source": "Relation attributes are ordered according to the title of the target note.",
+      "sourceHash": "3abdf428119c6b8a73b370b3d30cc550ae619c0158cfe0eb7a045b109a119e6d",
+      "context": "Kanban Board > Working with columns > Sorting cards within a column > How card attributes are sorted",
+      "contextHash": "3b4a0ac028a7251847bb7f92c02b62c40d81c9d4cc67d919e08a748ca56f837e",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_8404e16568edacae916fbe63_0",
+      "kind": "p",
+      "source": "Cards with attributes that have no value set are always sorted at the end of the column, regardless of whether the sort order is ascending or descending. If an attribute holds more than one value, only the first value is used for sorting.",
+      "sourceHash": "8404e16568edacae916fbe6336cef613957cb1cb79a85e44254dacfb8341d94e",
+      "context": "Kanban Board > Working with columns > Sorting cards within a column > How card attributes are sorted",
+      "contextHash": "3b4a0ac028a7251847bb7f92c02b62c40d81c9d4cc67d919e08a748ca56f837e",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_3ad3b77547a3e0ff2fcc85e0_0",
+      "kind": "h4",
+      "source": "Configuring the default sorting options__TRILIUM_PH_0__",
+      "sourceHash": "3ad3b77547a3e0ff2fcc85e052e79df94f1eb83210fbf304df6be5fb2b57c4f9",
+      "context": "Kanban Board > Working with columns > Sorting cards within a column > Configuring the default sorting options",
+      "contextHash": "abc6d756e557c340a914079de8b4d35e30bd0881196db7efa55ccc84c1a298fc",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_718edb4dfe30960ac554f02c_0",
+      "kind": "p",
+      "source": "Every new column uses the __TRILIUM_PH_0__Board's default__TRILIUM_PH_1__ sorting option, which is initially set to manual sorting on new boards. However, the default can be changed to any other sorting criterion and direction. To configure it, go to __TRILIUM_PH_2__Note menu__TRILIUM_PH_3__ → __TRILIUM_PH_4__Board properties__TRILIUM_PH_5__ → __TRILIUM_PH_6__Default card order__TRILIUM_PH_7__ (under the __TRILIUM_PH_8__General__TRILIUM_PH_9__ section).",
+      "sourceHash": "718edb4dfe30960ac554f02ca7060b1052f1063bc7ed98ae3feedabd2a824241",
+      "context": "Kanban Board > Working with columns > Sorting cards within a column > Configuring the default sorting options",
+      "contextHash": "abc6d756e557c340a914079de8b4d35e30bd0881196db7efa55ccc84c1a298fc",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_8312b449cdf06b3db8f1b066_0",
+      "kind": "p",
+      "source": "Once the default is changed, all columns set to the __TRILIUM_PH_0__Board's default__TRILIUM_PH_1__ sorting option will follow the new sorting options.",
+      "sourceHash": "8312b449cdf06b3db8f1b06669eff6f40a20f6bdc4e45113b70b4513c27b536b",
+      "context": "Kanban Board > Working with columns > Sorting cards within a column > Configuring the default sorting options",
+      "contextHash": "abc6d756e557c340a914079de8b4d35e30bd0881196db7efa55ccc84c1a298fc",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_647d0549cae53ddd0c628c93_0",
+      "kind": "p",
+      "source": "Columns using a sorting option other than __TRILIUM_PH_0__Board's default__TRILIUM_PH_1__ will not be affected by the new default. To override all columns so that they use the default sorting options, use the __TRILIUM_PH_2__Reset sorting options to default for all columns__TRILIUM_PH_3__ command in __TRILIUM_PH_4__Board properties__TRILIUM_PH_5__.",
+      "sourceHash": "647d0549cae53ddd0c628c933796cba955e8bdf0d0e245212f9b396a1c553fb8",
+      "context": "Kanban Board > Working with columns > Sorting cards within a column > Configuring the default sorting options",
+      "contextHash": "abc6d756e557c340a914079de8b4d35e30bd0881196db7efa55ccc84c1a298fc",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_e17ffebf083c405b9e87f717_0",
+      "kind": "p",
+      "source": "Using the __TRILIUM_PH_0__ attribute on Kanban boards __TRILIUM_PH_1__is no longer recommended__TRILIUM_PH_2__, because it applies to every column and prevents manual sorting. Instead, use __TRILIUM_PH_3__, which is designed exclusively for board collections and can take one of the following values: __TRILIUM_PH_4__, __TRILIUM_PH_5__, or __TRILIUM_PH_6__, for example, __TRILIUM_PH_7__. Using the __TRILIUM_PH_8__ label will switch to descending order.",
+      "sourceHash": "e17ffebf083c405b9e87f717f9bd4b5ecfef48cec68a41fc4e861f540552be33",
+      "context": "Kanban Board > Working with columns > Sorting cards within a column > Configuring the default sorting options",
+      "contextHash": "abc6d756e557c340a914079de8b4d35e30bd0881196db7efa55ccc84c1a298fc",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_01fa3c9e21c53049cbdc46b5_0",
+      "kind": "h3",
+      "source": "Setting a limit__TRILIUM_PH_0__",
+      "sourceHash": "01fa3c9e21c53049cbdc46b51e399783e4b709a89113cfff2557ada773dbcd97",
+      "context": "Kanban Board > Working with columns > Setting a limit",
+      "contextHash": "2cc9f38ca0e886fb253ef78c50dbe37990d42505804d5c62819b0e23d92271a3",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_da8723afb24c82385ab0f79d_0",
+      "kind": "p",
+      "source": "For each column, you can limit the number of cards it contains (also known as a WIP limit). Once the limit is exceeded, the column displays a visual warning to indicate that it is over its limit.",
+      "sourceHash": "da8723afb24c82385ab0f79d1a1862b86f18517dabe3ef2c165e3a96e0b273da",
+      "context": "Kanban Board > Working with columns > Setting a limit",
+      "contextHash": "2cc9f38ca0e886fb253ef78c50dbe37990d42505804d5c62819b0e23d92271a3",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_5117947ba1d7cc0600c3b445_0",
+      "kind": "p",
+      "source": "To enable the limit, go to the column menu → __TRILIUM_PH_0__ __TRILIUM_PH_1__Set limit__TRILIUM_PH_2__, and then:",
+      "sourceHash": "5117947ba1d7cc0600c3b4451864d8f872fadcf82a993375a75cec4ee7a473a9",
+      "context": "Kanban Board > Working with columns > Setting a limit",
+      "contextHash": "2cc9f38ca0e886fb253ef78c50dbe37990d42505804d5c62819b0e23d92271a3",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_a9cb646796842a5c0a2586fc_0",
+      "kind": "li",
+      "source": "Turn on the __TRILIUM_PH_0__Warn for exceeding the column capacity__TRILIUM_PH_1__ toggle.",
+      "sourceHash": "a9cb646796842a5c0a2586fca7f6790ae57b5cd04766d21fbf2ae19a527382ac",
+      "context": "Kanban Board > Working with columns > Setting a limit",
+      "contextHash": "2cc9f38ca0e886fb253ef78c50dbe37990d42505804d5c62819b0e23d92271a3",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_081f57e3a2606256e6ea53b5_0",
+      "kind": "li",
+      "source": "Enter the desired limit in the __TRILIUM_PH_0__Maximum number of cards in the column__TRILIUM_PH_1__ text box.",
+      "sourceHash": "081f57e3a2606256e6ea53b5cd0d4fecdfca788431d8f16d0f2914b0859f2f9d",
+      "context": "Kanban Board > Working with columns > Setting a limit",
+      "contextHash": "2cc9f38ca0e886fb253ef78c50dbe37990d42505804d5c62819b0e23d92271a3",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_d322d72cc0ea737cb25c20b9_0",
+      "kind": "li",
+      "source": "Press the __TRILIUM_PH_0__Set limit__TRILIUM_PH_1__ button.",
+      "sourceHash": "d322d72cc0ea737cb25c20b970175dc91b13c749cce3dc5c0f28d5a08d3322a4",
+      "context": "Kanban Board > Working with columns > Setting a limit",
+      "contextHash": "2cc9f38ca0e886fb253ef78c50dbe37990d42505804d5c62819b0e23d92271a3",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_8ba59c6ce21ffc5d8ae6acea_0",
+      "kind": "p",
+      "source": "A column that has reached its limit can still accept new cards. Blocking new cards is not supported and most likely never will be, due to the way Trilium works: cards are regular notes, and the attributes used to group them into columns can be set from anywhere in the app, outside the board control. As a result, enforcing the limit would not be consistent.",
+      "sourceHash": "8ba59c6ce21ffc5d8ae6aceafe64d3774149df53f14ecb356896b5710aea4b26",
+      "context": "Kanban Board > Working with columns > Setting a limit",
+      "contextHash": "2cc9f38ca0e886fb253ef78c50dbe37990d42505804d5c62819b0e23d92271a3",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_2b0ebe6fab3efd6a589f8997_0",
+      "kind": "h3",
+      "source": "Archiving a column__TRILIUM_PH_0__",
+      "sourceHash": "2b0ebe6fab3efd6a589f8997fd400e36bc9cd273af87ee71dfeb4fbfe27f6318",
+      "context": "Kanban Board > Working with columns > Archiving a column",
+      "contextHash": "bb490280d87234f5b04511bf231850b49cbfe53e7685ae03feb70ece9fb15469",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_b4030df866f2fa6776e031c9_0",
+      "kind": "p",
+      "source": "If you want to hide a column from the board without deleting it, you can archive it by opening the column menu → __TRILIUM_PH_0__ __TRILIUM_PH_1__Archive column__TRILIUM_PH_2__. Archiving a column does not set the archived flag (see __TRILIUM_PH_3__Archived Notes__TRILIUM_PH_4__) on the notes corresponding to its cards.",
+      "sourceHash": "b4030df866f2fa6776e031c99857781d023c83f129ac5047425ab030b6a1354a",
+      "context": "Kanban Board > Working with columns > Archiving a column",
+      "contextHash": "bb490280d87234f5b04511bf231850b49cbfe53e7685ae03feb70ece9fb15469",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_00e6dfad8970aeaa4a330b0d_0",
+      "kind": "p",
+      "source": "To show archived columns again, go to __TRILIUM_PH_0__ __TRILIUM_PH_1__Collection options__TRILIUM_PH_2__ and toggle __TRILIUM_PH_3__ __TRILIUM_PH_4__Show archived notes__TRILIUM_PH_5__, or turn on __TRILIUM_PH_6__Show archived cards and columns__TRILIUM_PH_7__ in __TRILIUM_PH_8__Note menu__TRILIUM_PH_9__ → __TRILIUM_PH_10__Board properties__TRILIUM_PH_11__ (under the __TRILIUM_PH_12__Included notes__TRILIUM_PH_13__ section). Archived columns will appear faded. To restore one, open its column menu and select __TRILIUM_PH_14__ __TRILIUM_PH_15__Unarchive column__TRILIUM_PH_16__.",
+      "sourceHash": "00e6dfad8970aeaa4a330b0d8314bceb1c5310854ce1a90dfd89037c7a1dbe97",
+      "context": "Kanban Board > Working with columns > Archiving a column",
+      "contextHash": "bb490280d87234f5b04511bf231850b49cbfe53e7685ae03feb70ece9fb15469",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_110afcd81114b2de580d311d_0",
+      "kind": "h3",
+      "source": "Deleting a column__TRILIUM_PH_0__",
+      "sourceHash": "110afcd81114b2de580d311d6d653a931ca3d36d4078c5f2f137a6befe0f6032",
+      "context": "Kanban Board > Working with columns > Deleting a column",
+      "contextHash": "3f241bf394f4c0b44bdeb178e4ec98c6c453e55651f189e28acef1784081fb79",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_e19fcd5302ab43d23afbbe8b_0",
+      "kind": "p",
+      "source": "You can delete a column by opening the column menu → __TRILIUM_PH_0__ __TRILIUM_PH_1__Delete column__TRILIUM_PH_2__, or by pressing __TRILIUM_PH_3__Delete__TRILIUM_PH_4__ when a column header is focused, and then confirming. This removes the column from the board and unsets the grouping attribute for each note represented by a card in that column. If the column contains cards, the confirmation also offers to delete their notes instead of keeping them.",
+      "sourceHash": "e19fcd5302ab43d23afbbe8b5b529ac9d5f9205d553c9684f2a648c737a3929e",
+      "context": "Kanban Board > Working with columns > Deleting a column",
+      "contextHash": "3f241bf394f4c0b44bdeb178e4ec98c6c453e55651f189e28acef1784081fb79",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_64d42e993c5ee311dde1fb1b_0",
+      "kind": "p",
+      "source": "The inbox column is not deleted this way. Its menu entry is __TRILIUM_PH_0__ __TRILIUM_PH_1__Remove inbox column__TRILIUM_PH_2__, and __TRILIUM_PH_3__Delete__TRILIUM_PH_4__ on its header hides the inbox without changing any card.",
+      "sourceHash": "64d42e993c5ee311dde1fb1b576a1c710697adc19a53b407dc13b405a7a003af",
+      "context": "Kanban Board > Working with columns > Deleting a column",
+      "contextHash": "3f241bf394f4c0b44bdeb178e4ec98c6c453e55651f189e28acef1784081fb79",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_6b36d09245c040d8f1ab23ff_0",
+      "kind": "h3",
+      "source": "The inbox column__TRILIUM_PH_0__",
+      "sourceHash": "6b36d09245c040d8f1ab23ffb129fc2e9ad94dc9c403d415837fa5369634a55b",
+      "context": "Kanban Board > Working with columns > The inbox column",
+      "contextHash": "f2a3e2bf0f47c15f75b6b0a99dcaac3d796b93daf01667cec5404bd6711d6e52",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_637c6537d08426d1ff6f4c21_0",
+      "kind": "p",
+      "source": "The inbox column is a special column containing cards that are not assigned to another column. It is particularly useful when you switch an existing collection containing child notes to a board collection. The inbox column turns all child notes into cards that you can quickly distribute among the other columns. It can also act as a backlog where you can keep new cards that might eventually become part of the board.",
+      "sourceHash": "637c6537d08426d1ff6f4c2126b1042126c6223091fee654a0be922f52582fbc",
+      "context": "Kanban Board > Working with columns > The inbox column",
+      "contextHash": "f2a3e2bf0f47c15f75b6b0a99dcaac3d796b93daf01667cec5404bd6711d6e52",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_463ddb9044b8a82263ec7f8d_0",
+      "kind": "p",
+      "source": "The inbox column is hidden by default. To show it, go to __TRILIUM_PH_0__ __TRILIUM_PH_1__Collection options__TRILIUM_PH_2__ and toggle __TRILIUM_PH_3__Show inbox column__TRILIUM_PH_4__. The inbox column is distinguishable by its transparent background. It is always the first column and cannot be moved. It does not support a card limit. Otherwise, it operates like a regular column: its title, icon, and color can be changed; it can be sorted manually or automatically; and it can be collapsed.",
+      "sourceHash": "463ddb9044b8a82263ec7f8def2c8fcb4e1541c0808c3825f5cc1ce0ab0a3273",
+      "context": "Kanban Board > Working with columns > The inbox column",
+      "contextHash": "f2a3e2bf0f47c15f75b6b0a99dcaac3d796b93daf01667cec5404bd6711d6e52",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_7159d48b8aa2e92e864a29c2_0",
+      "kind": "p",
+      "source": "You can also show the inbox column by applying the __TRILIUM_PH_0__ label (read more about __TRILIUM_PH_1__Attributes__TRILIUM_PH_2__) to the board note.",
+      "sourceHash": "7159d48b8aa2e92e864a29c2bef3165f0433a275e53194a93986277743a7dedc",
+      "context": "Kanban Board > Working with columns > The inbox column",
+      "contextHash": "f2a3e2bf0f47c15f75b6b0a99dcaac3d796b93daf01667cec5404bd6711d6e52",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_5979de1ef4310755150b3b1e_0",
+      "kind": "p",
+      "source": "Optionally, the inbox column can also list nested notes from the board collection's subtree. To enable this, open the column menu and check __TRILIUM_PH_0__ __TRILIUM_PH_1__Include nested notes__TRILIUM_PH_2__.",
+      "sourceHash": "5979de1ef4310755150b3b1ef3ac620f83dee533da2fcd39a0eafff97e0c8f39",
+      "context": "Kanban Board > Working with columns > The inbox column",
+      "contextHash": "f2a3e2bf0f47c15f75b6b0a99dcaac3d796b93daf01667cec5404bd6711d6e52",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_a6d1ba88f7de572db0c13f32_0",
+      "kind": "h3",
+      "source": "Changing the width of columns__TRILIUM_PH_0__",
+      "sourceHash": "a6d1ba88f7de572db0c13f322418be97c29a6f2e79caeac44b74c69885bfd42f",
+      "context": "Kanban Board > Working with columns > Changing the width of columns",
+      "contextHash": "a03c9b1a1b97834e41f9ab835eb2ccd7172dabc8dffd08b784404f4d567332f2",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_6e7910c2ca00601f703a7e63_0",
+      "kind": "p",
+      "source": "There are three predefined widths for board columns: narrow (default), medium, and wide. To change the width, open the __TRILIUM_PH_0__Note menu__TRILIUM_PH_1__ → __TRILIUM_PH_2__Board properties__TRILIUM_PH_3__ → __TRILIUM_PH_4__Column width__TRILIUM_PH_5__ (under the __TRILIUM_PH_6__General__TRILIUM_PH_7__ section). This option applies to every column on the board, except in the mobile version.",
+      "sourceHash": "6e7910c2ca00601f703a7e632486f96e73b0bb7280a031ff43468c7d72c7494b",
+      "context": "Kanban Board > Working with columns > Changing the width of columns",
+      "contextHash": "a03c9b1a1b97834e41f9ab835eb2ccd7172dabc8dffd08b784404f4d567332f2",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_a1596767481b13d5baf5b1e1_0",
+      "kind": "p",
+      "source": "The same option is also available through the __TRILIUM_PH_0__ label (read more about __TRILIUM_PH_1__Attributes__TRILIUM_PH_2__) on the board note, which accepts “__TRILIUM_PH_3__”, “__TRILIUM_PH_4__”, or “__TRILIUM_PH_5__” as its value.",
+      "sourceHash": "a1596767481b13d5baf5b1e13c941f5ecb8f43a951aecae6bf86feb17128abfa",
+      "context": "Kanban Board > Working with columns > Changing the width of columns",
+      "contextHash": "a03c9b1a1b97834e41f9ab835eb2ccd7172dabc8dffd08b784404f4d567332f2",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_0caa1960236c8e13da078121_0",
+      "kind": "p",
+      "source": "You can also redefine these three widths by using custom app CSS (read more about __TRILIUM_PH_0__Custom app-wide CSS__TRILIUM_PH_1__) and assigning the desired pixel values as follows:",
+      "sourceHash": "0caa1960236c8e13da07812182e5dbcad9122729f004a2692e0fb832d6df0c95",
+      "context": "Kanban Board > Working with columns > Changing the width of columns",
+      "contextHash": "a03c9b1a1b97834e41f9ab835eb2ccd7172dabc8dffd08b784404f4d567332f2",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_d26a8d7fed6e9bc3ea64e7e2_0",
+      "kind": "h2",
+      "source": "Working with cards__TRILIUM_PH_0__",
+      "sourceHash": "d26a8d7fed6e9bc3ea64e7e2d3ca2991fb4b57201e34f0b486074e908a11daf5",
+      "context": "Kanban Board > Working with cards",
+      "contextHash": "bfd5837d776f3e2d38847b1b8aa5a135bd92bb526f7928196c920a541dc7acc0",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_64e0671247f5b311a2b522e8_0",
+      "kind": "h3",
+      "source": "Creating a new card__TRILIUM_PH_0__",
+      "sourceHash": "64e0671247f5b311a2b522e83fa2cd10df4d0319823cde41de8d59121811c0e8",
+      "context": "Kanban Board > Working with cards > Creating a new card",
+      "contextHash": "ddddc62377edd54ca8dace6d1f8e7d64393968197c6001bf9afeb429753cfb2b",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_d77f8aaeeaafb8268389033a_0",
+      "kind": "p",
+      "source": "To create a new card, press the __TRILIUM_PH_0____TRILIUM_PH_1__New card__TRILIUM_PH_2__ button located at the bottom of each column. To create a new card above or below a specific card, right-click or hold that card, and then select __TRILIUM_PH_3__ __TRILIUM_PH_4__Insert new above__TRILIUM_PH_5__ or __TRILIUM_PH_6__ __TRILIUM_PH_7__Insert new below__TRILIUM_PH_8__ from the context menu. Alternatively, press __TRILIUM_PH_9__Shift__TRILIUM_PH_10__ + __TRILIUM_PH_11__Enter__TRILIUM_PH_12__ to create a new card above the focused card, or __TRILIUM_PH_13__Enter__TRILIUM_PH_14__ to create one below it.",
+      "sourceHash": "d77f8aaeeaafb8268389033a23b20de51f2384f692cca5a16e7818c625568d55",
+      "context": "Kanban Board > Working with cards > Creating a new card",
+      "contextHash": "ddddc62377edd54ca8dace6d1f8e7d64393968197c6001bf9afeb429753cfb2b",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_ab58f0a7fcf347d19fcf31d5_0",
+      "kind": "p",
+      "source": "Next, type the title of the new card, and then press the __TRILIUM_PH_0__ button or __TRILIUM_PH_1__Enter__TRILIUM_PH_2__ to complete it. Tap or click anywhere outside the text box to dismiss it. You can also select a different icon and card template. To learn more about card templates, see Card templates (learn more about __TRILIUM_PH_3__Templates__TRILIUM_PH_4__).",
+      "sourceHash": "ab58f0a7fcf347d19fcf31d5f5707f101bf1782c4613e9063bd3b6fcf18868fd",
+      "context": "Kanban Board > Working with cards > Creating a new card",
+      "contextHash": "ddddc62377edd54ca8dace6d1f8e7d64393968197c6001bf9afeb429753cfb2b",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_5b2a441208114c0b87dcc020_0",
+      "kind": "p",
+      "source": "After the card is created, you can tap or click it, or press __TRILIUM_PH_0__Space__TRILIUM_PH_1__, to edit the note content.",
+      "sourceHash": "5b2a441208114c0b87dcc0208a71865940e583ae33bca0fd2f3fd4564d294ae9",
+      "context": "Kanban Board > Working with cards > Creating a new card",
+      "contextHash": "ddddc62377edd54ca8dace6d1f8e7d64393968197c6001bf9afeb429753cfb2b",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_bbf16da90255c57b1b1e3ddd_0",
+      "kind": "p",
+      "source": "When using the __TRILIUM_PH_0__ __TRILIUM_PH_1__New card__TRILIUM_PH_2__ button, cards are always created at the end of the column. To create the card at the top of the column, right-click or hold the __TRILIUM_PH_3__ button and select __TRILIUM_PH_4__ __TRILIUM_PH_5__Create at top__TRILIUM_PH_6__. When using keyboard shortcuts, focus the column header and press __TRILIUM_PH_7__Enter__TRILIUM_PH_8__ to create a new card at the start of the column, or __TRILIUM_PH_9__Shift__TRILIUM_PH_10__ + __TRILIUM_PH_11__Enter__TRILIUM_PH_12__ to create one at the end.",
+      "sourceHash": "bbf16da90255c57b1b1e3ddde4cc06ce988d513acefc9a228e0d7b089f94de93",
+      "context": "Kanban Board > Working with cards > Creating a new card",
+      "contextHash": "ddddc62377edd54ca8dace6d1f8e7d64393968197c6001bf9afeb429753cfb2b",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_69f81568c41350a0080b4c0c_0",
+      "kind": "h3",
+      "source": "Adding an existing note as a card__TRILIUM_PH_0__",
+      "sourceHash": "69f81568c41350a0080b4c0ca29f8834d5d85c7a5852a5f5e4ee6d4832e358d0",
+      "context": "Kanban Board > Working with cards > Adding an existing note as a card",
+      "contextHash": "df26a44e3e9365a089fd834558ca0e3b8a6105ff0a2af5984575ae8fa0b41bb4",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_9bdb66ced25a88dbea648e78_0",
+      "kind": "p",
+      "source": "Any note in your knowledge base can be represented as a card on a board. To add an existing note to your board, create a new card but do not enter a title. Instead, press the __TRILIUM_PH_0__ button. Alternatively, use the __TRILIUM_PH_1__ __TRILIUM_PH_2__Add an existing note as a card__TRILIUM_PH_3__ command from the column menu.",
+      "sourceHash": "9bdb66ced25a88dbea648e78fef7533103e388b0f6300c44b47b4c69d8514b65",
+      "context": "Kanban Board > Working with cards > Adding an existing note as a card",
+      "contextHash": "df26a44e3e9365a089fd834558ca0e3b8a6105ff0a2af5984575ae8fa0b41bb4",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_b3df1e997662c575eeb05788_0",
+      "kind": "p",
+      "source": "In the dialog that opens, search for the note by name, and then press the __TRILIUM_PH_0__Add to column__TRILIUM_PH_1__ button to insert it. Alternatively, you can drag any note from the tree and drop it at the desired position on the board.",
+      "sourceHash": "b3df1e997662c575eeb057880117c9b85c43a2830f93ea55babaefdd1e5b1da5",
+      "context": "Kanban Board > Working with cards > Adding an existing note as a card",
+      "contextHash": "df26a44e3e9365a089fd834558ca0e3b8a6105ff0a2af5984575ae8fa0b41bb4",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_74294d84359bb5d08afb5524_0",
+      "kind": "p",
+      "source": "If the target note is already in the board collection's subtree, it will already be listed in the __TRILIUM_PH_0__inbox column__TRILIUM_PH_1__.",
+      "sourceHash": "74294d84359bb5d08afb5524747b6b520601651426a3d3c5eb3f84cd24a4dae4",
+      "context": "Kanban Board > Working with cards > Adding an existing note as a card",
+      "contextHash": "df26a44e3e9365a089fd834558ca0e3b8a6105ff0a2af5984575ae8fa0b41bb4",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_ee455270ce2972e90247d9b5_0",
+      "kind": "p",
+      "source": "Notes added to the board are cloned, not duplicated. This means that changes to their titles, content, and attributes on the board are reflected in their original locations as well. See __TRILIUM_PH_0__Cloning Notes__TRILIUM_PH_1__ for more information.",
+      "sourceHash": "ee455270ce2972e90247d9b55d3668a65d39abd7f990a4ebe903b3e824d165d2",
+      "context": "Kanban Board > Working with cards > Adding an existing note as a card",
+      "contextHash": "df26a44e3e9365a089fd834558ca0e3b8a6105ff0a2af5984575ae8fa0b41bb4",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_f60e6765668a31a6fcd998e0_0",
+      "kind": "h3",
+      "source": "Selecting multiple cards__TRILIUM_PH_0__",
+      "sourceHash": "f60e6765668a31a6fcd998e0a716396b1a745bb423580852003e2c1e1fb2b395",
+      "context": "Kanban Board > Working with cards > Selecting multiple cards",
+      "contextHash": "2ef341ec41ca92c1b0e8ce9ea762865d3b3d6061c4607f21a3ba3586564d6e69",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_8235f47fe5a01cbf275713f6_0",
+      "kind": "p",
+      "source": "When working with a board, you may need to perform operations on multiple cards at once, such as moving them to another column, setting attributes or colors, deleting them, or archiving them.",
+      "sourceHash": "8235f47fe5a01cbf275713f652ae7593de35ba02da57efd8354a77343160af0c",
+      "context": "Kanban Board > Working with cards > Selecting multiple cards",
+      "contextHash": "2ef341ec41ca92c1b0e8ce9ea762865d3b3d6061c4607f21a3ba3586564d6e69",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_592cdac2c2e65bf3c6fb09cb_0",
+      "kind": "p",
+      "source": "You can select multiple cards in the following ways:",
+      "sourceHash": "592cdac2c2e65bf3c6fb09cba98a0932a3ad0834eba6cfc411010cf934ba93cb",
+      "context": "Kanban Board > Working with cards > Selecting multiple cards",
+      "contextHash": "2ef341ec41ca92c1b0e8ce9ea762865d3b3d6061c4607f21a3ba3586564d6e69",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_42aabb77d68a0db4313ed0dc_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__Using a mouse and keyboard:__TRILIUM_PH_1__",
+      "sourceHash": "42aabb77d68a0db4313ed0dce95d539661e6df06808f54fa677ca51818e4cbc6",
+      "context": "Kanban Board > Working with cards > Selecting multiple cards",
+      "contextHash": "2ef341ec41ca92c1b0e8ce9ea762865d3b3d6061c4607f21a3ba3586564d6e69",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_2ac58acfa4ed1813844e05b0_0",
+      "kind": "li",
+      "source": "To add a card to the selection, hold __TRILIUM_PH_0__Ctrl__TRILIUM_PH_1__ and click the card. Repeat this for other cards until all the desired cards are selected. Clicking a selected card again while holding __TRILIUM_PH_2__Ctrl__TRILIUM_PH_3__ will deselect it.",
+      "sourceHash": "2ac58acfa4ed1813844e05b09b6e69deb9d28c9e923f3d12ce7b6b9e083da5b8",
+      "context": "Kanban Board > Working with cards > Selecting multiple cards",
+      "contextHash": "2ef341ec41ca92c1b0e8ce9ea762865d3b3d6061c4607f21a3ba3586564d6e69",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_ed9ca459922a40a9100ed5d6_0",
+      "kind": "li",
+      "source": "If the cards you want to select form a continuous sequence within a column, hold __TRILIUM_PH_0__Shift__TRILIUM_PH_1__, click the first card in the sequence, and then click the last card.",
+      "sourceHash": "ed9ca459922a40a9100ed5d6ee75e21de4b67e28b0d25a2d89d8665698d3140a",
+      "context": "Kanban Board > Working with cards > Selecting multiple cards",
+      "contextHash": "2ef341ec41ca92c1b0e8ce9ea762865d3b3d6061c4607f21a3ba3586564d6e69",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_af5f6613f254c99eed31576a_0",
+      "kind": "li",
+      "source": "Press __TRILIUM_PH_0__Esc__TRILIUM_PH_1__ to clear the selection.",
+      "sourceHash": "af5f6613f254c99eed31576a99c7e5c518b3d8c0a3d7f8affac3b0755087af2c",
+      "context": "Kanban Board > Working with cards > Selecting multiple cards",
+      "contextHash": "2ef341ec41ca92c1b0e8ce9ea762865d3b3d6061c4607f21a3ba3586564d6e69",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_fb88c38caa3103f28e647ad7_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__On mobile:__TRILIUM_PH_1__",
+      "sourceHash": "fb88c38caa3103f28e647ad7ae4cf79f2d1f28bcffdaa39237ef03bba9049358",
+      "context": "Kanban Board > Working with cards > Selecting multiple cards",
+      "contextHash": "2ef341ec41ca92c1b0e8ce9ea762865d3b3d6061c4607f21a3ba3586564d6e69",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_64160755d09dae75eeefe337_0",
+      "kind": "li",
+      "source": "To enter selection mode, tap the __TRILIUM_PH_0__ button at the top of the screen. A selection toolbar will appear in the header, displaying “0 cards selected”.",
+      "sourceHash": "64160755d09dae75eeefe33723664754da31079351a30f512cabf8c9c8bb5b24",
+      "context": "Kanban Board > Working with cards > Selecting multiple cards",
+      "contextHash": "2ef341ec41ca92c1b0e8ce9ea762865d3b3d6061c4607f21a3ba3586564d6e69",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_880f56db0b7e1945eedc44b9_0",
+      "kind": "li",
+      "source": "Tap the cards you want to select. If you tap a selected card again, it will be deselected. To select all cards in a column, press the __TRILIUM_PH_0__ button on the selection toolbar. To clear the selection, press the __TRILIUM_PH_1__ button.",
+      "sourceHash": "880f56db0b7e1945eedc44b91c7944769667e56507e33abfc6fd0a62fe3f0813",
+      "context": "Kanban Board > Working with cards > Selecting multiple cards",
+      "contextHash": "2ef341ec41ca92c1b0e8ce9ea762865d3b3d6061c4607f21a3ba3586564d6e69",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_9a0ed2bd7b3d43bebdb7a6b7_0",
+      "kind": "li",
+      "source": "Use the side toolbar to apply actions to the selected cards.",
+      "sourceHash": "9a0ed2bd7b3d43bebdb7a6b78e0fc74338f58250ddbbaa8108dbace20fe84b31",
+      "context": "Kanban Board > Working with cards > Selecting multiple cards",
+      "contextHash": "2ef341ec41ca92c1b0e8ce9ea762865d3b3d6061c4607f21a3ba3586564d6e69",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_5c876c15bfd97699b711afed_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__Using only the keyboard:__TRILIUM_PH_1__",
+      "sourceHash": "5c876c15bfd97699b711afeda1b4d5aac76a5fb6244125a07b3e3855cd5239b9",
+      "context": "Kanban Board > Working with cards > Selecting multiple cards",
+      "contextHash": "2ef341ec41ca92c1b0e8ce9ea762865d3b3d6061c4607f21a3ba3586564d6e69",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_775760b0078de432a6c2129f_0",
+      "kind": "li",
+      "source": "To add the currently focused card to the selection, press __TRILIUM_PH_0__Ctrl__TRILIUM_PH_1__ + __TRILIUM_PH_2__Space__TRILIUM_PH_3__. Repeat this for the other cards you want to select. Pressing __TRILIUM_PH_4__Ctrl__TRILIUM_PH_5__ + __TRILIUM_PH_6__Space__TRILIUM_PH_7__ again on a selected card will deselect it.",
+      "sourceHash": "775760b0078de432a6c2129f2d22aed70fc8d9a2016ed554782711ab3215bf13",
+      "context": "Kanban Board > Working with cards > Selecting multiple cards",
+      "contextHash": "2ef341ec41ca92c1b0e8ce9ea762865d3b3d6061c4607f21a3ba3586564d6e69",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_8b4ecefce5dcc3180a2417dd_0",
+      "kind": "li",
+      "source": "To select a continuous sequence of cards within a column, hold __TRILIUM_PH_0__Shift__TRILIUM_PH_1__ and use the __TRILIUM_PH_2__Up__TRILIUM_PH_3__ and __TRILIUM_PH_4__Down__TRILIUM_PH_5__ arrow keys to expand or shrink the selection.",
+      "sourceHash": "8b4ecefce5dcc3180a2417dda07e761e1c32e39d9640d74c6252f9def1308504",
+      "context": "Kanban Board > Working with cards > Selecting multiple cards",
+      "contextHash": "2ef341ec41ca92c1b0e8ce9ea762865d3b3d6061c4607f21a3ba3586564d6e69",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_fd6c05513795c59795474074_0",
+      "kind": "li",
+      "source": "To select every card in the column the focus is in, press __TRILIUM_PH_0__Ctrl__TRILIUM_PH_1__ + __TRILIUM_PH_2__A__TRILIUM_PH_3__. The same action is available from the column menu, as __TRILIUM_PH_4____TRILIUM_PH_5__Select all cards__TRILIUM_PH_6__.",
+      "sourceHash": "fd6c05513795c597954740746cdbf94b8e5053651c31ac21a55a956bfc72635e",
+      "context": "Kanban Board > Working with cards > Selecting multiple cards",
+      "contextHash": "2ef341ec41ca92c1b0e8ce9ea762865d3b3d6061c4607f21a3ba3586564d6e69",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_af5f6613f254c99eed31576a_1",
+      "kind": "li",
+      "source": "Press __TRILIUM_PH_0__Esc__TRILIUM_PH_1__ to clear the selection.",
+      "sourceHash": "af5f6613f254c99eed31576a99c7e5c518b3d8c0a3d7f8affac3b0755087af2c",
+      "context": "Kanban Board > Working with cards > Selecting multiple cards",
+      "contextHash": "2ef341ec41ca92c1b0e8ce9ea762865d3b3d6061c4607f21a3ba3586564d6e69",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_c7f5fdb27f6e5db5de7b3992_0",
+      "kind": "h3",
+      "source": "Moving cards between columns__TRILIUM_PH_0__",
+      "sourceHash": "c7f5fdb27f6e5db5de7b399291cc1e7906dc1cb8cfa91a1b1fd0b3243a31afea",
+      "context": "Kanban Board > Working with cards > Moving cards between columns",
+      "contextHash": "180c9ffa69de951cf982d97952000e96fa98c98889bdbff810091dca24bec1d8",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_fa8edf9bb13597ee7e66074f_0",
+      "kind": "p",
+      "source": "To move one or more cards to another column, use one of the following methods:",
+      "sourceHash": "fa8edf9bb13597ee7e66074f57956deccf86f35f9b4942f5f10338c064d5600d",
+      "context": "Kanban Board > Working with cards > Moving cards between columns",
+      "contextHash": "180c9ffa69de951cf982d97952000e96fa98c98889bdbff810091dca24bec1d8",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_3755cfb1ad6b3cafd33406f1_0",
+      "kind": "h4",
+      "source": "Using touch or a mouse__TRILIUM_PH_0__",
+      "sourceHash": "3755cfb1ad6b3cafd33406f1b3296e6ed2abed599704872a155a11b11a3d690e",
+      "context": "Kanban Board > Working with cards > Moving cards between columns > Using touch or a mouse",
+      "contextHash": "251a8f730671bc307f17c54689ce1698466321c2c3582991cb8d122206f078a5",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_2aa845181d64d84c2b42a543_0",
+      "kind": "p",
+      "source": "Touch and hold the card, or click and hold it with the mouse, and then drag it to the desired column. If the column uses manual sorting, you can also position the card relative to the other cards.",
+      "sourceHash": "2aa845181d64d84c2b42a543959888bf17fe9a9c2782ae9143ceea6909693c56",
+      "context": "Kanban Board > Working with cards > Moving cards between columns > Using touch or a mouse",
+      "contextHash": "251a8f730671bc307f17c54689ce1698466321c2c3582991cb8d122206f078a5",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_b04b6410d7eb7fb7b60ddd36_0",
+      "kind": "p",
+      "source": "To drag a card outside the board, for example to the note tree, another split, or another window, hold __TRILIUM_PH_0__Ctrl__TRILIUM_PH_1__ and then start dragging.",
+      "sourceHash": "b04b6410d7eb7fb7b60ddd3668cb1f4fff7b0d7a181572ac7ad93ee42159bcf2",
+      "context": "Kanban Board > Working with cards > Moving cards between columns > Using touch or a mouse",
+      "contextHash": "251a8f730671bc307f17c54689ce1698466321c2c3582991cb8d122206f078a5",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_262a5724eae682c43d6e978c_0",
+      "kind": "p",
+      "source": "If the target column is collapsed, you can drop the card onto its header to move it into that column (at the end if manually sorted), without expanding it. However, if you want to reveal its cards before dropping, hold the card over the column for a few seconds; the column will then expand.",
+      "sourceHash": "262a5724eae682c43d6e978ccd8d594ab3016bd8824bd624a1f84ce7561bb1b6",
+      "context": "Kanban Board > Working with cards > Moving cards between columns > Using touch or a mouse",
+      "contextHash": "251a8f730671bc307f17c54689ce1698466321c2c3582991cb8d122206f078a5",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_94107ce85cbc2b6fe2235343_0",
+      "kind": "p",
+      "source": "__TRILIUM_PH_0__You can quickly drop a card at the start or end of a column.__TRILIUM_PH_1__",
+      "sourceHash": "94107ce85cbc2b6fe2235343f34411c9a894683860b8729a8dd0e172bce09e15",
+      "context": "Kanban Board > Working with cards > Moving cards between columns > Using touch or a mouse",
+      "contextHash": "251a8f730671bc307f17c54689ce1698466321c2c3582991cb8d122206f078a5",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_4b95f3a2c0edd57380807865_0",
+      "kind": "p",
+      "source": "Drop the card above the column while the “Drop as the first card” hint is displayed to make it the first card in that column. Alternatively, drop it below the column while the “Drop as the last card” hint is displayed to make it the last card.",
+      "sourceHash": "4b95f3a2c0edd5738080786500e999e044c89a45b9475bde1e5be52012ef272f",
+      "context": "Kanban Board > Working with cards > Moving cards between columns > Using touch or a mouse",
+      "contextHash": "251a8f730671bc307f17c54689ce1698466321c2c3582991cb8d122206f078a5",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_ae70b2f0d21d498195615a04_0",
+      "kind": "h4",
+      "source": "Using the keyboard__TRILIUM_PH_0__",
+      "sourceHash": "ae70b2f0d21d498195615a0453d8f702375779d3a6cdb18eba7b754da0d17e1a",
+      "context": "Kanban Board > Working with cards > Moving cards between columns > Using the keyboard",
+      "contextHash": "36e5c2f64cd5e191a80b5ae2c95c27b8c3a2690371ae3a813fdf5c2d05d50f9c",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_42ee73cd3dab94377347bba1_0",
+      "kind": "p",
+      "source": "You can also use keyboard shortcuts to move the selected card or cards between columns:",
+      "sourceHash": "42ee73cd3dab94377347bba19fee63abe6a86dde323aa26c2ff832a69bcfbd17",
+      "context": "Kanban Board > Working with cards > Moving cards between columns > Using the keyboard",
+      "contextHash": "36e5c2f64cd5e191a80b5ae2c95c27b8c3a2690371ae3a813fdf5c2d05d50f9c",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_5a5d2f1e259da17228fb1791_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__Ctrl__TRILIUM_PH_1__ + __TRILIUM_PH_2__Right__TRILIUM_PH_3__: Move to the next column.",
+      "sourceHash": "5a5d2f1e259da17228fb1791054820ea50f7ab5d4154603c34937720e2e1f337",
+      "context": "Kanban Board > Working with cards > Moving cards between columns > Using the keyboard",
+      "contextHash": "36e5c2f64cd5e191a80b5ae2c95c27b8c3a2690371ae3a813fdf5c2d05d50f9c",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_5698cd159a11bfcab24ef2e7_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__Ctrl__TRILIUM_PH_1__ + __TRILIUM_PH_2__Left__TRILIUM_PH_3__: Move to the previous column.",
+      "sourceHash": "5698cd159a11bfcab24ef2e7cd4b73968b3b3e70748116f878579fdbeb59565b",
+      "context": "Kanban Board > Working with cards > Moving cards between columns > Using the keyboard",
+      "contextHash": "36e5c2f64cd5e191a80b5ae2c95c27b8c3a2690371ae3a813fdf5c2d05d50f9c",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_55fac5081939fed58ea23e90_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__Ctrl__TRILIUM_PH_1__ + __TRILIUM_PH_2__Shift__TRILIUM_PH_3__ + __TRILIUM_PH_4__Right__TRILIUM_PH_5__: Move to the last column.",
+      "sourceHash": "55fac5081939fed58ea23e90169573d1c4d3b648e2d071a9e65279c30ac65867",
+      "context": "Kanban Board > Working with cards > Moving cards between columns > Using the keyboard",
+      "contextHash": "36e5c2f64cd5e191a80b5ae2c95c27b8c3a2690371ae3a813fdf5c2d05d50f9c",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_6ba3e79ba192d85f26caf4d9_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__Ctrl__TRILIUM_PH_1__ + __TRILIUM_PH_2__Shift__TRILIUM_PH_3__ + __TRILIUM_PH_4__Left__TRILIUM_PH_5__: Move to the first column.",
+      "sourceHash": "6ba3e79ba192d85f26caf4d97c08e11b56850d429c081b39cf23b7d8421d2b73",
+      "context": "Kanban Board > Working with cards > Moving cards between columns > Using the keyboard",
+      "contextHash": "36e5c2f64cd5e191a80b5ae2c95c27b8c3a2690371ae3a813fdf5c2d05d50f9c",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_26c0d8323d35c2109b280a18_0",
+      "kind": "h4",
+      "source": "Using the context menu__TRILIUM_PH_0__",
+      "sourceHash": "26c0d8323d35c2109b280a186bf983d76457d896ed75ffbf151198989755c630",
+      "context": "Kanban Board > Working with cards > Moving cards between columns > Using the context menu",
+      "contextHash": "884b3934320b86dfd8c47c1f0019feac04152d114e95baece1475498a90c5a58",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_e0cdddf9d89e483a1a25eab7_0",
+      "kind": "p",
+      "source": "To quickly move a card to another column, open the card's context menu and select the destination column. The menu lists the first seven columns; on a wider board, the remaining ones are grouped under __TRILIUM_PH_0__More…__TRILIUM_PH_1__.",
+      "sourceHash": "e0cdddf9d89e483a1a25eab785acf08500037d6a120faaf5a434ef86ba6777d2",
+      "context": "Kanban Board > Working with cards > Moving cards between columns > Using the context menu",
+      "contextHash": "884b3934320b86dfd8c47c1f0019feac04152d114e95baece1475498a90c5a58",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_97bb946c0007dd7250245c6e_0",
+      "kind": "h3",
+      "source": "Reordering cards within a column__TRILIUM_PH_0__",
+      "sourceHash": "97bb946c0007dd7250245c6ef1c3fef76387cbb340305a7845648a43bc8711ad",
+      "context": "Kanban Board > Working with cards > Reordering cards within a column",
+      "contextHash": "0e34f6a6f4ab807eba81854a7aabb7d96f33afe1093145c0f6c2ef76ae6c060a",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_8696e5261b2ce21d4813b8a4_0",
+      "kind": "p",
+      "source": "Cards within a column can be freely reordered unless the column uses a sorting option other than manual. To reposition a card, drag it as described in the __TRILIUM_PH_0__Moving cards between columns__TRILIUM_PH_1__ section and drop it at the desired position.",
+      "sourceHash": "8696e5261b2ce21d4813b8a4765be82c3fc8a222b2866fed93b39c30d02aa7df",
+      "context": "Kanban Board > Working with cards > Reordering cards within a column",
+      "contextHash": "0e34f6a6f4ab807eba81854a7aabb7d96f33afe1093145c0f6c2ef76ae6c060a",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_89f66b801afee989190029df_0",
+      "kind": "p",
+      "source": "Alternatively, you can use keyboard shortcuts to move the selected card or cards:",
+      "sourceHash": "89f66b801afee989190029df7e9993f7a3f69e483a5f8d28d0a5d2d67151a785",
+      "context": "Kanban Board > Working with cards > Reordering cards within a column",
+      "contextHash": "0e34f6a6f4ab807eba81854a7aabb7d96f33afe1093145c0f6c2ef76ae6c060a",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_f25b2781c11f3619c4aa7773_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__Ctrl__TRILIUM_PH_1__ + __TRILIUM_PH_2__Up__TRILIUM_PH_3__: Move up.",
+      "sourceHash": "f25b2781c11f3619c4aa7773a000937cae91f45211769350a1a861e79169c783",
+      "context": "Kanban Board > Working with cards > Reordering cards within a column",
+      "contextHash": "0e34f6a6f4ab807eba81854a7aabb7d96f33afe1093145c0f6c2ef76ae6c060a",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_efdde19c1cf157b9a9abb167_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__Ctrl__TRILIUM_PH_1__ + __TRILIUM_PH_2__Down__TRILIUM_PH_3__: Move down.",
+      "sourceHash": "efdde19c1cf157b9a9abb1673e0830277c84f70d85707af6c05fa0ccd9ec096d",
+      "context": "Kanban Board > Working with cards > Reordering cards within a column",
+      "contextHash": "0e34f6a6f4ab807eba81854a7aabb7d96f33afe1093145c0f6c2ef76ae6c060a",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_0a392ebec829e730dd9555a0_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__Ctrl__TRILIUM_PH_1__ + __TRILIUM_PH_2__Home__TRILIUM_PH_3__: Move to the top of the column.",
+      "sourceHash": "0a392ebec829e730dd9555a0ed747d2499653bf14d940653289cbcd1359408ff",
+      "context": "Kanban Board > Working with cards > Reordering cards within a column",
+      "contextHash": "0e34f6a6f4ab807eba81854a7aabb7d96f33afe1093145c0f6c2ef76ae6c060a",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_0d29ce14b1c400f2ebdf17b4_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__Ctrl__TRILIUM_PH_1__ + __TRILIUM_PH_2__End__TRILIUM_PH_3__: Move to the end of the column.",
+      "sourceHash": "0d29ce14b1c400f2ebdf17b44f4eee4a72b869de23eecc0a191a487760106111",
+      "context": "Kanban Board > Working with cards > Reordering cards within a column",
+      "contextHash": "0e34f6a6f4ab807eba81854a7aabb7d96f33afe1093145c0f6c2ef76ae6c060a",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_28803d99e4f3f0a332a667ad_0",
+      "kind": "p",
+      "source": "If multiple cards are selected, the keyboard shortcuts work only if the selection consists of a continuous sequence of cards.",
+      "sourceHash": "28803d99e4f3f0a332a667ad31f5000768b5ce90c794d1c5e26e7b09770047ac",
+      "context": "Kanban Board > Working with cards > Reordering cards within a column",
+      "contextHash": "0e34f6a6f4ab807eba81854a7aabb7d96f33afe1093145c0f6c2ef76ae6c060a",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_4c32877b11d92aa58bce34c8_0",
+      "kind": "h3",
+      "source": "Editing a card__TRILIUM_PH_0__",
+      "sourceHash": "4c32877b11d92aa58bce34c8230595047fed95518ffd8975eefdd7cd6fecd86d",
+      "context": "Kanban Board > Working with cards > Editing a card",
+      "contextHash": "f027abe5efefda8ac1d0885a199324287c38e467b361e2139e2c9f2a33444f67",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_7c9eeaee34e30c7bfb9c5b17_0",
+      "kind": "p",
+      "source": "Every card on a board is a regular note. To edit the note associated with a card, click or tap the card, or press __TRILIUM_PH_0__Space__TRILIUM_PH_1__ when the card is selected. The note will open in a Quick Edit dialog, where you can modify it. You can also open the note in a new tab, split, or window by using the __TRILIUM_PH_2__ __TRILIUM_PH_3__Open note__TRILIUM_PH_4__ submenu in the card's context menu. To open the note in a new tab on the desktop version, you can also click or tap the __TRILIUM_PH_5__ __TRILIUM_PH_6__Open note__TRILIUM_PH_7__ menu item directly, without opening its submenu.",
+      "sourceHash": "7c9eeaee34e30c7bfb9c5b174eaaae1bf54068d1d19f034ced2d2743501d9545",
+      "context": "Kanban Board > Working with cards > Editing a card",
+      "contextHash": "f027abe5efefda8ac1d0885a199324287c38e467b361e2139e2c9f2a33444f67",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_15d8bbe074340f82de195746_0",
+      "kind": "p",
+      "source": "To change the title or icon of a card, use one of the following methods:",
+      "sourceHash": "15d8bbe074340f82de195746d58db02be91a140a3c1f704fac05fbc4cad8a151",
+      "context": "Kanban Board > Working with cards > Editing a card",
+      "contextHash": "f027abe5efefda8ac1d0885a199324287c38e467b361e2139e2c9f2a33444f67",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_565848eae03664699a2c0b69_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__Using a mouse:__TRILIUM_PH_1__ Place the mouse pointer over the card, and then click the __TRILIUM_PH_2__ button.",
+      "sourceHash": "565848eae03664699a2c0b697f1716f362095d0083d1590fcd139c94147fe64f",
+      "context": "Kanban Board > Working with cards > Editing a card",
+      "contextHash": "f027abe5efefda8ac1d0885a199324287c38e467b361e2139e2c9f2a33444f67",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_593bbb4febe2d4c92f32a20d_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__On mobile:__TRILIUM_PH_1__ Hold the card until the side toolbar appears, and then tap the __TRILIUM_PH_2__ button.",
+      "sourceHash": "593bbb4febe2d4c92f32a20d30a7fe99661902976f280eae86512d8290340d39",
+      "context": "Kanban Board > Working with cards > Editing a card",
+      "contextHash": "f027abe5efefda8ac1d0885a199324287c38e467b361e2139e2c9f2a33444f67",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_8d0c879b228f14b86b0853e2_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__Using the keyboard:__TRILIUM_PH_1__ Select a card, and then press __TRILIUM_PH_2__F2__TRILIUM_PH_3__.",
+      "sourceHash": "8d0c879b228f14b86b0853e203f59f64cfd87842fec722b2f9f0b9b0b0808e87",
+      "context": "Kanban Board > Working with cards > Editing a card",
+      "contextHash": "f027abe5efefda8ac1d0885a199324287c38e467b361e2139e2c9f2a33444f67",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_0b60d4b436338f5efe956794_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__Using the context menu:__TRILIUM_PH_1__ Open the card's context menu and select __TRILIUM_PH_2__ __TRILIUM_PH_3__Edit title & icon__TRILIUM_PH_4__.",
+      "sourceHash": "0b60d4b436338f5efe956794c864acca57a5596b490ad6888f15437a6b10a42f",
+      "context": "Kanban Board > Working with cards > Editing a card",
+      "contextHash": "f027abe5efefda8ac1d0885a199324287c38e467b361e2139e2c9f2a33444f67",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_36829d3cc8a27397f1f20029_0",
+      "kind": "p",
+      "source": "You can then enter a new name and select another icon. To move the keyboard focus from the title field to the icon selector, press __TRILIUM_PH_0__Shift__TRILIUM_PH_1__ + __TRILIUM_PH_2__Tab__TRILIUM_PH_3__. Click or tap anywhere outside the card, or press __TRILIUM_PH_4__Enter__TRILIUM_PH_5__, to apply the change. Press __TRILIUM_PH_6__Esc__TRILIUM_PH_7__ to discard the changes.",
+      "sourceHash": "36829d3cc8a27397f1f200291189ce1b93d16fbd0cd57d6d4930576df369a401",
+      "context": "Kanban Board > Working with cards > Editing a card",
+      "contextHash": "f027abe5efefda8ac1d0885a199324287c38e467b361e2139e2c9f2a33444f67",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_08efd32cc763eef11acc87d5_0",
+      "kind": "p",
+      "source": "Each card can be tinted with a different color. Open the card's context menu and select the desired color. If no color is assigned, the card inherits the column color.",
+      "sourceHash": "08efd32cc763eef11acc87d530cc3f11cb8d034c7f52331a98e669ba9e2ba023",
+      "context": "Kanban Board > Working with cards > Editing a card",
+      "contextHash": "f027abe5efefda8ac1d0885a199324287c38e467b361e2139e2c9f2a33444f67",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_d9ec8e6c18af4c8055272dc3_0",
+      "kind": "p",
+      "source": "The title, icon, and color of a card are the same as those of the corresponding note. If that note exists in multiple locations in the tree, any change to its title, icon, or color on the board will apply in those locations as well, not only on the board.",
+      "sourceHash": "d9ec8e6c18af4c8055272dc3a2f827b9995395adbd7073d88692d8acf3347ac7",
+      "context": "Kanban Board > Working with cards > Editing a card",
+      "contextHash": "f027abe5efefda8ac1d0885a199324287c38e467b361e2139e2c9f2a33444f67",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_ce911ecb4627258facd6edbe_0",
+      "kind": "h3",
+      "source": "Archiving a card__TRILIUM_PH_0__",
+      "sourceHash": "ce911ecb4627258facd6edbe06ae6bf9167cd490a4add683c7c395968ce4c879",
+      "context": "Kanban Board > Working with cards > Archiving a card",
+      "contextHash": "c399e37cd9765d9ab49d5ffb5f91dbe8dba66ae272bb08019003d634a6a22adc",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_08eca93fab1265b3ca03a9c7_0",
+      "kind": "p",
+      "source": "A card can be hidden from the board without deleting it by using the __TRILIUM_PH_0__ __TRILIUM_PH_1__Archive note__TRILIUM_PH_2__ command from the card's context menu.",
+      "sourceHash": "08eca93fab1265b3ca03a9c79e5a730303b091298662d5533ad3b54e278c8aed",
+      "context": "Kanban Board > Working with cards > Archiving a card",
+      "contextHash": "c399e37cd9765d9ab49d5ffb5f91dbe8dba66ae272bb08019003d634a6a22adc",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_ae805a62c4a9f6e32fdcfc00_0",
+      "kind": "p",
+      "source": "To show archived cards again, go to __TRILIUM_PH_0__ __TRILIUM_PH_1__Collection options__TRILIUM_PH_2__ and toggle __TRILIUM_PH_3__ __TRILIUM_PH_4__Show archived notes__TRILIUM_PH_5__, or turn on __TRILIUM_PH_6__Show archived cards and columns__TRILIUM_PH_7__ in __TRILIUM_PH_8__Note menu__TRILIUM_PH_9__ → __TRILIUM_PH_10__Board properties__TRILIUM_PH_11__ (under the __TRILIUM_PH_12__Included notes__TRILIUM_PH_13__ section). Archived cards will appear faded. To restore one, open its context menu and select __TRILIUM_PH_14__ __TRILIUM_PH_15__Unarchive note__TRILIUM_PH_16__.",
+      "sourceHash": "ae805a62c4a9f6e32fdcfc00b07b72e4998debe7cf23d654e7908f41cc7a28d1",
+      "context": "Kanban Board > Working with cards > Archiving a card",
+      "contextHash": "c399e37cd9765d9ab49d5ffb5f91dbe8dba66ae272bb08019003d634a6a22adc",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_a5ba4b4cae59bfb2a06ebefb_0",
+      "kind": "p",
+      "source": "Archiving a card sets the __TRILIUM_PH_0__ flag on its note. If the note exists in multiple locations in the tree, it will appear archived in those locations as well. Read more about __TRILIUM_PH_1__Archived Notes__TRILIUM_PH_2__.",
+      "sourceHash": "a5ba4b4cae59bfb2a06ebefba61adce11ffc56a1ff273b2cf747b8180a7af633",
+      "context": "Kanban Board > Working with cards > Archiving a card",
+      "contextHash": "c399e37cd9765d9ab49d5ffb5f91dbe8dba66ae272bb08019003d634a6a22adc",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_7fd59017111abb0a87b78386_0",
+      "kind": "h3",
+      "source": "Deleting a card__TRILIUM_PH_0__",
+      "sourceHash": "7fd59017111abb0a87b78386b2898a2b1b90192ef0bcd267feb38c725bdf2217",
+      "context": "Kanban Board > Working with cards > Deleting a card",
+      "contextHash": "2162f0fed1465331ee4150fa502a33067b08848a27ff3b538562f415be844a92",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_f563d630a074deb017dabeb1_0",
+      "kind": "p",
+      "source": "You can remove one or more cards from the board and delete their associated notes by using the __TRILIUM_PH_0__ __TRILIUM_PH_1__Delete note…__TRILIUM_PH_2__ command from the card's context menu, or by pressing __TRILIUM_PH_3__Shift__TRILIUM_PH_4__ + __TRILIUM_PH_5__Delete__TRILIUM_PH_6__. On mobile, hold the card until the side toolbar appears, and then tap the __TRILIUM_PH_7__ button.",
+      "sourceHash": "f563d630a074deb017dabeb1f6f77ff7312d0164ea942cabec67fc4a50fb6ab8",
+      "context": "Kanban Board > Working with cards > Deleting a card",
+      "contextHash": "2162f0fed1465331ee4150fa502a33067b08848a27ff3b538562f415be844a92",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_99bd4032d4120772f8864a76_0",
+      "kind": "h4",
+      "source": "Removing a card from the board without deleting the note__TRILIUM_PH_0__",
+      "sourceHash": "99bd4032d4120772f8864a765ed6a700d099e03e7723a1c4a51790c19449018b",
+      "context": "Kanban Board > Working with cards > Deleting a card > Removing a card from the board without deleting the note",
+      "contextHash": "edcdb5eb808221105a1d0747e0daf5e9642c83bc0278db759cddf2a40d0bb188",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_ed444f17d9519e10427b183a_0",
+      "kind": "p",
+      "source": "To remove a card from the board's columns while keeping its note, open the card's context menu and select __TRILIUM_PH_0__ __TRILIUM_PH_1__Remove from column__TRILIUM_PH_2__, or press __TRILIUM_PH_3__Delete__TRILIUM_PH_4__. On mobile, hold the card until the side toolbar appears, and then tap the __TRILIUM_PH_5__ button.",
+      "sourceHash": "ed444f17d9519e10427b183a30dd225b9650c99c0f3421c6bf93ce05c644b7b5",
+      "context": "Kanban Board > Working with cards > Deleting a card > Removing a card from the board without deleting the note",
+      "contextHash": "edcdb5eb808221105a1d0747e0daf5e9642c83bc0278db759cddf2a40d0bb188",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_9bc27660090a07b2159992bd_0",
+      "kind": "p",
+      "source": "This command is not available when the inbox column is enabled. Instead, drag the card to the inbox column to achieve the same result.",
+      "sourceHash": "9bc27660090a07b2159992bd038860a0b86b0fa20df36e5b706d64ffe1796c37",
+      "context": "Kanban Board > Working with cards > Deleting a card > Removing a card from the board without deleting the note",
+      "contextHash": "edcdb5eb808221105a1d0747e0daf5e9642c83bc0278db759cddf2a40d0bb188",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_a45aa8f54ca0b0bc0ad0c403_0",
+      "kind": "p",
+      "source": "The note remains in the board collection but is not assigned to any column. To see it on the board again, enable the inbox column.",
+      "sourceHash": "a45aa8f54ca0b0bc0ad0c403aff9fda9f7e556b97775a5553bc8f117f3c8cd49",
+      "context": "Kanban Board > Working with cards > Deleting a card > Removing a card from the board without deleting the note",
+      "contextHash": "edcdb5eb808221105a1d0747e0daf5e9642c83bc0278db759cddf2a40d0bb188",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_80b845f461f6cb4e7bdf5827_0",
+      "kind": "p",
+      "source": "Under the hood, removing a card simply unsets the note's grouping attribute.",
+      "sourceHash": "80b845f461f6cb4e7bdf58271ade77a2207540e10ad60bae214c407128a7e2df",
+      "context": "Kanban Board > Working with cards > Deleting a card > Removing a card from the board without deleting the note",
+      "contextHash": "edcdb5eb808221105a1d0747e0daf5e9642c83bc0278db759cddf2a40d0bb188",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_f01392527d38c4c483e96ef1_0",
+      "kind": "h3",
+      "source": "Working with custom card attributes__TRILIUM_PH_0__",
+      "sourceHash": "f01392527d38c4c483e96ef15b2f5b4f08fb0b7223a994eaeed3253f830cee36",
+      "context": "Kanban Board > Working with cards > Working with custom card attributes",
+      "contextHash": "3e813a76eea81f199589e1d946396a2eb24a6744caa660476cd307185bed6d18",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_cbc1c2283ebb6524da680369_0",
+      "kind": "p",
+      "source": "By default, the face of a card displays a minimal set of information: the title, icon, and color. In some cases, this may not provide enough useful information at a glance. You can extend the card to display extra information, called card attributes, such as a due date, priority, completion status, or any other information you need. Card attributes use the same principles as __TRILIUM_PH_0__Promoted Attributes__TRILIUM_PH_1__.",
+      "sourceHash": "cbc1c2283ebb6524da680369b9bc585263c7a461cc0a44af60614c6cddbdac51",
+      "context": "Kanban Board > Working with cards > Working with custom card attributes",
+      "contextHash": "3e813a76eea81f199589e1d946396a2eb24a6744caa660476cd307185bed6d18",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_b8303aefb5244931b041f6c5_0",
+      "kind": "h4",
+      "source": "Creating a new attribute__TRILIUM_PH_0__",
+      "sourceHash": "b8303aefb5244931b041f6c5a42aaa29afc9c8212516142b7528e548a4590d7b",
+      "context": "Kanban Board > Working with cards > Working with custom card attributes > Creating a new attribute",
+      "contextHash": "65272431ebc51ccb0d6ccad37ef4581c3263f73b3cb40783f9707c000784f0f1",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_be70791ee9e7a30ec073bad7_0",
+      "kind": "p",
+      "source": "To create a new attribute, follow these steps:",
+      "sourceHash": "be70791ee9e7a30ec073bad7dc4c7eb33cba9453fefeb17305acfac32f13165e",
+      "context": "Kanban Board > Working with cards > Working with custom card attributes > Creating a new attribute",
+      "contextHash": "65272431ebc51ccb0d6ccad37ef4581c3263f73b3cb40783f9707c000784f0f1",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_66a1b0a49a118447537ff235_0",
+      "kind": "li",
+      "source": "Go to __TRILIUM_PH_0__Note menu__TRILIUM_PH_1__ → __TRILIUM_PH_2__Board properties__TRILIUM_PH_3__, find the __TRILIUM_PH_4__Card attributes__TRILIUM_PH_5__ section, and then press the __TRILIUM_PH_6__ __TRILIUM_PH_7__Create a new attribute__TRILIUM_PH_8__ button.",
+      "sourceHash": "66a1b0a49a118447537ff2355aca9686c2f99a9339fece0b1e4724f9e6a65f8f",
+      "context": "Kanban Board > Working with cards > Working with custom card attributes > Creating a new attribute",
+      "contextHash": "65272431ebc51ccb0d6ccad37ef4581c3263f73b3cb40783f9707c000784f0f1",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_a6cc78b554138e44d139e6b0_0",
+      "kind": "li",
+      "source": "Enter a name for the attribute. This is the internal name used by Trilium, so do not use spaces or special characters.",
+      "sourceHash": "a6cc78b554138e44d139e6b03d1feec02c7c38a19d408641072b794319245654",
+      "context": "Kanban Board > Working with cards > Working with custom card attributes > Creating a new attribute",
+      "contextHash": "65272431ebc51ccb0d6ccad37ef4581c3263f73b3cb40783f9707c000784f0f1",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_860bf88d6ef46b1d31467bb6_0",
+      "kind": "li",
+      "source": "Select a type (text, number, checkbox, and so on).",
+      "sourceHash": "860bf88d6ef46b1d31467bb68fddf0def8ef13134560467c32a3a60889a5c1a6",
+      "context": "Kanban Board > Working with cards > Working with custom card attributes > Creating a new attribute",
+      "contextHash": "65272431ebc51ccb0d6ccad37ef4581c3263f73b3cb40783f9707c000784f0f1",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_29b03e125a564827a5503a2d_0",
+      "kind": "li",
+      "source": "Set the display name. This is the name shown on the card.",
+      "sourceHash": "29b03e125a564827a5503a2da14535f2aa5f35543c60a7eeed9e6fa1973f2be0",
+      "context": "Kanban Board > Working with cards > Working with custom card attributes > Creating a new attribute",
+      "contextHash": "65272431ebc51ccb0d6ccad37ef4581c3263f73b3cb40783f9707c000784f0f1",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_00928b69adac8dac2f797f86_0",
+      "kind": "li",
+      "source": "Press __TRILIUM_PH_0__Save & close__TRILIUM_PH_1__.",
+      "sourceHash": "00928b69adac8dac2f797f86ef05493c84013704b21176ae3c5f65692d201963",
+      "context": "Kanban Board > Working with cards > Working with custom card attributes > Creating a new attribute",
+      "contextHash": "65272431ebc51ccb0d6ccad37ef4581c3263f73b3cb40783f9707c000784f0f1",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_c8f4c9a11e9f50f169cdf5a3_0",
+      "kind": "p",
+      "source": "For each newly created attribute, Trilium creates an attribute definition on the board collection note. A card displays the attributes declared as inheritable on the board note, as well as any attribute the card gets a definition for from elsewhere, for example through __TRILIUM_PH_0__Templates__TRILIUM_PH_1__ or another parent note it is cloned under. Attributes that only the cards define are listed after the board's own.",
+      "sourceHash": "c8f4c9a11e9f50f169cdf5a3c361fe33cb58b1439733bfd0649a375aff196692",
+      "context": "Kanban Board > Working with cards > Working with custom card attributes > Creating a new attribute",
+      "contextHash": "65272431ebc51ccb0d6ccad37ef4581c3263f73b3cb40783f9707c000784f0f1",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_1c8c1164124add2aafc0d180_0",
+      "kind": "p",
+      "source": "Here is an example of the attributes you can define for a typical Kanban board used to track tasks:",
+      "sourceHash": "1c8c1164124add2aafc0d180a8c49856b791a956af581fb856b550a264becda9",
+      "context": "Kanban Board > Working with cards > Working with custom card attributes > Creating a new attribute",
+      "contextHash": "65272431ebc51ccb0d6ccad37ef4581c3263f73b3cb40783f9707c000784f0f1",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_b4f70d60b963bd2b605ab20f_0",
+      "kind": "th",
+      "source": "Attribute name",
+      "sourceHash": "b4f70d60b963bd2b605ab20f8672293f27ec9c9c88b2b9e47877079f1e4ebc2e",
+      "context": "Kanban Board > Working with cards > Working with custom card attributes > Creating a new attribute",
+      "contextHash": "65272431ebc51ccb0d6ccad37ef4581c3263f73b3cb40783f9707c000784f0f1",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_ef0a1d15dc4b6e9b8c286835_1",
+      "kind": "th",
+      "source": "Attribute type",
+      "sourceHash": "ef0a1d15dc4b6e9b8c286835889de4d13e96eec1203ad8819e7730b49aceb131",
+      "context": "Kanban Board > Working with cards > Working with custom card attributes > Creating a new attribute",
+      "contextHash": "65272431ebc51ccb0d6ccad37ef4581c3263f73b3cb40783f9707c000784f0f1",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_f49c11d68aacfb934061a468_0",
+      "kind": "th",
+      "source": "Attribute display name",
+      "sourceHash": "f49c11d68aacfb934061a468209014b4aa01f4b882d48dffe0d1d7e3f0e08316",
+      "context": "Kanban Board > Working with cards > Working with custom card attributes > Creating a new attribute",
+      "contextHash": "65272431ebc51ccb0d6ccad37ef4581c3263f73b3cb40783f9707c000784f0f1",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_de58755621f4dba2a8c6021b_0",
+      "kind": "td",
+      "source": "dueDate",
+      "sourceHash": "de58755621f4dba2a8c6021b01c5fca4201d53b9048c0e9dfa14f8c3573ff97c",
+      "context": "Kanban Board > Working with cards > Working with custom card attributes > Creating a new attribute",
+      "contextHash": "65272431ebc51ccb0d6ccad37ef4581c3263f73b3cb40783f9707c000784f0f1",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_8609b1f10dd53b85cd8677dd_0",
+      "kind": "td",
+      "source": "Date & Time",
+      "sourceHash": "8609b1f10dd53b85cd8677dda1a44908754af7b962d3ac2cab97600d1b48e054",
+      "context": "Kanban Board > Working with cards > Working with custom card attributes > Creating a new attribute",
+      "contextHash": "65272431ebc51ccb0d6ccad37ef4581c3263f73b3cb40783f9707c000784f0f1",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_70b8fdb63f405b5c6466ccc5_0",
+      "kind": "td",
+      "source": "Due date",
+      "sourceHash": "70b8fdb63f405b5c6466ccc5700fa449ae1011d6d10cb617c08b214b2cb65706",
+      "context": "Kanban Board > Working with cards > Working with custom card attributes > Creating a new attribute",
+      "contextHash": "65272431ebc51ccb0d6ccad37ef4581c3263f73b3cb40783f9707c000784f0f1",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_001a899f218559e042888868_0",
+      "kind": "td",
+      "source": "priority",
+      "sourceHash": "001a899f218559e04288886854d432eeccc42bdac05959622109aedd887d56a3",
+      "context": "Kanban Board > Working with cards > Working with custom card attributes > Creating a new attribute",
+      "contextHash": "65272431ebc51ccb0d6ccad37ef4581c3263f73b3cb40783f9707c000784f0f1",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_18bd65ba6bbca20e070b5dc5_0",
+      "kind": "td",
+      "source": "Select (options: Low, Medium, High, Urgent)",
+      "sourceHash": "18bd65ba6bbca20e070b5dc547548bd033f4979eae1eb37c0c9c6d6e11d55413",
+      "context": "Kanban Board > Working with cards > Working with custom card attributes > Creating a new attribute",
+      "contextHash": "65272431ebc51ccb0d6ccad37ef4581c3263f73b3cb40783f9707c000784f0f1",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_69a04c713ae5456062c522d1_0",
+      "kind": "td",
+      "source": "Priority",
+      "sourceHash": "69a04c713ae5456062c522d1959a71b9626df6d9112dcf20449ea41aa97f0410",
+      "context": "Kanban Board > Working with cards > Working with custom card attributes > Creating a new attribute",
+      "contextHash": "65272431ebc51ccb0d6ccad37ef4581c3263f73b3cb40783f9707c000784f0f1",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_d49009886330c8c372cde90a_0",
+      "kind": "td",
+      "source": "done",
+      "sourceHash": "d49009886330c8c372cde90a52a030bef953bcc9630ee75d907a3d118f339191",
+      "context": "Kanban Board > Working with cards > Working with custom card attributes > Creating a new attribute",
+      "contextHash": "65272431ebc51ccb0d6ccad37ef4581c3263f73b3cb40783f9707c000784f0f1",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_b3a4844711b69b5681840801_1",
+      "kind": "td",
+      "source": "Checkbox",
+      "sourceHash": "b3a4844711b69b56818408018e978fb7624aded0af80e1993a4ff20299a0b351",
+      "context": "Kanban Board > Working with cards > Working with custom card attributes > Creating a new attribute",
+      "contextHash": "65272431ebc51ccb0d6ccad37ef4581c3263f73b3cb40783f9707c000784f0f1",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_cd3101066868b1b858253d69_0",
+      "kind": "td",
+      "source": "Done",
+      "sourceHash": "cd3101066868b1b858253d69a17420c58b370e1b80bc2396c763bc7d8da6d992",
+      "context": "Kanban Board > Working with cards > Working with custom card attributes > Creating a new attribute",
+      "contextHash": "65272431ebc51ccb0d6ccad37ef4581c3263f73b3cb40783f9707c000784f0f1",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_b56068de18ba6cbb49a127f2_0",
+      "kind": "h4",
+      "source": "Modifying the values of custom attributes__TRILIUM_PH_0__",
+      "sourceHash": "b56068de18ba6cbb49a127f28f4bd87fe23c75f87ca11f2a03af1010d6b4c31f",
+      "context": "Kanban Board > Working with cards > Working with custom card attributes > Modifying the values of custom attributes",
+      "contextHash": "7689dcc3b1866f645e71dbf9d5d4955255f60aa5d8f13a15b02937824e5f235a",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_644a01ae8eb6165e82b1c691_0",
+      "kind": "p",
+      "source": "To set the value of a custom attribute, click or tap the card, and then enter or select the desired value in the dialog header.",
+      "sourceHash": "644a01ae8eb6165e82b1c691bfd37a6cf79a26a45519d9ff3823976b253f46c7",
+      "context": "Kanban Board > Working with cards > Working with custom card attributes > Modifying the values of custom attributes",
+      "contextHash": "7689dcc3b1866f645e71dbf9d5d4955255f60aa5d8f13a15b02937824e5f235a",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_960bf43ab86de06987870961_0",
+      "kind": "p",
+      "source": "For attributes of the “select”, “checkbox” or “date” type, you can quickly change the value by using the card's context menu under the __TRILIUM_PH_0__Attributes__TRILIUM_PH_1__ section. A date attribute's submenu offers __TRILIUM_PH_2__Not set__TRILIUM_PH_3__ to clear the value, and a date picker: a calendar to pick any day, with buttons below it for __TRILIUM_PH_4__Today__TRILIUM_PH_5__, __TRILIUM_PH_6__Tomorrow__TRILIUM_PH_7__ and __TRILIUM_PH_8__Next week__TRILIUM_PH_9__ (the first day of next week, as set in the first day of the week option). Use the arrows to change the month, and click a day to set it. From the keyboard, the arrow keys move by day and week, __TRILIUM_PH_10__Page Up__TRILIUM_PH_11__ and __TRILIUM_PH_12__Page Down__TRILIUM_PH_13__ by month, and __TRILIUM_PH_14__Enter__TRILIUM_PH_15__ sets the day; __TRILIUM_PH_16__↓__TRILIUM_PH_17__ from the last week moves to the buttons, __TRILIUM_PH_18__←__TRILIUM_PH_19__ and __TRILIUM_PH_20__→__TRILIUM_PH_21__ move between them, and __TRILIUM_PH_22__↑__TRILIUM_PH_23__ returns to the calendar.",
+      "sourceHash": "960bf43ab86de06987870961ed9c269ccf9b631f91b1396b36c5f0498c5dc1b2",
+      "context": "Kanban Board > Working with cards > Working with custom card attributes > Modifying the values of custom attributes",
+      "contextHash": "7689dcc3b1866f645e71dbf9d5d4955255f60aa5d8f13a15b02937824e5f235a",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_20b4b95bd65ff55a01ff0784_0",
+      "kind": "h4",
+      "source": "Reordering, hiding, redefining, and deleting custom attributes__TRILIUM_PH_0__",
+      "sourceHash": "20b4b95bd65ff55a01ff07846307f6c982078e7dda8454b8854c2de7900b85d6",
+      "context": "Kanban Board > Working with cards > Working with custom card attributes > Reordering, hiding, redefining, and deleting custom attributes",
+      "contextHash": "0cbbe6a036d572aee1828b1c846fa51ff4e2f9888a5b1a1814676f3513f6b97a",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_75f76fb575a0d3714f6a84c6_0",
+      "kind": "p",
+      "source": "Go to __TRILIUM_PH_0__Note menu__TRILIUM_PH_1__ → __TRILIUM_PH_2__Board properties__TRILIUM_PH_3__. Under the __TRILIUM_PH_4__Card attributes__TRILIUM_PH_5__ section, you can:",
+      "sourceHash": "75f76fb575a0d3714f6a84c6f913fabcbe942c9f9121434dca7264295e73d659",
+      "context": "Kanban Board > Working with cards > Working with custom card attributes > Reordering, hiding, redefining, and deleting custom attributes",
+      "contextHash": "0cbbe6a036d572aee1828b1c846fa51ff4e2f9888a5b1a1814676f3513f6b97a",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_2b1123f02154f30e9e3bcbe3_0",
+      "kind": "li",
+      "source": "Hold the __TRILIUM_PH_0__=__TRILIUM_PH_1__ handle shown beside an attribute, and then drag the item up or down to reorder the attributes. This determines the order in which the attributes are displayed on the card.",
+      "sourceHash": "2b1123f02154f30e9e3bcbe37d15509cfd94c0fd3f09f018cb08377da6743abd",
+      "context": "Kanban Board > Working with cards > Working with custom card attributes > Reordering, hiding, redefining, and deleting custom attributes",
+      "contextHash": "0cbbe6a036d572aee1828b1c846fa51ff4e2f9888a5b1a1814676f3513f6b97a",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_9b691297d7d7714899beab84_0",
+      "kind": "li",
+      "source": "Turn off the toggle to hide an attribute from the card's face. The attribute remains available when you edit the card. For the current grouping attribute, the toggle is disabled.",
+      "sourceHash": "9b691297d7d7714899beab84e97ff5b5c113e4c00e7a1d044062ed940e4fdee0",
+      "context": "Kanban Board > Working with cards > Working with custom card attributes > Reordering, hiding, redefining, and deleting custom attributes",
+      "contextHash": "0cbbe6a036d572aee1828b1c846fa51ff4e2f9888a5b1a1814676f3513f6b97a",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_a0b82a8f397b1a9ee80dc4c5_0",
+      "kind": "li",
+      "source": "Press the __TRILIUM_PH_0__ button to modify the definition of an attribute.",
+      "sourceHash": "a0b82a8f397b1a9ee80dc4c542c515953368735a8626bc5b8813aabf423aa906",
+      "context": "Kanban Board > Working with cards > Working with custom card attributes > Reordering, hiding, redefining, and deleting custom attributes",
+      "contextHash": "0cbbe6a036d572aee1828b1c846fa51ff4e2f9888a5b1a1814676f3513f6b97a",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_c9a03d99e6784c9d2ab136f9_0",
+      "kind": "li",
+      "source": "Press the __TRILIUM_PH_0__ button to delete the attribute and all its values from every note in the board collection.",
+      "sourceHash": "c9a03d99e6784c9d2ab136f93b6e1729f3cb85d3ae88eaa44e9290c3357cc9d5",
+      "context": "Kanban Board > Working with cards > Working with custom card attributes > Reordering, hiding, redefining, and deleting custom attributes",
+      "contextHash": "0cbbe6a036d572aee1828b1c846fa51ff4e2f9888a5b1a1814676f3513f6b97a",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_10b9cd4b5a595bf864ea7692_0",
+      "kind": "p",
+      "source": "Attributes that the cards get from a template or another parent note can be reordered and hidden here, but not modified or deleted. Edit them on the note that defines them.",
+      "sourceHash": "10b9cd4b5a595bf864ea76925a248f9d0c27600cf6f678712dcea308c7846e7c",
+      "context": "Kanban Board > Working with cards > Working with custom card attributes > Reordering, hiding, redefining, and deleting custom attributes",
+      "contextHash": "0cbbe6a036d572aee1828b1c846fa51ff4e2f9888a5b1a1814676f3513f6b97a",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_9b06ad0f96bda339980ce79d_0",
+      "kind": "p",
+      "source": "If cards define an attribute with the same name but a different type or different select options, for example through two different templates, or if a card overrides the board's definition with its own, the attribute is marked __TRILIUM_PH_0__Multiple definitions__TRILIUM_PH_1__. Such an attribute is sorted as text and does not appear in the card's context menu.",
+      "sourceHash": "9b06ad0f96bda339980ce79d653b7884fae0b15266c06fe41478e02d2126ba00",
+      "context": "Kanban Board > Working with cards > Working with custom card attributes > Reordering, hiding, redefining, and deleting custom attributes",
+      "contextHash": "0cbbe6a036d572aee1828b1c846fa51ff4e2f9888a5b1a1814676f3513f6b97a",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_62c3e8ea7bf046cb7fe9df69_0",
+      "kind": "h3",
+      "source": "Managing card templates__TRILIUM_PH_0__",
+      "sourceHash": "62c3e8ea7bf046cb7fe9df69f3f77a1897d7cff03e6d30ebac065bf1daebd81e",
+      "context": "Kanban Board > Working with cards > Managing card templates",
+      "contextHash": "ba2cc43beecef54f071dbbe5888242970104f91fcfb47d2165b9a611d063fcac",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_6529fe146265c72e11c2fe19_0",
+      "kind": "p",
+      "source": "When you create a new card, Trilium offers four templates by default: __TRILIUM_PH_0__Text__TRILIUM_PH_1__, __TRILIUM_PH_2__Markdown__TRILIUM_PH_3__, __TRILIUM_PH_4__Canvas__TRILIUM_PH_5__, and __TRILIUM_PH_6__Spreadsheet__TRILIUM_PH_7__. You can customize this list to include other note types or custom templates with predefined placeholder content and prefilled card attributes.",
+      "sourceHash": "6529fe146265c72e11c2fe19ee59bfbc916bab145b7e013bd1a8993ca4fc2016",
+      "context": "Kanban Board > Working with cards > Managing card templates",
+      "contextHash": "ba2cc43beecef54f071dbbe5888242970104f91fcfb47d2165b9a611d063fcac",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_1a5881e691767d93728e1207_0",
+      "kind": "p",
+      "source": "To customize the card templates, go to __TRILIUM_PH_0__Note menu__TRILIUM_PH_1__ → __TRILIUM_PH_2__Board properties__TRILIUM_PH_3__ and find __TRILIUM_PH_4__Card templates__TRILIUM_PH_5__. Here you can:",
+      "sourceHash": "1a5881e691767d93728e1207bd315f0715976c1e1f2b2b95cfd6c731df6873ca",
+      "context": "Kanban Board > Working with cards > Managing card templates",
+      "contextHash": "ba2cc43beecef54f071dbbe5888242970104f91fcfb47d2165b9a611d063fcac",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_2923949c7e29d1f8a1cdf70f_0",
+      "kind": "li",
+      "source": "Include a note type or note template already created in your knowledge base by pressing the __TRILIUM_PH_0__ __TRILIUM_PH_1__Add existing template__TRILIUM_PH_2__ button and then selecting the desired note type or template.",
+      "sourceHash": "2923949c7e29d1f8a1cdf70fd4d66b215449bb49c491137b32a49f946e8b44bc",
+      "context": "Kanban Board > Working with cards > Managing card templates",
+      "contextHash": "ba2cc43beecef54f071dbbe5888242970104f91fcfb47d2165b9a611d063fcac",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_7758e739ed84b2f47cc55d7e_0",
+      "kind": "li",
+      "source": "Create a new template by pressing the __TRILIUM_PH_0__ __TRILIUM_PH_1__Create a new template__TRILIUM_PH_2__ button. The template editor will open, where you can define the icon, title, default attribute values, and default content. The note template will be created as a child of the board collection.",
+      "sourceHash": "7758e739ed84b2f47cc55d7e642e2ea3a3f6fcf3a21d50fbd34b36435e293d88",
+      "context": "Kanban Board > Working with cards > Managing card templates",
+      "contextHash": "ba2cc43beecef54f071dbbe5888242970104f91fcfb47d2165b9a611d063fcac",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_3b95d3d42e2da52f0877badf_0",
+      "kind": "li",
+      "source": "Press the __TRILIUM_PH_0__ button to remove a template from the list. The template is removed only from the list, not deleted from your knowledge base. You can add it again using __TRILIUM_PH_1__ __TRILIUM_PH_2__Add existing template__TRILIUM_PH_3__.",
+      "sourceHash": "3b95d3d42e2da52f0877badfa6eb9db9c14ced7133315b741b0873053480d1c8",
+      "context": "Kanban Board > Working with cards > Managing card templates",
+      "contextHash": "ba2cc43beecef54f071dbbe5888242970104f91fcfb47d2165b9a611d063fcac",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_72f51fa0ec362e50392941bd_0",
+      "kind": "li",
+      "source": "Press the __TRILIUM_PH_0__ button to open a dropdown that lets you edit, open in a new window, duplicate, or delete a template. This button is visible only for custom note templates.",
+      "sourceHash": "72f51fa0ec362e50392941bde06199a9c997558bda3ba4c9b45ddafc41e410f1",
+      "context": "Kanban Board > Working with cards > Managing card templates",
+      "contextHash": "ba2cc43beecef54f071dbbe5888242970104f91fcfb47d2165b9a611d063fcac",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_97c4b63291df06e9dbc00be5_0",
+      "kind": "li",
+      "source": "Hold the __TRILIUM_PH_0__=__TRILIUM_PH_1__ handle shown beside a template, and then drag the item up or down to reorder the templates. This determines the order in which templates are listed in the template dropdown when you create a new card. You can move the most frequently used templates to the top for faster access.",
+      "sourceHash": "97c4b63291df06e9dbc00be5c44335bbee4d68ff9bc3aea70010f22b7ab3f3a9",
+      "context": "Kanban Board > Working with cards > Managing card templates",
+      "contextHash": "ba2cc43beecef54f071dbbe5888242970104f91fcfb47d2165b9a611d063fcac",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_7666f79c62f0978ddf3edb48_0",
+      "kind": "h3",
+      "source": "Grouping cards__TRILIUM_PH_0__",
+      "sourceHash": "7666f79c62f0978ddf3edb486ae1ac95bfce20a197fca5ca40e576f580d064ec",
+      "context": "Kanban Board > Working with cards > Grouping cards",
+      "contextHash": "16067a97d30d5aa8b7c9e4df4b87128dc2195d13e202ad37bbaf23bd79e0db46",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_1276b5d6418ad92981c81c6a_0",
+      "kind": "p",
+      "source": "On a board, cards are grouped into columns. The column to which a card belongs is determined by the value of the __TRILIUM_PH_0__grouping attribute__TRILIUM_PH_1__, which is a regular attribute of the card's note.",
+      "sourceHash": "1276b5d6418ad92981c81c6a2548664733097d54f3bee0eda6815bf1152e1a74",
+      "context": "Kanban Board > Working with cards > Grouping cards",
+      "contextHash": "16067a97d30d5aa8b7c9e4df4b87128dc2195d13e202ad37bbaf23bd79e0db46",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_2c9582b5251311809e03ea77_0",
+      "kind": "p",
+      "source": "By default, boards use the __TRILIUM_PH_0__Status__TRILIUM_PH_1__ attribute as the grouping attribute. When you move a card to a column called “Waiting on Customer”, the card's Status attribute is set to “Waiting on Customer”.",
+      "sourceHash": "2c9582b5251311809e03ea77a8c598c420bb213bd20ceabb929966eb857cff52",
+      "context": "Kanban Board > Working with cards > Grouping cards",
+      "contextHash": "16067a97d30d5aa8b7c9e4df4b87128dc2195d13e202ad37bbaf23bd79e0db46",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_484643978ae4e2f8a8db63a6_0",
+      "kind": "p",
+      "source": "Under the hood, the Status attribute is declared on the board collection note with the name __TRILIUM_PH_0__. It is a select-type attribute that is inheritable and promoted. Each select option becomes a column, and each new column created on the board extends the list of options.",
+      "sourceHash": "484643978ae4e2f8a8db63a6599d78a8465e54d51dbbc0843770ba5d54a83518",
+      "context": "Kanban Board > Working with cards > Grouping cards",
+      "contextHash": "16067a97d30d5aa8b7c9e4df4b87128dc2195d13e202ad37bbaf23bd79e0db46",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_5a5169662b11e98f6b136b86_0",
+      "kind": "h4",
+      "source": "Creating a new grouping attribute__TRILIUM_PH_0__",
+      "sourceHash": "5a5169662b11e98f6b136b862d874d74bd0e05db4a06738e1b877724696b51cc",
+      "context": "Kanban Board > Working with cards > Grouping cards > Creating a new grouping attribute",
+      "contextHash": "f691235b7a8aa6014993eca8c39b7310e01b3493a15f05fca53bd3bc58950e58",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_b9e50aae2022c90e15c239c3_0",
+      "kind": "p",
+      "source": "To quickly create a new grouping attribute:",
+      "sourceHash": "b9e50aae2022c90e15c239c3f715d6a85adb3d6dd3fb4c01417a80b7bc128465",
+      "context": "Kanban Board > Working with cards > Grouping cards > Creating a new grouping attribute",
+      "contextHash": "f691235b7a8aa6014993eca8c39b7310e01b3493a15f05fca53bd3bc58950e58",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_d0f5463f9cb47f4dc1a4a1e9_0",
+      "kind": "li",
+      "source": "Open the __TRILIUM_PH_0__ __TRILIUM_PH_1__Group by__TRILIUM_PH_2__ dropdown in the board header and select __TRILIUM_PH_3__ __TRILIUM_PH_4__Create a new attribute__TRILIUM_PH_5__.",
+      "sourceHash": "d0f5463f9cb47f4dc1a4a1e96f60b615ecf07a4beb16d4a44b448cf75d799ae0",
+      "context": "Kanban Board > Working with cards > Grouping cards > Creating a new grouping attribute",
+      "contextHash": "f691235b7a8aa6014993eca8c39b7310e01b3493a15f05fca53bd3bc58950e58",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_5ad61d7ee3d39ff0e3166c73_0",
+      "kind": "li",
+      "source": "Fill in the __TRILIUM_PH_0__Name__TRILIUM_PH_1__ field. This is used internally by Trilium, so do not use spaces or special characters.",
+      "sourceHash": "5ad61d7ee3d39ff0e3166c7379124cdaf829821644fe2a10aea370e054a885dc",
+      "context": "Kanban Board > Working with cards > Grouping cards > Creating a new grouping attribute",
+      "contextHash": "f691235b7a8aa6014993eca8c39b7310e01b3493a15f05fca53bd3bc58950e58",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_f301470d0d7b8f2d51bd3884_0",
+      "kind": "li",
+      "source": "Enter the __TRILIUM_PH_0__Display name__TRILIUM_PH_1__. This is the attribute name shown in the dropdown list.",
+      "sourceHash": "f301470d0d7b8f2d51bd38846c053d7e915789e6a811da416cc1d7bb028a5bb8",
+      "context": "Kanban Board > Working with cards > Grouping cards > Creating a new grouping attribute",
+      "contextHash": "f691235b7a8aa6014993eca8c39b7310e01b3493a15f05fca53bd3bc58950e58",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_00928b69adac8dac2f797f86_1",
+      "kind": "li",
+      "source": "Press __TRILIUM_PH_0__Save & close__TRILIUM_PH_1__.",
+      "sourceHash": "00928b69adac8dac2f797f86ef05493c84013704b21176ae3c5f65692d201963",
+      "context": "Kanban Board > Working with cards > Grouping cards > Creating a new grouping attribute",
+      "contextHash": "f691235b7a8aa6014993eca8c39b7310e01b3493a15f05fca53bd3bc58950e58",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_08c1292ef9a2b1aedaf9cd2f_0",
+      "kind": "p",
+      "source": "Because the grouping attribute is a regular card attribute, you can also create it in __TRILIUM_PH_0__Board properties__TRILIUM_PH_1__. Make sure you set the attribute type to “select”.",
+      "sourceHash": "08c1292ef9a2b1aedaf9cd2f5e92bc9e6b696937aa2b2d16b52cf3b6bc9b5977",
+      "context": "Kanban Board > Working with cards > Grouping cards > Creating a new grouping attribute",
+      "contextHash": "f691235b7a8aa6014993eca8c39b7310e01b3493a15f05fca53bd3bc58950e58",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_2ea1665ec0d683595f7d8609_0",
+      "kind": "h4",
+      "source": "Switching the grouping attribute__TRILIUM_PH_0__",
+      "sourceHash": "2ea1665ec0d683595f7d86099506f85f001ff582078ded9bba815ee837cfea52",
+      "context": "Kanban Board > Working with cards > Grouping cards > Switching the grouping attribute",
+      "contextHash": "a43e046bad3f5a1205b1224a997e1101babd9d49b893a83a72affadce8e52f56",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_b9b073eb31da60631e2ec508_0",
+      "kind": "p",
+      "source": "Switching the grouping attribute lets you view your cards by priority, category, or any other custom grouping attribute. You can switch the grouping attribute at any time by using the __TRILIUM_PH_0__ __TRILIUM_PH_1__Group by__TRILIUM_PH_2__ dropdown in the board header. You can also change it using the __TRILIUM_PH_3__ label.",
+      "sourceHash": "b9b073eb31da60631e2ec508e675e270e7ef0f6095d604bb812ee76472570a74",
+      "context": "Kanban Board > Working with cards > Grouping cards > Switching the grouping attribute",
+      "contextHash": "a43e046bad3f5a1205b1224a997e1101babd9d49b893a83a72affadce8e52f56",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_f2dbf6adc3d10774921268f5_0",
+      "kind": "p",
+      "source": "The order of cards in manually sorted columns corresponds to their positions within the board collection subtree. This means that the card order is shared across all views, regardless of the grouping attribute. Reordering notes in one view will also reorder them in other views that use a different grouping attribute.",
+      "sourceHash": "f2dbf6adc3d10774921268f5201fb651aecc166a4f748d57b6c796d3a17fb27b",
+      "context": "Kanban Board > Working with cards > Grouping cards > Switching the grouping attribute",
+      "contextHash": "a43e046bad3f5a1205b1224a997e1101babd9d49b893a83a72affadce8e52f56",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_b5c3c7348c805417626cf335_0",
+      "kind": "h4",
+      "source": "Deleting a grouping attribute__TRILIUM_PH_0__",
+      "sourceHash": "b5c3c7348c805417626cf3351f2468b88674e8e0ef99cdd089749f42a6d5bf7b",
+      "context": "Kanban Board > Working with cards > Grouping cards > Deleting a grouping attribute",
+      "contextHash": "5b1b4c8378e4bf8eb32ff5ec89d2081154303cc88dfcce5ff55b3c7abc03637f",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_ff59d41cc2fa6963867541ec_0",
+      "kind": "p",
+      "source": "To delete a grouping attribute, go to __TRILIUM_PH_0__Note menu__TRILIUM_PH_1__ → __TRILIUM_PH_2__Board properties__TRILIUM_PH_3__, find the attribute under the __TRILIUM_PH_4__Card attributes__TRILIUM_PH_5__ section, and press the corresponding __TRILIUM_PH_6__ button.",
+      "sourceHash": "ff59d41cc2fa6963867541ec558a62942939bf90074c2c5ada9362673d8dbf90",
+      "context": "Kanban Board > Working with cards > Grouping cards > Deleting a grouping attribute",
+      "contextHash": "5b1b4c8378e4bf8eb32ff5ec89d2081154303cc88dfcce5ff55b3c7abc03637f",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_204f0660cffeddcf79f3c458_0",
+      "kind": "h4",
+      "source": "Grouping by relations__TRILIUM_PH_0__",
+      "sourceHash": "204f0660cffeddcf79f3c4581b2747e8903d17dfc2c00489deaee31504ef14ac",
+      "context": "Kanban Board > Working with cards > Grouping cards > Grouping by relations",
+      "contextHash": "29371595ab05de9a1c088e9acc15f7b45bbd6e5e01968d63080f88b10feca1e2",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_756f40875e896e75575aad1e_0",
+      "kind": "p",
+      "source": "A more advanced use case is grouping by __TRILIUM_PH_0__Relations__TRILIUM_PH_1__.",
+      "sourceHash": "756f40875e896e75575aad1e26e3b5de33ef40efc2abd8e41c2750a6edfa6ef7",
+      "context": "Kanban Board > Working with cards > Grouping cards > Grouping by relations",
+      "contextHash": "29371595ab05de9a1c088e9acc15f7b45bbd6e5e01968d63080f88b10feca1e2",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_f4312f89157c73590d97b507_0",
+      "kind": "p",
+      "source": "In this mode:",
+      "sourceHash": "f4312f89157c73590d97b507986195e12325d4c9a1adf9deda55ee70ac14befa",
+      "context": "Kanban Board > Working with cards > Grouping cards > Grouping by relations",
+      "contextHash": "29371595ab05de9a1c088e9acc15f7b45bbd6e5e01968d63080f88b10feca1e2",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_e1a15778c17d8a3d9a882aa0_0",
+      "kind": "li",
+      "source": "The columns represent the __TRILIUM_PH_0__target notes__TRILIUM_PH_1__ of a relation.",
+      "sourceHash": "e1a15778c17d8a3d9a882aa02f523289e863e19bf1bc69da9734ada9e5af5215",
+      "context": "Kanban Board > Working with cards > Grouping cards > Grouping by relations",
+      "contextHash": "29371595ab05de9a1c088e9acc15f7b45bbd6e5e01968d63080f88b10feca1e2",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_c65e66a41d30a42b7a9261f9_0",
+      "kind": "li",
+      "source": "When creating a new column, you select a note instead of entering a column name.",
+      "sourceHash": "c65e66a41d30a42b7a9261f9b48dc5f5f31ea444bdba3d3e8a706fdb98b8f4cb",
+      "context": "Kanban Board > Working with cards > Grouping cards > Grouping by relations",
+      "contextHash": "29371595ab05de9a1c088e9acc15f7b45bbd6e5e01968d63080f88b10feca1e2",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_77b40aa42f192fdbd1cff74a_0",
+      "kind": "li",
+      "source": "The column icon matches the target note.",
+      "sourceHash": "77b40aa42f192fdbd1cff74a107a5ecfa2b3233fcc26b55e185a843fcbf3785b",
+      "context": "Kanban Board > Working with cards > Grouping cards > Grouping by relations",
+      "contextHash": "29371595ab05de9a1c088e9acc15f7b45bbd6e5e01968d63080f88b10feca1e2",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_0b50919e43a6633696fb7d19_0",
+      "kind": "li",
+      "source": "Moving notes between columns changes their relations.",
+      "sourceHash": "0b50919e43a6633696fb7d1924a6f16308ee76154f96165a653274bce6ad56a8",
+      "context": "Kanban Board > Working with cards > Grouping cards > Grouping by relations",
+      "contextHash": "29371595ab05de9a1c088e9acc15f7b45bbd6e5e01968d63080f88b10feca1e2",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_b622a7c495e0f8ac3a186a4c_0",
+      "kind": "li",
+      "source": "Renaming an existing column changes the target note for all notes in that column.",
+      "sourceHash": "b622a7c495e0f8ac3a186a4c7751f69dcf9e46449b5cba1fef81d2498d616c25",
+      "context": "Kanban Board > Working with cards > Grouping cards > Grouping by relations",
+      "contextHash": "29371595ab05de9a1c088e9acc15f7b45bbd6e5e01968d63080f88b10feca1e2",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_d1e764a46ae44dc29ac820b9_0",
+      "kind": "p",
+      "source": "Using relations instead of labels has several benefits:",
+      "sourceHash": "d1e764a46ae44dc29ac820b9841d47685b49105ee99c318c19b60d2792a83af2",
+      "context": "Kanban Board > Working with cards > Grouping cards > Grouping by relations",
+      "contextHash": "29371595ab05de9a1c088e9acc15f7b45bbd6e5e01968d63080f88b10feca1e2",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_d921ddb755b8d7b0f03c8daa_0",
+      "kind": "li",
+      "source": "The status or grouping of notes is visible outside the Kanban board, for example, on the __TRILIUM_PH_0__Note Map__TRILIUM_PH_1__.",
+      "sourceHash": "d921ddb755b8d7b0f03c8daa2714b1ffe7b51bbc92209157da39192ff79df522",
+      "context": "Kanban Board > Working with cards > Grouping cards > Grouping by relations",
+      "contextHash": "29371595ab05de9a1c088e9acc15f7b45bbd6e5e01968d63080f88b10feca1e2",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_935b55229beebacc415c3fa5_0",
+      "kind": "li",
+      "source": "A column takes its title and icon from the target note, so renaming that note anywhere in the tree renames the column.",
+      "sourceHash": "935b55229beebacc415c3fa56dd870583352e464fffa31cc1dfc9424d021c150",
+      "context": "Kanban Board > Working with cards > Grouping cards > Grouping by relations",
+      "contextHash": "29371595ab05de9a1c088e9acc15f7b45bbd6e5e01968d63080f88b10feca1e2",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_2c818f4b9eb62ad88ce785a2_0",
+      "kind": "p",
+      "source": "To use relations for grouping:",
+      "sourceHash": "2c818f4b9eb62ad88ce785a2bc7b50636d713771c9e9446104e8157930836d7b",
+      "context": "Kanban Board > Working with cards > Grouping cards > Grouping by relations",
+      "contextHash": "29371595ab05de9a1c088e9acc15f7b45bbd6e5e01968d63080f88b10feca1e2",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_a43ff6495660b36c918948db_0",
+      "kind": "p",
+      "source": "Create a Kanban board from scratch rather than from a template.",
+      "sourceHash": "a43ff6495660b36c918948dbf1bdea1c18e865b796ef8d45fcecf1a13e8ad3d6",
+      "context": "Kanban Board > Working with cards > Grouping cards > Grouping by relations",
+      "contextHash": "29371595ab05de9a1c088e9acc15f7b45bbd6e5e01968d63080f88b10feca1e2",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_fba8c3024ff6dda6f66bd94f_0",
+      "kind": "p",
+      "source": "Assign __TRILIUM_PH_0__ to emulate the default template.",
+      "sourceHash": "fba8c3024ff6dda6f66bd94fa70b3f5fec55ba98a31ce1e1430d3c8cc9b46322",
+      "context": "Kanban Board > Working with cards > Grouping cards > Grouping by relations",
+      "contextHash": "29371595ab05de9a1c088e9acc15f7b45bbd6e5e01968d63080f88b10feca1e2",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_ac71775c2b67b189364326d8_0",
+      "kind": "p",
+      "source": "Set __TRILIUM_PH_0__ to the name of a relation, __TRILIUM_PH_1__including the__TRILIUM_PH_2__ __TRILIUM_PH_3__ __TRILIUM_PH_4__prefix__TRILIUM_PH_5__ (for example, __TRILIUM_PH_6__).",
+      "sourceHash": "ac71775c2b67b189364326d86ecf4db45546b1bf2a764ac1f94a86e674491f78",
+      "context": "Kanban Board > Working with cards > Grouping cards > Grouping by relations",
+      "contextHash": "29371595ab05de9a1c088e9acc15f7b45bbd6e5e01968d63080f88b10feca1e2",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_0b6936bc7829b7e2120b7e9e_0",
+      "kind": "p",
+      "source": "Optionally, use __TRILIUM_PH_0__Promoted Attributes__TRILIUM_PH_1__ to make changing the status within the note easier:",
+      "sourceHash": "0b6936bc7829b7e2120b7e9ed916c02dfce4d3566fab347a10943b7598f5e998",
+      "context": "Kanban Board > Working with cards > Grouping cards > Grouping by relations",
+      "contextHash": "29371595ab05de9a1c088e9acc15f7b45bbd6e5e01968d63080f88b10feca1e2",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_72aa4b02e755bb8c0d1701a0_0",
+      "kind": "h2",
+      "source": "Searching and filtering the board__TRILIUM_PH_0__",
+      "sourceHash": "72aa4b02e755bb8c0d1701a060c385fc6aa439ccdbe009b703144c1aa18ed445",
+      "context": "Kanban Board > Searching and filtering the board",
+      "contextHash": "f744b0308d0e4b7af3d5e0e3f1cc32e765783dc9e68e9cd0c63d7387b848d562",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_eb756c13b72accec3f278924_0",
+      "kind": "p",
+      "source": "You can search for cards using the search box at the top of the board. Enter your keywords, and then press the __TRILIUM_PH_0__ button in the search field or press __TRILIUM_PH_1__Enter__TRILIUM_PH_2__. Only cards whose titles, content, or attribute values match the query will be displayed. Columns without results will be temporarily collapsed to make room for the matching cards. Press the __TRILIUM_PH_3__ button in the search field to clear the search and display all cards again.",
+      "sourceHash": "eb756c13b72accec3f2789241ddd4bac128a62758f1dc09aa27a061fa9ccd907",
+      "context": "Kanban Board > Searching and filtering the board",
+      "contextHash": "f744b0308d0e4b7af3d5e0e3f1cc32e765783dc9e68e9cd0c63d7387b848d562",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_017ab5f4e178a389e0a23842_0",
+      "kind": "h3",
+      "source": "Advanced filtering__TRILIUM_PH_0__",
+      "sourceHash": "017ab5f4e178a389e0a23842a6b3ff37a19a820be219fcc511575512a2e1ab86",
+      "context": "Kanban Board > Searching and filtering the board > Advanced filtering",
+      "contextHash": "39a6323b678a60ab2d21d0a8c444628de02431c9e89d2632b98d132b73d727f2",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_ded0b1490dac28e8a8027f20_0",
+      "kind": "p",
+      "source": "If you need to refine the view to display only cards matching specific criteria beyond a regular text search, you can use Trilium's search query syntax. Here are some example queries:",
+      "sourceHash": "ded0b1490dac28e8a8027f20e88ba2c42c6f9ad26f7474d6151ebb399477e955",
+      "context": "Kanban Board > Searching and filtering the board > Advanced filtering",
+      "contextHash": "39a6323b678a60ab2d21d0a8c444628de02431c9e89d2632b98d132b73d727f2",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_e491cc1121335a370f16532b_0",
+      "kind": "p",
+      "source": "Display only cards whose __TRILIUM_PH_0__Priority__TRILIUM_PH_1__ attribute is set to “Low”:",
+      "sourceHash": "e491cc1121335a370f16532bf198c374bd6045ac6b6aacbf15a29dc881fc19ee",
+      "context": "Kanban Board > Searching and filtering the board > Advanced filtering",
+      "contextHash": "39a6323b678a60ab2d21d0a8c444628de02431c9e89d2632b98d132b73d727f2",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_90852eb4cbe2d1d526941a42_0",
+      "kind": "p",
+      "source": "Display only cards whose __TRILIUM_PH_0__Issue Category__TRILIUM_PH_1__ is set to “Software” and whose __TRILIUM_PH_2__Site__TRILIUM_PH_3__ is set to either “Office” or “Factory”:",
+      "sourceHash": "90852eb4cbe2d1d526941a42eb73cd9a48278df15838bcb32b5032b454ead426",
+      "context": "Kanban Board > Searching and filtering the board > Advanced filtering",
+      "contextHash": "39a6323b678a60ab2d21d0a8c444628de02431c9e89d2632b98d132b73d727f2",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_376265e2486ab07f80c38c4f_0",
+      "kind": "p",
+      "source": "Display only cards with a __TRILIUM_PH_0__Due Date__TRILIUM_PH_1__ in the next seven days that are not yet marked as __TRILIUM_PH_2__Done__TRILIUM_PH_3__:",
+      "sourceHash": "376265e2486ab07f80c38c4f0fa8d7a6ec782b2d6adac4a04865ef699e0d5842",
+      "context": "Kanban Board > Searching and filtering the board > Advanced filtering",
+      "contextHash": "39a6323b678a60ab2d21d0a8c444628de02431c9e89d2632b98d132b73d727f2",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_c2163fd99418656f8796488b_0",
+      "kind": "p",
+      "source": "The filter persists even after you close the tab. When you reopen the collection, the filter remains active until you clear the search query by using the __TRILIUM_PH_0__ button.",
+      "sourceHash": "c2163fd99418656f8796488be9647f8781a4dc8447e826143578806adff651a3",
+      "context": "Kanban Board > Searching and filtering the board > Advanced filtering",
+      "contextHash": "39a6323b678a60ab2d21d0a8c444628de02431c9e89d2632b98d132b73d727f2",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_085e5ee969702343597cb66b_0",
+      "kind": "h2",
+      "source": "Linking to a column or a card__TRILIUM_PH_0__",
+      "sourceHash": "085e5ee969702343597cb66bdde45bb333b3ce479745250bcb88c5c40a9ddeee",
+      "context": "Kanban Board > Linking to a column or a card",
+      "contextHash": "4cddaf8074ce413a6ccde4e074621ab2b97114246d489f2a29f141f06906ef0b",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_9bb98e3e782a8a8d11feb02e_0",
+      "kind": "p",
+      "source": "You can create a link that opens the board and points out a specific column or card. Open the column menu or the card’s context menu, select __TRILIUM_PH_0__ __TRILIUM_PH_1__Copy reference__TRILIUM_PH_2__, and then paste the link where you need it.",
+      "sourceHash": "9bb98e3e782a8a8d11feb02e975f28558f2eed9d7a9d5d37e1fcecf303defa1a",
+      "context": "Kanban Board > Linking to a column or a card",
+      "contextHash": "4cddaf8074ce413a6ccde4e074621ab2b97114246d489f2a29f141f06906ef0b",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_711b2b524e684eaeb72ecf50_0",
+      "kind": "p",
+      "source": "In a text note, the pasted link displays the title, icon, and color of the column or card it points to. In a Markdown or code note, the plain link address is pasted instead. Opening the link scrolls the board to the column or card and focuses it. If the column belongs to a different grouping attribute, the board switches to that attribute first.",
+      "sourceHash": "711b2b524e684eaeb72ecf500420b819f45bb9754dec30fb7cfd506f482bfc0d",
+      "context": "Kanban Board > Linking to a column or a card",
+      "contextHash": "4cddaf8074ce413a6ccde4e074621ab2b97114246d489f2a29f141f06906ef0b",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_62ca9f3643e9d32c5c466c57_0",
+      "kind": "h2",
+      "source": "Read-only boards__TRILIUM_PH_0__",
+      "sourceHash": "62ca9f3643e9d32c5c466c573032a616b6f636104ca7b1300a3e7a03e30b4704",
+      "context": "Kanban Board > Read-only boards",
+      "contextHash": "ec626140cb41606904031ce31476b2cb8789e7f9253cddfcf1a1d6b306fe8dc7",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_ebfc5e93013974990b90bd22_0",
+      "kind": "p",
+      "source": "A board marked as __TRILIUM_PH_0__read-only__TRILIUM_PH_1__ only shows its cards. It has no buttons to add a card or a column, column and card titles can't be renamed, and column icons can't be changed. Cards and columns can't be dragged, moved or deleted with the keyboard, and notes dragged in from the note tree aren't added. The context menus of a card or a column keep only the entries that change nothing, such as opening the note or __TRILIUM_PH_2____TRILIUM_PH_3__Copy reference__TRILIUM_PH_4__, and the board's own menu doesn't open. The cards can still be grouped by another attribute, but the choice isn't saved, and no new grouping attribute can be created.",
+      "sourceHash": "ebfc5e93013974990b90bd225e52b139d0e086cedc6653c69f9fd60ab09418eb",
+      "context": "Kanban Board > Read-only boards",
+      "contextHash": "ec626140cb41606904031ce31476b2cb8789e7f9253cddfcf1a1d6b306fe8dc7",
+      "status": "pending",
+      "active": true
+    }
+  ],
+  "requests": []
+}

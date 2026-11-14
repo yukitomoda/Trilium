@@ -1,0 +1,289 @@
+{
+  "schemaVersion": 1,
+  "pageId": "ycBFjKrrwE9p",
+  "sourceFile": "docs/User Guide/User Guide/Advanced Usage/Sharing/Exporting static HTML for web publishing.md",
+  "sourceRevision": "03d17b60f59b5efc29b880b11481471d0fe0ff57",
+  "units": [
+    {
+      "id": "u_86d13ef844017bacbc254d5e_0",
+      "kind": "title",
+      "source": "Exporting static HTML for web publishing",
+      "sourceHash": "86d13ef844017bacbc254d5e85b25d216d86f6f76937dbd6421c85a692a43dc9",
+      "context": "Exporting static HTML for web publishing",
+      "contextHash": "7f929eeac06e5afb072d78544448f6d28f8f92044e4959c141664b160ee4ce3c",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_492e372a8160f0ec042754f5_0",
+      "kind": "p",
+      "source": "As described in __TRILIUM_PH_0__Sharing__TRILIUM_PH_1__, Trilium can act as a public server in which the shared notes are displayed in read-only mode. While this can work in most cases, it's generally not meant for high-traffic websites and since it's running on a Node.js server it can be potentially exploited.",
+      "sourceHash": "492e372a8160f0ec042754f5c3a9dcabb491a324cc9fe92a65cb8da3521a896e",
+      "context": "Exporting static HTML for web publishing",
+      "contextHash": "7f929eeac06e5afb072d78544448f6d28f8f92044e4959c141664b160ee4ce3c",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_d60dd0a5c80289152014105c_0",
+      "kind": "p",
+      "source": "Another alternative is to generate static HTML files (just like other static site generators such as __TRILIUM_PH_0__MkDocs__TRILIUM_PH_1__). Since the normal HTML ZIP export does not contain any styling or additional functionality, Trilium provides a way to export the same layout and style as the __TRILIUM_PH_2__Sharing__TRILIUM_PH_3__ function into static HTML files.",
+      "sourceHash": "d60dd0a5c80289152014105cf1b089730359b9b23a621687a229c3ea103adfaf",
+      "context": "Exporting static HTML for web publishing",
+      "contextHash": "7f929eeac06e5afb072d78544448f6d28f8f92044e4959c141664b160ee4ce3c",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_3477f91848997546b37c66af_0",
+      "kind": "p",
+      "source": "Apart from the enhanced security, these HTML files are also easy to deploy on “serverless” deployments such as GitHub Pages or CloudFlare Pages and cache very easily.",
+      "sourceHash": "3477f91848997546b37c66afbcfd71559618f152fe9deab868cc8b454273dba6",
+      "context": "Exporting static HTML for web publishing",
+      "contextHash": "7f929eeac06e5afb072d78544448f6d28f8f92044e4959c141664b160ee4ce3c",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_daf58eff719efc3220e69526_0",
+      "kind": "p",
+      "source": "Trilium's documentation, available at __TRILIUM_PH_0__docs.triliumnotes.org__TRILIUM_PH_1__ is built using this function of exporting to static HTML files which are then deployed automatically to CloudFlare Pages.",
+      "sourceHash": "daf58eff719efc3220e69526b991f43aba38d91fdcc311a80c2a00468c4d6109",
+      "context": "Exporting static HTML for web publishing",
+      "contextHash": "7f929eeac06e5afb072d78544448f6d28f8f92044e4959c141664b160ee4ce3c",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_228082aad151c0a8a68ed22d_0",
+      "kind": "p",
+      "source": "The process is __TRILIUM_PH_0__automated__TRILIUM_PH_1__ by importing the Markdown documentation and exporting it via a script to the static web format.",
+      "sourceHash": "228082aad151c0a8a68ed22d4daff5fac7f712e13726664aef7bd8d277a5c25a",
+      "context": "Exporting static HTML for web publishing",
+      "contextHash": "7f929eeac06e5afb072d78544448f6d28f8f92044e4959c141664b160ee4ce3c",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_d4fc223d58bfd24221f6716c_0",
+      "kind": "h2",
+      "source": "Differences from normal sharing__TRILIUM_PH_0__",
+      "sourceHash": "d4fc223d58bfd24221f6716c9ca27f21a364d82325d9154caa12ef75196945e5",
+      "context": "Exporting static HTML for web publishing > Differences from normal sharing",
+      "contextHash": "a1ceb2cb72c79d6c65aaeaaf288e509edc9ce3a95738ba5c0b8e078a11779d84",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_5a5f78ab91ad5524733f43c4_0",
+      "kind": "p",
+      "source": "Apart from normal __TRILIUM_PH_0__Sharing__TRILIUM_PH_1__, exporting to static HTML files comes with a few subtle differences:",
+      "sourceHash": "5a5f78ab91ad5524733f43c4f5785c7d338f5bde5b45cd3778d0e264220de57b",
+      "context": "Exporting static HTML for web publishing > Differences from normal sharing",
+      "contextHash": "a1ceb2cb72c79d6c65aaeaaf288e509edc9ce3a95738ba5c0b8e078a11779d84",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_ef0cfaca552247aa04bcbe03_0",
+      "kind": "li",
+      "source": "The URL structure is different. Where in normal sharing it's something along the way of __TRILIUM_PH_0__, the notes follow an hierarchical structure, such as __TRILIUM_PH_1__.",
+      "sourceHash": "ef0cfaca552247aa04bcbe032e6400afe1b51fe70472973e5e61eed64099c224",
+      "context": "Exporting static HTML for web publishing > Differences from normal sharing",
+      "contextHash": "a1ceb2cb72c79d6c65aaeaaf288e509edc9ce3a95738ba5c0b8e078a11779d84",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_b9557e840f3f8a4899c565e1_0",
+      "kind": "li",
+      "source": "The __TRILIUM_PH_0__ is not handled automatically, it needs to be manually added on the server after the export is generated.",
+      "sourceHash": "b9557e840f3f8a4899c565e1e2b2d9a77fa6a56d472e32c40e2fb4d05592f28e",
+      "context": "Exporting static HTML for web publishing > Differences from normal sharing",
+      "contextHash": "a1ceb2cb72c79d6c65aaeaaf288e509edc9ce3a95738ba5c0b8e078a11779d84",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_2287510ef322d16868830353_0",
+      "kind": "li",
+      "source": "The “Last updated” for notes is not available.",
+      "sourceHash": "2287510ef322d16868830353487676d6190f1ff63f15f727805b8fd404477c78",
+      "context": "Exporting static HTML for web publishing > Differences from normal sharing",
+      "contextHash": "a1ceb2cb72c79d6c65aaeaaf288e509edc9ce3a95738ba5c0b8e078a11779d84",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_1fe5763490b022f0eb65a1e1_0",
+      "kind": "li",
+      "source": "The search functionality works slightly different since the normal one requires an active API to work. In the static export, search still works but uses a different mechanism so results might be different.",
+      "sourceHash": "1fe5763490b022f0eb65a1e1bc9ba154b8a2b8c2b043dc4e85267aa10c4c4172",
+      "context": "Exporting static HTML for web publishing > Differences from normal sharing",
+      "contextHash": "a1ceb2cb72c79d6c65aaeaaf288e509edc9ce3a95738ba5c0b8e078a11779d84",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_7ae1ec134c52ccaa9f58916c_0",
+      "kind": "h2",
+      "source": "Differences from normal .zip export__TRILIUM_PH_0__",
+      "sourceHash": "7ae1ec134c52ccaa9f58916cd95475624859ac215a3807bbe1fd145fd0ca4751",
+      "context": "Exporting static HTML for web publishing > Differences from normal .zip export",
+      "contextHash": "cbcc748f082cc2a67cd678a9832b27bf2e1d0dc7cfb41d8fe4a117accd2dc461",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_326596e24b0f16c7df98190a_0",
+      "kind": "li",
+      "source": "The name of the files/URLs will prefer __TRILIUM_PH_0__ to allow for clean URLs.",
+      "sourceHash": "326596e24b0f16c7df98190ac4d0ed2e32990e2e25f1a455f61a035ec877b83b",
+      "context": "Exporting static HTML for web publishing > Differences from normal .zip export",
+      "contextHash": "cbcc748f082cc2a67cd678a9832b27bf2e1d0dc7cfb41d8fe4a117accd2dc461",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_f4d5fe0fb04da0f19c9338d6_0",
+      "kind": "li",
+      "source": "The export requires a functional web server as the pages will not render properly if accessed locally via a web browser due to the use of module scripts.",
+      "sourceHash": "f4d5fe0fb04da0f19c9338d65a831e640ae5650fec091d978f8bb207e47c5423",
+      "context": "Exporting static HTML for web publishing > Differences from normal .zip export",
+      "contextHash": "cbcc748f082cc2a67cd678a9832b27bf2e1d0dc7cfb41d8fe4a117accd2dc461",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_84156f3d430c6d862e0a7fe2_0",
+      "kind": "li",
+      "source": "The directory structure is also slightly different:",
+      "sourceHash": "84156f3d430c6d862e0a7fe2d5a013b30b5338a6b0f5fa776a1b3f6a60edf501",
+      "context": "Exporting static HTML for web publishing > Differences from normal .zip export",
+      "contextHash": "cbcc748f082cc2a67cd678a9832b27bf2e1d0dc7cfb41d8fe4a117accd2dc461",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_c400533026d6a464feb753bc_0",
+      "kind": "li",
+      "source": "A normal HTML export results in an index file and a single directory.",
+      "sourceHash": "c400533026d6a464feb753bcab97cc0e807158f858e46bbff57d1e34e4694bc6",
+      "context": "Exporting static HTML for web publishing > Differences from normal .zip export",
+      "contextHash": "cbcc748f082cc2a67cd678a9832b27bf2e1d0dc7cfb41d8fe4a117accd2dc461",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_d610568b33bca74fbf35b9be_0",
+      "kind": "li",
+      "source": "Instead, for static exporting the top-root level becomes the index file and the child directories are on the root instead.",
+      "sourceHash": "d610568b33bca74fbf35b9bee29cab0c5f1cd27b15bbdbd6c2b783c2a64134a4",
+      "context": "Exporting static HTML for web publishing > Differences from normal .zip export",
+      "contextHash": "cbcc748f082cc2a67cd678a9832b27bf2e1d0dc7cfb41d8fe4a117accd2dc461",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_0b515bbaa72ff394fe848bc8_0",
+      "kind": "li",
+      "source": "This makes it possible to easily publish to a website, without forcing everything but the root note to be in a sub-directory.",
+      "sourceHash": "0b515bbaa72ff394fe848bc81497dd70d916a20adad2a5199998113af77042d6",
+      "context": "Exporting static HTML for web publishing > Differences from normal .zip export",
+      "contextHash": "cbcc748f082cc2a67cd678a9832b27bf2e1d0dc7cfb41d8fe4a117accd2dc461",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_264a5ad38fa13f60b7acba59_0",
+      "kind": "h2",
+      "source": "Testing locally__TRILIUM_PH_0__",
+      "sourceHash": "264a5ad38fa13f60b7acba59b5c11b28cffd35ae8f73748721593d0f62d573a7",
+      "context": "Exporting static HTML for web publishing > Testing locally",
+      "contextHash": "ee7f3d57f49fa51878506a1258ba53a5d036077bda0d5f0160545d4f57b28e95",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_e34e9255f67e2353a68d42dd_0",
+      "kind": "p",
+      "source": "As mentioned previously, the exported static pages require a website to function. In order to test locally, a web server needs to be used.",
+      "sourceHash": "e34e9255f67e2353a68d42dd38fb2e75a597e6e0a4eeade5772d1060703cbac3",
+      "context": "Exporting static HTML for web publishing > Testing locally",
+      "contextHash": "ee7f3d57f49fa51878506a1258ba53a5d036077bda0d5f0160545d4f57b28e95",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_86453bb8b3c760b3d06ba469_0",
+      "kind": "p",
+      "source": "One example is to use the Node.js-based __TRILIUM_PH_0____TRILIUM_PH_1____TRILIUM_PH_2__ which can be installed via:",
+      "sourceHash": "86453bb8b3c760b3d06ba469e2f5cbfaff4692dc7580c8e7a2003449e82a6f0d",
+      "context": "Exporting static HTML for web publishing > Testing locally",
+      "contextHash": "ee7f3d57f49fa51878506a1258ba53a5d036077bda0d5f0160545d4f57b28e95",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_81f595fdfd567d439980f3a8_0",
+      "kind": "p",
+      "source": "Once installed simply:",
+      "sourceHash": "81f595fdfd567d439980f3a8cf17f0a7e3fb8a32727ed84c7bd45b95fb204872",
+      "context": "Exporting static HTML for web publishing > Testing locally",
+      "contextHash": "ee7f3d57f49fa51878506a1258ba53a5d036077bda0d5f0160545d4f57b28e95",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_dbee17aebe2a08d4ad29bf97_0",
+      "kind": "li",
+      "source": "Extract the exported .zip file.",
+      "sourceHash": "dbee17aebe2a08d4ad29bf97a3f46da1b48735d2ee707d57272af47ba6b7189e",
+      "context": "Exporting static HTML for web publishing > Testing locally",
+      "contextHash": "ee7f3d57f49fa51878506a1258ba53a5d036077bda0d5f0160545d4f57b28e95",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_285437b5aad758d70f0ed2ca_0",
+      "kind": "li",
+      "source": "Inside the extracted directory, run __TRILIUM_PH_0__.",
+      "sourceHash": "285437b5aad758d70f0ed2ca57ce3cfa6469e49834479e39c92abace627c7bb2",
+      "context": "Exporting static HTML for web publishing > Testing locally",
+      "contextHash": "ee7f3d57f49fa51878506a1258ba53a5d036077bda0d5f0160545d4f57b28e95",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_5473c9b2b4a22c74d9237092_0",
+      "kind": "li",
+      "source": "Access the indicated address (e.g. __TRILIUM_PH_0__http://localhost:8080__TRILIUM_PH_1__).",
+      "sourceHash": "5473c9b2b4a22c74d9237092481619d67b46db5582dbfc4c504149cbdd812d6d",
+      "context": "Exporting static HTML for web publishing > Testing locally",
+      "contextHash": "ee7f3d57f49fa51878506a1258ba53a5d036077bda0d5f0160545d4f57b28e95",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_67753802163053bdd6aa0260_0",
+      "kind": "h2",
+      "source": "Automation__TRILIUM_PH_0__",
+      "sourceHash": "67753802163053bdd6aa0260d5c0b05657004b2c7c3dab1ec718c2dc0dc49bfa",
+      "context": "Exporting static HTML for web publishing > Automation",
+      "contextHash": "11f41a5b65e656243771606cf2666607b69df1dd933a532074bbb2cf1a09c455",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_e3b40ca69b60d91c5cb0a22d_0",
+      "kind": "p",
+      "source": "__TRILIUM_PH_0__ETAPI (REST API)__TRILIUM_PH_1__ could potentially be used to automate an export on a scheduled task.",
+      "sourceHash": "e3b40ca69b60d91c5cb0a22dc31e81eceeb44a6e68024be6e2ce7fa52ba398a1",
+      "context": "Exporting static HTML for web publishing > Automation",
+      "contextHash": "11f41a5b65e656243771606cf2666607b69df1dd933a532074bbb2cf1a09c455",
+      "status": "pending",
+      "active": true
+    }
+  ],
+  "requests": []
+}

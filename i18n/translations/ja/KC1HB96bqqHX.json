@@ -1,0 +1,409 @@
+{
+  "schemaVersion": 1,
+  "pageId": "KC1HB96bqqHX",
+  "sourceFile": "docs/User Guide/User Guide/Advanced Usage/Templates.md",
+  "sourceRevision": "03d17b60f59b5efc29b880b11481471d0fe0ff57",
+  "units": [
+    {
+      "id": "u_ded25352ccedf0536262d854_0",
+      "kind": "title",
+      "source": "Templates",
+      "sourceHash": "ded25352ccedf0536262d854ee60ed3c96771a0246dbc67e33035c69707188fe",
+      "context": "Templates",
+      "contextHash": "56b564b75c7fdb488865f2198ec362f9c0f5c0b631b28c15eb387b43029f28dc",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_f0008f9015dbff6fc8347d5e_0",
+      "kind": "p",
+      "source": "A template in Trilium serves as a predefined structure for other notes, referred to as instance notes. Assigning a template to a note brings three main effects:",
+      "sourceHash": "f0008f9015dbff6fc8347d5ef0fa5bb61fe2e081e6bbf484a104f14b66ab59ae",
+      "context": "Templates",
+      "contextHash": "56b564b75c7fdb488865f2198ec362f9c0f5c0b631b28c15eb387b43029f28dc",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_f91c1eacc856c6cc166eb749_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__Attribute Inheritance__TRILIUM_PH_1__: All attributes from the template note are __TRILIUM_PH_2__inherited__TRILIUM_PH_3__ by the instance notes. Even attributes with __TRILIUM_PH_4__ are inherited by the instance notes, although only inheritable attributes are further inherited by the children of the instance notes.",
+      "sourceHash": "f91c1eacc856c6cc166eb7494ced3f6bd7d5bbffb8e3bddff1123833342917b6",
+      "context": "Templates",
+      "contextHash": "56b564b75c7fdb488865f2198ec362f9c0f5c0b631b28c15eb387b43029f28dc",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_a9d8c12ad9101cfbf28b38a4_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__Content Duplication__TRILIUM_PH_1__: The content of the template note is copied to the instance note, provided the instance note is empty at the time of template assignment.",
+      "sourceHash": "a9d8c12ad9101cfbf28b38a4975326504ba83402930d3d393a2a4354587c3e1a",
+      "context": "Templates",
+      "contextHash": "56b564b75c7fdb488865f2198ec362f9c0f5c0b631b28c15eb387b43029f28dc",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_79a15e58639608fe46139200_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__Child Note Duplication__TRILIUM_PH_1__: All child notes of the template are deep-duplicated to the instance note.",
+      "sourceHash": "79a15e58639608fe46139200a480cef9da9385f52b5aa122c984080b623b30d9",
+      "context": "Templates",
+      "contextHash": "56b564b75c7fdb488865f2198ec362f9c0f5c0b631b28c15eb387b43029f28dc",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_f534fca7886055a28a2cf6d4_0",
+      "kind": "h2",
+      "source": "Example__TRILIUM_PH_0__",
+      "sourceHash": "f534fca7886055a28a2cf6d40ed66b18ef8b46840d1d24c99bf2c8c9bc3e9a6f",
+      "context": "Templates > Example",
+      "contextHash": "94ea47d7aef58f05402395cb6c306871ab06edbbc44e695f4fb97519a4ab700b",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_3f84682bc066524025d4b1d1_0",
+      "kind": "p",
+      "source": "A typical example would be a \"Book\" template note, which might include:",
+      "sourceHash": "3f84682bc066524025d4b1d1d1adf58a78520ec08b0acb8c029541e4b1db4020",
+      "context": "Templates > Example",
+      "contextHash": "94ea47d7aef58f05402395cb6c306871ab06edbbc44e695f4fb97519a4ab700b",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_1b5e3183e80fdd77698b93e2_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__Promoted Attributes__TRILIUM_PH_1__: Such as publication year, author, etc. (see __TRILIUM_PH_2__promoted attributes__TRILIUM_PH_3__).",
+      "sourceHash": "1b5e3183e80fdd77698b93e21af46bc4d83ffc3deae5771b3db9192b49f5efd3",
+      "context": "Templates > Example",
+      "contextHash": "94ea47d7aef58f05402395cb6c306871ab06edbbc44e695f4fb97519a4ab700b",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_d72ab2678654ac445aaa4df5_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__Outline__TRILIUM_PH_1__: An outline for a book review, including sections like themes, conclusion, etc.",
+      "sourceHash": "d72ab2678654ac445aaa4df5fa00863e154f1f39d8e691ce2657204a4c405e4a",
+      "context": "Templates > Example",
+      "contextHash": "94ea47d7aef58f05402395cb6c306871ab06edbbc44e695f4fb97519a4ab700b",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_9a8f6d50e9cbe75837630396_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__Child Notes__TRILIUM_PH_1__: Additional notes for highlights, summary, etc.",
+      "sourceHash": "9a8f6d50e9cbe758376303968b1356edd8a2db16643d2afe1a60839f3f5fadae",
+      "context": "Templates > Example",
+      "contextHash": "94ea47d7aef58f05402395cb6c306871ab06edbbc44e695f4fb97519a4ab700b",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_a3648f4362412e75e8d08090_0",
+      "kind": "h2",
+      "source": "Instance Note__TRILIUM_PH_0__",
+      "sourceHash": "a3648f4362412e75e8d08090e73f6b874034dcf038e8c2078639ffce2e20bbd6",
+      "context": "Templates > Instance Note",
+      "contextHash": "d2002f2ba619da4bf474ec2b2ce89616cd3a4636b433209f6705ece447191559",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_7c3f194a4016f0e84673b325_0",
+      "kind": "p",
+      "source": "An instance note is a note related to a template note. This relationship means the instance note's content is initialized from the template, and all attributes from the template are inherited.",
+      "sourceHash": "7c3f194a4016f0e84673b32590293fc1b0a1ae52000a74e64d4988ae48f2e1ac",
+      "context": "Templates > Instance Note",
+      "contextHash": "d2002f2ba619da4bf474ec2b2ce89616cd3a4636b433209f6705ece447191559",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_7fad1537847c9c31c5c9b0cd_0",
+      "kind": "p",
+      "source": "To create an instance note through the UI:",
+      "sourceHash": "7fad1537847c9c31c5c9b0cd4ac5695b84d07bed065a325da2dbf1089cb8e703",
+      "context": "Templates > Instance Note",
+      "contextHash": "d2002f2ba619da4bf474ec2b2ce89616cd3a4636b433209f6705ece447191559",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_8404dc1a5dee7cae79d08ce1_0",
+      "kind": "p",
+      "source": "For the template to appear in the menu, the template note must have the __TRILIUM_PH_0__ label. Do not confuse this with the __TRILIUM_PH_1__ relation, which links the instance note to the template note. If you use __TRILIUM_PH_2__workspaces__TRILIUM_PH_3__, you can also mark templates with __TRILIUM_PH_4__ to display them only in the workspace.",
+      "sourceHash": "8404dc1a5dee7cae79d08ce124d9c46e78f9c7491f3366ce7cdefdaef6aa03ba",
+      "context": "Templates > Instance Note",
+      "contextHash": "d2002f2ba619da4bf474ec2b2ce89616cd3a4636b433209f6705ece447191559",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_839c077fdc7cadde249670a3_0",
+      "kind": "p",
+      "source": "Templates can also be added or changed after note creation by creating a __TRILIUM_PH_0__ relation pointing to the desired template note. ",
+      "sourceHash": "839c077fdc7cadde249670a3ce13557a6b61dcb22685c8ee31547ec59d30634d",
+      "context": "Templates > Instance Note",
+      "contextHash": "d2002f2ba619da4bf474ec2b2ce89616cd3a4636b433209f6705ece447191559",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_6b99c7bd2fc2b3f997e56181_0",
+      "kind": "p",
+      "source": "To specify a template for child notes, you can use a __TRILIUM_PH_0__ relation pointing to the appropriate template note. There is no limit to the depth of the hierarchy — you can use __TRILIUM_PH_1__, __TRILIUM_PH_2__, and so on.",
+      "sourceHash": "6b99c7bd2fc2b3f997e56181b5ec6487044bf122e0044e835d9f65e702fcda06",
+      "context": "Templates > Instance Note",
+      "contextHash": "d2002f2ba619da4bf474ec2b2ce89616cd3a4636b433209f6705ece447191559",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_4f3f0168120ccf12b87b2100_0",
+      "kind": "p",
+      "source": "Changing the template hierarchy after the parent note is created will not retroactively apply to newly created child notes.__TRILIUM_PH_0__For example, if you initially use __TRILIUM_PH_1__ and later switch to __TRILIUM_PH_2__, it will not automatically apply the new template to the grandchild notes. Only the structure present at the time of note creation is considered.",
+      "sourceHash": "4f3f0168120ccf12b87b21001f9aa22b800561b5ffe9ae7f5a016a3f0de659f4",
+      "context": "Templates > Instance Note",
+      "contextHash": "d2002f2ba619da4bf474ec2b2ce89616cd3a4636b433209f6705ece447191559",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_97b1be0b0e0b892e625418e5_0",
+      "kind": "h2",
+      "source": "Default parent for new notes__TRILIUM_PH_0__",
+      "sourceHash": "97b1be0b0e0b892e625418e52cbe366ca165cb1fcd40f954e00610600bb8e38a",
+      "context": "Templates > Default parent for new notes",
+      "contextHash": "3e075c4bb3b5859a8b56379d60c43aa88440b2d9cf48a55e5d03f3395918159c",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_5c8d8f551d4bc98d873b53b6_0",
+      "kind": "p",
+      "source": "A template can gather the notes created from it in one place, instead of having them land wherever they happen to be created. To do so, add a __TRILIUM_PH_0__ relation to the template note, pointing at the note that should hold the instances, for example a __TRILIUM_PH_1__Person__TRILIUM_PH_2__ template pointing to a __TRILIUM_PH_3__People__TRILIUM_PH_4__ note. The relation can also be set by clicking the template badge next to the note title and selecting __TRILIUM_PH_5__Template properties...__TRILIUM_PH_6__, then picking a note under __TRILIUM_PH_7__Default location of created notes__TRILIUM_PH_8__.",
+      "sourceHash": "5c8d8f551d4bc98d873b53b6a65ba5aef5099809903be4159073e362a9a0fdba",
+      "context": "Templates > Default parent for new notes",
+      "contextHash": "3e075c4bb3b5859a8b56379d60c43aa88440b2d9cf48a55e5d03f3395918159c",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_b3f58ea0fc7b22f2169f467b_0",
+      "kind": "p",
+      "source": "Adding the relation several times places the new note in every target, as __TRILIUM_PH_0__Cloning Notes__TRILIUM_PH_1__. The relation can also be inherited (e.g. from a folder holding several templates), in which case a relation owned by the template itself replaces the inherited one. The default parent is only inherited from the template's ancestors in the tree: a template created from another template does not adopt that template's default parent.",
+      "sourceHash": "b3f58ea0fc7b22f2169f467b721ba611cf86ac066554c5f178857d1959bcd754",
+      "context": "Templates > Default parent for new notes",
+      "contextHash": "3e075c4bb3b5859a8b56379d60c43aa88440b2d9cf48a55e5d03f3395918159c",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_ef91cdd059f25a812bdb6c57_0",
+      "kind": "p",
+      "source": "The default parent is used whenever a note is created from the template through the __TRILIUM_PH_0__Choose note type__TRILIUM_PH_1__ dialog:",
+      "sourceHash": "ef91cdd059f25a812bdb6c575dbfcafb56b4eb9930ed333684963266cf9400f3",
+      "context": "Templates > Default parent for new notes",
+      "contextHash": "3e075c4bb3b5859a8b56379d60c43aa88440b2d9cf48a55e5d03f3395918159c",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_d1436e72024cb211f0f17a42_0",
+      "kind": "li",
+      "source": "Via the __TRILIUM_PH_0__Create note__TRILIUM_PH_1__ option of the __TRILIUM_PH_2__-completion in a __TRILIUM_PH_3__Text__TRILIUM_PH_4__ note",
+      "sourceHash": "d1436e72024cb211f0f17a42fd734a0c35b649129764641e37f1ab5f63e72dff",
+      "context": "Templates > Default parent for new notes",
+      "contextHash": "3e075c4bb3b5859a8b56379d60c43aa88440b2d9cf48a55e5d03f3395918159c",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_03254592e71e2fa9a692d9bf_0",
+      "kind": "li",
+      "source": "Via the __TRILIUM_PH_0__Create note__TRILIUM_PH_1__ or __TRILIUM_PH_2__Create child note__TRILIUM_PH_3__ options of the note search (new tab or __TRILIUM_PH_4__Internal (reference) links__TRILIUM_PH_5__), but only if the dialog's __TRILIUM_PH_6__Location__TRILIUM_PH_7__ field is left empty.",
+      "sourceHash": "03254592e71e2fa9a692d9bf169876fbcb1f92ffa669dc4b98b9a9348b84f108",
+      "context": "Templates > Default parent for new notes",
+      "contextHash": "3e075c4bb3b5859a8b56379d60c43aa88440b2d9cf48a55e5d03f3395918159c",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_54903edca95041e76114104b_0",
+      "kind": "p",
+      "source": "Creating an instance note from the __TRILIUM_PH_0__Note Tree__TRILIUM_PH_1__ context menu (__TRILIUM_PH_2__Insert child note__TRILIUM_PH_3__, __TRILIUM_PH_4__Insert note after__TRILIUM_PH_5__) still creates it at the chosen place.",
+      "sourceHash": "54903edca95041e76114104bf6f959288042fe56da97fac22bbd875c225fdcd5",
+      "context": "Templates > Default parent for new notes",
+      "contextHash": "3e075c4bb3b5859a8b56379d60c43aa88440b2d9cf48a55e5d03f3395918159c",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_4697a5c9a6d34adfaac0580c_0",
+      "kind": "p",
+      "source": "Unlike the __TRILIUM_PH_0__Note Inbox__TRILIUM_PH_1__, which holds quickly captured notes until they are sorted, the default parent is meant as the instances' permanent location.",
+      "sourceHash": "4697a5c9a6d34adfaac0580c917bab8b27a0dc76495afc5b5b47a3d5542b3b81",
+      "context": "Templates > Default parent for new notes",
+      "contextHash": "3e075c4bb3b5859a8b56379d60c43aa88440b2d9cf48a55e5d03f3395918159c",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_3b405af9c297f397c1f2c5d8_0",
+      "kind": "h2",
+      "source": "Regarding note types__TRILIUM_PH_0__",
+      "sourceHash": "3b405af9c297f397c1f2c5d8f1c45319d4c7d9be3bfc32a676b279476ff8be07",
+      "context": "Templates > Regarding note types",
+      "contextHash": "df43e8c8246af33b8f80d6df9229d5eadc1adc2b9d858e0df14ba7cf257fb8f1",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_bde382d55ea96e290d248aab_0",
+      "kind": "p",
+      "source": "By default, newly created notes are __TRILIUM_PH_0__Text__TRILIUM_PH_1__ notes. If a parent note defines a __TRILIUM_PH_2__ pointing to a template of a different type (e.g. a Code note), the behavior depends on how the new note is created:",
+      "sourceHash": "bde382d55ea96e290d248aab747def60b26743f8f1c145224a48e243bfd0693e",
+      "context": "Templates > Regarding note types",
+      "contextHash": "df43e8c8246af33b8f80d6df9229d5eadc1adc2b9d858e0df14ba7cf257fb8f1",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_9c9a7ee348e123cd46f8433e_0",
+      "kind": "li",
+      "source": "If no note type is explicitly chosen (e.g. the + button in the __TRILIUM_PH_0__Note Tree__TRILIUM_PH_1__), the template is applied and the new note takes the type and content of the template.",
+      "sourceHash": "9c9a7ee348e123cd46f8433e0e938a42819004777fe6b2f81ba447eb816a3e21",
+      "context": "Templates > Regarding note types",
+      "contextHash": "df43e8c8246af33b8f80d6df9229d5eadc1adc2b9d858e0df14ba7cf257fb8f1",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_83ccaea00f0495a5644655a4_0",
+      "kind": "li",
+      "source": "If a note type is explicitly selected (e.g. __TRILIUM_PH_0__Note Tree__TRILIUM_PH_1__ → __TRILIUM_PH_2__Insert note after__TRILIUM_PH_3__ / __TRILIUM_PH_4__Insert child note__TRILIUM_PH_5__):",
+      "sourceHash": "83ccaea00f0495a5644655a4f9ea5ed443e8d0e76a68742da26aa958949a49e9",
+      "context": "Templates > Regarding note types",
+      "contextHash": "df43e8c8246af33b8f80d6df9229d5eadc1adc2b9d858e0df14ba7cf257fb8f1",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_e0360904f82a46a9837b4201_0",
+      "kind": "li",
+      "source": "If the selected type matches the template's type, the template is applied.",
+      "sourceHash": "e0360904f82a46a9837b4201e1496e31b53ae7c96eb35729188d55b0aa35c345",
+      "context": "Templates > Regarding note types",
+      "contextHash": "df43e8c8246af33b8f80d6df9229d5eadc1adc2b9d858e0df14ba7cf257fb8f1",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_36840d6fb7bfd0f49bb45558_0",
+      "kind": "li",
+      "source": "If the selected type differs, the template is disregarded entirely — the new note is an empty note of the selected type.",
+      "sourceHash": "36840d6fb7bfd0f49bb45558f0086054a264f32f0a456aa782fd6d3d27f0800a",
+      "context": "Templates > Regarding note types",
+      "contextHash": "df43e8c8246af33b8f80d6df9229d5eadc1adc2b9d858e0df14ba7cf257fb8f1",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_6a5239c857cdf6d6b284fdff_0",
+      "kind": "p",
+      "source": "Selecting a specific template from the creation menu always takes precedence over __TRILIUM_PH_0__.",
+      "sourceHash": "6a5239c857cdf6d6b284fdff3701a035ce0573e3fa04fe39fb70b2102abec1d8",
+      "context": "Templates > Regarding note types",
+      "contextHash": "df43e8c8246af33b8f80d6df9229d5eadc1adc2b9d858e0df14ba7cf257fb8f1",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_cbe0bfe1e964d637d618a8c8_0",
+      "kind": "h2",
+      "source": "Default title for new notes__TRILIUM_PH_0__",
+      "sourceHash": "cbe0bfe1e964d637d618a8c8917e6b4e40deccb0f198d5ab6f02fc3e0d89049b",
+      "context": "Templates > Default title for new notes",
+      "contextHash": "41d9b64884ebe1172ec1fb26d3e0904570d1ca1aa3fbbb5a78fbf1d41f6bbfe3",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_ba984688c9c9a7d8c5eb9404_0",
+      "kind": "p",
+      "source": "A template can also give its instances a default title, using the __TRILIUM_PH_0__ label. To set it without editing the label by hand, click the template badge next to the note title and select __TRILIUM_PH_1__Template properties...__TRILIUM_PH_2__, which checks the expressions as you type and previews the resulting title. See __TRILIUM_PH_3__Default Note Title__TRILIUM_PH_4__ for details.",
+      "sourceHash": "ba984688c9c9a7d8c5eb9404b96b818e9448ec346cab30558a56fa469c8ed70a",
+      "context": "Templates > Default title for new notes",
+      "contextHash": "41d9b64884ebe1172ec1fb26d3e0904570d1ca1aa3fbbb5a78fbf1d41f6bbfe3",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_81c80e95222dfe9a07be5de3_0",
+      "kind": "h2",
+      "source": "Additional Notes__TRILIUM_PH_0__",
+      "sourceHash": "81c80e95222dfe9a07be5de31cd39da8d8d653391b60a4b05af310dc4ba72b39",
+      "context": "Templates > Additional Notes",
+      "contextHash": "b0b3a16ea7383b0b8ba5a114148858a17f276a2ed9f46052f64d6a5d6396c92f",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_2bed73c8a943aa9bd2f8497f_0",
+      "kind": "p",
+      "source": "From a visual perspective, templates can define __TRILIUM_PH_0__ and __TRILIUM_PH_1__ attributes, allowing all instance notes (e.g., books) to display a specific icon and CSS style.",
+      "sourceHash": "2bed73c8a943aa9bd2f8497fea795564f140edf72df0107e97cc936ace2deda7",
+      "context": "Templates > Additional Notes",
+      "contextHash": "b0b3a16ea7383b0b8ba5a114148858a17f276a2ed9f46052f64d6a5d6396c92f",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_fae501d168a15aa5ff538ebb_0",
+      "kind": "p",
+      "source": "Explore the concept further in the __TRILIUM_PH_0__Demo Notes__TRILIUM_PH_1__, including examples like the __TRILIUM_PH_2__Relation Map__TRILIUM_PH_3__, __TRILIUM_PH_4__Task Manager__TRILIUM_PH_5__, and __TRILIUM_PH_6__Day Notes__TRILIUM_PH_7__.",
+      "sourceHash": "fae501d168a15aa5ff538ebbf504b7787d50c6301bb78430ad9470be49676fe3",
+      "context": "Templates > Additional Notes",
+      "contextHash": "b0b3a16ea7383b0b8ba5a114148858a17f276a2ed9f46052f64d6a5d6396c92f",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_ce001cbf39c8e08e637f02ed_0",
+      "kind": "p",
+      "source": "Additionally, see __TRILIUM_PH_0__Default Note Title__TRILIUM_PH_1__ for creating title templates. A __TRILIUM_PH_2__ on a template note is passed on to its instances like any other label, so it names the children of each instance rather than the instances themselves; to name the instances, use __TRILIUM_PH_3__.",
+      "sourceHash": "ce001cbf39c8e08e637f02ed47263003532d4795a0a88054eaf17eabd8d9ed71",
+      "context": "Templates > Additional Notes",
+      "contextHash": "b0b3a16ea7383b0b8ba5a114148858a17f276a2ed9f46052f64d6a5d6396c92f",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_f85560b66a0c7622e7911fcd_0",
+      "kind": "image-alt",
+      "source": "Template Example",
+      "sourceHash": "f85560b66a0c7622e7911fcdcd5d9245f364da8f223c4d4d233e8100778495f6",
+      "context": "Templates > Additional Notes",
+      "contextHash": "b0b3a16ea7383b0b8ba5a114148858a17f276a2ed9f46052f64d6a5d6396c92f",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_883b6117cc567400b9286122_0",
+      "kind": "image-alt",
+      "source": "show child note templates",
+      "sourceHash": "883b6117cc567400b92861228b4a1d67b0bb850b9ea8b856d349ada6445be5d3",
+      "context": "Templates > Additional Notes",
+      "contextHash": "b0b3a16ea7383b0b8ba5a114148858a17f276a2ed9f46052f64d6a5d6396c92f",
+      "status": "pending",
+      "active": true
+    }
+  ],
+  "requests": []
+}

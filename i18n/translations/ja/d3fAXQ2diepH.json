@@ -1,0 +1,149 @@
+{
+  "schemaVersion": 1,
+  "pageId": "d3fAXQ2diepH",
+  "sourceFile": "docs/User Guide/User Guide/Advanced Usage/Custom Resource Providers.md",
+  "sourceRevision": "03d17b60f59b5efc29b880b11481471d0fe0ff57",
+  "units": [
+    {
+      "id": "u_e2a1152002bddfe92b3e9d5a_0",
+      "kind": "title",
+      "source": "Custom Resource Providers",
+      "sourceHash": "e2a1152002bddfe92b3e9d5a008fdce2d65fac240708ead202b2dcb54feee6fb",
+      "context": "Custom Resource Providers",
+      "contextHash": "0736d73f9ad0122426b0f09b547e51fac54c87890ea1a035126e807d5a20fc5d",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_ec5e5b48811b6a6763dbfbd3_0",
+      "kind": "p",
+      "source": "A custom resource provider allows any file imported into Trilium (images, fonts, stylesheets) to be publicly accessible via a URL.",
+      "sourceHash": "ec5e5b48811b6a6763dbfbd3f942cbdaaf722884756d27a878b6872a7dcb8aaf",
+      "context": "Custom Resource Providers",
+      "contextHash": "0736d73f9ad0122426b0f09b547e51fac54c87890ea1a035126e807d5a20fc5d",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_bd4044c8e1aadfe06d0c0f1b_0",
+      "kind": "p",
+      "source": "A potential use case for this is to add embed a custom font alongside a theme.",
+      "sourceHash": "bd4044c8e1aadfe06d0c0f1b96bb2b17174f580d773fd30c79fd856176344f13",
+      "context": "Custom Resource Providers",
+      "contextHash": "0736d73f9ad0122426b0f09b547e51fac54c87890ea1a035126e807d5a20fc5d",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_7bfd705ff4f12eecb258fd45_0",
+      "kind": "h2",
+      "source": "Steps for creating a custom resource provider__TRILIUM_PH_0__",
+      "sourceHash": "7bfd705ff4f12eecb258fd4595c280c4422c3573cfcef3f4373958d6817d3203",
+      "context": "Custom Resource Providers > Steps for creating a custom resource provider",
+      "contextHash": "8ca761a95781c36b94e4b22c31588b6d7ca6cd171c53ca28166b007ea45796d5",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_131390b76b36f310ef5a67b7_0",
+      "kind": "li",
+      "source": "Import a file such as an image or a font into Trilium by drag & drop.",
+      "sourceHash": "131390b76b36f310ef5a67b7c995cad8c6299c8742c11e4fd69a251b5628ace7",
+      "context": "Custom Resource Providers > Steps for creating a custom resource provider",
+      "contextHash": "8ca761a95781c36b94e4b22c31588b6d7ca6cd171c53ca28166b007ea45796d5",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_f1d0e5aac41925d2cd8c5148_0",
+      "kind": "li",
+      "source": "Set the __TRILIUM_PH_0__label__TRILIUM_PH_1__ __TRILIUM_PH_2__ to __TRILIUM_PH_3__.",
+      "sourceHash": "f1d0e5aac41925d2cd8c5148f2b0b0620c8c503c7f5472ca1019c265ea6b6ce4",
+      "context": "Custom Resource Providers > Steps for creating a custom resource provider",
+      "contextHash": "8ca761a95781c36b94e4b22c31588b6d7ca6cd171c53ca28166b007ea45796d5",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_44276928e613f12a5731159a_0",
+      "kind": "li",
+      "source": "To test if it is working, use a browser to navigate to __TRILIUM_PH_0__ (where __TRILIUM_PH_1__ is either __TRILIUM_PH_2__ or __TRILIUM_PH_3__ based on your setup, and __TRILIUM_PH_4__ is the host or IP to your Trilium server instance). If you are running the TriliumNext application without a server, use __TRILIUM_PH_5__ as the base URL.",
+      "sourceHash": "44276928e613f12a5731159a0c1aa937e79a04025043b466bf4f1f729d51f339",
+      "context": "Custom Resource Providers > Steps for creating a custom resource provider",
+      "contextHash": "8ca761a95781c36b94e4b22c31588b6d7ca6cd171c53ca28166b007ea45796d5",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_da010aa6f8b98e3650592ad0_0",
+      "kind": "li",
+      "source": "If everything went well, at the previous step the browser should have downloaded the file uploaded in the first step.",
+      "sourceHash": "da010aa6f8b98e3650592ad0b1404b526c17a7619254d576bbabab6c37ab9fcb",
+      "context": "Custom Resource Providers > Steps for creating a custom resource provider",
+      "contextHash": "8ca761a95781c36b94e4b22c31588b6d7ca6cd171c53ca28166b007ea45796d5",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_e4e10f02e42caaff0bd5dcf8_0",
+      "kind": "p",
+      "source": "Instead of __TRILIUM_PH_0__, the name can be:",
+      "sourceHash": "e4e10f02e42caaff0bd5dcf84b797549f83cc8fc6e622693ba29a4d0d00fdf8f",
+      "context": "Custom Resource Providers > Steps for creating a custom resource provider",
+      "contextHash": "8ca761a95781c36b94e4b22c31588b6d7ca6cd171c53ca28166b007ea45796d5",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_9c5a4610dac0d3a604d80fb2_0",
+      "kind": "li",
+      "source": "A path, such as __TRILIUM_PH_0__, which would be accessible via __TRILIUM_PH_1__.",
+      "sourceHash": "9c5a4610dac0d3a604d80fb2fbac872869868d9dcb19e18fb04dee1ce9777862",
+      "context": "Custom Resource Providers > Steps for creating a custom resource provider",
+      "contextHash": "8ca761a95781c36b94e4b22c31588b6d7ca6cd171c53ca28166b007ea45796d5",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_2987ce5d68d721265b96710a_0",
+      "kind": "li",
+      "source": "As a more advanced use case, a regular expression to match multiple routes, such as __TRILIUM_PH_0__ which will be accessible via __TRILIUM_PH_1__, __TRILIUM_PH_2__, __TRILIUM_PH_3__, etc.",
+      "sourceHash": "2987ce5d68d721265b96710a3738a048df49a9adcb9e2fab00de8eee64a1c963",
+      "context": "Custom Resource Providers > Steps for creating a custom resource provider",
+      "contextHash": "8ca761a95781c36b94e4b22c31588b6d7ca6cd171c53ca28166b007ea45796d5",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_d2f7dd3b183f4b8050f9143d_0",
+      "kind": "h2",
+      "source": "Using it in a theme__TRILIUM_PH_0__",
+      "sourceHash": "d2f7dd3b183f4b8050f9143d60f5643928caa9c30a2e64473ff1866edb51b3b9",
+      "context": "Custom Resource Providers > Using it in a theme",
+      "contextHash": "0c4917519103b48f0406a50a85408cbc4d34eb8733ee0b9c49f932e07260e4f4",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_fc9135390408fcd4fda77d2b_0",
+      "kind": "p",
+      "source": "For example, if you have a custom font to be imported by the theme, first upload a font file into Trilium and assign it the __TRILIUM_PH_0__ attribute.",
+      "sourceHash": "fc9135390408fcd4fda77d2b9c8d5f53cb6639bcea30c40c00f081d4dd294015",
+      "context": "Custom Resource Providers > Using it in a theme",
+      "contextHash": "0c4917519103b48f0406a50a85408cbc4d34eb8733ee0b9c49f932e07260e4f4",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_770ab2d768cc9dbde2f059a5_0",
+      "kind": "p",
+      "source": "Then modify the theme CSS to point to:",
+      "sourceHash": "770ab2d768cc9dbde2f059a578c278626c2732528d50237290232434ba1d7116",
+      "context": "Custom Resource Providers > Using it in a theme",
+      "contextHash": "0c4917519103b48f0406a50a85408cbc4d34eb8733ee0b9c49f932e07260e4f4",
+      "status": "pending",
+      "active": true
+    }
+  ],
+  "requests": []
+}

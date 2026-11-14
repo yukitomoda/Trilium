@@ -1,0 +1,299 @@
+{
+  "schemaVersion": 1,
+  "pageId": "0hzsNCP31IAB",
+  "sourceFile": "docs/User Guide/User Guide/Installation & Setup/Server Installation/Authentication.md",
+  "sourceRevision": "03d17b60f59b5efc29b880b11481471d0fe0ff57",
+  "units": [
+    {
+      "id": "u_629f90bb8a78d0e733ff9e84_0",
+      "kind": "title",
+      "source": "Authentication",
+      "sourceHash": "629f90bb8a78d0e733ff9e84d337a7b03e619dd66e2d569542b3b9c50401032a",
+      "context": "Authentication",
+      "contextHash": "66880d2d8216260d201917a72eb245440ef18ba9b54c070ee39aa4c343ae126f",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_5bb1470d7543ba3ab733b182_0",
+      "kind": "h2",
+      "source": "Disabling authentication__TRILIUM_PH_0__",
+      "sourceHash": "5bb1470d7543ba3ab733b182a9670c5c4676f63511afaeff0f9dfc3d1c79ae2d",
+      "context": "Authentication > Disabling authentication",
+      "contextHash": "1a84bf993b46185be663ea39931468d13d3a9c7ecdf5c6f46d44ffc5b1388ae0",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_65676a69355a9c7cc1fe7d4e_0",
+      "kind": "p",
+      "source": "If you are running Trilium on __TRILIUM_PH_0__ only or if authentication is handled by another component, you can disable Trilium’s authentication by adding the following to __TRILIUM_PH_1__:",
+      "sourceHash": "65676a69355a9c7cc1fe7d4e40e3fcc5ac3b51a490573a676ea1085773e57124",
+      "context": "Authentication > Disabling authentication",
+      "contextHash": "1a84bf993b46185be663ea39931468d13d3a9c7ecdf5c6f46d44ffc5b1388ae0",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_36f21807ecd958c439cd67bb_0",
+      "kind": "p",
+      "source": "Disabling authentication will bypass even the __TRILIUM_PH_0__Multi-Factor Authentication__TRILIUM_PH_1__ since v0.94.1.",
+      "sourceHash": "36f21807ecd958c439cd67bb64ae011a256c723f9f9a973cee908b1813043785",
+      "context": "Authentication > Disabling authentication",
+      "contextHash": "1a84bf993b46185be663ea39931468d13d3a9c7ecdf5c6f46d44ffc5b1388ae0",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_3e9402f5cf2e684276345560_0",
+      "kind": "h2",
+      "source": "Brute-force protection__TRILIUM_PH_0__",
+      "sourceHash": "3e9402f5cf2e68427634556099799b8a155574735b4325429be53413697c69a4",
+      "context": "Authentication > Brute-force protection",
+      "contextHash": "fa6b36801319649de67062bd6fcbb302754df7af5dc95e4a0c5f5e8faf3f10c0",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_4305402aadb45cc1a6133e63_0",
+      "kind": "p",
+      "source": "Trilium limits each IP address to 10 failed sign-in attempts in 15 minutes. Once an address reaches the limit, Trilium rejects every further attempt from it, including correct ones, until the 15 minutes have passed. The sign-in page then shows __TRILIUM_PH_0__Too many login attempts__TRILIUM_PH_1__; other clients receive HTTP status 429.",
+      "sourceHash": "4305402aadb45cc1a6133e63abec20cc70addba24b387ce4ba73c89fd941b60a",
+      "context": "Authentication > Brute-force protection",
+      "contextHash": "fa6b36801319649de67062bd6fcbb302754df7af5dc95e4a0c5f5e8faf3f10c0",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_d1995ca0dd9fd7b05c98489c_0",
+      "kind": "p",
+      "source": "The limit applies to every way of signing in with the password:",
+      "sourceHash": "d1995ca0dd9fd7b05c98489c9f985c8818e2454ae512cc233b1d3e2987920529",
+      "context": "Authentication > Brute-force protection",
+      "contextHash": "fa6b36801319649de67062bd6fcbb302754df7af5dc95e4a0c5f5e8faf3f10c0",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_13733dd9ffd7c0789af30687_0",
+      "kind": "li",
+      "source": "The sign-in page.",
+      "sourceHash": "13733dd9ffd7c0789af30687cc1a88576d0b22ebab95e521767d952c734b7633",
+      "context": "Authentication > Brute-force protection",
+      "contextHash": "fa6b36801319649de67062bd6fcbb302754df7af5dc95e4a0c5f5e8faf3f10c0",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_78c1148727c2ac1ae11005d3_0",
+      "kind": "li",
+      "source": "Setting up __TRILIUM_PH_0__Synchronization__TRILIUM_PH_1__ from a desktop or mobile app.",
+      "sourceHash": "78c1148727c2ac1ae11005d3c7e83d66d34f7fb4ea6205258fe327467864e671",
+      "context": "Authentication > Brute-force protection",
+      "contextHash": "fa6b36801319649de67062bd6fcbb302754df7af5dc95e4a0c5f5e8faf3f10c0",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_cb37b24646390c5618380c45_0",
+      "kind": "li",
+      "source": "Connecting the __TRILIUM_PH_0__Web Clipper__TRILIUM_PH_1__ or the Android sender app.",
+      "sourceHash": "cb37b24646390c5618380c453ce469cbfcf3d255ad6ff145131c4be66c83ede6",
+      "context": "Authentication > Brute-force protection",
+      "contextHash": "fa6b36801319649de67062bd6fcbb302754df7af5dc95e4a0c5f5e8faf3f10c0",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_0502fad861ee9161c9a4025a_0",
+      "kind": "li",
+      "source": "Requesting a token through __TRILIUM_PH_0__ETAPI (REST API)__TRILIUM_PH_1__.",
+      "sourceHash": "0502fad861ee9161c9a4025a5f9c3f05d2cae421e77f4cf08e4ffbaaabc0ab32",
+      "context": "Authentication > Brute-force protection",
+      "contextHash": "fa6b36801319649de67062bd6fcbb302754df7af5dc95e4a0c5f5e8faf3f10c0",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_00400fbd6e19d6d4d6f36236_0",
+      "kind": "p",
+      "source": "All of these count toward the same limit, and a wrong password, a wrong one-time password and a wrong recovery code each count as one failed attempt. Successful sign-ins are not counted.",
+      "sourceHash": "00400fbd6e19d6d4d6f3623636816bb252a0b6b02cad48289feacefdc3d5f3fa",
+      "context": "Authentication > Brute-force protection",
+      "contextHash": "fa6b36801319649de67062bd6fcbb302754df7af5dc95e4a0c5f5e8faf3f10c0",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_dbeabe53ca5984cb192bc425_0",
+      "kind": "p",
+      "source": "The limit is per IP address, not per account, so an attacker cannot lock you out by failing to sign in from their own address. The count is kept in memory: restarting the server clears it.",
+      "sourceHash": "dbeabe53ca5984cb192bc4259e9d486c81108527ffa68b13fea432e9366d1cca",
+      "context": "Authentication > Brute-force protection",
+      "contextHash": "fa6b36801319649de67062bd6fcbb302754df7af5dc95e4a0c5f5e8faf3f10c0",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_654c52898a57015102c4191f_0",
+      "kind": "p",
+      "source": "Behind a reverse proxy, Trilium sees every request as coming from the proxy unless it is configured as a __TRILIUM_PH_0__Trusted proxy__TRILIUM_PH_1__. All clients then share a single limit, so a few wrong attempts from anyone block everyone.",
+      "sourceHash": "654c52898a57015102c4191fe42f16732293e4b44c85fdda8b5f9bf7263f56ad",
+      "context": "Authentication > Brute-force protection",
+      "contextHash": "fa6b36801319649de67062bd6fcbb302754df7af5dc95e4a0c5f5e8faf3f10c0",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_45287a69b70c855cdb14dc45_0",
+      "kind": "h3",
+      "source": "Blocking repeated failures with fail2ban__TRILIUM_PH_0__",
+      "sourceHash": "45287a69b70c855cdb14dc4542abc3f01801ec2eaf786dfe8c481f60f63a50b9",
+      "context": "Authentication > Brute-force protection > Blocking repeated failures with fail2ban",
+      "contextHash": "48c3591260f1e0d5b85406a000565ed3e630abb0e35f6ea8533c84eb76c87c83",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_17a1601a20e92f397cdcdef8_0",
+      "kind": "p",
+      "source": "A failed attempt on the sign-in page is answered with HTTP status 401 and recorded in the __TRILIUM_PH_0__Backend (server) logs__TRILIUM_PH_1__ as:",
+      "sourceHash": "17a1601a20e92f397cdcdef82af8e4523b70febb6e4d277cbd747a946c7aa3b4",
+      "context": "Authentication > Brute-force protection > Blocking repeated failures with fail2ban",
+      "contextHash": "48c3591260f1e0d5b85406a000565ed3e630abb0e35f6ea8533c84eb76c87c83",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_a300f26bb6e7dd2785d08de8_0",
+      "kind": "p",
+      "source": "When __TRILIUM_PH_0__Multi-Factor Authentication__TRILIUM_PH_1__ is enabled, a wrong one-time password or recovery code is logged as __TRILIUM_PH_2__ instead. Tools such as fail2ban can match either the log line or the 401 responses to __TRILIUM_PH_3__ in the reverse proxy's access log to block an address for longer than 15 minutes.",
+      "sourceHash": "a300f26bb6e7dd2785d08de8bd060aeac2fe01c3705c48f174c1fc14e34f5e05",
+      "context": "Authentication > Brute-force protection > Blocking repeated failures with fail2ban",
+      "contextHash": "48c3591260f1e0d5b85406a000565ed3e630abb0e35f6ea8533c84eb76c87c83",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_f4b0542940596610807e8d9e_0",
+      "kind": "h2",
+      "source": "Understanding how the session works__TRILIUM_PH_0__",
+      "sourceHash": "f4b0542940596610807e8d9ef9fe07971374c874431285cbbc51233e58edcafb",
+      "context": "Authentication > Understanding how the session works",
+      "contextHash": "6d910eca40c2aa36e45b06aaaf9de45487ff914175aa502fb65e075cfc9d5e4f",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_7ff4a39e4e27134da43fedfb_0",
+      "kind": "p",
+      "source": "Once logged into Trilium, the application will store this information about the login into a cookie on the browser, but also as a session on the server.",
+      "sourceHash": "7ff4a39e4e27134da43fedfbfec077de187a3f3aba834632ca9b62c90f33e16f",
+      "context": "Authentication > Understanding how the session works",
+      "contextHash": "6d910eca40c2aa36e45b06aaaf9de45487ff914175aa502fb65e075cfc9d5e4f",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_b8e55ba818bc6c938f9bf70f_0",
+      "kind": "p",
+      "source": "If “Remember me” is checked, then the login will expire in 21 days. This period can be adjusted by modifying the __TRILIUM_PH_0__ value in __TRILIUM_PH_1__. For example, to have the session expire in one day:",
+      "sourceHash": "b8e55ba818bc6c938f9bf70f20a9dabd0fe86c999639f1d08b8355da7227dcee",
+      "context": "Authentication > Understanding how the session works",
+      "contextHash": "6d910eca40c2aa36e45b06aaaf9de45487ff914175aa502fb65e075cfc9d5e4f",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_1fb9f000cd79ed86af89bb60_0",
+      "kind": "p",
+      "source": "When “Remember me” is unchecked, the behavior is different. At client/browser level the authentication does not have any expiration date, but it will be automatically cleared as soon as the user closes the browser. Nevertheless, the server will also dismiss this authentication in around 24 hours from the __TRILIUM_PH_0__last interaction with the application__TRILIUM_PH_1__.",
+      "sourceHash": "1fb9f000cd79ed86af89bb60ab7900cdeb0db89ef18b2d4facf4282dcc49a824",
+      "context": "Authentication > Understanding how the session works",
+      "contextHash": "6d910eca40c2aa36e45b06aaaf9de45487ff914175aa502fb65e075cfc9d5e4f",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_b40fa9ca4dd2255ae1d6d128_0",
+      "kind": "p",
+      "source": "Changing or resetting the password logs out every session, including the one that made the change: open tabs return to the login screen, where you log in again with the new password. This also applies when the password is changed on another instance and reaches the server through synchronization.",
+      "sourceHash": "b40fa9ca4dd2255ae1d6d12841306e4000cb3830e9e45829f0540599d2af8e2a",
+      "context": "Authentication > Understanding how the session works",
+      "contextHash": "6d910eca40c2aa36e45b06aaaf9de45487ff914175aa502fb65e075cfc9d5e4f",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_5ef8fc3fd8abc5c9ae5f6dab_0",
+      "kind": "p",
+      "source": "Changing the password does not revoke __TRILIUM_PH_0__ETAPI (REST API)__TRILIUM_PH_1__ tokens. They are separate credentials for scripts and integrations, and they keep working until you delete them. If you suspect that someone has obtained your session cookie, change the password, then go to __TRILIUM_PH_2__Options__TRILIUM_PH_3__ → __TRILIUM_PH_4__ETAPI__TRILIUM_PH_5__ and delete any token you don't recognize by its name and __TRILIUM_PH_6__Created__TRILIUM_PH_7__ date, since anyone with your session can create new tokens.",
+      "sourceHash": "5ef8fc3fd8abc5c9ae5f6dabd5803a9b551019df098df934f0ce46feee99fea0",
+      "context": "Authentication > Understanding how the session works",
+      "contextHash": "6d910eca40c2aa36e45b06aaaf9de45487ff914175aa502fb65e075cfc9d5e4f",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_aff8a426281235566f5a2268_0",
+      "kind": "h2",
+      "source": "Viewing active sessions__TRILIUM_PH_0__",
+      "sourceHash": "aff8a426281235566f5a2268466818a03a5967a42935c87c937eb16b7fcfa7b0",
+      "context": "Authentication > Viewing active sessions",
+      "contextHash": "c8ec43ff2db5da13f48ea3e65299979e1525916a65df1b0786c49e0ddde73826",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_a8ff0193b5bc7ca92619ed9e_0",
+      "kind": "p",
+      "source": "The login sessions are now stored in the same __TRILIUM_PH_0__Database__TRILIUM_PH_1__ as the user data. In order to view which sessions are active, open the __TRILIUM_PH_2__SQL Console__TRILIUM_PH_3__ and run the following query:",
+      "sourceHash": "a8ff0193b5bc7ca92619ed9e1ff93b3e244ac105d1a5fec5c77ec3c77d21d4b0",
+      "context": "Authentication > Viewing active sessions",
+      "contextHash": "c8ec43ff2db5da13f48ea3e65299979e1525916a65df1b0786c49e0ddde73826",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_02ae7f725d7c3a844d94d694_0",
+      "kind": "p",
+      "source": "Expired sessions are periodically cleaned by the server, generally an hourly interval.",
+      "sourceHash": "02ae7f725d7c3a844d94d6942c8c179a9420dd4a41083da8af45d4f279dcf926",
+      "context": "Authentication > Viewing active sessions",
+      "contextHash": "c8ec43ff2db5da13f48ea3e65299979e1525916a65df1b0786c49e0ddde73826",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_b056715d5493280169407022_0",
+      "kind": "h2",
+      "source": "See also__TRILIUM_PH_0__",
+      "sourceHash": "b056715d549328016940702234a644413c07c0558c4f59edcc3d85ec15afe208",
+      "context": "Authentication > See also",
+      "contextHash": "aa93bf70ddc427517f6a47304ff6e1428ab654398183f8c8c3fe9656f251b4f6",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_0794872140e012b697d74c5c_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__Multi-Factor Authentication__TRILIUM_PH_1__",
+      "sourceHash": "0794872140e012b697d74c5c8ba4b1617e9dd37ccfca3c1bf16d58ed4dbb71d3",
+      "context": "Authentication > See also",
+      "contextHash": "aa93bf70ddc427517f6a47304ff6e1428ab654398183f8c8c3fe9656f251b4f6",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_57dfa180ca1ed630274557ea_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__Trusted proxy__TRILIUM_PH_1__",
+      "sourceHash": "57dfa180ca1ed630274557eac881cd94007cb27c8841c25f09f2244999c9fa44",
+      "context": "Authentication > See also",
+      "contextHash": "aa93bf70ddc427517f6a47304ff6e1428ab654398183f8c8c3fe9656f251b4f6",
+      "status": "pending",
+      "active": true
+    }
+  ],
+  "requests": []
+}

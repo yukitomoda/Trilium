@@ -1,0 +1,1096 @@
+{
+  "schemaVersion": 1,
+  "pageId": "x1lQNKQBqLcA",
+  "sourceFile": "docs/User Guide/User Guide/Installation & Setup/Server Installation/Signing in with OpenID Connect.md",
+  "sourceRevision": "03d17b60f59b5efc29b880b11481471d0fe0ff57",
+  "units": [
+    {
+      "id": "u_3689c7a08168cb1a2d58c4e2_0",
+      "kind": "title",
+      "source": "Signing in with OpenID Connect",
+      "sourceHash": "3689c7a08168cb1a2d58c4e2d6f278869b9867c4983e9cdf348b8d89be8fca53",
+      "context": "Signing in with OpenID Connect",
+      "contextHash": "85eb5677b4f75923012d9bfb491fa0f4569fddbf3d800c34098d3ca99d1bec37",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_9cd6729d91b251211ae53be2_0",
+      "kind": "p",
+      "source": "OpenID is a standardized way to let you log into websites using an account from another service, like Google or Authelia, to verify your identity.",
+      "sourceHash": "9cd6729d91b251211ae53be2b831fb9a83d04dff1a97e4814673f4897e90db72",
+      "context": "Signing in with OpenID Connect",
+      "contextHash": "85eb5677b4f75923012d9bfb491fa0f4569fddbf3d800c34098d3ca99d1bec37",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_98b84385a569135a925267ed_0",
+      "kind": "p",
+      "source": "When OpenID is activated, the password-based authentication in Trilium is replaced with a button that connects using your provider. This means that the configuration of __TRILIUM_PH_0__Multi-factor authentication with TOTP__TRILIUM_PH_1__ no longer takes effect, since your provider has to handle any multi-factor authentication.",
+      "sourceHash": "98b84385a569135a925267ed39021f24af4bd57e35d6de00ab6d6c9991e3c48d",
+      "context": "Signing in with OpenID Connect",
+      "contextHash": "85eb5677b4f75923012d9bfb491fa0f4569fddbf3d800c34098d3ca99d1bec37",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_d7f6c27c2b1b976cbc752835_0",
+      "kind": "h2",
+      "source": "Setup__TRILIUM_PH_0__",
+      "sourceHash": "d7f6c27c2b1b976cbc7528351898f5e1bd2b5aa1d152c509818e3061141f5e9f",
+      "context": "Signing in with OpenID Connect > Setup",
+      "contextHash": "a33bcda973a0f3bc05fefab5060017b540cb2a777dfbe60066489a0247474964",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_65fa878631037863d4245a72_0",
+      "kind": "p",
+      "source": "Setting up authentication with OpenID connect is a two-step process:",
+      "sourceHash": "65fa878631037863d4245a72ab909655d49ffa84d8aef7c49b0d7e83a68bbbe2",
+      "context": "Signing in with OpenID Connect > Setup",
+      "contextHash": "a33bcda973a0f3bc05fefab5060017b540cb2a777dfbe60066489a0247474964",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_95da33e2a22bec11a8bf7fe0_0",
+      "kind": "li",
+      "source": "First the Trilium server must be configured with information about your authentication provider such as the URL, client ID and secret.",
+      "sourceHash": "95da33e2a22bec11a8bf7fe0bb0bf92b600ffa9881704456301e8fb0eb19c023",
+      "context": "Signing in with OpenID Connect > Setup",
+      "contextHash": "a33bcda973a0f3bc05fefab5060017b540cb2a777dfbe60066489a0247474964",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_0fbe4e3efc754f0e671fa544_0",
+      "kind": "li",
+      "source": "Second, the user must connect from options to create a link between the account on the provider and the one Trilium has.",
+      "sourceHash": "0fbe4e3efc754f0e671fa544bc201279cd325a96855f15b79502807378781221",
+      "context": "Signing in with OpenID Connect > Setup",
+      "contextHash": "a33bcda973a0f3bc05fefab5060017b540cb2a777dfbe60066489a0247474964",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_e7fdde6b79516c7918be786a_0",
+      "kind": "h3",
+      "source": "Configuring the authentication provider__TRILIUM_PH_0__",
+      "sourceHash": "e7fdde6b79516c7918be786ad038af33ecb3cdef86bb42d0a6ec02c7169189e9",
+      "context": "Signing in with OpenID Connect > Setup > Configuring the authentication provider",
+      "contextHash": "03165a1559a5e4e52bef9bd4fcab381084db665293fd9e811f01c3456555fada",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_a9153c9aaaed0be60ade75bf_0",
+      "kind": "p",
+      "source": "First, make sure the authentication provider (e.g. Google, Authelia) is configured properly. See __TRILIUM_PH_0__Setting up with various providers__TRILIUM_PH_1__ for concrete examples.",
+      "sourceHash": "a9153c9aaaed0be60ade75bf24701a46b8fe394a052eb37b1319b30731ac3313",
+      "context": "Signing in with OpenID Connect > Setup > Configuring the authentication provider",
+      "contextHash": "03165a1559a5e4e52bef9bd4fcab381084db665293fd9e811f01c3456555fada",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_7dcb74dc6bd3dc18d5970afd_0",
+      "kind": "li",
+      "source": "The redirect URL of Trilium is __TRILIUM_PH_0__.",
+      "sourceHash": "7dcb74dc6bd3dc18d5970afd9d7cd236ab759851c4c61a96fbfb02fedf5ad14e",
+      "context": "Signing in with OpenID Connect > Setup > Configuring the authentication provider",
+      "contextHash": "03165a1559a5e4e52bef9bd4fcab381084db665293fd9e811f01c3456555fada",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_069c4a3c45aba75d97f3da6b_0",
+      "kind": "li",
+      "source": "You should obtain the base URL, client ID and client secret.",
+      "sourceHash": "069c4a3c45aba75d97f3da6b1fefa48315a78d068ba73a91ee25d446693728d6",
+      "context": "Signing in with OpenID Connect > Setup > Configuring the authentication provider",
+      "contextHash": "03165a1559a5e4e52bef9bd4fcab381084db665293fd9e811f01c3456555fada",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_edd5cd8891215f9d6df20ca3_0",
+      "kind": "p",
+      "source": "Set the following information using __TRILIUM_PH_0__Configuration (config.ini or environment variables)__TRILIUM_PH_1__:",
+      "sourceHash": "edd5cd8891215f9d6df20ca3f3e01cb5a0e21497229178bf59e0189b2a7ea942",
+      "context": "Signing in with OpenID Connect > Setup > Configuring the authentication provider",
+      "contextHash": "03165a1559a5e4e52bef9bd4fcab381084db665293fd9e811f01c3456555fada",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_d8ee7ff2e00f2a89725999cb_0",
+      "kind": "th",
+      "source": "Configuration",
+      "sourceHash": "d8ee7ff2e00f2a89725999cb60f55e265d1201d7d7f02388a97efaaba7e5ca03",
+      "context": "Signing in with OpenID Connect > Setup > Configuring the authentication provider",
+      "contextHash": "03165a1559a5e4e52bef9bd4fcab381084db665293fd9e811f01c3456555fada",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_374b27ee779195b72a6ff759_0",
+      "kind": "th",
+      "source": "__TRILIUM_PH_0__ in __TRILIUM_PH_1__ section",
+      "sourceHash": "374b27ee779195b72a6ff7598e08968db201cfa6129c238357aabb55dfd0f8b4",
+      "context": "Signing in with OpenID Connect > Setup > Configuring the authentication provider",
+      "contextHash": "03165a1559a5e4e52bef9bd4fcab381084db665293fd9e811f01c3456555fada",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_22bcf0b971d23347ba3d327e_0",
+      "kind": "th",
+      "source": "Environment variable",
+      "sourceHash": "22bcf0b971d23347ba3d327ec14fa86266f0d1f632b52ddb28f80700261adad2",
+      "context": "Signing in with OpenID Connect > Setup > Configuring the authentication provider",
+      "contextHash": "03165a1559a5e4e52bef9bd4fcab381084db665293fd9e811f01c3456555fada",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_4b00baa636b92e18b7a75884_0",
+      "kind": "th",
+      "source": "Description",
+      "sourceHash": "4b00baa636b92e18b7a75884790f0769c3e702d20d8822e708f69ab2f07c7103",
+      "context": "Signing in with OpenID Connect > Setup > Configuring the authentication provider",
+      "contextHash": "03165a1559a5e4e52bef9bd4fcab381084db665293fd9e811f01c3456555fada",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_b8647db4421679d4be40f386_0",
+      "kind": "td",
+      "source": "Base URL*",
+      "sourceHash": "b8647db4421679d4be40f3862d9317ad349582929df3bbca3f1ea732d5c63a28",
+      "context": "Signing in with OpenID Connect > Setup > Configuring the authentication provider",
+      "contextHash": "03165a1559a5e4e52bef9bd4fcab381084db665293fd9e811f01c3456555fada",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_02bb9bdf2701f109ba8ab324_0",
+      "kind": "td",
+      "source": "The URL of your Trilium instance (e.g. __TRILIUM_PH_0__).",
+      "sourceHash": "02bb9bdf2701f109ba8ab32460a00c0be1378bdc8920695e3615aa13b724c2e2",
+      "context": "Signing in with OpenID Connect > Setup > Configuring the authentication provider",
+      "contextHash": "03165a1559a5e4e52bef9bd4fcab381084db665293fd9e811f01c3456555fada",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_b018c888f4f0c483a55f1c43_0",
+      "kind": "td",
+      "source": "Client ID*",
+      "sourceHash": "b018c888f4f0c483a55f1c43b6dd4f1d4dd23e130f4637384eedeaed8b543740",
+      "context": "Signing in with OpenID Connect > Setup > Configuring the authentication provider",
+      "contextHash": "03165a1559a5e4e52bef9bd4fcab381084db665293fd9e811f01c3456555fada",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_d3bcf7fc11d612350c210c1b_0",
+      "kind": "td",
+      "source": "The client ID from your provider configuration.",
+      "sourceHash": "d3bcf7fc11d612350c210c1b22412afffea12e3eae4c00ef4e4a04f23a5f78a2",
+      "context": "Signing in with OpenID Connect > Setup > Configuring the authentication provider",
+      "contextHash": "03165a1559a5e4e52bef9bd4fcab381084db665293fd9e811f01c3456555fada",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_5d6cb644574a6b114e3688b4_0",
+      "kind": "td",
+      "source": "Client Secret*",
+      "sourceHash": "5d6cb644574a6b114e3688b43444114de71f0512f8e1647b83a0708519f4e83d",
+      "context": "Signing in with OpenID Connect > Setup > Configuring the authentication provider",
+      "contextHash": "03165a1559a5e4e52bef9bd4fcab381084db665293fd9e811f01c3456555fada",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_4b4652d5c27e0ee928c5705a_0",
+      "kind": "td",
+      "source": "The client secret from your provider configuration.",
+      "sourceHash": "4b4652d5c27e0ee928c5705adce2b7fe40dd9fe1d0c072a5dac8283ca0e4ea33",
+      "context": "Signing in with OpenID Connect > Setup > Configuring the authentication provider",
+      "contextHash": "03165a1559a5e4e52bef9bd4fcab381084db665293fd9e811f01c3456555fada",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_fc69ec6d538f25868ba35b37_0",
+      "kind": "td",
+      "source": "Client auth method",
+      "sourceHash": "fc69ec6d538f25868ba35b37a7f3d4fd0bf5d66147d23febf378ce3e9bf4ce51",
+      "context": "Signing in with OpenID Connect > Setup > Configuring the authentication provider",
+      "contextHash": "03165a1559a5e4e52bef9bd4fcab381084db665293fd9e811f01c3456555fada",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_a4433f034e8f6c7b56b4c2fc_0",
+      "kind": "td",
+      "source": "Token-endpoint auth method: __TRILIUM_PH_0__ or __TRILIUM_PH_1__. Empty auto-detects.  Only needed if sign-in fails with a __TRILIUM_PH_2__ or __TRILIUM_PH_3__ error.",
+      "sourceHash": "a4433f034e8f6c7b56b4c2fcfa20f865d1693d2832ebef012b5e5b4a37ca235e",
+      "context": "Signing in with OpenID Connect > Setup > Configuring the authentication provider",
+      "contextHash": "03165a1559a5e4e52bef9bd4fcab381084db665293fd9e811f01c3456555fada",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_eda521d2e24e3b066ab7230e_0",
+      "kind": "td",
+      "source": "ID token algorithm",
+      "sourceHash": "eda521d2e24e3b066ab7230e1a468a50c0157c285a2de07e3b6f2d579760330b",
+      "context": "Signing in with OpenID Connect > Setup > Configuring the authentication provider",
+      "contextHash": "03165a1559a5e4e52bef9bd4fcab381084db665293fd9e811f01c3456555fada",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_5392775aeb33f8a5629a8209_0",
+      "kind": "td",
+      "source": "__TRILIUM_PH_0__The algorithm your provider signs ID tokens with, e.g.__TRILIUM_PH_1__ __TRILIUM_PH_2____TRILIUM_PH_3__,__TRILIUM_PH_4__ __TRILIUM_PH_5____TRILIUM_PH_6__,__TRILIUM_PH_7__ __TRILIUM_PH_8____TRILIUM_PH_9__. Empty auto-detects from the provider. Only needed if sign-in fails with an__TRILIUM_PH_10__ __TRILIUM_PH_11__ __TRILIUM_PH_12__error.__TRILIUM_PH_13__",
+      "sourceHash": "5392775aeb33f8a5629a8209e344ae373280e2de36e60e0c8b10bec5ef8547c5",
+      "context": "Signing in with OpenID Connect > Setup > Configuring the authentication provider",
+      "contextHash": "03165a1559a5e4e52bef9bd4fcab381084db665293fd9e811f01c3456555fada",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_d2dce6f13b8e5338304b8ab7_0",
+      "kind": "p",
+      "source": "Asterisk (*) marks a required field",
+      "sourceHash": "d2dce6f13b8e5338304b8ab7586cfb1a94991cd2c2d21dc615a5469264858f8a",
+      "context": "Signing in with OpenID Connect > Setup > Configuring the authentication provider",
+      "contextHash": "03165a1559a5e4e52bef9bd4fcab381084db665293fd9e811f01c3456555fada",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_d573a44a2d5b8c862107e1b6_0",
+      "kind": "p",
+      "source": "The default OAuth issuer is Google. To use other services such as Authentik or Auth0, you can configure the settings via __TRILIUM_PH_0__, __TRILIUM_PH_1__, and __TRILIUM_PH_2__ in the __TRILIUM_PH_3__ file. Alternatively, these values can be set using environment variables:",
+      "sourceHash": "d573a44a2d5b8c862107e1b6d3c688c46465b3557fe5635e8f11910541de7d59",
+      "context": "Signing in with OpenID Connect > Setup > Configuring the authentication provider",
+      "contextHash": "03165a1559a5e4e52bef9bd4fcab381084db665293fd9e811f01c3456555fada",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_d8ee7ff2e00f2a89725999cb_1",
+      "kind": "th",
+      "source": "Configuration",
+      "sourceHash": "d8ee7ff2e00f2a89725999cb60f55e265d1201d7d7f02388a97efaaba7e5ca03",
+      "context": "Signing in with OpenID Connect > Setup > Configuring the authentication provider",
+      "contextHash": "03165a1559a5e4e52bef9bd4fcab381084db665293fd9e811f01c3456555fada",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_374b27ee779195b72a6ff759_1",
+      "kind": "th",
+      "source": "__TRILIUM_PH_0__ in __TRILIUM_PH_1__ section",
+      "sourceHash": "374b27ee779195b72a6ff7598e08968db201cfa6129c238357aabb55dfd0f8b4",
+      "context": "Signing in with OpenID Connect > Setup > Configuring the authentication provider",
+      "contextHash": "03165a1559a5e4e52bef9bd4fcab381084db665293fd9e811f01c3456555fada",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_22bcf0b971d23347ba3d327e_1",
+      "kind": "th",
+      "source": "Environment variable",
+      "sourceHash": "22bcf0b971d23347ba3d327ec14fa86266f0d1f632b52ddb28f80700261adad2",
+      "context": "Signing in with OpenID Connect > Setup > Configuring the authentication provider",
+      "contextHash": "03165a1559a5e4e52bef9bd4fcab381084db665293fd9e811f01c3456555fada",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_4b00baa636b92e18b7a75884_1",
+      "kind": "th",
+      "source": "Description",
+      "sourceHash": "4b00baa636b92e18b7a75884790f0769c3e702d20d8822e708f69ab2f07c7103",
+      "context": "Signing in with OpenID Connect > Setup > Configuring the authentication provider",
+      "contextHash": "03165a1559a5e4e52bef9bd4fcab381084db665293fd9e811f01c3456555fada",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_a3371a4520a4151327a30ee5_0",
+      "kind": "td",
+      "source": "Issuer base URL",
+      "sourceHash": "a3371a4520a4151327a30ee5431fb5c528026c4cb1ba221658db044f4eb934b2",
+      "context": "Signing in with OpenID Connect > Setup > Configuring the authentication provider",
+      "contextHash": "03165a1559a5e4e52bef9bd4fcab381084db665293fd9e811f01c3456555fada",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_8e799918ff10855fb73a4b72_0",
+      "kind": "td",
+      "source": "Either the issuer itself (__TRILIUM_PH_0__) or a full discovery URL (__TRILIUM_PH_1__).  __TRILIUM_PH_2__  __TRILIUM_PH_3__A URL containing __TRILIUM_PH_4__ is used as-is__TRILIUM_PH_5__, which is convenient when your provider hands you a discovery URL to copy. A trailing slash may be included or omitted; Trilium matches whichever spelling the provider advertises.__TRILIUM_PH_6__  __TRILIUM_PH_7__  __TRILIUM_PH_8__Use the full form when your provider advertises an issuer that differs from the path serving its discovery document, such as Authentik in \"global\" issuer mode.",
+      "sourceHash": "8e799918ff10855fb73a4b720d861483a4a9f978408d5d4a9d8cd0d60432446a",
+      "context": "Signing in with OpenID Connect > Setup > Configuring the authentication provider",
+      "contextHash": "03165a1559a5e4e52bef9bd4fcab381084db665293fd9e811f01c3456555fada",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_0552c12e5e7e75e0cfdcf8d3_0",
+      "kind": "td",
+      "source": "Issuer name",
+      "sourceHash": "0552c12e5e7e75e0cfdcf8d335014d6609a7102cf565a2afcbdde086a1db2323",
+      "context": "Signing in with OpenID Connect > Setup > Configuring the authentication provider",
+      "contextHash": "03165a1559a5e4e52bef9bd4fcab381084db665293fd9e811f01c3456555fada",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_ac4c86ae802ac3e4ecfa0693_0",
+      "kind": "td",
+      "source": "The name of your authentication provider, used for reference on the login screen and in settings. Default is “Google”.",
+      "sourceHash": "ac4c86ae802ac3e4ecfa06935ebc5cb98cc436ba3d74a6682beb239223a24419",
+      "context": "Signing in with OpenID Connect > Setup > Configuring the authentication provider",
+      "contextHash": "03165a1559a5e4e52bef9bd4fcab381084db665293fd9e811f01c3456555fada",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_b68ab9527c8c038ae156f95d_0",
+      "kind": "td",
+      "source": "Issuer icon",
+      "sourceHash": "b68ab9527c8c038ae156f95d9006607157f85eab2ae388715cb091d7be2d73c1",
+      "context": "Signing in with OpenID Connect > Setup > Configuring the authentication provider",
+      "contextHash": "03165a1559a5e4e52bef9bd4fcab381084db665293fd9e811f01c3456555fada",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_64f9e1d0a478d8fb76e61b72_0",
+      "kind": "td",
+      "source": "Optionally, the URL to a logo of the provider. By default it will try to obtain the favicon from the website, so it's optional.",
+      "sourceHash": "64f9e1d0a478d8fb76e61b729c78625e5b259f94f6524f4dd80a452e8a7d9591",
+      "context": "Signing in with OpenID Connect > Setup > Configuring the authentication provider",
+      "contextHash": "03165a1559a5e4e52bef9bd4fcab381084db665293fd9e811f01c3456555fada",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_18d31a2fe14e4c7b7d653646_0",
+      "kind": "p",
+      "source": "All the fields here are optional, since the default OAuth issuer is Google.",
+      "sourceHash": "18d31a2fe14e4c7b7d653646440235ab2a0a1a36057feae98543212b46f9b69c",
+      "context": "Signing in with OpenID Connect > Setup > Configuring the authentication provider",
+      "contextHash": "03165a1559a5e4e52bef9bd4fcab381084db665293fd9e811f01c3456555fada",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_3e9825e6aa4fc2a3163b6604_0",
+      "kind": "p",
+      "source": "Optionally, tune the following advanced settings. All are optional and have sensible defaults:",
+      "sourceHash": "3e9825e6aa4fc2a3163b6604b28bef9c8321c3caac860694c2b9fd0adb6b97cb",
+      "context": "Signing in with OpenID Connect > Setup > Configuring the authentication provider",
+      "contextHash": "03165a1559a5e4e52bef9bd4fcab381084db665293fd9e811f01c3456555fada",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_d8ee7ff2e00f2a89725999cb_2",
+      "kind": "th",
+      "source": "Configuration",
+      "sourceHash": "d8ee7ff2e00f2a89725999cb60f55e265d1201d7d7f02388a97efaaba7e5ca03",
+      "context": "Signing in with OpenID Connect > Setup > Configuring the authentication provider",
+      "contextHash": "03165a1559a5e4e52bef9bd4fcab381084db665293fd9e811f01c3456555fada",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_374b27ee779195b72a6ff759_2",
+      "kind": "th",
+      "source": "__TRILIUM_PH_0__ in __TRILIUM_PH_1__ section",
+      "sourceHash": "374b27ee779195b72a6ff7598e08968db201cfa6129c238357aabb55dfd0f8b4",
+      "context": "Signing in with OpenID Connect > Setup > Configuring the authentication provider",
+      "contextHash": "03165a1559a5e4e52bef9bd4fcab381084db665293fd9e811f01c3456555fada",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_22bcf0b971d23347ba3d327e_2",
+      "kind": "th",
+      "source": "Environment variable",
+      "sourceHash": "22bcf0b971d23347ba3d327ec14fa86266f0d1f632b52ddb28f80700261adad2",
+      "context": "Signing in with OpenID Connect > Setup > Configuring the authentication provider",
+      "contextHash": "03165a1559a5e4e52bef9bd4fcab381084db665293fd9e811f01c3456555fada",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_4b00baa636b92e18b7a75884_2",
+      "kind": "th",
+      "source": "Description",
+      "sourceHash": "4b00baa636b92e18b7a75884790f0769c3e702d20d8822e708f69ab2f07c7103",
+      "context": "Signing in with OpenID Connect > Setup > Configuring the authentication provider",
+      "contextHash": "03165a1559a5e4e52bef9bd4fcab381084db665293fd9e811f01c3456555fada",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_ba81e718f2ac16d642320571_0",
+      "kind": "td",
+      "source": "HTTP timeout",
+      "sourceHash": "ba81e718f2ac16d6423205713ee705ff4794607207c45b07697737d3721f436c",
+      "context": "Signing in with OpenID Connect > Setup > Configuring the authentication provider",
+      "contextHash": "03165a1559a5e4e52bef9bd4fcab381084db665293fd9e811f01c3456555fada",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_82754bef829baae3f5b1e463_0",
+      "kind": "td",
+      "source": "Timeout in milliseconds for the provider HTTP requests (discovery, token exchange, userinfo). Defaults to __TRILIUM_PH_0__ (30s). Raise this if your provider cold-starts slowly and you are occasionally asked to sign in twice. Minimum accepted value is __TRILIUM_PH_1__.",
+      "sourceHash": "82754bef829baae3f5b1e4630169a380de99fe8bbf15ac095bfc8cbb632dbe16",
+      "context": "Signing in with OpenID Connect > Setup > Configuring the authentication provider",
+      "contextHash": "03165a1559a5e4e52bef9bd4fcab381084db665293fd9e811f01c3456555fada",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_56fd94c63f3cb7a13fd571a3_0",
+      "kind": "td",
+      "source": "Scopes",
+      "sourceHash": "56fd94c63f3cb7a13fd571a35305bea37af728513f078254bbb8b109ddc437c2",
+      "context": "Signing in with OpenID Connect > Setup > Configuring the authentication provider",
+      "contextHash": "03165a1559a5e4e52bef9bd4fcab381084db665293fd9e811f01c3456555fada",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_95acaf4f40911e9214a3b156_0",
+      "kind": "td",
+      "source": "Space-separated list of OIDC scopes requested at login. Defaults to __TRILIUM_PH_0__. __TRILIUM_PH_1__ is required and is prepended automatically if you omit it.",
+      "sourceHash": "95acaf4f40911e9214a3b156a19e59d839922d8f5eb0fb1380b8f203e269a0ca",
+      "context": "Signing in with OpenID Connect > Setup > Configuring the authentication provider",
+      "contextHash": "03165a1559a5e4e52bef9bd4fcab381084db665293fd9e811f01c3456555fada",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_9dfc05208b7ba5d100647337_0",
+      "kind": "p",
+      "source": "The OIDC session lifetime is automatically bound to Trilium's own session cookie lifetime (the __TRILIUM_PH_0__ setting in the __TRILIUM_PH_1__ section, 21 days by default), so a single sign-in stays valid for as long as your Trilium session does rather than expiring early on the OIDC library's shorter internal defaults.",
+      "sourceHash": "9dfc05208b7ba5d100647337d2754a02f0793d8a33b6837cb0e4410772629c4f",
+      "context": "Signing in with OpenID Connect > Setup > Configuring the authentication provider",
+      "contextHash": "03165a1559a5e4e52bef9bd4fcab381084db665293fd9e811f01c3456555fada",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_30d163f43e0f903e54042909_0",
+      "kind": "p",
+      "source": "Restart the server so that the changes are applied.",
+      "sourceHash": "30d163f43e0f903e5404290932a50b826e78a39dc230c7d2cf9ae5799cab4ca2",
+      "context": "Signing in with OpenID Connect > Setup > Configuring the authentication provider",
+      "contextHash": "03165a1559a5e4e52bef9bd4fcab381084db665293fd9e811f01c3456555fada",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_105e33369690b8c71d9fbb37_0",
+      "kind": "p",
+      "source": "Legacy environment variables are also supported: __TRILIUM_PH_0__, __TRILIUM_PH_1__, __TRILIUM_PH_2__, and for customizing the provider: __TRILIUM_PH_3__, __TRILIUM_PH_4__, __TRILIUM_PH_5__, __TRILIUM_PH_6__, __TRILIUM_PH_7__, __TRILIUM_PH_8__, __TRILIUM_PH_9__.",
+      "sourceHash": "105e33369690b8c71d9fbb37d0424d2525e154bbacc2fda741e7765b2b342273",
+      "context": "Signing in with OpenID Connect > Setup > Configuring the authentication provider",
+      "contextHash": "03165a1559a5e4e52bef9bd4fcab381084db665293fd9e811f01c3456555fada",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_c456de8cd429147c31faa41e_0",
+      "kind": "h2",
+      "source": "Connecting to the authentication provider__TRILIUM_PH_0__",
+      "sourceHash": "c456de8cd429147c31faa41ef67d19ecf58e0f30b63c7b0746e0603cc363eb02",
+      "context": "Signing in with OpenID Connect > Connecting to the authentication provider",
+      "contextHash": "bd5de4d36ccd1b45a8e24154bfebf9d4284e1c73826e6fa64adc0baaa74e04e5",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_1f0fccfba8fb697afc1d5bd4_0",
+      "kind": "p",
+      "source": "Once the server has been configured at the previous step, the next step is to create a link between your account on the authentication provider and the Trilium instance. This makes sure that only you can access the Trilium instance, and not just any other valid account.",
+      "sourceHash": "1f0fccfba8fb697afc1d5bd4e042b719ec8e898351b2da91fdf37130d53d4cc6",
+      "context": "Signing in with OpenID Connect > Connecting to the authentication provider",
+      "contextHash": "bd5de4d36ccd1b45a8e24154bfebf9d4284e1c73826e6fa64adc0baaa74e04e5",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_4aa592f328e007e456668e14_0",
+      "kind": "p",
+      "source": "To do so:",
+      "sourceHash": "4aa592f328e007e456668e14c5218dcb1f38831eca67cb0f8cb725b769ca8c0e",
+      "context": "Signing in with OpenID Connect > Connecting to the authentication provider",
+      "contextHash": "bd5de4d36ccd1b45a8e24154bfebf9d4284e1c73826e6fa64adc0baaa74e04e5",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_f2bb324c737a8e6c52ce493e_0",
+      "kind": "li",
+      "source": "Go to __TRILIUM_PH_0__Options__TRILIUM_PH_1__ → __TRILIUM_PH_2__Password & Auth.__TRILIUM_PH_3__",
+      "sourceHash": "f2bb324c737a8e6c52ce493efe961655822487f460e62903e3427c21f6e2d6ea",
+      "context": "Signing in with OpenID Connect > Connecting to the authentication provider",
+      "contextHash": "bd5de4d36ccd1b45a8e24154bfebf9d4284e1c73826e6fa64adc0baaa74e04e5",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_58f0b6220ae5a187ee7bab9b_0",
+      "kind": "li",
+      "source": "In the __TRILIUM_PH_0__Sign-in with__TRILIUM_PH_1__ field, choose __TRILIUM_PH_2__OpenID Connect provider.__TRILIUM_PH_3__",
+      "sourceHash": "58f0b6220ae5a187ee7bab9b261400732632f7d0b7e78fa3df797b9373b05e9f",
+      "context": "Signing in with OpenID Connect > Connecting to the authentication provider",
+      "contextHash": "bd5de4d36ccd1b45a8e24154bfebf9d4284e1c73826e6fa64adc0baaa74e04e5",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_53a955a539b1413d35898077_0",
+      "kind": "li",
+      "source": "In the __TRILIUM_PH_0__OpenID Connect__TRILIUM_PH_1__ section, look for the __TRILIUM_PH_2__Connect account__TRILIUM_PH_3__ (__TRILIUM_PH_4__) button.",
+      "sourceHash": "53a955a539b1413d3589807798a7121face0374d2db801984946f525b283c639",
+      "context": "Signing in with OpenID Connect > Connecting to the authentication provider",
+      "contextHash": "bd5de4d36ccd1b45a8e24154bfebf9d4284e1c73826e6fa64adc0baaa74e04e5",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_45a3d5061279ee48ccb6b15a_0",
+      "kind": "li",
+      "source": "This will redirect you to your authentication provider, where you can sign in or confirm the action if needed.",
+      "sourceHash": "45a3d5061279ee48ccb6b15a1d63c1d5efd215fdca3adca869e2a995940f4b9f",
+      "context": "Signing in with OpenID Connect > Connecting to the authentication provider",
+      "contextHash": "bd5de4d36ccd1b45a8e24154bfebf9d4284e1c73826e6fa64adc0baaa74e04e5",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_ae0ad28327c86fcd72d821c9_0",
+      "kind": "li",
+      "source": "Once you are authenticated you will be redirected back to the Trilium application.",
+      "sourceHash": "ae0ad28327c86fcd72d821c93b9be47009e0c69d3438bd0c4453865cfbfbe653",
+      "context": "Signing in with OpenID Connect > Connecting to the authentication provider",
+      "contextHash": "bd5de4d36ccd1b45a8e24154bfebf9d4284e1c73826e6fa64adc0baaa74e04e5",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_b12c7cd9c50af6f745a34147_0",
+      "kind": "h2",
+      "source": "Logging out__TRILIUM_PH_0__",
+      "sourceHash": "b12c7cd9c50af6f745a34147ba71c29bbda72989217ae9ca525e0ca8efe2eb9a",
+      "context": "Signing in with OpenID Connect > Logging out",
+      "contextHash": "b6962ea2bd53a8845375526baa2dafb66bac53387a62d63ef20edbe790bb7fbd",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_34ff3978487591a93a0e5917_0",
+      "kind": "p",
+      "source": "When logging out of Trilium, a request is made to the authentication provider to log out from there as well. This feature depends on the authentication provider, so it may not be honored (Google and Authelia are known cases in which they don't respect the logout feature).",
+      "sourceHash": "34ff3978487591a93a0e5917c5f696dc9842b0bf98c05cb346c8b17c1e593bfd",
+      "context": "Signing in with OpenID Connect > Logging out",
+      "contextHash": "b6962ea2bd53a8845375526baa2dafb66bac53387a62d63ef20edbe790bb7fbd",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_0090b57e49444d86ddb999eb_0",
+      "kind": "h2",
+      "source": "Switching providers__TRILIUM_PH_0__",
+      "sourceHash": "0090b57e49444d86ddb999eb611c588e6be5159adbe7d7f926b3eda139c969cb",
+      "context": "Signing in with OpenID Connect > Switching providers",
+      "contextHash": "86efff3a2fb09ce1c8804ff0082777297bbf94a7b9ef544bfdab3131bb89528f",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_0386f5e9f3301e53a7bfdf25_0",
+      "kind": "p",
+      "source": "When switching providers (e.g. going from Google to Authelia), it's important to take the following steps:",
+      "sourceHash": "0386f5e9f3301e53a7bfdf255a387acc00b025e9b2ba0cd1b97f2dcc4c9a4b68",
+      "context": "Signing in with OpenID Connect > Switching providers",
+      "contextHash": "86efff3a2fb09ce1c8804ff0082777297bbf94a7b9ef544bfdab3131bb89528f",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_16bc4731b69ff38333cf3e21_0",
+      "kind": "li",
+      "source": "Go to __TRILIUM_PH_0__Options__TRILIUM_PH_1__ → __TRILIUM_PH_2__Password & Auth__TRILIUM_PH_3__.",
+      "sourceHash": "16bc4731b69ff38333cf3e21732265e1b398d1670e0bdac4333c3a32fc862b7c",
+      "context": "Signing in with OpenID Connect > Switching providers",
+      "contextHash": "86efff3a2fb09ce1c8804ff0082777297bbf94a7b9ef544bfdab3131bb89528f",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_ddd44939f8c99b09e30299e4_0",
+      "kind": "li",
+      "source": "In the __TRILIUM_PH_0__OpenID Connect__TRILIUM_PH_1__ section, press the __TRILIUM_PH_2__Disconnect__TRILIUM_PH_3__ (__TRILIUM_PH_4__) button.",
+      "sourceHash": "ddd44939f8c99b09e30299e460aed832228a9457876d0a8c1f838f95bf3afdb6",
+      "context": "Signing in with OpenID Connect > Switching providers",
+      "contextHash": "86efff3a2fb09ce1c8804ff0082777297bbf94a7b9ef544bfdab3131bb89528f",
+      "status": "translated",
+      "active": true,
+      "translation": "__TRILIUM_PH_0__OpenID Connect__TRILIUM_PH_1__ セクションで、__TRILIUM_PH_2__切断__TRILIUM_PH_3__ (__TRILIUM_PH_4__) ボタンを押します。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_a6c5b9223d9263632d59a1eb_0",
+      "kind": "li",
+      "source": "Wait for the section to indicate that you are disconnected.",
+      "sourceHash": "a6c5b9223d9263632d59a1ebd8b3d5a61c5937482e85401e8601330ed0a9da05",
+      "context": "Signing in with OpenID Connect > Switching providers",
+      "contextHash": "86efff3a2fb09ce1c8804ff0082777297bbf94a7b9ef544bfdab3131bb89528f",
+      "status": "translated",
+      "active": true,
+      "translation": "セクションに切断されたことが表示されるまで待ちます。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_4b091317ea3435dfaab8c6d6_0",
+      "kind": "li",
+      "source": "Change the configuration pointing to the new provider.",
+      "sourceHash": "4b091317ea3435dfaab8c6d6f9394cb8e82bc637fd809c887d17db85b81ff15d",
+      "context": "Signing in with OpenID Connect > Switching providers",
+      "contextHash": "86efff3a2fb09ce1c8804ff0082777297bbf94a7b9ef544bfdab3131bb89528f",
+      "status": "translated",
+      "active": true,
+      "translation": "新しいプロバイダを指すように設定を変更します。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_a1b3897bc1aebd6f72691dab_0",
+      "kind": "li",
+      "source": "Restart your server.",
+      "sourceHash": "a1b3897bc1aebd6f72691dab76366ad3c00a63f3af970ef1369adee87af3320b",
+      "context": "Signing in with OpenID Connect > Switching providers",
+      "contextHash": "86efff3a2fb09ce1c8804ff0082777297bbf94a7b9ef544bfdab3131bb89528f",
+      "status": "translated",
+      "active": true,
+      "translation": "サーバーを再起動します。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_79e24cbf61b732923d9fe5cc_0",
+      "kind": "li",
+      "source": "Repeat the normal steps to connect to the authentication provider.",
+      "sourceHash": "79e24cbf61b732923d9fe5ccedd88c241bfbd10e53a140927f665521bd200388",
+      "context": "Signing in with OpenID Connect > Switching providers",
+      "contextHash": "86efff3a2fb09ce1c8804ff0082777297bbf94a7b9ef544bfdab3131bb89528f",
+      "status": "translated",
+      "active": true,
+      "translation": "通常のステップを繰り返して認証プロバイダに接続します。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_16ea312463c0b834a0864f1d_0",
+      "kind": "p",
+      "source": "Failing to disconnect before switching providers might temporarily lock you in, as you will not be able to login (credentials won't match). Should this happen:",
+      "sourceHash": "16ea312463c0b834a0864f1d6807fdf5f1b9c4b40c2fc62dfa07c0bc4e11961c",
+      "context": "Signing in with OpenID Connect > Switching providers",
+      "contextHash": "86efff3a2fb09ce1c8804ff0082777297bbf94a7b9ef544bfdab3131bb89528f",
+      "status": "translated",
+      "active": true,
+      "translation": "プロバイダを切り替える前に切断を行わないと、ログインできなくなる（資格情報が一致しなくなる）ため、一時的にロックされる可能性があります。これが発生した場合：",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_40ca2691dab3b13705adbfa2_0",
+      "kind": "li",
+      "source": "Modify the server configuration again to your old provider.",
+      "sourceHash": "40ca2691dab3b13705adbfa2283a812a437e41a215594c775162d35d8f9f86bc",
+      "context": "Signing in with OpenID Connect > Switching providers",
+      "contextHash": "86efff3a2fb09ce1c8804ff0082777297bbf94a7b9ef544bfdab3131bb89528f",
+      "status": "translated",
+      "active": true,
+      "translation": "サーバーの設定を再度古いプロバイダに変更します。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_c271f15a698aa062ee51b7b6_0",
+      "kind": "li",
+      "source": "Restart the server and follow the disconnect instructions above.",
+      "sourceHash": "c271f15a698aa062ee51b7b6256f6a780edd41825a029d5e6df61df0efbb63db",
+      "context": "Signing in with OpenID Connect > Switching providers",
+      "contextHash": "86efff3a2fb09ce1c8804ff0082777297bbf94a7b9ef544bfdab3131bb89528f",
+      "status": "translated",
+      "active": true,
+      "translation": "サーバーを再起動し、上記の切断の手順に従います。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_83df90881820040f291de60e_0",
+      "kind": "li",
+      "source": "Modify the server configuration again to your new provider.",
+      "sourceHash": "83df90881820040f291de60e560c49746a8fb36887c23661ce948a63fd956b9f",
+      "context": "Signing in with OpenID Connect > Switching providers",
+      "contextHash": "86efff3a2fb09ce1c8804ff0082777297bbf94a7b9ef544bfdab3131bb89528f",
+      "status": "translated",
+      "active": true,
+      "translation": "サーバーの設定を再度新しいプロバイダに変更します。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_580ced28c11d06a1e747c9bf_0",
+      "kind": "li",
+      "source": "Restart again the server.",
+      "sourceHash": "580ced28c11d06a1e747c9bfa444a1527d51d80517d9beae4d2f6be8eb55a47a",
+      "context": "Signing in with OpenID Connect > Switching providers",
+      "contextHash": "86efff3a2fb09ce1c8804ff0082777297bbf94a7b9ef544bfdab3131bb89528f",
+      "status": "translated",
+      "active": true,
+      "translation": "サーバーを再度再起動します。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_044532ae8db0147e58e70ca7_0",
+      "kind": "h2",
+      "source": "Deactivating OpenID Connect temporarily__TRILIUM_PH_0__",
+      "sourceHash": "044532ae8db0147e58e70ca753ce5d3b9302babf5f3621636c219d053278b6b5",
+      "context": "Signing in with OpenID Connect > Deactivating OpenID Connect temporarily",
+      "contextHash": "5850a69667e9f26b6dd3dbbaf09e2ee42c562e3b426275f5a6ec6805b63989f2",
+      "status": "translated",
+      "active": true,
+      "translation": "OpenID Connectを一時的に無効化する__TRILIUM_PH_0__",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_9a5379626ab9bb952f19ac76_0",
+      "kind": "p",
+      "source": "To disable the OpenID Connect authentication and instead rely on the local password temporarily, you must:",
+      "sourceHash": "9a5379626ab9bb952f19ac76be4b0f2173c2c5afb978a0491d85c9ea214164f2",
+      "context": "Signing in with OpenID Connect > Deactivating OpenID Connect temporarily",
+      "contextHash": "5850a69667e9f26b6dd3dbbaf09e2ee42c562e3b426275f5a6ec6805b63989f2",
+      "status": "translated",
+      "active": true,
+      "translation": "OpenID Connect認証を無効にし、代わりに一時的にローカルのパスワードを使用するには、次の操作を行う必要があります：",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_686c1cd81b18aa8cd0488097_0",
+      "kind": "li",
+      "source": "Modify the __TRILIUM_PH_0__ or environment variables (depending on how you set up the provider information) and temporarily deactivate the multi-factor authentication section by renaming __TRILIUM_PH_1__ to something else (e.g. __TRILIUM_PH_2__.",
+      "sourceHash": "686c1cd81b18aa8cd0488097340e02084e27efe8ff2ccb1f403fb1de1802d8cb",
+      "context": "Signing in with OpenID Connect > Deactivating OpenID Connect temporarily",
+      "contextHash": "5850a69667e9f26b6dd3dbbaf09e2ee42c562e3b426275f5a6ec6805b63989f2",
+      "status": "translated",
+      "active": true,
+      "translation": "__TRILIUM_PH_0__ または環境変数（プロバイダ情報のセットアップ方法による）を変更し、__TRILIUM_PH_1__ を別の名前にリネームするなどして（例：__TRILIUM_PH_2__）、多要素認証セクションを一時的に非アクティブ化します。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_880479551ab4599e2af24536_0",
+      "kind": "li",
+      "source": "Restart the server for the changes to take effect.",
+      "sourceHash": "880479551ab4599e2af2453673965b3b651cfaa3aae2e0203e03af4f054957c7",
+      "context": "Signing in with OpenID Connect > Deactivating OpenID Connect temporarily",
+      "contextHash": "5850a69667e9f26b6dd3dbbaf09e2ee42c562e3b426275f5a6ec6805b63989f2",
+      "status": "translated",
+      "active": true,
+      "translation": "変更を有効にするためにサーバーを再起動します。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_5c4f67f3fb841108e53d69c8_0",
+      "kind": "h2",
+      "source": "Troubleshooting__TRILIUM_PH_0__",
+      "sourceHash": "5c4f67f3fb841108e53d69c8ce322181eace69685f15933df9615ad35f2d53b4",
+      "context": "Signing in with OpenID Connect > Troubleshooting",
+      "contextHash": "f27c066b53df463849d48014664005c6ba1874a78dfc6b9811a6ca7f35940825",
+      "status": "translated",
+      "active": true,
+      "translation": "トラブルシューティング__TRILIUM_PH_0__",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_7c64b73a0cc8775962cc7c91_0",
+      "kind": "h3",
+      "source": "Setup fails with a __TRILIUM_PH_0__ or __TRILIUM_PH_1__ error__TRILIUM_PH_2__",
+      "sourceHash": "7c64b73a0cc8775962cc7c9145e49eb2c75467dd0ce5e36187f526647fde00df",
+      "context": "Signing in with OpenID Connect > Troubleshooting > Setup fails with a WWW-Authenticate or invalid_client error",
+      "contextHash": "aafac34c091577c680f3a0eaa190bf5f77c42baf567f3a9b1b73a5b1d9cdb867",
+      "status": "translated",
+      "active": true,
+      "translation": "__TRILIUM_PH_0__ または __TRILIUM_PH_1__ エラーでセットアップが失敗する__TRILIUM_PH_2__",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_9103feaae76d1b11e6ea2947_0",
+      "kind": "p",
+      "source": "Your provider disagrees with Trilium about how client credentials should be sent to the token endpoint. Set __TRILIUM_PH_0__ to __TRILIUM_PH_1__ (or __TRILIUM_PH_2__ if it's already set to post) and restart. Providers vary: some reject __TRILIUM_PH_3__ outright because the method is fixed when the client is registered (e.g. Authelia), so if one value doesn't work, try the other.",
+      "sourceHash": "9103feaae76d1b11e6ea2947926894b14277d795734de095d96423a8a48f16ce",
+      "context": "Signing in with OpenID Connect > Troubleshooting > Setup fails with a WWW-Authenticate or invalid_client error",
+      "contextHash": "aafac34c091577c680f3a0eaa190bf5f77c42baf567f3a9b1b73a5b1d9cdb867",
+      "status": "translated",
+      "active": true,
+      "translation": "プロバイダーと Trilium の間で、トークンエンドポイントへのクライアント認証情報の送信方法に関する見解が一致していません。__TRILIUM_PH_0__ を __TRILIUM_PH_1__（またはすでに post に設定されている場合は __TRILIUM_PH_2__）に設定して再起動してください。プロバイダーによって異なりますが、（Authelia のように）クライアント登録時に方式が固定されているため __TRILIUM_PH_3__ を完全に拒否するものもあります。そのため、一方の値でうまくいかない場合は、もう一方を試してください。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_58de100cd3566318297a6c15_0",
+      "kind": "h3",
+      "source": "Setup fails with __TRILIUM_PH_0____TRILIUM_PH_1__",
+      "sourceHash": "58de100cd3566318297a6c1570bf9670bfc80ec4df9e7c5b49fd6087df09a4b4",
+      "context": "Signing in with OpenID Connect > Troubleshooting > Setup fails with invalid user",
+      "contextHash": "83e6a42d1ab99cae8fe2ea66e262153a283e9c72e2c186218bbe43d7dcd9342d",
+      "status": "translated",
+      "active": true,
+      "translation": "セットアップが __TRILIUM_PH_0____TRILIUM_PH_1__ で失敗する",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_8998507175f704a378a520c9_0",
+      "kind": "p",
+      "source": "If you are running behind a __TRILIUM_PH_0__reverse proxy__TRILIUM_PH_1__, a buffer overflow can also cause this issue. Here is a sample fix for __TRILIUM_PH_2__Nginx__TRILIUM_PH_3__: ",
+      "sourceHash": "8998507175f704a378a520c96b44ec44f6d06e80771048b63e5026df3156605c",
+      "context": "Signing in with OpenID Connect > Troubleshooting > Setup fails with invalid user",
+      "contextHash": "83e6a42d1ab99cae8fe2ea66e262153a283e9c72e2c186218bbe43d7dcd9342d",
+      "status": "translated",
+      "active": true,
+      "translation": "__TRILIUM_PH_0__リバースプロキシ__TRILIUM_PH_1__ の背後で実行している場合、バッファオーバーフローが原因でこの問題が発生することもあります。__TRILIUM_PH_2__Nginx__TRILIUM_PH_3__ の修正サンプルは以下の通りです：",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_64b39e60ce8bd26197f2eca9_0",
+      "kind": "h3",
+      "source": "Setup fails with an __TRILIUM_PH_0__ error__TRILIUM_PH_1__",
+      "sourceHash": "64b39e60ce8bd26197f2eca9d8e3dce13d22237632e4628cd2f7e0d5060f198a",
+      "context": "Signing in with OpenID Connect > Troubleshooting > Setup fails with an unexpected JWT alg error",
+      "contextHash": "ea4e978931117eb33f28592da8607b94f11c4871551a33b61e6028bb7a1446f9",
+      "status": "translated",
+      "active": true,
+      "translation": "セットアップが __TRILIUM_PH_0__ エラー__TRILIUM_PH_1__ で失敗する",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_21317612bb6ee6ba263d7250_0",
+      "kind": "p",
+      "source": "Depending on your version the message reads __TRILIUM_PH_0__ or __TRILIUM_PH_1__. Both mean the same thing: your provider signs ID tokens with an algorithm other than RS256. Pocket ID (Ed25519) and Kanidm (ES256) do this.",
+      "sourceHash": "21317612bb6ee6ba263d7250887dbe821f9ffafe394873a69f07915755e319f0",
+      "context": "Signing in with OpenID Connect > Troubleshooting > Setup fails with an unexpected JWT alg error",
+      "contextHash": "ea4e978931117eb33f28592da8607b94f11c4871551a33b61e6028bb7a1446f9",
+      "status": "translated",
+      "active": true,
+      "translation": "バージョンによっては、メッセージが __TRILIUM_PH_0__ または __TRILIUM_PH_1__ と表示されます。どちらも同じ意味であり、プロバイダーが RS256 以外のアルゴリズムで ID トークンに署名していることを示しています。Pocket ID (Ed25519) や Kanidm (ES256) などがこれに該当します。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_3cd721055a4f61a4d96681d0_0",
+      "kind": "p",
+      "source": "From v0.104.2 Trilium detects the algorithm from your provider automatically, and the log records the outcome (__TRILIUM_PH_0__). If detection can't reach the provider it falls back to RS256, so check that the issuer URL is correct and reachable first. Should it still fail, set __TRILIUM_PH_1__ explicitly to the algorithm your provider uses.",
+      "sourceHash": "3cd721055a4f61a4d96681d0e519f985a847b82d4ee2d7fde255c6cf4e71cff5",
+      "context": "Signing in with OpenID Connect > Troubleshooting > Setup fails with an unexpected JWT alg error",
+      "contextHash": "ea4e978931117eb33f28592da8607b94f11c4871551a33b61e6028bb7a1446f9",
+      "status": "translated",
+      "active": true,
+      "translation": "v0.104.2 以降、Trilium はプロバイダーからアルゴリズムを自動的に検出し、ログにその結果が記録されます（__TRILIUM_PH_0__）。検出がプロバイダーに到達できない場合は RS256 にフォールバックするため、まず発行者（issuer）の URL が正しく到達可能であるか確認してください。それでも失敗する場合は、__TRILIUM_PH_1__ をプロバイダーが使用しているアルゴリズムに明示的に設定してください。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_58de100cd3566318297a6c15_1",
+      "kind": "h3",
+      "source": "Setup fails with __TRILIUM_PH_0____TRILIUM_PH_1__",
+      "sourceHash": "58de100cd3566318297a6c1570bf9670bfc80ec4df9e7c5b49fd6087df09a4b4",
+      "context": "Signing in with OpenID Connect > Troubleshooting > Setup fails with OAUTH_RESPONSE_IS_NOT_CONFORM",
+      "contextHash": "4576745a96567803d176978ad5db4a8615c9298e59930359e10bb07a39166b28",
+      "status": "translated",
+      "active": true,
+      "translation": "セットアップが __TRILIUM_PH_0____TRILIUM_PH_1__ で失敗する",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_c75b1f9101b83555f6a4df58_0",
+      "kind": "p",
+      "source": "Make sure the base URL is correct and that the identity provider actually supports OpenID Connect. Some providers such as GitHub offer only OAuth 2.0.",
+      "sourceHash": "c75b1f9101b83555f6a4df58d23d9660d7d813f41ceb216ff91c1a6120ec5623",
+      "context": "Signing in with OpenID Connect > Troubleshooting > Setup fails with OAUTH_RESPONSE_IS_NOT_CONFORM",
+      "contextHash": "4576745a96567803d176978ad5db4a8615c9298e59930359e10bb07a39166b28",
+      "status": "translated",
+      "active": true,
+      "translation": "ベース URL が正しいこと、およびIDプロバイダーが実際に OpenID Connect をサポートしていることを確認してください。GitHub などの一部のプロバイダーは OAuth 2.0 のみを提供しています。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    }
+  ],
+  "requests": [
+    {
+      "at": "2026-11-14T11:28:45.803Z",
+      "model": "gemini-3.5-flash-lite",
+      "batchJob": "batches/02spwqy837h8pi7qzqmeo4fgsqo7bgs45hwh",
+      "requestKey": "x1lQNKQBqLcA_2cd1242b4bec0c59",
+      "modelVersion": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 1346,
+        "candidatesTokenCount": 823,
+        "totalTokenCount": 2169,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 1346
+          }
+        ],
+        "serviceTier": "standard"
+      }
+    },
+    {
+      "at": "2026-11-14T11:28:45.803Z",
+      "model": "gemini-3.5-flash-lite",
+      "batchJob": "batches/02spwqy837h8pi7qzqmeo4fgsqo7bgs45hwh",
+      "requestKey": "x1lQNKQBqLcA_d156d852a44c089d",
+      "modelVersion": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 1167,
+        "candidatesTokenCount": 806,
+        "totalTokenCount": 1973,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 1167
+          }
+        ],
+        "serviceTier": "standard"
+      }
+    }
+  ]
+}

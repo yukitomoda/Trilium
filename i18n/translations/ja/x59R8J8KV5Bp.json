@@ -1,0 +1,89 @@
+{
+  "schemaVersion": 1,
+  "pageId": "x59R8J8KV5Bp",
+  "sourceFile": "docs/User Guide/User Guide/Troubleshooting/Anonymized Database.md",
+  "sourceRevision": "03d17b60f59b5efc29b880b11481471d0fe0ff57",
+  "units": [
+    {
+      "id": "u_9a4493ffb9f1533d2f738ec8_0",
+      "kind": "title",
+      "source": "Anonymized Database",
+      "sourceHash": "9a4493ffb9f1533d2f738ec81eb8d34881a9f933a3f813e89ce39dc18c9e3007",
+      "context": "Anonymized Database",
+      "contextHash": "a063b1a36454eb9ad4b7a0612b5cd5f1e82d39bedc423719a5509db0186451e4",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_ffa71e239fd9e04440037834_0",
+      "kind": "p",
+      "source": "In certain scenarios, understanding the structure of a database is crucial for troubleshooting issues. However, sharing your actual __TRILIUM_PH_0__database__TRILIUM_PH_1__ file with personal notes is not advisable. To address this, Trilium offers a feature to anonymize the database. This feature can be accessed via Menu -> Options -> Advanced tab.",
+      "sourceHash": "ffa71e239fd9e044400378347b4b8ea2da10c0871b3182aeba13a015dad5d428",
+      "context": "Anonymized Database",
+      "contextHash": "a063b1a36454eb9ad4b7a0612b5cd5f1e82d39bedc423719a5509db0186451e4",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_31d36330d93d6a635331e80a_0",
+      "kind": "p",
+      "source": "This feature creates a copy of your database with all sensitive data removed. Specifically, it strips out note titles, contents, revisions, history, and some non-system attributes while retaining the overall structure and metadata, such as modification dates. After anonymization, the database undergoes a __TRILIUM_PH_0__vacuuming process__TRILIUM_PH_1__ to ensure no sensitive data remnants remain in the file. The anonymized database is saved in the __TRILIUM_PH_2__ directory within the __TRILIUM_PH_3__data directory__TRILIUM_PH_4__, making it safe to share with bug reports.",
+      "sourceHash": "31d36330d93d6a635331e80aadc6d43734edb1144c66c12b1a1b5f8ee3bbec40",
+      "context": "Anonymized Database",
+      "contextHash": "a063b1a36454eb9ad4b7a0612b5cd5f1e82d39bedc423719a5509db0186451e4",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_c7c435ee32b780b9de9a09a1_0",
+      "kind": "p",
+      "source": "This will create a copy of your document and remove all sensitive data (currently note titles, contents, revisions, history and some of the options, and non-system attributes) while leaving all structure and metadata (e.g. date of last change). After this is done, the database is __TRILIUM_PH_0__VACUUMed__TRILIUM_PH_1__ to make sure there's no stale sensitive data in the document file. The resulting file is stored in __TRILIUM_PH_2__ directory (placed in the __TRILIUM_PH_3__data directory__TRILIUM_PH_4__). You can safely attach it to a bug report.",
+      "sourceHash": "c7c435ee32b780b9de9a09a1286b8f9b218d5fa89394667155c61112d84965ff",
+      "context": "Anonymized Database",
+      "contextHash": "a063b1a36454eb9ad4b7a0612b5cd5f1e82d39bedc423719a5509db0186451e4",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_8e2fa6c3bc7782426c463246_0",
+      "kind": "h2",
+      "source": "Command Line Anonymization__TRILIUM_PH_0__",
+      "sourceHash": "8e2fa6c3bc7782426c463246f51788faaac940196ce41189f9be0e8801981af7",
+      "context": "Anonymized Database > Command Line Anonymization",
+      "contextHash": "3f20909ddf48440e15fc2c4762e49fbc9deadf3dd4d0615d85fa1ad516d30407",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_ab313730ff316aa5f086aaca_0",
+      "kind": "p",
+      "source": "If your __TRILIUM_PH_0__database__TRILIUM_PH_1__ is corrupted to the point where Trilium cannot start, the anonymization process can still be executed via the command line:",
+      "sourceHash": "ab313730ff316aa5f086aacae2bf113c2b725ac6bd2498de7a7b948040e9ad64",
+      "context": "Anonymized Database > Command Line Anonymization",
+      "contextHash": "3f20909ddf48440e15fc2c4762e49fbc9deadf3dd4d0615d85fa1ad516d30407",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_ee54d14fe95555a95afb2e0d_0",
+      "kind": "p",
+      "source": "Run this command from the directory containing Trilium's source files, typically found in the __TRILIUM_PH_0__ directory for desktop builds.",
+      "sourceHash": "ee54d14fe95555a95afb2e0d6236d1b251bf9b45f0e2486efc485deb6e45e14d",
+      "context": "Anonymized Database > Command Line Anonymization",
+      "contextHash": "3f20909ddf48440e15fc2c4762e49fbc9deadf3dd4d0615d85fa1ad516d30407",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_b190d47815633246b0ab18a6_0",
+      "kind": "image-alt",
+      "source": "記事画像",
+      "sourceHash": "b190d47815633246b0ab18a61d9b8e8ea36504fe3f8bc230a7753096915c9ff2",
+      "context": "Anonymized Database > Command Line Anonymization",
+      "contextHash": "3f20909ddf48440e15fc2c4762e49fbc9deadf3dd4d0615d85fa1ad516d30407",
+      "status": "pending",
+      "active": true
+    }
+  ],
+  "requests": []
+}

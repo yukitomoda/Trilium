@@ -1,0 +1,371 @@
+{
+  "schemaVersion": 1,
+  "pageId": "LLzSMXACKhUs",
+  "sourceFile": "docs/User Guide/User Guide/Installation & Setup/Server Installation/2. Reverse proxy/Trusted proxy.md",
+  "sourceRevision": "03d17b60f59b5efc29b880b11481471d0fe0ff57",
+  "units": [
+    {
+      "id": "u_88221245c85ac64574e3ed6b_0",
+      "kind": "title",
+      "source": "Trusted proxy",
+      "sourceHash": "88221245c85ac64574e3ed6b68ee38061cfa751dd439d0020f2eeda716c99ad8",
+      "context": "Trusted proxy",
+      "contextHash": "e708f76d9c728b6dbe5353ecdd39036d7c11dadde67f30ed63c4d70957077fd9",
+      "status": "translated",
+      "active": true,
+      "translation": "信頼されたプロキシ",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_b7fae963cb1f5b8c6793dd24_0",
+      "kind": "p",
+      "source": "If you are running the Trilium server under a __TRILIUM_PH_0__reverse proxy__TRILIUM_PH_1__, it's important to configure it as a trusted proxy so that the application can correctly identify the real IP address of the clients. Trilium uses that address for __TRILIUM_PH_2__brute-force protection__TRILIUM_PH_3__, for the failed sign-in entries in its logs and to detect whether the connection was made over HTTPS.",
+      "sourceHash": "b7fae963cb1f5b8c6793dd24226745e08928d4746557d428c3c5e08dea5d0d15",
+      "context": "Trusted proxy",
+      "contextHash": "e708f76d9c728b6dbe5353ecdd39036d7c11dadde67f30ed63c4d70957077fd9",
+      "status": "translated",
+      "active": true,
+      "translation": "Triliumサーバーを__TRILIUM_PH_0__リバースプロキシ__TRILIUM_PH_1__配下で実行している場合は、アプリケーションがクライアントの実際のIPアドレスを正しく識別できるように、信頼されたプロキシとして設定することが重要です。Triliumは、そのアドレスを__TRILIUM_PH_2__総当たり攻撃からの保護__TRILIUM_PH_3__、ログ内のサインイン失敗エントリ、および接続がHTTPS経由で行われたかどうかの検出に使用します。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_7c9bb348a470e8e2b811766b_0",
+      "kind": "p",
+      "source": "Without this setting, every request appears to come from the reverse proxy, so all clients share a single limit of failed sign-in attempts.",
+      "sourceHash": "7c9bb348a470e8e2b811766bd32d5a34475aaa1b308006354a330e1d43d2aeea",
+      "context": "Trusted proxy",
+      "contextHash": "e708f76d9c728b6dbe5353ecdd39036d7c11dadde67f30ed63c4d70957077fd9",
+      "status": "translated",
+      "active": true,
+      "translation": "この設定を行わないと、すべてのリクエストがリバースプロキシからのものとして表示されるため、すべてのクライアントがサインイン失敗の試行回数に関する制限を共有することになります。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_f388e3c6d00390fb5d1a2bee_0",
+      "kind": "h2",
+      "source": "Configuring the trusted proxy__TRILIUM_PH_0__",
+      "sourceHash": "f388e3c6d00390fb5d1a2beee18dbcd82c41b9fed136b018bba15b2fcf0a0cfa",
+      "context": "Trusted proxy > Configuring the trusted proxy",
+      "contextHash": "b29bb46ecf90c968d1eef13e6645709c91fb082894bfa4d8f17edf1e48d06efc",
+      "status": "translated",
+      "active": true,
+      "translation": "信頼されたプロキシの設定__TRILIUM_PH_0__",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_adf100cc22aaa2ea55f1de0d_0",
+      "kind": "p",
+      "source": "To trust the reverse proxy, modify __TRILIUM_PH_0__Configuration (config.ini or environment variables)__TRILIUM_PH_1__ and set __TRILIUM_PH_2__ to the address the reverse proxy connects to Trilium from:",
+      "sourceHash": "adf100cc22aaa2ea55f1de0dbeecf2e48daf226cb1f5872d0f88e4d78d1aac24",
+      "context": "Trusted proxy > Configuring the trusted proxy",
+      "contextHash": "b29bb46ecf90c968d1eef13e6645709c91fb082894bfa4d8f17edf1e48d06efc",
+      "status": "translated",
+      "active": true,
+      "translation": "リバースプロキシを信頼するには、__TRILIUM_PH_0__設定（config.iniまたは環境変数）__TRILIUM_PH_1__を修正し、__TRILIUM_PH_2__にリバースプロキシがTriliumへ接続する際のアドレスを設定します。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_53ffcac66729bd06ba051385_0",
+      "kind": "p",
+      "source": "The value is a comma-separated list of IP addresses, subnets in CIDR notation or one of the following names:",
+      "sourceHash": "53ffcac66729bd06ba0513851df4a84cb6aace60d24ba28b5cceaa7646b27bf6",
+      "context": "Trusted proxy > Configuring the trusted proxy",
+      "contextHash": "b29bb46ecf90c968d1eef13e6645709c91fb082894bfa4d8f17edf1e48d06efc",
+      "status": "translated",
+      "active": true,
+      "translation": "値は、カンマ区切りのIPアドレス、CIDR表記のサブネット、または以下のいずれかの名前です。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_35c0bf70ca5d522e8ba978b6_0",
+      "kind": "th",
+      "source": "Name",
+      "sourceHash": "35c0bf70ca5d522e8ba978b640f821f415f624efd78755e25997b4e35377719a",
+      "context": "Trusted proxy > Configuring the trusted proxy",
+      "contextHash": "b29bb46ecf90c968d1eef13e6645709c91fb082894bfa4d8f17edf1e48d06efc",
+      "status": "translated",
+      "active": true,
+      "translation": "名前",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_9beb035b2694dac816b8ed37_0",
+      "kind": "th",
+      "source": "Addresses",
+      "sourceHash": "9beb035b2694dac816b8ed37674c6992e931443c4d2f9497846e45fe967a5084",
+      "context": "Trusted proxy > Configuring the trusted proxy",
+      "contextHash": "b29bb46ecf90c968d1eef13e6645709c91fb082894bfa4d8f17edf1e48d06efc",
+      "status": "translated",
+      "active": true,
+      "translation": "アドレス",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_0a21de8c93afbce9b0583aa8_0",
+      "kind": "td",
+      "source": "__TRILIUM_PH_0__, __TRILIUM_PH_1__",
+      "sourceHash": "0a21de8c93afbce9b0583aa863adaf20995cd9952fa81b71db769a0a917216eb",
+      "context": "Trusted proxy > Configuring the trusted proxy",
+      "contextHash": "b29bb46ecf90c968d1eef13e6645709c91fb082894bfa4d8f17edf1e48d06efc",
+      "status": "translated",
+      "active": true,
+      "translation": "__TRILIUM_PH_0__, __TRILIUM_PH_1__",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_0a21de8c93afbce9b0583aa8_1",
+      "kind": "td",
+      "source": "__TRILIUM_PH_0__, __TRILIUM_PH_1__",
+      "sourceHash": "0a21de8c93afbce9b0583aa863adaf20995cd9952fa81b71db769a0a917216eb",
+      "context": "Trusted proxy > Configuring the trusted proxy",
+      "contextHash": "b29bb46ecf90c968d1eef13e6645709c91fb082894bfa4d8f17edf1e48d06efc",
+      "status": "translated",
+      "active": true,
+      "translation": "__TRILIUM_PH_0__, __TRILIUM_PH_1__",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_be6c0a47642cdd4ef34f1341_0",
+      "kind": "td",
+      "source": "__TRILIUM_PH_0__, __TRILIUM_PH_1__, __TRILIUM_PH_2__, __TRILIUM_PH_3__",
+      "sourceHash": "be6c0a47642cdd4ef34f13418dc9be0f8d4c0e227a7de71b20f126c9916f8761",
+      "context": "Trusted proxy > Configuring the trusted proxy",
+      "contextHash": "b29bb46ecf90c968d1eef13e6645709c91fb082894bfa4d8f17edf1e48d06efc",
+      "status": "translated",
+      "active": true,
+      "translation": "__TRILIUM_PH_0__, __TRILIUM_PH_1__, __TRILIUM_PH_2__, __TRILIUM_PH_3__",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_fb4653ca96786ef0b39dc051_0",
+      "kind": "p",
+      "source": "Trilium then reads the client's address from the __TRILIUM_PH_0__ header, taking the right-most entry that does not belong to a trusted address. Entries a client adds to the header are to the left of the ones the proxy appends, so they are ignored.",
+      "sourceHash": "fb4653ca96786ef0b39dc0512fea2ae3f357600bcffe91d7c33a311377be8eac",
+      "context": "Trusted proxy > Configuring the trusted proxy",
+      "contextHash": "b29bb46ecf90c968d1eef13e6645709c91fb082894bfa4d8f17edf1e48d06efc",
+      "status": "translated",
+      "active": true,
+      "translation": "次にTriliumは、__TRILIUM_PH_0__ヘッダーからクライアントのアドレスを読み取ります。その際、信頼されたアドレスに属さない最も右側のエントリを採用します。クライアントがヘッダーに追加したエントリはプロキシが追加したエントリの左側にあるため、無視されます。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_44c6e0c5f84805eefe60ffd4_0",
+      "kind": "p",
+      "source": "Common setups:",
+      "sourceHash": "44c6e0c5f84805eefe60ffd4f8eebd04c5a4b765e2defb774c6cc1ccd305294c",
+      "context": "Trusted proxy > Configuring the trusted proxy",
+      "contextHash": "b29bb46ecf90c968d1eef13e6645709c91fb082894bfa4d8f17edf1e48d06efc",
+      "status": "translated",
+      "active": true,
+      "translation": "一般的なセットアップ：",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_9a4e97b521609d861267870c_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__The reverse proxy runs on the same machine__TRILIUM_PH_1__: use __TRILIUM_PH_2__.",
+      "sourceHash": "9a4e97b521609d861267870ce75b7616372800bc907594bfca51e88de677a47f",
+      "context": "Trusted proxy > Configuring the trusted proxy",
+      "contextHash": "b29bb46ecf90c968d1eef13e6645709c91fb082894bfa4d8f17edf1e48d06efc",
+      "status": "translated",
+      "active": true,
+      "translation": "__TRILIUM_PH_0__リバースプロキシが同じマシン上で実行されている場合__TRILIUM_PH_1__：__TRILIUM_PH_2__を使用します。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_74c66c5a80b454e7bcc03293_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__Trilium runs in Docker, with the reverse proxy on the host or in another container__TRILIUM_PH_1__: use the subnet of the Docker network (for example __TRILIUM_PH_2__), or __TRILIUM_PH_3__ to cover every Docker network. With the environment variable: __TRILIUM_PH_4__.",
+      "sourceHash": "74c66c5a80b454e7bcc0329371a8772b1580d5eb4f8a6d270c698387971d337d",
+      "context": "Trusted proxy > Configuring the trusted proxy",
+      "contextHash": "b29bb46ecf90c968d1eef13e6645709c91fb082894bfa4d8f17edf1e48d06efc",
+      "status": "translated",
+      "active": true,
+      "translation": "__TRILIUM_PH_0__TriliumがDocker内で実行されており、リバースプロキシがホスト上または別のコンテナにある場合__TRILIUM_PH_1__：Dockerネットワークのサブネット（例：__TRILIUM_PH_2__）、またはすべてのDockerネットワークをカバーする__TRILIUM_PH_3__を使用します。環境変数の場合：__TRILIUM_PH_4__。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_ec32fed8af0b54ad0e9eb0d8_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__The reverse proxy runs on another machine__TRILIUM_PH_1__: use its IP address.",
+      "sourceHash": "ec32fed8af0b54ad0e9eb0d8277d976fd8929776e67b3b1c5c62c99a436995ae",
+      "context": "Trusted proxy > Configuring the trusted proxy",
+      "contextHash": "b29bb46ecf90c968d1eef13e6645709c91fb082894bfa4d8f17edf1e48d06efc",
+      "status": "translated",
+      "active": true,
+      "translation": "__TRILIUM_PH_0__リバースプロキシが別のマシン上で実行されている場合__TRILIUM_PH_1__：そのIPアドレスを使用します。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_a5003b3c79dd5947a5817a79_0",
+      "kind": "p",
+      "source": "Only list addresses that the reverse proxy connects from. Any client connecting from a trusted address can claim to be another client through the __TRILIUM_PH_0__ header. This matters for broad values such as __TRILIUM_PH_1__: if devices on your local network can also reach Trilium directly, use the proxy's exact address instead.",
+      "sourceHash": "a5003b3c79dd5947a5817a79d33e2c128dc81feff4737bce6295902a429138a3",
+      "context": "Trusted proxy > Configuring the trusted proxy",
+      "contextHash": "b29bb46ecf90c968d1eef13e6645709c91fb082894bfa4d8f17edf1e48d06efc",
+      "status": "translated",
+      "active": true,
+      "translation": "リバースプロキシの接続元アドレスのみをリストしてください。信頼されたアドレスから接続するすべてのクライアントは、__TRILIUM_PH_0__ ヘッダーを通じて別のクライアントであると偽る可能性があります。これは __TRILIUM_PH_1__ のような広範な値の場合に重要となります。ローカルネットワーク上のデバイスも Trilium に直接アクセスできる場合は、プロキシの正確なアドレスを使用してください。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_caf0bfd002f08eff8fd60d6d_0",
+      "kind": "p",
+      "source": "Avoid setting __TRILIUM_PH_0__. It makes Trilium use the left-most entry of __TRILIUM_PH_1__, which is the value the client sent, unless the proxy discards the incoming header. Proxies usually append to it instead (such as Nginx's __TRILIUM_PH_2__), so a client can send a different address with every request and bypass the limit on failed sign-in attempts.",
+      "sourceHash": "caf0bfd002f08eff8fd60d6d5cc5db36e335239c4dd5bc45baece24f220ed22c",
+      "context": "Trusted proxy > Configuring the trusted proxy",
+      "contextHash": "b29bb46ecf90c968d1eef13e6645709c91fb082894bfa4d8f17edf1e48d06efc",
+      "status": "translated",
+      "active": true,
+      "translation": "__TRILIUM_PH_0__ の設定は避けてください。これにより、プロキシが受信ヘッダーを破棄しない限り、Trilium はクライアントが送信した値である __TRILIUM_PH_1__ の一番左のエントリを使用するようになります。プロキシは通常、代わりに値を追加するため（Nginx の __TRILIUM_PH_2__ など）、クライアントはリクエストごとに異なるアドレスを送信し、ログイン失敗回数の制限を回避することができます。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_7f9327b7b10d7260d22bb05a_0",
+      "kind": "p",
+      "source": "For more information, consult __TRILIUM_PH_0__Express behind proxies__TRILIUM_PH_1__.",
+      "sourceHash": "7f9327b7b10d7260d22bb05a0afb3668d51341f5a5e4bd6a863135ee8d26773f",
+      "context": "Trusted proxy > Configuring the trusted proxy",
+      "contextHash": "b29bb46ecf90c968d1eef13e6645709c91fb082894bfa4d8f17edf1e48d06efc",
+      "status": "translated",
+      "active": true,
+      "translation": "詳細については、__TRILIUM_PH_0__Express behind proxies__TRILIUM_PH_1__ を参照してください。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    }
+  ],
+  "requests": [
+    {
+      "at": "2026-11-14T11:28:45.803Z",
+      "model": "gemini-3.5-flash-lite",
+      "batchJob": "batches/02spwqy837h8pi7qzqmeo4fgsqo7bgs45hwh",
+      "requestKey": "LLzSMXACKhUs_4491ded10a2a33d3",
+      "modelVersion": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 1469,
+        "candidatesTokenCount": 1099,
+        "totalTokenCount": 2568,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 1469
+          }
+        ],
+        "serviceTier": "standard"
+      }
+    },
+    {
+      "at": "2026-11-14T11:28:45.803Z",
+      "model": "gemini-3.5-flash-lite",
+      "batchJob": "batches/02spwqy837h8pi7qzqmeo4fgsqo7bgs45hwh",
+      "requestKey": "LLzSMXACKhUs_37f368a242111ee2",
+      "modelVersion": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 634,
+        "candidatesTokenCount": 357,
+        "totalTokenCount": 991,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 634
+          }
+        ],
+        "serviceTier": "standard"
+      }
+    }
+  ]
+}

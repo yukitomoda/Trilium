@@ -1,0 +1,309 @@
+{
+  "schemaVersion": 1,
+  "pageId": "7DAiwaf8Z7Rz",
+  "sourceFile": "docs/User Guide/User Guide/Installation & Setup/Server Installation/Multi-factor authentication with TOTP.md",
+  "sourceRevision": "03d17b60f59b5efc29b880b11481471d0fe0ff57",
+  "units": [
+    {
+      "id": "u_a928acd3195c959029731c5f_0",
+      "kind": "title",
+      "source": "Multi-factor authentication with TOTP",
+      "sourceHash": "a928acd3195c959029731c5fee959c52074764dcc0e3f1664c07fbcfb6dd9b31",
+      "context": "Multi-factor authentication with TOTP",
+      "contextHash": "bbd7d2549feefe885c6d1d30a62fb403e21ad07e8db2b431f39b4e6173902d55",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_e39c84710ab9912177e7608b_0",
+      "kind": "p",
+      "source": "Multi-factor authentication (MFA) is a security process that requires users to provide two or more verification factors to gain access to a system, application, or account. This adds an extra layer of protection beyond just using a password.",
+      "sourceHash": "e39c84710ab9912177e7608b40c1b7fecc455e5000597ff4e6a85f3397c290a2",
+      "context": "Multi-factor authentication with TOTP",
+      "contextHash": "bbd7d2549feefe885c6d1d30a62fb403e21ad07e8db2b431f39b4e6173902d55",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_7f32891cc9d57b299c804771_0",
+      "kind": "p",
+      "source": "By requiring more than one verification method, MFA helps reduce the risk of unauthorized access, even if someone has obtained your password. It’s highly recommended for securing sensitive information stored in your notes.",
+      "sourceHash": "7f32891cc9d57b299c804771006ebf48ed83a9526ca2f51771adc170a3a284a7",
+      "context": "Multi-factor authentication with TOTP",
+      "contextHash": "bbd7d2549feefe885c6d1d30a62fb403e21ad07e8db2b431f39b4e6173902d55",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_9cb8d3997d6cc75e735cba9e_0",
+      "kind": "h2",
+      "source": "Relationship to OpenID Connect (OIDC)__TRILIUM_PH_0__",
+      "sourceHash": "9cb8d3997d6cc75e735cba9ea690175b9f71f59cb40fc7a0668d622458dd69fd",
+      "context": "Multi-factor authentication with TOTP > Relationship to OpenID Connect (OIDC)",
+      "contextHash": "a95477ba317c148f2ecca69f1c6d672e4253260ba5413f2d8ceb4b6ef857d664",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_108e618d5e1d0c67f4054cb2_0",
+      "kind": "p",
+      "source": "Multi-factor authentication makes your Trilium login safer by requiring an additional proof of identity apart from your password. __TRILIUM_PH_0__Signing in with OpenID Connect__TRILIUM_PH_1__ is a different concept which delegates your authentication to an external provider (e.g. your Google provider, or a self-hosted one such as Authelia). These authentication providers might provide their own security features such as TOTP or passkeys.",
+      "sourceHash": "108e618d5e1d0c67f4054cb24a9d82dbfd2aa660986aac757c267ed3d54e1206",
+      "context": "Multi-factor authentication with TOTP > Relationship to OpenID Connect (OIDC)",
+      "contextHash": "a95477ba317c148f2ecca69f1c6d672e4253260ba5413f2d8ceb4b6ef857d664",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_5964a9d63ad11d98b839ae40_0",
+      "kind": "h2",
+      "source": "Time-based one-time password (TOTP)__TRILIUM_PH_0__",
+      "sourceHash": "5964a9d63ad11d98b839ae40e45ddefb92af25f2a77f4892c6235ed453ad1591",
+      "context": "Multi-factor authentication with TOTP > Time-based one-time password (TOTP)",
+      "contextHash": "99341900a7b8e893359016cbffd2b9defb0bc790021222014f0a427fe72eea3a",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_3d4c341094d9350b7ea7ae17_0",
+      "kind": "p",
+      "source": "TOTP (Time-Based One-Time Password) is a security feature that generates a unique, temporary code on your device, like a smartphone, which changes every 30 seconds. You use this code, along with your password, to log into your account, making it much harder for anyone else to access them.",
+      "sourceHash": "3d4c341094d9350b7ea7ae17e2b7a5ddfedb29a0cd3622bf62a6a9167d7aca53",
+      "context": "Multi-factor authentication with TOTP > Time-based one-time password (TOTP)",
+      "contextHash": "99341900a7b8e893359016cbffd2b9defb0bc790021222014f0a427fe72eea3a",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_f2bb324c737a8e6c52ce493e_0",
+      "kind": "li",
+      "source": "Go to __TRILIUM_PH_0__Options__TRILIUM_PH_1__ → __TRILIUM_PH_2__Password & Auth.__TRILIUM_PH_3__",
+      "sourceHash": "f2bb324c737a8e6c52ce493efe961655822487f460e62903e3427c21f6e2d6ea",
+      "context": "Multi-factor authentication with TOTP > Time-based one-time password (TOTP)",
+      "contextHash": "99341900a7b8e893359016cbffd2b9defb0bc790021222014f0a427fe72eea3a",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_4d52dd345de3bea391cdda18_0",
+      "kind": "li",
+      "source": "Make sure __TRILIUM_PH_0__Sign-in with__TRILIUM_PH_1__ has __TRILIUM_PH_2__Local password__TRILIUM_PH_3__ selected.",
+      "sourceHash": "4d52dd345de3bea391cdda180a7724178518d09f5e91917bc4ee2a088100a055",
+      "context": "Multi-factor authentication with TOTP > Time-based one-time password (TOTP)",
+      "contextHash": "99341900a7b8e893359016cbffd2b9defb0bc790021222014f0a427fe72eea3a",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_839c6af34bdad71b6573d3e6_0",
+      "kind": "li",
+      "source": "In the __TRILIUM_PH_0__Two-factor authentication__TRILIUM_PH_1__ section, press __TRILIUM_PH_2__Set up.__TRILIUM_PH_3__",
+      "sourceHash": "839c6af34bdad71b6573d3e628571f41c49d46e4767be0bad24df9f326c4d08a",
+      "context": "Multi-factor authentication with TOTP > Time-based one-time password (TOTP)",
+      "contextHash": "99341900a7b8e893359016cbffd2b9defb0bc790021222014f0a427fe72eea3a",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_483d4c026dbdea5eef18e873_0",
+      "kind": "li",
+      "source": "Scan the QR code or manually enter the code in your authenticator app.",
+      "sourceHash": "483d4c026dbdea5eef18e87350ef3ed127ba2e1e3d67f56934af56fbee69626c",
+      "context": "Multi-factor authentication with TOTP > Time-based one-time password (TOTP)",
+      "contextHash": "99341900a7b8e893359016cbffd2b9defb0bc790021222014f0a427fe72eea3a",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_59363289303ed25de41265cc_0",
+      "kind": "li",
+      "source": "Enter the verification code from your authenticator app to confirm that the setup was successful and press __TRILIUM_PH_0__Verify & continue__TRILIUM_PH_1__.",
+      "sourceHash": "59363289303ed25de41265cc21c93162bc98187cdde22dd87d634f4be28a1b26",
+      "context": "Multi-factor authentication with TOTP > Time-based one-time password (TOTP)",
+      "contextHash": "99341900a7b8e893359016cbffd2b9defb0bc790021222014f0a427fe72eea3a",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_bceb447d55e699eded027f7a_0",
+      "kind": "li",
+      "source": "Save the recovery codes, then tick the confirmation and press __TRILIUM_PH_0__Finish setup__TRILIUM_PH_1__.",
+      "sourceHash": "bceb447d55e699eded027f7ad2bace8fe4b4cca73b0cc530c3ea3d65a4f4d217",
+      "context": "Multi-factor authentication with TOTP > Time-based one-time password (TOTP)",
+      "contextHash": "99341900a7b8e893359016cbffd2b9defb0bc790021222014f0a427fe72eea3a",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_9fd8531eb6bc6b85fdd9d458_0",
+      "kind": "li",
+      "source": "Re-login will be required after TOTP setup is finished (after refreshing the page).",
+      "sourceHash": "9fd8531eb6bc6b85fdd9d4587bab7a32dac0d07d864f3696a2465b47fce02110",
+      "context": "Multi-factor authentication with TOTP > Time-based one-time password (TOTP)",
+      "contextHash": "99341900a7b8e893359016cbffd2b9defb0bc790021222014f0a427fe72eea3a",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_4bb79cddb7ce50faaf8ec099_0",
+      "kind": "h2",
+      "source": "Signing in__TRILIUM_PH_0__",
+      "sourceHash": "4bb79cddb7ce50faaf8ec099d86d7038e9c53e8de6db98a2c0f4949df1740775",
+      "context": "Multi-factor authentication with TOTP > Signing in",
+      "contextHash": "9240bdab2a5641a10d2f573f6aeb6f141067acc93561f063e99447ce54932aea",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_50e7a983bd26776b8fb8e20a_0",
+      "kind": "p",
+      "source": "Once TOTP is enabled, the sign-in page asks for the code from your authenticator app in __TRILIUM_PH_0__One-time password or recovery code__TRILIUM_PH_1__, below the password.",
+      "sourceHash": "50e7a983bd26776b8fb8e20a594b574469f7cad00a3cbece15d72c6ba0656436",
+      "context": "Multi-factor authentication with TOTP > Signing in",
+      "contextHash": "9240bdab2a5641a10d2f573f6aeb6f141067acc93561f063e99447ce54932aea",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_387fc7acfec59b87c18b19e3_0",
+      "kind": "p",
+      "source": "Trilium accepts the code for the current 30-second period as well as the periods just before and after it, so a clock that is slightly off on either side still works. Since v0.106.0, each code is accepted only once: after a successful sign-in, that code and any older one are rejected, even while they are still valid.",
+      "sourceHash": "387fc7acfec59b87c18b19e353e370965aafe421595a367bd74b61af9cd2a423",
+      "context": "Multi-factor authentication with TOTP > Signing in",
+      "contextHash": "9240bdab2a5641a10d2f573f6aeb6f141067acc93561f063e99447ce54932aea",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_3bd7e22f2edddbb46f707974_0",
+      "kind": "p",
+      "source": "A wrong one-time password counts toward the same limit of failed attempts as a wrong password. See __TRILIUM_PH_0__Brute-force protection__TRILIUM_PH_1__ in __TRILIUM_PH_2__Authentication__TRILIUM_PH_3__.",
+      "sourceHash": "3bd7e22f2edddbb46f707974c02f8b3062ea36623d7408687880d7740cc59663",
+      "context": "Multi-factor authentication with TOTP > Signing in",
+      "contextHash": "9240bdab2a5641a10d2f573f6aeb6f141067acc93561f063e99447ce54932aea",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_351cd8310daf8979400f295e_0",
+      "kind": "h2",
+      "source": "Connecting a device to the server__TRILIUM_PH_0__",
+      "sourceHash": "351cd8310daf8979400f295ea1ecbe1ecd7f0fb14d386e4c555891db6c125a0e",
+      "context": "Multi-factor authentication with TOTP > Connecting a device to the server",
+      "contextHash": "9063bc7a5355701b342e539aeb2ecc97a1912fab7a3eaea3bf61b1e57dbae101",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_3138fed037334440524e1a0c_0",
+      "kind": "p",
+      "source": "Once TOTP is enabled, connecting a new desktop or mobile app to the server through __TRILIUM_PH_0__Synchronization__TRILIUM_PH_1__ also asks for the second factor. On the __TRILIUM_PH_2__Connect to an existing server__TRILIUM_PH_3__ screen, enter a one-time password or a recovery code in __TRILIUM_PH_4__One-time password or recovery code__TRILIUM_PH_5__, below the server's password. Without it, the server refuses to set up the sync.",
+      "sourceHash": "3138fed037334440524e1a0c67ea8bd60beca10c996057342a9df01c25d965a5",
+      "context": "Multi-factor authentication with TOTP > Connecting a device to the server",
+      "contextHash": "9063bc7a5355701b342e539aeb2ecc97a1912fab7a3eaea3bf61b1e57dbae101",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_e472eefa937feb6dc255dccd_0",
+      "kind": "p",
+      "source": "The second factor is only asked for when a device is first connected. A device that is already set up keeps syncing without it.",
+      "sourceHash": "e472eefa937feb6dc255dccd6f7af0721ee451db5058d68ce9c41bc6860908a8",
+      "context": "Multi-factor authentication with TOTP > Connecting a device to the server",
+      "contextHash": "9063bc7a5355701b342e539aeb2ecc97a1912fab7a3eaea3bf61b1e57dbae101",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_66aa46fdc2f9d31e67170acd_0",
+      "kind": "p",
+      "source": "Versions prior to v0.107.0 do not ask for the second factor when setting up the sync. Update the desktop and mobile apps along with the server, since older apps have no field to send it.",
+      "sourceHash": "66aa46fdc2f9d31e67170acdfb9c8b0c36a6f81af10b8d002f984d2daa3ed081",
+      "context": "Multi-factor authentication with TOTP > Connecting a device to the server",
+      "contextHash": "9063bc7a5355701b342e539aeb2ecc97a1912fab7a3eaea3bf61b1e57dbae101",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_a64c9836d4daae7150097d22_0",
+      "kind": "h2",
+      "source": "Obtaining an ETAPI token with a password__TRILIUM_PH_0__",
+      "sourceHash": "a64c9836d4daae7150097d2260f723538e801b1a28541016c0f37da5b6baca11",
+      "context": "Multi-factor authentication with TOTP > Obtaining an ETAPI token with a password",
+      "contextHash": "20ad262792f2b85c91b748e16ccb5b3ab382637b54d906a29cbb294e310c2ae0",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_f709abb2eb81463b4442e0db_0",
+      "kind": "p",
+      "source": "Once TOTP is enabled, obtaining a token for the __TRILIUM_PH_0__ETAPI (REST API)__TRILIUM_PH_1__ through the __TRILIUM_PH_2__ call also requires the second factor: send the one-time password or a recovery code as __TRILIUM_PH_3__, next to __TRILIUM_PH_4__. Each code is accepted only once.",
+      "sourceHash": "f709abb2eb81463b4442e0dbd771386fa077d5835bd7486a59ccd9034a4f4f3b",
+      "context": "Multi-factor authentication with TOTP > Obtaining an ETAPI token with a password",
+      "contextHash": "20ad262792f2b85c91b748e16ccb5b3ab382637b54d906a29cbb294e310c2ae0",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_546a631b342615359831b381_0",
+      "kind": "p",
+      "source": "For scripts and tools that run unattended, create a token in __TRILIUM_PH_0__Options__TRILIUM_PH_1__ → __TRILIUM_PH_2__ETAPI__TRILIUM_PH_3__ instead. Such a token works regardless of TOTP.",
+      "sourceHash": "546a631b342615359831b3812fbf57369833ccf181753c0f1924002f89caf53b",
+      "context": "Multi-factor authentication with TOTP > Obtaining an ETAPI token with a password",
+      "contextHash": "20ad262792f2b85c91b748e16ccb5b3ab382637b54d906a29cbb294e310c2ae0",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_249e35591e07b35804c7ff34_0",
+      "kind": "p",
+      "source": "Versions prior to v0.107.0 issue an ETAPI token for the password alone, even with TOTP enabled.",
+      "sourceHash": "249e35591e07b35804c7ff34bb1281617672003695a9e5ccacd25e9232e73874",
+      "context": "Multi-factor authentication with TOTP > Obtaining an ETAPI token with a password",
+      "contextHash": "20ad262792f2b85c91b748e16ccb5b3ab382637b54d906a29cbb294e310c2ae0",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_a17642297c701b81adde0bc0_0",
+      "kind": "h2",
+      "source": "Recovery codes__TRILIUM_PH_0__",
+      "sourceHash": "a17642297c701b81adde0bc091d31501257c71029b2109ce50d88798559e8732",
+      "context": "Multi-factor authentication with TOTP > Recovery codes",
+      "contextHash": "8b6c3ad1c3e2165f9547d3b6dd15f9a4e5cf9953b204244c7efa0ba3ef331bcb",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_fa79df1680b4a3bdcdee2565_0",
+      "kind": "p",
+      "source": "Recovery codes can be used in place of the TOTP if you lose access to your authenticator. Trilium provides 8 different recovery codes, each recovery code can be used once.",
+      "sourceHash": "fa79df1680b4a3bdcdee2565402c7a0a7d19941861625ade0dc3190676ea3b61",
+      "context": "Multi-factor authentication with TOTP > Recovery codes",
+      "contextHash": "8b6c3ad1c3e2165f9547d3b6dd15f9a4e5cf9953b204244c7efa0ba3ef331bcb",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_84bbe4bbc6618ab7ff0651c9_0",
+      "kind": "p",
+      "source": "To use a recovery code, simply login with your password and use the recovery code as the security token.",
+      "sourceHash": "84bbe4bbc6618ab7ff0651c96fdb14518bb8db550005072ffc7b9040eca234c4",
+      "context": "Multi-factor authentication with TOTP > Recovery codes",
+      "contextHash": "8b6c3ad1c3e2165f9547d3b6dd15f9a4e5cf9953b204244c7efa0ba3ef331bcb",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_5efb20d9e80436eb25ffdf87_0",
+      "kind": "p",
+      "source": "The initial set of recovery codes is generated when setting up your TOTP for the first time. They can be regenerated at any time by going to  __TRILIUM_PH_0__Options__TRILIUM_PH_1__ → __TRILIUM_PH_2__Password & Auth__TRILIUM_PH_3__ and pressing the __TRILIUM_PH_4__Regenerate recovery codes__TRILIUM_PH_5__ button. This will generate a new set of recovery codes while at the same time disabling the previous ones.",
+      "sourceHash": "5efb20d9e80436eb25ffdf8799175679f1b6bab188882edfcb34a2939d065c9b",
+      "context": "Multi-factor authentication with TOTP > Recovery codes",
+      "contextHash": "8b6c3ad1c3e2165f9547d3b6dd15f9a4e5cf9953b204244c7efa0ba3ef331bcb",
+      "status": "pending",
+      "active": true
+    }
+  ],
+  "requests": []
+}

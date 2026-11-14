@@ -1,0 +1,1059 @@
+{
+  "schemaVersion": 1,
+  "pageId": "2FvYrpmOXm29",
+  "sourceFile": "docs/User Guide/User Guide/Collections/Table.md",
+  "sourceRevision": "03d17b60f59b5efc29b880b11481471d0fe0ff57",
+  "units": [
+    {
+      "id": "u_b698781339b0da934de59408_0",
+      "kind": "title",
+      "source": "Table",
+      "sourceHash": "b698781339b0da934de59408baa1023a01502f761e3f0f1e7b7217d2ab8e17dc",
+      "context": "Table",
+      "contextHash": "16d1c9050a0b32e83764a81d801a880773abedfd7f8b0b08a1cd87ca0e404f12",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_0bdf50d78a00f96dbacded56_0",
+      "kind": "p",
+      "source": "The table view displays information in a grid, where the rows are individual notes and the columns are __TRILIUM_PH_0__Promoted Attributes__TRILIUM_PH_1__. In addition, values are editable.",
+      "sourceHash": "0bdf50d78a00f96dbacded56245e956e151594ff94bf4595dbcb1323dceb6940",
+      "context": "Table",
+      "contextHash": "16d1c9050a0b32e83764a81d801a880773abedfd7f8b0b08a1cd87ca0e404f12",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_7f765e67634fdaed95245a79_0",
+      "kind": "h2",
+      "source": "How it works__TRILIUM_PH_0__",
+      "sourceHash": "7f765e67634fdaed95245a793a97538a36bbeb219d8b6cb916f90dd02f941898",
+      "context": "Table > How it works",
+      "contextHash": "fc834716ee3c19039b727bccd6d37502c038befbde303c5e557f231e4be0ba2d",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_1b6412c604778296e3408b9e_0",
+      "kind": "p",
+      "source": "The tabular structure is represented as such:",
+      "sourceHash": "1b6412c604778296e3408b9e52bc889970dbc753c981842d6b3b3b363e358fce",
+      "context": "Table > How it works",
+      "contextHash": "fc834716ee3c19039b727bccd6d37502c038befbde303c5e557f231e4be0ba2d",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_34ef7a9f0645df09a408aace_0",
+      "kind": "li",
+      "source": "Each child note is a row in the table.",
+      "sourceHash": "34ef7a9f0645df09a408aace8415f5fc58d34018ae92cbe08b6da8b0b5113df4",
+      "context": "Table > How it works",
+      "contextHash": "fc834716ee3c19039b727bccd6d37502c038befbde303c5e557f231e4be0ba2d",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_17a18a8c7282a710c94229dd_0",
+      "kind": "li",
+      "source": "If child rows also have children, they will be displayed under an expander (nested notes).",
+      "sourceHash": "17a18a8c7282a710c94229ddc7ae127770dc89dec03a611108d953740047df8c",
+      "context": "Table > How it works",
+      "contextHash": "fc834716ee3c19039b727bccd6d37502c038befbde303c5e557f231e4be0ba2d",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_e081e8ed5b0ed959fcffb319_0",
+      "kind": "li",
+      "source": "Each column is a __TRILIUM_PH_0__promoted attribute__TRILIUM_PH_1__ that is defined on the Collection note.",
+      "sourceHash": "e081e8ed5b0ed959fcffb31910197ad8eec6da0fd1f518ce2b85f762ff51b907",
+      "context": "Table > How it works",
+      "contextHash": "fc834716ee3c19039b727bccd6d37502c038befbde303c5e557f231e4be0ba2d",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_408832c3566f9cf5d99330d5_0",
+      "kind": "li",
+      "source": "Actually, both promoted and unpromoted attributes are supported, but it's a requirement to use a label/relation definition.",
+      "sourceHash": "408832c3566f9cf5d99330d576c58dbfc96db0fa43df066d9e78b9f005a56004",
+      "context": "Table > How it works",
+      "contextHash": "fc834716ee3c19039b727bccd6d37502c038befbde303c5e557f231e4be0ba2d",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_62339ceebe37cc57a84ef3f9_0",
+      "kind": "li",
+      "source": "The promoted attributes are usually defined as inheritable in order to show up in the child notes, but it's not a requirement.",
+      "sourceHash": "62339ceebe37cc57a84ef3f97abf83091f805c3348e6c62e7ea08a3a65f47b56",
+      "context": "Table > How it works",
+      "contextHash": "fc834716ee3c19039b727bccd6d37502c038befbde303c5e557f231e4be0ba2d",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_08d29b2547a3ce6b3b7ed245_0",
+      "kind": "li",
+      "source": "If there are multiple attribute definitions with the same __TRILIUM_PH_0__, only one will be displayed.",
+      "sourceHash": "08d29b2547a3ce6b3b7ed245ed621c48ab6c795eb7291671c6b32469abc8d100",
+      "context": "Table > How it works",
+      "contextHash": "fc834716ee3c19039b727bccd6d37502c038befbde303c5e557f231e4be0ba2d",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_3f864a03400c71327e15572e_0",
+      "kind": "li",
+      "source": "If an attribute definition has multiple values, they will all be grouped under a single column, with chips indicating individual values.",
+      "sourceHash": "3f864a03400c71327e15572e04e85552bc313babf50b124efc24e35e91021d41",
+      "context": "Table > How it works",
+      "contextHash": "fc834716ee3c19039b727bccd6d37502c038befbde303c5e557f231e4be0ba2d",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_1e248fac93f7ea76b0a21dd9_0",
+      "kind": "p",
+      "source": "There are also a few predefined columns:",
+      "sourceHash": "1e248fac93f7ea76b0a21dd91c6b11148ac9f9e794d93a4db55a00b36191eb5a",
+      "context": "Table > How it works",
+      "contextHash": "fc834716ee3c19039b727bccd6d37502c038befbde303c5e557f231e4be0ba2d",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_8a23b146d566ab79d702f1a4_0",
+      "kind": "li",
+      "source": "The current item number, identified by the __TRILIUM_PH_0__ symbol.",
+      "sourceHash": "8a23b146d566ab79d702f1a42a1fec668dc65ebdd30a7e50abb7f6e6f99d5db0",
+      "context": "Table > How it works",
+      "contextHash": "fc834716ee3c19039b727bccd6d37502c038befbde303c5e557f231e4be0ba2d",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_92aa57327dde0cb7c793c53b_0",
+      "kind": "li",
+      "source": "This simply counts the note and is affected by sorting.",
+      "sourceHash": "92aa57327dde0cb7c793c53bbe2107ac0020d0d451194af25d1512662af88d5f",
+      "context": "Table > How it works",
+      "contextHash": "fc834716ee3c19039b727bccd6d37502c038befbde303c5e557f231e4be0ba2d",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_cfb254cee885343e692fc8a0_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__Note ID__TRILIUM_PH_1__, representing the unique ID used internally by Trilium",
+      "sourceHash": "cfb254cee885343e692fc8a067fa917da9681bd53458148bcea8b77f959a91d0",
+      "context": "Table > How it works",
+      "contextHash": "fc834716ee3c19039b727bccd6d37502c038befbde303c5e557f231e4be0ba2d",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_43788d0c7d69efe86b14c9f6_0",
+      "kind": "li",
+      "source": "The title of the note.",
+      "sourceHash": "43788d0c7d69efe86b14c9f6000119b77c5cb39312ae130a922bc4b5bd0e90d4",
+      "context": "Table > How it works",
+      "contextHash": "fc834716ee3c19039b727bccd6d37502c038befbde303c5e557f231e4be0ba2d",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_96c376ee93b1ef9aeef5eb34_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__Created__TRILIUM_PH_1__ and __TRILIUM_PH_2__Modified__TRILIUM_PH_3__, the date and time the note was created and last modified. These columns are hidden by default and can't be edited; show them from the column context menu and click their header to sort by them.",
+      "sourceHash": "96c376ee93b1ef9aeef5eb349545d6e5a46eff70b4200e92fbf35c159330d9cc",
+      "context": "Table > How it works",
+      "contextHash": "fc834716ee3c19039b727bccd6d37502c038befbde303c5e557f231e4be0ba2d",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_27591f4e86746d469eb2d832_0",
+      "kind": "h2",
+      "source": "Interaction__TRILIUM_PH_0__",
+      "sourceHash": "27591f4e86746d469eb2d8323f6dda382149928ec0550ca8a5a6fdfc24cab9a6",
+      "context": "Table > Interaction",
+      "contextHash": "1bcaa51bcd1eb2d75ee287b1388ca63273bb83efdf2dc981649a5a75f622eee7",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_1d5d80b9f2db0b10c82d2523_0",
+      "kind": "h3",
+      "source": "Creating a new table__TRILIUM_PH_0__",
+      "sourceHash": "1d5d80b9f2db0b10c82d2523f3a7ea54a6fcf0a0ca7ec87aad50984c1ba47c79",
+      "context": "Table > Interaction > Creating a new table",
+      "contextHash": "d038146505f71af4ba38bd787055bd30dfddbc4f990723fb32e66f463f53035c",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_f7d712323de38d2d149eac2e_0",
+      "kind": "p",
+      "source": "Right click on an existing note in the __TRILIUM_PH_0__Note Tree__TRILIUM_PH_1__ and select __TRILIUM_PH_2__Insert child note__TRILIUM_PH_3__ → __TRILIUM_PH_4__Collection__TRILIUM_PH_5__ → __TRILIUM_PH_6__Table__TRILIUM_PH_7__.",
+      "sourceHash": "f7d712323de38d2d149eac2e606c1b4a017b8067257eb9c885cec9fe842eff6d",
+      "context": "Table > Interaction > Creating a new table",
+      "contextHash": "d038146505f71af4ba38bd787055bd30dfddbc4f990723fb32e66f463f53035c",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_adb399c8cb605ccd7d69a5a0_0",
+      "kind": "h3",
+      "source": "Adding columns__TRILIUM_PH_0__",
+      "sourceHash": "adb399c8cb605ccd7d69a5a05176d7758eee3fa402e41c2b4cd9be74e900c665",
+      "context": "Table > Interaction > Adding columns",
+      "contextHash": "7cd5aab28eb275cfa8419d4530317e9370435f7fe4e9766d3528ce9a2d003735",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_8620b64cdf28e456641265fd_0",
+      "kind": "p",
+      "source": "Each column is a __TRILIUM_PH_0__promoted or unpromoted attribute__TRILIUM_PH_1__ that is defined on the Collection note.",
+      "sourceHash": "8620b64cdf28e456641265fd4b1b349a88f5f29834a237e7cba3b6e661b44c9d",
+      "context": "Table > Interaction > Adding columns",
+      "contextHash": "7cd5aab28eb275cfa8419d4530317e9370435f7fe4e9766d3528ce9a2d003735",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_e9624b85206e7fb93ed113c5_0",
+      "kind": "p",
+      "source": "To create a new column, either:",
+      "sourceHash": "e9624b85206e7fb93ed113c59a140c372339a6e89588af0c9e242fa9e70ebb9e",
+      "context": "Table > Interaction > Adding columns",
+      "contextHash": "7cd5aab28eb275cfa8419d4530317e9370435f7fe4e9766d3528ce9a2d003735",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_933f1610a7a118ee872eed57_0",
+      "kind": "li",
+      "source": "Press __TRILIUM_PH_0__Add new column__TRILIUM_PH_1__ at the bottom of the table.",
+      "sourceHash": "933f1610a7a118ee872eed5758869f01bc7dbe236940e3b0e2e5f3fb9631c738",
+      "context": "Table > Interaction > Adding columns",
+      "contextHash": "7cd5aab28eb275cfa8419d4530317e9370435f7fe4e9766d3528ce9a2d003735",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_40adb941b2cb92e153b527b9_0",
+      "kind": "li",
+      "source": "Right click on an existing column and select Add column to the left/right.",
+      "sourceHash": "40adb941b2cb92e153b527b9062d387ed1fb1e77d3e347e41cc54de9d2945268",
+      "context": "Table > Interaction > Adding columns",
+      "contextHash": "7cd5aab28eb275cfa8419d4530317e9370435f7fe4e9766d3528ce9a2d003735",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_77916930d0039fda39d5c454_0",
+      "kind": "li",
+      "source": "Right click on the empty space of the column header and select __TRILIUM_PH_0__Label__TRILIUM_PH_1__ or __TRILIUM_PH_2__Relation__TRILIUM_PH_3__ in the __TRILIUM_PH_4__New column__TRILIUM_PH_5__ section.",
+      "sourceHash": "77916930d0039fda39d5c454d27c2e1c7d109df9cca9b8db3d975fc8ffee3766",
+      "context": "Table > Interaction > Adding columns",
+      "contextHash": "7cd5aab28eb275cfa8419d4530317e9370435f7fe4e9766d3528ce9a2d003735",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_bc4c24ee1542bfda2da1acaa_0",
+      "kind": "h3",
+      "source": "Adding new rows__TRILIUM_PH_0__",
+      "sourceHash": "bc4c24ee1542bfda2da1acaa7c2902b92bee6a0c55bd37eaaa5fcc3b00da0ae5",
+      "context": "Table > Interaction > Adding new rows",
+      "contextHash": "7ba953720016261bb7b3593c588ac283ba4143538a23b048439fdd3fbf83a762",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_e2855574c3ff4326090615f1_0",
+      "kind": "p",
+      "source": "Each row is actually a note that is a child of the Collection note.",
+      "sourceHash": "e2855574c3ff4326090615f12917f0cb45348d03377462e82c731ac840871988",
+      "context": "Table > Interaction > Adding new rows",
+      "contextHash": "7ba953720016261bb7b3593c588ac283ba4143538a23b048439fdd3fbf83a762",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_eb57cd4b40cce9d9f8c4b486_0",
+      "kind": "p",
+      "source": "To create a new note, either:",
+      "sourceHash": "eb57cd4b40cce9d9f8c4b486b28e6cdea603849fccbef18c561991991942fd53",
+      "context": "Table > Interaction > Adding new rows",
+      "contextHash": "7ba953720016261bb7b3593c588ac283ba4143538a23b048439fdd3fbf83a762",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_1c0aa8172732b798224c9f33_0",
+      "kind": "li",
+      "source": "Press __TRILIUM_PH_0__Add new row__TRILIUM_PH_1__ at the bottom of the table.",
+      "sourceHash": "1c0aa8172732b798224c9f3356fc8ff3efbbda3ad40d31513bdbb02f49393e51",
+      "context": "Table > Interaction > Adding new rows",
+      "contextHash": "7ba953720016261bb7b3593c588ac283ba4143538a23b048439fdd3fbf83a762",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_beaf6652905623fd387b12d9_0",
+      "kind": "li",
+      "source": "Right click on an existing row and select __TRILIUM_PH_0__Insert row above, Insert child note__TRILIUM_PH_1__ or __TRILIUM_PH_2__Insert row below__TRILIUM_PH_3__.",
+      "sourceHash": "beaf6652905623fd387b12d9e5ce9c9dc0104fd73c921c9dd30aada370879df5",
+      "context": "Table > Interaction > Adding new rows",
+      "contextHash": "7ba953720016261bb7b3593c588ac283ba4143538a23b048439fdd3fbf83a762",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_3908d8dec618f2178d8308f3_0",
+      "kind": "p",
+      "source": "By default it will try to edit the title of the newly created note.",
+      "sourceHash": "3908d8dec618f2178d8308f30042986f4a6deadba7c33c318a31af0ec70efc95",
+      "context": "Table > Interaction > Adding new rows",
+      "contextHash": "7ba953720016261bb7b3593c588ac283ba4143538a23b048439fdd3fbf83a762",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_8420d9567da04ba04a5c937d_0",
+      "kind": "p",
+      "source": "Alternatively, the note can be created from the __TRILIUM_PH_0__Note Tree__TRILIUM_PH_1__ or __TRILIUM_PH_2__scripting__TRILIUM_PH_3__.",
+      "sourceHash": "8420d9567da04ba04a5c937df1e47b0eb5a8c8b50a5dd8b52bc904c70d1e164f",
+      "context": "Table > Interaction > Adding new rows",
+      "contextHash": "7ba953720016261bb7b3593c588ac283ba4143538a23b048439fdd3fbf83a762",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_3c0ad500f8aa26650b7ae3cf_0",
+      "kind": "h3",
+      "source": "Context menu__TRILIUM_PH_0__",
+      "sourceHash": "3c0ad500f8aa26650b7ae3cfab4ab1f028f09cb76e222f13d54d7a177ab17939",
+      "context": "Table > Interaction > Context menu",
+      "contextHash": "ff22ad300e0af10684673ceb9bcda3ec9ce3dd23634a8770310f3f5dea83fbcf",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_1fea9dc54eaaa714db19f158_0",
+      "kind": "p",
+      "source": "There are multiple menus:",
+      "sourceHash": "1fea9dc54eaaa714db19f158ea2bd7e2abeff44f37a4ceb1ad3494dfb62ed9a8",
+      "context": "Table > Interaction > Context menu",
+      "contextHash": "ff22ad300e0af10684673ceb9bcda3ec9ce3dd23634a8770310f3f5dea83fbcf",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_816bab6a8a8bbeaf0fccdbc9_0",
+      "kind": "li",
+      "source": "Right clicking on a column, allows:",
+      "sourceHash": "816bab6a8a8bbeaf0fccdbc90503e247519fc18b2dbb2ce16c75e50806a4236d",
+      "context": "Table > Interaction > Context menu",
+      "contextHash": "ff22ad300e0af10684673ceb9bcda3ec9ce3dd23634a8770310f3f5dea83fbcf",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_bf8b499ed84b5359d02d036e_0",
+      "kind": "li",
+      "source": "Sorting by the selected column and resetting the sort.",
+      "sourceHash": "bf8b499ed84b5359d02d036eb229a7df8da806b5f409288ae4066340968ae4bd",
+      "context": "Table > Interaction > Context menu",
+      "contextHash": "ff22ad300e0af10684673ceb9bcda3ec9ce3dd23634a8770310f3f5dea83fbcf",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_28aab3dad958cdea7e0615c2_0",
+      "kind": "li",
+      "source": "Hiding the selected column or adjusting the visibility of every column.",
+      "sourceHash": "28aab3dad958cdea7e0615c2fc68e16e17f87ab0c59d454afd9eea66bbf10779",
+      "context": "Table > Interaction > Context menu",
+      "contextHash": "ff22ad300e0af10684673ceb9bcda3ec9ce3dd23634a8770310f3f5dea83fbcf",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_fc91e4eaf9e76797264aa15d_0",
+      "kind": "li",
+      "source": "Adding new columns to the left or the right of the column.",
+      "sourceHash": "fc91e4eaf9e76797264aa15d431c5c6bbafb1b8df69913d2fe825217233c9bbc",
+      "context": "Table > Interaction > Context menu",
+      "contextHash": "ff22ad300e0af10684673ceb9bcda3ec9ce3dd23634a8770310f3f5dea83fbcf",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_d584cf9f37a1a71b68cb6aec_0",
+      "kind": "li",
+      "source": "Editing the current column.",
+      "sourceHash": "d584cf9f37a1a71b68cb6aec99f6f4463c94d445c5f6af340e85428e87d1600d",
+      "context": "Table > Interaction > Context menu",
+      "contextHash": "ff22ad300e0af10684673ceb9bcda3ec9ce3dd23634a8770310f3f5dea83fbcf",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_c069c20834f06841c75def41_0",
+      "kind": "li",
+      "source": "Deleting the current column.",
+      "sourceHash": "c069c20834f06841c75def41f9690a81159ec9d311637fc55123e137d37a5c9c",
+      "context": "Table > Interaction > Context menu",
+      "contextHash": "ff22ad300e0af10684673ceb9bcda3ec9ce3dd23634a8770310f3f5dea83fbcf",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_371bd98b842a0c197b3877ba_0",
+      "kind": "li",
+      "source": "Right clicking on the space to the right of the columns, allows:",
+      "sourceHash": "371bd98b842a0c197b3877bace5d500f15c9aabbc0fb3be3ab42bc3e4712b22e",
+      "context": "Table > Interaction > Context menu",
+      "contextHash": "ff22ad300e0af10684673ceb9bcda3ec9ce3dd23634a8770310f3f5dea83fbcf",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_7f2d9c4e873f0621a3d6e9f5_0",
+      "kind": "li",
+      "source": "Adjusting the visibility of every column.",
+      "sourceHash": "7f2d9c4e873f0621a3d6e9f594a68b6f09c97035abb710c675d5fe4e0010fdb5",
+      "context": "Table > Interaction > Context menu",
+      "contextHash": "ff22ad300e0af10684673ceb9bcda3ec9ce3dd23634a8770310f3f5dea83fbcf",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_b77eee1887984997fb4ee979_0",
+      "kind": "li",
+      "source": "Adding new columns.",
+      "sourceHash": "b77eee1887984997fb4ee979a16b7b27ad5f88cb9efd01caf06a4fbf6427d84b",
+      "context": "Table > Interaction > Context menu",
+      "contextHash": "ff22ad300e0af10684673ceb9bcda3ec9ce3dd23634a8770310f3f5dea83fbcf",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_dd211296948516b1111e3220_0",
+      "kind": "li",
+      "source": "Right clicking on a row, allows:",
+      "sourceHash": "dd211296948516b1111e322027d3280c1d074f5cb28b8a031dc3158d249aa3bc",
+      "context": "Table > Interaction > Context menu",
+      "contextHash": "ff22ad300e0af10684673ceb9bcda3ec9ce3dd23634a8770310f3f5dea83fbcf",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_cf3dcb6834c78393b0d6a59f_0",
+      "kind": "li",
+      "source": "Opening the corresponding note of the row in a new tab, split, window or quick editing it.",
+      "sourceHash": "cf3dcb6834c78393b0d6a59f9f53633a2066c1bf5d6c4f60e1353bb554f79035",
+      "context": "Table > Interaction > Context menu",
+      "contextHash": "ff22ad300e0af10684673ceb9bcda3ec9ce3dd23634a8770310f3f5dea83fbcf",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_a270b42486ec6c0cdececa20_0",
+      "kind": "li",
+      "source": "Inserting a new note above or below the selected row. These options are only enabled if the table is not sorted.",
+      "sourceHash": "a270b42486ec6c0cdececa20c963e49584f54c5f7df4219365acb71bdd3ca34e",
+      "context": "Table > Interaction > Context menu",
+      "contextHash": "ff22ad300e0af10684673ceb9bcda3ec9ce3dd23634a8770310f3f5dea83fbcf",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_3c36a39f7ac084f41eaeec79_0",
+      "kind": "li",
+      "source": "Inserting a new child note for the selected row.",
+      "sourceHash": "3c36a39f7ac084f41eaeec79b065029053688408c98e0c806e9f28bfdd78d5e5",
+      "context": "Table > Interaction > Context menu",
+      "contextHash": "ff22ad300e0af10684673ceb9bcda3ec9ce3dd23634a8770310f3f5dea83fbcf",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_935d1f634b904707e4857c77_0",
+      "kind": "li",
+      "source": "Deleting the row.",
+      "sourceHash": "935d1f634b904707e4857c77467e9b56f5700737c0e1ae661565cb7b2b87ef9a",
+      "context": "Table > Interaction > Context menu",
+      "contextHash": "ff22ad300e0af10684673ceb9bcda3ec9ce3dd23634a8770310f3f5dea83fbcf",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_932c56d4c8c70d999cfabbe4_0",
+      "kind": "h3",
+      "source": "Opening notes__TRILIUM_PH_0__",
+      "sourceHash": "932c56d4c8c70d999cfabbe4f30444aa0ab2b874b93104af821adc687beaba07",
+      "context": "Table > Interaction > Opening notes",
+      "contextHash": "95bf47668e6b0f0877922d325265ad8406f0c305b2179fe88a4fea5610fe479a",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_540f3fc961660d7518e94a58_0",
+      "kind": "p",
+      "source": "Hovering over a row shows an __TRILIUM_PH_0__Open__TRILIUM_PH_1__ button at the end of its title, which opens the note in quick edit. On a touch screen, the button is always visible.",
+      "sourceHash": "540f3fc961660d7518e94a5862a73c515b5e8a69ac6510c471dd1a2f80cb9efd",
+      "context": "Table > Interaction > Opening notes",
+      "contextHash": "95bf47668e6b0f0877922d325265ad8406f0c305b2179fe88a4fea5610fe479a",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_6f6025c8bec7b78b8d88d39e_0",
+      "kind": "p",
+      "source": "Clicking the title itself renames the note instead (see below). To open the note elsewhere:",
+      "sourceHash": "6f6025c8bec7b78b8d88d39ed12b4f6704e5e0351dbc0dbd66b8d2c505a6d267",
+      "context": "Table > Interaction > Opening notes",
+      "contextHash": "95bf47668e6b0f0877922d325265ad8406f0c305b2179fe88a4fea5610fe479a",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_83a6d290b418e68ce1a6fccb_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__Ctrl__TRILIUM_PH_1__+click or middle click the title to open the note in a new tab.",
+      "sourceHash": "83a6d290b418e68ce1a6fccb00f625b5696111c2ec51c8a911ebcb082b23ed35",
+      "context": "Table > Interaction > Opening notes",
+      "contextHash": "95bf47668e6b0f0877922d325265ad8406f0c305b2179fe88a4fea5610fe479a",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_d898ecb578509c7e7e2aa060_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__Shift__TRILIUM_PH_1__+click the title to open it in a new window.",
+      "sourceHash": "d898ecb578509c7e7e2aa06074f3139cbda23adbe46bd8c9b7fa8dfc76c3e214",
+      "context": "Table > Interaction > Opening notes",
+      "contextHash": "95bf47668e6b0f0877922d325265ad8406f0c305b2179fe88a4fea5610fe479a",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_9bed9b3c493bc60a9d9edcef_0",
+      "kind": "li",
+      "source": "Right click the row to open the note in a new tab, split or window, or in quick edit.",
+      "sourceHash": "9bed9b3c493bc60a9d9edcefb95ec0a083b2c8c566726244f92cee0d3bfc41f4",
+      "context": "Table > Interaction > Opening notes",
+      "contextHash": "95bf47668e6b0f0877922d325265ad8406f0c305b2179fe88a4fea5610fe479a",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_9ae03949e8a9e2389102c468_0",
+      "kind": "h3",
+      "source": "Editing data__TRILIUM_PH_0__",
+      "sourceHash": "9ae03949e8a9e2389102c468f3b069a890e02fc22ed6cb465e692a522d457e72",
+      "context": "Table > Interaction > Editing data",
+      "contextHash": "a009003c3af139a6b1c207e10882557e99dcded77f938b787124fc0dbe17e8c7",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_836dbff678c738f05d113ab0_0",
+      "kind": "p",
+      "source": "Simply click on a cell within a row to change its value. The change will not only reflect in the table, but also as an attribute of the corresponding note.",
+      "sourceHash": "836dbff678c738f05d113ab07e2707de9222471ecedcb4b20572d1b4b2f215ac",
+      "context": "Table > Interaction > Editing data",
+      "contextHash": "a009003c3af139a6b1c207e10882557e99dcded77f938b787124fc0dbe17e8c7",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_ff88d1181800e6ff54af7d90_0",
+      "kind": "li",
+      "source": "The editing will respect the type of the promoted attribute, by presenting a normal text box, a number selector or a date selector for example.",
+      "sourceHash": "ff88d1181800e6ff54af7d905d6301a879e467b8327a8558cd2fdfab2e076c92",
+      "context": "Table > Interaction > Editing data",
+      "contextHash": "a009003c3af139a6b1c207e10882557e99dcded77f938b787124fc0dbe17e8c7",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_700a20c495bdb4216e1172b6_0",
+      "kind": "li",
+      "source": "A boolean column shows a checkbox, which is checked or unchecked with a single click. A note without the label shows an unchecked box.",
+      "sourceHash": "700a20c495bdb4216e1172b6d29404f5682564f07101c26288d96766a7433709",
+      "context": "Table > Interaction > Editing data",
+      "contextHash": "a009003c3af139a6b1c207e10882557e99dcded77f938b787124fc0dbe17e8c7",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_d278381c23497fc365c28529_0",
+      "kind": "li",
+      "source": "It also possible to change the title of a note by clicking it.",
+      "sourceHash": "d278381c23497fc365c285299bdeed4c5db6baa7ca55962e7e9e236216a1f868",
+      "context": "Table > Interaction > Editing data",
+      "contextHash": "a009003c3af139a6b1c207e10882557e99dcded77f938b787124fc0dbe17e8c7",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_80a7c0fdf609f8691a5b7fda_0",
+      "kind": "li",
+      "source": "Editing relations is also possible",
+      "sourceHash": "80a7c0fdf609f8691a5b7fdac77325ce44982db35ace25718af94b0810d6fd14",
+      "context": "Table > Interaction > Editing data",
+      "contextHash": "a009003c3af139a6b1c207e10882557e99dcded77f938b787124fc0dbe17e8c7",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_38a07ea1f885e1ea7b137263_0",
+      "kind": "li",
+      "source": "Simply click on a relation and it will become editable. Enter the text to look for a note and click on it.",
+      "sourceHash": "38a07ea1f885e1ea7b137263a29dc7a360f6d7bfda992da9d3485a7b364467ee",
+      "context": "Table > Interaction > Editing data",
+      "contextHash": "a009003c3af139a6b1c207e10882557e99dcded77f938b787124fc0dbe17e8c7",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_9144aadaa7ca31726c800ceb_0",
+      "kind": "li",
+      "source": "To remove a relation, remove the title of the note from the text box and click outside the cell.",
+      "sourceHash": "9144aadaa7ca31726c800ceb60b4b4b55265cd9f004592a125cd13c9eebb7344",
+      "context": "Table > Interaction > Editing data",
+      "contextHash": "a009003c3af139a6b1c207e10882557e99dcded77f938b787124fc0dbe17e8c7",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_1ae9be85946d22c138c8dc7e_0",
+      "kind": "h3",
+      "source": "Editing columns__TRILIUM_PH_0__",
+      "sourceHash": "1ae9be85946d22c138c8dc7efff6a0ba2123c4fd7e70d2c88f4b29e34129d8c5",
+      "context": "Table > Interaction > Editing columns",
+      "contextHash": "37393cf3c1b36a0d9343dc0613844eaf9e71a73eb1f80378f159ee8d3fe5d4ee",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_29943ec807a01a63362628be_0",
+      "kind": "p",
+      "source": "It is possible to edit a column by right clicking it and selecting __TRILIUM_PH_0__Edit column…__TRILIUM_PH_1__ This will basically change the label/relation definition at the collection level.",
+      "sourceHash": "29943ec807a01a63362628be1b3406a6adca9a78e9c9beae3db8a18fe7e23b5d",
+      "context": "Table > Interaction > Editing columns",
+      "contextHash": "37393cf3c1b36a0d9343dc0613844eaf9e71a73eb1f80378f159ee8d3fe5d4ee",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_df40f75df933301d839aca9f_0",
+      "kind": "p",
+      "source": "Turn on __TRILIUM_PH_0__Multiple values__TRILIUM_PH_1__ to let each note hold several values in that column. The cell then shows them as chips (see __TRILIUM_PH_2__Multiple values__TRILIUM_PH_3__ in Promoted Attributes). The same toggle is available when adding a column.",
+      "sourceHash": "df40f75df933301d839aca9f391e980f3ca52d7020a38e7942bd99237a23736d",
+      "context": "Table > Interaction > Editing columns",
+      "contextHash": "37393cf3c1b36a0d9343dc0613844eaf9e71a73eb1f80378f159ee8d3fe5d4ee",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_735a11e6c71e7678c7be1ce2_0",
+      "kind": "p",
+      "source": "If the __TRILIUM_PH_0__Name__TRILIUM_PH_1__ field of a column is changed, this will trigger a batch operation in which the corresponding label/relation will be renamed in all the children.",
+      "sourceHash": "735a11e6c71e7678c7be1ce25cf180ca3233829d927b95baa40497c8751d691e",
+      "context": "Table > Interaction > Editing columns",
+      "contextHash": "37393cf3c1b36a0d9343dc0613844eaf9e71a73eb1f80378f159ee8d3fe5d4ee",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_500df6009a9f695a099d39cd_0",
+      "kind": "h3",
+      "source": "Read-only tables__TRILIUM_PH_0__",
+      "sourceHash": "500df6009a9f695a099d39cd1e7f66bf2e6ad5a130dd8d22b032b2a21be940c7",
+      "context": "Table > Interaction > Read-only tables",
+      "contextHash": "411bde43c2f0167a80c31a00e60def1b87ca07ccb4f2ecde228a39bbdc885faf",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_d1451225a5de3e120443069f_0",
+      "kind": "p",
+      "source": "On a __TRILIUM_PH_0__read-only__TRILIUM_PH_1__ table, the cells can't be edited and the rows can't be dragged. Clicking a note's title opens it in quick edit, so there's no __TRILIUM_PH_2__Open__TRILIUM_PH_3__ button. The __TRILIUM_PH_4__New row__TRILIUM_PH_5__ and __TRILIUM_PH_6__New column__TRILIUM_PH_7__ buttons are hidden, and the context menus offer only what leaves the notes as they are: sorting and hiding columns, and opening the notes. Columns can still be resized and reordered, but the layout isn't saved. The __TRILIUM_PH_8__Table properties__TRILIUM_PH_9__ dialog isn't available.",
+      "sourceHash": "d1451225a5de3e120443069fa4a0239b6f28d60f09c93ca5f9694f8b36f1f178",
+      "context": "Table > Interaction > Read-only tables",
+      "contextHash": "411bde43c2f0167a80c31a00e60def1b87ca07ccb4f2ecde228a39bbdc885faf",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_b868f12c2709a5f6f6508e63_0",
+      "kind": "h2",
+      "source": "Working with the data__TRILIUM_PH_0__",
+      "sourceHash": "b868f12c2709a5f6f6508e6327254cfca111735bdbccbb1ee08d87ad368b827b",
+      "context": "Table > Working with the data",
+      "contextHash": "cba4a50b158e061d07cf65ba543b56835091b797df09dac519c91c8c727937a7",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_dab333501db10779a955f2ba_0",
+      "kind": "h3",
+      "source": "Sorting by column__TRILIUM_PH_0__",
+      "sourceHash": "dab333501db10779a955f2ba98fd86d7f6c400707b13fa393bcd27b932abc4e6",
+      "context": "Table > Working with the data > Sorting by column",
+      "contextHash": "cbabc61450dd64869983f89d52ed0f60897aea492a1c1abe7061f3f0f2bf919c",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_319887b60ca266b2f06e6605_0",
+      "kind": "p",
+      "source": "By default, the order of the notes matches the order in the __TRILIUM_PH_0__Note Tree__TRILIUM_PH_1__. However, it is possible to sort the data by the values of a column:",
+      "sourceHash": "319887b60ca266b2f06e660527d1aa45dfc818a68782c1cd5b193ff66e76c101",
+      "context": "Table > Working with the data > Sorting by column",
+      "contextHash": "cbabc61450dd64869983f89d52ed0f60897aea492a1c1abe7061f3f0f2bf919c",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_8d28cbcb8c9d169d74c8c99f_0",
+      "kind": "li",
+      "source": "To do so, simply click on a column.",
+      "sourceHash": "8d28cbcb8c9d169d74c8c99fd5cfb35076e36c0e986c3b4eb1abe73cc0512204",
+      "context": "Table > Working with the data > Sorting by column",
+      "contextHash": "cbabc61450dd64869983f89d52ed0f60897aea492a1c1abe7061f3f0f2bf919c",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_907d312a06e7a1144c778866_0",
+      "kind": "li",
+      "source": "To switch between ascending or descending sort, simply click again on the same column. The arrow next to the column will indicate the direction of the sort. On a column that isn't sorted, the arrow appears only while hovering over its header.",
+      "sourceHash": "907d312a06e7a1144c7788661e565f1639937bbb14693fa04920a39c14b5d271",
+      "context": "Table > Working with the data > Sorting by column",
+      "contextHash": "cbabc61450dd64869983f89d52ed0f60897aea492a1c1abe7061f3f0f2bf919c",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_abcaa3b5c0cf4b4a5d18ee3b_0",
+      "kind": "li",
+      "source": "To disable sorting and fall back to the original order, right click any column on the header and select __TRILIUM_PH_0__Clear sorting.__TRILIUM_PH_1__",
+      "sourceHash": "abcaa3b5c0cf4b4a5d18ee3b0cdc35a4f709b3c180dfaf3f071f656ccc0ef473",
+      "context": "Table > Working with the data > Sorting by column",
+      "contextHash": "cbabc61450dd64869983f89d52ed0f60897aea492a1c1abe7061f3f0f2bf919c",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_8379727ceb79a008ff943a31_0",
+      "kind": "h3",
+      "source": "Reordering and hiding columns__TRILIUM_PH_0__",
+      "sourceHash": "8379727ceb79a008ff943a311e3f50683955f1e12ce96feb7639d3e752038881",
+      "context": "Table > Working with the data > Reordering and hiding columns",
+      "contextHash": "feb99bc31aa5dd4077a86bb2a7deefaf609646d1f6bf0592678339f9fdd1529c",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_a90faa183c426576d53ad4a8_0",
+      "kind": "li",
+      "source": "Columns can be reordered by dragging the header of the columns.",
+      "sourceHash": "a90faa183c426576d53ad4a8623acfbe44be754f051c12d3446e541e4e5ce752",
+      "context": "Table > Working with the data > Reordering and hiding columns",
+      "contextHash": "feb99bc31aa5dd4077a86bb2a7deefaf609646d1f6bf0592678339f9fdd1529c",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_d13487ad547180866bc711df_0",
+      "kind": "li",
+      "source": "Columns can be hidden or shown by right clicking on a column and clicking the item corresponding to the column.",
+      "sourceHash": "d13487ad547180866bc711df7c64c372be9d546506c7c569d8ef035088cdf8d8",
+      "context": "Table > Working with the data > Reordering and hiding columns",
+      "contextHash": "feb99bc31aa5dd4077a86bb2a7deefaf609646d1f6bf0592678339f9fdd1529c",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_7fcaf8be28365abe8c83ee12_0",
+      "kind": "h3",
+      "source": "Reordering rows__TRILIUM_PH_0__",
+      "sourceHash": "7fcaf8be28365abe8c83ee12cbb83d3a76b888eff8965a282300eef4b0c6b18a",
+      "context": "Table > Working with the data > Reordering rows",
+      "contextHash": "28314d9816bccd32e5f2bc9196d515be52a5b914cffd8ce5b18fd8e528fed8ff",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_52c5bb5def9b8dce53f82dde_0",
+      "kind": "p",
+      "source": "Notes can be dragged around to change their order. To do so, move the mouse over the three vertical dots near the number row and drag the mouse to the desired position.",
+      "sourceHash": "52c5bb5def9b8dce53f82ddebd56b17377282391a147cfc18d8f3378119e38af",
+      "context": "Table > Working with the data > Reordering rows",
+      "contextHash": "28314d9816bccd32e5f2bc9196d515be52a5b914cffd8ce5b18fd8e528fed8ff",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_19a466d0ce44980596c29402_0",
+      "kind": "p",
+      "source": "This will also change the order of the note in the __TRILIUM_PH_0__Note Tree__TRILIUM_PH_1__.",
+      "sourceHash": "19a466d0ce44980596c294025d84ee1e7062627bd6270ef5822173c8dd96b088",
+      "context": "Table > Working with the data > Reordering rows",
+      "contextHash": "28314d9816bccd32e5f2bc9196d515be52a5b914cffd8ce5b18fd8e528fed8ff",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_3928fc7d0292432ccf2b10a7_0",
+      "kind": "p",
+      "source": "Reordering does have some limitations:",
+      "sourceHash": "3928fc7d0292432ccf2b10a7b33311128d33d32e354f9a847c1d90a2d1b3c94f",
+      "context": "Table > Working with the data > Reordering rows",
+      "contextHash": "28314d9816bccd32e5f2bc9196d515be52a5b914cffd8ce5b18fd8e528fed8ff",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_0b1aa81fc5c5c5e8da837d31_0",
+      "kind": "li",
+      "source": "If the parent note has __TRILIUM_PH_0__, reordering will be disabled.",
+      "sourceHash": "0b1aa81fc5c5c5e8da837d31ca50d165ae16a137f2511a6bf95c92517e4c4841",
+      "context": "Table > Working with the data > Reordering rows",
+      "contextHash": "28314d9816bccd32e5f2bc9196d515be52a5b914cffd8ce5b18fd8e528fed8ff",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_500d0758214cd32a6b30f7d6_0",
+      "kind": "li",
+      "source": "If using nested tables, then reordering will also be disabled.",
+      "sourceHash": "500d0758214cd32a6b30f7d602e6f6f6bfdb44c12396b3aeb952837f7252b1c2",
+      "context": "Table > Working with the data > Reordering rows",
+      "contextHash": "28314d9816bccd32e5f2bc9196d515be52a5b914cffd8ce5b18fd8e528fed8ff",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_19322880ddb7ce057aee32e6_0",
+      "kind": "li",
+      "source": "Currently, it's possible to reorder notes even if column sorting is used, but the result might be inconsistent.",
+      "sourceHash": "19322880ddb7ce057aee32e67dab250a67d5b11bb694f61065e03d03ed6817aa",
+      "context": "Table > Working with the data > Reordering rows",
+      "contextHash": "28314d9816bccd32e5f2bc9196d515be52a5b914cffd8ce5b18fd8e528fed8ff",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_fe918ea461933a7402e52d51_0",
+      "kind": "h3",
+      "source": "Nested trees__TRILIUM_PH_0__",
+      "sourceHash": "fe918ea461933a7402e52d516def57095d01cc17d9a30a0cb06cae09838af0a9",
+      "context": "Table > Working with the data > Nested trees",
+      "contextHash": "74c9cee9dd307db99495f41885ef98182e23a6a8d122c28354b484578fbdb56d",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_8b2133241f778117888621a7_0",
+      "kind": "p",
+      "source": "If the child notes of the collection also have their own child notes, then they will be displayed in a hierarchy.",
+      "sourceHash": "8b2133241f778117888621a72eaefa03a7b190fb8d53f15c23e222d03f47880a",
+      "context": "Table > Working with the data > Nested trees",
+      "contextHash": "74c9cee9dd307db99495f41885ef98182e23a6a8d122c28354b484578fbdb56d",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_a57f4d02813614f415ac1cc1_0",
+      "kind": "p",
+      "source": "Next to the title of each element there will be a button to expand or collapse. By default, all items are expanded.",
+      "sourceHash": "a57f4d02813614f415ac1cc1fb94694223f64990991bce407c6933c36de07821",
+      "context": "Table > Working with the data > Nested trees",
+      "contextHash": "74c9cee9dd307db99495f41885ef98182e23a6a8d122c28354b484578fbdb56d",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_09d3b6598cda3ea90fd5d39e_0",
+      "kind": "p",
+      "source": "Since nesting is not always desirable, it is possible to limit the nesting to a certain number of levels or even disable it completely. To do so, go to __TRILIUM_PH_0__Note menu__TRILIUM_PH_1__ → __TRILIUM_PH_2__Table properties__TRILIUM_PH_3__ and set __TRILIUM_PH_4__Maximum nesting depth__TRILIUM_PH_5__ (under the __TRILIUM_PH_6__Included notes__TRILIUM_PH_7__ section), or set the __TRILIUM_PH_8__ __TRILIUM_PH_9__label__TRILIUM_PH_10__ of the collection:",
+      "sourceHash": "09d3b6598cda3ea90fd5d39e771992d1d1beacc1a3d62b92ea76c560bb3bd324",
+      "context": "Table > Working with the data > Nested trees",
+      "contextHash": "74c9cee9dd307db99495f41885ef98182e23a6a8d122c28354b484578fbdb56d",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_08305fb4bed57cae4ebb3f71_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__ disables nesting, showing only the children of the collection.",
+      "sourceHash": "08305fb4bed57cae4ebb3f71dfc85d6a2795beae5a49a1432b906d20f3d57ac3",
+      "context": "Table > Working with the data > Nested trees",
+      "contextHash": "74c9cee9dd307db99495f41885ef98182e23a6a8d122c28354b484578fbdb56d",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_5bb73682c4cceba1f129dd20_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__ also shows their children, __TRILIUM_PH_1__ the level below that, and so on.",
+      "sourceHash": "5bb73682c4cceba1f129dd20986923b54ee7aba75ab4203513bf5b838d6c3d63",
+      "context": "Table > Working with the data > Nested trees",
+      "contextHash": "74c9cee9dd307db99495f41885ef98182e23a6a8d122c28354b484578fbdb56d",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_3344563568cccaba27c4f331_0",
+      "kind": "li",
+      "source": "Removing the label shows every level again.",
+      "sourceHash": "3344563568cccaba27c4f33154d04d300bb118989115a76c51be9da4dd3fe6ad",
+      "context": "Table > Working with the data > Nested trees",
+      "contextHash": "74c9cee9dd307db99495f41885ef98182e23a6a8d122c28354b484578fbdb56d",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_ae486cd949d12f3be2baf427_0",
+      "kind": "p",
+      "source": "Limitations:",
+      "sourceHash": "ae486cd949d12f3be2baf427692d2bd60502c806d1deae5905da2ff877f97616",
+      "context": "Table > Working with the data > Nested trees",
+      "contextHash": "74c9cee9dd307db99495f41885ef98182e23a6a8d122c28354b484578fbdb56d",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_6f4fd9208ed6ed110e306a45_0",
+      "kind": "li",
+      "source": "While in this mode, it's not possible to reorder notes.",
+      "sourceHash": "6f4fd9208ed6ed110e306a45a49652a54d614e57e51f462f84fe64068598d3c9",
+      "context": "Table > Working with the data > Nested trees",
+      "contextHash": "74c9cee9dd307db99495f41885ef98182e23a6a8d122c28354b484578fbdb56d",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_2d166eed4e46d147ae179d3f_0",
+      "kind": "h2",
+      "source": "Limitations__TRILIUM_PH_0__",
+      "sourceHash": "2d166eed4e46d147ae179d3feba2dbd0d28887b22a99884dc255c7ff2e43988d",
+      "context": "Table > Limitations",
+      "contextHash": "61dc9ae6601a92b706de818dc3a41b9d5962638a5cc4d7025008adbbe7d65a60",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_c6a4124d767decc024e48668_0",
+      "kind": "li",
+      "source": "There is no support to filter the rows by a certain criteria. Consider using the table view in search for that use case; for example, __TRILIUM_PH_0__ lists the notes created in the last week.",
+      "sourceHash": "c6a4124d767decc024e48668ac221bdaf7a6e4ea1f55382692c69ee8acc450b2",
+      "context": "Table > Limitations",
+      "contextHash": "61dc9ae6601a92b706de818dc3a41b9d5962638a5cc4d7025008adbbe7d65a60",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_bbdaff817cab9f62e0dcd384_0",
+      "kind": "h2",
+      "source": "Use in search__TRILIUM_PH_0__",
+      "sourceHash": "bbdaff817cab9f62e0dcd38439a043a670ebc4fbfb18d70bb26a9a2e5e876335",
+      "context": "Table > Use in search",
+      "contextHash": "493804b60eb237253154eb3fdef7f2dd0995fbc7eba9c05b886d6b54cb6982d0",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_6dc895da72c4e6883aad3370_0",
+      "kind": "p",
+      "source": "The table view can be used in a __TRILIUM_PH_0__Saved Search__TRILIUM_PH_1__ by adding the __TRILIUM_PH_2__ attribute.",
+      "sourceHash": "6dc895da72c4e6883aad3370173840b02302521d1814de15e9b9a5f450d025be",
+      "context": "Table > Use in search",
+      "contextHash": "493804b60eb237253154eb3fdef7f2dd0995fbc7eba9c05b886d6b54cb6982d0",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_adfe8f70685416942c58cc5d_0",
+      "kind": "p",
+      "source": "Unlike when used in a Collection, saved searches are not limited to the sub-hierarchy of a note and allows for advanced queries thanks to the power of the __TRILIUM_PH_0__Search__TRILIUM_PH_1__.",
+      "sourceHash": "adfe8f70685416942c58cc5d6d715ad8186c82dbe492f8a6c659c9241f537b98",
+      "context": "Table > Use in search",
+      "contextHash": "493804b60eb237253154eb3fdef7f2dd0995fbc7eba9c05b886d6b54cb6982d0",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_addde2c21f666406fa80eec9_0",
+      "kind": "p",
+      "source": "However, there are also some limitations:",
+      "sourceHash": "addde2c21f666406fa80eec9e126bf843480a133b93094a268b264ee15ae3a93",
+      "context": "Table > Use in search",
+      "contextHash": "493804b60eb237253154eb3fdef7f2dd0995fbc7eba9c05b886d6b54cb6982d0",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_8a6c5150352c081949a3fa9f_0",
+      "kind": "li",
+      "source": "It's not possible to reorder notes.",
+      "sourceHash": "8a6c5150352c081949a3fa9f3bddc4f624c86daf1fafe646ce7eaf8ca519e716",
+      "context": "Table > Use in search",
+      "contextHash": "493804b60eb237253154eb3fdef7f2dd0995fbc7eba9c05b886d6b54cb6982d0",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_6f6b837978b3da70786bfa5d_0",
+      "kind": "li",
+      "source": "It's not possible to add a new row.",
+      "sourceHash": "6f6b837978b3da70786bfa5d3a61158220a9720a653d94a10aecd9448bdce250",
+      "context": "Table > Use in search",
+      "contextHash": "493804b60eb237253154eb3fdef7f2dd0995fbc7eba9c05b886d6b54cb6982d0",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_f8aa95b606833263cd90074b_0",
+      "kind": "p",
+      "source": "Columns are supported, by being defined as __TRILIUM_PH_0__Promoted Attributes__TRILIUM_PH_1__ to the __TRILIUM_PH_2__Saved Search__TRILIUM_PH_3__ note.",
+      "sourceHash": "f8aa95b606833263cd90074bad05bcb352964acd0664fa32be5647040086f4a3",
+      "context": "Table > Use in search",
+      "contextHash": "493804b60eb237253154eb3fdef7f2dd0995fbc7eba9c05b886d6b54cb6982d0",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_50a99c271adf540028e099ed_0",
+      "kind": "p",
+      "source": "Editing is also supported.",
+      "sourceHash": "50a99c271adf540028e099edbc43697b75bf2c11e1b3fe74b303ab21b4c84861",
+      "context": "Table > Use in search",
+      "contextHash": "493804b60eb237253154eb3fdef7f2dd0995fbc7eba9c05b886d6b54cb6982d0",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_b190d47815633246b0ab18a6_0",
+      "kind": "image-alt",
+      "source": "記事画像",
+      "sourceHash": "b190d47815633246b0ab18a61d9b8e8ea36504fe3f8bc230a7753096915c9ff2",
+      "context": "Table > Use in search",
+      "contextHash": "493804b60eb237253154eb3fdef7f2dd0995fbc7eba9c05b886d6b54cb6982d0",
+      "status": "pending",
+      "active": true
+    }
+  ],
+  "requests": []
+}

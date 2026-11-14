@@ -1,0 +1,689 @@
+{
+  "schemaVersion": 1,
+  "pageId": "l0tKav7yLHGF",
+  "sourceFile": "docs/User Guide/User Guide/Advanced Usage/Advanced Showcases/Day Notes.md",
+  "sourceRevision": "03d17b60f59b5efc29b880b11481471d0fe0ff57",
+  "units": [
+    {
+      "id": "u_e46b40c15016da5e20987dfd_0",
+      "kind": "title",
+      "source": "Day Notes",
+      "sourceHash": "e46b40c15016da5e20987dfd052feb501af4628d55a0118c093a4dfd3633c9a5",
+      "context": "Day Notes",
+      "contextHash": "6a2027801048e0bbbba7a8f53c8fe8954a4a428bf8f038f2e101ecce30b43ece",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_f49be55b7503467984045440_0",
+      "kind": "p",
+      "source": "A common pattern in note-taking is that a lot of notes will be centered around a certain date - e.g. you have some tasks which needs to be done on a certain date, you have meeting minutes from a certain date, you have your thoughts etc. and it all revolves around a date on which they occurred. For this reason, it makes sense to create a certain \"day workspace\" which will centralize all those notes relevant for a certain date.",
+      "sourceHash": "f49be55b7503467984045440766905b327e636ec84a6df1f9754dfec1d2744e2",
+      "context": "Day Notes",
+      "contextHash": "6a2027801048e0bbbba7a8f53c8fe8954a4a428bf8f038f2e101ecce30b43ece",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_e9f4cd7ada929d2582ac5941_0",
+      "kind": "p",
+      "source": "For this, Trilium provides a concept of \"day note\". Trilium semi-automatically generates a single note for each day. Under this note you can save all those relevant notes.",
+      "sourceHash": "e9f4cd7ada929d2582ac594131754924a4b83ee63482c1964831cff46d00b358",
+      "context": "Day Notes",
+      "contextHash": "6a2027801048e0bbbba7a8f53c8fe8954a4a428bf8f038f2e101ecce30b43ece",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_910a6481e2ad823ae8392669_0",
+      "kind": "p",
+      "source": "Select an existing day note, and the menubar contains a calendar widget. Select any day to create a note for that day. ",
+      "sourceHash": "910a6481e2ad823ae83926697ade543e4ff81d7982fc2af9ad785913ec0b3027",
+      "context": "Day Notes",
+      "contextHash": "6a2027801048e0bbbba7a8f53c8fe8954a4a428bf8f038f2e101ecce30b43ece",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_f825b0a5609ec49a179fb417_0",
+      "kind": "p",
+      "source": "This pattern works well also because of __TRILIUM_PH_0__Cloning Notes__TRILIUM_PH_1__ functionality - note can appear in multiple places in the note tree, so besides appearing under day note, it can also be categorized into other notes.",
+      "sourceHash": "f825b0a5609ec49a179fb417885d68cef72af7da88dad8ed4adfe022858e042f",
+      "context": "Day Notes",
+      "contextHash": "6a2027801048e0bbbba7a8f53c8fe8954a4a428bf8f038f2e101ecce30b43ece",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_e2c1668587503153631e16c3_0",
+      "kind": "h2",
+      "source": "Demo__TRILIUM_PH_0__",
+      "sourceHash": "e2c1668587503153631e16c32cc71076665534948359fa91816f5bbdc3102c02",
+      "context": "Day Notes > Demo",
+      "contextHash": "eb731c3ce7a8b60df2e15d1c9294da67ddc3e4684ba3ee182fafd72df21e4ad9",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_429be953940b9a1766eb7b15_0",
+      "kind": "p",
+      "source": "You can see the structure of day notes appearing under \"Journal\" note - there's a note for the whole year 2025, under it, you have \"03 - March\" which then contains \"09 - Monday\". This is our \"day note\" which contains some text in its content and also has some child notes (some of them are from __TRILIUM_PH_0__Task manager__TRILIUM_PH_1__).",
+      "sourceHash": "429be953940b9a1766eb7b15515ff6853d05eaf4702dadc891e06bd4e2b6e498",
+      "context": "Day Notes > Demo",
+      "contextHash": "eb731c3ce7a8b60df2e15d1c9294da67ddc3e4684ba3ee182fafd72df21e4ad9",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_d3add674ab3a71b3268c1d1f_0",
+      "kind": "p",
+      "source": "You can also notice how this day note has __TRILIUM_PH_0__promoted attribute__TRILIUM_PH_1__ \"weight\" where you can track your daily weight. This data is then used in __TRILIUM_PH_2__Weight tracker__TRILIUM_PH_3__.",
+      "sourceHash": "d3add674ab3a71b3268c1d1fed44221cf65081f7b1296ed60e5bf1881f5d27c4",
+      "context": "Day Notes > Demo",
+      "contextHash": "eb731c3ce7a8b60df2e15d1c9294da67ddc3e4684ba3ee182fafd72df21e4ad9",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_2470976cd3c10b54c0dff68f_0",
+      "kind": "h2",
+      "source": "Edited notes__TRILIUM_PH_0__",
+      "sourceHash": "2470976cd3c10b54c0dff68f7586b1f34bdae1dd6c5bc4baa99a32037c4054b0",
+      "context": "Day Notes > Edited notes",
+      "contextHash": "d67db9d3a2b738fb8897eb28925397bfea8f263f897f6bf205b1438da9fbd449",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_43ab69a698546026ad56ea57_0",
+      "kind": "p",
+      "source": "When a day note is opened, a collapsible section will appear underneath the __TRILIUM_PH_0__Title__TRILIUM_PH_1__ showing the notes edited on that day.",
+      "sourceHash": "43ab69a698546026ad56ea57a58b9fba0130f583e9ae8d4b9ef47929f298dc38",
+      "context": "Day Notes > Edited notes",
+      "contextHash": "d67db9d3a2b738fb8897eb28925397bfea8f263f897f6bf205b1438da9fbd449",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_3f39ec3035b9de66db5ffc19_0",
+      "kind": "h2",
+      "source": "Week Note and Quarter Note__TRILIUM_PH_0__",
+      "sourceHash": "3f39ec3035b9de66db5ffc19734d092a5c82122d73bfb312d506bca96c65cbbc",
+      "context": "Day Notes > Week Note and Quarter Note",
+      "contextHash": "8f7141e0ae621e4ada4ffc080f8d0fbf7f01fba30f6796cc0b72871fd4997aae",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_2d97e7bc0a15cefff7ef508a_0",
+      "kind": "p",
+      "source": "Week and quarter notes are disabled by default, since it might be too much for some people. To enable them, you need to set __TRILIUM_PH_0__ and __TRILIUM_PH_1__ attributes on the root calendar note, which is identified by __TRILIUM_PH_2__ label. Week note is affected by the first week of year option. Be careful when you already have some week notes created, it will not automatically change the existing week notes and might lead to some duplicates.",
+      "sourceHash": "2d97e7bc0a15cefff7ef508a9d59af86e960eb242c28904b181cb9eb5c73ac12",
+      "context": "Day Notes > Week Note and Quarter Note",
+      "contextHash": "8f7141e0ae621e4ada4ffc080f8d0fbf7f01fba30f6796cc0b72871fd4997aae",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_ecceb26ea8bad9a5b08b4eb3_0",
+      "kind": "h2",
+      "source": "Templates__TRILIUM_PH_0__",
+      "sourceHash": "ecceb26ea8bad9a5b08b4eb379a2ea8191120c923665f3c9dabec7ea986df2f4",
+      "context": "Day Notes > Templates",
+      "contextHash": "294c8519f781b7aadb65438aa7ef0401330dd661211175712ff9643c3f5edc33",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_0df8bfd9200d53def4e96c33_0",
+      "kind": "p",
+      "source": "Trilium provides __TRILIUM_PH_0__template__TRILIUM_PH_1__ functionality, and it could be used together with day notes.",
+      "sourceHash": "0df8bfd9200d53def4e96c337567bf82e7efb2b220ea7b32f8ed6cb17ca6c49d",
+      "context": "Day Notes > Templates",
+      "contextHash": "294c8519f781b7aadb65438aa7ef0401330dd661211175712ff9643c3f5edc33",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_b2aa76eca1389e11c60702e0_0",
+      "kind": "p",
+      "source": "You can define one of the following relations on the root of the journal (identified by __TRILIUM_PH_0__ label):",
+      "sourceHash": "b2aa76eca1389e11c60702e02c303a56a9b1af2a984fa78c74785c3a16753865",
+      "context": "Day Notes > Templates",
+      "contextHash": "294c8519f781b7aadb65438aa7ef0401330dd661211175712ff9643c3f5edc33",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_14ba8d6da339bf150e861e69_0",
+      "kind": "li",
+      "source": "yearTemplate",
+      "sourceHash": "14ba8d6da339bf150e861e695eab55c0a73a2bdd2e55654fbbf2a253323b7c62",
+      "context": "Day Notes > Templates",
+      "contextHash": "294c8519f781b7aadb65438aa7ef0401330dd661211175712ff9643c3f5edc33",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_845dc3ca37843937478582fa_0",
+      "kind": "li",
+      "source": "quarterTemplate (if __TRILIUM_PH_0__ is set)",
+      "sourceHash": "845dc3ca37843937478582fa9d3f20dc8c7939609bab85e1fc3e37487518355b",
+      "context": "Day Notes > Templates",
+      "contextHash": "294c8519f781b7aadb65438aa7ef0401330dd661211175712ff9643c3f5edc33",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_9d79252e667fc5ccd8e3a943_0",
+      "kind": "li",
+      "source": "monthTemplate",
+      "sourceHash": "9d79252e667fc5ccd8e3a943056d4eb251bd0f2bff2b8878c187ca6a9553036c",
+      "context": "Day Notes > Templates",
+      "contextHash": "294c8519f781b7aadb65438aa7ef0401330dd661211175712ff9643c3f5edc33",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_ea6ed8e7de37d1756186a5b9_0",
+      "kind": "li",
+      "source": "weekTemplate (if __TRILIUM_PH_0__ is set)",
+      "sourceHash": "ea6ed8e7de37d1756186a5b918ad29dd616598f2435b4b60b7b9c97e992d68f7",
+      "context": "Day Notes > Templates",
+      "contextHash": "294c8519f781b7aadb65438aa7ef0401330dd661211175712ff9643c3f5edc33",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_93378f08ca2195dd9a3c709a_0",
+      "kind": "li",
+      "source": "dateTemplate",
+      "sourceHash": "93378f08ca2195dd9a3c709a00820dc6dec2537813278633ed0fb0a568deb081",
+      "context": "Day Notes > Templates",
+      "contextHash": "294c8519f781b7aadb65438aa7ef0401330dd661211175712ff9643c3f5edc33",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_a6c4c54093d6176b8142e341_0",
+      "kind": "p",
+      "source": "All of these are relations. When Trilium creates a new note for year or month or date, it will take a look at the root and attach a corresponding __TRILIUM_PH_0__ relation to the newly created role. Using this, you can e.g. create your daily template with e.g. checkboxes for daily routine etc.",
+      "sourceHash": "a6c4c54093d6176b8142e3414c319b13806702c82ea8a970b582fd80f691a3b3",
+      "context": "Day Notes > Templates",
+      "contextHash": "294c8519f781b7aadb65438aa7ef0401330dd661211175712ff9643c3f5edc33",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_e419dd6d815ddec2ee677915_0",
+      "kind": "h3",
+      "source": "Migrate from old template usage__TRILIUM_PH_0__",
+      "sourceHash": "e419dd6d815ddec2ee677915ed9c9cc64873eea1dbd9719071d2f82f84859fec",
+      "context": "Day Notes > Templates > Migrate from old template usage",
+      "contextHash": "1cadd5f8319d5f6bfce73099a5645c69a784802d63b237682ffe7c0bfe62a773",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_f288f54a9827cb516af09427_0",
+      "kind": "p",
+      "source": "If you have been using Journal prior to version v0.93.0, the previous template pattern likely used was __TRILIUM_PH_0__.__TRILIUM_PH_1__To transition to the new system:",
+      "sourceHash": "f288f54a9827cb516af094276fd931efcdd4ca79b6e15c2aba30306e46dd28c4",
+      "context": "Day Notes > Templates > Migrate from old template usage",
+      "contextHash": "1cadd5f8319d5f6bfce73099a5645c69a784802d63b237682ffe7c0bfe62a773",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_cd20dfc47561ab4c90c8deae_0",
+      "kind": "li",
+      "source": "Set up the new template pattern in the Calendar root note.",
+      "sourceHash": "cd20dfc47561ab4c90c8deae081f9ae5c7ae16f3655c12c387c08a9d5a53cbf8",
+      "context": "Day Notes > Templates > Migrate from old template usage",
+      "contextHash": "1cadd5f8319d5f6bfce73099a5645c69a784802d63b237682ffe7c0bfe62a773",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_87fb8faa7bf61de7e0e243d4_0",
+      "kind": "li",
+      "source": "Use __TRILIUM_PH_0__Bulk Actions__TRILIUM_PH_1__ to remove __TRILIUM_PH_2__ and __TRILIUM_PH_3__ from all notes under the Journal (calendar root).",
+      "sourceHash": "87fb8faa7bf61de7e0e243d4aa09e37884ccbbc7e35f48932dbe2ffc7c1331a3",
+      "context": "Day Notes > Templates > Migrate from old template usage",
+      "contextHash": "1cadd5f8319d5f6bfce73099a5645c69a784802d63b237682ffe7c0bfe62a773",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_f7c95db7d10d4a12384f394a_0",
+      "kind": "li",
+      "source": "Ensure that all old template patterns are fully removed to prevent conflicts with the new setup.",
+      "sourceHash": "f7c95db7d10d4a12384f394ac1094115e4bf9ae7e77a936eafa1daeed2da7286",
+      "context": "Day Notes > Templates > Migrate from old template usage",
+      "contextHash": "1cadd5f8319d5f6bfce73099a5645c69a784802d63b237682ffe7c0bfe62a773",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_39fe545f0637ee71f73c3056_0",
+      "kind": "h2",
+      "source": "Naming pattern__TRILIUM_PH_0__",
+      "sourceHash": "39fe545f0637ee71f73c30563acd426068d756fdea3660d3fe4617d491b12732",
+      "context": "Day Notes > Naming pattern",
+      "contextHash": "45f723b7c6f8b392592bbda1fe2254d67b3291c509ebe9d39ee606a74bac9e4e",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_1c8e124321cf86a2dfa454b8_0",
+      "kind": "p",
+      "source": "You can customize the title of generated journal notes by defining a __TRILIUM_PH_0__, __TRILIUM_PH_1__, __TRILIUM_PH_2__, __TRILIUM_PH_3__ and __TRILIUM_PH_4__ attribute on a root calendar note (identified by __TRILIUM_PH_5__ label). The naming pattern replacements follow a level-up compatibility - each level can use replacements from itself and all levels above it. For example, __TRILIUM_PH_6__ can use month, quarter and year replacements, while __TRILIUM_PH_7__ can use week, month, quarter and year replacements. But it is not possible to use week replacements in __TRILIUM_PH_8__.",
+      "sourceHash": "1c8e124321cf86a2dfa454b820179bdbe9fe3195fef9c78a959c58840404f01c",
+      "context": "Day Notes > Naming pattern",
+      "contextHash": "45f723b7c6f8b392592bbda1fe2254d67b3291c509ebe9d39ee606a74bac9e4e",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_92baf81d0805e77386237a7e_0",
+      "kind": "h3",
+      "source": "Date pattern__TRILIUM_PH_0__",
+      "sourceHash": "92baf81d0805e77386237a7ea2513dc60a86611a2caa9c57267a9d9e91d49a47",
+      "context": "Day Notes > Naming pattern > Date pattern",
+      "contextHash": "6189db0c4efcdcbef054a099529e10c7fa6679796a3f0732c2f776e3e833ac28",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_c7c0ab98542446392581a7a4_0",
+      "kind": "p",
+      "source": "It's possible to customize the title of generated date notes by defining a __TRILIUM_PH_0__ attribute on a root calendar note (identified by __TRILIUM_PH_1__ label). Following are possible values:",
+      "sourceHash": "c7c0ab98542446392581a7a491f8b5facfa51ba7eb823f66b8b9169e6e3cce54",
+      "context": "Day Notes > Naming pattern > Date pattern",
+      "contextHash": "6189db0c4efcdcbef054a099529e10c7fa6679796a3f0732c2f776e3e833ac28",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_e36cd2089858afb98985a353_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__ results in an ISO 8061 formatted date (e.g. \"2025-03-09\" for March 9, 2025)",
+      "sourceHash": "e36cd2089858afb98985a353dd9cc7e4f4fa7660ea4d84954d75aced3ad45445",
+      "context": "Day Notes > Naming pattern > Date pattern",
+      "contextHash": "6189db0c4efcdcbef054a099529e10c7fa6679796a3f0732c2f776e3e833ac28",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_b77ba14e18d1ff9d39c92697_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__ results in a number like __TRILIUM_PH_1__ for the 9th day of the month, __TRILIUM_PH_2__ for the 11th day of the month",
+      "sourceHash": "b77ba14e18d1ff9d39c926975a1885d8e6781efed6d3e51807eba2b43bfecbfb",
+      "context": "Day Notes > Naming pattern > Date pattern",
+      "contextHash": "6189db0c4efcdcbef054a099529e10c7fa6679796a3f0732c2f776e3e833ac28",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_b77ba14e18d1ff9d39c92697_1",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__ results in a number like __TRILIUM_PH_1__ for the 9th day of the month, __TRILIUM_PH_2__ for the 11th day of the month",
+      "sourceHash": "b77ba14e18d1ff9d39c926975a1885d8e6781efed6d3e51807eba2b43bfecbfb",
+      "context": "Day Notes > Naming pattern > Date pattern",
+      "contextHash": "6189db0c4efcdcbef054a099529e10c7fa6679796a3f0732c2f776e3e833ac28",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_e2d3242d06964b64ff0456c9_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__ is replaced with the ordinal date (e.g. 1st, 2nd, 3rd) etc.",
+      "sourceHash": "e2d3242d06964b64ff0456c921b3aa0909982e2eac7c95039e94c79205996286",
+      "context": "Day Notes > Naming pattern > Date pattern",
+      "contextHash": "6189db0c4efcdcbef054a099529e10c7fa6679796a3f0732c2f776e3e833ac28",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_547627c46e87bf0b48f7b471_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__ results in the full day name (e.g. __TRILIUM_PH_1__)",
+      "sourceHash": "547627c46e87bf0b48f7b471e78959b31708079c3de856f8edbac4c4e9eac01f",
+      "context": "Day Notes > Naming pattern > Date pattern",
+      "contextHash": "6189db0c4efcdcbef054a099529e10c7fa6679796a3f0732c2f776e3e833ac28",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_2ac208dd72a43093d5695f1b_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__ is replaced with the first 3 letters of the day, e.g. Mon, Tue, etc.",
+      "sourceHash": "2ac208dd72a43093d5695f1b31d971cb087ec817ff318e41e44bf0afa6dfc76b",
+      "context": "Day Notes > Naming pattern > Date pattern",
+      "contextHash": "6189db0c4efcdcbef054a099529e10c7fa6679796a3f0732c2f776e3e833ac28",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_10eb1f294e203d2182fb61f4_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__ is replaced with the first 2 letters of the day, e.g. Mo, Tu, etc.",
+      "sourceHash": "10eb1f294e203d2182fb61f42e1ffc0c6ca696dfc77107ba0eacf769134870f1",
+      "context": "Day Notes > Naming pattern > Date pattern",
+      "contextHash": "6189db0c4efcdcbef054a099529e10c7fa6679796a3f0732c2f776e3e833ac28",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_32014bfb7af82cd0422700e1_0",
+      "kind": "p",
+      "source": "The default is __TRILIUM_PH_0__",
+      "sourceHash": "32014bfb7af82cd0422700e1ab9ab824df459566a0415e9773ac09d63e9b7093",
+      "context": "Day Notes > Naming pattern > Date pattern",
+      "contextHash": "6189db0c4efcdcbef054a099529e10c7fa6679796a3f0732c2f776e3e833ac28",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_2131ce296eb6ee9b70ae762e_0",
+      "kind": "h3",
+      "source": "Week pattern__TRILIUM_PH_0__",
+      "sourceHash": "2131ce296eb6ee9b70ae762ec7f4230cee9b44e5d0abba852a2d18a457199f6a",
+      "context": "Day Notes > Naming pattern > Week pattern",
+      "contextHash": "6222c13fe6fd7928c002dc5385c98997a906919db2040384a19b0088637bd5ac",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_fc254911f67111eafa608a88_0",
+      "kind": "p",
+      "source": "It is also possible to customize the title of generated week notes through the __TRILIUM_PH_0__ attribute on the root calendar note. The options are:",
+      "sourceHash": "fc254911f67111eafa608a884f98bb3597faed726db24aa3a9c8b6ef54630eea",
+      "context": "Day Notes > Naming pattern > Week pattern",
+      "contextHash": "6222c13fe6fd7928c002dc5385c98997a906919db2040384a19b0088637bd5ac",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_00b1cdc615ed34138ed268d5_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__ results in a number like __TRILIUM_PH_1__ for the 9th week of the year, __TRILIUM_PH_2__ for the 11th week of the year",
+      "sourceHash": "00b1cdc615ed34138ed268d5a7d6583572308fb0e2f75b8cf04bb5a7b045706b",
+      "context": "Day Notes > Naming pattern > Week pattern",
+      "contextHash": "6222c13fe6fd7928c002dc5385c98997a906919db2040384a19b0088637bd5ac",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_00b1cdc615ed34138ed268d5_1",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__ results in a number like __TRILIUM_PH_1__ for the 9th week of the year, __TRILIUM_PH_2__ for the 11th week of the year",
+      "sourceHash": "00b1cdc615ed34138ed268d5a7d6583572308fb0e2f75b8cf04bb5a7b045706b",
+      "context": "Day Notes > Naming pattern > Week pattern",
+      "contextHash": "6222c13fe6fd7928c002dc5385c98997a906919db2040384a19b0088637bd5ac",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_b8d66fb1abc68da8f8f4708e_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__ results in a short week string like __TRILIUM_PH_1__ for the 9th week of the year, __TRILIUM_PH_2__ for the 11th week of the year",
+      "sourceHash": "b8d66fb1abc68da8f8f4708e51c1f25d949c6de53986cf5bf890da3e3ac199ed",
+      "context": "Day Notes > Naming pattern > Week pattern",
+      "contextHash": "6222c13fe6fd7928c002dc5385c98997a906919db2040384a19b0088637bd5ac",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_b8d66fb1abc68da8f8f4708e_1",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__ results in a short week string like __TRILIUM_PH_1__ for the 9th week of the year, __TRILIUM_PH_2__ for the 11th week of the year",
+      "sourceHash": "b8d66fb1abc68da8f8f4708e51c1f25d949c6de53986cf5bf890da3e3ac199ed",
+      "context": "Day Notes > Naming pattern > Week pattern",
+      "contextHash": "6222c13fe6fd7928c002dc5385c98997a906919db2040384a19b0088637bd5ac",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_32014bfb7af82cd0422700e1_1",
+      "kind": "p",
+      "source": "The default is __TRILIUM_PH_0__",
+      "sourceHash": "32014bfb7af82cd0422700e1ab9ab824df459566a0415e9773ac09d63e9b7093",
+      "context": "Day Notes > Naming pattern > Week pattern",
+      "contextHash": "6222c13fe6fd7928c002dc5385c98997a906919db2040384a19b0088637bd5ac",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_6226b40b65be2e7caa48b118_0",
+      "kind": "h3",
+      "source": "Month pattern__TRILIUM_PH_0__",
+      "sourceHash": "6226b40b65be2e7caa48b11816fbaf1af8b81fcae909ce3e2f46aa0893de4e46",
+      "context": "Day Notes > Naming pattern > Month pattern",
+      "contextHash": "dce8e976f8ba3d56be242b9b14a4d0a13fe1292b6796828d90bc20f8957d4d9c",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_c06584007243f5ca274132ba_0",
+      "kind": "p",
+      "source": "It is also possible to customize the title of generated month notes through the __TRILIUM_PH_0__ attribute on the root calendar note. The options are:",
+      "sourceHash": "c06584007243f5ca274132ba33c220868d6ef7941934dfe68fc4f336327c9f0b",
+      "context": "Day Notes > Naming pattern > Month pattern",
+      "contextHash": "dce8e976f8ba3d56be242b9b14a4d0a13fe1292b6796828d90bc20f8957d4d9c",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_0cb6d550efe237e1e5923bd8_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__ results in an ISO 8061 formatted month (e.g. \"2025-03\" for March 2025)",
+      "sourceHash": "0cb6d550efe237e1e5923bd83f23397b0030f547f601dc0651ed5134cbc8657a",
+      "context": "Day Notes > Naming pattern > Month pattern",
+      "contextHash": "dce8e976f8ba3d56be242b9b14a4d0a13fe1292b6796828d90bc20f8957d4d9c",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_95bedfa81deff39b1f6332bd_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__ results in a number like __TRILIUM_PH_1__ for September, and __TRILIUM_PH_2__ for November",
+      "sourceHash": "95bedfa81deff39b1f6332bd9244ad3a893e34f928cb87a46a2e65848dde9198",
+      "context": "Day Notes > Naming pattern > Month pattern",
+      "contextHash": "dce8e976f8ba3d56be242b9b14a4d0a13fe1292b6796828d90bc20f8957d4d9c",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_95bedfa81deff39b1f6332bd_1",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__ results in a number like __TRILIUM_PH_1__ for September, and __TRILIUM_PH_2__ for November",
+      "sourceHash": "95bedfa81deff39b1f6332bd9244ad3a893e34f928cb87a46a2e65848dde9198",
+      "context": "Day Notes > Naming pattern > Month pattern",
+      "contextHash": "dce8e976f8ba3d56be242b9b14a4d0a13fe1292b6796828d90bc20f8957d4d9c",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_06d68267f7c9ecd98e45495d_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__ results in the full month name (e.g. __TRILIUM_PH_1__ or __TRILIUM_PH_2__)",
+      "sourceHash": "06d68267f7c9ecd98e45495d4b6193b41e0d37877e9f845e3b7042722b4aa002",
+      "context": "Day Notes > Naming pattern > Month pattern",
+      "contextHash": "dce8e976f8ba3d56be242b9b14a4d0a13fe1292b6796828d90bc20f8957d4d9c",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_10d4fbd13da665165194cd75_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__ is replaced with the first 3 letters of the month, e.g. Jan, Feb, etc.",
+      "sourceHash": "10d4fbd13da665165194cd75a281d87c8d9ee03fd32da8ff7d4d87a1cfe552d6",
+      "context": "Day Notes > Naming pattern > Month pattern",
+      "contextHash": "dce8e976f8ba3d56be242b9b14a4d0a13fe1292b6796828d90bc20f8957d4d9c",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_ff101469e1db37eded289d43_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__ is replaced with the first 4 letters of the month, e.g. Sept, Octo, etc.",
+      "sourceHash": "ff101469e1db37eded289d433929112e086a789f9ca96b0ce18f6ee7a5ebdd66",
+      "context": "Day Notes > Naming pattern > Month pattern",
+      "contextHash": "dce8e976f8ba3d56be242b9b14a4d0a13fe1292b6796828d90bc20f8957d4d9c",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_32014bfb7af82cd0422700e1_2",
+      "kind": "p",
+      "source": "The default is __TRILIUM_PH_0__",
+      "sourceHash": "32014bfb7af82cd0422700e1ab9ab824df459566a0415e9773ac09d63e9b7093",
+      "context": "Day Notes > Naming pattern > Month pattern",
+      "contextHash": "dce8e976f8ba3d56be242b9b14a4d0a13fe1292b6796828d90bc20f8957d4d9c",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_ff32e5cccb1f24d9a45527a7_0",
+      "kind": "h3",
+      "source": "Quarter pattern__TRILIUM_PH_0__",
+      "sourceHash": "ff32e5cccb1f24d9a45527a733b56c43b1471d781c2fe67d4211d4f785affcce",
+      "context": "Day Notes > Naming pattern > Quarter pattern",
+      "contextHash": "a18427da31545c5c08aca40fb7f5ebbf5f196480bed2e965f5418cdf2ee1f5a2",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_5bd4cb5e31e5b95a0ad39b58_0",
+      "kind": "p",
+      "source": "It is also possible to customize the title of generated quarter notes through the __TRILIUM_PH_0__ attribute on the root calendar note. The options are:",
+      "sourceHash": "5bd4cb5e31e5b95a0ad39b58fa19e48c23495f48b35030c8a3bd8df2ebae5f30",
+      "context": "Day Notes > Naming pattern > Quarter pattern",
+      "contextHash": "a18427da31545c5c08aca40fb7f5ebbf5f196480bed2e965f5418cdf2ee1f5a2",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_682e77d86e09ca0c20ce7549_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__ results in a number like __TRILIUM_PH_1__ for the 1st quarter of the year",
+      "sourceHash": "682e77d86e09ca0c20ce7549be20871dd39adf3a45fc42646fdf8c87f9173819",
+      "context": "Day Notes > Naming pattern > Quarter pattern",
+      "contextHash": "a18427da31545c5c08aca40fb7f5ebbf5f196480bed2e965f5418cdf2ee1f5a2",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_fdf6491cc2e25ab9b4d09c6d_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__ results in a short quarter string like __TRILIUM_PH_1__ for the 1st quarter of the year",
+      "sourceHash": "fdf6491cc2e25ab9b4d09c6d18c1bb91e0ebfae8b725a63e85abeace95727d4c",
+      "context": "Day Notes > Naming pattern > Quarter pattern",
+      "contextHash": "a18427da31545c5c08aca40fb7f5ebbf5f196480bed2e965f5418cdf2ee1f5a2",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_32014bfb7af82cd0422700e1_3",
+      "kind": "p",
+      "source": "The default is __TRILIUM_PH_0__",
+      "sourceHash": "32014bfb7af82cd0422700e1ab9ab824df459566a0415e9773ac09d63e9b7093",
+      "context": "Day Notes > Naming pattern > Quarter pattern",
+      "contextHash": "a18427da31545c5c08aca40fb7f5ebbf5f196480bed2e965f5418cdf2ee1f5a2",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_eecb4e4b762d33783f085ab6_0",
+      "kind": "h3",
+      "source": "Year pattern__TRILIUM_PH_0__",
+      "sourceHash": "eecb4e4b762d33783f085ab6442b43ac848b596280cb2fdb9c169f2c2b2dd29d",
+      "context": "Day Notes > Naming pattern > Year pattern",
+      "contextHash": "4d4e9b345458c0604787eec762b51a7664472f61a7fa7bd9ab00980bffb39ce8",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_33ec0ee40e7a6211fec73d1d_0",
+      "kind": "p",
+      "source": "It is also possible to customize the title of generated year notes through the __TRILIUM_PH_0__ attribute on the root calendar note. The options are:",
+      "sourceHash": "33ec0ee40e7a6211fec73d1d1c96628dd4aace2e7c04755b0635582c2f4d44d0",
+      "context": "Day Notes > Naming pattern > Year pattern",
+      "contextHash": "4d4e9b345458c0604787eec762b51a7664472f61a7fa7bd9ab00980bffb39ce8",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_01385199708559e1996bb39a_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__ results in the full year (e.g. __TRILIUM_PH_1__)",
+      "sourceHash": "01385199708559e1996bb39a8c19440c9b57e680ec01855c401b4ca940244042",
+      "context": "Day Notes > Naming pattern > Year pattern",
+      "contextHash": "4d4e9b345458c0604787eec762b51a7664472f61a7fa7bd9ab00980bffb39ce8",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_32014bfb7af82cd0422700e1_4",
+      "kind": "p",
+      "source": "The default is __TRILIUM_PH_0__",
+      "sourceHash": "32014bfb7af82cd0422700e1ab9ab824df459566a0415e9773ac09d63e9b7093",
+      "context": "Day Notes > Naming pattern > Year pattern",
+      "contextHash": "4d4e9b345458c0604787eec762b51a7664472f61a7fa7bd9ab00980bffb39ce8",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_c788b3e403abfb1a09af9098_0",
+      "kind": "h2",
+      "source": "Implementation__TRILIUM_PH_0__",
+      "sourceHash": "c788b3e403abfb1a09af9098634a31335c2cfe467269b1329a5b6cad297e5acc",
+      "context": "Day Notes > Implementation",
+      "contextHash": "fb28fd0e301c4ebadcadfa936292dd4db964c93ec1bd4bb93647c5ae093671cd",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_9d139e136ff2b1c45c508af9_0",
+      "kind": "p",
+      "source": "Trilium has some special support for day notes in the form of __TRILIUM_PH_0__backend Script API__TRILIUM_PH_1__ - see e.g. getDayNote() function.",
+      "sourceHash": "9d139e136ff2b1c45c508af997f2dd5d010f5c20e6edd9672010bb3f5ca357be",
+      "context": "Day Notes > Implementation",
+      "contextHash": "fb28fd0e301c4ebadcadfa936292dd4db964c93ec1bd4bb93647c5ae093671cd",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_3df03bcb9433cc9722c6c4bf_0",
+      "kind": "p",
+      "source": "Day (and year, month) notes are created with a label - e.g. __TRILIUM_PH_0__ this can then be used by other scripts to add new notes to day note etc.",
+      "sourceHash": "3df03bcb9433cc9722c6c4bf322b6edab13383f5b78a36766212b10006142d03",
+      "context": "Day Notes > Implementation",
+      "contextHash": "fb28fd0e301c4ebadcadfa936292dd4db964c93ec1bd4bb93647c5ae093671cd",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_b190d47815633246b0ab18a6_0",
+      "kind": "image-alt",
+      "source": "記事画像",
+      "sourceHash": "b190d47815633246b0ab18a61d9b8e8ea36504fe3f8bc230a7753096915c9ff2",
+      "context": "Day Notes > Implementation",
+      "contextHash": "fb28fd0e301c4ebadcadfa936292dd4db964c93ec1bd4bb93647c5ae093671cd",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_b190d47815633246b0ab18a6_1",
+      "kind": "image-alt",
+      "source": "記事画像",
+      "sourceHash": "b190d47815633246b0ab18a61d9b8e8ea36504fe3f8bc230a7753096915c9ff2",
+      "context": "Day Notes > Implementation",
+      "contextHash": "fb28fd0e301c4ebadcadfa936292dd4db964c93ec1bd4bb93647c5ae093671cd",
+      "status": "pending",
+      "active": true
+    }
+  ],
+  "requests": []
+}

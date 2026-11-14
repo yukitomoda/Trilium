@@ -1,0 +1,764 @@
+{
+  "schemaVersion": 1,
+  "pageId": "cbkrhQjrkKrh",
+  "sourceFile": "docs/User Guide/User Guide/Installation & Setup/Synchronization.md",
+  "sourceRevision": "03d17b60f59b5efc29b880b11481471d0fe0ff57",
+  "units": [
+    {
+      "id": "u_1eec9745957e50a1826bcbe8_0",
+      "kind": "title",
+      "source": "Synchronization",
+      "sourceHash": "1eec9745957e50a1826bcbe852cff0d2cdadf9f64f2f6f948484b166a4e12943",
+      "context": "Synchronization",
+      "contextHash": "733736e784bf6c3b073020aa6ba0aaf24c60b8daf16b42b7e85673593ba9c172",
+      "status": "translated",
+      "active": true,
+      "translation": "同期",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_ea95d6c535381c3734c1beb0_0",
+      "kind": "p",
+      "source": "Trilium is an offline-first note-taking application that stores all data locally on the desktop client. However, it also offers the option to set up synchronization with a server instance, allowing multiple desktop clients to sync with a central server. This creates a star-shaped topology:",
+      "sourceHash": "ea95d6c535381c3734c1beb0dd7d4409c1c998e14321cda175e9395ef37361c5",
+      "context": "Synchronization",
+      "contextHash": "733736e784bf6c3b073020aa6ba0aaf24c60b8daf16b42b7e85673593ba9c172",
+      "status": "translated",
+      "active": true,
+      "translation": "Trilium はオフラインファーストのメモアプリであり、すべてのデータをデスクトップクライアント上のローカルに保存します。ただし、サーバーインスタンスとの同期を設定するオプションも提供されており、複数のデスクトップクライアントを中央サーバーと同期させることができます。これにより、スター型のトポロジが形成されます。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_a4edecd0feffaf771c785e7d_0",
+      "kind": "p",
+      "source": "In this setup, a central server (referred to as the __TRILIUM_PH_0__sync server__TRILIUM_PH_1__) and multiple __TRILIUM_PH_2__client__TRILIUM_PH_3__ (or __TRILIUM_PH_4__desktop__TRILIUM_PH_5__) instances synchronize with the sync server. Once configured, synchronization is automatic and ongoing, requiring no manual intervention.",
+      "sourceHash": "a4edecd0feffaf771c785e7d1b48378b5be6169701bdf8979cd9b51dd0678728",
+      "context": "Synchronization",
+      "contextHash": "733736e784bf6c3b073020aa6ba0aaf24c60b8daf16b42b7e85673593ba9c172",
+      "status": "translated",
+      "active": true,
+      "translation": "この構成では、中央サーバー（__TRILIUM_PH_0__同期サーバー__TRILIUM_PH_1__と呼びます）と複数の__TRILIUM_PH_2__クライアント__TRILIUM_PH_3__（または__TRILIUM_PH_4__デスクトップ__TRILIUM_PH_5__）インスタンスが同期サーバーと同期します。一度設定すると、同期は自動的かつ継続的に行われ、手動での操作は必要ありません。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_42de7c42ba0e93ad2577a3a6_0",
+      "kind": "h2",
+      "source": "Setting Up Synchronization__TRILIUM_PH_0__",
+      "sourceHash": "42de7c42ba0e93ad2577a3a69624efa03c519eb3045d32ed00cbcf832ae06eef",
+      "context": "Synchronization > Setting Up Synchronization",
+      "contextHash": "8a090c2a1cebfd209b230b2a02779ce72e1857e0fa4b22a1f933ecbbb340fc67",
+      "status": "translated",
+      "active": true,
+      "translation": "同期の設定__TRILIUM_PH_0__",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_88e87b06f4d80fd014a02b4c_0",
+      "kind": "h3",
+      "source": "Security Considerations__TRILIUM_PH_0__",
+      "sourceHash": "88e87b06f4d80fd014a02b4c7d04e510cc42afdd8144df88cedf26f88cabbb26",
+      "context": "Synchronization > Setting Up Synchronization > Security Considerations",
+      "contextHash": "47bae706b3393b51f3d841a2829b70c617c4426234f30173f6aa4235e776c99e",
+      "status": "translated",
+      "active": true,
+      "translation": "セキュリティに関する考慮事項__TRILIUM_PH_0__",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_32d3f262ae58c943fe9c3aba_0",
+      "kind": "p",
+      "source": "Setting up the server securely is critical and can be complex. It is crucial to use a valid __TRILIUM_PH_0__TLS certificate__TRILIUM_PH_1__ (HTTPS) rather than an unencrypted HTTP connection to ensure security and avoid potential vulnerabilities.",
+      "sourceHash": "32d3f262ae58c943fe9c3aba3c0a57cb097c98d08b4afacab02735cc1ae677c0",
+      "context": "Synchronization > Setting Up Synchronization > Security Considerations",
+      "contextHash": "47bae706b3393b51f3d841a2829b70c617c4426234f30173f6aa4235e776c99e",
+      "status": "translated",
+      "active": true,
+      "translation": "サーバーを安全に設定することは非常に重要であり、複雑になる場合があります。セキュリティを確保し潜在的な脆弱性を回避するためには、暗号化されていない HTTP 接続ではなく、有効な__TRILIUM_PH_0__TLS 証明書__TRILIUM_PH_1__（HTTPS）を使用することが極めて重要です。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_092a500c0f3363c4e7d62120_0",
+      "kind": "h3",
+      "source": "Synchronizing a Desktop Instance with a Sync Server__TRILIUM_PH_0__",
+      "sourceHash": "092a500c0f3363c4e7d62120f5261061ce2597a27deacb8f1392987c3da7e9c4",
+      "context": "Synchronization > Setting Up Synchronization > Synchronizing a Desktop Instance with a Sync Server",
+      "contextHash": "42af4887b16d2a86bea8a01e34ed784225badb5d161dad304e5ac05ded845571",
+      "status": "translated",
+      "active": true,
+      "translation": "デスクトップインスタンスと同期サーバーの同期__TRILIUM_PH_0__",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_3682be872c379242421f533f_0",
+      "kind": "p",
+      "source": "This method is used when you already have a desktop instance of Trilium and want to set up a sync server on your web host.",
+      "sourceHash": "3682be872c379242421f533f9ac8922847b8af0caa609a8648ca0ca84abad76d",
+      "context": "Synchronization > Setting Up Synchronization > Synchronizing a Desktop Instance with a Sync Server",
+      "contextHash": "42af4887b16d2a86bea8a01e34ed784225badb5d161dad304e5ac05ded845571",
+      "status": "translated",
+      "active": true,
+      "translation": "この方法は、すでに Trilium のデスクトップインスタンスがあり、Web ホスト上に同期サーバーを設定したい場合に使用します。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_fdf079180d7aed7c50eb6c20_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__Server Deployment__TRILIUM_PH_1__: Ensure your server instance is deployed but uninitialized.",
+      "sourceHash": "fdf079180d7aed7c50eb6c20fd058ec725314f34cbcd92400c9f94c82b827b8d",
+      "context": "Synchronization > Setting Up Synchronization > Synchronizing a Desktop Instance with a Sync Server",
+      "contextHash": "42af4887b16d2a86bea8a01e34ed784225badb5d161dad304e5ac05ded845571",
+      "status": "translated",
+      "active": true,
+      "translation": "__TRILIUM_PH_0__サーバーのデプロイ__TRILIUM_PH_1__：サーバーインスタンスがデプロイされているが、初期化されていないことを確認します。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_5f09fab6ab88781a0c119551_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__Desktop Configuration__TRILIUM_PH_1__: Open your desktop instance, navigate to __TRILIUM_PH_2__Options__TRILIUM_PH_3__ → __TRILIUM_PH_4__Sync__TRILIUM_PH_5__ → __TRILIUM_PH_6__Sync server__TRILIUM_PH_7__, and set the __TRILIUM_PH_8__Server address__TRILIUM_PH_9__ to your sync server's address.",
+      "sourceHash": "5f09fab6ab88781a0c11955169650abc6e1faab2284ec9f05292630151ae72db",
+      "context": "Synchronization > Setting Up Synchronization > Synchronizing a Desktop Instance with a Sync Server",
+      "contextHash": "42af4887b16d2a86bea8a01e34ed784225badb5d161dad304e5ac05ded845571",
+      "status": "translated",
+      "active": true,
+      "translation": "__TRILIUM_PH_0__デスクトップの設定__TRILIUM_PH_1__：デスクトップインスタンスを開き、__TRILIUM_PH_2__オプション__TRILIUM_PH_3__ → __TRILIUM_PH_4__同期__TRILIUM_PH_5__ → __TRILIUM_PH_6__同期サーバー__TRILIUM_PH_7__ に移動し、__TRILIUM_PH_8__サーバーアドレス__TRILIUM_PH_9__を同期サーバーのアドレスに設定します。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_d953cf0c2e1f7f32245f51bf_0",
+      "kind": "li",
+      "source": "Note that the sync server can also be overridden through __TRILIUM_PH_0__Configuration (config.ini or environment variables)__TRILIUM_PH_1__, case in which that value takes precedence. If that's the case, a field called __TRILIUM_PH_2__Server in use__TRILIUM_PH_3__ indicates it.",
+      "sourceHash": "d953cf0c2e1f7f32245f51bf998e8fa984e5e3ac7a7c0ab7f9110a0c20c8300f",
+      "context": "Synchronization > Setting Up Synchronization > Synchronizing a Desktop Instance with a Sync Server",
+      "contextHash": "42af4887b16d2a86bea8a01e34ed784225badb5d161dad304e5ac05ded845571",
+      "status": "translated",
+      "active": true,
+      "translation": "同期サーバーは__TRILIUM_PH_0__設定（config.ini または環境変数）__TRILIUM_PH_1__によって上書きすることもでき、その場合はその値が優先されます。その場合、__TRILIUM_PH_2__使用中のサーバー__TRILIUM_PH_3__というフィールドにそれが示されます。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_51e33c24c148e6140040a1e2_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__Testing Sync__TRILIUM_PH_1__: Click the __TRILIUM_PH_2__Test sync__TRILIUM_PH_3__ button to verify the connection to the sync server.",
+      "sourceHash": "51e33c24c148e6140040a1e2e79eafafa7bad4af68bb75b7a12c840f977084dc",
+      "context": "Synchronization > Setting Up Synchronization > Synchronizing a Desktop Instance with a Sync Server",
+      "contextHash": "42af4887b16d2a86bea8a01e34ed784225badb5d161dad304e5ac05ded845571",
+      "status": "translated",
+      "active": true,
+      "translation": "__TRILIUM_PH_0__同期のテスト__TRILIUM_PH_1__：__TRILIUM_PH_2__同期のテスト__TRILIUM_PH_3__ボタンをクリックして、同期サーバーへの接続を確認します。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_19a6ef296aad977c35905da1_0",
+      "kind": "li",
+      "source": "If successful, the client will start pushing all data to the server instance.",
+      "sourceHash": "19a6ef296aad977c35905da1075fbd517b19380c85be7a6448ee1c8732bfe815",
+      "context": "Synchronization > Setting Up Synchronization > Synchronizing a Desktop Instance with a Sync Server",
+      "contextHash": "42af4887b16d2a86bea8a01e34ed784225badb5d161dad304e5ac05ded845571",
+      "status": "translated",
+      "active": true,
+      "translation": "成功すると、クライアントはすべてのデータのサーバーインスタンスへのプッシュを開始します。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_3670d54fcff85f7fbe830334_0",
+      "kind": "li",
+      "source": "This process may take some time, but you can continue using Trilium. Periodically check the server instance to confirm when the sync is complete. Once finished, you should see the login screen on the server.",
+      "sourceHash": "3670d54fcff85f7fbe830334a1a8572845d5835a735099b02d5ab2d86184591e",
+      "context": "Synchronization > Setting Up Synchronization > Synchronizing a Desktop Instance with a Sync Server",
+      "contextHash": "42af4887b16d2a86bea8a01e34ed784225badb5d161dad304e5ac05ded845571",
+      "status": "translated",
+      "active": true,
+      "translation": "この処理には少し時間がかかる場合がありますが、Trilium の使用を続けることは可能です。サーバーインスタンスを定期的に確認し、同期が完了したタイミングを確認してください。完了すると、サーバーにログイン画面が表示されます。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_4ab73d98f2176ee5b785b957_0",
+      "kind": "h3",
+      "source": "Synchronizing a Desktop Instance from a Sync Server__TRILIUM_PH_0__",
+      "sourceHash": "4ab73d98f2176ee5b785b957f74d3ce0d690d7cc24b24772e0836b5b3ddefd1c",
+      "context": "Synchronization > Setting Up Synchronization > Synchronizing a Desktop Instance from a Sync Server",
+      "contextHash": "c0e681036062da5c131793dddee78729ddaf856641744e90d7e97befcb44e652",
+      "status": "translated",
+      "active": true,
+      "translation": "同期サーバーからのデスクトップインスタンスの同期__TRILIUM_PH_0__",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_dd961c83f3984c9d83fcc45a_0",
+      "kind": "p",
+      "source": "This method is used when you already have a sync server and want to configure a new desktop instance to sync with it.",
+      "sourceHash": "dd961c83f3984c9d83fcc45aa70a06d9399aaebf4867d83ff3ebd3bb98b11e6f",
+      "context": "Synchronization > Setting Up Synchronization > Synchronizing a Desktop Instance from a Sync Server",
+      "contextHash": "c0e681036062da5c131793dddee78729ddaf856641744e90d7e97befcb44e652",
+      "status": "translated",
+      "active": true,
+      "translation": "この方法は、すでに同期サーバーがあり、新しいデスクトップインスタンスをそれと同期するように設定したい場合に使用します。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_f56157d47658b0ac5ea9c1e7_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__Desktop Setup__TRILIUM_PH_1__: Follow the __TRILIUM_PH_2__desktop installation page__TRILIUM_PH_3__.",
+      "sourceHash": "f56157d47658b0ac5ea9c1e7b3a36c28c7b7a8619c480c43ba1699b6b11ed3a4",
+      "context": "Synchronization > Setting Up Synchronization > Synchronizing a Desktop Instance from a Sync Server",
+      "contextHash": "c0e681036062da5c131793dddee78729ddaf856641744e90d7e97befcb44e652",
+      "status": "translated",
+      "active": true,
+      "translation": "__TRILIUM_PH_0__デスクトップのセットアップ__TRILIUM_PH_1__：__TRILIUM_PH_2__デスクトップ版のインストールページ__TRILIUM_PH_3__に従ってください。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_e942fde1f7fcb7fd05c6ff90_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__Initial Configuration__TRILIUM_PH_1__: When prompted, choose the option to set up sync with a sync server.",
+      "sourceHash": "e942fde1f7fcb7fd05c6ff90253cb43aae790d372d7d4871c6cb0325c7fc3a40",
+      "context": "Synchronization > Setting Up Synchronization > Synchronizing a Desktop Instance from a Sync Server",
+      "contextHash": "c0e681036062da5c131793dddee78729ddaf856641744e90d7e97befcb44e652",
+      "status": "translated",
+      "active": true,
+      "translation": "__TRILIUM_PH_0__初期設定__TRILIUM_PH_1__：プロンプトが表示されたら、同期サーバーとの同期を設定するオプションを選択します。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_4327a7188455612d4d6bb192_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__Server Details__TRILIUM_PH_1__: Configure the Trilium server address and enter the server's password. If the server has __TRILIUM_PH_2__Multi-factor authentication with TOTP__TRILIUM_PH_3__ enabled, also enter a one-time password from your authenticator app, or a recovery code.",
+      "sourceHash": "4327a7188455612d4d6bb192949fc58d9f3ee077732805601f88c2c5e6d17668",
+      "context": "Synchronization > Setting Up Synchronization > Synchronizing a Desktop Instance from a Sync Server",
+      "contextHash": "c0e681036062da5c131793dddee78729ddaf856641744e90d7e97befcb44e652",
+      "status": "translated",
+      "active": true,
+      "translation": "__TRILIUM_PH_0__サーバーの詳細__TRILIUM_PH_1__：Triliumサーバーのアドレスを設定し、サーバーのパスワードを入力します。サーバーで__TRILIUM_PH_2__TOTPによる多要素認証__TRILIUM_PH_3__が有効になっている場合は、認証アプリからのワンタイムパスワードまたはリカバリーコードも入力してください。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_6c9c73fdc0aae0c19ed9a7a4_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__Finish Setup__TRILIUM_PH_1__: Click the \"Finish setup\" button. If successful, you will see the following screen:",
+      "sourceHash": "6c9c73fdc0aae0c19ed9a7a4ed6ba406dbf960481ff4a812a8b43bced7894cbb",
+      "context": "Synchronization > Setting Up Synchronization > Synchronizing a Desktop Instance from a Sync Server",
+      "contextHash": "c0e681036062da5c131793dddee78729ddaf856641744e90d7e97befcb44e652",
+      "status": "translated",
+      "active": true,
+      "translation": "__TRILIUM_PH_0__セットアップの完了__TRILIUM_PH_1__：「セットアップを完了」ボタンをクリックします。成功すると、次の画面が表示されます：",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_129369538266218e97cf600f_0",
+      "kind": "p",
+      "source": "Once synchronization is complete, you will be automatically redirected to the Trilium application.",
+      "sourceHash": "129369538266218e97cf600f101edc1b6fb22f4fbbb4ef61b0dcf71cc8193743",
+      "context": "Synchronization > Setting Up Synchronization > Synchronizing a Desktop Instance from a Sync Server",
+      "contextHash": "c0e681036062da5c131793dddee78729ddaf856641744e90d7e97befcb44e652",
+      "status": "translated",
+      "active": true,
+      "translation": "同期が完了すると、自動的にTriliumアプリケーションにリダイレクトされます。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_24f156ffbf8ab464ee1ead5f_0",
+      "kind": "h3",
+      "source": "Desktop-to-desktop sync__TRILIUM_PH_0__",
+      "sourceHash": "24f156ffbf8ab464ee1ead5f3621c822be35d0148c834b6a3c1c88adfb2d2da4",
+      "context": "Synchronization > Setting Up Synchronization > Desktop-to-desktop sync",
+      "contextHash": "81efae512064ca2c19a9da2add63675e2ed7cf19549423fd9e947fb07a1ed870",
+      "status": "translated",
+      "active": true,
+      "translation": "デスクトップ間の同期__TRILIUM_PH_0__",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_c5415e6058d239b95c50fd79_0",
+      "kind": "p",
+      "source": "This method allows two desktop instances to synchronize between each other without requiring a __TRILIUM_PH_0__Server Installation__TRILIUM_PH_1__.",
+      "sourceHash": "c5415e6058d239b95c50fd79945184464a6b7ef215d9ca8d8eb517e50865fd7d",
+      "context": "Synchronization > Setting Up Synchronization > Desktop-to-desktop sync",
+      "contextHash": "81efae512064ca2c19a9da2add63675e2ed7cf19549423fd9e947fb07a1ed870",
+      "status": "translated",
+      "active": true,
+      "translation": "この方法を使用すると、__TRILIUM_PH_0__サーバーのインストール__TRILIUM_PH_1__を必要とせずに、2つのデスクトップインスタンス間で同期を行うことができます。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_b4da7053494ee9aa5bbfd745_0",
+      "kind": "p",
+      "source": "Since v0.104.0, LAN access needs to be enabled to allow this sync to function. See __TRILIUM_PH_0__Network Access__TRILIUM_PH_1__ for information on how to do so.",
+      "sourceHash": "b4da7053494ee9aa5bbfd74572faaf7b9693f052e0acaab91d8f1f9a8f0d6485",
+      "context": "Synchronization > Setting Up Synchronization > Desktop-to-desktop sync",
+      "contextHash": "81efae512064ca2c19a9da2add63675e2ed7cf19549423fd9e947fb07a1ed870",
+      "status": "translated",
+      "active": true,
+      "translation": "v0.104.0以降、この同期を機能させるにはLANアクセスを有効にする必要があります。その方法については、__TRILIUM_PH_0__ネットワークアクセス__TRILIUM_PH_1__を参照してください。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_ea3d9bb8f3fbd552575af054_0",
+      "kind": "h2",
+      "source": "Proxy Configuration__TRILIUM_PH_0__",
+      "sourceHash": "ea3d9bb8f3fbd552575af054783f2dd35d71e8550e5edcaebbcd06d8b9aadf4d",
+      "context": "Synchronization > Proxy Configuration",
+      "contextHash": "ecbb4d046271a8d704134ba622348ef4d4353cdcd64de0d8642799cb9dee6f42",
+      "status": "translated",
+      "active": true,
+      "translation": "プロキシの設定__TRILIUM_PH_0__",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_2bddbab9abfd05f6a4bf12c6_0",
+      "kind": "p",
+      "source": "Two proxy setups are supported:",
+      "sourceHash": "2bddbab9abfd05f6a4bf12c6b56649b144ea7bdb22e6453f0fb0404c9e6fb6d2",
+      "context": "Synchronization > Proxy Configuration",
+      "contextHash": "ecbb4d046271a8d704134ba622348ef4d4353cdcd64de0d8642799cb9dee6f42",
+      "status": "translated",
+      "active": true,
+      "translation": "2つのプロキシ設定がサポートされています：",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_597e4dfd4b4de21b7b495ad9_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__Explicit Proxy Configuration__TRILIUM_PH_1__: Set the proxy server in Options / Sync. Only unauthenticated proxy servers are supported.",
+      "sourceHash": "597e4dfd4b4de21b7b495ad93cd420899694ad9c2ded77b530948e9a6ff8b6b3",
+      "context": "Synchronization > Proxy Configuration",
+      "contextHash": "ecbb4d046271a8d704134ba622348ef4d4353cdcd64de0d8642799cb9dee6f42",
+      "status": "translated",
+      "active": true,
+      "translation": "__TRILIUM_PH_0__明示的なプロキシ設定__TRILIUM_PH_1__：「オプション」/「同期」でプロキシサーバーを設定します。認証を必要としないプロキシサーバーのみがサポートされています。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_cc4bd8144ccef8bb9d1dd1e6_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__System Proxy Settings__TRILIUM_PH_1__: If no proxy server is explicitly configured, Trilium will use the system proxy settings.",
+      "sourceHash": "cc4bd8144ccef8bb9d1dd1e600cebc172a227708bbfcd924bd6658a6e0444b80",
+      "context": "Synchronization > Proxy Configuration",
+      "contextHash": "ecbb4d046271a8d704134ba622348ef4d4353cdcd64de0d8642799cb9dee6f42",
+      "status": "translated",
+      "active": true,
+      "translation": "__TRILIUM_PH_0__システムプロキシ設定__TRILIUM_PH_1__：プロキシサーバーが明示的に設定されていない場合、Triliumはシステムのプロキシ設定を使用します。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_5c4f67f3fb841108e53d69c8_0",
+      "kind": "h2",
+      "source": "Troubleshooting__TRILIUM_PH_0__",
+      "sourceHash": "5c4f67f3fb841108e53d69c8ce322181eace69685f15933df9615ad35f2d53b4",
+      "context": "Synchronization > Troubleshooting",
+      "contextHash": "be85fd6759f3595ea0c12dee2d36a259396b8461df9fd261ae071e654ea85aa3",
+      "status": "translated",
+      "active": true,
+      "translation": "トラブルシューティング__TRILIUM_PH_0__",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_d267b0168ef35d69c463eedf_0",
+      "kind": "h3",
+      "source": "Date/Time Synchronization__TRILIUM_PH_0__",
+      "sourceHash": "d267b0168ef35d69c463eedf4645f7fa511848675735ef74e9a4933c0a5ae919",
+      "context": "Synchronization > Troubleshooting > Date/Time Synchronization",
+      "contextHash": "ab937c09e6487d75908984f7dfcc105440b383eb42c7f172171d035e56406b3e",
+      "status": "translated",
+      "active": true,
+      "translation": "日時同期__TRILIUM_PH_0__",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_90980707f9cce17ce1f4d39e_0",
+      "kind": "p",
+      "source": "For successful synchronization, both client and server must have the same date and time, with a tolerance of up to five minutes.",
+      "sourceHash": "90980707f9cce17ce1f4d39e6a626c633f5a476a135bde484b9b16bf328635ff",
+      "context": "Synchronization > Troubleshooting > Date/Time Synchronization",
+      "contextHash": "ab937c09e6487d75908984f7dfcc105440b383eb42c7f172171d035e56406b3e",
+      "status": "translated",
+      "active": true,
+      "translation": "同期を成功させるには、クライアントとサーバーの両方の日時が一致している必要があり、許容誤差は最大5分です。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_038515c41fe0c740d9dce87d_0",
+      "kind": "h3",
+      "source": "Certificate Issues__TRILIUM_PH_0__",
+      "sourceHash": "038515c41fe0c740d9dce87d222830b08475cb745829a880b9fe8bae1e2ce156",
+      "context": "Synchronization > Troubleshooting > Certificate Issues",
+      "contextHash": "b5c36b7c368343efba08501d29a58f5e63354810d63e2e94a80560b5eb48289f",
+      "status": "translated",
+      "active": true,
+      "translation": "証明書の問題__TRILIUM_PH_0__",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_301d65f26c0f1a2904a85ea7_0",
+      "kind": "p",
+      "source": "When using TLS, Trilium will verify the server certificate. If verification fails (e.g., due to self-signed certificates or certain corporate proxies), you can run the Trilium client with the __TRILIUM_PH_0__ environment variable set to __TRILIUM_PH_1__:",
+      "sourceHash": "301d65f26c0f1a2904a85ea701dff4278af4a5a0fe353c23fd35e372251dd1cc",
+      "context": "Synchronization > Troubleshooting > Certificate Issues",
+      "contextHash": "b5c36b7c368343efba08501d29a58f5e63354810d63e2e94a80560b5eb48289f",
+      "status": "translated",
+      "active": true,
+      "translation": "TLSを使用する場合、Triliumはサーバー証明書を検証します。検証に失敗した場合（自己署名証明書や特定の企業プロキシなどが原因で）、__TRILIUM_PH_0__環境変数を__TRILIUM_PH_1__に設定してTriliumクライアントを実行できます：",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_11ca0067e6af34e41e2e14df_0",
+      "kind": "p",
+      "source": "This will disable TLS certificate verification, significantly reducing security and exposing the setup to MITM attacks. It is strongly recommended to use a valid signed server certificate. Newer Trilium versions include a script called __TRILIUM_PH_0__ for this purpose.",
+      "sourceHash": "11ca0067e6af34e41e2e14df8acc50579a5bb9188b279156867e97b6fcf4c941",
+      "context": "Synchronization > Troubleshooting > Certificate Issues",
+      "contextHash": "b5c36b7c368343efba08501d29a58f5e63354810d63e2e94a80560b5eb48289f",
+      "status": "translated",
+      "active": true,
+      "translation": "これによりTLS証明書の検証が無効化され、セキュリティが大幅に低下し、中間者攻撃（MITM）に対して環境が脆弱になります。有効な署名済みサーバー証明書を使用することを強く推奨します。新しいバージョンのTriliumには、この目的のために__TRILIUM_PH_0__というスクリプトが含まれています。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_12324869256c95f21cf09a2a_0",
+      "kind": "h3",
+      "source": "Conflict Resolution__TRILIUM_PH_0__",
+      "sourceHash": "12324869256c95f21cf09a2af792dd211ab51351702dd738b2ac69f2205d836b",
+      "context": "Synchronization > Troubleshooting > Conflict Resolution",
+      "contextHash": "7a2b9f212f51fcad79dd6d7648b48a3ab9c97b66265fb1e597ddb96f222dcfdb",
+      "status": "translated",
+      "active": true,
+      "translation": "競合の解決__TRILIUM_PH_0__",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_2cfc3e5c163fcf722d4ab974_0",
+      "kind": "p",
+      "source": "If you edit the same note on multiple instances before synchronization, Trilium resolves conflicts by retaining the newer change and discarding the older one. The older version remains accessible in __TRILIUM_PH_0__note revisions__TRILIUM_PH_1__, allowing data recovery if needed.",
+      "sourceHash": "2cfc3e5c163fcf722d4ab974202fff6fca55c01954f5795e38296832f1ba784f",
+      "context": "Synchronization > Troubleshooting > Conflict Resolution",
+      "contextHash": "7a2b9f212f51fcad79dd6d7648b48a3ab9c97b66265fb1e597ddb96f222dcfdb",
+      "status": "translated",
+      "active": true,
+      "translation": "同期の前に複数のインスタンスで同じノートを編集した場合、Triliumは新しい方の変更を保持し、古い方を破棄することで競合を解決します。古いバージョンは__TRILIUM_PH_0__ノートの履歴__TRILIUM_PH_1__でアクセス可能なままであるため、必要に応じてデータを復元できます。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_df4c466d2c82f466f55ec008_0",
+      "kind": "h3",
+      "source": "Hash Check__TRILIUM_PH_0__",
+      "sourceHash": "df4c466d2c82f466f55ec008d7a1c96649e13ec938c293ce33c3eee745406415",
+      "context": "Synchronization > Troubleshooting > Hash Check",
+      "contextHash": "d3959cc50923aee4d42e73511d09a0828e9bdb615561ef5bb97a7db418ef127b",
+      "status": "translated",
+      "active": true,
+      "translation": "ハッシュチェック__TRILIUM_PH_0__",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_01a1810a759f941d46310a84_0",
+      "kind": "p",
+      "source": "After each synchronization, Trilium computes a hash of all synced data on both the client and the sync server. If there is a discrepancy, Trilium will automatically initiate a recovery mechanism to resolve the issue.",
+      "sourceHash": "01a1810a759f941d46310a8421e4a31eb0dc426dcef2f98b5d2d72449b62f58c",
+      "context": "Synchronization > Troubleshooting > Hash Check",
+      "contextHash": "d3959cc50923aee4d42e73511d09a0828e9bdb615561ef5bb97a7db418ef127b",
+      "status": "translated",
+      "active": true,
+      "translation": "各同期の後、Triliumはクライアントと同期サーバーの両方で、同期されたすべてのデータのハッシュを計算します。不一致がある場合、Triliumは自動的に回復メカニズムを開始して問題を解決します。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_b190d47815633246b0ab18a6_0",
+      "kind": "image-alt",
+      "source": "記事画像",
+      "sourceHash": "b190d47815633246b0ab18a61d9b8e8ea36504fe3f8bc230a7753096915c9ff2",
+      "context": "Synchronization > Troubleshooting > Hash Check",
+      "contextHash": "d3959cc50923aee4d42e73511d09a0828e9bdb615561ef5bb97a7db418ef127b",
+      "status": "translated",
+      "active": true,
+      "translation": "記事画像",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_563523bd468dce02b4924ea3_0",
+      "kind": "image-alt",
+      "source": "screenshot of the sync from server setup page",
+      "sourceHash": "563523bd468dce02b4924ea340ac3022efdae9ce4357b6c0193edd4498a3ac63",
+      "context": "Synchronization > Troubleshooting > Hash Check",
+      "contextHash": "d3959cc50923aee4d42e73511d09a0828e9bdb615561ef5bb97a7db418ef127b",
+      "status": "translated",
+      "active": true,
+      "translation": "サーバーからの同期設定ページのスクリーンショット",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_dc2239e7671f49f09f06ff5b_0",
+      "kind": "image-alt",
+      "source": "screenshot of the sync page",
+      "sourceHash": "dc2239e7671f49f09f06ff5bc365020b1301bb24ece242dffeeba8e2de30902f",
+      "context": "Synchronization > Troubleshooting > Hash Check",
+      "contextHash": "d3959cc50923aee4d42e73511d09a0828e9bdb615561ef5bb97a7db418ef127b",
+      "status": "translated",
+      "active": true,
+      "translation": "同期ページのスクリーンショット",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    }
+  ],
+  "requests": [
+    {
+      "at": "2026-11-14T11:28:45.803Z",
+      "model": "gemini-3.5-flash-lite",
+      "batchJob": "batches/02spwqy837h8pi7qzqmeo4fgsqo7bgs45hwh",
+      "requestKey": "cbkrhQjrkKrh_c58c07cf33117efa",
+      "modelVersion": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 1702,
+        "candidatesTokenCount": 1182,
+        "totalTokenCount": 2884,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 1702
+          }
+        ],
+        "serviceTier": "standard"
+      }
+    },
+    {
+      "at": "2026-11-14T11:28:45.803Z",
+      "model": "gemini-3.5-flash-lite",
+      "batchJob": "batches/02spwqy837h8pi7qzqmeo4fgsqo7bgs45hwh",
+      "requestKey": "cbkrhQjrkKrh_ad718ba66bada663",
+      "modelVersion": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 1483,
+        "candidatesTokenCount": 974,
+        "totalTokenCount": 2457,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 1483
+          }
+        ],
+        "serviceTier": "standard"
+      }
+    },
+    {
+      "at": "2026-11-14T11:28:45.803Z",
+      "model": "gemini-3.5-flash-lite",
+      "batchJob": "batches/02spwqy837h8pi7qzqmeo4fgsqo7bgs45hwh",
+      "requestKey": "cbkrhQjrkKrh_d4f15023f4ae3047",
+      "modelVersion": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 939,
+        "candidatesTokenCount": 623,
+        "totalTokenCount": 1562,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 939
+          }
+        ],
+        "serviceTier": "standard"
+      }
+    }
+  ]
+}

@@ -1,0 +1,219 @@
+{
+  "schemaVersion": 1,
+  "pageId": "MI26XDLSAlCD",
+  "sourceFile": "docs/User Guide/User Guide/Advanced Usage/Technologies used/CKEditor.md",
+  "sourceRevision": "03d17b60f59b5efc29b880b11481471d0fe0ff57",
+  "units": [
+    {
+      "id": "u_51d038576bb094ab6e653af0_0",
+      "kind": "title",
+      "source": "CKEditor",
+      "sourceHash": "51d038576bb094ab6e653af04109898dcf04debaf157c5c783aed453d19b7e4b",
+      "context": "CKEditor",
+      "contextHash": "7501d25be781f0da5a3942a28b300db95160e20a3e83cb786e95c47e91134ce6",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_38c34428ffea4733eccdfc23_0",
+      "kind": "h2",
+      "source": "Editor core__TRILIUM_PH_0__",
+      "sourceHash": "38c34428ffea4733eccdfc23b548d66c45b12631f3429f2644a9c92e7df0268d",
+      "context": "CKEditor > Editor core",
+      "contextHash": "c3593e74e19b8a36ba603183e2ad3729f95bb09c4a64c43b082f08d074459519",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_9caa697aabd7647cf149bf74_0",
+      "kind": "p",
+      "source": "The CKEditor is the WYSIWYG (standing for What You See Is What You Get) editor behind __TRILIUM_PH_0__Text__TRILIUM_PH_1__ notes.",
+      "sourceHash": "9caa697aabd7647cf149bf745fd0f6becc8792f950612e2d70e02e54cc207e8e",
+      "context": "CKEditor > Editor core",
+      "contextHash": "c3593e74e19b8a36ba603183e2ad3729f95bb09c4a64c43b082f08d074459519",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_1450e5d2bd0c614602f7e2b0_0",
+      "kind": "p",
+      "source": "Their website is __TRILIUM_PH_0__ckeditor.com__TRILIUM_PH_1__.",
+      "sourceHash": "1450e5d2bd0c614602f7e2b0a592419dd1c4f8680d8e11fe65d11a702beffdd8",
+      "context": "CKEditor > Editor core",
+      "contextHash": "c3593e74e19b8a36ba603183e2ad3729f95bb09c4a64c43b082f08d074459519",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_6a3fb6f1233782424317794e_0",
+      "kind": "p",
+      "source": "CKEditor by itself is a commercial product, but the core is open-source. As described in __TRILIUM_PH_0__its documentation__TRILIUM_PH_1__, the editor supports quite a large number of features. Do note that not all the features are enabled in Trilium.",
+      "sourceHash": "6a3fb6f1233782424317794ef8a56a3767e271004083fc303a511a37812043d3",
+      "context": "CKEditor > Editor core",
+      "contextHash": "c3593e74e19b8a36ba603183e2ad3729f95bb09c4a64c43b082f08d074459519",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_b239c2fab9814b3d6cb84c12_0",
+      "kind": "h2",
+      "source": "Premium features__TRILIUM_PH_0__",
+      "sourceHash": "b239c2fab9814b3d6cb84c122678c8a053fbed7e1ca1515c20cb296c6c5e10f4",
+      "context": "CKEditor > Premium features",
+      "contextHash": "f66f77a0fb89a78cbf85fcd037cfb3b4dbc1238aaed33a0ab05a0371287173c4",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_c646db5b89e976599258af25_0",
+      "kind": "p",
+      "source": "CKEditor ships some plugins as premium (slash commands, templates, AI integration). Initially Trilium (since v0.96.0) shipped some of them like slash commands as part of a license grant from CKEditor to the Trilium Notes developers.",
+      "sourceHash": "c646db5b89e976599258af25fce64bb7c6d090514ed25b108ec6de39cd693852",
+      "context": "CKEditor > Premium features",
+      "contextHash": "f66f77a0fb89a78cbf85fcd037cfb3b4dbc1238aaed33a0ab05a0371287173c4",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_d3d3cb64503184f0dabe8319_0",
+      "kind": "p",
+      "source": "In v0.105.0 we've decided to replace those premium plugins with our own open-source implementations. This also means that we can better tailor those plugins to the Trilium app.",
+      "sourceHash": "d3d3cb64503184f0dabe8319e90c3ce1bb08bb78d8f0484af8e3f4ed3e32751f",
+      "context": "CKEditor > Premium features",
+      "contextHash": "f66f77a0fb89a78cbf85fcd037cfb3b4dbc1238aaed33a0ab05a0371287173c4",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_8e49c03c625d8557bc4e2ab2_0",
+      "kind": "h2",
+      "source": "Plugins__TRILIUM_PH_0__",
+      "sourceHash": "8e49c03c625d8557bc4e2ab23bae1a43a8f27402d1100dd9a12267ce6060f03f",
+      "context": "CKEditor > Plugins",
+      "contextHash": "4844cecc2762c1a10d0a6595b1d36e95028acd02011d923d4be185d674bb4f91",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_43fceeebbff1e887be9378bc_0",
+      "kind": "p",
+      "source": "The CKEditor ecosystem is quite extensible, in the sense that custom plugins can be written to extend the functionality of the editor beyond its original scope.",
+      "sourceHash": "43fceeebbff1e887be9378bcdfb3fee535707b8107455fdecb3e9096bb644d3e",
+      "context": "CKEditor > Plugins",
+      "contextHash": "4844cecc2762c1a10d0a6595b1d36e95028acd02011d923d4be185d674bb4f91",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_6f86f7565c940b8fd83eb2df_0",
+      "kind": "p",
+      "source": "Trilium makes use of such features:",
+      "sourceHash": "6f86f7565c940b8fd83eb2df58b29934f0259a22d42dd725565d35e89c200573",
+      "context": "CKEditor > Plugins",
+      "contextHash": "4844cecc2762c1a10d0a6595b1d36e95028acd02011d923d4be185d674bb4f91",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_6de5bec791337fc82f528edd_0",
+      "kind": "li",
+      "source": "The math feature is added by a version of __TRILIUM_PH_0__isaul32/ckeditor5-math: Math feature for CKEditor 5.__TRILIUM_PH_1__ modified by us to fit our needs.",
+      "sourceHash": "6de5bec791337fc82f528eddd427a568ab7c00bf440bf3b77094ebeb687b7b8f",
+      "context": "CKEditor > Plugins",
+      "contextHash": "4844cecc2762c1a10d0a6595b1d36e95028acd02011d923d4be185d674bb4f91",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_8a73b1bf7a36de6fda9efe36_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__mlewand/ckeditor5-keyboard-marker: Plugin adds support for the keyboard input element (__TRILIUM_PH_1__) to CKEditor 5.__TRILIUM_PH_2__",
+      "sourceHash": "8a73b1bf7a36de6fda9efe3640e442735a202403174c8b04ce27c8e5a4ddc845",
+      "context": "CKEditor > Plugins",
+      "contextHash": "4844cecc2762c1a10d0a6595b1d36e95028acd02011d923d4be185d674bb4f91",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_abe3a8e683927e871b0e9331_0",
+      "kind": "li",
+      "source": "A modified version of __TRILIUM_PH_0__ThomasAitken/ckeditor5-footnotes: Footnotes plugin for CKEditor5__TRILIUM_PH_1__ to allow footnotes.",
+      "sourceHash": "abe3a8e683927e871b0e93310a46d409f0803f557f7296bea85e2735a1905a83",
+      "context": "CKEditor > Plugins",
+      "contextHash": "4844cecc2762c1a10d0a6595b1d36e95028acd02011d923d4be185d674bb4f91",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_4f99dc66ef8205d558b88525_0",
+      "kind": "p",
+      "source": "Apart from that, Trilium also has its own set of specific plugins such as:",
+      "sourceHash": "4f99dc66ef8205d558b88525308fdc7647cedd7d45ff195e0894a738c1c19c76",
+      "context": "CKEditor > Plugins",
+      "contextHash": "4844cecc2762c1a10d0a6595b1d36e95028acd02011d923d4be185d674bb4f91",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_479d63e215d456d0bb00c86d_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__Cut to subnote__TRILIUM_PH_1__",
+      "sourceHash": "479d63e215d456d0bb00c86d916a1baadfba4c3cbb188bf9d6a751893196a54c",
+      "context": "CKEditor > Plugins",
+      "contextHash": "4844cecc2762c1a10d0a6595b1d36e95028acd02011d923d4be185d674bb4f91",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_123ea1ad7f3e459b24a99bf4_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__Include Note__TRILIUM_PH_1__, which also shows drawing canvases and __TRILIUM_PH_2__Mermaid diagrams__TRILIUM_PH_3__ in place.",
+      "sourceHash": "123ea1ad7f3e459b24a99bf4aa7024161ced9b011464549fcf38d040670206ad",
+      "context": "CKEditor > Plugins",
+      "contextHash": "4844cecc2762c1a10d0a6595b1d36e95028acd02011d923d4be185d674bb4f91",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_112f46dcbd6d2f05935279ff_0",
+      "kind": "li",
+      "source": "Mentions, for linking pages.",
+      "sourceHash": "112f46dcbd6d2f05935279ff06c143ca2046d1b91c8288b1b41c31e152239093",
+      "context": "CKEditor > Plugins",
+      "contextHash": "4844cecc2762c1a10d0a6595b1d36e95028acd02011d923d4be185d674bb4f91",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_2e8fe4f16d5756ea29ece57b_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__Markdown__TRILIUM_PH_1__",
+      "sourceHash": "2e8fe4f16d5756ea29ece57b2a71f88ca7cba671dbfd591c22c868795d6b7b76",
+      "context": "CKEditor > Plugins",
+      "contextHash": "4844cecc2762c1a10d0a6595b1d36e95028acd02011d923d4be185d674bb4f91",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_aeae644f3c23713c3ebe3a2a_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__Reference links__TRILIUM_PH_1__",
+      "sourceHash": "aeae644f3c23713c3ebe3a2a78e4086274945aa0d0cfc3472796834601e8ab30",
+      "context": "CKEditor > Plugins",
+      "contextHash": "4844cecc2762c1a10d0a6595b1d36e95028acd02011d923d4be185d674bb4f91",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_18137c1551bb4b49613d68b1_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__Admonitions__TRILIUM_PH_1__, we ended up creating our own plugin but __TRILIUM_PH_2__aarkue/ckeditor5-admonition__TRILIUM_PH_3__ was a good inspiration (including the toolbar icon).",
+      "sourceHash": "18137c1551bb4b49613d68b1706beb74fc71695da89bcb89697a2f8e2d5d8c00",
+      "context": "CKEditor > Plugins",
+      "contextHash": "4844cecc2762c1a10d0a6595b1d36e95028acd02011d923d4be185d674bb4f91",
+      "status": "pending",
+      "active": true
+    }
+  ],
+  "requests": []
+}

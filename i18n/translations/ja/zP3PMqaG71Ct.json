@@ -1,0 +1,1089 @@
+{
+  "schemaVersion": 1,
+  "pageId": "zP3PMqaG71Ct",
+  "sourceFile": "docs/User Guide/User Guide/Collections/Presentation.md",
+  "sourceRevision": "03d17b60f59b5efc29b880b11481471d0fe0ff57",
+  "units": [
+    {
+      "id": "u_57e08f45689b6bdcde47ec84_0",
+      "kind": "title",
+      "source": "Presentation",
+      "sourceHash": "57e08f45689b6bdcde47ec842d7db833a5aa6ed5857a577aa2ee737a937aad03",
+      "context": "Presentation",
+      "contextHash": "5d5ee15775006a8125f9aebce809d67573a4bda84f05dece74ef65716bf5dcdc",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_48ebf8c420a35487bd73a61b_0",
+      "kind": "p",
+      "source": "The Presentation view allows the creation of slideshows directly from within Trilium.",
+      "sourceHash": "48ebf8c420a35487bd73a61b28cd1ca3ebf8867994fe51b4431434594603fbe6",
+      "context": "Presentation",
+      "contextHash": "5d5ee15775006a8125f9aebce809d67573a4bda84f05dece74ef65716bf5dcdc",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_9e1ea212585dc3047ee9e3bb_0",
+      "kind": "h3",
+      "source": "Creating a new presentation__TRILIUM_PH_0__",
+      "sourceHash": "9e1ea212585dc3047ee9e3bbf1c271974d3d35f8453c8fb42dfaf45751d66daf",
+      "context": "Presentation > Creating a new presentation",
+      "contextHash": "c0c6288741736e84ca584f89ef446b4fef54a83ecc564ad09c43915973206e8d",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_667134e1fe030a1b2e3af51b_0",
+      "kind": "p",
+      "source": "Right click on an existing note in the __TRILIUM_PH_0__Note Tree__TRILIUM_PH_1__ and select __TRILIUM_PH_2__Insert child note__TRILIUM_PH_3__ → __TRILIUM_PH_4__Collection__TRILIUM_PH_5__ → __TRILIUM_PH_6__Presentation__TRILIUM_PH_7__.",
+      "sourceHash": "667134e1fe030a1b2e3af51b77f3cbf9c7893717ad378da69517db67f19dc7d8",
+      "context": "Presentation > Creating a new presentation",
+      "contextHash": "c0c6288741736e84ca584f89ef446b4fef54a83ecc564ad09c43915973206e8d",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_92a368b87bf1ba1a35576501_0",
+      "kind": "p",
+      "source": "A presentation without slides shows, in place of the slides and the slide sidebar, a __TRILIUM_PH_0__ __TRILIUM_PH_1__New slide__TRILIUM_PH_2__ button that creates the first slide and starts editing it. The arrow beside it creates a slide of another type instead, as described below. A read-only presentation shows only a message that it has no slides. Until there is a slide, the __TRILIUM_PH_3__Slide sidebar__TRILIUM_PH_4__ button is disabled and the controls below the slides are not shown.",
+      "sourceHash": "92a368b87bf1ba1a35576501185c3cebac69d96ab74a31e52d39faeee5491669",
+      "context": "Presentation > Creating a new presentation",
+      "contextHash": "c0c6288741736e84ca584f89ef446b4fef54a83ecc564ad09c43915973206e8d",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_7f765e67634fdaed95245a79_0",
+      "kind": "h2",
+      "source": "How it works__TRILIUM_PH_0__",
+      "sourceHash": "7f765e67634fdaed95245a793a97538a36bbeb219d8b6cb916f90dd02f941898",
+      "context": "Presentation > How it works",
+      "contextHash": "7e64bc22c8546ad9f25454c582b70b75757a19727f0733af65bbcccba0a26709",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_370e3ac3ed842daf75e8c9a9_0",
+      "kind": "li",
+      "source": "Each slide is a child note of the collection.",
+      "sourceHash": "370e3ac3ed842daf75e8c9a9a1f55a4cf780d14eee6541c5c65eb0ed9b4a4e21",
+      "context": "Presentation > How it works",
+      "contextHash": "7e64bc22c8546ad9f25454c582b70b75757a19727f0733af65bbcccba0a26709",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_26c5a29e7250973eee69a21a_0",
+      "kind": "li",
+      "source": "The slides are not shown in the __TRILIUM_PH_0__Note Tree__TRILIUM_PH_1__ by default, since the slide sidebar already lists them (see __TRILIUM_PH_2__Hiding the subtree__TRILIUM_PH_3__). To show them, open the collection's __TRILIUM_PH_4__ settings and turn off __TRILIUM_PH_5__Hide child notes in tree__TRILIUM_PH_6__.",
+      "sourceHash": "26c5a29e7250973eee69a21a73ea4bf4a70c2ba6472b5c6055187b613d971cc5",
+      "context": "Presentation > How it works",
+      "contextHash": "7e64bc22c8546ad9f25454c582b70b75757a19727f0733af65bbcccba0a26709",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_1655c280dbe89919a10e3f2a_0",
+      "kind": "li",
+      "source": "The order of the child notes determines the order of the slides.",
+      "sourceHash": "1655c280dbe89919a10e3f2a3b8ba064b1b7d9900e7a64285c094ee6a4aa1304",
+      "context": "Presentation > How it works",
+      "contextHash": "7e64bc22c8546ad9f25454c582b70b75757a19727f0733af65bbcccba0a26709",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_513a2dd03d7eb9f1b09163ab_0",
+      "kind": "li",
+      "source": "Unlike traditional presentation software, slides can be laid out both horizontally and vertically (see below for more information).",
+      "sourceHash": "513a2dd03d7eb9f1b09163ab3aaaea16ec2ece39008b3e023f54ad95146d6f3f",
+      "context": "Presentation > How it works",
+      "contextHash": "7e64bc22c8546ad9f25454c582b70b75757a19727f0733af65bbcccba0a26709",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_9db11eb9b71fd4afb93d2443_0",
+      "kind": "li",
+      "source": "Direct children will be laid out horizontally and the children of those will be laid out vertically. Children deeper than two levels of nesting are ignored.",
+      "sourceHash": "9db11eb9b71fd4afb93d24439f26a8d105cac84a1d5787e2e1165f511fc51c89",
+      "context": "Presentation > How it works",
+      "contextHash": "7e64bc22c8546ad9f25454c582b70b75757a19727f0733af65bbcccba0a26709",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_b69e4f9f9b2314e4907a4f15_0",
+      "kind": "li",
+      "source": "A __TRILIUM_PH_0__Kanban Board__TRILIUM_PH_1__ or __TRILIUM_PH_2__Table__TRILIUM_PH_3__ collection is shown as one slide, working as it does in the note itself, so its children are not laid out as vertical slides. Other collections keep their children as vertical slides.",
+      "sourceHash": "b69e4f9f9b2314e4907a4f15a09e36dfaf85425c2704b7225716b7ac50047bc2",
+      "context": "Presentation > How it works",
+      "contextHash": "7e64bc22c8546ad9f25454c582b70b75757a19727f0733af65bbcccba0a26709",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_d099c57cb9b830df639278f0_0",
+      "kind": "li",
+      "source": "Slides have a fixed 16:9 shape (1280×720). The preview in the note is a scaled-down copy of what is shown in full-screen, so content that fits in the preview fits when presenting. When the window or the screen has a different shape, the slide is centered with bars around it.",
+      "sourceHash": "d099c57cb9b830df639278f032f9037960366ae4e5ccb2bcde141512291cfa56",
+      "context": "Presentation > How it works",
+      "contextHash": "7e64bc22c8546ad9f25454c582b70b75757a19727f0733af65bbcccba0a26709",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_cb53c0b26f42ae890feb7592_0",
+      "kind": "li",
+      "source": "A slide whose content is larger than the slide is zoomed out until it fits, text included. To keep the text large, split the content over several slides.",
+      "sourceHash": "cb53c0b26f42ae890feb7592f2e8623b46e282f0d9be141a27d286e234d9c2fa",
+      "context": "Presentation > How it works",
+      "contextHash": "7e64bc22c8546ad9f25454c582b70b75757a19727f0733af65bbcccba0a26709",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_406a87d3dec069f6f3570756_0",
+      "kind": "h2",
+      "source": "Interaction and navigation__TRILIUM_PH_0__",
+      "sourceHash": "406a87d3dec069f6f3570756f8f11f00f7adaa811bd067bec1d149936d7bfc68",
+      "context": "Presentation > Interaction and navigation",
+      "contextHash": "c90e433ccc1cbc01fd858cabc16f36376afee21b2aeb60b85cd549a1f33a518c",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_e5c2c2e92641e92b0434a37a_0",
+      "kind": "h3",
+      "source": "Slide sidebar__TRILIUM_PH_0__",
+      "sourceHash": "e5c2c2e92641e92b0434a37a0ed35bac6986e65ce48029aac629fd66c4bdf727",
+      "context": "Presentation > Interaction and navigation > Slide sidebar",
+      "contextHash": "ba353b8d509319703ef216bd9a60e995321fd77dffcbf947cc0a3489c8c42470",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_68168433cc100bba32e6657e_0",
+      "kind": "p",
+      "source": "A sidebar to the left of the slides shows a thumbnail of every slide in the presentation's theme, with vertical slides indented under the slide they belong to. Web view, __TRILIUM_PH_0__Kanban Board__TRILIUM_PH_1__ and __TRILIUM_PH_2__Table__TRILIUM_PH_3__ slides are shown as an icon.",
+      "sourceHash": "68168433cc100bba32e6657e6a0bc5afc1aca3fb1c571ed0bf9f9e2a05b11976",
+      "context": "Presentation > Interaction and navigation > Slide sidebar",
+      "contextHash": "ba353b8d509319703ef216bd9a60e995321fd77dffcbf947cc0a3489c8c42470",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_44521d290bd9b08b2c0ffd9c_0",
+      "kind": "li",
+      "source": "The slide being shown is outlined, and the sidebar scrolls to keep it in view.",
+      "sourceHash": "44521d290bd9b08b2c0ffd9c19afe219274b3f92ca62802c3e2fb7cbb816c0c7",
+      "context": "Presentation > Interaction and navigation > Slide sidebar",
+      "contextHash": "ba353b8d509319703ef216bd9a60e995321fd77dffcbf947cc0a3489c8c42470",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_0d7d0a3b5574a9314a5e9e34_0",
+      "kind": "li",
+      "source": "Click a thumbnail to go to its slide.",
+      "sourceHash": "0d7d0a3b5574a9314a5e9e3451e43f26b80db264f10df28178e81668ee6dbc89",
+      "context": "Presentation > Interaction and navigation > Slide sidebar",
+      "contextHash": "ba353b8d509319703ef216bd9a60e995321fd77dffcbf947cc0a3489c8c42470",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_6bec273d59f044037b82c43a_0",
+      "kind": "li",
+      "source": "To move a slide, drag its thumbnail; a line shows where it goes. Dragged straight up or down, a slide keeps its level:",
+      "sourceHash": "6bec273d59f044037b82c43a4ea943514e343629b7170f66ced4bab504708907",
+      "context": "Presentation > Interaction and navigation > Slide sidebar",
+      "contextHash": "ba353b8d509319703ef216bd9a60e995321fd77dffcbf947cc0a3489c8c42470",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_039c775ac99f131b5268f30a_0",
+      "kind": "li",
+      "source": "A top-level slide takes its vertical slides with it, and dragged over another slide's vertical slides it goes after that whole stack.",
+      "sourceHash": "039c775ac99f131b5268f30a371b63a03baa41b2d7abf47c4e0ccae1664de376",
+      "context": "Presentation > Interaction and navigation > Slide sidebar",
+      "contextHash": "ba353b8d509319703ef216bd9a60e995321fd77dffcbf947cc0a3489c8c42470",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_ddd4c56dd1de2c9e1a5b44f5_0",
+      "kind": "li",
+      "source": "A vertical slide can go among the vertical slides of any slide. Dropped below a slide that has none, it becomes that slide's first vertical slide, and the line is indented.",
+      "sourceHash": "ddd4c56dd1de2c9e1a5b44f52791195d71cc6c19487b19f5d0002209b281183d",
+      "context": "Presentation > Interaction and navigation > Slide sidebar",
+      "contextHash": "ba353b8d509319703ef216bd9a60e995321fd77dffcbf947cc0a3489c8c42470",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_4e541fba62d3a004402d68a8_0",
+      "kind": "li",
+      "source": "To change a slide's level, drag it to the side as well: to the right to make it a vertical slide, to the left to make it a top-level slide. The line's indent shows the level it will have.",
+      "sourceHash": "4e541fba62d3a004402d68a8ed207999604d66741252c41481ae6adefad33487",
+      "context": "Presentation > Interaction and navigation > Slide sidebar",
+      "contextHash": "ba353b8d509319703ef216bd9a60e995321fd77dffcbf947cc0a3489c8c42470",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_fc30fc63b0dd483cb481a0fe_0",
+      "kind": "li",
+      "source": "A slide that has vertical slides of its own can't become a vertical slide, and a __TRILIUM_PH_0__Kanban Board__TRILIUM_PH_1__ or __TRILIUM_PH_2__Table__TRILIUM_PH_3__ slide can't take vertical slides.",
+      "sourceHash": "fc30fc63b0dd483cb481a0feca2036738d4de018783b74ba5fa6c1c0413ed1b6",
+      "context": "Presentation > Interaction and navigation > Slide sidebar",
+      "contextHash": "ba353b8d509319703ef216bd9a60e995321fd77dffcbf947cc0a3489c8c42470",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_a05ba1c7b5fcfb82a18fa61d_0",
+      "kind": "li",
+      "source": "Slides can't be dragged in a read-only or search-based presentation, or into a note that sorts its children with __TRILIUM_PH_0__.",
+      "sourceHash": "a05ba1c7b5fcfb82a18fa61d7596eee89ef24c1f569b5cb07f295c4e6cf2fa5d",
+      "context": "Presentation > Interaction and navigation > Slide sidebar",
+      "contextHash": "ba353b8d509319703ef216bd9a60e995321fd77dffcbf947cc0a3489c8c42470",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_26a8cc8a0b73977909be1ac7_0",
+      "kind": "li",
+      "source": "Once a thumbnail is clicked, or reached with __TRILIUM_PH_0__Tab__TRILIUM_PH_1__, the sidebar takes the keyboard until you click the slides:",
+      "sourceHash": "26a8cc8a0b73977909be1ac718fbcd411fc1aac96d830c7616ef1ce3c3560c5a",
+      "context": "Presentation > Interaction and navigation > Slide sidebar",
+      "contextHash": "ba353b8d509319703ef216bd9a60e995321fd77dffcbf947cc0a3489c8c42470",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_4bc881740fb43474293892ef_0",
+      "kind": "li",
+      "source": "Press __TRILIUM_PH_0__↑__TRILIUM_PH_1__ and __TRILIUM_PH_2__↓__TRILIUM_PH_3__ to go to the previous or next slide in order, vertical slides included.",
+      "sourceHash": "4bc881740fb43474293892ef1e57db50bc333b9983b7b05a3ca84706d92d2051",
+      "context": "Presentation > Interaction and navigation > Slide sidebar",
+      "contextHash": "ba353b8d509319703ef216bd9a60e995321fd77dffcbf947cc0a3489c8c42470",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_e01109555764a35488b4167e_0",
+      "kind": "li",
+      "source": "Press __TRILIUM_PH_0__Home__TRILIUM_PH_1__ and __TRILIUM_PH_2__End__TRILIUM_PH_3__ to go to the first or last slide.",
+      "sourceHash": "e01109555764a35488b4167e7689db64120e6f313d1bf36281180a8babcc47dd",
+      "context": "Presentation > Interaction and navigation > Slide sidebar",
+      "contextHash": "ba353b8d509319703ef216bd9a60e995321fd77dffcbf947cc0a3489c8c42470",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_7153fa89f51630ced1c1fff4_0",
+      "kind": "li",
+      "source": "Press __TRILIUM_PH_0__Alt__TRILIUM_PH_1__+__TRILIUM_PH_2__↑__TRILIUM_PH_3__ and __TRILIUM_PH_4__Alt__TRILIUM_PH_5__+__TRILIUM_PH_6__↓__TRILIUM_PH_7__ to move the slide up or down at its level, past a whole stack of vertical slides. Press __TRILIUM_PH_8__Alt__TRILIUM_PH_9__+__TRILIUM_PH_10__→__TRILIUM_PH_11__ to make it a vertical slide where it stands, and __TRILIUM_PH_12__Alt__TRILIUM_PH_13__+__TRILIUM_PH_14__←__TRILIUM_PH_15__ to make it a top-level slide (the other way around in right-to-left languages). The same limits apply as for dragging.",
+      "sourceHash": "7153fa89f51630ced1c1fff45a64f0465d95a9e164590bb08abafc0bf4b3e2cc",
+      "context": "Presentation > Interaction and navigation > Slide sidebar",
+      "contextHash": "ba353b8d509319703ef216bd9a60e995321fd77dffcbf947cc0a3489c8c42470",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_ba8715d8541b69bc05b21bbb_0",
+      "kind": "li",
+      "source": "Right-click a thumbnail, or press __TRILIUM_PH_0__Shift__TRILIUM_PH_1__+__TRILIUM_PH_2__F10__TRILIUM_PH_3__ or the __TRILIUM_PH_4__Menu__TRILIUM_PH_5__ key on a focused one, to open its context menu. The thumbnail is outlined while the menu is open, and the slide being shown doesn't change:",
+      "sourceHash": "ba8715d8541b69bc05b21bbb90a0c521cd62ca46b6884ace17584bf80425746a",
+      "context": "Presentation > Interaction and navigation > Slide sidebar",
+      "contextHash": "ba353b8d509319703ef216bd9a60e995321fd77dffcbf947cc0a3489c8c42470",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_75955ffa3170c3a51bcff0df_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__Edit slide__TRILIUM_PH_1__ goes to the slide and edits it in place, as a double-click does. It's available for text, __TRILIUM_PH_2__Kanban Board__TRILIUM_PH_3__ and __TRILIUM_PH_4__Table__TRILIUM_PH_5__ slides.",
+      "sourceHash": "75955ffa3170c3a51bcff0dfc2ab306f3f815983278d26b4bce34d858d65ec7f",
+      "context": "Presentation > Interaction and navigation > Slide sidebar",
+      "contextHash": "ba353b8d509319703ef216bd9a60e995321fd77dffcbf947cc0a3489c8c42470",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_dfb7553f79e4c49ad05d9816_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__Open note__TRILIUM_PH_1__ opens the slide's note in a new tab, split or window.",
+      "sourceHash": "dfb7553f79e4c49ad05d9816d478204e52d37616a50effdf83960c1065c21b26",
+      "context": "Presentation > Interaction and navigation > Slide sidebar",
+      "contextHash": "ba353b8d509319703ef216bd9a60e995321fd77dffcbf947cc0a3489c8c42470",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_484ebbc1a17093e2347471ce_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__New slide after__TRILIUM_PH_1__ adds an empty slide after it, at its level, and __TRILIUM_PH_2__New vertical slide__TRILIUM_PH_3__ adds one at the end of its vertical slides. Each asks for the type of the slide, from the same list as the arrow beside the __TRILIUM_PH_4__New slide__TRILIUM_PH_5__ button. The presentation goes to the new slide. __TRILIUM_PH_6__Duplicate__TRILIUM_PH_7__ copies the slide, with its vertical slides, right after it.",
+      "sourceHash": "484ebbc1a17093e2347471ce318c225d5f985937452c40d718789f63afc4a9d7",
+      "context": "Presentation > Interaction and navigation > Slide sidebar",
+      "contextHash": "ba353b8d509319703ef216bd9a60e995321fd77dffcbf947cc0a3489c8c42470",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_9f57ea38dd2e71495a77efc0_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__Move up__TRILIUM_PH_1__, __TRILIUM_PH_2__Move down__TRILIUM_PH_3__, __TRILIUM_PH_4__Make vertical slide__TRILIUM_PH_5__ and __TRILIUM_PH_6__Make top-level slide__TRILIUM_PH_7__ move the slide as __TRILIUM_PH_8__Alt__TRILIUM_PH_9__ and the arrow keys do. An item is disabled where the slide can't go.",
+      "sourceHash": "9f57ea38dd2e71495a77efc06f8f53ccd153c84d1c2b1be9d99b533bb3144d65",
+      "context": "Presentation > Interaction and navigation > Slide sidebar",
+      "contextHash": "ba353b8d509319703ef216bd9a60e995321fd77dffcbf947cc0a3489c8c42470",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_fdea51a11653468a3430cc32_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__Delete slide...__TRILIUM_PH_1__ deletes the slide, with its vertical slides, after asking for confirmation.",
+      "sourceHash": "fdea51a11653468a3430cc328a9557fee14baa53b471560687c80230900d9e0a",
+      "context": "Presentation > Interaction and navigation > Slide sidebar",
+      "contextHash": "ba353b8d509319703ef216bd9a60e995321fd77dffcbf947cc0a3489c8c42470",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_223cfb1580112acb200376f6_0",
+      "kind": "li",
+      "source": "A read-only presentation offers only __TRILIUM_PH_0__Open note__TRILIUM_PH_1__. A search-based presentation can't add, move or delete slides.",
+      "sourceHash": "223cfb1580112acb200376f6dc4dd30ffd551782d8fc1a3071cff521ce3df4a0",
+      "context": "Presentation > Interaction and navigation > Slide sidebar",
+      "contextHash": "ba353b8d509319703ef216bd9a60e995321fd77dffcbf947cc0a3489c8c42470",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_6f356d473d9b8058befece2e_0",
+      "kind": "li",
+      "source": "To collapse the sidebar, press the __TRILIUM_PH_0__ __TRILIUM_PH_1__Slide sidebar__TRILIUM_PH_2__ button on the left of the toolbar above the slides, after the collection's settings. Press it again to bring the sidebar back. Each device remembers the choice for every presentation.",
+      "sourceHash": "6f356d473d9b8058befece2e90637a44951663675b6484e215ccbaa1e7dd7cee",
+      "context": "Presentation > Interaction and navigation > Slide sidebar",
+      "contextHash": "ba353b8d509319703ef216bd9a60e995321fd77dffcbf947cc0a3489c8c42470",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_c0676a853deb6ab59d863492_0",
+      "kind": "li",
+      "source": "The sidebar is hidden when the note is too narrow to fit it.",
+      "sourceHash": "c0676a853deb6ab59d863492ac70a2d5deba8e1ff9c012ed807913752e84faed",
+      "context": "Presentation > Interaction and navigation > Slide sidebar",
+      "contextHash": "ba353b8d509319703ef216bd9a60e995321fd77dffcbf947cc0a3489c8c42470",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_9f998f8b14354307fbebde6b_0",
+      "kind": "h3",
+      "source": "Controls below the slides__TRILIUM_PH_0__",
+      "sourceHash": "9f998f8b14354307fbebde6b775b845b456e75d0b7c76828fd9f5b01a9d4fcfd",
+      "context": "Presentation > Interaction and navigation > Controls below the slides",
+      "contextHash": "42a015c1fd1dac01e48fa1f18fa978914d41aab41d1f111c4881af0d0abff4ec",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_fbb4593a9fd73b136ea5315d_0",
+      "kind": "p",
+      "source": "Below the slides are three groups of buttons.",
+      "sourceHash": "fbb4593a9fd73b136ea5315d72e3fe76fa29c5a6d9192cc0de40939108bedffc",
+      "context": "Presentation > Interaction and navigation > Controls below the slides",
+      "contextHash": "42a015c1fd1dac01e48fa1f18fa978914d41aab41d1f111c4881af0d0abff4ec",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_55c918e9c1c803d2efc3003e_0",
+      "kind": "h4",
+      "source": "Moving between slides__TRILIUM_PH_0__",
+      "sourceHash": "55c918e9c1c803d2efc3003e2a15fc4ab03e8b3fd49fa6d28d05ef8769db1787",
+      "context": "Presentation > Interaction and navigation > Controls below the slides > Moving between slides",
+      "contextHash": "73a3bd989b466dbb2dabf28a77e25fe1cc89f70961ec928d6d0e779fb6bac6a8",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_d52fcaf08bb5445963061046_0",
+      "kind": "p",
+      "source": "On the left, the __TRILIUM_PH_0__ __TRILIUM_PH_1__Previous slide__TRILIUM_PH_2__ and __TRILIUM_PH_3__ __TRILIUM_PH_4__Next slide__TRILIUM_PH_5__ buttons go through every slide in order, vertical slides included, as __TRILIUM_PH_6__Shift__TRILIUM_PH_7__+__TRILIUM_PH_8__Space__TRILIUM_PH_9__ and __TRILIUM_PH_10__Space__TRILIUM_PH_11__ do. Between them is the number of the slide being shown, out of the number of slides.",
+      "sourceHash": "d52fcaf08bb5445963061046399e33cdff9f441c5e5e82c366b6bacb7cc033ab",
+      "context": "Presentation > Interaction and navigation > Controls below the slides > Moving between slides",
+      "contextHash": "73a3bd989b466dbb2dabf28a77e25fe1cc89f70961ec928d6d0e779fb6bac6a8",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_b2152a94e15aa749f4046831_0",
+      "kind": "p",
+      "source": "A presentation opens on the slide it showed last, also on another device after a sync, unless that slide was deleted. A read-only presentation doesn't remember its slide and opens on the one that was saved, or on the first.",
+      "sourceHash": "b2152a94e15aa749f40468318da69cb46b7bfc4290545d1668b07708870f99e8",
+      "context": "Presentation > Interaction and navigation > Controls below the slides > Moving between slides",
+      "contextHash": "73a3bd989b466dbb2dabf28a77e25fe1cc89f70961ec928d6d0e779fb6bac6a8",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_c57da8b54e41b6f327666de1_0",
+      "kind": "h4",
+      "source": "Editing__TRILIUM_PH_0__",
+      "sourceHash": "c57da8b54e41b6f327666de1b3719b61d8551079bdf3cfa8184bdb3c21bb653a",
+      "context": "Presentation > Interaction and navigation > Controls below the slides > Editing",
+      "contextHash": "429f416db5605ac671df23228d11764d1a3136d9674aa887bcec7dbd3396e78c",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_2ca92b8125cd09893f1b976a_0",
+      "kind": "p",
+      "source": "In the middle:",
+      "sourceHash": "2ca92b8125cd09893f1b976a49db12f5225c2ce23a7f8d060bdf6e48cbcbb10b",
+      "context": "Presentation > Interaction and navigation > Controls below the slides > Editing",
+      "contextHash": "429f416db5605ac671df23228d11764d1a3136d9674aa887bcec7dbd3396e78c",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_5354540477d4718c934072a5_0",
+      "kind": "p",
+      "source": "__TRILIUM_PH_0__ __TRILIUM_PH_1__New slide__TRILIUM_PH_2__ button to add an empty text slide after the slide being shown, at the same level: after a slide and its vertical slides, or among the vertical slides. The presentation goes to the new slide and starts editing it in place. The __TRILIUM_PH_3__ arrow beside it adds a slide of another type instead:",
+      "sourceHash": "5354540477d4718c934072a5abc42b924d38fab0a870bcebdf0efb9700fa920e",
+      "context": "Presentation > Interaction and navigation > Controls below the slides > Editing",
+      "contextHash": "429f416db5605ac671df23228d11764d1a3136d9674aa887bcec7dbd3396e78c",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_edc3b6b07e118a4dcba4b7ed_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__Text__TRILIUM_PH_1__ and __TRILIUM_PH_2__Canvas__TRILIUM_PH_3__ come first, as the slides that can be edited in place; the presentation starts editing the new slide.",
+      "sourceHash": "edc3b6b07e118a4dcba4b7ede0becec94ad6857ebbd439ce7ad5d57cfcfa88f5",
+      "context": "Presentation > Interaction and navigation > Controls below the slides > Editing",
+      "contextHash": "429f416db5605ac671df23228d11764d1a3136d9674aa887bcec7dbd3396e78c",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_2fba932c9dcf099e8810e8ea_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__Kanban Board__TRILIUM_PH_1__ and __TRILIUM_PH_2__Table__TRILIUM_PH_3__ create a collection, from the same template as a new one elsewhere, which the presentation also starts editing.",
+      "sourceHash": "2fba932c9dcf099e8810e8ea5cfc7f5f5ad33d3021d9bf633f9a22b13e6b5058",
+      "context": "Presentation > Interaction and navigation > Controls below the slides > Editing",
+      "contextHash": "429f416db5605ac671df23228d11764d1a3136d9674aa887bcec7dbd3396e78c",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_64f0e6e87e996d360972c31b_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__Mermaid Diagrams__TRILIUM_PH_1__ create a diagram and open it in __TRILIUM_PH_2__Quick edit__TRILIUM_PH_3__ to write it. The slide shows the diagram once it is saved, and the __TRILIUM_PH_4__ __TRILIUM_PH_5__Edit this slide__TRILIUM_PH_6__ button opens it in Quick edit again.",
+      "sourceHash": "64f0e6e87e996d360972c31b866d88f8918f0c2710cc20ce97aba3f725ab477e",
+      "context": "Presentation > Interaction and navigation > Controls below the slides > Editing",
+      "contextHash": "429f416db5605ac671df23228d11764d1a3136d9674aa887bcec7dbd3396e78c",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_1505a0d68b467fe849c1aa3f_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__Code__TRILIUM_PH_1__ opens a list of the code languages enabled in the code note options, as the app's other note type menus do, ending with __TRILIUM_PH_2__Configure code notes...__TRILIUM_PH_3__ to change which ones it offers. The new note opens in __TRILIUM_PH_4__Quick edit__TRILIUM_PH_5__ to write the code, as a Mermaid diagram does.",
+      "sourceHash": "1505a0d68b467fe849c1aa3ff8a99cdda93a2c9ba5ed0f9fcfe551080cfd7443",
+      "context": "Presentation > Interaction and navigation > Controls below the slides > Editing",
+      "contextHash": "429f416db5605ac671df23228d11764d1a3136d9674aa887bcec7dbd3396e78c",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_c451c6c0dab84e08087251d3_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__Web View__TRILIUM_PH_1__ and __TRILIUM_PH_2__Spreadsheet__TRILIUM_PH_3__ create an empty note of that type. Its content is added in __TRILIUM_PH_4__Quick edit__TRILIUM_PH_5__, with the __TRILIUM_PH_6__ __TRILIUM_PH_7__Edit this slide__TRILIUM_PH_8__ button.",
+      "sourceHash": "c451c6c0dab84e08087251d3f406f2f0e11b00afd597f76538a78ee2f388f721",
+      "context": "Presentation > Interaction and navigation > Controls below the slides > Editing",
+      "contextHash": "429f416db5605ac671df23228d11764d1a3136d9674aa887bcec7dbd3396e78c",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_2cd16e6dca19551e2397dead_0",
+      "kind": "p",
+      "source": "A __TRILIUM_PH_0__read-only__TRILIUM_PH_1__ presentation doesn't show it, and neither does one made from a search.",
+      "sourceHash": "2cd16e6dca19551e2397dead2955162fb9dca928f08a3b6605ea32849ce0e92c",
+      "context": "Presentation > Interaction and navigation > Controls below the slides > Editing",
+      "contextHash": "429f416db5605ac671df23228d11764d1a3136d9674aa887bcec7dbd3396e78c",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_b88f54eda0e5c87b7bfaf686_0",
+      "kind": "p",
+      "source": "__TRILIUM_PH_0__ __TRILIUM_PH_1__Edit this slide__TRILIUM_PH_2__ button to edit the current slide: in place for a text, canvas, Kanban Board or Table slide, as a double-click does, and in __TRILIUM_PH_3__Quick edit__TRILIUM_PH_4__ for a slide of any other type, or where the slide can't be edited in place. A __TRILIUM_PH_5__read-only__TRILIUM_PH_6__ presentation doesn't show it. While a slide is edited in place, the button becomes the __TRILIUM_PH_7__ __TRILIUM_PH_8__Finish editing__TRILIUM_PH_9__ button.",
+      "sourceHash": "b88f54eda0e5c87b7bfaf6866110b9fe4d6e4630a7378c517c10f7b5426cce78",
+      "context": "Presentation > Interaction and navigation > Controls below the slides > Editing",
+      "contextHash": "429f416db5605ac671df23228d11764d1a3136d9674aa887bcec7dbd3396e78c",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_97703a0c3ce6517ad38ae361_0",
+      "kind": "p",
+      "source": "__TRILIUM_PH_0__ __TRILIUM_PH_1__Slide background__TRILIUM_PH_2__ button to pick the background color of the current slide, or to clear it so the slide uses the theme's background. It is unavailable for web view, Kanban Board and Table slides, which cover the whole slide, and a read-only presentation doesn't show it. A gradient can still be set through the __TRILIUM_PH_3__ label.",
+      "sourceHash": "97703a0c3ce6517ad38ae361b11a75e0ab87ccb98ef7551019d07072ee2da37f",
+      "context": "Presentation > Interaction and navigation > Controls below the slides > Editing",
+      "contextHash": "429f416db5605ac671df23228d11764d1a3136d9674aa887bcec7dbd3396e78c",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_bf3550b516e7d342194eebb6_0",
+      "kind": "h4",
+      "source": "Viewing__TRILIUM_PH_0__",
+      "sourceHash": "bf3550b516e7d342194eebb63fc4409f0ae9c8e246ac98428b05cef9273a604e",
+      "context": "Presentation > Interaction and navigation > Controls below the slides > Viewing",
+      "contextHash": "d5a6f22039bf28086d95c71684a1bb96123d1298999fa114483c8db55b9fc76a",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_ef00daada02a532972a42161_0",
+      "kind": "p",
+      "source": "On the right:",
+      "sourceHash": "ef00daada02a532972a42161e1589935200220e98b79c5c8b470e9b138ea74bf",
+      "context": "Presentation > Interaction and navigation > Controls below the slides > Viewing",
+      "contextHash": "d5a6f22039bf28086d95c71684a1bb96123d1298999fa114483c8db55b9fc76a",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_a9e082eee925bb381cc4a903_0",
+      "kind": "li",
+      "source": "Press the __TRILIUM_PH_0__ Overview button (or the __TRILIUM_PH_1__O__TRILIUM_PH_2__ key) to show a birds-eye view of the slides. Press the button again to disable it.",
+      "sourceHash": "a9e082eee925bb381cc4a903efb050635c86adae277960178b0101168f736c01",
+      "context": "Presentation > Interaction and navigation > Controls below the slides > Viewing",
+      "contextHash": "d5a6f22039bf28086d95c71684a1bb96123d1298999fa114483c8db55b9fc76a",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_cb1f56498c4478ce122b16e5_0",
+      "kind": "li",
+      "source": "Press the __TRILIUM_PH_0__ __TRILIUM_PH_1__Start presentation__TRILIUM_PH_2__ button (or the __TRILIUM_PH_3__F__TRILIUM_PH_4__ key) to show the presentation in full-screen. Press __TRILIUM_PH_5__Esc__TRILIUM_PH_6__ or the __TRILIUM_PH_7__ __TRILIUM_PH_8__Exit fullscreen__TRILIUM_PH_9__ button to leave it.",
+      "sourceHash": "cb1f56498c4478ce122b16e58eed8e160ea3b7aec7d3e2a29eb7024dcd0d7855",
+      "context": "Presentation > Interaction and navigation > Controls below the slides > Viewing",
+      "contextHash": "d5a6f22039bf28086d95c71684a1bb96123d1298999fa114483c8db55b9fc76a",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_dd381ec1e8d24669b9a56669_0",
+      "kind": "p",
+      "source": "In full-screen, the editing buttons are hidden, and the other two groups fade out while the mouse rests. Move the mouse to bring it back.",
+      "sourceHash": "dd381ec1e8d24669b9a5666995172add17312a58e23efb75aa553045f35e33ce",
+      "context": "Presentation > Interaction and navigation > Controls below the slides > Viewing",
+      "contextHash": "d5a6f22039bf28086d95c71684a1bb96123d1298999fa114483c8db55b9fc76a",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_853c7d7946a01e92cab73330_0",
+      "kind": "h3",
+      "source": "Keyboard shortcuts__TRILIUM_PH_0__",
+      "sourceHash": "853c7d7946a01e92cab733304037a57c13f41f8349bdde0df097e2831ec39d62",
+      "context": "Presentation > Interaction and navigation > Keyboard shortcuts",
+      "contextHash": "4b92c77645b82992e3a92e3eda094c02bf7c93e8174840e2f367f2fa6562109f",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_b29b3d5bd8f0ecb88ff4bd4c_0",
+      "kind": "p",
+      "source": "The following keyboard shortcuts work while the presentation is the active note: after clicking the slides or the sidebar, and in full-screen. Keys pressed in another split, the note tree or a field go there instead.",
+      "sourceHash": "b29b3d5bd8f0ecb88ff4bd4c4ddad0e568839d5985e8133af10e8664f5477b13",
+      "context": "Presentation > Interaction and navigation > Keyboard shortcuts",
+      "contextHash": "4b92c77645b82992e3a92e3eda094c02bf7c93e8174840e2f367f2fa6562109f",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_96751ccf98e6f28916538bf4_0",
+      "kind": "li",
+      "source": "Press __TRILIUM_PH_0__←__TRILIUM_PH_1__ and __TRILIUM_PH_2__→__TRILIUM_PH_3__ (or __TRILIUM_PH_4__H__TRILIUM_PH_5__ and __TRILIUM_PH_6__L__TRILIUM_PH_7__) to go to the slide on the left or on the right (horizontal).",
+      "sourceHash": "96751ccf98e6f28916538bf4163f10fb89015a3e63ff8d917651d37ed0deb1f9",
+      "context": "Presentation > Interaction and navigation > Keyboard shortcuts",
+      "contextHash": "4b92c77645b82992e3a92e3eda094c02bf7c93e8174840e2f367f2fa6562109f",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_6c112d55f644f9c76945faf2_0",
+      "kind": "li",
+      "source": "Press __TRILIUM_PH_0__↑__TRILIUM_PH_1__ and __TRILIUM_PH_2__↓__TRILIUM_PH_3__  (or __TRILIUM_PH_4__K__TRILIUM_PH_5__ and __TRILIUM_PH_6__J__TRILIUM_PH_7__) to go to the upward or downward slide (vertical).",
+      "sourceHash": "6c112d55f644f9c76945faf2faf5fc9dfdf4215079da6a4bea1fa4e5aad87cf9",
+      "context": "Presentation > Interaction and navigation > Keyboard shortcuts",
+      "contextHash": "4b92c77645b82992e3a92e3eda094c02bf7c93e8174840e2f367f2fa6562109f",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_a6308a3436100ea00cca09db_0",
+      "kind": "li",
+      "source": "Press __TRILIUM_PH_0__Space__TRILIUM_PH_1__ and __TRILIUM_PH_2__Shift__TRILIUM_PH_3__+__TRILIUM_PH_4__Space__TRILIUM_PH_5__ to go to the next/previous slide in order.",
+      "sourceHash": "a6308a3436100ea00cca09dbe07208ea9174bf90c4f0d88f7ff9e0403f0fbba3",
+      "context": "Presentation > Interaction and navigation > Keyboard shortcuts",
+      "contextHash": "4b92c77645b82992e3a92e3eda094c02bf7c93e8174840e2f367f2fa6562109f",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_8c52700bd959c621e5d8326b_0",
+      "kind": "li",
+      "source": "Press __TRILIUM_PH_0__F__TRILIUM_PH_1__ to start the presentation in full-screen.",
+      "sourceHash": "8c52700bd959c621e5d8326b6130bc7b1e1cb3e1db30ecc711e7f4234c5ab49b",
+      "context": "Presentation > Interaction and navigation > Keyboard shortcuts",
+      "contextHash": "4b92c77645b82992e3a92e3eda094c02bf7c93e8174840e2f367f2fa6562109f",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_7b3180dc7f23974baa3d5447_0",
+      "kind": "li",
+      "source": "And a few more, press __TRILIUM_PH_0__?__TRILIUM_PH_1__ to display a popup with all the supported keyboard combinations.",
+      "sourceHash": "7b3180dc7f23974baa3d5447439b21543b0a8ac521ec3555d976d257a8c40c16",
+      "context": "Presentation > Interaction and navigation > Keyboard shortcuts",
+      "contextHash": "4b92c77645b82992e3a92e3eda094c02bf7c93e8174840e2f367f2fa6562109f",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_b131e5efa680038145ddda09_0",
+      "kind": "h2",
+      "source": "Editing a slide in place__TRILIUM_PH_0__",
+      "sourceHash": "b131e5efa680038145ddda096746800ff9da845552a058dbfa896c2b6ea2a49b",
+      "context": "Presentation > Editing a slide in place",
+      "contextHash": "e2b3c02266370b7517ec3900c4bee509b28ad4be24261e19287eac77ea9e8c25",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_049fe74a8bfa53f71a6f9fe7_0",
+      "kind": "p",
+      "source": "Double-click a slide made from a text note to edit it directly on the slide, in the presentation's theme. A dashed outline marks the slide being edited, and the formatting toolbar appears next to the selected text. Changes are saved as you type, as in any text note, and a slide that grows past the edge of the slide is zoomed out to fit.",
+      "sourceHash": "049fe74a8bfa53f71a6f9fe7d7e8bae5e989c2e12db38462390e65c42254a03d",
+      "context": "Presentation > Editing a slide in place",
+      "contextHash": "e2b3c02266370b7517ec3900c4bee509b28ad4be24261e19287eac77ea9e8c25",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_3093a8d288df2cda398bea6b_0",
+      "kind": "p",
+      "source": "To finish editing, press __TRILIUM_PH_0__Esc__TRILIUM_PH_1__, press the __TRILIUM_PH_2__ __TRILIUM_PH_3__Finish editing__TRILIUM_PH_4__ button below the slides or go to another slide. Starting the presentation in full-screen also finishes editing, and slides can't be edited in full-screen.",
+      "sourceHash": "3093a8d288df2cda398bea6be19706bca0414e23bb11559046352eccc42354ed",
+      "context": "Presentation > Editing a slide in place",
+      "contextHash": "e2b3c02266370b7517ec3900c4bee509b28ad4be24261e19287eac77ea9e8c25",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_60015dbe1997fa112f5983ff_0",
+      "kind": "p",
+      "source": "A __TRILIUM_PH_0__Kanban Board__TRILIUM_PH_1__ or __TRILIUM_PH_2__Table__TRILIUM_PH_3__ slide is read-only until it is edited, so that a card or a cell can't be changed by accident while presenting, and clicking a card or a row opens nothing. Double-click it to edit it on the slide as in its note, then press the __TRILIUM_PH_4__ __TRILIUM_PH_5__Finish editing__TRILIUM_PH_6__ button or go to another slide to finish. The bar above the collection has no view type switcher on a slide, and shows the __TRILIUM_PH_7__ settings only while the slide is edited.",
+      "sourceHash": "60015dbe1997fa112f5983ff8d6fbe2d9922ac9afd054f1338d3a3e4b627d1ed",
+      "context": "Presentation > Editing a slide in place",
+      "contextHash": "e2b3c02266370b7517ec3900c4bee509b28ad4be24261e19287eac77ea9e8c25",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_32f8ec420caf51a16ceee39d_0",
+      "kind": "p",
+      "source": "Double-click a __TRILIUM_PH_0__Canvas__TRILIUM_PH_1__ slide to draw on it in place. The canvas editor covers the presentation, with the same tools as in the canvas note, and opens on the drawing at the size and place that the slide shows it. The drawing is saved as you go. Press __TRILIUM_PH_2__Esc__TRILIUM_PH_3__ or the __TRILIUM_PH_4__ __TRILIUM_PH_5__Finish editing__TRILIUM_PH_6__ button to finish.",
+      "sourceHash": "32f8ec420caf51a16ceee39de0f6bc1b5381aa4bc799d30d158c543b54142f2b",
+      "context": "Presentation > Editing a slide in place",
+      "contextHash": "e2b3c02266370b7517ec3900c4bee509b28ad4be24261e19287eac77ea9e8c25",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_5284da7c0fb46bfb634711de_0",
+      "kind": "p",
+      "source": "Slides of other note types, such as diagrams, open in __TRILIUM_PH_0__Quick edit__TRILIUM_PH_1__ from the __TRILIUM_PH_2__ __TRILIUM_PH_3__Edit this slide__TRILIUM_PH_4__ button. A __TRILIUM_PH_5__read-only__TRILIUM_PH_6__ presentation can't be edited in place, and neither can a slide whose own note is read-only.",
+      "sourceHash": "5284da7c0fb46bfb634711de45bec79d8f99e17a41fda564a29997801eae27ed",
+      "context": "Presentation > Editing a slide in place",
+      "contextHash": "e2b3c02266370b7517ec3900c4bee509b28ad4be24261e19287eac77ea9e8c25",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_443716a8491c4e11b9fc5d44_0",
+      "kind": "h2",
+      "source": "Vertical slides and nesting__TRILIUM_PH_0__",
+      "sourceHash": "443716a8491c4e11b9fc5d44942408fb87b3e534e9d2a2475bb9e113c975c2be",
+      "context": "Presentation > Vertical slides and nesting",
+      "contextHash": "aaf671c99f0157620808f7ebb42e65a3dc1b9bcc5664de7ee4b6717cc9996346",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_c1e7bf330ecb8d4631cb102c_0",
+      "kind": "p",
+      "source": "Unlike traditional presentation software such as Microsoft PowerPoint, the slides in Trilium can be laid out horizontally or vertically in order to create depth or better organize the slides by topic.",
+      "sourceHash": "c1e7bf330ecb8d4631cb102c2ed26ddc04e6c98353c4c084c42550fb96d54ad1",
+      "context": "Presentation > Vertical slides and nesting",
+      "contextHash": "aaf671c99f0157620808f7ebb42e65a3dc1b9bcc5664de7ee4b6717cc9996346",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_b8c74923493de6ad10264e35_0",
+      "kind": "p",
+      "source": "This horizontal/vertical organization affects transitions (especially on the “slide” transition), however it is most noticeable in navigation.",
+      "sourceHash": "b8c74923493de6ad10264e35eff875b4878328da6373d0f6d511331bbf7c4159",
+      "context": "Presentation > Vertical slides and nesting",
+      "contextHash": "aaf671c99f0157620808f7ebb42e65a3dc1b9bcc5664de7ee4b6717cc9996346",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_4bba3cabea6589060677c07a_0",
+      "kind": "li",
+      "source": "Pressing __TRILIUM_PH_0__←__TRILIUM_PH_1__ and __TRILIUM_PH_2__→__TRILIUM_PH_3__ will navigate through slides horizontally, thus skipping vertical notes under the current slide. This is useful to skip entire chapters/related slides.",
+      "sourceHash": "4bba3cabea6589060677c07a4c645a73eeb004e870ff677a2a5dbb510d4fdfce",
+      "context": "Presentation > Vertical slides and nesting",
+      "contextHash": "aaf671c99f0157620808f7ebb42e65a3dc1b9bcc5664de7ee4b6717cc9996346",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_245316344e10082acff7eacd_0",
+      "kind": "li",
+      "source": "Pressing __TRILIUM_PH_0__↑__TRILIUM_PH_1__ and __TRILIUM_PH_2__↓__TRILIUM_PH_3__ will navigate through the vertical slides at the current level.",
+      "sourceHash": "245316344e10082acff7eacd4e55d73b8da4a73d55e4f5422321489317b5f4a6",
+      "context": "Presentation > Vertical slides and nesting",
+      "contextHash": "aaf671c99f0157620808f7ebb42e65a3dc1b9bcc5664de7ee4b6717cc9996346",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_8b15277d68085e8f76e31dea_0",
+      "kind": "li",
+      "source": "Pressing __TRILIUM_PH_0__Space__TRILIUM_PH_1__ and __TRILIUM_PH_2__Shift__TRILIUM_PH_3__ + __TRILIUM_PH_4__Space__TRILIUM_PH_5__ will go to the next/previous slide in order, regardless of the direction. This is generally the key combination to use when presenting.",
+      "sourceHash": "8b15277d68085e8f76e31dea15056a0250ec3171e942d2e399267880a431c128",
+      "context": "Presentation > Vertical slides and nesting",
+      "contextHash": "aaf671c99f0157620808f7ebb42e65a3dc1b9bcc5664de7ee4b6717cc9996346",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_9cf9dc256712e778d088f7b0_0",
+      "kind": "li",
+      "source": "The __TRILIUM_PH_0__Previous slide__TRILIUM_PH_1__ and __TRILIUM_PH_2__Next slide__TRILIUM_PH_3__ buttons below the slides go in order, as __TRILIUM_PH_4__Space__TRILIUM_PH_5__ and __TRILIUM_PH_6__Shift__TRILIUM_PH_7__+__TRILIUM_PH_8__Space__TRILIUM_PH_9__ do.",
+      "sourceHash": "9cf9dc256712e778d088f7b089b308be02314a7d74fd81a9e1b614fbb4f424bd",
+      "context": "Presentation > Vertical slides and nesting",
+      "contextHash": "aaf671c99f0157620808f7ebb42e65a3dc1b9bcc5664de7ee4b6717cc9996346",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_5ca65426d7e6d991a84806a0_0",
+      "kind": "p",
+      "source": "All direct children of the collection will be laid out horizontally. If a direct child also has children, those children will be placed as vertical slides.",
+      "sourceHash": "5ca65426d7e6d991a84806a0aaea6966b41b5b26fac81c095ab373f22e564849",
+      "context": "Presentation > Vertical slides and nesting",
+      "contextHash": "aaf671c99f0157620808f7ebb42e65a3dc1b9bcc5664de7ee4b6717cc9996346",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_b70657b41fb2652d0855756f_0",
+      "kind": "p",
+      "source": "In the following example, the note structure is as follows:",
+      "sourceHash": "b70657b41fb2652d0855756ff130a87520f4875ec6a68dd94f02d482f069094e",
+      "context": "Presentation > Vertical slides and nesting",
+      "contextHash": "aaf671c99f0157620808f7ebb42e65a3dc1b9bcc5664de7ee4b6717cc9996346",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_04860eecbcb07567282ad54f_0",
+      "kind": "li",
+      "source": "Presentation collection",
+      "sourceHash": "04860eecbcb07567282ad54f40408d9b6c3edaa3cb0d1632578beca4c3ab5379",
+      "context": "Presentation > Vertical slides and nesting",
+      "contextHash": "aaf671c99f0157620808f7ebb42e65a3dc1b9bcc5664de7ee4b6717cc9996346",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_51c5eaa20425d759427807a9_0",
+      "kind": "li",
+      "source": "Trilium Notes (demo page)",
+      "sourceHash": "51c5eaa20425d759427807a94ec525fcadd9656e03ef7331bf40c244618b4c94",
+      "context": "Presentation > Vertical slides and nesting",
+      "contextHash": "aaf671c99f0157620808f7ebb42e65a3dc1b9bcc5664de7ee4b6717cc9996346",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_4fe3e189fcd463d5a915375e_0",
+      "kind": "li",
+      "source": "“Introduction” slide",
+      "sourceHash": "4fe3e189fcd463d5a915375eed52e60c6b9da3ae3e7b5e4993e6e82e16d4efe5",
+      "context": "Presentation > Vertical slides and nesting",
+      "contextHash": "aaf671c99f0157620808f7ebb42e65a3dc1b9bcc5664de7ee4b6717cc9996346",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_e5900beb3cc50e22e6dc535a_0",
+      "kind": "li",
+      "source": "“The challenge of personal knowledge management”",
+      "sourceHash": "e5900beb3cc50e22e6dc535afb81f1e09ad77b853a75c22b451bc34df3e375d0",
+      "context": "Presentation > Vertical slides and nesting",
+      "contextHash": "aaf671c99f0157620808f7ebb42e65a3dc1b9bcc5664de7ee4b6717cc9996346",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_de6d5ea116d113292a767d92_0",
+      "kind": "li",
+      "source": "“Note-taking structures”",
+      "sourceHash": "de6d5ea116d113292a767d923b82c5587934016bf88fc1b5398ec6ff282eda52",
+      "context": "Presentation > Vertical slides and nesting",
+      "contextHash": "aaf671c99f0157620808f7ebb42e65a3dc1b9bcc5664de7ee4b6717cc9996346",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_e4ec0d25336ed6fb4e384497_0",
+      "kind": "li",
+      "source": "“Demo & Feature highlights” slide",
+      "sourceHash": "e4ec0d25336ed6fb4e3844977f61daac36b8867b48f11818484b155baac777be",
+      "context": "Presentation > Vertical slides and nesting",
+      "contextHash": "aaf671c99f0157620808f7ebb42e65a3dc1b9bcc5664de7ee4b6717cc9996346",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_71823fa4c0da77eb50e07c78_0",
+      "kind": "li",
+      "source": "“Really fast installation process”",
+      "sourceHash": "71823fa4c0da77eb50e07c7863d6d69860c6ee274051b0d6bae75d0139c850a1",
+      "context": "Presentation > Vertical slides and nesting",
+      "contextHash": "aaf671c99f0157620808f7ebb42e65a3dc1b9bcc5664de7ee4b6717cc9996346",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_04c60fd0743b1c05344c9951_0",
+      "kind": "li",
+      "source": "Video slide",
+      "sourceHash": "04c60fd0743b1c05344c9951a5af049f94f552ffc884455fd1777765022d278b",
+      "context": "Presentation > Vertical slides and nesting",
+      "contextHash": "aaf671c99f0157620808f7ebb42e65a3dc1b9bcc5664de7ee4b6717cc9996346",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_200a16ec284a64c68a2e1d25_0",
+      "kind": "h2",
+      "source": "Customization__TRILIUM_PH_0__",
+      "sourceHash": "200a16ec284a64c68a2e1d25db215a515e5d0d27f5dd07c77c6ebe86de037690",
+      "context": "Presentation > Customization",
+      "contextHash": "3d94dc2eba2ce505943b4992548e88d57a425c35bdce8fbbb58c96df52c4babf",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_ac7a04a4eaa470044c50c87d_0",
+      "kind": "p",
+      "source": "At collection level, it's possible to adjust:",
+      "sourceHash": "ac7a04a4eaa470044c50c87d7cc576eeaf0ebbcf967089c2d9b5302dc70340c7",
+      "context": "Presentation > Customization",
+      "contextHash": "3d94dc2eba2ce505943b4992548e88d57a425c35bdce8fbbb58c96df52c4babf",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_c5f86f38051ed37754a8fcbc_0",
+      "kind": "li",
+      "source": "The theme of the entire presentation to one of the predefined themes by going to the __TRILIUM_PH_0__Collection Properties__TRILIUM_PH_1__ and looking for the __TRILIUM_PH_2__Theme__TRILIUM_PH_3__ option.",
+      "sourceHash": "c5f86f38051ed37754a8fcbcf380c1105c91bc2f18a08915d5c2b88997e8ce57",
+      "context": "Presentation > Customization",
+      "contextHash": "3d94dc2eba2ce505943b4992548e88d57a425c35bdce8fbbb58c96df52c4babf",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_6b374b966baa35e71b3e9dcf_0",
+      "kind": "li",
+      "source": "It's currently not possible to create custom themes, although it is planned.",
+      "sourceHash": "6b374b966baa35e71b3e9dcfbbde691edf206d3054e068539bc164048bb0d485",
+      "context": "Presentation > Customization",
+      "contextHash": "3d94dc2eba2ce505943b4992548e88d57a425c35bdce8fbbb58c96df52c4babf",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_c04cca9559c9413348f68b92_0",
+      "kind": "li",
+      "source": "Note that it is note possible to alter the CSS via __TRILIUM_PH_0__Custom app-wide CSS__TRILIUM_PH_1__ because the slides are rendered isolated (in a shadow DOM).",
+      "sourceHash": "c04cca9559c9413348f68b926d3e0853786aa77e7caad5f5808d5393d1c30843",
+      "context": "Presentation > Customization",
+      "contextHash": "3d94dc2eba2ce505943b4992548e88d57a425c35bdce8fbbb58c96df52c4babf",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_1f9867ec0d52648c06a0f43d_0",
+      "kind": "p",
+      "source": "At slide level:",
+      "sourceHash": "1f9867ec0d52648c06a0f43dbda008456d721a5099778c4ca0a2decd8c31e818",
+      "context": "Presentation > Customization",
+      "contextHash": "3d94dc2eba2ce505943b4992548e88d57a425c35bdce8fbbb58c96df52c4babf",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_c9d56d62ddd9d69f937a154a_0",
+      "kind": "li",
+      "source": "To change the background color of a slide, go to it and use the __TRILIUM_PH_0__ __TRILIUM_PH_1__Slide background__TRILIUM_PH_2__ button in the toolbar, or set __TRILIUM_PH_3__ on its note to a hex color.",
+      "sourceHash": "c9d56d62ddd9d69f937a154a2f524f9340d35c49f49c45bda3bebdc4b226e412",
+      "context": "Presentation > Customization",
+      "contextHash": "3d94dc2eba2ce505943b4992548e88d57a425c35bdce8fbbb58c96df52c4babf",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_7331dad1b8d31d96c475b903_0",
+      "kind": "li",
+      "source": "More complex backgrounds can be achieved via gradients. There's no UI for it; it has to be set via __TRILIUM_PH_0__ to a CSS gradient definition such as: __TRILIUM_PH_1__.",
+      "sourceHash": "7331dad1b8d31d96c475b903bd9842fefea5405889efe66396a0834887ee3778",
+      "context": "Presentation > Customization",
+      "contextHash": "3d94dc2eba2ce505943b4992548e88d57a425c35bdce8fbbb58c96df52c4babf",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_925d7e9fe0e215ff9b369375_0",
+      "kind": "h2",
+      "source": "Tips and tricks__TRILIUM_PH_0__",
+      "sourceHash": "925d7e9fe0e215ff9b3693753dffbed0080be4bb99c6587c30329f28a3ccd81d",
+      "context": "Presentation > Tips and tricks",
+      "contextHash": "e7fdebb7a4d6da113919112c1b82e7aec44d9f5338eef9f36dc1d9dc46d06d87",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_b121372fe293e6054237bb70_0",
+      "kind": "li",
+      "source": "Text notes generally respect the formatting (bold, italic, foreground and background colors) and font size. Code blocks and tables also work.",
+      "sourceHash": "b121372fe293e6054237bb706da53e26dd4f4a6c30c3e98cd283e5918610b3fb",
+      "context": "Presentation > Tips and tricks",
+      "contextHash": "e7fdebb7a4d6da113919112c1b82e7aec44d9f5338eef9f36dc1d9dc46d06d87",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_dbc38b29c91a9d39e1270b5b_0",
+      "kind": "li",
+      "source": "Try using more than just text notes, the presentation uses the same mechanism as __TRILIUM_PH_0__shared notes__TRILIUM_PH_1__ and __TRILIUM_PH_2__Note List__TRILIUM_PH_3__ so it should be able to display __TRILIUM_PH_4__Mermaid Diagrams__TRILIUM_PH_5__, __TRILIUM_PH_6__Canvas__TRILIUM_PH_7__ and __TRILIUM_PH_8__Mind Map__TRILIUM_PH_9__ in full-screen (without the interactivity).",
+      "sourceHash": "dbc38b29c91a9d39e1270b5be99f2cac2b7f91d1b65d629c890c85e2b6d366b3",
+      "context": "Presentation > Tips and tricks",
+      "contextHash": "e7fdebb7a4d6da113919112c1b82e7aec44d9f5338eef9f36dc1d9dc46d06d87",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_00fc183af15c2817c604c526_0",
+      "kind": "p",
+      "source": "A __TRILIUM_PH_0__Canvas__TRILIUM_PH_1__ takes on the light or dark style of the theme, or of the slide's own background color.",
+      "sourceHash": "00fc183af15c2817c604c526c9e811cc45ceb7c8fd073651f9c9e97b82674fc0",
+      "context": "Presentation > Tips and tricks",
+      "contextHash": "e7fdebb7a4d6da113919112c1b82e7aec44d9f5338eef9f36dc1d9dc46d06d87",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_26e7e5f9b56faeaa3817144b_0",
+      "kind": "p",
+      "source": "A __TRILIUM_PH_0__Code__TRILIUM_PH_1__ note fills the width of the slide, highlighted as in the note. With the code theme following the app's, the slide uses the light or the dark code theme to match the presentation's theme. Long code is zoomed out to fit the slide.",
+      "sourceHash": "26e7e5f9b56faeaa3817144b9d6c7feda3a6c9560dc7b4fc4dd68b44adb29ea9",
+      "context": "Presentation > Tips and tricks",
+      "contextHash": "e7fdebb7a4d6da113919112c1b82e7aec44d9f5338eef9f36dc1d9dc46d06d87",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_e10efd5d245163b47d7dc6ba_0",
+      "kind": "p",
+      "source": "For __TRILIUM_PH_0__Mermaid Diagrams__TRILIUM_PH_1__, some of them have a predefined background which can be changed via the frontmatter. For example, for XY-charts:",
+      "sourceHash": "e10efd5d245163b47d7dc6baa0fbb5e0da3ebbe1c977a10d5cb74a8d40827f5c",
+      "context": "Presentation > Tips and tricks",
+      "contextHash": "e7fdebb7a4d6da113919112c1b82e7aec44d9f5338eef9f36dc1d9dc46d06d87",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_af7d9615dcf61d8cf6794453_0",
+      "kind": "li",
+      "source": "A __TRILIUM_PH_0__Web View__TRILIUM_PH_1__ slide shows its page across the whole slide, and the page can be scrolled and its links clicked. The keyboard stays with the presentation, so __TRILIUM_PH_2__Space__TRILIUM_PH_3__ and the arrow keys still change slides after clicking the page; to type into the page, open the web view note itself. Only __TRILIUM_PH_4__ and __TRILIUM_PH_5__ addresses are shown. It works the same way as the web view note itself, so outside the desktop application some websites refuse to be shown.",
+      "sourceHash": "af7d9615dcf61d8cf6794453feadaf21fa68352f2cd339c26c9601650386aa8b",
+      "context": "Presentation > Tips and tricks",
+      "contextHash": "e7fdebb7a4d6da113919112c1b82e7aec44d9f5338eef9f36dc1d9dc46d06d87",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_8b43d4cd1e24f1e09f3bc8ad_0",
+      "kind": "h2",
+      "source": "Under the hood__TRILIUM_PH_0__",
+      "sourceHash": "8b43d4cd1e24f1e09f3bc8adc1e2bf1e2e5c28b4683c6f37dbe4d1a7c64c481e",
+      "context": "Presentation > Under the hood",
+      "contextHash": "1c93b70c0b161485ea5ba58e6949153d21eda1b35846a7183704e54aaae0d976",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_9e438ab665c4dc2aebfbc033_0",
+      "kind": "p",
+      "source": "The Presentation view uses __TRILIUM_PH_0__Reveal.js__TRILIUM_PH_1__ to handle the navigation and layout of the slides.",
+      "sourceHash": "9e438ab665c4dc2aebfbc0332dca5adf29156948cd7d06e442cd7721ef304b30",
+      "context": "Presentation > Under the hood",
+      "contextHash": "1c93b70c0b161485ea5ba58e6949153d21eda1b35846a7183704e54aaae0d976",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_b190d47815633246b0ab18a6_0",
+      "kind": "image-alt",
+      "source": "記事画像",
+      "sourceHash": "b190d47815633246b0ab18a61d9b8e8ea36504fe3f8bc230a7753096915c9ff2",
+      "context": "Presentation > Under the hood",
+      "contextHash": "1c93b70c0b161485ea5ba58e6949153d21eda1b35846a7183704e54aaae0d976",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_b190d47815633246b0ab18a6_1",
+      "kind": "image-alt",
+      "source": "記事画像",
+      "sourceHash": "b190d47815633246b0ab18a61d9b8e8ea36504fe3f8bc230a7753096915c9ff2",
+      "context": "Presentation > Under the hood",
+      "contextHash": "1c93b70c0b161485ea5ba58e6949153d21eda1b35846a7183704e54aaae0d976",
+      "status": "pending",
+      "active": true
+    }
+  ],
+  "requests": []
+}

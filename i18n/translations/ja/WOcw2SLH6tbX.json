@@ -1,0 +1,507 @@
+{
+  "schemaVersion": 1,
+  "pageId": "WOcw2SLH6tbX",
+  "sourceFile": "docs/User Guide/User Guide/Installation & Setup/Server Installation.md",
+  "sourceRevision": "03d17b60f59b5efc29b880b11481471d0fe0ff57",
+  "units": [
+    {
+      "id": "u_c436bcc2ea126b98bdb26cb3_0",
+      "kind": "title",
+      "source": "Server Installation",
+      "sourceHash": "c436bcc2ea126b98bdb26cb3249c2182d6fbae0079afbb0c84fe9b953f041d25",
+      "context": "Server Installation",
+      "contextHash": "a16be06c416357dc3a3556a1c1b3e609cadccc5e3c30fb09e7c4e36fe12a618b",
+      "status": "translated",
+      "active": true,
+      "translation": "サーバーのインストール",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_a7d577d2ef9f456de4a2716c_0",
+      "kind": "p",
+      "source": "This guide outlines the steps to install Trilium on your own server. You might consider this option if you want to set up __TRILIUM_PH_0__synchronization__TRILIUM_PH_1__ or use Trilium in a browser - accessible from anywhere.",
+      "sourceHash": "a7d577d2ef9f456de4a2716c0e760ff9f611303de346fc2087ae5ba5a2d66b38",
+      "context": "Server Installation",
+      "contextHash": "a16be06c416357dc3a3556a1c1b3e609cadccc5e3c30fb09e7c4e36fe12a618b",
+      "status": "translated",
+      "active": true,
+      "translation": "このガイドでは、独自のサーバーに Trilium をインストールする手順を説明します。__TRILIUM_PH_0__同期__TRILIUM_PH_1__を設定したい場合や、どこからでもアクセスできるブラウザで Trilium を使用したい場合に、このオプションを検討するとよいでしょう。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_b45c1538e1b89f1278c97222_0",
+      "kind": "h2",
+      "source": "Installation Options__TRILIUM_PH_0__",
+      "sourceHash": "b45c1538e1b89f1278c972229619023f792b82d418d2d1e5195f68360df2dd87",
+      "context": "Server Installation > Installation Options",
+      "contextHash": "15959cb3beaf2a11c6a66781b5124bb0b49ea28302d086b4b0a9a8c609cde13e",
+      "status": "translated",
+      "active": true,
+      "translation": "インストールのオプション__TRILIUM_PH_0__",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_1732a4f5d89503c10fd9bc07_0",
+      "kind": "p",
+      "source": "There are several ways to install Trilium on a server, each with its own advantages:",
+      "sourceHash": "1732a4f5d89503c10fd9bc0730bbf8753ad1a1c76e62dd6b504ece591512e90b",
+      "context": "Server Installation > Installation Options",
+      "contextHash": "15959cb3beaf2a11c6a66781b5124bb0b49ea28302d086b4b0a9a8c609cde13e",
+      "status": "translated",
+      "active": true,
+      "translation": "サーバーに Trilium をインストールする方法はいくつかあり、それぞれにメリットがあります。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_ac7632318ed7e91c3b6ff120_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__Recommended__TRILIUM_PH_1__: __TRILIUM_PH_2__Docker Installation__TRILIUM_PH_3__ - Available for __TRILIUM_PH_4__AMD64__TRILIUM_PH_5__ and __TRILIUM_PH_6__ARM__TRILIUM_PH_7__ architectures.",
+      "sourceHash": "ac7632318ed7e91c3b6ff1209475b490ac8bdb6e3a75f4873f129efe0334d028",
+      "context": "Server Installation > Installation Options",
+      "contextHash": "15959cb3beaf2a11c6a66781b5124bb0b49ea28302d086b4b0a9a8c609cde13e",
+      "status": "translated",
+      "active": true,
+      "translation": "__TRILIUM_PH_0__推奨__TRILIUM_PH_1__: __TRILIUM_PH_2__Docker インストール__TRILIUM_PH_3__ - __TRILIUM_PH_4__AMD64__TRILIUM_PH_5__ および __TRILIUM_PH_6__ARM__TRILIUM_PH_7__ アーキテクチャで使用できます。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_5ba2d6c8765d89a316f6e1a1_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__Packaged Server Installation__TRILIUM_PH_1__",
+      "sourceHash": "5ba2d6c8765d89a316f6e1a15bd48a095b6b6e443ec2e3835262f8ffc51744a2",
+      "context": "Server Installation > Installation Options",
+      "contextHash": "15959cb3beaf2a11c6a66781b5124bb0b49ea28302d086b4b0a9a8c609cde13e",
+      "status": "translated",
+      "active": true,
+      "translation": "__TRILIUM_PH_0__パッケージ化されたサーバーのインストール__TRILIUM_PH_1__",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_5714ad4da1796877fc5cc774_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__PikaPods managed hosting__TRILIUM_PH_1__",
+      "sourceHash": "5714ad4da1796877fc5cc7741c4b50ff671cb07d5541daec57cb31346a2484d8",
+      "context": "Server Installation > Installation Options",
+      "contextHash": "15959cb3beaf2a11c6a66781b5124bb0b49ea28302d086b4b0a9a8c609cde13e",
+      "status": "translated",
+      "active": true,
+      "translation": "__TRILIUM_PH_0__PikaPods マネージドホスティング__TRILIUM_PH_1__",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_025af8d9cc458a86a32b1660_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__Manual Installation__TRILIUM_PH_1__",
+      "sourceHash": "025af8d9cc458a86a32b1660902df2bd3772f5968ce1c99d8355e60dabbeda2e",
+      "context": "Server Installation > Installation Options",
+      "contextHash": "15959cb3beaf2a11c6a66781b5124bb0b49ea28302d086b4b0a9a8c609cde13e",
+      "status": "translated",
+      "active": true,
+      "translation": "__TRILIUM_PH_0__手動インストール__TRILIUM_PH_1__",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_36dcca34f917df99ab8cb691_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__Kubernetes__TRILIUM_PH_1__",
+      "sourceHash": "36dcca34f917df99ab8cb6919f53a0a85a22a6cd305ce178630cd867f01123ad",
+      "context": "Server Installation > Installation Options",
+      "contextHash": "15959cb3beaf2a11c6a66781b5124bb0b49ea28302d086b4b0a9a8c609cde13e",
+      "status": "translated",
+      "active": true,
+      "translation": "__TRILIUM_PH_0__Kubernetes__TRILIUM_PH_1__",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_5059c75d8c710d297bb18a5c_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__Cloudron__TRILIUM_PH_1__",
+      "sourceHash": "5059c75d8c710d297bb18a5c691f69d1078945068c6c084fd86fd03a81de52bb",
+      "context": "Server Installation > Installation Options",
+      "contextHash": "15959cb3beaf2a11c6a66781b5124bb0b49ea28302d086b4b0a9a8c609cde13e",
+      "status": "translated",
+      "active": true,
+      "translation": "__TRILIUM_PH_0__Cloudron__TRILIUM_PH_1__",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_cebf7c3eefcacda1476f7633_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__HomelabOS__TRILIUM_PH_1__",
+      "sourceHash": "cebf7c3eefcacda1476f763370b20dc5cd3d6bbbb31dd6335f83883d80663b59",
+      "context": "Server Installation > Installation Options",
+      "contextHash": "15959cb3beaf2a11c6a66781b5124bb0b49ea28302d086b4b0a9a8c609cde13e",
+      "status": "translated",
+      "active": true,
+      "translation": "__TRILIUM_PH_0__HomelabOS__TRILIUM_PH_1__",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_9862952b47b60addc66c1510_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__NixOS Module__TRILIUM_PH_1__",
+      "sourceHash": "9862952b47b60addc66c151057adaae03afaefa77a8754f1f7840b65fcc7351a",
+      "context": "Server Installation > Installation Options",
+      "contextHash": "15959cb3beaf2a11c6a66781b5124bb0b49ea28302d086b4b0a9a8c609cde13e",
+      "status": "translated",
+      "active": true,
+      "translation": "__TRILIUM_PH_0__NixOS モジュール__TRILIUM_PH_1__",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_451622ce1ac5ce6cf69f5b70_0",
+      "kind": "p",
+      "source": "The server installation includes both web and __TRILIUM_PH_0__mobile frontends__TRILIUM_PH_1__.",
+      "sourceHash": "451622ce1ac5ce6cf69f5b701b50a6f11a6eb6d8360388a174816b991af48e39",
+      "context": "Server Installation > Installation Options",
+      "contextHash": "15959cb3beaf2a11c6a66781b5124bb0b49ea28302d086b4b0a9a8c609cde13e",
+      "status": "translated",
+      "active": true,
+      "translation": "サーバーのインストールには、ウェブおよび__TRILIUM_PH_0__モバイルフロントエンド__TRILIUM_PH_1__の両方が含まれます。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_91e318d9b9bed0d1467013a3_0",
+      "kind": "h2",
+      "source": "Configuration__TRILIUM_PH_0__",
+      "sourceHash": "91e318d9b9bed0d1467013a3e6d72d61f50dc1076d2d68cc43d0cdd7e4947ffe",
+      "context": "Server Installation > Configuration",
+      "contextHash": "db9984662ee2d946a8a5cc1383fd5291ca99ba24675d8c5d164d18a1ad4146a6",
+      "status": "translated",
+      "active": true,
+      "translation": "設定__TRILIUM_PH_0__",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_7a3b1d65628aeb46abb31375_0",
+      "kind": "p",
+      "source": "After setting up your server installation, you may want to configure settings such as the port or enable __TRILIUM_PH_0__TLS__TRILIUM_PH_1__. Configuration is managed via the Trilium __TRILIUM_PH_2__ file, which is located in the __TRILIUM_PH_3__data directory__TRILIUM_PH_4__ by default. To begin customizing your setup, copy the provided __TRILIUM_PH_5__ file with default values to __TRILIUM_PH_6__.",
+      "sourceHash": "7a3b1d65628aeb46abb31375482a6c6865f867a74d18d4f9e0f8b17300c7511b",
+      "context": "Server Installation > Configuration",
+      "contextHash": "db9984662ee2d946a8a5cc1383fd5291ca99ba24675d8c5d164d18a1ad4146a6",
+      "status": "translated",
+      "active": true,
+      "translation": "サーバーのインストール後、ポートの設定や__TRILIUM_PH_0__TLS__TRILIUM_PH_1__の有効化を行いたい場合があります。設定は Trilium の __TRILIUM_PH_2__ ファイルを介して管理され、デフォルトでは __TRILIUM_PH_3__データディレクトリ__TRILIUM_PH_4__内に配置されます。カスタマイズを開始するには、デフォルト値が記載された提供されている __TRILIUM_PH_5__ ファイルを __TRILIUM_PH_6__ にコピーしてください。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_0742e02d1ae250c49a2ce0ee_0",
+      "kind": "p",
+      "source": "You can also review the __TRILIUM_PH_0__configuration__TRILIUM_PH_1__ file to provide all __TRILIUM_PH_2__ values as environment variables instead.",
+      "sourceHash": "0742e02d1ae250c49a2ce0eef0077512cae82542a2c25e4bf0b5da038725759e",
+      "context": "Server Installation > Configuration",
+      "contextHash": "db9984662ee2d946a8a5cc1383fd5291ca99ba24675d8c5d164d18a1ad4146a6",
+      "status": "translated",
+      "active": true,
+      "translation": "また、__TRILIUM_PH_0__設定__TRILIUM_PH_1__ファイルを確認して、すべての __TRILIUM_PH_2__ 値を環境変数として指定することもできます。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_c885eeba6289489f57cc4b38_0",
+      "kind": "h3",
+      "source": "Config Location__TRILIUM_PH_0__",
+      "sourceHash": "c885eeba6289489f57cc4b387ede6ece74d8e1aae1e39429287e75d6b1e8d287",
+      "context": "Server Installation > Configuration > Config Location",
+      "contextHash": "d696ce2b38627fa1564b22c1846676c57a8aaedf164cead2bd9cae1531007a06",
+      "status": "translated",
+      "active": true,
+      "translation": "設定ファイルの場所__TRILIUM_PH_0__",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_e818d57ec477a7f996ecd22d_0",
+      "kind": "p",
+      "source": "By default, __TRILIUM_PH_0__, the __TRILIUM_PH_1__database__TRILIUM_PH_2__, and other important Trilium data files are stored in the __TRILIUM_PH_3__data directory__TRILIUM_PH_4__. If you prefer a different location, you can change it by setting the __TRILIUM_PH_5__ environment variable:",
+      "sourceHash": "e818d57ec477a7f996ecd22df22e1d5b43b16e5b72235bf119a265cecaa38741",
+      "context": "Server Installation > Configuration > Config Location",
+      "contextHash": "d696ce2b38627fa1564b22c1846676c57a8aaedf164cead2bd9cae1531007a06",
+      "status": "translated",
+      "active": true,
+      "translation": "デフォルトでは、__TRILIUM_PH_0__、__TRILIUM_PH_1__データベース__TRILIUM_PH_2__、およびその他の重要なTriliumデータファイルは__TRILIUM_PH_3__dataディレクトリ__TRILIUM_PH_4__に保存されます。別の場所に変更したい場合は、__TRILIUM_PH_5__環境変数を設定することで変更できます。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_63bc3027f018946cab382c41_0",
+      "kind": "h3",
+      "source": "Disabling Authentication__TRILIUM_PH_0__",
+      "sourceHash": "63bc3027f018946cab382c4116ce4fb84f3996aef64f4d62b2e7eda5d4d91c54",
+      "context": "Server Installation > Configuration > Disabling Authentication",
+      "contextHash": "0eeac34e099cf5b69b08a22c2ea50fe7067d08a13365c82f941a234996742a1c",
+      "status": "translated",
+      "active": true,
+      "translation": "認証の無効化__TRILIUM_PH_0__",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_7b77787f6895e1213c074397_0",
+      "kind": "p",
+      "source": "See __TRILIUM_PH_0__Authentication__TRILIUM_PH_1__.",
+      "sourceHash": "7b77787f6895e1213c074397b396d031c95bb6a7e1b178351db19bc3bfad828e",
+      "context": "Server Installation > Configuration > Disabling Authentication",
+      "contextHash": "0eeac34e099cf5b69b08a22c2ea50fe7067d08a13365c82f941a234996742a1c",
+      "status": "translated",
+      "active": true,
+      "translation": "__TRILIUM_PH_0__認証__TRILIUM_PH_1__をご覧ください。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_69b54c558fd3efebc65e6d04_0",
+      "kind": "h2",
+      "source": "Reverse Proxy Setup__TRILIUM_PH_0__",
+      "sourceHash": "69b54c558fd3efebc65e6d0490380b2b3a46d72e9ed67816b4887238f52ca2c8",
+      "context": "Server Installation > Reverse Proxy Setup",
+      "contextHash": "b652880a1420227564ad75f5038afe1f590dd65d4e58e88eebb084be3ef71be5",
+      "status": "translated",
+      "active": true,
+      "translation": "リバースプロキシの設定__TRILIUM_PH_0__",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_bf8ad013bf9abfb2f240f97d_0",
+      "kind": "p",
+      "source": "To configure a reverse proxy for Trilium, you can use either __TRILIUM_PH_0__nginx__TRILIUM_PH_1__ or __TRILIUM_PH_2__Apache__TRILIUM_PH_3__. You can also check out the documentation stored in the Reverse proxy folder.",
+      "sourceHash": "bf8ad013bf9abfb2f240f97dcffeee77c35bc8174d252ac593fa170785960bf3",
+      "context": "Server Installation > Reverse Proxy Setup",
+      "contextHash": "b652880a1420227564ad75f5038afe1f590dd65d4e58e88eebb084be3ef71be5",
+      "status": "translated",
+      "active": true,
+      "translation": "Trilium用のリバースプロキシを設定するには、__TRILIUM_PH_0__nginx__TRILIUM_PH_1__または__TRILIUM_PH_2__Apache__TRILIUM_PH_3__を使用できます。また、Reverse proxyフォルダに保存されているドキュメントも確認できます。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_bf00ceed8aea036120dd2924_0",
+      "kind": "p",
+      "source": "nginx",
+      "sourceHash": "bf00ceed8aea036120dd29247912b7b2e9c4ddc8ad2c6cb3a422233a4e3acbb8",
+      "context": "Server Installation > Reverse Proxy Setup",
+      "contextHash": "b652880a1420227564ad75f5038afe1f590dd65d4e58e88eebb084be3ef71be5",
+      "status": "translated",
+      "active": true,
+      "translation": "nginx",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_6bbb6380490070da35d0cdc2_0",
+      "kind": "p",
+      "source": "Add the following configuration to your __TRILIUM_PH_0__ setup to proxy requests to Trilium:",
+      "sourceHash": "6bbb6380490070da35d0cdc2b341849c5e7e6271d875c15fce049458fb51b30b",
+      "context": "Server Installation > Reverse Proxy Setup",
+      "contextHash": "b652880a1420227564ad75f5038afe1f590dd65d4e58e88eebb084be3ef71be5",
+      "status": "translated",
+      "active": true,
+      "translation": "Triliumへのリクエストをプロキシするには、__TRILIUM_PH_0__設定に以下の構成を追加します：",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_735873dc9aa5df879817a45e_0",
+      "kind": "p",
+      "source": "To avoid limiting the size of payloads, include this in the __TRILIUM_PH_0__ block:",
+      "sourceHash": "735873dc9aa5df879817a45eaafce7130929e9a888555600ae2c4de0b7354bfa",
+      "context": "Server Installation > Reverse Proxy Setup",
+      "contextHash": "b652880a1420227564ad75f5038afe1f590dd65d4e58e88eebb084be3ef71be5",
+      "status": "translated",
+      "active": true,
+      "translation": "ペイロードのサイズ制限を回避するには、__TRILIUM_PH_0__ブロックに次を含めます：",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_8057fa0b650d5315bf1e987f_0",
+      "kind": "p",
+      "source": "Apache",
+      "sourceHash": "8057fa0b650d5315bf1e987fde6f2e43ed4c3cb7db1649c82f2f8aff6923ef41",
+      "context": "Server Installation > Reverse Proxy Setup",
+      "contextHash": "b652880a1420227564ad75f5038afe1f590dd65d4e58e88eebb084be3ef71be5",
+      "status": "translated",
+      "active": true,
+      "translation": "Apache",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_4a53f4160e784cfbe1b43fea_0",
+      "kind": "p",
+      "source": "For an Apache setup, refer to the __TRILIUM_PH_0__Apache using Docker__TRILIUM_PH_1__ guide.",
+      "sourceHash": "4a53f4160e784cfbe1b43feaeb4dc416ea33afbe29c9b7f506ae759f8eb66e7f",
+      "context": "Server Installation > Reverse Proxy Setup",
+      "contextHash": "b652880a1420227564ad75f5038afe1f590dd65d4e58e88eebb084be3ef71be5",
+      "status": "translated",
+      "active": true,
+      "translation": "Apacheの設定については、__TRILIUM_PH_0__Apache using Docker__TRILIUM_PH_1__ガイドをご参照ください。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    }
+  ],
+  "requests": [
+    {
+      "at": "2026-11-14T11:28:45.803Z",
+      "model": "gemini-3.5-flash-lite",
+      "batchJob": "batches/02spwqy837h8pi7qzqmeo4fgsqo7bgs45hwh",
+      "requestKey": "WOcw2SLH6tbX_6417adbf72a3c192",
+      "modelVersion": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 1451,
+        "candidatesTokenCount": 1074,
+        "totalTokenCount": 2525,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 1451
+          }
+        ],
+        "serviceTier": "standard"
+      }
+    },
+    {
+      "at": "2026-11-14T11:28:45.803Z",
+      "model": "gemini-3.5-flash-lite",
+      "batchJob": "batches/02spwqy837h8pi7qzqmeo4fgsqo7bgs45hwh",
+      "requestKey": "WOcw2SLH6tbX_7a3ad8f983638573",
+      "modelVersion": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 1053,
+        "candidatesTokenCount": 673,
+        "totalTokenCount": 1726,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 1053
+          }
+        ],
+        "serviceTier": "standard"
+      }
+    }
+  ]
+}

@@ -1,0 +1,329 @@
+{
+  "schemaVersion": 1,
+  "pageId": "Oxyb6jOjjVNL",
+  "sourceFile": "docs/User Guide/User Guide/Basic Concepts and Features/Navigation/Search/Under the hood.md",
+  "sourceRevision": "03d17b60f59b5efc29b880b11481471d0fe0ff57",
+  "units": [
+    {
+      "id": "u_3cce459f4b452e4de230f45e_0",
+      "kind": "title",
+      "source": "Under the hood",
+      "sourceHash": "3cce459f4b452e4de230f45e81e8bdcbb31f212334dc07b2fe7917163f30e97b",
+      "context": "Under the hood",
+      "contextHash": "4150f6496076c164506caf36d533e8833c50f8035fd7ce9e571edc7ae463ad28",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_36e9f9369d15b6caa8f06861_0",
+      "kind": "h2",
+      "source": "Progressive Search Strategy__TRILIUM_PH_0__",
+      "sourceHash": "36e9f9369d15b6caa8f06861fa4e0f32a5a3d2635c5a3c8555735fabfed2cb13",
+      "context": "Under the hood > Progressive Search Strategy",
+      "contextHash": "a2e76b91c5ace229e120ef1a53448d092f384ae4a28419ed954d195353a0b978",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_f6fd2b8eb2af485fdefe505f_0",
+      "kind": "p",
+      "source": "Trilium uses a progressive search strategy that performs exact matching first, then adds fuzzy matching when needed.",
+      "sourceHash": "f6fd2b8eb2af485fdefe505fc29f9dbf27b9e693841365e3178bfde3ba85d0c4",
+      "context": "Under the hood > Progressive Search Strategy",
+      "contextHash": "a2e76b91c5ace229e120ef1a53448d092f384ae4a28419ed954d195353a0b978",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_caaee786d8a95efb43fe97ab_0",
+      "kind": "p",
+      "source": "The search has three phases:",
+      "sourceHash": "caaee786d8a95efb43fe97ab14e5670f0e4977efe133357eea454af1dc88fa3c",
+      "context": "Under the hood > Progressive Search Strategy",
+      "contextHash": "a2e76b91c5ace229e120ef1a53448d092f384ae4a28419ed954d195353a0b978",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_e0b7bad54b27b56f226185f4_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__Phase 1 - Exact Matching__TRILIUM_PH_1__: When you search, Trilium first looks for exact matches of your search terms. This handles the vast majority of searches (90%+) and returns results almost instantly.",
+      "sourceHash": "e0b7bad54b27b56f226185f407b82fc1ebd41c6176b75e806acf62c6f9a5b830",
+      "context": "Under the hood > Progressive Search Strategy",
+      "contextHash": "a2e76b91c5ace229e120ef1a53448d092f384ae4a28419ed954d195353a0b978",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_730c5e5170b58a9810108c63_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__Phase 2 - Fuzzy Fallback__TRILIUM_PH_1__: If Phase 1 doesn't find enough high-quality results (fewer than 5 results with good relevance scores), Trilium automatically adds fuzzy matching to find results with typos or spelling variations.",
+      "sourceHash": "730c5e5170b58a9810108c63f0a4a61cb462fced3d01135f1c83b804bd9eb6b8",
+      "context": "Under the hood > Progressive Search Strategy",
+      "contextHash": "a2e76b91c5ace229e120ef1a53448d092f384ae4a28419ed954d195353a0b978",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_60e4dfef16dc497d53dc242d_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__Result Ordering__TRILIUM_PH_1__: Exact matches always appear before fuzzy matches, regardless of individual scores. This ensures that when you search for \"project\", notes containing the exact word \"project\" will appear before notes containing similar words like \"projects\" or \"projection\".",
+      "sourceHash": "60e4dfef16dc497d53dc242da44e664b642650c99cd387ba3c6148f9b2f08ec3",
+      "context": "Under the hood > Progressive Search Strategy",
+      "contextHash": "a2e76b91c5ace229e120ef1a53448d092f384ae4a28419ed954d195353a0b978",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_483ac3e02fce2d6faa4a15df_0",
+      "kind": "h3",
+      "source": "Progressive Search Behavior__TRILIUM_PH_0__",
+      "sourceHash": "483ac3e02fce2d6faa4a15dff8d77eb45e2d07e10f5e5b56edb7779db830916f",
+      "context": "Under the hood > Progressive Search Strategy > Progressive Search Behavior",
+      "contextHash": "7f6bb58da3cb3c14dd722c241786813ca775dd98c33fdf59da2552c9e0f94a0a",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_5a655b23dc6dbab262f2070d_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__Speed__TRILIUM_PH_1__: Most searches complete using only exact matching",
+      "sourceHash": "5a655b23dc6dbab262f2070d01519e19249449ddf0731ff65695afe7379afc28",
+      "context": "Under the hood > Progressive Search Strategy > Progressive Search Behavior",
+      "contextHash": "7f6bb58da3cb3c14dd722c241786813ca775dd98c33fdf59da2552c9e0f94a0a",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_20959babef06c1f3c79a4638_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__Ordering__TRILIUM_PH_1__: Exact matches appear before fuzzy matches",
+      "sourceHash": "20959babef06c1f3c79a463872549015c9b6996e99a3d136b24518aa6dd86adc",
+      "context": "Under the hood > Progressive Search Strategy > Progressive Search Behavior",
+      "contextHash": "7f6bb58da3cb3c14dd722c241786813ca775dd98c33fdf59da2552c9e0f94a0a",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_8657292f99914d6efa5c1824_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__Fallback__TRILIUM_PH_1__: Fuzzy matching activates when exact matches return fewer than 5 results",
+      "sourceHash": "8657292f99914d6efa5c18245c69363e67091254a1b439ab4eaa659aa932a76f",
+      "context": "Under the hood > Progressive Search Strategy > Progressive Search Behavior",
+      "contextHash": "7f6bb58da3cb3c14dd722c241786813ca775dd98c33fdf59da2552c9e0f94a0a",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_76cd1c18fca7cc6adb6effd1_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__Identification__TRILIUM_PH_1__: Results indicate whether they are exact or fuzzy matches",
+      "sourceHash": "76cd1c18fca7cc6adb6effd13e2102eae694da419e491c65cf96eaaa6a64c012",
+      "context": "Under the hood > Progressive Search Strategy > Progressive Search Behavior",
+      "contextHash": "7f6bb58da3cb3c14dd722c241786813ca775dd98c33fdf59da2552c9e0f94a0a",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_4550c860068682ed8719080e_0",
+      "kind": "h2",
+      "source": "Search Performance__TRILIUM_PH_0__",
+      "sourceHash": "4550c860068682ed8719080ef68eb8b0c1dd358771721a5bf9e2ccd923821d2a",
+      "context": "Under the hood > Search Performance",
+      "contextHash": "57a93475098c49c1f153a04e65fc84dfe2df330919a3874767c126130380f6cf",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_c885756fbb98ac220fefa202_0",
+      "kind": "p",
+      "source": "Search system specifications:",
+      "sourceHash": "c885756fbb98ac220fefa2026fac24a18d46ce743a0a7162e8ecb51198284a03",
+      "context": "Under the hood > Search Performance",
+      "contextHash": "57a93475098c49c1f153a04e65fc84dfe2df330919a3874767c126130380f6cf",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_79b6a650ae76fa54acb133a4_0",
+      "kind": "li",
+      "source": "Content size limit: 10MB per note (previously 50KB)",
+      "sourceHash": "79b6a650ae76fa54acb133a45f2e8d20d480006fffc30e66963b63884b576064",
+      "context": "Under the hood > Search Performance",
+      "contextHash": "57a93475098c49c1f153a04e65fc84dfe2df330919a3874767c126130380f6cf",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_0337552b589470b24394d67a_0",
+      "kind": "li",
+      "source": "Edit distance calculations for fuzzy matching",
+      "sourceHash": "0337552b589470b24394d67a023ac51531292ad13064b44db6f5149d27681b86",
+      "context": "Under the hood > Search Performance",
+      "contextHash": "57a93475098c49c1f153a04e65fc84dfe2df330919a3874767c126130380f6cf",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_b0f96cf416705eafaee0e58e_0",
+      "kind": "li",
+      "source": "Infinite scrolling in Quick Search",
+      "sourceHash": "b0f96cf416705eafaee0e58e108194c374a10b30c341bbceb5b4f6330af11b26",
+      "context": "Under the hood > Search Performance",
+      "contextHash": "57a93475098c49c1f153a04e65fc84dfe2df330919a3874767c126130380f6cf",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_3f2b0ad658c270d96235519c_0",
+      "kind": "h2",
+      "source": "Label and Relation Shortcuts__TRILIUM_PH_0__",
+      "sourceHash": "3f2b0ad658c270d96235519cd46423c53d9537b2d875e9dd3b90c9adb6aa0623",
+      "context": "Under the hood > Label and Relation Shortcuts",
+      "contextHash": "f392079518d1e28a08f30c7bb9ea9041577b44425ac8a3928b784b26d588b66e",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_ee720a2bb2de318ff79a01c3_0",
+      "kind": "p",
+      "source": "The \"full\" syntax for searching by labels is:",
+      "sourceHash": "ee720a2bb2de318ff79a01c37fd689e9e20797505fe4f676ee449289f72e836e",
+      "context": "Under the hood > Label and Relation Shortcuts",
+      "contextHash": "f392079518d1e28a08f30c7bb9ea9041577b44425ac8a3928b784b26d588b66e",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_96ea537a09f42f91b2bb4227_0",
+      "kind": "p",
+      "source": "For relations:",
+      "sourceHash": "96ea537a09f42f91b2bb4227c1fec193ac106c55f929048e1eddb8b1352bcff0",
+      "context": "Under the hood > Label and Relation Shortcuts",
+      "contextHash": "f392079518d1e28a08f30c7bb9ea9041577b44425ac8a3928b784b26d588b66e",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_4a64760b27bf6fac530ea8d6_0",
+      "kind": "p",
+      "source": "However, common label and relation searches have shortcut syntax:",
+      "sourceHash": "4a64760b27bf6fac530ea8d6af2ae4b96c86cd9e925fba5a80719047178a8040",
+      "context": "Under the hood > Label and Relation Shortcuts",
+      "contextHash": "f392079518d1e28a08f30c7bb9ea9041577b44425ac8a3928b784b26d588b66e",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_18ea6cea436ac99fb4314c58_0",
+      "kind": "h2",
+      "source": "Separating Full-Text and Attribute Parts__TRILIUM_PH_0__",
+      "sourceHash": "18ea6cea436ac99fb4314c581a4a8b4d71027772d8b561b7a23e657ff765fa2a",
+      "context": "Under the hood > Separating Full-Text and Attribute Parts",
+      "contextHash": "29a5f532c174201bb48fd89a5854fcbcccea5af551021398eef8a3bf770ebcd8",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_fb468c331993017c8637b781_0",
+      "kind": "p",
+      "source": "Search syntax allows combining full-text search with attribute-based search. For example, __TRILIUM_PH_0__ contains:",
+      "sourceHash": "fb468c331993017c8637b781a74af2c5938a3b734205c8c6305d892dc00e13e0",
+      "context": "Under the hood > Separating Full-Text and Attribute Parts",
+      "contextHash": "29a5f532c174201bb48fd89a5854fcbcccea5af551021398eef8a3bf770ebcd8",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_72591886aa2c0028337d35f1_0",
+      "kind": "li",
+      "source": "Full-text tokens - __TRILIUM_PH_0__",
+      "sourceHash": "72591886aa2c0028337d35f1394b0202b0d13ec51768ec8dbb0ebdf3329af69d",
+      "context": "Under the hood > Separating Full-Text and Attribute Parts",
+      "contextHash": "29a5f532c174201bb48fd89a5854fcbcccea5af551021398eef8a3bf770ebcd8",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_9452514d67790d1011f35b2c_0",
+      "kind": "li",
+      "source": "Attribute expressions - __TRILIUM_PH_0__",
+      "sourceHash": "9452514d67790d1011f35b2cb4f6149e798ac504b69a6837fa0a43a652280ad5",
+      "context": "Under the hood > Separating Full-Text and Attribute Parts",
+      "contextHash": "29a5f532c174201bb48fd89a5854fcbcccea5af551021398eef8a3bf770ebcd8",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_a1e71fb40fd3e92b473d31cb_0",
+      "kind": "p",
+      "source": "Trilium detects the separation between full text search and attribute/property search by looking for certain special characters or words that denote attributes and properties (e.g., #, ~, note.). If you need to include these in full-text search, escape them with a backslash so they are processed as regular text:",
+      "sourceHash": "a1e71fb40fd3e92b473d31cbfae536d694399a96100f50d0ca3e9391e24183bd",
+      "context": "Under the hood > Separating Full-Text and Attribute Parts",
+      "contextHash": "29a5f532c174201bb48fd89a5854fcbcccea5af551021398eef8a3bf770ebcd8",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_24f1ced461363048e09e53d7_0",
+      "kind": "h2",
+      "source": "Escaping Special Characters__TRILIUM_PH_0__",
+      "sourceHash": "24f1ced461363048e09e53d710911a276b7cbad2093a50ff6868cc09471f6072",
+      "context": "Under the hood > Escaping Special Characters",
+      "contextHash": "05041a54d574d852cdfd4ac0536d0af564bc30e4e8a1828f82e1bad440dfb363",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_9bd18de61dabad37bd663d04_0",
+      "kind": "p",
+      "source": "Special characters can be enclosed in quotes or escaped with a backslash to be used in full-text search:",
+      "sourceHash": "9bd18de61dabad37bd663d0492a1639e1bfe6e8513921733ba666607529a9a3e",
+      "context": "Under the hood > Escaping Special Characters",
+      "contextHash": "05041a54d574d852cdfd4ac0536d0af564bc30e4e8a1828f82e1bad440dfb363",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_e618f9b69201bc64fdad5145_0",
+      "kind": "p",
+      "source": "Three types of quotes are supported: single, double, and backtick.",
+      "sourceHash": "e618f9b69201bc64fdad5145da1f28c331c313dd605f86029a10503f8afd449a",
+      "context": "Under the hood > Escaping Special Characters",
+      "contextHash": "05041a54d574d852cdfd4ac0536d0af564bc30e4e8a1828f82e1bad440dfb363",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_1506a0ab41a7bdacae478cc1_0",
+      "kind": "h2",
+      "source": "Type Coercion__TRILIUM_PH_0__",
+      "sourceHash": "1506a0ab41a7bdacae478cc154504fe8ffd5501991d1a77f3c8abe201896044d",
+      "context": "Under the hood > Type Coercion",
+      "contextHash": "1e3bafb06b504f5a0d121b9bd29e0cdc8cbe3f4b34f07829cc53397d2b0ee00a",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_f3ba92e0e6a63d49f9f20eba_0",
+      "kind": "p",
+      "source": "Label values are technically strings but can be coerced for numeric comparisons:",
+      "sourceHash": "f3ba92e0e6a63d49f9f20eba977f76c91af214c23b45b017125ee767b8827584",
+      "context": "Under the hood > Type Coercion",
+      "contextHash": "1e3bafb06b504f5a0d121b9bd29e0cdc8cbe3f4b34f07829cc53397d2b0ee00a",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_798ff8e91dd33dae74740d96_0",
+      "kind": "p",
+      "source": "This finds notes created in May 2019. Numeric operators like __TRILIUM_PH_0__ convert string values to numbers for comparison.",
+      "sourceHash": "798ff8e91dd33dae74740d96f711b7fe9cab803940d266ec6912b3610adfd089",
+      "context": "Under the hood > Type Coercion",
+      "contextHash": "1e3bafb06b504f5a0d121b9bd29e0cdc8cbe3f4b34f07829cc53397d2b0ee00a",
+      "status": "pending",
+      "active": true
+    }
+  ],
+  "requests": []
+}

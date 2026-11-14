@@ -1,0 +1,139 @@
+{
+  "schemaVersion": 1,
+  "pageId": "HAIOFBoYIIdO",
+  "sourceFile": "docs/User Guide/User Guide/Advanced Usage/Nightly release.md",
+  "sourceRevision": "03d17b60f59b5efc29b880b11481471d0fe0ff57",
+  "units": [
+    {
+      "id": "u_d5e6ab67144a2b8324ee6430_0",
+      "kind": "title",
+      "source": "Nightly release",
+      "sourceHash": "d5e6ab67144a2b8324ee6430c7fc567ecf31612ec2d03e93e867c135c53ff257",
+      "context": "Nightly release",
+      "contextHash": "014a496a756ddaa604ccc6e922aee7c07b035bf29d0e5ca7fa5e8fdeb88ad43f",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_2ce816b2219ea4f3207a3e8c_0",
+      "kind": "p",
+      "source": "Nightly releases are versions built every day, containing the latest improvements and bugfixes, directly from the main development branch. These versions are generally useful in preparation for a release, to ensure that there are no significant bugs that need to be addressed first, or they can be used to confirm whether a particular bug is fixed or feature is well implemented.",
+      "sourceHash": "2ce816b2219ea4f3207a3e8c0f4530d294f1c55410a969fe0a81db839c6b20c0",
+      "context": "Nightly release",
+      "contextHash": "014a496a756ddaa604ccc6e922aee7c07b035bf29d0e5ca7fa5e8fdeb88ad43f",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_3bda89765a24d3189cee2416_0",
+      "kind": "h2",
+      "source": "Regarding the stability__TRILIUM_PH_0__",
+      "sourceHash": "3bda89765a24d3189cee24168a1d496328b89e6f6b927b97c73bff023f5117f1",
+      "context": "Nightly release > Regarding the stability",
+      "contextHash": "12263c04be37eeb4669b0c4a1e7f8832c77c524ffca47db1e0cc0c94121a6980",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_485e49c71986023d8920596d_0",
+      "kind": "p",
+      "source": "Despite being on a development branch, generally the main branch is pretty stable since PRs are tested before they are merged. If you notice any issues, feel free to report them either via a ticket or via the Matrix.",
+      "sourceHash": "485e49c71986023d8920596d1b24edc7e44243e38412190f44aa616a1a1486ce",
+      "context": "Nightly release > Regarding the stability",
+      "contextHash": "12263c04be37eeb4669b0c4a1e7f8832c77c524ffca47db1e0cc0c94121a6980",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_f6849f71b157852b207b531f_0",
+      "kind": "h2",
+      "source": "Downloading the nightly release manually__TRILIUM_PH_0__",
+      "sourceHash": "f6849f71b157852b207b531f0eb421962b46d46101d807ac578b6854e0c86752",
+      "context": "Nightly release > Downloading the nightly release manually",
+      "contextHash": "7896dc112aa07616318b5a4f8ea1a8ed0c683096807c84d1c84f986689f2c90c",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_0190cb2222fcbaa03bd7ef54_0",
+      "kind": "p",
+      "source": "Go to __TRILIUM_PH_0__github.com/TriliumNext/Trilium/releases/tag/nightly__TRILIUM_PH_1__ and look for the artifacts starting with __TRILIUM_PH_2__. Choose the appropriate one for your platform (e.g. __TRILIUM_PH_3__).",
+      "sourceHash": "0190cb2222fcbaa03bd7ef54aef206401afcf7ab9b774a4ba206e827a084e6fb",
+      "context": "Nightly release > Downloading the nightly release manually",
+      "contextHash": "7896dc112aa07616318b5a4f8ea1a8ed0c683096807c84d1c84f986689f2c90c",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_5be1e10e05f5c572c3968cd3_0",
+      "kind": "p",
+      "source": "Depending on your use case, you can either test the portable version or even use the installer.",
+      "sourceHash": "5be1e10e05f5c572c3968cd3d5f63208ff15b134646d270d658a939f55d2e8be",
+      "context": "Nightly release > Downloading the nightly release manually",
+      "contextHash": "7896dc112aa07616318b5a4f8ea1a8ed0c683096807c84d1c84f986689f2c90c",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_f8f38d0e19bded987fa48fc3_0",
+      "kind": "p",
+      "source": "If you choose the installable version (e.g. the .exe on Windows), it will replace your stable installation.",
+      "sourceHash": "f8f38d0e19bded987fa48fc3ac499674a0563dae50314bee3b73a3dcf2f62809",
+      "context": "Nightly release > Downloading the nightly release manually",
+      "contextHash": "7896dc112aa07616318b5a4f8ea1a8ed0c683096807c84d1c84f986689f2c90c",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_4a0746544c8d5ea0ae63ef71_0",
+      "kind": "p",
+      "source": "By default, the nightly uses the same database as the production version. Generally you could easily downgrade if needed. However, if there are changes to the database or sync version, it will not be possible to downgrade without having to restore from a backup.",
+      "sourceHash": "4a0746544c8d5ea0ae63ef71328129b29323899ddd0688ad24d83369693e4cd3",
+      "context": "Nightly release > Downloading the nightly release manually",
+      "contextHash": "7896dc112aa07616318b5a4f8ea1a8ed0c683096807c84d1c84f986689f2c90c",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_b8cc66c59711b32ead8bc78d_0",
+      "kind": "h2",
+      "source": "Automatically download and install the latest nightly__TRILIUM_PH_0__",
+      "sourceHash": "b8cc66c59711b32ead8bc78dfc245766b3877bb1edd98d00fa5d18a65e77f863",
+      "context": "Nightly release > Automatically download and install the latest nightly",
+      "contextHash": "749896b86dededdeb0adbec5223abe860aa7263bcee8afa28188799f1d68cb4a",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_af74c2276463f6316dc27e34_0",
+      "kind": "p",
+      "source": "This is pretty useful if you are a beta tester that wants to periodically update their version:",
+      "sourceHash": "af74c2276463f6316dc27e34c8a07f9ad758a301614daf3f171f4b5884b0ce48",
+      "context": "Nightly release > Automatically download and install the latest nightly",
+      "contextHash": "749896b86dededdeb0adbec5223abe860aa7263bcee8afa28188799f1d68cb4a",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_f5209ebe266c9070280799b2_0",
+      "kind": "p",
+      "source": "__TRILIUM_PH_0__ Ubuntu (Bash)",
+      "sourceHash": "f5209ebe266c9070280799b2ff4fc1b25873a95e10c1bca2d264449a4b87c9a6",
+      "context": "Nightly release > Automatically download and install the latest nightly",
+      "contextHash": "749896b86dededdeb0adbec5223abe860aa7263bcee8afa28188799f1d68cb4a",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_0d11d4271378ff018762e658_0",
+      "kind": "p",
+      "source": "__TRILIUM_PH_0__ Windows (PowerShell)",
+      "sourceHash": "0d11d4271378ff018762e658f5755afce2740631fcb9dcef7379ba6b6a2d9c12",
+      "context": "Nightly release > Automatically download and install the latest nightly",
+      "contextHash": "749896b86dededdeb0adbec5223abe860aa7263bcee8afa28188799f1d68cb4a",
+      "status": "pending",
+      "active": true
+    }
+  ],
+  "requests": []
+}

@@ -1,0 +1,329 @@
+{
+  "schemaVersion": 1,
+  "pageId": "rJ9grSgoExl9",
+  "sourceFile": "docs/User Guide/User Guide/Basic Concepts and Features/Import & Export/Markdown/Supported syntax.md",
+  "sourceRevision": "03d17b60f59b5efc29b880b11481471d0fe0ff57",
+  "units": [
+    {
+      "id": "u_f983eeb5adb0c15b64e65f4a_0",
+      "kind": "title",
+      "source": "Supported syntax",
+      "sourceHash": "f983eeb5adb0c15b64e65f4a78a5f8456ce7186c8ade3c0d6c45c6285a8d775a",
+      "context": "Supported syntax",
+      "contextHash": "214cbe51b2e57e38dab569f1ec048c08a929e3a221f19875840c2e3ce270b07e",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_f399961ec8364a01e4605205_0",
+      "kind": "p",
+      "source": "__TRILIUM_PH_0__GitHub-Flavored Markdown__TRILIUM_PH_1__ is the main syntax that Trilium is following.",
+      "sourceHash": "f399961ec8364a01e4605205223e34a2871f51d863a9b82576702278a52b7a67",
+      "context": "Supported syntax",
+      "contextHash": "214cbe51b2e57e38dab569f1ec048c08a929e3a221f19875840c2e3ce270b07e",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_1b020705228a26babe66c928_0",
+      "kind": "h2",
+      "source": "Images__TRILIUM_PH_0__",
+      "sourceHash": "1b020705228a26babe66c92828ea0696387a5d948ab9b2f2106bcebd280c0042",
+      "context": "Supported syntax > Images",
+      "contextHash": "9744118126ca5ecbca035ed3f78482602872a55df5781e7ec865a940b0723a84",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_36f4a09582b9c506cce6c9fe_0",
+      "kind": "p",
+      "source": "When exporting, images are usually kept in the basic Markdown syntax but will use the HTML syntax if the image has a custom width. Figures are always embedded as HTML.",
+      "sourceHash": "36f4a09582b9c506cce6c9feb14604aeddad426de71e1292c3cbe5fc8a11b4f5",
+      "context": "Supported syntax > Images",
+      "contextHash": "9744118126ca5ecbca035ed3f78482602872a55df5781e7ec865a940b0723a84",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_ee3bd34eb6c954aa2b4a4796_0",
+      "kind": "h2",
+      "source": "Tables__TRILIUM_PH_0__",
+      "sourceHash": "ee3bd34eb6c954aa2b4a4796c473d8711b0414432de9f19d035816f8c97dc359",
+      "context": "Supported syntax > Tables",
+      "contextHash": "fa30eb4f81ce5688c17d77a3a0a25b2d537ada1df6f2a3d13370bf2da1a74aba",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_ba09cda0f9528ffa58950939_0",
+      "kind": "p",
+      "source": "Simple tables are supported with the Markdown syntax. If the table is too complex or contains elements that would render as HTML, the table is also rendered as HTML.",
+      "sourceHash": "ba09cda0f9528ffa589509394253cff0e53dfa27a28eadf2682b40e1ef489969",
+      "context": "Supported syntax > Tables",
+      "contextHash": "fa30eb4f81ce5688c17d77a3a0a25b2d537ada1df6f2a3d13370bf2da1a74aba",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_c881b803c4948251f4de1d51_0",
+      "kind": "h2",
+      "source": "Links__TRILIUM_PH_0__",
+      "sourceHash": "c881b803c4948251f4de1d5106385d344ac3b11f54a6d0c475fb491982fc39dd",
+      "context": "Supported syntax > Links",
+      "contextHash": "2b29d9896aacb58cc7560034faa73f0196182ee87730f1a4c662fb8e1ab461ad",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_4e3d6aa71f6fcea3abcf1dca_0",
+      "kind": "p",
+      "source": "Standard Markdown links are supported.",
+      "sourceHash": "4e3d6aa71f6fcea3abcf1dca244e5cc5fed153021ee9ac2e32c9bd00d1979096",
+      "context": "Supported syntax > Links",
+      "contextHash": "2b29d9896aacb58cc7560034faa73f0196182ee87730f1a4c662fb8e1ab461ad",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_7c0c67b8be63da924cb797fb_0",
+      "kind": "p",
+      "source": "Trilium internal links (that mirror a note's title and display its icon) are embedded as HTML in order to preserve the information on import.",
+      "sourceHash": "7c0c67b8be63da924cb797fbe36372711e25d2073d46d898edcd3db87cdbd16b",
+      "context": "Supported syntax > Links",
+      "contextHash": "2b29d9896aacb58cc7560034faa73f0196182ee87730f1a4c662fb8e1ab461ad",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_508d019fc95db082ed60f708_0",
+      "kind": "p",
+      "source": "__TRILIUM_PH_0__Anchors__TRILIUM_PH_1__ are kept as HTML as well, so links to an anchor still lead to it after the note is imported again.",
+      "sourceHash": "508d019fc95db082ed60f70846044530df6a8795a5562edae19abb5141282fa0",
+      "context": "Supported syntax > Links",
+      "contextHash": "2b29d9896aacb58cc7560034faa73f0196182ee87730f1a4c662fb8e1ab461ad",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_8fd1833d87d9f5895dae3da2_0",
+      "kind": "h2",
+      "source": "Math equations__TRILIUM_PH_0__",
+      "sourceHash": "8fd1833d87d9f5895dae3da2193d73561badd1de0c2bc7e17155640cb533316c",
+      "context": "Supported syntax > Math equations",
+      "contextHash": "5c4e217086cace20d4068e6c5777aa56895cd026e9b04e215a3e12808df61446",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_4ea3e658d6a09540fbed12da_0",
+      "kind": "p",
+      "source": "Both inline and display equations are supported, using the __TRILIUM_PH_0__ and __TRILIUM_PH_1__ syntaxes.",
+      "sourceHash": "4ea3e658d6a09540fbed12da61692a2554f06e397b6df3c88e60f05faa59191d",
+      "context": "Supported syntax > Math equations",
+      "contextHash": "5c4e217086cace20d4068e6c5777aa56895cd026e9b04e215a3e12808df61446",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_4b3d822a7b4bdec9716444b5_0",
+      "kind": "h2",
+      "source": "Admonitions__TRILIUM_PH_0__",
+      "sourceHash": "4b3d822a7b4bdec9716444b5cc220296c721ff91dcee6bc2e1fc67d9cf521320",
+      "context": "Supported syntax > Admonitions",
+      "contextHash": "6097426a1958a8dfc7ca1c02a45bb7cc006c5c205b26a91345c52397a120b8a0",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_a6802e529bc512dbded024fb_0",
+      "kind": "p",
+      "source": "The Markdown syntax for admonitions as supported by Trilium is the one that GitHub uses, which is as follows:",
+      "sourceHash": "a6802e529bc512dbded024fb77e10bfe3dc01d8bc9b4abb18f1904fcd7b2e016",
+      "context": "Supported syntax > Admonitions",
+      "contextHash": "6097426a1958a8dfc7ca1c02a45bb7cc006c5c205b26a91345c52397a120b8a0",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_6a5fa12e2a9a0b9f3ffbbdb9_0",
+      "kind": "p",
+      "source": "There are currently no plans of supporting alternative admonition syntaxes such as __TRILIUM_PH_0__.",
+      "sourceHash": "6a5fa12e2a9a0b9f3ffbbdb9e4d6c6f044e77134405899d48b0c8004c9a3271a",
+      "context": "Supported syntax > Admonitions",
+      "contextHash": "6097426a1958a8dfc7ca1c02a45bb7cc006c5c205b26a91345c52397a120b8a0",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_18aebcd787ed2d732916f311_0",
+      "kind": "h2",
+      "source": "Tabs__TRILIUM_PH_0__",
+      "sourceHash": "18aebcd787ed2d732916f311c99fa2780d8e64a11e286a34d5d5c8df8285bf44",
+      "context": "Supported syntax > Tabs",
+      "contextHash": "c062f4fc550a4af17f85b81f338cafa7e543ac3a6977e9d8851a4153f34513f1",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_98b7b3406795a5f5ccfd724b_0",
+      "kind": "p",
+      "source": "Tabs use the syntax of __TRILIUM_PH_0__Material for MkDocs__TRILIUM_PH_1__: each tab starts with a __TRILIUM_PH_2__ line, followed by its content indented by four spaces. Consecutive tabs form one tabs block, and __TRILIUM_PH_3__ starts a new block right after another one:",
+      "sourceHash": "98b7b3406795a5f5ccfd724b3854594bc58969cfd023fc10bb9bc580533f0977",
+      "context": "Supported syntax > Tabs",
+      "contextHash": "c062f4fc550a4af17f85b81f338cafa7e543ac3a6977e9d8851a4153f34513f1",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_d9dd55d49ad8fee40c9243f8_0",
+      "kind": "p",
+      "source": "Tabs can be nested by indenting the inner tabs inside the content of a tab. A tab title is plain text, so its formatting is not kept on export. For how tabs blocks work in a text note, see __TRILIUM_PH_0__Content tabs__TRILIUM_PH_1__.",
+      "sourceHash": "d9dd55d49ad8fee40c9243f89e2c769dfa237872b1b1d87999af86abf7f6d361",
+      "context": "Supported syntax > Tabs",
+      "contextHash": "c062f4fc550a4af17f85b81f338cafa7e543ac3a6977e9d8851a4153f34513f1",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_48683537ad7e13f4569dc807_0",
+      "kind": "h2",
+      "source": "Wikilinks__TRILIUM_PH_0__",
+      "sourceHash": "48683537ad7e13f4569dc807ce0fbafe89157d7469be013f2ed093fc251c5fb3",
+      "context": "Supported syntax > Wikilinks",
+      "contextHash": "5bd1365d66cf0a2f9ab351103aea279e32efd3448c62153c481ffacd787d848d",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_210db54b98c12f43c70e1c58_0",
+      "kind": "p",
+      "source": "Basic support for wikilinks has been added in v0.96.0:",
+      "sourceHash": "210db54b98c12f43c70e1c587c281820ba3b0c1e92647668ed0683c696b5add5",
+      "context": "Supported syntax > Wikilinks",
+      "contextHash": "5bd1365d66cf0a2f9ab351103aea279e32efd3448c62153c481ffacd787d848d",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_e476dbbcfd222f10b48d4a93_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__ will look for the __TRILIUM_PH_1__ file in the __TRILIUM_PH_2__ directory and turn it into an internal link.",
+      "sourceHash": "e476dbbcfd222f10b48d4a930ccd19789ea901d845f8e50ae74aece93c8c77e6",
+      "context": "Supported syntax > Wikilinks",
+      "contextHash": "5bd1365d66cf0a2f9ab351103aea279e32efd3448c62153c481ffacd787d848d",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_97563139454f21e5c28f5889_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__ will look for the __TRILIUM_PH_1__ file in the __TRILIUM_PH_2__ directory and turn it into an image.",
+      "sourceHash": "97563139454f21e5c28f588979af380ba7d3334b5014fb7849b42fddb5527ce2",
+      "context": "Supported syntax > Wikilinks",
+      "contextHash": "5bd1365d66cf0a2f9ab351103aea279e32efd3448c62153c481ffacd787d848d",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_56041a14fe98bc166f950a79_0",
+      "kind": "p",
+      "source": "This feature is import-only, which means that it will turn wikilinks into Trilium-compatible syntax, but it will not export Trilium Notes into Markdown files with this syntax.",
+      "sourceHash": "56041a14fe98bc166f950a79c446356a2e82bf812b2ba9ab9fa002c9d849b5ed",
+      "context": "Supported syntax > Wikilinks",
+      "contextHash": "5bd1365d66cf0a2f9ab351103aea279e32efd3448c62153c481ffacd787d848d",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_9582f34a40267144ccd474e6_0",
+      "kind": "p",
+      "source": "The path to pages in wikilinks is resolved relatively to the __TRILIUM_PH_0__import root__TRILIUM_PH_1__ and not the current directory of the note. This is to be inline with other platforms that use wikilinks such as SilverBullet.",
+      "sourceHash": "9582f34a40267144ccd474e6d5454a354c29d2b25f759b29e7a8119cf3f96119",
+      "context": "Supported syntax > Wikilinks",
+      "contextHash": "5bd1365d66cf0a2f9ab351103aea279e32efd3448c62153c481ffacd787d848d",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_9fd7a44fc74096e51bfd26f3_0",
+      "kind": "p",
+      "source": "The root path of the import is determined as follows:",
+      "sourceHash": "9fd7a44fc74096e51bfd26f3b2622b0dc5136a95d251d296a0e4832c0b11fdbd",
+      "context": "Supported syntax > Wikilinks",
+      "contextHash": "5bd1365d66cf0a2f9ab351103aea279e32efd3448c62153c481ffacd787d848d",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_1a0f1310238ae71d83058782_0",
+      "kind": "li",
+      "source": "If there is a single directory within the archive at root level, then that directory is considered the root.",
+      "sourceHash": "1a0f1310238ae71d83058782b5b3ba77cb8b6e61732421dd1b4978e883e6e3e5",
+      "context": "Supported syntax > Wikilinks",
+      "contextHash": "5bd1365d66cf0a2f9ab351103aea279e32efd3448c62153c481ffacd787d848d",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_70ff549c4272abbaca435fc9_0",
+      "kind": "li",
+      "source": "If there are multiple files & directories at root level, then the archive root (containing all of these items) is considered the root.",
+      "sourceHash": "70ff549c4272abbaca435fc9dd64b2ecf6fb93bc71788a7e476883f240e6435f",
+      "context": "Supported syntax > Wikilinks",
+      "contextHash": "5bd1365d66cf0a2f9ab351103aea279e32efd3448c62153c481ffacd787d848d",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_aa900c418306ff940e94ede4_0",
+      "kind": "h2",
+      "source": "Highlights__TRILIUM_PH_0__",
+      "sourceHash": "aa900c418306ff940e94ede4690815759f60ff5116efaced9825dc9480c458d2",
+      "context": "Supported syntax > Highlights",
+      "contextHash": "2300722d598345c0157a7e2b5ab2ec3e5d977f740ac5972edae0c0c13379c012",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_bd478e7fa219b92af145a971_0",
+      "kind": "p",
+      "source": "Background highlights are supported in two ways:",
+      "sourceHash": "bd478e7fa219b92af145a9719c97fbd332894a189679e6d3fbe72cc4944a2455",
+      "context": "Supported syntax > Highlights",
+      "contextHash": "2300722d598345c0157a7e2b5ab2ec3e5d977f740ac5972edae0c0c13379c012",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_b23113c02557f643b138edb9_0",
+      "kind": "p",
+      "source": "The Markdown __TRILIUM_PH_0__ extension which is supported by other Markdown-based applications such as Obsidian:",
+      "sourceHash": "b23113c02557f643b138edb908a1937b5d5aa0ce21f1ee974c83bb78d22788c9",
+      "context": "Supported syntax > Highlights",
+      "contextHash": "2300722d598345c0157a7e2b5ab2ec3e5d977f740ac5972edae0c0c13379c012",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_732d127567855e61c6230cc9_0",
+      "kind": "p",
+      "source": "The canonical HTML representation of highlights, as supported by Trilium:",
+      "sourceHash": "732d127567855e61c6230cc9ff642bdc19bab63b08caeafd78374c3968ba9002",
+      "context": "Supported syntax > Highlights",
+      "contextHash": "2300722d598345c0157a7e2b5ab2ec3e5d977f740ac5972edae0c0c13379c012",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_6450a0432c5d9268149745fb_0",
+      "kind": "p",
+      "source": "When the yellow highlight is used, import/export prefers the __TRILIUM_PH_0__ syntax whereas the canonical HTML reprepresentation is used otherwise.",
+      "sourceHash": "6450a0432c5d9268149745fb881f3152fe35b87f09b0a0aefefae497ef304bf2",
+      "context": "Supported syntax > Highlights",
+      "contextHash": "2300722d598345c0157a7e2b5ab2ec3e5d977f740ac5972edae0c0c13379c012",
+      "status": "pending",
+      "active": true
+    }
+  ],
+  "requests": []
+}

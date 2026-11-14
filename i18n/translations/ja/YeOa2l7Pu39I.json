@@ -1,0 +1,139 @@
+{
+  "schemaVersion": 1,
+  "pageId": "YeOa2l7Pu39I",
+  "sourceFile": "docs/User Guide/User Guide/Scripting/Breaking changes/v0.104.0 Disabling the Node integration in Electron.md",
+  "sourceRevision": "03d17b60f59b5efc29b880b11481471d0fe0ff57",
+  "units": [
+    {
+      "id": "u_13aee62627a27ebdd00fbd28_0",
+      "kind": "title",
+      "source": "v0.104.0: Disabling the Node integration in Electron",
+      "sourceHash": "13aee62627a27ebdd00fbd284278873bf7bfe38d529efc4e4d75c8cf9452c018",
+      "context": "v0.104.0: Disabling the Node integration in Electron",
+      "contextHash": "9d767d27c6e4d4c1454d487e3cef8657e8d6d1b527e149e3cbd1940afaae25df",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_d196fdf2188443067031b6e3_0",
+      "kind": "h2",
+      "source": "Introduction__TRILIUM_PH_0__",
+      "sourceHash": "d196fdf2188443067031b6e3569fff5d148144c7612c653284ba1e8acc44cde3",
+      "context": "v0.104.0: Disabling the Node integration in Electron > Introduction",
+      "contextHash": "236840870259c1a245bfba0c4c963529a837e5ebe529cd25cdc35e6bcd575cf0",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_8511b930426a658684356235_0",
+      "kind": "p",
+      "source": "Before v0.104.0, code executed at renderer level (e.g. front-end scripts) could directly require __TRILIUM_PH_0__ or even Node.js APIs (e.g. __TRILIUM_PH_1__ or __TRILIUM_PH_2__). While this makes them powerful, it also exposes a significant attack surface — any XSS or untrusted script in a note becomes remote code execution on the host.",
+      "sourceHash": "8511b930426a658684356235db3595dd89774c06865a6a337833f5397693af23",
+      "context": "v0.104.0: Disabling the Node integration in Electron > Introduction",
+      "contextHash": "236840870259c1a245bfba0c4c963529a837e5ebe529cd25cdc35e6bcd575cf0",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_cdc587b96aac02f4e989d02c_0",
+      "kind": "p",
+      "source": "To mitigate this, the client-side no longer has access to these APIs and everything must go through the __TRILIUM_PH_0__Electron API__TRILIUM_PH_1__ instead.",
+      "sourceHash": "cdc587b96aac02f4e989d02c9726f6acc440460f6535fbd0053e6510931b58e6",
+      "context": "v0.104.0: Disabling the Node integration in Electron > Introduction",
+      "contextHash": "236840870259c1a245bfba0c4c963529a837e5ebe529cd25cdc35e6bcd575cf0",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_3373474294f6994b9dcd5c84_0",
+      "kind": "p",
+      "source": "If this API change is causing issues with some of your front-end scripts, consider:",
+      "sourceHash": "3373474294f6994b9dcd5c84c09a54d59d2373254bb67738287423f94428fffb",
+      "context": "v0.104.0: Disabling the Node integration in Electron > Introduction",
+      "contextHash": "236840870259c1a245bfba0c4c963529a837e5ebe529cd25cdc35e6bcd575cf0",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_e60a73c687f00c29c430d487_0",
+      "kind": "li",
+      "source": "Interacting with __TRILIUM_PH_0__Backend scripts__TRILIUM_PH_1__ which have a greater degree of freedom.",
+      "sourceHash": "e60a73c687f00c29c430d487417a1b54e29fc6b6be4d7a9bf8ad3147accea2b7",
+      "context": "v0.104.0: Disabling the Node integration in Electron > Introduction",
+      "contextHash": "236840870259c1a245bfba0c4c963529a837e5ebe529cd25cdc35e6bcd575cf0",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_518cbbd93bb824a6d0b47cf0_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__Reporting__TRILIUM_PH_1__ it as a feature request.",
+      "sourceHash": "518cbbd93bb824a6d0b47cf0a7c6e96954d7c417874ca22c49ee57bce02ac581",
+      "context": "v0.104.0: Disabling the Node integration in Electron > Introduction",
+      "contextHash": "236840870259c1a245bfba0c4c963529a837e5ebe529cd25cdc35e6bcd575cf0",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_9b99367bcefd6d78b7658df2_0",
+      "kind": "h2",
+      "source": "Overview of the API__TRILIUM_PH_0__",
+      "sourceHash": "9b99367bcefd6d78b7658df2c6a3ceb8ae57a4992dc4e8105a1b6fa33a7d608a",
+      "context": "v0.104.0: Disabling the Node integration in Electron > Overview of the API",
+      "contextHash": "a4320c26803b7a6a6211e77924fa72a1825fbf8350eebff703dc77717c80e513",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_553c9b8ff0450d1dd28c6431_0",
+      "kind": "p",
+      "source": "The Frontend and Backend APIs reside in a global variable, __TRILIUM_PH_0__, that can be used anywhere in the script. For example, to display a message to the user the following front-end script can be used:",
+      "sourceHash": "553c9b8ff0450d1dd28c6431a12a28c4e3178f042bdf4cf2670af4c96391cce5",
+      "context": "v0.104.0: Disabling the Node integration in Electron > Overview of the API",
+      "contextHash": "a4320c26803b7a6a6211e77924fa72a1825fbf8350eebff703dc77717c80e513",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_bc934138d232df238b99020b_0",
+      "kind": "p",
+      "source": "The Electron API is different: it lives on __TRILIUM_PH_0__ (exposed by the desktop preload script), not on __TRILIUM_PH_1__, and is only available in the Electron desktop build. Frontend scripts that use it should guard with __TRILIUM_PH_2__ so they degrade cleanly in the browser and standalone (WASM) builds.",
+      "sourceHash": "bc934138d232df238b99020bcee06264e907eedca919091e72cfe55f58ae1456",
+      "context": "v0.104.0: Disabling the Node integration in Electron > Overview of the API",
+      "contextHash": "a4320c26803b7a6a6211e77924fa72a1825fbf8350eebff703dc77717c80e513",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_2b20fc6fca115f1c62a6f33c_0",
+      "kind": "h2",
+      "source": "Additional protection__TRILIUM_PH_0__",
+      "sourceHash": "2b20fc6fca115f1c62a6f33c122916d1df13fecfe696f6ebd0748f23a5a89d90",
+      "context": "v0.104.0: Disabling the Node integration in Electron > Additional protection",
+      "contextHash": "9990b46cbe67b047e1b006d7e0231f8f106c1c6c7d9226eb35051cac8d757474",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_b1752929eb3bc1113cf7de4e_0",
+      "kind": "p",
+      "source": "Some of the APIs have additional safe-guards built in which prevent unauthorized access.",
+      "sourceHash": "b1752929eb3bc1113cf7de4e7f08dd4b8fe0427b186888d4f40c2698b26cb14b",
+      "context": "v0.104.0: Disabling the Node integration in Electron > Additional protection",
+      "contextHash": "9990b46cbe67b047e1b006d7e0231f8f106c1c6c7d9226eb35051cac8d757474",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_788074f1f9937bf7d3faf47d_0",
+      "kind": "p",
+      "source": "The __TRILIUM_PH_0__ group is the most heavily validated: __TRILIUM_PH_1__ is restricted to an allowlisted set of URL schemes (blocking __TRILIUM_PH_2__, __TRILIUM_PH_3__, Follina-class schemes, etc.), __TRILIUM_PH_4__ must resolve under the Trilium data directory or temporary directory, and __TRILIUM_PH_5__ is locked to the app's own origin. Invalid input throws on the main side rather than being silently passed through.",
+      "sourceHash": "788074f1f9937bf7d3faf47d6992efb0365ca309c26431fc6883015862d5edc0",
+      "context": "v0.104.0: Disabling the Node integration in Electron > Additional protection",
+      "contextHash": "9990b46cbe67b047e1b006d7e0231f8f106c1c6c7d9226eb35051cac8d757474",
+      "status": "pending",
+      "active": true
+    }
+  ],
+  "requests": []
+}

@@ -1,0 +1,589 @@
+{
+  "schemaVersion": 1,
+  "pageId": "XJGJrpu7F9sh",
+  "sourceFile": "docs/User Guide/User Guide/Note Types/File/PDFs.md",
+  "sourceRevision": "03d17b60f59b5efc29b880b11481471d0fe0ff57",
+  "units": [
+    {
+      "id": "u_dee62cb09015df359e1531eb_0",
+      "kind": "title",
+      "source": "PDFs",
+      "sourceHash": "dee62cb09015df359e1531eb731e55ff55af66ccd0aa122855f74fbbb5cd2413",
+      "context": "PDFs",
+      "contextHash": "211eae3ffd874bcb069ff33396316ee67e7735667accb28384811db1254ff27d",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_c0854c0cd5514604a29fdfb2_0",
+      "kind": "p",
+      "source": "PDFs file can be uploaded in Trilium, where they will be displayed without the need to download them first.",
+      "sourceHash": "c0854c0cd5514604a29fdfb2b9496a1e1c88f01f685acce2b3555eba0407902a",
+      "context": "PDFs",
+      "contextHash": "211eae3ffd874bcb069ff33396316ee67e7735667accb28384811db1254ff27d",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_6b87869ab478e43324e42368_0",
+      "kind": "p",
+      "source": "Since v0.102.0, PDFs will be rendered using Trilium's built-in PDF viewer, which is a customization of __TRILIUM_PH_0__Mozilla's PDF.js viewer__TRILIUM_PH_1__ (also built-in in the Mozilla Firefox browser). Versions prior to that render PDFs using the browser's default PDF viewer.",
+      "sourceHash": "6b87869ab478e43324e4236893fd737bf9391a93a4b80b316cfb9f497d7ecaed",
+      "context": "PDFs",
+      "contextHash": "211eae3ffd874bcb069ff33396316ee67e7735667accb28384811db1254ff27d",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_173eb5dfe9205894c659d17f_0",
+      "kind": "h2",
+      "source": "Features__TRILIUM_PH_0__",
+      "sourceHash": "173eb5dfe9205894c659d17f720b8c5c74f26222a129e8eedc92f012fab78d12",
+      "context": "PDFs > Features",
+      "contextHash": "526efac78ed88003e705bc50faafcb8ddd121d8d4d2774bcd4ab12255847ea47",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_0c8a5eef2b641a7b0394ceea_0",
+      "kind": "li",
+      "source": "The last page viewed and scroll position is maintained in between restarts or note navigations.",
+      "sourceHash": "0c8a5eef2b641a7b0394ceeae6699ec8bce4f3cb229b94475fa25b390dd46f80",
+      "context": "PDFs > Features",
+      "contextHash": "526efac78ed88003e705bc50faafcb8ddd121d8d4d2774bcd4ab12255847ea47",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_ab48b9e84b5c089fa723a32d_0",
+      "kind": "li",
+      "source": "Annotations (text, highlights) as well as comments. These are saved automatically.",
+      "sourceHash": "ab48b9e84b5c089fa723a32dd9b537695bc54e395b00152650b2e8a73069b204",
+      "context": "PDFs > Features",
+      "contextHash": "526efac78ed88003e705bc50faafcb8ddd121d8d4d2774bcd4ab12255847ea47",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_d5f472e5e16924b9df8ff03b_0",
+      "kind": "li",
+      "source": "Forms can be filled.",
+      "sourceHash": "d5f472e5e16924b9df8ff03b53f2963ae8f3856ee2b7dea676c72251fe36e5e5",
+      "context": "PDFs > Features",
+      "contextHash": "526efac78ed88003e705bc50faafcb8ddd121d8d4d2774bcd4ab12255847ea47",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_1a8921f9843b2da4e4654992_0",
+      "kind": "li",
+      "source": "Can be printed or downloaded.",
+      "sourceHash": "1a8921f9843b2da4e4654992f4e46684377642594fb079cc770f512f9ef1cdbb",
+      "context": "PDFs > Features",
+      "contextHash": "526efac78ed88003e705bc50faafcb8ddd121d8d4d2774bcd4ab12255847ea47",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_1777657dcb0bcc32a8357ae3_0",
+      "kind": "li",
+      "source": "Can be saved as a __TRILIUM_PH_0__template__TRILIUM_PH_1__ and the content of the PDF will be copied over to the new note. This is especially useful in combination with annotations or filled forms.",
+      "sourceHash": "1777657dcb0bcc32a8357ae32a44386d02516fad646da408421559ddd3e2e8b8",
+      "context": "PDFs > Features",
+      "contextHash": "526efac78ed88003e705bc50faafcb8ddd121d8d4d2774bcd4ab12255847ea47",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_38c11e9854aa77a84e3e4891_0",
+      "kind": "li",
+      "source": "Integrates with the __TRILIUM_PH_0__Right Sidebar__TRILIUM_PH_1__ by displaying the list of pages with thumbnails, table of contents and a listing of the annotations.",
+      "sourceHash": "38c11e9854aa77a84e3e48919bacf1e0c604e752ce2a21e0df315a84fabd8b15",
+      "context": "PDFs > Features",
+      "contextHash": "526efac78ed88003e705bc50faafcb8ddd121d8d4d2774bcd4ab12255847ea47",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_30d0714af5dd6f1adfbd75b0_0",
+      "kind": "li",
+      "source": "Basic support for signatures (the hand-drawn ones, not proper digital signatures), similar to annotations. Signatures are stored and can be reused across multiple documents (up to 5).",
+      "sourceHash": "30d0714af5dd6f1adfbd75b0efd49786339d29e95b7f77ce5e7e479b1416d8cb",
+      "context": "PDFs > Features",
+      "contextHash": "526efac78ed88003e705bc50faafcb8ddd121d8d4d2774bcd4ab12255847ea47",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_b9766dff1d7909faede225b1_0",
+      "kind": "h2",
+      "source": "Storing last position and settings__TRILIUM_PH_0__",
+      "sourceHash": "b9766dff1d7909faede225b1320f5c5aa70c45eff674d7003911e21fa59ba767",
+      "context": "PDFs > Storing last position and settings",
+      "contextHash": "f59035c69c1dbfb80f1cb41f4769bede200b1ed7f3af76baaf3a2502a7a30a94",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_72c2388daaf8a08c914b07a8_0",
+      "kind": "p",
+      "source": "For every PDF, Trilium will remember the following information:",
+      "sourceHash": "72c2388daaf8a08c914b07a85d7765a74a21a3f7848be871dd504ce016405188",
+      "context": "PDFs > Storing last position and settings",
+      "contextHash": "f59035c69c1dbfb80f1cb41f4769bede200b1ed7f3af76baaf3a2502a7a30a94",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_52f4c8bfcca32819a202d263_0",
+      "kind": "li",
+      "source": "The current page.",
+      "sourceHash": "52f4c8bfcca32819a202d2630b6353302411ae3d75389fb6be8f712052f4f78b",
+      "context": "PDFs > Storing last position and settings",
+      "contextHash": "f59035c69c1dbfb80f1cb41f4769bede200b1ed7f3af76baaf3a2502a7a30a94",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_b0c6191285129f9438d5a218_0",
+      "kind": "li",
+      "source": "The scroll position, within the current page.",
+      "sourceHash": "b0c6191285129f9438d5a218908684c008ede5d2f9201ed8a861ba519c34af66",
+      "context": "PDFs > Storing last position and settings",
+      "contextHash": "f59035c69c1dbfb80f1cb41f4769bede200b1ed7f3af76baaf3a2502a7a30a94",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_69de1f94ddd08519710e7283_0",
+      "kind": "li",
+      "source": "The rotation of the page.",
+      "sourceHash": "69de1f94ddd08519710e7283d998a750e03993aa698421d270793cb2b94d79b8",
+      "context": "PDFs > Storing last position and settings",
+      "contextHash": "f59035c69c1dbfb80f1cb41f4769bede200b1ed7f3af76baaf3a2502a7a30a94",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_986b13fa00be0a2d50da032a_0",
+      "kind": "p",
+      "source": "This makes it useful when reading large documents since the position is remembered automatically. This happens in the background, however it's recorded only a few seconds after stopping any scroll actions.",
+      "sourceHash": "986b13fa00be0a2d50da032a20ced9996bebc1a746d87c5846732814f8f5a209",
+      "context": "PDFs > Storing last position and settings",
+      "contextHash": "f59035c69c1dbfb80f1cb41f4769bede200b1ed7f3af76baaf3a2502a7a30a94",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_59e500348bb50d506d380f6d_0",
+      "kind": "p",
+      "source": "Technically, the information about the scroll position and rotation is stored in the __TRILIUM_PH_0__Attachments__TRILIUM_PH_1__ section, in a dedicated attachment called __TRILIUM_PH_2__.",
+      "sourceHash": "59e500348bb50d506d380f6dfa35763d0641fd8033f120ce7906c24f6592ef4a",
+      "context": "PDFs > Storing last position and settings",
+      "contextHash": "f59035c69c1dbfb80f1cb41f4769bede200b1ed7f3af76baaf3a2502a7a30a94",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_faf551afa36b0f75a26021c3_0",
+      "kind": "h2",
+      "source": "Annotations__TRILIUM_PH_0__",
+      "sourceHash": "faf551afa36b0f75a26021c3bb23e557de989318cc9be88ea1bfbe265269fbcb",
+      "context": "PDFs > Annotations",
+      "contextHash": "33fa5b43238b9c6ce4681ca59515e87c2b629ec194e64f60befc61eac3bb2d02",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_d37b66c437ba196d23d53f8e_0",
+      "kind": "p",
+      "source": "Since v0.102.0 it's possible to annotate PDFs. To do so, look for the annotation buttons on the right side of the PDF toolbar (__TRILIUM_PH_0__).",
+      "sourceHash": "d37b66c437ba196d23d53f8e493d197d790274d723ce865324f4c95e14b5667f",
+      "context": "PDFs > Annotations",
+      "contextHash": "33fa5b43238b9c6ce4681ca59515e87c2b629ec194e64f60befc61eac3bb2d02",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_1a70b5b5f912b24488ae5898_0",
+      "kind": "p",
+      "source": "Since v0.103.0:",
+      "sourceHash": "1a70b5b5f912b24488ae5898afd053bd993f90fc0826fb94897f20cecb7b369d",
+      "context": "PDFs > Annotations",
+      "contextHash": "33fa5b43238b9c6ce4681ca59515e87c2b629ec194e64f60befc61eac3bb2d02",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_84340eb705c41c54f9ade123_0",
+      "kind": "li",
+      "source": "Annotations are disabled if the note is marked as __TRILIUM_PH_0__Read-Only Notes__TRILIUM_PH_1__.",
+      "sourceHash": "84340eb705c41c54f9ade123b10cd370354ad10fcca11428191c745710d3a1dc",
+      "context": "PDFs > Annotations",
+      "contextHash": "33fa5b43238b9c6ce4681ca59515e87c2b629ec194e64f60befc61eac3bb2d02",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_9ce016a76997468bdfcf778c_0",
+      "kind": "li",
+      "source": "Comments can also be added, which is similar to highlights but also attach a text.",
+      "sourceHash": "9ce016a76997468bdfcf778c7016c19719d973beb6bc0a242f16a38e68558b7d",
+      "context": "PDFs > Annotations",
+      "contextHash": "33fa5b43238b9c6ce4681ca59515e87c2b629ec194e64f60befc61eac3bb2d02",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_1fadd93b33896f76bc8cd98e_0",
+      "kind": "li",
+      "source": "The __TRILIUM_PH_0__Right Sidebar__TRILIUM_PH_1__ also displays a list of annotations (highlights, comments).",
+      "sourceHash": "1fadd93b33896f76bc8cd98ee23294a677f5270f3d29d5b89c6b1acb90fcfd40",
+      "context": "PDFs > Annotations",
+      "contextHash": "33fa5b43238b9c6ce4681ca59515e87c2b629ec194e64f60befc61eac3bb2d02",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_27112a0520f21cc4992822e1_0",
+      "kind": "h3",
+      "source": "Supported annotations__TRILIUM_PH_0__",
+      "sourceHash": "27112a0520f21cc4992822e1dbe51a5060fa3cea4c167c3b549e311bd7cbb553",
+      "context": "PDFs > Annotations > Supported annotations",
+      "contextHash": "90e7784ebd0f0a80eb1b555005a93bfdf908fa3f2fa61e8c8949d74dbdf8fee4",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_882a316f47daa10894dca033_0",
+      "kind": "p",
+      "source": "The following annotation methods are supported:",
+      "sourceHash": "882a316f47daa10894dca033b354ad2a4862e3543f2e3c6c97a5c3cc6ed16fcc",
+      "context": "PDFs > Annotations > Supported annotations",
+      "contextHash": "90e7784ebd0f0a80eb1b555005a93bfdf908fa3f2fa61e8c8949d74dbdf8fee4",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_d3c753fb121aa87d6f54002c_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__Highlight__TRILIUM_PH_1____TRILIUM_PH_2__Allows highlighting text with one of the predefined colors.",
+      "sourceHash": "d3c753fb121aa87d6f54002c23e834a685b7ab08603a5f2aa6fe6a2e53df2f3b",
+      "context": "PDFs > Annotations > Supported annotations",
+      "contextHash": "90e7784ebd0f0a80eb1b555005a93bfdf908fa3f2fa61e8c8949d74dbdf8fee4",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_a26d862a1154a5eb57ef5b72_0",
+      "kind": "li",
+      "source": "The thickness is also adjustable.",
+      "sourceHash": "a26d862a1154a5eb57ef5b72890c48afebd246011d4bfadfac0d76410a232c14",
+      "context": "PDFs > Annotations > Supported annotations",
+      "contextHash": "90e7784ebd0f0a80eb1b555005a93bfdf908fa3f2fa61e8c8949d74dbdf8fee4",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_76f98ebdba9de027ee1eebe8_0",
+      "kind": "li",
+      "source": "It's also possible to highlight the blank space, turning the feature more into a thicker pen.",
+      "sourceHash": "76f98ebdba9de027ee1eebe85b93b8f984ff22521858d7c858fc9d37cdce15f5",
+      "context": "PDFs > Annotations > Supported annotations",
+      "contextHash": "90e7784ebd0f0a80eb1b555005a93bfdf908fa3f2fa61e8c8949d74dbdf8fee4",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_09379988f4cf8bf74fc25847_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__Text__TRILIUM_PH_1____TRILIUM_PH_2__Allows adding arbitrary text, with a custom color and size.",
+      "sourceHash": "09379988f4cf8bf74fc25847a4befba12aff56061efa24967c3e718d252b2377",
+      "context": "PDFs > Annotations > Supported annotations",
+      "contextHash": "90e7784ebd0f0a80eb1b555005a93bfdf908fa3f2fa61e8c8949d74dbdf8fee4",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_adc052f0a5777297f1d004ca_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__Pen__TRILIUM_PH_1____TRILIUM_PH_2__Allows free drawing on the document, with variable color, thickness and opacity.",
+      "sourceHash": "adc052f0a5777297f1d004ca7432d41699e642ef504845bea8b6856497e92884",
+      "context": "PDFs > Annotations > Supported annotations",
+      "contextHash": "90e7784ebd0f0a80eb1b555005a93bfdf908fa3f2fa61e8c8949d74dbdf8fee4",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_b5f3077311ff67ada8d4bcf0_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__Image__TRILIUM_PH_1____TRILIUM_PH_2__Allows inserting images from outside Trilium directly into the document.",
+      "sourceHash": "b5f3077311ff67ada8d4bcf0f2d5519c36a44219e5c644ad4c828af58aca0f33",
+      "context": "PDFs > Annotations > Supported annotations",
+      "contextHash": "90e7784ebd0f0a80eb1b555005a93bfdf908fa3f2fa61e8c8949d74dbdf8fee4",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_1c4a5ee801d30d2a07cc2ec3_0",
+      "kind": "h3",
+      "source": "Editing existing annotations__TRILIUM_PH_0__",
+      "sourceHash": "1c4a5ee801d30d2a07cc2ec3add7b37ee05e696e9177bc874e29415b1e00cc7e",
+      "context": "PDFs > Annotations > Editing existing annotations",
+      "contextHash": "f1d797207755378402a657fbae23defa5fc87a8b0af485e20cd2e4f4bdad932d",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_6fab95911763fe5ae617d2d0_0",
+      "kind": "p",
+      "source": "Although annotations are stored in the PDF itself, they can be edited. To edit an annotation, press one of the annotation buttons from the previous section to enter edit mode and click on an existing annotation. This will reveal a toolbar with options to customize the annotation (e.g. to change a color), as well as the possibility to remove it.",
+      "sourceHash": "6fab95911763fe5ae617d2d0d22e9d359bdfeba8a23343a6065e7372c2f5b03c",
+      "context": "PDFs > Annotations > Editing existing annotations",
+      "contextHash": "f1d797207755378402a657fbae23defa5fc87a8b0af485e20cd2e4f4bdad932d",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_870bc7b68f0c669d96b967eb_0",
+      "kind": "h3",
+      "source": "How are annotations stored__TRILIUM_PH_0__",
+      "sourceHash": "870bc7b68f0c669d96b967eb204e5b592f629d2f37ca2addf4419d45d574fcfe",
+      "context": "PDFs > Annotations > How are annotations stored",
+      "contextHash": "e8c6062a4dc3c1d4b74dede643ef12ee9e3c55cbc2b65e1e14cb57a99b1d850b",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_4dc6a052b781d87e52d89e60_0",
+      "kind": "p",
+      "source": "Annotations are stored directly in the PDF. When modifications are made, Trilium will replace the PDF with the new one.",
+      "sourceHash": "4dc6a052b781d87e52d89e60ed21a539b479a47ca36d833b1181e328201f287b",
+      "context": "PDFs > Annotations > How are annotations stored",
+      "contextHash": "e8c6062a4dc3c1d4b74dede643ef12ee9e3c55cbc2b65e1e14cb57a99b1d850b",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_5d8ce31157f43acd5d849c4a_0",
+      "kind": "p",
+      "source": "Since modifications are automatically saved, there's no need to manually save the document after making modifications to the annotations.",
+      "sourceHash": "5d8ce31157f43acd5d849c4aaccb68e9b9a1b6b3875195a001c5d3121ecff5b7",
+      "context": "PDFs > Annotations > How are annotations stored",
+      "contextHash": "e8c6062a4dc3c1d4b74dede643ef12ee9e3c55cbc2b65e1e14cb57a99b1d850b",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_03e2071c1a035757e0af79c7_0",
+      "kind": "p",
+      "source": "The benefit of “baked-in annotations” is that they are also accessible if downloading (for external use outside Trilium) or sharing the note.",
+      "sourceHash": "03e2071c1a035757e0af79c7d51db54dedcf83ad65fdd6a9eb8a874f4d87c376",
+      "context": "PDFs > Annotations > How are annotations stored",
+      "contextHash": "e8c6062a4dc3c1d4b74dede643ef12ee9e3c55cbc2b65e1e14cb57a99b1d850b",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_6c152fa942617c9f44fde023_0",
+      "kind": "p",
+      "source": "The downside is that the entire PDF needs to be sent back to the server, which can slow down performance for larger documents. If you encounter any issues from this system, feel free to __TRILIUM_PH_0__report it__TRILIUM_PH_1__.",
+      "sourceHash": "6c152fa942617c9f44fde0238a31529735f516c5d7287e0942d532eba552e0cb",
+      "context": "PDFs > Annotations > How are annotations stored",
+      "contextHash": "e8c6062a4dc3c1d4b74dede643ef12ee9e3c55cbc2b65e1e14cb57a99b1d850b",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_aea6145fffb6d4f4941908d5_0",
+      "kind": "h2",
+      "source": "Linking to a page or an annotation__TRILIUM_PH_0__",
+      "sourceHash": "aea6145fffb6d4f4941908d5102bbf65e739f0b91f3a5188cb946e8255fd9530",
+      "context": "PDFs > Linking to a page or an annotation",
+      "contextHash": "308af638a08c2dc4f987ef291e0caf80485d595bed6ad2dea420c59c7fa8da25",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_f8501e16f6afe59185f76ce9_0",
+      "kind": "p",
+      "source": "A link can open a PDF at a given page, or at one of its annotations. To create one:",
+      "sourceHash": "f8501e16f6afe59185f76ce9886fadefb23177054153494c3520a42894a9b21f",
+      "context": "PDFs > Linking to a page or an annotation",
+      "contextHash": "308af638a08c2dc4f987ef291e0caf80485d595bed6ad2dea420c59c7fa8da25",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_90672abf623492d2f22b61cf_0",
+      "kind": "li",
+      "source": "To link to a page, right-click the page in the __TRILIUM_PH_0__Pages__TRILIUM_PH_1__ section of the __TRILIUM_PH_2__Right Sidebar__TRILIUM_PH_3__ and select __TRILIUM_PH_4__Copy reference__TRILIUM_PH_5__.",
+      "sourceHash": "90672abf623492d2f22b61cf4724c1c45f7750855a5faf9f6af126533358dc9f",
+      "context": "PDFs > Linking to a page or an annotation",
+      "contextHash": "308af638a08c2dc4f987ef291e0caf80485d595bed6ad2dea420c59c7fa8da25",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_f0ffce347f0fb802d6db622b_0",
+      "kind": "li",
+      "source": "To link to an annotation, right-click it in the __TRILIUM_PH_0__Annotations__TRILIUM_PH_1__ section of the sidebar and select __TRILIUM_PH_2__Copy reference__TRILIUM_PH_3__.",
+      "sourceHash": "f0ffce347f0fb802d6db622b6707a4f09900e72c9ac09df557a2eaa691169fc1",
+      "context": "PDFs > Linking to a page or an annotation",
+      "contextHash": "308af638a08c2dc4f987ef291e0caf80485d595bed6ad2dea420c59c7fa8da25",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_8de884058fd723744b24d18c_0",
+      "kind": "p",
+      "source": "Pasted into a text note, the reference becomes one of the __TRILIUM_PH_0__Internal (reference) links__TRILIUM_PH_1__, showing the title of the PDF followed by the page (__TRILIUM_PH_2__Page 5__TRILIUM_PH_3__), or by __TRILIUM_PH_4__Annotation on page 5__TRILIUM_PH_5__ for a reference to an annotation. Clicking it opens the PDF and scrolls to the page or to the annotation.",
+      "sourceHash": "8de884058fd723744b24d18c9331aac26b505e2c3261453c3f7d224a53acba56",
+      "context": "PDFs > Linking to a page or an annotation",
+      "contextHash": "308af638a08c2dc4f987ef291e0caf80485d595bed6ad2dea420c59c7fa8da25",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_86828eb56526593ebdd41e52_0",
+      "kind": "p",
+      "source": "A reference to an annotation also carries its page, so a link to an annotation that was deleted still opens the right page.",
+      "sourceHash": "86828eb56526593ebdd41e52868e92e1a94c4217506838f25e78361a94517dc6",
+      "context": "PDFs > Linking to a page or an annotation",
+      "contextHash": "308af638a08c2dc4f987ef291e0caf80485d595bed6ad2dea420c59c7fa8da25",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_492522eac4b38601f6d90e16_0",
+      "kind": "p",
+      "source": "An annotation drawn since the PDF was opened does not have a permanent identifier until the PDF is opened again, so a reference copied for it points at its page only.",
+      "sourceHash": "492522eac4b38601f6d90e16b985cc897aed8fcdc6d454d474e1a341d4354684",
+      "context": "PDFs > Linking to a page or an annotation",
+      "contextHash": "308af638a08c2dc4f987ef291e0caf80485d595bed6ad2dea420c59c7fa8da25",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_382324ad772f601211285827_0",
+      "kind": "h2",
+      "source": "Filling out forms__TRILIUM_PH_0__",
+      "sourceHash": "382324ad772f6012112858272452758af110d73c7ef566159fb313287eae1180",
+      "context": "PDFs > Filling out forms",
+      "contextHash": "c5a529b52c6cfa8fdfde945e38102ce727158163e0fce0f71f87ae690f976c05",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_4bb7209888f65ab01f618897_0",
+      "kind": "p",
+      "source": "Similar to annotations, forms are also supported by Trilium since v0.102.0. If the document has fields that can be filled-in, they will be indicated with a colored background.",
+      "sourceHash": "4bb7209888f65ab01f618897cfbd90fe0f2b49f30b173620ced8a0f7eb36dad6",
+      "context": "PDFs > Filling out forms",
+      "contextHash": "c5a529b52c6cfa8fdfde945e38102ce727158163e0fce0f71f87ae690f976c05",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_91d9a1dc42c2c3ada9fec093_0",
+      "kind": "p",
+      "source": "Simply type text in the forms and they will be automatically saved.",
+      "sourceHash": "91d9a1dc42c2c3ada9fec09356de04c0e2fbd26b3cccc0b96b7d1fb492a6d855",
+      "context": "PDFs > Filling out forms",
+      "contextHash": "c5a529b52c6cfa8fdfde945e38102ce727158163e0fce0f71f87ae690f976c05",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_15ede6a5a5518de9cb196007_0",
+      "kind": "h2",
+      "source": "Sidebar navigation__TRILIUM_PH_0__",
+      "sourceHash": "15ede6a5a5518de9cb1960077baf94a3176b206a1195b774765158d5a145699c",
+      "context": "PDFs > Sidebar navigation",
+      "contextHash": "34b2520df92052f40b75ad86107732a4e7cbc21691b5b959606e3d0faeb54e90",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_cb785624a75d7f2221b0f3a6_0",
+      "kind": "p",
+      "source": "See the dedicated section on PDFs in __TRILIUM_PH_0__Outline tab__TRILIUM_PH_1__.",
+      "sourceHash": "cb785624a75d7f2221b0f3a6d57562963ed692c23f3553b05a8fb5509b1f321c",
+      "context": "PDFs > Sidebar navigation",
+      "contextHash": "34b2520df92052f40b75ad86107732a4e7cbc21691b5b959606e3d0faeb54e90",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_3617171781efaa6138728323_0",
+      "kind": "h2",
+      "source": "Share functionality__TRILIUM_PH_0__",
+      "sourceHash": "3617171781efaa6138728323e7e5a62761d60440c8f054e8db34b645e7fe4cf3",
+      "context": "PDFs > Share functionality",
+      "contextHash": "5e2b9288a5177c717f7d840dd7ffa02cbcc54fd1da8511e7197c8c2f5ef88fe8",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_6d5503f3b31c9afaa47a0de5_0",
+      "kind": "p",
+      "source": "PDFs can also be shared using the __TRILIUM_PH_0__Sharing__TRILIUM_PH_1__ feature. This will also use Trilium's customized PDF viewer.",
+      "sourceHash": "6d5503f3b31c9afaa47a0de5e71bd5e2001a225b02e91aea0e1619537392a066",
+      "context": "PDFs > Share functionality",
+      "contextHash": "5e2b9288a5177c717f7d840dd7ffa02cbcc54fd1da8511e7197c8c2f5ef88fe8",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_5603e7c93e6821eb7762aed7_0",
+      "kind": "p",
+      "source": "If you are using a reverse proxy on your server with strict access limitations for the share functionality, make sure that __TRILIUM_PH_0__ directory is accessible. Note that this directory is outside the __TRILIUM_PH_1__ route as it's common with the rest of the application.",
+      "sourceHash": "5603e7c93e6821eb7762aed7ba5559b9d5e1583ee5acac33309691e92ce40086",
+      "context": "PDFs > Share functionality",
+      "contextHash": "5e2b9288a5177c717f7d840dd7ffa02cbcc54fd1da8511e7197c8c2f5ef88fe8",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_079b85a5377e14ce50b21fc8_0",
+      "kind": "h2",
+      "source": "OCR__TRILIUM_PH_0__",
+      "sourceHash": "079b85a5377e14ce50b21fc874ae35d2cc54ee3562ab5ea96235a740945cf13b",
+      "context": "PDFs > OCR",
+      "contextHash": "d91c2f929d5a65d1c096cd60daab6740456f445cb259e91b97d18f40d32047db",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_40a812bcf2a2cf94d9371791_0",
+      "kind": "p",
+      "source": "PDFs are eligible for __TRILIUM_PH_0__Text Extraction (OCR)__TRILIUM_PH_1__, which means that their text can be used in __TRILIUM_PH_2__Search__TRILIUM_PH_3__.",
+      "sourceHash": "40a812bcf2a2cf94d937179137a784beca3c692941583f9b1a1f39cbb8d05adf",
+      "context": "PDFs > OCR",
+      "contextHash": "d91c2f929d5a65d1c096cd60daab6740456f445cb259e91b97d18f40d32047db",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_b190d47815633246b0ab18a6_0",
+      "kind": "image-alt",
+      "source": "記事画像",
+      "sourceHash": "b190d47815633246b0ab18a61d9b8e8ea36504fe3f8bc230a7753096915c9ff2",
+      "context": "PDFs > OCR",
+      "contextHash": "d91c2f929d5a65d1c096cd60daab6740456f445cb259e91b97d18f40d32047db",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_b190d47815633246b0ab18a6_1",
+      "kind": "image-alt",
+      "source": "記事画像",
+      "sourceHash": "b190d47815633246b0ab18a61d9b8e8ea36504fe3f8bc230a7753096915c9ff2",
+      "context": "PDFs > OCR",
+      "contextHash": "d91c2f929d5a65d1c096cd60daab6740456f445cb259e91b97d18f40d32047db",
+      "status": "pending",
+      "active": true
+    }
+  ],
+  "requests": []
+}

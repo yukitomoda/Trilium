@@ -1,0 +1,429 @@
+{
+  "schemaVersion": 1,
+  "pageId": "s1aBHPd79XYj",
+  "sourceFile": "docs/User Guide/User Guide/Note Types/Mermaid Diagrams.md",
+  "sourceRevision": "03d17b60f59b5efc29b880b11481471d0fe0ff57",
+  "units": [
+    {
+      "id": "u_38eb72d397d165749e1599fa_0",
+      "kind": "title",
+      "source": "Mermaid Diagrams",
+      "sourceHash": "38eb72d397d165749e1599fa5fb4efc6e2a18dc79a86b1338187d80985f09282",
+      "context": "Mermaid Diagrams",
+      "contextHash": "00dd15943ff55631d634b652e9739588e498b21d7b50b30835f605fede4758d9",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_73655a08d495c927b2bd262c_0",
+      "kind": "p",
+      "source": "For a quick understanding of the Mermaid syntax, see __TRILIUM_PH_0__Syntax reference__TRILIUM_PH_1__ (official documentation).",
+      "sourceHash": "73655a08d495c927b2bd262c010be6beb0283af176f312cc7a833939c54760d0",
+      "context": "Mermaid Diagrams",
+      "contextHash": "00dd15943ff55631d634b652e9739588e498b21d7b50b30835f605fede4758d9",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_3f80576c60479c5a0ce75278_0",
+      "kind": "p",
+      "source": "Trilium supports Mermaid, which adds support for various diagrams such as flowchart, sequence diagram, class diagram, state diagram, pie charts, etc., all using a text description of the chart instead of manually drawing the diagram.",
+      "sourceHash": "3f80576c60479c5a0ce7527853612c6db027eaa6e0b1015eb5e61ab37f9a7fd4",
+      "context": "Mermaid Diagrams",
+      "contextHash": "00dd15943ff55631d634b652e9739588e498b21d7b50b30835f605fede4758d9",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_239870fcd1ebc7dc7281cfe7_0",
+      "kind": "p",
+      "source": "This note type is a split view, meaning that both the source code and a preview of the document are displayed side-by-side. See __TRILIUM_PH_0__Note types with split view__TRILIUM_PH_1__ for more information.",
+      "sourceHash": "239870fcd1ebc7dc7281cfe7aa589c6292a67a574223298e61dbcd7dd6be6b71",
+      "context": "Mermaid Diagrams",
+      "contextHash": "00dd15943ff55631d634b652e9739588e498b21d7b50b30835f605fede4758d9",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_9ee8c089a0398bc928600bdc_0",
+      "kind": "h2",
+      "source": "Sample diagrams__TRILIUM_PH_0__",
+      "sourceHash": "9ee8c089a0398bc928600bdc2c376bf66cbd325dbd9f794ab4938a13e976e634",
+      "context": "Mermaid Diagrams > Sample diagrams",
+      "contextHash": "745c3e79754cd23c0067bac8e9a9ba19f101d6978ac7a1beb1f0748e98f4fea1",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_61f3bc3122f09e7573afb3e5_0",
+      "kind": "p",
+      "source": "Starting with v0.103.0, Mermaid diagrams no longer start with a sample flowchart, but instead a pane at the bottom will show all the supported diagrams with sample code for each:",
+      "sourceHash": "61f3bc3122f09e7573afb3e5e5cea992d4af69266ef6e79e54ad440c3abe2014",
+      "context": "Mermaid Diagrams > Sample diagrams",
+      "contextHash": "745c3e79754cd23c0067bac8e9a9ba19f101d6978ac7a1beb1f0748e98f4fea1",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_2a63909348a90fcdc7d74d2b_0",
+      "kind": "li",
+      "source": "Simply click on any of the samples to apply it.",
+      "sourceHash": "2a63909348a90fcdc7d74d2b116b46cd33e8d35442d2df0213c347e22e7aba3d",
+      "context": "Mermaid Diagrams > Sample diagrams",
+      "contextHash": "745c3e79754cd23c0067bac8e9a9ba19f101d6978ac7a1beb1f0748e98f4fea1",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_a0ebcd6e3fa5ce8856732565_0",
+      "kind": "li",
+      "source": "The pane will disappear as soon as something is typed in the code editor or a sample is selected. To make it appear again, simply remove the content of the note.",
+      "sourceHash": "a0ebcd6e3fa5ce885673256595d712f68084bf12b30609a198cbc6bc87a26740",
+      "context": "Mermaid Diagrams > Sample diagrams",
+      "contextHash": "745c3e79754cd23c0067bac8e9a9ba19f101d6978ac7a1beb1f0748e98f4fea1",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_fe3701215fdedfa43193a6de_0",
+      "kind": "h2",
+      "source": "Layouts__TRILIUM_PH_0__",
+      "sourceHash": "fe3701215fdedfa43193a6deadbd28fdae99eb65ec6eac0243a2bb5bd4da80ad",
+      "context": "Mermaid Diagrams > Layouts",
+      "contextHash": "bea5696c84d689d7d05d0a3e51180fbb03d718570a33852236db59876f9c7b84",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_48c6681f71ba566ddeaa58c1_0",
+      "kind": "p",
+      "source": "Depending on the chart being edited and user preference, there are two layouts supported by the Mermaid note type:",
+      "sourceHash": "48c6681f71ba566ddeaa58c15fd964f1e61d5947ed9c3ae283038b5516f67857",
+      "context": "Mermaid Diagrams > Layouts",
+      "contextHash": "bea5696c84d689d7d05d0a3e51180fbb03d718570a33852236db59876f9c7b84",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_7e24856fd1893a9797262dbb_0",
+      "kind": "li",
+      "source": "Horizontal, where the source code (editable part) is on the left side of the screen and the preview is to the right.",
+      "sourceHash": "7e24856fd1893a9797262dbb36bea4cfe1fb011716868719884623f097d4b871",
+      "context": "Mermaid Diagrams > Layouts",
+      "contextHash": "bea5696c84d689d7d05d0a3e51180fbb03d718570a33852236db59876f9c7b84",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_83de1ac015aad4de26cf7ade_0",
+      "kind": "li",
+      "source": "Vertical, where the source code is at the bottom of the screen and the preview is at the top.",
+      "sourceHash": "83de1ac015aad4de26cf7ade0b1dbd8a5f82b0a927f7354a671ddc4ec737b356",
+      "context": "Mermaid Diagrams > Layouts",
+      "contextHash": "bea5696c84d689d7d05d0a3e51180fbb03d718570a33852236db59876f9c7b84",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_e3e5ff123bc0192dff3c5e10_0",
+      "kind": "p",
+      "source": "It's possible to switch between the two layouts at any time by pressing the __TRILIUM_PH_0__ icon in the __TRILIUM_PH_1__Note buttons__TRILIUM_PH_2__.",
+      "sourceHash": "e3e5ff123bc0192dff3c5e10a148e55d81ae0ae1d37c2e7bdd31ac9e46d9be61",
+      "context": "Mermaid Diagrams > Layouts",
+      "contextHash": "bea5696c84d689d7d05d0a3e51180fbb03d718570a33852236db59876f9c7b84",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_27591f4e86746d469eb2d832_0",
+      "kind": "h2",
+      "source": "Interaction__TRILIUM_PH_0__",
+      "sourceHash": "27591f4e86746d469eb2d8323f6dda382149928ec0550ca8a5a6fdfc24cab9a6",
+      "context": "Mermaid Diagrams > Interaction",
+      "contextHash": "8f5470f3657dbf191049a6cfc01e589dc19a724630a7bee8ae97d50d24196195",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_82ef7cda1376b3ee9cefddb0_0",
+      "kind": "li",
+      "source": "The source code of the diagram (in Mermaid format) is displayed on the left or bottom side of the note (depending on the layout).",
+      "sourceHash": "82ef7cda1376b3ee9cefddb0366068c9a0a28e7fd646df0bb8fa51dedc19db65",
+      "context": "Mermaid Diagrams > Interaction",
+      "contextHash": "8f5470f3657dbf191049a6cfc01e589dc19a724630a7bee8ae97d50d24196195",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_4b5521f69bd85e052d4e3339_0",
+      "kind": "li",
+      "source": "Changing the diagram code will refresh automatically the diagram.",
+      "sourceHash": "4b5521f69bd85e052d4e3339eb0fee3e01a7e54d9a9e443caa3986badca58a24",
+      "context": "Mermaid Diagrams > Interaction",
+      "contextHash": "8f5470f3657dbf191049a6cfc01e589dc19a724630a7bee8ae97d50d24196195",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_b891576e6e27911400d96c1c_0",
+      "kind": "li",
+      "source": "The front matter (the block between __TRILIUM_PH_0__ lines at the start of the diagram, which holds its title and configuration) is highlighted as YAML, and so are the node properties of flowcharts and Kanban boards (such as __TRILIUM_PH_1__). Configuration directives (__TRILIUM_PH_2__) are highlighted apart from comments, and so are the accessibility title and description (__TRILIUM_PH_3__ and __TRILIUM_PH_4__).",
+      "sourceHash": "b891576e6e27911400d96c1c4d7427565d81dcf324703515703aad5c61f9186a",
+      "context": "Mermaid Diagrams > Interaction",
+      "contextHash": "8f5470f3657dbf191049a6cfc01e589dc19a724630a7bee8ae97d50d24196195",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_1acfe1ebcc3192dee5a9bc61_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__Ctrl__TRILIUM_PH_1__+__TRILIUM_PH_2__/__TRILIUM_PH_3__ (Mac: __TRILIUM_PH_4__⌘__TRILIUM_PH_5__+__TRILIUM_PH_6__/__TRILIUM_PH_7__) comments out the current or selected lines with __TRILIUM_PH_8__, or with __TRILIUM_PH_9__ in the front matter. Pressing it again on commented lines removes the comment marker.",
+      "sourceHash": "1acfe1ebcc3192dee5a9bc61619019edbe3160499d09cd7371afe6fb43349f2d",
+      "context": "Mermaid Diagrams > Interaction",
+      "contextHash": "8f5470f3657dbf191049a6cfc01e589dc19a724630a7bee8ae97d50d24196195",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_59ec2e616e3268737a7c9005_0",
+      "kind": "li",
+      "source": "The preview of the diagram is displayed at the right or top side of the note (depending on the layout):",
+      "sourceHash": "59ec2e616e3268737a7c90056ef17c5669281e8bc8cae629952f719526392f8e",
+      "context": "Mermaid Diagrams > Interaction",
+      "contextHash": "8f5470f3657dbf191049a6cfc01e589dc19a724630a7bee8ae97d50d24196195",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_af130c6bf45d6fecafcc01b9_0",
+      "kind": "li",
+      "source": "There are dedicated buttons at the bottom-right of the preview to control the zoom in, zoom out or fit the diagram.",
+      "sourceHash": "af130c6bf45d6fecafcc01b9022d90b0e2abdafb060a5bdbcd2b8ed7c753c80d",
+      "context": "Mermaid Diagrams > Interaction",
+      "contextHash": "8f5470f3657dbf191049a6cfc01e589dc19a724630a7bee8ae97d50d24196195",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_18af00bfeaa79458a0d722f2_0",
+      "kind": "li",
+      "source": "The preview can be moved around by holding the left mouse button and dragging.",
+      "sourceHash": "18af00bfeaa79458a0d722f22ebbbb811e9fd1f757d7cd2b0cbdb8e356b0e89b",
+      "context": "Mermaid Diagrams > Interaction",
+      "contextHash": "8f5470f3657dbf191049a6cfc01e589dc19a724630a7bee8ae97d50d24196195",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_9149cf1cbdce1461f6570621_0",
+      "kind": "li",
+      "source": "Zooming can also be done by using the scroll wheel.",
+      "sourceHash": "9149cf1cbdce1461f657062185fb3554375a69c4ffeea98bd38648fac80cc589",
+      "context": "Mermaid Diagrams > Interaction",
+      "contextHash": "8f5470f3657dbf191049a6cfc01e589dc19a724630a7bee8ae97d50d24196195",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_90aac794af6f148b6debc3ec_0",
+      "kind": "li",
+      "source": "The zoom and position on the preview will remain fixed as the diagram changes, to be able to work more easily with large diagrams.",
+      "sourceHash": "90aac794af6f148b6debc3ec8902653e58acc8a57fc0a217d23f1e5cdc738233",
+      "context": "Mermaid Diagrams > Interaction",
+      "contextHash": "8f5470f3657dbf191049a6cfc01e589dc19a724630a7bee8ae97d50d24196195",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_c9612558d55f2a40766eeb1c_0",
+      "kind": "li",
+      "source": "Double-clicking the preview resets the zoom/position.",
+      "sourceHash": "c9612558d55f2a40766eeb1c58472cf65e0ad7c73a2c9b59ac83dc1a7365a12c",
+      "context": "Mermaid Diagrams > Interaction",
+      "contextHash": "8f5470f3657dbf191049a6cfc01e589dc19a724630a7bee8ae97d50d24196195",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_81e69efcd794a961be5527ad_0",
+      "kind": "li",
+      "source": "The preview can also be focused by clicking on it, case in which keyboard shortcuts can be used:",
+      "sourceHash": "81e69efcd794a961be5527ad3766101881eb93511e374dfc8758b4910a5fb9be",
+      "context": "Mermaid Diagrams > Interaction",
+      "contextHash": "8f5470f3657dbf191049a6cfc01e589dc19a724630a7bee8ae97d50d24196195",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_51591bb40bb93b6d8c4dd9f5_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__+__TRILIUM_PH_1__ or __TRILIUM_PH_2__E__TRILIUM_PH_3__ to zoom in, __TRILIUM_PH_4__-__TRILIUM_PH_5__ or __TRILIUM_PH_6__Q__TRILIUM_PH_7__ to zoom out.",
+      "sourceHash": "51591bb40bb93b6d8c4dd9f505a72234d487c1342adc41a0ba75cc152983a0ee",
+      "context": "Mermaid Diagrams > Interaction",
+      "contextHash": "8f5470f3657dbf191049a6cfc01e589dc19a724630a7bee8ae97d50d24196195",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_a1372d1a4d55be513a5e6922_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__/__TRILIUM_PH_1__ to reset the zoom/position.",
+      "sourceHash": "a1372d1a4d55be513a5e6922dca493a433930f0fac58602012f1301c1bec5498",
+      "context": "Mermaid Diagrams > Interaction",
+      "contextHash": "8f5470f3657dbf191049a6cfc01e589dc19a724630a7bee8ae97d50d24196195",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_79e04341e5d25d8cac21b761_0",
+      "kind": "li",
+      "source": "Arrow keys or __TRILIUM_PH_0__W__TRILIUM_PH_1__ __TRILIUM_PH_2__A__TRILIUM_PH_3__ __TRILIUM_PH_4__S__TRILIUM_PH_5__ __TRILIUM_PH_6__D__TRILIUM_PH_7__ to pan. Holding __TRILIUM_PH_8__Shift__TRILIUM_PH_9__ pans faster.",
+      "sourceHash": "79e04341e5d25d8cac21b76128bbe4443d39d81fd54e7cee845ad2a9e7c426de",
+      "context": "Mermaid Diagrams > Interaction",
+      "contextHash": "8f5470f3657dbf191049a6cfc01e589dc19a724630a7bee8ae97d50d24196195",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_6493c7dc18f927069d28e02c_0",
+      "kind": "li",
+      "source": "The size of the source/preview panes can be adjusted by hovering over the border between them and dragging it with the mouse.",
+      "sourceHash": "6493c7dc18f927069d28e02c036741a78659ba54af5b9fea599d5653250462a2",
+      "context": "Mermaid Diagrams > Interaction",
+      "contextHash": "8f5470f3657dbf191049a6cfc01e589dc19a724630a7bee8ae97d50d24196195",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_2fc7242c64d2c4440758491f_0",
+      "kind": "li",
+      "source": "In the __TRILIUM_PH_0__Note buttons__TRILIUM_PH_1__:",
+      "sourceHash": "2fc7242c64d2c4440758491f3c9685f75a5264c806f08cfdef6c8a87058f8b48",
+      "context": "Mermaid Diagrams > Interaction",
+      "contextHash": "8f5470f3657dbf191049a6cfc01e589dc19a724630a7bee8ae97d50d24196195",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_6ccee90031a4c4c631c0a0d3_0",
+      "kind": "li",
+      "source": "The source/preview can be laid out left-right (via __TRILIUM_PH_0__) or bottom-top (via __TRILIUM_PH_1__).",
+      "sourceHash": "6ccee90031a4c4c631c0a0d34d47a330b90fb2b875d69eff879b8447a26955b6",
+      "context": "Mermaid Diagrams > Interaction",
+      "contextHash": "8f5470f3657dbf191049a6cfc01e589dc19a724630a7bee8ae97d50d24196195",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_7184a43b142e336aeb623f38_0",
+      "kind": "li",
+      "source": "Press the __TRILIUM_PH_0__ (__TRILIUM_PH_1__Copy image reference to the clipboard__TRILIUM_PH_2__) to be able to insert the image representation of the diagram into a text note. See __TRILIUM_PH_3__Image references__TRILIUM_PH_4__ for more information.",
+      "sourceHash": "7184a43b142e336aeb623f38d13188af3edb36ab1a76539400ecebd2a5126a06",
+      "context": "Mermaid Diagrams > Interaction",
+      "contextHash": "8f5470f3657dbf191049a6cfc01e589dc19a724630a7bee8ae97d50d24196195",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_4aac3aecd277182dd189aeb3_0",
+      "kind": "li",
+      "source": "To export the diagram as either SVG or PNG, go to the __TRILIUM_PH_0__Note buttons__TRILIUM_PH_1__ and select __TRILIUM_PH_2__Export as image__TRILIUM_PH_3__:",
+      "sourceHash": "4aac3aecd277182dd189aeb3e3078f59d011dba2950a318044ad7bcc9370c7a0",
+      "context": "Mermaid Diagrams > Interaction",
+      "contextHash": "8f5470f3657dbf191049a6cfc01e589dc19a724630a7bee8ae97d50d24196195",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_f14563a5a00bf7d56f80c081_0",
+      "kind": "li",
+      "source": "Select __TRILIUM_PH_0__SVG (vector)__TRILIUM_PH_1__ to download a scalable/vector rendering of the diagram. Can be used to present the diagram without degrading when zooming.",
+      "sourceHash": "f14563a5a00bf7d56f80c081b930bb3178b70bfa2bf04773f59cdc1a491da358",
+      "context": "Mermaid Diagrams > Interaction",
+      "contextHash": "8f5470f3657dbf191049a6cfc01e589dc19a724630a7bee8ae97d50d24196195",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_1a135f356355d6275f8a9dcd_0",
+      "kind": "li",
+      "source": "Select __TRILIUM_PH_0__PNG (raster)__TRILIUM_PH_1__ to download a normal image (at 1x scale, raster) of the diagram. Can be used to send the diagram in more traditional channels such as e-mail.",
+      "sourceHash": "1a135f356355d6275f8a9dcdbc304099469a5691904a10298f2fd3fc356fc9aa",
+      "context": "Mermaid Diagrams > Interaction",
+      "contextHash": "8f5470f3657dbf191049a6cfc01e589dc19a724630a7bee8ae97d50d24196195",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_3fead671b1b62481a22998f9_0",
+      "kind": "li",
+      "source": "The note can be marked as __TRILIUM_PH_0__read-only__TRILIUM_PH_1__, case in which it switches by default to the preview (although it can be switched back using the source/preview buttons) and the source is no longer editable.",
+      "sourceHash": "3fead671b1b62481a22998f988a7ade42e45cdc255e6e75bb933fc2c1bf07fc0",
+      "context": "Mermaid Diagrams > Interaction",
+      "contextHash": "8f5470f3657dbf191049a6cfc01e589dc19a724630a7bee8ae97d50d24196195",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_52d3e8ef514b0b9c92a6e7fd_0",
+      "kind": "h2",
+      "source": "Errors in the diagram__TRILIUM_PH_0__",
+      "sourceHash": "52d3e8ef514b0b9c92a6e7fd063064054d4a67daf5edd9a918cbc1acd2beb397",
+      "context": "Mermaid Diagrams > Errors in the diagram",
+      "contextHash": "7e612af63a1aec422c3545f4f9d7a4795085776bcc98b8a35867f3274bb49d09",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_a9ace8912d95470991589d88_0",
+      "kind": "p",
+      "source": "If there is an error in the source code, the error will be displayed in an information pane.",
+      "sourceHash": "a9ace8912d95470991589d881a238b4fdd0ff04ad8ed4cdd862cf60bef9ff371",
+      "context": "Mermaid Diagrams > Errors in the diagram",
+      "contextHash": "7e612af63a1aec422c3545f4f9d7a4795085776bcc98b8a35867f3274bb49d09",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_d45d84be973448f573d566d2_0",
+      "kind": "p",
+      "source": "During the state of an error, the diagram will no longer be rendered and the previously working diagram will remain in the preview section.",
+      "sourceHash": "d45d84be973448f573d566d2507de33daff0a0ee9a98c82331be5f799f39e8e6",
+      "context": "Mermaid Diagrams > Errors in the diagram",
+      "contextHash": "7e612af63a1aec422c3545f4f9d7a4795085776bcc98b8a35867f3274bb49d09",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_987cdc5b553d02889d270f43_0",
+      "kind": "h2",
+      "source": "Diagrams in a text note__TRILIUM_PH_0__",
+      "sourceHash": "987cdc5b553d02889d270f43fa9de1b4cb5164dd75185f77505e32a2a8c8e029",
+      "context": "Mermaid Diagrams > Diagrams in a text note",
+      "contextHash": "d4be8b16d61fdb09fbd52a80f0b028807ff673504053d8b2c3e0a78e083643ec",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_b50e2f96795af1f34b202875_0",
+      "kind": "p",
+      "source": "To show a diagram inside a __TRILIUM_PH_0__Text__TRILIUM_PH_1__ note instead of in a note of its own, insert one with the __TRILIUM_PH_2__ __TRILIUM_PH_3__Mermaid diagram__TRILIUM_PH_4__ button of the __TRILIUM_PH_5__ __TRILIUM_PH_6__Insert__TRILIUM_PH_7__ menu. It has the same views, zoom and error display as a Mermaid note, and its source stays in the text note as a code block. See __TRILIUM_PH_8__Mermaid diagram__TRILIUM_PH_9__ in __TRILIUM_PH_10__Insert buttons__TRILIUM_PH_11__.",
+      "sourceHash": "b50e2f96795af1f34b20287531c1b36ddf8b6d695aef06afb0374255603aed73",
+      "context": "Mermaid Diagrams > Diagrams in a text note",
+      "contextHash": "d4be8b16d61fdb09fbd52a80f0b028807ff673504053d8b2c3e0a78e083643ec",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_b190d47815633246b0ab18a6_0",
+      "kind": "image-alt",
+      "source": "記事画像",
+      "sourceHash": "b190d47815633246b0ab18a61d9b8e8ea36504fe3f8bc230a7753096915c9ff2",
+      "context": "Mermaid Diagrams > Diagrams in a text note",
+      "contextHash": "d4be8b16d61fdb09fbd52a80f0b028807ff673504053d8b2c3e0a78e083643ec",
+      "status": "pending",
+      "active": true
+    }
+  ],
+  "requests": []
+}

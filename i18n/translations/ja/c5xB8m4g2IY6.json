@@ -1,0 +1,89 @@
+{
+  "schemaVersion": 1,
+  "pageId": "c5xB8m4g2IY6",
+  "sourceFile": "docs/User Guide/User Guide/Advanced Usage/Configuration (config.ini or environment variables)/Trilium instance.md",
+  "sourceRevision": "03d17b60f59b5efc29b880b11481471d0fe0ff57",
+  "units": [
+    {
+      "id": "u_934329c79d9a909c2853eae1_0",
+      "kind": "title",
+      "source": "Trilium instance",
+      "sourceHash": "934329c79d9a909c2853eae17df21de4155b8b004ef6975cc184e5c56ed4d7d5",
+      "context": "Trilium instance",
+      "contextHash": "f3e2c78db4acb4acde4599d9e0af565b23b5106fe54c17d177996ad210ec4ff3",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_9762d54133a7de9aecc50bcf_0",
+      "kind": "p",
+      "source": "A Trilium instance represents a server. If __TRILIUM_PH_0__Synchronization__TRILIUM_PH_1__ is set up, since multiple servers are involved (the one from the desktop client and the one the synchronisation is set up with), sometimes it can be useful to distinguish the instance you are running on.",
+      "sourceHash": "9762d54133a7de9aecc50bcffb4cd26311f921a356d5d18676aad043cd13ee81",
+      "context": "Trilium instance",
+      "contextHash": "f3e2c78db4acb4acde4599d9e0af565b23b5106fe54c17d177996ad210ec4ff3",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_e5990fd8ec502a89f0ae2363_0",
+      "kind": "h2",
+      "source": "Setting the instance name__TRILIUM_PH_0__",
+      "sourceHash": "e5990fd8ec502a89f0ae236325af3011756fb50a47f785251fd49c1bb7f24168",
+      "context": "Trilium instance > Setting the instance name",
+      "contextHash": "c62fb0cf8cc20abf51e5d89e24a31eb4a512827ce07d953ecf4c7bf62ef86d07",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_5d8f341f706d9817e71cde31_0",
+      "kind": "p",
+      "source": "To set up a name for the instance, modify the __TRILIUM_PH_0__:",
+      "sourceHash": "5d8f341f706d9817e71cde316957441a56f4f99f64340bfca781c7300080638c",
+      "context": "Trilium instance > Setting the instance name",
+      "contextHash": "c62fb0cf8cc20abf51e5d89e24a31eb4a512827ce07d953ecf4c7bf62ef86d07",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_c5227454e3b56a2604376b69_0",
+      "kind": "h2",
+      "source": "Distinguishing the instance on back-end__TRILIUM_PH_0__",
+      "sourceHash": "c5227454e3b56a2604376b69d9522501f838530ea93173c0f51ff7c284182895",
+      "context": "Trilium instance > Distinguishing the instance on back-end",
+      "contextHash": "53fb858796ea708bccc8793539f335a54db95c2457b1e58642a3c1edaeaf5ecd",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_3358b07950959611b9e3750c_0",
+      "kind": "p",
+      "source": "Use __TRILIUM_PH_0__ to obtain the instance name of the current server, as specified in the config file or in environment variables.",
+      "sourceHash": "3358b07950959611b9e3750c70aae49aedeb44c07337a6fd074a31a510e1b806",
+      "context": "Trilium instance > Distinguishing the instance on back-end",
+      "contextHash": "53fb858796ea708bccc8793539f335a54db95c2457b1e58642a3c1edaeaf5ecd",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_a5ba69f7bd827af02c1e5814_0",
+      "kind": "h2",
+      "source": "Limiting script runs based on instance__TRILIUM_PH_0__",
+      "sourceHash": "a5ba69f7bd827af02c1e5814ebe92d47fcc9e4e362f6d75cee660f4f361afab4",
+      "context": "Trilium instance > Limiting script runs based on instance",
+      "contextHash": "067309013fddd59ad967ab106ee0220985fa9d1c4a351db65a14bb13cf23d2d9",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_e6962e2981ef725f58086f98_0",
+      "kind": "p",
+      "source": "For a script that is run periodically or on a certain event, it's possible to limit it to certain instances without having to change the code. Just add __TRILIUM_PH_0__ and set as the value the instance name where the script should run. To run on multiple named instances, simply add the label multiple times.",
+      "sourceHash": "e6962e2981ef725f58086f98b8f2a3682a21d813062698a91a240feb1d3bceed",
+      "context": "Trilium instance > Limiting script runs based on instance",
+      "contextHash": "067309013fddd59ad967ab106ee0220985fa9d1c4a351db65a14bb13cf23d2d9",
+      "status": "pending",
+      "active": true
+    }
+  ],
+  "requests": []
+}

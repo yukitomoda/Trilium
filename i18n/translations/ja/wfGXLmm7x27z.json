@@ -1,0 +1,259 @@
+{
+  "schemaVersion": 1,
+  "pageId": "wfGXLmm7x27z",
+  "sourceFile": "docs/User Guide/User Guide/Note Types/Text/Links/Backlinks.md",
+  "sourceRevision": "03d17b60f59b5efc29b880b11481471d0fe0ff57",
+  "units": [
+    {
+      "id": "u_a1e86dff43af3cffe5237034_0",
+      "kind": "title",
+      "source": "Backlinks",
+      "sourceHash": "a1e86dff43af3cffe52370349b23f8835de76797030b230f47c72d2a88d65dcc",
+      "context": "Backlinks",
+      "contextHash": "b4278c6aa5a4b3a57c5537d2bf2d6a435f029a1a9f868aac85fa2c82ba240dd4",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_ae7537cff512841865ca42cf_0",
+      "kind": "p",
+      "source": "A link points from one note to another; a __TRILIUM_PH_0__backlink__TRILIUM_PH_1__ is that same connection seen from the other end: the list of notes that refer to the current one.",
+      "sourceHash": "ae7537cff512841865ca42cf9c5d628def5aa863f8cc3db9ba173c4c73e20aee",
+      "context": "Backlinks",
+      "contextHash": "b4278c6aa5a4b3a57c5537d2bf2d6a435f029a1a9f868aac85fa2c82ba240dd4",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_4883155b8b0a9d8b0529ef73_0",
+      "kind": "p",
+      "source": "Backlinks are maintained automatically and are read-only from this side. A backlink disappears when the note that created it removes the link; it cannot be deleted from the note being pointed at.",
+      "sourceHash": "4883155b8b0a9d8b0529ef731c22ace2bf80ed15e06cb94bb65260a2c6380e12",
+      "context": "Backlinks",
+      "contextHash": "b4278c6aa5a4b3a57c5537d2bf2d6a435f029a1a9f868aac85fa2c82ba240dd4",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_4e147f0236b2e7f91a50dc10_0",
+      "kind": "h2",
+      "source": "What counts as a backlink__TRILIUM_PH_0__",
+      "sourceHash": "4e147f0236b2e7f91a50dc10a2fc88f5c4db7adf9e4cfe0722974690937260e7",
+      "context": "Backlinks > What counts as a backlink",
+      "contextHash": "7f4c763d83516768e1d3a2e55de3f583bedcd5f93ad430d24ead92921bbf78d8",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_729432a178f3ba1155f982be_0",
+      "kind": "p",
+      "source": "Any __TRILIUM_PH_0__Internal (reference) links__TRILIUM_PH_1__ pointing at the current note, which covers two rather different cases:",
+      "sourceHash": "729432a178f3ba1155f982be2c9b60b41220806a7e314329c24708bbf2383e89",
+      "context": "Backlinks > What counts as a backlink",
+      "contextHash": "7f4c763d83516768e1d3a2e55de3f583bedcd5f93ad430d24ead92921bbf78d8",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_39d8d9c61129391402f84403_0",
+      "kind": "li",
+      "source": "Relations that Trilium maintains on your behalf.",
+      "sourceHash": "39d8d9c61129391402f84403651ede3a4a2a5147cb028fd5b9b0391bd03e1aeb",
+      "context": "Backlinks > What counts as a backlink",
+      "contextHash": "7f4c763d83516768e1d3a2e55de3f583bedcd5f93ad430d24ead92921bbf78d8",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_1707885643fe446904c0e962_0",
+      "kind": "li",
+      "source": "The most common is __TRILIUM_PH_0__, created whenever a note refers to another one through __TRILIUM_PH_1__Internal (reference) links__TRILIUM_PH_2__ in its text.",
+      "sourceHash": "1707885643fe446904c0e9624cb0926530f24e28cd64b3c07d4f7b43da0245d6",
+      "context": "Backlinks > What counts as a backlink",
+      "contextHash": "7f4c763d83516768e1d3a2e55de3f583bedcd5f93ad430d24ead92921bbf78d8",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_0536c099cc6958d71a7ea6c1_0",
+      "kind": "li",
+      "source": "Embedded images (__TRILIUM_PH_0__), relation map connections (__TRILIUM_PH_1__) and note inclusions (__TRILIUM_PH_2__) work the same way.",
+      "sourceHash": "0536c099cc6958d71a7ea6c1dd9cc72c846bdaecbef1d908ab350765e92cb9ec",
+      "context": "Backlinks > What counts as a backlink",
+      "contextHash": "7f4c763d83516768e1d3a2e55de3f583bedcd5f93ad430d24ead92921bbf78d8",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_7e0b00b25a8a751363e4a38c_0",
+      "kind": "li",
+      "source": "Relations you define yourself.",
+      "sourceHash": "7e0b00b25a8a751363e4a38c278a13d0cb188e81d5484b939b399a03943388da",
+      "context": "Backlinks > What counts as a backlink",
+      "contextHash": "7f4c763d83516768e1d3a2e55de3f583bedcd5f93ad430d24ead92921bbf78d8",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_1b1e5d05c5f6ca0c7a6d3f3a_0",
+      "kind": "li",
+      "source": "If another note has __TRILIUM_PH_0__ pointing at the current note, that note is listed here as well.",
+      "sourceHash": "1b1e5d05c5f6ca0c7a6d3f3af0ed482f805cc26c15054cda5dd804a69ea8c9dd",
+      "context": "Backlinks > What counts as a backlink",
+      "contextHash": "7f4c763d83516768e1d3a2e55de3f583bedcd5f93ad430d24ead92921bbf78d8",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_74780ee7982b8d0ce57905a8_0",
+      "kind": "p",
+      "source": "Relations coming from a __TRILIUM_PH_0__Saved Search__TRILIUM_PH_1__ are excluded, since a search stores an __TRILIUM_PH_2__ relation that would otherwise list every one of its results as a backlink.",
+      "sourceHash": "74780ee7982b8d0ce57905a839798d2288658bf8b48596bff683e30ae4becda5",
+      "context": "Backlinks > What counts as a backlink",
+      "contextHash": "7f4c763d83516768e1d3a2e55de3f583bedcd5f93ad430d24ead92921bbf78d8",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_5832cba9023cb501eea0eecb_0",
+      "kind": "p",
+      "source": "Only some note types have their content scanned for links: __TRILIUM_PH_0__Text__TRILIUM_PH_1__, __TRILIUM_PH_2__Markdown__TRILIUM_PH_3__, __TRILIUM_PH_4__Relation Map__TRILIUM_PH_5__ and __TRILIUM_PH_6__AI__TRILIUM_PH_7__ chats. A link written inside a __TRILIUM_PH_8__Code__TRILIUM_PH_9__ note is not registered and will not appear as a backlink on the target note. A relation set manually on a code note does still count.",
+      "sourceHash": "5832cba9023cb501eea0eecb3d0a9f944a14ddc4898a59bf42168d5260df8c11",
+      "context": "Backlinks > What counts as a backlink",
+      "contextHash": "7f4c763d83516768e1d3a2e55de3f583bedcd5f93ad430d24ead92921bbf78d8",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_3772b609d76882167525ac20_0",
+      "kind": "h2",
+      "source": "How entries are displayed__TRILIUM_PH_0__",
+      "sourceHash": "3772b609d76882167525ac2051cd56c236fc95f137b2d876a784c06b9e31707f",
+      "context": "Backlinks > How entries are displayed",
+      "contextHash": "8a5b460f09c46949ad4f631864dd0050e959e5d51945bebb0b5bb46ec0259bc8",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_326c9afbff3913584081a9d8_0",
+      "kind": "p",
+      "source": "Each entry names the note the reference comes from, followed by one of:",
+      "sourceHash": "326c9afbff3913584081a9d8db36195b2d7aa6ac58b0be92720d382d6532fd1f",
+      "context": "Backlinks > How entries are displayed",
+      "contextHash": "8a5b460f09c46949ad4f631864dd0050e959e5d51945bebb0b5bb46ec0259bc8",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_e7df2091b796a59290837226_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__An excerpt__TRILIUM_PH_1__ of the surrounding content, with the link itself highlighted. This is available for __TRILIUM_PH_2__Text__TRILIUM_PH_3__ notes and for __TRILIUM_PH_4__AI__TRILIUM_PH_5__ chat notes. Roughly 200 characters of context are quoted around the link, trimmed with an ellipsis where the surrounding text is longer, and images are left out.",
+      "sourceHash": "e7df2091b796a592908372269f4fe2917008f3dd435b43aa9260ef7c17f94b95",
+      "context": "Backlinks > How entries are displayed",
+      "contextHash": "8a5b460f09c46949ad4f631864dd0050e959e5d51945bebb0b5bb46ec0259bc8",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_eed26ef7c993d17b971fc675_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__The name of the relation__TRILIUM_PH_1__, for every other note type where the source cannot be quoted. This is the case for __TRILIUM_PH_2__Relation Map__TRILIUM_PH_3__ notes and for any note carrying a relation you defined yourself.",
+      "sourceHash": "eed26ef7c993d17b971fc67572801d9f63cf5eb35ff3e9dd4670987a74e40205",
+      "context": "Backlinks > How entries are displayed",
+      "contextHash": "8a5b460f09c46949ad4f631864dd0050e959e5d51945bebb0b5bb46ec0259bc8",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_a9df3255c380d3e6523a2727_0",
+      "kind": "p",
+      "source": "A note is listed once per reference it makes, so a note that links to the current one three times occupies three rows.",
+      "sourceHash": "a9df3255c380d3e6523a272741a9909d7e7ae6da88aa9341c5895472e5224023",
+      "context": "Backlinks > How entries are displayed",
+      "contextHash": "8a5b460f09c46949ad4f631864dd0050e959e5d51945bebb0b5bb46ec0259bc8",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_b1127c181422d49309503f36_0",
+      "kind": "p",
+      "source": "Of note:",
+      "sourceHash": "b1127c181422d49309503f36548a2c29f6b449d0cd3c4f00de23abc80b441818",
+      "context": "Backlinks > How entries are displayed",
+      "contextHash": "8a5b460f09c46949ad4f631864dd0050e959e5d51945bebb0b5bb46ec0259bc8",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_95c01ab9c6a74bb4269d7b67_0",
+      "kind": "li",
+      "source": "For AI chat notes, only the assistant's own prose is quoted. A chat that reached the note purely through tool calls has nothing to quote and is listed by relation name instead.",
+      "sourceHash": "95c01ab9c6a74bb4269d7b672281bf0afe016817d3b8fb18d20605ddf460fc8c",
+      "context": "Backlinks > How entries are displayed",
+      "contextHash": "8a5b460f09c46949ad4f631864dd0050e959e5d51945bebb0b5bb46ec0259bc8",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_540265e221783c478fe0f10b_0",
+      "kind": "li",
+      "source": "Excerpts are only generated for roughly the first 50 sources. On a heavily referenced note, the remaining entries fall back to showing the relation name.",
+      "sourceHash": "540265e221783c478fe0f10b2f58bae44329336b8e34d79f5c37302d66c1bc0e",
+      "context": "Backlinks > How entries are displayed",
+      "contextHash": "8a5b460f09c46949ad4f631864dd0050e959e5d51945bebb0b5bb46ec0259bc8",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_98402e9b84e8c63edff82728_0",
+      "kind": "h2",
+      "source": "Where backlinks are shown__TRILIUM_PH_0__",
+      "sourceHash": "98402e9b84e8c63edff82728bc4e93655679b9478311775c36e91bd681d4cf1c",
+      "context": "Backlinks > Where backlinks are shown",
+      "contextHash": "c1536af87ca41c626def21ac3924f7be7b5e6225c6c1011cc27a6f2381222d77",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_38e1954419dff8c314031759_0",
+      "kind": "li",
+      "source": "In the __TRILIUM_PH_0__Connections tab__TRILIUM_PH_1__ of the __TRILIUM_PH_2__Right Sidebar__TRILIUM_PH_3__, as a dedicated section.",
+      "sourceHash": "38e1954419dff8c314031759a5bba447a3d170d942386087f77cb6477e5e09e3",
+      "context": "Backlinks > Where backlinks are shown",
+      "contextHash": "c1536af87ca41c626def21ac3924f7be7b5e6225c6c1011cc27a6f2381222d77",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_740800d43d415e2fde123350_0",
+      "kind": "li",
+      "source": "As a badge in the __TRILIUM_PH_0__Status bar__TRILIUM_PH_1__ showing the number of backlinks. The badge only appears when the note is being read normally (not in a revision or attachment view) and when there is at least one backlink; pressing it opens the section above.",
+      "sourceHash": "740800d43d415e2fde123350c64c2e679523da79fe4bb6fbe9a65097d6687c4a",
+      "context": "Backlinks > Where backlinks are shown",
+      "contextHash": "c1536af87ca41c626def21ac3924f7be7b5e6225c6c1011cc27a6f2381222d77",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_95d3826307f9b24f671f7f07_0",
+      "kind": "li",
+      "source": "In __TRILIUM_PH_0__Quick edit__TRILIUM_PH_1__, as a button with a link icon in the header of the popup, under the same conditions; its tooltip gives the number of backlinks. Pressing a backlink opens that note in the popup.",
+      "sourceHash": "95d3826307f9b24f671f7f07c73eeb320f982ea348f78fa21f785365246261d5",
+      "context": "Backlinks > Where backlinks are shown",
+      "contextHash": "c1536af87ca41c626def21ac3924f7be7b5e6225c6c1011cc27a6f2381222d77",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_c479e1f339e8b7aaaa33ba51_0",
+      "kind": "li",
+      "source": "Incoming links are also drawn on the link map, see __TRILIUM_PH_0__Note Map (Link map, Tree map)__TRILIUM_PH_1__.",
+      "sourceHash": "c479e1f339e8b7aaaa33ba51ac1bd0e46744306c650631e488673b6d9f50ec1e",
+      "context": "Backlinks > Where backlinks are shown",
+      "contextHash": "c1536af87ca41c626def21ac3924f7be7b5e6225c6c1011cc27a6f2381222d77",
+      "status": "pending",
+      "active": true
+    }
+  ],
+  "requests": []
+}

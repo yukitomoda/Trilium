@@ -1,0 +1,182 @@
+{
+  "schemaVersion": 1,
+  "pageId": "klCWNks3ReaQ",
+  "sourceFile": "docs/User Guide/User Guide/Installation & Setup/Server Installation/1. Installing the server/Multiple server instances.md",
+  "sourceRevision": "03d17b60f59b5efc29b880b11481471d0fe0ff57",
+  "units": [
+    {
+      "id": "u_c1b0459bded4580930e36a7c_0",
+      "kind": "title",
+      "source": "Multiple server instances",
+      "sourceHash": "c1b0459bded4580930e36a7c06f2b8bfdf1601df314cf8dc94b63fb55e2992b6",
+      "context": "Multiple server instances",
+      "contextHash": "47a618f02062622db30d2cdf22281cb8b0ae4b21583dc4ba46635ac1f55db13b",
+      "status": "translated",
+      "active": true,
+      "translation": "複数のサーバーインスタンス",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_03bd4dda9f80f717c4dc07d4_0",
+      "kind": "p",
+      "source": "Trilium does not support multiple users. In order to have two or more persons with their own set of notes, multiple server instances must be set up. It is also not possible to use multiple __TRILIUM_PH_0__sync__TRILIUM_PH_1__ servers.",
+      "sourceHash": "03bd4dda9f80f717c4dc07d4840ff7e96baa4b8d93961d6e0e30cbf3b941e6d2",
+      "context": "Multiple server instances",
+      "contextHash": "47a618f02062622db30d2cdf22281cb8b0ae4b21583dc4ba46635ac1f55db13b",
+      "status": "translated",
+      "active": true,
+      "translation": "Triliumはマルチユーザーをサポートしていません。2人以上のユーザーがそれぞれ自分のノートセットを持つには、複数のサーバーインスタンスを設定する必要があります。また、複数の__TRILIUM_PH_0__sync__TRILIUM_PH_1__サーバーを使用することもできません。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_4ba5264091a2ebe76ecefc90_0",
+      "kind": "p",
+      "source": "To allow multiple server instances on a single physical server:",
+      "sourceHash": "4ba5264091a2ebe76ecefc9006c649d7e4dc87e20e51976381c4b19707b99d15",
+      "context": "Multiple server instances",
+      "contextHash": "47a618f02062622db30d2cdf22281cb8b0ae4b21583dc4ba46635ac1f55db13b",
+      "status": "translated",
+      "active": true,
+      "translation": "1台の物理サーバー上で複数のサーバーインスタンスを稼働させるには：",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_99f0a4957ff0cd3859bb8d75_0",
+      "kind": "p",
+      "source": "For __TRILIUM_PH_0__Packaged version for Linux__TRILIUM_PH_1__ or __TRILIUM_PH_2__Manually__TRILIUM_PH_3__, if starting the server manually just specify a different port and data directory per instance:",
+      "sourceHash": "99f0a4957ff0cd3859bb8d756d5bee579b8c609cccb7672ce22272ea76160b85",
+      "context": "Multiple server instances",
+      "contextHash": "47a618f02062622db30d2cdf22281cb8b0ae4b21583dc4ba46635ac1f55db13b",
+      "status": "translated",
+      "active": true,
+      "translation": "__TRILIUM_PH_0__Linux向けパッケージ版__TRILIUM_PH_1__または__TRILIUM_PH_2__手動インストール__TRILIUM_PH_3__の場合、サーバーを手動で起動する際にインスタンスごとに異なるポートとデータディレクトリを指定してください。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_9b72cd7a60dab08438b13761_0",
+      "kind": "p",
+      "source": "For a second instance:",
+      "sourceHash": "9b72cd7a60dab08438b13761c260703424ee73d42ecd43f44b5abb3de6891414",
+      "context": "Multiple server instances",
+      "contextHash": "47a618f02062622db30d2cdf22281cb8b0ae4b21583dc4ba46635ac1f55db13b",
+      "status": "translated",
+      "active": true,
+      "translation": "2つ目のインスタンスの場合：",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_26b69e3407dd2674011eb917_0",
+      "kind": "p",
+      "source": "If using __TRILIUM_PH_0__, then set the __TRILIUM_PH_1__environment variables in the service configuration__TRILIUM_PH_2__.",
+      "sourceHash": "26b69e3407dd2674011eb917a017693d6d0be64e2a0d008420ec307e5efa9b3f",
+      "context": "Multiple server instances",
+      "contextHash": "47a618f02062622db30d2cdf22281cb8b0ae4b21583dc4ba46635ac1f55db13b",
+      "status": "translated",
+      "active": true,
+      "translation": "__TRILIUM_PH_0__を使用する場合は、__TRILIUM_PH_1__サービス設定で環境変数を設定__TRILIUM_PH_2__してください。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_2732bfc0cd96e0df8cbec000_0",
+      "kind": "p",
+      "source": "For __TRILIUM_PH_0__Using Docker__TRILIUM_PH_1__, simply use two different containers, each with their own port binding and data directory.",
+      "sourceHash": "2732bfc0cd96e0df8cbec0006cd6fc180b315d5a1b770cd30495f35f756d0a4d",
+      "context": "Multiple server instances",
+      "contextHash": "47a618f02062622db30d2cdf22281cb8b0ae4b21583dc4ba46635ac1f55db13b",
+      "status": "translated",
+      "active": true,
+      "translation": "__TRILIUM_PH_0__Dockerを使用する場合__TRILIUM_PH_1__は、それぞれ独自のポートバインディングとデータディレクトリを持つ2つの異なるコンテナを使用するだけです。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_fb2cc9048feae56579a6a9dd_0",
+      "kind": "p",
+      "source": "For __TRILIUM_PH_0__On NixOS__TRILIUM_PH_1__, the only possible way is to use Docker OCI containers or at least one NixOS container with its own service definition.",
+      "sourceHash": "fb2cc9048feae56579a6a9ddca6110fa70c8a5170d156857cab445b10101ceab",
+      "context": "Multiple server instances",
+      "contextHash": "47a618f02062622db30d2cdf22281cb8b0ae4b21583dc4ba46635ac1f55db13b",
+      "status": "translated",
+      "active": true,
+      "translation": "__TRILIUM_PH_0__NixOSの場合__TRILIUM_PH_1__、唯一可能な方法はDocker OCIコンテナを使用するか、独自のサービス定義を持つ少なくとも1つのNixOSコンテナを使用することです。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_b2c3d31432d2e8f64785c3c0_0",
+      "kind": "p",
+      "source": "For support or additional context, see the related __TRILIUM_PH_0__GitHub Discussion__TRILIUM_PH_1__.",
+      "sourceHash": "b2c3d31432d2e8f64785c3c0e5708ed38d43d01682d368caa2680e8c3b5ca8e8",
+      "context": "Multiple server instances",
+      "contextHash": "47a618f02062622db30d2cdf22281cb8b0ae4b21583dc4ba46635ac1f55db13b",
+      "status": "translated",
+      "active": true,
+      "translation": "サポートや追加のコンテキストについては、関連する__TRILIUM_PH_0__GitHubディスカッション__TRILIUM_PH_1__をご覧ください。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    }
+  ],
+  "requests": [
+    {
+      "at": "2026-11-14T11:28:45.803Z",
+      "model": "gemini-3.5-flash-lite",
+      "batchJob": "batches/02spwqy837h8pi7qzqmeo4fgsqo7bgs45hwh",
+      "requestKey": "klCWNks3ReaQ_2cb226a2960a8e93",
+      "modelVersion": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 946,
+        "candidatesTokenCount": 622,
+        "totalTokenCount": 1568,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 946
+          }
+        ],
+        "serviceTier": "standard"
+      }
+    }
+  ]
+}

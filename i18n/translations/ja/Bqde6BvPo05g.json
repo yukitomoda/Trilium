@@ -1,0 +1,139 @@
+{
+  "schemaVersion": 1,
+  "pageId": "Bqde6BvPo05g",
+  "sourceFile": "docs/User Guide/User Guide/Scripting/Frontend Basics/Preact/Component libraries.md",
+  "sourceRevision": "03d17b60f59b5efc29b880b11481471d0fe0ff57",
+  "units": [
+    {
+      "id": "u_b69481d0ce63f61f2d06ed19_0",
+      "kind": "title",
+      "source": "Component libraries",
+      "sourceHash": "b69481d0ce63f61f2d06ed19cd3d21b7c4247d99ee3245409299fd85c8617782",
+      "context": "Component libraries",
+      "contextHash": "4a4f3e468c5b2cf54dcd5c86c690aa4782a23df13b6da2dc3e217fdbddd27cf4",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_0c5c88a835d9a310907c26aa_0",
+      "kind": "p",
+      "source": "Using the concept of __TRILIUM_PH_0__Script bundles__TRILIUM_PH_1__, it's possible to create components that are shared for multiple widgets or __TRILIUM_PH_2__Render Note__TRILIUM_PH_3__.",
+      "sourceHash": "0c5c88a835d9a310907c26aa1a8b75c20b0db0b091067323d8bf0a77f4660a44",
+      "context": "Component libraries",
+      "contextHash": "4a4f3e468c5b2cf54dcd5c86c690aa4782a23df13b6da2dc3e217fdbddd27cf4",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_dab117def6495be64fc2689f_0",
+      "kind": "h2",
+      "source": "Exporting a single component__TRILIUM_PH_0__",
+      "sourceHash": "dab117def6495be64fc2689fb7ba30a3fe66988827e112c0987c154b51b5700b",
+      "context": "Component libraries > Exporting a single component",
+      "contextHash": "6d29e76306260efc567d45ba0913e7c0b6f1e9ad93043f26e4257652e53c5cde",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_875b92c05ed641db8dbe7513_0",
+      "kind": "p",
+      "source": "This is generally useful for big components.",
+      "sourceHash": "875b92c05ed641db8dbe75136087cb19528b3dd11ce553cf5b19769dab057ef1",
+      "context": "Component libraries > Exporting a single component",
+      "contextHash": "6d29e76306260efc567d45ba0913e7c0b6f1e9ad93043f26e4257652e53c5cde",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_74aa812cdda6ab6d776be5c7_0",
+      "kind": "p",
+      "source": "Here's an example child hierarchy using __TRILIUM_PH_0__Render Note__TRILIUM_PH_1__: ",
+      "sourceHash": "74aa812cdda6ab6d776be5c79d933281f6e748217f6405143b819c553290631e",
+      "context": "Component libraries > Exporting a single component",
+      "contextHash": "6d29e76306260efc567d45ba0913e7c0b6f1e9ad93043f26e4257652e53c5cde",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_b2f701c2d72394ebec8e9c7a_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__My render note__TRILIUM_PH_1____TRILIUM_PH_2__Note type: Render Note__TRILIUM_PH_3__Link __TRILIUM_PH_4__ to the child note (__TRILIUM_PH_5__Render note with subcomponents__TRILIUM_PH_6__)",
+      "sourceHash": "b2f701c2d72394ebec8e9c7ad4b3601c17e7f627ca862aa8a57ae3612b08a886",
+      "context": "Component libraries > Exporting a single component",
+      "contextHash": "6d29e76306260efc567d45ba0913e7c0b6f1e9ad93043f26e4257652e53c5cde",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_c1908d85e6bbb04b9054c41d_0",
+      "kind": "p",
+      "source": "__TRILIUM_PH_0__Render note with subcomponents__TRILIUM_PH_1____TRILIUM_PH_2__Type: JSX",
+      "sourceHash": "c1908d85e6bbb04b9054c41d6118f9c7298172365d80fe06c665d87acded2531",
+      "context": "Component libraries > Exporting a single component",
+      "contextHash": "6d29e76306260efc567d45ba0913e7c0b6f1e9ad93043f26e4257652e53c5cde",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_70b3fcde26ffde3495c1c7af_0",
+      "kind": "p",
+      "source": "__TRILIUM_PH_0__MyComponent__TRILIUM_PH_1____TRILIUM_PH_2__Type: Code / JSX",
+      "sourceHash": "70b3fcde26ffde3495c1c7af713b3c78340909829d4c5b4f0c004dc388a992b7",
+      "context": "Component libraries > Exporting a single component",
+      "contextHash": "6d29e76306260efc567d45ba0913e7c0b6f1e9ad93043f26e4257652e53c5cde",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_f4a76a212a235fc4a423542e_0",
+      "kind": "h2",
+      "source": "Multiple components per note__TRILIUM_PH_0__",
+      "sourceHash": "f4a76a212a235fc4a423542e5329a577a00b385b9ecd8637627663c5cff9f8e6",
+      "context": "Component libraries > Multiple components per note",
+      "contextHash": "f1a7aa595a6a18d3065c09ab5969963b811454d9b75e38d1bb06dfc2d5adf4bc",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_a884cae23af8702baf192663_0",
+      "kind": "p",
+      "source": "To export multiple components, use the __TRILIUM_PH_0__ keyword next to each of the function components.",
+      "sourceHash": "a884cae23af8702baf19266381bccbf0704860e67b0c3a8d076b7838984be62d",
+      "context": "Component libraries > Multiple components per note",
+      "contextHash": "f1a7aa595a6a18d3065c09ab5969963b811454d9b75e38d1bb06dfc2d5adf4bc",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_c98d1eea95ed4d0e83c94645_0",
+      "kind": "p",
+      "source": "Here's how a sub-note called __TRILIUM_PH_0__ would look like:",
+      "sourceHash": "c98d1eea95ed4d0e83c9464560006bcf3dbda034ff1931f6248e8f396eff9db1",
+      "context": "Component libraries > Multiple components per note",
+      "contextHash": "f1a7aa595a6a18d3065c09ab5969963b811454d9b75e38d1bb06dfc2d5adf4bc",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_7f016d5ff35bffa0dedaa1a9_0",
+      "kind": "p",
+      "source": "Then in its parent note:",
+      "sourceHash": "7f016d5ff35bffa0dedaa1a944d9e59bd7c84455928c3510ac9b4c02c1c5ca5b",
+      "context": "Component libraries > Multiple components per note",
+      "contextHash": "f1a7aa595a6a18d3065c09ab5969963b811454d9b75e38d1bb06dfc2d5adf4bc",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_d505b1a7140293d75ced08f6_0",
+      "kind": "p",
+      "source": "Alternatively, it's also possible to use the components directly without assigning them to a __TRILIUM_PH_0__ first:",
+      "sourceHash": "d505b1a7140293d75ced08f6747337a394facedea2a8a14e35b8cd922e12a0f5",
+      "context": "Component libraries > Multiple components per note",
+      "contextHash": "f1a7aa595a6a18d3065c09ab5969963b811454d9b75e38d1bb06dfc2d5adf4bc",
+      "status": "pending",
+      "active": true
+    }
+  ],
+  "requests": []
+}

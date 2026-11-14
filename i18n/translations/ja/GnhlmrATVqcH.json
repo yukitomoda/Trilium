@@ -1,0 +1,709 @@
+{
+  "schemaVersion": 1,
+  "pageId": "GnhlmrATVqcH",
+  "sourceFile": "docs/User Guide/User Guide/Basic Concepts and Features/Import & Export/Importing data from other applications/Microsoft OneNote.md",
+  "sourceRevision": "03d17b60f59b5efc29b880b11481471d0fe0ff57",
+  "units": [
+    {
+      "id": "u_9ab1a8bd4df0da386a5fe176_0",
+      "kind": "title",
+      "source": "Microsoft OneNote",
+      "sourceHash": "9ab1a8bd4df0da386a5fe17649b97e847a0577d14661719b5dd8ef4ff026e0de",
+      "context": "Microsoft OneNote",
+      "contextHash": "f0f373d1c2a66b8d19cc02158eaae4934ede7a67f3b639bc7f49eae63e7c62d0",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_876445f85633f638f06cdaf2_0",
+      "kind": "p",
+      "source": "Trilium allows importing from OneNote. Currently the only mechanism supported is via the Microsoft Graph API which requires you to authenticate in a browser in order for the notes to be obtained by Trilium.",
+      "sourceHash": "876445f85633f638f06cdaf28548a7fe135c9edcf50080df7d50a7e8ff6158c6",
+      "context": "Microsoft OneNote",
+      "contextHash": "f0f373d1c2a66b8d19cc02158eaae4934ede7a67f3b639bc7f49eae63e7c62d0",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_091eb4af09a41aef221b8460_0",
+      "kind": "h2",
+      "source": "Import process__TRILIUM_PH_0__",
+      "sourceHash": "091eb4af09a41aef221b84600bc33be9eed8e7c13f3c31fa0e1adf7f9725b683",
+      "context": "Microsoft OneNote > Import process",
+      "contextHash": "22f8f9eb43e2260f56d2a48fdc36d7d46bcf43093a0581e81b4029c475475a5a",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_ef4bbe69eb52d183b3df83f2_0",
+      "kind": "li",
+      "source": "In the __TRILIUM_PH_0__Note Tree__TRILIUM_PH_1__, right click and select __TRILIUM_PH_2__Import into note__TRILIUM_PH_3__.",
+      "sourceHash": "ef4bbe69eb52d183b3df83f21ece5d4532aff127158e9daaf171bcfa82be7c1c",
+      "context": "Microsoft OneNote > Import process",
+      "contextHash": "22f8f9eb43e2260f56d2a48fdc36d7d46bcf43093a0581e81b4029c475475a5a",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_8abe476034abf8af8d97d03c_0",
+      "kind": "li",
+      "source": "In the __TRILIUM_PH_0__Import from__TRILIUM_PH_1__ section, select __TRILIUM_PH_2__ __TRILIUM_PH_3__OneNote__TRILIUM_PH_4__.",
+      "sourceHash": "8abe476034abf8af8d97d03c479f8c303ae2d0fc8f6f2000f852ed860fca4139",
+      "context": "Microsoft OneNote > Import process",
+      "contextHash": "22f8f9eb43e2260f56d2a48fdc36d7d46bcf43093a0581e81b4029c475475a5a",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_9adfb1f3c22f5d6804439462_0",
+      "kind": "li",
+      "source": "Press the __TRILIUM_PH_0__Connect__TRILIUM_PH_1__ button:",
+      "sourceHash": "9adfb1f3c22f5d68044394625ba0bd00d7d8905d13e054fcaa5a30362c48d66e",
+      "context": "Microsoft OneNote > Import process",
+      "contextHash": "22f8f9eb43e2260f56d2a48fdc36d7d46bcf43093a0581e81b4029c475475a5a",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_7db81fef8283556579cc3bdf_0",
+      "kind": "li",
+      "source": "On the desktop app, you will be redirected to Microsoft's authentication screen where you can log into your account.",
+      "sourceHash": "7db81fef8283556579cc3bdf772166d2b8cc6458d997b6ee8673538e7f74d717",
+      "context": "Microsoft OneNote > Import process",
+      "contextHash": "22f8f9eb43e2260f56d2a48fdc36d7d46bcf43093a0581e81b4029c475475a5a",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_8737d7e5e4445bab35e482b3_0",
+      "kind": "li",
+      "source": "On the web app, the process is slightly more involved as it requires copying the code to clipboard, accessing the link, pasting the code and then signing in once more.",
+      "sourceHash": "8737d7e5e4445bab35e482b33c6c13942a9922288f947fb8140459e2fafff91e",
+      "context": "Microsoft OneNote > Import process",
+      "contextHash": "22f8f9eb43e2260f56d2a48fdc36d7d46bcf43093a0581e81b4029c475475a5a",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_53f7ca98e91a5f806c988048_0",
+      "kind": "li",
+      "source": "After the connection is successful, you should be able to see a list of sections that can be imported. Simply check the ones to import and press the __TRILIUM_PH_0__Import selected__TRILIUM_PH_1__ button.",
+      "sourceHash": "53f7ca98e91a5f806c9880480423583b19063bd0d208dd840dfc93b07b5e789f",
+      "context": "Microsoft OneNote > Import process",
+      "contextHash": "22f8f9eb43e2260f56d2a48fdc36d7d46bcf43093a0581e81b4029c475475a5a",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_ec1687ae4c09ec61e365e77f_0",
+      "kind": "li",
+      "source": "Wait for the import to finish.",
+      "sourceHash": "ec1687ae4c09ec61e365e77f7a0beaf55eaeaf162ce9ac6ef113aff09d385674",
+      "context": "Microsoft OneNote > Import process",
+      "contextHash": "22f8f9eb43e2260f56d2a48fdc36d7d46bcf43093a0581e81b4029c475475a5a",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_40ff640d4fda01902f6eb589_0",
+      "kind": "h2",
+      "source": "Supported features__TRILIUM_PH_0__",
+      "sourceHash": "40ff640d4fda01902f6eb5894c960a3be0632f56de2d140fa2627699a93bdba5",
+      "context": "Microsoft OneNote > Supported features",
+      "contextHash": "261169a7880ed48a92560b4675bdf3db9ab62ecc27cfa46c103661938a84151b",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_4e4fc272e1d831098ab11c37_0",
+      "kind": "p",
+      "source": "The following features are preserved by Trilium during the import process:",
+      "sourceHash": "4e4fc272e1d831098ab11c37962bae9a80d1783ce2c30dc11d34966d9c46162e",
+      "context": "Microsoft OneNote > Supported features",
+      "contextHash": "261169a7880ed48a92560b4675bdf3db9ab62ecc27cfa46c103661938a84151b",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_b9df38a06596e53983b4d964_0",
+      "kind": "li",
+      "source": "Basic formatting (bold, italic, underline, strikethrough, subscript, super script, font sizes, headings, colors, highlights).",
+      "sourceHash": "b9df38a06596e53983b4d96413189dd65005322d612212b6f785757f1a7c538f",
+      "context": "Microsoft OneNote > Supported features",
+      "contextHash": "261169a7880ed48a92560b4675bdf3db9ab62ecc27cfa46c103661938a84151b",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_ee077f1abd30ae1b99162873_0",
+      "kind": "li",
+      "source": "Black-colored text is intentionally stripped to allow it to work in dark themes.",
+      "sourceHash": "ee077f1abd30ae1b99162873ff9a712d73c709650a2fa766ce505aae71014582",
+      "context": "Microsoft OneNote > Supported features",
+      "contextHash": "261169a7880ed48a92560b4675bdf3db9ab62ecc27cfa46c103661938a84151b",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_287b03fba024eda39a557d7c_0",
+      "kind": "li",
+      "source": "Inline code is automatically detected and formatted. Paragraphs that use the Code style are also converted to __TRILIUM_PH_0__Code blocks__TRILIUM_PH_1__.",
+      "sourceHash": "287b03fba024eda39a557d7ca44a952585d7d517e3889a5c174eb42b9a52130d",
+      "context": "Microsoft OneNote > Supported features",
+      "contextHash": "261169a7880ed48a92560b4675bdf3db9ab62ecc27cfa46c103661938a84151b",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_3963bf66f776f94e78c02d7e_0",
+      "kind": "li",
+      "source": "Unfortunately the indentation of the code might be lost because the information is simply not present in the data from the Microsoft API.",
+      "sourceHash": "3963bf66f776f94e78c02d7e7c66cef48c554588e7ef146d26300edca22e674b",
+      "context": "Microsoft OneNote > Supported features",
+      "contextHash": "261169a7880ed48a92560b4675bdf3db9ab62ecc27cfa46c103661938a84151b",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_d8279e9c202e8339dcc0a7dd_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__Lists__TRILIUM_PH_1__ with different bullet types.",
+      "sourceHash": "d8279e9c202e8339dcc0a7dd70977e3a077b70ee0dada44df33c08cd65f2ebf2",
+      "context": "Microsoft OneNote > Supported features",
+      "contextHash": "261169a7880ed48a92560b4675bdf3db9ab62ecc27cfa46c103661938a84151b",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_f3a9820dd21a8d0a505f3c55_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__Tables__TRILIUM_PH_1__",
+      "sourceHash": "f3a9820dd21a8d0a505f3c558857c11b73ba52ed5e5d3cab8545d2a2f2978a66",
+      "context": "Microsoft OneNote > Supported features",
+      "contextHash": "261169a7880ed48a92560b4675bdf3db9ab62ecc27cfa46c103661938a84151b",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_9ca561c5674d1ec305cd9bed_0",
+      "kind": "li",
+      "source": "Cell backgrounds are preserved, including a best-effort hue correction because the colors returned by the Graph API are sometimes incorrect.",
+      "sourceHash": "9ca561c5674d1ec305cd9bedd73fa6548008f9660e49acabbb2ffa5f51a5e1af",
+      "context": "Microsoft OneNote > Supported features",
+      "contextHash": "261169a7880ed48a92560b4675bdf3db9ab62ecc27cfa46c103661938a84151b",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_2382db114ad7151ff19b9b42_0",
+      "kind": "li",
+      "source": "Cell widths are also preserved proportionally, with the only difference that tables in Trilium have a percentage-based width, not fixed pixel sizes.",
+      "sourceHash": "2382db114ad7151ff19b9b42b4027abc0c99837188a59ed842b32b957ffc0682",
+      "context": "Microsoft OneNote > Supported features",
+      "contextHash": "261169a7880ed48a92560b4675bdf3db9ab62ecc27cfa46c103661938a84151b",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_d416250bc058a64e3cf04a7b_0",
+      "kind": "li",
+      "source": "Images and __TRILIUM_PH_0__Attachments__TRILIUM_PH_1__.",
+      "sourceHash": "d416250bc058a64e3cf04a7b432c00e6c968e57b92073de1c305fd61bf4e459a",
+      "context": "Microsoft OneNote > Supported features",
+      "contextHash": "261169a7880ed48a92560b4675bdf3db9ab62ecc27cfa46c103661938a84151b",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_74e88007968e0cf925181769_0",
+      "kind": "li",
+      "source": "Screen clippings are also properly supported since v0.104.1, displaying their timestamp as a figure caption.",
+      "sourceHash": "74e88007968e0cf92518176920931736d0dd1d1011f1fb0a3a22ca60068b4259",
+      "context": "Microsoft OneNote > Supported features",
+      "contextHash": "261169a7880ed48a92560b4675bdf3db9ab62ecc27cfa46c103661938a84151b",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_9054e47fa079d153496da7b9_0",
+      "kind": "li",
+      "source": "To-do lists",
+      "sourceHash": "9054e47fa079d153496da7b99a8b94859cdbe3bdb9a66b862fb8085c32e719af",
+      "context": "Microsoft OneNote > Supported features",
+      "contextHash": "261169a7880ed48a92560b4675bdf3db9ab62ecc27cfa46c103661938a84151b",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_0925dde97e770193c2d8869b_0",
+      "kind": "li",
+      "source": "Hand-drawing is preserved and displayed as an SVG image inside the note",
+      "sourceHash": "0925dde97e770193c2d8869bd352cc8874d51fb891b0aac6c23b9e885ccf3e8d",
+      "context": "Microsoft OneNote > Supported features",
+      "contextHash": "261169a7880ed48a92560b4675bdf3db9ab62ecc27cfa46c103661938a84151b",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_7acc0cefb5a42722fcc4109b_0",
+      "kind": "li",
+      "source": "OneNote's default color (black) is special since it also renders as white for dark themes. Since v0.104.1, this is also supported by using a special SVG tweak which reacts to light/dark themes.",
+      "sourceHash": "7acc0cefb5a42722fcc4109b8a78b9edd8fe57cf9a43b59bf75c8386c48fdaec",
+      "context": "Microsoft OneNote > Supported features",
+      "contextHash": "261169a7880ed48a92560b4675bdf3db9ab62ecc27cfa46c103661938a84151b",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_eb26933801b3900c56cbbe5b_0",
+      "kind": "li",
+      "source": "Links between other imported pages are converted to __TRILIUM_PH_0__Internal (reference) links__TRILIUM_PH_1__ if the text of the link matches the name of the page, or plain links otherwise. If the pages are not part of the import, the original __TRILIUM_PH_2__ link is kept.",
+      "sourceHash": "eb26933801b3900c56cbbe5ba8e3c8e1740ff1c630410c076d153c41f913155b",
+      "context": "Microsoft OneNote > Supported features",
+      "contextHash": "261169a7880ed48a92560b4675bdf3db9ab62ecc27cfa46c103661938a84151b",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_ad36e1db2bf18cd8ae5f7bfb_0",
+      "kind": "li",
+      "source": "Tags (apart from to-do lists) are preserved by converting them to __TRILIUM_PH_0__inline icons__TRILIUM_PH_1__, which are searchable by the icon's name and can be recolored like any other icon. Some icons are turned into emojis instead.",
+      "sourceHash": "ad36e1db2bf18cd8ae5f7bfbd82a58c21ba1a1ddb394bb38ad33a35b9ebddf6c",
+      "context": "Microsoft OneNote > Supported features",
+      "contextHash": "261169a7880ed48a92560b4675bdf3db9ab62ecc27cfa46c103661938a84151b",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_814b22ab40a8b8096fbebb28_0",
+      "kind": "p",
+      "source": "Regarding the note structure:",
+      "sourceHash": "814b22ab40a8b8096fbebb28108cc56248af7b97dafa7b62a00dcdc83daebd4c",
+      "context": "Microsoft OneNote > Supported features",
+      "contextHash": "261169a7880ed48a92560b4675bdf3db9ab62ecc27cfa46c103661938a84151b",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_d188411646ddec4512d09c68_0",
+      "kind": "li",
+      "source": "The order of the pages within a section is maintained.",
+      "sourceHash": "d188411646ddec4512d09c680f1edaa70bea19d0bf13009d95dfb15adc48ab3b",
+      "context": "Microsoft OneNote > Supported features",
+      "contextHash": "261169a7880ed48a92560b4675bdf3db9ab62ecc27cfa46c103661938a84151b",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_d727e0c76e83bd3118511240_0",
+      "kind": "li",
+      "source": "Sub-pages and section groups are maintained by nesting notes in a hierarchical structure.",
+      "sourceHash": "d727e0c76e83bd311851124092bd9231b4caed0eaebfc068c74c402e230da00f",
+      "context": "Microsoft OneNote > Supported features",
+      "contextHash": "261169a7880ed48a92560b4675bdf3db9ab62ecc27cfa46c103661938a84151b",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_b519c957336c55cd0ccb735f_0",
+      "kind": "li",
+      "source": "Creation and modification of both notes and sections is preserved. The order of section or section groups is not preserved (see limitations).",
+      "sourceHash": "b519c957336c55cd0ccb735f1db94564c3606ee64605e86035c37370fc152364",
+      "context": "Microsoft OneNote > Supported features",
+      "contextHash": "261169a7880ed48a92560b4675bdf3db9ab62ecc27cfa46c103661938a84151b",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_ce7fd5683bfb3144cf031344_0",
+      "kind": "h2",
+      "source": "Error management and reporting__TRILIUM_PH_0__",
+      "sourceHash": "ce7fd5683bfb3144cf031344eaaf67e7a145efdd33aa6bcdf2f1629a58b94be0",
+      "context": "Microsoft OneNote > Error management and reporting",
+      "contextHash": "ae9c96c68311a7b74014c6a30a4d6c8991067c5fa5c945bde80175d25b5bba3a",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_1809a1a6191f32089b6f7221_0",
+      "kind": "p",
+      "source": "The OneNote importer uses Microsoft's Graph API which handles the HTML export (that we later post-process for Trilium use). The Graph API itself has to process the OneNote pages before sending them to us, and as such it's a time-consuming operation that is directly proportional to the number of notes and the complexity/size of the notes.",
+      "sourceHash": "1809a1a6191f32089b6f72219eaca891441662870133fc593fd130790974be6c",
+      "context": "Microsoft OneNote > Error management and reporting",
+      "contextHash": "ae9c96c68311a7b74014c6a30a4d6c8991067c5fa5c945bde80175d25b5bba3a",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_ebdf39f29dc891743d70a126_0",
+      "kind": "p",
+      "source": "The Graph API throttles access if it detects too many operations. The importer takes that into account, but sometimes this means that most of the time is spent waiting for the Graph API to unblock access rather than actually importing data.",
+      "sourceHash": "ebdf39f29dc891743d70a1269298e7bb42dcfa8f265b2953aaeedb43028d148f",
+      "context": "Microsoft OneNote > Error management and reporting",
+      "contextHash": "ae9c96c68311a7b74014c6a30a4d6c8991067c5fa5c945bde80175d25b5bba3a",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_058f8f4a7c103b8d3ef2a506_0",
+      "kind": "p",
+      "source": "In addition, some pages may fail at the Graph API level due to an internal timeout on their side or other issues. Trilium will try to refetch pages in order to avoid that but sometimes pages cannot be retrieved even after multiple retries. In that case, the importer will still create a corresponding note in Trilium but with an error report instead of a content. This preserves __TRILIUM_PH_0__Internal (reference) links__TRILIUM_PH_1__ and makes it easy to identify and manually fix the pages that failed.",
+      "sourceHash": "058f8f4a7c103b8d3ef2a506105a14c2b9f66b3a807619b65fd7db4d1b94b943",
+      "context": "Microsoft OneNote > Error management and reporting",
+      "contextHash": "ae9c96c68311a7b74014c6a30a4d6c8991067c5fa5c945bde80175d25b5bba3a",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_48de254a88edf13206c6d7c8_0",
+      "kind": "p",
+      "source": "At the end of the import, the top-level note called __TRILIUM_PH_0__OneNote__TRILIUM_PH_1__ __TRILIUM_PH_2__import__TRILIUM_PH_3__ will contain information about how the import went:",
+      "sourceHash": "48de254a88edf13206c6d7c8a1ec2ee72456afc2c07d92699e5342d5a4ec18f8",
+      "context": "Microsoft OneNote > Error management and reporting",
+      "contextHash": "ae9c96c68311a7b74014c6a30a4d6c8991067c5fa5c945bde80175d25b5bba3a",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_f8e419509def53f84744a01a_0",
+      "kind": "li",
+      "source": "The number of notes imported;",
+      "sourceHash": "f8e419509def53f84744a01a3fd24369056c1f86ed51094069d56813cdacdc7d",
+      "context": "Microsoft OneNote > Error management and reporting",
+      "contextHash": "ae9c96c68311a7b74014c6a30a4d6c8991067c5fa5c945bde80175d25b5bba3a",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_4ef0cf07466e07599b926ebf_0",
+      "kind": "li",
+      "source": "The success rate;",
+      "sourceHash": "4ef0cf07466e07599b926ebfd5a78c702cfd0f4ea7c467c51447425697b8cae0",
+      "context": "Microsoft OneNote > Error management and reporting",
+      "contextHash": "ae9c96c68311a7b74014c6a30a4d6c8991067c5fa5c945bde80175d25b5bba3a",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_9f67160a7a0278fce226eb6d_0",
+      "kind": "li",
+      "source": "A list of notes that could not be imported, as well as the failure reason;",
+      "sourceHash": "9f67160a7a0278fce226eb6d08419df7566f188a6f7905a34726fd27b2ce9008",
+      "context": "Microsoft OneNote > Error management and reporting",
+      "contextHash": "ae9c96c68311a7b74014c6a30a4d6c8991067c5fa5c945bde80175d25b5bba3a",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_f1cbe4ed89820aebd16e47ff_0",
+      "kind": "li",
+      "source": "Pages whose images/attachments failed to download",
+      "sourceHash": "f1cbe4ed89820aebd16e47ffc78653ea380283688a2af37fbd99867ae2dbe96a",
+      "context": "Microsoft OneNote > Error management and reporting",
+      "contextHash": "ae9c96c68311a7b74014c6a30a4d6c8991067c5fa5c945bde80175d25b5bba3a",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_2ca9dbc9eb7804e9ab3dd179_0",
+      "kind": "li",
+      "source": "How long the import spent waiting out throttling.",
+      "sourceHash": "2ca9dbc9eb7804e9ab3dd179a7e112eaaaf45a7221489e531bf37996d84da17f",
+      "context": "Microsoft OneNote > Error management and reporting",
+      "contextHash": "ae9c96c68311a7b74014c6a30a4d6c8991067c5fa5c945bde80175d25b5bba3a",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_fb61bcd4827defd17c5905f4_0",
+      "kind": "p",
+      "source": "To avoid cases in which the import is fundamentally broken (e.g. an expired sign-in), the import will error out if it fails to import 6 pages in a row.",
+      "sourceHash": "fb61bcd4827defd17c5905f43904861c059018c757ddde9784d5f8820d23ae6d",
+      "context": "Microsoft OneNote > Error management and reporting",
+      "contextHash": "ae9c96c68311a7b74014c6a30a4d6c8991067c5fa5c945bde80175d25b5bba3a",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_e881932b4da48847c9329dd9_0",
+      "kind": "h2",
+      "source": "Attributes__TRILIUM_PH_0__",
+      "sourceHash": "e881932b4da48847c9329dd9c1d39beb71faeb415abbf4b4a34b167a9078cef7",
+      "context": "Microsoft OneNote > Attributes",
+      "contextHash": "78927495704395812c12dd084f9dcfac56e8fbcd9e3647b353773f09232d1a5a",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_ff103f8bf4f2354458d1f90b_0",
+      "kind": "p",
+      "source": "Pages imported from OneNote have a few built-in __TRILIUM_PH_0__labels__TRILIUM_PH_1__:",
+      "sourceHash": "ff103f8bf4f2354458d1f90b9c5aee4b498619dd0458606a65f85777979bab61",
+      "context": "Microsoft OneNote > Attributes",
+      "contextHash": "78927495704395812c12dd084f9dcfac56e8fbcd9e3647b353773f09232d1a5a",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_d9af53aa69781cb0a4854313_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__, with the corresponding page ID in OneNote. This can be used to identify the original OneNote page. Trilium doesn't use it in any way at this moment.",
+      "sourceHash": "d9af53aa69781cb0a4854313ca7b1ca158ebf1a51085bf06f30eaf39d085a2e7",
+      "context": "Microsoft OneNote > Attributes",
+      "contextHash": "78927495704395812c12dd084f9dcfac56e8fbcd9e3647b353773f09232d1a5a",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_cd71f03cd148fd211f47007f_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__ attached to notes that couldn't be imported. This can be used to quickly __TRILIUM_PH_1__Search__TRILIUM_PH_2__ for failed notes.",
+      "sourceHash": "cd71f03cd148fd211f47007f83b50f23c39ad1057fb18eda24c689be3123aeb2",
+      "context": "Microsoft OneNote > Attributes",
+      "contextHash": "78927495704395812c12dd084f9dcfac56e8fbcd9e3647b353773f09232d1a5a",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_2d166eed4e46d147ae179d3f_0",
+      "kind": "h2",
+      "source": "Limitations__TRILIUM_PH_0__",
+      "sourceHash": "2d166eed4e46d147ae179d3feba2dbd0d28887b22a99884dc255c7ff2e43988d",
+      "context": "Microsoft OneNote > Limitations",
+      "contextHash": "7d93604ac65d892757fa16639d21ff07a03121d4219781c81fa88101a0e10539",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_af6ba2891366b6b5d4553f36_0",
+      "kind": "h3",
+      "source": "Regarding OneNote's freehand structure__TRILIUM_PH_0__",
+      "sourceHash": "af6ba2891366b6b5d4553f36b10b2ba0c861126b55d9dcb3ec51bfff1e5d2a38",
+      "context": "Microsoft OneNote > Limitations > Regarding OneNote's freehand structure",
+      "contextHash": "27199b94e02ee2b738c4142b7ac6d5e047ac46df5d5a446f428499b1b2417e11",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_769997dd89a3b86402d44636_0",
+      "kind": "p",
+      "source": "OneNote is fundamentally different to Trilium in structure because it allows freehand drawing to coexist with text, and text boxes can be placed anywhere in the document (e.g. a common use case is to have columns). Trilium has a document flow mechanism for __TRILIUM_PH_0__Text__TRILIUM_PH_1__ notes which means that it can't be freely positioned.",
+      "sourceHash": "769997dd89a3b86402d446365d0e742f4747a5d08c5beff39977d9f684ecf90c",
+      "context": "Microsoft OneNote > Limitations > Regarding OneNote's freehand structure",
+      "contextHash": "27199b94e02ee2b738c4142b7ac6d5e047ac46df5d5a446f428499b1b2417e11",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_c081000b95f5b8d50618e292_0",
+      "kind": "p",
+      "source": "To cope with this difference, Trilium will flatten the text structure into normal paragraphs. The paragraphs will be ordered visually based on the original position of the text boxes, but their horizontal position will not be preserved. Parallel text such as columns may appear interleaved which can cause problems.",
+      "sourceHash": "c081000b95f5b8d50618e2921148cc3034e2c93ec084f02a9e0656be14f42579",
+      "context": "Microsoft OneNote > Limitations > Regarding OneNote's freehand structure",
+      "contextHash": "27199b94e02ee2b738c4142b7ac6d5e047ac46df5d5a446f428499b1b2417e11",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_7c8b9c45e60a8f4cf437c844_0",
+      "kind": "p",
+      "source": "In addition, drawing in OneNote can be interleaved with text boxes. Text notes in Trilium do not allow for this feature, so all drawing will appear at the end. For some use cases (diagrams, for example) this will work fine, but if you have highlights or other text-dependent drawings they will appear out of order.",
+      "sourceHash": "7c8b9c45e60a8f4cf437c844561641531bf3bcac4f7bc48b8122648bd3865819",
+      "context": "Microsoft OneNote > Limitations > Regarding OneNote's freehand structure",
+      "contextHash": "27199b94e02ee2b738c4142b7ac6d5e047ac46df5d5a446f428499b1b2417e11",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_c97a9a8b0adcf443aaeeaf05_0",
+      "kind": "p",
+      "source": "There are plans to support drawing-heavy notes that interleave with text boxes by converting them to a __TRILIUM_PH_0__Canvas__TRILIUM_PH_1__ instead.",
+      "sourceHash": "c97a9a8b0adcf443aaeeaf059873e7ebf294bf1bd00df3d91f6a3328c850ce84",
+      "context": "Microsoft OneNote > Limitations > Regarding OneNote's freehand structure",
+      "contextHash": "27199b94e02ee2b738c4142b7ac6d5e047ac46df5d5a446f428499b1b2417e11",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_7f869534427175136ef396f0_0",
+      "kind": "h3",
+      "source": "Password-protected sections__TRILIUM_PH_0__",
+      "sourceHash": "7f869534427175136ef396f039fa971757ae65b06370b5c466c32a419a4951e0",
+      "context": "Microsoft OneNote > Limitations > Password-protected sections",
+      "contextHash": "0aeba44f2fa33393868a5e7601fd9c71f1c5e2e8c56486ac8fbab84bb164a801",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_b6f902102b6e6edcce9de5c7_0",
+      "kind": "p",
+      "source": "OneNote supports encryption at section level; when importing a notebook that contains these password-protection sections, Trilium will not be able to read the content of password-protected sections so they will appear empty. This is not a limitation of Trilium, the information is simply not available from the source (Graph API).",
+      "sourceHash": "b6f902102b6e6edcce9de5c7e9e49aa1a0018287160bfc8fe8e52fcab1f42db8",
+      "context": "Microsoft OneNote > Limitations > Password-protected sections",
+      "contextHash": "0aeba44f2fa33393868a5e7601fd9c71f1c5e2e8c56486ac8fbab84bb164a801",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_0a359a1b6b0e388e3781173c_0",
+      "kind": "p",
+      "source": "The section itself is kept for reference and all the sections that could not be imported will be shown in the report (the top-level note called __TRILIUM_PH_0__OneNote import__TRILIUM_PH_1__).",
+      "sourceHash": "0a359a1b6b0e388e3781173c115df566e71046b8b9a2a1ee5a21645cccb04f33",
+      "context": "Microsoft OneNote > Limitations > Password-protected sections",
+      "contextHash": "0aeba44f2fa33393868a5e7601fd9c71f1c5e2e8c56486ac8fbab84bb164a801",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_93c4d818c5e60dd733aaa058_0",
+      "kind": "p",
+      "source": "To unprotect a section in OneNote Desktop, right click on the protected section → __TRILIUM_PH_0__Password Protect This Section__TRILIUM_PH_1__ and press __TRILIUM_PH_2__Remove Password__TRILIUM_PH_3__ and sync. Then re-import either only the protected sections or remove everything and start the import from scratch.",
+      "sourceHash": "93c4d818c5e60dd733aaa0580e1c5e66dfe64316cd8dd0145b67e3448a78dd8a",
+      "context": "Microsoft OneNote > Limitations > Password-protected sections",
+      "contextHash": "0aeba44f2fa33393868a5e7601fd9c71f1c5e2e8c56486ac8fbab84bb164a801",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_ed121bb39d77569b1ec76f75_0",
+      "kind": "h2",
+      "source": "Other limitations__TRILIUM_PH_0__",
+      "sourceHash": "ed121bb39d77569b1ec76f75d2d77b8e35f77f65f179fe8ad49e7369c2f8b1f7",
+      "context": "Microsoft OneNote > Other limitations",
+      "contextHash": "8feee90a83f9368674acb073f6d3cea3821355e4cd054e4ee3564318d90bbbe1",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_a35a0a2b7a0c4653ff6f1a9c_0",
+      "kind": "p",
+      "source": "The following are known limitations due to how the information comes from the import (Microsoft Graph API), which means that they cannot be fixed.",
+      "sourceHash": "a35a0a2b7a0c4653ff6f1a9c979915a126275ea3fd0a6765b75099e5b60ca6bd",
+      "context": "Microsoft OneNote > Other limitations",
+      "contextHash": "8feee90a83f9368674acb073f6d3cea3821355e4cd054e4ee3564318d90bbbe1",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_f269d1fa0884ea45be3c2dda_0",
+      "kind": "li",
+      "source": "The order of the sections (and section groups) is not available, the sections are ordered by creation date instead.",
+      "sourceHash": "f269d1fa0884ea45be3c2dda551f70a21c45a8086b2e92c5aeb4cc23c3b1aebe",
+      "context": "Microsoft OneNote > Other limitations",
+      "contextHash": "8feee90a83f9368674acb073f6d3cea3821355e4cd054e4ee3564318d90bbbe1",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_787466085ff9fb586cc64abc_0",
+      "kind": "li",
+      "source": "Revision history.",
+      "sourceHash": "787466085ff9fb586cc64abc4310051f875497f7558823d5577a9b566464e252",
+      "context": "Microsoft OneNote > Other limitations",
+      "contextHash": "8feee90a83f9368674acb073f6d3cea3821355e4cd054e4ee3564318d90bbbe1",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_936d2f47dd9638cd32295dcf_0",
+      "kind": "li",
+      "source": "Paragraph indentation, as well as code block indentation.",
+      "sourceHash": "936d2f47dd9638cd32295dcfe43af9aa464afa414e701653d4e0755e46b2372f",
+      "context": "Microsoft OneNote > Other limitations",
+      "contextHash": "8feee90a83f9368674acb073f6d3cea3821355e4cd054e4ee3564318d90bbbe1",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_896a3d1462804b9300b99718_0",
+      "kind": "li",
+      "source": "Section colors.",
+      "sourceHash": "896a3d1462804b9300b9971839abbf84fd2eb8ae5a340930cffcebda6e6c6d7f",
+      "context": "Microsoft OneNote > Other limitations",
+      "contextHash": "8feee90a83f9368674acb073f6d3cea3821355e4cd054e4ee3564318d90bbbe1",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_0c5e01f653b3bd0b3e3226f8_0",
+      "kind": "li",
+      "source": "Drawings inside titles, the title might appear incomplete or “Untitled”.",
+      "sourceHash": "0c5e01f653b3bd0b3e3226f8011a4f2bcd0e7f6ec7eb76094c912edf55d33b50",
+      "context": "Microsoft OneNote > Other limitations",
+      "contextHash": "8feee90a83f9368674acb073f6d3cea3821355e4cd054e4ee3564318d90bbbe1",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_2bf2c57afc3c3752afbeaf8e_0",
+      "kind": "h2",
+      "source": "Reporting issues__TRILIUM_PH_0__",
+      "sourceHash": "2bf2c57afc3c3752afbeaf8e05bfb59300f5f1bf42573dc5359a53fbe63cb560",
+      "context": "Microsoft OneNote > Reporting issues",
+      "contextHash": "442be9517ced609944632f4ea862d0886ccc8214e528421d79154a3d1262f1ec",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_10ceabedaa3d63c36d9eccd1_0",
+      "kind": "p",
+      "source": "When importing notes, you might find that some text is not rendered properly or the structure is not properly maintained. As long as this issue is not a fundamental issue (like the issue with freehand text not being preserved exactly), it's a good idea to __TRILIUM_PH_0__report it__TRILIUM_PH_1__.",
+      "sourceHash": "10ceabedaa3d63c36d9eccd1af98205b5f478fe9b893bc9b2ef984b0b3d76f2d",
+      "context": "Microsoft OneNote > Reporting issues",
+      "contextHash": "442be9517ced609944632f4ea862d0886ccc8214e528421d79154a3d1262f1ec",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_4c628d0e14697d7196eebf0b_0",
+      "kind": "p",
+      "source": "When reporting, make sure that you provide the following information:",
+      "sourceHash": "4c628d0e14697d7196eebf0b7bffdbb6efa441d7c072acb133a584c490265d3f",
+      "context": "Microsoft OneNote > Reporting issues",
+      "contextHash": "442be9517ced609944632f4ea862d0886ccc8214e528421d79154a3d1262f1ec",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_26637123659c0ab9586625cf_0",
+      "kind": "li",
+      "source": "Import again the section, checking the debug checkbox before importing. This preserves the original document (and the hand-drawing data if any) as it came through from OneNote's cloud API so that it can be used for comparison.",
+      "sourceHash": "26637123659c0ab9586625cf70e684c4bef0921ab0cf7fc0aa6105308f91fde9",
+      "context": "Microsoft OneNote > Reporting issues",
+      "contextHash": "442be9517ced609944632f4ea862d0886ccc8214e528421d79154a3d1262f1ec",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_7deded9609db750ba49c96a0_0",
+      "kind": "li",
+      "source": "Export only the affected page as ZIP, making sure not to accidentally expose any sensitive information.",
+      "sourceHash": "7deded9609db750ba49c96a00410543c3e617ace88d794c5f56dd245ba0652b4",
+      "context": "Microsoft OneNote > Reporting issues",
+      "contextHash": "442be9517ced609944632f4ea862d0886ccc8214e528421d79154a3d1262f1ec",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_afd2f4df874a91ce73ea633c_0",
+      "kind": "li",
+      "source": "Take screenshots of how the note looked like in OneNote and how it ends up in Trilium.",
+      "sourceHash": "afd2f4df874a91ce73ea633c7f0741124ed41566dd552cb0e033599fdacc4396",
+      "context": "Microsoft OneNote > Reporting issues",
+      "contextHash": "442be9517ced609944632f4ea862d0886ccc8214e528421d79154a3d1262f1ec",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_267f38369bc18f064990b59b_0",
+      "kind": "li",
+      "source": "Attach the ZIP and the screenshots to the issue report.",
+      "sourceHash": "267f38369bc18f064990b59bd1fb2756861ae6ab06c08016b8aa2d523b574a5e",
+      "context": "Microsoft OneNote > Reporting issues",
+      "contextHash": "442be9517ced609944632f4ea862d0886ccc8214e528421d79154a3d1262f1ec",
+      "status": "pending",
+      "active": true
+    }
+  ],
+  "requests": []
+}

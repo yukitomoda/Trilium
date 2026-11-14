@@ -1,0 +1,99 @@
+{
+  "schemaVersion": 1,
+  "pageId": "irkwjdNtjcxR",
+  "sourceFile": "docs/User Guide/User Guide/Scripting/Frontend Basics/Frontend Events.md",
+  "sourceRevision": "03d17b60f59b5efc29b880b11481471d0fe0ff57",
+  "units": [
+    {
+      "id": "u_8f1d0d943b791c0dfdebb9e7_0",
+      "kind": "title",
+      "source": "Frontend Events",
+      "sourceHash": "8f1d0d943b791c0dfdebb9e71ec431ae4066d58c60e0e9646270a507e4fc36bc",
+      "context": "Frontend Events",
+      "contextHash": "ba9fad0c895fd9f45953811b7e0cb7f49c36ba89b37af0e973fa780fc832a907",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_ab60543f37493d8b94d52508_0",
+      "kind": "p",
+      "source": "Front-end scripts can be run automatically on certain triggering conditions.",
+      "sourceHash": "ab60543f37493d8b94d5250860b9a971952b234fff01f01afb634b5f4a5d09b3",
+      "context": "Frontend Events",
+      "contextHash": "ba9fad0c895fd9f45953811b7e0cb7f49c36ba89b37af0e973fa780fc832a907",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_bf6abf0258aa257968b49809_0",
+      "kind": "p",
+      "source": "To do so, set the __TRILIUM_PH_0__ __TRILIUM_PH_1__label__TRILIUM_PH_2__ to either:",
+      "sourceHash": "bf6abf0258aa257968b498097a899b4273e12b68ba4a0bf462bdf40d59120d22",
+      "context": "Frontend Events",
+      "contextHash": "ba9fad0c895fd9f45953811b7e0cb7f49c36ba89b37af0e973fa780fc832a907",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_c8397ee29acbba0378eae33d_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__ - when Trilium frontend starts up (or is refreshed), but not on mobile.",
+      "sourceHash": "c8397ee29acbba0378eae33d76cefd3ac73a601e1d89e35c00eb4fadaebae829",
+      "context": "Frontend Events",
+      "contextHash": "ba9fad0c895fd9f45953811b7e0cb7f49c36ba89b37af0e973fa780fc832a907",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_ac76bde87f02b29c1b7a25c3_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__ - when Trilium frontend starts up (or is refreshed), on mobile.",
+      "sourceHash": "ac76bde87f02b29c1b7a25c3cc1c5f8b8e5b58e54a5bceb535e03990ecf3c301",
+      "context": "Frontend Events",
+      "contextHash": "ba9fad0c895fd9f45953811b7e0cb7f49c36ba89b37af0e973fa780fc832a907",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_38ad7bdea8061274d3cb31b9_0",
+      "kind": "p",
+      "source": "One script can be triggered on multiple events, this can be done by adding multiple __TRILIUM_PH_0__ labels. Separating multiple values by commas __TRILIUM_PH_1__is not__TRILIUM_PH_2__ supported.",
+      "sourceHash": "38ad7bdea8061274d3cb31b9d6b5a48b5d75d32eaf8b6178e94b79830d3541c2",
+      "context": "Frontend Events",
+      "contextHash": "ba9fad0c895fd9f45953811b7e0cb7f49c36ba89b37af0e973fa780fc832a907",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_a837517173f3365560144439_0",
+      "kind": "p",
+      "source": "Backend scripts have more powerful triggering conditions, for example they can run automatically on a hourly or daily basis, but also on events such as when a note is created or an attribute is modified. See the server-side __TRILIUM_PH_0__Events__TRILIUM_PH_1__ for more information.",
+      "sourceHash": "a837517173f3365560144439fe27a345701849f42417e53f384bdc4c1c71092b",
+      "context": "Frontend Events",
+      "contextHash": "ba9fad0c895fd9f45953811b7e0cb7f49c36ba89b37af0e973fa780fc832a907",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_addc01a98074b4d4102b3a39_0",
+      "kind": "h2",
+      "source": "Safe mode__TRILIUM_PH_0__",
+      "sourceHash": "addc01a98074b4d4102b3a39f427b43f8825c94be87382832667547745ee4a10",
+      "context": "Frontend Events > Safe mode",
+      "contextHash": "2b515e61f8cadafc8620bc339e938873731ab1b6047cc341ec4eceffc515206c",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_c257e3f2441b6cb5db903522_0",
+      "kind": "p",
+      "source": "While __TRILIUM_PH_0__safe mode__TRILIUM_PH_1__ is active, scripts with events won't trigger.",
+      "sourceHash": "c257e3f2441b6cb5db903522fb5e2f98e696069373a3e735e69f3de4a917048b",
+      "context": "Frontend Events > Safe mode",
+      "contextHash": "2b515e61f8cadafc8620bc339e938873731ab1b6047cc341ec4eceffc515206c",
+      "status": "pending",
+      "active": true
+    }
+  ],
+  "requests": []
+}

@@ -1,0 +1,59 @@
+{
+  "schemaVersion": 1,
+  "pageId": "gMkgcLJ6jBkg",
+  "sourceFile": "docs/User Guide/User Guide/Scripting/Frontend Basics/Custom Widgets/Troubleshooting.md",
+  "sourceRevision": "03d17b60f59b5efc29b880b11481471d0fe0ff57",
+  "units": [
+    {
+      "id": "u_b485142a769733ab72fdfbd9_0",
+      "kind": "title",
+      "source": "Troubleshooting",
+      "sourceHash": "b485142a769733ab72fdfbd92e81842d7f6469c0c329bacad3a3e67f5ff366e6",
+      "context": "Troubleshooting",
+      "contextHash": "c3af076f92c5ed8dcb0d0b0d36dd120bc31b68264efea96cf8019ca19f1c13a3",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_f9ea39d577c5ac89c8320015_0",
+      "kind": "h2",
+      "source": "Why is my widget clipped by other UI elements__TRILIUM_PH_0__",
+      "sourceHash": "f9ea39d577c5ac89c83200159f3047e279a637ca18ba3f0d3c3de3cbc0517edc",
+      "context": "Troubleshooting > Why is my widget clipped by other UI elements",
+      "contextHash": "629e21340bacab1aa6dac6c6db72f15881dfcb73136c120f1b344aec3cf8ccd8",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_37c8756c90beeaaa09973cae_0",
+      "kind": "p",
+      "source": "For performance and layout reasons, the size of widgets in Trilium is independent from its children. At CSS level, this means that the widget container has __TRILIUM_PH_0__ applied to it.",
+      "sourceHash": "37c8756c90beeaaa09973cae35e380c1e6fe3d7d42b3dd2722e78e32e8596bf0",
+      "context": "Troubleshooting > Why is my widget clipped by other UI elements",
+      "contextHash": "629e21340bacab1aa6dac6c6db72f15881dfcb73136c120f1b344aec3cf8ccd8",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_13975086a7294b0dc003fa5b_0",
+      "kind": "p",
+      "source": "This works well if the widget has a fixed size (or based on its parent container), however to make a widget resize to fit its content, apply the following change:",
+      "sourceHash": "13975086a7294b0dc003fa5ba57cf285f09cf6e4e1096d27a1a4286219b0817e",
+      "context": "Troubleshooting > Why is my widget clipped by other UI elements",
+      "contextHash": "629e21340bacab1aa6dac6c6db72f15881dfcb73136c120f1b344aec3cf8ccd8",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_492eda0b47b86ae29de6ba24_0",
+      "kind": "p",
+      "source": "Alternatively apply __TRILIUM_PH_0__ to its CSS.",
+      "sourceHash": "492eda0b47b86ae29de6ba2495fe9204d47e375ddd23e065c7d88ed0dcd0c2d2",
+      "context": "Troubleshooting > Why is my widget clipped by other UI elements",
+      "contextHash": "629e21340bacab1aa6dac6c6db72f15881dfcb73136c120f1b344aec3cf8ccd8",
+      "status": "pending",
+      "active": true
+    }
+  ],
+  "requests": []
+}

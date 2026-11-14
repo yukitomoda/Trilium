@@ -1,0 +1,541 @@
+{
+  "schemaVersion": 1,
+  "pageId": "3tW6mORuTHnB",
+  "sourceFile": "docs/User Guide/User Guide/Installation & Setup/Server Installation/1. Installing the server/Packaged version for Linux.md",
+  "sourceRevision": "03d17b60f59b5efc29b880b11481471d0fe0ff57",
+  "units": [
+    {
+      "id": "u_cf40b69b567321847d74b9b4_0",
+      "kind": "title",
+      "source": "Packaged version for Linux",
+      "sourceHash": "cf40b69b567321847d74b9b417afabc3c244f9a0f7ed9cc83814703e3570222d",
+      "context": "Packaged version for Linux",
+      "contextHash": "e2b520a5ffbaa37aee9dd95451557468b9d556d6cf75a9e0a9d1195f012ab739",
+      "status": "translated",
+      "active": true,
+      "translation": "Linux用パッケージ版",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_40276e5c1804ca953807a4fa_0",
+      "kind": "p",
+      "source": "This is essentially Trilium sources + node modules + node.js runtime packaged into one 7z file.",
+      "sourceHash": "40276e5c1804ca953807a4fa75dea35060ee62ca72ec204282b8b29f16c6c952",
+      "context": "Packaged version for Linux",
+      "contextHash": "e2b520a5ffbaa37aee9dd95451557468b9d556d6cf75a9e0a9d1195f012ab739",
+      "status": "translated",
+      "active": true,
+      "translation": "これは基本的に、Triliumのソースコード、nodeモジュール、node.jsランタイムを1つの7zファイルにまとめたものです。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_0a0d067e9d032a31798e4782_0",
+      "kind": "h2",
+      "source": "Steps__TRILIUM_PH_0__",
+      "sourceHash": "0a0d067e9d032a31798e4782471fbc7e77d99f0d8e6c63e9b020563191b2b011",
+      "context": "Packaged version for Linux > Steps",
+      "contextHash": "6bbbcdba61f98a6d7a1c96f9d8afb4ab0842c7c443cb4c50819185a5aec8d5df",
+      "status": "translated",
+      "active": true,
+      "translation": "手順__TRILIUM_PH_0__",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_fa6aec78eff6208d5a988eaf_0",
+      "kind": "li",
+      "source": "SSH into your server",
+      "sourceHash": "fa6aec78eff6208d5a988eaf5a49dd956d690d103b453dfdd52d8f39026d2c21",
+      "context": "Packaged version for Linux > Steps",
+      "contextHash": "6bbbcdba61f98a6d7a1c96f9d8afb4ab0842c7c443cb4c50819185a5aec8d5df",
+      "status": "translated",
+      "active": true,
+      "translation": "サーバーにSSH接続します",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_fe27ad2eecd462830295110f_0",
+      "kind": "li",
+      "source": "use __TRILIUM_PH_0__ (or __TRILIUM_PH_1__) to download latest __TRILIUM_PH_2__ (copy link from __TRILIUM_PH_3__release page__TRILIUM_PH_4__, notice __TRILIUM_PH_5__ suffix) on your server.",
+      "sourceHash": "fe27ad2eecd462830295110ffde38ee28efbb8cb2c7be17263391b8992e84e83",
+      "context": "Packaged version for Linux > Steps",
+      "contextHash": "6bbbcdba61f98a6d7a1c96f9d8afb4ab0842c7c443cb4c50819185a5aec8d5df",
+      "status": "translated",
+      "active": true,
+      "translation": "サーバー上で __TRILIUM_PH_0__（または __TRILIUM_PH_1__）を使用して最新の __TRILIUM_PH_2__ をダウンロードします（__TRILIUM_PH_3__リリースページ__TRILIUM_PH_4__からリンクをコピーしてください。__TRILIUM_PH_5__の接尾辞に注意してください）。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_5c10f32665d0e8f25bcb75b3_0",
+      "kind": "li",
+      "source": "unpack the archive, e.g. using __TRILIUM_PH_0__",
+      "sourceHash": "5c10f32665d0e8f25bcb75b3ff1d7fa1bc0c444d27fe17aa56f09c1c01116d20",
+      "context": "Packaged version for Linux > Steps",
+      "contextHash": "6bbbcdba61f98a6d7a1c96f9d8afb4ab0842c7c443cb4c50819185a5aec8d5df",
+      "status": "translated",
+      "active": true,
+      "translation": "アーカイブを解凍します（例：__TRILIUM_PH_0__を使用）",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_c2ebfadf40c2f6fe9d1c009a_0",
+      "kind": "li",
+      "source": "you can open the browser and open http://[your-server-hostname]:8080 and you should see Trilium initialization page",
+      "sourceHash": "c2ebfadf40c2f6fe9d1c009a618e11bd6d8e98b3d4e51e650a3eab3112680339",
+      "context": "Packaged version for Linux > Steps",
+      "contextHash": "6bbbcdba61f98a6d7a1c96f9d8afb4ab0842c7c443cb4c50819185a5aec8d5df",
+      "status": "translated",
+      "active": true,
+      "translation": "ブラウザを開いて http://[サーバーのホスト名]:8080 にアクセスすると、Triliumの初期化ページが表示されるはずです。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_31c2897da564f76502c70543_0",
+      "kind": "li",
+      "source": "the console lists the addresses the server can be reached on, so you can also copy one from there",
+      "sourceHash": "31c2897da564f76502c705432e5988104594e1d1dbd2d13b8c6036a85e6d60b4",
+      "context": "Packaged version for Linux > Steps",
+      "contextHash": "6bbbcdba61f98a6d7a1c96f9d8afb4ab0842c7c443cb4c50819185a5aec8d5df",
+      "status": "translated",
+      "active": true,
+      "translation": "コンソールにサーバーがアクセス可能なアドレスの一覧が表示されるため、そこからコピーすることもできます。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_c059852e6753f17e5945dacb_0",
+      "kind": "p",
+      "source": "The problem with above steps is that once you close the SSH connection, the Trilium process is terminated. To avoid that, you have two options:",
+      "sourceHash": "c059852e6753f17e5945dacbe4adef6a00c7217547fe7efc04d2ea737d2ae0ba",
+      "context": "Packaged version for Linux > Steps",
+      "contextHash": "6bbbcdba61f98a6d7a1c96f9d8afb4ab0842c7c443cb4c50819185a5aec8d5df",
+      "status": "translated",
+      "active": true,
+      "translation": "上記の手順の問題点は、SSH接続を閉じるとTriliumのプロセスが終了してしまうことです。それを回避するには、次の2つの方法があります。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_7becf5194cafcad24ba09fec_0",
+      "kind": "li",
+      "source": "Kill it (with e.g. __TRILIUM_PH_0__Ctrl__TRILIUM_PH_1__ + __TRILIUM_PH_2__C__TRILIUM_PH_3__) and run again like this: __TRILIUM_PH_4__. (nohup keeps the process running in the background, __TRILIUM_PH_5__ runs it in the background)",
+      "sourceHash": "7becf5194cafcad24ba09fecd641a3b25f4d60dc457297631194d873480825d4",
+      "context": "Packaged version for Linux > Steps",
+      "contextHash": "6bbbcdba61f98a6d7a1c96f9d8afb4ab0842c7c443cb4c50819185a5aec8d5df",
+      "status": "translated",
+      "active": true,
+      "translation": "（例：__TRILIUM_PH_0__Ctrl__TRILIUM_PH_1__ + __TRILIUM_PH_2__C__TRILIUM_PH_3__で）プロセスを終了し、次のように再度実行します：__TRILIUM_PH_4__。（nohupはプロセスをバックグラウンドで実行し続け、__TRILIUM_PH_5__はバックグラウンドで実行します）",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_b5c1964627668678a7560579_0",
+      "kind": "li",
+      "source": "Configure systemd to automatically run Trilium in the background on every boot",
+      "sourceHash": "b5c1964627668678a7560579fd3dacfa7bb3d60f825333ab3d6fc94bd3e4af56",
+      "context": "Packaged version for Linux > Steps",
+      "contextHash": "6bbbcdba61f98a6d7a1c96f9d8afb4ab0842c7c443cb4c50819185a5aec8d5df",
+      "status": "translated",
+      "active": true,
+      "translation": "システム起動時にTriliumがバックグラウンドで自動実行されるようにsystemdを設定する",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_9c8e4d8bfc5e502a76e2fb02_0",
+      "kind": "h2",
+      "source": "Configure Trilium to auto-run on boot with systemd__TRILIUM_PH_0__",
+      "sourceHash": "9c8e4d8bfc5e502a76e2fb024284f3e597d8547b99785f02f7ff94294e212f4b",
+      "context": "Packaged version for Linux > Configure Trilium to auto-run on boot with systemd",
+      "contextHash": "d5042bcf0c92006e7f8ae5274dfaafb37d92bd999ec9285a5d0f6e0f8542d5b9",
+      "status": "translated",
+      "active": true,
+      "translation": "systemdを使用して起動時にTriliumが自動実行されるように設定する__TRILIUM_PH_0__",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_7161105ae167fb732c8d132d_0",
+      "kind": "li",
+      "source": "After downloading, extract and move Trilium:",
+      "sourceHash": "7161105ae167fb732c8d132d61817416527eb19ca52349d6bb616d0edec72116",
+      "context": "Packaged version for Linux > Configure Trilium to auto-run on boot with systemd",
+      "contextHash": "d5042bcf0c92006e7f8ae5274dfaafb37d92bd999ec9285a5d0f6e0f8542d5b9",
+      "status": "translated",
+      "active": true,
+      "translation": "ダウンロード後、Triliumを解凍して移動します：",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_c92d956d3f8ff4cb33448ae6_0",
+      "kind": "li",
+      "source": "Create the service:",
+      "sourceHash": "c92d956d3f8ff4cb33448ae62e37c106e6fd7baf7df6befd9e956bcd80efdcb2",
+      "context": "Packaged version for Linux > Configure Trilium to auto-run on boot with systemd",
+      "contextHash": "d5042bcf0c92006e7f8ae5274dfaafb37d92bd999ec9285a5d0f6e0f8542d5b9",
+      "status": "translated",
+      "active": true,
+      "translation": "サービスを作成します：",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_296ad7df33b68dce4b382d08_0",
+      "kind": "li",
+      "source": "Paste this into the file (replace the user and group as needed):",
+      "sourceHash": "296ad7df33b68dce4b382d0879deef1cfb7c008a285e440392e7745e470c1c9e",
+      "context": "Packaged version for Linux > Configure Trilium to auto-run on boot with systemd",
+      "contextHash": "d5042bcf0c92006e7f8ae5274dfaafb37d92bd999ec9285a5d0f6e0f8542d5b9",
+      "status": "translated",
+      "active": true,
+      "translation": "ファイルに以下を貼り付けます（必要に応じてユーザーとグループを置き換えてください）：",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_1f132a138fdcb5c648b2f3b7_0",
+      "kind": "li",
+      "source": "Save the file (CTRL-S) and exit (CTRL-X)",
+      "sourceHash": "1f132a138fdcb5c648b2f3b7f80de68856d06ae96872e41d43d6c83a5093bb12",
+      "context": "Packaged version for Linux > Configure Trilium to auto-run on boot with systemd",
+      "contextHash": "d5042bcf0c92006e7f8ae5274dfaafb37d92bd999ec9285a5d0f6e0f8542d5b9",
+      "status": "translated",
+      "active": true,
+      "translation": "ファイルを保存し（CTRL-S）、終了します（CTRL-X）",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_dee19892bfbc958a143d1ac7_0",
+      "kind": "li",
+      "source": "Enable and launch the service:",
+      "sourceHash": "dee19892bfbc958a143d1ac75a86e15faddf25c123e4fbc93a1b1e1832c90582",
+      "context": "Packaged version for Linux > Configure Trilium to auto-run on boot with systemd",
+      "contextHash": "d5042bcf0c92006e7f8ae5274dfaafb37d92bd999ec9285a5d0f6e0f8542d5b9",
+      "status": "translated",
+      "active": true,
+      "translation": "サービスを有効化して起動します：",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_9ac2996f03d77cbf99585f4e_0",
+      "kind": "li",
+      "source": "You can now open a browser to http://[your-server-hostname]:8080 and you should see the Trilium initialization page.",
+      "sourceHash": "9ac2996f03d77cbf99585f4eaaafaf86094c857e003f68a429fd088c8afcf4ad",
+      "context": "Packaged version for Linux > Configure Trilium to auto-run on boot with systemd",
+      "contextHash": "d5042bcf0c92006e7f8ae5274dfaafb37d92bd999ec9285a5d0f6e0f8542d5b9",
+      "status": "translated",
+      "active": true,
+      "translation": "これでブラウザで http://[your-server-hostname]:8080 を開くことができ、Triliumの初期化ページが表示されるはずです。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_182eb35db034a54f3a2497a6_0",
+      "kind": "h2",
+      "source": "Simple auto-update for Server__TRILIUM_PH_0__",
+      "sourceHash": "182eb35db034a54f3a2497a6c52e08f588e9191385017fb6ed0d1abf07568afa",
+      "context": "Packaged version for Linux > Simple auto-update for Server",
+      "contextHash": "ac87f5033d99f00f88110849ec61f08d66ed5a30dcc5d32bba61ba2a165c5654",
+      "status": "translated",
+      "active": true,
+      "translation": "サーバーの簡単な自動アップデート__TRILIUM_PH_0__",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_9cdc92dcb937083f53b68a31_0",
+      "kind": "p",
+      "source": "The script is available in __TRILIUM_PH_0__Simple auto-update for server__TRILIUM_PH_1__.",
+      "sourceHash": "9cdc92dcb937083f53b68a31dd75352faa0bad7646f292ed53b4d3aeea8bef90",
+      "context": "Packaged version for Linux > Simple auto-update for Server",
+      "contextHash": "ac87f5033d99f00f88110849ec61f08d66ed5a30dcc5d32bba61ba2a165c5654",
+      "status": "translated",
+      "active": true,
+      "translation": "スクリプトは __TRILIUM_PH_0__Simple auto-update for server__TRILIUM_PH_1__ にあります。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_46053cacc51251063db73b6f_0",
+      "kind": "p",
+      "source": "Run as the same User Trilium runs.",
+      "sourceHash": "46053cacc51251063db73b6fe333539d26f50b4c607877e5193266fb44d91c49",
+      "context": "Packaged version for Linux > Simple auto-update for Server",
+      "contextHash": "ac87f5033d99f00f88110849ec61f08d66ed5a30dcc5d32bba61ba2a165c5654",
+      "status": "translated",
+      "active": true,
+      "translation": "Triliumを実行するユーザーと同じユーザーで実行してください。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_4b912f2650f59f30a9ab5f4d_0",
+      "kind": "li",
+      "source": "If you run as __TRILIUM_PH_0__ please remove __TRILIUM_PH_1__ from the commands.",
+      "sourceHash": "4b912f2650f59f30a9ab5f4da44ba9baa61e4cfecb6026cf00c8575826746510",
+      "context": "Packaged version for Linux > Simple auto-update for Server",
+      "contextHash": "ac87f5033d99f00f88110849ec61f08d66ed5a30dcc5d32bba61ba2a165c5654",
+      "status": "translated",
+      "active": true,
+      "translation": "__TRILIUM_PH_0__ として実行する場合は、コマンドから __TRILIUM_PH_1__ を削除してください。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_6eb7fa2f2742c02c6b22041b_0",
+      "kind": "p",
+      "source": "Requires __TRILIUM_PH_0__:",
+      "sourceHash": "6eb7fa2f2742c02c6b22041ba0fde5722789b353df442e42bc894ab643cbd144",
+      "context": "Packaged version for Linux > Simple auto-update for Server",
+      "contextHash": "ac87f5033d99f00f88110849ec61f08d66ed5a30dcc5d32bba61ba2a165c5654",
+      "status": "translated",
+      "active": true,
+      "translation": "__TRILIUM_PH_0__ が必要です：",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_16cdc58d3eefc71e5a245a5f_0",
+      "kind": "p",
+      "source": "It will stop the service above, overwrite everything (expecting no __TRILIUM_PH_0__), and start service. It also creates a version file in the Trilium directory so it updates only with a newer version.",
+      "sourceHash": "16cdc58d3eefc71e5a245a5f4036da866f74a5b9f1a779d5c7a56259d2fd22d1",
+      "context": "Packaged version for Linux > Simple auto-update for Server",
+      "contextHash": "ac87f5033d99f00f88110849ec61f08d66ed5a30dcc5d32bba61ba2a165c5654",
+      "status": "translated",
+      "active": true,
+      "translation": "上記のサービスを停止し、（__TRILIUM_PH_0__ がないことを前提として）すべてを上書きして、サービスを再起動します。また、Triliumディレクトリにバージョンファイルを作成し、より新しいバージョンの場合にのみアップデートされるようにします。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_748168b4e19e0812882058d9_0",
+      "kind": "h2",
+      "source": "Common issues__TRILIUM_PH_0__",
+      "sourceHash": "748168b4e19e0812882058d93bd906290a303f9b5ac5e7f63cbb2e5a104a4109",
+      "context": "Packaged version for Linux > Common issues",
+      "contextHash": "0a5657a33579a6fbe44a5dd6bdf8263c9add0167f4aec55c4118f0526027b513",
+      "status": "translated",
+      "active": true,
+      "translation": "よくある問題__TRILIUM_PH_0__",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_1e003e1202b63a534a3035b6_0",
+      "kind": "h3",
+      "source": "Outdated glibc__TRILIUM_PH_0__",
+      "sourceHash": "1e003e1202b63a534a3035b64fb02a3a1461baf9980d7205152ebc136ee1c447",
+      "context": "Packaged version for Linux > Common issues > Outdated glibc",
+      "contextHash": "4ffd1a77c2d53cef8f2bf04b43a70fc4e316b05f2a8ae4a7ba57f92cb5eb063b",
+      "status": "translated",
+      "active": true,
+      "translation": "古くなった glibc__TRILIUM_PH_0__",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_4b428ff9fdae7df067ae91db_0",
+      "kind": "p",
+      "source": "If you get an error like this, you need to either upgrade your glibc (typically by upgrading to up-to-date distribution version) or use some other __TRILIUM_PH_0__server installation__TRILIUM_PH_1__ method.",
+      "sourceHash": "4b428ff9fdae7df067ae91dbc3a4f825a822b8a2fc110d73192551116a45e7f5",
+      "context": "Packaged version for Linux > Common issues > Outdated glibc",
+      "contextHash": "4ffd1a77c2d53cef8f2bf04b43a70fc4e316b05f2a8ae4a7ba57f92cb5eb063b",
+      "status": "translated",
+      "active": true,
+      "translation": "このようなエラーが発生した場合は、glibcをアップグレードするか（通常は最新のディストリビューションバージョンへのアップグレード）、他の __TRILIUM_PH_0__サーバーのインストール__TRILIUM_PH_1__ 方法を使用する必要があります。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_bf284d5f6a2b43e62e6827fc_0",
+      "kind": "h2",
+      "source": "TLS__TRILIUM_PH_0__",
+      "sourceHash": "bf284d5f6a2b43e62e6827fc298dbfe01a7f01b81194f6fa3c36aa3f89399ca5",
+      "context": "Packaged version for Linux > TLS",
+      "contextHash": "ea67f2ad9199e814d0a6956e4954182fa0e46360984446b61b81908a9896ba66",
+      "status": "translated",
+      "active": true,
+      "translation": "TLS__TRILIUM_PH_0__",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_9b7bf4392078ddb0a981a353_0",
+      "kind": "p",
+      "source": "Don't forget to __TRILIUM_PH_0__configure TLS__TRILIUM_PH_1__, which is required for secure usage!",
+      "sourceHash": "9b7bf4392078ddb0a981a353787fa7ed224ff0cfabec0abfcb24a4d18a562484",
+      "context": "Packaged version for Linux > TLS",
+      "contextHash": "ea67f2ad9199e814d0a6956e4954182fa0e46360984446b61b81908a9896ba66",
+      "status": "translated",
+      "active": true,
+      "translation": "セキュアな利用に必須である __TRILIUM_PH_0__TLSの設定__TRILIUM_PH_1__ を忘れないようにしてください！",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    }
+  ],
+  "requests": [
+    {
+      "at": "2026-11-14T11:28:45.803Z",
+      "model": "gemini-3.5-flash-lite",
+      "batchJob": "batches/02spwqy837h8pi7qzqmeo4fgsqo7bgs45hwh",
+      "requestKey": "3tW6mORuTHnB_61a1b86fe0a189ab",
+      "modelVersion": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 1405,
+        "candidatesTokenCount": 959,
+        "totalTokenCount": 2364,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 1405
+          }
+        ],
+        "serviceTier": "standard"
+      }
+    },
+    {
+      "at": "2026-11-14T11:28:45.803Z",
+      "model": "gemini-3.5-flash-lite",
+      "batchJob": "batches/02spwqy837h8pi7qzqmeo4fgsqo7bgs45hwh",
+      "requestKey": "3tW6mORuTHnB_f82dae981039cd94",
+      "modelVersion": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 1221,
+        "candidatesTokenCount": 765,
+        "totalTokenCount": 1986,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 1221
+          }
+        ],
+        "serviceTier": "standard"
+      }
+    }
+  ]
+}

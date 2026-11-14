@@ -1,0 +1,279 @@
+{
+  "schemaVersion": 1,
+  "pageId": "47ZrP6FNuoG8",
+  "sourceFile": "docs/User Guide/User Guide/Advanced Usage/Default Note Title.md",
+  "sourceRevision": "03d17b60f59b5efc29b880b11481471d0fe0ff57",
+  "units": [
+    {
+      "id": "u_54384c0a4eadf00a1f72b4f2_0",
+      "kind": "title",
+      "source": "Default Note Title",
+      "sourceHash": "54384c0a4eadf00a1f72b4f25985666d9dc5ec5ed0ded76e051a1317ef8e7704",
+      "context": "Default Note Title",
+      "contextHash": "27cab928b981c71f55038d17a78b948ef5bc1065de8cc1981f96a55e79728069",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_65edce21b820807468f2ef57_0",
+      "kind": "p",
+      "source": "When a new note is created, its name is by default \"new note\". In some cases, it can be desirable to have a different or even a dynamic default note title.",
+      "sourceHash": "65edce21b820807468f2ef5791861c907519e7bcb7296bb3147d1050ba3467ef",
+      "context": "Default Note Title",
+      "contextHash": "27cab928b981c71f55038d17a78b948ef5bc1065de8cc1981f96a55e79728069",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_8823d8b93981a966a32821cb_0",
+      "kind": "p",
+      "source": "For this use case, Trilium (since v0.52) supports __TRILIUM_PH_0__ __TRILIUM_PH_1__label__TRILIUM_PH_2__. You can create such a label for a given note, assign it a value, and this value will be used as a default title when creating child notes. As with other labels, you can make it inheritable to apply recursively, and you can even place it on the root note to have it applied globally everywhere.",
+      "sourceHash": "8823d8b93981a966a32821cbf8ef31454208f8ef670a62c874e264376396efbb",
+      "context": "Default Note Title",
+      "contextHash": "27cab928b981c71f55038d17a78b948ef5bc1065de8cc1981f96a55e79728069",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_4878fea875c035435f4f66a5_0",
+      "kind": "p",
+      "source": "As an example use case, imagine you collect books you've read in a given year like this:",
+      "sourceHash": "4878fea875c035435f4f66a57458d2e784062e93d183c518d4368de310af3ebc",
+      "context": "Default Note Title",
+      "contextHash": "27cab928b981c71f55038d17a78b948ef5bc1065de8cc1981f96a55e79728069",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_ba09c82e6a380a611caff75f_0",
+      "kind": "li",
+      "source": "2022 Books",
+      "sourceHash": "ba09c82e6a380a611caff75fa83f3a38248c86ea8b564a3b0e1b38d4441b1ac0",
+      "context": "Default Note Title",
+      "contextHash": "27cab928b981c71f55038d17a78b948ef5bc1065de8cc1981f96a55e79728069",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_0364f11e80454f7bbde5c047_0",
+      "kind": "li",
+      "source": "Neal Stephenson: Anathem, 2008",
+      "sourceHash": "0364f11e80454f7bbde5c0477751516910989f27a71107ea54af8530930288dc",
+      "context": "Default Note Title",
+      "contextHash": "27cab928b981c71f55038d17a78b948ef5bc1065de8cc1981f96a55e79728069",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_e859e30f7d797a09951511de_0",
+      "kind": "li",
+      "source": "Franz Kafka: Die Verwandlung, 1915",
+      "sourceHash": "e859e30f7d797a09951511def347d43eab9de33a69c9e78870cbb53287911b65",
+      "context": "Default Note Title",
+      "contextHash": "27cab928b981c71f55038d17a78b948ef5bc1065de8cc1981f96a55e79728069",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_7e8484b695ac0a82b7799286_0",
+      "kind": "p",
+      "source": "Now, to the parent note \"2022 Books\" you can assign label __TRILIUM_PH_0__.",
+      "sourceHash": "7e8484b695ac0a82b77992868d5052ec6f06af3575f992ddfe09fc2e1f2c62c7",
+      "context": "Default Note Title",
+      "contextHash": "27cab928b981c71f55038d17a78b948ef5bc1065de8cc1981f96a55e79728069",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_b4dd645d332592a302538373_0",
+      "kind": "p",
+      "source": "And all children of \"2022 Books\" will be created with initial title \"[Author name]: [Book title], [Publication year]\". There's no artificial intelligence here, the idea is to just prompt you to manually fill in the pieces of information into the note title by yourself.",
+      "sourceHash": "b4dd645d332592a30253837348279d8e37c332a1328af3a3c6b2f98335f51ebf",
+      "context": "Default Note Title",
+      "contextHash": "27cab928b981c71f55038d17a78b948ef5bc1065de8cc1981f96a55e79728069",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_2bfe964e02cfe993e28d1160_0",
+      "kind": "h2",
+      "source": "Titles set by a template__TRILIUM_PH_0__",
+      "sourceHash": "2bfe964e02cfe993e28d11603428f708b3e658e0d2dd794917bd6108a4772203",
+      "context": "Default Note Title > Titles set by a template",
+      "contextHash": "cd709c87a80926c138e0762b758695f25bfc1485f77b17a4c213c59205b6c3ae",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_cdb6eaf5ccb202a9e30d97ff_0",
+      "kind": "p",
+      "source": "A template can name the notes created from it, wherever they are created. To do so, add a __TRILIUM_PH_0__ label to the template note, for example __TRILIUM_PH_1__ on a __TRILIUM_PH_2__Meeting__TRILIUM_PH_3__ template.",
+      "sourceHash": "cdb6eaf5ccb202a9e30d97ff641b571973cf1878317a380389b14094b3f13ac2",
+      "context": "Default Note Title > Titles set by a template",
+      "contextHash": "cd709c87a80926c138e0762b758695f25bfc1485f77b17a4c213c59205b6c3ae",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_c14d64bea73ee3342c4a06c5_0",
+      "kind": "li",
+      "source": "It applies both when the template is picked explicitly and when it comes from a parent's __TRILIUM_PH_0__. See __TRILIUM_PH_1__Templates__TRILIUM_PH_2__.",
+      "sourceHash": "c14d64bea73ee3342c4a06c58e3f236f09d75182a46fedf4bc88719c6c23379e",
+      "context": "Default Note Title > Titles set by a template",
+      "contextHash": "cd709c87a80926c138e0762b758695f25bfc1485f77b17a4c213c59205b6c3ae",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_75e4e9d01e3958e05362e099_0",
+      "kind": "li",
+      "source": "It takes precedence over the parent's __TRILIUM_PH_0__. A title typed in by the user always wins.",
+      "sourceHash": "75e4e9d01e3958e05362e09913e0de213e5b64aeda69a6863029dce60b99a089",
+      "context": "Default Note Title > Titles set by a template",
+      "contextHash": "cd709c87a80926c138e0762b758695f25bfc1485f77b17a4c213c59205b6c3ae",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_b3a3ef1a566202beb379f88a_0",
+      "kind": "li",
+      "source": "It can be inherited from the template's ancestors in the tree (for example, a folder holding several templates), in which case a label owned by the template itself takes precedence. A note created from a template and later marked as a template does not keep that template's title.",
+      "sourceHash": "b3a3ef1a566202beb379f88abed09409b38221b37952c86b0b578946c6f0b322",
+      "context": "Default Note Title > Titles set by a template",
+      "contextHash": "cd709c87a80926c138e0762b758695f25bfc1485f77b17a4c213c59205b6c3ae",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_4f623e4db045f791b416122d_0",
+      "kind": "li",
+      "source": "Its value is evaluated the same way as __TRILIUM_PH_0__, with __TRILIUM_PH_1__ being the parent of the new note.",
+      "sourceHash": "4f623e4db045f791b416122daf06ca7650c4c741fc3a3258c589dbd21484f363",
+      "context": "Default Note Title > Titles set by a template",
+      "contextHash": "cd709c87a80926c138e0762b758695f25bfc1485f77b17a4c213c59205b6c3ae",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_3f3ea830840d50f8f9d1f5a6_0",
+      "kind": "h2",
+      "source": "Dynamic value__TRILIUM_PH_0__",
+      "sourceHash": "3f3ea830840d50f8f9d1f5a6f00b1683dc0173a9f60aee9dc6f0288a4537b8cc",
+      "context": "Default Note Title > Dynamic value",
+      "contextHash": "f51ed631b551add3821b6fde8bb3ca2df399b4718da2dde4c759f4329576b820",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_7752864938fcbf7abe596bd1_0",
+      "kind": "p",
+      "source": "The value of __TRILIUM_PH_0__ is evaluated at the point of note's creation as a JavaScript string, which means it can be enriched with the help of JS string interpolation with dynamic data.",
+      "sourceHash": "7752864938fcbf7abe596bd1096be9f9fcb82de4a1155f0886873984da624880",
+      "context": "Default Note Title > Dynamic value",
+      "contextHash": "f51ed631b551add3821b6fde8bb3ca2df399b4718da2dde4c759f4329576b820",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_66633edb7ca7d236aafebccb_0",
+      "kind": "p",
+      "source": "Second variable injected is __TRILIUM_PH_0__ which gives access to the parent __TRILIUM_PH_1____TRILIUM_PH_2____TRILIUM_PH_3__.",
+      "sourceHash": "66633edb7ca7d236aafebccb0906604198c17fdb95ba63deee890daed6bee836",
+      "context": "Default Note Title > Dynamic value",
+      "contextHash": "f51ed631b551add3821b6fde8bb3ca2df399b4718da2dde4c759f4329576b820",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_52d929a38319572458cb39b2_0",
+      "kind": "p",
+      "source": "See also __TRILIUM_PH_0__Templates__TRILIUM_PH_1__ which provides similar capabilities, including default note's content.",
+      "sourceHash": "52d929a38319572458cb39b2ad1541b180704ec9a15892aed1e747e4194c4795",
+      "context": "Default Note Title > Dynamic value",
+      "contextHash": "f51ed631b551add3821b6fde8bb3ca2df399b4718da2dde4c759f4329576b820",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_34ec0d387abfa1212e0ef187_0",
+      "kind": "h3",
+      "source": "Examples__TRILIUM_PH_0__",
+      "sourceHash": "34ec0d387abfa1212e0ef18711e4411f16c64cbe6af4ba1fb06b2dc63dd41850",
+      "context": "Default Note Title > Dynamic value > Examples",
+      "contextHash": "bc58884ed732177823bb49101d08bcfdeead03ee19fe1091c5a251344d289a90",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_6290fc0fadd9107ecccd854f_0",
+      "kind": "li",
+      "source": "Imagine you collect server outage incidents and write some notes. It looks like this:",
+      "sourceHash": "6290fc0fadd9107ecccd854f460ad1a2fb13deceaf9a9c4b48bc009a5af62d6b",
+      "context": "Default Note Title > Dynamic value > Examples",
+      "contextHash": "bc58884ed732177823bb49101d08bcfdeead03ee19fe1091c5a251344d289a90",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_6a226422b981696657ce8530_0",
+      "kind": "li",
+      "source": "Incidents",
+      "sourceHash": "6a226422b981696657ce8530a32d2f9dde5ee6a43e1ae47f24d809e9eec57c07",
+      "context": "Default Note Title > Dynamic value > Examples",
+      "contextHash": "bc58884ed732177823bb49101d08bcfdeead03ee19fe1091c5a251344d289a90",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_60f843af354819df3e3fae78_0",
+      "kind": "li",
+      "source": "2022-05-09: System crash",
+      "sourceHash": "60f843af354819df3e3fae7804a87a695ba2e9ab1fbb418a5d317d1d452a3da6",
+      "context": "Default Note Title > Dynamic value > Examples",
+      "contextHash": "bc58884ed732177823bb49101d08bcfdeead03ee19fe1091c5a251344d289a90",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_3c5542e1dec8db8e87c47184_0",
+      "kind": "li",
+      "source": "2022-05-15: Backup delay",
+      "sourceHash": "3c5542e1dec8db8e87c47184029c3f26bf4850875745a0c195bc73f0ca369583",
+      "context": "Default Note Title > Dynamic value > Examples",
+      "contextHash": "bc58884ed732177823bb49101d08bcfdeead03ee19fe1091c5a251344d289a90",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_84fc7cd8377ff3f115130c79_0",
+      "kind": "li",
+      "source": "You can automatize the date assignment by assigning a label __TRILIUM_PH_0__ to the parent note \"Incidents\". Whenever a new child note is created, the title template is evaluated with the injected __TRILIUM_PH_1__now__TRILIUM_PH_2__ object.",
+      "sourceHash": "84fc7cd8377ff3f115130c79ff7b66c8a88e0358639b1ca8937e520f5b4c6a84",
+      "context": "Default Note Title > Dynamic value > Examples",
+      "contextHash": "bc58884ed732177823bb49101d08bcfdeead03ee19fe1091c5a251344d289a90",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_87bf79744f417fe7812f4d66_0",
+      "kind": "li",
+      "source": "To use a parent's attribute in the title of new notes: __TRILIUM_PH_0__",
+      "sourceHash": "87bf79744f417fe7812f4d662746488557ca50a46ed055a7348126d3bb147b91",
+      "context": "Default Note Title > Dynamic value > Examples",
+      "contextHash": "bc58884ed732177823bb49101d08bcfdeead03ee19fe1091c5a251344d289a90",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_609040d26fb92e6f69581561_0",
+      "kind": "li",
+      "source": "To mirror the parent's note title: __TRILIUM_PH_0__",
+      "sourceHash": "609040d26fb92e6f695815615d5e6e7637fa2fc8a41466c399d184e46c616362",
+      "context": "Default Note Title > Dynamic value > Examples",
+      "contextHash": "bc58884ed732177823bb49101d08bcfdeead03ee19fe1091c5a251344d289a90",
+      "status": "pending",
+      "active": true
+    }
+  ],
+  "requests": []
+}

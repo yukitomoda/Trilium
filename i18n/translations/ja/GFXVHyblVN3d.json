@@ -1,0 +1,4159 @@
+{
+  "schemaVersion": 1,
+  "pageId": "GFXVHyblVN3d",
+  "sourceFile": "docs/User Guide/User Guide/Scripting/Script API/Electron API.md",
+  "sourceRevision": "03d17b60f59b5efc29b880b11481471d0fe0ff57",
+  "units": [
+    {
+      "id": "u_c58c95a3b3f6059bcbd8bf30_0",
+      "kind": "title",
+      "source": "Electron API",
+      "sourceHash": "c58c95a3b3f6059bcbd8bf30d26ba7da49d789389f434a65cbe47a8978a2af5c",
+      "context": "Electron API",
+      "contextHash": "182c627aa37e5780adad5c5ec2ed38e25af9d6f6b3087435e88d84e4a3e0f72e",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_d698f574260ea7938e414e7c_0",
+      "kind": "p",
+      "source": "The Electron API is the bridge between Trilium's interface and Electron's main process, exposed as the global __TRILIUM_PH_0__ in the desktop application.",
+      "sourceHash": "d698f574260ea7938e414e7c2dfe548c29c16622e2e0a29b39ff789da992e00e",
+      "context": "Electron API",
+      "contextHash": "182c627aa37e5780adad5c5ec2ed38e25af9d6f6b3087435e88d84e4a3e0f72e",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_70eb91d771f24821c6bfbe00_0",
+      "kind": "p",
+      "source": "It is not part of the __TRILIUM_PH_0__ global of script notes, but frontend scripts running in the desktop application can call it directly. It is __TRILIUM_PH_1__ in the browser and in the standalone build, so guard calls with __TRILIUM_PH_2__.",
+      "sourceHash": "70eb91d771f24821c6bfbe00f6b9e7ebc4f58137123de2d304b2bf74d3217b4e",
+      "context": "Electron API",
+      "contextHash": "182c627aa37e5780adad5c5ec2ed38e25af9d6f6b3087435e88d84e4a3e0f72e",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_9e14521ebdf2541536464a8f_0",
+      "kind": "p",
+      "source": "The complete surface exposed to the renderer as __TRILIUM_PH_0__ via __TRILIUM_PH_1__. The renderer must access Electron-only functionality through this object — direct __TRILIUM_PH_2__ and __TRILIUM_PH_3__ are unavailable because __TRILIUM_PH_4__ is disabled and __TRILIUM_PH_5__ is enabled.",
+      "sourceHash": "9e14521ebdf2541536464a8f7eaf4dc0a3b8baeba6c9a672aaeb0b8bf432b6a6",
+      "context": "Electron API > Api",
+      "contextHash": "fd3e934035c5b6ae55b3c7fe6d308544575e1937ea49e31d02cfa56cc7b69de9",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_2864d83ec6a12e89f027037e_0",
+      "kind": "p",
+      "source": "The runtime value lives in __TRILIUM_PH_0__; this interface is the contract both the preload script (__TRILIUM_PH_1__) and the client (__TRILIUM_PH_2__) share.",
+      "sourceHash": "2864d83ec6a12e89f027037ee021b8087053baa1b0cf63a2481fa1d1fcc9b181",
+      "context": "Electron API > Api",
+      "contextHash": "fd3e934035c5b6ae55b3c7fe6d308544575e1937ea49e31d02cfa56cc7b69de9",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_2eba2c8872a2d818ecd73aa0_0",
+      "kind": "th",
+      "source": "Property",
+      "sourceHash": "2eba2c8872a2d818ecd73aa0408a11e2c482922d23aa806cde77c99a85d8ed18",
+      "context": "Electron API > Api",
+      "contextHash": "fd3e934035c5b6ae55b3c7fe6d308544575e1937ea49e31d02cfa56cc7b69de9",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_4b00baa636b92e18b7a75884_0",
+      "kind": "th",
+      "source": "Description",
+      "sourceHash": "4b00baa636b92e18b7a75884790f0769c3e702d20d8822e708f69ab2f07c7103",
+      "context": "Electron API > Api",
+      "contextHash": "fd3e934035c5b6ae55b3c7fe6d308544575e1937ea49e31d02cfa56cc7b69de9",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_419e7ff5376f8cc50a2c059d_0",
+      "kind": "td",
+      "source": "__TRILIUM_PH_0____TRILIUM_PH_1____TRILIUM_PH_2__  __TRILIUM_PH_3__Window chrome, zoom, theme, lifecycle, and main → renderer events.",
+      "sourceHash": "419e7ff5376f8cc50a2c059d09ab76d2737602020987961f95bc230b8c8d4144",
+      "context": "Electron API > Api",
+      "contextHash": "fd3e934035c5b6ae55b3c7fe6d308544575e1937ea49e31d02cfa56cc7b69de9",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_b66c19851cd308e3ae9cdc4d_0",
+      "kind": "td",
+      "source": "__TRILIUM_PH_0____TRILIUM_PH_1____TRILIUM_PH_2__  __TRILIUM_PH_3__System clipboard access beyond what the standard Web Clipboard API offers.",
+      "sourceHash": "b66c19851cd308e3ae9cdc4deee43840f882621e89bb13876d2585e5755412ac",
+      "context": "Electron API > Api",
+      "contextHash": "fd3e934035c5b6ae55b3c7fe6d308544575e1937ea49e31d02cfa56cc7b69de9",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_e12b2e164538b2525db34173_0",
+      "kind": "td",
+      "source": "__TRILIUM_PH_0____TRILIUM_PH_1____TRILIUM_PH_2__  __TRILIUM_PH_3__Shell integration — opening URLs, files, and downloads with OS handlers.",
+      "sourceHash": "e12b2e164538b2525db34173b497b254d9c7164d634da4f1e1bbea4a8c348bd3",
+      "context": "Electron API > Api",
+      "contextHash": "fd3e934035c5b6ae55b3c7fe6d308544575e1937ea49e31d02cfa56cc7b69de9",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_25410f7d8b7052263f3074cd_0",
+      "kind": "td",
+      "source": "__TRILIUM_PH_0____TRILIUM_PH_1____TRILIUM_PH_2__  __TRILIUM_PH_3__Native context-menu plumbing for right-click events on web contents.",
+      "sourceHash": "25410f7d8b7052263f3074cd14fc9d1bc3eeb4fd2f78d88eaff6a651f224bcfd",
+      "context": "Electron API > Api",
+      "contextHash": "fd3e934035c5b6ae55b3c7fe6d308544575e1937ea49e31d02cfa56cc7b69de9",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_d1d1a62b5bd35b8a303b1e1b_0",
+      "kind": "td",
+      "source": "__TRILIUM_PH_0____TRILIUM_PH_1____TRILIUM_PH_2__  __TRILIUM_PH_3__Chromium spell checker controls (dictionary, language list).",
+      "sourceHash": "d1d1a62b5bd35b8a303b1e1b5525da30198d691d0fa835da55bf9a9bbaa9cddf",
+      "context": "Electron API > Api",
+      "contextHash": "fd3e934035c5b6ae55b3c7fe6d308544575e1937ea49e31d02cfa56cc7b69de9",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_46b9045d96e3814c965c2fb8_0",
+      "kind": "td",
+      "source": "__TRILIUM_PH_0____TRILIUM_PH_1____TRILIUM_PH_2__  __TRILIUM_PH_3__OS integration — system tray and autostart / launch-on-login.",
+      "sourceHash": "46b9045d96e3814c965c2fb8fe6524be6f830c0b5ef08f3cd248ce196ff02a38",
+      "context": "Electron API > Api",
+      "contextHash": "fd3e934035c5b6ae55b3c7fe6d308544575e1937ea49e31d02cfa56cc7b69de9",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_567596cdf68f86d59813ae5d_0",
+      "kind": "td",
+      "source": "__TRILIUM_PH_0____TRILIUM_PH_1____TRILIUM_PH_2__  __TRILIUM_PH_3__Printing and PDF export pipeline.",
+      "sourceHash": "567596cdf68f86d59813ae5d3f87a465beb7f9f3004cde1c646c19c7bfd91e10",
+      "context": "Electron API > Api",
+      "contextHash": "fd3e934035c5b6ae55b3c7fe6d308544575e1937ea49e31d02cfa56cc7b69de9",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_e75c3966c3044abdd6af1bb8_0",
+      "kind": "td",
+      "source": "__TRILIUM_PH_0____TRILIUM_PH_1____TRILIUM_PH_2__  __TRILIUM_PH_3__Read/write access to Chromium's back/forward navigation history.",
+      "sourceHash": "e75c3966c3044abdd6af1bb8094648a543f6d863477f69f3230cebb71205733d",
+      "context": "Electron API > Api",
+      "contextHash": "fd3e934035c5b6ae55b3c7fe6d308544575e1937ea49e31d02cfa56cc7b69de9",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_84299cad830f5db0e13f08e3_0",
+      "kind": "td",
+      "source": "__TRILIUM_PH_0____TRILIUM_PH_1____TRILIUM_PH_2__  __TRILIUM_PH_3__In-process bridge that replaces the renderer↔server WebSocket.",
+      "sourceHash": "84299cad830f5db0e13f08e37b2497af370e8e313a46f18fc1dfb6ad52b3b627",
+      "context": "Electron API > Api",
+      "contextHash": "fd3e934035c5b6ae55b3c7fe6d308544575e1937ea49e31d02cfa56cc7b69de9",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_8042e2fc88d9b555b26f36b1_0",
+      "kind": "td",
+      "source": "__TRILIUM_PH_0____TRILIUM_PH_1____TRILIUM_PH_2__  __TRILIUM_PH_3__Security settings (backend scripting, SQL console) stored outside the DB.",
+      "sourceHash": "8042e2fc88d9b555b26f36b19978ad83ab407abfa58cae511f847aae32340925",
+      "context": "Electron API > Api",
+      "contextHash": "fd3e934035c5b6ae55b3c7fe6d308544575e1937ea49e31d02cfa56cc7b69de9",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_303d56610d07878d749e9061_0",
+      "kind": "td",
+      "source": "__TRILIUM_PH_0____TRILIUM_PH_1____TRILIUM_PH_2__  __TRILIUM_PH_3__Write-only access to the backup passphrase, kept in the OS keyring.",
+      "sourceHash": "303d56610d07878d749e9061c19fd6dca22f6c4a6bb74f409c75748e4a575e0e",
+      "context": "Electron API > Api",
+      "contextHash": "fd3e934035c5b6ae55b3c7fe6d308544575e1937ea49e31d02cfa56cc7b69de9",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_3e30d71e20facc5caa5dc8c5_0",
+      "kind": "td",
+      "source": "__TRILIUM_PH_0____TRILIUM_PH_1____TRILIUM_PH_2__  __TRILIUM_PH_3__OneNote importer sign-in via a loopback OAuth redirect (desktop only).",
+      "sourceHash": "3e30d71e20facc5caa5dc8c55086f5ae0c1fa1b862155c2055da247c3815e4d0",
+      "context": "Electron API > Api",
+      "contextHash": "fd3e934035c5b6ae55b3c7fe6d308544575e1937ea49e31d02cfa56cc7b69de9",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_03fe11710d17d23ce41456db_0",
+      "kind": "td",
+      "source": "__TRILIUM_PH_0____TRILIUM_PH_1____TRILIUM_PH_2__  __TRILIUM_PH_3__Desktop-native subtree export that streams a __TRILIUM_PH_4__ straight to a file.",
+      "sourceHash": "03fe11710d17d23ce41456db7bf4c6e51601d21d119798d30d5337824f1f44a4",
+      "context": "Electron API > Api",
+      "contextHash": "fd3e934035c5b6ae55b3c7fe6d308544575e1937ea49e31d02cfa56cc7b69de9",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_826e4900b903339c95f3f90d_0",
+      "kind": "td",
+      "source": "__TRILIUM_PH_0____TRILIUM_PH_1____TRILIUM_PH_2__  __TRILIUM_PH_3__Desktop-native large-__TRILIUM_PH_4__ import that reads the user's file in place via a capability token.",
+      "sourceHash": "826e4900b903339c95f3f90dc8ea57750495f79d08710e9a91295dfee75895fa",
+      "context": "Electron API > Api",
+      "contextHash": "fd3e934035c5b6ae55b3c7fe6d308544575e1937ea49e31d02cfa56cc7b69de9",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_a05411db7137ddef2fa355ad_0",
+      "kind": "td",
+      "source": "__TRILIUM_PH_0____TRILIUM_PH_1____TRILIUM_PH_2__  __TRILIUM_PH_3__Native OS pickers that hand the renderer a location the user chose themselves.",
+      "sourceHash": "a05411db7137ddef2fa355adbf54e31441b2a23f6361b10298e3f4ff10776815",
+      "context": "Electron API > Api",
+      "contextHash": "fd3e934035c5b6ae55b3c7fe6d308544575e1937ea49e31d02cfa56cc7b69de9",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_9436880c7c00a116ab4dba56_0",
+      "kind": "td",
+      "source": "__TRILIUM_PH_0____TRILIUM_PH_1____TRILIUM_PH_2__  __TRILIUM_PH_3__Choosing a backup to restore during setup, read where it lies rather than uploaded.",
+      "sourceHash": "9436880c7c00a116ab4dba56371949c1b1a03b3a4ff6413ae92535ff30cad79d",
+      "context": "Electron API > Api",
+      "contextHash": "fd3e934035c5b6ae55b3c7fe6d308544575e1937ea49e31d02cfa56cc7b69de9",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_844eed464d9ce9fa5c1be1d2_0",
+      "kind": "td",
+      "source": "__TRILIUM_PH_0____TRILIUM_PH_1____TRILIUM_PH_2__  __TRILIUM_PH_3__Meeting transcription: starting and stopping a recording, and following its state.",
+      "sourceHash": "844eed464d9ce9fa5c1be1d248858c1108f094cac84d1fc6adea838cb8bf48e3",
+      "context": "Electron API > Api",
+      "contextHash": "fd3e934035c5b6ae55b3c7fe6d308544575e1937ea49e31d02cfa56cc7b69de9",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_7e58846e8df46278fa3f5ad1_0",
+      "kind": "p",
+      "source": "Window-level controls: zoom, theme, title bar, full screen, lifecycle, and a handful of main → renderer event subscriptions.",
+      "sourceHash": "7e58846e8df46278fa3f5ad187d9aa4cd030711ec8fcd7d44607d3f94c87478e",
+      "context": "Electron API > WindowApi",
+      "contextHash": "77277e8c17896a13b0b70bdf931805023ed5fc4912b399770c1057c8ef17e228",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_a33ca01911db4eb061a7b1f7_0",
+      "kind": "th",
+      "source": "Member",
+      "sourceHash": "a33ca01911db4eb061a7b1f7e51ead5f200300c1d4862b5200c519f99d74366a",
+      "context": "Electron API > WindowApi",
+      "contextHash": "77277e8c17896a13b0b70bdf931805023ed5fc4912b399770c1057c8ef17e228",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_4b00baa636b92e18b7a75884_1",
+      "kind": "th",
+      "source": "Description",
+      "sourceHash": "4b00baa636b92e18b7a75884790f0769c3e702d20d8822e708f69ab2f07c7103",
+      "context": "Electron API > WindowApi",
+      "contextHash": "77277e8c17896a13b0b70bdf931805023ed5fc4912b399770c1057c8ef17e228",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_5a08ec849ade870fc297deb4_0",
+      "kind": "p",
+      "source": "Sets the page zoom factor for the current window.",
+      "sourceHash": "5a08ec849ade870fc297deb4e977d2528051d8a75826ecc62267c95cbbb308c3",
+      "context": "Electron API > WindowApi",
+      "contextHash": "77277e8c17896a13b0b70bdf931805023ed5fc4912b399770c1057c8ef17e228",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_d0ea24bdd89e09dce64d91c7_0",
+      "kind": "th",
+      "source": "Parameter",
+      "sourceHash": "d0ea24bdd89e09dce64d91c78db27d63c085d49c77361387a3546a025ab6d000",
+      "context": "Electron API > WindowApi",
+      "contextHash": "77277e8c17896a13b0b70bdf931805023ed5fc4912b399770c1057c8ef17e228",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_4b00baa636b92e18b7a75884_2",
+      "kind": "th",
+      "source": "Description",
+      "sourceHash": "4b00baa636b92e18b7a75884790f0769c3e702d20d8822e708f69ab2f07c7103",
+      "context": "Electron API > WindowApi",
+      "contextHash": "77277e8c17896a13b0b70bdf931805023ed5fc4912b399770c1057c8ef17e228",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_87b41dbf23df5e27f9f90dd5_0",
+      "kind": "td",
+      "source": "__TRILIUM_PH_0____TRILIUM_PH_1____TRILIUM_PH_2__ is 100%; e.g. __TRILIUM_PH_3__ zooms to 120%.",
+      "sourceHash": "87b41dbf23df5e27f9f90dd5c2441d25a3328f92e05895fb63975a612730b3ba",
+      "context": "Electron API > WindowApi",
+      "contextHash": "77277e8c17896a13b0b70bdf931805023ed5fc4912b399770c1057c8ef17e228",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_ea48467c76031d8ebb217dc2_0",
+      "kind": "p",
+      "source": "Returns the current page zoom factor (__TRILIUM_PH_0__ = 100%).",
+      "sourceHash": "ea48467c76031d8ebb217dc2a1f868431c06a7e7ce90159b38172c9b0f9dacee",
+      "context": "Electron API > WindowApi",
+      "contextHash": "77277e8c17896a13b0b70bdf931805023ed5fc4912b399770c1057c8ef17e228",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_8f7734c059aef83d7b6fdc4a_0",
+      "kind": "p",
+      "source": "Overrides the operating system's reported color scheme for this app.",
+      "sourceHash": "8f7734c059aef83d7b6fdc4aba3c25e0097488fd9149ace2e1337f0bc608ff09",
+      "context": "Electron API > WindowApi",
+      "contextHash": "77277e8c17896a13b0b70bdf931805023ed5fc4912b399770c1057c8ef17e228",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_d0ea24bdd89e09dce64d91c7_1",
+      "kind": "th",
+      "source": "Parameter",
+      "sourceHash": "d0ea24bdd89e09dce64d91c78db27d63c085d49c77361387a3546a025ab6d000",
+      "context": "Electron API > WindowApi",
+      "contextHash": "77277e8c17896a13b0b70bdf931805023ed5fc4912b399770c1057c8ef17e228",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_4b00baa636b92e18b7a75884_3",
+      "kind": "th",
+      "source": "Description",
+      "sourceHash": "4b00baa636b92e18b7a75884790f0769c3e702d20d8822e708f69ab2f07c7103",
+      "context": "Electron API > WindowApi",
+      "contextHash": "77277e8c17896a13b0b70bdf931805023ed5fc4912b399770c1057c8ef17e228",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_d3262c048654da57623b3c82_0",
+      "kind": "td",
+      "source": "__TRILIUM_PH_0____TRILIUM_PH_1__The color scheme to report, or __TRILIUM_PH_2__ to follow the OS setting.",
+      "sourceHash": "d3262c048654da57623b3c8203b9bfc7ecc940a4d8805f3bdccab9ece8abddb6",
+      "context": "Electron API > WindowApi",
+      "contextHash": "77277e8c17896a13b0b70bdf931805023ed5fc4912b399770c1057c8ef17e228",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_1fe8d565731565588c512eab_0",
+      "kind": "p",
+      "source": "Customizes the Windows and Linux native title bar overlay (the area containing the minimize / maximize / close buttons). __TRILIUM_PH_0__ also controls their vertical placement, since the buttons are centered within the overlay. It is given in device-independent pixels, which the page zoom does not scale — see __TRILIUM_PH_1__.",
+      "sourceHash": "1fe8d565731565588c512eab76fb226d9b63ab566ccd1e674ec052018856d356",
+      "context": "Electron API > WindowApi",
+      "contextHash": "77277e8c17896a13b0b70bdf931805023ed5fc4912b399770c1057c8ef17e228",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_d0ea24bdd89e09dce64d91c7_2",
+      "kind": "th",
+      "source": "Parameter",
+      "sourceHash": "d0ea24bdd89e09dce64d91c78db27d63c085d49c77361387a3546a025ab6d000",
+      "context": "Electron API > WindowApi",
+      "contextHash": "77277e8c17896a13b0b70bdf931805023ed5fc4912b399770c1057c8ef17e228",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_4b00baa636b92e18b7a75884_4",
+      "kind": "th",
+      "source": "Description",
+      "sourceHash": "4b00baa636b92e18b7a75884790f0769c3e702d20d8822e708f69ab2f07c7103",
+      "context": "Electron API > WindowApi",
+      "contextHash": "77277e8c17896a13b0b70bdf931805023ed5fc4912b399770c1057c8ef17e228",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_92b04398047ddad0c54a9845_0",
+      "kind": "td",
+      "source": "__TRILIUM_PH_0____TRILIUM_PH_1__The overlay's background color, the color of the button symbols, and the overlay's height.",
+      "sourceHash": "92b04398047ddad0c54a984555be6dab4371c3889f2b07b16ce785aad8c56d4e",
+      "context": "Electron API > WindowApi",
+      "contextHash": "77277e8c17896a13b0b70bdf931805023ed5fc4912b399770c1057c8ef17e228",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_69c7db94ce09cadc5cf58fe8_0",
+      "kind": "p",
+      "source": "Repositions the macOS traffic-light window buttons. Coordinates are relative to the window's top-left corner and given in device-independent pixels: the buttons are drawn by the system rather than by the page, so unlike the surrounding chrome they are unaffected by the page zoom factor and callers have to scale the offsets themselves.",
+      "sourceHash": "69c7db94ce09cadc5cf58fe8388600c5e6ca5074b9bbbe0a050f6aba9b08718b",
+      "context": "Electron API > WindowApi",
+      "contextHash": "77277e8c17896a13b0b70bdf931805023ed5fc4912b399770c1057c8ef17e228",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_d0ea24bdd89e09dce64d91c7_3",
+      "kind": "th",
+      "source": "Parameter",
+      "sourceHash": "d0ea24bdd89e09dce64d91c78db27d63c085d49c77361387a3546a025ab6d000",
+      "context": "Electron API > WindowApi",
+      "contextHash": "77277e8c17896a13b0b70bdf931805023ed5fc4912b399770c1057c8ef17e228",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_4b00baa636b92e18b7a75884_5",
+      "kind": "th",
+      "source": "Description",
+      "sourceHash": "4b00baa636b92e18b7a75884790f0769c3e702d20d8822e708f69ab2f07c7103",
+      "context": "Electron API > WindowApi",
+      "contextHash": "77277e8c17896a13b0b70bdf931805023ed5fc4912b399770c1057c8ef17e228",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_a98de9916bbd1778e8bbb721_0",
+      "kind": "td",
+      "source": "__TRILIUM_PH_0____TRILIUM_PH_1__The offset of the buttons from the window's top-left corner.",
+      "sourceHash": "a98de9916bbd1778e8bbb7219b7d40f0373dd32c2575b49003b6248d0addc7fd",
+      "context": "Electron API > WindowApi",
+      "contextHash": "77277e8c17896a13b0b70bdf931805023ed5fc4912b399770c1057c8ef17e228",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_5431d6b4a3401b669081c61c_0",
+      "kind": "p",
+      "source": "Registers a callback fired whenever the window enters full-screen mode.",
+      "sourceHash": "5431d6b4a3401b669081c61c87a86f36ee791668b253f69932f3dd4763327efd",
+      "context": "Electron API > WindowApi",
+      "contextHash": "77277e8c17896a13b0b70bdf931805023ed5fc4912b399770c1057c8ef17e228",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_fa5518e00e615539531aa012_0",
+      "kind": "p",
+      "source": "Registers a callback fired whenever the window leaves full-screen mode.",
+      "sourceHash": "fa5518e00e615539531aa0125ebfea7e7607cd59b0af066b21bc3333994e1e69",
+      "context": "Electron API > WindowApi",
+      "contextHash": "77277e8c17896a13b0b70bdf931805023ed5fc4912b399770c1057c8ef17e228",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_79d40637ceeb6fa0ccc36b58_0",
+      "kind": "p",
+      "source": "Synchronously returns whether the window is currently in full-screen mode.",
+      "sourceHash": "79d40637ceeb6fa0ccc36b588275c0c68c389e7f24cce4e40a4b148e3af687e6",
+      "context": "Electron API > WindowApi",
+      "contextHash": "77277e8c17896a13b0b70bdf931805023ed5fc4912b399770c1057c8ef17e228",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_64491cc6205cb27ed8aa0d69_0",
+      "kind": "p",
+      "source": "Enters or leaves full-screen mode.",
+      "sourceHash": "64491cc6205cb27ed8aa0d698978f358aff6406d55093355060f036320deb44f",
+      "context": "Electron API > WindowApi",
+      "contextHash": "77277e8c17896a13b0b70bdf931805023ed5fc4912b399770c1057c8ef17e228",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_d0ea24bdd89e09dce64d91c7_4",
+      "kind": "th",
+      "source": "Parameter",
+      "sourceHash": "d0ea24bdd89e09dce64d91c78db27d63c085d49c77361387a3546a025ab6d000",
+      "context": "Electron API > WindowApi",
+      "contextHash": "77277e8c17896a13b0b70bdf931805023ed5fc4912b399770c1057c8ef17e228",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_4b00baa636b92e18b7a75884_6",
+      "kind": "th",
+      "source": "Description",
+      "sourceHash": "4b00baa636b92e18b7a75884790f0769c3e702d20d8822e708f69ab2f07c7103",
+      "context": "Electron API > WindowApi",
+      "contextHash": "77277e8c17896a13b0b70bdf931805023ed5fc4912b399770c1057c8ef17e228",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_e36d7a2a116ad7422a1e3215_0",
+      "kind": "td",
+      "source": "__TRILIUM_PH_0____TRILIUM_PH_1____TRILIUM_PH_2__ to enter full-screen mode, __TRILIUM_PH_3__ to leave it.",
+      "sourceHash": "e36d7a2a116ad7422a1e32151503d6f4af4058660d960f84c2b1138b423437f4",
+      "context": "Electron API > WindowApi",
+      "contextHash": "77277e8c17896a13b0b70bdf931805023ed5fc4912b399770c1057c8ef17e228",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_d528e20992f7ff6299a5d971_0",
+      "kind": "p",
+      "source": "Minimizes the current window to the taskbar / dock.",
+      "sourceHash": "d528e20992f7ff6299a5d97150975970607944bc6f6755a8668f17b86d91fdf9",
+      "context": "Electron API > WindowApi",
+      "contextHash": "77277e8c17896a13b0b70bdf931805023ed5fc4912b399770c1057c8ef17e228",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_d82c6da5b7a03b81bd661720_0",
+      "kind": "p",
+      "source": "Maximizes the current window to fill the available screen area.",
+      "sourceHash": "d82c6da5b7a03b81bd66172007b50fe11cb04a75d6d1c0f8534324c58f6e3f7e",
+      "context": "Electron API > WindowApi",
+      "contextHash": "77277e8c17896a13b0b70bdf931805023ed5fc4912b399770c1057c8ef17e228",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_8816872f3051fab7b8850d80_0",
+      "kind": "p",
+      "source": "Restores the window from a maximized state to its previous size.",
+      "sourceHash": "8816872f3051fab7b8850d80aa50b08a8658b30c9f104425863fe02c45dfa68b",
+      "context": "Electron API > WindowApi",
+      "contextHash": "77277e8c17896a13b0b70bdf931805023ed5fc4912b399770c1057c8ef17e228",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_71b5a47ff4cf609f377c55c2_0",
+      "kind": "p",
+      "source": "Synchronously returns whether the window is currently maximized.",
+      "sourceHash": "71b5a47ff4cf609f377c55c23c62064c4eaf0ab0580fc75785722f27d2f7ab99",
+      "context": "Electron API > WindowApi",
+      "contextHash": "77277e8c17896a13b0b70bdf931805023ed5fc4912b399770c1057c8ef17e228",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_f723632e1a3baabf331673b4_0",
+      "kind": "p",
+      "source": "Closes the current window.",
+      "sourceHash": "f723632e1a3baabf331673b4e9a2a6179abd50e9aca32592460f75c094b64ad2",
+      "context": "Electron API > WindowApi",
+      "contextHash": "77277e8c17896a13b0b70bdf931805023ed5fc4912b399770c1057c8ef17e228",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_71009b10bec961e30da35cc1_0",
+      "kind": "p",
+      "source": "Synchronously returns whether the window is pinned above all others.",
+      "sourceHash": "71009b10bec961e30da35cc1fb77de36dae3a780e38ea44f203ff6e1194aed56",
+      "context": "Electron API > WindowApi",
+      "contextHash": "77277e8c17896a13b0b70bdf931805023ed5fc4912b399770c1057c8ef17e228",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_f57cb1b8dbc839b37577b6aa_0",
+      "kind": "p",
+      "source": "Pins the window above all others, or unpins it.",
+      "sourceHash": "f57cb1b8dbc839b37577b6aa62842b2a71007745fe6aedb29b004b45bd0a4eab",
+      "context": "Electron API > WindowApi",
+      "contextHash": "77277e8c17896a13b0b70bdf931805023ed5fc4912b399770c1057c8ef17e228",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_d0ea24bdd89e09dce64d91c7_5",
+      "kind": "th",
+      "source": "Parameter",
+      "sourceHash": "d0ea24bdd89e09dce64d91c78db27d63c085d49c77361387a3546a025ab6d000",
+      "context": "Electron API > WindowApi",
+      "contextHash": "77277e8c17896a13b0b70bdf931805023ed5fc4912b399770c1057c8ef17e228",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_4b00baa636b92e18b7a75884_7",
+      "kind": "th",
+      "source": "Description",
+      "sourceHash": "4b00baa636b92e18b7a75884790f0769c3e702d20d8822e708f69ab2f07c7103",
+      "context": "Electron API > WindowApi",
+      "contextHash": "77277e8c17896a13b0b70bdf931805023ed5fc4912b399770c1057c8ef17e228",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_f1966c4257cdf1d88af3e034_0",
+      "kind": "td",
+      "source": "__TRILIUM_PH_0____TRILIUM_PH_1____TRILIUM_PH_2__ to pin the window, __TRILIUM_PH_3__ to unpin it.",
+      "sourceHash": "f1966c4257cdf1d88af3e0347a22cc6bdf5fa06d2ac033f25dcfb947acbeec3f",
+      "context": "Electron API > WindowApi",
+      "contextHash": "77277e8c17896a13b0b70bdf931805023ed5fc4912b399770c1057c8ef17e228",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_5374e89f4695f673e3d47497_0",
+      "kind": "p",
+      "source": "Opens or closes Chromium DevTools for the current window.",
+      "sourceHash": "5374e89f4695f673e3d4749788f736e43ee9c97d5770ea870c6cafe205a6d68e",
+      "context": "Electron API > WindowApi",
+      "contextHash": "77277e8c17896a13b0b70bdf931805023ed5fc4912b399770c1057c8ef17e228",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_aefc5fd50435f0760b99eefb_0",
+      "kind": "p",
+      "source": "Synchronously returns whether DevTools is currently open and docked into this window (as opposed to detached into a separate window).",
+      "sourceHash": "aefc5fd50435f0760b99eefbac3f05bd1f2b62feda5e48089ebe987f19707614",
+      "context": "Electron API > WindowApi",
+      "contextHash": "77277e8c17896a13b0b70bdf931805023ed5fc4912b399770c1057c8ef17e228",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_d827ce5f334f212167bb707c_0",
+      "kind": "p",
+      "source": "Sets the Windows 11 backdrop material applied behind the window contents. No-op on other platforms.",
+      "sourceHash": "d827ce5f334f212167bb707ccfe9d6a5161823856133bab7a95b32463c7052d7",
+      "context": "Electron API > WindowApi",
+      "contextHash": "77277e8c17896a13b0b70bdf931805023ed5fc4912b399770c1057c8ef17e228",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_d0ea24bdd89e09dce64d91c7_6",
+      "kind": "th",
+      "source": "Parameter",
+      "sourceHash": "d0ea24bdd89e09dce64d91c78db27d63c085d49c77361387a3546a025ab6d000",
+      "context": "Electron API > WindowApi",
+      "contextHash": "77277e8c17896a13b0b70bdf931805023ed5fc4912b399770c1057c8ef17e228",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_4b00baa636b92e18b7a75884_8",
+      "kind": "th",
+      "source": "Description",
+      "sourceHash": "4b00baa636b92e18b7a75884790f0769c3e702d20d8822e708f69ab2f07c7103",
+      "context": "Electron API > WindowApi",
+      "contextHash": "77277e8c17896a13b0b70bdf931805023ed5fc4912b399770c1057c8ef17e228",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_b7e4bf5db3e984e29b6524e2_0",
+      "kind": "td",
+      "source": "__TRILIUM_PH_0____TRILIUM_PH_1__The material, such as __TRILIUM_PH_2__, __TRILIUM_PH_3__, __TRILIUM_PH_4__ or __TRILIUM_PH_5__.",
+      "sourceHash": "b7e4bf5db3e984e29b6524e2c77d89b45be1d38d0be52ff997aec3e523a7be6d",
+      "context": "Electron API > WindowApi",
+      "contextHash": "77277e8c17896a13b0b70bdf931805023ed5fc4912b399770c1057c8ef17e228",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_2dc567fee228e6b5887bfa63_0",
+      "kind": "p",
+      "source": "Sets the macOS vibrancy effect applied behind the window contents. No-op on other platforms.",
+      "sourceHash": "2dc567fee228e6b5887bfa636b86b9e536b1d93e73d8f541c7f8dc78897e2366",
+      "context": "Electron API > WindowApi",
+      "contextHash": "77277e8c17896a13b0b70bdf931805023ed5fc4912b399770c1057c8ef17e228",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_d0ea24bdd89e09dce64d91c7_7",
+      "kind": "th",
+      "source": "Parameter",
+      "sourceHash": "d0ea24bdd89e09dce64d91c78db27d63c085d49c77361387a3546a025ab6d000",
+      "context": "Electron API > WindowApi",
+      "contextHash": "77277e8c17896a13b0b70bdf931805023ed5fc4912b399770c1057c8ef17e228",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_4b00baa636b92e18b7a75884_9",
+      "kind": "th",
+      "source": "Description",
+      "sourceHash": "4b00baa636b92e18b7a75884790f0769c3e702d20d8822e708f69ab2f07c7103",
+      "context": "Electron API > WindowApi",
+      "contextHash": "77277e8c17896a13b0b70bdf931805023ed5fc4912b399770c1057c8ef17e228",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_52dc0929129a918e8b11c6c2_0",
+      "kind": "td",
+      "source": "__TRILIUM_PH_0____TRILIUM_PH_1__The effect, such as __TRILIUM_PH_2__, __TRILIUM_PH_3__ or __TRILIUM_PH_4__.",
+      "sourceHash": "52dc0929129a918e8b11c6c22ad51aeeb1ba33e08004cc3ab8f4e4c5873409bb",
+      "context": "Electron API > WindowApi",
+      "contextHash": "77277e8c17896a13b0b70bdf931805023ed5fc4912b399770c1057c8ef17e228",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_9034406667c140e6d91fa943_0",
+      "kind": "p",
+      "source": "Triggers a hard reload of every open Trilium window.",
+      "sourceHash": "9034406667c140e6d91fa9435e1779d071d3356af7ce553b03530b9ae0bf6b75",
+      "context": "Electron API > WindowApi",
+      "contextHash": "77277e8c17896a13b0b70bdf931805023ed5fc4912b399770c1057c8ef17e228",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_60cb278d22195021ca46524f_0",
+      "kind": "p",
+      "source": "Quits the app and immediately relaunches it.",
+      "sourceHash": "60cb278d22195021ca46524f08790f0a39c5f48bc8ee0be7cab50a7bc02aec98",
+      "context": "Electron API > WindowApi",
+      "contextHash": "77277e8c17896a13b0b70bdf931805023ed5fc4912b399770c1057c8ef17e228",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_b8c42f35f37dbc2a0891bea5_0",
+      "kind": "p",
+      "source": "Shows all hidden windows or hides all visible ones — used by the \"show/hide app\" global shortcut and tray menu entry.",
+      "sourceHash": "b8c42f35f37dbc2a0891bea50c6c219c4b3b8b1cb4d8107e36043817676d6f28",
+      "context": "Electron API > WindowApi",
+      "contextHash": "77277e8c17896a13b0b70bdf931805023ed5fc4912b399770c1057c8ef17e228",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_ca6f0658951649c90fec9923_0",
+      "kind": "p",
+      "source": "Clears the underlying Chromium HTTP cache. Resolves once the cache is empty.",
+      "sourceHash": "ca6f0658951649c90fec9923ecbeefa40f648d4e5caa1c1baff30059d056f4d0",
+      "context": "Electron API > WindowApi",
+      "contextHash": "77277e8c17896a13b0b70bdf931805023ed5fc4912b399770c1057c8ef17e228",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_f9be30f4181f442f86ab9915_0",
+      "kind": "p",
+      "source": "Brings the main window to the foreground, restoring it if minimized.",
+      "sourceHash": "f9be30f4181f442f86ab9915475c628987fdcaa52df32cf53eb46bbca35cd3f0",
+      "context": "Electron API > WindowApi",
+      "contextHash": "77277e8c17896a13b0b70bdf931805023ed5fc4912b399770c1057c8ef17e228",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_8b37ec865302fcf3d6e4c6db_0",
+      "kind": "p",
+      "source": "Reports a renderer startup milestone to the main process, which records it relative to OS process creation alongside the main-process startup metrics. Only the first report of each metric is recorded; later reports (e.g. after a window reload or from extra windows) are ignored.",
+      "sourceHash": "8b37ec865302fcf3d6e4c6db2dc73679b2b45b0ed9085b4fec5b7d61523ebb2a",
+      "context": "Electron API > WindowApi",
+      "contextHash": "77277e8c17896a13b0b70bdf931805023ed5fc4912b399770c1057c8ef17e228",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_d0ea24bdd89e09dce64d91c7_8",
+      "kind": "th",
+      "source": "Parameter",
+      "sourceHash": "d0ea24bdd89e09dce64d91c78db27d63c085d49c77361387a3546a025ab6d000",
+      "context": "Electron API > WindowApi",
+      "contextHash": "77277e8c17896a13b0b70bdf931805023ed5fc4912b399770c1057c8ef17e228",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_4b00baa636b92e18b7a75884_10",
+      "kind": "th",
+      "source": "Description",
+      "sourceHash": "4b00baa636b92e18b7a75884790f0769c3e702d20d8822e708f69ab2f07c7103",
+      "context": "Electron API > WindowApi",
+      "contextHash": "77277e8c17896a13b0b70bdf931805023ed5fc4912b399770c1057c8ef17e228",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_d6527ba5319819b91bf8a1d9_0",
+      "kind": "td",
+      "source": "__TRILIUM_PH_0____TRILIUM_PH_1__The milestone the renderer reached.",
+      "sourceHash": "d6527ba5319819b91bf8a1d93f22b294dfebb98af351da6933332beae486885e",
+      "context": "Electron API > WindowApi",
+      "contextHash": "77277e8c17896a13b0b70bdf931805023ed5fc4912b399770c1057c8ef17e228",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_7019ae79b393436bf8d10ec1_0",
+      "kind": "p",
+      "source": "Subscribes to globally registered keyboard shortcuts.",
+      "sourceHash": "7019ae79b393436bf8d10ec1f0a1d473b64052481ba20dcf1a722a751d1257e9",
+      "context": "Electron API > WindowApi",
+      "contextHash": "77277e8c17896a13b0b70bdf931805023ed5fc4912b399770c1057c8ef17e228",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_d0ea24bdd89e09dce64d91c7_9",
+      "kind": "th",
+      "source": "Parameter",
+      "sourceHash": "d0ea24bdd89e09dce64d91c78db27d63c085d49c77361387a3546a025ab6d000",
+      "context": "Electron API > WindowApi",
+      "contextHash": "77277e8c17896a13b0b70bdf931805023ed5fc4912b399770c1057c8ef17e228",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_4b00baa636b92e18b7a75884_11",
+      "kind": "th",
+      "source": "Description",
+      "sourceHash": "4b00baa636b92e18b7a75884790f0769c3e702d20d8822e708f69ab2f07c7103",
+      "context": "Electron API > WindowApi",
+      "contextHash": "77277e8c17896a13b0b70bdf931805023ed5fc4912b399770c1057c8ef17e228",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_48ccad2f00ee73067e0a58f3_0",
+      "kind": "td",
+      "source": "__TRILIUM_PH_0____TRILIUM_PH_1__Receives the name of the action the shortcut triggers, not the keystroke.",
+      "sourceHash": "48ccad2f00ee73067e0a58f3a15d78933420bf3d76fc6a91836299a44b0b89a1",
+      "context": "Electron API > WindowApi",
+      "contextHash": "77277e8c17896a13b0b70bdf931805023ed5fc4912b399770c1057c8ef17e228",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_9421736523841fbbdfed177b_0",
+      "kind": "p",
+      "source": "Subscribes to \"open note in active tab\" requests originating from outside the renderer (e.g. tray menu, deep links).",
+      "sourceHash": "9421736523841fbbdfed177b55b408c5220ec6299b051e41515a0dfcb1b33186",
+      "context": "Electron API > WindowApi",
+      "contextHash": "77277e8c17896a13b0b70bdf931805023ed5fc4912b399770c1057c8ef17e228",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_d0ea24bdd89e09dce64d91c7_10",
+      "kind": "th",
+      "source": "Parameter",
+      "sourceHash": "d0ea24bdd89e09dce64d91c78db27d63c085d49c77361387a3546a025ab6d000",
+      "context": "Electron API > WindowApi",
+      "contextHash": "77277e8c17896a13b0b70bdf931805023ed5fc4912b399770c1057c8ef17e228",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_4b00baa636b92e18b7a75884_12",
+      "kind": "th",
+      "source": "Description",
+      "sourceHash": "4b00baa636b92e18b7a75884790f0769c3e702d20d8822e708f69ab2f07c7103",
+      "context": "Electron API > WindowApi",
+      "contextHash": "77277e8c17896a13b0b70bdf931805023ed5fc4912b399770c1057c8ef17e228",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_b222fe50143696837c7c2444_0",
+      "kind": "td",
+      "source": "__TRILIUM_PH_0____TRILIUM_PH_1__Receives the ID of the note to open.",
+      "sourceHash": "b222fe50143696837c7c2444d8b69c44086fb7ee1acf240b56b367376e5eeb66",
+      "context": "Electron API > WindowApi",
+      "contextHash": "77277e8c17896a13b0b70bdf931805023ed5fc4912b399770c1057c8ef17e228",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_8f4c3cc8f5ee54fc56f7b1aa_0",
+      "kind": "p",
+      "source": "Subscribes to changes of the DevTools docking state. While DevTools is docked, Chromium disables the native window material (Mica / vibrancy).",
+      "sourceHash": "8f4c3cc8f5ee54fc56f7b1aa3d2531b1939b5fa3bad00d482d56297f49a3c985",
+      "context": "Electron API > WindowApi",
+      "contextHash": "77277e8c17896a13b0b70bdf931805023ed5fc4912b399770c1057c8ef17e228",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_d0ea24bdd89e09dce64d91c7_11",
+      "kind": "th",
+      "source": "Parameter",
+      "sourceHash": "d0ea24bdd89e09dce64d91c78db27d63c085d49c77361387a3546a025ab6d000",
+      "context": "Electron API > WindowApi",
+      "contextHash": "77277e8c17896a13b0b70bdf931805023ed5fc4912b399770c1057c8ef17e228",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_4b00baa636b92e18b7a75884_13",
+      "kind": "th",
+      "source": "Description",
+      "sourceHash": "4b00baa636b92e18b7a75884790f0769c3e702d20d8822e708f69ab2f07c7103",
+      "context": "Electron API > WindowApi",
+      "contextHash": "77277e8c17896a13b0b70bdf931805023ed5fc4912b399770c1057c8ef17e228",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_1a0c68b554793bda2d1ed3c6_0",
+      "kind": "td",
+      "source": "__TRILIUM_PH_0____TRILIUM_PH_1__Receives __TRILIUM_PH_2__ while DevTools is attached to this window, and __TRILIUM_PH_3__ when it is closed or in a separate window.",
+      "sourceHash": "1a0c68b554793bda2d1ed3c65b4bedfdcaa7471c90276565495b86ddeb657d79",
+      "context": "Electron API > WindowApi",
+      "contextHash": "77277e8c17896a13b0b70bdf931805023ed5fc4912b399770c1057c8ef17e228",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_a03244ed518b375e313340bc_0",
+      "kind": "p",
+      "source": "Renderer access to the system clipboard for cases the standard Web API can't cover.",
+      "sourceHash": "a03244ed518b375e313340bc793b57c8a128b95a08a589be2bf02e84b56f6b6d",
+      "context": "Electron API > ClipboardApi",
+      "contextHash": "39bb01fe0e3402a2e4e6e50fe5d1763809a9d3fd060c948eb3147de3e1d5eda3",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_a33ca01911db4eb061a7b1f7_1",
+      "kind": "th",
+      "source": "Member",
+      "sourceHash": "a33ca01911db4eb061a7b1f7e51ead5f200300c1d4862b5200c519f99d74366a",
+      "context": "Electron API > ClipboardApi",
+      "contextHash": "39bb01fe0e3402a2e4e6e50fe5d1763809a9d3fd060c948eb3147de3e1d5eda3",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_4b00baa636b92e18b7a75884_14",
+      "kind": "th",
+      "source": "Description",
+      "sourceHash": "4b00baa636b92e18b7a75884790f0769c3e702d20d8822e708f69ab2f07c7103",
+      "context": "Electron API > ClipboardApi",
+      "contextHash": "39bb01fe0e3402a2e4e6e50fe5d1763809a9d3fd060c948eb3147de3e1d5eda3",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_eb0d18464e48f70898df4461_0",
+      "kind": "p",
+      "source": "Writes a raw image (PNG-encoded bytes) to the system clipboard so it can be pasted into other applications as an image rather than as a file.",
+      "sourceHash": "eb0d18464e48f70898df4461b0d7bf80857a2f3aaeba82674f5ad3b73339372e",
+      "context": "Electron API > ClipboardApi",
+      "contextHash": "39bb01fe0e3402a2e4e6e50fe5d1763809a9d3fd060c948eb3147de3e1d5eda3",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_d0ea24bdd89e09dce64d91c7_12",
+      "kind": "th",
+      "source": "Parameter",
+      "sourceHash": "d0ea24bdd89e09dce64d91c78db27d63c085d49c77361387a3546a025ab6d000",
+      "context": "Electron API > ClipboardApi",
+      "contextHash": "39bb01fe0e3402a2e4e6e50fe5d1763809a9d3fd060c948eb3147de3e1d5eda3",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_4b00baa636b92e18b7a75884_15",
+      "kind": "th",
+      "source": "Description",
+      "sourceHash": "4b00baa636b92e18b7a75884790f0769c3e702d20d8822e708f69ab2f07c7103",
+      "context": "Electron API > ClipboardApi",
+      "contextHash": "39bb01fe0e3402a2e4e6e50fe5d1763809a9d3fd060c948eb3147de3e1d5eda3",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_98037a693ece16a9b1de9f9a_0",
+      "kind": "td",
+      "source": "__TRILIUM_PH_0____TRILIUM_PH_1__The PNG-encoded image.",
+      "sourceHash": "98037a693ece16a9b1de9f9a0e392dda1ff2f77e129b8d104a752ff60f7f0ff1",
+      "context": "Electron API > ClipboardApi",
+      "contextHash": "39bb01fe0e3402a2e4e6e50fe5d1763809a9d3fd060c948eb3147de3e1d5eda3",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_f8bcdf9e267de8fc3e258c47_0",
+      "kind": "p",
+      "source": "Reads plain text from the system clipboard via the main-process __TRILIUM_PH_0__. Used instead of __TRILIUM_PH_1__ so the renderer's deny-by-default permission policy does not have to grant the sensitive __TRILIUM_PH_2__ permission to the whole session.",
+      "sourceHash": "f8bcdf9e267de8fc3e258c4736df5e2d205b815db1d693acf2abe12994560b80",
+      "context": "Electron API > ClipboardApi",
+      "contextHash": "39bb01fe0e3402a2e4e6e50fe5d1763809a9d3fd060c948eb3147de3e1d5eda3",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_8f906da070b4ece5089b988b_0",
+      "kind": "p",
+      "source": "Reads the HTML flavor of the system clipboard, the same way as __TRILIUM_PH_0__. Empty when the clipboard has no HTML.",
+      "sourceHash": "8f906da070b4ece5089b988b70e81580fb093553a827a27699ef8f6c2234aafd",
+      "context": "Electron API > ClipboardApi",
+      "contextHash": "39bb01fe0e3402a2e4e6e50fe5d1763809a9d3fd060c948eb3147de3e1d5eda3",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_71ca0d5e82c9f4973000478a_0",
+      "kind": "p",
+      "source": "Wrappers around Electron's __TRILIUM_PH_0__ module for interacting with the OS (default browser, default file handler, downloads, etc.).",
+      "sourceHash": "71ca0d5e82c9f4973000478abcc50644498e80cc6fb9965a5dd79c19446574fe",
+      "context": "Electron API > ShellApi",
+      "contextHash": "443ccfedfac4d211ebd9e52369eec18ad220bc50385edd16ceeab09d0833985c",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_1e80891384debda3079a454f_0",
+      "kind": "p",
+      "source": "Every method here is validated in the main process before dispatch — see __TRILIUM_PH_0__. The renderer is treated as untrusted: invalid input throws on the main side rather than being silently passed through to __TRILIUM_PH_1__ / __TRILIUM_PH_2__.",
+      "sourceHash": "1e80891384debda3079a454f63098abe0bdd21af2335965520dc2656693efe53",
+      "context": "Electron API > ShellApi",
+      "contextHash": "443ccfedfac4d211ebd9e52369eec18ad220bc50385edd16ceeab09d0833985c",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_a33ca01911db4eb061a7b1f7_2",
+      "kind": "th",
+      "source": "Member",
+      "sourceHash": "a33ca01911db4eb061a7b1f7e51ead5f200300c1d4862b5200c519f99d74366a",
+      "context": "Electron API > ShellApi",
+      "contextHash": "443ccfedfac4d211ebd9e52369eec18ad220bc50385edd16ceeab09d0833985c",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_4b00baa636b92e18b7a75884_16",
+      "kind": "th",
+      "source": "Description",
+      "sourceHash": "4b00baa636b92e18b7a75884790f0769c3e702d20d8822e708f69ab2f07c7103",
+      "context": "Electron API > ShellApi",
+      "contextHash": "443ccfedfac4d211ebd9e52369eec18ad220bc50385edd16ceeab09d0833985c",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_0d47ea862333e856dee6ac39_0",
+      "kind": "p",
+      "source": "Opens a URL in the user's default external browser via __TRILIUM_PH_0__.",
+      "sourceHash": "0d47ea862333e856dee6ac394aad63016f099debcdbb4096e2f67ce5e5f7d165",
+      "context": "Electron API > ShellApi",
+      "contextHash": "443ccfedfac4d211ebd9e52369eec18ad220bc50385edd16ceeab09d0833985c",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_95b3e895caf1b0d0d504157b_0",
+      "kind": "p",
+      "source": "__TRILIUM_PH_0__Security:__TRILIUM_PH_1__ the scheme is matched against the allowlist in __TRILIUM_PH_2__ (commons). Blocked schemes include __TRILIUM_PH_3__, __TRILIUM_PH_4__, __TRILIUM_PH_5__, __TRILIUM_PH_6__, __TRILIUM_PH_7__, __TRILIUM_PH_8__, and __TRILIUM_PH_9__ — they cover Follina-class RCE primitives (__TRILIUM_PH_10__, __TRILIUM_PH_11__), NTLM credential theft, and Java loader vectors. URLs that fail to parse are rejected outright.",
+      "sourceHash": "95b3e895caf1b0d0d504157b12cf406123e9d1326f88d3681164f3721445a104",
+      "context": "Electron API > ShellApi",
+      "contextHash": "443ccfedfac4d211ebd9e52369eec18ad220bc50385edd16ceeab09d0833985c",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_d0ea24bdd89e09dce64d91c7_13",
+      "kind": "th",
+      "source": "Parameter",
+      "sourceHash": "d0ea24bdd89e09dce64d91c78db27d63c085d49c77361387a3546a025ab6d000",
+      "context": "Electron API > ShellApi",
+      "contextHash": "443ccfedfac4d211ebd9e52369eec18ad220bc50385edd16ceeab09d0833985c",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_4b00baa636b92e18b7a75884_17",
+      "kind": "th",
+      "source": "Description",
+      "sourceHash": "4b00baa636b92e18b7a75884790f0769c3e702d20d8822e708f69ab2f07c7103",
+      "context": "Electron API > ShellApi",
+      "contextHash": "443ccfedfac4d211ebd9e52369eec18ad220bc50385edd16ceeab09d0833985c",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_c1b351cde5108696680095a4_0",
+      "kind": "td",
+      "source": "__TRILIUM_PH_0____TRILIUM_PH_1__The URL to open.",
+      "sourceHash": "c1b351cde5108696680095a42c63aad4ecceb2e9502cbe19ea7a117f662381f3",
+      "context": "Electron API > ShellApi",
+      "contextHash": "443ccfedfac4d211ebd9e52369eec18ad220bc50385edd16ceeab09d0833985c",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_36f4a9a55861554f20591152_0",
+      "kind": "p",
+      "source": "Opens a local path with its default OS handler.",
+      "sourceHash": "36f4a9a55861554f2059115250487bd7b2c6c3c657426f7921405b0644410c75",
+      "context": "Electron API > ShellApi",
+      "contextHash": "443ccfedfac4d211ebd9e52369eec18ad220bc50385edd16ceeab09d0833985c",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_9b0578367ba4568688ff081a_0",
+      "kind": "p",
+      "source": "__TRILIUM_PH_0__Security:__TRILIUM_PH_1__ the path is canonicalized and must resolve to either the Trilium data directory (or a descendant) or the Trilium tmp directory (or a descendant). Anything else — absolute paths elsewhere on disk, traversal attempts, UNC paths that don't normalize under those roots — is rejected. Null bytes, empty strings, and non-existent files are also rejected, and so is a file whose extension makes the OS run it as a program (__TRILIUM_PH_2__, __TRILIUM_PH_3__, __TRILIUM_PH_4__, __TRILIUM_PH_5__, __TRILIUM_PH_6__, __TRILIUM_PH_7__, __TRILIUM_PH_8__, __TRILIUM_PH_9__, an extension in __TRILIUM_PH_10__, …): the file was written from a note, which chose its name and content.",
+      "sourceHash": "9b0578367ba4568688ff081aaf2199e6213de74e1d3530a8516066a8a40bacbb",
+      "context": "Electron API > ShellApi",
+      "contextHash": "443ccfedfac4d211ebd9e52369eec18ad220bc50385edd16ceeab09d0833985c",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_d0ea24bdd89e09dce64d91c7_14",
+      "kind": "th",
+      "source": "Parameter",
+      "sourceHash": "d0ea24bdd89e09dce64d91c78db27d63c085d49c77361387a3546a025ab6d000",
+      "context": "Electron API > ShellApi",
+      "contextHash": "443ccfedfac4d211ebd9e52369eec18ad220bc50385edd16ceeab09d0833985c",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_4b00baa636b92e18b7a75884_18",
+      "kind": "th",
+      "source": "Description",
+      "sourceHash": "4b00baa636b92e18b7a75884790f0769c3e702d20d8822e708f69ab2f07c7103",
+      "context": "Electron API > ShellApi",
+      "contextHash": "443ccfedfac4d211ebd9e52369eec18ad220bc50385edd16ceeab09d0833985c",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_eb24b848d1e862af5e5c2e7e_0",
+      "kind": "td",
+      "source": "__TRILIUM_PH_0____TRILIUM_PH_1__A file in the Trilium data or tmp directory.",
+      "sourceHash": "eb24b848d1e862af5e5c2e7e210083055fe74ef7efd80ab3cd29405210b9ca52",
+      "context": "Electron API > ShellApi",
+      "contextHash": "443ccfedfac4d211ebd9e52369eec18ad220bc50385edd16ceeab09d0833985c",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_88cc2be454c0e18b3c8dce7a_0",
+      "kind": "p",
+      "source": "__TRILIUM_PH_0__Returns__TRILIUM_PH_1__ __TRILIUM_PH_2__: An empty string on success, or an error message on failure.",
+      "sourceHash": "88cc2be454c0e18b3c8dce7af91a6d7d22c9cc3b7bb3e67cf007457e4c681a71",
+      "context": "Electron API > ShellApi",
+      "contextHash": "443ccfedfac4d211ebd9e52369eec18ad220bc50385edd16ceeab09d0833985c",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_4f85294e04bc8f5f2bc8cc9e_0",
+      "kind": "p",
+      "source": "Shows a local file in the OS file manager, with the file itself selected, via __TRILIUM_PH_0__. For pointing at a file the user is not meant to open — the database, whose reader is Trilium itself.",
+      "sourceHash": "4f85294e04bc8f5f2bc8cc9e801dd55b32bd77419eaf747deeecbdc0b0714284",
+      "context": "Electron API > ShellApi",
+      "contextHash": "443ccfedfac4d211ebd9e52369eec18ad220bc50385edd16ceeab09d0833985c",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_3ac630347c0f57992af7a6d9_0",
+      "kind": "p",
+      "source": "__TRILIUM_PH_0__Security:__TRILIUM_PH_1__ the same sandbox as __TRILIUM_PH_2__, with the database file added as a root of its own, since __TRILIUM_PH_3__ may put it outside the data directory. Revealing is the milder act of the two, the file being selected rather than launched, but a path the renderer names is still a path the renderer must not be free to choose.",
+      "sourceHash": "3ac630347c0f57992af7a6d9793114997c332c37464d8d69c1b53b12ff26f3b0",
+      "context": "Electron API > ShellApi",
+      "contextHash": "443ccfedfac4d211ebd9e52369eec18ad220bc50385edd16ceeab09d0833985c",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_0f308b21174f0c9e3d3bac9b_0",
+      "kind": "p",
+      "source": "Nothing is reported back: the OS is asked to bring a window forward, and whether it did is not something Electron answers.",
+      "sourceHash": "0f308b21174f0c9e3d3bac9b35f97e91bfd144666252b862a474851f3582ce9b",
+      "context": "Electron API > ShellApi",
+      "contextHash": "443ccfedfac4d211ebd9e52369eec18ad220bc50385edd16ceeab09d0833985c",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_d0ea24bdd89e09dce64d91c7_15",
+      "kind": "th",
+      "source": "Parameter",
+      "sourceHash": "d0ea24bdd89e09dce64d91c78db27d63c085d49c77361387a3546a025ab6d000",
+      "context": "Electron API > ShellApi",
+      "contextHash": "443ccfedfac4d211ebd9e52369eec18ad220bc50385edd16ceeab09d0833985c",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_4b00baa636b92e18b7a75884_19",
+      "kind": "th",
+      "source": "Description",
+      "sourceHash": "4b00baa636b92e18b7a75884790f0769c3e702d20d8822e708f69ab2f07c7103",
+      "context": "Electron API > ShellApi",
+      "contextHash": "443ccfedfac4d211ebd9e52369eec18ad220bc50385edd16ceeab09d0833985c",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_bede914d8217c8524ca216ac_0",
+      "kind": "td",
+      "source": "__TRILIUM_PH_0____TRILIUM_PH_1__A file in the Trilium data or tmp directory, or the database file.",
+      "sourceHash": "bede914d8217c8524ca216aca45099c3128648ffb193dc45db4c585b63a03688",
+      "context": "Electron API > ShellApi",
+      "contextHash": "443ccfedfac4d211ebd9e52369eec18ad220bc50385edd16ceeab09d0833985c",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_5de9a4ffe70c47f4349d3502_0",
+      "kind": "p",
+      "source": "Opens a __TRILIUM_PH_0__ URL with its default OS handler. Exists as a separate channel from __TRILIUM_PH_1__ because neither Electron API opens every target correctly on Windows: __TRILIUM_PH_2__ mishandles Unicode characters in __TRILIUM_PH_3__ URLs, while __TRILIUM_PH_4__ opens a directory with the Explorer-specific __TRILIUM_PH_5__ verb, bypassing the user's file manager. The main process picks between them per target.",
+      "sourceHash": "5de9a4ffe70c47f4349d3502ba24725ddb64d697d425f3dd3b67be9356c7b4c3",
+      "context": "Electron API > ShellApi",
+      "contextHash": "443ccfedfac4d211ebd9e52369eec18ad220bc50385edd16ceeab09d0833985c",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_dd3b94186518877b83cf8217_0",
+      "kind": "p",
+      "source": "__TRILIUM_PH_0__Security:__TRILIUM_PH_1__ the URL must use the __TRILIUM_PH_2__ scheme and must have an empty hostname. UNC paths (__TRILIUM_PH_3__) are explicitly blocked because Windows would otherwise resolve them to __TRILIUM_PH_4__ and leak the user's NTLM hash via SMB authentication. Drive-letter-as-host malformations like __TRILIUM_PH_5__ are normalized to __TRILIUM_PH_6__ before parsing.",
+      "sourceHash": "dd3b94186518877b83cf8217084eefb2472981ca639409d580a76f72a2f784a3",
+      "context": "Electron API > ShellApi",
+      "contextHash": "443ccfedfac4d211ebd9e52369eec18ad220bc50385edd16ceeab09d0833985c",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_6283d66a56fce4daae1636bd_0",
+      "kind": "p",
+      "source": "Note: unlike __TRILIUM_PH_0__, the resolved path is NOT confined to the Trilium data / tmp directories — this channel handles user-clicked __TRILIUM_PH_1__ links inside note content, which routinely reference arbitrary locations on disk (__TRILIUM_PH_2__ and similar). Equivalent to a browser following a __TRILIUM_PH_3__ link the user clicked. A target that would run as a program — an executable extension as refused by __TRILIUM_PH_4__, or outside Windows a file with an execute bit — opens only after the user confirms it in a native dialog that defaults to Cancel. One such dialog is shown at a time; a cancel resolves to an empty string.",
+      "sourceHash": "6283d66a56fce4daae1636bd87b4f6d3faf9e562c473cc9c1792bf6f35d8ee29",
+      "context": "Electron API > ShellApi",
+      "contextHash": "443ccfedfac4d211ebd9e52369eec18ad220bc50385edd16ceeab09d0833985c",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_d0ea24bdd89e09dce64d91c7_16",
+      "kind": "th",
+      "source": "Parameter",
+      "sourceHash": "d0ea24bdd89e09dce64d91c78db27d63c085d49c77361387a3546a025ab6d000",
+      "context": "Electron API > ShellApi",
+      "contextHash": "443ccfedfac4d211ebd9e52369eec18ad220bc50385edd16ceeab09d0833985c",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_4b00baa636b92e18b7a75884_20",
+      "kind": "th",
+      "source": "Description",
+      "sourceHash": "4b00baa636b92e18b7a75884790f0769c3e702d20d8822e708f69ab2f07c7103",
+      "context": "Electron API > ShellApi",
+      "contextHash": "443ccfedfac4d211ebd9e52369eec18ad220bc50385edd16ceeab09d0833985c",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_6ae01803cb94c2714f0089fe_0",
+      "kind": "td",
+      "source": "__TRILIUM_PH_0____TRILIUM_PH_1__A __TRILIUM_PH_2__ URL with an empty hostname.",
+      "sourceHash": "6ae01803cb94c2714f0089fed86c71f7270aa1f8add693d8918ebd9d1376f185",
+      "context": "Electron API > ShellApi",
+      "contextHash": "443ccfedfac4d211ebd9e52369eec18ad220bc50385edd16ceeab09d0833985c",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_88cc2be454c0e18b3c8dce7a_1",
+      "kind": "p",
+      "source": "__TRILIUM_PH_0__Returns__TRILIUM_PH_1__ __TRILIUM_PH_2__: An empty string on success, or an error message on failure.",
+      "sourceHash": "88cc2be454c0e18b3c8dce7af91a6d7d22c9cc3b7bb3e67cf007457e4c681a71",
+      "context": "Electron API > ShellApi",
+      "contextHash": "443ccfedfac4d211ebd9e52369eec18ad220bc50385edd16ceeab09d0833985c",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_39cd9ebb9b8b0e0cc2a1e2da_0",
+      "kind": "p",
+      "source": "Triggers a Chromium download for the given URL — the file is saved through the normal \"Save As\" flow instead of being opened in the renderer.",
+      "sourceHash": "39cd9ebb9b8b0e0cc2a1e2da4a2176c12c90cdd41bfafe33dd113824e9c17756",
+      "context": "Electron API > ShellApi",
+      "contextHash": "443ccfedfac4d211ebd9e52369eec18ad220bc50385edd16ceeab09d0833985c",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_e47d6bd2170ce2ebd5354e27_0",
+      "kind": "p",
+      "source": "__TRILIUM_PH_0__Security:__TRILIUM_PH_1__ locked to the renderer's own origin. The scheme, hostname, and port must all match the running app's origin (__TRILIUM_PH_2__ for the dev server, or the custom __TRILIUM_PH_3__ protocol for packaged Electron). Cross-origin downloads, hostless URLs (__TRILIUM_PH_4__, __TRILIUM_PH_5__, __TRILIUM_PH_6__, plain __TRILIUM_PH_7__), and unparseable URLs are rejected. This stops a compromised renderer from pre-positioning a remote payload in the user's Downloads folder under a familiar name.",
+      "sourceHash": "e47d6bd2170ce2ebd5354e27380e79d41d9eb85032c50f2096575430a8f61efa",
+      "context": "Electron API > ShellApi",
+      "contextHash": "443ccfedfac4d211ebd9e52369eec18ad220bc50385edd16ceeab09d0833985c",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_d0ea24bdd89e09dce64d91c7_17",
+      "kind": "th",
+      "source": "Parameter",
+      "sourceHash": "d0ea24bdd89e09dce64d91c78db27d63c085d49c77361387a3546a025ab6d000",
+      "context": "Electron API > ShellApi",
+      "contextHash": "443ccfedfac4d211ebd9e52369eec18ad220bc50385edd16ceeab09d0833985c",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_4b00baa636b92e18b7a75884_21",
+      "kind": "th",
+      "source": "Description",
+      "sourceHash": "4b00baa636b92e18b7a75884790f0769c3e702d20d8822e708f69ab2f07c7103",
+      "context": "Electron API > ShellApi",
+      "contextHash": "443ccfedfac4d211ebd9e52369eec18ad220bc50385edd16ceeab09d0833985c",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_58cb8a3c4a1dff5d2d595025_0",
+      "kind": "td",
+      "source": "__TRILIUM_PH_0____TRILIUM_PH_1__A URL on the app's own origin.",
+      "sourceHash": "58cb8a3c4a1dff5d2d595025a727a0d9ad3b87ed360d6f2f7d25badc5c26aaa4",
+      "context": "Electron API > ShellApi",
+      "contextHash": "443ccfedfac4d211ebd9e52369eec18ad220bc50385edd16ceeab09d0833985c",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_9a2a89fbd42bfc823adf89d5_0",
+      "kind": "p",
+      "source": "Shows the operating system's application chooser for a file: the \"Open with\" dialog on Windows, the desktop portal's chooser on Linux, and on macOS a picker of the applications in __TRILIUM_PH_0__, which then opens the file in the one chosen. It never falls back to the default application, since \"Open externally\" already does that.",
+      "sourceHash": "9a2a89fbd42bfc823adf89d578cc16a29749c68be7668b91038cc3b8840442bc",
+      "context": "Electron API > ShellApi",
+      "contextHash": "443ccfedfac4d211ebd9e52369eec18ad220bc50385edd16ceeab09d0833985c",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_491f54cafff2468a8a44fd50_0",
+      "kind": "p",
+      "source": "__TRILIUM_PH_0__Security:__TRILIUM_PH_1__ the path must resolve to a strict descendant of Trilium's tmp directory and the file must exist on disk. The legitimate caller always passes a path that was just written by __TRILIUM_PH_2__; anything else (the data dir itself, paths elsewhere on disk, null bytes, empty strings) is rejected.",
+      "sourceHash": "491f54cafff2468a8a44fd5039b8651e6e0101373f6a971d98aa460a55038175",
+      "context": "Electron API > ShellApi",
+      "contextHash": "443ccfedfac4d211ebd9e52369eec18ad220bc50385edd16ceeab09d0833985c",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_d0ea24bdd89e09dce64d91c7_18",
+      "kind": "th",
+      "source": "Parameter",
+      "sourceHash": "d0ea24bdd89e09dce64d91c78db27d63c085d49c77361387a3546a025ab6d000",
+      "context": "Electron API > ShellApi",
+      "contextHash": "443ccfedfac4d211ebd9e52369eec18ad220bc50385edd16ceeab09d0833985c",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_4b00baa636b92e18b7a75884_22",
+      "kind": "th",
+      "source": "Description",
+      "sourceHash": "4b00baa636b92e18b7a75884790f0769c3e702d20d8822e708f69ab2f07c7103",
+      "context": "Electron API > ShellApi",
+      "contextHash": "443ccfedfac4d211ebd9e52369eec18ad220bc50385edd16ceeab09d0833985c",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_3e158e5e6fc10405e0551a96_0",
+      "kind": "td",
+      "source": "__TRILIUM_PH_0____TRILIUM_PH_1__A file in Trilium's tmp directory, as written by __TRILIUM_PH_2__.",
+      "sourceHash": "3e158e5e6fc10405e0551a96377c85f8f19da348081487ac895934be56feec7d",
+      "context": "Electron API > ShellApi",
+      "contextHash": "443ccfedfac4d211ebd9e52369eec18ad220bc50385edd16ceeab09d0833985c",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_288b2306039ef8be8ef776e4_0",
+      "kind": "p",
+      "source": "__TRILIUM_PH_0__Returns__TRILIUM_PH_1__ __TRILIUM_PH_2__: __TRILIUM_PH_3__ once the chooser is shown; __TRILIUM_PH_4__ if the path is rejected or no chooser is available on this platform.",
+      "sourceHash": "288b2306039ef8be8ef776e48f21b83e2449eb32efc7c45ef3dccfc9682b1644",
+      "context": "Electron API > ShellApi",
+      "contextHash": "443ccfedfac4d211ebd9e52369eec18ad220bc50385edd16ceeab09d0833985c",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_ebb69eee0f822aa9d19b1c8c_0",
+      "kind": "p",
+      "source": "Bridge for the native context menu shown over web contents.",
+      "sourceHash": "ebb69eee0f822aa9d19b1c8c957f31958b3c58901a92c3e7419c03c0061afb92",
+      "context": "Electron API > ContextMenuApi",
+      "contextHash": "c287a58da5283271645daa0ec9103389e3f3663a20e0d0464bf4240a3953709b",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_a33ca01911db4eb061a7b1f7_3",
+      "kind": "th",
+      "source": "Member",
+      "sourceHash": "a33ca01911db4eb061a7b1f7e51ead5f200300c1d4862b5200c519f99d74366a",
+      "context": "Electron API > ContextMenuApi",
+      "contextHash": "c287a58da5283271645daa0ec9103389e3f3663a20e0d0464bf4240a3953709b",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_4b00baa636b92e18b7a75884_23",
+      "kind": "th",
+      "source": "Description",
+      "sourceHash": "4b00baa636b92e18b7a75884790f0769c3e702d20d8822e708f69ab2f07c7103",
+      "context": "Electron API > ContextMenuApi",
+      "contextHash": "c287a58da5283271645daa0ec9103389e3f3663a20e0d0464bf4240a3953709b",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_741807942ec91a58fcc3fe2f_0",
+      "kind": "p",
+      "source": "Subscribes to right-click events forwarded from the main process.",
+      "sourceHash": "741807942ec91a58fcc3fe2fbeed572e9e5a245ed81fadaee6c6826dcc13a67e",
+      "context": "Electron API > ContextMenuApi",
+      "contextHash": "c287a58da5283271645daa0ec9103389e3f3663a20e0d0464bf4240a3953709b",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_d0ea24bdd89e09dce64d91c7_19",
+      "kind": "th",
+      "source": "Parameter",
+      "sourceHash": "d0ea24bdd89e09dce64d91c78db27d63c085d49c77361387a3546a025ab6d000",
+      "context": "Electron API > ContextMenuApi",
+      "contextHash": "c287a58da5283271645daa0ec9103389e3f3663a20e0d0464bf4240a3953709b",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_4b00baa636b92e18b7a75884_24",
+      "kind": "th",
+      "source": "Description",
+      "sourceHash": "4b00baa636b92e18b7a75884790f0769c3e702d20d8822e708f69ab2f07c7103",
+      "context": "Electron API > ContextMenuApi",
+      "contextHash": "c287a58da5283271645daa0ec9103389e3f3663a20e0d0464bf4240a3953709b",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_98088b46da069479c2abe93b_0",
+      "kind": "td",
+      "source": "__TRILIUM_PH_0__ __TRILIUM_PH_1____TRILIUM_PH_2____TRILIUM_PH_3____TRILIUM_PH_4____TRILIUM_PH_5__Receives where the user clicked and what is under the cursor.",
+      "sourceHash": "98088b46da069479c2abe93b7e837c1d451fdb6d02c041d8866acf0f9ba3c9f5",
+      "context": "Electron API > ContextMenuApi",
+      "contextHash": "c287a58da5283271645daa0ec9103389e3f3663a20e0d0464bf4240a3953709b",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_06850c4364fdcaf820204f85_0",
+      "kind": "p",
+      "source": "Executes a clipboard / text-input action on the focused web contents.",
+      "sourceHash": "06850c4364fdcaf820204f856c870ea37b7d058880a35343becf4c47cf7fdfc9",
+      "context": "Electron API > ContextMenuApi",
+      "contextHash": "c287a58da5283271645daa0ec9103389e3f3663a20e0d0464bf4240a3953709b",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_d0ea24bdd89e09dce64d91c7_20",
+      "kind": "th",
+      "source": "Parameter",
+      "sourceHash": "d0ea24bdd89e09dce64d91c78db27d63c085d49c77361387a3546a025ab6d000",
+      "context": "Electron API > ContextMenuApi",
+      "contextHash": "c287a58da5283271645daa0ec9103389e3f3663a20e0d0464bf4240a3953709b",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_4b00baa636b92e18b7a75884_25",
+      "kind": "th",
+      "source": "Description",
+      "sourceHash": "4b00baa636b92e18b7a75884790f0769c3e702d20d8822e708f69ab2f07c7103",
+      "context": "Electron API > ContextMenuApi",
+      "contextHash": "c287a58da5283271645daa0ec9103389e3f3663a20e0d0464bf4240a3953709b",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_39e3d9ca231069b7dc8f613a_0",
+      "kind": "td",
+      "source": "__TRILIUM_PH_0____TRILIUM_PH_1__The action to execute.",
+      "sourceHash": "39e3d9ca231069b7dc8f613acbec98a088e76cc28b3a2fcbdd1b7e7d28dcd7fe",
+      "context": "Electron API > ContextMenuApi",
+      "contextHash": "c287a58da5283271645daa0ec9103389e3f3663a20e0d0464bf4240a3953709b",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_27d177e789fa04e47af08634_0",
+      "kind": "td",
+      "source": "__TRILIUM_PH_0____TRILIUM_PH_1____TRILIUM_PH_2__optional__TRILIUM_PH_3__",
+      "sourceHash": "27d177e789fa04e47af08634c3d690764b47699579e5ab7eace8b5a715b37f25",
+      "context": "Electron API > ContextMenuApi",
+      "contextHash": "c287a58da5283271645daa0ec9103389e3f3663a20e0d0464bf4240a3953709b",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_c969b42234fb1bae366eeaa1_0",
+      "kind": "td",
+      "source": "__TRILIUM_PH_0____TRILIUM_PH_1__The text to insert. __TRILIUM_PH_2__ requires it; the other actions ignore it.",
+      "sourceHash": "c969b42234fb1bae366eeaa1d0f49ea5d07306ae2375380cb332353380d8f50a",
+      "context": "Electron API > ContextMenuApi",
+      "contextHash": "c287a58da5283271645daa0ec9103389e3f3663a20e0d0464bf4240a3953709b",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_fd8f0645ecd6f1d1b0abd9e2_0",
+      "kind": "p",
+      "source": "Renderer-side access to Chromium's built-in spell checker.",
+      "sourceHash": "fd8f0645ecd6f1d1b0abd9e245821319b8c9d730869b877095c171a06ae89832",
+      "context": "Electron API > SpellcheckApi",
+      "contextHash": "2d31a6d5ea3a544087d89c8ee98ccfddd8d1d7ad28da42699224f52e1986be7f",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_a33ca01911db4eb061a7b1f7_4",
+      "kind": "th",
+      "source": "Member",
+      "sourceHash": "a33ca01911db4eb061a7b1f7e51ead5f200300c1d4862b5200c519f99d74366a",
+      "context": "Electron API > SpellcheckApi",
+      "contextHash": "2d31a6d5ea3a544087d89c8ee98ccfddd8d1d7ad28da42699224f52e1986be7f",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_4b00baa636b92e18b7a75884_26",
+      "kind": "th",
+      "source": "Description",
+      "sourceHash": "4b00baa636b92e18b7a75884790f0769c3e702d20d8822e708f69ab2f07c7103",
+      "context": "Electron API > SpellcheckApi",
+      "contextHash": "2d31a6d5ea3a544087d89c8ee98ccfddd8d1d7ad28da42699224f52e1986be7f",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_17785f6753d3a22c31d033dd_0",
+      "kind": "p",
+      "source": "Adds a word to the user's personal dictionary so it is no longer flagged.",
+      "sourceHash": "17785f6753d3a22c31d033ddae203540ab44632b453c436a1406fe2a34df25b7",
+      "context": "Electron API > SpellcheckApi",
+      "contextHash": "2d31a6d5ea3a544087d89c8ee98ccfddd8d1d7ad28da42699224f52e1986be7f",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_6c5e0c84d97d5df1372a7cd0_0",
+      "kind": "p",
+      "source": "Returns the BCP-47 language tags Chromium can spell-check on this platform.",
+      "sourceHash": "6c5e0c84d97d5df1372a7cd0d43159b19cba11777db7a5f98bf2d40c3033cda6",
+      "context": "Electron API > SpellcheckApi",
+      "contextHash": "2d31a6d5ea3a544087d89c8ee98ccfddd8d1d7ad28da42699224f52e1986be7f",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_8dc86c4e2a6a1247a4bff3ac_0",
+      "kind": "p",
+      "source": "Applies the spell-check language list to every open window's session immediately, without an application restart. No-op on macOS, where the OS spell checker auto-detects the language.",
+      "sourceHash": "8dc86c4e2a6a1247a4bff3ac83aa1b7ca66d83167507f8c248c701358a96a248",
+      "context": "Electron API > SpellcheckApi",
+      "contextHash": "2d31a6d5ea3a544087d89c8ee98ccfddd8d1d7ad28da42699224f52e1986be7f",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_d0ea24bdd89e09dce64d91c7_21",
+      "kind": "th",
+      "source": "Parameter",
+      "sourceHash": "d0ea24bdd89e09dce64d91c78db27d63c085d49c77361387a3546a025ab6d000",
+      "context": "Electron API > SpellcheckApi",
+      "contextHash": "2d31a6d5ea3a544087d89c8ee98ccfddd8d1d7ad28da42699224f52e1986be7f",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_4b00baa636b92e18b7a75884_27",
+      "kind": "th",
+      "source": "Description",
+      "sourceHash": "4b00baa636b92e18b7a75884790f0769c3e702d20d8822e708f69ab2f07c7103",
+      "context": "Electron API > SpellcheckApi",
+      "contextHash": "2d31a6d5ea3a544087d89c8ee98ccfddd8d1d7ad28da42699224f52e1986be7f",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_482c5ae7392f9ac827520163_0",
+      "kind": "td",
+      "source": "__TRILIUM_PH_0____TRILIUM_PH_1__Language tags returned by __TRILIUM_PH_2__.",
+      "sourceHash": "482c5ae7392f9ac8275201639e11fc25ae5add9dcaf552c0d228389d915d62a4",
+      "context": "Electron API > SpellcheckApi",
+      "contextHash": "2d31a6d5ea3a544087d89c8ee98ccfddd8d1d7ad28da42699224f52e1986be7f",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_69a82fb06349d4e94076d138_0",
+      "kind": "p",
+      "source": "Enables or disables the built-in spell checker on every open window's session immediately, without an application restart.",
+      "sourceHash": "69a82fb06349d4e94076d138d586d6206d6ba0b28f12b3ee20c5d0ae3ce632da",
+      "context": "Electron API > SpellcheckApi",
+      "contextHash": "2d31a6d5ea3a544087d89c8ee98ccfddd8d1d7ad28da42699224f52e1986be7f",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_d0ea24bdd89e09dce64d91c7_22",
+      "kind": "th",
+      "source": "Parameter",
+      "sourceHash": "d0ea24bdd89e09dce64d91c78db27d63c085d49c77361387a3546a025ab6d000",
+      "context": "Electron API > SpellcheckApi",
+      "contextHash": "2d31a6d5ea3a544087d89c8ee98ccfddd8d1d7ad28da42699224f52e1986be7f",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_4b00baa636b92e18b7a75884_28",
+      "kind": "th",
+      "source": "Description",
+      "sourceHash": "4b00baa636b92e18b7a75884790f0769c3e702d20d8822e708f69ab2f07c7103",
+      "context": "Electron API > SpellcheckApi",
+      "contextHash": "2d31a6d5ea3a544087d89c8ee98ccfddd8d1d7ad28da42699224f52e1986be7f",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_c3c42995e9ee247d116db4a7_0",
+      "kind": "td",
+      "source": "__TRILIUM_PH_0____TRILIUM_PH_1____TRILIUM_PH_2__ to enable the spell checker, __TRILIUM_PH_3__ to disable it.",
+      "sourceHash": "c3c42995e9ee247d116db4a70a5d78acc93a793c37b215332e316e0005bd808d",
+      "context": "Electron API > SpellcheckApi",
+      "contextHash": "2d31a6d5ea3a544087d89c8ee98ccfddd8d1d7ad28da42699224f52e1986be7f",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_e53c91f3f134acc34ca74a3e_0",
+      "kind": "p",
+      "source": "OS integration controls — system tray and autostart / launch-on-login.",
+      "sourceHash": "e53c91f3f134acc34ca74a3ee84061fcb39e4c6ab5b3f1c375a3edd1c5f0443b",
+      "context": "Electron API > SystemIntegrationApi",
+      "contextHash": "7ad63776225a2a6c02e47aab1f0e436378271ae277680dcc83427b801a2bf881",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_a33ca01911db4eb061a7b1f7_5",
+      "kind": "th",
+      "source": "Member",
+      "sourceHash": "a33ca01911db4eb061a7b1f7e51ead5f200300c1d4862b5200c519f99d74366a",
+      "context": "Electron API > SystemIntegrationApi",
+      "contextHash": "7ad63776225a2a6c02e47aab1f0e436378271ae277680dcc83427b801a2bf881",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_4b00baa636b92e18b7a75884_29",
+      "kind": "th",
+      "source": "Description",
+      "sourceHash": "4b00baa636b92e18b7a75884790f0769c3e702d20d8822e708f69ab2f07c7103",
+      "context": "Electron API > SystemIntegrationApi",
+      "contextHash": "7ad63776225a2a6c02e47aab1f0e436378271ae277680dcc83427b801a2bf881",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_9a30c5790f8cccf003e560d4_0",
+      "kind": "p",
+      "source": "Rebuilds the tray icon and menu — call after changing tray-related settings.",
+      "sourceHash": "9a30c5790f8cccf003e560d4a1c7d1553d11d62ec7f72d06ba43263ad5a38ad0",
+      "context": "Electron API > SystemIntegrationApi",
+      "contextHash": "7ad63776225a2a6c02e47aab1f0e436378271ae277680dcc83427b801a2bf881",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_39a2a6bb4457393f9a44bbe2_0",
+      "kind": "p",
+      "source": "Re-applies the OS autostart entry after the __TRILIUM_PH_0__ / __TRILIUM_PH_1__ options change.",
+      "sourceHash": "39a2a6bb4457393f9a44bbe23d019fe9ab4dfd4906110bded6f90fa072ea505f",
+      "context": "Electron API > SystemIntegrationApi",
+      "contextHash": "7ad63776225a2a6c02e47aab1f0e436378271ae277680dcc83427b801a2bf881",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_b5be78aa8edf057c8d2aac52_0",
+      "kind": "p",
+      "source": "Printing and PDF export flow. Trilium drives Electron's printing pipeline through a small state machine that the main process owns, with progress and results pushed back to the renderer via IPC events.",
+      "sourceHash": "b5be78aa8edf057c8d2aac52369ec01dd69b83a3a629fe1dd91df8b9c2e3cdd1",
+      "context": "Electron API > PrintingApi",
+      "contextHash": "849fc0e6718bc236253ea986dfb4fbd11957172719fd83a22c0528b3fe4ac643",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_a33ca01911db4eb061a7b1f7_6",
+      "kind": "th",
+      "source": "Member",
+      "sourceHash": "a33ca01911db4eb061a7b1f7e51ead5f200300c1d4862b5200c519f99d74366a",
+      "context": "Electron API > PrintingApi",
+      "contextHash": "849fc0e6718bc236253ea986dfb4fbd11957172719fd83a22c0528b3fe4ac643",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_4b00baa636b92e18b7a75884_30",
+      "kind": "th",
+      "source": "Description",
+      "sourceHash": "4b00baa636b92e18b7a75884790f0769c3e702d20d8822e708f69ab2f07c7103",
+      "context": "Electron API > PrintingApi",
+      "contextHash": "849fc0e6718bc236253ea986dfb4fbd11957172719fd83a22c0528b3fe4ac643",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_982fc4b086c302beb2493e69_0",
+      "kind": "p",
+      "source": "Reports rendering progress from the renderer to the main process.",
+      "sourceHash": "982fc4b086c302beb2493e6930346bc9e6e65d291302dd74d097432a5bac7abe",
+      "context": "Electron API > PrintingApi",
+      "contextHash": "849fc0e6718bc236253ea986dfb4fbd11957172719fd83a22c0528b3fe4ac643",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_d0ea24bdd89e09dce64d91c7_23",
+      "kind": "th",
+      "source": "Parameter",
+      "sourceHash": "d0ea24bdd89e09dce64d91c78db27d63c085d49c77361387a3546a025ab6d000",
+      "context": "Electron API > PrintingApi",
+      "contextHash": "849fc0e6718bc236253ea986dfb4fbd11957172719fd83a22c0528b3fe4ac643",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_4b00baa636b92e18b7a75884_31",
+      "kind": "th",
+      "source": "Description",
+      "sourceHash": "4b00baa636b92e18b7a75884790f0769c3e702d20d8822e708f69ab2f07c7103",
+      "context": "Electron API > PrintingApi",
+      "contextHash": "849fc0e6718bc236253ea986dfb4fbd11957172719fd83a22c0528b3fe4ac643",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_5d364f90962b16e8e9ad632c_0",
+      "kind": "td",
+      "source": "__TRILIUM_PH_0____TRILIUM_PH_1__The percentage rendered, from 0 to 100.",
+      "sourceHash": "5d364f90962b16e8e9ad632c0142b0ecb5305ec11d445e9c8c10d392557b4aa8",
+      "context": "Electron API > PrintingApi",
+      "contextHash": "849fc0e6718bc236253ea986dfb4fbd11957172719fd83a22c0528b3fe4ac643",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_4683685cae03e63a9de8d35e_0",
+      "kind": "p",
+      "source": "Subscribes to progress updates emitted by the main process during a print or PDF export run.",
+      "sourceHash": "4683685cae03e63a9de8d35ed41d982a50f6aaf2f79c17f4d4038c125d9fceec",
+      "context": "Electron API > PrintingApi",
+      "contextHash": "849fc0e6718bc236253ea986dfb4fbd11957172719fd83a22c0528b3fe4ac643",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_d0ea24bdd89e09dce64d91c7_24",
+      "kind": "th",
+      "source": "Parameter",
+      "sourceHash": "d0ea24bdd89e09dce64d91c78db27d63c085d49c77361387a3546a025ab6d000",
+      "context": "Electron API > PrintingApi",
+      "contextHash": "849fc0e6718bc236253ea986dfb4fbd11957172719fd83a22c0528b3fe4ac643",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_4b00baa636b92e18b7a75884_32",
+      "kind": "th",
+      "source": "Description",
+      "sourceHash": "4b00baa636b92e18b7a75884790f0769c3e702d20d8822e708f69ab2f07c7103",
+      "context": "Electron API > PrintingApi",
+      "contextHash": "849fc0e6718bc236253ea986dfb4fbd11957172719fd83a22c0528b3fe4ac643",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_85c396aa96ece39d3ae25718_0",
+      "kind": "td",
+      "source": "__TRILIUM_PH_0____TRILIUM_PH_1__Receives the percentage done and the current stage, such as __TRILIUM_PH_2__.",
+      "sourceHash": "85c396aa96ece39d3ae257183a455c988c11bc8949bd4fb2db80f111cd6796ea",
+      "context": "Electron API > PrintingApi",
+      "contextHash": "849fc0e6718bc236253ea986dfb4fbd11957172719fd83a22c0528b3fe4ac643",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_e90b204766dfa36d22673093_0",
+      "kind": "p",
+      "source": "Subscribes to the \"print finished\" event, fired once the OS print job is dispatched.",
+      "sourceHash": "e90b204766dfa36d2267309330f209f23428cefa263630623fedbf79df08132e",
+      "context": "Electron API > PrintingApi",
+      "contextHash": "849fc0e6718bc236253ea986dfb4fbd11957172719fd83a22c0528b3fe4ac643",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_d0ea24bdd89e09dce64d91c7_25",
+      "kind": "th",
+      "source": "Parameter",
+      "sourceHash": "d0ea24bdd89e09dce64d91c78db27d63c085d49c77361387a3546a025ab6d000",
+      "context": "Electron API > PrintingApi",
+      "contextHash": "849fc0e6718bc236253ea986dfb4fbd11957172719fd83a22c0528b3fe4ac643",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_4b00baa636b92e18b7a75884_33",
+      "kind": "th",
+      "source": "Description",
+      "sourceHash": "4b00baa636b92e18b7a75884790f0769c3e702d20d8822e708f69ab2f07c7103",
+      "context": "Electron API > PrintingApi",
+      "contextHash": "849fc0e6718bc236253ea986dfb4fbd11957172719fd83a22c0528b3fe4ac643",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_bb653c06844418d324824373_0",
+      "kind": "td",
+      "source": "__TRILIUM_PH_0____TRILIUM_PH_1__Receives the main process's report on the job, or an error with a __TRILIUM_PH_2__, and, for a job that printed the app window itself, the ID of the live print the job ended.",
+      "sourceHash": "bb653c06844418d324824373c666e67404fe42df037ae7753dcc2bc2b88dcb70",
+      "context": "Electron API > PrintingApi",
+      "contextHash": "849fc0e6718bc236253ea986dfb4fbd11957172719fd83a22c0528b3fe4ac643",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_ddbbe5676a16a03bca609902_0",
+      "kind": "p",
+      "source": "Removes all listeners registered via __TRILIUM_PH_0__ and __TRILIUM_PH_1__.",
+      "sourceHash": "ddbbe5676a16a03bca609902626968d6b70712854689c5f734db636ae924f898",
+      "context": "Electron API > PrintingApi",
+      "contextHash": "849fc0e6718bc236253ea986dfb4fbd11957172719fd83a22c0528b3fe4ac643",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_bebb4bff9a0522eac02a15b4_0",
+      "kind": "p",
+      "source": "Returns the list of printers known to the OS.",
+      "sourceHash": "bebb4bff9a0522eac02a15b497e9add63268af1ab2725ce40270fc0c88c789d3",
+      "context": "Electron API > PrintingApi",
+      "contextHash": "849fc0e6718bc236253ea986dfb4fbd11957172719fd83a22c0528b3fe4ac643",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_22a788f45c60cb8cf93daf9f_0",
+      "kind": "p",
+      "source": "Asks the main process to render the current note as a PDF and return the resulting bytes for the in-app preview. Result is delivered via __TRILIUM_PH_0__.",
+      "sourceHash": "22a788f45c60cb8cf93daf9f9e37c0ff150f962317f5434850d18a567db36417",
+      "context": "Electron API > PrintingApi",
+      "contextHash": "849fc0e6718bc236253ea986dfb4fbd11957172719fd83a22c0528b3fe4ac643",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_d0ea24bdd89e09dce64d91c7_26",
+      "kind": "th",
+      "source": "Parameter",
+      "sourceHash": "d0ea24bdd89e09dce64d91c78db27d63c085d49c77361387a3546a025ab6d000",
+      "context": "Electron API > PrintingApi",
+      "contextHash": "849fc0e6718bc236253ea986dfb4fbd11957172719fd83a22c0528b3fe4ac643",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_4b00baa636b92e18b7a75884_34",
+      "kind": "th",
+      "source": "Description",
+      "sourceHash": "4b00baa636b92e18b7a75884790f0769c3e702d20d8822e708f69ab2f07c7103",
+      "context": "Electron API > PrintingApi",
+      "contextHash": "849fc0e6718bc236253ea986dfb4fbd11957172719fd83a22c0528b3fe4ac643",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_9efd86255ebaace15477ba2e_0",
+      "kind": "td",
+      "source": "__TRILIUM_PH_0____TRILIUM_PH_1__The note path, the page size, orientation, scale, margins and page ranges, and a __TRILIUM_PH_2__ the result echoes back.",
+      "sourceHash": "9efd86255ebaace15477ba2ee5953593b6f45ac4f6557ae24a580f0b794ad789",
+      "context": "Electron API > PrintingApi",
+      "contextHash": "849fc0e6718bc236253ea986dfb4fbd11957172719fd83a22c0528b3fe4ac643",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_8c0dae79d1f9d0ae4c129ac5_0",
+      "kind": "p",
+      "source": "Subscribes to the result of an __TRILIUM_PH_0__ call.",
+      "sourceHash": "8c0dae79d1f9d0ae4c129ac5c408ae3bcae55bf834e58a65ac19371f527ee314",
+      "context": "Electron API > PrintingApi",
+      "contextHash": "849fc0e6718bc236253ea986dfb4fbd11957172719fd83a22c0528b3fe4ac643",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_d0ea24bdd89e09dce64d91c7_27",
+      "kind": "th",
+      "source": "Parameter",
+      "sourceHash": "d0ea24bdd89e09dce64d91c78db27d63c085d49c77361387a3546a025ab6d000",
+      "context": "Electron API > PrintingApi",
+      "contextHash": "849fc0e6718bc236253ea986dfb4fbd11957172719fd83a22c0528b3fe4ac643",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_4b00baa636b92e18b7a75884_35",
+      "kind": "th",
+      "source": "Description",
+      "sourceHash": "4b00baa636b92e18b7a75884790f0769c3e702d20d8822e708f69ab2f07c7103",
+      "context": "Electron API > PrintingApi",
+      "contextHash": "849fc0e6718bc236253ea986dfb4fbd11957172719fd83a22c0528b3fe4ac643",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_6ac4b2fee803807d011a55fd_0",
+      "kind": "td",
+      "source": "__TRILIUM_PH_0____TRILIUM_PH_1__Receives the PDF bytes or an error message, and the __TRILIUM_PH_2__ of the call the result answers.",
+      "sourceHash": "6ac4b2fee803807d011a55fd06eb55f623de3f45e246afad82102bd9a0550fc2",
+      "context": "Electron API > PrintingApi",
+      "contextHash": "849fc0e6718bc236253ea986dfb4fbd11957172719fd83a22c0528b3fe4ac643",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_563b0c28fda1a78e103b6896_0",
+      "kind": "p",
+      "source": "Removes the listener registered via __TRILIUM_PH_0__.",
+      "sourceHash": "563b0c28fda1a78e103b6896aa435d376f70f810d072cbb10c7cbf21163e824a",
+      "context": "Electron API > PrintingApi",
+      "contextHash": "849fc0e6718bc236253ea986dfb4fbd11957172719fd83a22c0528b3fe4ac643",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_264ff91d4f03f090e4503c12_0",
+      "kind": "p",
+      "source": "Persists a previously generated PDF buffer to disk via the native save dialog.",
+      "sourceHash": "264ff91d4f03f090e4503c12415c6c546fe52c6d78eee2c95990d61473866ecb",
+      "context": "Electron API > PrintingApi",
+      "contextHash": "849fc0e6718bc236253ea986dfb4fbd11957172719fd83a22c0528b3fe4ac643",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_d0ea24bdd89e09dce64d91c7_28",
+      "kind": "th",
+      "source": "Parameter",
+      "sourceHash": "d0ea24bdd89e09dce64d91c78db27d63c085d49c77361387a3546a025ab6d000",
+      "context": "Electron API > PrintingApi",
+      "contextHash": "849fc0e6718bc236253ea986dfb4fbd11957172719fd83a22c0528b3fe4ac643",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_4b00baa636b92e18b7a75884_36",
+      "kind": "th",
+      "source": "Description",
+      "sourceHash": "4b00baa636b92e18b7a75884790f0769c3e702d20d8822e708f69ab2f07c7103",
+      "context": "Electron API > PrintingApi",
+      "contextHash": "849fc0e6718bc236253ea986dfb4fbd11957172719fd83a22c0528b3fe4ac643",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_0797eb0a640cfcf8f8edcb8a_0",
+      "kind": "td",
+      "source": "__TRILIUM_PH_0____TRILIUM_PH_1__The PDF bytes, and the title to suggest as the file name.",
+      "sourceHash": "0797eb0a640cfcf8f8edcb8a7bea4cecd95d440c317e7a21fc7e51ac0e96b697",
+      "context": "Electron API > PrintingApi",
+      "contextHash": "849fc0e6718bc236253ea986dfb4fbd11957172719fd83a22c0528b3fe4ac643",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_b8c5eaba57bcf4b923432a42_0",
+      "kind": "p",
+      "source": "Sends the previewed PDF to the OS print dialog with the given options.",
+      "sourceHash": "b8c5eaba57bcf4b923432a42adf5434354a2c7f5a08c2f76ee332f1ee7577fe0",
+      "context": "Electron API > PrintingApi",
+      "contextHash": "849fc0e6718bc236253ea986dfb4fbd11957172719fd83a22c0528b3fe4ac643",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_d0ea24bdd89e09dce64d91c7_29",
+      "kind": "th",
+      "source": "Parameter",
+      "sourceHash": "d0ea24bdd89e09dce64d91c78db27d63c085d49c77361387a3546a025ab6d000",
+      "context": "Electron API > PrintingApi",
+      "contextHash": "849fc0e6718bc236253ea986dfb4fbd11957172719fd83a22c0528b3fe4ac643",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_4b00baa636b92e18b7a75884_37",
+      "kind": "th",
+      "source": "Description",
+      "sourceHash": "4b00baa636b92e18b7a75884790f0769c3e702d20d8822e708f69ab2f07c7103",
+      "context": "Electron API > PrintingApi",
+      "contextHash": "849fc0e6718bc236253ea986dfb4fbd11957172719fd83a22c0528b3fe4ac643",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_88cb938b8765f9373ebcce0a_0",
+      "kind": "td",
+      "source": "__TRILIUM_PH_0____TRILIUM_PH_1__The options of __TRILIUM_PH_2__, plus __TRILIUM_PH_3__ to print without the dialog and __TRILIUM_PH_4__ to choose the printer.",
+      "sourceHash": "88cb938b8765f9373ebcce0aa2046fbb11e3f11881851197584b3da77d8733c1",
+      "context": "Electron API > PrintingApi",
+      "contextHash": "849fc0e6718bc236253ea986dfb4fbd11957172719fd83a22c0528b3fe4ac643",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_7aaef3af2f009e6991c82edc_0",
+      "kind": "p",
+      "source": "Accessors for the underlying Chromium navigation history of the current web contents (back/forward stack), exposed so the renderer can mirror it in custom UI such as the breadcrumb / tab back button.",
+      "sourceHash": "7aaef3af2f009e6991c82edc4cf25919739a8fd33fb0fd5570f5b70ae5e27590",
+      "context": "Electron API > NavigationApi",
+      "contextHash": "0883a76df2fdd78c3b9ff3857692c3acbd99220531a28eb05e5ad34ddd63d4b6",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_a33ca01911db4eb061a7b1f7_7",
+      "kind": "th",
+      "source": "Member",
+      "sourceHash": "a33ca01911db4eb061a7b1f7e51ead5f200300c1d4862b5200c519f99d74366a",
+      "context": "Electron API > NavigationApi",
+      "contextHash": "0883a76df2fdd78c3b9ff3857692c3acbd99220531a28eb05e5ad34ddd63d4b6",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_4b00baa636b92e18b7a75884_38",
+      "kind": "th",
+      "source": "Description",
+      "sourceHash": "4b00baa636b92e18b7a75884790f0769c3e702d20d8822e708f69ab2f07c7103",
+      "context": "Electron API > NavigationApi",
+      "contextHash": "0883a76df2fdd78c3b9ff3857692c3acbd99220531a28eb05e5ad34ddd63d4b6",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_7075585c832630fd7eb0624d_0",
+      "kind": "p",
+      "source": "Clears the entire back/forward navigation history.",
+      "sourceHash": "7075585c832630fd7eb0624ddfcd92be53a1e0269f9b1285709947912e56fc3a",
+      "context": "Electron API > NavigationApi",
+      "contextHash": "0883a76df2fdd78c3b9ff3857692c3acbd99220531a28eb05e5ad34ddd63d4b6",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_0d58cddaa4502669a765fd4c_0",
+      "kind": "p",
+      "source": "Synchronously returns whether a back navigation is possible.",
+      "sourceHash": "0d58cddaa4502669a765fd4cc65aa12d562495c0c022ab217000d493c675ab9b",
+      "context": "Electron API > NavigationApi",
+      "contextHash": "0883a76df2fdd78c3b9ff3857692c3acbd99220531a28eb05e5ad34ddd63d4b6",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_273496153244c9ceab8a26d9_0",
+      "kind": "p",
+      "source": "Synchronously returns whether a forward navigation is possible.",
+      "sourceHash": "273496153244c9ceab8a26d9e52248f04c2691857703e8774b32c99111eee69d",
+      "context": "Electron API > NavigationApi",
+      "contextHash": "0883a76df2fdd78c3b9ff3857692c3acbd99220531a28eb05e5ad34ddd63d4b6",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_88fecc83470bb5f4e6501452_0",
+      "kind": "p",
+      "source": "Returns every entry in the navigation history, oldest first.",
+      "sourceHash": "88fecc83470bb5f4e6501452f62b9f3fc086b05eb3dbac19f40434b7cb272272",
+      "context": "Electron API > NavigationApi",
+      "contextHash": "0883a76df2fdd78c3b9ff3857692c3acbd99220531a28eb05e5ad34ddd63d4b6",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_53593bedccf006b10e64f31f_0",
+      "kind": "p",
+      "source": "Returns the index of the currently active entry inside __TRILIUM_PH_0__.",
+      "sourceHash": "53593bedccf006b10e64f31f10433e45c0f3786e2e4ce28249e94332b54f655e",
+      "context": "Electron API > NavigationApi",
+      "contextHash": "0883a76df2fdd78c3b9ff3857692c3acbd99220531a28eb05e5ad34ddd63d4b6",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_bce4441d2a8c5b62f5874d5f_0",
+      "kind": "p",
+      "source": "Returns the total number of entries in the navigation history.",
+      "sourceHash": "bce4441d2a8c5b62f5874d5f84b789dfd66d159b340bdaad6d1f8cea54f4f0df",
+      "context": "Electron API > NavigationApi",
+      "contextHash": "0883a76df2fdd78c3b9ff3857692c3acbd99220531a28eb05e5ad34ddd63d4b6",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_61b6a4bf9c3322d4125aa0ea_0",
+      "kind": "p",
+      "source": "Navigates to the entry at the given index in the history stack.",
+      "sourceHash": "61b6a4bf9c3322d4125aa0eaccfcbb3d73410036e6c94f5eae1c73da6e125807",
+      "context": "Electron API > NavigationApi",
+      "contextHash": "0883a76df2fdd78c3b9ff3857692c3acbd99220531a28eb05e5ad34ddd63d4b6",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_d0ea24bdd89e09dce64d91c7_30",
+      "kind": "th",
+      "source": "Parameter",
+      "sourceHash": "d0ea24bdd89e09dce64d91c78db27d63c085d49c77361387a3546a025ab6d000",
+      "context": "Electron API > NavigationApi",
+      "contextHash": "0883a76df2fdd78c3b9ff3857692c3acbd99220531a28eb05e5ad34ddd63d4b6",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_4b00baa636b92e18b7a75884_39",
+      "kind": "th",
+      "source": "Description",
+      "sourceHash": "4b00baa636b92e18b7a75884790f0769c3e702d20d8822e708f69ab2f07c7103",
+      "context": "Electron API > NavigationApi",
+      "contextHash": "0883a76df2fdd78c3b9ff3857692c3acbd99220531a28eb05e5ad34ddd63d4b6",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_8579abc628d4af172160b2ec_0",
+      "kind": "td",
+      "source": "__TRILIUM_PH_0____TRILIUM_PH_1__An index into __TRILIUM_PH_2__.",
+      "sourceHash": "8579abc628d4af172160b2ec27e96027df28897e48c30dfbdbcc42a9e1835b7a",
+      "context": "Electron API > NavigationApi",
+      "contextHash": "0883a76df2fdd78c3b9ff3857692c3acbd99220531a28eb05e5ad34ddd63d4b6",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_c9059011e341495892f25155_0",
+      "kind": "p",
+      "source": "Subscribes to top-level navigation events (URL changes that load a new document).",
+      "sourceHash": "c9059011e341495892f25155cff65fe23891c2605f99232ee5159dfea5938d35",
+      "context": "Electron API > NavigationApi",
+      "contextHash": "0883a76df2fdd78c3b9ff3857692c3acbd99220531a28eb05e5ad34ddd63d4b6",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_c2403bc8167caf955841c096_0",
+      "kind": "p",
+      "source": "Subscribes to in-page navigation events (hash changes, __TRILIUM_PH_0__).",
+      "sourceHash": "c2403bc8167caf955841c0969c2c725b50c1f1021175e73c94ed1477f6deaab7",
+      "context": "Electron API > NavigationApi",
+      "contextHash": "0883a76df2fdd78c3b9ff3857692c3acbd99220531a28eb05e5ad34ddd63d4b6",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_ddbbe5676a16a03bca609902_1",
+      "kind": "p",
+      "source": "Removes all listeners registered via __TRILIUM_PH_0__ and __TRILIUM_PH_1__.",
+      "sourceHash": "ddbbe5676a16a03bca609902626968d6b70712854689c5f734db636ae924f898",
+      "context": "Electron API > NavigationApi",
+      "contextHash": "0883a76df2fdd78c3b9ff3857692c3acbd99220531a28eb05e5ad34ddd63d4b6",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_d0bcc320c04b349e65cc3e43_0",
+      "kind": "p",
+      "source": "In-process replacement for the renderer↔server WebSocket. Backed by Chromium IPC instead of a TCP socket — no port is bound and no auth check is needed because the channel is only reachable from the renderer the BrowserWindow owns. Wire format is whatever the server's __TRILIUM_PH_0__ accepts (currently __TRILIUM_PH_1__ / log-error / log-info / ping).",
+      "sourceHash": "d0bcc320c04b349e65cc3e430f4de8e0fe29509853ab610b266bff98d6d5f813",
+      "context": "Electron API > WsApi",
+      "contextHash": "f08ff19bf6bdf821a6cc437381bf6474c121ce301246bf0e69508551f345f7c8",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_a33ca01911db4eb061a7b1f7_8",
+      "kind": "th",
+      "source": "Member",
+      "sourceHash": "a33ca01911db4eb061a7b1f7e51ead5f200300c1d4862b5200c519f99d74366a",
+      "context": "Electron API > WsApi",
+      "contextHash": "f08ff19bf6bdf821a6cc437381bf6474c121ce301246bf0e69508551f345f7c8",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_4b00baa636b92e18b7a75884_40",
+      "kind": "th",
+      "source": "Description",
+      "sourceHash": "4b00baa636b92e18b7a75884790f0769c3e702d20d8822e708f69ab2f07c7103",
+      "context": "Electron API > WsApi",
+      "contextHash": "f08ff19bf6bdf821a6cc437381bf6474c121ce301246bf0e69508551f345f7c8",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_e0556d40a58cb810f24ff7bf_0",
+      "kind": "p",
+      "source": "Sends a message from the renderer to the main-process messaging hub.",
+      "sourceHash": "e0556d40a58cb810f24ff7bf56ab1ef646993c6319fe5dd7d1dbe2412edc6d19",
+      "context": "Electron API > WsApi",
+      "contextHash": "f08ff19bf6bdf821a6cc437381bf6474c121ce301246bf0e69508551f345f7c8",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_d0ea24bdd89e09dce64d91c7_31",
+      "kind": "th",
+      "source": "Parameter",
+      "sourceHash": "d0ea24bdd89e09dce64d91c78db27d63c085d49c77361387a3546a025ab6d000",
+      "context": "Electron API > WsApi",
+      "contextHash": "f08ff19bf6bdf821a6cc437381bf6474c121ce301246bf0e69508551f345f7c8",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_4b00baa636b92e18b7a75884_41",
+      "kind": "th",
+      "source": "Description",
+      "sourceHash": "4b00baa636b92e18b7a75884790f0769c3e702d20d8822e708f69ab2f07c7103",
+      "context": "Electron API > WsApi",
+      "contextHash": "f08ff19bf6bdf821a6cc437381bf6474c121ce301246bf0e69508551f345f7c8",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_bbd41b8ddc6f18e2e02b1360_0",
+      "kind": "td",
+      "source": "__TRILIUM_PH_0____TRILIUM_PH_1__A message the server's __TRILIUM_PH_2__ accepts.",
+      "sourceHash": "bbd41b8ddc6f18e2e02b1360c66f8c2fbb5d413f229bc3e749d927c66c92ebe1",
+      "context": "Electron API > WsApi",
+      "contextHash": "f08ff19bf6bdf821a6cc437381bf6474c121ce301246bf0e69508551f345f7c8",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_7b516cd3ba969864718e444b_0",
+      "kind": "p",
+      "source": "Subscribes to messages pushed from the main process.",
+      "sourceHash": "7b516cd3ba969864718e444bfcefe54578591ea0275ff14dd8db42d6ff68f353",
+      "context": "Electron API > WsApi",
+      "contextHash": "f08ff19bf6bdf821a6cc437381bf6474c121ce301246bf0e69508551f345f7c8",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_d0ea24bdd89e09dce64d91c7_32",
+      "kind": "th",
+      "source": "Parameter",
+      "sourceHash": "d0ea24bdd89e09dce64d91c78db27d63c085d49c77361387a3546a025ab6d000",
+      "context": "Electron API > WsApi",
+      "contextHash": "f08ff19bf6bdf821a6cc437381bf6474c121ce301246bf0e69508551f345f7c8",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_4b00baa636b92e18b7a75884_42",
+      "kind": "th",
+      "source": "Description",
+      "sourceHash": "4b00baa636b92e18b7a75884790f0769c3e702d20d8822e708f69ab2f07c7103",
+      "context": "Electron API > WsApi",
+      "contextHash": "f08ff19bf6bdf821a6cc437381bf6474c121ce301246bf0e69508551f345f7c8",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_ba57bb6970f3d9bf9f14c058_0",
+      "kind": "td",
+      "source": "__TRILIUM_PH_0____TRILIUM_PH_1__Receives each message.",
+      "sourceHash": "ba57bb6970f3d9bf9f14c058fcbbaf5093f3ac8b31633589eba28e3a4009b3bb",
+      "context": "Electron API > WsApi",
+      "contextHash": "f08ff19bf6bdf821a6cc437381bf6474c121ce301246bf0e69508551f345f7c8",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_1e60dd4585792c249915060f_0",
+      "kind": "p",
+      "source": "__TRILIUM_PH_0__Returns__TRILIUM_PH_1__ __TRILIUM_PH_2__: An unsubscribe function. Call it when the listener is no longer needed (e.g. when a BrowserWindow is unloaded) to avoid leaking handlers.",
+      "sourceHash": "1e60dd4585792c249915060f1c6b8936d668cacfe5dcaa24ad4c89e297aad207",
+      "context": "Electron API > WsApi",
+      "contextHash": "f08ff19bf6bdf821a6cc437381bf6474c121ce301246bf0e69508551f345f7c8",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_d4946f0713890709899285b3_0",
+      "kind": "p",
+      "source": "Security settings that live outside the database (in __TRILIUM_PH_0__) to prevent malicious scripts from modifying them. Changes require a native OS confirmation dialog and an app restart to take effect.",
+      "sourceHash": "d4946f0713890709899285b331e8c4b21e5de0bdbd85fd7b05096418277ab0b4",
+      "context": "Electron API > SecurityApi",
+      "contextHash": "9b144a0fdad44017bf89b68a82807173a8427f4366283b329acdf3e4d4ac600b",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_a33ca01911db4eb061a7b1f7_9",
+      "kind": "th",
+      "source": "Member",
+      "sourceHash": "a33ca01911db4eb061a7b1f7e51ead5f200300c1d4862b5200c519f99d74366a",
+      "context": "Electron API > SecurityApi",
+      "contextHash": "9b144a0fdad44017bf89b68a82807173a8427f4366283b329acdf3e4d4ac600b",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_4b00baa636b92e18b7a75884_43",
+      "kind": "th",
+      "source": "Description",
+      "sourceHash": "4b00baa636b92e18b7a75884790f0769c3e702d20d8822e708f69ab2f07c7103",
+      "context": "Electron API > SecurityApi",
+      "contextHash": "9b144a0fdad44017bf89b68a82807173a8427f4366283b329acdf3e4d4ac600b",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_997d856fdcd4c7729f512b03_0",
+      "kind": "p",
+      "source": "Requests enabling/disabling LAN access. When enabled, the desktop binds its TCP listener to all interfaces (instead of loopback) so other devices can reach it — e.g. to sync from another device. Same confirmation + restart flow as above.",
+      "sourceHash": "997d856fdcd4c7729f512b03a14a37889965765030b039e2cddac27788a899ca",
+      "context": "Electron API > SecurityApi",
+      "contextHash": "9b144a0fdad44017bf89b68a82807173a8427f4366283b329acdf3e4d4ac600b",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_d0ea24bdd89e09dce64d91c7_33",
+      "kind": "th",
+      "source": "Parameter",
+      "sourceHash": "d0ea24bdd89e09dce64d91c78db27d63c085d49c77361387a3546a025ab6d000",
+      "context": "Electron API > SecurityApi",
+      "contextHash": "9b144a0fdad44017bf89b68a82807173a8427f4366283b329acdf3e4d4ac600b",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_4b00baa636b92e18b7a75884_44",
+      "kind": "th",
+      "source": "Description",
+      "sourceHash": "4b00baa636b92e18b7a75884790f0769c3e702d20d8822e708f69ab2f07c7103",
+      "context": "Electron API > SecurityApi",
+      "contextHash": "9b144a0fdad44017bf89b68a82807173a8427f4366283b329acdf3e4d4ac600b",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_6a16766f5b38e4153370fc0f_0",
+      "kind": "td",
+      "source": "__TRILIUM_PH_0____TRILIUM_PH_1____TRILIUM_PH_2__ to listen on all interfaces, __TRILIUM_PH_3__ to listen on loopback only.",
+      "sourceHash": "6a16766f5b38e4153370fc0fd18735425cb9efbf2c313e0443bbc0b40834bb30",
+      "context": "Electron API > SecurityApi",
+      "contextHash": "9b144a0fdad44017bf89b68a82807173a8427f4366283b329acdf3e4d4ac600b",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_64470e7dda8844698f2ca072_0",
+      "kind": "p",
+      "source": "__TRILIUM_PH_0__Returns__TRILIUM_PH_1__ __TRILIUM_PH_2__: __TRILIUM_PH_3__ once the user agreed and the change was written.",
+      "sourceHash": "64470e7dda8844698f2ca0724a262a4b91fb84757212db5a816528b821d8d4af",
+      "context": "Electron API > SecurityApi",
+      "contextHash": "9b144a0fdad44017bf89b68a82807173a8427f4366283b329acdf3e4d4ac600b",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_33cfc019f76ab9ae868713b7_0",
+      "kind": "p",
+      "source": "Requests backend script execution be turned on or off.",
+      "sourceHash": "33cfc019f76ab9ae868713b7001edc0c085c44aa644f12103c7a56d127dd4022",
+      "context": "Electron API > SecurityApi",
+      "contextHash": "9b144a0fdad44017bf89b68a82807173a8427f4366283b329acdf3e4d4ac600b",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_d0ea24bdd89e09dce64d91c7_34",
+      "kind": "th",
+      "source": "Parameter",
+      "sourceHash": "d0ea24bdd89e09dce64d91c78db27d63c085d49c77361387a3546a025ab6d000",
+      "context": "Electron API > SecurityApi",
+      "contextHash": "9b144a0fdad44017bf89b68a82807173a8427f4366283b329acdf3e4d4ac600b",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_4b00baa636b92e18b7a75884_45",
+      "kind": "th",
+      "source": "Description",
+      "sourceHash": "4b00baa636b92e18b7a75884790f0769c3e702d20d8822e708f69ab2f07c7103",
+      "context": "Electron API > SecurityApi",
+      "contextHash": "9b144a0fdad44017bf89b68a82807173a8427f4366283b329acdf3e4d4ac600b",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_1fc855f85f9533ca75f71610_0",
+      "kind": "td",
+      "source": "__TRILIUM_PH_0____TRILIUM_PH_1____TRILIUM_PH_2__ to allow backend scripts to run, __TRILIUM_PH_3__ to block them.",
+      "sourceHash": "1fc855f85f9533ca75f71610e210acea0583e3013843ae900782b61e2e9209eb",
+      "context": "Electron API > SecurityApi",
+      "contextHash": "9b144a0fdad44017bf89b68a82807173a8427f4366283b329acdf3e4d4ac600b",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_148f4d32361311a5602e10a0_0",
+      "kind": "p",
+      "source": "Requests the SQL console be turned on or off.",
+      "sourceHash": "148f4d32361311a5602e10a0ca806a9f2df4eaa6596d0ad05adab65ed4816192",
+      "context": "Electron API > SecurityApi",
+      "contextHash": "9b144a0fdad44017bf89b68a82807173a8427f4366283b329acdf3e4d4ac600b",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_d0ea24bdd89e09dce64d91c7_35",
+      "kind": "th",
+      "source": "Parameter",
+      "sourceHash": "d0ea24bdd89e09dce64d91c78db27d63c085d49c77361387a3546a025ab6d000",
+      "context": "Electron API > SecurityApi",
+      "contextHash": "9b144a0fdad44017bf89b68a82807173a8427f4366283b329acdf3e4d4ac600b",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_4b00baa636b92e18b7a75884_46",
+      "kind": "th",
+      "source": "Description",
+      "sourceHash": "4b00baa636b92e18b7a75884790f0769c3e702d20d8822e708f69ab2f07c7103",
+      "context": "Electron API > SecurityApi",
+      "contextHash": "9b144a0fdad44017bf89b68a82807173a8427f4366283b329acdf3e4d4ac600b",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_38a3c7a9dfbf1d59d46785af_0",
+      "kind": "td",
+      "source": "__TRILIUM_PH_0____TRILIUM_PH_1____TRILIUM_PH_2__ to enable the SQL console, __TRILIUM_PH_3__ to disable it.",
+      "sourceHash": "38a3c7a9dfbf1d59d46785afe33c5027f77376b9f5c27a8b480309da1efa6a0f",
+      "context": "Electron API > SecurityApi",
+      "contextHash": "9b144a0fdad44017bf89b68a82807173a8427f4366283b329acdf3e4d4ac600b",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_9a87cb1be1a632d35265d77a_0",
+      "kind": "p",
+      "source": "The backup passphrase, kept encrypted by the OS keyring in a file outside the database (the database is what ends up inside the backup, so a passphrase stored there would ride along inside the very container it protects).",
+      "sourceHash": "9a87cb1be1a632d35265d77a29fa5a2a50a5ee8f3e317fa032b4b2e86a83308e",
+      "context": "Electron API > BackupPassphraseApi",
+      "contextHash": "dffeb890c41796775769c3dddf8bff45d84fcebaeacbb2c37f7d2180a75a2e0f",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_a6888db3ad648d1485e8cbed_0",
+      "kind": "p",
+      "source": "Deliberately write-only: there is no way to read the passphrase back, so a frontend script cannot exfiltrate it. Only the main process ever sees the plaintext again, when it writes a backup.",
+      "sourceHash": "a6888db3ad648d1485e8cbed5c41a6cd8bd664f70c0117633f6799b7f316dbc5",
+      "context": "Electron API > BackupPassphraseApi",
+      "contextHash": "dffeb890c41796775769c3dddf8bff45d84fcebaeacbb2c37f7d2180a75a2e0f",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_2e6a102a554ccf84ea64a39e_0",
+      "kind": "p",
+      "source": "Both changes are also gated on a native OS confirmation, which a script can request but cannot answer. Without that, a script could quietly swap in a passphrase of its own and every later backup would be encrypted to it.",
+      "sourceHash": "2e6a102a554ccf84ea64a39e0161d4b3445a3164b5c75f770f065cfa4b2f5abb",
+      "context": "Electron API > BackupPassphraseApi",
+      "contextHash": "dffeb890c41796775769c3dddf8bff45d84fcebaeacbb2c37f7d2180a75a2e0f",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_a33ca01911db4eb061a7b1f7_10",
+      "kind": "th",
+      "source": "Member",
+      "sourceHash": "a33ca01911db4eb061a7b1f7e51ead5f200300c1d4862b5200c519f99d74366a",
+      "context": "Electron API > BackupPassphraseApi",
+      "contextHash": "dffeb890c41796775769c3dddf8bff45d84fcebaeacbb2c37f7d2180a75a2e0f",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_4b00baa636b92e18b7a75884_47",
+      "kind": "th",
+      "source": "Description",
+      "sourceHash": "4b00baa636b92e18b7a75884790f0769c3e702d20d8822e708f69ab2f07c7103",
+      "context": "Electron API > BackupPassphraseApi",
+      "contextHash": "dffeb890c41796775769c3dddf8bff45d84fcebaeacbb2c37f7d2180a75a2e0f",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_ce58deb74b80ac307204b876_0",
+      "kind": "p",
+      "source": "Whether a passphrase can be stored on this system, and whether one already is.",
+      "sourceHash": "ce58deb74b80ac307204b8769461ad7cb9e12f23be19d9def5d7d017a6b513e0",
+      "context": "Electron API > BackupPassphraseApi",
+      "contextHash": "dffeb890c41796775769c3dddf8bff45d84fcebaeacbb2c37f7d2180a75a2e0f",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_9190eb3f4a951b75053be968_0",
+      "kind": "p",
+      "source": "Stores a passphrase, replacing any existing one, once the user has confirmed it.",
+      "sourceHash": "9190eb3f4a951b75053be9680c33e3a8c730a01ab0d619166c60c67d8ec362ac",
+      "context": "Electron API > BackupPassphraseApi",
+      "contextHash": "dffeb890c41796775769c3dddf8bff45d84fcebaeacbb2c37f7d2180a75a2e0f",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_d0ea24bdd89e09dce64d91c7_36",
+      "kind": "th",
+      "source": "Parameter",
+      "sourceHash": "d0ea24bdd89e09dce64d91c78db27d63c085d49c77361387a3546a025ab6d000",
+      "context": "Electron API > BackupPassphraseApi",
+      "contextHash": "dffeb890c41796775769c3dddf8bff45d84fcebaeacbb2c37f7d2180a75a2e0f",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_4b00baa636b92e18b7a75884_48",
+      "kind": "th",
+      "source": "Description",
+      "sourceHash": "4b00baa636b92e18b7a75884790f0769c3e702d20d8822e708f69ab2f07c7103",
+      "context": "Electron API > BackupPassphraseApi",
+      "contextHash": "dffeb890c41796775769c3dddf8bff45d84fcebaeacbb2c37f7d2180a75a2e0f",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_c2683577256b9766322048f4_0",
+      "kind": "td",
+      "source": "__TRILIUM_PH_0____TRILIUM_PH_1__The passphrase to encrypt later backups with.",
+      "sourceHash": "c2683577256b9766322048f47c582a405738730968d415a9bb573223f243ae78",
+      "context": "Electron API > BackupPassphraseApi",
+      "contextHash": "dffeb890c41796775769c3dddf8bff45d84fcebaeacbb2c37f7d2180a75a2e0f",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_385b92efc49fb4bc36ae39f2_0",
+      "kind": "p",
+      "source": "Forgets the stored passphrase. Existing backups keep the passphrase they were written with.",
+      "sourceHash": "385b92efc49fb4bc36ae39f2c6e03503f12078fd4ca570843e62c5dbf5957ef9",
+      "context": "Electron API > BackupPassphraseApi",
+      "contextHash": "dffeb890c41796775769c3dddf8bff45d84fcebaeacbb2c37f7d2180a75a2e0f",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_846443075d1767a541abd47e_0",
+      "kind": "p",
+      "source": "Desktop-only OneNote importer sign-in, driven from the main process via a loopback OAuth redirect.",
+      "sourceHash": "846443075d1767a541abd47efbd3207afe67b19e9c696370795dfb67d72e5780",
+      "context": "Electron API > OneNoteApi",
+      "contextHash": "b907f69ad9aa534b417a57ca3834f75b1e63e8b86d4ba15055f6775efda0e2de",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_a33ca01911db4eb061a7b1f7_11",
+      "kind": "th",
+      "source": "Member",
+      "sourceHash": "a33ca01911db4eb061a7b1f7e51ead5f200300c1d4862b5200c519f99d74366a",
+      "context": "Electron API > OneNoteApi",
+      "contextHash": "b907f69ad9aa534b417a57ca3834f75b1e63e8b86d4ba15055f6775efda0e2de",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_4b00baa636b92e18b7a75884_49",
+      "kind": "th",
+      "source": "Description",
+      "sourceHash": "4b00baa636b92e18b7a75884790f0769c3e702d20d8822e708f69ab2f07c7103",
+      "context": "Electron API > OneNoteApi",
+      "contextHash": "b907f69ad9aa534b417a57ca3834f75b1e63e8b86d4ba15055f6775efda0e2de",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_29861c2e19dba726f8dffc46_0",
+      "kind": "p",
+      "source": "Runs the Microsoft delegated-Graph OAuth flow: opens the system browser, captures the redirect on a throwaway loopback server, exchanges the code, and stores the token process-side. Resolves once the desktop session is connected (or with __TRILIUM_PH_0__ on failure/timeout).",
+      "sourceHash": "29861c2e19dba726f8dffc465a4e84795fdf1349ab3c8b126439a82b7c53419a",
+      "context": "Electron API > OneNoteApi",
+      "contextHash": "b907f69ad9aa534b417a57ca3834f75b1e63e8b86d4ba15055f6775efda0e2de",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_90fbed53475ee8235914dbab_0",
+      "kind": "p",
+      "source": "Desktop-native subtree export that streams a __TRILIUM_PH_0__ straight to a file.",
+      "sourceHash": "90fbed53475ee8235914dbabe687ba13e22e9ba60d5cb3571bebf513f793f52e",
+      "context": "Electron API > NativeExportApi",
+      "contextHash": "6ee9c5437d1ef496094a6437eb53187f732ec2e27201209f2c5d05d25fbc7e73",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_a33ca01911db4eb061a7b1f7_12",
+      "kind": "th",
+      "source": "Member",
+      "sourceHash": "a33ca01911db4eb061a7b1f7e51ead5f200300c1d4862b5200c519f99d74366a",
+      "context": "Electron API > NativeExportApi",
+      "contextHash": "6ee9c5437d1ef496094a6437eb53187f732ec2e27201209f2c5d05d25fbc7e73",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_4b00baa636b92e18b7a75884_50",
+      "kind": "th",
+      "source": "Description",
+      "sourceHash": "4b00baa636b92e18b7a75884790f0769c3e702d20d8822e708f69ab2f07c7103",
+      "context": "Electron API > NativeExportApi",
+      "contextHash": "6ee9c5437d1ef496094a6437eb53187f732ec2e27201209f2c5d05d25fbc7e73",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_d1e28166f4a71853f2fd4ee7_0",
+      "kind": "p",
+      "source": "Prompts a native \"save as\" dialog, then streams a subtree (branch) export to the chosen path on disk. This bypasses the in-memory download path, so memory stays bounded regardless of archive size. Progress/success/error are reported over the WebSocket via __TRILIUM_PH_0__. Resolves once the dialog is dismissed (__TRILIUM_PH_1__) or the export finishes (__TRILIUM_PH_2__ / __TRILIUM_PH_3__).",
+      "sourceHash": "d1e28166f4a71853f2fd4ee7bde86fc75b750ef15ebbec1594cff43f7c7873d0",
+      "context": "Electron API > NativeExportApi",
+      "contextHash": "6ee9c5437d1ef496094a6437eb53187f732ec2e27201209f2c5d05d25fbc7e73",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_d0ea24bdd89e09dce64d91c7_37",
+      "kind": "th",
+      "source": "Parameter",
+      "sourceHash": "d0ea24bdd89e09dce64d91c78db27d63c085d49c77361387a3546a025ab6d000",
+      "context": "Electron API > NativeExportApi",
+      "contextHash": "6ee9c5437d1ef496094a6437eb53187f732ec2e27201209f2c5d05d25fbc7e73",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_4b00baa636b92e18b7a75884_51",
+      "kind": "th",
+      "source": "Description",
+      "sourceHash": "4b00baa636b92e18b7a75884790f0769c3e702d20d8822e708f69ab2f07c7103",
+      "context": "Electron API > NativeExportApi",
+      "contextHash": "6ee9c5437d1ef496094a6437eb53187f732ec2e27201209f2c5d05d25fbc7e73",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_6ffdff6e01ea899cb0948097_0",
+      "kind": "td",
+      "source": "__TRILIUM_PH_0____TRILIUM_PH_1__The branch to export, the export format (__TRILIUM_PH_2__, __TRILIUM_PH_3__ or __TRILIUM_PH_4__), the title to suggest as the file name, and the ID of the task that reports progress.",
+      "sourceHash": "6ffdff6e01ea899cb09480978942d859b2b4b4872c482b074f073d2997be9dd7",
+      "context": "Electron API > NativeExportApi",
+      "contextHash": "6ee9c5437d1ef496094a6437eb53187f732ec2e27201209f2c5d05d25fbc7e73",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_d6b349c35cce6e3071af9077_0",
+      "kind": "p",
+      "source": "Desktop-native import that reads the user's file __TRILIUM_PH_0__in place__TRILIUM_PH_1__ (bounded memory, no temp copy) — the whole point being multi-GB __TRILIUM_PH_2__ archives, though any importable file is accepted. The renderer never handles a filesystem path: __TRILIUM_PH_3__ runs the OS dialog in the main process and returns opaque capability tokens, which __TRILIUM_PH_4__ redeems. A script can't forge a token or pass a path, so it can never read an arbitrary file.",
+      "sourceHash": "d6b349c35cce6e3071af90773f4ad2a2f9cb7ed78592dda948c62bb3c1aaac25",
+      "context": "Electron API > NativeImportApi",
+      "contextHash": "523e8cb5fe678e46b4210b22fa6f348b3e6022e8f4b224db82ae84f522275c0b",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_a33ca01911db4eb061a7b1f7_13",
+      "kind": "th",
+      "source": "Member",
+      "sourceHash": "a33ca01911db4eb061a7b1f7e51ead5f200300c1d4862b5200c519f99d74366a",
+      "context": "Electron API > NativeImportApi",
+      "contextHash": "523e8cb5fe678e46b4210b22fa6f348b3e6022e8f4b224db82ae84f522275c0b",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_4b00baa636b92e18b7a75884_52",
+      "kind": "th",
+      "source": "Description",
+      "sourceHash": "4b00baa636b92e18b7a75884790f0769c3e702d20d8822e708f69ab2f07c7103",
+      "context": "Electron API > NativeImportApi",
+      "contextHash": "523e8cb5fe678e46b4210b22fa6f348b3e6022e8f4b224db82ae84f522275c0b",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_d9c6a35b512353825b3a7f45_0",
+      "kind": "p",
+      "source": "Prompts a native \"open file\" dialog (multi-select, any type) and returns single-use tokens for the chosen files.",
+      "sourceHash": "d9c6a35b512353825b3a7f45893dfe703977182a928157b5b909780d75884093",
+      "context": "Electron API > NativeImportApi",
+      "contextHash": "523e8cb5fe678e46b4210b22fa6f348b3e6022e8f4b224db82ae84f522275c0b",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_040c355efa0736131479ec27_0",
+      "kind": "p",
+      "source": "Resolves files the user dropped onto a drop zone to capability tokens, so a drag-and-drop import takes the same in-place (streamed) path as the dialog. The __TRILIUM_PH_0__ is the unforgeable capability: the path is obtained via __TRILIUM_PH_1__, which yields a real path only for a genuinely user-supplied file and an empty string for anything a script constructed — so a script can't smuggle in an arbitrary path. Returns __TRILIUM_PH_2__ when no dropped file resolved (e.g. dragged from a browser, not the OS), so the caller falls back to the normal upload route.",
+      "sourceHash": "040c355efa0736131479ec275afab907adf084ddd9f79bdf0e82ac7eacfc6601",
+      "context": "Electron API > NativeImportApi",
+      "contextHash": "523e8cb5fe678e46b4210b22fa6f348b3e6022e8f4b224db82ae84f522275c0b",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_d0ea24bdd89e09dce64d91c7_38",
+      "kind": "th",
+      "source": "Parameter",
+      "sourceHash": "d0ea24bdd89e09dce64d91c78db27d63c085d49c77361387a3546a025ab6d000",
+      "context": "Electron API > NativeImportApi",
+      "contextHash": "523e8cb5fe678e46b4210b22fa6f348b3e6022e8f4b224db82ae84f522275c0b",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_4b00baa636b92e18b7a75884_53",
+      "kind": "th",
+      "source": "Description",
+      "sourceHash": "4b00baa636b92e18b7a75884790f0769c3e702d20d8822e708f69ab2f07c7103",
+      "context": "Electron API > NativeImportApi",
+      "contextHash": "523e8cb5fe678e46b4210b22fa6f348b3e6022e8f4b224db82ae84f522275c0b",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_8b9928f156ab218f251f2330_0",
+      "kind": "td",
+      "source": "__TRILIUM_PH_0____TRILIUM_PH_1__The files of the drop event.",
+      "sourceHash": "8b9928f156ab218f251f2330e7e39d100afb22593bac1f174380c4e067a76375",
+      "context": "Electron API > NativeImportApi",
+      "contextHash": "523e8cb5fe678e46b4210b22fa6f348b3e6022e8f4b224db82ae84f522275c0b",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_4798c4a059d88e703fbe49cf_0",
+      "kind": "p",
+      "source": "Imports the file behind a token, with progress/success/error reported over the WebSocket like the HTTP import path.",
+      "sourceHash": "4798c4a059d88e703fbe49cf044c3161c6ec339ca8fb4e1d8baf73d466d5b8d4",
+      "context": "Electron API > NativeImportApi",
+      "contextHash": "523e8cb5fe678e46b4210b22fa6f348b3e6022e8f4b224db82ae84f522275c0b",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_d0ea24bdd89e09dce64d91c7_39",
+      "kind": "th",
+      "source": "Parameter",
+      "sourceHash": "d0ea24bdd89e09dce64d91c78db27d63c085d49c77361387a3546a025ab6d000",
+      "context": "Electron API > NativeImportApi",
+      "contextHash": "523e8cb5fe678e46b4210b22fa6f348b3e6022e8f4b224db82ae84f522275c0b",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_4b00baa636b92e18b7a75884_54",
+      "kind": "th",
+      "source": "Description",
+      "sourceHash": "4b00baa636b92e18b7a75884790f0769c3e702d20d8822e708f69ab2f07c7103",
+      "context": "Electron API > NativeImportApi",
+      "contextHash": "523e8cb5fe678e46b4210b22fa6f348b3e6022e8f4b224db82ae84f522275c0b",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_71d9c90bd2dcfc504025daba_0",
+      "kind": "td",
+      "source": "__TRILIUM_PH_0__ __TRILIUM_PH_1____TRILIUM_PH_2____TRILIUM_PH_3____TRILIUM_PH_4____TRILIUM_PH_5__The __TRILIUM_PH_6__ to redeem, the __TRILIUM_PH_7__ to import under, the __TRILIUM_PH_8__ that reports progress, and the import __TRILIUM_PH_9__. When importing several files in one batch, set __TRILIUM_PH_10__ only on the final call so the success toast fires once, after everything is in. __TRILIUM_PH_11__ routes the file to a specific importer (e.g. __TRILIUM_PH_12__), mirroring the HTTP route's format tag.",
+      "sourceHash": "71d9c90bd2dcfc504025dabaf58c9f16cd12caace78af3d79afa329238dc1f2e",
+      "context": "Electron API > NativeImportApi",
+      "contextHash": "523e8cb5fe678e46b4210b22fa6f348b3e6022e8f4b224db82ae84f522275c0b",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_8e7bd20f872ab8fd1d312912_0",
+      "kind": "p",
+      "source": "Native OS pickers that hand the renderer a location the user chose themselves.",
+      "sourceHash": "8e7bd20f872ab8fd1d31291246b3d80cd611f95bc75f12b6d2537ddaddb7e08e",
+      "context": "Electron API > DialogApi",
+      "contextHash": "1dace5ad17552d82cf5b93bb41b0083dd3c54bee9d244b35b5eef4f51b7ad309",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_a33ca01911db4eb061a7b1f7_14",
+      "kind": "th",
+      "source": "Member",
+      "sourceHash": "a33ca01911db4eb061a7b1f7e51ead5f200300c1d4862b5200c519f99d74366a",
+      "context": "Electron API > DialogApi",
+      "contextHash": "1dace5ad17552d82cf5b93bb41b0083dd3c54bee9d244b35b5eef4f51b7ad309",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_4b00baa636b92e18b7a75884_55",
+      "kind": "th",
+      "source": "Description",
+      "sourceHash": "4b00baa636b92e18b7a75884790f0769c3e702d20d8822e708f69ab2f07c7103",
+      "context": "Electron API > DialogApi",
+      "contextHash": "1dace5ad17552d82cf5b93bb41b0083dd3c54bee9d244b35b5eef4f51b7ad309",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_9450eec7481c458d67bdc327_0",
+      "kind": "p",
+      "source": "Prompts a native \"select folder\" dialog. The renderer cannot supply the answer: a script can at most pop the dialog, which the user still has to accept before any path comes back.",
+      "sourceHash": "9450eec7481c458d67bdc32723529a659fd8c46387ef6b5be4465326d18277f2",
+      "context": "Electron API > DialogApi",
+      "contextHash": "1dace5ad17552d82cf5b93bb41b0083dd3c54bee9d244b35b5eef4f51b7ad309",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_d0ea24bdd89e09dce64d91c7_40",
+      "kind": "th",
+      "source": "Parameter",
+      "sourceHash": "d0ea24bdd89e09dce64d91c78db27d63c085d49c77361387a3546a025ab6d000",
+      "context": "Electron API > DialogApi",
+      "contextHash": "1dace5ad17552d82cf5b93bb41b0083dd3c54bee9d244b35b5eef4f51b7ad309",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_4b00baa636b92e18b7a75884_56",
+      "kind": "th",
+      "source": "Description",
+      "sourceHash": "4b00baa636b92e18b7a75884790f0769c3e702d20d8822e708f69ab2f07c7103",
+      "context": "Electron API > DialogApi",
+      "contextHash": "1dace5ad17552d82cf5b93bb41b0083dd3c54bee9d244b35b5eef4f51b7ad309",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_27d177e789fa04e47af08634_1",
+      "kind": "td",
+      "source": "__TRILIUM_PH_0____TRILIUM_PH_1____TRILIUM_PH_2__optional__TRILIUM_PH_3__",
+      "sourceHash": "27d177e789fa04e47af08634c3d690764b47699579e5ab7eace8b5a715b37f25",
+      "context": "Electron API > DialogApi",
+      "contextHash": "1dace5ad17552d82cf5b93bb41b0083dd3c54bee9d244b35b5eef4f51b7ad309",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_ad5d991bc4d56ea5f043f42d_0",
+      "kind": "td",
+      "source": "__TRILIUM_PH_0____TRILIUM_PH_1__The directory the dialog starts in, as __TRILIUM_PH_2__.",
+      "sourceHash": "ad5d991bc4d56ea5f043f42d20e2a39a5a72cdc7da9816591d23a1fe0cc46ce2",
+      "context": "Electron API > DialogApi",
+      "contextHash": "1dace5ad17552d82cf5b93bb41b0083dd3c54bee9d244b35b5eef4f51b7ad309",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_b01f915d556c5b31f77092db_0",
+      "kind": "p",
+      "source": "Prompts a native message box before the application restarts into the setup screen, where the user may replace or erase their knowledge base.",
+      "sourceHash": "b01f915d556c5b31f77092db7013e5ceb99b453207aa5f6be7af3c30b469e4df",
+      "context": "Electron API > DialogApi",
+      "contextHash": "1dace5ad17552d82cf5b93bb41b0083dd3c54bee9d244b35b5eef4f51b7ad309",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_9f2341263fc140198fd2deb8_0",
+      "kind": "p",
+      "source": "An OS dialog rather than one of the application's own, for the reason the security toggles use one: a note script can reach every dialog the app draws for itself, and this one guards the path to losing everything. It is never suppressible, so there is no \"don't ask again\" here.",
+      "sourceHash": "9f2341263fc140198fd2deb8de92b2909a48cc4fa84443f11c81dd7f7e307f3c",
+      "context": "Electron API > DialogApi",
+      "contextHash": "1dace5ad17552d82cf5b93bb41b0083dd3c54bee9d244b35b5eef4f51b7ad309",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_32a6e53ed5094b30472ba169_0",
+      "kind": "p",
+      "source": "Choosing a backup to restore from the desktop, where the file is already on the same disk as the database it is going to replace and has no business being uploaded to reach it.",
+      "sourceHash": "32a6e53ed5094b30472ba169941b69a62dcada24d6997816ba619b0c9594c669",
+      "context": "Electron API > RestoreApi",
+      "contextHash": "d937dcd3e6c2101eb283b7c700b06c7968d6604499bfa1f34804f54c7438fd3d",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_aa737375d49fff0e1691fd5f_0",
+      "kind": "p",
+      "source": "Only usable during setup: what it puts forward is restored by the ordinary __TRILIUM_PH_0__, which refuses once the application is initialized.",
+      "sourceHash": "aa737375d49fff0e1691fd5fe174985acb13c4aef83d7833de3970e4497ea093",
+      "context": "Electron API > RestoreApi",
+      "contextHash": "d937dcd3e6c2101eb283b7c700b06c7968d6604499bfa1f34804f54c7438fd3d",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_a33ca01911db4eb061a7b1f7_15",
+      "kind": "th",
+      "source": "Member",
+      "sourceHash": "a33ca01911db4eb061a7b1f7e51ead5f200300c1d4862b5200c519f99d74366a",
+      "context": "Electron API > RestoreApi",
+      "contextHash": "d937dcd3e6c2101eb283b7c700b06c7968d6604499bfa1f34804f54c7438fd3d",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_4b00baa636b92e18b7a75884_57",
+      "kind": "th",
+      "source": "Description",
+      "sourceHash": "4b00baa636b92e18b7a75884790f0769c3e702d20d8822e708f69ab2f07c7103",
+      "context": "Electron API > RestoreApi",
+      "contextHash": "d937dcd3e6c2101eb283b7c700b06c7968d6604499bfa1f34804f54c7438fd3d",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_5b647a469d7fb566caf0b569_0",
+      "kind": "p",
+      "source": "Prompts a native \"open file\" dialog for a __TRILIUM_PH_0__ or __TRILIUM_PH_1__ backup and, if one is chosen, makes it the backup waiting to be restored.",
+      "sourceHash": "5b647a469d7fb566caf0b5693866eb635008f26a1c659b7b68af8ec031a4fdb7",
+      "context": "Electron API > RestoreApi",
+      "contextHash": "d937dcd3e6c2101eb283b7c700b06c7968d6604499bfa1f34804f54c7438fd3d",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_d58b37f27288be1caf52dadd_0",
+      "kind": "p",
+      "source": "Meeting transcription, recorded and transcribed on this computer by the main process. The renderer only starts and stops it; the audio never passes through the renderer.",
+      "sourceHash": "d58b37f27288be1caf52daddabfe2f7a4921dab7425c7f585f5b2e9d88e6fd86",
+      "context": "Electron API > TranscriptionApi",
+      "contextHash": "032ff75293fd666f884d954ef87a91c0b3bc2324abb9231129e3bae93c5a181b",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_a33ca01911db4eb061a7b1f7_16",
+      "kind": "th",
+      "source": "Member",
+      "sourceHash": "a33ca01911db4eb061a7b1f7e51ead5f200300c1d4862b5200c519f99d74366a",
+      "context": "Electron API > TranscriptionApi",
+      "contextHash": "032ff75293fd666f884d954ef87a91c0b3bc2324abb9231129e3bae93c5a181b",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_4b00baa636b92e18b7a75884_58",
+      "kind": "th",
+      "source": "Description",
+      "sourceHash": "4b00baa636b92e18b7a75884790f0769c3e702d20d8822e708f69ab2f07c7103",
+      "context": "Electron API > TranscriptionApi",
+      "contextHash": "032ff75293fd666f884d954ef87a91c0b3bc2324abb9231129e3bae93c5a181b",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_ff7b8cd0931cd13eb2a20dce_0",
+      "kind": "p",
+      "source": "Whether this build can transcribe on this computer: __TRILIUM_PH_0__ when it carries no speech recognition engine for the platform and processor it runs on.",
+      "sourceHash": "ff7b8cd0931cd13eb2a20dceca319dba54cbd68a74e98503568cee73f38aa7ce",
+      "context": "Electron API > TranscriptionApi",
+      "contextHash": "032ff75293fd666f884d954ef87a91c0b3bc2324abb9231129e3bae93c5a181b",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_bb3c1862274404914d72fc48_0",
+      "kind": "p",
+      "source": "Starts recording the microphone and the system audio for a meeting note.",
+      "sourceHash": "bb3c1862274404914d72fc486973265abefe44449cd4a229fe10fcbcecc880f6",
+      "context": "Electron API > TranscriptionApi",
+      "contextHash": "032ff75293fd666f884d954ef87a91c0b3bc2324abb9231129e3bae93c5a181b",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_d0ea24bdd89e09dce64d91c7_41",
+      "kind": "th",
+      "source": "Parameter",
+      "sourceHash": "d0ea24bdd89e09dce64d91c78db27d63c085d49c77361387a3546a025ab6d000",
+      "context": "Electron API > TranscriptionApi",
+      "contextHash": "032ff75293fd666f884d954ef87a91c0b3bc2324abb9231129e3bae93c5a181b",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_4b00baa636b92e18b7a75884_59",
+      "kind": "th",
+      "source": "Description",
+      "sourceHash": "4b00baa636b92e18b7a75884790f0769c3e702d20d8822e708f69ab2f07c7103",
+      "context": "Electron API > TranscriptionApi",
+      "contextHash": "032ff75293fd666f884d954ef87a91c0b3bc2324abb9231129e3bae93c5a181b",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_28fe387847e522a93ad2c18c_0",
+      "kind": "td",
+      "source": "__TRILIUM_PH_0____TRILIUM_PH_1__The meeting note the transcript belongs to.",
+      "sourceHash": "28fe387847e522a93ad2c18c826d4812c6aac79ec6760327b6145de6c3d0e835",
+      "context": "Electron API > TranscriptionApi",
+      "contextHash": "032ff75293fd666f884d954ef87a91c0b3bc2324abb9231129e3bae93c5a181b",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_4bbf6d75368d171c031f1d56_0",
+      "kind": "p",
+      "source": "__TRILIUM_PH_0__Returns__TRILIUM_PH_1__ __TRILIUM_PH_2__: An empty string once recording runs, or an error message when it cannot start.",
+      "sourceHash": "4bbf6d75368d171c031f1d561dc218c625c32933e1abe35dd1f0d2b8c430db21",
+      "context": "Electron API > TranscriptionApi",
+      "contextHash": "032ff75293fd666f884d954ef87a91c0b3bc2324abb9231129e3bae93c5a181b",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_566a45217ecb5feca2b98c0c_0",
+      "kind": "p",
+      "source": "Stops the recording, once the speech already captured has been transcribed.",
+      "sourceHash": "566a45217ecb5feca2b98c0c22018b887cda17cba628f5cdf133e8ea367f7365",
+      "context": "Electron API > TranscriptionApi",
+      "contextHash": "032ff75293fd666f884d954ef87a91c0b3bc2324abb9231129e3bae93c5a181b",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_5f6541f04bad351f933c04e4_0",
+      "kind": "p",
+      "source": "Names a speaker of a transcript attachment, if a running recording writes that transcript. The recording applies it, so no utterance it writes meanwhile is lost.",
+      "sourceHash": "5f6541f04bad351f933c04e4193c73f0c650d81b4a87a3b27267e92f498ae570",
+      "context": "Electron API > TranscriptionApi",
+      "contextHash": "032ff75293fd666f884d954ef87a91c0b3bc2324abb9231129e3bae93c5a181b",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_d0ea24bdd89e09dce64d91c7_42",
+      "kind": "th",
+      "source": "Parameter",
+      "sourceHash": "d0ea24bdd89e09dce64d91c78db27d63c085d49c77361387a3546a025ab6d000",
+      "context": "Electron API > TranscriptionApi",
+      "contextHash": "032ff75293fd666f884d954ef87a91c0b3bc2324abb9231129e3bae93c5a181b",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_4b00baa636b92e18b7a75884_60",
+      "kind": "th",
+      "source": "Description",
+      "sourceHash": "4b00baa636b92e18b7a75884790f0769c3e702d20d8822e708f69ab2f07c7103",
+      "context": "Electron API > TranscriptionApi",
+      "contextHash": "032ff75293fd666f884d954ef87a91c0b3bc2324abb9231129e3bae93c5a181b",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_794d90bdab2c45b9f1ff9b61_0",
+      "kind": "td",
+      "source": "__TRILIUM_PH_0____TRILIUM_PH_1__The transcript attachment.",
+      "sourceHash": "794d90bdab2c45b9f1ff9b61c0fe8ca5f688b81a63ff7fe3d7c08c2ded74ee09",
+      "context": "Electron API > TranscriptionApi",
+      "contextHash": "032ff75293fd666f884d954ef87a91c0b3bc2324abb9231129e3bae93c5a181b",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_3a75df0c31da5d348f0ec6a1_0",
+      "kind": "td",
+      "source": "__TRILIUM_PH_0____TRILIUM_PH_1__The speaker: __TRILIUM_PH_2__ for the local speaker, __TRILIUM_PH_3__ for an identified speaker of the system audio.",
+      "sourceHash": "3a75df0c31da5d348f0ec6a1a999407e19156b72aa814821cac617c40341d21b",
+      "context": "Electron API > TranscriptionApi",
+      "contextHash": "032ff75293fd666f884d954ef87a91c0b3bc2324abb9231129e3bae93c5a181b",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_6389c40db340ae780c605336_0",
+      "kind": "td",
+      "source": "__TRILIUM_PH_0____TRILIUM_PH_1__The name to give, or a blank string to restore the default name.",
+      "sourceHash": "6389c40db340ae780c605336bf7a784be339d8f995bcc71378af66ea3b52a551",
+      "context": "Electron API > TranscriptionApi",
+      "contextHash": "032ff75293fd666f884d954ef87a91c0b3bc2324abb9231129e3bae93c5a181b",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_dacb26c50d5ac375e108e59d_0",
+      "kind": "p",
+      "source": "__TRILIUM_PH_0__Returns__TRILIUM_PH_1__ __TRILIUM_PH_2__: __TRILIUM_PH_3__ when no recording writes __TRILIUM_PH_4__; it can then be saved whole.",
+      "sourceHash": "dacb26c50d5ac375e108e59dd850ca67e210df57cd61582eae19afa12d9ead2c",
+      "context": "Electron API > TranscriptionApi",
+      "contextHash": "032ff75293fd666f884d954ef87a91c0b3bc2324abb9231129e3bae93c5a181b",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_2af3f8e7ca7adbaef64f7026_0",
+      "kind": "p",
+      "source": "Returns the directory that keeps the audio and the transcript as produced of each recording while __TRILIUM_PH_0__ is on, creating it if needed.",
+      "sourceHash": "2af3f8e7ca7adbaef64f7026efe734091b8dfbff10426d844b418d8e77d4874a",
+      "context": "Electron API > TranscriptionApi",
+      "contextHash": "032ff75293fd666f884d954ef87a91c0b3bc2324abb9231129e3bae93c5a181b",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_328b362f87b3067161487235_0",
+      "kind": "p",
+      "source": "Subscribes to changes of the transcription state, made from any window.",
+      "sourceHash": "328b362f87b3067161487235d5b119ba292358bbac4c9378110e095d312fcc97",
+      "context": "Electron API > TranscriptionApi",
+      "contextHash": "032ff75293fd666f884d954ef87a91c0b3bc2324abb9231129e3bae93c5a181b",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_d0ea24bdd89e09dce64d91c7_43",
+      "kind": "th",
+      "source": "Parameter",
+      "sourceHash": "d0ea24bdd89e09dce64d91c78db27d63c085d49c77361387a3546a025ab6d000",
+      "context": "Electron API > TranscriptionApi",
+      "contextHash": "032ff75293fd666f884d954ef87a91c0b3bc2324abb9231129e3bae93c5a181b",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_4b00baa636b92e18b7a75884_61",
+      "kind": "th",
+      "source": "Description",
+      "sourceHash": "4b00baa636b92e18b7a75884790f0769c3e702d20d8822e708f69ab2f07c7103",
+      "context": "Electron API > TranscriptionApi",
+      "contextHash": "032ff75293fd666f884d954ef87a91c0b3bc2324abb9231129e3bae93c5a181b",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_d8a3df1cb6a03b4597494fa6_0",
+      "kind": "td",
+      "source": "__TRILIUM_PH_0__ __TRILIUM_PH_1____TRILIUM_PH_2____TRILIUM_PH_3____TRILIUM_PH_4____TRILIUM_PH_5__Receives the new state.",
+      "sourceHash": "d8a3df1cb6a03b4597494fa62a85fd96759764890df8c7ba61d8a6ede83dc87d",
+      "context": "Electron API > TranscriptionApi",
+      "contextHash": "032ff75293fd666f884d954ef87a91c0b3bc2324abb9231129e3bae93c5a181b",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_1d9b9dd30a87e47ab00c88c1_0",
+      "kind": "p",
+      "source": "__TRILIUM_PH_0__Returns__TRILIUM_PH_1__ __TRILIUM_PH_2__: A function that removes the listener.",
+      "sourceHash": "1d9b9dd30a87e47ab00c88c1361808e9ccd31d82879c31e0d146bc4bb8099d59",
+      "context": "Electron API > TranscriptionApi",
+      "contextHash": "032ff75293fd666f884d954ef87a91c0b3bc2324abb9231129e3bae93c5a181b",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_67d2724c2452790d77e3913a_0",
+      "kind": "p",
+      "source": "Subscribes to the audio level of the running recording, about four times a second per source.",
+      "sourceHash": "67d2724c2452790d77e3913a8151b6cf13a3f119b9a2d5c958638da878d65eae",
+      "context": "Electron API > TranscriptionApi",
+      "contextHash": "032ff75293fd666f884d954ef87a91c0b3bc2324abb9231129e3bae93c5a181b",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_d0ea24bdd89e09dce64d91c7_44",
+      "kind": "th",
+      "source": "Parameter",
+      "sourceHash": "d0ea24bdd89e09dce64d91c78db27d63c085d49c77361387a3546a025ab6d000",
+      "context": "Electron API > TranscriptionApi",
+      "contextHash": "032ff75293fd666f884d954ef87a91c0b3bc2324abb9231129e3bae93c5a181b",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_4b00baa636b92e18b7a75884_62",
+      "kind": "th",
+      "source": "Description",
+      "sourceHash": "4b00baa636b92e18b7a75884790f0769c3e702d20d8822e708f69ab2f07c7103",
+      "context": "Electron API > TranscriptionApi",
+      "contextHash": "032ff75293fd666f884d954ef87a91c0b3bc2324abb9231129e3bae93c5a181b",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_e5e05b9edc37ee302212d691_0",
+      "kind": "td",
+      "source": "__TRILIUM_PH_0__ __TRILIUM_PH_1____TRILIUM_PH_2____TRILIUM_PH_3____TRILIUM_PH_4____TRILIUM_PH_5__Receives the source and the RMS, from 0 to 1, of each chunk it delivers.",
+      "sourceHash": "e5e05b9edc37ee302212d691bc491c58e6ec340b7e24bd694b2266afec71ea45",
+      "context": "Electron API > TranscriptionApi",
+      "contextHash": "032ff75293fd666f884d954ef87a91c0b3bc2324abb9231129e3bae93c5a181b",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_5800b0c9c65fcc80191526d9_0",
+      "kind": "p",
+      "source": "__TRILIUM_PH_0__Returns__TRILIUM_PH_1__ __TRILIUM_PH_2__: A function that stops the calls.",
+      "sourceHash": "5800b0c9c65fcc80191526d954b918304f838a5be58a1c4b63cff86fa07f810c",
+      "context": "Electron API > TranscriptionApi",
+      "contextHash": "032ff75293fd666f884d954ef87a91c0b3bc2324abb9231129e3bae93c5a181b",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_6fac61c95e01695dde602190_0",
+      "kind": "h2",
+      "source": "Types__TRILIUM_PH_0__",
+      "sourceHash": "6fac61c95e01695dde60219027b407a3b43bcb70e023bfcf474728f61a12c372",
+      "context": "Electron API > Types",
+      "contextHash": "ba85a14d883a76fe0730329b2cdf294941bd9804f28237cfa6e455354d77e70a",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_0a4569af6184fe3acfb92f66_0",
+      "kind": "p",
+      "source": "Parameters delivered by the main process to the renderer when the user opens the system context menu (right-click) somewhere inside a web view.",
+      "sourceHash": "0a4569af6184fe3acfb92f66a0134be4121c43814d3451cb0643f3d1c74bbfa9",
+      "context": "Electron API > Types > ContextMenuParams",
+      "contextHash": "82165ca770f56daf497c2200cd24896a75bc02db3d22da0dad0953b5629a0863",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_c15982718b56345cbb6aa82b_0",
+      "kind": "p",
+      "source": "Mirrors the subset of fields from Electron's __TRILIUM_PH_0__ that the renderer actually consumes when building its custom context menu.",
+      "sourceHash": "c15982718b56345cbb6aa82bc809e75dc996c36e06a1770bf4e0f07b4f813914",
+      "context": "Electron API > Types > ContextMenuParams",
+      "contextHash": "82165ca770f56daf497c2200cd24896a75bc02db3d22da0dad0953b5629a0863",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_2eba2c8872a2d818ecd73aa0_1",
+      "kind": "th",
+      "source": "Property",
+      "sourceHash": "2eba2c8872a2d818ecd73aa0408a11e2c482922d23aa806cde77c99a85d8ed18",
+      "context": "Electron API > Types > ContextMenuParams",
+      "contextHash": "82165ca770f56daf497c2200cd24896a75bc02db3d22da0dad0953b5629a0863",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_4b00baa636b92e18b7a75884_63",
+      "kind": "th",
+      "source": "Description",
+      "sourceHash": "4b00baa636b92e18b7a75884790f0769c3e702d20d8822e708f69ab2f07c7103",
+      "context": "Electron API > Types > ContextMenuParams",
+      "contextHash": "82165ca770f56daf497c2200cd24896a75bc02db3d22da0dad0953b5629a0863",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_f607aeeee228e09a7046de9c_0",
+      "kind": "td",
+      "source": "__TRILIUM_PH_0__  __TRILIUM_PH_1__Horizontal position of the click, in CSS pixels, relative to the web view.",
+      "sourceHash": "f607aeeee228e09a7046de9c6881a3d4fdf7742f4c47c728a659b4e17a7681c6",
+      "context": "Electron API > Types > ContextMenuParams",
+      "contextHash": "82165ca770f56daf497c2200cd24896a75bc02db3d22da0dad0953b5629a0863",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_00dc9e7a9b6bf2fb2e8dcde2_0",
+      "kind": "td",
+      "source": "__TRILIUM_PH_0__  __TRILIUM_PH_1__Vertical position of the click, in CSS pixels, relative to the web view.",
+      "sourceHash": "00dc9e7a9b6bf2fb2e8dcde23754f1b2c5afc179e17c1b6a64d6d857d7f961bd",
+      "context": "Electron API > Types > ContextMenuParams",
+      "contextHash": "82165ca770f56daf497c2200cd24896a75bc02db3d22da0dad0953b5629a0863",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_844f153a3c905f9fc854112f_0",
+      "kind": "td",
+      "source": "__TRILIUM_PH_0__  __TRILIUM_PH_1__URL of the link the user clicked on, or an empty string if not on a link.",
+      "sourceHash": "844f153a3c905f9fc854112ff89e63a617050e409a79c5e450201eaa69fd0cb0",
+      "context": "Electron API > Types > ContextMenuParams",
+      "contextHash": "82165ca770f56daf497c2200cd24896a75bc02db3d22da0dad0953b5629a0863",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_2eb743e6b3e5849163b2230c_0",
+      "kind": "td",
+      "source": "__TRILIUM_PH_0__  __TRILIUM_PH_1__Visible text of the link the user clicked on, or an empty string.",
+      "sourceHash": "2eb743e6b3e5849163b2230c72e62857c80395ffe31bd0a4dfa85be50799f5dd",
+      "context": "Electron API > Types > ContextMenuParams",
+      "contextHash": "82165ca770f56daf497c2200cd24896a75bc02db3d22da0dad0953b5629a0863",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_9b58d11d6fdc30233945b784_0",
+      "kind": "td",
+      "source": "__TRILIUM_PH_0__  __TRILIUM_PH_1__Media kind under the cursor (e.g. __TRILIUM_PH_2__, __TRILIUM_PH_3__, __TRILIUM_PH_4__, __TRILIUM_PH_5__).",
+      "sourceHash": "9b58d11d6fdc30233945b7846b334ef1c261210ebccaf540bace9da4e9b8e3eb",
+      "context": "Electron API > Types > ContextMenuParams",
+      "contextHash": "82165ca770f56daf497c2200cd24896a75bc02db3d22da0dad0953b5629a0863",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_32cb5c56d57a87895e9a4cab_0",
+      "kind": "td",
+      "source": "__TRILIUM_PH_0__  __TRILIUM_PH_1__Whether the element under the cursor is editable (input, textarea, contenteditable).",
+      "sourceHash": "32cb5c56d57a87895e9a4cab3ab3b6386f8b65a2f7d5418923e124ed0485ce54",
+      "context": "Electron API > Types > ContextMenuParams",
+      "contextHash": "82165ca770f56daf497c2200cd24896a75bc02db3d22da0dad0953b5629a0863",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_2dd4a3c90226f08ec1b6f2e8_0",
+      "kind": "td",
+      "source": "__TRILIUM_PH_0__  __TRILIUM_PH_1__Currently selected text, or an empty string if nothing is selected.",
+      "sourceHash": "2dd4a3c90226f08ec1b6f2e8a93d28962daf66e6afc278ffe5d8295a562bb492",
+      "context": "Electron API > Types > ContextMenuParams",
+      "contextHash": "82165ca770f56daf497c2200cd24896a75bc02db3d22da0dad0953b5629a0863",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_40047ca85b17375a0fb70f1d_0",
+      "kind": "td",
+      "source": "__TRILIUM_PH_0__  __TRILIUM_PH_1__The misspelled word under the cursor, or an empty string if none.",
+      "sourceHash": "40047ca85b17375a0fb70f1d5b86669b4c4603607cff639db6016421627603c8",
+      "context": "Electron API > Types > ContextMenuParams",
+      "contextHash": "82165ca770f56daf497c2200cd24896a75bc02db3d22da0dad0953b5629a0863",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_dea08cc5a52ecf5ab8262cfd_0",
+      "kind": "td",
+      "source": "__TRILIUM_PH_0__  __TRILIUM_PH_1__Spell-check suggestions for __TRILIUM_PH_2__, in order of relevance.",
+      "sourceHash": "dea08cc5a52ecf5ab8262cfde53e185d95b4c67b4b7ad47b5a448d39ef33d8ed",
+      "context": "Electron API > Types > ContextMenuParams",
+      "contextHash": "82165ca770f56daf497c2200cd24896a75bc02db3d22da0dad0953b5629a0863",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_582b10214b45e5db188acc07_0",
+      "kind": "td",
+      "source": "__TRILIUM_PH_0__  __TRILIUM_PH_1__Hints about which clipboard operations are currently available.",
+      "sourceHash": "582b10214b45e5db188acc07b2b429632923c60ed904c446312ad128658afc2e",
+      "context": "Electron API > Types > ContextMenuParams",
+      "contextHash": "82165ca770f56daf497c2200cd24896a75bc02db3d22da0dad0953b5629a0863",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_894048c237074caea8d4809f_0",
+      "kind": "p",
+      "source": "What the Options UI needs to know about the stored backup passphrase.",
+      "sourceHash": "894048c237074caea8d4809fea3516db2b17f772a4a737657e3ed0e9025577c1",
+      "context": "Electron API > Types > BackupPassphraseStatus",
+      "contextHash": "944b2bd96e4d19a8b2424a430b160d112ced9db371f5365ca491720e87334108",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_2eba2c8872a2d818ecd73aa0_2",
+      "kind": "th",
+      "source": "Property",
+      "sourceHash": "2eba2c8872a2d818ecd73aa0408a11e2c482922d23aa806cde77c99a85d8ed18",
+      "context": "Electron API > Types > BackupPassphraseStatus",
+      "contextHash": "944b2bd96e4d19a8b2424a430b160d112ced9db371f5365ca491720e87334108",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_4b00baa636b92e18b7a75884_64",
+      "kind": "th",
+      "source": "Description",
+      "sourceHash": "4b00baa636b92e18b7a75884790f0769c3e702d20d8822e708f69ab2f07c7103",
+      "context": "Electron API > Types > BackupPassphraseStatus",
+      "contextHash": "944b2bd96e4d19a8b2424a430b160d112ced9db371f5365ca491720e87334108",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_4b9fea63ba5ea1ff79a7ed0e_0",
+      "kind": "td",
+      "source": "__TRILIUM_PH_0__  __TRILIUM_PH_1__Whether the OS offers a keyring to keep the passphrase in. Without one it cannot be stored safely, and since unattended backups cannot ask for it, encryption is unavailable altogether.",
+      "sourceHash": "4b9fea63ba5ea1ff79a7ed0ee0d7af4d38ab489f5b4936570968d875ca804873",
+      "context": "Electron API > Types > BackupPassphraseStatus",
+      "contextHash": "944b2bd96e4d19a8b2424a430b160d112ced9db371f5365ca491720e87334108",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_572941cf93c31928b78db2a1_0",
+      "kind": "td",
+      "source": "__TRILIUM_PH_0__  __TRILIUM_PH_1__Whether a passphrase is currently stored.",
+      "sourceHash": "572941cf93c31928b78db2a17f42e8cc2d07a0ebc326889d7dea8c44cb7afa74",
+      "context": "Electron API > Types > BackupPassphraseStatus",
+      "contextHash": "944b2bd96e4d19a8b2424a430b160d112ced9db371f5365ca491720e87334108",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_402901a71735c69477429f80_0",
+      "kind": "p",
+      "source": "What became of a request to change the stored backup passphrase.",
+      "sourceHash": "402901a71735c69477429f805fdac2530714cb93610127de95f83be6feb3df15",
+      "context": "Electron API > Types > BackupPassphraseChange",
+      "contextHash": "fd24fa6b003ee59f18948d206e21c0c4c021b05f6a6d5773ae90e0271e757056",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_4c84cbff1153e6df8a060c3b_0",
+      "kind": "th",
+      "source": "Value",
+      "sourceHash": "4c84cbff1153e6df8a060c3bb5c15624b66d5173adb4aca1c13ed769658311ee",
+      "context": "Electron API > Types > BackupPassphraseChange",
+      "contextHash": "fd24fa6b003ee59f18948d206e21c0c4c021b05f6a6d5773ae90e0271e757056",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_4b00baa636b92e18b7a75884_65",
+      "kind": "th",
+      "source": "Description",
+      "sourceHash": "4b00baa636b92e18b7a75884790f0769c3e702d20d8822e708f69ab2f07c7103",
+      "context": "Electron API > Types > BackupPassphraseChange",
+      "contextHash": "fd24fa6b003ee59f18948d206e21c0c4c021b05f6a6d5773ae90e0271e757056",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_1da7348d62d6364cf5abaa78_0",
+      "kind": "td",
+      "source": "The change was confirmed and carried out.",
+      "sourceHash": "1da7348d62d6364cf5abaa78580d6d855cc663b6bb8cfc21c18c1c72442e2a1a",
+      "context": "Electron API > Types > BackupPassphraseChange",
+      "contextHash": "fd24fa6b003ee59f18948d206e21c0c4c021b05f6a6d5773ae90e0271e757056",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_e1990884454a92c5f4bbd341_0",
+      "kind": "td",
+      "source": "The user declined the OS confirmation, so nothing changed.",
+      "sourceHash": "e1990884454a92c5f4bbd341d1bcf079244d306c67f66598c348c5cd6902248f",
+      "context": "Electron API > Types > BackupPassphraseChange",
+      "contextHash": "fd24fa6b003ee59f18948d206e21c0c4c021b05f6a6d5773ae90e0271e757056",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_122fd61bb1267ef959539b97_0",
+      "kind": "td",
+      "source": "There is no keyring on this system to keep a passphrase in.",
+      "sourceHash": "122fd61bb1267ef959539b973ebf432e78b12119d197107082badc37436fa890",
+      "context": "Electron API > Types > BackupPassphraseChange",
+      "contextHash": "fd24fa6b003ee59f18948d206e21c0c4c021b05f6a6d5773ae90e0271e757056",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_8e27b82fa93b58ea52af23ac_0",
+      "kind": "p",
+      "source": "Outcome of a __TRILIUM_PH_0____TRILIUM_PH_1____TRILIUM_PH_2__ attempt.",
+      "sourceHash": "8e27b82fa93b58ea52af23ac87e67c3ef6d4ce68992ecfa6e5604fa639337b02",
+      "context": "Electron API > Types > OneNoteLoginResult",
+      "contextHash": "0a7532e9196d2357d600c3b0d3d6de371371adde7b42ad435fbfeaa61267af07",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_2eba2c8872a2d818ecd73aa0_3",
+      "kind": "th",
+      "source": "Property",
+      "sourceHash": "2eba2c8872a2d818ecd73aa0408a11e2c482922d23aa806cde77c99a85d8ed18",
+      "context": "Electron API > Types > OneNoteLoginResult",
+      "contextHash": "0a7532e9196d2357d600c3b0d3d6de371371adde7b42ad435fbfeaa61267af07",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_4b00baa636b92e18b7a75884_66",
+      "kind": "th",
+      "source": "Description",
+      "sourceHash": "4b00baa636b92e18b7a75884790f0769c3e702d20d8822e708f69ab2f07c7103",
+      "context": "Electron API > Types > OneNoteLoginResult",
+      "contextHash": "0a7532e9196d2357d600c3b0d3d6de371371adde7b42ad435fbfeaa61267af07",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_70b563f2aa295c6d98d09ccb_0",
+      "kind": "td",
+      "source": "__TRILIUM_PH_0__  __TRILIUM_PH_1__True if sign-in completed and a Microsoft Graph token was stored.",
+      "sourceHash": "70b563f2aa295c6d98d09ccbc97324914e1cc546aead843c0e8e3539903625f0",
+      "context": "Electron API > Types > OneNoteLoginResult",
+      "contextHash": "0a7532e9196d2357d600c3b0d3d6de371371adde7b42ad435fbfeaa61267af07",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_685c42ecb0502ec1dcae3189_0",
+      "kind": "td",
+      "source": "__TRILIUM_PH_0__  __TRILIUM_PH_1____TRILIUM_PH_2__optional__TRILIUM_PH_3__",
+      "sourceHash": "685c42ecb0502ec1dcae318947ac1db7f17af51464eb929f0d1634e0d8b4f5af",
+      "context": "Electron API > Types > OneNoteLoginResult",
+      "contextHash": "0a7532e9196d2357d600c3b0d3d6de371371adde7b42ad435fbfeaa61267af07",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_a91b7e9ad4178997862f1121_0",
+      "kind": "td",
+      "source": "__TRILIUM_PH_0__  __TRILIUM_PH_1__The connected Microsoft account, present when __TRILIUM_PH_2__ is true.",
+      "sourceHash": "a91b7e9ad4178997862f1121a5b27e0a3ad6d2e21bfb9d0737bd3de887f12a6f",
+      "context": "Electron API > Types > OneNoteLoginResult",
+      "contextHash": "0a7532e9196d2357d600c3b0d3d6de371371adde7b42ad435fbfeaa61267af07",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_685c42ecb0502ec1dcae3189_1",
+      "kind": "td",
+      "source": "__TRILIUM_PH_0__  __TRILIUM_PH_1____TRILIUM_PH_2__optional__TRILIUM_PH_3__",
+      "sourceHash": "685c42ecb0502ec1dcae318947ac1db7f17af51464eb929f0d1634e0d8b4f5af",
+      "context": "Electron API > Types > OneNoteLoginResult",
+      "contextHash": "0a7532e9196d2357d600c3b0d3d6de371371adde7b42ad435fbfeaa61267af07",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_cf71c4d850355455d3afa993_0",
+      "kind": "td",
+      "source": "__TRILIUM_PH_0__  __TRILIUM_PH_1__A human-readable failure reason when __TRILIUM_PH_2__ is false (absent on user cancellation).",
+      "sourceHash": "cf71c4d850355455d3afa993bf1edbce8ef98feb4b5d3f3c4c034a86b4ee59ba",
+      "context": "Electron API > Types > OneNoteLoginResult",
+      "contextHash": "0a7532e9196d2357d600c3b0d3d6de371371adde7b42ad435fbfeaa61267af07",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_d19be380f142b71db10a98a8_0",
+      "kind": "p",
+      "source": "Outcome of a __TRILIUM_PH_0____TRILIUM_PH_1____TRILIUM_PH_2__ request.",
+      "sourceHash": "d19be380f142b71db10a98a8d94bd363f47ea44f03e9916935f45bce424f215a",
+      "context": "Electron API > Types > NativeExportResult",
+      "contextHash": "87bfac5564daf1ad872006274371bb95a95c8481a0adee987e6a43d0541eb367",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_2eba2c8872a2d818ecd73aa0_4",
+      "kind": "th",
+      "source": "Property",
+      "sourceHash": "2eba2c8872a2d818ecd73aa0408a11e2c482922d23aa806cde77c99a85d8ed18",
+      "context": "Electron API > Types > NativeExportResult",
+      "contextHash": "87bfac5564daf1ad872006274371bb95a95c8481a0adee987e6a43d0541eb367",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_4b00baa636b92e18b7a75884_67",
+      "kind": "th",
+      "source": "Description",
+      "sourceHash": "4b00baa636b92e18b7a75884790f0769c3e702d20d8822e708f69ab2f07c7103",
+      "context": "Electron API > Types > NativeExportResult",
+      "contextHash": "87bfac5564daf1ad872006274371bb95a95c8481a0adee987e6a43d0541eb367",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_685c42ecb0502ec1dcae3189_2",
+      "kind": "td",
+      "source": "__TRILIUM_PH_0__  __TRILIUM_PH_1____TRILIUM_PH_2__optional__TRILIUM_PH_3__",
+      "sourceHash": "685c42ecb0502ec1dcae318947ac1db7f17af51464eb929f0d1634e0d8b4f5af",
+      "context": "Electron API > Types > NativeExportResult",
+      "contextHash": "87bfac5564daf1ad872006274371bb95a95c8481a0adee987e6a43d0541eb367",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_b49efcdb98fd9cf9d5e3d394_0",
+      "kind": "td",
+      "source": "__TRILIUM_PH_0__  __TRILIUM_PH_1__Absolute path the archive was written to (when __TRILIUM_PH_2__).",
+      "sourceHash": "b49efcdb98fd9cf9d5e3d3949c9c703d3714bda2e5051f36db866595f201f4f6",
+      "context": "Electron API > Types > NativeExportResult",
+      "contextHash": "87bfac5564daf1ad872006274371bb95a95c8481a0adee987e6a43d0541eb367",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_685c42ecb0502ec1dcae3189_3",
+      "kind": "td",
+      "source": "__TRILIUM_PH_0__  __TRILIUM_PH_1____TRILIUM_PH_2__optional__TRILIUM_PH_3__",
+      "sourceHash": "685c42ecb0502ec1dcae318947ac1db7f17af51464eb929f0d1634e0d8b4f5af",
+      "context": "Electron API > Types > NativeExportResult",
+      "contextHash": "87bfac5564daf1ad872006274371bb95a95c8481a0adee987e6a43d0541eb367",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_bc546a6df5aecc6a34f6d485_0",
+      "kind": "td",
+      "source": "__TRILIUM_PH_0__  __TRILIUM_PH_1__Failure detail (when __TRILIUM_PH_2__).",
+      "sourceHash": "bc546a6df5aecc6a34f6d485606f8bcd60a48f553f53037dda34b6895be42934",
+      "context": "Electron API > Types > NativeExportResult",
+      "contextHash": "87bfac5564daf1ad872006274371bb95a95c8481a0adee987e6a43d0541eb367",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_54a192cdc80493119e9a6e9c_0",
+      "kind": "p",
+      "source": "Outcome of __TRILIUM_PH_0____TRILIUM_PH_1____TRILIUM_PH_2__: capability tokens, never paths.",
+      "sourceHash": "54a192cdc80493119e9a6e9ca03139ebe4f3076bd3aa1ad86aa0d2823362ec44",
+      "context": "Electron API > Types > NativeImportPickResult",
+      "contextHash": "7016dbd657195f14afe8c694afc63a4581766dd571da9fa6f5900e6abf396236",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_2eba2c8872a2d818ecd73aa0_5",
+      "kind": "th",
+      "source": "Property",
+      "sourceHash": "2eba2c8872a2d818ecd73aa0408a11e2c482922d23aa806cde77c99a85d8ed18",
+      "context": "Electron API > Types > NativeImportPickResult",
+      "contextHash": "7016dbd657195f14afe8c694afc63a4581766dd571da9fa6f5900e6abf396236",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_4b00baa636b92e18b7a75884_68",
+      "kind": "th",
+      "source": "Description",
+      "sourceHash": "4b00baa636b92e18b7a75884790f0769c3e702d20d8822e708f69ab2f07c7103",
+      "context": "Electron API > Types > NativeImportPickResult",
+      "contextHash": "7016dbd657195f14afe8c694afc63a4581766dd571da9fa6f5900e6abf396236",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_685c42ecb0502ec1dcae3189_4",
+      "kind": "td",
+      "source": "__TRILIUM_PH_0__  __TRILIUM_PH_1____TRILIUM_PH_2__optional__TRILIUM_PH_3__",
+      "sourceHash": "685c42ecb0502ec1dcae318947ac1db7f17af51464eb929f0d1634e0d8b4f5af",
+      "context": "Electron API > Types > NativeImportPickResult",
+      "contextHash": "7016dbd657195f14afe8c694afc63a4581766dd571da9fa6f5900e6abf396236",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_19983bbfd385eebb79bb21c4_0",
+      "kind": "td",
+      "source": "__TRILIUM_PH_0____TRILIUM_PH_1____TRILIUM_PH_2____TRILIUM_PH_3__  __TRILIUM_PH_4__The user-chosen files (when __TRILIUM_PH_5__); one or more, since the dialog allows multi-select.",
+      "sourceHash": "19983bbfd385eebb79bb21c43c35c9ffac2c4a8d5574511e2804fd3bc4d750c7",
+      "context": "Electron API > Types > NativeImportPickResult",
+      "contextHash": "7016dbd657195f14afe8c694afc63a4581766dd571da9fa6f5900e6abf396236",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_ac35405cf6f906f092e88523_0",
+      "kind": "p",
+      "source": "Import flags forwarded to the native importer (mirrors the HTTP route's options; no path).",
+      "sourceHash": "ac35405cf6f906f092e88523da9459ca43a0ac0a9ceae322a893f0208ed1a9ae",
+      "context": "Electron API > Types > NativeImportOptions",
+      "contextHash": "b6eb9b372fa19ed28a8f9498bd9dc373bea62a70f5767d9781b1d8b226ff7a9e",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_2eba2c8872a2d818ecd73aa0_6",
+      "kind": "th",
+      "source": "Property",
+      "sourceHash": "2eba2c8872a2d818ecd73aa0408a11e2c482922d23aa806cde77c99a85d8ed18",
+      "context": "Electron API > Types > NativeImportOptions",
+      "contextHash": "b6eb9b372fa19ed28a8f9498bd9dc373bea62a70f5767d9781b1d8b226ff7a9e",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_4b00baa636b92e18b7a75884_69",
+      "kind": "th",
+      "source": "Description",
+      "sourceHash": "4b00baa636b92e18b7a75884790f0769c3e702d20d8822e708f69ab2f07c7103",
+      "context": "Electron API > Types > NativeImportOptions",
+      "contextHash": "b6eb9b372fa19ed28a8f9498bd9dc373bea62a70f5767d9781b1d8b226ff7a9e",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_ad8daf1499af605151a1fdb6_0",
+      "kind": "p",
+      "source": "Outcome of __TRILIUM_PH_0____TRILIUM_PH_1____TRILIUM_PH_2__.",
+      "sourceHash": "ad8daf1499af605151a1fdb6bd9d6c55be8fa8cd0375698f1922b26a53c8cfe4",
+      "context": "Electron API > Types > NativeImportResult",
+      "contextHash": "a4f3988f3269764461e66dd013305d501909110a908ad0f2fe4892292a491abb",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_2eba2c8872a2d818ecd73aa0_7",
+      "kind": "th",
+      "source": "Property",
+      "sourceHash": "2eba2c8872a2d818ecd73aa0408a11e2c482922d23aa806cde77c99a85d8ed18",
+      "context": "Electron API > Types > NativeImportResult",
+      "contextHash": "a4f3988f3269764461e66dd013305d501909110a908ad0f2fe4892292a491abb",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_4b00baa636b92e18b7a75884_70",
+      "kind": "th",
+      "source": "Description",
+      "sourceHash": "4b00baa636b92e18b7a75884790f0769c3e702d20d8822e708f69ab2f07c7103",
+      "context": "Electron API > Types > NativeImportResult",
+      "contextHash": "a4f3988f3269764461e66dd013305d501909110a908ad0f2fe4892292a491abb",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_685c42ecb0502ec1dcae3189_5",
+      "kind": "td",
+      "source": "__TRILIUM_PH_0__  __TRILIUM_PH_1____TRILIUM_PH_2__optional__TRILIUM_PH_3__",
+      "sourceHash": "685c42ecb0502ec1dcae318947ac1db7f17af51464eb929f0d1634e0d8b4f5af",
+      "context": "Electron API > Types > NativeImportResult",
+      "contextHash": "a4f3988f3269764461e66dd013305d501909110a908ad0f2fe4892292a491abb",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_f8ad383e12f0f533826760fa_0",
+      "kind": "td",
+      "source": "__TRILIUM_PH_0__  __TRILIUM_PH_1__Root note of the import (when __TRILIUM_PH_2__).",
+      "sourceHash": "f8ad383e12f0f533826760fad820554ff24f3357c3ae2dc32d67b0ccef0446b9",
+      "context": "Electron API > Types > NativeImportResult",
+      "contextHash": "a4f3988f3269764461e66dd013305d501909110a908ad0f2fe4892292a491abb",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_685c42ecb0502ec1dcae3189_6",
+      "kind": "td",
+      "source": "__TRILIUM_PH_0__  __TRILIUM_PH_1____TRILIUM_PH_2__optional__TRILIUM_PH_3__",
+      "sourceHash": "685c42ecb0502ec1dcae318947ac1db7f17af51464eb929f0d1634e0d8b4f5af",
+      "context": "Electron API > Types > NativeImportResult",
+      "contextHash": "a4f3988f3269764461e66dd013305d501909110a908ad0f2fe4892292a491abb",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_bc546a6df5aecc6a34f6d485_1",
+      "kind": "td",
+      "source": "__TRILIUM_PH_0__  __TRILIUM_PH_1__Failure detail (when __TRILIUM_PH_2__).",
+      "sourceHash": "bc546a6df5aecc6a34f6d485606f8bcd60a48f553f53037dda34b6895be42934",
+      "context": "Electron API > Types > NativeImportResult",
+      "contextHash": "a4f3988f3269764461e66dd013305d501909110a908ad0f2fe4892292a491abb",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_ad8daf1499af605151a1fdb6_1",
+      "kind": "p",
+      "source": "Outcome of __TRILIUM_PH_0____TRILIUM_PH_1____TRILIUM_PH_2__.",
+      "sourceHash": "ad8daf1499af605151a1fdb6bd9d6c55be8fa8cd0375698f1922b26a53c8cfe4",
+      "context": "Electron API > Types > NativeDirectoryPickResult",
+      "contextHash": "04922a7f3637dfc9eff1876f4c7579039d08dd55ff5f211f05540a1dab7c460f",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_2eba2c8872a2d818ecd73aa0_8",
+      "kind": "th",
+      "source": "Property",
+      "sourceHash": "2eba2c8872a2d818ecd73aa0408a11e2c482922d23aa806cde77c99a85d8ed18",
+      "context": "Electron API > Types > NativeDirectoryPickResult",
+      "contextHash": "04922a7f3637dfc9eff1876f4c7579039d08dd55ff5f211f05540a1dab7c460f",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_4b00baa636b92e18b7a75884_71",
+      "kind": "th",
+      "source": "Description",
+      "sourceHash": "4b00baa636b92e18b7a75884790f0769c3e702d20d8822e708f69ab2f07c7103",
+      "context": "Electron API > Types > NativeDirectoryPickResult",
+      "contextHash": "04922a7f3637dfc9eff1876f4c7579039d08dd55ff5f211f05540a1dab7c460f",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_685c42ecb0502ec1dcae3189_7",
+      "kind": "td",
+      "source": "__TRILIUM_PH_0__  __TRILIUM_PH_1____TRILIUM_PH_2__optional__TRILIUM_PH_3__",
+      "sourceHash": "685c42ecb0502ec1dcae318947ac1db7f17af51464eb929f0d1634e0d8b4f5af",
+      "context": "Electron API > Types > NativeDirectoryPickResult",
+      "contextHash": "04922a7f3637dfc9eff1876f4c7579039d08dd55ff5f211f05540a1dab7c460f",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_c47196ada9737a0ef64cd2cc_0",
+      "kind": "td",
+      "source": "__TRILIUM_PH_0__  __TRILIUM_PH_1__Absolute path of the chosen directory (when __TRILIUM_PH_2__).",
+      "sourceHash": "c47196ada9737a0ef64cd2cc0cdd883db90bd81c2cfc38fc84cbbdef0750476b",
+      "context": "Electron API > Types > NativeDirectoryPickResult",
+      "contextHash": "04922a7f3637dfc9eff1876f4c7579039d08dd55ff5f211f05540a1dab7c460f",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_c6cac5ae86bcb7933d426a14_0",
+      "kind": "p",
+      "source": "Outcome of __TRILIUM_PH_0____TRILIUM_PH_1____TRILIUM_PH_2__: what the chosen backup is, never where it is.",
+      "sourceHash": "c6cac5ae86bcb7933d426a14e6a7ac07a8d387e6d0e56de8ce9568a56a6b6547",
+      "context": "Electron API > Types > NativeBackupPickResult",
+      "contextHash": "278515b65313377a6655ec8d5e67b304ee06c4362766b6f6b00e01564ca7ceb1",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_ceaf97af74e75967b2277021_0",
+      "kind": "p",
+      "source": "The file itself stays with the main process, which holds it as the one waiting to be restored, so the renderer is given only what the screen has to show and decide with.",
+      "sourceHash": "ceaf97af74e75967b22770213970226938d313ab6daf6bb6516afd1a7c396eee",
+      "context": "Electron API > Types > NativeBackupPickResult",
+      "contextHash": "278515b65313377a6655ec8d5e67b304ee06c4362766b6f6b00e01564ca7ceb1",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_2eba2c8872a2d818ecd73aa0_9",
+      "kind": "th",
+      "source": "Property",
+      "sourceHash": "2eba2c8872a2d818ecd73aa0408a11e2c482922d23aa806cde77c99a85d8ed18",
+      "context": "Electron API > Types > NativeBackupPickResult",
+      "contextHash": "278515b65313377a6655ec8d5e67b304ee06c4362766b6f6b00e01564ca7ceb1",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_4b00baa636b92e18b7a75884_72",
+      "kind": "th",
+      "source": "Description",
+      "sourceHash": "4b00baa636b92e18b7a75884790f0769c3e702d20d8822e708f69ab2f07c7103",
+      "context": "Electron API > Types > NativeBackupPickResult",
+      "contextHash": "278515b65313377a6655ec8d5e67b304ee06c4362766b6f6b00e01564ca7ceb1",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_685c42ecb0502ec1dcae3189_8",
+      "kind": "td",
+      "source": "__TRILIUM_PH_0__  __TRILIUM_PH_1____TRILIUM_PH_2__optional__TRILIUM_PH_3__",
+      "sourceHash": "685c42ecb0502ec1dcae318947ac1db7f17af51464eb929f0d1634e0d8b4f5af",
+      "context": "Electron API > Types > NativeBackupPickResult",
+      "contextHash": "278515b65313377a6655ec8d5e67b304ee06c4362766b6f6b00e01564ca7ceb1",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_390bb06a10df18db89445b7c_0",
+      "kind": "td",
+      "source": "__TRILIUM_PH_0__  __TRILIUM_PH_1__Display name of the chosen backup (when __TRILIUM_PH_2__).",
+      "sourceHash": "390bb06a10df18db89445b7cab6fa1a89e08610a3cabf23858c0fa7a583be5bf",
+      "context": "Electron API > Types > NativeBackupPickResult",
+      "contextHash": "278515b65313377a6655ec8d5e67b304ee06c4362766b6f6b00e01564ca7ceb1",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_685c42ecb0502ec1dcae3189_9",
+      "kind": "td",
+      "source": "__TRILIUM_PH_0__  __TRILIUM_PH_1____TRILIUM_PH_2__optional__TRILIUM_PH_3__",
+      "sourceHash": "685c42ecb0502ec1dcae318947ac1db7f17af51464eb929f0d1634e0d8b4f5af",
+      "context": "Electron API > Types > NativeBackupPickResult",
+      "contextHash": "278515b65313377a6655ec8d5e67b304ee06c4362766b6f6b00e01564ca7ceb1",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_b1174f326a29b9e0222280aa_0",
+      "kind": "td",
+      "source": "__TRILIUM_PH_0__  __TRILIUM_PH_1__Whether a passphrase has to be asked for before it can be restored.",
+      "sourceHash": "b1174f326a29b9e0222280aa2bcfb09663837c22ed561620b445b5325df58a4e",
+      "context": "Electron API > Types > NativeBackupPickResult",
+      "contextHash": "278515b65313377a6655ec8d5e67b304ee06c4362766b6f6b00e01564ca7ceb1",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_685c42ecb0502ec1dcae3189_10",
+      "kind": "td",
+      "source": "__TRILIUM_PH_0__  __TRILIUM_PH_1____TRILIUM_PH_2__optional__TRILIUM_PH_3__",
+      "sourceHash": "685c42ecb0502ec1dcae318947ac1db7f17af51464eb929f0d1634e0d8b4f5af",
+      "context": "Electron API > Types > NativeBackupPickResult",
+      "contextHash": "278515b65313377a6655ec8d5e67b304ee06c4362766b6f6b00e01564ca7ceb1",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_faa4f668a42a4e6968ab428f_0",
+      "kind": "td",
+      "source": "__TRILIUM_PH_0__  __TRILIUM_PH_1__Failure detail (when __TRILIUM_PH_2__), e.g. setup already being busy.",
+      "sourceHash": "faa4f668a42a4e6968ab428ffe8cdbc2334102bc9ca095e28e032fe3dd637266",
+      "context": "Electron API > Types > NativeBackupPickResult",
+      "contextHash": "278515b65313377a6655ec8d5e67b304ee06c4362766b6f6b00e01564ca7ceb1",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_73857df94ef3eb13efcf19ee_0",
+      "kind": "p",
+      "source": "What __TRILIUM_PH_0____TRILIUM_PH_1____TRILIUM_PH_2__ reports to every window.",
+      "sourceHash": "73857df94ef3eb13efcf19ee1d0fe0325243f39c92472a2247a0effc86d6aa0f",
+      "context": "Electron API > Types > TranscriptionState",
+      "contextHash": "ada98a5de6c3b1b80480c2f9bc63124e5d6fe494c0ed6a38bb38dc57734a63c3",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_2eba2c8872a2d818ecd73aa0_10",
+      "kind": "th",
+      "source": "Property",
+      "sourceHash": "2eba2c8872a2d818ecd73aa0408a11e2c482922d23aa806cde77c99a85d8ed18",
+      "context": "Electron API > Types > TranscriptionState",
+      "contextHash": "ada98a5de6c3b1b80480c2f9bc63124e5d6fe494c0ed6a38bb38dc57734a63c3",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_4b00baa636b92e18b7a75884_73",
+      "kind": "th",
+      "source": "Description",
+      "sourceHash": "4b00baa636b92e18b7a75884790f0769c3e702d20d8822e708f69ab2f07c7103",
+      "context": "Electron API > Types > TranscriptionState",
+      "contextHash": "ada98a5de6c3b1b80480c2f9bc63124e5d6fe494c0ed6a38bb38dc57734a63c3",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_493b60316bc3bae52b324f82_0",
+      "kind": "td",
+      "source": "__TRILIUM_PH_0__  __TRILIUM_PH_1__Phase of the meeting transcription; at most one recording runs at a time.",
+      "sourceHash": "493b60316bc3bae52b324f82dc79b5b3e885d6e3a2d4df139977bff4f983ca20",
+      "context": "Electron API > Types > TranscriptionState",
+      "contextHash": "ada98a5de6c3b1b80480c2f9bc63124e5d6fe494c0ed6a38bb38dc57734a63c3",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_aa3664eb8c6170cd4450dfe4_0",
+      "kind": "td",
+      "source": "__TRILIUM_PH_0__  __TRILIUM_PH_1__The meeting note the recording belongs to, or __TRILIUM_PH_2__ when idle.",
+      "sourceHash": "aa3664eb8c6170cd4450dfe47070dd8a4073bad249a4def24279d70307a62532",
+      "context": "Electron API > Types > TranscriptionState",
+      "contextHash": "ada98a5de6c3b1b80480c2f9bc63124e5d6fe494c0ed6a38bb38dc57734a63c3",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_e633de40034f56081ad30250_0",
+      "kind": "td",
+      "source": "__TRILIUM_PH_0____TRILIUM_PH_1____TRILIUM_PH_2____TRILIUM_PH_3__  __TRILIUM_PH_4__The sources heard speaking, or whose speech is still being transcribed.",
+      "sourceHash": "e633de40034f56081ad30250ca7b895d77264b1b1ddf27335b17d0ba045cdf8a",
+      "context": "Electron API > Types > TranscriptionState",
+      "contextHash": "ada98a5de6c3b1b80480c2f9bc63124e5d6fe494c0ed6a38bb38dc57734a63c3",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_685c42ecb0502ec1dcae3189_11",
+      "kind": "td",
+      "source": "__TRILIUM_PH_0__  __TRILIUM_PH_1____TRILIUM_PH_2__optional__TRILIUM_PH_3__",
+      "sourceHash": "685c42ecb0502ec1dcae318947ac1db7f17af51464eb929f0d1634e0d8b4f5af",
+      "context": "Electron API > Types > TranscriptionState",
+      "contextHash": "ada98a5de6c3b1b80480c2f9bc63124e5d6fe494c0ed6a38bb38dc57734a63c3",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_e1376dc3317da606fa98c1d1_0",
+      "kind": "td",
+      "source": "__TRILIUM_PH_0____TRILIUM_PH_1____TRILIUM_PH_2____TRILIUM_PH_3____TRILIUM_PH_4__  __TRILIUM_PH_5__While recording, the sources whose audio is not being transcribed, and why; absent when every source delivers sound.  __TRILIUM_PH_6__Why a source's audio is not being transcribed: its capture did not start (__TRILIUM_PH_7__), it has delivered no audio for 10 s (__TRILIUM_PH_8__), as when its capture hangs, or it has delivered only digital silence for a while (__TRILIUM_PH_9__), as from a muted device.",
+      "sourceHash": "e1376dc3317da606fa98c1d18e4ae5574e4fee2377f319785eb7bda66335ebbc",
+      "context": "Electron API > Types > TranscriptionState",
+      "contextHash": "ada98a5de6c3b1b80480c2f9bc63124e5d6fe494c0ed6a38bb38dc57734a63c3",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_685c42ecb0502ec1dcae3189_12",
+      "kind": "td",
+      "source": "__TRILIUM_PH_0__  __TRILIUM_PH_1____TRILIUM_PH_2__optional__TRILIUM_PH_3__",
+      "sourceHash": "685c42ecb0502ec1dcae318947ac1db7f17af51464eb929f0d1634e0d8b4f5af",
+      "context": "Electron API > Types > TranscriptionState",
+      "contextHash": "ada98a5de6c3b1b80480c2f9bc63124e5d6fe494c0ed6a38bb38dc57734a63c3",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_fd236e14436a8680c88b1e2a_0",
+      "kind": "td",
+      "source": "__TRILIUM_PH_0__  __TRILIUM_PH_1__When the recording started, in milliseconds since the epoch: set once it records, kept while it stops, absent otherwise.",
+      "sourceHash": "fd236e14436a8680c88b1e2a6e62a438993f3f5b0375777b3980fb985277ea59",
+      "context": "Electron API > Types > TranscriptionState",
+      "contextHash": "ada98a5de6c3b1b80480c2f9bc63124e5d6fe494c0ed6a38bb38dc57734a63c3",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_685c42ecb0502ec1dcae3189_13",
+      "kind": "td",
+      "source": "__TRILIUM_PH_0__  __TRILIUM_PH_1____TRILIUM_PH_2__optional__TRILIUM_PH_3__",
+      "sourceHash": "685c42ecb0502ec1dcae318947ac1db7f17af51464eb929f0d1634e0d8b4f5af",
+      "context": "Electron API > Types > TranscriptionState",
+      "contextHash": "ada98a5de6c3b1b80480c2f9bc63124e5d6fe494c0ed6a38bb38dc57734a63c3",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_9623cc4c47c270f4fe3eacd9_0",
+      "kind": "td",
+      "source": "__TRILIUM_PH_0__  __TRILIUM_PH_1__A problem to tell the user about, sent once with the state it concerns: the recording ended without being stopped, or its transcript cannot be saved. __TRILIUM_PH_2__ never returns it.",
+      "sourceHash": "9623cc4c47c270f4fe3eacd96c6abe8c85dbcf50d79d83fc4717d716554863fa",
+      "context": "Electron API > Types > TranscriptionState",
+      "contextHash": "ada98a5de6c3b1b80480c2f9bc63124e5d6fe494c0ed6a38bb38dc57734a63c3",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_fa6fb2d22a5306b66094a61c_0",
+      "kind": "p",
+      "source": "Where an utterance was heard: the local speaker's microphone, or everyone else on the system output.",
+      "sourceHash": "fa6fb2d22a5306b66094a61c3438f7ea692381e18dfc10f22d2fbbbdbe17b2dc",
+      "context": "Electron API > Types > TranscriptSource",
+      "contextHash": "b3d2c56f80c629087ee79c693fad554c732f07b0d0c458cb925597733b1ef3c0",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_5a01cfc174bf76eda898abfc_0",
+      "kind": "p",
+      "source": "A single user-chosen file: a capability token (redeemed to import it) and its display name — never a path.",
+      "sourceHash": "5a01cfc174bf76eda898abfcee62688854a4be628e6e85152c189f84387f0c77",
+      "context": "Electron API > Types > NativeImportPickedFile",
+      "contextHash": "d2711dc65c904a37403043283d26e4ce88a58438b125660479a2f6eaacf377a4",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_2eba2c8872a2d818ecd73aa0_11",
+      "kind": "th",
+      "source": "Property",
+      "sourceHash": "2eba2c8872a2d818ecd73aa0408a11e2c482922d23aa806cde77c99a85d8ed18",
+      "context": "Electron API > Types > NativeImportPickedFile",
+      "contextHash": "d2711dc65c904a37403043283d26e4ce88a58438b125660479a2f6eaacf377a4",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_4b00baa636b92e18b7a75884_74",
+      "kind": "th",
+      "source": "Description",
+      "sourceHash": "4b00baa636b92e18b7a75884790f0769c3e702d20d8822e708f69ab2f07c7103",
+      "context": "Electron API > Types > NativeImportPickedFile",
+      "contextHash": "d2711dc65c904a37403043283d26e4ce88a58438b125660479a2f6eaacf377a4",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_cf1b0e52b1515289b7b252fe_0",
+      "kind": "td",
+      "source": "__TRILIUM_PH_0__  __TRILIUM_PH_1__Single-use, short-lived grant for the chosen file.",
+      "sourceHash": "cf1b0e52b1515289b7b252fe6ea11e8f0841e42e748b00606d2005a39c268aa1",
+      "context": "Electron API > Types > NativeImportPickedFile",
+      "contextHash": "d2711dc65c904a37403043283d26e4ce88a58438b125660479a2f6eaacf377a4",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_b64fb75dacd851388fe0f8d4_0",
+      "kind": "td",
+      "source": "__TRILIUM_PH_0__  __TRILIUM_PH_1__Display name of the chosen file.",
+      "sourceHash": "b64fb75dacd851388fe0f8d48d9feaf524eb4d4d72142b96e4f1b9495f8915be",
+      "context": "Electron API > Types > NativeImportPickedFile",
+      "contextHash": "d2711dc65c904a37403043283d26e4ce88a58438b125660479a2f6eaacf377a4",
+      "status": "pending",
+      "active": true
+    }
+  ],
+  "requests": []
+}

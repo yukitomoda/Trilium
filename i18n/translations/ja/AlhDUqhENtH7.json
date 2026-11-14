@@ -1,0 +1,259 @@
+{
+  "schemaVersion": 1,
+  "pageId": "AlhDUqhENtH7",
+  "sourceFile": "docs/User Guide/User Guide/Theme development/Custom app-wide CSS.md",
+  "sourceRevision": "03d17b60f59b5efc29b880b11481471d0fe0ff57",
+  "units": [
+    {
+      "id": "u_de5019e9e4b97f31bf2fdd60_0",
+      "kind": "title",
+      "source": "Custom app-wide CSS",
+      "sourceHash": "de5019e9e4b97f31bf2fdd60e606d9e68dfb97f50a0aa0b28367e91ad12c8b8f",
+      "context": "Custom app-wide CSS",
+      "contextHash": "a00350be2b926056fbbf52b1937f7091e7f00ff006807567a396f0644473630a",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_9744797decddb5d28bb571b3_0",
+      "kind": "p",
+      "source": "It is possible to provide a CSS file to be used regardless of the theme set by the user.",
+      "sourceHash": "9744797decddb5d28bb571b3ec5bc6d7b35dd315a2b803ad0130b0c1c32c4a9b",
+      "context": "Custom app-wide CSS",
+      "contextHash": "a00350be2b926056fbbf52b1937f7091e7f00ff006807567a396f0644473630a",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_db00ee506ac899bdbb733c97_0",
+      "kind": "p",
+      "source": "The quickest way to create one is __TRILIUM_PH_0__Insert child note__TRILIUM_PH_1__ → __TRILIUM_PH_2__Code__TRILIUM_PH_3__ → __TRILIUM_PH_4__Custom CSS__TRILIUM_PH_5__ in the __TRILIUM_PH_6__Note tree contextual menu__TRILIUM_PH_7__.",
+      "sourceHash": "db00ee506ac899bdbb733c9707f929b6b9ae481eb2322c8541310f694ecfb006",
+      "context": "Custom app-wide CSS",
+      "contextHash": "a00350be2b926056fbbf52b1937f7091e7f00ff006807567a396f0644473630a",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_e43061640cfdd8e0581684be_0",
+      "kind": "p",
+      "source": "Alternatively, create a __TRILIUM_PH_0__Code__TRILIUM_PH_1__ note manually, set the language to CSS and apply the __TRILIUM_PH_2__ label.",
+      "sourceHash": "e43061640cfdd8e0581684beda570ed7e7df8302fe2b84cef6171cb58d7c9be1",
+      "context": "Custom app-wide CSS",
+      "contextHash": "a00350be2b926056fbbf52b1937f7091e7f00ff006807567a396f0644473630a",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_2f1e0b2c3787e7d0e02c4f30_0",
+      "kind": "h2",
+      "source": "Seeing the changes__TRILIUM_PH_0__",
+      "sourceHash": "2f1e0b2c3787e7d0e02c4f30bcca14d23ba9c91bdddf5b67655826bb6a1240a4",
+      "context": "Custom app-wide CSS > Seeing the changes",
+      "contextHash": "50dcbb95dbc7e6b0f00c582047e1e279b3203c890b7eb3a7790c5367455452a0",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_3b4499f8ef87854e6c0bdd42_0",
+      "kind": "p",
+      "source": "Adding a new __TRILIUM_PH_0__app CSS note__TRILIUM_PH_1__ or modifying an existing one does not immediately apply changes. To see the changes, press Ctrl+Shift+R to refresh the page first.",
+      "sourceHash": "3b4499f8ef87854e6c0bdd428c1d18c960fabdda1fbad8a6ffa79213dde703d5",
+      "context": "Custom app-wide CSS > Seeing the changes",
+      "contextHash": "50dcbb95dbc7e6b0f00c582047e1e279b3203c890b7eb3a7790c5367455452a0",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_1518ada7be5ad4d1120a609a_0",
+      "kind": "h2",
+      "source": "Sample use cases__TRILIUM_PH_0__",
+      "sourceHash": "1518ada7be5ad4d1120a609ac9ba064c3d78d443268ace2d88bc4d8ccad69173",
+      "context": "Custom app-wide CSS > Sample use cases",
+      "contextHash": "239f9a14328cedfdafb552beabe95b5b35e72acceed1110ca3696ab8876e85b5",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_dd74ed95efc40ff39de755fc_0",
+      "kind": "h3",
+      "source": "Customizing the printing stylesheet__TRILIUM_PH_0__",
+      "sourceHash": "dd74ed95efc40ff39de755fc4d8ae3661d7eac211afa9d763e1f627e5c084f06",
+      "context": "Custom app-wide CSS > Sample use cases > Customizing the printing stylesheet",
+      "contextHash": "a7fbdca984c32a8ba81096646b25667a684aeb02ce4c5fd5e212d0b179d654d1",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_45c551b5a918ba3c6703ace4_0",
+      "kind": "p",
+      "source": "Since v0.99.2, it's no longer possible to use __TRILIUM_PH_0__ to customize the printing CSS, since the printing is now done in an isolated environment.",
+      "sourceHash": "45c551b5a918ba3c6703ace4b139e95a1f3e9583706e355e43577cf74cca2975",
+      "context": "Custom app-wide CSS > Sample use cases > Customizing the printing stylesheet",
+      "contextHash": "a7fbdca984c32a8ba81096646b25667a684aeb02ce4c5fd5e212d0b179d654d1",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_73cf0df4680c5e38902385ee_0",
+      "kind": "p",
+      "source": "However, it's still possible to customize the CSS via __TRILIUM_PH_0__; see __TRILIUM_PH_1__Printing & Exporting as PDF__TRILIUM_PH_2__ for more information.",
+      "sourceHash": "73cf0df4680c5e38902385ee7977bf54558e701b975f0be94eb379eec39f9551",
+      "context": "Custom app-wide CSS > Sample use cases > Customizing the printing stylesheet",
+      "contextHash": "a7fbdca984c32a8ba81096646b25667a684aeb02ce4c5fd5e212d0b179d654d1",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_43355dbea3638b3651bd89c4_0",
+      "kind": "h3",
+      "source": "Per-workspace styles__TRILIUM_PH_0__",
+      "sourceHash": "43355dbea3638b3651bd89c40b08a4f0a5d44d3267931ea8620f7ee67909ef21",
+      "context": "Custom app-wide CSS > Sample use cases > Per-workspace styles",
+      "contextHash": "80e759ac1c9f93a4d51fc1986bb7885884d6b00a8f886de707d5c8399dd6a8d9",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_fb796fb700da3dd0ab51f704_0",
+      "kind": "p",
+      "source": "When using __TRILIUM_PH_0__Workspaces__TRILIUM_PH_1__, it can be helpful to create a visual distinction between notes in different workspaces.",
+      "sourceHash": "fb796fb700da3dd0ab51f704441be12f11f07a1b7657a15abf46e86e0da2b52e",
+      "context": "Custom app-wide CSS > Sample use cases > Per-workspace styles",
+      "contextHash": "80e759ac1c9f93a4d51fc1986bb7885884d6b00a8f886de707d5c8399dd6a8d9",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_4aa592f328e007e456668e14_0",
+      "kind": "p",
+      "source": "To do so:",
+      "sourceHash": "4aa592f328e007e456668e14c5218dcb1f38831eca67cb0f8cb725b769ca8c0e",
+      "context": "Custom app-wide CSS > Sample use cases > Per-workspace styles",
+      "contextHash": "80e759ac1c9f93a4d51fc1986bb7885884d6b00a8f886de707d5c8399dd6a8d9",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_daea87c6476f75c2edbdb717_0",
+      "kind": "li",
+      "source": "In the note with __TRILIUM_PH_0__, add an inheritable attribute __TRILIUM_PH_1__ with a value that uniquely identifies the workspace (say __TRILIUM_PH_2__).",
+      "sourceHash": "daea87c6476f75c2edbdb7170257b66a3325ae19680a0f8c9016d03aeeb2ef61",
+      "context": "Custom app-wide CSS > Sample use cases > Per-workspace styles",
+      "contextHash": "80e759ac1c9f93a4d51fc1986bb7885884d6b00a8f886de707d5c8399dd6a8d9",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_b9a1c0842be82c5926c043e9_0",
+      "kind": "li",
+      "source": "Anywhere in the note structure, create a CSS note with __TRILIUM_PH_0__.",
+      "sourceHash": "b9a1c0842be82c5926c043e9064c27a82cd7738da5edd62a0aa7899bb3f81b1d",
+      "context": "Custom app-wide CSS > Sample use cases > Per-workspace styles",
+      "contextHash": "80e759ac1c9f93a4d51fc1986bb7885884d6b00a8f886de707d5c8399dd6a8d9",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_bd82a1f0426f1a4930deeee2_0",
+      "kind": "h4",
+      "source": "Change the color of the icons in the __TRILIUM_PH_0__Note Tree__TRILIUM_PH_1____TRILIUM_PH_2__",
+      "sourceHash": "bd82a1f0426f1a4930deeee2b95c08b60fe0167453b14403b4a2676f3a65e166",
+      "context": "Custom app-wide CSS > Sample use cases > Per-workspace styles > Change the color of the icons in the Note Tree",
+      "contextHash": "bd52a41889147a7093859c0f3194fdf2881cdabe10448189321623fd656dcb8c",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_65f824a59f6bd58b74d43492_0",
+      "kind": "h4",
+      "source": "Change the color of the note title and the icon__TRILIUM_PH_0__",
+      "sourceHash": "65f824a59f6bd58b74d43492f3ca7e4aa6a041cfee196fa5015a48827d3174d2",
+      "context": "Custom app-wide CSS > Sample use cases > Per-workspace styles > Change the color of the note title and the icon",
+      "contextHash": "848ea0527f477817493953eee7b37fa92226a9e054f12cc913c73cd911325498",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_7694aa63a043098cd30d57ae_0",
+      "kind": "p",
+      "source": "To change the color of the note title and the icon (above the content):",
+      "sourceHash": "7694aa63a043098cd30d57aeb6d31d9602f343457931a9540ee640db46737e8a",
+      "context": "Custom app-wide CSS > Sample use cases > Per-workspace styles > Change the color of the note title and the icon",
+      "contextHash": "848ea0527f477817493953eee7b37fa92226a9e054f12cc913c73cd911325498",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_40b2ea2ea999073fa99be9ac_0",
+      "kind": "h4",
+      "source": "Add a watermark to the note content__TRILIUM_PH_0__",
+      "sourceHash": "40b2ea2ea999073fa99be9ac4d10a9b328ba8b9c1a3781b05119287d4f48019e",
+      "context": "Custom app-wide CSS > Sample use cases > Per-workspace styles > Add a watermark to the note content",
+      "contextHash": "b1278521376ba1cb79d4bdcd6bca6a8eeb5f21620355c68c8d059d06eaed48ee",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_c366a029232c57b8fa8924ad_0",
+      "kind": "li",
+      "source": "Insert an image in any note and take the URL of the image.",
+      "sourceHash": "c366a029232c57b8fa8924ad2d57df133379f84761a3b6e98d397951695bbb35",
+      "context": "Custom app-wide CSS > Sample use cases > Per-workspace styles > Add a watermark to the note content",
+      "contextHash": "b1278521376ba1cb79d4bdcd6bca6a8eeb5f21620355c68c8d059d06eaed48ee",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_656672b4ede2bb96acff3a84_0",
+      "kind": "li",
+      "source": "Use the following CSS, adjusting the __TRILIUM_PH_0__ and __TRILIUM_PH_1__ and __TRILIUM_PH_2__ to the desired values.",
+      "sourceHash": "656672b4ede2bb96acff3a847e8435418d9ec97b6c9e0d09c839aea79c2d0ffe",
+      "context": "Custom app-wide CSS > Sample use cases > Per-workspace styles > Add a watermark to the note content",
+      "contextHash": "b1278521376ba1cb79d4bdcd6bca6a8eeb5f21620355c68c8d059d06eaed48ee",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_2d166eed4e46d147ae179d3f_0",
+      "kind": "h2",
+      "source": "Limitations__TRILIUM_PH_0__",
+      "sourceHash": "2d166eed4e46d147ae179d3feba2dbd0d28887b22a99884dc255c7ff2e43988d",
+      "context": "Custom app-wide CSS > Limitations",
+      "contextHash": "8128d1a266b16a868c4ea746f6682180cc16d9188a95626e15add382d54c8e9a",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_5ae9e5488b18d3bf8b79ae66_0",
+      "kind": "p",
+      "source": "Some parts of the application can't be styled directly via custom CSS because they are rendered in an isolated mode (shadow DOM), more specifically:",
+      "sourceHash": "5ae9e5488b18d3bf8b79ae66c7b0271a21cbf53554da0fa9a6a0fe9c50583015",
+      "context": "Custom app-wide CSS > Limitations",
+      "contextHash": "8128d1a266b16a868c4ea746f6682180cc16d9188a95626e15add382d54c8e9a",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_4bf864424942cb9242369b19_0",
+      "kind": "li",
+      "source": "The slides in a __TRILIUM_PH_0__Presentation__TRILIUM_PH_1__.",
+      "sourceHash": "4bf864424942cb9242369b19558f99b697869ffbd97a0386c282513af0d06282",
+      "context": "Custom app-wide CSS > Limitations",
+      "contextHash": "8128d1a266b16a868c4ea746f6682180cc16d9188a95626e15add382d54c8e9a",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_b190d47815633246b0ab18a6_0",
+      "kind": "image-alt",
+      "source": "記事画像",
+      "sourceHash": "b190d47815633246b0ab18a61d9b8e8ea36504fe3f8bc230a7753096915c9ff2",
+      "context": "Custom app-wide CSS > Limitations",
+      "contextHash": "8128d1a266b16a868c4ea746f6682180cc16d9188a95626e15add382d54c8e9a",
+      "status": "pending",
+      "active": true
+    }
+  ],
+  "requests": []
+}

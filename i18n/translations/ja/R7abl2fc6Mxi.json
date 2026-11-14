@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "pageId": "R7abl2fc6Mxi",
+  "sourceFile": "docs/User Guide/User Guide/Advanced Usage/Advanced Showcases/Weight Tracker.md",
+  "sourceRevision": "03d17b60f59b5efc29b880b11481471d0fe0ff57",
+  "units": [
+    {
+      "id": "u_b2a35fb2295882fb1d84464a_0",
+      "kind": "title",
+      "source": "Weight Tracker",
+      "sourceHash": "b2a35fb2295882fb1d84464a87b8f9bf9c131a6563772ca3aea68fbac5c4fca4",
+      "context": "Weight Tracker",
+      "contextHash": "8ae05dabab9bc4e8a814fa283bf1f2fe4b47283c9efd92a16298fb2219931f28",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_0f77c523cc5d6116110fea18_0",
+      "kind": "p",
+      "source": "The __TRILIUM_PH_0__ is a __TRILIUM_PH_1__Script API__TRILIUM_PH_2__ showcase present in the __TRILIUM_PH_3__demo notes__TRILIUM_PH_4__.",
+      "sourceHash": "0f77c523cc5d6116110fea18d0add8e17f7c7e5a5ab16fe4cdcaad5c05996be5",
+      "context": "Weight Tracker",
+      "contextHash": "8ae05dabab9bc4e8a814fa283bf1f2fe4b47283c9efd92a16298fb2219931f28",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_ee7c9e1e782ded29989a193f_0",
+      "kind": "p",
+      "source": "By adding __TRILIUM_PH_0__ as a __TRILIUM_PH_1__promoted attribute__TRILIUM_PH_2__ in the __TRILIUM_PH_3__template__TRILIUM_PH_4__ from which __TRILIUM_PH_5__day notes__TRILIUM_PH_6__ are created, you can aggregate the data and plot weight change over time.",
+      "sourceHash": "ee7c9e1e782ded29989a193f291f7cfe658aaeef073313d4f9a183a5628fef21",
+      "context": "Weight Tracker",
+      "contextHash": "8ae05dabab9bc4e8a814fa283bf1f2fe4b47283c9efd92a16298fb2219931f28",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_c788b3e403abfb1a09af9098_0",
+      "kind": "h2",
+      "source": "Implementation__TRILIUM_PH_0__",
+      "sourceHash": "c788b3e403abfb1a09af9098634a31335c2cfe467269b1329a5b6cad297e5acc",
+      "context": "Weight Tracker > Implementation",
+      "contextHash": "fc5973ebe24a3bfbc21a79c0f925026de56c64a632682bea2e7f8877e12a181b",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_d723f458060449c37d9393d9_0",
+      "kind": "p",
+      "source": "The __TRILIUM_PH_0__ note in the screenshot above is of the type __TRILIUM_PH_1__. That type of note doesn't have any useful content itself. Instead it is a placeholder where a __TRILIUM_PH_2__script__TRILIUM_PH_3__ can render its output.",
+      "sourceHash": "d723f458060449c37d9393d93141386c2ede7cd02f7e20b9478b29dfd3a91acf",
+      "context": "Weight Tracker > Implementation",
+      "contextHash": "fc5973ebe24a3bfbc21a79c0f925026de56c64a632682bea2e7f8877e12a181b",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_caebb2a0e121a50f8b4746b3_0",
+      "kind": "p",
+      "source": "Scripts for __TRILIUM_PH_0__ are defined in a __TRILIUM_PH_1__relation__TRILIUM_PH_2__ called __TRILIUM_PH_3__. In this example, it's the __TRILIUM_PH_4__'s child __TRILIUM_PH_5__. The Implementation consists of two __TRILIUM_PH_6__code notes__TRILIUM_PH_7__ that contain some HTML and JavaScript respectively, which load all the notes with a __TRILIUM_PH_8__ attribute and display their values in a chart.",
+      "sourceHash": "caebb2a0e121a50f8b4746b3bcdc6980bd68cd980d6a83863ae681d8c584f49f",
+      "context": "Weight Tracker > Implementation",
+      "contextHash": "fc5973ebe24a3bfbc21a79c0f925026de56c64a632682bea2e7f8877e12a181b",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_91e9cae34749b55a167bdae5_0",
+      "kind": "p",
+      "source": "To actually render the chart, we're using a third party library called __TRILIUM_PH_0__chart.js__TRILIUM_PH_1__which is imported as an attachment, since it's not built into Trilium.",
+      "sourceHash": "91e9cae34749b55a167bdae5c2dd9c62e890312c7a8753504cb2dfa396c26ca6",
+      "context": "Weight Tracker > Implementation",
+      "contextHash": "fc5973ebe24a3bfbc21a79c0f925026de56c64a632682bea2e7f8877e12a181b",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_6cc491b23b398bd8a4de4b49_0",
+      "kind": "h3",
+      "source": "Code__TRILIUM_PH_0__",
+      "sourceHash": "6cc491b23b398bd8a4de4b49cc52aa8298c5ce9692d705b353f50f4bb98d9205",
+      "context": "Weight Tracker > Implementation > Code",
+      "contextHash": "fdcc905dd1d7301a4dbd7ab5441b620c7ea58ce795b0b5b5cd09e70b6e53d907",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_7f0356d4c304a636abb9c21e_0",
+      "kind": "p",
+      "source": "Here's the content of the script which is placed in a __TRILIUM_PH_0__code note__TRILIUM_PH_1__ of type __TRILIUM_PH_2__:",
+      "sourceHash": "7f0356d4c304a636abb9c21ed84fb6ed70350ef507cf26c377afddfedafa52f8",
+      "context": "Weight Tracker > Implementation > Code",
+      "contextHash": "fdcc905dd1d7301a4dbd7ab5441b620c7ea58ce795b0b5b5cd09e70b6e53d907",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_c34b85aefce464e0e253e25f_0",
+      "kind": "h2",
+      "source": "How to remove the Weight Tracker button from the top bar__TRILIUM_PH_0__",
+      "sourceHash": "c34b85aefce464e0e253e25f0bd17aba3678910c6c2454652f104b73adc5f771",
+      "context": "Weight Tracker > How to remove the Weight Tracker button from the top bar",
+      "contextHash": "f8e90198a1e0f19608a75ef173bc0070fb45dd5f3b87bfa3e1fd9b65e4993f41",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_9d4fa56e439e7d13724aacaf_0",
+      "kind": "p",
+      "source": "In the link map of the __TRILIUM_PH_0__, there is a note called __TRILIUM_PH_1__. Open it and delete or comment out its contents. The __TRILIUM_PH_2__ button will disappear after you restart Trilium.",
+      "sourceHash": "9d4fa56e439e7d13724aacafce025411f0b975092268276be3e19532735546c2",
+      "context": "Weight Tracker > How to remove the Weight Tracker button from the top bar",
+      "contextHash": "f8e90198a1e0f19608a75ef173bc0070fb45dd5f3b87bfa3e1fd9b65e4993f41",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_b190d47815633246b0ab18a6_0",
+      "kind": "image-alt",
+      "source": "記事画像",
+      "sourceHash": "b190d47815633246b0ab18a61d9b8e8ea36504fe3f8bc230a7753096915c9ff2",
+      "context": "Weight Tracker > How to remove the Weight Tracker button from the top bar",
+      "contextHash": "f8e90198a1e0f19608a75ef173bc0070fb45dd5f3b87bfa3e1fd9b65e4993f41",
+      "status": "pending",
+      "active": true
+    }
+  ],
+  "requests": []
+}

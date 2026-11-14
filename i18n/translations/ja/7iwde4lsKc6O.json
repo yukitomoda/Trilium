@@ -1,0 +1,514 @@
+{
+  "schemaVersion": 1,
+  "pageId": "7iwde4lsKc6O",
+  "sourceFile": "docs/User Guide/User Guide/Installation & Setup/Desktop Installation/Tray icon & automatic startup.md",
+  "sourceRevision": "03d17b60f59b5efc29b880b11481471d0fe0ff57",
+  "units": [
+    {
+      "id": "u_1dd39d3a6ae1daa6e18c040c_0",
+      "kind": "title",
+      "source": "Tray icon & automatic startup",
+      "sourceHash": "1dd39d3a6ae1daa6e18c040caf7f24d69c5fdb4d114e6c3eb74c7ff8f00941a0",
+      "context": "Tray icon & automatic startup",
+      "contextHash": "b2742326740cddade4ed22af83fb4bcc98c2b2af23ac728b0d82b54cdaacf2c5",
+      "status": "translated",
+      "active": true,
+      "translation": "トレイアイコンと自動起動",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_ab0fb9c586d704a60f06fc24_0",
+      "kind": "p",
+      "source": "Automatic startup and better integration with the system tray was introduced in v0.104.0. Versions prior to that only have the system tray option which could be found in __TRILIUM_PH_0__Options__TRILIUM_PH_1__ → __TRILIUM_PH_2__Others__TRILIUM_PH_3__.",
+      "sourceHash": "ab0fb9c586d704a60f06fc24aac73bb3751c47297dc4696f96101abe183ccd34",
+      "context": "Tray icon & automatic startup",
+      "contextHash": "b2742326740cddade4ed22af83fb4bcc98c2b2af23ac728b0d82b54cdaacf2c5",
+      "status": "translated",
+      "active": true,
+      "translation": "自動起動およびシステムトレイとのより優れた統合は v0.104.0 で導入されました。それ以前のバージョンには、__TRILIUM_PH_0__Options__TRILIUM_PH_1__ → __TRILIUM_PH_2__Others__TRILIUM_PH_3__ で確認できるシステムトレイのオプションのみがありました。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_8fef90f4b138bd73d202daa1_0",
+      "kind": "h2",
+      "source": "Tray icon__TRILIUM_PH_0__",
+      "sourceHash": "8fef90f4b138bd73d202daa163fb0610d6c27e7423af397a0dcd1668c645d3ce",
+      "context": "Tray icon & automatic startup > Tray icon",
+      "contextHash": "cf3ee9efc32fdb342fcffdb93f943603f90dcd733979f736cc091b4b4b2160f7",
+      "status": "translated",
+      "active": true,
+      "translation": "トレイアイコン__TRILIUM_PH_0__",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_7aefc3204b2600ce77ec5d7d_0",
+      "kind": "p",
+      "source": "The desktop application has native integration with the system tray on all operating systems.",
+      "sourceHash": "7aefc3204b2600ce77ec5d7d1ad26d6b1fff37008a9c57cda9605e3cd4d5e84a",
+      "context": "Tray icon & automatic startup > Tray icon",
+      "contextHash": "cf3ee9efc32fdb342fcffdb93f943603f90dcd733979f736cc091b4b4b2160f7",
+      "status": "translated",
+      "active": true,
+      "translation": "デスクトップアプリケーションには、すべてのオペレーティングシステムにおいてシステムトレイとのネイティブ統合があります。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_a454e3fd28249b6224f0dbb0_0",
+      "kind": "p",
+      "source": "The tray icon is enabled by default, but it can be toggled from __TRILIUM_PH_0__Options__TRILIUM_PH_1__ → __TRILIUM_PH_2__Desktop__TRILIUM_PH_3__.",
+      "sourceHash": "a454e3fd28249b6224f0dbb0c8b7a9743b4a2b5e6c3234953e866a1460a137ab",
+      "context": "Tray icon & automatic startup > Tray icon",
+      "contextHash": "cf3ee9efc32fdb342fcffdb93f943603f90dcd733979f736cc091b4b4b2160f7",
+      "status": "translated",
+      "active": true,
+      "translation": "トレイアイコンはデフォルトで有効になっていますが、__TRILIUM_PH_0__Options__TRILIUM_PH_1__ → __TRILIUM_PH_2__Desktop__TRILIUM_PH_3__ から切り替えることができます。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_86be999a5df3ea783ed12ebe_0",
+      "kind": "p",
+      "source": "The tray icon has the following functionality:",
+      "sourceHash": "86be999a5df3ea783ed12ebe91806931ee99d653bb49cdd696ed2cffd07b8220",
+      "context": "Tray icon & automatic startup > Tray icon",
+      "contextHash": "cf3ee9efc32fdb342fcffdb93f943603f90dcd733979f736cc091b4b4b2160f7",
+      "status": "translated",
+      "active": true,
+      "translation": "トレイアイコンには次の機能があります:",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_66173ef87a55f08fb4bf9643_0",
+      "kind": "li",
+      "source": "When clicked, the last window is hidden (minimized to the tray icon). Clicking it again will reveal that window.",
+      "sourceHash": "66173ef87a55f08fb4bf9643c46766042da2156c4e051674b25cd251540094a4",
+      "context": "Tray icon & automatic startup > Tray icon",
+      "contextHash": "cf3ee9efc32fdb342fcffdb93f943603f90dcd733979f736cc091b4b4b2160f7",
+      "status": "translated",
+      "active": true,
+      "translation": "クリックすると、最後のウィンドウが非表示（トレイアイコンに最小化）になります。もう一度クリックすると、そのウィンドウが表示されます。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_e3abe92e691618b194bb78a2_0",
+      "kind": "li",
+      "source": "Right clicking reveals the following options:",
+      "sourceHash": "e3abe92e691618b194bb78a2e8cf7016fe7d8d89868830ad7caa7dc65fb7aee0",
+      "context": "Tray icon & automatic startup > Tray icon",
+      "contextHash": "cf3ee9efc32fdb342fcffdb93f943603f90dcd733979f736cc091b4b4b2160f7",
+      "status": "translated",
+      "active": true,
+      "translation": "右クリックすると、次のオプションが表示されます:",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_f97db91f7026674521897dd2_0",
+      "kind": "li",
+      "source": "Each window can be individually shown or hidden, identified by their active note.",
+      "sourceHash": "f97db91f7026674521897dd2edf38b14cc06ad9a876e8479d56be2dcba1ff16f",
+      "context": "Tray icon & automatic startup > Tray icon",
+      "contextHash": "cf3ee9efc32fdb342fcffdb93f943603f90dcd733979f736cc091b4b4b2160f7",
+      "status": "translated",
+      "active": true,
+      "translation": "アクティブなノートで識別される各ウィンドウを個別に表示または非表示にできます。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_eb2ddbc0f86661ed31061fe9_0",
+      "kind": "li",
+      "source": "New windows can be opened.",
+      "sourceHash": "eb2ddbc0f86661ed31061fe942a3bdb89763eeff549a4ad59cff551ca12d2a31",
+      "context": "Tray icon & automatic startup > Tray icon",
+      "contextHash": "cf3ee9efc32fdb342fcffdb93f943603f90dcd733979f736cc091b4b4b2160f7",
+      "status": "translated",
+      "active": true,
+      "translation": "新しいウィンドウを開くことができます。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_794e805028293fd70a94ecb7_0",
+      "kind": "li",
+      "source": "A new note can be created directly, which will be created in the __TRILIUM_PH_0__Note Inbox__TRILIUM_PH_1__ (or __TRILIUM_PH_2__Day Notes__TRILIUM_PH_3__ if an inbox is not available).",
+      "sourceHash": "794e805028293fd70a94ecb7e87dadfbb3328106101e2fd628fd15cfa112fd9f",
+      "context": "Tray icon & automatic startup > Tray icon",
+      "contextHash": "cf3ee9efc32fdb342fcffdb93f943603f90dcd733979f736cc091b4b4b2160f7",
+      "status": "translated",
+      "active": true,
+      "translation": "新しいノートを直接作成でき、__TRILIUM_PH_0__Note Inbox__TRILIUM_PH_1__（インボックスが利用できない場合は__TRILIUM_PH_2__Day Notes__TRILIUM_PH_3__）に作成されます。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_95f2f1e1635c0486a9bc0585_0",
+      "kind": "li",
+      "source": "Today's day note can be opened.",
+      "sourceHash": "95f2f1e1635c0486a9bc0585b9e876fbfa1e73a0162bdbf2e6d82a6ddf466bdb",
+      "context": "Tray icon & automatic startup > Tray icon",
+      "contextHash": "cf3ee9efc32fdb342fcffdb93f943603f90dcd733979f736cc091b4b4b2160f7",
+      "status": "translated",
+      "active": true,
+      "translation": "今日のデイノートを開くことができます。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_527c9e7ea6524b75f8f4dc9f_0",
+      "kind": "li",
+      "source": "Bookmarks and recent notes are displayed in a sub-menu and clicking them navigates to that note.",
+      "sourceHash": "527c9e7ea6524b75f8f4dc9f49148c89adb4f9daf2daa5a5ebec0aaadffe8766",
+      "context": "Tray icon & automatic startup > Tray icon",
+      "contextHash": "cf3ee9efc32fdb342fcffdb93f943603f90dcd733979f736cc091b4b4b2160f7",
+      "status": "translated",
+      "active": true,
+      "translation": "ブックマークと最近のノートがサブメニューに表示され、それらをクリックするとそのノートに移動します。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_f8f6b335a31a6192603a3b18_0",
+      "kind": "li",
+      "source": "Quitting the application.",
+      "sourceHash": "f8f6b335a31a6192603a3b18b987ed8e485daa743b4eb81586c5406615693286",
+      "context": "Tray icon & automatic startup > Tray icon",
+      "contextHash": "cf3ee9efc32fdb342fcffdb93f943603f90dcd733979f736cc091b4b4b2160f7",
+      "status": "translated",
+      "active": true,
+      "translation": "アプリケーションを終了します。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_92f8b48683d52b65a64c1f01_0",
+      "kind": "h3",
+      "source": "Opening a new window from the taskbar__TRILIUM_PH_0__",
+      "sourceHash": "92f8b48683d52b65a64c1f0121aa3693d7decfe056ee1794de723a5c7c18b2a3",
+      "context": "Tray icon & automatic startup > Tray icon > Opening a new window from the taskbar",
+      "contextHash": "125964a5bf61d8df0de45bdf7210d339e6a521bff3f41ae8e66ebb44c4b12827",
+      "status": "translated",
+      "active": true,
+      "translation": "タスクバーから新しいウィンドウを開く__TRILIUM_PH_0__",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_5c24c6505b82545cda408a00_0",
+      "kind": "p",
+      "source": "A new window can also be opened without the tray icon, by right-clicking the application's icon:",
+      "sourceHash": "5c24c6505b82545cda408a00780e6c3ede93f56ee34bd4dc3d9c81fd2be41f43",
+      "context": "Tray icon & automatic startup > Tray icon > Opening a new window from the taskbar",
+      "contextHash": "125964a5bf61d8df0de45bdf7210d339e6a521bff3f41ae8e66ebb44c4b12827",
+      "status": "translated",
+      "active": true,
+      "translation": "また、アプリケーションのアイコンを右クリックすることで、トレイアイコンなしでも新しいウィンドウを開くことができます:",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_44380a7d83491c64beeed569_0",
+      "kind": "li",
+      "source": "On Windows, in the taskbar, select __TRILIUM_PH_0__Open New Window__TRILIUM_PH_1__.",
+      "sourceHash": "44380a7d83491c64beeed5692dcae7a723cdc845aa8a7b7b59c2462fc64530c7",
+      "context": "Tray icon & automatic startup > Tray icon > Opening a new window from the taskbar",
+      "contextHash": "125964a5bf61d8df0de45bdf7210d339e6a521bff3f41ae8e66ebb44c4b12827",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_a0df7166b2c4a94dac06bbd2_0",
+      "kind": "li",
+      "source": "On Linux, in the dock or application launcher (such as GNOME's or KDE's), select __TRILIUM_PH_0__New Window__TRILIUM_PH_1__.",
+      "sourceHash": "a0df7166b2c4a94dac06bbd20f4457ce4e0574ec759caca6ecbbc4e2fbd68b00",
+      "context": "Tray icon & automatic startup > Tray icon > Opening a new window from the taskbar",
+      "contextHash": "125964a5bf61d8df0de45bdf7210d339e6a521bff3f41ae8e66ebb44c4b12827",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_02acb6522de3f375bac0455a_0",
+      "kind": "h3",
+      "source": "Closing to system tray__TRILIUM_PH_0__",
+      "sourceHash": "02acb6522de3f375bac0455a401449cdfd1604b26d0da2758be11a8897f92ea4",
+      "context": "Tray icon & automatic startup > Tray icon > Closing to system tray",
+      "contextHash": "0c3000031203f24701dd7c683cf95a6703d68c5bf1a7f8b5c7e620be4f88c6c7",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_e59a096d975999b7d334c09c_0",
+      "kind": "p",
+      "source": "This is an option which is not enabled by default and it allows a specific behavior: instead of exiting the application when the last window has been closed, the last window is instead hidden with the tray icon remaining available.",
+      "sourceHash": "e59a096d975999b7d334c09c5a581174e4dc44606bb516b2bdbd964c93374555",
+      "context": "Tray icon & automatic startup > Tray icon > Closing to system tray",
+      "contextHash": "0c3000031203f24701dd7c683cf95a6703d68c5bf1a7f8b5c7e620be4f88c6c7",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_f883818751d17e544ab745ef_0",
+      "kind": "p",
+      "source": "This option requires the tray icon to be enabled, otherwise it has no effect.",
+      "sourceHash": "f883818751d17e544ab745efdf3ecf8cd7358fafd355ce7f7e21bf2e7f6f6bc5",
+      "context": "Tray icon & automatic startup > Tray icon > Closing to system tray",
+      "contextHash": "0c3000031203f24701dd7c683cf95a6703d68c5bf1a7f8b5c7e620be4f88c6c7",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_fa00dc13071a2a916fc081ca_0",
+      "kind": "h2",
+      "source": "Automatic startup__TRILIUM_PH_0__",
+      "sourceHash": "fa00dc13071a2a916fc081ca43bbbd50c2040ce012f3b2060fa933cbd6346ee3",
+      "context": "Tray icon & automatic startup > Automatic startup",
+      "contextHash": "9752a61ebc4eef7768454b9da125763c37bb32d4f2ea88e671959457e0c48c12",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_5f7fcf2d2a5a5f0bc4a74c93_0",
+      "kind": "p",
+      "source": "Two options control the automatic startup functionality in __TRILIUM_PH_0__Options__TRILIUM_PH_1__ → __TRILIUM_PH_2__Startup__TRILIUM_PH_3__:",
+      "sourceHash": "5f7fcf2d2a5a5f0bc4a74c93a9c58c28b056800080fcbd82274fcaa3400e7b38",
+      "context": "Tray icon & automatic startup > Automatic startup",
+      "contextHash": "9752a61ebc4eef7768454b9da125763c37bb32d4f2ea88e671959457e0c48c12",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_31ad57e21656689b9d1a101c_0",
+      "kind": "li",
+      "source": "When __TRILIUM_PH_0__Launch on startup__TRILIUM_PH_1__ is enabled, the application will automatically start up when logging into the current user.",
+      "sourceHash": "31ad57e21656689b9d1a101c611f824d6756b344cdad4b094998cd2abfab3a76",
+      "context": "Tray icon & automatic startup > Automatic startup",
+      "contextHash": "9752a61ebc4eef7768454b9da125763c37bb32d4f2ea88e671959457e0c48c12",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_07e7012eaeb818dba2a79b1d_0",
+      "kind": "li",
+      "source": "Note that on Linux support depends on the desktop environment. Feel free to __TRILIUM_PH_0__report__TRILIUM_PH_1__ any issues.",
+      "sourceHash": "07e7012eaeb818dba2a79b1df5ff0afc6026d43d3828a4c28731a8e44331bd3e",
+      "context": "Tray icon & automatic startup > Automatic startup",
+      "contextHash": "9752a61ebc4eef7768454b9da125763c37bb32d4f2ea88e671959457e0c48c12",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_b6aca8d7ed0ad5cdf4424b08_0",
+      "kind": "li",
+      "source": "If __TRILIUM_PH_0__Start minimized to tray__TRILIUM_PH_1__ is also enabled, the application will start up in the background and can be revealed from the tray icon.",
+      "sourceHash": "b6aca8d7ed0ad5cdf4424b082baacfc00cbe6ed5ffcd7503796af2b3c19155a7",
+      "context": "Tray icon & automatic startup > Automatic startup",
+      "contextHash": "9752a61ebc4eef7768454b9da125763c37bb32d4f2ea88e671959457e0c48c12",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_fba553d055bff7caecec0bd1_0",
+      "kind": "li",
+      "source": "This only applies if __TRILIUM_PH_0__Launch on startup__TRILIUM_PH_1__ is enabled, manual starts are not impacted by this option.",
+      "sourceHash": "fba553d055bff7caecec0bd1a1876b3c98004031fe80c6d69a49d799ea91680e",
+      "context": "Tray icon & automatic startup > Automatic startup",
+      "contextHash": "9752a61ebc4eef7768454b9da125763c37bb32d4f2ea88e671959457e0c48c12",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_24a95252dc15be49f91d81cf_0",
+      "kind": "h3",
+      "source": "Linux: Flatpak__TRILIUM_PH_0__",
+      "sourceHash": "24a95252dc15be49f91d81cf89a4f11bf39a52d0c34ba41857599cfbd410e9c7",
+      "context": "Tray icon & automatic startup > Automatic startup > Linux: Flatpak",
+      "contextHash": "05526ffa68d3d06696c9fad646e0e10f7d621e676539ee0638d0ee9276cd2afa",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_aeeb68dbd8ba9e3210c10666_0",
+      "kind": "p",
+      "source": "The Flatpak cannot write to the autostart directory itself, so __TRILIUM_PH_0__Launch on startup__TRILIUM_PH_1__ asks the desktop's Background portal instead, which creates __TRILIUM_PH_2__. If the desktop environment is set to ask before letting applications run in the background, it shows a prompt the first time; denying it leaves __TRILIUM_PH_3__Launch on startup__TRILIUM_PH_4__ without effect, and the permission can be changed later from the system settings.",
+      "sourceHash": "aeeb68dbd8ba9e3210c10666b86d3a947378ed70f2f4eb3299c2b8748b439142",
+      "context": "Tray icon & automatic startup > Automatic startup > Linux: Flatpak",
+      "contextHash": "05526ffa68d3d06696c9fad646e0e10f7d621e676539ee0638d0ee9276cd2afa",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_9fa4dbc47616bef92b0ba9ee_0",
+      "kind": "h3",
+      "source": "Linux: custom launch command for packagers__TRILIUM_PH_0__",
+      "sourceHash": "9fa4dbc47616bef92b0ba9ee76f290feff869deb77aa85508f28f7db984487cd",
+      "context": "Tray icon & automatic startup > Automatic startup > Linux: custom launch command for packagers",
+      "contextHash": "49d5cd9cac34bb4fa95c61ed40db6231dc9079eaaa87d2ea933147a36820d6c5",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_9fde006f67464642484495a3_0",
+      "kind": "p",
+      "source": "On Linux, __TRILIUM_PH_0__Launch on startup__TRILIUM_PH_1__ writes a __TRILIUM_PH_2__ entry to the user's autostart directory (__TRILIUM_PH_3__, usually __TRILIUM_PH_4__). Its __TRILIUM_PH_5__ line points to the AppImage when running from one, or to the running executable otherwise.",
+      "sourceHash": "9fde006f67464642484495a3a16a3ba3fde72d3dc96f22c949f042841b4c18aa",
+      "context": "Tray icon & automatic startup > Automatic startup > Linux: custom launch command for packagers",
+      "contextHash": "49d5cd9cac34bb4fa95c61ed40db6231dc9079eaaa87d2ea933147a36820d6c5",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_59a4dd8f3803872734f2f02b_0",
+      "kind": "p",
+      "source": "Distribution packages that run Trilium on a system-wide Electron (for example __TRILIUM_PH_0__) cannot rely on the running executable, since it is the bare Electron binary, which starts without Trilium. Such packages can set the __TRILIUM_PH_1__ environment variable, typically in their wrapper script, to the full command that starts Trilium:",
+      "sourceHash": "59a4dd8f3803872734f2f02b1ecf42ea415d4cdcc93101624440c92e902fa9a5",
+      "context": "Tray icon & automatic startup > Automatic startup > Linux: custom launch command for packagers",
+      "contextHash": "49d5cd9cac34bb4fa95c61ed40db6231dc9079eaaa87d2ea933147a36820d6c5",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_6c7480862fba7027d7099afb_0",
+      "kind": "p",
+      "source": "The value is written to the __TRILIUM_PH_0__ line as-is, so any paths containing spaces must already be quoted. When __TRILIUM_PH_1__Start minimized to tray__TRILIUM_PH_2__ is enabled, __TRILIUM_PH_3__ is appended to it. __TRILIUM_PH_4__ takes precedence over both the AppImage path and the running executable.",
+      "sourceHash": "6c7480862fba7027d7099afb16af9b8d94fe8e02ccae9d418d43914e7721ce77",
+      "context": "Tray icon & automatic startup > Automatic startup > Linux: custom launch command for packagers",
+      "contextHash": "49d5cd9cac34bb4fa95c61ed40db6231dc9079eaaa87d2ea933147a36820d6c5",
+      "status": "translated",
+      "active": true,
+      "translation": "値は __TRILIUM_PH_0__ の行にそのまま書き込まれるため、スペースを含むパスはあらかじめクォーテーションで囲んでおく必要があります。__TRILIUM_PH_1__Start minimized to tray__TRILIUM_PH_2__ が有効な場合は、__TRILIUM_PH_3__ がそこに追加されます。__TRILIUM_PH_4__ は、AppImage のパスと実行中の実行ファイルのどちらよりも優先されます。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_b190d47815633246b0ab18a6_0",
+      "kind": "image-alt",
+      "source": "記事画像",
+      "sourceHash": "b190d47815633246b0ab18a61d9b8e8ea36504fe3f8bc230a7753096915c9ff2",
+      "context": "Tray icon & automatic startup > Automatic startup > Linux: custom launch command for packagers",
+      "contextHash": "49d5cd9cac34bb4fa95c61ed40db6231dc9079eaaa87d2ea933147a36820d6c5",
+      "status": "translated",
+      "active": true,
+      "translation": "記事画像",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    }
+  ],
+  "requests": [
+    {
+      "at": "2026-11-14T11:28:45.803Z",
+      "model": "gemini-3.5-flash-lite",
+      "batchJob": "batches/02spwqy837h8pi7qzqmeo4fgsqo7bgs45hwh",
+      "requestKey": "7iwde4lsKc6O_a119f9f2bca1b2fd",
+      "modelVersion": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 1379,
+        "candidatesTokenCount": 844,
+        "totalTokenCount": 2223,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 1379
+          }
+        ],
+        "serviceTier": "standard"
+      }
+    },
+    {
+      "at": "2026-11-14T11:28:45.803Z",
+      "model": "gemini-3.5-flash-lite",
+      "batchJob": "batches/02spwqy837h8pi7qzqmeo4fgsqo7bgs45hwh",
+      "requestKey": "7iwde4lsKc6O_ef24831983296a3c",
+      "modelVersion": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 516,
+        "candidatesTokenCount": 213,
+        "totalTokenCount": 729,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 516
+          }
+        ],
+        "serviceTier": "standard"
+      }
+    }
+  ]
+}

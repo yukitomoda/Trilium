@@ -1,0 +1,389 @@
+{
+  "schemaVersion": 1,
+  "pageId": "l7pigIGu01K2",
+  "sourceFile": "docs/User Guide/User Guide/Basic Concepts and Features/Notes/Title.md",
+  "sourceRevision": "03d17b60f59b5efc29b880b11481471d0fe0ff57",
+  "units": [
+    {
+      "id": "u_d227d6b0394b23ff5099e891_0",
+      "kind": "title",
+      "source": "Title",
+      "sourceHash": "d227d6b0394b23ff5099e891466cff779b703f0c8938adcd0484f47b81d16b29",
+      "context": "Title",
+      "contextHash": "7e8cd2056da73a7fefb6cd91f4e5d199d08d9058c517b9a2476b1b520324d674",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_22cc87d6ee8ee605a3c94e40_0",
+      "kind": "p",
+      "source": "Alongside its content, the __TRILIUM_PH_0__title__TRILIUM_PH_1__ is one of the two main attributes of a __TRILIUM_PH_2__note__TRILIUM_PH_3__. It's the short, human-readable name shown in the editable field at the top of every note, and it's what identifies the note throughout the interface (in the __TRILIUM_PH_4__Note Tree__TRILIUM_PH_5__, in tabs, in the __TRILIUM_PH_6__Breadcrumb__TRILIUM_PH_7__ and win __TRILIUM_PH_8__Internal (reference) links__TRILIUM_PH_9__.",
+      "sourceHash": "22cc87d6ee8ee605a3c94e40950f13504dbf9dd67758fcf4209bcc2ea57bb85c",
+      "context": "Title",
+      "contextHash": "7e8cd2056da73a7fefb6cd91f4e5d199d08d9058c517b9a2476b1b520324d674",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_dace7d59c66369cad91b89df_0",
+      "kind": "p",
+      "source": "Internally, notes are identified by a unique __TRILIUM_PH_0__Note ID__TRILIUM_PH_1__ rather than by their title, so the title is purely for your benefit. This has a few consequences:",
+      "sourceHash": "dace7d59c66369cad91b89df4b630dabd5a69ada77d2f5c8cd3b36199d8186cc",
+      "context": "Title",
+      "contextHash": "7e8cd2056da73a7fefb6cd91f4e5d199d08d9058c517b9a2476b1b520324d674",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_da67e573da8b5604789befe8_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__Titles don't have to be unique.__TRILIUM_PH_1__ You can have any number of notes that share the same title without conflict.",
+      "sourceHash": "da67e573da8b5604789befe8625642e4e54e6576ba05e808d5e2d39d3b7cf980",
+      "context": "Title",
+      "contextHash": "7e8cd2056da73a7fefb6cd91f4e5d199d08d9058c517b9a2476b1b520324d674",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_e542c902e67a6595a4fe9d45_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__Renaming a note never breaks links to it.__TRILIUM_PH_1__ Links between notes point at the underlying note, so changing a title leaves existing links intact (they'll simply display the new title).",
+      "sourceHash": "e542c902e67a6595a4fe9d45866475ebb88ca9da56263c328ae1d337d90e5b3b",
+      "context": "Title",
+      "contextHash": "7e8cd2056da73a7fefb6cd91f4e5d199d08d9058c517b9a2476b1b520324d674",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_5dd43750f95070831512172b_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__The title can be left empty.__TRILIUM_PH_1__ Notes with no title display a placeholder (__TRILIUM_PH_2__type note's title here…__TRILIUM_PH_3__) but are otherwise perfectly valid.",
+      "sourceHash": "5dd43750f95070831512172b566effbddc532b8340b548e74903f72ca090da42",
+      "context": "Title",
+      "contextHash": "7e8cd2056da73a7fefb6cd91f4e5d199d08d9058c517b9a2476b1b520324d674",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_e89bf97a4df6120b43b1d7a9_0",
+      "kind": "p",
+      "source": "In addition:",
+      "sourceHash": "e89bf97a4df6120b43b1d7a913364047cd3af0d30deb9f71c63938cb399f0e9a",
+      "context": "Title",
+      "contextHash": "7e8cd2056da73a7fefb6cd91f4e5d199d08d9058c517b9a2476b1b520324d674",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_21b761826af33a4019b7f456_0",
+      "kind": "li",
+      "source": "There is no limitation on the length of the title, however in exports the title might get trimmed.",
+      "sourceHash": "21b761826af33a4019b7f456b7172de415a335114ea8ce14a4da01f3f6c9eaf3",
+      "context": "Title",
+      "contextHash": "7e8cd2056da73a7fefb6cd91f4e5d199d08d9058c517b9a2476b1b520324d674",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_00759ded1ecaf7b323c433ef_0",
+      "kind": "li",
+      "source": "There are no forbidden symbols, unsupported characters will get trimmed when exporting.",
+      "sourceHash": "00759ded1ecaf7b323c433efd92db8dccde297cacaea2a60d606abbe9d675579",
+      "context": "Title",
+      "contextHash": "7e8cd2056da73a7fefb6cd91f4e5d199d08d9058c517b9a2476b1b520324d674",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_823d08f43807a8fc2b74c163_0",
+      "kind": "li",
+      "source": "When exporting to a ZIP file, a meta file will contain the full title which will be recognized by Trilium when importing again.",
+      "sourceHash": "823d08f43807a8fc2b74c16302055dffd48b6fe9698ebabc6e8cabf9c2c8dac1",
+      "context": "Title",
+      "contextHash": "7e8cd2056da73a7fefb6cd91f4e5d199d08d9058c517b9a2476b1b520324d674",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_801754db0c7a9931e12cfd73_0",
+      "kind": "h2",
+      "source": "Inline title__TRILIUM_PH_0__",
+      "sourceHash": "801754db0c7a9931e12cfd73856d6059a640f66f3a6827a657c94f9ceb6e5250",
+      "context": "Title > Inline title",
+      "contextHash": "5d5cda71c399e0fced501735ecb00509c4c789221c21c70e01faea961ed67755",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_19b45556978afc782d7b573c_0",
+      "kind": "p",
+      "source": "__TRILIUM_PH_0__Text__TRILIUM_PH_1__ notes have a special title bar behavior in which the __TRILIUM_PH_2__note title__TRILIUM_PH_3__ is initially displayed in a larger font, while also displaying additional information such as the creation and the modification date.",
+      "sourceHash": "19b45556978afc782d7b573ca99a702a7e70715e001aa5fb1a65f6b341c56804",
+      "context": "Title > Inline title",
+      "contextHash": "5d5cda71c399e0fced501735ecb00509c4c789221c21c70e01faea961ed67755",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_8f25961476454ff18488378a_0",
+      "kind": "p",
+      "source": "Whenever the title is scrolled past, the fixed title is shown instead.",
+      "sourceHash": "8f25961476454ff18488378a8c2cb6ae03593164e19d7446f63d0c22d1cc38b1",
+      "context": "Title > Inline title",
+      "contextHash": "5d5cda71c399e0fced501735ecb00509c4c789221c21c70e01faea961ed67755",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_9e2d0648f7c577d1d223f05e_0",
+      "kind": "p",
+      "source": "Note types that take the entirety of the screen, such as __TRILIUM_PH_0__Code__TRILIUM_PH_1__ and __TRILIUM_PH_2__Canvas__TRILIUM_PH_3__, will always have only the fixed title bar.",
+      "sourceHash": "9e2d0648f7c577d1d223f05eddcd6253454517ce4597b4d7f4fa389e3d33c9e6",
+      "context": "Title > Inline title",
+      "contextHash": "5d5cda71c399e0fced501735ecb00509c4c789221c21c70e01faea961ed67755",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_9d99c17e72361eb15b730dc2_0",
+      "kind": "p",
+      "source": "Under the note title, the __TRILIUM_PH_0__New note type switcher__TRILIUM_PH_1__ appears if the note is empty.",
+      "sourceHash": "9d99c17e72361eb15b730dc29f2eaeb40a6cee17230aac46f5911e6706380f32",
+      "context": "Title > Inline title",
+      "contextHash": "5d5cda71c399e0fced501735ecb00509c4c789221c21c70e01faea961ed67755",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_8be0043cca5bab7842cc0009_0",
+      "kind": "p",
+      "source": "To use the fixed title bar for text notes as well, go to __TRILIUM_PH_0__Options__TRILIUM_PH_1__ → __TRILIUM_PH_2__Appearance__TRILIUM_PH_3__ → __TRILIUM_PH_4__User Interface__TRILIUM_PH_5__ and set __TRILIUM_PH_6__Note title__TRILIUM_PH_7__ to __TRILIUM_PH_8__Compact__TRILIUM_PH_9__. The title then stays in the fixed title bar and the content starts right below it; the creation and modification dates are not shown. The __TRILIUM_PH_10__New note type switcher__TRILIUM_PH_11__ of an empty note appears at the bottom of the note instead. The setting applies to the current device only.",
+      "sourceHash": "8be0043cca5bab7842cc000922a8e1343b6c599a01d5f04c99b2cdaa3622c5c9",
+      "context": "Title > Inline title",
+      "contextHash": "5d5cda71c399e0fced501735ecb00509c4c789221c21c70e01faea961ed67755",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_a7df56bf2ed78516d3edc43e_0",
+      "kind": "figcaption",
+      "source": "The __TRILIUM_PH_0__Inline title__TRILIUM_PH_1__, which is displayed at the top of the note and can be scrolled past.",
+      "sourceHash": "a7df56bf2ed78516d3edc43e395f05d0618b3886ae13572c83d7da5a318fbbc2",
+      "context": "Title > Inline title",
+      "contextHash": "5d5cda71c399e0fced501735ecb00509c4c789221c21c70e01faea961ed67755",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_e0996e09b8f029ca16aa3eed_0",
+      "kind": "figcaption",
+      "source": "The fixed title bar. The title only appears after scrolling past the __TRILIUM_PH_0__Inline title__TRILIUM_PH_1__.",
+      "sourceHash": "e0996e09b8f029ca16aa3eed002d327dbfb9d7b8a1f21f0b4e03a94193331706",
+      "context": "Title > Inline title",
+      "contextHash": "5d5cda71c399e0fced501735ecb00509c4c789221c21c70e01faea961ed67755",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_3fc65c373e4f51feefe25678_0",
+      "kind": "h3",
+      "source": "Editing the title__TRILIUM_PH_0__",
+      "sourceHash": "3fc65c373e4f51feefe2567830541f66aa4407c443dfa9d5cb45bd3154a13d4a",
+      "context": "Title > Inline title > Editing the title",
+      "contextHash": "83933934306bd4979f1d5897ffcaccbf5f2d0185c024ef7adaf16ce084b282c7",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_5e58f8db710ecddc437bb61d_0",
+      "kind": "p",
+      "source": "To rename a note, simply click into the title field and type. Changes are saved automatically as you type.",
+      "sourceHash": "5e58f8db710ecddc437bb61d1dc791dd82c42c8e4426f79ce033a78415ef0c57",
+      "context": "Title > Inline title > Editing the title",
+      "contextHash": "83933934306bd4979f1d5897ffcaccbf5f2d0185c024ef7adaf16ce084b282c7",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_7124a65b8bf7810526df848b_0",
+      "kind": "p",
+      "source": "You can also begin editing the title directly from the __TRILIUM_PH_0__Note Tree__TRILIUM_PH_1__ by selecting a note and pressing __TRILIUM_PH_2__Enter__TRILIUM_PH_3__ (see __TRILIUM_PH_4__Edit note title__TRILIUM_PH_5__ in __TRILIUM_PH_6__Keyboard Shortcuts__TRILIUM_PH_7__), which focuses the title field for the active note.",
+      "sourceHash": "7124a65b8bf7810526df848b5a0cba401a105ab9ff8179258e7ffc60b07f9009",
+      "context": "Title > Inline title > Editing the title",
+      "contextHash": "83933934306bd4979f1d5897ffcaccbf5f2d0185c024ef7adaf16ce084b282c7",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_8725af0d54e4ae664925d1da_0",
+      "kind": "p",
+      "source": "Titles may contain any characters, including Unicode and emoji. For security, any HTML in the title is stripped automatically, so the title is always treated as plain text.",
+      "sourceHash": "8725af0d54e4ae664925d1da52a0042cb9671e7b7e9d4a8d396d2d6728336c36",
+      "context": "Title > Inline title > Editing the title",
+      "contextHash": "83933934306bd4979f1d5897ffcaccbf5f2d0185c024ef7adaf16ce084b282c7",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_8ab0bb61a60c26615bea43db_0",
+      "kind": "h3",
+      "source": "Easily navigating between the title and the content__TRILIUM_PH_0__",
+      "sourceHash": "8ab0bb61a60c26615bea43db0342466720f859d3eb17ef4ee8f48b0ded069fcb",
+      "context": "Title > Inline title > Easily navigating between the title and the content",
+      "contextHash": "4e5ec650e2c44cf49795f5f83e9573b54e966496264e1ba3547eeeedbffba088",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_71e2b1a528a8f5b04f57c9c0_0",
+      "kind": "p",
+      "source": "When the cursor is in the title field, pressing __TRILIUM_PH_0__Enter__TRILIUM_PH_1__ moves focus into the note's content. For __TRILIUM_PH_2__Text__TRILIUM_PH_3__ notes this also inserts a fresh empty paragraph at the very top of the document, so you can start writing immediately — much like other note-taking apps.",
+      "sourceHash": "71e2b1a528a8f5b04f57c9c0d59e740835509ca4b770271e79e144044d211af7",
+      "context": "Title > Inline title > Easily navigating between the title and the content",
+      "contextHash": "4e5ec650e2c44cf49795f5f83e9573b54e966496264e1ba3547eeeedbffba088",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_a5b9f8809d5887a312ac2ce2_0",
+      "kind": "p",
+      "source": "This makes it possible to create a note, type its title, press __TRILIUM_PH_0__Enter__TRILIUM_PH_1__, and continue straight into the body without reaching for the mouse.",
+      "sourceHash": "a5b9f8809d5887a312ac2ce29a5b6cb2225c5e6e42ccfbddea3b66e75c2c5256",
+      "context": "Title > Inline title > Easily navigating between the title and the content",
+      "contextHash": "4e5ec650e2c44cf49795f5f83e9573b54e966496264e1ba3547eeeedbffba088",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_9ab8aa6d5ee5133f1db4608f_0",
+      "kind": "h3",
+      "source": "Working with new notes__TRILIUM_PH_0__",
+      "sourceHash": "9ab8aa6d5ee5133f1db4608ffa2cb07e6b293b476c4c21e0ef2b93ddf2d6b44c",
+      "context": "Title > Inline title > Working with new notes",
+      "contextHash": "538f5d6aa68747afb049ea77dcc11a30e5bdbcdc7fda505f18f2a03e92a0ed03",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_d78bdb8f389809259260c59b_0",
+      "kind": "p",
+      "source": "When you create a new note it's given a default title (__TRILIUM_PH_0__new note__TRILIUM_PH_1__) which is pre-selected, so you can type a name right away to replace it. The default title for new notes can be customized per-section — see __TRILIUM_PH_2__Default Note Title__TRILIUM_PH_3__.",
+      "sourceHash": "d78bdb8f389809259260c59b49c37211734c2cc1a187dcaf2abe8e1d16647a0e",
+      "context": "Title > Inline title > Working with new notes",
+      "contextHash": "538f5d6aa68747afb049ea77dcc11a30e5bdbcdc7fda505f18f2a03e92a0ed03",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_4d6861269e43a4b4f8db6a2e_0",
+      "kind": "p",
+      "source": "If you decide you don't want the note after all, pressing __TRILIUM_PH_0__Escape__TRILIUM_PH_1__ while the title of a freshly created note is still focused will discard it.",
+      "sourceHash": "4d6861269e43a4b4f8db6a2ea5023081b9f12a1832a8f081cb509a6bdd39198a",
+      "context": "Title > Inline title > Working with new notes",
+      "contextHash": "538f5d6aa68747afb049ea77dcc11a30e5bdbcdc7fda505f18f2a03e92a0ed03",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_406e05cad0e0011cd77380f6_0",
+      "kind": "h3",
+      "source": "Automatically generated titles__TRILIUM_PH_0__",
+      "sourceHash": "406e05cad0e0011cd77380f6c72ce202807ce15e6eae250a9f39ed069e216c84",
+      "context": "Title > Inline title > Automatically generated titles",
+      "contextHash": "dfdb352a29719694cf588c1de3d9f8433eb22a050ececb041dce0701561a3b61",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_f6e7508188c242fc14e388b7_0",
+      "kind": "p",
+      "source": "Some notes get their titles assigned automatically rather than typed:",
+      "sourceHash": "f6e7508188c242fc14e388b726a09ffcdd15e17b7f59545c0e23564a516a9290",
+      "context": "Title > Inline title > Automatically generated titles",
+      "contextHash": "dfdb352a29719694cf588c1de3d9f8433eb22a050ececb041dce0701561a3b61",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_c1ff30b0b0c362c7b7ab63b7_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__Day, week, month and year notes__TRILIUM_PH_1__ in the __TRILIUM_PH_2__Day Notes__TRILIUM_PH_3__ are named from a configurable date pattern.",
+      "sourceHash": "c1ff30b0b0c362c7b7ab63b7f0a8329478d0fe95db0c3227c560ff648a18653c",
+      "context": "Title > Inline title > Automatically generated titles",
+      "contextHash": "dfdb352a29719694cf588c1de3d9f8433eb22a050ececb041dce0701561a3b61",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_d7894d3b506f01964471f632_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__Saved Search__TRILIUM_PH_1__ notes are named after the search they perform.",
+      "sourceHash": "d7894d3b506f01964471f63215a0cc88536d7fe781e30d2728d14e90e368b404",
+      "context": "Title > Inline title > Automatically generated titles",
+      "contextHash": "dfdb352a29719694cf588c1de3d9f8433eb22a050ececb041dce0701561a3b61",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_5519e65a7e269eb140d083ab_0",
+      "kind": "li",
+      "source": "When a note is duplicated, a suffix is appended to the copy's title to tell it apart from the original.",
+      "sourceHash": "5519e65a7e269eb140d083abb7be06fd4b61fb6a3e270f78e593a27524a9f1dd",
+      "context": "Title > Inline title > Automatically generated titles",
+      "contextHash": "dfdb352a29719694cf588c1de3d9f8433eb22a050ececb041dce0701561a3b61",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_35f4142f319e383e00d2bc67_0",
+      "kind": "h3",
+      "source": "Protected notes__TRILIUM_PH_0__",
+      "sourceHash": "35f4142f319e383e00d2bc672e7fc75a50a2466d9f6ff4f581e9d4a678eab441",
+      "context": "Title > Inline title > Protected notes",
+      "contextHash": "46f71c51bfdf8f60ae89b3165dd358ac2725f21a203197f5fa25872e6f6425bc",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_8cbf23baacd24f0dc49c12aa_0",
+      "kind": "p",
+      "source": "The titles of __TRILIUM_PH_0__Protected Notes__TRILIUM_PH_1__ are encrypted along with their content. Before entering your password, Trilium cannot decrypt the title: the note tree, the title field, the breadcrumb menus and the tabs label the note __TRILIUM_PH_2__Protected__TRILIUM_PH_3__, and the title cannot be modified.",
+      "sourceHash": "8cbf23baacd24f0dc49c12aa08ce8d8c4c4c566d503776ce83f929176144dac3",
+      "context": "Title > Inline title > Protected notes",
+      "contextHash": "46f71c51bfdf8f60ae89b3165dd358ac2725f21a203197f5fa25872e6f6425bc",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_02966871de6c55da87a5bce5_0",
+      "kind": "p",
+      "source": "Once you enter your password and a protected session is active, the real title is decrypted and displayed, and becomes editable again.",
+      "sourceHash": "02966871de6c55da87a5bce5b376600e8f7d047ecba4b657c513dd51a1412360",
+      "context": "Title > Inline title > Protected notes",
+      "contextHash": "46f71c51bfdf8f60ae89b3165dd358ac2725f21a203197f5fa25872e6f6425bc",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_b190d47815633246b0ab18a6_0",
+      "kind": "image-alt",
+      "source": "記事画像",
+      "sourceHash": "b190d47815633246b0ab18a61d9b8e8ea36504fe3f8bc230a7753096915c9ff2",
+      "context": "Title > Inline title > Protected notes",
+      "contextHash": "46f71c51bfdf8f60ae89b3165dd358ac2725f21a203197f5fa25872e6f6425bc",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_b190d47815633246b0ab18a6_1",
+      "kind": "image-alt",
+      "source": "記事画像",
+      "sourceHash": "b190d47815633246b0ab18a61d9b8e8ea36504fe3f8bc230a7753096915c9ff2",
+      "context": "Title > Inline title > Protected notes",
+      "contextHash": "46f71c51bfdf8f60ae89b3165dd358ac2725f21a203197f5fa25872e6f6425bc",
+      "status": "pending",
+      "active": true
+    }
+  ],
+  "requests": []
+}

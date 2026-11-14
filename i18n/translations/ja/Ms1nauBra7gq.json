@@ -1,0 +1,699 @@
+{
+  "schemaVersion": 1,
+  "pageId": "Ms1nauBra7gq",
+  "sourceFile": "docs/User Guide/User Guide/Basic Concepts and Features/Navigation/Quick search.md",
+  "sourceRevision": "03d17b60f59b5efc29b880b11481471d0fe0ff57",
+  "units": [
+    {
+      "id": "u_3de753306324652017021169_0",
+      "kind": "title",
+      "source": "Quick search",
+      "sourceHash": "3de75330632465201702116969bcdce77572a63fbeb958fc6155322e0a135b1f",
+      "context": "Quick search",
+      "contextHash": "7d186b29779eee7f661d3d81ce1e8cc0cdeb9fd6914d391236eac867147f8a1e",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_bc8d4f22c4e5911f93bdf155_0",
+      "kind": "p",
+      "source": "The __TRILIUM_PH_0__Quick search__TRILIUM_PH_1__ function does a full-text search (that is, it searches through the content of notes and not just the title of a note) and displays the result in an easy-to-access manner.",
+      "sourceHash": "bc8d4f22c4e5911f93bdf155cd9d3e966e8ee29375136dd9957a6d191fab6f72",
+      "context": "Quick search",
+      "contextHash": "7d186b29779eee7f661d3d81ce1e8cc0cdeb9fd6914d391236eac867147f8a1e",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_62f0bca886be3f145a174c0e_0",
+      "kind": "p",
+      "source": "The alternative to the quick search is the __TRILIUM_PH_0__Search__TRILIUM_PH_1__ function, which opens in a dedicated tab and has support for advanced queries.",
+      "sourceHash": "62f0bca886be3f145a174c0e4ae978d7aa7b8b0289dc8967560db2a191a786fa",
+      "context": "Quick search",
+      "contextHash": "7d186b29779eee7f661d3d81ce1e8cc0cdeb9fd6914d391236eac867147f8a1e",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_ca0275260bbb3fcb05080769_0",
+      "kind": "p",
+      "source": "For even faster navigation, it's possible to use __TRILIUM_PH_0__Jump to & command palette__TRILIUM_PH_1__ which will only search through the note titles instead of the content.",
+      "sourceHash": "ca0275260bbb3fcb050807697b37f06e84a6cd771f9c5cbde05cc7eaeac23c0f",
+      "context": "Quick search",
+      "contextHash": "7d186b29779eee7f661d3d81ce1e8cc0cdeb9fd6914d391236eac867147f8a1e",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_1be850235fa38260299278b7_0",
+      "kind": "h2",
+      "source": "Layout__TRILIUM_PH_0__",
+      "sourceHash": "1be850235fa38260299278b76672d24596fd6be877e00555a4070dbe3314f423",
+      "context": "Quick search > Layout",
+      "contextHash": "4006f2bf1cf31f38912afc5e2a4dfd8d05ba2bb1b560d8a97ea1b1a2de1cd974",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_b24a19e138cb805d3adc4886_0",
+      "kind": "p",
+      "source": "Based on the __TRILIUM_PH_0__Vertical and horizontal layout__TRILIUM_PH_1__, the quick search is placed:",
+      "sourceHash": "b24a19e138cb805d3adc48861bda5782a8dcb2c850fbdb7a3f3be69bf9983c8b",
+      "context": "Quick search > Layout",
+      "contextHash": "4006f2bf1cf31f38912afc5e2a4dfd8d05ba2bb1b560d8a97ea1b1a2de1cd974",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_9a943056547f89072294ebd4_0",
+      "kind": "li",
+      "source": "On the vertical layout, it is displayed right above the __TRILIUM_PH_0__Note Tree__TRILIUM_PH_1__.",
+      "sourceHash": "9a943056547f89072294ebd4cb63d946426ae81581273510a5cb47c3bc2cb4af",
+      "context": "Quick search > Layout",
+      "contextHash": "4006f2bf1cf31f38912afc5e2a4dfd8d05ba2bb1b560d8a97ea1b1a2de1cd974",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_714b27eeb7fda519732dce82_0",
+      "kind": "li",
+      "source": "On the horizontal layout, it is displayed in the __TRILIUM_PH_0__Launch Bar__TRILIUM_PH_1__, where it can be positioned just like any other icon.",
+      "sourceHash": "714b27eeb7fda519732dce82fd825e15c4a9885e4cc5b2580b4509ff8ae8a897",
+      "context": "Quick search > Layout",
+      "contextHash": "4006f2bf1cf31f38912afc5e2a4dfd8d05ba2bb1b560d8a97ea1b1a2de1cd974",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_1bdac678fb7d0c739f0d00d2_0",
+      "kind": "h2",
+      "source": "Search Features__TRILIUM_PH_0__",
+      "sourceHash": "1bdac678fb7d0c739f0d00d266a63a1093f8e676aeedf1c63b040e9b612f8b70",
+      "context": "Quick search > Search Features",
+      "contextHash": "b7eb1527dbe46c2dfad25ef6d9aeb4e571b6e7002dc4bce5246b5294ac75778f",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_4128ff7498c4b52cae0ca791_0",
+      "kind": "p",
+      "source": "Quick search includes the following features:",
+      "sourceHash": "4128ff7498c4b52cae0ca791095c6c747a3f400f00e16f16bb21de8114717ae2",
+      "context": "Quick search > Search Features",
+      "contextHash": "b7eb1527dbe46c2dfad25ef6d9aeb4e571b6e7002dc4bce5246b5294ac75778f",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_c6944ddecce45404cbd0ef37_0",
+      "kind": "h3",
+      "source": "Content Previews__TRILIUM_PH_0__",
+      "sourceHash": "c6944ddecce45404cbd0ef379510b493f7dd1d80466fa4434a27dc205175e476",
+      "context": "Quick search > Search Features > Content Previews",
+      "contextHash": "67fc01cf08f076357eef80f38454839d8530f6c76d175edb34fdc172d94ae20e",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_a9cf1b9d8c5d4367a9b7c10b_0",
+      "kind": "p",
+      "source": "Search results now display a 200-character preview of the note content below the note title. This preview shows the context where your search terms appear, making it easier to identify the right note without opening it.",
+      "sourceHash": "a9cf1b9d8c5d4367a9b7c10b643108cb2afa5f2a83dad0d3441411027d13b36b",
+      "context": "Quick search > Search Features > Content Previews",
+      "contextHash": "67fc01cf08f076357eef80f38454839d8530f6c76d175edb34fdc172d94ae20e",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_185c06efe3ae62bc6efa25c8_0",
+      "kind": "h3",
+      "source": "All results in one list__TRILIUM_PH_0__",
+      "sourceHash": "185c06efe3ae62bc6efa25c8b9ade0996f5ce9da86b317d7a22b86f281d6767f",
+      "context": "Quick search > Search Features > All results in one list",
+      "contextHash": "5c5591de5050d4e9b792f17fb8cbdfdca352ad5e938ee0ea8a5e929bc61b81f4",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_0a2caf735d2de6b307db8c91_0",
+      "kind": "p",
+      "source": "Quick search lists up to 200 matching notes in a single scrollable list, so the scrollbar shows how many results there are and how far through them you are.",
+      "sourceHash": "0a2caf735d2de6b307db8c91f99658c7847748ca7c04ad4cb56ef0a13879e731",
+      "context": "Quick search > Search Features > All results in one list",
+      "contextHash": "5c5591de5050d4e9b792f17fb8cbdfdca352ad5e938ee0ea8a5e929bc61b81f4",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_289d384bf9705afa5415e50a_0",
+      "kind": "h3",
+      "source": "Continuing in the full search__TRILIUM_PH_0__",
+      "sourceHash": "289d384bf9705afa5415e50a145c99db780415a7d379f533889ac3842442869c",
+      "context": "Quick search > Search Features > Continuing in the full search",
+      "contextHash": "484be1bf13baf8b8fb80f4920eecd1d0e2add51bf3e3e2f7ea466886bf638b3c",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_5ddd2fa1a478cad29cb745da_0",
+      "kind": "p",
+      "source": "To refine a query with the options of the full __TRILIUM_PH_0__Search__TRILIUM_PH_1__, click __TRILIUM_PH_2__Show in full search__TRILIUM_PH_3__ below the results, or press __TRILIUM_PH_4__Ctrl__TRILIUM_PH_5__+__TRILIUM_PH_6__Enter__TRILIUM_PH_7__ in the search field. The full search opens in a new tab with the same query. The button stays below the list, however far the results are scrolled.",
+      "sourceHash": "5ddd2fa1a478cad29cb745da4121d571f459460b8962d1bd2a3a4571a5830f3b",
+      "context": "Quick search > Search Features > Continuing in the full search",
+      "contextHash": "484be1bf13baf8b8fb80f4920eecd1d0e2add51bf3e3e2f7ea466886bf638b3c",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_06202786895ef1f8e6a66971_0",
+      "kind": "h3",
+      "source": "Visual Features__TRILIUM_PH_0__",
+      "sourceHash": "06202786895ef1f8e6a66971c54c8e8aa6a69845e7fb5396b0912ec2468e7858",
+      "context": "Quick search > Search Features > Visual Features",
+      "contextHash": "5acf207522707d0bbcb6a74277ecb0100ea2a082a39a48d9069cec0aac21768e",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_aa51b254402530aec6ba9777_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__Highlighting__TRILIUM_PH_1__: Search terms appear in bold with accent colors",
+      "sourceHash": "aa51b254402530aec6ba9777207d9a0858bdf5ddfb6d4c1147418b808e0c259e",
+      "context": "Quick search > Search Features > Visual Features",
+      "contextHash": "5acf207522707d0bbcb6a74277ecb0100ea2a082a39a48d9069cec0aac21768e",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_15c2f66ff836217a45cd115a_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__Separation__TRILIUM_PH_1__: Results are separated with dividers",
+      "sourceHash": "15c2f66ff836217a45cd115a6f1143758c5f2b305c34e7da0c7635694543ac7c",
+      "context": "Quick search > Search Features > Visual Features",
+      "contextHash": "5acf207522707d0bbcb6a74277ecb0100ea2a082a39a48d9069cec0aac21768e",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_4eabac0d7972609c80d059eb_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__Theme Support__TRILIUM_PH_1__: Highlighting colors adapt to light/dark themes",
+      "sourceHash": "4eabac0d7972609c80d059eb6259b4aa2fce1335b696d38928124b773ae83b8b",
+      "context": "Quick search > Search Features > Visual Features",
+      "contextHash": "5acf207522707d0bbcb6a74277ecb0100ea2a082a39a48d9069cec0aac21768e",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_edd93038708780c654a7d19e_0",
+      "kind": "h3",
+      "source": "Search Behavior__TRILIUM_PH_0__",
+      "sourceHash": "edd93038708780c654a7d19ecd86cbf1207bdd5610f7127e3665216c9393f4d4",
+      "context": "Quick search > Search Features > Search Behavior",
+      "contextHash": "caee346d12e8f2fa38a1379d2c996f04be52bcf211fa397a61d43d68dd52763b",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_3d05ec8311bc9f2e50777f29_0",
+      "kind": "p",
+      "source": "Quick search uses progressive search:",
+      "sourceHash": "3d05ec8311bc9f2e50777f29f2f93c17cfca2a41487c815f160c3d21cc61f56d",
+      "context": "Quick search > Search Features > Search Behavior",
+      "contextHash": "caee346d12e8f2fa38a1379d2c996f04be52bcf211fa397a61d43d68dd52763b",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_778ddc1f0c93af24e84e11d6_0",
+      "kind": "li",
+      "source": "Shows exact matches first",
+      "sourceHash": "778ddc1f0c93af24e84e11d6d4c34b6f5dd2cc4ca92cb8181b7a85df6fcbfb58",
+      "context": "Quick search > Search Features > Search Behavior",
+      "contextHash": "caee346d12e8f2fa38a1379d2c996f04be52bcf211fa397a61d43d68dd52763b",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_00e880bd28b07a9c48b4efda_0",
+      "kind": "li",
+      "source": "Includes fuzzy matches when exact results are fewer than 5",
+      "sourceHash": "00e880bd28b07a9c48b4efdadfb130189d4a5691cc27183aa274b951f012b38b",
+      "context": "Quick search > Search Features > Search Behavior",
+      "contextHash": "caee346d12e8f2fa38a1379d2c996f04be52bcf211fa397a61d43d68dd52763b",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_40f94e302db5670d9a94dbc6_0",
+      "kind": "li",
+      "source": "Exact matches appear before fuzzy matches",
+      "sourceHash": "40f94e302db5670d9a94dbc65cadc00bcbc51738773876c1609477e0cca15c29",
+      "context": "Quick search > Search Features > Search Behavior",
+      "contextHash": "caee346d12e8f2fa38a1379d2c996f04be52bcf211fa397a61d43d68dd52763b",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_77acc1fddfd4833936bec16e_0",
+      "kind": "h3",
+      "source": "Search Scope__TRILIUM_PH_0__",
+      "sourceHash": "77acc1fddfd4833936bec16e3c886a0a207e56b9ce183b338de89d703c754d78",
+      "context": "Quick search > Search Features > Search Scope",
+      "contextHash": "3b7d17de91d95e5bc949b42103786eef073ac06edb93fd3b59f3161f3fd5fcfb",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_6ce550f0ff5f78dd75a64406_0",
+      "kind": "p",
+      "source": "Quick search covers only the subtree you are currently working in:",
+      "sourceHash": "6ce550f0ff5f78dd75a644062dff497b5b12dc91b6c28b8bd6c3719ecb0bce0e",
+      "context": "Quick search > Search Features > Search Scope",
+      "contextHash": "3b7d17de91d95e5bc949b42103786eef073ac06edb93fd3b59f3161f3fd5fcfb",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_28057b45597bbfdde4cff77a_0",
+      "kind": "li",
+      "source": "Without hoisting, it covers the whole note tree.",
+      "sourceHash": "28057b45597bbfdde4cff77a8e5c1c53b248c219043ebb21178daa85eccb4602",
+      "context": "Quick search > Search Features > Search Scope",
+      "contextHash": "3b7d17de91d95e5bc949b42103786eef073ac06edb93fd3b59f3161f3fd5fcfb",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_ce2531f710bf6b230e17db54_0",
+      "kind": "li",
+      "source": "Under a __TRILIUM_PH_0__hoisted note__TRILIUM_PH_1__ or inside a __TRILIUM_PH_2__workspace__TRILIUM_PH_3__, it covers only that subtree.",
+      "sourceHash": "ce2531f710bf6b230e17db540eb1222a48f83c7859e114e72831d3e54bae7359",
+      "context": "Quick search > Search Features > Search Scope",
+      "contextHash": "3b7d17de91d95e5bc949b42103786eef073ac06edb93fd3b59f3161f3fd5fcfb",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_9b43536cde95383b19a1661e_0",
+      "kind": "li",
+      "source": "Notes that exist only in the hidden tree, such as the built-in help pages and the launch bar configuration, are not returned. Hoist into the help to search it, or use __TRILIUM_PH_0__Jump to…__TRILIUM_PH_1__, which searches titles across the hidden tree.",
+      "sourceHash": "9b43536cde95383b19a1661eb62255ef00332cb0193fed6685200b4449b37a3a",
+      "context": "Quick search > Search Features > Search Scope",
+      "contextHash": "3b7d17de91d95e5bc949b42103786eef073ac06edb93fd3b59f3161f3fd5fcfb",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_e11f9b529e07f9e02c461e89_0",
+      "kind": "p",
+      "source": "To search the whole database while hoisted, use the full __TRILIUM_PH_0__Search__TRILIUM_PH_1__ and leave __TRILIUM_PH_2__Ancestor__TRILIUM_PH_3__ field empty.",
+      "sourceHash": "e11f9b529e07f9e02c461e89c87fb1e7d4d1578e02367a0750deeb1ac99311dd",
+      "context": "Quick search > Search Features > Search Scope",
+      "contextHash": "3b7d17de91d95e5bc949b42103786eef073ac06edb93fd3b59f3161f3fd5fcfb",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_f8bc5d56cce06a5d2bef23bd_0",
+      "kind": "h3",
+      "source": "Keyboard Navigation__TRILIUM_PH_0__",
+      "sourceHash": "f8bc5d56cce06a5d2bef23bd3565da7e7d607fbe079ef728c00f16716c2ec6dd",
+      "context": "Quick search > Search Features > Keyboard Navigation",
+      "contextHash": "990d7307473c06bfedcc1e90e434fef07c2dd7004c752cb6d9f6667d84a9cdd1",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_9361fe8c1b7c5309779eabf8_0",
+      "kind": "li",
+      "source": "Press __TRILIUM_PH_0__Enter__TRILIUM_PH_1__ in the search field to search, or to refresh the results already shown.",
+      "sourceHash": "9361fe8c1b7c5309779eabf87b9a7c5c642bc118df33cdd9dd6f9f1ead8da59f",
+      "context": "Quick search > Search Features > Keyboard Navigation",
+      "contextHash": "990d7307473c06bfedcc1e90e434fef07c2dd7004c752cb6d9f6667d84a9cdd1",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_6a75f53182adc6b5c67ebe36_0",
+      "kind": "li",
+      "source": "Press __TRILIUM_PH_0__Down__TRILIUM_PH_1__ in the search field to move to the first result, then __TRILIUM_PH_2__Up__TRILIUM_PH_3__ and __TRILIUM_PH_4__Down__TRILIUM_PH_5__ to move between results. __TRILIUM_PH_6__Up__TRILIUM_PH_7__ on the first result returns to the search field.",
+      "sourceHash": "6a75f53182adc6b5c67ebe364d042c20d1cb18457865ff79edaf51045d57413b",
+      "context": "Quick search > Search Features > Keyboard Navigation",
+      "contextHash": "990d7307473c06bfedcc1e90e434fef07c2dd7004c752cb6d9f6667d84a9cdd1",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_a0c8f3947092d61db9c8dc90_0",
+      "kind": "li",
+      "source": "Press __TRILIUM_PH_0__Page Down__TRILIUM_PH_1__ and __TRILIUM_PH_2__Page Up__TRILIUM_PH_3__ to move through the results a page at a time.",
+      "sourceHash": "a0c8f3947092d61db9c8dc907bdaec1e98c7f7a1c88a0650f3ae7a5f95c4087c",
+      "context": "Quick search > Search Features > Keyboard Navigation",
+      "contextHash": "990d7307473c06bfedcc1e90e434fef07c2dd7004c752cb6d9f6667d84a9cdd1",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_a8d19d30e70017f0108bb1dd_0",
+      "kind": "li",
+      "source": "Press __TRILIUM_PH_0__Enter__TRILIUM_PH_1__ on a result to open it.",
+      "sourceHash": "a8d19d30e70017f0108bb1ddccf3dd1c42f7662bdc7d64dc0055efb8a1f3ada6",
+      "context": "Quick search > Search Features > Keyboard Navigation",
+      "contextHash": "990d7307473c06bfedcc1e90e434fef07c2dd7004c752cb6d9f6667d84a9cdd1",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_3f63e0f85f0074a2246559d3_0",
+      "kind": "li",
+      "source": "Press __TRILIUM_PH_0__Ctrl__TRILIUM_PH_1__+__TRILIUM_PH_2__Enter__TRILIUM_PH_3__ to open the query in the full search.",
+      "sourceHash": "3f63e0f85f0074a2246559d3c6bcaf7c01edc05b6073ca587d625b47fad0361e",
+      "context": "Quick search > Search Features > Keyboard Navigation",
+      "contextHash": "990d7307473c06bfedcc1e90e434fef07c2dd7004c752cb6d9f6667d84a9cdd1",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_7050f0a301bbbad38dd964a3_0",
+      "kind": "li",
+      "source": "Press __TRILIUM_PH_0__Escape__TRILIUM_PH_1__ to close the results.",
+      "sourceHash": "7050f0a301bbbad38dd964a31cf0e54a01881f8a6496c90d4cef729cc3c348c4",
+      "context": "Quick search > Search Features > Keyboard Navigation",
+      "contextHash": "990d7307473c06bfedcc1e90e434fef07c2dd7004c752cb6d9f6667d84a9cdd1",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_24db4b3c324fd80f4a1c6f5c_0",
+      "kind": "p",
+      "source": "To see these shortcuts on screen, click the __TRILIUM_PH_0__?__TRILIUM_PH_1__ button below the results, or press __TRILIUM_PH_2__Alt__TRILIUM_PH_3__+__TRILIUM_PH_4__F1__TRILIUM_PH_5__ while the search field is focused.",
+      "sourceHash": "24db4b3c324fd80f4a1c6f5c4d0998ddcd2cd015847e91d786dfb565ee39c3b3",
+      "context": "Quick search > Search Features > Keyboard Navigation",
+      "contextHash": "990d7307473c06bfedcc1e90e434fef07c2dd7004c752cb6d9f6667d84a9cdd1",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_dede04ddeea663c28cbf79b9_0",
+      "kind": "h2",
+      "source": "Using Quick Search__TRILIUM_PH_0__",
+      "sourceHash": "dede04ddeea663c28cbf79b9baccb758b451a773f90e72cebe4f6846fcad987a",
+      "context": "Quick search > Using Quick Search",
+      "contextHash": "c98db33ca9466c885639937fc6275fb103791ec195b1782b519f7a35ecc3f351",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_aa69c59abd0f51286e7e3132_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__Typo tolerance__TRILIUM_PH_1__: Search finds results despite minor typos",
+      "sourceHash": "aa69c59abd0f51286e7e313299262d0233d3157736eb563b4c3b50f272de1b34",
+      "context": "Quick search > Using Quick Search",
+      "contextHash": "c98db33ca9466c885639937fc6275fb103791ec195b1782b519f7a35ecc3f351",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_ac21974a25b3bd5f034db17f_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__Content previews__TRILIUM_PH_1__: 200-character snippets show match context",
+      "sourceHash": "ac21974a25b3bd5f034db17f5a9dba922e90086f9b659677fa9944ffc69f741f",
+      "context": "Quick search > Using Quick Search",
+      "contextHash": "c98db33ca9466c885639937fc6275fb103791ec195b1782b519f7a35ecc3f351",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_aa391f45dd3a59f6e238cd7b_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__Specific terms__TRILIUM_PH_1__: Specific search terms return more focused results",
+      "sourceHash": "aa391f45dd3a59f6e238cd7b0851dd4c84593ef7dc902c9bce7d4bf56d9ee8a0",
+      "context": "Quick search > Using Quick Search",
+      "contextHash": "c98db33ca9466c885639937fc6275fb103791ec195b1782b519f7a35ecc3f351",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_20f96d5bf4a24c68c6cbdbd3_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__Match locations__TRILIUM_PH_1__: Bold text indicates where matches occur",
+      "sourceHash": "20f96d5bf4a24c68c6cbdbd33391f20ef3cc52ca1fd74f46b342e5aefe84e2bd",
+      "context": "Quick search > Using Quick Search",
+      "contextHash": "c98db33ca9466c885639937fc6275fb103791ec195b1782b519f7a35ecc3f351",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_cf493ddee051bb13a4824ebc_0",
+      "kind": "h2",
+      "source": "Quick Search - Exact Match Operator__TRILIUM_PH_0__",
+      "sourceHash": "cf493ddee051bb13a4824ebcdda441481b61ff3c4b9112be71e57d1b1b13af63",
+      "context": "Quick search > Quick Search - Exact Match Operator",
+      "contextHash": "ca79eb415718e5b22fa14ebb9927425ffc09d4e34a85c6574ba2a31fd9fd991c",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_22c78164f29a4d9feb79e01b_0",
+      "kind": "p",
+      "source": "Quick Search shares the same search engine as the full __TRILIUM_PH_0__Search__TRILIUM_PH_1__, so the exact match operator (__TRILIUM_PH_2__) behaves identically in both. Start your query with __TRILIUM_PH_3__ (no space after it) to switch from the default \"contains\" behavior to exact whole-word or phrase matching.",
+      "sourceHash": "22c78164f29a4d9feb79e01b956789b40f1b2827225a6e05d627e19b96b4505a",
+      "context": "Quick search > Quick Search - Exact Match Operator",
+      "contextHash": "ca79eb415718e5b22fa14ebb9927425ffc09d4e34a85c6574ba2a31fd9fd991c",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_6fe64229694d12ba9bf3789d_0",
+      "kind": "p",
+      "source": "__TRILIUM_PH_0__What__TRILIUM_PH_1__ __TRILIUM_PH_2__ __TRILIUM_PH_3__actually does:__TRILIUM_PH_4__ it finds notes where the title or content contains your term as a __TRILIUM_PH_5__whole word or phrase__TRILIUM_PH_6__, ignoring surrounding punctuation. It does __TRILIUM_PH_7__not__TRILIUM_PH_8__ require the whole note to equal your term, and it does __TRILIUM_PH_9__not__TRILIUM_PH_10__ do substring or fuzzy matching.",
+      "sourceHash": "6fe64229694d12ba9bf3789daba6533df80d4697b8a3254fb0e1ad8cad3a8566",
+      "context": "Quick search > Quick Search - Exact Match Operator",
+      "contextHash": "ca79eb415718e5b22fa14ebb9927425ffc09d4e34a85c6574ba2a31fd9fd991c",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_6a71efc513e7c2e362c3f7e1_0",
+      "kind": "th",
+      "source": "Query",
+      "sourceHash": "6a71efc513e7c2e362c3f7e1d5e481895150ec52fd08ead040bda4986669dba5",
+      "context": "Quick search > Quick Search - Exact Match Operator",
+      "contextHash": "ca79eb415718e5b22fa14ebb9927425ffc09d4e34a85c6574ba2a31fd9fd991c",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_b5dd79aaff4a17e9cdad4595_0",
+      "kind": "th",
+      "source": "Example note content",
+      "sourceHash": "b5dd79aaff4a17e9cdad459509576edd3de87769493f5fbd2b13f51b0a016f0e",
+      "context": "Quick search > Quick Search - Exact Match Operator",
+      "contextHash": "ca79eb415718e5b22fa14ebb9927425ffc09d4e34a85c6574ba2a31fd9fd991c",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_20e02751581ebf58a6caa66f_0",
+      "kind": "th",
+      "source": "Matches?",
+      "sourceHash": "20e02751581ebf58a6caa66ffe102438ab5983b28520f11039813666147674ba",
+      "context": "Quick search > Quick Search - Exact Match Operator",
+      "contextHash": "ca79eb415718e5b22fa14ebb9927425ffc09d4e34a85c6574ba2a31fd9fd991c",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_3130d2e38c98dff0d6e96b02_0",
+      "kind": "th",
+      "source": "Why",
+      "sourceHash": "3130d2e38c98dff0d6e96b020e7a987c53f4d31cabb6addfac1dcd885bc3b18c",
+      "context": "Quick search > Quick Search - Exact Match Operator",
+      "contextHash": "ca79eb415718e5b22fa14ebb9927425ffc09d4e34a85c6574ba2a31fd9fd991c",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_3861c2186be47b0afbedaf6c_0",
+      "kind": "td",
+      "source": "Yes",
+      "sourceHash": "3861c2186be47b0afbedaf6c6c7ae1a9113d8d360cc01b55dd0a8a3c2b68acd2",
+      "context": "Quick search > Quick Search - Exact Match Operator",
+      "contextHash": "ca79eb415718e5b22fa14ebb9927425ffc09d4e34a85c6574ba2a31fd9fd991c",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_3589ffdd1e4ddef9a4264c8d_0",
+      "kind": "td",
+      "source": "default search matches the substring",
+      "sourceHash": "3589ffdd1e4ddef9a4264c8da3b0fcfb1bd2a69b4731951f15a0dfa69e950e2d",
+      "context": "Quick search > Quick Search - Exact Match Operator",
+      "contextHash": "ca79eb415718e5b22fa14ebb9927425ffc09d4e34a85c6574ba2a31fd9fd991c",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_3861c2186be47b0afbedaf6c_1",
+      "kind": "td",
+      "source": "Yes",
+      "sourceHash": "3861c2186be47b0afbedaf6c6c7ae1a9113d8d360cc01b55dd0a8a3c2b68acd2",
+      "context": "Quick search > Quick Search - Exact Match Operator",
+      "contextHash": "ca79eb415718e5b22fa14ebb9927425ffc09d4e34a85c6574ba2a31fd9fd991c",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_5d07558f64133a948569014a_0",
+      "kind": "td",
+      "source": "__TRILIUM_PH_0__ matches the whole word __TRILIUM_PH_1__, punctuation ignored",
+      "sourceHash": "5d07558f64133a948569014a4d9de61de1e6eaf7bf92dd8313c6c4db879eec75",
+      "context": "Quick search > Quick Search - Exact Match Operator",
+      "contextHash": "ca79eb415718e5b22fa14ebb9927425ffc09d4e34a85c6574ba2a31fd9fd991c",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_5800932accb3b3ae09cf1fd9_0",
+      "kind": "td",
+      "source": "No",
+      "sourceHash": "5800932accb3b3ae09cf1fd9c23df583364f955b40fab842da297100512e6519",
+      "context": "Quick search > Quick Search - Exact Match Operator",
+      "contextHash": "ca79eb415718e5b22fa14ebb9927425ffc09d4e34a85c6574ba2a31fd9fd991c",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_5630f7c4fecffd3a6f34dced_0",
+      "kind": "td",
+      "source": "__TRILIUM_PH_0__ never matches substrings",
+      "sourceHash": "5630f7c4fecffd3a6f34dced24b9e75d5ae1572eb821b461b2bd646301f79ed2",
+      "context": "Quick search > Quick Search - Exact Match Operator",
+      "contextHash": "ca79eb415718e5b22fa14ebb9927425ffc09d4e34a85c6574ba2a31fd9fd991c",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_3861c2186be47b0afbedaf6c_2",
+      "kind": "td",
+      "source": "Yes",
+      "sourceHash": "3861c2186be47b0afbedaf6c6c7ae1a9113d8d360cc01b55dd0a8a3c2b68acd2",
+      "context": "Quick search > Quick Search - Exact Match Operator",
+      "contextHash": "ca79eb415718e5b22fa14ebb9927425ffc09d4e34a85c6574ba2a31fd9fd991c",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_6c938fa4ee77d4b452c71cd8_0",
+      "kind": "td",
+      "source": "quote a multi-word phrase to match it exactly",
+      "sourceHash": "6c938fa4ee77d4b452c71cd8c4137ed10e408d162c284dc2cb4dbb65c76e8133",
+      "context": "Quick search > Quick Search - Exact Match Operator",
+      "contextHash": "ca79eb415718e5b22fa14ebb9927425ffc09d4e34a85c6574ba2a31fd9fd991c",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_28f1cdced588883c1a281e21_0",
+      "kind": "p",
+      "source": "The search is case- and diacritic-insensitive. For the complete explanation of the three matching modes, fuzzy operators and relevance ranking, see __TRILIUM_PH_0__How search matches your text__TRILIUM_PH_1__ in the full Search documentation.",
+      "sourceHash": "28f1cdced588883c1a281e210206dcf53295bea2f4b4ec7aaec024a9d813ea0a",
+      "context": "Quick search > Quick Search - Exact Match Operator",
+      "contextHash": "ca79eb415718e5b22fa14ebb9927425ffc09d4e34a85c6574ba2a31fd9fd991c",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_571428e18f272ffaf69c2f69_0",
+      "kind": "h3",
+      "source": "Limitations__TRILIUM_PH_0__",
+      "sourceHash": "571428e18f272ffaf69c2f69011aa3bc3fe4014613594b77afe75199deb1c111",
+      "context": "Quick search > Quick Search - Exact Match Operator > Limitations",
+      "contextHash": "9323ac8a6818ffbddb3a0c298e26ccfac581426cf824e392797a8836f67d5535",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_73649dbf8707742438e541d0_0",
+      "kind": "li",
+      "source": "The __TRILIUM_PH_0__ operator must be at the very beginning of the search query.",
+      "sourceHash": "73649dbf8707742438e541d02d873ebfd05139ce281a1c9f231e59568332ca93",
+      "context": "Quick search > Quick Search - Exact Match Operator > Limitations",
+      "contextHash": "9323ac8a6818ffbddb3a0c298e26ccfac581426cf824e392797a8836f67d5535",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_c528001d6035d39979ac2fb8_0",
+      "kind": "li",
+      "source": "A space immediately after __TRILIUM_PH_0__ is treated as a regular search.",
+      "sourceHash": "c528001d6035d39979ac2fb8cf9fb7f39589dc681e47b3072e5e484db7d0db9f",
+      "context": "Quick search > Quick Search - Exact Match Operator > Limitations",
+      "contextHash": "9323ac8a6818ffbddb3a0c298e26ccfac581426cf824e392797a8836f67d5535",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_a55245ebf25ce66611900d0c_0",
+      "kind": "li",
+      "source": "Multiple __TRILIUM_PH_0__ operators (like __TRILIUM_PH_1__) are treated as regular text search.",
+      "sourceHash": "a55245ebf25ce66611900d0cb2c41aed332b754ad9de43efe56d3e3043a40d5a",
+      "context": "Quick search > Quick Search - Exact Match Operator > Limitations",
+      "contextHash": "9323ac8a6818ffbddb3a0c298e26ccfac581426cf824e392797a8836f67d5535",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_1692cf9bca30c4afdbb429c1_0",
+      "kind": "h3",
+      "source": "Related Features__TRILIUM_PH_0__",
+      "sourceHash": "1692cf9bca30c4afdbb429c136dcee438b843c737ae01d32db6c3d5233f915a3",
+      "context": "Quick search > Quick Search - Exact Match Operator > Related Features",
+      "contextHash": "ac900877b12eac38bd82f09bfd95f5127e0386a602bb672fdc4055cebf239a03",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_9011a9e3aea9398cc910b261_0",
+      "kind": "li",
+      "source": "For attribute, property, boolean and ordering queries, use the full __TRILIUM_PH_0__Search__TRILIUM_PH_1__ functionality.",
+      "sourceHash": "9011a9e3aea9398cc910b26159d75cbb0cb9044f61daaecda1cda58c8153fbea",
+      "context": "Quick search > Quick Search - Exact Match Operator > Related Features",
+      "contextHash": "ac900877b12eac38bd82f09bfd95f5127e0386a602bb672fdc4055cebf239a03",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_79e9e77eb2521645b3fee979_0",
+      "kind": "li",
+      "source": "For fuzzy matching (finding results despite typos), use the __TRILIUM_PH_0__ or __TRILIUM_PH_1__ operators in the full search.",
+      "sourceHash": "79e9e77eb2521645b3fee979ad4730c4c32e62bbc4c42abaa94cb5397a408fcc",
+      "context": "Quick search > Quick Search - Exact Match Operator > Related Features",
+      "contextHash": "ac900877b12eac38bd82f09bfd95f5127e0386a602bb672fdc4055cebf239a03",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_8253cfbc55cf688217a18b85_0",
+      "kind": "li",
+      "source": "For partial matches with wildcards, use operators like __TRILIUM_PH_0__, __TRILIUM_PH_1__, or __TRILIUM_PH_2__ in the full search.",
+      "sourceHash": "8253cfbc55cf688217a18b85ce10b7060eddbd4e5bc203c1670bceb5cf8ad0ee",
+      "context": "Quick search > Quick Search - Exact Match Operator > Related Features",
+      "contextHash": "ac900877b12eac38bd82f09bfd95f5127e0386a602bb672fdc4055cebf239a03",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_b190d47815633246b0ab18a6_0",
+      "kind": "image-alt",
+      "source": "記事画像",
+      "sourceHash": "b190d47815633246b0ab18a61d9b8e8ea36504fe3f8bc230a7753096915c9ff2",
+      "context": "Quick search > Quick Search - Exact Match Operator > Related Features",
+      "contextHash": "ac900877b12eac38bd82f09bfd95f5127e0386a602bb672fdc4055cebf239a03",
+      "status": "pending",
+      "active": true
+    }
+  ],
+  "requests": []
+}

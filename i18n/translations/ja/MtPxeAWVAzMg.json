@@ -1,0 +1,1343 @@
+{
+  "schemaVersion": 1,
+  "pageId": "MtPxeAWVAzMg",
+  "sourceFile": "docs/User Guide/User Guide/Installation & Setup/Web Clipper.md",
+  "sourceRevision": "03d17b60f59b5efc29b880b11481471d0fe0ff57",
+  "units": [
+    {
+      "id": "u_bf28095afc9f16e32b63fa8d_0",
+      "kind": "title",
+      "source": "Web Clipper",
+      "sourceHash": "bf28095afc9f16e32b63fa8db03d486912c4ae0fc0a004f274e8889a0796f21f",
+      "context": "Web Clipper",
+      "contextHash": "b41d19b098546f2cc9e9ee541ea0c536fb3b5d7b2c68d3d7fee4791592039ef3",
+      "status": "translated",
+      "active": true,
+      "translation": "Web Clipper",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_0244e553e05e79151c7951af_0",
+      "kind": "p",
+      "source": "Trilium Web Clipper is a web browser extension which allows user to clip text, screenshots, whole pages and short notes and save them directly to Trilium Notes.",
+      "sourceHash": "0244e553e05e79151c7951af191ede10b7b2307f6b2d2533ed5bd73c8a486e8d",
+      "context": "Web Clipper",
+      "contextHash": "b41d19b098546f2cc9e9ee541ea0c536fb3b5d7b2c68d3d7fee4791592039ef3",
+      "status": "translated",
+      "active": true,
+      "translation": "Trilium Web Clipper は、ウェブ上のテキスト、スクリーンショット、ページ全体、短いノートをクリップして、Trilium Notes に直接保存できるようにするウェブブラウザ拡張機能です。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_1cc6b28e7f54a076c32e5d3d_0",
+      "kind": "h2",
+      "source": "Supported browsers__TRILIUM_PH_0__",
+      "sourceHash": "1cc6b28e7f54a076c32e5d3de5294c2e629982eb2362a584f36b69e059c106b4",
+      "context": "Web Clipper > Supported browsers",
+      "contextHash": "a5857955946e18591dcf6d7d2762bfe8aeb6498a86bb925afcd0ed80f66da0cc",
+      "status": "translated",
+      "active": true,
+      "translation": "対応ブラウザ__TRILIUM_PH_0__",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_a5c2f65c3b956e0a650f1d27_0",
+      "kind": "p",
+      "source": "Trilium Web Clipper officially supports the following web browsers:",
+      "sourceHash": "a5c2f65c3b956e0a650f1d27277bbe599132435caa379ceffbcd663049320ed3",
+      "context": "Web Clipper > Supported browsers",
+      "contextHash": "a5857955946e18591dcf6d7d2762bfe8aeb6498a86bb925afcd0ed80f66da0cc",
+      "status": "translated",
+      "active": true,
+      "translation": "Trilium Web Clipper は、公式に以下のウェブブラウザをサポートしています。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_168bea2b3a4a8dd3af2f370c_0",
+      "kind": "li",
+      "source": "Mozilla Firefox, using Manifest v2.",
+      "sourceHash": "168bea2b3a4a8dd3af2f370c4b5f4ca5dc1c52695b3daca2f34ba4b3944b19b3",
+      "context": "Web Clipper > Supported browsers",
+      "contextHash": "a5857955946e18591dcf6d7d2762bfe8aeb6498a86bb925afcd0ed80f66da0cc",
+      "status": "translated",
+      "active": true,
+      "translation": "Mozilla Firefox（Manifest v2 を使用）",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_b454b6d6fa0c0425f354a7cb_0",
+      "kind": "li",
+      "source": "Google Chrome, using Manifest v3. Theoretically the extension should work on other Chromium-based browsers as well, but they are not officially supported.",
+      "sourceHash": "b454b6d6fa0c0425f354a7cb23a19a5aad713dc5c600735cdc6e905b077e966e",
+      "context": "Web Clipper > Supported browsers",
+      "contextHash": "a5857955946e18591dcf6d7d2762bfe8aeb6498a86bb925afcd0ed80f66da0cc",
+      "status": "translated",
+      "active": true,
+      "translation": "Google Chrome（Manifest v3 を使用）。理論上、他の Chromium ベースのブラウザでも動作するはずですが、公式サポート外となります。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_4edbfc7e3a2958e92246eee8_0",
+      "kind": "h2",
+      "source": "Obtaining the extension__TRILIUM_PH_0__",
+      "sourceHash": "4edbfc7e3a2958e92246eee8505fe858a55990255407dfda018cf8845ae2cdeb",
+      "context": "Web Clipper > Obtaining the extension",
+      "contextHash": "8c92486d29b5f1c378c565184f2b47f593750d7d38012e8bbcea47bce3f639d9",
+      "status": "translated",
+      "active": true,
+      "translation": "拡張機能の入手方法__TRILIUM_PH_0__",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_21a4b0126d5803d71c8ee051_0",
+      "kind": "p",
+      "source": "The extension is available from the official browser web stores:",
+      "sourceHash": "21a4b0126d5803d71c8ee051a3ef4ea64acae71e1894cb999bbf52ffaba75124",
+      "context": "Web Clipper > Obtaining the extension",
+      "contextHash": "8c92486d29b5f1c378c565184f2b47f593750d7d38012e8bbcea47bce3f639d9",
+      "status": "translated",
+      "active": true,
+      "translation": "拡張機能は、公式のブラウザウェブストアから入手できます。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_b9f21ae734e2562b88ea879a_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__Firefox__TRILIUM_PH_1__: __TRILIUM_PH_2__Trilium Web Clipper on Firefox Add-ons__TRILIUM_PH_3__",
+      "sourceHash": "b9f21ae734e2562b88ea879ae0a7dc42c64832b7e76e24752c52528ff1e9fc51",
+      "context": "Web Clipper > Obtaining the extension",
+      "contextHash": "8c92486d29b5f1c378c565184f2b47f593750d7d38012e8bbcea47bce3f639d9",
+      "status": "translated",
+      "active": true,
+      "translation": "__TRILIUM_PH_0__Firefox__TRILIUM_PH_1__: __TRILIUM_PH_2__Firefox アドオンの Trilium Web Clipper__TRILIUM_PH_3__",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_62f1efbe92ceae7eb4962029_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__Chrome__TRILIUM_PH_1__: __TRILIUM_PH_2__Trilium Web Clipper on Chrome Web Store__TRILIUM_PH_3__",
+      "sourceHash": "62f1efbe92ceae7eb4962029777d36c928c6faa8b7ce1b7ee42fd249559401ef",
+      "context": "Web Clipper > Obtaining the extension",
+      "contextHash": "8c92486d29b5f1c378c565184f2b47f593750d7d38012e8bbcea47bce3f639d9",
+      "status": "translated",
+      "active": true,
+      "translation": "__TRILIUM_PH_0__Chrome__TRILIUM_PH_1__: __TRILIUM_PH_2__Chrome ウェブストアの Trilium Web Clipper__TRILIUM_PH_3__",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_3f0efa5fea726eda49c9d81c_0",
+      "kind": "h2",
+      "source": "Functionality__TRILIUM_PH_0__",
+      "sourceHash": "3f0efa5fea726eda49c9d81c1970821b210b3c9a897d0d6920fc3d329108842f",
+      "context": "Web Clipper > Functionality",
+      "contextHash": "cd41daaa18cc5435fabb95aa0d0be9600253a2f3541b27c4ec6441333b5de4be",
+      "status": "translated",
+      "active": true,
+      "translation": "機能__TRILIUM_PH_0__",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_4c9a0fb306cf9d818bba9395_0",
+      "kind": "li",
+      "source": "select text and clip it with the right-click context menu",
+      "sourceHash": "4c9a0fb306cf9d818bba93959e8dc7fd40e9bd5ccbbb41d2a5402a796817b9e3",
+      "context": "Web Clipper > Functionality",
+      "contextHash": "cd41daaa18cc5435fabb95aa0d0be9600253a2f3541b27c4ec6441333b5de4be",
+      "status": "translated",
+      "active": true,
+      "translation": "テキストを選択して、右クリックのコンテキストメニューからクリップする",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_c710e3bd42f487ca358b9fd2_0",
+      "kind": "li",
+      "source": "click on an image or link and save it through context menu",
+      "sourceHash": "c710e3bd42f487ca358b9fd26c8404644832a136172988b200929ac71b27e941",
+      "context": "Web Clipper > Functionality",
+      "contextHash": "cd41daaa18cc5435fabb95aa0d0be9600253a2f3541b27c4ec6441333b5de4be",
+      "status": "translated",
+      "active": true,
+      "translation": "画像やリンクをクリックし、コンテキストメニューから保存する",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_5fbbdf444828802d0c00f707_0",
+      "kind": "li",
+      "source": "save whole page from the popup or context menu",
+      "sourceHash": "5fbbdf444828802d0c00f7072eb3ddae11fb21fc7fa81c9a80e65d8a1f7e0842",
+      "context": "Web Clipper > Functionality",
+      "contextHash": "cd41daaa18cc5435fabb95aa0d0be9600253a2f3541b27c4ec6441333b5de4be",
+      "status": "translated",
+      "active": true,
+      "translation": "ポップアップまたはコンテキストメニューからページ全体を保存する",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_ed921bb905df2e3ef3792e08_0",
+      "kind": "li",
+      "source": "save a PDF that the browser shows, as a file note",
+      "sourceHash": "ed921bb905df2e3ef3792e08bf4e97aa29afd13fd2d527d1628e52da41dea177",
+      "context": "Web Clipper > Functionality",
+      "contextHash": "cd41daaa18cc5435fabb95aa0d0be9600253a2f3541b27c4ec6441333b5de4be",
+      "status": "translated",
+      "active": true,
+      "translation": "ブラウザに表示されている PDF をファイルノートとして保存する",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_3ee29617d64af3e90f3272b0_0",
+      "kind": "li",
+      "source": "save a screenshot of an area you select, of the visible part of the page or of the whole page, from either popup or context menu",
+      "sourceHash": "3ee29617d64af3e90f3272b050cb246c6c3c0ba972c58ef1cf7caf6f8d938cdd",
+      "context": "Web Clipper > Functionality",
+      "contextHash": "cd41daaa18cc5435fabb95aa0d0be9600253a2f3541b27c4ec6441333b5de4be",
+      "status": "translated",
+      "active": true,
+      "translation": "選択した領域、ページの見えている部分、またはページ全体のスクリーンショットを、ポップアップまたはコンテキストメニューから保存する",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_c226f35240fbe49c581ee065_0",
+      "kind": "li",
+      "source": "create short text note from popup",
+      "sourceHash": "c226f35240fbe49c581ee065f99a2d87078e9f30f15c1a9289d91bbce503633e",
+      "context": "Web Clipper > Functionality",
+      "contextHash": "cd41daaa18cc5435fabb95aa0d0be9600253a2f3541b27c4ec6441333b5de4be",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_8a68f35f5f7a7f00af559b29_0",
+      "kind": "h2",
+      "source": "The popup__TRILIUM_PH_0__",
+      "sourceHash": "8a68f35f5f7a7f00af559b29b649b5a3389cd1359bb2b0e90f97571cb2d16898",
+      "context": "Web Clipper > The popup",
+      "contextHash": "a1bda14103675b358455f1da5b02ae22f7f1dd1db37e5f047891d9206f33b24f",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_abcc8e0bdb4742d81320d85c_0",
+      "kind": "p",
+      "source": "Clicking the extension's button in the browser toolbar opens its popup:",
+      "sourceHash": "abcc8e0bdb4742d81320d85caf33fec293733b1b38c3ff75b239056ea3ea9428",
+      "context": "Web Clipper > The popup",
+      "contextHash": "a1bda14103675b358455f1da5b02ae22f7f1dd1db37e5f047891d9206f33b24f",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_b0aaf9cf54257526fa91f8af_0",
+      "kind": "p",
+      "source": "The popup shows what will be saved from the current page: the note's title, which can be edited before saving, the website, and below them a preview, which starts with a box for your own note and the page's description. A switch above the preview chooses what to save, among what the page offers:",
+      "sourceHash": "b0aaf9cf54257526fa91f8afeaec74e128d3cfe01e8a13d1e765d3340e79437f",
+      "context": "Web Clipper > The popup",
+      "contextHash": "a1bda14103675b358455f1da5b02ae22f7f1dd1db37e5f047891d9206f33b24f",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_2ccc1cd24b6904aaf3b0aca0_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__Selection__TRILIUM_PH_1__, when text is selected on the page: __TRILIUM_PH_2__Save selection__TRILIUM_PH_3__ saves it into the note of that page's clippings, as the context menu does.",
+      "sourceHash": "2ccc1cd24b6904aaf3b0aca00c00aa8f7b7171bb13c5229b3a194048838015b1",
+      "context": "Web Clipper > The popup",
+      "contextHash": "a1bda14103675b358455f1da5b02ae22f7f1dd1db37e5f047891d9206f33b24f",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_1eda131d50bf0484c37b106c_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__Page__TRILIUM_PH_1__: __TRILIUM_PH_2__Save page to Trilium__TRILIUM_PH_3__ saves the page's text and images. A smaller switch at the top of the preview chooses how much of the page to keep: __TRILIUM_PH_4__Article__TRILIUM_PH_5__ keeps only the page's main text, without its menus, sidebars and footers, and __TRILIUM_PH_6__Whole page__TRILIUM_PH_7__ keeps everything the page shows. __TRILIUM_PH_8__Whole page__TRILIUM_PH_9__ is for pages that are not an article (such as a gallery or a page of cards), where __TRILIUM_PH_10__Article__TRILIUM_PH_11__ can leave out part of the content; the preview shows what each one keeps. __TRILIUM_PH_12__Article__TRILIUM_PH_13__ is unavailable on a page where Trilium finds no article. The author the page names shows under the description, marked by the __TRILIUM_PH_14__ icon. It can be edited or cleared before saving, or written in when the page names none, and is saved in the __TRILIUM_PH_15__ label of the note. When the page states when it was published, that date shows under the author, marked by the __TRILIUM_PH_16__ icon, and is saved in the __TRILIUM_PH_17__ label of the note. When it states when it was last modified, that date shows below, marked by the __TRILIUM_PH_18__ icon, and is saved in the __TRILIUM_PH_19__ label.",
+      "sourceHash": "1eda131d50bf0484c37b106c4867bee686e8d8a21bacc86b450a091821c9749f",
+      "context": "Web Clipper > The popup",
+      "contextHash": "a1bda14103675b358455f1da5b02ae22f7f1dd1db37e5f047891d9206f33b24f",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_f93a160fb55661d895e5be80_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__PDF__TRILIUM_PH_1__, when the tab shows a PDF in the browser's viewer: __TRILIUM_PH_2__Save PDF to Trilium__TRILIUM_PH_3__ downloads the PDF and saves it as a file note, which Trilium opens in its __TRILIUM_PH_4__PDFs__TRILIUM_PH_5__ viewer. Only the title and the description can be edited, since a file note has no text of its own for your note. The page's address is saved in the note's __TRILIUM_PH_6__ label and the PDF's file name in __TRILIUM_PH_7__. Saving a PDF needs Trilium v0.107.0 or later.",
+      "sourceHash": "f93a160fb55661d895e5be808e349da51c379a081eabd8c0dc0c91ea8907cbaa",
+      "context": "Web Clipper > The popup",
+      "contextHash": "a1bda14103675b358455f1da5b02ae22f7f1dd1db37e5f047891d9206f33b24f",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_589542739247ef0a7b64ffd4_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__Bookmark__TRILIUM_PH_1__, always: there is no preview, and __TRILIUM_PH_2__Save bookmark__TRILIUM_PH_3__ saves a link to the page with your note as the content of the note. Left empty, the title stays the page's title.",
+      "sourceHash": "589542739247ef0a7b64ffd4b162db8bc161b6374d4c6f7c97ab0291cad9a9a1",
+      "context": "Web Clipper > The popup",
+      "contextHash": "a1bda14103675b358455f1da5b02ae22f7f1dd1db37e5f047891d9206f33b24f",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_b7733fdb5a6e433d4f99e781_0",
+      "kind": "p",
+      "source": "The box for your note, marked by the __TRILIUM_PH_0__ icon, has the cursor when the popup opens, so a note (such as why the page is worth keeping) can be typed right away. It grows with its text, and keeps it when switching between __TRILIUM_PH_1__Selection__TRILIUM_PH_2__, __TRILIUM_PH_3__Page__TRILIUM_PH_4__ and __TRILIUM_PH_5__Bookmark__TRILIUM_PH_6__. A note on a selection or a page is saved above the clipped content, in a __TRILIUM_PH_7__Note__TRILIUM_PH_8__ admonition. Left empty, nothing is added. __TRILIUM_PH_9__Ctrl__TRILIUM_PH_10__+__TRILIUM_PH_11__Enter__TRILIUM_PH_12__ in any of the popup's fields saves, whichever is chosen.",
+      "sourceHash": "b7733fdb5a6e433d4f99e781dd68eb5f52e44879311c8dbe1ca39afd1c6f93a6",
+      "context": "Web Clipper > The popup",
+      "contextHash": "a1bda14103675b358455f1da5b02ae22f7f1dd1db37e5f047891d9206f33b24f",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_eeeefa76dab0d714d56b1b70_0",
+      "kind": "p",
+      "source": "The description, marked by the __TRILIUM_PH_0__ icon, comes from the page's __TRILIUM_PH_1__ meta tag, or the one it gives social sites. It can be edited or cleared before saving, or written in when the page has none, and is saved in the __TRILIUM_PH_2__ label of the note. Clippings saved with the keyboard shortcuts or the context menu, screenshots and images included, get the description as the page gives it. Each clipping that brings a description updates the label. The description, the author and the dates are shown by clicking the __TRILIUM_PH_3__Web clip__TRILIUM_PH_4__ badge next to the title of the note (see __TRILIUM_PH_5__Note badges__TRILIUM_PH_6__).",
+      "sourceHash": "eeeefa76dab0d714d56b1b7054e8613847236eeb2f2b5be3dd1d9d392706c392",
+      "context": "Web Clipper > The popup",
+      "contextHash": "a1bda14103675b358455f1da5b02ae22f7f1dd1db37e5f047891d9206f33b24f",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_1bf0dbdf1c917f75e5af5743_0",
+      "kind": "p",
+      "source": "The popup opens on the selection if there is one, otherwise on __TRILIUM_PH_0__Page__TRILIUM_PH_1__, showing the article, or the whole page when the page has no article. On a PDF, it opens on __TRILIUM_PH_2__PDF__TRILIUM_PH_3__. On a page that shows nothing to save, it opens on __TRILIUM_PH_4__Bookmark__TRILIUM_PH_5__ and says so. The keyboard shortcuts and the context menu still save right away, without a preview: saving the whole page that way saves the article, the whole page when the page has no article, or the PDF when the tab shows one.",
+      "sourceHash": "1bf0dbdf1c917f75e5af5743b1ebd517365d9e0137ec000a37d46347fd5bec30",
+      "context": "Web Clipper > The popup",
+      "contextHash": "a1bda14103675b358455f1da5b02ae22f7f1dd1db37e5f047891d9206f33b24f",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_86353fff7bd937b6d611a68f_0",
+      "kind": "p",
+      "source": "Pages the extension cannot access (the browser's own pages, the extension stores, and pages that were open before the extension was installed until they are reloaded) cannot be saved or captured, so the popup says so in place of the preview, and only __TRILIUM_PH_0__All tabs__TRILIUM_PH_1__ remains available there.",
+      "sourceHash": "86353fff7bd937b6d611a68f0cf2841350625df36543fec9382180b759bb0dff",
+      "context": "Web Clipper > The popup",
+      "contextHash": "a1bda14103675b358455f1da5b02ae22f7f1dd1db37e5f047891d9206f33b24f",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_68e204c841a8f865ced53974_0",
+      "kind": "p",
+      "source": "Below the preview, a row of buttons offers the other actions: __TRILIUM_PH_0__Area__TRILIUM_PH_1__ (a screenshot of an area you select), __TRILIUM_PH_2__Visible__TRILIUM_PH_3__ (a screenshot of the visible part of the page), __TRILIUM_PH_4__Full page__TRILIUM_PH_5__ (a screenshot of the whole page) and __TRILIUM_PH_6__All tabs__TRILIUM_PH_7__ (saves the links of every tab in the current window as a list of __TRILIUM_PH_8__Link Previews__TRILIUM_PH_9__, or of text links when __TRILIUM_PH_10__Autogenerate link previews__TRILIUM_PH_11__ is turned off). Hovering over a button shows its full name and, if it has one, its keyboard shortcut.",
+      "sourceHash": "68e204c841a8f865ced53974a511f05db705f8ed6b765de94cf0e09fb661e56e",
+      "context": "Web Clipper > The popup",
+      "contextHash": "a1bda14103675b358455f1da5b02ae22f7f1dd1db37e5f047891d9206f33b24f",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_099659c9ea28925f209599fe_0",
+      "kind": "p",
+      "source": "__TRILIUM_PH_0__Full page__TRILIUM_PH_1__ scrolls through the page, takes a screenshot of each part and joins them into one image, then scrolls back to where the page was. The scrollbars are hidden while it does, so they do not appear in the image. Stay on the tab until it is saved: switching to another tab stops the screenshot. A header that stays at the top of the window appears once, at the top of the image, and headings that stick while scrolling appear where they are in the page. Other elements that stay in place while scrolling (such as cookie banners and chat buttons) are left out, while a background that fills the whole window repeats on every screen. In Firefox, the page is captured without scrolling through it, which is faster: such a background then appears only at the top, and images that the page loads only once they are scrolled into view can be missing. A long page is saved as several images, one below the other in the note. A page longer than 100 screens is cut off there, and the message after saving says so. Screenshots keep their full height in Trilium: __TRILIUM_PH_2__Resize image__TRILIUM_PH_3__ (under __TRILIUM_PH_4__Automatically compress images__TRILIUM_PH_5__ in Options → Media) limits only their width.",
+      "sourceHash": "099659c9ea28925f209599feff9e689015d4e6a0c45148fdfe54b0988c624914",
+      "context": "Web Clipper > The popup",
+      "contextHash": "a1bda14103675b358455f1da5b02ae22f7f1dd1db37e5f047891d9206f33b24f",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_c0366e4a111e502053e3bcdf_0",
+      "kind": "p",
+      "source": "The popup stays open while Trilium saves, which can take a few seconds for a long page or a large PDF, and the other actions wait until it is done. The bar at the top of the popup then says, in green, that the clipping was saved (in place of the notice that the page was already clipped), with __TRILIUM_PH_0__Open note__TRILIUM_PH_1__ to open it in Trilium (and, after __TRILIUM_PH_2__All tabs__TRILIUM_PH_3__, __TRILIUM_PH_4__Close saved tabs__TRILIUM_PH_5__), or, in red, why it could not be saved. The same clipping cannot be saved twice by accident: the save button stays disabled until another mode is chosen. __TRILIUM_PH_6__Crop__TRILIUM_PH_7__ is the exception: the popup closes so that an area of the page can be selected, and the notification on the page reports the outcome.",
+      "sourceHash": "c0366e4a111e502053e3bcdf023037377fdf73a835774f9ffd2c60164844b7d6",
+      "context": "Web Clipper > The popup",
+      "contextHash": "a1bda14103675b358455f1da5b02ae22f7f1dd1db37e5f047891d9206f33b24f",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_74f7502a31de28c26cb1f989_0",
+      "kind": "p",
+      "source": "If the current page was already clipped, a notice at the top offers to open the note in Trilium.",
+      "sourceHash": "74f7502a31de28c26cb1f989efdff44976369c84374cabe414763b08d4c09757",
+      "context": "Web Clipper > The popup",
+      "contextHash": "a1bda14103675b358455f1da5b02ae22f7f1dd1db37e5f047891d9206f33b24f",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_3987e89544f5cd11e88466d0_0",
+      "kind": "p",
+      "source": "If Trilium cannot be found, the popup explains why instead of showing the actions, with buttons to look for Trilium again and to open the options.",
+      "sourceHash": "3987e89544f5cd11e88466d0466a485874db203e35bb98fc46ee503a9a464944",
+      "context": "Web Clipper > The popup",
+      "contextHash": "a1bda14103675b358455f1da5b02ae22f7f1dd1db37e5f047891d9206f33b24f",
+      "status": "translated",
+      "active": true,
+      "translation": "Triliumが見つからない場合、ポップアップにはアクションが表示される代わりにその理由が説明され、Triliumを再検索するボタンとオプションを開くボタンが表示されます。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_0d65b69f282505478a064b2b_0",
+      "kind": "p",
+      "source": "The bottom of the popup shows whether the extension is connected to Trilium, as a colored dot (green when connected, amber when the versions are not compatible, red when Trilium was not found) next to a description of the connection, followed by the buttons for the extension's options and for this help page. A button to check the connection again appears next to them when hovering over the bar, and stays visible while Trilium cannot be reached or is not compatible.",
+      "sourceHash": "0d65b69f282505478a064b2bcef2bf2b35ec115fa8bc58e8a5f9f82b5e192935",
+      "context": "Web Clipper > The popup",
+      "contextHash": "a1bda14103675b358455f1da5b02ae22f7f1dd1db37e5f047891d9206f33b24f",
+      "status": "translated",
+      "active": true,
+      "translation": "ポップアップの下部には、拡張機能がTriliumに接続されているかどうかが、接続状況の説明の横にある色付きのドット（接続時は緑色、互換性のないバージョンの場合は黄色、Triliumが見つからない場合は赤色）で表示され、その後に拡張機能のオプションとこのヘルプページへのボタンが続きます。バーにマウスを合わせると、接続を再確認するためのボタンが横に表示され、Triliumに接続できないか互換性がない間は表示されたままになります。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_526cf29b713358c730748a6a_0",
+      "kind": "h2",
+      "source": "Location of clippings__TRILIUM_PH_0__",
+      "sourceHash": "526cf29b713358c730748a6a44fdb617aff7da821973207cb366ac16da9c27c3",
+      "context": "Web Clipper > Location of clippings",
+      "contextHash": "fe27a987e9b48efbf24788c13397ecf3cfed0574cb1721aff86f777de9fa263d",
+      "status": "translated",
+      "active": true,
+      "translation": "クリップの保存場所__TRILIUM_PH_0__",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_71389d476c2543a86e239379_0",
+      "kind": "p",
+      "source": "Trilium will save these clippings as a new child note under a \"clipper inbox\" note.",
+      "sourceHash": "71389d476c2543a86e23937901e6b30927a8cd9f095a74486e28a031c92b82ea",
+      "context": "Web Clipper > Location of clippings",
+      "contextHash": "fe27a987e9b48efbf24788c13397ecf3cfed0574cb1721aff86f777de9fa263d",
+      "status": "translated",
+      "active": true,
+      "translation": "Triliumは、これらのクリップを「clipper inbox」ノートの下に新しい子ノートとして保存します。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_822e18c3360f7ae9e4deddcd_0",
+      "kind": "p",
+      "source": "By default, that's the __TRILIUM_PH_0__Day Notes__TRILIUM_PH_1__ but you can override that by setting the __TRILIUM_PH_2__label__TRILIUM_PH_3__ __TRILIUM_PH_4__, on any other note.",
+      "sourceHash": "822e18c3360f7ae9e4deddcdff23438b84b714441030e2d5ef5bb6a3c0cbb2c1",
+      "context": "Web Clipper > Location of clippings",
+      "contextHash": "fe27a987e9b48efbf24788c13397ecf3cfed0574cb1721aff86f777de9fa263d",
+      "status": "translated",
+      "active": true,
+      "translation": "デフォルトでは__TRILIUM_PH_0__Day Notes__TRILIUM_PH_1__ですが、他の任意のノートに__TRILIUM_PH_2__ラベル__TRILIUM_PH_3__ __TRILIUM_PH_4__を設定することで上書きできます。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_c5518a634cca377208c1bcb4_0",
+      "kind": "p",
+      "source": "Further clippings of the same kind from the same page are added to the note created by the first one, even on a later day or after that note was moved out of the clipper inbox. The note stays where it is and is not cloned back into the inbox. A PDF is the exception: each save creates a new file note, since the PDF can have changed since it was last saved.",
+      "sourceHash": "c5518a634cca377208c1bcb46fffde0b7134c2dade02ed7c9ff5d38a31c851a7",
+      "context": "Web Clipper > Location of clippings",
+      "contextHash": "fe27a987e9b48efbf24788c13397ecf3cfed0574cb1721aff86f777de9fa263d",
+      "status": "translated",
+      "active": true,
+      "translation": "同じページからの同じ種類のさらなるクリップは、日数が後になってからや、そのノートがclipper inboxから移動された後であっても、最初のクリップによって作成されたノートに追加されます。ノートはその場所に留まり、インボックスに再度クローンされることはありません。PDFは例外です。PDFは前回保存されてから変更されている可能性があるため、保存するたびに新しいファイルノートが作成されます。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_19d5addbcd5f9a9083d3d118_0",
+      "kind": "p",
+      "source": "The icon of a clipped note shows what was saved:",
+      "sourceHash": "19d5addbcd5f9a9083d3d118605c14326019bb2f5cc0c22f59ad9b4b678928c2",
+      "context": "Web Clipper > Location of clippings",
+      "contextHash": "fe27a987e9b48efbf24788c13397ecf3cfed0574cb1721aff86f777de9fa263d",
+      "status": "translated",
+      "active": true,
+      "translation": "クリップされたノートのアイコンには、保存された内容が表示されます：",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_e7443ea2ab6bf9a59205d850_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__ a selection, a screenshot or a link from the context menu;",
+      "sourceHash": "e7443ea2ab6bf9a59205d8501b5acd774cde5f74ebbd85299ae58a5663ef55b5",
+      "context": "Web Clipper > Location of clippings",
+      "contextHash": "fe27a987e9b48efbf24788c13397ecf3cfed0574cb1721aff86f777de9fa263d",
+      "status": "translated",
+      "active": true,
+      "translation": "__TRILIUM_PH_0__ コンテキストメニューからの選択範囲、スクリーンショット、またはリンク；",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_1acecf18049782310e4dd076_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__ a page (__TRILIUM_PH_1__Article__TRILIUM_PH_2__ or __TRILIUM_PH_3__Whole page__TRILIUM_PH_4__);",
+      "sourceHash": "1acecf18049782310e4dd07656bddbd69e72fbe30dd6f352c3aa94d664426a8a",
+      "context": "Web Clipper > Location of clippings",
+      "contextHash": "fe27a987e9b48efbf24788c13397ecf3cfed0574cb1721aff86f777de9fa263d",
+      "status": "translated",
+      "active": true,
+      "translation": "__TRILIUM_PH_0__ ページ（__TRILIUM_PH_1__Article__TRILIUM_PH_2__ または __TRILIUM_PH_3__Whole page__TRILIUM_PH_4__）；",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_fc24e5642842f6e639a9b637_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__ a bookmark;",
+      "sourceHash": "fc24e5642842f6e639a9b637b19f6fd9057b7d82cb517be4927f870a3862f504",
+      "context": "Web Clipper > Location of clippings",
+      "contextHash": "fe27a987e9b48efbf24788c13397ecf3cfed0574cb1721aff86f777de9fa263d",
+      "status": "translated",
+      "active": true,
+      "translation": "__TRILIUM_PH_0__ ブックマーク；",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_0d1a1f039a6be43edda7fdb6_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__ the tabs of a window.",
+      "sourceHash": "0d1a1f039a6be43edda7fdb6266abfc180f74aa8151fb4c3d57634bcf74ca292",
+      "context": "Web Clipper > Location of clippings",
+      "contextHash": "fe27a987e9b48efbf24788c13397ecf3cfed0574cb1721aff86f777de9fa263d",
+      "status": "translated",
+      "active": true,
+      "translation": "__TRILIUM_PH_0__ ウィンドウのタブ。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_79bd8be87ccd14fff92d8968_0",
+      "kind": "p",
+      "source": "The icon is derived from the note's __TRILIUM_PH_0__ label, so setting an __TRILIUM_PH_1__ label on the note replaces it. A saved PDF has the icon of a PDF file, like any other PDF in Trilium.",
+      "sourceHash": "79bd8be87ccd14fff92d89689e46c022bfc3446ede5884c988588d43337879f5",
+      "context": "Web Clipper > Location of clippings",
+      "contextHash": "fe27a987e9b48efbf24788c13397ecf3cfed0574cb1721aff86f777de9fa263d",
+      "status": "translated",
+      "active": true,
+      "translation": "アイコンはノートの__TRILIUM_PH_0__ラベルから取得されるため、ノートに__TRILIUM_PH_1__ラベルを設定すると置き換わります。保存されたPDFには、Trilium内の他のPDFと同様に、PDFファイルのアイコンが付きます。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_40e948d8fad8ace2932c5aa1_0",
+      "kind": "h2",
+      "source": "Embedded videos__TRILIUM_PH_0__",
+      "sourceHash": "40e948d8fad8ace2932c5aa16f5fbf98daeebc83677c83bba8416fd7b3c88587",
+      "context": "Web Clipper > Embedded videos",
+      "contextHash": "fe5623b66d7d5768a0cf037a482b1b7f7715c538552c7b8e26453a1fe906936b",
+      "status": "translated",
+      "active": true,
+      "translation": "埋め込み動画__TRILIUM_PH_0__",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_967b981e368bfc21ed20598d_0",
+      "kind": "p",
+      "source": "A YouTube video embedded in a clipped page is saved as a __TRILIUM_PH_0__Link Previews__TRILIUM_PH_1__ embed, with the video's title and thumbnail. As with a link preview added in the editor, the video plays only when clicked. Other embedded content (such as videos from other websites) is not saved.",
+      "sourceHash": "967b981e368bfc21ed20598d808bdde9648511ef833bc4d83c8a5b97d646dc3c",
+      "context": "Web Clipper > Embedded videos",
+      "contextHash": "fe5623b66d7d5768a0cf037a482b1b7f7715c538552c7b8e26453a1fe906936b",
+      "status": "translated",
+      "active": true,
+      "translation": "クリップされたページに埋め込まれたYouTube動画は、動画のタイトルとサムネイルを持つ__TRILIUM_PH_0__Link Previews__TRILIUM_PH_1__埋め込みとして保存されます。エディターに追加されたリンクプレビューと同様に、動画はクリックしたときのみ再生されます。その他の埋め込みコンテンツ（他のウェブサイトの動画など）は保存されません。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_3ff024ca0e3f1cc8280d8855_0",
+      "kind": "p",
+      "source": "The popup's preview shows each such video as a chip with the YouTube icon and the video's short link, and leaves out the embedded content that will not be saved.",
+      "sourceHash": "3ff024ca0e3f1cc8280d88552b8714bca0c6bb20d8cef962ec7e0d35c3fef38f",
+      "context": "Web Clipper > Embedded videos",
+      "contextHash": "fe5623b66d7d5768a0cf037a482b1b7f7715c538552c7b8e26453a1fe906936b",
+      "status": "translated",
+      "active": true,
+      "translation": "ポップアップのプレビューには、このような各動画がYouTubeアイコンと動画のショートリンクを持つチップとして表示され、保存されない埋め込みコンテンツは除外されます。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_56b405fc55043d2d26adf683_0",
+      "kind": "h2",
+      "source": "Keyboard shortcuts__TRILIUM_PH_0__",
+      "sourceHash": "56b405fc55043d2d26adf6830801a890c02acf98dbe747514f92a58585c97ebf",
+      "context": "Web Clipper > Keyboard shortcuts",
+      "contextHash": "289bb14510d0ce2f644107b5b2ffccad0e96256e49f3dfb3e54039547a8f2cf4",
+      "status": "translated",
+      "active": true,
+      "translation": "キーボードショートカット__TRILIUM_PH_0__",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_7023a1a08a000da51369c77b_0",
+      "kind": "p",
+      "source": "Keyboard shortcuts are available for most functions:",
+      "sourceHash": "7023a1a08a000da51369c77bc0bbbe21dc8f520ef8adee51f02b80df8a34dcd9",
+      "context": "Web Clipper > Keyboard shortcuts",
+      "contextHash": "289bb14510d0ce2f644107b5b2ffccad0e96256e49f3dfb3e54039547a8f2cf4",
+      "status": "translated",
+      "active": true,
+      "translation": "ほとんどの機能でキーボードショートカットを利用できます：",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_0559aa695570955cbbf125b7_0",
+      "kind": "li",
+      "source": "Save selected text: __TRILIUM_PH_0__Ctrl__TRILIUM_PH_1__+__TRILIUM_PH_2__Shift__TRILIUM_PH_3__+__TRILIUM_PH_4__S__TRILIUM_PH_5__ (Mac: __TRILIUM_PH_6__⌘__TRILIUM_PH_7__+__TRILIUM_PH_8__⇧__TRILIUM_PH_9__+__TRILIUM_PH_10__S__TRILIUM_PH_11__)",
+      "sourceHash": "0559aa695570955cbbf125b7775459aab329e370091d10b47db742163a427af8",
+      "context": "Web Clipper > Keyboard shortcuts",
+      "contextHash": "289bb14510d0ce2f644107b5b2ffccad0e96256e49f3dfb3e54039547a8f2cf4",
+      "status": "translated",
+      "active": true,
+      "translation": "選択したテキストを保存：__TRILIUM_PH_0__Ctrl__TRILIUM_PH_1__+__TRILIUM_PH_2__Shift__TRILIUM_PH_3__+__TRILIUM_PH_4__S__TRILIUM_PH_5__ （Mac：__TRILIUM_PH_6__⌘__TRILIUM_PH_7__+__TRILIUM_PH_8__⇧__TRILIUM_PH_9__+__TRILIUM_PH_10__S__TRILIUM_PH_11__）",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_46d06cb701b325afe1a9e2b7_0",
+      "kind": "li",
+      "source": "Save whole page: __TRILIUM_PH_0__Alt__TRILIUM_PH_1__+__TRILIUM_PH_2__Shift__TRILIUM_PH_3__+__TRILIUM_PH_4__S__TRILIUM_PH_5__ (Mac: __TRILIUM_PH_6__⌥__TRILIUM_PH_7__+__TRILIUM_PH_8__⇧__TRILIUM_PH_9__+__TRILIUM_PH_10__S__TRILIUM_PH_11__)",
+      "sourceHash": "46d06cb701b325afe1a9e2b7928424752275002593de60d1ba14b78d87c55aab",
+      "context": "Web Clipper > Keyboard shortcuts",
+      "contextHash": "289bb14510d0ce2f644107b5b2ffccad0e96256e49f3dfb3e54039547a8f2cf4",
+      "status": "translated",
+      "active": true,
+      "translation": "ページ全体を保存：__TRILIUM_PH_0__Alt__TRILIUM_PH_1__+__TRILIUM_PH_2__Shift__TRILIUM_PH_3__+__TRILIUM_PH_4__S__TRILIUM_PH_5__ （Mac：__TRILIUM_PH_6__⌥__TRILIUM_PH_7__+__TRILIUM_PH_8__⇧__TRILIUM_PH_9__+__TRILIUM_PH_10__S__TRILIUM_PH_11__）",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_0115e5d270d56e40d3ae2afb_0",
+      "kind": "li",
+      "source": "Save a screenshot of an area: __TRILIUM_PH_0__Ctrl__TRILIUM_PH_1__+__TRILIUM_PH_2__Shift__TRILIUM_PH_3__+__TRILIUM_PH_4__E__TRILIUM_PH_5__ (Mac: __TRILIUM_PH_6__⌘__TRILIUM_PH_7__+__TRILIUM_PH_8__⇧__TRILIUM_PH_9__+__TRILIUM_PH_10__E__TRILIUM_PH_11__)",
+      "sourceHash": "0115e5d270d56e40d3ae2afb8f638c4182803faeb1fb15e6f21505e0fdafb74b",
+      "context": "Web Clipper > Keyboard shortcuts",
+      "contextHash": "289bb14510d0ce2f644107b5b2ffccad0e96256e49f3dfb3e54039547a8f2cf4",
+      "status": "translated",
+      "active": true,
+      "translation": "領域のスクリーンショットを保存：__TRILIUM_PH_0__Ctrl__TRILIUM_PH_1__+__TRILIUM_PH_2__Shift__TRILIUM_PH_3__+__TRILIUM_PH_4__E__TRILIUM_PH_5__ （Mac：__TRILIUM_PH_6__⌘__TRILIUM_PH_7__+__TRILIUM_PH_8__⇧__TRILIUM_PH_9__+__TRILIUM_PH_10__E__TRILIUM_PH_11__）",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_1d5f30724b8e3f2cb3e07555_0",
+      "kind": "li",
+      "source": "Save all tabs of the current window: no default shortcut, but one can be assigned as described below.",
+      "sourceHash": "1d5f30724b8e3f2cb3e075550c5c2289f3b060ac107ac041f3edfc3efc54312d",
+      "context": "Web Clipper > Keyboard shortcuts",
+      "contextHash": "289bb14510d0ce2f644107b5b2ffccad0e96256e49f3dfb3e54039547a8f2cf4",
+      "status": "translated",
+      "active": true,
+      "translation": "現在のウィンドウのすべてのタブを保存：デフォルトのショートカットはありませんが、下記のように割り当てることができます。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_b545e2bc3d63f259c5caf403_0",
+      "kind": "li",
+      "source": "Save a screenshot of the whole page: no default shortcut, but one can be assigned as described below.",
+      "sourceHash": "b545e2bc3d63f259c5caf40333c11a817a0d086d929ccb32697f6c6b534d774c",
+      "context": "Web Clipper > Keyboard shortcuts",
+      "contextHash": "289bb14510d0ce2f644107b5b2ffccad0e96256e49f3dfb3e54039547a8f2cf4",
+      "status": "translated",
+      "active": true,
+      "translation": "ページ全体のスクリーンショットを保存：デフォルトのショートカットはありませんが、下記のように割り当てることができます。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_4934cfc334a5f9b2943b9470_0",
+      "kind": "p",
+      "source": "To set custom shortcuts, follow the directions for your browser.",
+      "sourceHash": "4934cfc334a5f9b2943b9470d189a4a07907b38b806001959c824bf2a4a554b2",
+      "context": "Web Clipper > Keyboard shortcuts",
+      "contextHash": "289bb14510d0ce2f644107b5b2ffccad0e96256e49f3dfb3e54039547a8f2cf4",
+      "status": "translated",
+      "active": true,
+      "translation": "カスタムショートカットを設定するには、お使いのブラウザの手順に従ってください。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_eded9a1315553bb723b075c8_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__Firefox__TRILIUM_PH_1__: __TRILIUM_PH_2__ → Gear icon ⚙️ → Manage extension shortcuts",
+      "sourceHash": "eded9a1315553bb723b075c82cdfe2125fd75c2f5d3042b3431095c99f3e747c",
+      "context": "Web Clipper > Keyboard shortcuts",
+      "contextHash": "289bb14510d0ce2f644107b5b2ffccad0e96256e49f3dfb3e54039547a8f2cf4",
+      "status": "translated",
+      "active": true,
+      "translation": "__TRILIUM_PH_0__Firefox__TRILIUM_PH_1__：__TRILIUM_PH_2__ → 歯車アイコン ⚙️ → 拡張機能のショートカットを管理",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_30d49592c7506f2535955762_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__Chrome__TRILIUM_PH_1__: __TRILIUM_PH_2__",
+      "sourceHash": "30d49592c7506f25359557622e6a6496457bc0e9029e4953b0188daef3491bdc",
+      "context": "Web Clipper > Keyboard shortcuts",
+      "contextHash": "289bb14510d0ce2f644107b5b2ffccad0e96256e49f3dfb3e54039547a8f2cf4",
+      "status": "translated",
+      "active": true,
+      "translation": "__TRILIUM_PH_0__Chrome__TRILIUM_PH_1__：__TRILIUM_PH_2__",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_995bf402d3752832c495de4b_0",
+      "kind": "p",
+      "source": "On Firefox, the default shortcuts interfere with some browser features. As such, the keyboard combinations will not trigger the Web Clipper action. To fix this, simply change the keyboard shortcut to something that works. The defaults will be adjusted in future versions.",
+      "sourceHash": "995bf402d3752832c495de4bac484bfa4c1941e6a7a652f8dbf3b08c9e9bd71a",
+      "context": "Web Clipper > Keyboard shortcuts",
+      "contextHash": "289bb14510d0ce2f644107b5b2ffccad0e96256e49f3dfb3e54039547a8f2cf4",
+      "status": "translated",
+      "active": true,
+      "translation": "Firefoxでは、デフォルトのショートカットが一部のブラウザ機能と干渉します。そのため、キーボードの組み合わせでWeb Clipperのアクションがトリガーされません。これを修正するには、機能する別のキーボードショートカットに変更してください。デフォルト値は将来のバージョンで調整される予定です。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_91e318d9b9bed0d1467013a3_0",
+      "kind": "h2",
+      "source": "Configuration__TRILIUM_PH_0__",
+      "sourceHash": "91e318d9b9bed0d1467013a3e6d72d61f50dc1076d2d68cc43d0cdd7e4947ffe",
+      "context": "Web Clipper > Configuration",
+      "contextHash": "b3be55e5c498d4581d615fea00dd7ee10452ff284cc22aa1df6675ac909e5cb9",
+      "status": "translated",
+      "active": true,
+      "translation": "設定__TRILIUM_PH_0__",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_1e59267b91ebce642918701b_0",
+      "kind": "p",
+      "source": "The extension needs to connect to a running Trilium instance. By default, it looks for the desktop application on port 37840 of the local computer. If the desktop application runs on a different port (for example because it was started with the __TRILIUM_PH_0__ environment variable), enter that port in the extension's options. The extension checks for Trilium again every minute, or right away when pressing the refresh button at the bottom of its popup.",
+      "sourceHash": "1e59267b91ebce642918701b5d2adeb894b35e300ee5900ef4e3e38319dde006",
+      "context": "Web Clipper > Configuration",
+      "contextHash": "b3be55e5c498d4581d615fea00dd7ee10452ff284cc22aa1df6675ac909e5cb9",
+      "status": "translated",
+      "active": true,
+      "translation": "拡張機能は、実行中のTriliumインスタンスに接続する必要があります。デフォルトでは、ローカルコンピュータのポート37840でデスクトップアプリケーションを探します。（__TRILIUM_PH_0__環境変数を使用して起動された場合などにより）デスクトップアプリケーションが別のポートで実行されている場合は、拡張機能のオプションにそのポートを入力してください。拡張機能は、Triliumへの接続を1分ごとに再度確認するか、ポップアップの下部にある更新ボタンを押すとすぐに確認します。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_e7b941c9aaad9eed9828d319_0",
+      "kind": "p",
+      "source": "It's also possible to configure the __TRILIUM_PH_0__server__TRILIUM_PH_1__ address if you don't run the desktop application, or want it to work without the desktop application running.",
+      "sourceHash": "e7b941c9aaad9eed9828d31969de473644442e2bb3fbc51042e99e77d6f9ab2b",
+      "context": "Web Clipper > Configuration",
+      "contextHash": "b3be55e5c498d4581d615fea00dd7ee10452ff284cc22aa1df6675ac909e5cb9",
+      "status": "translated",
+      "active": true,
+      "translation": "デスクトップアプリケーションを実行していない場合や、デスクトップアプリケーションを実行せずに動作させたい場合は、__TRILIUM_PH_0__サーバー__TRILIUM_PH_1__のアドレスを設定することも可能です。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_b5581f3a5897b5c4fd1e7f56_0",
+      "kind": "p",
+      "source": "To connect to a server, enter its address and your password in the extension's options and press __TRILIUM_PH_0__Login to the server instance__TRILIUM_PH_1__. If the server uses __TRILIUM_PH_2__multi-factor authentication__TRILIUM_PH_3__, also fill in __TRILIUM_PH_4__Authentication code__TRILIUM_PH_5__ with the current code from your authenticator app (or one of your recovery codes); otherwise leave it empty. The password and the code are used only once, to obtain a token for the extension, and are not stored.",
+      "sourceHash": "b5581f3a5897b5c4fd1e7f5611688fda4cacbdd5104df828a3736faabdbd564a",
+      "context": "Web Clipper > Configuration",
+      "contextHash": "b3be55e5c498d4581d615fea00dd7ee10452ff284cc22aa1df6675ac909e5cb9",
+      "status": "translated",
+      "active": true,
+      "translation": "サーバーに接続するには、拡張機能のオプションにサーバーのアドレスとパスワードを入力し、__TRILIUM_PH_0__Login to the server instance__TRILIUM_PH_1__を押します。サーバーで__TRILIUM_PH_2__多要素認証__TRILIUM_PH_3__を使用している場合は、認証アプリからの現在のコード（またはリカバリコードの1つ）を__TRILIUM_PH_4__Authentication code__TRILIUM_PH_5__にも入力してください。そうでない場合は空欄のままにします。パスワードとコードは、拡張機能用のトークンを取得するために一度だけ使用され、保存されません。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_e387b4b73d1e4a34cd37ddaa_0",
+      "kind": "h3",
+      "source": "When a clipping fails__TRILIUM_PH_0__",
+      "sourceHash": "e387b4b73d1e4a34cd37ddaa9d9a66ad0f043fe4c34a926da257b007721bf578",
+      "context": "Web Clipper > Configuration > When a clipping fails",
+      "contextHash": "52459f3163805b643e0d9b62bca8656e92db3252e171dda4534ba65865ba2954",
+      "status": "translated",
+      "active": true,
+      "translation": "クリップに失敗した場合__TRILIUM_PH_0__",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_4a2464e3840a364459784579_0",
+      "kind": "p",
+      "source": "After each clipping made with a keyboard shortcut or the context menu, a notification in the corner of the page confirms that it was saved, with a link to open the new note in Trilium. A clipping made from the popup reports in the popup instead, unless the popup was closed before it was saved. If the clipping could not be saved, the message says why instead:",
+      "sourceHash": "4a2464e3840a364459784579b1ccf41b0c29a56e34aeecedbb65076c54044c38",
+      "context": "Web Clipper > Configuration > When a clipping fails",
+      "contextHash": "52459f3163805b643e0d9b62bca8656e92db3252e171dda4534ba65865ba2954",
+      "status": "translated",
+      "active": true,
+      "translation": "キーボードショートカットやコンテキストメニューを使用してクリップを行った後、保存されたことを確認する通知がページの隅に表示され、Triliumで新しいノートを開くためのリンクが含まれます。ポップアップが保存される前に閉じられなかった限り、ポップアップから行ったクリップの結果はポップアップ内に報告されます。クリップを保存できなかった場合は、その理由がメッセージに表示されます：",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_dc130d33990bc08b6984a446_0",
+      "kind": "li",
+      "source": "Trilium was not found: start the desktop application, or check the server address and token in the extension's options.",
+      "sourceHash": "dc130d33990bc08b6984a44672ba9e9f20daab60e927db39222b65c8769285d8",
+      "context": "Web Clipper > Configuration > When a clipping fails",
+      "contextHash": "52459f3163805b643e0d9b62bca8656e92db3252e171dda4534ba65865ba2954",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_ef0b7cd1a1b261a832ec90c5_0",
+      "kind": "li",
+      "source": "The versions of Trilium and the extension are not compatible: update the one the message names.",
+      "sourceHash": "ef0b7cd1a1b261a832ec90c5ef9d192a1cd72d1f0f56459a31bfe2fa68d8fb14",
+      "context": "Web Clipper > Configuration > When a clipping fails",
+      "contextHash": "52459f3163805b643e0d9b62bca8656e92db3252e171dda4534ba65865ba2954",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_b4b166cb7985f380c9c25fd2_0",
+      "kind": "li",
+      "source": "Trilium rejected the request: the message includes the reason Trilium gave.",
+      "sourceHash": "b4b166cb7985f380c9c25fd2c8e1c77326ba94975732378e1d95c305c8906c65",
+      "context": "Web Clipper > Configuration > When a clipping fails",
+      "contextHash": "52459f3163805b643e0d9b62bca8656e92db3252e171dda4534ba65865ba2954",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_73cb0487d20024b4e898e307_0",
+      "kind": "li",
+      "source": "The popup could not reach the extension's background script, or it gave no answer: close the popup and open it again. If the extension was just updated or reloaded, reload the page as well.",
+      "sourceHash": "73cb0487d20024b4e898e307330d2b60d1b819859f140376711d66259353b6a7",
+      "context": "Web Clipper > Configuration > When a clipping fails",
+      "contextHash": "52459f3163805b643e0d9b62bca8656e92db3252e171dda4534ba65865ba2954",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_3747c4b60b1bb0256207fcdc_0",
+      "kind": "li",
+      "source": "A PDF could not be saved: Trilium is older than v0.107.0, the website refused to send the PDF again, or the PDF is larger than 100 MB. The extension downloads the PDF with the browser's cookies for that website, so a PDF behind a login can be saved while you are logged in.",
+      "sourceHash": "3747c4b60b1bb0256207fcdcc507315294419032137552729fbd64f36d1026a7",
+      "context": "Web Clipper > Configuration > When a clipping fails",
+      "contextHash": "52459f3163805b643e0d9b62bca8656e92db3252e171dda4534ba65865ba2954",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_a90697760c11358d19ee942f_0",
+      "kind": "p",
+      "source": "The extension downloads the images of a clipping itself, so that they are stored in Trilium together with the note. If some of them cannot be downloaded (for example because the website refuses the request), the clipping is still saved, and the notification says how many images are missing. Those images keep their address on the original website: Trilium tries to download them once more if __TRILIUM_PH_0__Download images automatically__TRILIUM_PH_1__ is enabled in __TRILIUM_PH_2__Options__TRILIUM_PH_3__ → __TRILIUM_PH_4__Media__TRILIUM_PH_5__, and otherwise the note shows them from the website for as long as it serves them.",
+      "sourceHash": "a90697760c11358d19ee942f3f84cb7b2eae002a4d00c7a661b70c7910215c7d",
+      "context": "Web Clipper > Configuration > When a clipping fails",
+      "contextHash": "52459f3163805b643e0d9b62bca8656e92db3252e171dda4534ba65865ba2954",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_4cb21e34f76d203fa3676d53_0",
+      "kind": "p",
+      "source": "The notification is shown on the page itself, so it does not appear on pages where extensions cannot run (such as the browser's own settings pages, the extension stores and Firefox's PDF viewer). A clipping saved from the popup on such a page still reports in the popup.",
+      "sourceHash": "4cb21e34f76d203fa3676d53bca6c88277b15b7406505ff13b63de82c7579403",
+      "context": "Web Clipper > Configuration > When a clipping fails",
+      "contextHash": "52459f3163805b643e0d9b62bca8656e92db3252e171dda4534ba65865ba2954",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_8e552e4b1f97cc40705883cd_0",
+      "kind": "h2",
+      "source": "Testing development versions__TRILIUM_PH_0__",
+      "sourceHash": "8e552e4b1f97cc40705883cdd15461d0861f9ab745b73fd3c2e24206c20e3354",
+      "context": "Web Clipper > Testing development versions",
+      "contextHash": "553dfc9fb89f1f1d910581683ef45ecf88c6ebdc439a3c101527ac0d68e83611",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_6741aee4de2f66e91f4acefe_0",
+      "kind": "p",
+      "source": "Development versions are version pre-release versions, generally meant for testing purposes. These are not available in the Google or Firefox web stores, but can be downloaded from either:",
+      "sourceHash": "6741aee4de2f66e91f4acefea927039481d7d31426a3fcbe73d892b9f687b48e",
+      "context": "Web Clipper > Testing development versions",
+      "contextHash": "553dfc9fb89f1f1d910581683ef45ecf88c6ebdc439a3c101527ac0d68e83611",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_4a6e29293c777e86fee15a67_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__GitHub Releases__TRILIUM_PH_1__ by looking for releases starting with __TRILIUM_PH_2__Web Clipper.__TRILIUM_PH_3__",
+      "sourceHash": "4a6e29293c777e86fee15a671f99007327b38572eaf7be4be077540f6ed14ffd",
+      "context": "Web Clipper > Testing development versions",
+      "contextHash": "553dfc9fb89f1f1d910581683ef45ecf88c6ebdc439a3c101527ac0d68e83611",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_a1deeed35e7f8940722c5870_0",
+      "kind": "li",
+      "source": "Artifacts in GitHub Actions, by looking for the __TRILIUM_PH_0____TRILIUM_PH_1__Deploy web clipper extension__TRILIUM_PH_2__ workflow__TRILIUM_PH_3__. Once a workflow run is selected, the ZIP files are available in the __TRILIUM_PH_4__Artifacts__TRILIUM_PH_5__ section, under the name __TRILIUM_PH_6__.",
+      "sourceHash": "a1deeed35e7f8940722c5870a7665c7f6ed794084a08a0a95a75474ddd77f271",
+      "context": "Web Clipper > Testing development versions",
+      "contextHash": "553dfc9fb89f1f1d910581683ef45ecf88c6ebdc439a3c101527ac0d68e83611",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_606f6a8f6a918710c0c9b071_0",
+      "kind": "p",
+      "source": "__TRILIUM_PH_0__ Chrome",
+      "sourceHash": "606f6a8f6a918710c0c9b0718d7120d5267b67b97c03bfb91b8b435b1f07422b",
+      "context": "Web Clipper > Testing development versions",
+      "contextHash": "553dfc9fb89f1f1d910581683ef45ecf88c6ebdc439a3c101527ac0d68e83611",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_08a242951df4228ee2d701e0_0",
+      "kind": "li",
+      "source": "Download __TRILIUM_PH_0__.",
+      "sourceHash": "08a242951df4228ee2d701e0767bbe429a76d75197066669c36835c5b943f3dc",
+      "context": "Web Clipper > Testing development versions",
+      "contextHash": "553dfc9fb89f1f1d910581683ef45ecf88c6ebdc439a3c101527ac0d68e83611",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_250c24dbfe09000d0012b874_0",
+      "kind": "li",
+      "source": "Extract the archive.",
+      "sourceHash": "250c24dbfe09000d0012b8742d3ad7f4e47e1a8c30295fc62c777509702da15c",
+      "context": "Web Clipper > Testing development versions",
+      "contextHash": "553dfc9fb89f1f1d910581683ef45ecf88c6ebdc439a3c101527ac0d68e83611",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_e34330387cec131641922c6b_0",
+      "kind": "li",
+      "source": "In Chrome, navigate to __TRILIUM_PH_0__",
+      "sourceHash": "e34330387cec131641922c6beb655fba85140b483b13ddd5b109484cbfbea35b",
+      "context": "Web Clipper > Testing development versions",
+      "contextHash": "553dfc9fb89f1f1d910581683ef45ecf88c6ebdc439a3c101527ac0d68e83611",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_f539d9d954a84f79bda82913_0",
+      "kind": "li",
+      "source": "Toggle __TRILIUM_PH_0__Developer Mode__TRILIUM_PH_1__ in top-right of the page.",
+      "sourceHash": "f539d9d954a84f79bda82913d2ae1585ce6705124734e7b6101ed8344d424323",
+      "context": "Web Clipper > Testing development versions",
+      "contextHash": "553dfc9fb89f1f1d910581683ef45ecf88c6ebdc439a3c101527ac0d68e83611",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_24cd4869d17a61544721f4c3_0",
+      "kind": "li",
+      "source": "Press the __TRILIUM_PH_0__Load unpacked__TRILIUM_PH_1__ button near the header.",
+      "sourceHash": "24cd4869d17a61544721f4c3edb16372e4adcb43810e7561ec343b0b466d395c",
+      "context": "Web Clipper > Testing development versions",
+      "contextHash": "553dfc9fb89f1f1d910581683ef45ecf88c6ebdc439a3c101527ac0d68e83611",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_a570f0b7cc989e5842399497_0",
+      "kind": "li",
+      "source": "Point to the extracted directory from step (2).",
+      "sourceHash": "a570f0b7cc989e5842399497bcdf26bf13ef8e56f02154d2cfdb70ab48bbd67f",
+      "context": "Web Clipper > Testing development versions",
+      "contextHash": "553dfc9fb89f1f1d910581683ef45ecf88c6ebdc439a3c101527ac0d68e83611",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_93ce6947634d4bdefc05a0dd_0",
+      "kind": "p",
+      "source": "__TRILIUM_PH_0__ Firefox",
+      "sourceHash": "93ce6947634d4bdefc05a0dd67f407e766ed25bfcef71e68fc397c308392f76f",
+      "context": "Web Clipper > Testing development versions",
+      "contextHash": "553dfc9fb89f1f1d910581683ef45ecf88c6ebdc439a3c101527ac0d68e83611",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_2032b70349f76b38902839d3_0",
+      "kind": "p",
+      "source": "Firefox prevents installation of unsigned packages in the “retail” version. To be able to install extensions from disk, consider using __TRILIUM_PH_0__Firefox Developer Edition__TRILIUM_PH_1__ or a non-branded version of Firefox (e.g. __TRILIUM_PH_2__GNU IceCat__TRILIUM_PH_3__).",
+      "sourceHash": "2032b70349f76b38902839d3a55a607ae9fc49efb3956e4750e4bdcac227f16f",
+      "context": "Web Clipper > Testing development versions",
+      "contextHash": "553dfc9fb89f1f1d910581683ef45ecf88c6ebdc439a3c101527ac0d68e83611",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_4f6e933133b12aa42ce408e3_0",
+      "kind": "p",
+      "source": "One time, go to __TRILIUM_PH_0__ and change __TRILIUM_PH_1__ to __TRILIUM_PH_2__.",
+      "sourceHash": "4f6e933133b12aa42ce408e320e4d2d010a0bdccac36cd08a9c750b6ab54ca79",
+      "context": "Web Clipper > Testing development versions",
+      "contextHash": "553dfc9fb89f1f1d910581683ef45ecf88c6ebdc439a3c101527ac0d68e83611",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_8c668d9ee8120c4f139d5c73_0",
+      "kind": "li",
+      "source": "Navigate to __TRILIUM_PH_0__.",
+      "sourceHash": "8c668d9ee8120c4f139d5c73ca2edf251041189c5e88accb32d4dc53d35f1502",
+      "context": "Web Clipper > Testing development versions",
+      "contextHash": "553dfc9fb89f1f1d910581683ef45ecf88c6ebdc439a3c101527ac0d68e83611",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_c113ed568c0c4da20beae673_0",
+      "kind": "li",
+      "source": "Select __TRILIUM_PH_0__Extensions__TRILIUM_PH_1__ in the left-side navigation.",
+      "sourceHash": "c113ed568c0c4da20beae673fe7c510ba077c48b1673799fdce5964e2b15a62e",
+      "context": "Web Clipper > Testing development versions",
+      "contextHash": "553dfc9fb89f1f1d910581683ef45ecf88c6ebdc439a3c101527ac0d68e83611",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_1f226dcc3bf8b772107ca58e_0",
+      "kind": "li",
+      "source": "Press the __TRILIUM_PH_0__Gear__TRILIUM_PH_1__ icon on the right of the __TRILIUM_PH_2__Manage Your Extensions__TRILIUM_PH_3__ title.",
+      "sourceHash": "1f226dcc3bf8b772107ca58e372be80c278e78ba504611d1b76264a42acecb1e",
+      "context": "Web Clipper > Testing development versions",
+      "contextHash": "553dfc9fb89f1f1d910581683ef45ecf88c6ebdc439a3c101527ac0d68e83611",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_37a7993cb0078bd1ffc8b96e_0",
+      "kind": "li",
+      "source": "Select __TRILIUM_PH_0__Install Add-on From File…__TRILIUM_PH_1__",
+      "sourceHash": "37a7993cb0078bd1ffc8b96eed2004bc02dc81fa4dabe2985f9182c95e7c3952",
+      "context": "Web Clipper > Testing development versions",
+      "contextHash": "553dfc9fb89f1f1d910581683ef45ecf88c6ebdc439a3c101527ac0d68e83611",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_04485866b8f27602f07976a0_0",
+      "kind": "li",
+      "source": "Point it to __TRILIUM_PH_0__.",
+      "sourceHash": "04485866b8f27602f07976a02707366fd6e398af1564b8642f612eeff152ba20",
+      "context": "Web Clipper > Testing development versions",
+      "contextHash": "553dfc9fb89f1f1d910581683ef45ecf88c6ebdc439a3c101527ac0d68e83611",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_38aa3674e3117dd02154d05b_0",
+      "kind": "li",
+      "source": "Press the __TRILIUM_PH_0__Add__TRILIUM_PH_1__ button to confirm.",
+      "sourceHash": "38aa3674e3117dd02154d05b968dfef9aa3d9e5915787c4379b9e790bedc41ef",
+      "context": "Web Clipper > Testing development versions",
+      "contextHash": "553dfc9fb89f1f1d910581683ef45ecf88c6ebdc439a3c101527ac0d68e83611",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_e7f9883d0930dff63019a0cd_0",
+      "kind": "h2",
+      "source": "Credits__TRILIUM_PH_0__",
+      "sourceHash": "e7f9883d0930dff63019a0cd21c7ddb853899d9dfdb0ff3e1f6f023140e378c3",
+      "context": "Web Clipper > Credits",
+      "contextHash": "53d2223c6ca2ddabfddf777fdcdc909060fe5c8ba8b1b9b6ecf72666e29d10c9",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_d4c5639e02a533167f9456a8_0",
+      "kind": "p",
+      "source": "Some parts of the code are based on the __TRILIUM_PH_0__Joplin Notes browser extension__TRILIUM_PH_1__.",
+      "sourceHash": "d4c5639e02a533167f9456a87e6745840f1747205474829f2016d4a57932bb0f",
+      "context": "Web Clipper > Credits",
+      "contextHash": "53d2223c6ca2ddabfddf777fdcdc909060fe5c8ba8b1b9b6ecf72666e29d10c9",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_b190d47815633246b0ab18a6_0",
+      "kind": "image-alt",
+      "source": "記事画像",
+      "sourceHash": "b190d47815633246b0ab18a61d9b8e8ea36504fe3f8bc230a7753096915c9ff2",
+      "context": "Web Clipper > Credits",
+      "contextHash": "53d2223c6ca2ddabfddf777fdcdc909060fe5c8ba8b1b9b6ecf72666e29d10c9",
+      "status": "pending",
+      "active": true
+    }
+  ],
+  "requests": [
+    {
+      "at": "2026-11-14T11:28:45.803Z",
+      "model": "gemini-3.5-flash-lite",
+      "batchJob": "batches/02spwqy837h8pi7qzqmeo4fgsqo7bgs45hwh",
+      "requestKey": "MtPxeAWVAzMg_6e89fe821235e678",
+      "modelVersion": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 1234,
+        "candidatesTokenCount": 848,
+        "totalTokenCount": 2082,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 1234
+          }
+        ],
+        "serviceTier": "standard"
+      }
+    },
+    {
+      "at": "2026-11-14T11:28:45.803Z",
+      "model": "gemini-3.5-flash-lite",
+      "batchJob": "batches/02spwqy837h8pi7qzqmeo4fgsqo7bgs45hwh",
+      "requestKey": "MtPxeAWVAzMg_734b8512277f7c66",
+      "modelVersion": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 1565,
+        "candidatesTokenCount": 1115,
+        "totalTokenCount": 2680,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 1565
+          }
+        ],
+        "serviceTier": "standard"
+      }
+    },
+    {
+      "at": "2026-11-14T11:28:45.803Z",
+      "model": "gemini-3.5-flash-lite",
+      "batchJob": "batches/02spwqy837h8pi7qzqmeo4fgsqo7bgs45hwh",
+      "requestKey": "MtPxeAWVAzMg_2b0d45342955a114",
+      "modelVersion": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 1905,
+        "candidatesTokenCount": 1534,
+        "totalTokenCount": 3439,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 1905
+          }
+        ],
+        "serviceTier": "standard"
+      }
+    }
+  ]
+}

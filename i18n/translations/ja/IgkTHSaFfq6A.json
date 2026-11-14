@@ -1,0 +1,601 @@
+{
+  "schemaVersion": 1,
+  "pageId": "IgkTHSaFfq6A",
+  "sourceFile": "docs/User Guide/User Guide/Installation & Setup/Server Installation/Signing in with OpenID Connect/Setting up with various providers.md",
+  "sourceRevision": "03d17b60f59b5efc29b880b11481471d0fe0ff57",
+  "units": [
+    {
+      "id": "u_af501bd452952afb1e051c4e_0",
+      "kind": "title",
+      "source": "Setting up with various providers",
+      "sourceHash": "af501bd452952afb1e051c4e92e476fe3b039867094933a784aaa7bd0e42ce82",
+      "context": "Setting up with various providers",
+      "contextHash": "aed08d32912b31afd0bf72269d029e5f61b7e7e28478d8173d1d5b12d597f744",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_796c878b424feb3a6bbdb6af_0",
+      "kind": "p",
+      "source": "This page contains instructions on how to set up __TRILIUM_PH_0__Signing in with OpenID Connect__TRILIUM_PH_1__ with various providers such as Authelia, GitLab, Google.",
+      "sourceHash": "796c878b424feb3a6bbdb6af9cb7553184d43194e7e06922f2029f9cf1f043f4",
+      "context": "Setting up with various providers",
+      "contextHash": "aed08d32912b31afd0bf72269d029e5f61b7e7e28478d8173d1d5b12d597f744",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_d278054efde3c17f374c027c_0",
+      "kind": "p",
+      "source": "While the configuration reference is correct and up to date, the steps to create the OAuth application might differ slightly as providers change their UI.",
+      "sourceHash": "d278054efde3c17f374c027c8c9a412de57da89b67b86ce93d4aa53567400247",
+      "context": "Setting up with various providers",
+      "contextHash": "aed08d32912b31afd0bf72269d029e5f61b7e7e28478d8173d1d5b12d597f744",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_7f86ddb23ef1c5cae094e646_0",
+      "kind": "p",
+      "source": "Authelia",
+      "sourceHash": "7f86ddb23ef1c5cae094e64640d6585ad4cce523e870890dfd9d536971a08edc",
+      "context": "Setting up with various providers",
+      "contextHash": "aed08d32912b31afd0bf72269d029e5f61b7e7e28478d8173d1d5b12d597f744",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_6c3f71167949ee77ffa2b911_0",
+      "kind": "p",
+      "source": "Generate a client secret:",
+      "sourceHash": "6c3f71167949ee77ffa2b911cfc1c733f8e6d3a7e335f0118efffa77894d8e69",
+      "context": "Setting up with various providers",
+      "contextHash": "aed08d32912b31afd0bf72269d029e5f61b7e7e28478d8173d1d5b12d597f744",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_c094cfc42ece07c08fea2e77_0",
+      "kind": "p",
+      "source": "__TRILIUM_PH_0__ goes to Trilium, __TRILIUM_PH_1__ (the __TRILIUM_PH_2__ string) goes to Authelia.",
+      "sourceHash": "c094cfc42ece07c08fea2e775cc5cab2a92dc38828f2eed7164de31d79600c35",
+      "context": "Setting up with various providers",
+      "contextHash": "aed08d32912b31afd0bf72269d029e5f61b7e7e28478d8173d1d5b12d597f744",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_8dfa0cd3aed9dd0ad1738655_0",
+      "kind": "p",
+      "source": "Add a client under __TRILIUM_PH_0__ in Authelia's __TRILIUM_PH_1__, replacing __TRILIUM_PH_2__ with the URL of your Trilium instance:",
+      "sourceHash": "8dfa0cd3aed9dd0ad17386559f9db0e20661fd60a007fbe562a69bc14d608cf7",
+      "context": "Setting up with various providers",
+      "contextHash": "aed08d32912b31afd0bf72269d029e5f61b7e7e28478d8173d1d5b12d597f744",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_78cc76e89d32ec8dcbc05d53_0",
+      "kind": "p",
+      "source": "Unlike GitLab, __TRILIUM_PH_0__ is a name you choose rather than one the provider generates.",
+      "sourceHash": "78cc76e89d32ec8dcbc05d538e0c56cd644d8f8cae82e71cf567e3ca144f44d2",
+      "context": "Setting up with various providers",
+      "contextHash": "aed08d32912b31afd0bf72269d029e5f61b7e7e28478d8173d1d5b12d597f744",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_88995f129b8fd64678ada5fe_0",
+      "kind": "p",
+      "source": "Restart Authelia.",
+      "sourceHash": "88995f129b8fd64678ada5fe24415b4f35adb79c383d2e5bdb74ce9f4d8d9a10",
+      "context": "Setting up with various providers",
+      "contextHash": "aed08d32912b31afd0bf72269d029e5f61b7e7e28478d8173d1d5b12d597f744",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_4a255792f68ce2dab40b38e1_0",
+      "kind": "p",
+      "source": "Adjust __TRILIUM_PH_0__, using the __TRILIUM_PH_1__ from step 1:",
+      "sourceHash": "4a255792f68ce2dab40b38e17e5c157ecce05f1ddc3750a25241da323ad6bc01",
+      "context": "Setting up with various providers",
+      "contextHash": "aed08d32912b31afd0bf72269d029e5f61b7e7e28478d8173d1d5b12d597f744",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_1e350e22c07aeab52b11d44a_0",
+      "kind": "p",
+      "source": "Do __TRILIUM_PH_0__not__TRILIUM_PH_1__ set __TRILIUM_PH_2__ for Authelia. It defaults confidential clients to __TRILIUM_PH_3__ and rejects any other method with __TRILIUM_PH_4__, which is the default Trilium already uses. This is the opposite of the GitLab case below.",
+      "sourceHash": "1e350e22c07aeab52b11d44abbc166f068fb6f208fd30f092189b12541adc647",
+      "context": "Setting up with various providers",
+      "contextHash": "aed08d32912b31afd0bf72269d029e5f61b7e7e28478d8173d1d5b12d597f744",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_a8d2e4a7bf60c5fce2df5b84_0",
+      "kind": "p",
+      "source": "__TRILIUM_PH_0__ GitLab",
+      "sourceHash": "a8d2e4a7bf60c5fce2df5b84044bd969cfa14ecd932e9ff2d8625821fb5c8ad4",
+      "context": "Setting up with various providers",
+      "contextHash": "aed08d32912b31afd0bf72269d029e5f61b7e7e28478d8173d1d5b12d597f744",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_eef7ca8f512e4b9e1f0b0f2e_0",
+      "kind": "li",
+      "source": "Go to user settings on __TRILIUM_PH_0__gitlab.com__TRILIUM_PH_1__ or your own self-hosted instance.",
+      "sourceHash": "eef7ca8f512e4b9e1f0b0f2e1fb0a06acad7f6f1285dbc09463902cab1ad85cc",
+      "context": "Setting up with various providers",
+      "contextHash": "aed08d32912b31afd0bf72269d029e5f61b7e7e28478d8173d1d5b12d597f744",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_42ccaae2bbedafca9e8aabfa_0",
+      "kind": "li",
+      "source": "Press __TRILIUM_PH_0__Add new application__TRILIUM_PH_1__.",
+      "sourceHash": "42ccaae2bbedafca9e8aabfaff175b4d663f10722278293abc1bb59db342f6a8",
+      "context": "Setting up with various providers",
+      "contextHash": "aed08d32912b31afd0bf72269d029e5f61b7e7e28478d8173d1d5b12d597f744",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_3f4e23dfa65b07d74e7d212d_0",
+      "kind": "li",
+      "source": "Give it a name (e.g. Trilium).",
+      "sourceHash": "3f4e23dfa65b07d74e7d212d128140ad6fbf27b2cda88d3d4f4cb300a3d51a82",
+      "context": "Setting up with various providers",
+      "contextHash": "aed08d32912b31afd0bf72269d029e5f61b7e7e28478d8173d1d5b12d597f744",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_cf7f9b26830eef9a82734cb6_0",
+      "kind": "li",
+      "source": "Set __TRILIUM_PH_0__Redirect URI__TRILIUM_PH_1__ to __TRILIUM_PH_2__",
+      "sourceHash": "cf7f9b26830eef9a82734cb6ea8343a728d6d264bbbeeb920dec25095f1cd43a",
+      "context": "Setting up with various providers",
+      "contextHash": "aed08d32912b31afd0bf72269d029e5f61b7e7e28478d8173d1d5b12d597f744",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_3e6f4c82c1e7b19ef7f850fa_0",
+      "kind": "li",
+      "source": "Make sure __TRILIUM_PH_0__Confidential__TRILIUM_PH_1__ is checked and __TRILIUM_PH_2__Device authorization grant__TRILIUM_PH_3__ is unchecked.",
+      "sourceHash": "3e6f4c82c1e7b19ef7f850fa48eb743a0cd995084e0c0910ae646b7e2b6dcf5e",
+      "context": "Setting up with various providers",
+      "contextHash": "aed08d32912b31afd0bf72269d029e5f61b7e7e28478d8173d1d5b12d597f744",
+      "status": "translated",
+      "active": true,
+      "translation": "__TRILIUM_PH_0__Confidential__TRILIUM_PH_1__ にチェックが入っており、__TRILIUM_PH_2__Device authorization grant__TRILIUM_PH_3__ のチェックが外されていることを確認してください。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_9d641a6cc13ee1b06e6f34ad_0",
+      "kind": "li",
+      "source": "Under scopes, check __TRILIUM_PH_0__openid__TRILIUM_PH_1__, __TRILIUM_PH_2__profile__TRILIUM_PH_3__ and __TRILIUM_PH_4__email__TRILIUM_PH_5__ (they should be near the end).",
+      "sourceHash": "9d641a6cc13ee1b06e6f34ad267b37a998a6a0276cf8db026f041f708cee5ad6",
+      "context": "Setting up with various providers",
+      "contextHash": "aed08d32912b31afd0bf72269d029e5f61b7e7e28478d8173d1d5b12d597f744",
+      "status": "translated",
+      "active": true,
+      "translation": "スコープ（Scopes）の下にある __TRILIUM_PH_0__openid__TRILIUM_PH_1__、__TRILIUM_PH_2__profile__TRILIUM_PH_3__、__TRILIUM_PH_4__email__TRILIUM_PH_5__ にチェックを入れます（通常、リストの終盤にあります）。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_49156c2674670116a176eab2_0",
+      "kind": "li",
+      "source": "Save the application and copy the __TRILIUM_PH_0__Application ID__TRILIUM_PH_1__ and __TRILIUM_PH_2__Secret__TRILIUM_PH_3__.",
+      "sourceHash": "49156c2674670116a176eab2bfc77d444497564033f755142770b4161c14e1f5",
+      "context": "Setting up with various providers",
+      "contextHash": "aed08d32912b31afd0bf72269d029e5f61b7e7e28478d8173d1d5b12d597f744",
+      "status": "translated",
+      "active": true,
+      "translation": "アプリケーションを保存し、__TRILIUM_PH_0__Application ID__TRILIUM_PH_1__ と __TRILIUM_PH_2__Secret__TRILIUM_PH_3__ をコピーします。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_fa41bfc34e48d1181f64640f_0",
+      "kind": "p",
+      "source": "Adjust __TRILIUM_PH_0__ as follows, replacing __TRILIUM_PH_1__ and __TRILIUM_PH_2__ with the values from the last step as well as the __TRILIUM_PH_3__ with a URL to your Trilium instance.",
+      "sourceHash": "fa41bfc34e48d1181f64640f3b16b9c4d7752c25b09a5095f9c7af66efb4208b",
+      "context": "Setting up with various providers",
+      "contextHash": "aed08d32912b31afd0bf72269d029e5f61b7e7e28478d8173d1d5b12d597f744",
+      "status": "translated",
+      "active": true,
+      "translation": "__TRILIUM_PH_0__ を次のように調整します。__TRILIUM_PH_1__ と __TRILIUM_PH_2__ には前の手順の値を使用し、__TRILIUM_PH_3__ にはご自身の Trilium インスタンスの URL を指定します。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_a87793174308160111a7b4a1_0",
+      "kind": "p",
+      "source": "If you are using a self-hosted instance of GitLab, make sure to also update __TRILIUM_PH_0__, and keep the __TRILIUM_PH_1__ line above.",
+      "sourceHash": "a87793174308160111a7b4a13ef3afba3fa737ebfa04e753ea2eb03729cd8160",
+      "context": "Setting up with various providers",
+      "contextHash": "aed08d32912b31afd0bf72269d029e5f61b7e7e28478d8173d1d5b12d597f744",
+      "status": "translated",
+      "active": true,
+      "translation": "セルフホスト版の GitLab を使用している場合は、__TRILIUM_PH_0__ も必ず更新し、上記の __TRILIUM_PH_1__ 行を維持してください。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_69ec290769b8cf1e85598728_0",
+      "kind": "p",
+      "source": "GitLab's token endpoint does not decode credentials sent via HTTP Basic, so without __TRILIUM_PH_0__, sign-in fails with a __TRILIUM_PH_1__ error. Trilium applies this automatically for __TRILIUM_PH_2__, but a self-hosted issuer URL cannot be detected.",
+      "sourceHash": "69ec290769b8cf1e85598728be74b361700d53137198df872ae26f47b7bece81",
+      "context": "Setting up with various providers",
+      "contextHash": "aed08d32912b31afd0bf72269d029e5f61b7e7e28478d8173d1d5b12d597f744",
+      "status": "translated",
+      "active": true,
+      "translation": "GitLab のトークンエンドポイントは HTTP Basic で送信された資格情報をデコードしないため、__TRILIUM_PH_0__ がないとサインインが __TRILIUM_PH_1__ エラーで失敗します。Trilium は __TRILIUM_PH_2__ に対してこれを自動的に適用しますが、セルフホストの発行者 URL は検出できません。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_9c70c3a1abf730d0bbf54e7d_0",
+      "kind": "p",
+      "source": "Kanidm",
+      "sourceHash": "9c70c3a1abf730d0bbf54e7d6d3103a6ebe6c9945ab000ffd57be5a4857b40e1",
+      "context": "Setting up with various providers",
+      "contextHash": "aed08d32912b31afd0bf72269d029e5f61b7e7e28478d8173d1d5b12d597f744",
+      "status": "translated",
+      "active": true,
+      "translation": "Kanidm",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_9627d424821d9349499c2580_0",
+      "kind": "p",
+      "source": "Create the client, add the redirect URL and grant the scopes, replacing __TRILIUM_PH_0__ with the URL of your Trilium instance and __TRILIUM_PH_1__ with an existing Kanidm group whose members may sign in:",
+      "sourceHash": "9627d424821d9349499c2580b743d71e33003929ed794b8efad37f1924d0b45e",
+      "context": "Setting up with various providers",
+      "contextHash": "aed08d32912b31afd0bf72269d029e5f61b7e7e28478d8173d1d5b12d597f744",
+      "status": "translated",
+      "active": true,
+      "translation": "クライアントを作成し、リダイレクト URL を追加してスコープを付与します。__TRILIUM_PH_0__ はお使いの Trilium インスタンスの URL に、__TRILIUM_PH_1__ はサインインが許可されるメンバーを含む既存の Kanidm グループに置き換えてください。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_a2284de67fc7ad3870884006_0",
+      "kind": "p",
+      "source": "The __TRILIUM_PH_0__ scope is mandatory; without it Kanidm treats the client as plain OAuth 2.0.",
+      "sourceHash": "a2284de67fc7ad38708840068f4c020a4f684604337e24a3768ec373f17da346",
+      "context": "Setting up with various providers",
+      "contextHash": "aed08d32912b31afd0bf72269d029e5f61b7e7e28478d8173d1d5b12d597f744",
+      "status": "translated",
+      "active": true,
+      "translation": "__TRILIUM_PH_0__ スコープは必須です。これがないと、Kanidm はクライアントを通常の OAuth 2.0 として扱います。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_c17b643cf7580fb3c90a74d3_0",
+      "kind": "p",
+      "source": "Read the client secret:",
+      "sourceHash": "c17b643cf7580fb3c90a74d3dd162826836e4ab46aeeafbe688eb459d28abfa1",
+      "context": "Setting up with various providers",
+      "contextHash": "aed08d32912b31afd0bf72269d029e5f61b7e7e28478d8173d1d5b12d597f744",
+      "status": "translated",
+      "active": true,
+      "translation": "クライアントシークレットを読み取ります:",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_a1301ad219c1b25f4fc351a0_0",
+      "kind": "p",
+      "source": "Adjust __TRILIUM_PH_0__ as follows, replacing __TRILIUM_PH_1__ with the URL of your Kanidm instance and __TRILIUM_PH_2__ with the value from step 2:",
+      "sourceHash": "a1301ad219c1b25f4fc351a0603405187ae521ca5906482a10ea82acd343a7dd",
+      "context": "Setting up with various providers",
+      "contextHash": "aed08d32912b31afd0bf72269d029e5f61b7e7e28478d8173d1d5b12d597f744",
+      "status": "translated",
+      "active": true,
+      "translation": "__TRILIUM_PH_0__ を次のように調整します。__TRILIUM_PH_1__ には Kanidm インスタンスの URL を、__TRILIUM_PH_2__ にはステップ 2 の値を指定します。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_cfc46f3ed7e4a01d6dff88cb_0",
+      "kind": "p",
+      "source": "The client name you chose in step 1 is both the client ID and the last path segment of the issuer URL, so the two must match.",
+      "sourceHash": "cfc46f3ed7e4a01d6dff88cbf7c9247aafa66909ef959b5f9cf24b08cb1685f1",
+      "context": "Setting up with various providers",
+      "contextHash": "aed08d32912b31afd0bf72269d029e5f61b7e7e28478d8173d1d5b12d597f744",
+      "status": "translated",
+      "active": true,
+      "translation": "ステップ 1 で選択したクライアント名は、クライアント ID であると同時に発行者 URL の最後のパスセグメントでもあるため、両者が一致している必要があります。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_a9f230d45d3eaad30c2a7609_0",
+      "kind": "p",
+      "source": "Kanidm signs ID tokens with ES256, not RS256. Trilium detects this from the provider on v0.105.0 and later, so no extra configuration is needed. Do __TRILIUM_PH_0__not__TRILIUM_PH_1__ run __TRILIUM_PH_2__, it downgrades the client to RS256 and disables ES256 entirely. On older Trilium versions sign-in fails with an __TRILIUM_PH_3__ error.",
+      "sourceHash": "a9f230d45d3eaad30c2a7609b931ed564040b49343ef78d565c5386fe2ac5376",
+      "context": "Setting up with various providers",
+      "contextHash": "aed08d32912b31afd0bf72269d029e5f61b7e7e28478d8173d1d5b12d597f744",
+      "status": "translated",
+      "active": true,
+      "translation": "Kanidm は ID トークンの署名に RS256 ではなく ES256 を使用します。Trilium は v0.105.0 以降でプロバイダーからこれを検出するため、追加の設定は不要です。__TRILIUM_PH_0__決して__TRILIUM_PH_1__ __TRILIUM_PH_2__ を実行しないでください。クライアントが RS256 にダウングレードされ、ES256 が完全に無効化されます。古い Trilium バージョンでは、サインインが __TRILIUM_PH_3__ エラーで失敗します。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_d90d3c1a6623b526c99cbcb9_0",
+      "kind": "p",
+      "source": "Pocket ID",
+      "sourceHash": "d90d3c1a6623b526c99cbcb90a5d5895542426f6759aa4e9bb52ca441e741e6b",
+      "context": "Setting up with various providers",
+      "contextHash": "aed08d32912b31afd0bf72269d029e5f61b7e7e28478d8173d1d5b12d597f744",
+      "status": "translated",
+      "active": true,
+      "translation": "Pocket ID",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_f24b0d686dd4da4537585435_0",
+      "kind": "p",
+      "source": "Pocket ID is passwordless, signing in requires a passkey. Register one and confirm you can sign in to Pocket ID itself __TRILIUM_PH_0__before__TRILIUM_PH_1__ switching Trilium over to OpenID Connect, otherwise you may find yourself unable to authenticate at either end.",
+      "sourceHash": "f24b0d686dd4da45375854356e46dad532c2978dcb5125ae641b9d186a941481",
+      "context": "Setting up with various providers",
+      "contextHash": "aed08d32912b31afd0bf72269d029e5f61b7e7e28478d8173d1d5b12d597f744",
+      "status": "translated",
+      "active": true,
+      "translation": "Pocket ID はパスワードレスであり、サインインにはパスキーが必要です。Trilium を OpenID Connect に切り替える__TRILIUM_PH_0__前__TRILIUM_PH_1__に、パスキーを登録して Pocket ID 自体にサインインできることを確認してください。確認しないと、どちら側でも認証できなくなる可能性があります。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_ee4c9f06ca63ce4002d48bae_0",
+      "kind": "li",
+      "source": "Sign in to Pocket ID as an administrator and go to __TRILIUM_PH_0__OIDC Clients__TRILIUM_PH_1__ → __TRILIUM_PH_2__Add OIDC Client__TRILIUM_PH_3__.",
+      "sourceHash": "ee4c9f06ca63ce4002d48bae47df4c10ef6ffa58f9c8977ecda8db440db40881",
+      "context": "Setting up with various providers",
+      "contextHash": "aed08d32912b31afd0bf72269d029e5f61b7e7e28478d8173d1d5b12d597f744",
+      "status": "translated",
+      "active": true,
+      "translation": "管理者として Pocket ID にサインインし、__TRILIUM_PH_0__OIDC Clients__TRILIUM_PH_1__ → __TRILIUM_PH_2__Add OIDC Client__TRILIUM_PH_3__ に移動します。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_3f4e23dfa65b07d74e7d212d_1",
+      "kind": "li",
+      "source": "Give it a name (e.g. Trilium).",
+      "sourceHash": "3f4e23dfa65b07d74e7d212d128140ad6fbf27b2cda88d3d4f4cb300a3d51a82",
+      "context": "Setting up with various providers",
+      "contextHash": "aed08d32912b31afd0bf72269d029e5f61b7e7e28478d8173d1d5b12d597f744",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_def1bb905a2bb9f4bb9c2ef4_0",
+      "kind": "li",
+      "source": "Set __TRILIUM_PH_0__Callback URLs__TRILIUM_PH_1__ to __TRILIUM_PH_2__, replacing __TRILIUM_PH_3__ with the URL of your Trilium instance.",
+      "sourceHash": "def1bb905a2bb9f4bb9c2ef4848b34de1df24a49813f4216051bffe700e4db6f",
+      "context": "Setting up with various providers",
+      "contextHash": "aed08d32912b31afd0bf72269d029e5f61b7e7e28478d8173d1d5b12d597f744",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_0c9a9dce55fadb23bdd0191d_0",
+      "kind": "li",
+      "source": "Save, then copy the __TRILIUM_PH_0__Client ID__TRILIUM_PH_1__, __TRILIUM_PH_2__Client Secret__TRILIUM_PH_3__ and __TRILIUM_PH_4__OIDC Discovery URL__TRILIUM_PH_5__.",
+      "sourceHash": "0c9a9dce55fadb23bdd0191d733c895354887b4bb31499f1f38fb6d8ec444e81",
+      "context": "Setting up with various providers",
+      "contextHash": "aed08d32912b31afd0bf72269d029e5f61b7e7e28478d8173d1d5b12d597f744",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_5b0e1de6cd9bf7017d1c795c_0",
+      "kind": "p",
+      "source": "Adjust __TRILIUM_PH_0__ as follows, using the values from step 4:",
+      "sourceHash": "5b0e1de6cd9bf7017d1c795c864d7185df7abe3506d1be670ce7d700434d21d4",
+      "context": "Setting up with various providers",
+      "contextHash": "aed08d32912b31afd0bf72269d029e5f61b7e7e28478d8173d1d5b12d597f744",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_39a951e59e894baa8978715d_0",
+      "kind": "p",
+      "source": "Pocket ID gives you an __TRILIUM_PH_0__OIDC Discovery URL__TRILIUM_PH_1__ ending in __TRILIUM_PH_2__. On v0.105.0 and later you can paste it as-is. On earlier versions, remove that suffix and use only the part before it.",
+      "sourceHash": "39a951e59e894baa8978715ddc2db7d94be9b8650d72da958aca5d7893754850",
+      "context": "Setting up with various providers",
+      "contextHash": "aed08d32912b31afd0bf72269d029e5f61b7e7e28478d8173d1d5b12d597f744",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_feae02ca01bb5ceabe565269_0",
+      "kind": "p",
+      "source": "Pocket ID generates an RS256 signing key on first start, which works without further configuration. If you rotate it to Ed25519 (__TRILIUM_PH_0__), ID tokens are signed with EdDSA instead. Trilium detects this automatically on v0.105.0 and later; older versions fail with __TRILIUM_PH_1__.",
+      "sourceHash": "feae02ca01bb5ceabe565269d09f4d7694fe5632d78dfe8ebd5e24e35304738a",
+      "context": "Setting up with various providers",
+      "contextHash": "aed08d32912b31afd0bf72269d029e5f61b7e7e28478d8173d1d5b12d597f744",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_430e6b40118bce5634a2e6a4_0",
+      "kind": "p",
+      "source": "__TRILIUM_PH_0____TRILIUM_PH_1__ GitHub__TRILIUM_PH_2__",
+      "sourceHash": "430e6b40118bce5634a2e6a42986bfb95d4d0693e04dda01b087d70f77f6cbd5",
+      "context": "Setting up with various providers",
+      "contextHash": "aed08d32912b31afd0bf72269d029e5f61b7e7e28478d8173d1d5b12d597f744",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_82c9b1fb9bc5fe06e534aaa8_0",
+      "kind": "p",
+      "source": "GitHub cannot be used as an identity provider because it is plain OAuth 2.0 and not OpenID Connect, so it will fail with __TRILIUM_PH_0__.",
+      "sourceHash": "82c9b1fb9bc5fe06e534aaa85414a03b320752d825371459b6214854dd77915c",
+      "context": "Setting up with various providers",
+      "contextHash": "aed08d32912b31afd0bf72269d029e5f61b7e7e28478d8173d1d5b12d597f744",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_2263292ba819c09a0432e2a9_0",
+      "kind": "p",
+      "source": "__TRILIUM_PH_0__ Google",
+      "sourceHash": "2263292ba819c09a0432e2a92435ef88fbdf2c88c56e8df3fb1c0286a403db5a",
+      "context": "Setting up with various providers",
+      "contextHash": "aed08d32912b31afd0bf72269d029e5f61b7e7e28478d8173d1d5b12d597f744",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_ffd4471dff33f15c73520b7a_0",
+      "kind": "li",
+      "source": "Go to __TRILIUM_PH_0__Google Cloud's Clients__TRILIUM_PH_1__ dashboard and select __TRILIUM_PH_2__Create client__TRILIUM_PH_3__.",
+      "sourceHash": "ffd4471dff33f15c73520b7a6c33735f4afd1fbb0f97487164e418cce415f45e",
+      "context": "Setting up with various providers",
+      "contextHash": "aed08d32912b31afd0bf72269d029e5f61b7e7e28478d8173d1d5b12d597f744",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_088f5aa63e1a3884698d1af2_0",
+      "kind": "li",
+      "source": "For __TRILIUM_PH_0__Application type,__TRILIUM_PH_1__ select __TRILIUM_PH_2__Web application__TRILIUM_PH_3__.",
+      "sourceHash": "088f5aa63e1a3884698d1af25fe4c6c7e15b34b1db7be49009d3b27c293ddde4",
+      "context": "Setting up with various providers",
+      "contextHash": "aed08d32912b31afd0bf72269d029e5f61b7e7e28478d8173d1d5b12d597f744",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_4d899c49abf592414c888bbe_0",
+      "kind": "li",
+      "source": "In __TRILIUM_PH_0__Authorized redirect URIs__TRILIUM_PH_1__, set  __TRILIUM_PH_2__.",
+      "sourceHash": "4d899c49abf592414c888bbe3c5fac5701b2ec2d1eb58e71a678c363cb7cfb3c",
+      "context": "Setting up with various providers",
+      "contextHash": "aed08d32912b31afd0bf72269d029e5f61b7e7e28478d8173d1d5b12d597f744",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_97d47644cd3adf701dff351c_0",
+      "kind": "li",
+      "source": "Press __TRILIUM_PH_0__Create__TRILIUM_PH_1__ and copy __TRILIUM_PH_2__Client ID__TRILIUM_PH_3__ and __TRILIUM_PH_4__Client secret__TRILIUM_PH_5__.",
+      "sourceHash": "97d47644cd3adf701dff351c28d3c386010fa48452d2917f3683006a73172685",
+      "context": "Setting up with various providers",
+      "contextHash": "aed08d32912b31afd0bf72269d029e5f61b7e7e28478d8173d1d5b12d597f744",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_fa41bfc34e48d1181f64640f_1",
+      "kind": "p",
+      "source": "Adjust __TRILIUM_PH_0__ as follows, replacing __TRILIUM_PH_1__ and __TRILIUM_PH_2__ with the values from the last step as well as the __TRILIUM_PH_3__ with a URL to your Trilium instance.",
+      "sourceHash": "fa41bfc34e48d1181f64640f3b16b9c4d7752c25b09a5095f9c7af66efb4208b",
+      "context": "Setting up with various providers",
+      "contextHash": "aed08d32912b31afd0bf72269d029e5f61b7e7e28478d8173d1d5b12d597f744",
+      "status": "pending",
+      "active": true
+    }
+  ],
+  "requests": [
+    {
+      "at": "2026-11-14T11:28:45.803Z",
+      "model": "gemini-3.5-flash-lite",
+      "batchJob": "batches/02spwqy837h8pi7qzqmeo4fgsqo7bgs45hwh",
+      "requestKey": "IgkTHSaFfq6A_c0469699792d6ca6",
+      "modelVersion": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 1699,
+        "candidatesTokenCount": 1389,
+        "totalTokenCount": 3088,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 1699
+          }
+        ],
+        "serviceTier": "standard"
+      }
+    }
+  ]
+}

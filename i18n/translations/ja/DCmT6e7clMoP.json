@@ -1,0 +1,267 @@
+{
+  "schemaVersion": 1,
+  "pageId": "DCmT6e7clMoP",
+  "sourceFile": "docs/User Guide/User Guide/Installation & Setup/Server Installation/1. Installing the server/Using Kubernetes.md",
+  "sourceRevision": "03d17b60f59b5efc29b880b11481471d0fe0ff57",
+  "units": [
+    {
+      "id": "u_9c5214a9bef24dcc5485ea3c_0",
+      "kind": "title",
+      "source": "Using Kubernetes",
+      "sourceHash": "9c5214a9bef24dcc5485ea3c5848f267191ba001ce757b1af8a1e09db81ac7b2",
+      "context": "Using Kubernetes",
+      "contextHash": "1db8704f2dddba6d4bcaf8e5920ec2d02b7aef6f2559ea3bc37d199ea65a5b6e",
+      "status": "translated",
+      "active": true,
+      "translation": "Kubernetes の使用",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_b28c0d37131ebd1651b6499b_0",
+      "kind": "p",
+      "source": "As Trilium can be run in Docker it also can be deployed in Kubernetes. You can either use our Helm chart, a community Helm chart, or roll your own Kubernetes deployment.",
+      "sourceHash": "b28c0d37131ebd1651b6499bd653ec18142a814e2556a8267f54cafb30ab8aa7",
+      "context": "Using Kubernetes",
+      "contextHash": "1db8704f2dddba6d4bcaf8e5920ec2d02b7aef6f2559ea3bc37d199ea65a5b6e",
+      "status": "translated",
+      "active": true,
+      "translation": "Trilium は Docker で実行できるため、Kubernetes にデプロイすることも可能です。公式の Helm チャート、コミュニティ製の Helm チャートのいずれかを使用するか、独自の Kubernetes デプロイメントを構築してください。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_9c4c3596d992c18402a43fb5_0",
+      "kind": "p",
+      "source": "The recommended way is to use a Helm chart.",
+      "sourceHash": "9c4c3596d992c18402a43fb590b53df4086cd475c2d1db438f62f14853a3e9c6",
+      "context": "Using Kubernetes",
+      "contextHash": "1db8704f2dddba6d4bcaf8e5920ec2d02b7aef6f2559ea3bc37d199ea65a5b6e",
+      "status": "translated",
+      "active": true,
+      "translation": "推奨される方法は Helm チャートを使用することです。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_6a8ea75662e6edfcb8918666_0",
+      "kind": "h2",
+      "source": "Root privileges__TRILIUM_PH_0__",
+      "sourceHash": "6a8ea75662e6edfcb891866656b947c23a0893fe9a57479f68cc456b25dcae79",
+      "context": "Using Kubernetes > Root privileges",
+      "contextHash": "fbff6a41e01f5e86893e6ce9dc43cf917ccce31d65071a14616a99c1a84d906c",
+      "status": "translated",
+      "active": true,
+      "translation": "root 権限__TRILIUM_PH_0__",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_6aa7d3b0693d98d8dc0f8476_0",
+      "kind": "p",
+      "source": "By default, the Trilium container starts as root, gives the data directory to UID and GID __TRILIUM_PH_0__ and then runs Trilium with those reduced privileges, so no init container is needed to fix the permissions. To use a different UID and GID, set the __TRILIUM_PH_1__ and __TRILIUM_PH_2__ environment variables.",
+      "sourceHash": "6aa7d3b0693d98d8dc0f8476ccc9ad35ec6a95681aa4776da64cbd26490675cf",
+      "context": "Using Kubernetes > Root privileges",
+      "contextHash": "fbff6a41e01f5e86893e6ce9dc43cf917ccce31d65071a14616a99c1a84d906c",
+      "status": "translated",
+      "active": true,
+      "translation": "デフォルトでは、Trilium コンテナは root として起動し、データディレクトリの所有権を UID と GID __TRILIUM_PH_0__ に譲渡してから、権限を削減した状態で Trilium を実行します。そのため、権限を修正するための初期化コンテナは不要です。別の UID と GID を使用するには、__TRILIUM_PH_1__ および __TRILIUM_PH_2__ 環境変数を設定してください。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_cf6f977bf299fa8e26743f32_0",
+      "kind": "p",
+      "source": "Starting with v0.107.0, the container can also run without root, which a __TRILIUM_PH_0__ Pod Security Standard requires. Set the user in the pod's security context, and __TRILIUM_PH_1__ so that Kubernetes gives the volume to that group:",
+      "sourceHash": "cf6f977bf299fa8e26743f32f120406536772be3277ccc419962e5a299a0b46d",
+      "context": "Using Kubernetes > Root privileges",
+      "contextHash": "fbff6a41e01f5e86893e6ce9dc43cf917ccce31d65071a14616a99c1a84d906c",
+      "status": "translated",
+      "active": true,
+      "translation": "v0.107.0 以降では、__TRILIUM_PH_0__ Pod Security Standard で求められる非 root でのコンテナ実行も可能です。Kubernetes がボリュームをそのグループに割り当てるように、Pod のセキュリティコンテキストでユーザーと __TRILIUM_PH_1__ を設定してください：",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_8ecb6cf285eeb5864261b60d_0",
+      "kind": "p",
+      "source": "In that mode __TRILIUM_PH_0__ and __TRILIUM_PH_1__ are ignored. See the section on running as a non-root user in __TRILIUM_PH_2__Using Docker__TRILIUM_PH_3__ for what the data directory needs.",
+      "sourceHash": "8ecb6cf285eeb5864261b60de051c876ef20ffafb6743ce94b031362c481d6c0",
+      "context": "Using Kubernetes > Root privileges",
+      "contextHash": "fbff6a41e01f5e86893e6ce9dc43cf917ccce31d65071a14616a99c1a84d906c",
+      "status": "translated",
+      "active": true,
+      "translation": "そのモードでは、__TRILIUM_PH_0__ と __TRILIUM_PH_1__ は無視されます。データディレクトリに必要な要件については、__TRILIUM_PH_2__Docker の使用__TRILIUM_PH_3__ の非 root ユーザーとしての実行に関するセクションを参照してください。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_5c76dc2c0eb92fd8a07d5bc4_0",
+      "kind": "h2",
+      "source": "Helm Charts__TRILIUM_PH_0__",
+      "sourceHash": "5c76dc2c0eb92fd8a07d5bc442b0fa7b0a1342d27bccfa740b52de84242d9721",
+      "context": "Using Kubernetes > Helm Charts",
+      "contextHash": "09717e5f93564e7a61e9047345aff91fc8761156cc8cf7fc94f22391120bd8f5",
+      "status": "translated",
+      "active": true,
+      "translation": "Helm チャート__TRILIUM_PH_0__",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_74c1fe9ff4a77682ba222574_0",
+      "kind": "p",
+      "source": "__TRILIUM_PH_0__Official Helm chart__TRILIUM_PH_1__ from TriliumNext Unofficial helm chart by __TRILIUM_PH_2__ohdearaugustin__TRILIUM_PH_3__: __TRILIUM_PH_4__https://github.com/ohdearaugustin/charts__TRILIUM_PH_5__",
+      "sourceHash": "74c1fe9ff4a77682ba222574079a4b43b610206264fe45d08458314466489bb4",
+      "context": "Using Kubernetes > Helm Charts",
+      "contextHash": "09717e5f93564e7a61e9047345aff91fc8761156cc8cf7fc94f22391120bd8f5",
+      "status": "translated",
+      "active": true,
+      "translation": "__TRILIUM_PH_0__公式 Helm チャート__TRILIUM_PH_1__ (TriliumNext 製)、__TRILIUM_PH_2__ohdearaugustin__TRILIUM_PH_3__ による非公式 Helm チャート：__TRILIUM_PH_4__https://github.com/ohdearaugustin/charts__TRILIUM_PH_5__",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_99f6a572b6f991e1806171a8_0",
+      "kind": "h2",
+      "source": "Adding a Helm repository__TRILIUM_PH_0__",
+      "sourceHash": "99f6a572b6f991e1806171a857cd180fd3f051582d7e11715b9787a65ee873ba",
+      "context": "Using Kubernetes > Adding a Helm repository",
+      "contextHash": "b593cdeffc20e9db31d8fd1dde2d443c91148c335b38a49cf47373fd24528e5a",
+      "status": "translated",
+      "active": true,
+      "translation": "Helm リポジトリの追加__TRILIUM_PH_0__",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_8490dd2168739be9426ab15a_0",
+      "kind": "p",
+      "source": "Below is an example of how",
+      "sourceHash": "8490dd2168739be9426ab15a752e8da30332dd64e968ef50947be9cc5b176a96",
+      "context": "Using Kubernetes > Adding a Helm repository",
+      "contextHash": "b593cdeffc20e9db31d8fd1dde2d443c91148c335b38a49cf47373fd24528e5a",
+      "status": "translated",
+      "active": true,
+      "translation": "以下は、その方法の例です",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_d7ffaf6c06f095c4f14d2093_0",
+      "kind": "h2",
+      "source": "How to install a chart__TRILIUM_PH_0__",
+      "sourceHash": "d7ffaf6c06f095c4f14d20934fa78b63ebf3d4f83ac66b798158497e4553b71c",
+      "context": "Using Kubernetes > How to install a chart",
+      "contextHash": "501657529089d3af35aacb8d6d93e55814f00166ad6f9163a0763c67f0714d0d",
+      "status": "translated",
+      "active": true,
+      "translation": "チャートのインストール方法__TRILIUM_PH_0__",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_3ef4bc2c613e950805537607_0",
+      "kind": "p",
+      "source": "After reviewing the __TRILIUM_PH_0____TRILIUM_PH_1____TRILIUM_PH_2__ from the Helm chart, modifying as required and then creating your own:",
+      "sourceHash": "3ef4bc2c613e950805537607179a6a353331d4180fa8774eaf5641b67a9ea956",
+      "context": "Using Kubernetes > How to install a chart",
+      "contextHash": "501657529089d3af35aacb8d6d93e55814f00166ad6f9163a0763c67f0714d0d",
+      "status": "translated",
+      "active": true,
+      "translation": "Helm チャートから __TRILIUM_PH_0____TRILIUM_PH_1____TRILIUM_PH_2__ を確認し、必要に応じて変更を加えた上で、独自のものを作成します：",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_176bc7f3ed769314207b184b_0",
+      "kind": "p",
+      "source": "For more information on using Helm, please refer to the Helm documentation, or create a Discussion in the TriliumNext GitHub Organization.",
+      "sourceHash": "176bc7f3ed769314207b184b0d58a4aabe5f1a271033634448eb7472a80e4c33",
+      "context": "Using Kubernetes > How to install a chart",
+      "contextHash": "501657529089d3af35aacb8d6d93e55814f00166ad6f9163a0763c67f0714d0d",
+      "status": "translated",
+      "active": true,
+      "translation": "Helm の使用方法の詳細については、Helm のドキュメントを参照するか、TriliumNext GitHub 組織でディスカッションを作成してください。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    }
+  ],
+  "requests": [
+    {
+      "at": "2026-11-14T11:28:45.803Z",
+      "model": "gemini-3.5-flash-lite",
+      "batchJob": "batches/02spwqy837h8pi7qzqmeo4fgsqo7bgs45hwh",
+      "requestKey": "DCmT6e7clMoP_422a4a717c6306dc",
+      "modelVersion": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 1343,
+        "candidatesTokenCount": 998,
+        "totalTokenCount": 2341,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 1343
+          }
+        ],
+        "serviceTier": "standard"
+      }
+    }
+  ]
+}

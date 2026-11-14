@@ -1,0 +1,1619 @@
+{
+  "schemaVersion": 1,
+  "pageId": "GBBMSlVSOIGP",
+  "sourceFile": "docs/User Guide/User Guide/AI.md",
+  "sourceRevision": "03d17b60f59b5efc29b880b11481471d0fe0ff57",
+  "units": [
+    {
+      "id": "u_05906e7b73ccdae8ec8fcefc_0",
+      "kind": "title",
+      "source": "AI",
+      "sourceHash": "05906e7b73ccdae8ec8fcefc4d4af50182885068c6924f2644fa2b0ac53fa6c9",
+      "context": "AI",
+      "contextHash": "11fb682be0a0233d5fb899721ecfc1827d20f0d2ff2e093310efa61efca8af1c",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_479bd4b2bc2fc864e63433be_0",
+      "kind": "p",
+      "source": "Trilium can connect to a large language model and use it as an assistant that works directly on your notes: ask questions about the note you're reading, have it draft or restructure content, or get it to write scripts and widgets for you.",
+      "sourceHash": "479bd4b2bc2fc864e63433bea146aab88a92c48280cabc9095faf2041409c853",
+      "context": "AI",
+      "contextHash": "11fb682be0a0233d5fb899721ecfc1827d20f0d2ff2e093310efa61efca8af1c",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_e74a8c419987a9eb0a0bad6c_0",
+      "kind": "p",
+      "source": "The integration is off by default and does nothing until you enable it and configure a provider; Trilium ships no model of its own. The provider you pick decides how your notes travel: a cloud API billed per use, a subscription you already pay for, or a model running on your own hardware, in which case nothing leaves the machine. See __TRILIUM_PH_0__Providers__TRILIUM_PH_1__ for what each involves, and __TRILIUM_PH_2__Privacy__TRILIUM_PH_3__ for exactly what gets sent.",
+      "sourceHash": "e74a8c419987a9eb0a0bad6c5809577371b53a862265235ebe4af0e6f318b209",
+      "context": "AI",
+      "contextHash": "11fb682be0a0233d5fb899721ecfc1827d20f0d2ff2e093310efa61efca8af1c",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_d4e5bd631d8acca320dc39c4_0",
+      "kind": "p",
+      "source": "Once enabled, the assistant is available as:",
+      "sourceHash": "d4e5bd631d8acca320dc39c45eab0d6e78ff70f9b82d56fd2b2aa2da4702e52e",
+      "context": "AI",
+      "contextHash": "11fb682be0a0233d5fb899721ecfc1827d20f0d2ff2e093310efa61efca8af1c",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_a02382d9002c4e0d3b55ea1a_0",
+      "kind": "li",
+      "source": "As a dedicated note type, it can read and modify notes through tools, which you can switch off per conversation if you would rather it only saw what you type.",
+      "sourceHash": "a02382d9002c4e0d3b55ea1aac36eb7cd822371c627fd33e9daff151dbdf6f39",
+      "context": "AI",
+      "contextHash": "11fb682be0a0233d5fb899721ecfc1827d20f0d2ff2e093310efa61efca8af1c",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_0b59350a997c92fe87c7c6d1_0",
+      "kind": "li",
+      "source": "A panel in the right sidebar, which acts similarly to the dedicated note type but it also has optional access to the current note.",
+      "sourceHash": "0b59350a997c92fe87c7c6d12cfec78ce5c34b28a26fefdb4c4ba141760cd1fe",
+      "context": "AI",
+      "contextHash": "11fb682be0a0233d5fb899721ecfc1827d20f0d2ff2e093310efa61efca8af1c",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_c13495ac2254d90ee73f8326_0",
+      "kind": "li",
+      "source": "An __TRILIUM_PH_0__In-editor AI assistant__TRILIUM_PH_1__ which comes with builtin actions that operate over selected text (such as proof-reading, summarizing), as well as __TRILIUM_PH_2__Custom AI quick actions__TRILIUM_PH_3__.",
+      "sourceHash": "c13495ac2254d90ee73f8326f41af4098a50c4b716ade819b29ed626f69cc3f8",
+      "context": "AI",
+      "contextHash": "11fb682be0a0233d5fb899721ecfc1827d20f0d2ff2e093310efa61efca8af1c",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_409a7a3a2085760badbc5b76_0",
+      "kind": "h2",
+      "source": "Feature highlights__TRILIUM_PH_0__",
+      "sourceHash": "409a7a3a2085760badbc5b764ecb38f95489fca302528d44165b34c55f9d283f",
+      "context": "AI > Feature highlights",
+      "contextHash": "1fa4841e79dbbfc79236c0d57c99660f27c1173265ec8bb9e1e35cf147692a08",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_d8f8d5e1095dab160f55a513_0",
+      "kind": "li",
+      "source": "Chat-based interface with live streaming of the messages.",
+      "sourceHash": "d8f8d5e1095dab160f55a513f613a3f6596b90aef869613542b2566b9f38be2b",
+      "context": "AI > Feature highlights",
+      "contextHash": "1fa4841e79dbbfc79236c0d57c99660f27c1173265ec8bb9e1e35cf147692a08",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_22e5628588551d95f9910483_0",
+      "kind": "li",
+      "source": "Provides the AI context with the note currently being looked at.",
+      "sourceHash": "22e5628588551d95f99104833fb3fc8a90b3abce504acffc0d7df5f93906cdee",
+      "context": "AI > Feature highlights",
+      "contextHash": "1fa4841e79dbbfc79236c0d57c99660f27c1173265ec8bb9e1e35cf147692a08",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_cb615838dd3ea8f542118442_0",
+      "kind": "li",
+      "source": "Tools to alter note content, create new notes, etc.",
+      "sourceHash": "cb615838dd3ea8f54211844292a4fb997cd61cf52f75cb6bb380d7def270336a",
+      "context": "AI > Feature highlights",
+      "contextHash": "1fa4841e79dbbfc79236c0d57c99660f27c1173265ec8bb9e1e35cf147692a08",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_438a411cddb107f7b9bd004d_0",
+      "kind": "li",
+      "source": "Statistics regarding context window use and pricing per message.",
+      "sourceHash": "438a411cddb107f7b9bd004d36be402f318f85329c4bdd51531acd6ea73891d6",
+      "context": "AI > Feature highlights",
+      "contextHash": "1fa4841e79dbbfc79236c0d57c99660f27c1173265ec8bb9e1e35cf147692a08",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_93136dcea1df434b79786dea_0",
+      "kind": "li",
+      "source": "Attachments for multi-modal chat (images, text files, PDFs).",
+      "sourceHash": "93136dcea1df434b79786dea9500e997ece4b6e5e846474c4d9d7dabff2e2d05",
+      "context": "AI > Feature highlights",
+      "contextHash": "1fa4841e79dbbfc79236c0d57c99660f27c1173265ec8bb9e1e35cf147692a08",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_f1b25f40623787610787edf3_0",
+      "kind": "li",
+      "source": "Optional MCP to allow external chat tools (e.g. Claude Code) to operate on notes within Trilium.",
+      "sourceHash": "f1b25f40623787610787edf31ad0c2ae4c62a7d6f5f5a7cce86880bc4c4dc1ef",
+      "context": "AI > Feature highlights",
+      "contextHash": "1fa4841e79dbbfc79236c0d57c99660f27c1173265ec8bb9e1e35cf147692a08",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_80ff3dc7c71a83a25b24b318_0",
+      "kind": "h2",
+      "source": "Sample use-cases__TRILIUM_PH_0__",
+      "sourceHash": "80ff3dc7c71a83a25b24b318ab3dd8a1733a3cfc6d505fe5a3b25d53f0d35c88",
+      "context": "AI > Sample use-cases",
+      "contextHash": "e3c8951b112d50f40123cdcd13d75a8df7d26c67b87bbf8a4677509253eb0b76",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_8ad2c6903144972d49bb20e6_0",
+      "kind": "li",
+      "source": "Create any type of __TRILIUM_PH_0__Custom Widgets__TRILIUM_PH_1__.",
+      "sourceHash": "8ad2c6903144972d49bb20e60c19e52069b8b1aec5e5128513ce114fe70d538f",
+      "context": "AI > Sample use-cases",
+      "contextHash": "e3c8951b112d50f40123cdcd13d75a8df7d26c67b87bbf8a4677509253eb0b76",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_b1745db80d45f9c4dd157b75_0",
+      "kind": "li",
+      "source": "Easily create a __TRILIUM_PH_0__Render Note__TRILIUM_PH_1__, e.g. __TRILIUM_PH_2__Create for me a render note which allows me to play tic-tac-toe. Make sure to use Preact instead of the legacy jQuery.__TRILIUM_PH_3__",
+      "sourceHash": "b1745db80d45f9c4dd157b752f7b31fcea8af8fffb3c9cfe6fe8a95a96bb75d2",
+      "context": "AI > Sample use-cases",
+      "contextHash": "e3c8951b112d50f40123cdcd13d75a8df7d26c67b87bbf8a4677509253eb0b76",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_2c61a0019ea873812b4693de_0",
+      "kind": "li",
+      "source": "Create widgets for a __TRILIUM_PH_0__Dashboard__TRILIUM_PH_1__, such as a calculator, a stopwatch, a pomodoro timer.",
+      "sourceHash": "2c61a0019ea873812b4693dea707bdd0fb9be1a02f7a59df8cb615040ddcaa98",
+      "context": "AI > Sample use-cases",
+      "contextHash": "e3c8951b112d50f40123cdcd13d75a8df7d26c67b87bbf8a4677509253eb0b76",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_2448d5b03c6ea5e0385bac65_0",
+      "kind": "p",
+      "source": "Claude Sonnet is known to produce very good frontend or backend scripts with little guidance, as the AI has been instructed in how to produce them.",
+      "sourceHash": "2448d5b03c6ea5e0385bac65b9d6e8bda7b53fa2dc9e588635f35d42cf658466",
+      "context": "AI > Sample use-cases",
+      "contextHash": "e3c8951b112d50f40123cdcd13d75a8df7d26c67b87bbf8a4677509253eb0b76",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_7679a0e8b2082bd235d72e61_0",
+      "kind": "h2",
+      "source": "LLM Providers__TRILIUM_PH_0__",
+      "sourceHash": "7679a0e8b2082bd235d72e61609daae98a9943c10a0ba9670955ca21f24b8590",
+      "context": "AI > LLM Providers",
+      "contextHash": "8ee5c59012c68d777124fe1a819e6a2bc9a2e91a04c46e752603574ce59ddd40",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_c40a40709e70d68edf21b8a1_0",
+      "kind": "p",
+      "source": "Trilium supports four different types of providers:",
+      "sourceHash": "c40a40709e70d68edf21b8a18375d6423298efb02c6709f0bd3282075847c1d9",
+      "context": "AI > LLM Providers",
+      "contextHash": "8ee5c59012c68d777124fe1a819e6a2bc9a2e91a04c46e752603574ce59ddd40",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_f3f22ca166f8c5bd2521d67c_0",
+      "kind": "p",
+      "source": "__TRILIUM_PH_0__ Cloud",
+      "sourceHash": "f3f22ca166f8c5bd2521d67c65ac8adbd4511809f4baa0863088ba3047c89121",
+      "context": "AI > LLM Providers",
+      "contextHash": "8ee5c59012c68d777124fe1a819e6a2bc9a2e91a04c46e752603574ce59ddd40",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_93178a48f471422f65a787d4_0",
+      "kind": "p",
+      "source": "Pay-per use with an API key which is billed separately from any subscription you might already have.",
+      "sourceHash": "93178a48f471422f65a787d434f7ba59a435e07a042e8bd77697e4711427da60",
+      "context": "AI > LLM Providers",
+      "contextHash": "8ee5c59012c68d777124fe1a819e6a2bc9a2e91a04c46e752603574ce59ddd40",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_0720bccc5a62cb11ae3fbbea_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__ Anthropic Claude",
+      "sourceHash": "0720bccc5a62cb11ae3fbbea5def5d446d38bb2ecfadd06858b40b28ea5fdff1",
+      "context": "AI > LLM Providers",
+      "contextHash": "8ee5c59012c68d777124fe1a819e6a2bc9a2e91a04c46e752603574ce59ddd40",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_69cecede1206afab5ad5631f_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__ OpenAI GPT",
+      "sourceHash": "69cecede1206afab5ad5631f25071c1598dd9878f0b8c05c15b691ea8f2c64fb",
+      "context": "AI > LLM Providers",
+      "contextHash": "8ee5c59012c68d777124fe1a819e6a2bc9a2e91a04c46e752603574ce59ddd40",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_b53728db44cba8c21b84559a_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__ Google Gemini",
+      "sourceHash": "b53728db44cba8c21b84559afb2516b4c85b1fd5b398602d1c34a56f5c8c3e05",
+      "context": "AI > LLM Providers",
+      "contextHash": "8ee5c59012c68d777124fe1a819e6a2bc9a2e91a04c46e752603574ce59ddd40",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_4f88fcc2112fbedde104972e_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__ DeepSeek",
+      "sourceHash": "4f88fcc2112fbedde104972e32992be04e5098b1132bbcf48d44cb39698255d1",
+      "context": "AI > LLM Providers",
+      "contextHash": "8ee5c59012c68d777124fe1a819e6a2bc9a2e91a04c46e752603574ce59ddd40",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_7f83abb8d0b4d056b8ac4803_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__ OpenRouter, which reaches the models of most labs with one key",
+      "sourceHash": "7f83abb8d0b4d056b8ac4803a5a988e2c1788f0459c6f42bd2b66b64fe55a7f7",
+      "context": "AI > LLM Providers",
+      "contextHash": "8ee5c59012c68d777124fe1a819e6a2bc9a2e91a04c46e752603574ce59ddd40",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_005f2e24c70498d066676abc_0",
+      "kind": "p",
+      "source": "__TRILIUM_PH_0__ Subscription-based",
+      "sourceHash": "005f2e24c70498d066676abc2a05eec81f455e47828031546119385997e4fd49",
+      "context": "AI > LLM Providers",
+      "contextHash": "8ee5c59012c68d777124fe1a819e6a2bc9a2e91a04c46e752603574ce59ddd40",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_d13bf9cc67d80a3bd60e5bb9_0",
+      "kind": "p",
+      "source": "Reuses an existing subscription instead of paying per use.",
+      "sourceHash": "d13bf9cc67d80a3bd60e5bb94de471ffe3f3f0c5b52ad63c05063e16c27c9a71",
+      "context": "AI > LLM Providers",
+      "contextHash": "8ee5c59012c68d777124fe1a819e6a2bc9a2e91a04c46e752603574ce59ddd40",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_c470e2a09272cb1992e72fc1_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__ __TRILIUM_PH_1__Claude Code__TRILIUM_PH_2__",
+      "sourceHash": "c470e2a09272cb1992e72fc11825a94cfd44f3329fc82ad32265c828c244d5a5",
+      "context": "AI > LLM Providers",
+      "contextHash": "8ee5c59012c68d777124fe1a819e6a2bc9a2e91a04c46e752603574ce59ddd40",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_004f98eda1a5b570d3480b8e_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__ __TRILIUM_PH_1__GitHub Copilot__TRILIUM_PH_2__",
+      "sourceHash": "004f98eda1a5b570d3480b8e10f4becff46e31119addffb0081dfc51f7aa0199",
+      "context": "AI > LLM Providers",
+      "contextHash": "8ee5c59012c68d777124fe1a819e6a2bc9a2e91a04c46e752603574ce59ddd40",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_c37fd73ec50216a17b30667a_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__ __TRILIUM_PH_1__Google Antigravity__TRILIUM_PH_2__",
+      "sourceHash": "c37fd73ec50216a17b30667a83514d22f74baccd320f739c104110b5f4ffdebc",
+      "context": "AI > LLM Providers",
+      "contextHash": "8ee5c59012c68d777124fe1a819e6a2bc9a2e91a04c46e752603574ce59ddd40",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_46c1a02b291c729b3e0da3c5_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__ __TRILIUM_PH_1__OpenAI Codex__TRILIUM_PH_2__",
+      "sourceHash": "46c1a02b291c729b3e0da3c56b9b30b09d23c1ff1f123bd8204adb9221120bfd",
+      "context": "AI > LLM Providers",
+      "contextHash": "8ee5c59012c68d777124fe1a819e6a2bc9a2e91a04c46e752603574ce59ddd40",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_e819da4c0d4ff4f95096f7d1_0",
+      "kind": "p",
+      "source": "__TRILIUM_PH_0__ Local/self-hosted",
+      "sourceHash": "e819da4c0d4ff4f95096f7d178fbbe959da203a4fc7582e1ff8d6009183e064b",
+      "context": "AI > LLM Providers",
+      "contextHash": "8ee5c59012c68d777124fe1a819e6a2bc9a2e91a04c46e752603574ce59ddd40",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_c9bc196c720c5881e6e251d4_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__ Ollama",
+      "sourceHash": "c9bc196c720c5881e6e251d495865bc58031984cf000c36e3b2b27576d0907aa",
+      "context": "AI > LLM Providers",
+      "contextHash": "8ee5c59012c68d777124fe1a819e6a2bc9a2e91a04c46e752603574ce59ddd40",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_a97c6bbaf12b88a86442bc45_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__ LM Studio",
+      "sourceHash": "a97c6bbaf12b88a86442bc45e7acc275055245507a1f5ee7f3bd8684a30e452c",
+      "context": "AI > LLM Providers",
+      "contextHash": "8ee5c59012c68d777124fe1a819e6a2bc9a2e91a04c46e752603574ce59ddd40",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_1e4882995c57fe08bd06462e_0",
+      "kind": "p",
+      "source": "__TRILIUM_PH_0__ Custom endpoints",
+      "sourceHash": "1e4882995c57fe08bd06462ee866dcb4e6ac888b21509a8d7029449c09ebd705",
+      "context": "AI > LLM Providers",
+      "contextHash": "8ee5c59012c68d777124fe1a819e6a2bc9a2e91a04c46e752603574ce59ddd40",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_46ce47e47344b1dadaeb790a_0",
+      "kind": "p",
+      "source": "For other providers that are not directly supported by Trilium, either local or hosted (e.g. Groq, Mistral, Together).",
+      "sourceHash": "46ce47e47344b1dadaeb790a66b7184aa0a8f4eb53fba10b4d23cba4916988d9",
+      "context": "AI > LLM Providers",
+      "contextHash": "8ee5c59012c68d777124fe1a819e6a2bc9a2e91a04c46e752603574ce59ddd40",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_2e7899cf5f829098df60eb8e_0",
+      "kind": "p",
+      "source": "For more information about each provider, see __TRILIUM_PH_0__Providers__TRILIUM_PH_1__. See the dedicated __TRILIUM_PH_2__Privacy__TRILIUM_PH_3__ to better understand what data is sent to providers.",
+      "sourceHash": "2e7899cf5f829098df60eb8ef0abc317858a6d9a500c64d8a3bc4d48665762fa",
+      "context": "AI > LLM Providers",
+      "contextHash": "8ee5c59012c68d777124fe1a819e6a2bc9a2e91a04c46e752603574ce59ddd40",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_e8fdf4efb5062da245b42829_0",
+      "kind": "h2",
+      "source": "Enabling the AI integration__TRILIUM_PH_0__",
+      "sourceHash": "e8fdf4efb5062da245b4282924817889ceca3fceff4795f781d7c2a7b43917c4",
+      "context": "AI > Enabling the AI integration",
+      "contextHash": "dd528074c1af3738ca55888b86df3eb8f761d2ca1d9e1f3a54ad4134adc1798c",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_09ca99fa26fbd66484d9fbe2_0",
+      "kind": "p",
+      "source": "To enable the AI integration, simply go to __TRILIUM_PH_0__Options__TRILIUM_PH_1__ → __TRILIUM_PH_2__AI / LLM__TRILIUM_PH_3__ and press the toggle in the top-right of the dialog and configure a provider.",
+      "sourceHash": "09ca99fa26fbd66484d9fbe22dbda75b0ada07860442dc83df012e5ce61aa0a1",
+      "context": "AI > Enabling the AI integration",
+      "contextHash": "dd528074c1af3738ca55888b86df3eb8f761d2ca1d9e1f3a54ad4134adc1798c",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_d83b2c83760a8bf24e7d5586_0",
+      "kind": "h2",
+      "source": "Creating a new chat__TRILIUM_PH_0__",
+      "sourceHash": "d83b2c83760a8bf24e7d5586907a57c0302770f433f0bc5029966fb5a22d1c97",
+      "context": "AI > Creating a new chat",
+      "contextHash": "13d2359347a174678850f889f9eb28b674b066215523946ebadc521370af66b8",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_bb6908e44791b35e1a0a4de6_0",
+      "kind": "p",
+      "source": "There are two different chat interfaces:",
+      "sourceHash": "bb6908e44791b35e1a0a4de641f4c401ee93197a71bccfee38489fdb6a82e96b",
+      "context": "AI > Creating a new chat",
+      "contextHash": "13d2359347a174678850f889f9eb28b674b066215523946ebadc521370af66b8",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_968427fdc00431073dab6c66_0",
+      "kind": "li",
+      "source": "One in the sidebar.",
+      "sourceHash": "968427fdc00431073dab6c668dc5214393e5ec4e3bb7202c5fe6fc4f2251aa35",
+      "context": "AI > Creating a new chat",
+      "contextHash": "13d2359347a174678850f889f9eb28b674b066215523946ebadc521370af66b8",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_93f87bb19277e2edc9daf5eb_0",
+      "kind": "li",
+      "source": "A dedicated note type.",
+      "sourceHash": "93f87bb19277e2edc9daf5eb8e8d18d15142fe8de7e462f7c8572134fcac5944",
+      "context": "AI > Creating a new chat",
+      "contextHash": "13d2359347a174678850f889f9eb28b674b066215523946ebadc521370af66b8",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_49559f627760e9d6ea779707_0",
+      "kind": "h3",
+      "source": "The sidebar interface__TRILIUM_PH_0__",
+      "sourceHash": "49559f627760e9d6ea7797076c43f893e715a0918d4884070850d4b1f600b084",
+      "context": "AI > Creating a new chat > The sidebar interface",
+      "contextHash": "0be6410f947f293a427c4bb683acc12081feafa3c9c413915f8495274b420883",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_0b35c8a5327ccd0158cbb805_0",
+      "kind": "h3",
+      "source": "The dedicated note type__TRILIUM_PH_0__",
+      "sourceHash": "0b35c8a5327ccd0158cbb805a9766afb616fca2419908e87d3e6599b7c93828b",
+      "context": "AI > Creating a new chat > The dedicated note type",
+      "contextHash": "099b8dc5708f86e6506309fb1c92e2009670756af285d41bcfbde079bd84af28",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_94aa069db7d85558e86b6b28_0",
+      "kind": "p",
+      "source": "The dedicated chat note is similar to the sidebar interface, but it makes longer conversations more comfortable to read.",
+      "sourceHash": "94aa069db7d85558e86b6b288ed2685e2d999a3068cd0dc4be5f561539e75f62",
+      "context": "AI > Creating a new chat > The dedicated note type",
+      "contextHash": "099b8dc5708f86e6506309fb1c92e2009670756af285d41bcfbde079bd84af28",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_0a2070d2b3836ac82e9b6511_0",
+      "kind": "p",
+      "source": "Unlike the sidebar, the AI will not be aware of the current note it's in.",
+      "sourceHash": "0a2070d2b3836ac82e9b6511c469f2a0e39384b35d7720a8577e0e4db8713a80",
+      "context": "AI > Creating a new chat > The dedicated note type",
+      "contextHash": "099b8dc5708f86e6506309fb1c92e2009670756af285d41bcfbde079bd84af28",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_4edb4b5b08fc339c6238bf45_0",
+      "kind": "h3",
+      "source": "Templates__TRILIUM_PH_0__",
+      "sourceHash": "4edb4b5b08fc339c6238bf45c1da831ee873ed45ccd8ab9a231972d10d8ff958",
+      "context": "AI > Creating a new chat > Templates",
+      "contextHash": "8e3f6d54c2952e17e487b13fa0d1d852d7f690b2c161d4cffeac9949346fe121",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_e288fb0ce0039de9c7eec4b4_0",
+      "kind": "p",
+      "source": "Chat notes can be set as __TRILIUM_PH_0__Templates__TRILIUM_PH_1__ to make them easily reusable. The entire conversation history is kept, allowing a basic form of specialization for the LLM with the existing chat acting like a system prompt. ",
+      "sourceHash": "e288fb0ce0039de9c7eec4b4c40816170ba840e4126cb80ae5dbd9de09bb7da3",
+      "context": "AI > Creating a new chat > Templates",
+      "contextHash": "8e3f6d54c2952e17e487b13fa0d1d852d7f690b2c161d4cffeac9949346fe121",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_b77cf6bbe27f8fda1cee8297_0",
+      "kind": "h3",
+      "source": "Model selection__TRILIUM_PH_0__",
+      "sourceHash": "b77cf6bbe27f8fda1cee82971b758a388819a3443a43b2f832aa6d1239c2abcd",
+      "context": "AI > Creating a new chat > Model selection",
+      "contextHash": "9a1f6176dd2c49c69d879201e51b36314e41132f29e762cd5e92198798d5af9d",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_8a6508c8da43f16758545a7e_0",
+      "kind": "p",
+      "source": "When a provider is configured in __TRILIUM_PH_0__Options__TRILIUM_PH_1__, the next step is to select the models that will be available for the chat.",
+      "sourceHash": "8a6508c8da43f16758545a7ec53762d52dcd8df919e8944f3a72dede5cdf988a",
+      "context": "AI > Creating a new chat > Model selection",
+      "contextHash": "9a1f6176dd2c49c69d879201e51b36314e41132f29e762cd5e92198798d5af9d",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_50c04b18a15454cb682729c1_0",
+      "kind": "p",
+      "source": "The models are retrieved dynamically from the provider, only when the model selection list is visible. To alter the list of models, simply press the Edit button in the model selection box.",
+      "sourceHash": "50c04b18a15454cb682729c10fe5c419aec521a0b72d990691910a2b89e571ed",
+      "context": "AI > Creating a new chat > Model selection",
+      "contextHash": "9a1f6176dd2c49c69d879201e51b36314e41132f29e762cd5e92198798d5af9d",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_9117defa45efc2144eeacf1a_0",
+      "kind": "p",
+      "source": "Pricing information is displayed for known models. The pricing information (price per million tokens) is embedded in the application (using a subset of LiteLLM's data) and is updated with new versions of Trilium. Local providers are considered free, whereas custom endpoint providers don't offer any pricing information.",
+      "sourceHash": "9117defa45efc2144eeacf1a832025315b10b240531062ae36ece215cb16b1ae",
+      "context": "AI > Creating a new chat > Model selection",
+      "contextHash": "9a1f6176dd2c49c69d879201e51b36314e41132f29e762cd5e92198798d5af9d",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_173eb5dfe9205894c659d17f_0",
+      "kind": "h2",
+      "source": "Features__TRILIUM_PH_0__",
+      "sourceHash": "173eb5dfe9205894c659d17f720b8c5c74f26222a129e8eedc92f012fab78d12",
+      "context": "AI > Features",
+      "contextHash": "98566490fe70e4951d6422d92da20923ac0589728a039cb4d62d2a8dd6767656",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_fe14991b9aaa03ce36071ac2_0",
+      "kind": "h3",
+      "source": "Web search__TRILIUM_PH_0__",
+      "sourceHash": "fe14991b9aaa03ce36071ac2116e77b11505bb62da287b4ede42b2ee101f81d9",
+      "context": "AI > Features > Web search",
+      "contextHash": "40c22096c876311ad45ac4be012db374e96ca649f426eedd85875d1be92e5ba6",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_bc0cea3ba5f2c93cfbc94a04_0",
+      "kind": "p",
+      "source": "The AI can optionally search the web to find more information about a specific topic. ",
+      "sourceHash": "bc0cea3ba5f2c93cfbc94a0491d0d85db1cddb31d6736f8693aeeefb4c655cd0",
+      "context": "AI > Features > Web search",
+      "contextHash": "40c22096c876311ad45ac4be012db374e96ca649f426eedd85875d1be92e5ba6",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_24c49d59f05d0e793adf6bf5_0",
+      "kind": "p",
+      "source": "Where the search comes from is chosen in the __TRILIUM_PH_0__Web search__TRILIUM_PH_1__ submenu of the __TRILIUM_PH_2____TRILIUM_PH_3__Tools__TRILIUM_PH_4__ menu next to the model selector at the bottom of the chat, whose row shows the source in use:",
+      "sourceHash": "24c49d59f05d0e793adf6bf5d15b72e93d9c200bef7e01ef03a90fe9ce11fddc",
+      "context": "AI > Features > Web search",
+      "contextHash": "40c22096c876311ad45ac4be012db374e96ca649f426eedd85875d1be92e5ba6",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_26b299968665eae2331026ea_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__Disabled__TRILIUM_PH_1__ turns web search off for this chat.",
+      "sourceHash": "26b299968665eae2331026ea47e645a2bfa41314e240a7e4f10626d6747ca848",
+      "context": "AI > Features > Web search",
+      "contextHash": "40c22096c876311ad45ac4be012db374e96ca649f426eedd85875d1be92e5ba6",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_e68bd52f770d4986e6f5a597_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__Use the model's built-in search__TRILIUM_PH_1__, the default, lets the model search with its provider's own search. Anthropic, OpenAI, Google Gemini and DeepSeek models have one, as do Claude Code, Google Antigravity and OpenAI Codex. OpenRouter, Ollama, LM Studio and custom endpoints don't, so this choice is disabled for their models. DeepSeek's search is billed per search on your DeepSeek account and works only with DeepSeek's own endpoint, not with a custom base URL.",
+      "sourceHash": "e68bd52f770d4986e6f5a59767ef32d402fa9a6f50e82faebb1b95746bae2275",
+      "context": "AI > Features > Web search",
+      "contextHash": "40c22096c876311ad45ac4be012db374e96ca649f426eedd85875d1be92e5ba6",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_32d1d7ca6cc0e1f904c5667d_0",
+      "kind": "li",
+      "source": "A search provider (Brave Search, Tavily, Exa, Serper, Perplexity or SearXNG) searches through that service instead, whichever model is answering. Search providers are added in the __TRILIUM_PH_0__Search Providers__TRILIUM_PH_1__ section of the AI settings, which __TRILIUM_PH_2__Manage search providers__TRILIUM_PH_3__ at the bottom of the submenu opens. The browser version can't use Brave Search, Exa or Perplexity, whose services refuse requests made from a web page, so they're shown disabled there.",
+      "sourceHash": "32d1d7ca6cc0e1f904c5667dc6aebac8712811e6b094218049d62cfd1e99002a",
+      "context": "AI > Features > Web search",
+      "contextHash": "40c22096c876311ad45ac4be012db374e96ca649f426eedd85875d1be92e5ba6",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_393b20b4e03d70e9476e68f4_0",
+      "kind": "p",
+      "source": "To use SearXNG, enable its JSON output by adding __TRILIUM_PH_0__ to the search formats in the instance's __TRILIUM_PH_1__. SearXNG turns JSON off by default, and without it every search fails.",
+      "sourceHash": "393b20b4e03d70e9476e68f4ef9360e20b69847b781e533aa61ce7692bd208a4",
+      "context": "AI > Features > Web search",
+      "contextHash": "40c22096c876311ad45ac4be012db374e96ca649f426eedd85875d1be92e5ba6",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_4728c950de5fa483cbd2bbd7_0",
+      "kind": "p",
+      "source": "SearXNG doesn't use API keys, so leave the API key empty. Fill it in only if your instance sits behind a proxy that requires a token; Trilium sends it as a bearer token in the __TRILIUM_PH_0__ header.",
+      "sourceHash": "4728c950de5fa483cbd2bbd75fc063d40ba776eba3edca3f41ccb56ebf35f3ce",
+      "context": "AI > Features > Web search",
+      "contextHash": "40c22096c876311ad45ac4be012db374e96ca649f426eedd85875d1be92e5ba6",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_a418409c70a899887545978e_0",
+      "kind": "p",
+      "source": "Whether web search is on is kept per chat; the search source is shared by all chats. A choice the current model can't use stays in the menu, disabled; hover the __TRILIUM_PH_0__ icon next to it to see why. Claude Code, GitHub Copilot, Google Antigravity and OpenAI Codex run their own tools, so they can't use a search provider.",
+      "sourceHash": "a418409c70a899887545978e9a885015d42dabe23cad1360e3714cd7590dc5fb",
+      "context": "AI > Features > Web search",
+      "contextHash": "40c22096c876311ad45ac4be012db374e96ca649f426eedd85875d1be92e5ba6",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_96844ff43d07173cc64f9fc1_0",
+      "kind": "p",
+      "source": "In the chat, a search run through a search provider shows that provider's logo at the start of its line instead of the __TRILIUM_PH_0__ magnifier; hover the logo to see the provider's name.",
+      "sourceHash": "96844ff43d07173cc64f9fc1785d9897b42e299c675eb0df99b22200117077e4",
+      "context": "AI > Features > Web search",
+      "contextHash": "40c22096c876311ad45ac4be012db374e96ca649f426eedd85875d1be92e5ba6",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_9511a3e4c57e75bc83ae20ae_0",
+      "kind": "p",
+      "source": "With a search provider, the model can also read the pages it finds, or a link you give it, as text: Trilium fetches the page itself and hands the model up to its first 20,000 characters. Addresses on your own machine or network are refused. In the browser version most sites don't allow being read this way, so reading a page there usually fails.",
+      "sourceHash": "9511a3e4c57e75bc83ae20ae1b5857f935f23c57ec399e348545366960b7a424",
+      "context": "AI > Features > Web search",
+      "contextHash": "40c22096c876311ad45ac4be012db374e96ca649f426eedd85875d1be92e5ba6",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_a0c2a6069b4314d7c5c9b8cc_0",
+      "kind": "h3",
+      "source": "Thinking__TRILIUM_PH_0__",
+      "sourceHash": "a0c2a6069b4314d7c5c9b8cc8b71846daecdd58f8ae5ed751e2f8f47dab41620",
+      "context": "AI > Features > Thinking",
+      "contextHash": "0b667c9c93c19c8622a6ccaf52961037dfc263219a0a5014a69bb3ae96d17ac7",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_34e9c77fcd6c12e44b7cc811_0",
+      "kind": "p",
+      "source": "Some models reason before they answer. While the model is thinking, its reasoning is shown in full under a spinner; once it is done, it folds into a collapsible __TRILIUM_PH_0__Thought process__TRILIUM_PH_1__ line above the reply.",
+      "sourceHash": "34e9c77fcd6c12e44b7cc811e5014333096f76d97b34f7d778341a9813393acd",
+      "context": "AI > Features > Thinking",
+      "contextHash": "0b667c9c93c19c8622a6ccaf52961037dfc263219a0a5014a69bb3ae96d17ac7",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_8b15b5c09bc562eb78d3479a_0",
+      "kind": "p",
+      "source": "How much a model thinks is set per chat, in one of two ways depending on the model:",
+      "sourceHash": "8b15b5c09bc562eb78d3479ad1acfccbe816e9aa887254463f25fc6f992174dd",
+      "context": "AI > Features > Thinking",
+      "contextHash": "0b667c9c93c19c8622a6ccaf52961037dfc263219a0a5014a69bb3ae96d17ac7",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_7e2973a11870091fb3fb71ab_0",
+      "kind": "li",
+      "source": "Most models have an __TRILIUM_PH_0____TRILIUM_PH_1__Extended thinking__TRILIUM_PH_2__ button, next to the __TRILIUM_PH_3____TRILIUM_PH_4__Tools__TRILIUM_PH_5__ button.",
+      "sourceHash": "7e2973a11870091fb3fb71ab9829ec2aa83879200d4301ba105082a9aeec4389",
+      "context": "AI > Features > Thinking",
+      "contextHash": "0b667c9c93c19c8622a6ccaf52961037dfc263219a0a5014a69bb3ae96d17ac7",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_293475be865fcd86ca068b10_0",
+      "kind": "li",
+      "source": "Models that offer several levels of reasoning (DeepSeek V4, OpenRouter models that reason, OpenAI Codex, Antigravity) have a __TRILIUM_PH_0__ reasoning effort dropdown next to the model selector instead. __TRILIUM_PH_1__None__TRILIUM_PH_2__, where offered, turns thinking off; higher levels give better answers to hard questions, but take longer and cost more.",
+      "sourceHash": "293475be865fcd86ca068b10bfbb7d76bd704cf3b38e17ad449e6fd736e11ad5",
+      "context": "AI > Features > Thinking",
+      "contextHash": "0b667c9c93c19c8622a6ccaf52961037dfc263219a0a5014a69bb3ae96d17ac7",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_2160b101c6ec2c8ced64c281_0",
+      "kind": "p",
+      "source": "The effort dropdown only appears once Trilium knows the model's levels. For a DeepSeek provider set up with an earlier version of Trilium, edit the provider in the model selection box and press __TRILIUM_PH_0__Save__TRILIUM_PH_1__ once.",
+      "sourceHash": "2160b101c6ec2c8ced64c281f5ffe34ac5e60fcc63fbaf42e1242049887d8e42",
+      "context": "AI > Features > Thinking",
+      "contextHash": "0b667c9c93c19c8622a6ccaf52961037dfc263219a0a5014a69bb3ae96d17ac7",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_d5e85808bf27c73491b7ebcd_0",
+      "kind": "h3",
+      "source": "Note access (tools)__TRILIUM_PH_0__",
+      "sourceHash": "d5e85808bf27c73491b7ebcd35bb7be66ee2ecf78d1ae2ea1eade34c56ae3749",
+      "context": "AI > Features > Note access (tools)",
+      "contextHash": "6f3e493902e3e92f39fa7a22a96e890712fe2237c45a1bdd5b9c285f9cb92613",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_d3439d7a57e1265421d58ecd_0",
+      "kind": "p",
+      "source": "Tools allow the agentic AI to understand and operate on notes directly within your Trilium instance.",
+      "sourceHash": "d3439d7a57e1265421d58ecdaf3f6daff5e0241ddfd0b39af0aff194882e054e",
+      "context": "AI > Features > Note access (tools)",
+      "contextHash": "6f3e493902e3e92f39fa7a22a96e890712fe2237c45a1bdd5b9c285f9cb92613",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_0839889ae7a210033f93d8f2_0",
+      "kind": "p",
+      "source": "This feature is on by default. To turn it off, press the __TRILIUM_PH_0____TRILIUM_PH_1__Tools__TRILIUM_PH_2__ button next to the model selector at the bottom of the chat and switch off __TRILIUM_PH_3__Note access__TRILIUM_PH_4__. The __TRILIUM_PH_5__Tools__TRILIUM_PH_6__ button is highlighted while note access or web search is on.",
+      "sourceHash": "0839889ae7a210033f93d8f2fcf4a3462edf08a682960169843f2cd7a799ab7d",
+      "context": "AI > Features > Note access (tools)",
+      "contextHash": "6f3e493902e3e92f39fa7a22a96e890712fe2237c45a1bdd5b9c285f9cb92613",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_dc9c544f0875c98d260f5122_0",
+      "kind": "p",
+      "source": "Here are a few tools that Trilium provides for the LLM:",
+      "sourceHash": "dc9c544f0875c98d260f512269715b0490920b679f90652a8dd6f4720b452dad",
+      "context": "AI > Features > Note access (tools)",
+      "contextHash": "6f3e493902e3e92f39fa7a22a96e890712fe2237c45a1bdd5b9c285f9cb92613",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_82aed4eb77b4a00386bad247_0",
+      "kind": "li",
+      "source": "At note level:",
+      "sourceHash": "82aed4eb77b4a00386bad2478139c9005483d3c055ccae8327638225a1720db2",
+      "context": "AI > Features > Note access (tools)",
+      "contextHash": "6f3e493902e3e92f39fa7a22a96e890712fe2237c45a1bdd5b9c285f9cb92613",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_0e397bccca87bfabef96ade6_0",
+      "kind": "li",
+      "source": "Search for notes",
+      "sourceHash": "0e397bccca87bfabef96ade6b982e1626e88bbb0c361a09a6fe18e6771866cda",
+      "context": "AI > Features > Note access (tools)",
+      "contextHash": "6f3e493902e3e92f39fa7a22a96e890712fe2237c45a1bdd5b9c285f9cb92613",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_f24b2f7acebff95d90a2c372_0",
+      "kind": "li",
+      "source": "Get the metadata or content of a note.",
+      "sourceHash": "f24b2f7acebff95d90a2c37256af52145f07d5cb830efee9cbdea415602508d1",
+      "context": "AI > Features > Note access (tools)",
+      "contextHash": "6f3e493902e3e92f39fa7a22a96e890712fe2237c45a1bdd5b9c285f9cb92613",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_27a825bab7876df6211825c3_0",
+      "kind": "li",
+      "source": "Edit a note",
+      "sourceHash": "27a825bab7876df6211825c31a0e376e05a4bd22458ebad303c2f7a37c3df467",
+      "context": "AI > Features > Note access (tools)",
+      "contextHash": "6f3e493902e3e92f39fa7a22a96e890712fe2237c45a1bdd5b9c285f9cb92613",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_5b449c7f4b1684e15c9e6b59_0",
+      "kind": "li",
+      "source": "There are multiple mechanism for the LLM to edit a note: completely by re-writing it, find/replace of a text sequence or append.",
+      "sourceHash": "5b449c7f4b1684e15c9e6b5933b322997da7b1c07edd421fda7be11f59ec4a39",
+      "context": "AI > Features > Note access (tools)",
+      "contextHash": "6f3e493902e3e92f39fa7a22a96e890712fe2237c45a1bdd5b9c285f9cb92613",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_56bd9d030d62b4f0ea2405ec_0",
+      "kind": "li",
+      "source": "When re-writing a note, the LLM can also change its type (for example from a text note to a code note) or the language of a code note, rewriting the content to match.",
+      "sourceHash": "56bd9d030d62b4f0ea2405ecdc15dcdd579d152463f2397e5f486b825979eee9",
+      "context": "AI > Features > Note access (tools)",
+      "contextHash": "6f3e493902e3e92f39fa7a22a96e890712fe2237c45a1bdd5b9c285f9cb92613",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_87a506517d934e686ef1b9cf_0",
+      "kind": "li",
+      "source": "Whenever the AI makes a change, a __TRILIUM_PH_0__revision__TRILIUM_PH_1__ is saved to be able to revert any unwanted changes.",
+      "sourceHash": "87a506517d934e686ef1b9cfa6981cecfa196cda5b8158c8751eaeb0a7ceebd4",
+      "context": "AI > Features > Note access (tools)",
+      "contextHash": "6f3e493902e3e92f39fa7a22a96e890712fe2237c45a1bdd5b9c285f9cb92613",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_c0bce724e391c18720602b96_0",
+      "kind": "li",
+      "source": "Create a new note",
+      "sourceHash": "c0bce724e391c18720602b96ac13ff732eeb452ed9b9990fc855be5be46ed62d",
+      "context": "AI > Features > Note access (tools)",
+      "contextHash": "6f3e493902e3e92f39fa7a22a96e890712fe2237c45a1bdd5b9c285f9cb92613",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_332269d63d26e07bc77ab3f2_0",
+      "kind": "li",
+      "source": "Asked for a drawing, the LLM can create an SVG image note, or turn an existing note into one. It can write only SVG images, not other formats such as PNG.",
+      "sourceHash": "332269d63d26e07bc77ab3f29888f604f7241cc5f90d5ff44105198373097fb9",
+      "context": "AI > Features > Note access (tools)",
+      "contextHash": "6f3e493902e3e92f39fa7a22a96e890712fe2237c45a1bdd5b9c285f9cb92613",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_c93705214fc5f105db508c57_0",
+      "kind": "li",
+      "source": "Rename or delete a note.",
+      "sourceHash": "c93705214fc5f105db508c5710e99d1d78e865ceb1d1f015b76caa08cc101ddd",
+      "context": "AI > Features > Note access (tools)",
+      "contextHash": "6f3e493902e3e92f39fa7a22a96e890712fe2237c45a1bdd5b9c285f9cb92613",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_af74007c6ddd5bbaf45a331d_0",
+      "kind": "li",
+      "source": "At attribute level:",
+      "sourceHash": "af74007c6ddd5bbaf45a331db6957d3e118f3ca8dafcbcfddf7a3a73e409d9f8",
+      "context": "AI > Features > Note access (tools)",
+      "contextHash": "6f3e493902e3e92f39fa7a22a96e890712fe2237c45a1bdd5b9c285f9cb92613",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_aad2f427987a266bb5a30257_0",
+      "kind": "li",
+      "source": "Get the full list of attributes, or a specific attribute.",
+      "sourceHash": "aad2f427987a266bb5a3025783f949d7b3fa4747bd31a01d62bd10ab9e51cb28",
+      "context": "AI > Features > Note access (tools)",
+      "contextHash": "6f3e493902e3e92f39fa7a22a96e890712fe2237c45a1bdd5b9c285f9cb92613",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_c55cdc62203ca24b0b0528bb_0",
+      "kind": "li",
+      "source": "Set the value of an attribute, or add another value next to the existing ones (such as a second __TRILIUM_PH_0__). When setting a value replaces an existing one, the AI is told which value it replaced.",
+      "sourceHash": "c55cdc62203ca24b0b0528bbde2291935d37ee59cb8b7d1cb55073225e070fcb",
+      "context": "AI > Features > Note access (tools)",
+      "contextHash": "6f3e493902e3e92f39fa7a22a96e890712fe2237c45a1bdd5b9c285f9cb92613",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_da53cde7681643f048becf12_0",
+      "kind": "li",
+      "source": "An attribute that runs code, such as __TRILIUM_PH_0__, __TRILIUM_PH_1__ or __TRILIUM_PH_2__, is saved with a __TRILIUM_PH_3__ prefix (for example __TRILIUM_PH_4__), the same way a safe import disables it (see __TRILIUM_PH_5__Active content__TRILIUM_PH_6__). If the note already had that attribute enabled and the AI sets rather than adds the value, the AI removes the enabled one, so none of it runs until you enable the new value. The AI tells you which note it is on; review the code, then enable it with the toggle next to the active content badge beside the note's title or, for a __TRILIUM_PH_7__Render Note__TRILIUM_PH_8__, the __TRILIUM_PH_9__Enable render note__TRILIUM_PH_10__ button in the note.",
+      "sourceHash": "da53cde7681643f048becf12b112086d912e84749c7764582242b895d0452d27",
+      "context": "AI > Features > Note access (tools)",
+      "contextHash": "6f3e493902e3e92f39fa7a22a96e890712fe2237c45a1bdd5b9c285f9cb92613",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_c27bde32994bd4a2b514c30e_0",
+      "kind": "li",
+      "source": "Delete an attribute.",
+      "sourceHash": "c27bde32994bd4a2b514c30e9ac715d2a05b2c880844967e74a5116e0acdc0ed",
+      "context": "AI > Features > Note access (tools)",
+      "contextHash": "6f3e493902e3e92f39fa7a22a96e890712fe2237c45a1bdd5b9c285f9cb92613",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_fce82fcd05a0d56cf7395de9_0",
+      "kind": "li",
+      "source": "At tree level:",
+      "sourceHash": "fce82fcd05a0d56cf7395de9cc5894cfcd84cbfbe1d16b1635e5cc4c960a63a4",
+      "context": "AI > Features > Note access (tools)",
+      "contextHash": "6f3e493902e3e92f39fa7a22a96e890712fe2237c45a1bdd5b9c285f9cb92613",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_e359dbb1fd513c9b6f5de3e5_0",
+      "kind": "li",
+      "source": "Get the direct children of a note.",
+      "sourceHash": "e359dbb1fd513c9b6f5de3e567d0b7c6f34d570039fd6d6b487eee671c268b59",
+      "context": "AI > Features > Note access (tools)",
+      "contextHash": "6f3e493902e3e92f39fa7a22a96e890712fe2237c45a1bdd5b9c285f9cb92613",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_83b238731d16c35a303ceb59_0",
+      "kind": "li",
+      "source": "Get the entire subtree of a note.",
+      "sourceHash": "83b238731d16c35a303ceb5932ad57a420f2eae54cb946d20a8b558ba8c4a27a",
+      "context": "AI > Features > Note access (tools)",
+      "contextHash": "6f3e493902e3e92f39fa7a22a96e890712fe2237c45a1bdd5b9c285f9cb92613",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_4f32083e15e91d7943f1a9d9_0",
+      "kind": "li",
+      "source": "Move or clone a note somewhere else.",
+      "sourceHash": "4f32083e15e91d7943f1a9d91aa8f3a5f70877dae2839a436fc6f4456ec9bc3b",
+      "context": "AI > Features > Note access (tools)",
+      "contextHash": "6f3e493902e3e92f39fa7a22a96e890712fe2237c45a1bdd5b9c285f9cb92613",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_e9be50d9df4343d53b176d69_0",
+      "kind": "li",
+      "source": "For __TRILIUM_PH_0__Attachments__TRILIUM_PH_1__:",
+      "sourceHash": "e9be50d9df4343d53b176d692425aad26c0efc0d8c0b172d41ccd115ad9b5a72",
+      "context": "AI > Features > Note access (tools)",
+      "contextHash": "6f3e493902e3e92f39fa7a22a96e890712fe2237c45a1bdd5b9c285f9cb92613",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_b258e69b564a8041a74c8e79_0",
+      "kind": "li",
+      "source": "Get metadata for an attachment.",
+      "sourceHash": "b258e69b564a8041a74c8e79020e223d18d666870cb75e0ae7f36ed1421db732",
+      "context": "AI > Features > Note access (tools)",
+      "contextHash": "6f3e493902e3e92f39fa7a22a96e890712fe2237c45a1bdd5b9c285f9cb92613",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_50eb1b7a709c5f76f7872e39_0",
+      "kind": "li",
+      "source": "Get the content of an attachment.",
+      "sourceHash": "50eb1b7a709c5f76f7872e39d30547c9638109c6015c94532a0d2790efbdb52e",
+      "context": "AI > Features > Note access (tools)",
+      "contextHash": "6f3e493902e3e92f39fa7a22a96e890712fe2237c45a1bdd5b9c285f9cb92613",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_fe43ed26cd3afc4d8e714c63_0",
+      "kind": "li",
+      "source": "Skills (see the dedicated section).",
+      "sourceHash": "fe43ed26cd3afc4d8e714c636c4237e911209dc79d011d500a90666d54e45a1b",
+      "context": "AI > Features > Note access (tools)",
+      "contextHash": "6f3e493902e3e92f39fa7a22a96e890712fe2237c45a1bdd5b9c285f9cb92613",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_adf4b61b9ca447b0c3f74ab9_0",
+      "kind": "p",
+      "source": "Each tool the AI uses appears in the chat as a single line naming the tool and the note or query it worked on; a renamed note shows its previous title struck through, a deleted note its title struck through, a moved note where it was moved from and to, an attribute the AI read, set, added or deleted as a pill (struck through once deleted), an attachment by its title, note and size, and a web page the AI read as a link. A line folds open only when there is something to read inline: the notes a search found, the pages a web search found, the icons an icon search found, the type, attributes or start of the content of a note the AI read, all the attributes of a note, the text of an attachment or of a web page, the User Guide pages the AI looked up or its table of contents (both open in the help panel), the children or the whole subtree of a note, what the AI wrote into a note it created, rewrote or added to, the changes of an edit, or the reason a tool failed. A search names on its line the part of the tree it is confined to, if any, and also shows how many notes it found and how many of the matches the AI asked for; each note it lists opens with a click. To see exactly what the AI sent to a tool and what it got back, hover the line and press the __TRILIUM_PH_0__ button next to it; on touch screens the button is always shown.",
+      "sourceHash": "adf4b61b9ca447b0c3f74ab95d298d703a1d48fdfae3598cedf4e897b69f28db",
+      "context": "AI > Features > Note access (tools)",
+      "contextHash": "6f3e493902e3e92f39fa7a22a96e890712fe2237c45a1bdd5b9c285f9cb92613",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_6a688020484d97c7f3671c0c_0",
+      "kind": "p",
+      "source": "When the reply stops moving for a couple of seconds while the AI is still at work, for example while it reads what a tool returned, a __TRILIUM_PH_0__Still working…__TRILIUM_PH_1__ line appears under it until the next part of the reply arrives.",
+      "sourceHash": "6a688020484d97c7f3671c0ca7bbfbd6012edba88f00e97c3a639b3be700fc73",
+      "context": "AI > Features > Note access (tools)",
+      "contextHash": "6f3e493902e3e92f39fa7a22a96e890712fe2237c45a1bdd5b9c285f9cb92613",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_515a10ee15082bdad168ba10_0",
+      "kind": "h4",
+      "source": "Approving tool calls__TRILIUM_PH_0__",
+      "sourceHash": "515a10ee15082bdad168ba10497cc0282a076de1b111f89b2cc39c17cab8e6bb",
+      "context": "AI > Features > Note access (tools) > Approving tool calls",
+      "contextHash": "5b6a529ca3b3cd4589b0e5245c8487e7aab848595284ad94350219c7b1b92a6e",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_aa7ee6309f21aef86a2c8887_0",
+      "kind": "p",
+      "source": "Before the AI runs a tool, the chat asks whether to allow it. The tool's line is marked with a __TRILIUM_PH_0__ icon and has __TRILIUM_PH_1__Allow__TRILIUM_PH_2__ and __TRILIUM_PH_3__Deny__TRILIUM_PH_4__ buttons below it. When the call would write to a note, the line opens on the text it would write or the changes of an edit. The reply waits until you answer.",
+      "sourceHash": "aa7ee6309f21aef86a2c8887b59c6c9dfdd48f4be57bf6736eddbc83f9c38847",
+      "context": "AI > Features > Note access (tools) > Approving tool calls",
+      "contextHash": "5b6a529ca3b3cd4589b0e5245c8487e7aab848595284ad94350219c7b1b92a6e",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_cd4259b177e50db96767445a_0",
+      "kind": "li",
+      "source": "To let the call run, press __TRILIUM_PH_0__Allow__TRILIUM_PH_1__.",
+      "sourceHash": "cd4259b177e50db96767445ac383be28fba13f8d580bd92b606457e58ec07cc2",
+      "context": "AI > Features > Note access (tools) > Approving tool calls",
+      "contextHash": "5b6a529ca3b3cd4589b0e5245c8487e7aab848595284ad94350219c7b1b92a6e",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_9df690a9ca760e9720045b62_0",
+      "kind": "li",
+      "source": "To stop asking about a tool for the rest of the chat, open the menu next to __TRILIUM_PH_0__Allow__TRILIUM_PH_1__ and choose to always allow that tool for this chat. The call runs, and so do the other calls of that tool still waiting and every later one in this chat. Other tools keep asking, and a new chat asks again.",
+      "sourceHash": "9df690a9ca760e9720045b62ff2f43ecf911df43f1262b2a44243975f8b5362a",
+      "context": "AI > Features > Note access (tools) > Approving tool calls",
+      "contextHash": "5b6a529ca3b3cd4589b0e5245c8487e7aab848595284ad94350219c7b1b92a6e",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_9ffd2b3607f63b9fea9bcf63_0",
+      "kind": "li",
+      "source": "To refuse it, press __TRILIUM_PH_0__Deny__TRILIUM_PH_1__. The AI is told that you declined, and its reply carries on without the call, which is marked __TRILIUM_PH_2__denied__TRILIUM_PH_3__.",
+      "sourceHash": "9ffd2b3607f63b9fea9bcf63c019267a6d0cf7d8aa53f2c303d7e45e58853328",
+      "context": "AI > Features > Note access (tools) > Approving tool calls",
+      "contextHash": "5b6a529ca3b3cd4589b0e5245c8487e7aab848595284ad94350219c7b1b92a6e",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_ef6b732385cbca7eb067899f_0",
+      "kind": "li",
+      "source": "Stopping the reply denies every call that is still waiting.",
+      "sourceHash": "ef6b732385cbca7eb067899f9bc6e3164a5fbe6ef4051983663783540fb100bf",
+      "context": "AI > Features > Note access (tools) > Approving tool calls",
+      "contextHash": "5b6a529ca3b3cd4589b0e5245c8487e7aab848595284ad94350219c7b1b92a6e",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_ba73e58592a2e69e287ac872_0",
+      "kind": "p",
+      "source": "To make a chat ask about a tool again, open the __TRILIUM_PH_0____TRILIUM_PH_1__Tools__TRILIUM_PH_2__ menu at the bottom of the chat and, under __TRILIUM_PH_3__Allowed in this chat__TRILIUM_PH_4__, press the tool. The submenu is shown once the chat has allowed a tool.",
+      "sourceHash": "ba73e58592a2e69e287ac87202401e03528228a770c882e217ada495ccbf5dea",
+      "context": "AI > Features > Note access (tools) > Approving tool calls",
+      "contextHash": "5b6a529ca3b3cd4589b0e5245c8487e7aab848595284ad94350219c7b1b92a6e",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_021bd0b132d7ef83680611f2_0",
+      "kind": "p",
+      "source": "Which calls ask depends on the chat's permission mode, chosen in the __TRILIUM_PH_0____TRILIUM_PH_1__Tools__TRILIUM_PH_2__ menu under __TRILIUM_PH_3__Permissions__TRILIUM_PH_4__:",
+      "sourceHash": "021bd0b132d7ef83680611f273190387c74d343744dd6de773f190b83f3f5b72",
+      "context": "AI > Features > Note access (tools) > Approving tool calls",
+      "contextHash": "5b6a529ca3b3cd4589b0e5245c8487e7aab848595284ad94350219c7b1b92a6e",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_3e59fd0a15ead3f2095bc541_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__Always ask__TRILIUM_PH_1__: every call asks, including the ones that only read (searching notes, or reading a note or an attachment).",
+      "sourceHash": "3e59fd0a15ead3f2095bc5411c5788e1efd07f05c13433ca45381ca2933f20a3",
+      "context": "AI > Features > Note access (tools) > Approving tool calls",
+      "contextHash": "5b6a529ca3b3cd4589b0e5245c8487e7aab848595284ad94350219c7b1b92a6e",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_ce256f8cf284870fddadd103_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__Ask before changes__TRILIUM_PH_1__: the calls that only read run on their own, and the ones that change your notes (creating, editing, renaming, moving or deleting a note, and setting, adding or deleting an attribute) ask.",
+      "sourceHash": "ce256f8cf284870fddadd103a486e05b104f6334b5b9b6f3cafbe3e3a3f1b3a6",
+      "context": "AI > Features > Note access (tools) > Approving tool calls",
+      "contextHash": "5b6a529ca3b3cd4589b0e5245c8487e7aab848595284ad94350219c7b1b92a6e",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_538acc39ce9c2d2e16052b02_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__Don't ask__TRILIUM_PH_1__: every call runs without asking, changes included.",
+      "sourceHash": "538acc39ce9c2d2e16052b0282242c85a09db67caec5e14228e39d923ae7d9d1",
+      "context": "AI > Features > Note access (tools) > Approving tool calls",
+      "contextHash": "5b6a529ca3b3cd4589b0e5245c8487e7aab848595284ad94350219c7b1b92a6e",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_ff52845a940757ce6d852830_0",
+      "kind": "p",
+      "source": "A new chat starts in the mode you picked last, in any chat, or in __TRILIUM_PH_0__Ask before changes__TRILIUM_PH_1__ until you pick one. Picking __TRILIUM_PH_2__Don't ask__TRILIUM_PH_3__ therefore carries over to the next chat too.",
+      "sourceHash": "ff52845a940757ce6d8528300546edf7528e8d7c795a14957bc1b68733087473",
+      "context": "AI > Features > Note access (tools) > Approving tool calls",
+      "contextHash": "5b6a529ca3b3cd4589b0e5245c8487e7aab848595284ad94350219c7b1b92a6e",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_4d14a8a3a2c442da9de6641f_0",
+      "kind": "p",
+      "source": "A tool allowed for the chat runs without asking in every mode. So does looking something up in what ships with Trilium (its User Guide, the skill sheets that teach the AI Trilium's search syntax and note types, and the icons), since it reads none of your notes. Searching the web and reading a web page never ask either: turning on web search in the __TRILIUM_PH_0__Tools__TRILIUM_PH_1__ menu is what allows them, whether the model searches on its own or through a search provider.",
+      "sourceHash": "4d14a8a3a2c442da9de6641f73ec5e428eef98b49327c50a4b0f07a86f285c76",
+      "context": "AI > Features > Note access (tools) > Approving tool calls",
+      "contextHash": "5b6a529ca3b3cd4589b0e5245c8487e7aab848595284ad94350219c7b1b92a6e",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_83b9687ace5ddd1b14b4726d_0",
+      "kind": "p",
+      "source": "The __TRILIUM_PH_0__Subscription-based providers__TRILIUM_PH_1__ (Claude Code, GitHub Copilot, Google Antigravity and OpenAI Codex) ask like any other provider.",
+      "sourceHash": "83b9687ace5ddd1b14b4726d8825ddc64e4461cf51eeafc06be09e1c6c779986",
+      "context": "AI > Features > Note access (tools) > Approving tool calls",
+      "contextHash": "5b6a529ca3b3cd4589b0e5245c8487e7aab848595284ad94350219c7b1b92a6e",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_4c8441f9f3d8895b978c9981_0",
+      "kind": "p",
+      "source": "Most changes you allow can be undone: a deleted note can be restored, and an edit reverted from its revision. Setting an attribute is harder to undo, since attributes have no history.",
+      "sourceHash": "4c8441f9f3d8895b978c99814e229937a8922718a0083c25544a597afd57bd92",
+      "context": "AI > Features > Note access (tools) > Approving tool calls",
+      "contextHash": "5b6a529ca3b3cd4589b0e5245c8487e7aab848595284ad94350219c7b1b92a6e",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_c90f0a6687c323d8377701bd_0",
+      "kind": "p",
+      "source": "Gemini can't use its built-in search while note access is on. While it is, the built-in search choice in the __TRILIUM_PH_0__Tools__TRILIUM_PH_1__ menu is disabled and says why; a search provider works with note access on.",
+      "sourceHash": "c90f0a6687c323d8377701bde57c715abce1f8a2bb214c153250fd09da75ddc4",
+      "context": "AI > Features > Note access (tools) > Approving tool calls",
+      "contextHash": "5b6a529ca3b3cd4589b0e5245c8487e7aab848595284ad94350219c7b1b92a6e",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_44f9013a9dc38bf8959cf9a9_0",
+      "kind": "h3",
+      "source": "Attachments__TRILIUM_PH_0__",
+      "sourceHash": "44f9013a9dc38bf8959cf9a9b5fe502b0dc71714bbe4855a8a007e7286129adf",
+      "context": "AI > Features > Attachments",
+      "contextHash": "6c96327f2c0c32225a0e4786d388edb404fda846265e85753b2c9f0d9dea740f",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_b384588248f664015916671e_0",
+      "kind": "p",
+      "source": "Since Trilium v0.140.0, __TRILIUM_PH_0__Attachments__TRILIUM_PH_1__ allow for multi-modal chat:",
+      "sourceHash": "b384588248f664015916671e5c0d9f8d3682b99d43ce2c99de916307009db18f",
+      "context": "AI > Features > Attachments",
+      "contextHash": "6c96327f2c0c32225a0e4786d388edb404fda846265e85753b2c9f0d9dea740f",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_e83d9ee41672f29aa8f51963_0",
+      "kind": "li",
+      "source": "Raster image (sent as vision input, except for SVGs) with the following supported formats: PNG, JPEG, GIF, WebP.",
+      "sourceHash": "e83d9ee41672f29aa8f51963d957cbe4327fd52ab856234aeb2f90105dcba91b",
+      "context": "AI > Features > Attachments",
+      "contextHash": "6c96327f2c0c32225a0e4786d388edb404fda846265e85753b2c9f0d9dea740f",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_5c2b878e385ece1da95d68d1_0",
+      "kind": "li",
+      "source": "PDFs, sent natively to the provider (supported by Anthropic, OpenAI and Google).",
+      "sourceHash": "5c2b878e385ece1da95d68d10c96e25c11ae9eef7cec5e94c8918d9b6f46517c",
+      "context": "AI > Features > Attachments",
+      "contextHash": "6c96327f2c0c32225a0e4786d388edb404fda846265e85753b2c9f0d9dea740f",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_bb5b480d49a54250befcbc79_0",
+      "kind": "li",
+      "source": "SVG images (sent as raw HTML).",
+      "sourceHash": "bb5b480d49a54250befcbc79987e997cbcecf429898a7fd64ea7a116e89bd772",
+      "context": "AI > Features > Attachments",
+      "contextHash": "6c96327f2c0c32225a0e4786d388edb404fda846265e85753b2c9f0d9dea740f",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_e458ae74939e6b8238b9570f_0",
+      "kind": "li",
+      "source": "Text files.",
+      "sourceHash": "e458ae74939e6b8238b9570fea470af7004e8a89b32ebf6b4b83f19738bcacbe",
+      "context": "AI > Features > Attachments",
+      "contextHash": "6c96327f2c0c32225a0e4786d388edb404fda846265e85753b2c9f0d9dea740f",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_84504b6aad6c5b50f8983452_0",
+      "kind": "p",
+      "source": "Not every model reads every kind of attachment: DeepSeek reads no PDFs, and images only with its vision models; OpenAI Codex, GitHub Copilot and Google Antigravity read images but no PDFs. For such a model:",
+      "sourceHash": "84504b6aad6c5b50f8983452b2a0bf8801fde2e8eb32b03713d2f4034468e6ce",
+      "context": "AI > Features > Attachments",
+      "contextHash": "6c96327f2c0c32225a0e4786d388edb404fda846265e85753b2c9f0d9dea740f",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_3d505a8dca54aa1a15e11f8f_0",
+      "kind": "li",
+      "source": "The attach button offers only the kinds the model reads, and a pasted or dropped file it can't read is not attached.",
+      "sourceHash": "3d505a8dca54aa1a15e11f8f400d6dcd4cc4af2e79e4ee2987b6a409b818c52b",
+      "context": "AI > Features > Attachments",
+      "contextHash": "6c96327f2c0c32225a0e4786d388edb404fda846265e85753b2c9f0d9dea740f",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_9baec54c78e6d7c2b7c355b1_0",
+      "kind": "li",
+      "source": "After switching to such a model, an attachment it can't read is marked with a __TRILIUM_PH_0__ warning, and the message can't be sent until the attachment is removed or another model is selected.",
+      "sourceHash": "9baec54c78e6d7c2b7c355b16c0d82a6ec963ca78a851c4a54f26855b1cbf240",
+      "context": "AI > Features > Attachments",
+      "contextHash": "6c96327f2c0c32225a0e4786d388edb404fda846265e85753b2c9f0d9dea740f",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_4fce3e08f9d5a533c95d46ce_0",
+      "kind": "li",
+      "source": "An attachment sent in an earlier message reaches the model as its name only, such as __TRILIUM_PH_0__, so it can tell you it doesn't see the content.",
+      "sourceHash": "4fce3e08f9d5a533c95d46ce4cd00bcf9922299be82ca7bebdc04365431c603a",
+      "context": "AI > Features > Attachments",
+      "contextHash": "6c96327f2c0c32225a0e4786d388edb404fda846265e85753b2c9f0d9dea740f",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_6c1b6f4cac874002a5476256_0",
+      "kind": "p",
+      "source": "To upload an attachment:",
+      "sourceHash": "6c1b6f4cac874002a5476256cbb561e04ded17fb5597f666072710646a6a00a6",
+      "context": "AI > Features > Attachments",
+      "contextHash": "6c96327f2c0c32225a0e4786d388edb404fda846265e85753b2c9f0d9dea740f",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_28b1d5e73b3edaed0633daf2_0",
+      "kind": "li",
+      "source": "Press the dedicated __TRILIUM_PH_0__Attach__TRILIUM_PH_1__ button (paperclip icon) underneath the text box.",
+      "sourceHash": "28b1d5e73b3edaed0633daf285b02e37dc6ae9e162f3850aa6703ee571ab9665",
+      "context": "AI > Features > Attachments",
+      "contextHash": "6c96327f2c0c32225a0e4786d388edb404fda846265e85753b2c9f0d9dea740f",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_159f00c17767873fbebd1c5a_0",
+      "kind": "li",
+      "source": "Paste an image directly from clipboard using Ctrl+V.",
+      "sourceHash": "159f00c17767873fbebd1c5a0efc0b2d0ed9977450dc4e94c0230adf4e88ded3",
+      "context": "AI > Features > Attachments",
+      "contextHash": "6c96327f2c0c32225a0e4786d388edb404fda846265e85753b2c9f0d9dea740f",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_91c37b708d625c1f6b6e1c80_0",
+      "kind": "p",
+      "source": "Once one or more attachments are uploaded, they will appear directly above the text box:",
+      "sourceHash": "91c37b708d625c1f6b6e1c806f4ce7f12a9d6a57cc313260f42991d1384dba4c",
+      "context": "AI > Features > Attachments",
+      "contextHash": "6c96327f2c0c32225a0e4786d388edb404fda846265e85753b2c9f0d9dea740f",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_b864115e7130f8e524236bf0_0",
+      "kind": "li",
+      "source": "Images have a small thumbnail for easy identifications.",
+      "sourceHash": "b864115e7130f8e524236bf08ff7b5eddc59c0d0844cab6a2051328cf82229b7",
+      "context": "AI > Features > Attachments",
+      "contextHash": "6c96327f2c0c32225a0e4786d388edb404fda846265e85753b2c9f0d9dea740f",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_da7f4d70ffe600699fd7e610_0",
+      "kind": "li",
+      "source": "Every attachment can be deleted by pressing their corresponding X button.",
+      "sourceHash": "da7f4d70ffe600699fd7e610187288db2542bd96e9d0c7529f5f6d41699f7e5c",
+      "context": "AI > Features > Attachments",
+      "contextHash": "6c96327f2c0c32225a0e4786d388edb404fda846265e85753b2c9f0d9dea740f",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_2897d3e8ed7eb17973ab484b_0",
+      "kind": "p",
+      "source": "Clicking an image or a PDF, either its chip above the text box or where it appears in a sent message, opens it in a viewer: an image can be zoomed and panned there, a PDF read page by page. The button next to the viewer's close button opens the original file in a new browser tab. __TRILIUM_PH_0__Ctrl__TRILIUM_PH_1__-clicking instead opens an image in a new browser tab, and a PDF as an attachment in a new Trilium tab.",
+      "sourceHash": "2897d3e8ed7eb17973ab484b5b7cb10a2f6ac31e98f3d31cb23829492524b58e",
+      "context": "AI > Features > Attachments",
+      "contextHash": "6c96327f2c0c32225a0e4786d388edb404fda846265e85753b2c9f0d9dea740f",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_ac57fdab4f4b91d281ebda7f_0",
+      "kind": "p",
+      "source": "When an attachment is present, the LLM is instructed to consider the attachment with priority, even if it has access to the current note.",
+      "sourceHash": "ac57fdab4f4b91d281ebda7fad0c107cd8e2d7e87478aa7168baaccf6eb8cb91",
+      "context": "AI > Features > Attachments",
+      "contextHash": "6c96327f2c0c32225a0e4786d388edb404fda846265e85753b2c9f0d9dea740f",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_5f998b1ad6c0b12773c1e5b6_0",
+      "kind": "p",
+      "source": "Currently Trilium doesn't pre-process the attachments (e.g. via __TRILIUM_PH_0__Text Extraction (OCR)__TRILIUM_PH_1__) before sending them to the LLM provider.",
+      "sourceHash": "5f998b1ad6c0b12773c1e5b6f9f1f0f2d321fc5b161ec9a3b8ffe768b0c6b249",
+      "context": "AI > Features > Attachments",
+      "contextHash": "6c96327f2c0c32225a0e4786d388edb404fda846265e85753b2c9f0d9dea740f",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_7445e8d893a46758dc28a023_0",
+      "kind": "h3",
+      "source": "Mentions__TRILIUM_PH_0__",
+      "sourceHash": "7445e8d893a46758dc28a023d645776ad1909264e18a5ad26257af9c21fd3cb7",
+      "context": "AI > Features > Mentions",
+      "contextHash": "f89dcfa9fae99cd99cd8555edd7e8af81e31090b191349a550342cc859c62278",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_2e5bd41043fcfc55d710078f_0",
+      "kind": "p",
+      "source": "Mentions are a way to insert references to notes other than the current note, using the same mechanism as __TRILIUM_PH_0__Internal (reference) links__TRILIUM_PH_1__. To refer to another note, simply type @ followed by the name of the note to reference.",
+      "sourceHash": "2e5bd41043fcfc55d710078f2316946e2fb09ee40f5af60158e9f1436f41b30d",
+      "context": "AI > Features > Mentions",
+      "contextHash": "f89dcfa9fae99cd99cd8555edd7e8af81e31090b191349a550342cc859c62278",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_570e6a1022d492f84516b4b8_0",
+      "kind": "p",
+      "source": "This feature is mostly helpful when note tools are enabled, otherwise the LLM will have no way to access the given note.",
+      "sourceHash": "570e6a1022d492f84516b4b8a6ac7b106dd7bd59faff0872c7848b78ffa24472",
+      "context": "AI > Features > Mentions",
+      "contextHash": "f89dcfa9fae99cd99cd8555edd7e8af81e31090b191349a550342cc859c62278",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_a504aab3cda3e78c29bba9a4_0",
+      "kind": "h3",
+      "source": "Skills__TRILIUM_PH_0__",
+      "sourceHash": "a504aab3cda3e78c29bba9a46db0b9015647889034b345b74d524115f2ef7dcd",
+      "context": "AI > Features > Skills",
+      "contextHash": "86180e7855290d6c3de8408554d6b67df6c0a2bbaec8e9c76dae39766ad3164f",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_cfb22b4fd5c58e73cdc5e45a_0",
+      "kind": "p",
+      "source": "Skills in Trilium are specialized instruction sets that help the AI be more productive by understanding how Trilium.",
+      "sourceHash": "cfb22b4fd5c58e73cdc5e45a27d779414d2f6721e8b5809df56068f1c3c56464",
+      "context": "AI > Features > Skills",
+      "contextHash": "86180e7855290d6c3de8408554d6b67df6c0a2bbaec8e9c76dae39766ad3164f",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_731863693e7fe04a274fde37_0",
+      "kind": "p",
+      "source": "These skills are not loaded by default to avoid an increased consumption of tokens, but the AI can load them on-demand if __TRILIUM_PH_0__Note tools__TRILIUM_PH_1__ are enabled.",
+      "sourceHash": "731863693e7fe04a274fde37b7de3386d325705ce90290402bba7301246b88ce",
+      "context": "AI > Features > Skills",
+      "contextHash": "86180e7855290d6c3de8408554d6b67df6c0a2bbaec8e9c76dae39766ad3164f",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_560f742ae771dde9b4422f2a_0",
+      "kind": "p",
+      "source": "The following skills are built-in:",
+      "sourceHash": "560f742ae771dde9b4422f2abb50b8832b05fb21ee3aa6b1decca7cd6d02af84",
+      "context": "AI > Features > Skills",
+      "contextHash": "86180e7855290d6c3de8408554d6b67df6c0a2bbaec8e9c76dae39766ad3164f",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_6945373ba19ed49d1ade3065_0",
+      "kind": "li",
+      "source": "Search syntax: understands the full syntax of __TRILIUM_PH_0__Search__TRILIUM_PH_1__.",
+      "sourceHash": "6945373ba19ed49d1ade3065369f94e4554cf3d6361aea18d5d8409e56d03b5e",
+      "context": "AI > Features > Skills",
+      "contextHash": "86180e7855290d6c3de8408554d6b67df6c0a2bbaec8e9c76dae39766ad3164f",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_da6c0f180a7314d8713cb32d_0",
+      "kind": "li",
+      "source": "Backend scripting: to be able to write proper __TRILIUM_PH_0__Backend scripts__TRILIUM_PH_1__.",
+      "sourceHash": "da6c0f180a7314d8713cb32d1cebea5423b65b318b0a67a4660ce856543501c7",
+      "context": "AI > Features > Skills",
+      "contextHash": "86180e7855290d6c3de8408554d6b67df6c0a2bbaec8e9c76dae39766ad3164f",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_5fa7772b0a2e6108a0181ab4_0",
+      "kind": "li",
+      "source": "Frontend scripting: to be able to write proper __TRILIUM_PH_0__front-end scripts__TRILIUM_PH_1__ (basic scripts, widgets, __TRILIUM_PH_2__Render Note__TRILIUM_PH_3__).",
+      "sourceHash": "5fa7772b0a2e6108a0181ab4f7778e8d19fa0b83e5f9add02ef577d8bf333d22",
+      "context": "AI > Features > Skills",
+      "contextHash": "86180e7855290d6c3de8408554d6b67df6c0a2bbaec8e9c76dae39766ad3164f",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_7653af94fbbc6a69de143b11_0",
+      "kind": "li",
+      "source": "Dashboards: to build a __TRILIUM_PH_0__Dashboard__TRILIUM_PH_1__ and its widgets, including interactive ones made with a __TRILIUM_PH_2__Render Note__TRILIUM_PH_3__.",
+      "sourceHash": "7653af94fbbc6a69de143b11dcf7d3fb4dff2f638cd0cb616504ce8e25f91378",
+      "context": "AI > Features > Skills",
+      "contextHash": "86180e7855290d6c3de8408554d6b67df6c0a2bbaec8e9c76dae39766ad3164f",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_5f27fa75755f11a3e0959ad0_0",
+      "kind": "p",
+      "source": "When __TRILIUM_PH_0__Note tools__TRILIUM_PH_1__ are enabled the skills will automatically be made available to the AI, so no user interaction is required.",
+      "sourceHash": "5f27fa75755f11a3e0959ad00ca6bb32f4a7c06e2f94a0dbf762fe2a39750d1e",
+      "context": "AI > Features > Skills",
+      "contextHash": "86180e7855290d6c3de8408554d6b67df6c0a2bbaec8e9c76dae39766ad3164f",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_91678221dd195f00633a407b_0",
+      "kind": "p",
+      "source": "Custom skills are currently not supported but they are planned.",
+      "sourceHash": "91678221dd195f00633a407b79a98a837ae3d84b6eb12de36114b4fea9d484f0",
+      "context": "AI > Features > Skills",
+      "contextHash": "86180e7855290d6c3de8408554d6b67df6c0a2bbaec8e9c76dae39766ad3164f",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_660311a54bcc208adff7a311_0",
+      "kind": "h3",
+      "source": "MCP__TRILIUM_PH_0__",
+      "sourceHash": "660311a54bcc208adff7a3116d0baf03eebe28077679932af7181be4833fa9e9",
+      "context": "AI > Features > MCP",
+      "contextHash": "1e57e6105c62b861968478aa3c8a328b78faf63fb7da38807b8c528e3debf296",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_294a754a449513ee58017b16_0",
+      "kind": "p",
+      "source": "Trilium comes with a built-in MCP server which allows you to use an external agent such as Claude Code have access to your database. See the dedicated __TRILIUM_PH_0__MCP__TRILIUM_PH_1__ page for more details.",
+      "sourceHash": "294a754a449513ee58017b16b793d589c34fb795edb7ff099cb3d82326b2bb4d",
+      "context": "AI > Features > MCP",
+      "contextHash": "1e57e6105c62b861968478aa3c8a328b78faf63fb7da38807b8c528e3debf296",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_f5285067c1b6965db806e01f_0",
+      "kind": "h2",
+      "source": "History__TRILIUM_PH_0__",
+      "sourceHash": "f5285067c1b6965db806e01f951f8cf82e05067508ea16529dcc2ca8c0e2e040",
+      "context": "AI > History",
+      "contextHash": "3506340ec61d00bc4e0e9b26e27bcaae4b2dbf3fefc7c1cd0d859e537df3bf90",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_eedf3f8d84c45eab7faf5666_0",
+      "kind": "h3",
+      "source": "Removal in v0.102.0__TRILIUM_PH_0__",
+      "sourceHash": "eedf3f8d84c45eab7faf5666de02278f3402d4645feec558669d2382693aef66",
+      "context": "AI > History > Removal in v0.102.0",
+      "contextHash": "886790144f7f50fb3ad76e96077d7db7df4d6e25d22befdeacc6f7fc62c94b88",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_b37b2434c1beee711a7a1fa6_0",
+      "kind": "p",
+      "source": "Starting with version v0.102.0, AI/LLM integration has been removed from the Trilium Notes core.",
+      "sourceHash": "b37b2434c1beee711a7a1fa68fee99bda488c8a575c8b9f2537dfaae17fcbb7a",
+      "context": "AI > History > Removal in v0.102.0",
+      "contextHash": "886790144f7f50fb3ad76e96077d7db7df4d6e25d22befdeacc6f7fc62c94b88",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_6103c64a757c7b46490f65d4_0",
+      "kind": "p",
+      "source": "While a significant amount of effort went into developing this feature, maintaining and supporting it long-term proved to be unsustainable.",
+      "sourceHash": "6103c64a757c7b46490f65d44a9cdda7d8a5c7834e690236bf559dcc8a09456d",
+      "context": "AI > History > Removal in v0.102.0",
+      "contextHash": "886790144f7f50fb3ad76e96077d7db7df4d6e25d22befdeacc6f7fc62c94b88",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_1398baedded40fce4580e543_0",
+      "kind": "p",
+      "source": "When upgrading to v0.102.0, your Chat notes will be preserved, but instead of the dedicated chat window they will be turned to a normal __TRILIUM_PH_0__Code__TRILIUM_PH_1__ note, revealing the underlying JSON of the conversation.",
+      "sourceHash": "1398baedded40fce4580e543915ba397adbd3409c7b6db1376ceaf0cc1defeac",
+      "context": "AI > History > Removal in v0.102.0",
+      "contextHash": "886790144f7f50fb3ad76e96077d7db7df4d6e25d22befdeacc6f7fc62c94b88",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_f4352982e78c717aed53e845_0",
+      "kind": "h3",
+      "source": "Reintroduction in v0.103.0__TRILIUM_PH_0__",
+      "sourceHash": "f4352982e78c717aed53e8456dfa8a1ab57d35997fc533422410a521c6873e9d",
+      "context": "AI > History > Reintroduction in v0.103.0",
+      "contextHash": "ac22d433ec9a6ba2892ed2a3140fab48bf56c52572d11619412b9a6b58b49467",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_66b20d61e92753a715025864_0",
+      "kind": "p",
+      "source": "Given the recent advancements of the AI scene, we decided to give the LLM integration another try. v0.103.0 introduces a completely new chat system.",
+      "sourceHash": "66b20d61e92753a715025864b4c413d8839d4e3823f9f2924b98f15f3b0811d0",
+      "context": "AI > History > Reintroduction in v0.103.0",
+      "contextHash": "ac22d433ec9a6ba2892ed2a3140fab48bf56c52572d11619412b9a6b58b49467",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_fbd1ddad9b5a9d89bb6f71f7_0",
+      "kind": "p",
+      "source": "One of the key changes that lead to the reimplementation is that now we are using a library (__TRILIUM_PH_0__Vercel AI__TRILIUM_PH_1__) to manage the inner mechanism and the differences between LLM providers instead of having to implement it on our own.",
+      "sourceHash": "fbd1ddad9b5a9d89bb6f71f796545bd1d316403baddaca795c8b27c08d21cfd7",
+      "context": "AI > History > Reintroduction in v0.103.0",
+      "contextHash": "ac22d433ec9a6ba2892ed2a3140fab48bf56c52572d11619412b9a6b58b49467",
+      "status": "pending",
+      "active": true
+    }
+  ],
+  "requests": []
+}

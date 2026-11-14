@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "pageId": "fiHicjpHjIRJ",
+  "sourceFile": "docs/User Guide/User Guide/Scripting/Security.md",
+  "sourceRevision": "03d17b60f59b5efc29b880b11481471d0fe0ff57",
+  "units": [
+    {
+      "id": "u_3bc81758f53fcf91ba62e0fe_0",
+      "kind": "title",
+      "source": "Security",
+      "sourceHash": "3bc81758f53fcf91ba62e0fec3bcc930e2523344c6b67fa81e8e48c1f96786d7",
+      "context": "Security",
+      "contextHash": "8f6fb4eb7f42c0e245e29e63f5b82cc3ba19852681d1ed9aed291f59cf75ec0e",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_24c601d53b8d507865d8c061_0",
+      "kind": "p",
+      "source": "Starting with v0.104.0, some features in Trilium are intentionally disabled in order to reduce the attack surface:",
+      "sourceHash": "24c601d53b8d507865d8c0618a3856152346852b7be5831c8f29cdf769194157",
+      "context": "Security",
+      "contextHash": "8f6fb4eb7f42c0e245e29e63f5b82cc3ba19852681d1ed9aed291f59cf75ec0e",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_741616777ec8e95f333f494e_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__Backend scripts__TRILIUM_PH_1__, which can run processes on the server, access the file system or bypass security measures.",
+      "sourceHash": "741616777ec8e95f333f494eca4ccbfbee7a92fb0273ff4b1a4607ec8045dcdf",
+      "context": "Security",
+      "contextHash": "8f6fb4eb7f42c0e245e29e63f5b82cc3ba19852681d1ed9aed291f59cf75ec0e",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_0f1d692d6d940ec0e15648fd_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__SQL Console__TRILIUM_PH_1__, which can be used to exfiltrate important data such as the document secret or cause irreparable damage to the database.",
+      "sourceHash": "0f1d692d6d940ec0e15648fd6fffdeacc8e90c9ad5f30951abe57ce93b0809cb",
+      "context": "Security",
+      "contextHash": "8f6fb4eb7f42c0e245e29e63f5b82cc3ba19852681d1ed9aed291f59cf75ec0e",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_406804a10431a041fa531db2_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__Network Access__TRILIUM_PH_1__ for the __TRILIUM_PH_2__Desktop Installation__TRILIUM_PH_3__.",
+      "sourceHash": "406804a10431a041fa531db23b28b2b3a6456be512cad1496799e9c41a145bdd",
+      "context": "Security",
+      "contextHash": "8f6fb4eb7f42c0e245e29e63f5b82cc3ba19852681d1ed9aed291f59cf75ec0e",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_8878d8b25a759d3b24c722aa_0",
+      "kind": "p",
+      "source": "To activate any of them, there are three variants:",
+      "sourceHash": "8878d8b25a759d3b24c722aa9bdaac76799cadbe3faa68089461bf5d0a379add",
+      "context": "Security",
+      "contextHash": "8f6fb4eb7f42c0e245e29e63f5b82cc3ba19852681d1ed9aed291f59cf75ec0e",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_da9463c6da6fd2fe98b9e07b_0",
+      "kind": "li",
+      "source": "For the desktop app, go to __TRILIUM_PH_0__Options__TRILIUM_PH_1__ → __TRILIUM_PH_2__Security__TRILIUM_PH_3__ and toggle the desired option.",
+      "sourceHash": "da9463c6da6fd2fe98b9e07bc1b535019281fdc000c19394c600ff58f617134e",
+      "context": "Security",
+      "contextHash": "8f6fb4eb7f42c0e245e29e63f5b82cc3ba19852681d1ed9aed291f59cf75ec0e",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_aea4828ad27e661dd38b8e59_0",
+      "kind": "li",
+      "source": "This will prompt a system dialog confirming the change. Note that scripts could potentially call this confirmation dialog as well, make sure to accept it only if enabling any of these features is required.",
+      "sourceHash": "aea4828ad27e661dd38b8e593baffbab7bc0d3f690cd890d7665a310e1969159",
+      "context": "Security",
+      "contextHash": "8f6fb4eb7f42c0e245e29e63f5b82cc3ba19852681d1ed9aed291f59cf75ec0e",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_865b6508b10103eb38cfb84d_0",
+      "kind": "li",
+      "source": "The settings page will be available for the server-side as well, but the options need to be manually toggled using the other mechanisms described here.",
+      "sourceHash": "865b6508b10103eb38cfb84d02f382257cafd9acde6950134829fc8ba631b5a2",
+      "context": "Security",
+      "contextHash": "8f6fb4eb7f42c0e245e29e63f5b82cc3ba19852681d1ed9aed291f59cf75ec0e",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_f254f3ddd978ef272b46692e_0",
+      "kind": "li",
+      "source": "This works by setting a separate configuration file in the __TRILIUM_PH_0__Data directory__TRILIUM_PH_1__.",
+      "sourceHash": "f254f3ddd978ef272b46692e156620c79e323cce81b44fddc5b2e841dadcca7d",
+      "context": "Security",
+      "contextHash": "8f6fb4eb7f42c0e245e29e63f5b82cc3ba19852681d1ed9aed291f59cf75ec0e",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_d927c436a9594ac1682710f3_0",
+      "kind": "li",
+      "source": "In __TRILIUM_PH_0__config.ini__TRILIUM_PH_1__, set the corresponding option under the __TRILIUM_PH_2__ group.",
+      "sourceHash": "d927c436a9594ac1682710f3fb42383d840aee17cc6ce9c6f0835119e23fa422",
+      "context": "Security",
+      "contextHash": "8f6fb4eb7f42c0e245e29e63f5b82cc3ba19852681d1ed9aed291f59cf75ec0e",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_78b2f407e2965dc80e6421af_0",
+      "kind": "li",
+      "source": "Or use environment variables (e.g. __TRILIUM_PH_0__).",
+      "sourceHash": "78b2f407e2965dc80e6421af3b32664f7eab970660f9e71001bc9dbf54e599d4",
+      "context": "Security",
+      "contextHash": "8f6fb4eb7f42c0e245e29e63f5b82cc3ba19852681d1ed9aed291f59cf75ec0e",
+      "status": "pending",
+      "active": true
+    }
+  ],
+  "requests": []
+}

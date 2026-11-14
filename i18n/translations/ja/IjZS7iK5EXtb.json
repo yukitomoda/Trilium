@@ -1,0 +1,699 @@
+{
+  "schemaVersion": 1,
+  "pageId": "IjZS7iK5EXtb",
+  "sourceFile": "docs/User Guide/User Guide/Scripting/Breaking changes/v0.107.0 Removal of the old layout.md",
+  "sourceRevision": "03d17b60f59b5efc29b880b11481471d0fe0ff57",
+  "units": [
+    {
+      "id": "u_0e493718f3593b9bbca5e130_0",
+      "kind": "title",
+      "source": "v0.107.0: Removal of the old layout",
+      "sourceHash": "0e493718f3593b9bbca5e130a4cedf64f41d8c82fc35c70162494dce3b3e37dc",
+      "context": "v0.107.0: Removal of the old layout",
+      "contextHash": "0ce8fadbbf5180b06523ba8c7d296b88b8ca192eaae0f7f5fd1024459be0ae54",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_af14f7f59a542c9abedc1a50_0",
+      "kind": "p",
+      "source": "The __TRILIUM_PH_0__New layout__TRILIUM_PH_1__ is a series of UI/UX changes that were introduced in v0.101.0 that heavily change both existing UI elements, as well as adding some new ones. The goal of this new layout is to modernize the application and to make it more intuitive but at the same time to reduce clutter.",
+      "sourceHash": "af14f7f59a542c9abedc1a50957e5658c5be59ad0473c8da6c8e0667a5142465",
+      "context": "v0.107.0: Removal of the old layout",
+      "contextHash": "0ce8fadbbf5180b06523ba8c7d296b88b8ca192eaae0f7f5fd1024459be0ae54",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_3451a141ea69e21543522d06_0",
+      "kind": "p",
+      "source": "Starting with v0.107.0, the old layout has been __TRILIUM_PH_0__completely removed__TRILIUM_PH_1__. This page serves as migration instructions to better understand what changed.",
+      "sourceHash": "3451a141ea69e21543522d0600e9fd3d9dabbd225f1e37a44f130e09d3439b9c",
+      "context": "v0.107.0: Removal of the old layout",
+      "contextHash": "0ce8fadbbf5180b06523ba8c7d296b88b8ca192eaae0f7f5fd1024459be0ae54",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_8732e44ecf63d167b82d12a3_0",
+      "kind": "h2",
+      "source": "Newly introduced features__TRILIUM_PH_0__",
+      "sourceHash": "8732e44ecf63d167b82d12a32be0be6aab2b5b68059a615ab6d4d86da9918963",
+      "context": "v0.107.0: Removal of the old layout > Newly introduced features",
+      "contextHash": "f32089faaa63e1d7303790d01ba0107928787d8242855e20b99cac4fe1f4fb5e",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_4b416427100219e2fc305d40_0",
+      "kind": "li",
+      "source": "At the bottom of the window there is a new bar called the __TRILIUM_PH_0__Status bar__TRILIUM_PH_1__. This bar houses multiple items such as the Breadcrumb navigation and information and settings about the current note, such as the __TRILIUM_PH_2__content language__TRILIUM_PH_3__ and __TRILIUM_PH_4__Attributes__TRILIUM_PH_5__.",
+      "sourceHash": "4b416427100219e2fc305d40bee6a4a89116ad117575bbb87fa47f65f6e456ed",
+      "context": "v0.107.0: Removal of the old layout > Newly introduced features",
+      "contextHash": "f32089faaa63e1d7303790d01ba0107928787d8242855e20b99cac4fe1f4fb5e",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_efcd96848c7ec192eedfea39_0",
+      "kind": "li",
+      "source": "When a new __TRILIUM_PH_0__Text__TRILIUM_PH_1__ note is created empty, a __TRILIUM_PH_2__New note type switcher__TRILIUM_PH_3__ appears under the title making it easy to switch to a different note type, template or collection.",
+      "sourceHash": "efcd96848c7ec192eedfea3917e912c15fe32bac9af838e9e9ae42e6375ea085",
+      "context": "v0.107.0: Removal of the old layout > Newly introduced features",
+      "contextHash": "f32089faaa63e1d7303790d01ba0107928787d8242855e20b99cac4fe1f4fb5e",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_9b07662a1599f9165d565966_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__Note badges__TRILIUM_PH_1__ appear at the right of the note title and indicate states such as read-only, shared notes as well as corresponding actions (temporarily marking a note as editable, viewing the sharing note, etc.). These replace some of the floating buttons.",
+      "sourceHash": "9b07662a1599f9165d56596618d3e0af99aeafccc29e83c73bc7a791f86b9162",
+      "context": "v0.107.0: Removal of the old layout > Newly introduced features",
+      "contextHash": "f32089faaa63e1d7303790d01ba0107928787d8242855e20b99cac4fe1f4fb5e",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_9d16e7ed930de79975cb7cb6_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__Text Notes__TRILIUM_PH_1__ have a new inline title which has a bigger text and display the creation and modification dates which collapses back to a smaller title when scrolling.",
+      "sourceHash": "9d16e7ed930de79975cb7cb6a27e206797d8609f5ac60436ac8a54e6cc0a9b18",
+      "context": "v0.107.0: Removal of the old layout > Newly introduced features",
+      "contextHash": "f32089faaa63e1d7303790d01ba0107928787d8242855e20b99cac4fe1f4fb5e",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_99c50bbd1f32f8dd0bba0c1e_0",
+      "kind": "li",
+      "source": "The following sections have been made collapsible and get displayed under the __TRILIUM_PH_0__note title__TRILIUM_PH_1__:",
+      "sourceHash": "99c50bbd1f32f8dd0bba0c1ef324f969f5024efb368042088c8edf29dbf98b5a",
+      "context": "v0.107.0: Removal of the old layout > Newly introduced features",
+      "contextHash": "f32089faaa63e1d7303790d01ba0107928787d8242855e20b99cac4fe1f4fb5e",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_bff9f5608308cda2fb617863_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__Promoted Attributes__TRILIUM_PH_1__",
+      "sourceHash": "bff9f5608308cda2fb6178633015f26c04f3a23580c87ffbdea6ae5a43fb3a25",
+      "context": "v0.107.0: Removal of the old layout > Newly introduced features",
+      "contextHash": "f32089faaa63e1d7303790d01ba0107928787d8242855e20b99cac4fe1f4fb5e",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_b22bd21a960b620e81722197_0",
+      "kind": "li",
+      "source": "The keyboard shortcut previously used to trigger the promoted attributes ribbon tab (which was no longer working) has been repurposed to toggle the promoted attributes instead.",
+      "sourceHash": "b22bd21a960b620e81722197fdcf0e94008b6ac6d1b13243a8f8330f3529c6c2",
+      "context": "v0.107.0: Removal of the old layout > Newly introduced features",
+      "contextHash": "f32089faaa63e1d7303790d01ba0107928787d8242855e20b99cac4fe1f4fb5e",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_368b09e526fdcc3a2adaf97b_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__Edited Notes__TRILIUM_PH_1__ (now renamed to __TRILIUM_PH_2__Notes edited on this day__TRILIUM_PH_3__), which appears for __TRILIUM_PH_4__Day Notes__TRILIUM_PH_5__ is now shown underneath the title.",
+      "sourceHash": "368b09e526fdcc3a2adaf97bd63fc4917961832aaa7e668141218158a273f4b2",
+      "context": "v0.107.0: Removal of the old layout > Newly introduced features",
+      "contextHash": "f32089faaa63e1d7303790d01ba0107928787d8242855e20b99cac4fe1f4fb5e",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_c5ece23d30a3486def1d3cc8_0",
+      "kind": "li",
+      "source": "Whether the section is collapsed or not depends on the choice in __TRILIUM_PH_0__Options__TRILIUM_PH_1__ → Appearance.",
+      "sourceHash": "c5ece23d30a3486def1d3cc886e235666a4f13b4fa9957b8875c960b7122a91f",
+      "context": "v0.107.0: Removal of the old layout > Newly introduced features",
+      "contextHash": "f32089faaa63e1d7303790d01ba0107928787d8242855e20b99cac4fe1f4fb5e",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_013ff45ff6f5df95c5e38e2a_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__Search Properties__TRILIUM_PH_1__, which appears for the full __TRILIUM_PH_2__Search__TRILIUM_PH_3__ and __TRILIUM_PH_4__Saved Search__TRILIUM_PH_5__.",
+      "sourceHash": "013ff45ff6f5df95c5e38e2ae6a8c05442821217af1827dfc9a890fee0756296",
+      "context": "v0.107.0: Removal of the old layout > Newly introduced features",
+      "contextHash": "f32089faaa63e1d7303790d01ba0107928787d8242855e20b99cac4fe1f4fb5e",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_743ef8ef6c85ec765a5b3519_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__Save status indicator__TRILIUM_PH_1__ which appears in the __TRILIUM_PH_2__Note badges__TRILIUM_PH_3__ area and indicates when there are unsaved changes.",
+      "sourceHash": "743ef8ef6c85ec765a5b3519279b9a14bde347df7dd72a91886e79b98a24ca61",
+      "context": "v0.107.0: Removal of the old layout > Newly introduced features",
+      "contextHash": "f32089faaa63e1d7303790d01ba0107928787d8242855e20b99cac4fe1f4fb5e",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_cbb2044935bf191d8c3bb423_0",
+      "kind": "h2",
+      "source": "Changing to the existing layout__TRILIUM_PH_0__",
+      "sourceHash": "cbb2044935bf191d8c3bb423fef37aa3f8f8d66cbace2f347e8a360df844b090",
+      "context": "v0.107.0: Removal of the old layout > Changing to the existing layout",
+      "contextHash": "ad319e95652d1c56731632ec650264948ea5768284c5ec541fc7ea216aaddeb2",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_f989135c4c284f237966a76a_0",
+      "kind": "h3",
+      "source": "Removal of the ribbon__TRILIUM_PH_0__",
+      "sourceHash": "f989135c4c284f237966a76a704041116840ba494c885dd3942fb290b26bfe85",
+      "context": "v0.107.0: Removal of the old layout > Changing to the existing layout > Removal of the ribbon",
+      "contextHash": "298a05057fd83d9181bb66f44be4ed6e17ea7457f7cc9724cf4bf0ab07e7b818",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_a7775558149cef924f7411ba_0",
+      "kind": "p",
+      "source": "The most significant change is the removal of the ribbon. All the actions and options from the ribbon were integrated in other places in the application.",
+      "sourceHash": "a7775558149cef924f7411ba3087e84bf2b38e5114c96f75918d685a8c8bd4c7",
+      "context": "v0.107.0: Removal of the old layout > Changing to the existing layout > Removal of the ribbon",
+      "contextHash": "298a05057fd83d9181bb66f44be4ed6e17ea7457f7cc9724cf4bf0ab07e7b818",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_865abe0d704f753b00b67044_0",
+      "kind": "p",
+      "source": "Here's how all the different tabs that were once part of the ribbon are available in the new layout:",
+      "sourceHash": "865abe0d704f753b00b67044f21f497c230e6be3b7a1dfc7ca64a756703d943e",
+      "context": "v0.107.0: Removal of the old layout > Changing to the existing layout > Removal of the ribbon",
+      "contextHash": "298a05057fd83d9181bb66f44be4ed6e17ea7457f7cc9724cf4bf0ab07e7b818",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_c2aa38eff5f1b0d692a7135c_0",
+      "kind": "li",
+      "source": "“Formatting toolbar” was relocated to the top of the page.",
+      "sourceHash": "c2aa38eff5f1b0d692a7135c6212fb70c2fc5fbf1bdb7d10d353e2f4341a3bf2",
+      "context": "v0.107.0: Removal of the old layout > Changing to the existing layout > Removal of the ribbon",
+      "contextHash": "298a05057fd83d9181bb66f44be4ed6e17ea7457f7cc9724cf4bf0ab07e7b818",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_bf0de3050539d1707ae7d893_0",
+      "kind": "li",
+      "source": "Instead of having one per split, now there is a single formatting toolbar per tab. This allows more space for the toolbar items.",
+      "sourceHash": "bf0de3050539d1707ae7d893eeb7d7593f3978dfeb030a9ba0447986a3eb65c5",
+      "context": "v0.107.0: Removal of the old layout > Changing to the existing layout > Removal of the ribbon",
+      "contextHash": "298a05057fd83d9181bb66f44be4ed6e17ea7457f7cc9724cf4bf0ab07e7b818",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_692b7d8eed4a7181ecd921b6_0",
+      "kind": "li",
+      "source": "“Owned attributes” and “Inherited attributes” were merged and moved to the status bar region (displayed one above the other).",
+      "sourceHash": "692b7d8eed4a7181ecd921b689d0665de66ad34d7b13854db222f0a6aa95fdf5",
+      "context": "v0.107.0: Removal of the old layout > Changing to the existing layout > Removal of the ribbon",
+      "contextHash": "298a05057fd83d9181bb66f44be4ed6e17ea7457f7cc9724cf4bf0ab07e7b818",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_d7a69016a715b07fed476aa3_0",
+      "kind": "li",
+      "source": "“Basic Properties” were integrated in the __TRILIUM_PH_0__Note menu__TRILIUM_PH_1__ menu.",
+      "sourceHash": "d7a69016a715b07fed476aa359f7d6173bf13bdcc07707c66899cc1287a4b7ef",
+      "context": "v0.107.0: Removal of the old layout > Changing to the existing layout > Removal of the ribbon",
+      "contextHash": "298a05057fd83d9181bb66f44be4ed6e17ea7457f7cc9724cf4bf0ab07e7b818",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_3bec948e70968f32936f1578_0",
+      "kind": "li",
+      "source": "The only exception here is the Language combo box which can now be found in the status bar (top-right of the screen).",
+      "sourceHash": "3bec948e70968f32936f1578c404fadc3cdd448218e250d8f8acc1d3fee6df28",
+      "context": "v0.107.0: Removal of the old layout > Changing to the existing layout > Removal of the ribbon",
+      "contextHash": "298a05057fd83d9181bb66f44be4ed6e17ea7457f7cc9724cf4bf0ab07e7b818",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_9547b16ba22e5a7b8b6d477d_0",
+      "kind": "li",
+      "source": "“File” and “Image” tabs",
+      "sourceHash": "9547b16ba22e5a7b8b6d477dd420bc5790a14fcc0325f02cda16f01df90aacd0",
+      "context": "v0.107.0: Removal of the old layout > Changing to the existing layout > Removal of the ribbon",
+      "contextHash": "298a05057fd83d9181bb66f44be4ed6e17ea7457f7cc9724cf4bf0ab07e7b818",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_ffd2f33508e4543a2c6e85e1_0",
+      "kind": "li",
+      "source": "The buttons were moved to the right of the note title, as dedicated entries in __TRILIUM_PH_0__Note menu__TRILIUM_PH_1__.",
+      "sourceHash": "ffd2f33508e4543a2c6e85e19a035c876b740862e910d58a8cf0bc31b05c50b9",
+      "context": "v0.107.0: Removal of the old layout > Changing to the existing layout > Removal of the ribbon",
+      "contextHash": "298a05057fd83d9181bb66f44be4ed6e17ea7457f7cc9724cf4bf0ab07e7b818",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_6fa00c1256a4654bd54500d3_0",
+      "kind": "li",
+      "source": "The info section has been merged into the __TRILIUM_PH_0__Note info__TRILIUM_PH_1__ section of the status bar.",
+      "sourceHash": "6fa00c1256a4654bd54500d320778132a64c6178ad9d31f29b6ce55f2dcee080",
+      "context": "v0.107.0: Removal of the old layout > Changing to the existing layout > Removal of the ribbon",
+      "contextHash": "298a05057fd83d9181bb66f44be4ed6e17ea7457f7cc9724cf4bf0ab07e7b818",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_67807fe28ea3b06ddb19a6ec_0",
+      "kind": "li",
+      "source": "Edited notes",
+      "sourceHash": "67807fe28ea3b06ddb19a6ec8a27138fb3d1d59da280c9a153fed8652b3caeca",
+      "context": "v0.107.0: Removal of the old layout > Changing to the existing layout > Removal of the ribbon",
+      "contextHash": "298a05057fd83d9181bb66f44be4ed6e17ea7457f7cc9724cf4bf0ab07e7b818",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_95ae2005e17f4aee80409f13_0",
+      "kind": "li",
+      "source": "Moved underneath the title, displayed under a collapsible area and the notes are represented as badges/chips.",
+      "sourceHash": "95ae2005e17f4aee80409f13d1b670fbd1ad51f26e33f95ebd31e51b1744fd2f",
+      "context": "v0.107.0: Removal of the old layout > Changing to the existing layout > Removal of the ribbon",
+      "contextHash": "298a05057fd83d9181bb66f44be4ed6e17ea7457f7cc9724cf4bf0ab07e7b818",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_982fee4e773dac3a29bc7f6d_0",
+      "kind": "li",
+      "source": "Whether the section is expanded or collapsed depends on the __TRILIUM_PH_0__Expand “Notes edited on this day” on day notes__TRILIUM_PH_1__ setting from Options → Appearance → __TRILIUM_PH_2__User Interface__TRILIUM_PH_3__.",
+      "sourceHash": "982fee4e773dac3a29bc7f6da3e8315b66b0fc243bbf8cf190e1c79f71f8ac21",
+      "context": "v0.107.0: Removal of the old layout > Changing to the existing layout > Removal of the ribbon",
+      "contextHash": "298a05057fd83d9181bb66f44be4ed6e17ea7457f7cc9724cf4bf0ab07e7b818",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_77d00be0331a9bfecc4f69ac_0",
+      "kind": "li",
+      "source": "Search definition tab",
+      "sourceHash": "77d00be0331a9bfecc4f69ac3152774909d02e582c48c25061a7a3241415420f",
+      "context": "v0.107.0: Removal of the old layout > Changing to the existing layout > Removal of the ribbon",
+      "contextHash": "298a05057fd83d9181bb66f44be4ed6e17ea7457f7cc9724cf4bf0ab07e7b818",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_b9e8a329b0658bc1ac7b63f1_0",
+      "kind": "li",
+      "source": "Moved underneath the title under a collapsible area.",
+      "sourceHash": "b9e8a329b0658bc1ac7b63f1fba87224da2fe8252d4d14d8d93c2710a16f9db1",
+      "context": "v0.107.0: Removal of the old layout > Changing to the existing layout > Removal of the ribbon",
+      "contextHash": "298a05057fd83d9181bb66f44be4ed6e17ea7457f7cc9724cf4bf0ab07e7b818",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_a09a8bc46dae0449a0abb415_0",
+      "kind": "li",
+      "source": "Expanded by default for new searches, collapsed for saved searches.",
+      "sourceHash": "a09a8bc46dae0449a0abb415a434f4437bd05a751f3e1b013cffe7252aa076a7",
+      "context": "v0.107.0: Removal of the old layout > Changing to the existing layout > Removal of the ribbon",
+      "contextHash": "298a05057fd83d9181bb66f44be4ed6e17ea7457f7cc9724cf4bf0ab07e7b818",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_b2dc6538057ffc4b86a7eb86_0",
+      "kind": "li",
+      "source": "The Note map is now in the __TRILIUM_PH_0__ Note actions menu.",
+      "sourceHash": "b2dc6538057ffc4b86a7eb862ea057fd49ed34cba7c6224623c18af252d0af22",
+      "context": "v0.107.0: Removal of the old layout > Changing to the existing layout > Removal of the ribbon",
+      "contextHash": "298a05057fd83d9181bb66f44be4ed6e17ea7457f7cc9724cf4bf0ab07e7b818",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_9e2a68f21cf3aac82291ce95_0",
+      "kind": "li",
+      "source": "Instead of opening into a panel in the ribbon, the note map now opens in the sidebar, in the __TRILIUM_PH_0__Connections tab__TRILIUM_PH_1__ where it can also be maximized.",
+      "sourceHash": "9e2a68f21cf3aac82291ce959d5016ff51a60734b8238059c9b2fd7481338cf3",
+      "context": "v0.107.0: Removal of the old layout > Changing to the existing layout > Removal of the ribbon",
+      "contextHash": "298a05057fd83d9181bb66f44be4ed6e17ea7457f7cc9724cf4bf0ab07e7b818",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_d9fb303e776afc68e53d727f_0",
+      "kind": "li",
+      "source": "“Note info” tab was moved to a small __TRILIUM_PH_0__ icon in the status bar.",
+      "sourceHash": "d9fb303e776afc68e53d727f4c5f0e9f13d6564794960a1f1da2ff4879b5b806",
+      "context": "v0.107.0: Removal of the old layout > Changing to the existing layout > Removal of the ribbon",
+      "contextHash": "298a05057fd83d9181bb66f44be4ed6e17ea7457f7cc9724cf4bf0ab07e7b818",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_4288bcc51efa22fa737ea8db_0",
+      "kind": "li",
+      "source": "“Similar notes” tab",
+      "sourceHash": "4288bcc51efa22fa737ea8db85f28c904226a66ec1f5f2af53b2e7e7a36015bd",
+      "context": "v0.107.0: Removal of the old layout > Changing to the existing layout > Removal of the ribbon",
+      "contextHash": "298a05057fd83d9181bb66f44be4ed6e17ea7457f7cc9724cf4bf0ab07e7b818",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_966f59a8add4f14d7d8d84a1_0",
+      "kind": "li",
+      "source": "Instead of opening into a panel in the ribbon, the similar notes are now shown in the sidebar, in the __TRILIUM_PH_0__Connections tab__TRILIUM_PH_1__.",
+      "sourceHash": "966f59a8add4f14d7d8d84a11b830f9e5b308da0d7ec3dd49a21448999992e14",
+      "context": "v0.107.0: Removal of the old layout > Changing to the existing layout > Removal of the ribbon",
+      "contextHash": "298a05057fd83d9181bb66f44be4ed6e17ea7457f7cc9724cf4bf0ab07e7b818",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_9317bae7ded766efb09f73d9_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__ no longer has any effect.",
+      "sourceHash": "9317bae7ded766efb09f73d98be83106eeb1517d1b591c0a318028e7543c4dfb",
+      "context": "v0.107.0: Removal of the old layout > Changing to the existing layout > Removal of the ribbon",
+      "contextHash": "298a05057fd83d9181bb66f44be4ed6e17ea7457f7cc9724cf4bf0ab07e7b818",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_ed81354877fb26954649954d_0",
+      "kind": "li",
+      "source": "The Collection properties tab were relocated under the note title and grouped into:",
+      "sourceHash": "ed81354877fb26954649954d66f0ca0017f9638107b8f853b04789ed9b6dc05a",
+      "context": "v0.107.0: Removal of the old layout > Changing to the existing layout > Removal of the ribbon",
+      "contextHash": "298a05057fd83d9181bb66f44be4ed6e17ea7457f7cc9724cf4bf0ab07e7b818",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_dfc32a955f9fc88da6aabee1_0",
+      "kind": "li",
+      "source": "A combo box to quickly switch between views.",
+      "sourceHash": "dfc32a955f9fc88da6aabee1baf9b0840fb15d4465e7dd7c6c3bac7fedca54ed",
+      "context": "v0.107.0: Removal of the old layout > Changing to the existing layout > Removal of the ribbon",
+      "contextHash": "298a05057fd83d9181bb66f44be4ed6e17ea7457f7cc9724cf4bf0ab07e7b818",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_d65535b6bd232fdd21a897a2_0",
+      "kind": "li",
+      "source": "Individual settings for the current view in a submenu.",
+      "sourceHash": "d65535b6bd232fdd21a897a2b073ed1c631a601b8ff40bc118d0c4117df26da0",
+      "context": "v0.107.0: Removal of the old layout > Changing to the existing layout > Removal of the ribbon",
+      "contextHash": "298a05057fd83d9181bb66f44be4ed6e17ea7457f7cc9724cf4bf0ab07e7b818",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_b6fb57cd16860104c7ed5482_0",
+      "kind": "li",
+      "source": "Some smaller ribbon tabs were converted to badges that appear near the note title in the breadcrumb section:",
+      "sourceHash": "b6fb57cd16860104c7ed5482c41adbe5af6b4bfbd193d1d0a33fdcff3a798670",
+      "context": "v0.107.0: Removal of the old layout > Changing to the existing layout > Removal of the ribbon",
+      "contextHash": "298a05057fd83d9181bb66f44be4ed6e17ea7457f7cc9724cf4bf0ab07e7b818",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_6d5ff3d4b739daa2755f7906_0",
+      "kind": "li",
+      "source": "Original URL indicator for clipped web pages (__TRILIUM_PH_0__).",
+      "sourceHash": "6d5ff3d4b739daa2755f7906bd9fc6a5204f4c3ea2977a283a139ca2d9708ad2",
+      "context": "v0.107.0: Removal of the old layout > Changing to the existing layout > Removal of the ribbon",
+      "contextHash": "298a05057fd83d9181bb66f44be4ed6e17ea7457f7cc9724cf4bf0ab07e7b818",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_5621cdfb4413d79d4b960360_0",
+      "kind": "li",
+      "source": "SQL and script __TRILIUM_PH_0__ execute buttons.",
+      "sourceHash": "5621cdfb4413d79d4b960360deb7282cbbf649533f0fbb5b2be589922b44a317",
+      "context": "v0.107.0: Removal of the old layout > Changing to the existing layout > Removal of the ribbon",
+      "contextHash": "298a05057fd83d9181bb66f44be4ed6e17ea7457f7cc9724cf4bf0ab07e7b818",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_c5d16bd39d30f9ca4f25f964_0",
+      "kind": "p",
+      "source": "The ribbon keyboard shortcuts (e.g. __TRILIUM_PH_0__) have been repurposed and renamed (__TRILIUM_PH_1__Focus Formatting Toolbar__TRILIUM_PH_2__, __TRILIUM_PH_3__Toggle Owned Attributes__TRILIUM_PH_4__, __TRILIUM_PH_5__Show Note Map__TRILIUM_PH_6__, etc.) to work on the new layout, where they will toggle the appropriate panel.",
+      "sourceHash": "c5d16bd39d30f9ca4f25f9640d42ca4999c1996faac192c94cee8b3338b12a38",
+      "context": "v0.107.0: Removal of the old layout > Changing to the existing layout > Removal of the ribbon",
+      "contextHash": "298a05057fd83d9181bb66f44be4ed6e17ea7457f7cc9724cf4bf0ab07e7b818",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_6b8b01e5e67f9773e1594d40_0",
+      "kind": "h3",
+      "source": "Removal of the floating buttons__TRILIUM_PH_0__",
+      "sourceHash": "6b8b01e5e67f9773e1594d40ecf89bb86959a8eeb07425dea98bbe753b7f499c",
+      "context": "v0.107.0: Removal of the old layout > Changing to the existing layout > Removal of the floating buttons",
+      "contextHash": "8e418f033b80ffb51b7b535a87fb570631b87001c96e716ff76d05d64dc6d1f2",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_37076e09880b178d88373b5a_0",
+      "kind": "p",
+      "source": "Most of the buttons were relocated to the right of the note title, in the __TRILIUM_PH_0__Note menu__TRILIUM_PH_1__ area, with the exception of:",
+      "sourceHash": "37076e09880b178d88373b5a106734f448f641bb6fd8a52e95162f7d65c3f055",
+      "context": "v0.107.0: Removal of the old layout > Changing to the existing layout > Removal of the floating buttons",
+      "contextHash": "8e418f033b80ffb51b7b535a87fb570631b87001c96e716ff76d05d64dc6d1f2",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_9c20e33838f64fc6f7b6cbe5_0",
+      "kind": "li",
+      "source": "The Edit button is replaced by the __TRILIUM_PH_0__ __TRILIUM_PH_1__Read-only__TRILIUM_PH_2__ badge near the note title, which makes the note temporarily editable when clicked.",
+      "sourceHash": "9c20e33838f64fc6f7b6cbe59b206401860daac86f9a0887ff88fa4a46246422",
+      "context": "v0.107.0: Removal of the old layout > Changing to the existing layout > Removal of the floating buttons",
+      "contextHash": "8e418f033b80ffb51b7b535a87fb570631b87001c96e716ff76d05d64dc6d1f2",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_921064cf7bfe354aa9bea8e0_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__Backlinks__TRILIUM_PH_1__ are now displayed in the sidebar, in the __TRILIUM_PH_2__Connections tab__TRILIUM_PH_3__.",
+      "sourceHash": "921064cf7bfe354aa9bea8e0132e14770be514f0d604bd7131bf6d99785164db",
+      "context": "v0.107.0: Removal of the old layout > Changing to the existing layout > Removal of the floating buttons",
+      "contextHash": "8e418f033b80ffb51b7b535a87fb570631b87001c96e716ff76d05d64dc6d1f2",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_adcd4e93b424d6889f05f592_0",
+      "kind": "li",
+      "source": "Alternatively, the backlinks count is displayed in the status bar and when clicked the sidebar opens at the right section.",
+      "sourceHash": "adcd4e93b424d6889f05f59231761327433c01f0ea712c38bcfef0c1c73ac82a",
+      "context": "v0.107.0: Removal of the old layout > Changing to the existing layout > Removal of the floating buttons",
+      "contextHash": "8e418f033b80ffb51b7b535a87fb570631b87001c96e716ff76d05d64dc6d1f2",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_e0ac7d2a69997429e113fabe_0",
+      "kind": "li",
+      "source": "Relation map zoom buttons are now part of the relation map itself.",
+      "sourceHash": "e0ac7d2a69997429e113fabe3701702d74a9a40cda8a157d616112c2896d4aff",
+      "context": "v0.107.0: Removal of the old layout > Changing to the existing layout > Removal of the floating buttons",
+      "contextHash": "8e418f033b80ffb51b7b535a87fb570631b87001c96e716ff76d05d64dc6d1f2",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_1c7ad6476289df1da8870d2e_0",
+      "kind": "li",
+      "source": "Export image to PNG/SVG are now in the Note actions menu, in the __TRILIUM_PH_0__Export as image__TRILIUM_PH_1__ option.",
+      "sourceHash": "1c7ad6476289df1da8870d2eb92ef1b9eec167f3987da61c87017da653532755",
+      "context": "v0.107.0: Removal of the old layout > Changing to the existing layout > Removal of the floating buttons",
+      "contextHash": "8e418f033b80ffb51b7b535a87fb570631b87001c96e716ff76d05d64dc6d1f2",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_0b6d5a81bbd0c5db750b3ed2_0",
+      "kind": "h3",
+      "source": "Changes to the sidebar__TRILIUM_PH_0__",
+      "sourceHash": "0b6d5a81bbd0c5db750b3ed20298811e9e16b39ba6dba45ba3cf684a0da63c41",
+      "context": "v0.107.0: Removal of the old layout > Changing to the existing layout > Changes to the sidebar",
+      "contextHash": "a72c645900f423c038b7708c35362736464ecf9ac3a0f0777eefc03e71c5d5a5",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_922537667caa4152250deabe_0",
+      "kind": "p",
+      "source": "The sidebar (also known as the right pane) also received some important changes.",
+      "sourceHash": "922537667caa4152250deabeee94ec9ad2c30978982c8c558c60b68dd801ab10",
+      "context": "v0.107.0: Removal of the old layout > Changing to the existing layout > Changes to the sidebar",
+      "contextHash": "a72c645900f423c038b7708c35362736464ecf9ac3a0f0777eefc03e71c5d5a5",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_007eaf05db47612d7d604c9e_0",
+      "kind": "p",
+      "source": "Most importantly, v0.105.0 splits the sidebar into multiple tabs with additional functionality:",
+      "sourceHash": "007eaf05db47612d7d604c9e48f84d7daca0b5a912962cd17613cf05f2e081a3",
+      "context": "v0.107.0: Removal of the old layout > Changing to the existing layout > Changes to the sidebar",
+      "contextHash": "a72c645900f423c038b7708c35362736464ecf9ac3a0f0777eefc03e71c5d5a5",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_e07e63f7c3af1ed9630127a9_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__Outline tab__TRILIUM_PH_1__, which gathers the table of contents and highlights lists.",
+      "sourceHash": "e07e63f7c3af1ed9630127a9329e8b7ce8e912910c2444c33865e50c245ba794",
+      "context": "v0.107.0: Removal of the old layout > Changing to the existing layout > Changes to the sidebar",
+      "contextHash": "a72c645900f423c038b7708c35362736464ecf9ac3a0f0777eefc03e71c5d5a5",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_f0f37be7138c1a2b3ccee357_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__Attributes tab__TRILIUM_PH_1__, which provides a graphical method of editing labels, relations and (promoted) attribute definitions.",
+      "sourceHash": "f0f37be7138c1a2b3ccee35725ac69d1bf82199f4c6016fdeca80a7552bff399",
+      "context": "v0.107.0: Removal of the old layout > Changing to the existing layout > Changes to the sidebar",
+      "contextHash": "a72c645900f423c038b7708c35362736464ecf9ac3a0f0777eefc03e71c5d5a5",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_7ff606d066f1dbce5bd8194f_0",
+      "kind": "li",
+      "source": "A dedicated __TRILIUM_PH_0__AI chat tab__TRILIUM_PH_1__.",
+      "sourceHash": "7ff606d066f1dbce5bd8194f41f0750a2966a462892f29f6c048de826c8e13f4",
+      "context": "v0.107.0: Removal of the old layout > Changing to the existing layout > Changes to the sidebar",
+      "contextHash": "a72c645900f423c038b7708c35362736464ecf9ac3a0f0777eefc03e71c5d5a5",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_c56029a500f5b4e67860c43a_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__Connections tab__TRILIUM_PH_1__, which groups together the note map, note paths, backlinks and similar notes.",
+      "sourceHash": "c56029a500f5b4e67860c43a40c9e3256d27141959cdb33c90dd6f84bd2b2583",
+      "context": "v0.107.0: Removal of the old layout > Changing to the existing layout > Changes to the sidebar",
+      "contextHash": "a72c645900f423c038b7708c35362736464ecf9ac3a0f0777eefc03e71c5d5a5",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_31e57fc10c14db26347e69a2_0",
+      "kind": "p",
+      "source": "The previous iteration of the sidebar would appear contextually, depending on whether there are any items to be displayed. This caused occasional content shifts when moving between two panes in a split view. In the new layout, the sidebar acts more like the __TRILIUM_PH_0__Note Tree__TRILIUM_PH_1__ pane, remaining visible even if there is nothing to display.",
+      "sourceHash": "31e57fc10c14db26347e69a200e830214c78147a3b9bbbb07d507c45a84adb99",
+      "context": "v0.107.0: Removal of the old layout > Changing to the existing layout > Changes to the sidebar",
+      "contextHash": "a72c645900f423c038b7708c35362736464ecf9ac3a0f0777eefc03e71c5d5a5",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_af2edbc88279ff28bbe43a1b_0",
+      "kind": "p",
+      "source": "As such:",
+      "sourceHash": "af2edbc88279ff28bbe43a1b673bbe5be54160e9a06119e84fc6de7c30c21e53",
+      "context": "v0.107.0: Removal of the old layout > Changing to the existing layout > Changes to the sidebar",
+      "contextHash": "a72c645900f423c038b7708c35362736464ecf9ac3a0f0777eefc03e71c5d5a5",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_3f676ecd144985f7d93f4421_0",
+      "kind": "li",
+      "source": "The __TRILIUM_PH_0__Table of Contents__TRILIUM_PH_1__ card in Text Notes options (minimum number of headings) is gone. The  shows the table of contents whatever the number of headings.",
+      "sourceHash": "3f676ecd144985f7d93f442192c2185e64aff923f551be9badb88f0250abc108",
+      "context": "v0.107.0: Removal of the old layout > Changing to the existing layout > Changes to the sidebar",
+      "contextHash": "a72c645900f423c038b7708c35362736464ecf9ac3a0f0777eefc03e71c5d5a5",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_f2d554a66f8eeb803f95534c_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__ / __TRILIUM_PH_1__ / __TRILIUM_PH_2__ no longer have any effect.",
+      "sourceHash": "f2d554a66f8eeb803f95534c1cb74b8a3c5aa681b5575b9f9020a4d513f71616",
+      "context": "v0.107.0: Removal of the old layout > Changing to the existing layout > Changes to the sidebar",
+      "contextHash": "a72c645900f423c038b7708c35362736464ecf9ac3a0f0777eefc03e71c5d5a5",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_8e91a165e242a5dc584f0b3a_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__ no longer has any effect. The highlight categories are still set globally, from the __TRILIUM_PH_1__ menu of the Highlights list or Text Notes options, but they can't be hidden for a single note.",
+      "sourceHash": "8e91a165e242a5dc584f0b3ac60ca3358b5d2ee3bbd9db8d0a4c104aa2c7fea0",
+      "context": "v0.107.0: Removal of the old layout > Changing to the existing layout > Changes to the sidebar",
+      "contextHash": "a72c645900f423c038b7708c35362736464ecf9ac3a0f0777eefc03e71c5d5a5",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_9df6df59aacf293d3df9a826_0",
+      "kind": "p",
+      "source": "In order to toggle the sidebar, there is a new __TRILIUM_PH_0__ button on the top-right side of the screen, near the window buttons (on Windows and Linux).",
+      "sourceHash": "9df6df59aacf293d3df9a826d70a2e11e0e81e3c4dbb389c15d1b2c716406855",
+      "context": "v0.107.0: Removal of the old layout > Changing to the existing layout > Changes to the sidebar",
+      "contextHash": "a72c645900f423c038b7708c35362736464ecf9ac3a0f0777eefc03e71c5d5a5",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_880774aa4127ac45bf20cced_0",
+      "kind": "p",
+      "source": "Now each section of the sidebar (e.g. “Table of Contents”, “Highlights list”) is individually collapsible and will remember whether it was collapsed.",
+      "sourceHash": "880774aa4127ac45bf20cced46060ccf760957f7d4f53ca5582e80a3ec9663e5",
+      "context": "v0.107.0: Removal of the old layout > Changing to the existing layout > Changes to the sidebar",
+      "contextHash": "a72c645900f423c038b7708c35362736464ecf9ac3a0f0777eefc03e71c5d5a5",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_a1d1e5c073447584450ae3f1_0",
+      "kind": "p",
+      "source": "Some sidebar items also have their own menu in the title. For example, the highlights filter can be adjusted directly from the __TRILIUM_PH_0__ menu of the Highlights list. ",
+      "sourceHash": "a1d1e5c073447584450ae3f1e91c7ef4177ba0c41d71098d4d0e6be585aa6f34",
+      "context": "v0.107.0: Removal of the old layout > Changing to the existing layout > Changes to the sidebar",
+      "contextHash": "a72c645900f423c038b7708c35362736464ecf9ac3a0f0777eefc03e71c5d5a5",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_9ad5f680df647f6592e2d0c4_0",
+      "kind": "p",
+      "source": "Custom widgets are still supported. For custom scripts, the __TRILIUM_PH_0__ menu allows quick navigation to the corresponding script note.",
+      "sourceHash": "9ad5f680df647f6592e2d0c4680a14cbc5f8ca66d3e66f591224a806f6c61fb9",
+      "context": "v0.107.0: Removal of the old layout > Changing to the existing layout > Changes to the sidebar",
+      "contextHash": "a72c645900f423c038b7708c35362736464ecf9ac3a0f0777eefc03e71c5d5a5",
+      "status": "pending",
+      "active": true
+    }
+  ],
+  "requests": []
+}

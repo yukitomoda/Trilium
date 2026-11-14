@@ -1,0 +1,469 @@
+{
+  "schemaVersion": 1,
+  "pageId": "ZRDXGc0nAIh4",
+  "sourceFile": "docs/User Guide/User Guide/Collections/Geo Map/Image maps.md",
+  "sourceRevision": "03d17b60f59b5efc29b880b11481471d0fe0ff57",
+  "units": [
+    {
+      "id": "u_2791ba091758a67e28da2f73_0",
+      "kind": "title",
+      "source": "Image maps",
+      "sourceHash": "2791ba091758a67e28da2f739f37814f3fabc57d58566a3929f5a9ed8ebd737f",
+      "context": "Image maps",
+      "contextHash": "c3bda1df58cd4251487875834c5f911971be4bd6976fb73194b9b85cf27a3d43",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_ad3cd230d57cfef27c6d424b_0",
+      "kind": "p",
+      "source": "An image map is a geo map drawn over an image of your own instead of a world map, such as a floor plan, a fantasy map for a tabletop game, or a diagram to annotate. Markers and shapes work as they do on a geo map, but their positions are measured on the image instead of in latitude and longitude: in the image's own pixels, or in a coordinate system of your choosing, such as the one a video game uses.",
+      "sourceHash": "ad3cd230d57cfef27c6d424be483f32433419caff1491543c4eab40a10b3e3b4",
+      "context": "Image maps",
+      "contextHash": "c3bda1df58cd4251487875834c5f911971be4bd6976fb73194b9b85cf27a3d43",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_5af277b7c57cac0cc4591e43_0",
+      "kind": "h2",
+      "source": "Creating an image map__TRILIUM_PH_0__",
+      "sourceHash": "5af277b7c57cac0cc4591e43f98239a52e4085ccde603f19167296bec04b7ffa",
+      "context": "Image maps > Creating an image map",
+      "contextHash": "6ff1b880d1a434d82b60668fc268dd9811a7bd00a5aea2bf25849f7da687fd09",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_7a15a93c3d24b2a1048a4dcc_0",
+      "kind": "li",
+      "source": "Upload the image as a note of its own, for example by dragging the file into the note tree. PNG, JPEG, WebP and GIF images are supported; SVG images are not.",
+      "sourceHash": "7a15a93c3d24b2a1048a4dcc12bbb5a74fbe6d7c3dee4b2270c680c0960892f7",
+      "context": "Image maps > Creating an image map",
+      "contextHash": "6ff1b880d1a434d82b60668fc268dd9811a7bd00a5aea2bf25849f7da687fd09",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_4a26cd26270c338732ced4ee_0",
+      "kind": "li",
+      "source": "Create a geo map, or open an existing one.",
+      "sourceHash": "4a26cd26270c338732ced4ee01b291b52b8f8abe0121cf0c296eb759efa898db",
+      "context": "Image maps > Creating an image map",
+      "contextHash": "6ff1b880d1a434d82b60668fc268dd9811a7bd00a5aea2bf25849f7da687fd09",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_7bbbd1685e4b845b468f45dc_0",
+      "kind": "li",
+      "source": "Open the __TRILIUM_PH_0____TRILIUM_PH_1__Geo map properties__TRILIUM_PH_2__ dialog from the __TRILIUM_PH_3__Note menu__TRILIUM_PH_4__ or from the settings menu of the __TRILIUM_PH_5__Collection Properties__TRILIUM_PH_6__.",
+      "sourceHash": "7bbbd1685e4b845b468f45dcf1f93a927b7d621acfc26c2bf5f06eecae0ade8b",
+      "context": "Image maps > Creating an image map",
+      "contextHash": "6ff1b880d1a434d82b60668fc268dd9811a7bd00a5aea2bf25849f7da687fd09",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_b51eca451d5ee95707cdd22c_0",
+      "kind": "li",
+      "source": "Under __TRILIUM_PH_0__Background__TRILIUM_PH_1__, set __TRILIUM_PH_2__Type__TRILIUM_PH_3__ to __TRILIUM_PH_4__Custom image__TRILIUM_PH_5__, then choose the image note in __TRILIUM_PH_6__Image note__TRILIUM_PH_7__. The list only offers image notes in a format the map can draw (PNG, JPEG, WebP or GIF), and shows all of them before anything is typed.",
+      "sourceHash": "b51eca451d5ee95707cdd22c13176de4917f9fd1df2d940ca252c6dea68821ec",
+      "context": "Image maps > Creating an image map",
+      "contextHash": "6ff1b880d1a434d82b60668fc268dd9811a7bd00a5aea2bf25849f7da687fd09",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_698e7b3f5d4939b6055ed8b3_0",
+      "kind": "p",
+      "source": "The map then shows the image instead of the world map and opens with the whole image in view. To go back to a world map, set __TRILIUM_PH_0__Type__TRILIUM_PH_1__ back to __TRILIUM_PH_2__Vector & Raster__TRILIUM_PH_3__. The image is switched off rather than removed: its relation is renamed to __TRILIUM_PH_4__, so setting __TRILIUM_PH_5__Type__TRILIUM_PH_6__ to __TRILIUM_PH_7__Custom image__TRILIUM_PH_8__ again brings back the same image, with its coordinates. An image that the geo map inherits from a parent note or a template can only be switched off on the note that holds it.",
+      "sourceHash": "698e7b3f5d4939b6055ed8b34fe5935a44241416c59667a39abc359ae24369e6",
+      "context": "Image maps > Creating an image map",
+      "contextHash": "6ff1b880d1a434d82b60668fc268dd9811a7bd00a5aea2bf25849f7da687fd09",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_20bb4d86011a599137259578_0",
+      "kind": "p",
+      "source": "The image note is stored in a __TRILIUM_PH_0__ __TRILIUM_PH_1__relation__TRILIUM_PH_2__ of the geo map, which can also be added by hand.",
+      "sourceHash": "20bb4d86011a599137259578e6ee8cd00ae26ddd3885f71905f5bbca1ca86134",
+      "context": "Image maps > Creating an image map",
+      "contextHash": "6ff1b880d1a434d82b60668fc268dd9811a7bd00a5aea2bf25849f7da687fd09",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_118900055eef6d2536a711ad_0",
+      "kind": "h2",
+      "source": "Image size__TRILIUM_PH_0__",
+      "sourceHash": "118900055eef6d2536a711ad43396ec7c2c447e2c2c292aba48fa9797fdd4ab4",
+      "context": "Image maps > Image size",
+      "contextHash": "926eaed6a95beddefe7d8c5120ba3e439667e52428bc01118c87339b236aa7f3",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_e2ba8e716f5b47652030ea60_0",
+      "kind": "p",
+      "source": "Images are resized when they are uploaded, so by default the image of a map is at most 2000 pixels on its longer side, which can be too coarse for a detailed map. To keep an image at a higher resolution, do one of the following before uploading it:",
+      "sourceHash": "e2ba8e716f5b47652030ea60fd086e1046e402b1e21c8d45aae558e8dc7798be",
+      "context": "Image maps > Image size",
+      "contextHash": "926eaed6a95beddefe7d8c5120ba3e439667e52428bc01118c87339b236aa7f3",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_e02b7fce6493339cfef9b735_0",
+      "kind": "li",
+      "source": "In __TRILIUM_PH_0__Options__TRILIUM_PH_1__ → __TRILIUM_PH_2__Media__TRILIUM_PH_3__, raise __TRILIUM_PH_4__Max image dimensions__TRILIUM_PH_5__ or turn off __TRILIUM_PH_6__Automatically compress images__TRILIUM_PH_7__.",
+      "sourceHash": "e02b7fce6493339cfef9b7359c3c3640271917fc4ddd6bef724859370eaf7a70",
+      "context": "Image maps > Image size",
+      "contextHash": "926eaed6a95beddefe7d8c5120ba3e439667e52428bc01118c87339b236aa7f3",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_9938f7b08dae1c82067b02db_0",
+      "kind": "li",
+      "source": "Upload it through the __TRILIUM_PH_0__Import__TRILIUM_PH_1__ dialog with __TRILIUM_PH_2__Compress images__TRILIUM_PH_3__ unchecked.",
+      "sourceHash": "9938f7b08dae1c82067b02db3e53fb1c77f744aca190d62a8ad990565325ccc1",
+      "context": "Image maps > Image size",
+      "contextHash": "926eaed6a95beddefe7d8c5120ba3e439667e52428bc01118c87339b236aa7f3",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_bd42fae5e10340efde93c970_0",
+      "kind": "p",
+      "source": "An image that was already uploaded keeps its size; upload it again after changing the settings.",
+      "sourceHash": "bd42fae5e10340efde93c9708326511ff56aed74a7f215d99ce8c452244b26e0",
+      "context": "Image maps > Image size",
+      "contextHash": "926eaed6a95beddefe7d8c5120ba3e439667e52428bc01118c87339b236aa7f3",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_e5c533229cb2cc5b48266ed0_0",
+      "kind": "p",
+      "source": "The image is drawn as a single picture by the graphics card, which limits how large it can be. Images up to 4096 pixels on their longer side are safe on practically every device, and most computers handle up to 16384 pixels. On a device whose graphics card cannot hold the image, the markers and shapes still appear but the image itself does not. The __TRILIUM_PH_0__Geo map properties__TRILIUM_PH_1__ dialog warns about an image larger than 4096 pixels, and about one that can't be used at all, such as an SVG image.",
+      "sourceHash": "e5c533229cb2cc5b48266ed01b072dd9a18eee6ce9a4f594dfa8e1c9b3f98344",
+      "context": "Image maps > Image size",
+      "contextHash": "926eaed6a95beddefe7d8c5120ba3e439667e52428bc01118c87339b236aa7f3",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_27591f4e86746d469eb2d832_0",
+      "kind": "h2",
+      "source": "Interaction__TRILIUM_PH_0__",
+      "sourceHash": "27591f4e86746d469eb2d8323f6dda382149928ec0550ca8a5a6fdfc24cab9a6",
+      "context": "Image maps > Interaction",
+      "contextHash": "b6008cd9e8ded296d1d62093e69340fd0dc14c0ef1de1ce6c7c15ffdd5426598",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_6335c2def60a47c40ae1bf47_0",
+      "kind": "p",
+      "source": "Adding, moving and removing markers, drawing shapes, the popup view and the contextual menu work as described for the __TRILIUM_PH_0__Geo Map__TRILIUM_PH_1__. The camera stays over the image and can zoom in up to four times past the image's own resolution.",
+      "sourceHash": "6335c2def60a47c40ae1bf4780bd0836219d70e32cbfd342042c13e35b8d5acc",
+      "context": "Image maps > Interaction",
+      "contextHash": "b6008cd9e8ded296d1d62093e69340fd0dc14c0ef1de1ce6c7c15ffdd5426598",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_78edb4655f6479e7cf72cac6_0",
+      "kind": "p",
+      "source": "The features that only make sense on a real map are not available on an image map:",
+      "sourceHash": "78edb4655f6479e7cf72cac6c7b5250a85814f0cea0bcddf236efcc7cb2735c2",
+      "context": "Image maps > Interaction",
+      "contextHash": "b6008cd9e8ded296d1d62093e69340fd0dc14c0ef1de1ce6c7c15ffdd5426598",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_861079434ac595fc0fe619e9_0",
+      "kind": "li",
+      "source": "Searching the map and searching for places online.",
+      "sourceHash": "861079434ac595fc0fe619e9a9531bef4962e89ce6cb4dffb11f43c41a2c0380",
+      "context": "Image maps > Interaction",
+      "contextHash": "b6008cd9e8ded296d1d62093e69340fd0dc14c0ef1de1ce6c7c15ffdd5426598",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_c47387a122fe06d03b3087c8_0",
+      "kind": "li",
+      "source": "Going to your location.",
+      "sourceHash": "c47387a122fe06d03b3087c8ae7bb9a1ac91a6e6e2546aea1dd0030ec57f71e1",
+      "context": "Image maps > Interaction",
+      "contextHash": "b6008cd9e8ded296d1d62093e69340fd0dc14c0ef1de1ce6c7c15ffdd5426598",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_49fc198e4694cf7f8e589762_0",
+      "kind": "li",
+      "source": "Adding GPS tracks.",
+      "sourceHash": "49fc198e4694cf7f8e5897624670733c8579299f401c3edb6558aa17346b1927",
+      "context": "Image maps > Interaction",
+      "contextHash": "b6008cd9e8ded296d1d62093e69340fd0dc14c0ef1de1ce6c7c15ffdd5426598",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_5a3ce131c881f5d71dbd38b8_0",
+      "kind": "li",
+      "source": "Clicking the places the base map shows.",
+      "sourceHash": "5a3ce131c881f5d71dbd38b8067025abbfa6fe1be97b4243b930c8fe021661eb",
+      "context": "Image maps > Interaction",
+      "contextHash": "b6008cd9e8ded296d1d62093e69340fd0dc14c0ef1de1ce6c7c15ffdd5426598",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_7721fbf23ca60dd787766946_0",
+      "kind": "li",
+      "source": "The 3D buildings.",
+      "sourceHash": "7721fbf23ca60dd7877669469f50364e5fcda791a656ce4885c56f5417ff4bb4",
+      "context": "Image maps > Interaction",
+      "contextHash": "b6008cd9e8ded296d1d62093e69340fd0dc14c0ef1de1ce6c7c15ffdd5426598",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_c6b1b2b4052d8a2bb49145af_0",
+      "kind": "li",
+      "source": "Opening a location in an external map application.",
+      "sourceHash": "c6b1b2b4052d8a2bb49145af6a7adc1663b3130e7f92d6e4d92acf7229d0298c",
+      "context": "Image maps > Interaction",
+      "contextHash": "b6008cd9e8ded296d1d62093e69340fd0dc14c0ef1de1ce6c7c15ffdd5426598",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_4c530fb310ab0692e4efc802_0",
+      "kind": "p",
+      "source": "The look of the marker titles follows the image: if the image is dark, turn on __TRILIUM_PH_0__Dark image__TRILIUM_PH_1__ under __TRILIUM_PH_2__Background__TRILIUM_PH_3__ in the __TRILIUM_PH_4__Geo map properties__TRILIUM_PH_5__ dialog, so that the titles are drawn in a light color. This sets the __TRILIUM_PH_6__ label.",
+      "sourceHash": "4c530fb310ab0692e4efc802d5904ccdd82528acd354cce568c51fb1c0c999e0",
+      "context": "Image maps > Interaction",
+      "contextHash": "b6008cd9e8ded296d1d62093e69340fd0dc14c0ef1de1ce6c7c15ffdd5426598",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_f334cff7da9c307dc0289f54_0",
+      "kind": "p",
+      "source": "The __TRILIUM_PH_0__Map style__TRILIUM_PH_1__ setting doesn't apply to an image map, so it's hidden from the settings menu of the collection while the map has an image.",
+      "sourceHash": "f334cff7da9c307dc0289f549252a2ecebfd639eb6659f361a5f149533a43508",
+      "context": "Image maps > Interaction",
+      "contextHash": "b6008cd9e8ded296d1d62093e69340fd0dc14c0ef1de1ce6c7c15ffdd5426598",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_1b98d796b6b8e36f2dcb4d78_0",
+      "kind": "h2",
+      "source": "Choosing the coordinate system__TRILIUM_PH_0__",
+      "sourceHash": "1b98d796b6b8e36f2dcb4d7827b64ce401f5f978bd57c3b39f14b063f12c3b30",
+      "context": "Image maps > Choosing the coordinate system",
+      "contextHash": "314ff47ca1e102c8b077f2355d7c56cfdb49cc9a8dc1055f748bab850e6158b0",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_661ac0f1683e9e24ef3831d2_0",
+      "kind": "p",
+      "source": "By default, positions are measured in pixels of the image at its original size, from its top-left corner, with __TRILIUM_PH_0__ growing to the right and __TRILIUM_PH_1__ growing downwards.",
+      "sourceHash": "661ac0f1683e9e24ef3831d222f2f1a83893e09de23bb526d1472de5bb1c80c6",
+      "context": "Image maps > Choosing the coordinate system",
+      "contextHash": "314ff47ca1e102c8b077f2355d7c56cfdb49cc9a8dc1055f748bab850e6158b0",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_2aca5bc83ac2a8bd6413b6bb_0",
+      "kind": "p",
+      "source": "To use coordinates of your own instead, open the __TRILIUM_PH_0__Geo map properties__TRILIUM_PH_1__ dialog, set __TRILIUM_PH_2__Coordinates__TRILIUM_PH_3__ under __TRILIUM_PH_4__Background__TRILIUM_PH_5__ to __TRILIUM_PH_6__Custom__TRILIUM_PH_7__, and enter the coordinates of the image's __TRILIUM_PH_8__Top-left corner__TRILIUM_PH_9__ and __TRILIUM_PH_10__Bottom-right corner__TRILIUM_PH_11__. Switching to __TRILIUM_PH_12__Custom__TRILIUM_PH_13__ starts from the image's size in pixels, so the markers stay where they are until the corners are changed; for that reason, __TRILIUM_PH_14__Custom__TRILIUM_PH_15__ can only be chosen once the image has loaded. All positions are then read and written in those coordinates, including the ones shown in the contextual menu and in the popup view. To go back to pixels, set __TRILIUM_PH_16__Coordinates__TRILIUM_PH_17__ to __TRILIUM_PH_18__Image pixels__TRILIUM_PH_19__. Corners that the geo map inherits from a parent note or a template can only be removed on the note that holds them; entering other corners on this map overrides them.",
+      "sourceHash": "2aca5bc83ac2a8bd6413b6bb7c1be56848289d56b144a73bcdf50b191552b562",
+      "context": "Image maps > Choosing the coordinate system",
+      "contextHash": "314ff47ca1e102c8b077f2355d7c56cfdb49cc9a8dc1055f748bab850e6158b0",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_f863747cbd444be8e96e1d46_0",
+      "kind": "p",
+      "source": "The corners are stored in the __TRILIUM_PH_0__ label of the geo map as __TRILIUM_PH_1__, with a space between the two corners, which can also be set by hand. For example:",
+      "sourceHash": "f863747cbd444be8e96e1d46a9bc1cf198d2f909482e465f677360eb430e7182",
+      "context": "Image maps > Choosing the coordinate system",
+      "contextHash": "314ff47ca1e102c8b077f2355d7c56cfdb49cc9a8dc1055f748bab850e6158b0",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_3beed67a6b26711218f86e41_0",
+      "kind": "li",
+      "source": "A screenshot of a game map that covers __TRILIUM_PH_0__ from -512 to 512 and __TRILIUM_PH_1__ from -512 to 512, with __TRILIUM_PH_2__ growing downwards: __TRILIUM_PH_3__. Coordinates copied from the game can then be pasted directly into __TRILIUM_PH_4__.",
+      "sourceHash": "3beed67a6b26711218f86e41d1d7f125553ea62eee7e2f0568d414f12a7021c1",
+      "context": "Image maps > Choosing the coordinate system",
+      "contextHash": "314ff47ca1e102c8b077f2355d7c56cfdb49cc9a8dc1055f748bab850e6158b0",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_84411fc5cb83e82624533976_0",
+      "kind": "li",
+      "source": "A world whose __TRILIUM_PH_0__ grows upwards, with the origin in the middle of the image: __TRILIUM_PH_1__. A top-left __TRILIUM_PH_2__ larger than the bottom-right one is what flips the axis.",
+      "sourceHash": "84411fc5cb83e82624533976334b6715c3a1be51c2084bfb639a04c87c0e5a72",
+      "context": "Image maps > Choosing the coordinate system",
+      "contextHash": "314ff47ca1e102c8b077f2355d7c56cfdb49cc9a8dc1055f748bab850e6158b0",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_9f1ad0a3cf526e6b8c97ac0b_0",
+      "kind": "li",
+      "source": "A floor plan measured in meters: __TRILIUM_PH_0__.",
+      "sourceHash": "9f1ad0a3cf526e6b8c97ac0be8ef7ca08dd86fa8bbaf72ec7a967a1183306c32",
+      "context": "Image maps > Choosing the coordinate system",
+      "contextHash": "314ff47ca1e102c8b077f2355d7c56cfdb49cc9a8dc1055f748bab850e6158b0",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_d29490f8698b172cd817971d_0",
+      "kind": "p",
+      "source": "The two axes don't have to use the same scale. A circle is always measured in the map's own units, so it appears as an ellipse when the units are stretched differently along the two axes.",
+      "sourceHash": "d29490f8698b172cd817971dd142b84c519cc5ff668c5339335c7e481a1c5484",
+      "context": "Image maps > Choosing the coordinate system",
+      "contextHash": "314ff47ca1e102c8b077f2355d7c56cfdb49cc9a8dc1055f748bab850e6158b0",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_eb6cc5356a517da230f897b0_0",
+      "kind": "p",
+      "source": "Corners that share an __TRILIUM_PH_0__ or a __TRILIUM_PH_1__ don't span an area: the dialog doesn't save them, and a label holding them, or a value that cannot be read, is ignored and the pixels of the image are used instead.",
+      "sourceHash": "eb6cc5356a517da230f897b0d187496ddc150c983c3d50b41064d355b3d00954",
+      "context": "Image maps > Choosing the coordinate system",
+      "contextHash": "314ff47ca1e102c8b077f2355d7c56cfdb49cc9a8dc1055f748bab850e6158b0",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_c3d8e06e842baaedea3ea75c_0",
+      "kind": "h2",
+      "source": "Coordinate rulers__TRILIUM_PH_0__",
+      "sourceHash": "c3d8e06e842baaedea3ea75ce87a47cd379f22ffed66d77d875986fe5099f9dd",
+      "context": "Image maps > Coordinate rulers",
+      "contextHash": "1cbaedf40f3d3b1e15a9d8fb5a624d60ab965d797b6995eb4349ccc0fd1c571b",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_798a71b5a52b4dca54ffacf6_0",
+      "kind": "p",
+      "source": "Enabling __TRILIUM_PH_0__Show scale__TRILIUM_PH_1__ in the collection properties draws rulers along the edges of the image instead of a distance scale. Round values of the map's coordinates are marked with ticks along all four edges, labeled along the top and left ones, with faint grid lines across the image. The spacing follows the zoom level, and the values follow __TRILIUM_PH_2__ when it is set.",
+      "sourceHash": "798a71b5a52b4dca54ffacf66e6efa8c49b87aa6dd8b9f31246ebe5c3a5f5225",
+      "context": "Image maps > Coordinate rulers",
+      "contextHash": "1cbaedf40f3d3b1e15a9d8fb5a624d60ab965d797b6995eb4349ccc0fd1c571b",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_a6702bdcd3b13bf0bca13dc2_0",
+      "kind": "p",
+      "source": "The rulers are drawn on the image itself, so they move out of view along with its edges when zooming in. The grid lines remain visible across the image.",
+      "sourceHash": "a6702bdcd3b13bf0bca13dc2a1d13f14cb770df95b6520d25b1666f4e149a10b",
+      "context": "Image maps > Coordinate rulers",
+      "contextHash": "1cbaedf40f3d3b1e15a9d8fb5a624d60ab965d797b6995eb4349ccc0fd1c571b",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_59125fda1c48174e5737a3a2_0",
+      "kind": "h2",
+      "source": "How the positions are stored__TRILIUM_PH_0__",
+      "sourceHash": "59125fda1c48174e5737a3a26f49a5ccdb17bc63565873766b9f14001393cfed",
+      "context": "Image maps > How the positions are stored",
+      "contextHash": "bcdaf2381be36ab5ae5deb7b765cd215310807e4cdca99d0d2d47728e41d2f8b",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_6d6d5fc473af28e1f0c319db_0",
+      "kind": "p",
+      "source": "Because positions are stored in different labels from the ones of a geo map, the same note can be placed both on a geo map and on an image map.",
+      "sourceHash": "6d6d5fc473af28e1f0c319db5894b525137eb0c5d0d19a7df50a9ee8e8af55d7",
+      "context": "Image maps > How the positions are stored",
+      "contextHash": "bcdaf2381be36ab5ae5deb7b765cd215310807e4cdca99d0d2d47728e41d2f8b",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_6f0c4b80edc06ac84ea5ebee_0",
+      "kind": "th",
+      "source": "Label",
+      "sourceHash": "6f0c4b80edc06ac84ea5ebeecce95361bd8cf2fe8361d0f209fa5bd9a27884b3",
+      "context": "Image maps > How the positions are stored",
+      "contextHash": "bcdaf2381be36ab5ae5deb7b765cd215310807e4cdca99d0d2d47728e41d2f8b",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_46bad298529e14e3512d916f_0",
+      "kind": "th",
+      "source": "Content",
+      "sourceHash": "46bad298529e14e3512d916f65c8fa6d29ac34126a4d3565a05e7f9f1ce2bc1b",
+      "context": "Image maps > How the positions are stored",
+      "contextHash": "bcdaf2381be36ab5ae5deb7b765cd215310807e4cdca99d0d2d47728e41d2f8b",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_cf89bcb9f29242ef19727b9f_0",
+      "kind": "td",
+      "source": "The position of a marker, as __TRILIUM_PH_0__, for example __TRILIUM_PH_1__.",
+      "sourceHash": "cf89bcb9f29242ef19727b9fcb03795f144f5b70ed7558482c0f1a66b0a4d2b0",
+      "context": "Image maps > How the positions are stored",
+      "contextHash": "bcdaf2381be36ab5ae5deb7b765cd215310807e4cdca99d0d2d47728e41d2f8b",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_c436bef95d48c207e048b2b2_0",
+      "kind": "td",
+      "source": "A shape, in the same format as __TRILIUM_PH_0__ (see __TRILIUM_PH_1__Drawing shapes__TRILIUM_PH_2__) but with __TRILIUM_PH_3__ pairs, and a circle's radius in the map's units, for example __TRILIUM_PH_4__.",
+      "sourceHash": "c436bef95d48c207e048b2b2bc24cc8341610a7d20acb62b41c0f43ee77f015e",
+      "context": "Image maps > How the positions are stored",
+      "contextHash": "bcdaf2381be36ab5ae5deb7b765cd215310807e4cdca99d0d2d47728e41d2f8b",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_5d7fe89da940b472e95dae4f_0",
+      "kind": "p",
+      "source": "The positions belong to the coordinate system, not to the image. When replacing the image with a different one, for example a higher-resolution copy, keep __TRILIUM_PH_0__ describing the area the new image covers and every marker stays in place. With __TRILIUM_PH_1__Image pixels__TRILIUM_PH_2__, the positions are pixels, so an image of a different size moves the markers relative to what the image shows; to avoid that, switch __TRILIUM_PH_3__Coordinates__TRILIUM_PH_4__ to __TRILIUM_PH_5__Custom__TRILIUM_PH_6__ before replacing the image, which keeps the size of the old one (__TRILIUM_PH_7__) as the corners.",
+      "sourceHash": "5d7fe89da940b472e95dae4fed734034cb41c2be9a8c8507615a0ce8e200947d",
+      "context": "Image maps > How the positions are stored",
+      "contextHash": "bcdaf2381be36ab5ae5deb7b765cd215310807e4cdca99d0d2d47728e41d2f8b",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_460d69e2c9f7751f2540efc2_0",
+      "kind": "p",
+      "source": "To draw freely over an image instead of placing notes on it, consider a __TRILIUM_PH_0__Canvas__TRILIUM_PH_1__.",
+      "sourceHash": "460d69e2c9f7751f2540efc271e001e894d91351c7dcdb43e5afb3b67ca07e21",
+      "context": "Image maps > How the positions are stored",
+      "contextHash": "bcdaf2381be36ab5ae5deb7b765cd215310807e4cdca99d0d2d47728e41d2f8b",
+      "status": "pending",
+      "active": true
+    }
+  ],
+  "requests": []
+}

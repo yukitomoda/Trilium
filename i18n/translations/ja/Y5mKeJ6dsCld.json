@@ -1,0 +1,999 @@
+{
+  "schemaVersion": 1,
+  "pageId": "Y5mKeJ6dsCld",
+  "sourceFile": "docs/User Guide/User Guide/Basic Concepts and Features/Import & Export/Importing data from other applications/Notion.md",
+  "sourceRevision": "03d17b60f59b5efc29b880b11481471d0fe0ff57",
+  "units": [
+    {
+      "id": "u_43709cfe6a876f86e8aa1366_0",
+      "kind": "title",
+      "source": "Notion",
+      "sourceHash": "43709cfe6a876f86e8aa136610d23bf5e6df8cb6d4852aa9086c60706d952286",
+      "context": "Notion",
+      "contextHash": "73bcfe98830b53a1cabd2fa68c6ba8819adcfb9b0566f7ed5d455582d47973ed",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_5b5517163d6945f6c3030125_0",
+      "kind": "p",
+      "source": "Trilium can import ZIP exports from Notion while preserving structure and formatting.",
+      "sourceHash": "5b5517163d6945f6c3030125b647ce16a6b820af80b63f9a220740a8dda7fcef",
+      "context": "Notion",
+      "contextHash": "73bcfe98830b53a1cabd2fa68c6ba8819adcfb9b0566f7ed5d455582d47973ed",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_091eb4af09a41aef221b8460_0",
+      "kind": "h2",
+      "source": "Import process__TRILIUM_PH_0__",
+      "sourceHash": "091eb4af09a41aef221b84600bc33be9eed8e7c13f3c31fa0e1adf7f9725b683",
+      "context": "Notion > Import process",
+      "contextHash": "02046deff85bc08655b65338293c814f41e056a8862ed633a27d932edf04ace0",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_d219f2dfcee5297fe15e935a_0",
+      "kind": "p",
+      "source": "In Notion, there are two ways to export data:",
+      "sourceHash": "d219f2dfcee5297fe15e935a650e9e5148cc027f0a39f9096b1b934bda04ecec",
+      "context": "Notion > Import process",
+      "contextHash": "02046deff85bc08655b65338293c814f41e056a8862ed633a27d932edf04ace0",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_392d825720102c036d4b06b0_0",
+      "kind": "li",
+      "source": "To export a single page (and optionally its sub-pages):",
+      "sourceHash": "392d825720102c036d4b06b0e803af81b16edd4dbc8006348e8fe58bf2245ed7",
+      "context": "Notion > Import process",
+      "contextHash": "02046deff85bc08655b65338293c814f41e056a8862ed633a27d932edf04ace0",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_52247bc8dc6340552b4ef115_0",
+      "kind": "li",
+      "source": "Select the page to export.",
+      "sourceHash": "52247bc8dc6340552b4ef1152ba59e72c4cf7f295ce47d98479851027078d7f7",
+      "context": "Notion > Import process",
+      "contextHash": "02046deff85bc08655b65338293c814f41e056a8862ed633a27d932edf04ace0",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_b4c513b2f5e58859e2ed9dbf_0",
+      "kind": "li",
+      "source": "Press the […] button at the top-right of the window and select __TRILIUM_PH_0__Export__TRILIUM_PH_1__.",
+      "sourceHash": "b4c513b2f5e58859e2ed9dbf9af67137db476950f94310648c299eb2cbb99aa7",
+      "context": "Notion > Import process",
+      "contextHash": "02046deff85bc08655b65338293c814f41e056a8862ed633a27d932edf04ace0",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_4172ecb4f3f1763d3959ca0c_0",
+      "kind": "li",
+      "source": "Ensure the following options are set:",
+      "sourceHash": "4172ecb4f3f1763d3959ca0c132e2175b442bd517e10df290658d0b8c4de706d",
+      "context": "Notion > Import process",
+      "contextHash": "02046deff85bc08655b65338293c814f41e056a8862ed633a27d932edf04ace0",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_bb4bbc74d1fa85d942c2f741_0",
+      "kind": "li",
+      "source": "Export format: HTML",
+      "sourceHash": "bb4bbc74d1fa85d942c2f7416fda75d73a112d2d990fec7c246e649b24aeec29",
+      "context": "Notion > Import process",
+      "contextHash": "02046deff85bc08655b65338293c814f41e056a8862ed633a27d932edf04ace0",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_8c3ff169b9dd09122ed3fbf8_0",
+      "kind": "li",
+      "source": "Page content: Everything",
+      "sourceHash": "8c3ff169b9dd09122ed3fbf8493a8bacb61dd64d1d091fefba390baddba194a0",
+      "context": "Notion > Import process",
+      "contextHash": "02046deff85bc08655b65338293c814f41e056a8862ed633a27d932edf04ace0",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_60d0ae715624859b15f31b03_0",
+      "kind": "li",
+      "source": "Include subpages: On",
+      "sourceHash": "60d0ae715624859b15f31b0335b999479bcc8f5539ed082eec83115650bccc16",
+      "context": "Notion > Import process",
+      "contextHash": "02046deff85bc08655b65338293c814f41e056a8862ed633a27d932edf04ace0",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_8af2342b1cd38ae4bbe152ed_0",
+      "kind": "li",
+      "source": "Create folders for subpages: On",
+      "sourceHash": "8af2342b1cd38ae4bbe152ed55804a5e75c0219d6060c3232e84c2eeb3aa4620",
+      "context": "Notion > Import process",
+      "contextHash": "02046deff85bc08655b65338293c814f41e056a8862ed633a27d932edf04ace0",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_a997ccde352cd4a605527dc0_0",
+      "kind": "li",
+      "source": "Press the Export button.",
+      "sourceHash": "a997ccde352cd4a605527dc0e800e724d9dffb8efb23d421ce9792141658c25c",
+      "context": "Notion > Import process",
+      "contextHash": "02046deff85bc08655b65338293c814f41e056a8862ed633a27d932edf04ace0",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_b6632709a86aca3f2e705ed0_0",
+      "kind": "li",
+      "source": "Wait for the download to finish.",
+      "sourceHash": "b6632709a86aca3f2e705ed08415a24e66e605d5f0ca068320a6c2676109c744",
+      "context": "Notion > Import process",
+      "contextHash": "02046deff85bc08655b65338293c814f41e056a8862ed633a27d932edf04ace0",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_be5074c5c59225c7f7cb6edd_0",
+      "kind": "li",
+      "source": "To export an entire workspace, press your user name badge at top-left and select __TRILIUM_PH_0__Settings__TRILIUM_PH_1__.",
+      "sourceHash": "be5074c5c59225c7f7cb6edd9cfab42ac80400646804e4d5777023e8c4b45df6",
+      "context": "Notion > Import process",
+      "contextHash": "02046deff85bc08655b65338293c814f41e056a8862ed633a27d932edf04ace0",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_fd3feeb2ff79d781fd3b67fa_0",
+      "kind": "li",
+      "source": "In the left section, look for the __TRILIUM_PH_0__Workspace__TRILIUM_PH_1__ category and select __TRILIUM_PH_2__General__TRILIUM_PH_3__.",
+      "sourceHash": "fd3feeb2ff79d781fd3b67fafc05bee6f2cc216d6ba5a882a62039e3742ebe95",
+      "context": "Notion > Import process",
+      "contextHash": "02046deff85bc08655b65338293c814f41e056a8862ed633a27d932edf04ace0",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_6cfd70dee85f27c9d30d3704_0",
+      "kind": "li",
+      "source": "In the __TRILIUM_PH_0__General__TRILIUM_PH_1__ settings page, look for the __TRILIUM_PH_2__Export__TRILIUM_PH_3__ section and press the __TRILIUM_PH_4__Export__TRILIUM_PH_5__ button corresponding to __TRILIUM_PH_6__Workspace content__TRILIUM_PH_7__.",
+      "sourceHash": "6cfd70dee85f27c9d30d3704f6c28b3032fd5698eda8d325e8a076e7ce9c5c61",
+      "context": "Notion > Import process",
+      "contextHash": "02046deff85bc08655b65338293c814f41e056a8862ed633a27d932edf04ace0",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_4172ecb4f3f1763d3959ca0c_1",
+      "kind": "li",
+      "source": "Ensure the following options are set:",
+      "sourceHash": "4172ecb4f3f1763d3959ca0c132e2175b442bd517e10df290658d0b8c4de706d",
+      "context": "Notion > Import process",
+      "contextHash": "02046deff85bc08655b65338293c814f41e056a8862ed633a27d932edf04ace0",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_bb4bbc74d1fa85d942c2f741_1",
+      "kind": "li",
+      "source": "Export format: HTML",
+      "sourceHash": "bb4bbc74d1fa85d942c2f7416fda75d73a112d2d990fec7c246e649b24aeec29",
+      "context": "Notion > Import process",
+      "contextHash": "02046deff85bc08655b65338293c814f41e056a8862ed633a27d932edf04ace0",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_8c3ff169b9dd09122ed3fbf8_1",
+      "kind": "li",
+      "source": "Page content: Everything",
+      "sourceHash": "8c3ff169b9dd09122ed3fbf8493a8bacb61dd64d1d091fefba390baddba194a0",
+      "context": "Notion > Import process",
+      "contextHash": "02046deff85bc08655b65338293c814f41e056a8862ed633a27d932edf04ace0",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_60d0ae715624859b15f31b03_1",
+      "kind": "li",
+      "source": "Include subpages: On",
+      "sourceHash": "60d0ae715624859b15f31b0335b999479bcc8f5539ed082eec83115650bccc16",
+      "context": "Notion > Import process",
+      "contextHash": "02046deff85bc08655b65338293c814f41e056a8862ed633a27d932edf04ace0",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_8af2342b1cd38ae4bbe152ed_1",
+      "kind": "li",
+      "source": "Create folders for subpages: On",
+      "sourceHash": "8af2342b1cd38ae4bbe152ed55804a5e75c0219d6060c3232e84c2eeb3aa4620",
+      "context": "Notion > Import process",
+      "contextHash": "02046deff85bc08655b65338293c814f41e056a8862ed633a27d932edf04ace0",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_a997ccde352cd4a605527dc0_1",
+      "kind": "li",
+      "source": "Press the Export button.",
+      "sourceHash": "a997ccde352cd4a605527dc0e800e724d9dffb8efb23d421ce9792141658c25c",
+      "context": "Notion > Import process",
+      "contextHash": "02046deff85bc08655b65338293c814f41e056a8862ed633a27d932edf04ace0",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_1a5745ec59c2defe811b0c91_0",
+      "kind": "li",
+      "source": "Wait for the download to finish. Depending on the size of your workspace it might take a while. You will get a downloadable copy via email if takes too long.",
+      "sourceHash": "1a5745ec59c2defe811b0c916d95e52f593a5d8f2325e82eb9e2550b11830cfa",
+      "context": "Notion > Import process",
+      "contextHash": "02046deff85bc08655b65338293c814f41e056a8862ed633a27d932edf04ace0",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_073a00d0139ff09975937392_0",
+      "kind": "p",
+      "source": "In Trilium Notes:",
+      "sourceHash": "073a00d0139ff09975937392930d20cc2435519bebde2e1668fd8d83cf70895b",
+      "context": "Notion > Import process",
+      "contextHash": "02046deff85bc08655b65338293c814f41e056a8862ed633a27d932edf04ace0",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_627727c7498b1ccd9d45b1a2_0",
+      "kind": "li",
+      "source": "In the __TRILIUM_PH_0__Note Tree__TRILIUM_PH_1__, right click and select __TRILIUM_PH_2__Import into note__TRILIUM_PH_3__ (__TRILIUM_PH_4__).",
+      "sourceHash": "627727c7498b1ccd9d45b1a27a97424b43ecf0f1264d27c4ce8984be55dbf6b8",
+      "context": "Notion > Import process",
+      "contextHash": "02046deff85bc08655b65338293c814f41e056a8862ed633a27d932edf04ace0",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_55dfe81ff211ad29bbc719ae_0",
+      "kind": "li",
+      "source": "In the __TRILIUM_PH_0__Import from__TRILIUM_PH_1__ section, select __TRILIUM_PH_2__ __TRILIUM_PH_3__Notion__TRILIUM_PH_4__.",
+      "sourceHash": "55dfe81ff211ad29bbc719ae1749f7b09f2b777560b16c85dcc8c7b906265853",
+      "context": "Notion > Import process",
+      "contextHash": "02046deff85bc08655b65338293c814f41e056a8862ed633a27d932edf04ace0",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_9b8fd32b1e048ebc29a99814_0",
+      "kind": "li",
+      "source": "Upload the ZIP obtained in the previous step.",
+      "sourceHash": "9b8fd32b1e048ebc29a998149f88110e2b5131e69ebd01b52a1e76129d630c1f",
+      "context": "Notion > Import process",
+      "contextHash": "02046deff85bc08655b65338293c814f41e056a8862ed633a27d932edf04ace0",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_40ff640d4fda01902f6eb589_0",
+      "kind": "h2",
+      "source": "Supported features__TRILIUM_PH_0__",
+      "sourceHash": "40ff640d4fda01902f6eb5894c960a3be0632f56de2d140fa2627699a93bdba5",
+      "context": "Notion > Supported features",
+      "contextHash": "07f0eaa3b88bfbd86027f00c0ab2aed803aa69ac4d6a518e3d0ee5782b787ec9",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_4e4fc272e1d831098ab11c37_0",
+      "kind": "p",
+      "source": "The following features are preserved by Trilium during the import process:",
+      "sourceHash": "4e4fc272e1d831098ab11c37962bae9a80d1783ce2c30dc11d34966d9c46162e",
+      "context": "Notion > Supported features",
+      "contextHash": "07f0eaa3b88bfbd86027f00c0ab2aed803aa69ac4d6a518e3d0ee5782b787ec9",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_a128b9d86e0422a958cb3dd7_0",
+      "kind": "li",
+      "source": "Basic formatting (bold, italic, underline, strikethrough, headings, colors, highlights).",
+      "sourceHash": "a128b9d86e0422a958cb3dd7f9ceb3e175297b53a6a253e6c5b3dc19910438e9",
+      "context": "Notion > Supported features",
+      "contextHash": "07f0eaa3b88bfbd86027f00c0ab2aed803aa69ac4d6a518e3d0ee5782b787ec9",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_d42c68dd1fe8140c845ef2e2_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__Lists__TRILIUM_PH_1__",
+      "sourceHash": "d42c68dd1fe8140c845ef2e260f601564f27cccd95e437977659b41592007d18",
+      "context": "Notion > Supported features",
+      "contextHash": "07f0eaa3b88bfbd86027f00c0ab2aed803aa69ac4d6a518e3d0ee5782b787ec9",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_9054e47fa079d153496da7b9_0",
+      "kind": "li",
+      "source": "To-do lists",
+      "sourceHash": "9054e47fa079d153496da7b99a8b94859cdbe3bdb9a66b862fb8085c32e719af",
+      "context": "Notion > Supported features",
+      "contextHash": "07f0eaa3b88bfbd86027f00c0ab2aed803aa69ac4d6a518e3d0ee5782b787ec9",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_2bf79aa91c7a398bf72033df_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__Images__TRILIUM_PH_1__ and __TRILIUM_PH_2__Attachments__TRILIUM_PH_3__.",
+      "sourceHash": "2bf79aa91c7a398bf72033dfbbf362f6abcacfc0aa98141eec8d3536cc27626c",
+      "context": "Notion > Supported features",
+      "contextHash": "07f0eaa3b88bfbd86027f00c0ab2aed803aa69ac4d6a518e3d0ee5782b787ec9",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_1fe86fbe7a8328b56f759f04_0",
+      "kind": "li",
+      "source": "Toggle sections",
+      "sourceHash": "1fe86fbe7a8328b56f759f04b324181d953b597f9bc45bc10e847626ab6ce38e",
+      "context": "Notion > Supported features",
+      "contextHash": "07f0eaa3b88bfbd86027f00c0ab2aed803aa69ac4d6a518e3d0ee5782b787ec9",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_8fe1fe2d9728f2dc1b18014b_0",
+      "kind": "li",
+      "source": "Nested toggle sections are also supported.",
+      "sourceHash": "8fe1fe2d9728f2dc1b18014b5a4f9eb7ec9672e918df03317c139926940bf28f",
+      "context": "Notion > Supported features",
+      "contextHash": "07f0eaa3b88bfbd86027f00c0ab2aed803aa69ac4d6a518e3d0ee5782b787ec9",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_d02ca39e359db555e855b689_0",
+      "kind": "li",
+      "source": "Toggle headings are stripped of their toggle button and become normal headings instead.",
+      "sourceHash": "d02ca39e359db555e855b689dae25cf056c2651f53fa7c183f8d63f1e09f6824",
+      "context": "Notion > Supported features",
+      "contextHash": "07f0eaa3b88bfbd86027f00c0ab2aed803aa69ac4d6a518e3d0ee5782b787ec9",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_b23bd9a2ab1dbedd6ece5116_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__Math Equations__TRILIUM_PH_1__ (inline or block)",
+      "sourceHash": "b23bd9a2ab1dbedd6ece5116545d08ed86d396309ff7578b739f89c7af3d2355",
+      "context": "Notion > Supported features",
+      "contextHash": "07f0eaa3b88bfbd86027f00c0ab2aed803aa69ac4d6a518e3d0ee5782b787ec9",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_653cbcfe4c40e2068e198620_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__Link Previews__TRILIUM_PH_1__",
+      "sourceHash": "653cbcfe4c40e2068e198620bde3e8dda609b8693d374f8e5643deda32a3b70e",
+      "context": "Notion > Supported features",
+      "contextHash": "07f0eaa3b88bfbd86027f00c0ab2aed803aa69ac4d6a518e3d0ee5782b787ec9",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_9e3d43fd09366e2f82f5da79_0",
+      "kind": "li",
+      "source": "The icon and image of the links need to be retrieved online since the exports don't carry the images. This operation is done only if __TRILIUM_PH_0__Download images automatically__TRILIUM_PH_1__ is enabled in __TRILIUM_PH_2__Options__TRILIUM_PH_3__ → __TRILIUM_PH_4__Media__TRILIUM_PH_5__.",
+      "sourceHash": "9e3d43fd09366e2f82f5da79e48bc5e4a33de13dd16ef896cb60f4b9a329ad70",
+      "context": "Notion > Supported features",
+      "contextHash": "07f0eaa3b88bfbd86027f00c0ab2aed803aa69ac4d6a518e3d0ee5782b787ec9",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_afa4d2482f1b126cb8b93ace_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__Code blocks__TRILIUM_PH_1__, with a best-effort attempt to restore the language.",
+      "sourceHash": "afa4d2482f1b126cb8b93ace504f00519bd17e1caf16eb5912bf90fb1955e505",
+      "context": "Notion > Supported features",
+      "contextHash": "07f0eaa3b88bfbd86027f00c0ab2aed803aa69ac4d6a518e3d0ee5782b787ec9",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_ac8da1085e6023ff6e6c69c5_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__Mermaid Diagrams__TRILIUM_PH_1__",
+      "sourceHash": "ac8da1085e6023ff6e6c69c5b7e745e900a83c1356c359ba512b0afcabe72131",
+      "context": "Notion > Supported features",
+      "contextHash": "07f0eaa3b88bfbd86027f00c0ab2aed803aa69ac4d6a518e3d0ee5782b787ec9",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_ab6b4d11c5e07d2deaad21d9_0",
+      "kind": "li",
+      "source": "Links between other imported pages are converted to __TRILIUM_PH_0__Internal (reference) links__TRILIUM_PH_1__ if they are part of the same import.",
+      "sourceHash": "ab6b4d11c5e07d2deaad21d9689e8c0e3d4df1d8a916f381de4360fc9e9266d2",
+      "context": "Notion > Supported features",
+      "contextHash": "07f0eaa3b88bfbd86027f00c0ab2aed803aa69ac4d6a518e3d0ee5782b787ec9",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_76c95b7573249f4ebb623a6a_0",
+      "kind": "li",
+      "source": "Databases are imported as __TRILIUM_PH_0__Collections__TRILIUM_PH_1__ (see below).",
+      "sourceHash": "76c95b7573249f4ebb623a6afeda4b71a6b781525df03da72765e3a63e3dc578",
+      "context": "Notion > Supported features",
+      "contextHash": "07f0eaa3b88bfbd86027f00c0ab2aed803aa69ac4d6a518e3d0ee5782b787ec9",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_082c0551332ae69203cec7f2_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__Admonitions__TRILIUM_PH_1__ are preserved, including its emoji (added as part of the content).",
+      "sourceHash": "082c0551332ae69203cec7f29a9601b23134a9bd411b2a3e60f3cd7a83c3af1f",
+      "context": "Notion > Supported features",
+      "contextHash": "07f0eaa3b88bfbd86027f00c0ab2aed803aa69ac4d6a518e3d0ee5782b787ec9",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_8bd2ad053b9094e585f2e201_0",
+      "kind": "li",
+      "source": "Columns are imported as transparent __TRILIUM_PH_0__tables__TRILIUM_PH_1__, preserving the column definition.",
+      "sourceHash": "8bd2ad053b9094e585f2e2015f6139ddcfc0a68772e1b3c6508ed0d859f1fe85",
+      "context": "Notion > Supported features",
+      "contextHash": "07f0eaa3b88bfbd86027f00c0ab2aed803aa69ac4d6a518e3d0ee5782b787ec9",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_f4169ab61136eba5c6f090db_0",
+      "kind": "li",
+      "source": "Table of content blocks are __TRILIUM_PH_0__removed__TRILIUM_PH_1__, as the table of contents is already present in the sidebar (see __TRILIUM_PH_2__Table of contents__TRILIUM_PH_3__), as well as in shared notes.",
+      "sourceHash": "f4169ab61136eba5c6f090db27bae118d3b653fc3f6039c611a54a87d29cb52e",
+      "context": "Notion > Supported features",
+      "contextHash": "07f0eaa3b88bfbd86027f00c0ab2aed803aa69ac4d6a518e3d0ee5782b787ec9",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_d519d3978fa4456c76f6c4fc_0",
+      "kind": "h2",
+      "source": "Databases__TRILIUM_PH_0__",
+      "sourceHash": "d519d3978fa4456c76f6c4fc0bb080acbfdadddfbccfe23af7fa22715789d803",
+      "context": "Notion > Databases",
+      "contextHash": "c6414b38ab64170e1b48ad88f88e6323eacbd075a2f67ea49ae30765745218b2",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_1fb959dde5ed37cc34463495_0",
+      "kind": "p",
+      "source": "Notion databases are imported into __TRILIUM_PH_0__Collections__TRILIUM_PH_1__, where each item of the database is saved as a page in the collection. Through the use of __TRILIUM_PH_2__inherited__TRILIUM_PH_3__ __TRILIUM_PH_4__Promoted Attributes__TRILIUM_PH_5__, most of the page properties in Notion are preserved by the import.",
+      "sourceHash": "1fb959dde5ed37cc344634953ba6c2727cfda98057d951bd4b4185be83be78a3",
+      "context": "Notion > Databases",
+      "contextHash": "c6414b38ab64170e1b48ad88f88e6323eacbd075a2f67ea49ae30765745218b2",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_dc7f2e94e21046b73c36f276_0",
+      "kind": "p",
+      "source": "The resulting collection will be __TRILIUM_PH_0__Table__TRILIUM_PH_1__ regardless of the original view the database was exported in. That's because the active view is not saved in the export and the table collection is the most compatible with Notion.",
+      "sourceHash": "dc7f2e94e21046b73c36f276a1477b5d60cbfd0a189269f27d93b68181c8cf35",
+      "context": "Notion > Databases",
+      "contextHash": "c6414b38ab64170e1b48ad88f88e6323eacbd075a2f67ea49ae30765745218b2",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_a81d16e6b77bfc717263df98_0",
+      "kind": "th",
+      "source": "Notion type",
+      "sourceHash": "a81d16e6b77bfc717263df983548f973e90c0aed13cfa1c6c08125a15c18034e",
+      "context": "Notion > Databases",
+      "contextHash": "c6414b38ab64170e1b48ad88f88e6323eacbd075a2f67ea49ae30765745218b2",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_519ea6308c432ee990bf5b27_0",
+      "kind": "th",
+      "source": "Trilium",
+      "sourceHash": "519ea6308c432ee990bf5b275aebe0d38c2757706e59116ebc52facdeeab0e3b",
+      "context": "Notion > Databases",
+      "contextHash": "c6414b38ab64170e1b48ad88f88e6323eacbd075a2f67ea49ae30765745218b2",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_3b1a0cff563db7bb661c6f19_0",
+      "kind": "td",
+      "source": "Text / Select / Status / Place",
+      "sourceHash": "3b1a0cff563db7bb661c6f197341513d2dd3d34a268103d1728724f1d5968622",
+      "context": "Notion > Databases",
+      "contextHash": "c6414b38ab64170e1b48ad88f88e6323eacbd075a2f67ea49ae30765745218b2",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_521598e05eb4becfb1a498b1_0",
+      "kind": "td",
+      "source": "Single-valued __TRILIUM_PH_0__ label",
+      "sourceHash": "521598e05eb4becfb1a498b178a112e45f254bf1606dde2449ed708c42abf334",
+      "context": "Notion > Databases",
+      "contextHash": "c6414b38ab64170e1b48ad88f88e6323eacbd075a2f67ea49ae30765745218b2",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_3a37c466fe8923bf41628a1e_0",
+      "kind": "td",
+      "source": "Number",
+      "sourceHash": "3a37c466fe8923bf41628a1e07e7d8759a96aea81a20175bf798ad19342b8fb4",
+      "context": "Notion > Databases",
+      "contextHash": "c6414b38ab64170e1b48ad88f88e6323eacbd075a2f67ea49ae30765745218b2",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_49fcd6d1e2e3609b6bc86ddb_0",
+      "kind": "td",
+      "source": "Single-valued __TRILIUM_PH_0__ label for plain numbers. Formatted values (currency, percent, thousands separators) are normalized to a bare number, e.g. __TRILIUM_PH_1__ → __TRILIUM_PH_2__.",
+      "sourceHash": "49fcd6d1e2e3609b6bc86ddb4f4ab9eab4c5e45dbc7e540b14a3d24f5648e126",
+      "context": "Notion > Databases",
+      "contextHash": "c6414b38ab64170e1b48ad88f88e6323eacbd075a2f67ea49ae30765745218b2",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_728f925b8f6e9005e5fccf39_0",
+      "kind": "td",
+      "source": "ID",
+      "sourceHash": "728f925b8f6e9005e5fccf39226d8bf63773e8f44216c90e73f73e51d398833a",
+      "context": "Notion > Databases",
+      "contextHash": "c6414b38ab64170e1b48ad88f88e6323eacbd075a2f67ea49ae30765745218b2",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_86370dee2218aed7bcf09754_0",
+      "kind": "td",
+      "source": "Single-valued __TRILIUM_PH_0__ or __TRILIUM_PH_1__ label (depending on whether a prefix is configured)",
+      "sourceHash": "86370dee2218aed7bcf09754de4f7ffba30ed97e7949400e284896f0cbfff9fc",
+      "context": "Notion > Databases",
+      "contextHash": "c6414b38ab64170e1b48ad88f88e6323eacbd075a2f67ea49ae30765745218b2",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_07c976fbb3e8299442b17b4a_0",
+      "kind": "td",
+      "source": "Multi-select",
+      "sourceHash": "07c976fbb3e8299442b17b4a0c0cf29d1448ed8b5df39427e19bbe5970947c97",
+      "context": "Notion > Databases",
+      "contextHash": "c6414b38ab64170e1b48ad88f88e6323eacbd075a2f67ea49ae30765745218b2",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_fa963b593b2d8797f840d7ff_0",
+      "kind": "td",
+      "source": "One text label per option (multi)",
+      "sourceHash": "fa963b593b2d8797f840d7fff5c0a260cb9652b791bcfeef30f91ba7d5efc22d",
+      "context": "Notion > Databases",
+      "contextHash": "c6414b38ab64170e1b48ad88f88e6323eacbd075a2f67ea49ae30765745218b2",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_d3e4a4db49e776c2282b7113_0",
+      "kind": "td",
+      "source": "URL / Email / Phone",
+      "sourceHash": "d3e4a4db49e776c2282b7113924120400ebc08f6045b004a6fe9ff8221de62bf",
+      "context": "Notion > Databases",
+      "contextHash": "c6414b38ab64170e1b48ad88f88e6323eacbd075a2f67ea49ae30765745218b2",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_e48843d8671448d4a404a67f_0",
+      "kind": "td",
+      "source": "__TRILIUM_PH_0__ label (__TRILIUM_PH_1__, __TRILIUM_PH_2__ prefix)",
+      "sourceHash": "e48843d8671448d4a404a67f0f54214065e1ce64ce6ac537a4e3cf4b86996968",
+      "context": "Notion > Databases",
+      "contextHash": "c6414b38ab64170e1b48ad88f88e6323eacbd075a2f67ea49ae30765745218b2",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_3bc707c8c0074b3250787e4d_0",
+      "kind": "td",
+      "source": "Date",
+      "sourceHash": "3bc707c8c0074b3250787e4df7ddf4e0c1da605a207c66d65e0974a8ca7c1817",
+      "context": "Notion > Databases",
+      "contextHash": "c6414b38ab64170e1b48ad88f88e6323eacbd075a2f67ea49ae30765745218b2",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_b48c1695611a1563251dcaa8_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__ if at least one has time.",
+      "sourceHash": "b48c1695611a1563251dcaa84d274acbdebe62519801e289d27f55337da271d4",
+      "context": "Notion > Databases",
+      "contextHash": "c6414b38ab64170e1b48ad88f88e6323eacbd075a2f67ea49ae30765745218b2",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_78bc875adcc47ee63ac01506_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__ if only dates.",
+      "sourceHash": "78bc875adcc47ee63ac015060a141b64f085c3944f4668a1e54dd66fd89a03e5",
+      "context": "Notion > Databases",
+      "contextHash": "c6414b38ab64170e1b48ad88f88e6323eacbd075a2f67ea49ae30765745218b2",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_48e750ed9393da44a7b0d83e_0",
+      "kind": "li",
+      "source": "Two attributes if any of the dates have an end date.",
+      "sourceHash": "48e750ed9393da44a7b0d83e3cb92f85c78d9aacce70734ef6eaf2b7f746f5c1",
+      "context": "Notion > Databases",
+      "contextHash": "c6414b38ab64170e1b48ad88f88e6323eacbd075a2f67ea49ae30765745218b2",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_b3a4844711b69b5681840801_0",
+      "kind": "td",
+      "source": "Checkbox",
+      "sourceHash": "b3a4844711b69b56818408018e978fb7624aded0af80e1993a4ff20299a0b351",
+      "context": "Notion > Databases",
+      "contextHash": "c6414b38ab64170e1b48ad88f88e6323eacbd075a2f67ea49ae30765745218b2",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_efd103faf48e1c7762e43231_0",
+      "kind": "td",
+      "source": "__TRILIUM_PH_0__ label (__TRILIUM_PH_1__/__TRILIUM_PH_2__).",
+      "sourceHash": "efd103faf48e1c7762e4323158b6cb258290467b423f3088bd74d71a96d54956",
+      "context": "Notion > Databases",
+      "contextHash": "c6414b38ab64170e1b48ad88f88e6323eacbd075a2f67ea49ae30765745218b2",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_7b0cb2eb30d61e231e990bfd_0",
+      "kind": "td",
+      "source": "Person",
+      "sourceHash": "7b0cb2eb30d61e231e990bfd9cda3826c7033456a7cd3d87205f761a1bb0d6ae",
+      "context": "Notion > Databases",
+      "contextHash": "c6414b38ab64170e1b48ad88f88e6323eacbd075a2f67ea49ae30765745218b2",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_67b7cd1f4c9c02c734f360d7_0",
+      "kind": "td",
+      "source": "One text label per user (multi)",
+      "sourceHash": "67b7cd1f4c9c02c734f360d736bf779016be04891933ba48148a7955a169bcb1",
+      "context": "Notion > Databases",
+      "contextHash": "c6414b38ab64170e1b48ad88f88e6323eacbd075a2f67ea49ae30765745218b2",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_89c4086204792d6dc2fa8e6b_0",
+      "kind": "td",
+      "source": "Created by / Edited by",
+      "sourceHash": "89c4086204792d6dc2fa8e6bf41e459d3dc41e5baa7c77e2192f1a6a3fdc1254",
+      "context": "Notion > Databases",
+      "contextHash": "c6414b38ab64170e1b48ad88f88e6323eacbd075a2f67ea49ae30765745218b2",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_521598e05eb4becfb1a498b1_1",
+      "kind": "td",
+      "source": "Single-valued __TRILIUM_PH_0__ label",
+      "sourceHash": "521598e05eb4becfb1a498b178a112e45f254bf1606dde2449ed708c42abf334",
+      "context": "Notion > Databases",
+      "contextHash": "c6414b38ab64170e1b48ad88f88e6323eacbd075a2f67ea49ae30765745218b2",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_aab69eccc0b080b25803bc9d_0",
+      "kind": "td",
+      "source": "Created time / Last edited time",
+      "sourceHash": "aab69eccc0b080b25803bc9df05bada614a66ed813a9e3a114e108814489ea76",
+      "context": "Notion > Databases",
+      "contextHash": "c6414b38ab64170e1b48ad88f88e6323eacbd075a2f67ea49ae30765745218b2",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_5288e432aa3d0e65a5845f3e_0",
+      "kind": "td",
+      "source": "Assigned to the note's creation and modification date.",
+      "sourceHash": "5288e432aa3d0e65a5845f3e022bcb66f02de0b32745a495f0a7a8a40acddd3b",
+      "context": "Notion > Databases",
+      "contextHash": "c6414b38ab64170e1b48ad88f88e6323eacbd075a2f67ea49ae30765745218b2",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_335a92ea223b5cc1e2694336_0",
+      "kind": "td",
+      "source": "Relation",
+      "sourceHash": "335a92ea223b5cc1e26943366905f14b9c3da6f474c9e0a2419ea9d348a4379d",
+      "context": "Notion > Databases",
+      "contextHash": "c6414b38ab64170e1b48ad88f88e6323eacbd075a2f67ea49ae30765745218b2",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_dafc112e2a1c9537394be6be_0",
+      "kind": "td",
+      "source": "Mapped to __TRILIUM_PH_0__relations__TRILIUM_PH_1__, each link resolved to its target note via the existing cross-page map; targets outside the import are dropped.",
+      "sourceHash": "dafc112e2a1c9537394be6bee53fc2950d3fb85166d61ff0cae3f02e8ee69639",
+      "context": "Notion > Databases",
+      "contextHash": "c6414b38ab64170e1b48ad88f88e6323eacbd075a2f67ea49ae30765745218b2",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_7e90c8b0ca2ae8cebab010f4_0",
+      "kind": "td",
+      "source": "Files & Media",
+      "sourceHash": "7e90c8b0ca2ae8cebab010f44e3dae337fa9235554f4a3a1a2612d7b1017c72b",
+      "context": "Notion > Databases",
+      "contextHash": "c6414b38ab64170e1b48ad88f88e6323eacbd075a2f67ea49ae30765745218b2",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_a9d2e5e48e605f35562126d0_0",
+      "kind": "td",
+      "source": "The files are preserved as attachments, and a link to them is prepended to the content of the note for visibility.",
+      "sourceHash": "a9d2e5e48e605f35562126d08db332aec65c61a5d48bf9027a331809e9ea1916",
+      "context": "Notion > Databases",
+      "contextHash": "c6414b38ab64170e1b48ad88f88e6323eacbd075a2f67ea49ae30765745218b2",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_5944daaba36f8b834c4de6ac_0",
+      "kind": "td",
+      "source": "Formulas / Rollup",
+      "sourceHash": "5944daaba36f8b834c4de6acc374c7fd15033df52610bba56c07e933639c7a4c",
+      "context": "Notion > Databases",
+      "contextHash": "c6414b38ab64170e1b48ad88f88e6323eacbd075a2f67ea49ae30765745218b2",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_da3dc7529bda4829eedd7aa4_0",
+      "kind": "p",
+      "source": "A __TRILIUM_PH_0__, __TRILIUM_PH_1__ or __TRILIUM_PH_2__ label depending on the value. Dates are rendered as __TRILIUM_PH_3__ because the export doesn't offer any type information.",
+      "sourceHash": "da3dc7529bda4829eedd7aa476ebc8414cb09498dc27836e29cba42f6b8d8417",
+      "context": "Notion > Databases",
+      "contextHash": "c6414b38ab64170e1b48ad88f88e6323eacbd075a2f67ea49ae30765745218b2",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_f8953febf281c8b7d3305dee_0",
+      "kind": "p",
+      "source": "The Notion export does not preserve the formula/rollup configuration itself, instead it just exports the value.",
+      "sourceHash": "f8953febf281c8b7d3305dee1d2464fed0c7f8ed1fa645e15f8ac492920c03a2",
+      "context": "Notion > Databases",
+      "contextHash": "c6414b38ab64170e1b48ad88f88e6323eacbd075a2f67ea49ae30765745218b2",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_025bb74bd89ad136c590167c_0",
+      "kind": "td",
+      "source": "Button / Verification / any other type",
+      "sourceHash": "025bb74bd89ad136c590167c36f462038a37e0ddf288a8577fdc927da46ca938",
+      "context": "Notion > Databases",
+      "contextHash": "c6414b38ab64170e1b48ad88f88e6323eacbd075a2f67ea49ae30765745218b2",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_872948cbfeeff7e8cf29a53d_0",
+      "kind": "td",
+      "source": "Unsupported, they will be dropped from the import.",
+      "sourceHash": "872948cbfeeff7e8cf29a53ddcfb8a12659452684acb97dac4ddd06f8366c3c0",
+      "context": "Notion > Databases",
+      "contextHash": "c6414b38ab64170e1b48ad88f88e6323eacbd075a2f67ea49ae30765745218b2",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_ce1ec34bb88aa734bc3b8011_0",
+      "kind": "p",
+      "source": "__TRILIUM_PH_0__Technical information__TRILIUM_PH_1__",
+      "sourceHash": "ce1ec34bb88aa734bc3b8011f9eec7d70b94be74cfa8b0d6d9179feec81e8eb7",
+      "context": "Notion > Databases",
+      "contextHash": "c6414b38ab64170e1b48ad88f88e6323eacbd075a2f67ea49ae30765745218b2",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_c3d12399f79d440351ef15fb_0",
+      "kind": "p",
+      "source": "Every page property that can be preserved according to the table above is saved as a label or relation to the corresponding note (except for creation and modification dates which are saved at note level).",
+      "sourceHash": "c3d12399f79d440351ef15fb2ad5600467a908055544cd3b83467827f484af78",
+      "context": "Notion > Databases",
+      "contextHash": "c6414b38ab64170e1b48ad88f88e6323eacbd075a2f67ea49ae30765745218b2",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_013d20dfd05c43d0468ba49d_0",
+      "kind": "p",
+      "source": "To maintain a similar UX to Notion, every property is also turned into __TRILIUM_PH_0__Promoted Attributes__TRILIUM_PH_1__ at collection level. This also makes the columns visible in the table collection. The promoted attributes are made inheritable so that they appear when navigating in the child notes as well.",
+      "sourceHash": "013d20dfd05c43d0468ba49dbc5600825e978ec15ebfa57c1ad8dc6c10d990b7",
+      "context": "Notion > Databases",
+      "contextHash": "c6414b38ab64170e1b48ad88f88e6323eacbd075a2f67ea49ae30765745218b2",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_2f023c7622c2662b3d838891_0",
+      "kind": "p",
+      "source": "The names of the labels are intentionally converted to __TRILIUM_PH_0__ to match Trilium's conventions, but the full name of the column is preserved through the __TRILIUM_PH_1__Alias__TRILIUM_PH_2__ mechanism of promoted attributes.",
+      "sourceHash": "2f023c7622c2662b3d83889130828b153481977ecfd9f08634d2271793a40d7e",
+      "context": "Notion > Databases",
+      "contextHash": "c6414b38ab64170e1b48ad88f88e6323eacbd075a2f67ea49ae30765745218b2",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_2d166eed4e46d147ae179d3f_0",
+      "kind": "h2",
+      "source": "Limitations__TRILIUM_PH_0__",
+      "sourceHash": "2d166eed4e46d147ae179d3feba2dbd0d28887b22a99884dc255c7ff2e43988d",
+      "context": "Notion > Limitations",
+      "contextHash": "875fd08b89625d4e00a19c6e20a96f1134bb45e036bf83318088fabbdff76bd4",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_1d3457cf3ef62006b32bb719_0",
+      "kind": "h3",
+      "source": "Missing data from the import__TRILIUM_PH_0__",
+      "sourceHash": "1d3457cf3ef62006b32bb719a1868b7bf2c641f02f22556d5d2d4f4753f7eaf9",
+      "context": "Notion > Limitations > Missing data from the import",
+      "contextHash": "b25e98cc9c06b7c3c1a6d9e4b50f6c863dcb056f6a78f2e8a97b80fcbe027b82",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_f5cb7e05e768067aaff922f9_0",
+      "kind": "p",
+      "source": "The following information is not preserved by the import because it is not available in the export so it cannot be restored:",
+      "sourceHash": "f5cb7e05e768067aaff922f95aba8616975625912a735f2def5b2af37890c794",
+      "context": "Notion > Limitations > Missing data from the import",
+      "contextHash": "b25e98cc9c06b7c3c1a6d9e4b50f6c863dcb056f6a78f2e8a97b80fcbe027b82",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_87ca4b626cf8095453c11e5c_0",
+      "kind": "li",
+      "source": "The order of the pages and sub-pages.",
+      "sourceHash": "87ca4b626cf8095453c11e5c8d64adc63ba764b7ecd90abb82ca8a3ce6bcfe0f",
+      "context": "Notion > Limitations > Missing data from the import",
+      "contextHash": "b25e98cc9c06b7c3c1a6d9e4b50f6c863dcb056f6a78f2e8a97b80fcbe027b82",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_f19b154392c5bccc99d09a63_0",
+      "kind": "li",
+      "source": "Creation/modification dates are restored only when the page includes Created time / Last edited time properties (collection or not); otherwise the import time is used.",
+      "sourceHash": "f19b154392c5bccc99d09a63a8c20b0a851d45ca350a460db8c27fcad8042700",
+      "context": "Notion > Limitations > Missing data from the import",
+      "contextHash": "b25e98cc9c06b7c3c1a6d9e4b50f6c863dcb056f6a78f2e8a97b80fcbe027b82",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_d089def8ee04bb9b521272db_0",
+      "kind": "h3",
+      "source": "Cover images and page icon__TRILIUM_PH_0__",
+      "sourceHash": "d089def8ee04bb9b521272dbc4df804adf494e2a5f2639540be47405abe0c45f",
+      "context": "Notion > Limitations > Cover images and page icon",
+      "contextHash": "e6230d80dc91221fe5c0f2ed05eaf091bf5bda34a9a01616781b8ab4ca8ea1f6",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_6074471730a80317478eb23c_0",
+      "kind": "p",
+      "source": "The page icon or emoji is not preserved, with created notes having the default icon. The cover image is not imported at all.",
+      "sourceHash": "6074471730a80317478eb23c01637c1bc488b27c9e835961cb5870bca6df8d0d",
+      "context": "Notion > Limitations > Cover images and page icon",
+      "contextHash": "e6230d80dc91221fe5c0f2ed05eaf091bf5bda34a9a01616781b8ab4ca8ea1f6",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_2bf2c57afc3c3752afbeaf8e_0",
+      "kind": "h2",
+      "source": "Reporting issues__TRILIUM_PH_0__",
+      "sourceHash": "2bf2c57afc3c3752afbeaf8e05bfb59300f5f1bf42573dc5359a53fbe63cb560",
+      "context": "Notion > Reporting issues",
+      "contextHash": "0be2866681d9d87d729a478a0d3b1064ea2e5993d9e64064b050421d05ca9e37",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_dbdebce2fdb00b36a9050961_0",
+      "kind": "p",
+      "source": "When importing your Notion workspace, you might find issues in how a note is imported; in that case consider __TRILIUM_PH_0__reporting__TRILIUM_PH_1__ it.",
+      "sourceHash": "dbdebce2fdb00b36a9050961a43ce4639cdc6cc3efc77ac0127b02025e15eb4b",
+      "context": "Notion > Reporting issues",
+      "contextHash": "0be2866681d9d87d729a478a0d3b1064ea2e5993d9e64064b050421d05ca9e37",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_117f44a4dc4b8143dd5318c5_0",
+      "kind": "p",
+      "source": "When reporting such an issue make sure to provide the following information:",
+      "sourceHash": "117f44a4dc4b8143dd5318c5b597fa66186e508727e871e34df7eba85bf269c6",
+      "context": "Notion > Reporting issues",
+      "contextHash": "0be2866681d9d87d729a478a0d3b1064ea2e5993d9e64064b050421d05ca9e37",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_863310b0a6278644b5e7e580_0",
+      "kind": "li",
+      "source": "A .zip export of the original Notion note (and children if applicable). This allows us to reproduce the issue.",
+      "sourceHash": "863310b0a6278644b5e7e58052525541064e207b16d5d542685d6fb9d2a72162",
+      "context": "Notion > Reporting issues",
+      "contextHash": "0be2866681d9d87d729a478a0d3b1064ea2e5993d9e64064b050421d05ca9e37",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_58fc624abc1c8353c5d22832_0",
+      "kind": "li",
+      "source": "A screenshot with how it originally looked like before the import and how it looks after the import.",
+      "sourceHash": "58fc624abc1c8353c5d228324200d67facbf52bca821c0d584468d92c22db7ef",
+      "context": "Notion > Reporting issues",
+      "contextHash": "0be2866681d9d87d729a478a0d3b1064ea2e5993d9e64064b050421d05ca9e37",
+      "status": "pending",
+      "active": true
+    }
+  ],
+  "requests": []
+}

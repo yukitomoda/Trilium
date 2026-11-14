@@ -1,0 +1,809 @@
+{
+  "schemaVersion": 1,
+  "pageId": "NRnIZmSMc5sj",
+  "sourceFile": "docs/User Guide/User Guide/Basic Concepts and Features/Notes/Printing & Exporting as PDF.md",
+  "sourceRevision": "03d17b60f59b5efc29b880b11481471d0fe0ff57",
+  "units": [
+    {
+      "id": "u_76c53368eca49e801691402f_0",
+      "kind": "title",
+      "source": "Printing & Exporting as PDF",
+      "sourceHash": "76c53368eca49e801691402f5a5da63220e801c977f21c8efa54bbf0f735d9c9",
+      "context": "Printing & Exporting as PDF",
+      "contextHash": "a6186c3262894a0d6e0499867f3a053dad08fe34a1449b641f485ad931688162",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_b42685d7599ace622567f069_0",
+      "kind": "figcaption",
+      "source": "Screenshot of the Print preview functionality introduced in v0.103.0.",
+      "sourceHash": "b42685d7599ace622567f0698b24139920a45da9d6d4ccdfceda6c6f564ae114",
+      "context": "Printing & Exporting as PDF",
+      "contextHash": "a6186c3262894a0d6e0499867f3a053dad08fe34a1449b641f485ad931688162",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_a21c1eb2d290e5998742989b_0",
+      "kind": "p",
+      "source": "Trilium allows printing notes to a real printer, or generating a structured PDF for a single note or for multiple notes through __TRILIUM_PH_0__Collections__TRILIUM_PH_1__.",
+      "sourceHash": "a21c1eb2d290e5998742989bac3710111fdf1be2b38a6cf3047e386769cce5b1",
+      "context": "Printing & Exporting as PDF",
+      "contextHash": "a6186c3262894a0d6e0499867f3a053dad08fe34a1449b641f485ad931688162",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_9cb425efc534c799f6cb92ba_0",
+      "kind": "p",
+      "source": "Note that not all note types are printable as of now. We do plan to increase the coverage of supported note types in the future.",
+      "sourceHash": "9cb425efc534c799f6cb92bafffc5b4148b9b3a4d8a9f39437800c3596d6a438",
+      "context": "Printing & Exporting as PDF",
+      "contextHash": "a6186c3262894a0d6e0499867f3a053dad08fe34a1449b641f485ad931688162",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_06f41bf43baac116fee3aeb1_0",
+      "kind": "p",
+      "source": "Printing and exporting as PDF are not perfect. Due to technical limitations, and sometimes even browser or Electron glitches the text might appear cut off in some circumstances. ",
+      "sourceHash": "06f41bf43baac116fee3aeb16cb3e709222be90c2855a6e3697ad6c20b507355",
+      "context": "Printing & Exporting as PDF",
+      "contextHash": "a6186c3262894a0d6e0499867f3a053dad08fe34a1449b641f485ad931688162",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_5f86bd6b4ef5ed353dbbf06d_0",
+      "kind": "h2",
+      "source": "Printing a note or exporting as PDF on the desktop__TRILIUM_PH_0__",
+      "sourceHash": "5f86bd6b4ef5ed353dbbf06da823201583f75dce137598190c63c5f9bb6ffce3",
+      "context": "Printing & Exporting as PDF > Printing a note or exporting as PDF on the desktop",
+      "contextHash": "417e284bce3e5a694e1d39e6a0a714e4e9a9440a9b257eaa1fd0598d261153a0",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_805e8c866015157dfbe5418e_0",
+      "kind": "p",
+      "source": "Versions prior to v0.103.0 had two different options, one for printing and another one for exporting to PDF. With the introduction of the print preview, these functions have been unified.",
+      "sourceHash": "805e8c866015157dfbe5418ea744a49aeaabf7dfee797ec076baffe51bc7fba6",
+      "context": "Printing & Exporting as PDF > Printing a note or exporting as PDF on the desktop",
+      "contextHash": "417e284bce3e5a694e1d39e6a0a714e4e9a9440a9b257eaa1fd0598d261153a0",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_4b1b2779aa07e4415543f507_0",
+      "kind": "p",
+      "source": "On the desktop application of Trilium it is possible to export a note as PDF. To print a note:",
+      "sourceHash": "4b1b2779aa07e4415543f507aa2d0e0acc8a2df691cdb33519567f6f1dbda8d7",
+      "context": "Printing & Exporting as PDF > Printing a note or exporting as PDF on the desktop",
+      "contextHash": "417e284bce3e5a694e1d39e6a0a714e4e9a9440a9b257eaa1fd0598d261153a0",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_d50d9851327bc884fe4a1bae_0",
+      "kind": "li",
+      "source": "Press the menu button in the __TRILIUM_PH_0__Note menu__TRILIUM_PH_1__ and select __TRILIUM_PH_2__Print/export to PDF…__TRILIUM_PH_3__.",
+      "sourceHash": "d50d9851327bc884fe4a1bae804a92da6e65d633b9578299a145876057466bc6",
+      "context": "Printing & Exporting as PDF > Printing a note or exporting as PDF on the desktop",
+      "contextHash": "417e284bce3e5a694e1d39e6a0a714e4e9a9440a9b257eaa1fd0598d261153a0",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_f1fc0e40f0544b45c26359ce_0",
+      "kind": "li",
+      "source": "Alternatively, printing can be triggered from a __TRILIUM_PH_0__keyboard shortcut__TRILIUM_PH_1__ (unassigned by default) or through the __TRILIUM_PH_2__command palette__TRILIUM_PH_3__.",
+      "sourceHash": "f1fc0e40f0544b45c26359ce3872d72f10f38754ba4aabca1e04a311ea5b39f3",
+      "context": "Printing & Exporting as PDF > Printing a note or exporting as PDF on the desktop",
+      "contextHash": "417e284bce3e5a694e1d39e6a0a714e4e9a9440a9b257eaa1fd0598d261153a0",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_47278dce9a4d437ed885ba22_0",
+      "kind": "p",
+      "source": "This will trigger the print preview screen next.",
+      "sourceHash": "47278dce9a4d437ed885ba22c7097a22b71280c8a001ead5179827b5bfcaae2f",
+      "context": "Printing & Exporting as PDF > Printing a note or exporting as PDF on the desktop",
+      "contextHash": "417e284bce3e5a694e1d39e6a0a714e4e9a9440a9b257eaa1fd0598d261153a0",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_abf61dffe5a37740ad71379f_0",
+      "kind": "h3",
+      "source": "Print preview & print options__TRILIUM_PH_0__",
+      "sourceHash": "abf61dffe5a37740ad71379f335c25e14dd4fe1effa1cdec51571dfba0de9a9a",
+      "context": "Printing & Exporting as PDF > Printing a note or exporting as PDF on the desktop > Print preview & print options",
+      "contextHash": "a85eef85531cca0129eda5ab16f43222f81eb02ebfc9daeaa8e037618c9da8ce",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_088609ebd53b48ad983599dd_0",
+      "kind": "p",
+      "source": "The print preview dialog allows the following printing options to be adjusted:",
+      "sourceHash": "088609ebd53b48ad983599ddccb0f2abec377efa43562bef270326f49a859eb0",
+      "context": "Printing & Exporting as PDF > Printing a note or exporting as PDF on the desktop > Print preview & print options",
+      "contextHash": "a85eef85531cca0129eda5ab16f43222f81eb02ebfc9daeaa8e037618c9da8ce",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_32a5e62a7bc1b911f6986995_0",
+      "kind": "li",
+      "source": "The printer to use",
+      "sourceHash": "32a5e62a7bc1b911f6986995b10bbafea3e5ca75a419aab5d403fd081b3f62e9",
+      "context": "Printing & Exporting as PDF > Printing a note or exporting as PDF on the desktop > Print preview & print options",
+      "contextHash": "a85eef85531cca0129eda5ab16f43222f81eb02ebfc9daeaa8e037618c9da8ce",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_9deae10228cea58f4b583e33_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__Save as PDF__TRILIUM_PH_1__ generates a PDF that is structured (maintains a table of contents, keeps the text selectable). Prefer this over other virtual PDF printers that ship with the operating system.",
+      "sourceHash": "9deae10228cea58f4b583e330070fbd13af5938be3a30b1c87eaaa3cde36bce2",
+      "context": "Printing & Exporting as PDF > Printing a note or exporting as PDF on the desktop > Print preview & print options",
+      "contextHash": "a85eef85531cca0129eda5ab16f43222f81eb02ebfc9daeaa8e037618c9da8ce",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_391405d3bc7eb57cd5921ce7_0",
+      "kind": "li",
+      "source": "Page orientation: __TRILIUM_PH_0__Portrait__TRILIUM_PH_1__ (default) or __TRILIUM_PH_2__Landscape__TRILIUM_PH_3__.",
+      "sourceHash": "391405d3bc7eb57cd5921ce7fcb88bbdb9d159e9491d6e1c298d79cf39a91ce9",
+      "context": "Printing & Exporting as PDF > Printing a note or exporting as PDF on the desktop > Print preview & print options",
+      "contextHash": "a85eef85531cca0129eda5ab16f43222f81eb02ebfc9daeaa8e037618c9da8ce",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_f9c2858ae5031d7c790828a5_0",
+      "kind": "li",
+      "source": "Page size",
+      "sourceHash": "f9c2858ae5031d7c790828a5e2179eee55864497d38dceca7df504f68f4263d9",
+      "context": "Printing & Exporting as PDF > Printing a note or exporting as PDF on the desktop > Print preview & print options",
+      "contextHash": "a85eef85531cca0129eda5ab16f43222f81eb02ebfc9daeaa8e037618c9da8ce",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_c04e1a7ad0368650b8d5f177_0",
+      "kind": "li",
+      "source": "Scale the entire content from 10% to 200% to improve the fit within the page.",
+      "sourceHash": "c04e1a7ad0368650b8d5f17769f2eb26aa8e4bf7bbe5dff95f5183e710410598",
+      "context": "Printing & Exporting as PDF > Printing a note or exporting as PDF on the desktop > Print preview & print options",
+      "contextHash": "a85eef85531cca0129eda5ab16f43222f81eb02ebfc9daeaa8e037618c9da8ce",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_40196c01532fdd7450a58787_0",
+      "kind": "li",
+      "source": "Margins, which can be removed completely or adjusted individually for all the four edges.",
+      "sourceHash": "40196c01532fdd7450a587871581e63d10b1866c286fcf9a1b1fe50dea5a6354",
+      "context": "Printing & Exporting as PDF > Printing a note or exporting as PDF on the desktop > Print preview & print options",
+      "contextHash": "a85eef85531cca0129eda5ab16f43222f81eb02ebfc9daeaa8e037618c9da8ce",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_ddaf50bcf63a37af372e3a39_0",
+      "kind": "li",
+      "source": "Print only a subset of pages. Individual page numbers are separated by colons and hyphen-based ranges are supported (e.g. 3-5 for pages 3 to 5).",
+      "sourceHash": "ddaf50bcf63a37af372e3a3908fafacdaa8f076a168b34fc7df7c03c415e74e4",
+      "context": "Printing & Exporting as PDF > Printing a note or exporting as PDF on the desktop > Print preview & print options",
+      "contextHash": "a85eef85531cca0129eda5ab16f43222f81eb02ebfc9daeaa8e037618c9da8ce",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_6d16f7d4dce8e9da4160fb5a_0",
+      "kind": "p",
+      "source": "Additional interaction:",
+      "sourceHash": "6d16f7d4dce8e9da4160fb5a2d4f583b3e41ef2953b6eaa7365e9ce7e0c0f4a5",
+      "context": "Printing & Exporting as PDF > Printing a note or exporting as PDF on the desktop > Print preview & print options",
+      "contextHash": "a85eef85531cca0129eda5ab16f43222f81eb02ebfc9daeaa8e037618c9da8ce",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_4748688c075ab9a7dbf5ef39_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__Print using system dialog__TRILIUM_PH_1__ allows setting more options that are otherwise not available in Trilium.",
+      "sourceHash": "4748688c075ab9a7dbf5ef39ca7f3194234ef473887872362314b27052d89ea2",
+      "context": "Printing & Exporting as PDF > Printing a note or exporting as PDF on the desktop > Print preview & print options",
+      "contextHash": "a85eef85531cca0129eda5ab16f43222f81eb02ebfc9daeaa8e037618c9da8ce",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_084925ebb15c455adfb6bf32_0",
+      "kind": "p",
+      "source": "If the note cannot be rendered with the current options, or stops making progress for 30 seconds, the preview is replaced by an error message. Adjust the options to try again.",
+      "sourceHash": "084925ebb15c455adfb6bf32235dea791ffead79462cd124e5ae239207d325e5",
+      "context": "Printing & Exporting as PDF > Printing a note or exporting as PDF on the desktop > Print preview & print options",
+      "contextHash": "a85eef85531cca0129eda5ab16f43222f81eb02ebfc9daeaa8e037618c9da8ce",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_4886362150196ef9e414e6f3_0",
+      "kind": "p",
+      "source": "Most of the options here (except printer & which pages to print) are managed at note level through __TRILIUM_PH_0__Attributes__TRILIUM_PH_1__ (such as __TRILIUM_PH_2__, __TRILIUM_PH_3__, __TRILIUM_PH_4__, __TRILIUM_PH_5__).",
+      "sourceHash": "4886362150196ef9e414e6f3465cef6612b6baae0bb69a9f3dab028b6ad44e64",
+      "context": "Printing & Exporting as PDF > Printing a note or exporting as PDF on the desktop > Print preview & print options",
+      "contextHash": "a85eef85531cca0129eda5ab16f43222f81eb02ebfc9daeaa8e037618c9da8ce",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_23904e2bbbf12a7e045ac16d_0",
+      "kind": "p",
+      "source": "This means that the print settings will be restored when printing the same note. There are no default settings that can be configured for all the notes, but this can be achieved via __TRILIUM_PH_0__inheritable attributes__TRILIUM_PH_1__.",
+      "sourceHash": "23904e2bbbf12a7e045ac16def75e1ec0eff0c89c7991f23fc6ddb4fae9f3c41",
+      "context": "Printing & Exporting as PDF > Printing a note or exporting as PDF on the desktop > Print preview & print options",
+      "contextHash": "a85eef85531cca0129eda5ab16f43222f81eb02ebfc9daeaa8e037618c9da8ce",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_6f2731d50f5dd06ffe405aa1_0",
+      "kind": "h2",
+      "source": "Printing on the browser__TRILIUM_PH_0__",
+      "sourceHash": "6f2731d50f5dd06ffe405aa18bafa58a26d08ff00b9f118f8250944025e8007f",
+      "context": "Printing & Exporting as PDF > Printing on the browser",
+      "contextHash": "1c1d40797accd4f9b70b5443756f55fd72d87c5cee0a0713b25ce5146261f302",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_17333150081a2eea3f335faf_0",
+      "kind": "p",
+      "source": "This feature allows printing of notes. It works on both the desktop client, but also on the web.",
+      "sourceHash": "17333150081a2eea3f335fafc853deedd9714968dde02a13028f2e27fbdd8688",
+      "context": "Printing & Exporting as PDF > Printing on the browser",
+      "contextHash": "1c1d40797accd4f9b70b5443756f55fd72d87c5cee0a0713b25ce5146261f302",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_e595328c5bded506e81de95f_0",
+      "kind": "p",
+      "source": "To print a note, click the __TRILIUM_PH_0__Note menu__TRILIUM_PH_1__ and select __TRILIUM_PH_2__Print/export to PDF…__TRILIUM_PH_3__. Depending on the size and type of the note, this can take up to a few seconds. Afterwards you will be redirected to the system/browser printing dialog.",
+      "sourceHash": "e595328c5bded506e81de95f4c468a5a9fdaa479c82bee3ab79c1ed4b3e8a4d6",
+      "context": "Printing & Exporting as PDF > Printing on the browser",
+      "contextHash": "1c1d40797accd4f9b70b5443756f55fd72d87c5cee0a0713b25ce5146261f302",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_ebab646169f5d863c002c630_0",
+      "kind": "p",
+      "source": "On the server or PWA (mobile), the option is not available due to technical constraints and it will be hidden.",
+      "sourceHash": "ebab646169f5d863c002c630d4a1f68e488fc6e4b3550d0b64f046b8da2607b8",
+      "context": "Printing & Exporting as PDF > Printing on the browser",
+      "contextHash": "1c1d40797accd4f9b70b5443756f55fd72d87c5cee0a0713b25ce5146261f302",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_7350f4bb357f106761b951d7_0",
+      "kind": "h2",
+      "source": "Reporting issues with the rendering__TRILIUM_PH_0__",
+      "sourceHash": "7350f4bb357f106761b951d768507c5874d4a909a0f449f4ebccd64159d65f9f",
+      "context": "Printing & Exporting as PDF > Reporting issues with the rendering",
+      "contextHash": "d9faf5d25f21e2ee17753af65614301c098b10da463f0bc1b41011c050cab0a1",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_ab27fd95ac7133e8fc42db94_0",
+      "kind": "p",
+      "source": "Should you encounter any visual issues in the resulting PDF file (e.g. a table does not fit properly, there is cut off text, etc.) feel free to __TRILIUM_PH_0__report the issue__TRILIUM_PH_1__. In this case, it's best to offer a sample note (click on the __TRILIUM_PH_2__ button, select __TRILIUM_PH_3__Export note__TRILIUM_PH_4__ → __TRILIUM_PH_5__This note and all of its descendants__TRILIUM_PH_6__ → __TRILIUM_PH_7__HTML in ZIP archive__TRILIUM_PH_8__). Make sure not to accidentally leak any personal information.",
+      "sourceHash": "ab27fd95ac7133e8fc42db94a9f79c5b14d237751e196945ff756df51df5455e",
+      "context": "Printing & Exporting as PDF > Reporting issues with the rendering",
+      "contextHash": "d9faf5d25f21e2ee17753af65614301c098b10da463f0bc1b41011c050cab0a1",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_7c363df128e35e0dce1d36d2_0",
+      "kind": "p",
+      "source": "Consider adjusting font sizes and using __TRILIUM_PH_0__page breaks__TRILIUM_PH_1__ to work around the layout.",
+      "sourceHash": "7c363df128e35e0dce1d36d2d671f8e475822b13261ed98c1f8f362a407a3887",
+      "context": "Printing & Exporting as PDF > Reporting issues with the rendering",
+      "contextHash": "d9faf5d25f21e2ee17753af65614301c098b10da463f0bc1b41011c050cab0a1",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_0c18b79e588e41be321e6913_0",
+      "kind": "p",
+      "source": "Although direct export as PDF is not available in the browser version of the application, it's still possible to generate a PDF by selecting the __TRILIUM_PH_0__Print__TRILIUM_PH_1__ option instead and selecting “Save to PDF” as the printer (depending on the browser). Generally, Mozilla Firefox has better printing capabilities.",
+      "sourceHash": "0c18b79e588e41be321e69138733f9da59f1011fee198ceb53cb6b6992589e2e",
+      "context": "Printing & Exporting as PDF > Reporting issues with the rendering",
+      "contextHash": "d9faf5d25f21e2ee17753af65614301c098b10da463f0bc1b41011c050cab0a1",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_aef869f520c104ea5bc362a2_0",
+      "kind": "h3",
+      "source": "Automatic opening of the file__TRILIUM_PH_0__",
+      "sourceHash": "aef869f520c104ea5bc362a2744c9d08286a590109ccbc15d93854e9c6dc9c46",
+      "context": "Printing & Exporting as PDF > Reporting issues with the rendering > Automatic opening of the file",
+      "contextHash": "440ddeda2c911d181a9f1479738d51854084356f2428c777f8bd05a20bbd1e55",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_46653f82e94c64d6ec4bf937_0",
+      "kind": "p",
+      "source": "When the PDF is exported, it is automatically opened with the system default application for easy preview.",
+      "sourceHash": "46653f82e94c64d6ec4bf93751a28bf68c9bffc0f1b0361edc7a686c41923a33",
+      "context": "Printing & Exporting as PDF > Reporting issues with the rendering > Automatic opening of the file",
+      "contextHash": "440ddeda2c911d181a9f1479738d51854084356f2428c777f8bd05a20bbd1e55",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_d1e4cf69c8ab40b528280fa5_0",
+      "kind": "p",
+      "source": "Note that if you are using Linux with the GNOME desktop environment, sometimes the default application might seem incorrect (such as opening in GIMP). This is because it uses Gnome's “Recommended applications” list.",
+      "sourceHash": "d1e4cf69c8ab40b528280fa5efeff54ff1daf169a9e92422883a34fb908acdb0",
+      "context": "Printing & Exporting as PDF > Reporting issues with the rendering > Automatic opening of the file",
+      "contextHash": "440ddeda2c911d181a9f1479738d51854084356f2428c777f8bd05a20bbd1e55",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_171f589cdd3b33f72220b29d_0",
+      "kind": "p",
+      "source": "To solve this, you can change the recommended application for PDFs via this command line. First, list the available applications via __TRILIUM_PH_0__ and then set the desired one. For example to use GNOME's Evince:",
+      "sourceHash": "171f589cdd3b33f72220b29dc440ab285a9a9e2117638fe3f522138445902993",
+      "context": "Printing & Exporting as PDF > Reporting issues with the rendering > Automatic opening of the file",
+      "contextHash": "440ddeda2c911d181a9f1479738d51854084356f2428c777f8bd05a20bbd1e55",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_8743634ebde27f2e20a43757_0",
+      "kind": "h2",
+      "source": "Printing multiple notes__TRILIUM_PH_0__",
+      "sourceHash": "8743634ebde27f2e20a4375707e972e601327292a65eea294df5112a4c71d3a8",
+      "context": "Printing & Exporting as PDF > Printing multiple notes",
+      "contextHash": "b9fd4047bf5c4cc6b6897016d1e4eaad53baa3195e869c957e9aac14f35a5970",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_6157511371622a47f505371c_0",
+      "kind": "p",
+      "source": "Since v0.100.0, it is possible to print more than one note at the time by using __TRILIUM_PH_0__Collections__TRILIUM_PH_1__:",
+      "sourceHash": "6157511371622a47f505371cad35fc1a48a36328bd7e45f7301ba2114db8f7c4",
+      "context": "Printing & Exporting as PDF > Printing multiple notes",
+      "contextHash": "b9fd4047bf5c4cc6b6897016d1e4eaad53baa3195e869c957e9aac14f35a5970",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_374f5b153519d9b7e2377b14_0",
+      "kind": "li",
+      "source": "First create a collection.",
+      "sourceHash": "374f5b153519d9b7e2377b141540c0793a6590bc139e2728173fa6167dddfe89",
+      "context": "Printing & Exporting as PDF > Printing multiple notes",
+      "contextHash": "b9fd4047bf5c4cc6b6897016d1e4eaad53baa3195e869c957e9aac14f35a5970",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_dd67f75ccb10c76ac93fe368_0",
+      "kind": "li",
+      "source": "Configure it to use __TRILIUM_PH_0__List View__TRILIUM_PH_1__.",
+      "sourceHash": "dd67f75ccb10c76ac93fe3685b4086d107a78f1c9e7a982319dc10fab7625c4b",
+      "context": "Printing & Exporting as PDF > Printing multiple notes",
+      "contextHash": "b9fd4047bf5c4cc6b6897016d1e4eaad53baa3195e869c957e9aac14f35a5970",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_257e11b95d64574f0de46557_0",
+      "kind": "li",
+      "source": "Print the collection note normally.",
+      "sourceHash": "257e11b95d64574f0de46557d6c70f275be230b02ad8728f5da816240ad7dfdc",
+      "context": "Printing & Exporting as PDF > Printing multiple notes",
+      "contextHash": "b9fd4047bf5c4cc6b6897016d1e4eaad53baa3195e869c957e9aac14f35a5970",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_04fddc4230770b3657db4397_0",
+      "kind": "p",
+      "source": "The resulting collection will contain all the children of the collection, while maintaining the hierarchy.",
+      "sourceHash": "04fddc4230770b3657db4397e5b12d856c352b4f129d690a45f077795cecd650",
+      "context": "Printing & Exporting as PDF > Printing multiple notes",
+      "contextHash": "b9fd4047bf5c4cc6b6897016d1e4eaad53baa3195e869c957e9aac14f35a5970",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_3bc6b9c69cf1ab2ec4d6bfc3_0",
+      "kind": "p",
+      "source": "Not all note types are supported when printing or exporting to PDF. When an unsupported note is encountered, it is skipped. At the end, if any of the notes were skipped, a message will be displayed with the possibility of viewing the full list of skipped notes. The same limitations as the ones described in __TRILIUM_PH_0__Constraints & limitations__TRILIUM_PH_1__ apply.",
+      "sourceHash": "3bc6b9c69cf1ab2ec4d6bfc3e3229e725284428faa5e009c6ebf30fe330d1473",
+      "context": "Printing & Exporting as PDF > Printing multiple notes",
+      "contextHash": "b9fd4047bf5c4cc6b6897016d1e4eaad53baa3195e869c957e9aac14f35a5970",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_55b477721809c65589ac4c57_0",
+      "kind": "h2",
+      "source": "Keyboard shortcut__TRILIUM_PH_0__",
+      "sourceHash": "55b477721809c65589ac4c57e91fbf39cd84143a801a1a62decdbb3ca2ab78bb",
+      "context": "Printing & Exporting as PDF > Keyboard shortcut",
+      "contextHash": "6916e85263f014602185cc4f9925be88487b599a6be7c1a56b90d579edf55cb4",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_9584470753fcfbbd5fd61d94_0",
+      "kind": "p",
+      "source": "It's possible to trigger both printing and export as PDF from the keyboard by going to __TRILIUM_PH_0__Keyboard shortcuts__TRILIUM_PH_1__ in __TRILIUM_PH_2__Options__TRILIUM_PH_3__ and assigning a key combination for:",
+      "sourceHash": "9584470753fcfbbd5fd61d94b963818b1cdb76a4e9eb2654b09188b07a89bcf3",
+      "context": "Printing & Exporting as PDF > Keyboard shortcut",
+      "contextHash": "6916e85263f014602185cc4f9925be88487b599a6be7c1a56b90d579edf55cb4",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_0cc5fbe0284c8d9c3d9c90d2_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__Print Active Note__TRILIUM_PH_1__",
+      "sourceHash": "0cc5fbe0284c8d9c3d9c90d20b453edee95e2bcaae9f454e5e2877c55e8dc60b",
+      "context": "Printing & Exporting as PDF > Keyboard shortcut",
+      "contextHash": "6916e85263f014602185cc4f9925be88487b599a6be7c1a56b90d579edf55cb4",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_8e04b661b7329808fcc1f0b5_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__Export Active Note as PDF__TRILIUM_PH_1__",
+      "sourceHash": "8e04b661b7329808fcc1f0b5cc91c630cacab1b00d472150b6dac1d25811cfa0",
+      "context": "Printing & Exporting as PDF > Keyboard shortcut",
+      "contextHash": "6916e85263f014602185cc4f9925be88487b599a6be7c1a56b90d579edf55cb4",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_3c99a203c0420dff3fd715a8_0",
+      "kind": "h2",
+      "source": "Constraints & limitations__TRILIUM_PH_0__",
+      "sourceHash": "3c99a203c0420dff3fd715a8d06e0f4c4c78a8941b546093ccb18c8ccb1bb23f",
+      "context": "Printing & Exporting as PDF > Constraints & limitations",
+      "contextHash": "28f10c79337036de32c7846da49f9c1db3ecd4a041634de19a71d71f26f3f5a5",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_a8a8c11cc83199090e24e82a_0",
+      "kind": "p",
+      "source": "Not all __TRILIUM_PH_0__Note Types__TRILIUM_PH_1__ are supported when printing, in which case the __TRILIUM_PH_2__Print__TRILIUM_PH_3__ and __TRILIUM_PH_4__Export as PDF__TRILIUM_PH_5__ options will be disabled.",
+      "sourceHash": "a8a8c11cc83199090e24e82a45f51f9ac0cc689e4bf4e90896bfb44612d17590",
+      "context": "Printing & Exporting as PDF > Constraints & limitations",
+      "contextHash": "28f10c79337036de32c7846da49f9c1db3ecd4a041634de19a71d71f26f3f5a5",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_92cb71e2c0186ce5e0ade909_0",
+      "kind": "li",
+      "source": "For __TRILIUM_PH_0__Text__TRILIUM_PH_1__ notes, font, background and table colors are printed in the shades of light themes, whatever the current theme (see __TRILIUM_PH_2__General formatting__TRILIUM_PH_3__).",
+      "sourceHash": "92cb71e2c0186ce5e0ade909b0200d947648c72fb2eae9630ceb31b18f39db55",
+      "context": "Printing & Exporting as PDF > Constraints & limitations",
+      "contextHash": "28f10c79337036de32c7846da49f9c1db3ecd4a041634de19a71d71f26f3f5a5",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_814a6b122bd4e8cdf6e75134_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__Code__TRILIUM_PH_1__ notes are printed with syntax highlighting, in the __TRILIUM_PH_2__Light theme__TRILIUM_PH_3__ of __TRILIUM_PH_4__Options__TRILIUM_PH_5__ → __TRILIUM_PH_6__Code Notes__TRILIUM_PH_7__ → __TRILIUM_PH_8__Appearance__TRILIUM_PH_9__, whatever the current theme. The lines are numbered unless __TRILIUM_PH_10__Code Notes__TRILIUM_PH_11__ → __TRILIUM_PH_12__Editor__TRILIUM_PH_13__ → __TRILIUM_PH_14__Line numbers__TRILIUM_PH_15__ is turned off.",
+      "sourceHash": "814a6b122bd4e8cdf6e75134363a02132287c53bc957d8ca82270ee3f53690c9",
+      "context": "Printing & Exporting as PDF > Constraints & limitations",
+      "contextHash": "28f10c79337036de32c7846da49f9c1db3ecd4a041634de19a71d71f26f3f5a5",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_883c6f0591d9bc1e63494684_0",
+      "kind": "li",
+      "source": "A __TRILIUM_PH_0__Render Note__TRILIUM_PH_1__ is printed as it is displayed, without running its script again, once its __TRILIUM_PH_2__ relation is set.",
+      "sourceHash": "883c6f0591d9bc1e63494684f04e3d4453ca28c6d8dc17b94b01977a6fd00cd0",
+      "context": "Printing & Exporting as PDF > Constraints & limitations",
+      "contextHash": "28f10c79337036de32c7846da49f9c1db3ecd4a041634de19a71d71f26f3f5a5",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_6a4297e55c497e1bd7fb3ebc_0",
+      "kind": "li",
+      "source": "For __TRILIUM_PH_0__Collections__TRILIUM_PH_1__, the following are supported:",
+      "sourceHash": "6a4297e55c497e1bd7fb3ebceb38122d0a6aa7457006b9de55cefd4211e1cd3c",
+      "context": "Printing & Exporting as PDF > Constraints & limitations",
+      "contextHash": "28f10c79337036de32c7846da49f9c1db3ecd4a041634de19a71d71f26f3f5a5",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_17e5832311db5c85c7c9d210_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__List View__TRILIUM_PH_1__, allowing to print multiple notes at once while preserving hierarchy (similar to a book).",
+      "sourceHash": "17e5832311db5c85c7c9d210b03f841d4538cf56070823b86148b181fdd7349a",
+      "context": "Printing & Exporting as PDF > Constraints & limitations",
+      "contextHash": "28f10c79337036de32c7846da49f9c1db3ecd4a041634de19a71d71f26f3f5a5",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_2c75bc05571156923153ee71_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__Presentation__TRILIUM_PH_1__, where each slide/sub-note is displayed.",
+      "sourceHash": "2c75bc05571156923153ee71ec5cf5563dc8e287ea40ca8aac20772220d1f7e6",
+      "context": "Printing & Exporting as PDF > Constraints & limitations",
+      "contextHash": "28f10c79337036de32c7846da49f9c1db3ecd4a041634de19a71d71f26f3f5a5",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_aaf3dffee410ca3f0dcaebdb_0",
+      "kind": "li",
+      "source": "Most note types are supported, especially the ones that have an image representation such as __TRILIUM_PH_0__Canvas__TRILIUM_PH_1__ and __TRILIUM_PH_2__Mind Map__TRILIUM_PH_3__.",
+      "sourceHash": "aaf3dffee410ca3f0dcaebdbd334b07e0ffdf65dc771645cb7da8d46569a7473",
+      "context": "Printing & Exporting as PDF > Constraints & limitations",
+      "contextHash": "28f10c79337036de32c7846da49f9c1db3ecd4a041634de19a71d71f26f3f5a5",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_93c85a4681f57847130c3bae_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__Table__TRILIUM_PH_1__, where the table is rendered in a print-friendly way.",
+      "sourceHash": "93c85a4681f57847130c3bae38e6ddf7c6db5fe4f1ce1ce7b028cec8cc927d0d",
+      "context": "Printing & Exporting as PDF > Constraints & limitations",
+      "contextHash": "28f10c79337036de32c7846da49f9c1db3ecd4a041634de19a71d71f26f3f5a5",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_2e9383eaa1b70684c2b0e785_0",
+      "kind": "li",
+      "source": "Tables that are too complex (especially if they have multiple columns) might not fit properly, however tables with a large number of rows are supported thanks to pagination.",
+      "sourceHash": "2e9383eaa1b70684c2b0e7851963641be75467b042175f85031c0e9a8235103b",
+      "context": "Printing & Exporting as PDF > Constraints & limitations",
+      "contextHash": "28f10c79337036de32c7846da49f9c1db3ecd4a041634de19a71d71f26f3f5a5",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_546ea30b165f0e796904ca33_0",
+      "kind": "li",
+      "source": "Consider printing in landscape mode, or using __TRILIUM_PH_0__ if exporting to PDF.",
+      "sourceHash": "546ea30b165f0e796904ca33ba646572efd4057dc904ffde72997e0d9500ca7a",
+      "context": "Printing & Exporting as PDF > Constraints & limitations",
+      "contextHash": "28f10c79337036de32c7846da49f9c1db3ecd4a041634de19a71d71f26f3f5a5",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_a252a8fb005264811f228d41_0",
+      "kind": "li",
+      "source": "The rest of the collections are not supported, but we plan to add support for all the collection types at some point.",
+      "sourceHash": "a252a8fb005264811f228d41b97d29f0ddce1ecf305510c3f2a92a0864f46293",
+      "context": "Printing & Exporting as PDF > Constraints & limitations",
+      "contextHash": "28f10c79337036de32c7846da49f9c1db3ecd4a041634de19a71d71f26f3f5a5",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_54116d364f8e224c00b40207_0",
+      "kind": "li",
+      "source": "A __TRILIUM_PH_0__saved search__TRILIUM_PH_1__ prints its results as a list, in either the __TRILIUM_PH_2__Search preview__TRILIUM_PH_3__ or the __TRILIUM_PH_4__List__TRILIUM_PH_5__ view.",
+      "sourceHash": "54116d364f8e224c00b402076fbe677090f023fba709776b16667a0cea2ef969",
+      "context": "Printing & Exporting as PDF > Constraints & limitations",
+      "contextHash": "28f10c79337036de32c7846da49f9c1db3ecd4a041634de19a71d71f26f3f5a5",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_ec8b5d8c8fc73ff70b623bb2_0",
+      "kind": "li",
+      "source": "Using __TRILIUM_PH_0__Custom app-wide CSS__TRILIUM_PH_1__ for printing is no longer supported, instead a custom __TRILIUM_PH_2__ relation needs to be used (see below).",
+      "sourceHash": "ec8b5d8c8fc73ff70b623bb2591ee1659453bc88170684365e53159c550e5afb",
+      "context": "Printing & Exporting as PDF > Constraints & limitations",
+      "contextHash": "28f10c79337036de32c7846da49f9c1db3ecd4a041634de19a71d71f26f3f5a5",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_684bf649ca71ed1e6f0af84f_0",
+      "kind": "h2",
+      "source": "Customizing the print CSS__TRILIUM_PH_0__",
+      "sourceHash": "684bf649ca71ed1e6f0af84f66f72b148898e23b5df0161ce8e10e14bac86b53",
+      "context": "Printing & Exporting as PDF > Customizing the print CSS",
+      "contextHash": "75c71adb569dde5aac4eee87bf0de93f58010e4ef468196668272f361c847e05",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_f7fcaada3491f42ec828eebe_0",
+      "kind": "p",
+      "source": "As an advanced use case, it's possible to customize the CSS used for printing such as adjusting the fonts, sizes or margins. Note that __TRILIUM_PH_0__Custom app-wide CSS__TRILIUM_PH_1__ will not work for printing.",
+      "sourceHash": "f7fcaada3491f42ec828eebed1d395cbb392eda1ec5c336ccf005be3b68e4e44",
+      "context": "Printing & Exporting as PDF > Customizing the print CSS",
+      "contextHash": "75c71adb569dde5aac4eee87bf0de93f58010e4ef468196668272f361c847e05",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_4aa592f328e007e456668e14_0",
+      "kind": "p",
+      "source": "To do so:",
+      "sourceHash": "4aa592f328e007e456668e14c5218dcb1f38831eca67cb0f8cb725b769ca8c0e",
+      "context": "Printing & Exporting as PDF > Customizing the print CSS",
+      "contextHash": "75c71adb569dde5aac4eee87bf0de93f58010e4ef468196668272f361c847e05",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_5ae669eb945f52643621546d_0",
+      "kind": "li",
+      "source": "Create a CSS __TRILIUM_PH_0__code note__TRILIUM_PH_1__.",
+      "sourceHash": "5ae669eb945f52643621546d17c3565fe62fe409718d4fb0a355434ae0f3e7a4",
+      "context": "Printing & Exporting as PDF > Customizing the print CSS",
+      "contextHash": "75c71adb569dde5aac4eee87bf0de93f58010e4ef468196668272f361c847e05",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_f9204ca60dd9a2e430034d62_0",
+      "kind": "li",
+      "source": "On the note being printed, apply the __TRILIUM_PH_0__ relation to point to the newly created CSS code note.",
+      "sourceHash": "f9204ca60dd9a2e430034d62515ae4886802e5d650a51da35f3a5d638903b75f",
+      "context": "Printing & Exporting as PDF > Customizing the print CSS",
+      "contextHash": "75c71adb569dde5aac4eee87bf0de93f58010e4ef468196668272f361c847e05",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_179c81e255bb04bb17aa8413_0",
+      "kind": "li",
+      "source": "To apply the CSS to multiple notes, consider using __TRILIUM_PH_0__inheritable attributes__TRILIUM_PH_1__ or __TRILIUM_PH_2__Templates__TRILIUM_PH_3__.",
+      "sourceHash": "179c81e255bb04bb17aa8413e2c53b6e06367004bed6223c6687dbffc99ad444",
+      "context": "Printing & Exporting as PDF > Customizing the print CSS",
+      "contextHash": "75c71adb569dde5aac4eee87bf0de93f58010e4ef468196668272f361c847e05",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_c8c516156a8f614876e3248d_0",
+      "kind": "p",
+      "source": "For example, to change the font of the document from the one defined by the theme or the user to a serif one:",
+      "sourceHash": "c8c516156a8f614876e3248dff63be64fc9abd9fc0a8806c78890eb84648621e",
+      "context": "Printing & Exporting as PDF > Customizing the print CSS",
+      "contextHash": "75c71adb569dde5aac4eee87bf0de93f58010e4ef468196668272f361c847e05",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_d7d0ad606d08d33416cc1726_0",
+      "kind": "p",
+      "source": "When altering __TRILIUM_PH_0__, make sure the change is done at __TRILIUM_PH_1__ level and not __TRILIUM_PH_2__, since otherwise it won't be picked up due to specificity rules.",
+      "sourceHash": "d7d0ad606d08d33416cc17262defa64c82ace8b1a9362501faa1b708476cbcde",
+      "context": "Printing & Exporting as PDF > Customizing the print CSS",
+      "contextHash": "75c71adb569dde5aac4eee87bf0de93f58010e4ef468196668272f361c847e05",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_2d1bd514287d52992a163d93_0",
+      "kind": "p",
+      "source": "To remark:",
+      "sourceHash": "2d1bd514287d52992a163d93630bcc6e5a938cadcda2b9f894ba682cf5c952f5",
+      "context": "Printing & Exporting as PDF > Customizing the print CSS",
+      "contextHash": "75c71adb569dde5aac4eee87bf0de93f58010e4ef468196668272f361c847e05",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_16f9b82f36d41444e0d45ebc_0",
+      "kind": "li",
+      "source": "Multiple CSS notes can be add by using multiple __TRILIUM_PH_0__ relations.",
+      "sourceHash": "16f9b82f36d41444e0d45ebcdfa3fff0e06949e6a9b7230280151c24c8d7cae8",
+      "context": "Printing & Exporting as PDF > Customizing the print CSS",
+      "contextHash": "75c71adb569dde5aac4eee87bf0de93f58010e4ef468196668272f361c847e05",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_6b4c311da2119aa718e10a55_0",
+      "kind": "li",
+      "source": "If the note pointing to the __TRILIUM_PH_0__ doesn't have the right note type or mime type, it will be ignored.",
+      "sourceHash": "6b4c311da2119aa718e10a55b4b10fbcf91c1824a4bd6d26472df91f02fb5ad2",
+      "context": "Printing & Exporting as PDF > Customizing the print CSS",
+      "contextHash": "75c71adb569dde5aac4eee87bf0de93f58010e4ef468196668272f361c847e05",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_4ff1d05525374f460884818b_0",
+      "kind": "li",
+      "source": "If migrating from a previous version where __TRILIUM_PH_0__Custom app-wide CSS__TRILIUM_PH_1__, there's no need for __TRILIUM_PH_2__  since the style-sheet is used only for printing.",
+      "sourceHash": "4ff1d05525374f460884818bbcb1ee075d3e6d08a11a13e97112bda8013b5271",
+      "context": "Printing & Exporting as PDF > Customizing the print CSS",
+      "contextHash": "75c71adb569dde5aac4eee87bf0de93f58010e4ef468196668272f361c847e05",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_8b43d4cd1e24f1e09f3bc8ad_0",
+      "kind": "h2",
+      "source": "Under the hood__TRILIUM_PH_0__",
+      "sourceHash": "8b43d4cd1e24f1e09f3bc8adc1e2bf1e2e5c28b4683c6f37dbe4d1a7c64c481e",
+      "context": "Printing & Exporting as PDF > Under the hood",
+      "contextHash": "1204092609dd98db793e937dcb716fdf241ce46fd8e73c1d50e8940cf3626f74",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_d6dfd542c517f0fea821c5de_0",
+      "kind": "p",
+      "source": "Both printing and exporting as PDF use the same mechanism: a note is rendered individually in a separate webpage that is then sent to the browser or the Electron application either for printing or exporting as PDF.",
+      "sourceHash": "d6dfd542c517f0fea821c5dec0be1f15d53b3da67ccb86146ce8b474479d11c0",
+      "context": "Printing & Exporting as PDF > Under the hood",
+      "contextHash": "1204092609dd98db793e937dcb716fdf241ce46fd8e73c1d50e8940cf3626f74",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_b3e3a4dc4c2029c740c89631_0",
+      "kind": "p",
+      "source": "The webpage that renders a single note can actually be accessed in a web browser. For example __TRILIUM_PH_0__ becomes __TRILIUM_PH_1__.",
+      "sourceHash": "b3e3a4dc4c2029c740c89631c71e5980af2858024247fb06ffb1705dac04b9ea",
+      "context": "Printing & Exporting as PDF > Under the hood",
+      "contextHash": "1204092609dd98db793e937dcb716fdf241ce46fd8e73c1d50e8940cf3626f74",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_ecdb100eee47fa9091e4140d_0",
+      "kind": "p",
+      "source": "Accessing the print note in a web browser allows for easy debugging to understand why a particular note doesn't render well. The mechanism for rendering is similar to the one used in __TRILIUM_PH_0__Note List__TRILIUM_PH_1__.",
+      "sourceHash": "ecdb100eee47fa9091e4140d13be38f0ef3fbf270fa4484541224f3414edb95a",
+      "context": "Printing & Exporting as PDF > Under the hood",
+      "contextHash": "1204092609dd98db793e937dcb716fdf241ce46fd8e73c1d50e8940cf3626f74",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_b190d47815633246b0ab18a6_0",
+      "kind": "image-alt",
+      "source": "記事画像",
+      "sourceHash": "b190d47815633246b0ab18a61d9b8e8ea36504fe3f8bc230a7753096915c9ff2",
+      "context": "Printing & Exporting as PDF > Under the hood",
+      "contextHash": "1204092609dd98db793e937dcb716fdf241ce46fd8e73c1d50e8940cf3626f74",
+      "status": "pending",
+      "active": true
+    }
+  ],
+  "requests": []
+}

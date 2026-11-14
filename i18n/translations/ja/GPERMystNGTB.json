@@ -1,0 +1,469 @@
+{
+  "schemaVersion": 1,
+  "pageId": "GPERMystNGTB",
+  "sourceFile": "docs/User Guide/User Guide/Scripting/Backend scripts/Backend Events.md",
+  "sourceRevision": "03d17b60f59b5efc29b880b11481471d0fe0ff57",
+  "units": [
+    {
+      "id": "u_8999fa2fd331bb64cedae09a_0",
+      "kind": "title",
+      "source": "Backend Events",
+      "sourceHash": "8999fa2fd331bb64cedae09a0df135627b434694f5220da130a1308b256f8c1e",
+      "context": "Backend Events",
+      "contextHash": "d34144b9b294b108b721203d268b234a37b3b6d0f9e6be6164960f105aeaeca3",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_f50033129521a0b50025cde4_0",
+      "kind": "p",
+      "source": "__TRILIUM_PH_0__Script__TRILIUM_PH_1__ notes can be triggered by events. Note that these are backend events and thus relation need to point to the \"JavaScript (Trilium backend)\" code note.",
+      "sourceHash": "f50033129521a0b50025cde4bd4601b44ea1371171804f5ae146f707e9be51b6",
+      "context": "Backend Events",
+      "contextHash": "d34144b9b294b108b721203d268b234a37b3b6d0f9e6be6164960f105aeaeca3",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_230ada887d2dcab78a5ec9e7_0",
+      "kind": "h2",
+      "source": "Global events__TRILIUM_PH_0__",
+      "sourceHash": "230ada887d2dcab78a5ec9e75368cd6249e06280d1f5f425c72ceee4c799cf12",
+      "context": "Backend Events > Global events",
+      "contextHash": "1aba54b92680d4afa3a735f1a80db7122d81eb1f8e1391c50d4a5bdfae36d769",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_f12b7de04e4d519aa6f21484_0",
+      "kind": "p",
+      "source": "Global events are attached to the script note via label. Simply create a __TRILIUM_PH_0__ label with some of these values and script note will be executed once the event occurs.",
+      "sourceHash": "f12b7de04e4d519aa6f21484d011210c2592a4d9f150258c1c953608fb5eb9b6",
+      "context": "Backend Events > Global events",
+      "contextHash": "1aba54b92680d4afa3a735f1a80db7122d81eb1f8e1391c50d4a5bdfae36d769",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_6f0c4b80edc06ac84ea5ebee_0",
+      "kind": "th",
+      "source": "Label",
+      "sourceHash": "6f0c4b80edc06ac84ea5ebeecce95361bd8cf2fe8361d0f209fa5bd9a27884b3",
+      "context": "Backend Events > Global events",
+      "contextHash": "1aba54b92680d4afa3a735f1a80db7122d81eb1f8e1391c50d4a5bdfae36d769",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_4b00baa636b92e18b7a75884_0",
+      "kind": "th",
+      "source": "Description",
+      "sourceHash": "4b00baa636b92e18b7a75884790f0769c3e702d20d8822e708f69ab2f07c7103",
+      "context": "Backend Events > Global events",
+      "contextHash": "1aba54b92680d4afa3a735f1a80db7122d81eb1f8e1391c50d4a5bdfae36d769",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_61eaae18c5dcaabafd34a5c4_0",
+      "kind": "p",
+      "source": "Defines on which events script should run. Possible values are:",
+      "sourceHash": "61eaae18c5dcaabafd34a5c43a64b5b33a3a64bc9970476e559f2cdc88551463",
+      "context": "Backend Events > Global events",
+      "contextHash": "1aba54b92680d4afa3a735f1a80db7122d81eb1f8e1391c50d4a5bdfae36d769",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_0ba43fbf9bc3cc1fddec784d_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__ - when Trilium backend starts up",
+      "sourceHash": "0ba43fbf9bc3cc1fddec784d58c254ac9b8b25ad54dee0773fcc3e2a913c8e0d",
+      "context": "Backend Events > Global events",
+      "contextHash": "1aba54b92680d4afa3a735f1a80db7122d81eb1f8e1391c50d4a5bdfae36d769",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_989c804f0ee27b15f9a4d572_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__ - run once an hour. You can use additional label __TRILIUM_PH_1__ to specify at which hour, on the back-end.",
+      "sourceHash": "989c804f0ee27b15f9a4d572791a295d0d0daa7f5db4c81299136aa45ce4d1ea",
+      "context": "Backend Events > Global events",
+      "contextHash": "1aba54b92680d4afa3a735f1a80db7122d81eb1f8e1391c50d4a5bdfae36d769",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_3be323aac5d6a36c03842269_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__ - run once a day, on the back-end",
+      "sourceHash": "3be323aac5d6a36c038422696f0c38617b1e3f7bd6864c0c29fc1b44d0f371d5",
+      "context": "Backend Events > Global events",
+      "contextHash": "1aba54b92680d4afa3a735f1a80db7122d81eb1f8e1391c50d4a5bdfae36d769",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_a721a176d2d5be1328e09e05_0",
+      "kind": "td",
+      "source": "Specifies that the script should only run on a particular __TRILIUM_PH_0__Trilium instance__TRILIUM_PH_1__.",
+      "sourceHash": "a721a176d2d5be1328e09e05926785ba42890e3de2a37252d6eb0704c2d60eca",
+      "context": "Backend Events > Global events",
+      "contextHash": "1aba54b92680d4afa3a735f1a80db7122d81eb1f8e1391c50d4a5bdfae36d769",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_7f6f2741d62c1766307594a6_0",
+      "kind": "td",
+      "source": "On which hour should this run. Should be used together with __TRILIUM_PH_0__. Can be defined multiple times for more runs during the day.",
+      "sourceHash": "7f6f2741d62c1766307594a6570fb952bad86698eedfe83140047c8f40fc03be",
+      "context": "Backend Events > Global events",
+      "contextHash": "1aba54b92680d4afa3a735f1a80db7122d81eb1f8e1391c50d4a5bdfae36d769",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_1bd7a5927ed9063571b5752a_0",
+      "kind": "p",
+      "source": "Frontend scripts also have similar __TRILIUM_PH_0__Events__TRILIUM_PH_1__, such as when the application starts.",
+      "sourceHash": "1bd7a5927ed9063571b5752a7c52c94f762cc9a944e0becf2276482690fd4bc9",
+      "context": "Backend Events > Global events",
+      "contextHash": "1aba54b92680d4afa3a735f1a80db7122d81eb1f8e1391c50d4a5bdfae36d769",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_38ad7bdea8061274d3cb31b9_0",
+      "kind": "p",
+      "source": "One script can be triggered on multiple events, this can be done by adding multiple __TRILIUM_PH_0__ labels. Separating multiple values by commas __TRILIUM_PH_1__is not__TRILIUM_PH_2__ supported.",
+      "sourceHash": "38ad7bdea8061274d3cb31b9d6b5a48b5d75d32eaf8b6178e94b79830d3541c2",
+      "context": "Backend Events > Global events",
+      "contextHash": "1aba54b92680d4afa3a735f1a80db7122d81eb1f8e1391c50d4a5bdfae36d769",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_c1fb5295cf521f4fc3bb8634_0",
+      "kind": "h2",
+      "source": "Entity events__TRILIUM_PH_0__",
+      "sourceHash": "c1fb5295cf521f4fc3bb8634df4750f956b1bfc09fd1bace77da2d3130f4e30b",
+      "context": "Backend Events > Entity events",
+      "contextHash": "14035068cd4555595a153b1a750ee91fd21744ea0c8ea71d15e400dab9408640",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_e26993fcdce6b3e17b7544ce_0",
+      "kind": "p",
+      "source": "Other events are bound to some entity, these are defined as __TRILIUM_PH_0__relations__TRILIUM_PH_1__ - meaning that script is triggered only if note has this script attached to it through relations (or it can inherit it).",
+      "sourceHash": "e26993fcdce6b3e17b7544cefd26f154b32fb21017fbd980df2b7bab5fd86b3b",
+      "context": "Backend Events > Entity events",
+      "contextHash": "14035068cd4555595a153b1a750ee91fd21744ea0c8ea71d15e400dab9408640",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_7855b94574b4c9ecb41b2489_0",
+      "kind": "th",
+      "source": "Relation",
+      "sourceHash": "7855b94574b4c9ecb41b2489017698734efbb2c5d8394f73bcf6f6b91bfac9f0",
+      "context": "Backend Events > Entity events",
+      "contextHash": "14035068cd4555595a153b1a750ee91fd21744ea0c8ea71d15e400dab9408640",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_2b58e79478cc3711c0128280_0",
+      "kind": "th",
+      "source": "Trigger condition",
+      "sourceHash": "2b58e79478cc3711c01282807a2b92ac39a4b4f8aaf3887866c454a2289fcdec",
+      "context": "Backend Events > Entity events",
+      "contextHash": "14035068cd4555595a153b1a750ee91fd21744ea0c8ea71d15e400dab9408640",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_787807aa9e70c32462a462d3_0",
+      "kind": "th",
+      "source": "Origin entity (see below)",
+      "sourceHash": "787807aa9e70c32462a462d31227fb248f8c9a6306a18eec8142d6b9db3a9c2a",
+      "context": "Backend Events > Entity events",
+      "contextHash": "14035068cd4555595a153b1a750ee91fd21744ea0c8ea71d15e400dab9408640",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_94e47eb44ce433e41ad0e26e_0",
+      "kind": "td",
+      "source": "executes when note is created on backend. Use this relation if you want to run the script for all notes created under a specific subtree. In that case, create it on the subtree root note and make it inheritable. A new note created within the subtree (any depth) will trigger the script.",
+      "sourceHash": "94e47eb44ce433e41ad0e26e0c59029e93ca308c2a706267d1dbd5e91233d92e",
+      "context": "Backend Events > Entity events",
+      "contextHash": "14035068cd4555595a153b1a750ee91fd21744ea0c8ea71d15e400dab9408640",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_3457b3d8afc96d48eac8c1fd_0",
+      "kind": "td",
+      "source": "The __TRILIUM_PH_0__ that got created.",
+      "sourceHash": "3457b3d8afc96d48eac8c1fd1ee56200b6763785d7df8adcfd24aa33e0bb915f",
+      "context": "Backend Events > Entity events",
+      "contextHash": "14035068cd4555595a153b1a750ee91fd21744ea0c8ea71d15e400dab9408640",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_9b4aff707516bcf3491c65f0_0",
+      "kind": "td",
+      "source": "executes when new note is created under the note where this relation is defined",
+      "sourceHash": "9b4aff707516bcf3491c65f0ceded966944419cb4337152beccae347782ce98a",
+      "context": "Backend Events > Entity events",
+      "contextHash": "14035068cd4555595a153b1a750ee91fd21744ea0c8ea71d15e400dab9408640",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_159314e3db2d95dee6dd7089_0",
+      "kind": "td",
+      "source": "The __TRILIUM_PH_0__ of the child that got created.",
+      "sourceHash": "159314e3db2d95dee6dd70892714c8605f723cf92eff1fa44f8151f8013b4728",
+      "context": "Backend Events > Entity events",
+      "contextHash": "14035068cd4555595a153b1a750ee91fd21744ea0c8ea71d15e400dab9408640",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_a88b53ab7213c76bb9cb8a34_0",
+      "kind": "td",
+      "source": "executes when note title is changed (includes note creation as well)",
+      "sourceHash": "a88b53ab7213c76bb9cb8a344312ed9b0ad7c8a3f3b5412f2e8bfeda9b0e6dd0",
+      "context": "Backend Events > Entity events",
+      "contextHash": "14035068cd4555595a153b1a750ee91fd21744ea0c8ea71d15e400dab9408640",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_40926eec91ac43e1aafb533c_0",
+      "kind": "td",
+      "source": "The __TRILIUM_PH_0__ of the note whose title got changed.",
+      "sourceHash": "40926eec91ac43e1aafb533c85678d4d61e2144215bc9fc25055c71e4185d267",
+      "context": "Backend Events > Entity events",
+      "contextHash": "14035068cd4555595a153b1a750ee91fd21744ea0c8ea71d15e400dab9408640",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_581d105a1bf6889d8fa3cb78_0",
+      "kind": "td",
+      "source": "executes when note content is changed (includes note creation as well).",
+      "sourceHash": "581d105a1bf6889d8fa3cb78e725c7e76251fe5039bc5c535d949ea4b7ae6ec2",
+      "context": "Backend Events > Entity events",
+      "contextHash": "14035068cd4555595a153b1a750ee91fd21744ea0c8ea71d15e400dab9408640",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_c4e75e9655c8444f62187ee7_0",
+      "kind": "td",
+      "source": "The __TRILIUM_PH_0__ of the note whose content got changed.",
+      "sourceHash": "c4e75e9655c8444f62187ee78f6a70190a0fdb73d8f79d06d681ea3bd545ad8e",
+      "context": "Backend Events > Entity events",
+      "contextHash": "14035068cd4555595a153b1a750ee91fd21744ea0c8ea71d15e400dab9408640",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_960f41b913bafa0885c9f424_0",
+      "kind": "td",
+      "source": "executes when note is changed (includes note creation as well). Does not include content changes",
+      "sourceHash": "960f41b913bafa0885c9f4248d2a9b6cbd79dd71c75515e951011618cabba0c1",
+      "context": "Backend Events > Entity events",
+      "contextHash": "14035068cd4555595a153b1a750ee91fd21744ea0c8ea71d15e400dab9408640",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_5bb0a3a385a521023f8930ee_0",
+      "kind": "td",
+      "source": "The __TRILIUM_PH_0__ of the note that got changed.",
+      "sourceHash": "5bb0a3a385a521023f8930ee38c8d171c977d7a4787c48fab7f69a204458e78b",
+      "context": "Backend Events > Entity events",
+      "contextHash": "14035068cd4555595a153b1a750ee91fd21744ea0c8ea71d15e400dab9408640",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_4f6264036c002d72962f06d1_0",
+      "kind": "td",
+      "source": "executes when note is being deleted",
+      "sourceHash": "4f6264036c002d72962f06d1de548ee70ea3a9cc5fd9940d006bfb719e303648",
+      "context": "Backend Events > Entity events",
+      "contextHash": "14035068cd4555595a153b1a750ee91fd21744ea0c8ea71d15e400dab9408640",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_0b9b8f9862b72067452c0a00_0",
+      "kind": "td",
+      "source": "The __TRILIUM_PH_0__ of the note that got (soft) deleted.",
+      "sourceHash": "0b9b8f9862b72067452c0a003b62e6b3363907a4fc6471fecf15b9b956292716",
+      "context": "Backend Events > Entity events",
+      "contextHash": "14035068cd4555595a153b1a750ee91fd21744ea0c8ea71d15e400dab9408640",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_0ba8eaf18d356d5640603101_0",
+      "kind": "td",
+      "source": "executes when a branch is created. Branch is a link between parent note and child note and is created e.g. when cloning or moving note.",
+      "sourceHash": "0ba8eaf18d356d5640603101194d6e7edf92893f8aa56e3f79f6efa4fe7735dc",
+      "context": "Backend Events > Entity events",
+      "contextHash": "14035068cd4555595a153b1a750ee91fd21744ea0c8ea71d15e400dab9408640",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_3457b3d8afc96d48eac8c1fd_1",
+      "kind": "td",
+      "source": "The __TRILIUM_PH_0__ that got created.",
+      "sourceHash": "3457b3d8afc96d48eac8c1fd1ee56200b6763785d7df8adcfd24aa33e0bb915f",
+      "context": "Backend Events > Entity events",
+      "contextHash": "14035068cd4555595a153b1a750ee91fd21744ea0c8ea71d15e400dab9408640",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_2ae5f1ad3fb2e36af3c81eb2_0",
+      "kind": "td",
+      "source": "executes when a branch is updated. (since v0.62)",
+      "sourceHash": "2ae5f1ad3fb2e36af3c81eb21d99456d574252c78beb6adf173fd107ca707634",
+      "context": "Backend Events > Entity events",
+      "contextHash": "14035068cd4555595a153b1a750ee91fd21744ea0c8ea71d15e400dab9408640",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_9299ad3b1ce41ce7083f3a01_0",
+      "kind": "td",
+      "source": "The __TRILIUM_PH_0__ that got changed.",
+      "sourceHash": "9299ad3b1ce41ce7083f3a017ce80e033f2183e8dd608790f2900e323d451782",
+      "context": "Backend Events > Entity events",
+      "contextHash": "14035068cd4555595a153b1a750ee91fd21744ea0c8ea71d15e400dab9408640",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_3105bb6c4332a78074652e22_0",
+      "kind": "td",
+      "source": "executes when a branch is deleted. Branch is a link between parent note and child note and is deleted e.g. when moving note (old branch/link is deleted).",
+      "sourceHash": "3105bb6c4332a78074652e22efc91ea9e0086c63996044ad6b007fe6f3ef143b",
+      "context": "Backend Events > Entity events",
+      "contextHash": "14035068cd4555595a153b1a750ee91fd21744ea0c8ea71d15e400dab9408640",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_5c2d10440c4733acc5cff3f9_0",
+      "kind": "td",
+      "source": "The __TRILIUM_PH_0__ that got (soft) deleted.",
+      "sourceHash": "5c2d10440c4733acc5cff3f9ad5d57a441f94b7d5761d39b8928805894aa2f88",
+      "context": "Backend Events > Entity events",
+      "contextHash": "14035068cd4555595a153b1a750ee91fd21744ea0c8ea71d15e400dab9408640",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_1638713debc60556cf263cd9_0",
+      "kind": "td",
+      "source": "executes when new attribute is created for the note which defines this relation",
+      "sourceHash": "1638713debc60556cf263cd95cbf7e761a9f97efd62362724e5ad04f751c2921",
+      "context": "Backend Events > Entity events",
+      "contextHash": "14035068cd4555595a153b1a750ee91fd21744ea0c8ea71d15e400dab9408640",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_3457b3d8afc96d48eac8c1fd_2",
+      "kind": "td",
+      "source": "The __TRILIUM_PH_0__ that got created.",
+      "sourceHash": "3457b3d8afc96d48eac8c1fd1ee56200b6763785d7df8adcfd24aa33e0bb915f",
+      "context": "Backend Events > Entity events",
+      "contextHash": "14035068cd4555595a153b1a750ee91fd21744ea0c8ea71d15e400dab9408640",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_ca5e6853337e3134e3e34504_0",
+      "kind": "td",
+      "source": "executes when the attribute is changed of a note which defines this relation. This is triggered also when the attribute is deleted",
+      "sourceHash": "ca5e6853337e3134e3e34504acceebc6568bd11d6b913a56ba96915586066263",
+      "context": "Backend Events > Entity events",
+      "contextHash": "14035068cd4555595a153b1a750ee91fd21744ea0c8ea71d15e400dab9408640",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_9299ad3b1ce41ce7083f3a01_1",
+      "kind": "td",
+      "source": "The __TRILIUM_PH_0__ that got changed.",
+      "sourceHash": "9299ad3b1ce41ce7083f3a017ce80e033f2183e8dd608790f2900e323d451782",
+      "context": "Backend Events > Entity events",
+      "contextHash": "14035068cd4555595a153b1a750ee91fd21744ea0c8ea71d15e400dab9408640",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_fd7cf7942e73ba5c7a3ad4d0_0",
+      "kind": "h2",
+      "source": "Origin entity__TRILIUM_PH_0__",
+      "sourceHash": "fd7cf7942e73ba5c7a3ad4d0ba3342e49cdfbbf2adab676dc514863475a16a57",
+      "context": "Backend Events > Origin entity",
+      "contextHash": "dccbf1e559e232c65b3aa61845d53c4bb3e4df632dc6ba1f9e47fff325ad907f",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_56f24ecddcbdcbb9a6808374_0",
+      "kind": "p",
+      "source": "When a script is run by an event such as the ones described above, __TRILIUM_PH_0__ will get populated with the note, branch or attribute that triggered the change.",
+      "sourceHash": "56f24ecddcbdcbb9a68083746a630fea487e3f1e2240fd14a828140c2c7206e7",
+      "context": "Backend Events > Origin entity",
+      "contextHash": "dccbf1e559e232c65b3aa61845d53c4bb3e4df632dc6ba1f9e47fff325ad907f",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_3bc02423a1d2f2d3a7251faa_0",
+      "kind": "p",
+      "source": "For example, here's a script with __TRILIUM_PH_0__ which automatically changes the color of a note based on the value of the __TRILIUM_PH_1__ label:",
+      "sourceHash": "3bc02423a1d2f2d3a7251faa6e657aa1950f8c3551e63eed622ee5ab0bf956ef",
+      "context": "Backend Events > Origin entity",
+      "contextHash": "dccbf1e559e232c65b3aa61845d53c4bb3e4df632dc6ba1f9e47fff325ad907f",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_addc01a98074b4d4102b3a39_0",
+      "kind": "h2",
+      "source": "Safe mode__TRILIUM_PH_0__",
+      "sourceHash": "addc01a98074b4d4102b3a39f427b43f8825c94be87382832667547745ee4a10",
+      "context": "Backend Events > Safe mode",
+      "contextHash": "4c8615dbef0eeee7f6e05bc22f6391213361062957536f70ae6e1f9fd5d8b4bd",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_c257e3f2441b6cb5db903522_0",
+      "kind": "p",
+      "source": "While __TRILIUM_PH_0__safe mode__TRILIUM_PH_1__ is active, scripts with events won't trigger.",
+      "sourceHash": "c257e3f2441b6cb5db903522fb5e2f98e696069373a3e735e69f3de4a917048b",
+      "context": "Backend Events > Safe mode",
+      "contextHash": "4c8615dbef0eeee7f6e05bc22f6391213361062957536f70ae6e1f9fd5d8b4bd",
+      "status": "pending",
+      "active": true
+    }
+  ],
+  "requests": []
+}

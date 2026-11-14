@@ -1,0 +1,209 @@
+{
+  "schemaVersion": 1,
+  "pageId": "CoFPLs3dRlXc",
+  "sourceFile": "docs/User Guide/User Guide/Basic Concepts and Features/Notes/Read-Only Notes.md",
+  "sourceRevision": "03d17b60f59b5efc29b880b11481471d0fe0ff57",
+  "units": [
+    {
+      "id": "u_264197ffd8eef7ec8aa85174_0",
+      "kind": "title",
+      "source": "Read-Only Notes",
+      "sourceHash": "264197ffd8eef7ec8aa8517427acacbe9c16e8dfadb00021a87c5e940df5cca1",
+      "context": "Read-Only Notes",
+      "contextHash": "ec9613d4e33ad6e56f65aa1c4215787df66375d626f35a10d2c69810072cde5f",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_2dd3cc2f1d7cbbdbdf34e346_0",
+      "kind": "p",
+      "source": "Some note types such as __TRILIUM_PH_0__Text__TRILIUM_PH_1__, __TRILIUM_PH_2__Code__TRILIUM_PH_3__ notes and even some of the __TRILIUM_PH_4__Collections__TRILIUM_PH_5__ can be set to read-only. When a note is in read-only mode, it is presented to the user in a non-editable view, with the option to switch to editing mode if needed.",
+      "sourceHash": "2dd3cc2f1d7cbbdbdf34e346e55f5974c2a532501e5ca3b30dfc37f562924dd4",
+      "context": "Read-Only Notes",
+      "contextHash": "ec9613d4e33ad6e56f65aa1c4215787df66375d626f35a10d2c69810072cde5f",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_671b757a6e16a17f3479c2b5_0",
+      "kind": "h2",
+      "source": "Automatic read-only mode__TRILIUM_PH_0__",
+      "sourceHash": "671b757a6e16a17f3479c2b5fa161e72a5e93aae42afb10f7135ffe171715315",
+      "context": "Read-Only Notes > Automatic read-only mode",
+      "contextHash": "f2f51e47aaa8682b3d7ce61dcb1b5fc88d4f47211131e61f1c7f38a908267e9b",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_2406e4df15da6a8f0d2fb2a6_0",
+      "kind": "p",
+      "source": "For optimization purposes, Trilium will automatically set very large notes to read-only. Displaying such lengthy notes in editing mode can slow down performance, especially when editing is unnecessary.",
+      "sourceHash": "2406e4df15da6a8f0d2fb2a682737625213fa42094e172fbbeb4a980a3753b63",
+      "context": "Read-Only Notes > Automatic read-only mode",
+      "contextHash": "f2f51e47aaa8682b3d7ce61dcb1b5fc88d4f47211131e61f1c7f38a908267e9b",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_da956880764e2d628ab2cbfe_0",
+      "kind": "p",
+      "source": "This behavior can be disabled on a per-note basis, by following the instructions of the next section.",
+      "sourceHash": "da956880764e2d628ab2cbfe5e5499ffae6125e85647da3d6de732822cf4a2ba",
+      "context": "Read-Only Notes > Automatic read-only mode",
+      "contextHash": "f2f51e47aaa8682b3d7ce61dcb1b5fc88d4f47211131e61f1c7f38a908267e9b",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_d8b47d6aa0ab8db400de14c4_0",
+      "kind": "p",
+      "source": "In addition, it's possible to change the number of characters at which the automatic read-only mode will trigger in __TRILIUM_PH_0__Options__TRILIUM_PH_1__ by going to the options for __TRILIUM_PH_2__Text Notes__TRILIUM_PH_3__ and __TRILIUM_PH_4__Code Notes__TRILIUM_PH_5__.",
+      "sourceHash": "d8b47d6aa0ab8db400de14c4c9a6dbce5e11ed55a77e3321998cd9af11305c1a",
+      "context": "Read-Only Notes > Automatic read-only mode",
+      "contextHash": "f2f51e47aaa8682b3d7ce61dcb1b5fc88d4f47211131e61f1c7f38a908267e9b",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_b9b14ed920e1d1c13f199dee_0",
+      "kind": "h2",
+      "source": "Changing a note's read-only behavior__TRILIUM_PH_0__",
+      "sourceHash": "b9b14ed920e1d1c13f199dee6109531199cf35e15053c4f34bbe06a58141422c",
+      "context": "Read-Only Notes > Changing a note's read-only behavior",
+      "contextHash": "c9147e0c053b018d7efd4b1cf53763f094eff19972ca7a535c84a74ffde8734c",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_9153ec963bcb853e6d56d1ec_0",
+      "kind": "p",
+      "source": "A note's read-only behavior can be changed via __TRILIUM_PH_0__Note menu__TRILIUM_PH_1__ → __TRILIUM_PH_2__Editable.__TRILIUM_PH_3__ The following options are possible:",
+      "sourceHash": "9153ec963bcb853e6d56d1ec5a947a52e0bf121ba59160b6660f0879c7c25ac2",
+      "context": "Read-Only Notes > Changing a note's read-only behavior",
+      "contextHash": "c9147e0c053b018d7efd4b1cf53763f094eff19972ca7a535c84a74ffde8734c",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_f91a202c4efcb823a4e10b56_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__Auto__TRILIUM_PH_1____TRILIUM_PH_2__This is the default behavior in which the note will be editable by default, unless it becomes large enough to trigger read-only mode.",
+      "sourceHash": "f91a202c4efcb823a4e10b567b9236910ec8f1df57936e76f63ec5e03ab1c0c3",
+      "context": "Read-Only Notes > Changing a note's read-only behavior",
+      "contextHash": "c9147e0c053b018d7efd4b1cf53763f094eff19972ca7a535c84a74ffde8734c",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_973b8189c599612669b8b586_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__Read-only__TRILIUM_PH_1____TRILIUM_PH_2__The note will be always marked as read-only, regardless of its size. Nevertheless, it's still possible to temporarily edit the note if needed. This is generally useful for notes that are not prone to change.",
+      "sourceHash": "973b8189c599612669b8b586c0850ba7fff8c0cf06b011c02f5406486fa2d00c",
+      "context": "Read-Only Notes > Changing a note's read-only behavior",
+      "contextHash": "c9147e0c053b018d7efd4b1cf53763f094eff19972ca7a535c84a74ffde8734c",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_0f1c73188e70ac72783bd4cc_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__Always editable__TRILIUM_PH_1____TRILIUM_PH_2__This option will bypass the automatic read-only activation for this particular note. It's useful for large notes that are frequently edited.",
+      "sourceHash": "0f1c73188e70ac72783bd4cccbcd8d3e768a27dafe59c81a76a9f4b190ce3611",
+      "context": "Read-Only Notes > Changing a note's read-only behavior",
+      "contextHash": "c9147e0c053b018d7efd4b1cf53763f094eff19972ca7a535c84a74ffde8734c",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_2208f3df9e996062975c3f83_0",
+      "kind": "p",
+      "source": "If the __TRILIUM_PH_0__Editable__TRILIUM_PH_1__ section is missing from the __TRILIUM_PH_2__Note menu__TRILIUM_PH_3__, then the note type does not support read-only mode.",
+      "sourceHash": "2208f3df9e996062975c3f833f0f4cf26ab75b730c41044b4f8ead60ecfc55da",
+      "context": "Read-Only Notes > Changing a note's read-only behavior",
+      "contextHash": "c9147e0c053b018d7efd4b1cf53763f094eff19972ca7a535c84a74ffde8734c",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_73059720649054a757395128_0",
+      "kind": "h3",
+      "source": "Manually setting the options__TRILIUM_PH_0__",
+      "sourceHash": "73059720649054a7573951288dcf820622dcaa7365f891d5c9f3917c546dbab5",
+      "context": "Read-Only Notes > Changing a note's read-only behavior > Manually setting the options",
+      "contextHash": "6323761930d6e674723e1478bab2f9beee9af59ff1413d8a1966283942587378",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_dcb65620962e600df1a0f27a_0",
+      "kind": "p",
+      "source": "Apart from using the __TRILIUM_PH_0__Note menu__TRILIUM_PH_1__ as previously mentioned, it's also possible to use __TRILIUM_PH_2__labels__TRILIUM_PH_3__ to change the behavior:",
+      "sourceHash": "dcb65620962e600df1a0f27a20f17dac88a8617acf6412818c520f67a28876a4",
+      "context": "Read-Only Notes > Changing a note's read-only behavior > Manually setting the options",
+      "contextHash": "6323761930d6e674723e1478bab2f9beee9af59ff1413d8a1966283942587378",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_ccc97f10a029ce181cdfba22_0",
+      "kind": "li",
+      "source": "To set as read-only, apply the __TRILIUM_PH_0__ label to the note.",
+      "sourceHash": "ccc97f10a029ce181cdfba22da2f88692323b11b180a54e7879bc8ee7df2a33f",
+      "context": "Read-Only Notes > Changing a note's read-only behavior > Manually setting the options",
+      "contextHash": "6323761930d6e674723e1478bab2f9beee9af59ff1413d8a1966283942587378",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_86c96d392b16768344b45c7c_0",
+      "kind": "li",
+      "source": "To disable automatic read-only (always editable), apply the __TRILIUM_PH_0__ label.",
+      "sourceHash": "86c96d392b16768344b45c7ceb58ee1f7113e52c690e140fe62c43662545f144",
+      "context": "Read-Only Notes > Changing a note's read-only behavior > Manually setting the options",
+      "contextHash": "6323761930d6e674723e1478bab2f9beee9af59ff1413d8a1966283942587378",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_366705aa8b173cd713b152b5_0",
+      "kind": "h2",
+      "source": "Temporarily editing a read-only note__TRILIUM_PH_0__",
+      "sourceHash": "366705aa8b173cd713b152b53f9be890df13d0316b0479f1320b9205e0268d4a",
+      "context": "Read-Only Notes > Temporarily editing a read-only note",
+      "contextHash": "0b3cc5e3d21e5eaefc0d97986b0598407cc7ad8d760ef0460c21269ed2c09e31",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_9372c877f6c2bfaf91dbca16_0",
+      "kind": "p",
+      "source": "When accessing a read-only note, it's possible to temporarily edit it pressing the __TRILIUM_PH_0__Read-only__TRILIUM_PH_1__ badge.",
+      "sourceHash": "9372c877f6c2bfaf91dbca16a690c93ef811657159d68e97d75fe6b34de63fd9",
+      "context": "Read-Only Notes > Temporarily editing a read-only note",
+      "contextHash": "0b3cc5e3d21e5eaefc0d97986b0598407cc7ad8d760ef0460c21269ed2c09e31",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_325ec484db874487f22b4e2c_0",
+      "kind": "p",
+      "source": "When pressed, the note will become editable but will become read-only again after navigating to a different note.",
+      "sourceHash": "325ec484db874487f22b4e2c0a774e1e6c1d2081380b3aa09abb0e2aee9edfa1",
+      "context": "Read-Only Notes > Temporarily editing a read-only note",
+      "contextHash": "0b3cc5e3d21e5eaefc0d97986b0598407cc7ad8d760ef0460c21269ed2c09e31",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_94bdd0a686ee8956b15a7bfd_0",
+      "kind": "p",
+      "source": "The pages of the built-in user guide are an exception: they are part of Trilium itself and cannot be edited, not even temporarily. Their __TRILIUM_PH_0__Read-only__TRILIUM_PH_1__ badge cannot be pressed, the note menu does not offer to edit them, and their attributes are shown in the right sidebar without a way to change them.",
+      "sourceHash": "94bdd0a686ee8956b15a7bfdaf032e3c56f24b6b795a852bc04d23d89e86a83c",
+      "context": "Read-Only Notes > Temporarily editing a read-only note",
+      "contextHash": "0b3cc5e3d21e5eaefc0d97986b0598407cc7ad8d760ef0460c21269ed2c09e31",
+      "status": "pending",
+      "active": true
+    }
+  ],
+  "requests": []
+}

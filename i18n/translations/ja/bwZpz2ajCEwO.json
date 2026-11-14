@@ -1,0 +1,219 @@
+{
+  "schemaVersion": 1,
+  "pageId": "bwZpz2ajCEwO",
+  "sourceFile": "docs/User Guide/User Guide/Advanced Usage/Attributes/Attribute Inheritance.md",
+  "sourceRevision": "03d17b60f59b5efc29b880b11481471d0fe0ff57",
+  "units": [
+    {
+      "id": "u_91c6413f85fc1c5d0059fbdc_0",
+      "kind": "title",
+      "source": "Attribute Inheritance",
+      "sourceHash": "91c6413f85fc1c5d0059fbdcfceceaad8bbf1b985c5c170dc004ac7d2b8d6b55",
+      "context": "Attribute Inheritance",
+      "contextHash": "233c11290cbac48eab295e093e30054e5acec02f60440d3b6d15b78dbc00f973",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_ebe8188e73282988bfe77fdb_0",
+      "kind": "p",
+      "source": "Inheritance refers to the process of having a __TRILIUM_PH_0__label__TRILIUM_PH_1__ or a __TRILIUM_PH_2__relation__TRILIUM_PH_3__ shared across multiple notes, generally in parent-child relations (or anywhere if using templates).",
+      "sourceHash": "ebe8188e73282988bfe77fdbbd591b25568901383ef510d3a41ba7bab2ec2c57",
+      "context": "Attribute Inheritance",
+      "contextHash": "233c11290cbac48eab295e093e30054e5acec02f60440d3b6d15b78dbc00f973",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_7334069b2f920a466cbfc683_0",
+      "kind": "h2",
+      "source": "Standard Inheritance__TRILIUM_PH_0__",
+      "sourceHash": "7334069b2f920a466cbfc683eab0750255042121de8521073f11eb33cda341ce",
+      "context": "Attribute Inheritance > Standard Inheritance",
+      "contextHash": "aae4e322207135fb0e0cc591dd72192f65c850c1bb6c5f688a848afdb4e13916",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_2a30bcd375a173528890512e_0",
+      "kind": "p",
+      "source": "In Trilium, attributes can be automatically inherited by child notes if they have the __TRILIUM_PH_0__ flag set to __TRILIUM_PH_1__. This means the attribute (a key-value pair) is applied to the note and all its descendants.",
+      "sourceHash": "2a30bcd375a173528890512ee5f52ac93e2eea1fe99c44113aad00d1c48b4273",
+      "context": "Attribute Inheritance > Standard Inheritance",
+      "contextHash": "aae4e322207135fb0e0cc591dd72192f65c850c1bb6c5f688a848afdb4e13916",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_06506deedaf6441d110440d2_0",
+      "kind": "p",
+      "source": "To make an attribute inheritable, simply use the visual editor for __TRILIUM_PH_0__Labels__TRILIUM_PH_1__ or __TRILIUM_PH_2__Relations__TRILIUM_PH_3__. Alternatively, the attribute can be manually defined where __TRILIUM_PH_4__ becomes __TRILIUM_PH_5__ when inheritable.",
+      "sourceHash": "06506deedaf6441d110440d2622d5b74f90d9e6614b44eea920b95c9390d27f1",
+      "context": "Attribute Inheritance > Standard Inheritance",
+      "contextHash": "aae4e322207135fb0e0cc591dd72192f65c850c1bb6c5f688a848afdb4e13916",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_129796d24c70b93f5b834a23_0",
+      "kind": "p",
+      "source": "As an example, the __TRILIUM_PH_0__ label can be set to be inheritable, allowing you to hide a whole subtree of notes from searches and other dialogs by applying this label at the top level.",
+      "sourceHash": "129796d24c70b93f5b834a2327549e0577c79d7d8f76ac71e15d3cc303c9fc71",
+      "context": "Attribute Inheritance > Standard Inheritance",
+      "contextHash": "aae4e322207135fb0e0cc591dd72192f65c850c1bb6c5f688a848afdb4e13916",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_f138fd9dfde25c97714d3aa0_0",
+      "kind": "p",
+      "source": "Standard inheritance forces all the notes that are children (and sub-children) of a note to have that particular label or relation. If there is a need to have some notes not inherit one of the labels, then __TRILIUM_PH_0__copying inheritance__TRILIUM_PH_1__ or __TRILIUM_PH_2__template inheritance__TRILIUM_PH_3__ needs to be used instead.",
+      "sourceHash": "f138fd9dfde25c97714d3aa08926bf5e8320579dc1519ebba4402fc578f07d3d",
+      "context": "Attribute Inheritance > Standard Inheritance",
+      "contextHash": "aae4e322207135fb0e0cc591dd72192f65c850c1bb6c5f688a848afdb4e13916",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_02b26178e61ecb0d46fbf5ac_0",
+      "kind": "h2",
+      "source": "Copying Inheritance__TRILIUM_PH_0__",
+      "sourceHash": "02b26178e61ecb0d46fbf5ac98d25b5a31376c8878dcf817504a688e5a4b7caf",
+      "context": "Attribute Inheritance > Copying Inheritance",
+      "contextHash": "bccabac0499492e31086b4b57ee300f7db0df5e1b5006fc142272ddbdc1c6958",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_d7ee277ebec1bf7c9aaa02fd_0",
+      "kind": "p",
+      "source": "Copying inheritance differs from standard inheritance by using a __TRILIUM_PH_0__ prefix in the attribute name. This prefix causes new child notes to automatically receive specific attributes from the parent note. These attributes are independent of the parent and will persist even if the note is moved elsewhere.",
+      "sourceHash": "d7ee277ebec1bf7c9aaa02fd715e95da62ba826beffffdf57a7bba8b138f43db",
+      "context": "Attribute Inheritance > Copying Inheritance",
+      "contextHash": "bccabac0499492e31086b4b57ee300f7db0df5e1b5006fc142272ddbdc1c6958",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_7284999115ea4c5b86fe4aec_0",
+      "kind": "p",
+      "source": "If a parent note has the label __TRILIUM_PH_0__, all newly created child notes (one level deep) will inherit the __TRILIUM_PH_1__ label. This can be useful for setting default properties for notes in a specific section.",
+      "sourceHash": "7284999115ea4c5b86fe4aecf3ffe1e2dd70bd84ba1dad0abc96c8f39dfe0744",
+      "context": "Attribute Inheritance > Copying Inheritance",
+      "contextHash": "bccabac0499492e31086b4b57ee300f7db0df5e1b5006fc142272ddbdc1c6958",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_2fe0aa31357fb887e37c2e7c_0",
+      "kind": "p",
+      "source": "Similarly, for relations use __TRILIUM_PH_0__.",
+      "sourceHash": "2fe0aa31357fb887e37c2e7c4abc6769f6b9cabfd86846df8e8d1a588f77511c",
+      "context": "Attribute Inheritance > Copying Inheritance",
+      "contextHash": "bccabac0499492e31086b4b57ee300f7db0df5e1b5006fc142272ddbdc1c6958",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_3d04afc2b19fe81a7d6d6e18_0",
+      "kind": "p",
+      "source": "Due to the way it's designed, copying inheritance cannot be used to cascade infinitely within a hierarchy. For that use case, consider using either standard inheritance or templates.",
+      "sourceHash": "3d04afc2b19fe81a7d6d6e1803e428983cf78a551c0c064991467f98bf45cc21",
+      "context": "Attribute Inheritance > Copying Inheritance",
+      "contextHash": "bccabac0499492e31086b4b57ee300f7db0df5e1b5006fc142272ddbdc1c6958",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_2799301379b2e0f4f24355d1_0",
+      "kind": "h3",
+      "source": "Chained inheritance__TRILIUM_PH_0__",
+      "sourceHash": "2799301379b2e0f4f24355d1c6b246f808bbf56af495422ed13544d3dd5a6326",
+      "context": "Attribute Inheritance > Copying Inheritance > Chained inheritance",
+      "contextHash": "2320a75b2283f55550e30486378c9a4dd2ee6e79df0fb71d7ed6afc6ca5307f8",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_f097263c6eaf8a42a08b0efe_0",
+      "kind": "p",
+      "source": "It is possible to define labels across multiple levels of depth. For example, __TRILIUM_PH_0__ applied to a root note would create:",
+      "sourceHash": "f097263c6eaf8a42a08b0efe578714a30a974a0e69a8ac7ebac0eb1b05e6d974",
+      "context": "Attribute Inheritance > Copying Inheritance > Chained inheritance",
+      "contextHash": "2320a75b2283f55550e30486378c9a4dd2ee6e79df0fb71d7ed6afc6ca5307f8",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_6e5a9ccfec51f4a95ea476d5_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__ on the first-level children.",
+      "sourceHash": "6e5a9ccfec51f4a95ea476d5a29ccd20b129c0141ee1266c5665c4d566d652eb",
+      "context": "Attribute Inheritance > Copying Inheritance > Chained inheritance",
+      "contextHash": "2320a75b2283f55550e30486378c9a4dd2ee6e79df0fb71d7ed6afc6ca5307f8",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_0ed201a94b3c34c508a1b39c_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__ on the second-level children.",
+      "sourceHash": "0ed201a94b3c34c508a1b39ccb211e9d277f604fa3f4c28bdebef79fedeb26be",
+      "context": "Attribute Inheritance > Copying Inheritance > Chained inheritance",
+      "contextHash": "2320a75b2283f55550e30486378c9a4dd2ee6e79df0fb71d7ed6afc6ca5307f8",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_cc5f104349298d9227da9ce1_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__ on the third-level children.",
+      "sourceHash": "cc5f104349298d9227da9ce1f6b8639b1d3449235543d97c52d2bf30ad5f7071",
+      "context": "Attribute Inheritance > Copying Inheritance > Chained inheritance",
+      "contextHash": "2320a75b2283f55550e30486378c9a4dd2ee6e79df0fb71d7ed6afc6ca5307f8",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_b1e36ea3f141e070c7ba5172_0",
+      "kind": "p",
+      "source": "Similarly, use __TRILIUM_PH_0__ if dealing with relations.",
+      "sourceHash": "b1e36ea3f141e070c7ba51721d6c990916100f59ae5432b6c54130ce03dd2631",
+      "context": "Attribute Inheritance > Copying Inheritance > Chained inheritance",
+      "contextHash": "2320a75b2283f55550e30486378c9a4dd2ee6e79df0fb71d7ed6afc6ca5307f8",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_82471199960f3c0ad97a8449_0",
+      "kind": "p",
+      "source": "Do note that same as simple copying inheritance, the changes will not apply retroactively to existing notes in the hierarchy, it will only apply to the newly created notes.",
+      "sourceHash": "82471199960f3c0ad97a84499c7faedcea78a969933ed68ebe89148be5e520e5",
+      "context": "Attribute Inheritance > Copying Inheritance > Chained inheritance",
+      "contextHash": "2320a75b2283f55550e30486378c9a4dd2ee6e79df0fb71d7ed6afc6ca5307f8",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_0065172d274a8f3a1ea7729c_0",
+      "kind": "h2",
+      "source": "Template Inheritance__TRILIUM_PH_0__",
+      "sourceHash": "0065172d274a8f3a1ea7729c26b6ae9a3238340aba05a948bacfd1fbd94c751b",
+      "context": "Attribute Inheritance > Template Inheritance",
+      "contextHash": "597b6f073d01291970deeaae434d295bf89a8dd7678d0c0d5626267430139955",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_ea845e46a0cb9bb0cf22d84d_0",
+      "kind": "p",
+      "source": "Attributes can also be inherited from __TRILIUM_PH_0__Templates__TRILIUM_PH_1__. When a new note is created using a template, it inherits the attributes defined in that template. This is particularly useful for maintaining consistency across notes that follow a similar structure or function.",
+      "sourceHash": "ea845e46a0cb9bb0cf22d84d8394914e4f1017eb2876d2354c8fe029ee437e36",
+      "context": "Attribute Inheritance > Template Inheritance",
+      "contextHash": "597b6f073d01291970deeaae434d295bf89a8dd7678d0c0d5626267430139955",
+      "status": "pending",
+      "active": true
+    }
+  ],
+  "requests": []
+}

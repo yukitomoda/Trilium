@@ -1,0 +1,189 @@
+{
+  "schemaVersion": 1,
+  "pageId": "KOWBFgsZXJAD",
+  "sourceFile": "docs/User Guide/User Guide/AI/MCP.md",
+  "sourceRevision": "03d17b60f59b5efc29b880b11481471d0fe0ff57",
+  "units": [
+    {
+      "id": "u_5063b3897d4a40a9d9186191_0",
+      "kind": "title",
+      "source": "MCP",
+      "sourceHash": "5063b3897d4a40a9d9186191ccbce96ca357dddca3d571ddc27805bd40867d68",
+      "context": "MCP",
+      "contextHash": "53f13ae99ed53bd346eb8e1c8cefb7ef8260683b50401caf101360967ea052aa",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_1b39c059c7e2cd3676fffc51_0",
+      "kind": "p",
+      "source": "__TRILIUM_PH_0__Model Context Protocol__TRILIUM_PH_1__ allows external chat applications such as Claude Code to have access to the Trilium database.",
+      "sourceHash": "1b39c059c7e2cd3676fffc51a8b26b804d3bde269f9dabad42aecc540a207f89",
+      "context": "MCP",
+      "contextHash": "53f13ae99ed53bd346eb8e1c8cefb7ef8260683b50401caf101360967ea052aa",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_d7b1c36691122772831a53f4_0",
+      "kind": "h2",
+      "source": "Built-in MCP__TRILIUM_PH_0__",
+      "sourceHash": "d7b1c36691122772831a53f4e2339fe13dadd61837da5e4edef44bffb91f64e2",
+      "context": "MCP > Built-in MCP",
+      "contextHash": "ad4475039272fdbb6b2cd93b10f318dff67fe5dd02ee89d7664a2233d7c4f119",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_c0537d71e56e6f998415b98d_0",
+      "kind": "p",
+      "source": "v0.103.0 comes with a built-in MCP server that is not active by default. To activate it, go to __TRILIUM_PH_0__Options__TRILIUM_PH_1__ → AI/LLM and toggle the __TRILIUM_PH_2__MCP server__TRILIUM_PH_3__ option.",
+      "sourceHash": "c0537d71e56e6f998415b98d4f26d65af2218ed43d4145892d2a1cf8c81407b1",
+      "context": "MCP > Built-in MCP",
+      "contextHash": "ad4475039272fdbb6b2cd93b10f318dff67fe5dd02ee89d7664a2233d7c4f119",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_ee73d2378f732a4db252b222_0",
+      "kind": "p",
+      "source": "Once the MCP is active, simply add the MCP server to your AI assistant. The URL to use is displayed in the __TRILIUM_PH_0__Endpoint__TRILIUM_PH_1__ __TRILIUM_PH_2__URL__TRILIUM_PH_3__ information underneath the MCP toggle.",
+      "sourceHash": "ee73d2378f732a4db252b222be2e18f4f49d6002ff46f608f4da8681044981f6",
+      "context": "MCP > Built-in MCP",
+      "contextHash": "ad4475039272fdbb6b2cd93b10f318dff67fe5dd02ee89d7664a2233d7c4f119",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_13d7964b9e6bb692c8425c5f_0",
+      "kind": "p",
+      "source": "Only the HTTP transport is supported, the __TRILIUM_PH_0__ method is not supported. If that is a blocker, consider using a third-party alternative listed below.",
+      "sourceHash": "13d7964b9e6bb692c8425c5fec174e858a633c658852f18b9dd72d592f31c24a",
+      "context": "MCP > Built-in MCP",
+      "contextHash": "ad4475039272fdbb6b2cd93b10f318dff67fe5dd02ee89d7664a2233d7c4f119",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_2aab2fba95cd06cd683ed8b8_0",
+      "kind": "p",
+      "source": "The tools exposed to the MCP are the same tools that are supported by the internal chat (see the __TRILIUM_PH_0__Note access__TRILIUM_PH_1__ section). Notes with the __TRILIUM_PH_2__ label are hidden from both, see __TRILIUM_PH_3__Privacy__TRILIUM_PH_4__.",
+      "sourceHash": "2aab2fba95cd06cd683ed8b82ced23f4607ffcc57aa2ed36b14d63f245e71819",
+      "context": "MCP > Built-in MCP",
+      "contextHash": "ad4475039272fdbb6b2cd93b10f318dff67fe5dd02ee89d7664a2233d7c4f119",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_83993cd79f31801eed03053b_0",
+      "kind": "h3",
+      "source": "Approving tool calls__TRILIUM_PH_0__",
+      "sourceHash": "83993cd79f31801eed03053b3874008ab1a2dc5a8d094c7e86f6218dfcb5fa87",
+      "context": "MCP > Built-in MCP > Approving tool calls",
+      "contextHash": "a80bb9037719f6c8abf00fe34f2fe7dec161205236935fe869f7c17790befdbd",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_692b5f605ab1037914f548df_0",
+      "kind": "p",
+      "source": "Trilium does not ask for approval of the calls an external assistant makes; that is left to the assistant's own permission settings. To help it decide, each tool tells the assistant whether it only reads your notes, only adds to them (creating a note, cloning it or appending to it), or can overwrite or remove something (editing, renaming, moving or deleting). An assistant that supports these hints can then run reads on their own and ask before changes, the way __TRILIUM_PH_0__Ask before changes__TRILIUM_PH_1__ does in Trilium's chat.",
+      "sourceHash": "692b5f605ab1037914f548dfb3a0537c6234d3786533ca401c0fafb9da53c912",
+      "context": "MCP > Built-in MCP > Approving tool calls",
+      "contextHash": "a80bb9037719f6c8abf00fe34f2fe7dec161205236935fe869f7c17790befdbd",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_5b7d63b9792e21ad9aef6661_0",
+      "kind": "h3",
+      "source": "Authentication__TRILIUM_PH_0__",
+      "sourceHash": "5b7d63b9792e21ad9aef6661f68ad13b2826e3be4c7e0e290f3b58ffec5d97d0",
+      "context": "MCP > Built-in MCP > Authentication",
+      "contextHash": "52249a21ff85b50338d76b58c932f3a2189a6bb72ed384f5f0d30f0d507a7904",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_7ec01ec446493533eb2d5f39_0",
+      "kind": "p",
+      "source": "To protect your notes from unauthorized access, the MCP server requires authentication. Generally MCP servers need to support OAuth for authentication, but Trilium uses a simpler mechanism using Bearer tokens.",
+      "sourceHash": "7ec01ec446493533eb2d5f3950bf265c455021ec246c747365cca2ea16dca243",
+      "context": "MCP > Built-in MCP > Authentication",
+      "contextHash": "52249a21ff85b50338d76b58c932f3a2189a6bb72ed384f5f0d30f0d507a7904",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_c10fb3145cc3ef3a9af43541_0",
+      "kind": "p",
+      "source": "To configure authentication, first create an __TRILIUM_PH_0__ETAPI (REST API)__TRILIUM_PH_1__ token by going to __TRILIUM_PH_2__Options__TRILIUM_PH_3__ → __TRILIUM_PH_4__ETAPI__TRILIUM_PH_5__. Then follow the instructions in __TRILIUM_PH_6__Options__TRILIUM_PH_7__ → __TRILIUM_PH_8__AI / LLM__TRILIUM_PH_9__, by looking at the __TRILIUM_PH_10__How to connect an assistant__TRILIUM_PH_11__ section under MCP.",
+      "sourceHash": "c10fb3145cc3ef3a9af43541ed2997ca129d458f4983381f6091820ba9a951f3",
+      "context": "MCP > Built-in MCP > Authentication",
+      "contextHash": "52249a21ff85b50338d76b58c932f3a2189a6bb72ed384f5f0d30f0d507a7904",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_4b9d77091a4952b366af1a83_0",
+      "kind": "h2",
+      "source": "Third-party alternatives__TRILIUM_PH_0__",
+      "sourceHash": "4b9d77091a4952b366af1a83714603286e57a253e396387d3900b069c0865dff",
+      "context": "MCP > Third-party alternatives",
+      "contextHash": "bbb74fcaf9e35e3a6a3f22501cd145d615c59ba9ae9acb1ea5fcf0ffa9b77b0f",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_f96a0c798502da6588eb8c9f_0",
+      "kind": "p",
+      "source": "The following are alternatives to Trilium's built-in MCP feature. Since Trilium's AI implementation is still experimental, its tooling might not be as mature as external tools.",
+      "sourceHash": "f96a0c798502da6588eb8c9f8c5f91926f2998c0bf6f8ab5538e7e7ad62a69bf",
+      "context": "MCP > Third-party alternatives",
+      "contextHash": "bbb74fcaf9e35e3a6a3f22501cd145d615c59ba9ae9acb1ea5fcf0ffa9b77b0f",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_3a9f14c4c12030666eefa39e_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__perfectra1n/triliumnext-mcp__TRILIUM_PH_1__",
+      "sourceHash": "3a9f14c4c12030666eefa39e9a6e6c6fe4aa8dba5bec2d3aa7dff457cfcc2165",
+      "context": "MCP > Third-party alternatives",
+      "contextHash": "bbb74fcaf9e35e3a6a3f22501cd145d615c59ba9ae9acb1ea5fcf0ffa9b77b0f",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_df8c7c3922c20b93bd869fa4_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__tan-yong-sheng/triliumnext-mcp__TRILIUM_PH_1__",
+      "sourceHash": "df8c7c3922c20b93bd869fa4d42faf4f8e6f15c658665c98128577e1151dee34",
+      "context": "MCP > Third-party alternatives",
+      "contextHash": "bbb74fcaf9e35e3a6a3f22501cd145d615c59ba9ae9acb1ea5fcf0ffa9b77b0f",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_af2378d2e9ad7a9f767606cd_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__eliassoares/trilium-fastmcp__TRILIUM_PH_1__",
+      "sourceHash": "af2378d2e9ad7a9f767606cd5ef0fd746dda575f4a0350b019b313309ef30ab3",
+      "context": "MCP > Third-party alternatives",
+      "contextHash": "bbb74fcaf9e35e3a6a3f22501cd145d615c59ba9ae9acb1ea5fcf0ffa9b77b0f",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_eddebe9ef4479eb515876a8a_0",
+      "kind": "p",
+      "source": "These solutions are third-party and thus not endorsed or supported directly by the Trilium Notes team. Please address questions and issues on their corresponding repository instead.",
+      "sourceHash": "eddebe9ef4479eb515876a8a5cfc06e3934bae468ece5434c052606714dd50c7",
+      "context": "MCP > Third-party alternatives",
+      "contextHash": "bbb74fcaf9e35e3a6a3f22501cd145d615c59ba9ae9acb1ea5fcf0ffa9b77b0f",
+      "status": "pending",
+      "active": true
+    }
+  ],
+  "requests": []
+}

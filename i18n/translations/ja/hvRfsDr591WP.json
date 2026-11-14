@@ -1,0 +1,148 @@
+{
+  "schemaVersion": 1,
+  "pageId": "hvRfsDr591WP",
+  "sourceFile": "docs/User Guide/User Guide/Installation & Setup/Desktop Installation/Troubleshooting.md",
+  "sourceRevision": "03d17b60f59b5efc29b880b11481471d0fe0ff57",
+  "units": [
+    {
+      "id": "u_b485142a769733ab72fdfbd9_0",
+      "kind": "title",
+      "source": "Troubleshooting",
+      "sourceHash": "b485142a769733ab72fdfbd92e81842d7f6469c0c329bacad3a3e67f5ff366e6",
+      "context": "Troubleshooting",
+      "contextHash": "c3af076f92c5ed8dcb0d0b0d36dd120bc31b68264efea96cf8019ca19f1c13a3",
+      "status": "translated",
+      "active": true,
+      "translation": "トラブルシューティング",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_87d0eeabb6de889b68fba58d_0",
+      "kind": "h2",
+      "source": "Trilium only shows a blank window__TRILIUM_PH_0__",
+      "sourceHash": "87d0eeabb6de889b68fba58d651e975508322b69e885a97874404f5930e0bea6",
+      "context": "Troubleshooting > Trilium only shows a blank window",
+      "contextHash": "3b86f782c40d4b3c059c5c8c077b62d535d12ba25fbf973f00d4f6c43dd6dbb5",
+      "status": "translated",
+      "active": true,
+      "translation": "Triliumが真っ白なウィンドウしか表示しない__TRILIUM_PH_0__",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_f3896c44f9fa9ef125056798_0",
+      "kind": "p",
+      "source": "Trilium uses Electron which is based on Chromium (the open-source alternative to Google Chrome); in order to improve performance it makes use of __TRILIUM_PH_0__GPU acceleration__TRILIUM_PH_1__. In some cases, a GPU incompatibility (especially on older models of integrated graphics) can cause nothing to render at all, resulting in a blank window. ",
+      "sourceHash": "f3896c44f9fa9ef1250567987cdc2b47055e4e66f4c2a1aa13fddd3dce00345e",
+      "context": "Troubleshooting > Trilium only shows a blank window",
+      "contextHash": "3b86f782c40d4b3c059c5c8c077b62d535d12ba25fbf973f00d4f6c43dd6dbb5",
+      "status": "translated",
+      "active": true,
+      "translation": "Triliumは、Google Chromeのオープンソース版であるChromiumをベースにしたElectronを使用しています。パフォーマンスを向上させるために__TRILIUM_PH_0__GPUアクセラレーション__TRILIUM_PH_1__を利用しますが、GPUの非互換性（特に古いモデルの内蔵グラフィックス）により何も描画されず、真っ白なウィンドウになってしまう場合があります。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_ae70601272993e27112a3979_0",
+      "kind": "p",
+      "source": "To bypass this, try running Trilium with the following command line argument:",
+      "sourceHash": "ae70601272993e27112a39795ca03c9bd2c443a9e13579e35cf28e469ed59dbe",
+      "context": "Troubleshooting > Trilium only shows a blank window",
+      "contextHash": "3b86f782c40d4b3c059c5c8c077b62d535d12ba25fbf973f00d4f6c43dd6dbb5",
+      "status": "translated",
+      "active": true,
+      "translation": "これを回避するには、次のコマンドライン引数をつけてTriliumを実行してみてください。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_d9361993dd14e3bf5b4667ed_0",
+      "kind": "p",
+      "source": "If that doesn't work, try the following commands as well:",
+      "sourceHash": "d9361993dd14e3bf5b4667ed79b9d3c2c0273b72de65c06ee318b17e080f8c2f",
+      "context": "Troubleshooting > Trilium only shows a blank window",
+      "contextHash": "3b86f782c40d4b3c059c5c8c077b62d535d12ba25fbf973f00d4f6c43dd6dbb5",
+      "status": "translated",
+      "active": true,
+      "translation": "それでも解決しない場合は、次のコマンドもお試しください。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_14a2264020154077988b6edd_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__ (this one forces the rendering to X11 on Wayland)",
+      "sourceHash": "14a2264020154077988b6eddae16431a48b3bbaf7c72bb77c56f548f893c89cb",
+      "context": "Troubleshooting > Trilium only shows a blank window",
+      "contextHash": "3b86f782c40d4b3c059c5c8c077b62d535d12ba25fbf973f00d4f6c43dd6dbb5",
+      "status": "translated",
+      "active": true,
+      "translation": "__TRILIUM_PH_0__ （Wayland環境でX11での描画を強制します）",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_90f0afd1cdecbe7f71f495c9_0",
+      "kind": "p",
+      "source": "If Trilium renders fine after this, Trilium offers a built-in option to disable GPU acceleration: go to __TRILIUM_PH_0__Options__TRILIUM_PH_1__ → __TRILIUM_PH_2__Appearance__TRILIUM_PH_3__, look for the __TRILIUM_PH_4__Performance__TRILIUM_PH_5__ section and then uncheck __TRILIUM_PH_6__Hardware acceleration (GPU)__TRILIUM_PH_7__.",
+      "sourceHash": "90f0afd1cdecbe7f71f495c920ecf63802ff8f0831bb370a96184fa2a961c1eb",
+      "context": "Troubleshooting > Trilium only shows a blank window",
+      "contextHash": "3b86f782c40d4b3c059c5c8c077b62d535d12ba25fbf973f00d4f6c43dd6dbb5",
+      "status": "translated",
+      "active": true,
+      "translation": "この操作のあとでTriliumが正常に描画される場合、TriliumにはGPUアクセラレーションを無効にする組み込みオプションが用意されています。__TRILIUM_PH_0__オプション__TRILIUM_PH_1__ → __TRILIUM_PH_2__外観__TRILIUM_PH_3__に移動し、__TRILIUM_PH_4__パフォーマンス__TRILIUM_PH_5__セクションを探して、__TRILIUM_PH_6__ハードウェアアクセラレーション (GPU)__TRILIUM_PH_7__のチェックを外してください。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    }
+  ],
+  "requests": [
+    {
+      "at": "2026-11-14T11:28:45.803Z",
+      "model": "gemini-3.5-flash-lite",
+      "batchJob": "batches/02spwqy837h8pi7qzqmeo4fgsqo7bgs45hwh",
+      "requestKey": "hvRfsDr591WP_1addc7f53848bd58",
+      "modelVersion": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 881,
+        "candidatesTokenCount": 540,
+        "totalTokenCount": 1421,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 881
+          }
+        ],
+        "serviceTier": "standard"
+      }
+    }
+  ]
+}

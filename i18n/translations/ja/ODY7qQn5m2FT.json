@@ -1,0 +1,1083 @@
+{
+  "schemaVersion": 1,
+  "pageId": "ODY7qQn5m2FT",
+  "sourceFile": "docs/User Guide/User Guide/Installation & Setup/Backup.md",
+  "sourceRevision": "03d17b60f59b5efc29b880b11481471d0fe0ff57",
+  "units": [
+    {
+      "id": "u_491cd88f148de2a1a10f26fa_0",
+      "kind": "title",
+      "source": "Backup",
+      "sourceHash": "491cd88f148de2a1a10f26fabd5eee5001134f8fa85d2df0f579d7c3aa915688",
+      "context": "Backup",
+      "contextHash": "838557924a5cdfb2f10f233635223e79be8443aef62f9d176cfe18787a2e8b03",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_b5d3f8cb468ea7aba2c4560f_0",
+      "kind": "p",
+      "source": "Trilium supports simple backup scheme where it saves copy of the __TRILIUM_PH_0__Database__TRILIUM_PH_1__ on these events:",
+      "sourceHash": "b5d3f8cb468ea7aba2c4560f644d0a61247c568855b8583d65e3aad7e83fdc2c",
+      "context": "Backup",
+      "contextHash": "838557924a5cdfb2f10f233635223e79be8443aef62f9d176cfe18787a2e8b03",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_45751ff57586d8eb651388ca_0",
+      "kind": "li",
+      "source": "once a day",
+      "sourceHash": "45751ff57586d8eb651388ca38e7a4d2a83cf29f012ec604d5df9e5ae2c8d0d4",
+      "context": "Backup",
+      "contextHash": "838557924a5cdfb2f10f233635223e79be8443aef62f9d176cfe18787a2e8b03",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_a2985635774205e6b3bc7f75_0",
+      "kind": "li",
+      "source": "once a week",
+      "sourceHash": "a2985635774205e6b3bc7f753a0a62986ee994de725dccff41e20bc67a4988e0",
+      "context": "Backup",
+      "contextHash": "838557924a5cdfb2f10f233635223e79be8443aef62f9d176cfe18787a2e8b03",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_c37bf051b42da51b8111acc0_0",
+      "kind": "li",
+      "source": "once a month",
+      "sourceHash": "c37bf051b42da51b8111acc0029b0f6eeed6357fee884e8d84a9c93dcf71a63a",
+      "context": "Backup",
+      "contextHash": "838557924a5cdfb2f10f233635223e79be8443aef62f9d176cfe18787a2e8b03",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_a343374fc6184c89d02a2e90_0",
+      "kind": "li",
+      "source": "before DB migration to newer version",
+      "sourceHash": "a343374fc6184c89d02a2e90d2d4eb6db90ff25d8e2488a875da01d5bce1c2d1",
+      "context": "Backup",
+      "contextHash": "838557924a5cdfb2f10f233635223e79be8443aef62f9d176cfe18787a2e8b03",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_15c41da1bff6382b379b5f91_0",
+      "kind": "p",
+      "source": "So in total you'll have at most 4 backups from different points in time which should protect you from various problems. These backups are stored by default in __TRILIUM_PH_0__ directory placed in the __TRILIUM_PH_1__data directory__TRILIUM_PH_2__.",
+      "sourceHash": "15c41da1bff6382b379b5f916d788a0b32d2ebf32c994b0a931630b922df273a",
+      "context": "Backup",
+      "contextHash": "838557924a5cdfb2f10f233635223e79be8443aef62f9d176cfe18787a2e8b03",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_9b9dc1ab80af4aff88dd280a_0",
+      "kind": "p",
+      "source": "This is only very basic backup solution, and you're encouraged to add some better backup solution - e.g. backing up the __TRILIUM_PH_0__Database__TRILIUM_PH_1__ to cloud / different computer etc.",
+      "sourceHash": "9b9dc1ab80af4aff88dd280a3ef3b17b1ce1bf4e410ebcfc6fe07b6bebe421eb",
+      "context": "Backup",
+      "contextHash": "838557924a5cdfb2f10f233635223e79be8443aef62f9d176cfe18787a2e8b03",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_97409d75630dabb32bad882e_0",
+      "kind": "p",
+      "source": "Note that __TRILIUM_PH_0__Synchronization__TRILIUM_PH_1__ provides also some backup capabilities by its nature of distributing the data to other computers.",
+      "sourceHash": "97409d75630dabb32bad882e6bbd109198feddd864a4f4e99e093df83ecb292f",
+      "context": "Backup",
+      "contextHash": "838557924a5cdfb2f10f233635223e79be8443aef62f9d176cfe18787a2e8b03",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_3f4647f2394764970ac21ccd_0",
+      "kind": "h2",
+      "source": "Creating a backup__TRILIUM_PH_0__",
+      "sourceHash": "3f4647f2394764970ac21ccde321f00e5af6bd9a37097e06f361fb779215adc2",
+      "context": "Backup > Creating a backup",
+      "contextHash": "31aec06b4548db916796664ae5a6a0832cdd165a1cc6382d1021b7d44c293e2c",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_59b7725c911696fa7dd9e690_0",
+      "kind": "p",
+      "source": "__TRILIUM_PH_0__ On the desktop app & web client",
+      "sourceHash": "59b7725c911696fa7dd9e69061608d33194661077731e05276c72877b81aad54",
+      "context": "Backup > Creating a backup",
+      "contextHash": "31aec06b4548db916796664ae5a6a0832cdd165a1cc6382d1021b7d44c293e2c",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_e3bd519f49916bb47dda349c_0",
+      "kind": "li",
+      "source": "Go to __TRILIUM_PH_0__Options__TRILIUM_PH_1__ → __TRILIUM_PH_2__Backup__TRILIUM_PH_3__ and press the __TRILIUM_PH_4__Backup now__TRILIUM_PH_5__ button.",
+      "sourceHash": "e3bd519f49916bb47dda349c0fc81e1dc7c08f64372da9e9f5454fb4b7788feb",
+      "context": "Backup > Creating a backup",
+      "contextHash": "31aec06b4548db916796664ae5a6a0832cdd165a1cc6382d1021b7d44c293e2c",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_1d2bbc04a93a713eb3ab5767_0",
+      "kind": "li",
+      "source": "The backup creation process may take a few moments, especially for larger databases. A notification will inform you when the backup is complete.",
+      "sourceHash": "1d2bbc04a93a713eb3ab57678a29170e5c1d5e6185a266d889bd02bb6e77f2a5",
+      "context": "Backup > Creating a backup",
+      "contextHash": "31aec06b4548db916796664ae5a6a0832cdd165a1cc6382d1021b7d44c293e2c",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_dfcac71380852f7c5b6f96af_0",
+      "kind": "li",
+      "source": "The backup will be saved as __TRILIUM_PH_0__ in the __TRILIUM_PH_1__Existing backups__TRILIUM_PH_2__ list, where you can download it.",
+      "sourceHash": "dfcac71380852f7c5b6f96af39ccf9b18698c4203163d17056089616dd6fc4e5",
+      "context": "Backup > Creating a backup",
+      "contextHash": "31aec06b4548db916796664ae5a6a0832cdd165a1cc6382d1021b7d44c293e2c",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_ea4c2b546acb2eaf55bc7f5a_0",
+      "kind": "p",
+      "source": "__TRILIUM_PH_0__ On the standalone client",
+      "sourceHash": "ea4c2b546acb2eaf55bc7f5ac79f0e34fb331bc49ac41e7bd99619c89a29d41b",
+      "context": "Backup > Creating a backup",
+      "contextHash": "31aec06b4548db916796664ae5a6a0832cdd165a1cc6382d1021b7d44c293e2c",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_56668dbe8bb61d95c0527a72_0",
+      "kind": "li",
+      "source": "Go to __TRILIUM_PH_0__Options__TRILIUM_PH_1__ → __TRILIUM_PH_2__Backup__TRILIUM_PH_3__ and press the __TRILIUM_PH_4__Download backup__TRILIUM_PH_5__ button.",
+      "sourceHash": "56668dbe8bb61d95c0527a725d40e72a836c2a2dae9f79a7d169d4b37ffe6b07",
+      "context": "Backup > Creating a backup",
+      "contextHash": "31aec06b4548db916796664ae5a6a0832cdd165a1cc6382d1021b7d44c293e2c",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_7f58a98fae3c7bee94a9bdde_0",
+      "kind": "li",
+      "source": "You will be prompted to restart the app. Confirm, and the app will restart automatically.",
+      "sourceHash": "7f58a98fae3c7bee94a9bdde3b54a8d39e78461715aed8e8765e35ccafd33f3c",
+      "context": "Backup > Creating a backup",
+      "contextHash": "31aec06b4548db916796664ae5a6a0832cdd165a1cc6382d1021b7d44c293e2c",
+      "status": "translated",
+      "active": true,
+      "translation": "アプリの再起動を促すメッセージが表示されます。確認すると、アプリが自動的に再起動します。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_1c2dd295d02728d2e9795b2a_0",
+      "kind": "li",
+      "source": "Set a __TRILIUM_PH_0__backup name__TRILIUM_PH_1__ or __TRILIUM_PH_2__password__TRILIUM_PH_3__ (both optional), then press __TRILIUM_PH_4__Continue__TRILIUM_PH_5__.",
+      "sourceHash": "1c2dd295d02728d2e9795b2a289d49bf6d00ac4ab15237adc65a0073eac2e568",
+      "context": "Backup > Creating a backup",
+      "contextHash": "31aec06b4548db916796664ae5a6a0832cdd165a1cc6382d1021b7d44c293e2c",
+      "status": "translated",
+      "active": true,
+      "translation": "__TRILIUM_PH_0__バックアップ名__TRILIUM_PH_1__または__TRILIUM_PH_2__パスワード__TRILIUM_PH_3__（どちらも任意）を設定し、__TRILIUM_PH_4__続行__TRILIUM_PH_5__を押します。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_8da5e4df3ae8e200d82e7bf3_0",
+      "kind": "li",
+      "source": "Press the __TRILIUM_PH_0__Generate and download__TRILIUM_PH_1__ button and wait for the download to complete.",
+      "sourceHash": "8da5e4df3ae8e200d82e7bf3bba4aa06a9c853aab55eec49b77805805f818174",
+      "context": "Backup > Creating a backup",
+      "contextHash": "31aec06b4548db916796664ae5a6a0832cdd165a1cc6382d1021b7d44c293e2c",
+      "status": "translated",
+      "active": true,
+      "translation": "__TRILIUM_PH_0__生成してダウンロード__TRILIUM_PH_1__ボタンを押し、ダウンロードが完了するまで待ちます。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_24229fc2813997e9b22191bc_0",
+      "kind": "li",
+      "source": "Once you confirm the download is saved on your device, press __TRILIUM_PH_0__Finish__TRILIUM_PH_1__ to complete",
+      "sourceHash": "24229fc2813997e9b22191bc2771c0ce791827f847c632b38d018311793b6ea0",
+      "context": "Backup > Creating a backup",
+      "contextHash": "31aec06b4548db916796664ae5a6a0832cdd165a1cc6382d1021b7d44c293e2c",
+      "status": "translated",
+      "active": true,
+      "translation": "ダウンロードしたファイルがデバイスに保存されていることを確認したら、__TRILIUM_PH_0__完了__TRILIUM_PH_1__を押して完了させます。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_264881885a6823349b2c26fa_0",
+      "kind": "h2",
+      "source": "Downloading a backup__TRILIUM_PH_0__",
+      "sourceHash": "264881885a6823349b2c26facc62a0f9014a5a79b86f989d8a4213a047412f7d",
+      "context": "Backup > Downloading a backup",
+      "contextHash": "44b93e60f88a16c41e16c408246e55f25abc0c9765011eedfa77c9787a5ca2a4",
+      "status": "translated",
+      "active": true,
+      "translation": "バックアップのダウンロード__TRILIUM_PH_0__",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_892415c77034f26e6025c8fd_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__Desktop and web client__TRILIUM_PH_1__: to download an existing backup, navigate to __TRILIUM_PH_2__Options__TRILIUM_PH_3__ → __TRILIUM_PH_4__Backup__TRILIUM_PH_5__ → __TRILIUM_PH_6__Existing backups__TRILIUM_PH_7__ and select __TRILIUM_PH_8__Download__TRILIUM_PH_9__ (__TRILIUM_PH_10__).",
+      "sourceHash": "892415c77034f26e6025c8fd5574a12a3741c94c333a08c251ca8cc9bbc3b3ad",
+      "context": "Backup > Downloading a backup",
+      "contextHash": "44b93e60f88a16c41e16c408246e55f25abc0c9765011eedfa77c9787a5ca2a4",
+      "status": "translated",
+      "active": true,
+      "translation": "__TRILIUM_PH_0__デスクトップおよびウェブクライアント__TRILIUM_PH_1__：既存のバックアップをダウンロードするには、__TRILIUM_PH_2__オプション__TRILIUM_PH_3__ → __TRILIUM_PH_4__バックアップ__TRILIUM_PH_5__ → __TRILIUM_PH_6__既存のバックアップ__TRILIUM_PH_7__に移動し、__TRILIUM_PH_8__ダウンロード__TRILIUM_PH_9__（__TRILIUM_PH_10__）を選択します。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_f8ff3b4908df2772501eb4a1_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__Standalone client__TRILIUM_PH_1__: automatic backups are not supported in this version. You can manually create and download a backup by going to __TRILIUM_PH_2__Options__TRILIUM_PH_3__ → __TRILIUM_PH_4__Backup__TRILIUM_PH_5__ → __TRILIUM_PH_6__Download backup__TRILIUM_PH_7__.",
+      "sourceHash": "f8ff3b4908df2772501eb4a12e320ea87aa93826b565ed7a5b751b0b4e55c1a9",
+      "context": "Backup > Downloading a backup",
+      "contextHash": "44b93e60f88a16c41e16c408246e55f25abc0c9765011eedfa77c9787a5ca2a4",
+      "status": "translated",
+      "active": true,
+      "translation": "__TRILIUM_PH_0__スタンドアロンクライアント__TRILIUM_PH_1__：このバージョンでは自動バックアップはサポートされていません。__TRILIUM_PH_2__オプション__TRILIUM_PH_3__ → __TRILIUM_PH_4__バックアップ__TRILIUM_PH_5__ → __TRILIUM_PH_6__バックアップのダウンロード__TRILIUM_PH_7__に移動して、手動でバックアップを作成およびダウンロードできます。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_f12a672c2fea8f37055fab8c_0",
+      "kind": "h2",
+      "source": "Restoring a backup__TRILIUM_PH_0__",
+      "sourceHash": "f12a672c2fea8f37055fab8c7ba271294e61821eb205602d57ca485f29345e64",
+      "context": "Backup > Restoring a backup",
+      "contextHash": "4374ae2476631567bbfb35726dd1e77fe67499c8947ed50cb49b56e38bf1deb9",
+      "status": "translated",
+      "active": true,
+      "translation": "バックアップの復元__TRILIUM_PH_0__",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_6410ce59379ba4c7f7cd8c40_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__For a new Trilium instance__TRILIUM_PH_1__: When setting up a new Trilium instance, use the __TRILIUM_PH_2__Restore from backup__TRILIUM_PH_3__ option in the setup menu to guide you through restoring your existing backup.",
+      "sourceHash": "6410ce59379ba4c7f7cd8c40a768a9ee49f9232791e0dbb56a499a56fb46f403",
+      "context": "Backup > Restoring a backup",
+      "contextHash": "4374ae2476631567bbfb35726dd1e77fe67499c8947ed50cb49b56e38bf1deb9",
+      "status": "translated",
+      "active": true,
+      "translation": "__TRILIUM_PH_0__新しいTriliumインスタンスの場合__TRILIUM_PH_1__：新しいTriliumインスタンスをセットアップする際、セットアップメニューの__TRILIUM_PH_2__バックアップから復元__TRILIUM_PH_3__オプションを使用すると、既存のバックアップの復元手順に沿って操作できます。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_f0d37ce9666df362e99bffd2_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__For an existing Trilium instance__TRILIUM_PH_1__: To restore a backup and replace your current database, go to __TRILIUM_PH_2__Options__TRILIUM_PH_3__ → __TRILIUM_PH_4__Backup__TRILIUM_PH_5__ and click __TRILIUM_PH_6__Restore a backup__TRILIUM_PH_7__. You will be prompted to restart the app for the restoration process to begin. After restarting, you can choose to back up the existing database before overwriting it. Note: For the web client, use the Start Over feature ( __TRILIUM_PH_8__Options__TRILIUM_PH_9__ → __TRILIUM_PH_10__Database__TRILIUM_PH_11__ → __TRILIUM_PH_12__Start over__TRILIUM_PH_13__ (__TRILIUM_PH_14__)) to switch to the setup screen and restore a backup.",
+      "sourceHash": "f0d37ce9666df362e99bffd23bc4e6ca494cf16ec6084f6ed571de5e07dce95c",
+      "context": "Backup > Restoring a backup",
+      "contextHash": "4374ae2476631567bbfb35726dd1e77fe67499c8947ed50cb49b56e38bf1deb9",
+      "status": "translated",
+      "active": true,
+      "translation": "__TRILIUM_PH_0__既存のTriliumインスタンスの場合__TRILIUM_PH_1__：バックアップを復元して現在のデータベースを置き換えるには、__TRILIUM_PH_2__オプション__TRILIUM_PH_3__ → __TRILIUM_PH_4__バックアップ__TRILIUM_PH_5__に移動し、__TRILIUM_PH_6__バックアップの復元__TRILIUM_PH_7__をクリックします。復元プロセスを開始するためにアプリの再起動を求めるプロンプトが表示されます。再起動後、既存のデータベースを上書きする前にバックアップを作成するかどうかを選択できます。注意：ウェブクライアントの場合は、最初からやり直す機能（__TRILIUM_PH_8__オプション__TRILIUM_PH_9__ → __TRILIUM_PH_10__データベース__TRILIUM_PH_11__ → __TRILIUM_PH_12__最初からやり直す__TRILIUM_PH_13__（__TRILIUM_PH_14__））を使用してセットアップ画面に切り替え、バックアップを復元してください。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_dd7a6c08e9b78338607cd0ff_0",
+      "kind": "p",
+      "source": "Next, select the backup file (.db or .tnbackup) from your device. The web client is optimized for handling large backups and is resilient to unstable network conditions, similar to the desktop application.",
+      "sourceHash": "dd7a6c08e9b78338607cd0ff3bfaba4d651d7ca4c5d36df7a356557a39ba67fa",
+      "context": "Backup > Restoring a backup",
+      "contextHash": "4374ae2476631567bbfb35726dd1e77fe67499c8947ed50cb49b56e38bf1deb9",
+      "status": "translated",
+      "active": true,
+      "translation": "次に、デバイスからバックアップファイル（.dbまたは.tnbackup）を選択します。ウェブクライアントは、デスクトップアプリケーションと同様に、大規模なバックアップの処理に最適化されており、不安定なネットワーク環境に対しても耐性があります。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_0d49521d7fd5b1348e133ea9_0",
+      "kind": "p",
+      "source": "If your database is encrypted, you will be prompted to enter the password used for encrypting the backup file. Without the correct password, decryption and restoration cannot proceed.",
+      "sourceHash": "0d49521d7fd5b1348e133ea9f29bd2f35b0b3441b1d98ad4a66ed7c658e6f643",
+      "context": "Backup > Restoring a backup",
+      "contextHash": "4374ae2476631567bbfb35726dd1e77fe67499c8947ed50cb49b56e38bf1deb9",
+      "status": "translated",
+      "active": true,
+      "translation": "データベースが暗号化されている場合は、バックアップファイルの暗号化に使用したパスワードの入力を求められます。正しいパスワードがないと、復号と復元を進めることはできません。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_f8fe78fa710fa7ae48c5e91d_0",
+      "kind": "p",
+      "source": "Restoring a backup may take some time, depending on its size. Once it completes, Trilium will open the freshly restored database.",
+      "sourceHash": "f8fe78fa710fa7ae48c5e91dfa0bbcb63328d94e28c35cd037a8dd75affe5a8c",
+      "context": "Backup > Restoring a backup",
+      "contextHash": "4374ae2476631567bbfb35726dd1e77fe67499c8947ed50cb49b56e38bf1deb9",
+      "status": "translated",
+      "active": true,
+      "translation": "バックアップの復元には、そのサイズに応じて時間がかかる場合があります。完了すると、Triliumは新しく復元されたデータベースを開きます。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_66c49d7195d5645db9bdf54b_0",
+      "kind": "h3",
+      "source": "The alternative way for restoring a backup__TRILIUM_PH_0__",
+      "sourceHash": "66c49d7195d5645db9bdf54b6c12c5104515a5220e8bd3a2f8f8d26f060ac755",
+      "context": "Backup > Restoring a backup > The alternative way for restoring a backup",
+      "contextHash": "788621b73c5746f1705a97a3649ae82ee520fed24345c6a894bc130dbdbca4c0",
+      "status": "translated",
+      "active": true,
+      "translation": "バックアップを復元する別の方法__TRILIUM_PH_0__",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_fb1c3fd2edf420d7109114f5_0",
+      "kind": "p",
+      "source": "Let's assume you want to restore the weekly backup (only in .db format, .tnbackup files are not supported by this method), here's how to do it:",
+      "sourceHash": "fb1c3fd2edf420d7109114f5f2cf3304c5feef63ca08ae0759f2bb809f9d5621",
+      "context": "Backup > Restoring a backup > The alternative way for restoring a backup",
+      "contextHash": "788621b73c5746f1705a97a3649ae82ee520fed24345c6a894bc130dbdbca4c0",
+      "status": "translated",
+      "active": true,
+      "translation": "週次バックアップを復元したい場合（.db形式のみ、.tnbackupファイルはこの方法ではサポートされていません）の手順は以下の通りです：",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_f81726320fb3bdcb0420f24e_0",
+      "kind": "li",
+      "source": "find __TRILIUM_PH_0__data directory__TRILIUM_PH_1__ Trilium uses - easy way is to open \"About Trilium Notes\" (__TRILIUM_PH_2__) from \"Menu\" in upper left corner and looking at \"data directory\"",
+      "sourceHash": "f81726320fb3bdcb0420f24eb3634a647e014f8b7fc397caa7f58e1cbdbce89c",
+      "context": "Backup > Restoring a backup > The alternative way for restoring a backup",
+      "contextHash": "788621b73c5746f1705a97a3649ae82ee520fed24345c6a894bc130dbdbca4c0",
+      "status": "translated",
+      "active": true,
+      "translation": "Triliumが使用している__TRILIUM_PH_0__データディレクトリ__TRILIUM_PH_1__を見つけます。簡単な方法は、左上の「メニュー」から「Trilium Notesについて」（__TRILIUM_PH_2__）を開き、「データディレクトリ」を確認することです。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_16ee131f79d2950dd85b3439_0",
+      "kind": "li",
+      "source": "I'll refer to __TRILIUM_PH_0__ as data directory from now on",
+      "sourceHash": "16ee131f79d2950dd85b3439736ca6bd76d8c8d7f8d228bf3bab5e9813bfefe8",
+      "context": "Backup > Restoring a backup > The alternative way for restoring a backup",
+      "contextHash": "788621b73c5746f1705a97a3649ae82ee520fed24345c6a894bc130dbdbca4c0",
+      "status": "translated",
+      "active": true,
+      "translation": "今後、__TRILIUM_PH_0__ をデータディレクトリと呼びます",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_016574d001b772372cf66910_0",
+      "kind": "li",
+      "source": "find __TRILIUM_PH_0__ - this is the __TRILIUM_PH_1__Database__TRILIUM_PH_2__ backup.",
+      "sourceHash": "016574d001b772372cf669102173aefde37a917a1a1b4bf5c111090f11943b6d",
+      "context": "Backup > Restoring a backup > The alternative way for restoring a backup",
+      "contextHash": "788621b73c5746f1705a97a3649ae82ee520fed24345c6a894bc130dbdbca4c0",
+      "status": "translated",
+      "active": true,
+      "translation": "__TRILIUM_PH_0__ を見つけてください - これは __TRILIUM_PH_1__Database__TRILIUM_PH_2__ のバックアップです。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_c058caf1c99be33a6d4c7796_0",
+      "kind": "li",
+      "source": "at this point stop/kill Trilium",
+      "sourceHash": "c058caf1c99be33a6d4c77961a29105184191726b615465abc770609b7585c4a",
+      "context": "Backup > Restoring a backup > The alternative way for restoring a backup",
+      "contextHash": "788621b73c5746f1705a97a3649ae82ee520fed24345c6a894bc130dbdbca4c0",
+      "status": "translated",
+      "active": true,
+      "translation": "この時点でTriliumを停止/終了します",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_2fcdb18c590e3e631bf8ad80_0",
+      "kind": "li",
+      "source": "delete __TRILIUM_PH_0__, __TRILIUM_PH_1__ and __TRILIUM_PH_2__ (latter two files are auto generated)",
+      "sourceHash": "2fcdb18c590e3e631bf8ad80bc3fc61367cc2714ecf4194609f437b353c25aef",
+      "context": "Backup > Restoring a backup > The alternative way for restoring a backup",
+      "contextHash": "788621b73c5746f1705a97a3649ae82ee520fed24345c6a894bc130dbdbca4c0",
+      "status": "translated",
+      "active": true,
+      "translation": "__TRILIUM_PH_0__、__TRILIUM_PH_1__、__TRILIUM_PH_2__ を削除します（後の2つのファイルは自動生成されます）",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_0ed785096da435b558bcb389_0",
+      "kind": "li",
+      "source": "copy and rename this __TRILIUM_PH_0__ to __TRILIUM_PH_1__",
+      "sourceHash": "0ed785096da435b558bcb389f0ac742eb195539eb3ef29a0a48a48ce4d239820",
+      "context": "Backup > Restoring a backup > The alternative way for restoring a backup",
+      "contextHash": "788621b73c5746f1705a97a3649ae82ee520fed24345c6a894bc130dbdbca4c0",
+      "status": "translated",
+      "active": true,
+      "translation": "この __TRILIUM_PH_0__ をコピーし、__TRILIUM_PH_1__ に名前を変更します",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_befe17d93d35680207eded59_0",
+      "kind": "li",
+      "source": "make sure that the file is writable, e.g. with __TRILIUM_PH_0__",
+      "sourceHash": "befe17d93d35680207eded595fbac6efcb6d3aa7c708351b8356b6101f25da8d",
+      "context": "Backup > Restoring a backup > The alternative way for restoring a backup",
+      "contextHash": "788621b73c5746f1705a97a3649ae82ee520fed24345c6a894bc130dbdbca4c0",
+      "status": "translated",
+      "active": true,
+      "translation": "例えば __TRILIUM_PH_0__ を使用するなどして、ファイルが書き込み可能であることを確認してください",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_8f82d5942188cbbb1c0e84c7_0",
+      "kind": "li",
+      "source": "start Trilium again",
+      "sourceHash": "8f82d5942188cbbb1c0e84c77687b8091ebe51138a5700897f0bff29dbfb527b",
+      "context": "Backup > Restoring a backup > The alternative way for restoring a backup",
+      "contextHash": "788621b73c5746f1705a97a3649ae82ee520fed24345c6a894bc130dbdbca4c0",
+      "status": "translated",
+      "active": true,
+      "translation": "Triliumを再度起動します",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_a81c29e6df34e59b68fea918_0",
+      "kind": "p",
+      "source": "If you have configured sync then you need to do it across all members of the sync cluster, otherwise older version (restored backup) of the document will be detected and synced to the newer version.",
+      "sourceHash": "a81c29e6df34e59b68fea91871174748520e9ab061d6377875698919f032d5d3",
+      "context": "Backup > Restoring a backup > The alternative way for restoring a backup",
+      "contextHash": "788621b73c5746f1705a97a3649ae82ee520fed24345c6a894bc130dbdbca4c0",
+      "status": "translated",
+      "active": true,
+      "translation": "同期を設定している場合は、同期クラスターのすべてのメンバーでこれを実行する必要があります。そうしないと、ドキュメントの古いバージョン（復元されたバックアップ）が検出され、新しいバージョンに同期されてしまいます。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_c61c5699b757dba6ba7564f1_0",
+      "kind": "h2",
+      "source": "Changing the backup location in Trilium (desktop only)__TRILIUM_PH_0__",
+      "sourceHash": "c61c5699b757dba6ba7564f11fc0af9af6f94bfad3f3f7a516ffa93d4d2619f2",
+      "context": "Backup > Changing the backup location in Trilium (desktop only)",
+      "contextHash": "978a1718bfe172e2651e517b5c4eadd11a927a26cdd95963d345544ab0902fc9",
+      "status": "translated",
+      "active": true,
+      "translation": "Triliumでのバックアップ先の変更（デスクトップ版のみ）__TRILIUM_PH_0__",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_e48f573f5f76cccc3c73ee1e_0",
+      "kind": "p",
+      "source": "Starting with version 0.105, the Trilium desktop client allows users to change the directory where backups are stored. Follow these steps to specify a custom backup directory:",
+      "sourceHash": "e48f573f5f76cccc3c73ee1e73d1c573bb43cb9bf8e6a0a74303772c67790573",
+      "context": "Backup > Changing the backup location in Trilium (desktop only)",
+      "contextHash": "978a1718bfe172e2651e517b5c4eadd11a927a26cdd95963d345544ab0902fc9",
+      "status": "translated",
+      "active": true,
+      "translation": "バージョン 0.105 以降、Trilium デスクトップクライアントではバックアップの保存先ディレクトリを変更できるようになりました。カスタムバックアップディレクトリを指定するには、次の手順に従います。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_7b8b0c06e0f43a1e9e587ca9_0",
+      "kind": "li",
+      "source": "Navigate to __TRILIUM_PH_0__Options__TRILIUM_PH_1__ → __TRILIUM_PH_2__Backup__TRILIUM_PH_3__ → __TRILIUM_PH_4__Backup location__TRILIUM_PH_5__.",
+      "sourceHash": "7b8b0c06e0f43a1e9e587ca9697d207b981e056794808ea9723374f98318036c",
+      "context": "Backup > Changing the backup location in Trilium (desktop only)",
+      "contextHash": "978a1718bfe172e2651e517b5c4eadd11a927a26cdd95963d345544ab0902fc9",
+      "status": "translated",
+      "active": true,
+      "translation": "__TRILIUM_PH_0__Options__TRILIUM_PH_1__ → __TRILIUM_PH_2__Backup__TRILIUM_PH_3__ → __TRILIUM_PH_4__Backup location__TRILIUM_PH_5__ に移動します。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_2fc8141763e941a89e1d572d_0",
+      "kind": "li",
+      "source": "Click the __TRILIUM_PH_0__Select location__TRILIUM_PH_1__ button.",
+      "sourceHash": "2fc8141763e941a89e1d572d3415db142a84ef0ca1ddcb76f3121998f82b449b",
+      "context": "Backup > Changing the backup location in Trilium (desktop only)",
+      "contextHash": "978a1718bfe172e2651e517b5c4eadd11a927a26cdd95963d345544ab0902fc9",
+      "status": "translated",
+      "active": true,
+      "translation": "__TRILIUM_PH_0__Select location__TRILIUM_PH_1__ ボタンをクリックします。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_ba7049d639e725863db64a0f_0",
+      "kind": "li",
+      "source": "Choose any writable directory on your file system. This could include network shares, depending on your operating system.",
+      "sourceHash": "ba7049d639e725863db64a0f5fc08c3b0d30b669d221ccea3aa2b4a8958ed683",
+      "context": "Backup > Changing the backup location in Trilium (desktop only)",
+      "contextHash": "978a1718bfe172e2651e517b5c4eadd11a927a26cdd95963d345544ab0902fc9",
+      "status": "translated",
+      "active": true,
+      "translation": "ファイルシステム上の書き込み可能なディレクトリを任意に選択します。オペレーティングシステムによっては、ネットワーク共有なども含まれる場合があります。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_508294a83d8e150f0cab836d_0",
+      "kind": "p",
+      "source": "Once you set a custom directory, all manual and automatic backups will be saved there. If the selected directory becomes unavailable, backups may fail or revert to the default location.",
+      "sourceHash": "508294a83d8e150f0cab836d24b045d7450c06504331f46a0c964388e5a2afc8",
+      "context": "Backup > Changing the backup location in Trilium (desktop only)",
+      "contextHash": "978a1718bfe172e2651e517b5c4eadd11a927a26cdd95963d345544ab0902fc9",
+      "status": "translated",
+      "active": true,
+      "translation": "カスタムディレクトリを設定すると、手動および自動のバックアップはすべてそこに保存されます。選択したディレクトリが利用できなくなった場合、バックアップが失敗したり、デフォルトの場所にフォールバックしたりする可能性があります。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_949bf804be0b3d51f648ae7e_0",
+      "kind": "p",
+      "source": "For better privacy when using unsafe backup locations, you can enable backup encryption, which makes the backup file unreadable without the correct password.",
+      "sourceHash": "949bf804be0b3d51f648ae7e1598a3fb8c4fea54778dd6fe5f73f8213ea479e2",
+      "context": "Backup > Changing the backup location in Trilium (desktop only)",
+      "contextHash": "978a1718bfe172e2651e517b5c4eadd11a927a26cdd95963d345544ab0902fc9",
+      "status": "translated",
+      "active": true,
+      "translation": "安全ではないバックアップ先を使用する際にプライバシーを向上させるため、バックアップ暗号化を有効にすることができます。これにより、正しいパスワードなしではバックアップファイルを読み取れなくなります。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_c68a0b6fc6116a914b3334eb_0",
+      "kind": "h2",
+      "source": "Backup encryption__TRILIUM_PH_0__",
+      "sourceHash": "c68a0b6fc6116a914b3334eb215b607d0b14dba3534ecb55d9e9c449b64f3555",
+      "context": "Backup > Backup encryption",
+      "contextHash": "6a9b308bd8a3194885ed0477c6d538ba26df549deea4cd6b0f45ae130dcc51a8",
+      "status": "translated",
+      "active": true,
+      "translation": "バックアップの暗号化__TRILIUM_PH_0__",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_a12fa8fe0154d24c12e234ef_0",
+      "kind": "p",
+      "source": "Trilium can secure the entire content of the database backup, ensuring it remains unreadable unless the correct password is provided. This is particularly useful for storing backups in unsecured locations, like network shares, unencrypted external drives, or cloud services. ",
+      "sourceHash": "a12fa8fe0154d24c12e234ef45aa89a0b009e331398798e26cb51862bdc4718b",
+      "context": "Backup > Backup encryption",
+      "contextHash": "6a9b308bd8a3194885ed0477c6d538ba26df549deea4cd6b0f45ae130dcc51a8",
+      "status": "translated",
+      "active": true,
+      "translation": "Triliumではデータベースのバックアップの内容全体を保護できるため、正しいパスワードが入力されない限り読み取れない状態に保つことができます。これは、ネットワーク共有、暗号化されていない外付けドライブ、クラウドサービスなどの安全性の低い場所にバックアップを保存する場合に特に役立ちます。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_04137c67acceda4f5e84d91f_0",
+      "kind": "p",
+      "source": "Encrypted database backups use the Trilium Backup Container (.tnbackup) format, which relies on AES-256-GCM. This authenticated encryption mode scrambles the data and generates a tag confirming it hasn't been altered. The password itself isn't directly used as the key; it's processed through scrypt, a key derivation function designed to be slow and memory-intensive, making brute-force password guessing difficult even with powerful hardware. Each backup also receives a random 16-byte salt, ensuring that the same password never produces the same encryption key twice. Additionally, critical metadata such as chunk order, length, and header flags are cryptographically bound into the encryption (via \"additional authenticated data\"), preventing undetected tampering like reorder, truncate, or splice operations.",
+      "sourceHash": "04137c67acceda4f5e84d91f9a6fb86b1d73fa2bd487f3084a3477837f9ba8d0",
+      "context": "Backup > Backup encryption",
+      "contextHash": "6a9b308bd8a3194885ed0477c6d538ba26df549deea4cd6b0f45ae130dcc51a8",
+      "status": "translated",
+      "active": true,
+      "translation": "暗号化されたデータベースバックアップには、AES-256-GCMを採用したTrilium Backup Container（.tnbackup）フォーマットが使用されます。この認証付き暗号化モードはデータをスクランブルし、データが改ざんされていないことを確認するタグを生成します。パスワード自体が直接キーとして使用されることはなく、低速かつメモリ集約型になるよう設計された鍵導出関数であるscryptによって処理されるため、強力なハードウェアを使用した場合でも、総当たり攻撃によるパスワードの推測が困難になります。また、各バックアップには16バイトのランダムなソルトが割り当てられ、同じパスワードから同じ暗号化キーが2度生成されないようになっています。さらに、チャンクの順序、長さ、ヘッダーフラグなどの重要なメタデータは、「追加の認証データ（additional authenticated data）」を介して暗号化に暗号学的に結び付けられており、順序の変更、切り詰め、スプライシング操作などの検出されない改ざんを防ぎます。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_4785d8815b3b05f637114270_0",
+      "kind": "h3",
+      "source": "Enabling backup encryption__TRILIUM_PH_0__",
+      "sourceHash": "4785d8815b3b05f637114270f62a8a7bf7833fde912726ee920d8053b270ff79",
+      "context": "Backup > Backup encryption > Enabling backup encryption",
+      "contextHash": "c7f9b7a541ce25e4efd358634e71d10555219f878c5255471b17f0638098bf1a",
+      "status": "translated",
+      "active": true,
+      "translation": "バックアップ暗号化の有効化__TRILIUM_PH_0__",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_312bdb23b51ea15eb9be5a12_0",
+      "kind": "p",
+      "source": "To enable encryption for automatic backups in the Desktop application:",
+      "sourceHash": "312bdb23b51ea15eb9be5a12ec8c185253adb9fc9ecc29609821f1b9472327cd",
+      "context": "Backup > Backup encryption > Enabling backup encryption",
+      "contextHash": "c7f9b7a541ce25e4efd358634e71d10555219f878c5255471b17f0638098bf1a",
+      "status": "translated",
+      "active": true,
+      "translation": "デスクトップアプリケーションで自動バックアップの暗号化を有効にするには：",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_07eb4d7ed042457ad071b840_0",
+      "kind": "li",
+      "source": "Go to __TRILIUM_PH_0__Options__TRILIUM_PH_1__ → __TRILIUM_PH_2__Backup__TRILIUM_PH_3__ → __TRILIUM_PH_4__Backup options__TRILIUM_PH_5__.",
+      "sourceHash": "07eb4d7ed042457ad071b840fe2b48baf6cd20856aa709de71a9ba810677fe8d",
+      "context": "Backup > Backup encryption > Enabling backup encryption",
+      "contextHash": "c7f9b7a541ce25e4efd358634e71d10555219f878c5255471b17f0638098bf1a",
+      "status": "translated",
+      "active": true,
+      "translation": "__TRILIUM_PH_0__オプション__TRILIUM_PH_1__ → __TRILIUM_PH_2__バックアップ__TRILIUM_PH_3__ → __TRILIUM_PH_4__バックアップオプション__TRILIUM_PH_5__ に移動します。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_739f92b8221211abb5a66260_0",
+      "kind": "li",
+      "source": "Click on __TRILIUM_PH_0__Turn on encryption__TRILIUM_PH_1__ and set a password.",
+      "sourceHash": "739f92b8221211abb5a662604731f78049c46bf8828c256e45d2abb07c14bbd6",
+      "context": "Backup > Backup encryption > Enabling backup encryption",
+      "contextHash": "c7f9b7a541ce25e4efd358634e71d10555219f878c5255471b17f0638098bf1a",
+      "status": "translated",
+      "active": true,
+      "translation": "__TRILIUM_PH_0__暗号化を有効にする__TRILIUM_PH_1__をクリックし、パスワードを設定します。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_17e59aa996bbb6e4db048c74_0",
+      "kind": "p",
+      "source": "Once encryption is enabled, all newly created backups (both automatic and manual) will be encrypted with the specified password. Backups created prior to enabling encryption will remain unsecured.",
+      "sourceHash": "17e59aa996bbb6e4db048c74a150005f86a2784299330356d0aac8ae2fb02161",
+      "context": "Backup > Backup encryption > Enabling backup encryption",
+      "contextHash": "c7f9b7a541ce25e4efd358634e71d10555219f878c5255471b17f0638098bf1a",
+      "status": "translated",
+      "active": true,
+      "translation": "暗号化を有効にすると、新しく作成されるすべてのバックアップ（自動および手動の両方）が指定したパスワードで暗号化されます。暗号化を有効にする前に作成されたバックアップは、保護されていないままになります。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_c5d2a3a71a8574d176b55e91_0",
+      "kind": "p",
+      "source": "You can change the password anytime using the __TRILIUM_PH_0__Change password__TRILIUM_PH_1__ button. The new password will apply to backups created after the change.",
+      "sourceHash": "c5d2a3a71a8574d176b55e911c9b62f1d7a0dba46dfaff95f678a17dafcc5051",
+      "context": "Backup > Backup encryption > Enabling backup encryption",
+      "contextHash": "c7f9b7a541ce25e4efd358634e71d10555219f878c5255471b17f0638098bf1a",
+      "status": "translated",
+      "active": true,
+      "translation": "__TRILIUM_PH_0__パスワードの変更__TRILIUM_PH_1__ボタンを使用して、いつでもパスワードを変更できます。新しいパスワードは、変更後に作成されたバックアップに適用されます。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_d1bd42fcb6e8a60c60a22439_0",
+      "kind": "p",
+      "source": "To disable encryption, uncheck __TRILIUM_PH_0__Options__TRILIUM_PH_1__ → __TRILIUM_PH_2__Backup__TRILIUM_PH_3__ → __TRILIUM_PH_4__Enable encryption__TRILIUM_PH_5__.",
+      "sourceHash": "d1bd42fcb6e8a60c60a22439473ec724e91d6febd3ecb4bd9446b3fdbd12b171",
+      "context": "Backup > Backup encryption > Enabling backup encryption",
+      "contextHash": "c7f9b7a541ce25e4efd358634e71d10555219f878c5255471b17f0638098bf1a",
+      "status": "translated",
+      "active": true,
+      "translation": "暗号化を無効にするには、__TRILIUM_PH_0__オプション__TRILIUM_PH_1__ → __TRILIUM_PH_2__バックアップ__TRILIUM_PH_3__ → __TRILIUM_PH_4__暗号化を有効にする__TRILIUM_PH_5__のチェックを外します。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_9a84515e5215cca0e132d1dd_0",
+      "kind": "p",
+      "source": "On some systems, a keyring may not be available for Trilium to securely store the encryption password. In such cases, the encryption option is disabled.",
+      "sourceHash": "9a84515e5215cca0e132d1ddba57c255a865ecdec4b04891338b983b440af01d",
+      "context": "Backup > Backup encryption > Enabling backup encryption",
+      "contextHash": "c7f9b7a541ce25e4efd358634e71d10555219f878c5255471b17f0638098bf1a",
+      "status": "translated",
+      "active": true,
+      "translation": "システムによっては、Triliumが暗号化パスワードを安全に保存するためのキーリングを利用できない場合があります。このような場合、暗号化オプションは無効になります。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_6a110cdcde27c834f330cd09_0",
+      "kind": "h2",
+      "source": "Backup compression__TRILIUM_PH_0__",
+      "sourceHash": "6a110cdcde27c834f330cd09bcca311ced59f739461193aea363d100b42ea2f0",
+      "context": "Backup > Backup compression",
+      "contextHash": "ef2be6d46c93d09a4051bf18f811fe3fa7beb764d3c4dbe4a9aa850b35b541de",
+      "status": "translated",
+      "active": true,
+      "translation": "バックアップの圧縮__TRILIUM_PH_0__",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_f551330419297fbbfbd2cb2c_0",
+      "kind": "p",
+      "source": "Database backups can be optionally compressed to minimize storage footprint. This method is effective primarily when the database consists largely of text content. However, media files (images, videos, audio), along with PDF, ODF, and DOCX files, are already compressed in their original formats and won't benefit from further compression.",
+      "sourceHash": "f551330419297fbbfbd2cb2c2001eb54033d06f8f47340471702351c8c1d8905",
+      "context": "Backup > Backup compression",
+      "contextHash": "ef2be6d46c93d09a4051bf18f811fe3fa7beb764d3c4dbe4a9aa850b35b541de",
+      "status": "translated",
+      "active": true,
+      "translation": "ストレージフットプリントを最小限に抑えるため、データベースのバックアップをオプションで圧縮できます。この方法は、主にデータベースがテキストコンテンツで構成されている場合に効果的です。ただし、メディアファイル（画像、動画、音声）やPDF、ODF、DOCXファイルは、元のフォーマットですでに圧縮されているため、さらに圧縮しても効果はありません。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_30d2ae29c7d42d64d60b092c_0",
+      "kind": "p",
+      "source": "Compressed backups are stored using the Trilium Backup Container (.tnbackup), employing RFC 1952 GZIP compression.",
+      "sourceHash": "30d2ae29c7d42d64d60b092cf044de3647706ef859b8c5e375b3b86cb68fef8b",
+      "context": "Backup > Backup compression",
+      "contextHash": "ef2be6d46c93d09a4051bf18f811fe3fa7beb764d3c4dbe4a9aa850b35b541de",
+      "status": "translated",
+      "active": true,
+      "translation": "圧縮されたバックアップは、RFC 1952 GZIP圧縮を採用したTrilium Backup Container（.tnbackup）を使用して保存されます。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_64e7624e18a9fd9e08a200c3_0",
+      "kind": "p",
+      "source": "__TRILIUM_PH_0__Note:__TRILIUM_PH_1__ Compression increases the time required for backup creation and restoration. It may also lead to higher CPU usage during automatic backups, potentially draining the battery faster on battery-powered devices. Enable this option only if necessary.",
+      "sourceHash": "64e7624e18a9fd9e08a200c30ed36b6ea0cc428ea20a9a7b1076d53276abfbb1",
+      "context": "Backup > Backup compression",
+      "contextHash": "ef2be6d46c93d09a4051bf18f811fe3fa7beb764d3c4dbe4a9aa850b35b541de",
+      "status": "translated",
+      "active": true,
+      "translation": "__TRILIUM_PH_0__注意：__TRILIUM_PH_1__圧縮を行うと、バックアップの作成と復元に必要な時間が増加します。また、自動バックアップ中のCPU使用率が高くなり、バッテリー駆動のデバイスではバッテリーの消耗が早くなる可能性があります。このオプションは必要な場合にのみ有効にしてください。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_bbb6be080e85033c4e7a16c7_0",
+      "kind": "h3",
+      "source": "Enabling Backup Compression (Desktop Only)__TRILIUM_PH_0__",
+      "sourceHash": "bbb6be080e85033c4e7a16c73145b92860b9e8d1bfb1592e52da152fed28f831",
+      "context": "Backup > Backup compression > Enabling Backup Compression (Desktop Only)",
+      "contextHash": "e867ebbb097de7267c0f35f80294de952047f6efcd8d784dc324516c1850b1ec",
+      "status": "translated",
+      "active": true,
+      "translation": "バックアップ圧縮の有効化（デスクトップ版のみ）__TRILIUM_PH_0__",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_a2666ba0acf4a2eca5a5a89c_0",
+      "kind": "p",
+      "source": "To enable compression for new automatic and manual backups, navigate to __TRILIUM_PH_0__Options__TRILIUM_PH_1__ → __TRILIUM_PH_2__Backup__TRILIUM_PH_3__ → __TRILIUM_PH_4__Backup options__TRILIUM_PH_5__ and toggle __TRILIUM_PH_6__Enable compression__TRILIUM_PH_7__ to on.",
+      "sourceHash": "a2666ba0acf4a2eca5a5a89cb5a116cefafcdf24a12371424fc55f61b00f3a5a",
+      "context": "Backup > Backup compression > Enabling Backup Compression (Desktop Only)",
+      "contextHash": "e867ebbb097de7267c0f35f80294de952047f6efcd8d784dc324516c1850b1ec",
+      "status": "translated",
+      "active": true,
+      "translation": "新規の自動および手動バックアップの圧縮を有効にするには、__TRILIUM_PH_0__オプション__TRILIUM_PH_1__ → __TRILIUM_PH_2__バックアップ__TRILIUM_PH_3__ → __TRILIUM_PH_4__バックアップオプション__TRILIUM_PH_5__に移動し、__TRILIUM_PH_6__圧縮を有効にする__TRILIUM_PH_7__をオンに切り替えます。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_71d84a2b30f1956311152d1d_0",
+      "kind": "h2",
+      "source": "Disabling backup__TRILIUM_PH_0__",
+      "sourceHash": "71d84a2b30f1956311152d1d80d13d14588e5d443bff1bf4dea7040ca2d37bb2",
+      "context": "Backup > Disabling backup",
+      "contextHash": "a85232196805b7c37599b64cb17758e99b9e057c9263baceccefec780ad9ef45",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_8edbf308342673be4362f39a_0",
+      "kind": "p",
+      "source": "Although this is not recommended, it is possible to disable backup in __TRILIUM_PH_0__ in the __TRILIUM_PH_1__data directory__TRILIUM_PH_2__:",
+      "sourceHash": "8edbf308342673be4362f39a17a4dbd7ab99246f6b91f82d44602bf0aa3b68ad",
+      "context": "Backup > Disabling backup",
+      "contextHash": "a85232196805b7c37599b64cb17758e99b9e057c9263baceccefec780ad9ef45",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_0742e02d1ae250c49a2ce0ee_0",
+      "kind": "p",
+      "source": "You can also review the __TRILIUM_PH_0__configuration__TRILIUM_PH_1__ file to provide all __TRILIUM_PH_2__ values as environment variables instead.",
+      "sourceHash": "0742e02d1ae250c49a2ce0eef0077512cae82542a2c25e4bf0b5da038725759e",
+      "context": "Backup > Disabling backup",
+      "contextHash": "a85232196805b7c37599b64cb17758e99b9e057c9263baceccefec780ad9ef45",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_0a581ac23a82b56fe1ea8ebc_0",
+      "kind": "p",
+      "source": "See __TRILIUM_PH_0__sample config__TRILIUM_PH_1__.",
+      "sourceHash": "0a581ac23a82b56fe1ea8ebc2bdb31989e5010b82370871d6d15badff8238a26",
+      "context": "Backup > Disabling backup",
+      "contextHash": "a85232196805b7c37599b64cb17758e99b9e057c9263baceccefec780ad9ef45",
+      "status": "pending",
+      "active": true
+    }
+  ],
+  "requests": [
+    {
+      "at": "2026-11-14T11:28:45.803Z",
+      "model": "gemini-3.5-flash-lite",
+      "batchJob": "batches/02spwqy837h8pi7qzqmeo4fgsqo7bgs45hwh",
+      "requestKey": "ODY7qQn5m2FT_8209873bd862b3cc",
+      "modelVersion": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 1891,
+        "candidatesTokenCount": 1474,
+        "totalTokenCount": 3365,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 1891
+          }
+        ],
+        "serviceTier": "standard"
+      }
+    },
+    {
+      "at": "2026-11-14T11:28:45.803Z",
+      "model": "gemini-3.5-flash-lite",
+      "batchJob": "batches/02spwqy837h8pi7qzqmeo4fgsqo7bgs45hwh",
+      "requestKey": "ODY7qQn5m2FT_62552cc08e5c974a",
+      "modelVersion": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 1507,
+        "candidatesTokenCount": 1020,
+        "totalTokenCount": 2527,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 1507
+          }
+        ],
+        "serviceTier": "standard"
+      }
+    },
+    {
+      "at": "2026-11-14T11:28:45.803Z",
+      "model": "gemini-3.5-flash-lite",
+      "batchJob": "batches/02spwqy837h8pi7qzqmeo4fgsqo7bgs45hwh",
+      "requestKey": "ODY7qQn5m2FT_8a2a0add8908c510",
+      "modelVersion": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 1755,
+        "candidatesTokenCount": 1420,
+        "totalTokenCount": 3175,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 1755
+          }
+        ],
+        "serviceTier": "standard"
+      }
+    }
+  ]
+}

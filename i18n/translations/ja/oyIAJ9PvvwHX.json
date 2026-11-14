@@ -1,0 +1,239 @@
+{
+  "schemaVersion": 1,
+  "pageId": "oyIAJ9PvvwHX",
+  "sourceFile": "docs/User Guide/User Guide/Advanced Usage/Database/Manually altering the database.md",
+  "sourceRevision": "03d17b60f59b5efc29b880b11481471d0fe0ff57",
+  "units": [
+    {
+      "id": "u_cd4e9dc3a7cc78d7fc358bc2_0",
+      "kind": "title",
+      "source": "Manually altering the database",
+      "sourceHash": "cd4e9dc3a7cc78d7fc358bc25fb2c7e94c090600af77b3c6d8751e33ff3cda92",
+      "context": "Manually altering the database",
+      "contextHash": "16db5bd520a99a18a861db6cd96a95eb772af891831a44bad1f09e448b13a9ae",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_d7bf8917b2c4076535d0117e_0",
+      "kind": "p",
+      "source": "There are some situations where modifying the SQLite database that Trilium uses is desirable.",
+      "sourceHash": "d7bf8917b2c4076535d0117e53f7adf9ef7557d307509e0fb0170727554a0920",
+      "context": "Manually altering the database",
+      "contextHash": "16db5bd520a99a18a861db6cd96a95eb772af891831a44bad1f09e448b13a9ae",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_d9d93352aad890102f8398a0_0",
+      "kind": "p",
+      "source": "If you are doing any advanced development or troubleshooting where you manually modify the database, you might want to consider creating backups of your __TRILIUM_PH_0__ file.",
+      "sourceHash": "d9d93352aad890102f8398a07b364c2d630d8daab4c25a49be808c21a2c09989",
+      "context": "Manually altering the database",
+      "contextHash": "16db5bd520a99a18a861db6cd96a95eb772af891831a44bad1f09e448b13a9ae",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_bb7a5695c8e6d6fc2f1e2407_0",
+      "kind": "h2",
+      "source": "Modifying it internally using the SQL Console__TRILIUM_PH_0__",
+      "sourceHash": "bb7a5695c8e6d6fc2f1e2407f87151fde63b0834a3f927f52916807cbaadbdd7",
+      "context": "Manually altering the database > Modifying it internally using the SQL Console",
+      "contextHash": "7217e166e7540881722b801a72e869c56c35cee564d267efec25638ea19d5eb3",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_e4ce69274e14da2827053512_0",
+      "kind": "p",
+      "source": "The SQL Console is Trilium's built-in database editor.",
+      "sourceHash": "e4ce69274e14da2827053512ecbf166fb362bbb8ceb3967237c75e7a803c1387",
+      "context": "Manually altering the database > Modifying it internally using the SQL Console",
+      "contextHash": "7217e166e7540881722b801a72e869c56c35cee564d267efec25638ea19d5eb3",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_ed1706571b19386293054f1b_0",
+      "kind": "p",
+      "source": "See __TRILIUM_PH_0__SQL Console__TRILIUM_PH_1__.",
+      "sourceHash": "ed1706571b19386293054f1b8cf01bc604226fa1ab45037190033779607e9bbe",
+      "context": "Manually altering the database > Modifying it internally using the SQL Console",
+      "contextHash": "7217e166e7540881722b801a72e869c56c35cee564d267efec25638ea19d5eb3",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_3b03ec9163b0839f7f3d5a8a_0",
+      "kind": "h2",
+      "source": "Externally modifying the database__TRILIUM_PH_0__",
+      "sourceHash": "3b03ec9163b0839f7f3d5a8aed873354ce0b0c9c5e781e16d25cd734fd2464b8",
+      "context": "Manually altering the database > Externally modifying the database",
+      "contextHash": "7891f3e4828254c070fbb11e54a5bf2ea9e4d3dc3108235f712b94a04029dac1",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_fa47294b0e18bb8fac359289_0",
+      "kind": "p",
+      "source": "Sometimes the SQL Console cannot be used (for example if the application cannot start).",
+      "sourceHash": "fa47294b0e18bb8fac35928943dab40edcdfb6263284274d3eec65db4638cfac",
+      "context": "Manually altering the database > Externally modifying the database",
+      "contextHash": "7891f3e4828254c070fbb11e54a5bf2ea9e4d3dc3108235f712b94a04029dac1",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_23dca36401eaec796b6e0600_0",
+      "kind": "p",
+      "source": "When making external modifications, consider closing the desktop application. If modifying the server database, then stop the service or Docker container.",
+      "sourceHash": "23dca36401eaec796b6e0600153b9b0993d86fe0455fb7ac5ab8e5131440984e",
+      "context": "Manually altering the database > Externally modifying the database",
+      "contextHash": "7891f3e4828254c070fbb11e54a5bf2ea9e4d3dc3108235f712b94a04029dac1",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_b4c579329937d5f87b6ad2bd_0",
+      "kind": "h3",
+      "source": "Using DB Browser for SQLite__TRILIUM_PH_0__",
+      "sourceHash": "b4c579329937d5f87b6ad2bd3e09e510bb7b0f1f828be7fe0ee9873ed2ca30fc",
+      "context": "Manually altering the database > Externally modifying the database > Using DB Browser for SQLite",
+      "contextHash": "8cf38d9689a4958ebb5384e0ac3e2f317001370d861e106de5ad612c4d15b251",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_e7368c66e18392eabe121dd6_0",
+      "kind": "p",
+      "source": "DB Browser for SQLite is a cross-platform editor that can be used to alter the database using a graphical user interface.",
+      "sourceHash": "e7368c66e18392eabe121dd6b6ead5341805171ed0fc7287fbb34cf5fa84f04d",
+      "context": "Manually altering the database > Externally modifying the database > Using DB Browser for SQLite",
+      "contextHash": "8cf38d9689a4958ebb5384e0ac3e2f317001370d861e106de5ad612c4d15b251",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_4aa592f328e007e456668e14_0",
+      "kind": "p",
+      "source": "To do so:",
+      "sourceHash": "4aa592f328e007e456668e14c5218dcb1f38831eca67cb0f8cb725b769ca8c0e",
+      "context": "Manually altering the database > Externally modifying the database > Using DB Browser for SQLite",
+      "contextHash": "8cf38d9689a4958ebb5384e0ac3e2f317001370d861e106de5ad612c4d15b251",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_8ac2bc6923f3c3e7be0a6a89_0",
+      "kind": "li",
+      "source": "In the main menu, select File → Open database… and navigate to the database in the __TRILIUM_PH_0__Data directory__TRILIUM_PH_1__.",
+      "sourceHash": "8ac2bc6923f3c3e7be0a6a891ec0087428f7b54ef6d433fa25b45ffb6d3ea297",
+      "context": "Manually altering the database > Externally modifying the database > Using DB Browser for SQLite",
+      "contextHash": "8cf38d9689a4958ebb5384e0ac3e2f317001370d861e106de5ad612c4d15b251",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_bb1f3c2a4ebc2acfc776c97f_0",
+      "kind": "li",
+      "source": "Select the __TRILIUM_PH_0__Execute SQL__TRILIUM_PH_1__ tab.",
+      "sourceHash": "bb1f3c2a4ebc2acfc776c97f1a24afbf8a2a5c34c4888cd784f8b4004700dcf1",
+      "context": "Manually altering the database > Externally modifying the database > Using DB Browser for SQLite",
+      "contextHash": "8cf38d9689a4958ebb5384e0ac3e2f317001370d861e106de5ad612c4d15b251",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_63609cd6d756884f5c7aa5b5_0",
+      "kind": "li",
+      "source": "Type in the desired SQL statement.",
+      "sourceHash": "63609cd6d756884f5c7aa5b5bac84c1b028306d6e94deddcc201424427bed7a2",
+      "context": "Manually altering the database > Externally modifying the database > Using DB Browser for SQLite",
+      "contextHash": "8cf38d9689a4958ebb5384e0ac3e2f317001370d861e106de5ad612c4d15b251",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_7347a3ec90665d07a9c686fd_0",
+      "kind": "li",
+      "source": "Press the \"Play\" button in the toolbar underneath the \"Execute SQL\" tab (or F5 key).",
+      "sourceHash": "7347a3ec90665d07a9c686fd582198ac32e329d2b388edeb59380e3ae39c0e7f",
+      "context": "Manually altering the database > Externally modifying the database > Using DB Browser for SQLite",
+      "contextHash": "8cf38d9689a4958ebb5384e0ac3e2f317001370d861e106de5ad612c4d15b251",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_ddf8543b3bd06b261867c617_0",
+      "kind": "li",
+      "source": "Press \"Write Changes\" in the main toolbar.",
+      "sourceHash": "ddf8543b3bd06b261867c617c08704b73d80aeebf84136ea330186606d52a0e3",
+      "context": "Manually altering the database > Externally modifying the database > Using DB Browser for SQLite",
+      "contextHash": "8cf38d9689a4958ebb5384e0ac3e2f317001370d861e106de5ad612c4d15b251",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_977ec7ff457a7b7f47759bbd_0",
+      "kind": "li",
+      "source": "Close the application or close the database.",
+      "sourceHash": "977ec7ff457a7b7f47759bbd9449c37e3d5e491bfa486651c2d40430dd105d6d",
+      "context": "Manually altering the database > Externally modifying the database > Using DB Browser for SQLite",
+      "contextHash": "8cf38d9689a4958ebb5384e0ac3e2f317001370d861e106de5ad612c4d15b251",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_ebed37e63a349d204b9fe0be_0",
+      "kind": "h3",
+      "source": "Using the SQLite CLI__TRILIUM_PH_0__",
+      "sourceHash": "ebed37e63a349d204b9fe0bed986241c0632e1c80233fc50b0cc3db7810e9e4a",
+      "context": "Manually altering the database > Externally modifying the database > Using the SQLite CLI",
+      "contextHash": "09bfb4175f1bc35872c2dcd33f0e3a31f1414583d410ce77124d76e105bbd091",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_e67bb868a55c454ef77a7084_0",
+      "kind": "p",
+      "source": "First, start the SQLite 3 CLI by specifying the path to the database:",
+      "sourceHash": "e67bb868a55c454ef77a708427f9dc87c6883ced556e2be9b3e33661356cd6bf",
+      "context": "Manually altering the database > Externally modifying the database > Using the SQLite CLI",
+      "contextHash": "09bfb4175f1bc35872c2dcd33f0e3a31f1414583d410ce77124d76e105bbd091",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_349e586f94fc6b4726408a97_0",
+      "kind": "li",
+      "source": "In the prompt simply type the statement and make sure it ends with a __TRILIUM_PH_0__ character.",
+      "sourceHash": "349e586f94fc6b4726408a971057c87cbdb14026c5e1b41007952898ca2d16e9",
+      "context": "Manually altering the database > Externally modifying the database > Using the SQLite CLI",
+      "contextHash": "09bfb4175f1bc35872c2dcd33f0e3a31f1414583d410ce77124d76e105bbd091",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_b2e5a16b03f354416d6b5153_0",
+      "kind": "li",
+      "source": "To exit, simply type __TRILIUM_PH_0__ and enter.",
+      "sourceHash": "b2e5a16b03f354416d6b5153ab75aa26373a114ecbb16cdbecad5a3075d51c1b",
+      "context": "Manually altering the database > Externally modifying the database > Using the SQLite CLI",
+      "contextHash": "09bfb4175f1bc35872c2dcd33f0e3a31f1414583d410ce77124d76e105bbd091",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_b190d47815633246b0ab18a6_0",
+      "kind": "image-alt",
+      "source": "記事画像",
+      "sourceHash": "b190d47815633246b0ab18a61d9b8e8ea36504fe3f8bc230a7753096915c9ff2",
+      "context": "Manually altering the database > Externally modifying the database > Using the SQLite CLI",
+      "contextHash": "09bfb4175f1bc35872c2dcd33f0e3a31f1414583d410ce77124d76e105bbd091",
+      "status": "pending",
+      "active": true
+    }
+  ],
+  "requests": []
+}

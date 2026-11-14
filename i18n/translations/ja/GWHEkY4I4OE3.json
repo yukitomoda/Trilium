@@ -1,0 +1,609 @@
+{
+  "schemaVersion": 1,
+  "pageId": "GWHEkY4I4OE3",
+  "sourceFile": "docs/User Guide/User Guide/Note Types/Spreadsheets.md",
+  "sourceRevision": "03d17b60f59b5efc29b880b11481471d0fe0ff57",
+  "units": [
+    {
+      "id": "u_e9bdd29a6ce4e648f66007d6_0",
+      "kind": "title",
+      "source": "Spreadsheets",
+      "sourceHash": "e9bdd29a6ce4e648f66007d6b81cf6fd17e572d822c4d78509839813375f8d41",
+      "context": "Spreadsheets",
+      "contextHash": "fdae6602c2bebdcc277f82edeb2c3d448d5695dc2fc6650fe58dcabc3f179ad9",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_25e3bad410702c550995242a_0",
+      "kind": "p",
+      "source": "Spreadsheets are a new type of note introduced in v0.103.0 and are currently considered experimental/beta. As such, expect major changes to occur to this note type.",
+      "sourceHash": "25e3bad410702c550995242ac6471f3777597d05328a328a6f23839ad52e5bf4",
+      "context": "Spreadsheets",
+      "contextHash": "fdae6602c2bebdcc277f82edeb2c3d448d5695dc2fc6650fe58dcabc3f179ad9",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_f3bc0acbf295880653092713_0",
+      "kind": "p",
+      "source": "Spreadsheets provide a familiar experience to Microsoft Excel or LibreOffice Calc, with support for formulas, data validation and text formatting.",
+      "sourceHash": "f3bc0acbf29588065309271317a7d5dc8c0d640384a3567611d2e0179f5f51da",
+      "context": "Spreadsheets",
+      "contextHash": "fdae6602c2bebdcc277f82edeb2c3d448d5695dc2fc6650fe58dcabc3f179ad9",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_5c61f39b4dbc764d41a9bc32_0",
+      "kind": "h2",
+      "source": "Spreadsheets vs. collections__TRILIUM_PH_0__",
+      "sourceHash": "5c61f39b4dbc764d41a9bc32f99cfc5f1924db4690c236a7ed3512c0eb9209a0",
+      "context": "Spreadsheets > Spreadsheets vs. collections",
+      "contextHash": "df883b89cb954794a1af386f482843ee79216d0be417791b858a1ebbe0f14ce4",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_135a9711d1e7d105457c710f_0",
+      "kind": "p",
+      "source": "There is a slight overlap between spreadsheets and the __TRILIUM_PH_0__Table__TRILIUM_PH_1__ collection. In general the table collection is useful to track meta-information about notes (for example a collection of people and their birthdays), whereas spreadsheets are quite useful for calculations since they support formulas.",
+      "sourceHash": "135a9711d1e7d105457c710f0f8269c4f79efe3e925c63b0b8eb2ea3ffd856f9",
+      "context": "Spreadsheets > Spreadsheets vs. collections",
+      "contextHash": "df883b89cb954794a1af386f482843ee79216d0be417791b858a1ebbe0f14ce4",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_d8f35bc7a24c30cfbb9bfcbd_0",
+      "kind": "p",
+      "source": "Spreadsheets also benefit from a wider range of features such as data validation, formatting and can work on a relatively large dataset.",
+      "sourceHash": "d8f35bc7a24c30cfbb9bfcbd2749b42f779c745f186f5580977d7655266d9593",
+      "context": "Spreadsheets > Spreadsheets vs. collections",
+      "contextHash": "df883b89cb954794a1af386f482843ee79216d0be417791b858a1ebbe0f14ce4",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_df78d565c86fe5b7e56e8d3b_0",
+      "kind": "h2",
+      "source": "Data intercompatibility (import/export)__TRILIUM_PH_0__",
+      "sourceHash": "df78d565c86fe5b7e56e8d3b3b3164d6574ef3166fc49d6bb36f18ac4c217f96",
+      "context": "Spreadsheets > Data intercompatibility (import/export)",
+      "contextHash": "eb921093113a64af84e5e4a5dda57ead15692eb4ee76c5861b280b65e59e7de9",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_8e15b40f9bcc986223a4a05f_0",
+      "kind": "p",
+      "source": "Starting with v0.104.0, Trilium provides a level of data intercompatibility between the internal format (Univer) and the following formats:",
+      "sourceHash": "8e15b40f9bcc986223a4a05f1d009e69d3620daa51816b204f0816f2a76aa5a5",
+      "context": "Spreadsheets > Data intercompatibility (import/export)",
+      "contextHash": "eb921093113a64af84e5e4a5dda57ead15692eb4ee76c5861b280b65e59e7de9",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_9fc30d2803c244858e3c6f2f_0",
+      "kind": "li",
+      "source": "Microsoft Excel (.xlsx)",
+      "sourceHash": "9fc30d2803c244858e3c6f2f897d5fdcd311278a25ff0d1e5e3111deb1736a7f",
+      "context": "Spreadsheets > Data intercompatibility (import/export)",
+      "contextHash": "eb921093113a64af84e5e4a5dda57ead15692eb4ee76c5861b280b65e59e7de9",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_05e3b14295753e275eddebb6_0",
+      "kind": "li",
+      "source": "Preserves basic formatting (fonts, sizes, borders, backgrounds).",
+      "sourceHash": "05e3b14295753e275eddebb6e5427ce59df92f4142f81dc63849d1715e452f81",
+      "context": "Spreadsheets > Data intercompatibility (import/export)",
+      "contextHash": "eb921093113a64af84e5e4a5dda57ead15692eb4ee76c5861b280b65e59e7de9",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_1c32d2d44221eb7eb634eaea_0",
+      "kind": "li",
+      "source": "Formulas are preserved, but note that not all Excel functions are supported and vice-versa with Univer.",
+      "sourceHash": "1c32d2d44221eb7eb634eaea2aafd284d3bc47720a454a5ba6c596613425c63f",
+      "context": "Spreadsheets > Data intercompatibility (import/export)",
+      "contextHash": "eb921093113a64af84e5e4a5dda57ead15692eb4ee76c5861b280b65e59e7de9",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_02a30d32cf6e7fc8417b8d85_0",
+      "kind": "li",
+      "source": "Images (cell-bound or floating), without preserving rotation.",
+      "sourceHash": "02a30d32cf6e7fc8417b8d85d82bc773ce14c32e45a8849f7def23c79cde4e31",
+      "context": "Spreadsheets > Data intercompatibility (import/export)",
+      "contextHash": "eb921093113a64af84e5e4a5dda57ead15692eb4ee76c5861b280b65e59e7de9",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_442a284436c8c09d87219286_0",
+      "kind": "li",
+      "source": "Supports multi-sheets natively.",
+      "sourceHash": "442a284436c8c09d87219286b950f7c9530652a27b6c4ce20a04aac325a966d5",
+      "context": "Spreadsheets > Data intercompatibility (import/export)",
+      "contextHash": "eb921093113a64af84e5e4a5dda57ead15692eb4ee76c5861b280b65e59e7de9",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_8c9ede2af603deb518821238_0",
+      "kind": "li",
+      "source": "Comma-Separated Values (.csv)",
+      "sourceHash": "8c9ede2af603deb518821238b786667f621cacf017a7412c3bd2b7c7c0f36c12",
+      "context": "Spreadsheets > Data intercompatibility (import/export)",
+      "contextHash": "eb921093113a64af84e5e4a5dda57ead15692eb4ee76c5861b280b65e59e7de9",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_11a5a41e9b261be31ca0cc5e_0",
+      "kind": "li",
+      "source": "Since it's a text-based format, any formatting is lost.",
+      "sourceHash": "11a5a41e9b261be31ca0cc5e20ee9d01c5e6dd975e8adc45e49f5cc5d0a0cb5f",
+      "context": "Spreadsheets > Data intercompatibility (import/export)",
+      "contextHash": "eb921093113a64af84e5e4a5dda57ead15692eb4ee76c5861b280b65e59e7de9",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_ce1d6376f25f6c1d4d6ed848_0",
+      "kind": "li",
+      "source": "Formulas are evaluated and turned into their final value instead.",
+      "sourceHash": "ce1d6376f25f6c1d4d6ed848ac001722bd0955b62f08b7b1f37f0e30b222ce43",
+      "context": "Spreadsheets > Data intercompatibility (import/export)",
+      "contextHash": "eb921093113a64af84e5e4a5dda57ead15692eb4ee76c5861b280b65e59e7de9",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_51afa0a0f7426d2dfee55396_0",
+      "kind": "li",
+      "source": "Multi-sheets spreadsheets are exported as a single ZIP containing a CSV file per sheet.",
+      "sourceHash": "51afa0a0f7426d2dfee5539607e2f7ebb406a9e8fe5d5cde517fe9897e2fe862",
+      "context": "Spreadsheets > Data intercompatibility (import/export)",
+      "contextHash": "eb921093113a64af84e5e4a5dda57ead15692eb4ee76c5861b280b65e59e7de9",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_e60d3479dcac3e0652dd12b7_0",
+      "kind": "p",
+      "source": "Both __TRILIUM_PH_0__import and export__TRILIUM_PH_1__ are supported, as follows:",
+      "sourceHash": "e60d3479dcac3e0652dd12b7302761f7685718d17a255eb9fb3d8e4a47712110",
+      "context": "Spreadsheets > Data intercompatibility (import/export)",
+      "contextHash": "eb921093113a64af84e5e4a5dda57ead15692eb4ee76c5861b280b65e59e7de9",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_4f6e704f88008cc56ac02b52_0",
+      "kind": "li",
+      "source": "To import a file, simply drag it into the __TRILIUM_PH_0__Note Tree__TRILIUM_PH_1__ and it will be converted into a spreadsheet note.",
+      "sourceHash": "4f6e704f88008cc56ac02b52cb53ccad0257beff7ffc86068393ba73f4e4ce90",
+      "context": "Spreadsheets > Data intercompatibility (import/export)",
+      "contextHash": "eb921093113a64af84e5e4a5dda57ead15692eb4ee76c5861b280b65e59e7de9",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_bf0fbca579fddcce9e403c8a_0",
+      "kind": "li",
+      "source": "To avoid this behavior (e.g. to import a .xlsx file as an actual __TRILIUM_PH_0__File__TRILIUM_PH_1__), uncheck the corresponding option in the __TRILIUM_PH_2__Import dialog__TRILIUM_PH_3__.",
+      "sourceHash": "bf0fbca579fddcce9e403c8a7bac254c4bffb127a5144c890fc6883c2b686a7b",
+      "context": "Spreadsheets > Data intercompatibility (import/export)",
+      "contextHash": "eb921093113a64af84e5e4a5dda57ead15692eb4ee76c5861b280b65e59e7de9",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_2a037de1f41e11d9e118e767_0",
+      "kind": "li",
+      "source": "Multiple files can be imported at the same time, including a mixture of .csv and .xlsx files. Folder structure can be preserved by using a .zip file.",
+      "sourceHash": "2a037de1f41e11d9e118e767f00e1729dce9886f3396516ee725ad735284e78e",
+      "context": "Spreadsheets > Data intercompatibility (import/export)",
+      "contextHash": "eb921093113a64af84e5e4a5dda57ead15692eb4ee76c5861b280b65e59e7de9",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_398f4432c0c95140cd65fe72_0",
+      "kind": "li",
+      "source": "Unlike importing, exporting is on a per-note basis:",
+      "sourceHash": "398f4432c0c95140cd65fe72ce4fc924de7385569acdb99ec8b32126a0e4a5b4",
+      "context": "Spreadsheets > Data intercompatibility (import/export)",
+      "contextHash": "eb921093113a64af84e5e4a5dda57ead15692eb4ee76c5861b280b65e59e7de9",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_2b435530dce8ba88844e0f2f_0",
+      "kind": "li",
+      "source": "In the __TRILIUM_PH_0__Note menu__TRILIUM_PH_1__, choose the __TRILIUM_PH_2__Export to Excel__TRILIUM_PH_3__ or __TRILIUM_PH_4__Export to CSV__TRILIUM_PH_5__ options.",
+      "sourceHash": "2b435530dce8ba88844e0f2f6bb3b0ad81792be17be2d299048f86fd60fdd6cd",
+      "context": "Spreadsheets > Data intercompatibility (import/export)",
+      "contextHash": "eb921093113a64af84e5e4a5dda57ead15692eb4ee76c5861b280b65e59e7de9",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_026bdccd2dbf4bcdb361723a_0",
+      "kind": "li",
+      "source": "If exported as a single file via __TRILIUM_PH_0__Import & Export__TRILIUM_PH_1__, the resulting file will be a custom __TRILIUM_PH_2__ file that preserves the spreadsheet as-is.",
+      "sourceHash": "026bdccd2dbf4bcdb361723ac5f4076284b0948ffc82fe8c1ba2707ed4a288d9",
+      "context": "Spreadsheets > Data intercompatibility (import/export)",
+      "contextHash": "eb921093113a64af84e5e4a5dda57ead15692eb4ee76c5861b280b65e59e7de9",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_4767446e30768dddd71e75ca_0",
+      "kind": "li",
+      "source": "The export is intentionally a different process than the normal __TRILIUM_PH_0__Import & Export__TRILIUM_PH_1__ functionality because it does conversion to multiple formats with varying degrees of compatibility.",
+      "sourceHash": "4767446e30768dddd71e75caf20d446fad4d26983163256b3960f52ce5e9839f",
+      "context": "Spreadsheets > Data intercompatibility (import/export)",
+      "contextHash": "eb921093113a64af84e5e4a5dda57ead15692eb4ee76c5861b280b65e59e7de9",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_7951412a2004d2ecf0e419c5_0",
+      "kind": "p",
+      "source": "Cells pasted from Excel or another application keep their formatting except for the font, so they use the spreadsheet's font like the rest of the cells.",
+      "sourceHash": "7951412a2004d2ecf0e419c5954f5d9038c622c2975e67ac81e424abcd40e9d9",
+      "context": "Spreadsheets > Data intercompatibility (import/export)",
+      "contextHash": "eb921093113a64af84e5e4a5dda57ead15692eb4ee76c5861b280b65e59e7de9",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_4d25128d3c95ac3f2884a4d6_0",
+      "kind": "p",
+      "source": "Import & export for both .xlsx and .csv files are supported on a best-effort basis. It does not support advanced features (data validation, scripting, etc.). If you notice a particular issue, it can be __TRILIUM_PH_0__reported__TRILIUM_PH_1__, however all bug reports must contain a sample file in order to be taken into consideration.",
+      "sourceHash": "4d25128d3c95ac3f2884a4d691b7aaba7dd5fb7fd76ec4530671921fcb99ff86",
+      "context": "Spreadsheets > Data intercompatibility (import/export)",
+      "contextHash": "eb921093113a64af84e5e4a5dda57ead15692eb4ee76c5861b280b65e59e7de9",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_40ff640d4fda01902f6eb589_0",
+      "kind": "h2",
+      "source": "Supported features__TRILIUM_PH_0__",
+      "sourceHash": "40ff640d4fda01902f6eb5894c960a3be0632f56de2d140fa2627699a93bdba5",
+      "context": "Spreadsheets > Supported features",
+      "contextHash": "ad260df9666745f1e9619f1b2de1295c244f95bbb34a5c7cc8008d13c66cca1c",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_79747456ad92a35541f2e6e7_0",
+      "kind": "p",
+      "source": "The spreadsheet has support for the following features:",
+      "sourceHash": "79747456ad92a35541f2e6e73c5298cb536cb31b3759ca4d6159a71f6313ad06",
+      "context": "Spreadsheets > Supported features",
+      "contextHash": "ad260df9666745f1e9619f1b2de1295c244f95bbb34a5c7cc8008d13c66cca1c",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_d9177dbb1ac628c6ec9c7048_0",
+      "kind": "li",
+      "source": "Since v0.104.0, images that can be either inside a cell or floating above.",
+      "sourceHash": "d9177dbb1ac628c6ec9c7048beb3d4f578d0d3d91729f2bade19f17ec7da7eba",
+      "context": "Spreadsheets > Supported features",
+      "contextHash": "ad260df9666745f1e9619f1b2de1295c244f95bbb34a5c7cc8008d13c66cca1c",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_7fe5c5becc131830bfaba643_0",
+      "kind": "li",
+      "source": "The images are saved as __TRILIUM_PH_0__Attachments__TRILIUM_PH_1__ for performance reasons.",
+      "sourceHash": "7fe5c5becc131830bfaba643962e19f0755d31f3789e08d86aac40c8e98233eb",
+      "context": "Spreadsheets > Supported features",
+      "contextHash": "ad260df9666745f1e9619f1b2de1295c244f95bbb34a5c7cc8008d13c66cca1c",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_4dfbb44f940810f1136b0f8a_0",
+      "kind": "li",
+      "source": "The image upload respects the same compression settings as text __TRILIUM_PH_0__Images__TRILIUM_PH_1__.",
+      "sourceHash": "4dfbb44f940810f1136b0f8addf395c6b0b9af842f3907e2c39450691f3df3c3",
+      "context": "Spreadsheets > Supported features",
+      "contextHash": "ad260df9666745f1e9619f1b2de1295c244f95bbb34a5c7cc8008d13c66cca1c",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_9ab71eb68c4a100e1caf9f14_0",
+      "kind": "li",
+      "source": "Filtering",
+      "sourceHash": "9ab71eb68c4a100e1caf9f14b0edb18ce88e68cacc7793f6c4f5dc67aeb0a54e",
+      "context": "Spreadsheets > Supported features",
+      "contextHash": "ad260df9666745f1e9619f1b2de1295c244f95bbb34a5c7cc8008d13c66cca1c",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_a1922c673ebbbbd108ebc2d4_0",
+      "kind": "li",
+      "source": "Sorting",
+      "sourceHash": "a1922c673ebbbbd108ebc2d4c0e186466f2bb80dd365f112d482e76f98c972ce",
+      "context": "Spreadsheets > Supported features",
+      "contextHash": "ad260df9666745f1e9619f1b2de1295c244f95bbb34a5c7cc8008d13c66cca1c",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_3429df1d3c922ea2a2849de1_0",
+      "kind": "li",
+      "source": "Data validation",
+      "sourceHash": "3429df1d3c922ea2a2849de1c73ffd19fd4dc854dcac518923b2a9dde90d1c5a",
+      "context": "Spreadsheets > Supported features",
+      "contextHash": "ad260df9666745f1e9619f1b2de1295c244f95bbb34a5c7cc8008d13c66cca1c",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_7478cfc5e9ac251fad93bcb1_0",
+      "kind": "li",
+      "source": "Conditional formatting",
+      "sourceHash": "7478cfc5e9ac251fad93bcb16f3ef893a5aa627ce0bcdfbdd3440ae254a242a5",
+      "context": "Spreadsheets > Supported features",
+      "contextHash": "ad260df9666745f1e9619f1b2de1295c244f95bbb34a5c7cc8008d13c66cca1c",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_74636d670a5c28e6efc7cee7_0",
+      "kind": "li",
+      "source": "Notes / annotations",
+      "sourceHash": "74636d670a5c28e6efc7cee750419956354c7fdef9d1cc27456dd8baaae672d3",
+      "context": "Spreadsheets > Supported features",
+      "contextHash": "ad260df9666745f1e9619f1b2de1295c244f95bbb34a5c7cc8008d13c66cca1c",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_247e6662037448dab0af98e1_0",
+      "kind": "li",
+      "source": "Find / replace",
+      "sourceHash": "247e6662037448dab0af98e197940e9454cc1a3fcda34d8139bba6af5356a8c2",
+      "context": "Spreadsheets > Supported features",
+      "contextHash": "ad260df9666745f1e9619f1b2de1295c244f95bbb34a5c7cc8008d13c66cca1c",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_33bf5387f7e869afbb317698_0",
+      "kind": "p",
+      "source": "We might consider adding __TRILIUM_PH_0__other features__TRILIUM_PH_1__ from Univer at some point. If there is a particular feature that can be added easily, it can be discussed over __TRILIUM_PH_2__GitHub Issues__TRILIUM_PH_3__.",
+      "sourceHash": "33bf5387f7e869afbb317698427aa52b6d2f65a4d62df25235d46cbd4c1ec4ac",
+      "context": "Spreadsheets > Supported features",
+      "contextHash": "ad260df9666745f1e9619f1b2de1295c244f95bbb34a5c7cc8008d13c66cca1c",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_2c8a8bfddae7ee8836ff15a9_0",
+      "kind": "h3",
+      "source": "Share functionality__TRILIUM_PH_0__",
+      "sourceHash": "2c8a8bfddae7ee8836ff15a983e7897d29c86f4e5cd8e7a340811a3a8f88b4df",
+      "context": "Spreadsheets > Supported features > Share functionality",
+      "contextHash": "f88061a42f4410494a0170690e994fe148bbdb138b147177042aa4414332e914",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_cff23cb72fb98fe2b1b79604_0",
+      "kind": "p",
+      "source": "Spreadsheets can be __TRILIUM_PH_0__shared__TRILIUM_PH_1__, case in which a best-effort HTML rendering of the spreadsheet is done:",
+      "sourceHash": "cff23cb72fb98fe2b1b79604676e6a38b0b8771c8ea137a0d09690c2d48231f3",
+      "context": "Spreadsheets > Supported features > Share functionality",
+      "contextHash": "f88061a42f4410494a0170690e994fe148bbdb138b147177042aa4414332e914",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_eea7eb8e63572d3504568134_0",
+      "kind": "li",
+      "source": "Preserves basic formatting.",
+      "sourceHash": "eea7eb8e63572d3504568134caea8f1f35409fc90548e9ef8dee383258701458",
+      "context": "Spreadsheets > Supported features > Share functionality",
+      "contextHash": "f88061a42f4410494a0170690e994fe148bbdb138b147177042aa4414332e914",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_06ecc1383e4bcad66b374311_0",
+      "kind": "li",
+      "source": "Cells with formulas display the precalculated value instead of the formula.",
+      "sourceHash": "06ecc1383e4bcad66b374311f2f8a624a68f66d5d5318ef77d329c9e7ab6905d",
+      "context": "Spreadsheets > Supported features > Share functionality",
+      "contextHash": "f88061a42f4410494a0170690e994fe148bbdb138b147177042aa4414332e914",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_8883b78a6fdd3e4e442ba4ef_0",
+      "kind": "p",
+      "source": "Since v0.104.0:",
+      "sourceHash": "8883b78a6fdd3e4e442ba4ef23c0f7d5afc2756d440ff6d93f51a27334d4d9a0",
+      "context": "Spreadsheets > Supported features > Share functionality",
+      "contextHash": "f88061a42f4410494a0170690e994fe148bbdb138b147177042aa4414332e914",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_13731c35edaae81f000d3a72_0",
+      "kind": "li",
+      "source": "Numbers and dates are properly formatted.",
+      "sourceHash": "13731c35edaae81f000d3a72bcf22d749509e0f5bc3bc7b8d3775f16b1ea256f",
+      "context": "Spreadsheets > Supported features > Share functionality",
+      "contextHash": "f88061a42f4410494a0170690e994fe148bbdb138b147177042aa4414332e914",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_b62bc3f668c9d3786a4ddc02_0",
+      "kind": "li",
+      "source": "Images are shown inside a cell or floating above, including rotation.",
+      "sourceHash": "b62bc3f668c9d3786a4ddc027dff6ed19f6ad39166d62cacf3bb820a65038d90",
+      "context": "Spreadsheets > Supported features > Share functionality",
+      "contextHash": "f88061a42f4410494a0170690e994fe148bbdb138b147177042aa4414332e914",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_1931fd0e21a2390f47e53309_0",
+      "kind": "p",
+      "source": "For more advanced use cases, this will most likely not work as intended. Feel free to __TRILIUM_PH_0__report issues__TRILIUM_PH_1__, but keep in mind that we might not be able to have a complete feature parity with all the features of Univer.",
+      "sourceHash": "1931fd0e21a2390f47e5330941aa99211fe762bb5ce65866c60058b3ade15604",
+      "context": "Spreadsheets > Supported features > Share functionality",
+      "contextHash": "f88061a42f4410494a0170690e994fe148bbdb138b147177042aa4414332e914",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_c465f475a03de06b55be8fbd_0",
+      "kind": "h2",
+      "source": "Features not supported yet__TRILIUM_PH_0__",
+      "sourceHash": "c465f475a03de06b55be8fbd836f52f0c169ec129d5533c51f79e977dbf34e47",
+      "context": "Spreadsheets > Features not supported yet",
+      "contextHash": "79b9a7cc989c596a9a0f03335d1720b836be3a56c0a3595f1543d0f088bb1be4",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_b2d66fe1097a64111370a971_0",
+      "kind": "h3",
+      "source": "Regarding Pro features__TRILIUM_PH_0__",
+      "sourceHash": "b2d66fe1097a64111370a9712ff2ebc4c1744aeda4497044e9dbe22aca2ad43a",
+      "context": "Spreadsheets > Features not supported yet > Regarding Pro features",
+      "contextHash": "765c1a40e5b8d78b1114b4b3dc16c3aad78a31fe81758a8d7f2f091ddab17201",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_93e59852fcd45ecd3e7f4f30_0",
+      "kind": "p",
+      "source": "Univer spreadsheets also feature a __TRILIUM_PH_0__Pro plan__TRILIUM_PH_1__ which adds quite a lot of functionality such as charts, printing, pivot tables, export, etc.",
+      "sourceHash": "93e59852fcd45ecd3e7f4f308800892ba759b30030f033ed3db652971054e503",
+      "context": "Spreadsheets > Features not supported yet > Regarding Pro features",
+      "contextHash": "765c1a40e5b8d78b1114b4b3dc16c3aad78a31fe81758a8d7f2f091ddab17201",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_fd7cd788b9f2f70af808b8df_0",
+      "kind": "p",
+      "source": "As the Pro plan needs a license, Trilium does not support any of the premium features. Theoretically, pro features can be used in trial mode with some limitations, we might explore this direction at some point.",
+      "sourceHash": "fd7cd788b9f2f70af808b8df4b41a40a58cb17e4bc761dd3da0846bbe4c551da",
+      "context": "Spreadsheets > Features not supported yet > Regarding Pro features",
+      "contextHash": "765c1a40e5b8d78b1114b4b3dc16c3aad78a31fe81758a8d7f2f091ddab17201",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_5c169cac82ac9292f1e3a468_0",
+      "kind": "h3",
+      "source": "Planned features__TRILIUM_PH_0__",
+      "sourceHash": "5c169cac82ac9292f1e3a4684a6ec47e24de2752cee96b1c790813d77f258307",
+      "context": "Spreadsheets > Features not supported yet > Planned features",
+      "contextHash": "720f3da91cb692cf0ba78a7f7bb8ed29c8142ec6be9f6508fa5f3a8e6a948af2",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_78fa1a51c4259f127039a89d_0",
+      "kind": "p",
+      "source": "There are a few features that are already planned but are not supported yet:",
+      "sourceHash": "78fa1a51c4259f127039a89d8ebcbbb604c69889aa0704600b076c71d0f75e5a",
+      "context": "Spreadsheets > Features not supported yet > Planned features",
+      "contextHash": "720f3da91cb692cf0ba78a7f7bb8ed29c8142ec6be9f6508fa5f3a8e6a948af2",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_668384357992630e893b4c16_0",
+      "kind": "li",
+      "source": "Trilium-specific formulas (e.g. to obtain the title of a note).",
+      "sourceHash": "668384357992630e893b4c164e054f9f94503b1a448d3af5babb79f8ae3023ce",
+      "context": "Spreadsheets > Features not supported yet > Planned features",
+      "contextHash": "720f3da91cb692cf0ba78a7f7bb8ed29c8142ec6be9f6508fa5f3a8e6a948af2",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_f4b18df12d5396e9d6165f5a_0",
+      "kind": "li",
+      "source": "User-defined formulas",
+      "sourceHash": "f4b18df12d5396e9d6165f5aaab3027d193c5d063577e17500a7cda4be4e7b21",
+      "context": "Spreadsheets > Features not supported yet > Planned features",
+      "contextHash": "720f3da91cb692cf0ba78a7f7bb8ed29c8142ec6be9f6508fa5f3a8e6a948af2",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_7d2b3192c405043cb68a9877_0",
+      "kind": "li",
+      "source": "Cross-workbook calculation",
+      "sourceHash": "7d2b3192c405043cb68a9877b123eefbba2f672a37b2977e641bb94b96687d03",
+      "context": "Spreadsheets > Features not supported yet > Planned features",
+      "contextHash": "720f3da91cb692cf0ba78a7f7bb8ed29c8142ec6be9f6508fa5f3a8e6a948af2",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_3e95bb9900298c5fbe24a78c_0",
+      "kind": "p",
+      "source": "If you would like us to work on these features, consider __TRILIUM_PH_0__supporting us__TRILIUM_PH_1__.",
+      "sourceHash": "3e95bb9900298c5fbe24a78c6d5764046ff7675a98130192e0a6fecf9addd61e",
+      "context": "Spreadsheets > Features not supported yet > Planned features",
+      "contextHash": "720f3da91cb692cf0ba78a7f7bb8ed29c8142ec6be9f6508fa5f3a8e6a948af2",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_fb3c74f57d6e48273803a9fb_0",
+      "kind": "h3",
+      "source": "Mobile support__TRILIUM_PH_0__",
+      "sourceHash": "fb3c74f57d6e48273803a9fbb23e4120eb4702c7b36492bc6da9f5f4d6c27876",
+      "context": "Spreadsheets > Features not supported yet > Mobile support",
+      "contextHash": "63e5cdd32cedb5bbddedfd1e83c6d17e1bf94878d14a03eb5e34ee81848d228c",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_a16bf43038d956faee9befac_0",
+      "kind": "p",
+      "source": "Versions prior to v0.104.0 have no dedicated mobile support, which means that the interaction is difficult without a mouse and keyboard. Starting with v0.104.0 we integrate Univer's mobile plugin, which introduces feature such as drag to pan which makes the interface more usable on mobile.",
+      "sourceHash": "a16bf43038d956faee9befacde4b2de809e4bd41601f8975786664334681c913",
+      "context": "Spreadsheets > Features not supported yet > Mobile support",
+      "contextHash": "63e5cdd32cedb5bbddedfd1e83c6d17e1bf94878d14a03eb5e34ee81848d228c",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_b190d47815633246b0ab18a6_0",
+      "kind": "image-alt",
+      "source": "記事画像",
+      "sourceHash": "b190d47815633246b0ab18a61d9b8e8ea36504fe3f8bc230a7753096915c9ff2",
+      "context": "Spreadsheets > Features not supported yet > Mobile support",
+      "contextHash": "63e5cdd32cedb5bbddedfd1e83c6d17e1bf94878d14a03eb5e34ee81848d228c",
+      "status": "pending",
+      "active": true
+    }
+  ],
+  "requests": []
+}

@@ -1,0 +1,49 @@
+{
+  "schemaVersion": 1,
+  "pageId": "fZ2IGYFXjkEy",
+  "sourceFile": "docs/User Guide/User Guide/Scripting/Backend scripts/Server-side imports.md",
+  "sourceRevision": "03d17b60f59b5efc29b880b11481471d0fe0ff57",
+  "units": [
+    {
+      "id": "u_aa87356a0ee2aa21a3a4a612_0",
+      "kind": "title",
+      "source": "Server-side imports",
+      "sourceHash": "aa87356a0ee2aa21a3a4a6128a0b5b75b98c24e39ff9aa235aa45f63ede87ecf",
+      "context": "Server-side imports",
+      "contextHash": "db79e7f0117a962633b0c86cd0fba14c167e94aff37988e1708ec6ca999f88df",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_0b9921a3784df294e81ee0e6_0",
+      "kind": "p",
+      "source": "Older versions of Trilium Notes allowed the use of Common.js module imports inside backend scripts, such as:",
+      "sourceHash": "0b9921a3784df294e81ee0e67e33343ce2764a4fd7b4471f530c758903062932",
+      "context": "Server-side imports",
+      "contextHash": "db79e7f0117a962633b0c86cd0fba14c167e94aff37988e1708ec6ca999f88df",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_f87b708bdd5caac0c8487a00_0",
+      "kind": "p",
+      "source": "For newer versions, Node.js imports are __TRILIUM_PH_0__not officially supported anymore__TRILIUM_PH_1__, since we've added a bundler which makes it more difficult to reuse dependencies.",
+      "sourceHash": "f87b708bdd5caac0c8487a00d9a692ac6802ef75662ae77ae861e325c8668e78",
+      "context": "Server-side imports",
+      "contextHash": "db79e7f0117a962633b0c86cd0fba14c167e94aff37988e1708ec6ca999f88df",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_98959fef03cb040da19300c8_0",
+      "kind": "p",
+      "source": "Theoretically it's still possible to use imports by manually setting up a __TRILIUM_PH_0__ in the server directory via __TRILIUM_PH_1__ or __TRILIUM_PH_2__.",
+      "sourceHash": "98959fef03cb040da19300c86c43b1bae4343a04c6df11f3ea585ad731102bf9",
+      "context": "Server-side imports",
+      "contextHash": "db79e7f0117a962633b0c86cd0fba14c167e94aff37988e1708ec6ca999f88df",
+      "status": "pending",
+      "active": true
+    }
+  ],
+  "requests": []
+}

@@ -1,0 +1,429 @@
+{
+  "schemaVersion": 1,
+  "pageId": "Wy267RK4M69c",
+  "sourceFile": "docs/User Guide/User Guide/Basic Concepts and Features/Themes.md",
+  "sourceRevision": "03d17b60f59b5efc29b880b11481471d0fe0ff57",
+  "units": [
+    {
+      "id": "u_11e717ce1ab761747a21163d_0",
+      "kind": "title",
+      "source": "Themes",
+      "sourceHash": "11e717ce1ab761747a21163d1e58c070aad81b6d0e9b18632d042e2a31c557ff",
+      "context": "Themes",
+      "contextHash": "43ae3265b99f2f34e9079ca3e2241ca8729718d749b3eaa2a616628dc2d2f751",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_e686c3165ef5a18f45cf057c_0",
+      "kind": "h2",
+      "source": "Default Themes__TRILIUM_PH_0__",
+      "sourceHash": "e686c3165ef5a18f45cf057cb90c27548ce7e0e6da6c5eada63e470c5c042204",
+      "context": "Themes > Default Themes",
+      "contextHash": "b0a5e05d5794d94a41a247e2a467ed3bd58b8548b226f36028e6356344bcd82a",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_4671ec7f4e19637ec69da3ec_0",
+      "kind": "p",
+      "source": "Trilium comes with a couple pre-installed color themes, with the default being a light theme. To switch to a dark theme or any other available theme, navigate to the __TRILIUM_PH_0__ Options menu (accessible via the app icon in the top-left corner), select the Appearance tab, and choose your preferred theme. The __TRILIUM_PH_1__Theme__TRILIUM_PH_2__ submenu of the __TRILIUM_PH_3__Global menu__TRILIUM_PH_4__ switches the theme and the color scheme as well.",
+      "sourceHash": "4671ec7f4e19637ec69da3ec2e3b1779db82cddad4f96df4d53b63202dcd4c02",
+      "context": "Themes > Default Themes",
+      "contextHash": "b0a5e05d5794d94a41a247e2a467ed3bd58b8548b226f36028e6356344bcd82a",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_7c6004538e52c55c81f09f84_0",
+      "kind": "p",
+      "source": "While a dark theme is active, Trilium asks the Dark Reader browser extension not to darken the page a second time. Dark Reader still darkens the light themes. After switching from a dark theme to a light one, reload the page (__TRILIUM_PH_0__Ctrl__TRILIUM_PH_1__+__TRILIUM_PH_2__R__TRILIUM_PH_3__) for Dark Reader to take effect again.",
+      "sourceHash": "7c6004538e52c55c81f09f84fc1d17900f778f4e26283d56518241fe7f3ced17",
+      "context": "Themes > Default Themes",
+      "contextHash": "b0a5e05d5794d94a41a247e2a467ed3bd58b8548b226f36028e6356344bcd82a",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_929943327b0a4c94a6c734d8_0",
+      "kind": "h2",
+      "source": "Creating Custom CSS Themes__TRILIUM_PH_0__",
+      "sourceHash": "929943327b0a4c94a6c734d87b91d4460606a331b589ad4b6b32e5a9ae209846",
+      "context": "Themes > Creating Custom CSS Themes",
+      "contextHash": "eb387465d773d11bbd224c8791368ef83a2bc33e9070bd79c286b8792214f80a",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_41e73c1d86c679335befe440_0",
+      "kind": "p",
+      "source": "Trilium supports custom user themes, allowing you to personalize the application's appearance. To create a custom theme, follow these steps:",
+      "sourceHash": "41e73c1d86c679335befe440cc563b7c953bbb86bdc96d03f8e4e42997c6b548",
+      "context": "Themes > Creating Custom CSS Themes",
+      "contextHash": "eb387465d773d11bbd224c8791368ef83a2bc33e9070bd79c286b8792214f80a",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_7bdccdeb05143c6d17cf1ac5_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__Create a CSS Code Note__TRILIUM_PH_1__: Start by creating a new __TRILIUM_PH_2__code note__TRILIUM_PH_3__ with the __TRILIUM_PH_4__ type.",
+      "sourceHash": "7bdccdeb05143c6d17cf1ac5cb95804fd56664c34ff770f6f18c0c82c0022225",
+      "context": "Themes > Creating Custom CSS Themes",
+      "contextHash": "eb387465d773d11bbd224c8791368ef83a2bc33e9070bd79c286b8792214f80a",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_b2473aec3bb2996f64804f8a_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__Annotate with__TRILIUM_PH_1__ __TRILIUM_PH_2__: Add the __TRILIUM_PH_3__attribute__TRILIUM_PH_4__ __TRILIUM_PH_5__ to your note, where __TRILIUM_PH_6__ is the name of your custom theme.",
+      "sourceHash": "b2473aec3bb2996f64804f8aa55ea79b6395ecdc39132b13a0ab0cfa828b8a2e",
+      "context": "Themes > Creating Custom CSS Themes",
+      "contextHash": "eb387465d773d11bbd224c8791368ef83a2bc33e9070bd79c286b8792214f80a",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_9863559eec8b94788bfecb1a_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__Define Your Styles__TRILIUM_PH_1__: Write your custom CSS within the note.",
+      "sourceHash": "9863559eec8b94788bfecb1ae83c787ebf0d71606c688392103f547070cb3e19",
+      "context": "Themes > Creating Custom CSS Themes",
+      "contextHash": "eb387465d773d11bbd224c8791368ef83a2bc33e9070bd79c286b8792214f80a",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_64d46fa2e6b627b9f3959242_0",
+      "kind": "summary",
+      "source": "Example of a custom theme",
+      "sourceHash": "64d46fa2e6b627b9f3959242219c04968257d6ee13605b848eefe33034d1987b",
+      "context": "Themes > Creating Custom CSS Themes",
+      "contextHash": "eb387465d773d11bbd224c8791368ef83a2bc33e9070bd79c286b8792214f80a",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_206965ecc1b75f248c5bc6c4_0",
+      "kind": "h3",
+      "source": "Activating Your Custom Theme__TRILIUM_PH_0__",
+      "sourceHash": "206965ecc1b75f248c5bc6c41f3d30fc8f58d12c47a3e8331ec926735d66f008",
+      "context": "Themes > Creating Custom CSS Themes > Activating Your Custom Theme",
+      "contextHash": "9ae7850d22830e5403dbfabf24b1be109ad6af970c759db87cee1b7f6503014d",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_96615627ab1e10caf92f8ad4_0",
+      "kind": "p",
+      "source": "Once you've created your custom theme:",
+      "sourceHash": "96615627ab1e10caf92f8ad44802a7af5f61c3b6b7692ab58fa90e3d9ea27fe6",
+      "context": "Themes > Creating Custom CSS Themes > Activating Your Custom Theme",
+      "contextHash": "9ae7850d22830e5403dbfabf24b1be109ad6af970c759db87cee1b7f6503014d",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_208788cd1f7404496045106c_0",
+      "kind": "li",
+      "source": "Go to \"Menu\" -> \"Options\" (__TRILIUM_PH_0__) -> \"Appearance.\"",
+      "sourceHash": "208788cd1f7404496045106c2737cc74b223905ba49070df0cbcb6cd6016f759",
+      "context": "Themes > Creating Custom CSS Themes > Activating Your Custom Theme",
+      "contextHash": "9ae7850d22830e5403dbfabf24b1be109ad6af970c759db87cee1b7f6503014d",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_c907f6c9ee98b666946394c6_0",
+      "kind": "li",
+      "source": "In the theme selection dropdown, you should see your custom theme listed under the name you provided with the __TRILIUM_PH_0__ __TRILIUM_PH_1__label__TRILIUM_PH_2__.",
+      "sourceHash": "c907f6c9ee98b666946394c6f15c99ef1d21358fa9ee9f9b9fc4b27cf0939e82",
+      "context": "Themes > Creating Custom CSS Themes > Activating Your Custom Theme",
+      "contextHash": "9ae7850d22830e5403dbfabf24b1be109ad6af970c759db87cee1b7f6503014d",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_1f7fcf64c43acab4bd242c36_0",
+      "kind": "li",
+      "source": "Select your custom theme to activate it.",
+      "sourceHash": "1f7fcf64c43acab4bd242c36895b6efcdfe01bbc071d9f94615cb39f5daa37ef",
+      "context": "Themes > Creating Custom CSS Themes > Activating Your Custom Theme",
+      "contextHash": "9ae7850d22830e5403dbfabf24b1be109ad6af970c759db87cee1b7f6503014d",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_79e1d8270cfd3e7e9021d897_0",
+      "kind": "p",
+      "source": "Your custom theme is also listed under __TRILIUM_PH_0__Global menu__TRILIUM_PH_1__ → __TRILIUM_PH_2__Theme__TRILIUM_PH_3__, with the icon of its note.",
+      "sourceHash": "79e1d8270cfd3e7e9021d8978d95f1bdd2e6a54af66923a669c414402bc9bed4",
+      "context": "Themes > Creating Custom CSS Themes > Activating Your Custom Theme",
+      "contextHash": "9ae7850d22830e5403dbfabf24b1be109ad6af970c759db87cee1b7f6503014d",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_35ecc2771b6da053398b6dcb_0",
+      "kind": "p",
+      "source": "If you make changes to your theme, press Ctrl + R to reload the frontend and apply your updates.",
+      "sourceHash": "35ecc2771b6da053398b6dcb73eb33e89e520d9d4d7776051b173a918d33665a",
+      "context": "Themes > Creating Custom CSS Themes > Activating Your Custom Theme",
+      "contextHash": "9ae7850d22830e5403dbfabf24b1be109ad6af970c759db87cee1b7f6503014d",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_00f6a4b46aef6c36b1bd1491_0",
+      "kind": "h3",
+      "source": "Sharing and Importing Themes__TRILIUM_PH_0__",
+      "sourceHash": "00f6a4b46aef6c36b1bd1491bda624d173c90334d0c123a10e377e1d5a0acf0c",
+      "context": "Themes > Creating Custom CSS Themes > Sharing and Importing Themes",
+      "contextHash": "ae550e31296442c2ff779dd3e31a1947916b566edc39f672529e2d33a6fa731b",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_7f69a39816b016a63703041e_0",
+      "kind": "p",
+      "source": "Custom themes can be exported as __TRILIUM_PH_0__ archives, which can be shared with other users. However, be cautious when importing themes from untrusted sources, as they may contain executable scripts that could pose security risks.",
+      "sourceHash": "7f69a39816b016a63703041e009da8d9a97039a6fa75ae0beb0f24efe82ce90d",
+      "context": "Themes > Creating Custom CSS Themes > Sharing and Importing Themes",
+      "contextHash": "ae550e31296442c2ff779dd3e31a1947916b566edc39f672529e2d33a6fa731b",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_43aa22769ebbccfa354293ac_0",
+      "kind": "p",
+      "source": "An example user theme, __TRILIUM_PH_0__Steel Blue__TRILIUM_PH_1__, is available in the demo document.",
+      "sourceHash": "43aa22769ebbccfa354293ace76819f22242617ed57b9b2dd6f259a29662f57d",
+      "context": "Themes > Creating Custom CSS Themes > Sharing and Importing Themes",
+      "contextHash": "ae550e31296442c2ff779dd3e31a1947916b566edc39f672529e2d33a6fa731b",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_9d138253bc1801d17b65a49c_0",
+      "kind": "h3",
+      "source": "Using Custom CSS for Specific Purposes__TRILIUM_PH_0__",
+      "sourceHash": "9d138253bc1801d17b65a49c2b3863c750877b2cefd72609b53d4d383259e487",
+      "context": "Themes > Creating Custom CSS Themes > Using Custom CSS for Specific Purposes",
+      "contextHash": "089e773c5fc199bde061225d09a40feb06710a801cfd14aa3c81554ad24635d7",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_dd2202f2d47a5422a21a7682_0",
+      "kind": "p",
+      "source": "In addition to full themes, Trilium allows for custom CSS that isn't tied to a theme. This can be particularly useful in scripting contexts, where you might want to modify specific UI elements, such as changing the colors of notes in the tree view.",
+      "sourceHash": "dd2202f2d47a5422a21a76824b19d00994dc6c418d73de758459ea5b3468b4df",
+      "context": "Themes > Creating Custom CSS Themes > Using Custom CSS for Specific Purposes",
+      "contextHash": "089e773c5fc199bde061225d09a40feb06710a801cfd14aa3c81554ad24635d7",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_2914bc706ea4080e5f858f89_0",
+      "kind": "h3",
+      "source": "Applying Custom CSS__TRILIUM_PH_0__",
+      "sourceHash": "2914bc706ea4080e5f858f89ff02f8100fc3cc846307a089df26805b34647f9b",
+      "context": "Themes > Creating Custom CSS Themes > Applying Custom CSS",
+      "contextHash": "fc3283bbcead8397b33c5780a98482f48119ea445f59fbe7a871d5a7f013ca33",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_e468a3416734fb6986e0d154_0",
+      "kind": "p",
+      "source": "To use custom CSS:",
+      "sourceHash": "e468a3416734fb6986e0d1548fd5f16dc466f0d69194a01af15fb0c37dab7108",
+      "context": "Themes > Creating Custom CSS Themes > Applying Custom CSS",
+      "contextHash": "fc3283bbcead8397b33c5780a98482f48119ea445f59fbe7a871d5a7f013ca33",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_307d7f009ad7684e30ec1281_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__Create a CSS Code Note__TRILIUM_PH_1__: Create a new __TRILIUM_PH_2__Code__TRILIUM_PH_3__ note with the __TRILIUM_PH_4__ type.",
+      "sourceHash": "307d7f009ad7684e30ec128131e4a0d8449ecc49f32ff49a252ae208d7bb7a0e",
+      "context": "Themes > Creating Custom CSS Themes > Applying Custom CSS",
+      "contextHash": "fc3283bbcead8397b33c5780a98482f48119ea445f59fbe7a871d5a7f013ca33",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_565dd7e57e40f9ed85596a83_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__Add the__TRILIUM_PH_1__ __TRILIUM_PH_2__ __TRILIUM_PH_3__Label__TRILIUM_PH_4__: Annotate the note with the __TRILIUM_PH_5__ __TRILIUM_PH_6__label__TRILIUM_PH_7__.",
+      "sourceHash": "565dd7e57e40f9ed85596a83632584e3fc5e5fcb984f0600e16fa7380f64255b",
+      "context": "Themes > Creating Custom CSS Themes > Applying Custom CSS",
+      "contextHash": "fc3283bbcead8397b33c5780a98482f48119ea445f59fbe7a871d5a7f013ca33",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_01bef5f636af51fafae9d338_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__Write Your CSS__TRILIUM_PH_1__: Add your custom CSS rules to the note.",
+      "sourceHash": "01bef5f636af51fafae9d338932d0decae221b28f33810f3c17570b0efe085c9",
+      "context": "Themes > Creating Custom CSS Themes > Applying Custom CSS",
+      "contextHash": "fc3283bbcead8397b33c5780a98482f48119ea445f59fbe7a871d5a7f013ca33",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_1027d9e1431380cfd7e954a5_0",
+      "kind": "p",
+      "source": "For example:",
+      "sourceHash": "1027d9e1431380cfd7e954a5d4db80b11e206e376be8715fbf750ef9d78ae154",
+      "context": "Themes > Creating Custom CSS Themes > Applying Custom CSS",
+      "contextHash": "fc3283bbcead8397b33c5780a98482f48119ea445f59fbe7a871d5a7f013ca33",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_6091ed786d738406907798fb_0",
+      "kind": "p",
+      "source": "When Trilium's frontend starts, all notes labeled with __TRILIUM_PH_0__ are automatically included in the style element of the HTML page.",
+      "sourceHash": "6091ed786d738406907798fbdaf65fb58c3239a425257c73796e531c53d23137",
+      "context": "Themes > Creating Custom CSS Themes > Applying Custom CSS",
+      "contextHash": "fc3283bbcead8397b33c5780a98482f48119ea445f59fbe7a871d5a7f013ca33",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_268d516644b68de8452f290f_0",
+      "kind": "p",
+      "source": "After making changes, press Ctrl + R to reload the frontend and apply your new styles.",
+      "sourceHash": "268d516644b68de8452f290fd9a0ae7d78e33b42b37d8818049baeb5f0e5793b",
+      "context": "Themes > Creating Custom CSS Themes > Applying Custom CSS",
+      "contextHash": "fc3283bbcead8397b33c5780a98482f48119ea445f59fbe7a871d5a7f013ca33",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_33bf94a5827bd012a67f6770_0",
+      "kind": "h3",
+      "source": "Styling Specific Notes in the Tree__TRILIUM_PH_0__",
+      "sourceHash": "33bf94a5827bd012a67f677058aa1531b83c95dfb8361b09371f70a63831a254",
+      "context": "Themes > Creating Custom CSS Themes > Styling Specific Notes in the Tree",
+      "contextHash": "f1dad278cda630c8157eb349553a4474d0041875b6a46857d027863d821232c5",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_02ebe606a14fe40c65940f75_0",
+      "kind": "p",
+      "source": "To apply specific styles to certain notes in the tree:",
+      "sourceHash": "02ebe606a14fe40c65940f75d6044f5b89dce33d37bc6d58257f0b24d1281d25",
+      "context": "Themes > Creating Custom CSS Themes > Styling Specific Notes in the Tree",
+      "contextHash": "f1dad278cda630c8157eb349553a4474d0041875b6a46857d027863d821232c5",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_5c96cf7afd4de8d674bf37f9_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__Use the__TRILIUM_PH_1__ __TRILIUM_PH_2__ __TRILIUM_PH_3__Attribute__TRILIUM_PH_4__: Add the __TRILIUM_PH_5__ __TRILIUM_PH_6__attribute__TRILIUM_PH_7__ to a note, and assign it a value representing the desired CSS class.",
+      "sourceHash": "5c96cf7afd4de8d674bf37f9ea3c533e79cb3657d6d998bad61d1c88a3916382",
+      "context": "Themes > Creating Custom CSS Themes > Styling Specific Notes in the Tree",
+      "contextHash": "f1dad278cda630c8157eb349553a4474d0041875b6a46857d027863d821232c5",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_9602ce318fa41724bd597836_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__Define an__TRILIUM_PH_1__ __TRILIUM_PH_2__: You can also define a custom icon for a note using the __TRILIUM_PH_3__ attribute, selecting from __TRILIUM_PH_4__Box Icons__TRILIUM_PH_5__ or your own custom classes.",
+      "sourceHash": "9602ce318fa41724bd59783658a69c9b4a92939f640d2b31324d21ef6dc39761",
+      "context": "Themes > Creating Custom CSS Themes > Styling Specific Notes in the Tree",
+      "contextHash": "f1dad278cda630c8157eb349553a4474d0041875b6a46857d027863d821232c5",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_01cfcae3653f7e1ea8cc3387_0",
+      "kind": "p",
+      "source": "For example, if you want to style notes of a specific type, such as notes containing PNG images, you can target them with classes like __TRILIUM_PH_0__.",
+      "sourceHash": "01cfcae3653f7e1ea8cc3387144a6b31c57b3a6fae8189d37e0277a35458a526",
+      "context": "Themes > Creating Custom CSS Themes > Styling Specific Notes in the Tree",
+      "contextHash": "f1dad278cda630c8157eb349553a4474d0041875b6a46857d027863d821232c5",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_acc0186674dba2a58cc5e27a_0",
+      "kind": "h3",
+      "source": "User-Provided Themes__TRILIUM_PH_0__",
+      "sourceHash": "acc0186674dba2a58cc5e27ad5a3b8718dd5fc707be3af33e8cb6e135c0e9989",
+      "context": "Themes > Creating Custom CSS Themes > User-Provided Themes",
+      "contextHash": "4a5d0abad3711835ebea922be7746335b820f8bbe95b097fa58454b3d88c3ca1",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_a9cbd9642067ee2a0c4ec539_0",
+      "kind": "p",
+      "source": "A gallery of user-created themes is available, showcasing the variety of customizations that the Trilium community has developed. For more information, check the __TRILIUM_PH_0__Theme Gallery__TRILIUM_PH_1__.",
+      "sourceHash": "a9cbd9642067ee2a0c4ec539b7c462b3624aa6758ab44e96c990169145e5a18f",
+      "context": "Themes > Creating Custom CSS Themes > User-Provided Themes",
+      "contextHash": "4a5d0abad3711835ebea922be7746335b820f8bbe95b097fa58454b3d88c3ca1",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_b98146f72a7b3569e98cc73c_0",
+      "kind": "h3",
+      "source": "Asset Path Management__TRILIUM_PH_0__",
+      "sourceHash": "b98146f72a7b3569e98cc73ced038118251e88bcf4b7ae1ebea507a9d0f160d2",
+      "context": "Themes > Creating Custom CSS Themes > Asset Path Management",
+      "contextHash": "781fb38ee75f344916621546116bb3ac4087739f01b0cb0f9b2c331de674839a",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_a1b4ed37f706a53376a53144_0",
+      "kind": "p",
+      "source": "When referencing built-in assets like images in your custom themes or CSS, you can avoid hardcoding version numbers by using the __TRILIUM_PH_0__ alias. For example, instead of specifying __TRILIUM_PH_1__, you can use __TRILIUM_PH_2__ to keep your theme compatible with future versions of Trilium.",
+      "sourceHash": "a1b4ed37f706a53376a5314439b67eb284a0b2e4725a24a4f4d5a89c6130686a",
+      "context": "Themes > Creating Custom CSS Themes > Asset Path Management",
+      "contextHash": "781fb38ee75f344916621546116bb3ac4087739f01b0cb0f9b2c331de674839a",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_08f4f5493a4bd53cced2b554_0",
+      "kind": "image-alt",
+      "source": "Dark Theme",
+      "sourceHash": "08f4f5493a4bd53cced2b554a56fef3208ca504e6a7362843901e9a1475e6005",
+      "context": "Themes > Creating Custom CSS Themes > Asset Path Management",
+      "contextHash": "781fb38ee75f344916621546116bb3ac4087739f01b0cb0f9b2c331de674839a",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_3deef862bf82575764283b9c_0",
+      "kind": "image-alt",
+      "source": "Steel Blue Theme",
+      "sourceHash": "3deef862bf82575764283b9c1b3d3e10fa1641114ea1874bd007c2c7741ac454",
+      "context": "Themes > Creating Custom CSS Themes > Asset Path Management",
+      "contextHash": "781fb38ee75f344916621546116bb3ac4087739f01b0cb0f9b2c331de674839a",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_b190d47815633246b0ab18a6_0",
+      "kind": "image-alt",
+      "source": "記事画像",
+      "sourceHash": "b190d47815633246b0ab18a61d9b8e8ea36504fe3f8bc230a7753096915c9ff2",
+      "context": "Themes > Creating Custom CSS Themes > Asset Path Management",
+      "contextHash": "781fb38ee75f344916621546116bb3ac4087739f01b0cb0f9b2c331de674839a",
+      "status": "pending",
+      "active": true
+    }
+  ],
+  "requests": []
+}

@@ -1,0 +1,1915 @@
+{
+  "schemaVersion": 1,
+  "pageId": "RDslemsQ6gCp",
+  "sourceFile": "docs/User Guide/User Guide/Installation & Setup/Mobile Frontend.md",
+  "sourceRevision": "03d17b60f59b5efc29b880b11481471d0fe0ff57",
+  "units": [
+    {
+      "id": "u_4c4b3ba2aa9bed31efad6bc5_0",
+      "kind": "title",
+      "source": "Mobile Frontend",
+      "sourceHash": "4c4b3ba2aa9bed31efad6bc5b732a093ff9c0ab1e3799ecf241f5e05cd455919",
+      "context": "Mobile Frontend",
+      "contextHash": "abef9473aa82d921892243392543eee88d5f2ef9e5dfdea9e156e4b36c1477de",
+      "status": "translated",
+      "active": true,
+      "translation": "モバイルフロントエンド",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_23aca60853116a7ebad084f9_0",
+      "kind": "p",
+      "source": "Trilium has a mobile web frontend which is optimized for touch based devices - smartphones and tablets. It is activated automatically during login process based on browser detection.",
+      "sourceHash": "23aca60853116a7ebad084f91617f66d54906a321a07b2c53a6dfb6cafadabec",
+      "context": "Mobile Frontend",
+      "contextHash": "abef9473aa82d921892243392543eee88d5f2ef9e5dfdea9e156e4b36c1477de",
+      "status": "translated",
+      "active": true,
+      "translation": "Triliumには、スマートフォンやタブレットなどのタッチ操作デバイスに最適化されたモバイルWebフロントエンドがあります。ブラウザの検出に基づいて、ログインプロセス中に自動的に有効化されます。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_e69c38b05da1daac087a2a34_0",
+      "kind": "p",
+      "source": "Mobile frontend is limited in features compared to the full desktop version. See below for more details on this.",
+      "sourceHash": "e69c38b05da1daac087a2a34d64f001f60b795faabeda832fd8ac49bcd4a84e6",
+      "context": "Mobile Frontend",
+      "contextHash": "abef9473aa82d921892243392543eee88d5f2ef9e5dfdea9e156e4b36c1477de",
+      "status": "translated",
+      "active": true,
+      "translation": "モバイルフロントエンドは、完全なデスクトップ版と比較して機能が制限されています。詳細については以下をご覧ください。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_347154522578ad652f4f472a_0",
+      "kind": "h2",
+      "source": "Layout basics__TRILIUM_PH_0__",
+      "sourceHash": "347154522578ad652f4f472a550391b7046b7a74930af536eb9bf0588626e8bc",
+      "context": "Mobile Frontend > Layout basics",
+      "contextHash": "a36fa500a1d9151b09a106692e121faa3f902f7deeb6d8bd4a39c7de25e29c4c",
+      "status": "translated",
+      "active": true,
+      "translation": "レイアウトの基本__TRILIUM_PH_0__",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_c365a6f3cbea7547e8d10817_0",
+      "kind": "p",
+      "source": "Unlike the desktop version, the mobile version has a slightly different UI meant to better fit the constrained screens of a mobile phone.",
+      "sourceHash": "c365a6f3cbea7547e8d1081743e1bd4949e4b7725702cf4067255937cbc8c694",
+      "context": "Mobile Frontend > Layout basics",
+      "contextHash": "a36fa500a1d9151b09a106692e121faa3f902f7deeb6d8bd4a39c7de25e29c4c",
+      "status": "translated",
+      "active": true,
+      "translation": "デスクトップ版とは異なり、モバイル版ではスマートフォンの限られた画面によりよく適合するように、UIが少し異なっています。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_ad7506aa475db4da3be3774c_0",
+      "kind": "p",
+      "source": "Here is a non-exhaustive list of differences between the desktop version and the mobile one:",
+      "sourceHash": "ad7506aa475db4da3be3774ca196f980b4fc2a38ce9708698431daa6b3db464f",
+      "context": "Mobile Frontend > Layout basics",
+      "contextHash": "a36fa500a1d9151b09a106692e121faa3f902f7deeb6d8bd4a39c7de25e29c4c",
+      "status": "translated",
+      "active": true,
+      "translation": "デスクトップ版とモバイル版の違いについての（網羅的ではない）リストは次のとおりです。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_2c2ef73eab41242247a7e743_0",
+      "kind": "li",
+      "source": "On a phone, the __TRILIUM_PH_0__Note Tree__TRILIUM_PH_1__ lies under the note. The __TRILIUM_PH_2__ button in the top-left of the screen slides the note away to reveal the tree, on the folder holding the note, with the note highlighted. Opening a note from the tree slides it back in.",
+      "sourceHash": "2c2ef73eab41242247a7e7435d53694c90e49884d6939290cbae6c7c37e48534",
+      "context": "Mobile Frontend > Layout basics",
+      "contextHash": "a36fa500a1d9151b09a106692e121faa3f902f7deeb6d8bd4a39c7de25e29c4c",
+      "status": "translated",
+      "active": true,
+      "translation": "スマートフォンでは、__TRILIUM_PH_0__ノートツリー__TRILIUM_PH_1__はノートの下に配置されます。画面の左上にある__TRILIUM_PH_2__ボタンをタップすると、ノートがスライドして隠れ、ノートを保持しているフォルダー（ノートがハイライト表示されている状態）のツリーが表示されます。ツリーからノートを開くと、ノートがスライドして元に戻ります。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_a4579144fa2a0cd1e2de0da5_0",
+      "kind": "li",
+      "source": "To return to the note without opening it again, tap its title with the __TRILIUM_PH_0__ icon in the top-right of the tree, whichever folder the tree is showing.",
+      "sourceHash": "a4579144fa2a0cd1e2de0da5c9408edd62f757ab782855701220da3b4624ad5d",
+      "context": "Mobile Frontend > Layout basics",
+      "contextHash": "a36fa500a1d9151b09a106692e121faa3f902f7deeb6d8bd4a39c7de25e29c4c",
+      "status": "translated",
+      "active": true,
+      "translation": "ノートをもう一度開かずに戻るには、ツリーがどのフォルダーを表示しているかにかかわらず、ツリーの右上にある__TRILIUM_PH_0__アイコン付きのタイトルをタップします。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_1bc6042211d5efd979a52d72_0",
+      "kind": "li",
+      "source": "A swipe from the left edge of the screen also reveals the tree, but the system's or the browser's back gesture can take it over, depending on the platform.",
+      "sourceHash": "1bc6042211d5efd979a52d72328c90d127abda2853f0aa4514b41cc059d30f90",
+      "context": "Mobile Frontend > Layout basics",
+      "contextHash": "a36fa500a1d9151b09a106692e121faa3f902f7deeb6d8bd4a39c7de25e29c4c",
+      "status": "translated",
+      "active": true,
+      "translation": "画面の左端からスワイプしてもツリーが表示されますが、プラットフォームによってはシステムまたはブラウザの戻るジェスチャーがそれを上書きする場合があります。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_56afb4a460a09a47bb75e1d7_0",
+      "kind": "li",
+      "source": "Each tab remembers whether it was showing the tree or its note, and, for a tab left on the tree, the folder the tree was showing. Switching tabs brings both back. Once the tab shows its note again, its tree goes back to the folder holding the note.",
+      "sourceHash": "56afb4a460a09a47bb75e1d7a709b5c71be1361e74638b70e770c47f2b6e0c04",
+      "context": "Mobile Frontend > Layout basics",
+      "contextHash": "a36fa500a1d9151b09a106692e121faa3f902f7deeb6d8bd4a39c7de25e29c4c",
+      "status": "translated",
+      "active": true,
+      "translation": "各タブは、ツリーを表示していたかノートを表示していたかを記憶しており、ツリーのままにしたタブについては、ツリーが表示していたフォルダーも記憶します。タブを切り替えると、両方が元に戻ります。タブに再びノートが表示されると、そのツリーはノートを保持しているフォルダーに戻ります。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_f6189562831dbca74d80777d_0",
+      "kind": "li",
+      "source": "A new tab opens on the tree, at the root, with the __TRILIUM_PH_0__Workspaces__TRILIUM_PH_1__ and the __TRILIUM_PH_2__Bookmarks__TRILIUM_PH_3__, if there are any, listed above it. Tap a workspace to hoist the tab into it.",
+      "sourceHash": "f6189562831dbca74d80777d226ae315421a21b9fc3534fd04b8f4273b8e54ea",
+      "context": "Mobile Frontend > Layout basics",
+      "contextHash": "a36fa500a1d9151b09a106692e121faa3f902f7deeb6d8bd4a39c7de25e29c4c",
+      "status": "translated",
+      "active": true,
+      "translation": "新しいタブはツリーのルートで開き、その上に__TRILIUM_PH_0__ワークスペース__TRILIUM_PH_1__と__TRILIUM_PH_2__ブックマーク__TRILIUM_PH_3__（存在する場合）がリストされます。ワークスペースをタップすると、タブがその中にホイストされます。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_072496deac3a4dd31a61acfa_0",
+      "kind": "li",
+      "source": "In the Android app, the system back gesture or button closes the menu or dialog on top first, then a settings page in __TRILIUM_PH_0__Options__TRILIUM_PH_1__, then slides the note away to reveal the tree, then goes up one level in the tree. At the top of the tree, it sends the app to the background.",
+      "sourceHash": "072496deac3a4dd31a61acfa48337461fcad601c7ffe5e63fceea736e8d7e6c5",
+      "context": "Mobile Frontend > Layout basics",
+      "contextHash": "a36fa500a1d9151b09a106692e121faa3f902f7deeb6d8bd4a39c7de25e29c4c",
+      "status": "translated",
+      "active": true,
+      "translation": "Androidアプリでは、システムの戻るジェスチャーまたはボタンを押すと、最初に最上位のメニューまたはダイアログが閉じられ、次に__TRILIUM_PH_0__オプション__TRILIUM_PH_1__の設定ページが閉じられ、次にノートがスライドしてツリーが表示され、次にツリー内で1階層上に移動します。ツリーの一番上で、アプリがバックグラウンドに移行します。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_92f4a5fc2da470072afcce3d_0",
+      "kind": "li",
+      "source": "On wider screens, such as a tablet in landscape, the note tree is displayed as a sidebar next to the note instead. There, a __TRILIUM_PH_0__ button hides and shows it, and the choice is remembered together with the left pane of the desktop version.",
+      "sourceHash": "92f4a5fc2da470072afcce3d94a4710d56566235acd2199d6e0dd9b4a8df366e",
+      "context": "Mobile Frontend > Layout basics",
+      "contextHash": "a36fa500a1d9151b09a106692e121faa3f902f7deeb6d8bd4a39c7de25e29c4c",
+      "status": "translated",
+      "active": true,
+      "translation": "横向きのタブレットなどのより広い画面では、ノートツリーは代わりにノートの隣のサイドバーとして表示されます。そこでは、__TRILIUM_PH_0__ボタンで表示・非表示を切り替えることができ、その選択はデスクトップ版の左ペインとともに記憶されます。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_5df101db8321719c40f8f2aa_0",
+      "kind": "li",
+      "source": "A note with children shows a __TRILIUM_PH_0__ (on iOS, preceded by how many children it lists): tapping it lists its children, and tapping any other note opens it. The note whose children are listed stands at the top, with a preview of its content; tap it, or the __TRILIUM_PH_1__Open__TRILIUM_PH_2__ at its foot, to open it.",
+      "sourceHash": "5df101db8321719c40f8f2aadc3831d6356ff4b4942d781788225ec51d79bb06",
+      "context": "Mobile Frontend > Layout basics",
+      "contextHash": "a36fa500a1d9151b09a106692e121faa3f902f7deeb6d8bd4a39c7de25e29c4c",
+      "status": "translated",
+      "active": true,
+      "translation": "子ノートを持つノートには__TRILIUM_PH_0__が表示されます（iOSでは、リストされている子ノートの数が先頭に付きます）。これをタップすると子ノートがリストされ、他のノートをタップするとそれが開きます。子ノートがリストされているノートは最上部にあり、その内容のプレビューが表示されます。それをタップするか、フッターにある__TRILIUM_PH_1__開く__TRILIUM_PH_2__をタップすると、ノートが開きます。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_f1136c72aef8e5f8af568b43_0",
+      "kind": "li",
+      "source": "Press and hold a note to display the __TRILIUM_PH_0__Note tree contextual menu__TRILIUM_PH_1__. Opening a note in a new tab from it keeps the tree on screen, so you can open several notes in a row.",
+      "sourceHash": "f1136c72aef8e5f8af568b439c4a3a09b396378db86ea131ef71aa5a5383c4c5",
+      "context": "Mobile Frontend > Layout basics",
+      "contextHash": "a36fa500a1d9151b09a106692e121faa3f902f7deeb6d8bd4a39c7de25e29c4c",
+      "status": "translated",
+      "active": true,
+      "translation": "ノートを長押しすると、__TRILIUM_PH_0__ノートツリーのコンテキストメニュー__TRILIUM_PH_1__が表示されます。そこから新しいタブでノートを開くと、ツリーが画面に残るため、複数のノートを続けて開くことができます。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_6eef0fe007ccf98449a7980a_0",
+      "kind": "li",
+      "source": "The __TRILIUM_PH_0__Quick search__TRILIUM_PH_1__ bar is also displayed at the top of the note tree.",
+      "sourceHash": "6eef0fe007ccf98449a7980a9356ab93872d364c1d0232a66f719094aef29baf",
+      "context": "Mobile Frontend > Layout basics",
+      "contextHash": "a36fa500a1d9151b09a106692e121faa3f902f7deeb6d8bd4a39c7de25e29c4c",
+      "status": "translated",
+      "active": true,
+      "translation": "__TRILIUM_PH_0__クイック検索__TRILIUM_PH_1__バーもノートツリーの上部に表示されます。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_5b4f91528fe7c13175603d3b_0",
+      "kind": "li",
+      "source": "The full __TRILIUM_PH_0__Search__TRILIUM_PH_1__ function can be triggered either from either the __TRILIUM_PH_2__Global menu__TRILIUM_PH_3__ or from the __TRILIUM_PH_4__Launch Bar__TRILIUM_PH_5__, if configured.",
+      "sourceHash": "5b4f91528fe7c13175603d3bfe6750b28f7b7c50a3da2b76dfe9b8970e42b0bc",
+      "context": "Mobile Frontend > Layout basics",
+      "contextHash": "a36fa500a1d9151b09a106692e121faa3f902f7deeb6d8bd4a39c7de25e29c4c",
+      "status": "translated",
+      "active": true,
+      "translation": "フルバージョンの __TRILIUM_PH_0__Search__TRILIUM_PH_1__ 機能は、__TRILIUM_PH_2__Global menu__TRILIUM_PH_3__ または設定されている場合は __TRILIUM_PH_4__Launch Bar__TRILIUM_PH_5__ から実行できます。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_c04dab86ad3ad8074c445c6c_0",
+      "kind": "li",
+      "source": "The __TRILIUM_PH_0__Global menu__TRILIUM_PH_1__ is shorter: __TRILIUM_PH_2__New window__TRILIUM_PH_3__ and __TRILIUM_PH_4__Keyboard shortcuts__TRILIUM_PH_5__ are left out, and __TRILIUM_PH_6__Switch to desktop version__TRILIUM_PH_7__ is under __TRILIUM_PH_8__Advanced__TRILIUM_PH_9__.",
+      "sourceHash": "c04dab86ad3ad8074c445c6cd66cf09933ae32de0b83c84426507f8a85faafb5",
+      "context": "Mobile Frontend > Layout basics",
+      "contextHash": "a36fa500a1d9151b09a106692e121faa3f902f7deeb6d8bd4a39c7de25e29c4c",
+      "status": "translated",
+      "active": true,
+      "translation": "__TRILIUM_PH_0__Global menu__TRILIUM_PH_1__ はよりシンプルになっています。__TRILIUM_PH_2__New window__TRILIUM_PH_3__ と __TRILIUM_PH_4__Keyboard shortcuts__TRILIUM_PH_5__ が省略されており、__TRILIUM_PH_6__Switch to desktop version__TRILIUM_PH_7__ は __TRILIUM_PH_8__Advanced__TRILIUM_PH_9__ の下にあります。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_38d4835f2f6a735bc7e2c4cf_0",
+      "kind": "li",
+      "source": "The __TRILIUM_PH_0__Launch Bar__TRILIUM_PH_1__ is displayed at the bottom of the screen.",
+      "sourceHash": "38d4835f2f6a735bc7e2c4cf9194e41e6a9d6af86347f985cd3520fb29608fc8",
+      "context": "Mobile Frontend > Layout basics",
+      "contextHash": "a36fa500a1d9151b09a106692e121faa3f902f7deeb6d8bd4a39c7de25e29c4c",
+      "status": "translated",
+      "active": true,
+      "translation": "__TRILIUM_PH_0__Launch Bar__TRILIUM_PH_1__ は画面の下部に表示されます。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_75dae89cf3c0edc4d8b25dfd_0",
+      "kind": "li",
+      "source": "The launch bar uses a different configuration for icons than the desktop version. See the dedicated page for more information on how to configure it.",
+      "sourceHash": "75dae89cf3c0edc4d8b25dfd641a5dde15e6fa4847532015186154f086f073a6",
+      "context": "Mobile Frontend > Layout basics",
+      "contextHash": "a36fa500a1d9151b09a106692e121faa3f902f7deeb6d8bd4a39c7de25e29c4c",
+      "status": "translated",
+      "active": true,
+      "translation": "ローンチバーはデスクトップ版とは異なるアイコン設定を使用します。設定方法の詳細については、専用のページを参照してください。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_b3e53dad755943b84abce285_0",
+      "kind": "li",
+      "source": "Most of the note-related actions are grouped in the horizontal dots icon on the top-right of the note.",
+      "sourceHash": "b3e53dad755943b84abce2851fa95fdba92cb2dec001105b826f047393a6c13b",
+      "context": "Mobile Frontend > Layout basics",
+      "contextHash": "a36fa500a1d9151b09a106692e121faa3f902f7deeb6d8bd4a39c7de25e29c4c",
+      "status": "translated",
+      "active": true,
+      "translation": "ノート関連のアクションのほとんどは、ノートの右上にある横方向のドットアイコンにまとめられています。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_240faf364fb2f716e4741b63_0",
+      "kind": "li",
+      "source": "The __TRILIUM_PH_0__Right Sidebar__TRILIUM_PH_1__ is replaced by the note panel, a sheet that opens from the bottom of the screen with the __TRILIUM_PH_2__ button to the left of those dots. Its tabs (outline, attributes, connections, AI chat and widgets) are switched from a bar at the bottom of the sheet.",
+      "sourceHash": "240faf364fb2f716e4741b635c7cbddd77549702259fd48ec60b183efaefc86a",
+      "context": "Mobile Frontend > Layout basics",
+      "contextHash": "a36fa500a1d9151b09a106692e121faa3f902f7deeb6d8bd4a39c7de25e29c4c",
+      "status": "translated",
+      "active": true,
+      "translation": "__TRILIUM_PH_0__Right Sidebar__TRILIUM_PH_1__ はノートパネルに置き換わります。これは、それらのドットの左側にある __TRILIUM_PH_2__ ボタンを使用して画面の下部から開くシートです。そのタブ（アウトライン、属性、接続、AIチャット、ウィジェット）は、シートの下部にあるバーから切り替えます。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_08566edbf477c4384d969ccd_0",
+      "kind": "li",
+      "source": "In a text note, the formatting toolbar sits at the bottom of the screen. See __TRILIUM_PH_0__Editing text notes__TRILIUM_PH_1__ below.",
+      "sourceHash": "08566edbf477c4384d969ccd9c79f844dbb16dddbcfa9a55a11ddb2ff2c4271f",
+      "context": "Mobile Frontend > Layout basics",
+      "contextHash": "a36fa500a1d9151b09a106692e121faa3f902f7deeb6d8bd4a39c7de25e29c4c",
+      "status": "translated",
+      "active": true,
+      "translation": "テキストノートでは、書式設定ツールバーが画面の下部に配置されます。以下の __TRILIUM_PH_0__Editing text notes__TRILIUM_PH_1__ を参照してください。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_514ac74cd05959a9a7f00f4e_0",
+      "kind": "li",
+      "source": "On iOS, the buttons of the title row, the launch bar, the formatting toolbar, the menus that open from the bottom of the screen and short dialogs are translucent panes that float clear of the screen's edges, and the note scrolls beneath the title row and the launch bar. A dialog taller than half the screen is opaque and attached to the bottom of the screen instead. To make the panes opaque, go to __TRILIUM_PH_0__Options__TRILIUM_PH_1__ → __TRILIUM_PH_2__Appearance__TRILIUM_PH_3__ → __TRILIUM_PH_4__Performance__TRILIUM_PH_5__ and turn off __TRILIUM_PH_6__Background effects for menus, popups and panels__TRILIUM_PH_7__. On Android, the option is not shown and they are always opaque.",
+      "sourceHash": "514ac74cd05959a9a7f00f4eaa39e4c2cd098f28348e2c257a0dc3d2eafcee2a",
+      "context": "Mobile Frontend > Layout basics",
+      "contextHash": "a36fa500a1d9151b09a106692e121faa3f902f7deeb6d8bd4a39c7de25e29c4c",
+      "status": "translated",
+      "active": true,
+      "translation": "iOSでは、タイトル行のボタン、ローンチバー、書式設定ツールバー、画面下部から開くメニュー、および短いダイアログは、画面の端から離れて浮かぶ半透明のペインになり、ノートはタイトル行とローンチバーの下でスクロールします。画面の半分より高いダイアログは不透明になり、代わりに画面の下部に固定されます。ペインを不透明にするには、__TRILIUM_PH_0__Options__TRILIUM_PH_1__ → __TRILIUM_PH_2__Appearance__TRILIUM_PH_3__ → __TRILIUM_PH_4__Performance__TRILIUM_PH_5__ に移動し、__TRILIUM_PH_6__Background effects for menus, popups and panels__TRILIUM_PH_7__ をオフにします。Androidでは、このオプションは表示されず、常に不透明です。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_750398b0905e8300a60e038d_0",
+      "kind": "li",
+      "source": "While the on-screen keyboard is open, a __TRILIUM_PH_0__ button in the bottom-right corner, just above the keyboard, hides it. In a text note, the button is at the right end of the formatting toolbar. While a menu of the formatting toolbar is open in place of the keyboard, the button becomes a __TRILIUM_PH_1__, which closes the menu and brings the keyboard back. This works in every note type and in every text field, and is the only way to hide the keyboard in the iOS app, where the keyboard has no __TRILIUM_PH_2__Done__TRILIUM_PH_3__ button.",
+      "sourceHash": "750398b0905e8300a60e038d4171d3d04a87442577953b4026d0ac47b278a244",
+      "context": "Mobile Frontend > Layout basics",
+      "contextHash": "a36fa500a1d9151b09a106692e121faa3f902f7deeb6d8bd4a39c7de25e29c4c",
+      "status": "translated",
+      "active": true,
+      "translation": "オンスクリーンキーボードが開いている間は、キーボードのすぐ上の右下隅にある __TRILIUM_PH_0__ ボタンでキーボードを非表示にできます。テキストノートでは、このボタンは書式設定ツールバーの右端にあります。キーボードの代わりに書式設定ツールバーのメニューが開いている間は、ボタンが __TRILIUM_PH_1__ に変わり、メニューを閉じてキーボードを元に戻します。これはすべてのノートタイプおよびすべてのテキストフィールドで機能し、キーボードに __TRILIUM_PH_2__Done__TRILIUM_PH_3__ ボタンがないiOSアプリでキーボードを非表示にする唯一の方法です。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_408d304b92c84a1d6b05af39_0",
+      "kind": "li",
+      "source": "The __TRILIUM_PH_0__Tabs__TRILIUM_PH_1__ are grouped under a tab switcher in the __TRILIUM_PH_2__Launch Bar__TRILIUM_PH_3__, where the tabs are displayed in a full-screen grid with preview for easy switching, as well as additional options such as reopening closed tabs. On a phone, a tab left on the note tree shows the folder it was on, with the tab's note highlighted, instead of a preview of the note.",
+      "sourceHash": "408d304b92c84a1d6b05af3916e7d05bec960081d778c8738ee72054d340aee7",
+      "context": "Mobile Frontend > Layout basics",
+      "contextHash": "a36fa500a1d9151b09a106692e121faa3f902f7deeb6d8bd4a39c7de25e29c4c",
+      "status": "translated",
+      "active": true,
+      "translation": "__TRILIUM_PH_0__Tabs__TRILIUM_PH_1__ は、__TRILIUM_PH_2__Launch Bar__TRILIUM_PH_3__ 内のタブスイッチャーにまとめられています。ここでは、簡単に切り替えられるようにプレビュー付きの全画面グリッドでタブが表示され、閉じたタブの再開などの追加オプションも利用できます。スマートフォンでは、ノートツリーに残されたタブには、ノートのプレビューの代わりに、タブのノートが強調表示された、それが配置されていたフォルダが表示されます。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_05922a8175684a5131421f37_0",
+      "kind": "li",
+      "source": "Swipe left or right anywhere on the launch bar to go to the next or previous tab without opening the switcher. This works while the tab switcher is in the launch bar and all of the bar's buttons fit on the screen; when they do not, swiping scrolls the bar instead. The page follows your finger and reaches the other tab as your finger reaches the edge of the screen: let go less than a third of the way there to stay on the current tab, unless you flick. Past the first or the last tab, the page only stretches a little and springs back when you let go.",
+      "sourceHash": "05922a8175684a5131421f37cedd13ec2fdaec65f911ce7ae335477f8516f663",
+      "context": "Mobile Frontend > Layout basics",
+      "contextHash": "a36fa500a1d9151b09a106692e121faa3f902f7deeb6d8bd4a39c7de25e29c4c",
+      "status": "translated",
+      "active": true,
+      "translation": "スイッチャーを開かずに前または次のタブに移動するには、ローンチバー上の任意の場所を左右にスワイプします。これは、タブスイッチャーがローンチバー内にあり、バーのすべてのボタンが画面内に収まる場合に機能します。収まらない場合、スワイプするとバーがスクロールします。ページは指に追従し、指が画面の端に達すると別のタブに到達します。フリックしない限り、途中の3分の1未満で離すと現在のタブにとどまります。最初または最後のタブを超えると、ページはわずかに伸び、離すと元の位置に戻ります。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_8e5d5d87b863d2e9e0955adb_0",
+      "kind": "li",
+      "source": "Since v0.100.0, __TRILIUM_PH_0__Split View__TRILIUM_PH_1__ can also be used in mobile view, but with a maximum of two panes at once. The splits are displayed vertically instead of horizontally.",
+      "sourceHash": "8e5d5d87b863d2e9e0955adb5ee566ae0f98edaa46cf5d46691aaba5ed5922a4",
+      "context": "Mobile Frontend > Layout basics",
+      "contextHash": "a36fa500a1d9151b09a106692e121faa3f902f7deeb6d8bd4a39c7de25e29c4c",
+      "status": "translated",
+      "active": true,
+      "translation": "v0.100.0以降、__TRILIUM_PH_0__Split View__TRILIUM_PH_1__ はモバイルビューでも使用できるようになりましたが、一度に最大2つのペインまでとなります。分割は水平方向ではなく垂直方向に表示されます。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_4f58e3fc6eff7c598b064c49_0",
+      "kind": "h2",
+      "source": "Editing text notes__TRILIUM_PH_0__",
+      "sourceHash": "4f58e3fc6eff7c598b064c49b60e4d24d40a3e5be9ac9e96799d571ac8784d15",
+      "context": "Mobile Frontend > Editing text notes",
+      "contextHash": "866cdc8751d7f7a90d94101c50150b648a59c6fa64b7b231e84501844d5d6bad",
+      "status": "translated",
+      "active": true,
+      "translation": "テキストノートの編集__TRILIUM_PH_0__",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_2874f79475ef5aad30b94b66_0",
+      "kind": "h3",
+      "source": "The formatting toolbar__TRILIUM_PH_0__",
+      "sourceHash": "2874f79475ef5aad30b94b66e72c022aa7f74543dfdbe47a2a8983c3cf2ba956",
+      "context": "Mobile Frontend > Editing text notes > The formatting toolbar",
+      "contextHash": "fcfa95697f0ad2e6d0a45ad921babfa9d0dbd63c24764ee7639e793ffb3e74eb",
+      "status": "translated",
+      "active": true,
+      "translation": "書式設定ツールバー__TRILIUM_PH_0__",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_a6200bb35c63d554c32df3ad_0",
+      "kind": "p",
+      "source": "In a text note, the formatting toolbar sits at the bottom of the screen as a single row that scrolls sideways. It is shown only while you are editing the text, and hides when you hide the keyboard or move to another field, such as the note title. From left to right, it holds:",
+      "sourceHash": "a6200bb35c63d554c32df3ad2825284ab55142da13cb8be0c2b50e469b4405ee",
+      "context": "Mobile Frontend > Editing text notes > The formatting toolbar",
+      "contextHash": "fcfa95697f0ad2e6d0a45ad921babfa9d0dbd63c24764ee7639e793ffb3e74eb",
+      "status": "translated",
+      "active": true,
+      "translation": "テキストノートでは、書式設定ツールバーは横方向にスクロールする1行として画面の下部に配置されます。これはテキストを編集している間のみ表示され、キーボードを非表示にするか、ノートのタイトルなどの別のフィールドに移動すると非表示になります。左から順に次のものが含まれています：",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_e8c230c2a1ca3489c44bc5d9_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__Undo__TRILIUM_PH_1__ and __TRILIUM_PH_2__Redo__TRILIUM_PH_3__, since the on-screen keyboard has no keys for them.",
+      "sourceHash": "e8c230c2a1ca3489c44bc5d9095d0cd7ca42ef17e150ece582a1c45c680414ae",
+      "context": "Mobile Frontend > Editing text notes > The formatting toolbar",
+      "contextHash": "fcfa95697f0ad2e6d0a45ad921babfa9d0dbd63c24764ee7639e793ffb3e74eb",
+      "status": "translated",
+      "active": true,
+      "translation": "__TRILIUM_PH_0__Undo__TRILIUM_PH_1__ と __TRILIUM_PH_2__Redo__TRILIUM_PH_3__。オンスクリーンキーボードにはこれらに対応するキーがないためです。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_86d74b23792f289db5e9ce21_0",
+      "kind": "li",
+      "source": "A highlighted button naming the element the cursor is in, such as __TRILIUM_PH_0__Table ›__TRILIUM_PH_1__ or __TRILIUM_PH_2__List ›__TRILIUM_PH_3__, when it is in one. See __TRILIUM_PH_4__Tables, images and other elements__TRILIUM_PH_5__ and __TRILIUM_PH_6__Lists__TRILIUM_PH_7__ below.",
+      "sourceHash": "86d74b23792f289db5e9ce2156c33e264832504388948d128cc7adb4cd8f306b",
+      "context": "Mobile Frontend > Editing text notes > The formatting toolbar",
+      "contextHash": "fcfa95697f0ad2e6d0a45ad921babfa9d0dbd63c24764ee7639e793ffb3e74eb",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_d9e9ccdf6ce0f307e96669ec_0",
+      "kind": "li",
+      "source": "The __TRILIUM_PH_0__ block type button, __TRILIUM_PH_1__ to insert content, and __TRILIUM_PH_2__ for the formatting applied to text.",
+      "sourceHash": "d9e9ccdf6ce0f307e96669ecd51237c4c65f0bb2887639483e080c3d8425110a",
+      "context": "Mobile Frontend > Editing text notes > The formatting toolbar",
+      "contextHash": "fcfa95697f0ad2e6d0a45ad921babfa9d0dbd63c24764ee7639e793ffb3e74eb",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_481124ba0a065f5bbee4c640_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__ to add a link and __TRILIUM_PH_1__ to attach a file.",
+      "sourceHash": "481124ba0a065f5bbee4c640ef0640645e89b7dab3479609ff30081a27f324fd",
+      "context": "Mobile Frontend > Editing text notes > The formatting toolbar",
+      "contextHash": "fcfa95697f0ad2e6d0a45ad921babfa9d0dbd63c24764ee7639e793ffb3e74eb",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_99bea30c9619505026dca3d7_0",
+      "kind": "li",
+      "source": "The indentation buttons, then __TRILIUM_PH_0__ and __TRILIUM_PH_1__, which move the current block, or the selected blocks, up or down, as __TRILIUM_PH_2__Alt__TRILIUM_PH_3__+__TRILIUM_PH_4__↑__TRILIUM_PH_5__ and __TRILIUM_PH_6__Alt__TRILIUM_PH_7__+__TRILIUM_PH_8__↓__TRILIUM_PH_9__ do on a keyboard. Inside a table they move the row instead.",
+      "sourceHash": "99bea30c9619505026dca3d7b0954909dd0e03a2e3b8a371cf5857b41eec6119",
+      "context": "Mobile Frontend > Editing text notes > The formatting toolbar",
+      "contextHash": "fcfa95697f0ad2e6d0a45ad921babfa9d0dbd63c24764ee7639e793ffb3e74eb",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_d6a75a433dd556f1ab3afd8e_0",
+      "kind": "li",
+      "source": "The __TRILIUM_PH_0__ AI assistant button, shown once a provider is configured, which opens its quick actions as a menu at the bottom of the screen, with __TRILIUM_PH_1__Ask AI…__TRILIUM_PH_2__ at its top.",
+      "sourceHash": "d6a75a433dd556f1ab3afd8e60b406fcedf621847818a72ac976b08a2ea4467b",
+      "context": "Mobile Frontend > Editing text notes > The formatting toolbar",
+      "contextHash": "fcfa95697f0ad2e6d0a45ad921babfa9d0dbd63c24764ee7639e793ffb3e74eb",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_f70aebef0f165227a2e64b51_0",
+      "kind": "p",
+      "source": "While the keyboard is open, the __TRILIUM_PH_0__ button at the right end of the toolbar hides it.",
+      "sourceHash": "f70aebef0f165227a2e64b51a814304a19fb143c1835da7d90be9fb8ece50c09",
+      "context": "Mobile Frontend > Editing text notes > The formatting toolbar",
+      "contextHash": "fcfa95697f0ad2e6d0a45ad921babfa9d0dbd63c24764ee7639e793ffb3e74eb",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_aa26ae37cd587314bcf8afea_0",
+      "kind": "p",
+      "source": "The hints in the corner of the editor that explain the element under the cursor, such as a to-do item's state and its shortcut, are not shown, whatever the __TRILIUM_PH_0__Content hints__TRILIUM_PH_1__ setting under __TRILIUM_PH_2__Options__TRILIUM_PH_3__ → __TRILIUM_PH_4__Text Notes__TRILIUM_PH_5__ → __TRILIUM_PH_6__Features__TRILIUM_PH_7__.",
+      "sourceHash": "aa26ae37cd587314bcf8afea3506a0ffaed1c3f76f6415d200eb1b64c1a1f77e",
+      "context": "Mobile Frontend > Editing text notes > The formatting toolbar",
+      "contextHash": "fcfa95697f0ad2e6d0a45ad921babfa9d0dbd63c24764ee7639e793ffb3e74eb",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_6e5075a288916e7d8cce67d6_0",
+      "kind": "h3",
+      "source": "Inserting content__TRILIUM_PH_0__",
+      "sourceHash": "6e5075a288916e7d8cce67d6dcaae8b8a69f9d8911b143715ae7bf0c311a6619",
+      "context": "Mobile Frontend > Editing text notes > Inserting content",
+      "contextHash": "ae7b08b14cbaf637e7c09e596c4642abc4dded7381105fd22e502f28776ddd37",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_622ec79047b9b246151b4b20_0",
+      "kind": "p",
+      "source": "The __TRILIUM_PH_0__ button opens insertions as tiles at the bottom of the screen:",
+      "sourceHash": "622ec79047b9b246151b4b20155bc8bf917ff1608f768cb1b0be346ca95d30ec",
+      "context": "Mobile Frontend > Editing text notes > Inserting content",
+      "contextHash": "ae7b08b14cbaf637e7c09e596c4642abc4dded7381105fd22e502f28776ddd37",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_5fafb430e5cf4a750a7d7ba5_0",
+      "kind": "li",
+      "source": "Image, table and to-do list.",
+      "sourceHash": "5fafb430e5cf4a750a7d7ba514dcc3aaef6228c88629cdd8fcdb310ac7cfdd3d",
+      "context": "Mobile Frontend > Editing text notes > Inserting content",
+      "contextHash": "ae7b08b14cbaf637e7c09e596c4642abc4dded7381105fd22e502f28776ddd37",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_0ec202ae7ca0083dd893e610_0",
+      "kind": "li",
+      "source": "Code block, block quote and admonition.",
+      "sourceHash": "0ec202ae7ca0083dd893e6109e33af4361a180544b780d844f795c51f0cd84c1",
+      "context": "Mobile Frontend > Editing text notes > Inserting content",
+      "contextHash": "ae7b08b14cbaf637e7c09e596c4642abc4dded7381105fd22e502f28776ddd37",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_62ebf3787290df1ea74692ad_0",
+      "kind": "li",
+      "source": "The less common collapsible, tabs, columns, horizontal line, page break, footnote, math, drawing canvas, Mermaid diagram, bookmark, link and content embeds, special characters, emoji, icon, date/time, template and Markdown import.",
+      "sourceHash": "62ebf3787290df1ea74692ad3d5dac28972043a4800fdb229839c1c037d634fe",
+      "context": "Mobile Frontend > Editing text notes > Inserting content",
+      "contextHash": "ae7b08b14cbaf637e7c09e596c4642abc4dded7381105fd22e502f28776ddd37",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_b5716a48b27bd39de3430def_0",
+      "kind": "p",
+      "source": "The image is also under the paperclip, and the to-do list, code block, block quote and admonition are also in the block type button.",
+      "sourceHash": "b5716a48b27bd39de3430defc2e777ae6ae09b41dd759646d97bd1178d895a04",
+      "context": "Mobile Frontend > Editing text notes > Inserting content",
+      "contextHash": "ae7b08b14cbaf637e7c09e596c4642abc4dded7381105fd22e502f28776ddd37",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_d3ba81aff6270a31e935e56e_0",
+      "kind": "p",
+      "source": "The tiles marked with __TRILIUM_PH_0__ open a list of choices:",
+      "sourceHash": "d3ba81aff6270a31e935e56e9d13b5cff517214c03c7cea8d161582c680bd004",
+      "context": "Mobile Frontend > Editing text notes > Inserting content",
+      "contextHash": "ae7b08b14cbaf637e7c09e596c4642abc4dded7381105fd22e502f28776ddd37",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_1e9d26321880d6911432e12c_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__Code block__TRILIUM_PH_1__: the language.",
+      "sourceHash": "1e9d26321880d6911432e12c620d2286887dfca6e90eb52d410eca2cbd49530a",
+      "context": "Mobile Frontend > Editing text notes > Inserting content",
+      "contextHash": "ae7b08b14cbaf637e7c09e596c4642abc4dded7381105fd22e502f28776ddd37",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_140e6445a8ee8245f459783b_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__Admonition__TRILIUM_PH_1__: its type.",
+      "sourceHash": "140e6445a8ee8245f459783b11c04462eab41160342370116e8bed477b21b358",
+      "context": "Mobile Frontend > Editing text notes > Inserting content",
+      "contextHash": "ae7b08b14cbaf637e7c09e596c4642abc4dded7381105fd22e502f28776ddd37",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_25d4fd1e61ca81d1da87380f_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__Insert table__TRILIUM_PH_1__: the size of the table.",
+      "sourceHash": "25d4fd1e61ca81d1da87380ff4a40951b4c3c1643e93df5b394a1f9ee0e0d984",
+      "context": "Mobile Frontend > Editing text notes > Inserting content",
+      "contextHash": "ae7b08b14cbaf637e7c09e596c4642abc4dded7381105fd22e502f28776ddd37",
+      "status": "translated",
+      "active": true,
+      "translation": "__TRILIUM_PH_0__テーブルの挿入__TRILIUM_PH_1__：テーブルのサイズです。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_f4327802a296683ca7c5e027_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__Columns__TRILIUM_PH_1__: the number of columns.",
+      "sourceHash": "f4327802a296683ca7c5e0274f6a7457cbbd6a9f68f858ca26a47659e58a7cb4",
+      "context": "Mobile Frontend > Editing text notes > Inserting content",
+      "contextHash": "ae7b08b14cbaf637e7c09e596c4642abc4dded7381105fd22e502f28776ddd37",
+      "status": "translated",
+      "active": true,
+      "translation": "__TRILIUM_PH_0__列__TRILIUM_PH_1__：列の数です。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_6daa0c1cd39bed8891e26887_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__Footnote__TRILIUM_PH_1__: a new footnote or a reference to an existing one.",
+      "sourceHash": "6daa0c1cd39bed8891e26887dd540b31bb84a1064984ae86f2f31516dfc418b3",
+      "context": "Mobile Frontend > Editing text notes > Inserting content",
+      "contextHash": "ae7b08b14cbaf637e7c09e596c4642abc4dded7381105fd22e502f28776ddd37",
+      "status": "translated",
+      "active": true,
+      "translation": "__TRILIUM_PH_0__脚注__TRILIUM_PH_1__：新しい脚注、または既存の脚注への参照です。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_b9df1e359803c5b4f2aafbc8_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__Date/time__TRILIUM_PH_1__: the format of the date and time.",
+      "sourceHash": "b9df1e359803c5b4f2aafbc8aa05b4c3dbc81a39a105e076c9f9475e97e10bef",
+      "context": "Mobile Frontend > Editing text notes > Inserting content",
+      "contextHash": "ae7b08b14cbaf637e7c09e596c4642abc4dded7381105fd22e502f28776ddd37",
+      "status": "translated",
+      "active": true,
+      "translation": "__TRILIUM_PH_0__日付/時刻__TRILIUM_PH_1__：日付と時刻の形式です。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_81b6010450369195a97d3c36_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__Insert text snippet__TRILIUM_PH_1__: the template to insert. It is grayed out while there are none.",
+      "sourceHash": "81b6010450369195a97d3c36d6da4a9f247d3c3bebd7592a0d25dba910392dd3",
+      "context": "Mobile Frontend > Editing text notes > Inserting content",
+      "contextHash": "ae7b08b14cbaf637e7c09e596c4642abc4dded7381105fd22e502f28776ddd37",
+      "status": "translated",
+      "active": true,
+      "translation": "__TRILIUM_PH_0__テキストスニペットの挿入__TRILIUM_PH_1__：挿入するテンプレートです。テンプレートがない場合はグレーアウトされます。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_b44c048cab648e31ad95c5c3_0",
+      "kind": "h3",
+      "source": "Block types__TRILIUM_PH_0__",
+      "sourceHash": "b44c048cab648e31ad95c5c3fd782fa5794efed48865954005d6ec37c3bab859",
+      "context": "Mobile Frontend > Editing text notes > Block types",
+      "contextHash": "f43cf460775c0a03b66ac3119ac5809e557d9b011ea024b0bef21016fef5161b",
+      "status": "translated",
+      "active": true,
+      "translation": "ブロックの種類__TRILIUM_PH_0__",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_031a15109e13f8db14e8ca15_0",
+      "kind": "p",
+      "source": "The __TRILIUM_PH_0__ block type button opens the block types as tiles at the bottom of the screen, with the current one highlighted:",
+      "sourceHash": "031a15109e13f8db14e8ca15102ee0f8ec61118e7dfe5654ae16595f33c76a14",
+      "context": "Mobile Frontend > Editing text notes > Block types",
+      "contextHash": "f43cf460775c0a03b66ac3119ac5809e557d9b011ea024b0bef21016fef5161b",
+      "status": "translated",
+      "active": true,
+      "translation": "__TRILIUM_PH_0__ブロックの種類ボタンをタップすると、画面の下部にブロックの種類がタイル状に表示され、現在のブロックの種類がハイライトされます：",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_2d570f7faf79c67e1cb5a877_0",
+      "kind": "li",
+      "source": "Paragraph and heading 2 to 6.",
+      "sourceHash": "2d570f7faf79c67e1cb5a8776d39085335574e51d09ddfb7fbee77ea87717356",
+      "context": "Mobile Frontend > Editing text notes > Block types",
+      "contextHash": "f43cf460775c0a03b66ac3119ac5809e557d9b011ea024b0bef21016fef5161b",
+      "status": "translated",
+      "active": true,
+      "translation": "段落、および見出し2から6。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_b145b2dd5e32dff9d927bc45_0",
+      "kind": "li",
+      "source": "Bulleted list, numbered list and to-do list.",
+      "sourceHash": "b145b2dd5e32dff9d927bc4501b07b377a5da524f676b19c5182d86d2138c917",
+      "context": "Mobile Frontend > Editing text notes > Block types",
+      "contextHash": "f43cf460775c0a03b66ac3119ac5809e557d9b011ea024b0bef21016fef5161b",
+      "status": "translated",
+      "active": true,
+      "translation": "箇条書きリスト、番号付きリスト、およびToDoリスト。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_0ec202ae7ca0083dd893e610_1",
+      "kind": "li",
+      "source": "Code block, block quote and admonition.",
+      "sourceHash": "0ec202ae7ca0083dd893e6109e33af4361a180544b780d844f795c51f0cd84c1",
+      "context": "Mobile Frontend > Editing text notes > Block types",
+      "contextHash": "f43cf460775c0a03b66ac3119ac5809e557d9b011ea024b0bef21016fef5161b",
+      "status": "translated",
+      "active": true,
+      "translation": "コードブロック、引用、およびアドモニション。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_61d14856cd338aed89132fb5_0",
+      "kind": "p",
+      "source": "Picking a paragraph or a heading in a list turns the item back into plain text, and the same goes for a code block. Block quote and admonition wrap the current block rather than replace it, so they are highlighted alongside it; pick one again to remove it.",
+      "sourceHash": "61d14856cd338aed89132fb590c1e1686c3722f0800111e76279c76192026445",
+      "context": "Mobile Frontend > Editing text notes > Block types",
+      "contextHash": "f43cf460775c0a03b66ac3119ac5809e557d9b011ea024b0bef21016fef5161b",
+      "status": "translated",
+      "active": true,
+      "translation": "リスト内で段落や見出しを選択すると、項目が通常のテキストに戻ります。コードブロックも同様です。引用とアドモニションは項目を置き換えるのではなく現在のブロックを囲むため、ブロックと並行してハイライトされます。もう一度選択すると解除されます。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_d71078ab56bcfad0d5ff1f3b_0",
+      "kind": "p",
+      "source": "Typing __TRILIUM_PH_0__ , __TRILIUM_PH_1__ or __TRILIUM_PH_2__ at the start of a line also starts a list.",
+      "sourceHash": "d71078ab56bcfad0d5ff1f3bd67e552ec6f0a6f3cf04b3f67132b81d2461e815",
+      "context": "Mobile Frontend > Editing text notes > Block types",
+      "contextHash": "f43cf460775c0a03b66ac3119ac5809e557d9b011ea024b0bef21016fef5161b",
+      "status": "translated",
+      "active": true,
+      "translation": "行頭で __TRILIUM_PH_0__ 、 __TRILIUM_PH_1__ または __TRILIUM_PH_2__ と入力することでもリストを開始できます。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_ae712971d397bc8dc8993b2e_0",
+      "kind": "h3",
+      "source": "Lists__TRILIUM_PH_0__",
+      "sourceHash": "ae712971d397bc8dc8993b2e50792dd99261162fa280e81da480082bbcd2d612",
+      "context": "Mobile Frontend > Editing text notes > Lists",
+      "contextHash": "201c107dc33f336654fd97bd62c1b878467f1fc76091633d7c2b9ab471c7baf1",
+      "status": "translated",
+      "active": true,
+      "translation": "リスト__TRILIUM_PH_0__",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_a93cd7adf70b9bf6c8467637_0",
+      "kind": "p",
+      "source": "While the cursor is in a list, a __TRILIUM_PH_0__List ›__TRILIUM_PH_1__ button follows __TRILIUM_PH_2__Undo__TRILIUM_PH_3__ and __TRILIUM_PH_4__Redo__TRILIUM_PH_5__. Its row holds:",
+      "sourceHash": "a93cd7adf70b9bf6c8467637ec927b27c5076aa079b89d32ccb1d2670a5eb965",
+      "context": "Mobile Frontend > Editing text notes > Lists",
+      "contextHash": "201c107dc33f336654fd97bd62c1b878467f1fc76091633d7c2b9ab471c7baf1",
+      "status": "translated",
+      "active": true,
+      "translation": "カーソルがリスト内にある間は、__TRILIUM_PH_0__Undo__TRILIUM_PH_1__ および __TRILIUM_PH_2__Redo__TRILIUM_PH_3__ の後ろに __TRILIUM_PH_4__List ›__TRILIUM_PH_5__ ボタンが続きます。その行には以下が含まれます：",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_9e27d8163476e560e85da584_0",
+      "kind": "li",
+      "source": "The indentation buttons and the buttons that move the item up or down, as on the main row.",
+      "sourceHash": "9e27d8163476e560e85da584d1ec34826589b5b9b2a49033b8bf289d54484e15",
+      "context": "Mobile Frontend > Editing text notes > Lists",
+      "contextHash": "201c107dc33f336654fd97bd62c1b878467f1fc76091633d7c2b9ab471c7baf1",
+      "status": "translated",
+      "active": true,
+      "translation": "メイン行と同様に、インデントボタンと、項目を上下に移動するボタン。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_e2441a28d05c7081149d4461_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__List type__TRILIUM_PH_1__, which opens the to-do list and the markers of bulleted and numbered lists (such as squares or roman numerals) as tiles, the markers under the kind of each, with the current one highlighted. Picking a tile of another kind also turns the list into that kind, such as a bulleted list into a numbered one or a to-do list back into a bulleted one.",
+      "sourceHash": "e2441a28d05c7081149d446159dc2cf5899e4e324c8523c15ab0379acbaea97f",
+      "context": "Mobile Frontend > Editing text notes > Lists",
+      "contextHash": "201c107dc33f336654fd97bd62c1b878467f1fc76091633d7c2b9ab471c7baf1",
+      "status": "translated",
+      "active": true,
+      "translation": "__TRILIUM_PH_0__リストの種類__TRILIUM_PH_1__。これをタップすると、ToDoリスト、および箇条書きや番号付きリストのマーカー（四角形やローマ数字など）が、種類ごとに分類されたタイルとして開き、現在のものがハイライトされます。別の種類のタイルを選択すると、箇条書きリストを番号付きリストに変更したり、ToDoリストを箇条書きリストに戻したりするように、リストの種類がその形式に変更されます。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_a0efbe2ea1c8ce5528d60e74_0",
+      "kind": "li",
+      "source": "In a numbered list, __TRILIUM_PH_0__Start at__TRILIUM_PH_1__, which asks for the number the list starts at, and __TRILIUM_PH_2__ __TRILIUM_PH_3__Reversed order__TRILIUM_PH_4__, which is highlighted while the list counts down.",
+      "sourceHash": "a0efbe2ea1c8ce5528d60e7456a38967d275785ebaa352509e8dacc96983f6f8",
+      "context": "Mobile Frontend > Editing text notes > Lists",
+      "contextHash": "201c107dc33f336654fd97bd62c1b878467f1fc76091633d7c2b9ab471c7baf1",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_e1ba135a7b6c217f7de3a591_0",
+      "kind": "li",
+      "source": "In a to-do list, a button for each task state, followed by __TRILIUM_PH_0__ to edit the states.",
+      "sourceHash": "e1ba135a7b6c217f7de3a59193d1d6c022ad61a81022eeacb92dd199870f0215",
+      "context": "Mobile Frontend > Editing text notes > Lists",
+      "contextHash": "201c107dc33f336654fd97bd62c1b878467f1fc76091633d7c2b9ab471c7baf1",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_c31bdf768cca1d75b3267309_0",
+      "kind": "p",
+      "source": "Starting a list, from the block type button, the insert menu or by typing __TRILIUM_PH_0__ , __TRILIUM_PH_1__ or __TRILIUM_PH_2__, shows this row right away. It stays closed once you tap the back button, until you start another list.",
+      "sourceHash": "c31bdf768cca1d75b3267309c5e0af8e9548956887c7c07f938fc118c3fc2f90",
+      "context": "Mobile Frontend > Editing text notes > Lists",
+      "contextHash": "201c107dc33f336654fd97bd62c1b878467f1fc76091633d7c2b9ab471c7baf1",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_27187eab7052e2ad83bb3661_0",
+      "kind": "h3",
+      "source": "Tables, images and other elements__TRILIUM_PH_0__",
+      "sourceHash": "27187eab7052e2ad83bb366130aef73362acc019762ae63acd4f68792072f8c4",
+      "context": "Mobile Frontend > Editing text notes > Tables, images and other elements",
+      "contextHash": "4e6ceed864f98d1c009ec9586b1eea8f13b4ae30902243c7698fe2030ef63dc3",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_fd04e744067e00772e599a0d_0",
+      "kind": "p",
+      "source": "While the cursor is in a table, an image, a code block, a link or another element that has a toolbar of its own on desktop, a highlighted button naming that element, such as __TRILIUM_PH_0__Table ›__TRILIUM_PH_1__, follows __TRILIUM_PH_2__Undo__TRILIUM_PH_3__ and __TRILIUM_PH_4__Redo__TRILIUM_PH_5__. It replaces the formatting toolbar with the element's toolbar, which starts with a back button that closes it again, followed by the element's name ahead of its tools. The button goes away when the cursor leaves the element.",
+      "sourceHash": "fd04e744067e00772e599a0dc2f0c43e506864aee3d7176411012d6d72d67845",
+      "context": "Mobile Frontend > Editing text notes > Tables, images and other elements",
+      "contextHash": "4e6ceed864f98d1c009ec9586b1eea8f13b4ae30902243c7698fe2030ef63dc3",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_2f6a9f0164948551f4f3b940_0",
+      "kind": "p",
+      "source": "Selecting an element as a whole, such as an image, or tapping a link shows its toolbar right away; tap the back button to return to the formatting toolbar.",
+      "sourceHash": "2f6a9f0164948551f4f3b9401b8ff859484f8002235165c401c60c8e27ced868",
+      "context": "Mobile Frontend > Editing text notes > Tables, images and other elements",
+      "contextHash": "4e6ceed864f98d1c009ec9586b1eea8f13b4ae30902243c7698fe2030ef63dc3",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_2540c0a9208cd9401bf524ca_0",
+      "kind": "p",
+      "source": "Buttons of the element's toolbar with a list of choices, such as the column and row actions of a table, open that list as a menu at the bottom of the screen, where an option that is on or off, such as a table's header row, is a switch.",
+      "sourceHash": "2540c0a9208cd9401bf524ca58a54088db01a298dcc394ebd42f96e9d8f8e5ec",
+      "context": "Mobile Frontend > Editing text notes > Tables, images and other elements",
+      "contextHash": "4e6ceed864f98d1c009ec9586b1eea8f13b4ae30902243c7698fe2030ef63dc3",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_d3b4e46f96c0c6a03f4a66dc_0",
+      "kind": "h3",
+      "source": "Formatting text__TRILIUM_PH_0__",
+      "sourceHash": "d3b4e46f96c0c6a03f4a66dc9c1461b1d30a8caca2a46fa38c4ea5c2fa36c990",
+      "context": "Mobile Frontend > Editing text notes > Formatting text",
+      "contextHash": "68e48b1b96cb425f5bce1809ba98cf690d86a0d099f8a9778b26f8c1e2b09e16",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_902c8779653f767e8ad72d41_0",
+      "kind": "p",
+      "source": "The formatting applied to text (bold, italic, underline, strikethrough, inline code, superscript and subscript, keyboard shortcut, font size and colors, and removing formatting) is on a row of its own, followed by the left, center, right and justify alignments of the current block, with the current one highlighted. The row ends with __TRILIUM_PH_0__ to cut the selection into a sub-note.",
+      "sourceHash": "902c8779653f767e8ad72d41b65b7b55c70a3bb0d6c5728e2e7184f1b1417cbe",
+      "context": "Mobile Frontend > Editing text notes > Formatting text",
+      "contextHash": "68e48b1b96cb425f5bce1809ba98cf690d86a0d099f8a9778b26f8c1e2b09e16",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_6fa42c26968a33745151484f_0",
+      "kind": "li",
+      "source": "Tap __TRILIUM_PH_0__ after the __TRILIUM_PH_1__ button to show it, and __TRILIUM_PH_2__ at its start to return to the main row.",
+      "sourceHash": "6fa42c26968a33745151484f8211acc85452af2f3383f29f7ec6a43557373c38",
+      "context": "Mobile Frontend > Editing text notes > Formatting text",
+      "contextHash": "68e48b1b96cb425f5bce1809ba98cf690d86a0d099f8a9778b26f8c1e2b09e16",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_3b5dea552a7a6812f289a37a_0",
+      "kind": "li",
+      "source": "Selecting text shows this row on its own, and it goes back to the main row once the selection is gone (for example as you start typing), unless you opened or closed the row yourself in the meantime.",
+      "sourceHash": "3b5dea552a7a6812f289a37a685c0099347d12a1b940cbbd1141a91966927cf0",
+      "context": "Mobile Frontend > Editing text notes > Formatting text",
+      "contextHash": "68e48b1b96cb425f5bce1809ba98cf690d86a0d099f8a9778b26f8c1e2b09e16",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_bd120c19fb80b9528cff25df_0",
+      "kind": "p",
+      "source": "The font size button opens the list of sizes as a menu at the bottom of the screen, each drawn at its size, with the current one checked.",
+      "sourceHash": "bd120c19fb80b9528cff25df7fa8749effc65fac165b90b47c9baf26d47d56a8",
+      "context": "Mobile Frontend > Editing text notes > Formatting text",
+      "contextHash": "68e48b1b96cb425f5bce1809ba98cf690d86a0d099f8a9778b26f8c1e2b09e16",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_e252a3825235c515239b7bf1_0",
+      "kind": "p",
+      "source": "A single color button replaces the separate text and background color buttons. It opens a menu with a row of colors for the text and one for its background, each with a cell that removes the color and one that opens the device's color picker.",
+      "sourceHash": "e252a3825235c515239b7bf12e35db6b7c7f7ce89302d2f7449e334ff9fe12c5",
+      "context": "Mobile Frontend > Editing text notes > Formatting text",
+      "contextHash": "68e48b1b96cb425f5bce1809ba98cf690d86a0d099f8a9778b26f8c1e2b09e16",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_57915d0b00a9d746240d593e_0",
+      "kind": "h3",
+      "source": "Links and attachments__TRILIUM_PH_0__",
+      "sourceHash": "57915d0b00a9d746240d593ef1f7f42fd51fd83296b671fba57fb32ee528f4bc",
+      "context": "Mobile Frontend > Editing text notes > Links and attachments",
+      "contextHash": "6de73f042fd9dd1b79c1f708d0806ce3429b8490142f64e47ec5e6abf3ec34a5",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_86f53ff3ce80f07fe4a0453e_0",
+      "kind": "p",
+      "source": "The __TRILIUM_PH_0__ link button replaces the separate link and internal link buttons. It opens the __TRILIUM_PH_1__Add link__TRILIUM_PH_2__ dialog, which links to a note or to a web address, or __TRILIUM_PH_3__Edit link__TRILIUM_PH_4__ when the cursor is inside a link. The dialog does not open the keyboard by itself; tap the note or address field to type. The same button is on the row of text formatting, after the inline styles, to turn selected text into a link.",
+      "sourceHash": "86f53ff3ce80f07fe4a0453e7a5efe3f03e1f1c397910e2ad2bebcf66a191c1d",
+      "context": "Mobile Frontend > Editing text notes > Links and attachments",
+      "contextHash": "6de73f042fd9dd1b79c1f708d0806ce3429b8490142f64e47ec5e6abf3ec34a5",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_a723f80d1d48d87d53ffa232_0",
+      "kind": "p",
+      "source": "The __TRILIUM_PH_0__ button opens __TRILIUM_PH_1__Image__TRILIUM_PH_2__, __TRILIUM_PH_3__Camera__TRILIUM_PH_4__, __TRILIUM_PH_5__Attach and embed file__TRILIUM_PH_6__ and __TRILIUM_PH_7__Attach file as a link__TRILIUM_PH_8__ as a list: the menu of the desktop toolbar, with __TRILIUM_PH_9__Camera__TRILIUM_PH_10__ added. __TRILIUM_PH_11__Camera__TRILIUM_PH_12__ opens the device's camera and inserts the photo taken; the others open the device's file picker.",
+      "sourceHash": "a723f80d1d48d87d53ffa23247b0296c4401a7751e4fb7943a9a2cc0cc43f8ae",
+      "context": "Mobile Frontend > Editing text notes > Links and attachments",
+      "contextHash": "6de73f042fd9dd1b79c1f708d0806ce3429b8490142f64e47ec5e6abf3ec34a5",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_067dad858dcb99f0098e7749_0",
+      "kind": "h2",
+      "source": "Installing as a PWA__TRILIUM_PH_0__",
+      "sourceHash": "067dad858dcb99f0098e7749853bd5e4748fb8219f794b5cb23bbe686ca0b15f",
+      "context": "Mobile Frontend > Installing as a PWA",
+      "contextHash": "0def13f45357a47dba4cbdfa30922318048969668e6ad23763a99d26e70f088b",
+      "status": "translated",
+      "active": true,
+      "translation": "PWAとしてインストールする__TRILIUM_PH_0__",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_c829b57f183e28a5a6978f09_0",
+      "kind": "p",
+      "source": "The mobile view can be set up as a PWA. While this does not offer any offline capabilities, it will display the application in full-screen and makes it easy to access via your mobile phone's home screen.",
+      "sourceHash": "c829b57f183e28a5a6978f096fa445823ed67ca85b201875ec5017f93dc69144",
+      "context": "Mobile Frontend > Installing as a PWA",
+      "contextHash": "0def13f45357a47dba4cbdfa30922318048969668e6ad23763a99d26e70f088b",
+      "status": "translated",
+      "active": true,
+      "translation": "モバイル版ビューはPWAとして設定できます。オフライン機能は提供されませんが、アプリケーションが全画面で表示され、携帯電話のホーム画面から簡単にアクセスできるようになります。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_183c4e2b224d5e15047893c9_0",
+      "kind": "p",
+      "source": "__TRILIUM_PH_0__ iOS with Safari",
+      "sourceHash": "183c4e2b224d5e15047893c921d07c1955d5f58e56b3ecf972b09fecdd0d1424",
+      "context": "Mobile Frontend > Installing as a PWA",
+      "contextHash": "0def13f45357a47dba4cbdfa30922318048969668e6ad23763a99d26e70f088b",
+      "status": "translated",
+      "active": true,
+      "translation": "__TRILIUM_PH_0__ Safariを使用するiOS",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_e981993b62cfbe574364eeef_0",
+      "kind": "li",
+      "source": "Open your default web browser and access your Trilium instance.",
+      "sourceHash": "e981993b62cfbe574364eeefa4aecf8217525f28fb08394dde5e99152411e1a9",
+      "context": "Mobile Frontend > Installing as a PWA",
+      "contextHash": "0def13f45357a47dba4cbdfa30922318048969668e6ad23763a99d26e70f088b",
+      "status": "translated",
+      "active": true,
+      "translation": "デフォルトのウェブブラウザを開き、お使いのTriliumインスタンスにアクセスします。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_04868d13ee77a94e810690d9_0",
+      "kind": "li",
+      "source": "Login.",
+      "sourceHash": "04868d13ee77a94e810690d982bb37dfd835cc523b39423e0a88740f57341332",
+      "context": "Mobile Frontend > Installing as a PWA",
+      "contextHash": "0def13f45357a47dba4cbdfa30922318048969668e6ad23763a99d26e70f088b",
+      "status": "translated",
+      "active": true,
+      "translation": "ログインします。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_5e7e235cf2c45c104b310dc6_0",
+      "kind": "li",
+      "source": "Press the […] button in the bottom-right of the screen and select Share.",
+      "sourceHash": "5e7e235cf2c45c104b310dc6e4d41ba14788ce1738467cfd50dee580824e009b",
+      "context": "Mobile Frontend > Installing as a PWA",
+      "contextHash": "0def13f45357a47dba4cbdfa30922318048969668e6ad23763a99d26e70f088b",
+      "status": "translated",
+      "active": true,
+      "translation": "画面の右下にある「[…]」ボタンを押し、「共有」を選択します。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_a894e2bb392e7d6d244d9ea7_0",
+      "kind": "li",
+      "source": "Scroll down to reveal the full list of items and choose __TRILIUM_PH_0__Add to Home Screen__TRILIUM_PH_1__.",
+      "sourceHash": "a894e2bb392e7d6d244d9ea723de29c2c6eb80a976657c6a7a4a1ae3da797d73",
+      "context": "Mobile Frontend > Installing as a PWA",
+      "contextHash": "0def13f45357a47dba4cbdfa30922318048969668e6ad23763a99d26e70f088b",
+      "status": "translated",
+      "active": true,
+      "translation": "下にスクロールして項目の一覧を表示させ、__TRILIUM_PH_0__ホーム画面に追加__TRILIUM_PH_1__を選択します。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_2a6982cf930f778e7f75a828_0",
+      "kind": "li",
+      "source": "Press __TRILIUM_PH_0__Add__TRILIUM_PH_1__ and the web app will be available.",
+      "sourceHash": "2a6982cf930f778e7f75a8280865dad93c9fe53b25e9baab5a8e9bfa84a3eed0",
+      "context": "Mobile Frontend > Installing as a PWA",
+      "contextHash": "0def13f45357a47dba4cbdfa30922318048969668e6ad23763a99d26e70f088b",
+      "status": "translated",
+      "active": true,
+      "translation": "__TRILIUM_PH_0__追加__TRILIUM_PH_1__を押すと、ウェブアプリが利用可能になります。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_44d7a75b0825f3aafac2f5eb_0",
+      "kind": "p",
+      "source": "__TRILIUM_PH_0__ Android with Google Chrome",
+      "sourceHash": "44d7a75b0825f3aafac2f5ebc66744bb7e0ddc93e82abdee79add249274d6152",
+      "context": "Mobile Frontend > Installing as a PWA",
+      "contextHash": "0def13f45357a47dba4cbdfa30922318048969668e6ad23763a99d26e70f088b",
+      "status": "translated",
+      "active": true,
+      "translation": "__TRILIUM_PH_0__ Google Chromeを使用するAndroid",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_1a5f12c7e01484698fdd066c_0",
+      "kind": "p",
+      "source": "Google Chrome requires the server to be served over HTTPS in order to display in full-screen. If using HTTP, the app will appear like a normal web page (similar to a bookmark).",
+      "sourceHash": "1a5f12c7e01484698fdd066c1418de068c4982c42917f94efdf89767d706f767",
+      "context": "Mobile Frontend > Installing as a PWA",
+      "contextHash": "0def13f45357a47dba4cbdfa30922318048969668e6ad23763a99d26e70f088b",
+      "status": "translated",
+      "active": true,
+      "translation": "Google Chromeで全画面表示を行うには、サーバーがHTTPSで配信されている必要があります。HTTPを使用している場合、アプリは通常のウェブページ（ブックマークのようなもの）として表示されます。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_e981993b62cfbe574364eeef_1",
+      "kind": "li",
+      "source": "Open your default web browser and access your Trilium instance.",
+      "sourceHash": "e981993b62cfbe574364eeefa4aecf8217525f28fb08394dde5e99152411e1a9",
+      "context": "Mobile Frontend > Installing as a PWA",
+      "contextHash": "0def13f45357a47dba4cbdfa30922318048969668e6ad23763a99d26e70f088b",
+      "status": "translated",
+      "active": true,
+      "translation": "デフォルトのウェブブラウザを開き、お使いのTriliumインスタンスにアクセスします。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_04868d13ee77a94e810690d9_1",
+      "kind": "li",
+      "source": "Login.",
+      "sourceHash": "04868d13ee77a94e810690d982bb37dfd835cc523b39423e0a88740f57341332",
+      "context": "Mobile Frontend > Installing as a PWA",
+      "contextHash": "0def13f45357a47dba4cbdfa30922318048969668e6ad23763a99d26e70f088b",
+      "status": "translated",
+      "active": true,
+      "translation": "ログインします。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_ea82a7a276d2ec4fc7a82cfa_0",
+      "kind": "li",
+      "source": "Press the three vertical dots icon in the top-right of the screen and select __TRILIUM_PH_0__Add to Home screen.__TRILIUM_PH_1__",
+      "sourceHash": "ea82a7a276d2ec4fc7a82cfaec81dda1c98994c9e55120fd975404d6117c6fe8",
+      "context": "Mobile Frontend > Installing as a PWA",
+      "contextHash": "0def13f45357a47dba4cbdfa30922318048969668e6ad23763a99d26e70f088b",
+      "status": "translated",
+      "active": true,
+      "translation": "画面の右上にある縦に3つ並んだドットのアイコンを押し、__TRILIUM_PH_0__ホーム画面に追加。__TRILIUM_PH_1__を選択します。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_f0c406d3bb268cf0983e07d1_0",
+      "kind": "li",
+      "source": "Select the __TRILIUM_PH_0__Install__TRILIUM_PH_1__ option.",
+      "sourceHash": "f0c406d3bb268cf0983e07d1bcec83174f47470a1941c28408ca3be6477c9f82",
+      "context": "Mobile Frontend > Installing as a PWA",
+      "contextHash": "0def13f45357a47dba4cbdfa30922318048969668e6ad23763a99d26e70f088b",
+      "status": "translated",
+      "active": true,
+      "translation": "__TRILIUM_PH_0__インストール__TRILIUM_PH_1__オプションを選択します。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_9e5061e70b7f13112da14236_0",
+      "kind": "li",
+      "source": "Select an appropriate name.",
+      "sourceHash": "9e5061e70b7f13112da142368d71820ae8f263866aab126e4e03ddb2c71874f0",
+      "context": "Mobile Frontend > Installing as a PWA",
+      "contextHash": "0def13f45357a47dba4cbdfa30922318048969668e6ad23763a99d26e70f088b",
+      "status": "translated",
+      "active": true,
+      "translation": "適切な名前を選択します。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_7264942742c81f0aadd6911a_0",
+      "kind": "li",
+      "source": "The web app will appear as an application, not on the home screen.",
+      "sourceHash": "7264942742c81f0aadd6911a48ccc62147b7f13ed5a0ab69d8bfefdf5934b500",
+      "context": "Mobile Frontend > Installing as a PWA",
+      "contextHash": "0def13f45357a47dba4cbdfa30922318048969668e6ad23763a99d26e70f088b",
+      "status": "translated",
+      "active": true,
+      "translation": "ウェブアプリは、ホーム画面ではなくアプリケーションとして表示されます。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_1770d1e237a1088b10659ed8_0",
+      "kind": "p",
+      "source": "Android with Brave",
+      "sourceHash": "1770d1e237a1088b10659ed8097cb66a1edd6c46922801b62ed75c1e1dc81480",
+      "context": "Mobile Frontend > Installing as a PWA",
+      "contextHash": "0def13f45357a47dba4cbdfa30922318048969668e6ad23763a99d26e70f088b",
+      "status": "translated",
+      "active": true,
+      "translation": "Brave を使用した Android",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_b55dce868cd41881a7b73603_0",
+      "kind": "p",
+      "source": "Brave requires the server to be served over HTTPS in order to display in full-screen. If using HTTP, the app will appear like a normal web page (similar to a bookmark).",
+      "sourceHash": "b55dce868cd41881a7b736035b521f7286db713d8e4c693a3f46c1a4c143e6f2",
+      "context": "Mobile Frontend > Installing as a PWA",
+      "contextHash": "0def13f45357a47dba4cbdfa30922318048969668e6ad23763a99d26e70f088b",
+      "status": "translated",
+      "active": true,
+      "translation": "フルスクリーンで表示するには、サーバーが HTTPS 経由で提供されている必要があります。HTTP を使用している場合、アプリは（ブックマークのように）通常のウェブページとして表示されます。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_e981993b62cfbe574364eeef_2",
+      "kind": "li",
+      "source": "Open your default web browser and access your Trilium instance.",
+      "sourceHash": "e981993b62cfbe574364eeefa4aecf8217525f28fb08394dde5e99152411e1a9",
+      "context": "Mobile Frontend > Installing as a PWA",
+      "contextHash": "0def13f45357a47dba4cbdfa30922318048969668e6ad23763a99d26e70f088b",
+      "status": "translated",
+      "active": true,
+      "translation": "デフォルトのウェブブラウザを開き、Trilium インスタンスにアクセスします。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_04868d13ee77a94e810690d9_2",
+      "kind": "li",
+      "source": "Login.",
+      "sourceHash": "04868d13ee77a94e810690d982bb37dfd835cc523b39423e0a88740f57341332",
+      "context": "Mobile Frontend > Installing as a PWA",
+      "contextHash": "0def13f45357a47dba4cbdfa30922318048969668e6ad23763a99d26e70f088b",
+      "status": "translated",
+      "active": true,
+      "translation": "ログインします。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_b40ad5d7252f63a1585db846_0",
+      "kind": "li",
+      "source": "Press the three vertical dots icon in the bottom-right of the screen and select __TRILIUM_PH_0__Add to Home screen__TRILIUM_PH_1__.",
+      "sourceHash": "b40ad5d7252f63a1585db84628b24a28ab27d34d64c683e8a686f73282157381",
+      "context": "Mobile Frontend > Installing as a PWA",
+      "contextHash": "0def13f45357a47dba4cbdfa30922318048969668e6ad23763a99d26e70f088b",
+      "status": "translated",
+      "active": true,
+      "translation": "画面右下の縦の三点リーダーアイコンを押して、__TRILIUM_PH_0__ホーム画面に追加__TRILIUM_PH_1__を選択します。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_9bee823af9b67eacd4cc2911_0",
+      "kind": "li",
+      "source": "Press the __TRILIUM_PH_0__Install__TRILIUM_PH_1__ option.",
+      "sourceHash": "9bee823af9b67eacd4cc291174a7047f6a8bc18949eb3d2c31fee407c361ec3e",
+      "context": "Mobile Frontend > Installing as a PWA",
+      "contextHash": "0def13f45357a47dba4cbdfa30922318048969668e6ad23763a99d26e70f088b",
+      "status": "translated",
+      "active": true,
+      "translation": "__TRILIUM_PH_0__インストール__TRILIUM_PH_1__オプションを押します。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_7264942742c81f0aadd6911a_1",
+      "kind": "li",
+      "source": "The web app will appear as an application, not on the home screen.",
+      "sourceHash": "7264942742c81f0aadd6911a48ccc62147b7f13ed5a0ab69d8bfefdf5934b500",
+      "context": "Mobile Frontend > Installing as a PWA",
+      "contextHash": "0def13f45357a47dba4cbdfa30922318048969668e6ad23763a99d26e70f088b",
+      "status": "translated",
+      "active": true,
+      "translation": "ウェブアプリはホーム画面ではなく、アプリケーションとして表示されます。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_f1ebf31522a24052e6a4a8e3_0",
+      "kind": "p",
+      "source": "Samsung Browser",
+      "sourceHash": "f1ebf31522a24052e6a4a8e363a2e6a75dd19754d3469a34c56eb23ccd06507d",
+      "context": "Mobile Frontend > Installing as a PWA",
+      "contextHash": "0def13f45357a47dba4cbdfa30922318048969668e6ad23763a99d26e70f088b",
+      "status": "translated",
+      "active": true,
+      "translation": "Samsung Browser",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_e981993b62cfbe574364eeef_3",
+      "kind": "li",
+      "source": "Open your default web browser and access your Trilium instance.",
+      "sourceHash": "e981993b62cfbe574364eeefa4aecf8217525f28fb08394dde5e99152411e1a9",
+      "context": "Mobile Frontend > Installing as a PWA",
+      "contextHash": "0def13f45357a47dba4cbdfa30922318048969668e6ad23763a99d26e70f088b",
+      "status": "translated",
+      "active": true,
+      "translation": "デフォルトのウェブブラウザを開き、Trilium インスタンスにアクセスします。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_04868d13ee77a94e810690d9_3",
+      "kind": "li",
+      "source": "Login.",
+      "sourceHash": "04868d13ee77a94e810690d982bb37dfd835cc523b39423e0a88740f57341332",
+      "context": "Mobile Frontend > Installing as a PWA",
+      "contextHash": "0def13f45357a47dba4cbdfa30922318048969668e6ad23763a99d26e70f088b",
+      "status": "translated",
+      "active": true,
+      "translation": "ログインします。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_f69ac75866590f3339901f97_0",
+      "kind": "li",
+      "source": "Press the hamburger menu in the bottom-right of the screen.",
+      "sourceHash": "f69ac75866590f3339901f97a6e4163940fef3be116284865169090d0d553001",
+      "context": "Mobile Frontend > Installing as a PWA",
+      "contextHash": "0def13f45357a47dba4cbdfa30922318048969668e6ad23763a99d26e70f088b",
+      "status": "translated",
+      "active": true,
+      "translation": "画面右下のハンバーガーメニューを押します。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_3490a06e2f93d978b7b9129d_0",
+      "kind": "li",
+      "source": "Select __TRILIUM_PH_0__Add to__TRILIUM_PH_1__, followed by __TRILIUM_PH_2__Home screen__TRILIUM_PH_3__.",
+      "sourceHash": "3490a06e2f93d978b7b9129d66a6378682355c4a01ac34659521af1604beab08",
+      "context": "Mobile Frontend > Installing as a PWA",
+      "contextHash": "0def13f45357a47dba4cbdfa30922318048969668e6ad23763a99d26e70f088b",
+      "status": "translated",
+      "active": true,
+      "translation": "__TRILIUM_PH_0__追加__TRILIUM_PH_1__を選択し、続いて__TRILIUM_PH_2__ホーム画面__TRILIUM_PH_3__を選択します。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_a3cc2f39fa11dc4c4f61a395_0",
+      "kind": "li",
+      "source": "Press __TRILIUM_PH_0__Add__TRILIUM_PH_1__ and the web app will appear on the home page.",
+      "sourceHash": "a3cc2f39fa11dc4c4f61a395b51e7a6ba94d131c86a14b110b340b7245434f75",
+      "context": "Mobile Frontend > Installing as a PWA",
+      "contextHash": "0def13f45357a47dba4cbdfa30922318048969668e6ad23763a99d26e70f088b",
+      "status": "translated",
+      "active": true,
+      "translation": "__TRILIUM_PH_0__追加__TRILIUM_PH_1__を押すと、ウェブアプリがホームページに表示されます。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_11df4eb642c04feb3e621abe_0",
+      "kind": "h2",
+      "source": "Sharing to Trilium__TRILIUM_PH_0__",
+      "sourceHash": "11df4eb642c04feb3e621abe2ba0c975f556d723e8b7fdf60e2dee8b3846294b",
+      "context": "Mobile Frontend > Sharing to Trilium",
+      "contextHash": "42b832e21b9c6a276d5ed617387bccaaf628352c2ff869b3be191f4ba2fd30d0",
+      "status": "translated",
+      "active": true,
+      "translation": "Trilium への共有__TRILIUM_PH_0__",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_fd4b893959bbb8235e74881f_0",
+      "kind": "p",
+      "source": "Once installed as a PWA on Android, Trilium appears in the system's share menu, so links, text, images and other files can be sent to it from other apps. Shared content is saved to the __TRILIUM_PH_0__Note Inbox__TRILIUM_PH_1__, and Trilium opens the note it created:",
+      "sourceHash": "fd4b893959bbb8235e74881f2a103fd4acd5f981e040d9eaaf657b243b29d287",
+      "context": "Mobile Frontend > Sharing to Trilium",
+      "contextHash": "42b832e21b9c6a276d5ed617387bccaaf628352c2ff869b3be191f4ba2fd30d0",
+      "status": "translated",
+      "active": true,
+      "translation": "Android で PWA としてインストールすると、Trilium がシステムの共有メニューに表示されるため、他のアプリからリンク、テキスト、画像、その他のファイルを送信できるようになります。共有されたコンテンツは __TRILIUM_PH_0__Note Inbox__TRILIUM_PH_1__ に保存され、Trilium は作成したノートを開きます:",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_818edb928baed64c5219dd49_0",
+      "kind": "li",
+      "source": "Text or a link becomes a text note. A shared link is also stored in the __TRILIUM_PH_0__ label.",
+      "sourceHash": "818edb928baed64c5219dd49a1350b3cadc86aa68d4bcb3f90aee608ffa6bd69",
+      "context": "Mobile Frontend > Sharing to Trilium",
+      "contextHash": "42b832e21b9c6a276d5ed617387bccaaf628352c2ff869b3be191f4ba2fd30d0",
+      "status": "translated",
+      "active": true,
+      "translation": "テキストまたはリンクはテキストノートになります。共有されたリンクは __TRILIUM_PH_0__ ラベルにも保存されます。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_de935227e90317cb267ca651_0",
+      "kind": "li",
+      "source": "A single file becomes an image note or a file note, placed directly in the inbox.",
+      "sourceHash": "de935227e90317cb267ca651dccfed05b0b8046e72b4bca8b6d9cd8e12ec1285",
+      "context": "Mobile Frontend > Sharing to Trilium",
+      "contextHash": "42b832e21b9c6a276d5ed617387bccaaf628352c2ff869b3be191f4ba2fd30d0",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_6d1bb1a2857e80d2ba919816_0",
+      "kind": "li",
+      "source": "Several files, or files shared together with text, are placed under a new text note that holds the text.",
+      "sourceHash": "6d1bb1a2857e80d2ba919816d0039876d77dbd5373f2292998ca25edea218c15",
+      "context": "Mobile Frontend > Sharing to Trilium",
+      "contextHash": "42b832e21b9c6a276d5ed617387bccaaf628352c2ff869b3be191f4ba2fd30d0",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_7d576cc61baf570c98c6584b_0",
+      "kind": "p",
+      "source": "Every note created this way carries the __TRILIUM_PH_0__ label, which gives a shared text note the __TRILIUM_PH_1__ icon unless the note has an __TRILIUM_PH_2__ of its own. A single share can carry at most 20 files.",
+      "sourceHash": "7d576cc61baf570c98c6584b82d029c722b3506c3f8b58ab1d72a6e25b1fa5cd",
+      "context": "Mobile Frontend > Sharing to Trilium",
+      "contextHash": "42b832e21b9c6a276d5ed617387bccaaf628352c2ff869b3be191f4ba2fd30d0",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_f96be4f7b1d3b4d6e41a87fc_0",
+      "kind": "p",
+      "source": "Sharing requires being logged in. If the session has expired, log in again and share once more.",
+      "sourceHash": "f96be4f7b1d3b4d6e41a87fc2bb6ea34e60c206e28af0da10cf09a9b5eeb2dfb",
+      "context": "Mobile Frontend > Sharing to Trilium",
+      "contextHash": "42b832e21b9c6a276d5ed617387bccaaf628352c2ff869b3be191f4ba2fd30d0",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_76b1e53dd85278233c045cc2_0",
+      "kind": "h2",
+      "source": "Testing via the desktop application__TRILIUM_PH_0__",
+      "sourceHash": "76b1e53dd85278233c045cc21e9d756851b155346af2dde938561e93d0df8977",
+      "context": "Mobile Frontend > Testing via the desktop application",
+      "contextHash": "726cdad1da0da71b91ba65567bccdecb051b3ec686fb873a385d21674b398cc6",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_bedd67da7783e9b19ba41e29_0",
+      "kind": "p",
+      "source": "If you are running Trilium without a dedicated __TRILIUM_PH_0__server installation__TRILIUM_PH_1__, you can still test the mobile application using the desktop application. For more information, see __TRILIUM_PH_2__Using the desktop application as a server__TRILIUM_PH_3__. To access it go to __TRILIUM_PH_4__ .",
+      "sourceHash": "bedd67da7783e9b19ba41e2953faee8aac7f3ccda6b0a91a2903e3b008b337cf",
+      "context": "Mobile Frontend > Testing via the desktop application",
+      "contextHash": "726cdad1da0da71b91ba65567bccdecb051b3ec686fb873a385d21674b398cc6",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_028d1bde393c87cc3ae35dac_0",
+      "kind": "h2",
+      "source": "Forcing mobile/desktop frontend__TRILIUM_PH_0__",
+      "sourceHash": "028d1bde393c87cc3ae35dac5b90f6a49ea01938c5e94a72839684a10480146c",
+      "context": "Mobile Frontend > Forcing mobile/desktop frontend",
+      "contextHash": "20102e1873b8b598d504e69b14551bc6b1b4ceb8b39b1c8372101e98f051e04a",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_7eeaedf80348f02128c05d51_0",
+      "kind": "p",
+      "source": "Trilium decides automatically whether to use mobile or desktop front-end. If this is not appropriate, you can use __TRILIUM_PH_0__ or __TRILIUM_PH_1__ query param on __TRILIUM_PH_2__login__TRILIUM_PH_3__ page (Note: you might need to log out).",
+      "sourceHash": "7eeaedf80348f02128c05d5183c54abd08eac360557afb89f4f39b0b2f20076e",
+      "context": "Mobile Frontend > Forcing mobile/desktop frontend",
+      "contextHash": "20102e1873b8b598d504e69b14551bc6b1b4ceb8b39b1c8372101e98f051e04a",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_815db267f62e96ca042305ba_0",
+      "kind": "p",
+      "source": "Alternatively, simply select __TRILIUM_PH_0__Switch to mobile version__TRILIUM_PH_1__ in the __TRILIUM_PH_2__Global menu__TRILIUM_PH_3__. In the mobile version, select __TRILIUM_PH_4__Advanced__TRILIUM_PH_5__ → __TRILIUM_PH_6__Switch to desktop version__TRILIUM_PH_7__ there instead.",
+      "sourceHash": "815db267f62e96ca042305baac581e39e7563ce84467d6d2695422b66aff2f84",
+      "context": "Mobile Frontend > Forcing mobile/desktop frontend",
+      "contextHash": "20102e1873b8b598d504e69b14551bc6b1b4ceb8b39b1c8372101e98f051e04a",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_44ce3017eda140a003796dc8_0",
+      "kind": "h2",
+      "source": "Scripting__TRILIUM_PH_0__",
+      "sourceHash": "44ce3017eda140a003796dc84ff304a8786098ebffddeef941d651ccd9671e6a",
+      "context": "Mobile Frontend > Scripting",
+      "contextHash": "686981a03ae070eac42b20fcce191399bf7e17a7d2e86a3e46e4a5d33be4abf8",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_b63da15f431fbef17b557e06_0",
+      "kind": "p",
+      "source": "You can alter the behavior with __TRILIUM_PH_0__Scripting__TRILIUM_PH_1__, just like for normal frontend. For script notes to be executed, they need to have labeled __TRILIUM_PH_2__.",
+      "sourceHash": "b63da15f431fbef17b557e06b70698113cd1bfedfb6dd9f78f49e3bf4036dde4",
+      "context": "Mobile Frontend > Scripting",
+      "contextHash": "686981a03ae070eac42b20fcce191399bf7e17a7d2e86a3e46e4a5d33be4abf8",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_31f83a1c804aed20553bc45d_0",
+      "kind": "p",
+      "source": "Custom __TRILIUM_PH_0__Launch Bar__TRILIUM_PH_1__ widgets are also supported. __TRILIUM_PH_2__Right pane widgets__TRILIUM_PH_3__ are shown in the __TRILIUM_PH_4__Widgets__TRILIUM_PH_5__ tab of the note panel.",
+      "sourceHash": "31f83a1c804aed20553bc45d58f0524728fed2ff2e45b308493d53aaee6816da",
+      "context": "Mobile Frontend > Scripting",
+      "contextHash": "686981a03ae070eac42b20fcce191399bf7e17a7d2e86a3e46e4a5d33be4abf8",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_b190d47815633246b0ab18a6_0",
+      "kind": "image-alt",
+      "source": "記事画像",
+      "sourceHash": "b190d47815633246b0ab18a61d9b8e8ea36504fe3f8bc230a7753096915c9ff2",
+      "context": "Mobile Frontend > Scripting",
+      "contextHash": "686981a03ae070eac42b20fcce191399bf7e17a7d2e86a3e46e4a5d33be4abf8",
+      "status": "pending",
+      "active": true
+    }
+  ],
+  "requests": [
+    {
+      "at": "2026-11-14T11:28:45.803Z",
+      "model": "gemini-3.5-flash-lite",
+      "batchJob": "batches/02spwqy837h8pi7qzqmeo4fgsqo7bgs45hwh",
+      "requestKey": "RDslemsQ6gCp_0f4aab0fbfbeab31",
+      "modelVersion": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 1641,
+        "candidatesTokenCount": 1314,
+        "totalTokenCount": 2955,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 1641
+          }
+        ],
+        "serviceTier": "standard"
+      }
+    },
+    {
+      "at": "2026-11-14T11:28:45.803Z",
+      "model": "gemini-3.5-flash-lite",
+      "batchJob": "batches/02spwqy837h8pi7qzqmeo4fgsqo7bgs45hwh",
+      "requestKey": "RDslemsQ6gCp_0c331739afea0128",
+      "modelVersion": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 2137,
+        "candidatesTokenCount": 1667,
+        "totalTokenCount": 3804,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 2137
+          }
+        ],
+        "serviceTier": "standard"
+      }
+    },
+    {
+      "at": "2026-11-14T11:28:45.803Z",
+      "model": "gemini-3.5-flash-lite",
+      "batchJob": "batches/02spwqy837h8pi7qzqmeo4fgsqo7bgs45hwh",
+      "requestKey": "RDslemsQ6gCp_a68b9e576591f9b2",
+      "modelVersion": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 1524,
+        "candidatesTokenCount": 1069,
+        "totalTokenCount": 2593,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 1524
+          }
+        ],
+        "serviceTier": "standard"
+      }
+    },
+    {
+      "at": "2026-11-14T11:28:45.803Z",
+      "model": "gemini-3.5-flash-lite",
+      "batchJob": "batches/02spwqy837h8pi7qzqmeo4fgsqo7bgs45hwh",
+      "requestKey": "RDslemsQ6gCp_7b19f11b38ceb801",
+      "modelVersion": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 1316,
+        "candidatesTokenCount": 799,
+        "totalTokenCount": 2115,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 1316
+          }
+        ],
+        "serviceTier": "standard"
+      }
+    },
+    {
+      "at": "2026-11-14T11:28:45.803Z",
+      "model": "gemini-3.5-flash-lite",
+      "batchJob": "batches/02spwqy837h8pi7qzqmeo4fgsqo7bgs45hwh",
+      "requestKey": "RDslemsQ6gCp_b7a7c1351df179ec",
+      "modelVersion": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 1341,
+        "candidatesTokenCount": 883,
+        "totalTokenCount": 2224,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 1341
+          }
+        ],
+        "serviceTier": "standard"
+      }
+    }
+  ]
+}

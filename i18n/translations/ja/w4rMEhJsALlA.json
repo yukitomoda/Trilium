@@ -1,0 +1,439 @@
+{
+  "schemaVersion": 1,
+  "pageId": "w4rMEhJsALlA",
+  "sourceFile": "docs/User Guide/User Guide/Basic Concepts and Features/Themes/Personalizing the font.md",
+  "sourceRevision": "03d17b60f59b5efc29b880b11481471d0fe0ff57",
+  "units": [
+    {
+      "id": "u_05f3f89a1d6300d38cc1be7f_0",
+      "kind": "title",
+      "source": "Personalizing the font",
+      "sourceHash": "05f3f89a1d6300d38cc1be7fe0d86e9c9290027e9a76866ecb83bc1316571344",
+      "context": "Personalizing the font",
+      "contextHash": "22a25435a4f5b69cd9fcd3dbe11b151596daf284ee9c132927f1e58ee2e2bfbe",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_c44a88deed1da72a597706a0_0",
+      "kind": "h2",
+      "source": "Using different fonts__TRILIUM_PH_0__",
+      "sourceHash": "c44a88deed1da72a597706a04ff51b9ae81a8bbad36dfdea84a11aff74979dff",
+      "context": "Personalizing the font > Using different fonts",
+      "contextHash": "126e526ddf25c395bb3c4be4b85d9555c88339322b74051c7702ca626d4badcb",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_ad193db8afe8dbf958b6fcc8_0",
+      "kind": "p",
+      "source": "Trilium comes by default with its own font (__TRILIUM_PH_0__Inter__TRILIUM_PH_1__), but the font can be adjusted in __TRILIUM_PH_2__Options__TRILIUM_PH_3__ → __TRILIUM_PH_4__Appearance__TRILIUM_PH_5__, by checking __TRILIUM_PH_6__Use different fonts__TRILIUM_PH_7__ in the __TRILIUM_PH_8__Fonts__TRILIUM_PH_9__ section.",
+      "sourceHash": "ad193db8afe8dbf958b6fcc8b38c47d53c2be51e7f156f74ef8b9ed6ea64cacd",
+      "context": "Personalizing the font > Using different fonts",
+      "contextHash": "126e526ddf25c395bb3c4be4b85d9555c88339322b74051c7702ca626d4badcb",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_9217558f626607d8e4c7ede6_0",
+      "kind": "p",
+      "source": "The font can be personalized for the following areas of the application:",
+      "sourceHash": "9217558f626607d8e4c7ede625ad39b2c1d2ec8a27292e9699de87473722e84d",
+      "context": "Personalizing the font > Using different fonts",
+      "contextHash": "126e526ddf25c395bb3c4be4b85d9555c88339322b74051c7702ca626d4badcb",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_bcd14bbe4c07e5e8ac01536b_0",
+      "kind": "li",
+      "source": "Interface text, for most of the UI (menus, toolbars, dialogs).",
+      "sourceHash": "bcd14bbe4c07e5e8ac01536bee6011fd705d69f2d60c5a7fcdcc9d630509c7e7",
+      "context": "Personalizing the font > Using different fonts",
+      "contextHash": "126e526ddf25c395bb3c4be4b85d9555c88339322b74051c7702ca626d4badcb",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_4db70613d8bd775c6c69b11b_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__Note Tree__TRILIUM_PH_1__.",
+      "sourceHash": "4db70613d8bd775c6c69b11bffd47396e89e51b07669de0dd3736d97be594eae",
+      "context": "Personalizing the font > Using different fonts",
+      "contextHash": "126e526ddf25c395bb3c4be4b85d9555c88339322b74051c7702ca626d4badcb",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_36afbbb06e94533879d22488_0",
+      "kind": "li",
+      "source": "Document text, for the actual content of the notes (especially for __TRILIUM_PH_0__Text__TRILIUM_PH_1__ notes), including the rows of a __TRILIUM_PH_2__Table__TRILIUM_PH_3__ collection.",
+      "sourceHash": "36afbbb06e94533879d22488f5543e7129da545c4e400f1c241aa42fbcae8f43",
+      "context": "Personalizing the font > Using different fonts",
+      "contextHash": "126e526ddf25c395bb3c4be4b85d9555c88339322b74051c7702ca626d4badcb",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_e14e8009138fff8ff40b6241_0",
+      "kind": "li",
+      "source": "Monospace text, e.g. for __TRILIUM_PH_0__Code__TRILIUM_PH_1__ notes and __TRILIUM_PH_2__Code blocks__TRILIUM_PH_3__.",
+      "sourceHash": "e14e8009138fff8ff40b62415ba9d560b873dbcda6a92ffa4b34686e188f070a",
+      "context": "Personalizing the font > Using different fonts",
+      "contextHash": "126e526ddf25c395bb3c4be4b85d9555c88339322b74051c7702ca626d4badcb",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_45bde1d52b10cc4ca8b1e282_0",
+      "kind": "p",
+      "source": "Each area also has its own __TRILIUM_PH_0__Size__TRILIUM_PH_1__. The note tree and document sizes are relative to the interface size, so changing the interface size moves them along with it. Icons, such as the ones on the launch bar, keep their size; to enlarge the whole application, use __TRILIUM_PH_2__Zoom__TRILIUM_PH_3__ instead.",
+      "sourceHash": "45bde1d52b10cc4ca8b1e28215fb6d6f19411c9ffc9b2b5ca39f5dc2e3e8e9aa",
+      "context": "Personalizing the font > Using different fonts",
+      "contextHash": "126e526ddf25c395bb3c4be4b85d9555c88339322b74051c7702ca626d4badcb",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_f1b774b3958d1082761e6689_0",
+      "kind": "p",
+      "source": "The list of fonts contains the following items:",
+      "sourceHash": "f1b774b3958d1082761e6689cd0a8329542623baa023cd7b76c104a58a487df2",
+      "context": "Personalizing the font > Using different fonts",
+      "contextHash": "126e526ddf25c395bb3c4be4b85d9555c88339322b74051c7702ca626d4badcb",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_13ae582e0e3cae89758335bd_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__Generic fonts__TRILIUM_PH_1__",
+      "sourceHash": "13ae582e0e3cae89758335bd55b34ab157209b68e1ed7e455faadb46c1c8cf2a",
+      "context": "Personalizing the font > Using different fonts",
+      "contextHash": "126e526ddf25c395bb3c4be4b85d9555c88339322b74051c7702ca626d4badcb",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_bbd59156f218a042f64c1ea4_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__Theme defined__TRILIUM_PH_1__ which uses the font that is embedded with the current __TRILIUM_PH_2__theme__TRILIUM_PH_3__. For example on the default modern theme, the font is __TRILIUM_PH_4__Inter__TRILIUM_PH_5__. This does not require the font to be installed.",
+      "sourceHash": "bbd59156f218a042f64c1ea4c88fdbb9af144087acdd770f4ba8d7a23df64c42",
+      "context": "Personalizing the font > Using different fonts",
+      "contextHash": "126e526ddf25c395bb3c4be4b85d9555c88339322b74051c7702ca626d4badcb",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_ebb3c8dc206a29c904f14b23_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__System default__TRILIUM_PH_1__ which uses a combination of fonts that works best for the __TRILIUM_PH_2__desktop app__TRILIUM_PH_3__. For example on Windows it will use __TRILIUM_PH_4__Segoe UI__TRILIUM_PH_5__.",
+      "sourceHash": "ebb3c8dc206a29c904f14b23be9d31386fe3f79afcbe5fc54148cc44c4c67cdd",
+      "context": "Personalizing the font > Using different fonts",
+      "contextHash": "126e526ddf25c395bb3c4be4b85d9555c88339322b74051c7702ca626d4badcb",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_de303c1e0a87c6353644beef_0",
+      "kind": "li",
+      "source": "Generic font selections for fonts with serifs (e.g. __TRILIUM_PH_0__Times New Roman__TRILIUM_PH_1__-like), no serifs and monospace.",
+      "sourceHash": "de303c1e0a87c6353644beef03654de316de111814162c197dd27cb901849f76",
+      "context": "Personalizing the font > Using different fonts",
+      "contextHash": "126e526ddf25c395bb3c4be4b85d9555c88339322b74051c7702ca626d4badcb",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_c6eaaf7d2a62d9865ed481c1_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__Web fonts__TRILIUM_PH_1__ which appear on the __TRILIUM_PH_2__Server Installation__TRILIUM_PH_3__, which is a predefined list of fonts and grouped into Sans-serif, serif, monospace and handwriting. The fonts that are not supported by your system (i.e. not installed) are not displayed.",
+      "sourceHash": "c6eaaf7d2a62d9865ed481c11755dacad5ca9ec341b8728cab466f75ec9c9efa",
+      "context": "Personalizing the font > Using different fonts",
+      "contextHash": "126e526ddf25c395bb3c4be4b85d9555c88339322b74051c7702ca626d4badcb",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_ca22792202ea42baea6078b3_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__System fonts__TRILIUM_PH_1__ which appear on the __TRILIUM_PH_2__Desktop Installation__TRILIUM_PH_3__. Unlike the server fonts which are predefined, the system fonts are listed from your operating system. A few installed fonts (such as the bitmap versions of __TRILIUM_PH_4__GNU Unifont__TRILIUM_PH_5__) cannot display any text; such a font appears blank in the list, and selecting it shows an error instead of applying it.",
+      "sourceHash": "ca22792202ea42baea6078b32085c23e11c3d1b44edcf8f427a8438e2ed627cb",
+      "context": "Personalizing the font > Using different fonts",
+      "contextHash": "126e526ddf25c395bb3c4be4b85d9555c88339322b74051c7702ca626d4badcb",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_2a0dc899395c08e5f725487c_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__Custom fonts__TRILIUM_PH_1__, allowing any font to be used provided it's imported into Trilium. See the section below for more information.",
+      "sourceHash": "2a0dc899395c08e5f725487ca5f08de640e8d3be66d8f0e768ee8c0a432b76e7",
+      "context": "Personalizing the font > Using different fonts",
+      "contextHash": "126e526ddf25c395bb3c4be4b85d9555c88339322b74051c7702ca626d4badcb",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_2ab1582dcedafe3b2fa2f255_0",
+      "kind": "p",
+      "source": "Font changes take effect after a reload; the section offers a __TRILIUM_PH_0__Reload to apply changes__TRILIUM_PH_1__ button once something has been changed.",
+      "sourceHash": "2ab1582dcedafe3b2fa2f25531565cd4516807fa8dc63a99fe8e7ce1e6fdf18b",
+      "context": "Personalizing the font > Using different fonts",
+      "contextHash": "126e526ddf25c395bb3c4be4b85d9555c88339322b74051c7702ca626d4badcb",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_f6ec579a66fe01d3d829268a_0",
+      "kind": "h2",
+      "source": "Custom fonts__TRILIUM_PH_0__",
+      "sourceHash": "f6ec579a66fe01d3d829268a090883393be89cbe9f56aad9df47831883348513",
+      "context": "Personalizing the font > Custom fonts",
+      "contextHash": "a86a3e9c2dd1cad6d7ae9655e4d5a3db99273f8c4c3fc6ad6459b3daf8c2d79f",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_f694b61668662751db0d0d85_0",
+      "kind": "p",
+      "source": "A font file imported into Trilium can be used by the application itself, without writing any CSS.",
+      "sourceHash": "f694b61668662751db0d0d8562328a6e2e8c6bf649ec4a5549fa4c955b717e67",
+      "context": "Personalizing the font > Custom fonts",
+      "contextHash": "a86a3e9c2dd1cad6d7ae9655e4d5a3db99273f8c4c3fc6ad6459b3daf8c2d79f",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_3ba80d92bea09b83e24c329a_0",
+      "kind": "h3",
+      "source": "Adding a font__TRILIUM_PH_0__",
+      "sourceHash": "3ba80d92bea09b83e24c329a5c9a32d89075c6c4ac05b1ae888b89c913848880",
+      "context": "Personalizing the font > Custom fonts > Adding a font",
+      "contextHash": "ad3b835b8d68f224740013dd5cbfd29d8c16d3934868104cc1f9d7497e35fed9",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_f7f48cbf25a929ccb94054ab_0",
+      "kind": "li",
+      "source": "Import the font file, by dragging it into the __TRILIUM_PH_0__Note Tree__TRILIUM_PH_1__ or through __TRILIUM_PH_2__Import into note__TRILIUM_PH_3__. TrueType (__TRILIUM_PH_4__), OpenType (__TRILIUM_PH_5__) and Web Open Font Format (__TRILIUM_PH_6__, __TRILIUM_PH_7__) files are recognized; the note takes the font's name without its extension and is marked with a font icon (an “A” icon).",
+      "sourceHash": "f7f48cbf25a929ccb94054ab84339a5df0d2e7c993bc705efab0def40fc883f6",
+      "context": "Personalizing the font > Custom fonts > Adding a font",
+      "contextHash": "ad3b835b8d68f224740013dd5cbfd29d8c16d3934868104cc1f9d7497e35fed9",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_36da82e1fce07c16ac101041_0",
+      "kind": "li",
+      "source": "Select the resulting note where a preview of a font will be displayed: a specimen line to type your own text into, a slider for its size, a preview in multiple sizes, and the Latin character set.",
+      "sourceHash": "36da82e1fce07c16ac1010415d12c3463f065ba2cee64193f148e424c3b10111",
+      "context": "Personalizing the font > Custom fonts > Adding a font",
+      "contextHash": "ad3b835b8d68f224740013dd5cbfd29d8c16d3934868104cc1f9d7497e35fed9",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_416c234565b4ffbfea5d6851_0",
+      "kind": "li",
+      "source": "Turn on __TRILIUM_PH_0__In font picker__TRILIUM_PH_1__ above the specimen.",
+      "sourceHash": "416c234565b4ffbfea5d6851f8b5aab46be150a6d19ef4b7a33918d2bdac3ea3",
+      "context": "Personalizing the font > Custom fonts > Adding a font",
+      "contextHash": "ad3b835b8d68f224740013dd5cbfd29d8c16d3934868104cc1f9d7497e35fed9",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_8300745aaf655276deb396f7_0",
+      "kind": "li",
+      "source": "In __TRILIUM_PH_0__Options__TRILIUM_PH_1__ → __TRILIUM_PH_2__Appearance__TRILIUM_PH_3__ → __TRILIUM_PH_4__Fonts__TRILIUM_PH_5__, the font is now offered under __TRILIUM_PH_6__Custom fonts__TRILIUM_PH_7__, ahead of the built-in families, and can be set for any of the four areas.",
+      "sourceHash": "8300745aaf655276deb396f7850ee3535b5ca31e224aa78f27b2f93f2f48ec2f",
+      "context": "Personalizing the font > Custom fonts > Adding a font",
+      "contextHash": "ad3b835b8d68f224740013dd5cbfd29d8c16d3934868104cc1f9d7497e35fed9",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_f9f9899da7760aa7c142fa9f_0",
+      "kind": "p",
+      "source": "Embedded OpenType (__TRILIUM_PH_0__) files and TrueType collections (__TRILIUM_PH_1__) cannot be drawn by the browser, so they are treated as ordinary files: no preview, and no entry in the picker.",
+      "sourceHash": "f9f9899da7760aa7c142fa9fe984fa759716cee8f16d7a8ea8df28eced11b35c",
+      "context": "Personalizing the font > Custom fonts > Adding a font",
+      "contextHash": "ad3b835b8d68f224740013dd5cbfd29d8c16d3934868104cc1f9d7497e35fed9",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_b52e4c091401eed72136ca8a_0",
+      "kind": "h3",
+      "source": "How custom fonts behave__TRILIUM_PH_0__",
+      "sourceHash": "b52e4c091401eed72136ca8a3406ef31fd1febff96f58c9e0435f847893beb80",
+      "context": "Personalizing the font > Custom fonts > How custom fonts behave",
+      "contextHash": "df9bb06f38a9b551b8a3c0c476333e934243d7747406e35af8733919d1f7a0a0",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_9fbf6ddbd1b917ae9a65f843_0",
+      "kind": "li",
+      "source": "Each entry is named after its note, so renaming the note renames the entry. The setting refers to the note itself rather than to its name, and keeps working across a rename.",
+      "sourceHash": "9fbf6ddbd1b917ae9a65f843153fa9c5768acb1b24c31294a3276b62b202cb9f",
+      "context": "Personalizing the font > Custom fonts > How custom fonts behave",
+      "contextHash": "df9bb06f38a9b551b8a3c0c476333e934243d7747406e35af8733919d1f7a0a0",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_7f8ce321c4b786d9b01d639c_0",
+      "kind": "li",
+      "source": "The font file is an ordinary note, so __TRILIUM_PH_0__Synchronization__TRILIUM_PH_1__ carries it to your other devices. The choice of font is not synced: appearance settings are deliberately kept per-device, so on another device the font is already there and only needs to be selected again.",
+      "sourceHash": "7f8ce321c4b786d9b01d639c88aebac3d04cb216f8b8139ae75bf4fd17b3a08b",
+      "context": "Personalizing the font > Custom fonts > How custom fonts behave",
+      "contextHash": "df9bb06f38a9b551b8a3c0c476333e934243d7747406e35af8733919d1f7a0a0",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_5226e48a67b2e06e5ac16bb0_0",
+      "kind": "li",
+      "source": "A font kept in a __TRILIUM_PH_0__protected note__TRILIUM_PH_1__ can only be previewed and used while the protected session is open.",
+      "sourceHash": "5226e48a67b2e06e5ac16bb007ff83a3bf3876814cb92a344d2c558bfb7da5f2",
+      "context": "Personalizing the font > Custom fonts > How custom fonts behave",
+      "contextHash": "df9bb06f38a9b551b8a3c0c476333e934243d7747406e35af8733919d1f7a0a0",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_694d20f5bde98523868ba334_0",
+      "kind": "p",
+      "source": "For theme authors, a font can also be embedded in a theme's CSS through __TRILIUM_PH_0__Custom Resource Providers__TRILIUM_PH_1__, which is the route to take when the font should come with the theme rather than be chosen in the settings.",
+      "sourceHash": "694d20f5bde98523868ba334e1856b82b150c2f9670c8269b2a973ab83a684aa",
+      "context": "Personalizing the font > Custom fonts > How custom fonts behave",
+      "contextHash": "df9bb06f38a9b551b8a3c0c476333e934243d7747406e35af8733919d1f7a0a0",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_d330fd66c94d946a64f1af04_0",
+      "kind": "h3",
+      "source": "Downloading from Google Fonts__TRILIUM_PH_0__",
+      "sourceHash": "d330fd66c94d946a64f1af040bef14a83b005ab32ce56ecf79dd3dfe59222d15",
+      "context": "Personalizing the font > Custom fonts > Downloading from Google Fonts",
+      "contextHash": "5184e19f1d813b1fa7385d68d879f1234df26ab57774de5e42a98ef7d78388db",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_d593761a0b7708ea39af5284_0",
+      "kind": "p",
+      "source": "A large selection of fonts can be easily retrieved from Google Fonts, as follows:",
+      "sourceHash": "d593761a0b7708ea39af5284b622ab85092db3780bcbaf29dbd26df36f60d1a6",
+      "context": "Personalizing the font > Custom fonts > Downloading from Google Fonts",
+      "contextHash": "5184e19f1d813b1fa7385d68d879f1234df26ab57774de5e42a98ef7d78388db",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_b6e05b957f1f6d62634324d0_0",
+      "kind": "li",
+      "source": "Go to __TRILIUM_PH_0__https://fonts.google.com__TRILIUM_PH_1__.",
+      "sourceHash": "b6e05b957f1f6d62634324d04830ae951dde28552c4a5f8e1a9ea8cf09695892",
+      "context": "Personalizing the font > Custom fonts > Downloading from Google Fonts",
+      "contextHash": "5184e19f1d813b1fa7385d68d879f1234df26ab57774de5e42a98ef7d78388db",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_d6f8dccc7f4d33f21e54f716_0",
+      "kind": "li",
+      "source": "Search for a desired font.",
+      "sourceHash": "d6f8dccc7f4d33f21e54f7162a7e7b91d89255790d2f236c3d806bb66a8f167d",
+      "context": "Personalizing the font > Custom fonts > Downloading from Google Fonts",
+      "contextHash": "5184e19f1d813b1fa7385d68d879f1234df26ab57774de5e42a98ef7d78388db",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_ac17d24f6aba54030a982dbf_0",
+      "kind": "li",
+      "source": "Press __TRILIUM_PH_0__Get font__TRILIUM_PH_1__ in the top right.",
+      "sourceHash": "ac17d24f6aba54030a982dbf31127d34993012bdc5061a64610c823fb6736370",
+      "context": "Personalizing the font > Custom fonts > Downloading from Google Fonts",
+      "contextHash": "5184e19f1d813b1fa7385d68d879f1234df26ab57774de5e42a98ef7d78388db",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_bbda880cf473f6f4c32a6d23_0",
+      "kind": "li",
+      "source": "Check that the list of fonts on the left side corresponds to your selection.",
+      "sourceHash": "bbda880cf473f6f4c32a6d237959ab7f32869b95199a5cb9746bd4250919b866",
+      "context": "Personalizing the font > Custom fonts > Downloading from Google Fonts",
+      "contextHash": "5184e19f1d813b1fa7385d68d879f1234df26ab57774de5e42a98ef7d78388db",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_6a9925b682201f140dd2a47e_0",
+      "kind": "li",
+      "source": "Press __TRILIUM_PH_0__Download all__TRILIUM_PH_1__.",
+      "sourceHash": "6a9925b682201f140dd2a47e3c78d012c9fec167154e68d321aea2a7c404d812",
+      "context": "Personalizing the font > Custom fonts > Downloading from Google Fonts",
+      "contextHash": "5184e19f1d813b1fa7385d68d879f1234df26ab57774de5e42a98ef7d78388db",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_5b7adf66e05c81f6184a2129_0",
+      "kind": "li",
+      "source": "In the __TRILIUM_PH_0__Note Tree__TRILIUM_PH_1__, create a note where to store the new fonts.",
+      "sourceHash": "5b7adf66e05c81f6184a2129dafd9f45ec27bf4a83a2bdb4055fe286df1de6e3",
+      "context": "Personalizing the font > Custom fonts > Downloading from Google Fonts",
+      "contextHash": "5184e19f1d813b1fa7385d68d879f1234df26ab57774de5e42a98ef7d78388db",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_dbf07301a1d813445371c972_0",
+      "kind": "li",
+      "source": "In the __TRILIUM_PH_0__Note Tree__TRILIUM_PH_1__, drag-and-drop the .zip file directly onto the newly created note and follow the steps from the previous section.",
+      "sourceHash": "dbf07301a1d813445371c9725cd2098ed2ac6bd44436a9dfd6ffdbbba8a1da1e",
+      "context": "Personalizing the font > Custom fonts > Downloading from Google Fonts",
+      "contextHash": "5184e19f1d813b1fa7385d68d879f1234df26ab57774de5e42a98ef7d78388db",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_aec08685396799ac6ea7720b_0",
+      "kind": "h2",
+      "source": "Programming ligatures__TRILIUM_PH_0__",
+      "sourceHash": "aec08685396799ac6ea7720b0f7d8895886ec450e38d641b3afd733ac4641f62",
+      "context": "Personalizing the font > Programming ligatures",
+      "contextHash": "29279d67ff15acc956916d3528ac140a3422094f06c28267aeb605adea7b0a7f",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_7fa24301a8dae5b317d0a445_0",
+      "kind": "p",
+      "source": "Some fonts support programming ligatures, which will turn character combinations such as __TRILIUM_PH_0__ into __TRILIUM_PH_1__ or __TRILIUM_PH_2__ as __TRILIUM_PH_3__ in __TRILIUM_PH_4__Code blocks__TRILIUM_PH_5__ and __TRILIUM_PH_6__Code__TRILIUM_PH_7__ notes.",
+      "sourceHash": "7fa24301a8dae5b317d0a445bacf594e5ad37ccb7947d514a734631580197104",
+      "context": "Personalizing the font > Programming ligatures",
+      "contextHash": "29279d67ff15acc956916d3528ac140a3422094f06c28267aeb605adea7b0a7f",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_b4112d2da49c43cfb296d02e_0",
+      "kind": "p",
+      "source": "These are only a display affordance, so copying the text is not affected. Regardless, this feature can be disabled in Trilium by unchecking __TRILIUM_PH_0__Programming ligatures__TRILIUM_PH_1__ in the font settings.",
+      "sourceHash": "b4112d2da49c43cfb296d02ec1a188b52493b3d8301f6fa334123e5bba457c44",
+      "context": "Personalizing the font > Programming ligatures",
+      "contextHash": "29279d67ff15acc956916d3528ac140a3422094f06c28267aeb605adea7b0a7f",
+      "status": "pending",
+      "active": true
+    }
+  ],
+  "requests": []
+}

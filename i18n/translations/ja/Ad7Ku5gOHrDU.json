@@ -1,0 +1,469 @@
+{
+  "schemaVersion": 1,
+  "pageId": "Ad7Ku5gOHrDU",
+  "sourceFile": "docs/User Guide/User Guide/Advanced Usage/Sharing/Custom share template.md",
+  "sourceRevision": "03d17b60f59b5efc29b880b11481471d0fe0ff57",
+  "units": [
+    {
+      "id": "u_4791f6f1a7e71e4defbf0c3d_0",
+      "kind": "title",
+      "source": "Custom share template",
+      "sourceHash": "4791f6f1a7e71e4defbf0c3d23219d5233f6fd361a12bbe09df11153746a8e25",
+      "context": "Custom share template",
+      "contextHash": "9ec8dc99510a02069b109458e92a6ef233148fb0e4b89e21d92fe3eccab7a10a",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_b65ab62f02da8ce0ab99f134_0",
+      "kind": "p",
+      "source": "This topic of creating share templates is considered advanced and requires JavaScript/EJS knowledge.",
+      "sourceHash": "b65ab62f02da8ce0ab99f134aaefe25c6e8223d132e5a96d2111528e397a6047",
+      "context": "Custom share template",
+      "contextHash": "9ec8dc99510a02069b109458e92a6ef233148fb0e4b89e21d92fe3eccab7a10a",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_368e47aa9d6fdc5935221ac4_0",
+      "kind": "p",
+      "source": "The default share template should cover most normal uses.",
+      "sourceHash": "368e47aa9d6fdc5935221ac4b7d08fef7a0a25d09ff3adb0299fd8bd82108fe8",
+      "context": "Custom share template",
+      "contextHash": "9ec8dc99510a02069b109458e92a6ef233148fb0e4b89e21d92fe3eccab7a10a",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_c124c9d0accc25990835cb44_0",
+      "kind": "p",
+      "source": "For full control over the HTML structure of a shared page — beyond what custom CSS, JS, or HTML snippets allow — you can replace the page template entirely using the __TRILIUM_PH_0__ relation.",
+      "sourceHash": "c124c9d0accc25990835cb44f586712459c95329671a6a3e1659dc318b1f7afc",
+      "context": "Custom share template",
+      "contextHash": "9ec8dc99510a02069b109458e92a6ef233148fb0e4b89e21d92fe3eccab7a10a",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_4aa592f328e007e456668e14_0",
+      "kind": "p",
+      "source": "To do so:",
+      "sourceHash": "4aa592f328e007e456668e14c5218dcb1f38831eca67cb0f8cb725b769ca8c0e",
+      "context": "Custom share template",
+      "contextHash": "9ec8dc99510a02069b109458e92a6ef233148fb0e4b89e21d92fe3eccab7a10a",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_c742859710141464a8df571a_0",
+      "kind": "li",
+      "source": "Create a __TRILIUM_PH_0__Code__TRILIUM_PH_1__ note with the language __TRILIUM_PH_2__Embedded JavaScript__TRILIUM_PH_3__ (EJS).",
+      "sourceHash": "c742859710141464a8df571a3a813dc73d7487250f6c3aa325fbfc1e4a3936ad",
+      "context": "Custom share template",
+      "contextHash": "9ec8dc99510a02069b109458e92a6ef233148fb0e4b89e21d92fe3eccab7a10a",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_5e99165399803f1860a80959_0",
+      "kind": "li",
+      "source": "For a shared note to apply the newly created template, apply the __TRILIUM_PH_0__ relation pointing to the note created at step (1). Make use of __TRILIUM_PH_1__Attribute Inheritance__TRILIUM_PH_2__ to apply it to multiple shared notes.",
+      "sourceHash": "5e99165399803f1860a809593e5f6699f41206f43acba6e821de1ec13ac4aaa6",
+      "context": "Custom share template",
+      "contextHash": "9ec8dc99510a02069b109458e92a6ef233148fb0e4b89e21d92fe3eccab7a10a",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_a7e2b6f26b73caf31a4f26a5_0",
+      "kind": "p",
+      "source": "There are two important constraints to be aware of:",
+      "sourceHash": "a7e2b6f26b73caf31a4f26a586a64a1b8a445e6085b9c9f0ed65a2e0588b22df",
+      "context": "Custom share template",
+      "contextHash": "9ec8dc99510a02069b109458e92a6ef233148fb0e4b89e21d92fe3eccab7a10a",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_83a68e9b33a446d258ace964_0",
+      "kind": "li",
+      "source": "Because EJS templates execute arbitrary server-side JavaScript, __TRILIUM_PH_0__ only takes effect when backend scripting is enabled. If it is disabled (see __TRILIUM_PH_1__Security__TRILIUM_PH_2__), the relation is ignored and the default template is used. For the same reason, __TRILIUM_PH_3__only apply templates from notes you trust__TRILIUM_PH_4__.",
+      "sourceHash": "83a68e9b33a446d258ace964d6baa8cd47db4ffcc546b87a57fd10eb43ef3f28",
+      "context": "Custom share template",
+      "contextHash": "9ec8dc99510a02069b109458e92a6ef233148fb0e4b89e21d92fe3eccab7a10a",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_7512abdcb92481492f13ad21_0",
+      "kind": "li",
+      "source": "The template note must be part of the shared subtree (just like __TRILIUM_PH_0__, __TRILIUM_PH_1__) in order for it to be loaded. To prevent it from being shown in the navigation, apply __TRILIUM_PH_2__ to it.",
+      "sourceHash": "7512abdcb92481492f13ad2159fc7e8cbe2a74459361d806954ab53ad22a4792",
+      "context": "Custom share template",
+      "contextHash": "9ec8dc99510a02069b109458e92a6ef233148fb0e4b89e21d92fe3eccab7a10a",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_9d7f811bedd83e1d72399a5e_0",
+      "kind": "h2",
+      "source": "Content of the share template__TRILIUM_PH_0__",
+      "sourceHash": "9d7f811bedd83e1d72399a5e305bece3ae1012c63f2f7cc0ac41a4a8211ccd5f",
+      "context": "Custom share template > Content of the share template",
+      "contextHash": "57ec0130093c2d2f6a8e581f88dd40067967092046dde5f7c88580805511cd94",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_3786c531476afc5fa270723c_0",
+      "kind": "p",
+      "source": "Use the __TRILIUM_PH_0__original template__TRILIUM_PH_1__ as reference when creating a new share template.",
+      "sourceHash": "3786c531476afc5fa270723c1ab539ee92807cd956f5c2f7990cca376e9bc128",
+      "context": "Custom share template > Content of the share template",
+      "contextHash": "57ec0130093c2d2f6a8e581f88dd40067967092046dde5f7c88580805511cd94",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_e98023d23cba37f40a47b0a7_0",
+      "kind": "h2",
+      "source": "Available variables__TRILIUM_PH_0__",
+      "sourceHash": "e98023d23cba37f40a47b0a77d132566d7f2e15e65617a15187c32553b2cd72d",
+      "context": "Custom share template > Available variables",
+      "contextHash": "7eb1865b944a5278eab7c2caf323fc49b44191f8a1ea8c1719b9c41f4b9ecda1",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_00eede019e6cb4f582fce3e9_0",
+      "kind": "p",
+      "source": "Your template is rendered with a context object exposing the note and its rendering environment. The most useful values are:",
+      "sourceHash": "00eede019e6cb4f582fce3e9266ae7560ad50f0b45495e29f09245afe74e5e13",
+      "context": "Custom share template > Available variables",
+      "contextHash": "7eb1865b944a5278eab7c2caf323fc49b44191f8a1ea8c1719b9c41f4b9ecda1",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_d7a73fc8589b089ebb73eed2_0",
+      "kind": "th",
+      "source": "Variable",
+      "sourceHash": "d7a73fc8589b089ebb73eed2ebe68195dfeed92183a82e5f9c780e73689ac37a",
+      "context": "Custom share template > Available variables",
+      "contextHash": "7eb1865b944a5278eab7c2caf323fc49b44191f8a1ea8c1719b9c41f4b9ecda1",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_4b00baa636b92e18b7a75884_0",
+      "kind": "th",
+      "source": "Description",
+      "sourceHash": "4b00baa636b92e18b7a75884790f0769c3e702d20d8822e708f69ab2f07c7103",
+      "context": "Custom share template > Available variables",
+      "contextHash": "7eb1865b944a5278eab7c2caf323fc49b44191f8a1ea8c1719b9c41f4b9ecda1",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_86fbce49fea3043a39d68f6c_0",
+      "kind": "td",
+      "source": "The note being rendered. Use it to read attributes (__TRILIUM_PH_0__), __TRILIUM_PH_1__, child notes, etc.",
+      "sourceHash": "86fbce49fea3043a39d68f6cf9b2c9b4a9178a2102622dd78e07df1ef8dfb471",
+      "context": "Custom share template > Available variables",
+      "contextHash": "7eb1865b944a5278eab7c2caf323fc49b44191f8a1ea8c1719b9c41f4b9ecda1",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_ec22f093b6084d8859b5c164_0",
+      "kind": "td",
+      "source": "The note's already-rendered HTML content, as a string.",
+      "sourceHash": "ec22f093b6084d8859b5c164b5f668fe5d6b8442fb689f2a7e1fc65bb1413d60",
+      "context": "Custom share template > Available variables",
+      "contextHash": "7eb1865b944a5278eab7c2caf323fc49b44191f8a1ea8c1719b9c41f4b9ecda1",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_e65168c367d70213a2451007_0",
+      "kind": "td",
+      "source": "Extra HTML to place in the document head for this note (used by some note types).",
+      "sourceHash": "e65168c367d70213a24510075945a2f519e2571293cba8fdfd6031117665c927",
+      "context": "Custom share template > Available variables",
+      "contextHash": "7eb1865b944a5278eab7c2caf323fc49b44191f8a1ea8c1719b9c41f4b9ecda1",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_cba771d8caa1ee13a86884b9_0",
+      "kind": "td",
+      "source": "__TRILIUM_PH_0__ when the note has no content of its own.",
+      "sourceHash": "cba771d8caa1ee13a86884b901390c9ddcb900c57b25dec40d8101c5fd4383c6",
+      "context": "Custom share template > Available variables",
+      "contextHash": "7eb1865b944a5278eab7c2caf323fc49b44191f8a1ea8c1719b9c41f4b9ecda1",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_850693be520d0d3eb2f83052_0",
+      "kind": "td",
+      "source": "The values of the page's __TRILIUM_PH_0__: __TRILIUM_PH_1__ (the note's title, followed by the site's), __TRILIUM_PH_2__ (__TRILIUM_PH_3__), __TRILIUM_PH_4__ (__TRILIUM_PH_5__) and __TRILIUM_PH_6__ with __TRILIUM_PH_7__, __TRILIUM_PH_8__, __TRILIUM_PH_9__, __TRILIUM_PH_10__ and __TRILIUM_PH_11__ (__TRILIUM_PH_12__ with an image, __TRILIUM_PH_13__ without). A value whose label is not set is __TRILIUM_PH_14__. __TRILIUM_PH_15__ lists the description, OpenGraph and Twitter __TRILIUM_PH_16__ tags of the values that are set, each with __TRILIUM_PH_17__ (__TRILIUM_PH_18__ or __TRILIUM_PH_19__), __TRILIUM_PH_20__ and __TRILIUM_PH_21__.",
+      "sourceHash": "850693be520d0d3eb2f8305205b46a10be175074e90a74feaa414c16f035cd2e",
+      "context": "Custom share template > Available variables",
+      "contextHash": "7eb1865b944a5278eab7c2caf323fc49b44191f8a1ea8c1719b9c41f4b9ecda1",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_084e4fa866b077ad6ff42c8a_0",
+      "kind": "td",
+      "source": "The site logo above the navigation tree and, on a narrow screen, in the header: __TRILIUM_PH_0__ (__TRILIUM_PH_1__, otherwise the site's root page), __TRILIUM_PH_2__ (the __TRILIUM_PH_3__ image, or __TRILIUM_PH_4__), __TRILIUM_PH_5__ (the icon classes of the site's root note, shown when there is no __TRILIUM_PH_6__), and __TRILIUM_PH_7__ and __TRILIUM_PH_8__ for the image.",
+      "sourceHash": "084e4fa866b077ad6ff42c8abc5b5a79bb96c662e663a735a5ec46ef684e2e26",
+      "context": "Custom share template > Available variables",
+      "contextHash": "7eb1865b944a5278eab7c2caf323fc49b44191f8a1ea8c1719b9c41f4b9ecda1",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_6926ce07066da5e68788413e_0",
+      "kind": "td",
+      "source": "The navigation tree of the site: its visible pages, each with __TRILIUM_PH_0__, __TRILIUM_PH_1__, __TRILIUM_PH_2__, __TRILIUM_PH_3__, __TRILIUM_PH_4__, __TRILIUM_PH_5__ (the page being shown), __TRILIUM_PH_6__ (that page or one of its ancestors) and __TRILIUM_PH_7__.",
+      "sourceHash": "6926ce07066da5e68788413ee6ed08cbe3c474a07572033d4aa0d8dfa6c6ea65",
+      "context": "Custom share template > Available variables",
+      "contextHash": "7eb1865b944a5278eab7c2caf323fc49b44191f8a1ea8c1719b9c41f4b9ecda1",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_bf2386b93fb329e316bd3055_0",
+      "kind": "td",
+      "source": "The classes of the content element: __TRILIUM_PH_0__, __TRILIUM_PH_1__ for text and Markdown notes, __TRILIUM_PH_2__ for a note that takes the whole page (such as a PDF, a web view, a calendar, a geo map or an image), and __TRILIUM_PH_3__ when the note has no content of its own.",
+      "sourceHash": "bf2386b93fb329e316bd3055fb39e7dead49bf826f308c7a2e76b0de90faeec4",
+      "context": "Custom share template > Available variables",
+      "contextHash": "7eb1865b944a5278eab7c2caf323fc49b44191f8a1ea8c1719b9c41f4b9ecda1",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_81fb17d4a4c4c25b36d8e401_0",
+      "kind": "td",
+      "source": "The links to the note's visible children, each with __TRILIUM_PH_0__, __TRILIUM_PH_1__, __TRILIUM_PH_2__, __TRILIUM_PH_3__, __TRILIUM_PH_4__ (its icon classes), __TRILIUM_PH_5__ (its __TRILIUM_PH_6__ or the start of its text, with a line break between paragraphs, or __TRILIUM_PH_7__) and __TRILIUM_PH_8__ (when it has no excerpt, its first ten visible children, each with __TRILIUM_PH_9__, __TRILIUM_PH_10__, __TRILIUM_PH_11__ and __TRILIUM_PH_12__). Empty for a note that is not a collection, a text note or a code note, for a note that takes the whole page, and with __TRILIUM_PH_13__.",
+      "sourceHash": "81fb17d4a4c4c25b36d8e4011ba9e022a4fc6edee0df32f42bdaa4cdd64b2e95",
+      "context": "Custom share template > Available variables",
+      "contextHash": "7eb1865b944a5278eab7c2caf323fc49b44191f8a1ea8c1719b9c41f4b9ecda1",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_8eb0f66e095ea26e6fa0cdf1_0",
+      "kind": "td",
+      "source": "How the default template lays __TRILIUM_PH_0__ out: __TRILIUM_PH_1__ for a collection whose view type is list, __TRILIUM_PH_2__ otherwise.",
+      "sourceHash": "8eb0f66e095ea26e6fa0cdf137b021da19271a55ebe24194738bc9dac797114c",
+      "context": "Custom share template > Available variables",
+      "contextHash": "7eb1865b944a5278eab7c2caf323fc49b44191f8a1ea8c1719b9c41f4b9ecda1",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_4100a54f4aef2e6685c59658_0",
+      "kind": "td",
+      "source": "The pages before and after the note in the navigation tree, as __TRILIUM_PH_0__ and __TRILIUM_PH_1__, each with __TRILIUM_PH_2__ and __TRILIUM_PH_3__, or __TRILIUM_PH_4__. Both __TRILIUM_PH_5__ for a note that takes the whole page.",
+      "sourceHash": "4100a54f4aef2e6685c596587c1874be9ea5c4cc99a5257ec751eecbeb1976ae",
+      "context": "Custom share template > Available variables",
+      "contextHash": "7eb1865b944a5278eab7c2caf323fc49b44191f8a1ea8c1719b9c41f4b9ecda1",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_1200c18bb404652bed2f65cb_0",
+      "kind": "td",
+      "source": "The languages of the page: __TRILIUM_PH_0__ with the __TRILIUM_PH_1__ and __TRILIUM_PH_2__ of the application's language, and __TRILIUM_PH_3__ with those of the note's content language, or __TRILIUM_PH_4__ when they are the same.",
+      "sourceHash": "1200c18bb404652bed2f65cb476c4ef89024b1e3584690bc6e14e19f15587c07",
+      "context": "Custom share template > Available variables",
+      "contextHash": "7eb1865b944a5278eab7c2caf323fc49b44191f8a1ea8c1719b9c41f4b9ecda1",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_1340d8365ccf6e9f1907f0f3_0",
+      "kind": "td",
+      "source": "When the note was last changed, as __TRILIUM_PH_0__ for a __TRILIUM_PH_1__ element and as __TRILIUM_PH_2__ in the application's language, or __TRILIUM_PH_3__, which it also is for a note that takes the whole page.",
+      "sourceHash": "1340d8365ccf6e9f1907f0f3ce778c9742be9819d5a938639455b9ff4912f118",
+      "context": "Custom share template > Available variables",
+      "contextHash": "7eb1865b944a5278eab7c2caf323fc49b44191f8a1ea8c1719b9c41f4b9ecda1",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_cbcf74fd2bda3e37a75e2e0d_0",
+      "kind": "td",
+      "source": "Whether the default template shows the note's title above the content. Always __TRILIUM_PH_0__.",
+      "sourceHash": "cbcf74fd2bda3e37a75e2e0d023264a14d145343175afd2a66d230ba430d07f3",
+      "context": "Custom share template > Available variables",
+      "contextHash": "7eb1865b944a5278eab7c2caf323fc49b44191f8a1ea8c1719b9c41f4b9ecda1",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_95430a7943d56a960a689469_0",
+      "kind": "td",
+      "source": "The icon classes of the note, which the default template shows beside the title in a row of its own for a note that takes the whole page; __TRILIUM_PH_0__ for any other note.",
+      "sourceHash": "95430a7943d56a960a68946917eee62bca1142686b8bd7bafe5812d0fc0907de",
+      "context": "Custom share template > Available variables",
+      "contextHash": "7eb1865b944a5278eab7c2caf323fc49b44191f8a1ea8c1719b9c41f4b9ecda1",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_1c65ff2082b0c887895a7cef_0",
+      "kind": "td",
+      "source": "The HTML of the __TRILIUM_PH_0__ snippets for each location, such as __TRILIUM_PH_1__. Every location is present, empty when no snippet goes there.",
+      "sourceHash": "1c65ff2082b0c887895a7cef3d32f3396c153b076db9beb8be8cd865b45c10f5",
+      "context": "Custom share template > Available variables",
+      "contextHash": "7eb1865b944a5278eab7c2caf323fc49b44191f8a1ea8c1719b9c41f4b9ecda1",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_ce141a115d134de778b6aec1_0",
+      "kind": "td",
+      "source": "The root of the shared subtree as __TRILIUM_PH_0__ — handy for a site-wide title or logo.",
+      "sourceHash": "ce141a115d134de778b6aec14aa3a49f039ee64a5dc20a7185e4b2a574d1ad02",
+      "context": "Custom share template > Available variables",
+      "contextHash": "7eb1865b944a5278eab7c2caf323fc49b44191f8a1ea8c1719b9c41f4b9ecda1",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_9d782318ea1c7e4d838a67f9_0",
+      "kind": "td",
+      "source": "__TRILIUM_PH_0__ / __TRILIUM_PH_1__",
+      "sourceHash": "9d782318ea1c7e4d838a67f9f8c8b032b21049ebe42e27238061c5b9ddbe32f1",
+      "context": "Custom share template > Available variables",
+      "contextHash": "7eb1865b944a5278eab7c2caf323fc49b44191f8a1ea8c1719b9c41f4b9ecda1",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_7fd35f5baedf831888498884_0",
+      "kind": "td",
+      "source": "Arrays of stylesheet / script URLs the default theme would inject (includes anything added via __TRILIUM_PH_0__ / __TRILIUM_PH_1__).",
+      "sourceHash": "7fd35f5baedf83188849888444d5c19d9d887f46185d4a1e6a6e45bc28abcec2",
+      "context": "Custom share template > Available variables",
+      "contextHash": "7eb1865b944a5278eab7c2caf323fc49b44191f8a1ea8c1719b9c41f4b9ecda1",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_9d782318ea1c7e4d838a67f9_1",
+      "kind": "td",
+      "source": "__TRILIUM_PH_0__ / __TRILIUM_PH_1__",
+      "sourceHash": "9d782318ea1c7e4d838a67f9f8c8b032b21049ebe42e27238061c5b9ddbe32f1",
+      "context": "Custom share template > Available variables",
+      "contextHash": "7eb1865b944a5278eab7c2caf323fc49b44191f8a1ea8c1719b9c41f4b9ecda1",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_f7da7ebda7898716153a03da_0",
+      "kind": "td",
+      "source": "Resolved favicon and logo URLs. Without __TRILIUM_PH_0__, __TRILIUM_PH_1__ is the Trilium logo.",
+      "sourceHash": "f7da7ebda7898716153a03da6e49e59c7774e3a502aca895fa09f9da5b9a308f",
+      "context": "Custom share template > Available variables",
+      "contextHash": "7eb1865b944a5278eab7c2caf323fc49b44191f8a1ea8c1719b9c41f4b9ecda1",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_e567200ee9ae3c147823e239_0",
+      "kind": "td",
+      "source": "The icon fonts to preload, each with __TRILIUM_PH_0__ and __TRILIUM_PH_1__ (the font's media type): Boxicons, and the icon packs used by the logo, the navigation tree or the subpages. The default template adds a __TRILIUM_PH_2__ for each, so that the icons do not appear only after the first paint.",
+      "sourceHash": "e567200ee9ae3c147823e239a32afd293e50eea365a909ca88b7083dbae9abf9",
+      "context": "Custom share template > Available variables",
+      "contextHash": "7eb1865b944a5278eab7c2caf323fc49b44191f8a1ea8c1719b9c41f4b9ecda1",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_df531f612634bc3e33d26668_0",
+      "kind": "td",
+      "source": "__TRILIUM_PH_0__ during a static HTML export, __TRILIUM_PH_1__ for a live server render.",
+      "sourceHash": "df531f612634bc3e33d26668e92ff5aa752472760b8601a3177bf02ddbc20a1d",
+      "context": "Custom share template > Available variables",
+      "contextHash": "7eb1865b944a5278eab7c2caf323fc49b44191f8a1ea8c1719b9c41f4b9ecda1",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_fb7b7cbffaed8ac738dd7234_0",
+      "kind": "td",
+      "source": "The __TRILIUM_PH_0__ translation function.",
+      "sourceHash": "fb7b7cbffaed8ac738dd7234e17db8f47579ac7c74b8059a579e1b95908540d8",
+      "context": "Custom share template > Available variables",
+      "contextHash": "7eb1865b944a5278eab7c2caf323fc49b44191f8a1ea8c1719b9c41f4b9ecda1",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_7047b87d7f469a8d6a3e0017_0",
+      "kind": "td",
+      "source": "Helper utilities such as __TRILIUM_PH_0__ and __TRILIUM_PH_1__.",
+      "sourceHash": "7047b87d7f469a8d6a3e00175f7689e191dd4498d0ed02d81e782afb1060739e",
+      "context": "Custom share template > Available variables",
+      "contextHash": "7eb1865b944a5278eab7c2caf323fc49b44191f8a1ea8c1719b9c41f4b9ecda1",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_6b448b245140f460148a0e79_0",
+      "kind": "h2",
+      "source": "Error handling__TRILIUM_PH_0__",
+      "sourceHash": "6b448b245140f460148a0e795dcf4a2395f72f29f8792dc3bd457a45009ecc2d",
+      "context": "Custom share template > Error handling",
+      "contextHash": "9f0ab73ecea46a3812aab84432c360d297d97ed9aab86e2da7c515c43e20a2cd",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_74f76e0d0f5cde7031798195_0",
+      "kind": "p",
+      "source": "If your template throws an error while rendering, Trilium logs the error and quietly falls back to the default template, so a broken template never takes the shared page down.",
+      "sourceHash": "74f76e0d0f5cde7031798195c13e421a62f2678ed51590d69fc3943a6a065b8b",
+      "context": "Custom share template > Error handling",
+      "contextHash": "9f0ab73ecea46a3812aab84432c360d297d97ed9aab86e2da7c515c43e20a2cd",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_ef314c0b290a22e1245ae89f_0",
+      "kind": "h2",
+      "source": "Splitting a template into partials__TRILIUM_PH_0__",
+      "sourceHash": "ef314c0b290a22e1245ae89f358d5295ab910b17d4689b903f7a1479ad707991",
+      "context": "Custom share template > Splitting a template into partials",
+      "contextHash": "95f51e146bf41ed821da4e77f251deaa92357d94a15074ea51a6172d44fe1cd2",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_1bb77911b8ec1c9157d4e930_0",
+      "kind": "p",
+      "source": "A template can pull in other EJS notes as partials. Create them as __TRILIUM_PH_0__child notes__TRILIUM_PH_1__ of the template note (each also a __TRILIUM_PH_2__ / __TRILIUM_PH_3__ note) and reference them by title:",
+      "sourceHash": "1bb77911b8ec1c9157d4e930af195af43b9d3c4f1d9fd52d344abe6fd1f5e740",
+      "context": "Custom share template > Splitting a template into partials",
+      "contextHash": "95f51e146bf41ed821da4e77f251deaa92357d94a15074ea51a6172d44fe1cd2",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_6e3ad2cd34c0cbbc0285b275_0",
+      "kind": "p",
+      "source": "Here __TRILIUM_PH_0__ and __TRILIUM_PH_1__ are the titles of child notes of the template. Only direct children are resolvable, and they must be EJS code notes.",
+      "sourceHash": "6e3ad2cd34c0cbbc0285b2755ebfb7bf95d38390ec339d00d15d0f5f7fa01402",
+      "context": "Custom share template > Splitting a template into partials",
+      "contextHash": "95f51e146bf41ed821da4e77f251deaa92357d94a15074ea51a6172d44fe1cd2",
+      "status": "pending",
+      "active": true
+    }
+  ],
+  "requests": []
+}

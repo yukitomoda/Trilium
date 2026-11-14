@@ -1,0 +1,669 @@
+{
+  "schemaVersion": 1,
+  "pageId": "iWD7wiIuMtgV",
+  "sourceFile": "docs/User Guide/User Guide/Basic Concepts and Features/Import & Export/Importing data from other applications/Obsidian.md",
+  "sourceRevision": "03d17b60f59b5efc29b880b11481471d0fe0ff57",
+  "units": [
+    {
+      "id": "u_97210bfd6858838b70e34d42_0",
+      "kind": "title",
+      "source": "Obsidian",
+      "sourceHash": "97210bfd6858838b70e34d426b403ee0256899f278c11a6462613ea185c94d9b",
+      "context": "Obsidian",
+      "contextHash": "9db22d416e293660fbf7496b7bfaa3823852666eda0cb7373d099a0b7278e193",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_605afb18a3bb1a103adb8190_0",
+      "kind": "p",
+      "source": "Although Obsidian was indirectly supported through the standard __TRILIUM_PH_0__Markdown__TRILIUM_PH_1__ import, its vault structure is distinct enough to warrant its own dedicated import channel.",
+      "sourceHash": "605afb18a3bb1a103adb8190493bfac357b2bc1bac6aabbf28ce51bffd21e782",
+      "context": "Obsidian",
+      "contextHash": "9db22d416e293660fbf7496b7bfaa3823852666eda0cb7373d099a0b7278e193",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_091eb4af09a41aef221b8460_0",
+      "kind": "h2",
+      "source": "Import process__TRILIUM_PH_0__",
+      "sourceHash": "091eb4af09a41aef221b84600bc33be9eed8e7c13f3c31fa0e1adf7f9725b683",
+      "context": "Obsidian > Import process",
+      "contextHash": "eef90de92ae62dfdc682c0b1aaba3ceda6b27c1e2b8b5a82a598b3112b9b5f75",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_68f7c54e3279e17e44b318f0_0",
+      "kind": "p",
+      "source": "The first step is to obtain a .zip of your Obsidian vault:",
+      "sourceHash": "68f7c54e3279e17e44b318f0febe022eb94246d3baeff19209f20667959815ed",
+      "context": "Obsidian > Import process",
+      "contextHash": "eef90de92ae62dfdc682c0b1aaba3ceda6b27c1e2b8b5a82a598b3112b9b5f75",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_3f4d45d9b1e2ff0bed934dce_0",
+      "kind": "li",
+      "source": "First, identify where your Obsidian vault is located. The easiest way to do so is to open Obsidian and right clicking the name of the vault at the bottom of the left sidebar and then selecting __TRILIUM_PH_0__Show in system explorer__TRILIUM_PH_1__.",
+      "sourceHash": "3f4d45d9b1e2ff0bed934dce889860a28a5f2a72e8ae36d45c284dc1498712b8",
+      "context": "Obsidian > Import process",
+      "contextHash": "eef90de92ae62dfdc682c0b1aaba3ceda6b27c1e2b8b5a82a598b3112b9b5f75",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_b937f13d7369cc40b2755465_0",
+      "kind": "li",
+      "source": "In your system explorer, right click the directory containing your Obsidian vault and compress it to a ZIP file (e.g. on Windows, __TRILIUM_PH_0__Compress To__TRILIUM_PH_1__ → __TRILIUM_PH_2__ZIP__TRILIUM_PH_3__).",
+      "sourceHash": "b937f13d7369cc40b27554654a60ebab11f8c388d9277f581569bba63052476e",
+      "context": "Obsidian > Import process",
+      "contextHash": "eef90de92ae62dfdc682c0b1aaba3ceda6b27c1e2b8b5a82a598b3112b9b5f75",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_cf262412249965ba8d46cfc5_0",
+      "kind": "p",
+      "source": "When zipping, you can either ZIP the outer folder of the vault, or the contents of the vault as Trilium will automatically determine the position of the vault in the archive via the __TRILIUM_PH_0__ directory.",
+      "sourceHash": "cf262412249965ba8d46cfc568201e1af175d487ca7a64dd4a7aebebd3076c29",
+      "context": "Obsidian > Import process",
+      "contextHash": "eef90de92ae62dfdc682c0b1aaba3ceda6b27c1e2b8b5a82a598b3112b9b5f75",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_580003a9e4c50570f1204afa_0",
+      "kind": "p",
+      "source": "Then, in Trilium Notes:",
+      "sourceHash": "580003a9e4c50570f1204afab149286d31bce042559aa4390a85f20c9f54a847",
+      "context": "Obsidian > Import process",
+      "contextHash": "eef90de92ae62dfdc682c0b1aaba3ceda6b27c1e2b8b5a82a598b3112b9b5f75",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_ef4bbe69eb52d183b3df83f2_0",
+      "kind": "li",
+      "source": "In the __TRILIUM_PH_0__Note Tree__TRILIUM_PH_1__, right click and select __TRILIUM_PH_2__Import into note__TRILIUM_PH_3__.",
+      "sourceHash": "ef4bbe69eb52d183b3df83f21ece5d4532aff127158e9daaf171bcfa82be7c1c",
+      "context": "Obsidian > Import process",
+      "contextHash": "eef90de92ae62dfdc682c0b1aaba3ceda6b27c1e2b8b5a82a598b3112b9b5f75",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_ee915429262a87d051b1f43f_0",
+      "kind": "li",
+      "source": "In the __TRILIUM_PH_0__Import from__TRILIUM_PH_1__ section, select __TRILIUM_PH_2__ __TRILIUM_PH_3__Obsidian__TRILIUM_PH_4__.",
+      "sourceHash": "ee915429262a87d051b1f43f9c3e89076418ab96e741ba82c5fc00e71679ce78",
+      "context": "Obsidian > Import process",
+      "contextHash": "eef90de92ae62dfdc682c0b1aaba3ceda6b27c1e2b8b5a82a598b3112b9b5f75",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_9b8fd32b1e048ebc29a99814_0",
+      "kind": "li",
+      "source": "Upload the ZIP obtained in the previous step.",
+      "sourceHash": "9b8fd32b1e048ebc29a998149f88110e2b5131e69ebd01b52a1e76129d630c1f",
+      "context": "Obsidian > Import process",
+      "contextHash": "eef90de92ae62dfdc682c0b1aaba3ceda6b27c1e2b8b5a82a598b3112b9b5f75",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_e7a864587a1fb60c92105951_0",
+      "kind": "p",
+      "source": "Alternatively, simply drag & drop the .zip archive in the __TRILIUM_PH_0__Note Tree__TRILIUM_PH_1__ and Trilium will auto-detect it as an Obsidian import provided there is a __TRILIUM_PH_2__ directory. If not, follow the previous steps instead.",
+      "sourceHash": "e7a864587a1fb60c921059514bfefbc94186af77a8665cf36382ec0c7dd8a297",
+      "context": "Obsidian > Import process",
+      "contextHash": "eef90de92ae62dfdc682c0b1aaba3ceda6b27c1e2b8b5a82a598b3112b9b5f75",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_40ff640d4fda01902f6eb589_0",
+      "kind": "h2",
+      "source": "Supported features__TRILIUM_PH_0__",
+      "sourceHash": "40ff640d4fda01902f6eb5894c960a3be0632f56de2d140fa2627699a93bdba5",
+      "context": "Obsidian > Supported features",
+      "contextHash": "7f40cb98eec4b988ba1919e7e3f329605172c17fa89c1f3ed782fff8942acd6e",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_4e4fc272e1d831098ab11c37_0",
+      "kind": "p",
+      "source": "The following features are preserved by Trilium during the import process:",
+      "sourceHash": "4e4fc272e1d831098ab11c37962bae9a80d1783ce2c30dc11d34966d9c46162e",
+      "context": "Obsidian > Supported features",
+      "contextHash": "7f40cb98eec4b988ba1919e7e3f329605172c17fa89c1f3ed782fff8942acd6e",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_15d72ed90444910b192b0550_0",
+      "kind": "li",
+      "source": "Folder hierarchy is preserved.",
+      "sourceHash": "15d72ed90444910b192b05506d63f3fca8fcce5ae4f454ab25172ba8c9f279d5",
+      "context": "Obsidian > Supported features",
+      "contextHash": "7f40cb98eec4b988ba1919e7e3f329605172c17fa89c1f3ed782fff8942acd6e",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_85248496a521ed1ef343e6e5_0",
+      "kind": "li",
+      "source": "Basic Markdown formatting (bold, italic, underline, strikethrough, headings).",
+      "sourceHash": "85248496a521ed1ef343e6e51170ae96c4098ee18a42a122d3214fa49a58195d",
+      "context": "Obsidian > Supported features",
+      "contextHash": "7f40cb98eec4b988ba1919e7e3f329605172c17fa89c1f3ed782fff8942acd6e",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_37d840673abd46d54be8542e_0",
+      "kind": "li",
+      "source": "Specific Obsidian formatting (highlighting).",
+      "sourceHash": "37d840673abd46d54be8542e6d107ef236cb53fbf324dc32e3f3dc80769eda42",
+      "context": "Obsidian > Supported features",
+      "contextHash": "7f40cb98eec4b988ba1919e7e3f329605172c17fa89c1f3ed782fff8942acd6e",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_d42c68dd1fe8140c845ef2e2_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__Lists__TRILIUM_PH_1__",
+      "sourceHash": "d42c68dd1fe8140c845ef2e260f601564f27cccd95e437977659b41592007d18",
+      "context": "Obsidian > Supported features",
+      "contextHash": "7f40cb98eec4b988ba1919e7e3f329605172c17fa89c1f3ed782fff8942acd6e",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_9054e47fa079d153496da7b9_0",
+      "kind": "li",
+      "source": "To-do lists",
+      "sourceHash": "9054e47fa079d153496da7b99a8b94859cdbe3bdb9a66b862fb8085c32e719af",
+      "context": "Obsidian > Supported features",
+      "contextHash": "7f40cb98eec4b988ba1919e7e3f329605172c17fa89c1f3ed782fff8942acd6e",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_245d2d015df50e08246aaffc_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__Images__TRILIUM_PH_1__ and __TRILIUM_PH_2__Attachments__TRILIUM_PH_3__",
+      "sourceHash": "245d2d015df50e08246aaffc339c2fa172a7458afdcadded8ddb99785b83c5ab",
+      "context": "Obsidian > Supported features",
+      "contextHash": "7f40cb98eec4b988ba1919e7e3f329605172c17fa89c1f3ed782fff8942acd6e",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_5e7d7583e48eac2eb8cc19be_0",
+      "kind": "li",
+      "source": "Non-Markdown files in the Vault are treated as attachments by default if they are referenced by at least one note.",
+      "sourceHash": "5e7d7583e48eac2eb8cc19bed07404aceca918a76568d1ff2c4248189d96a648",
+      "context": "Obsidian > Supported features",
+      "contextHash": "7f40cb98eec4b988ba1919e7e3f329605172c17fa89c1f3ed782fff8942acd6e",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_553d8aa722e50539ba5b237b_0",
+      "kind": "li",
+      "source": "Otherwise, they will be imported as __TRILIUM_PH_0__File__TRILIUM_PH_1__ notes.",
+      "sourceHash": "553d8aa722e50539ba5b237b3e260bb32972691c3c448cf0ebc947ce65ecca7d",
+      "context": "Obsidian > Supported features",
+      "contextHash": "7f40cb98eec4b988ba1919e7e3f329605172c17fa89c1f3ed782fff8942acd6e",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_aff3e079283ac3a7eaf07cfb_0",
+      "kind": "li",
+      "source": "Transclusions are converted to __TRILIUM_PH_0__Include Note__TRILIUM_PH_1__ or __TRILIUM_PH_2__Images__TRILIUM_PH_3__ (depending on type).",
+      "sourceHash": "aff3e079283ac3a7eaf07cfb463666dd0b849706b69eb5989d4400e0e819c379",
+      "context": "Obsidian > Supported features",
+      "contextHash": "7f40cb98eec4b988ba1919e7e3f329605172c17fa89c1f3ed782fff8942acd6e",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_b23bd9a2ab1dbedd6ece5116_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__Math Equations__TRILIUM_PH_1__ (inline or block)",
+      "sourceHash": "b23bd9a2ab1dbedd6ece5116545d08ed86d396309ff7578b739f89c7af3d2355",
+      "context": "Obsidian > Supported features",
+      "contextHash": "7f40cb98eec4b988ba1919e7e3f329605172c17fa89c1f3ed782fff8942acd6e",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_afa4d2482f1b126cb8b93ace_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__Code blocks__TRILIUM_PH_1__, with a best-effort attempt to restore the language.",
+      "sourceHash": "afa4d2482f1b126cb8b93ace504f00519bd17e1caf16eb5912bf90fb1955e505",
+      "context": "Obsidian > Supported features",
+      "contextHash": "7f40cb98eec4b988ba1919e7e3f329605172c17fa89c1f3ed782fff8942acd6e",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_6a78c21a691f8d4b3b8f5d68_0",
+      "kind": "li",
+      "source": "Links between pages are converted to __TRILIUM_PH_0__Internal (reference) links__TRILIUM_PH_1__.",
+      "sourceHash": "6a78c21a691f8d4b3b8f5d68917587b8d6f635684057b4661a391ca1a71776e3",
+      "context": "Obsidian > Supported features",
+      "contextHash": "7f40cb98eec4b988ba1919e7e3f329605172c17fa89c1f3ed782fff8942acd6e",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_16658b36ee8b1984ab035845_0",
+      "kind": "li",
+      "source": "Callouts are converted to Trilium's __TRILIUM_PH_0__Admonitions__TRILIUM_PH_1__.",
+      "sourceHash": "16658b36ee8b1984ab0358458575115ccabb200f58aeba21cc3cae8acdd6d5f9",
+      "context": "Obsidian > Supported features",
+      "contextHash": "7f40cb98eec4b988ba1919e7e3f329605172c17fa89c1f3ed782fff8942acd6e",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_f0de439c22ef8235762c8657_0",
+      "kind": "li",
+      "source": "Obsidian has many more types of callouts (__TRILIUM_PH_0__, __TRILIUM_PH_1__, __TRILIUM_PH_2__), these are all mapped to one of Trilium's existing admonition types (e.g. Note, Tip, Important).",
+      "sourceHash": "f0de439c22ef8235762c865753fd697f92e49c9a586d7bba0075d4bf5b4931d8",
+      "context": "Obsidian > Supported features",
+      "contextHash": "7f40cb98eec4b988ba1919e7e3f329605172c17fa89c1f3ed782fff8942acd6e",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_cdf45ef94720fcedd41ea132_0",
+      "kind": "li",
+      "source": "Custom titles are kept and shown as a bold line at the top of the admonition, since there is no concept of admonition title in Trilium.",
+      "sourceHash": "cdf45ef94720fcedd41ea132f77ab09a713fa82f8038c56008105e49cd217841",
+      "context": "Obsidian > Supported features",
+      "contextHash": "7f40cb98eec4b988ba1919e7e3f329605172c17fa89c1f3ed782fff8942acd6e",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_8f2d28771d8a0836a80fd6ec_0",
+      "kind": "li",
+      "source": "Foldable callouts are imported expanded and without a fold marker.",
+      "sourceHash": "8f2d28771d8a0836a80fd6ecefbdb5ea9fbb1e1397c910e2c5b1544a7571fb32",
+      "context": "Obsidian > Supported features",
+      "contextHash": "7f40cb98eec4b988ba1919e7e3f329605172c17fa89c1f3ed782fff8942acd6e",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_43e6b82ef7b8e8ad3bf71d1e_0",
+      "kind": "li",
+      "source": "Notes created by the __TRILIUM_PH_0____TRILIUM_PH_1__Excalidraw__TRILIUM_PH_2____TRILIUM_PH_3__ community plugin for Obsidian are converted to __TRILIUM_PH_4__Canvas__TRILIUM_PH_5__ (same underlying technology).",
+      "sourceHash": "43e6b82ef7b8e8ad3bf71d1eb5f620cf881ab71b9ccf1087af0a469ae277184e",
+      "context": "Obsidian > Supported features",
+      "contextHash": "7f40cb98eec4b988ba1919e7e3f329605172c17fa89c1f3ed782fff8942acd6e",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_8e06e5db48081cd9853dfecb_0",
+      "kind": "li",
+      "source": "Note that custom features introduced by that plugin will not be supported.",
+      "sourceHash": "8e06e5db48081cd9853dfecbd8146bad73ee88dd149581c794d9832347d4642e",
+      "context": "Obsidian > Supported features",
+      "contextHash": "7f40cb98eec4b988ba1919e7e3f329605172c17fa89c1f3ed782fff8942acd6e",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_8e13fa184e83e678b4454cc1_0",
+      "kind": "li",
+      "source": "Modification date is preserved via the information obtained from the .zip archive, creation date is not recoverable so it's kept the same as the modification date.",
+      "sourceHash": "8e13fa184e83e678b4454cc17248dbf408aeb46c2eb59e001a44ee040e0b0038",
+      "context": "Obsidian > Supported features",
+      "contextHash": "7f40cb98eec4b988ba1919e7e3f329605172c17fa89c1f3ed782fff8942acd6e",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_9e55179cba7c48f42eb2096b_0",
+      "kind": "h2",
+      "source": "Properties__TRILIUM_PH_0__",
+      "sourceHash": "9e55179cba7c48f42eb2096b12c4780a26106a037db7f96bfb4d1a1a7bbb7336",
+      "context": "Obsidian > Properties",
+      "contextHash": "c3120338bc146e8cf557993d2bb80150f760cc9b8660a2ea1246942433023950",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_1bf6d1bb1f3b4fde9981b1a1_0",
+      "kind": "p",
+      "source": "Properties are Obsidian's equivalent of __TRILIUM_PH_0__Promoted Attributes__TRILIUM_PH_1__. One of the core differences between the two is where the property information is stored (i.e. name and type): in Obsidian everything is stored at vault level and shared across all notes, whereas in Trilium each page can have individual promoted attributes, shared through __TRILIUM_PH_2__Templates__TRILIUM_PH_3__ or __TRILIUM_PH_4__Attribute Inheritance__TRILIUM_PH_5__.",
+      "sourceHash": "1bf6d1bb1f3b4fde9981b1a1809d9ec78b32cf039f57deddba0591dccf2e84af",
+      "context": "Obsidian > Properties",
+      "contextHash": "c3120338bc146e8cf557993d2bb80150f760cc9b8660a2ea1246942433023950",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_8497f15c3e61bcbd6e7092cc_0",
+      "kind": "p",
+      "source": "Another important difference is that promoted attributes in Trilium are always displayed, even if empty. In Obsidian, these are simply suggested when creating a new property.",
+      "sourceHash": "8497f15c3e61bcbd6e7092cc4a9331eb2260accf3f94deb67f028eaaf3bfc3f9",
+      "context": "Obsidian > Properties",
+      "contextHash": "c3120338bc146e8cf557993d2bb80150f760cc9b8660a2ea1246942433023950",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_211a3e255ed930ca521f500c_0",
+      "kind": "p",
+      "source": "To reconcile all these differences, properties are converted to __TRILIUM_PH_0__Promoted Attributes__TRILIUM_PH_1__ at note level.",
+      "sourceHash": "211a3e255ed930ca521f500c86a32f1754bc05fa8c569a28d53875ac02c9a845",
+      "context": "Obsidian > Properties",
+      "contextHash": "c3120338bc146e8cf557993d2bb80150f760cc9b8660a2ea1246942433023950",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_c87a4f08968352540096a192_0",
+      "kind": "p",
+      "source": "The following note types are supported:",
+      "sourceHash": "c87a4f08968352540096a192dce9c6fc62c5b6d89c316382dc6aab947b107760",
+      "context": "Obsidian > Properties",
+      "contextHash": "c3120338bc146e8cf557993d2bb80150f760cc9b8660a2ea1246942433023950",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_fd1b4069474af65178c26200_0",
+      "kind": "th",
+      "source": "Obsidian type",
+      "sourceHash": "fd1b4069474af65178c262005c808aaf8acbbca68c24f120a6b8541384fd1e6d",
+      "context": "Obsidian > Properties",
+      "contextHash": "c3120338bc146e8cf557993d2bb80150f760cc9b8660a2ea1246942433023950",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_519ea6308c432ee990bf5b27_0",
+      "kind": "th",
+      "source": "Trilium",
+      "sourceHash": "519ea6308c432ee990bf5b275aebe0d38c2757706e59116ebc52facdeeab0e3b",
+      "context": "Obsidian > Properties",
+      "contextHash": "c3120338bc146e8cf557993d2bb80150f760cc9b8660a2ea1246942433023950",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_5a3f45809a157228944ec46f_0",
+      "kind": "td",
+      "source": "Text or not defined",
+      "sourceHash": "5a3f45809a157228944ec46f006ae6e1e3a3081c96651781dcd7ddcfbbed2e54",
+      "context": "Obsidian > Properties",
+      "contextHash": "c3120338bc146e8cf557993d2bb80150f760cc9b8660a2ea1246942433023950",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_521598e05eb4becfb1a498b1_0",
+      "kind": "td",
+      "source": "Single-valued __TRILIUM_PH_0__ label",
+      "sourceHash": "521598e05eb4becfb1a498b178a112e45f254bf1606dde2449ed708c42abf334",
+      "context": "Obsidian > Properties",
+      "contextHash": "c3120338bc146e8cf557993d2bb80150f760cc9b8660a2ea1246942433023950",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_3a37c466fe8923bf41628a1e_0",
+      "kind": "td",
+      "source": "Number",
+      "sourceHash": "3a37c466fe8923bf41628a1e07e7d8759a96aea81a20175bf798ad19342b8fb4",
+      "context": "Obsidian > Properties",
+      "contextHash": "c3120338bc146e8cf557993d2bb80150f760cc9b8660a2ea1246942433023950",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_521598e05eb4becfb1a498b1_1",
+      "kind": "td",
+      "source": "Single-valued __TRILIUM_PH_0__ label",
+      "sourceHash": "521598e05eb4becfb1a498b178a112e45f254bf1606dde2449ed708c42abf334",
+      "context": "Obsidian > Properties",
+      "contextHash": "c3120338bc146e8cf557993d2bb80150f760cc9b8660a2ea1246942433023950",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_9fefebf5ecc09c3e6d0cea8c_0",
+      "kind": "td",
+      "source": "Multitext",
+      "sourceHash": "9fefebf5ecc09c3e6d0cea8c605cb872d34ae616c4a5cb8f927bbe786d49c5cf",
+      "context": "Obsidian > Properties",
+      "contextHash": "c3120338bc146e8cf557993d2bb80150f760cc9b8660a2ea1246942433023950",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_c4fca6103038fe1420a7494a_0",
+      "kind": "td",
+      "source": "Multi-valued __TRILIUM_PH_0__ label",
+      "sourceHash": "c4fca6103038fe1420a7494aed9d8c7180fe1e59746d794d0a01787960a125c1",
+      "context": "Obsidian > Properties",
+      "contextHash": "c3120338bc146e8cf557993d2bb80150f760cc9b8660a2ea1246942433023950",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_b3a4844711b69b5681840801_0",
+      "kind": "td",
+      "source": "Checkbox",
+      "sourceHash": "b3a4844711b69b56818408018e978fb7624aded0af80e1993a4ff20299a0b351",
+      "context": "Obsidian > Properties",
+      "contextHash": "c3120338bc146e8cf557993d2bb80150f760cc9b8660a2ea1246942433023950",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_efd103faf48e1c7762e43231_0",
+      "kind": "td",
+      "source": "__TRILIUM_PH_0__ label (__TRILIUM_PH_1__/__TRILIUM_PH_2__).",
+      "sourceHash": "efd103faf48e1c7762e4323158b6cb258290467b423f3088bd74d71a96d54956",
+      "context": "Obsidian > Properties",
+      "contextHash": "c3120338bc146e8cf557993d2bb80150f760cc9b8660a2ea1246942433023950",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_3bc707c8c0074b3250787e4d_0",
+      "kind": "td",
+      "source": "Date",
+      "sourceHash": "3bc707c8c0074b3250787e4df7ddf4e0c1da605a207c66d65e0974a8ca7c1817",
+      "context": "Obsidian > Properties",
+      "contextHash": "c3120338bc146e8cf557993d2bb80150f760cc9b8660a2ea1246942433023950",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_8609b1f10dd53b85cd8677dd_0",
+      "kind": "td",
+      "source": "Date & Time",
+      "sourceHash": "8609b1f10dd53b85cd8677dda1a44908754af7b962d3ac2cab97600d1b48e054",
+      "context": "Obsidian > Properties",
+      "contextHash": "c3120338bc146e8cf557993d2bb80150f760cc9b8660a2ea1246942433023950",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_57cf389b80b8d3f5c045bb46_0",
+      "kind": "h3",
+      "source": "Special properties__TRILIUM_PH_0__",
+      "sourceHash": "57cf389b80b8d3f5c045bb46422dc74361b4fa4616f64304959db201af35b556",
+      "context": "Obsidian > Properties > Special properties",
+      "contextHash": "6741ab4ce77d44aff070ae7a249e63530b22d2f124938e493470bc6911439cdb",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_568bd6bf10a302c988c06e46_0",
+      "kind": "p",
+      "source": "Obsidian has a few reserved property names, which are treated differently in Trilium as well:",
+      "sourceHash": "568bd6bf10a302c988c06e46627bb48fd77a64dad0a0132120d83d351c100835",
+      "context": "Obsidian > Properties > Special properties",
+      "contextHash": "6741ab4ce77d44aff070ae7a249e63530b22d2f124938e493470bc6911439cdb",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_7780d8da746142260fb9d64f_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__, where every tag is turned into its own __TRILIUM_PH_1__label__TRILIUM_PH_2__ (e.g. __TRILIUM_PH_3__, __TRILIUM_PH_4__ when __TRILIUM_PH_5__).",
+      "sourceHash": "7780d8da746142260fb9d64f53d2ae9421f45534d1530a8d266236df3d1a9016",
+      "context": "Obsidian > Properties > Special properties",
+      "contextHash": "6741ab4ce77d44aff070ae7a249e63530b22d2f124938e493470bc6911439cdb",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_b001d3b31eedd7e28020fa49_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__ are simply mapped to individual __TRILIUM_PH_1__ labels",
+      "sourceHash": "b001d3b31eedd7e28020fa4977b4dfc733fe395e973fb36a5ac66337698c7c1a",
+      "context": "Obsidian > Properties > Special properties",
+      "contextHash": "6741ab4ce77d44aff070ae7a249e63530b22d2f124938e493470bc6911439cdb",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_6b1795e4031ab4c48d54778e_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__, __TRILIUM_PH_1__, __TRILIUM_PH_2__ are ignored.",
+      "sourceHash": "6b1795e4031ab4c48d54778e2c6732448bf4db68dcff616044d9a26c5bb128d5",
+      "context": "Obsidian > Properties > Special properties",
+      "contextHash": "6741ab4ce77d44aff070ae7a249e63530b22d2f124938e493470bc6911439cdb",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_2d166eed4e46d147ae179d3f_0",
+      "kind": "h2",
+      "source": "Limitations__TRILIUM_PH_0__",
+      "sourceHash": "2d166eed4e46d147ae179d3feba2dbd0d28887b22a99884dc255c7ff2e43988d",
+      "context": "Obsidian > Limitations",
+      "contextHash": "1603434de813e28523fbdc55ce87100216a5a661d7f0e2f0a8ec9477b1291436",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_975bb96d320ff2f02e2dc36c_0",
+      "kind": "li",
+      "source": "Comments (__TRILIUM_PH_0__ syntax) are simply stripped.",
+      "sourceHash": "975bb96d320ff2f02e2dc36c27a764c54082f4aadf516b298aee66fff2424fe8",
+      "context": "Obsidian > Limitations",
+      "contextHash": "1603434de813e28523fbdc55ce87100216a5a661d7f0e2f0a8ec9477b1291436",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_94af23c1569d95328aadb083_0",
+      "kind": "li",
+      "source": "Obsidian __TRILIUM_PH_0__bases__TRILIUM_PH_1__ functionality is not preserved.",
+      "sourceHash": "94af23c1569d95328aadb0834a88b6a497f8d4e340a70a0285c437ca275e16b7",
+      "context": "Obsidian > Limitations",
+      "contextHash": "1603434de813e28523fbdc55ce87100216a5a661d7f0e2f0a8ec9477b1291436",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_d78dc0dc032e4c9d41cb3d44_0",
+      "kind": "li",
+      "source": "The closest equivalent in Trilium would be __TRILIUM_PH_0__Collections__TRILIUM_PH_1__ but they work fundamentally different because bases don't store particular notes, they act more like a __TRILIUM_PH_2__Saved Search__TRILIUM_PH_3__ with a collection view.",
+      "sourceHash": "d78dc0dc032e4c9d41cb3d448c7108d05b6c36dd1c05a76a0b3f9b0ec8a5ef7f",
+      "context": "Obsidian > Limitations",
+      "contextHash": "1603434de813e28523fbdc55ce87100216a5a661d7f0e2f0a8ec9477b1291436",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_08ba54146cee7068ad1c5823_0",
+      "kind": "li",
+      "source": "Since the base query format is quite different to Trilium's __TRILIUM_PH_0__Search__TRILIUM_PH_1__ syntax, it's unlikely they'll ever be supported.",
+      "sourceHash": "08ba54146cee7068ad1c582319f0db7188beb988cc65d8df7ebc8822ca689c24",
+      "context": "Obsidian > Limitations",
+      "contextHash": "1603434de813e28523fbdc55ce87100216a5a661d7f0e2f0a8ec9477b1291436",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_e26d8fd70c5c5b96445e4483_0",
+      "kind": "li",
+      "source": "When a base is encountered, it is simply ignored from the import.",
+      "sourceHash": "e26d8fd70c5c5b96445e44837731759adf46df1d12cc453497de5400378ebf64",
+      "context": "Obsidian > Limitations",
+      "contextHash": "1603434de813e28523fbdc55ce87100216a5a661d7f0e2f0a8ec9477b1291436",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_98f0cf5c1518c3f7ef698d46_0",
+      "kind": "li",
+      "source": "Canvases are not imported.",
+      "sourceHash": "98f0cf5c1518c3f7ef698d469857c98afaf5502ce57eff67a95a0540dce51f2d",
+      "context": "Obsidian > Limitations",
+      "contextHash": "1603434de813e28523fbdc55ce87100216a5a661d7f0e2f0a8ec9477b1291436",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_0d30192c3b53d3b4b118343e_0",
+      "kind": "li",
+      "source": "Theoretically they could map to either __TRILIUM_PH_0__Canvas__TRILIUM_PH_1__ or __TRILIUM_PH_2__Relation Map__TRILIUM_PH_3__ but they are too different to reconcile.",
+      "sourceHash": "0d30192c3b53d3b4b118343eb26cf7f8165ae851187fed16f72eb4934ca2126d",
+      "context": "Obsidian > Limitations",
+      "contextHash": "1603434de813e28523fbdc55ce87100216a5a661d7f0e2f0a8ec9477b1291436",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_977e58f764ad67e14b36e6cb_0",
+      "kind": "li",
+      "source": "Links",
+      "sourceHash": "977e58f764ad67e14b36e6cbd6dbc7aa8f0e7c1caa6e2f9f13475db9b739976a",
+      "context": "Obsidian > Limitations",
+      "contextHash": "1603434de813e28523fbdc55ce87100216a5a661d7f0e2f0a8ec9477b1291436",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_05a4b266b0aff51e17c5dd92_0",
+      "kind": "li",
+      "source": "Links to a specific heading in another note will still point to the right note, but the heading anchor will be dropped.",
+      "sourceHash": "05a4b266b0aff51e17c5dd92775a1104863a016d5db0369841c66dd6d25204ef",
+      "context": "Obsidian > Limitations",
+      "contextHash": "1603434de813e28523fbdc55ce87100216a5a661d7f0e2f0a8ec9477b1291436",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_02ee8333755f9729b341eec1_0",
+      "kind": "li",
+      "source": "Dangling links (pointing to a note that doesn't exist) and ambiguous links (same base name in 2+ notes) are unwrapped to plain text.",
+      "sourceHash": "02ee8333755f9729b341eec15898e45e84e158b92cf2935f8ca0b7d4e6c3845b",
+      "context": "Obsidian > Limitations",
+      "contextHash": "1603434de813e28523fbdc55ce87100216a5a661d7f0e2f0a8ec9477b1291436",
+      "status": "pending",
+      "active": true
+    }
+  ],
+  "requests": []
+}

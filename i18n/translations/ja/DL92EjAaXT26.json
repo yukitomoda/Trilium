@@ -1,0 +1,139 @@
+{
+  "schemaVersion": 1,
+  "pageId": "DL92EjAaXT26",
+  "sourceFile": "docs/User Guide/User Guide/Scripting/Frontend Basics/Examples/Using promoted attributes to configure scripts.md",
+  "sourceRevision": "03d17b60f59b5efc29b880b11481471d0fe0ff57",
+  "units": [
+    {
+      "id": "u_602d7e81cdf52c261164d347_0",
+      "kind": "title",
+      "source": "Using promoted attributes to configure scripts",
+      "sourceHash": "602d7e81cdf52c261164d34736f9de48ba8435882723ebb52ee43d945caaf477",
+      "context": "Using promoted attributes to configure scripts",
+      "contextHash": "03b4ccffea506283d5d221ef6ec094d7a976816841073ce9322ce188c2d72f45",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_f02770e795513fe45bb8286e_0",
+      "kind": "p",
+      "source": "A good use case of promoted attributes is to easily define the various parameters a script might need, for example an input and output note if it's processing data, or a checkbox to define a particular change in behavior for the script.",
+      "sourceHash": "f02770e795513fe45bb8286ebb770db53b8f6dc0d1a346798ea86d226d895d14",
+      "context": "Using promoted attributes to configure scripts",
+      "contextHash": "03b4ccffea506283d5d221ef6ec094d7a976816841073ce9322ce188c2d72f45",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_6ec6fb787788aef2bd193d7e_0",
+      "kind": "h2",
+      "source": "Using check boxes to toggle flags__TRILIUM_PH_0__",
+      "sourceHash": "6ec6fb787788aef2bd193d7eef50b0a40d6204bac712f50fd2ec9139f99206d1",
+      "context": "Using promoted attributes to configure scripts > Using check boxes to toggle flags",
+      "contextHash": "80082c340ed62fddd93cdfe7a602e70140767e4e7412b2735010cfbb471ae10e",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_c79c4c117f3f96065dcb7442_0",
+      "kind": "p",
+      "source": "Instead of asking the user to modify a boolean value in the script, it's much more intuitive to use a checkbox for it as a promoted attribute.",
+      "sourceHash": "c79c4c117f3f96065dcb744288e8927164e14e7d84d3e33d3a4a8fa195842209",
+      "context": "Using promoted attributes to configure scripts > Using check boxes to toggle flags",
+      "contextHash": "80082c340ed62fddd93cdfe7a602e70140767e4e7412b2735010cfbb471ae10e",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_ff97a7a0f5a9c5aba1086d0e_0",
+      "kind": "p",
+      "source": "To do so, first define the promoted attribute:",
+      "sourceHash": "ff97a7a0f5a9c5aba1086d0e61928a11e22b0672f1fd7329e46b2887723b3448",
+      "context": "Using promoted attributes to configure scripts > Using check boxes to toggle flags",
+      "contextHash": "80082c340ed62fddd93cdfe7a602e70140767e4e7412b2735010cfbb471ae10e",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_08a9c1b13326ece340240c8c_0",
+      "kind": "p",
+      "source": "Then use it:",
+      "sourceHash": "08a9c1b13326ece340240c8cbadda3542a613711045bfb85fd08ce5b017145cc",
+      "context": "Using promoted attributes to configure scripts > Using check boxes to toggle flags",
+      "contextHash": "80082c340ed62fddd93cdfe7a602e70140767e4e7412b2735010cfbb471ae10e",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_27c0737e69e6738b29a2fd45_0",
+      "kind": "p",
+      "source": "This will work equally well in both front-end and back-end scripts.",
+      "sourceHash": "27c0737e69e6738b29a2fd4596a058b1f575f420fb5c186e6193d0f337cb6da5",
+      "context": "Using promoted attributes to configure scripts > Using check boxes to toggle flags",
+      "contextHash": "80082c340ed62fddd93cdfe7a602e70140767e4e7412b2735010cfbb471ae10e",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_1f828b7d7d1e414018a997b6_0",
+      "kind": "h2",
+      "source": "Using relations to select notes__TRILIUM_PH_0__",
+      "sourceHash": "1f828b7d7d1e414018a997b6ff34151e917caac39fcf5d350e30a5c97f987e02",
+      "context": "Using promoted attributes to configure scripts > Using relations to select notes",
+      "contextHash": "987a8d460600877b00155622d45e708360481c9db8a911c125596094c73f55c7",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_fe66448590b748941cf6e228_0",
+      "kind": "p",
+      "source": "One common use case for a script is to read data from another note and perhaps output its result in another note. To do so we need to define the following promoted attributes:",
+      "sourceHash": "fe66448590b748941cf6e228ecfbf0c016d0c48a34c20fd443c6358086174cb4",
+      "context": "Using promoted attributes to configure scripts > Using relations to select notes",
+      "contextHash": "987a8d460600877b00155622d45e708360481c9db8a911c125596094c73f55c7",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_a8324355d8e9f00e35b0851d_0",
+      "kind": "p",
+      "source": "Once we have this, we can add some basic error handling to ensure that the fields are completed by the user:",
+      "sourceHash": "a8324355d8e9f00e35b0851db9c91f7fb98497865195050ee7070ee87136ed49",
+      "context": "Using promoted attributes to configure scripts > Using relations to select notes",
+      "contextHash": "987a8d460600877b00155622d45e708360481c9db8a911c125596094c73f55c7",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_53e821a0cee6d53cbe89c9c5_0",
+      "kind": "p",
+      "source": "Note that here we are using __TRILIUM_PH_0__ which is only available for frontend notes. If you are writing a backend note, simply remove __TRILIUM_PH_1__ but the user will no feedback on why the script did not execute properly.",
+      "sourceHash": "53e821a0cee6d53cbe89c9c589ce66d4284b19ca87c461133b9f8ed45c1a9930",
+      "context": "Using promoted attributes to configure scripts > Using relations to select notes",
+      "contextHash": "987a8d460600877b00155622d45e708360481c9db8a911c125596094c73f55c7",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_80a1d4f416bd1be40f3e302d_0",
+      "kind": "p",
+      "source": "Afterwards we can simply read the note and do something with it:",
+      "sourceHash": "80a1d4f416bd1be40f3e302d0fd8a146e476b4fd545dc6f9842e7fd577c6afab",
+      "context": "Using promoted attributes to configure scripts > Using relations to select notes",
+      "contextHash": "987a8d460600877b00155622d45e708360481c9db8a911c125596094c73f55c7",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_b190d47815633246b0ab18a6_0",
+      "kind": "image-alt",
+      "source": "記事画像",
+      "sourceHash": "b190d47815633246b0ab18a61d9b8e8ea36504fe3f8bc230a7753096915c9ff2",
+      "context": "Using promoted attributes to configure scripts > Using relations to select notes",
+      "contextHash": "987a8d460600877b00155622d45e708360481c9db8a911c125596094c73f55c7",
+      "status": "pending",
+      "active": true
+    }
+  ],
+  "requests": []
+}

@@ -1,0 +1,169 @@
+{
+  "schemaVersion": 1,
+  "pageId": "hA834UaHhSNn",
+  "sourceFile": "docs/User Guide/User Guide/Scripting/Common concepts/Script bundles.md",
+  "sourceRevision": "03d17b60f59b5efc29b880b11481471d0fe0ff57",
+  "units": [
+    {
+      "id": "u_211b0bb1d8b6bd6005c00362_0",
+      "kind": "title",
+      "source": "Script bundles",
+      "sourceHash": "211b0bb1d8b6bd6005c00362d48c54b13c13b4f407c71be4b6bb17f2f3ae7a05",
+      "context": "Script bundles",
+      "contextHash": "b5dbc4d8c244a3badb06f1199001917726fd3726a763d8c102aab9336c5335bb",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_2d2a5356e148827fc1657e16_0",
+      "kind": "p",
+      "source": "For both __TRILIUM_PH_0__Render Note__TRILIUM_PH_1__ and more complicated scripts, it's generally useful to split the code into multiple __TRILIUM_PH_2__Code__TRILIUM_PH_3__ notes.",
+      "sourceHash": "2d2a5356e148827fc1657e16fd35f567b1ca3963444d33d08aea1d7879df7d69",
+      "context": "Script bundles",
+      "contextHash": "b5dbc4d8c244a3badb06f1199001917726fd3726a763d8c102aab9336c5335bb",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_351d66652cf9118d72c02e79_0",
+      "kind": "p",
+      "source": "When a script is run, the sub-children of the script being run (or the __TRILIUM_PH_0__Render Note__TRILIUM_PH_1__) are checked for children. If the children are Code notes of the corresponding type (front-end or backend) as the code being run, they will be evaluated as well.",
+      "sourceHash": "351d66652cf9118d72c02e796f08663c24d008dc40f60ae525fed1173e9bad2f",
+      "context": "Script bundles",
+      "contextHash": "b5dbc4d8c244a3badb06f1199001917726fd3726a763d8c102aab9336c5335bb",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_d6eb7f2e91e637b65272c1ad_0",
+      "kind": "p",
+      "source": "The collection of a script and its child notes is called a __TRILIUM_PH_0__bundle__TRILIUM_PH_1__. A child note inside a bundle is called a __TRILIUM_PH_2__module__TRILIUM_PH_3__.",
+      "sourceHash": "d6eb7f2e91e637b65272c1add7e6ef677599d81145090e70207b7e34d9bd2764",
+      "context": "Script bundles",
+      "contextHash": "b5dbc4d8c244a3badb06f1199001917726fd3726a763d8c102aab9336c5335bb",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_5dff21dbccc3e1509b99a4c0_0",
+      "kind": "p",
+      "source": "As a basic example of dependencies, consider the following note structure:",
+      "sourceHash": "5dff21dbccc3e1509b99a4c0631ea75936757a71206ca9fbcc16386c168eb2cc",
+      "context": "Script bundles",
+      "contextHash": "b5dbc4d8c244a3badb06f1199001917726fd3726a763d8c102aab9336c5335bb",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_8d00414d9e3f19511888759f_0",
+      "kind": "p",
+      "source": "__TRILIUM_PH_0__Script with dependency__TRILIUM_PH_1__",
+      "sourceHash": "8d00414d9e3f19511888759f6219d2fe8c0b51ec0e5e0f3516f61b18158d063e",
+      "context": "Script bundles",
+      "contextHash": "b5dbc4d8c244a3badb06f1199001917726fd3726a763d8c102aab9336c5335bb",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_5f79d6b4b46fb1f9e9990476_0",
+      "kind": "p",
+      "source": "__TRILIUM_PH_0__MyMath__TRILIUM_PH_1__",
+      "sourceHash": "5f79d6b4b46fb1f9e9990476b46f76b09912cc1c022345ddb937cf42b557bd96",
+      "context": "Script bundles",
+      "contextHash": "b5dbc4d8c244a3badb06f1199001917726fd3726a763d8c102aab9336c5335bb",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_bad1a02d372cb2810771238f_0",
+      "kind": "p",
+      "source": "When __TRILIUM_PH_0__Script with dependency__TRILIUM_PH_1__ is run, it will detect __TRILIUM_PH_2__MyMath__TRILIUM_PH_3__ as a submodule and provide the result of its __TRILIUM_PH_4__ object into a global object with the same name as the note.",
+      "sourceHash": "bad1a02d372cb2810771238fe5dff873ca5bc031b274db793a93a60ddbc29624",
+      "context": "Script bundles",
+      "contextHash": "b5dbc4d8c244a3badb06f1199001917726fd3726a763d8c102aab9336c5335bb",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_db4c931c595b655f37de7f23_0",
+      "kind": "p",
+      "source": "If the note contains spaces or special characters, they will be stripped. For example __TRILIUM_PH_0__ becomes __TRILIUM_PH_1__.",
+      "sourceHash": "db4c931c595b655f37de7f23eb6125c9ee2ff807c699809c84989be6bf5603ff",
+      "context": "Script bundles",
+      "contextHash": "b5dbc4d8c244a3badb06f1199001917726fd3726a763d8c102aab9336c5335bb",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_385f8945adfd8e9a7150f7c9_0",
+      "kind": "h2",
+      "source": "Alternative syntax__TRILIUM_PH_0__",
+      "sourceHash": "385f8945adfd8e9a7150f7c92a8f348328f0e74ace8f592cd2a764fbbd33a406",
+      "context": "Script bundles > Alternative syntax",
+      "contextHash": "7ae5e3e86aa1ee1b2225b32f632c6eb474b008e080278fad7b707f00f2dcfb87",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_76fa5b1cc2d99bdf0dc68969_0",
+      "kind": "p",
+      "source": "Instead of providing an object to __TRILIUM_PH_0__, it's also possible to add fields individually:",
+      "sourceHash": "76fa5b1cc2d99bdf0dc689692b04fac4023bf2fb12f49a74b37f8398c4c52abd",
+      "context": "Script bundles > Alternative syntax",
+      "contextHash": "7ae5e3e86aa1ee1b2225b32f632c6eb474b008e080278fad7b707f00f2dcfb87",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_2a38e21e950b91992c3b407f_0",
+      "kind": "h2",
+      "source": "Ignoring a code script from a bundle__TRILIUM_PH_0__",
+      "sourceHash": "2a38e21e950b91992c3b407f8b9036792e4f3d8f7bb596379f3058525e11025f",
+      "context": "Script bundles > Ignoring a code script from a bundle",
+      "contextHash": "490c5bfe3b11ed5f6b6d7fc1cfdf9e67763eea6e539ee886276fb85f0f1d339b",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_e63fa7b8552d7ab835dfee3c_0",
+      "kind": "p",
+      "source": "To ignore a script from being included in a bundle (e.g. if it's unrelated to the parent script note), apply the __TRILIUM_PH_0__ label.",
+      "sourceHash": "e63fa7b8552d7ab835dfee3ce1c2d4e6ffe976eac2829e75e6c0a24b77ed25e9",
+      "context": "Script bundles > Ignoring a code script from a bundle",
+      "contextHash": "490c5bfe3b11ed5f6b6d7fc1cfdf9e67763eea6e539ee886276fb85f0f1d339b",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_7f96ef6ee30708bbb3792e58_0",
+      "kind": "h2",
+      "source": "Sharing a module across multiple bundles__TRILIUM_PH_0__",
+      "sourceHash": "7f96ef6ee30708bbb3792e58cf02422881ac9ca8af1548838ed43ddc7342c437",
+      "context": "Script bundles > Sharing a module across multiple bundles",
+      "contextHash": "bdcc9a1e93539d275480d195ea6c0e619d37572182d0ad38bcb79025b38f1a59",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_7a72ab825b1e42f11436f6d5_0",
+      "kind": "p",
+      "source": "Modules can be reused across multiple scripts by simply cloning the shared module between two modules (see __TRILIUM_PH_0__Cloning Notes__TRILIUM_PH_1__).",
+      "sourceHash": "7a72ab825b1e42f11436f6d50c15f4785246c46c17ee5cf49ef33d1d47e30001",
+      "context": "Script bundles > Sharing a module across multiple bundles",
+      "contextHash": "bdcc9a1e93539d275480d195ea6c0e619d37572182d0ad38bcb79025b38f1a59",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_5aa75a9018dfb05c851acfc2_0",
+      "kind": "p",
+      "source": "Optionally, a separate note can be used to contain all the different reusable modules for an easy way to discover them.",
+      "sourceHash": "5aa75a9018dfb05c851acfc27e911dbf3b42bc03b09a4344c20ac17bca12db56",
+      "context": "Script bundles > Sharing a module across multiple bundles",
+      "contextHash": "bdcc9a1e93539d275480d195ea6c0e619d37572182d0ad38bcb79025b38f1a59",
+      "status": "pending",
+      "active": true
+    }
+  ],
+  "requests": []
+}

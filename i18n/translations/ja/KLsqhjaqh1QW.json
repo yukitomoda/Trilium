@@ -1,0 +1,219 @@
+{
+  "schemaVersion": 1,
+  "pageId": "KLsqhjaqh1QW",
+  "sourceFile": "docs/User Guide/User Guide/Scripting/Frontend Basics/Preact.md",
+  "sourceRevision": "03d17b60f59b5efc29b880b11481471d0fe0ff57",
+  "units": [
+    {
+      "id": "u_93a7dfe3a13c25b4c6daec33_0",
+      "kind": "title",
+      "source": "Preact",
+      "sourceHash": "93a7dfe3a13c25b4c6daec33dd0979ed3fdfcc63228c863f4bdaa08ca0f74da9",
+      "context": "Preact",
+      "contextHash": "a91010572026bdddf8255cf70f8fa2ea4125bb423475c04ca7f86eee017097fe",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_f622b5abc48dcbd5945f8b67_0",
+      "kind": "p",
+      "source": "Since v0.101.0, Trilium integrates Preact for front-end scripting, including support for JSX.",
+      "sourceHash": "f622b5abc48dcbd5945f8b678fa45bb5cff6927bc0d7fc5431612bdfa57e617b",
+      "context": "Preact",
+      "contextHash": "a91010572026bdddf8255cf70f8fa2ea4125bb423475c04ca7f86eee017097fe",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_7ab3062fec6330fe5546d6a9_0",
+      "kind": "p",
+      "source": "Preact can be used for:",
+      "sourceHash": "7ab3062fec6330fe5546d6a9ac482a31492db3fc794c5bd59efd514f1c05b610",
+      "context": "Preact",
+      "contextHash": "a91010572026bdddf8255cf70f8fa2ea4125bb423475c04ca7f86eee017097fe",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_283c8084029e2f097e4bc6fa_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__Render Note__TRILIUM_PH_1__, where a JSX code note is used instead of a HTML one.",
+      "sourceHash": "283c8084029e2f097e4bc6fac24a7120e5ab98d210f44bb4daec68a5a95acc76",
+      "context": "Preact",
+      "contextHash": "a91010572026bdddf8255cf70f8fa2ea4125bb423475c04ca7f86eee017097fe",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_9cf7e60508d05c3cffbe1895_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__Custom Widgets__TRILIUM_PH_1__, where JSX can be used to replace the old, jQuery-based mechanism.",
+      "sourceHash": "9cf7e60508d05c3cffbe18956213feaf1e688c6e566b0c088feef61fbddad6ba",
+      "context": "Preact",
+      "contextHash": "a91010572026bdddf8255cf70f8fa2ea4125bb423475c04ca7f86eee017097fe",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_7467e7a033229c3b8325cb3e_0",
+      "kind": "p",
+      "source": "To get started, the first step is to enable JSX in the list of Code languages. Go to Options → Code Notes and check the “JSX” language. Afterwards, proceed with the documentation in either __TRILIUM_PH_0__Render Note__TRILIUM_PH_1__ or __TRILIUM_PH_2__Custom Widgets__TRILIUM_PH_3__, which will both have a section on how to use the new Preact integration.",
+      "sourceHash": "7467e7a033229c3b8325cb3ed8a14182a304fed3fbb15af4800cbff1162ae75d",
+      "context": "Preact",
+      "contextHash": "a91010572026bdddf8255cf70f8fa2ea4125bb423475c04ca7f86eee017097fe",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_8ce367ec7bc719131ed4fcd8_0",
+      "kind": "p",
+      "source": "The documentation assumes prior knowledge with React or Preact. As a starting point, consider the __TRILIUM_PH_0__FreeCodeCamp course on Front End Development Libraries__TRILIUM_PH_1__ or the __TRILIUM_PH_2__Preact Tutorial__TRILIUM_PH_3__.",
+      "sourceHash": "8ce367ec7bc719131ed4fcd83e24ddc325dd05e64948242136eb024867044709",
+      "context": "Preact",
+      "contextHash": "a91010572026bdddf8255cf70f8fa2ea4125bb423475c04ca7f86eee017097fe",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_c07a0be261b49c74c48806bd_0",
+      "kind": "h2",
+      "source": "Import/exports__TRILIUM_PH_0__",
+      "sourceHash": "c07a0be261b49c74c48806bd2d8e068e404580f954bdf227cf9b782f5326fc6c",
+      "context": "Preact > Import/exports",
+      "contextHash": "05f8b8e93480f4920e54acf021e6c026e9fe8467c70a5b3febb828bbafc07882",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_6c33f04fe7bd9c4bb4b839d2_0",
+      "kind": "p",
+      "source": "When using Preact with JSX, there is a special syntax which provides ES-like imports. This __TRILIUM_PH_0__ syntax makes way for a more intuitive that doesn't make use of global objects and paves the way for better auto-completion support that might be introduced in the future. ",
+      "sourceHash": "6c33f04fe7bd9c4bb4b839d213df8dc50fc5e05aa19316c3bb7e4e6d84f446db",
+      "context": "Preact > Import/exports",
+      "contextHash": "05f8b8e93480f4920e54acf021e6c026e9fe8467c70a5b3febb828bbafc07882",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_777d0d15796053d49e6eb923_0",
+      "kind": "h3",
+      "source": "API imports__TRILIUM_PH_0__",
+      "sourceHash": "777d0d15796053d49e6eb9232d97e8ba5e2b964104b9bb4e9817616005332343",
+      "context": "Preact > Import/exports > API imports",
+      "contextHash": "df81c077be6740b5ec93426be42dc4811e1fa573a53be552c72c321bcdc342f0",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_92db4094be0245c50ecbf409_0",
+      "kind": "p",
+      "source": "Instead of:",
+      "sourceHash": "92db4094be0245c50ecbf40911e1cf24bb8687d15a51b6f4767c130bd70c4e32",
+      "context": "Preact > Import/exports > API imports",
+      "contextHash": "df81c077be6740b5ec93426be42dc4811e1fa573a53be552c72c321bcdc342f0",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_c99433499b0193f80072a075_0",
+      "kind": "p",
+      "source": "the JSX version looks like this:",
+      "sourceHash": "c99433499b0193f80072a07569c0426dcebffbb563ca6f1d1a0133a260a7d0ad",
+      "context": "Preact > Import/exports > API imports",
+      "contextHash": "df81c077be6740b5ec93426be42dc4811e1fa573a53be552c72c321bcdc342f0",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_b93988a26f4fd092326af6d8_0",
+      "kind": "h3",
+      "source": "Preact API imports (hooks, components)__TRILIUM_PH_0__",
+      "sourceHash": "b93988a26f4fd092326af6d852aa30c51e3f73cc7600d34984e3fe34f177837c",
+      "context": "Preact > Import/exports > Preact API imports (hooks, components)",
+      "contextHash": "fab14ec61a48f0e189e0d37a495e69cb492e6a7f6ee50b663cab054a7375abdf",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_9c3b7cb837595e58f7e972f5_0",
+      "kind": "p",
+      "source": "There's a new __TRILIUM_PH_0__Script API__TRILIUM_PH_1__ dedicated to Preact, which provides shared components that are also used by Trilium internally as well as hooks, for example.",
+      "sourceHash": "9c3b7cb837595e58f7e972f56cecee685b5973a1b078337e443fdce5b0ea31e1",
+      "context": "Preact > Import/exports > Preact API imports (hooks, components)",
+      "contextHash": "fab14ec61a48f0e189e0d37a495e69cb492e6a7f6ee50b663cab054a7375abdf",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_feabe39342f1882a7338d623_0",
+      "kind": "h3",
+      "source": "Exporting__TRILIUM_PH_0__",
+      "sourceHash": "feabe39342f1882a7338d6235d7b8b17ebfa0c2a2d3fd174c6e37727eb2de329",
+      "context": "Preact > Import/exports > Exporting",
+      "contextHash": "401fbba1e1b0478343bed143ed1d5e9eeaf798e2f3a52ce860ffe5e36b5641f4",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_4d45e9f16a41287c1562e5bb_0",
+      "kind": "p",
+      "source": "JSX notes can export a component for use in __TRILIUM_PH_0__Render Note__TRILIUM_PH_1__ or for __TRILIUM_PH_2__Component libraries__TRILIUM_PH_3__: ",
+      "sourceHash": "4d45e9f16a41287c1562e5bb479d0efa54d1cc166da08966dfc6c52eac1d6b7e",
+      "context": "Preact > Import/exports > Exporting",
+      "contextHash": "401fbba1e1b0478343bed143ed1d5e9eeaf798e2f3a52ce860ffe5e36b5641f4",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_088a4640a73d1a2dfe35f354_0",
+      "kind": "h3",
+      "source": "Import/export are not required__TRILIUM_PH_0__",
+      "sourceHash": "088a4640a73d1a2dfe35f3541aa41f1629064da52907a4cf716a24186d72cf9f",
+      "context": "Preact > Import/exports > Import/export are not required",
+      "contextHash": "51e713556220749298f66a36bffadf5f4a109c4202f4f0ccad75e3858e4be1ae",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_1688ca4a9185ce7fe592cfeb_0",
+      "kind": "p",
+      "source": "These imports are syntactic sugar meant to replace the usage for the __TRILIUM_PH_0__ global object (see __TRILIUM_PH_1__Script API__TRILIUM_PH_2__). ",
+      "sourceHash": "1688ca4a9185ce7fe592cfeb62317abc8889f9141ce0db0e36bc62f4c0e29692",
+      "context": "Preact > Import/exports > Import/export are not required",
+      "contextHash": "51e713556220749298f66a36bffadf5f4a109c4202f4f0ccad75e3858e4be1ae",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_16bc8e656d1a26a7cbe84279_0",
+      "kind": "p",
+      "source": "The __TRILIUM_PH_0__ and __TRILIUM_PH_1__ syntax work only for JSX notes. Standard/jQuery code notes still need to use the __TRILIUM_PH_2__ global and __TRILIUM_PH_3__.",
+      "sourceHash": "16bc8e656d1a26a7cbe84279333304ca6ce31d74034aa9bc84e602d9d547bc74",
+      "context": "Preact > Import/exports > Import/export are not required",
+      "contextHash": "51e713556220749298f66a36bffadf5f4a109c4202f4f0ccad75e3858e4be1ae",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_8b43d4cd1e24f1e09f3bc8ad_0",
+      "kind": "h2",
+      "source": "Under the hood__TRILIUM_PH_0__",
+      "sourceHash": "8b43d4cd1e24f1e09f3bc8adc1e2bf1e2e5c28b4683c6f37dbe4d1a7c64c481e",
+      "context": "Preact > Under the hood",
+      "contextHash": "e64fa7d5c4ff1979bf805b055538505542c6d75aabb970598f2005ca66da0780",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_a5f43d6e6668857da087a61e_0",
+      "kind": "p",
+      "source": "Unlike JavaScript, JSX requires pre-processing to turn it into JavaScript (just like TypeScript). To do so, Trilium uses __TRILIUM_PH_0__Sucrase__TRILIUM_PH_1__, a JavaScript library which processes the JSX to pure JavaScript. The processing is done each time a script is run (for widgets this happens at every program startup). If you notice any performance degradation due to long compilation, consider __TRILIUM_PH_2__reporting the issue__TRILIUM_PH_3__ to us.",
+      "sourceHash": "a5f43d6e6668857da087a61e8928f0b51d62975fe1b7a19477e34a5d9d181b8d",
+      "context": "Preact > Under the hood",
+      "contextHash": "e64fa7d5c4ff1979bf805b055538505542c6d75aabb970598f2005ca66da0780",
+      "status": "pending",
+      "active": true
+    }
+  ],
+  "requests": []
+}

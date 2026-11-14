@@ -1,0 +1,219 @@
+{
+  "schemaVersion": 1,
+  "pageId": "SynTBQiBsdYJ",
+  "sourceFile": "docs/User Guide/User Guide/Scripting/Frontend Basics/Custom Widgets/Widget Basics.md",
+  "sourceRevision": "03d17b60f59b5efc29b880b11481471d0fe0ff57",
+  "units": [
+    {
+      "id": "u_f07b18ee7c589ecedbbb7c16_0",
+      "kind": "title",
+      "source": "Widget Basics",
+      "sourceHash": "f07b18ee7c589ecedbbb7c16f7bc2de656f0189a11751f142fecd56b577eb179",
+      "context": "Widget Basics",
+      "contextHash": "2f761c359c5e38c9a1b86eb39b0edf32c84f751debe630d194fff1a06dd7dbc6",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_ed259c900b0164f319c30e5f_0",
+      "kind": "p",
+      "source": "This guide will walk you through creating a basic widget inside Trilium. By following these steps, you'll learn how to build a simple UI element that interacts with the user.",
+      "sourceHash": "ed259c900b0164f319c30e5f75a04fff4b02174be80f743e2fde5b9992d8c479",
+      "context": "Widget Basics",
+      "contextHash": "2f761c359c5e38c9a1b86eb39b0edf32c84f751debe630d194fff1a06dd7dbc6",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_9a1477fdec68969a05a40979_0",
+      "kind": "h3",
+      "source": "Step 1: The Basic Widget Structure__TRILIUM_PH_0__",
+      "sourceHash": "9a1477fdec68969a05a4097925a537b78a05bf9bf6947aca7bab06034212de94",
+      "context": "Widget Basics > Step 1: The Basic Widget Structure",
+      "contextHash": "bc42e80a9c015470342108b2ae5fa25081e9544211d7e15e62b622a6dcca719b",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_1edde1b152bfe884534ccd28_0",
+      "kind": "p",
+      "source": "To start, we'll create the most basic widget possible. Here's a simple example:",
+      "sourceHash": "1edde1b152bfe884534ccd2853db6052b4282c8d3c1c7bd2ec91cc703453c809",
+      "context": "Widget Basics > Step 1: The Basic Widget Structure",
+      "contextHash": "bc42e80a9c015470342108b2ae5fa25081e9544211d7e15e62b622a6dcca719b",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_cb2af7c4df0a4effe85654a1_0",
+      "kind": "p",
+      "source": "To implement this widget:",
+      "sourceHash": "cb2af7c4df0a4effe85654a1750b09f7300cbdd70284bf4638a9a5039d0e4c9c",
+      "context": "Widget Basics > Step 1: The Basic Widget Structure",
+      "contextHash": "bc42e80a9c015470342108b2ae5fa25081e9544211d7e15e62b622a6dcca719b",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_132d79c65fd172496b9b3123_0",
+      "kind": "li",
+      "source": "Create a new __TRILIUM_PH_0__ note in Trilium and paste in the code above.",
+      "sourceHash": "132d79c65fd172496b9b3123a9b67e04e3d3d2b11f044753c7e07e557b11cfd5",
+      "context": "Widget Basics > Step 1: The Basic Widget Structure",
+      "contextHash": "bc42e80a9c015470342108b2ae5fa25081e9544211d7e15e62b622a6dcca719b",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_8e9d99ecc1233cb58b726c84_0",
+      "kind": "li",
+      "source": "Assign the __TRILIUM_PH_0__ __TRILIUM_PH_1__attribute__TRILIUM_PH_2__ to the __TRILIUM_PH_3__note__TRILIUM_PH_4__.",
+      "sourceHash": "8e9d99ecc1233cb58b726c84f48c960a1b528d11545e687fcc62602f7d459e6e",
+      "context": "Widget Basics > Step 1: The Basic Widget Structure",
+      "contextHash": "bc42e80a9c015470342108b2ae5fa25081e9544211d7e15e62b622a6dcca719b",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_ca7163b4af3962eb48fb79e5_0",
+      "kind": "li",
+      "source": "Restart Trilium or reload the window.",
+      "sourceHash": "ca7163b4af3962eb48fb79e5fa0f94e3720f6ff3063672a141347d7ae74f333e",
+      "context": "Widget Basics > Step 1: The Basic Widget Structure",
+      "contextHash": "bc42e80a9c015470342108b2ae5fa25081e9544211d7e15e62b622a6dcca719b",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_0ae0780418e87f671a25a1b9_0",
+      "kind": "p",
+      "source": "To verify that the widget is working, open the developer tools (__TRILIUM_PH_0__Ctrl__TRILIUM_PH_1__ + __TRILIUM_PH_2__Shift__TRILIUM_PH_3__ + __TRILIUM_PH_4__I__TRILIUM_PH_5__) and run __TRILIUM_PH_6__. If the element is found, the widget is functioning correctly. If __TRILIUM_PH_7__ is returned, double-check that the __TRILIUM_PH_8__note__TRILIUM_PH_9__ has the __TRILIUM_PH_10__ __TRILIUM_PH_11__attribute__TRILIUM_PH_12__.",
+      "sourceHash": "0ae0780418e87f671a25a1b90e733a1b28a149be4d04515c8477828142dc2c9f",
+      "context": "Widget Basics > Step 1: The Basic Widget Structure",
+      "contextHash": "bc42e80a9c015470342108b2ae5fa25081e9544211d7e15e62b622a6dcca719b",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_43a2f6ed5c7d5e090f786a45_0",
+      "kind": "h3",
+      "source": "Step 2: Adding an UI Element__TRILIUM_PH_0__",
+      "sourceHash": "43a2f6ed5c7d5e090f786a45e51e6a7bf5c8606286731154eec86af74baae8f2",
+      "context": "Widget Basics > Step 2: Adding an UI Element",
+      "contextHash": "63c2cfed66dd05aa543e3437876c3a6ac5bc86ff98f05a9ac28a809fbe849e2f",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_f829f067080067c3dd75521b_0",
+      "kind": "p",
+      "source": "Next, let's improve the widget by adding a button to it.",
+      "sourceHash": "f829f067080067c3dd75521b34059fef300418e4ea63408377f7139b8c0f12a8",
+      "context": "Widget Basics > Step 2: Adding an UI Element",
+      "contextHash": "63c2cfed66dd05aa543e3437876c3a6ac5bc86ff98f05a9ac28a809fbe849e2f",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_0748f5784f3f3609cf6cc8d7_0",
+      "kind": "p",
+      "source": "After making this change, reload Trilium. You should now see a button in the top-left corner of the left pane.",
+      "sourceHash": "0748f5784f3f3609cf6cc8d7b45a303fed736936a83c75973eb799f39495ea56",
+      "context": "Widget Basics > Step 2: Adding an UI Element",
+      "contextHash": "63c2cfed66dd05aa543e3437876c3a6ac5bc86ff98f05a9ac28a809fbe849e2f",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_b4bbf064c13c60b417801f2d_0",
+      "kind": "h3",
+      "source": "Step 3: Styling the Widget__TRILIUM_PH_0__",
+      "sourceHash": "b4bbf064c13c60b417801f2dbde77521245275400d7f27abf955b19f55ac5cf7",
+      "context": "Widget Basics > Step 3: Styling the Widget",
+      "contextHash": "3f9b0f06ffce6dfd9df8ec17adb26e55bc196ee6226bea122613be16bffe489f",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_4c703b1d7dd013fc3459f3b1_0",
+      "kind": "p",
+      "source": "To make the button more visually appealing and position it correctly, we'll apply some custom styling. Trilium includes __TRILIUM_PH_0__Box Icons__TRILIUM_PH_1__, which we'll use to replace the button text with an icon. For example the __TRILIUM_PH_2__ __TRILIUM_PH_3__ icon.",
+      "sourceHash": "4c703b1d7dd013fc3459f3b145d175963b3a164c841817afca8f69f9e846820c",
+      "context": "Widget Basics > Step 3: Styling the Widget",
+      "contextHash": "3f9b0f06ffce6dfd9df8ec17adb26e55bc196ee6226bea122613be16bffe489f",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_d07487f4f4f4b0aeb1720e6e_0",
+      "kind": "p",
+      "source": "Here's the updated template:",
+      "sourceHash": "d07487f4f4f4b0aeb1720e6e28dae304f4951b4b32245a530692bc4a53c0be9c",
+      "context": "Widget Basics > Step 3: Styling the Widget",
+      "contextHash": "3f9b0f06ffce6dfd9df8ec17adb26e55bc196ee6226bea122613be16bffe489f",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_1fb2fab6c4048c934cfcf6c1_0",
+      "kind": "p",
+      "source": "Next, we'll adjust the button's position using CSS:",
+      "sourceHash": "1fb2fab6c4048c934cfcf6c17705f0b671774783188e005fa3138740736ec789",
+      "context": "Widget Basics > Step 3: Styling the Widget",
+      "contextHash": "3f9b0f06ffce6dfd9df8ec17adb26e55bc196ee6226bea122613be16bffe489f",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_c6f84ef0c463b09fdc4f37d9_0",
+      "kind": "p",
+      "source": "After reloading Trilium, the button should now appear at the bottom left of the left pane, alongside other action buttons.",
+      "sourceHash": "c6f84ef0c463b09fdc4f37d9b54b18b0a2223884a692f204e59240dc1ba4401f",
+      "context": "Widget Basics > Step 3: Styling the Widget",
+      "contextHash": "3f9b0f06ffce6dfd9df8ec17adb26e55bc196ee6226bea122613be16bffe489f",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_9c0e5591ed8cf97efffda9cb_0",
+      "kind": "h3",
+      "source": "Step 4: Adding User Interaction__TRILIUM_PH_0__",
+      "sourceHash": "9c0e5591ed8cf97efffda9cb3cd09c41fddd28dfa78a14f64cd4a37a11548922",
+      "context": "Widget Basics > Step 4: Adding User Interaction",
+      "contextHash": "071cd6afb20636f6f400c572db29da56c4f59355d8a11424fad3fead8cae5495",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_3a3066343cf0df2d57bdc984_0",
+      "kind": "p",
+      "source": "Let’s make the button interactive by showing a message when it’s clicked. We'll use the __TRILIUM_PH_0__ method from the __TRILIUM_PH_1__Script API__TRILIUM_PH_2__.",
+      "sourceHash": "3a3066343cf0df2d57bdc9845089b391730463c96421298155d7c5c3c3db9e83",
+      "context": "Widget Basics > Step 4: Adding User Interaction",
+      "contextHash": "071cd6afb20636f6f400c572db29da56c4f59355d8a11424fad3fead8cae5495",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_8470d417a6e87ef2e54afbb8_0",
+      "kind": "p",
+      "source": "For the list of possible values for __TRILIUM_PH_0__, see __TRILIUM_PH_1__Custom Widgets__TRILIUM_PH_2__. ",
+      "sourceHash": "8470d417a6e87ef2e54afbb87635f54530ee7c3dfca31b02808cd970b5250863",
+      "context": "Widget Basics > Step 4: Adding User Interaction",
+      "contextHash": "071cd6afb20636f6f400c572db29da56c4f59355d8a11424fad3fead8cae5495",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_3684e5eb70162051e5c2fb02_0",
+      "kind": "p",
+      "source": "__TRILIUM_PH_0__Reload__TRILIUM_PH_1__ the application one last time. When you click the button, a \"Hello World!\" message should appear, confirming that your widget is fully functional.",
+      "sourceHash": "3684e5eb70162051e5c2fb021d92533ecd50fe26c69e70156653a9a91990e9fd",
+      "context": "Widget Basics > Step 4: Adding User Interaction",
+      "contextHash": "071cd6afb20636f6f400c572db29da56c4f59355d8a11424fad3fead8cae5495",
+      "status": "pending",
+      "active": true
+    }
+  ],
+  "requests": []
+}

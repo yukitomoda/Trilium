@@ -1,0 +1,250 @@
+{
+  "schemaVersion": 1,
+  "pageId": "ud6MShXL4WpO",
+  "sourceFile": "docs/User Guide/User Guide/Installation & Setup/Server Installation/2. Reverse proxy/Nginx.md",
+  "sourceRevision": "03d17b60f59b5efc29b880b11481471d0fe0ff57",
+  "units": [
+    {
+      "id": "u_0e4e6581956c82ff9132cfa7_0",
+      "kind": "title",
+      "source": "Nginx",
+      "sourceHash": "0e4e6581956c82ff9132cfa7d41c373389d5f140fee670d959844f1c4ad2ab67",
+      "context": "Nginx",
+      "contextHash": "b0146d719a60b3088216ca975412829fce5fb9fa9f91f2b678539e2bffba56cb",
+      "status": "translated",
+      "active": true,
+      "translation": "Nginx",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_e17328ab5aff209295b53d6c_0",
+      "kind": "p",
+      "source": "Configure Nginx proxy and HTTPS. The operating system here is Ubuntu.",
+      "sourceHash": "e17328ab5aff209295b53d6c904736cd2a36c02f0dcd2d9e98f0a014ebd30135",
+      "context": "Nginx",
+      "contextHash": "b0146d719a60b3088216ca975412829fce5fb9fa9f91f2b678539e2bffba56cb",
+      "status": "translated",
+      "active": true,
+      "translation": "NginxプロキシとHTTPSを設定します。ここでのオペレーティングシステムはUbuntuです。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_a3b9986fcdbd3bc3f2be9c25_0",
+      "kind": "h2",
+      "source": "Installing Nginx__TRILIUM_PH_0__",
+      "sourceHash": "a3b9986fcdbd3bc3f2be9c25047a5f6275a322e9b1fb911497e2da08c5747324",
+      "context": "Nginx > Installing Nginx",
+      "contextHash": "818b0364bcfbba01eb4e05e2ca7e9ad1d63255062a81a68209f4b5af825f1e0c",
+      "status": "translated",
+      "active": true,
+      "translation": "Nginxのインストール__TRILIUM_PH_0__",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_df10c3c6c21a57eed42bbbff_0",
+      "kind": "p",
+      "source": "Download Nginx and remove Apache2",
+      "sourceHash": "df10c3c6c21a57eed42bbbff83a0005ee2735e7d1dc3512c695aba6ffb0c32b0",
+      "context": "Nginx > Installing Nginx",
+      "contextHash": "818b0364bcfbba01eb4e05e2ca7e9ad1d63255062a81a68209f4b5af825f1e0c",
+      "status": "translated",
+      "active": true,
+      "translation": "Nginxをダウンロードし、Apache2を削除します",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_adb542a355c4a1b89be9b2c1_0",
+      "kind": "h2",
+      "source": "Build the configuration file__TRILIUM_PH_0__",
+      "sourceHash": "adb542a355c4a1b89be9b2c126ebc97842423db16c5995fad230be677958d47d",
+      "context": "Nginx > Build the configuration file",
+      "contextHash": "8710c5d8b1457c0310f67c9f589063a3b02dbbd763bd59891d9b66137e2b27dd",
+      "status": "translated",
+      "active": true,
+      "translation": "設定ファイルの作成__TRILIUM_PH_0__",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_7fe7840c014f6aba21846a62_0",
+      "kind": "p",
+      "source": "First, create the configuration file:",
+      "sourceHash": "7fe7840c014f6aba21846a6277e9422256855b21544fa655470f315b0489f434",
+      "context": "Nginx > Build the configuration file",
+      "contextHash": "8710c5d8b1457c0310f67c9f589063a3b02dbbd763bd59891d9b66137e2b27dd",
+      "status": "translated",
+      "active": true,
+      "translation": "まず、設定ファイルを作成します：",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_38c60fdbb7fdbe45fa78a8e2_0",
+      "kind": "p",
+      "source": "Fill the file with the context shown below, part of the setting show be changed. Then you can enjoy your web with HTTPS forced and proxy.",
+      "sourceHash": "38c60fdbb7fdbe45fa78a8e2f415f536214d9b67ad49be90a3cc952712f77cba",
+      "context": "Nginx > Build the configuration file",
+      "contextHash": "8710c5d8b1457c0310f67c9f589063a3b02dbbd763bd59891d9b66137e2b27dd",
+      "status": "translated",
+      "active": true,
+      "translation": "ファイルに以下の内容を入力します（設定の一部を変更する必要があります）。これにより、HTTPSとプロキシが強制されたWeb環境を利用できるようになります。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_5c00981ab6b1b2c9a7cda45a_0",
+      "kind": "h2",
+      "source": "Serving under a different path__TRILIUM_PH_0__",
+      "sourceHash": "5c00981ab6b1b2c9a7cda45a6453d5bf09a962eea1722e6b02957002800a9152",
+      "context": "Nginx > Serving under a different path",
+      "contextHash": "0c59443b06b4642c81dd3c01e625f7b944565ce7d8a00998783bef935f629f67",
+      "status": "translated",
+      "active": true,
+      "translation": "別のパスでの公開__TRILIUM_PH_0__",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_ff32f4ba95db35fa242e2681_0",
+      "kind": "p",
+      "source": "Alternatively if you want to serve the instance under a different path (useful e.g. if you want to serve multiple instances), update the location block like so:",
+      "sourceHash": "ff32f4ba95db35fa242e2681fa2d71f5ffd9abd0035693daf8773c158aab4abf",
+      "context": "Nginx > Serving under a different path",
+      "contextHash": "0c59443b06b4642c81dd3c01e625f7b944565ce7d8a00998783bef935f629f67",
+      "status": "translated",
+      "active": true,
+      "translation": "あるいは、別のパスでインスタンスを公開したい場合（複数のインスタンスを公開する場合などに便利です）、locationブロックを次のように更新します：",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_7fbc09ee5088bb77fdd3abc5_0",
+      "kind": "li",
+      "source": "update the location with your desired path (make sure to not leave a trailing slash \"/\", if your __TRILIUM_PH_0__ does not end on a slash as well)",
+      "sourceHash": "7fbc09ee5088bb77fdd3abc505ff0a0574fafb713d2a1952c5c395a4c8fda3fc",
+      "context": "Nginx > Serving under a different path",
+      "contextHash": "0c59443b06b4642c81dd3c01e625f7b944565ce7d8a00998783bef935f629f67",
+      "status": "translated",
+      "active": true,
+      "translation": "__TRILIUM_PH_0__がスラッシュで終わっていない場合は、末尾にスラッシュ「/」を残さないように注意しながら、locationをご希望のパスに更新してください。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_7f4f8b439b266082792cdde5_0",
+      "kind": "li",
+      "source": "add the __TRILIUM_PH_0__ directive with the same path: this allows you to stay logged in at multiple instances at the same time.",
+      "sourceHash": "7f4f8b439b266082792cdde5968ee43749347107c030f72a5dc0fe9179ab1844",
+      "context": "Nginx > Serving under a different path",
+      "contextHash": "0c59443b06b4642c81dd3c01e625f7b944565ce7d8a00998783bef935f629f67",
+      "status": "translated",
+      "active": true,
+      "translation": "同じパスを指定した__TRILIUM_PH_0__ディレクティブを追加します。これにより、複数のインスタンスに同時にログインした状態を維持できます。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_f388e3c6d00390fb5d1a2bee_0",
+      "kind": "h2",
+      "source": "Configuring the trusted proxy__TRILIUM_PH_0__",
+      "sourceHash": "f388e3c6d00390fb5d1a2beee18dbcd82c41b9fed136b018bba15b2fcf0a0cfa",
+      "context": "Nginx > Configuring the trusted proxy",
+      "contextHash": "036b6616f4ae55e2034dd29c0f052270c61dc35bca522056aa527b9d0652ecd1",
+      "status": "translated",
+      "active": true,
+      "translation": "信頼されたプロキシの設定__TRILIUM_PH_0__",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_eb793f34abab86a34eac1820_0",
+      "kind": "p",
+      "source": "After setting up a reverse proxy, make sure to configure the __TRILIUM_PH_0__Trusted proxy__TRILIUM_PH_1__.",
+      "sourceHash": "eb793f34abab86a34eac1820c0594827be39f59e217bc16669eaaf0b4e974fea",
+      "context": "Nginx > Configuring the trusted proxy",
+      "contextHash": "036b6616f4ae55e2034dd29c0f052270c61dc35bca522056aa527b9d0652ecd1",
+      "status": "translated",
+      "active": true,
+      "translation": "リバースプロキシを設定した後は、必ず __TRILIUM_PH_0__Trusted proxy__TRILIUM_PH_1__を設定してください。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    }
+  ],
+  "requests": [
+    {
+      "at": "2026-11-14T11:28:45.803Z",
+      "model": "gemini-3.5-flash-lite",
+      "batchJob": "batches/02spwqy837h8pi7qzqmeo4fgsqo7bgs45hwh",
+      "requestKey": "ud6MShXL4WpO_8f78f3de94a172f4",
+      "modelVersion": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 1084,
+        "candidatesTokenCount": 690,
+        "totalTokenCount": 1774,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 1084
+          }
+        ],
+        "serviceTier": "standard"
+      }
+    }
+  ]
+}

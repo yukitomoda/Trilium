@@ -1,0 +1,1219 @@
+{
+  "schemaVersion": 1,
+  "pageId": "6RM1Q7ppFVoj",
+  "sourceFile": "docs/User Guide/User Guide/Note Types/Markdown.md",
+  "sourceRevision": "03d17b60f59b5efc29b880b11481471d0fe0ff57",
+  "units": [
+    {
+      "id": "u_ee74dcdf15c392a79852c55a_0",
+      "kind": "title",
+      "source": "Markdown",
+      "sourceHash": "ee74dcdf15c392a79852c55aef0dfe9e2caa74bce92b0b48ad7bddc6cc1dfbe1",
+      "context": "Markdown",
+      "contextHash": "0e52f6b9d02515c59bb4fdeec2762fdbe701080c82986fc4dfbefcb1e2389817",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_dda56bb96bfa8c0af90d5ff6_0",
+      "kind": "p",
+      "source": "Trilium has always supported Markdown through its __TRILIUM_PH_0__import feature__TRILIUM_PH_1__, however the file was either transformed to a __TRILIUM_PH_2__Text__TRILIUM_PH_3__ note (converted to Trilium's internal HTML format) or saved as a __TRILIUM_PH_4__Code__TRILIUM_PH_5__ note with only syntax highlight.",
+      "sourceHash": "dda56bb96bfa8c0af90d5ff628844532e56c5e78b678d473e7f1ff9d304c6b08",
+      "context": "Markdown",
+      "contextHash": "0e52f6b9d02515c59bb4fdeec2762fdbe701080c82986fc4dfbefcb1e2389817",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_239870fcd1ebc7dc7281cfe7_0",
+      "kind": "p",
+      "source": "This note type is a split view, meaning that both the source code and a preview of the document are displayed side-by-side. See __TRILIUM_PH_0__Note types with split view__TRILIUM_PH_1__ for more information.",
+      "sourceHash": "239870fcd1ebc7dc7281cfe7aa589c6292a67a574223298e61dbcd7dd6be6b71",
+      "context": "Markdown",
+      "contextHash": "0e52f6b9d02515c59bb4fdeec2762fdbe701080c82986fc4dfbefcb1e2389817",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_a2e6c994334196519b9d227b_0",
+      "kind": "h2",
+      "source": "Rationale__TRILIUM_PH_0__",
+      "sourceHash": "a2e6c994334196519b9d227b016f1dd414a3ec5aafcc92d3285eabaa569af4e3",
+      "context": "Markdown > Rationale",
+      "contextHash": "32c92fde63da8e2c20ee3c135fc2761f8b28e5fb8887e2409acc5d1df2a90ab4",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_068f38fb76d6c961906b21b4_0",
+      "kind": "p",
+      "source": "The goal of this note type is to fill a gap: rendering Markdown but not altering its structure or its whitespace which would inevitably change otherwise through import/export.",
+      "sourceHash": "068f38fb76d6c961906b21b43b75794c4629da7c1afd35636f64a14dace55a40",
+      "context": "Markdown > Rationale",
+      "contextHash": "32c92fde63da8e2c20ee3c135fc2761f8b28e5fb8887e2409acc5d1df2a90ab4",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_10dbc4bd413cdcffdd2a86bd_0",
+      "kind": "p",
+      "source": "Even if Markdown is now specially treated by having a preview mechanism, Trilium remains at its core a WYSWYG editor so Markdown will not replace text notes.",
+      "sourceHash": "10dbc4bd413cdcffdd2a86bd5bdddec4c1beb5fb5812a6f3c7ee21ae03eb8702",
+      "context": "Markdown > Rationale",
+      "contextHash": "32c92fde63da8e2c20ee3c135fc2761f8b28e5fb8887e2409acc5d1df2a90ab4",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_ba2545d52ddb128b53e64b2d_0",
+      "kind": "p",
+      "source": "Feature requests regarding the Markdown implementation will be considered, but if they are outside the realm of Trilium, they will not be implemented. One of the core aspects of the Markdown integration is that it reuses components that are already available through other features of the application.",
+      "sourceHash": "ba2545d52ddb128b53e64b2df7760a3c202009d17f45112e68d7b3739e17020d",
+      "context": "Markdown > Rationale",
+      "contextHash": "32c92fde63da8e2c20ee3c135fc2761f8b28e5fb8887e2409acc5d1df2a90ab4",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_173eb5dfe9205894c659d17f_0",
+      "kind": "h2",
+      "source": "Features__TRILIUM_PH_0__",
+      "sourceHash": "173eb5dfe9205894c659d17f720b8c5c74f26222a129e8eedc92f012fab78d12",
+      "context": "Markdown > Features",
+      "contextHash": "a100c91c2920f7c20e2ed4d499657b0ed00a34c1f6d7eb6b3d991e67e2f0d59b",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_e25fa05b2ab85eee6e4f7562_0",
+      "kind": "h3",
+      "source": "Source view pane__TRILIUM_PH_0__",
+      "sourceHash": "e25fa05b2ab85eee6e4f7562187e9438f5c3043aa0f7b87873029e0f38215af0",
+      "context": "Markdown > Features > Source view pane",
+      "contextHash": "61767916234d2a9accbb8239c8b0879d918898802a788e54a5d4fe839d12f28e",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_bbea493c546fda1a9080d271_0",
+      "kind": "li",
+      "source": "Syntax highlighting for the Markdown syntax.",
+      "sourceHash": "bbea493c546fda1a9080d27190c4cc4db1453e3d04e1755837ef14075058f31e",
+      "context": "Markdown > Features > Source view pane",
+      "contextHash": "61767916234d2a9accbb8239c8b0879d918898802a788e54a5d4fe839d12f28e",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_d2714ada89b513efab6de80f_0",
+      "kind": "li",
+      "source": "Nested syntax highlighting for code inside code blocks, including __TRILIUM_PH_0__Mermaid Diagrams__TRILIUM_PH_1__ in __TRILIUM_PH_2__ blocks.",
+      "sourceHash": "d2714ada89b513efab6de80fca69b9355ae47d7d9c19ded4a1bc75f13b220ee0",
+      "context": "Markdown > Features > Source view pane",
+      "contextHash": "61767916234d2a9accbb8239c8b0879d918898802a788e54a5d4fe839d12f28e",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_713585f3ec9e5eaf3205491d_0",
+      "kind": "li",
+      "source": "When editing larger documents, the preview scrolls along with the source editor.",
+      "sourceHash": "713585f3ec9e5eaf3205491d2684a4417313c5d09908d506e74e9a1a701e9abc",
+      "context": "Markdown > Features > Source view pane",
+      "contextHash": "61767916234d2a9accbb8239c8b0879d918898802a788e54a5d4fe839d12f28e",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_9b7a09e949da7362615b7767_0",
+      "kind": "h3",
+      "source": "Preview pane__TRILIUM_PH_0__",
+      "sourceHash": "9b7a09e949da7362615b7767adc4403a6af36374a516fce38d93b666184ea019",
+      "context": "Markdown > Features > Preview pane",
+      "contextHash": "4c898ca0f4dc2274f7e5757c04c38dd6bf79939590f21591ff5f54cb5c4fbea4",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_2a08ee85db643ce35c38225e_0",
+      "kind": "p",
+      "source": "The following features are supported by Trilium's Markdown format and will show up in the preview pane:",
+      "sourceHash": "2a08ee85db643ce35c38225e3e66d1cdadb418dbc51217f840db02b532a44bea",
+      "context": "Markdown > Features > Preview pane",
+      "contextHash": "4c898ca0f4dc2274f7e5757c04c38dd6bf79939590f21591ff5f54cb5c4fbea4",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_cbeb96a5035c08c13522a4d1_0",
+      "kind": "p",
+      "source": "All standard and GitHub-flavored syntax (basic formatting, tables, blockquotes).",
+      "sourceHash": "cbeb96a5035c08c13522a4d1b6f3d4c5e842571f25d4e666bf8a95b00796d260",
+      "context": "Markdown > Features > Preview pane",
+      "contextHash": "4c898ca0f4dc2274f7e5757c04c38dd6bf79939590f21591ff5f54cb5c4fbea4",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_d78c8075dd8c9d1e9e4ac78d_0",
+      "kind": "p",
+      "source": "Basic HTML is also supported (e.g. collapsible blocks using __TRILIUM_PH_0__ and __TRILIUM_PH_1__).",
+      "sourceHash": "d78c8075dd8c9d1e9e4ac78d3ac1cb555ed0491f0de85d0221a9b38ac11755e3",
+      "context": "Markdown > Features > Preview pane",
+      "contextHash": "4c898ca0f4dc2274f7e5757c04c38dd6bf79939590f21591ff5f54cb5c4fbea4",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_20cb12e93d5cc172fb6fead2_0",
+      "kind": "p",
+      "source": "Code blocks with syntax highlight.",
+      "sourceHash": "20cb12e93d5cc172fb6fead28e52233b4617d32ab35f2d79cba75258cc24510f",
+      "context": "Markdown > Features > Preview pane",
+      "contextHash": "4c898ca0f4dc2274f7e5757c04c38dd6bf79939590f21591ff5f54cb5c4fbea4",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_76c9a2e794debbb35c3ba4ea_0",
+      "kind": "li",
+      "source": "The language must be specified for syntax highlight to be applied (e.g. __TRILIUM_PH_0__).",
+      "sourceHash": "76c9a2e794debbb35c3ba4ea65ecb6a3fae7b302f474e8a92e825d8380e7715e",
+      "context": "Markdown > Features > Preview pane",
+      "contextHash": "4c898ca0f4dc2274f7e5757c04c38dd6bf79939590f21591ff5f54cb5c4fbea4",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_bc766d8161524cf901657783_0",
+      "kind": "li",
+      "source": "Code blocks will respect the text wrapping from the __TRILIUM_PH_0__Text__TRILIUM_PH_1__ section in __TRILIUM_PH_2__Options__TRILIUM_PH_3__.",
+      "sourceHash": "bc766d8161524cf901657783aa64ac628df319c7692688cc97ed282ca655f132",
+      "context": "Markdown > Features > Preview pane",
+      "contextHash": "4c898ca0f4dc2274f7e5757c04c38dd6bf79939590f21591ff5f54cb5c4fbea4",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_6bf3d001baca6ed2d078a544_0",
+      "kind": "p",
+      "source": "__TRILIUM_PH_0__Block quotes & admonitions__TRILIUM_PH_1__",
+      "sourceHash": "6bf3d001baca6ed2d078a544dab015d7787bd45dd598105a38e464bf816b8344",
+      "context": "Markdown > Features > Preview pane",
+      "contextHash": "4c898ca0f4dc2274f7e5757c04c38dd6bf79939590f21591ff5f54cb5c4fbea4",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_9b389c943633a102f73b1de8_0",
+      "kind": "p",
+      "source": "__TRILIUM_PH_0__Math Equations__TRILIUM_PH_1__ (both inline and block)",
+      "sourceHash": "9b389c943633a102f73b1de86a91a7293ddeb31c3915477b1dc56655df0513df",
+      "context": "Markdown > Features > Preview pane",
+      "contextHash": "4c898ca0f4dc2274f7e5757c04c38dd6bf79939590f21591ff5f54cb5c4fbea4",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_0d65cea3f08b702e499f8a92_0",
+      "kind": "p",
+      "source": "__TRILIUM_PH_0__Mermaid Diagrams__TRILIUM_PH_1__ using __TRILIUM_PH_2__",
+      "sourceHash": "0d65cea3f08b702e499f8a92e976e6c6c9e2e22761630457cc6679988b460c57",
+      "context": "Markdown > Features > Preview pane",
+      "contextHash": "4c898ca0f4dc2274f7e5757c04c38dd6bf79939590f21591ff5f54cb5c4fbea4",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_127bb6ca03b3162f13bb4c81_0",
+      "kind": "p",
+      "source": "__TRILIUM_PH_0__Include Note__TRILIUM_PH_1__ (no built-in Markdown syntax, but HTML syntax works just fine):",
+      "sourceHash": "127bb6ca03b3162f13bb4c81c22f1af1b5ae7e369546acac3d17d4218a8a9fdc",
+      "context": "Markdown > Features > Preview pane",
+      "contextHash": "4c898ca0f4dc2274f7e5757c04c38dd6bf79939590f21591ff5f54cb5c4fbea4",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_219b4a804a1a1c6f5646654a_0",
+      "kind": "li",
+      "source": "The caption is optional. Markdown is not processed inside the HTML block, so format the caption with HTML tags.",
+      "sourceHash": "219b4a804a1a1c6f5646654adf25e9863ff3671f8c87d59da2cc0a469d0017f3",
+      "context": "Markdown > Features > Preview pane",
+      "contextHash": "4c898ca0f4dc2274f7e5757c04c38dd6bf79939590f21591ff5f54cb5c4fbea4",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_679a1c8c5cccc4c1df702b23_0",
+      "kind": "li",
+      "source": "Includes written as __TRILIUM_PH_0__, the syntax of earlier versions, still work.",
+      "sourceHash": "679a1c8c5cccc4c1df702b236a9531867b7de59bb974505dfbf9a5cae7885826",
+      "context": "Markdown > Features > Preview pane",
+      "contextHash": "4c898ca0f4dc2274f7e5757c04c38dd6bf79939590f21591ff5f54cb5c4fbea4",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_a0efe243a340efd42e5dc7f9_0",
+      "kind": "li",
+      "source": "These can also be quickly created via the __TRILIUM_PH_0__ command or via a dedicated keyboard shortcut (not assigned by default).",
+      "sourceHash": "a0efe243a340efd42e5dc7f98784285fda823e5b3f98be36f41b9eb08aeb0d7f",
+      "context": "Markdown > Features > Preview pane",
+      "contextHash": "4c898ca0f4dc2274f7e5757c04c38dd6bf79939590f21591ff5f54cb5c4fbea4",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_10001a630e79b8a226a3bd4f_0",
+      "kind": "p",
+      "source": "__TRILIUM_PH_0__Internal (reference) links__TRILIUM_PH_1__ via its HTML syntax, or through a __TRILIUM_PH_2__Wikilinks__TRILIUM_PH_3__-like format (only __TRILIUM_PH_4__Note ID__TRILIUM_PH_5__):",
+      "sourceHash": "10001a630e79b8a226a3bd4ffa3d0b6b20009a2c50ca1fe038d0bfa863fbe0f9",
+      "context": "Markdown > Features > Preview pane",
+      "contextHash": "4c898ca0f4dc2274f7e5757c04c38dd6bf79939590f21591ff5f54cb5c4fbea4",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_631d1dac27bd09e033d4bff7_0",
+      "kind": "p",
+      "source": "To-do lists with extended task states:",
+      "sourceHash": "631d1dac27bd09e033d4bff7e3cbc49604fe55a6b86f017a92ec29b6efb5054c",
+      "context": "Markdown > Features > Preview pane",
+      "contextHash": "4c898ca0f4dc2274f7e5757c04c38dd6bf79939590f21591ff5f54cb5c4fbea4",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_d212ae01511a6ec43a4483d7_0",
+      "kind": "p",
+      "source": "Task states are customizable: you can reorder them, create new ones with different colors and symbols, or delete the ones you don't need. See __TRILIUM_PH_0__Customizing to-do task states__TRILIUM_PH_1__ for more details.",
+      "sourceHash": "d212ae01511a6ec43a4483d78fb2df0a91fc58c5fb0064629a174f49a79998e1",
+      "context": "Markdown > Features > Preview pane",
+      "contextHash": "4c898ca0f4dc2274f7e5757c04c38dd6bf79939590f21591ff5f54cb5c4fbea4",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_503d166f97269aad9281d3d7_0",
+      "kind": "p",
+      "source": "Note that to-do items with task states other than \"None\" and \"Done\" are Trilium-specific and may not work well with other Markdown software.",
+      "sourceHash": "503d166f97269aad9281d3d7d38f1f45540868d48df7c5da808e76d2bddc12fa",
+      "context": "Markdown > Features > Preview pane",
+      "contextHash": "4c898ca0f4dc2274f7e5757c04c38dd6bf79939590f21591ff5f54cb5c4fbea4",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_e9e5e968a3995d3410941133_0",
+      "kind": "p",
+      "source": "__TRILIUM_PH_0__Footnotes__TRILIUM_PH_1__ are also supported via the corresponding Markdown syntax:",
+      "sourceHash": "e9e5e968a3995d341094113324457c6be72d9977ff0dca9f7850f8def1f288cf",
+      "context": "Markdown > Features > Preview pane",
+      "contextHash": "4c898ca0f4dc2274f7e5757c04c38dd6bf79939590f21591ff5f54cb5c4fbea4",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_0535b00a63f689c60a1f6d0c_0",
+      "kind": "li",
+      "source": "These can also be quickly created using the __TRILIUM_PH_0__ command.",
+      "sourceHash": "0535b00a63f689c60a1f6d0caa9b3fcffa54470f3505f5c587fc174ee4c7ae93",
+      "context": "Markdown > Features > Preview pane",
+      "contextHash": "4c898ca0f4dc2274f7e5757c04c38dd6bf79939590f21591ff5f54cb5c4fbea4",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_da643e45363919977e56c910_0",
+      "kind": "p",
+      "source": "Page breaks for __TRILIUM_PH_0__Printing & Exporting as PDF__TRILIUM_PH_1__:",
+      "sourceHash": "da643e45363919977e56c910c56a9e267d0f31894c7e3bfbc1b44f9a1f130c4e",
+      "context": "Markdown > Features > Preview pane",
+      "contextHash": "4c898ca0f4dc2274f7e5757c04c38dd6bf79939590f21591ff5f54cb5c4fbea4",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_f809e404219a34d55ead74a8_0",
+      "kind": "p",
+      "source": "Highlights (background color) are supported both via the __TRILIUM_PH_0__ Markdown syntax, as well as the canonical HTML representation in Trilium:",
+      "sourceHash": "f809e404219a34d55ead74a86159fcfd41256418b9db268fcf2cf25f0030853b",
+      "context": "Markdown > Features > Preview pane",
+      "contextHash": "4c898ca0f4dc2274f7e5757c04c38dd6bf79939590f21591ff5f54cb5c4fbea4",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_76b68043ba80a81dda89dc3d_0",
+      "kind": "h3",
+      "source": "Links__TRILIUM_PH_0__",
+      "sourceHash": "76b68043ba80a81dda89dc3df9b0424e8a82e4bd9e5ecde828a92dea0a421e48",
+      "context": "Markdown > Features > Links",
+      "contextHash": "99b6e938c29a4795f6a36788522e2a02cc6d0a914da76e463eef3e27ec28dcb0",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_1a56987b54a39399baf89ed8_0",
+      "kind": "p",
+      "source": "Multiple types of links are supported:",
+      "sourceHash": "1a56987b54a39399baf89ed83759a6ef95f8537edf808730b7cb1a67d1695135",
+      "context": "Markdown > Features > Links",
+      "contextHash": "99b6e938c29a4795f6a36788522e2a02cc6d0a914da76e463eef3e27ec28dcb0",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_bb57962780a85ccfe90d3d9a_0",
+      "kind": "p",
+      "source": "Web URLs can be written with the standard Markdown syntax:",
+      "sourceHash": "bb57962780a85ccfe90d3d9a6b5b88779d040bd1c2f443459c5ff57318ba6796",
+      "context": "Markdown > Features > Links",
+      "contextHash": "99b6e938c29a4795f6a36788522e2a02cc6d0a914da76e463eef3e27ec28dcb0",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_2ad269b4c38eeafcce82ed96_0",
+      "kind": "p",
+      "source": "__TRILIUM_PH_0__Reference link__TRILIUM_PH_1__ to other notes with dynamic title, either by manually entering the note ID or via the __TRILIUM_PH_2__Add link__TRILIUM_PH_3__ dialog:",
+      "sourceHash": "2ad269b4c38eeafcce82ed96e3fb5fdeb7e4c146743edcd4d0b4fb6a7a30701b",
+      "context": "Markdown > Features > Links",
+      "contextHash": "99b6e938c29a4795f6a36788522e2a02cc6d0a914da76e463eef3e27ec28dcb0",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_60e0c9986501de16c2ef4eee_0",
+      "kind": "p",
+      "source": "__TRILIUM_PH_0__Reference link__TRILIUM_PH_1__ to other notes with a custom text:",
+      "sourceHash": "60e0c9986501de16c2ef4eee28a7ab685db82fdc1880963d0611e238d50bae52",
+      "context": "Markdown > Features > Links",
+      "contextHash": "99b6e938c29a4795f6a36788522e2a02cc6d0a914da76e463eef3e27ec28dcb0",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_b9dfa45f66b7645a75848dbc_0",
+      "kind": "p",
+      "source": "To create a link, either:",
+      "sourceHash": "b9dfa45f66b7645a75848dbc208743f5d99e334287ef03d021f9856366227921",
+      "context": "Markdown > Features > Links",
+      "contextHash": "99b6e938c29a4795f6a36788522e2a02cc6d0a914da76e463eef3e27ec28dcb0",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_a3a25bb2bcc031797e6f6868_0",
+      "kind": "li",
+      "source": "Type it manually using the syntax described above.",
+      "sourceHash": "a3a25bb2bcc031797e6f6868a8b612e655ca2574153577a9142f67b319d1669b",
+      "context": "Markdown > Features > Links",
+      "contextHash": "99b6e938c29a4795f6a36788522e2a02cc6d0a914da76e463eef3e27ec28dcb0",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_8dfde17fb14519bc9cf3755b_0",
+      "kind": "li",
+      "source": "Use the __TRILIUM_PH_0__Add link__TRILIUM_PH_1__ dialog by pressing __TRILIUM_PH_2__Ctrl__TRILIUM_PH_3__+__TRILIUM_PH_4__L__TRILIUM_PH_5__ or typing the __TRILIUM_PH_6__ command.",
+      "sourceHash": "8dfde17fb14519bc9cf3755bdbd165bd83674ccc9ee8e71777b2fd3c05a18d3d",
+      "context": "Markdown > Features > Links",
+      "contextHash": "99b6e938c29a4795f6a36788522e2a02cc6d0a914da76e463eef3e27ec28dcb0",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_37fcc8559ec0f56f84cb485d_0",
+      "kind": "p",
+      "source": "__TRILIUM_PH_0__Link Previews__TRILIUM_PH_1__ are also rendered, but there is no mechanism to insert them automatically as of now, they have to be copied from a __TRILIUM_PH_2__Text__TRILIUM_PH_3__ note instead.",
+      "sourceHash": "37fcc8559ec0f56f84cb485db68ad3e48f784c3158807a8bf183bf33bdbbf507",
+      "context": "Markdown > Features > Links",
+      "contextHash": "99b6e938c29a4795f6a36788522e2a02cc6d0a914da76e463eef3e27ec28dcb0",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_853c7d7946a01e92cab73330_0",
+      "kind": "h3",
+      "source": "Keyboard shortcuts__TRILIUM_PH_0__",
+      "sourceHash": "853c7d7946a01e92cab733304037a57c13f41f8349bdde0df097e2831ec39d62",
+      "context": "Markdown > Features > Keyboard shortcuts",
+      "contextHash": "1ad6f991d8aa94b30d6cbd5c17fa11b7084f9f8114cfba65c0cf6031c252a997",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_f29156ea192c5bfa46b3282e_0",
+      "kind": "p",
+      "source": "The Markdown notes share some of the keyboard shortcuts from __TRILIUM_PH_0__Text__TRILIUM_PH_1__ notes:",
+      "sourceHash": "f29156ea192c5bfa46b3282e569c731caeef1bbb124f1c59dfe9c9395b8b4bf5",
+      "context": "Markdown > Features > Keyboard shortcuts",
+      "contextHash": "1ad6f991d8aa94b30d6cbd5c17fa11b7084f9f8114cfba65c0cf6031c252a997",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_50ebf604dbdd3370095d7260_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__Cut to note__TRILIUM_PH_1__ (__TRILIUM_PH_2__Ctrl__TRILIUM_PH_3__+__TRILIUM_PH_4__X__TRILIUM_PH_5__) which cuts the selection into a new child note.",
+      "sourceHash": "50ebf604dbdd3370095d726058c9a89bbd8902373c016af350a9ff78a2b35484",
+      "context": "Markdown > Features > Keyboard shortcuts",
+      "contextHash": "1ad6f991d8aa94b30d6cbd5c17fa11b7084f9f8114cfba65c0cf6031c252a997",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_dc2269c5ed8b3d7f5b7799dd_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__Add link__TRILIUM_PH_1__ (__TRILIUM_PH_2__Ctrl__TRILIUM_PH_3__+__TRILIUM_PH_4__L__TRILIUM_PH_5__) which shows the dialog to create external or reference links.",
+      "sourceHash": "dc2269c5ed8b3d7f5b7799dd66f1111fad0216dc0df8ec498a3ee92fb0bb3d07",
+      "context": "Markdown > Features > Keyboard shortcuts",
+      "contextHash": "1ad6f991d8aa94b30d6cbd5c17fa11b7084f9f8114cfba65c0cf6031c252a997",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_698ac06c36ea3b1997d759dc_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__Date/time__TRILIUM_PH_1__ (__TRILIUM_PH_2__Alt__TRILIUM_PH_3__+__TRILIUM_PH_4__T__TRILIUM_PH_5__) which respects the same formatting as text notes.",
+      "sourceHash": "698ac06c36ea3b1997d759dc3520ed7ad5502c4554a078252d31c99d29ff876f",
+      "context": "Markdown > Features > Keyboard shortcuts",
+      "contextHash": "1ad6f991d8aa94b30d6cbd5c17fa11b7084f9f8114cfba65c0cf6031c252a997",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_08894f7e96d52d5a76aeb7d1_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__Include note__TRILIUM_PH_1__ (not assigned by default), which triggers the same dialog to insert notes as the one for text notes.",
+      "sourceHash": "08894f7e96d52d5a76aeb7d12cc8407475e546cb106940bd598ea0aa2a67ef14",
+      "context": "Markdown > Features > Keyboard shortcuts",
+      "contextHash": "1ad6f991d8aa94b30d6cbd5c17fa11b7084f9f8114cfba65c0cf6031c252a997",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_fc60103faea0105cef113a9a_0",
+      "kind": "p",
+      "source": "In addition, the following formatting keyboard shortcuts are available:",
+      "sourceHash": "fc60103faea0105cef113a9a26bab93785bcb2bbbc9d7cb78b36e6afb24d30fb",
+      "context": "Markdown > Features > Keyboard shortcuts",
+      "contextHash": "1ad6f991d8aa94b30d6cbd5c17fa11b7084f9f8114cfba65c0cf6031c252a997",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_3e1ebdde99e2675dd10ea13b_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__Ctrl__TRILIUM_PH_1__+__TRILIUM_PH_2__B__TRILIUM_PH_3__ to toggle __TRILIUM_PH_4__bold__TRILIUM_PH_5__.",
+      "sourceHash": "3e1ebdde99e2675dd10ea13b937c74335f513e7743016d84f45746b7b9bb56a3",
+      "context": "Markdown > Features > Keyboard shortcuts",
+      "contextHash": "1ad6f991d8aa94b30d6cbd5c17fa11b7084f9f8114cfba65c0cf6031c252a997",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_693a33caa4acb72dc4d3aef6_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__Ctrl__TRILIUM_PH_1__+__TRILIUM_PH_2__I__TRILIUM_PH_3__ to toggle __TRILIUM_PH_4__italic__TRILIUM_PH_5__.",
+      "sourceHash": "693a33caa4acb72dc4d3aef6a3d3eb3f7ea67f6a2dee52af1b1d52ac09d88c47",
+      "context": "Markdown > Features > Keyboard shortcuts",
+      "contextHash": "1ad6f991d8aa94b30d6cbd5c17fa11b7084f9f8114cfba65c0cf6031c252a997",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_fb542f5c0d201bbd6790fc08_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__Ctrl__TRILIUM_PH_1__+__TRILIUM_PH_2__M__TRILIUM_PH_3__ to wrap the current selection in an inline math (__TRILIUM_PH_4__).",
+      "sourceHash": "fb542f5c0d201bbd6790fc08328853f92c2e4454f7458a30e5143c30561d0f44",
+      "context": "Markdown > Features > Keyboard shortcuts",
+      "contextHash": "1ad6f991d8aa94b30d6cbd5c17fa11b7084f9f8114cfba65c0cf6031c252a997",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_f9cc974780a4cfaff6be82fd_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__Ctrl__TRILIUM_PH_1__+__TRILIUM_PH_2__Shift__TRILIUM_PH_3__+__TRILIUM_PH_4__X__TRILIUM_PH_5__ to toggle __TRILIUM_PH_6__strikethrough__TRILIUM_PH_7__.",
+      "sourceHash": "f9cc974780a4cfaff6be82fdbbce8b22dbb675f58a91ad34e32b799b8502e74d",
+      "context": "Markdown > Features > Keyboard shortcuts",
+      "contextHash": "1ad6f991d8aa94b30d6cbd5c17fa11b7084f9f8114cfba65c0cf6031c252a997",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_d5a211b7fad558ccbd5b8663_0",
+      "kind": "h3",
+      "source": "Images & attachments__TRILIUM_PH_0__",
+      "sourceHash": "d5a211b7fad558ccbd5b8663d79c5224852f1343c1bff36a81594d3a5310f0d5",
+      "context": "Markdown > Features > Images & attachments",
+      "contextHash": "e39a09e2c825e47e888d1723f66aa9e73e952aa38cd7aa22ee91e17857225706",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_10d063e2bca1f0da3ee3f77d_0",
+      "kind": "p",
+      "source": "Images can be inserted into the document in four different methods:",
+      "sourceHash": "10d063e2bca1f0da3ee3f77dd48ac17f088f4efd5dec3543b1819ecc2b92a5fd",
+      "context": "Markdown > Features > Images & attachments",
+      "contextHash": "e39a09e2c825e47e888d1723f66aa9e73e952aa38cd7aa22ee91e17857225706",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_99aa08a3549f97b3b678187e_0",
+      "kind": "li",
+      "source": "Drag & drop directly into the editor area.",
+      "sourceHash": "99aa08a3549f97b3b678187eb61547773bfa8e15b273fb97c2fa4f689809b34c",
+      "context": "Markdown > Features > Images & attachments",
+      "contextHash": "e39a09e2c825e47e888d1723f66aa9e73e952aa38cd7aa22ee91e17857225706",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_ef854d10606149b281085235_0",
+      "kind": "li",
+      "source": "Pasting an image from clipboard.",
+      "sourceHash": "ef854d10606149b2810852357aa74f3472144cf132ab8cb07afc759c9fde817d",
+      "context": "Markdown > Features > Images & attachments",
+      "contextHash": "e39a09e2c825e47e888d1723f66aa9e73e952aa38cd7aa22ee91e17857225706",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_8fe8bb5d94da54c6080b4786_0",
+      "kind": "li",
+      "source": "Pasting a reference to another __TRILIUM_PH_0__attachment__TRILIUM_PH_1__ (e.g. __TRILIUM_PH_2__Copy reference to clipboard__TRILIUM_PH_3__ button).",
+      "sourceHash": "8fe8bb5d94da54c6080b47869639c2169c86b2c23d3a3601ed9403fff2706f46",
+      "context": "Markdown > Features > Images & attachments",
+      "contextHash": "e39a09e2c825e47e888d1723f66aa9e73e952aa38cd7aa22ee91e17857225706",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_917054b08485ee20aa6a190c_0",
+      "kind": "li",
+      "source": "Use the __TRILIUM_PH_0__ slash command.",
+      "sourceHash": "917054b08485ee20aa6a190c18076a9590390c63cd26805806108bbee44ae47d",
+      "context": "Markdown > Features > Images & attachments",
+      "contextHash": "e39a09e2c825e47e888d1723f66aa9e73e952aa38cd7aa22ee91e17857225706",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_67db838ac7322b9e776e6c1d_0",
+      "kind": "p",
+      "source": "An image reference to an attachment looks like this:",
+      "sourceHash": "67db838ac7322b9e776e6c1ddbf02a759d58d0f30c833a3da4adb6c8ba09eddf",
+      "context": "Markdown > Features > Images & attachments",
+      "contextHash": "e39a09e2c825e47e888d1723f66aa9e73e952aa38cd7aa22ee91e17857225706",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_df522e92d46838195563bdec_0",
+      "kind": "h3",
+      "source": "Auto-completion__TRILIUM_PH_0__",
+      "sourceHash": "df522e92d46838195563bdec65d6a8f95f1efbfe45696a440ba6ae3ded226c59",
+      "context": "Markdown > Features > Auto-completion",
+      "contextHash": "101ed792ab7957bcbf0b525b5035b5fb3dc7f068790f297eb17ed7dd60b525c7",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_1201ad9c2b4a95ef6d5acb25_0",
+      "kind": "h4",
+      "source": "Slash commands__TRILIUM_PH_0__",
+      "sourceHash": "1201ad9c2b4a95ef6d5acb258ef6f9812459da76bee5b9c2879b1e7831cfce3a",
+      "context": "Markdown > Features > Auto-completion > Slash commands",
+      "contextHash": "4f492be01600b97974644329671ca6d57fa97195e6a2cdc983a1b7994023112f",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_a5f19bea32c9dd73026a70d5_0",
+      "kind": "p",
+      "source": "Just like __TRILIUM_PH_0__Text__TRILIUM_PH_1__ notes, Markdown notes support a selection of slash commands:",
+      "sourceHash": "a5f19bea32c9dd73026a70d5e06caa06daf5cffc111489deb41b017f1b977c4a",
+      "context": "Markdown > Features > Auto-completion > Slash commands",
+      "contextHash": "4f492be01600b97974644329671ca6d57fa97195e6a2cdc983a1b7994023112f",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_e3d157534420dd7a74a93661_0",
+      "kind": "li",
+      "source": "Inserting the current date & time (__TRILIUM_PH_0__).",
+      "sourceHash": "e3d157534420dd7a74a936612bf0ff0e2b81853897b28d0bc8363965a1a83077",
+      "context": "Markdown > Features > Auto-completion > Slash commands",
+      "contextHash": "4f492be01600b97974644329671ca6d57fa97195e6a2cdc983a1b7994023112f",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_95e4c1f45920730bd6cbea4a_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__Including__TRILIUM_PH_1__ another note (__TRILIUM_PH_2__).",
+      "sourceHash": "95e4c1f45920730bd6cbea4a50c13ea6de701b479eddcd7651a066c988f448b1",
+      "context": "Markdown > Features > Auto-completion > Slash commands",
+      "contextHash": "4f492be01600b97974644329671ca6d57fa97195e6a2cdc983a1b7994023112f",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_80d3ba5a371cc4046c03e7a0_0",
+      "kind": "li",
+      "source": "Uploading and inserting an image (__TRILIUM_PH_0__).",
+      "sourceHash": "80d3ba5a371cc4046c03e7a077710a98ba4a54fdf5a294480f635901e1eeb2b8",
+      "context": "Markdown > Features > Auto-completion > Slash commands",
+      "contextHash": "4f492be01600b97974644329671ca6d57fa97195e6a2cdc983a1b7994023112f",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_84c114a34a9d211278a07517_0",
+      "kind": "li",
+      "source": "Inserting a note link (__TRILIUM_PH_0__).",
+      "sourceHash": "84c114a34a9d211278a07517d946b27d93738d6ab70e05d79169e135d8ae9921",
+      "context": "Markdown > Features > Auto-completion > Slash commands",
+      "contextHash": "4f492be01600b97974644329671ca6d57fa97195e6a2cdc983a1b7994023112f",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_68c9fea400cb5dd6c5cb7da0_0",
+      "kind": "li",
+      "source": "Inserting a math equation block (__TRILIUM_PH_0__).",
+      "sourceHash": "68c9fea400cb5dd6c5cb7da0b69ad0df74886a7ceffcedeeff4895c7ed4ee24d",
+      "context": "Markdown > Features > Auto-completion > Slash commands",
+      "contextHash": "4f492be01600b97974644329671ca6d57fa97195e6a2cdc983a1b7994023112f",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_017fccae47e8eef64a79c734_0",
+      "kind": "li",
+      "source": "Inserting a __TRILIUM_PH_0__footnote__TRILIUM_PH_1__ (__TRILIUM_PH_2__).",
+      "sourceHash": "017fccae47e8eef64a79c734f6a1a736c20e0da027c9da357cf66db9cbaaa4d4",
+      "context": "Markdown > Features > Auto-completion > Slash commands",
+      "contextHash": "4f492be01600b97974644329671ca6d57fa97195e6a2cdc983a1b7994023112f",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_a46f2203f131cc39c1c8d147_0",
+      "kind": "li",
+      "source": "Inserting a __TRILIUM_PH_0__Mermaid__TRILIUM_PH_1__ diagram (__TRILIUM_PH_2__), with one variant per sample template (e.g. __TRILIUM_PH_3__).",
+      "sourceHash": "a46f2203f131cc39c1c8d14732aa10afe97312295199641b184d14cc2988c005",
+      "context": "Markdown > Features > Auto-completion > Slash commands",
+      "contextHash": "4f492be01600b97974644329671ca6d57fa97195e6a2cdc983a1b7994023112f",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_0c4e8b5f10faec8c24278e19_0",
+      "kind": "li",
+      "source": "Inserting a collapsible block (__TRILIUM_PH_0__).",
+      "sourceHash": "0c4e8b5f10faec8c24278e19f9aeb3825886978eebb96eb34f0a4eab748d832f",
+      "context": "Markdown > Features > Auto-completion > Slash commands",
+      "contextHash": "4f492be01600b97974644329671ca6d57fa97195e6a2cdc983a1b7994023112f",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_fd08fbab3e9bd1ac5adfd8ca_0",
+      "kind": "li",
+      "source": "Inserting __TRILIUM_PH_0__tabs__TRILIUM_PH_1__ (__TRILIUM_PH_2__).",
+      "sourceHash": "fd08fbab3e9bd1ac5adfd8ca538c6596d058711be5c01b241a6bf5009ea09b7f",
+      "context": "Markdown > Features > Auto-completion > Slash commands",
+      "contextHash": "4f492be01600b97974644329671ca6d57fa97195e6a2cdc983a1b7994023112f",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_3d46f3d5a400ac732dd73c5d_0",
+      "kind": "li",
+      "source": "Inserting a page break for printing (__TRILIUM_PH_0__).",
+      "sourceHash": "3d46f3d5a400ac732dd73c5d2169d7732cd2cd828bc2dc10b83e8294bbc5166b",
+      "context": "Markdown > Features > Auto-completion > Slash commands",
+      "contextHash": "4f492be01600b97974644329671ca6d57fa97195e6a2cdc983a1b7994023112f",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_a5c6f7892f4002fc102779fb_0",
+      "kind": "li",
+      "source": "Inserting a table (__TRILIUM_PH_0__).",
+      "sourceHash": "a5c6f7892f4002fc102779fb69ed39009f10745cc39cd2f1217d20dbe8986d65",
+      "context": "Markdown > Features > Auto-completion > Slash commands",
+      "contextHash": "4f492be01600b97974644329671ca6d57fa97195e6a2cdc983a1b7994023112f",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_1901a69b5b7aeedd823e3987_0",
+      "kind": "li",
+      "source": "Creating admonitions (e.g. __TRILIUM_PH_0__, __TRILIUM_PH_1__, __TRILIUM_PH_2__, __TRILIUM_PH_3__, __TRILIUM_PH_4__).",
+      "sourceHash": "1901a69b5b7aeedd823e398726442db06da418d7db8daec47a6169acea41b8ba",
+      "context": "Markdown > Features > Auto-completion > Slash commands",
+      "contextHash": "4f492be01600b97974644329671ca6d57fa97195e6a2cdc983a1b7994023112f",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_7c4243cfb68c7a75a90c0aac_0",
+      "kind": "li",
+      "source": "Inserting task items (__TRILIUM_PH_0__, e.g. __TRILIUM_PH_1__), one per configured task state.",
+      "sourceHash": "7c4243cfb68c7a75a90c0aac73b0a9cc87b57867e1c38ec6a178c654beea2ec1",
+      "context": "Markdown > Features > Auto-completion > Slash commands",
+      "contextHash": "4f492be01600b97974644329671ca6d57fa97195e6a2cdc983a1b7994023112f",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_a9e5a31bb92fa5853e45afc2_0",
+      "kind": "li",
+      "source": "Inserting code snippets (__TRILIUM_PH_0__) from your Markdown/plain-text snippet notes.",
+      "sourceHash": "a9e5a31bb92fa5853e45afc207137619570c0a44c2b060a6e7b320906332ebc8",
+      "context": "Markdown > Features > Auto-completion > Slash commands",
+      "contextHash": "4f492be01600b97974644329671ca6d57fa97195e6a2cdc983a1b7994023112f",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_29f9abdb86fe921322d08f76_0",
+      "kind": "p",
+      "source": "The list shows each command by its title, as in Text notes. Typing a command's title, its keyword (as listed above) or a related word such as __TRILIUM_PH_0__ or __TRILIUM_PH_1__ finds it.",
+      "sourceHash": "29f9abdb86fe921322d08f76475b9c6a3bc11da68672e75253ed1232ec8eb397",
+      "context": "Markdown > Features > Auto-completion > Slash commands",
+      "contextHash": "4f492be01600b97974644329671ca6d57fa97195e6a2cdc983a1b7994023112f",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_dfe1f9f6e078923aef71de8f_0",
+      "kind": "p",
+      "source": "Note that slash commands only work outside of code blocks and inline code.",
+      "sourceHash": "dfe1f9f6e078923aef71de8fecf8a4d59a3bd8ab7c18c4c76b23df1cd42e7c37",
+      "context": "Markdown > Features > Auto-completion > Slash commands",
+      "contextHash": "4f492be01600b97974644329671ca6d57fa97195e6a2cdc983a1b7994023112f",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_61c0016d89385cd857203e17_0",
+      "kind": "h4",
+      "source": "Linking notes with __TRILIUM_PH_0__ or __TRILIUM_PH_1____TRILIUM_PH_2__",
+      "sourceHash": "61c0016d89385cd857203e179a92f7a25aede72876439113aa17c11bb7afaac9",
+      "context": "Markdown > Features > Auto-completion > Linking notes with @ or [[",
+      "contextHash": "d9656410dd1e692872fdd5f85ba847d4fe8e71677a8280e3691460184ec26a7d",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_a77d7eb4463e4d5506689b8e_0",
+      "kind": "p",
+      "source": "As in __TRILIUM_PH_0__Text__TRILIUM_PH_1__ notes, typing __TRILIUM_PH_2__ at the start of a line or after a space opens the note search. Picking a note replaces what was typed with a link to it in the Wikilinks-like format (__TRILIUM_PH_3__), which the preview shows as an __TRILIUM_PH_4__Internal (reference) links__TRILIUM_PH_5__ with the note's title.",
+      "sourceHash": "a77d7eb4463e4d5506689b8eabb4fa6abae76d39e4f2293b03cbaedbbc4aab50",
+      "context": "Markdown > Features > Auto-completion > Linking notes with @ or [[",
+      "contextHash": "d9656410dd1e692872fdd5f85ba847d4fe8e71677a8280e3691460184ec26a7d",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_25b76c62990a6dd82f7dd8a7_0",
+      "kind": "p",
+      "source": "The search runs on everything typed after the __TRILIUM_PH_0__, spaces included, so a title such as __TRILIUM_PH_1__ can be typed out; press __TRILIUM_PH_2__Esc__TRILIUM_PH_3__ to close the list and go on writing. If no note fits, the list offers to create one, as a child of the Markdown note or in the inbox; the link is inserted once the note is created.",
+      "sourceHash": "25b76c62990a6dd82f7dd8a7114cfc4a70cb671937b8a932615427873f4ea451",
+      "context": "Markdown > Features > Auto-completion > Linking notes with @ or [[",
+      "contextHash": "d9656410dd1e692872fdd5f85ba847d4fe8e71677a8280e3691460184ec26a7d",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_07a5f61ef50d49706506a210_0",
+      "kind": "p",
+      "source": "You can also start typing the link directly: __TRILIUM_PH_0__ opens the same list, and closing the brackets yourself dismisses it. To change where an existing link points, place the cursor inside it and pick another note.",
+      "sourceHash": "07a5f61ef50d49706506a210e746c14bf30cf0de13848e48c0ffaeda02e181fe",
+      "context": "Markdown > Features > Auto-completion > Linking notes with @ or [[",
+      "contextHash": "d9656410dd1e692872fdd5f85ba847d4fe8e71677a8280e3691460184ec26a7d",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_46a36b5ec91eff25fb703b8f_0",
+      "kind": "p",
+      "source": "Like slash commands, __TRILIUM_PH_0__ and __TRILIUM_PH_1__ do nothing inside code blocks and inline code.",
+      "sourceHash": "46a36b5ec91eff25fb703b8f29aa1234a2b04a13ddac6f8978887f85b4fb7414",
+      "context": "Markdown > Features > Auto-completion > Linking notes with @ or [[",
+      "contextHash": "d9656410dd1e692872fdd5f85ba847d4fe8e71677a8280e3691460184ec26a7d",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_ad1328ee21a9af9d3cf23318_0",
+      "kind": "p",
+      "source": "In the editor, a __TRILIUM_PH_0__ link shows as the note's icon and title, so you can tell which note it points to without looking up its ID. Clicking it, or moving the cursor next to it, shows the link as written so it can be edited. Links inside code blocks and inline code are left as they are.",
+      "sourceHash": "ad1328ee21a9af9d3cf2331835cb0614f56d7abd9c4229fd6313eccf451ffe14",
+      "context": "Markdown > Features > Auto-completion > Linking notes with @ or [[",
+      "contextHash": "d9656410dd1e692872fdd5f85ba847d4fe8e71677a8280e3691460184ec26a7d",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_b0081047da66a9d054d51cf2_0",
+      "kind": "h4",
+      "source": "Code block language auto-completion__TRILIUM_PH_0__",
+      "sourceHash": "b0081047da66a9d054d51cf2f62287bc34f969e89da89a85b6252a549c649c29",
+      "context": "Markdown > Features > Auto-completion > Code block language auto-completion",
+      "contextHash": "65abee77cc14c436e7005735679dd3b65422fbaf3a105d5064c90a46cf295ea8",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_75632f8d01e055578e762ce6_0",
+      "kind": "p",
+      "source": "Starting with v0.104.0, typing ``` to insert a code block will automatically open a list of suggested language types which have syntax highlighting.",
+      "sourceHash": "75632f8d01e055578e762ce69038cd0a186d423d73241e788540464e35d343ad",
+      "context": "Markdown > Features > Auto-completion > Code block language auto-completion",
+      "contextHash": "65abee77cc14c436e7005735679dd3b65422fbaf3a105d5064c90a46cf295ea8",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_cd3210f583bd3ebfe04fc1c9_0",
+      "kind": "p",
+      "source": "The list of languages matches the one for __TRILIUM_PH_0__Code__TRILIUM_PH_1__ notes set in __TRILIUM_PH_2__Options__TRILIUM_PH_3__, it's not the full list of languages supported by Trilium.",
+      "sourceHash": "cd3210f583bd3ebfe04fc1c93b389c74d797d7743117f60f7381032ec932060c",
+      "context": "Markdown > Features > Auto-completion > Code block language auto-completion",
+      "contextHash": "65abee77cc14c436e7005735679dd3b65422fbaf3a105d5064c90a46cf295ea8",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_d2eb9cde0a3f1a631338d890_0",
+      "kind": "h3",
+      "source": "Other features__TRILIUM_PH_0__",
+      "sourceHash": "d2eb9cde0a3f1a631338d8906e1000a8e7fe6a024ecea39f13161fd462d7b835",
+      "context": "Markdown > Features > Other features",
+      "contextHash": "b5d4a1238931f01d899c9c94bf446df35554ffcb236220dc7c820b0ea7527e58",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_e71f864579db496dd609bb2a_0",
+      "kind": "li",
+      "source": "The __TRILIUM_PH_0__Table of contents__TRILIUM_PH_1__ will be displayed in the __TRILIUM_PH_2__Right Sidebar__TRILIUM_PH_3__ based on the Markdown-level headings.",
+      "sourceHash": "e71f864579db496dd609bb2ac57305b464dc0296491752fb5bf105c32655306c",
+      "context": "Markdown > Features > Other features",
+      "contextHash": "b5d4a1238931f01d899c9c94bf446df35554ffcb236220dc7c820b0ea7527e58",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_c1db3ec491d8c847243752fc_0",
+      "kind": "li",
+      "source": "A Markdown note included in a __TRILIUM_PH_0__Text__TRILIUM_PH_1__ note shows its source, its preview or both, and can be edited in place. See __TRILIUM_PH_2__Included Markdown__TRILIUM_PH_3__ in __TRILIUM_PH_4__Include Note__TRILIUM_PH_5__.",
+      "sourceHash": "c1db3ec491d8c847243752fc32365d86b10901ac9ca64ac9158611f61ae57ac9",
+      "context": "Markdown > Features > Other features",
+      "contextHash": "b5d4a1238931f01d899c9c94bf446df35554ffcb236220dc7c820b0ea7527e58",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_8f85ebdb4bdc071cf81215a7_0",
+      "kind": "h3",
+      "source": "Shared notes__TRILIUM_PH_0__",
+      "sourceHash": "8f85ebdb4bdc071cf81215a73b2e292336b6213da3c35a1dd69db07a6a92ac03",
+      "context": "Markdown > Features > Shared notes",
+      "contextHash": "983836efc8f2def191f7ade2f89af1e5106f827dad7838ca283aea1e7374add5",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_091a37659c7dcae3e3e69076_0",
+      "kind": "p",
+      "source": "When a Markdown note is __TRILIUM_PH_0__shared publicly__TRILIUM_PH_1__, it will be rendered with extended formatting just like __TRILIUM_PH_2__Text__TRILIUM_PH_3__ notes.",
+      "sourceHash": "091a37659c7dcae3e3e690760698ed71214b6916d41dcc460107b2eee0d34b6f",
+      "context": "Markdown > Features > Shared notes",
+      "contextHash": "983836efc8f2def191f7ade2f89af1e5106f827dad7838ca283aea1e7374add5",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_5b0ebc6efd6d092cff75131a_0",
+      "kind": "p",
+      "source": "Most of the features described previously should be supported. If you face any issues, feel free to __TRILIUM_PH_0__report it__TRILIUM_PH_1__ alongside a sample Markdown file.",
+      "sourceHash": "5b0ebc6efd6d092cff75131acd41fa4ff997f04dc723dd1e962e1c4c7656e02c",
+      "context": "Markdown > Features > Shared notes",
+      "contextHash": "983836efc8f2def191f7ade2f89af1e5106f827dad7838ca283aea1e7374add5",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_47b834c883f3e5631da0320b_0",
+      "kind": "h2",
+      "source": "Creating Markdown notes__TRILIUM_PH_0__",
+      "sourceHash": "47b834c883f3e5631da0320b4eefbe0c70500d38a5df16fe310a367008a37f9d",
+      "context": "Markdown > Creating Markdown notes",
+      "contextHash": "ba520a9f32d9d8228c3b09c104a65d089dc04e730192e34005d3f1b0ee2f2462",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_1ff4224f162db065b705b521_0",
+      "kind": "p",
+      "source": "There are two ways to create a Markdown note:",
+      "sourceHash": "1ff4224f162db065b705b52137a69044f5438f4a010d0473388a2ae6d031ea43",
+      "context": "Markdown > Creating Markdown notes",
+      "contextHash": "ba520a9f32d9d8228c3b09c104a65d089dc04e730192e34005d3f1b0ee2f2462",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_6f16ec3d3ed372091081def7_0",
+      "kind": "li",
+      "source": "Create a new note (e.g. in the __TRILIUM_PH_0__Note Tree__TRILIUM_PH_1__) and select the type __TRILIUM_PH_2__Markdown__TRILIUM_PH_3__, just like all the other note types.",
+      "sourceHash": "6f16ec3d3ed372091081def70e7f03781145c4bf44ae917c0c150e1b2ce7a42c",
+      "context": "Markdown > Creating Markdown notes",
+      "contextHash": "ba520a9f32d9d8228c3b09c104a65d089dc04e730192e34005d3f1b0ee2f2462",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_73fd403ed309a3b5bf487783_0",
+      "kind": "li",
+      "source": "Create a note of type __TRILIUM_PH_0__Code__TRILIUM_PH_1__ and select as the language either __TRILIUM_PH_2__Markdown__TRILIUM_PH_3__ or __TRILIUM_PH_4__GitHub-Flavored Markdown__TRILIUM_PH_5__. This maintains compatibility with your existing notes prior to the introduction of this feature.",
+      "sourceHash": "73fd403ed309a3b5bf48778398cdad4d0559f9e7f7bca44a863284f0856219a2",
+      "context": "Markdown > Creating Markdown notes",
+      "contextHash": "ba520a9f32d9d8228c3b09c104a65d089dc04e730192e34005d3f1b0ee2f2462",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_b57c05ea8708e71bf925207a_0",
+      "kind": "p",
+      "source": "There is no distinction between the new Markdown note type and code notes of type Markdown; internally both are represented as __TRILIUM_PH_0__Code__TRILIUM_PH_1__ notes with one of the following MIME types:",
+      "sourceHash": "b57c05ea8708e71bf925207abb9646a5d3115c80879f58c1fec40ecab36bf7f2",
+      "context": "Markdown > Creating Markdown notes",
+      "contextHash": "ba520a9f32d9d8228c3b09c104a65d089dc04e730192e34005d3f1b0ee2f2462",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_91aecd84e9555ce44456d4a7_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__ (GitHub Flavored Markdown)",
+      "sourceHash": "91aecd84e9555ce44456d4a7204c19e025de7e72d4ccfb641d8ed51363b9bc1b",
+      "context": "Markdown > Creating Markdown notes",
+      "contextHash": "ba520a9f32d9d8228c3b09c104a65d089dc04e730192e34005d3f1b0ee2f2462",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_ea39951d7236899660f54f73_0",
+      "kind": "h2",
+      "source": "Import/export__TRILIUM_PH_0__",
+      "sourceHash": "ea39951d7236899660f54f738af18d07fe583d1f24bb06fe1b5f9611b158dc6f",
+      "context": "Markdown > Import/export",
+      "contextHash": "43fb72ca236eee82013d5db0bff9f8cd1752436430a130ebdf05f054748fe68b",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_7ea7864db597f4e67ea66c53_0",
+      "kind": "h3",
+      "source": "Import__TRILIUM_PH_0__",
+      "sourceHash": "7ea7864db597f4e67ea66c537770b784a611a046c13c987cdaa88fbedc998fe1",
+      "context": "Markdown > Import/export > Import",
+      "contextHash": "b1dca2bdf1313b66f65b9fec36a83a1e0f3fae9bd9a7e0d7de875d68a4a732cd",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_6820c75bd0f3e66fb2fd1146_0",
+      "kind": "p",
+      "source": "By default, when importing a single Markdown file it automatically gets converted to a __TRILIUM_PH_0__Text__TRILIUM_PH_1__ note. To avoid that and have it imported as a Markdown note instead:",
+      "sourceHash": "6820c75bd0f3e66fb2fd1146b99168899ad6c896ccab20a44e4fa5474a046e41",
+      "context": "Markdown > Import/export > Import",
+      "contextHash": "b1dca2bdf1313b66f65b9fec36a83a1e0f3fae9bd9a7e0d7de875d68a4a732cd",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_e359c59507a84d6083c15f04_0",
+      "kind": "li",
+      "source": "Right click the __TRILIUM_PH_0__Note Tree__TRILIUM_PH_1__ and select __TRILIUM_PH_2__Import into note__TRILIUM_PH_3__.",
+      "sourceHash": "e359c59507a84d6083c15f04515b500e8534e08159ef16ae5209da7644fc4a86",
+      "context": "Markdown > Import/export > Import",
+      "contextHash": "b1dca2bdf1313b66f65b9fec36a83a1e0f3fae9bd9a7e0d7de875d68a4a732cd",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_bee9f24db24a9c957de9e6e8_0",
+      "kind": "li",
+      "source": "Select the file normally.",
+      "sourceHash": "bee9f24db24a9c957de9e6e83f6acb09bf647c1dd8db9e06368d453e65a51197",
+      "context": "Markdown > Import/export > Import",
+      "contextHash": "b1dca2bdf1313b66f65b9fec36a83a1e0f3fae9bd9a7e0d7de875d68a4a732cd",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_400e90818c610080d78a4f0e_0",
+      "kind": "li",
+      "source": "Uncheck __TRILIUM_PH_0__Import HTML, Markdown and TXT as text notes if it's unclear from the metadata__TRILIUM_PH_1__.",
+      "sourceHash": "400e90818c610080d78a4f0e21e6dfae12b8aa4e10379c89e80da3910084dc69",
+      "context": "Markdown > Import/export > Import",
+      "contextHash": "b1dca2bdf1313b66f65b9fec36a83a1e0f3fae9bd9a7e0d7de875d68a4a732cd",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_af333aef35a09dbfb140a6e0_0",
+      "kind": "p",
+      "source": "When importing a Trilium ZIP, it will preserve the Markdown type without converting to text notes thanks to the meta-information in it.",
+      "sourceHash": "af333aef35a09dbfb140a6e0f5259d12d13d8745a8604599dd0b4ce30811650f",
+      "context": "Markdown > Import/export > Import",
+      "contextHash": "b1dca2bdf1313b66f65b9fec36a83a1e0f3fae9bd9a7e0d7de875d68a4a732cd",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_feabe39342f1882a7338d623_0",
+      "kind": "h3",
+      "source": "Exporting__TRILIUM_PH_0__",
+      "sourceHash": "feabe39342f1882a7338d6235d7b8b17ebfa0c2a2d3fd174c6e37727eb2de329",
+      "context": "Markdown > Import/export > Exporting",
+      "contextHash": "c0dc69f5b0365277f0c2dedf8a638c6bb743ae74726c54aad098952610422364",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_c1f19b37397757681efa21ac_0",
+      "kind": "p",
+      "source": "When exporting Markdown files, the extension is preserved and the content remains the same as in the source view (with some small exceptions such as handling of attachments).",
+      "sourceHash": "c1f19b37397757681efa21ac1a740e8cef20bb072647c1a57dd8a9d93b43aed2",
+      "context": "Markdown > Import/export > Exporting",
+      "contextHash": "c0dc69f5b0365277f0c2dedf8a638c6bb743ae74726c54aad098952610422364",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_b0de923ebf541321e68c2fcf_0",
+      "kind": "p",
+      "source": "When exporting Markdown files as ZIP, choosing HTML or Markdown as the export format makes no difference as that only affects __TRILIUM_PH_0__Text__TRILIUM_PH_1__ notes.",
+      "sourceHash": "b0de923ebf541321e68c2fcf9482abd3d85839f0554e06272ea200729d5ef162",
+      "context": "Markdown > Import/export > Exporting",
+      "contextHash": "c0dc69f5b0365277f0c2dedf8a638c6bb743ae74726c54aad098952610422364",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_658fe5cae02b52f964d8113d_0",
+      "kind": "p",
+      "source": "If the Markdown note contains attachments, a ZIP export will rewrite the links to attachments so that they are replaced with a relative path to the attachment. On import, the links are re-written back.",
+      "sourceHash": "658fe5cae02b52f964d8113da38d4c49f31c3b2fc6f1a64de12f6df724d6136a",
+      "context": "Markdown > Import/export > Exporting",
+      "contextHash": "c0dc69f5b0365277f0c2dedf8a638c6bb743ae74726c54aad098952610422364",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_83a3624288689d0c0454650a_0",
+      "kind": "h2",
+      "source": "Conversion between text notes and Markdown notes__TRILIUM_PH_0__",
+      "sourceHash": "83a3624288689d0c0454650a266abfcc12e1461aa0e6143538debf3d7b682b08",
+      "context": "Markdown > Conversion between text notes and Markdown notes",
+      "contextHash": "eb356ca7c0e81eedc2d7ff7908b3819d39adeabb0191c7f01eb8c3890c3f34ff",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_877480b9ff94c8363f95415b_0",
+      "kind": "p",
+      "source": "__TRILIUM_PH_0__Text__TRILIUM_PH_1__ notes can be converted into Markdown notes and vice versa. See __TRILIUM_PH_2__Converting between note types__TRILIUM_PH_3__.",
+      "sourceHash": "877480b9ff94c8363f95415b32378cb7c8497b5aa41519d57b1543245e04a506",
+      "context": "Markdown > Conversion between text notes and Markdown notes",
+      "contextHash": "eb356ca7c0e81eedc2d7ff7908b3819d39adeabb0191c7f01eb8c3890c3f34ff",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_31dab3928a4f6df1772b1003_0",
+      "kind": "h2",
+      "source": "Sync-scrolling & block highlight__TRILIUM_PH_0__",
+      "sourceHash": "31dab3928a4f6df1772b10034bec1c161114c259c4988453bb904bc4769d6d2c",
+      "context": "Markdown > Sync-scrolling & block highlight",
+      "contextHash": "af689879fbe2f242530fda4f180fdd226b379ccbe2201935de8adbee42306042",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_bf27eba1a4d886f78c43d108_0",
+      "kind": "p",
+      "source": "When scrolling through the editing pane, the preview pane will attempt to synchronize its position to make it easier to see the preview.",
+      "sourceHash": "bf27eba1a4d886f78c43d10869e246fa13e16681de81e11a24a8781878f85ac8",
+      "context": "Markdown > Sync-scrolling & block highlight",
+      "contextHash": "af689879fbe2f242530fda4f180fdd226b379ccbe2201935de8adbee42306042",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_92e1dfadae164e49615c876a_0",
+      "kind": "p",
+      "source": "In addition, the block in the preview matching the position of the cursor in the source view will appear slightly highlighted.",
+      "sourceHash": "92e1dfadae164e49615c876a3ac7731d138132ba1cd775bfaf893501314f4da3",
+      "context": "Markdown > Sync-scrolling & block highlight",
+      "contextHash": "af689879fbe2f242530fda4f180fdd226b379ccbe2201935de8adbee42306042",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_848b871168eb6ef7a6aea2f6_0",
+      "kind": "p",
+      "source": "The sync is currently one-way only, scrolling the preview will not synchronize the position of the editor.",
+      "sourceHash": "848b871168eb6ef7a6aea2f616625d67802376f60dd9d1595bb8a0410f310d00",
+      "context": "Markdown > Sync-scrolling & block highlight",
+      "contextHash": "af689879fbe2f242530fda4f180fdd226b379ccbe2201935de8adbee42306042",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_867e4536dea1ee67f77614d8_0",
+      "kind": "p",
+      "source": "This feature cannot be disabled as of now; if the scrolling feels distracting, consider temporarily switching to the editor mode and then switching to preview mode when ready.",
+      "sourceHash": "867e4536dea1ee67f77614d8e7a1ab255c3b6faf0baacced26d49db9983b2798",
+      "context": "Markdown > Sync-scrolling & block highlight",
+      "contextHash": "af689879fbe2f242530fda4f180fdd226b379ccbe2201935de8adbee42306042",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_56ea089ba9ddcdfc28cf6f15_0",
+      "kind": "p",
+      "source": "This feature of synchronizing the scroll is based on blocks but it's provided on a best-effort basis since our underlying Markdown library doesn't support this feature natively, so we had to implement our own algorithm. Feel free to __TRILIUM_PH_0__report issues__TRILIUM_PH_1__, but always provide a sample Markdown file to be able to reproduce it.",
+      "sourceHash": "56ea089ba9ddcdfc28cf6f153db0f79f135155ed98827cacc063bb7383dd58ba",
+      "context": "Markdown > Sync-scrolling & block highlight",
+      "contextHash": "af689879fbe2f242530fda4f180fdd226b379ccbe2201935de8adbee42306042",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_b190d47815633246b0ab18a6_0",
+      "kind": "image-alt",
+      "source": "記事画像",
+      "sourceHash": "b190d47815633246b0ab18a61d9b8e8ea36504fe3f8bc230a7753096915c9ff2",
+      "context": "Markdown > Sync-scrolling & block highlight",
+      "contextHash": "af689879fbe2f242530fda4f180fdd226b379ccbe2201935de8adbee42306042",
+      "status": "pending",
+      "active": true
+    }
+  ],
+  "requests": []
+}

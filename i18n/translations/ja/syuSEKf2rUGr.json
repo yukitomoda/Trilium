@@ -1,0 +1,749 @@
+{
+  "schemaVersion": 1,
+  "pageId": "syuSEKf2rUGr",
+  "sourceFile": "docs/User Guide/User Guide/Basic Concepts and Features/Import & Export/Importing data from other applications/Evernote.md",
+  "sourceRevision": "03d17b60f59b5efc29b880b11481471d0fe0ff57",
+  "units": [
+    {
+      "id": "u_9fe3ab906000719bdbab5ec1_0",
+      "kind": "title",
+      "source": "Evernote",
+      "sourceHash": "9fe3ab906000719bdbab5ec1b65d0d2e5a39033bfac131a42f21fdafa591d66a",
+      "context": "Evernote",
+      "contextHash": "5213036e6f48cea00f6b69badbcfb0069e52d2718b9fff68210e6818154209d8",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_e5bbeff59cdd7d2939017b9c_0",
+      "kind": "p",
+      "source": "Trilium can import ENEX files, which are used by Evernote for backup/export. One ENEX file represents the content (notes and resources) of one notebook.",
+      "sourceHash": "e5bbeff59cdd7d2939017b9c2815d19ec00c3d45ac009c0908dec84c6fdda403",
+      "context": "Evernote",
+      "contextHash": "5213036e6f48cea00f6b69badbcfb0069e52d2718b9fff68210e6818154209d8",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_091eb4af09a41aef221b8460_0",
+      "kind": "h2",
+      "source": "Import process__TRILIUM_PH_0__",
+      "sourceHash": "091eb4af09a41aef221b84600bc33be9eed8e7c13f3c31fa0e1adf7f9725b683",
+      "context": "Evernote > Import process",
+      "contextHash": "9ae2f103879ac40d68d4c5aa27ddc105116c5e90b37f6d30f37bc4204da902fc",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_603c8e5e49e93a0f9235e4c9_0",
+      "kind": "p",
+      "source": "The first step is to export the data from Evernote:",
+      "sourceHash": "603c8e5e49e93a0f9235e4c9a1fab1c12043d0abb7d1a396276293e5c202395f",
+      "context": "Evernote > Import process",
+      "contextHash": "9ae2f103879ac40d68d4c5aa27ddc105116c5e90b37f6d30f37bc4204da902fc",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_03f09bdc9822c0f1297bf51d_0",
+      "kind": "li",
+      "source": "To export a single notebook:",
+      "sourceHash": "03f09bdc9822c0f1297bf51d8287fe7df70cecef212397e90dcac6d84f5b7379",
+      "context": "Evernote > Import process",
+      "contextHash": "9ae2f103879ac40d68d4c5aa27ddc105116c5e90b37f6d30f37bc4204da902fc",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_30c91b32134d0db4d562dfbb_0",
+      "kind": "li",
+      "source": "In the left sidebar, select __TRILIUM_PH_0__Notebooks__TRILIUM_PH_1__.",
+      "sourceHash": "30c91b32134d0db4d562dfbb332ee0f9feb2f173f528b84216172db1d4d5317c",
+      "context": "Evernote > Import process",
+      "contextHash": "9ae2f103879ac40d68d4c5aa27ddc105116c5e90b37f6d30f37bc4204da902fc",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_5495b2fbdecaaa78382bf01c_0",
+      "kind": "li",
+      "source": "If you have a notebook stack, expand it.",
+      "sourceHash": "5495b2fbdecaaa78382bf01c99df3ff7a4271fc5d403478bc8295371495c9c93",
+      "context": "Evernote > Import process",
+      "contextHash": "9ae2f103879ac40d68d4c5aa27ddc105116c5e90b37f6d30f37bc4204da902fc",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_d964e06e19de37ef9097a66a_0",
+      "kind": "li",
+      "source": "Right click on a notebook and select __TRILIUM_PH_0__Export notebook__TRILIUM_PH_1__.",
+      "sourceHash": "d964e06e19de37ef9097a66a934afcc81debe0f6bf72ae05fecc4978b7291836",
+      "context": "Evernote > Import process",
+      "contextHash": "9ae2f103879ac40d68d4c5aa27ddc105116c5e90b37f6d30f37bc4204da902fc",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_c40797cbab23f452a6b67f24_0",
+      "kind": "li",
+      "source": "Make sure the following options are set:",
+      "sourceHash": "c40797cbab23f452a6b67f24145198874924443726849725d509d82385fbf9fe",
+      "context": "Evernote > Import process",
+      "contextHash": "9ae2f103879ac40d68d4c5aa27ddc105116c5e90b37f6d30f37bc4204da902fc",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_9fcc2da01ef206c9e1c59f0b_0",
+      "kind": "li",
+      "source": "File format is set to __TRILIUM_PH_0__ENEX format__TRILIUM_PH_1__.",
+      "sourceHash": "9fcc2da01ef206c9e1c59f0b2f761ed52c15b2f40088aa11ccab64bfd24779b1",
+      "context": "Evernote > Import process",
+      "contextHash": "9ae2f103879ac40d68d4c5aa27ddc105116c5e90b37f6d30f37bc4204da902fc",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_fc09da941f0cda2474b1116d_0",
+      "kind": "li",
+      "source": "All the options in __TRILIUM_PH_0__Export note attributes__TRILIUM_PH_1__ are checked.",
+      "sourceHash": "fc09da941f0cda2474b1116d3b9101923ed4fce6d7d351ffedc52295abe11934",
+      "context": "Evernote > Import process",
+      "contextHash": "9ae2f103879ac40d68d4c5aa27ddc105116c5e90b37f6d30f37bc4204da902fc",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_e76f88d4cdce81d27176cfdf_0",
+      "kind": "li",
+      "source": "To export a bunch of notes (up to 100 notes):",
+      "sourceHash": "e76f88d4cdce81d27176cfdf7f55d7c2976d43b2cec0e2b963b4f95ed539ba7b",
+      "context": "Evernote > Import process",
+      "contextHash": "9ae2f103879ac40d68d4c5aa27ddc105116c5e90b37f6d30f37bc4204da902fc",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_dbd3d31ed170c156a450f627_0",
+      "kind": "li",
+      "source": "In the left sidebar, select __TRILIUM_PH_0__Notes__TRILIUM_PH_1__.",
+      "sourceHash": "dbd3d31ed170c156a450f6275a3e66af98697c4c95f17bd97cac824548a5698a",
+      "context": "Evernote > Import process",
+      "contextHash": "9ae2f103879ac40d68d4c5aa27ddc105116c5e90b37f6d30f37bc4204da902fc",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_63750cdd33af7b79a096f1a8_0",
+      "kind": "li",
+      "source": "In the list of notes, __TRILIUM_PH_0__Ctrl__TRILIUM_PH_1__-click individual notes to select them. Alternatively, click on a note and then __TRILIUM_PH_2__Shift__TRILIUM_PH_3__-click a more distant note to select all the notes in between.",
+      "sourceHash": "63750cdd33af7b79a096f1a8101a5d7184820fc15cccf89bc6d49f73cd472dd7",
+      "context": "Evernote > Import process",
+      "contextHash": "9ae2f103879ac40d68d4c5aa27ddc105116c5e90b37f6d30f37bc4204da902fc",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_b683421abb26f97c80a3c7c5_0",
+      "kind": "li",
+      "source": "At the bottom there should be a floating bar with some options. Select […] → __TRILIUM_PH_0__Export.__TRILIUM_PH_1__",
+      "sourceHash": "b683421abb26f97c80a3c7c59ee5e53684f3c24152edd42605bfc4b89c5ce57b",
+      "context": "Evernote > Import process",
+      "contextHash": "9ae2f103879ac40d68d4c5aa27ddc105116c5e90b37f6d30f37bc4204da902fc",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_c40797cbab23f452a6b67f24_1",
+      "kind": "li",
+      "source": "Make sure the following options are set:",
+      "sourceHash": "c40797cbab23f452a6b67f24145198874924443726849725d509d82385fbf9fe",
+      "context": "Evernote > Import process",
+      "contextHash": "9ae2f103879ac40d68d4c5aa27ddc105116c5e90b37f6d30f37bc4204da902fc",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_9fcc2da01ef206c9e1c59f0b_1",
+      "kind": "li",
+      "source": "File format is set to __TRILIUM_PH_0__ENEX format__TRILIUM_PH_1__.",
+      "sourceHash": "9fcc2da01ef206c9e1c59f0b2f761ed52c15b2f40088aa11ccab64bfd24779b1",
+      "context": "Evernote > Import process",
+      "contextHash": "9ae2f103879ac40d68d4c5aa27ddc105116c5e90b37f6d30f37bc4204da902fc",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_fc09da941f0cda2474b1116d_1",
+      "kind": "li",
+      "source": "All the options in __TRILIUM_PH_0__Export note attributes__TRILIUM_PH_1__ are checked.",
+      "sourceHash": "fc09da941f0cda2474b1116d3b9101923ed4fce6d7d351ffedc52295abe11934",
+      "context": "Evernote > Import process",
+      "contextHash": "9ae2f103879ac40d68d4c5aa27ddc105116c5e90b37f6d30f37bc4204da902fc",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_42740c73f4653db762a43542_0",
+      "kind": "li",
+      "source": "To export a single note:",
+      "sourceHash": "42740c73f4653db762a435427a58d250a7c0e1561ffcd07e4600be39556ba77d",
+      "context": "Evernote > Import process",
+      "contextHash": "9ae2f103879ac40d68d4c5aa27ddc105116c5e90b37f6d30f37bc4204da902fc",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_47c6dfb19fbd9573677a5ddc_0",
+      "kind": "li",
+      "source": "Select the note.",
+      "sourceHash": "47c6dfb19fbd9573677a5ddc82e9eaf50563073cade7bdc7f04fd9195914e1ba",
+      "context": "Evernote > Import process",
+      "contextHash": "9ae2f103879ac40d68d4c5aa27ddc105116c5e90b37f6d30f37bc4204da902fc",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_29f6e0e9027c2144c8bf36e0_0",
+      "kind": "li",
+      "source": "In the top-right, press the […] button and select __TRILIUM_PH_0__Export__TRILIUM_PH_1__.",
+      "sourceHash": "29f6e0e9027c2144c8bf36e08e109b5403f4e1f9c683eb0420437f63c28ce7f3",
+      "context": "Evernote > Import process",
+      "contextHash": "9ae2f103879ac40d68d4c5aa27ddc105116c5e90b37f6d30f37bc4204da902fc",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_c40797cbab23f452a6b67f24_2",
+      "kind": "li",
+      "source": "Make sure the following options are set:",
+      "sourceHash": "c40797cbab23f452a6b67f24145198874924443726849725d509d82385fbf9fe",
+      "context": "Evernote > Import process",
+      "contextHash": "9ae2f103879ac40d68d4c5aa27ddc105116c5e90b37f6d30f37bc4204da902fc",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_9fcc2da01ef206c9e1c59f0b_2",
+      "kind": "li",
+      "source": "File format is set to __TRILIUM_PH_0__ENEX format__TRILIUM_PH_1__.",
+      "sourceHash": "9fcc2da01ef206c9e1c59f0b2f761ed52c15b2f40088aa11ccab64bfd24779b1",
+      "context": "Evernote > Import process",
+      "contextHash": "9ae2f103879ac40d68d4c5aa27ddc105116c5e90b37f6d30f37bc4204da902fc",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_fc09da941f0cda2474b1116d_2",
+      "kind": "li",
+      "source": "All the options in __TRILIUM_PH_0__Export note attributes__TRILIUM_PH_1__ are checked.",
+      "sourceHash": "fc09da941f0cda2474b1116d3b9101923ed4fce6d7d351ffedc52295abe11934",
+      "context": "Evernote > Import process",
+      "contextHash": "9ae2f103879ac40d68d4c5aa27ddc105116c5e90b37f6d30f37bc4204da902fc",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_d25ba660b9abbe1e56b3f394_0",
+      "kind": "p",
+      "source": "To export multiple notebooks in bulk, consider using a third-party CLI tool called __TRILIUM_PH_0__evernote-backup__TRILIUM_PH_1__",
+      "sourceHash": "d25ba660b9abbe1e56b3f3940b1d32b0691676e99115673183fecd14c06602b7",
+      "context": "Evernote > Import process",
+      "contextHash": "9ae2f103879ac40d68d4c5aa27ddc105116c5e90b37f6d30f37bc4204da902fc",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_c4c9525e54e415a027e5514e_0",
+      "kind": "p",
+      "source": "Once you have your ENEX files, do the following to import them in Trilium:",
+      "sourceHash": "c4c9525e54e415a027e5514e8401b26874b12fab9ac08ff0e7ea46ff81a26fa7",
+      "context": "Evernote > Import process",
+      "contextHash": "9ae2f103879ac40d68d4c5aa27ddc105116c5e90b37f6d30f37bc4204da902fc",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_ef4bbe69eb52d183b3df83f2_0",
+      "kind": "li",
+      "source": "In the __TRILIUM_PH_0__Note Tree__TRILIUM_PH_1__, right click and select __TRILIUM_PH_2__Import into note__TRILIUM_PH_3__.",
+      "sourceHash": "ef4bbe69eb52d183b3df83f21ece5d4532aff127158e9daaf171bcfa82be7c1c",
+      "context": "Evernote > Import process",
+      "contextHash": "9ae2f103879ac40d68d4c5aa27ddc105116c5e90b37f6d30f37bc4204da902fc",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_c6efddecb010d0765f48f64f_0",
+      "kind": "li",
+      "source": "In the __TRILIUM_PH_0__Import from__TRILIUM_PH_1__ section, select __TRILIUM_PH_2__ __TRILIUM_PH_3__Evernote__TRILIUM_PH_4__.",
+      "sourceHash": "c6efddecb010d0765f48f64f4c594ae9fd829c3e539fd334376434519af024e0",
+      "context": "Evernote > Import process",
+      "contextHash": "9ae2f103879ac40d68d4c5aa27ddc105116c5e90b37f6d30f37bc4204da902fc",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_4b575df058069dee7e90f65f_0",
+      "kind": "li",
+      "source": "During the import, you will see \"Import in progress\" message. If the import is successful, the message will change to “Import finished successfully” and then disappear.",
+      "sourceHash": "4b575df058069dee7e90f65faacffce6761127af1fcf511113375a1192ec6e3b",
+      "context": "Evernote > Import process",
+      "contextHash": "9ae2f103879ac40d68d4c5aa27ddc105116c5e90b37f6d30f37bc4204da902fc",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_4ec01b175b4734481463b65f_0",
+      "kind": "li",
+      "source": "We recommend you to check the imported notes and their attachments to verify that you haven’t lost any data.",
+      "sourceHash": "4ec01b175b4734481463b65fb7eb48944725bf81d8d7e969434266501c44110a",
+      "context": "Evernote > Import process",
+      "contextHash": "9ae2f103879ac40d68d4c5aa27ddc105116c5e90b37f6d30f37bc4204da902fc",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_40ff640d4fda01902f6eb589_0",
+      "kind": "h2",
+      "source": "Supported features__TRILIUM_PH_0__",
+      "sourceHash": "40ff640d4fda01902f6eb5894c960a3be0632f56de2d140fa2627699a93bdba5",
+      "context": "Evernote > Supported features",
+      "contextHash": "92869f1839516091a4d10693a4164bbdd68a99c5bf2cc38472ecdce41069dbe1",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_4e4fc272e1d831098ab11c37_0",
+      "kind": "p",
+      "source": "The following features are preserved by Trilium during the import process:",
+      "sourceHash": "4e4fc272e1d831098ab11c37962bae9a80d1783ce2c30dc11d34966d9c46162e",
+      "context": "Evernote > Supported features",
+      "contextHash": "92869f1839516091a4d10693a4164bbdd68a99c5bf2cc38472ecdce41069dbe1",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_53b177b42087375590d84a54_0",
+      "kind": "li",
+      "source": "Basic formatting (bold, italic, underline, strikethrough, colors, highlights, superscript, subscript, text alignment, inline code).",
+      "sourceHash": "53b177b42087375590d84a54dbd5f5886ae5c68459b325941598f1180c32743f",
+      "context": "Evernote > Supported features",
+      "contextHash": "92869f1839516091a4d10693a4164bbdd68a99c5bf2cc38472ecdce41069dbe1",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_81c9f7fb8a24e5ad8fd917cf_0",
+      "kind": "li",
+      "source": "The hierarchy of headings (these are shifted to start with H2 because H1 is reserved for note title, see __TRILIUM_PH_0__Headings__TRILIUM_PH_1__)",
+      "sourceHash": "81c9f7fb8a24e5ad8fd917cf70ae0f9a42c2905d218e750dccf3e6454dc3ce5a",
+      "context": "Evernote > Supported features",
+      "contextHash": "92869f1839516091a4d10693a4164bbdd68a99c5bf2cc38472ecdce41069dbe1",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_ccb124045b4c52f0805ec456_0",
+      "kind": "li",
+      "source": "To-do lists. The new task format is collapsed to standard to-do lists",
+      "sourceHash": "ccb124045b4c52f0805ec45690d1d9eb655836490453ce5ac7ad344250cc4513",
+      "context": "Evernote > Supported features",
+      "contextHash": "92869f1839516091a4d10693a4164bbdd68a99c5bf2cc38472ecdce41069dbe1",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_245d2d015df50e08246aaffc_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__Images__TRILIUM_PH_1__ and __TRILIUM_PH_2__Attachments__TRILIUM_PH_3__",
+      "sourceHash": "245d2d015df50e08246aaffc339c2fa172a7458afdcadded8ddb99785b83c5ab",
+      "context": "Evernote > Supported features",
+      "contextHash": "92869f1839516091a4d10693a4164bbdd68a99c5bf2cc38472ecdce41069dbe1",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_ba8c2803fd2660dcbb5dafb3_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__Lists__TRILIUM_PH_1__ (with bullets or with numbers)",
+      "sourceHash": "ba8c2803fd2660dcbb5dafb32d9f280eef6e1e9f599446ab97f64036e1e12b2a",
+      "context": "Evernote > Supported features",
+      "contextHash": "92869f1839516091a4d10693a4164bbdd68a99c5bf2cc38472ecdce41069dbe1",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_f3a9820dd21a8d0a505f3c55_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__Tables__TRILIUM_PH_1__",
+      "sourceHash": "f3a9820dd21a8d0a505f3c558857c11b73ba52ed5e5d3cab8545d2a2f2978a66",
+      "context": "Evernote > Supported features",
+      "contextHash": "92869f1839516091a4d10693a4164bbdd68a99c5bf2cc38472ecdce41069dbe1",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_50917477c2d2e74e6d07dc23_0",
+      "kind": "li",
+      "source": "Block quotes",
+      "sourceHash": "50917477c2d2e74e6d07dc23ecb105baba6ed926dd799de41625f08742231063",
+      "context": "Evernote > Supported features",
+      "contextHash": "92869f1839516091a4d10693a4164bbdd68a99c5bf2cc38472ecdce41069dbe1",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_082c0551332ae69203cec7f2_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__Admonitions__TRILIUM_PH_1__ are preserved, including its emoji (added as part of the content).",
+      "sourceHash": "082c0551332ae69203cec7f29a9601b23134a9bd411b2a3e60f3cd7a83c3af1f",
+      "context": "Evernote > Supported features",
+      "contextHash": "92869f1839516091a4d10693a4164bbdd68a99c5bf2cc38472ecdce41069dbe1",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_afa4d2482f1b126cb8b93ace_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__Code blocks__TRILIUM_PH_1__, with a best-effort attempt to restore the language.",
+      "sourceHash": "afa4d2482f1b126cb8b93ace504f00519bd17e1caf16eb5912bf90fb1955e505",
+      "context": "Evernote > Supported features",
+      "contextHash": "92869f1839516091a4d10693a4164bbdd68a99c5bf2cc38472ecdce41069dbe1",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_ac8da1085e6023ff6e6c69c5_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__Mermaid Diagrams__TRILIUM_PH_1__",
+      "sourceHash": "ac8da1085e6023ff6e6c69c5b7e745e900a83c1356c359ba512b0afcabe72131",
+      "context": "Evernote > Supported features",
+      "contextHash": "92869f1839516091a4d10693a4164bbdd68a99c5bf2cc38472ecdce41069dbe1",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_1191aae82c48bbd90c629305_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__Math Equations__TRILIUM_PH_1__",
+      "sourceHash": "1191aae82c48bbd90c629305a0465854cfcbb3854fa7031c2893deca2d93a7c1",
+      "context": "Evernote > Supported features",
+      "contextHash": "92869f1839516091a4d10693a4164bbdd68a99c5bf2cc38472ecdce41069dbe1",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_1fe86fbe7a8328b56f759f04_0",
+      "kind": "li",
+      "source": "Toggle sections",
+      "sourceHash": "1fe86fbe7a8328b56f759f04b324181d953b597f9bc45bc10e847626ab6ce38e",
+      "context": "Evernote > Supported features",
+      "contextHash": "92869f1839516091a4d10693a4164bbdd68a99c5bf2cc38472ecdce41069dbe1",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_ca5f5cfda81241a14847d95d_0",
+      "kind": "li",
+      "source": "External links",
+      "sourceHash": "ca5f5cfda81241a14847d95de495bf9ebee6daea223b575d99e7d37b2cbc62d5",
+      "context": "Evernote > Supported features",
+      "contextHash": "92869f1839516091a4d10693a4164bbdd68a99c5bf2cc38472ecdce41069dbe1",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_9442074089400a70d1bd0efe_0",
+      "kind": "li",
+      "source": "Internal links are re-written to __TRILIUM_PH_0__Internal (reference) links__TRILIUM_PH_1__ if the target note is part of the same import.",
+      "sourceHash": "9442074089400a70d1bd0efe1286eb2e561c51e6b3b643b1fbb6269129dc516e",
+      "context": "Evernote > Supported features",
+      "contextHash": "92869f1839516091a4d10693a4164bbdd68a99c5bf2cc38472ecdce41069dbe1",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_2d166eed4e46d147ae179d3f_0",
+      "kind": "h2",
+      "source": "Limitations__TRILIUM_PH_0__",
+      "sourceHash": "2d166eed4e46d147ae179d3feba2dbd0d28887b22a99884dc255c7ff2e43988d",
+      "context": "Evernote > Limitations",
+      "contextHash": "07b6f7b37deb0fedfd063214f449e957084316aa7c2f13dddfde5941571bc54d",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_6afce9615d74fbb96a39bf49_0",
+      "kind": "li",
+      "source": "The size limit of one import is 250Mb. If the total size of your files is larger, you can increase the __TRILIUM_PH_0__upload limit__TRILIUM_PH_1__, or divide your files, and run the import as many times as necessary.",
+      "sourceHash": "6afce9615d74fbb96a39bf498e5fae20b43a0d8709d24ef15d3a6eb357358e67",
+      "context": "Evernote > Limitations",
+      "contextHash": "07b6f7b37deb0fedfd063214f449e957084316aa7c2f13dddfde5941571bc54d",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_67c1b8d0ed0d945081148dd9_0",
+      "kind": "li",
+      "source": "All resources (except for images) are created as notes’ attachments.",
+      "sourceHash": "67c1b8d0ed0d945081148dd99977cfb8f8e31d8ae20d008e2bf9f7cbc366da64",
+      "context": "Evernote > Limitations",
+      "contextHash": "07b6f7b37deb0fedfd063214f449e957084316aa7c2f13dddfde5941571bc54d",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_367310b0ff624cb98147b546_0",
+      "kind": "li",
+      "source": "If you have HTML inside ENEX files, the HTML formatting may be broken or lost after import in Trilium. See __TRILIUM_PH_0__Reporting issues__TRILIUM_PH_1__.",
+      "sourceHash": "367310b0ff624cb98147b546e8fc7b0e73121c30a2ef5af6ff7bb6f4ce20d4bb",
+      "context": "Evernote > Limitations",
+      "contextHash": "07b6f7b37deb0fedfd063214f449e957084316aa7c2f13dddfde5941571bc54d",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_9433cbe5b1300160a9ae863e_0",
+      "kind": "h3",
+      "source": "Links to other notes__TRILIUM_PH_0__",
+      "sourceHash": "9433cbe5b1300160a9ae863e45cebc68416f1f0476dd281755ec8d116742bcef",
+      "context": "Evernote > Limitations > Links to other notes",
+      "contextHash": "3fa76dd72def3f6eacceb9358b176ef52e429a7a23e0772e7173151c3e49e52f",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_a0e57f2eea4e869757bac2b5_0",
+      "kind": "p",
+      "source": "Since v0.104.0, the ENEX importer tries to recreate links to other notes automatically by converting their Evernote-specific URLs to Trilium's __TRILIUM_PH_0__Internal (reference) links__TRILIUM_PH_1__.",
+      "sourceHash": "a0e57f2eea4e869757bac2b5824786b7e2175c81181a6137b3e367488b022d4d",
+      "context": "Evernote > Limitations > Links to other notes",
+      "contextHash": "3fa76dd72def3f6eacceb9358b176ef52e429a7a23e0772e7173151c3e49e52f",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_d8d766e3d80f06941c7d855d_0",
+      "kind": "p",
+      "source": "Since the ENEX format does not provide the unique ID of notes, the note references are determined via their note title.",
+      "sourceHash": "d8d766e3d80f06941c7d855d5e2159d8a6b4f5a850fc683c1ed85f9b81b7e72b",
+      "context": "Evernote > Limitations > Links to other notes",
+      "contextHash": "3fa76dd72def3f6eacceb9358b176ef52e429a7a23e0772e7173151c3e49e52f",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_ae486cd949d12f3be2baf427_0",
+      "kind": "p",
+      "source": "Limitations:",
+      "sourceHash": "ae486cd949d12f3be2baf427692d2bd60502c806d1deae5905da2ff877f97616",
+      "context": "Evernote > Limitations > Links to other notes",
+      "contextHash": "3fa76dd72def3f6eacceb9358b176ef52e429a7a23e0772e7173151c3e49e52f",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_e966668f28b025f75b50f580_0",
+      "kind": "li",
+      "source": "Only notes that are part of the same import will have their links rewritten to reference links, to avoid linking to the wrong note.",
+      "sourceHash": "e966668f28b025f75b50f5801bfbafcefe7faff1b7f86bdbe0ea2b2d032f5775",
+      "context": "Evernote > Limitations > Links to other notes",
+      "contextHash": "3fa76dd72def3f6eacceb9358b176ef52e429a7a23e0772e7173151c3e49e52f",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_f6eacd4a06739fd01f10084e_0",
+      "kind": "li",
+      "source": "If there are to notes with the same name, internal links will not be created to avoid pointing to the wrong note.",
+      "sourceHash": "f6eacd4a06739fd01f10084e723d678815aa873e3ee7137eaa0d0e1032316fb3",
+      "context": "Evernote > Limitations > Links to other notes",
+      "contextHash": "3fa76dd72def3f6eacceb9358b176ef52e429a7a23e0772e7173151c3e49e52f",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_81d8e5ecefca2a88155b95cd_0",
+      "kind": "li",
+      "source": "Links that couldn't be rewritten (e.g. referring to a missing/duplicate note) will be kept with their original __TRILIUM_PH_0__ URL.",
+      "sourceHash": "81d8e5ecefca2a88155b95cd53b170c9e0efa7a0a0fc223022ce67661aa94e5f",
+      "context": "Evernote > Limitations > Links to other notes",
+      "contextHash": "3fa76dd72def3f6eacceb9358b176ef52e429a7a23e0772e7173151c3e49e52f",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_9d1d082376cfdef5887afcec_0",
+      "kind": "li",
+      "source": "It will not fix links to anchors and links to notes that you renamed in Evernote after you created the links.",
+      "sourceHash": "9d1d082376cfdef5887afcec891523186055dbdd0b86f2c47e6b8ab030bdd0f6",
+      "context": "Evernote > Limitations > Links to other notes",
+      "contextHash": "3fa76dd72def3f6eacceb9358b176ef52e429a7a23e0772e7173151c3e49e52f",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_cb31a879016a1f5d521bd92a_0",
+      "kind": "h4",
+      "source": "Post-processing notes__TRILIUM_PH_0__",
+      "sourceHash": "cb31a879016a1f5d521bd92aaf6b8f1a2d6f9a2c01c5f6620fdd1dd0d43cd75b",
+      "context": "Evernote > Limitations > Links to other notes > Post-processing notes",
+      "contextHash": "4f127dfc90000d151fa112885b0537a3a422635a0255a201acd531cd669fe3d3",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_75544059eaaa7c0cfce51380_0",
+      "kind": "p",
+      "source": "This script allows rewriting links after the import has been done, and it should also allow finding links between two different imports.",
+      "sourceHash": "75544059eaaa7c0cfce51380c1d28e75b5ecad20b3fd69e22585b52ca54ea698",
+      "context": "Evernote > Limitations > Links to other notes > Post-processing notes",
+      "contextHash": "4f127dfc90000d151fa112885b0537a3a422635a0255a201acd531cd669fe3d3",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_b18a550e3d2152fd557212ad_0",
+      "kind": "p",
+      "source": "If you want to restore the internal links in Trilium after you import all of your ENEX files, you can use or adapt this custom script: __TRILIUM_PH_0__Process internal links by title__TRILIUM_PH_1__",
+      "sourceHash": "b18a550e3d2152fd557212ad6f83a9b2a0f410a15f4632e6c6c529a84f42267f",
+      "context": "Evernote > Limitations > Links to other notes > Post-processing notes",
+      "contextHash": "4f127dfc90000d151fa112885b0537a3a422635a0255a201acd531cd669fe3d3",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_7e06d73f3bff9e1e3333c359_0",
+      "kind": "p",
+      "source": "The script does the following:",
+      "sourceHash": "7e06d73f3bff9e1e3333c359155e3b7c2b4b1bda6e7b5dc9f116ab3c71b79911",
+      "context": "Evernote > Limitations > Links to other notes > Post-processing notes",
+      "contextHash": "4f127dfc90000d151fa112885b0537a3a422635a0255a201acd531cd669fe3d3",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_a76ff72a3b7c150db35d9f45_0",
+      "kind": "li",
+      "source": "It finds all Evernote internal links.",
+      "sourceHash": "a76ff72a3b7c150db35d9f45d31184ef14b82f1f044dedbc53c6a92a275eee5c",
+      "context": "Evernote > Limitations > Links to other notes > Post-processing notes",
+      "contextHash": "4f127dfc90000d151fa112885b0537a3a422635a0255a201acd531cd669fe3d3",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_efe543b2a7e8c81a8bfc7400_0",
+      "kind": "li",
+      "source": "For each one, it checks if its link text matches a note title, and if yes, it replaces the Evernote link with an internal Trilium link. If not, it leaves the Evernote link in place.",
+      "sourceHash": "efe543b2a7e8c81a8bfc7400d19ca6d16fafe126d750d5f63408f9ea622f5e1e",
+      "context": "Evernote > Limitations > Links to other notes > Post-processing notes",
+      "contextHash": "4f127dfc90000d151fa112885b0537a3a422635a0255a201acd531cd669fe3d3",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_48136aae0a407e831a9ab7c4_0",
+      "kind": "li",
+      "source": "If it finds more than one note with a matching note title, it leaves the Evernote link in place.",
+      "sourceHash": "48136aae0a407e831a9ab7c4e78018db3d23ccd1cd2377799e891fa717b783a6",
+      "context": "Evernote > Limitations > Links to other notes > Post-processing notes",
+      "contextHash": "4f127dfc90000d151fa112885b0537a3a422635a0255a201acd531cd669fe3d3",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_45007ab1d2f07d2bcfbcccae_0",
+      "kind": "li",
+      "source": "It outputs the results in a log that you can see in the respective code note in Trilium.",
+      "sourceHash": "45007ab1d2f07d2bcfbcccaeba0f175c8125f11e9dfc3d229870b6b549bfaec7",
+      "context": "Evernote > Limitations > Links to other notes > Post-processing notes",
+      "contextHash": "4f127dfc90000d151fa112885b0537a3a422635a0255a201acd531cd669fe3d3",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_2b77d30064ac1ce65df632d2_0",
+      "kind": "p",
+      "source": "The script has the following limitations:",
+      "sourceHash": "2b77d30064ac1ce65df632d28e76270adf5f2b46012a2b459696415d71c25255",
+      "context": "Evernote > Limitations > Links to other notes > Post-processing notes",
+      "contextHash": "4f127dfc90000d151fa112885b0537a3a422635a0255a201acd531cd669fe3d3",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_9d1d082376cfdef5887afcec_1",
+      "kind": "li",
+      "source": "It will not fix links to anchors and links to notes that you renamed in Evernote after you created the links.",
+      "sourceHash": "9d1d082376cfdef5887afcec891523186055dbdd0b86f2c47e6b8ab030bdd0f6",
+      "context": "Evernote > Limitations > Links to other notes > Post-processing notes",
+      "contextHash": "4f127dfc90000d151fa112885b0537a3a422635a0255a201acd531cd669fe3d3",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_40f035a3ac6f40ffe68f26fd_0",
+      "kind": "li",
+      "source": "Some note titles might not be well identified, even if they exist. This is especially the case if the note title contains some special characters. Should this be problematic, consider __TRILIUM_PH_0__Reporting issues__TRILIUM_PH_1__.",
+      "sourceHash": "40f035a3ac6f40ffe68f26fd302137fab0da7c3e495980cd402d5ada369d747b",
+      "context": "Evernote > Limitations > Links to other notes > Post-processing notes",
+      "contextHash": "4f127dfc90000d151fa112885b0537a3a422635a0255a201acd531cd669fe3d3",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_2bf2c57afc3c3752afbeaf8e_0",
+      "kind": "h2",
+      "source": "Reporting issues__TRILIUM_PH_0__",
+      "sourceHash": "2bf2c57afc3c3752afbeaf8e05bfb59300f5f1bf42573dc5359a53fbe63cb560",
+      "context": "Evernote > Reporting issues",
+      "contextHash": "dcfcf2808b5ee2971559adddd6e5eb1d98d7630e652566eced2b830aba3879da",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_c70843a287adb9a4ad4251b9_0",
+      "kind": "p",
+      "source": "When importing your Evernote notebooks, you might find issues in how a note is imported; in that case consider __TRILIUM_PH_0__reporting__TRILIUM_PH_1__ it.",
+      "sourceHash": "c70843a287adb9a4ad4251b95dfd01fa18fa1a5bd1a100906c5d303ddf9b705c",
+      "context": "Evernote > Reporting issues",
+      "contextHash": "dcfcf2808b5ee2971559adddd6e5eb1d98d7630e652566eced2b830aba3879da",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_117f44a4dc4b8143dd5318c5_0",
+      "kind": "p",
+      "source": "When reporting such an issue make sure to provide the following information:",
+      "sourceHash": "117f44a4dc4b8143dd5318c5b597fa66186e508727e871e34df7eba85bf269c6",
+      "context": "Evernote > Reporting issues",
+      "contextHash": "dcfcf2808b5ee2971559adddd6e5eb1d98d7630e652566eced2b830aba3879da",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_55aae98523768010fd9d2e42_0",
+      "kind": "li",
+      "source": "A __TRILIUM_PH_0__ export of the original note. This allows us to reproduce the issue.",
+      "sourceHash": "55aae98523768010fd9d2e42f14cf8f3ea2e2c64c324ee7a38d42600d6999397",
+      "context": "Evernote > Reporting issues",
+      "contextHash": "dcfcf2808b5ee2971559adddd6e5eb1d98d7630e652566eced2b830aba3879da",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_58fc624abc1c8353c5d22832_0",
+      "kind": "li",
+      "source": "A screenshot with how it originally looked like before the import and how it looks after the import.",
+      "sourceHash": "58fc624abc1c8353c5d228324200d67facbf52bca821c0d584468d92c22db7ef",
+      "context": "Evernote > Reporting issues",
+      "contextHash": "dcfcf2808b5ee2971559adddd6e5eb1d98d7630e652566eced2b830aba3879da",
+      "status": "pending",
+      "active": true
+    }
+  ],
+  "requests": []
+}

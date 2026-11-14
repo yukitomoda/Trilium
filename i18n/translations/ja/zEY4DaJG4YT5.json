@@ -1,0 +1,249 @@
+{
+  "schemaVersion": 1,
+  "pageId": "zEY4DaJG4YT5",
+  "sourceFile": "docs/User Guide/User Guide/Advanced Usage/Attributes.md",
+  "sourceRevision": "03d17b60f59b5efc29b880b11481471d0fe0ff57",
+  "units": [
+    {
+      "id": "u_534c6b269996d6e6b83f2bdb_0",
+      "kind": "title",
+      "source": "Attributes",
+      "sourceHash": "534c6b269996d6e6b83f2bdbff86c8178c4c6c26b38031f6ac3824472577277c",
+      "context": "Attributes",
+      "contextHash": "4b0ed88f7d99420fb3ba2c68e20992280f6dcac4afaf32da17bee89c656c2ccf",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_a4df892103769f051fcb28c4_0",
+      "kind": "p",
+      "source": "In Trilium, attributes are key-value pairs assigned to notes, providing additional metadata or functionality. There are two primary types of attributes:",
+      "sourceHash": "a4df892103769f051fcb28c4f040794ac37f950bd3cbc203e3189887f354d310",
+      "context": "Attributes",
+      "contextHash": "4b0ed88f7d99420fb3ba2c68e20992280f6dcac4afaf32da17bee89c656c2ccf",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_6f754f534053e44d7493acbf_0",
+      "kind": "p",
+      "source": "__TRILIUM_PH_0__Labels__TRILIUM_PH_1__ can be used for a variety of purposes, such as storing metadata or configuring the behavior of notes. Labels are also searchable, enhancing note retrieval.",
+      "sourceHash": "6f754f534053e44d7493acbf1096a88f9550f709c0686641df4a416c407c1881",
+      "context": "Attributes",
+      "contextHash": "4b0ed88f7d99420fb3ba2c68e20992280f6dcac4afaf32da17bee89c656c2ccf",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_feafae227c76733614e76b91_0",
+      "kind": "p",
+      "source": "For more information, including predefined labels, see __TRILIUM_PH_0__Labels__TRILIUM_PH_1__.",
+      "sourceHash": "feafae227c76733614e76b9121da3a9cb3cfa5b8d89fad5b11466f8178642903",
+      "context": "Attributes",
+      "contextHash": "4b0ed88f7d99420fb3ba2c68e20992280f6dcac4afaf32da17bee89c656c2ccf",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_aaed7a8ababf4fc2c980c73c_0",
+      "kind": "p",
+      "source": "__TRILIUM_PH_0__Relations__TRILIUM_PH_1__ define connections between notes, similar to links. These can be used for metadata and scripting purposes.",
+      "sourceHash": "aaed7a8ababf4fc2c980c73cad1c45e613e86b7c53d8b923deb0a3aa6f58de2d",
+      "context": "Attributes",
+      "contextHash": "4b0ed88f7d99420fb3ba2c68e20992280f6dcac4afaf32da17bee89c656c2ccf",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_a466a4accf16eb4f519ee8a6_0",
+      "kind": "p",
+      "source": "For more information, including a list of predefined relations, see __TRILIUM_PH_0__Relations__TRILIUM_PH_1__.",
+      "sourceHash": "a466a4accf16eb4f519ee8a6995acd0db79616da570da85eca0514d6d1ec6492",
+      "context": "Attributes",
+      "contextHash": "4b0ed88f7d99420fb3ba2c68e20992280f6dcac4afaf32da17bee89c656c2ccf",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_9082f3a4f2d5475e18dc0939_0",
+      "kind": "p",
+      "source": "These attributes play a crucial role in organizing, categorizing, and enhancing the functionality of notes.",
+      "sourceHash": "9082f3a4f2d5475e18dc09399b49ccf37d2a26eb2ab850c91e0f7372dd41c0f2",
+      "context": "Attributes",
+      "contextHash": "4b0ed88f7d99420fb3ba2c68e20992280f6dcac4afaf32da17bee89c656c2ccf",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_5bffe72c4e2581c02cf79196_0",
+      "kind": "h2",
+      "source": "Types of attributes__TRILIUM_PH_0__",
+      "sourceHash": "5bffe72c4e2581c02cf79196d7d4c71a6c2e3022c1c65f092ccaafc464da0400",
+      "context": "Attributes > Types of attributes",
+      "contextHash": "6bfaeb27b2462563e117e1a55ef2747cada22bbcab6a99245900929889b66d70",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_174599666484abda4330d5df_0",
+      "kind": "p",
+      "source": "Conceptually there are two types of attributes (applying to both labels and relations):",
+      "sourceHash": "174599666484abda4330d5dfd4b66e53cf122a20704b44cbe6f6b2b623e5aa0b",
+      "context": "Attributes > Types of attributes",
+      "contextHash": "6bfaeb27b2462563e117e1a55ef2747cada22bbcab6a99245900929889b66d70",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_5800a4bc57323665b97cfb70_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__System attributes__TRILIUM_PH_1____TRILIUM_PH_2__As the name suggest, these attributes have a special meaning since they are interpreted by Trilium. For example the __TRILIUM_PH_3__ attribute will change the color of the note as displayed in the __TRILIUM_PH_4__Note Tree__TRILIUM_PH_5__ and links, and __TRILIUM_PH_6__ will change the icon of a note.",
+      "sourceHash": "5800a4bc57323665b97cfb7065f532fc1008736b7e139046e02da3284488b290",
+      "context": "Attributes > Types of attributes",
+      "contextHash": "6bfaeb27b2462563e117e1a55ef2747cada22bbcab6a99245900929889b66d70",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_0b5ea19b155b15419ab648f3_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__User-defined attributes__TRILIUM_PH_1____TRILIUM_PH_2__These are free-form labels or relations that can be used by the user. They can be used purely for categorization purposes (especially if combined with __TRILIUM_PH_3__Search__TRILIUM_PH_4__), or they can be given meaning through the use of __TRILIUM_PH_5__Scripting__TRILIUM_PH_6__.",
+      "sourceHash": "0b5ea19b155b15419ab648f3e40b9501d8b08df8f71c69169d2681d8649c38fd",
+      "context": "Attributes > Types of attributes",
+      "contextHash": "6bfaeb27b2462563e117e1a55ef2747cada22bbcab6a99245900929889b66d70",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_8ec5d1cb57d6fa8b0285b2c1_0",
+      "kind": "p",
+      "source": "In practice, Trilium makes no direct distinction of whether an attribute is a system one or a user-defined one. A label or relation is considered a system attribute if it matches one of the built-in names (e.g. like the aforementioned __TRILIUM_PH_0__). Keep this in mind when creating  __TRILIUM_PH_1__Promoted Attributes__TRILIUM_PH_2__ in order not to accidentally alter a system attribute (unless intended).",
+      "sourceHash": "8ec5d1cb57d6fa8b0285b2c10748f1ae1f046fc11c5f47aaa209d8dbfd09f456",
+      "context": "Attributes > Types of attributes",
+      "contextHash": "6bfaeb27b2462563e117e1a55ef2747cada22bbcab6a99245900929889b66d70",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_d29e74ff232f867a76547dc0_0",
+      "kind": "h2",
+      "source": "Viewing the list of attributes__TRILIUM_PH_0__",
+      "sourceHash": "d29e74ff232f867a76547dc0bcf26c8b030dc90946eb4f29dd2cc1aafda77baa",
+      "context": "Attributes > Viewing the list of attributes",
+      "contextHash": "afda8dd70610dc8fa391b1568745bdfefc23a7fd3883768eff1bac8645608af8",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_dccbc61797778c98b2c4b4f1_0",
+      "kind": "p",
+      "source": "Both the labels and relations for the current note are displayed in:",
+      "sourceHash": "dccbc61797778c98b2c4b4f14270e0e7396b11de4f06f0e5982d644828a3794d",
+      "context": "Attributes > Viewing the list of attributes",
+      "contextHash": "afda8dd70610dc8fa391b1568745bdfefc23a7fd3883768eff1bac8645608af8",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_85d2752b65e98ba80485e805_0",
+      "kind": "li",
+      "source": "The __TRILIUM_PH_0__Right Sidebar__TRILIUM_PH_1__, in the __TRILIUM_PH_2__Attributes tab__TRILIUM_PH_3__ with a grid-like view.",
+      "sourceHash": "85d2752b65e98ba80485e8053490872776a1aead4ce44e0ffef7535cf1f1b08d",
+      "context": "Attributes > Viewing the list of attributes",
+      "contextHash": "afda8dd70610dc8fa391b1568745bdfefc23a7fd3883768eff1bac8645608af8",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_64923e373f752526951789ba_0",
+      "kind": "li",
+      "source": "A more advanced option, in __TRILIUM_PH_0__Status bar__TRILIUM_PH_1__ → __TRILIUM_PH_2__ (__TRILIUM_PH_3__Attributes__TRILIUM_PH_4__) where the attributes are displayed in a textual way, making it easy to copy them around or make batch modifications.",
+      "sourceHash": "64923e373f752526951789ba8e815559d23ec2b37fb66514ea4e8a503824b1f6",
+      "context": "Attributes > Viewing the list of attributes",
+      "contextHash": "afda8dd70610dc8fa391b1568745bdfefc23a7fd3883768eff1bac8645608af8",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_d513f9da307604b5f759b117_0",
+      "kind": "li",
+      "source": "In the list of attributes, labels are prefixed with the __TRILIUM_PH_0__ character whereas relations are prefixed with the __TRILIUM_PH_1__ character.",
+      "sourceHash": "d513f9da307604b5f759b1171e5d787d52190f1f866b0b6ca80d5dd8315ecf73",
+      "context": "Attributes > Viewing the list of attributes",
+      "contextHash": "afda8dd70610dc8fa391b1568745bdfefc23a7fd3883768eff1bac8645608af8",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_7e67253785afea71151554ea_0",
+      "kind": "h2",
+      "source": "Attribute Definitions and Promoted Attributes__TRILIUM_PH_0__",
+      "sourceHash": "7e67253785afea71151554ea144e6718f0f99d921ea29e78207805bca5c4b1fd",
+      "context": "Attributes > Attribute Definitions and Promoted Attributes",
+      "contextHash": "801becb54568ed7d00f380c1c071734cedfaab9f031c5ebdf9770c36dd511a3f",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_19853ec0de24b68dec2369ec_0",
+      "kind": "p",
+      "source": "__TRILIUM_PH_0__Promoted Attributes__TRILIUM_PH_1__ create a form-like editing experience for attributes, which makes it easy to enhancing the organization and management of attributes",
+      "sourceHash": "19853ec0de24b68dec2369ec16e0b5697629965dbfe3d212f2f76bf3756c1389",
+      "context": "Attributes > Attribute Definitions and Promoted Attributes",
+      "contextHash": "801becb54568ed7d00f380c1c071734cedfaab9f031c5ebdf9770c36dd511a3f",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_bb535ffa258c3334f99b3377_0",
+      "kind": "h2",
+      "source": "Multiplicity__TRILIUM_PH_0__",
+      "sourceHash": "bb535ffa258c3334f99b33773792ef394c07bb4b054be756447922b1d2a5d8b1",
+      "context": "Attributes > Multiplicity",
+      "contextHash": "a99b93b768b488f9da7fd8948c2fdac7bfa4aced30cd0f09689f3bb84031c8eb",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_6be3792a8a55263f1e8d0bf4_0",
+      "kind": "p",
+      "source": "Attributes in Trilium can be \"multi-valued\", meaning multiple attributes with the same name can co-exist. This can be combined with __TRILIUM_PH_0__Promoted Attributes__TRILIUM_PH_1__ to easily add them.",
+      "sourceHash": "6be3792a8a55263f1e8d0bf4372b42c3427e5bd520bae8731af3529b299abbda",
+      "context": "Attributes > Multiplicity",
+      "contextHash": "a99b93b768b488f9da7fd8948c2fdac7bfa4aced30cd0f09689f3bb84031c8eb",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_8398b96dd0da043fd4086985_0",
+      "kind": "h2",
+      "source": "Attribute Inheritance__TRILIUM_PH_0__",
+      "sourceHash": "8398b96dd0da043fd4086985cb8a92506b1466c3472058feea3ba0a574068ed2",
+      "context": "Attributes > Attribute Inheritance",
+      "contextHash": "572f6f7b409449690c4b55db891cffaec6ebce2dd69c2f1262d429faea1d3fa8",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_b3af09eaae0309c997dc39d4_0",
+      "kind": "p",
+      "source": "Trilium supports attribute inheritance, allowing child notes to inherit attributes from their parents. For more information, see __TRILIUM_PH_0__Attribute Inheritance__TRILIUM_PH_1__.",
+      "sourceHash": "b3af09eaae0309c997dc39d4bbad508f5c130b5049c123c7e29a522808dfbaf8",
+      "context": "Attributes > Attribute Inheritance",
+      "contextHash": "572f6f7b409449690c4b55db891cffaec6ebce2dd69c2f1262d429faea1d3fa8",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_b190d47815633246b0ab18a6_0",
+      "kind": "image-alt",
+      "source": "記事画像",
+      "sourceHash": "b190d47815633246b0ab18a61d9b8e8ea36504fe3f8bc230a7753096915c9ff2",
+      "context": "Attributes > Attribute Inheritance",
+      "contextHash": "572f6f7b409449690c4b55db891cffaec6ebce2dd69c2f1262d429faea1d3fa8",
+      "status": "pending",
+      "active": true
+    }
+  ],
+  "requests": []
+}

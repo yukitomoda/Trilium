@@ -1,0 +1,388 @@
+{
+  "schemaVersion": 1,
+  "pageId": "vcjrb3VVYPZI",
+  "sourceFile": "docs/User Guide/User Guide/Installation & Setup/Server Installation/2. Reverse proxy.md",
+  "sourceRevision": "03d17b60f59b5efc29b880b11481471d0fe0ff57",
+  "units": [
+    {
+      "id": "u_2da59b27e14a35a42819617b_0",
+      "kind": "title",
+      "source": "2. Reverse proxy",
+      "sourceHash": "2da59b27e14a35a42819617bae3e86f8048e0731c16fcaf0a4ca6def580e785d",
+      "context": "2. Reverse proxy",
+      "contextHash": "03272459bd7c893c5e963acaa4cad86b318b3cdcbebcb279b1e6b16994def7a9",
+      "status": "translated",
+      "active": true,
+      "translation": "2. リバースプロキシ",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_f091ed465002b4e16c1fa636_0",
+      "kind": "p",
+      "source": "Trilium is typically exposed to the internet behind a __TRILIUM_PH_0__reverse proxy__TRILIUM_PH_1__, which handles TLS termination, presents a single public entry point, and (optionally) lets you host multiple instances under one domain. Trilium itself keeps running on plain HTTP on its local port; the proxy sits in front of it.",
+      "sourceHash": "f091ed465002b4e16c1fa636d28446bfe8d589d2007f511e1607bf07f9b28dde",
+      "context": "2. Reverse proxy",
+      "contextHash": "03272459bd7c893c5e963acaa4cad86b318b3cdcbebcb279b1e6b16994def7a9",
+      "status": "translated",
+      "active": true,
+      "translation": "Triliumは通常、__TRILIUM_PH_0__リバースプロキシ__TRILIUM_PH_1__の背後でインターネットに公開されます。リバースプロキシはTLS終了を処理し、単一のパブリックなエントリーポイントを提供し、（オプションで）1つのドメインの下で複数のインスタンスをホストできるようにします。Trilium自体はローカルポート上で平文のHTTPで実行され続け、プロキシはその手前に配置されます。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_f090c7505b29101096cef43e_0",
+      "kind": "p",
+      "source": "This section collects provider-specific guides and the configuration that applies regardless of which proxy you use.",
+      "sourceHash": "f090c7505b29101096cef43ef12345af1f01a08127d23d044ed6a21fd3938518",
+      "context": "2. Reverse proxy",
+      "contextHash": "03272459bd7c893c5e963acaa4cad86b318b3cdcbebcb279b1e6b16994def7a9",
+      "status": "translated",
+      "active": true,
+      "translation": "このセクションでは、プロキシ固有のガイドと、使用するプロキシに関係なく適用される設定について説明します。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_26a4bec965f2b3114f14c8a1_0",
+      "kind": "h2",
+      "source": "Provider guides__TRILIUM_PH_0__",
+      "sourceHash": "26a4bec965f2b3114f14c8a17e602a014f056dd6acabefc382458d2ee8c72abf",
+      "context": "2. Reverse proxy > Provider guides",
+      "contextHash": "c568dca43a4279a83fe84a094dee3f974cd853dc164787d444ebef336dfc4c4e",
+      "status": "translated",
+      "active": true,
+      "translation": "プロバイダーガイド__TRILIUM_PH_0__",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_368360ec1bd6c439df083c13_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__Nginx__TRILIUM_PH_1__",
+      "sourceHash": "368360ec1bd6c439df083c139b80c70efecc8fd71db60b6e17fa5fae2d5580a3",
+      "context": "2. Reverse proxy > Provider guides",
+      "contextHash": "c568dca43a4279a83fe84a094dee3f974cd853dc164787d444ebef336dfc4c4e",
+      "status": "translated",
+      "active": true,
+      "translation": "__TRILIUM_PH_0__Nginx__TRILIUM_PH_1__",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_14baeb4324cbc24375b337f2_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__Traefik__TRILIUM_PH_1__",
+      "sourceHash": "14baeb4324cbc24375b337f20167abede19361db1415f9ada5262727a0c045ae",
+      "context": "2. Reverse proxy > Provider guides",
+      "contextHash": "c568dca43a4279a83fe84a094dee3f974cd853dc164787d444ebef336dfc4c4e",
+      "status": "translated",
+      "active": true,
+      "translation": "__TRILIUM_PH_0__Traefik__TRILIUM_PH_1__",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_bc0a3dc7b8597438a2ae7f6d_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__Apache using Docker__TRILIUM_PH_1__",
+      "sourceHash": "bc0a3dc7b8597438a2ae7f6d6f2af623dc849a29b5c3043f5e5951e749cfd856",
+      "context": "2. Reverse proxy > Provider guides",
+      "contextHash": "c568dca43a4279a83fe84a094dee3f974cd853dc164787d444ebef336dfc4c4e",
+      "status": "translated",
+      "active": true,
+      "translation": "__TRILIUM_PH_0__Dockerを使用したApache__TRILIUM_PH_1__",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_4622c3f2733e7adf668edf16_0",
+      "kind": "h2",
+      "source": "Applies to every proxy__TRILIUM_PH_0__",
+      "sourceHash": "4622c3f2733e7adf668edf163adcf8b87728ef08509cb34116d180591597b644",
+      "context": "2. Reverse proxy > Applies to every proxy",
+      "contextHash": "140d61f11d05b643c47646f5f6b62313a205de3254c8bda5b47690e0cda90eee",
+      "status": "translated",
+      "active": true,
+      "translation": "すべてのプロキシに共通する事項__TRILIUM_PH_0__",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_227c5e1fa26ecd713e35a617_0",
+      "kind": "p",
+      "source": "Regardless of the proxy you choose, make sure of the following:",
+      "sourceHash": "227c5e1fa26ecd713e35a617922034fe7ff1113845383665ad6773bf958d9962",
+      "context": "2. Reverse proxy > Applies to every proxy",
+      "contextHash": "140d61f11d05b643c47646f5f6b62313a205de3254c8bda5b47690e0cda90eee",
+      "status": "translated",
+      "active": true,
+      "translation": "選択するプロキシに関係なく、以下の点を確認してください。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_c85faadeff4adb64fa8454cf_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__Forward the WebSocket upgrade.__TRILIUM_PH_1__ Trilium uses a WebSocket for synchronization and live UI updates. Your proxy must pass the __TRILIUM_PH_2__ and __TRILIUM_PH_3__ headers through, otherwise the client will appear to load but never receive updates.",
+      "sourceHash": "c85faadeff4adb64fa8454cf5d52794760c3061f24e45231f3326c9d2644320c",
+      "context": "2. Reverse proxy > Applies to every proxy",
+      "contextHash": "140d61f11d05b643c47646f5f6b62313a205de3254c8bda5b47690e0cda90eee",
+      "status": "translated",
+      "active": true,
+      "translation": "__TRILIUM_PH_0__WebSocketのアップグレードを転送します。__TRILIUM_PH_1__ Triliumは同期とライブUI更新にWebSocketを使用します。プロキシは__TRILIUM_PH_2__および__TRILIUM_PH_3__ヘッダーを通過させる必要があります。そうしないと、クライアントは読み込まれているように見えても更新を受信しません。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_c9b8b5256f5feb6877b6a386_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__Configure the trusted proxy.__TRILIUM_PH_1__ So that Trilium sees the real client IP (for rate limiting, logging, and secure cookies) rather than the proxy's address. See __TRILIUM_PH_2__Trusted proxy__TRILIUM_PH_3__.",
+      "sourceHash": "c9b8b5256f5feb6877b6a3863d5ca08fd247c7afd4de539c1732036b2b493895",
+      "context": "2. Reverse proxy > Applies to every proxy",
+      "contextHash": "140d61f11d05b643c47646f5f6b62313a205de3254c8bda5b47690e0cda90eee",
+      "status": "translated",
+      "active": true,
+      "translation": "__TRILIUM_PH_0__信頼されたプロキシを設定します。__TRILIUM_PH_1__ これにより、プロキシのアドレスではなく、実際のクライアントIP（レート制限、ログ記録、セキュアなCookie用）がTriliumに認識されます。__TRILIUM_PH_2__信頼されたプロキシ__TRILIUM_PH_3__を参照してください。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_8062f1f98d52ab2c71845662_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__Terminate TLS at the proxy.__TRILIUM_PH_1__ See __TRILIUM_PH_2__HTTPS (TLS)__TRILIUM_PH_3__.",
+      "sourceHash": "8062f1f98d52ab2c71845662f5d749bff16ef091419192f1aa0b3b50680ed964",
+      "context": "2. Reverse proxy > Applies to every proxy",
+      "contextHash": "140d61f11d05b643c47646f5f6b62313a205de3254c8bda5b47690e0cda90eee",
+      "status": "translated",
+      "active": true,
+      "translation": "__TRILIUM_PH_0__プロキシでTLSを終了させます。__TRILIUM_PH_1__ __TRILIUM_PH_2__HTTPS (TLS)__TRILIUM_PH_3__を参照してください。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_633cf0b19b9bf74130f95b7e_0",
+      "kind": "h2",
+      "source": "Putting an authentication proxy in front of Trilium__TRILIUM_PH_0__",
+      "sourceHash": "633cf0b19b9bf74130f95b7ee84aaf4ae53e29eb57093060b8aa0ef74fbc521a",
+      "context": "2. Reverse proxy > Putting an authentication proxy in front of Trilium",
+      "contextHash": "d5cd0178ac9b637fda10958b5fd2ae74618a20df74874ddce217ccea6515c802",
+      "status": "translated",
+      "active": true,
+      "translation": "Triliumの手前に認証プロキシを配置する場合__TRILIUM_PH_0__",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_5b048c9ce739859d9c11c10d_0",
+      "kind": "p",
+      "source": "Some setups place a __TRILIUM_PH_0__forward-auth / SSO layer__TRILIUM_PH_1__ (Authelia, Authentik, oauth2-proxy, or an OIDC plugin) at the proxy so that __TRILIUM_PH_2__every__TRILIUM_PH_3__ request must pass an interactive login first.",
+      "sourceHash": "5b048c9ce739859d9c11c10dbfff1c008224a43c89445b1e610fff5c2854358d",
+      "context": "2. Reverse proxy > Putting an authentication proxy in front of Trilium",
+      "contextHash": "d5cd0178ac9b637fda10958b5fd2ae74618a20df74874ddce217ccea6515c802",
+      "status": "translated",
+      "active": true,
+      "translation": "セットアップによっては、__TRILIUM_PH_0__フォワード認証 / SSOレイヤー__TRILIUM_PH_1__（Authelia、Authentik、oauth2-proxy、またはOIDCプラグイン）をプロキシに配置し、__TRILIUM_PH_2__すべての__TRILIUM_PH_3__リクエストが最初にインタラクティブなログインを通過するようにするものもあります。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_9f87e19042899e1047ca84ed_0",
+      "kind": "p",
+      "source": "This __TRILIUM_PH_0__breaks synchronization and initial setup.__TRILIUM_PH_1__ Sync is a machine-to-machine process that runs unattended in the background — it has no browser and cannot complete an interactive login challenge. When the proxy intercepts a sync request, it returns its HTML login page instead of the expected JSON, and the client fails with an error such as:",
+      "sourceHash": "9f87e19042899e1047ca84edbbfd80cdca019c6f5ed7a72b7722dbb87495664e",
+      "context": "2. Reverse proxy > Putting an authentication proxy in front of Trilium",
+      "contextHash": "d5cd0178ac9b637fda10958b5fd2ae74618a20df74874ddce217ccea6515c802",
+      "status": "translated",
+      "active": true,
+      "translation": "これにより、__TRILIUM_PH_0__同期と初期セットアップが中断されます。__TRILIUM_PH_1__ 同期はバックグラウンドで無人で実行されるマシン間プロセスであり、ブラウザを持たないため、インタラクティブなログインチャレンジを完了できません。プロキシが同期リクエストをインターセプトすると、想定されるJSONの代わりにHTMLログインページを返し、クライアントは次のようなエラーで失敗します。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_e1c2354765f0ff36ceafa0bb_0",
+      "kind": "p",
+      "source": "There are two ways to resolve this:",
+      "sourceHash": "e1c2354765f0ff36ceafa0bb982b924617b296814125d22d3c9448d1f228883d",
+      "context": "2. Reverse proxy > Putting an authentication proxy in front of Trilium",
+      "contextHash": "d5cd0178ac9b637fda10958b5fd2ae74618a20df74874ddce217ccea6515c802",
+      "status": "translated",
+      "active": true,
+      "translation": "これを解決するには2つの方法があります。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_9e47ec59fab4735c6794797a_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__Preferred, use Trilium's built-in authentication.__TRILIUM_PH_1__ Don't gate Trilium at the proxy at all. Trilium can authenticate the web interface itself, including via __TRILIUM_PH_2__OpenID Connect__TRILIUM_PH_3__. This leaves the sync endpoints free to authenticate the way they're designed to.",
+      "sourceHash": "9e47ec59fab4735c6794797a0a24a1061ba7683617a003d0ed6a0c9c1960846f",
+      "context": "2. Reverse proxy > Putting an authentication proxy in front of Trilium",
+      "contextHash": "d5cd0178ac9b637fda10958b5fd2ae74618a20df74874ddce217ccea6515c802",
+      "status": "translated",
+      "active": true,
+      "translation": "__TRILIUM_PH_0__推奨：Triliumの内蔵認証を使用してください。__TRILIUM_PH_1__ プロキシ側でTriliumにアクセス制限をかけないでください。Triliumは、__TRILIUM_PH_2__OpenID Connect__TRILIUM_PH_3__ を介したものを含め、Webインターフェースの認証を自身で行うことができます。これにより、同期エンドポイントは本来の設計通りに認証を行うことができます。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_51ae4a4d0775f62396950382_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__Exempt the sync endpoints from the proxy's authentication.__TRILIUM_PH_1__ If you must keep auth at the proxy, exclude these paths from the forward-auth check:",
+      "sourceHash": "51ae4a4d0775f623969503825d2308d6966e1949236c88e09f40fddc96109241",
+      "context": "2. Reverse proxy > Putting an authentication proxy in front of Trilium",
+      "contextHash": "d5cd0178ac9b637fda10958b5fd2ae74618a20df74874ddce217ccea6515c802",
+      "status": "translated",
+      "active": true,
+      "translation": "__TRILIUM_PH_0__同期エンドポイントをプロキシの認証から除外する。__TRILIUM_PH_1__ どうしてもプロキシで認証を維持する必要がある場合は、フォワード認証のチェックから以下のパスを除外してください：",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_6fc5f2221d11e6258d37e2a8_0",
+      "kind": "p",
+      "source": "This is safe: Trilium authenticates these endpoints itself. Sync uses a challenge-free HMAC handshake based on a shared secret, and the one-time setup seed request is password-protected — so exempting them at the proxy does not expose unauthenticated access to your data.",
+      "sourceHash": "6fc5f2221d11e6258d37e2a883c4a33c42ab873ff2987bb8a944cd48c04ed159",
+      "context": "2. Reverse proxy > Putting an authentication proxy in front of Trilium",
+      "contextHash": "d5cd0178ac9b637fda10958b5fd2ae74618a20df74874ddce217ccea6515c802",
+      "status": "translated",
+      "active": true,
+      "translation": "これは安全です。Triliumはこれらのエンドポイントの認証を自身で行います。同期には共有シークレットに基づくチャレンジフリーのHMACハンドシェイクが使用され、1回限りのセットアップ用シードリクエストはパスワードで保護されているため、プロキシでこれらを除外しても、認証されていないアクセスにデータがさらされることはありません。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_40f24cfca7fed7d255f13be1_0",
+      "kind": "p",
+      "source": "An example for Nginx, where __TRILIUM_PH_0__ is your forward-auth endpoint:",
+      "sourceHash": "40f24cfca7fed7d255f13be162bc93967cf8b6d52aa53fe9e26b207f395c2a51",
+      "context": "2. Reverse proxy > Putting an authentication proxy in front of Trilium",
+      "contextHash": "d5cd0178ac9b637fda10958b5fd2ae74618a20df74874ddce217ccea6515c802",
+      "status": "translated",
+      "active": true,
+      "translation": "Nginxの例です。__TRILIUM_PH_0__ はフォワード認証のエンドポイントです：",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    }
+  ],
+  "requests": [
+    {
+      "at": "2026-11-14T11:28:45.803Z",
+      "model": "gemini-3.5-flash-lite",
+      "batchJob": "batches/02spwqy837h8pi7qzqmeo4fgsqo7bgs45hwh",
+      "requestKey": "vcjrb3VVYPZI_bbf5a0affe0f5897",
+      "modelVersion": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 1581,
+        "candidatesTokenCount": 1195,
+        "totalTokenCount": 2776,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 1581
+          }
+        ],
+        "serviceTier": "standard"
+      }
+    },
+    {
+      "at": "2026-11-14T11:28:45.803Z",
+      "model": "gemini-3.5-flash-lite",
+      "batchJob": "batches/02spwqy837h8pi7qzqmeo4fgsqo7bgs45hwh",
+      "requestKey": "vcjrb3VVYPZI_58a447aee49cf234",
+      "modelVersion": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 725,
+        "candidatesTokenCount": 418,
+        "totalTokenCount": 1143,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 725
+          }
+        ],
+        "serviceTier": "standard"
+      }
+    }
+  ]
+}

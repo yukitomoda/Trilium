@@ -1,0 +1,79 @@
+{
+  "schemaVersion": 1,
+  "pageId": "72dxvnbnkDFY",
+  "sourceFile": "docs/User Guide/User Guide/Scripting/Breaking changes/v0.102.0 Upgrade to jQuery 4.0.0.md",
+  "sourceRevision": "03d17b60f59b5efc29b880b11481471d0fe0ff57",
+  "units": [
+    {
+      "id": "u_24bfd335140ce5c3baf0bcda_0",
+      "kind": "title",
+      "source": "v0.102.0: Upgrade to jQuery 4.0.0",
+      "sourceHash": "24bfd335140ce5c3baf0bcdac0f1a5a745a586bb874b3b9d03ff6a969d88e2e1",
+      "context": "v0.102.0: Upgrade to jQuery 4.0.0",
+      "contextHash": "f00eafe6bb1cf95108df9e3324eb8819f8307cfeb90461f41053dbf67f198241",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_8a48046b967026aaf42fa2c9_0",
+      "kind": "p",
+      "source": "jQuery 4 removes legacy browser support (such as IE11 support), but it also removes some APIs that are considered deprecated such as:",
+      "sourceHash": "8a48046b967026aaf42fa2c922457c1699565783d9e9888e6e7e42768ca56f00",
+      "context": "v0.102.0: Upgrade to jQuery 4.0.0",
+      "contextHash": "f00eafe6bb1cf95108df9e3324eb8819f8307cfeb90461f41053dbf67f198241",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_ee60f8e9d9033abca5abbfa8_0",
+      "kind": "p",
+      "source": "__TRILIUM_PH_0__, __TRILIUM_PH_1__, __TRILIUM_PH_2__, __TRILIUM_PH_3__, __TRILIUM_PH_4__, __TRILIUM_PH_5__, __TRILIUM_PH_6__, __TRILIUM_PH_7__, __TRILIUM_PH_8__, __TRILIUM_PH_9__, __TRILIUM_PH_10__, __TRILIUM_PH_11__, and __TRILIUM_PH_12__.",
+      "sourceHash": "ee60f8e9d9033abca5abbfa8c4afca81f8b56c9e395fa382c98ccad0df568849",
+      "context": "v0.102.0: Upgrade to jQuery 4.0.0",
+      "contextHash": "f00eafe6bb1cf95108df9e3324eb8819f8307cfeb90461f41053dbf67f198241",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_aea582d64f985b03d0feffbd_0",
+      "kind": "p",
+      "source": "Use native equivalents like __TRILIUM_PH_0__, __TRILIUM_PH_1__, __TRILIUM_PH_2__, and __TRILIUM_PH_3__ instead.",
+      "sourceHash": "aea582d64f985b03d0feffbd561f28dc4a843647a3ed7b94a02a44568939e73e",
+      "context": "v0.102.0: Upgrade to jQuery 4.0.0",
+      "contextHash": "f00eafe6bb1cf95108df9e3324eb8819f8307cfeb90461f41053dbf67f198241",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_98c6ec6d7982bffaf2cfb9fb_0",
+      "kind": "p",
+      "source": "This may affect custom scripts if they (or the custom jQuery libraries used) depend on the deprecated APIs.",
+      "sourceHash": "98c6ec6d7982bffaf2cfb9fbdcd5b25cf458366b002ee2b89674e304ce9c782d",
+      "context": "v0.102.0: Upgrade to jQuery 4.0.0",
+      "contextHash": "f00eafe6bb1cf95108df9e3324eb8819f8307cfeb90461f41053dbf67f198241",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_2dbf6505a2ef4bb220d24275_0",
+      "kind": "p",
+      "source": "Note that Trilium polyfills __TRILIUM_PH_0__, __TRILIUM_PH_1__ and __TRILIUM_PH_2__ because they were required by one of our dependencies (the autocomplete).",
+      "sourceHash": "2dbf6505a2ef4bb220d2427546635d7c19b406e75a2a1e96acd9612732cde259",
+      "context": "v0.102.0: Upgrade to jQuery 4.0.0",
+      "contextHash": "f00eafe6bb1cf95108df9e3324eb8819f8307cfeb90461f41053dbf67f198241",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_6ff2fd9b11b38fb19b5f0789_0",
+      "kind": "p",
+      "source": "For more information, consult __TRILIUM_PH_0__the official blog post__TRILIUM_PH_1__.",
+      "sourceHash": "6ff2fd9b11b38fb19b5f0789b322af2e4344a53dcf96563f060e237eb5b8c3b2",
+      "context": "v0.102.0: Upgrade to jQuery 4.0.0",
+      "contextHash": "f00eafe6bb1cf95108df9e3324eb8819f8307cfeb90461f41053dbf67f198241",
+      "status": "pending",
+      "active": true
+    }
+  ],
+  "requests": []
+}

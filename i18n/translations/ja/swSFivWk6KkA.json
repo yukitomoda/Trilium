@@ -1,0 +1,422 @@
+{
+  "schemaVersion": 1,
+  "pageId": "swSFivWk6KkA",
+  "sourceFile": "docs/User Guide/User Guide/Installation & Setup/Desktop Installation/Network Access.md",
+  "sourceRevision": "03d17b60f59b5efc29b880b11481471d0fe0ff57",
+  "units": [
+    {
+      "id": "u_a394e0d6d466cdfe6ec63ec7_0",
+      "kind": "title",
+      "source": "Network Access",
+      "sourceHash": "a394e0d6d466cdfe6ec63ec73ab8c6b8ad9ba4ca1d2b93238b3694fbb1ef8401",
+      "context": "Network Access",
+      "contextHash": "d1d90f97abb0a5ee89ac835f5fe5ccbdb5ff4d96b24dc1ab44635b7f1ae2252a",
+      "status": "translated",
+      "active": true,
+      "translation": "ネットワークアクセス",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_47279ff75256c827617d0e59_0",
+      "kind": "p",
+      "source": "Prior to v0.104.0, the __TRILIUM_PH_0__desktop application__TRILIUM_PH_1__ would also open a network port so that it can offer access to __TRILIUM_PH_2__ETAPI (REST API)__TRILIUM_PH_3__ or even use it as a web server (see __TRILIUM_PH_4__Using the desktop application as a server__TRILIUM_PH_5__).",
+      "sourceHash": "47279ff75256c827617d0e59786b88e989dad3032963152e3ab10e270c7a28e2",
+      "context": "Network Access",
+      "contextHash": "d1d90f97abb0a5ee89ac835f5fe5ccbdb5ff4d96b24dc1ab44635b7f1ae2252a",
+      "status": "translated",
+      "active": true,
+      "translation": "v0.104.0以前では、__TRILIUM_PH_0__デスクトップアプリケーション__TRILIUM_PH_1__もネットワークポートを開き、__TRILIUM_PH_2__ETAPI (REST API)__TRILIUM_PH_3__へのアクセスを提供したり、Webサーバーとして使用したりすることさえできました（__TRILIUM_PH_4__デスクトップアプリケーションをサーバーとして使用する__TRILIUM_PH_5__を参照してください）。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_5cf6f6e1a829a9150088d19a_0",
+      "kind": "p",
+      "source": "In order to reduce the attack surface, Trilium now enables these services only for the local device (e.g. __TRILIUM_PH_0__) instead of serving them over the LAN.",
+      "sourceHash": "5cf6f6e1a829a9150088d19a21553b42d64e414bfcd31b5bcadb7f93b4e3ae44",
+      "context": "Network Access",
+      "contextHash": "d1d90f97abb0a5ee89ac835f5fe5ccbdb5ff4d96b24dc1ab44635b7f1ae2252a",
+      "status": "translated",
+      "active": true,
+      "translation": "攻撃対象領域を減らすため、Triliumでは、LAN経由でサービスを提供するのではなく、ローカルデバイス（例：__TRILIUM_PH_0__）に対してのみこれらのサービスを有効にするようになりました。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_da8bd01b36a749b5c7a3c5bd_0",
+      "kind": "p",
+      "source": "To better understand what is affected, refer to the following table:",
+      "sourceHash": "da8bd01b36a749b5c7a3c5bdfb5daf4fee318782b95c5a26d5204bc9cdaf24a2",
+      "context": "Network Access",
+      "contextHash": "d1d90f97abb0a5ee89ac835f5fe5ccbdb5ff4d96b24dc1ab44635b7f1ae2252a",
+      "status": "translated",
+      "active": true,
+      "translation": "影響を受ける機能の詳細については、以下の表を参照してください。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_7bc7acf4e4f5f74e27413374_0",
+      "kind": "th",
+      "source": "Feature",
+      "sourceHash": "7bc7acf4e4f5f74e2741337469e28668c4561e7cb2925b9265cbee867bf9bbd8",
+      "context": "Network Access",
+      "contextHash": "d1d90f97abb0a5ee89ac835f5fe5ccbdb5ff4d96b24dc1ab44635b7f1ae2252a",
+      "status": "translated",
+      "active": true,
+      "translation": "機能",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_b9e654aa52d3af2439b10315_0",
+      "kind": "th",
+      "source": "Network access OFF",
+      "sourceHash": "b9e654aa52d3af2439b10315b43e9d8a548a0c0ec0938352842ad794a6a6691a",
+      "context": "Network Access",
+      "contextHash": "d1d90f97abb0a5ee89ac835f5fe5ccbdb5ff4d96b24dc1ab44635b7f1ae2252a",
+      "status": "translated",
+      "active": true,
+      "translation": "ネットワークアクセス OFF",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_1acb455e87b4c023df8ae182_0",
+      "kind": "th",
+      "source": "Network access ON",
+      "sourceHash": "1acb455e87b4c023df8ae1827121fa74d40f11485d9b89afec01bb392dc497f5",
+      "context": "Network Access",
+      "contextHash": "d1d90f97abb0a5ee89ac835f5fe5ccbdb5ff4d96b24dc1ab44635b7f1ae2252a",
+      "status": "translated",
+      "active": true,
+      "translation": "ネットワークアクセス ON",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_bb626252ae27388ed82180f0_0",
+      "kind": "td",
+      "source": "__TRILIUM_PH_0__Web Clipper__TRILIUM_PH_1__",
+      "sourceHash": "bb626252ae27388ed82180f0b07923b13a28053b986cbd488624cba449400f45",
+      "context": "Network Access",
+      "contextHash": "d1d90f97abb0a5ee89ac835f5fe5ccbdb5ff4d96b24dc1ab44635b7f1ae2252a",
+      "status": "translated",
+      "active": true,
+      "translation": "__TRILIUM_PH_0__Webクリッパー__TRILIUM_PH_1__",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_d82f6f5a2d4283657cdefce7_0",
+      "kind": "td",
+      "source": "🔒️ __TRILIUM_PH_0__ only (still accessible to the browser extension on the same device)",
+      "sourceHash": "d82f6f5a2d4283657cdefce72fd666dc7bf082a52e3de5a8a202489289304152",
+      "context": "Network Access",
+      "contextHash": "d1d90f97abb0a5ee89ac835f5fe5ccbdb5ff4d96b24dc1ab44635b7f1ae2252a",
+      "status": "translated",
+      "active": true,
+      "translation": "🔒️ __TRILIUM_PH_0__ のみ（同一デバイス上のブラウザ拡張機能からは引き続きアクセス可能）",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_4c9e574e1efd4aa918be30ee_0",
+      "kind": "td",
+      "source": "🌐 __TRILIUM_PH_0__ + LAN",
+      "sourceHash": "4c9e574e1efd4aa918be30ee85cd6b414d5aafc6f5eb8fd8fe2c96d3eb29e743",
+      "context": "Network Access",
+      "contextHash": "d1d90f97abb0a5ee89ac835f5fe5ccbdb5ff4d96b24dc1ab44635b7f1ae2252a",
+      "status": "translated",
+      "active": true,
+      "translation": "🌐 __TRILIUM_PH_0__ + LAN",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_9d3914f997e4dd3f87c08848_0",
+      "kind": "td",
+      "source": "__TRILIUM_PH_0__ETAPI (REST API)__TRILIUM_PH_1__",
+      "sourceHash": "9d3914f997e4dd3f87c088487edbad3430624e82c1f5e54ca37f0ed8a77f487c",
+      "context": "Network Access",
+      "contextHash": "d1d90f97abb0a5ee89ac835f5fe5ccbdb5ff4d96b24dc1ab44635b7f1ae2252a",
+      "status": "translated",
+      "active": true,
+      "translation": "__TRILIUM_PH_0__ETAPI (REST API)__TRILIUM_PH_1__",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_c661127e24dedf60376520d3_0",
+      "kind": "td",
+      "source": "🔒️ __TRILIUM_PH_0__ only",
+      "sourceHash": "c661127e24dedf60376520d375cf9ea1dab80e9bb8a44e6fddc6b04ba7c9ed92",
+      "context": "Network Access",
+      "contextHash": "d1d90f97abb0a5ee89ac835f5fe5ccbdb5ff4d96b24dc1ab44635b7f1ae2252a",
+      "status": "translated",
+      "active": true,
+      "translation": "🔒️ __TRILIUM_PH_0__ のみ",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_4c9e574e1efd4aa918be30ee_1",
+      "kind": "td",
+      "source": "🌐 __TRILIUM_PH_0__ + LAN",
+      "sourceHash": "4c9e574e1efd4aa918be30ee85cd6b414d5aafc6f5eb8fd8fe2c96d3eb29e743",
+      "context": "Network Access",
+      "contextHash": "d1d90f97abb0a5ee89ac835f5fe5ccbdb5ff4d96b24dc1ab44635b7f1ae2252a",
+      "status": "translated",
+      "active": true,
+      "translation": "🌐 __TRILIUM_PH_0__ + LAN",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_f1e50af9e907a9af46093d2f_0",
+      "kind": "td",
+      "source": "__TRILIUM_PH_0__LLM MCP__TRILIUM_PH_1__ (only if enabled in settings)",
+      "sourceHash": "f1e50af9e907a9af46093d2f17a54aa8552361e3f9d056e1ecdd5df96b97da7d",
+      "context": "Network Access",
+      "contextHash": "d1d90f97abb0a5ee89ac835f5fe5ccbdb5ff4d96b24dc1ab44635b7f1ae2252a",
+      "status": "translated",
+      "active": true,
+      "translation": "__TRILIUM_PH_0__LLM MCP__TRILIUM_PH_1__（設定で有効にしている場合のみ）",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_d44f7e07a2fd72ffd7259995_0",
+      "kind": "td",
+      "source": "🔒️ __TRILIUM_PH_0__ only (needs auth)",
+      "sourceHash": "d44f7e07a2fd72ffd72599951cf386745631799824e1aaa52430fe8067efa547",
+      "context": "Network Access",
+      "contextHash": "d1d90f97abb0a5ee89ac835f5fe5ccbdb5ff4d96b24dc1ab44635b7f1ae2252a",
+      "status": "translated",
+      "active": true,
+      "translation": "🔒️ __TRILIUM_PH_0__ のみ（認証が必要）",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_a7011eb48cc6af28f189fbc7_0",
+      "kind": "td",
+      "source": "🌐 __TRILIUM_PH_0__ + LAN (needs auth)",
+      "sourceHash": "a7011eb48cc6af28f189fbc7bf345594696d221f0f5727d83e0f8cde5dff06d1",
+      "context": "Network Access",
+      "contextHash": "d1d90f97abb0a5ee89ac835f5fe5ccbdb5ff4d96b24dc1ab44635b7f1ae2252a",
+      "status": "translated",
+      "active": true,
+      "translation": "🌐 __TRILIUM_PH_0__ + LAN（認証が必要）",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_78eb27e7b05a6ffe6721681d_0",
+      "kind": "td",
+      "source": "__TRILIUM_PH_0__Web app__TRILIUM_PH_1__",
+      "sourceHash": "78eb27e7b05a6ffe6721681d6bde0b32cf93865d3b1bfe6d4767c6f9e40246ca",
+      "context": "Network Access",
+      "contextHash": "d1d90f97abb0a5ee89ac835f5fe5ccbdb5ff4d96b24dc1ab44635b7f1ae2252a",
+      "status": "translated",
+      "active": true,
+      "translation": "__TRILIUM_PH_0__ウェブアプリ__TRILIUM_PH_1__",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_43f597ec31c335a8bd5cc080_0",
+      "kind": "td",
+      "source": "❌️ completely disabled (403), only the desktop app is usable.",
+      "sourceHash": "43f597ec31c335a8bd5cc0804c3d5a662cd89369122a301601f6cb5edf62fa5e",
+      "context": "Network Access",
+      "contextHash": "d1d90f97abb0a5ee89ac835f5fe5ccbdb5ff4d96b24dc1ab44635b7f1ae2252a",
+      "status": "translated",
+      "active": true,
+      "translation": "❌️ 完全無効 (403)。デスクトップアプリのみ使用可能です。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_4c9e574e1efd4aa918be30ee_2",
+      "kind": "td",
+      "source": "🌐 __TRILIUM_PH_0__ + LAN",
+      "sourceHash": "4c9e574e1efd4aa918be30ee85cd6b414d5aafc6f5eb8fd8fe2c96d3eb29e743",
+      "context": "Network Access",
+      "contextHash": "d1d90f97abb0a5ee89ac835f5fe5ccbdb5ff4d96b24dc1ab44635b7f1ae2252a",
+      "status": "translated",
+      "active": true,
+      "translation": "🌐 __TRILIUM_PH_0__ + LAN",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_9b148295971cc0f7e1d69fdd_0",
+      "kind": "td",
+      "source": "__TRILIUM_PH_0__Sharing__TRILIUM_PH_1__ notes",
+      "sourceHash": "9b148295971cc0f7e1d69fddca891cf87c98e66971a44299f2a7d612e624e5d3",
+      "context": "Network Access",
+      "contextHash": "d1d90f97abb0a5ee89ac835f5fe5ccbdb5ff4d96b24dc1ab44635b7f1ae2252a",
+      "status": "translated",
+      "active": true,
+      "translation": "ノートの__TRILIUM_PH_0__共有__TRILIUM_PH_1__",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_64f229a30b0014b7987383f3_0",
+      "kind": "td",
+      "source": "❌️ completely disabled (403), if you are using __TRILIUM_PH_0__Synchronization__TRILIUM_PH_1__ this will still work as part of the __TRILIUM_PH_2__server__TRILIUM_PH_3__.",
+      "sourceHash": "64f229a30b0014b7987383f351f7e0e349d4494ec2e193ea8c43efb90a8580ed",
+      "context": "Network Access",
+      "contextHash": "d1d90f97abb0a5ee89ac835f5fe5ccbdb5ff4d96b24dc1ab44635b7f1ae2252a",
+      "status": "translated",
+      "active": true,
+      "translation": "❌️ 完全無効 (403)。__TRILIUM_PH_0__同期__TRILIUM_PH_1__を使用している場合、これは__TRILIUM_PH_2__サーバー__TRILIUM_PH_3__の一部として引き続き機能します。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_4c9e574e1efd4aa918be30ee_3",
+      "kind": "td",
+      "source": "🌐 __TRILIUM_PH_0__ + LAN",
+      "sourceHash": "4c9e574e1efd4aa918be30ee85cd6b414d5aafc6f5eb8fd8fe2c96d3eb29e743",
+      "context": "Network Access",
+      "contextHash": "d1d90f97abb0a5ee89ac835f5fe5ccbdb5ff4d96b24dc1ab44635b7f1ae2252a",
+      "status": "translated",
+      "active": true,
+      "translation": "🌐 __TRILIUM_PH_0__ + LAN",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T11:28:45.803Z"
+    }
+  ],
+  "requests": [
+    {
+      "at": "2026-11-14T11:28:45.803Z",
+      "model": "gemini-3.5-flash-lite",
+      "batchJob": "batches/02spwqy837h8pi7qzqmeo4fgsqo7bgs45hwh",
+      "requestKey": "swSFivWk6KkA_22a4555abfdbd213",
+      "modelVersion": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 1234,
+        "candidatesTokenCount": 810,
+        "totalTokenCount": 2044,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 1234
+          }
+        ],
+        "serviceTier": "standard"
+      }
+    },
+    {
+      "at": "2026-11-14T11:28:45.803Z",
+      "model": "gemini-3.5-flash-lite",
+      "batchJob": "batches/02spwqy837h8pi7qzqmeo4fgsqo7bgs45hwh",
+      "requestKey": "swSFivWk6KkA_10f70c6b4135b5c2",
+      "modelVersion": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 681,
+        "candidatesTokenCount": 373,
+        "totalTokenCount": 1054,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 681
+          }
+        ],
+        "serviceTier": "standard"
+      }
+    }
+  ]
+}

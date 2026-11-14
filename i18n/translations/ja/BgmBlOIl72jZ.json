@@ -1,0 +1,249 @@
+{
+  "schemaVersion": 1,
+  "pageId": "BgmBlOIl72jZ",
+  "sourceFile": "docs/User Guide/User Guide/Troubleshooting.md",
+  "sourceRevision": "03d17b60f59b5efc29b880b11481471d0fe0ff57",
+  "units": [
+    {
+      "id": "u_b485142a769733ab72fdfbd9_0",
+      "kind": "title",
+      "source": "Troubleshooting",
+      "sourceHash": "b485142a769733ab72fdfbd92e81842d7f6469c0c329bacad3a3e67f5ff366e6",
+      "context": "Troubleshooting",
+      "contextHash": "c3af076f92c5ed8dcb0d0b0d36dd120bc31b68264efea96cf8019ca19f1c13a3",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_0fdb4cc54ca50ebd29e19497_0",
+      "kind": "p",
+      "source": "While Trilium is actively maintained and stable, encountering bugs is possible.",
+      "sourceHash": "0fdb4cc54ca50ebd29e194976cd3189b91600852679c767e02c37b9a4ced0513",
+      "context": "Troubleshooting",
+      "contextHash": "c3af076f92c5ed8dcb0d0b0d36dd120bc31b68264efea96cf8019ca19f1c13a3",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_dd3538cc686a62a6cf7db52c_0",
+      "kind": "h2",
+      "source": "General Quick Fix__TRILIUM_PH_0__",
+      "sourceHash": "dd3538cc686a62a6cf7db52c105d5d86a312a9571e4e50e5205ae8f402a32ee1",
+      "context": "Troubleshooting > General Quick Fix",
+      "contextHash": "0626ae8471d6bae63cef135f67831c4c240525e7c2f1397f2eb45d57ce6ef85c",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_db1dacea0cb7f11195a549da_0",
+      "kind": "p",
+      "source": "The first step in troubleshooting is often a restart.",
+      "sourceHash": "db1dacea0cb7f11195a549da3ac9c34c18a59492a1c3c961b6afcf30c50db6f7",
+      "context": "Troubleshooting > General Quick Fix",
+      "contextHash": "0626ae8471d6bae63cef135f67831c4c240525e7c2f1397f2eb45d57ce6ef85c",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_656c86d516536a0639a70762_0",
+      "kind": "p",
+      "source": "If you experience an UI issue, the frontend may have entered an inconsistent state. Reload the application by pressing __TRILIUM_PH_0__Ctrl__TRILIUM_PH_1__ + __TRILIUM_PH_2__R__TRILIUM_PH_3__. This will reload the frontend.",
+      "sourceHash": "656c86d516536a0639a70762df39082f70ca88e38cf371613c918b3fdff94157",
+      "context": "Troubleshooting > General Quick Fix",
+      "contextHash": "0626ae8471d6bae63cef135f67831c4c240525e7c2f1397f2eb45d57ce6ef85c",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_c15169c9078429ea5dec2530_0",
+      "kind": "p",
+      "source": "If the issue persists or appears to be a backend problem, restart the entire application. For the desktop (Electron) build, simply close and reopen the window. If you're using a Docker build, restart the container.",
+      "sourceHash": "c15169c9078429ea5dec25308c99a97f130d1bb423d5e42276b3b958e3a78a8b",
+      "context": "Troubleshooting > General Quick Fix",
+      "contextHash": "0626ae8471d6bae63cef135f67831c4c240525e7c2f1397f2eb45d57ce6ef85c",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_8973e3661c85c0d4c4c19c8f_0",
+      "kind": "h2",
+      "source": "Reporting Bugs__TRILIUM_PH_0__",
+      "sourceHash": "8973e3661c85c0d4c4c19c8fd0c203a8fc82a9b227ebbb0d00389ffc64f54b23",
+      "context": "Troubleshooting > Reporting Bugs",
+      "contextHash": "7d24ca7b879325687ceb1d2b763d40df3db53e064ec3d17e7ad42da84ce6a750",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_171b5021063674474b36ee8d_0",
+      "kind": "p",
+      "source": "Reporting bugs is highly valuable. Here are some tips:",
+      "sourceHash": "171b5021063674474b36ee8d54cb1f43b774f1d46e5f4af1c8598934431780cb",
+      "context": "Troubleshooting > Reporting Bugs",
+      "contextHash": "7d24ca7b879325687ceb1d2b763d40df3db53e064ec3d17e7ad42da84ce6a750",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_3a58ca5fa18b60f5da13eea4_0",
+      "kind": "li",
+      "source": "Use GitHub issues for reporting: __TRILIUM_PH_0__https://github.com/TriliumNext/Trilium/issues__TRILIUM_PH_1__",
+      "sourceHash": "3a58ca5fa18b60f5da13eea4a1449787cdf16a9999f9934ee02ca7a2a0d0a7e9",
+      "context": "Troubleshooting > Reporting Bugs",
+      "contextHash": "7d24ca7b879325687ceb1d2b763d40df3db53e064ec3d17e7ad42da84ce6a750",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_ce89112157a2c239b8738723_0",
+      "kind": "li",
+      "source": "Refer to the __TRILIUM_PH_0__error logs__TRILIUM_PH_1__ page for information on providing necessary details.",
+      "sourceHash": "ce89112157a2c239b87387239a7b1cbc3fdb161c46accafa9d3ffc983edcfecb",
+      "context": "Troubleshooting > Reporting Bugs",
+      "contextHash": "7d24ca7b879325687ceb1d2b763d40df3db53e064ec3d17e7ad42da84ce6a750",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_5168cd9fdbcd6dbddc5f52a1_0",
+      "kind": "summary",
+      "source": "Broken Note Crashes Trilium",
+      "sourceHash": "5168cd9fdbcd6dbddc5f52a1f9daaedf395fcdf64bc4a110b0f2335fa3446471",
+      "context": "Troubleshooting > Reporting Bugs",
+      "contextHash": "7d24ca7b879325687ceb1d2b763d40df3db53e064ec3d17e7ad42da84ce6a750",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_a4308fd1d59a9653113fe969_0",
+      "kind": "p",
+      "source": "Certain problems, such as rendering a note with a faulty script, can cause Trilium to crash. If Trilium attempts to reload the problematic note upon restart, it will continue to crash.",
+      "sourceHash": "a4308fd1d59a9653113fe969e01a4ace17f6c62321ada0d0315efa97579d7856",
+      "context": "Troubleshooting > Reporting Bugs",
+      "contextHash": "7d24ca7b879325687ceb1d2b763d40df3db53e064ec3d17e7ad42da84ce6a750",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_1f918ba0ac92f266b397488e_0",
+      "kind": "p",
+      "source": "To resolve this, use the __TRILIUM_PH_0__ environment variable to reset the open tabs to a single specified note ID (e.g., __TRILIUM_PH_1__). In Linux, you can set it as follows:",
+      "sourceHash": "1f918ba0ac92f266b397488e256ed835d8f02273049e69c8fd98a1b87bf5be04",
+      "context": "Troubleshooting > Reporting Bugs",
+      "contextHash": "7d24ca7b879325687ceb1d2b763d40df3db53e064ec3d17e7ad42da84ce6a750",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_6537029017f376581c304ad6_0",
+      "kind": "summary",
+      "source": "Broken Script Prevents Application Startup",
+      "sourceHash": "6537029017f376581c304ad633fa91b749fb3a120e4d52e069c9832eed889904",
+      "context": "Troubleshooting > Reporting Bugs",
+      "contextHash": "7d24ca7b879325687ceb1d2b763d40df3db53e064ec3d17e7ad42da84ce6a750",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_2e9281569c8f85fe97c46bd2_0",
+      "kind": "p",
+      "source": "If a custom script causes Trilium to crash, and it is set as a startup script or in an active __TRILIUM_PH_0__custom widget__TRILIUM_PH_1__, start Triliumin \"safe mode\" to prevent any custom scripts from executing:",
+      "sourceHash": "2e9281569c8f85fe97c46bd2e693f8ed34a76213b91e917748e38f5df7007f44",
+      "context": "Troubleshooting > Reporting Bugs",
+      "contextHash": "7d24ca7b879325687ceb1d2b763d40df3db53e064ec3d17e7ad42da84ce6a750",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_577584a5e1d3ff0b165e79ca_0",
+      "kind": "p",
+      "source": "Depending on your Trilium distribution, you may have pre-made scripts available: __TRILIUM_PH_0__ and __TRILIUM_PH_1__.",
+      "sourceHash": "577584a5e1d3ff0b165e79ca381f3193ad660d53a64949e795fff8c680d6b92e",
+      "context": "Troubleshooting > Reporting Bugs",
+      "contextHash": "7d24ca7b879325687ceb1d2b763d40df3db53e064ec3d17e7ad42da84ce6a750",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_99fbfae9566a7d2b803c7277_0",
+      "kind": "p",
+      "source": "Once Trilium starts, locate and fix or delete the problematic note.",
+      "sourceHash": "99fbfae9566a7d2b803c72771b6a623de08ae09f256850587408464d9ef7e821",
+      "context": "Troubleshooting > Reporting Bugs",
+      "contextHash": "7d24ca7b879325687ceb1d2b763d40df3db53e064ec3d17e7ad42da84ce6a750",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_bbfac54b2548a3d4f36bb989_0",
+      "kind": "summary",
+      "source": "Sync and Consistency Checks",
+      "sourceHash": "bbfac54b2548a3d4f36bb9899038e09853792d389de1b8bf7b0b173ad893c7cb",
+      "context": "Troubleshooting > Reporting Bugs",
+      "contextHash": "7d24ca7b879325687ceb1d2b763d40df3db53e064ec3d17e7ad42da84ce6a750",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_284babf703749c02874a3925_0",
+      "kind": "p",
+      "source": "Trilium periodically verifies the logical consistency of the database (e.g., ensuring every note has a parent). If inconsistencies are detected, you will be notified via the UI.",
+      "sourceHash": "284babf703749c02874a3925ae41b8389dfce996745ed9bdb6503e391c297d01",
+      "context": "Troubleshooting > Reporting Bugs",
+      "contextHash": "7d24ca7b879325687ceb1d2b763d40df3db53e064ec3d17e7ad42da84ce6a750",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_154ecf846e0e47571944ddbc_0",
+      "kind": "p",
+      "source": "In such cases, file a bug report and attach an __TRILIUM_PH_0__anonymized database__TRILIUM_PH_1__ if necessary.",
+      "sourceHash": "154ecf846e0e47571944ddbc500d39d9cec8c5354c3d684373ff7efb8c35ae3f",
+      "context": "Troubleshooting > Reporting Bugs",
+      "contextHash": "7d24ca7b879325687ceb1d2b763d40df3db53e064ec3d17e7ad42da84ce6a750",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_4f4ad60e8959c20045c35883_0",
+      "kind": "summary",
+      "source": "Restoring Backup",
+      "sourceHash": "4f4ad60e8959c20045c35883c2cfdd47b23aa5b703f625cd0485c93363c47585",
+      "context": "Troubleshooting > Reporting Bugs",
+      "contextHash": "7d24ca7b879325687ceb1d2b763d40df3db53e064ec3d17e7ad42da84ce6a750",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_82220c70e0b7cbfa39454547_0",
+      "kind": "p",
+      "source": "Trilium makes regular automatic backups. If issues become severe, you can __TRILIUM_PH_0__restore from a backup__TRILIUM_PH_1__.",
+      "sourceHash": "82220c70e0b7cbfa394545475014bfba838d86fd9ae1d15da066ce049cbfc3c0",
+      "context": "Troubleshooting > Reporting Bugs",
+      "contextHash": "7d24ca7b879325687ceb1d2b763d40df3db53e064ec3d17e7ad42da84ce6a750",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_09cfc19c2262e6f8e8f7948b_0",
+      "kind": "summary",
+      "source": "Forgotten Password",
+      "sourceHash": "09cfc19c2262e6f8e8f7948b377f0c8a88934ecd2b13a419aa95699ef8d27e79",
+      "context": "Troubleshooting > Reporting Bugs",
+      "contextHash": "7d24ca7b879325687ceb1d2b763d40df3db53e064ec3d17e7ad42da84ce6a750",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_97fc3d074a49bd46d427c01e_0",
+      "kind": "p",
+      "source": "See __TRILIUM_PH_0__Resetting your password__TRILIUM_PH_1__.",
+      "sourceHash": "97fc3d074a49bd46d427c01e13736dcffa8f751f9fb484b2be83b7d7078a656a",
+      "context": "Troubleshooting > Reporting Bugs",
+      "contextHash": "7d24ca7b879325687ceb1d2b763d40df3db53e064ec3d17e7ad42da84ce6a750",
+      "status": "pending",
+      "active": true
+    }
+  ],
+  "requests": []
+}
