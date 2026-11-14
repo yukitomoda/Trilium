@@ -1,4 +1,4 @@
-/** A small, API-free preview using the production Trilium share exporter. */
+/** API-free documentation build using the production Trilium share exporter. */
 import { execFileSync } from "node:child_process";
 import { cp, mkdir, readdir, readFile, rm, writeFile } from "node:fs/promises";
 import { dirname, join, relative, resolve } from "node:path";
@@ -24,7 +24,11 @@ async function main() {
     if (![ "identity", "translation" ].includes(mode)) throw new Error("Invalid build mode");
     const source = resolve(root, config.sourceDirectory);
     const meta: NoteMetaFile = JSON.parse(await readFile(join(source, "!!!meta.json"), "utf8"));
-    const selected = new Set<string>(config.pageIds);
+    if (config.pageIds !== "all" && (!Array.isArray(config.pageIds)
+        || !config.pageIds.length || !config.pageIds.every((id: unknown) => typeof id === "string"))) {
+        throw new Error('pageIds must be "all" or a non-empty array of page IDs');
+    }
+    const selected = new Set<string>(config.pageIds === "all" ? [] : config.pageIds);
     const records = new Map<string, { note: NoteMeta; directory: string; url: string }>();
     const sourcePaths = new Map<string, string>();
 
@@ -34,8 +38,10 @@ async function main() {
             const alias = note.attributes?.find((a) => a.name === "shareAlias")?.value
                 ?? sanitize(note.title ?? note.noteId);
             const url = `${parentUrl}/${encodeURIComponent(alias)}`;
-            // Clones can have multiple paths; retain the first canonical page URL.
-            if (!records.has(note.noteId)) records.set(note.noteId, { note, directory, url });
+            // Prefer the original location over a clone's placeholder document.
+            if (!records.has(note.noteId) || (records.get(note.noteId)!.note.isClone && !note.isClone)) {
+                records.set(note.noteId, { note, directory, url });
+            }
             if (note.dataFileName) {
                 sourcePaths.set(resolve(source, directory, note.dataFileName), note.noteId);
             }
@@ -46,6 +52,7 @@ async function main() {
         }
     }
     index(meta.files, "", "");
+    if (config.pageIds === "all") for (const id of records.keys()) selected.add(id);
     for (const id of selected) {
         const record = records.get(id);
         if (!record) throw new Error(`Unknown page ID: ${id}`);
@@ -72,7 +79,9 @@ async function main() {
     async function prepare(notes: NoteMeta[], directory: string): Promise<NoteMeta[]> {
         const result: NoteMeta[] = [];
         for (const original of notes) {
-            if (!original.noteId || !selected.has(original.noteId)) continue;
+            // Clone files contain pointers rather than prose. Links resolve to the original;
+            // importing clone placeholders can create the note before its labels are applied.
+            if (original.isClone || !original.noteId || !selected.has(original.noteId)) continue;
             const record = records.get(original.noteId)!;
             const note = structuredClone(original);
             note.children = await prepare(
@@ -98,6 +107,15 @@ async function main() {
                 });
                 for (const anchor of window.document.querySelectorAll("a[href]")) {
                     const href = anchor.getAttribute("href")!;
+                    if (href.startsWith("#root/")) {
+                        const id = href.split("/").at(-1)!;
+                        const target = records.get(id === "_help" ? meta.files[0].noteId! : id);
+                        const local = target && localPages.get(documentationPageKey(target.url));
+                        anchor.classList.remove("reference-link");
+                        if (local) anchor.setAttribute("href", local);
+                        else anchor.removeAttribute("href");
+                        continue;
+                    }
                     const localized = localizeDocumentationLink(href, localPages);
                     if (localized !== null) {
                         anchor.classList.remove("reference-link");
@@ -128,11 +146,16 @@ async function main() {
                     window.document.body.innerHTML
                 );
                 await window.happyDOM.close();
-                pages.push({
-                    noteId: note.noteId, title: note.title, path: record.url,
+                if (!pages.some((page) => page.noteId === note.noteId)) pages.push({
+                    noteId: original.noteId, title: note.title ?? "", path: record.url,
                     sourceUrl: `https://docs.triliumnotes.org${record.url}`,
                     sourceFile: relative(root, file), revision, mode
                 });
+            }
+            if (!original.dataFileName) {
+                pages.push({ noteId: original.noteId, title: note.title ?? "", path: record.url,
+                    sourceUrl: `https://docs.triliumnotes.org${record.url}`,
+                    sourceFile: relative(root, join(source, "!!!meta.json")), revision, mode });
             }
             for (const attachment of original.attachments ?? []) {
                 await mkdir(join(generated, "input", directory), { recursive: true });
@@ -200,7 +223,7 @@ async function main() {
         snapshot.pages.push({ pageId: page.noteId, title: page.title, path: page.path,
             sourceFile: page.sourceFile,
             sourceHash: hash(await readFile(join(root, page.sourceFile), "utf8")),
-            html: await readFile(join(output, path), "utf8") });
+            html: await readFile(join(output, decodeURIComponent(path)), "utf8") });
     }
     await writeFile(join(generated, "pages.json"), JSON.stringify(snapshot, null, 2));
     if (mode === "translation") await applySavedTranslations(root, output, snapshot, config.model);

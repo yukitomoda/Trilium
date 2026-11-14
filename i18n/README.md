@@ -3,7 +3,10 @@
 原文は `docs/` に保ち、翻訳の正本は `translations/ja/<ページID>.json` に保存します。
 このディレクトリは Git 管理対象です。生成された HTML だけを編集しないでください。
 
-初期対象は User Guide、Quick Start、FAQ、Note Types の4ページです。
+対象は User Guide 全ページです。設定ファイルの `pageIds: "all"` により、
+原文メタデータに追加されたページも対象になります。特定ページだけ試す場合は、
+`pageIds` にページIDの配列を指定できます。
+Developer Guide と Release Notes は今回の対象に含めません。
 対象とモデルは `apps/build-docs/translation-preview/config.json` で設定します。
 モデルの初期値は `gemini-3.5-flash-lite` です。
 Google公式の `@google/genai` SDKから **Gemini Batch API** を呼び出します。

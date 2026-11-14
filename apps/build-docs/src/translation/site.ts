@@ -1,7 +1,7 @@
 import { readFile, writeFile } from "node:fs/promises";
 import { join } from "node:path";
 
-import { type HTMLElement, Window } from "happy-dom";
+import { type Node, Window } from "happy-dom";
 
 import { type Conditions,loadMemory, reconcile, usableTranslations } from "./memory";
 import { extractPage, hash } from "./segments";
@@ -32,12 +32,28 @@ export async function translationSettings(root: string, model: string) {
     return { prompt, glossary, conditions };
 }
 
+/** Search needs text and paragraph boundaries, without expensive CSS layout on every page. */
+export function searchText(body: Node) {
+    const parts: string[] = [];
+    function visit(node: Node) {
+        if ([ "SCRIPT", "STYLE", "TEMPLATE" ].includes(node.nodeName)) return;
+        if (node.nodeType === 3) { parts.push(node.textContent ?? ""); return; }
+        const block = /^(?:DIV|P|H[1-6]|UL|OL|LI|TABLE|TR|TD|TH|PRE|BLOCKQUOTE|BR|HR|SECTION|ASIDE|DL|DT|DD)$/
+            .test(node.nodeName);
+        if (block) parts.push(" ");
+        for (const child of node.childNodes) visit(child);
+        if (block) parts.push(" ");
+    }
+    visit(body);
+    return parts.join("").replace(/\s+/g, " ").trim();
+}
+
 export async function applySavedTranslations(
     root: string, output: string, snapshot: Snapshot, model: string
 ) {
     const { conditions } = await translationSettings(root, model);
     const titles = new Map<string, { source: string; translated: string }>();
-    const results: { path: string; html: string }[] = [];
+    const results: { path: string; html: string; content: string }[] = [];
     for (const page of snapshot.pages) {
         const document = extractPage(page.html, page.title);
         const memory = reconcile(await loadMemory(join(root,
@@ -78,8 +94,12 @@ export async function applySavedTranslations(
             if (heading) anchor.textContent = heading.textContent;
         }
         // The English snapshot template is intentionally left untouched.
-        results.push({ path: page.path, html: doc.documentElement.outerHTML });
+        results.push({ path: page.path, html: doc.documentElement.outerHTML,
+            content: searchText(body) });
         await window.happyDOM.close();
+        if (snapshot.pages.length > 50 && results.length % 50 === 0) {
+            console.log(`Prepared translations: ${results.length}/${snapshot.pages.length} pages`);
+        }
     }
     for (const result of results) {
         const window = new Window();
@@ -104,7 +124,7 @@ export async function applySavedTranslations(
         const full = `<!DOCTYPE html>\n${  doc.documentElement.outerHTML}`;
         const path = result.path === "/user-guide"
             ? "user-guide/index.html" : `${result.path.slice(1)  }.html`;
-        await writeFile(join(output, path), full);
+        await writeFile(join(output, decodeURIComponent(path)), full);
         if (result.path === "/user-guide") {
             await writeFile(join(output, "user-guide/user-guide.html"), full);
         }
@@ -115,21 +135,15 @@ export async function applySavedTranslations(
     const search = JSON.parse(await readFile(indexPath, "utf8"));
     for (const entry of search) {
         const page = snapshot.pages.find((page) => page.pageId === entry.id
-            || entry.id === (page.path === "/user-guide" ? "user-guide.html"
-                : `${page.path.replace(/^\/user-guide\/?/, "")  }.html`));
+            || decodeURI(entry.id) === (page.path === "/user-guide" ? "user-guide.html"
+                : `${decodeURI(page.path).replace(/^\/user-guide\/?/, "")  }.html`));
         if (!page) continue;
-        const path = page.path === "/user-guide"
-            ? "user-guide/index.html" : `${page.path.slice(1)  }.html`;
-        const window = new Window();
-        window.document.write(await readFile(join(output, path), "utf8"));
         entry.title = titles.get(page.path)!.translated;
-        entry.content = (window.document.querySelector("#translation-body") as HTMLElement)
-            .innerText.replace(/\s+/g, " ").trim();
+        entry.content = results.find((result) => result.path === page.path)!.content;
         entry.path = entry.path.split(" / ").map((part: string) => {
             const title = [ ...titles.values() ].find((title) => title.source === part);
             return title?.translated ?? part;
         }).join(" / ");
-        await window.happyDOM.close();
     }
     await writeFile(indexPath, JSON.stringify(search, null, 2));
 }

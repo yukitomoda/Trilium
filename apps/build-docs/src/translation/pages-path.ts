@@ -19,7 +19,6 @@ export function prefixRootUrl(value: string, basePath: string) {
 /** Runs after translation so deployment paths never change translation-memory IDs. */
 export async function applyPagesBasePath(directory: string, basePath: string) {
     if (!basePath) return;
-    const window = new Window();
     function rewrite(root: Document | DocumentFragment) {
         for (const element of root.querySelectorAll("[href], [src], [poster], [action]")) {
             for (const name of [ "href", "src", "poster", "action" ]) {
@@ -41,13 +40,16 @@ export async function applyPagesBasePath(directory: string, basePath: string) {
             const file = join(path, entry.name);
             if (entry.isDirectory()) await visit(file);
             else if (entry.name.endsWith(".html")) {
-                const document = new window.DOMParser().parseFromString(
-                    await readFile(file, "utf8"), "text/html"
-                );
-                rewrite(document);
-                await writeFile(file, `<!DOCTYPE html>\n${  document.documentElement.outerHTML}`);
+                const window = new Window();
+                try {
+                    const document = new window.DOMParser().parseFromString(
+                        await readFile(file, "utf8"), "text/html"
+                    );
+                    rewrite(document);
+                    await writeFile(file, `<!DOCTYPE html>\n${  document.documentElement.outerHTML}`);
+                } finally { await window.happyDOM.close(); }
             }
         }
     }
-    try { await visit(directory); } finally { await window.happyDOM.close(); }
+    await visit(directory);
 }

@@ -8,7 +8,7 @@ import { Window } from "happy-dom";
 
 import { pendingUnits, reconcile, saveMemory } from "./memory";
 import { extractPage } from "./segments";
-import { applySavedTranslations, type Snapshot, translationSettings } from "./site";
+import { applySavedTranslations, searchText, type Snapshot, translationSettings } from "./site";
 
 void test("saved Japanese memory updates pages, navigation, TOC and search offline", async () => {
     const root = await mkdtemp(join(tmpdir(), "trilium-site-"));
@@ -33,7 +33,9 @@ void test("saved Japanese memory updates pages, navigation, TOC and search offli
                     title: "Guide", path: "/user-guide", html: makeHtml("Guide") },
                 { pageId: "quick", sourceFile: "quick.md", sourceHash: "source",
                     title: "Quick Start", path: "/user-guide/quick-start",
-                    html: makeHtml("Quick Start") }
+                    html: makeHtml("Quick Start") },
+                { pageId: "spaced", sourceFile: "spaced.md", sourceHash: "source",
+                    title: "Guide", path: "/user-guide/With%20spaces", html: makeHtml("Guide") }
             ]
         };
         const { conditions } = await translationSettings(root, "gemini-3.5-flash-lite");
@@ -56,7 +58,8 @@ void test("saved Japanese memory updates pages, navigation, TOC and search offli
         await writeFile(join(root, "site/user-guide/search-index.json"), JSON.stringify([
             { id: "user-guide.html", title: "Guide", content: "English", path: "Guide" },
             { id: "quick-start.html", title: "Quick Start", content: "English",
-                path: "Guide / Quick Start" }
+                path: "Guide / Quick Start" },
+            { id: "With spaces.html", title: "Guide", content: "English", path: "Guide" }
         ]));
         await applySavedTranslations(root, join(root, "site"), snapshot, conditions.model);
         const html = await readFile(join(root, "site/user-guide/index.html"), "utf8");
@@ -76,10 +79,24 @@ void test("saved Japanese memory updates pages, navigation, TOC and search offli
         assert.equal(search[0].title, "ガイド");
         assert.equal(search[1].title, "クイックスタート");
         assert.equal(search[1].path, "ガイド / クイックスタート");
+        assert.equal(search[2].title, "ガイド");
+        assert.match(search[2].content, /こちらを読んでください/);
+        assert.match(await readFile(join(root, "site/user-guide/With spaces.html"), "utf8"),
+            /こちらを読んでください/);
         assert.match(search[0].content, /こちらを読んでください/);
         assert.ok(!search[0].content.includes("Read this"));
     } finally {
         await window.happyDOM.close();
         await rm(root, { recursive: true, force: true });
     }
+});
+
+void test("search text preserves inline words and block boundaries without CSS layout", async () => {
+    const window = new Window();
+    try {
+        window.document.body.innerHTML = `<p>Read <strong>this</strong>.</p><p>Next line.</p>
+            <pre>code\nexample</pre><script>do not index</script>
+            <template>hidden original</template>`;
+        assert.equal(searchText(window.document.body), "Read this. Next line. code example");
+    } finally { await window.happyDOM.close(); }
 });
