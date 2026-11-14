@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "pageId": "gMkgcLJ6jBkg",
   "sourceFile": "docs/User Guide/User Guide/Scripting/Frontend Basics/Custom Widgets/Troubleshooting.md",
-  "sourceRevision": "03d17b60f59b5efc29b880b11481471d0fe0ff57",
+  "sourceRevision": "bbc6051da7fab504dac8c69279859c8cb9c61eef",
   "units": [
     {
       "id": "u_b485142a769733ab72fdfbd9_0",
@@ -11,8 +11,15 @@
       "sourceHash": "b485142a769733ab72fdfbd92e81842d7f6469c0c329bacad3a3e67f5ff366e6",
       "context": "Troubleshooting",
       "contextHash": "c3af076f92c5ed8dcb0d0b0d36dd120bc31b68264efea96cf8019ca19f1c13a3",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "トラブルシューティング",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_f9ea39d577c5ac89c8320015_0",
@@ -21,8 +28,15 @@
       "sourceHash": "f9ea39d577c5ac89c83200159f3047e279a637ca18ba3f0d3c3de3cbc0517edc",
       "context": "Troubleshooting > Why is my widget clipped by other UI elements",
       "contextHash": "629e21340bacab1aa6dac6c6db72f15881dfcb73136c120f1b344aec3cf8ccd8",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "ウィジェットが他のUI要素によって切り取られてしまうのはなぜですか？__TRILIUM_PH_0__",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_37c8756c90beeaaa09973cae_0",
@@ -31,8 +45,15 @@
       "sourceHash": "37c8756c90beeaaa09973cae35e380c1e6fe3d7d42b3dd2722e78e32e8596bf0",
       "context": "Troubleshooting > Why is my widget clipped by other UI elements",
       "contextHash": "629e21340bacab1aa6dac6c6db72f15881dfcb73136c120f1b344aec3cf8ccd8",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "パフォーマンスとレイアウト上の理由から、Triliumにおけるウィジェットのサイズは子要素とは独立しています。CSSレベルでは、これはウィジェットコンテナに __TRILIUM_PH_0__ が適用されていることを意味します。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_13975086a7294b0dc003fa5b_0",
@@ -41,8 +62,15 @@
       "sourceHash": "13975086a7294b0dc003fa5ba57cf285f09cf6e4e1096d27a1a4286219b0817e",
       "context": "Troubleshooting > Why is my widget clipped by other UI elements",
       "contextHash": "629e21340bacab1aa6dac6c6db72f15881dfcb73136c120f1b344aec3cf8ccd8",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "ウィジェットのサイズが固定（または親コンテナに基づく）である場合はこれでうまく機能しますが、ウィジェットのサイズをコンテンツに合わせて変更させるには、次の変更を適用してください。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_492eda0b47b86ae29de6ba24_0",
@@ -51,9 +79,36 @@
       "sourceHash": "492eda0b47b86ae29de6ba2495fe9204d47e375ddd23e065c7d88ed0dcd0c2d2",
       "context": "Troubleshooting > Why is my widget clipped by other UI elements",
       "contextHash": "629e21340bacab1aa6dac6c6db72f15881dfcb73136c120f1b344aec3cf8ccd8",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "または、そのCSSに __TRILIUM_PH_0__ を適用してください。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     }
   ],
-  "requests": []
+  "requests": [
+    {
+      "at": "2026-11-14T14:14:05.465Z",
+      "model": "gemini-3.5-flash-lite",
+      "batchJob": "batches/8vehrrvdpag09tp4gjf9dbgj006t9k2gkkyl",
+      "requestKey": "gMkgcLJ6jBkg_4e1c9aefe4fc4e32",
+      "modelVersion": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 646,
+        "candidatesTokenCount": 323,
+        "totalTokenCount": 969,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 646
+          }
+        ],
+        "serviceTier": "standard"
+      }
+    }
+  ]
 }

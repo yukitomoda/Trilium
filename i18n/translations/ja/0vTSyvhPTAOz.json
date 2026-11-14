@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "pageId": "0vTSyvhPTAOz",
   "sourceFile": "docs/User Guide/!!!meta.json",
-  "sourceRevision": "03d17b60f59b5efc29b880b11481471d0fe0ff57",
+  "sourceRevision": "bbc6051da7fab504dac8c69279859c8cb9c61eef",
   "units": [
     {
       "id": "u_0b89ff473cb65f1b4a16ac8c_0",
@@ -11,9 +11,36 @@
       "sourceHash": "0b89ff473cb65f1b4a16ac8c7e1bbcd9d3f2d8de4025a9363d39b647047c60df",
       "context": "Internal API",
       "contextHash": "786e4794a5ba669a99d56805fd1eed5ba4721df843a971e49a087d817b691c75",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "内部 API",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     }
   ],
-  "requests": []
+  "requests": [
+    {
+      "at": "2026-11-14T14:14:05.465Z",
+      "model": "gemini-3.5-flash-lite",
+      "batchJob": "batches/8vehrrvdpag09tp4gjf9dbgj006t9k2gkkyl",
+      "requestKey": "0vTSyvhPTAOz_4d499f2f5b85a9a9",
+      "modelVersion": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 356,
+        "candidatesTokenCount": 61,
+        "totalTokenCount": 417,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 356
+          }
+        ],
+        "serviceTier": "standard"
+      }
+    }
+  ]
 }

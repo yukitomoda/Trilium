@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "pageId": "B2ORr7OVEZtc",
   "sourceFile": "docs/User Guide/User Guide/Advanced Usage/Snippets.md",
-  "sourceRevision": "03d17b60f59b5efc29b880b11481471d0fe0ff57",
+  "sourceRevision": "bbc6051da7fab504dac8c69279859c8cb9c61eef",
   "units": [
     {
       "id": "u_d5d3861f44633598685e3ac7_0",
@@ -11,8 +11,15 @@
       "sourceHash": "d5d3861f44633598685e3ac74c5f876056016139db72accce0134db35a2ffd89",
       "context": "Snippets",
       "contextHash": "ff717209de745aa29c21f1efb08f907102b354c94d37f29e011742c8af28bb53",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "スニペット",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_2fa7fcf0222b56fee96a5e5a_0",
@@ -21,9 +28,36 @@
       "sourceHash": "2fa7fcf0222b56fee96a5e5ac86961324fb163726c60f722b859ad7d8639ad0e",
       "context": "Snippets",
       "contextHash": "ff717209de745aa29c21f1efb08f907102b354c94d37f29e011742c8af28bb53",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "スニペットを使用すると、再利用可能なテキスト、Markdown、またはコードの断片を定義し、ノートに素早く挿入することができます。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     }
   ],
-  "requests": []
+  "requests": [
+    {
+      "at": "2026-11-14T14:14:05.465Z",
+      "model": "gemini-3.5-flash-lite",
+      "batchJob": "batches/8vehrrvdpag09tp4gjf9dbgj006t9k2gkkyl",
+      "requestKey": "B2ORr7OVEZtc_a8a4d989888bdbc3",
+      "modelVersion": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 413,
+        "candidatesTokenCount": 118,
+        "totalTokenCount": 531,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 413
+          }
+        ],
+        "serviceTier": "standard"
+      }
+    }
+  ]
 }

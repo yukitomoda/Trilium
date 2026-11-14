@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "pageId": "NdowYOC1GFKS",
   "sourceFile": "docs/User Guide/User Guide/Note Types/Text/Tables.md",
-  "sourceRevision": "03d17b60f59b5efc29b880b11481471d0fe0ff57",
+  "sourceRevision": "bbc6051da7fab504dac8c69279859c8cb9c61eef",
   "units": [
     {
       "id": "u_a21e8379a182768471c1226e_0",
@@ -331,8 +331,15 @@
       "sourceHash": "fbc508f10ba328215d71ca1a3dcda8a6a65f009eda04110162f4c0753e76b03f",
       "context": "Tables > Context menu",
       "contextHash": "0f3c10ac0590f592f083a509728fc9baff6476658a2152db1b623f3cf0262125",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "クリップボードセクションの下にある __TRILIUM_PH_0__Sort__TRILIUM_PH_1__ では、現在のセルの列を基準にして、__TRILIUM_PH_2__Ascending__TRILIUM_PH_3__ または __TRILIUM_PH_4__Descending__TRILIUM_PH_5__ の順序で行を並べ替えます。__TRILIUM_PH_6__Sorting rows__TRILIUM_PH_7__ を参照してください。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_4e8ba47fb3a1fea61ad11c88_0",
@@ -341,8 +348,15 @@
       "sourceHash": "4e8ba47fb3a1fea61ad11c887d05b4d4d45544a834afa3036b188239d70a3f67",
       "context": "Tables > Context menu",
       "contextHash": "0f3c10ac0590f592f083a509728fc9baff6476658a2152db1b623f3cf0262125",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "__TRILIUM_PH_0__Sort__TRILIUM_PH_1__ の下にある __TRILIUM_PH_2__Delete row__TRILIUM_PH_3__ および __TRILIUM_PH_4__Delete column__TRILIUM_PH_5__ は、一部のセルしか選択されていない場合でも、選択範囲が触れているすべての行または列を削除します。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_474d80f826060bf3b754440e_0",
@@ -351,8 +365,15 @@
       "sourceHash": "474d80f826060bf3b754440eb0711de1ee2af3a51b9ac9a9ab20ba9be67b5eb9",
       "context": "Tables > Context menu",
       "contextHash": "0f3c10ac0590f592f083a509728fc9baff6476658a2152db1b623f3cf0262125",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "__TRILIUM_PH_0__Delete table__TRILIUM_PH_1__ はテーブル全体を削除し、その場所に空の段落を残します。別のテーブルの内部に入れ子にされているテーブルの場合、内側のテーブルのみが削除されます。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_d13727abd786c3e9e721fd01_0",
@@ -361,8 +382,15 @@
       "sourceHash": "d13727abd786c3e9e721fd0158c9d9402a657c7382ce53da112faf42c143364a",
       "context": "Tables > Context menu",
       "contextHash": "0f3c10ac0590f592f083a509728fc9baff6476658a2152db1b623f3cf0262125",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "v0.107.0 以降、__TRILIUM_PH_0__Delete table__TRILIUM_PH_1__ の下にある __TRILIUM_PH_2__Select__TRILIUM_PH_3__ は、選択範囲が触れているすべての行（__TRILIUM_PH_4__Row__TRILIUM_PH_5__）または列（__TRILIUM_PH_6__Column__TRILIUM_PH_7__）のセル、あるいはテーブルのすべてのセル（__TRILIUM_PH_8__Table__TRILIUM_PH_9__）を選択します。テーブル全体を選択する __TRILIUM_PH_10__ ボタンとは異なり、__TRILIUM_PH_11__Table__TRILIUM_PH_12__ はそのセルを選択するため、__TRILIUM_PH_13__Merge cells__TRILIUM_PH_14__ などのセル操作がそれらすべてに適用されます。別のテーブルの内部に入れ子になっているテーブルの場合、__TRILIUM_PH_15__Table__TRILIUM_PH_16__ は内側のテーブルのセルのみを選択します。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_c6510ac3f4314a6307bd4935_0",
@@ -371,8 +399,15 @@
       "sourceHash": "c6510ac3f4314a6307bd4935f60918e84a432ae583cb0b1349c96f3f70b68828",
       "context": "Tables > Context menu",
       "contextHash": "0f3c10ac0590f592f083a509728fc9baff6476658a2152db1b623f3cf0262125",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "現在の選択範囲に含まれていないセルを右クリックすると、まずそこにカーソルが移動するため、メニューは常にポインタの下にあるセルに適用されます。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_822a16b782c9478679ef31ee_0",
@@ -381,8 +416,15 @@
       "sourceHash": "822a16b782c9478679ef31ee04cafcb75814999e51cce5a98cbe93b0b871df51",
       "context": "Tables > Context menu",
       "contextHash": "0f3c10ac0590f592f083a509728fc9baff6476658a2152db1b623f3cf0262125",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "ブラウザでは、テーブル内において Trilium のメニューがブラウザ独自のコンテキストメニューを置き換えます。（スペルチェックの候補を表示するなどして）ブラウザのメニューにアクセスするには、__TRILIUM_PH_0__Shift__TRILIUM_PH_1__ を押しながら右クリックします。デスクトップアプリのメニューにはすでにスペルチェックの候補が含まれているため、影響を受けません。またブラウザでは、ページがクリップボードを読み取ることができ（これには安全な HTTPS コンテキストとユーザーの許可が必要です）、かつその場合のみ、メニューに __TRILIUM_PH_2__Paste__TRILIUM_PH_3__ が表示されます。それ以外の場合は __TRILIUM_PH_4__Ctrl__TRILIUM_PH_5__+__TRILIUM_PH_6__V__TRILIUM_PH_7__ で貼り付けてください。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_657d51f12e4c02647f069806_0",
@@ -391,8 +433,15 @@
       "sourceHash": "657d51f12e4c02647f069806dd8fa4ea7959de39e720b55cb38531877a556386",
       "context": "Tables > Navigating a table",
       "contextHash": "16602b9c54c1b221f13356f1a20b86f7d610b2ad60dcba9fd1ba17b984f36d24",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "テーブルの操作__TRILIUM_PH_0__",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_71160c692438639d5d6944ad_0",
@@ -401,8 +450,15 @@
       "sourceHash": "71160c692438639d5d6944ad640c678c3008b2c355c47bd3ac1f5edfdae02aae",
       "context": "Tables > Navigating a table",
       "contextHash": "16602b9c54c1b221f13356f1a20b86f7d610b2ad60dcba9fd1ba17b984f36d24",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "マウスを使用する場合：",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_3e7d42b8e6ca45f9a8bcddc4_0",
@@ -411,8 +467,15 @@
       "sourceHash": "3e7d42b8e6ca45f9a8bcddc4dffdd543c1c4c194f0d9f140cc25af5587438eb0",
       "context": "Tables > Navigating a table",
       "contextHash": "16602b9c54c1b221f13356f1a20b86f7d610b2ad60dcba9fd1ba17b984f36d24",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "セルをクリックしてフォーカスを合わせます。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_d18bf2aa31e5f84cf309d968_0",
@@ -421,8 +484,15 @@
       "sourceHash": "d18bf2aa31e5f84cf309d968f4b70f4f5ba4296a6dd93c9f7155f462937095fb",
       "context": "Tables > Navigating a table",
       "contextHash": "16602b9c54c1b221f13356f1a20b86f7d610b2ad60dcba9fd1ba17b984f36d24",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "テーブルの上部または下部にある __TRILIUM_PH_0__ ボタンをクリックすると、その近くに空の段落が挿入されます。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_b6b48831241004b189a4ee4d_0",
@@ -431,8 +501,15 @@
       "sourceHash": "b6b48831241004b189a4ee4d7c17b4d681be8626cea035950f6080d6d021770f",
       "context": "Tables > Navigating a table",
       "contextHash": "16602b9c54c1b221f13356f1a20b86f7d610b2ad60dcba9fd1ba17b984f36d24",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "テーブルの左上にある __TRILIUM_PH_0____TRILIUM_PH_1____TRILIUM_PH_2__ ボタンをクリックすると、テーブル全体を選択（簡単にコピー＆ペーストや切り取りを行うため）でき、ドラッグ＆ドロップしてテーブルを移動することもできます。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_dbdc35cb94f3cfd98439ba2c_0",
@@ -441,8 +518,15 @@
       "sourceHash": "dbdc35cb94f3cfd98439ba2c1e6210b92af74057da6e227f4566be9ea47d3891",
       "context": "Tables > Navigating a table",
       "contextHash": "16602b9c54c1b221f13356f1a20b86f7d610b2ad60dcba9fd1ba17b984f36d24",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "キーボードを使用する場合：",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_9f678a91935fe6210a68f6bc_0",
@@ -451,8 +535,15 @@
       "sourceHash": "9f678a91935fe6210a68f6bc4c696084aab1d694855caa445cb8f076b52a3d09",
       "context": "Tables > Navigating a table",
       "contextHash": "16602b9c54c1b221f13356f1a20b86f7d610b2ad60dcba9fd1ba17b984f36d24",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "キーボードの矢印キーを使用して、セル間を簡単に移動できます。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_4579a271123d5fdf098f185e_0",
@@ -461,8 +552,15 @@
       "sourceHash": "4579a271123d5fdf098f185e08334c36023203ded1b4247e552c81fce3f33082",
       "context": "Tables > Navigating a table",
       "contextHash": "16602b9c54c1b221f13356f1a20b86f7d610b2ad60dcba9fd1ba17b984f36d24",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "また、__TRILIUM_PH_0__Tab__TRILIUM_PH_1__ を使用して次のセルに移動し、Shift+Tab を使用して前のセルに移動することも可能です。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_0a97a88c5cc6590c2b9035a4_0",
@@ -471,8 +569,15 @@
       "sourceHash": "0a97a88c5cc6590c2b9035a4d88747ec778f6471dc0e6952fd2c8ddb6c14ddec",
       "context": "Tables > Navigating a table",
       "contextHash": "16602b9c54c1b221f13356f1a20b86f7d610b2ad60dcba9fd1ba17b984f36d24",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "矢印キーとは異なり、テーブルの末尾（最終行の最終列）で __TRILIUM_PH_0__Tab__TRILIUM_PH_1__ を押すと、新しい行が自動的に作成されます。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_9900182cdec8ad47df1de7fe_0",
@@ -481,8 +586,15 @@
       "sourceHash": "9900182cdec8ad47df1de7fedeed023961df00243699ac02cf78c5a9d33ec879",
       "context": "Tables > Navigating a table",
       "contextHash": "16602b9c54c1b221f13356f1a20b86f7d610b2ad60dcba9fd1ba17b984f36d24",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "複数のセルを選択するには、__TRILIUM_PH_0__Shift__TRILIUM_PH_1__ キーを押しながら矢印キーを使用します。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_558972439afb06dee1363230_0",
@@ -811,8 +923,15 @@
       "sourceHash": "2f5e6c7de518f1773cd76e5a0e6337016c641fdd7855d80eed432b8064c8ef97",
       "context": "Tables > Inserting new rows and new columns",
       "contextHash": "d6e7cda1b44c6025c4f5ba1e78b7081a0ee67a49544b618866c34f743db54761",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "新しい列を挿入するには、挿入したい場所をクリックし、フォーマットツールバーの __TRILIUM_PH_0__ ボタンを押して、__TRILIUM_PH_1__左または右に列を挿入__TRILIUM_PH_2__を選択します。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_81f1c2b1f95a355a56e0161a_0",
@@ -821,8 +940,15 @@
       "sourceHash": "81f1c2b1f95a355a56e0161a45f6f3f77f61099af7aa86d9ab831fd9787cdb70",
       "context": "Tables > Inserting new rows and new columns",
       "contextHash": "d6e7cda1b44c6025c4f5ba1e78b7081a0ee67a49544b618866c34f743db54761",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "新しい行を挿入するには、挿入したい場所をクリックし、__TRILIUM_PH_0__ ボタンを押して、__TRILIUM_PH_1__上に行を挿入__TRILIUM_PH_2__または__TRILIUM_PH_3__下に行を挿入__TRILIUM_PH_4__を選択します。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_06bc78a0bc43a62603276c23_0",
@@ -831,8 +957,15 @@
       "sourceHash": "06bc78a0bc43a62603276c230fbc0f27e56404bacd20dc7571892acca16ca37c",
       "context": "Tables > Inserting new rows and new columns",
       "contextHash": "d6e7cda1b44c6025c4f5ba1e78b7081a0ee67a49544b618866c34f743db54761",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "テーブルの末尾で新しい行を作成するより手軽な方法として、__TRILIUM_PH_0__Tab__TRILIUM_PH_1__ キーを押す方法があります。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_8c818036fcc1b00396badee2_0",
@@ -841,8 +974,15 @@
       "sourceHash": "8c818036fcc1b00396badee2dbaddfbb1773e3d1e60673b0ee7c16023b84e333",
       "context": "Tables > Inserting new rows and new columns",
       "contextHash": "d6e7cda1b44c6025c4f5ba1e78b7081a0ee67a49544b618866c34f743db54761",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "どちらの操作も__TRILIUM_PH_0__コンテキストメニュー__TRILIUM_PH_1__からも利用でき、選択範囲がまたがる分だけの行や列が挿入されます。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_e149f516de2223c6f5f37943_0",
@@ -851,8 +991,15 @@
       "sourceHash": "e149f516de2223c6f5f379435772a587886a8e1b7b2cb96e8bcbd94396d5efc1",
       "context": "Tables > Inserting new rows and new columns",
       "contextHash": "d6e7cda1b44c6025c4f5ba1e78b7081a0ee67a49544b618866c34f743db54761",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "__TRILIUM_PH_0__フォーマットツールバー__TRILIUM_PH_1__で説明されている、セルの横にあるブロックハンドルのメニューにも、__TRILIUM_PH_2__上に行を挿入__TRILIUM_PH_3__と__TRILIUM_PH_4__下に行を挿入__TRILIUM_PH_5__があります。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_fa8f6664f429c625b35015a4_0",
@@ -861,8 +1008,15 @@
       "sourceHash": "fa8f6664f429c625b35015a49562f9ccf1c53b3e704673c45c10603f864458c2",
       "context": "Tables > Inserting new rows and new columns",
       "contextHash": "d6e7cda1b44c6025c4f5ba1e78b7081a0ee67a49544b618866c34f743db54761",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "挿入後、キャレットは新しい行に移動してその列にとどまるか、新しい列に移動してその行にとどまります。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_03339f6bedb312183c6a13ad_0",
@@ -871,8 +1025,15 @@
       "sourceHash": "03339f6bedb312183c6a13ada1f6e0603ff4e5ea86a60546a6e7ea8d7c3c1a60",
       "context": "Tables > Moving rows and columns",
       "contextHash": "3668149e98caf1a2f07a48bc1befdaa69e7cea45237014226734c8dfb5f9f7b5",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "行と列の移動__TRILIUM_PH_0__",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_06ee543e8ea7093a5a90ac42_0",
@@ -881,8 +1042,15 @@
       "sourceHash": "06ee543e8ea7093a5a90ac420be31b0ca0cb09d8ebe3e4b7d0d7086ea36904e0",
       "context": "Tables > Moving rows and columns",
       "contextHash": "3668149e98caf1a2f07a48bc1befdaa69e7cea45237014226734c8dfb5f9f7b5",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "v0.106.0以降、行と列をキーボードで並べ替えることができるようになりました：",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_29c7751c4acbba6cf0f33a24_0",
@@ -891,8 +1059,15 @@
       "sourceHash": "29c7751c4acbba6cf0f33a2472e8b420d1fa596232eba69ff2f76f547a27fa4a",
       "context": "Tables > Moving rows and columns",
       "contextHash": "3668149e98caf1a2f07a48bc1befdaa69e7cea45237014226734c8dfb5f9f7b5",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "__TRILIUM_PH_0__Alt__TRILIUM_PH_1__+__TRILIUM_PH_2__Up__TRILIUM_PH_3__および__TRILIUM_PH_4__Alt__TRILIUM_PH_5__+__TRILIUM_PH_6__Down__TRILIUM_PH_7__は、選択範囲が接している行を上または下に移動します。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_1462920097a8f47e53815ee0_0",
@@ -901,8 +1076,15 @@
       "sourceHash": "1462920097a8f47e53815ee0703eb58f03be8db0d31b5e0ea98bbb6d887470c6",
       "context": "Tables > Moving rows and columns",
       "contextHash": "3668149e98caf1a2f07a48bc1befdaa69e7cea45237014226734c8dfb5f9f7b5",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "__TRILIUM_PH_0__Alt__TRILIUM_PH_1__+__TRILIUM_PH_2__Left__TRILIUM_PH_3__および__TRILIUM_PH_4__Alt__TRILIUM_PH_5__+__TRILIUM_PH_6__Right__TRILIUM_PH_7__は、選択範囲が接している列を左または右に移動します。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_b2890bb38f5fa9dca8d9fb7b_0",
@@ -911,8 +1093,15 @@
       "sourceHash": "b2890bb38f5fa9dca8d9fb7bbb5200b4754a8d346e62799c9beb4afb82bde8d8",
       "context": "Tables > Moving rows and columns",
       "contextHash": "3668149e98caf1a2f07a48bc1befdaa69e7cea45237014226734c8dfb5f9f7b5",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "結合されたセルが移動によって分割されることはありません。結合されたセルによってまとめられた行や列は1つのブロックとして移動し、そのようなブロックに向かって移動すると、そのブロック全体がスキップされます。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_ff4a0de9169d7e9baac8c67a_0",
@@ -921,8 +1110,15 @@
       "sourceHash": "ff4a0de9169d7e9baac8c67a527b32adf2d4f0dc42fd60f15df5c13b0f71e29b",
       "context": "Tables > Moving rows and columns",
       "contextHash": "3668149e98caf1a2f07a48bc1befdaa69e7cea45237014226734c8dfb5f9f7b5",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "テーブルにヘッダー行がある場合、ヘッダー領域の下に移動されたヘッダー行は通常の行になり、ヘッダー領域に移動された通常の行はヘッダー行になります。ヘッダー列も同様に動作します。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_d3f1d164dc3afde0b34546fb_0",
@@ -931,8 +1127,15 @@
       "sourceHash": "d3f1d164dc3afde0b34546fbd6ca51dcb9b50e91f85c582f8f36425df4f039d6",
       "context": "Tables > Moving rows and columns",
       "contextHash": "3668149e98caf1a2f07a48bc1befdaa69e7cea45237014226734c8dfb5f9f7b5",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "テーブルの外では、__TRILIUM_PH_0__Alt__TRILIUM_PH_1__+__TRILIUM_PH_2__Left__TRILIUM_PH_3__ および __TRILIUM_PH_4__Alt__TRILIUM_PH_5__+__TRILIUM_PH_6__Right__TRILIUM_PH_7__ はノート履歴のナビゲーションを続け、__TRILIUM_PH_8__Alt__TRILIUM_PH_9__+__TRILIUM_PH_10__Up__TRILIUM_PH_11__ および __TRILIUM_PH_12__Alt__TRILIUM_PH_13__+__TRILIUM_PH_14__Down__TRILIUM_PH_15__ は現在の段落の移動を続けます。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_5cdefedaf8df0442b21b1cca_0",
@@ -941,8 +1144,15 @@
       "sourceHash": "5cdefedaf8df0442b21b1ccaf9934941862e603a02321798c8bc639351088a98",
       "context": "Tables > Sorting rows",
       "contextHash": "0913e2ea7701125de17b0b3721a44f0d57b883342003c38d23dc7b3e886feafc",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "行の並べ替え__TRILIUM_PH_0__",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_41f0a56e0b4195763c4fbf92_0",
@@ -951,8 +1161,15 @@
       "sourceHash": "41f0a56e0b4195763c4fbf92b9d5dbdcd5e0b2d92db27fd421cdcdbe27c22a5f",
       "context": "Tables > Sorting rows",
       "contextHash": "0913e2ea7701125de17b0b3721a44f0d57b883342003c38d23dc7b3e886feafc",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "v0.107.0以降、テーブルの行を1つの列の値で並べ替えることができるようになりました：",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_2f2e57c67307fe11695c2376_0",
@@ -961,8 +1178,15 @@
       "sourceHash": "2f2e57c67307fe11695c2376c9ed19c92fa615a372dfc8826467daf3ecd48b48",
       "context": "Tables > Sorting rows",
       "contextHash": "0913e2ea7701125de17b0b3721a44f0d57b883342003c38d23dc7b3e886feafc",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "すべての行を並べ替えるには、並べ替えの基準にする列の任意のセルにカーソルを置き、__TRILIUM_PH_0__コンテキストメニュー__TRILIUM_PH_1__から__TRILIUM_PH_2__並べ替え__TRILIUM_PH_3__ → __TRILIUM_PH_4__昇順__TRILIUM_PH_5__または__TRILIUM_PH_6__降順__TRILIUM_PH_7__を選択します。同じ項目がフォーマットツールバーの __TRILIUM_PH_8__ ボタンにもあります。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_10959cb3235a6a74137b4215_0",
@@ -971,8 +1195,15 @@
       "sourceHash": "10959cb3235a6a74137b42150e859743bd6ed66726b5923e4fc9f63a7aaf19b9",
       "context": "Tables > Sorting rows",
       "contextHash": "0913e2ea7701125de17b0b3721a44f0d57b883342003c38d23dc7b3e886feafc",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "一部の行のみを並べ替えるには、並べ替える列内のセルを選択し、同様に並べ替えます。選択範囲が複数の列にまたがっている場合、並べ替えは利用できません。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_481418adb75ce8f100fb6e6a_0",
@@ -981,8 +1212,15 @@
       "sourceHash": "481418adb75ce8f100fb6e6a11da67a4dc4ed2d17a147ae35eaafa008d75c2f7",
       "context": "Tables > Sorting rows",
       "contextHash": "0913e2ea7701125de17b0b3721a44f0d57b883342003c38d23dc7b3e886feafc",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "ヘッダー行は常にテーブルの先頭にとどまり、並べ替えられることはありません。並べ替えは __TRILIUM_PH_0__Ctrl__TRILIUM_PH_1__+__TRILIUM_PH_2__Z__TRILIUM_PH_3__ で元に戻すことができます。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_d63d132d2298c3d82d3af8b8_0",
@@ -991,8 +1229,15 @@
       "sourceHash": "d63d132d2298c3d82d3af8b889518f78f1534a92431153f511cc4d5044794139",
       "context": "Tables > Sorting rows > How values are compared",
       "contextHash": "a72ee28a42ba9f80dce86cb64b3118e6880e63c8b3fec11d5d82ab31cbbb8704",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "値の比較方法__TRILIUM_PH_0__",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_c8e0decbcaff48b02aa35d88_0",
@@ -1001,8 +1246,15 @@
       "sourceHash": "c8e0decbcaff48b02aa35d8802abdff37f6269eeba10fcfc37c0fbe901e83be9",
       "context": "Tables > Sorting rows > How values are compared",
       "contextHash": "a72ee28a42ba9f80dce86cb64b3118e6880e63c8b3fec11d5d82ab31cbbb8704",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "各セルはプレーンテキストとして読み取られるため、書式設定は順序に影響しません。その後、Trilium はセルが保持している値の種類を検出します。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_ee36cc858090ee0d66620ace_0",
@@ -1011,8 +1263,15 @@
       "sourceHash": "ee36cc858090ee0d66620ace014197b649a014f9202c7d2dea96e3fe317b5a16",
       "context": "Tables > Sorting rows > How values are compared",
       "contextHash": "a72ee28a42ba9f80dce86cb64b3118e6880e63c8b3fec11d5d82ab31cbbb8704",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "種類",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_27ce672486e00be70e762683_0",
@@ -1021,8 +1280,15 @@
       "sourceHash": "27ce672486e00be70e7626835a7986b2e6388b3f127e00ce20e5a62cfdeead88",
       "context": "Tables > Sorting rows > How values are compared",
       "contextHash": "a72ee28a42ba9f80dce86cb64b3118e6880e63c8b3fec11d5d82ab31cbbb8704",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "例",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_033ba0a9e30ed104bdcf81e6_0",
@@ -1031,8 +1297,15 @@
       "sourceHash": "033ba0a9e30ed104bdcf81e6d0b589159af2ce366ef93239b8bcf8bb31de361f",
       "context": "Tables > Sorting rows > How values are compared",
       "contextHash": "a72ee28a42ba9f80dce86cb64b3118e6880e63c8b3fec11d5d82ab31cbbb8704",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "比較方法",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_4b9c25f69a3d1e15bfcd3af1_0",
@@ -1041,8 +1314,15 @@
       "sourceHash": "4b9c25f69a3d1e15bfcd3af17e38dd8d6b976a75f375700df3c00531a742d393",
       "context": "Tables > Sorting rows > How values are compared",
       "contextHash": "a72ee28a42ba9f80dce86cb64b3118e6880e63c8b3fec11d5d82ab31cbbb8704",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "時刻",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_d35fd44c8d2801c00348bfa9_0",
@@ -1051,8 +1331,15 @@
       "sourceHash": "d35fd44c8d2801c00348bfa923685f72b3742b134997fc12b2b5fee60691e3e5",
       "context": "Tables > Sorting rows > How values are compared",
       "contextHash": "a72ee28a42ba9f80dce86cb64b3118e6880e63c8b3fec11d5d82ab31cbbb8704",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "__TRILIUM_PH_0__、__TRILIUM_PH_1__、__TRILIUM_PH_2__",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_72076507a54fc27ded82ddd5_0",
@@ -1061,8 +1348,15 @@
       "sourceHash": "72076507a54fc27ded82ddd5342eb5fa37553f39cc06b3f413e4b1b75e79163f",
       "context": "Tables > Sorting rows > How values are compared",
       "contextHash": "a72ee28a42ba9f80dce86cb64b3118e6880e63c8b3fec11d5d82ab31cbbb8704",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "時刻。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_3bc707c8c0074b3250787e4d_0",
@@ -1071,8 +1365,15 @@
       "sourceHash": "3bc707c8c0074b3250787e4df7ddf4e0c1da605a207c66d65e0974a8ca7c1817",
       "context": "Tables > Sorting rows > How values are compared",
       "contextHash": "a72ee28a42ba9f80dce86cb64b3118e6880e63c8b3fec11d5d82ab31cbbb8704",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "日付",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_bd915abe76577ad31e6a9944_0",
@@ -1081,8 +1382,15 @@
       "sourceHash": "bd915abe76577ad31e6a99442b8ab3a3e176acd09907efc9e99dab0a8de67c4f",
       "context": "Tables > Sorting rows > How values are compared",
       "contextHash": "a72ee28a42ba9f80dce86cb64b3118e6880e63c8b3fec11d5d82ab31cbbb8704",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "__TRILIUM_PH_0__、__TRILIUM_PH_1__、__TRILIUM_PH_2__、__TRILIUM_PH_3__、__TRILIUM_PH_4__",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_f016c4a72d70539e2f857407_0",
@@ -1091,8 +1399,15 @@
       "sourceHash": "f016c4a72d70539e2f85740710b153412c1cc2edadaef4430db6e2fddb17f12c",
       "context": "Tables > Sorting rows > How values are compared",
       "contextHash": "a72ee28a42ba9f80dce86cb64b3118e6880e63c8b3fec11d5d82ab31cbbb8704",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "日付と時刻。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_3a37c466fe8923bf41628a1e_0",
@@ -1101,8 +1416,15 @@
       "sourceHash": "3a37c466fe8923bf41628a1e07e7d8759a96aea81a20175bf798ad19342b8fb4",
       "context": "Tables > Sorting rows > How values are compared",
       "contextHash": "a72ee28a42ba9f80dce86cb64b3118e6880e63c8b3fec11d5d82ab31cbbb8704",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "数値",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_7ae80d1cd29ca1f086d3c8b5_0",
@@ -1111,8 +1433,15 @@
       "sourceHash": "7ae80d1cd29ca1f086d3c8b5fc4433d1b3828eac28b10376906e341c076648db",
       "context": "Tables > Sorting rows > How values are compared",
       "contextHash": "a72ee28a42ba9f80dce86cb64b3118e6880e63c8b3fec11d5d82ab31cbbb8704",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "__TRILIUM_PH_0__、__TRILIUM_PH_1__、__TRILIUM_PH_2__、__TRILIUM_PH_3__、__TRILIUM_PH_4__、__TRILIUM_PH_5__",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_632a16e11f921c0fbd186cb1_0",
@@ -1121,8 +1450,15 @@
       "sourceHash": "632a16e11f921c0fbd186cb10d4c9a3c6f14feb54bfaf61435d992cc9fb8f2c3",
       "context": "Tables > Sorting rows > How values are compared",
       "contextHash": "a72ee28a42ba9f80dce86cb64b3118e6880e63c8b3fec11d5d82ab31cbbb8704",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "数値。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_2265f02773931d453f055974_0",
@@ -1291,8 +1627,15 @@
       "sourceHash": "e47c3d315d86a260a4ba9211c126e96df71f8cfe18a97aa83fe181e433d667e9",
       "context": "Tables > Merging cells",
       "contextHash": "122aa23024c2814ceb356e7fd58f28ef46423491be6c0d9dadc217565482c597",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "2つ以上のセルを結合するには、ドラッグ＆ドロップでセルを選択し、書式設定ツールバーの __TRILIUM_PH_0__ ボタンを押します。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_acd5b231d62dee4f97e3e8df_0",
@@ -1301,8 +1644,15 @@
       "sourceHash": "acd5b231d62dee4f97e3e8df5528a988f354cab5ffe5e76f17724a67570b0def",
       "context": "Tables > Merging cells",
       "contextHash": "122aa23024c2814ceb356e7fd58f28ef46423491be6c0d9dadc217565482c597",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "その横にある矢印を押すと、その他のオプションを利用できます。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_ac440619f9bacc3ca176c335_0",
@@ -1311,8 +1661,15 @@
       "sourceHash": "ac440619f9bacc3ca176c3359abbca7adc5248318e0c21b39f30d5395f448f06",
       "context": "Tables > Merging cells",
       "contextHash": "122aa23024c2814ceb356e7fd58f28ef46423491be6c0d9dadc217565482c597",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "単一のセルをクリックし、[上/下/右/左のセルを結合] を選択して、隣接するセルと結合します。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_8c25d980780345433a7e71f6_0",
@@ -1321,8 +1678,15 @@
       "sourceHash": "8c25d980780345433a7e71f686a5d3745c0665ec6eded354cf9cf1aac99e0123",
       "context": "Tables > Merging cells",
       "contextHash": "122aa23024c2814ceb356e7fd58f28ef46423491be6c0d9dadc217565482c597",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "__TRILIUM_PH_0__選択したセルの結合__TRILIUM_PH_1__を選択すると、ボタンを押した場合と同様に、選択したセルが結合されます。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_889fd31365c9ed1f080598bc_0",
@@ -1331,8 +1695,15 @@
       "sourceHash": "889fd31365c9ed1f080598bc8fa7e1c9f9e6c909beade20491f0a5d22a998b0f",
       "context": "Tables > Merging cells",
       "contextHash": "122aa23024c2814ceb356e7fd58f28ef46423491be6c0d9dadc217565482c597",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "__TRILIUM_PH_0__セルを垂直方向に分割__TRILIUM_PH_1__または__TRILIUM_PH_2__水平方向に分割__TRILIUM_PH_3__を選択すると、1つのセルを複数のセルに分割できます（結合の元に戻すためにも使用できます）。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_fefe3e3aab692b394f9d9923_0",
@@ -1341,8 +1712,15 @@
       "sourceHash": "fefe3e3aab692b394f9d9923c84152d0ae516cac584a1f1f367dba075af4eb48",
       "context": "Tables > Merging cells",
       "contextHash": "122aa23024c2814ceb356e7fd58f28ef46423491be6c0d9dadc217565482c597",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "__TRILIUM_PH_0__セルの結合を解除__TRILIUM_PH_1__を選択すると、選択範囲内の結合された各セルが元の単一のセルに戻り、コンテンツは左上のセルに保持されます。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_f03def491b8f8540073fca9b_0",
@@ -1351,8 +1729,15 @@
       "sourceHash": "f03def491b8f8540073fca9b2bc731cc287fc5c66d1bbd67283b51dfeac891ce",
       "context": "Tables > Merging cells",
       "contextHash": "122aa23024c2814ceb356e7fd58f28ef46423491be6c0d9dadc217565482c597",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "__TRILIUM_PH_0__選択したセルの結合__TRILIUM_PH_1__および__TRILIUM_PH_2__セルの結合を解除__TRILIUM_PH_3__は、v0.107.0以降で利用可能です。結合と分割は、選択したセルを右クリックして__TRILIUM_PH_4__コンテキストメニュー__TRILIUM_PH_5__から行うこともでき、__TRILIUM_PH_6__セルの結合を解除__TRILIUM_PH_7__は__TRILIUM_PH_8__セルを分割__TRILIUM_PH_9__サブメニュー内にあります。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_7387f99ea99da25d4f06c397_0",
@@ -1361,8 +1746,15 @@
       "sourceHash": "7387f99ea99da25d4f06c397dc15e973bfa241f9769850ba187e479503be4ad0",
       "context": "Tables > Table properties",
       "contextHash": "ae9f070e61b2f7537d81e510523d19fd96f9f6977091741b497c6b9c41ce0c17",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "テーブルのプロパティ__TRILIUM_PH_0__",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_b41f7230b62ce8cca0b539eb_0",
@@ -1371,8 +1763,15 @@
       "sourceHash": "b41f7230b62ce8cca0b539ebc224e32bc4daac05b8dcc18395974c6f9b13bd15",
       "context": "Tables > Table properties",
       "contextHash": "ae9f070e61b2f7537d81e510523d19fd96f9f6977091741b497c6b9c41ce0c17",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "テーブルのプロパティには __TRILIUM_PH_0__ ボタンからアクセスでき、以下の調整を行うことができます。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_39ab7ae8a969f3071b2836f5_0",
@@ -1381,8 +1780,15 @@
       "sourceHash": "39ab7ae8a969f3071b2836f5d7031dcd6ce82df7e4ca4a040e415d7efcef5c01",
       "context": "Tables > Table properties",
       "contextHash": "ae9f070e61b2f7537d81e510523d19fd96f9f6977091741b497c6b9c41ce0c17",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "枠線（セルの枠線ではなく、テーブルの外側の枠）には、スタイル（実線、二重線）、色、幅が含まれます。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_c5cae936c71d2343982327e5_0",
@@ -1391,8 +1797,15 @@
       "sourceHash": "c5cae936c71d2343982327e5aba880ada72d0336774624a0b5dd9a779dee0500",
       "context": "Tables > Table properties",
       "contextHash": "ae9f070e61b2f7537d81e510523d19fd96f9f6977091741b497c6b9c41ce0c17",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "背景色（デフォルトでは未設定）。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_cd34994585b22df0d82b329f_0",
@@ -1401,8 +1814,15 @@
       "sourceHash": "cd34994585b22df0d82b329f10bac3f6f725ed96c3d7882bffed42c050de8792",
       "context": "Tables > Table properties",
       "contextHash": "ae9f070e61b2f7537d81e510523d19fd96f9f6977091741b497c6b9c41ce0c17",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "テーブルの幅と高さは、パーセンテージ（__TRILIUM_PH_0__で終わる必要があります）またはピクセル（__TRILIUM_PH_1__で終わる必要があります）で指定します。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_f62fb13aeda56da01d65dd06_0",
@@ -1411,8 +1831,15 @@
       "sourceHash": "f62fb13aeda56da01d65dd066e56ffebe8e8d58562f83a0d97f45f304768916e",
       "context": "Tables > Table properties",
       "contextHash": "ae9f070e61b2f7537d81e510523d19fd96f9f6977091741b497c6b9c41ce0c17",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "テーブルの配置。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_3ec1ef8ef6d75c6ea070cd5c_0",
@@ -1421,8 +1848,15 @@
       "sourceHash": "3ec1ef8ef6d75c6ea070cd5c421559fc905be0c942efe196aa05ff98befc36ea",
       "context": "Tables > Table properties",
       "contextHash": "ae9f070e61b2f7537d81e510523d19fd96f9f6977091741b497c6b9c41ce0c17",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "左揃えまたは右揃えの場合、テキストはその横に回り込みます。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_2f8024ae48ffddbfc74595fb_0",
@@ -1431,8 +1865,15 @@
       "sourceHash": "2f8024ae48ffddbfc74595fb583744e22276159979756b7835b2b593722ef2a4",
       "context": "Tables > Table properties",
       "contextHash": "ae9f070e61b2f7537d81e510523d19fd96f9f6977091741b497c6b9c41ce0c17",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "中央揃えの場合、テーブルの幅に関係なく、テキストはテーブルを避けて配置されます。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_75d6294ee823b2c2763b0db4_0",
@@ -1441,8 +1882,15 @@
       "sourceHash": "75d6294ee823b2c2763b0db4d9783e7039cca590edd120f1bb28e3e4db51eca7",
       "context": "Tables > Table properties",
       "contextHash": "ae9f070e61b2f7537d81e510523d19fd96f9f6977091741b497c6b9c41ce0c17",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "テーブルは変更を反映して即座に更新されますが、変更を永続化するには __TRILIUM_PH_0__保存__TRILIUM_PH_1__ ボタンを押す必要があります。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_8abe336d2c3e0657c21d1f54_0",
@@ -1771,8 +2219,15 @@
       "sourceHash": "8f601bd164c2c033e34a76e1e16d9008d82954bfdcb89aeb6378c37e2ef05877",
       "context": "Tables > Table borders > Tables with invisible borders",
       "contextHash": "035d0fe36f8488f47d4f9b6d384bbaf0db6e52a877921fc09c02f44d1ddfdf9f",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "境界線が非表示のテーブル__TRILIUM_PH_0__",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_1a9e549c2dce8d3ee0d31378_0",
@@ -1781,8 +2236,15 @@
       "sourceHash": "1a9e549c2dce8d3ee0d313789f2febe3292a6b2dd398ca19568ac1396de336b2",
       "context": "Tables > Table borders > Tables with invisible borders",
       "contextHash": "035d0fe36f8488f47d4f9b6d384bbaf0db6e52a877921fc09c02f44d1ddfdf9f",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "テーブルの境界線を非表示に設定することで、境界線のわずらわしさをなくし、テキストや__TRILIUM_PH_0__画像__TRILIUM_PH_1__の基本的なレイアウト（列やグリッド）を作成できます。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_5834eca586e1cd3b1ba0cc16_0",
@@ -1791,8 +2253,15 @@
       "sourceHash": "5834eca586e1cd3b1ba0cc16da339caa5107145a6b87cc95edb1039c4b33f4a2",
       "context": "Tables > Table borders > Tables with invisible borders",
       "contextHash": "035d0fe36f8488f47d4f9b6d384bbaf0db6e52a877921fc09c02f44d1ddfdf9f",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "まず、希望する列数と行数のテーブルを挿入します。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_e151944389ab9be40cdbb8cf_0",
@@ -1801,8 +2270,15 @@
       "sourceHash": "e151944389ab9be40cdbb8cf28c5c431ade55d4b59c307fc0a2fa297bfe9fa3c",
       "context": "Tables > Table borders > Tables with invisible borders",
       "contextHash": "035d0fe36f8488f47d4f9b6d384bbaf0db6e52a877921fc09c02f44d1ddfdf9f",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "テーブル全体を選択します。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_68b07c7e4049bb8c67521b29_0",
@@ -1811,8 +2287,15 @@
       "sourceHash": "68b07c7e4049bb8c67521b29e420fe46caf73536dcd4d840d16b30ede3734d36",
       "context": "Tables > Table borders > Tables with invisible borders",
       "contextHash": "035d0fe36f8488f47d4f9b6d384bbaf0db6e52a877921fc09c02f44d1ddfdf9f",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "__TRILIUM_PH_0__テーブルのプロパティ__TRILIUM_PH_1__で、以下のように設定します。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_b6524d9e98578fe9fd5f9d24_0",
@@ -1821,8 +2304,15 @@
       "sourceHash": "b6524d9e98578fe9fd5f9d244cf9b863b51af210e75b49df13a41d9d73302682",
       "context": "Tables > Table borders > Tables with invisible borders",
       "contextHash": "035d0fe36f8488f47d4f9b6d384bbaf0db6e52a877921fc09c02f44d1ddfdf9f",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "__TRILIUM_PH_0__スタイル__TRILIUM_PH_1__を__TRILIUM_PH_2__単一線__TRILIUM_PH_3__にする",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_37373f6213f92e58a38b91e4_0",
@@ -1831,8 +2321,15 @@
       "sourceHash": "37373f6213f92e58a38b91e4fd0c4bc9a574a5acb67b54bc48c6e54d87e4f233",
       "context": "Tables > Table borders > Tables with invisible borders",
       "contextHash": "035d0fe36f8488f47d4f9b6d384bbaf0db6e52a877921fc09c02f44d1ddfdf9f",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "__TRILIUM_PH_0__色__TRILIUM_PH_1__を__TRILIUM_PH_2__にする",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_411289e6dc24d273b57a34d4_0",
@@ -1841,8 +2338,15 @@
       "sourceHash": "411289e6dc24d273b57a34d4680c7c98f02fe238e8086793050224a61aade644",
       "context": "Tables > Table borders > Tables with invisible borders",
       "contextHash": "035d0fe36f8488f47d4f9b6d384bbaf0db6e52a877921fc09c02f44d1ddfdf9f",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "幅を__TRILIUM_PH_0__にする。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_6e8cca429acac2941b72ccdb_0",
@@ -1851,8 +2355,15 @@
       "sourceHash": "6e8cca429acac2941b72ccdb78fb3015924fb5a691e6665f4ffbfec698ecc6a0",
       "context": "Tables > Table borders > Tables with invisible borders",
       "contextHash": "035d0fe36f8488f47d4f9b6d384bbaf0db6e52a877921fc09c02f44d1ddfdf9f",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "セルのプロパティでも、前の手順と同様に設定します。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_74cb5f4624fa336e8438c6e4_0",
@@ -1861,8 +2372,15 @@
       "sourceHash": "74cb5f4624fa336e8438c6e432e6a9c14f9ee8e534a5afd4b596bb1bb443174d",
       "context": "Tables > Table indentation",
       "contextHash": "2f2cf2705778f3a5527fca4f4214aa96cca9dfd876f9ea395f9ea2d79fbe8f8a",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "テーブルのインデント__TRILIUM_PH_0__",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_1eec6076206e8b044a2a13e3_0",
@@ -1871,8 +2389,15 @@
       "sourceHash": "1eec6076206e8b044a2a13e3fe8f7b1a616c8fbc077e244fa612d8eb9540a823",
       "context": "Tables > Table indentation",
       "contextHash": "2f2cf2705778f3a5527fca4f4214aa96cca9dfd876f9ea395f9ea2d79fbe8f8a",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "v0.104.1以降、テーブルをブロック単位でインデントできるようになりました（セルの内容だけでなく、テーブル全体が移動します）。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_279608d014ddcc15e4817101_0",
@@ -1881,8 +2406,15 @@
       "sourceHash": "279608d014ddcc15e481710188aa6a4e6458cc8fb0cfd821abde60eb8d1dd321",
       "context": "Tables > Table indentation",
       "contextHash": "2f2cf2705778f3a5527fca4f4214aa96cca9dfd876f9ea395f9ea2d79fbe8f8a",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "__TRILIUM_PH_0____TRILIUM_PH_1____TRILIUM_PH_2__ボタンをクリックしてテーブル全体を選択します。そうしないと、インデントは現在のセルの内容にのみ適用されます。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_6bc04b4930b3a06c363427fe_0",
@@ -1891,8 +2423,15 @@
       "sourceHash": "6bc04b4930b3a06c363427fe58936c8cb2c442ffa48c79e0f91fe41e443fe097",
       "context": "Tables > Table indentation",
       "contextHash": "2f2cf2705778f3a5527fca4f4214aa96cca9dfd876f9ea395f9ea2d79fbe8f8a",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "__TRILIUM_PH_0__Tab__TRILIUM_PH_1__キーを押してインデントを増やすか、__TRILIUM_PH_2__Shift__TRILIUM_PH_3__+__TRILIUM_PH_4__Tab__TRILIUM_PH_5__キーを押して減らします。または、書式設定ツールバーのインデントボタンを使用します。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_758faafaea3e9dfbd6c8f3d6_0",
@@ -1901,8 +2440,15 @@
       "sourceHash": "758faafaea3e9dfbd6c8f3d6ddf43e7bdaff19c8da6f9c4d0d68767a507fca48",
       "context": "Tables > Table indentation",
       "contextHash": "2f2cf2705778f3a5527fca4f4214aa96cca9dfd876f9ea395f9ea2d79fbe8f8a",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "Markdownはインデントされたテーブルをサポートしていないため、Markdownに変換するとインデントは失われます。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_c751d74f93cd614863022be8_0",
@@ -1911,8 +2457,15 @@
       "sourceHash": "c751d74f93cd614863022be8f6d67a639f46f40817d1769aa709e35bb16304d3",
       "context": "Tables > Markdown import/export",
       "contextHash": "6571e259689c6b7266a3f8ffc50ff8e7395e51b73c2c7518d8f3be4a5ff3f745",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "Markdownのインポート／エクスポート__TRILIUM_PH_0__",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_597b9b15f149559a92bffb73_0",
@@ -1921,8 +2474,15 @@
       "sourceHash": "597b9b15f149559a92bffb73d0202e788a4ad29e9717abc46291d8e02c1cb78c",
       "context": "Tables > Markdown import/export",
       "contextHash": "6571e259689c6b7266a3f8ffc50ff8e7395e51b73c2c7518d8f3be4a5ff3f745",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "シンプルなテーブルは、GitHub風味のMarkdown形式（一連の__TRILIUM_PH_0__項目など）でエクスポートされます。テーブルがより複雑であると判明した場合（HTML要素が含まれている、カスタムサイズや画像がある場合など）、テーブルは代わりにHTML形式に変換されます。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_9fad883d061419db5f4a31df_0",
@@ -1931,8 +2491,15 @@
       "sourceHash": "9fad883d061419db5f4a31dfea2e5182c70335a65106384f62647c1afea5b05f",
       "context": "Tables > Markdown import/export",
       "contextHash": "6571e259689c6b7266a3f8ffc50ff8e7395e51b73c2c7518d8f3be4a5ff3f745",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "Markdownへのエクスポート時は、HTML形式へのフォールバックが行われるため、通常、書式の損失は最小限に抑えられます。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_b190d47815633246b0ab18a6_0",
@@ -1941,8 +2508,15 @@
       "sourceHash": "b190d47815633246b0ab18a61d9b8e8ea36504fe3f8bc230a7753096915c9ff2",
       "context": "Tables > Markdown import/export",
       "contextHash": "6571e259689c6b7266a3f8ffc50ff8e7395e51b73c2c7518d8f3be4a5ff3f745",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "記事画像",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_b190d47815633246b0ab18a6_1",
@@ -1951,8 +2525,15 @@
       "sourceHash": "b190d47815633246b0ab18a61d9b8e8ea36504fe3f8bc230a7753096915c9ff2",
       "context": "Tables > Markdown import/export",
       "contextHash": "6571e259689c6b7266a3f8ffc50ff8e7395e51b73c2c7518d8f3be4a5ff3f745",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "記事画像",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_b190d47815633246b0ab18a6_2",
@@ -1961,8 +2542,15 @@
       "sourceHash": "b190d47815633246b0ab18a61d9b8e8ea36504fe3f8bc230a7753096915c9ff2",
       "context": "Tables > Markdown import/export",
       "contextHash": "6571e259689c6b7266a3f8ffc50ff8e7395e51b73c2c7518d8f3be4a5ff3f745",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "記事画像",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_b190d47815633246b0ab18a6_3",
@@ -1971,9 +2559,131 @@
       "sourceHash": "b190d47815633246b0ab18a61d9b8e8ea36504fe3f8bc230a7753096915c9ff2",
       "context": "Tables > Markdown import/export",
       "contextHash": "6571e259689c6b7266a3f8ffc50ff8e7395e51b73c2c7518d8f3be4a5ff3f745",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "記事画像",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     }
   ],
-  "requests": []
+  "requests": [
+    {
+      "at": "2026-11-14T14:14:05.465Z",
+      "model": "gemini-3.5-flash-lite",
+      "batchJob": "batches/8vehrrvdpag09tp4gjf9dbgj006t9k2gkkyl",
+      "requestKey": "NdowYOC1GFKS_73657dba9428accc",
+      "modelVersion": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 1869,
+        "candidatesTokenCount": 1533,
+        "totalTokenCount": 3402,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 1869
+          }
+        ],
+        "serviceTier": "standard"
+      }
+    },
+    {
+      "at": "2026-11-14T14:14:05.465Z",
+      "model": "gemini-3.5-flash-lite",
+      "batchJob": "batches/8vehrrvdpag09tp4gjf9dbgj006t9k2gkkyl",
+      "requestKey": "NdowYOC1GFKS_863009b46451b13a",
+      "modelVersion": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 1914,
+        "candidatesTokenCount": 1555,
+        "totalTokenCount": 3469,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 1914
+          }
+        ],
+        "serviceTier": "standard"
+      }
+    },
+    {
+      "at": "2026-11-14T14:14:05.465Z",
+      "model": "gemini-3.5-flash-lite",
+      "batchJob": "batches/8vehrrvdpag09tp4gjf9dbgj006t9k2gkkyl",
+      "requestKey": "NdowYOC1GFKS_9b90c9e7b9a62eaa",
+      "modelVersion": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 1281,
+        "candidatesTokenCount": 850,
+        "totalTokenCount": 2131,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 1281
+          }
+        ],
+        "serviceTier": "standard"
+      }
+    },
+    {
+      "at": "2026-11-14T14:14:05.465Z",
+      "model": "gemini-3.5-flash-lite",
+      "batchJob": "batches/8vehrrvdpag09tp4gjf9dbgj006t9k2gkkyl",
+      "requestKey": "NdowYOC1GFKS_0033ba62d9c17e32",
+      "modelVersion": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 1480,
+        "candidatesTokenCount": 1123,
+        "totalTokenCount": 2603,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 1480
+          }
+        ],
+        "serviceTier": "standard"
+      }
+    },
+    {
+      "at": "2026-11-14T14:14:05.465Z",
+      "model": "gemini-3.5-flash-lite",
+      "batchJob": "batches/8vehrrvdpag09tp4gjf9dbgj006t9k2gkkyl",
+      "requestKey": "NdowYOC1GFKS_cfc37d49f10ffecc",
+      "modelVersion": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 1436,
+        "candidatesTokenCount": 1038,
+        "totalTokenCount": 2474,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 1436
+          }
+        ],
+        "serviceTier": "standard"
+      }
+    },
+    {
+      "at": "2026-11-14T14:14:05.465Z",
+      "model": "gemini-3.5-flash-lite",
+      "batchJob": "batches/8vehrrvdpag09tp4gjf9dbgj006t9k2gkkyl",
+      "requestKey": "NdowYOC1GFKS_e2df63fb05320a86",
+      "modelVersion": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 548,
+        "candidatesTokenCount": 209,
+        "totalTokenCount": 757,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 548
+          }
+        ],
+        "serviceTier": "standard"
+      }
+    }
+  ]
 }

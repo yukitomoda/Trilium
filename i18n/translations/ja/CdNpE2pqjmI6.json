@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "pageId": "CdNpE2pqjmI6",
   "sourceFile": "docs/User Guide/User Guide/Scripting.md",
-  "sourceRevision": "03d17b60f59b5efc29b880b11481471d0fe0ff57",
+  "sourceRevision": "bbc6051da7fab504dac8c69279859c8cb9c61eef",
   "units": [
     {
       "id": "u_6a608d074935af1e22a729d0_0",
@@ -11,8 +11,15 @@
       "sourceHash": "6a608d074935af1e22a729d02db8e602ee6f399dab0902b25827f0d471128225",
       "context": "Scripting",
       "contextHash": "01846401bd51c6304510b9e2350e45b81678afd5c1b9e937e2f976b0e7127e69",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "スクリプト作成",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_53bd0ea7bc3554960967faa2_0",
@@ -21,8 +28,15 @@
       "sourceHash": "53bd0ea7bc3554960967faa284ea3950eac6f856701f1dd0b0573300429659e6",
       "context": "Scripting",
       "contextHash": "01846401bd51c6304510b9e2350e45b81678afd5c1b9e937e2f976b0e7127e69",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "Triliumでは、__TRILIUM_PH_0__コード__TRILIUM_PH_1__ノートの作成、つまりプログラミングコードを保存してハイライト表示するノートの作成がサポートされています。特殊なケースとして、Trilium内で実行できるJavaScriptのコードノートもあり、__TRILIUM_PH_2__スクリプトAPI__TRILIUM_PH_3__と組み合わせて追加機能を提供できます。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_585e2345f781f738720523ad_0",
@@ -31,8 +45,15 @@
       "sourceHash": "585e2345f781f738720523ad141ee9f3756a8cc85c0102e671a45fe36b71fcfd",
       "context": "Scripting > Architecture Overview",
       "contextHash": "e5c8cbfe7ea8142ea9c8ae64a18531b4a6823d25dbe0ae4d2bf173e7d86392cd",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "アーキテクチャの概要__TRILIUM_PH_0__",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_aa6aa6c306ac9fd87eef1d11_0",
@@ -41,8 +62,15 @@
       "sourceHash": "aa6aa6c306ac9fd87eef1d114f953d87f92da6ca7e7c8ceea2cdbebb91ba344d",
       "context": "Scripting > Architecture Overview",
       "contextHash": "e5c8cbfe7ea8142ea9c8ae64a18531b4a6823d25dbe0ae4d2bf173e7d86392cd",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "さらに理解を深めるために、Triliumの基本アーキテクチャについて説明します。本質的には古典的なWebアプリケーションであり、主に次の2つのコンポーネントで構成されています。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_89f237fbd5faa934840ed39a_0",
@@ -51,8 +79,15 @@
       "sourceHash": "89f237fbd5faa934840ed39ab9451a6f7641899ce1c2b6de56f8a876f0d13e8d",
       "context": "Scripting > Architecture Overview",
       "contextHash": "e5c8cbfe7ea8142ea9c8ae64a18531b4a6823d25dbe0ae4d2bf173e7d86392cd",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "ブラウザで実行されるフロントエンド（HTML、CSS、JavaScriptを使用） - 主にユーザーとの対話やノートの表示などに使用されます。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_3fe7934785e3b116146dc078_0",
@@ -61,8 +96,15 @@
       "sourceHash": "3fe7934785e3b116146dc07875c417aac5553d422160113034feb0e289ef4b4d",
       "context": "Scripting > Architecture Overview",
       "contextHash": "e5c8cbfe7ea8142ea9c8ae64a18531b4a6823d25dbe0ae4d2bf173e7d86392cd",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "Node.jsランタイムでJavaScriptコードを実行するバックエンド - ノートの保存や暗号化などを担当します。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_a69c24073a58e8dfcd6bbb64_0",
@@ -71,8 +113,15 @@
       "sourceHash": "a69c24073a58e8dfcd6bbb644f5e6b2a37d4e44a97de5c0de0df785d580c5805",
       "context": "Scripting > Architecture Overview",
       "contextHash": "e5c8cbfe7ea8142ea9c8ae64a18531b4a6823d25dbe0ae4d2bf173e7d86392cd",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "このように、フロントエンドとバックエンドがあり、それぞれ異なる役割を持っていますが、どちらもJavaScriptコードを実行するという共通点があります。これにJavaScriptの__TRILIUM_PH_0__コード__TRILIUM_PH_1__を作成できるという事実が加わることで、様々なことが可能になります。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_a95610bb37953af2f48b30aa_0",
@@ -81,8 +130,15 @@
       "sourceHash": "a95610bb37953af2f48b30aa6d0afc9a30fb6e1debde55d62bd3fd453c8986c7",
       "context": "Scripting > Use cases",
       "contextHash": "660b6ad6c0c1f5e730cd41b201ebfb23c00562da00aff88a80903d817edcbcbf",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "ユースケース__TRILIUM_PH_0__",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_71874b800bc128a91cbc67c6_0",
@@ -91,8 +147,15 @@
       "sourceHash": "71874b800bc128a91cbc67c644a0b8121056e10557ac5d53a6d9b9b177263220",
       "context": "Scripting > Use cases",
       "contextHash": "660b6ad6c0c1f5e730cd41b201ebfb23c00562da00aff88a80903d817edcbcbf",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "__TRILIUM_PH_0__「新規タスク」ランチャーボタン__TRILIUM_PH_1__",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_667f19adc09c425e2af8b887_0",
@@ -101,8 +164,15 @@
       "sourceHash": "667f19adc09c425e2af8b8871f43c88c3d112c584009e3aba807dc17465d6d91",
       "context": "Scripting > Action handler",
       "contextHash": "606d09cbf3b8704c2961d51b776cefaae3b97e47ba768177f7c148793020166b",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "アクションハンドラー__TRILIUM_PH_0__",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_3411002b498d9f28193249ab_0",
@@ -111,8 +181,15 @@
       "sourceHash": "3411002b498d9f28193249abea15db833161b9385a4fe65b1025e5fc41850181",
       "context": "Scripting > Action handler",
       "contextHash": "606d09cbf3b8704c2961d51b776cefaae3b97e47ba768177f7c148793020166b",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "データベースへのノートの保存はバックエンドの役割であるため、すぐにバックエンドに制御を渡し、ノートの作成を依頼します。これが完了したら、新しく作成したノートを表示し、ユーザーがタスクのタイトルや属性を設定できるようにします。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_9e79dc77e7d9d4ad2ce94bcd_0",
@@ -121,8 +198,15 @@
       "sourceHash": "9e79dc77e7d9d4ad2ce94bcd46b40bf057c2d802e9963cb74f25309328e2f9b3",
       "context": "Scripting > Script execution",
       "contextHash": "36cbfa80504f7c82480d0c535ca6a2ed1289050d82e3bdb2c5b8aec0745e7540",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "スクリプトの実行__TRILIUM_PH_0__",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_492cc30f02a0ac3652bbf788_0",
@@ -131,8 +215,15 @@
       "sourceHash": "492cc30f02a0ac3652bbf7880ff6317dcf95cb35190f19eaba28e54e9ddcc30d",
       "context": "Scripting > Script execution",
       "contextHash": "36cbfa80504f7c82480d0c535ca6a2ed1289050d82e3bdb2c5b8aec0745e7540",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "これで、ツールバーにボタンを追加するスクリプトが用意できました。しかし、これをどのように実行すればよいでしょうか？1つの方法は、__TRILIUM_PH_0__ __TRILIUM_PH_1__スクリプトの実行__TRILIUM_PH_2__ボタンをクリックすることです。これの問題点は、このUIの変更がTriliumのランタイムのセッションに限定されているため、Triliumを再起動するとボタンが消えてしまうことです。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_5ccd630b96dcf38290e77932_0",
@@ -141,8 +232,15 @@
       "sourceHash": "5ccd630b96dcf38290e7793293bda07d84820faaf982eb8f17caf9b3cf016028",
       "context": "Scripting > Script execution",
       "contextHash": "36cbfa80504f7c82480d0c535ca6a2ed1289050d82e3bdb2c5b8aec0745e7540",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "Triliumが起動するたびにこれを実行する必要がありますが、起動のたびに手動で再生ボタンをクリックするのは避けたいところです。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_85cd0d82f0c3c6fb3e4d53ac_0",
@@ -151,8 +249,15 @@
       "sourceHash": "85cd0d82f0c3c6fb3e4d53ac4e510e909e124da523991e44b2fff75ea3bd2aae",
       "context": "Scripting > Script execution",
       "contextHash": "36cbfa80504f7c82480d0c535ca6a2ed1289050d82e3bdb2c5b8aec0745e7540",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "解決策は、ノートに__TRILIUM_PH_0__ラベル__TRILIUM_PH_1____TRILIUM_PH_2__を付与することです。これはTriliumが認識する「システム」ラベルの1つです。ご想像のとおり、これにより、このようにラベル付けされたすべてのスクリプトノートが、Triliumのフロントエンドの起動時に実行されるようになります。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_47684de4880ba21d36e731ed_0",
@@ -161,8 +266,15 @@
       "sourceHash": "47684de4880ba21d36e731ed822a69aa564b6416d4fd259c56e22215b7c08099",
       "context": "Scripting > Script execution",
       "contextHash": "36cbfa80504f7c82480d0c535ca6a2ed1289050d82e3bdb2c5b8aec0745e7540",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "(__TRILIUM_PH_0__は__TRILIUM_PH_1__モバイルフロントエンド__TRILIUM_PH_2__では機能しません。そこでスクリプトを実行したい場合は、スクリプトに__TRILIUM_PH_3__ラベルを付与してください)。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_d0f1b31b94ce723f839fa75f_0",
@@ -171,8 +283,15 @@
       "sourceHash": "d0f1b31b94ce723f839fa75f98fb547ab71c22475059bd07516d632698181674",
       "context": "Scripting > Script execution > Execute button",
       "contextHash": "8e862a379ee9adeec989a2f6121633425d531c1f35a9eca71e40e52e12ac938b",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "実行ボタン__TRILIUM_PH_0__",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_eee3e261d9266826493d1881_0",
@@ -181,8 +300,15 @@
       "sourceHash": "eee3e261d9266826493d1881ae0c6110852fe8ddad929d1f3b0778c6c935bc00",
       "context": "Scripting > Script execution > Execute button",
       "contextHash": "8e862a379ee9adeec989a2f6121633425d531c1f35a9eca71e40e52e12ac938b",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "実行可能なコードノート（フロントエンドまたはバックエンド）および保存されたSQLコンソールには、オプションで説明文とともに専用の __TRILIUM_PH_0__ 実行ボタンを持たせることができます。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_d1349f779c40e151cf899280_0",
@@ -191,8 +317,15 @@
       "sourceHash": "d1349f779c40e151cf89928060996d64b66f0cb344c53c9430ec9c506e5b69b4",
       "context": "Scripting > Script execution > Execute button",
       "contextHash": "8e862a379ee9adeec989a2f6121633425d531c1f35a9eca71e40e52e12ac938b",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "これを行うには、次の __TRILIUM_PH_0__ラベル__TRILIUM_PH_1__ を適用します。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_707733b9531cc655cc7026f2_0",
@@ -201,8 +334,15 @@
       "sourceHash": "707733b9531cc655cc7026f2d27a2e635f43a096a68c33af68287994086743bd",
       "context": "Scripting > Script execution > Execute button",
       "contextHash": "8e862a379ee9adeec989a2f6121633425d531c1f35a9eca71e40e52e12ac938b",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "__TRILIUM_PH_0__。ラベルの値がボタンのラベルとして表示されます。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_9fe7f63164e974e5b8539b95_0",
@@ -211,8 +351,15 @@
       "sourceHash": "9fe7f63164e974e5b8539b95dd7c50ceafb72a480de6f365945fa511e32349b8",
       "context": "Scripting > Script execution > Execute button",
       "contextHash": "8e862a379ee9adeec989a2f6121633425d531c1f35a9eca71e40e52e12ac938b",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "オプションの __TRILIUM_PH_0__。ボタンの横に説明テキストを追加します。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_a2a029df6ea856dbef2a101f_0",
@@ -221,8 +368,15 @@
       "sourceHash": "a2a029df6ea856dbef2a101ff8f2571b35c5b9eeb08846f34a24de8c9539ddf3",
       "context": "Scripting > Autocomplete & linting",
       "contextHash": "263bc05830d9e5b724d8ed55f90507179bd7161ab435d12efd9ae9651683ae4d",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "自動補完と構文チェック__TRILIUM_PH_0__",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_45cdbf801f3e9a69343bec5f_0",
@@ -231,8 +385,15 @@
       "sourceHash": "45cdbf801f3e9a69343bec5f3e0231707ed30cacb40b83dbf081645a96dc74a2",
       "context": "Scripting > Autocomplete & linting",
       "contextHash": "263bc05830d9e5b724d8ed55f90507179bd7161ab435d12efd9ae9651683ae4d",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "Trilium v0.104.0 以降、フロントエンドスクリプト、バックエンドスクリプト、およびレンダーノートで自動補完システムを利用できるようになりました。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_ba931d3b4df57b3e47174448_0",
@@ -241,8 +402,15 @@
       "sourceHash": "ba931d3b4df57b3e471744486b722870f7b343a230f683c8bac877e8948fb647",
       "context": "Scripting > Autocomplete & linting",
       "contextHash": "263bc05830d9e5b724d8ed55f90507179bd7161ab435d12efd9ae9651683ae4d",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "自動補完は、名前の入力中や __TRILIUM_PH_0__.__TRILIUM_PH_1__ の後、あるいは __TRILIUM_PH_2__Ctrl__TRILIUM_PH_3__+__TRILIUM_PH_4__Space__TRILIUM_PH_5__ を押して手動で開きます。リストの見た目と動作はテキストノートの __TRILIUM_PH_6__/__TRILIUM_PH_7__ リストに似ています。各エントリには種類（関数、プロパティ、クラスなど）に応じたアイコンがあり、__TRILIUM_PH_8__Enter__TRILIUM_PH_9__ または __TRILIUM_PH_10__Tab__TRILIUM_PH_11__ でハイライトされている項目が挿入され、__TRILIUM_PH_12__Esc__TRILIUM_PH_13__ で閉じられます。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_4824dc021ec86d6d6ccfba6b_0",
@@ -251,8 +419,15 @@
       "sourceHash": "4824dc021ec86d6d6ccfba6b5154d80984942337e88cbd53621d5cb393383329",
       "context": "Scripting > Autocomplete & linting",
       "contextHash": "263bc05830d9e5b724d8ed55f90507179bd7161ab435d12efd9ae9651683ae4d",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "それに加えて、エディタには到達不能コードなどの構文エラーや警告も表示されます。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_412907a84684e67bb1b2a3f6_0",
@@ -261,8 +436,15 @@
       "sourceHash": "412907a84684e67bb1b2a3f6752fa4a824e5904eaf935259075e43ae59da265c",
       "context": "Scripting > Autocomplete & linting",
       "contextHash": "263bc05830d9e5b724d8ed55f90507179bd7161ab435d12efd9ae9651683ae4d",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "報告されたエラー/警告に関して誤検知に気づいた場合、またはAPIが正しくないか欠落している場合は、コードサンプルを添えてお気軽に __TRILIUM_PH_0__issueを開いて__TRILIUM_PH_1__ ください。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_b9241f24d5bb63a8fabe1834_0",
@@ -271,8 +453,15 @@
       "sourceHash": "b9241f24d5bb63a8fabe1834028294c4a42a43b8832a18c957a0b22bb55e0338",
       "context": "Scripting > More showcases",
       "contextHash": "167f17ff736b9a95b36d7cc9150638e1199d9229bf8dfad574074383d31cb72e",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "その他の実例__TRILIUM_PH_0__",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_76236c419ef0b5b85d189c27_0",
@@ -281,8 +470,15 @@
       "sourceHash": "76236c419ef0b5b85d189c275e41445bb338f5c737d26a7b1b90d17b0c40a7fa",
       "context": "Scripting > More showcases",
       "contextHash": "167f17ff736b9a95b36d7cc9150638e1199d9229bf8dfad574074383d31cb72e",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "スクリプトに関するその他の解説は、__TRILIUM_PH_0__高度な実例__TRILIUM_PH_1__をご覧ください。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_0a6dc23a30d6c5863b604256_0",
@@ -291,8 +487,15 @@
       "sourceHash": "0a6dc23a30d6c5863b60425625ed98ec9193bec6759d3b3d1fef020f05155765",
       "context": "Scripting > Events",
       "contextHash": "2c41d84e149c9cdd33ed1b802f436464516130195e775caa713418c770f67eed",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "イベント__TRILIUM_PH_0__",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_1a920fe60c3d4f92dac524d2_0",
@@ -301,8 +504,15 @@
       "sourceHash": "1a920fe60c3d4f92dac524d257e1e11b9310db99546aae0a0944a9bcef0fe563",
       "context": "Scripting > Events",
       "contextHash": "2c41d84e149c9cdd33ed1b802f436464516130195e775caa713418c770f67eed",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "__TRILIUM_PH_0__イベント__TRILIUM_PH_1__をご覧ください。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_2073a1be0869413e8de3b91d_0",
@@ -311,8 +521,15 @@
       "sourceHash": "2073a1be0869413e8de3b91d142c10a48d3d5a58f614d9d78193a0922b42e889",
       "context": "Scripting > Script API",
       "contextHash": "0fba4bb547a04895ab3d3d42c492a1c6c9e8eef23e6033518be3c82d67c18d45",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "スクリプトAPI__TRILIUM_PH_0__",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_0d84c6362af1b1ce4f4c199d_0",
@@ -321,9 +538,55 @@
       "sourceHash": "0d84c6362af1b1ce4f4c199d8a03941bdaffa5c909459a0fcf7b3c077e196ec2",
       "context": "Scripting > Script API",
       "contextHash": "0fba4bb547a04895ab3d3d42c492a1c6c9e8eef23e6033518be3c82d67c18d45",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "__TRILIUM_PH_0__スクリプトAPI__TRILIUM_PH_1__をご覧ください。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     }
   ],
-  "requests": []
+  "requests": [
+    {
+      "at": "2026-11-14T14:14:05.465Z",
+      "model": "gemini-3.5-flash-lite",
+      "batchJob": "batches/8vehrrvdpag09tp4gjf9dbgj006t9k2gkkyl",
+      "requestKey": "CdNpE2pqjmI6_f3c9a980f24d4f3e",
+      "modelVersion": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 1558,
+        "candidatesTokenCount": 1190,
+        "totalTokenCount": 2748,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 1558
+          }
+        ],
+        "serviceTier": "standard"
+      }
+    },
+    {
+      "at": "2026-11-14T14:14:05.465Z",
+      "model": "gemini-3.5-flash-lite",
+      "batchJob": "batches/8vehrrvdpag09tp4gjf9dbgj006t9k2gkkyl",
+      "requestKey": "CdNpE2pqjmI6_7e48bb9b8a05017f",
+      "modelVersion": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 1499,
+        "candidatesTokenCount": 1050,
+        "totalTokenCount": 2549,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 1499
+          }
+        ],
+        "serviceTier": "standard"
+      }
+    }
+  ]
 }

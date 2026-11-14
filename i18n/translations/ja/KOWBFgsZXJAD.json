@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "pageId": "KOWBFgsZXJAD",
   "sourceFile": "docs/User Guide/User Guide/AI/MCP.md",
-  "sourceRevision": "03d17b60f59b5efc29b880b11481471d0fe0ff57",
+  "sourceRevision": "bbc6051da7fab504dac8c69279859c8cb9c61eef",
   "units": [
     {
       "id": "u_5063b3897d4a40a9d9186191_0",
@@ -11,8 +11,15 @@
       "sourceHash": "5063b3897d4a40a9d9186191ccbce96ca357dddca3d571ddc27805bd40867d68",
       "context": "MCP",
       "contextHash": "53f13ae99ed53bd346eb8e1c8cefb7ef8260683b50401caf101360967ea052aa",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "MCP",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_1b39c059c7e2cd3676fffc51_0",
@@ -21,8 +28,15 @@
       "sourceHash": "1b39c059c7e2cd3676fffc51a8b26b804d3bde269f9dabad42aecc540a207f89",
       "context": "MCP",
       "contextHash": "53f13ae99ed53bd346eb8e1c8cefb7ef8260683b50401caf101360967ea052aa",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "__TRILIUM_PH_0__Model Context Protocol__TRILIUM_PH_1__ を使用すると、Claude Code などの外部チャットアプリケーションから Trilium データベースへのアクセスが可能になります。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_d7b1c36691122772831a53f4_0",
@@ -31,8 +45,15 @@
       "sourceHash": "d7b1c36691122772831a53f4e2339fe13dadd61837da5e4edef44bffb91f64e2",
       "context": "MCP > Built-in MCP",
       "contextHash": "ad4475039272fdbb6b2cd93b10f318dff67fe5dd02ee89d7664a2233d7c4f119",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "組み込み MCP__TRILIUM_PH_0__",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_c0537d71e56e6f998415b98d_0",
@@ -41,8 +62,15 @@
       "sourceHash": "c0537d71e56e6f998415b98d4f26d65af2218ed43d4145892d2a1cf8c81407b1",
       "context": "MCP > Built-in MCP",
       "contextHash": "ad4475039272fdbb6b2cd93b10f318dff67fe5dd02ee89d7664a2233d7c4f119",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "v0.103.0 には、デフォルトでは有効になっていない組み込みの MCP サーバーが付属しています。有効にするには、__TRILIUM_PH_0__Options__TRILIUM_PH_1__ → AI/LLM に移動し、__TRILIUM_PH_2__MCP server__TRILIUM_PH_3__ オプションを切り替えます。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_ee73d2378f732a4db252b222_0",
@@ -51,8 +79,15 @@
       "sourceHash": "ee73d2378f732a4db252b222be2e18f4f49d6002ff46f608f4da8681044981f6",
       "context": "MCP > Built-in MCP",
       "contextHash": "ad4475039272fdbb6b2cd93b10f318dff67fe5dd02ee89d7664a2233d7c4f119",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "MCP が有効になったら、AI アシスタントに MCP サーバーを追加するだけです。使用する URL は、MCP のトグルの下にある __TRILIUM_PH_0__Endpoint__TRILIUM_PH_1__ __TRILIUM_PH_2__URL__TRILIUM_PH_3__ 情報に表示されます。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_13d7964b9e6bb692c8425c5f_0",
@@ -61,8 +96,15 @@
       "sourceHash": "13d7964b9e6bb692c8425c5fec174e858a633c658852f18b9dd72d592f31c24a",
       "context": "MCP > Built-in MCP",
       "contextHash": "ad4475039272fdbb6b2cd93b10f318dff67fe5dd02ee89d7664a2233d7c4f119",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "HTTP トランスポートのみがサポートされており、__TRILIUM_PH_0__ メソッドはサポートされていません。それが問題になる場合は、以下に挙げるサードパーティ製の代替手段の使用を検討してください。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_2aab2fba95cd06cd683ed8b8_0",
@@ -71,8 +113,15 @@
       "sourceHash": "2aab2fba95cd06cd683ed8b82ced23f4607ffcc57aa2ed36b14d63f245e71819",
       "context": "MCP > Built-in MCP",
       "contextHash": "ad4475039272fdbb6b2cd93b10f318dff67fe5dd02ee89d7664a2233d7c4f119",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "MCP に公開されるツールは、内部チャットでサポートされているツールと同じです（__TRILIUM_PH_0__Note access__TRILIUM_PH_1__ セクションを参照）。__TRILIUM_PH_2__ ラベルが付いたノートは両方から非表示になります。__TRILIUM_PH_3__Privacy__TRILIUM_PH_4__ を参照してください。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_83993cd79f31801eed03053b_0",
@@ -81,8 +130,15 @@
       "sourceHash": "83993cd79f31801eed03053b3874008ab1a2dc5a8d094c7e86f6218dfcb5fa87",
       "context": "MCP > Built-in MCP > Approving tool calls",
       "contextHash": "a80bb9037719f6c8abf00fe34f2fe7dec161205236935fe869f7c17790befdbd",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "ツール呼び出しの承認__TRILIUM_PH_0__",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_692b5f605ab1037914f548df_0",
@@ -91,8 +147,15 @@
       "sourceHash": "692b5f605ab1037914f548dfb3a0537c6234d3786533ca401c0fafb9da53c912",
       "context": "MCP > Built-in MCP > Approving tool calls",
       "contextHash": "a80bb9037719f6c8abf00fe34f2fe7dec161205236935fe869f7c17790befdbd",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "Trilium は外部アシスタントが行った呼び出しの承認を求めません。それはアシスタント自身の権限設定に委ねられています。判断を助けるため、各ツールはアシスタントに対し、ノートの読み取りのみを行うのか、ノートへの追加のみを行うのか（ノートの作成、クローン、追記）、あるいは何かの上書きや削除を行うのか（編集、名前変更、移動、削除）を通知します。これらのヒントをサポートするアシスタントは、Trilium のチャットにおける __TRILIUM_PH_0__Ask before changes__TRILIUM_PH_1__ のように、読み取りを独自に実行し、変更の前に確認を求めることができます。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_5b7d63b9792e21ad9aef6661_0",
@@ -101,8 +164,15 @@
       "sourceHash": "5b7d63b9792e21ad9aef6661f68ad13b2826e3be4c7e0e290f3b58ffec5d97d0",
       "context": "MCP > Built-in MCP > Authentication",
       "contextHash": "52249a21ff85b50338d76b58c932f3a2189a6bb72ed384f5f0d30f0d507a7904",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "認証__TRILIUM_PH_0__",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_7ec01ec446493533eb2d5f39_0",
@@ -111,8 +181,15 @@
       "sourceHash": "7ec01ec446493533eb2d5f3950bf265c455021ec246c747365cca2ea16dca243",
       "context": "MCP > Built-in MCP > Authentication",
       "contextHash": "52249a21ff85b50338d76b58c932f3a2189a6bb72ed384f5f0d30f0d507a7904",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "不正アクセスからノートを保護するため、MCP サーバーには認証が必要です。一般的に MCP サーバーは認証に OAuth をサポートする必要がありますが、Trilium は Bearer トークンを使用したよりシンプルなメカニズムを使用しています。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_c10fb3145cc3ef3a9af43541_0",
@@ -121,8 +198,15 @@
       "sourceHash": "c10fb3145cc3ef3a9af43541ed2997ca129d458f4983381f6091820ba9a951f3",
       "context": "MCP > Built-in MCP > Authentication",
       "contextHash": "52249a21ff85b50338d76b58c932f3a2189a6bb72ed384f5f0d30f0d507a7904",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "認証を設定するには、まず __TRILIUM_PH_0__Options__TRILIUM_PH_1__ → __TRILIUM_PH_2__ETAPI__TRILIUM_PH_3__ に移動して __TRILIUM_PH_4__ETAPI (REST API)__TRILIUM_PH_5__ トークンを作成します。次に、__TRILIUM_PH_6__Options__TRILIUM_PH_7__ → __TRILIUM_PH_8__AI / LLM__TRILIUM_PH_9__ の手順に従い、MCP の下の __TRILIUM_PH_10__How to connect an assistant__TRILIUM_PH_11__ セクションを確認してください。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_4b9d77091a4952b366af1a83_0",
@@ -131,8 +215,15 @@
       "sourceHash": "4b9d77091a4952b366af1a83714603286e57a253e396387d3900b069c0865dff",
       "context": "MCP > Third-party alternatives",
       "contextHash": "bbb74fcaf9e35e3a6a3f22501cd145d615c59ba9ae9acb1ea5fcf0ffa9b77b0f",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "サードパーティ製の代替手段__TRILIUM_PH_0__",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_f96a0c798502da6588eb8c9f_0",
@@ -141,8 +232,15 @@
       "sourceHash": "f96a0c798502da6588eb8c9f8c5f91926f2998c0bf6f8ab5538e7e7ad62a69bf",
       "context": "MCP > Third-party alternatives",
       "contextHash": "bbb74fcaf9e35e3a6a3f22501cd145d615c59ba9ae9acb1ea5fcf0ffa9b77b0f",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "以下は、Trilium の組み込み MCP 機能の代替手段です。Trilium の AI 実装はまだ実験的な段階であるため、そのツール群は外部ツールほど成熟していない可能性があります。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_3a9f14c4c12030666eefa39e_0",
@@ -151,8 +249,15 @@
       "sourceHash": "3a9f14c4c12030666eefa39e9a6e6c6fe4aa8dba5bec2d3aa7dff457cfcc2165",
       "context": "MCP > Third-party alternatives",
       "contextHash": "bbb74fcaf9e35e3a6a3f22501cd145d615c59ba9ae9acb1ea5fcf0ffa9b77b0f",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "__TRILIUM_PH_0__perfectra1n/triliumnext-mcp__TRILIUM_PH_1__",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_df8c7c3922c20b93bd869fa4_0",
@@ -161,8 +266,15 @@
       "sourceHash": "df8c7c3922c20b93bd869fa4d42faf4f8e6f15c658665c98128577e1151dee34",
       "context": "MCP > Third-party alternatives",
       "contextHash": "bbb74fcaf9e35e3a6a3f22501cd145d615c59ba9ae9acb1ea5fcf0ffa9b77b0f",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "__TRILIUM_PH_0__tan-yong-sheng/triliumnext-mcp__TRILIUM_PH_1__",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_af2378d2e9ad7a9f767606cd_0",
@@ -171,8 +283,15 @@
       "sourceHash": "af2378d2e9ad7a9f767606cd5ef0fd746dda575f4a0350b019b313309ef30ab3",
       "context": "MCP > Third-party alternatives",
       "contextHash": "bbb74fcaf9e35e3a6a3f22501cd145d615c59ba9ae9acb1ea5fcf0ffa9b77b0f",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "__TRILIUM_PH_0__eliassoares/trilium-fastmcp__TRILIUM_PH_1__",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_eddebe9ef4479eb515876a8a_0",
@@ -181,9 +300,55 @@
       "sourceHash": "eddebe9ef4479eb515876a8a5cfc06e3934bae468ece5434c052606714dd50c7",
       "context": "MCP > Third-party alternatives",
       "contextHash": "bbb74fcaf9e35e3a6a3f22501cd145d615c59ba9ae9acb1ea5fcf0ffa9b77b0f",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "これらのソリューションはサードパーティ製であるため、Trilium Notesチームによる直接の推奨やサポートは提供されていません。質問や問題については、それぞれの対応するリポジトリにお問い合わせください。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     }
   ],
-  "requests": []
+  "requests": [
+    {
+      "at": "2026-11-14T14:14:05.465Z",
+      "model": "gemini-3.5-flash-lite",
+      "batchJob": "batches/8vehrrvdpag09tp4gjf9dbgj006t9k2gkkyl",
+      "requestKey": "KOWBFgsZXJAD_c9bc2c9215f9cdeb",
+      "modelVersion": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 1755,
+        "candidatesTokenCount": 1380,
+        "totalTokenCount": 3135,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 1755
+          }
+        ],
+        "serviceTier": "standard"
+      }
+    },
+    {
+      "at": "2026-11-14T14:14:05.465Z",
+      "model": "gemini-3.5-flash-lite",
+      "batchJob": "batches/8vehrrvdpag09tp4gjf9dbgj006t9k2gkkyl",
+      "requestKey": "KOWBFgsZXJAD_86c9f3e41ac0fe7e",
+      "modelVersion": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 452,
+        "candidatesTokenCount": 150,
+        "totalTokenCount": 602,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 452
+          }
+        ],
+        "serviceTier": "standard"
+      }
+    }
+  ]
 }

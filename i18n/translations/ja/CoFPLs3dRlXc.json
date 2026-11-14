@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "pageId": "CoFPLs3dRlXc",
   "sourceFile": "docs/User Guide/User Guide/Basic Concepts and Features/Notes/Read-Only Notes.md",
-  "sourceRevision": "03d17b60f59b5efc29b880b11481471d0fe0ff57",
+  "sourceRevision": "bbc6051da7fab504dac8c69279859c8cb9c61eef",
   "units": [
     {
       "id": "u_264197ffd8eef7ec8aa85174_0",
@@ -171,8 +171,15 @@
       "sourceHash": "366705aa8b173cd713b152b53f9be890df13d0316b0479f1320b9205e0268d4a",
       "context": "Read-Only Notes > Temporarily editing a read-only note",
       "contextHash": "0b3cc5e3d21e5eaefc0d97986b0598407cc7ad8d760ef0460c21269ed2c09e31",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "読み取り専用ノートの一時的な編集__TRILIUM_PH_0__",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_9372c877f6c2bfaf91dbca16_0",
@@ -181,8 +188,15 @@
       "sourceHash": "9372c877f6c2bfaf91dbca16a690c93ef811657159d68e97d75fe6b34de63fd9",
       "context": "Read-Only Notes > Temporarily editing a read-only note",
       "contextHash": "0b3cc5e3d21e5eaefc0d97986b0598407cc7ad8d760ef0460c21269ed2c09e31",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "読み取り専用ノートにアクセスした際、__TRILIUM_PH_0__Read-only__TRILIUM_PH_1__バッジを押すことで一時的に編集可能にすることができます。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_325ec484db874487f22b4e2c_0",
@@ -191,8 +205,15 @@
       "sourceHash": "325ec484db874487f22b4e2c0a774e1e6c1d2081380b3aa09abb0e2aee9edfa1",
       "context": "Read-Only Notes > Temporarily editing a read-only note",
       "contextHash": "0b3cc5e3d21e5eaefc0d97986b0598407cc7ad8d760ef0460c21269ed2c09e31",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "押すとノートが編集可能になりますが、別のノートに移動すると再び読み取り専用に戻ります。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_94bdd0a686ee8956b15a7bfd_0",
@@ -201,9 +222,36 @@
       "sourceHash": "94bdd0a686ee8956b15a7bfdaf032e3c56f24b6b795a852bc04d23d89e86a83c",
       "context": "Read-Only Notes > Temporarily editing a read-only note",
       "contextHash": "0b3cc5e3d21e5eaefc0d97986b0598407cc7ad8d760ef0460c21269ed2c09e31",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "内蔵ユーザーガイドのページは例外です。これらはTrilium自体の一部であり、一時的なものであっても編集することはできません。__TRILIUM_PH_0__Read-only__TRILIUM_PH_1__バッジを押すことはできず、ノートメニューからの編集も提供されず、右サイドバーに表示される属性を変更する方法もありません。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     }
   ],
-  "requests": []
+  "requests": [
+    {
+      "at": "2026-11-14T14:14:05.465Z",
+      "model": "gemini-3.5-flash-lite",
+      "batchJob": "batches/8vehrrvdpag09tp4gjf9dbgj006t9k2gkkyl",
+      "requestKey": "CoFPLs3dRlXc_c35d312a4d8cce7c",
+      "modelVersion": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 667,
+        "candidatesTokenCount": 296,
+        "totalTokenCount": 963,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 667
+          }
+        ],
+        "serviceTier": "standard"
+      }
+    }
+  ]
 }

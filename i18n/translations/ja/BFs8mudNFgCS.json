@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "pageId": "BFs8mudNFgCS",
   "sourceFile": "docs/User Guide/User Guide/Basic Concepts and Features/Notes.md",
-  "sourceRevision": "03d17b60f59b5efc29b880b11481471d0fe0ff57",
+  "sourceRevision": "bbc6051da7fab504dac8c69279859c8cb9c61eef",
   "units": [
     {
       "id": "u_5b6207d43b54cd9084d2e5a8_0",
@@ -171,8 +171,15 @@
       "sourceHash": "1dcf1d95b6a8155ce44be68259c139ecdd2fbc39511a42858866c68e5a1de1b2",
       "context": "Notes > Deleting / undeleting notes",
       "contextHash": "b20e63aee47b8cfb30d6bce4d368cb8f0fbaa9ba1d4c8214f1d3ef5a43b8e171",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "7日間（設定で変更可能）が経過すると、ノートは「完全に削除」されます。タイトル、コンテンツ、リビジョン、属性が消去され、（__TRILIUM_PH_0__バックアップ__TRILIUM_PH_1__を復元しない限り）復元することはできなくなります。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_b056715d5493280169407022_0",
@@ -181,8 +188,15 @@
       "sourceHash": "b056715d549328016940702234a644413c07c0558c4f59edcc3d85ec15afe208",
       "context": "Notes > See also",
       "contextHash": "3181b1fb5e350c7034e23c7c91707cb77239607b5d23510e89babff6c253bd44",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "こちらも参照してください__TRILIUM_PH_0__",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_054bb8108e719645ba68cb0c_0",
@@ -191,9 +205,36 @@
       "sourceHash": "054bb8108e719645ba68cb0cd91ef3cb8aa7edf9b87e52f51f1092aec4a8ee5e",
       "context": "Notes > See also",
       "contextHash": "3181b1fb5e350c7034e23c7c91707cb77239607b5d23510e89babff6c253bd44",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "__TRILIUM_PH_0__読み取り専用ノート__TRILIUM_PH_1__",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     }
   ],
-  "requests": []
+  "requests": [
+    {
+      "at": "2026-11-14T14:14:05.465Z",
+      "model": "gemini-3.5-flash-lite",
+      "batchJob": "batches/8vehrrvdpag09tp4gjf9dbgj006t9k2gkkyl",
+      "requestKey": "BFs8mudNFgCS_b7e206eefd067332",
+      "modelVersion": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 535,
+        "candidatesTokenCount": 238,
+        "totalTokenCount": 773,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 535
+          }
+        ],
+        "serviceTier": "standard"
+      }
+    }
+  ]
 }
