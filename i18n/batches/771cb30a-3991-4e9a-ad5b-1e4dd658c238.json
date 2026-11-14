@@ -186,5 +186,17 @@
   ],
   "name": "batches/r7p6esu1q5tanmw7iw09ragwz9yf43579pvj",
   "state": "JOB_STATE_SUCCEEDED",
+  "diagnostics": [
+    {
+      "responseIndex": 0,
+      "requestKey": "s3YCWHBfmYuM_ef9b047fffd03482",
+      "reason": "Unexpected or duplicate translation ID"
+    },
+    {
+      "responseIndex": 1,
+      "requestKey": "i6dbnitykE5D_631062bb89fa96c3",
+      "reason": "Unexpected or duplicate translation ID"
+    }
+  ],
   "error": "Some batch responses were invalid; valid responses were retained"
 }
