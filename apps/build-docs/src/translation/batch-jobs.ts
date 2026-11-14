@@ -4,7 +4,7 @@ import { join } from "node:path";
 
 import type { BatchJob } from "@google/genai";
 
-import { type BatchRequest, type BatchService, parseBatchResponse } from "./gemini";
+import { type BatchRequest, type BatchService, parseBatchResponse, TranslationIdError } from "./gemini";
 import { type Conditions, type Memory, pendingUnits, saveMemory } from "./memory";
 import { hash, validateTranslation } from "./segments";
 
@@ -22,7 +22,8 @@ export interface SavedJob {
     conditions: Conditions;
     requests: SavedRequest[];
     error?: string;
-    diagnostics?: { responseIndex: number; requestKey?: string; reason: string }[];
+    diagnostics?: { responseIndex: number; requestKey?: string; reason: string;
+        idMismatch?: TranslationIdError["details"] }[];
 }
 export interface TranslationPage { path: string; memory: Memory }
 
@@ -130,10 +131,12 @@ async function receive(directory: string, job: SavedJob, remote: BatchJob) {
                     "Translation changed protected placeholders", "Duplicate batch response key" ];
                 const reason = error instanceof Error && allowed.includes(error.message)
                     ? error.message : "Malformed batch response structure";
-                const requestKey = job.requests.find((request) =>
-                    request.key === item.metadata?.key)?.key;
-                job.diagnostics.push({ responseIndex: index, requestKey, reason });
+                const requestKey = error instanceof TranslationIdError ? error.requestKey
+                    : job.requests.find((request) => request.key === item.metadata?.key)?.key;
+                const idMismatch = error instanceof TranslationIdError ? error.details : undefined;
+                job.diagnostics.push({ responseIndex: index, requestKey, reason, idMismatch });
                 console.error(`Batch ${job.name}, response ${index}: ${reason}`);
+                if (idMismatch) console.error(JSON.stringify({ requestKey, ...idMismatch }));
                 // Do not guess the destination of malformed/reordered responses.
                 job.error = "Some batch responses were invalid; valid responses were retained";
             }

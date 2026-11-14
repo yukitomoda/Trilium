@@ -7,7 +7,7 @@ import { test } from "node:test";
 import { FinishReason, GenerateContentResponse, JobState } from "@google/genai";
 
 import { loadJobs, runBatchTranslation, type TranslationPage } from "./batch-jobs";
-import { type BatchRequest, type BatchService,createBatchService } from "./gemini";
+import { type BatchRequest, type BatchService,createBatchService, parseBatchResponse, TranslationIdError } from "./gemini";
 import { loadMemory, reconcile } from "./memory";
 import { extractPage } from "./segments";
 
@@ -149,6 +149,9 @@ void test("SDK uses batch endpoints and never retries create", async () => {
                         "application/json");
                     assert.equal(wire.request.generationConfig.responseJsonSchema
                         .properties.requestKey.enum[0], "request-one");
+                    assert.deepEqual(wire.request.generationConfig.responseJsonSchema
+                        .properties.translations.items.properties.id.enum,
+                    request.units.map((unit) => unit.id));
                     return Response.json({ name: "batches/job",
                         metadata: { state: "BATCH_STATE_PENDING" } });
                 }
@@ -222,5 +225,33 @@ void test("completed invalid results can be diagnosed and re-fetched without sub
         assert.equal(gets, 2);
         await assert.rejects(() => runBatchTranslation(pages,
             { ...options, recheckCompleted: true }), /requires collect mode/);
+    } finally { await rm(root, { recursive: true, force: true }); }
+});
+
+void test("translation ID diagnostics distinguish duplicates from unknown IDs", async () => {
+    const root = await mkdtemp(join(tmpdir(), "trilium-id-diagnostics-"));
+    try {
+        const request = { key: "one", pageId: "one", units: (await page(root, "one")).memory.units };
+        const data = response(request);
+        const content = JSON.parse(data.candidates![0].content!.parts![0].text!);
+        content.translations[1].id = content.translations[0].id;
+        data.candidates![0].content!.parts![0].text = JSON.stringify(content);
+        assert.throws(() => parseBatchResponse(data, [ request ]), (error: unknown) => {
+            assert.ok(error instanceof TranslationIdError);
+            assert.deepEqual(error.details.duplicatePositions, [ 1 ]);
+            assert.deepEqual(error.details.unknownPositions, []);
+            assert.deepEqual(error.details.missingIds, [ request.units[1].id ]);
+            return true;
+        });
+        content.translations[1].id = "untrusted model text";
+        data.candidates![0].content!.parts![0].text = JSON.stringify(content);
+        assert.throws(() => parseBatchResponse(data, [ request ]), (error: unknown) => {
+            assert.ok(error instanceof TranslationIdError);
+            assert.deepEqual(error.details.unknownPositions, [ 1 ]);
+            assert.deepEqual(error.details.duplicatePositions, []);
+            assert.equal(error.details.receivedIds[1], null);
+            assert.ok(!JSON.stringify(error.details).includes("untrusted model text"));
+            return true;
+        });
     } finally { await rm(root, { recursive: true, force: true }); }
 });

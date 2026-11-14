@@ -19,6 +19,15 @@ export interface BatchService {
     get(name: string): Promise<BatchJob>;
 }
 
+export class TranslationIdError extends Error {
+    constructor(public readonly requestKey: string, public readonly details: {
+        expectedIds: string[]; receivedIds: (string | null)[];
+        unknownPositions: number[]; duplicatePositions: number[]; missingIds: string[];
+    }) {
+        super("Unexpected or duplicate translation ID");
+    }
+}
+
 export function parseBatchResponse(data: GenerateContentResponse, requests: BatchRequest[]) {
     const candidate = data.candidates?.[0];
     if (candidate?.finishReason !== "STOP") throw new Error("Incomplete Gemini batch response");
@@ -32,6 +41,22 @@ export function parseBatchResponse(data: GenerateContentResponse, requests: Batc
         throw new Error("Unexpected batch request key or translation count");
     }
     const expected = new Map(request.units.map((unit) => [ unit.id, unit ]));
+    const receivedIds = result.translations.map((entry) =>
+        typeof entry?.id === "string" && /^u_[a-f0-9]{1,64}_\d{1,8}$/.test(entry.id)
+            ? entry.id : null);
+    const seenIds = new Set<string>();
+    const unknownPositions: number[] = [];
+    const duplicatePositions: number[] = [];
+    for (const [ index, entry ] of result.translations.entries()) {
+        if (!entry || !expected.has(entry.id)) unknownPositions.push(index);
+        if (seenIds.has(entry?.id)) duplicatePositions.push(index);
+        seenIds.add(entry?.id);
+    }
+    if (unknownPositions.length || duplicatePositions.length) {
+        throw new TranslationIdError(request.key, { expectedIds: [ ...expected.keys() ],
+            receivedIds, unknownPositions, duplicatePositions,
+            missingIds: [ ...expected.keys() ].filter((id) => !seenIds.has(id)) });
+    }
     const translations: Record<string, string> = {};
     for (const entry of result.translations) {
         const unit = expected.get(entry.id);
@@ -76,8 +101,9 @@ export function createBatchService(options: GeminiOptions): BatchService {
                             requestKey: { type: "string", enum: [ request.key ] },
                             translations: { type: "array", items: {
                                 type: "object", required: [ "id", "translation" ],
-                                properties: { id: { type: "string" },
-                                    translation: { type: "string" } }
+                                properties: { id: { type: "string",
+                                    enum: request.units.map((unit) => unit.id) },
+                                translation: { type: "string" } }
                             } }
                         }
                     }
