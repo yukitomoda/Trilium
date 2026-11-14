@@ -22,6 +22,7 @@ export interface SavedJob {
     conditions: Conditions;
     requests: SavedRequest[];
     error?: string;
+    rejectedResponses?: { responseIndex: number; text: string; finishReason?: string }[];
     diagnostics?: { responseIndex: number; requestKey?: string; reason: string;
         idMismatch?: TranslationIdError["details"] }[];
 }
@@ -107,6 +108,7 @@ async function receive(directory: string, job: SavedJob, remote: BatchJob) {
         }
         delete job.error;
         job.diagnostics = [];
+        job.rejectedResponses = [];
         for (const request of job.requests) delete request.error;
         const seen = new Set<string>();
         for (let index = 0; index < responses.length; index++) {
@@ -124,6 +126,12 @@ async function receive(directory: string, job: SavedJob, remote: BatchJob) {
                 seen.add(result.key);
                 job.requests.find((request) => request.key === result.key)!.result = result;
             } catch (error) {
+                // Preserve only generated documentation, never HTTP headers or SDK errors.
+                const candidate = item.response.candidates?.[0];
+                job.rejectedResponses.push({ responseIndex: index,
+                    text: candidate?.content?.parts?.filter((part) => !part.thought)
+                        .map((part) => part.text ?? "").join("") ?? "",
+                    finishReason: candidate?.finishReason });
                 // Only our fixed validation messages are persisted; never SDK/model text.
                 const allowed = [ "Incomplete Gemini batch response", "Invalid batch response JSON",
                     "Unexpected batch request key or translation count",

@@ -207,6 +207,8 @@ void test("completed invalid results can be diagnosed and re-fetched without sub
         assert.equal((await runBatchTranslation(pages, collection)).failed, true);
         let saved = (await loadJobs(options.directory))[0];
         assert.equal(saved.diagnostics![0].reason, "Invalid batch response JSON");
+        assert.equal(saved.rejectedResponses![0].text, "invalid JSON");
+        assert.equal(saved.rejectedResponses![0].finishReason, "STOP");
         assert.equal(saved.diagnostics![0].requestKey, requests[0].key);
         assert.equal(saved.phase, "complete");
         await runBatchTranslation(pages, collection);
@@ -220,6 +222,7 @@ void test("completed invalid results can be diagnosed and re-fetched without sub
         assert.equal(saved.error, undefined);
         assert.equal(saved.requests[0].error, undefined);
         assert.deepEqual(saved.diagnostics, []);
+        assert.deepEqual(saved.rejectedResponses, []);
         assert.equal(pages[0].memory.units[1].translation, "こんにちは one");
         assert.equal(creates, 1, "Recovery must never submit a replacement batch");
         assert.equal(gets, 2);
