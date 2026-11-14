@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "pageId": "GBBMSlVSOIGP",
   "sourceFile": "docs/User Guide/User Guide/AI.md",
-  "sourceRevision": "03d17b60f59b5efc29b880b11481471d0fe0ff57",
+  "sourceRevision": "bbc6051da7fab504dac8c69279859c8cb9c61eef",
   "units": [
     {
       "id": "u_05906e7b73ccdae8ec8fcefc_0",
@@ -11,8 +11,15 @@
       "sourceHash": "05906e7b73ccdae8ec8fcefc4d4af50182885068c6924f2644fa2b0ac53fa6c9",
       "context": "AI",
       "contextHash": "11fb682be0a0233d5fb899721ecfc1827d20f0d2ff2e093310efa61efca8af1c",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "AI",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_479bd4b2bc2fc864e63433be_0",
@@ -21,8 +28,15 @@
       "sourceHash": "479bd4b2bc2fc864e63433bea146aab88a92c48280cabc9095faf2041409c853",
       "context": "AI",
       "contextHash": "11fb682be0a0233d5fb899721ecfc1827d20f0d2ff2e093310efa61efca8af1c",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "Triliumは、大規模言語モデルに接続して、ノート上で直接動作するアシスタントとして使用できます。読んでいるノートについて質問したり、コンテンツの下書きや再構築をさせたり、スクリプトやウィジェットを作成させたりすることができます。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_e74a8c419987a9eb0a0bad6c_0",
@@ -31,8 +45,15 @@
       "sourceHash": "e74a8c419987a9eb0a0bad6c5809577371b53a862265235ebe4af0e6f318b209",
       "context": "AI",
       "contextHash": "11fb682be0a0233d5fb899721ecfc1827d20f0d2ff2e093310efa61efca8af1c",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "この連携機能はデフォルトではオフになっており、有効にしてプロバイダーを設定するまでは何も動作しません。Triliumには独自のモデルは同梱されていません。選択するプロバイダーによってノートのデータ送信先が決まります。従量制課金のクラウドAPI、すでに契約しているサブスクリプション、または自分のハードウェア上で実行するモデル（この場合、データがマシン外に出ることはありません）のいずれかになります。各内容については__TRILIUM_PH_0__プロバイダー__TRILIUM_PH_1__を、実際に送信される内容については__TRILIUM_PH_2__プライバシー__TRILIUM_PH_3__を参照してください。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_d4e5bd631d8acca320dc39c4_0",
@@ -41,8 +62,15 @@
       "sourceHash": "d4e5bd631d8acca320dc39c45eab0d6e78ff70f9b82d56fd2b2aa2da4702e52e",
       "context": "AI",
       "contextHash": "11fb682be0a0233d5fb899721ecfc1827d20f0d2ff2e093310efa61efca8af1c",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "一度有効にすると、アシスタントは以下の形式で使用できるようになります：",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_a02382d9002c4e0d3b55ea1a_0",
@@ -51,8 +79,15 @@
       "sourceHash": "a02382d9002c4e0d3b55ea1aac36eb7cd822371c627fd33e9daff151dbdf6f39",
       "context": "AI",
       "contextHash": "11fb682be0a0233d5fb899721ecfc1827d20f0d2ff2e093310efa61efca8af1c",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "専用のノートタイプとして：ツールを通じてノートを読み取りおよび変更できます。入力した内容のみを参照させたい場合は、会話ごとにこの機能をオフに切り替えることができます。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_0b59350a997c92fe87c7c6d1_0",
@@ -61,8 +96,15 @@
       "sourceHash": "0b59350a997c92fe87c7c6d12cfec78ce5c34b28a26fefdb4c4ba141760cd1fe",
       "context": "AI",
       "contextHash": "11fb682be0a0233d5fb899721ecfc1827d20f0d2ff2e093310efa61efca8af1c",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "右サイドバーのパネル：専用ノートタイプと同様に動作しますが、現在のノートへのオプションのアクセスも備えています。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_c13495ac2254d90ee73f8326_0",
@@ -71,8 +113,15 @@
       "sourceHash": "c13495ac2254d90ee73f8326f41af4098a50c4b716ade819b29ed626f69cc3f8",
       "context": "AI",
       "contextHash": "11fb682be0a0233d5fb899721ecfc1827d20f0d2ff2e093310efa61efca8af1c",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "エディタ内AIアシスタント__TRILIUM_PH_0____TRILIUM_PH_1__：選択したテキストに対する操作（校正、要約など）を行う組み込みアクションのほか、__TRILIUM_PH_2__カスタムAIクイックアクション__TRILIUM_PH_3__が付属しています。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_409a7a3a2085760badbc5b76_0",
@@ -81,8 +130,15 @@
       "sourceHash": "409a7a3a2085760badbc5b764ecb38f95489fca302528d44165b34c55f9d283f",
       "context": "AI > Feature highlights",
       "contextHash": "1fa4841e79dbbfc79236c0d57c99660f27c1173265ec8bb9e1e35cf147692a08",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "主な機能__TRILIUM_PH_0__",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_d8f8d5e1095dab160f55a513_0",
@@ -91,8 +147,15 @@
       "sourceHash": "d8f8d5e1095dab160f55a513f613a3f6596b90aef869613542b2566b9f38be2b",
       "context": "AI > Feature highlights",
       "contextHash": "1fa4841e79dbbfc79236c0d57c99660f27c1173265ec8bb9e1e35cf147692a08",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "メッセージのライブストリーミングに対応したチャットベースのインターフェース。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_22e5628588551d95f9910483_0",
@@ -101,8 +164,15 @@
       "sourceHash": "22e5628588551d95f99104833fb3fc8a90b3abce504acffc0d7df5f93906cdee",
       "context": "AI > Feature highlights",
       "contextHash": "1fa4841e79dbbfc79236c0d57c99660f27c1173265ec8bb9e1e35cf147692a08",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "現在表示されているノートをAIのコンテキストとして提供します。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_cb615838dd3ea8f542118442_0",
@@ -111,8 +181,15 @@
       "sourceHash": "cb615838dd3ea8f54211844292a4fb997cd61cf52f75cb6bb380d7def270336a",
       "context": "AI > Feature highlights",
       "contextHash": "1fa4841e79dbbfc79236c0d57c99660f27c1173265ec8bb9e1e35cf147692a08",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "ノートのコンテンツを変更したり、新しいノートを作成したりするためのツール。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_438a411cddb107f7b9bd004d_0",
@@ -121,8 +198,15 @@
       "sourceHash": "438a411cddb107f7b9bd004d36be402f318f85329c4bdd51531acd6ea73891d6",
       "context": "AI > Feature highlights",
       "contextHash": "1fa4841e79dbbfc79236c0d57c99660f27c1173265ec8bb9e1e35cf147692a08",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "コンテキストウィンドウの使用状況やメッセージごとの料金に関する統計情報。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_93136dcea1df434b79786dea_0",
@@ -131,8 +215,15 @@
       "sourceHash": "93136dcea1df434b79786dea9500e997ece4b6e5e846474c4d9d7dabff2e2d05",
       "context": "AI > Feature highlights",
       "contextHash": "1fa4841e79dbbfc79236c0d57c99660f27c1173265ec8bb9e1e35cf147692a08",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "マルチモーダルチャット用の添付ファイル（画像、テキストファイル、PDF）。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_f1b25f40623787610787edf3_0",
@@ -141,8 +232,15 @@
       "sourceHash": "f1b25f40623787610787edf31ad0c2ae4c62a7d6f5f5a7cce86880bc4c4dc1ef",
       "context": "AI > Feature highlights",
       "contextHash": "1fa4841e79dbbfc79236c0d57c99660f27c1173265ec8bb9e1e35cf147692a08",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "外部のチャットツール（Claude Codeなど）からTrilium内のノートを操作できるようにする、オプションのMCP。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_80ff3dc7c71a83a25b24b318_0",
@@ -151,8 +249,15 @@
       "sourceHash": "80ff3dc7c71a83a25b24b318ab3dd8a1733a3cfc6d505fe5a3b25d53f0d35c88",
       "context": "AI > Sample use-cases",
       "contextHash": "e3c8951b112d50f40123cdcd13d75a8df7d26c67b87bbf8a4677509253eb0b76",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "使用例のサンプル__TRILIUM_PH_0__",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_8ad2c6903144972d49bb20e6_0",
@@ -161,8 +266,15 @@
       "sourceHash": "8ad2c6903144972d49bb20e60c19e52069b8b1aec5e5128513ce114fe70d538f",
       "context": "AI > Sample use-cases",
       "contextHash": "e3c8951b112d50f40123cdcd13d75a8df7d26c67b87bbf8a4677509253eb0b76",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "あらゆるタイプの__TRILIUM_PH_0__カスタムウィジェット__TRILIUM_PH_1__を作成できます。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_b1745db80d45f9c4dd157b75_0",
@@ -171,8 +283,15 @@
       "sourceHash": "b1745db80d45f9c4dd157b752f7b31fcea8af8fffb3c9cfe6fe8a95a96bb75d2",
       "context": "AI > Sample use-cases",
       "contextHash": "e3c8951b112d50f40123cdcd13d75a8df7d26c67b87bbf8a4677509253eb0b76",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "__TRILIUM_PH_0__レンダーノート__TRILIUM_PH_1__を簡単に作成します（例：__TRILIUM_PH_2__三目並べをプレイできるレンダーノートを作成してください。レガシーなjQueryではなくPreactを使用するようにしてください。__TRILIUM_PH_3__）。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_2c61a0019ea873812b4693de_0",
@@ -181,8 +300,15 @@
       "sourceHash": "2c61a0019ea873812b4693dea707bdd0fb9be1a02f7a59df8cb615040ddcaa98",
       "context": "AI > Sample use-cases",
       "contextHash": "e3c8951b112d50f40123cdcd13d75a8df7d26c67b87bbf8a4677509253eb0b76",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "電卓、ストップウォッチ、ポモドーロタイマーなどの__TRILIUM_PH_0__ダッシュボード__TRILIUM_PH_1__用ウィジェットを作成します。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_2448d5b03c6ea5e0385bac65_0",
@@ -191,8 +317,15 @@
       "sourceHash": "2448d5b03c6ea5e0385bac65b9d6e8bda7b53fa2dc9e588635f35d42cf658466",
       "context": "AI > Sample use-cases",
       "contextHash": "e3c8951b112d50f40123cdcd13d75a8df7d26c67b87bbf8a4677509253eb0b76",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "Claude Sonnetは、AIがスクリプトの作成方法について指示されているため、少ない手引きでも非常に優れたフロントエンドまたはバックエンドのスクリプトを作成することで知られています。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_7679a0e8b2082bd235d72e61_0",
@@ -201,8 +334,15 @@
       "sourceHash": "7679a0e8b2082bd235d72e61609daae98a9943c10a0ba9670955ca21f24b8590",
       "context": "AI > LLM Providers",
       "contextHash": "8ee5c59012c68d777124fe1a819e6a2bc9a2e91a04c46e752603574ce59ddd40",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "LLMプロバイダー__TRILIUM_PH_0__",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_c40a40709e70d68edf21b8a1_0",
@@ -211,8 +351,15 @@
       "sourceHash": "c40a40709e70d68edf21b8a18375d6423298efb02c6709f0bd3282075847c1d9",
       "context": "AI > LLM Providers",
       "contextHash": "8ee5c59012c68d777124fe1a819e6a2bc9a2e91a04c46e752603574ce59ddd40",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "Triliumは4種類の異なるプロバイダーをサポートしています。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_f3f22ca166f8c5bd2521d67c_0",
@@ -221,8 +368,15 @@
       "sourceHash": "f3f22ca166f8c5bd2521d67c65ac8adbd4511809f4baa0863088ba3047c89121",
       "context": "AI > LLM Providers",
       "contextHash": "8ee5c59012c68d777124fe1a819e6a2bc9a2e91a04c46e752603574ce59ddd40",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "__TRILIUM_PH_0__ クラウド",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_93178a48f471422f65a787d4_0",
@@ -231,8 +385,15 @@
       "sourceHash": "93178a48f471422f65a787d434f7ba59a435e07a042e8bd77697e4711427da60",
       "context": "AI > LLM Providers",
       "contextHash": "8ee5c59012c68d777124fe1a819e6a2bc9a2e91a04c46e752603574ce59ddd40",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "既存のサブスクリプションとは別に請求されるAPIキーを使用した従量制です。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_0720bccc5a62cb11ae3fbbea_0",
@@ -241,8 +402,15 @@
       "sourceHash": "0720bccc5a62cb11ae3fbbea5def5d446d38bb2ecfadd06858b40b28ea5fdff1",
       "context": "AI > LLM Providers",
       "contextHash": "8ee5c59012c68d777124fe1a819e6a2bc9a2e91a04c46e752603574ce59ddd40",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "__TRILIUM_PH_0__ Anthropic Claude",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_69cecede1206afab5ad5631f_0",
@@ -251,8 +419,15 @@
       "sourceHash": "69cecede1206afab5ad5631f25071c1598dd9878f0b8c05c15b691ea8f2c64fb",
       "context": "AI > LLM Providers",
       "contextHash": "8ee5c59012c68d777124fe1a819e6a2bc9a2e91a04c46e752603574ce59ddd40",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "__TRILIUM_PH_0__ OpenAI GPT",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_b53728db44cba8c21b84559a_0",
@@ -261,8 +436,15 @@
       "sourceHash": "b53728db44cba8c21b84559afb2516b4c85b1fd5b398602d1c34a56f5c8c3e05",
       "context": "AI > LLM Providers",
       "contextHash": "8ee5c59012c68d777124fe1a819e6a2bc9a2e91a04c46e752603574ce59ddd40",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "__TRILIUM_PH_0__ Google Gemini",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_4f88fcc2112fbedde104972e_0",
@@ -271,8 +453,15 @@
       "sourceHash": "4f88fcc2112fbedde104972e32992be04e5098b1132bbcf48d44cb39698255d1",
       "context": "AI > LLM Providers",
       "contextHash": "8ee5c59012c68d777124fe1a819e6a2bc9a2e91a04c46e752603574ce59ddd40",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "__TRILIUM_PH_0__ DeepSeek",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_7f83abb8d0b4d056b8ac4803_0",
@@ -281,8 +470,15 @@
       "sourceHash": "7f83abb8d0b4d056b8ac4803a5a988e2c1788f0459c6f42bd2b66b64fe55a7f7",
       "context": "AI > LLM Providers",
       "contextHash": "8ee5c59012c68d777124fe1a819e6a2bc9a2e91a04c46e752603574ce59ddd40",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "__TRILIUM_PH_0__ OpenRouter（1つのキーでほとんどのラボのモデルにアクセスできます）",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_005f2e24c70498d066676abc_0",
@@ -291,8 +487,15 @@
       "sourceHash": "005f2e24c70498d066676abc2a05eec81f455e47828031546119385997e4fd49",
       "context": "AI > LLM Providers",
       "contextHash": "8ee5c59012c68d777124fe1a819e6a2bc9a2e91a04c46e752603574ce59ddd40",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "__TRILIUM_PH_0__ サブスクリプションベース",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_d13bf9cc67d80a3bd60e5bb9_0",
@@ -301,8 +504,15 @@
       "sourceHash": "d13bf9cc67d80a3bd60e5bb94de471ffe3f3f0c5b52ad63c05063e16c27c9a71",
       "context": "AI > LLM Providers",
       "contextHash": "8ee5c59012c68d777124fe1a819e6a2bc9a2e91a04c46e752603574ce59ddd40",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "従量課金ではなく、既存のサブスクリプションを再利用します。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_c470e2a09272cb1992e72fc1_0",
@@ -311,8 +521,15 @@
       "sourceHash": "c470e2a09272cb1992e72fc11825a94cfd44f3329fc82ad32265c828c244d5a5",
       "context": "AI > LLM Providers",
       "contextHash": "8ee5c59012c68d777124fe1a819e6a2bc9a2e91a04c46e752603574ce59ddd40",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "__TRILIUM_PH_0__ __TRILIUM_PH_1__Claude Code__TRILIUM_PH_2__",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_004f98eda1a5b570d3480b8e_0",
@@ -321,8 +538,15 @@
       "sourceHash": "004f98eda1a5b570d3480b8e10f4becff46e31119addffb0081dfc51f7aa0199",
       "context": "AI > LLM Providers",
       "contextHash": "8ee5c59012c68d777124fe1a819e6a2bc9a2e91a04c46e752603574ce59ddd40",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "__TRILIUM_PH_0__ __TRILIUM_PH_1__GitHub Copilot__TRILIUM_PH_2__",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_c37fd73ec50216a17b30667a_0",
@@ -331,8 +555,15 @@
       "sourceHash": "c37fd73ec50216a17b30667a83514d22f74baccd320f739c104110b5f4ffdebc",
       "context": "AI > LLM Providers",
       "contextHash": "8ee5c59012c68d777124fe1a819e6a2bc9a2e91a04c46e752603574ce59ddd40",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "__TRILIUM_PH_0__ __TRILIUM_PH_1__Google Antigravity__TRILIUM_PH_2__",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_46c1a02b291c729b3e0da3c5_0",
@@ -341,8 +572,15 @@
       "sourceHash": "46c1a02b291c729b3e0da3c56b9b30b09d23c1ff1f123bd8204adb9221120bfd",
       "context": "AI > LLM Providers",
       "contextHash": "8ee5c59012c68d777124fe1a819e6a2bc9a2e91a04c46e752603574ce59ddd40",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "__TRILIUM_PH_0__ __TRILIUM_PH_1__OpenAI Codex__TRILIUM_PH_2__",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_e819da4c0d4ff4f95096f7d1_0",
@@ -351,8 +589,15 @@
       "sourceHash": "e819da4c0d4ff4f95096f7d178fbbe959da203a4fc7582e1ff8d6009183e064b",
       "context": "AI > LLM Providers",
       "contextHash": "8ee5c59012c68d777124fe1a819e6a2bc9a2e91a04c46e752603574ce59ddd40",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "__TRILIUM_PH_0__ ローカル / セルフホスト",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_c9bc196c720c5881e6e251d4_0",
@@ -361,8 +606,15 @@
       "sourceHash": "c9bc196c720c5881e6e251d495865bc58031984cf000c36e3b2b27576d0907aa",
       "context": "AI > LLM Providers",
       "contextHash": "8ee5c59012c68d777124fe1a819e6a2bc9a2e91a04c46e752603574ce59ddd40",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "__TRILIUM_PH_0__ Ollama",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_a97c6bbaf12b88a86442bc45_0",
@@ -371,8 +623,15 @@
       "sourceHash": "a97c6bbaf12b88a86442bc45e7acc275055245507a1f5ee7f3bd8684a30e452c",
       "context": "AI > LLM Providers",
       "contextHash": "8ee5c59012c68d777124fe1a819e6a2bc9a2e91a04c46e752603574ce59ddd40",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "__TRILIUM_PH_0__ LM Studio",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_1e4882995c57fe08bd06462e_0",
@@ -381,8 +640,15 @@
       "sourceHash": "1e4882995c57fe08bd06462ee866dcb4e6ac888b21509a8d7029449c09ebd705",
       "context": "AI > LLM Providers",
       "contextHash": "8ee5c59012c68d777124fe1a819e6a2bc9a2e91a04c46e752603574ce59ddd40",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "__TRILIUM_PH_0__ カスタムエンドポイント",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_46ce47e47344b1dadaeb790a_0",
@@ -391,8 +657,15 @@
       "sourceHash": "46ce47e47344b1dadaeb790a66b7184aa0a8f4eb53fba10b4d23cba4916988d9",
       "context": "AI > LLM Providers",
       "contextHash": "8ee5c59012c68d777124fe1a819e6a2bc9a2e91a04c46e752603574ce59ddd40",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "Triliumで直接サポートされていない、ローカルまたはホスト型のその他のプロバイダー（Groq、Mistral、Togetherなど）用です。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_2e7899cf5f829098df60eb8e_0",
@@ -401,8 +674,15 @@
       "sourceHash": "2e7899cf5f829098df60eb8ef0abc317858a6d9a500c64d8a3bc4d48665762fa",
       "context": "AI > LLM Providers",
       "contextHash": "8ee5c59012c68d777124fe1a819e6a2bc9a2e91a04c46e752603574ce59ddd40",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "各プロバイダーの詳細については、__TRILIUM_PH_0__プロバイダー__TRILIUM_PH_1__をご覧ください。プロバイダーに送信されるデータをよりよく理解するには、専用の__TRILIUM_PH_2__プライバシー__TRILIUM_PH_3__をご覧ください。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_e8fdf4efb5062da245b42829_0",
@@ -411,8 +691,15 @@
       "sourceHash": "e8fdf4efb5062da245b4282924817889ceca3fceff4795f781d7c2a7b43917c4",
       "context": "AI > Enabling the AI integration",
       "contextHash": "dd528074c1af3738ca55888b86df3eb8f761d2ca1d9e1f3a54ad4134adc1798c",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "AI連携の有効化__TRILIUM_PH_0__",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_09ca99fa26fbd66484d9fbe2_0",
@@ -421,8 +708,15 @@
       "sourceHash": "09ca99fa26fbd66484d9fbe22dbda75b0ada07860442dc83df012e5ce61aa0a1",
       "context": "AI > Enabling the AI integration",
       "contextHash": "dd528074c1af3738ca55888b86df3eb8f761d2ca1d9e1f3a54ad4134adc1798c",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "AI連携を有効にするには、__TRILIUM_PH_0__オプション__TRILIUM_PH_1__ → __TRILIUM_PH_2__AI / LLM__TRILIUM_PH_3__に移動し、ダイアログの右上にあるトグルを押してプロバイダーを設定します。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_d83b2c83760a8bf24e7d5586_0",
@@ -431,8 +725,15 @@
       "sourceHash": "d83b2c83760a8bf24e7d5586907a57c0302770f433f0bc5029966fb5a22d1c97",
       "context": "AI > Creating a new chat",
       "contextHash": "13d2359347a174678850f889f9eb28b674b066215523946ebadc521370af66b8",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "新しいチャットの作成__TRILIUM_PH_0__",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_bb6908e44791b35e1a0a4de6_0",
@@ -441,8 +742,15 @@
       "sourceHash": "bb6908e44791b35e1a0a4de641f4c401ee93197a71bccfee38489fdb6a82e96b",
       "context": "AI > Creating a new chat",
       "contextHash": "13d2359347a174678850f889f9eb28b674b066215523946ebadc521370af66b8",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "チャットインターフェースには以下の2種類があります。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_968427fdc00431073dab6c66_0",
@@ -451,8 +759,15 @@
       "sourceHash": "968427fdc00431073dab6c668dc5214393e5ec4e3bb7202c5fe6fc4f2251aa35",
       "context": "AI > Creating a new chat",
       "contextHash": "13d2359347a174678850f889f9eb28b674b066215523946ebadc521370af66b8",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "サイドバー内のもの。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_93f87bb19277e2edc9daf5eb_0",
@@ -461,8 +776,15 @@
       "sourceHash": "93f87bb19277e2edc9daf5eb8e8d18d15142fe8de7e462f7c8572134fcac5944",
       "context": "AI > Creating a new chat",
       "contextHash": "13d2359347a174678850f889f9eb28b674b066215523946ebadc521370af66b8",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "専用のノートタイプ。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_49559f627760e9d6ea779707_0",
@@ -471,8 +793,15 @@
       "sourceHash": "49559f627760e9d6ea7797076c43f893e715a0918d4884070850d4b1f600b084",
       "context": "AI > Creating a new chat > The sidebar interface",
       "contextHash": "0be6410f947f293a427c4bb683acc12081feafa3c9c413915f8495274b420883",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "サイドバーインターフェース__TRILIUM_PH_0__",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_0b35c8a5327ccd0158cbb805_0",
@@ -481,8 +810,15 @@
       "sourceHash": "0b35c8a5327ccd0158cbb805a9766afb616fca2419908e87d3e6599b7c93828b",
       "context": "AI > Creating a new chat > The dedicated note type",
       "contextHash": "099b8dc5708f86e6506309fb1c92e2009670756af285d41bcfbde079bd84af28",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "専用のノートタイプ__TRILIUM_PH_0__",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_94aa069db7d85558e86b6b28_0",
@@ -811,8 +1147,15 @@
       "sourceHash": "f24b2f7acebff95d90a2c37256af52145f07d5cb830efee9cbdea415602508d1",
       "context": "AI > Features > Note access (tools)",
       "contextHash": "6f3e493902e3e92f39fa7a22a96e890712fe2237c45a1bdd5b9c285f9cb92613",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "ノートのメタデータやコンテンツを取得します。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_27a825bab7876df6211825c3_0",
@@ -821,8 +1164,15 @@
       "sourceHash": "27a825bab7876df6211825c31a0e376e05a4bd22458ebad303c2f7a37c3df467",
       "context": "AI > Features > Note access (tools)",
       "contextHash": "6f3e493902e3e92f39fa7a22a96e890712fe2237c45a1bdd5b9c285f9cb92613",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "ノートを編集します。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_5b449c7f4b1684e15c9e6b59_0",
@@ -831,8 +1181,15 @@
       "sourceHash": "5b449c7f4b1684e15c9e6b5933b322997da7b1c07edd421fda7be11f59ec4a39",
       "context": "AI > Features > Note access (tools)",
       "contextHash": "6f3e493902e3e92f39fa7a22a96e890712fe2237c45a1bdd5b9c285f9cb92613",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "LLM がノートを編集する方法には、完全な書き換え、テキストシーケンスの検索と置換、または追記など、複数のメカニズムがあります。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_56bd9d030d62b4f0ea2405ec_0",
@@ -841,8 +1198,15 @@
       "sourceHash": "56bd9d030d62b4f0ea2405ecdc15dcdd579d152463f2397e5f486b825979eee9",
       "context": "AI > Features > Note access (tools)",
       "contextHash": "6f3e493902e3e92f39fa7a22a96e890712fe2237c45a1bdd5b9c285f9cb92613",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "ノートを書き換える際、LLM はノートの種類（テキストノートからコードノートへの変更など）やコードノートの言語を変更し、それに合わせてコンテンツを書き換えることもできます。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_87a506517d934e686ef1b9cf_0",
@@ -851,8 +1215,15 @@
       "sourceHash": "87a506517d934e686ef1b9cfa6981cecfa196cda5b8158c8751eaeb0a7ceebd4",
       "context": "AI > Features > Note access (tools)",
       "contextHash": "6f3e493902e3e92f39fa7a22a96e890712fe2237c45a1bdd5b9c285f9cb92613",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "AI が変更を加えるたびに、望まない変更をいつでも元に戻せるよう、__TRILIUM_PH_0__リビジョン__TRILIUM_PH_1__が保存されます。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_c0bce724e391c18720602b96_0",
@@ -861,8 +1232,15 @@
       "sourceHash": "c0bce724e391c18720602b96ac13ff732eeb452ed9b9990fc855be5be46ed62d",
       "context": "AI > Features > Note access (tools)",
       "contextHash": "6f3e493902e3e92f39fa7a22a96e890712fe2237c45a1bdd5b9c285f9cb92613",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "新しいノートを作成します。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_332269d63d26e07bc77ab3f2_0",
@@ -871,8 +1249,15 @@
       "sourceHash": "332269d63d26e07bc77ab3f29888f604f7241cc5f90d5ff44105198373097fb9",
       "context": "AI > Features > Note access (tools)",
       "contextHash": "6f3e493902e3e92f39fa7a22a96e890712fe2237c45a1bdd5b9c285f9cb92613",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "図の作成を求められた場合、LLM は SVG 画像ノートを作成したり、既存のノートを SVG 画像ノートに変更したりできます。書き込めるのは SVG 画像のみで、PNG などの他の形式には対応していません。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_c93705214fc5f105db508c57_0",
@@ -881,8 +1266,15 @@
       "sourceHash": "c93705214fc5f105db508c5710e99d1d78e865ceb1d1f015b76caa08cc101ddd",
       "context": "AI > Features > Note access (tools)",
       "contextHash": "6f3e493902e3e92f39fa7a22a96e890712fe2237c45a1bdd5b9c285f9cb92613",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "ノートの名前変更または削除を行います。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_af74007c6ddd5bbaf45a331d_0",
@@ -891,8 +1283,15 @@
       "sourceHash": "af74007c6ddd5bbaf45a331db6957d3e118f3ca8dafcbcfddf7a3a73e409d9f8",
       "context": "AI > Features > Note access (tools)",
       "contextHash": "6f3e493902e3e92f39fa7a22a96e890712fe2237c45a1bdd5b9c285f9cb92613",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "属性レベル：",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_aad2f427987a266bb5a30257_0",
@@ -901,8 +1300,15 @@
       "sourceHash": "aad2f427987a266bb5a3025783f949d7b3fa4747bd31a01d62bd10ab9e51cb28",
       "context": "AI > Features > Note access (tools)",
       "contextHash": "6f3e493902e3e92f39fa7a22a96e890712fe2237c45a1bdd5b9c285f9cb92613",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "属性の全リスト、または特定の属性を取得します。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_c55cdc62203ca24b0b0528bb_0",
@@ -911,8 +1317,15 @@
       "sourceHash": "c55cdc62203ca24b0b0528bbde2291935d37ee59cb8b7d1cb55073225e070fcb",
       "context": "AI > Features > Note access (tools)",
       "contextHash": "6f3e493902e3e92f39fa7a22a96e890712fe2237c45a1bdd5b9c285f9cb92613",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "属性の値を設定するか、既存の値の横に別の値を追加します（2番目の __TRILIUM_PH_0__ など）。値を設定して既存のものを置き換える場合、AI はどの値を置き換えたかを通知します。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_da53cde7681643f048becf12_0",
@@ -921,8 +1334,15 @@
       "sourceHash": "da53cde7681643f048becf12b112086d912e84749c7764582242b895d0452d27",
       "context": "AI > Features > Note access (tools)",
       "contextHash": "6f3e493902e3e92f39fa7a22a96e890712fe2237c45a1bdd5b9c285f9cb92613",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "__TRILIUM_PH_0__、__TRILIUM_PH_1__、__TRILIUM_PH_2__ などのコードを実行する属性は、安全なインポートが無効化するのと同様に、__TRILIUM_PH_3__ プレフィックス付きで保存されます（例：__TRILIUM_PH_4__）（__TRILIUM_PH_5__アクティブコンテンツ__TRILIUM_PH_6__ を参照）。ノートですでにその属性が有効になっており、AI が値の追加ではなく設定を行った場合、AI は有効になっていた方を削除するため、新しい値を有効にするまでコードは実行されません。AI はそれがどのノートにあるかを教えてくれます。コードを確認し、ノートのタイトル横にあるアクティブコンテンツバッジの隣にあるトグルスイッチ、または __TRILIUM_PH_7__Render Note__TRILIUM_PH_8__ の場合はノート内の __TRILIUM_PH_9__Enable render note__TRILIUM_PH_10__ ボタンを使用して有効にしてください。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_c27bde32994bd4a2b514c30e_0",
@@ -931,8 +1351,15 @@
       "sourceHash": "c27bde32994bd4a2b514c30e9ac715d2a05b2c880844967e74a5116e0acdc0ed",
       "context": "AI > Features > Note access (tools)",
       "contextHash": "6f3e493902e3e92f39fa7a22a96e890712fe2237c45a1bdd5b9c285f9cb92613",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "属性を削除します。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_fce82fcd05a0d56cf7395de9_0",
@@ -941,8 +1368,15 @@
       "sourceHash": "fce82fcd05a0d56cf7395de9cc5894cfcd84cbfbe1d16b1635e5cc4c960a63a4",
       "context": "AI > Features > Note access (tools)",
       "contextHash": "6f3e493902e3e92f39fa7a22a96e890712fe2237c45a1bdd5b9c285f9cb92613",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "ツリーレベル：",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_e359dbb1fd513c9b6f5de3e5_0",
@@ -951,8 +1385,15 @@
       "sourceHash": "e359dbb1fd513c9b6f5de3e567d0b7c6f34d570039fd6d6b487eee671c268b59",
       "context": "AI > Features > Note access (tools)",
       "contextHash": "6f3e493902e3e92f39fa7a22a96e890712fe2237c45a1bdd5b9c285f9cb92613",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "ノートの直接の子ノートを取得します。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_83b238731d16c35a303ceb59_0",
@@ -961,8 +1402,15 @@
       "sourceHash": "83b238731d16c35a303ceb5932ad57a420f2eae54cb946d20a8b558ba8c4a27a",
       "context": "AI > Features > Note access (tools)",
       "contextHash": "6f3e493902e3e92f39fa7a22a96e890712fe2237c45a1bdd5b9c285f9cb92613",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "ノートのサブツリー全体を取得します。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_4f32083e15e91d7943f1a9d9_0",
@@ -971,8 +1419,15 @@
       "sourceHash": "4f32083e15e91d7943f1a9d91aa8f3a5f70877dae2839a436fc6f4456ec9bc3b",
       "context": "AI > Features > Note access (tools)",
       "contextHash": "6f3e493902e3e92f39fa7a22a96e890712fe2237c45a1bdd5b9c285f9cb92613",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "ノートを別の場所に移動またはクローンします。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_e9be50d9df4343d53b176d69_0",
@@ -981,8 +1436,15 @@
       "sourceHash": "e9be50d9df4343d53b176d692425aad26c0efc0d8c0b172d41ccd115ad9b5a72",
       "context": "AI > Features > Note access (tools)",
       "contextHash": "6f3e493902e3e92f39fa7a22a96e890712fe2237c45a1bdd5b9c285f9cb92613",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "__TRILIUM_PH_0__添付ファイル__TRILIUM_PH_1__の場合：",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_b258e69b564a8041a74c8e79_0",
@@ -991,8 +1453,15 @@
       "sourceHash": "b258e69b564a8041a74c8e79020e223d18d666870cb75e0ae7f36ed1421db732",
       "context": "AI > Features > Note access (tools)",
       "contextHash": "6f3e493902e3e92f39fa7a22a96e890712fe2237c45a1bdd5b9c285f9cb92613",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "添付ファイルのメタデータを取得します。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_50eb1b7a709c5f76f7872e39_0",
@@ -1001,8 +1470,15 @@
       "sourceHash": "50eb1b7a709c5f76f7872e39d30547c9638109c6015c94532a0d2790efbdb52e",
       "context": "AI > Features > Note access (tools)",
       "contextHash": "6f3e493902e3e92f39fa7a22a96e890712fe2237c45a1bdd5b9c285f9cb92613",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "添付ファイルの内容を取得します。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_fe43ed26cd3afc4d8e714c63_0",
@@ -1011,8 +1487,15 @@
       "sourceHash": "fe43ed26cd3afc4d8e714c636c4237e911209dc79d011d500a90666d54e45a1b",
       "context": "AI > Features > Note access (tools)",
       "contextHash": "6f3e493902e3e92f39fa7a22a96e890712fe2237c45a1bdd5b9c285f9cb92613",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "スキル（専用セクションを参照してください）。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_adf4b61b9ca447b0c3f74ab9_0",
@@ -1021,8 +1504,15 @@
       "sourceHash": "adf4b61b9ca447b0c3f74ab95d298d703a1d48fdfae3598cedf4e897b69f28db",
       "context": "AI > Features > Note access (tools)",
       "contextHash": "6f3e493902e3e92f39fa7a22a96e890712fe2237c45a1bdd5b9c285f9cb92613",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "AIが使用する各ツールは、ツール名と、それが処理したノートまたはクエリの名前を示す1行としてチャットに表示されます。名前が変更されたノートは以前のタイトルに取り消し線が引かれ、削除されたノートはそのタイトルに取り消し線が引かれ、移動されたノートは移動元と移動先が表示され、AIが読み取り、設定、追加、または削除した属性はピル（削除された場合は取り消し線）として表示され、添付ファイルはそのタイトル、ノート、サイズで表示され、AIが読み込んだWebページはリンクとして表示されます。行を展開してインラインで読み取れるものがある場合にのみ、行が開きます。見つかったノート、Web検索で見つかったページ、アイコン検索で見つかったアイコン、AIが読み取ったノートのタイプ、属性、またはコンテンツの開始部分、ノートのすべての属性、添付ファイルまたはWebページテキスト、AIが調べたユーザーガイドのページまたはその目次（両方ともヘルプパネルで開きます）、ノートの子またはサブツリー全体、AIが作成、書き換え、または追加したノートに書き込んだ内容、編集の変更内容、またはツールが失敗した理由が表示されます。検索はその行に、制限されている場合はツリーの部分が表示され、また見つかったノートの数とAIが要求した一致の数が表示されます。リストされた各ノートはクリックで開きます。AIがツールに送信した内容と返された内容を正確に確認するには、行にマウスオーバーしてその横にある__TRILIUM_PH_0__ボタンを押します。タッチスクリーンではボタンが常に表示されます。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_6a688020484d97c7f3671c0c_0",
@@ -1031,8 +1521,15 @@
       "sourceHash": "6a688020484d97c7f3671c0ca7bbfbd6012edba88f00e97c3a639b3be700fc73",
       "context": "AI > Features > Note access (tools)",
       "contextHash": "6f3e493902e3e92f39fa7a22a96e890712fe2237c45a1bdd5b9c285f9cb92613",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "AIがまだ作業中（ツールの返した内容を読み込んでいる間など）に、返答の動きが数秒間停止した場合は、返答の次の部分が届くまでその下に__TRILIUM_PH_0__作業中...__TRILIUM_PH_1__の行が表示されます。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_515a10ee15082bdad168ba10_0",
@@ -1041,8 +1538,15 @@
       "sourceHash": "515a10ee15082bdad168ba10497cc0282a076de1b111f89b2cc39c17cab8e6bb",
       "context": "AI > Features > Note access (tools) > Approving tool calls",
       "contextHash": "5b6a529ca3b3cd4589b0e5245c8487e7aab848595284ad94350219c7b1b92a6e",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "ツール呼び出しの承認__TRILIUM_PH_0__",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_aa7ee6309f21aef86a2c8887_0",
@@ -1051,8 +1555,15 @@
       "sourceHash": "aa7ee6309f21aef86a2c8887b59c6c9dfdd48f4be57bf6736eddbc83f9c38847",
       "context": "AI > Features > Note access (tools) > Approving tool calls",
       "contextHash": "5b6a529ca3b3cd4589b0e5245c8487e7aab848595284ad94350219c7b1b92a6e",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "AIがツールを実行する前に、チャットで許可するかどうかを確認します。ツールの行には__TRILIUM_PH_0__アイコンがマークされ、その下に__TRILIUM_PH_1__許可__TRILIUM_PH_2__および__TRILIUM_PH_3__拒否__TRILIUM_PH_4__ボタンが表示されます。呼び出しがノートに書き込む場合、行は書き込むテキストまたは編集の変更内容を開いて表示します。返答はあなたが回答するまで待機します。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_cd4259b177e50db96767445a_0",
@@ -1061,8 +1572,15 @@
       "sourceHash": "cd4259b177e50db96767445ac383be28fba13f8d580bd92b606457e58ec07cc2",
       "context": "AI > Features > Note access (tools) > Approving tool calls",
       "contextHash": "5b6a529ca3b3cd4589b0e5245c8487e7aab848595284ad94350219c7b1b92a6e",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "呼び出しを実行するには、__TRILIUM_PH_0__許可__TRILIUM_PH_1__を押します。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_9df690a9ca760e9720045b62_0",
@@ -1071,8 +1589,15 @@
       "sourceHash": "9df690a9ca760e9720045b62ff2f43ecf911df43f1262b2a44243975f8b5362a",
       "context": "AI > Features > Note access (tools) > Approving tool calls",
       "contextHash": "5b6a529ca3b3cd4589b0e5245c8487e7aab848595284ad94350219c7b1b92a6e",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "残りのチャットでツールについての確認を停止するには、__TRILIUM_PH_0__許可__TRILIUM_PH_1__の横にあるメニューを開き、このチャットでそのツールを常に許可するよう選択します。呼び出しが実行され、待機中のそのツールの他の呼び出しやこのチャット内の以降のすべての呼び出しも実行されます。他のツールは引き続き確認を行い、新しいチャットでは再度確認されます。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_9ffd2b3607f63b9fea9bcf63_0",
@@ -1081,8 +1606,15 @@
       "sourceHash": "9ffd2b3607f63b9fea9bcf63c019267a6d0cf7d8aa53f2c303d7e45e58853328",
       "context": "AI > Features > Note access (tools) > Approving tool calls",
       "contextHash": "5b6a529ca3b3cd4589b0e5245c8487e7aab848595284ad94350219c7b1b92a6e",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "拒否するには、__TRILIUM_PH_0__拒否__TRILIUM_PH_1__を押します。AIには拒否されたことが伝えられ、返答は呼び出しなしで続行されます。呼び出しには__TRILIUM_PH_2__拒否されました__TRILIUM_PH_3__とマークされます。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_ef6b732385cbca7eb067899f_0",
@@ -1091,8 +1623,15 @@
       "sourceHash": "ef6b732385cbca7eb067899f9bc6e3164a5fbe6ef4051983663783540fb100bf",
       "context": "AI > Features > Note access (tools) > Approving tool calls",
       "contextHash": "5b6a529ca3b3cd4589b0e5245c8487e7aab848595284ad94350219c7b1b92a6e",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "返答を停止すると、待機中のすべての呼び出しが拒否されます。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_ba73e58592a2e69e287ac872_0",
@@ -1101,8 +1640,15 @@
       "sourceHash": "ba73e58592a2e69e287ac87202401e03528228a770c882e217ada495ccbf5dea",
       "context": "AI > Features > Note access (tools) > Approving tool calls",
       "contextHash": "5b6a529ca3b3cd4589b0e5245c8487e7aab848595284ad94350219c7b1b92a6e",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "チャットで再度ツールについて確認させるには、チャット下部の__TRILIUM_PH_0____TRILIUM_PH_1__ツール__TRILIUM_PH_2__メニューを開き、__TRILIUM_PH_3__このチャットで許可済み__TRILIUM_PH_4__の下にあるツールを押します。サブメニューはチャットがツールを許可すると表示されます。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_021bd0b132d7ef83680611f2_0",
@@ -1111,8 +1657,15 @@
       "sourceHash": "021bd0b132d7ef83680611f273190387c74d343744dd6de773f190b83f3f5b72",
       "context": "AI > Features > Note access (tools) > Approving tool calls",
       "contextHash": "5b6a529ca3b3cd4589b0e5245c8487e7aab848595284ad94350219c7b1b92a6e",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "どの呼び出しで確認が行われるかは、__TRILIUM_PH_0____TRILIUM_PH_1__ツール__TRILIUM_PH_2__メニューの__TRILIUM_PH_3__アクセス許可__TRILIUM_PH_4__で選択されるチャットのアクセス許可モードによって異なります。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_3e59fd0a15ead3f2095bc541_0",
@@ -1121,8 +1674,15 @@
       "sourceHash": "3e59fd0a15ead3f2095bc5411c5788e1efd07f05c13433ca45381ca2933f20a3",
       "context": "AI > Features > Note access (tools) > Approving tool calls",
       "contextHash": "5b6a529ca3b3cd4589b0e5245c8487e7aab848595284ad94350219c7b1b92a6e",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "__TRILIUM_PH_0__常に確認__TRILIUM_PH_1__：読み取りのみの操作（ノートの検索、ノートや添付ファイルの読み取り）も含め、すべての呼び出しで確認が行われます。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_ce256f8cf284870fddadd103_0",
@@ -1131,8 +1691,15 @@
       "sourceHash": "ce256f8cf284870fddadd103a486e05b104f6334b5b9b6f3cafbe3e3a3f1b3a6",
       "context": "AI > Features > Note access (tools) > Approving tool calls",
       "contextHash": "5b6a529ca3b3cd4589b0e5245c8487e7aab848595284ad94350219c7b1b92a6e",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "__TRILIUM_PH_0__変更前の確認__TRILIUM_PH_1__：読み取りのみの呼び出しはそのまま実行されますが、ノートを変更する呼び出し（ノートの作成、編集、名前変更、移動、削除、および属性の設定、追加、削除）については確認を求められます。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_538acc39ce9c2d2e16052b02_0",
@@ -1141,8 +1708,15 @@
       "sourceHash": "538acc39ce9c2d2e16052b0282242c85a09db67caec5e14228e39d923ae7d9d1",
       "context": "AI > Features > Note access (tools) > Approving tool calls",
       "contextHash": "5b6a529ca3b3cd4589b0e5245c8487e7aab848595284ad94350219c7b1b92a6e",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "__TRILIUM_PH_0__確認しない__TRILIUM_PH_1__：変更も含め、すべての呼び出しが確認なしで実行されます。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_ff52845a940757ce6d852830_0",
@@ -1151,8 +1725,15 @@
       "sourceHash": "ff52845a940757ce6d8528300546edf7528e8d7c795a14957bc1b68733087473",
       "context": "AI > Features > Note access (tools) > Approving tool calls",
       "contextHash": "5b6a529ca3b3cd4589b0e5245c8487e7aab848595284ad94350219c7b1b92a6e",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "新しいチャットは、どのチャットであれ前回選択したモードで開始されます。選択するまでは__TRILIUM_PH_0__変更前の確認__TRILIUM_PH_1__になります。したがって、__TRILIUM_PH_2__確認しない__TRILIUM_PH_3__を選択すると、次のチャットにもその設定が引き継がれます。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_4d14a8a3a2c442da9de6641f_0",
@@ -1161,8 +1742,15 @@
       "sourceHash": "4d14a8a3a2c442da9de6641f73ec5e428eef98b49327c50a4b0f07a86f285c76",
       "context": "AI > Features > Note access (tools) > Approving tool calls",
       "contextHash": "5b6a529ca3b3cd4589b0e5245c8487e7aab848595284ad94350219c7b1b92a6e",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "チャットで許可されたツールは、どのモードでも確認なしで実行されます。Triliumに同梱されているもの（ユーザーガイド、AIにTriliumの検索構文やノートのタイプを教えるスキルシート、アイコンなど）の参照も、ユーザーのノートを一切読み取らないため同様です。ウェブ検索の実行やウェブページの読み取りも同様に、確認なしで行われます。__TRILIUM_PH_0__ツール__TRILIUM_PH_1__メニューでウェブ検索を有効にすると、モデルが独自に検索を行う場合でも検索プロバイダ経由で行う場合でも、検索が許可されます。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_83b9687ace5ddd1b14b4726d_0",
@@ -1171,8 +1759,15 @@
       "sourceHash": "83b9687ace5ddd1b14b4726d8825ddc64e4461cf51eeafc06be09e1c6c779986",
       "context": "AI > Features > Note access (tools) > Approving tool calls",
       "contextHash": "5b6a529ca3b3cd4589b0e5245c8487e7aab848595284ad94350219c7b1b92a6e",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "__TRILIUM_PH_0__サブスクリプションベースのプロバイダ__TRILIUM_PH_1__（Claude Code、GitHub Copilot、Google Antigravity、OpenAI Codex）は、他のプロバイダと同様に確認を求めます。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_4c8441f9f3d8895b978c9981_0",
@@ -1181,8 +1776,15 @@
       "sourceHash": "4c8441f9f3d8895b978c99814e229937a8922718a0083c25544a597afd57bd92",
       "context": "AI > Features > Note access (tools) > Approving tool calls",
       "contextHash": "5b6a529ca3b3cd4589b0e5245c8487e7aab848595284ad94350219c7b1b92a6e",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "許可した変更のほとんどは元に戻すことができます。削除したノートは復元でき、編集内容もリビジョンから元に戻すことができます。属性には履歴がないため、属性の設定は元に戻すのがより困難です。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_c90f0a6687c323d8377701bd_0",
@@ -1191,8 +1793,15 @@
       "sourceHash": "c90f0a6687c323d8377701bde57c715abce1f8a2bb214c153250fd09da75ddc4",
       "context": "AI > Features > Note access (tools) > Approving tool calls",
       "contextHash": "5b6a529ca3b3cd4589b0e5245c8487e7aab848595284ad94350219c7b1b92a6e",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "ノートアクセスが有効な間、Geminiは内蔵検索を使用できません。有効な間は、__TRILIUM_PH_0__ツール__TRILIUM_PH_1__メニュー内の内蔵検索の選択肢が無効化され、その理由が表示されます。検索プロバイダはノートアクセスが有効な状態でも動作します。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_44f9013a9dc38bf8959cf9a9_0",
@@ -1201,8 +1810,15 @@
       "sourceHash": "44f9013a9dc38bf8959cf9a9b5fe502b0dc71714bbe4855a8a007e7286129adf",
       "context": "AI > Features > Attachments",
       "contextHash": "6c96327f2c0c32225a0e4786d388edb404fda846265e85753b2c9f0d9dea740f",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "添付ファイル__TRILIUM_PH_0__",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_b384588248f664015916671e_0",
@@ -1211,8 +1827,15 @@
       "sourceHash": "b384588248f664015916671e5c0d9f8d3682b99d43ce2c99de916307009db18f",
       "context": "AI > Features > Attachments",
       "contextHash": "6c96327f2c0c32225a0e4786d388edb404fda846265e85753b2c9f0d9dea740f",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "Trilium v0.140.0以降、__TRILIUM_PH_0__添付ファイル__TRILIUM_PH_1__によりマルチモーダルチャットが可能になりました：",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_e83d9ee41672f29aa8f51963_0",
@@ -1221,8 +1844,15 @@
       "sourceHash": "e83d9ee41672f29aa8f51963d957cbe4327fd52ab856234aeb2f90105dcba91b",
       "context": "AI > Features > Attachments",
       "contextHash": "6c96327f2c0c32225a0e4786d388edb404fda846265e85753b2c9f0d9dea740f",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "ラスター画像（SVGを除き、ビジョン入力として送信されます）。サポートされている形式：PNG、JPEG、GIF、WebP。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_5c2b878e385ece1da95d68d1_0",
@@ -1231,8 +1861,15 @@
       "sourceHash": "5c2b878e385ece1da95d68d10c96e25c11ae9eef7cec5e94c8918d9b6f46517c",
       "context": "AI > Features > Attachments",
       "contextHash": "6c96327f2c0c32225a0e4786d388edb404fda846265e85753b2c9f0d9dea740f",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "PDF。プロバイダにネイティブ送信されます（Anthropic、OpenAI、Googleでサポートされています）。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_bb5b480d49a54250befcbc79_0",
@@ -1241,8 +1878,15 @@
       "sourceHash": "bb5b480d49a54250befcbc79987e997cbcecf429898a7fd64ea7a116e89bd772",
       "context": "AI > Features > Attachments",
       "contextHash": "6c96327f2c0c32225a0e4786d388edb404fda846265e85753b2c9f0d9dea740f",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "SVG画像（生HTMLとして送信されます）。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_e458ae74939e6b8238b9570f_0",
@@ -1251,8 +1895,15 @@
       "sourceHash": "e458ae74939e6b8238b9570fea470af7004e8a89b32ebf6b4b83f19738bcacbe",
       "context": "AI > Features > Attachments",
       "contextHash": "6c96327f2c0c32225a0e4786d388edb404fda846265e85753b2c9f0d9dea740f",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "テキストファイル。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_84504b6aad6c5b50f8983452_0",
@@ -1261,8 +1912,15 @@
       "sourceHash": "84504b6aad6c5b50f8983452b2a0bf8801fde2e8eb32b03713d2f4034468e6ce",
       "context": "AI > Features > Attachments",
       "contextHash": "6c96327f2c0c32225a0e4786d388edb404fda846265e85753b2c9f0d9dea740f",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "すべてのモデルがすべての種類の添付ファイルを読み取れるわけではありません。DeepSeekはPDFを読み取らず、画像はビジョンモデルでのみ読み取ります。OpenAI Codex、GitHub Copilot、Google Antigravityは画像は読み取りますがPDFは読み取りません。このようなモデルの場合：",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_3d505a8dca54aa1a15e11f8f_0",
@@ -1271,8 +1929,15 @@
       "sourceHash": "3d505a8dca54aa1a15e11f8f400d6dcd4cc4af2e79e4ee2987b6a409b818c52b",
       "context": "AI > Features > Attachments",
       "contextHash": "6c96327f2c0c32225a0e4786d388edb404fda846265e85753b2c9f0d9dea740f",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "添付ボタンには、そのモデルが読み取れる種類のみが表示され、読み取れないファイルを貼り付けたりドロップしたりしても添付されません。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_9baec54c78e6d7c2b7c355b1_0",
@@ -1281,8 +1946,15 @@
       "sourceHash": "9baec54c78e6d7c2b7c355b16c0d82a6ec963ca78a851c4a54f26855b1cbf240",
       "context": "AI > Features > Attachments",
       "contextHash": "6c96327f2c0c32225a0e4786d388edb404fda846265e85753b2c9f0d9dea740f",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "そのようなモデルに切り替えた後、読み取れない添付ファイルには__TRILIUM_PH_0__の警告が表示され、添付ファイルを削除するか別のモデルを選択するまでメッセージを送信できません。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_4fce3e08f9d5a533c95d46ce_0",
@@ -1291,8 +1963,15 @@
       "sourceHash": "4fce3e08f9d5a533c95d46ce4cd00bcf9922299be82ca7bebdc04365431c603a",
       "context": "AI > Features > Attachments",
       "contextHash": "6c96327f2c0c32225a0e4786d388edb404fda846265e85753b2c9f0d9dea740f",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "前のメッセージで送信された添付ファイルは、__TRILIUM_PH_0__ のような名前のみでモデルに届くため、内容を確認できないことをモデルがあなたに伝えることができます。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_6c1b6f4cac874002a5476256_0",
@@ -1301,8 +1980,15 @@
       "sourceHash": "6c1b6f4cac874002a5476256cbb561e04ded17fb5597f666072710646a6a00a6",
       "context": "AI > Features > Attachments",
       "contextHash": "6c96327f2c0c32225a0e4786d388edb404fda846265e85753b2c9f0d9dea740f",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "添付ファイルをアップロードするには：",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_28b1d5e73b3edaed0633daf2_0",
@@ -1311,8 +1997,15 @@
       "sourceHash": "28b1d5e73b3edaed0633daf285b02e37dc6ae9e162f3850aa6703ee571ab9665",
       "context": "AI > Features > Attachments",
       "contextHash": "6c96327f2c0c32225a0e4786d388edb404fda846265e85753b2c9f0d9dea740f",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "テキストボックスの下にある、専用の __TRILIUM_PH_0__Attach__TRILIUM_PH_1__ ボタン（クリップアイコン）を押します。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_159f00c17767873fbebd1c5a_0",
@@ -1321,8 +2014,15 @@
       "sourceHash": "159f00c17767873fbebd1c5a0efc0b2d0ed9977450dc4e94c0230adf4e88ded3",
       "context": "AI > Features > Attachments",
       "contextHash": "6c96327f2c0c32225a0e4786d388edb404fda846265e85753b2c9f0d9dea740f",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "Ctrl+V を使用して、クリップボードから直接画像を貼り付けます。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_91c37b708d625c1f6b6e1c80_0",
@@ -1331,8 +2031,15 @@
       "sourceHash": "91c37b708d625c1f6b6e1c806f4ce7f12a9d6a57cc313260f42991d1384dba4c",
       "context": "AI > Features > Attachments",
       "contextHash": "6c96327f2c0c32225a0e4786d388edb404fda846265e85753b2c9f0d9dea740f",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "1つ以上の添付ファイルがアップロードされると、それらはテキストボックスのすぐ上に表示されます。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_b864115e7130f8e524236bf0_0",
@@ -1341,8 +2048,15 @@
       "sourceHash": "b864115e7130f8e524236bf08ff7b5eddc59c0d0844cab6a2051328cf82229b7",
       "context": "AI > Features > Attachments",
       "contextHash": "6c96327f2c0c32225a0e4786d388edb404fda846265e85753b2c9f0d9dea740f",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "画像には、簡単に識別できるように小さなサムネイルが表示されます。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_da7f4d70ffe600699fd7e610_0",
@@ -1351,8 +2065,15 @@
       "sourceHash": "da7f4d70ffe600699fd7e610187288db2542bd96e9d0c7529f5f6d41699f7e5c",
       "context": "AI > Features > Attachments",
       "contextHash": "6c96327f2c0c32225a0e4786d388edb404fda846265e85753b2c9f0d9dea740f",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "すべての添付ファイルは、対応する X ボタンを押すことで削除できます。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_2897d3e8ed7eb17973ab484b_0",
@@ -1361,8 +2082,15 @@
       "sourceHash": "2897d3e8ed7eb17973ab484b5b7cb10a2f6ac31e98f3d31cb23829492524b58e",
       "context": "AI > Features > Attachments",
       "contextHash": "6c96327f2c0c32225a0e4786d388edb404fda846265e85753b2c9f0d9dea740f",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "テキストボックスの上にあるチップ、または送信されたメッセージ内に表示されている画像やPDFをクリックすると、ビューアーで開かれます。そこでは画像をズームしたりパンしたり、PDFをページ単位で閲覧したりできます。ビューアーの閉じるボタンの隣にあるボタンを使用すると、元のファイルが新しいブラウザータブで開きます。__TRILIUM_PH_0__Ctrl__TRILIUM_PH_1__ キーを押しながらクリックすると、画像は新しいブラウザータブで開き、PDFは新しい Trilium タブで添付ファイルとして開きます。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_ac57fdab4f4b91d281ebda7f_0",
@@ -1371,8 +2099,15 @@
       "sourceHash": "ac57fdab4f4b91d281ebda7fad0c107cd8e2d7e87478aa7168baaccf6eb8cb91",
       "context": "AI > Features > Attachments",
       "contextHash": "6c96327f2c0c32225a0e4786d388edb404fda846265e85753b2c9f0d9dea740f",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "添付ファイルが存在する場合、LLMは現在のノートにアクセスできる場合でも、その添付ファイルを優先的に考慮するように指示されます。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_5f998b1ad6c0b12773c1e5b6_0",
@@ -1381,8 +2116,15 @@
       "sourceHash": "5f998b1ad6c0b12773c1e5b6f9f1f0f2d321fc5b161ec9a3b8ffe768b0c6b249",
       "context": "AI > Features > Attachments",
       "contextHash": "6c96327f2c0c32225a0e4786d388edb404fda846265e85753b2c9f0d9dea740f",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "現在、Trilium はLLMプロバイダーに送信する前に、添付ファイルの事前処理（__TRILIUM_PH_0__Text Extraction (OCR)__TRILIUM_PH_1__などによる処理）を行いません。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_7445e8d893a46758dc28a023_0",
@@ -1391,8 +2133,15 @@
       "sourceHash": "7445e8d893a46758dc28a023d645776ad1909264e18a5ad26257af9c21fd3cb7",
       "context": "AI > Features > Mentions",
       "contextHash": "f89dcfa9fae99cd99cd8555edd7e8af81e31090b191349a550342cc859c62278",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "メンション__TRILIUM_PH_0__",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_2e5bd41043fcfc55d710078f_0",
@@ -1401,8 +2150,15 @@
       "sourceHash": "2e5bd41043fcfc55d710078f2316946e2fb09ee40f5af60158e9f1436f41b30d",
       "context": "AI > Features > Mentions",
       "contextHash": "f89dcfa9fae99cd99cd8555edd7e8af81e31090b191349a550342cc859c62278",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "__TRILIUM_PH_0__内部（参照）リンク__TRILIUM_PH_1__と同じメカニズムを使用して、現在のノート以外のノートへの参照を挿入する方法がメンションです。他のノートを参照するには、参照したいノート名の前に @ を入力するだけです。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_570e6a1022d492f84516b4b8_0",
@@ -1411,8 +2167,15 @@
       "sourceHash": "570e6a1022d492f84516b4b8a6ac7b106dd7bd59faff0872c7848b78ffa24472",
       "context": "AI > Features > Mentions",
       "contextHash": "f89dcfa9fae99cd99cd8555edd7e8af81e31090b191349a550342cc859c62278",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "この機能は、ノートツールが有効になっている場合に最も役立ちます。そうでない場合、LLMは指定されたノートにアクセスする方法を持ちません。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_a504aab3cda3e78c29bba9a4_0",
@@ -1421,8 +2184,15 @@
       "sourceHash": "a504aab3cda3e78c29bba9a46db0b9015647889034b345b74d524115f2ef7dcd",
       "context": "AI > Features > Skills",
       "contextHash": "86180e7855290d6c3de8408554d6b67df6c0a2bbaec8e9c76dae39766ad3164f",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "スキル__TRILIUM_PH_0__",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_cfb22b4fd5c58e73cdc5e45a_0",
@@ -1431,8 +2201,15 @@
       "sourceHash": "cfb22b4fd5c58e73cdc5e45a27d779414d2f6721e8b5809df56068f1c3c56464",
       "context": "AI > Features > Skills",
       "contextHash": "86180e7855290d6c3de8408554d6b67df6c0a2bbaec8e9c76dae39766ad3164f",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "Trilium におけるスキルとは、Trilium の仕組みを理解することでAIの生産性を高める、特殊な指示セットのことです。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_731863693e7fe04a274fde37_0",
@@ -1441,8 +2218,15 @@
       "sourceHash": "731863693e7fe04a274fde37b7de3386d325705ce90290402bba7301246b88ce",
       "context": "AI > Features > Skills",
       "contextHash": "86180e7855290d6c3de8408554d6b67df6c0a2bbaec8e9c76dae39766ad3164f",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "トークンの消費増加を避けるため、これらのスキルはデフォルトでは読み込まれませんが、__TRILIUM_PH_0__Note tools__TRILIUM_PH_1__ が有効になっている場合は、AIがオンデマンドで読み込むことができます。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_560f742ae771dde9b4422f2a_0",
@@ -1451,8 +2235,15 @@
       "sourceHash": "560f742ae771dde9b4422f2abb50b8832b05fb21ee3aa6b1decca7cd6d02af84",
       "context": "AI > Features > Skills",
       "contextHash": "86180e7855290d6c3de8408554d6b67df6c0a2bbaec8e9c76dae39766ad3164f",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "以下のスキルが組み込まれています：",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_6945373ba19ed49d1ade3065_0",
@@ -1461,8 +2252,15 @@
       "sourceHash": "6945373ba19ed49d1ade3065369f94e4554cf3d6361aea18d5d8409e56d03b5e",
       "context": "AI > Features > Skills",
       "contextHash": "86180e7855290d6c3de8408554d6b67df6c0a2bbaec8e9c76dae39766ad3164f",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "検索構文：__TRILIUM_PH_0__Search__TRILIUM_PH_1__ のすべての構文を理解します。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_da6c0f180a7314d8713cb32d_0",
@@ -1471,8 +2269,15 @@
       "sourceHash": "da6c0f180a7314d8713cb32d1cebea5423b65b318b0a67a4660ce856543501c7",
       "context": "AI > Features > Skills",
       "contextHash": "86180e7855290d6c3de8408554d6b67df6c0a2bbaec8e9c76dae39766ad3164f",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "バックエンドスクリプト：適切な __TRILIUM_PH_0__Backend scripts__TRILIUM_PH_1__ を記述できるようにします。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_5fa7772b0a2e6108a0181ab4_0",
@@ -1481,8 +2286,15 @@
       "sourceHash": "5fa7772b0a2e6108a0181ab4f7778e8d19fa0b83e5f9add02ef577d8bf333d22",
       "context": "AI > Features > Skills",
       "contextHash": "86180e7855290d6c3de8408554d6b67df6c0a2bbaec8e9c76dae39766ad3164f",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "フロントエンドスクリプト：適切な __TRILIUM_PH_0__front-end scripts__TRILIUM_PH_1__（基本スクリプト、ウィジェット、__TRILIUM_PH_2__Render Note__TRILIUM_PH_3__）を記述できるようにします。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_7653af94fbbc6a69de143b11_0",
@@ -1491,8 +2303,15 @@
       "sourceHash": "7653af94fbbc6a69de143b11dcf7d3fb4dff2f638cd0cb616504ce8e25f91378",
       "context": "AI > Features > Skills",
       "contextHash": "86180e7855290d6c3de8408554d6b67df6c0a2bbaec8e9c76dae39766ad3164f",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "ダッシュボード：__TRILIUM_PH_0__Dashboard__TRILIUM_PH_1__ およびそのウィジェット（__TRILIUM_PH_2__Render Note__TRILIUM_PH_3__ を使用して作成されたインタラクティブなものを含む）を構築します。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_5f27fa75755f11a3e0959ad0_0",
@@ -1501,8 +2320,15 @@
       "sourceHash": "5f27fa75755f11a3e0959ad00ca6bb32f4a7c06e2f94a0dbf762fe2a39750d1e",
       "context": "AI > Features > Skills",
       "contextHash": "86180e7855290d6c3de8408554d6b67df6c0a2bbaec8e9c76dae39766ad3164f",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "__TRILIUM_PH_0__Note tools__TRILIUM_PH_1__ が有効になっている場合、スキルは自動的にAIで使用可能になるため、ユーザーの操作は必要ありません。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_91678221dd195f00633a407b_0",
@@ -1511,8 +2337,15 @@
       "sourceHash": "91678221dd195f00633a407b79a98a837ae3d84b6eb12de36114b4fea9d484f0",
       "context": "AI > Features > Skills",
       "contextHash": "86180e7855290d6c3de8408554d6b67df6c0a2bbaec8e9c76dae39766ad3164f",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "カスタムスキルは現在サポートされていませんが、将来的に予定されています。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_660311a54bcc208adff7a311_0",
@@ -1521,8 +2354,15 @@
       "sourceHash": "660311a54bcc208adff7a3116d0baf03eebe28077679932af7181be4833fa9e9",
       "context": "AI > Features > MCP",
       "contextHash": "1e57e6105c62b861968478aa3c8a328b78faf63fb7da38807b8c528e3debf296",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "MCP__TRILIUM_PH_0__",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_294a754a449513ee58017b16_0",
@@ -1531,8 +2371,15 @@
       "sourceHash": "294a754a449513ee58017b16b793d589c34fb795edb7ff099cb3d82326b2bb4d",
       "context": "AI > Features > MCP",
       "contextHash": "1e57e6105c62b861968478aa3c8a328b78faf63fb7da38807b8c528e3debf296",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "Triliumには、Claude Codeなどの外部エージェントがデータベースにアクセスできるようにする組み込みのMCPサーバーが付属しています。詳細については、専用の __TRILIUM_PH_0__MCP__TRILIUM_PH_1__ ページを参照してください。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_f5285067c1b6965db806e01f_0",
@@ -1541,8 +2388,15 @@
       "sourceHash": "f5285067c1b6965db806e01f951f8cf82e05067508ea16529dcc2ca8c0e2e040",
       "context": "AI > History",
       "contextHash": "3506340ec61d00bc4e0e9b26e27bcaae4b2dbf3fefc7c1cd0d859e537df3bf90",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "履歴__TRILIUM_PH_0__",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_eedf3f8d84c45eab7faf5666_0",
@@ -1551,8 +2405,15 @@
       "sourceHash": "eedf3f8d84c45eab7faf5666de02278f3402d4645feec558669d2382693aef66",
       "context": "AI > History > Removal in v0.102.0",
       "contextHash": "886790144f7f50fb3ad76e96077d7db7df4d6e25d22befdeacc6f7fc62c94b88",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "v0.102.0での削除__TRILIUM_PH_0__",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_b37b2434c1beee711a7a1fa6_0",
@@ -1561,8 +2422,15 @@
       "sourceHash": "b37b2434c1beee711a7a1fa68fee99bda488c8a575c8b9f2537dfaae17fcbb7a",
       "context": "AI > History > Removal in v0.102.0",
       "contextHash": "886790144f7f50fb3ad76e96077d7db7df4d6e25d22befdeacc6f7fc62c94b88",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "バージョン v0.102.0 以降、AI/LLM連携は Trilium Notes のコアから削除されました。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_6103c64a757c7b46490f65d4_0",
@@ -1571,8 +2439,15 @@
       "sourceHash": "6103c64a757c7b46490f65d44a9cdda7d8a5c7834e690236bf559dcc8a09456d",
       "context": "AI > History > Removal in v0.102.0",
       "contextHash": "886790144f7f50fb3ad76e96077d7db7df4d6e25d22befdeacc6f7fc62c94b88",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "この機能の開発には多大な労力が費やされましたが、長期的な保守とサポートは持続不可能であることが判明しました。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_1398baedded40fce4580e543_0",
@@ -1581,8 +2456,15 @@
       "sourceHash": "1398baedded40fce4580e543915ba397adbd3409c7b6db1376ceaf0cc1defeac",
       "context": "AI > History > Removal in v0.102.0",
       "contextHash": "886790144f7f50fb3ad76e96077d7db7df4d6e25d22befdeacc6f7fc62c94b88",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "v0.102.0にアップグレードすると、チャットノートは保持されますが、専用のチャットウィンドウの代わりに通常の __TRILIUM_PH_0__Code__TRILIUM_PH_1__ ノートに変換され、会話の基盤となるJSONが表示されます。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_f4352982e78c717aed53e845_0",
@@ -1591,8 +2473,15 @@
       "sourceHash": "f4352982e78c717aed53e8456dfa8a1ab57d35997fc533422410a521c6873e9d",
       "context": "AI > History > Reintroduction in v0.103.0",
       "contextHash": "ac22d433ec9a6ba2892ed2a3140fab48bf56c52572d11619412b9a6b58b49467",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "v0.103.0での再導入__TRILIUM_PH_0__",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_66b20d61e92753a715025864_0",
@@ -1601,8 +2490,15 @@
       "sourceHash": "66b20d61e92753a715025864b4c413d8839d4e3823f9f2924b98f15f3b0811d0",
       "context": "AI > History > Reintroduction in v0.103.0",
       "contextHash": "ac22d433ec9a6ba2892ed2a3140fab48bf56c52572d11619412b9a6b58b49467",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "AI分野の最近の進歩を考慮し、LLM統合をもう一度試みることにしました。v0.103.0では、完全に新しいチャットシステムが導入されています。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_fbd1ddad9b5a9d89bb6f71f7_0",
@@ -1611,9 +2507,188 @@
       "sourceHash": "fbd1ddad9b5a9d89bb6f71f796545bd1d316403baddaca795c8b27c08d21cfd7",
       "context": "AI > History > Reintroduction in v0.103.0",
       "contextHash": "ac22d433ec9a6ba2892ed2a3140fab48bf56c52572d11619412b9a6b58b49467",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "再実装に至った主な変更点の1つは、独自に実装するのではなく、ライブラリ（__TRILIUM_PH_0__Vercel AI__TRILIUM_PH_1__）を使用して内部メカニズムやLLMプロバイダー間の違いを管理するようになったことです。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     }
   ],
-  "requests": []
+  "requests": [
+    {
+      "at": "2026-11-14T14:14:05.465Z",
+      "model": "gemini-3.5-flash-lite",
+      "batchJob": "batches/8vehrrvdpag09tp4gjf9dbgj006t9k2gkkyl",
+      "requestKey": "GBBMSlVSOIGP_92d24a256aecba84",
+      "modelVersion": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 1364,
+        "candidatesTokenCount": 1021,
+        "totalTokenCount": 2385,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 1364
+          }
+        ],
+        "serviceTier": "standard"
+      }
+    },
+    {
+      "at": "2026-11-14T14:14:05.465Z",
+      "model": "gemini-3.5-flash-lite",
+      "batchJob": "batches/8vehrrvdpag09tp4gjf9dbgj006t9k2gkkyl",
+      "requestKey": "GBBMSlVSOIGP_ba7ce20b5296803c",
+      "modelVersion": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 1308,
+        "candidatesTokenCount": 894,
+        "totalTokenCount": 2202,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 1308
+          }
+        ],
+        "serviceTier": "standard"
+      }
+    },
+    {
+      "at": "2026-11-14T14:14:05.465Z",
+      "model": "gemini-3.5-flash-lite",
+      "batchJob": "batches/8vehrrvdpag09tp4gjf9dbgj006t9k2gkkyl",
+      "requestKey": "GBBMSlVSOIGP_6cf1d0bfc64b9a94",
+      "modelVersion": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 1319,
+        "candidatesTokenCount": 823,
+        "totalTokenCount": 2142,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 1319
+          }
+        ],
+        "serviceTier": "standard"
+      }
+    },
+    {
+      "at": "2026-11-14T14:14:05.465Z",
+      "model": "gemini-3.5-flash-lite",
+      "batchJob": "batches/8vehrrvdpag09tp4gjf9dbgj006t9k2gkkyl",
+      "requestKey": "GBBMSlVSOIGP_4d6da8094106f5ae",
+      "modelVersion": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 1482,
+        "candidatesTokenCount": 978,
+        "totalTokenCount": 2460,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 1482
+          }
+        ],
+        "serviceTier": "standard"
+      }
+    },
+    {
+      "at": "2026-11-14T14:14:05.465Z",
+      "model": "gemini-3.5-flash-lite",
+      "batchJob": "batches/8vehrrvdpag09tp4gjf9dbgj006t9k2gkkyl",
+      "requestKey": "GBBMSlVSOIGP_0cb4e83544b9829c",
+      "modelVersion": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 1988,
+        "candidatesTokenCount": 1548,
+        "totalTokenCount": 3536,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 1988
+          }
+        ],
+        "serviceTier": "standard"
+      }
+    },
+    {
+      "at": "2026-11-14T14:14:05.465Z",
+      "model": "gemini-3.5-flash-lite",
+      "batchJob": "batches/8vehrrvdpag09tp4gjf9dbgj006t9k2gkkyl",
+      "requestKey": "GBBMSlVSOIGP_fc660ecd4910b3ed",
+      "modelVersion": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 1681,
+        "candidatesTokenCount": 1277,
+        "totalTokenCount": 2958,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 1681
+          }
+        ],
+        "serviceTier": "standard"
+      }
+    },
+    {
+      "at": "2026-11-14T14:14:05.465Z",
+      "model": "gemini-3.5-flash-lite",
+      "batchJob": "batches/8vehrrvdpag09tp4gjf9dbgj006t9k2gkkyl",
+      "requestKey": "GBBMSlVSOIGP_2d98a2cb9aafb637",
+      "modelVersion": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 1462,
+        "candidatesTokenCount": 1071,
+        "totalTokenCount": 2533,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 1462
+          }
+        ],
+        "serviceTier": "standard"
+      }
+    },
+    {
+      "at": "2026-11-14T14:14:05.465Z",
+      "model": "gemini-3.5-flash-lite",
+      "batchJob": "batches/8vehrrvdpag09tp4gjf9dbgj006t9k2gkkyl",
+      "requestKey": "GBBMSlVSOIGP_8e11322df0fb995d",
+      "modelVersion": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 1514,
+        "candidatesTokenCount": 998,
+        "totalTokenCount": 2512,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 1514
+          }
+        ],
+        "serviceTier": "standard"
+      }
+    },
+    {
+      "at": "2026-11-14T14:14:05.465Z",
+      "model": "gemini-3.5-flash-lite",
+      "batchJob": "batches/8vehrrvdpag09tp4gjf9dbgj006t9k2gkkyl",
+      "requestKey": "GBBMSlVSOIGP_91a36a157890fc80",
+      "modelVersion": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 428,
+        "candidatesTokenCount": 136,
+        "totalTokenCount": 564,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 428
+          }
+        ],
+        "serviceTier": "standard"
+      }
+    }
+  ]
 }

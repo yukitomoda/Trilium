@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "pageId": "bwg0e8ewQMak",
   "sourceFile": "docs/User Guide/User Guide/Basic Concepts and Features/Notes/Protected Notes.md",
-  "sourceRevision": "03d17b60f59b5efc29b880b11481471d0fe0ff57",
+  "sourceRevision": "bbc6051da7fab504dac8c69279859c8cb9c61eef",
   "units": [
     {
       "id": "u_3fea256c3a37fbe1a613c607_0",
@@ -331,9 +331,36 @@
       "sourceHash": "019d00d7698f17028bd344669afbf29f5e62276329ddcc99eefa020b9211a98d",
       "context": "Protected Notes > Sharing Protected Notes",
       "contextHash": "9e82d879e34f64426cefaa8832a41b833116c2975c3caa64176054eae3594af3",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "保護されたノートのロック解除のサンプルアニメーション",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     }
   ],
-  "requests": []
+  "requests": [
+    {
+      "at": "2026-11-14T14:14:05.465Z",
+      "model": "gemini-3.5-flash-lite",
+      "batchJob": "batches/8vehrrvdpag09tp4gjf9dbgj006t9k2gkkyl",
+      "requestKey": "bwg0e8ewQMak_1be90f7d98dd56ff",
+      "modelVersion": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 363,
+        "candidatesTokenCount": 68,
+        "totalTokenCount": 431,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 363
+          }
+        ],
+        "serviceTier": "standard"
+      }
+    }
+  ]
 }

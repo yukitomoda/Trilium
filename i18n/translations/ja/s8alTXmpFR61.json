@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "pageId": "s8alTXmpFR61",
   "sourceFile": "docs/User Guide/User Guide/Troubleshooting/Refreshing the application.md",
-  "sourceRevision": "03d17b60f59b5efc29b880b11481471d0fe0ff57",
+  "sourceRevision": "bbc6051da7fab504dac8c69279859c8cb9c61eef",
   "units": [
     {
       "id": "u_97f3966944d5e01269e52d15_0",
@@ -11,8 +11,15 @@
       "sourceHash": "97f3966944d5e01269e52d151bca7ed649f326649638f71c83bec6fbb31503ba",
       "context": "Refreshing the application",
       "contextHash": "f24c1abc67097825e79cccdedaae86c47e28704cdcfb5d73f4d88003bf18d14f",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "アプリケーションの更新",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_5f7fa8b536db2b51e62c213f_0",
@@ -21,8 +28,15 @@
       "sourceHash": "5f7fa8b536db2b51e62c213fd2521bd56125b748efdf649a8d2e011f70036fec",
       "context": "Refreshing the application",
       "contextHash": "f24c1abc67097825e79cccdedaae86c47e28704cdcfb5d73f4d88003bf18d14f",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "アプリケーションに対するいくつかの変更はすぐに反映されないため、手動でアプリケーションを再読み込みまたは更新する必要がある場合があります。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_1ceb2538728adb027fbd41d5_0",
@@ -31,9 +45,36 @@
       "sourceHash": "1ceb2538728adb027fbd41d5ac16695b89cfc2a7aa0e0ec35cfc4d1f63b720ed",
       "context": "Refreshing the application",
       "contextHash": "f24c1abc67097825e79cccdedaae86c47e28704cdcfb5d73f4d88003bf18d14f",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "これを行うには、単に __TRILIUM_PH_0__Ctrl__TRILIUM_PH_1__+__TRILIUM_PH_2__Shift__TRILIUM_PH_3__+__TRILIUM_PH_4__R__TRILIUM_PH_5__ を押してください。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     }
   ],
-  "requests": []
+  "requests": [
+    {
+      "at": "2026-11-14T14:14:05.465Z",
+      "model": "gemini-3.5-flash-lite",
+      "batchJob": "batches/8vehrrvdpag09tp4gjf9dbgj006t9k2gkkyl",
+      "requestKey": "s8alTXmpFR61_49e84a59959d04a4",
+      "modelVersion": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 524,
+        "candidatesTokenCount": 236,
+        "totalTokenCount": 760,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 524
+          }
+        ],
+        "serviceTier": "standard"
+      }
+    }
+  ]
 }

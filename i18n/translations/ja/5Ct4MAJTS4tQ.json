@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "pageId": "5Ct4MAJTS4tQ",
   "sourceFile": "docs/User Guide/User Guide/Basic Concepts and Features/Notes/Restoring Deleted Notes.md",
-  "sourceRevision": "03d17b60f59b5efc29b880b11481471d0fe0ff57",
+  "sourceRevision": "bbc6051da7fab504dac8c69279859c8cb9c61eef",
   "units": [
     {
       "id": "u_7f120990fc6f532a2a8c6821_0",
@@ -11,8 +11,15 @@
       "sourceHash": "7f120990fc6f532a2a8c6821c7a455bab75470cb55c2ee8ed471592f65eeefcb",
       "context": "Restoring Deleted Notes",
       "contextHash": "c7ce8fd01a25486633065f68aa202adfe6e8b0d981b4642e35167f6edefbfc3f",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "削除されたノートの復元",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_bcfb93ee5060d20dca17d256_0",
@@ -21,8 +28,15 @@
       "sourceHash": "bcfb93ee5060d20dca17d2562db84b51cff08d4003cce0b93d6249ae5db30570",
       "context": "Restoring Deleted Notes",
       "contextHash": "c7ce8fd01a25486633065f68aa202adfe6e8b0d981b4642e35167f6edefbfc3f",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "削除されたノートは __TRILIUM_PH_0__Deleted Notes__TRILIUM_PH_1__ ダイアログ（__TRILIUM_PH_2__Global menu__TRILIUM_PH_3__ → __TRILIUM_PH_4__Deleted notes__TRILIUM_PH_5__）に一覧表示され、__TRILIUM_PH_6__undelete__TRILIUM_PH_7__ リンクを押すことで復元できます。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_8766112197502dc83ea0c03a_0",
@@ -31,8 +45,15 @@
       "sourceHash": "8766112197502dc83ea0c03a86ae6d289f007fc068d6bf09922802344bd12076",
       "context": "Restoring Deleted Notes",
       "contextHash": "c7ce8fd01a25486633065f68aa202adfe6e8b0d981b4642e35167f6edefbfc3f",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "ノートに子ノートがある場合、それらも一緒に復元されます。元の場所がすでに存在しない場合（親ノートが削除されている場合など）、ノートは新規ノートのデフォルトの場所（__TRILIUM_PH_0__Note Inbox__TRILIUM_PH_1__）に復元されます。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_3a8afb98f952fdb5bca86bca_0",
@@ -41,8 +62,15 @@
       "sourceHash": "3a8afb98f952fdb5bca86bcaa0653be48f408778060d82b5b730f229b0ad3816",
       "context": "Restoring Deleted Notes",
       "contextHash": "c7ce8fd01a25486633065f68aa202adfe6e8b0d981b4642e35167f6edefbfc3f",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "ノートツリーでノートがホイストされている場合、ダイアログにはそのホイストされたノートのサブツリーから削除されたノートのみが表示されます。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_43b14292c2803afacc3f3274_0",
@@ -51,8 +79,15 @@
       "sourceHash": "43b14292c2803afacc3f3274f586bb028deba42c7082de804d9b32b279e2a1e0",
       "context": "Restoring Deleted Notes",
       "contextHash": "c7ce8fd01a25486633065f68aa202adfe6e8b0d981b4642e35167f6edefbfc3f",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "削除されたノートを完全に消去してリストをクリアするには、三点リーダーメニューを押して __TRILIUM_PH_0__Erase deleted notes now__TRILIUM_PH_1__ を選択します。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_7de3e4305f065289d8cf03b0_0",
@@ -61,9 +96,36 @@
       "sourceHash": "7de3e4305f065289d8cf03b051a72986639a1d37e0f625ed9ad683df28c84b4a",
       "context": "Restoring Deleted Notes",
       "contextHash": "c7ce8fd01a25486633065f68aa202adfe6e8b0d981b4642e35167f6edefbfc3f",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "削除されたノートは、一定期間（デフォルトでは7日間）が経過すると完全に消去されます。この間隔を変更するには、三点リーダーメニューを押して __TRILIUM_PH_0__Deleted Notes Settings__TRILIUM_PH_1__ を選択します。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     }
   ],
-  "requests": []
+  "requests": [
+    {
+      "at": "2026-11-14T14:14:05.465Z",
+      "model": "gemini-3.5-flash-lite",
+      "batchJob": "batches/8vehrrvdpag09tp4gjf9dbgj006t9k2gkkyl",
+      "requestKey": "5Ct4MAJTS4tQ_283f42056e97c074",
+      "modelVersion": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 832,
+        "candidatesTokenCount": 544,
+        "totalTokenCount": 1376,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 832
+          }
+        ],
+        "serviceTier": "standard"
+      }
+    }
+  ]
 }

@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "pageId": "9sRHySam5fXb",
   "sourceFile": "docs/User Guide/User Guide/Basic Concepts and Features/Navigation/Workspaces.md",
-  "sourceRevision": "03d17b60f59b5efc29b880b11481471d0fe0ff57",
+  "sourceRevision": "bbc6051da7fab504dac8c69279859c8cb9c61eef",
   "units": [
     {
       "id": "u_0ec338de5c6d0e555b8a94ae_0",
@@ -171,8 +171,15 @@
       "sourceHash": "be8b16ed2b5e5f932e3c244713acd4d8def7658fdbb1d851a51f17e81bc02bc5",
       "context": "Workspaces > Configuration",
       "contextHash": "b5d5d4b3a156fc4ec82534802b206c21a6040bafde9c05ac198b7e3222be9023",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "このワークスペースノートの祖先にホイストされている場合、新規の検索ノートはこのノートの子ノートとして作成されます",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_473f44c467c8386bef322d6e_0",
@@ -181,8 +188,15 @@
       "sourceHash": "473f44c467c8386bef322d6e09f36ddcf92399898b2e5e71b7080960d45ba2b0",
       "context": "Workspaces > Configuration",
       "contextHash": "b5d5d4b3a156fc4ec82534802b206c21a6040bafde9c05ac198b7e3222be9023",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "このワークスペースノートの祖先にホイストされている場合の、新規ノートのデフォルトのインボックスの場所です。詳細については、__TRILIUM_PH_0__Note Inbox__TRILIUM_PH_1__ を参照してください。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_b190d47815633246b0ab18a6_0",
@@ -191,8 +205,15 @@
       "sourceHash": "b190d47815633246b0ab18a61d9b8e8ea36504fe3f8bc230a7753096915c9ff2",
       "context": "Workspaces > Configuration",
       "contextHash": "b5d5d4b3a156fc4ec82534802b206c21a6040bafde9c05ac198b7e3222be9023",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "記事画像",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_b190d47815633246b0ab18a6_1",
@@ -201,9 +222,36 @@
       "sourceHash": "b190d47815633246b0ab18a61d9b8e8ea36504fe3f8bc230a7753096915c9ff2",
       "context": "Workspaces > Configuration",
       "contextHash": "b5d5d4b3a156fc4ec82534802b206c21a6040bafde9c05ac198b7e3222be9023",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "記事画像",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     }
   ],
-  "requests": []
+  "requests": [
+    {
+      "at": "2026-11-14T14:14:05.465Z",
+      "model": "gemini-3.5-flash-lite",
+      "batchJob": "batches/8vehrrvdpag09tp4gjf9dbgj006t9k2gkkyl",
+      "requestKey": "9sRHySam5fXb_d9b53ece6645af3b",
+      "modelVersion": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 543,
+        "candidatesTokenCount": 223,
+        "totalTokenCount": 766,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 543
+          }
+        ],
+        "serviceTier": "standard"
+      }
+    }
+  ]
 }

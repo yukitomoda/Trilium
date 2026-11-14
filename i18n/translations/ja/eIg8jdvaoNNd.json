@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "pageId": "eIg8jdvaoNNd",
   "sourceFile": "docs/User Guide/User Guide/Basic Concepts and Features/Navigation/Search.md",
-  "sourceRevision": "03d17b60f59b5efc29b880b11481471d0fe0ff57",
+  "sourceRevision": "bbc6051da7fab504dac8c69279859c8cb9c61eef",
   "units": [
     {
       "id": "u_ff085f7a20503765797dbbe2_0",
@@ -491,8 +491,15 @@
       "sourceHash": "5ab3c9580b155d12b2f1e035934bf5eee8b4ad3cc2b5ccb140bad0600d0d12f5",
       "context": "Search > Features > Syntax highlighting",
       "contextHash": "17940128991a0451197fe3f7065cccec091ff610ed9e4e1a6174e3b7ff27cbfb",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "同様のハイライト表示は __TRILIUM_PH_0__Code__TRILIUM_PH_1__ ノートでも利用できます。例えばクエリのコレクションを維持する場合、ノートの言語を __TRILIUM_PH_2__Trilium Search Query__TRILIUM_PH_3__ に設定します。この言語はデフォルトでは有効になっていません。__TRILIUM_PH_4__Options__TRILIUM_PH_5__ → __TRILIUM_PH_6__Code Notes__TRILIUM_PH_7__ → ドロップダウンにある __TRILIUM_PH_8__Available MIME types in the dropdown__TRILIUM_PH_9__ から追加してください。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_2f41bf2056584dad17229b27_0",
@@ -501,8 +508,15 @@
       "sourceHash": "2f41bf2056584dad17229b272718d4b4b1d3736882a2961f76ce4c695a7832da",
       "context": "Search > Features > Error highlighting & linting",
       "contextHash": "4e029b06577316b1313bb0bc3e5a1b5ed4fcd475f9167338b0e53239ebdff2bd",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "エラーのハイライトと静的解析__TRILIUM_PH_0__",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_e57fc57426fefbc53ff12299_0",
@@ -511,8 +525,15 @@
       "sourceHash": "e57fc57426fefbc53ff1229919a8946f7054fde1a9c6887de598b486c1bb3c45",
       "context": "Search > Features > Error highlighting & linting",
       "contextHash": "4e029b06577316b1313bb0bc3e5a1b5ed4fcd475f9167338b0e53239ebdff2bd",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "また、検索では2つの段階でエラーのチェックが行われ、赤い波線として表示されます。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_733d18462e63dc6e30fb15ae_0",
@@ -521,8 +542,15 @@
       "sourceHash": "733d18462e63dc6e30fb15aef2e7d2ea16f59e7344e66bc46a11a9640afb6c89",
       "context": "Search > Features > Error highlighting & linting",
       "contextHash": "4e029b06577316b1313bb0bc3e5a1b5ed4fcd475f9167338b0e53239ebdff2bd",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "一般的なエラーパターンを特定し、その修正方法も提供するリンターエラーです。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_681190998c4a4add67364659_0",
@@ -531,8 +559,15 @@
       "sourceHash": "681190998c4a4add67364659b34850d676273be509a75bcefa2f6704087cca54",
       "context": "Search > Features > Error highlighting & linting",
       "contextHash": "4e029b06577316b1313bb0bc3e5a1b5ed4fcd475f9167338b0e53239ebdff2bd",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "エラーが発生した正確な場所を示すことなく、サーバーによってチェックされる検索エラーです。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_558578a410eaff462c6faad1_0",
@@ -541,8 +576,15 @@
       "sourceHash": "558578a410eaff462c6faad13b55ab9fe2cf5356d6d05f4ed5a7ff811153a687",
       "context": "Search > Features > Error highlighting & linting",
       "contextHash": "4e029b06577316b1313bb0bc3e5a1b5ed4fcd475f9167338b0e53239ebdff2bd",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "ノートの内容を検索できない演算子など、検索の実行中にのみ遭遇するエラーは、代わりに __TRILIUM_PH_0__Search error__TRILIUM_PH_1__ カード（検索文字列の下、または __TRILIUM_PH_2__Quick search__TRILIUM_PH_3__ 結果の上部）に表示されます。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_1dcb81f6ad3f97869e490eb0_0",
@@ -551,8 +593,15 @@
       "sourceHash": "1dcb81f6ad3f97869e490eb0e6aca3c65a6ec838789f43f1bfc8d02ac7d649c3",
       "context": "Search > Features > Multiline",
       "contextHash": "12e9000bcc5545b65dba67c60b6e18bb549acb23a13fa2282c6ea38d66f586a2",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "複数行__TRILIUM_PH_0__",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_6f15ffd46ac63bbd9f38f5d1_0",
@@ -561,8 +610,15 @@
       "sourceHash": "6f15ffd46ac63bbd9f38f5d15f1282c9f63ebe2c8ae8474314872a51d761a59b",
       "context": "Search > Features > Multiline",
       "contextHash": "12e9000bcc5545b65dba67c60b6e18bb549acb23a13fa2282c6ea38d66f586a2",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "長かったり複雑な検索は、SQLクエリと同様に改行を使用してフォーマットできます。改行はスペースと同じように扱われます。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_594cb6abb9d154522a56e761_0",
@@ -571,8 +627,15 @@
       "sourceHash": "594cb6abb9d154522a56e761127f35fd3eba477d2aa5ab9ab27c4a01afc79700",
       "context": "Search > Features > Multiline",
       "contextHash": "12e9000bcc5545b65dba67c60b6e18bb549acb23a13fa2282c6ea38d66f586a2",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "新しい行を追加するには、__TRILIUM_PH_0__Shift__TRILIUM_PH_1__+__TRILIUM_PH_2__Enter__TRILIUM_PH_3__ を押します。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_33517516d7e47dfe73ee573f_0",
@@ -581,8 +644,15 @@
       "sourceHash": "33517516d7e47dfe73ee573fa23a5339052ebcaa9622a2568871239c490336f6",
       "context": "Search > Features > Multiline",
       "contextHash": "12e9000bcc5545b65dba67c60b6e18bb549acb23a13fa2282c6ea38d66f586a2",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "複数行は全体検索でのみ利用可能です。クイック検索やコレクションフィルターなどの他の入力欄は単一行です。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_e55c9187d949f728e5fcb23d_0",
@@ -591,8 +661,15 @@
       "sourceHash": "e55c9187d949f728e5fcb23de98ee4e64419e733fbea63f56eb3f1397cf049e5",
       "context": "Search > Search options",
       "contextHash": "e04bea1def4466a0e14a039294977124a48cc649c49d8e294885b2b830381723",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "検索オプション__TRILIUM_PH_0__",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_31d3b355790b2258d46a68c3_0",
@@ -601,8 +678,15 @@
       "sourceHash": "31d3b355790b2258d46a68c3a3f234ccd78e6e5a09d57d73960499524b281b12",
       "context": "Search > Search options",
       "contextHash": "e04bea1def4466a0e14a039294977124a48cc649c49d8e294885b2b830381723",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "__TRILIUM_PH_0__Add search option__TRILIUM_PH_1__ をクリックして、適用するオプションを選択します。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_326cb1e2b10cb533264e2363_0",
@@ -611,8 +695,15 @@
       "sourceHash": "326cb1e2b10cb533264e23633efe7a20dbd4212880b9e2f871dc586746fb870e",
       "context": "Search > Search options",
       "contextHash": "e04bea1def4466a0e14a039294977124a48cc649c49d8e294885b2b830381723",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "選択した各検索オプションについて、検索設定が更新されて入力欄が表示されます。各検索オプションには独自の設定があります。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_5d2cc6de8088e993096aed2e_0",
@@ -621,8 +712,15 @@
       "sourceHash": "5d2cc6de8088e993096aed2e9e39888afdbe18174d21146574230f3064e903ff",
       "context": "Search > Search options",
       "contextHash": "e04bea1def4466a0e14a039294977124a48cc649c49d8e294885b2b830381723",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "検索オプションを削除するには、その右側にある __TRILIUM_PH_0__ ボタンを押すだけです。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_3a4dc37eca2e240f3b331697_0",
@@ -631,8 +729,15 @@
       "sourceHash": "3a4dc37eca2e240f3b331697021c8b105551b94cc0f96b3aadfa21f118de9242",
       "context": "Search > Search options",
       "contextHash": "e04bea1def4466a0e14a039294977124a48cc649c49d8e294885b2b830381723",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "利用可能なオプションは以下の通りです。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_c0d3ad96b94d9b456be970e2_0",
@@ -641,8 +746,15 @@
       "sourceHash": "c0d3ad96b94d9b456be970e2acfbeeb0e0b6525bea882746a32b8e900b2dcf23",
       "context": "Search > Search options",
       "contextHash": "e04bea1def4466a0e14a039294977124a48cc649c49d8e294885b2b830381723",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "__TRILIUM_PH_0__ 検索スクリプト",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_3e8ed1e9e5fae6300148ff75_0",
@@ -971,8 +1083,15 @@
       "sourceHash": "b7b5105bcd2b397cd58b33a09904ec8c6f3eacb52765ef5e493cc65738d53bb8",
       "context": "Search > Simple Note Search Examples",
       "contextHash": "dba191964a869b9a1d960f78f03d62f20da20d31ed48223787f19f82d2230629",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "__TRILIUM_PH_0__：「The Lord of the Rings」に完全に一致する必要がある全文検索。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_f38f84069ea8562a35ae0a51_0",
@@ -981,8 +1100,15 @@
       "sourceHash": "f38f84069ea8562a35ae0a519c47721909875297111cf515ad50078fd7c22b09",
       "context": "Search > Simple Note Search Examples",
       "contextHash": "dba191964a869b9a1d960f78f03d62f20da20d31ed48223787f19f82d2230629",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "__TRILIUM_PH_0__：コンテンツに「rings」または「tolkien」が含まれるノートを検索します。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_ebe86eb6f5ade48993f523b5_0",
@@ -991,8 +1117,15 @@
       "sourceHash": "ebe86eb6f5ade48993f523b50b1179f6de5c062006470545670c27922bfaf09a",
       "context": "Search > Simple Note Search Examples",
       "contextHash": "dba191964a869b9a1d960f78f03d62f20da20d31ed48223787f19f82d2230629",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "__TRILIUM_PH_0__：全文検索と属性検索を組み合わせて、「towers」を含み「book」ラベルを持つノートを検索します。__TRILIUM_PH_1__ と書いても同様の検索ができます。「and」という単語自体を検索するには、引用符で囲んでください。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_3ca66167edcc29ad7289f2dd_0",
@@ -1001,8 +1134,15 @@
       "sourceHash": "3ca66167edcc29ad7289f2dd8a1eb51b66e881260a0206148f3e75f88637f3af",
       "context": "Search > Simple Note Search Examples",
       "contextHash": "dba191964a869b9a1d960f78f03d62f20da20d31ed48223787f19f82d2230629",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "__TRILIUM_PH_0__ または __TRILIUM_PH_1__：単語内の __TRILIUM_PH_2__ または __TRILIUM_PH_3__ はテキストの一部とみなされるため、これらは「c#」や「towers#book」を含むノートを検索します。ラベルやリレーションを開始するには、その前にスペースを入れます。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_d35cef600e91cf6193de134e_0",
@@ -1011,8 +1151,15 @@
       "sourceHash": "d35cef600e91cf6193de134e978db91c115f57df2333d5b5d9454b8a8c5a5a0b",
       "context": "Search > Simple Note Search Examples",
       "contextHash": "dba191964a869b9a1d960f78f03d62f20da20d31ed48223787f19f82d2230629",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "__TRILIUM_PH_0__：「towers」を含み、「book」または「author」のいずれかのラベルを持つノートを検索します。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_98cfccdade0f1e8af1dcb6bc_0",
@@ -1021,8 +1168,15 @@
       "sourceHash": "98cfccdade0f1e8af1dcb6bcd3f49f3995fe2c00df86207209a05a0998b2ea34",
       "context": "Search > Simple Note Search Examples",
       "contextHash": "dba191964a869b9a1d960f78f03d62f20da20d31ed48223787f19f82d2230629",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "__TRILIUM_PH_0__：「towers」を含み、「book」ラベルを持たないノートを検索します。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_0f7726c79b414fe15fca6e5b_0",
@@ -1031,8 +1185,15 @@
       "sourceHash": "0f7726c79b414fe15fca6e5b973966bf04ed7957f4ae4c78e840cbef7462fe03",
       "context": "Search > Simple Note Search Examples",
       "contextHash": "dba191964a869b9a1d960f78f03d62f20da20d31ed48223787f19f82d2230629",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "__TRILIUM_PH_0__：「book」ラベルを持ち、かつ「publicationYear」が1954に設定されているノートを検索します。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_f1d2612d4a9e2627194304e4_0",
@@ -1041,8 +1202,15 @@
       "sourceHash": "f1d2612d4a9e2627194304e4449f1fc1eb74a1e7b625fffccf9c88ae41195052",
       "context": "Search > Simple Note Search Examples",
       "contextHash": "dba191964a869b9a1d960f78f03d62f20da20d31ed48223787f19f82d2230629",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "__TRILIUM_PH_0__：「genre」ラベルを持ち、サブストリング「fan」を含むノートを検索します。その他の演算子として、「含む」を表す __TRILIUM_PH_1__、「前方一致」を表す __TRILIUM_PH_2__、「後方一致」を表す __TRILIUM_PH_3__、「等しくない」を表す __TRILIUM_PH_4__ があります。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_1f8cb98d81825bff068d8cd0_0",
@@ -1051,8 +1219,15 @@
       "sourceHash": "1f8cb98d81825bff068d8cd07ee8fff478e85f16441f1e446b2c7b4562758aa2",
       "context": "Search > Simple Note Search Examples",
       "contextHash": "dba191964a869b9a1d960f78f03d62f20da20d31ed48223787f19f82d2230629",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "__TRILIUM_PH_0__：数値演算子を使用して、1950年代に出版されたすべての本を検索します。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_56dda467d9b7c9606b35f7ec_0",
@@ -1061,8 +1236,15 @@
       "sourceHash": "56dda467d9b7c9606b35f7ec54e2f5a695793e02d826569706a42986e72a59fe",
       "context": "Search > Simple Note Search Examples",
       "contextHash": "dba191964a869b9a1d960f78f03d62f20da20d31ed48223787f19f82d2230629",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "__TRILIUM_PH_0__：「dateNote」ラベルを持ち、過去30日以内にあるノートを検索します。サポートされている日付の値には、NOW +- 秒、TODAY +- 日、MONTH +- 月、YEAR +- 年が含まれます。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_1e5580ad94ba5c291c418bd4_0",
@@ -1071,8 +1253,15 @@
       "sourceHash": "1e5580ad94ba5c291c418bd446bcd226aae3f685cc4364db55140a406c370fa6",
       "context": "Search > Simple Note Search Examples",
       "contextHash": "dba191964a869b9a1d960f78f03d62f20da20d31ed48223787f19f82d2230629",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "__TRILIUM_PH_0__：タイトルに「Tolkien」を含む著者に関連付けられたノートを検索します。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_e755fc6805410f243610f3b3_0",
@@ -1081,8 +1270,15 @@
       "sourceHash": "e755fc6805410f243610f3b310e730a6bb6d282dfab3247819a653890e6d94bd",
       "context": "Search > Simple Note Search Examples",
       "contextHash": "dba191964a869b9a1d960f78f03d62f20da20d31ed48223787f19f82d2230629",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "__TRILIUM_PH_0__：'%=' 演算子を使用して、正規表現（regex）に一致させます。この機能は Trilium 0.52 以降で使用できます。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_5037e0e5819b9b2c4ec7d640_0",
@@ -1091,8 +1287,15 @@
       "sourceHash": "5037e0e5819b9b2c4ec7d64050bd3502c1f7b3dc7e35423a1bc92f246a7a482b",
       "context": "Search > Simple Note Search Examples",
       "contextHash": "dba191964a869b9a1d960f78f03d62f20da20d31ed48223787f19f82d2230629",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "__TRILIUM_PH_0__：時刻に言及しているノートを検索します。正規表現内のバックスラッシュはエスケープする必要があります。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_f53cb071fa7ef2626513b9c6_0",
@@ -1101,8 +1304,15 @@
       "sourceHash": "f53cb071fa7ef2626513b9c6804204265e267a60f9bee4da13446c65eb4505d1",
       "context": "Search > Advanced Use Cases",
       "contextHash": "278d1665f54f85d588cf2905430a3dc3f7d5c66ac69af96fb31fc1a851963029",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "高度なユースケース__TRILIUM_PH_0__",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_5b699892201f3da2d88c5fbc_0",
@@ -1111,8 +1321,15 @@
       "sourceHash": "5b699892201f3da2d88c5fbcf083c88a115b784d5f414ad6ccd2a82eb53dba4f",
       "context": "Search > Advanced Use Cases",
       "contextHash": "278d1665f54f85d588cf2905430a3dc3f7d5c66ac69af96fb31fc1a851963029",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "__TRILIUM_PH_0__：「Christopher Tolkien」への「son」リレーションを持つノートに対する「author」リレーションを持つノートを検索します。これは次のノート構造でモデル化できます:",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_acdf03370acdccb340e729ee_0",
@@ -1121,8 +1338,15 @@
       "sourceHash": "acdf03370acdccb340e729ee1cf7437d12515763bed523301b319cebfccf76b3",
       "context": "Search > Advanced Use Cases",
       "contextHash": "278d1665f54f85d588cf2905430a3dc3f7d5c66ac69af96fb31fc1a851963029",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "書籍",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_2b04db348adeae3a916b40e5_0",
@@ -1131,8 +1355,15 @@
       "sourceHash": "2b04db348adeae3a916b40e5c893f3ad463b3332b85192d44e4a8d7d4d21c123",
       "context": "Search > Advanced Use Cases",
       "contextHash": "278d1665f54f85d588cf2905430a3dc3f7d5c66ac69af96fb31fc1a851963029",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "ロード・オブ・ザ・リング",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_eb4f4f16fd4f387e15692555_0",
@@ -1141,8 +1372,15 @@
       "sourceHash": "eb4f4f16fd4f387e156925552350cb8060c7da7906ece748902869708829ed72",
       "context": "Search > Advanced Use Cases",
       "contextHash": "278d1665f54f85d588cf2905430a3dc3f7d5c66ac69af96fb31fc1a851963029",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "ラベル: “book”",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_ee6c2425adc290a5e8b65e6b_0",
@@ -1151,8 +1389,15 @@
       "sourceHash": "ee6c2425adc290a5e8b65e6b80241813ae265f3684bce028a0257f1112d1867c",
       "context": "Search > Advanced Use Cases",
       "contextHash": "278d1665f54f85d588cf2905430a3dc3f7d5c66ac69af96fb31fc1a851963029",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "リレーション: “author” が “J. R. R. Tolkien” ノートを指している",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_98cb9947631d6a3ec21d2bf3_0",
@@ -1161,8 +1406,15 @@
       "sourceHash": "98cb9947631d6a3ec21d2bf3337606376f6d9decc9daa220851e9a868cf94e08",
       "context": "Search > Advanced Use Cases",
       "contextHash": "278d1665f54f85d588cf2905430a3dc3f7d5c66ac69af96fb31fc1a851963029",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "人物",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_91084eb7c3f7fdc74b0c16d7_0",
@@ -1171,8 +1423,15 @@
       "sourceHash": "91084eb7c3f7fdc74b0c16d716129012e623afe7fdb2fe0b2a09d79e67cdaf59",
       "context": "Search > Advanced Use Cases",
       "contextHash": "278d1665f54f85d588cf2905430a3dc3f7d5c66ac69af96fb31fc1a851963029",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "J. R. R. トールキン",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_0b41a89ed237f083a35ae58a_0",
@@ -1181,8 +1440,15 @@
       "sourceHash": "0b41a89ed237f083a35ae58a8d78251bd3eb84e9013757b856e94b172da24899",
       "context": "Search > Advanced Use Cases",
       "contextHash": "278d1665f54f85d588cf2905430a3dc3f7d5c66ac69af96fb31fc1a851963029",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "リレーション: “son” が \"Christopher Tolkien\" ノートを指している",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_a4dad898f931592bf7120f1a_0",
@@ -1191,8 +1457,15 @@
       "sourceHash": "a4dad898f931592bf7120f1a81b0b1115265d8f1ec278cb4c5c3a529f2ed4d83",
       "context": "Search > Advanced Use Cases",
       "contextHash": "278d1665f54f85d588cf2905430a3dc3f7d5c66ac69af96fb31fc1a851963029",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "クリストファー・トールキン",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_29f0044d098488ca137c9355_0",
@@ -1201,8 +1474,15 @@
       "sourceHash": "29f0044d098488ca137c9355c42311ef148583aface4576db4c6c9ffb50ac608",
       "context": "Search > Advanced Use Cases",
       "contextHash": "278d1665f54f85d588cf2905430a3dc3f7d5c66ac69af96fb31fc1a851963029",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "__TRILIUM_PH_0__: ブール演算子と括弧を使用して式をグループ化します。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_b43a746ade33b388e5357f1f_0",
@@ -1211,8 +1491,15 @@
       "sourceHash": "b43a746ade33b388e5357f1f89ab9d11f37582d0a58b69f3adb71168ae29aa8a",
       "context": "Search > Advanced Use Cases",
       "contextHash": "278d1665f54f85d588cf2905430a3dc3f7d5c66ac69af96fb31fc1a851963029",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "__TRILIUM_PH_0__: グループは、括弧の前に __TRILIUM_PH_1__ や __TRILIUM_PH_2__ を付けずに、直接式部分を開始できます。ここでは、ジャンルがファンタジーまたはSFである「towers」を含むノートを検索します。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_7aa465634f26e7bb151c26cd_0",
@@ -1221,8 +1508,15 @@
       "sourceHash": "7aa465634f26e7bb151c26cd1ca31c739e123640ff6617236a931971eb7b91be",
       "context": "Search > Advanced Use Cases",
       "contextHash": "278d1665f54f85d588cf2905430a3dc3f7d5c66ac69af96fb31fc1a851963029",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "__TRILIUM_PH_0__: 「Books」という名前の親を持つノートを検索します。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_293bd15eb70b4939aa8460be_0",
@@ -1231,8 +1525,15 @@
       "sourceHash": "293bd15eb70b4939aa8460bea4d36c3d3500dc45117c6f361b9b94988495b33f",
       "context": "Search > Advanced Use Cases",
       "contextHash": "278d1665f54f85d588cf2905430a3dc3f7d5c66ac69af96fb31fc1a851963029",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "__TRILIUM_PH_0__: 「Books」という名前の祖父母を持つノートを検索します。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_521d019fcfc4b5014ab4a215_0",
@@ -1241,8 +1542,15 @@
       "sourceHash": "521d019fcfc4b5014ab4a215ce8c14dd76883f9030627cea07f2c329f996610a",
       "context": "Search > Advanced Use Cases",
       "contextHash": "278d1665f54f85d588cf2905430a3dc3f7d5c66ac69af96fb31fc1a851963029",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "__TRILIUM_PH_0__: 「Books」という名前の祖先を持つノートを検索します。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_63ab2dcd878a8b614568cbbe_0",
@@ -1251,8 +1559,15 @@
       "sourceHash": "63ab2dcd878a8b614568cbbe89e59ffeae5fec79dca6302e6884f166c2ab76fd",
       "context": "Search > Advanced Use Cases",
       "contextHash": "278d1665f54f85d588cf2905430a3dc3f7d5c66ac69af96fb31fc1a851963029",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "__TRILIUM_PH_0__: 「sub-note」という名前の子を持つノートを検索します。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_7030cbd2f3b700c24ff6373f_0",
@@ -1261,8 +1576,15 @@
       "sourceHash": "7030cbd2f3b700c24ff6373f653d94ecb84d29ee93ac4d5f9ec74a059ef84d20",
       "context": "Search > Advanced Use Cases",
       "contextHash": "278d1665f54f85d588cf2905430a3dc3f7d5c66ac69af96fb31fc1a851963029",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "__TRILIUM_PH_0__: 「Tolkien」という名前のノートにリンクしているノートを検索します。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_400938fcd7b5fb41b84b3f4f_0",
@@ -1271,8 +1593,15 @@
       "sourceHash": "400938fcd7b5fb41b84b3f4fd41e5b8b5722b72c6e537534819878ff3f55c709",
       "context": "Search > Advanced Use Cases",
       "contextHash": "278d1665f54f85d588cf2905430a3dc3f7d5c66ac69af96fb31fc1a851963029",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "__TRILIUM_PH_0__: 「Reading list」がリンクしているノートを検索します。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_4a95b93434da855d88a4aaed_0",
@@ -1281,8 +1610,15 @@
       "sourceHash": "4a95b93434da855d88a4aaed5f5364ed3f34ab4c3e98e04e69aeddfc1f2f4b31",
       "context": "Search > Advanced Use Cases",
       "contextHash": "278d1665f54f85d588cf2905430a3dc3f7d5c66ac69af96fb31fc1a851963029",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "リンクとは、__TRILIUM_PH_0__ のように作成したリレーションや、コンテンツによって作成されたもの（内部リンク（__TRILIUM_PH_1__）、画像（__TRILIUM_PH_2__）、埋め込みノート（__TRILIUM_PH_3__）、またはリレーションマップの接続（__TRILIUM_PH_4__））のことです。__TRILIUM_PH_5__ や保存された検索の __TRILIUM_PH_6__ のようにノートを設定するリレーションは、リンクではありません。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_b362874571bb63d424fd989b_0",
@@ -1291,8 +1627,15 @@
       "sourceHash": "b362874571bb63d424fd989bda09b3fa4df2038879f7fd465fdd03894c4088c8",
       "context": "Search > Advanced Use Cases",
       "contextHash": "278d1665f54f85d588cf2905430a3dc3f7d5c66ac69af96fb31fc1a851963029",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "その他の構文リファレンスについては、__TRILIUM_PH_0__内部の仕組み__TRILIUM_PH_1__をご覧ください。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_678d986b4bc218d9c3008c45_0",
@@ -1301,8 +1644,15 @@
       "sourceHash": "678d986b4bc218d9c3008c45808c12cdce3aa4187693012ecebbfcc45373ceb3",
       "context": "Search > Advanced Use Cases > Search with Note Properties",
       "contextHash": "a1032c3ba60b9e6f37d03e3f23ca275fde7084f3312f38e1bdd483177f46effe",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "ノートのプロパティを使用した検索__TRILIUM_PH_0__",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_644699b541c5c0657e501ec1_0",
@@ -1311,8 +1661,15 @@
       "sourceHash": "644699b541c5c0657e501ec17168c33d154539ccef703a69ab4e6af4540837df",
       "context": "Search > Advanced Use Cases > Search with Note Properties",
       "contextHash": "a1032c3ba60b9e6f37d03e3f23ca275fde7084f3312f38e1bdd483177f46effe",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "ノートには、__TRILIUM_PH_0__、__TRILIUM_PH_1__、__TRILIUM_PH_2__、__TRILIUM_PH_3__、__TRILIUM_PH_4__、__TRILIUM_PH_5__、__TRILIUM_PH_6__、__TRILIUM_PH_7__、__TRILIUM_PH_8__、__TRILIUM_PH_9__、__TRILIUM_PH_10__、__TRILIUM_PH_11__、__TRILIUM_PH_12__、__TRILIUM_PH_13__、__TRILIUM_PH_14__、__TRILIUM_PH_15__、__TRILIUM_PH_16__、__TRILIUM_PH_17__、__TRILIUM_PH_18__、__TRILIUM_PH_19__、__TRILIUM_PH_20__、__TRILIUM_PH_21__、__TRILIUM_PH_22__、__TRILIUM_PH_23__、__TRILIUM_PH_24__、__TRILIUM_PH_25__など、検索で使用できるプロパティがあります。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_b09e76b4f85fade8a9b6eed1_0",
@@ -1321,8 +1678,15 @@
       "sourceHash": "b09e76b4f85fade8a9b6eed1bf3c52e51ab6b798edd22a7848ca0ea0f1183c2e",
       "context": "Search > Advanced Use Cases > Search with Note Properties",
       "contextHash": "a1032c3ba60b9e6f37d03e3f23ca275fde7084f3312f38e1bdd483177f46effe",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "これらのプロパティには、__TRILIUM_PH_0__接頭辞（例: __TRILIUM_PH_1__）を使用してアクセスできます。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_8964bb70fa39819f8c2643d7_0",
@@ -1331,8 +1695,15 @@
       "sourceHash": "8964bb70fa39819f8c2643d7a5b2accf66fbaf0e01e5efdb6fca1da03c3b6a09",
       "context": "Search > Advanced Use Cases > Order by and Limit",
       "contextHash": "243be10713ca64fac2d85c773efee8279540584c57a96708a7e6ab1a190b521e",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "並べ替え（Order by）と制限（Limit）__TRILIUM_PH_0__",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_a4010aaec3272d769da6a797_0",
@@ -1341,8 +1712,15 @@
       "sourceHash": "a4010aaec3272d769da6a7978f2737dd0e3e6d5c33e826a52d2656201db39d96",
       "context": "Search > Advanced Use Cases > Order by and Limit",
       "contextHash": "243be10713ca64fac2d85c773efee8279540584c57a96708a7e6ab1a190b521e",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "この例では、次の処理を行います。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_a71eec81aa9d182607b721e3_0",
@@ -1351,8 +1729,15 @@
       "sourceHash": "a71eec81aa9d182607b721e36e1fd3675ee029998e03ff6aa1e9348ae562a3b1",
       "context": "Search > Advanced Use Cases > Order by and Limit",
       "contextHash": "243be10713ca64fac2d85c773efee8279540584c57a96708a7e6ab1a190b521e",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "作者ラベルが「Tolkien」であるノートを検索します。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_906fe690b0f66937c612ca8d_0",
@@ -1361,8 +1746,15 @@
       "sourceHash": "906fe690b0f66937c612ca8d251ed4f99ed1a0578cc9031c9687cdcddf4314a8",
       "context": "Search > Advanced Use Cases > Order by and Limit",
       "contextHash": "243be10713ca64fac2d85c773efee8279540584c57a96708a7e6ab1a190b521e",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "結果を__TRILIUM_PH_0__の降順で並べ替えます。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_b24cd9ef59c15a527947c230_0",
@@ -1371,8 +1763,15 @@
       "sourceHash": "b24cd9ef59c15a527947c23096a2cdde10403776f3c374db6983b53a0531850d",
       "context": "Search > Advanced Use Cases > Order by and Limit",
       "contextHash": "243be10713ca64fac2d85c773efee8279540584c57a96708a7e6ab1a190b521e",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "公開日が同じ場合は、__TRILIUM_PH_0__を第2の並べ替え基準として使用します。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_bba917b02a38646bd1627b9b_0",
@@ -1381,8 +1780,15 @@
       "sourceHash": "bba917b02a38646bd1627b9be68748d1bd2ef0496ec45fd111a45f79bdff5421",
       "context": "Search > Advanced Use Cases > Order by and Limit",
       "contextHash": "243be10713ca64fac2d85c773efee8279540584c57a96708a7e6ab1a190b521e",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "結果を最初の10件のノートに制限します。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_c9dd2278ffc7a943913500db_0",
@@ -1391,8 +1797,15 @@
       "sourceHash": "c9dd2278ffc7a943913500dbef2cc1c4b210380bc01e276d055a9f28cb929987",
       "context": "Search > Advanced Use Cases > Negation",
       "contextHash": "b5f66038682c6bf1fb20d318ebdaacfbd75855e460444cff7ee837e7d3e96689",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "否定（Negation）__TRILIUM_PH_0__",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_709165810fa5eeb02a52df07_0",
@@ -1401,8 +1814,15 @@
       "sourceHash": "709165810fa5eeb02a52df073e2586a76854c66636fe91d445f774e57eed8735",
       "context": "Search > Advanced Use Cases > Negation",
       "contextHash": "b5f66038682c6bf1fb20d318ebdaacfbd75855e460444cff7ee837e7d3e96689",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "一部のクエリは、否定を使用した場合にのみ表現できます。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_5f112bb812002e515ca9bdbc_0",
@@ -1411,8 +1831,15 @@
       "sourceHash": "5f112bb812002e515ca9bdbc50e7096b38ac9ecdb453c56ac1dbbd786c4d2227",
       "context": "Search > Advanced Use Cases > Negation",
       "contextHash": "b5f66038682c6bf1fb20d318ebdaacfbd75855e460444cff7ee837e7d3e96689",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "このクエリは、「Tolkien」サブツリーに含まれていないすべての書籍ノートを検索します。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_a4accf4ccdf37d137a508ef3_0",
@@ -1421,8 +1848,15 @@
       "sourceHash": "a4accf4ccdf37d137a508ef32d7977e2a1a31532b742477be30517e7a8058c5b",
       "context": "Search > Under the Hood",
       "contextHash": "c0f975285f230bc6b7ccc2647f946c93e8d5638d321eaa41eda041d0ba577cb2",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "内部の仕組み__TRILIUM_PH_0__",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_5a670a251d872f53da18f236_0",
@@ -1431,8 +1865,15 @@
       "sourceHash": "5a670a251d872f53da18f236dd870c870c1de4cb302df7b2253e173bf1d68524",
       "context": "Search > Under the Hood",
       "contextHash": "c0f975285f230bc6b7ccc2647f946c93e8d5638d321eaa41eda041d0ba577cb2",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "Triliumにおけるインクリメンタル検索の仕組みや、高度な使用例については、__TRILIUM_PH_0__専用ページ__TRILIUM_PH_1__をご覧ください。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_14349f1a5612d519f8831bfc_0",
@@ -1441,8 +1882,15 @@
       "sourceHash": "14349f1a5612d519f8831bfc43bf1f2cf0872022f35c24235d3ccda67bccbf6b",
       "context": "Search > Auto-Trigger Search from URL",
       "contextHash": "fdb81e4235ec971a102733d0b7b39f2274d43f70f223ce0c36186aaef24d1786",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "URLからの検索の自動トリガー__TRILIUM_PH_0__",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_ac403f3f2f9f75f5fb7e50cc_0",
@@ -1451,8 +1899,15 @@
       "sourceHash": "ac403f3f2f9f75f5fb7e50ccfe93e0229b4f5b920c3c10c72dca0889f3238801",
       "context": "Search > Auto-Trigger Search from URL",
       "contextHash": "fdb81e4235ec971a102733d0b7b39f2274d43f70f223ce0c36186aaef24d1786",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "URLに検索用の __TRILIUM_PH_0__url encoded__TRILIUM_PH_1__ 文字列を含めることで、Triliumを開いて自動的に検索を実行できます：",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_5be46dbae780fd02344a6606_0",
@@ -1461,8 +1916,15 @@
       "sourceHash": "5be46dbae780fd02344a6606b052abc571ef0d05c9e1b8c1ca9da3a3f2cbba11",
       "context": "Search > Search Configuration",
       "contextHash": "5ff5657df32363c13a6efd5c86dad353fa36a9ede4ed780e7630a2320e08e1a1",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "検索設定__TRILIUM_PH_0__",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_60dc13f9c78e6c943c388e39_0",
@@ -1471,8 +1933,15 @@
       "sourceHash": "60dc13f9c78e6c943c388e39626879f9239f41240b36818c938cd06245594ef2",
       "context": "Search > Search Configuration > Parameters",
       "contextHash": "35d084ed0bd87e5c3be8968d939020b1ee8c700ad34d3c73125a49c8cd49579d",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "パラメータ__TRILIUM_PH_0__",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_d0ea24bdd89e09dce64d91c7_0",
@@ -1481,8 +1950,15 @@
       "sourceHash": "d0ea24bdd89e09dce64d91c78db27d63c085d49c77361387a3546a025ab6d000",
       "context": "Search > Search Configuration > Parameters",
       "contextHash": "35d084ed0bd87e5c3be8968d939020b1ee8c700ad34d3c73125a49c8cd49579d",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "パラメータ",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_4c84cbff1153e6df8a060c3b_0",
@@ -1491,8 +1967,15 @@
       "sourceHash": "4c84cbff1153e6df8a060c3bb5c15624b66d5173adb4aca1c13ed769658311ee",
       "context": "Search > Search Configuration > Parameters",
       "contextHash": "35d084ed0bd87e5c3be8968d939020b1ee8c700ad34d3c73125a49c8cd49579d",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "値",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_4b00baa636b92e18b7a75884_0",
@@ -1501,8 +1984,15 @@
       "sourceHash": "4b00baa636b92e18b7a75884790f0769c3e702d20d8822e708f69ab2f07c7103",
       "context": "Search > Search Configuration > Parameters",
       "contextHash": "35d084ed0bd87e5c3be8968d939020b1ee8c700ad34d3c73125a49c8cd49579d",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "説明",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_5bc2aea9ea357746faf117c3_0",
@@ -1511,8 +2001,15 @@
       "sourceHash": "5bc2aea9ea357746faf117c3dd454a84734c987f9fabb43f89d1862a8d5677f4",
       "context": "Search > Search Configuration > Parameters",
       "contextHash": "35d084ed0bd87e5c3be8968d939020b1ee8c700ad34d3c73125a49c8cd49579d",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "3",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_977552cd394810ea425468c5_0",
@@ -1521,8 +2018,15 @@
       "sourceHash": "977552cd394810ea425468c53a1d71e3b89ebc87888a8f6c8eeed58d8e9ed7b5",
       "context": "Search > Search Configuration > Parameters",
       "contextHash": "35d084ed0bd87e5c3be8968d939020b1ee8c700ad34d3c73125a49c8cd49579d",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "__TRILIUM_PH_0__ および __TRILIUM_PH_1__ 演算子が受け付ける最小文字数",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_d8dddfd81b28870c9313c882_0",
@@ -1531,8 +2035,15 @@
       "sourceHash": "d8dddfd81b28870c9313c882639feb9ee4256ea5114118165173f116d433b342",
       "context": "Search > Search Configuration > Parameters",
       "contextHash": "35d084ed0bd87e5c3be8968d939020b1ee8c700ad34d3c73125a49c8cd49579d",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "2",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_858f20a9642730692ac0ba3e_0",
@@ -1541,8 +2052,15 @@
       "sourceHash": "858f20a9642730692ac0ba3e43c3207362883145cffd1c0b7fcabc9f1c27caf5",
       "context": "Search > Search Configuration > Parameters",
       "contextHash": "35d084ed0bd87e5c3be8968d939020b1ee8c700ad34d3c73125a49c8cd49579d",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "文字変更の上限値。7文字以上の用語でのみ到達します。短い用語ではより少なくなります。上記の __TRILIUM_PH_0__ファジィ許容値__TRILIUM_PH_1__ セクションを参照してください",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_06af3e4540f213e37419eaf0_0",
@@ -1551,8 +2069,15 @@
       "sourceHash": "06af3e4540f213e37419eaf0476d2b25777daaad05f045ecf1465bb568095f7b",
       "context": "Search > Search Configuration > Parameters",
       "contextHash": "35d084ed0bd87e5c3be8968d939020b1ee8c700ad34d3c73125a49c8cd49579d",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "5",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_90867f97661d8c41e940f2c7_0",
@@ -1561,8 +2086,15 @@
       "sourceHash": "90867f97661d8c41e940f2c7d9f85d3bf0567d72507790051d7db3a3c37eccee",
       "context": "Search > Search Configuration > Parameters",
       "contextHash": "35d084ed0bd87e5c3be8968d939020b1ee8c700ad34d3c73125a49c8cd49579d",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "ファジィ検索にフォールバックする前の、最小の完全一致結果数",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_8c64ec87a9e920c1cb36f4f9_0",
@@ -1571,8 +2103,15 @@
       "sourceHash": "8c64ec87a9e920c1cb36f4f937dc419e9af410c0b7b5480c3ea6b0da9fe887b0",
       "context": "Search > Search Configuration > Parameters",
       "contextHash": "35d084ed0bd87e5c3be8968d939020b1ee8c700ad34d3c73125a49c8cd49579d",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "10MB",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_f990408e2465f68c6421335a_0",
@@ -1581,8 +2120,15 @@
       "sourceHash": "f990408e2465f68c6421335a05f63806fa5690dcda2b2d0182ca36f6419eb1a2",
       "context": "Search > Search Configuration > Parameters",
       "contextHash": "35d084ed0bd87e5c3be8968d939020b1ee8c700ad34d3c73125a49c8cd49579d",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "検索処理におけるノート内容の最大サイズ",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_f37380e24731e0a7ea55192d_0",
@@ -1591,8 +2137,15 @@
       "sourceHash": "f37380e24731e0a7ea55192d1a605e8640fa1a3b5d73cbb1346f6eeea1a4ce25",
       "context": "Search > Search Configuration > Limits",
       "contextHash": "31647c1db1fd44df7890ab967d977c7bd2b5e1755fc3b255a1bee43379b695d7",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "制限事項__TRILIUM_PH_0__",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_5d9f0f8e4bb2b917a9599ed1_0",
@@ -1601,8 +2154,15 @@
       "sourceHash": "5d9f0f8e4bb2b917a9599ed1aba8874a6094e79e4f00a220058fe1dc0490b62c",
       "context": "Search > Search Configuration > Limits",
       "contextHash": "31647c1db1fd44df7890ab967d977c7bd2b5e1755fc3b255a1bee43379b695d7",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "パフォーマンスの問題を防ぐため、検索されるノートの内容はノートごとに10MBに制限されます",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_f36760ce430951c337f2d6c7_0",
@@ -1611,8 +2171,15 @@
       "sourceHash": "f36760ce430951c337f2d6c73326f3a10acb52132b5c8aa2fa440c207ccdac86",
       "context": "Search > Search Configuration > Limits",
       "contextHash": "31647c1db1fd44df7890ab967d977c7bd2b5e1755fc3b255a1bee43379b695d7",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "この制限を超えるノートも、タイトルおよび属性の検索には引き続き含まれます",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_87ee455121afd34f108677f7_0",
@@ -1621,8 +2188,15 @@
       "sourceHash": "87ee455121afd34f108677f75d42f2f945018d2822e16ff6daff9b2eb5e65f73",
       "context": "Search > Search Configuration > Limits",
       "contextHash": "31647c1db1fd44df7890ab967d977c7bd2b5e1755fc3b255a1bee43379b695d7",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "3文字以下の用語は完全一致で検索されます。タイポ（誤入力）耐性は4文字以上から有効になります",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_b190d47815633246b0ab18a6_0",
@@ -1631,9 +2205,131 @@
       "sourceHash": "b190d47815633246b0ab18a61d9b8e8ea36504fe3f8bc230a7753096915c9ff2",
       "context": "Search > Search Configuration > Limits",
       "contextHash": "31647c1db1fd44df7890ab967d977c7bd2b5e1755fc3b255a1bee43379b695d7",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "記事画像",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     }
   ],
-  "requests": []
+  "requests": [
+    {
+      "at": "2026-11-14T14:14:05.465Z",
+      "model": "gemini-3.5-flash-lite",
+      "batchJob": "batches/8vehrrvdpag09tp4gjf9dbgj006t9k2gkkyl",
+      "requestKey": "eIg8jdvaoNNd_c8912cc6746b4246",
+      "modelVersion": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 1473,
+        "candidatesTokenCount": 1059,
+        "totalTokenCount": 2532,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 1473
+          }
+        ],
+        "serviceTier": "standard"
+      }
+    },
+    {
+      "at": "2026-11-14T14:14:05.465Z",
+      "model": "gemini-3.5-flash-lite",
+      "batchJob": "batches/8vehrrvdpag09tp4gjf9dbgj006t9k2gkkyl",
+      "requestKey": "eIg8jdvaoNNd_53b1a017437940bc",
+      "modelVersion": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 1519,
+        "candidatesTokenCount": 1138,
+        "totalTokenCount": 2657,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 1519
+          }
+        ],
+        "serviceTier": "standard"
+      }
+    },
+    {
+      "at": "2026-11-14T14:14:05.465Z",
+      "model": "gemini-3.5-flash-lite",
+      "batchJob": "batches/8vehrrvdpag09tp4gjf9dbgj006t9k2gkkyl",
+      "requestKey": "eIg8jdvaoNNd_029869039c7f0abc",
+      "modelVersion": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 1297,
+        "candidatesTokenCount": 941,
+        "totalTokenCount": 2238,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 1297
+          }
+        ],
+        "serviceTier": "standard"
+      }
+    },
+    {
+      "at": "2026-11-14T14:14:05.465Z",
+      "model": "gemini-3.5-flash-lite",
+      "batchJob": "batches/8vehrrvdpag09tp4gjf9dbgj006t9k2gkkyl",
+      "requestKey": "eIg8jdvaoNNd_e1cdf476aa26f9b5",
+      "modelVersion": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 1521,
+        "candidatesTokenCount": 1058,
+        "totalTokenCount": 2579,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 1521
+          }
+        ],
+        "serviceTier": "standard"
+      }
+    },
+    {
+      "at": "2026-11-14T14:14:05.465Z",
+      "model": "gemini-3.5-flash-lite",
+      "batchJob": "batches/8vehrrvdpag09tp4gjf9dbgj006t9k2gkkyl",
+      "requestKey": "eIg8jdvaoNNd_d0adfc2a79f10b0d",
+      "modelVersion": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 1145,
+        "candidatesTokenCount": 753,
+        "totalTokenCount": 1898,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 1145
+          }
+        ],
+        "serviceTier": "standard"
+      }
+    },
+    {
+      "at": "2026-11-14T14:14:05.465Z",
+      "model": "gemini-3.5-flash-lite",
+      "batchJob": "batches/8vehrrvdpag09tp4gjf9dbgj006t9k2gkkyl",
+      "requestKey": "eIg8jdvaoNNd_9d21cd6e136e04da",
+      "modelVersion": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 472,
+        "candidatesTokenCount": 156,
+        "totalTokenCount": 628,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 472
+          }
+        ],
+        "serviceTier": "standard"
+      }
+    }
+  ]
 }

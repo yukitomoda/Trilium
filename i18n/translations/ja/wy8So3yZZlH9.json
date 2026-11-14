@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "pageId": "wy8So3yZZlH9",
   "sourceFile": "docs/User Guide/User Guide/Troubleshooting/Reporting issues.md",
-  "sourceRevision": "03d17b60f59b5efc29b880b11481471d0fe0ff57",
+  "sourceRevision": "bbc6051da7fab504dac8c69279859c8cb9c61eef",
   "units": [
     {
       "id": "u_7d59fd11730f7dade2f7c0d8_0",
@@ -11,8 +11,15 @@
       "sourceHash": "7d59fd11730f7dade2f7c0d89b4784c19a01efaf1295cbfa0b3cb8e5336e7059",
       "context": "Reporting issues",
       "contextHash": "a5665b6e9bd9fb6e938001f4c0affb9f3f7ca194be088b8e89cf7160c487ef4c",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "問題の報告",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_913999edbe4fd033818e1231_0",
@@ -21,8 +28,15 @@
       "sourceHash": "913999edbe4fd033818e12310c5f4daed9ac7c70bfb92dd688c2fd708137b57d",
       "context": "Reporting issues",
       "contextHash": "a5665b6e9bd9fb6e938001f4c0affb9f3f7ca194be088b8e89cf7160c487ef4c",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "__TRILIUM_PH_0__Issues · TriliumNext/Trilium__TRILIUM_PH_1__ に移動し、「New issue」を押してください。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_fa1d14e2541150456b83ff5b_0",
@@ -31,9 +45,36 @@
       "sourceHash": "fa1d14e2541150456b83ff5bb640c616254512d92e56271e45a12967d9ddc1ec",
       "context": "Reporting issues",
       "contextHash": "a5665b6e9bd9fb6e938001f4c0affb9f3f7ca194be088b8e89cf7160c487ef4c",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "バグを報告する場合は、「Bug Report」を選択して詳細を入力してください。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     }
   ],
-  "requests": []
+  "requests": [
+    {
+      "at": "2026-11-14T14:14:05.465Z",
+      "model": "gemini-3.5-flash-lite",
+      "batchJob": "batches/8vehrrvdpag09tp4gjf9dbgj006t9k2gkkyl",
+      "requestKey": "wy8So3yZZlH9_a445a162613f9683",
+      "modelVersion": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 481,
+        "candidatesTokenCount": 190,
+        "totalTokenCount": 671,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 481
+          }
+        ],
+        "serviceTier": "standard"
+      }
+    }
+  ]
 }

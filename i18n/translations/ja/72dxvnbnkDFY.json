@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "pageId": "72dxvnbnkDFY",
   "sourceFile": "docs/User Guide/User Guide/Scripting/Breaking changes/v0.102.0 Upgrade to jQuery 4.0.0.md",
-  "sourceRevision": "03d17b60f59b5efc29b880b11481471d0fe0ff57",
+  "sourceRevision": "bbc6051da7fab504dac8c69279859c8cb9c61eef",
   "units": [
     {
       "id": "u_24bfd335140ce5c3baf0bcda_0",
@@ -11,8 +11,15 @@
       "sourceHash": "24bfd335140ce5c3baf0bcdac0f1a5a745a586bb874b3b9d03ff6a969d88e2e1",
       "context": "v0.102.0: Upgrade to jQuery 4.0.0",
       "contextHash": "f00eafe6bb1cf95108df9e3324eb8819f8307cfeb90461f41053dbf67f198241",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "v0.102.0: jQuery 4.0.0 へのアップグレード",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_8a48046b967026aaf42fa2c9_0",
@@ -21,8 +28,15 @@
       "sourceHash": "8a48046b967026aaf42fa2c922457c1699565783d9e9888e6e7e42768ca56f00",
       "context": "v0.102.0: Upgrade to jQuery 4.0.0",
       "contextHash": "f00eafe6bb1cf95108df9e3324eb8819f8307cfeb90461f41053dbf67f198241",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "jQuery 4 ではレガシーブラウザのサポート（IE11のサポートなど）が削除されますが、以下のような非推奨とされていたAPIも削除されます：",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_ee60f8e9d9033abca5abbfa8_0",
@@ -31,8 +45,15 @@
       "sourceHash": "ee60f8e9d9033abca5abbfa8c4afca81f8b56c9e395fa382c98ccad0df568849",
       "context": "v0.102.0: Upgrade to jQuery 4.0.0",
       "contextHash": "f00eafe6bb1cf95108df9e3324eb8819f8307cfeb90461f41053dbf67f198241",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "__TRILIUM_PH_0__、__TRILIUM_PH_1__、__TRILIUM_PH_2__、__TRILIUM_PH_3__、__TRILIUM_PH_4__、__TRILIUM_PH_5__、__TRILIUM_PH_6__、__TRILIUM_PH_7__、__TRILIUM_PH_8__、__TRILIUM_PH_9__、__TRILIUM_PH_10__、__TRILIUM_PH_11__、__TRILIUM_PH_12__。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_aea582d64f985b03d0feffbd_0",
@@ -41,8 +62,15 @@
       "sourceHash": "aea582d64f985b03d0feffbd561f28dc4a843647a3ed7b94a02a44568939e73e",
       "context": "v0.102.0: Upgrade to jQuery 4.0.0",
       "contextHash": "f00eafe6bb1cf95108df9e3324eb8819f8307cfeb90461f41053dbf67f198241",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "代わりに __TRILIUM_PH_0__、__TRILIUM_PH_1__、__TRILIUM_PH_2__、__TRILIUM_PH_3__ などのネイティブの代替機能を使用してください。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_98c6ec6d7982bffaf2cfb9fb_0",
@@ -51,8 +79,15 @@
       "sourceHash": "98c6ec6d7982bffaf2cfb9fbdcd5b25cf458366b002ee2b89674e304ce9c782d",
       "context": "v0.102.0: Upgrade to jQuery 4.0.0",
       "contextHash": "f00eafe6bb1cf95108df9e3324eb8819f8307cfeb90461f41053dbf67f198241",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "カスタムスクリプト（または使用されているカスタムjQueryライブラリ）が非推奨のAPIに依存している場合、影響を受ける可能性があります。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_2dbf6505a2ef4bb220d24275_0",
@@ -61,8 +96,15 @@
       "sourceHash": "2dbf6505a2ef4bb220d2427546635d7c19b406e75a2a1e96acd9612732cde259",
       "context": "v0.102.0: Upgrade to jQuery 4.0.0",
       "contextHash": "f00eafe6bb1cf95108df9e3324eb8819f8307cfeb90461f41053dbf67f198241",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "Triliumには依存関係の1つ（オートコンプリート）で必要とされるため、__TRILIUM_PH_0__、__TRILIUM_PH_1__、__TRILIUM_PH_2__ のポリフィルが含まれていることに注意してください。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_6ff2fd9b11b38fb19b5f0789_0",
@@ -71,9 +113,36 @@
       "sourceHash": "6ff2fd9b11b38fb19b5f0789b322af2e4344a53dcf96563f060e237eb5b8c3b2",
       "context": "v0.102.0: Upgrade to jQuery 4.0.0",
       "contextHash": "f00eafe6bb1cf95108df9e3324eb8819f8307cfeb90461f41053dbf67f198241",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "詳細については、__TRILIUM_PH_0__公式ブログ記事__TRILIUM_PH_1__を参照してください。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     }
   ],
-  "requests": []
+  "requests": [
+    {
+      "at": "2026-11-14T14:14:05.465Z",
+      "model": "gemini-3.5-flash-lite",
+      "batchJob": "batches/8vehrrvdpag09tp4gjf9dbgj006t9k2gkkyl",
+      "requestKey": "72dxvnbnkDFY_6716006fae0398f5",
+      "modelVersion": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 975,
+        "candidatesTokenCount": 594,
+        "totalTokenCount": 1569,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 975
+          }
+        ],
+        "serviceTier": "standard"
+      }
+    }
+  ]
 }

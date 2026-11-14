@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "pageId": "0vhv7lsOLy82",
   "sourceFile": "docs/User Guide/User Guide/Basic Concepts and Features/Notes/Attachments.md",
-  "sourceRevision": "03d17b60f59b5efc29b880b11481471d0fe0ff57",
+  "sourceRevision": "bbc6051da7fab504dac8c69279859c8cb9c61eef",
   "units": [
     {
       "id": "u_03d2b920960f630f09345319_0",
@@ -491,9 +491,36 @@
       "sourceHash": "a15108964b55441678207a3f9bb7fbefa46f0a3c618a84cc7457756b7d31c6d6",
       "context": "Attachments > Attachment previews",
       "contextHash": "603f8a7404f9d9a20288f9f3dd3f8a1b632a486fe714e3151bbf78344555080f",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "添付ファイルは、__TRILIUM_PH_0__File__TRILIUM_PH_1__ ノートタイプと同様に、画像、動画、PDFなどのコンテンツプレビューを共有します。Markdownの添付ファイルは、__TRILIUM_PH_2__Markdown__TRILIUM_PH_3__ ノートと同様にレンダリングされてプレビューされます。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     }
   ],
-  "requests": []
+  "requests": [
+    {
+      "at": "2026-11-14T14:14:05.465Z",
+      "model": "gemini-3.5-flash-lite",
+      "batchJob": "batches/8vehrrvdpag09tp4gjf9dbgj006t9k2gkkyl",
+      "requestKey": "0vhv7lsOLy82_9a513e71ba4b617e",
+      "modelVersion": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 438,
+        "candidatesTokenCount": 157,
+        "totalTokenCount": 595,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 438
+          }
+        ],
+        "serviceTier": "standard"
+      }
+    }
+  ]
 }

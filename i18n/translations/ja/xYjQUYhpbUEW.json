@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "pageId": "xYjQUYhpbUEW",
   "sourceFile": "docs/User Guide/User Guide/Advanced Usage/Advanced Showcases/Task Manager.md",
-  "sourceRevision": "03d17b60f59b5efc29b880b11481471d0fe0ff57",
+  "sourceRevision": "bbc6051da7fab504dac8c69279859c8cb9c61eef",
   "units": [
     {
       "id": "u_2907f6bee37bd508accd96b2_0",
@@ -171,9 +171,36 @@
       "sourceHash": "b190d47815633246b0ab18a61d9b8e8ea36504fe3f8bc230a7753096915c9ff2",
       "context": "Task Manager > Implementation > CSS",
       "contextHash": "885778edbec95fb16e98b979ad60448319c65e65eb8b775e90f387c377812af4",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "記事画像",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     }
   ],
-  "requests": []
+  "requests": [
+    {
+      "at": "2026-11-14T14:14:05.465Z",
+      "model": "gemini-3.5-flash-lite",
+      "batchJob": "batches/8vehrrvdpag09tp4gjf9dbgj006t9k2gkkyl",
+      "requestKey": "xYjQUYhpbUEW_d4571a66b8b713bd",
+      "modelVersion": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 362,
+        "candidatesTokenCount": 80,
+        "totalTokenCount": 442,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 362
+          }
+        ],
+        "serviceTier": "standard"
+      }
+    }
+  ]
 }

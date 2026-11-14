@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "pageId": "pKK96zzmvBGf",
   "sourceFile": "docs/User Guide/!!!meta.json",
-  "sourceRevision": "03d17b60f59b5efc29b880b11481471d0fe0ff57",
+  "sourceRevision": "bbc6051da7fab504dac8c69279859c8cb9c61eef",
   "units": [
     {
       "id": "u_5ee7819f6b4a9994de118c79_0",
@@ -11,9 +11,36 @@
       "sourceHash": "5ee7819f6b4a9994de118c79a6f68b1888dd6ba5545f11781e605c5d5db1d368",
       "context": "Theme development",
       "contextHash": "371ab0c33a14793a6efd8cb998455813da810a0e1406f328ccab94124d74159f",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "テーマの開発",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     }
   ],
-  "requests": []
+  "requests": [
+    {
+      "at": "2026-11-14T14:14:05.465Z",
+      "model": "gemini-3.5-flash-lite",
+      "batchJob": "batches/8vehrrvdpag09tp4gjf9dbgj006t9k2gkkyl",
+      "requestKey": "pKK96zzmvBGf_f212878351ac0e17",
+      "modelVersion": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 356,
+        "candidatesTokenCount": 61,
+        "totalTokenCount": 417,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 356
+          }
+        ],
+        "serviceTier": "standard"
+      }
+    }
+  ]
 }

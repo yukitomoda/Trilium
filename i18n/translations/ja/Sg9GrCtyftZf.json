@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "pageId": "Sg9GrCtyftZf",
   "sourceFile": "docs/User Guide/User Guide/Scripting/Frontend Basics/Preact/CSS.md",
-  "sourceRevision": "03d17b60f59b5efc29b880b11481471d0fe0ff57",
+  "sourceRevision": "bbc6051da7fab504dac8c69279859c8cb9c61eef",
   "units": [
     {
       "id": "u_53fb4eeca3b03ab4f36cf278_0",
@@ -11,8 +11,15 @@
       "sourceHash": "53fb4eeca3b03ab4f36cf278a21b3ed12d6e4704cd56e7367eb57e27c3c55c9b",
       "context": "CSS",
       "contextHash": "b581e46042cbfbb0af4542a858079a84fd3ae98e5563f615710191d5b3597680",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "CSS",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_9c6bf9a80358b12ea3a39189_0",
@@ -21,8 +28,15 @@
       "sourceHash": "9c6bf9a80358b12ea3a39189892c941452863a021222bbed534bfbe2619e0bee",
       "context": "CSS > Inline styles",
       "contextHash": "ca45af42dcc868b4be8cd0a975bf6f16f22f6ec361ea5d65174fd737fcd34d1c",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "インラインスタイル__TRILIUM_PH_0__",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_30c51da64b934a399f1a134c_0",
@@ -31,8 +45,15 @@
       "sourceHash": "30c51da64b934a399f1a134c4591cba274c7b89933caf9fb5d72eac180ce848b",
       "context": "CSS > Custom CSS file",
       "contextHash": "6d4ae18a54264d91c09e2a93893da6798eab3483bbfac42ffe30f6ec3424fee0",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "カスタムCSSファイル__TRILIUM_PH_0__",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_6291e8651c4868a3ca4065d1_0",
@@ -41,9 +62,36 @@
       "sourceHash": "6291e8651c4868a3ca4065d1b6d411fe874f23003f391130492f5912bd588429",
       "context": "CSS > Custom CSS file",
       "contextHash": "6d4ae18a54264d91c09e2a93893da6798eab3483bbfac42ffe30f6ec3424fee0",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "__TRILIUM_PH_0__アプリケーション全体で適用されるカスタムCSS__TRILIUM_PH_1__を作成するだけです。他のUI要素と競合しないよう十分ユニークなクラス名にし、接頭辞の追加を検討してください（例：__TRILIUM_PH_2__）。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     }
   ],
-  "requests": []
+  "requests": [
+    {
+      "at": "2026-11-14T14:14:05.465Z",
+      "model": "gemini-3.5-flash-lite",
+      "batchJob": "batches/8vehrrvdpag09tp4gjf9dbgj006t9k2gkkyl",
+      "requestKey": "Sg9GrCtyftZf_de44888477ebe8a7",
+      "modelVersion": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 556,
+        "candidatesTokenCount": 261,
+        "totalTokenCount": 817,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 556
+          }
+        ],
+        "serviceTier": "standard"
+      }
+    }
+  ]
 }

@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "pageId": "l0tKav7yLHGF",
   "sourceFile": "docs/User Guide/User Guide/Advanced Usage/Advanced Showcases/Day Notes.md",
-  "sourceRevision": "03d17b60f59b5efc29b880b11481471d0fe0ff57",
+  "sourceRevision": "bbc6051da7fab504dac8c69279859c8cb9c61eef",
   "units": [
     {
       "id": "u_e46b40c15016da5e20987dfd_0",
@@ -171,8 +171,15 @@
       "sourceHash": "845dc3ca37843937478582fa9d3f20dc8c7939609bab85e1fc3e37487518355b",
       "context": "Day Notes > Templates",
       "contextHash": "294c8519f781b7aadb65438aa7ef0401330dd661211175712ff9643c3f5edc33",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "quarterTemplate（__TRILIUM_PH_0__ が設定されている場合）",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_9d79252e667fc5ccd8e3a943_0",
@@ -181,8 +188,15 @@
       "sourceHash": "9d79252e667fc5ccd8e3a943056d4eb251bd0f2bff2b8878c187ca6a9553036c",
       "context": "Day Notes > Templates",
       "contextHash": "294c8519f781b7aadb65438aa7ef0401330dd661211175712ff9643c3f5edc33",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "monthTemplate",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_ea6ed8e7de37d1756186a5b9_0",
@@ -191,8 +205,15 @@
       "sourceHash": "ea6ed8e7de37d1756186a5b918ad29dd616598f2435b4b60b7b9c97e992d68f7",
       "context": "Day Notes > Templates",
       "contextHash": "294c8519f781b7aadb65438aa7ef0401330dd661211175712ff9643c3f5edc33",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "weekTemplate（__TRILIUM_PH_0__ が設定されている場合）",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_93378f08ca2195dd9a3c709a_0",
@@ -201,8 +222,15 @@
       "sourceHash": "93378f08ca2195dd9a3c709a00820dc6dec2537813278633ed0fb0a568deb081",
       "context": "Day Notes > Templates",
       "contextHash": "294c8519f781b7aadb65438aa7ef0401330dd661211175712ff9643c3f5edc33",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "dateTemplate",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_a6c4c54093d6176b8142e341_0",
@@ -211,8 +239,15 @@
       "sourceHash": "a6c4c54093d6176b8142e3414c319b13806702c82ea8a970b582fd80f691a3b3",
       "context": "Day Notes > Templates",
       "contextHash": "294c8519f781b7aadb65438aa7ef0401330dd661211175712ff9643c3f5edc33",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "これらはすべてリレーションです。Trilium が年、月、または日付の新しいノートを作成すると、ルートを確認し、新しく作成された役割に対応する __TRILIUM_PH_0__ リレーションを付与します。これを利用して、たとえば日課のチェックボックスなどを配置したデイリーテンプレートを作成できます。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_e419dd6d815ddec2ee677915_0",
@@ -221,8 +256,15 @@
       "sourceHash": "e419dd6d815ddec2ee677915ed9c9cc64873eea1dbd9719071d2f82f84859fec",
       "context": "Day Notes > Templates > Migrate from old template usage",
       "contextHash": "1cadd5f8319d5f6bfce73099a5645c69a784802d63b237682ffe7c0bfe62a773",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "古いテンプレートの利用方法からの移行__TRILIUM_PH_0__",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_f288f54a9827cb516af09427_0",
@@ -231,8 +273,15 @@
       "sourceHash": "f288f54a9827cb516af094276fd931efcdd4ca79b6e15c2aba30306e46dd28c4",
       "context": "Day Notes > Templates > Migrate from old template usage",
       "contextHash": "1cadd5f8319d5f6bfce73099a5645c69a784802d63b237682ffe7c0bfe62a773",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "バージョン v0.93.0 より前からジャーナルを使用している場合、以前のテンプレートパターンはおそらく __TRILIUM_PH_0__.__TRILIUM_PH_1__ であったと考えられます。新しいシステムへ移行するには:",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_cd20dfc47561ab4c90c8deae_0",
@@ -241,8 +290,15 @@
       "sourceHash": "cd20dfc47561ab4c90c8deae081f9ae5c7ae16f3655c12c387c08a9d5a53cbf8",
       "context": "Day Notes > Templates > Migrate from old template usage",
       "contextHash": "1cadd5f8319d5f6bfce73099a5645c69a784802d63b237682ffe7c0bfe62a773",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "カレンダーのルートノートで、新しいテンプレートパターンを設定します。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_87fb8faa7bf61de7e0e243d4_0",
@@ -251,8 +307,15 @@
       "sourceHash": "87fb8faa7bf61de7e0e243d4aa09e37884ccbbc7e35f48932dbe2ffc7c1331a3",
       "context": "Day Notes > Templates > Migrate from old template usage",
       "contextHash": "1cadd5f8319d5f6bfce73099a5645c69a784802d63b237682ffe7c0bfe62a773",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "__TRILIUM_PH_0__一括操作__TRILIUM_PH_1__を使用して、ジャーナル（カレンダーのルート）配下のすべてのノートから __TRILIUM_PH_2__ および __TRILIUM_PH_3__ を削除します。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_f7c95db7d10d4a12384f394a_0",
@@ -261,8 +324,15 @@
       "sourceHash": "f7c95db7d10d4a12384f394ac1094115e4bf9ae7e77a936eafa1daeed2da7286",
       "context": "Day Notes > Templates > Migrate from old template usage",
       "contextHash": "1cadd5f8319d5f6bfce73099a5645c69a784802d63b237682ffe7c0bfe62a773",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "新しい設定との競合を防ぐため、古いテンプレートパターンが完全に削除されていることを確認してください。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_39fe545f0637ee71f73c3056_0",
@@ -271,8 +341,15 @@
       "sourceHash": "39fe545f0637ee71f73c30563acd426068d756fdea3660d3fe4617d491b12732",
       "context": "Day Notes > Naming pattern",
       "contextHash": "45f723b7c6f8b392592bbda1fe2254d67b3291c509ebe9d39ee606a74bac9e4e",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "命名パターン__TRILIUM_PH_0__",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_1c8e124321cf86a2dfa454b8_0",
@@ -281,8 +358,15 @@
       "sourceHash": "1c8e124321cf86a2dfa454b820179bdbe9fe3195fef9c78a959c58840404f01c",
       "context": "Day Notes > Naming pattern",
       "contextHash": "45f723b7c6f8b392592bbda1fe2254d67b3291c509ebe9d39ee606a74bac9e4e",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "__TRILIUM_PH_0__、__TRILIUM_PH_1__、__TRILIUM_PH_2__、__TRILIUM_PH_3__、および __TRILIUM_PH_4__ の属性をルートカレンダーノート（__TRILIUM_PH_5__ ラベルで識別されます）上で定義することで、生成されるジャーナルノートのタイトルをカスタマイズできます。命名パターンの置換は上位互換に従っており、各レベルでは自分自身およびそれより上位のすべてのレベルの置換を使用できます。たとえば、__TRILIUM_PH_6__ では月、四半期、年の置換を使用でき、__TRILIUM_PH_7__ では週、月、四半期、年の置換を使用できます。ただし、__TRILIUM_PH_8__ で週の置換を使用することはできません。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_92baf81d0805e77386237a7e_0",
@@ -291,8 +375,15 @@
       "sourceHash": "92baf81d0805e77386237a7ea2513dc60a86611a2caa9c57267a9d9e91d49a47",
       "context": "Day Notes > Naming pattern > Date pattern",
       "contextHash": "6189db0c4efcdcbef054a099529e10c7fa6679796a3f0732c2f776e3e833ac28",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "日付パターン__TRILIUM_PH_0__",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_c7c0ab98542446392581a7a4_0",
@@ -301,8 +392,15 @@
       "sourceHash": "c7c0ab98542446392581a7a491f8b5facfa51ba7eb823f66b8b9169e6e3cce54",
       "context": "Day Notes > Naming pattern > Date pattern",
       "contextHash": "6189db0c4efcdcbef054a099529e10c7fa6679796a3f0732c2f776e3e833ac28",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "__TRILIUM_PH_0__ 属性をルートカレンダーノート（__TRILIUM_PH_1__ ラベルで識別されます）上で定義することで、生成される日付ノートのタイトルをカスタマイズできます。以下の値を使用できます:",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_e36cd2089858afb98985a353_0",
@@ -311,8 +409,15 @@
       "sourceHash": "e36cd2089858afb98985a353dd9cc7e4f4fa7660ea4d84954d75aced3ad45445",
       "context": "Day Notes > Naming pattern > Date pattern",
       "contextHash": "6189db0c4efcdcbef054a099529e10c7fa6679796a3f0732c2f776e3e833ac28",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "__TRILIUM_PH_0__ は ISO 8061 形式の日付になります（例: 2025年3月9日の場合は「2025-03-09」）",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_b77ba14e18d1ff9d39c92697_0",
@@ -321,8 +426,15 @@
       "sourceHash": "b77ba14e18d1ff9d39c926975a1885d8e6781efed6d3e51807eba2b43bfecbfb",
       "context": "Day Notes > Naming pattern > Date pattern",
       "contextHash": "6189db0c4efcdcbef054a099529e10c7fa6679796a3f0732c2f776e3e833ac28",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "__TRILIUM_PH_0__ は、月の9日目の場合は __TRILIUM_PH_1__、月の11日目の場合は __TRILIUM_PH_2__ のような数値になります",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_b77ba14e18d1ff9d39c92697_1",
@@ -331,8 +443,15 @@
       "sourceHash": "b77ba14e18d1ff9d39c926975a1885d8e6781efed6d3e51807eba2b43bfecbfb",
       "context": "Day Notes > Naming pattern > Date pattern",
       "contextHash": "6189db0c4efcdcbef054a099529e10c7fa6679796a3f0732c2f776e3e833ac28",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "__TRILIUM_PH_0__ は、月の9日であれば __TRILIUM_PH_1__、11日であれば __TRILIUM_PH_2__ のような数値になります。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_e2d3242d06964b64ff0456c9_0",
@@ -341,8 +460,15 @@
       "sourceHash": "e2d3242d06964b64ff0456c921b3aa0909982e2eac7c95039e94c79205996286",
       "context": "Day Notes > Naming pattern > Date pattern",
       "contextHash": "6189db0c4efcdcbef054a099529e10c7fa6679796a3f0732c2f776e3e833ac28",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "__TRILIUM_PH_0__ は、序数日付（例: 1st、2nd、3rd など）に置き換えられます。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_547627c46e87bf0b48f7b471_0",
@@ -351,8 +477,15 @@
       "sourceHash": "547627c46e87bf0b48f7b471e78959b31708079c3de856f8edbac4c4e9eac01f",
       "context": "Day Notes > Naming pattern > Date pattern",
       "contextHash": "6189db0c4efcdcbef054a099529e10c7fa6679796a3f0732c2f776e3e833ac28",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "__TRILIUM_PH_0__ は、曜日のフルネーム（例: __TRILIUM_PH_1__）になります。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_2ac208dd72a43093d5695f1b_0",
@@ -361,8 +494,15 @@
       "sourceHash": "2ac208dd72a43093d5695f1b31d971cb087ec817ff318e41e44bf0afa6dfc76b",
       "context": "Day Notes > Naming pattern > Date pattern",
       "contextHash": "6189db0c4efcdcbef054a099529e10c7fa6679796a3f0732c2f776e3e833ac28",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "__TRILIUM_PH_0__ は、Mon、Tue などの曜日の最初の3文字に置き換えられます。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_10eb1f294e203d2182fb61f4_0",
@@ -371,8 +511,15 @@
       "sourceHash": "10eb1f294e203d2182fb61f42e1ffc0c6ca696dfc77107ba0eacf769134870f1",
       "context": "Day Notes > Naming pattern > Date pattern",
       "contextHash": "6189db0c4efcdcbef054a099529e10c7fa6679796a3f0732c2f776e3e833ac28",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "__TRILIUM_PH_0__ は、Mo、Tu などの曜日の最初の2文字に置き換えられます。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_32014bfb7af82cd0422700e1_0",
@@ -381,8 +528,15 @@
       "sourceHash": "32014bfb7af82cd0422700e1ab9ab824df459566a0415e9773ac09d63e9b7093",
       "context": "Day Notes > Naming pattern > Date pattern",
       "contextHash": "6189db0c4efcdcbef054a099529e10c7fa6679796a3f0732c2f776e3e833ac28",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "デフォルトは __TRILIUM_PH_0__ です。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_2131ce296eb6ee9b70ae762e_0",
@@ -391,8 +545,15 @@
       "sourceHash": "2131ce296eb6ee9b70ae762ec7f4230cee9b44e5d0abba852a2d18a457199f6a",
       "context": "Day Notes > Naming pattern > Week pattern",
       "contextHash": "6222c13fe6fd7928c002dc5385c98997a906919db2040384a19b0088637bd5ac",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "週のパターン __TRILIUM_PH_0__",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_fc254911f67111eafa608a88_0",
@@ -401,8 +562,15 @@
       "sourceHash": "fc254911f67111eafa608a884f98bb3597faed726db24aa3a9c8b6ef54630eea",
       "context": "Day Notes > Naming pattern > Week pattern",
       "contextHash": "6222c13fe6fd7928c002dc5385c98997a906919db2040384a19b0088637bd5ac",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "また、ルートカレンダーノートにある __TRILIUM_PH_0__ 属性を通じて、生成される週ノートのタイトルをカスタマイズすることも可能です。オプションは以下の通りです:",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_00b1cdc615ed34138ed268d5_0",
@@ -411,8 +579,15 @@
       "sourceHash": "00b1cdc615ed34138ed268d5a7d6583572308fb0e2f75b8cf04bb5a7b045706b",
       "context": "Day Notes > Naming pattern > Week pattern",
       "contextHash": "6222c13fe6fd7928c002dc5385c98997a906919db2040384a19b0088637bd5ac",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "__TRILIUM_PH_0__ は、年の第9週であれば __TRILIUM_PH_1__、第11週であれば __TRILIUM_PH_2__ のような数値になります。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_00b1cdc615ed34138ed268d5_1",
@@ -421,8 +596,15 @@
       "sourceHash": "00b1cdc615ed34138ed268d5a7d6583572308fb0e2f75b8cf04bb5a7b045706b",
       "context": "Day Notes > Naming pattern > Week pattern",
       "contextHash": "6222c13fe6fd7928c002dc5385c98997a906919db2040384a19b0088637bd5ac",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "__TRILIUM_PH_0__ は、年の第9週であれば __TRILIUM_PH_1__、第11週であれば __TRILIUM_PH_2__ のような数値になります。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_b8d66fb1abc68da8f8f4708e_0",
@@ -431,8 +613,15 @@
       "sourceHash": "b8d66fb1abc68da8f8f4708e51c1f25d949c6de53986cf5bf890da3e3ac199ed",
       "context": "Day Notes > Naming pattern > Week pattern",
       "contextHash": "6222c13fe6fd7928c002dc5385c98997a906919db2040384a19b0088637bd5ac",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "__TRILIUM_PH_0__ は、年の第9週であれば __TRILIUM_PH_1__、第11週であれば __TRILIUM_PH_2__ のような短い週の文字列になります。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_b8d66fb1abc68da8f8f4708e_1",
@@ -441,8 +630,15 @@
       "sourceHash": "b8d66fb1abc68da8f8f4708e51c1f25d949c6de53986cf5bf890da3e3ac199ed",
       "context": "Day Notes > Naming pattern > Week pattern",
       "contextHash": "6222c13fe6fd7928c002dc5385c98997a906919db2040384a19b0088637bd5ac",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "__TRILIUM_PH_0__ は、年の第9週であれば __TRILIUM_PH_1__、第11週であれば __TRILIUM_PH_2__ のような短い週の文字列になります。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_32014bfb7af82cd0422700e1_1",
@@ -451,8 +647,15 @@
       "sourceHash": "32014bfb7af82cd0422700e1ab9ab824df459566a0415e9773ac09d63e9b7093",
       "context": "Day Notes > Naming pattern > Week pattern",
       "contextHash": "6222c13fe6fd7928c002dc5385c98997a906919db2040384a19b0088637bd5ac",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "デフォルトは __TRILIUM_PH_0__ です。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_6226b40b65be2e7caa48b118_0",
@@ -461,8 +664,15 @@
       "sourceHash": "6226b40b65be2e7caa48b11816fbaf1af8b81fcae909ce3e2f46aa0893de4e46",
       "context": "Day Notes > Naming pattern > Month pattern",
       "contextHash": "dce8e976f8ba3d56be242b9b14a4d0a13fe1292b6796828d90bc20f8957d4d9c",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "月のパターン __TRILIUM_PH_0__",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_c06584007243f5ca274132ba_0",
@@ -471,8 +681,15 @@
       "sourceHash": "c06584007243f5ca274132ba33c220868d6ef7941934dfe68fc4f336327c9f0b",
       "context": "Day Notes > Naming pattern > Month pattern",
       "contextHash": "dce8e976f8ba3d56be242b9b14a4d0a13fe1292b6796828d90bc20f8957d4d9c",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "また、ルートカレンダーノートにある __TRILIUM_PH_0__ 属性を通じて、生成される月ノートのタイトルをカスタマイズすることも可能です。オプションは以下の通りです:",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_0cb6d550efe237e1e5923bd8_0",
@@ -481,8 +698,15 @@
       "sourceHash": "0cb6d550efe237e1e5923bd83f23397b0030f547f601dc0651ed5134cbc8657a",
       "context": "Day Notes > Naming pattern > Month pattern",
       "contextHash": "dce8e976f8ba3d56be242b9b14a4d0a13fe1292b6796828d90bc20f8957d4d9c",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "__TRILIUM_PH_0__ は、ISO 8601 形式でフォーマットされた月になります（例: 2025年3月の場合は \"2025-03\"）。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_95bedfa81deff39b1f6332bd_0",
@@ -491,8 +715,15 @@
       "sourceHash": "95bedfa81deff39b1f6332bd9244ad3a893e34f928cb87a46a2e65848dde9198",
       "context": "Day Notes > Naming pattern > Month pattern",
       "contextHash": "dce8e976f8ba3d56be242b9b14a4d0a13fe1292b6796828d90bc20f8957d4d9c",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "__TRILIUM_PH_0__ は、9月の場合は __TRILIUM_PH_1__、11月の場合は __TRILIUM_PH_2__ のような数値になります",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_95bedfa81deff39b1f6332bd_1",
@@ -501,8 +732,15 @@
       "sourceHash": "95bedfa81deff39b1f6332bd9244ad3a893e34f928cb87a46a2e65848dde9198",
       "context": "Day Notes > Naming pattern > Month pattern",
       "contextHash": "dce8e976f8ba3d56be242b9b14a4d0a13fe1292b6796828d90bc20f8957d4d9c",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "__TRILIUM_PH_0__ は、9月の場合は __TRILIUM_PH_1__、11月の場合は __TRILIUM_PH_2__ のような数値になります",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_06d68267f7c9ecd98e45495d_0",
@@ -511,8 +749,15 @@
       "sourceHash": "06d68267f7c9ecd98e45495d4b6193b41e0d37877e9f845e3b7042722b4aa002",
       "context": "Day Notes > Naming pattern > Month pattern",
       "contextHash": "dce8e976f8ba3d56be242b9b14a4d0a13fe1292b6796828d90bc20f8957d4d9c",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "__TRILIUM_PH_0__ は月全体の名前になります（例：__TRILIUM_PH_1__ や __TRILIUM_PH_2__）",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_10d4fbd13da665165194cd75_0",
@@ -521,8 +766,15 @@
       "sourceHash": "10d4fbd13da665165194cd75a281d87c8d9ee03fd32da8ff7d4d87a1cfe552d6",
       "context": "Day Notes > Naming pattern > Month pattern",
       "contextHash": "dce8e976f8ba3d56be242b9b14a4d0a13fe1292b6796828d90bc20f8957d4d9c",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "__TRILIUM_PH_0__ は月の最初の3文字に置き換えられます（例: Jan, Feb など）",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_ff101469e1db37eded289d43_0",
@@ -531,8 +783,15 @@
       "sourceHash": "ff101469e1db37eded289d433929112e086a789f9ca96b0ce18f6ee7a5ebdd66",
       "context": "Day Notes > Naming pattern > Month pattern",
       "contextHash": "dce8e976f8ba3d56be242b9b14a4d0a13fe1292b6796828d90bc20f8957d4d9c",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "__TRILIUM_PH_0__ は月の最初の4文字に置き換えられます（例: Sept, Octo など）",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_32014bfb7af82cd0422700e1_2",
@@ -541,8 +800,15 @@
       "sourceHash": "32014bfb7af82cd0422700e1ab9ab824df459566a0415e9773ac09d63e9b7093",
       "context": "Day Notes > Naming pattern > Month pattern",
       "contextHash": "dce8e976f8ba3d56be242b9b14a4d0a13fe1292b6796828d90bc20f8957d4d9c",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "デフォルトは __TRILIUM_PH_0__ です",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_ff32e5cccb1f24d9a45527a7_0",
@@ -551,8 +817,15 @@
       "sourceHash": "ff32e5cccb1f24d9a45527a733b56c43b1471d781c2fe67d4211d4f785affcce",
       "context": "Day Notes > Naming pattern > Quarter pattern",
       "contextHash": "a18427da31545c5c08aca40fb7f5ebbf5f196480bed2e965f5418cdf2ee1f5a2",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "四半期パターン__TRILIUM_PH_0__",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_5bd4cb5e31e5b95a0ad39b58_0",
@@ -561,8 +834,15 @@
       "sourceHash": "5bd4cb5e31e5b95a0ad39b58fa19e48c23495f48b35030c8a3bd8df2ebae5f30",
       "context": "Day Notes > Naming pattern > Quarter pattern",
       "contextHash": "a18427da31545c5c08aca40fb7f5ebbf5f196480bed2e965f5418cdf2ee1f5a2",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "また、ルートカレンダーノートの __TRILIUM_PH_0__ 属性を使用して、生成される四半期ノートのタイトルをカスタマイズすることもできます。オプションは以下の通りです：",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_682e77d86e09ca0c20ce7549_0",
@@ -571,8 +851,15 @@
       "sourceHash": "682e77d86e09ca0c20ce7549be20871dd39adf3a45fc42646fdf8c87f9173819",
       "context": "Day Notes > Naming pattern > Quarter pattern",
       "contextHash": "a18427da31545c5c08aca40fb7f5ebbf5f196480bed2e965f5418cdf2ee1f5a2",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "__TRILIUM_PH_0__ は、一年の第1四半期に対して __TRILIUM_PH_1__ のような数値になります",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_fdf6491cc2e25ab9b4d09c6d_0",
@@ -581,8 +868,15 @@
       "sourceHash": "fdf6491cc2e25ab9b4d09c6d18c1bb91e0ebfae8b725a63e85abeace95727d4c",
       "context": "Day Notes > Naming pattern > Quarter pattern",
       "contextHash": "a18427da31545c5c08aca40fb7f5ebbf5f196480bed2e965f5418cdf2ee1f5a2",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "__TRILIUM_PH_0__ は、一年の第1四半期に対して __TRILIUM_PH_1__ のような短い四半期文字列になります",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_32014bfb7af82cd0422700e1_3",
@@ -591,8 +885,15 @@
       "sourceHash": "32014bfb7af82cd0422700e1ab9ab824df459566a0415e9773ac09d63e9b7093",
       "context": "Day Notes > Naming pattern > Quarter pattern",
       "contextHash": "a18427da31545c5c08aca40fb7f5ebbf5f196480bed2e965f5418cdf2ee1f5a2",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "デフォルトは __TRILIUM_PH_0__ です",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_eecb4e4b762d33783f085ab6_0",
@@ -601,8 +902,15 @@
       "sourceHash": "eecb4e4b762d33783f085ab6442b43ac848b596280cb2fdb9c169f2c2b2dd29d",
       "context": "Day Notes > Naming pattern > Year pattern",
       "contextHash": "4d4e9b345458c0604787eec762b51a7664472f61a7fa7bd9ab00980bffb39ce8",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "年パターン__TRILIUM_PH_0__",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_33ec0ee40e7a6211fec73d1d_0",
@@ -611,8 +919,15 @@
       "sourceHash": "33ec0ee40e7a6211fec73d1d1c96628dd4aace2e7c04755b0635582c2f4d44d0",
       "context": "Day Notes > Naming pattern > Year pattern",
       "contextHash": "4d4e9b345458c0604787eec762b51a7664472f61a7fa7bd9ab00980bffb39ce8",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "また、ルートカレンダーノートの __TRILIUM_PH_0__ 属性を使用して、生成される年ノートのタイトルをカスタマイズすることもできます。オプションは以下の通りです：",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_01385199708559e1996bb39a_0",
@@ -621,8 +936,15 @@
       "sourceHash": "01385199708559e1996bb39a8c19440c9b57e680ec01855c401b4ca940244042",
       "context": "Day Notes > Naming pattern > Year pattern",
       "contextHash": "4d4e9b345458c0604787eec762b51a7664472f61a7fa7bd9ab00980bffb39ce8",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "__TRILIUM_PH_0__ は完全な年になります（例: __TRILIUM_PH_1__）",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_32014bfb7af82cd0422700e1_4",
@@ -631,8 +953,15 @@
       "sourceHash": "32014bfb7af82cd0422700e1ab9ab824df459566a0415e9773ac09d63e9b7093",
       "context": "Day Notes > Naming pattern > Year pattern",
       "contextHash": "4d4e9b345458c0604787eec762b51a7664472f61a7fa7bd9ab00980bffb39ce8",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "デフォルトは __TRILIUM_PH_0__ です",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_c788b3e403abfb1a09af9098_0",
@@ -641,8 +970,15 @@
       "sourceHash": "c788b3e403abfb1a09af9098634a31335c2cfe467269b1329a5b6cad297e5acc",
       "context": "Day Notes > Implementation",
       "contextHash": "fb28fd0e301c4ebadcadfa936292dd4db964c93ec1bd4bb93647c5ae093671cd",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "実装__TRILIUM_PH_0__",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_9d139e136ff2b1c45c508af9_0",
@@ -651,8 +987,15 @@
       "sourceHash": "9d139e136ff2b1c45c508af997f2dd5d010f5c20e6edd9672010bb3f5ca357be",
       "context": "Day Notes > Implementation",
       "contextHash": "fb28fd0e301c4ebadcadfa936292dd4db964c93ec1bd4bb93647c5ae093671cd",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "Triliumには、__TRILIUM_PH_0__バックエンドスクリプトAPI__TRILIUM_PH_1__の形式でデイリーノートに対する特別なサポートがいくつかあります（例：getDayNote()関数を参照してください）。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_3df03bcb9433cc9722c6c4bf_0",
@@ -661,8 +1004,15 @@
       "sourceHash": "3df03bcb9433cc9722c6c4bf322b6edab13383f5b78a36766212b10006142d03",
       "context": "Day Notes > Implementation",
       "contextHash": "fb28fd0e301c4ebadcadfa936292dd4db964c93ec1bd4bb93647c5ae093671cd",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "デイリー（および年、月）ノートはラベル付きで作成されます。例：__TRILIUM_PH_0__ これにより、他のスクリプトがデイリーノートなどに新しいノートを追加するために使用できるようになります。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_b190d47815633246b0ab18a6_0",
@@ -671,8 +1021,15 @@
       "sourceHash": "b190d47815633246b0ab18a61d9b8e8ea36504fe3f8bc230a7753096915c9ff2",
       "context": "Day Notes > Implementation",
       "contextHash": "fb28fd0e301c4ebadcadfa936292dd4db964c93ec1bd4bb93647c5ae093671cd",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "記事画像",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_b190d47815633246b0ab18a6_1",
@@ -681,9 +1038,93 @@
       "sourceHash": "b190d47815633246b0ab18a61d9b8e8ea36504fe3f8bc230a7753096915c9ff2",
       "context": "Day Notes > Implementation",
       "contextHash": "fb28fd0e301c4ebadcadfa936292dd4db964c93ec1bd4bb93647c5ae093671cd",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "記事画像",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     }
   ],
-  "requests": []
+  "requests": [
+    {
+      "at": "2026-11-14T14:14:05.465Z",
+      "model": "gemini-3.5-flash-lite",
+      "batchJob": "batches/8vehrrvdpag09tp4gjf9dbgj006t9k2gkkyl",
+      "requestKey": "l0tKav7yLHGF_911a7cc941fbe2dd",
+      "modelVersion": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 1574,
+        "candidatesTokenCount": 1094,
+        "totalTokenCount": 2668,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 1574
+          }
+        ],
+        "serviceTier": "standard"
+      }
+    },
+    {
+      "at": "2026-11-14T14:14:05.465Z",
+      "model": "gemini-3.5-flash-lite",
+      "batchJob": "batches/8vehrrvdpag09tp4gjf9dbgj006t9k2gkkyl",
+      "requestKey": "l0tKav7yLHGF_f40dc692e0aa52d3",
+      "modelVersion": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 1552,
+        "candidatesTokenCount": 1038,
+        "totalTokenCount": 2590,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 1552
+          }
+        ],
+        "serviceTier": "standard"
+      }
+    },
+    {
+      "at": "2026-11-14T14:14:05.465Z",
+      "model": "gemini-3.5-flash-lite",
+      "batchJob": "batches/8vehrrvdpag09tp4gjf9dbgj006t9k2gkkyl",
+      "requestKey": "l0tKav7yLHGF_b8a9d5d471bf94b7",
+      "modelVersion": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 1406,
+        "candidatesTokenCount": 878,
+        "totalTokenCount": 2284,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 1406
+          }
+        ],
+        "serviceTier": "standard"
+      }
+    },
+    {
+      "at": "2026-11-14T14:14:05.465Z",
+      "model": "gemini-3.5-flash-lite",
+      "batchJob": "batches/8vehrrvdpag09tp4gjf9dbgj006t9k2gkkyl",
+      "requestKey": "l0tKav7yLHGF_cca0cbf01d0926cb",
+      "modelVersion": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 564,
+        "candidatesTokenCount": 269,
+        "totalTokenCount": 833,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 564
+          }
+        ],
+        "serviceTier": "standard"
+      }
+    }
+  ]
 }

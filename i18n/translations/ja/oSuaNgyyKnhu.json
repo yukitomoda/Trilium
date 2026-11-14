@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "pageId": "oSuaNgyyKnhu",
   "sourceFile": "docs/User Guide/User Guide/Note Types/Text/Anchors.md",
-  "sourceRevision": "03d17b60f59b5efc29b880b11481471d0fe0ff57",
+  "sourceRevision": "bbc6051da7fab504dac8c69279859c8cb9c61eef",
   "units": [
     {
       "id": "u_2041a433695e083946d73a46_0",
@@ -171,8 +171,15 @@
       "sourceHash": "dd0bce809b12e329288fa0cb878a0342828e791b4fc1f4c9cacb006b4b8e574f",
       "context": "Anchors > Interaction",
       "contextHash": "ce2b7364c88edacb74beb95a82da62342d4c7bc04f8c68d75a00c11168642057",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "同じノートの見出しにリンクする場合、アンカーは必要ありません。同じダイアログの __TRILIUM_PH_0__Headings__TRILIUM_PH_1__ から見出しを選択してください。詳細については、__TRILIUM_PH_2__Linking to a heading__TRILIUM_PH_3__ を参照してください。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_db2d961615ff75b76af32dc6_0",
@@ -181,8 +188,15 @@
       "sourceHash": "db2d961615ff75b76af32dc680a6d048737073cfd3aece9203984197ec99aa6e",
       "context": "Anchors > Linking across notes",
       "contextHash": "b4dd0a1d95c6bf486649ebc7aa149550aff13b94ab790f3e4a5e2ed75b90c5b9",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "ノート間のリンク__TRILIUM_PH_0__",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_e9951478c4261bfd5a39873b_0",
@@ -191,8 +205,15 @@
       "sourceHash": "e9951478c4261bfd5a39873b820d0592328e00bb6cb9a35a7afa35ddf6236523",
       "context": "Anchors > Linking across notes",
       "contextHash": "b4dd0a1d95c6bf486649ebc7aa149550aff13b94ab790f3e4a5e2ed75b90c5b9",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "Trilium v0.103.0では、ノート間アンカーが導入され、そのドキュメント内の特定のアンカーを指す __TRILIUM_PH_0__Internal (reference) links__TRILIUM_PH_1__ を作成できるようになりました。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_2018a513b8e20e93c90e370c_0",
@@ -201,8 +222,15 @@
       "sourceHash": "2018a513b8e20e93c90e370c52d6051cab22e74d2304d7a2af85582594cbbbed",
       "context": "Anchors > Linking across notes > Compatibility with documents from previous versions",
       "contextHash": "975f11d9b50c49d744ac194ba3e82e8b826cda3f9e8f2620dd3d3600c5a8fae9",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "以前のバージョンのドキュメントとの互換性__TRILIUM_PH_0__",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_3582122650dcaa5864cb7417_0",
@@ -211,8 +239,15 @@
       "sourceHash": "3582122650dcaa5864cb7417dcddc3c90c7659007d3e60fdedb109c2c82da65f",
       "context": "Anchors > Linking across notes > Compatibility with documents from previous versions",
       "contextHash": "975f11d9b50c49d744ac194ba3e82e8b826cda3f9e8f2620dd3d3600c5a8fae9",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "Trilium v0.103.0より前に作成されたノートでは、アンカーが識別されない場合があります。この制限は、アンカーを探すためにすべてのノートを再処理しなくて済むようにするための意図的なものです。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_550a846116b8a505f9c87b0b_0",
@@ -221,8 +256,15 @@
       "sourceHash": "550a846116b8a505f9c87b0bdf5fefec73406ea9d90a21ea518526c6b5d94cd4",
       "context": "Anchors > Linking across notes > Compatibility with documents from previous versions",
       "contextHash": "975f11d9b50c49d744ac194ba3e82e8b826cda3f9e8f2620dd3d3600c5a8fae9",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "これを修正するには、該当するノートを開いて何らかの変更（スペースの挿入など）を加えるだけで、リンクの再計算がトリガーされます。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_10e32f4bdbbc13bc2baaf8e2_0",
@@ -231,8 +273,15 @@
       "sourceHash": "10e32f4bdbbc13bc2baaf8e253a9822475fbabcbfded7c673bee5b33b401e7e0",
       "context": "Anchors > Linking across notes > Linking to anchors through the Add link dialog",
       "contextHash": "83c9ec56b43ceb98d169048a968d2e4d0a5388aef0eb456fc66567d89aaf673a",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "__TRILIUM_PH_0__Add link__TRILIUM_PH_1__ ダイアログを通じたアンカーへのリンク__TRILIUM_PH_2__",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_96092b10a9b00bdb3c1567da_0",
@@ -241,8 +290,15 @@
       "sourceHash": "96092b10a9b00bdb3c1567daa9f75a49a171d077e03d6390679485cb9005738a",
       "context": "Anchors > Linking across notes > Linking to anchors through the Add link dialog",
       "contextHash": "83c9ec56b43ceb98d169048a968d2e4d0a5388aef0eb456fc66567d89aaf673a",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "上記と同じ手順を使用して、ターゲットノートにアンカーを作成します。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_311c4260190b99c70b6d6485_0",
@@ -251,8 +307,15 @@
       "sourceHash": "311c4260190b99c70b6d6485f816bd1b4cd5e28c3cd4af36d78753632d437463",
       "context": "Anchors > Linking across notes > Linking to anchors through the Add link dialog",
       "contextHash": "83c9ec56b43ceb98d169048a968d2e4d0a5388aef0eb456fc66567d89aaf673a",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "別のノートで __TRILIUM_PH_0__Ctrl__TRILIUM_PH_1__+__TRILIUM_PH_2__L__TRILIUM_PH_3__ を押し、内部リンクを挿入します。アンカーを含むターゲットノートを選択します。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_890d479573c273b77c99ce04_0",
@@ -261,8 +324,15 @@
       "sourceHash": "890d479573c273b77c99ce0484df9a4f0379781f8b97b2258a138967ad8ed1f8",
       "context": "Anchors > Linking across notes > Linking to anchors through the Add link dialog",
       "contextHash": "83c9ec56b43ceb98d169048a968d2e4d0a5388aef0eb456fc66567d89aaf673a",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "ターゲットノートにアンカーが含まれている場合、ノート選択の下にアンカーのリストが表示されたセクションが表示されます。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_b81ee45e4262f00c110b5ff1_0",
@@ -271,8 +341,15 @@
       "sourceHash": "b81ee45e4262f00c110b5ff15908a5a7f45b07d490382ff02efb74303e38a0ea",
       "context": "Anchors > Linking across notes > Linking to anchors through the Add link dialog",
       "contextHash": "83c9ec56b43ceb98d169048a968d2e4d0a5388aef0eb456fc66567d89aaf673a",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "通常どおりリンクを追加します。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_eb2961896a91b1a44c6daceb_0",
@@ -281,8 +358,15 @@
       "sourceHash": "eb2961896a91b1a44c6daceb338cc14caa6d1a973f2b2ed1673b10d1dc11992a",
       "context": "Anchors > Linking across notes > Linking to anchors through the Add link dialog",
       "contextHash": "83c9ec56b43ceb98d169048a968d2e4d0a5388aef0eb456fc66567d89aaf673a",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "アンカーを指す参照リンクをクリックすると、目的のセクションに自動的にスクロールします。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_c9282b6c47216fd15a93dab8_0",
@@ -291,8 +375,15 @@
       "sourceHash": "c9282b6c47216fd15a93dab89dbebd502a57b405f086eece985001ee073b49af",
       "context": "Anchors > Linking across notes > Linking to anchors through the bookmark toolbar",
       "contextHash": "19fad5d976ef13a652c007f2b7d6d9fed7e36918adc70bfd0a40d43b60ef3b81",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "ブックマークツールバーを通じたアンカーへのリンク__TRILIUM_PH_0__",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_96092b10a9b00bdb3c1567da_1",
@@ -301,8 +392,15 @@
       "sourceHash": "96092b10a9b00bdb3c1567daa9f75a49a171d077e03d6390679485cb9005738a",
       "context": "Anchors > Linking across notes > Linking to anchors through the bookmark toolbar",
       "contextHash": "19fad5d976ef13a652c007f2b7d6d9fed7e36918adc70bfd0a40d43b60ef3b81",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "上記と同じ手順を使用して、ターゲットノートにアンカーを作成します。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_8915e4cf07b92b46b04ac418_0",
@@ -311,8 +409,15 @@
       "sourceHash": "8915e4cf07b92b46b04ac4185c2bc76576553b8dcc227c6e984a1569fff15f9c",
       "context": "Anchors > Linking across notes > Linking to anchors through the bookmark toolbar",
       "contextHash": "19fad5d976ef13a652c007f2b7d6d9fed7e36918adc70bfd0a40d43b60ef3b81",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "アンカーをクリックして、アンカーのフローティングツールバーを表示します。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_19e35bed215564ff3f22a6df_0",
@@ -321,8 +426,15 @@
       "sourceHash": "19e35bed215564ff3f22a6dfdcfe671ee1e2b4a6b3f840a10d291314aa463968",
       "context": "Anchors > Linking across notes > Linking to anchors through the bookmark toolbar",
       "contextHash": "19fad5d976ef13a652c007f2b7d6d9fed7e36918adc70bfd0a40d43b60ef3b81",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "__TRILIUM_PH_0__ __TRILIUM_PH_1__Copy anchor reference link__TRILIUM_PH_2__ ボタンをクリックします。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_031fd12291a862aacbde552d_0",
@@ -331,8 +443,15 @@
       "sourceHash": "031fd12291a862aacbde552dc74ae24423a1ad17ccc84f95bc788fd42a3316e3",
       "context": "Anchors > Linking across notes > Linking to anchors through the bookmark toolbar",
       "contextHash": "19fad5d976ef13a652c007f2b7d6d9fed7e36918adc70bfd0a40d43b60ef3b81",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "リンクを挿入したいノートに移動し、__TRILIUM_PH_0__Ctrl__TRILIUM_PH_1__+__TRILIUM_PH_2__V__TRILIUM_PH_3__を押します。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_91de93a3e7e77c47507df241_0",
@@ -341,9 +460,55 @@
       "sourceHash": "91de93a3e7e77c47507df24150f3720672031f021c52f2e541bdd5ae01349a5f",
       "context": "Anchors > Linking across notes > Linking to anchors through the bookmark toolbar",
       "contextHash": "19fad5d976ef13a652c007f2b7d6d9fed7e36918adc70bfd0a40d43b60ef3b81",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "この方法は、2つの文書間で__TRILIUM_PH_0__内部（参照）リンク__TRILIUM_PH_1__を挿入する場合にのみ使用してください。同じノート上のアンカーにリンクするには、代わりに__TRILIUM_PH_2__リンクの追加__TRILIUM_PH_3__ダイアログ（__TRILIUM_PH_4__Ctrl__TRILIUM_PH_5__+__TRILIUM_PH_6__K__TRILIUM_PH_7__）を使用し、その上部にある__TRILIUM_PH_8__見出し / アンカー__TRILIUM_PH_9__を選択してください。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     }
   ],
-  "requests": []
+  "requests": [
+    {
+      "at": "2026-11-14T14:14:05.465Z",
+      "model": "gemini-3.5-flash-lite",
+      "batchJob": "batches/8vehrrvdpag09tp4gjf9dbgj006t9k2gkkyl",
+      "requestKey": "oSuaNgyyKnhu_45fe5e5f920e19a3",
+      "modelVersion": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 1542,
+        "candidatesTokenCount": 965,
+        "totalTokenCount": 2507,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 1542
+          }
+        ],
+        "serviceTier": "standard"
+      }
+    },
+    {
+      "at": "2026-11-14T14:14:05.465Z",
+      "model": "gemini-3.5-flash-lite",
+      "batchJob": "batches/8vehrrvdpag09tp4gjf9dbgj006t9k2gkkyl",
+      "requestKey": "oSuaNgyyKnhu_3256842682e23b1e",
+      "modelVersion": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 601,
+        "candidatesTokenCount": 304,
+        "totalTokenCount": 905,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 601
+          }
+        ],
+        "serviceTier": "standard"
+      }
+    }
+  ]
 }

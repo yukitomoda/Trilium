@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "pageId": "gBbsAeiuUxI5",
   "sourceFile": "docs/User Guide/User Guide/Note Types/Mind Map.md",
-  "sourceRevision": "03d17b60f59b5efc29b880b11481471d0fe0ff57",
+  "sourceRevision": "bbc6051da7fab504dac8c69279859c8cb9c61eef",
   "units": [
     {
       "id": "u_4ca2859c95a38c1375593315_0",
@@ -171,8 +171,15 @@
       "sourceHash": "eeacd5022a7bc606ce84bf747e0bfe88644ebb3b41b56016214d3ecdf3e6498f",
       "context": "Mind Map > Interaction",
       "contextHash": "6e60138b9307c8d0a1f7214b0872f662a418c5650f25adef219e8265a93ae635",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "__TRILIUM_PH_0__ノート メニュー__TRILIUM_PH_1__から、__TRILIUM_PH_2__画像としてエクスポート__TRILIUM_PH_3__を選択することで、ダイアグラムをSVG（ベクター）またはPNG（ラスタ）形式でエクスポートできます。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_f988167de2edf89b25f05cf7_0",
@@ -181,8 +188,15 @@
       "sourceHash": "f988167de2edf89b25f05cf78db8d32b7501bfb85910cfd308dceb1f4b35cdaa",
       "context": "Mind Map > Interaction",
       "contextHash": "6e60138b9307c8d0a1f7214b0872f662a418c5650f25adef219e8265a93ae635",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "ノートを__TRILIUM_PH_0__読み取り専用__TRILIUM_PH_1__に設定すると、すべての編集機能が無効になります。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_b190d47815633246b0ab18a6_0",
@@ -191,9 +205,36 @@
       "sourceHash": "b190d47815633246b0ab18a61d9b8e8ea36504fe3f8bc230a7753096915c9ff2",
       "context": "Mind Map > Interaction",
       "contextHash": "6e60138b9307c8d0a1f7214b0872f662a418c5650f25adef219e8265a93ae635",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "記事画像",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     }
   ],
-  "requests": []
+  "requests": [
+    {
+      "at": "2026-11-14T14:14:05.465Z",
+      "model": "gemini-3.5-flash-lite",
+      "batchJob": "batches/8vehrrvdpag09tp4gjf9dbgj006t9k2gkkyl",
+      "requestKey": "gBbsAeiuUxI5_b40ac306c4516866",
+      "modelVersion": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 529,
+        "candidatesTokenCount": 217,
+        "totalTokenCount": 746,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 529
+          }
+        ],
+        "serviceTier": "standard"
+      }
+    }
+  ]
 }
