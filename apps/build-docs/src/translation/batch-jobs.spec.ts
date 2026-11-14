@@ -176,3 +176,51 @@ void test("SDK uses batch endpoints and never retries create", async () => {
         await rm(root, { recursive: true, force: true });
     }
 });
+
+void test("completed invalid results can be diagnosed and re-fetched without submission", async () => {
+    const root = await mkdtemp(join(tmpdir(), "trilium-recheck-"));
+    try {
+        const pages = [ await page(root, "one") ];
+        let requests: BatchRequest[] = [];
+        let creates = 0;
+        let gets = 0;
+        let valid = false;
+        const options = { directory: join(root, "jobs"), conditions,
+            submit: true, limit: 20, refresh: false,
+            service: { async create(input: BatchRequest[]) {
+                creates++;
+                requests = input;
+                return { name: "batches/existing", state: JobState.JOB_STATE_PENDING };
+            }, async get() {
+                gets++;
+                const result = response(requests[0]);
+                if (!valid) result.candidates![0].content!.parts![0].text = "invalid JSON";
+                return { name: "batches/existing", state: JobState.JOB_STATE_SUCCEEDED,
+                    dest: { inlinedResponses: [ { metadata: { key: requests[0].key },
+                        response: result } ] } };
+            } } };
+        await runBatchTranslation(pages, options);
+        const collection = { ...options, submit: false };
+        assert.equal((await runBatchTranslation(pages, collection)).failed, true);
+        let saved = (await loadJobs(options.directory))[0];
+        assert.equal(saved.diagnostics![0].reason, "Invalid batch response JSON");
+        assert.equal(saved.diagnostics![0].requestKey, requests[0].key);
+        assert.equal(saved.phase, "complete");
+        await runBatchTranslation(pages, collection);
+        assert.equal(gets, 1, "Normal collection leaves completed jobs alone");
+        valid = true;
+        const recovered = await runBatchTranslation(pages,
+            { ...collection, recheckCompleted: true });
+        assert.equal(recovered.failed, false);
+        assert.equal(recovered.received, 1);
+        saved = (await loadJobs(options.directory))[0];
+        assert.equal(saved.error, undefined);
+        assert.equal(saved.requests[0].error, undefined);
+        assert.deepEqual(saved.diagnostics, []);
+        assert.equal(pages[0].memory.units[1].translation, "こんにちは one");
+        assert.equal(creates, 1, "Recovery must never submit a replacement batch");
+        assert.equal(gets, 2);
+        await assert.rejects(() => runBatchTranslation(pages,
+            { ...options, recheckCompleted: true }), /requires collect mode/);
+    } finally { await rm(root, { recursive: true, force: true }); }
+});

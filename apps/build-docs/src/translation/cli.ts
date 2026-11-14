@@ -14,11 +14,11 @@ async function main() {
     const command = args[0];
     if (![ "plan", "extract", "translate", "collect" ].includes(command)) {
         throw new Error("Usage: cli.ts plan|extract|translate|collect "
-            + "[--page NOTE_ID] [--limit UNITS] [--refresh]");
+            + "[--page NOTE_ID] [--limit UNITS] [--refresh] [--recheck-completed]");
     }
     for (let index = 1; index < args.length; index++) {
         if ([ "--page", "--limit" ].includes(args[index])) index++;
-        else if (args[index] !== "--refresh") throw new Error(`Unknown option: ${args[index]}`);
+        else if (![ "--refresh", "--recheck-completed" ].includes(args[index])) throw new Error(`Unknown option: ${args[index]}`);
     }
     const flag = (name: string) => {
         const index = args.indexOf(name);
@@ -28,6 +28,10 @@ async function main() {
         }
         return args[index + 1];
     };
+    const recheckCompleted = args.includes("--recheck-completed");
+    if (recheckCompleted && command !== "collect") {
+        throw new Error("--recheck-completed requires collect mode; no new batches are submitted");
+    }
     const pageId = flag("--page");
     const limit = flag("--limit") === undefined ? Infinity : Number(flag("--limit"));
     if (!(limit > 0) || (flag("--limit") !== undefined && !Number.isInteger(limit))) {
@@ -99,7 +103,7 @@ async function main() {
         }
     }
     const apiKey = process.env.GEMINI_API_KEY || process.env.GOOGLE_API_KEY;
-    if (!apiKey && (total > 0 || jobs.some((job) => job.name && job.phase === "pending"))) {
+    if (!apiKey && (total > 0 || jobs.some((job) => job.name && (job.phase === "pending" || recheckCompleted)))) {
         throw new Error("Set GEMINI_API_KEY (or GOOGLE_API_KEY) in the environment or .env.local");
     }
     const service = () => createBatchService({ apiKey: apiKey ?? "", model: config.model,
@@ -108,7 +112,7 @@ async function main() {
         directory, conditions: settings.conditions,
         service: { create: (...args) => service().create(...args),
             get: (...args) => service().get(...args) },
-        submit: command === "translate", limit, pageId, refresh: args.includes("--refresh"),
+        submit: command === "translate", recheckCompleted, limit, pageId, refresh: args.includes("--refresh"),
         checkpoint: process.env.BATCH_STATE_CHECKPOINT === "1" ? async () => {
             execFileSync("bash", [ join(root,
                 "apps/build-docs/translation-preview/batch-state.sh"), "save" ], {

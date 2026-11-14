@@ -22,6 +22,7 @@ export interface SavedJob {
     conditions: Conditions;
     requests: SavedRequest[];
     error?: string;
+    diagnostics?: { responseIndex: number; requestKey?: string; reason: string }[];
 }
 export interface TranslationPage { path: string; memory: Memory }
 
@@ -103,6 +104,9 @@ async function receive(directory: string, job: SavedJob, remote: BatchJob) {
         if (!responses) {
             throw new Error("Batch result is not inline; keep journal for investigation");
         }
+        delete job.error;
+        job.diagnostics = [];
+        for (const request of job.requests) delete request.error;
         const seen = new Set<string>();
         for (let index = 0; index < responses.length; index++) {
             const item = responses[index];
@@ -118,7 +122,18 @@ async function receive(directory: string, job: SavedJob, remote: BatchJob) {
                 if (seen.has(result.key)) throw new Error("Duplicate batch response key");
                 seen.add(result.key);
                 job.requests.find((request) => request.key === result.key)!.result = result;
-            } catch {
+            } catch (error) {
+                // Only our fixed validation messages are persisted; never SDK/model text.
+                const allowed = [ "Incomplete Gemini batch response", "Invalid batch response JSON",
+                    "Unexpected batch request key or translation count",
+                    "Unexpected or duplicate translation ID", "Empty or invalid translation",
+                    "Translation changed protected placeholders", "Duplicate batch response key" ];
+                const reason = error instanceof Error && allowed.includes(error.message)
+                    ? error.message : "Malformed batch response structure";
+                const requestKey = job.requests.find((request) =>
+                    request.key === item.metadata?.key)?.key;
+                job.diagnostics.push({ responseIndex: index, requestKey, reason });
+                console.error(`Batch ${job.name}, response ${index}: ${reason}`);
                 // Do not guess the destination of malformed/reordered responses.
                 job.error = "Some batch responses were invalid; valid responses were retained";
             }
@@ -137,14 +152,21 @@ export async function runBatchTranslation(pages: TranslationPage[], options: {
     directory: string; conditions: Conditions; service: BatchService;
     submit: boolean; limit: number; pageId?: string; refresh: boolean;
     checkpoint?: () => Promise<void>;
+    recheckCompleted?: boolean;
 }) {
+    if (options.recheckCompleted && options.submit) {
+        throw new Error("Rechecking completed batches requires collect mode");
+    }
     const jobs = await loadJobs(options.directory);
     const observed: SavedJob[] = [];
     for (const job of jobs) {
         if ((job.phase === "submitting" || job.phase === "uncertain") && !job.name) {
             throw new Error(`Batch submission uncertain: ${job.id}; recover the job name`);
         }
-        if ([ "pending", "submitting", "uncertain" ].includes(job.phase) && job.name) {
+        const recheck = options.recheckCompleted && job.phase === "complete"
+            && job.requests.some((request) => !request.result);
+        if (([ "pending", "submitting", "uncertain" ].includes(job.phase) || recheck)
+            && job.name) {
             await receive(options.directory, job, await options.service.get(job.name));
             observed.push(job);
             await options.checkpoint?.();

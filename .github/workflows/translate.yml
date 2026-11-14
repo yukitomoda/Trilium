@@ -20,6 +20,10 @@ on:
         description: 'Only collect existing batch results; submit no new requests'
         type: boolean
         default: false
+      recheck_completed:
+        description: 'Re-fetch completed batches with missing results (collect_only required)'
+        type: boolean
+        default: false
   schedule:
     - cron: '23 * * * *'
 
@@ -100,6 +104,7 @@ jobs:
           UNIT_LIMIT: ${{ inputs.limit || '20' }}
           REFRESH: ${{ inputs.refresh }}
           COLLECT_ONLY: ${{ inputs.collect_only }}
+          RECHECK_COMPLETED: ${{ inputs.recheck_completed }}
           EVENT_NAME: ${{ github.event_name }}
         run: |
           if [ -z "$GEMINI_API_KEY" ]; then
@@ -108,8 +113,14 @@ jobs:
           fi
           printf '::add-mask::%s\n' "$GEMINI_API_KEY"
           if [ "$EVENT_NAME" = schedule ] || [ "$COLLECT_ONLY" = true ]; then
-            pnpm docs:ja:collect
+            args=()
+            if [ "$RECHECK_COMPLETED" = true ]; then args+=(--recheck-completed); fi
+            pnpm docs:ja:collect "${args[@]}"
           else
+            if [ "$RECHECK_COMPLETED" = true ]; then
+              echo 'recheck_completed requires collect_only.' >&2
+              exit 1
+            fi
             args=(--limit "$UNIT_LIMIT")
             if [ -n "$PAGE_ID" ]; then args+=(--page "$PAGE_ID"); fi
             if [ "$REFRESH" = true ]; then args+=(--refresh); fi
