@@ -529,7 +529,29 @@
           "contextHash": "52ed0744fccb91c7068e08c6d004f2fc23b0629ef82c5b5862b55592b922287d"
         }
       ],
-      "error": "Missing or invalid batch response"
+      "error": "Some translation units failed validation",
+      "result": {
+        "translations": {
+          "u_0ec4982d1aa404cf633bf9d3_0": "デスクトップアプリケーションをサーバーとして使用する",
+          "u_b169d26b5ecc8e0f953094be_0": "状況によっては、__TRILIUM_PH_0__専用サーバーのインストール__TRILIUM_PH_1__が現実的ではない場合があります。デスクトップアプリケーションには、デフォルトで完全に機能するサーバーインスタンスが付属しています。",
+          "u_0544c57d39f976d74960a0c2_0": "ネットワークアクセスを有効にしてアプリケーションを再起動した後、__TRILIUM_PH_0__http://localhost:37840/login__TRILIUM_PH_1__にアクセスすることで、ローカルからこのWebインターフェースにアクセスできます。",
+          "u_65ccacf46686415eacbf8afb_0": "Webインターフェースでは、ログインにパスワードが要求されます。まだ設定していない場合は、まずデスクトップアプリケーションの__TRILIUM_PH_0__オプション__TRILIUM_PH_1__ → __TRILIUM_PH_2__パスワードと認証__TRILIUM_PH_3__で設定してください。セキュリティ上の理由から、ブラウザからパスワードを設定することはできません。",
+          "u_3cf21277723b36a0c4623fad_0": "デスクトップアプリケーションに埋め込まれたサーバーは、デスクトップアプリケーション自体が実行されている間のみ動作します。したがって、アプリケーションを終了するとサーバーも終了します。これを回避するには、アプリケーションをシステムトレイに隠す方法を試すことができます。",
+          "u_737d4e755eebc0d5c72af5a7_0": "モバイルインターフェース__TRILIUM_PH_0__",
+          "u_6f843165884590d6e60bf824_0": "デフォルトでは、モバイル上でもデスクトップユーザーインターフェースが表示されます。モバイル版に切り替えるには、__TRILIUM_PH_0__グローバルメニュー__TRILIUM_PH_1__に移動し、「モバイル版に切り替え」を選択するだけです。",
+          "u_8f696d4d7c6b1b68511482c0_0": "Windows Defender ファイアウォールを使用してWindowsで外部からのポートを許可する__TRILIUM_PH_0__",
+          "u_fe001e124670dc029b11e070_0": "まず、ローカルのターミナルで__TRILIUM_PH_0__を実行して、デスクトップサーバーのIPを確認します。次に、別のデバイスで__TRILIUM_PH_1__へのアクセスを試みます。動作しない場合は、オペレーティングシステムのファイアウォールによってポートがブロックされている可能性が最も高いです。",
+          "u_b2c3a88c4f521ef516fd2834_0": "Windows Defender ファイアウォールを使用している場合：",
+          "u_17c5d02b69b2e03b3eeb951c_0": "Windowsのスタートメニューを開き、「セキュリティが強化された Windows Defender ファイアウォール」を検索します。",
+          "u_654bf2389df5773667041c55_0": "左側のツリーで「受信の規則」に移動し、右側の「操作」サイドバーで「新しい規則」を選択します。",
+          "u_338a11637c53dace5d093335_0": "「ポート」を選択し、「次へ」を押します。",
+          "u_c802bbce4753b39bb2582ff6_0": "「特定getLocalポート」のセクションに__TRILIUM_PH_0__と入力し、「次へ」を押します。",
+          "u_badbfce08baa4d69e4b11254_0": "「接続を許可する」にチェックを入れたまま、「次へ」を押します。"
+        }
+      },
+      "unitErrors": {
+        "u_970ed7996d9d73fbe7f0666f_0": "Translation changed protected placeholders"
+      }
     },
     {
       "key": "nRqcgfTb97uV_6350c1b89b4fee44",
@@ -1384,7 +1406,29 @@
           "contextHash": "49d5cd9cac34bb4fa95c61ed40db6231dc9079eaaa87d2ea933147a36820d6c5"
         }
       ],
-      "error": "Missing or invalid batch response"
+      "error": "Some translation units failed validation",
+      "result": {
+        "translations": {
+          "u_44380a7d83491c64beeed569_0": "Windowsでは、タスクバーで __TRILIUM_PH_0__新しいウィンドウを開く__TRILIUM_PH_1__ を選択します。",
+          "u_a0df7166b2c4a94dac06bbd2_0": "Linuxでは、ドックまたはアプリケーションランチャー（GNOMEやKDEなど）で __TRILIUM_PH_0__新しいウィンドウ__TRILIUM_PH_1__ を選択します。",
+          "u_02acb6522de3f375bac0455a_0": "システムトレイへの閉じる動作__TRILIUM_PH_0__",
+          "u_e59a096d975999b7d334c09c_0": "これはデフォルトでは有効になっていないオプションで、特定の動作を許可します。最後のウィンドウが閉じられたときにアプリケーションを終了する代わりに、最後のウィンドウが非表示になり、トレイアイコンが利用可能な状態を維持します。",
+          "u_f883818751d17e544ab745ef_0": "このオプションを使用するには、トレイアイコンが有効になっている必要があります。有効になっていない場合、このオプションは効果がありません。",
+          "u_fa00dc13071a2a916fc081ca_0": "自動起動__TRILIUM_PH_0__",
+          "u_5f7fcf2d2a5a5f0bc4a74c93_0": "__TRILIUM_PH_0__オプション__TRILIUM_PH_1__ → __TRILIUM_PH_2__スタートアップ__TRILIUM_PH_3__ 内の2つのオプションで自動起動機能を制御します。",
+          "u_31ad57e21656689b9d1a101c_0": "__TRILIUM_PH_0__起動時に開始__TRILIUM_PH_1__ が有効な場合、現在のユーザーのログイン時にアプリケーションが自動的に起動します。",
+          "u_07e7012eaeb818dba2a79b1d_0": "Linuxでのサポートはデスクトップ環境によって異なることに注意してください。問題が発生した場合は、お気軽に __TRILIUM_PH_0__報告__TRILIUM_PH_1__してください。",
+          "u_b6aca8d7ed0ad5cdf4424b08_0": "__TRILIUM_PH_0__トレイに最小化して起動__TRILIUM_PH_1__ も有効な場合、アプリケーションはバックグラウンドで起動し、トレイアイコンから表示させることができます。",
+          "u_fba553d055bff7caecec0bd1_0": "これは __TRILIUM_PH_0__起動時に開始__TRILIUM_PH_1__ が有効な場合にのみ適用され、手動での起動はこのオプションの影響を受けません。",
+          "u_24a95252dc15be49f91d81cf_0": "Linux: Flatpak__TRILIUM_PH_0__",
+          "u_aeeb68dbd8ba9e3210c10666_0": "Flatpakは自動起動ディレクトリに直接書き込むことができないため、__TRILIUM_PH_0__起動時に開始__TRILIUM_PH_1__ は代わりにデスクトップのBackgroundポータルに要求を送り、__TRILIUM_PH_2__を作成します。デスクトップ環境がバックグラウンドでのアプリケーションの実行を許可する前に確認するように設定されている場合、初回にプロンプトが表示されます。これを拒否すると __TRILIUM_PH_3__起動時に開始__TRILIUM_PH_4__ は機能しなくなりますが、権限は後からシステム設定で変更できます。",
+          "u_9fa4dbc47616bef92b0ba9ee_0": "Linux: パッケージャー向けのカスタム起動コマンド__TRILIUM_PH_0__",
+          "u_59a4dd8f3803872734f2f02b_0": "システム全体のElectronでTriliumを実行するディストリビューションパッケージ（例：__TRILIUM_PH_0__）は、Triliumなしで起動する単なるElectronバイナリであるため、実行中の実行ファイルに依存できません。このようなパッケージでは、ラッパースクリプトなどで __TRILIUM_PH_1__ 環境変数をTriliumを起動する完全なコマンドに設定できます。"
+        }
+      },
+      "unitErrors": {
+        "u_9fde006f67464642484495a3_0": "Translation changed protected placeholders"
+      }
     },
     {
       "key": "7iwde4lsKc6O_ef24831983296a3c",
@@ -2236,7 +2280,29 @@
           "contextHash": "1ebe68a90b7879567408c6108d8008d44f5bc1c75d28f853f4287bc2b1099e9a"
         }
       ],
-      "error": "Missing or invalid batch response"
+      "error": "Some translation units failed validation",
+      "result": {
+        "translations": {
+          "u_9c25e25a1d08f692f9f6fe12_0": "Dockerの使用方法",
+          "u_e9d61f3c162cbe2174a32692_0": "公式のDockerイメージは、Docker Hubで__TRILIUM_PH_0__AMD64__TRILIUM_PH_1__、__TRILIUM_PH_2__ARMv7__TRILIUM_PH_3__、__TRILIUM_PH_4__ARM64/v8__TRILIUM_PH_5__向けに公開されています: __TRILIUM_PH_6__https://hub.docker.com/r/triliumnext/trilium/__TRILIUM_PH_7__",
+          "u_0830ab526c6cc11955f8b25e_0": "前提条件__TRILIUM_PH_0__",
+          "u_b92485a8c2db7857545d9aad_0": "システムにDockerがインストールされていることを確認してください。",
+          "u_814216c16c2d96a1a0435d5b_0": "Dockerのインストールにヘルプが必要な場合は、__TRILIUM_PH_0__Docker インストールドキュメント__TRILIUM_PH_1__をご参照ください。",
+          "u_a9ee5df2ee3a5306f3abf5d8_0": "デフォルトでは、コンテナはrootとして起動し、データディレクトリを準備した後に特権を持たないユーザーとしてTriliumを実行します。以下の__TRILIUM_PH_0__非rootユーザーとしての実行__TRILIUM_PH_1__で説明されているように、rootを一切使用せずに実行することも可能です。",
+          "u_b837cabfe8aca0a58e7edd75_0": "Docker Composeでの実行__TRILIUM_PH_0__",
+          "u_69e1ba2fd22f96a13c6df682_0": "最新のdocker-compose.ymlを取得します:__TRILIUM_PH_0__",
+          "u_73eba93344ce6bfd62c4e481_0": "コンテナの起動:__TRILIUM_PH_0__",
+          "u_71d35ac94bc8b71c939493fd_0": "次のコマンドを実行して、コンテナをバックグラウンドで起動します。",
+          "u_ccbd24b3fdb3005ad543161e_0": "Docker Composeを使用しない実行 / その他の設定__TRILIUM_PH_0__",
+          "u_6f96aed3b5765c9707d61d72_0": "Dockerイメージのプル__TRILIUM_PH_0__",
+          "u_70e022a10ccf0f0f8116272b_0": "イメージをプルするには、次のコマンドを使用します。__TRILIUM_PH_0__の部分を、__TRILIUM_PH_1__や単に__TRILIUM_PH_2__などの希望するバージョンまたはタグに置き換えてください（公開されているタグ名は __TRILIUM_PH_3__https://hub.docker.com/r/triliumnext/trilium/tags__TRILIUM_PH_4__ を参照してください）。"
+        }
+      },
+      "unitErrors": {
+        "u_edb3a397b8025ef18fecff79_0": "Translation changed protected placeholders",
+        "u_b35e089b7816397aa68c9ef8_0": "Translation changed protected placeholders",
+        "u_a059f770a4141e9fc80c2a39_0": "Translation changed protected placeholders"
+      }
     },
     {
       "key": "rWX5eY045zbE_922806ebd41e8120",
@@ -2539,7 +2605,29 @@
           "contextHash": "154e7087c137f6942d25df100d0539e0b0afcd83afda4267e895b2b67603141a"
         }
       ],
-      "error": "Missing or invalid batch response"
+      "error": "Some translation units failed validation",
+      "result": {
+        "translations": {
+          "u_4081159222ae98fb16ba4b42_0": "カスタムデータディレクトリ__TRILIUM_PH_0__",
+          "u_e187525234caac549d323a03_0": "カスタムデータディレクトリを使用するには、次のようにします。",
+          "u_2374a40bea8229258be90546_0": "デフォルト以外の方法でインスタンスを実行する場合は、次のようにボリュームスイッチを使用してください: __TRILIUM_PH_0__。Docker のボリュームの仕組みを理解することが重要です。1 つ目のパスはホスト自身のパスであり、2 つ目は仮想的にバインドするパスです。__TRILIUM_PH_1__https://docs.docker.com/storage/volumes/__TRILIUM_PH_2__ コロンの前のパスはホストディレクトリであり、コロンの後のパスはコンテナ内のパスです。詳細については、__TRILIUM_PH_3__Docker ボリュームのドキュメント__TRILIUM_PH_4__をご覧ください。",
+          "u_dae3f04729e0afe574efbf41_0": "リバースプロキシ__TRILIUM_PH_0__",
+          "u_368360ec1bd6c439df083c13_0": "__TRILIUM_PH_0__Nginx__TRILIUM_PH_1__",
+          "u_0de9966a1486352f283b19fa_0": "__TRILIUM_PH_0__Apache__TRILIUM_PH_1__",
+          "u_a6531afd5e4bdcdab69e6233_0": "タイムゾーンに関する注意__TRILIUM_PH_0__",
+          "u_2b75c98cfba2620f25f79886_0": "その他の環境変数__TRILIUM_PH_0__",
+          "u_9f0897ef18387f96e9badacc_0": "Trilium が読み込む環境変数（ネットワーク設定、認証、同期など）の完全なリストについては、__TRILIUM_PH_0__設定（config.ini または環境変数）__TRILIUM_PH_1__をご覧ください。",
+          "u_75de6286e3f0c279942eeedc_0": "非 root ユーザーとしての実行__TRILIUM_PH_0__",
+          "u_6024b0da580cfe9954a6d41e_0": "デフォルトでは、コンテナは root として起動し、データディレクトリを __TRILIUM_PH_0__ ユーザー（UID および GID __TRILIUM_PH_1__、または __TRILIUM_PH_2__ と __TRILIUM_PH_3__ の値）に渡し、そのユーザーとして Trilium を実行します。rootless Docker や Podman、あるいは __TRILIUM_PH_4__ を使用する Kubernetes など、環境によってはコンテナの root での起動が一切許可されない場合があります。v0.107.0 以降では、同じイメージを完全に非 root ユーザーとして実行することも可能です。",
+          "u_efa03cb024082208e5c38533_0": "Trilium を非 root ユーザーとして実行するには、Docker の __TRILIUM_PH_0__ フラグでユーザーを設定します。",
+          "u_df11c821ae1c7e882c9fcdb6_0": "このイメージは、読み取り専用のルートファイルシステムを使用し、__TRILIUM_PH_0__ のようにケイパビリティなしでも実行できます。",
+          "u_08924c35f4bbaa5437209ccd_0": "root 権限がない場合、コンテナはファイルの所有権を変更できないため、次の点に注意してください。"
+        }
+      },
+      "unitErrors": {
+        "u_c6d4ac14f4e0658e165bb3f7_0": "Translation changed protected placeholders",
+        "u_e45c7e575ff7e16f5d55ff64_0": "Translation changed protected placeholders"
+      }
     },
     {
       "key": "rWX5eY045zbE_4f37f5a10cf930ad",
@@ -4276,7 +4364,29 @@
           "contextHash": "5d653bae723711e88f498ed6a18f57c1176c5bbeabc8b4e06ed47404d7fbaf66"
         }
       ],
-      "error": "Missing or invalid batch response"
+      "error": "Some translation units failed validation",
+      "result": {
+        "translations": {
+          "u_6ec107490532d6a305e89f40_0": "HTTPS (TLS)",
+          "u_3c213b0696656261cc81eb06_0": "TLS の設定は、Trilium での __TRILIUM_PH_0__サーバーのインストール__TRILIUM_PH_1__において非常に重要です。このガイドでは、Trilium 自体の中で TLS をセットアップする手順を詳しく説明します。",
+          "u_eeefd477c9d1ddeab2d25891_0": "Trilium 単体でも HTTPS をサポートしていますが、通常は TLS 終端を行う __TRILIUM_PH_0__リバースプロキシ__TRILIUM_PH_1__を代わりに使用することをお勧めします。このようなセットアップについては、__TRILIUM_PH_2__このようなガイド__TRILIUM_PH_3__を参考にしてください。",
+          "u_b7f2faea1072795175dd95b9_0": "TLS 証明書の取得__TRILIUM_PH_0__",
+          "u_8146b636e5cee866574dbcde_0": "TLS 証明書を取得するには、次の 2 つの方法があります。",
+          "u_827c69faee7574eae802eac3_0": "__TRILIUM_PH_0__推奨__TRILIUM_PH_1__：ルート認証局によって署名された TLS 証明書を取得します。個人用には __TRILIUM_PH_2__Let's Encrypt__TRILIUM_PH_3__ が最適な選択肢です。無料かつ自動化されており、簡単です。Certbot を使用すると、TLS のセットアップを自動化できます。",
+          "u_83d478fef4ea1e607e654bb8_0": "自己署名証明書を生成します。サーバーに接続するすべてのマシンの証明書をインポートする複雑さが増すため、このオプションはお勧めしません。",
+          "u_66b8cd61cf185a4a54fb8fa3_0": "__TRILIUM_PH_0____TRILIUM_PH_1__の変更",
+          "u_85119f0e56ff200612209ee8_0": "また、__TRILIUM_PH_0__設定__TRILIUM_PH_1__ファイルを確認して、代わりにすべての __TRILIUM_PH_2__値を環境変数として指定することもできます。たとえば、環境変数を使用して TLS を設定できます：",
+          "u_9d991fae23d6a0ce0780563d_0": "上記の例は、Let's Encrypt の ACME ユーティリティを使用して証明書が生成された環境で、これがどのように設定されるかを示しています。パスは異なる場合があります。Docker インストールの場合は、これらのパスがボリューム内や、__TRILIUM_PH_0__ などの Docker コンテナからアクセス可能な別のディレクトリ内にあることを確認してください。",
+          "u_e8947a2e9012167509dc560c_0": "__TRILIUM_PH_0__を設定した後、Trilium を再起動し、「https」を使用してホスト名にアクセスします。",
+          "u_85c7ebf9a3771274a53d4f7b_0": "自己署名証明書__TRILIUM_PH_0__",
+          "u_23aba48f3e814990b7c48952_0": "サーバーインスタンスに自己署名証明書を使用することを選択した場合、デスクトップインスタンスではデフォルトで信頼されないことに注意してください。",
+          "u_8fbf83324d41482378ad03c8_0": "これを回避するには、次の環境変数（Linuxの場合）を設定して証明書の検証を無効にします。",
+          "u_619bd64e8ffa00f605d623a9_0": "Trilium には、Windows 用の __TRILIUM_PH_0__ など、このモードで起動するためのスクリプトが用意されています。"
+        }
+      },
+      "unitErrors": {
+        "u_a800944ea11c35d7fec81051_0": "Translation changed protected placeholders"
+      }
     },
     {
       "key": "l2VkvOwUNfZj_ef8c4d39b05b68f4",
@@ -4444,7 +4554,29 @@
           "contextHash": "22003ee7eb6396af4605952a63f8e5b0e727ab21107382cec64094e0fc106895"
         }
       ],
-      "error": "Missing or invalid batch response"
+      "error": "Some translation units failed validation",
+      "result": {
+        "translations": {
+          "u_acfeb165dcf8765a8ff5f19c_0": "パスワードのリセット",
+          "u_0a38eea98b6958b2f7dcd224_0": "パスワードを忘れた場合：",
+          "u_72538d001d3b102fb59ad769_0": "保護されたノートは、パスワードなしでは復元できません。",
+          "u_badb1952311214a3a7fcf5bc_0": "保護されていないノートは回復可能です。",
+          "u_2c4163376be1bca0626f3129_0": "2つの方法があり、どちらもサーバーを実行しているデバイスへのアクセスが必要です。",
+          "u_5fb74cedd7e990efbc706acc_0": "認証を無効にする方法__TRILIUM_PH_0__",
+          "u_48b8f8fe03b2eb4aeceb61f1_0": "認証を無効にする方法については、__TRILIUM_PH_0__Authentication__TRILIUM_PH_1__ を参照してください。",
+          "u_2516d0e17e7b6378a95624ba_0": "サーバーを再起動します。",
+          "u_b6b1ef39fcf43ed2eb528a79_0": "__TRILIUM_PH_0__Options__TRILIUM_PH_1__ → [Password] → [Reset password] に移動します。",
+          "u_2a89aebf353a96cfc4780cb7_0": "手順 (1) と逆の手順で認証を再度有効にします。",
+          "u_2516d0e17e7b6378a95624ba_1": "サーバーを再起動します。",
+          "u_f9c5f5f240d8eaa27e8caf23_0": "新しいパスワードでログインします。",
+          "u_2e09508bf0975bdd3c52fb92_0": "データベースを変更する方法__TRILIUM_PH_0__",
+          "u_163e64374481c9aaa659092a_0": "次のクエリを実行します：",
+          "u_8066d5dfa5d366f1c25c1732_0": "変更を実行した後、変更をコミット/書き込みます。__TRILIUM_PH_0__これにより、パスワードが__TRILIUM_PH_1__ __TRILIUM_PH_2____TRILIUM_PH_3__ に設定され、再びログインできるようになります。__TRILIUM_PH_4__"
+        }
+      },
+      "unitErrors": {
+        "u_f1433df101d68aed7917edd9_0": "Translation changed protected placeholders"
+      }
     },
     {
       "key": "lwAX5SvbrK2g_7457ea61e2d14aa8",
@@ -4639,7 +4771,29 @@
           "contextHash": "48c3591260f1e0d5b85406a000565ed3e630abb0e35f6ea8533c84eb76c87c83"
         }
       ],
-      "error": "Missing or invalid batch response"
+      "error": "Some translation units failed validation",
+      "result": {
+        "translations": {
+          "u_629f90bb8a78d0e733ff9e84_0": "認証",
+          "u_5bb1470d7543ba3ab733b182_0": "認証の無効化__TRILIUM_PH_0__",
+          "u_65676a69355a9c7cc1fe7d4e_0": "Triliumを__TRILIUM_PH_0__のみで実行している場合、または認証が別のコンポーネントによって処理される場合は、__TRILIUM_PH_1__に以下を追加してTriliumの認証を無効化できます。",
+          "u_36f21807ecd958c439cd67bb_0": "認証を無効化すると、v0.94.1以降では__TRILIUM_PH_0__多要素認証__TRILIUM_PH_1__もバイパスされます。",
+          "u_3e9402f5cf2e684276345560_0": "ブルートフォース攻撃対策__TRILIUM_PH_0__",
+          "u_d1995ca0dd9fd7b05c98489c_0": "この制限は、パスワードを使用するすべてのサインイン方法に適用されます。",
+          "u_13733dd9ffd7c0789af30687_0": "サインインページ",
+          "u_78c1148727c2ac1ae11005d3_0": "デスクトップまたはモバイルアプリからの__TRILIUM_PH_0__同期__TRILIUM_PH_1__の設定。",
+          "u_cb37b24646390c5618380c45_0": "__TRILIUM_PH_0__Web Clipper__TRILIUM_PH_1__またはAndroid送信アプリの接続。",
+          "u_0502fad861ee9161c9a4025a_0": "__TRILIUM_PH_0__ETAPI (REST API)__TRILIUM_PH_1__を通じたトークンの要求。",
+          "u_00400fbd6e19d6d4d6f36236_0": "これらはすべて同じ制限に対してカウントされ、誤ったパスワード、誤ったワンタイムパスワード、および誤ったリカバリコードはそれぞれ1回の失敗試行としてカウントされます。成功したサインインはカウントされません。",
+          "u_dbeabe53ca5984cb192bc425_0": "制限はアカウントごとではなくIPアドレスごとであるため、攻撃者が自分のアドレスからのサインインに失敗してあなたを締め出すことはできません。カウントはメモリ内に保持されるため、サーバーを再起動するとクリアされます。",
+          "u_654c52898a57015102c4191f_0": "リバースプロキシの背後にある場合、__TRILIUM_PH_0__信頼されたプロキシ__TRILIUM_PH_1__として設定されていない限り、Triliumはすべてのリクエストがプロキシから来ていると認識します。その結果、すべてのクライアントが単一の制限を共有することになり、誰かによる少数の誤った試行が全員をブロックすることになります。",
+          "u_45287a69b70c855cdb14dc45_0": "fail2banによる連続した失敗のブロック__TRILIUM_PH_0__",
+          "u_17a1601a20e92f397cdcdef8_0": "サインインページでの失敗した試行にはHTTPステータス401が返され、__TRILIUM_PH_0__バックエンド（サーバー）ログ__TRILIUM_PH_1__には次のように記録されます。"
+        }
+      },
+      "unitErrors": {
+        "u_4305402aadb45cc1a6133e63_0": "Translation changed protected placeholders"
+      }
     },
     {
       "key": "0hzsNCP31IAB_8583699ccce0cc53",
@@ -4750,7 +4904,26 @@
           "contextHash": "aa93bf70ddc427517f6a47304ff6e1428ab654398183f8c8c3fe9656f251b4f6"
         }
       ],
-      "error": "Missing or invalid batch response"
+      "error": "Some translation units failed validation",
+      "result": {
+        "translations": {
+          "u_a300f26bb6e7dd2785d08de8_0": "__TRILIUM_PH_0__Multi-Factor Authentication__TRILIUM_PH_1__ が有効な場合、間違ったワンタイムパスワードまたはリカバリコードは代わりに __TRILIUM_PH_2__ としてログに記録されます。fail2ban などのツールは、ログ行またはリバースプロキシのアクセスログにある __TRILIUM_PH_3__ への 401 応答のいずれかに一致させ、アドレスを 15 分間より長くブロックすることができます。",
+          "u_f4b0542940596610807e8d9e_0": "セッションの仕組みについて__TRILIUM_PH_0__",
+          "u_7ff4a39e4e27134da43fedfb_0": "Trilium にログインすると、アプリケーションはこのログインに関する情報をブラウザのクッキーだけでなく、サーバー上のセッションとしても保存します。",
+          "u_1fb9f000cd79ed86af89bb60_0": "「ログイン状態を保持する (Remember me)」のチェックを外した場合、動作が異なります。クライアント/ブラウザレベルでは認証に有効期限はありませんが、ユーザーがブラウザを閉じるとすぐに自動的にクリアされます。それにもかかわらず、サーバーも __TRILIUM_PH_0__アプリケーションとの最後のインタラクション__TRILIUM_PH_1__から約 24 時間経過すると、この認証を破棄します。",
+          "u_b40fa9ca4dd2255ae1d6d128_0": "パスワードの変更またはリセットを行うと、変更を行ったセッションを含め、すべてのセッションからログアウトされます。開いているタブはログイン画面に戻り、新しいパスワードで再度ログインします。これは、別のインスタンスでパスワードが変更され、同期を通じてサーバーに到達した場合にも適用されます。",
+          "u_5ef8fc3fd8abc5c9ae5f6dab_0": "パスワードを変更しても、__TRILIUM_PH_0__ETAPI (REST API)__TRILIUM_PH_1__ トークンは取り消されません。これらはスクリプトや連携のための個別の認証情報であり、削除するまで機能し続けます。誰かにセッションクッキーを取得された疑いがある場合は、パスワードを変更し、__TRILIUM_PH_2__オプション__TRILIUM_PH_3__ → __TRILIUM_PH_4__ETAPI__TRILIUM_PH_5__ に移動して、セッションを持つ誰でも新しいトークンを作成できるため、名前と __TRILIUM_PH_6__作成日時__TRILIUM_PH_7__ で見覚えのないトークンを削除してください。",
+          "u_aff8a426281235566f5a2268_0": "アクティブなセッションの表示__TRILIUM_PH_0__",
+          "u_a8ff0193b5bc7ca92619ed9e_0": "ログインセッションは現在、ユーザーデータと同じ __TRILIUM_PH_0__データベース__TRILIUM_PH_1__ に保存されています。どのセッションがアクティブであるかを表示するには、__TRILIUM_PH_2__SQL コンソール__TRILIUM_PH_3__ を開き、次のクエリを実行します:",
+          "u_02ae7f725d7c3a844d94d694_0": "期限切れのセッションはサーバーによって定期的に（通常は 1 時間おきに）クリーンアップされます。",
+          "u_b056715d5493280169407022_0": "関連項目__TRILIUM_PH_0__",
+          "u_0794872140e012b697d74c5c_0": "__TRILIUM_PH_0__Multi-Factor Authentication__TRILIUM_PH_1__",
+          "u_57dfa180ca1ed630274557ea_0": "__TRILIUM_PH_0__信頼できるプロキシ__TRILIUM_PH_1__"
+        }
+      },
+      "unitErrors": {
+        "u_b8e55ba818bc6c938f9bf70f_0": "Translation changed protected placeholders"
+      }
     },
     {
       "key": "7DAiwaf8Z7Rz_3bd51cf4df8ceac1",
@@ -4885,7 +5058,29 @@
           "contextHash": "9240bdab2a5641a10d2f573f6aeb6f141067acc93561f063e99447ce54932aea"
         }
       ],
-      "error": "Missing or invalid batch response"
+      "error": "Some translation units failed validation",
+      "result": {
+        "translations": {
+          "u_a928acd3195c959029731c5f_0": "TOTPによる多要素認証",
+          "u_e39c84710ab9912177e7608b_0": "多要素認証（MFA）は、システム、アプリケーション、またはアカウントへのアクセスを許可する前に、ユーザーに2つ以上の検証要素の提供を求めるセキュリティプロセスです。これにより、パスワードの使用だけを超えた追加の保護層が加わります。",
+          "u_7f32891cc9d57b299c804771_0": "複数の検証方法を要求することにより、MFAは、万が一パスワードが流出した場合でも、不正アクセスのリスクを軽減するのに役立ちます。ノートに保存されている機密情報を保護するために強く推奨されます。",
+          "u_9cb8d3997d6cc75e735cba9e_0": "OpenID Connect (OIDC) との関係__TRILIUM_PH_0__",
+          "u_108e618d5e1d0c67f4054cb2_0": "多要素認証を使用すると、パスワード以外に身元の追加証明が要求されるため、Triliumへのログインがより安全になります。__TRILIUM_PH_0__OpenID Connectでのサインイン__TRILIUM_PH_1__は、認証を外部プロバイダ（Googleプロバイダや、Autheliaなどのセルフホスト型プロバイダなど）に委任する別の概念です。これらの認証プロバイダは、TOTPやパスキーなどの独自のセキュリティ機能を提供する場合があります。",
+          "u_5964a9d63ad11d98b839ae40_0": "時間制限付きワンタイムパスワード（TOTP）__TRILIUM_PH_0__",
+          "u_3d4c341094d9350b7ea7ae17_0": "TOTP（Time-Based One-Time Password）は、スマートフォンなどのデバイス上で、30秒ごとに変更される一意の一時コードを生成するセキュリティ機能です。アカウントにログインする際にパスワードと一緒にこのコードを使用するため、他の人がアクセスすることが非常に難しくなります。",
+          "u_f2bb324c737a8e6c52ce493e_0": "__TRILIUM_PH_0__オプション__TRILIUM_PH_1__ → __TRILIUM_PH_2__パスワードと認証__TRILIUM_PH_3__に移動します。",
+          "u_4d52dd345de3bea391cdda18_0": "__TRILIUM_PH_0__サインイン方法__TRILIUM_PH_1__で__TRILIUM_PH_2__ローカルパスワード__TRILIUM_PH_3__が選択されていることを確認します。",
+          "u_839c6af34bdad71b6573d3e6_0": "__TRILIUM_PH_0__二要素認証__TRILIUM_PH_1__セクションで、__TRILIUM_PH_2__設定__TRILIUM_PH_3__を押します。",
+          "u_483d4c026dbdea5eef18e873_0": "QRコードをスキャンするか、認証アプリにコードを手動で入力します。",
+          "u_59363289303ed25de41265cc_0": "認証アプリからの検証コードを入力して設定が成功したことを確認し、__TRILIUM_PH_0__検証して続行__TRILIUM_PH_1__を押します。",
+          "u_9fd8531eb6bc6b85fdd9d458_0": "TOTPの設定が完了した後（ページを更新した後）、再度ログインする必要があります。",
+          "u_4bb79cddb7ce50faaf8ec099_0": "サインイン__TRILIUM_PH_0__",
+          "u_50e7a983bd26776b8fb8e20a_0": "TOTPが有効になると、サインインページのパスワードの下にある__TRILIUM_PH_0__ワンタイムパスワードまたはリカバリコード__TRILIUM_PH_1__に、認証アプリからのコードを入力するよう求められます。"
+        }
+      },
+      "unitErrors": {
+        "u_bceb447d55e699eded027f7a_0": "Translation changed protected placeholders"
+      }
     },
     {
       "key": "7DAiwaf8Z7Rz_2560dd8a607242d0",
@@ -5004,7 +5199,27 @@
           "contextHash": "8b6c3ad1c3e2165f9547d3b6dd15f9a4e5cf9953b204244c7efa0ba3ef331bcb"
         }
       ],
-      "error": "Missing or invalid batch response"
+      "error": "Some translation units failed validation",
+      "result": {
+        "translations": {
+          "u_387fc7acfec59b87c18b19e3_0": "Triliumは、現在の30秒間のコードだけでなく、その直前と直後の期間のコードも受け入れるため、時計が多少ずれていても機能します。v0.106.0以降では、各コードは1回のみ受け付けられます。サインインが成功すると、そのコードおよびそれより古いコードは、有効期間内であっても拒否されます。",
+          "u_351cd8310daf8979400f295e_0": "サーバーへのデバイスの接続__TRILIUM_PH_0__",
+          "u_3138fed037334440524e1a0c_0": "TOTPが有効になると、__TRILIUM_PH_0__Synchronization__TRILIUM_PH_1__ を介して新しいデスクトップアプリやモバイルアプリをサーバーに接続する際にも、2要素目の入力が求められます。__TRILIUM_PH_2__Connect to an existing server__TRILIUM_PH_3__ 画面で、サーバーのパスワードの下にある __TRILIUM_PH_4__One-time password or recovery code__TRILIUM_PH_5__ に、ワンタイムパスワードまたはリカバリコードを入力します。これがないと、サーバーは同期のセットアップを拒否します。",
+          "u_e472eefa937feb6dc255dccd_0": "2要素目が求められるのは、デバイスを最初に接続するときのみです。すでにセットアップされているデバイスは、これなしで同期を続行します。",
+          "u_66aa46fdc2f9d31e67170acd_0": "v0.107.0より前のバージョンでは、同期のセットアップ時に2要素目の入力を求められません。古いアプリにはそれを送信するフィールドがないため、サーバーと一緒にデスクトップアプリとモバイルアプリもアップデートしてください。",
+          "u_a64c9836d4daae7150097d22_0": "パスワードによるETAPIトークンの取得__TRILIUM_PH_0__",
+          "u_546a631b342615359831b381_0": "自動実行されるスクリプトやツールの場合は、代わりに __TRILIUM_PH_0__Options__TRILIUM_PH_1__ → __TRILIUM_PH_2__ETAPI__TRILIUM_PH_3__ でトークンを作成してください。そのようなトークンは、TOTPに関係なく機能します。",
+          "u_249e35591e07b35804c7ff34_0": "v0.107.0より前のバージョンでは、TOTPが有効な場合でも、パスワードのみでETAPIトークンが発行されます。",
+          "u_a17642297c701b81adde0bc0_0": "リカバリコード__TRILIUM_PH_0__",
+          "u_fa79df1680b4a3bdcdee2565_0": "認証アプリへのアクセスを失った場合、TOTPの代わりにリカバリコードを使用できます。Triliumには8つの異なるリカバリコードが用意されており、各リカバリコードは1回使用できます。",
+          "u_84bbe4bbc6618ab7ff0651c9_0": "リカバリコードを使用するには、単にパスワードでログインし、セキュリティトークンとしてリカバリコードを使用します。",
+          "u_5efb20d9e80436eb25ffdf87_0": "最初のリカバリコードのセットは、最初にTOTPをセットアップするときに生成されます。__TRILIUM_PH_0__Options__TRILIUM_PH_1__ → __TRILIUM_PH_2__Password & Auth__TRILIUM_PH_3__ に移動し、__TRILIUM_PH_4__Regenerate recovery codes__TRILIUM_PH_5__ ボタンを押すことで、いつでも再生成できます。これにより、新しいリカバリコードのセットが生成されると同時に、以前のコードが無効になります。"
+        }
+      },
+      "unitErrors": {
+        "u_3bd7e22f2edddbb46f707974_0": "Translation changed protected placeholders",
+        "u_f709abb2eb81463b4442e0db_0": "Translation changed protected placeholders"
+      }
     },
     {
       "key": "IgkTHSaFfq6A_bf64e83ab9cbaf54",
@@ -5139,7 +5354,29 @@
           "contextHash": "aed08d32912b31afd0bf72269d029e5f61b7e7e28478d8173d1d5b12d597f744"
         }
       ],
-      "error": "Missing or invalid batch response"
+      "error": "Some translation units failed validation",
+      "result": {
+        "translations": {
+          "u_af501bd452952afb1e051c4e_0": "さまざまなプロバイダーでの設定",
+          "u_796c878b424feb3a6bbdb6af_0": "このページでは、Authelia、GitLab、Google などのさまざまなプロバイダーで __TRILIUM_PH_0__OpenID Connect によるサインイン__TRILIUM_PH_1__を設定する方法の手順を説明します。",
+          "u_d278054efde3c17f374c027c_0": "設定リファレンスは正確かつ最新の状態ですが、プロバイダー側のUIの変更に伴い、OAuthアプリケーションを作成する手順が若干異なる場合があります。",
+          "u_7f86ddb23ef1c5cae094e646_0": "Authelia",
+          "u_6c3f71167949ee77ffa2b911_0": "クライアントシークレットを生成します:",
+          "u_c094cfc42ece07c08fea2e77_0": "__TRILIUM_PH_0__ は Trilium に設定し、__TRILIUM_PH_1__（__TRILIUM_PH_2__ 文字列）は Authelia に設定します。",
+          "u_78cc76e89d32ec8dcbc05d53_0": "GitLab とは異なり、__TRILIUM_PH_0__ はプロバイダーが生成するものではなく、自分で選択する名前です。",
+          "u_88995f129b8fd64678ada5fe_0": "Authelia を再起動します。",
+          "u_a8d2e4a7bf60c5fce2df5b84_0": "__TRILIUM_PH_0__ GitLab",
+          "u_eef7ca8f512e4b9e1f0b0f2e_0": "__TRILIUM_PH_0__gitlab.com__TRILIUM_PH_1__ または独自のセルフホストインスタンスのユーザー設定に移動します。",
+          "u_42ccaae2bbedafca9e8aabfa_0": "__TRILIUM_PH_0__Add new application__TRILIUM_PH_1__を押します。",
+          "u_3f4e23dfa65b07d74e7d212d_0": "名前を付けます（例: Trilium）。",
+          "u_cf7f9b26830eef9a82734cb6_0": "__TRILIUM_PH_0__Redirect URI__TRILIUM_PH_1__を __TRILIUM_PH_2__ に設定します"
+        }
+      },
+      "unitErrors": {
+        "u_8dfa0cd3aed9dd0ad1738655_0": "Translation changed protected placeholders",
+        "u_4a255792f68ce2dab40b38e1_0": "Translation changed protected placeholders",
+        "u_1e350e22c07aeab52b11d44a_0": "Translation changed protected placeholders"
+      }
     },
     {
       "key": "IgkTHSaFfq6A_c0469699792d6ca6",
@@ -5426,7 +5663,27 @@
           "contextHash": "aed08d32912b31afd0bf72269d029e5f61b7e7e28478d8173d1d5b12d597f744"
         }
       ],
-      "error": "Missing or invalid batch response"
+      "error": "Some translation units failed validation",
+      "result": {
+        "translations": {
+          "u_3f4e23dfa65b07d74e7d212d_1": "名前を入力します（例: Trilium）。",
+          "u_def1bb905a2bb9f4bb9c2ef4_0": "__TRILIUM_PH_0__コールバック URL__TRILIUM_PH_1__を __TRILIUM_PH_2__ に設定し、__TRILIUM_PH_3__ をお使いの Trilium インスタンスの URL に置き換えます。",
+          "u_0c9a9dce55fadb23bdd0191d_0": "保存した後、__TRILIUM_PH_0__クライアント ID__TRILIUM_PH_1__、__TRILIUM_PH_2__クライアント シークレット__TRILIUM_PH_3__、および __TRILIUM_PH_4__OIDC ディスカバリー URL__TRILIUM_PH_5__ をコピーします。",
+          "u_5b0e1de6cd9bf7017d1c795c_0": "ステップ 4 の値を使用して、__TRILIUM_PH_0__ を次のように調整します:",
+          "u_feae02ca01bb5ceabe565269_0": "Pocket ID は初回起動時に RS256 署名キーを生成するため、追加の設定なしで動作します。Ed25519 (__TRILIUM_PH_0__) にローテーションした場合、ID トークンには代わりに EdDSA で署名されます。Trilium は v0.105.0 以降でこれを自動的に検出し、古いバージョンでは __TRILIUM_PH_1__ で失敗します。",
+          "u_430e6b40118bce5634a2e6a4_0": "__TRILIUM_PH_0____TRILIUM_PH_1__GitHub__TRILIUM_PH_2__",
+          "u_82c9b1fb9bc5fe06e534aaa8_0": "GitHub は OpenID Connect ではなく通常の OAuth 2.0 であるため、ID プロバイダーとして使用できません。そのため、__TRILIUM_PH_0__ で失敗します。",
+          "u_2263292ba819c09a0432e2a9_0": "__TRILIUM_PH_0__ Google",
+          "u_ffd4471dff33f15c73520b7a_0": "__TRILIUM_PH_0__Google Cloud のクライアント__TRILIUM_PH_1__ ダッシュボードに移動し、__TRILIUM_PH_2__クライアントを作成__TRILIUM_PH_3__を選択します。",
+          "u_088f5aa63e1a3884698d1af2_0": "__TRILIUM_PH_0__アプリケーションの種類__TRILIUM_PH_1__で、__TRILIUM_PH_2__ウェブアプリケーション__TRILIUM_PH_3__を選択します。",
+          "u_4d899c49abf592414c888bbe_0": "__TRILIUM_PH_0__承認済みのリダイレクト URI__TRILIUM_PH_1__に、__TRILIUM_PH_2__を設定します。",
+          "u_97d47644cd3adf701dff351c_0": "__TRILIUM_PH_0__作成__TRILIUM_PH_1__を押して、__TRILIUM_PH_2__クライアント ID__TRILIUM_PH_3__と__TRILIUM_PH_4__クライアント シークレット__TRILIUM_PH_5__をコピーします。",
+          "u_fa41bfc34e48d1181f64640f_1": "__TRILIUM_PH_0__を次のように調整し、__TRILIUM_PH_1__と__TRILIUM_PH_2__を前のステップの値に置き換え、さらに__TRILIUM_PH_3__をお使いの Trilium インスタンスの URL に置き換えます。"
+        }
+      },
+      "unitErrors": {
+        "u_39a951e59e894baa8978715d_0": "Translation changed protected placeholders"
+      }
     },
     {
       "key": "x1lQNKQBqLcA_834edb7798673688",
@@ -5561,7 +5818,29 @@
           "contextHash": "03165a1559a5e4e52bef9bd4fcab381084db665293fd9e811f01c3456555fada"
         }
       ],
-      "error": "Missing or invalid batch response"
+      "error": "Some translation units failed validation",
+      "result": {
+        "translations": {
+          "u_3689c7a08168cb1a2d58c4e2_0": "OpenID Connect によるサインイン",
+          "u_9cd6729d91b251211ae53be2_0": "OpenID は、Google や Authelia などの別サービスのカウントを使用してウェブサイトにログインし、身元を確認できるようにするための標準化された仕組みです。",
+          "u_98b84385a569135a925267ed_0": "OpenID が有効化されると、Trilium のパスワードベースの認証は、プロバイダを使用して接続するボタンに置き換えられます。つまり、多要素認証はプロバイダ側で処理される必要があるため、__TRILIUM_PH_0__TOTP による多要素認証__TRILIUM_PH_1__ の設定は機能しなくなります。",
+          "u_d7f6c27c2b1b976cbc752835_0": "セットアップ__TRILIUM_PH_0__",
+          "u_65fa878631037863d4245a72_0": "OpenID Connect による認証のセットアップは、2 段階のプロセスで行います。",
+          "u_95da33e2a22bec11a8bf7fe0_0": "まず、Trilium サーバーに、URL、クライアント ID、シークレットなどの認証プロバイダに関する情報を設定する必要があります。",
+          "u_0fbe4e3efc754f0e671fa544_0": "次に、プロバイダ上のアカウントと Trilium のアカウントを結びつけるために、ユーザーがオプションから接続する必要があります。",
+          "u_e7fdde6b79516c7918be786a_0": "認証プロバイダの設定__TRILIUM_PH_0__",
+          "u_a9153c9aaaed0be60ade75bf_0": "まず、認証プロバイダ（Google、Authelia など）が正しく設定されていることを確認してください。具体的な例については、__TRILIUM_PH_0__さまざまなプロバイダでのセットアップ__TRILIUM_PH_1__ を参照してください。",
+          "u_7dcb74dc6bd3dc18d5970afd_0": "Trilium のリダイレクト URL は __TRILIUM_PH_0__ です。",
+          "u_069c4a3c45aba75d97f3da6b_0": "ベース URL、クライアント ID、およびクライアント シークレットを取得する必要があります。",
+          "u_edd5cd8891215f9d6df20ca3_0": "__TRILIUM_PH_0__設定（config.ini または環境変数）__TRILIUM_PH_1__ を使用して、次の情報を設定します。",
+          "u_d8ee7ff2e00f2a89725999cb_0": "設定",
+          "u_22bcf0b971d23347ba3d327e_0": "環境変数",
+          "u_4b00baa636b92e18b7a75884_0": "説明"
+        }
+      },
+      "unitErrors": {
+        "u_374b27ee779195b72a6ff759_0": "Translation changed protected placeholders"
+      }
     },
     {
       "key": "x1lQNKQBqLcA_acf584e12b2a352b",
@@ -5696,7 +5975,29 @@
           "contextHash": "03165a1559a5e4e52bef9bd4fcab381084db665293fd9e811f01c3456555fada"
         }
       ],
-      "error": "Missing or invalid batch response"
+      "error": "Some translation units failed validation",
+      "result": {
+        "translations": {
+          "u_b8647db4421679d4be40f386_0": "ベースURL*",
+          "u_02bb9bdf2701f109ba8ab324_0": "TriliumインスタンスのURL（例: __TRILIUM_PH_0__）。",
+          "u_b018c888f4f0c483a55f1c43_0": "クライアントID*",
+          "u_d3bcf7fc11d612350c210c1b_0": "プロバイダー設定からのクライアントID。",
+          "u_5d6cb644574a6b114e3688b4_0": "クライアントシークレット*",
+          "u_4b4652d5c27e0ee928c5705a_0": "プロバイダー設定からのクライアントシークレット。",
+          "u_fc69ec6d538f25868ba35b37_0": "クライアント認証方式",
+          "u_a4433f034e8f6c7b56b4c2fc_0": "トークンエンドポイントの認証方式: __TRILIUM_PH_0__ または __TRILIUM_PH_1__。空欄の場合は自動検出されます。__TRILIUM_PH_2__ または __TRILIUM_PH_3__ エラーでサインインに失敗した場合にのみ必要です。",
+          "u_eda521d2e24e3b066ab7230e_0": "IDトークンアルゴリズム",
+          "u_5392775aeb33f8a5629a8209_0": "__TRILIUM_PH_0__プロバイダーがIDトークンの署名に使用するアルゴリズム（例: __TRILIUM_PH_1__ __TRILIUM_PH_2____TRILIUM_PH_3__、__TRILIUM_PH_4__ __TRILIUM_PH_5____TRILIUM_PH_6__、__TRILIUM_PH_7__ __TRILIUM_PH_8____TRILIUM_PH_9__）。空欄の場合はプロバイダーから自動検出されます。__TRILIUM_PH_10__ __TRILIUM_PH_11__ __TRILIUM_PH_12__エラーでサインインに失敗した場合にのみ必要です。__TRILIUM_PH_13__",
+          "u_d2dce6f13b8e5338304b8ab7_0": "アスタリスク（*）は必須項目を示します",
+          "u_d8ee7ff2e00f2a89725999cb_1": "設定",
+          "u_22bcf0b971d23347ba3d327e_1": "環境変数",
+          "u_4b00baa636b92e18b7a75884_1": "説明"
+        }
+      },
+      "unitErrors": {
+        "u_d573a44a2d5b8c862107e1b6_0": "Translation changed protected placeholders",
+        "u_374b27ee779195b72a6ff759_1": "Translation changed protected placeholders"
+      }
     },
     {
       "key": "x1lQNKQBqLcA_e28c7da4bde3da4a",
@@ -5831,7 +6132,29 @@
           "contextHash": "03165a1559a5e4e52bef9bd4fcab381084db665293fd9e811f01c3456555fada"
         }
       ],
-      "error": "Missing or invalid batch response"
+      "error": "Some translation units failed validation",
+      "result": {
+        "translations": {
+          "u_a3371a4520a4151327a30ee5_0": "発行者ベースURL",
+          "u_8e799918ff10855fb73a4b72_0": "発行者自体 (__TRILIUM_PH_0__) または完全なディスカバリーURL (__TRILIUM_PH_1__) のいずれかを指定します。__TRILIUM_PH_2__  __TRILIUM_PH_3____TRILIUM_PH_4__ を含むURLはそのまま使用されます __TRILIUM_PH_5__。これは、プロバイダーからコピー用のディスカバリーURLが提供された場合に便利です。末尾のスラッシュは含めても省略しても構いません。Triliumはプロバイダーが公開している表記に一致させます。__TRILIUM_PH_6__  __TRILIUM_PH_7__  __TRILIUM_PH_8__Authentikの「グローバル」発行者モードのように、プロバイダーがディスカバリードキュメントを提供するパスとは異なる発行者を公開している場合は、完全な形式を使用してください。",
+          "u_0552c12e5e7e75e0cfdcf8d3_0": "発行者名",
+          "u_ac4c86ae802ac3e4ecfa0693_0": "ログイン画面や設定で参照される、認証プロバイダーの名前です。デフォルトは「Google」です。",
+          "u_b68ab9527c8c038ae156f95d_0": "発行者アイコン",
+          "u_64f9e1d0a478d8fb76e61b72_0": "オプションで、プロバイダーのロゴへのURLを指定します。デフォルトではウェブサイトからファビコンの取得を試みるため、これは任意です。",
+          "u_18d31a2fe14e4c7b7d653646_0": "デフォルトのOAuth発行者はGoogleであるため、ここにあるすべてのフィールドは任意です。",
+          "u_3e9825e6aa4fc2a3163b6604_0": "必要に応じて、次の高度な設定を調整してください。すべて任意であり、妥当なデフォルト値が設定されています：",
+          "u_d8ee7ff2e00f2a89725999cb_2": "設定",
+          "u_22bcf0b971d23347ba3d327e_2": "環境変数",
+          "u_4b00baa636b92e18b7a75884_2": "説明",
+          "u_ba81e718f2ac16d642320571_0": "HTTPタイムアウト",
+          "u_82754bef829baae3f5b1e463_0": "プロバイダーのHTTPリクエスト（ディスカバリー、トークン交換、ユーザー情報）のタイムアウト（ミリ秒）。デフォルトは __TRILIUM_PH_0__（30秒）です。プロバイダーのコールドスタートが遅く、時々2回ログインを求められる場合は、この値を大きくしてください。受け付けられる最小値は __TRILIUM_PH_1__ です。",
+          "u_56fd94c63f3cb7a13fd571a3_0": "スコープ",
+          "u_95acaf4f40911e9214a3b156_0": "ログイン時に要求されるOIDCスコープのスペース区切りリスト。デフォルトは __TRILIUM_PH_0__ です。__TRILIUM_PH_1__ は必須であり、省略した場合は自動的に先頭に追加されます。"
+        }
+      },
+      "unitErrors": {
+        "u_374b27ee779195b72a6ff759_2": "Translation changed protected placeholders"
+      }
     },
     {
       "key": "x1lQNKQBqLcA_a22ab153daf2a4e2",
@@ -5966,7 +6289,29 @@
           "contextHash": "86efff3a2fb09ce1c8804ff0082777297bbf94a7b9ef544bfdab3131bb89528f"
         }
       ],
-      "error": "Missing or invalid batch response"
+      "error": "Some translation units failed validation",
+      "result": {
+        "translations": {
+          "u_30d163f43e0f903e54042909_0": "変更を適用するにはサーバーを再起動します。",
+          "u_105e33369690b8c71d9fbb37_0": "レガシーの環境変数もサポートされています: __TRILIUM_PH_0__、__TRILIUM_PH_1__、__TRILIUM_PH_2__、およびプロバイダーをカスタマイズするための __TRILIUM_PH_3__、__TRILIUM_PH_4__、__TRILIUM_PH_5__、__TRILIUM_PH_6__、__TRILIUM_PH_7__、__TRILIUM_PH_8__、__TRILIUM_PH_9__。",
+          "u_c456de8cd429147c31faa41e_0": "認証プロバイダーへの接続__TRILIUM_PH_0__",
+          "u_1f0fccfba8fb697afc1d5bd4_0": "前のステップでサーバーの設定が完了したら、次のステップとして、認証プロバイダーのアカウントと Trilium インスタンスの間にリンクを作成します。これにより、他の有効なアカウントではなく、自分だけが Trilium インスタンスにアクセスできるようになります。",
+          "u_4aa592f328e007e456668e14_0": "これを行うには:",
+          "u_f2bb324c737a8e6c52ce493e_0": "__TRILIUM_PH_0__オプション__TRILIUM_PH_1__ → __TRILIUM_PH_2__パスワードと認証__TRILIUM_PH_3__ に移動します。",
+          "u_58f0b6220ae5a187ee7bab9b_0": "__TRILIUM_PH_0__サインイン方法__TRILIUM_PH_1__ フィールドで、__TRILIUM_PH_2__OpenID Connect プロバイダー__TRILIUM_PH_3__ を選択します。",
+          "u_53a955a539b1413d35898077_0": "__TRILIUM_PH_0__OpenID Connect__TRILIUM_PH_1__ セクションで、__TRILIUM_PH_2__アカウントを接続__TRILIUM_PH_3__（__TRILIUM_PH_4__）ボタンを探します。",
+          "u_45a3d5061279ee48ccb6b15a_0": "これにより認証プロバイダーにリダイレクトされ、必要に応じてサインインまたは操作の確認を行うことができます。",
+          "u_ae0ad28327c86fcd72d821c9_0": "認証が完了すると、Trilium アプリケーションにリダイレクトされて戻ります。",
+          "u_b12c7cd9c50af6f745a34147_0": "ログアウト__TRILIUM_PH_0__",
+          "u_34ff3978487591a93a0e5917_0": "Trilium からログアウトすると、そこからもログアウトするよう認証プロバイダーにリクエストが送信されます。この機能は認証プロバイダーに依存するため、受け付けられない場合があります（Google や Authelia はログアウト機能を尊重しないことが知られている例です）。",
+          "u_0090b57e49444d86ddb999eb_0": "プロバイダーの切り替え__TRILIUM_PH_0__",
+          "u_0386f5e9f3301e53a7bfdf25_0": "プロバイダーを切り替える場合（例: Google から Authelia に移行する場合）、次の手順を実行することが重要です:",
+          "u_16bc4731b69ff38333cf3e21_0": "__TRILIUM_PH_0__オプション__TRILIUM_PH_1__ → __TRILIUM_PH_2__パスワードと認証__TRILIUM_PH_3__ に移動します。"
+        }
+      },
+      "unitErrors": {
+        "u_9dfc05208b7ba5d100647337_0": "Translation changed protected placeholders"
+      }
     },
     {
       "key": "x1lQNKQBqLcA_2cd1242b4bec0c59",
@@ -6349,7 +6694,27 @@
           "contextHash": "fc562d90a46ebcf47cc5400f3053d7080664b44e55522c631bc4d4cb33296b87"
         }
       ],
-      "error": "Missing or invalid batch response"
+      "error": "Some translation units failed validation",
+      "result": {
+        "translations": {
+          "u_39cb4c472117c495fa8f3f90_0": "サードパーティのクラウドホスティング",
+          "u_a2fb19ac2fe36906c89c08be_0": "__TRILIUM_PH_0__ご自身のTriliumインスタンスをホストする__TRILIUM_PH_1__代わりの選択肢として、Triliumをすぐにサポートする2つのサービスが存在します。",
+          "u_c2277ad614b8a04d840ef45c_0": "__TRILIUM_PH_0__免責事項__TRILIUM_PH_1__：Trilium Notesプロジェクトおよびメンテナーは、これらのプロジェクトのいずれとも直接提携していません。",
+          "u_1724c3065b860c85eb5a758d_0": "PikaPodsはテスト目的のために親切にも無料クレジットを提供してくれました。",
+          "u_c28aa4ceb39316324301d5f7_0": "クラウドインスタンスプロバイダー__TRILIUM_PH_0__",
+          "u_bfe9e0993c42400899cd4ccd_0": "PikaPods__TRILIUM_PH_0__",
+          "u_9060233c5d03f453f092f1a8_0": "__TRILIUM_PH_0__pikapods.com__TRILIUM_PH_1__にアクセスしてサインアップします。",
+          "u_a3b843d9954917f57fa0dd17_0": "「利用可能なアプリ（Available Apps）」セクションで「TriliumNext__TRILIUM_PH_0__を探し、「実行する（Run your own）」を選択します。",
+          "u_53fe1a5723d2b0b6db648360_0": "画面の指示に従って、独自のクラウドホスト型インスタンスを設定します。",
+          "u_3d7cefb4ab51c893930477cc_0": "PikaPodsは通常、新しいバージョンのリリース後2週間以内に、Triliumインスタンスを最新バージョンに更新します。",
+          "u_bdeb5e9b10fff63a66f746a0_0": "クラウドインスタンスとバージョンの一致__TRILIUM_PH_0__",
+          "u_2a4b4bbc6d987ea57bee9b5f_0": "クラウドインスタンスを設定する際は、ウェブブラウザからアクセスして__TRILIUM_PH_0__バージョン情報（About）__TRILIUM_PH_1__セクションを確認し、サーバーのバージョンを確認するのが最適です。通常、デスクトップとサーバーの__TRILIUM_PH_2__アプリバージョン__TRILIUM_PH_3__は同じであることが望ましいですが、__TRILIUM_PH_4__同期バージョン__TRILIUM_PH_5__が同じであれば、サーバーよりも新しいバージョンにデスクトップを更新しても問題ありません。",
+          "u_49eed2155ca0ddef156342b4_0": "サーバーとデスクトップアプリケーションの間で__TRILIUM_PH_0__同期バージョン__TRILIUM_PH_1__が一致しない場合、同期は機能しません。"
+        }
+      },
+      "unitErrors": {
+        "u_1e0a054aecea7b9ce62b79bc_0": "Translation changed protected placeholders"
+      }
     },
     {
       "key": "iGTnKjubbXkA_cbe9c01c3e94f4b0",
@@ -7639,7 +8004,29 @@
           "contextHash": "ae7b08b14cbaf637e7c09e596c4642abc4dded7381105fd22e502f28776ddd37"
         }
       ],
-      "error": "Missing or invalid batch response"
+      "error": "Some translation units failed validation",
+      "result": {
+        "translations": {
+          "u_86d74b23792f289db5e9ce21_0": "カーソルがある要素を示す強調表示されたボタン（要素内にある場合、__TRILIUM_PH_0__Table ›__TRILIUM_PH_1__や__TRILIUM_PH_2__List ›__TRILIUM_PH_3__など）。以下の__TRILIUM_PH_4__表、画像、その他の要素__TRILIUM_PH_5__および__TRILIUM_PH_6__リスト__TRILIUM_PH_7__をご覧ください。",
+          "u_d9e9ccdf6ce0f307e96669ec_0": "__TRILIUM_PH_0__ブロックタイプボタン、コンテンツを挿入するための__TRILIUM_PH_1__、およびテキストに適用される書式設定のための__TRILIUM_PH_2__。",
+          "u_481124ba0a065f5bbee4c640_0": "リンクを追加するための__TRILIUM_PH_0__と、ファイルを添付するための__TRILIUM_PH_1__。",
+          "u_99bea30c9619505026dca3d7_0": "インデントボタン、次に現在のブロックまたは選択されたブロックを上下に移動する__TRILIUM_PH_0__と__TRILIUM_PH_1__。キーボードの__TRILIUM_PH_2__Alt__TRILIUM_PH_3__+__TRILIUM_PH_4__↑__TRILIUM_PH_5__および__TRILIUM_PH_6__Alt__TRILIUM_PH_7__+__TRILIUM_PH_8__↓__TRILIUM_PH_9__と同じ動作をします。表内では、代わりに行を移動します。",
+          "u_d6a75a433dd556f1ab3afd8e_0": "プロバイダが設定されると表示される__TRILIUM_PH_0__AIアシスタントボタン。画面下部にメニューとしてクイックアクションを開き、最上部に__TRILIUM_PH_1__Ask AI…__TRILIUM_PH_2__が表示されます。",
+          "u_f70aebef0f165227a2e64b51_0": "キーボードが開いている間は、ツールバーの右端にある__TRILIUM_PH_0__ボタンでキーボードを非表示にできます。",
+          "u_6e5075a288916e7d8cce67d6_0": "コンテンツの挿入__TRILIUM_PH_0__",
+          "u_622ec79047b9b246151b4b20_0": "__TRILIUM_PH_0__ボタンを押すと、画面下部にタイルとして挿入項目が開きます：",
+          "u_5fafb430e5cf4a750a7d7ba5_0": "画像、表、ToDoリスト。",
+          "u_0ec202ae7ca0083dd893e610_0": "コードブロック、引用、アドモニション（警告・注記）。",
+          "u_62ebf3787290df1ea74692ad_0": "より一般的ではない、折りたたみ、タブ、段組み、水平線、改ページ、脚注、数式、描画キャンバス、Mermaidダイアグラム、ブックマーク、リンクおよびコンテンツ埋め込み、特殊文字、絵文字、アイコン、日付/時刻、テンプレート、およびMarkdownインポート。",
+          "u_b5716a48b27bd39de3430def_0": "画像はペーパークリップの下にもあり、ToDoリスト、コードブロック、引用、アドモニションもブロックタイプボタンの中にあります。",
+          "u_d3ba81aff6270a31e935e56e_0": "__TRILIUM_PH_0__のマークが付いたタイルは、選択肢のリストを開きます：",
+          "u_1e9d26321880d6911432e12c_0": "__TRILIUM_PH_0__Code block__TRILIUM_PH_1__：言語。",
+          "u_140e6445a8ee8245f459783b_0": "__TRILIUM_PH_0__Admonition__TRILIUM_PH_1__：そのタイプ。"
+        }
+      },
+      "unitErrors": {
+        "u_aa26ae37cd587314bcf8afea_0": "Translation changed protected placeholders"
+      }
     },
     {
       "key": "RDslemsQ6gCp_a68b9e576591f9b2",
@@ -7942,7 +8329,29 @@
           "contextHash": "6de73f042fd9dd1b79c1f708d0806ce3429b8490142f64e47ec5e6abf3ec34a5"
         }
       ],
-      "error": "Missing or invalid batch response"
+      "error": "Some translation units failed validation",
+      "result": {
+        "translations": {
+          "u_a0efbe2ea1c8ce5528d60e74_0": "番号付きリストでは、__TRILIUM_PH_0__リストの開始番号を指定する __TRILIUM_PH_1__ と、リストのカウントダウン中にハイライトされる __TRILIUM_PH_2__ __TRILIUM_PH_3__逆順__TRILIUM_PH_4__ が使用できます。",
+          "u_e1ba135a7b6c217f7de3a591_0": "TODOリストでは、各タスクの状態に対応するボタンがあり、その後に状態を編集するための __TRILIUM_PH_0__ が続きます。",
+          "u_c31bdf768cca1d75b3267309_0": "ブロックタイプボタン、挿入メニュー、または __TRILIUM_PH_0__ 、 __TRILIUM_PH_1__ 、 __TRILIUM_PH_2__ のいずれかを入力してリストを開始すると、この行がすぐに表示されます。戻るボタンをタップすると、別のリストを開始するまで閉じられたままになります。",
+          "u_27187eab7052e2ad83bb3661_0": "テーブル、画像、その他の要素__TRILIUM_PH_0__",
+          "u_fd04e744067e00772e599a0d_0": "デスクトップ版で独自のツールバーを持つテーブル、画像、コードブロック、リンク、その他の要素にカーソルがある間は、__TRILIUM_PH_0__Table ›__TRILIUM_PH_1__ のようなその要素名を示すハイライトされたボタンが、__TRILIUM_PH_2__元に戻す__TRILIUM_PH_3__ および __TRILIUM_PH_4__やり直し__TRILIUM_PH_5__ の後に続きます。これにより、フォーマット用ツールバーが要素のツールバーに置き換わります。ツールバーの先頭には再度閉じるための戻るボタンがあり、その後にツールに対応する要素名が続きます。カーソルが要素から離れると、ボタンは消えます。",
+          "u_2f6a9f0164948551f4f3b940_0": "画像などの要素全体を選択するか、リンクをタップすると、ツールバーがすぐに表示されます。戻るボタンをタップすると、フォーマット用ツールバーに戻ります。",
+          "u_2540c0a9208cd9401bf524ca_0": "テーブルの列と行のアクションなど、選択肢のリストを持つ要素のツールバーのボタンは、画面下部にメニューとしてそのリストを開きます。テーブルのヘッダー行などのオン/オフを切り替えるオプションはスイッチになっています。",
+          "u_d3b4e46f96c0c6a03f4a66dc_0": "テキストのフォーマット__TRILIUM_PH_0__",
+          "u_902c8779653f767e8ad72d41_0": "テキストに適用されるフォーマット（太字、斜体、下線、取り消し線、インラインコード、上付き文字と下付き文字、キーボードショートカット、フォントサイズと色、およびフォーマットの削除）は専用の行に配置され、その後に現在のブロックの左寄せ、中央寄せ、右寄せ、両端揃えが続き、現在適用されているものがハイライトされます。行の末尾には、選択範囲をサブノートとして切り出すための __TRILIUM_PH_0__ があります。",
+          "u_3b5dea552a7a6812f289a37a_0": "テキストを選択するとこの行が単独で表示され、自分でその行を開閉していない限り、選択が解除されると（入力を開始したときなど）メインの行に戻ります。",
+          "u_bd120c19fb80b9528cff25df_0": "フォントサイズボタンをタップすると、サイズの一覧が画面下部のメニューとして開き、それぞれのサイズで描画され、現在適用されているものにチェックマークが付ます。",
+          "u_e252a3825235c515239b7bf1_0": "単一の色ボタンによって、テキストの色と背景色の個別ボタンが置き換えられます。これにより、テキスト用の色の行と背景用の色の行を含むメニューが開き、それぞれに色を削除するセルと、デバイスの色選択ツールを開くセルが含まれています。",
+          "u_57915d0b00a9d746240d593e_0": "リンクと添付ファイル__TRILIUM_PH_0__",
+          "u_86f53ff3ce80f07fe4a0453e_0": "__TRILIUM_PH_0__ リンクボタンによって、リンクと内部リンクの個別ボタンが置き換えられます。これにより、ノートやWebアドレスにリンクする __TRILIUM_PH_1__リンクの追加__TRILIUM_PH_2__ ダイアログ、またはカーソルがリンク内にある場合は __TRILIUM_PH_3__リンクの編集__TRILIUM_PH_4__ ダイアログが開きます。このダイアログは自動的にキーボードを開かないため、入力するにはノートまたはアドレスのフィールドをタップしてください。同じボタンが、インラインスタイルの後、テキストフォーマットの行にあり、選択したテキストをリンクに変換します。",
+          "u_a723f80d1d48d87d53ffa232_0": "__TRILIUM_PH_0__ ボタンは、__TRILIUM_PH_1__画像__TRILIUM_PH_2__、__TRILIUM_PH_3__カメラ__TRILIUM_PH_4__、__TRILIUM_PH_5__ファイルを添付して埋め込む__TRILIUM_PH_6__、__TRILIUM_PH_7__ファイルをリンクとして添付__TRILIUM_PH_8__ をリストとして開きます。これはデスクトップツールバーのメニューに __TRILIUM_PH_9__カメラ__TRILIUM_PH_10__ を追加したものです。__TRILIUM_PH_11__カメラ__TRILIUM_PH_12__ はデバイスのカメラを開いて撮影した写真を挿入し、その他はデバイスファイルピッカーを開きます。"
+        }
+      },
+      "unitErrors": {
+        "u_6fa42c26968a33745151484f_0": "Translation changed protected placeholders"
+      }
     },
     {
       "key": "RDslemsQ6gCp_7b19f11b38ceb801",
@@ -8389,7 +8798,26 @@
           "contextHash": "686981a03ae070eac42b20fcce191399bf7e17a7d2e86a3e46e4a5d33be4abf8"
         }
       ],
-      "error": "Missing or invalid batch response"
+      "error": "Some translation units failed validation",
+      "result": {
+        "translations": {
+          "u_de935227e90317cb267ca651_0": "単一のファイルは画像ノートまたはファイルノートになり、インボックスに直接配置されます。",
+          "u_6d1bb1a2857e80d2ba919816_0": "複数のファイル、またはテキストと一緒に共有されたファイルは、そのテキストを保持する新しいテキストノートの下に配置されます。",
+          "u_f96be4f7b1d3b4d6e41a87fc_0": "共有するにはログインしている必要があります。セッションが期限切れの場合は、再度ログインしてからもう一度共有してください。",
+          "u_76b1e53dd85278233c045cc2_0": "デスクトップアプリケーションでのテスト__TRILIUM_PH_0__",
+          "u_bedd67da7783e9b19ba41e29_0": "専用の __TRILIUM_PH_0__サーバーのインストール__TRILIUM_PH_1__なしでTriliumを実行している場合でも、デスクトップアプリケーションを使用してモバイルアプリケーションをテストできます。詳細については、__TRILIUM_PH_2__デスクトップアプリケーションをサーバーとして使用する__TRILIUM_PH_3__を参照してください。アクセスするには __TRILIUM_PH_4__ に移動します。",
+          "u_028d1bde393c87cc3ae35dac_0": "モバイル/デスクトップフロントエンドの強制__TRILIUM_PH_0__",
+          "u_44ce3017eda140a003796dc8_0": "スクリプト__TRILIUM_PH_0__",
+          "u_31f83a1c804aed20553bc45d_0": "カスタムの __TRILIUM_PH_0__起動バー__TRILIUM_PH_1__ ウィジェットもサポートされています。__TRILIUM_PH_2__右ペインのウィジェット__TRILIUM_PH_3__は、ノートパネルの __TRILIUM_PH_4__ウィジェット__TRILIUM_PH_5__ タブに表示されます。",
+          "u_b190d47815633246b0ab18a6_0": "記事画像"
+        }
+      },
+      "unitErrors": {
+        "u_7d576cc61baf570c98c6584b_0": "Translation changed protected placeholders",
+        "u_7eeaedf80348f02128c05d51_0": "Translation changed protected placeholders",
+        "u_815db267f62e96ca042305ba_0": "Translation changed protected placeholders",
+        "u_b63da15f431fbef17b557e06_0": "Translation changed protected placeholders"
+      }
     },
     {
       "key": "MtPxeAWVAzMg_6e89fe821235e678",
@@ -8692,7 +9120,29 @@
           "contextHash": "a1bda14103675b358455f1da5b02ae22f7f1dd1db37e5f047891d9206f33b24f"
         }
       ],
-      "error": "Missing or invalid batch response"
+      "error": "Some translation units failed validation",
+      "result": {
+        "translations": {
+          "u_c226f35240fbe49c581ee065_0": "ポップアップから短いテキストノートを作成する",
+          "u_8a68f35f5f7a7f00af559b29_0": "ポップアップ__TRILIUM_PH_0__",
+          "u_abcc8e0bdb4742d81320d85c_0": "ブラウザのツールバーにある拡張機能のボタンをクリックすると、ポップアップが開きます。",
+          "u_b0aaf9cf54257526fa91f8af_0": "ポップアップには、現在のページから保存される内容が表示されます。保存前に編集可能なノートのタイトル、ウェブサイト、そしてその下にはプレビューが表示され、プレビューの先頭には独自のノート用のボックスとページの概要があります。プレビュー上の切り替えスイッチで、ページが提供する内容の中から保存するものを選択します。",
+          "u_2ccc1cd24b6904aaf3b0aca0_0": "ページ上でテキストが選択されている場合の__TRILIUM_PH_0__選択範囲__TRILIUM_PH_1__：__TRILIUM_PH_2__選択範囲を保存__TRILIUM_PH_3__を使用すると、コンテキストメニューと同様に、そのページのクリップのノートに保存されます。",
+          "u_1eda131d50bf0484c37b106c_0": "__TRILIUM_PH_0__ページ__TRILIUM_PH_1__：__TRILIUM_PH_2__ページをTriliumに保存__TRILIUM_PH_3__は、ページのテキストと画像を保存します。プレビューの上部にある小さなスイッチで、保持するページの量を__TRILIUM_PH_4__記事__TRILIUM_PH_5__（メニュー、サイドバー、フッターを除き、ページのメインテキストのみを保持する）と__TRILIUM_PH_6__ページ全体__TRILIUM_PH_7__（ページが表示するすべてを保持する）から選択します。__TRILIUM_PH_8__ページ全体__TRILIUM_PH_9__は、ギャラリーやカードのページなど、記事ではないページ用であり、__TRILIUM_PH_10__記事__TRILIUM_PH_11__ではコンテンツの一部が除外されてしまう場合に適しています。プレビューには、それぞれが保持する内容が表示されます。__TRILIUM_PH_12__記事__TRILIUM_PH_13__は、Triliumが記事を見つけられないページでは使用できません。ページに記載されている著者は、__TRILIUM_PH_14__アイコンでマークされ、説明の下に表示されます。保存前に編集またはクリアしたり、ページに著者の記載がない場合に入力したりすることができ、ノートの__TRILIUM_PH_15__ラベルに保存されます。ページに公開日の記載がある場合、その日付は著者の下に__TRILIUM_PH_16__アイコンでマークされて表示され、ノートの__TRILIUM_PH_17__ラベルに保存されます。最終更新日の記載がある場合、その日付はさらに下に__TRILIUM_PH_18__アイコンでマークされて表示され、__TRILIUM_PH_19__ラベルに保存されます。",
+          "u_f93a160fb55661d895e5be80_0": "ブラウザのビューアにPDFが表示されている場合の__TRILIUM_PH_0__PDF__TRILIUM_PH_1__：__TRILIUM_PH_2__PDFをTriliumに保存__TRILIUM_PH_3__は、PDFをダウンロードし、Triliumの__TRILIUM_PH_4__PDF__TRILIUM_PH_5__ビューアで開くファイルノートとして保存します。ファイルノートには独自のテキストがないため、編集できるのはタイトルと説明のみです。ページのURLはノートの__TRILIUM_PH_6__ラベルに、PDFのファイル名は__TRILIUM_PH_7__に保存されます。PDFを保存するには、Trilium v0.107.0以降が必要です。",
+          "u_589542739247ef0a7b64ffd4_0": "常時利用可能な__TRILIUM_PH_0__ブックマーク__TRILIUM_PH_1__：プレビューはなく、__TRILIUM_PH_2__ブックマークを保存__TRILIUM_PH_3__は、ノートのコンテンツとしてあなたのノートと共にページへのリンクを保存します。空のままにした場合、タイトルはページのタイトルのままになります。",
+          "u_b7733fdb5a6e433d4f99e781_0": "__TRILIUM_PH_0__アイコンでマークされたノート用のボックスには、ポップアップが開いたときにカーソルが置かれるため、ページを保持する理由などのノートをすぐに入力できます。テキストに合わせてボックスが大きくなり、__TRILIUM_PH_1__選択範囲__TRILIUM_PH_2__、__TRILIUM_PH_3__ページ__TRILIUM_PH_4__、__TRILIUM_PH_5__ブックマーク__TRILIUM_PH_6__の間で切り替えてもその内容が維持されます。選択範囲またはページに関するノートは、クリップされたコンテンツの上に__TRILIUM_PH_7__ノート__TRILIUM_PH_8__の注意喚起（アドモニション）として保存されます。空のままにした場合、何も追加されません。ポップアップのいずれかのフィールドで__TRILIUM_PH_9__Ctrl__TRILIUM_PH_10__+__TRILIUM_PH_11__Enter__TRILIUM_PH_12__を押すと、選択されているモードに関わらず保存されます。",
+          "u_eeeefa76dab0d714d56b1b70_0": "__TRILIUM_PH_0__アイコンでマークされた説明文は、ページの__TRILIUM_PH_1__メタタグ、またはソーシャルサイト向けに提供されているものから取得されます。保存前に編集またはクリアしたり、ページに説明がない場合に入力したりすることができ、ノートの__TRILIUM_PH_2__ラベルに保存されます。キーボードショートカットやコンテキストメニュー（スクリーンショットや画像を含む）で保存されたクリップには、ページが提供する通りの説明が設定されます。説明を取得する各クリップによってラベルが更新されます。説明、著者、日付は、ノートのタイトルの横にある__TRILIUM_PH_3__Webクリップ__TRILIUM_PH_4__バッジをクリックすると表示されます（__TRILIUM_PH_5__ノートのバッジ__TRILIUM_PH_6__を参照）。",
+          "u_1bf0dbdf1c917f75e5af5743_0": "ポップアップは、選択範囲が存在する場合は選択範囲を対象に開き、そうでない場合は__TRILIUM_PH_0__ページ__TRILIUM_PH_1__を対象に開き、記事、または記事がない場合はページ全体を表示します。PDFの場合は__TRILIUM_PH_2__PDF__TRILIUM_PH_3__を対象に開きます。保存する内容がないページでは、__TRILIUM_PH_4__ブックマーク__TRILIUM_PH_5__を対象に開き、その旨を表示します。キーボードショートカットやコンテキストメニューを使用すると、プレビューなしで即座に保存されます。この方法でページ全体を保存すると、記事、記事がない場合はページ全体、またはタブにPDFが表示されている場合はPDFが保存されます。",
+          "u_86353fff7bd937b6d611a68f_0": "拡張機能がアクセスできないページ（ブラウザ自身のページ、拡張機能ストア、および拡張機能がインストールされる前に開かれており再読み込みされていないページ）は保存やキャプチャができないため、ポップアップにはプレビューの代わりにその旨が表示され、そこでは__TRILIUM_PH_0__すべてのタブ__TRILIUM_PH_1__のみが利用可能な状態として残ります。",
+          "u_68e204c841a8f865ced53974_0": "プレビューの下部にある一連のボタンから、その他のアクションを選択できます：__TRILIUM_PH_0__領域__TRILIUM_PH_1__（選択した領域のスクリーンショット）、__TRILIUM_PH_2__表示部分__TRILIUM_PH_3__（ページの表示部分のスクリーンショット）、__TRILIUM_PH_4__ページ全体__TRILIUM_PH_5__（ページ全体のスクリーンショット）、および__TRILIUM_PH_6__すべてのタブ__TRILIUM_PH_7__（現在のウィンドウにあるすべてのタブのリンクを__TRILIUM_PH_8__リンクプレビュー__TRILIUM_PH_9__のリストとして保存するか、__TRILIUM_PH_10__リンクプレビューを自動生成__TRILIUM_PH_11__がオフの場合はテキストリンクのリストとして保存します）。ボタンにマウスオーバーすると、完全な名前と、存在する場合はキーボードショートカットが表示されます。",
+          "u_c0366e4a111e502053e3bcdf_0": "Triliumが保存を行っている間はポップアップが開いたままになります（長いページや大きなPDFの場合は数秒かかることがあります）。その間、他のアクションは完了するまで待機します。保存が完了すると、ポップアップ上部のバーに、クリップが保存されたことが緑色の文字で表示され（すでにクリップ済みであるという通知に置き換わります）、Triliumでノートを開くための__TRILIUM_PH_0__ノートを開く__TRILIUM_PH_1__（および__TRILIUM_PH_2__すべてのタブ__TRILIUM_PH_3__の実行後には__TRILIUM_PH_4__保存したタブを閉じる__TRILIUM_PH_5__）が表示されます。保存できなかった場合は、その理由が赤色で表示されます。同じクリップを誤って二重に保存することはできません。別のモードが選択されるまで、保存ボタンは無効のままになります。__TRILIUM_PH_6__切り抜き__TRILIUM_PH_7__は例外であり、ページの領域を選択できるようにポップアップが閉じ、ページ上の通知に結果が報告されます。",
+          "u_74f7502a31de28c26cb1f989_0": "現在のページがすでにクリップされている場合は、上部にTriliumでノートを開くよう促す通知が表示されます。"
+        }
+      },
+      "unitErrors": {
+        "u_099659c9ea28925f209599fe_0": "Translation changed protected placeholders"
+      }
     },
     {
       "key": "MtPxeAWVAzMg_734b8512277f7c66",
@@ -9163,7 +9613,29 @@
           "contextHash": "553dfc9fb89f1f1d910581683ef45ecf88c6ebdc439a3c101527ac0d68e83611"
         }
       ],
-      "error": "Missing or invalid batch response"
+      "error": "Some translation units failed validation",
+      "result": {
+        "translations": {
+          "u_dc130d33990bc08b6984a446_0": "Triliumが見つかりません：デスクトップアプリケーションを起動するか、拡張機能のオプションでサーバーアドレスとトークンを確認してください。",
+          "u_ef0b7cd1a1b261a832ec90c5_0": "Triliumと拡張機能のバージョンに互換性がありません：メッセージに記載されている方をアップデートしてください。",
+          "u_b4b166cb7985f380c9c25fd2_0": "Triliumがリクエストを拒否しました：メッセージにTriliumからの理由が記載されています。",
+          "u_73cb0487d20024b4e898e307_0": "ポップアップが拡張機能のバックグラウンドスクリプトに到達できなかったか、応答がありませんでした：ポップアップを閉じて再度開いてください。拡張機能がアップデートまたは再読み込みされたばかりの場合は、ページも再読み込みしてください。",
+          "u_3747c4b60b1bb0256207fcdc_0": "PDFを保存できませんでした：Triliumのバージョンが v0.107.0 より古い、ウェブサイトがPDFの再送信を拒否した、またはPDFのサイズが100MBを超えています。拡張機能はそのウェブサイトのブラウザのクッキーを使用してPDFをダウンロードするため、ログインが必要な裏にあるPDFもログイン中に保存できます。",
+          "u_4cb21e34f76d203fa3676d53_0": "通知はページ自体に表示されるため、拡張機能が実行できないページ（ブラウザ自体の設定ページ、拡張機能ストア、FirefoxのPDFビューアなど）には表示されません。このようなページ上のポップアップから保存されたクリッピングは、ポップアップ内で引き続き報告されます。",
+          "u_8e552e4b1f97cc40705883cd_0": "開発バージョンのテスト__TRILIUM_PH_0__",
+          "u_6741aee4de2f66e91f4acefe_0": "開発バージョンはプレリリースバージョンであり、通常はテスト目的を意図しています。これらはGoogleまたはFirefoxのウェブストアでは入手できませんが、次のいずれかからダウンロードできます：",
+          "u_606f6a8f6a918710c0c9b071_0": "__TRILIUM_PH_0__ Chrome",
+          "u_08a242951df4228ee2d701e0_0": "__TRILIUM_PH_0__ をダウンロードします。",
+          "u_250c24dbfe09000d0012b874_0": "アーカイブを解凍します。",
+          "u_e34330387cec131641922c6b_0": "Chromeで __TRILIUM_PH_0__ に移動します。",
+          "u_f539d9d954a84f79bda82913_0": "ページの右上にある __TRILIUM_PH_0__Developer Mode__TRILIUM_PH_1__ を有効にします。"
+        }
+      },
+      "unitErrors": {
+        "u_a90697760c11358d19ee942f_0": "Translation changed protected placeholders",
+        "u_4a6e29293c777e86fee15a67_0": "Translation changed protected placeholders",
+        "u_a1deeed35e7f8940722c5870_0": "Translation changed protected placeholders"
+      }
     },
     {
       "key": "MtPxeAWVAzMg_f98014e9a16a34eb",
@@ -9282,7 +9754,27 @@
           "contextHash": "53d2223c6ca2ddabfddf777fdcdc909060fe5c8ba8b1b9b6ecf72666e29d10c9"
         }
       ],
-      "error": "Missing or invalid batch response"
+      "error": "Some translation units failed validation",
+      "result": {
+        "translations": {
+          "u_24cd4869d17a61544721f4c3_0": "ヘッダー付近にある __TRILIUM_PH_0__Load unpacked__TRILIUM_PH_1__ ボタンを押します。",
+          "u_a570f0b7cc989e5842399497_0": "手順（2）で展開したディレクトリを指定します。",
+          "u_93ce6947634d4bdefc05a0dd_0": "__TRILIUM_PH_0__ Firefox",
+          "u_2032b70349f76b38902839d3_0": "Firefoxは「リテール」版では署名のないパッケージのインストールをブロックします。ディスクから拡張機能をインストールできるようにするには、__TRILIUM_PH_0__Firefox Developer Edition__TRILIUM_PH_1__ またはブランド化されていないバージョンの Firefox（例：__TRILIUM_PH_2__GNU IceCat__TRILIUM_PH_3__）の使用を検討してください。",
+          "u_4f6e933133b12aa42ce408e3_0": "一度だけ __TRILIUM_PH_0__ に移動し、__TRILIUM_PH_1__ を __TRILIUM_PH_2__ に変更します。",
+          "u_8c668d9ee8120c4f139d5c73_0": "__TRILIUM_PH_0__ に移動します。",
+          "u_c113ed568c0c4da20beae673_0": "左側のナビゲーションで __TRILIUM_PH_0__Extensions__TRILIUM_PH_1__ を選択します。",
+          "u_37a7993cb0078bd1ffc8b96e_0": "__TRILIUM_PH_0__Install Add-on From File…__TRILIUM_PH_1__ を選択します。",
+          "u_04485866b8f27602f07976a0_0": "__TRILIUM_PH_0__ を指定します。",
+          "u_38aa3674e3117dd02154d05b_0": "__TRILIUM_PH_0__Add__TRILIUM_PH_1__ ボタンを押して確認します。",
+          "u_e7f9883d0930dff63019a0cd_0": "クレジット__TRILIUM_PH_0__",
+          "u_d4c5639e02a533167f9456a8_0": "コードの一部は __TRILIUM_PH_0__Joplin Notes browser extension__TRILIUM_PH_1__ をベースにしています。",
+          "u_b190d47815633246b0ab18a6_0": "記事画像"
+        }
+      },
+      "unitErrors": {
+        "u_1f226dcc3bf8b772107ca58e_0": "Translation changed protected placeholders"
+      }
     },
     {
       "key": "n1lujUxCwipy_a25856f77f474e2c",
@@ -9531,7 +10023,29 @@
           "contextHash": "31aec06b4548db916796664ae5a6a0832cdd165a1cc6382d1021b7d44c293e2c"
         }
       ],
-      "error": "Missing or invalid batch response"
+      "error": "Some translation units failed validation",
+      "result": {
+        "translations": {
+          "u_491cd88f148de2a1a10f26fa_0": "バックアップ",
+          "u_b5d3f8cb468ea7aba2c4560f_0": "Triliumは、次のイベント時に __TRILIUM_PH_0__Database__TRILIUM_PH_1__ のコピーを保存するシンプルなバックアップスキームをサポートしています：",
+          "u_45751ff57586d8eb651388ca_0": "1日1回",
+          "u_a2985635774205e6b3bc7f75_0": "週に1回",
+          "u_c37bf051b42da51b8111acc0_0": "月に1回",
+          "u_a343374fc6184c89d02a2e90_0": "より新しいバージョンへのDB移行前",
+          "u_9b9dc1ab80af4aff88dd280a_0": "これは非常に基本的なバックアップソリューションにすぎないため、__TRILIUM_PH_0__Database__TRILIUM_PH_1__ をクラウドや別のコンピューターにバックアップするなど、より優れたバックアップソリューションを追加することをお勧めします。",
+          "u_97409d75630dabb32bad882e_0": "__TRILIUM_PH_0__Synchronization__TRILIUM_PH_1__ は、データを他のコンピュータに分散させるという性質上、バックアップ機能も提供していることに注意してください。",
+          "u_3f4647f2394764970ac21ccd_0": "バックアップの作成__TRILIUM_PH_0__",
+          "u_59b7725c911696fa7dd9e690_0": "__TRILIUM_PH_0__ デスクトップアプリおよびWebクライアントの場合",
+          "u_e3bd519f49916bb47dda349c_0": "__TRILIUM_PH_0__Options__TRILIUM_PH_1__ → __TRILIUM_PH_2__Backup__TRILIUM_PH_3__ に移動し、__TRILIUM_PH_4__Backup now__TRILIUM_PH_5__ ボタンを押します。",
+          "u_1d2bbc04a93a713eb3ab5767_0": "バックアップの作成には、特にデータベースが大きい場合、しばらく時間がかかることがあります。バックアップが完了すると、通知でお知らせします。",
+          "u_dfcac71380852f7c5b6f96af_0": "バックアップは __TRILIUM_PH_0__ として __TRILIUM_PH_1__Existing backups__TRILIUM_PH_2__ リストに保存され、そこからダウンロードできます。",
+          "u_ea4c2b546acb2eaf55bc7f5a_0": "__TRILIUM_PH_0__ スタンドアロンクライアントの場合",
+          "u_56668dbe8bb61d95c0527a72_0": "__TRILIUM_PH_0__Options__TRILIUM_PH_1__ → __TRILIUM_PH_2__Backup__TRILIUM_PH_3__ に移動し、__TRILIUM_PH_4__Download backup__TRILIUM_PH_5__ ボタンを押します。"
+        }
+      },
+      "unitErrors": {
+        "u_15c41da1bff6382b379b5f91_0": "Translation changed protected placeholders"
+      }
     },
     {
       "key": "ODY7qQn5m2FT_8209873bd862b3cc",
@@ -10074,7 +10588,17 @@
           "contextHash": "a85232196805b7c37599b64cb17758e99b9e057c9263baceccefec780ad9ef45"
         }
       ],
-      "error": "Missing or invalid batch response"
+      "error": "Some translation units failed validation",
+      "result": {
+        "translations": {
+          "u_71d84a2b30f1956311152d1d_0": "バックアップの無効化__TRILIUM_PH_0__",
+          "u_0742e02d1ae250c49a2ce0ee_0": "また、__TRILIUM_PH_0__設定__TRILIUM_PH_1__ファイルを確認して、すべての __TRILIUM_PH_2__ 値を環境変数として指定することもできます。",
+          "u_0a581ac23a82b56fe1ea8ebc_0": "__TRILIUM_PH_0__サンプル設定__TRILIUM_PH_1__をご覧ください。"
+        }
+      },
+      "unitErrors": {
+        "u_8edbf308342673be4362f39a_0": "Translation changed protected placeholders"
+      }
     },
     {
       "key": "tAassRL4RSQL_4fa37c4569d9cb47",
