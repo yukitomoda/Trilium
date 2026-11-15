@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "id": "9ab10abf-bce2-4dbe-be02-6f03abf3ac67",
-  "phase": "pending",
+  "phase": "complete",
   "createdAt": "2026-11-15T03:45:36.968Z",
   "conditions": {
     "model": "gemini-3.5-flash-lite",
@@ -21,7 +21,11 @@
           "context": "Using the desktop application as a server",
           "contextHash": "c1e2ae4047b69b5e0f493740e2ade94867f348d6b2bbb2a50c8cbdcf59367fde"
         }
-      ]
+      ],
+      "unitErrors": {
+        "u_970ed7996d9d73fbe7f0666f_0": "Translation changed protected placeholders"
+      },
+      "error": "Some translation units failed validation"
     },
     {
       "key": "7iwde4lsKc6O_99f1baee88a912f2",
@@ -35,7 +39,11 @@
           "context": "Tray icon & automatic startup > Automatic startup > Linux: custom launch command for packagers",
           "contextHash": "49d5cd9cac34bb4fa95c61ed40db6231dc9079eaaa87d2ea933147a36820d6c5"
         }
-      ]
+      ],
+      "unitErrors": {
+        "u_9fde006f67464642484495a3_0": "Translation changed protected placeholders"
+      },
+      "error": "Some translation units failed validation"
     },
     {
       "key": "rWX5eY045zbE_f70c6559fff385a4",
@@ -73,7 +81,14 @@
           "context": "Using Docker > Running as a non-root user",
           "contextHash": "154e7087c137f6942d25df100d0539e0b0afcd83afda4267e895b2b67603141a"
         }
-      ]
+      ],
+      "unitErrors": {
+        "u_edb3a397b8025ef18fecff79_0": "Translation changed protected placeholders",
+        "u_a059f770a4141e9fc80c2a39_0": "Translation changed protected placeholders",
+        "u_c6d4ac14f4e0658e165bb3f7_0": "Translation changed protected placeholders",
+        "u_e45c7e575ff7e16f5d55ff64_0": "Translation changed protected placeholders"
+      },
+      "error": "Some translation units failed validation"
     },
     {
       "key": "l2VkvOwUNfZj_e1ae685a8a7d909e",
@@ -87,7 +102,27 @@
           "context": "HTTPS (TLS) > Modifying config.ini",
           "contextHash": "467c27e374eeaad0f71162a16e6347a985457cffdc9aa50d868d94feef8c3fec"
         }
-      ]
+      ],
+      "result": {
+        "key": "l2VkvOwUNfZj_e1ae685a8a7d909e",
+        "translations": {
+          "u_a800944ea11c35d7fec81051_0": "証明書を取得したら、__TRILIUM_PH_0__ ディレクトリ内にある __TRILIUM_PH_1__data directory__TRILIUM_PH_2__ ファイルを変更して、Trilium がそれを使用するように設定します。"
+        },
+        "modelVersion": "gemini-3.5-flash-lite",
+        "usage": {
+          "promptTokenCount": 410,
+          "candidatesTokenCount": 126,
+          "totalTokenCount": 536,
+          "promptTokensDetails": [
+            {
+              "modality": "TEXT",
+              "tokenCount": 410
+            }
+          ],
+          "serviceTier": "standard"
+        }
+      },
+      "unitErrors": {}
     },
     {
       "key": "lwAX5SvbrK2g_3786b013a25593cf",
@@ -101,7 +136,11 @@
           "context": "Resetting your password > By altering the database",
           "contextHash": "22003ee7eb6396af4605952a63f8e5b0e727ab21107382cec64094e0fc106895"
         }
-      ]
+      ],
+      "unitErrors": {
+        "u_f1433df101d68aed7917edd9_0": "Translation changed protected placeholders"
+      },
+      "error": "Some translation units failed validation"
     },
     {
       "key": "0hzsNCP31IAB_dd8bfef2ced0fc3f",
@@ -115,7 +154,11 @@
           "context": "Authentication > Understanding how the session works",
           "contextHash": "6d910eca40c2aa36e45b06aaaf9de45487ff914175aa502fb65e075cfc9d5e4f"
         }
-      ]
+      ],
+      "unitErrors": {
+        "u_b8e55ba818bc6c938f9bf70f_0": "Translation changed protected placeholders"
+      },
+      "error": "Some translation units failed validation"
     },
     {
       "key": "7DAiwaf8Z7Rz_60ca5842de8ef277",
@@ -137,7 +180,12 @@
           "context": "Multi-factor authentication with TOTP > Obtaining an ETAPI token with a password",
           "contextHash": "20ad262792f2b85c91b748e16ccb5b3ab382637b54d906a29cbb294e310c2ae0"
         }
-      ]
+      ],
+      "unitErrors": {
+        "u_3bd7e22f2edddbb46f707974_0": "Translation changed protected placeholders",
+        "u_f709abb2eb81463b4442e0db_0": "Translation changed protected placeholders"
+      },
+      "error": "Some translation units failed validation"
     },
     {
       "key": "IgkTHSaFfq6A_702c5efc081e36ef",
@@ -175,7 +223,14 @@
           "context": "Setting up with various providers",
           "contextHash": "aed08d32912b31afd0bf72269d029e5f61b7e7e28478d8173d1d5b12d597f744"
         }
-      ]
+      ],
+      "unitErrors": {
+        "u_8dfa0cd3aed9dd0ad1738655_0": "Translation changed protected placeholders",
+        "u_4a255792f68ce2dab40b38e1_0": "Translation changed protected placeholders",
+        "u_1e350e22c07aeab52b11d44a_0": "Translation changed protected placeholders",
+        "u_39a951e59e894baa8978715d_0": "Translation changed protected placeholders"
+      },
+      "error": "Some translation units failed validation"
     },
     {
       "key": "x1lQNKQBqLcA_c8a32bae88050e81",
@@ -221,7 +276,15 @@
           "context": "Signing in with OpenID Connect > Setup > Configuring the authentication provider",
           "contextHash": "03165a1559a5e4e52bef9bd4fcab381084db665293fd9e811f01c3456555fada"
         }
-      ]
+      ],
+      "unitErrors": {
+        "u_374b27ee779195b72a6ff759_0": "Translation changed protected placeholders",
+        "u_d573a44a2d5b8c862107e1b6_0": "Translation changed protected placeholders",
+        "u_374b27ee779195b72a6ff759_1": "Translation changed protected placeholders",
+        "u_374b27ee779195b72a6ff759_2": "Translation changed protected placeholders",
+        "u_9dfc05208b7ba5d100647337_0": "Translation changed protected placeholders"
+      },
+      "error": "Some translation units failed validation"
     },
     {
       "key": "yeEaYqosGLSh_42b4c2d96af307b9",
@@ -235,7 +298,11 @@
           "context": "Third-party cloud hosting > Matching your version with the cloud instance",
           "contextHash": "fc562d90a46ebcf47cc5400f3053d7080664b44e55522c631bc4d4cb33296b87"
         }
-      ]
+      ],
+      "unitErrors": {
+        "u_1e0a054aecea7b9ce62b79bc_0": "Translation changed protected placeholders"
+      },
+      "error": "Some translation units failed validation"
     },
     {
       "key": "RDslemsQ6gCp_bf3907119100efb3",
@@ -281,7 +348,15 @@
           "context": "Mobile Frontend > Forcing mobile/desktop frontend",
           "contextHash": "20102e1873b8b598d504e69b14551bc6b1b4ceb8b39b1c8372101e98f051e04a"
         }
-      ]
+      ],
+      "unitErrors": {
+        "u_aa26ae37cd587314bcf8afea_0": "Translation changed protected placeholders",
+        "u_6fa42c26968a33745151484f_0": "Translation changed protected placeholders",
+        "u_7d576cc61baf570c98c6584b_0": "Translation changed protected placeholders",
+        "u_7eeaedf80348f02128c05d51_0": "Translation changed protected placeholders",
+        "u_815db267f62e96ca042305ba_0": "Translation changed protected placeholders"
+      },
+      "error": "Some translation units failed validation"
     },
     {
       "key": "MtPxeAWVAzMg_24de7e3e4ab7f889",
@@ -311,7 +386,13 @@
           "context": "Web Clipper > Testing development versions",
           "contextHash": "553dfc9fb89f1f1d910581683ef45ecf88c6ebdc439a3c101527ac0d68e83611"
         }
-      ]
+      ],
+      "unitErrors": {
+        "u_a90697760c11358d19ee942f_0": "Translation changed protected placeholders",
+        "u_4a6e29293c777e86fee15a67_0": "Translation changed protected placeholders",
+        "u_1f226dcc3bf8b772107ca58e_0": "Translation changed protected placeholders"
+      },
+      "error": "Some translation units failed validation"
     },
     {
       "key": "ODY7qQn5m2FT_d34eda434cbca719",
@@ -325,7 +406,11 @@
           "context": "Backup",
           "contextHash": "838557924a5cdfb2f10f233635223e79be8443aef62f9d176cfe18787a2e8b03"
         }
-      ]
+      ],
+      "unitErrors": {
+        "u_15c41da1bff6382b379b5f91_0": "Translation changed protected placeholders"
+      },
+      "error": "Some translation units failed validation"
     },
     {
       "key": "tAassRL4RSQL_07611e973da554da",
@@ -347,7 +432,12 @@
           "context": "Data directory > Location of the data directory > Changing the location of data directory",
           "contextHash": "181155562c4101f054ba6b46cc45e4b8712e6ba0d1109d19008fd57ef885b1ac"
         }
-      ]
+      ],
+      "unitErrors": {
+        "u_d87f0a4ff57fd51faedc5b8a_0": "Translation changed protected placeholders",
+        "u_17308624bde38eb35a0d2a37_0": "Translation changed protected placeholders"
+      },
+      "error": "Some translation units failed validation"
     },
     {
       "key": "ebyr7ES2SwOW_fbbe0422d9fbf1e1",
@@ -361,7 +451,11 @@
           "context": "Downloaded resources > Location",
           "contextHash": "a8fdb29aa9649ab0939f9c5846d8abe03885f42aa2924bd00b75ffa443221cec"
         }
-      ]
+      ],
+      "unitErrors": {
+        "u_b475ebc545b4a66b9df8a654_0": "Translation changed protected placeholders"
+      },
+      "error": "Some translation units failed validation"
     },
     {
       "key": "x0JgW8UqGXvq_d9580b0159f642f4",
@@ -391,7 +485,13 @@
           "context": "Vertical and horizontal layout > Horizontal layout",
           "contextHash": "b734b0e67c8520d31e9b8dd76307a2cf7dc3d0553e5993e685a16c6ee3d2271a"
         }
-      ]
+      ],
+      "unitErrors": {
+        "u_f55bf9fada86e20402cb75fc_0": "Translation changed protected placeholders",
+        "u_d6ec3fc091eaa38665c2cdbe_0": "Translation changed protected placeholders",
+        "u_0f939589747524ec3314485d_0": "Translation changed protected placeholders"
+      },
+      "error": "Some translation units failed validation"
     },
     {
       "key": "YtSN43OrfzaA_0b96e8e0ee941f0f",
@@ -413,7 +513,30 @@
           "context": "Note tree contextual menu > Available options",
           "contextHash": "38607f375dc08f35f33c887fc784926de63909b7edd1abbb727dad4374058e61"
         }
-      ]
+      ],
+      "result": {
+        "key": "YtSN43OrfzaA_0b96e8e0ee941f0f",
+        "translations": {
+          "u_e0817c69a514d412ab1e2801_0": "モバイル版では、__TRILIUM_PH_0__Open__TRILIUM_PH_1__、__TRILIUM_PH_2__Open in a new tab__TRILIUM_PH_3__、__TRILIUM_PH_4__Open in a new split__TRILIUM_PH_5__が__TRILIUM_PH_6__Open note__TRILIUM_PH_7__の代わりに直接メニューにリストされ、__TRILIUM_PH_8__Open in a new window__TRILIUM_PH_9__は除外されます。__TRILIUM_PH_10__Open__TRILIUM_PH_11__は、現在のタブでノートを表示します。子を持つノートをタップすると子の一覧が表示されるため、この操作を行うことで子を持つノートも開きます。"
+        },
+        "modelVersion": "gemini-3.5-flash-lite",
+        "usage": {
+          "promptTokenCount": 692,
+          "candidatesTokenCount": 412,
+          "totalTokenCount": 1104,
+          "promptTokensDetails": [
+            {
+              "modality": "TEXT",
+              "tokenCount": 692
+            }
+          ],
+          "serviceTier": "standard"
+        }
+      },
+      "unitErrors": {
+        "u_4f6846d02574242ad7021f56_0": "Translation changed protected placeholders"
+      },
+      "error": "Some translation units failed validation"
     },
     {
       "key": "8YBEPzcpUgxw_c5221952f34cbc50",
@@ -467,7 +590,16 @@
           "context": "Note menu > Mobile support",
           "contextHash": "5781354201bb1ad5871220e926fdf48ef075ddc4040bd8ebbe11e689b3ed4b62"
         }
-      ]
+      ],
+      "unitErrors": {
+        "u_33b15371dd7608600c84815f_0": "Translation changed protected placeholders",
+        "u_1493b36a433b03cd663c0262_0": "Translation changed protected placeholders",
+        "u_d30637d3713cc5fae019bcea_0": "Translation changed protected placeholders",
+        "u_d9473010f89206776db68ba5_0": "Translation changed protected placeholders",
+        "u_7616f279d6a849f5a9749714_0": "Translation changed protected placeholders",
+        "u_375fd95249f1dd78bf8bbd58_0": "Translation changed protected placeholders"
+      },
+      "error": "Some translation units failed validation"
     },
     {
       "key": "4TIF1oA4VQRO_41c24555cbcb092f",
@@ -489,7 +621,28 @@
           "context": "Options > Options when using sync",
           "contextHash": "0d7c8183535aca3773937832ca5bb73d64ea0c54a122277ce3e88617b46ceabb"
         }
-      ]
+      ],
+      "result": {
+        "key": "4TIF1oA4VQRO_41c24555cbcb092f",
+        "translations": {
+          "u_ea7a1082ce8092ed4dc67e89_0": "不要な場合はオプションで非表示にすることもできる、__TRILIUM_PH_0__Launch Bar__TRILIUM_PH_1__ 内の __TRILIUM_PH_2__ ボタンです。",
+          "u_459a10c5a328712a1156dab5_0": "__TRILIUM_PH_0__同期__TRILIUM_PH_1__機能を使用する場合、一部のオプションはすべてのデバイス間で同期されますが、他のオプションは個別に変更できます。"
+        },
+        "modelVersion": "gemini-3.5-flash-lite",
+        "usage": {
+          "promptTokenCount": 486,
+          "candidatesTokenCount": 190,
+          "totalTokenCount": 676,
+          "promptTokensDetails": [
+            {
+              "modality": "TEXT",
+              "tokenCount": 486
+            }
+          ],
+          "serviceTier": "standard"
+        }
+      },
+      "unitErrors": {}
     },
     {
       "key": "uNtgN0cUKEBc_8c1933010acdd365",
@@ -535,7 +688,33 @@
           "context": "Attributes tab > Mobile",
           "contextHash": "dbddd42767cf2231919bebbfee10e293ab9b2d0e92cefbd874ae86c8590e07d6"
         }
-      ]
+      ],
+      "result": {
+        "key": "uNtgN0cUKEBc_8c1933010acdd365",
+        "translations": {
+          "u_36c82d4b508f351c9e824b89_0": "Triliumで特別な意味を持つシステム属性には、アイコンの近くに小さな __TRILIUM_PH_0__ 歯車が表示され、ユーザー定義のものとは別にグループ化されます。"
+        },
+        "modelVersion": "gemini-3.5-flash-lite",
+        "usage": {
+          "promptTokenCount": 958,
+          "candidatesTokenCount": 639,
+          "totalTokenCount": 1597,
+          "promptTokensDetails": [
+            {
+              "modality": "TEXT",
+              "tokenCount": 958
+            }
+          ],
+          "serviceTier": "standard"
+        }
+      },
+      "unitErrors": {
+        "u_0bb7471d69a389fdce66431d_0": "Translation changed protected placeholders",
+        "u_cda19cb7e3f2b6228ef915ad_0": "Translation changed protected placeholders",
+        "u_889e0f45c51118ea41f1417d_0": "Translation changed protected placeholders",
+        "u_e3fea80effd8c5d0abd03ace_0": "Translation changed protected placeholders"
+      },
+      "error": "Some translation units failed validation"
     },
     {
       "key": "LrKznOtw9cQD_c1546922b40c5dde",
@@ -549,7 +728,11 @@
           "context": "AI chat tab",
           "contextHash": "833cf2f5704ba220954fb2c444395f603124d5d4d4821821733b8c101383981f"
         }
-      ]
+      ],
+      "unitErrors": {
+        "u_2ef87dfc59c46165f3156c75_0": "Translation changed protected placeholders"
+      },
+      "error": "Some translation units failed validation"
     },
     {
       "key": "RnaPdbciOfeq_435f6816c7759db5",
@@ -563,7 +746,11 @@
           "context": "Right Sidebar > Mobile support",
           "contextHash": "e0867db1eeda22cb975959e089b2ad89c75acba5f49ccda3d7c5a8c329ffb9d0"
         }
-      ]
+      ],
+      "unitErrors": {
+        "u_3fe4676ec9c7b996c491504a_0": "Translation changed protected placeholders"
+      },
+      "error": "Some translation units failed validation"
     },
     {
       "key": "r5JGHN99bVKn_b01caa7d85d29354",
@@ -585,7 +772,12 @@
           "context": "Recent Changes > Accessing the recent changes",
           "contextHash": "e220afe65231f36456c6a0e02b69bdefd548c5bfe9f090ffedf8a23b3eefd0aa"
         }
-      ]
+      ],
+      "unitErrors": {
+        "u_f755f96c7f677b0ba83d89f0_0": "Translation changed protected placeholders",
+        "u_294f772bd2d55c621a640c36_0": "Translation changed protected placeholders"
+      },
+      "error": "Some translation units failed validation"
     },
     {
       "key": "SL5f1Auq7sVN_5560dd1f3a66115f",
@@ -599,7 +791,11 @@
           "context": "Note types with split view > Display modes and interaction",
           "contextHash": "93f1b338210eee69922e4a51ca8340f1822692c99f0817777377273da5637eaf"
         }
-      ]
+      ],
+      "unitErrors": {
+        "u_d151c511a9083e304148df00_0": "Translation changed protected placeholders"
+      },
+      "error": "Some translation units failed validation"
     },
     {
       "key": "t596jLvPrqkS_1f60d5959208d5d6",
@@ -613,7 +809,27 @@
           "context": "Content width > Adjusting at note level",
           "contextHash": "1660c04063fbd31ee1f89491e27cb968388e4b24392d9f0cf919bf796d9c64b2"
         }
-      ]
+      ],
+      "result": {
+        "key": "t596jLvPrqkS_1f60d5959208d5d6",
+        "translations": {
+          "u_66f1febc586aed7cdaf23140_0": "__TRILIUM_PH_0__キャンバス__TRILIUM_PH_1__の __TRILIUM_PH_2__ノートタイプ__TRILIUM_PH_3__ など、いくつかのタイプはデフォルトで全幅表示になります。その場合、__TRILIUM_PH_4__全幅__TRILIUM_PH_5__のトグルは表示されず、ラベルの効果はありません。"
+        },
+        "modelVersion": "gemini-3.5-flash-lite",
+        "usage": {
+          "promptTokenCount": 447,
+          "candidatesTokenCount": 161,
+          "totalTokenCount": 608,
+          "promptTokensDetails": [
+            {
+              "modality": "TEXT",
+              "tokenCount": 447
+            }
+          ],
+          "serviceTier": "standard"
+        }
+      },
+      "unitErrors": {}
     },
     {
       "key": "l7pigIGu01K2_09ba0ad92a8a7f83",
@@ -627,7 +843,27 @@
           "context": "Title > Inline title > Automatically generated titles",
           "contextHash": "dfdb352a29719694cf588c1de3d9f8433eb22a050ececb041dce0701561a3b61"
         }
-      ]
+      ],
+      "result": {
+        "key": "l7pigIGu01K2_09ba0ad92a8a7f83",
+        "translations": {
+          "u_c1ff30b0b0c362c7b7ab63b7_0": "__TRILIUM_PH_0__Day, week, month and year notes__TRILIUM_PH_1__ (__TRILIUM_PH_2__Day Notes__TRILIUM_PH_3__ 内) の名前は、設定可能な日付パターンから付けられます。"
+        },
+        "modelVersion": "gemini-3.5-flash-lite",
+        "usage": {
+          "promptTokenCount": 420,
+          "candidatesTokenCount": 134,
+          "totalTokenCount": 554,
+          "promptTokensDetails": [
+            {
+              "modality": "TEXT",
+              "tokenCount": 420
+            }
+          ],
+          "serviceTier": "standard"
+        }
+      },
+      "unitErrors": {}
     },
     {
       "key": "0vhv7lsOLy82_44f60b8c5f3f2f51",
@@ -697,7 +933,18 @@
           "context": "Attachments > Embedding an attachment",
           "contextHash": "85bcaa063bad2bd1970403b69607df8c8410f04b6488ec2cf5fb8e58bb21e77b"
         }
-      ]
+      ],
+      "unitErrors": {
+        "u_3610eeda7f5b4537590734d9_0": "Translation changed protected placeholders",
+        "u_658ed969d4ed5907af4d0c2b_0": "Translation changed protected placeholders",
+        "u_5cbaf68b7caf117925a6b8c0_0": "Translation changed protected placeholders",
+        "u_d5d74f4350e979ff69ca3a89_0": "Translation changed protected placeholders",
+        "u_81550fc6b3b23d9addc095ea_0": "Translation changed protected placeholders",
+        "u_0738b11127ef1db4de11e15a_0": "Translation changed protected placeholders",
+        "u_0f5db71e07b4bda0300c4bfa_0": "Translation changed protected placeholders",
+        "u_f3db6f7efc5d1466ea7a2b3d_0": "Translation changed protected placeholders"
+      },
+      "error": "Some translation units failed validation"
     },
     {
       "key": "TBwsyfadTA18_bea7d0e8d736eaec",
@@ -711,7 +958,11 @@
           "context": "Branch prefix",
           "contextHash": "502ac0888c5587a395120df37f01697692fb768346ceccf52dc06d90e6c10805"
         }
-      ]
+      ],
+      "unitErrors": {
+        "u_9a4f4a55bd33d77322a94a8e_0": "Translation changed protected placeholders"
+      },
+      "error": "Some translation units failed validation"
     },
     {
       "key": "IakOLONlIfGI_5493e579bda6ac53",
@@ -725,7 +976,11 @@
           "context": "Cloning Notes > Solution > Demo",
           "contextHash": "cfe382790fbe04a5e4adc84e2195c84faeec8571ad71d9dd50433f148957bac0"
         }
-      ]
+      ],
+      "unitErrors": {
+        "u_0a6ed9c2386b5c12de97acd6_0": "Translation changed protected placeholders"
+      },
+      "error": "Some translation units failed validation"
     },
     {
       "key": "bwg0e8ewQMak_6e4fd9ae2d8ece11",
@@ -747,7 +1002,30 @@
           "context": "Protected Notes > Encryption Details",
           "contextHash": "1e81386b5296d18ff106698772c0e2bf5a6643404f93b4c2a1fa8325873a925f"
         }
-      ]
+      ],
+      "result": {
+        "key": "bwg0e8ewQMak_6e4fd9ae2d8ece11",
+        "translations": {
+          "u_556d314df628e3a1a4dc3b57_0": "パスワードが正しいことを確認するため、パスワードは__TRILIUM_PH_0__scrypt__TRILIUM_PH_1__アルゴリズムによって、パスワード検証用の__TRILIUM_PH_2__salt__TRILIUM_PH_3__とともに処理されます。"
+        },
+        "modelVersion": "gemini-3.5-flash-lite",
+        "usage": {
+          "promptTokenCount": 505,
+          "candidatesTokenCount": 205,
+          "totalTokenCount": 710,
+          "promptTokensDetails": [
+            {
+              "modality": "TEXT",
+              "tokenCount": 505
+            }
+          ],
+          "serviceTier": "standard"
+        }
+      },
+      "unitErrors": {
+        "u_94c9ddc55ccae5c09aa53d82_0": "Translation changed protected placeholders"
+      },
+      "error": "Some translation units failed validation"
     },
     {
       "key": "vZWERwf8U3nx_d32e70ed49ab66ab",
@@ -761,7 +1039,11 @@
           "context": "Note Revisions > When revisions are saved > Maximum revisions",
           "contextHash": "7f9581294f748125dc4ca7ca622be07c0ef4c9aad32e03b8eedbb921870ccbd1"
         }
-      ]
+      ],
+      "unitErrors": {
+        "u_7c43d188dc748e11bfb1d006_0": "Translation changed protected placeholders"
+      },
+      "error": "Some translation units failed validation"
     },
     {
       "key": "NRnIZmSMc5sj_5df892f0661c5343",
@@ -791,7 +1073,29 @@
           "context": "Printing & Exporting as PDF > Customizing the print CSS",
           "contextHash": "75c71adb569dde5aac4eee87bf0de93f58010e4ef468196668272f361c847e05"
         }
-      ]
+      ],
+      "result": {
+        "key": "NRnIZmSMc5sj_5df892f0661c5343",
+        "translations": {
+          "u_9584470753fcfbbd5fd61d94_0": "__TRILIUM_PH_0__Options__TRILIUM_PH_1__ 内の __TRILIUM_PH_2__キーボードショートカット__TRILIUM_PH_3__ に移動し、以下の機能にキーの組み合わせを割り当てることで、キーボードから印刷およびPDFとしてのエクスポートの両方を実行できます。",
+          "u_814a6b122bd4e8cdf6e75134_0": "__TRILIUM_PH_0__コード__TRILIUM_PH_1__ノートは、現在のテーマに関わらず、__TRILIUM_PH_2__Options__TRILIUM_PH_3__ → __TRILIUM_PH_4__コードノート__TRILIUM_PH_5__ → __TRILIUM_PH_6__外観__TRILIUM_PH_7__ の __TRILIUM_PH_8__ライトテーマ__TRILIUM_PH_9__ で、シンタックスハイライト付きで印刷されます。__TRILIUM_PH_10__コードノート__TRILIUM_PH_11__ → __TRILIUM_PH_12__エディタ__TRILIUM_PH_13__ → __TRILIUM_PH_14__行番号__TRILIUM_PH_15__ がオフになっていない限り、行番号が表示されます。",
+          "u_d7d0ad606d08d33416cc1726_0": "__TRILIUM_PH_0__を変更する際は、詳細度のルールの関係で反映されなくなってしまうため、__TRILIUM_PH_1__レベルで行われ、__TRILIUM_PH_2__レベルになっていないことを確認してください。"
+        },
+        "modelVersion": "gemini-3.5-flash-lite",
+        "usage": {
+          "promptTokenCount": 771,
+          "candidatesTokenCount": 462,
+          "totalTokenCount": 1233,
+          "promptTokensDetails": [
+            {
+              "modality": "TEXT",
+              "tokenCount": 771
+            }
+          ],
+          "serviceTier": "standard"
+        }
+      },
+      "unitErrors": {}
     },
     {
       "key": "CoFPLs3dRlXc_369962b475cc64b1",
@@ -805,7 +1109,11 @@
           "context": "Read-Only Notes > Changing a note's read-only behavior",
           "contextHash": "c9147e0c053b018d7efd4b1cf53763f094eff19972ca7a535c84a74ffde8734c"
         }
-      ]
+      ],
+      "unitErrors": {
+        "u_2208f3df9e996062975c3f83_0": "Translation changed protected placeholders"
+      },
+      "error": "Some translation units failed validation"
     },
     {
       "key": "S0Fos78ZfcY7_702086e261727a74",
@@ -843,7 +1151,14 @@
           "context": "Note Inbox > Workspace inboxes",
           "contextHash": "7af58b0a11ffa4d3d5a4b1a2bd964420494b0bca52c4599361ab02c1340c7b11"
         }
-      ]
+      ],
+      "unitErrors": {
+        "u_d6cc030d5d65c771f76816f8_0": "Translation changed protected placeholders",
+        "u_6b0797a11857caca4aaa62ff_0": "Translation changed protected placeholders",
+        "u_fc22939ab89929b396b040f3_0": "Translation changed protected placeholders",
+        "u_9f7ce8a558dfb22df0cc52e8_0": "Translation changed protected placeholders"
+      },
+      "error": "Some translation units failed validation"
     },
     {
       "key": "m3VlURMSeOrd_173607b1f04d0e69",
@@ -857,7 +1172,11 @@
           "context": "New note type switcher",
           "contextHash": "6c0648f925845f336eed1fe49afe5e44ff7e535b7b1bed2a7f7480c4c267bfed"
         }
-      ]
+      ],
+      "unitErrors": {
+        "u_4d0b7bfae8d5e32b3695feb5_0": "Translation changed protected placeholders"
+      },
+      "error": "Some translation units failed validation"
     },
     {
       "key": "MMiBEQljMQh2_43784978c9abb01c",
@@ -871,7 +1190,11 @@
           "context": "Note Navigation > Backwards and forward",
           "contextHash": "dcd8c20e6d6ecd8bc7b2fdee8dba63cf98926108f3f4075ad92206d2bb077510"
         }
-      ]
+      ],
+      "unitErrors": {
+        "u_4f383ac9747aef0ed34518e1_0": "Translation changed protected placeholders"
+      },
+      "error": "Some translation units failed validation"
     },
     {
       "key": "WbjlujkUhEb5_fef830b87217fc6e",
@@ -885,7 +1208,27 @@
           "context": "How search matches your text > Attribute and property equality (=, !=)",
           "contextHash": "d77d0d92d163b931c6e0b44b09002abfb938c1e3bc91cdfb00f4954babf57415"
         }
-      ]
+      ],
+      "result": {
+        "key": "WbjlujkUhEb5_fef830b87217fc6e",
+        "translations": {
+          "u_b9935b77c3d22840ba06948c_0": "値全体が __TRILIUM_PH_0__ であり、__TRILIUM_PH_1__ ではありません"
+        },
+        "modelVersion": "gemini-3.5-flash-lite",
+        "usage": {
+          "promptTokenCount": 388,
+          "candidatesTokenCount": 85,
+          "totalTokenCount": 473,
+          "promptTokensDetails": [
+            {
+              "modality": "TEXT",
+              "tokenCount": 388
+            }
+          ],
+          "serviceTier": "standard"
+        }
+      },
+      "unitErrors": {}
     },
     {
       "key": "eIg8jdvaoNNd_89d2184276782b5d",
@@ -963,7 +1306,37 @@
           "context": "Search > Viewing search results",
           "contextHash": "afd7703feb3ee575503c23c63f07223fcfcee6410773486ea56b34e6d6c9cea0"
         }
-      ]
+      ],
+      "result": {
+        "key": "eIg8jdvaoNNd_89d2184276782b5d",
+        "translations": {
+          "u_724d339facd9811d6ac8c664_0": "__TRILIUM_PH_0__起動バー__TRILIUM_PH_1__から、専用の__TRILIUM_PH_2__検索ボタンを探してください。"
+        },
+        "modelVersion": "gemini-3.5-flash-lite",
+        "usage": {
+          "promptTokenCount": 1310,
+          "candidatesTokenCount": 974,
+          "totalTokenCount": 2284,
+          "promptTokensDetails": [
+            {
+              "modality": "TEXT",
+              "tokenCount": 1310
+            }
+          ],
+          "serviceTier": "standard"
+        }
+      },
+      "unitErrors": {
+        "u_f3a3dc607089f70985fa0e05_0": "Translation changed protected placeholders",
+        "u_270ba1778befbbb74ba06a32_0": "Translation changed protected placeholders",
+        "u_bee477584441ce45eb6caed1_0": "Translation changed protected placeholders",
+        "u_e6597dbb8beb19a26afc5b9d_0": "Translation changed protected placeholders",
+        "u_9a45a7accaaaa0608877034d_0": "Translation changed protected placeholders",
+        "u_e0f9755fe28e12b271ef35bd_0": "Translation changed protected placeholders",
+        "u_50de7e20a39e12514a21a1df_0": "Translation changed protected placeholders",
+        "u_45dc8d28d08288689e530a03_0": "Translation changed protected placeholders"
+      },
+      "error": "Some translation units failed validation"
     },
     {
       "key": "u3YFHC9tQlpm_3d8ce7c3091ecd97",
@@ -985,7 +1358,12 @@
           "context": "Bookmarks > Mobile",
           "contextHash": "d5235890805d99473944cde7f61b6694d0793029906299dc38756421eb81c447"
         }
-      ]
+      ],
+      "unitErrors": {
+        "u_6bd9db96f61fca8beaf20b0b_0": "Translation changed protected placeholders",
+        "u_ea940200f0fda58be113bcfb_0": "Translation changed protected placeholders"
+      },
+      "error": "Some translation units failed validation"
     },
     {
       "key": "OR8WJ7Iz9K4U_e421e84ac87072d9",
@@ -999,7 +1377,11 @@
           "context": "Note Hoisting > Showing all notes again",
           "contextHash": "6e4a4f8bba5a646cdba6969df9c44b6386eca46d786288fc588cdbce5df84c6d"
         }
-      ]
+      ],
+      "unitErrors": {
+        "u_a3a6c915c04a158d758120d3_0": "Translation changed protected placeholders"
+      },
+      "error": "Some translation units failed validation"
     },
     {
       "key": "ZjLYv08Rp3qC_04d2b3c82c9206b0",
@@ -1021,7 +1403,28 @@
           "context": "Quick edit > Feature highlights",
           "contextHash": "cfe721a3078a0884d82e2e37ca0e72354a4d76bef64c5cb12ea25839c10fcc3b"
         }
-      ]
+      ],
+      "result": {
+        "key": "ZjLYv08Rp3qC_04d2b3c82c9206b0",
+        "translations": {
+          "u_7bcdfd4a31882f1e19f0b3ed_0": "__TRILIUM_PH_0__ノートリスト__TRILIUM_PH_1__は、__TRILIUM_PH_2__コレクション__TRILIUM_PH_3__タイプのノートを除き、表示されないことに注意してください。",
+          "u_058e6bfbd9218f173e80f19f_0": "これは__TRILIUM_PH_0__コレクション__TRILIUM_PH_1__とよく統合されており、__TRILIUM_PH_2__開始日__TRILIUM_PH_3__や__TRILIUM_PH_4__終了日__TRILIUM_PH_5__などの事前定義された属性が存在するため、簡単に編集することができます。"
+        },
+        "modelVersion": "gemini-3.5-flash-lite",
+        "usage": {
+          "promptTokenCount": 536,
+          "candidatesTokenCount": 236,
+          "totalTokenCount": 772,
+          "promptTokensDetails": [
+            {
+              "modality": "TEXT",
+              "tokenCount": 536
+            }
+          ],
+          "serviceTier": "standard"
+        }
+      },
+      "unitErrors": {}
     },
     {
       "key": "9sRHySam5fXb_bbd6b72e3b09f707",
@@ -1035,7 +1438,11 @@
           "context": "Workspaces",
           "contextHash": "1377264ba3b0a7172621971b49ac3e82e33b64b14328d9275d02807e67ea8460"
         }
-      ]
+      ],
+      "unitErrors": {
+        "u_96a6138d3b0ade40fd77d3e2_0": "Translation changed protected placeholders"
+      },
+      "error": "Some translation units failed validation"
     },
     {
       "key": "xWtq5NUHOwql_f2a948f9776c8718",
@@ -1057,7 +1464,12 @@
           "context": "Similar Notes",
           "contextHash": "666e1189120575c78161fcbc7a5964988143db1124ded8eac4383fd71f003241"
         }
-      ]
+      ],
+      "unitErrors": {
+        "u_542add3c96cd233c2d35ff90_0": "Translation changed protected placeholders",
+        "u_8aff9172486c854189c91955_0": "Translation changed protected placeholders"
+      },
+      "error": "Some translation units failed validation"
     },
     {
       "key": "A9Oc6YKKc65v_43248c220eb6c2a1",
@@ -1071,7 +1483,11 @@
           "context": "Keyboard Shortcuts > Shortcut reference > Note navigation",
           "contextHash": "2fd500bf7a787f546d791003f526915cf9342f09fb43abe065efbf10472c6927"
         }
-      ]
+      ],
+      "unitErrors": {
+        "u_3ddbdbd9d293130868ccef01_0": "Translation changed protected placeholders"
+      },
+      "error": "Some translation units failed validation"
     },
     {
       "key": "gOKqSJgXLcIj_f1b04ae03c490ec9",
@@ -1085,7 +1501,27 @@
           "context": "Icon Packs > What happens if I remove an icon pack",
           "contextHash": "df636904d19f4cb129a34e5eeab51ac8927a33c02d67e2a338f537b203cd3714"
         }
-      ]
+      ],
+      "result": {
+        "key": "gOKqSJgXLcIj_f1b04ae03c490ec9",
+        "translations": {
+          "u_d7f5eea69a2b215a8f1e5105_0": "アイコンパックが削除または無効化された場合（__TRILIUM_PH_0__ラベルの削除や変更による）、そのアイコンパックを使用していたすべてのノートは、__TRILIUM_PH_1__ノートツリー__TRILIUM_PH_2__上でアイコンが表示されなくなります。見た目が不自然になる以外に、問題が発生することはありません。"
+        },
+        "modelVersion": "gemini-3.5-flash-lite",
+        "usage": {
+          "promptTokenCount": 439,
+          "candidatesTokenCount": 151,
+          "totalTokenCount": 590,
+          "promptTokensDetails": [
+            {
+              "modality": "TEXT",
+              "tokenCount": 439
+            }
+          ],
+          "serviceTier": "standard"
+        }
+      },
+      "unitErrors": {}
     },
     {
       "key": "w4rMEhJsALlA_c8f961ea62404af8",
@@ -1131,7 +1567,33 @@
           "context": "Personalizing the font > Programming ligatures",
           "contextHash": "29279d67ff15acc956916d3528ac140a3422094f06c28267aeb605adea7b0a7f"
         }
-      ]
+      ],
+      "result": {
+        "key": "w4rMEhJsALlA_c8f961ea62404af8",
+        "translations": {
+          "u_bbd59156f218a042f64c1ea4_0": "__TRILIUM_PH_0__テーマ定義__TRILIUM_PH_1__。現在の__TRILIUM_PH_2__テーマ__TRILIUM_PH_3__に組み込まれているフォントを使用します。例えば、デフォルトのモダンテーマでは、フォントは__TRILIUM_PH_4__Inter__TRILIUM_PH_5__になります。これにはフォントのインストールは必要ありません。",
+          "u_ebb3c8dc206a29c904f14b23_0": "__TRILIUM_PH_0__システムデフォルト__TRILIUM_PH_1__。__TRILIUM_PH_2__デスクトップアプリ__TRILIUM_PH_3__に最も適したフォントの組み合わせを使用します。例えば、Windowsでは__TRILIUM_PH_4__Segoe UI__TRILIUM_PH_5__が使用されます。"
+        },
+        "modelVersion": "gemini-3.5-flash-lite",
+        "usage": {
+          "promptTokenCount": 1008,
+          "candidatesTokenCount": 694,
+          "totalTokenCount": 1702,
+          "promptTokensDetails": [
+            {
+              "modality": "TEXT",
+              "tokenCount": 1008
+            }
+          ],
+          "serviceTier": "standard"
+        }
+      },
+      "unitErrors": {
+        "u_c6eaaf7d2a62d9865ed481c1_0": "Translation changed protected placeholders",
+        "u_ca22792202ea42baea6078b3_0": "Translation changed protected placeholders",
+        "u_7fa24301a8dae5b317d0a445_0": "Translation changed protected placeholders"
+      },
+      "error": "Some translation units failed validation"
     },
     {
       "key": "Wy267RK4M69c_2709797185dbd79b",
@@ -1161,7 +1623,31 @@
           "context": "Themes > Creating Custom CSS Themes > Applying Custom CSS",
           "contextHash": "fc3283bbcead8397b33c5780a98482f48119ea445f59fbe7a871d5a7f013ca33"
         }
-      ]
+      ],
+      "result": {
+        "key": "Wy267RK4M69c_2709797185dbd79b",
+        "translations": {
+          "u_7bdccdeb05143c6d17cf1ac5_0": "__TRILIUM_PH_0__CSSコードノートを作成する__TRILIUM_PH_1__：まず、__TRILIUM_PH_2__のタイプの新しい__TRILIUM_PH_3__コードノート__TRILIUM_PH_4__を作成します。",
+          "u_307d7f009ad7684e30ec1281_0": "__TRILIUM_PH_0__CSSコードノートを作成する__TRILIUM_PH_1__：__TRILIUM_PH_2__のタイプの新しい__TRILIUM_PH_3__コード__TRILIUM_PH_4__ノートを作成します。"
+        },
+        "modelVersion": "gemini-3.5-flash-lite",
+        "usage": {
+          "promptTokenCount": 687,
+          "candidatesTokenCount": 383,
+          "totalTokenCount": 1070,
+          "promptTokensDetails": [
+            {
+              "modality": "TEXT",
+              "tokenCount": 687
+            }
+          ],
+          "serviceTier": "standard"
+        }
+      },
+      "unitErrors": {
+        "u_4671ec7f4e19637ec69da3ec_0": "Translation changed protected placeholders"
+      },
+      "error": "Some translation units failed validation"
     },
     {
       "key": "rJ9grSgoExl9_e528b4a5a99c221b",
@@ -1183,7 +1669,12 @@
           "context": "Supported syntax > Wikilinks",
           "contextHash": "5bd1365d66cf0a2f9ab351103aea279e32efd3448c62153c481ffacd787d848d"
         }
-      ]
+      ],
+      "unitErrors": {
+        "u_e476dbbcfd222f10b48d4a93_0": "Translation changed protected placeholders",
+        "u_97563139454f21e5c28f5889_0": "Translation changed protected placeholders"
+      },
+      "error": "Some translation units failed validation"
     },
     {
       "key": "Y5mKeJ6dsCld_12d040ae8d8814af",
@@ -1205,7 +1696,12 @@
           "context": "Notion > Supported features",
           "contextHash": "07f0eaa3b88bfbd86027f00c0ab2aed803aa69ac4d6a518e3d0ee5782b787ec9"
         }
-      ]
+      ],
+      "unitErrors": {
+        "u_6cfd70dee85f27c9d30d3704_0": "Translation changed protected placeholders",
+        "u_9e3d43fd09366e2f82f5da79_0": "Translation changed protected placeholders"
+      },
+      "error": "Some translation units failed validation"
     },
     {
       "key": "syuSEKf2rUGr_d72404b27ee85a76",
@@ -1219,7 +1715,27 @@
           "context": "Evernote > Limitations > Links to other notes",
           "contextHash": "3fa76dd72def3f6eacceb9358b176ef52e429a7a23e0772e7173151c3e49e52f"
         }
-      ]
+      ],
+      "result": {
+        "key": "syuSEKf2rUGr_d72404b27ee85a76",
+        "translations": {
+          "u_81d8e5ecefca2a88155b95cd_0": "書き換えられなかったリンク（存在しないノートや重複するノートを参照している場合など）は、元の __TRILIUM_PH_0__ URL のまま保持されます。"
+        },
+        "modelVersion": "gemini-3.5-flash-lite",
+        "usage": {
+          "promptTokenCount": 396,
+          "candidatesTokenCount": 109,
+          "totalTokenCount": 505,
+          "promptTokensDetails": [
+            {
+              "modality": "TEXT",
+              "tokenCount": 396
+            }
+          ],
+          "serviceTier": "standard"
+        }
+      },
+      "unitErrors": {}
     },
     {
       "key": "mHbBMPDPkVV5_0177f15480a0e63d",
@@ -1233,7 +1749,27 @@
           "context": "Import & Export > Maximum import size",
           "contextHash": "062b7d33178d690e0f864ac4f460eb8ad49df740d39d55e3c2056d2d1f36297c"
         }
-      ]
+      ],
+      "result": {
+        "key": "mHbBMPDPkVV5_0177f15480a0e63d",
+        "translations": {
+          "u_63ef6d4d8ca6ed8d48a8b932_0": "v0.104.0未満のバージョンでは250 MiBのアップロード制限がありましたが、__TRILIUM_PH_0__環境変数によって回避することができました。v0.104.0からはこの制限が撤廃されました。"
+        },
+        "modelVersion": "gemini-3.5-flash-lite",
+        "usage": {
+          "promptTokenCount": 412,
+          "candidatesTokenCount": 130,
+          "totalTokenCount": 542,
+          "promptTokensDetails": [
+            {
+              "modality": "TEXT",
+              "tokenCount": 412
+            }
+          ],
+          "serviceTier": "standard"
+        }
+      },
+      "unitErrors": {}
     },
     {
       "key": "i6dbnitykE5D_2fbfd0aa48c6eef1",
@@ -1247,7 +1783,11 @@
           "context": "FAQ > How to open multiple documents in one Trilium instance",
           "contextHash": "0efa0e14e421f5e134b147495812bb8c02c90285b916632e88d93be4766c5293"
         }
-      ]
+      ],
+      "unitErrors": {
+        "u_f036274aa59bd1ef7dc8aefc_0": "Translation changed protected placeholders"
+      },
+      "error": "Some translation units failed validation"
     },
     {
       "key": "oSuaNgyyKnhu_415dc1d224e8eb6d",
@@ -1269,7 +1809,12 @@
           "context": "Anchors > Interaction",
           "contextHash": "ce2b7364c88edacb74beb95a82da62342d4c7bc04f8c68d75a00c11168642057"
         }
-      ]
+      ],
+      "unitErrors": {
+        "u_e14ea6a47bebaf43f7e78596_0": "Translation changed protected placeholders",
+        "u_bd7065fd8a0a4dcd04d5bc63_0": "Translation changed protected placeholders"
+      },
+      "error": "Some translation units failed validation"
     },
     {
       "key": "NwBbFdNZ9h7O_7ee8d185ec447ff0",
@@ -1283,7 +1828,11 @@
           "context": "Block quotes & admonitions > Block quotes",
           "contextHash": "33ec9adb7996699b8160a77e45b4eeee947c43bb3d68a7009b0e8e9033b59f71"
         }
-      ]
+      ],
+      "unitErrors": {
+        "u_892d30811660744d6f365679_0": "Translation changed protected placeholders"
+      },
+      "error": "Some translation units failed validation"
     },
     {
       "key": "klC3ilXa9kUE_7fb32d555ab8e00b",
@@ -1305,7 +1854,30 @@
           "context": "Block references > Including the referenced blocks",
           "contextHash": "8df03c46d78f23a717f63eb5a159dc24128b9cbfe7ef204537ec887614e56a72"
         }
-      ]
+      ],
+      "result": {
+        "key": "klC3ilXa9kUE_7fb32d555ab8e00b",
+        "translations": {
+          "u_403512d9028d29a9b8b9d54b_0": "__TRILIUM_PH_0__Ctrl__TRILIUM_PH_1__+__TRILIUM_PH_2__K__TRILIUM_PH_3__ または __TRILIUM_PH_4__書式設定ツールバー__TRILIUM_PH_5____TRILIUM_PH_6__ 内のボタンを押し、ダイアログの上部にある __TRILIUM_PH_7__見出し / アンカー__TRILIUM_PH_8__ を選択します。または、__TRILIUM_PH_9__スラッシュコマンド__TRILIUM_PH_10__ で __TRILIUM_PH_11__見出しまたはアンカーへのリンク__TRILIUM_PH_12__ を選択すると、そのページでダイアログが開きます。"
+        },
+        "modelVersion": "gemini-3.5-flash-lite",
+        "usage": {
+          "promptTokenCount": 751,
+          "candidatesTokenCount": 473,
+          "totalTokenCount": 1224,
+          "promptTokensDetails": [
+            {
+              "modality": "TEXT",
+              "tokenCount": 751
+            }
+          ],
+          "serviceTier": "standard"
+        }
+      },
+      "unitErrors": {
+        "u_7504f5441dccd5c44f2eac82_0": "Translation changed protected placeholders"
+      },
+      "error": "Some translation units failed validation"
     },
     {
       "key": "EK2ckIZ74tbT_d9001ebfd17659b9",
@@ -1319,7 +1891,11 @@
           "context": "Content tabs > Inserting a tabs block",
           "contextHash": "003192350c03f8ef9d6afb3f7d0de9e132620ed78d4f0c0776221ace16fe5241"
         }
-      ]
+      ],
+      "unitErrors": {
+        "u_1c56eebea874f8e71dee983c_0": "Translation changed protected placeholders"
+      },
+      "error": "Some translation units failed validation"
     },
     {
       "key": "QxEyIjRBizuC_bfc30d07645a2d46",
@@ -1333,7 +1909,27 @@
           "context": "Code blocks > Extended code blocks",
           "contextHash": "dce8f46fc7687c91b68f9675d110b06189af52a9029dcd1ffd89986c90841f74"
         }
-      ]
+      ],
+      "result": {
+        "key": "QxEyIjRBizuC_bfc30d07645a2d46",
+        "translations": {
+          "u_c22c4fd1d2cfc767ff7601de_0": "拡張コードブロックは実験的機能であり、成熟するにつれて変更される可能性があります。これを使用するには、__TRILIUM_PH_0__Extended code blocks__TRILIUM_PH_1__ を __TRILIUM_PH_2__Options__TRILIUM_PH_3__ → __TRILIUM_PH_4__Advanced__TRILIUM_PH_5__ → __TRILIUM_PH_6__Experimental Options__TRILIUM_PH_7__ で有効にしてください。"
+        },
+        "modelVersion": "gemini-3.5-flash-lite",
+        "usage": {
+          "promptTokenCount": 457,
+          "candidatesTokenCount": 179,
+          "totalTokenCount": 636,
+          "promptTokensDetails": [
+            {
+              "modality": "TEXT",
+              "tokenCount": 457
+            }
+          ],
+          "serviceTier": "standard"
+        }
+      },
+      "unitErrors": {}
     },
     {
       "key": "UYuUB1ZekNQU_29df41782b13e077",
@@ -1347,7 +1943,11 @@
           "context": "Developer-specific formatting > Keyboard shortcuts",
           "contextHash": "b2aafb8ab925e9dfc6a7085aae3c7c4a7a216314146ef09a2a1e2091329b6f67"
         }
-      ]
+      ],
+      "unitErrors": {
+        "u_c7e37d3a5528d651ce3be2b1_0": "Translation changed protected placeholders"
+      },
+      "error": "Some translation units failed validation"
     },
     {
       "key": "AgjCISero73a_3920a82b38d3e611",
@@ -1361,7 +1961,11 @@
           "context": "Footnotes > Interaction",
           "contextHash": "4add2d50b766d12b9fb1e8537dab8287b12f93989038200a3afb9ff53b11685c"
         }
-      ]
+      ],
+      "unitErrors": {
+        "u_96095304040a40f866aa6eec_0": "Translation changed protected placeholders"
+      },
+      "error": "Some translation units failed validation"
     },
     {
       "key": "Gr6xFaF6ioJ5_3cdb3018e260d966",
@@ -1375,7 +1979,11 @@
           "context": "General formatting > Bold, italic, underline, strike-through",
           "contextHash": "d9cd1595b18415a2b9ca92f7a644f21c935eafeeab8078424de179d1c834c5e6"
         }
-      ]
+      ],
+      "unitErrors": {
+        "u_049e9db3bc5ee90895d214b9_0": "Translation changed protected placeholders"
+      },
+      "error": "Some translation units failed validation"
     },
     {
       "key": "0Ofbk1aSuVRu_6519de8c271a14e9",
@@ -1389,7 +1997,11 @@
           "context": "Image references > Steps",
           "contextHash": "01dd7ea2e34a223c7b5b9ee80b86ad4345f7b059b1b3e4cbece0368532b54df3"
         }
-      ]
+      ],
+      "unitErrors": {
+        "u_c4e3d52c0746592d4bcf73f3_0": "Translation changed protected placeholders"
+      },
+      "error": "Some translation units failed validation"
     },
     {
       "key": "mT0HEkOsz6i1_1b39124a365dc40b",
@@ -1403,7 +2015,11 @@
           "context": "Images > Uploading images",
           "contextHash": "134091da858ebd286d5bd3d92925bc2c9d5faddb7502349e9ee127885aafb2c7"
         }
-      ]
+      ],
+      "unitErrors": {
+        "u_745390b0b66b29a87fe23317_0": "Translation changed protected placeholders"
+      },
+      "error": "Some translation units failed validation"
     },
     {
       "key": "mVEYwt20exhO_47391177bc85df38",
@@ -1417,7 +2033,27 @@
           "context": "Custom AI quick actions > Using a quick action",
           "contextHash": "47a4bf177ae4dff7fe6c78c00884526ffbbad4d8b7914543b1cf0144e6e7518b"
         }
-      ]
+      ],
+      "result": {
+        "key": "mVEYwt20exhO_47391177bc85df38",
+        "translations": {
+          "u_9e338b9c4da7e9265ff66152_0": "クイックアクションが定義されると、そのアクションは __TRILIUM_PH_0__Quick Actions__TRILIUM_PH_1__ ドロップダウン内の __TRILIUM_PH_2__Custom__TRILIUM_PH_3__ というグループに表示されます。"
+        },
+        "modelVersion": "gemini-3.5-flash-lite",
+        "usage": {
+          "promptTokenCount": 417,
+          "candidatesTokenCount": 134,
+          "totalTokenCount": 551,
+          "promptTokensDetails": [
+            {
+              "modality": "TEXT",
+              "tokenCount": 417
+            }
+          ],
+          "serviceTier": "standard"
+        }
+      },
+      "unitErrors": {}
     },
     {
       "key": "VRoP0g1uHHc2_e1f8b804dbd024f5",
@@ -1447,7 +2083,13 @@
           "context": "In-editor AI assistant > Accessing the AI assistant",
           "contextHash": "20e460d6153fcf454f30926e4b4eae5715e7c28bd43c782b06f13f44b4365350"
         }
-      ]
+      ],
+      "unitErrors": {
+        "u_0ccddba4263bedf90b7e1666_0": "Translation changed protected placeholders",
+        "u_dd668db6ce347e7950240fc2_0": "Translation changed protected placeholders",
+        "u_b68d3b7c366cce83919a463c_0": "Translation changed protected placeholders"
+      },
+      "error": "Some translation units failed validation"
     },
     {
       "key": "nBAXQFj20hS1_3a0f016302a3cb8e",
@@ -1541,7 +2183,39 @@
           "context": "Include Note > Drawing canvases",
           "contextHash": "a2cd96259cee6528f22a378ae1235364e1c8c610c347d80d6d221ae70b4dd098"
         }
-      ]
+      ],
+      "result": {
+        "key": "nBAXQFj20hS1_3a0f016302a3cb8e",
+        "translations": {
+          "u_4fe6b9f96fb9b98624ed747e_0": "__TRILIUM_PH_0__Full__TRILIUM_PH_1__ は、コードノートやコードファイル（__TRILIUM_PH_2__、__TRILIUM_PH_3__、__TRILIUM_PH_4__ などの添付ファイル）、およびテキストノートのブロックの抜粋に対して使用されます。",
+          "u_06fa0feb1dcddb33bc34d07b_0": "画像の上を描画または手書きするには、画像を選択し、そのツールバーの __TRILIUM_PH_0__ __TRILIUM_PH_1__Convert image to a drawing canvas__TRILIUM_PH_2__ ボタンを押します。画像は、タイトルが非表示でフォーカスが当たった __TRILIUM_PH_3__Resizable__TRILIUM_PH_4__ ボックス内の編集可能な描画カンバスに置き換えられます。画像はカンバスの中央に元のサイズで配置され、全体が表示されるようにズームされ、誤って選択または移動されないようにロックされます。ロックされている間は、カンバスの画像を拡大することはできますが、それ以上縮小したり、端を超えてスクロールしたりすることはできません。いずれにしても画像を移動またはサイズ変更するには、画像を右クリックして __TRILIUM_PH_5__Unlock__TRILIUM_PH_6__ を選択します。画像のキャプションは保持されますが、配置やリンクは保持されません。段落内ではなく、独自の行にある画像のみ変換できます。元に戻す（Undo）を実行すると画像を元に戻すことができます。"
+        },
+        "modelVersion": "gemini-3.5-flash-lite",
+        "usage": {
+          "promptTokenCount": 2374,
+          "candidatesTokenCount": 2058,
+          "totalTokenCount": 4432,
+          "promptTokensDetails": [
+            {
+              "modality": "TEXT",
+              "tokenCount": 2374
+            }
+          ],
+          "serviceTier": "standard"
+        }
+      },
+      "unitErrors": {
+        "u_344cc190720dbdd82c8dda1c_0": "Translation changed protected placeholders",
+        "u_e91edc537015afcb4d1cc4a2_0": "Translation changed protected placeholders",
+        "u_ec02808762c8d80abc1e5b8d_0": "Translation changed protected placeholders",
+        "u_339c5ff850572f4879706129_0": "Translation changed protected placeholders",
+        "u_8ab7a94973a29ae2df0c56ca_0": "Translation changed protected placeholders",
+        "u_66da02eeda37f4766377c23b_0": "Translation changed protected placeholders",
+        "u_76bcc6a04817f60e7dbe4956_0": "Translation changed protected placeholders",
+        "u_a43b3b894a9b0b98b34f30e3_0": "Translation changed protected placeholders",
+        "u_76e4facb4c91884be2e57f98_0": "Translation changed protected placeholders"
+      },
+      "error": "Some translation units failed validation"
     },
     {
       "key": "hD8GawVuazff_0c76c01998751023",
@@ -1555,7 +2229,11 @@
           "context": "Icons > Features",
           "contextHash": "0d337cf3fa17997f2a48c4a0287aa69234aacc10de9c3191dfc96a2f56527bc4"
         }
-      ]
+      ],
+      "unitErrors": {
+        "u_018a3ed0038596c2054d156e_0": "Translation changed protected placeholders"
+      },
+      "error": "Some translation units failed validation"
     },
     {
       "key": "CohkqWQC1iBv_0e1b89b0d6eed0b1",
@@ -1625,7 +2303,18 @@
           "context": "Insert buttons > Horizontal ruler",
           "contextHash": "a6152c99eb4682c45afe599847fceac165d1d187c7885d409c2f8292ac58f137"
         }
-      ]
+      ],
+      "unitErrors": {
+        "u_a511c71933501ae274d866b9_0": "Translation changed protected placeholders",
+        "u_4869c1f8c372e2f614f548cf_0": "Translation changed protected placeholders",
+        "u_ceb15c8bd40fef0530bc603e_0": "Translation changed protected placeholders",
+        "u_bcc5be4cee1c498b4aadf2df_0": "Translation changed protected placeholders",
+        "u_82c828bd00c0309b382b92ec_0": "Translation changed protected placeholders",
+        "u_74a86aba43ff8222d6c7b891_0": "Translation changed protected placeholders",
+        "u_0efbd605cf5cdeaca7fabe31_0": "Translation changed protected placeholders",
+        "u_129d32f3e33be0bc25187e8c_0": "Translation changed protected placeholders"
+      },
+      "error": "Some translation units failed validation"
     },
     {
       "key": "UmgZAfcltxkS_773de62a9240062d",
@@ -1695,7 +2384,36 @@
           "context": "Link Previews > Altering an existing link preview > Audio and video",
           "contextHash": "c467f8a1d52c0bc9d49197125fbd0e0fec4d0061b716a29becb62ff6f91fca8e"
         }
-      ]
+      ],
+      "result": {
+        "key": "UmgZAfcltxkS_773de62a9240062d",
+        "translations": {
+          "u_857a1e5c9d3c29df01b7b7c8_0": "__TRILIUM_PH_0__ __TRILIUM_PH_1__リンクの編集__TRILIUM_PH_2__ボタンは、リンクプレビュー上で__TRILIUM_PH_3__リンクの編集__TRILIUM_PH_4__ダイアログを開きます。また、選択中に__TRILIUM_PH_5__Ctrl__TRILIUM_PH_6__+__TRILIUM_PH_7__K__TRILIUM_PH_8__を押すことでも開きます。このダイアログでは、アドレス、カードの__TRILIUM_PH_9__リンクタイトル__TRILIUM_PH_10__（タイトルがログイン画面の後ろに隠れている場合に特に便利です）、__TRILIUM_PH_11__説明__TRILIUM_PH_12__、およびその表示方法を変更します。自分で入力しない限り、新しいアドレスには新しいページのタイトルと説明が表示されます。"
+        },
+        "modelVersion": "gemini-3.5-flash-lite",
+        "usage": {
+          "promptTokenCount": 1888,
+          "candidatesTokenCount": 1490,
+          "totalTokenCount": 3378,
+          "promptTokensDetails": [
+            {
+              "modality": "TEXT",
+              "tokenCount": 1888
+            }
+          ],
+          "serviceTier": "standard"
+        }
+      },
+      "unitErrors": {
+        "u_de65684c6003756a082ab13f_0": "Translation changed protected placeholders",
+        "u_f2c67f716b5ca8bffd953a36_0": "Translation changed protected placeholders",
+        "u_a8bd897832c96261259adcea_0": "Translation changed protected placeholders",
+        "u_028ab948bca026cd4df0441e_0": "Translation changed protected placeholders",
+        "u_18739552e3100605eec9ee83_0": "Translation changed protected placeholders",
+        "u_cf7e05c94636cae456d4fa96_0": "Translation changed protected placeholders",
+        "u_34a8fb06e4427631c9396d1e_0": "Translation changed protected placeholders"
+      },
+      "error": "Some translation units failed validation"
     },
     {
       "key": "3IDVtesTQ8ds_ac58903eba5feaeb",
@@ -1741,7 +2459,33 @@
           "context": "External links",
           "contextHash": "2cedb069633746f45f07d748666e17efa964159469f9e2c993d67c632f661d2a"
         }
-      ]
+      ],
+      "result": {
+        "key": "3IDVtesTQ8ds_ac58903eba5feaeb",
+        "translations": {
+          "u_b0991af44fd78e34296bd150_0": "__TRILIUM_PH_0__Formatting toolbar__TRILIUM_PH_1__の __TRILIUM_PH_2__ を押すか、__TRILIUM_PH_3__Ctrl__TRILIUM_PH_4__+__TRILIUM_PH_5__K__TRILIUM_PH_6__ を押します。",
+          "u_eef2a0eb0f81f0958f4f9e34_0": "アドレス欄から移動するか __TRILIUM_PH_0__Paste__TRILIUM_PH_1__ ボタンで貼り付けると、空の __TRILIUM_PH_2__Link title__TRILIUM_PH_3__ にウェブページのタイトルが自動入力されます。読み込み中は末尾にスピナーが表示されます。入力したタイトルはそのまま保持されます。これを無効にするには、__TRILIUM_PH_4__Options__TRILIUM_PH_5__ → __TRILIUM_PH_6__Text Notes__TRILIUM_PH_7__ に移動し、__TRILIUM_PH_8__Features__TRILIUM_PH_9__ セクションの __TRILIUM_PH_10__Automatically retrieve titles for text links__TRILIUM_PH_11__ をオフにします。"
+        },
+        "modelVersion": "gemini-3.5-flash-lite",
+        "usage": {
+          "promptTokenCount": 1224,
+          "candidatesTokenCount": 905,
+          "totalTokenCount": 2129,
+          "promptTokensDetails": [
+            {
+              "modality": "TEXT",
+              "tokenCount": 1224
+            }
+          ],
+          "serviceTier": "standard"
+        }
+      },
+      "unitErrors": {
+        "u_fa524990c878160b05f30a87_0": "Translation changed protected placeholders",
+        "u_e8046e51935339639168e067_0": "Translation changed protected placeholders",
+        "u_8dea6f59aaf75a6382f6def2_0": "Translation changed protected placeholders"
+      },
+      "error": "Some translation units failed validation"
     },
     {
       "key": "hrZ1D00cLbal_3b31a8f152ebddfe",
@@ -1763,7 +2507,12 @@
           "context": "Internal (reference) links > In-place linking",
           "contextHash": "d5d8f35c7caca88eb039d810ddb709a57b01da6d469a3341b190d50dd6c1214e"
         }
-      ]
+      ],
+      "unitErrors": {
+        "u_28c434a56dcc7619fe62bdec_0": "Translation changed protected placeholders",
+        "u_bce14c94920e906e87709ed8_0": "Translation changed protected placeholders"
+      },
+      "error": "Some translation units failed validation"
     },
     {
       "key": "wfGXLmm7x27z_98323f8def53fc85",
@@ -1777,7 +2526,11 @@
           "context": "Backlinks > Where backlinks are shown",
           "contextHash": "c1536af87ca41c626def21ac3924f7be7b5e6225c6c1011cc27a6f2381222d77"
         }
-      ]
+      ],
+      "unitErrors": {
+        "u_38e1954419dff8c314031759_0": "Translation changed protected placeholders"
+      },
+      "error": "Some translation units failed validation"
     },
     {
       "key": "S6Xx8QIWTV66_15848385e3e57656",
@@ -1791,7 +2544,11 @@
           "context": "Lists > Keyboard interaction",
           "contextHash": "89ccfe44429bcfdfdbcddafcd67620e3a22cc27805048f233beb22a0622b0ab0"
         }
-      ]
+      ],
+      "unitErrors": {
+        "u_4227794c6a7c0ddcaf69bcbe_0": "Translation changed protected placeholders"
+      },
+      "error": "Some translation units failed validation"
     },
     {
       "key": "YfYAtQBcfo5V_f3831a8b32f313e7",
@@ -1805,7 +2562,11 @@
           "context": "Math Equations",
           "contextHash": "9c28dd8ef9e6a3f1bd55d1e21b4350932bddb54c36117212375dbb731f8622b8"
         }
-      ]
+      ],
+      "unitErrors": {
+        "u_b25341674ea75060c4715baa_0": "Translation changed protected placeholders"
+      },
+      "error": "Some translation units failed validation"
     },
     {
       "key": "wYDzQ1fBFgfT_88342c1cafcede35",
@@ -1819,7 +2580,11 @@
           "context": "Multicolumn layout > Inserting a layout",
           "contextHash": "592c6894d32db61271bfb9b405aaeb3a46974f2ffc629a0c536b6bb26497cb67"
         }
-      ]
+      ],
+      "unitErrors": {
+        "u_8762889c04d2a3ceec11d284_0": "Translation changed protected placeholders"
+      },
+      "error": "Some translation units failed validation"
     },
     {
       "key": "0vgWgxQAWj4a_066e7a0566933634",
@@ -1857,7 +2622,14 @@
           "context": "Sorting > What is sorted",
           "contextHash": "3dde123871fc24faf493e07127f36cff3f9ca1dd5331722e82904d2e7995401a"
         }
-      ]
+      ],
+      "unitErrors": {
+        "u_2eee2af9ddbcdbe517aaac8f_0": "Translation changed protected placeholders",
+        "u_ed320789bacddcd02537ba3f_0": "Translation changed protected placeholders",
+        "u_1239dc7474768787165a3a4f_0": "Translation changed protected placeholders",
+        "u_1483151a7805b92acb2a9e4c_0": "Translation changed protected placeholders"
+      },
+      "error": "Some translation units failed validation"
     },
     {
       "key": "NdowYOC1GFKS_d2749b80709ccc5c",
@@ -1935,7 +2707,37 @@
           "context": "Tables > Table borders",
           "contextHash": "29aebca2de96b86a40999c4e95c89bac47faa2be79cacaaa9e46f7b096a93f55"
         }
-      ]
+      ],
+      "result": {
+        "key": "NdowYOC1GFKS_d2749b80709ccc5c",
+        "translations": {
+          "u_921ef83b566d4ba3d9188f95_0": "正確な幅を設定するには、__TRILIUM_PH_0__を超えるパーセンテージまたはピクセル単位の幅を__TRILIUM_PH_1__ __TRILIUM_PH_2__表のプロパティ__TRILIUM_PH_3__に入力します。"
+        },
+        "modelVersion": "gemini-3.5-flash-lite",
+        "usage": {
+          "promptTokenCount": 1642,
+          "candidatesTokenCount": 1377,
+          "totalTokenCount": 3019,
+          "promptTokensDetails": [
+            {
+              "modality": "TEXT",
+              "tokenCount": 1642
+            }
+          ],
+          "serviceTier": "standard"
+        }
+      },
+      "unitErrors": {
+        "u_6ef6d308759490a685f2342f_0": "Translation changed protected placeholders",
+        "u_70adb6051fa862a81ae57577_0": "Translation changed protected placeholders",
+        "u_5745e626db648b69d22c5f14_0": "Translation changed protected placeholders",
+        "u_846ab9ae23a20cf17cdf15b9_0": "Translation changed protected placeholders",
+        "u_91ee3d15b27441c1ec216806_0": "Translation changed protected placeholders",
+        "u_bf3979edcd068fc744d60c9f_0": "Translation changed protected placeholders",
+        "u_60e22e53dfcedad77887920f_0": "Translation changed protected placeholders",
+        "u_a8e03d48116476613155fefd_0": "Translation changed protected placeholders"
+      },
+      "error": "Some translation units failed validation"
     },
     {
       "key": "6f9hih2hXXZk_68a61747343ce2a0",
@@ -1965,7 +2767,13 @@
           "context": "Code > Line numbers",
           "contextHash": "6223a7de6148abe5d4520b31bd3770f94a72c395bf9b47b2adbb15c13e2fec1f"
         }
-      ]
+      ],
+      "unitErrors": {
+        "u_3e941d1c3575b1e5dc33de05_0": "Translation changed protected placeholders",
+        "u_36c42696e8df1294f7ec7e70_0": "Translation changed protected placeholders",
+        "u_bfe727450ef58c444be3bbd1_0": "Translation changed protected placeholders"
+      },
+      "error": "Some translation units failed validation"
     },
     {
       "key": "m523cpzocqaD_f1715957ff2b0a92",
@@ -1979,7 +2787,11 @@
           "context": "Saved Search",
           "contextHash": "9b2b20ae76cce84582e1495ef1ab037fd4ffd93ebfb5a0c20975d9f944fcb06f"
         }
-      ]
+      ],
+      "unitErrors": {
+        "u_f0b873a54c056d2e81371a27_0": "Translation changed protected placeholders"
+      },
+      "error": "Some translation units failed validation"
     },
     {
       "key": "iRwzGnHPzonm_fbc6cee59e10c83b",
@@ -2001,7 +2813,30 @@
           "context": "Relation Map > Family demo",
           "contextHash": "02cf1edf9f59dfd8670245d830f37516eb641886dc7154e88dfd9087fbddcfbb"
         }
-      ]
+      ],
+      "result": {
+        "key": "iRwzGnHPzonm_fbc6cee59e10c83b",
+        "translations": {
+          "u_d5412243e79e6423b6732039_0": "__TRILIUM_PH_0__複数選択__TRILIUM_PH_1__を使用して複数のノートをまとめてドラッグすることもできます。ノートは重なることなく、ドラッグした位置の近くに配置されます。"
+        },
+        "modelVersion": "gemini-3.5-flash-lite",
+        "usage": {
+          "promptTokenCount": 546,
+          "candidatesTokenCount": 244,
+          "totalTokenCount": 790,
+          "promptTokensDetails": [
+            {
+              "modality": "TEXT",
+              "tokenCount": 546
+            }
+          ],
+          "serviceTier": "standard"
+        }
+      },
+      "unitErrors": {
+        "u_606b2bb958e1a59416ed0ae5_0": "Translation changed protected placeholders"
+      },
+      "error": "Some translation units failed validation"
     },
     {
       "key": "HcABDtFCkbFN_faa51f24d381bb10",
@@ -2047,7 +2882,33 @@
           "context": "Render Note > Examples",
           "contextHash": "1460eeca11e537a13b0658b1ac44ed6d552c5fff28bb85e3e5e998547004d301"
         }
-      ]
+      ],
+      "result": {
+        "key": "HcABDtFCkbFN_faa51f24d381bb10",
+        "translations": {
+          "u_283d4676f4c4219cdcc1eba2_0": "親のレンダリングノートで、新しく作成した子を指す __TRILIUM_PH_0__ リレーションを定義します。",
+          "u_e0c35b86569592453f71d322_0": "印刷用にレイアウトを調整するには、__TRILIUM_PH_0__ リレーションを使用します。"
+        },
+        "modelVersion": "gemini-3.5-flash-lite",
+        "usage": {
+          "promptTokenCount": 760,
+          "candidatesTokenCount": 439,
+          "totalTokenCount": 1199,
+          "promptTokensDetails": [
+            {
+              "modality": "TEXT",
+              "tokenCount": 760
+            }
+          ],
+          "serviceTier": "standard"
+        }
+      },
+      "unitErrors": {
+        "u_52860d7bdfb298f9f42f8313_0": "Translation changed protected placeholders",
+        "u_2b4198be2af6ab1c623cd899_0": "Translation changed protected placeholders",
+        "u_b4b73208f4a8ee33c2e8941f_0": "Translation changed protected placeholders"
+      },
+      "error": "Some translation units failed validation"
     },
     {
       "key": "s1aBHPd79XYj_d372b4095e1cbf87",
@@ -2069,7 +2930,12 @@
           "context": "Mermaid Diagrams > Diagrams in a text note",
           "contextHash": "d4be8b16d61fdb09fbd52a80f0b028807ff673504053d8b2c3e0a78e083643ec"
         }
-      ]
+      ],
+      "unitErrors": {
+        "u_e3e5ff123bc0192dff3c5e10_0": "Translation changed protected placeholders",
+        "u_b50e2f96795af1f34b202875_0": "Translation changed protected placeholders"
+      },
+      "error": "Some translation units failed validation"
     },
     {
       "key": "grjYqerjn243_88b4053d8518c38c",
@@ -2099,9 +2965,720 @@
           "context": "Canvas > Embedding notes",
           "contextHash": "5a4718a8aeb2dc23cdedb8cb3dd21d6460024e62917c4c130b7805875d090431"
         }
-      ]
+      ],
+      "unitErrors": {
+        "u_51674924947de2727249d0aa_0": "Translation changed protected placeholders",
+        "u_ddb6ae495450ad1ce978b4e9_0": "Translation changed protected placeholders",
+        "u_47717f581e80cff9c0578b1f_0": "Translation changed protected placeholders"
+      },
+      "error": "Some translation units failed validation"
     }
   ],
   "name": "batches/tf0thya3gi1fguffsk27fvt8onjn4z751dy8",
-  "state": "JOB_STATE_PENDING"
+  "state": "JOB_STATE_SUCCEEDED",
+  "diagnostics": [
+    {
+      "responseIndex": 0,
+      "requestKey": "nRqcgfTb97uV_e2cd6bedd2424339",
+      "reason": "Some translation units failed validation"
+    },
+    {
+      "responseIndex": 1,
+      "requestKey": "7iwde4lsKc6O_99f1baee88a912f2",
+      "reason": "Some translation units failed validation"
+    },
+    {
+      "responseIndex": 2,
+      "requestKey": "rWX5eY045zbE_f70c6559fff385a4",
+      "reason": "Some translation units failed validation"
+    },
+    {
+      "responseIndex": 4,
+      "requestKey": "lwAX5SvbrK2g_3786b013a25593cf",
+      "reason": "Some translation units failed validation"
+    },
+    {
+      "responseIndex": 5,
+      "requestKey": "0hzsNCP31IAB_dd8bfef2ced0fc3f",
+      "reason": "Some translation units failed validation"
+    },
+    {
+      "responseIndex": 6,
+      "requestKey": "7DAiwaf8Z7Rz_60ca5842de8ef277",
+      "reason": "Some translation units failed validation"
+    },
+    {
+      "responseIndex": 7,
+      "requestKey": "IgkTHSaFfq6A_702c5efc081e36ef",
+      "reason": "Some translation units failed validation"
+    },
+    {
+      "responseIndex": 8,
+      "requestKey": "x1lQNKQBqLcA_c8a32bae88050e81",
+      "reason": "Some translation units failed validation"
+    },
+    {
+      "responseIndex": 9,
+      "requestKey": "yeEaYqosGLSh_42b4c2d96af307b9",
+      "reason": "Some translation units failed validation"
+    },
+    {
+      "responseIndex": 10,
+      "requestKey": "RDslemsQ6gCp_bf3907119100efb3",
+      "reason": "Some translation units failed validation"
+    },
+    {
+      "responseIndex": 11,
+      "requestKey": "MtPxeAWVAzMg_24de7e3e4ab7f889",
+      "reason": "Some translation units failed validation"
+    },
+    {
+      "responseIndex": 12,
+      "requestKey": "ODY7qQn5m2FT_d34eda434cbca719",
+      "reason": "Some translation units failed validation"
+    },
+    {
+      "responseIndex": 13,
+      "requestKey": "tAassRL4RSQL_07611e973da554da",
+      "reason": "Some translation units failed validation"
+    },
+    {
+      "responseIndex": 14,
+      "requestKey": "ebyr7ES2SwOW_fbbe0422d9fbf1e1",
+      "reason": "Some translation units failed validation"
+    },
+    {
+      "responseIndex": 15,
+      "requestKey": "x0JgW8UqGXvq_d9580b0159f642f4",
+      "reason": "Some translation units failed validation"
+    },
+    {
+      "responseIndex": 16,
+      "requestKey": "YtSN43OrfzaA_0b96e8e0ee941f0f",
+      "reason": "Some translation units failed validation"
+    },
+    {
+      "responseIndex": 17,
+      "requestKey": "8YBEPzcpUgxw_c5221952f34cbc50",
+      "reason": "Some translation units failed validation"
+    },
+    {
+      "responseIndex": 19,
+      "requestKey": "uNtgN0cUKEBc_8c1933010acdd365",
+      "reason": "Some translation units failed validation"
+    },
+    {
+      "responseIndex": 20,
+      "requestKey": "LrKznOtw9cQD_c1546922b40c5dde",
+      "reason": "Some translation units failed validation"
+    },
+    {
+      "responseIndex": 21,
+      "requestKey": "RnaPdbciOfeq_435f6816c7759db5",
+      "reason": "Some translation units failed validation"
+    },
+    {
+      "responseIndex": 22,
+      "requestKey": "r5JGHN99bVKn_b01caa7d85d29354",
+      "reason": "Some translation units failed validation"
+    },
+    {
+      "responseIndex": 23,
+      "requestKey": "SL5f1Auq7sVN_5560dd1f3a66115f",
+      "reason": "Some translation units failed validation"
+    },
+    {
+      "responseIndex": 26,
+      "requestKey": "0vhv7lsOLy82_44f60b8c5f3f2f51",
+      "reason": "Some translation units failed validation"
+    },
+    {
+      "responseIndex": 27,
+      "requestKey": "TBwsyfadTA18_bea7d0e8d736eaec",
+      "reason": "Some translation units failed validation"
+    },
+    {
+      "responseIndex": 28,
+      "requestKey": "IakOLONlIfGI_5493e579bda6ac53",
+      "reason": "Some translation units failed validation"
+    },
+    {
+      "responseIndex": 29,
+      "requestKey": "bwg0e8ewQMak_6e4fd9ae2d8ece11",
+      "reason": "Some translation units failed validation"
+    },
+    {
+      "responseIndex": 30,
+      "requestKey": "vZWERwf8U3nx_d32e70ed49ab66ab",
+      "reason": "Some translation units failed validation"
+    },
+    {
+      "responseIndex": 32,
+      "requestKey": "CoFPLs3dRlXc_369962b475cc64b1",
+      "reason": "Some translation units failed validation"
+    },
+    {
+      "responseIndex": 33,
+      "requestKey": "S0Fos78ZfcY7_702086e261727a74",
+      "reason": "Some translation units failed validation"
+    },
+    {
+      "responseIndex": 34,
+      "requestKey": "m3VlURMSeOrd_173607b1f04d0e69",
+      "reason": "Some translation units failed validation"
+    },
+    {
+      "responseIndex": 35,
+      "requestKey": "MMiBEQljMQh2_43784978c9abb01c",
+      "reason": "Some translation units failed validation"
+    },
+    {
+      "responseIndex": 37,
+      "requestKey": "eIg8jdvaoNNd_89d2184276782b5d",
+      "reason": "Some translation units failed validation"
+    },
+    {
+      "responseIndex": 38,
+      "requestKey": "u3YFHC9tQlpm_3d8ce7c3091ecd97",
+      "reason": "Some translation units failed validation"
+    },
+    {
+      "responseIndex": 39,
+      "requestKey": "OR8WJ7Iz9K4U_e421e84ac87072d9",
+      "reason": "Some translation units failed validation"
+    },
+    {
+      "responseIndex": 41,
+      "requestKey": "9sRHySam5fXb_bbd6b72e3b09f707",
+      "reason": "Some translation units failed validation"
+    },
+    {
+      "responseIndex": 42,
+      "requestKey": "xWtq5NUHOwql_f2a948f9776c8718",
+      "reason": "Some translation units failed validation"
+    },
+    {
+      "responseIndex": 43,
+      "requestKey": "A9Oc6YKKc65v_43248c220eb6c2a1",
+      "reason": "Some translation units failed validation"
+    },
+    {
+      "responseIndex": 45,
+      "requestKey": "w4rMEhJsALlA_c8f961ea62404af8",
+      "reason": "Some translation units failed validation"
+    },
+    {
+      "responseIndex": 46,
+      "requestKey": "Wy267RK4M69c_2709797185dbd79b",
+      "reason": "Some translation units failed validation"
+    },
+    {
+      "responseIndex": 47,
+      "requestKey": "rJ9grSgoExl9_e528b4a5a99c221b",
+      "reason": "Some translation units failed validation"
+    },
+    {
+      "responseIndex": 48,
+      "requestKey": "Y5mKeJ6dsCld_12d040ae8d8814af",
+      "reason": "Some translation units failed validation"
+    },
+    {
+      "responseIndex": 51,
+      "requestKey": "i6dbnitykE5D_2fbfd0aa48c6eef1",
+      "reason": "Some translation units failed validation"
+    },
+    {
+      "responseIndex": 52,
+      "requestKey": "oSuaNgyyKnhu_415dc1d224e8eb6d",
+      "reason": "Some translation units failed validation"
+    },
+    {
+      "responseIndex": 53,
+      "requestKey": "NwBbFdNZ9h7O_7ee8d185ec447ff0",
+      "reason": "Some translation units failed validation"
+    },
+    {
+      "responseIndex": 54,
+      "requestKey": "klC3ilXa9kUE_7fb32d555ab8e00b",
+      "reason": "Some translation units failed validation"
+    },
+    {
+      "responseIndex": 55,
+      "requestKey": "EK2ckIZ74tbT_d9001ebfd17659b9",
+      "reason": "Some translation units failed validation"
+    },
+    {
+      "responseIndex": 57,
+      "requestKey": "UYuUB1ZekNQU_29df41782b13e077",
+      "reason": "Some translation units failed validation"
+    },
+    {
+      "responseIndex": 58,
+      "requestKey": "AgjCISero73a_3920a82b38d3e611",
+      "reason": "Some translation units failed validation"
+    },
+    {
+      "responseIndex": 59,
+      "requestKey": "Gr6xFaF6ioJ5_3cdb3018e260d966",
+      "reason": "Some translation units failed validation"
+    },
+    {
+      "responseIndex": 60,
+      "requestKey": "0Ofbk1aSuVRu_6519de8c271a14e9",
+      "reason": "Some translation units failed validation"
+    },
+    {
+      "responseIndex": 61,
+      "requestKey": "mT0HEkOsz6i1_1b39124a365dc40b",
+      "reason": "Some translation units failed validation"
+    },
+    {
+      "responseIndex": 63,
+      "requestKey": "VRoP0g1uHHc2_e1f8b804dbd024f5",
+      "reason": "Some translation units failed validation"
+    },
+    {
+      "responseIndex": 64,
+      "requestKey": "nBAXQFj20hS1_3a0f016302a3cb8e",
+      "reason": "Some translation units failed validation"
+    },
+    {
+      "responseIndex": 65,
+      "requestKey": "hD8GawVuazff_0c76c01998751023",
+      "reason": "Some translation units failed validation"
+    },
+    {
+      "responseIndex": 66,
+      "requestKey": "CohkqWQC1iBv_0e1b89b0d6eed0b1",
+      "reason": "Some translation units failed validation"
+    },
+    {
+      "responseIndex": 67,
+      "requestKey": "UmgZAfcltxkS_773de62a9240062d",
+      "reason": "Some translation units failed validation"
+    },
+    {
+      "responseIndex": 68,
+      "requestKey": "3IDVtesTQ8ds_ac58903eba5feaeb",
+      "reason": "Some translation units failed validation"
+    },
+    {
+      "responseIndex": 69,
+      "requestKey": "hrZ1D00cLbal_3b31a8f152ebddfe",
+      "reason": "Some translation units failed validation"
+    },
+    {
+      "responseIndex": 70,
+      "requestKey": "wfGXLmm7x27z_98323f8def53fc85",
+      "reason": "Some translation units failed validation"
+    },
+    {
+      "responseIndex": 71,
+      "requestKey": "S6Xx8QIWTV66_15848385e3e57656",
+      "reason": "Some translation units failed validation"
+    },
+    {
+      "responseIndex": 72,
+      "requestKey": "YfYAtQBcfo5V_f3831a8b32f313e7",
+      "reason": "Some translation units failed validation"
+    },
+    {
+      "responseIndex": 73,
+      "requestKey": "wYDzQ1fBFgfT_88342c1cafcede35",
+      "reason": "Some translation units failed validation"
+    },
+    {
+      "responseIndex": 74,
+      "requestKey": "0vgWgxQAWj4a_066e7a0566933634",
+      "reason": "Some translation units failed validation"
+    },
+    {
+      "responseIndex": 75,
+      "requestKey": "NdowYOC1GFKS_d2749b80709ccc5c",
+      "reason": "Some translation units failed validation"
+    },
+    {
+      "responseIndex": 76,
+      "requestKey": "6f9hih2hXXZk_68a61747343ce2a0",
+      "reason": "Some translation units failed validation"
+    },
+    {
+      "responseIndex": 77,
+      "requestKey": "m523cpzocqaD_f1715957ff2b0a92",
+      "reason": "Some translation units failed validation"
+    },
+    {
+      "responseIndex": 78,
+      "requestKey": "iRwzGnHPzonm_fbc6cee59e10c83b",
+      "reason": "Some translation units failed validation"
+    },
+    {
+      "responseIndex": 79,
+      "requestKey": "HcABDtFCkbFN_faa51f24d381bb10",
+      "reason": "Some translation units failed validation"
+    },
+    {
+      "responseIndex": 80,
+      "requestKey": "s1aBHPd79XYj_d372b4095e1cbf87",
+      "reason": "Some translation units failed validation"
+    },
+    {
+      "responseIndex": 81,
+      "requestKey": "grjYqerjn243_88b4053d8518c38c",
+      "reason": "Some translation units failed validation"
+    }
+  ],
+  "rejectedResponses": [
+    {
+      "responseIndex": 0,
+      "text": "{\n  \"requestKey\": \"nRqcgfTb97uV_e2cd6bedd2424339\",\n  \"translations\": {\n    \"u_970ed7996d9d73fbe7f0666f_0\": \"セキュリティ上の理由から、この機能はデフォルトでは__TRILIUM_PH_0__有効になっていません__TRILIUM_PH_1__。有効にするには、__TRILIUM_PH_4__セキュリティ__TRILIUM_PH_5__で__TRILIUM_PH_2__ネットワークアクセス__TRILIUM_PH_3__を有効にしてください。\"\n  }\n}",
+      "finishReason": "STOP"
+    },
+    {
+      "responseIndex": 1,
+      "text": "{\n  \"requestKey\": \"7iwde4lsKc6O_99f1baee88a912f2\",\n  \"translations\": {\n    \"u_9fde006f67464642484495a3_0\": \"Linuxでは、__TRILIUM_PH_0__Launch on startup__TRILIUM_PH_1__は、ユーザーの自動起動ディレクトリ（__TRILIUM_PH_3__、通常は__TRILIUM_PH_4__）に__TRILIUM_PH_2__のエントリを書き込みます。その__TRILIUM_PH_5__行目は、AppImageから実行されている場合はAppImageを指し、それ以外の場合は実行中の実行ファイルを指します。\"\n  }\n}",
+      "finishReason": "STOP"
+    },
+    {
+      "responseIndex": 2,
+      "text": "{\n  \"requestKey\": \"rWX5eY045zbE_f70c6559fff385a4\",\n  \"translations\": {\n    \"u_edb3a397b8025ef18fecff79_0\": \"SMB/CIFS共有またはフォルダをTriliumのデータディレクトリとして使用している場合、SMB共有をマウントする際に __TRILIUM_PH_0__noacl__TRILIUM_PH_1__ および __TRILIUM_PH_2__nolock__TRILIUM_PH_3__ のマウントオプションを追加__TRILIUM_PH_1__する必要があります。\",\n    \"u_a059f770a4141e9fc80c2a39_0\": \"データを別の場所に保存するには、__TRILIUM_PH_1__ 内の __TRILIUM_PH_0__ エントリを編集し、コロンの前のホストパスを変更します（例：__TRILIUM_PH_2__）。コロンの後のパスはそのまま変更しないでください。\",\n    \"u_c6d4ac14f4e0658e165bb3f7_0\": \"タイムゾーンに関する問題が発生しており、docker-composeを使用していない場合は、お使いの地域のタイムゾーンの __TRILIUM_PH_1__TZ識別子__TRILIUM_PH_2__を指定した __TRILIUM_PH_0__ 環境変数を追加する必要がある場合があります。\",\n    \"u_e45c7e575ff7e16f5d55ff64_0\": \"Docker Composeを使用する場合は、__TRILIUM_PH_1__ 内のサービスに __TRILIUM_PH_0__ を追加します。\"\n  }\n}",
+      "finishReason": "STOP"
+    },
+    {
+      "responseIndex": 4,
+      "text": "{\n  \"requestKey\": \"lwAX5SvbrK2g_3786b013a25593cf\",\n  \"translations\": {\n    \"u_f1433df101d68aed7917edd9_0\": \"__TRILIUM_PH_2__data ディレクトリ__TRILIUM_PH_3__内にある __TRILIUM_PH_0__database__TRILIUM_PH_1__ ファイルにアクセスします。__TRILIUM_PH_4__ファイルを SQLite クライアント（例: __TRILIUM_PH_5__DB Browser__TRILIUM_PH_6__）で開きます。\"\n  }\n}",
+      "finishReason": "STOP"
+    },
+    {
+      "responseIndex": 5,
+      "text": "{\n  \"requestKey\": \"0hzsNCP31IAB_dd8bfef2ced0fc3f\",\n  \"translations\": {\n    \"u_b8e55ba818bc6c938f9bf70f_0\": \"「ログイン状態を保持する」にチェックを入れている場合、ログインは21日後に有効期限切れとなります。この期間は、__TRILIUM_PH_1__ 内の __TRILIUM_PH_0__ の値を変更することで調整できます。例えば、セッションを1日で期限切れにするには次のように設定します。\"\n  }\n}",
+      "finishReason": "STOP"
+    },
+    {
+      "responseIndex": 6,
+      "text": "{\n  \"requestKey\": \"7DAiwaf8Z7Rz_60ca5842de8ef277\",\n  \"translations\": {\n    \"u_3bd7e22f2edddbb46f707974_0\": \"間違ったワンタイムパスワードは、通常のパスワードの誤入力と同様に、失敗回数の制限としてカウントされます。__TRILIUM_PH_2__Authentication__TRILIUM_PH_3__内の__TRILIUM_PH_0__Brute-force protection__TRILIUM_PH_1__をご覧ください。\",\n    \"u_f709abb2eb81463b4442e0db_0\": \"TOTPが有効になると、__TRILIUM_PH_2__呼び出しを通じて__TRILIUM_PH_0__ETAPI (REST API)__TRILIUM_PH_1__のトークンを取得する際にも第2要素が必要になります。__TRILIUM_PH_4__に加えて、ワンタイムパスワードまたはリカバリコードを__TRILIUM_PH_3__として送信してください。各コードは1回のみ使用できます。\"\n  }\n}",
+      "finishReason": "STOP"
+    },
+    {
+      "responseIndex": 7,
+      "text": "{\n  \"requestKey\": \"IgkTHSaFfq6A_702c5efc081e36ef\",\n  \"translations\": {\n    \"u_8dfa0cd3aed9dd0ad1738655_0\": \"Authelia の __TRILIUM_PH_1__ 内の __TRILIUM_PH_0__ の下部にクライアントを追加し、__TRILIUM_PH_2__ をお使いの Trilium インスタンスの URL に置き換えてください：\",\n    \"u_4a255792f68ce2dab40b38e1_0\": \"ステップ 1 の __TRILIUM_PH_1__ を使用して、__TRILIUM_PH_0__ を調整します：\",\n    \"u_1e350e22c07aeab52b11d44a_0\": \"Authelia に対して __TRILIUM_PH_2__ を設定__TRILIUM_PH_0__しないで__TRILIUM_PH_1__てください。機密クライアントはデフォルトで __TRILIUM_PH_3__ に設定され、他の方式は Trilium がすでに使用しているデフォルトである __TRILIUM_PH_4__ で拒否されます。これは以下の GitLab の場合とは逆になります。\",\n    \"u_39a951e59e894baa8978715d_0\": \"Pocket ID では、__TRILIUM_PH_2__ で終わる __TRILIUM_PH_0__OIDC Discovery URL__TRILIUM_PH_1__ が提供されます。v0.105.0 以降では、そのまま貼り付けることができます。それより前のバージョンでは、そのサフィックスを削除し、その前の部分のみを使用してください。\"\n  }\n}",
+      "finishReason": "STOP"
+    },
+    {
+      "responseIndex": 8,
+      "text": "{\n  \"requestKey\": \"x1lQNKQBqLcA_c8a32bae88050e81\",\n  \"translations\": {\n    \"u_374b27ee779195b72a6ff759_0\": \"__TRILIUM_PH_1__ セクションの __TRILIUM_PH_0__\",\n    \"u_d573a44a2d5b8c862107e1b6_0\": \"デフォルトの OAuth 発行者は Google です。Authentik や Auth0 などの他のサービスを使用するには、__TRILIUM_PH_3__ ファイル内の __TRILIUM_PH_0__、__TRILIUM_PH_1__、および __TRILIUM_PH_2__ を介して設定を構成できます。または、環境変数を使用してこれらの値を設定することもできます:\",\n    \"u_374b27ee779195b72a6ff759_1\": \"__TRILIUM_PH_1__ セクションの __TRILIUM_PH_0__\",\n    \"u_374b27ee779195b72a6ff759_2\": \"__TRILIUM_PH_1__ セクションの __TRILIUM_PH_0__\",\n    \"u_9dfc05208b7ba5d100647337_0\": \"OIDC のセッション有効期間は、Trilium 独自のセッション Cookie の有効期間（__TRILIUM_PH_1__ セクションの __TRILIUM_PH_0__ 設定、デフォルトでは 21 日）に自動的に結び付けられます。そのため、OIDC ライブラリの短い内部デフォルト値で早期に期限切れになるのではなく、Trilium セッションが有効であるかぎり、1 回のサインイン状態が維持されます。\"\n  }\n}",
+      "finishReason": "STOP"
+    },
+    {
+      "responseIndex": 9,
+      "text": "{\"requestKey\":\"yeEaYqosGLSh_42b4c2d96af307b9\",\"translations\":{\"u_1e0a054aecea7b9ce62b79bc_0\":\"クラウドインスタンスと __TRILIUM_PH_2__デスクトップ__TRILIUM_PH_3__ クライアントの間で __TRILIUM_PH_0__同期__TRILIUM_PH_1__ を設定した後は、デスクトップアプリケーションのバージョンとサーバーのバージョンを一致させることが重要ですのでご注意ください。\"}}",
+      "finishReason": "STOP"
+    },
+    {
+      "responseIndex": 10,
+      "text": "{\n  \"requestKey\": \"RDslemsQ6gCp_bf3907119100efb3\",\n  \"translations\": {\n    \"u_aa26ae37cd587314bcf8afea_0\": \"__TRILIUM_PH_2__Options__TRILIUM_PH_3__ → __TRILIUM_PH_4__Text Notes__TRILIUM_PH_5__ → __TRILIUM_PH_6__Features__TRILIUM_PH_7__ の下にある __TRILIUM_PH_0__Content hints__TRILIUM_PH_1__ 設定に関わらず、カーソル下の要素（TODOアイテムの状態やそのショートカットなど）を説明するエディタの隅のヒントは表示されません。\",\n    \"u_6fa42c26968a33745151484f_0\": \"__TRILIUM_PH_1__ ボタンの後に __TRILIUM_PH_0__ をタップするとそれが表示され、開始位置にある __TRILIUM_PH_2__ をタップするとメインの行に戻ります。\",\n    \"u_7d576cc61baf570c98c6584b_0\": \"この方法で作成されたすべてのノートには __TRILIUM_PH_0__ ラベルが付与されます。これにより、ノート独自の __TRILIUM_PH_2__ が設定されていない限り、共有されたテキストノートには __TRILIUM_PH_1__ アイコンが表示されます。1回の共有で含めることができるファイルは最大20個です。\",\n    \"u_7eeaedf80348f02128c05d51_0\": \"Triliumは、モバイル用フロントエンドとデスクトップ用フロントエンドのどちらを使用するかを自動的に決定します。これが適切でない場合は、__TRILIUM_PH_2__login__TRILIUM_PH_3__ ページで __TRILIUM_PH_0__ または __TRILIUM_PH_1__ クエリパラメータを使用できます（注：ログアウトが必要になる場合があります）。\",\n    \"u_815db267f62e96ca042305ba_0\": \"または、__TRILIUM_PH_2__Global menu__TRILIUM_PH_3__ で __TRILIUM_PH_0__Switch to mobile version__TRILIUM_PH_1__ を単に選択します。モバイル版では、代わりにそこで __TRILIUM_PH_4__Advanced__TRILIUM_PH_5__ → __TRILIUM_PH_6__Switch to desktop version__TRILIUM_PH_7__ を選択してください。\"\n  }\n}",
+      "finishReason": "STOP"
+    },
+    {
+      "responseIndex": 11,
+      "text": "{\n  \"requestKey\": \"MtPxeAWVAzMg_24de7e3e4ab7f889\",\n  \"translations\": {\n    \"u_a90697760c11358d19ee942f_0\": \"拡張機能はクリッピング自体の画像もダウンロードするため、ノートと一緒にTrilium内に保存されます。ウェブサイトがリクエストを拒否するなどして一部の画像をダウンロードできない場合でも、クリッピングは保存され、不足している画像の数が通知に表示されます。これらの画像は元のウェブサイト上のアドレスを保持します。__TRILIUM_PH_2__Options__TRILIUM_PH_3__ → __TRILIUM_PH_4__Media__TRILIUM_PH_5__ で __TRILIUM_PH_0__Download images automatically__TRILIUM_PH_1__ が有効になっている場合、Triliumはそれらをもう一度ダウンロードしようと試みます。そうでない場合、ノートは配信されている間はウェブサイトから画像を表示します。\",\n    \"u_4a6e29293c777e86fee15a67_0\": \"__TRILIUM_PH_2__Web Clipper.__TRILIUM_PH_3__ で始まるリリースを探して、__TRILIUM_PH_0__GitHub Releases__TRILIUM_PH_1__ から確認します。\",\n    \"u_1f226dcc3bf8b772107ca58e_0\": \"__TRILIUM_PH_2__Manage Your Extensions__TRILIUM_PH_3__ タイトルの右側にある __TRILIUM_PH_0__Gear__TRILIUM_PH_1__ アイコンを押します。\"\n  }\n}",
+      "finishReason": "STOP"
+    },
+    {
+      "responseIndex": 12,
+      "text": "{\n  \"requestKey\": \"ODY7qQn5m2FT_d34eda434cbca719\",\n  \"translations\": {\n    \"u_15c41da1bff6382b379b5f91_0\": \"そのため、合計で最大4つの異なる時点からのバックアップが保持されることになり、さまざまな問題からデータを保護することができます。これらのバックアップは、デフォルトでは __TRILIUM_PH_1__data directory__TRILIUM_PH_2__ 内にある __TRILIUM_PH_0__ ディレクトリに保存されます。\"\n  }\n}",
+      "finishReason": "STOP"
+    },
+    {
+      "responseIndex": 13,
+      "text": "{\"requestKey\":\"tAassRL4RSQL_07611e973da554da\",\"translations\":{\"u_d87f0a4ff57fd51faedc5b8a_0\":\"__TRILIUM_PH_2__Linux向けパッケージ版__TRILIUM_PH_3__で説明されているユニットファイルの __TRILIUM_PH_1__ セクションに、__TRILIUM_PH_0__ 行を追加します:\",\"u_17308624bde38eb35a0d2a37_0\":\"ログイン時に正しく読み込ませるには、__TRILIUM_PH_1__ の下に __TRILIUM_PH_0__ ファイルを作成する必要があります。\"}}",
+      "finishReason": "STOP"
+    },
+    {
+      "responseIndex": 14,
+      "text": "{\n  \"requestKey\": \"ebyr7ES2SwOW_fbbe0422d9fbf1e1\",\n  \"translations\": {\n    \"u_b475ebc545b4a66b9df8a654_0\": \"リソースは __TRILIUM_PH_1__Data directory__TRILIUM_PH_2__ 内の __TRILIUM_PH_0__ フォルダーに、リソースごとに1つのフォルダーとして保存されます。別の場所に保存するには、Triliumを起動する前に __TRILIUM_PH_3__ 環境変数を別のフォルダーに設定してください。\"\n  }\n}",
+      "finishReason": "STOP"
+    },
+    {
+      "responseIndex": 15,
+      "text": "{\n  \"requestKey\": \"x0JgW8UqGXvq_d9580b0159f642f4\",\n  \"translations\": {\n    \"u_f55bf9fada86e20402cb75fc_0\": \"__TRILIUM_PH_0__ノートツリー__TRILIUM_PH_1__は、__TRILIUM_PH_3__ランチバー__TRILIUM_PH_4__の下部にある__TRILIUM_PH_2__ボタンを押すことで折りたたむことができます。折りたたんでいる間は、__TRILIUM_PH_5__ランチバー__TRILIUM_PH_6__の右側にあるストリップを押すことで、コンテンツの上に一時的に表示させることができます。\",\n    \"u_d6ec3fc091eaa38665c2cdbe_0\": \"__TRILIUM_PH_0__グローバルメニュー__TRILIUM_PH_1__には、__TRILIUM_PH_3__ランチバー__TRILIUM_PH_4__の上部にある__TRILIUM_PH_2__アイコンからアクセスできます。\",\n    \"u_0f939589747524ec3314485d_0\": \"__TRILIUM_PH_0__グローバルメニュー__TRILIUM_PH_1__には、__TRILIUM_PH_3__ランチバー__TRILIUM_PH_4__の端にある__TRILIUM_PH_2__ボタンからアクセスできます。\"\n  }\n}",
+      "finishReason": "STOP"
+    },
+    {
+      "responseIndex": 16,
+      "text": "{\n  \"requestKey\": \"YtSN43OrfzaA_0b96e8e0ee941f0f\",\n  \"translations\": {\n    \"u_e0817c69a514d412ab1e2801_0\": \"モバイル版では、__TRILIUM_PH_0__Open__TRILIUM_PH_1__、__TRILIUM_PH_2__Open in a new tab__TRILIUM_PH_3__、__TRILIUM_PH_4__Open in a new split__TRILIUM_PH_5__が__TRILIUM_PH_6__Open note__TRILIUM_PH_7__の代わりに直接メニューにリストされ、__TRILIUM_PH_8__Open in a new window__TRILIUM_PH_9__は除外されます。__TRILIUM_PH_10__Open__TRILIUM_PH_11__は、現在のタブでノートを表示します。子を持つノートをタップすると子の一覧が表示されるため、この操作を行うことで子を持つノートも開きます。\",\n    \"u_4f6846d02574242ad7021f56_0\": \"__TRILIUM_PH_2__Templates__TRILIUM_PH_3__の見出しの下に、リストの最後には__TRILIUM_PH_0__Templates__TRILIUM_PH_1__も（存在する場合は）表示されます。見出しの横にある__TRILIUM_PH_4__ボタンをクリックすると、__TRILIUM_PH_7__Options__TRILIUM_PH_8__内の__TRILIUM_PH_5__Content Manager__TRILIUM_PH_6__が開き、そこでテンプレートを管理できます。\"\n  }\n}",
+      "finishReason": "STOP"
+    },
+    {
+      "responseIndex": 17,
+      "text": "{\n  \"requestKey\": \"8YBEPzcpUgxw_c5221952f34cbc50\",\n  \"translations\": {\n    \"u_33b15371dd7608600c84815f_0\": \"__TRILIUM_PH_0____TRILIUM_PH_1____TRILIUM_PH_2__Advanced__TRILIUM_PH_4__ サブメニュー内の __TRILIUM_PH_3__Open with...__TRILIUM_PH_5__ を選択すると、オペレーティングシステムがそのファイルタイプに関連付けているアプリケーションではなく、自分で選んだアプリケーションでノートが開きます。__TRILIUM_PH_6__Open externally__TRILIUM_PH_7__ と同様に、Trilium はノートを一時ファイルに保存して監視し、変更されたバージョンをノートに再度アップロードするかどうかを尋ねてきます。この項目はデスクトップアプリケーションでのみ利用可能です（添付ファイルでも同様のアクションが提供されます）。\",\n    \"u_1493b36a433b03cd663c0262_0\": \"デフォルトのアプリケーションを変更せずにエディタを表示させるには、__TRILIUM_PH_1__ 内の __TRILIUM_PH_0__ に、そのエディタの __TRILIUM_PH_2__ ファイルの名前を使用して追加します：\",\n    \"u_d30637d3713cc5fae019bcea_0\": \"ノートタイプのカスタムボタン（__TRILIUM_PH_3__File__TRILIUM_PH_4__ における __TRILIUM_PH_0____TRILIUM_PH_1__Download__TRILIUM_PH_2__ など）。\",\n    \"u_d9473010f89206776db68ba5_0\": \"__TRILIUM_PH_2__Split View__TRILIUM_PH_3__ の2つ目のノートにある __TRILIUM_PH_0__Close this pane__TRILIUM_PH_1__。\",\n    \"u_7616f279d6a849f5a9749714_0\": \"__TRILIUM_PH_3__Protect the note__TRILIUM_PH_4__ の下にある __TRILIUM_PH_0__ __TRILIUM_PH_1__Note settings__TRILIUM_PH_2__。これにより、__TRILIUM_PH_5__Shared__TRILIUM_PH_6__ および __TRILIUM_PH_7__Bookmark__TRILIUM_PH_8__ に続いて、__TRILIUM_PH_9__Note type__TRILIUM_PH_10__、__TRILIUM_PH_11__Template__TRILIUM_PH_12__、__TRILIUM_PH_13__Full width__TRILIUM_PH_14__ がノートの言語（__TRILIUM_PH_15__Text__TRILIUM_PH_16__ ノートにおけるコンテンツ言語（__TRILIUM_PH_17__Content language & Right-to-left support__TRILIUM_PH_18__ を参照）、および __TRILIUM_PH_19__Code__TRILIUM_PH_20__ ノートにおけるコードの言語）と共に専用のページで開きます。__TRILIUM_PH_21__Editable__TRILIUM_PH_22__ の選択肢は、さらにサブメニューを開くのではなく、そのページの最後に独自の見出しの下にリストされます。\",\n    \"u_375fd95249f1dd78bf8bbd58_0\": \"__TRILIUM_PH_3__Note settings__TRILIUM_PH_4__ の下にある __TRILIUM_PH_0__ __TRILIUM_PH_1__Note info__TRILIUM_PH_2__。これにより、ノートの日付、タイプ、ID、サイズが専用のページで開き、最後に __TRILIUM_PH_5__Show similar notes__TRILIUM_PH_6__（__TRILIUM_PH_7__Similar Notes__TRILIUM_PH_8__ を参照）が表示されます。\"\n  }\n}",
+      "finishReason": "STOP"
+    },
+    {
+      "responseIndex": 19,
+      "text": "{\n  \"requestKey\": \"uNtgN0cUKEBc_8c1933010acdd365\",\n  \"translations\": {\n    \"u_36c82d4b508f351c9e824b89_0\": \"Triliumで特別な意味を持つシステム属性には、アイコンの近くに小さな __TRILIUM_PH_0__ 歯車が表示され、ユーザー定義のものとは別にグループ化されます。\",\n    \"u_0bb7471d69a389fdce66431d_0\": \"__TRILIUM_PH_1__ツールバー__TRILIUM_PH_2__にある __TRILIUM_PH_0__ ボタンから、新しいラベル、リレーション、または属性の定義を追加できます。これにより、詳細なポップアップが表示されます。\",\n    \"u_cda19cb7e3f2b6228ef915ad_0\": \"ラベル定義を追加するには、リストの末尾にある __TRILIUM_PH_0__定義の追加__TRILIUM_PH_1__ (__TRILIUM_PH_2__) 項目をクリックします。そのタイプはポップアップからリレーションに変更できます。両方の種類の定義は、__TRILIUM_PH_4__ツールバー__TRILIUM_PH_5__にある __TRILIUM_PH_3__ ボタンからも追加できます。\",\n    \"u_889e0f45c51118ea41f1417d_0\": \"モバイルでは、属性はノートパネルの __TRILIUM_PH_0__属性__TRILIUM_PH_1__ タブ（__TRILIUM_PH_2__右サイドバー__TRILIUM_PH_3__を参照）であり、__TRILIUM_PH_5__ノートメニュー__TRILIUM_PH_6__の横にある __TRILIUM_PH_4__ ボタンから画面下部にシートとして開きます。__TRILIUM_PH_9__バックリンク__TRILIUM_PH_10__と__TRILIUM_PH_11__ノートパス__TRILIUM_PH_12__の下にあるノートメニューで __TRILIUM_PH_7__属性__TRILIUM_PH_8__を選択すると、そのタブでパネルが開きます。属性をタップすると独自のページで開き、リストに戻るための __TRILIUM_PH_13__ ボタンが表示されます。\",\n    \"u_e3fea80effd8c5d0abd03ace_0\": \"属性は、ヘッダーの __TRILIUM_PH_0__ ボタン、または __TRILIUM_PH_2__定義__TRILIUM_PH_3__ カードの上にある __TRILIUM_PH_1__ ボタンから追加されます。\"\n  }\n}",
+      "finishReason": "STOP"
+    },
+    {
+      "responseIndex": 20,
+      "text": "{\n  \"requestKey\": \"LrKznOtw9cQD_c1546922b40c5dde\",\n  \"translations\": {\n    \"u_2ef87dfc59c46165f3156c75_0\": \"__TRILIUM_PH_0__AI__TRILIUM_PH_1__ 連携を有効にすると、__TRILIUM_PH_4__右サイドバー__TRILIUM_PH_5__に __TRILIUM_PH_2__チャット__TRILIUM_PH_3__ 項目が表示されます。\"\n  }\n}",
+      "finishReason": "STOP"
+    },
+    {
+      "responseIndex": 21,
+      "text": "{\n  \"requestKey\": \"RnaPdbciOfeq_435f6816c7759db5\",\n  \"translations\": {\n    \"u_3fe4676ec9c7b996c491504a_0\": \"モバイルでは、右サイドバーはノートパネルに置き換わります。これは、__TRILIUM_PH_1__Note メニュー__TRILIUM_PH_2__の横にある __TRILIUM_PH_0__ ボタンから、画面の下部にシートとして開きます。\"\n  }\n}",
+      "finishReason": "STOP"
+    },
+    {
+      "responseIndex": 22,
+      "text": "{\n  \"requestKey\": \"r5JGHN99bVKn_b01caa7d85d29354\",\n  \"translations\": {\n    \"u_f755f96c7f677b0ba83d89f0_0\": \"すべてのドキュメントの変更内容の概要を表示するには、__TRILIUM_PH_1__起動バー__TRILIUM_PH_2__にある __TRILIUM_PH_0__ ボタンを押してください。\",\n    \"u_294f772bd2d55c621a640c36_0\": \"__TRILIUM_PH_1__タブ__TRILIUM_PH_2__バーの __TRILIUM_PH_0__ ボタンを右クリックまたは長押しすると、タブで開いていない最近変更されたノートの一覧が表示されます。そのメニューの一番下にある __TRILIUM_PH_3__すべての最近の変更__TRILIUM_PH_4__から、このダイアログを開くことができます。\"\n  }\n}",
+      "finishReason": "STOP"
+    },
+    {
+      "responseIndex": 23,
+      "text": "{\n  \"requestKey\": \"SL5f1Auq7sVN_5560dd1f3a66115f\",\n  \"translations\": {\n    \"u_d151c511a9083e304148df00_0\": \"テキストノートに含まれるMarkdownノート、またはそこに埋め込まれたMarkdownファイルも同様に3つの表示モードを持ち、インクルードのタイトル行やツールバーから切り替えることができます。__TRILIUM_PH_2__ノートのインクルード__TRILIUM_PH_3__の__TRILIUM_PH_0__Markdownのインクルード__TRILIUM_PH_1__をご覧ください。\"\n  }\n}",
+      "finishReason": "STOP"
+    },
+    {
+      "responseIndex": 26,
+      "text": "{\"requestKey\":\"0vhv7lsOLy82_44f60b8c5f3f2f51\",\"translations\":{\"u_3610eeda7f5b4537590734d9_0\":\"__TRILIUM_PH_0__Canvas__TRILIUM_PH_1__ ノートの SVG 画像（__TRILIUM_PH_2__）、およびテキストノート内の各描画キャンバスのSVG画像（__TRILIUM_PH_5__Include Note__TRILIUM_PH_6__ の __TRILIUM_PH_3__Drawing canvases__TRILIUM_PH_4__ を参照）。プレビューや共有ページに使用されます。\",\"u_658ed969d4ed5907af4d0c2b_0\":\"または、ファイルエクスプローラーから1つ以上のファイルをドラッグし、リスト上の任意の場所にドロップします。__TRILIUM_PH_2__Options__TRILIUM_PH_3__ → __TRILIUM_PH_4__Media__TRILIUM_PH_5__ で __TRILIUM_PH_0__Automatic image compression__TRILIUM_PH_1__ が有効になっている場合、画像は圧縮されます。\",\"u_5cbaf68b7caf117925a6b8c0_0\":\"ファイルを __TRILIUM_PH_0__Text__TRILIUM_PH_1__ ノートに添付してそのコンテンツに埋め込むには、__TRILIUM_PH_5__Formatting toolbar__TRILIUM_PH_6__ の __TRILIUM_PH_2____TRILIUM_PH_3__Attach file__TRILIUM_PH_4__ ボタンを押し、__TRILIUM_PH_7__Attach and embed file__TRILIUM_PH_8__ を選択して1つ以上のファイルを選択します（以下の __TRILIUM_PH_9__Embedding an attachment__TRILIUM_PH_10__ を参照）。同じメニューには、画像を挿入する __TRILIUM_PH_11__Image__TRILIUM_PH_12__（__TRILIUM_PH_13__Images__TRILIUM_PH_14__ を参照）や、代わりにファイルをリンクする __TRILIUM_PH_15__Attach file as a link__TRILIUM_PH_16__ も用意されています。どちらのファイル操作も、__TRILIUM_PH_21__Slash Commands__TRILIUM_PH_22__ における __TRILIUM_PH_17__Attach file as a link__TRILIUM_PH_18__ および __TRILIUM_PH_19__Attach and embed file__TRILIUM_PH_20__ として利用できます。スマートフォンでは、メニューに __TRILIUM_PH_23__Camera__TRILIUM_PH_24__ も表示されます（__TRILIUM_PH_25__Mobile Frontend__TRILIUM_PH_26__ を参照）。\",\"u_d5d74f4350e979ff69ca3a89_0\":\"__TRILIUM_PH_0__Include Note__TRILIUM_PH_1__ がノートを表示する方法と同様に、添付ファイルをリンクとしてではなくテキスト内に表示することができます。画像が表示され、PDF、動画、またはドキュメントがプレビューされ、コードまたはテキストファイルが構文ハイライト付きで表示され、__TRILIUM_PH_2__ ファイルなどの Markdown ファイルがレンダリングされて表示されます。埋め込まれたコードファイルはその場で編集することもでき（__TRILIUM_PH_5__Include Note__TRILIUM_PH_6__ の __TRILIUM_PH_3__Editing an include in place__TRILIUM_PH_4__ を参照）、埋め込まれた Markdown ファイルは、含まれている Markdown ノートと同様に、そのソース、レンダリング、またはその両方を示します（同所の __TRILIUM_PH_7__Included Markdown__TRILIUM_PH_8__ を参照）。\",\"u_81550fc6b3b23d9addc095ea_0\":\"__TRILIUM_PH_3____TRILIUM_PH_4__Insert__TRILIUM_PH_5__ メニューの __TRILIUM_PH_0____TRILIUM_PH_1__Drawing canvas__TRILIUM_PH_2__ で挿入される描画キャンバスは、その場で描画できる __TRILIUM_PH_6__ 添付ファイルの埋め込みです。添付された Excalidraw ファイル（__TRILIUM_PH_7__）も同様に描画キャンバスとして埋め込まれます（__TRILIUM_PH_10__Include Note__TRILIUM_PH_11__ の __TRILIUM_PH_8__Drawing canvases__TRILIUM_PH_9__ を参照）。\",\"u_0738b11127ef1db4de11e15a_0\":\"新しく含まれるノートと同様に、埋め込みには添付ファイルに適したボックスサイズが適用されます（同所の __TRILIUM_PH_0__Box sizes__TRILIUM_PH_1__ を参照）。サイズを変更するには、埋め込みを選択し、ツールバーのボックスサイズメニューを使用するか、その __TRILIUM_PH_4____TRILIUM_PH_5__More actions__TRILIUM_PH_6__ メニューの __TRILIUM_PH_2__Size__TRILIUM_PH_3__ サブメニューを使用します。__TRILIUM_PH_7__Resizable__TRILIUM_PH_8__ な埋め込みはハンドルをドラッグしてサイズ変更することもでき、__TRILIUM_PH_9__Expandable__TRILIUM_PH_10__ な埋め込みは高さを変更できます（同所の __TRILIUM_PH_11__Resizing__TRILIUM_PH_12__ を参照）。__TRILIUM_PH_13__Resizable__TRILIUM_PH_14__ な埋め込みは、メニューの __TRILIUM_PH_15__Position__TRILIUM_PH_16__ サブメニューから、テキストを横に回り込ませるかどうかにかかわらず、ノートの左右に配置できます（同所の __TRILIUM_PH_17__Positioning__TRILIUM_PH_18__ を参照）。\",\"u_0f5db71e07b4bda0300c4bfa_0\":\"添付ファイルのみを表示するには、含まれているノートと同様に、埋め込みの __TRILIUM_PH_2____TRILIUM_PH_3__More actions__TRILIUM_PH_4__ メニューで __TRILIUM_PH_0__Show title__TRILIUM_PH_1__ をオフにします（同所の __TRILIUM_PH_5__Title__TRILIUM_PH_6__ を参照）。\",\"u_f3db6f7efc5d1466ea7a2b3d_0\":\"埋め込みを再びリンクに戻すには、埋め込みのタイトル行を右クリックするか、__TRILIUM_PH_2____TRILIUM_PH_3__More actions__TRILIUM_PH_4__ ボタンを押して開くメニューで __TRILIUM_PH_0__Convert to link__TRILIUM_PH_1__ を選択します。これは、ノートから埋め込みを削除する __TRILIUM_PH_5____TRILIUM_PH_6__Delete block__TRILIUM_PH_7__ と、添付ファイル自体を削除する __TRILIUM_PH_8____TRILIUM_PH_9__Delete attachment...__TRILIUM_PH_10__ の後の、最後のグループにあります。その後に __TRILIUM_PH_11____TRILIUM_PH_12__Convert attachment into note...__TRILIUM_PH_13__ が続きます。\"}}",
+      "finishReason": "STOP"
+    },
+    {
+      "responseIndex": 27,
+      "text": "{\n  \"requestKey\": \"TBwsyfadTA18_bea7d0e8d736eaec\",\n  \"translations\": {\n    \"u_9a4f4a55bd33d77322a94a8e_0\": \"__TRILIUM_PH_2__クローンノート__TRILIUM_PH_3__と呼ばれるプロセスにより、1つのノートを__TRILIUM_PH_0__ノートツリー__TRILIUM_PH_1__内の複数の場所に配置できるため、混乱を避けるために、特定の場所だけに合わせた名前ではなく、すべての場所に適合する一般的な名前を選択することをお勧めします。\"\n  }\n}",
+      "finishReason": "STOP"
+    },
+    {
+      "responseIndex": 28,
+      "text": "{\n  \"requestKey\": \"IakOLONlIfGI_5493e579bda6ac53\",\n  \"translations\": {\n    \"u_0a6ed9c2386b5c12de97acd6_0\": \"__TRILIUM_PH_2__右サイドバー__TRILIUM_PH_3__の__TRILIUM_PH_0__接続__TRILIUM_PH_1__タブにある、__TRILIUM_PH_4__ノートパス__TRILIUM_PH_5__セクションを確認します。\"\n  }\n}",
+      "finishReason": "STOP"
+    },
+    {
+      "responseIndex": 29,
+      "text": "{\"requestKey\":\"bwg0e8ewQMak_6e4fd9ae2d8ece11\",\"translations\":{\"u_556d314df628e3a1a4dc3b57_0\":\"パスワードが正しいことを確認するため、パスワードは__TRILIUM_PH_0__scrypt__TRILIUM_PH_1__アルゴリズムによって、パスワード検証用の__TRILIUM_PH_2__salt__TRILIUM_PH_3__とともに処理されます。\",\"u_94c9ddc55ccae5c09aa53d82_0\":\"データ暗号化キーは、ランダムな__TRILIUM_PH_2__IV__TRILIUM_PH_3__を使用した__TRILIUM_PH_0__AES-128__TRILIUM_PH_1__で暗号化されます。\"}}",
+      "finishReason": "STOP"
+    },
+    {
+      "responseIndex": 30,
+      "text": "{\n  \"requestKey\": \"vZWERwf8U3nx_d32e70ed49ab66ab\",\n  \"translations\": {\n    \"u_7c43d188dc748e11bfb1d006_0\": \"__TRILIUM_PH_2__Erase excess revision snapshots__TRILIUM_PH_3__ の下にある __TRILIUM_PH_0__Erase now__TRILIUM_PH_1__ ボタンをクリックすると、変更をすぐに適用できます。\"\n  }\n}",
+      "finishReason": "STOP"
+    },
+    {
+      "responseIndex": 32,
+      "text": "{\n  \"requestKey\": \"CoFPLs3dRlXc_369962b475cc64b1\",\n  \"translations\": {\n    \"u_2208f3df9e996062975c3f83_0\": \"__TRILIUM_PH_2__ノートメニュー__TRILIUM_PH_3__に__TRILIUM_PH_0__編集可能__TRILIUM_PH_1__セクションがない場合、そのノートの種類は読み取り専用モードをサポートしていません。\"\n  }\n}",
+      "finishReason": "STOP"
+    },
+    {
+      "responseIndex": 33,
+      "text": "{\n  \"requestKey\": \"S0Fos78ZfcY7_702086e261727a74\",\n  \"translations\": {\n    \"u_d6cc030d5d65c771f76816f8_0\": \"__TRILIUM_PH_2__ランチバー__TRILIUM_PH_3__の__TRILIUM_PH_0__新規ノート__TRILIUM_PH_1__ボタン。\",\n    \"u_6b0797a11857caca4aaa62ff_0\": \"__TRILIUM_PH_2__トレイアイコンメニュー__TRILIUM_PH_3__の__TRILIUM_PH_0__新規ノート__TRILIUM_PH_1__アクション。\",\n    \"u_fc22939ab89929b396b040f3_0\": \"__TRILIUM_PH_2__ジャンプ＆コマンドパレット__TRILIUM_PH_3__、空のタブ、およびテキストノートの__TRILIUM_PH_4__補完__TRILIUM_PH_1__において、検索で一致が見つからなかった際に提供される__TRILIUM_PH_0__ノートの作成__TRILIUM_PH_3__オプション。\",\n    \"u_9f7ce8a558dfb22df0cc52e8_0\": \"ワークスペースに__TRILIUM_PH_2__がある場合__TRILIUM_PH_1__の本日の__TRILIUM_PH_0__デイリーノート__TRILIUM_PH_3__。\"\n  }\n}",
+      "finishReason": "STOP"
+    },
+    {
+      "responseIndex": 34,
+      "text": "{\"requestKey\":\"m3VlURMSeOrd_173607b1f04d0e69\",\"translations\":{\"u_4d0b7bfae8d5e32b3695feb5_0\":\"__TRILIUM_PH_0__ __TRILIUM_PH_1__すべての子ノートのタイプ__TRILIUM_PH_2__には、__TRILIUM_PH_5__ノートツリーのコンテキストメニュー__TRILIUM_PH_6__にある__TRILIUM_PH_3__後ろにノートを挿入__TRILIUM_PH_4__と同じメニューが表示され、すべてのノートタイプとテンプレートを利用できます。\"}}",
+      "finishReason": "STOP"
+    },
+    {
+      "responseIndex": 35,
+      "text": "{\n  \"requestKey\": \"MMiBEQljMQh2_43784978c9abb01c\",\n  \"translations\": {\n    \"u_4f383ac9747aef0ed34518e1_0\": \"__TRILIUM_PH_4__ローンチバー__TRILIUM_PH_5__の __TRILIUM_PH_0__前のノートへ移動__TRILIUM_PH_1__ および __TRILIUM_PH_2__次のノートへ移動__TRILIUM_PH_3__ ランチャーには、ローンチバー自体の項目の下に同じノートが一覧表示されます。\"\n  }\n}",
+      "finishReason": "STOP"
+    },
+    {
+      "responseIndex": 37,
+      "text": "{\n  \"requestKey\": \"eIg8jdvaoNNd_89d2184276782b5d\",\n  \"translations\": {\n    \"u_724d339facd9811d6ac8c664_0\": \"__TRILIUM_PH_0__起動バー__TRILIUM_PH_1__から、専用の__TRILIUM_PH_2__検索ボタンを探してください。\",\n    \"u_f3a3dc607089f70985fa0e05_0\": \"検索対象をノートとその子ノートに限定するには、__TRILIUM_PH_3__ノートツリーのコンテキストメニュー__TRILIUM_PH_4__から__TRILIUM_PH_0__サブツリー内を検索__TRILIUM_PH_1__ (__TRILIUM_PH_2__) を選択するか、__TRILIUM_PH_5__Ctrl__TRILIUM_PH_6__+__TRILIUM_PH_7__Shift__TRILIUM_PH_8__+__TRILIUM_PH_9__S__TRILIUM_PH_10__を押します。\",\n    \"u_270ba1778befbbb74ba06a32_0\": \"ノートを検索するには、__TRILIUM_PH_1__起動バー__TRILIUM_PH_2__の__TRILIUM_PH_0__アイコンをクリックするか、キーボード__TRILIUM_PH_3__ショートカット__TRILIUM_PH_4__を押します。\",\n    \"u_bee477584441ce45eb6caed1_0\": \"__TRILIUM_PH_3__検索__TRILIUM_PH_4__の横にあるメニュー内の__TRILIUM_PH_0__検索とアクションの実行__TRILIUM_PH_1__ (__TRILIUM_PH_2__) 項目は、（以下のセクションで説明するように）少なくとも1つのアクションが追加されている場合にのみ意味を持ちます。\",\n    \"u_e6597dbb8beb19a26afc5b9d_0\": \"__TRILIUM_PH_2__と入力して__TRILIUM_PH_0__ラベル__TRILIUM_PH_1__名を指定します。\",\n    \"u_9a45a7accaaaa0608877034d_0\": \"__TRILIUM_PH_2__と入力して__TRILIUM_PH_0__リレーション__TRILIUM_PH_1__名を指定します。\",\n    \"u_e0f9755fe28e12b271ef35bd_0\": \"__TRILIUM_PH_2__と入力してノートを検索することで、__TRILIUM_PH_0__ノートID__TRILIUM_PH_1__を簡単挿入できます。\",\n    \"u_50de7e20a39e12514a21a1df_0\": \"代わりに検索結果を通常のノートリストとして表示するには、__TRILIUM_PH_2__コレクションプロパティ__TRILIUM_PH_3__バーから__TRILIUM_PH_0__リスト__TRILIUM_PH_1__を選択します。__TRILIUM_PH_4__リスト__TRILIUM_PH_5__ビューには、ノートごとに1行ずつ、ノートのタイトルとコンテンツのプレビューが表示されます。\",\n    \"u_45dc8d28d08288689e530a03_0\": \"保存された検索は、__TRILIUM_PH_6__検索プレビュー__TRILIUM_PH_7__または__TRILIUM_PH_8__リスト__TRILIUM_PH_9__ビューのいずれかで、__TRILIUM_PH_4__ノートメニュー__TRILIUM_PH_5__の__TRILIUM_PH_2__印刷/PDFにエクスポート…__TRILIUM_PH_3__項目から__TRILIUM_PH_0__印刷またはPDFとしてエクスポート__TRILIUM_PH_1__することもできます。結果は、印刷開始時の状態でリストとしてレイアウトされます。\"\n  }\n}",
+      "finishReason": "STOP"
+    },
+    {
+      "responseIndex": 38,
+      "text": "{\n  \"requestKey\": \"u3YFHC9tQlpm_3d8ce7c3091ecd97\",\n  \"translations\": {\n    \"u_6bd9db96f61fca8beaf20b0b_0\": \"ブックマークが起動バーに表示されない場合、最も可能性の高い原因はブックマークセクションが非表示になっていることです。__TRILIUM_PH_2__グローバルメニュー__TRILIUM_PH_3__から__TRILIUM_PH_0__起動バー__TRILIUM_PH_1__の設定を開き、__TRILIUM_PH_4__Bookmarks__TRILIUM_PH_5__が__TRILIUM_PH_6__Visible Launchers__TRILIUM_PH_7__セクションに含まれていることを確認してください。\",\n    \"u_ea940200f0fda58be113bcfb_0\": \"スマートフォンでは、ホイストされていないタブのルートが表示されている間、__TRILIUM_PH_2__ワークスペース__TRILIUM_PH_3__の下部にある__TRILIUM_PH_0__ノートツリー__TRILIUM_PH_1__の最上部にもブックマークがリスト表示されます。ブックマークをタップして開くか、子ノートがある場合はツリー内の他のノートと同様に子ノートをリスト表示します。\"\n  }\n}",
+      "finishReason": "STOP"
+    },
+    {
+      "responseIndex": 39,
+      "text": "{\"requestKey\":\"OR8WJ7Iz9K4U_e421e84ac87072d9\",\"translations\":{\"u_a3a6c915c04a158d758120d3_0\":\"ノートがホイストされている間は、デスクトップインターフェースの__TRILIUM_PH_3__ノートツリー__TRILIUM_PH_4__の上部に__TRILIUM_PH_2__アイコン付きの__TRILIUM_PH_0__すべてのノートを表示__TRILIUM_PH_1__ボタンが表示されます。これをクリックすると、ノートのホイストが解除され、ツリー全体が再び表示されます。\"}}",
+      "finishReason": "STOP"
+    },
+    {
+      "responseIndex": 41,
+      "text": "{\n  \"requestKey\": \"9sRHySam5fXb_bbd6b72e3b09f707\",\n  \"translations\": {\n    \"u_96a6138d3b0ade40fd77d3e2_0\": \"__TRILIUM_PH_1__Tabs__TRILIUM_PH_2__ バーの __TRILIUM_PH_0__ ボタンを右クリックしてワークスペースを選択すると、ワークスペースを新しいタブで開くことができます。\"\n  }\n}",
+      "finishReason": "STOP"
+    },
+    {
+      "responseIndex": 42,
+      "text": "{\n  \"requestKey\": \"xWtq5NUHOwql_f2a948f9776c8718\",\n  \"translations\": {\n    \"u_542add3c96cd233c2d35ff90_0\": \"__TRILIUM_PH_2__右サイドバー__TRILIUM_PH_3__の__TRILIUM_PH_0__接続__TRILIUM_PH_1__タブに移動し、該当するセクションを探してください。\",\n    \"u_8aff9172486c854189c91955_0\": \"または、__TRILIUM_PH_1__ステータスバー__TRILIUM_PH_2__にある__TRILIUM_PH_0__を押して、__TRILIUM_PH_3__類似のノートを表示__TRILIUM_PH_4__を選択すると、下部にペインが開きます。\"\n  }\n}",
+      "finishReason": "STOP"
+    },
+    {
+      "responseIndex": 43,
+      "text": "{\n  \"requestKey\": \"A9Oc6YKKc65v_43248c220eb6c2a1\",\n  \"translations\": {\n    \"u_3ddbdbd9d293130868ccef01_0\": \"例えば __TRILIUM_PH_3__ という値を持つ __TRILIUM_PH_0__ラベル__TRILIUM_PH_1__ __TRILIUM_PH_2__ を定義できます。このキーボードショートカットを押すと、そのラベルが定義されているノートへ移動します。変更を有効にするには、Triliumの再読み込みまたは再起動（__TRILIUM_PH_4__Ctrl__TRILIUM_PH_5__+__TRILIUM_PH_6__R__TRILIUM_PH_7__ ）が必要である点に注意してください。\"\n  }\n}",
+      "finishReason": "STOP"
+    },
+    {
+      "responseIndex": 45,
+      "text": "{\n  \"requestKey\": \"w4rMEhJsALlA_c8f961ea62404af8\",\n  \"translations\": {\n    \"u_bbd59156f218a042f64c1ea4_0\": \"__TRILIUM_PH_0__テーマ定義__TRILIUM_PH_1__。現在の__TRILIUM_PH_2__テーマ__TRILIUM_PH_3__に組み込まれているフォントを使用します。例えば、デフォルトのモダンテーマでは、フォントは__TRILIUM_PH_4__Inter__TRILIUM_PH_5__になります。これにはフォントのインストールは必要ありません。\",\n    \"u_ebb3c8dc206a29c904f14b23_0\": \"__TRILIUM_PH_0__システムデフォルト__TRILIUM_PH_1__。__TRILIUM_PH_2__デスクトップアプリ__TRILIUM_PH_3__に最も適したフォントの組み合わせを使用します。例えば、Windowsでは__TRILIUM_PH_4__Segoe UI__TRILIUM_PH_5__が使用されます。\",\n    \"u_c6eaaf7d2a62d9865ed481c1_0\": \"__TRILIUM_PH_2__サーバーインストール__TRILIUM_PH_3__に表示される__TRILIUM_PH_0__ウェブフォント__TRILIUM_PH_1__。事前定義されたフォントのリストで、サンセリフ、セリフ、等幅、手書き風にグループ化されています。お使いのシステムでサポートされていない（つまりインストールされていない）フォントは表示されません。\",\n    \"u_ca22792202ea42baea6078b3_0\": \"__TRILIUM_PH_2__デスクトップインストール__TRILIUM_PH_3__に表示される__TRILIUM_PH_0__システムフォント__TRILIUM_PH_1__。事前定義されているサーバーフォントとは異なり、システムフォントはお使いのオペレーティングシステムからリストアップされます。（__TRILIUM_PH_4__GNU Unifont__TRILIUM_PH_5__のビットマップ版などの）一部のインストール済みフォントはテキストを表示できません。このようなフォントはリスト内で空白として表示され、選択しても適用されずにエラーが表示されます。\",\n    \"u_7fa24301a8dae5b317d0a445_0\": \"一部のフォントはプログラミングの合字をサポートしており、__TRILIUM_PH_4__コードブロック__TRILIUM_PH_5__および__TRILIUM_PH_6__コード__TRILIUM_PH_7__ノート内で、__TRILIUM_PH_0__のような文字の組み合わせを__TRILIUM_PH_1__または__TRILIUM_PH_2__として__TRILIUM_PH_3__に変換します。\"\n  }\n}",
+      "finishReason": "STOP"
+    },
+    {
+      "responseIndex": 46,
+      "text": "{\n  \"requestKey\": \"Wy267RK4M69c_2709797185dbd79b\",\n  \"translations\": {\n    \"u_4671ec7f4e19637ec69da3ec_0\": \"Triliumにはいくつかプリインストールされたカラーテーマがあり、デフォルトではライトテーマになっています。ダークテーマやその他の利用可能なテーマに切り替えるには、__TRILIUM_PH_0__オプションメニュー（左上のアプリアイコンからアクセス可能）__TRILIUM_PH_1__に移動し、[外観]タブを選択して、お好みのテーマを選んでください。__TRILIUM_PH_2__Global menu__TRILIUM_PH_3__の__TRILIUM_PH_4__Theme__TRILIUM_PH_5__サブメニューでも、テーマと配色を切り替えることができます。\",\n    \"u_7bdccdeb05143c6d17cf1ac5_0\": \"__TRILIUM_PH_0__CSSコードノートを作成する__TRILIUM_PH_1__：まず、__TRILIUM_PH_2__のタイプの新しい__TRILIUM_PH_3__コードノート__TRILIUM_PH_4__を作成します。\",\n    \"u_307d7f009ad7684e30ec1281_0\": \"__TRILIUM_PH_0__CSSコードノートを作成する__TRILIUM_PH_1__：__TRILIUM_PH_2__のタイプの新しい__TRILIUM_PH_3__コード__TRILIUM_PH_4__ノートを作成します。\"\n  }\n}",
+      "finishReason": "STOP"
+    },
+    {
+      "responseIndex": 47,
+      "text": "{\n  \"requestKey\": \"rJ9grSgoExl9_e528b4a5a99c221b\",\n  \"translations\": {\n    \"u_e476dbbcfd222f10b48d4a93_0\": \"__TRILIUM_PH_0__ は __TRILIUM_PH_2__ ディレクトリ内で __TRILIUM_PH_1__ ファイルを探し、それを内部リンクに変換します。\",\n    \"u_97563139454f21e5c28f5889_0\": \"__TRILIUM_PH_0__ は __TRILIUM_PH_2__ ディレクトリ内で __TRILIUM_PH_1__ ファイルを探し、それを画像に変換します。\"\n  }\n}",
+      "finishReason": "STOP"
+    },
+    {
+      "responseIndex": 48,
+      "text": "{\n  \"requestKey\": \"Y5mKeJ6dsCld_12d040ae8d8814af\",\n  \"translations\": {\n    \"u_6cfd70dee85f27c9d30d3704_0\": \"__TRILIUM_PH_0__General__TRILIUM_PH_1__ 設定ページで、__TRILIUM_PH_2__Export__TRILIUM_PH_3__ セクションを探し、__TRILIUM_PH_6__Workspace content__TRILIUM_PH_7__ に対応する __TRILIUM_PH_4__Export__TRILIUM_PH_5__ ボタンを押します。\",\n    \"u_9e3d43fd09366e2f82f5da79_0\": \"エクスポートデータには画像が含まれていないため、リンクのアイコンと画像はオンラインで取得する必要があります。この処理は、__TRILIUM_PH_2__Options__TRILIUM_PH_3__ → __TRILIUM_PH_4__Media__TRILIUM_PH_5__ で __TRILIUM_PH_0__Download images automatically__TRILIUM_PH_1__ が有効になっている場合にのみ実行されます。\"\n  }\n}",
+      "finishReason": "STOP"
+    },
+    {
+      "responseIndex": 51,
+      "text": "{\n  \"requestKey\": \"i6dbnitykE5D_2fbfd0aa48c6eef1\",\n  \"translations\": {\n    \"u_f036274aa59bd1ef7dc8aefc_0\": \"通常、これはサポートされていません。1つの Trilium プロセスが開くことができる__TRILIUM_PH_0__データベース__TRILIUM_PH_1__のインスタンスは1つだけです。ただし、（同じインストールから）2つの Trilium プロセスを実行し、それぞれを別のドキュメントに接続することは可能です。これを実現するには、__TRILIUM_PH_4__ 環境変数で__TRILIUM_PH_2__データディレクトリ__TRILIUM_PH_3__の場所を設定し、__TRILIUM_PH_5__ 環境変数で別のポートを設定する必要があります。その方法はプラットフォームによって異なりますが、Unix系システムでは次のようなコマンドを実行することで実現できます：\"\n  }\n}",
+      "finishReason": "STOP"
+    },
+    {
+      "responseIndex": 52,
+      "text": "{\"requestKey\":\"oSuaNgyyKnhu_415dc1d224e8eb6d\",\"translations\":{\"u_e14ea6a47bebaf43f7e78596_0\":\"__TRILIUM_PH_1__書式設定ツールバー__TRILIUM_PH_2__にある __TRILIUM_PH_0__ ボタンを探し、__TRILIUM_PH_3__ ボタンを押します。\",\"u_bd7065fd8a0a4dcd04d5bc63_0\":\"__TRILIUM_PH_0__Ctrl__TRILIUM_PH_1__+__TRILIUM_PH_2__K__TRILIUM_PH_3__ を押すか、__TRILIUM_PH_5__書式設定ツールバー__TRILIUM_PH_6__内の __TRILIUM_PH_4__ ボタンを押して、__TRILIUM_PH_9____TRILIUM_PH_10__リンクの追加__TRILIUM_PH_11__ダイアログ__TRILIUM_PH_12__の上部にある __TRILIUM_PH_7__見出し / アンカー__TRILIUM_PH_8__ を選択します。または、__TRILIUM_PH_15__スラッシュコマンド__TRILIUM_PH_16__で __TRILIUM_PH_13__見出しまたはアンカーへのリンク__TRILIUM_PH_14__ を選択すると、そのページでダイアログが開きます。\"}}",
+      "finishReason": "STOP"
+    },
+    {
+      "responseIndex": 53,
+      "text": "{\"requestKey\":\"NwBbFdNZ9h7O_7ee8d185ec447ff0\",\"translations\":{\"u_892d30811660744d6f365679_0\":\"引用ブロックを作成するには、__TRILIUM_PH_1__書式設定ツールバー__TRILIUM_PH_2__の __TRILIUM_PH_0__ を押します。また、カーソルが行頭にある場合に限り、__TRILIUM_PH_3__>__TRILIUM_PH_4__ と入力した後にスペースを入力することでも作成できます。\"}}",
+      "finishReason": "STOP"
+    },
+    {
+      "responseIndex": 54,
+      "text": "{\n  \"requestKey\": \"klC3ilXa9kUE_7fb32d555ab8e00b\",\n  \"translations\": {\n    \"u_403512d9028d29a9b8b9d54b_0\": \"__TRILIUM_PH_0__Ctrl__TRILIUM_PH_1__+__TRILIUM_PH_2__K__TRILIUM_PH_3__ または __TRILIUM_PH_4__書式設定ツールバー__TRILIUM_PH_5____TRILIUM_PH_6__ 内のボタンを押し、ダイアログの上部にある __TRILIUM_PH_7__見出し / アンカー__TRILIUM_PH_8__ を選択します。または、__TRILIUM_PH_9__スラッシュコマンド__TRILIUM_PH_10__ で __TRILIUM_PH_11__見出しまたはアンカーへのリンク__TRILIUM_PH_12__ を選択すると、そのページでダイアログが開きます。\",\n    \"u_7504f5441dccd5c44f2eac82_0\": \"ノートを離れずに参照されたブロックを編集するには、インクルードのタイトルにある __TRILIUM_PH_0__ __TRILIUM_PH_1__抜粋の編集__TRILIUM_PH_2__ ボタンを押すか、他の __TRILIUM_PH_6__インクルードノート__TRILIUM_PH_7__ と同様に、そのツールバーで __TRILIUM_PH_3__編集可能__TRILIUM_PH_4__ (__TRILIUM_PH_5__) を有効にします。編集を終了するには、もう一度ボタンを押します。変更内容が参照されたブロックに保存され、ノートの残りの部分はそのまま維持されます。読み取り専用ノートなど、ブロックを編集できない場所では、ボタンはグレーアウトされます。抜粋には __TRILIUM_PH_8__全画面__TRILIUM_PH_9__ ボタンはありません。\"\n  }\n}",
+      "finishReason": "STOP"
+    },
+    {
+      "responseIndex": 55,
+      "text": "{\n  \"requestKey\": \"EK2ckIZ74tbT_d9001ebfd17659b9\",\n  \"translations\": {\n    \"u_1c56eebea874f8e71dee983c_0\": \"__TRILIUM_PH_3__スラッシュコマンド__TRILIUM_PH_4__で説明されているように、代わりに __TRILIUM_PH_0__ と入力して __TRILIUM_PH_1__Enter__TRILIUM_PH_2__ を押すこともできます。\"\n  }\n}",
+      "finishReason": "STOP"
+    },
+    {
+      "responseIndex": 57,
+      "text": "{\n  \"requestKey\": \"UYuUB1ZekNQU_29df41782b13e077\",\n  \"translations\": {\n    \"u_c7e37d3a5528d651ce3be2b1_0\": \"このスタイルを適用するには、__TRILIUM_PH_2__書式設定ツールバー__TRILIUM_PH_3__の__TRILIUM_PH_1__グループにある__TRILIUM_PH_0__ボタンを押します。フローティングツールバーでは、テキストを選択したときにボタンが表示されます。\"\n  }\n}",
+      "finishReason": "STOP"
+    },
+    {
+      "responseIndex": 58,
+      "text": "{\n  \"requestKey\": \"AgjCISero73a_3920a82b38d3e611\",\n  \"translations\": {\n    \"u_96095304040a40f866aa6eec_0\": \"新しい脚注を挿入するには、__TRILIUM_PH_3__書式設定ツールバー__TRILIUM_PH_4__の__TRILIUM_PH_0__ __TRILIUM_PH_1__挿入__TRILIUM_PH_2__メニューを開き、__TRILIUM_PH_5__ __TRILIUM_PH_6__脚注__TRILIUM_PH_7__を選択します（または、そのサブメニューで__TRILIUM_PH_8__新しい脚注__TRILIUM_PH_9__を選択します）。\"\n  }\n}",
+      "finishReason": "STOP"
+    },
+    {
+      "responseIndex": 59,
+      "text": "{\n  \"requestKey\": \"Gr6xFaF6ioJ5_3cdb3018e260d966\",\n  \"translations\": {\n    \"u_049e9db3bc5ee90895d214b9_0\": \"テキストは、書式設定ツールバーにある専用のボタン (__TRILIUM_PH_6__、__TRILIUM_PH_7__、__TRILIUM_PH_8__、__TRILIUM_PH_9__) を使用して、__TRILIUM_PH_0__太字__TRILIUM_PH_1__、__TRILIUM_PH_2__斜体__TRILIUM_PH_3__、下線、または__TRILIUM_PH_4__取り消し線__TRILIUM_PH_5__としてフォーマットできます。\"\n  }\n}",
+      "finishReason": "STOP"
+    },
+    {
+      "responseIndex": 60,
+      "text": "{\n  \"requestKey\": \"0Ofbk1aSuVRu_6519de8c271a14e9\",\n  \"translations\": {\n    \"u_c4e3d52c0746592d4bcf73f3_0\": \"サポートされているノート（上記の一覧）のいずれかに移動し、__TRILIUM_PH_1__ノートボタン__TRILIUM_PH_2__エリアで __TRILIUM_PH_0__ ボタンを探します。\"\n  }\n}",
+      "finishReason": "STOP"
+    },
+    {
+      "responseIndex": 61,
+      "text": "{\n  \"requestKey\": \"mT0HEkOsz6i1_1b39124a365dc40b\",\n  \"translations\": {\n    \"u_745390b0b66b29a87fe23317_0\": \"画像を表示する代わりにリンクを設定するには、__TRILIUM_PH_2____TRILIUM_PH_3__Attach file__TRILIUM_PH_4__ ボタンの__TRILIUM_PH_0__Attach file as a link__TRILIUM_PH_1__ から添付してください。__TRILIUM_PH_5__Attachments__TRILIUM_PH_6__ を参照してください。\"\n  }\n}",
+      "finishReason": "STOP"
+    },
+    {
+      "responseIndex": 63,
+      "text": "{\"requestKey\":\"VRoP0g1uHHc2_e1f8b804dbd024f5\",\"translations\":{\"u_0ccddba4263bedf90b7e1666_0\":\"__TRILIUM_PH_1__書式設定ツールバー__TRILIUM_PH_2__にある __TRILIUM_PH_0__ ボタンを探してください。ボタン本体を押すと __TRILIUM_PH_3__Ask AI__TRILIUM_PH_4__ モードになり、その横にある矢印キーを押すとクイックコマンドとモデル選択にアクセスできます。スマートフォンでは、ボタンに矢印がありません。タップすると画面の下部に同じメニューが開き、一番上に __TRILIUM_PH_5__Ask AI…__TRILIUM_PH_6__ が表示され、__TRILIUM_PH_7__Translate__TRILIUM_PH_8__ などのグループは独自のページとして開きます。\",\"u_dd668db6ce347e7950240fc2_0\":\"__TRILIUM_PH_4__スラッシュコマンド__TRILIUM_PH_5__で、__TRILIUM_PH_0__AI アシスタント__TRILIUM_PH_1__ または __TRILIUM_PH_2__AI__TRILIUM_PH_3__ 接頭辞が付くクイックコマンドのいずれかを探してください。\",\"u_b68d3b7c366cce83919a463c_0\":\"テキストを選択し、__TRILIUM_PH_2__ノートのコンテキストメニュー__TRILIUM_PH_3__で __TRILIUM_PH_0__AI アシスタント__TRILIUM_PH_1__ オプションを選択します。\"}}",
+      "finishReason": "STOP"
+    },
+    {
+      "responseIndex": 64,
+      "text": "{\"requestKey\":\"nBAXQFj20hS1_3a0f016302a3cb8e\",\"translations\":{\"u_4fe6b9f96fb9b98624ed747e_0\":\"__TRILIUM_PH_0__Full__TRILIUM_PH_1__ は、コードノートやコードファイル（__TRILIUM_PH_2__、__TRILIUM_PH_3__、__TRILIUM_PH_4__ などの添付ファイル）、およびテキストノートのブロックの抜粋に対して使用されます。\",\"u_344cc190720dbdd82c8dda1c_0\":\"インクルードのタイトル行は、インクルードされたノートへのリンクとなり、そのボタンを保持しています。コンテンツのみを表示するには、タイトル行を右クリックするか、その __TRILIUM_PH_2__ __TRILIUM_PH_3__More actions__TRILIUM_PH_4__ ボタンを押すことで開くインクルードのメニューで、__TRILIUM_PH_0__Show title__TRILIUM_PH_1__ をオフにします（以下の __TRILIUM_PH_5__Opening an included note__TRILIUM_PH_6__ を参照してください）。\",\"u_e91edc537015afcb4d1cc4a2_0\":\"インクルードされたコードノートやMarkdownノート、埋め込みコードファイルやMarkdownファイル、および __TRILIUM_PH_3__Mermaid diagram__TRILIUM_PH_4__ の __TRILIUM_PH_0__ __TRILIUM_PH_1__More actions__TRILIUM_PH_2__ メニューには、__TRILIUM_PH_5__Editable__TRILIUM_PH_6__ の後にさらに2つのサブメニューがあり、それぞれ __TRILIUM_PH_7__Auto__TRILIUM_PH_8__、__TRILIUM_PH_9__On__TRILIUM_PH_10__、__TRILIUM_PH_11__Off__TRILIUM_PH_12__ を備えています。これらはコードエディターがソースを表示する方法を変更します。\",\"u_ec02808762c8d80abc1e5b8d_0\":\"__TRILIUM_PH_0__Word wrap__TRILIUM_PH_1__ は、長い行をスクロールさせる代わりに折り返します。__TRILIUM_PH_2__Auto__TRILIUM_PH_3__ は、__TRILIUM_PH_4__Options__TRILIUM_PH_5__ → __TRILIUM_PH_6__Code Notes__TRILIUM_PH_7__ の設定に従います。インクルードされたノートの場合、コードノートに対するその __TRILIUM_PH_11__Note menu__TRILIUM_PH_12__ の __TRILIUM_PH_9__Word wrap__TRILIUM_PH_10__ サブメニューと同様に、ノートの __TRILIUM_PH_8__ ラベルを設定します。埋め込みファイルやMermaidダイアグラムの場合、このインクルードのみを変更します。\",\"u_339c5ff850572f4879706129_0\":\"表示形式が選択されるまで、インクルードは __TRILIUM_PH_0__Preview__TRILIUM_PH_1__ を表示し、__TRILIUM_PH_4__Editable__TRILIUM_PH_5__ がオンの間は __TRILIUM_PH_2__Split view__TRILIUM_PH_3__ を表示します。\",\"u_8ab7a94973a29ae2df0c56ca_0\":\"ソースには、__TRILIUM_PH_2__Markdown__TRILIUM_PH_3__ ノートのスラッシュコマンドと __TRILIUM_PH_0__ および __TRILIUM_PH_1__ ノートリンクがあります。__TRILIUM_PH_4__ または __TRILIUM_PH_5__ リストから作成されたノートはインクルードされたノートの下に配置され、埋め込みファイルの場合はそれをインクルードするノートの下に配置されます。また、__TRILIUM_PH_6__ はその同じノートに画像をアップロードします。\",\"u_66da02eeda37f4766377c23b_0\":\"__TRILIUM_PH_4__More actions__TRILIUM_PH_5__ メニューの __TRILIUM_PH_0__Word wrap__TRILIUM_PH_1__ および __TRILIUM_PH_2__Line numbers__TRILIUM_PH_3__ サブメニューは、コードの場合と同様にソースの表示方法を変更します（上記の __TRILIUM_PH_6__Editing an include in place__TRILIUM_PH_7__ を参照してください）。\",\"u_76bcc6a04817f60e7dbe4956_0\":\"描画カンバスを挿入するには、__TRILIUM_PH_3__Formatting toolbar__TRILIUM_PH_4__ の __TRILIUM_PH_0__ __TRILIUM_PH_1__Insert__TRILIUM_PH_2__ メニューを開き、__TRILIUM_PH_8__Mermaid diagram__TRILIUM_PH_9__ の上にある __TRILIUM_PH_5__ __TRILIUM_PH_6__Drawing canvas__TRILIUM_PH_7__ を選択します。これは __TRILIUM_PH_12__Slash Commands__TRILIUM_PH_13__ 内の __TRILIUM_PH_10__Drawing canvas__TRILIUM_PH_11__ としても利用可能です。カンバスは空の編集可能な状態で、タイトルが非表示の __TRILIUM_PH_14__Resizable__TRILIUM_PH_15__ ボックスに追加され、描画の準備ができた状態でフォーカスが当たります。\",\"u_06fa0feb1dcddb33bc34d07b_0\":\"画像の上を描画または手書きするには、画像を選択し、そのツールバーの __TRILIUM_PH_0__ __TRILIUM_PH_1__Convert image to a drawing canvas__TRILIUM_PH_2__ ボタンを押します。画像は、タイトルが非表示でフォーカスが当たった __TRILIUM_PH_3__Resizable__TRILIUM_PH_4__ ボックス内の編集可能な描画カンバスに置き換えられます。画像はカンバスの中央に元のサイズで配置され、全体が表示されるようにズームされ、誤って選択または移動されないようにロックされます。ロックされている間は、カンバスの画像を拡大することはできますが、それ以上縮小したり、端を超えてスクロールしたりすることはできません。いずれにしても画像を移動またはサイズ変更するには、画像を右クリックして __TRILIUM_PH_5__Unlock__TRILIUM_PH_6__ を選択します。画像のキャプションは保持されますが、配置やリンクは保持されません。段落内ではなく、独自の行にある画像のみ変換できます。元に戻す（Undo）を実行すると画像を元に戻すことができます。\",\"u_a43b3b894a9b0b98b34f30e3_0\":\"__TRILIUM_PH_3____TRILIUM_PH_4__Attach file__TRILIUM_PH_5__ ボタンの下にある __TRILIUM_PH_1__Attach and embed file__TRILIUM_PH_2__ で添付された Excalidraw ファイル（__TRILIUM_PH_0__）も、ファイル名がタイトルになった __TRILIUM_PH_6__Resizable__TRILIUM_PH_7__ ボックス内の描画カンバスになります。これは __TRILIUM_PH_8__Editable__TRILIUM_PH_9__ がオフの状態で開始されるため、__TRILIUM_PH_10__Editable__TRILIUM_PH_11__ がオンになるまで描画は表示されますが変更できません（下記参照）。\",\"u_76e4facb4c91884be2e57f98_0\":\"完成した描画を誤った変更から保護するには、それを選択し、__TRILIUM_PH_2__ __TRILIUM_PH_3__More actions__TRILIUM_PH_4__ メニューで __TRILIUM_PH_0__Editable__TRILIUM_PH_1__ をオフにします。これにより、描画は当時のズームと位置の静止画として表示され、変更、ズーム、移動ができなくなります。再度描画するには、__TRILIUM_PH_8__Editable__TRILIUM_PH_9__ がオフの間のみ表示されるツールバーの先頭にある __TRILIUM_PH_5__ __TRILIUM_PH_6__Editable__TRILIUM_PH_7__ ボタンをオンにするか、メニューで __TRILIUM_PH_10__Editable__TRILIUM_PH_11__ を再びオンにします。\"}}",
+      "finishReason": "STOP"
+    },
+    {
+      "responseIndex": 65,
+      "text": "{\n  \"requestKey\": \"hD8GawVuazff_0c76c01998751023\",\n  \"translations\": {\n    \"u_018a3ed0038596c2054d156e_0\": \"アイコンは、__TRILIUM_PH_2__フォーマットツールバー__TRILIUM_PH_3__の__TRILIUM_PH_0__一般的なフォーマット__TRILIUM_PH_1__ツールを使用してフォーマットできます：\"\n  }\n}",
+      "finishReason": "STOP"
+    },
+    {
+      "responseIndex": 66,
+      "text": "{\n  \"requestKey\": \"CohkqWQC1iBv_0e1b89b0d6eed0b1\",\n  \"translations\": {\n    \"u_a511c71933501ae274d866b9_0\": \"コードノートとして編集されるコードブロックを挿入するには、__TRILIUM_PH_0__ __TRILIUM_PH_1__拡張コードブロック__TRILIUM_PH_2__を選択します。この項目は実験的なものであり、有効にした場合にのみ表示されます。__TRILIUM_PH_3__コードブロック__TRILIUM_PH_6__内の__TRILIUM_PH_4__拡張コードブロック__TRILIUM_PH_5__を参照してください。\",\n    \"u_4869c1f8c372e2f614f548cf_0\": \"テキスト内でExcalidrawキャンバスに描画するには、__TRILIUM_PH_0__ __TRILIUM_PH_1__描画キャンバス__TRILIUM_PH_2__を選択します。__TRILIUM_PH_5__ノートの埋め込み__TRILIUM_PH_6__内の__TRILIUM_PH_3__描画キャンバス__TRILIUM_PH_4__を参照してください。\",\n    \"u_ceb15c8bd40fef0530bc603e_0\": \"インラインのMermaidダイアグラムを作成するには、__TRILIUM_PH_0__ボタンを押します。その横にある矢印には、ダイアグラムの種類ごとのテンプレートが表示されます。このダイアグラムは、__TRILIUM_PH_3__スラッシュコマンド__TRILIUM_PH_4__の__TRILIUM_PH_1__Mermaidダイアグラム__TRILIUM_PH_2__としても利用できます。\",\n    \"u_bcc5be4cee1c498b4aadf2df_0\": \"ダイアグラムは埋め込みノートのような枠内に表示されるため、__TRILIUM_PH_4__ __TRILIUM_PH_5__その他のアクション__TRILIUM_PH_6__メニューからサイズ変更（__TRILIUM_PH_0__サイズ変更可能__TRILIUM_PH_1__または__TRILIUM_PH_2__フル__TRILIUM_PH_3__）を行ったり、__TRILIUM_PH_7__ノートの埋め込み__TRILIUM_PH_8__で説明されているように全画面表示にしたりすることができます。\",\n    \"u_82c828bd00c0309b382b92ec_0\": \"__TRILIUM_PH_4__その他のアクション__TRILIUM_PH_5__メニューの__TRILIUM_PH_0__自動折り返し__TRILIUM_PH_1__および__TRILIUM_PH_2__行番号__TRILIUM_PH_3__サブメニューは、埋め込みコードノートの場合と同様に（__TRILIUM_PH_14__ノートの埋め込み__TRILIUM_PH_15__の__TRILIUM_PH_12__インプレースでの埋め込みの編集__TRILIUM_PH_13__を参照）、それぞれ__TRILIUM_PH_6__自動__TRILIUM_PH_7__、__TRILIUM_PH_8__オン__TRILIUM_PH_9__、__TRILIUM_PH_10__オフ__TRILIUM_PH_11__を使用して、ソースの表示方法を変更します。\",\n    \"u_74a86aba43ff8222d6c7b891_0\": \"ダイアグラムのソースに加えられた変更は、テキストノートの元に戻す履歴の一部となり、変更された順序で記録されます。__TRILIUM_PH_14__ノートの埋め込み__TRILIUM_PH_11__の__TRILIUM_PH_8__インプレースでの埋め込みの編集__TRILIUM_PH_9__で説明されているように、__TRILIUM_PH_0__Ctrl__TRILIUM_PH_1__+__TRILIUM_PH_2__Z__TRILIUM_PH_3__および__TRILIUM_PH_4__Ctrl__TRILIUM_PH_5__+__TRILIUM_PH_6__Y__TRILIUM_PH_7__を使用すると、テキストからだけでなくソースからもそれらの操作を元に戻したりやり直したりすることができます。\",\n    \"u_0efbd605cf5cdeaca7fabe31_0\": \"ノート内で再生できるYouTube動画、またはWebアドレスから音声ファイルや動画ファイルを挿入するには、__TRILIUM_PH_0__ __TRILIUM_PH_1__音声/動画の埋め込み__TRILIUM_PH_2__を選択します。アドレスを貼り付け、__TRILIUM_PH_3__メディアの挿入__TRILIUM_PH_4__または__TRILIUM_PH_5__Enter__TRILIUM_PH_6__を押します。メディアは、__TRILIUM_PH_9__リンクプレビュー__TRILIUM_PH_10__で説明されている__TRILIUM_PH_7__埋め込み__TRILIUM_PH_8__表示モードでリンクプレビューとして挿入されます。同じ操作は、__TRILIUM_PH_13__スラッシュコマンド__TRILIUM_PH_14__の__TRILIUM_PH_11__音声/動画の埋め込み__TRILIUM_PH_12__としても利用できます。\",\n    \"u_129d32f3e33be0bc25187e8c_0\": \"この機能は水平線を表示します。通常、テキストの異なるセクションを区切るのに便利です。これを行うには、__TRILIUM_PH_1__書式設定ツールバー__TRILIUM_PH_2__の__TRILIUM_PH_0__ボタンを押します。\"\n  }\n}",
+      "finishReason": "STOP"
+    },
+    {
+      "responseIndex": 67,
+      "text": "{\"requestKey\":\"UmgZAfcltxkS_773de62a9240062d\",\"translations\":{\"u_de65684c6003756a082ab13f_0\":\"この自動変換は、__TRILIUM_PH_0__オプション__TRILIUM_PH_1__ → __TRILIUM_PH_2__テキストノート__TRILIUM_PH_3__ に移動し、__TRILIUM_PH_6__機能__TRILIUM_PH_7__ セクションの __TRILIUM_PH_4__リンクプレビューを自動生成する__TRILIUM_PH_5__ のチェックを外すことで無効にできます。\",\"u_f2c67f716b5ca8bffd953a36_0\":\"__TRILIUM_PH_1__書式設定ツールバー__TRILIUM_PH_2__の __TRILIUM_PH_0__ を押すか、__TRILIUM_PH_3__Ctrl__TRILIUM_PH_4__+__TRILIUM_PH_5__K__TRILIUM_PH_6__ を押すと、__TRILIUM_PH_7__Webページ__TRILIUM_PH_8__上でダイアログが開きます。\",\"u_a8bd897832c96261259adcea_0\":\"__TRILIUM_PH_3__挿入ボタン__TRILIUM_PH_4__メニューまたは__TRILIUM_PH_5__スラッシュコマンド__TRILIUM_PH_6__から、__TRILIUM_PH_0__ __TRILIUM_PH_1__オーディオ/動画の埋め込み__TRILIUM_PH_2__を選択します。YouTube動画、または音声ファイルや動画ファイルの住所を貼り付け、__TRILIUM_PH_7__メディアを挿入__TRILIUM_PH_8__または__TRILIUM_PH_9__Enter__TRILIUM_PH_10__を押して、__TRILIUM_PH_11__埋め込み__TRILIUM_PH_12__として挿入します。フィールドの末尾にある __TRILIUM_PH_13__ __TRILIUM_PH_14__貼り付け__TRILIUM_PH_15__ボタンは、フィールドのテキストをクリップボードのテキストに置き換えます。このボタンは、Triliumがクリップボードを読み取れる場所（デスクトップアプリ、およびクリップボードへのアクセスがブロックされていないHTTPS上のブラウザ）でのみ表示されます。\",\"u_857a1e5c9d3c29df01b7b7c8_0\":\"__TRILIUM_PH_0__ __TRILIUM_PH_1__リンクの編集__TRILIUM_PH_2__ボタンは、リンクプレビュー上で__TRILIUM_PH_3__リンクの編集__TRILIUM_PH_4__ダイアログを開きます。また、選択中に__TRILIUM_PH_5__Ctrl__TRILIUM_PH_6__+__TRILIUM_PH_7__K__TRILIUM_PH_8__を押すことでも開きます。このダイアログでは、アドレス、カードの__TRILIUM_PH_9__リンクタイトル__TRILIUM_PH_10__（タイトルがログイン画面の後ろに隠れている場合に特に便利です）、__TRILIUM_PH_11__説明__TRILIUM_PH_12__、およびその表示方法を変更します。自分で入力しない限り、新しいアドレスには新しいページのタイトルと説明が表示されます。\",\"u_028ab948bca026cd4df0441e_0\":\"埋め込みオプションは、YouTubeの動画、または音声や動画のファイルに対してのみ表示されます。__TRILIUM_PH_2__や__TRILIUM_PH_3__などの既知の拡張子で終わっていないアドレスを持つファイルの__TRILIUM_PH_0__カード__TRILIUM_PH_1__では、このオプションは提供されなくなります。\",\"u_18739552e3100605eec9ee83_0\":\"__TRILIUM_PH_0__ __TRILIUM_PH_1__編集...__TRILIUM_PH_2__は、メディアの__TRILIUM_PH_5__アドレス（URL）__TRILIUM_PH_6__と__TRILIUM_PH_7__リンクタイトル__TRILIUM_PH_8__のみを含む__TRILIUM_PH_3__リンクの編集__TRILIUM_PH_4__ダイアログを開きます。埋め込みが選択されている間に__TRILIUM_PH_9__Ctrl__TRILIUM_PH_10__+__TRILIUM_PH_11__K__TRILIUM_PH_12__を押した場合も同様です。別のアドレスを指定すると、埋め込みはその新しいメディアを再生し、サイズ、位置、タイトル、キャプションを維持します。挿入時と同様に、新しいメディアのサムネイルと形状が適用され、動画ファイルの場合はそのフレームの1つの画像が取得されます。ビデオの最初のサイズにあった動画は新しいビデオの最初のサイズになり、動画の代わりに音声ファイル、または音声ファイルの代わりに動画を指定した場合は、新しいメディアのサイズになります。自分で入力しない限り、新しいアドレスには新しいメディアのタイトルが表示されます。アドレスがYouTubeの動画、音声ファイル、動画ファイルのいずれでもない場合、埋め込みは以前のまま維持され、Triliumにエラーが表示されます。\",\"u_cf7e05c94636cae456d4fa96_0\":\"__TRILIUM_PH_2__ __TRILIUM_PH_3__として表示__TRILIUM_PH_4__の下にある__TRILIUM_PH_0__表示__TRILIUM_PH_1__メニューの表示モード。\",\"u_34a8fb06e4427631c9396d1e_0\":\"__TRILIUM_PH_0__サイズ変更可能__TRILIUM_PH_1__な動画または音声ファイルのサイズを変更するには、それを選択して右下隅（右揃えの場合は左下隅）のハンドルをドラッグします。動画の高さは幅に追従します。__TRILIUM_PH_4__サイズ__TRILIUM_PH_5__サブメニューの__TRILIUM_PH_2__デフォルト__TRILIUM_PH_3__を使用すると、動画を最初のサイズに戻すことができます。\"}\n}",
+      "finishReason": "STOP"
+    },
+    {
+      "responseIndex": 68,
+      "text": "{\"requestKey\":\"3IDVtesTQ8ds_ac58903eba5feaeb\",\"translations\":{\"u_b0991af44fd78e34296bd150_0\":\"__TRILIUM_PH_0__Formatting toolbar__TRILIUM_PH_1__の __TRILIUM_PH_2__ を押すか、__TRILIUM_PH_3__Ctrl__TRILIUM_PH_4__+__TRILIUM_PH_5__K__TRILIUM_PH_6__ を押します。\",\"u_eef2a0eb0f81f0958f4f9e34_0\":\"アドレス欄から移動するか __TRILIUM_PH_0__Paste__TRILIUM_PH_1__ ボタンで貼り付けると、空の __TRILIUM_PH_2__Link title__TRILIUM_PH_3__ にウェブページのタイトルが自動入力されます。読み込み中は末尾にスピナーが表示されます。入力したタイトルはそのまま保持されます。これを無効にするには、__TRILIUM_PH_4__Options__TRILIUM_PH_5__ → __TRILIUM_PH_6__Text Notes__TRILIUM_PH_7__ に移動し、__TRILIUM_PH_8__Features__TRILIUM_PH_9__ セクションの __TRILIUM_PH_10__Automatically retrieve titles for text links__TRILIUM_PH_11__ をオフにします。\",\"u_fa524990c878160b05f30a87_0\":\"上記と同様の方法（書式設定ツールバーまたは __TRILIUM_PH_2__Ctrl__TRILIUM_PH_3__+__TRILIUM_PH_4__K__TRILIUM_PH_5__経由）で __TRILIUM_PH_0__Add link__TRILIUM_PH_1__ ダイアログを開きます。選択したテキストがリンクのテキストになるため、ダイアログには __TRILIUM_PH_6__Display as__TRILIUM_PH_7__ は表示されません。\",\"u_e8046e51935339639168e067_0\":\"同じメニューには、__TRILIUM_PH_0__Open link__TRILIUM_PH_1__、__TRILIUM_PH_2__Edit link__TRILIUM_PH_3__、__TRILIUM_PH_4__Copy address (URL)__TRILIUM_PH_5__ に加え、ポップアップの __TRILIUM_PH_10__Display__TRILIUM_PH_11__ メニューと同様に、リンクを __TRILIUM_PH_8__Link Previews__TRILIUM_PH_9__ のいずれかに変換する __TRILIUM_PH_6__Display as__TRILIUM_PH_7__ があります。\",\"u_8dea6f59aaf75a6382f6def2_0\":\"編集中のノート内の外部リンクにアクセスするには、__TRILIUM_PH_0__Ctrl__TRILIUM_PH_1__+クリックまたはダブルクリックして新しいタブやウィンドウで開くか、カーソルを置いて __TRILIUM_PH_2__Alt__TRILIUM_PH_3__+__TRILIUM_PH_4__Enter__TRILIUM_PH_5__ を押すか、右クリックして __TRILIUM_PH_6__Open link__TRILIUM_PH_7__ を選択します。タッチデバイスでは、リンクを長押ししてから __TRILIUM_PH_8__Open link__TRILIUM_PH_9__ を選択します。__TRILIUM_PH_12__Editable__TRILIUM_PH_13__ ではない __TRILIUM_PH_10__included note__TRILIUM_PH_11__ 内のリンクは、読み取り専用ノートと同様にクリックで開きます。\"}}",
+      "finishReason": "STOP"
+    },
+    {
+      "responseIndex": 69,
+      "text": "{\"requestKey\":\"hrZ1D00cLbal_3b31a8f152ebddfe\",\"translations\":{\"u_28c434a56dcc7619fe62bdec_0\":\"__TRILIUM_PH_0__Ctrl__TRILIUM_PH_1__ + __TRILIUM_PH_2__L__TRILIUM_PH_3__ を押すか、__TRILIUM_PH_6__書式設定ツールバー__TRILIUM_PH_7__ の __TRILIUM_PH_5__ メニューの下にある __TRILIUM_PH_4__ ボタンをクリックするか、__TRILIUM_PH_10__スラッシュコマンド__TRILIUM_PH_11__ で __TRILIUM_PH_8__ノートへのリンク（内部リンク）__TRILIUM_PH_9__ を選択します。デスクトップ版では、カーソルの横のポップアップに __TRILIUM_PH_12__リンクの追加__TRILIUM_PH_13__ ダイアログが開きます。\",\"u_bce14c94920e906e87709ed8_0\":\"名前を付ける前に空の子ノートを作成してリンクするには、__TRILIUM_PH_2__挿入ボタン__TRILIUM_PH_3__ で説明されている __TRILIUM_PH_0__新しい子ノート__TRILIUM_PH_1__ を使用します。\"}}",
+      "finishReason": "STOP"
+    },
+    {
+      "responseIndex": 70,
+      "text": "{\n  \"requestKey\": \"wfGXLmm7x27z_98323f8def53fc85\",\n  \"translations\": {\n    \"u_38e1954419dff8c314031759_0\": \"__TRILIUM_PH_2__右サイドバー__TRILIUM_PH_3__の__TRILIUM_PH_0__接続タブ__TRILIUM_PH_1__内に、専用のセクションとして表示されます。\"\n  }\n}",
+      "finishReason": "STOP"
+    },
+    {
+      "responseIndex": 71,
+      "text": "{\n  \"requestKey\": \"S6Xx8QIWTV66_15848385e3e57656\",\n  \"translations\": {\n    \"u_4227794c6a7c0ddcaf69bcbe_0\": \"ネストされたリストを作成するには、__TRILIUM_PH_0__ ボタン（__TRILIUM_PH_3__Other features__TRILIUM_PH_4__ 内の __TRILIUM_PH_1__Indentation__TRILIUM_PH_2__ を参照）または __TRILIUM_PH_5__Tab__TRILIUM_PH_6__ キーを使用します。現在の要素のネストレベルを下げるには、__TRILIUM_PH_7__Shift__TRILIUM_PH_8__+__TRILIUM_PH_9__Tab__TRILIUM_PH_10__ を押します。\"\n  }\n}",
+      "finishReason": "STOP"
+    },
+    {
+      "responseIndex": 72,
+      "text": "{\n  \"requestKey\": \"YfYAtQBcfo5V_f3831a8b32f313e7\",\n  \"translations\": {\n    \"u_b25341674ea75060c4715baa_0\": \"テキストノート内では、__TRILIUM_PH_1__書式設定ツールバー__TRILIUM_PH_2__にある __TRILIUM_PH_0__ ボタン（通常は__TRILIUM_PH_3__挿入ボタン__TRILIUM_PH_4__の下にあります）を使用して、数式を入力することができます。\"\n  }\n}",
+      "finishReason": "STOP"
+    },
+    {
+      "responseIndex": 73,
+      "text": "{\n  \"requestKey\": \"wYDzQ1fBFgfT_88342c1cafcede35\",\n  \"translations\": {\n    \"u_8762889c04d2a3ceec11d284_0\": \"または、__TRILIUM_PH_0__ と入力し、__TRILIUM_PH_7__スラッシュコマンド__TRILIUM_PH_8__で説明されているように、__TRILIUM_PH_1__2 columns layout__TRILIUM_PH_2__、__TRILIUM_PH_3__3 columns layout__TRILIUM_PH_4__、または __TRILIUM_PH_5__4 columns layout__TRILIUM_PH_6__ を選択します。\"\n  }\n}",
+      "finishReason": "STOP"
+    },
+    {
+      "responseIndex": 74,
+      "text": "{\n  \"requestKey\": \"0vgWgxQAWj4a_066e7a0566933634\",\n  \"translations\": {\n    \"u_2eee2af9ddbcdbe517aaac8f_0\": \"選択範囲の並び替えは実験的な機能であり、成熟するにつれて変更される可能性があります。使用するには、__TRILIUM_PH_2__Options__TRILIUM_PH_3__ → __TRILIUM_PH_4__Advanced__TRILIUM_PH_5__ → __TRILIUM_PH_6__Experimental Options__TRILIUM_PH_7__ で __TRILIUM_PH_0__Sort selection in text editor__TRILIUM_PH_1__ を有効にしてください。\",\n    \"u_ed320789bacddcd02537ba3f_0\": \"並び替えるには、カーソルをリストやテーブル内に置くか、並び替える段落を選択し、__TRILIUM_PH_3__Formatting toolbar__TRILIUM_PH_4__ の __TRILIUM_PH_0__ __TRILIUM_PH_1__Sort__TRILIUM_PH_2__ ボタンを押して昇順に並び替えます。その横にある矢印から __TRILIUM_PH_5__Ascending__TRILIUM_PH_6__ と __TRILIUM_PH_7__Descending__TRILIUM_PH_8__ を選択できます。フローティングツールバーを使用する場合、ボタンはブロックレベルのポップアップ内にあります。\",\n    \"u_1239dc7474768787165a3a4f_0\": \"__TRILIUM_PH_0__Table rows__TRILIUM_PH_1__: __TRILIUM_PH_4__Tables__TRILIUM_PH_5__ の __TRILIUM_PH_2__Sorting rows__TRILIUM_PH_3__ で説明されているように、行はカーソルがある列によって並び替えられます。テーブルのセル内では、行ではなく、リストまたは選択された複数の段落が並び替えられます。\",\n    \"u_1483151a7805b92acb2a9e4c_0\": \"値はテーブルの行と同様の方法で比較されます。__TRILIUM_PH_2__Tables__TRILIUM_PH_3__ の __TRILIUM_PH_0__How values are compared__TRILIUM_PH_1__ を参照してください。\"\n  }\n}",
+      "finishReason": "STOP"
+    },
+    {
+      "responseIndex": 75,
+      "text": "{\n  \"requestKey\": \"NdowYOC1GFKS_d2749b80709ccc5c\",\n  \"translations\": {\n    \"u_6ef6d308759490a685f2342f_0\": \"__TRILIUM_PH_0__モバイルフロントエンド__TRILIUM_PH_1__では、ツールバーは表の上にフロート表示されません。その代わりに、画面下部の書式設定ツールバーにある__TRILIUM_PH_3__元に戻す__TRILIUM_PH_4__と__TRILIUM_PH_5__やり直す__TRILIUM_PH_6__の横にある__TRILIUM_PH_2__ボタンを押すと、そこに表のツールバーが表示されます。\",\n    \"u_70adb6051fa862a81ae57577_0\": \"v0.107.0以降、__TRILIUM_PH_4__貼り付け__TRILIUM_PH_5__サブメニュー内の__TRILIUM_PH_0__上に行を貼り付け__TRILIUM_PH_1__および__TRILIUM_PH_2__下に行を貼り付け__TRILIUM_PH_3__は、カーソル位置からのセルに上書きするのではなく、クリップボードの内容を現在のセルの行の隣の新しい行として貼り付けます。これらは、選択範囲が単一の行にあり、かつ__TRILIUM_PH_6__貼り付け__TRILIUM_PH_7__と同様にクリップボードを読み取ることができる場合にのみ表示されます：\",\n    \"u_5745e626db648b69d22c5f14_0\": \"複数の列に同じ幅を設定するには、それらの列にまたがってセルを選択し、書式設定ツールバーの__TRILIUM_PH_2__ボタン__TRILIUM_PH_1__または__TRILIUM_PH_3__コンテキストメニュー__TRILIUM_PH_4__から__TRILIUM_PH_0__列の幅を均等にする__TRILIUM_PH_1__を選択します。\",\n    \"u_921ef83b566d4ba3d9188f95_0\": \"正確な幅を設定するには、__TRILIUM_PH_0__を超えるパーセンテージまたはピクセル単位の幅を__TRILIUM_PH_1__ __TRILIUM_PH_2__表のプロパティ__TRILIUM_PH_3__に入力します。\",\n    \"u_846ab9ae23a20cf17cdf15b9_0\": \"__TRILIUM_PH_0__モバイルフロントエンド__TRILIUM_PH_1__では、表の列を画面の幅に縮小するのではなく、デスクトップ上での幅を維持して横方向にスクロールします。表の最大幅は、モバイルデバイス上の__TRILIUM_PH_4__オプション__TRILIUM_PH_5__ → __TRILIUM_PH_6__外観__TRILIUM_PH_7__ → __TRILIUM_PH_8__コンテンツの幅__TRILIUM_PH_9__で設定された__TRILIUM_PH_2__最大コンテンツ幅__TRILIUM_PH_3__であり、デフォルトでは1200ピクセルです。たとえば、__TRILIUM_PH_10__に設定された表の幅は600ピクセルになります。\",\n    \"u_91ee3d15b27441c1ec216806_0\": \"行をヘッダー行にするには、__TRILIUM_PH_2__コンテキストメニュー__TRILIUM_PH_3__の__TRILIUM_PH_0__ヘッダーとして設定__TRILIUM_PH_1__、または書式設定ツールバーの__TRILIUM_PH_6__ボタン__TRILIUM_PH_5__の__TRILIUM_PH_4__ヘッダー行__TRILIUM_PH_5__を使用します。\",\n    \"u_bf3979edcd068fc744d60c9f_0\": \"表やセルの境界線および背景の色は、__TRILIUM_PH_2__テキストの色__TRILIUM_PH_3__と同様に、__TRILIUM_PH_0__テーマ__TRILIUM_PH_1__に適応します。パレットから選択された色、カラーピッカーで選ばれた色、または入力された色は、現在のテーマに合った明るいまたは暗い色調で表示されるため、境界線は見える状態を保ち、テキストは背景に対して読みやすい状態を維持します。色相は同じままであり、表は選択されたときの色を保持します。\",\n    \"u_60e22e53dfcedad77887920f_0\": \"ヘッダーセルは現在のテーマに合わせて網掛けされます。すべての表でその背景を変更するには、__TRILIUM_PH_1__カスタムテーマ__TRILIUM_PH_2__または__TRILIUM_PH_3__アプリ全体のカスタムCSS__TRILIUM_PH_4__で__TRILIUM_PH_0__変数を設定します（例：__TRILIUM_PH_5__）。セルに対して選択された背景が引き続き優先されます。\",\n    \"u_a8e03d48116476613155fefd_0\": \"すべての表のデフォルトの境界線を変更するには、__TRILIUM_PH_1__カスタムテーマ__TRILIUM_PH_2__または__TRILIUM_PH_3__アプリ全体のカスタムCSS__TRILIUM_PH_4__で__TRILIUM_PH_0__変数を設定します（例：__TRILIUM_PH_5__）。独自の境界線を持たないすべての表の境界線を非表示にするには、これを__TRILIUM_PH_6__に設定します。\"\n  }\n}",
+      "finishReason": "STOP"
+    },
+    {
+      "responseIndex": 76,
+      "text": "{\n  \"requestKey\": \"6f9hih2hXXZk_68a61747343ce2a0\",\n  \"translations\": {\n    \"u_3e941d1c3575b1e5dc33de05_0\": \"コードノートの言語を変更するには、__TRILIUM_PH_1__ステータスバー__TRILIUM_PH_2__にある __TRILIUM_PH_0__ アイコンを探してください。クリックすると利用可能な言語のリストが表示されます（次のセクションに従ってカスタマイズできます）。メニューには、素早く絞り込みを行うための検索バーや、いくつかのプログラミング言語を視覚的に区別するためのアイコンも備わっています。\",\n    \"u_36c42696e8df1294f7ec7e70_0\": \"言語のリストは、__TRILIUM_PH_2__テキスト__TRILIUM_PH_3__ノートの __TRILIUM_PH_0__コードブロック__TRILIUM_PH_1__ 機能とも共有されます。\",\n    \"u_bfe727450ef58c444be3bbd1_0\": \"含まれているコードノートや埋め込まれたコードファイルは、__TRILIUM_PH_3__詳細アクション__TRILIUM_PH_2__メニューの __TRILIUM_PH_0__行番号__TRILIUM_PH_1__ サブメニューを通じて独自に表示・非表示を切り替えることができます（__TRILIUM_PH_4__ノートのインクルード__TRILIUM_PH_5__を参照）。その __TRILIUM_PH_6__自動__TRILIUM_PH_7__ 項目はその設定に従います。\"\n  }\n}",
+      "finishReason": "STOP"
+    },
+    {
+      "responseIndex": 77,
+      "text": "{\n  \"requestKey\": \"m523cpzocqaD_f1715957ff2b0a92\",\n  \"translations\": {\n    \"u_f0b873a54c056d2e81371a27_0\": \"検索が保存されると、後から設定を変更できるように __TRILIUM_PH_2__タイトル__TRILIUM_PH_3__ の下に __TRILIUM_PH_0__検索パラメータ__TRILIUM_PH_1__ が引き続き表示されますが、デフォルトでは折りたたまれた状態になっています。\"\n  }\n}",
+      "finishReason": "STOP"
+    },
+    {
+      "responseIndex": 78,
+      "text": "{\"requestKey\":\"iRwzGnHPzonm_fbc6cee59e10c83b\",\"translations\":{\"u_d5412243e79e6423b6732039_0\":\"__TRILIUM_PH_0__複数選択__TRILIUM_PH_1__を使用して複数のノートをまとめてドラッグすることもできます。ノートは重なることなく、ドラッグした位置の近くに配置されます。\",\"u_606b2bb958e1a59416ed0ae5_0\":\"ここで予想外の現象が起きます。別の __TRILIUM_PH_0__ relation を表示するリレーションも確認できます。これは、__TRILIUM_PH_3__ を __TRILIUM_PH_6__ の「__TRILIUM_PH_4__逆__TRILIUM_PH_5__」リレーション（およびその逆）として設定する __TRILIUM_PH_1__relation definition__TRILIUM_PH_2__ が存在するためであり、したがって自動的に作成されます。\"}}",
+      "finishReason": "STOP"
+    },
+    {
+      "responseIndex": 79,
+      "text": "{\n  \"requestKey\": \"HcABDtFCkbFN_faa51f24d381bb10\",\n  \"translations\": {\n    \"u_283d4676f4c4219cdcc1eba2_0\": \"親のレンダリングノートで、新しく作成した子を指す __TRILIUM_PH_0__ リレーションを定義します。\",\n    \"u_52860d7bdfb298f9f42f8313_0\": \"__TRILIUM_PH_1__ノートボタン__TRILIUM_PH_2__エリアにある __TRILIUM_PH_0__ ボタン。\",\n    \"u_2b4198be2af6ab1c623cd899_0\": \"レンダリングノートは、__TRILIUM_PH_2__ リレーションが設定されると、__TRILIUM_PH_0__ノートメニュー__TRILIUM_PH_1__から印刷またはPDFとしてエクスポートできます（__TRILIUM_PH_3__印刷とPDFエクスポート__TRILIUM_PH_4__を参照）。他のノートとは異なり、表示されているとおりに正確に印刷されます。スクリプトは再実行されないため、ノートに入力、選択、または読み込まれた内容が保持されます。\",\n    \"u_e0c35b86569592453f71d322_0\": \"印刷用にレイアウトを調整するには、__TRILIUM_PH_0__ リレーションを使用します。\",\n    \"u_b4b73208f4a8ee33c2e8941f_0\": \"__TRILIUM_PH_2__デモノート__TR_PH_3__に存在する__TRILIUM_PH_0__体重トラッカー__TRILIUM_PH_1__。\"\n  }\n}",
+      "finishReason": "STOP"
+    },
+    {
+      "responseIndex": 80,
+      "text": "{\n  \"requestKey\": \"s1aBHPd79XYj_d372b4095e1cbf87\",\n  \"translations\": {\n    \"u_e3e5ff123bc0192dff3c5e10_0\": \"__TRILIUM_PH_1__ノートボタン__TRILIUM_PH_2__にある __TRILIUM_PH_0__ アイコンを押すことで、いつでも2つのレイアウトを切り替えることができます。\",\n    \"u_b50e2f96795af1f34b202875_0\": \"ダイアグラムを個別のノートではなく __TRILIUM_PH_0__テキスト__TRILIUM_PH_1__ ノート内に表示するには、__TRILIUM_PH_5__ __TRILIUM_PH_6__挿入__TRILIUM_PH_7__ メニューの __TRILIUM_PH_2__ __TRILIUM_PH_3__Mermaid図__TRILIUM_PH_4__ ボタンを使用して挿入します。これはMermaidノートと同じ表示、ズーム、エラー表示を備えており、そのソースはテキストノート内にコードブロックとして保持されます。__TRILIUM_PH_10__挿入ボタン__TRILIUM_PH_11__ の __TRILIUM_PH_8__Mermaid図__TRILIUM_PH_9__ を参照してください。\"\n  }\n}",
+      "finishReason": "STOP"
+    },
+    {
+      "responseIndex": 81,
+      "text": "{\n  \"requestKey\": \"grjYqerjn243_88b4053d8518c38c\",\n  \"translations\": {\n    \"u_51674924947de2727249d0aa_0\": \"ノートは __TRILIUM_PH_2__ノート メニュー__TRILIUM_PH_3__ から __TRILIUM_PH_0__読み取り専用__TRILIUM_PH_1__ に切り替えることができます。\",\n    \"u_ddb6ae495450ad1ce978b4e9_0\": \"ペンはプロパティパネルで選択した__TRILIUM_PH_0__線の太さ__TRILIUM_PH_1__の半分の太さで描画するため、手書きに適しています。代わりに全幅で描画するには、__TRILIUM_PH_4__オプション__TRILIUM_PH_5__ → __TRILIUM_PH_6__その他__TRILIUM_PH_7__ で __TRILIUM_PH_2__細いペンストローク__TRILIUM_PH_3__をオフにしてください。既に描画されている線の太さは維持されます。\",\n    \"u_47717f581e80cff9c0578b1f_0\": \"v0.104.0以降、Canvasは__TRILIUM_PH_2__テキスト__TRILIUM_PH_3__ノートの__TRILIUM_PH_0__ノートのインクルード__TRILIUM_PH_1__機能と同様の方法でノートの埋め込みをサポートしています。\"\n  }\n}",
+      "finishReason": "STOP"
+    }
+  ],
+  "error": "Some batch responses were invalid; valid responses were retained"
 }
