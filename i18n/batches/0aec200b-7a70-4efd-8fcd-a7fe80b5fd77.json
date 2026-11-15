@@ -1,0 +1,2087 @@
+{
+  "schemaVersion": 1,
+  "id": "0aec200b-7a70-4efd-8fcd-a7fe80b5fd77",
+  "phase": "submitting",
+  "createdAt": "2026-11-15T05:28:10.674Z",
+  "conditions": {
+    "model": "gemini-3.5-flash-lite",
+    "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+    "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+  },
+  "requests": [
+    {
+      "key": "nRqcgfTb97uV_e2cd6bedd2424339",
+      "pageId": "nRqcgfTb97uV",
+      "units": [
+        {
+          "id": "u_970ed7996d9d73fbe7f0666f_0",
+          "kind": "p",
+          "source": "For security reasons, this feature is __TRILIUM_PH_0__not enabled__TRILIUM_PH_1__ by default. To enable it, enable __TRILIUM_PH_2__Network access__TRILIUM_PH_3__ in __TRILIUM_PH_4__Security__TRILIUM_PH_5__.",
+          "sourceHash": "970ed7996d9d73fbe7f0666f6482a2c9219a4a1415c7776a7ddee0b0b1eb95b9",
+          "context": "Using the desktop application as a server",
+          "contextHash": "c1e2ae4047b69b5e0f493740e2ade94867f348d6b2bbb2a50c8cbdcf59367fde"
+        }
+      ]
+    },
+    {
+      "key": "7iwde4lsKc6O_99f1baee88a912f2",
+      "pageId": "7iwde4lsKc6O",
+      "units": [
+        {
+          "id": "u_9fde006f67464642484495a3_0",
+          "kind": "p",
+          "source": "On Linux, __TRILIUM_PH_0__Launch on startup__TRILIUM_PH_1__ writes a __TRILIUM_PH_2__ entry to the user's autostart directory (__TRILIUM_PH_3__, usually __TRILIUM_PH_4__). Its __TRILIUM_PH_5__ line points to the AppImage when running from one, or to the running executable otherwise.",
+          "sourceHash": "9fde006f67464642484495a3a16a3ba3fde72d3dc96f22c949f042841b4c18aa",
+          "context": "Tray icon & automatic startup > Automatic startup > Linux: custom launch command for packagers",
+          "contextHash": "49d5cd9cac34bb4fa95c61ed40db6231dc9079eaaa87d2ea933147a36820d6c5"
+        }
+      ]
+    },
+    {
+      "key": "rWX5eY045zbE_f70c6559fff385a4",
+      "pageId": "rWX5eY045zbE",
+      "units": [
+        {
+          "id": "u_edb3a397b8025ef18fecff79_0",
+          "kind": "p",
+          "source": "If you're using a SMB/CIFS share or folder as your Trilium data directory, __TRILIUM_PH_0__you'll need__TRILIUM_PH_1__ to add the mount options of __TRILIUM_PH_2__ and __TRILIUM_PH_3__ when mounting your SMB share.",
+          "sourceHash": "edb3a397b8025ef18fecff79026ba142a404f847d5681d095c1012ae63d9610b",
+          "context": "Using Docker > Prerequisites",
+          "contextHash": "bcca400598bf216ad3fe6fb2ddac463f706e7de777634ebb353b7a5ab17a6130"
+        },
+        {
+          "id": "u_a059f770a4141e9fc80c2a39_0",
+          "kind": "p",
+          "source": "To keep the data somewhere else, edit the __TRILIUM_PH_0__ entry in __TRILIUM_PH_1__ and change the host path before the colon (for example __TRILIUM_PH_2__). Leave the path after the colon unchanged.",
+          "sourceHash": "a059f770a4141e9fc80c2a3981f55ec51d2e866d8db883f92d2bfa1f5f2a2299",
+          "context": "Using Docker > Running with Docker Compose > Grab the latest docker-compose.yml:",
+          "contextHash": "15a8b728d5d1ad3fd05e7892cece30eb16456c244c43edc8023e001117186686"
+        },
+        {
+          "id": "u_c6d4ac14f4e0658e165bb3f7_0",
+          "kind": "p",
+          "source": "If you are having timezone issues and you are not using docker-compose, you may need to add a __TRILIUM_PH_0__ environment variable with the __TRILIUM_PH_1__TZ identifier__TRILIUM_PH_2__ of your local timezone.",
+          "sourceHash": "c6d4ac14f4e0658e165bb3f747404e83ba1b41f2f668a0c58e444686008b6e44",
+          "context": "Using Docker > Reverse Proxy > Note on timezones",
+          "contextHash": "3421809bd893570d46863b280a03515b63e3bcece00e384c80b6f4d8dc97f631"
+        },
+        {
+          "id": "u_e45c7e575ff7e16f5d55ff64_0",
+          "kind": "p",
+          "source": "With Docker Compose, add __TRILIUM_PH_0__ to the service in __TRILIUM_PH_1__:",
+          "sourceHash": "e45c7e575ff7e16f5d55ff64c6d073caac46f96696770a87c78001e9c555e7bf",
+          "context": "Using Docker > Running as a non-root user",
+          "contextHash": "154e7087c137f6942d25df100d0539e0b0afcd83afda4267e895b2b67603141a"
+        }
+      ]
+    },
+    {
+      "key": "lwAX5SvbrK2g_3786b013a25593cf",
+      "pageId": "lwAX5SvbrK2g",
+      "units": [
+        {
+          "id": "u_f1433df101d68aed7917edd9_0",
+          "kind": "p",
+          "source": "Access the __TRILIUM_PH_0__database__TRILIUM_PH_1__ file in the __TRILIUM_PH_2__data directory__TRILIUM_PH_3__. Open the __TRILIUM_PH_4__ file with an SQLite client (e.g., __TRILIUM_PH_5__DB Browser__TRILIUM_PH_6__).",
+          "sourceHash": "f1433df101d68aed7917edd97f4431983312e2f5266c10033fb34f44944c5a2c",
+          "context": "Resetting your password > By altering the database",
+          "contextHash": "22003ee7eb6396af4605952a63f8e5b0e727ab21107382cec64094e0fc106895"
+        }
+      ]
+    },
+    {
+      "key": "0hzsNCP31IAB_dd8bfef2ced0fc3f",
+      "pageId": "0hzsNCP31IAB",
+      "units": [
+        {
+          "id": "u_b8e55ba818bc6c938f9bf70f_0",
+          "kind": "p",
+          "source": "If “Remember me” is checked, then the login will expire in 21 days. This period can be adjusted by modifying the __TRILIUM_PH_0__ value in __TRILIUM_PH_1__. For example, to have the session expire in one day:",
+          "sourceHash": "b8e55ba818bc6c938f9bf70f20a9dabd0fe86c999639f1d08b8355da7227dcee",
+          "context": "Authentication > Understanding how the session works",
+          "contextHash": "6d910eca40c2aa36e45b06aaaf9de45487ff914175aa502fb65e075cfc9d5e4f"
+        }
+      ]
+    },
+    {
+      "key": "7DAiwaf8Z7Rz_60ca5842de8ef277",
+      "pageId": "7DAiwaf8Z7Rz",
+      "units": [
+        {
+          "id": "u_3bd7e22f2edddbb46f707974_0",
+          "kind": "p",
+          "source": "A wrong one-time password counts toward the same limit of failed attempts as a wrong password. See __TRILIUM_PH_0__Brute-force protection__TRILIUM_PH_1__ in __TRILIUM_PH_2__Authentication__TRILIUM_PH_3__.",
+          "sourceHash": "3bd7e22f2edddbb46f707974c02f8b3062ea36623d7408687880d7740cc59663",
+          "context": "Multi-factor authentication with TOTP > Signing in",
+          "contextHash": "9240bdab2a5641a10d2f573f6aeb6f141067acc93561f063e99447ce54932aea"
+        },
+        {
+          "id": "u_f709abb2eb81463b4442e0db_0",
+          "kind": "p",
+          "source": "Once TOTP is enabled, obtaining a token for the __TRILIUM_PH_0__ETAPI (REST API)__TRILIUM_PH_1__ through the __TRILIUM_PH_2__ call also requires the second factor: send the one-time password or a recovery code as __TRILIUM_PH_3__, next to __TRILIUM_PH_4__. Each code is accepted only once.",
+          "sourceHash": "f709abb2eb81463b4442e0dbd771386fa077d5835bd7486a59ccd9034a4f4f3b",
+          "context": "Multi-factor authentication with TOTP > Obtaining an ETAPI token with a password",
+          "contextHash": "20ad262792f2b85c91b748e16ccb5b3ab382637b54d906a29cbb294e310c2ae0"
+        }
+      ]
+    },
+    {
+      "key": "IgkTHSaFfq6A_702c5efc081e36ef",
+      "pageId": "IgkTHSaFfq6A",
+      "units": [
+        {
+          "id": "u_8dfa0cd3aed9dd0ad1738655_0",
+          "kind": "p",
+          "source": "Add a client under __TRILIUM_PH_0__ in Authelia's __TRILIUM_PH_1__, replacing __TRILIUM_PH_2__ with the URL of your Trilium instance:",
+          "sourceHash": "8dfa0cd3aed9dd0ad17386559f9db0e20661fd60a007fbe562a69bc14d608cf7",
+          "context": "Setting up with various providers",
+          "contextHash": "aed08d32912b31afd0bf72269d029e5f61b7e7e28478d8173d1d5b12d597f744"
+        },
+        {
+          "id": "u_4a255792f68ce2dab40b38e1_0",
+          "kind": "p",
+          "source": "Adjust __TRILIUM_PH_0__, using the __TRILIUM_PH_1__ from step 1:",
+          "sourceHash": "4a255792f68ce2dab40b38e17e5c157ecce05f1ddc3750a25241da323ad6bc01",
+          "context": "Setting up with various providers",
+          "contextHash": "aed08d32912b31afd0bf72269d029e5f61b7e7e28478d8173d1d5b12d597f744"
+        },
+        {
+          "id": "u_1e350e22c07aeab52b11d44a_0",
+          "kind": "p",
+          "source": "Do __TRILIUM_PH_0__not__TRILIUM_PH_1__ set __TRILIUM_PH_2__ for Authelia. It defaults confidential clients to __TRILIUM_PH_3__ and rejects any other method with __TRILIUM_PH_4__, which is the default Trilium already uses. This is the opposite of the GitLab case below.",
+          "sourceHash": "1e350e22c07aeab52b11d44abbc166f068fb6f208fd30f092189b12541adc647",
+          "context": "Setting up with various providers",
+          "contextHash": "aed08d32912b31afd0bf72269d029e5f61b7e7e28478d8173d1d5b12d597f744"
+        },
+        {
+          "id": "u_39a951e59e894baa8978715d_0",
+          "kind": "p",
+          "source": "Pocket ID gives you an __TRILIUM_PH_0__OIDC Discovery URL__TRILIUM_PH_1__ ending in __TRILIUM_PH_2__. On v0.105.0 and later you can paste it as-is. On earlier versions, remove that suffix and use only the part before it.",
+          "sourceHash": "39a951e59e894baa8978715ddc2db7d94be9b8650d72da958aca5d7893754850",
+          "context": "Setting up with various providers",
+          "contextHash": "aed08d32912b31afd0bf72269d029e5f61b7e7e28478d8173d1d5b12d597f744"
+        }
+      ]
+    },
+    {
+      "key": "x1lQNKQBqLcA_c8a32bae88050e81",
+      "pageId": "x1lQNKQBqLcA",
+      "units": [
+        {
+          "id": "u_374b27ee779195b72a6ff759_0",
+          "kind": "th",
+          "source": "__TRILIUM_PH_0__ in __TRILIUM_PH_1__ section",
+          "sourceHash": "374b27ee779195b72a6ff7598e08968db201cfa6129c238357aabb55dfd0f8b4",
+          "context": "Signing in with OpenID Connect > Setup > Configuring the authentication provider",
+          "contextHash": "03165a1559a5e4e52bef9bd4fcab381084db665293fd9e811f01c3456555fada"
+        },
+        {
+          "id": "u_d573a44a2d5b8c862107e1b6_0",
+          "kind": "p",
+          "source": "The default OAuth issuer is Google. To use other services such as Authentik or Auth0, you can configure the settings via __TRILIUM_PH_0__, __TRILIUM_PH_1__, and __TRILIUM_PH_2__ in the __TRILIUM_PH_3__ file. Alternatively, these values can be set using environment variables:",
+          "sourceHash": "d573a44a2d5b8c862107e1b6d3c688c46465b3557fe5635e8f11910541de7d59",
+          "context": "Signing in with OpenID Connect > Setup > Configuring the authentication provider",
+          "contextHash": "03165a1559a5e4e52bef9bd4fcab381084db665293fd9e811f01c3456555fada"
+        },
+        {
+          "id": "u_374b27ee779195b72a6ff759_1",
+          "kind": "th",
+          "source": "__TRILIUM_PH_0__ in __TRILIUM_PH_1__ section",
+          "sourceHash": "374b27ee779195b72a6ff7598e08968db201cfa6129c238357aabb55dfd0f8b4",
+          "context": "Signing in with OpenID Connect > Setup > Configuring the authentication provider",
+          "contextHash": "03165a1559a5e4e52bef9bd4fcab381084db665293fd9e811f01c3456555fada"
+        },
+        {
+          "id": "u_374b27ee779195b72a6ff759_2",
+          "kind": "th",
+          "source": "__TRILIUM_PH_0__ in __TRILIUM_PH_1__ section",
+          "sourceHash": "374b27ee779195b72a6ff7598e08968db201cfa6129c238357aabb55dfd0f8b4",
+          "context": "Signing in with OpenID Connect > Setup > Configuring the authentication provider",
+          "contextHash": "03165a1559a5e4e52bef9bd4fcab381084db665293fd9e811f01c3456555fada"
+        },
+        {
+          "id": "u_9dfc05208b7ba5d100647337_0",
+          "kind": "p",
+          "source": "The OIDC session lifetime is automatically bound to Trilium's own session cookie lifetime (the __TRILIUM_PH_0__ setting in the __TRILIUM_PH_1__ section, 21 days by default), so a single sign-in stays valid for as long as your Trilium session does rather than expiring early on the OIDC library's shorter internal defaults.",
+          "sourceHash": "9dfc05208b7ba5d100647337d2754a02f0793d8a33b6837cb0e4410772629c4f",
+          "context": "Signing in with OpenID Connect > Setup > Configuring the authentication provider",
+          "contextHash": "03165a1559a5e4e52bef9bd4fcab381084db665293fd9e811f01c3456555fada"
+        }
+      ]
+    },
+    {
+      "key": "yeEaYqosGLSh_42b4c2d96af307b9",
+      "pageId": "yeEaYqosGLSh",
+      "units": [
+        {
+          "id": "u_1e0a054aecea7b9ce62b79bc_0",
+          "kind": "p",
+          "source": "Please note that once you set up __TRILIUM_PH_0__Synchronization__TRILIUM_PH_1__ between a cloud instance and __TRILIUM_PH_2__desktop__TRILIUM_PH_3__ clients, it's important that the version of the desktop application and the server match up.",
+          "sourceHash": "1e0a054aecea7b9ce62b79bc7a6ebdf727036cfb110fa8bec6e7a1c393109128",
+          "context": "Third-party cloud hosting > Matching your version with the cloud instance",
+          "contextHash": "fc562d90a46ebcf47cc5400f3053d7080664b44e55522c631bc4d4cb33296b87"
+        }
+      ]
+    },
+    {
+      "key": "RDslemsQ6gCp_bf3907119100efb3",
+      "pageId": "RDslemsQ6gCp",
+      "units": [
+        {
+          "id": "u_aa26ae37cd587314bcf8afea_0",
+          "kind": "p",
+          "source": "The hints in the corner of the editor that explain the element under the cursor, such as a to-do item's state and its shortcut, are not shown, whatever the __TRILIUM_PH_0__Content hints__TRILIUM_PH_1__ setting under __TRILIUM_PH_2__Options__TRILIUM_PH_3__ → __TRILIUM_PH_4__Text Notes__TRILIUM_PH_5__ → __TRILIUM_PH_6__Features__TRILIUM_PH_7__.",
+          "sourceHash": "aa26ae37cd587314bcf8afea3506a0ffaed1c3f76f6415d200eb1b64c1a1f77e",
+          "context": "Mobile Frontend > Editing text notes > The formatting toolbar",
+          "contextHash": "fcfa95697f0ad2e6d0a45ad921babfa9d0dbd63c24764ee7639e793ffb3e74eb"
+        },
+        {
+          "id": "u_6fa42c26968a33745151484f_0",
+          "kind": "li",
+          "source": "Tap __TRILIUM_PH_0__ after the __TRILIUM_PH_1__ button to show it, and __TRILIUM_PH_2__ at its start to return to the main row.",
+          "sourceHash": "6fa42c26968a33745151484f8211acc85452af2f3383f29f7ec6a43557373c38",
+          "context": "Mobile Frontend > Editing text notes > Formatting text",
+          "contextHash": "68e48b1b96cb425f5bce1809ba98cf690d86a0d099f8a9778b26f8c1e2b09e16"
+        },
+        {
+          "id": "u_7d576cc61baf570c98c6584b_0",
+          "kind": "p",
+          "source": "Every note created this way carries the __TRILIUM_PH_0__ label, which gives a shared text note the __TRILIUM_PH_1__ icon unless the note has an __TRILIUM_PH_2__ of its own. A single share can carry at most 20 files.",
+          "sourceHash": "7d576cc61baf570c98c6584b82d029c722b3506c3f8b58ab1d72a6e25b1fa5cd",
+          "context": "Mobile Frontend > Sharing to Trilium",
+          "contextHash": "42b832e21b9c6a276d5ed617387bccaaf628352c2ff869b3be191f4ba2fd30d0"
+        },
+        {
+          "id": "u_7eeaedf80348f02128c05d51_0",
+          "kind": "p",
+          "source": "Trilium decides automatically whether to use mobile or desktop front-end. If this is not appropriate, you can use __TRILIUM_PH_0__ or __TRILIUM_PH_1__ query param on __TRILIUM_PH_2__login__TRILIUM_PH_3__ page (Note: you might need to log out).",
+          "sourceHash": "7eeaedf80348f02128c05d5183c54abd08eac360557afb89f4f39b0b2f20076e",
+          "context": "Mobile Frontend > Forcing mobile/desktop frontend",
+          "contextHash": "20102e1873b8b598d504e69b14551bc6b1b4ceb8b39b1c8372101e98f051e04a"
+        },
+        {
+          "id": "u_815db267f62e96ca042305ba_0",
+          "kind": "p",
+          "source": "Alternatively, simply select __TRILIUM_PH_0__Switch to mobile version__TRILIUM_PH_1__ in the __TRILIUM_PH_2__Global menu__TRILIUM_PH_3__. In the mobile version, select __TRILIUM_PH_4__Advanced__TRILIUM_PH_5__ → __TRILIUM_PH_6__Switch to desktop version__TRILIUM_PH_7__ there instead.",
+          "sourceHash": "815db267f62e96ca042305baac581e39e7563ce84467d6d2695422b66aff2f84",
+          "context": "Mobile Frontend > Forcing mobile/desktop frontend",
+          "contextHash": "20102e1873b8b598d504e69b14551bc6b1b4ceb8b39b1c8372101e98f051e04a"
+        }
+      ]
+    },
+    {
+      "key": "MtPxeAWVAzMg_24de7e3e4ab7f889",
+      "pageId": "MtPxeAWVAzMg",
+      "units": [
+        {
+          "id": "u_a90697760c11358d19ee942f_0",
+          "kind": "p",
+          "source": "The extension downloads the images of a clipping itself, so that they are stored in Trilium together with the note. If some of them cannot be downloaded (for example because the website refuses the request), the clipping is still saved, and the notification says how many images are missing. Those images keep their address on the original website: Trilium tries to download them once more if __TRILIUM_PH_0__Download images automatically__TRILIUM_PH_1__ is enabled in __TRILIUM_PH_2__Options__TRILIUM_PH_3__ → __TRILIUM_PH_4__Media__TRILIUM_PH_5__, and otherwise the note shows them from the website for as long as it serves them.",
+          "sourceHash": "a90697760c11358d19ee942f3f84cb7b2eae002a4d00c7a661b70c7910215c7d",
+          "context": "Web Clipper > Configuration > When a clipping fails",
+          "contextHash": "52459f3163805b643e0d9b62bca8656e92db3252e171dda4534ba65865ba2954"
+        },
+        {
+          "id": "u_4a6e29293c777e86fee15a67_0",
+          "kind": "li",
+          "source": "__TRILIUM_PH_0__GitHub Releases__TRILIUM_PH_1__ by looking for releases starting with __TRILIUM_PH_2__Web Clipper.__TRILIUM_PH_3__",
+          "sourceHash": "4a6e29293c777e86fee15a671f99007327b38572eaf7be4be077540f6ed14ffd",
+          "context": "Web Clipper > Testing development versions",
+          "contextHash": "553dfc9fb89f1f1d910581683ef45ecf88c6ebdc439a3c101527ac0d68e83611"
+        },
+        {
+          "id": "u_1f226dcc3bf8b772107ca58e_0",
+          "kind": "li",
+          "source": "Press the __TRILIUM_PH_0__Gear__TRILIUM_PH_1__ icon on the right of the __TRILIUM_PH_2__Manage Your Extensions__TRILIUM_PH_3__ title.",
+          "sourceHash": "1f226dcc3bf8b772107ca58e372be80c278e78ba504611d1b76264a42acecb1e",
+          "context": "Web Clipper > Testing development versions",
+          "contextHash": "553dfc9fb89f1f1d910581683ef45ecf88c6ebdc439a3c101527ac0d68e83611"
+        }
+      ]
+    },
+    {
+      "key": "ODY7qQn5m2FT_d34eda434cbca719",
+      "pageId": "ODY7qQn5m2FT",
+      "units": [
+        {
+          "id": "u_15c41da1bff6382b379b5f91_0",
+          "kind": "p",
+          "source": "So in total you'll have at most 4 backups from different points in time which should protect you from various problems. These backups are stored by default in __TRILIUM_PH_0__ directory placed in the __TRILIUM_PH_1__data directory__TRILIUM_PH_2__.",
+          "sourceHash": "15c41da1bff6382b379b5f916d788a0b32d2ebf32c994b0a931630b922df273a",
+          "context": "Backup",
+          "contextHash": "838557924a5cdfb2f10f233635223e79be8443aef62f9d176cfe18787a2e8b03"
+        }
+      ]
+    },
+    {
+      "key": "tAassRL4RSQL_07611e973da554da",
+      "pageId": "tAassRL4RSQL",
+      "units": [
+        {
+          "id": "u_d87f0a4ff57fd51faedc5b8a_0",
+          "kind": "p",
+          "source": "Add an __TRILIUM_PH_0__ line to the __TRILIUM_PH_1__ section of the unit file described in __TRILIUM_PH_2__Packaged version for Linux__TRILIUM_PH_3__:",
+          "sourceHash": "d87f0a4ff57fd51faedc5b8a1bfa2c4c91f0fe1758e1dbb4590f3741b7f4f63a",
+          "context": "Data directory > Location of the data directory > Changing the location of data directory",
+          "contextHash": "181155562c4101f054ba6b46cc45e4b8712e6ba0d1109d19008fd57ef885b1ac"
+        },
+        {
+          "id": "u_17308624bde38eb35a0d2a37_0",
+          "kind": "p",
+          "source": "You need to create a __TRILIUM_PH_0__ file under __TRILIUM_PH_1__ to load it properly each login.",
+          "sourceHash": "17308624bde38eb35a0d2a37e0999e88138cdae12dee7600d2cf29280eb52317",
+          "context": "Data directory > Location of the data directory > Changing the location of data directory",
+          "contextHash": "181155562c4101f054ba6b46cc45e4b8712e6ba0d1109d19008fd57ef885b1ac"
+        }
+      ]
+    },
+    {
+      "key": "ebyr7ES2SwOW_fbbe0422d9fbf1e1",
+      "pageId": "ebyr7ES2SwOW",
+      "units": [
+        {
+          "id": "u_b475ebc545b4a66b9df8a654_0",
+          "kind": "p",
+          "source": "The resources are stored in the __TRILIUM_PH_0__ folder of the __TRILIUM_PH_1__Data directory__TRILIUM_PH_2__, one folder per resource. To store them elsewhere, set the __TRILIUM_PH_3__ environment variable to another folder before starting Trilium.",
+          "sourceHash": "b475ebc545b4a66b9df8a6546c8c3c68425626e58a60016a51b81e1485aaf71b",
+          "context": "Downloaded resources > Location",
+          "contextHash": "a8fdb29aa9649ab0939f9c5846d8abe03885f42aa2924bd00b75ffa443221cec"
+        }
+      ]
+    },
+    {
+      "key": "x0JgW8UqGXvq_d9580b0159f642f4",
+      "pageId": "x0JgW8UqGXvq",
+      "units": [
+        {
+          "id": "u_f55bf9fada86e20402cb75fc_0",
+          "kind": "li",
+          "source": "The __TRILIUM_PH_0__Note Tree__TRILIUM_PH_1__ can be collapsed by pressing the __TRILIUM_PH_2__ button at the bottom of the __TRILIUM_PH_3__Launch Bar__TRILIUM_PH_4__. While collapsed, it can be peeked temporarily above the content by pressing the strip on the right side of the __TRILIUM_PH_5__Launch Bar__TRILIUM_PH_6__.",
+          "sourceHash": "f55bf9fada86e20402cb75fcd15f15f8cb91a69fbebf6605e3c47c7745216655",
+          "context": "Vertical and horizontal layout > Vertical layout",
+          "contextHash": "17bbaa98fefadbec8d06097b2b963842706e51535fc6881a227a80147203bd65"
+        },
+        {
+          "id": "u_d6ec3fc091eaa38665c2cdbe_0",
+          "kind": "li",
+          "source": "The __TRILIUM_PH_0__Global menu__TRILIUM_PH_1__ can be accessed via the __TRILIUM_PH_2__ icon at the top of the __TRILIUM_PH_3__Launch Bar__TRILIUM_PH_4__.",
+          "sourceHash": "d6ec3fc091eaa38665c2cdbe5acd8a73c1cad91f2e1a9df568b08599b339ab3b",
+          "context": "Vertical and horizontal layout > Vertical layout",
+          "contextHash": "17bbaa98fefadbec8d06097b2b963842706e51535fc6881a227a80147203bd65"
+        },
+        {
+          "id": "u_0f939589747524ec3314485d_0",
+          "kind": "li",
+          "source": "The __TRILIUM_PH_0__Global menu__TRILIUM_PH_1__ can be accessed via the __TRILIUM_PH_2__ button at the end of the __TRILIUM_PH_3__Launch Bar__TRILIUM_PH_4__.",
+          "sourceHash": "0f939589747524ec3314485dd2f1602ea89f56fa92cae165f6c41def76475d3a",
+          "context": "Vertical and horizontal layout > Horizontal layout",
+          "contextHash": "b734b0e67c8520d31e9b8dd76307a2cf7dc3d0553e5993e685a16c6ee3d2271a"
+        }
+      ]
+    },
+    {
+      "key": "YtSN43OrfzaA_6a8126bc5d3d147f",
+      "pageId": "YtSN43OrfzaA",
+      "units": [
+        {
+          "id": "u_4f6846d02574242ad7021f56_0",
+          "kind": "li",
+          "source": "__TRILIUM_PH_0__Templates__TRILIUM_PH_1__ will also be present (if any) at the end of the list, under a __TRILIUM_PH_2__Templates__TRILIUM_PH_3__ heading. The __TRILIUM_PH_4__ button beside the heading opens __TRILIUM_PH_5__Content Manager__TRILIUM_PH_6__ in the __TRILIUM_PH_7__Options__TRILIUM_PH_8__, where the templates can be managed.",
+          "sourceHash": "4f6846d02574242ad7021f5675167e903f14b564041f25fd3fad2f0624924103",
+          "context": "Note tree contextual menu > Available options",
+          "contextHash": "38607f375dc08f35f33c887fc784926de63909b7edd1abbb727dad4374058e61"
+        }
+      ]
+    },
+    {
+      "key": "8YBEPzcpUgxw_c5221952f34cbc50",
+      "pageId": "8YBEPzcpUgxw",
+      "units": [
+        {
+          "id": "u_33b15371dd7608600c84815f_0",
+          "kind": "p",
+          "source": "__TRILIUM_PH_0____TRILIUM_PH_1__Open with...__TRILIUM_PH_2__ in the __TRILIUM_PH_3__Advanced__TRILIUM_PH_4__ submenu opens the note in an application you choose, instead of the one the operating system associates with its type. As with __TRILIUM_PH_5__Open externally__TRILIUM_PH_6__, Trilium saves the note to a temporary file, watches it, and offers to upload the modified version back into the note. The entry is available only in the desktop application; attachments offer the same action.",
+          "sourceHash": "33b15371dd7608600c84815fb21dae101238e913375b07e079f0645c4e3fd9ef",
+          "context": "Note menu > Open with",
+          "contextHash": "1d3ae2060dc30d04659ff1c6f196a87910e242bba40b43e000668e0e05d8fe68"
+        },
+        {
+          "id": "u_1493b36a433b03cd663c0262_0",
+          "kind": "p",
+          "source": "To make an editor appear without changing the default application, add it under __TRILIUM_PH_0__ in __TRILIUM_PH_1__, using the name of the editor's __TRILIUM_PH_2__ file:",
+          "sourceHash": "1493b36a433b03cd663c026290888547941125e0d5387ff86f72f23a61705262",
+          "context": "Note menu > Open with > Adding an application to the chooser on Linux",
+          "contextHash": "683c8c480066ce625f465acc641da7380a14aed4bb3ea0b5563b3bc93636aadc"
+        },
+        {
+          "id": "u_d30637d3713cc5fae019bcea_0",
+          "kind": "li",
+          "source": "The custom buttons of the note type (such as __TRILIUM_PH_0____TRILIUM_PH_1__Download__TRILIUM_PH_2__ on a __TRILIUM_PH_3__File__TRILIUM_PH_4__).",
+          "sourceHash": "d30637d3713cc5fae019bcea58d1ba9a01469acc16f8b34d2aa8c5e180b9f74f",
+          "context": "Note menu > Mobile support",
+          "contextHash": "5781354201bb1ad5871220e926fdf48ef075ddc4040bd8ebbe11e689b3ed4b62"
+        },
+        {
+          "id": "u_d9473010f89206776db68ba5_0",
+          "kind": "li",
+          "source": "__TRILIUM_PH_0__Close this pane__TRILIUM_PH_1__, on the second note of a __TRILIUM_PH_2__Split View__TRILIUM_PH_3__.",
+          "sourceHash": "d9473010f89206776db68ba5451b616a53c19791e7449bc833ec961379a89a76",
+          "context": "Note menu > Mobile support",
+          "contextHash": "5781354201bb1ad5871220e926fdf48ef075ddc4040bd8ebbe11e689b3ed4b62"
+        },
+        {
+          "id": "u_7616f279d6a849f5a9749714_0",
+          "kind": "li",
+          "source": "__TRILIUM_PH_0__ __TRILIUM_PH_1__Note settings__TRILIUM_PH_2__, below __TRILIUM_PH_3__Protect the note__TRILIUM_PH_4__, which opens __TRILIUM_PH_5__Shared__TRILIUM_PH_6__ and __TRILIUM_PH_7__Bookmark__TRILIUM_PH_8__, then __TRILIUM_PH_9__Note type__TRILIUM_PH_10__, __TRILIUM_PH_11__Template__TRILIUM_PH_12__ and __TRILIUM_PH_13__Full width__TRILIUM_PH_14__, on a page of their own, together with the language of the note: the content language on __TRILIUM_PH_15__Text__TRILIUM_PH_16__ notes (see __TRILIUM_PH_17__Content language & Right-to-left support__TRILIUM_PH_18__), and the language of the code on __TRILIUM_PH_19__Code__TRILIUM_PH_20__ notes. The choices of __TRILIUM_PH_21__Editable__TRILIUM_PH_22__ are listed at the end of that page, under their own heading, instead of in a further submenu.",
+          "sourceHash": "7616f279d6a849f5a9749714a8666f640bb0a53848ddfd1b97860a910d0868fa",
+          "context": "Note menu > Mobile support",
+          "contextHash": "5781354201bb1ad5871220e926fdf48ef075ddc4040bd8ebbe11e689b3ed4b62"
+        },
+        {
+          "id": "u_375fd95249f1dd78bf8bbd58_0",
+          "kind": "li",
+          "source": "__TRILIUM_PH_0__ __TRILIUM_PH_1__Note info__TRILIUM_PH_2__, below __TRILIUM_PH_3__Note settings__TRILIUM_PH_4__, which opens the dates, type, ID and size of the note on a page of its own, ending with __TRILIUM_PH_5__Show similar notes__TRILIUM_PH_6__ (see __TRILIUM_PH_7__Similar Notes__TRILIUM_PH_8__).",
+          "sourceHash": "375fd95249f1dd78bf8bbd580f00f52f05b403df7caf9df7be1828c791a49003",
+          "context": "Note menu > Mobile support",
+          "contextHash": "5781354201bb1ad5871220e926fdf48ef075ddc4040bd8ebbe11e689b3ed4b62"
+        }
+      ]
+    },
+    {
+      "key": "uNtgN0cUKEBc_2a31d3599806874d",
+      "pageId": "uNtgN0cUKEBc",
+      "units": [
+        {
+          "id": "u_0bb7471d69a389fdce66431d_0",
+          "kind": "li",
+          "source": "A new label, relation or attribute definition can be added from the __TRILIUM_PH_0__ button in the __TRILIUM_PH_1__toolbar__TRILIUM_PH_2__. This shows the full detail popup.",
+          "sourceHash": "0bb7471d69a389fdce66431da9431f29862c4edea9c58116102f5b85d3a128dd",
+          "context": "Attributes tab > Owned attributes",
+          "contextHash": "a4440a5e2c2ea3b656c5d6cd7c3ed62b2c8530d671d579ceccda07875d6d302a"
+        },
+        {
+          "id": "u_cda19cb7e3f2b6228ef915ad_0",
+          "kind": "li",
+          "source": "To add a label definition, click the __TRILIUM_PH_0__Add definition__TRILIUM_PH_1__ (__TRILIUM_PH_2__) item at the end of the list; its type can be changed to a relation from the popup. Both kinds of definitions can also be added from the __TRILIUM_PH_3__ button in the __TRILIUM_PH_4__toolbar__TRILIUM_PH_5__.",
+          "sourceHash": "cda19cb7e3f2b6228ef915adf3d3c7b09b1ad6273a636fdf44e954d83ac4f657",
+          "context": "Attributes tab > Definitions",
+          "contextHash": "67c6de3e1e6d7e48beefe3de84059e6be8d571c4ca6cd6a1fececcee3b8234ef"
+        },
+        {
+          "id": "u_889e0f45c51118ea41f1417d_0",
+          "kind": "p",
+          "source": "On mobile, the attributes are the __TRILIUM_PH_0__Attributes__TRILIUM_PH_1__ tab of the note panel (see __TRILIUM_PH_2__Right Sidebar__TRILIUM_PH_3__), which opens as a sheet at the bottom of the screen from the __TRILIUM_PH_4__ button beside the __TRILIUM_PH_5__Note menu__TRILIUM_PH_6__. Selecting __TRILIUM_PH_7__Attributes__TRILIUM_PH_8__ in the note menu, below __TRILIUM_PH_9__Backlinks__TRILIUM_PH_10__ and __TRILIUM_PH_11__Note paths__TRILIUM_PH_12__, opens the panel on that tab. Tapping an attribute opens it on a page of its own, with a __TRILIUM_PH_13__ button to return to the list.",
+          "sourceHash": "889e0f45c51118ea41f1417d63d3fcd4fde6a03ab057c9327f2f9c9603c2b927",
+          "context": "Attributes tab > Mobile",
+          "contextHash": "dbddd42767cf2231919bebbfee10e293ab9b2d0e92cefbd874ae86c8590e07d6"
+        },
+        {
+          "id": "u_e3fea80effd8c5d0abd03ace_0",
+          "kind": "li",
+          "source": "Attributes are added from the __TRILIUM_PH_0__ button in the header, or from the __TRILIUM_PH_1__ button above the __TRILIUM_PH_2__Definitions__TRILIUM_PH_3__ card.",
+          "sourceHash": "e3fea80effd8c5d0abd03aceb308c96c4e70b306e2defc4a2827aa3c05d7e490",
+          "context": "Attributes tab > Mobile",
+          "contextHash": "dbddd42767cf2231919bebbfee10e293ab9b2d0e92cefbd874ae86c8590e07d6"
+        }
+      ]
+    },
+    {
+      "key": "LrKznOtw9cQD_c1546922b40c5dde",
+      "pageId": "LrKznOtw9cQD",
+      "units": [
+        {
+          "id": "u_2ef87dfc59c46165f3156c75_0",
+          "kind": "p",
+          "source": "Once the __TRILIUM_PH_0__AI__TRILIUM_PH_1__ integration is activated, a __TRILIUM_PH_2__Chat__TRILIUM_PH_3__ entry will appear in the __TRILIUM_PH_4__Right Sidebar__TRILIUM_PH_5__.",
+          "sourceHash": "2ef87dfc59c46165f3156c7586473ea2b4a67fa460f15c54099db4752f103beb",
+          "context": "AI chat tab",
+          "contextHash": "833cf2f5704ba220954fb2c444395f603124d5d4d4821821733b8c101383981f"
+        }
+      ]
+    },
+    {
+      "key": "RnaPdbciOfeq_435f6816c7759db5",
+      "pageId": "RnaPdbciOfeq",
+      "units": [
+        {
+          "id": "u_3fe4676ec9c7b996c491504a_0",
+          "kind": "p",
+          "source": "On mobile, the right sidebar is replaced by the note panel, which opens as a sheet at the bottom of the screen from the __TRILIUM_PH_0__ button beside the __TRILIUM_PH_1__Note menu__TRILIUM_PH_2__.",
+          "sourceHash": "3fe4676ec9c7b996c491504abe8bd484a7673d5d4a71a44f3c5c9c5372d66135",
+          "context": "Right Sidebar > Mobile support",
+          "contextHash": "e0867db1eeda22cb975959e089b2ad89c75acba5f49ccda3d7c5a8c329ffb9d0"
+        }
+      ]
+    },
+    {
+      "key": "r5JGHN99bVKn_b01caa7d85d29354",
+      "pageId": "r5JGHN99bVKn",
+      "units": [
+        {
+          "id": "u_f755f96c7f677b0ba83d89f0_0",
+          "kind": "li",
+          "source": "For an overview of the changes across all documents, press the __TRILIUM_PH_0__ button in the __TRILIUM_PH_1__Launch Bar__TRILIUM_PH_2__.",
+          "sourceHash": "f755f96c7f677b0ba83d89f0f9e9425803c07b55d26f2333deb62a13975ed804",
+          "context": "Recent Changes > Accessing the recent changes",
+          "contextHash": "e220afe65231f36456c6a0e02b69bdefd548c5bfe9f090ffedf8a23b3eefd0aa"
+        },
+        {
+          "id": "u_294f772bd2d55c621a640c36_0",
+          "kind": "li",
+          "source": "Right-clicking or pressing and holding the __TRILIUM_PH_0__ button of the __TRILIUM_PH_1__Tabs__TRILIUM_PH_2__ bar lists the most recently changed notes that are not open in a tab. __TRILIUM_PH_3__All recent changes__TRILIUM_PH_4__, at the bottom of that menu, opens this dialog.",
+          "sourceHash": "294f772bd2d55c621a640c36f569296b97c155f3181a6533f11f4175fcd4d90d",
+          "context": "Recent Changes > Accessing the recent changes",
+          "contextHash": "e220afe65231f36456c6a0e02b69bdefd548c5bfe9f090ffedf8a23b3eefd0aa"
+        }
+      ]
+    },
+    {
+      "key": "SL5f1Auq7sVN_5560dd1f3a66115f",
+      "pageId": "SL5f1Auq7sVN",
+      "units": [
+        {
+          "id": "u_d151c511a9083e304148df00_0",
+          "kind": "p",
+          "source": "A Markdown note included in a text note, or a Markdown file embedded in one, has the same three display modes, switched from the title row and the toolbar of the include. See __TRILIUM_PH_0__Included Markdown__TRILIUM_PH_1__ in __TRILIUM_PH_2__Include Note__TRILIUM_PH_3__.",
+          "sourceHash": "d151c511a9083e304148df0085dcfcac0dd9756b296d90f59839b512631c6c63",
+          "context": "Note types with split view > Display modes and interaction",
+          "contextHash": "93f1b338210eee69922e4a51ca8340f1822692c99f0817777377273da5637eaf"
+        }
+      ]
+    },
+    {
+      "key": "0vhv7lsOLy82_44f60b8c5f3f2f51",
+      "pageId": "0vhv7lsOLy82",
+      "units": [
+        {
+          "id": "u_3610eeda7f5b4537590734d9_0",
+          "kind": "li",
+          "source": "The SVG picture of a __TRILIUM_PH_0__Canvas__TRILIUM_PH_1__ note (__TRILIUM_PH_2__), and of each drawing canvas in a text note (see __TRILIUM_PH_3__Drawing canvases__TRILIUM_PH_4__ in __TRILIUM_PH_5__Include Note__TRILIUM_PH_6__), used for previews and shared pages.",
+          "sourceHash": "3610eeda7f5b4537590734d95916ee9f83d266fa06770c88da847a17e7a690bb",
+          "context": "Attachments > Types of attachments",
+          "contextHash": "1503c376a55df7c492037723b7b542d2f0799285ec1d5ab13818f9f1f52eccab"
+        },
+        {
+          "id": "u_658ed969d4ed5907af4d0c2b_0",
+          "kind": "li",
+          "source": "Alternatively, drag one or more files from the file explorer and drop them anywhere on the list. Pictures are compressed if __TRILIUM_PH_0__Automatic image compression__TRILIUM_PH_1__ is enabled in __TRILIUM_PH_2__Options__TRILIUM_PH_3__ → __TRILIUM_PH_4__Media__TRILIUM_PH_5__.",
+          "sourceHash": "658ed969d4ed5907af4d0c2b06de8cddcea9c2024805ac85c6831d80c9b8fa18",
+          "context": "Attachments > Uploading attachments",
+          "contextHash": "3cb2711ce5de5f15e54a49651ed8a7eb4adf31fa9a9493ca079c30fdedde7d6a"
+        },
+        {
+          "id": "u_5cbaf68b7caf117925a6b8c0_0",
+          "kind": "p",
+          "source": "To attach files to a __TRILIUM_PH_0__Text__TRILIUM_PH_1__ note and embed them in its content, press the __TRILIUM_PH_2____TRILIUM_PH_3__Attach file__TRILIUM_PH_4__ button in the __TRILIUM_PH_5__Formatting toolbar__TRILIUM_PH_6__, choose __TRILIUM_PH_7__Attach and embed file__TRILIUM_PH_8__ and select one or more files (see __TRILIUM_PH_9__Embedding an attachment__TRILIUM_PH_10__ below). The same menu offers __TRILIUM_PH_11__Image__TRILIUM_PH_12__, which inserts pictures (see __TRILIUM_PH_13__Images__TRILIUM_PH_14__), and __TRILIUM_PH_15__Attach file as a link__TRILIUM_PH_16__, which links the files instead. Both file actions are also available as __TRILIUM_PH_17__Attach file as a link__TRILIUM_PH_18__ and __TRILIUM_PH_19__Attach and embed file__TRILIUM_PH_20__ in the __TRILIUM_PH_21__Slash Commands__TRILIUM_PH_22__. On a phone, the menu also offers __TRILIUM_PH_23__Camera__TRILIUM_PH_24__ (see __TRILIUM_PH_25__Mobile Frontend__TRILIUM_PH_26__).",
+          "sourceHash": "5cbaf68b7caf117925a6b8c08d67fa7b578cca58e02cc30c8fead6d62bc0e681",
+          "context": "Attachments > Attaching files from a text note",
+          "contextHash": "78053f512f78ef57b7568ec8eab435b5b086b9803e77af1dba5086dfd76ee7d9"
+        },
+        {
+          "id": "u_d5d74f4350e979ff69ca3a89_0",
+          "kind": "p",
+          "source": "An attachment can be shown in the text instead of linked, the way __TRILIUM_PH_0__Include Note__TRILIUM_PH_1__ shows a note: a picture is displayed, a PDF, a video or a document is previewed, a code or text file is shown with syntax highlighting, and a Markdown file such as a __TRILIUM_PH_2__ file is shown rendered. An embedded code file can also be edited in place (see __TRILIUM_PH_3__Editing an include in place__TRILIUM_PH_4__ in __TRILIUM_PH_5__Include Note__TRILIUM_PH_6__), and an embedded Markdown file shows its source, its rendering or both, as an included Markdown note does (see __TRILIUM_PH_7__Included Markdown__TRILIUM_PH_8__ there).",
+          "sourceHash": "d5d74f4350e979ff69ca3a896d851159ecabbfea68d9f07da03bd6bba76f8513",
+          "context": "Attachments > Embedding an attachment",
+          "contextHash": "85bcaa063bad2bd1970403b69607df8c8410f04b6488ec2cf5fb8e58bb21e77b"
+        },
+        {
+          "id": "u_81550fc6b3b23d9addc095ea_0",
+          "kind": "li",
+          "source": "A drawing canvas, inserted with __TRILIUM_PH_0____TRILIUM_PH_1__Drawing canvas__TRILIUM_PH_2__ in the __TRILIUM_PH_3____TRILIUM_PH_4__Insert__TRILIUM_PH_5__ menu, is an embed of a __TRILIUM_PH_6__ attachment that can be drawn on in place. An attached Excalidraw file (__TRILIUM_PH_7__) is embedded as a drawing canvas too (see __TRILIUM_PH_8__Drawing canvases__TRILIUM_PH_9__ in __TRILIUM_PH_10__Include Note__TRILIUM_PH_11__).",
+          "sourceHash": "81550fc6b3b23d9addc095ea3dcf23b289b6a2e49c8c4b3bf5689882624744a7",
+          "context": "Attachments > Embedding an attachment",
+          "contextHash": "85bcaa063bad2bd1970403b69607df8c8410f04b6488ec2cf5fb8e58bb21e77b"
+        },
+        {
+          "id": "u_0738b11127ef1db4de11e15a_0",
+          "kind": "li",
+          "source": "An embed gets the box size that suits the attachment, as a new included note does (see __TRILIUM_PH_0__Box sizes__TRILIUM_PH_1__ there). To change its size, select the embed and use the box size menu in its toolbar, or the __TRILIUM_PH_2__Size__TRILIUM_PH_3__ submenu of its __TRILIUM_PH_4____TRILIUM_PH_5__More actions__TRILIUM_PH_6__ menu. A __TRILIUM_PH_7__Resizable__TRILIUM_PH_8__ embed can also be resized by dragging its handles, and an __TRILIUM_PH_9__Expandable__TRILIUM_PH_10__ one in height (see __TRILIUM_PH_11__Resizing__TRILIUM_PH_12__ there). A __TRILIUM_PH_13__Resizable__TRILIUM_PH_14__ embed can be placed at the left or the right of the note, with or without the text running beside it, from the __TRILIUM_PH_15__Position__TRILIUM_PH_16__ submenu of its menu (see __TRILIUM_PH_17__Positioning__TRILIUM_PH_18__ there).",
+          "sourceHash": "0738b11127ef1db4de11e15a29e36eb7e4fba87aee8cd6890936f163b685617e",
+          "context": "Attachments > Embedding an attachment",
+          "contextHash": "85bcaa063bad2bd1970403b69607df8c8410f04b6488ec2cf5fb8e58bb21e77b"
+        },
+        {
+          "id": "u_0f5db71e07b4bda0300c4bfa_0",
+          "kind": "li",
+          "source": "To show only the attachment, turn off __TRILIUM_PH_0__Show title__TRILIUM_PH_1__ in the embed's __TRILIUM_PH_2____TRILIUM_PH_3__More actions__TRILIUM_PH_4__ menu, as for an included note (see __TRILIUM_PH_5__Title__TRILIUM_PH_6__ there).",
+          "sourceHash": "0f5db71e07b4bda0300c4bfa56639c6f979aa17cfedf03e088cc2f1fe951c8a9",
+          "context": "Attachments > Embedding an attachment",
+          "contextHash": "85bcaa063bad2bd1970403b69607df8c8410f04b6488ec2cf5fb8e58bb21e77b"
+        },
+        {
+          "id": "u_f3db6f7efc5d1466ea7a2b3d_0",
+          "kind": "li",
+          "source": "To turn the embed back into a link, choose __TRILIUM_PH_0__Convert to link__TRILIUM_PH_1__ in the menu that right-clicking the title row of the embed or pressing its __TRILIUM_PH_2____TRILIUM_PH_3__More actions__TRILIUM_PH_4__ button opens. It is in the last group, after __TRILIUM_PH_5____TRILIUM_PH_6__Delete block__TRILIUM_PH_7__, which removes the embed from the note, and __TRILIUM_PH_8____TRILIUM_PH_9__Delete attachment...__TRILIUM_PH_10__, which deletes the attachment itself. __TRILIUM_PH_11____TRILIUM_PH_12__Convert attachment into note...__TRILIUM_PH_13__ follows it.",
+          "sourceHash": "f3db6f7efc5d1466ea7a2b3d21d611d91e0c271655d6b47e880efdc91f597766",
+          "context": "Attachments > Embedding an attachment",
+          "contextHash": "85bcaa063bad2bd1970403b69607df8c8410f04b6488ec2cf5fb8e58bb21e77b"
+        }
+      ]
+    },
+    {
+      "key": "TBwsyfadTA18_bea7d0e8d736eaec",
+      "pageId": "TBwsyfadTA18",
+      "units": [
+        {
+          "id": "u_9a4f4a55bd33d77322a94a8e_0",
+          "kind": "p",
+          "source": "Since a single note can appear into multiple places in the __TRILIUM_PH_0__Note Tree__TRILIUM_PH_1__ via a process called __TRILIUM_PH_2__Cloning Notes__TRILIUM_PH_3__, it's recommended to choose a generalized name that fits into all locations instead of something more specific to avoid confusion.",
+          "sourceHash": "9a4f4a55bd33d77322a94a8e231b5d2ba85ac8b794849d304daff166b29bdc8d",
+          "context": "Branch prefix",
+          "contextHash": "502ac0888c5587a395120df37f01697692fb768346ceccf52dc06d90e6c10805"
+        }
+      ]
+    },
+    {
+      "key": "IakOLONlIfGI_5493e579bda6ac53",
+      "pageId": "IakOLONlIfGI",
+      "units": [
+        {
+          "id": "u_0a6ed9c2386b5c12de97acd6_0",
+          "kind": "li",
+          "source": "In the __TRILIUM_PH_0__Connections tab__TRILIUM_PH_1__ of the __TRILIUM_PH_2__Right Sidebar__TRILIUM_PH_3__, by looking at the __TRILIUM_PH_4__Note paths__TRILIUM_PH_5__ section.",
+          "sourceHash": "0a6ed9c2386b5c12de97acd6c1ff2dc834e87680ac5d8ad3419cb8cdbfbd2938",
+          "context": "Cloning Notes > Solution > Demo",
+          "contextHash": "cfe382790fbe04a5e4adc84e2195c84faeec8571ad71d9dd50433f148957bac0"
+        }
+      ]
+    },
+    {
+      "key": "bwg0e8ewQMak_680cfc3024c04046",
+      "pageId": "bwg0e8ewQMak",
+      "units": [
+        {
+          "id": "u_94c9ddc55ccae5c09aa53d82_0",
+          "kind": "li",
+          "source": "The data encryption key is encrypted using __TRILIUM_PH_0__AES-128__TRILIUM_PH_1__ with a random __TRILIUM_PH_2__IV__TRILIUM_PH_3__.",
+          "sourceHash": "94c9ddc55ccae5c09aa53d82160889279368b48ab832dfc36c3043ccf39af041",
+          "context": "Protected Notes > Encryption Details",
+          "contextHash": "1e81386b5296d18ff106698772c0e2bf5a6643404f93b4c2a1fa8325873a925f"
+        }
+      ]
+    },
+    {
+      "key": "vZWERwf8U3nx_d32e70ed49ab66ab",
+      "pageId": "vZWERwf8U3nx",
+      "units": [
+        {
+          "id": "u_7c43d188dc748e11bfb1d006_0",
+          "kind": "p",
+          "source": "You can click the __TRILIUM_PH_0__Erase now__TRILIUM_PH_1__ button under __TRILIUM_PH_2__Erase excess revision snapshots__TRILIUM_PH_3__ to apply the changes immediately.",
+          "sourceHash": "7c43d188dc748e11bfb1d006c0050ad7a8866f2fb883825333fc2019adfb905a",
+          "context": "Note Revisions > When revisions are saved > Maximum revisions",
+          "contextHash": "7f9581294f748125dc4ca7ca622be07c0ef4c9aad32e03b8eedbb921870ccbd1"
+        }
+      ]
+    },
+    {
+      "key": "CoFPLs3dRlXc_369962b475cc64b1",
+      "pageId": "CoFPLs3dRlXc",
+      "units": [
+        {
+          "id": "u_2208f3df9e996062975c3f83_0",
+          "kind": "p",
+          "source": "If the __TRILIUM_PH_0__Editable__TRILIUM_PH_1__ section is missing from the __TRILIUM_PH_2__Note menu__TRILIUM_PH_3__, then the note type does not support read-only mode.",
+          "sourceHash": "2208f3df9e996062975c3f833f0f4cf26ab75b730c41044b4f8ead60ecfc55da",
+          "context": "Read-Only Notes > Changing a note's read-only behavior",
+          "contextHash": "c9147e0c053b018d7efd4b1cf53763f094eff19972ca7a535c84a74ffde8734c"
+        }
+      ]
+    },
+    {
+      "key": "S0Fos78ZfcY7_702086e261727a74",
+      "pageId": "S0Fos78ZfcY7",
+      "units": [
+        {
+          "id": "u_d6cc030d5d65c771f76816f8_0",
+          "kind": "li",
+          "source": "The __TRILIUM_PH_0__New note__TRILIUM_PH_1__ button in the __TRILIUM_PH_2__Launch Bar__TRILIUM_PH_3__.",
+          "sourceHash": "d6cc030d5d65c771f76816f8e1608ecdb7f9eb240a6d807d74bdfcaec0415b08",
+          "context": "Note Inbox > Where the inbox is used",
+          "contextHash": "8733f0a737de42d9662a65b83d612ddcfb161696e37001d47eefe85adb19f59b"
+        },
+        {
+          "id": "u_6b0797a11857caca4aaa62ff_0",
+          "kind": "li",
+          "source": "The __TRILIUM_PH_0__New note__TRILIUM_PH_1__ action in the __TRILIUM_PH_2__tray icon menu__TRILIUM_PH_3__.",
+          "sourceHash": "6b0797a11857caca4aaa62ff9c0621d423cf9157081cf70498f6e6a4d7e8c113",
+          "context": "Note Inbox > Where the inbox is used",
+          "contextHash": "8733f0a737de42d9662a65b83d612ddcfb161696e37001d47eefe85adb19f59b"
+        },
+        {
+          "id": "u_fc22939ab89929b396b040f3_0",
+          "kind": "li",
+          "source": "The __TRILIUM_PH_0__Create note__TRILIUM_PH_1__ option offered when a search finds no match, in __TRILIUM_PH_2__Jump to & command palette__TRILIUM_PH_3__, in an empty tab and in the __TRILIUM_PH_4__ completion of a text note.",
+          "sourceHash": "fc22939ab89929b396b040f37ff05a703336abab19bb14300128b59664e67611",
+          "context": "Note Inbox > Where the inbox is used",
+          "contextHash": "8733f0a737de42d9662a65b83d612ddcfb161696e37001d47eefe85adb19f59b"
+        },
+        {
+          "id": "u_9f7ce8a558dfb22df0cc52e8_0",
+          "kind": "li",
+          "source": "Today's __TRILIUM_PH_0__day note__TRILIUM_PH_1__, if the workspace has a __TRILIUM_PH_2__.",
+          "sourceHash": "9f7ce8a558dfb22df0cc52e8c4e618f88dd73c8441c72f542c625d2f8cea20b4",
+          "context": "Note Inbox > Workspace inboxes",
+          "contextHash": "7af58b0a11ffa4d3d5a4b1a2bd964420494b0bca52c4599361ab02c1340c7b11"
+        }
+      ]
+    },
+    {
+      "key": "m3VlURMSeOrd_173607b1f04d0e69",
+      "pageId": "m3VlURMSeOrd",
+      "units": [
+        {
+          "id": "u_4d0b7bfae8d5e32b3695feb5_0",
+          "kind": "li",
+          "source": "__TRILIUM_PH_0__ __TRILIUM_PH_1__All types__TRILIUM_PH_2__ displays the same menu as __TRILIUM_PH_3__Insert note after__TRILIUM_PH_4__ in the __TRILIUM_PH_5__Note tree contextual menu__TRILIUM_PH_6__, with every note type and template.",
+          "sourceHash": "4d0b7bfae8d5e32b3695feb595e80e437b04296905a3ba9f2ad101276e360136",
+          "context": "New note type switcher",
+          "contextHash": "6c0648f925845f336eed1fe49afe5e44ff7e535b7b1bed2a7f7480c4c267bfed"
+        }
+      ]
+    },
+    {
+      "key": "MMiBEQljMQh2_43784978c9abb01c",
+      "pageId": "MMiBEQljMQh2",
+      "units": [
+        {
+          "id": "u_4f383ac9747aef0ed34518e1_0",
+          "kind": "p",
+          "source": "The __TRILIUM_PH_0__Go to Previous Note__TRILIUM_PH_1__ and __TRILIUM_PH_2__Go to Next Note__TRILIUM_PH_3__ launchers of the __TRILIUM_PH_4__Launch Bar__TRILIUM_PH_5__ list the same notes, below the launch bar's own items.",
+          "sourceHash": "4f383ac9747aef0ed34518e167e1f96ff9e042484f48c218b48ac73b5b222903",
+          "context": "Note Navigation > Backwards and forward",
+          "contextHash": "dcd8c20e6d6ecd8bc7b2fdee8dba63cf98926108f3f4075ad92206d2bb077510"
+        }
+      ]
+    },
+    {
+      "key": "eIg8jdvaoNNd_f47e00a9deed36e9",
+      "pageId": "eIg8jdvaoNNd",
+      "units": [
+        {
+          "id": "u_f3a3dc607089f70985fa0e05_0",
+          "kind": "li",
+          "source": "To limit the search to a note and its children, select __TRILIUM_PH_0__Search in subtree__TRILIUM_PH_1__ (__TRILIUM_PH_2__) from the __TRILIUM_PH_3__Note tree contextual menu__TRILIUM_PH_4__ or press __TRILIUM_PH_5__Ctrl__TRILIUM_PH_6__+__TRILIUM_PH_7__Shift__TRILIUM_PH_8__+__TRILIUM_PH_9__S__TRILIUM_PH_10__.",
+          "sourceHash": "f3a3dc607089f70985fa0e0544edc3174f11334affcded83114a28fa73077b64",
+          "context": "Search > Accessing the search",
+          "contextHash": "1b3a7feb7c4996fa233022919f2c27315e30499f5ec84e4dfb30ea40940b0bfa"
+        },
+        {
+          "id": "u_270ba1778befbbb74ba06a32_0",
+          "kind": "p",
+          "source": "To search for notes, click on the __TRILIUM_PH_0__ icon in the __TRILIUM_PH_1__Launch Bar__TRILIUM_PH_2__ or press the keyboard __TRILIUM_PH_3__shortcut__TRILIUM_PH_4__.",
+          "sourceHash": "270ba1778befbbb74ba06a32ebe2c757f92403ff8a50418bccdbc1680ff965fd",
+          "context": "Search > Interaction",
+          "contextHash": "815256cfd24860082d9f40d5f30c5a59760eacc365170647a2db22089cbc88b2"
+        },
+        {
+          "id": "u_bee477584441ce45eb6caed1_0",
+          "kind": "li",
+          "source": "The __TRILIUM_PH_0__Search & Execute actions__TRILIUM_PH_1__ (__TRILIUM_PH_2__) entry in the menu beside __TRILIUM_PH_3__Search__TRILIUM_PH_4__ is only relevant if at least one action has been added (as described in the section below).",
+          "sourceHash": "bee477584441ce45eb6caed17b68b809e2396ad307d9585224f23db4bd9a143b",
+          "context": "Search > Interaction",
+          "contextHash": "815256cfd24860082d9f40d5f30c5a59760eacc365170647a2db22089cbc88b2"
+        },
+        {
+          "id": "u_e6597dbb8beb19a26afc5b9d_0",
+          "kind": "li",
+          "source": "__TRILIUM_PH_0__Label__TRILIUM_PH_1__ names by typing __TRILIUM_PH_2__.",
+          "sourceHash": "e6597dbb8beb19a26afc5b9ded4e36fb538d70e5699ba105dfaf5d4a170f48a0",
+          "context": "Search > Features > Autocomplete",
+          "contextHash": "dba9cf59c915272a63fd752a742b8956ce4e4c5e2edd55cff436a913c8d15dee"
+        },
+        {
+          "id": "u_9a45a7accaaaa0608877034d_0",
+          "kind": "li",
+          "source": "__TRILIUM_PH_0__Relation__TRILIUM_PH_1__ names by typing __TRILIUM_PH_2__.",
+          "sourceHash": "9a45a7accaaaa0608877034d0403d83222a00824e43b8af22a9f353c92bb5493",
+          "context": "Search > Features > Autocomplete",
+          "contextHash": "dba9cf59c915272a63fd752a742b8956ce4e4c5e2edd55cff436a913c8d15dee"
+        },
+        {
+          "id": "u_e0f9755fe28e12b271ef35bd_0",
+          "kind": "li",
+          "source": "__TRILIUM_PH_0__Note ID__TRILIUM_PH_1__s can be inserted easily by typing __TRILIUM_PH_2__ and looking for a note.",
+          "sourceHash": "e0f9755fe28e12b271ef35bde830b134e876e26fe4cdc084e6254b058a70272e",
+          "context": "Search > Features > Autocomplete",
+          "contextHash": "dba9cf59c915272a63fd752a742b8956ce4e4c5e2edd55cff436a913c8d15dee"
+        },
+        {
+          "id": "u_50de7e20a39e12514a21a1df_0",
+          "kind": "p",
+          "source": "To show the results as a plain note list instead, choose __TRILIUM_PH_0__List__TRILIUM_PH_1__ from the __TRILIUM_PH_2__Collection Properties__TRILIUM_PH_3__ bar. The __TRILIUM_PH_4__List__TRILIUM_PH_5__ view shows one row per note, with the note's title and content preview.",
+          "sourceHash": "50de7e20a39e12514a21a1dfb4f2e447fee20117c54b92d6f4bf0922106bba2b",
+          "context": "Search > Viewing search results",
+          "contextHash": "afd7703feb3ee575503c23c63f07223fcfcee6410773486ea56b34e6d6c9cea0"
+        },
+        {
+          "id": "u_45dc8d28d08288689e530a03_0",
+          "kind": "p",
+          "source": "A saved search can also be __TRILIUM_PH_0__printed or exported as PDF__TRILIUM_PH_1__ from the __TRILIUM_PH_2__Print/export to PDF…__TRILIUM_PH_3__ item of the __TRILIUM_PH_4__Note menu__TRILIUM_PH_5__, in either __TRILIUM_PH_6__Search preview__TRILIUM_PH_7__ or __TRILIUM_PH_8__List__TRILIUM_PH_9__ view. The results are laid out as a list, as they stand when printing starts.",
+          "sourceHash": "45dc8d28d08288689e530a039019454f3906045f46c121df856a5ed22564347f",
+          "context": "Search > Viewing search results",
+          "contextHash": "afd7703feb3ee575503c23c63f07223fcfcee6410773486ea56b34e6d6c9cea0"
+        }
+      ]
+    },
+    {
+      "key": "u3YFHC9tQlpm_3d8ce7c3091ecd97",
+      "pageId": "u3YFHC9tQlpm",
+      "units": [
+        {
+          "id": "u_6bd9db96f61fca8beaf20b0b_0",
+          "kind": "p",
+          "source": "If bookmarks don't appear in the launch bar, then most likely the bookmark section has been hidden. Go to the __TRILIUM_PH_0__Launch Bar__TRILIUM_PH_1__ configuration from the __TRILIUM_PH_2__Global menu__TRILIUM_PH_3__ and ensure __TRILIUM_PH_4__Bookmarks__TRILIUM_PH_5__ is in the __TRILIUM_PH_6__Visible Launchers__TRILIUM_PH_7__ section.",
+          "sourceHash": "6bd9db96f61fca8beaf20b0b756dd475cf9b57003a80f5793ae4dd49b614002c",
+          "context": "Bookmarks > Configuring the launch bar",
+          "contextHash": "6492b6f42bc69833b899cf13657bca18cbba9046874c3a1ae3fdd1d2ac8da958"
+        },
+        {
+          "id": "u_ea940200f0fda58be113bcfb_0",
+          "kind": "p",
+          "source": "On a phone, the bookmarks are also listed at the top of the __TRILIUM_PH_0__Note Tree__TRILIUM_PH_1__ while it shows the root of a tab that is not hoisted, below the __TRILIUM_PH_2__Workspaces__TRILIUM_PH_3__. Tap a bookmark to open it, or, for one with children, to list them, as with the other notes of the tree.",
+          "sourceHash": "ea940200f0fda58be113bcfbd9fbe6d9d2875279ec1d8e5316201afad9fffdf0",
+          "context": "Bookmarks > Mobile",
+          "contextHash": "d5235890805d99473944cde7f61b6694d0793029906299dc38756421eb81c447"
+        }
+      ]
+    },
+    {
+      "key": "OR8WJ7Iz9K4U_e421e84ac87072d9",
+      "pageId": "OR8WJ7Iz9K4U",
+      "units": [
+        {
+          "id": "u_a3a6c915c04a158d758120d3_0",
+          "kind": "p",
+          "source": "While a note is hoisted, the desktop interface shows a __TRILIUM_PH_0__Show all notes__TRILIUM_PH_1__ button with the __TRILIUM_PH_2__ icon above the __TRILIUM_PH_3__Note Tree__TRILIUM_PH_4__. Click it to unhoist the note and see the whole tree again.",
+          "sourceHash": "a3a6c915c04a158d758120d3d94bb3b004c57c7698bfd9855818d89f9209a2d0",
+          "context": "Note Hoisting > Showing all notes again",
+          "contextHash": "6e4a4f8bba5a646cdba6969df9c44b6386eca46d786288fc588cdbce5df84c6d"
+        }
+      ]
+    },
+    {
+      "key": "9sRHySam5fXb_bbd6b72e3b09f707",
+      "pageId": "9sRHySam5fXb",
+      "units": [
+        {
+          "id": "u_96a6138d3b0ade40fd77d3e2_0",
+          "kind": "p",
+          "source": "opening a workspace in a new tab: right-click the __TRILIUM_PH_0__ button of the __TRILIUM_PH_1__Tabs__TRILIUM_PH_2__ bar and select the workspace.",
+          "sourceHash": "96a6138d3b0ade40fd77d3e2296bca49ee074871ffc3ed4db78ffacb1930f282",
+          "context": "Workspaces",
+          "contextHash": "1377264ba3b0a7172621971b49ac3e82e33b64b14328d9275d02807e67ea8460"
+        }
+      ]
+    },
+    {
+      "key": "xWtq5NUHOwql_f2a948f9776c8718",
+      "pageId": "xWtq5NUHOwql",
+      "units": [
+        {
+          "id": "u_542add3c96cd233c2d35ff90_0",
+          "kind": "li",
+          "source": "Go to the __TRILIUM_PH_0__Connections tab__TRILIUM_PH_1__ in the __TRILIUM_PH_2__Right Sidebar__TRILIUM_PH_3__ and look for the corresponding section.",
+          "sourceHash": "542add3c96cd233c2d35ff90ec5efda439d75f827a62beb7122b5d477c9368c1",
+          "context": "Similar Notes",
+          "contextHash": "666e1189120575c78161fcbc7a5964988143db1124ded8eac4383fd71f003241"
+        },
+        {
+          "id": "u_8aff9172486c854189c91955_0",
+          "kind": "li",
+          "source": "Alternatively, press the __TRILIUM_PH_0__ in the __TRILIUM_PH_1__Status bar__TRILIUM_PH_2__ and select __TRILIUM_PH_3__Show similar notes__TRILIUM_PH_4__ which will open a pane at the bottom.",
+          "sourceHash": "8aff9172486c854189c919556126f072b62e00677cddab4ba1225f3e77dc0fab",
+          "context": "Similar Notes",
+          "contextHash": "666e1189120575c78161fcbc7a5964988143db1124ded8eac4383fd71f003241"
+        }
+      ]
+    },
+    {
+      "key": "A9Oc6YKKc65v_43248c220eb6c2a1",
+      "pageId": "A9Oc6YKKc65v",
+      "units": [
+        {
+          "id": "u_3ddbdbd9d293130868ccef01_0",
+          "kind": "li",
+          "source": "you can define a __TRILIUM_PH_0__label__TRILIUM_PH_1__ __TRILIUM_PH_2__ with e.g. value __TRILIUM_PH_3__ . Pressing this keyboard combination will then bring you to the note on which it is defined. Note that Trilium must be reloaded/restarted (__TRILIUM_PH_4__Ctrl__TRILIUM_PH_5__+__TRILIUM_PH_6__R__TRILIUM_PH_7__ ) for changes to be in effect.",
+          "sourceHash": "3ddbdbd9d293130868ccef014775de62d4af947713db4fe5959129fecb00465b",
+          "context": "Keyboard Shortcuts > Shortcut reference > Note navigation",
+          "contextHash": "2fd500bf7a787f546d791003f526915cf9342f09fb43abe065efbf10472c6927"
+        }
+      ]
+    },
+    {
+      "key": "w4rMEhJsALlA_86251dde638cf31e",
+      "pageId": "w4rMEhJsALlA",
+      "units": [
+        {
+          "id": "u_c6eaaf7d2a62d9865ed481c1_0",
+          "kind": "li",
+          "source": "__TRILIUM_PH_0__Web fonts__TRILIUM_PH_1__ which appear on the __TRILIUM_PH_2__Server Installation__TRILIUM_PH_3__, which is a predefined list of fonts and grouped into Sans-serif, serif, monospace and handwriting. The fonts that are not supported by your system (i.e. not installed) are not displayed.",
+          "sourceHash": "c6eaaf7d2a62d9865ed481c11755dacad5ca9ec341b8728cab466f75ec9c9efa",
+          "context": "Personalizing the font > Using different fonts",
+          "contextHash": "126e526ddf25c395bb3c4be4b85d9555c88339322b74051c7702ca626d4badcb"
+        },
+        {
+          "id": "u_ca22792202ea42baea6078b3_0",
+          "kind": "li",
+          "source": "__TRILIUM_PH_0__System fonts__TRILIUM_PH_1__ which appear on the __TRILIUM_PH_2__Desktop Installation__TRILIUM_PH_3__. Unlike the server fonts which are predefined, the system fonts are listed from your operating system. A few installed fonts (such as the bitmap versions of __TRILIUM_PH_4__GNU Unifont__TRILIUM_PH_5__) cannot display any text; such a font appears blank in the list, and selecting it shows an error instead of applying it.",
+          "sourceHash": "ca22792202ea42baea6078b32085c23e11c3d1b44edcf8f427a8438e2ed627cb",
+          "context": "Personalizing the font > Using different fonts",
+          "contextHash": "126e526ddf25c395bb3c4be4b85d9555c88339322b74051c7702ca626d4badcb"
+        },
+        {
+          "id": "u_7fa24301a8dae5b317d0a445_0",
+          "kind": "p",
+          "source": "Some fonts support programming ligatures, which will turn character combinations such as __TRILIUM_PH_0__ into __TRILIUM_PH_1__ or __TRILIUM_PH_2__ as __TRILIUM_PH_3__ in __TRILIUM_PH_4__Code blocks__TRILIUM_PH_5__ and __TRILIUM_PH_6__Code__TRILIUM_PH_7__ notes.",
+          "sourceHash": "7fa24301a8dae5b317d0a445bacf594e5ad37ccb7947d514a734631580197104",
+          "context": "Personalizing the font > Programming ligatures",
+          "contextHash": "29279d67ff15acc956916d3528ac140a3422094f06c28267aeb605adea7b0a7f"
+        }
+      ]
+    },
+    {
+      "key": "Wy267RK4M69c_0743453241c2e6b2",
+      "pageId": "Wy267RK4M69c",
+      "units": [
+        {
+          "id": "u_4671ec7f4e19637ec69da3ec_0",
+          "kind": "p",
+          "source": "Trilium comes with a couple pre-installed color themes, with the default being a light theme. To switch to a dark theme or any other available theme, navigate to the __TRILIUM_PH_0__ Options menu (accessible via the app icon in the top-left corner), select the Appearance tab, and choose your preferred theme. The __TRILIUM_PH_1__Theme__TRILIUM_PH_2__ submenu of the __TRILIUM_PH_3__Global menu__TRILIUM_PH_4__ switches the theme and the color scheme as well.",
+          "sourceHash": "4671ec7f4e19637ec69da3ec2e3b1779db82cddad4f96df4d53b63202dcd4c02",
+          "context": "Themes > Default Themes",
+          "contextHash": "b0a5e05d5794d94a41a247e2a467ed3bd58b8548b226f36028e6356344bcd82a"
+        }
+      ]
+    },
+    {
+      "key": "rJ9grSgoExl9_e528b4a5a99c221b",
+      "pageId": "rJ9grSgoExl9",
+      "units": [
+        {
+          "id": "u_e476dbbcfd222f10b48d4a93_0",
+          "kind": "li",
+          "source": "__TRILIUM_PH_0__ will look for the __TRILIUM_PH_1__ file in the __TRILIUM_PH_2__ directory and turn it into an internal link.",
+          "sourceHash": "e476dbbcfd222f10b48d4a930ccd19789ea901d845f8e50ae74aece93c8c77e6",
+          "context": "Supported syntax > Wikilinks",
+          "contextHash": "5bd1365d66cf0a2f9ab351103aea279e32efd3448c62153c481ffacd787d848d"
+        },
+        {
+          "id": "u_97563139454f21e5c28f5889_0",
+          "kind": "li",
+          "source": "__TRILIUM_PH_0__ will look for the __TRILIUM_PH_1__ file in the __TRILIUM_PH_2__ directory and turn it into an image.",
+          "sourceHash": "97563139454f21e5c28f588979af380ba7d3334b5014fb7849b42fddb5527ce2",
+          "context": "Supported syntax > Wikilinks",
+          "contextHash": "5bd1365d66cf0a2f9ab351103aea279e32efd3448c62153c481ffacd787d848d"
+        }
+      ]
+    },
+    {
+      "key": "Y5mKeJ6dsCld_12d040ae8d8814af",
+      "pageId": "Y5mKeJ6dsCld",
+      "units": [
+        {
+          "id": "u_6cfd70dee85f27c9d30d3704_0",
+          "kind": "li",
+          "source": "In the __TRILIUM_PH_0__General__TRILIUM_PH_1__ settings page, look for the __TRILIUM_PH_2__Export__TRILIUM_PH_3__ section and press the __TRILIUM_PH_4__Export__TRILIUM_PH_5__ button corresponding to __TRILIUM_PH_6__Workspace content__TRILIUM_PH_7__.",
+          "sourceHash": "6cfd70dee85f27c9d30d3704f6c28b3032fd5698eda8d325e8a076e7ce9c5c61",
+          "context": "Notion > Import process",
+          "contextHash": "02046deff85bc08655b65338293c814f41e056a8862ed633a27d932edf04ace0"
+        },
+        {
+          "id": "u_9e3d43fd09366e2f82f5da79_0",
+          "kind": "li",
+          "source": "The icon and image of the links need to be retrieved online since the exports don't carry the images. This operation is done only if __TRILIUM_PH_0__Download images automatically__TRILIUM_PH_1__ is enabled in __TRILIUM_PH_2__Options__TRILIUM_PH_3__ → __TRILIUM_PH_4__Media__TRILIUM_PH_5__.",
+          "sourceHash": "9e3d43fd09366e2f82f5da79e48bc5e4a33de13dd16ef896cb60f4b9a329ad70",
+          "context": "Notion > Supported features",
+          "contextHash": "07f0eaa3b88bfbd86027f00c0ab2aed803aa69ac4d6a518e3d0ee5782b787ec9"
+        }
+      ]
+    },
+    {
+      "key": "i6dbnitykE5D_2fbfd0aa48c6eef1",
+      "pageId": "i6dbnitykE5D",
+      "units": [
+        {
+          "id": "u_f036274aa59bd1ef7dc8aefc_0",
+          "kind": "p",
+          "source": "This is normally not supported - one Trilium process can open only a single instance of a __TRILIUM_PH_0__database__TRILIUM_PH_1__. However, you can run two Trilium processes (from one installation), each connected to a separate document. To achieve this, you need to set a location for the __TRILIUM_PH_2__data directory__TRILIUM_PH_3__ in the __TRILIUM_PH_4__ environment variable and separate port on __TRILIUM_PH_5__ environment variable. How to do that depends on the platform, in Unix-based systems you can achieve that by running command such as this:",
+          "sourceHash": "f036274aa59bd1ef7dc8aefc15406c4a85348044aaedecc7fa8b27ba53895b88",
+          "context": "FAQ > How to open multiple documents in one Trilium instance",
+          "contextHash": "0efa0e14e421f5e134b147495812bb8c02c90285b916632e88d93be4766c5293"
+        }
+      ]
+    },
+    {
+      "key": "oSuaNgyyKnhu_415dc1d224e8eb6d",
+      "pageId": "oSuaNgyyKnhu",
+      "units": [
+        {
+          "id": "u_e14ea6a47bebaf43f7e78596_0",
+          "kind": "li",
+          "source": "Look for the __TRILIUM_PH_0__ button in the __TRILIUM_PH_1__Formatting toolbar__TRILIUM_PH_2__, and then press the __TRILIUM_PH_3__ button.",
+          "sourceHash": "e14ea6a47bebaf43f7e7859697e63745897db149bdf2fa124a23f0a4d3ac9fc5",
+          "context": "Anchors > Interaction",
+          "contextHash": "ce2b7364c88edacb74beb95a82da62342d4c7bc04f8c68d75a00c11168642057"
+        },
+        {
+          "id": "u_bd7065fd8a0a4dcd04d5bc63_0",
+          "kind": "li",
+          "source": "Press __TRILIUM_PH_0__Ctrl__TRILIUM_PH_1__+__TRILIUM_PH_2__K__TRILIUM_PH_3__ or the __TRILIUM_PH_4__ button in the __TRILIUM_PH_5__Formatting toolbar__TRILIUM_PH_6__, then select __TRILIUM_PH_7__Heading / anchor__TRILIUM_PH_8__ at the top of the __TRILIUM_PH_9____TRILIUM_PH_10__Add link__TRILIUM_PH_11__ dialog__TRILIUM_PH_12__. Alternatively, choose __TRILIUM_PH_13__Link to a heading or anchor__TRILIUM_PH_14__ in the __TRILIUM_PH_15__Slash Commands__TRILIUM_PH_16__, which opens the dialog on that page.",
+          "sourceHash": "bd7065fd8a0a4dcd04d5bc6399ef38c66f7224c8cf767e2c642824db073b79de",
+          "context": "Anchors > Interaction",
+          "contextHash": "ce2b7364c88edacb74beb95a82da62342d4c7bc04f8c68d75a00c11168642057"
+        }
+      ]
+    },
+    {
+      "key": "NwBbFdNZ9h7O_7ee8d185ec447ff0",
+      "pageId": "NwBbFdNZ9h7O",
+      "units": [
+        {
+          "id": "u_892d30811660744d6f365679_0",
+          "kind": "p",
+          "source": "To create a block quote, press __TRILIUM_PH_0__ from the __TRILIUM_PH_1__Formatting toolbar__TRILIUM_PH_2__. It's also possible to type __TRILIUM_PH_3__>__TRILIUM_PH_4__, followed by a space to create one (but only if the cursor is at the beginning of a line).",
+          "sourceHash": "892d30811660744d6f365679ac8cbf44360985264d488e515eeebd7c73058696",
+          "context": "Block quotes & admonitions > Block quotes",
+          "contextHash": "33ec9adb7996699b8160a77e45b4eeee947c43bb3d68a7009b0e8e9033b59f71"
+        }
+      ]
+    },
+    {
+      "key": "klC3ilXa9kUE_01bdd394a1784d24",
+      "pageId": "klC3ilXa9kUE",
+      "units": [
+        {
+          "id": "u_7504f5441dccd5c44f2eac82_0",
+          "kind": "p",
+          "source": "To edit the referenced blocks without leaving the note, press the __TRILIUM_PH_0__ __TRILIUM_PH_1__Edit excerpt__TRILIUM_PH_2__ button in the title of the include, or turn on __TRILIUM_PH_3__Editable__TRILIUM_PH_4__ (__TRILIUM_PH_5__) in its toolbar, as for any __TRILIUM_PH_6__Include Note__TRILIUM_PH_7__. Press the button again to stop editing. The changes are saved to the referenced blocks, and the rest of the note stays as it is. The button is grayed out where the blocks cannot be edited, such as in a read-only note. An excerpt has no __TRILIUM_PH_8__Fullscreen__TRILIUM_PH_9__ button.",
+          "sourceHash": "7504f5441dccd5c44f2eac823ad81ac04c2ce4d66ac2a96bae89616fe5ef85ba",
+          "context": "Block references > Including the referenced blocks",
+          "contextHash": "8df03c46d78f23a717f63eb5a159dc24128b9cbfe7ef204537ec887614e56a72"
+        }
+      ]
+    },
+    {
+      "key": "EK2ckIZ74tbT_d9001ebfd17659b9",
+      "pageId": "EK2ckIZ74tbT",
+      "units": [
+        {
+          "id": "u_1c56eebea874f8e71dee983c_0",
+          "kind": "li",
+          "source": "Alternatively, type __TRILIUM_PH_0__ and press __TRILIUM_PH_1__Enter__TRILIUM_PH_2__, as described in __TRILIUM_PH_3__Slash Commands__TRILIUM_PH_4__.",
+          "sourceHash": "1c56eebea874f8e71dee983c082e7ac3dcd1783fc9134bae34529b42ac4f64bf",
+          "context": "Content tabs > Inserting a tabs block",
+          "contextHash": "003192350c03f8ef9d6afb3f7d0de9e132620ed78d4f0c0776221ace16fe5241"
+        }
+      ]
+    },
+    {
+      "key": "UYuUB1ZekNQU_29df41782b13e077",
+      "pageId": "UYuUB1ZekNQU",
+      "units": [
+        {
+          "id": "u_c7e37d3a5528d651ce3be2b1_0",
+          "kind": "p",
+          "source": "To apply this style, press the __TRILIUM_PH_0__ button in __TRILIUM_PH_1__ group from the __TRILIUM_PH_2__Formatting toolbar__TRILIUM_PH_3__. On the floating toolbar, the buttons appear when selecting a text.",
+          "sourceHash": "c7e37d3a5528d651ce3be2b1186776421899ea42dc58b27a0bb0eb4788345a9d",
+          "context": "Developer-specific formatting > Keyboard shortcuts",
+          "contextHash": "b2aafb8ab925e9dfc6a7085aae3c7c4a7a216314146ef09a2a1e2091329b6f67"
+        }
+      ]
+    },
+    {
+      "key": "AgjCISero73a_3920a82b38d3e611",
+      "pageId": "AgjCISero73a",
+      "units": [
+        {
+          "id": "u_96095304040a40f866aa6eec_0",
+          "kind": "li",
+          "source": "To insert a new footnote, open the __TRILIUM_PH_0__ __TRILIUM_PH_1__Insert__TRILIUM_PH_2__ menu of the __TRILIUM_PH_3__Formatting toolbar__TRILIUM_PH_4__ and choose __TRILIUM_PH_5__ __TRILIUM_PH_6__Footnote__TRILIUM_PH_7__ (or select __TRILIUM_PH_8__New footnote__TRILIUM_PH_9__ in its submenu).",
+          "sourceHash": "96095304040a40f866aa6eeca9c3d7ed320fe30aec0d3d6fc0b9654514462e12",
+          "context": "Footnotes > Interaction",
+          "contextHash": "4add2d50b766d12b9fb1e8537dab8287b12f93989038200a3afb9ff53b11685c"
+        }
+      ]
+    },
+    {
+      "key": "Gr6xFaF6ioJ5_3cdb3018e260d966",
+      "pageId": "Gr6xFaF6ioJ5",
+      "units": [
+        {
+          "id": "u_049e9db3bc5ee90895d214b9_0",
+          "kind": "p",
+          "source": "Text can be formatted as __TRILIUM_PH_0__Bold,__TRILIUM_PH_1__ __TRILIUM_PH_2__Italic,__TRILIUM_PH_3__ Underline or __TRILIUM_PH_4__Strike-through__TRILIUM_PH_5__ via the dedicated buttons (__TRILIUM_PH_6__, __TRILIUM_PH_7__, __TRILIUM_PH_8__, __TRILIUM_PH_9__) in the formatting toolbar.",
+          "sourceHash": "049e9db3bc5ee90895d214b9774c594446aced27d46c5d0b0090fc14ecdac24a",
+          "context": "General formatting > Bold, italic, underline, strike-through",
+          "contextHash": "d9cd1595b18415a2b9ca92f7a644f21c935eafeeab8078424de179d1c834c5e6"
+        }
+      ]
+    },
+    {
+      "key": "0Ofbk1aSuVRu_6519de8c271a14e9",
+      "pageId": "0Ofbk1aSuVRu",
+      "units": [
+        {
+          "id": "u_c4e3d52c0746592d4bcf73f3_0",
+          "kind": "li",
+          "source": "Go to one of the supported notes (listed above) and look for the __TRILIUM_PH_0__ button in the __TRILIUM_PH_1__Note buttons__TRILIUM_PH_2__ area.",
+          "sourceHash": "c4e3d52c0746592d4bcf73f3ea4cb30b1dd1c48e23d1d1b27be60dd264507b83",
+          "context": "Image references > Steps",
+          "contextHash": "01dd7ea2e34a223c7b5b9ee80b86ad4345f7b059b1b3e4cbece0368532b54df3"
+        }
+      ]
+    },
+    {
+      "key": "mT0HEkOsz6i1_1b39124a365dc40b",
+      "pageId": "mT0HEkOsz6i1",
+      "units": [
+        {
+          "id": "u_745390b0b66b29a87fe23317_0",
+          "kind": "p",
+          "source": "To link a picture instead of displaying it, attach it with __TRILIUM_PH_0__Attach file as a link__TRILIUM_PH_1__, from the __TRILIUM_PH_2____TRILIUM_PH_3__Attach file__TRILIUM_PH_4__ button. See __TRILIUM_PH_5__Attachments__TRILIUM_PH_6__.",
+          "sourceHash": "745390b0b66b29a87fe233179d767ed242c3b37a9d1e5a55e9d3b1c0ac56a20e",
+          "context": "Images > Uploading images",
+          "contextHash": "134091da858ebd286d5bd3d92925bc2c9d5faddb7502349e9ee127885aafb2c7"
+        }
+      ]
+    },
+    {
+      "key": "VRoP0g1uHHc2_e1f8b804dbd024f5",
+      "pageId": "VRoP0g1uHHc2",
+      "units": [
+        {
+          "id": "u_0ccddba4263bedf90b7e1666_0",
+          "kind": "li",
+          "source": "Look for the __TRILIUM_PH_0__ button in the __TRILIUM_PH_1__Formatting toolbar__TRILIUM_PH_2__. Press the button itself to enter the __TRILIUM_PH_3__Ask AI__TRILIUM_PH_4__ mode or press the arrow key next to it to access the quick commands and the model selection. On a phone, the button has no arrow: tapping it opens the same menu at the bottom of the screen, with __TRILIUM_PH_5__Ask AI…__TRILIUM_PH_6__ at its top, and a group such as __TRILIUM_PH_7__Translate__TRILIUM_PH_8__ opens as a page of its own.",
+          "sourceHash": "0ccddba4263bedf90b7e1666baec9d6ded6a578bbf515d9079a65f98f5c88b7a",
+          "context": "In-editor AI assistant > Accessing the AI assistant",
+          "contextHash": "20e460d6153fcf454f30926e4b4eae5715e7c28bd43c782b06f13f44b4365350"
+        },
+        {
+          "id": "u_dd668db6ce347e7950240fc2_0",
+          "kind": "li",
+          "source": "Look for __TRILIUM_PH_0__AI assistant__TRILIUM_PH_1__ or any of the __TRILIUM_PH_2__AI__TRILIUM_PH_3__-prefixed quick commands in __TRILIUM_PH_4__Slash Commands__TRILIUM_PH_5__.",
+          "sourceHash": "dd668db6ce347e7950240fc293f9e6e3d0300a5ff3676735053dfb0be36cbb46",
+          "context": "In-editor AI assistant > Accessing the AI assistant",
+          "contextHash": "20e460d6153fcf454f30926e4b4eae5715e7c28bd43c782b06f13f44b4365350"
+        },
+        {
+          "id": "u_b68d3b7c366cce83919a463c_0",
+          "kind": "li",
+          "source": "Select a text and choose the __TRILIUM_PH_0__AI assistant__TRILIUM_PH_1__ option in the __TRILIUM_PH_2__Note contextual menu__TRILIUM_PH_3__.",
+          "sourceHash": "b68d3b7c366cce83919a463c4a50a321376317e55f758e0c9ba0d86ebe955ea1",
+          "context": "In-editor AI assistant > Accessing the AI assistant",
+          "contextHash": "20e460d6153fcf454f30926e4b4eae5715e7c28bd43c782b06f13f44b4365350"
+        }
+      ]
+    },
+    {
+      "key": "nBAXQFj20hS1_98630ed4d3a59300",
+      "pageId": "nBAXQFj20hS1",
+      "units": [
+        {
+          "id": "u_344cc190720dbdd82c8dda1c_0",
+          "kind": "p",
+          "source": "The title row of an include links to the included note and holds its buttons. To show only the content, turn off __TRILIUM_PH_0__Show title__TRILIUM_PH_1__ in the menu of the include, which right-clicking the title row or pressing its __TRILIUM_PH_2__ __TRILIUM_PH_3__More actions__TRILIUM_PH_4__ button opens (see __TRILIUM_PH_5__Opening an included note__TRILIUM_PH_6__ below).",
+          "sourceHash": "344cc190720dbdd82c8dda1ccd1c2aacf931c114751d134760169e6d16476ba7",
+          "context": "Include Note > Title",
+          "contextHash": "7aff4474c814b6d143e1006fc36ec8f4943f4b4207008b6d46ed1ee30b032494"
+        },
+        {
+          "id": "u_e91edc537015afcb4d1cc4a2_0",
+          "kind": "li",
+          "source": "The __TRILIUM_PH_0__ __TRILIUM_PH_1__More actions__TRILIUM_PH_2__ menu of an included code or Markdown note, an embedded code or Markdown file and a __TRILIUM_PH_3__Mermaid diagram__TRILIUM_PH_4__ has two more submenus after __TRILIUM_PH_5__Editable__TRILIUM_PH_6__, each with __TRILIUM_PH_7__Auto__TRILIUM_PH_8__, __TRILIUM_PH_9__On__TRILIUM_PH_10__ and __TRILIUM_PH_11__Off__TRILIUM_PH_12__. They change how the code editor shows the source.",
+          "sourceHash": "e91edc537015afcb4d1cc4a2a52762a6c3bcb03f515246b2d86de8dc9766318c",
+          "context": "Include Note > Editing an include in place",
+          "contextHash": "b0cb7b9e27b31b2e3c4161bc1115bc712cd6609d3317ada66b3f10fb5ba8fdb4"
+        },
+        {
+          "id": "u_ec02808762c8d80abc1e5b8d_0",
+          "kind": "li",
+          "source": "__TRILIUM_PH_0__Word wrap__TRILIUM_PH_1__ wraps long lines instead of scrolling them. __TRILIUM_PH_2__Auto__TRILIUM_PH_3__ follows the setting in __TRILIUM_PH_4__Options__TRILIUM_PH_5__ → __TRILIUM_PH_6__Code Notes__TRILIUM_PH_7__. For an included note, it sets the __TRILIUM_PH_8__ label of the note, as the __TRILIUM_PH_9__Word wrap__TRILIUM_PH_10__ submenu of its __TRILIUM_PH_11__Note menu__TRILIUM_PH_12__ does for a code note. For an embedded file or a Mermaid diagram, it changes only this include.",
+          "sourceHash": "ec02808762c8d80abc1e5b8d530acda620cd6ddd9c0c4f7808939a7319f4db6e",
+          "context": "Include Note > Editing an include in place",
+          "contextHash": "b0cb7b9e27b31b2e3c4161bc1115bc712cd6609d3317ada66b3f10fb5ba8fdb4"
+        },
+        {
+          "id": "u_339c5ff850572f4879706129_0",
+          "kind": "li",
+          "source": "Until a view is chosen, the include shows the __TRILIUM_PH_0__Preview__TRILIUM_PH_1__, and the __TRILIUM_PH_2__Split view__TRILIUM_PH_3__ while __TRILIUM_PH_4__Editable__TRILIUM_PH_5__ is on.",
+          "sourceHash": "339c5ff850572f4879706129dc51853ea1e574ded6c9b1a0e3c3fed199b048e7",
+          "context": "Include Note > Included Markdown",
+          "contextHash": "472d50a7b5a40b6d47606b21a4be0d19a035026135b033f514552d02f64f2157"
+        },
+        {
+          "id": "u_8ab7a94973a29ae2df0c56ca_0",
+          "kind": "li",
+          "source": "The source has the slash commands and the __TRILIUM_PH_0__ and __TRILIUM_PH_1__ note links of a __TRILIUM_PH_2__Markdown__TRILIUM_PH_3__ note. A note created from the __TRILIUM_PH_4__ or __TRILIUM_PH_5__ list goes under the included note, or for an embedded file under the note that includes it, and __TRILIUM_PH_6__ uploads the image to that same note.",
+          "sourceHash": "8ab7a94973a29ae2df0c56ca322a09e079047e358e5504d28b208b00399b0767",
+          "context": "Include Note > Included Markdown",
+          "contextHash": "472d50a7b5a40b6d47606b21a4be0d19a035026135b033f514552d02f64f2157"
+        },
+        {
+          "id": "u_66da02eeda37f4766377c23b_0",
+          "kind": "li",
+          "source": "The __TRILIUM_PH_0__Word wrap__TRILIUM_PH_1__ and __TRILIUM_PH_2__Line numbers__TRILIUM_PH_3__ submenus of the __TRILIUM_PH_4__More actions__TRILIUM_PH_5__ menu change how the source shows, as for code (see __TRILIUM_PH_6__Editing an include in place__TRILIUM_PH_7__ above).",
+          "sourceHash": "66da02eeda37f4766377c23b3b3a54416b26a5223738767143f02618e3e4bdfb",
+          "context": "Include Note > Included Markdown",
+          "contextHash": "472d50a7b5a40b6d47606b21a4be0d19a035026135b033f514552d02f64f2157"
+        },
+        {
+          "id": "u_76bcc6a04817f60e7dbe4956_0",
+          "kind": "li",
+          "source": "To insert a drawing canvas, open the __TRILIUM_PH_0__ __TRILIUM_PH_1__Insert__TRILIUM_PH_2__ menu of the __TRILIUM_PH_3__Formatting toolbar__TRILIUM_PH_4__ and choose __TRILIUM_PH_5__ __TRILIUM_PH_6__Drawing canvas__TRILIUM_PH_7__, above __TRILIUM_PH_8__Mermaid diagram__TRILIUM_PH_9__. It is also available as __TRILIUM_PH_10__Drawing canvas__TRILIUM_PH_11__ in the __TRILIUM_PH_12__Slash Commands__TRILIUM_PH_13__. The canvas is added empty and editable, in a __TRILIUM_PH_14__Resizable__TRILIUM_PH_15__ box with its title hidden, and takes the focus, ready for drawing.",
+          "sourceHash": "76bcc6a04817f60e7dbe4956b88b5c8600d6b51f9093917628f3d7d076e404a1",
+          "context": "Include Note > Drawing canvases",
+          "contextHash": "a2cd96259cee6528f22a378ae1235364e1c8c610c347d80d6d221ae70b4dd098"
+        },
+        {
+          "id": "u_a43b3b894a9b0b98b34f30e3_0",
+          "kind": "li",
+          "source": "An Excalidraw file (__TRILIUM_PH_0__) attached with __TRILIUM_PH_1__Attach and embed file__TRILIUM_PH_2__, under the __TRILIUM_PH_3____TRILIUM_PH_4__Attach file__TRILIUM_PH_5__ button, becomes a drawing canvas too, in a __TRILIUM_PH_6__Resizable__TRILIUM_PH_7__ box titled with the file name. It starts with __TRILIUM_PH_8__Editable__TRILIUM_PH_9__ off, so the drawing shows but cannot be changed until __TRILIUM_PH_10__Editable__TRILIUM_PH_11__ is turned on (see below).",
+          "sourceHash": "a43b3b894a9b0b98b34f30e3ad43ae9144e526181d8e6fa820ea47a1700de148",
+          "context": "Include Note > Drawing canvases",
+          "contextHash": "a2cd96259cee6528f22a378ae1235364e1c8c610c347d80d6d221ae70b4dd098"
+        },
+        {
+          "id": "u_76e4facb4c91884be2e57f98_0",
+          "kind": "li",
+          "source": "To protect a finished drawing from accidental changes, select it and turn off __TRILIUM_PH_0__Editable__TRILIUM_PH_1__ in its __TRILIUM_PH_2__ __TRILIUM_PH_3__More actions__TRILIUM_PH_4__ menu. The drawing then shows as a still picture, at the zoom and position it had, and can no longer be changed, zoomed or moved. To draw again, turn on the __TRILIUM_PH_5__ __TRILIUM_PH_6__Editable__TRILIUM_PH_7__ button at the start of its toolbar, which shows only while __TRILIUM_PH_8__Editable__TRILIUM_PH_9__ is off, or turn __TRILIUM_PH_10__Editable__TRILIUM_PH_11__ back on in the menu.",
+          "sourceHash": "76e4facb4c91884be2e57f980cc8ff3ea7b7cd52df34b216a188bab51a5cb13d",
+          "context": "Include Note > Drawing canvases",
+          "contextHash": "a2cd96259cee6528f22a378ae1235364e1c8c610c347d80d6d221ae70b4dd098"
+        }
+      ]
+    },
+    {
+      "key": "hD8GawVuazff_0c76c01998751023",
+      "pageId": "hD8GawVuazff",
+      "units": [
+        {
+          "id": "u_018a3ed0038596c2054d156e_0",
+          "kind": "li",
+          "source": "The icon can be formatted through the__TRILIUM_PH_0__General formatting__TRILIUM_PH_1__ tools of the __TRILIUM_PH_2__Formatting toolbar__TRILIUM_PH_3__:",
+          "sourceHash": "018a3ed0038596c2054d156ec707490018a8e423f024ce55eb326c5ad0f6496d",
+          "context": "Icons > Features",
+          "contextHash": "0d337cf3fa17997f2a48c4a0287aa69234aacc10de9c3191dfc96a2f56527bc4"
+        }
+      ]
+    },
+    {
+      "key": "CohkqWQC1iBv_0e1b89b0d6eed0b1",
+      "pageId": "CohkqWQC1iBv",
+      "units": [
+        {
+          "id": "u_a511c71933501ae274d866b9_0",
+          "kind": "p",
+          "source": "Choose __TRILIUM_PH_0__ __TRILIUM_PH_1__Extended code block__TRILIUM_PH_2__ to insert a code block that is edited as a code note. This entry is experimental and is shown only once it is turned on. See __TRILIUM_PH_3__Extended code blocks__TRILIUM_PH_4__ in __TRILIUM_PH_5__Code blocks__TRILIUM_PH_6__.",
+          "sourceHash": "a511c71933501ae274d866b92c2356d2fd7a4773a29c42f0cf7bfde543917125",
+          "context": "Insert buttons > Extended code block",
+          "contextHash": "826c5b89b01bd305105b4f4dda27fee093e4291bc4aa68329af0c01455b1bc8e"
+        },
+        {
+          "id": "u_4869c1f8c372e2f614f548cf_0",
+          "kind": "p",
+          "source": "Choose __TRILIUM_PH_0__ __TRILIUM_PH_1__Drawing canvas__TRILIUM_PH_2__ to draw on an Excalidraw canvas inside the text. See __TRILIUM_PH_3__Drawing canvases__TRILIUM_PH_4__ in __TRILIUM_PH_5__Include Note__TRILIUM_PH_6__.",
+          "sourceHash": "4869c1f8c372e2f614f548cf2a5a39ae6d45cb22f7405ee86bcdd051e3e5491c",
+          "context": "Insert buttons > Drawing canvas",
+          "contextHash": "568dfeab952e8a0249424e1fa448b8c9ada94d9c6fb22e003735a6175d2cdd4b"
+        },
+        {
+          "id": "u_ceb15c8bd40fef0530bc603e_0",
+          "kind": "p",
+          "source": "Press the __TRILIUM_PH_0__ button to create an inline Mermaid diagram. The arrow next to it lists a template for each kind of diagram. The diagram is also available as __TRILIUM_PH_1__Mermaid diagram__TRILIUM_PH_2__ in the __TRILIUM_PH_3__Slash Commands__TRILIUM_PH_4__.",
+          "sourceHash": "ceb15c8bd40fef0530bc603efbb3a0314d13af970617c0d410c618c645541f1f",
+          "context": "Insert buttons > Mermaid diagram",
+          "contextHash": "00b59d7e43c10bed0539ec44fb45c90aefa65fcaa7fe394d7092b701f1b96cba"
+        },
+        {
+          "id": "u_bcc5be4cee1c498b4aadf2df_0",
+          "kind": "p",
+          "source": "A diagram shows in a box like the one of an included note, so it can be resized, given another box size (__TRILIUM_PH_0__Resizable__TRILIUM_PH_1__ or __TRILIUM_PH_2__Full__TRILIUM_PH_3__) from its __TRILIUM_PH_4__ __TRILIUM_PH_5__More actions__TRILIUM_PH_6__ menu or shown in fullscreen, as described in __TRILIUM_PH_7__Include Note__TRILIUM_PH_8__.",
+          "sourceHash": "bcc5be4cee1c498b4aadf2df2cbd58c2b2efa9169049efeedfcebc1d9bfbf2b4",
+          "context": "Insert buttons > Mermaid diagram",
+          "contextHash": "00b59d7e43c10bed0539ec44fb45c90aefa65fcaa7fe394d7092b701f1b96cba"
+        },
+        {
+          "id": "u_82c828bd00c0309b382b92ec_0",
+          "kind": "li",
+          "source": "The __TRILIUM_PH_0__Word wrap__TRILIUM_PH_1__ and __TRILIUM_PH_2__Line numbers__TRILIUM_PH_3__ submenus of its __TRILIUM_PH_4__More actions__TRILIUM_PH_5__ menu change how the source shows, each with __TRILIUM_PH_6__Auto__TRILIUM_PH_7__, __TRILIUM_PH_8__On__TRILIUM_PH_9__ and __TRILIUM_PH_10__Off__TRILIUM_PH_11__, as for an included code note (see __TRILIUM_PH_12__Editing an include in place__TRILIUM_PH_13__ in __TRILIUM_PH_14__Include Note__TRILIUM_PH_15__).",
+          "sourceHash": "82c828bd00c0309b382b92ec47bfd11b2eccb497e7715ee777e8f78b6ce77185",
+          "context": "Insert buttons > Mermaid diagram",
+          "contextHash": "00b59d7e43c10bed0539ec44fb45c90aefa65fcaa7fe394d7092b701f1b96cba"
+        },
+        {
+          "id": "u_74a86aba43ff8222d6c7b891_0",
+          "kind": "li",
+          "source": "The changes made to the source of a diagram are part of the undo history of the text note, in the order they were made. __TRILIUM_PH_0__Ctrl__TRILIUM_PH_1__+__TRILIUM_PH_2__Z__TRILIUM_PH_3__ and __TRILIUM_PH_4__Ctrl__TRILIUM_PH_5__+__TRILIUM_PH_6__Y__TRILIUM_PH_7__ undo and redo them from the source as well as from the text, as described in __TRILIUM_PH_8__Editing an include in place__TRILIUM_PH_9__ in __TRILIUM_PH_10__Include Note__TRILIUM_PH_11__.",
+          "sourceHash": "74a86aba43ff8222d6c7b8913eddd6241d2f9880e33344ed7adef6986418e8ee",
+          "context": "Insert buttons > Mermaid diagram",
+          "contextHash": "00b59d7e43c10bed0539ec44fb45c90aefa65fcaa7fe394d7092b701f1b96cba"
+        },
+        {
+          "id": "u_0efbd605cf5cdeaca7fabe31_0",
+          "kind": "p",
+          "source": "Choose __TRILIUM_PH_0__ __TRILIUM_PH_1__Audio/video embed__TRILIUM_PH_2__ to insert a YouTube video, or an audio or video file from its web address, that can be played inside the note. Paste the address, then press __TRILIUM_PH_3__Insert media__TRILIUM_PH_4__ or __TRILIUM_PH_5__Enter__TRILIUM_PH_6__. The media is inserted as a link preview in the __TRILIUM_PH_7__Embed__TRILIUM_PH_8__ display mode, described in __TRILIUM_PH_9__Link Previews__TRILIUM_PH_10__. The same action is available as __TRILIUM_PH_11__Audio/video embed__TRILIUM_PH_12__ in the __TRILIUM_PH_13__Slash Commands__TRILIUM_PH_14__.",
+          "sourceHash": "0efbd605cf5cdeaca7fabe31e4a9c4029994f0bcfdb919b0b4cbbf10ab70449c",
+          "context": "Insert buttons > Audio/video embed",
+          "contextHash": "5e7e5ba1ad0ae7cc294bc4bfa39796a754417628f78cde45c83403c6687cb80f"
+        },
+        {
+          "id": "u_129d32f3e33be0bc25187e8c_0",
+          "kind": "p",
+          "source": "This feature will display a horizontal line, generally useful to separate different sections of the text. To do so, press the __TRILIUM_PH_0__ button in the __TRILIUM_PH_1__Formatting toolbar__TRILIUM_PH_2__.",
+          "sourceHash": "129d32f3e33be0bc25187e8c8b38b384f5c168b0609f3d6af93c5f89786f598b",
+          "context": "Insert buttons > Horizontal ruler",
+          "contextHash": "a6152c99eb4682c45afe599847fceac165d1d187c7885d409c2f8292ac58f137"
+        }
+      ]
+    },
+    {
+      "key": "UmgZAfcltxkS_4f50001c374c866d",
+      "pageId": "UmgZAfcltxkS",
+      "units": [
+        {
+          "id": "u_de65684c6003756a082ab13f_0",
+          "kind": "p",
+          "source": "This automatic conversion can be disabled by going to __TRILIUM_PH_0__Options__TRILIUM_PH_1__ → __TRILIUM_PH_2__Text Notes__TRILIUM_PH_3__ and unchecking __TRILIUM_PH_4__Autogenerate link previews__TRILIUM_PH_5__ from the __TRILIUM_PH_6__Features__TRILIUM_PH_7__ section.",
+          "sourceHash": "de65684c6003756a082ab13fd2f062f49a50516f1c881fc92b8b621590b2ede0",
+          "context": "Link Previews > Inserting a link preview > 1. By pasting a URL",
+          "contextHash": "3bdcee0140e2b8c2d4cafbb425ef0532d9db7bb98f547539e70a25a40fbf5214"
+        },
+        {
+          "id": "u_f2c67f716b5ca8bffd953a36_0",
+          "kind": "li",
+          "source": "Press __TRILIUM_PH_0__ in the __TRILIUM_PH_1__Formatting toolbar__TRILIUM_PH_2__, or press __TRILIUM_PH_3__Ctrl__TRILIUM_PH_4__+__TRILIUM_PH_5__K__TRILIUM_PH_6__, to open the dialog on __TRILIUM_PH_7__Web page__TRILIUM_PH_8__.",
+          "sourceHash": "f2c67f716b5ca8bffd953a360798c87c56610c5b24fba46eb676fb20fc4df7fd",
+          "context": "Link Previews > Inserting a link preview > 2. From the link dialog",
+          "contextHash": "bea47322a7aa333f0f0ef8bec6dbb9e73cf165ea8427fe8db23852a3f9a9f50d"
+        },
+        {
+          "id": "u_a8bd897832c96261259adcea_0",
+          "kind": "p",
+          "source": "Choose __TRILIUM_PH_0__ __TRILIUM_PH_1__Audio/video embed__TRILIUM_PH_2__ from the __TRILIUM_PH_3__Insert buttons__TRILIUM_PH_4__ menu or the __TRILIUM_PH_5__Slash Commands__TRILIUM_PH_6__. Paste the address of a YouTube video, or of an audio or video file, and press __TRILIUM_PH_7__Insert media__TRILIUM_PH_8__ or __TRILIUM_PH_9__Enter__TRILIUM_PH_10__ to insert it as an __TRILIUM_PH_11__Embed__TRILIUM_PH_12__. The __TRILIUM_PH_13__ __TRILIUM_PH_14__Paste__TRILIUM_PH_15__ button at the end of the field replaces its text with the text on the clipboard. This button is shown only where Trilium can read the clipboard: in the desktop app, and in a browser over HTTPS unless access to the clipboard was blocked.",
+          "sourceHash": "a8bd897832c96261259adceab93b71e5038e217b5cae1297fba9e8a9d4c62810",
+          "context": "Link Previews > Inserting a link preview > 3. From the Insert menu, for audio and video",
+          "contextHash": "a83c4bb21585af988df6c84b8cdc75ed7537e2cfbc9c5ea40f170914812b8d9d"
+        },
+        {
+          "id": "u_028ab948bca026cd4df0441e_0",
+          "kind": "li",
+          "source": "The Embed option is only shown for a YouTube video or an audio or video file. A __TRILIUM_PH_0__Card__TRILIUM_PH_1__ of a file whose address does not end in a known extension, such as __TRILIUM_PH_2__ or __TRILIUM_PH_3__, no longer offers it.",
+          "sourceHash": "028ab948bca026cd4df0441efac8cc5b9498e3a479b4bf8930d68361efb25ff6",
+          "context": "Link Previews > Altering an existing link preview",
+          "contextHash": "fbfe0d0c7312ecacd9bd92de91cc63c4f6b0d60a88ca85e7926354379f6f805d"
+        },
+        {
+          "id": "u_18739552e3100605eec9ee83_0",
+          "kind": "li",
+          "source": "__TRILIUM_PH_0__ __TRILIUM_PH_1__Edit...__TRILIUM_PH_2__ opens the __TRILIUM_PH_3__Edit link__TRILIUM_PH_4__ dialog with only the __TRILIUM_PH_5__Address (URL)__TRILIUM_PH_6__ and the __TRILIUM_PH_7__Link title__TRILIUM_PH_8__ of the media, as does pressing __TRILIUM_PH_9__Ctrl__TRILIUM_PH_10__+__TRILIUM_PH_11__K__TRILIUM_PH_12__ while the embed is selected. With another address, the embed plays the new media and keeps its size, position, title and caption. It takes the thumbnail and the shape of the new media, and a video file gets a picture of one of its frames, as when it is inserted. A video at its first size takes the first size of the new video, and an audio file in place of a video, or a video in place of an audio file, takes the size of new media. A new address shows the title of the new media, unless you type your own. When the address is not that of a YouTube video, an audio or a video file, the embed stays as it was and Trilium shows an error.",
+          "sourceHash": "18739552e3100605eec9ee838bb4b7cd36a78e44b7a8eed762795b523befbd52",
+          "context": "Link Previews > Altering an existing link preview > Audio and video",
+          "contextHash": "c467f8a1d52c0bc9d49197125fbd0e0fec4d0061b716a29becb62ff6f91fca8e"
+        },
+        {
+          "id": "u_cf7e05c94636cae456d4fa96_0",
+          "kind": "li",
+          "source": "The display modes of the __TRILIUM_PH_0__Display__TRILIUM_PH_1__ menu under __TRILIUM_PH_2__ __TRILIUM_PH_3__Display as__TRILIUM_PH_4__.",
+          "sourceHash": "cf7e05c94636cae456d4fa96302a4c57a44559df61c4ebada75e8b411ed99252",
+          "context": "Link Previews > Altering an existing link preview > Audio and video",
+          "contextHash": "c467f8a1d52c0bc9d49197125fbd0e0fec4d0061b716a29becb62ff6f91fca8e"
+        },
+        {
+          "id": "u_34a8fb06e4427631c9396d1e_0",
+          "kind": "p",
+          "source": "To resize a __TRILIUM_PH_0__Resizable__TRILIUM_PH_1__ video or audio file, select it and drag the handle in its bottom-right corner, or its bottom-left corner for one aligned to the right. The height of a video follows the width. __TRILIUM_PH_2__Default__TRILIUM_PH_3__ in the __TRILIUM_PH_4__Size__TRILIUM_PH_5__ submenu returns a video to its first size.",
+          "sourceHash": "34a8fb06e4427631c9396d1e5125492392bef0e4112518dd0d1859b9c922e8a1",
+          "context": "Link Previews > Altering an existing link preview > Audio and video",
+          "contextHash": "c467f8a1d52c0bc9d49197125fbd0e0fec4d0061b716a29becb62ff6f91fca8e"
+        }
+      ]
+    },
+    {
+      "key": "3IDVtesTQ8ds_ec62e6e6259a8e0b",
+      "pageId": "3IDVtesTQ8ds",
+      "units": [
+        {
+          "id": "u_fa524990c878160b05f30a87_0",
+          "kind": "li",
+          "source": "Open the __TRILIUM_PH_0__Add link__TRILIUM_PH_1__ dialog as above (via the formatting toolbar, or __TRILIUM_PH_2__Ctrl__TRILIUM_PH_3__+__TRILIUM_PH_4__K__TRILIUM_PH_5__). The selected text becomes the text of the link, so the dialog does not offer __TRILIUM_PH_6__Display as__TRILIUM_PH_7__.",
+          "sourceHash": "fa524990c878160b05f30a871d15203de745c1e0bef8c08da10cf36662d2bedc",
+          "context": "External links",
+          "contextHash": "2cedb069633746f45f07d748666e17efa964159469f9e2c993d67c632f661d2a"
+        },
+        {
+          "id": "u_e8046e51935339639168e067_0",
+          "kind": "li",
+          "source": "The same menu has __TRILIUM_PH_0__Open link__TRILIUM_PH_1__, __TRILIUM_PH_2__Edit link__TRILIUM_PH_3__ and __TRILIUM_PH_4__Copy address (URL)__TRILIUM_PH_5__, and __TRILIUM_PH_6__Display as__TRILIUM_PH_7__, which turns the link into one of the __TRILIUM_PH_8__Link Previews__TRILIUM_PH_9__, as does the __TRILIUM_PH_10__Display__TRILIUM_PH_11__ menu of the popup.",
+          "sourceHash": "e8046e51935339639168e067711dc061d267bbd734f11cb59dac6cdb0e091ba2",
+          "context": "External links",
+          "contextHash": "2cedb069633746f45f07d748666e17efa964159469f9e2c993d67c632f661d2a"
+        },
+        {
+          "id": "u_8dea6f59aaf75a6382f6def2_0",
+          "kind": "p",
+          "source": "To follow an external link in a note being edited, __TRILIUM_PH_0__Ctrl__TRILIUM_PH_1__+click or double-click it, which opens it in a new tab or window, place the cursor in it and press __TRILIUM_PH_2__Alt__TRILIUM_PH_3__+__TRILIUM_PH_4__Enter__TRILIUM_PH_5__, or right-click it and choose __TRILIUM_PH_6__Open link__TRILIUM_PH_7__. On a touch device, touch and hold the link, then choose __TRILIUM_PH_8__Open link__TRILIUM_PH_9__. A link in an __TRILIUM_PH_10__included note__TRILIUM_PH_11__ that is not __TRILIUM_PH_12__Editable__TRILIUM_PH_13__ opens on a click, as in a read-only note.",
+          "sourceHash": "8dea6f59aaf75a6382f6def2fee036fc5f806a9569fe16592b402e55a89a2ee0",
+          "context": "External links",
+          "contextHash": "2cedb069633746f45f07d748666e17efa964159469f9e2c993d67c632f661d2a"
+        }
+      ]
+    },
+    {
+      "key": "hrZ1D00cLbal_3b31a8f152ebddfe",
+      "pageId": "hrZ1D00cLbal",
+      "units": [
+        {
+          "id": "u_28c434a56dcc7619fe62bdec_0",
+          "kind": "li",
+          "source": "Pressing __TRILIUM_PH_0__Ctrl__TRILIUM_PH_1__ + __TRILIUM_PH_2__L__TRILIUM_PH_3__ or the __TRILIUM_PH_4__ button underneath the __TRILIUM_PH_5__ menu in the __TRILIUM_PH_6__Formatting toolbar__TRILIUM_PH_7__, or by choosing __TRILIUM_PH_8__Link to a note (internal link)__TRILIUM_PH_9__ in the __TRILIUM_PH_10__Slash Commands__TRILIUM_PH_11__. On desktop, the __TRILIUM_PH_12__Add link__TRILIUM_PH_13__ dialog opens in a popup next to the cursor.",
+          "sourceHash": "28c434a56dcc7619fe62bdecbef1d36b0b2ddea0f74aa69d6c55b8175e2fe5ff",
+          "context": "Internal (reference) links > Inserting internal links",
+          "contextHash": "634afc60784ce8c31c34b11456c634312244957564e87e23a38fcdba32330ec0"
+        },
+        {
+          "id": "u_bce14c94920e906e87709ed8_0",
+          "kind": "p",
+          "source": "To create an empty child note and link to it before naming it, use __TRILIUM_PH_0__New child note__TRILIUM_PH_1__, described in __TRILIUM_PH_2__Insert buttons__TRILIUM_PH_3__.",
+          "sourceHash": "bce14c94920e906e87709ed8e7c527595d1503a0d7b616317dbef0a2eccdbd1b",
+          "context": "Internal (reference) links > In-place linking",
+          "contextHash": "d5d8f35c7caca88eb039d810ddb709a57b01da6d469a3341b190d50dd6c1214e"
+        }
+      ]
+    },
+    {
+      "key": "wfGXLmm7x27z_98323f8def53fc85",
+      "pageId": "wfGXLmm7x27z",
+      "units": [
+        {
+          "id": "u_38e1954419dff8c314031759_0",
+          "kind": "li",
+          "source": "In the __TRILIUM_PH_0__Connections tab__TRILIUM_PH_1__ of the __TRILIUM_PH_2__Right Sidebar__TRILIUM_PH_3__, as a dedicated section.",
+          "sourceHash": "38e1954419dff8c314031759a5bba447a3d170d942386087f77cb6477e5e09e3",
+          "context": "Backlinks > Where backlinks are shown",
+          "contextHash": "c1536af87ca41c626def21ac3924f7be7b5e6225c6c1011cc27a6f2381222d77"
+        }
+      ]
+    },
+    {
+      "key": "S6Xx8QIWTV66_15848385e3e57656",
+      "pageId": "S6Xx8QIWTV66",
+      "units": [
+        {
+          "id": "u_4227794c6a7c0ddcaf69bcbe_0",
+          "kind": "li",
+          "source": "To create nested lists, simply use the __TRILIUM_PH_0__ button (see __TRILIUM_PH_1__Indentation__TRILIUM_PH_2__ in __TRILIUM_PH_3__Other features__TRILIUM_PH_4__) or the __TRILIUM_PH_5__Tab__TRILIUM_PH_6__ key. To decrease the nesting level for the current element, press __TRILIUM_PH_7__Shift__TRILIUM_PH_8__+__TRILIUM_PH_9__Tab__TRILIUM_PH_10__.",
+          "sourceHash": "4227794c6a7c0ddcaf69bcbec33234b171134200a1ba7369ed9ed5b7fa54c130",
+          "context": "Lists > Keyboard interaction",
+          "contextHash": "89ccfe44429bcfdfdbcddafcd67620e3a22cc27805048f233beb22a0622b0ab0"
+        }
+      ]
+    },
+    {
+      "key": "YfYAtQBcfo5V_f3831a8b32f313e7",
+      "pageId": "YfYAtQBcfo5V",
+      "units": [
+        {
+          "id": "u_b25341674ea75060c4715baa_0",
+          "kind": "p",
+          "source": "Within text notes, it's possible to enter mathematical equations using the __TRILIUM_PH_0__ button from the __TRILIUM_PH_1__Formatting toolbar__TRILIUM_PH_2__ (generally found under the __TRILIUM_PH_3__Insert buttons__TRILIUM_PH_4__).",
+          "sourceHash": "b25341674ea75060c4715baaa75a74db13a93e72b6e567fa3771f71fcae1471d",
+          "context": "Math Equations",
+          "contextHash": "9c28dd8ef9e6a3f1bd55d1e21b4350932bddb54c36117212375dbb731f8622b8"
+        }
+      ]
+    },
+    {
+      "key": "wYDzQ1fBFgfT_88342c1cafcede35",
+      "pageId": "wYDzQ1fBFgfT",
+      "units": [
+        {
+          "id": "u_8762889c04d2a3ceec11d284_0",
+          "kind": "li",
+          "source": "Alternatively, type __TRILIUM_PH_0__ and choose __TRILIUM_PH_1__2 columns layout__TRILIUM_PH_2__, __TRILIUM_PH_3__3 columns layout__TRILIUM_PH_4__ or __TRILIUM_PH_5__4 columns layout__TRILIUM_PH_6__, as described in __TRILIUM_PH_7__Slash Commands__TRILIUM_PH_8__.",
+          "sourceHash": "8762889c04d2a3ceec11d284d2c64245221fd18dd7562ea04c8a5976c0fc31a2",
+          "context": "Multicolumn layout > Inserting a layout",
+          "contextHash": "592c6894d32db61271bfb9b405aaeb3a46974f2ffc629a0c536b6bb26497cb67"
+        }
+      ]
+    },
+    {
+      "key": "0vgWgxQAWj4a_066e7a0566933634",
+      "pageId": "0vgWgxQAWj4a",
+      "units": [
+        {
+          "id": "u_2eee2af9ddbcdbe517aaac8f_0",
+          "kind": "p",
+          "source": "Sorting the selection is experimental, and it changes as it matures. To use it, turn on __TRILIUM_PH_0__Sort selection in text editor__TRILIUM_PH_1__ in __TRILIUM_PH_2__Options__TRILIUM_PH_3__ → __TRILIUM_PH_4__Advanced__TRILIUM_PH_5__ → __TRILIUM_PH_6__Experimental Options__TRILIUM_PH_7__.",
+          "sourceHash": "2eee2af9ddbcdbe517aaac8f170643215bf81f79587bb03a60896c171caa8b8b",
+          "context": "Sorting",
+          "contextHash": "cb24f7d40a81b1891300a95fbd8ac4403071cd33ede0e0e4e452c54d84dd56da"
+        },
+        {
+          "id": "u_ed320789bacddcd02537ba3f_0",
+          "kind": "li",
+          "source": "To sort, place the cursor in a list or a table, or select the paragraphs to sort, then press the __TRILIUM_PH_0__ __TRILIUM_PH_1__Sort__TRILIUM_PH_2__ button of the __TRILIUM_PH_3__Formatting toolbar__TRILIUM_PH_4__ to sort in ascending order. The arrow beside it offers __TRILIUM_PH_5__Ascending__TRILIUM_PH_6__ and __TRILIUM_PH_7__Descending__TRILIUM_PH_8__. With the floating toolbar, the button is in the block-level popup.",
+          "sourceHash": "ed320789bacddcd02537ba3f0d29031066229e43e66a6cf7b80e060d8d1999b8",
+          "context": "Sorting > Sorting",
+          "contextHash": "67bbb475b7d98e95f323aaeaf290e2f6943f93bd10042674b7eb7f3801f76bb1"
+        },
+        {
+          "id": "u_1239dc7474768787165a3a4f_0",
+          "kind": "li",
+          "source": "__TRILIUM_PH_0__Table rows__TRILIUM_PH_1__: the rows are sorted by the column of the cursor, as described in __TRILIUM_PH_2__Sorting rows__TRILIUM_PH_3__ in __TRILIUM_PH_4__Tables__TRILIUM_PH_5__. Inside a table cell, a list or several selected paragraphs are sorted instead of the rows.",
+          "sourceHash": "1239dc7474768787165a3a4fa2d9660205f1e4b9f95c6bfc04f2837416f59cba",
+          "context": "Sorting > What is sorted",
+          "contextHash": "3dde123871fc24faf493e07127f36cff3f9ca1dd5331722e82904d2e7995401a"
+        },
+        {
+          "id": "u_1483151a7805b92acb2a9e4c_0",
+          "kind": "p",
+          "source": "Values are compared the same way as table rows, see __TRILIUM_PH_0__How values are compared__TRILIUM_PH_1__ in __TRILIUM_PH_2__Tables__TRILIUM_PH_3__.",
+          "sourceHash": "1483151a7805b92acb2a9e4cdda68d7e3fe21b460789177b9ac282c25ebf1e4b",
+          "context": "Sorting > What is sorted",
+          "contextHash": "3dde123871fc24faf493e07127f36cff3f9ca1dd5331722e82904d2e7995401a"
+        }
+      ]
+    },
+    {
+      "key": "NdowYOC1GFKS_cd1ac843080e6fbd",
+      "pageId": "NdowYOC1GFKS",
+      "units": [
+        {
+          "id": "u_6ef6d308759490a685f2342f_0",
+          "kind": "p",
+          "source": "On the __TRILIUM_PH_0__Mobile Frontend__TRILIUM_PH_1__, the toolbar does not float over the table. Instead, press the __TRILIUM_PH_2__ button after __TRILIUM_PH_3__Undo__TRILIUM_PH_4__ and __TRILIUM_PH_5__Redo__TRILIUM_PH_6__ in the formatting toolbar at the bottom of the screen to show the table's toolbar there.",
+          "sourceHash": "6ef6d308759490a685f2342fe62f3007ea22e85f2276e249a753807518564b62",
+          "context": "Tables > Formatting toolbar",
+          "contextHash": "ee9198edab0a129717cbd2f9efc8dbe7963f983830c6af078dfe2d3eb6759d53"
+        },
+        {
+          "id": "u_70adb6051fa862a81ae57577_0",
+          "kind": "li",
+          "source": "Since v0.107.0, __TRILIUM_PH_0__Paste rows above__TRILIUM_PH_1__ and __TRILIUM_PH_2__Paste rows below__TRILIUM_PH_3__, in the __TRILIUM_PH_4__Paste__TRILIUM_PH_5__ submenu, paste the clipboard as new rows next to the row of the current cell, instead of over the cells from the cursor on. They show only when the selection is in a single row, and, like __TRILIUM_PH_6__Paste__TRILIUM_PH_7__, only where the clipboard can be read:",
+          "sourceHash": "70adb6051fa862a81ae575776a87dabc68b1701d2322b4b670f73c06968c72c7",
+          "context": "Tables > Context menu",
+          "contextHash": "0f3c10ac0590f592f083a509728fc9baff6476658a2152db1b623f3cf0262125"
+        },
+        {
+          "id": "u_5745e626db648b69d22c5f14_0",
+          "kind": "li",
+          "source": "To give several columns the same width, select cells across them and choose __TRILIUM_PH_0__Distribute columns evenly__TRILIUM_PH_1__ from the __TRILIUM_PH_2__ button of the formatting toolbar or from the __TRILIUM_PH_3__context menu__TRILIUM_PH_4__.",
+          "sourceHash": "5745e626db648b69d22c5f1433c9ba3750dfbaa752e217e6f739b39bf0f83e5e",
+          "context": "Tables > Resizing cells",
+          "contextHash": "fef6944da57842718cb9b29385c9fd2fb4325098a82ef30ef0e5f986789ad1fc"
+        },
+        {
+          "id": "u_846ab9ae23a20cf17cdf15b9_0",
+          "kind": "p",
+          "source": "On the __TRILIUM_PH_0__Mobile Frontend__TRILIUM_PH_1__, a table keeps the width it has on a desktop and scrolls sideways, instead of squeezing its columns into the width of the screen. The full width of a table is the __TRILIUM_PH_2__Max content width__TRILIUM_PH_3__ set in __TRILIUM_PH_4__Options__TRILIUM_PH_5__ → __TRILIUM_PH_6__Appearance__TRILIUM_PH_7__ → __TRILIUM_PH_8__Content Width__TRILIUM_PH_9__ on the mobile device, 1200 pixels by default. For example, a table set to __TRILIUM_PH_10__ is 600 pixels wide.",
+          "sourceHash": "846ab9ae23a20cf17cdf15b917f57a17ea54dcc34a742c9024d2cc55f67051b9",
+          "context": "Tables > Wide tables > Mobile support",
+          "contextHash": "5374207d1df7e09b3f122692d8338786b87521d9ddad19e130d93756fb6a4828"
+        },
+        {
+          "id": "u_91ee3d15b27441c1ec216806_0",
+          "kind": "p",
+          "source": "To turn rows into header rows, use __TRILIUM_PH_0__Set as header__TRILIUM_PH_1__ in the __TRILIUM_PH_2__context menu__TRILIUM_PH_3__, or __TRILIUM_PH_4__Header row__TRILIUM_PH_5__ in the __TRILIUM_PH_6__ button of the formatting toolbar.",
+          "sourceHash": "91ee3d15b27441c1ec216806079a33518e800a335db6c4765176ae45e9da2a2a",
+          "context": "Tables > Long tables",
+          "contextHash": "2eb7c3d321c54c371c5bc88bb4d43e20c78d7d548866c2e15dd7384d70c3f4b4"
+        },
+        {
+          "id": "u_bf3979edcd068fc744d60c9f_0",
+          "kind": "p",
+          "source": "The border and background colors of tables and cells adapt to the __TRILIUM_PH_0__theme__TRILIUM_PH_1__, the same way as __TRILIUM_PH_2__text colors__TRILIUM_PH_3__ do. A color picked from the palette, chosen with the color picker or typed in is shown in a lighter or darker shade that suits the current theme, so borders stay visible and text stays readable on the background. The hue stays the same, and the table keeps the color as it was picked.",
+          "sourceHash": "bf3979edcd068fc744d60c9f8c8f87c7ec44d2d9ca1ce1a4b8a399002361160f",
+          "context": "Tables > Border and background colors",
+          "contextHash": "f7069bc28acc2656a6634cb76a0f3b9156c79b697e2f2648eebbe5ed4ae57107"
+        },
+        {
+          "id": "u_60e22e53dfcedad77887920f_0",
+          "kind": "p",
+          "source": "Header cells are shaded to suit the current theme. To change their background in every table, set the __TRILIUM_PH_0__ variable in a __TRILIUM_PH_1__custom theme__TRILIUM_PH_2__ or in __TRILIUM_PH_3__custom app-wide CSS__TRILIUM_PH_4__, for example __TRILIUM_PH_5__. A background picked for a cell still takes precedence.",
+          "sourceHash": "60e22e53dfcedad77887920fc81b4c6da62a4b612fc0495b61d16ef8ad16e008",
+          "context": "Tables > Border and background colors",
+          "contextHash": "f7069bc28acc2656a6634cb76a0f3b9156c79b697e2f2648eebbe5ed4ae57107"
+        },
+        {
+          "id": "u_a8e03d48116476613155fefd_0",
+          "kind": "p",
+          "source": "To change the default border of every table, set the __TRILIUM_PH_0__ variable in a __TRILIUM_PH_1__custom theme__TRILIUM_PH_2__ or in __TRILIUM_PH_3__custom app-wide CSS__TRILIUM_PH_4__, for example __TRILIUM_PH_5__. Set it to __TRILIUM_PH_6__ to hide the borders of all the tables that don't have a border of their own.",
+          "sourceHash": "a8e03d48116476613155fefd5a99f45b1d7ae0cf08b247232fdfd31aea2ea083",
+          "context": "Tables > Table borders",
+          "contextHash": "29aebca2de96b86a40999c4e95c89bac47faa2be79cacaaa9e46f7b096a93f55"
+        }
+      ]
+    },
+    {
+      "key": "6f9hih2hXXZk_68a61747343ce2a0",
+      "pageId": "6f9hih2hXXZk",
+      "units": [
+        {
+          "id": "u_3e941d1c3575b1e5dc33de05_0",
+          "kind": "p",
+          "source": "To change the language of a code note, look for the __TRILIUM_PH_0__ icon in the __TRILIUM_PH_1__Status bar__TRILIUM_PH_2__. When clicked it will reveal the list of available languages (which can be customized according to the section below). The menu also features a search bar to quickly filter, and icons to visually distinguish some of the programming languages.",
+          "sourceHash": "3e941d1c3575b1e5dc33de0502d6ada1e6e017846ed23fe9f1c2bc09fe231d3b",
+          "context": "Code > Adjusting the language of a code note",
+          "contextHash": "d513cb54804c743a426daed01b0830dd50dbea1004a2dd54b18135e13a646f83"
+        },
+        {
+          "id": "u_36c42696e8df1294f7ec7e70_0",
+          "kind": "p",
+          "source": "The list of languages is also shared with the __TRILIUM_PH_0__Code blocks__TRILIUM_PH_1__ feature of __TRILIUM_PH_2__Text__TRILIUM_PH_3__ notes.",
+          "sourceHash": "36c42696e8df1294f7ec7e70a64aafe53292f7bc410a8ff5b2b2baff68a47628",
+          "context": "Code > Adjusting the list of languages",
+          "contextHash": "1413c6c6a9bf65b86bf3c7ea8abcd610ba66efc9237db4c6faaf851421d6f66e"
+        },
+        {
+          "id": "u_bfe727450ef58c444be3bbd1_0",
+          "kind": "p",
+          "source": "An included code note or an embedded code file can show or hide them on its own through the __TRILIUM_PH_0__Line numbers__TRILIUM_PH_1__ submenu of its __TRILIUM_PH_2__More actions__TRILIUM_PH_3__ menu, see __TRILIUM_PH_4__Include Note__TRILIUM_PH_5__. Its __TRILIUM_PH_6__Auto__TRILIUM_PH_7__ entry follows the setting.",
+          "sourceHash": "bfe727450ef58c444be3bbd1d620516ed4cf05c5466b9bbfeb99f9805d8fdc8a",
+          "context": "Code > Line numbers",
+          "contextHash": "6223a7de6148abe5d4520b31bd3770f94a72c395bf9b47b2adbb15c13e2fec1f"
+        }
+      ]
+    },
+    {
+      "key": "m523cpzocqaD_f1715957ff2b0a92",
+      "pageId": "m523cpzocqaD",
+      "units": [
+        {
+          "id": "u_f0b873a54c056d2e81371a27_0",
+          "kind": "p",
+          "source": "Once a search is saved, the __TRILIUM_PH_0__Search parameters__TRILIUM_PH_1__ is still available underneath the __TRILIUM_PH_2__Title__TRILIUM_PH_3__ in order to be able to change the settings later on but it will appear collapsed by default.",
+          "sourceHash": "f0b873a54c056d2e81371a2700d008e0b6be067799cc02a7721eecee52f8bc6d",
+          "context": "Saved Search",
+          "contextHash": "9b2b20ae76cce84582e1495ef1ab037fd4ffd93ebfb5a0c20975d9f944fcb06f"
+        }
+      ]
+    },
+    {
+      "key": "iRwzGnHPzonm_07b3cd847ec0e13f",
+      "pageId": "iRwzGnHPzonm",
+      "units": [
+        {
+          "id": "u_606b2bb958e1a59416ed0ae5_0",
+          "kind": "li",
+          "source": "now there's something unexpected - we can also see the relation to display another __TRILIUM_PH_0__ relation. This is because there's a __TRILIUM_PH_1__relation definition__TRILIUM_PH_2__ which puts __TRILIUM_PH_3__ as an \"__TRILIUM_PH_4__inverse__TRILIUM_PH_5__\" relation of __TRILIUM_PH_6__ (and vice versa) and thus it is created automatically.",
+          "sourceHash": "606b2bb958e1a59416ed0ae529ebc895c0c1cfdec74187c6b3a750ed9cfec5ee",
+          "context": "Relation Map > Family demo",
+          "contextHash": "02cf1edf9f59dfd8670245d830f37516eb641886dc7154e88dfd9087fbddcfbb"
+        }
+      ]
+    },
+    {
+      "key": "HcABDtFCkbFN_b902281cbb97207e",
+      "pageId": "HcABDtFCkbFN",
+      "units": [
+        {
+          "id": "u_52860d7bdfb298f9f42f8313_0",
+          "kind": "li",
+          "source": "The __TRILIUM_PH_0__ button in the __TRILIUM_PH_1__Note buttons__TRILIUM_PH_2__ area.",
+          "sourceHash": "52860d7bdfb298f9f42f831343025e33c84e1f7a5260ea594b171992f0f21ab1",
+          "context": "Render Note > Refreshing the note",
+          "contextHash": "a9b6e848b99fabd8f18c9f31adacd63a0c24ac3d5e991697154eebd106171f6d"
+        },
+        {
+          "id": "u_2b4198be2af6ab1c623cd899_0",
+          "kind": "p",
+          "source": "A render note can be printed or exported as PDF from the __TRILIUM_PH_0__Note menu__TRILIUM_PH_1__ once its __TRILIUM_PH_2__ relation is set (see __TRILIUM_PH_3__Printing & Exporting as PDF__TRILIUM_PH_4__). Unlike other notes, it is printed exactly as it is displayed: the script does not run again, so what was typed, selected or loaded in the note is kept.",
+          "sourceHash": "2b4198be2af6ab1c623cd899791a8903dd443e371d6c3e3076c12dcc1ebd5651",
+          "context": "Render Note > Printing",
+          "contextHash": "b833cf4da3010469929aa6a560c7adc3254c331a6a1990ca8154ee84c825b055"
+        },
+        {
+          "id": "u_b4b73208f4a8ee33c2e8941f_0",
+          "kind": "li",
+          "source": "__TRILIUM_PH_0__Weight Tracker__TRILIUM_PH_1__ which is present in the __TRILIUM_PH_2__Demo Notes__TRILIUM_PH_3__.",
+          "sourceHash": "b4b73208f4a8ee33c2e8941f6d8e55796a5e351f213b88ca89dd9c8e19c6ef40",
+          "context": "Render Note > Examples",
+          "contextHash": "1460eeca11e537a13b0658b1ac44ed6d552c5fff28bb85e3e5e998547004d301"
+        }
+      ]
+    },
+    {
+      "key": "s1aBHPd79XYj_d372b4095e1cbf87",
+      "pageId": "s1aBHPd79XYj",
+      "units": [
+        {
+          "id": "u_e3e5ff123bc0192dff3c5e10_0",
+          "kind": "p",
+          "source": "It's possible to switch between the two layouts at any time by pressing the __TRILIUM_PH_0__ icon in the __TRILIUM_PH_1__Note buttons__TRILIUM_PH_2__.",
+          "sourceHash": "e3e5ff123bc0192dff3c5e10a148e55d81ae0ae1d37c2e7bdd31ac9e46d9be61",
+          "context": "Mermaid Diagrams > Layouts",
+          "contextHash": "bea5696c84d689d7d05d0a3e51180fbb03d718570a33852236db59876f9c7b84"
+        },
+        {
+          "id": "u_b50e2f96795af1f34b202875_0",
+          "kind": "p",
+          "source": "To show a diagram inside a __TRILIUM_PH_0__Text__TRILIUM_PH_1__ note instead of in a note of its own, insert one with the __TRILIUM_PH_2__ __TRILIUM_PH_3__Mermaid diagram__TRILIUM_PH_4__ button of the __TRILIUM_PH_5__ __TRILIUM_PH_6__Insert__TRILIUM_PH_7__ menu. It has the same views, zoom and error display as a Mermaid note, and its source stays in the text note as a code block. See __TRILIUM_PH_8__Mermaid diagram__TRILIUM_PH_9__ in __TRILIUM_PH_10__Insert buttons__TRILIUM_PH_11__.",
+          "sourceHash": "b50e2f96795af1f34b20287531c1b36ddf8b6d695aef06afb0374255603aed73",
+          "context": "Mermaid Diagrams > Diagrams in a text note",
+          "contextHash": "d4be8b16d61fdb09fbd52a80f0b028807ff673504053d8b2c3e0a78e083643ec"
+        }
+      ]
+    },
+    {
+      "key": "grjYqerjn243_eb9411dd5222d851",
+      "pageId": "grjYqerjn243",
+      "units": [
+        {
+          "id": "u_51674924947de2727249d0aa_0",
+          "kind": "li",
+          "source": "The note can be togged __TRILIUM_PH_0__read-only__TRILIUM_PH_1__ from the __TRILIUM_PH_2__Note menu__TRILIUM_PH_3__.",
+          "sourceHash": "51674924947de2727249d0aa1cbf38314805822c26bb5806d53f2df5b8e585d7",
+          "context": "Canvas > Interaction",
+          "contextHash": "a363574d2ea3af791ad60c6eda9fd6c19c5bf7d66d6cdadda0570477b1821866"
+        },
+        {
+          "id": "u_ddb6ae495450ad1ce978b4e9_0",
+          "kind": "p",
+          "source": "The pen draws at half the __TRILIUM_PH_0__Stroke width__TRILIUM_PH_1__ picked in the properties panel, which suits handwriting. To draw at the full width instead, turn off __TRILIUM_PH_2__Thin pen stroke__TRILIUM_PH_3__ in __TRILIUM_PH_4__Options__TRILIUM_PH_5__ → __TRILIUM_PH_6__Other__TRILIUM_PH_7__. Strokes already drawn keep their width.",
+          "sourceHash": "ddb6ae495450ad1ce978b4e92d39fba2ebb4af4db03020729b870d453690cc6a",
+          "context": "Canvas > Pen width",
+          "contextHash": "4845c6bb8eaca250a4a10b23b374a184ae8fed352562ac7a9a432a5b07e50f1c"
+        },
+        {
+          "id": "u_47717f581e80cff9c0578b1f_0",
+          "kind": "p",
+          "source": "Since v0.104.0, Canvas supports embedding notes in a similar fashion to the __TRILIUM_PH_0__Include Note__TRILIUM_PH_1__ functionality for __TRILIUM_PH_2__Text__TRILIUM_PH_3__ notes.",
+          "sourceHash": "47717f581e80cff9c0578b1ffe096ef0b95013111af6485c73aafaaf148ade29",
+          "context": "Canvas > Embedding notes",
+          "contextHash": "5a4718a8aeb2dc23cdedb8cb3dd21d6460024e62917c4c130b7805875d090431"
+        },
+        {
+          "id": "u_6dd42ff955ca4ccfffe38400_0",
+          "kind": "p",
+          "source": "Embedding notes in the canvas follows the same rules as __TRILIUM_PH_0__Include Note__TRILIUM_PH_1__: some notes are rendered as images (e.g. __TRILIUM_PH_2__Mind Map__TRILIUM_PH_3__), whereas some render fully interactive such as __TRILIUM_PH_4__Collections__TRILIUM_PH_5__.",
+          "sourceHash": "6dd42ff955ca4ccfffe38400071061fc4237513f9917012789848bb42c950581",
+          "context": "Canvas > Embedding notes",
+          "contextHash": "5a4718a8aeb2dc23cdedb8cb3dd21d6460024e62917c4c130b7805875d090431"
+        },
+        {
+          "id": "u_f5ce1f6cd4d8f9daf1231044_0",
+          "kind": "li",
+          "source": "A __TRILIUM_PH_0__ icon will appear at the top-right of the element which will navigate to the linked note when clicked.",
+          "sourceHash": "f5ce1f6cd4d8f9daf12310443d064387c761f609ba05515db86e9cd74ed393d7",
+          "context": "Canvas > Linking to a note",
+          "contextHash": "9f09c1f78c932343c3736a1493b35159bc9c71ce025bd63dabe31b4afbc7f35e"
+        },
+        {
+          "id": "u_dfa13da9a165fca503df1945_0",
+          "kind": "p",
+          "source": "To draw inside a __TRILIUM_PH_0__Text__TRILIUM_PH_1__ note instead of in a note of its own, insert a drawing canvas with __TRILIUM_PH_2____TRILIUM_PH_3__Drawing canvas__TRILIUM_PH_4__ in the __TRILIUM_PH_5____TRILIUM_PH_6__Insert__TRILIUM_PH_7__ menu. See __TRILIUM_PH_8__Drawing canvases__TRILIUM_PH_9__ in __TRILIUM_PH_10__Include Note__TRILIUM_PH_11__.",
+          "sourceHash": "dfa13da9a165fca503df1945bf41f96b2bcaa56743ebe238063d0e3c14074287",
+          "context": "Canvas > Drawing in a text note",
+          "contextHash": "5a0cea5f7477e3c5d624bccc926fa7e2ffe491db4d7d309c7b914ee99e450929"
+        }
+      ]
+    },
+    {
+      "key": "1vHRoWCEjj0L_a28d4026f13bcab0",
+      "pageId": "1vHRoWCEjj0L",
+      "units": [
+        {
+          "id": "u_76e8c5953c8dde1f51af31b5_0",
+          "kind": "li",
+          "source": "__TRILIUM_PH_0__Text__TRILIUM_PH_1__ notes via __TRILIUM_PH_2__Include Note__TRILIUM_PH_3__.",
+          "sourceHash": "76e8c5953c8dde1f51af31b5ebf2d97301effc0d99e63cf8f8793fb8521b8fda",
+          "context": "Web View > Embedding in other note types",
+          "contextHash": "64c9315107f63ed1cd802fb1d2a66972a1cbae150bb35bc554b279984c40f4e5"
+        }
+      ]
+    },
+    {
+      "key": "gBbsAeiuUxI5_e139b6f0d2658532",
+      "pageId": "gBbsAeiuUxI5",
+      "units": [
+        {
+          "id": "u_433d9383c3a05a49590277e5_0",
+          "kind": "li",
+          "source": "In the __TRILIUM_PH_0__Note buttons__TRILIUM_PH_1__ area, an __TRILIUM_PH_2__image reference__TRILIUM_PH_3__ can be copied by pressing the __TRILIUM_PH_4__ button, to paste the mind map in a text note.",
+          "sourceHash": "433d9383c3a05a49590277e56854a2f7951c417da5ff3c80dad48461a2dd99ee",
+          "context": "Mind Map > Interaction",
+          "contextHash": "6e60138b9307c8d0a1f7214b0872f662a418c5650f25adef219e8265a93ae635"
+        }
+      ]
+    },
+    {
+      "key": "XJGJrpu7F9sh_7f5d70f0d75900d4",
+      "pageId": "XJGJrpu7F9sh",
+      "units": [
+        {
+          "id": "u_90672abf623492d2f22b61cf_0",
+          "kind": "li",
+          "source": "To link to a page, right-click the page in the __TRILIUM_PH_0__Pages__TRILIUM_PH_1__ section of the __TRILIUM_PH_2__Right Sidebar__TRILIUM_PH_3__ and select __TRILIUM_PH_4__Copy reference__TRILIUM_PH_5__.",
+          "sourceHash": "90672abf623492d2f22b61cf4724c1c45f7750855a5faf9f6af126533358dc9f",
+          "context": "PDFs > Linking to a page or an annotation",
+          "contextHash": "308af638a08c2dc4f987ef291e0caf80485d595bed6ad2dea420c59c7fa8da25"
+        }
+      ]
+    },
+    {
+      "key": "KG48zgNY31NW_6c6843e5390b5060",
+      "pageId": "KG48zgNY31NW",
+      "units": [
+        {
+          "id": "u_39b8e243204f65b1b1e7f3af_0",
+          "kind": "li",
+          "source": "The same preview is used when an office document is displayed in the __TRILIUM_PH_0__Note List__TRILIUM_PH_1__ or embedded in a text note via __TRILIUM_PH_2__Include Note__TRILIUM_PH_3__, as well as for office documents stored as __TRILIUM_PH_4__Attachments__TRILIUM_PH_5__.",
+          "sourceHash": "39b8e243204f65b1b1e7f3af089ed929c5f8a6bf321fd0156328823b1712c334",
+          "context": "Office documents > Relation with other features",
+          "contextHash": "bfa77ece066590f79cc412962027835c94f3d5bc9863efbb78966c37484976d4"
+        },
+        {
+          "id": "u_bd3fc21bd1a23a7f16fcadbb_0",
+          "kind": "li",
+          "source": "Independently of the preview, the text content of office documents is also extracted in the background so that it can be found with __TRILIUM_PH_0__Search__TRILIUM_PH_1__ via __TRILIUM_PH_2__Text Extraction (OCR)__TRILIUM_PH_3__.",
+          "sourceHash": "bd3fc21bd1a23a7f16fcadbb6a8c8cdb2c2f624db0d0a25af372a11528d52ad7",
+          "context": "Office documents > Relation with other features",
+          "contextHash": "bfa77ece066590f79cc412962027835c94f3d5bc9863efbb78966c37484976d4"
+        },
+        {
+          "id": "u_c02b296cf4e5049e18e26da9_0",
+          "kind": "li",
+          "source": "__TRILIUM_PH_0__ and __TRILIUM_PH_1__ files can be converted to __TRILIUM_PH_2__Spreadsheets__TRILIUM_PH_3__ via the __TRILIUM_PH_4__import__TRILIUM_PH_5__ function.",
+          "sourceHash": "c02b296cf4e5049e18e26da9d21a61dc58cea6b419cf8fe486962839281a7e75",
+          "context": "Office documents > Relation with other features",
+          "contextHash": "bfa77ece066590f79cc412962027835c94f3d5bc9863efbb78966c37484976d4"
+        }
+      ]
+    },
+    {
+      "key": "W8vYD3Q1zjCR_9fa55b2753956daa",
+      "pageId": "W8vYD3Q1zjCR",
+      "units": [
+        {
+          "id": "u_d1720a03f2c42b0df04a6f90_0",
+          "kind": "li",
+          "source": "An __TRILIUM_PH_0__image reference__TRILIUM_PH_1__ can be copied by pressing the __TRILIUM_PH_2__ icon from the __TRILIUM_PH_3__Note buttons__TRILIUM_PH_4__ area, which allows pasting it in a __TRILIUM_PH_5__Text__TRILIUM_PH_6__ note.",
+          "sourceHash": "d1720a03f2c42b0df04a6f903db13eaeaeff28f446443a85803674ca7539acab",
+          "context": "File > Office documents > Images",
+          "contextHash": "cc50228b48724d7157af3fd58be1d4109a7d7582b161b6972b1a41bc8ce5e31d"
+        },
+        {
+          "id": "u_f8c012c9873d643cc5957f74_0",
+          "kind": "li",
+          "source": "It is __TRILIUM_PH_0__not__TRILIUM_PH_1__ possible to change the note type of a __TRILIUM_PH_2__File__TRILIUM_PH_3__ note.",
+          "sourceHash": "f8c012c9873d643cc5957f747eea9ff3d17e548409208450bec2b5ac135ddb76",
+          "context": "File > Interaction",
+          "contextHash": "4a1d38d4a184687ea0a09bb3d1c732fc0fc93304d78d4ae175f7ecac4ba01ac8"
+        },
+        {
+          "id": "u_bb48d6ecf03b0025acc6dff8_0",
+          "kind": "li",
+          "source": "Convert into an __TRILIUM_PH_0__attachment__TRILIUM_PH_1__ from the __TRILIUM_PH_2__note menu__TRILIUM_PH_3__.",
+          "sourceHash": "bb48d6ecf03b0025acc6dff85313587706c38e2458b89a82caab375725547560",
+          "context": "File > Interaction",
+          "contextHash": "4a1d38d4a184687ea0a09bb3d1c732fc0fc93304d78d4ae175f7ecac4ba01ac8"
+        },
+        {
+          "id": "u_775f3e57ea58c50d0b3a8060_0",
+          "kind": "p",
+          "source": "An individual file cannot be bigger than 374 MiB. For more information see __TRILIUM_PH_0__Maximum import size__TRILIUM_PH_1__ in __TRILIUM_PH_2__Import & Export__TRILIUM_PH_3__.",
+          "sourceHash": "775f3e57ea58c50d0b3a8060fad9224007bbc13ab908a4e286a986508c0227d6",
+          "context": "File > File size limit",
+          "contextHash": "ea294807c76316c9c74a8d0dedd39008b8bbb9ce0dc5f6bd32a4b965b2b939a4"
+        }
+      ]
+    },
+    {
+      "key": "6RM1Q7ppFVoj_9d6f7d37dfb99c23",
+      "pageId": "6RM1Q7ppFVoj",
+      "units": [
+        {
+          "id": "u_d2714ada89b513efab6de80f_0",
+          "kind": "li",
+          "source": "Nested syntax highlighting for code inside code blocks, including __TRILIUM_PH_0__Mermaid Diagrams__TRILIUM_PH_1__ in __TRILIUM_PH_2__ blocks.",
+          "sourceHash": "d2714ada89b513efab6de80fca69b9355ae47d7d9c19ded4a1bc75f13b220ee0",
+          "context": "Markdown > Features > Source view pane",
+          "contextHash": "61767916234d2a9accbb8239c8b0879d918898802a788e54a5d4fe839d12f28e"
+        },
+        {
+          "id": "u_bc766d8161524cf901657783_0",
+          "kind": "li",
+          "source": "Code blocks will respect the text wrapping from the __TRILIUM_PH_0__Text__TRILIUM_PH_1__ section in __TRILIUM_PH_2__Options__TRILIUM_PH_3__.",
+          "sourceHash": "bc766d8161524cf901657783aa64ac628df319c7692688cc97ed282ca655f132",
+          "context": "Markdown > Features > Preview pane",
+          "contextHash": "4c898ca0f4dc2274f7e5757c04c38dd6bf79939590f21591ff5f54cb5c4fbea4"
+        },
+        {
+          "id": "u_0d65cea3f08b702e499f8a92_0",
+          "kind": "p",
+          "source": "__TRILIUM_PH_0__Mermaid Diagrams__TRILIUM_PH_1__ using __TRILIUM_PH_2__",
+          "sourceHash": "0d65cea3f08b702e499f8a92e976e6c6c9e2e22761630457cc6679988b460c57",
+          "context": "Markdown > Features > Preview pane",
+          "contextHash": "4c898ca0f4dc2274f7e5757c04c38dd6bf79939590f21591ff5f54cb5c4fbea4"
+        },
+        {
+          "id": "u_10001a630e79b8a226a3bd4f_0",
+          "kind": "p",
+          "source": "__TRILIUM_PH_0__Internal (reference) links__TRILIUM_PH_1__ via its HTML syntax, or through a __TRILIUM_PH_2__Wikilinks__TRILIUM_PH_3__-like format (only __TRILIUM_PH_4__Note ID__TRILIUM_PH_5__):",
+          "sourceHash": "10001a630e79b8a226a3bd4ffa3d0b6b20009a2c50ca1fe038d0bfa863fbe0f9",
+          "context": "Markdown > Features > Preview pane",
+          "contextHash": "4c898ca0f4dc2274f7e5757c04c38dd6bf79939590f21591ff5f54cb5c4fbea4"
+        },
+        {
+          "id": "u_2ad269b4c38eeafcce82ed96_0",
+          "kind": "p",
+          "source": "__TRILIUM_PH_0__Reference link__TRILIUM_PH_1__ to other notes with dynamic title, either by manually entering the note ID or via the __TRILIUM_PH_2__Add link__TRILIUM_PH_3__ dialog:",
+          "sourceHash": "2ad269b4c38eeafcce82ed96e3fb5fdeb7e4c146743edcd4d0b4fb6a7a30701b",
+          "context": "Markdown > Features > Links",
+          "contextHash": "99b6e938c29a4795f6a36788522e2a02cc6d0a914da76e463eef3e27ec28dcb0"
+        },
+        {
+          "id": "u_8dfde17fb14519bc9cf3755b_0",
+          "kind": "li",
+          "source": "Use the __TRILIUM_PH_0__Add link__TRILIUM_PH_1__ dialog by pressing __TRILIUM_PH_2__Ctrl__TRILIUM_PH_3__+__TRILIUM_PH_4__L__TRILIUM_PH_5__ or typing the __TRILIUM_PH_6__ command.",
+          "sourceHash": "8dfde17fb14519bc9cf3755bdbd165bd83674ccc9ee8e71777b2fd3c05a18d3d",
+          "context": "Markdown > Features > Links",
+          "contextHash": "99b6e938c29a4795f6a36788522e2a02cc6d0a914da76e463eef3e27ec28dcb0"
+        },
+        {
+          "id": "u_cd3210f583bd3ebfe04fc1c9_0",
+          "kind": "p",
+          "source": "The list of languages matches the one for __TRILIUM_PH_0__Code__TRILIUM_PH_1__ notes set in __TRILIUM_PH_2__Options__TRILIUM_PH_3__, it's not the full list of languages supported by Trilium.",
+          "sourceHash": "cd3210f583bd3ebfe04fc1c93b389c74d797d7743117f60f7381032ec932060c",
+          "context": "Markdown > Features > Auto-completion > Code block language auto-completion",
+          "contextHash": "65abee77cc14c436e7005735679dd3b65422fbaf3a105d5064c90a46cf295ea8"
+        },
+        {
+          "id": "u_c1db3ec491d8c847243752fc_0",
+          "kind": "li",
+          "source": "A Markdown note included in a __TRILIUM_PH_0__Text__TRILIUM_PH_1__ note shows its source, its preview or both, and can be edited in place. See __TRILIUM_PH_2__Included Markdown__TRILIUM_PH_3__ in __TRILIUM_PH_4__Include Note__TRILIUM_PH_5__.",
+          "sourceHash": "c1db3ec491d8c847243752fc32365d86b10901ac9ca64ac9158611f61ae57ac9",
+          "context": "Markdown > Features > Other features",
+          "contextHash": "b5d4a1238931f01d899c9c94bf446df35554ffcb236220dc7c820b0ea7527e58"
+        }
+      ]
+    },
+    {
+      "key": "xWbu3jpNWapp_3a3aba33a7bb5970",
+      "pageId": "xWbu3jpNWapp",
+      "units": [
+        {
+          "id": "u_5d05915786929ca12ea325ad_0",
+          "kind": "p",
+          "source": "The same settings are also listed under __TRILIUM_PH_0__General__TRILIUM_PH_1__ in the __TRILIUM_PH_2__ __TRILIUM_PH_3__Calendar properties__TRILIUM_PH_4__ dialog (see __TRILIUM_PH_5__Event templates__TRILIUM_PH_6__ for how to open it). The time slots are listed there whichever view the calendar is in. Its __TRILIUM_PH_7__Included notes__TRILIUM_PH_8__ section sets whether archived notes are shown and how deep the calendar looks for events (see __TRILIUM_PH_9__Limiting the depth__TRILIUM_PH_10__).",
+          "sourceHash": "5d05915786929ca12ea325ad16f1d7239f81525bf4bf997f5f0c4817dc6d7d8d",
+          "context": "Calendar > Configuring the calendar view",
+          "contextHash": "6f169e0f478e6d9e0c9556d8a3eeb36a564c6e89e9152dbadee5b070062addb9"
+        },
+        {
+          "id": "u_8639c3b5edaae0c38e97a8c8_0",
+          "kind": "p",
+          "source": "By default, a new event is a __TRILIUM_PH_0__Text__TRILIUM_PH_1__ note. To make events from other note types, or from __TRILIUM_PH_2__Templates__TRILIUM_PH_3__ with predefined content and attributes (such as a color), open the __TRILIUM_PH_4__ __TRILIUM_PH_5__Calendar properties__TRILIUM_PH_6__ dialog from the __TRILIUM_PH_7__Note menu__TRILIUM_PH_8__ or from the settings menu of the __TRILIUM_PH_9__Collection Properties__TRILIUM_PH_10__, and find __TRILIUM_PH_11__Event templates__TRILIUM_PH_12__. Here you can:",
+          "sourceHash": "8639c3b5edaae0c38e97a8c8355dfb77017492ddb262106c8cff9441f09efeb9",
+          "context": "Calendar > Configuring the calendar view > Event templates",
+          "contextHash": "b070b09e03727a05164e18089f16886c0aeea47c5bf90e05b1db1a4205fb5428"
+        },
+        {
+          "id": "u_510f4c2a39f752bf6d6863fb_0",
+          "kind": "td",
+          "source": "This is an optional CalDAV __TRILIUM_PH_0__ string that if present, determines whether a task should repeat or not. Note that it does not include the __TRILIUM_PH_1__ attribute, which is derived from the __TRILIUM_PH_2__ and __TRILIUM_PH_3__ directly. For examples of valid __TRILIUM_PH_4__ strings see __TRILIUM_PH_5__https://icalendar.org/rrule-tool.html__TRILIUM_PH_6__",
+          "sourceHash": "510f4c2a39f752bf6d6863fbd03707d513461c9c1f59c2d7f26c241aaece2c14",
+          "context": "Calendar > Configuring the calendar events using attributes",
+          "contextHash": "7dd5f06fbab17c228c1cb5fb81be133f175c13f43b1856f40e9d3363e9252502"
+        },
+        {
+          "id": "u_d2049e7903df5c36f58311f8_0",
+          "kind": "td",
+          "source": "Allows using a different label to represent the start date, other than __TRILIUM_PH_0__ (e.g. __TRILIUM_PH_1__). The label name __TRILIUM_PH_2__must not be__TRILIUM_PH_3__ prefixed with __TRILIUM_PH_4__. If the label is not defined for a note, the default will be used instead.",
+          "sourceHash": "d2049e7903df5c36f58311f8d88c242ad8490f13027926c5adbc75d73d377ffb",
+          "context": "Calendar > Configuring the calendar events using attributes",
+          "contextHash": "7dd5f06fbab17c228c1cb5fb81be133f175c13f43b1856f40e9d3363e9252502"
+        },
+        {
+          "id": "u_07c8f31510824f04d7a080ac_0",
+          "kind": "p",
+          "source": "A text note with a start date is shown with the __TRILIUM_PH_0__ icon in the note tree and elsewhere, unless it has an icon of its own (set with __TRILIUM_PH_1__). The start date is read from the label __TRILIUM_PH_2__ names, if any.",
+          "sourceHash": "07c8f31510824f04d7a080acd34188db29c048810abd6899ac5fb9680f37420f",
+          "context": "Calendar > How the calendar works",
+          "contextHash": "e697b7bb466d2cdd935a2fa41fea0877391fd47914e410cf4bf7dd43fd7b48c3"
+        },
+        {
+          "id": "u_333ca1ca3cfc4aa16026a4ae_0",
+          "kind": "p",
+          "source": "To limit how deep the calendar looks for events, set __TRILIUM_PH_0__Maximum nesting depth__TRILIUM_PH_1__ under __TRILIUM_PH_2__Included notes__TRILIUM_PH_3__ in the __TRILIUM_PH_4____TRILIUM_PH_5__Calendar properties__TRILIUM_PH_6__ dialog (see __TRILIUM_PH_7__Event templates__TRILIUM_PH_8__ for how to open it), or the __TRILIUM_PH_9__ label: __TRILIUM_PH_10__ shows only the child notes, __TRILIUM_PH_11__ adds their children, and so on. Without a value, events are looked for at every level. The setting doesn't apply in a Journal.",
+          "sourceHash": "333ca1ca3cfc4aa16026a4ae5b3c6aca8304bcbd329f08cc3ddd9ea0f5364107",
+          "context": "Calendar > How the calendar works > Limiting the depth",
+          "contextHash": "53e788b1410d48b5590b532ae0d20710895021c36a1e2324acd541c21244bf5a"
+        },
+        {
+          "id": "u_5729c4e04383ac0888ad9802_0",
+          "kind": "p",
+          "source": "Events that repeat on most days of the week, such as sleep or working hours, fill every cell of the month view. To hide them from the views that show many days at once, check __TRILIUM_PH_0__Hide routine events__TRILIUM_PH_1__ in the __TRILIUM_PH_2__Collection Properties__TRILIUM_PH_3__ (or set __TRILIUM_PH_4__).",
+          "sourceHash": "5729c4e04383ac0888ad9802c8e4c108f976f2f5b6ae16a462239f1bda31f225",
+          "context": "Calendar > Recurrence > Hiding routine events",
+          "contextHash": "2d2164baefa420d6aab9113185b3720bd553ee5a88383624f275da6af61b927b"
+        },
+        {
+          "id": "u_366866d12d4585f987d658ed_0",
+          "kind": "li",
+          "source": "The calendar events are now rendered based on their __TRILIUM_PH_0__ attribute rather than __TRILIUM_PH_1__.",
+          "sourceHash": "366866d12d4585f987d658ed1d00123a87d39cb7984c5f9a8ff160b48cd2a4f2",
+          "context": "Calendar > Use-cases > Using with the Journal / calendar",
+          "contextHash": "d3737d0e7181fd2388e8b1f80314efb5f55f06c3e87b9f75a5e0732912acf076"
+        }
+      ]
+    },
+    {
+      "key": "2FvYrpmOXm29_c46154548aa184f6",
+      "pageId": "2FvYrpmOXm29",
+      "units": [
+        {
+          "id": "u_77916930d0039fda39d5c454_0",
+          "kind": "li",
+          "source": "Right click on the empty space of the column header and select __TRILIUM_PH_0__Label__TRILIUM_PH_1__ or __TRILIUM_PH_2__Relation__TRILIUM_PH_3__ in the __TRILIUM_PH_4__New column__TRILIUM_PH_5__ section.",
+          "sourceHash": "77916930d0039fda39d5c454d27c2e1c7d109df9cca9b8db3d975fc8ffee3766",
+          "context": "Table > Interaction > Adding columns",
+          "contextHash": "7cd5aab28eb275cfa8419d4530317e9370435f7fe4e9766d3528ce9a2d003735"
+        },
+        {
+          "id": "u_09d3b6598cda3ea90fd5d39e_0",
+          "kind": "p",
+          "source": "Since nesting is not always desirable, it is possible to limit the nesting to a certain number of levels or even disable it completely. To do so, go to __TRILIUM_PH_0__Note menu__TRILIUM_PH_1__ → __TRILIUM_PH_2__Table properties__TRILIUM_PH_3__ and set __TRILIUM_PH_4__Maximum nesting depth__TRILIUM_PH_5__ (under the __TRILIUM_PH_6__Included notes__TRILIUM_PH_7__ section), or set the __TRILIUM_PH_8__ __TRILIUM_PH_9__label__TRILIUM_PH_10__ of the collection:",
+          "sourceHash": "09d3b6598cda3ea90fd5d39e771992d1d1beacc1a3d62b92ea76c560bb3bd324",
+          "context": "Table > Working with the data > Nested trees",
+          "contextHash": "74c9cee9dd307db99495f41885ef98182e23a6a8d122c28354b484578fbdb56d"
+        },
+        {
+          "id": "u_6dc895da72c4e6883aad3370_0",
+          "kind": "p",
+          "source": "The table view can be used in a __TRILIUM_PH_0__Saved Search__TRILIUM_PH_1__ by adding the __TRILIUM_PH_2__ attribute.",
+          "sourceHash": "6dc895da72c4e6883aad3370173840b02302521d1814de15e9b9a5f450d025be",
+          "context": "Table > Use in search",
+          "contextHash": "493804b60eb237253154eb3fdef7f2dd0995fbc7eba9c05b886d6b54cb6982d0"
+        },
+        {
+          "id": "u_f8aa95b606833263cd90074b_0",
+          "kind": "p",
+          "source": "Columns are supported, by being defined as __TRILIUM_PH_0__Promoted Attributes__TRILIUM_PH_1__ to the __TRILIUM_PH_2__Saved Search__TRILIUM_PH_3__ note.",
+          "sourceHash": "f8aa95b606833263cd90074bad05bcb352964acd0664fa32be5647040086f4a3",
+          "context": "Table > Use in search",
+          "contextHash": "493804b60eb237253154eb3fdef7f2dd0995fbc7eba9c05b886d6b54cb6982d0"
+        }
+      ]
+    },
+    {
+      "key": "CtBQqbwXDx1w_0b7de20df857ab04",
+      "pageId": "CtBQqbwXDx1w",
+      "units": [
+        {
+          "id": "u_6e565f405d2b3c145e8468d8_0",
+          "kind": "p",
+          "source": "To limit how deep the board looks, go to __TRILIUM_PH_0__Note menu__TRILIUM_PH_1__ → __TRILIUM_PH_2__Board properties__TRILIUM_PH_3__ and set __TRILIUM_PH_4__Maximum nesting depth__TRILIUM_PH_5__ (under the __TRILIUM_PH_6__Included notes__TRILIUM_PH_7__ section), or apply the __TRILIUM_PH_8__ label to the board note: __TRILIUM_PH_9__ shows only the children, __TRILIUM_PH_10__ adds their children, and so on. Without a value, every level is shown.",
+          "sourceHash": "6e565f405d2b3c145e8468d8e71ffb66efc21a9ef13ae8d71f6cc2325c283431",
+          "context": "Kanban Board > How it works",
+          "contextHash": "49fc93c857a68b6e59937547e054942602d25f69bf9e2cae349ab080108723d8"
+        }
+      ]
+    }
+  ]
+}
