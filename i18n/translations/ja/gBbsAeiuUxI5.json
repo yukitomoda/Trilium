@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "pageId": "gBbsAeiuUxI5",
   "sourceFile": "docs/User Guide/User Guide/Note Types/Mind Map.md",
-  "sourceRevision": "3c96e23e41b9c687d38f641f019decd8af1ae892",
+  "sourceRevision": "731bcf5b4e44f089698184c26f6a7b6e26f8af54",
   "units": [
     {
       "id": "u_4ca2859c95a38c1375593315_0",
@@ -266,8 +266,15 @@
       "sourceHash": "433d9383c3a05a49590277e56854a2f7951c417da5ff3c80dad48461a2dd99ee",
       "context": "Mind Map > Interaction",
       "contextHash": "6e60138b9307c8d0a1f7214b0872f662a418c5650f25adef219e8265a93ae635",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "__TRILIUM_PH_0__ノートボタン__TRILIUM_PH_1__エリアでは、__TRILIUM_PH_2__画像参照__TRILIUM_PH_3__を__TRILIUM_PH_4__ボタンを押してコピーし、テキストノートにマインドマップを貼り付けることができます。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-15T05:28:10.674Z"
     },
     {
       "id": "u_eeacd5022a7bc606ce84bf74_0",
@@ -346,6 +353,25 @@
       "model": "gemini-3.5-flash-lite",
       "batchJob": "batches/8vehrrvdpag09tp4gjf9dbgj006t9k2gkkyl",
       "requestKey": "gBbsAeiuUxI5_ea50b513a3e97c5c"
+    },
+    {
+      "at": "2026-11-15T05:28:10.674Z",
+      "model": "gemini-3.5-flash-lite",
+      "batchJob": "batches/y1m7dv6ztg8px3tnf6u9hmq3c20sg5fvpix0",
+      "requestKey": "gBbsAeiuUxI5_e139b6f0d2658532",
+      "modelVersion": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 437,
+        "candidatesTokenCount": 147,
+        "totalTokenCount": 584,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 437
+          }
+        ],
+        "serviceTier": "standard"
+      }
     }
   ]
 }

@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "pageId": "1vHRoWCEjj0L",
   "sourceFile": "docs/User Guide/User Guide/Note Types/Web View.md",
-  "sourceRevision": "3c96e23e41b9c687d38f641f019decd8af1ae892",
+  "sourceRevision": "731bcf5b4e44f089698184c26f6a7b6e26f8af54",
   "units": [
     {
       "id": "u_5795ed642972fa0f83b4d720_0",
@@ -266,8 +266,15 @@
       "sourceHash": "76e8c5953c8dde1f51af31b5ebf2d97301effc0d99e63cf8f8793fb8521b8fda",
       "context": "Web View > Embedding in other note types",
       "contextHash": "64c9315107f63ed1cd802fb1d2a66972a1cbae150bb35bc554b279984c40f4e5",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "__TRILIUM_PH_0__Text__TRILIUM_PH_1__ ノートを __TRILIUM_PH_2__Include Note__TRILIUM_PH_3__ 経由で埋め込みます。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-15T05:28:10.674Z"
     }
   ],
   "requests": [
@@ -276,6 +283,25 @@
       "model": "gemini-3.5-flash-lite",
       "batchJob": "batches/8vehrrvdpag09tp4gjf9dbgj006t9k2gkkyl",
       "requestKey": "1vHRoWCEjj0L_f0dfd5ddef40e50a"
+    },
+    {
+      "at": "2026-11-15T05:28:10.674Z",
+      "model": "gemini-3.5-flash-lite",
+      "batchJob": "batches/y1m7dv6ztg8px3tnf6u9hmq3c20sg5fvpix0",
+      "requestKey": "1vHRoWCEjj0L_a28d4026f13bcab0",
+      "modelVersion": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 404,
+        "candidatesTokenCount": 124,
+        "totalTokenCount": 528,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 404
+          }
+        ],
+        "serviceTier": "standard"
+      }
     }
   ]
 }

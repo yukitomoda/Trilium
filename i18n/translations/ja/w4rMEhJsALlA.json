@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "pageId": "w4rMEhJsALlA",
   "sourceFile": "docs/User Guide/User Guide/Basic Concepts and Features/Themes/Personalizing the font.md",
-  "sourceRevision": "3c96e23e41b9c687d38f641f019decd8af1ae892",
+  "sourceRevision": "731bcf5b4e44f089698184c26f6a7b6e26f8af54",
   "units": [
     {
       "id": "u_05f3f89a1d6300d38cc1be7f_0",
@@ -249,8 +249,15 @@
       "sourceHash": "c6eaaf7d2a62d9865ed481c11755dacad5ca9ec341b8728cab466f75ec9c9efa",
       "context": "Personalizing the font > Using different fonts",
       "contextHash": "126e526ddf25c395bb3c4be4b85d9555c88339322b74051c7702ca626d4badcb",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "__TRILIUM_PH_0__Web fonts__TRILIUM_PH_1__ は __TRILIUM_PH_2__Server Installation__TRILIUM_PH_3__ に表示され、フォントの事前定義されたリストであり、サンセリフ、セリフ、等幅、手書き風にグループ化されています。システムでサポートされていない（つまりインストールされていない）フォントは表示されません。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-15T05:28:10.674Z"
     },
     {
       "id": "u_ca22792202ea42baea6078b3_0",
@@ -259,8 +266,15 @@
       "sourceHash": "ca22792202ea42baea6078b32085c23e11c3d1b44edcf8f427a8438e2ed627cb",
       "context": "Personalizing the font > Using different fonts",
       "contextHash": "126e526ddf25c395bb3c4be4b85d9555c88339322b74051c7702ca626d4badcb",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "__TRILIUM_PH_0__System fonts__TRILIUM_PH_1__ は __TRILIUM_PH_2__Desktop Installation__TRILIUM_PH_3__ に表示されます。サーバーフォントが事前定義されているのとは異なり、システムフォントはお使いのオペレーティングシステムから一覧表示されます。インストールされている一部のフォント（__TRILIUM_PH_4__GNU Unifont__TRILIUM_PH_5__ のビットマップ版など）はテキストを表示できず、このようなフォントはリスト内で空白になり、選択すると適用されずにエラーが表示されます。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-15T05:28:10.674Z"
     },
     {
       "id": "u_2a0dc899395c08e5f725487c_0",
@@ -773,6 +787,25 @@
           {
             "modality": "TEXT",
             "tokenCount": 1008
+          }
+        ],
+        "serviceTier": "standard"
+      }
+    },
+    {
+      "at": "2026-11-15T05:28:10.674Z",
+      "model": "gemini-3.5-flash-lite",
+      "batchJob": "batches/y1m7dv6ztg8px3tnf6u9hmq3c20sg5fvpix0",
+      "requestKey": "w4rMEhJsALlA_86251dde638cf31e",
+      "modelVersion": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 755,
+        "candidatesTokenCount": 464,
+        "totalTokenCount": 1219,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 755
           }
         ],
         "serviceTier": "standard"

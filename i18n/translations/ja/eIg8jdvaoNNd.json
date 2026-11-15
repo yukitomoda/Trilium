@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "pageId": "eIg8jdvaoNNd",
   "sourceFile": "docs/User Guide/User Guide/Basic Concepts and Features/Navigation/Search.md",
-  "sourceRevision": "3c96e23e41b9c687d38f641f019decd8af1ae892",
+  "sourceRevision": "731bcf5b4e44f089698184c26f6a7b6e26f8af54",
   "units": [
     {
       "id": "u_ff085f7a20503765797dbbe2_0",
@@ -266,8 +266,15 @@
       "sourceHash": "f3a3dc607089f70985fa0e0544edc3174f11334affcded83114a28fa73077b64",
       "context": "Search > Accessing the search",
       "contextHash": "1b3a7feb7c4996fa233022919f2c27315e30499f5ec84e4dfb30ea40940b0bfa",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "特定のノートとその子ノートに検索を限定するには、__TRILIUM_PH_0__サブツリー内を検索__TRILIUM_PH_1__ (__TRILIUM_PH_2__) を __TRILIUM_PH_3__ノートツリーのコンテキストメニュー__TRILIUM_PH_4__から選択するか、__TRILIUM_PH_5__Ctrl__TRILIUM_PH_6__+__TRILIUM_PH_7__Shift__TRILIUM_PH_8__+__TRILIUM_PH_9__S__TRILIUM_PH_10__キーを押します。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-15T05:28:10.674Z"
     },
     {
       "id": "u_895746c246e3b07e28c574d6_0",
@@ -2922,6 +2929,25 @@
           {
             "modality": "TEXT",
             "tokenCount": 1310
+          }
+        ],
+        "serviceTier": "standard"
+      }
+    },
+    {
+      "at": "2026-11-15T05:28:10.674Z",
+      "model": "gemini-3.5-flash-lite",
+      "batchJob": "batches/y1m7dv6ztg8px3tnf6u9hmq3c20sg5fvpix0",
+      "requestKey": "eIg8jdvaoNNd_f47e00a9deed36e9",
+      "modelVersion": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 1228,
+        "candidatesTokenCount": 902,
+        "totalTokenCount": 2130,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 1228
           }
         ],
         "serviceTier": "standard"

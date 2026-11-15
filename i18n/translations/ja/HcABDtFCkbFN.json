@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "pageId": "HcABDtFCkbFN",
   "sourceFile": "docs/User Guide/User Guide/Note Types/Render Note.md",
-  "sourceRevision": "3c96e23e41b9c687d38f641f019decd8af1ae892",
+  "sourceRevision": "731bcf5b4e44f089698184c26f6a7b6e26f8af54",
   "units": [
     {
       "id": "u_926211d135c65cdbaf7cc0d3_0",
@@ -436,8 +436,15 @@
       "sourceHash": "52860d7bdfb298f9f42f831343025e33c84e1f7a5260ea594b171992f0f21ab1",
       "context": "Render Note > Refreshing the note",
       "contextHash": "a9b6e848b99fabd8f18c9f31adacd63a0c24ac3d5e991697154eebd106171f6d",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "__TRILIUM_PH_0__ ノートボタン __TRILIUM_PH_1__ エリア内の __TRILIUM_PH_2__ ボタン。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-15T05:28:10.674Z"
     },
     {
       "id": "u_0e1e3c41428a09933d3c702d_0",
@@ -659,6 +666,25 @@
           {
             "modality": "TEXT",
             "tokenCount": 760
+          }
+        ],
+        "serviceTier": "standard"
+      }
+    },
+    {
+      "at": "2026-11-15T05:28:10.674Z",
+      "model": "gemini-3.5-flash-lite",
+      "batchJob": "batches/y1m7dv6ztg8px3tnf6u9hmq3c20sg5fvpix0",
+      "requestKey": "HcABDtFCkbFN_b902281cbb97207e",
+      "modelVersion": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 633,
+        "candidatesTokenCount": 317,
+        "totalTokenCount": 950,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 633
           }
         ],
         "serviceTier": "standard"
