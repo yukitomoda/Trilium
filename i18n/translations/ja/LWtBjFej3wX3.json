@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "pageId": "LWtBjFej3wX3",
   "sourceFile": "docs/User Guide/User Guide/Advanced Usage/Configuration (config.ini or environment variables)/Cross-Origin Resource Sharing (CORS).md",
-  "sourceRevision": "f9d13f6c63cadab8586cbd99a6949884087fe858",
+  "sourceRevision": "da5ab9cbf710478275ec99c1fb39e0454359591b",
   "units": [
     {
       "id": "u_7c7d0b89441cbf879450cd07_0",
@@ -11,8 +11,15 @@
       "sourceHash": "7c7d0b89441cbf879450cd07fd51361845f4ee0070e590ca77572869a91c99c3",
       "context": "Cross-Origin Resource Sharing (CORS)",
       "contextHash": "1a327d0ff830a6a2d3018e433f7fffbd20e325e34e37b21a7b3657c8f9e7738f",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "クロスオリジンリソース共有 (CORS)",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_97caecb2d644239c726e5d32_0",
@@ -21,8 +28,15 @@
       "sourceHash": "97caecb2d644239c726e5d32cbf1118f2ec09d00c1f2d403dfc4c3ea0c1f3bd8",
       "context": "Cross-Origin Resource Sharing (CORS)",
       "contextHash": "1a327d0ff830a6a2d3018e433f7fffbd20e325e34e37b21a7b3657c8f9e7738f",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "デフォルトでは、Trilium 自体とは異なるドメインやオリジンからのリクエストによって、Web ブラウザから Trilium にアクセスすることはできません。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_b5786df714ad1aa0f7ebc401_0",
@@ -41,8 +55,15 @@
       "sourceHash": "3d8689bb131c5c247aa563ed3655108e8be8ceb250ef655b656a58a264f8b5b3",
       "context": "Cross-Origin Resource Sharing (CORS)",
       "contextHash": "1a327d0ff830a6a2d3018e433f7fffbd20e325e34e37b21a7b3657c8f9e7738f",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "CORS ヘッダー",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_6b0296f3bd19435b662ae80c_0",
@@ -51,8 +72,15 @@
       "sourceHash": "6b0296f3bd19435b662ae80c788986f84869025a58c5e50f59ed6d13dd58f674",
       "context": "Cross-Origin Resource Sharing (CORS)",
       "contextHash": "1a327d0ff830a6a2d3018e433f7fffbd20e325e34e37b21a7b3657c8f9e7738f",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "対応する環境変数",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_de28d998f994574c5bae0f70_0",
@@ -65,5 +93,12 @@
       "active": true
     }
   ],
-  "requests": []
+  "requests": [
+    {
+      "at": "2026-11-14T14:14:05.465Z",
+      "model": "gemini-3.5-flash-lite",
+      "batchJob": "batches/8vehrrvdpag09tp4gjf9dbgj006t9k2gkkyl",
+      "requestKey": "LWtBjFej3wX3_1a6426a7ce733b77"
+    }
+  ]
 }

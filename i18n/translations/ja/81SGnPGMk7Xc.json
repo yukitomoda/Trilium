@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "pageId": "81SGnPGMk7Xc",
   "sourceFile": "docs/User Guide/User Guide/Collections/Geo Map.md",
-  "sourceRevision": "f9d13f6c63cadab8586cbd99a6949884087fe858",
+  "sourceRevision": "da5ab9cbf710478275ec99c1fb39e0454359591b",
   "units": [
     {
       "id": "u_b00a712038b0887a14a8a0af_0",
@@ -827,8 +827,15 @@
       "sourceHash": "5c466db4aeb00899a259134952ede13aff9239c8976af655f9ad5848f173eb44",
       "context": "Geo Map > Searching the map > Searching for places online",
       "contextHash": "88a7c06d94e5b29a7566e529495774321f019a246210cda675db3179f503aab2",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "Triliumでは、OpenStreetMap財団が運営する場所検索サービス「Nominatim」を使用しています。アカウントもAPIキーも必要ありません。その名称は、検索を提供する行、検索実行中を示す行、そして何も見つからなかったりサービスに接続できなかったりしたことを報告する行など、該当するすべての行に表示されます。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_75483395e38757f1af11c89b_0",
@@ -837,8 +844,15 @@
       "sourceHash": "75483395e38757f1af11c89b9865e7e45fb43b5590886e2d62c95519ceaff1ad",
       "context": "Geo Map > Searching the map > Searching for places online",
       "contextHash": "88a7c06d94e5b29a7566e529495774321f019a246210cda675db3179f503aab2",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "検索では、現在表示しているエリアが優先されます。現在のビュー内にある場所が最初に検索され、他の場所の上部にリスト表示されます。自分の街を表示しながらショップを検索した場合、他の大陸にある同名の場所ではなく、その街にある支店が見つかります。ビューは常に最低25kmの広さとして扱われるため、単一の通りにズームインした状態で検索を行っても、その周囲の街がカバーされます。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_81e8474e2d5e970c74f4776d_0",
@@ -847,8 +861,15 @@
       "sourceHash": "81e8474e2d5e970c74f4776db9f549b5a370a6188bf6e9b10b67df5db6f9ac5b",
       "context": "Geo Map > Searching the map > Going to a point",
       "contextHash": "4aa5eb92708aa2a6fce50796e154a173c2443ce77d00ac4844f86c0c8b0d159d",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "特定のポイントへの移動__TRILIUM_PH_0__",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_66f497eaa8ef05241f74bfeb_0",
@@ -857,8 +878,15 @@
       "sourceHash": "66f497eaa8ef05241f74bfeb27abdd867b61980154b9c65df7bfcf6b236d5a05",
       "context": "Geo Map > Searching the map > Going to a point",
       "contextHash": "4aa5eb92708aa2a6fce50796e154a173c2443ce77d00ac4844f86c0c8b0d159d",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "検索バーに座標を入力または貼り付けると、他のすべての結果の上に__TRILIUM_PH_0__移動__TRILIUM_PH_1__行が表示されます。これを選択すると、マップが正確な地点に移動し、マークされます。その後、検索で見つかった場所と同様に、マーカーとして保持し続けることができます。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_a611f81478261605c9ce8089_0",
@@ -867,8 +895,15 @@
       "sourceHash": "a611f81478261605c9ce808986e1f4d91646ab581dda4373534d7c1fbb83c305",
       "context": "Geo Map > Searching the map > Going to a point",
       "contextHash": "4aa5eb92708aa2a6fce50796e154a173c2443ce77d00ac4844f86c0c8b0d159d",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "ポイントにはデフォルトでタイトルがありません。対応するノートは、デフォルトの名前が選択された状態で開き、簡単に置き換えることができます。マップに __TRILIUM_PH_0__Default Note Title__TRILIUM_PH_1__ ラベルがある場合、マーカーには代わりにそのテンプレートによって名前が付けられます。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_07dc6b43544b1acecd2e5dda_0",
@@ -877,8 +912,15 @@
       "sourceHash": "07dc6b43544b1acecd2e5dda227478c15ff23eda03bab37f6433cf208b4ba427",
       "context": "Geo Map > Searching the map > Going to a point",
       "contextHash": "4aa5eb92708aa2a6fce50796e154a173c2443ce77d00ac4844f86c0c8b0d159d",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "サポートされている形式は以下の通りです。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_fd50780a2522048f8c551564_0",
@@ -887,8 +929,15 @@
       "sourceHash": "fd50780a2522048f8c551564f20b7588cc2b46168851cccf65d4366d0bd1e32b",
       "context": "Geo Map > Searching the map > Going to a point",
       "contextHash": "4aa5eb92708aa2a6fce50796e154a173c2443ce77d00ac4844f86c0c8b0d159d",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "__TRILIUM_PH_0__のような単純なペア。これは、GoogleマップやOpenStreetMapで場所の座標を求めたときに得られるものであり、__TRILIUM_PH_1__属性が保持しているものでもあります。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_7e7be3f1292bd6aa79df24a9_0",
@@ -907,8 +956,15 @@
       "sourceHash": "593ea4af4645e80a482e5c0afd59a9378bdeed9904e3d1e57b8172827fb319f1",
       "context": "Geo Map > Searching the map > Going to a point",
       "contextHash": "4aa5eb92708aa2a6fce50796e154a173c2443ce77d00ac4844f86c0c8b0d159d",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "GoogleマップまたはOpenStreetMap上の場所の住所（全体を貼り付けたもの）。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_0f88fb66a1b78bbf09de6705_0",
@@ -917,8 +973,15 @@
       "sourceHash": "0f88fb66a1b78bbf09de6705ae21f60b72bbcfb5f1d9e47852cbbd81e2abab7a",
       "context": "Geo Map > Searching the map > Going to a point",
       "contextHash": "4aa5eb92708aa2a6fce50796e154a173c2443ce77d00ac4844f86c0c8b0d159d",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "__TRILIUM_PH_0__のような、地球上の場所ではないペアは提供されません。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_f1195937e2cfd4988777a010_0",
@@ -927,8 +990,15 @@
       "sourceHash": "f1195937e2cfd4988777a010d658860bfaaeaf2c8c7c48d36510749415ca2fd9",
       "context": "Geo Map > Searching the map > Reading the results",
       "contextHash": "bddafdf93d8eb36e0f82a54413cc9eb39d11db64144e2e1fb84599f098005976",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "結果の読み方__TRILIUM_PH_0__",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_f4173490b355ae350a31e68a_0",
@@ -937,8 +1007,15 @@
       "sourceHash": "f4173490b355ae350a31e68aba62d69773dda75f0e5e68ee90e244f060ba606b",
       "context": "Geo Map > Searching the map > Reading the results",
       "contextHash": "bddafdf93d8eb36e0f82a54413cc9eb39d11db64144e2e1fb84599f098005976",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "結果は見出しごとに集約され、各グループはマップの中心からの距離順に並べ替えられます。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_0bc29b3a403b81cfb34cb65f_0",
@@ -947,8 +1024,15 @@
       "sourceHash": "0bc29b3a403b81cfb34cb65f2e1e3c3b488edd4f1fc815668a2e026de1c8de4a",
       "context": "Geo Map > Searching the map > Reading the results",
       "contextHash": "bddafdf93d8eb36e0f82a54413cc9eb39d11db64144e2e1fb84599f098005976",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "__TRILIUM_PH_0__このマップ上の__TRILIUM_PH_1__：距離に関係なく、すでにマップ上にあるノート。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_7300fe0c24a13446f7221596_0",
@@ -957,8 +1041,15 @@
       "sourceHash": "7300fe0c24a13446f7221596a406d44150b0bb6da2597bc0759c4f5ec6d64ebb",
       "context": "Geo Map > Searching the map > Reading the results",
       "contextHash": "bddafdf93d8eb36e0f82a54413cc9eb39d11db64144e2e1fb84599f098005976",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "__TRILIUM_PH_0__近く__TRILIUM_PH_1__：ビューの約25km以内で見つかった場所。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_972e8ce4757b45c52d9bb665_0",
@@ -967,8 +1058,15 @@
       "sourceHash": "972e8ce4757b45c52d9bb665a7e2ac02848b81a5aae60d1e6479e1296d8f303b",
       "context": "Geo Map > Searching the map > Reading the results",
       "contextHash": "bddafdf93d8eb36e0f82a54413cc9eb39d11db64144e2e1fb84599f098005976",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "__TRILIUM_PH_0__遠く__TRILIUM_PH_1__：その他のすべての場所。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_15bd4e469799a73584b32d87_0",
@@ -977,8 +1075,15 @@
       "sourceHash": "15bd4e469799a73584b32d872284ebc17fe4e8d43d135d35d552ad8b96bbc2ab",
       "context": "Geo Map > Searching the map > Reading the results",
       "contextHash": "bddafdf93d8eb36e0f82a54413cc9eb39d11db64144e2e1fb84599f098005976",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "見出しは、3つのグループのうち少なくとも2つに要素が含まれている場合にのみ表示されます。位置を持つすべての行には、ロケールに応じてキロメートルまたはマイル単位で、どれだけ離れているかが表示されます。オンラインで見つかった場所は、1行目に名前、2行目に住所が表示されます。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_0fb70cba09dbae3bb27b2da2_0",
@@ -2891,8 +2996,15 @@
       "sourceHash": "78d62d4a143e07e6a6d428fb3f318c6d15f4da91bd7fcbde92a12d335de5357c",
       "context": "Geo Map > Interaction with the markers, tracks or shapes > Adding the coordinates manually > Adding from OpenStreetMap",
       "contextHash": "8d7988562331672178460cfdf1d59bb40363835009adc20f668c31b62644430c",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "Google マップのアプローチと同様に、以下の手順で行います:",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_cd9cd9f1fe833fbab06524e7_0",
@@ -2901,8 +3013,15 @@
       "sourceHash": "cd9cd9f1fe833fbab06524e76e5ccb30da09e2725cc8820b0444a100898a0dad",
       "context": "Geo Map > Interaction with the markers, tracks or shapes > Adding the coordinates manually > Adding from OpenStreetMap",
       "contextHash": "8d7988562331672178460cfdf1d59bb40363835009adc20f668c31b62644430c",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "openstreetmap.org 上の任意の場所に移動し、右クリックしてコンテキストメニューを表示します。__TRILIUM_PH_0__Show address__TRILIUM_PH_1__ 項目を選択します。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_0e8018859d5a9255b0ab8c5f_0",
@@ -2911,8 +3030,15 @@
       "sourceHash": "0e8018859d5a9255b0ab8c5f24358c330a692bf9c79fbad7ca2611c70d8b8e29",
       "context": "Geo Map > Interaction with the markers, tracks or shapes > Adding the coordinates manually > Adding from OpenStreetMap",
       "contextHash": "8d7988562331672178460cfdf1d59bb40363835009adc20f668c31b62644430c",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "画面の左上に検索バーの代わりに住所が表示されます。座標を選択してクリップボードにコピーします。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_e0e55b9913ec4cf007c05900_0",
@@ -2921,8 +3047,15 @@
       "sourceHash": "e0e55b9913ec4cf007c05900d076e8163b3454c0096c747a34d514829fb496e9",
       "context": "Geo Map > Interaction with the markers, tracks or shapes > Adding the coordinates manually > Adding from OpenStreetMap",
       "contextHash": "8d7988562331672178460cfdf1d59bb40363835009adc20f668c31b62644430c",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "その値をテキストボックス内からマップの子ノートの __TRILIUM_PH_0__ 属性に貼り付けるだけで、マップ上に表示されるようになります。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_e26b09be701555c5e4e9151b_0",
@@ -2931,8 +3064,15 @@
       "sourceHash": "e26b09be701555c5e4e9151b1bad4f5347d1f3921ab63a1a21a870d009daa93a",
       "context": "Geo Map > Drawing shapes on the map",
       "contextHash": "c45c2888df5c9ea0fa371a1a077e1cedb460a63d01af0a93b4df3b1c0aa4071b",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "マップ上での図形の描画__TRILIUM_PH_0__",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_e7e9c291bc62442741fc8564_0",
@@ -2941,8 +3081,15 @@
       "sourceHash": "e7e9c291bc62442741fc856442afaaf454b76d04d1e8c4d262438324151d64bf",
       "context": "Geo Map > Drawing shapes on the map",
       "contextHash": "c45c2888df5c9ea0fa371a1a077e1cedb460a63d01af0a93b4df3b1c0aa4071b",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "専用の __TRILIUM_PH_0__Drawing shapes__TRILIUM_PH_1__ ページを参照してください。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_4f9e5839a076228f66e6142b_0",
@@ -2951,8 +3098,15 @@
       "sourceHash": "4f9e5839a076228f66e6142bdae3b6daa4da59ab5eb582cb0ca3aa4f8c1deb98",
       "context": "Geo Map > Using an image instead of the world map",
       "contextHash": "c9f0a6806c2f01ce86e18fbde97974988c47aec5b4f0952d34520a8f3cce7e7e",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "世界地図の代わりに画像を使用する__TRILIUM_PH_0__",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_f06bdee77f93e8b4cf6650dc_0",
@@ -2961,8 +3115,15 @@
       "sourceHash": "f06bdee77f93e8b4cf6650dc210bde36fe4fe67762ea4cab0ae571dd60f51211",
       "context": "Geo Map > Using an image instead of the world map",
       "contextHash": "c9f0a6806c2f01ce86e18fbde97974988c47aec5b4f0952d34520a8f3cce7e7e",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "ジオマップは、フロアプランやファンタジーマップなど、独自の画像の上に描画することができ、画像のピクセル上にマーカーを配置できます。__TRILIUM_PH_0__Image maps__TRILIUM_PH_1__ を参照してください。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_f1dbb5627a9b0c37d51cfd22_0",
@@ -2971,8 +3132,15 @@
       "sourceHash": "f1dbb5627a9b0c37d51cfd22ffa79b3c208c1297e1a169c6d2eb617ab344af03",
       "context": "Geo Map > Adding GPS tracks (.gpx)",
       "contextHash": "20db1ddcd61a92d13c669cfd0b11167bc4715a290ee02e1e431c68a80e48b74a",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "GPS トラック（.gpx）の追加__TRILIUM_PH_0__",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_4a995d2a647af7d083d91b15_0",
@@ -2981,8 +3149,15 @@
       "sourceHash": "4a995d2a647af7d083d91b155c33e137861bd23884965c9424c8129c73c42fbb",
       "context": "Geo Map > Adding GPS tracks (.gpx)",
       "contextHash": "20db1ddcd61a92d13c669cfd0b11167bc4715a290ee02e1e431c68a80e48b74a",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "Trilium では、__TRILIUM_PH_0__ ファイルの形式でジオマップ上に GPS トラックを表示できます。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_bc09df3e996fe560bac24c2c_0",
@@ -2991,8 +3166,15 @@
       "sourceHash": "bc09df3e996fe560bac24c2c61cf4fcf308a4e1ddd25cfd8d851d85b6ee6224f",
       "context": "Geo Map > Adding GPS tracks (.gpx)",
       "contextHash": "20db1ddcd61a92d13c669cfd0b11167bc4715a290ee02e1e431c68a80e48b74a",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "トラックを追加するには、次のいずれかの操作を行います:",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_fffa6180c4733d4a331d1ba7_0",
@@ -3001,8 +3183,15 @@
       "sourceHash": "fffa6180c4733d4a331d1ba75694794b7260d4e53eacfb2f543680464296ccb7",
       "context": "Geo Map > Adding GPS tracks (.gpx)",
       "contextHash": "20db1ddcd61a92d13c669cfd0b11167bc4715a290ee02e1e431c68a80e48b74a",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "ノートツリー内のジオマップに __TRILIUM_PH_0__ ファイルをドラッグ＆ドロップします。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_32e55a328821949286da4b54_0",
@@ -3021,8 +3210,15 @@
       "sourceHash": "26bf042c5736f9a780718cc024109ea45a19ac8e7faa692a7aad29d04cd766f8",
       "context": "Geo Map > Adding GPS tracks (.gpx)",
       "contextHash": "20db1ddcd61a92d13c669cfd0b11167bc4715a290ee02e1e431c68a80e48b74a",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "__TRILIUM_PH_0__Add a GPS track from a GPX file__TRILIUM_PH_1__ (__TRILIUM_PH_2__) ボタンを押すと、GPX ファイルの選択が直接促され、コレクションの子ノートとしてインポートされます。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_1f058268c27da5de6ad9deaa_0",
@@ -3031,8 +3227,15 @@
       "sourceHash": "1f058268c27da5de6ad9deaa126f348e433c4e4dbb0a483425e93d7ce034901b",
       "context": "Geo Map > Adding GPS tracks (.gpx)",
       "contextHash": "20db1ddcd61a92d13c669cfd0b11167bc4715a290ee02e1e431c68a80e48b74a",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "マップに戻ると、トラックが表示されるようになります。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_51e49a4bb00ff23898b7ed49_0",
@@ -3041,8 +3244,15 @@
       "sourceHash": "51e49a4bb00ff23898b7ed4981e2a1f85c6bb03d954154757b3cf0e48ae1dbbe",
       "context": "Geo Map > Adding GPS tracks (.gpx)",
       "contextHash": "20db1ddcd61a92d13c669cfd0b11167bc4715a290ee02e1e431c68a80e48b74a",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "トラックの開始点は、ノート名を下部に伴うマーカーとして表示されます。開始マーカーは、ノートのアイコンおよび __TRILIUM_PH_0__ も反映します。終了マーカーは別のアイコンで表示されます。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_cec3609e29a581d37c7b8067_0",
@@ -3323,8 +3533,15 @@
       "sourceHash": "c5e5a55a42fbcc0006d1d234d2fa40d4fe2e2270de1fdaf6fd9b6298b27b70ab",
       "context": "Geo Map > Configuration > Map Style",
       "contextHash": "72fbfedbe5adcb07d07db73de8d02b4ad091b37496054b9ef2dbe042c814dad5",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "地理マップには、2種類の異なるスタイルのタイプがあります:",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_ae53fcfc75ec841ac234911d_0",
@@ -3333,8 +3550,15 @@
       "sourceHash": "ae53fcfc75ec841ac234911de8ea0245122d0f5a7cae57050faa1b7293acb12d",
       "context": "Geo Map > Configuration > Map Style",
       "contextHash": "72fbfedbe5adcb07d07db73de8d02b4ad091b37496054b9ef2dbe042c814dad5",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "ラスタースタイル",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_e04ebdca8cdc97ea034b9984_0",
@@ -3343,8 +3567,15 @@
       "sourceHash": "e04ebdca8cdc97ea034b998462cf78e943ddc975d561ed9529edacda3931f5b0",
       "context": "Geo Map > Configuration > Map Style",
       "contextHash": "72fbfedbe5adcb07d07db73de8d02b4ad091b37496054b9ef2dbe042c814dad5",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "これらのスタイルでは、マップは異なるズームレベルの画像のグリッドとして表現されます。これはOpenStreetMapが従来使用していた方法です。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_e0684e359c7e5954fe9f8648_0",
@@ -3353,8 +3584,15 @@
       "sourceHash": "e0684e359c7e5954fe9f86481bd949652da40b3d0ce329a6b32c9bea337c237b",
       "context": "Geo Map > Configuration > Map Style",
       "contextHash": "72fbfedbe5adcb07d07db73de8d02b4ad091b37496054b9ef2dbe042c814dad5",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "ズームがやや制限されます。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_6fc62594c2b8dee9935500bf_0",
@@ -3363,8 +3601,15 @@
       "sourceHash": "6fc62594c2b8dee9935500bf8a34912fa9c6f952e2c2173d00d67fe0ed3fa881",
       "context": "Geo Map > Configuration > Map Style",
       "contextHash": "72fbfedbe5adcb07d07db73de8d02b4ad091b37496054b9ef2dbe042c814dad5",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "現在、唯一のラスターテーマは元のOpenStreetMapスタイルです。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_b2532cfa3396c2c536d35a2c_0",
@@ -3373,8 +3618,15 @@
       "sourceHash": "b2532cfa3396c2c536d35a2cbcc4be3b17fcd317cabfef46af2f1b596398f422",
       "context": "Geo Map > Configuration > Map Style",
       "contextHash": "72fbfedbe5adcb07d07db73de8d02b4ad091b37496054b9ef2dbe042c814dad5",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "ベクタースタイル",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_e17709e64ff8e7c3e0382fa0_0",
@@ -3383,8 +3635,15 @@
       "sourceHash": "e17709e64ff8e7c3e0382fa0226c37ce0c25a66777df5fa0aecec916efdb00e9",
       "context": "Geo Map > Configuration > Map Style",
       "contextHash": "72fbfedbe5adcb07d07db73de8d02b4ad091b37496054b9ef2dbe042c814dad5",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "ベクタースタイルは画像ではなく幾何学的形状として表現されます。これにより、特にズーム時や建物の輪郭を見る際などのレンダリングが非常にスムーズになります。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_4773cff631f7c3625486ff67_0",
@@ -3393,8 +3652,15 @@
       "sourceHash": "4773cff631f7c3625486ff675d21aafeb189b278579376ff2627108ab2a57f88",
       "context": "Geo Map > Configuration > Map Style",
       "contextHash": "72fbfedbe5adcb07d07db73de8d02b4ad091b37496054b9ef2dbe042c814dad5",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "マップをさらに拡大できるようになります。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_6a83e00289be7bbb0bb22a15_0",
@@ -3403,8 +3669,15 @@
       "sourceHash": "6a83e00289be7bbb0bb22a153716db61a464469421bdb96157fa984c1ad3e01c",
       "context": "Geo Map > Configuration > Map Style",
       "contextHash": "72fbfedbe5adcb07d07db73de8d02b4ad091b37496054b9ef2dbe042c814dad5",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "これらには、ライト系（Colorful、Graybeard、Neutrino）とダーク系（Eclipse、Shadow）の両方のさまざまなスタイルが用意されています。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_6426697035b2453295d28cbb_0",
@@ -3413,8 +3686,15 @@
       "sourceHash": "6426697035b2453295d28cbb4f20e7bfd60ea26aa54c35c92793cd66c0cd1285",
       "context": "Geo Map > Configuration > Map Style",
       "contextHash": "72fbfedbe5adcb07d07db73de8d02b4ad091b37496054b9ef2dbe042c814dad5",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "ベクタースタイルは、OpenStreetMapに基づくマップタイルを提供する無料のオープンソースプロジェクトである __TRILIUM_PH_0__VersaTiles__TRILIUM_PH_1__ から提供されています。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_f36983d88e5de43c8eff7d43_0",
@@ -3423,8 +3703,15 @@
       "sourceHash": "f36983d88e5de43c8eff7d43b08c62f6f60f93c926bc58d1bbafd45f59c81e14",
       "context": "Geo Map > Configuration > Map Style",
       "contextHash": "72fbfedbe5adcb07d07db73de8d02b4ad091b37496054b9ef2dbe042c814dad5",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "VersaTilesのレイヤーは3Dの建物情報も提供します（下記参照）。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_ccf58947727c6925a95c7962_0",
@@ -3433,8 +3720,15 @@
       "sourceHash": "ccf58947727c6925a95c7962ef18b66b224888ea716d4627afa6517d46bdea90",
       "context": "Geo Map > Configuration > Map Style",
       "contextHash": "72fbfedbe5adcb07d07db73de8d02b4ad091b37496054b9ef2dbe042c814dad5",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "デフォルトのテーマは Versatiles Colorful（ベクター）です。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_e32e948da6272e4250c6acc9_0",
@@ -3443,8 +3737,15 @@
       "sourceHash": "e32e948da6272e4250c6acc959a3619c61f19714b62346c410393dfc700fb03a",
       "context": "Geo Map > Configuration > Map Style > 3D view with buildings",
       "contextHash": "93236a203812ad45f1e6b58676fd9eba0605065715ac5e636d5aabe7d00201e7",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "建物付きの3D表示__TRILIUM_PH_0__",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_cd524b310a103f89b974f730_0",
@@ -3453,8 +3754,15 @@
       "sourceHash": "cd524b310a103f89b974f7305b03ff412831284b0c63d2101386e9e271a952cc",
       "context": "Geo Map > Configuration > Map Style > 3D view with buildings",
       "contextHash": "93236a203812ad45f1e6b58676fd9eba0605065715ac5e636d5aabe7d00201e7",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "Trilium v0.105.0では、MapLibre GLの提供により3D表示が導入されました。3Dモードに入るには、マップの右下にある __TRILIUM_PH_0__3D__TRILIUM_PH_1__ ボタンを押すか、Ctrlキーを押しながらマップをドラッグします。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_9828d5e8fb0eb8ebc9e53cfd_0",
@@ -3463,8 +3771,15 @@
       "sourceHash": "9828d5e8fb0eb8ebc9e53cfda2c02b3c5c327dc9126204a36fe9eb2aa21e3a6f",
       "context": "Geo Map > Configuration > Map Style > 3D view with buildings",
       "contextHash": "93236a203812ad45f1e6b58676fd9eba0605065715ac5e636d5aabe7d00201e7",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "遅延を避けるため、建物はズーム14以降でのみ表示されます。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_05aa15542150d900810b7900_0",
@@ -3483,8 +3798,15 @@
       "sourceHash": "6e98f76c542fa5c2bee54288c9b33dbd345c098e944c1801e684193c6c13387b",
       "context": "Geo Map > Configuration > Custom map style / tiles",
       "contextHash": "ea66ddb9cdef0680f9f8e1d4f5fc737656a825d306de2654e04226ebb203b97d",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "カスタムマップスタイル / タイル__TRILIUM_PH_0__",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_a99e929329a0a00ddb938a83_0",
@@ -3493,8 +3815,15 @@
       "sourceHash": "a99e929329a0a00ddb938a834be72f5edfe7f9b091419f17a3b9a23a6ffc69be",
       "context": "Geo Map > Configuration > Custom map style / tiles",
       "contextHash": "ea66ddb9cdef0680f9f8e1d4f5fc737656a825d306de2654e04226ebb203b97d",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "v0.102.0以降、カスタムタイルセットを使用できるようになりましたが、ラスター形式のみです。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_9a29048a36f4f9bd49acf9ee_0",
@@ -3503,8 +3832,15 @@
       "sourceHash": "9a29048a36f4f9bd49acf9ee8e7b47015478182d9901ca7d12404aa457c85d9a",
       "context": "Geo Map > Configuration > Custom map style / tiles",
       "contextHash": "ea66ddb9cdef0680f9f8e1d4f5fc737656a825d306de2654e04226ebb203b97d",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "使用するには:",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_67be3e8b750c5d56166fbcae_0",
@@ -3523,8 +3859,15 @@
       "sourceHash": "4694d85001f8233aa02e8db8a1ccc39ef39ce31851098f64e2944fd1aa265aaa",
       "context": "Geo Map > Configuration > Custom map style / tiles",
       "contextHash": "ea66ddb9cdef0680f9f8e1d4f5fc737656a825d306de2654e04226ebb203b97d",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "__TRILIUM_PH_0__背景__TRILIUM_PH_1__の下で、__TRILIUM_PH_2__種類__TRILIUM_PH_3__を__TRILIUM_PH_4__カスタムタイルセット__TRILIUM_PH_5__に設定します。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_ea862122cd3e88627b8fd499_0",
@@ -3533,8 +3876,15 @@
       "sourceHash": "ea862122cd3e88627b8fd499c0ed1d1be98f9344a282bf66fee20e0d778f268e",
       "context": "Geo Map > Configuration > Custom map style / tiles",
       "contextHash": "ea66ddb9cdef0680f9f8e1d4f5fc737656a825d306de2654e04226ebb203b97d",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "__TRILIUM_PH_0__タイルURL__TRILIUM_PH_1__に、タイルセットのアドレスを入力します。ズームレベルとタイルの位置が入る部分には、__TRILIUM_PH_2__、__TRILIUM_PH_3__、__TRILIUM_PH_4__を指定します。たとえば、Esri.NatGeoWorldMapを使用するには、__TRILIUM_PH_5____TRILIUM_PH_6____TRILIUM_PH_7__と入力します。フィールドから離れるとURLが保存されます。__TRILIUM_PH_8__または__TRILIUM_PH_9__で始まらないURLや、3つのプレースホルダーのいずれかが欠けているURLは保存されません。画像の上に描画されたマップは、URLが保存されるまで元の画像を維持します。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_cc76b4e62e5ccaf063a5d7c0_0",
@@ -3543,8 +3893,15 @@
       "sourceHash": "cc76b4e62e5ccaf063a5d7c08cacd2ab2cb4694893f25579d1741359ee7aabc7",
       "context": "Geo Map > Configuration > Custom map style / tiles",
       "contextHash": "ea66ddb9cdef0680f9f8e1d4f5fc737656a825d306de2654e04226ebb203b97d",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "タイルが暗い場合は、__TRILIUM_PH_0__暗いタイルセット__TRILIUM_PH_1__を有効にしてください。これにより、マーカーのタイトルが明るい色で描画され、視認性が維持されます。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_f3c6535b31a8d61793e262ed_0",
@@ -3553,8 +3910,15 @@
       "sourceHash": "f3c6535b31a8d61793e262edf4cb8f4756d5e09a378b23d0ae253a7638cb53a6",
       "context": "Geo Map > Configuration > Custom map style / tiles",
       "contextHash": "ea66ddb9cdef0680f9f8e1d4f5fc737656a825d306de2654e04226ebb203b97d",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "さらに:",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_10e84806563e204b8d8d6a4a_0",
@@ -3563,8 +3927,15 @@
       "sourceHash": "10e84806563e204b8d8d6a4a94c4cae75e284bbbe025f83cf5244552708516aa",
       "context": "Geo Map > Configuration > Custom map style / tiles",
       "contextHash": "ea66ddb9cdef0680f9f8e1d4f5fc737656a825d306de2654e04226ebb203b97d",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "Hi-DPIタイルは、__TRILIUM_PH_0__プレースホルダーを介してサポートされています。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_99ad259e850969e3472aebae_0",
@@ -3583,8 +3954,15 @@
       "sourceHash": "1829588b91afa2f82ab165bd336a634661af41dc749c79bf704321e277988d4b",
       "context": "Geo Map > Configuration > Custom map style / tiles",
       "contextHash": "ea66ddb9cdef0680f9f8e1d4f5fc737656a825d306de2654e04226ebb203b97d",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "組み込みのスタイルに戻すには、__TRILIUM_PH_0__種類__TRILIUM_PH_1__を__TRILIUM_PH_2__ベクターとラスター__TRILIUM_PH_3__に戻します。タイルセットは削除されるのではなく無効化されます。そのラベルの名前が__TRILIUM_PH_4__に変更されるため、__TRILIUM_PH_5__種類__TRILIUM_PH_6__を再度__TRILIUM_PH_7__カスタムタイルセット__TRILIUM_PH_8__に設定すると、同じURLが復元されます。親ノートやテンプレートから継承されたタイルセットは、デフォルトのスタイルによって上書きされます。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_d53663190d615b470fc759af_0",
@@ -3593,8 +3971,15 @@
       "sourceHash": "d53663190d615b470fc759af21fb054933f54867de449025b2903d57642f4c2d",
       "context": "Geo Map > Configuration > Custom map style / tiles",
       "contextHash": "ea66ddb9cdef0680f9f8e1d4f5fc737656a825d306de2654e04226ebb203b97d",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "タイルセットは手動で設定することもできます。URLを__TRILIUM_PH_0__ __TRILIUM_PH_1__ラベル__TRILIUM_PH_2__に入力し、__TRILIUM_PH_3__ラベルで暗いスタイルを指定します。__TRILIUM_PH_4__も組み込みのスタイルを上書きします。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_892b71d7601d28547428bd68_0",
@@ -3603,8 +3988,15 @@
       "sourceHash": "892b71d7601d28547428bd68ce598cdb2be903f8e694c715c554209571cc6eed",
       "context": "Geo Map > Configuration > Custom map style / tiles",
       "contextHash": "ea66ddb9cdef0680f9f8e1d4f5fc737656a825d306de2654e04226ebb203b97d",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "タイルセットの一覧については、__TRILIUM_PH_0__Leaflet Providers プレビュー__TRILIUM_PH_1__ページをご覧ください。目的のタイルセットを選択し、__TRILIUM_PH_2__プレーンJavaScript__TRILIUM_PH_3__の例からURLをコピーするだけです。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_14b304a5cb16594aab8758bc_0",
@@ -3613,8 +4005,15 @@
       "sourceHash": "14b304a5cb16594aab8758bc53eea6a4cf2407c5833740e271d362b949557382",
       "context": "Geo Map > Configuration > Custom map style / tiles",
       "contextHash": "ea66ddb9cdef0680f9f8e1d4f5fc737656a825d306de2654e04226ebb203b97d",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "カスタムベクターマップのサポートは予定されていますが、まだ実装されていません。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_0ab61c0c1fc838fdf4111718_0",
@@ -3623,8 +4022,15 @@
       "sourceHash": "0ab61c0c1fc838fdf4111718f0380c4a3be916f3f281149e26e9b98aa59eb524",
       "context": "Geo Map > Configuration > Other options",
       "contextHash": "22c2205f11fd7e63b60f2ca9f8999ae5d637bb34f4e402d6926c27ce9becd6af",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "その他のオプション__TRILIUM_PH_0__",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_754ce8055945dcbd8d081145_0",
@@ -3643,8 +4049,15 @@
       "sourceHash": "3bddaacfed88f8967429517814654341ff353acfd54f99e2928d862452d46366",
       "context": "Geo Map > Configuration > Other options",
       "contextHash": "22c2205f11fd7e63b60f2ca9f8999ae5d637bb34f4e402d6926c27ce9becd6af",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "スケール。マップの左下に、キロメートルまたはマイルでマップの縮尺を表示します。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_c77d08a955d73ce5e28f654b_0",
@@ -3663,8 +4076,15 @@
       "sourceHash": "23790f402558b449db0065caaf652aeab3897b325bc8bf6ef142bd04fceb7bb3",
       "context": "Geo Map > Configuration > Other options",
       "contextHash": "22c2205f11fd7e63b60f2ca9f8999ae5d637bb34f4e402d6926c27ce9becd6af",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "マーカーの名前は、デフォルトでマップ上のピンの下に表示されます。v0.102.0以降では、これらのラベルを非表示にすることが可能になりました。これにより、マップ上に多くのマーカーがある場合のパフォーマンスが向上し、ごちゃごちゃ感が軽減されます。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_abc7767772fab47318850388_0",
@@ -3673,8 +4093,15 @@
       "sourceHash": "abc7767772fab473188503883d86b14a6bf9dbf1ebc721630d894b9b121c7c6a",
       "context": "Geo Map > Configuration > Other options",
       "contextHash": "22c2205f11fd7e63b60f2ca9f8999ae5d637bb34f4e402d6926c27ce9becd6af",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "v0.105.0では、ズームアウト時に複数のマーカーをまとめる __TRILIUM_PH_0__Group nearby markers__TRILIUM_PH_1__ という機能も導入されています。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_174c591ffc5a0d5ea1a21f0a_0",
@@ -3683,8 +4110,15 @@
       "sourceHash": "174c591ffc5a0d5ea1a21f0a3de9288ea4747c4bdcfc93981d6d51c456890541",
       "context": "Geo Map > Configuration > Other options",
       "contextHash": "22c2205f11fd7e63b60f2ca9f8999ae5d637bb34f4e402d6926c27ce9becd6af",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "クラスターには、含まれるアイテムの数が表示されます。また、その数に基づいて色も変化します。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_af96b2ed50fa7ce4b1f4fe6f_0",
@@ -3693,8 +4127,15 @@
       "sourceHash": "af96b2ed50fa7ce4b1f4fe6f4a6ede4d6ea620cc15a0b3348d4865ccbbf94ed9",
       "context": "Geo Map > Configuration > Other options",
       "contextHash": "22c2205f11fd7e63b60f2ca9f8999ae5d637bb34f4e402d6926c27ce9becd6af",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "クラスターをクリックすると、自動的にズームインし、クラスターを構成する個々のマーカーが表示されるようになります。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_ff66bf70df51121acc9cfb09_0",
@@ -3713,8 +4154,15 @@
       "sourceHash": "388b1889c60cd0ff3eff37fb2640a28e80a410f65b6ffd1022917b82f439d1d7",
       "context": "Geo Map > Configuration > Other options",
       "contextHash": "22c2205f11fd7e63b60f2ca9f8999ae5d637bb34f4e402d6926c27ce9becd6af",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "マップには、子ノートだけでなく、サブツリー全体のノートが表示されます。__TRILIUM_PH_0__Maximum nesting depth__TRILIUM_PH_1__（__TRILIUM_PH_2__）は、マップの下位をどこまで検索するかを制限します。__TRILIUM_PH_3__ は子のみを表示し、__TRILIUM_PH_4__ はその子を追加するというように動作します。値を指定しない場合は、すべてのレベルが表示されます。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_b190d47815633246b0ab18a6_0",
@@ -3723,8 +4171,15 @@
       "sourceHash": "b190d47815633246b0ab18a61d9b8e8ea36504fe3f8bc230a7753096915c9ff2",
       "context": "Geo Map > Configuration > Other options",
       "contextHash": "22c2205f11fd7e63b60f2ca9f8999ae5d637bb34f4e402d6926c27ce9becd6af",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "記事画像",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_b190d47815633246b0ab18a6_1",
@@ -3733,8 +4188,15 @@
       "sourceHash": "b190d47815633246b0ab18a61d9b8e8ea36504fe3f8bc230a7753096915c9ff2",
       "context": "Geo Map > Configuration > Other options",
       "contextHash": "22c2205f11fd7e63b60f2ca9f8999ae5d637bb34f4e402d6926c27ce9becd6af",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "記事画像",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_b190d47815633246b0ab18a6_2",
@@ -3743,8 +4205,15 @@
       "sourceHash": "b190d47815633246b0ab18a61d9b8e8ea36504fe3f8bc230a7753096915c9ff2",
       "context": "Geo Map > Configuration > Other options",
       "contextHash": "22c2205f11fd7e63b60f2ca9f8999ae5d637bb34f4e402d6926c27ce9becd6af",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "記事画像",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_b190d47815633246b0ab18a6_3",
@@ -3753,8 +4222,15 @@
       "sourceHash": "b190d47815633246b0ab18a61d9b8e8ea36504fe3f8bc230a7753096915c9ff2",
       "context": "Geo Map > Configuration > Other options",
       "contextHash": "22c2205f11fd7e63b60f2ca9f8999ae5d637bb34f4e402d6926c27ce9becd6af",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "記事画像",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     }
   ],
   "requests": [
@@ -3966,6 +4442,36 @@
         ],
         "serviceTier": "standard"
       }
+    },
+    {
+      "at": "2026-11-14T14:14:05.465Z",
+      "model": "gemini-3.5-flash-lite",
+      "batchJob": "batches/8vehrrvdpag09tp4gjf9dbgj006t9k2gkkyl",
+      "requestKey": "81SGnPGMk7Xc_13102137de8527d8"
+    },
+    {
+      "at": "2026-11-14T14:14:05.465Z",
+      "model": "gemini-3.5-flash-lite",
+      "batchJob": "batches/8vehrrvdpag09tp4gjf9dbgj006t9k2gkkyl",
+      "requestKey": "81SGnPGMk7Xc_f9d4ab78c351288c"
+    },
+    {
+      "at": "2026-11-14T14:14:05.465Z",
+      "model": "gemini-3.5-flash-lite",
+      "batchJob": "batches/8vehrrvdpag09tp4gjf9dbgj006t9k2gkkyl",
+      "requestKey": "81SGnPGMk7Xc_1e2b1a9ad6bdcccd"
+    },
+    {
+      "at": "2026-11-14T14:14:05.465Z",
+      "model": "gemini-3.5-flash-lite",
+      "batchJob": "batches/8vehrrvdpag09tp4gjf9dbgj006t9k2gkkyl",
+      "requestKey": "81SGnPGMk7Xc_b6462bc5c50f744a"
+    },
+    {
+      "at": "2026-11-14T14:14:05.465Z",
+      "model": "gemini-3.5-flash-lite",
+      "batchJob": "batches/8vehrrvdpag09tp4gjf9dbgj006t9k2gkkyl",
+      "requestKey": "81SGnPGMk7Xc_be297c807e9915e0"
     }
   ]
 }

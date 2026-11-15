@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "pageId": "syuSEKf2rUGr",
   "sourceFile": "docs/User Guide/User Guide/Basic Concepts and Features/Import & Export/Importing data from other applications/Evernote.md",
-  "sourceRevision": "f9d13f6c63cadab8586cbd99a6949884087fe858",
+  "sourceRevision": "da5ab9cbf710478275ec99c1fb39e0454359591b",
   "units": [
     {
       "id": "u_9fe3ab906000719bdbab5ec1_0",
@@ -827,8 +827,15 @@
       "sourceHash": "67c1b8d0ed0d945081148dd99977cfb8f8e31d8ae20d008e2bf9f7cbc366da64",
       "context": "Evernote > Limitations",
       "contextHash": "07b6f7b37deb0fedfd063214f449e957084316aa7c2f13dddfde5941571bc54d",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "すべてのリソース（画像を除く）は、ノートの添付ファイルとして作成されます。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T16:50:34.717Z"
     },
     {
       "id": "u_367310b0ff624cb98147b546_0",
@@ -837,8 +844,15 @@
       "sourceHash": "367310b0ff624cb98147b546e8fc7b0e73121c30a2ef5af6ff7bb6f4ce20d4bb",
       "context": "Evernote > Limitations",
       "contextHash": "07b6f7b37deb0fedfd063214f449e957084316aa7c2f13dddfde5941571bc54d",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "ENEXファイル内にHTMLが含まれている場合、Triliumへのインポート後にHTMLのフォーマットが崩れるか失われる可能性があります。__TRILIUM_PH_0__問題の報告__TRILIUM_PH_1__をご覧ください。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T16:50:34.717Z"
     },
     {
       "id": "u_9433cbe5b1300160a9ae863e_0",
@@ -847,8 +861,15 @@
       "sourceHash": "9433cbe5b1300160a9ae863e45cebc68416f1f0476dd281755ec8d116742bcef",
       "context": "Evernote > Limitations > Links to other notes",
       "contextHash": "3fa76dd72def3f6eacceb9358b176ef52e429a7a23e0772e7173151c3e49e52f",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "他のノートへのリンク__TRILIUM_PH_0__",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T16:50:34.717Z"
     },
     {
       "id": "u_a0e57f2eea4e869757bac2b5_0",
@@ -857,8 +878,15 @@
       "sourceHash": "a0e57f2eea4e869757bac2b5824786b7e2175c81181a6137b3e367488b022d4d",
       "context": "Evernote > Limitations > Links to other notes",
       "contextHash": "3fa76dd72def3f6eacceb9358b176ef52e429a7a23e0772e7173151c3e49e52f",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "v0.104.0以降、ENEXインポーターは、Evernote固有のURLをTriliumの__TRILIUM_PH_0__内部（参照）リンク__TRILIUM_PH_1__に変換することで、他のノートへのリンクを自動的に再作成しようとします。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T16:50:34.717Z"
     },
     {
       "id": "u_d8d766e3d80f06941c7d855d_0",
@@ -867,8 +895,15 @@
       "sourceHash": "d8d766e3d80f06941c7d855d5e2159d8a6b4f5a850fc683c1ed85f9b81b7e72b",
       "context": "Evernote > Limitations > Links to other notes",
       "contextHash": "3fa76dd72def3f6eacceb9358b176ef52e429a7a23e0772e7173151c3e49e52f",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "ENEX形式ではノートの一意のIDが提供されないため、ノートの参照はノートのタイトルを介して決定されます。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T16:50:34.717Z"
     },
     {
       "id": "u_ae486cd949d12f3be2baf427_0",
@@ -877,8 +912,15 @@
       "sourceHash": "ae486cd949d12f3be2baf427692d2bd60502c806d1deae5905da2ff877f97616",
       "context": "Evernote > Limitations > Links to other notes",
       "contextHash": "3fa76dd72def3f6eacceb9358b176ef52e429a7a23e0772e7173151c3e49e52f",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "制限事項：",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T16:50:34.717Z"
     },
     {
       "id": "u_e966668f28b025f75b50f580_0",
@@ -887,8 +929,15 @@
       "sourceHash": "e966668f28b025f75b50f5801bfbafcefe7faff1b7f86bdbe0ea2b2d032f5775",
       "context": "Evernote > Limitations > Links to other notes",
       "contextHash": "3fa76dd72def3f6eacceb9358b176ef52e429a7a23e0772e7173151c3e49e52f",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "誤ったノートへのリンクを避けるため、同じインポートに含まれるノートのみが参照リンクに書き換えられます。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T16:50:34.717Z"
     },
     {
       "id": "u_f6eacd4a06739fd01f10084e_0",
@@ -897,8 +946,15 @@
       "sourceHash": "f6eacd4a06739fd01f10084e723d678815aa873e3ee7137eaa0d0e1032316fb3",
       "context": "Evernote > Limitations > Links to other notes",
       "contextHash": "3fa76dd72def3f6eacceb9358b176ef52e429a7a23e0772e7173151c3e49e52f",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "同じ名前のノートが複数ある場合、間違ったノートを指すのを避けるため、内部リンクは作成されません。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T16:50:34.717Z"
     },
     {
       "id": "u_81d8e5ecefca2a88155b95cd_0",
@@ -917,8 +973,15 @@
       "sourceHash": "9d1d082376cfdef5887afcec891523186055dbdd0b86f2c47e6b8ab030bdd0f6",
       "context": "Evernote > Limitations > Links to other notes",
       "contextHash": "3fa76dd72def3f6eacceb9358b176ef52e429a7a23e0772e7173151c3e49e52f",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "アンカーへのリンクや、リンク作成後にEvernoteで名前を変更したノートへのリンクは修正されません。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T16:50:34.717Z"
     },
     {
       "id": "u_cb31a879016a1f5d521bd92a_0",
@@ -927,8 +990,15 @@
       "sourceHash": "cb31a879016a1f5d521bd92aaf6b8f1a2d6f9a2c01c5f6620fdd1dd0d43cd75b",
       "context": "Evernote > Limitations > Links to other notes > Post-processing notes",
       "contextHash": "4f127dfc90000d151fa112885b0537a3a422635a0255a201acd531cd669fe3d3",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "ノートの後処理__TRILIUM_PH_0__",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T16:50:34.717Z"
     },
     {
       "id": "u_75544059eaaa7c0cfce51380_0",
@@ -937,8 +1007,15 @@
       "sourceHash": "75544059eaaa7c0cfce51380c1d28e75b5ecad20b3fd69e22585b52ca54ea698",
       "context": "Evernote > Limitations > Links to other notes > Post-processing notes",
       "contextHash": "4f127dfc90000d151fa112885b0537a3a422635a0255a201acd531cd669fe3d3",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "このスクリプトを使用すると、インポート完了後にリンクを書き換えることができ、また2つの異なるインポート間のリンクを見つけることもできます。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T16:50:34.717Z"
     },
     {
       "id": "u_b18a550e3d2152fd557212ad_0",
@@ -947,8 +1024,15 @@
       "sourceHash": "b18a550e3d2152fd557212ad6f83a9b2a0f410a15f4632e6c6c529a84f42267f",
       "context": "Evernote > Limitations > Links to other notes > Post-processing notes",
       "contextHash": "4f127dfc90000d151fa112885b0537a3a422635a0255a201acd531cd669fe3d3",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "すべてのENEXファイルのインポート後にTriliumで内部リンクを復元したい場合は、次のカスタムスクリプトを使用するか適応させることができます：__TRILIUM_PH_0__Process internal links by title__TRILIUM_PH_1__",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T16:50:34.717Z"
     },
     {
       "id": "u_7e06d73f3bff9e1e3333c359_0",
@@ -957,8 +1041,15 @@
       "sourceHash": "7e06d73f3bff9e1e3333c359155e3b7c2b4b1bda6e7b5dc9f116ab3c71b79911",
       "context": "Evernote > Limitations > Links to other notes > Post-processing notes",
       "contextHash": "4f127dfc90000d151fa112885b0537a3a422635a0255a201acd531cd669fe3d3",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "このスクリプトは以下の処理を行います：",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T16:50:34.717Z"
     },
     {
       "id": "u_a76ff72a3b7c150db35d9f45_0",
@@ -967,8 +1058,15 @@
       "sourceHash": "a76ff72a3b7c150db35d9f45d31184ef14b82f1f044dedbc53c6a92a275eee5c",
       "context": "Evernote > Limitations > Links to other notes > Post-processing notes",
       "contextHash": "4f127dfc90000d151fa112885b0537a3a422635a0255a201acd531cd669fe3d3",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "すべてのEvernote内部リンクを見つけます。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T16:50:34.717Z"
     },
     {
       "id": "u_efe543b2a7e8c81a8bfc7400_0",
@@ -977,8 +1075,15 @@
       "sourceHash": "efe543b2a7e8c81a8bfc7400d19ca6d16fafe126d750d5f63408f9ea622f5e1e",
       "context": "Evernote > Limitations > Links to other notes > Post-processing notes",
       "contextHash": "4f127dfc90000d151fa112885b0537a3a422635a0255a201acd531cd669fe3d3",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "それぞれのリンクについて、リンクテキストがノートのタイトルと一致するかどうかを確認し、一致する場合はEvernoteのリンクをTriliumの内部リンクに置き換えます。一致しない場合は、Evernoteのリンクをそのまま残します。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T16:50:34.717Z"
     },
     {
       "id": "u_48136aae0a407e831a9ab7c4_0",
@@ -1227,6 +1332,18 @@
         ],
         "serviceTier": "standard"
       }
+    },
+    {
+      "at": "2026-11-14T14:14:05.465Z",
+      "model": "gemini-3.5-flash-lite",
+      "batchJob": "batches/8vehrrvdpag09tp4gjf9dbgj006t9k2gkkyl",
+      "requestKey": "syuSEKf2rUGr_71c90cc95437f7cc"
+    },
+    {
+      "at": "2026-11-14T16:50:34.717Z",
+      "model": "gemini-3.5-flash-lite",
+      "batchJob": "batches/wazxmzaiela6jn8aqd7kybq00i98rm3g571n",
+      "requestKey": "syuSEKf2rUGr_71c90cc95437f7cc"
     }
   ]
 }

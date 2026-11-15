@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "pageId": "KC1HB96bqqHX",
   "sourceFile": "docs/User Guide/User Guide/Advanced Usage/Templates.md",
-  "sourceRevision": "f9d13f6c63cadab8586cbd99a6949884087fe858",
+  "sourceRevision": "da5ab9cbf710478275ec99c1fb39e0454359591b",
   "units": [
     {
       "id": "u_ded25352ccedf0536262d854_0",
@@ -283,8 +283,15 @@
       "sourceHash": "4f3f0168120ccf12b87b21001f9aa22b800561b5ffe9ae7f5a016a3f0de659f4",
       "context": "Templates > Instance Note",
       "contextHash": "d2002f2ba619da4bf474ec2b2ce89616cd3a4636b433209f6705ece447191559",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "親ノート作成後にテンプレートの階層を変更しても、新しく作成された子ノートには遡って適用されません。__TRILIUM_PH_0__たとえば、最初に __TRILIUM_PH_1__ を使用し、後から __TRILIUM_PH_2__ に切り替えた場合でも、孫ノートに新しいテンプレートが自動的に適用されることはありません。ノート作成時に存在していた構造のみが考慮されます。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_97b1be0b0e0b892e625418e5_0",
@@ -293,8 +300,15 @@
       "sourceHash": "97b1be0b0e0b892e625418e52cbe366ca165cb1fcd40f954e00610600bb8e38a",
       "context": "Templates > Default parent for new notes",
       "contextHash": "3e075c4bb3b5859a8b56379d60c43aa88440b2d9cf48a55e5d03f3395918159c",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "新規ノートのデフォルトの親__TRILIUM_PH_0__",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_5c8d8f551d4bc98d873b53b6_0",
@@ -313,8 +327,15 @@
       "sourceHash": "b3f58ea0fc7b22f2169f467b721ba611cf86ac066554c5f178857d1959bcd754",
       "context": "Templates > Default parent for new notes",
       "contextHash": "3e075c4bb3b5859a8b56379d60c43aa88440b2d9cf48a55e5d03f3395918159c",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "リレーションを複数回追加すると、__TRILIUM_PH_0__ノートのクローン__TRILIUM_PH_1__と同様に、すべてのターゲットに新しいノートが配置されます。また、リレーションは継承することもできます（複数のテンプレートを保持するフォルダからの継承など）。その場合、テンプレート自体が所有するリレーションが継承されたものを上書きします。デフォルトの親は、ツリー内のテンプレートの祖先からのみ継承されます。別のテンプレートから作成されたテンプレートは、そのテンプレートのデフォルトの親を引き継ぎません。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_ef91cdd059f25a812bdb6c57_0",
@@ -323,8 +344,15 @@
       "sourceHash": "ef91cdd059f25a812bdb6c575dbfcafb56b4eb9930ed333684963266cf9400f3",
       "context": "Templates > Default parent for new notes",
       "contextHash": "3e075c4bb3b5859a8b56379d60c43aa88440b2d9cf48a55e5d03f3395918159c",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "デフォルトの親は、__TRILIUM_PH_0__Choose note type__TRILIUM_PH_1__ ダイアログを介してテンプレートからノートが作成されるたびに使用されます。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_d1436e72024cb211f0f17a42_0",
@@ -343,8 +371,15 @@
       "sourceHash": "03254592e71e2fa9a692d9bf169876fbcb1f92ffa669dc4b98b9a9348b84f108",
       "context": "Templates > Default parent for new notes",
       "contextHash": "3e075c4bb3b5859a8b56379d60c43aa88440b2d9cf48a55e5d03f3395918159c",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "ノート検索の __TRILIUM_PH_0__Create note__TRILIUM_PH_1__ または __TRILIUM_PH_2__Create child note__TRILIUM_PH_3__ オプション経由（新しいタブまたは __TRILIUM_PH_4__Internal (reference) links__TRILIUM_PH_5__）。ただし、ダイアログの __TRILIUM_PH_6__Location__TRILIUM_PH_7__ フィールドが空のままである場合に限ります。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_54903edca95041e76114104b_0",
@@ -353,8 +388,15 @@
       "sourceHash": "54903edca95041e76114104bf6f959288042fe56da97fac22bbd875c225fdcd5",
       "context": "Templates > Default parent for new notes",
       "contextHash": "3e075c4bb3b5859a8b56379d60c43aa88440b2d9cf48a55e5d03f3395918159c",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "__TRILIUM_PH_0__ノートツリー__TRILIUM_PH_1__ のコンテキストメニュー（__TRILIUM_PH_2__Insert child note__TRILIUM_PH_3__、__TRILIUM_PH_4__Insert note after__TRILIUM_PH_5__）からインスタンスノートを作成した場合、引き続き選択した場所に作成されます。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_4697a5c9a6d34adfaac0580c_0",
@@ -363,8 +405,15 @@
       "sourceHash": "4697a5c9a6d34adfaac0580c917bab8b27a0dc76495afc5b5b47a3d5542b3b81",
       "context": "Templates > Default parent for new notes",
       "contextHash": "3e075c4bb3b5859a8b56379d60c43aa88440b2d9cf48a55e5d03f3395918159c",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "すばやくキャプチャしたノートを整理されるまで一時的に保持する __TRILIUM_PH_0__Note Inbox__TRILIUM_PH_1__ とは異なり、デフォルトの親はインスタンスの永続的な保存場所として意図されています。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_3b405af9c297f397c1f2c5d8_0",
@@ -373,8 +422,15 @@
       "sourceHash": "3b405af9c297f397c1f2c5d8f1c45319d4c7d9be3bfc32a676b279476ff8be07",
       "context": "Templates > Regarding note types",
       "contextHash": "df43e8c8246af33b8f80d6df9229d5eadc1adc2b9d858e0df14ba7cf257fb8f1",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "ノートの種類について__TRILIUM_PH_0__",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_bde382d55ea96e290d248aab_0",
@@ -383,8 +439,15 @@
       "sourceHash": "bde382d55ea96e290d248aab747def60b26743f8f1c145224a48e243bfd0693e",
       "context": "Templates > Regarding note types",
       "contextHash": "df43e8c8246af33b8f80d6df9229d5eadc1adc2b9d858e0df14ba7cf257fb8f1",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "デフォルトでは、新しく作成されたノートは __TRILIUM_PH_0__Text__TRILIUM_PH_1__ ノートになります。親ノートが別の種類（コードノートなど）のテンプレートを指す __TRILIUM_PH_2__ を定義している場合、その挙動は新しいノートがどのように作成されるかによって異なります。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_9c9a7ee348e123cd46f8433e_0",
@@ -393,8 +456,15 @@
       "sourceHash": "9c9a7ee348e123cd46f8433e0e938a42819004777fe6b2f81ba447eb816a3e21",
       "context": "Templates > Regarding note types",
       "contextHash": "df43e8c8246af33b8f80d6df9229d5eadc1adc2b9d858e0df14ba7cf257fb8f1",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "ノートの種類が明示的に選択されていない場合（__TRILIUM_PH_0__ノートツリー__TRILIUM_PH_1__ の + ボタンなど）、テンプレートが適用され、新しいノートはテンプレートの種類とコンテンツを引き継ぎます。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_83ccaea00f0495a5644655a4_0",
@@ -403,8 +473,15 @@
       "sourceHash": "83ccaea00f0495a5644655a4f9ea5ed443e8d0e76a68742da26aa958949a49e9",
       "context": "Templates > Regarding note types",
       "contextHash": "df43e8c8246af33b8f80d6df9229d5eadc1adc2b9d858e0df14ba7cf257fb8f1",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "ノートの種類が明示的に選択されている場合（__TRILIUM_PH_0__ノートツリー__TRILIUM_PH_1__ → __TRILIUM_PH_2__Insert note after__TRILIUM_PH_3__ / __TRILIUM_PH_4__Insert child note__TRILIUM_PH_5__）：",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_e0360904f82a46a9837b4201_0",
@@ -413,8 +490,15 @@
       "sourceHash": "e0360904f82a46a9837b4201e1496e31b53ae7c96eb35729188d55b0aa35c345",
       "context": "Templates > Regarding note types",
       "contextHash": "df43e8c8246af33b8f80d6df9229d5eadc1adc2b9d858e0df14ba7cf257fb8f1",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "選択した種類がテンプレートの種類と一致する場合、テンプレートが適用されます。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_36840d6fb7bfd0f49bb45558_0",
@@ -423,8 +507,15 @@
       "sourceHash": "36840d6fb7bfd0f49bb45558f0086054a264f32f0a456aa782fd6d3d27f0800a",
       "context": "Templates > Regarding note types",
       "contextHash": "df43e8c8246af33b8f80d6df9229d5eadc1adc2b9d858e0df14ba7cf257fb8f1",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "選択した種類が異なる場合、テンプレートは完全に無視され、新しいノートは選択した種類の空のノートになります。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_6a5239c857cdf6d6b284fdff_0",
@@ -433,8 +524,15 @@
       "sourceHash": "6a5239c857cdf6d6b284fdff3701a035ce0573e3fa04fe39fb70b2102abec1d8",
       "context": "Templates > Regarding note types",
       "contextHash": "df43e8c8246af33b8f80d6df9229d5eadc1adc2b9d858e0df14ba7cf257fb8f1",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "作成メニューから特定のテンプレートを選択することは、常に __TRILIUM_PH_0__ よりも優先されます。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_cbe0bfe1e964d637d618a8c8_0",
@@ -443,8 +541,15 @@
       "sourceHash": "cbe0bfe1e964d637d618a8c8917e6b4e40deccb0f198d5ab6f02fc3e0d89049b",
       "context": "Templates > Default title for new notes",
       "contextHash": "41d9b64884ebe1172ec1fb26d3e0904570d1ca1aa3fbbb5a78fbf1d41f6bbfe3",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "新規ノートのデフォルトタイトル__TRILIUM_PH_0__",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_ba984688c9c9a7d8c5eb9404_0",
@@ -453,8 +558,15 @@
       "sourceHash": "ba984688c9c9a7d8c5eb9404b96b818e9448ec346cab30558a56fa469c8ed70a",
       "context": "Templates > Default title for new notes",
       "contextHash": "41d9b64884ebe1172ec1fb26d3e0904570d1ca1aa3fbbb5a78fbf1d41f6bbfe3",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "テンプレートを使用すると、__TRILIUM_PH_0__ラベルを使用して、インスタンスにデフォルトのタイトルを指定することもできます。ラベルを手動で編集せずに設定するには、ノートタイトルの横にあるテンプレートバッジをクリックし、__TRILIUM_PH_1__テンプレートのプロパティ...__TRILIUM_PH_2__を選択します。これにより、入力時に式がチェックされ、生成されるタイトルがプレビューされます。詳細は__TRILIUM_PH_3__デフォルトのノートタイトル__TRILIUM_PH_4__を参照してください。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_81c80e95222dfe9a07be5de3_0",
@@ -463,8 +575,15 @@
       "sourceHash": "81c80e95222dfe9a07be5de31cd39da8d8d653391b60a4b05af310dc4ba72b39",
       "context": "Templates > Additional Notes",
       "contextHash": "b0b3a16ea7383b0b8ba5a114148858a17f276a2ed9f46052f64d6a5d6396c92f",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "追加のノート__TRILIUM_PH_0__",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_2bed73c8a943aa9bd2f8497f_0",
@@ -473,8 +592,15 @@
       "sourceHash": "2bed73c8a943aa9bd2f8497fea795564f140edf72df0107e97cc936ace2deda7",
       "context": "Templates > Additional Notes",
       "contextHash": "b0b3a16ea7383b0b8ba5a114148858a17f276a2ed9f46052f64d6a5d6396c92f",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "視覚的な観点から、テンプレートは__TRILIUM_PH_0__および__TRILIUM_PH_1__属性を定義できるため、すべてのインスタンスノート（例：書籍）に特定のアイコンとCSSスタイルを表示させることができます。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_fae501d168a15aa5ff538ebb_0",
@@ -493,8 +619,15 @@
       "sourceHash": "ce001cbf39c8e08e637f02ed47263003532d4795a0a88054eaf17eabd8d9ed71",
       "context": "Templates > Additional Notes",
       "contextHash": "b0b3a16ea7383b0b8ba5a114148858a17f276a2ed9f46052f64d6a5d6396c92f",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "さらに、タイトルのテンプレートを作成するには__TRILIUM_PH_0__デフォルトのノートタイトル__TRILIUM_PH_1__を参照してください。テンプレートノート上の__TRILIUM_PH_2__は、他のラベルと同様にインスタンスに引き継がれるため、インスタンス自体ではなく、各インスタンスの子に名前を付けます。インスタンスに名前を付けるには、__TRILIUM_PH_3__を使用します。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_f85560b66a0c7622e7911fcd_0",
@@ -503,8 +636,15 @@
       "sourceHash": "f85560b66a0c7622e7911fcdcd5d9245f364da8f223c4d4d233e8100778495f6",
       "context": "Templates > Additional Notes",
       "contextHash": "b0b3a16ea7383b0b8ba5a114148858a17f276a2ed9f46052f64d6a5d6396c92f",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "テンプレートの例",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_883b6117cc567400b9286122_0",
@@ -513,8 +653,15 @@
       "sourceHash": "883b6117cc567400b92861228b4a1d67b0bb850b9ea8b856d349ada6445be5d3",
       "context": "Templates > Additional Notes",
       "contextHash": "b0b3a16ea7383b0b8ba5a114148858a17f276a2ed9f46052f64d6a5d6396c92f",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "子ノートのテンプレートを表示する",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     }
   ],
   "requests": [
@@ -536,6 +683,18 @@
         ],
         "serviceTier": "standard"
       }
+    },
+    {
+      "at": "2026-11-14T14:14:05.465Z",
+      "model": "gemini-3.5-flash-lite",
+      "batchJob": "batches/8vehrrvdpag09tp4gjf9dbgj006t9k2gkkyl",
+      "requestKey": "KC1HB96bqqHX_c9641ca559990a16"
+    },
+    {
+      "at": "2026-11-14T14:14:05.465Z",
+      "model": "gemini-3.5-flash-lite",
+      "batchJob": "batches/8vehrrvdpag09tp4gjf9dbgj006t9k2gkkyl",
+      "requestKey": "KC1HB96bqqHX_9f97d5b417c7e599"
     }
   ]
 }

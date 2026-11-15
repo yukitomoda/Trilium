@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "pageId": "g1mlRoU8CsqC",
   "sourceFile": "docs/User Guide/User Guide/Theme development/Creating an icon pack.md",
-  "sourceRevision": "f9d13f6c63cadab8586cbd99a6949884087fe858",
+  "sourceRevision": "da5ab9cbf710478275ec99c1fb39e0454359591b",
   "units": [
     {
       "id": "u_35b04a71503865f9df01910d_0",
@@ -565,8 +565,15 @@
       "sourceHash": "7ba50983081b5d2a3fb44d95f7a00e26536d9d75c34f0e016fe149297de52889",
       "context": "Creating an icon pack > Manifest format",
       "contextHash": "cf4a1851ef1f0bd0faea98ea02919853095e9963bfd2ab1407a311bac213f00b",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "また、JSON 内でエスケープされていないグリフを使用することも可能です。見た目は奇妙になりますが（例: ）、問題なく正しく描画されます。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_699c23a3d4137e9392fce577_0",
@@ -575,8 +582,15 @@
       "sourceHash": "699c23a3d4137e9392fce57724cee759dca03a9ff754412c496dcc30724c8348",
       "context": "Creating an icon pack > Manifest format",
       "contextHash": "cf4a1851ef1f0bd0faea98ea02919853095e9963bfd2ab1407a311bac213f00b",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "マニフェストキー（例: __TRILIUM_PH_0__）は、フォントで使用されているクラス名と一致している必要があります（プレフィックス + 名前の組み合わせが一般的なパターンです）。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_148749f394061af442a3a131_0",
@@ -585,8 +599,15 @@
       "sourceHash": "148749f394061af442a3a131bcc7db829cb8b9a9ce04393bc02f75b79debd290",
       "context": "Creating an icon pack > Manifest format",
       "contextHash": "cf4a1851ef1f0bd0faea98ea02919853095e9963bfd2ab1407a311bac213f00b",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "プレフィックスと同様に、マニフェストキーは CSS のクラス名になるため、英字、数字、ハイフン、アンダースコア、および非 ASCII 文字のみを含めることができます。句読点や空白（例: __TRILIUM_PH_0__ や __TRILIUM_PH_1__）はクラス名として使用できません。そのようなキーを持つアイコンはスキップされ、__TRILIUM_PH_2__バックエンド（サーバー）ログ__TRILIUM_PH_3__にエラーが記録されますが、パックの残りの部分は引き続き読み込まれます。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_30cb8633ebec03bd61f79964_0",
@@ -595,8 +616,15 @@
       "sourceHash": "30cb8633ebec03bd61f799642a8e071a91bba7597543a6c2a0d00a422460ea9e",
       "context": "Creating an icon pack > Concrete example: Phosphor Icons",
       "contextHash": "98f3e57a48e640c2add138bcb5326f1af9785e86a209bdc01b4c3b9b292d1b22",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "具体的な例: Phosphor Icons__TRILIUM_PH_0__",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_35c7471547a65f1eb51e7425_0",
@@ -605,8 +633,15 @@
       "sourceHash": "35c7471547a65f1eb51e742566071106f86c86616ae51b095c2cbcc3f7561c87",
       "context": "Creating an icon pack > Concrete example: Phosphor Icons",
       "contextHash": "98f3e57a48e640c2add138bcb5326f1af9785e86a209bdc01b4c3b9b292d1b22",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "__TRILIUM_PH_0__Phosphor Icons__TRILIUM_PH_1__ は、__TRILIUM_PH_2__（コードポイント）と __TRILIUM_PH_3__（アイコン名）を含む __TRILIUM_PH_4__ を提供しています。目標は、これを Trilium のマニフェストに変換することです。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_7f6db13441697411c91d7f69_0",
@@ -615,8 +650,15 @@
       "sourceHash": "7f6db13441697411c91d7f69a7ab4de26cff64666d8b760a99de7b993e39eb5a",
       "context": "Creating an icon pack > Concrete example: Phosphor Icons",
       "contextHash": "98f3e57a48e640c2add138bcb5326f1af9785e86a209bdc01b4c3b9b292d1b22",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "__TRILIUM_PH_0__ のサンプル抜粋:",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_4059328f73c707ce2dbc77a7_0",
@@ -625,8 +667,15 @@
       "sourceHash": "4059328f73c707ce2dbc77a7f325319259e8bba1a03e4b150911082458f6de9c",
       "context": "Creating an icon pack > Concrete example: Phosphor Icons",
       "contextHash": "98f3e57a48e640c2add138bcb5326f1af9785e86a209bdc01b4c3b9b292d1b22",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "マニフェストを生成するための小さな Node.js スクリプト",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_2a5b6a56c9545b03b586989a_0",
@@ -635,8 +684,15 @@
       "sourceHash": "2a5b6a56c9545b03b586989ad47e28ffeff314b95770bd93a0e550dc33f944ea",
       "context": "Creating an icon pack > Concrete example: Phosphor Icons",
       "contextHash": "98f3e57a48e640c2add138bcb5326f1af9785e86a209bdc01b4c3b9b292d1b22",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "__TRILIUM_PH_0__ を同じディレクトリに配置し、Node 20 以降で実行します:",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_70546336733e8c3007e4dcaf_0",
@@ -645,8 +701,15 @@
       "sourceHash": "70546336733e8c3007e4dcaf3d9aedbe7dd39beced99c438bab8c0695048a17c",
       "context": "Creating an icon pack > Concrete example: Phosphor Icons",
       "contextHash": "98f3e57a48e640c2add138bcb5326f1af9785e86a209bdc01b4c3b9b292d1b22",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "スクリプトの操作方法:",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_c70b85ad744181d61105ab48_0",
@@ -655,8 +718,15 @@
       "sourceHash": "c70b85ad744181d61105ab4833c184eb9475b72f63804b3698458f9cd89c4cef",
       "context": "Creating an icon pack > Concrete example: Phosphor Icons",
       "contextHash": "98f3e57a48e640c2add138bcb5326f1af9785e86a209bdc01b4c3b9b292d1b22",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "__TRILIUM_PH_0__ と __TRILIUM_PH_1__ を 1 つのフォルダーに配置します。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_efc7b6a8aea2d0c51989dd81_0",
@@ -665,8 +735,15 @@
       "sourceHash": "efc7b6a8aea2d0c51989dd817481685336761cc96d8a0daeeb9f0ab987cf38d4",
       "context": "Creating an icon pack > Concrete example: Phosphor Icons",
       "contextHash": "98f3e57a48e640c2add138bcb5326f1af9785e86a209bdc01b4c3b9b292d1b22",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "次を実行します: node build-manifest.js",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_4ede325a6664c3e41560bcca_0",
@@ -675,8 +752,15 @@
       "sourceHash": "4ede325a6664c3e41560bccaabce2265216e99bb427cea218e050da2eebc3020",
       "context": "Creating an icon pack > Concrete example: Phosphor Icons",
       "contextHash": "98f3e57a48e640c2add138bcb5326f1af9785e86a209bdc01b4c3b9b292d1b22",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "スクリプトにより __TRILIUM_PH_0__ が書き込まれます。ファイルを開いて内容を確認し、Trilium のコードノート（言語: JSON）にコピーします。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_7ef27e1c942869907182c1e0_0",
@@ -685,8 +769,15 @@
       "sourceHash": "7ef27e1c942869907182c1e0bae1e3cad01910a7e6f77b8dc4ae0dc34f15898e",
       "context": "Creating an icon pack > Concrete example: Phosphor Icons",
       "contextHash": "98f3e57a48e640c2add138bcb5326f1af9785e86a209bdc01b4c3b9b292d1b22",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "__TRILIUM_PH_0__CSS を処理する際のエスケープ形式に注意してください__TRILIUM_PH_1__",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_025287a126dc742732497dd1_0",
@@ -705,8 +796,15 @@
       "sourceHash": "6de8ba6cd4e4a3ee59fe7b96ee4d4e288c0abb3694d71464c92b4f4b8212cda5",
       "context": "Creating an icon pack > Concrete example: Phosphor Icons",
       "contextHash": "98f3e57a48e640c2add138bcb5326f1af9785e86a209bdc01b4c3b9b292d1b22",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "より簡潔な代替手段として、UTF-8 がサポートされているため、エスケープされていない文字を直接指定することもできます。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_e95c1f891cb517dd652b1a85_0",
@@ -1312,6 +1410,12 @@
         ],
         "serviceTier": "standard"
       }
+    },
+    {
+      "at": "2026-11-14T14:14:05.465Z",
+      "model": "gemini-3.5-flash-lite",
+      "batchJob": "batches/8vehrrvdpag09tp4gjf9dbgj006t9k2gkkyl",
+      "requestKey": "g1mlRoU8CsqC_c4946f14edcffd22"
     }
   ]
 }

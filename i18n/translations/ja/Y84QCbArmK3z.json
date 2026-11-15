@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "pageId": "Y84QCbArmK3z",
   "sourceFile": "docs/User Guide/User Guide/Meeting transcription.md",
-  "sourceRevision": "f9d13f6c63cadab8586cbd99a6949884087fe858",
+  "sourceRevision": "da5ab9cbf710478275ec99c1fb39e0454359591b",
   "units": [
     {
       "id": "u_67ed6bab35aa2cd7d1ea945a_0",
@@ -11,8 +11,15 @@
       "sourceHash": "67ed6bab35aa2cd7d1ea945af99ce6eed882bf61f6f87c919d3e3ef0bdb062ef",
       "context": "Meeting transcription",
       "contextHash": "f5d082f97e9dfb596096318696a507760aea04335635ea49360116d86b11309a",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "会議の文字起こし",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_c6a3c09b9d6b4c053da6847e_0",
@@ -21,8 +28,15 @@
       "sourceHash": "c6a3c09b9d6b4c053da6847ea613e02ea322377bad310cb8b4a29041d3303a53",
       "context": "Meeting transcription",
       "contextHash": "f5d082f97e9dfb596096318696a507760aea04335635ea49360116d86b11309a",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "__TRILIUM_PH_0__会議の文字起こしはベータ版です__TRILIUM_PH_1__",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_6f481de465008de96f5b3de7_0",
@@ -31,8 +45,15 @@
       "sourceHash": "6f481de465008de96f5b3de7ff85ff6a56798f566e8e572f18824e2ff54b88e2",
       "context": "Meeting transcription",
       "contextHash": "f5d082f97e9dfb596096318696a507760aea04335635ea49360116d86b11309a",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "会議の文字起こしは新機能であり、現在ベータ版です。すべてのオペレーティングシステム、オーディオ設定、会議アプリでテストされているわけではないため、音声のキャプチャに失敗したり、会議の一部が欠落したり、このページの説明とは異なる動作をしたりする可能性があります。重要な会議で使用する前に、まずは短い通話でお試しください。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_4055bd66ec68e310c022f6a2_0",
@@ -41,8 +62,15 @@
       "sourceHash": "4055bd66ec68e310c022f6a2d391ae221cc46946baeecb0e0f121f4460536609",
       "context": "Meeting transcription",
       "contextHash": "f5d082f97e9dfb596096318696a507760aea04335635ea49360116d86b11309a",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "もし動作しない場合は、ご使用のオペレーティングシステムと利用した会議アプリを明記の上、__TRILIUM_PH_0__問題を報告__TRILIUM_PH_1__してください。後述の__TRILIUM_PH_2__トラブルシューティング用に録音を保持する__TRILIUM_PH_3__オプションを有効にすると、問題の再現に必要なデータを保持できます。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_fd6c5baaf50d3961774f294c_0",
@@ -51,8 +79,15 @@
       "sourceHash": "fd6c5baaf50d3961774f294c6467b0d370d0315a7372ac73e2021b15b38913d6",
       "context": "Meeting transcription",
       "contextHash": "f5d082f97e9dfb596096318696a507760aea04335635ea49360116d86b11309a",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "会議の文字起こしは、会議の進行に合わせて音声をテキスト化します。Triliumはマイクからの音声とスピーカーを通じた他の参加者の発言を聞き取り、誰が何を言ったかを新しいノートに書き留めます。音声認識はすべてお使いのデバイス上で実行されるため、音声が外部に送信されることはありません（以下の__TRILIUM_PH_0__プライバシー__TRILIUM_PH_1__をご覧ください）。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_ca488751199ea923a798e9a8_0",
@@ -61,8 +96,15 @@
       "sourceHash": "ca488751199ea923a798e9a84a121ca3222079a3382b9a21d3246710ed59f4cc",
       "context": "Meeting transcription",
       "contextHash": "f5d082f97e9dfb596096318696a507760aea04335635ea49360116d86b11309a",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "会議の文字起こしは、デスクトップアプリケーションでのみ利用可能です。ブラウザ経由でTriliumにアクセスした場合や、モバイルアプリケーションでは利用できません。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_fbec3979342f2ea3376a2a50_0",
@@ -71,8 +113,15 @@
       "sourceHash": "fbec3979342f2ea3376a2a505abcf57f33b75c47457e16db6dc05596959c012a",
       "context": "Meeting transcription > Enabling meeting transcription",
       "contextHash": "637bfa4d60f755e174f7da7c92f1d1b0e7ddec59561f4c9dc3e1e743eb265497",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "会議の文字起こしの有効化__TRILIUM_PH_0__",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_d1fb26389ef837e1cf746607_0",
@@ -91,8 +140,15 @@
       "sourceHash": "46a495f0e75a5fe6ac66b9454a71b103daee7d009c584e897fcf02b446dc2982",
       "context": "Meeting transcription > Enabling meeting transcription",
       "contextHash": "637bfa4d60f755e174f7da7c92f1d1b0e7ddec59561f4c9dc3e1e743eb265497",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "音声認識モデルはTriliumの一部ではありません。初めて文字起こしを行う際、Triliumはモデルのダウンロードを求めます。サイズや管理方法については__TRILIUM_PH_0__ダウンロード済みリソース__TRILIUM_PH_1__をご覧ください。各デバイスが個別にコピーをダウンロードします。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_89583ec4071eeaaf48601322_0",
@@ -101,8 +157,15 @@
       "sourceHash": "89583ec4071eeaaf48601322f09c0d369382c578930c49b267cd1cf0a0f7ee75",
       "context": "Meeting transcription > Transcribing a meeting",
       "contextHash": "eeb9e154d3da7e8bd2b3874dd1a6c7b3c81b952e4a9cdca8dd2cf778f0694e7f",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "会議の文字起こしを行う__TRILIUM_PH_0__",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_7b5fdf9eea704d17121f0a0f_0",
@@ -121,8 +184,15 @@
       "sourceHash": "d0556f9b11977dc3d525f4273343d35b7cd36ac7259cee3ce1987fe0e2606c73",
       "context": "Meeting transcription > Transcribing a meeting",
       "contextHash": "eeb9e154d3da7e8bd2b3874dd1a6c7b3c81b952e4a9cdca8dd2cf778f0694e7f",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "モデルがまだダウンロードされていない場合は、ダウンロードを確認し、完了するまでお待ちください。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_26d3c216ffb2bb59f14c38b4_0",
@@ -131,8 +201,15 @@
       "sourceHash": "26d3c216ffb2bb59f14c38b44cbd293443b0cb32d32ef870afc7383620d7f811",
       "context": "Meeting transcription > Transcribing a meeting",
       "contextHash": "eeb9e154d3da7e8bd2b3874dd1a6c7b3c81b952e4a9cdca8dd2cf778f0694e7f",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "Triliumは現在の日時をタイトルとしたテキストノート（例: __TRILIUM_PH_0__Meeting 2026-10-15 14:30__TRILIUM_PH_1__）を__TRILIUM_PH_2__ノート受信箱__TRILIUM_PH_3__内に作成し、それを開いて文字起こしを開始します。文字起こし中、ボタンは__TRILIUM_PH_4__ __TRILIUM_PH_5__文字起こしを停止__TRILIUM_PH_6__ボタンに変わり、経過時間が表示されます。その隣には、会議の参加者全員に文字起こしを行っていることを知らせて同意を得るよう促すリマインダーが表示されます。このリマインダーは10秒後、またはクリックすると自動的に閉じます。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_391598f82127ad92285e62ca_0",
@@ -141,8 +218,15 @@
       "sourceHash": "391598f82127ad92285e62ca28ebe3fddc584fc5949ebe096d5aa6017044ab09",
       "context": "Meeting transcription > Transcribing a meeting",
       "contextHash": "eeb9e154d3da7e8bd2b3874dd1a6c7b3c81b952e4a9cdca8dd2cf778f0694e7f",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "文字起こしを終了するには、__TRILIUM_PH_0__ __TRILIUM_PH_1__文字起こしを停止__TRILIUM_PH_2__ボタンを押します。Triliumは、停止する前にすでに発言された内容の文字起こしを完了させます。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_1349ebc99bda5c23ee7a0a16_0",
@@ -151,8 +235,15 @@
       "sourceHash": "1349ebc99bda5c23ee7a0a16b66783a57be3815a837cd1f9c5571e2286b5747c",
       "context": "Meeting transcription > Transcribing a meeting",
       "contextHash": "eeb9e154d3da7e8bd2b3874dd1a6c7b3c81b952e4a9cdca8dd2cf778f0694e7f",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "一度に文字起こしできる会議は1つだけです。ノート自体は通常のテキストノートであり、会議中にメモを取ったり、名前を変更したり、ツリー内のどこかに移動したりすることができます。このノートには__TRILIUM_PH_0__ラベルが付与されます。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_361b484e220c84887f5b80e9_0",
@@ -161,8 +252,15 @@
       "sourceHash": "361b484e220c84887f5b80e96aeaaeb124c7485c46a2ee42fbc3bb9e4c91d092",
       "context": "Meeting transcription > Transcribing a meeting",
       "contextHash": "eeb9e154d3da7e8bd2b3874dd1a6c7b3c81b952e4a9cdca8dd2cf778f0694e7f",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "マイクまたは会議の音声の文字起こしが行われていない場合、Triliumはその旨と理由をメッセージで通知し、ボタンの時間が赤色に変わり、ボタンのツールチップに一部の音声が文字起こしされていないことが表示されます。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_5c96b440810980aa825299df_0",
@@ -171,8 +269,15 @@
       "sourceHash": "5c96b440810980aa825299df2600697f692ee1917b76b2f0e4313debec593bdc",
       "context": "Meeting transcription > Transcribing a meeting",
       "contextHash": "eeb9e154d3da7e8bd2b3874dd1a6c7b3c81b952e4a9cdca8dd2cf778f0694e7f",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "__TRILIUM_PH_0__キャプチャされていません__TRILIUM_PH_1__：マイクが存在しない、またはTriliumに画面および音声の録音が許可されていないなどにより、その音声なしで文字起こしが開始されました。マイクを接続するか録音を許可してから、文字起こしを停止して再度開始してください。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_6b3fe058043be3703d4ddba3_0",
@@ -181,8 +286,15 @@
       "sourceHash": "6b3fe058043be3703d4ddba3b50787fa630e7a663e5739f0a49eb60d9ab2596c",
       "context": "Meeting transcription > Transcribing a meeting",
       "contextHash": "eeb9e154d3da7e8bd2b3874dd1a6c7b3c81b952e4a9cdca8dd2cf778f0694e7f",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "__TRILIUM_PH_0__音声なし__TRILIUM_PH_1__：キャプチャが停止した場合のように、10秒間音声が届いていません。文字起こしを停止して再度開始してください。それまでに文字起こしされた内容は保持されます。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_9826175fb6f3b43a8c737a95_0",
@@ -191,8 +303,15 @@
       "sourceHash": "9826175fb6f3b43a8c737a9505a5243b6bbf8a486577f9e3581001be23d56cbb",
       "context": "Meeting transcription > Transcribing a meeting",
       "contextHash": "eeb9e154d3da7e8bd2b3874dd1a6c7b3c81b952e4a9cdca8dd2cf778f0694e7f",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "__TRILIUM_PH_0__無音のみ__TRILIUM_PH_1__：マイクからは15秒間、会議からは1分間、無音以外のデータが届いていません。システムの設定でミュートになっているマイクや、マイク自体のミュートボタンが原因で発生します。誰も話していない会議でも1分間続くと発生するため、他の音声が単に静かな状態である場合は、このメッセージを無視して構いません。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_8538f4f47d7f47003be4c1cb_0",
@@ -201,8 +320,15 @@
       "sourceHash": "8538f4f47d7f47003be4c1cb49139419166f2937304f24bc0b55090d5ed93659",
       "context": "Meeting transcription > Transcribing a meeting",
       "contextHash": "eeb9e154d3da7e8bd2b3874dd1a6c7b3c81b952e4a9cdca8dd2cf778f0694e7f",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "各メッセージは1回表示されます。__TRILIUM_PH_0__音声なし__TRILIUM_PH_1__および__TRILIUM_PH_2__無音のみ__TRILIUM_PH_3__は、再び音声が届くと自動的に消えます。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_04f957f04bb99fc3350fb4df_0",
@@ -211,8 +337,15 @@
       "sourceHash": "04f957f04bb99fc3350fb4df74ab5bba196302302e0d839e21acbf440ab0fa83",
       "context": "Meeting transcription > Transcribing a meeting",
       "contextHash": "eeb9e154d3da7e8bd2b3874dd1a6c7b3c81b952e4a9cdca8dd2cf778f0694e7f",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "音声がキャプチャできなくなったなどの理由で文字起こしが自動的に停止した場合、Triliumはメッセージを表示し、それまでに文字起こしされた内容をすべて保持します。会議中にTriliumを閉じると、まず文字起こしが完了するまで待機します。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_04a4afc0c745b15150827629_0",
@@ -221,8 +354,15 @@
       "sourceHash": "04a4afc0c745b15150827629f09bc58b0a6cefd5e4758267b642bf361d185ec9",
       "context": "Meeting transcription > The transcript",
       "contextHash": "a594811e4fa31edba221603a68933f2e3b69b16893ff5619778e1f76853c8bb4",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "文字起こし__TRILIUM_PH_0__",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_9324cd2dc52029b827a1424a_0",
@@ -231,8 +371,15 @@
       "sourceHash": "9324cd2dc52029b827a1424a5ba1efe77a2ff455744958a3f02c693c0642ba9f",
       "context": "Meeting transcription > The transcript",
       "contextHash": "a594811e4fa31edba221603a68933f2e3b69b16893ff5619778e1f76853c8bb4",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "文字起こしは会議ノートの__TRILIUM_PH_0__添付ファイル__TRILIUM_PH_1__として保存され、ノートのコンテンツの上部にある折りたたみ可能な__TRILIUM_PH_2__文字起こし__TRILIUM_PH_3__セクションに表示されます。会議の進行に合わせて、話者の発言ごとに開始時刻を添えて1段落ずつ更新されます。文字起こし中、__TRILIUM_PH_4__文字起こし__TRILIUM_PH_5__セクションのヘッダーにはマイク（__TRILIUM_PH_6__自分__TRILIUM_PH_7__）と会議の音声（__TRILIUM_PH_8__その他__TRILIUM_PH_9__）のレベルが表示されるため、セクションが折りたたまれている状態でも両方が聞こえていることが分かります。文字起こしされていないソースには、__TRILIUM_PH_10__キャプチャされていません__TRILIUM_PH_11__、__TRILIUM_PH_12__音声なし__TRILIUM_PH_13__、または__TRILIUM_PH_14__無音のみ__TRILIUM_PH_15__のマークが表示されます。誰かが話している間は、言葉が文字起こしされるまでその名前の下に__TRILIUM_PH_16__発話中...__TRILIUM_PH_17__が表示されます。文字起こしの末尾を表示している場合、新しいテキストに追従してスクロールします。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_938a1013a7ddaabcdda571cd_0",
@@ -241,8 +388,15 @@
       "sourceHash": "938a1013a7ddaabcdda571cdf8597a467b86a64a871f07e3ab14867ae7770ecb",
       "context": "Meeting transcription > The transcript",
       "contextHash": "a594811e4fa31edba221603a68933f2e3b69b16893ff5619778e1f76853c8bb4",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "__TRILIUM_PH_0__文字起こし__TRILIUM_PH_1__セクションは、ノートが開かれるたびに展開されます。折りたたむにはヘッダーをクリックします。次にノートを開くまで折りたたまれた状態が維持されます。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_e67f1cf2458f5647ebb61f7f_0",
@@ -251,8 +405,15 @@
       "sourceHash": "e67f1cf2458f5647ebb61f7f5a02e19e59f66966468d840abde678b82c8f75a9",
       "context": "Meeting transcription > The transcript",
       "contextHash": "a594811e4fa31edba221603a68933f2e3b69b16893ff5619778e1f76853c8bb4",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "文字起こしは、ノートの添付ファイル内にある__TRILIUM_PH_0__Triliumによる生成__TRILIUM_PH_1__にも一覧表示されます。そこから開いても、同じ文字起こしビューが表示されます。添付ファイルを削除すると文字起こしが削除され、セクションがノートから消えます。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_613a91a30491905a50291d6f_0",
@@ -261,8 +422,15 @@
       "sourceHash": "613a91a30491905a50291d6f648233d0681fd3b2876888d384d2986f8a270285",
       "context": "Meeting transcription > The transcript",
       "contextHash": "a594811e4fa31edba221603a68933f2e3b69b16893ff5619778e1f76853c8bb4",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "マイクに向かって話した内容は、__TRILIUM_PH_0__自分__TRILIUM_PH_1__とラベル付けされます。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_1179fd13525816a80dd5f8a5_0",
@@ -281,8 +449,15 @@
       "sourceHash": "8abaef45f8d3b4af7de0ad52d3876c0829a6910842b2e6031da9dbcfad685ef4",
       "context": "Meeting transcription > The transcript",
       "contextHash": "a594811e4fa31edba221603a68933f2e3b69b16893ff5619778e1f76853c8bb4",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "話者に名前を付けるには、その名前をクリックして新しい名前を入力し、__TRILIUM_PH_0__Enter__TRILIUM_PH_1__を押します。その話者のすべての発言で名前が変更されます。キャンセルするには__TRILIUM_PH_2__Esc__TRILIUM_PH_3__を押すか、名前を空にしてデフォルトに戻します。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_fa5195a6a36daf34560c4d5f_0",
@@ -291,8 +466,15 @@
       "sourceHash": "fa5195a6a36daf34560c4d5f8238867d363a82f4052affaaa2050e8d2568d302",
       "context": "Meeting transcription > The transcript",
       "contextHash": "a594811e4fa31edba221603a68933f2e3b69b16893ff5619778e1f76853c8bb4",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "「えー」や「あの」、言い淀んだ言葉などのフィラーを含めるか含めずに文字起こしを表示するには、その上部にある__TRILIUM_PH_0__ __TRILIUM_PH_1__フィラーワードを非表示__TRILIUM_PH_2__ボタンを押します。非表示の間はボタンが押された状態で表示されます。表示されている間はグレーアウトされるため、非表示にすると何が削除されるかを確認できます。これは表示にのみ影響し、保存された文字起こしにはすべての単語が保持されます。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_e498fa975c1f541616031139_0",
@@ -301,8 +483,15 @@
       "sourceHash": "e498fa975c1f541616031139ad60fa138cb45382440060c8bd75034cf61e1daf",
       "context": "Meeting transcription > The transcript",
       "contextHash": "a594811e4fa31edba221603a68933f2e3b69b16893ff5619778e1f76853c8bb4",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "文字起こしをプレーンテキストとしてコピーするには、その上部にある__TRILIUM_PH_0__ __TRILIUM_PH_1__文字起こしをコピー__TRILIUM_PH_2__ボタンを押します。表示されている通り、各発言は話者の名前と開始時刻付きでコピーされるため、フィラーワードが非表示の場合はそれらが除外されてコピーされます。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_e222bf3e92d145d7597e56d0_0",
@@ -311,8 +500,15 @@
       "sourceHash": "e222bf3e92d145d7597e56d032cdb8e8da7ed32adf444a9bda919fff21e2d57c",
       "context": "Meeting transcription > The transcript",
       "contextHash": "a594811e4fa31edba221603a68933f2e3b69b16893ff5619778e1f76853c8bb4",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "会議ノートが__TRILIUM_PH_0__保護__TRILIUM_PH_1__されており、会議中に保護セッションがロックされた場合、文字起こしを保存できません。Triliumを開いたままにしておけば、Triliumがメモリ内に保持し、再び保護セッションに入ったときに保存されます。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_91e318d9b9bed0d1467013a3_0",
@@ -321,8 +517,15 @@
       "sourceHash": "91e318d9b9bed0d1467013a3e6d72d61f50dc1076d2d68cc43d0cdd7e4947ffe",
       "context": "Meeting transcription > Configuration",
       "contextHash": "0227e57f66b5c92029d02cefa17bfce120747281f7af71632430d978aaba396e",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "設定__TRILIUM_PH_0__",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_0088ac5cac88a60c041f28ba_0",
@@ -331,8 +534,15 @@
       "sourceHash": "0088ac5cac88a60c041f28ba5f916cb9e39774e877fc54d123be9500971ecb54",
       "context": "Meeting transcription > Configuration",
       "contextHash": "0227e57f66b5c92029d02cefa17bfce120747281f7af71632430d978aaba396e",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "設定は __TRILIUM_PH_0__Options__TRILIUM_PH_1__ → __TRILIUM_PH_2__Transcription__TRILIUM_PH_3__ にあり、__TRILIUM_PH_4__Meeting transcription__TRILIUM_PH_5__ が有効になると表示されます。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_d579a9eaca8575072adddb46_0",
@@ -341,8 +551,15 @@
       "sourceHash": "d579a9eaca8575072adddb4661824a0869e44fab5d947cb13a13e8df6a00e6d7",
       "context": "Meeting transcription > Configuration",
       "contextHash": "0227e57f66b5c92029d02cefa17bfce120747281f7af71632430d978aaba396e",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "オプション",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_4b00baa636b92e18b7a75884_0",
@@ -351,8 +568,15 @@
       "sourceHash": "4b00baa636b92e18b7a75884790f0769c3e702d20d8822e708f69ab2f07c7103",
       "context": "Meeting transcription > Configuration",
       "contextHash": "0227e57f66b5c92029d02cefa17bfce120747281f7af71632430d978aaba396e",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "説明",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_5cd7cc01eda6f0dcdd16d4b8_0",
@@ -361,8 +585,15 @@
       "sourceHash": "5cd7cc01eda6f0dcdd16d4b849b5b616239cb617964d39c0e932b56a83f7eb2d",
       "context": "Meeting transcription > Configuration",
       "contextHash": "0227e57f66b5c92029d02cefa17bfce120747281f7af71632430d978aaba396e",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "__TRILIUM_PH_0__欧州言語__TRILIUM_PH_1__",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_ed2d42c2d258556d5c18ef92_0",
@@ -381,8 +612,15 @@
       "sourceHash": "27ffe5af28730c84aa2b0bbccb771c1c6cd22192161f745c37a32828f0995a86",
       "context": "Meeting transcription > Configuration",
       "contextHash": "0227e57f66b5c92029d02cefa17bfce120747281f7af71632430d978aaba396e",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "__TRILIUM_PH_0__話者の識別__TRILIUM_PH_1__",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_9c8a1203a67e67b0f4aaf2a0_0",
@@ -391,8 +629,15 @@
       "sourceHash": "9c8a1203a67e67b0f4aaf2a0ceaf78cab0cdddd1f45aa93a8804339a6b0d59f2",
       "context": "Meeting transcription > Configuration",
       "contextHash": "0227e57f66b5c92029d02cefa17bfce120747281f7af71632430d978aaba396e",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "TitaNet モデルを使用して、他の参加者を識別し、それぞれに個別のラベルを付けます。声の比較は会議中のみ行われます。声に関する情報は一切保存されず、別の会議の間で同一人物として認識されることもありません。声の識別が正しく行われない場合は、この機能をオフにしてください。この変更は次回の会議から適用されます。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_1aec1a51c9554ac165c9a2db_0",
@@ -401,8 +646,15 @@
       "sourceHash": "1aec1a51c9554ac165c9a2dbecb55e01943a1f7d11e564c6c4a25ba7404990cd",
       "context": "Meeting transcription > Configuration",
       "contextHash": "0227e57f66b5c92029d02cefa17bfce120747281f7af71632430d978aaba396e",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "__TRILIUM_PH_0__トラブルシューティング用に録音を保持する__TRILIUM_PH_1__",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_90c1ef156f14c3a134c6bb64_0",
@@ -411,8 +663,15 @@
       "sourceHash": "90c1ef156f14c3a134c6bb64194dd55c43a6e22d243a8582fa40cc6daf7c3768",
       "context": "Meeting transcription > Configuration",
       "contextHash": "0227e57f66b5c92029d02cefa17bfce120747281f7af71632430d978aaba396e",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "問題の報告と再現を行えるよう、会議の音声、使用された設定、および生成されたままの書き起こしテキストを保持します。会議 1 時間あたり約 230 MB の容量を消費し、自動的に削除されることはありません。保存先フォルダはオプションの下部に表示されます。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_c0dd36b685dd4b7d0734b019_0",
@@ -421,8 +680,15 @@
       "sourceHash": "c0dd36b685dd4b7d0734b019f61425e87a6a67f8bf36fbca80cd42f1b880f40a",
       "context": "Meeting transcription > Configuration",
       "contextHash": "0227e57f66b5c92029d02cefa17bfce120747281f7af71632430d978aaba396e",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "__TRILIUM_PH_0__トラブルシューティング用に録音を保持する__TRILIUM_PH_1__ を有効にする前に、会議に参加している全員から録音の同意を得てください。多くの国や米国の州では、全員の同意なしに会話を録音することは刑事犯罪となります。音声は保護されたノートであっても暗号化されずに保存されます。このオプションがオンの間は、__TRILIUM_PH_2__Transcribe meeting__TRILIUM_PH_3__ ボタンのツールチップにその旨が表示され、書き起こし開始時に表示されるリreminderでも音声が保持されることが言及されます。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_1f9a7e87ce601d710a071c69_0",
@@ -431,8 +697,15 @@
       "sourceHash": "1f9a7e87ce601d710a071c69d546af3f39e2befe711c491fcb0f9c9362be4784",
       "context": "Meeting transcription > Configuration",
       "contextHash": "0227e57f66b5c92029d02cefa17bfce120747281f7af71632430d978aaba396e",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "モデルのサイズとライセンスは、__TRILIUM_PH_0__Downloaded resources__TRILIUM_PH_1__ に記載されています。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_52909e869264e780a09f7b2b_0",
@@ -441,8 +714,15 @@
       "sourceHash": "52909e869264e780a09f7b2bc319038511c8d7582876998a5cf96935e1f9f78b",
       "context": "Meeting transcription > Privacy",
       "contextHash": "069bbf668fa926f8faf964224583366cb8a52b6200a60b8ec01abd6a77d459ce",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "プライバシー__TRILIUM_PH_0__",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_d5e6d68cf4ce45e17a7e2cbb_0",
@@ -451,8 +731,15 @@
       "sourceHash": "d5e6d68cf4ce45e17a7e2cbbb0ad46626cec5ce0d086d7890ba041ec32cc2371",
       "context": "Meeting transcription > Privacy",
       "contextHash": "069bbf668fa926f8faf964224583366cb8a52b6200a60b8ec01abd6a77d459ce",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "Meeting transcription はオンラインサービスを使用しません：",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_0290a5771228b453d2f0320b_0",
@@ -461,8 +748,15 @@
       "sourceHash": "0290a5771228b453d2f0320b04d3e1839fd727d5c1fc3d86da2b6efe31c377db",
       "context": "Meeting transcription > Privacy",
       "contextHash": "069bbf668fa926f8faf964224583366cb8a52b6200a60b8ec01abd6a77d459ce",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "音声は、オープンソースの sherpa-onnx エンジンによりお使いのデバイス上で認識されます。Trilium は音声や書き起こしテキストをいかなるオンラインサービスにも送信せず、アカウントや API キーも必要ありません。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_5ee4b4422959a3e9a1782d3a_0",
@@ -471,8 +765,15 @@
       "sourceHash": "5ee4b4422959a3e9a1782d3abcd1c5924976161fca7e7f61e4ccb43305023e9d",
       "context": "Meeting transcription > Privacy",
       "contextHash": "069bbf668fa926f8faf964224583366cb8a52b6200a60b8ec01abd6a77d459ce",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "インターネット接続が必要なのは、Hugging Face および GitHub の sherpa-onnx プロジェクトからモデルをダウンロードする場合のみです。ダウンロード後は、Meeting transcription はオフラインで動作します。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_e68ea78791ac5a8392c5a01f_0",
@@ -481,8 +782,15 @@
       "sourceHash": "e68ea78791ac5a8392c5a01f9c5be949da2c10b2536f3a8927fb2ee5a6be083c",
       "context": "Meeting transcription > Privacy",
       "contextHash": "069bbf668fa926f8faf964224583366cb8a52b6200a60b8ec01abd6a77d459ce",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "話者の識別は、会議中のみ声の比較を行います。声に関する情報は一切保存されません。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_af18f756806fd4a3bcfc0d3c_0",
@@ -640,6 +948,24 @@
         ],
         "serviceTier": "standard"
       }
+    },
+    {
+      "at": "2026-11-14T14:14:05.465Z",
+      "model": "gemini-3.5-flash-lite",
+      "batchJob": "batches/8vehrrvdpag09tp4gjf9dbgj006t9k2gkkyl",
+      "requestKey": "Y84QCbArmK3z_ce6eb3861aa7c040"
+    },
+    {
+      "at": "2026-11-14T14:14:05.465Z",
+      "model": "gemini-3.5-flash-lite",
+      "batchJob": "batches/8vehrrvdpag09tp4gjf9dbgj006t9k2gkkyl",
+      "requestKey": "Y84QCbArmK3z_7626ddc7e54ceb80"
+    },
+    {
+      "at": "2026-11-14T14:14:05.465Z",
+      "model": "gemini-3.5-flash-lite",
+      "batchJob": "batches/8vehrrvdpag09tp4gjf9dbgj006t9k2gkkyl",
+      "requestKey": "Y84QCbArmK3z_e4c190c7a617afdb"
     }
   ]
 }

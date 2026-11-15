@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "pageId": "fZ2IGYFXjkEy",
   "sourceFile": "docs/User Guide/User Guide/Scripting/Backend scripts/Server-side imports.md",
-  "sourceRevision": "f9d13f6c63cadab8586cbd99a6949884087fe858",
+  "sourceRevision": "da5ab9cbf710478275ec99c1fb39e0454359591b",
   "units": [
     {
       "id": "u_aa87356a0ee2aa21a3a4a612_0",
@@ -11,8 +11,15 @@
       "sourceHash": "aa87356a0ee2aa21a3a4a6128a0b5b75b98c24e39ff9aa235aa45f63ede87ecf",
       "context": "Server-side imports",
       "contextHash": "db79e7f0117a962633b0c86cd0fba14c167e94aff37988e1708ec6ca999f88df",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "サーバーサイドインポート",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_0b9921a3784df294e81ee0e6_0",
@@ -21,8 +28,15 @@
       "sourceHash": "0b9921a3784df294e81ee0e67e33343ce2764a4fd7b4471f530c758903062932",
       "context": "Server-side imports",
       "contextHash": "db79e7f0117a962633b0c86cd0fba14c167e94aff37988e1708ec6ca999f88df",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "古いバージョンのTrilium Notesでは、バックエンドスクリプト内で次のようなCommon.jsモジュールのインポートを使用することが許可されていました：",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_f87b708bdd5caac0c8487a00_0",
@@ -31,8 +45,15 @@
       "sourceHash": "f87b708bdd5caac0c8487a00d9a692ac6802ef75662ae77ae861e325c8668e78",
       "context": "Server-side imports",
       "contextHash": "db79e7f0117a962633b0c86cd0fba14c167e94aff37988e1708ec6ca999f88df",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "新しいバージョンでは、依存関係の再利用を困難にするバンドラーを追加したため、Node.jsのインポートは__TRILIUM_PH_0__公式にはサポートされなくなりました__TRILIUM_PH_1__。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_98959fef03cb040da19300c8_0",
@@ -45,5 +66,12 @@
       "active": true
     }
   ],
-  "requests": []
+  "requests": [
+    {
+      "at": "2026-11-14T14:14:05.465Z",
+      "model": "gemini-3.5-flash-lite",
+      "batchJob": "batches/8vehrrvdpag09tp4gjf9dbgj006t9k2gkkyl",
+      "requestKey": "fZ2IGYFXjkEy_f4613a4b98cd2633"
+    }
+  ]
 }

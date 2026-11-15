@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "pageId": "m523cpzocqaD",
   "sourceFile": "docs/User Guide/User Guide/Note Types/Saved Search.md",
-  "sourceRevision": "f9d13f6c63cadab8586cbd99a6949884087fe858",
+  "sourceRevision": "da5ab9cbf710478275ec99c1fb39e0454359591b",
   "units": [
     {
       "id": "u_3fa1901f7e8497c4275b1f88_0",
@@ -11,8 +11,15 @@
       "sourceHash": "3fa1901f7e8497c4275b1f8883c235e7dd46c13f1f173d4dc0a9ad8c8680873d",
       "context": "Saved Search",
       "contextHash": "9b2b20ae76cce84582e1495ef1ab037fd4ffd93ebfb5a0c20975d9f944fcb06f",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "保存された検索",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_c05df1e96029cb6b76e79963_0",
@@ -21,8 +28,15 @@
       "sourceHash": "c05df1e96029cb6b76e799631e376b7ec273e69d0c8f52330ff9fb3a975717e1",
       "context": "Saved Search",
       "contextHash": "9b2b20ae76cce84582e1495ef1ab037fd4ffd93ebfb5a0c20975d9f944fcb06f",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "Triliumでは、よく使う検索条件をノートツリー内のノートとして保存できます。検索結果は、これらの「保存された検索」ノートの下位ノートとして表示されます。動作例は以下の通りです：",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_4984c6387ad262c28d98dfd5_0",
@@ -31,8 +45,15 @@
       "sourceHash": "4984c6387ad262c28d98dfd542350bb8919a27bfda4ec6e252c814902580d4d7",
       "context": "Saved Search",
       "contextHash": "9b2b20ae76cce84582e1495ef1ab037fd4ffd93ebfb5a0c20975d9f944fcb06f",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "保存された検索は、開いたときおよびノートツリーで展開したときに実行されます。起動時に復元されるバックグラウンドタブなど、表示されていないタブ内の保存された検索は、そのタブに切り替えたときに実行されます。検索結果は、検索パラメータの __TRILIUM_PH_0__Search__TRILIUM_PH_1__ ボタンで再度検索を実行するまで保持されます。クエリにエラーがある場合は、通知として表示されます。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_b13d09159c1eb21f8134dac3_0",
@@ -41,8 +62,15 @@
       "sourceHash": "b13d09159c1eb21f8134dac32dc99e7a38bff7fe7bd8fcf81365287c2cae6673",
       "context": "Saved Search",
       "contextHash": "9b2b20ae76cce84582e1495ef1ab037fd4ffd93ebfb5a0c20975d9f944fcb06f",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "__TRILIUM_PH_0__Safe mode__TRILIUM_PH_1__ 中や、リクエストが失敗した場合には、検索は自動的に実行されません。__TRILIUM_PH_2__Search now__TRILIUM_PH_3__ を押して実行してください。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_f0b873a54c056d2e81371a27_0",
@@ -61,8 +89,15 @@
       "sourceHash": "9ac58578d5b986114bcf2349341e819cafb37a5445f3f08688a87ddb8fe2b76d",
       "context": "Saved Search > Location",
       "contextHash": "4637387c0899c385214f3e485fcc41d23211820c28d2647174ca07be21f36bf9",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "保存場所__TRILIUM_PH_0__",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_643b856a91c2e4aa1750c680_0",
@@ -71,8 +106,15 @@
       "sourceHash": "643b856a91c2e4aa1750c680b336c8253487f6bb11add3a60e49f83d1568fa4c",
       "context": "Saved Search > Location",
       "contextHash": "4637387c0899c385214f3e485fcc41d23211820c28d2647174ca07be21f36bf9",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "デフォルトでは、保存された検索はデイリーノートに保存されます。ただし、__TRILIUM_PH_0__ ラベルを指定することで、保存された検索を格納する別のノートを指定できます。さらに、__TRILIUM_PH_1__ワークスペース__TRILIUM_PH_2__ の場合は、__TRILIUM_PH_3__ ラベルを使用して、そのワークスペース内の保存された検索の保存場所を指定できます。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_b190d47815633246b0ab18a6_0",
@@ -81,9 +123,23 @@
       "sourceHash": "b190d47815633246b0ab18a61d9b8e8ea36504fe3f8bc230a7753096915c9ff2",
       "context": "Saved Search > Location",
       "contextHash": "4637387c0899c385214f3e485fcc41d23211820c28d2647174ca07be21f36bf9",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "記事画像",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     }
   ],
-  "requests": []
+  "requests": [
+    {
+      "at": "2026-11-14T14:14:05.465Z",
+      "model": "gemini-3.5-flash-lite",
+      "batchJob": "batches/8vehrrvdpag09tp4gjf9dbgj006t9k2gkkyl",
+      "requestKey": "m523cpzocqaD_a202d067f21b429c"
+    }
+  ]
 }

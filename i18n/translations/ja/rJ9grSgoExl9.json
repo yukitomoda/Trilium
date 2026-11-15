@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "pageId": "rJ9grSgoExl9",
   "sourceFile": "docs/User Guide/User Guide/Basic Concepts and Features/Import & Export/Markdown/Supported syntax.md",
-  "sourceRevision": "f9d13f6c63cadab8586cbd99a6949884087fe858",
+  "sourceRevision": "da5ab9cbf710478275ec99c1fb39e0454359591b",
   "units": [
     {
       "id": "u_f983eeb5adb0c15b64e65f4a_0",
@@ -283,8 +283,15 @@
       "sourceHash": "98b7b3406795a5f5ccfd724b3854594bc58969cfd023fc10bb9bc580533f0977",
       "context": "Supported syntax > Tabs",
       "contextHash": "c062f4fc550a4af17f85b81f338cafa7e543ac3a6977e9d8851a4153f34513f1",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "タブには __TRILIUM_PH_0__Material for MkDocs__TRILIUM_PH_1__ の構文を使用します。各タブは __TRILIUM_PH_2__ 行で始まり、その後に4スペースでインデントされたコンテンツが続きます。連続したタブは1つのタブブロックを形成し、__TRILIUM_PH_3__ を使用すると直ぐに新しいブロックを開始できます。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T16:50:34.717Z"
     },
     {
       "id": "u_d9dd55d49ad8fee40c9243f8_0",
@@ -293,8 +300,15 @@
       "sourceHash": "d9dd55d49ad8fee40c9243f89e2c769dfa237872b1b1d87999af86abf7f6d361",
       "context": "Supported syntax > Tabs",
       "contextHash": "c062f4fc550a4af17f85b81f338cafa7e543ac3a6977e9d8851a4153f34513f1",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "タブのコンテンツ内に内側のタブをインデントしてネストさせることができます。タブのタイトルはプレーンテキストであるため、エクスポート時に書式は保持されません。テキストノートでのタブブロックの動作については、__TRILIUM_PH_0__Content tabs__TRILIUM_PH_1__ を参照してください。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T16:50:34.717Z"
     },
     {
       "id": "u_48683537ad7e13f4569dc807_0",
@@ -303,8 +317,15 @@
       "sourceHash": "48683537ad7e13f4569dc807ce0fbafe89157d7469be013f2ed093fc251c5fb3",
       "context": "Supported syntax > Wikilinks",
       "contextHash": "5bd1365d66cf0a2f9ab351103aea279e32efd3448c62153c481ffacd787d848d",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "Wikiリンク__TRILIUM_PH_0__",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T16:50:34.717Z"
     },
     {
       "id": "u_210db54b98c12f43c70e1c58_0",
@@ -313,8 +334,15 @@
       "sourceHash": "210db54b98c12f43c70e1c587c281820ba3b0c1e92647668ed0683c696b5add5",
       "context": "Supported syntax > Wikilinks",
       "contextHash": "5bd1365d66cf0a2f9ab351103aea279e32efd3448c62153c481ffacd787d848d",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "v0.96.0でWikiリンクの基本的なサポートが追加されました：",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T16:50:34.717Z"
     },
     {
       "id": "u_e476dbbcfd222f10b48d4a93_0",
@@ -343,8 +371,15 @@
       "sourceHash": "56041a14fe98bc166f950a79c446356a2e82bf812b2ba9ab9fa002c9d849b5ed",
       "context": "Supported syntax > Wikilinks",
       "contextHash": "5bd1365d66cf0a2f9ab351103aea279e32efd3448c62153c481ffacd787d848d",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "この機能はインポート専用です。つまり、WikiリンクをTrilium互換の構文に変換しますが、Trilium Notesをこの構文を使ったMarkdownファイルにエクスポートすることはしません。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T16:50:34.717Z"
     },
     {
       "id": "u_9582f34a40267144ccd474e6_0",
@@ -353,8 +388,15 @@
       "sourceHash": "9582f34a40267144ccd474e6d5454a354c29d2b25f759b29e7a8119cf3f96119",
       "context": "Supported syntax > Wikilinks",
       "contextHash": "5bd1365d66cf0a2f9ab351103aea279e32efd3448c62153c481ffacd787d848d",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "Wikiリンクにおけるページへのパスは、ノートの現在のディレクトリではなく、__TRILIUM_PH_0__インポートのルート__TRILIUM_PH_1__からの相対パスとして解決されます。これは、SilverBulletなどのWikiリンクを使用する他のプラットフォームと合わせるためです。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T16:50:34.717Z"
     },
     {
       "id": "u_9fd7a44fc74096e51bfd26f3_0",
@@ -363,8 +405,15 @@
       "sourceHash": "9fd7a44fc74096e51bfd26f3b2622b0dc5136a95d251d296a0e4832c0b11fdbd",
       "context": "Supported syntax > Wikilinks",
       "contextHash": "5bd1365d66cf0a2f9ab351103aea279e32efd3448c62153c481ffacd787d848d",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "インポートのルートパスは次のように決定されます：",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T16:50:34.717Z"
     },
     {
       "id": "u_1a0f1310238ae71d83058782_0",
@@ -373,8 +422,15 @@
       "sourceHash": "1a0f1310238ae71d83058782b5b3ba77cb8b6e61732421dd1b4978e883e6e3e5",
       "context": "Supported syntax > Wikilinks",
       "contextHash": "5bd1365d66cf0a2f9ab351103aea279e32efd3448c62153c481ffacd787d848d",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "ルートレベルにアーカイブ内の単一のディレクトリが存在する場合、そのディレクトリがルートとみなされます。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T16:50:34.717Z"
     },
     {
       "id": "u_70ff549c4272abbaca435fc9_0",
@@ -383,8 +439,15 @@
       "sourceHash": "70ff549c4272abbaca435fc9dd64b2ecf6fb93bc71788a7e476883f240e6435f",
       "context": "Supported syntax > Wikilinks",
       "contextHash": "5bd1365d66cf0a2f9ab351103aea279e32efd3448c62153c481ffacd787d848d",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "ルートレベルに複数のファイルとディレクトリが存在する場合、（これらすべてのアイテムを含む）アーカイブのルートがルートとみなされます。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T16:50:34.717Z"
     },
     {
       "id": "u_aa900c418306ff940e94ede4_0",
@@ -393,8 +456,15 @@
       "sourceHash": "aa900c418306ff940e94ede4690815759f60ff5116efaced9825dc9480c458d2",
       "context": "Supported syntax > Highlights",
       "contextHash": "2300722d598345c0157a7e2b5ab2ec3e5d977f740ac5972edae0c0c13379c012",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "ハイライト__TRILIUM_PH_0__",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T16:50:34.717Z"
     },
     {
       "id": "u_bd478e7fa219b92af145a971_0",
@@ -403,8 +473,15 @@
       "sourceHash": "bd478e7fa219b92af145a9719c97fbd332894a189679e6d3fbe72cc4944a2455",
       "context": "Supported syntax > Highlights",
       "contextHash": "2300722d598345c0157a7e2b5ab2ec3e5d977f740ac5972edae0c0c13379c012",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "背景のハイライトは2つの方法でサポートされています：",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T16:50:34.717Z"
     },
     {
       "id": "u_b23113c02557f643b138edb9_0",
@@ -413,8 +490,15 @@
       "sourceHash": "b23113c02557f643b138edb908a1937b5d5aa0ce21f1ee974c83bb78d22788c9",
       "context": "Supported syntax > Highlights",
       "contextHash": "2300722d598345c0157a7e2b5ab2ec3e5d977f740ac5972edae0c0c13379c012",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "Obsidianなどの他のMarkdownベースのアプリケーションでサポートされているMarkdown __TRILIUM_PH_0__ 拡張機能：",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T16:50:34.717Z"
     },
     {
       "id": "u_732d127567855e61c6230cc9_0",
@@ -423,8 +507,15 @@
       "sourceHash": "732d127567855e61c6230cc9ff642bdc19bab63b08caeafd78374c3968ba9002",
       "context": "Supported syntax > Highlights",
       "contextHash": "2300722d598345c0157a7e2b5ab2ec3e5d977f740ac5972edae0c0c13379c012",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "Triliumでサポートされている、ハイライトの標準的なHTML表現：",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T16:50:34.717Z"
     },
     {
       "id": "u_6450a0432c5d9268149745fb_0",
@@ -433,8 +524,15 @@
       "sourceHash": "6450a0432c5d9268149745fb881f3152fe35b87f09b0a0aefefae497ef304bf2",
       "context": "Supported syntax > Highlights",
       "contextHash": "2300722d598345c0157a7e2b5ab2ec3e5d977f740ac5972edae0c0c13379c012",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "黄色のハイライトが使用されている場合、インポート/エクスポートでは __TRILIUM_PH_0__ 構文が優先され、それ以外の場合は標準的なHTML表現が使用されます。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T16:50:34.717Z"
     }
   ],
   "requests": [
@@ -456,6 +554,18 @@
         ],
         "serviceTier": "standard"
       }
+    },
+    {
+      "at": "2026-11-14T14:14:05.465Z",
+      "model": "gemini-3.5-flash-lite",
+      "batchJob": "batches/8vehrrvdpag09tp4gjf9dbgj006t9k2gkkyl",
+      "requestKey": "rJ9grSgoExl9_93b2b912501ab69c"
+    },
+    {
+      "at": "2026-11-14T16:50:34.717Z",
+      "model": "gemini-3.5-flash-lite",
+      "batchJob": "batches/wazxmzaiela6jn8aqd7kybq00i98rm3g571n",
+      "requestKey": "rJ9grSgoExl9_93b2b912501ab69c"
     }
   ]
 }

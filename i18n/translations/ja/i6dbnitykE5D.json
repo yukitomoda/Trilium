@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "pageId": "i6dbnitykE5D",
   "sourceFile": "docs/User Guide/User Guide/FAQ.md",
-  "sourceRevision": "f9d13f6c63cadab8586cbd99a6949884087fe858",
+  "sourceRevision": "da5ab9cbf710478275ec99c1fb39e0454359591b",
   "units": [
     {
       "id": "u_17eb3cbda8daecbb04b8eac7_0",
@@ -555,8 +555,15 @@
       "sourceHash": "7f7c7b321ac67b3629aefaa5f9572953f2b2130d9f9113b7c17b1f0c934ad9b2",
       "context": "FAQ > Search-related Questions > Why do some search results appear before others with lower scores?",
       "contextHash": "910dca4520623e0db2f396ca57ad3b3cd1d0767de05e5ff617c84d024cafc7fe",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "Trilium は、ファジー一致よりも完全一致を優先します。「project」を検索した場合、他のスコアリング要因に関係なく、「projects」や「projection」のようなバリエーションを含むノートよりも、「project」という単語を正確に含むノートが先に表示されます。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T16:50:34.717Z"
     },
     {
       "id": "u_a68cec52386720bbfd1e51ee_0",
@@ -565,8 +572,15 @@
       "sourceHash": "a68cec52386720bbfd1e51ee70862f33eae9cdc1d09f1c7f40bc4c11a2bbb92a",
       "context": "FAQ > Search-related Questions > How can I make my searches faster?",
       "contextHash": "1d6c2609c4de175bca2f827625451ac4242a7f84477d13f17f66b27cc9d2c8fe",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "「高速検索」オプションを使用すると、コンテンツではなくタイトルと属性のみを検索対象にできます。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T16:50:34.717Z"
     },
     {
       "id": "u_2062e36caa764d578cfa3872_0",
@@ -575,8 +589,15 @@
       "sourceHash": "2062e36caa764d578cfa387237f3671e9382df5894e6afaabd2c3529b1bf657f",
       "context": "FAQ > Search-related Questions > How can I make my searches faster?",
       "contextHash": "1d6c2609c4de175bca2f827625451ac4242a7f84477d13f17f66b27cc9d2c8fe",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "「上位ノート」フィールドを使用して検索範囲を絞り込みます。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T16:50:34.717Z"
     },
     {
       "id": "u_45372e2f783ebb76b0c5b920_0",
@@ -585,8 +606,15 @@
       "sourceHash": "45372e2f783ebb76b0c5b920a51a69075848b5260e33a981edbeaa9261640499",
       "context": "FAQ > Search-related Questions > How can I make my searches faster?",
       "contextHash": "1d6c2609c4de175bca2f827625451ac4242a7f84477d13f17f66b27cc9d2c8fe",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "結果が多すぎないように、結果の上限を設定します。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T16:50:34.717Z"
     },
     {
       "id": "u_f24e7a615b99d90fcc23870d_0",
@@ -595,8 +623,15 @@
       "sourceHash": "f24e7a615b99d90fcc23870d3d66fce1c731e82844c41d12aee866cdd90b0859",
       "context": "FAQ > Search-related Questions > How can I make my searches faster?",
       "contextHash": "1d6c2609c4de175bca2f827625451ac4242a7f84477d13f17f66b27cc9d2c8fe",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "大規模なデータベースの場合は、古いノートをアーカイブして検索範囲を狭めることを検討してください。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T16:50:34.717Z"
     },
     {
       "id": "u_7b138f39437d77ba45686285_0",
@@ -605,8 +640,15 @@
       "sourceHash": "7b138f39437d77ba456862853b34383ad0856da52ba1bdb8971e4c8ff2c1860f",
       "context": "FAQ > Inspiration for the name “Trilium”",
       "contextHash": "2aefba86ecae4c45e8cbdeeced1f92fbc3bfb03a8025f12299fe8284a7d41b73",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "「Trilium」という名前の由来__TRILIUM_PH_0__",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T16:50:34.717Z"
     },
     {
       "id": "u_f7747f788c902404ce1bbe2b_0",
@@ -615,8 +657,15 @@
       "sourceHash": "f7747f788c902404ce1bbe2b3a9734c1642d8170b80a3f794ec3b5f15e7dba30",
       "context": "FAQ > How do I create a folder?",
       "contextHash": "1e0c9dd2ddb46e877164a8a61a051b1c31039b151eb80fbbd0db25e9503d5100",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "フォルダを作成するにはどうすればよいですか？__TRILIUM_PH_0__",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T16:50:34.717Z"
     },
     {
       "id": "u_ab2408ef7f6c2c602e802cbb_0",
@@ -625,8 +674,15 @@
       "sourceHash": "ab2408ef7f6c2c602e802cbb9568185c651afb4658209bf82f1206ee6660bd84",
       "context": "FAQ > macOS support",
       "contextHash": "884a4687c1690e34390dcff002661e25b73ea322d94a6deae988d6f135770472",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "macOS のサポート__TRILIUM_PH_0__",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T16:50:34.717Z"
     },
     {
       "id": "u_844c80143e06a29c38f09271_0",
@@ -635,8 +691,15 @@
       "sourceHash": "844c80143e06a29c38f09271db33315b4f3ba1932c15ce6d79339a14265bb815",
       "context": "FAQ > Translation / localisation support",
       "contextHash": "56fe618be8464791624e7297fe71d1a03d4e09e6f843aec0f7345dbf30bf6c3f",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "翻訳およびローカライズのサポート__TRILIUM_PH_0__",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T16:50:34.717Z"
     },
     {
       "id": "u_d6f511270a238ce0a2c16b0f_0",
@@ -645,8 +708,15 @@
       "sourceHash": "d6f511270a238ce0a2c16b0faf9b613bf9f47f5260d0dfe45136ec4dffd190e8",
       "context": "FAQ > Multi-user support",
       "contextHash": "ba598e23d6e7300b0483fb36701a6bbcf4e346298982e6ae15ea53c6a1f581f2",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "マルチユーザーのサポート__TRILIUM_PH_0__",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T16:50:34.717Z"
     },
     {
       "id": "u_4ff2a458ebc897e506809bc6_0",
@@ -655,8 +725,15 @@
       "sourceHash": "4ff2a458ebc897e506809bc6cdc1c47abf9bfd4a1a877978cf20d65e23fda1e6",
       "context": "FAQ > How to open multiple documents in one Trilium instance",
       "contextHash": "0efa0e14e421f5e134b147495812bb8c02c90285b916632e88d93be4766c5293",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "1つのTriliumインスタンスで複数のドキュメントを開く方法__TRILIUM_PH_0__",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T16:50:34.717Z"
     },
     {
       "id": "u_f036274aa59bd1ef7dc8aefc_0",
@@ -675,8 +752,15 @@
       "sourceHash": "93caa3438deb3bba9bf89200af22490fcadbee08fd3e828be9e5b70f97dc9433",
       "context": "FAQ > How to open multiple documents in one Trilium instance",
       "contextHash": "0efa0e14e421f5e134b147495812bb8c02c90285b916632e88d93be4766c5293",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "このコマンドを__TRILIUM_PH_0__スクリプトファイルに保存するか、エイリアスを作成することができます。別のデータディレクトリとポートを指定して、2番目のインスタンスについても同様に行います。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T16:50:34.717Z"
     },
     {
       "id": "u_166fcd3fbb35ef0e154f25d7_0",
@@ -685,8 +769,15 @@
       "sourceHash": "166fcd3fbb35ef0e154f25d7aead962f6bf3d2293b8c23aa1edc6c827425d99e",
       "context": "FAQ > Can I use Dropbox / Google Drive / OneDrive to sync data across multiple computers.",
       "contextHash": "e44019be61b3c918ca1af1829c4109b1997c663308a475a5de95f80ae4b345b5",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "Dropbox、Googleドライブ、OneDriveを使用して複数のコンピュータ間でデータを同期できますか？__TRILIUM_PH_0__",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T16:50:34.717Z"
     },
     {
       "id": "u_f79045014cdbbe13d488fff7_0",
@@ -695,8 +786,15 @@
       "sourceHash": "f79045014cdbbe13d488fff7708683bf116c176e46d1ec3b7199420e7f5c0fa1",
       "context": "FAQ > Why database instead of flat files?",
       "contextHash": "593c1af0901468f5aff71d1b86cbcad16844954d8b37dcceb9a3da29222d25d4",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "なぜフラットファイルではなくデータベースを使用するのですか？__TRILIUM_PH_0__",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T16:50:34.717Z"
     },
     {
       "id": "u_9aecf4b2ee85151fae772c12_0",
@@ -705,8 +803,15 @@
       "sourceHash": "9aecf4b2ee85151fae772c128b7546200b71857b075188cec50d1a466cdec58d",
       "context": "FAQ > Search-related Questions",
       "contextHash": "f6d7a58e6555b90cb7568f12ed55065c381683095bbc6c12353d6c9b0f33ce6e",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "検索に関する質問__TRILIUM_PH_0__",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T16:50:34.717Z"
     },
     {
       "id": "u_c6efd08e11d27f5b96d6d85f_0",
@@ -885,6 +990,18 @@
         ],
         "serviceTier": "standard"
       }
+    },
+    {
+      "at": "2026-11-14T14:14:05.465Z",
+      "model": "gemini-3.5-flash-lite",
+      "batchJob": "batches/8vehrrvdpag09tp4gjf9dbgj006t9k2gkkyl",
+      "requestKey": "i6dbnitykE5D_b9ea42d94307cba8"
+    },
+    {
+      "at": "2026-11-14T16:50:34.717Z",
+      "model": "gemini-3.5-flash-lite",
+      "batchJob": "batches/wazxmzaiela6jn8aqd7kybq00i98rm3g571n",
+      "requestKey": "i6dbnitykE5D_b9ea42d94307cba8"
     }
   ]
 }

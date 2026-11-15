@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "pageId": "TBwsyfadTA18",
   "sourceFile": "docs/User Guide/User Guide/Basic Concepts and Features/Notes/Cloning Notes/Branch prefix.md",
-  "sourceRevision": "f9d13f6c63cadab8586cbd99a6949884087fe858",
+  "sourceRevision": "da5ab9cbf710478275ec99c1fb39e0454359591b",
   "units": [
     {
       "id": "u_39dbf2ee14b55e44d4fda63f_0",
@@ -11,8 +11,15 @@
       "sourceHash": "39dbf2ee14b55e44d4fda63fe6779134b774ebd8336fd3d862e46d5aa9958b2b",
       "context": "Branch prefix",
       "contextHash": "502ac0888c5587a395120df37f01697692fb768346ceccf52dc06d90e6c10805",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "ブランチプレフィックス",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T16:50:34.717Z"
     },
     {
       "id": "u_9a4f4a55bd33d77322a94a8e_0",
@@ -31,8 +38,15 @@
       "sourceHash": "a42abef7859f889a78c15d915922af08462c4399e6b973ddc85dadba04cbcfda",
       "context": "Branch prefix",
       "contextHash": "502ac0888c5587a395120df37f01697692fb768346ceccf52dc06d90e6c10805",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "場合によってはこれが不可能なため、Triliumには「ブランチプレフィックス」が用意されています。これはツリー内のノート名の前に表示され、特定の種類Контекстを提供します。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T16:50:34.717Z"
     },
     {
       "id": "u_f1e1d56f9786c0cb0ff04439_0",
@@ -41,9 +55,29 @@
       "sourceHash": "f1e1d56f9786c0cb0ff04439492e0d2f5a81b0b6113717db177df79a049bb534",
       "context": "Branch prefix",
       "contextHash": "502ac0888c5587a395120df37f01697692fb768346ceccf52dc06d90e6c10805",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "プレフィックスは場所固有のものであるため、ノートツリーにのみ表示されます。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T16:50:34.717Z"
     }
   ],
-  "requests": []
+  "requests": [
+    {
+      "at": "2026-11-14T14:14:05.465Z",
+      "model": "gemini-3.5-flash-lite",
+      "batchJob": "batches/8vehrrvdpag09tp4gjf9dbgj006t9k2gkkyl",
+      "requestKey": "TBwsyfadTA18_6e238f979e0b6616"
+    },
+    {
+      "at": "2026-11-14T16:50:34.717Z",
+      "model": "gemini-3.5-flash-lite",
+      "batchJob": "batches/wazxmzaiela6jn8aqd7kybq00i98rm3g571n",
+      "requestKey": "TBwsyfadTA18_6e238f979e0b6616"
+    }
+  ]
 }

@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "pageId": "SynTBQiBsdYJ",
   "sourceFile": "docs/User Guide/User Guide/Scripting/Frontend Basics/Custom Widgets/Widget Basics.md",
-  "sourceRevision": "f9d13f6c63cadab8586cbd99a6949884087fe858",
+  "sourceRevision": "da5ab9cbf710478275ec99c1fb39e0454359591b",
   "units": [
     {
       "id": "u_f07b18ee7c589ecedbbb7c16_0",
@@ -283,8 +283,15 @@
       "sourceHash": "c6f84ef0c463b09fdc4f37d9b54b18b0a2223884a692f204e59240dc1ba4401f",
       "context": "Widget Basics > Step 3: Styling the Widget",
       "contextHash": "3f9b0f06ffce6dfd9df8ec17adb26e55bc196ee6226bea122613be16bffe489f",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "Triliumを再読み込みすると、他のアクションボタンと一緒に、左ペインの左下にボタンが表示されるはずです。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_9c0e5591ed8cf97efffda9cb_0",
@@ -293,8 +300,15 @@
       "sourceHash": "9c0e5591ed8cf97efffda9cb3cd09c41fddd28dfa78a14f64cd4a37a11548922",
       "context": "Widget Basics > Step 4: Adding User Interaction",
       "contextHash": "071cd6afb20636f6f400c572db29da56c4f59355d8a11424fad3fead8cae5495",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "ステップ 4: ユーザーインタラクションの追加__TRILIUM_PH_0__",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_3a3066343cf0df2d57bdc984_0",
@@ -313,8 +327,15 @@
       "sourceHash": "8470d417a6e87ef2e54afbb87635f54530ee7c3dfca31b02808cd970b5250863",
       "context": "Widget Basics > Step 4: Adding User Interaction",
       "contextHash": "071cd6afb20636f6f400c572db29da56c4f59355d8a11424fad3fead8cae5495",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "__TRILIUM_PH_0__に取り得る値の一覧については、__TRILIUM_PH_1__Custom Widgets__TRILIUM_PH_2__をご覧ください。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     },
     {
       "id": "u_3684e5eb70162051e5c2fb02_0",
@@ -323,8 +344,15 @@
       "sourceHash": "3684e5eb70162051e5c2fb021d92533ecd50fe26c69e70156653a9a91990e9fd",
       "context": "Widget Basics > Step 4: Adding User Interaction",
       "contextHash": "071cd6afb20636f6f400c572db29da56c4f59355d8a11424fad3fead8cae5495",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "アプリケーションを最後にもう一度__TRILIUM_PH_0__リロード__TRILIUM_PH_1__します。ボタンをクリックすると「Hello World!」メッセージが表示され、ウィジェットが完全に機能していることが確認できます。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T14:14:05.465Z"
     }
   ],
   "requests": [
@@ -346,6 +374,12 @@
         ],
         "serviceTier": "standard"
       }
+    },
+    {
+      "at": "2026-11-14T14:14:05.465Z",
+      "model": "gemini-3.5-flash-lite",
+      "batchJob": "batches/8vehrrvdpag09tp4gjf9dbgj006t9k2gkkyl",
+      "requestKey": "SynTBQiBsdYJ_5bce2c0740353725"
     }
   ]
 }

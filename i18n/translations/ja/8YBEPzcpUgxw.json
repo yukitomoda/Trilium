@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "pageId": "8YBEPzcpUgxw",
   "sourceFile": "docs/User Guide/User Guide/Basic Concepts and Features/UI Elements/Note menu.md",
-  "sourceRevision": "f9d13f6c63cadab8586cbd99a6949884087fe858",
+  "sourceRevision": "da5ab9cbf710478275ec99c1fb39e0454359591b",
   "units": [
     {
       "id": "u_1b8cc28e13de5ddd612b63bc_0",
@@ -1109,8 +1109,15 @@
       "sourceHash": "af71957180d55a701e679be7fa60c4c3f416fa596bd03e566455b57533f56659",
       "context": "Note menu > Open with",
       "contextHash": "1d3ae2060dc30d04659ff1c6f196a87910e242bba40b43e000668e0e05d8fe68",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "Windows では、システムの __TRILIUM_PH_0__Open with__TRILIUM_PH_1__ ダイアログにインストールされているアプリの一覧が表示されます。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T16:50:34.717Z"
     },
     {
       "id": "u_b9c721e6e7c8278bf393cb2e_0",
@@ -1119,8 +1126,15 @@
       "sourceHash": "b9c721e6e7c8278bf393cb2e62767400df4706f78215df6ae8bac54625c6a927",
       "context": "Note menu > Open with",
       "contextHash": "1d3ae2060dc30d04659ff1c6f196a87910e242bba40b43e000668e0e05d8fe68",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "Linux では、アプリ選択画面はデスクトップポータル（__TRILIUM_PH_0__）から提供されるため、Flatpak 版でも機能します。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T16:50:34.717Z"
     },
     {
       "id": "u_555c10528f6c456ccbfccb9b_0",
@@ -1129,8 +1143,15 @@
       "sourceHash": "555c10528f6c456ccbfccb9bd7fd557a359bb7fba929ecbdc9f16a29252ed3a7",
       "context": "Note menu > Open with",
       "contextHash": "1d3ae2060dc30d04659ff1c6f196a87910e242bba40b43e000668e0e05d8fe68",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "Flathub 版では、__TRILIUM_PH_0__Open externally__TRILIUM_PH_1__ もデスクトップポータルを経由します。システムのポリシー設定によっては、ファイル形式を初めて開く数回はアプリ選択画面が表示される場合がありますが、__TRILIUM_PH_2__Open with...__TRILIUM_PH_3__ では常に表示されます。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T16:50:34.717Z"
     },
     {
       "id": "u_1c14703f85dbbc146e07ca96_0",
@@ -1139,8 +1160,15 @@
       "sourceHash": "1c14703f85dbbc146e07ca9652cdaa0deae2e7005f18ed873ad51d6448294c10",
       "context": "Note menu > Open with",
       "contextHash": "1d3ae2060dc30d04659ff1c6f196a87910e242bba40b43e000668e0e05d8fe68",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "macOS では、__TRILIUM_PH_0__Applications__TRILIUM_PH_1__ フォルダ内でファイルピッカーが開き、Finder で __TRILIUM_PH_2__Open With__TRILIUM_PH_3__ → __TRILIUM_PH_4__Other…__TRILIUM_PH_5__ を実行した場合と同様に、そこで選択したアプリケーションでノートが開きます。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T16:50:34.717Z"
     },
     {
       "id": "u_4739bf6e611e1195f17e8db5_0",
@@ -1149,8 +1177,15 @@
       "sourceHash": "4739bf6e611e1195f17e8db570106a440bf9042db7e53f8298456d365ceb5c54",
       "context": "Note menu > Open with",
       "contextHash": "1d3ae2060dc30d04659ff1c6f196a87910e242bba40b43e000668e0e05d8fe68",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "アプリ選択画面を表示できない場合（Linux でデスクトップポータルが実行されていない場合など）、Trilium はファイルを開く代わりにエラーを報告します。__TRILIUM_PH_0__Open externally__TRILIUM_PH_1__ では、引き続きデフォルトのアプリでファイルが開きます。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T16:50:34.717Z"
     },
     {
       "id": "u_0f0cbd913fa129c622d13311_0",
@@ -1159,8 +1194,15 @@
       "sourceHash": "0f0cbd913fa129c622d13311c1140ccc3c02f87126decd960e1b9cbce181b4a8",
       "context": "Note menu > Open with > Adding an application to the chooser on Linux",
       "contextHash": "683c8c480066ce625f465acc641da7380a14aed4bb3ea0b5563b3bc93636aadc",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "Linux でアプリ選択画面にアプリケーションを追加する__TRILIUM_PH_0__",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T16:50:34.717Z"
     },
     {
       "id": "u_dba13e179eadc59bd26784c2_0",
@@ -1169,8 +1211,15 @@
       "sourceHash": "dba13e179eadc59bd26784c2d5b6f4fed5b4efc8dac3a1d52a54635a9d82f9a9",
       "context": "Note menu > Open with > Adding an application to the chooser on Linux",
       "contextHash": "683c8c480066ce625f465acc641da7380a14aed4bb3ea0b5563b3bc93636aadc",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "ポータルには、そのファイル形式に登録されているアプリケーションのみが表示されます。テキストエディタは通常、プレーンテキストには登録されますが HTML には登録されないため、HTML ファイルとして保存されるテキストノートを開く際には表示されません。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T16:50:34.717Z"
     },
     {
       "id": "u_1493b36a433b03cd663c0262_0",
@@ -1189,8 +1238,15 @@
       "sourceHash": "b83d73e1764951311cf54dbcdca4a3922372af92575137f840d85c8b992cc461",
       "context": "Note menu > Open with > Adding an application to the chooser on Linux",
       "contextHash": "683c8c480066ce625f465acc641da7380a14aed4bb3ea0b5563b3bc93636aadc",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "ほとんどのファイルマネージャの __TRILIUM_PH_0__Open with other application__TRILIUM_PH_1__ 項目でも、同様の行が追加されます。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T16:50:34.717Z"
     },
     {
       "id": "u_21b50e97112ddbfde2986604_0",
@@ -1199,8 +1255,15 @@
       "sourceHash": "21b50e97112ddbfde29866046249f00b3398b8aa84f20f0ed386534fbc6d9dad",
       "context": "Note menu > Deleting the note",
       "contextHash": "994ae99cd56c68304bd9fc5da3fa08c7742204d6e7252e952a0ca0c0a93373fc",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "ノートの削除__TRILIUM_PH_0__",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T16:50:34.717Z"
     },
     {
       "id": "u_f59aa45acb1875b5c40c8fa6_0",
@@ -1209,8 +1272,15 @@
       "sourceHash": "f59aa45acb1875b5c40c8fa6b0cc9dc302cc7305b9991dcdca33f1d761f3ba83",
       "context": "Note menu > Deleting the note",
       "contextHash": "994ae99cd56c68304bd9fc5da3fa08c7742204d6e7252e952a0ca0c0a93373fc",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "__TRILIUM_PH_0____TRILIUM_PH_1__Delete note__TRILIUM_PH_2__ を選択すると、現在のノートとそのサブツリーの削除ダイアログが開きます。このダイアログには削除されるノートと解除されるリレーションの一覧が表示され、以下の操作を選択できます。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T16:50:34.717Z"
     },
     {
       "id": "u_6d9b839228b5453fd358bb82_0",
@@ -1219,8 +1289,15 @@
       "sourceHash": "6d9b839228b5453fd358bb822419c03262094e30699f9f37978f3beed16e7505",
       "context": "Note menu > Deleting the note",
       "contextHash": "994ae99cd56c68304bd9fc5da3fa08c7742204d6e7252e952a0ca0c0a93373fc",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "ノートが他の場所でクローンされている場合は、そのノートの他のクローンも削除します。それ以外の場合は、現在の配置のみが削除され、ノートは他の場所には残ります。__TRILIUM_PH_0__Cloning Notes__TRILIUM_PH_1__ を参照してください。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T16:50:34.717Z"
     },
     {
       "id": "u_cccf834cc4a2edc617828f44_0",
@@ -1229,8 +1306,15 @@
       "sourceHash": "cccf834cc4a2edc617828f44c6994c8a053e4558c4139f781eea920dcb5a98c2",
       "context": "Note menu > Deleting the note",
       "contextHash": "994ae99cd56c68304bd9fc5da3fa08c7742204d6e7252e952a0ca0c0a93373fc",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "通常のソフト削除ではなく、__TRILIUM_PH_0__Erase permanently__TRILIUM_PH_1__（完全に消去）を行います。この操作は元に戻せません。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T16:50:34.717Z"
     },
     {
       "id": "u_2604b80715c72dd08c452469_0",
@@ -1239,8 +1323,15 @@
       "sourceHash": "2604b80715c72dd08c452469e115b5ac2f41977d7561b3770b6cb9a3b5f5f7d2",
       "context": "Note menu > Deleting the note",
       "contextHash": "994ae99cd56c68304bd9fc5da3fa08c7742204d6e7252e952a0ca0c0a93373fc",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "完全に消去せずに削除したノートは復元することができます。__TRILIUM_PH_0__Restoring Deleted Notes__TRILIUM_PH_1__ を参照してください。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T16:50:34.717Z"
     },
     {
       "id": "u_2d166eed4e46d147ae179d3f_0",
@@ -1249,8 +1340,15 @@
       "sourceHash": "2d166eed4e46d147ae179d3feba2dbd0d28887b22a99884dc255c7ff2e43988d",
       "context": "Note menu > Limitations",
       "contextHash": "8c4ce24ca90d7be6e85fcfd45be56e83fadd96c5e1129cd1e5452039121df7fa",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "制限事項__TRILIUM_PH_0__",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T16:50:34.717Z"
     },
     {
       "id": "u_ac89c191996001cfe5eb913e_0",
@@ -1259,8 +1357,15 @@
       "sourceHash": "ac89c191996001cfe5eb913efa85a24a32960a7dcd995d05b60aff346448b6ea",
       "context": "Note menu > Limitations",
       "contextHash": "8c4ce24ca90d7be6e85fcfd45be56e83fadd96c5e1129cd1e5452039121df7fa",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "ランチャーではノートメニューを利用できません。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T16:50:34.717Z"
     },
     {
       "id": "u_b0ee1c56a52e90fe54630184_0",
@@ -1269,8 +1374,15 @@
       "sourceHash": "b0ee1c56a52e90fe5463018420093cba94fc60f1a50ed4458d351b0ac01ee613",
       "context": "Note menu > Limitations",
       "contextHash": "8c4ce24ca90d7be6e85fcfd45be56e83fadd96c5e1129cd1e5452039121df7fa",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "__TRILIUM_PH_0__Options__TRILIUM_PH_1__のノートおよびアプリ内ヘルプのノートでは、これらのノートはインポート、削除、リビジョン作成の対象外であるため、ほとんどの項目がグレーアウトされます。2つのうち、インポートとエクスポートについては__TRILIUM_PH_2__Import & Export__TRILIUM_PH_3__を参照してください。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T16:50:34.717Z"
     },
     {
       "id": "u_7bbad3ef15e3836537aa3325_0",
@@ -1279,8 +1391,15 @@
       "sourceHash": "7bbad3ef15e3836537aa3325778d6518eecf44bbed92c62537b8e920a9e1a378",
       "context": "Note menu > Limitations",
       "contextHash": "8c4ce24ca90d7be6e85fcfd45be56e83fadd96c5e1129cd1e5452039121df7fa",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "__TRILIUM_PH_0__Note properties__TRILIUM_PH_1__セクションは、__TRILIUM_PH_2__Attachments__TRILIUM_PH_3__や__TRILIUM_PH_4__Note source__TRILIUM_PH_5__ではなく、ノート本体が表示されている場合にのみリストに表示されます。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T16:50:34.717Z"
     },
     {
       "id": "u_a616d72376d50e79a3c0930f_0",
@@ -1289,8 +1408,15 @@
       "sourceHash": "a616d72376d50e79a3c0930f132c5fcb9a10849e7e1e55fc4263d40e6c038809",
       "context": "Note menu > Limitations",
       "contextHash": "8c4ce24ca90d7be6e85fcfd45be56e83fadd96c5e1129cd1e5452039121df7fa",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "__TRILIUM_PH_0__Quick edit__TRILIUM_PH_1__、__TRILIUM_PH_2__Note map__TRILIUM_PH_3__、__TRILIUM_PH_4__Full width__TRILIUM_PH_5__、__TRILIUM_PH_6__Convert into attachment__TRILIUM_PH_7__はリストに表示されません。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T16:50:34.717Z"
     },
     {
       "id": "u_d811f86b461cb28f75e7629e_0",
@@ -1299,8 +1425,15 @@
       "sourceHash": "d811f86b461cb28f75e7629ef3e87340602de43ec52a4e8d49520fe6f503cdb3",
       "context": "Note menu > Mobile support",
       "contextHash": "5781354201bb1ad5871220e926fdf48ef075ddc4040bd8ebbe11e689b3ed4b62",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "モバイルのサポート__TRILIUM_PH_0__",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T16:50:34.717Z"
     },
     {
       "id": "u_b66d5930d8801c00b7df8ef9_0",
@@ -1309,8 +1442,15 @@
       "sourceHash": "b66d5930d8801c00b7df8ef91d8571bff1ca2cedbbca755d5542883ccf134a18",
       "context": "Note menu > Mobile support",
       "contextHash": "5781354201bb1ad5871220e926fdf48ef075ddc4040bd8ebbe11e689b3ed4b62",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "__TRILIUM_PH_0__Mobile Frontend__TRILIUM_PH_1__では、ノートメニューは画面の下部からシートとして開きます。上記の項目に加えて、デスクトップレイアウトでは別の場所にある以下の項目が含まれます。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T16:50:34.717Z"
     },
     {
       "id": "u_1b750b2a491a948ceebc7204_0",
@@ -1319,8 +1459,15 @@
       "sourceHash": "1b750b2a491a948ceebc72048dbb352c37fce953be01d7e32cf428705eccd1e9",
       "context": "Note menu > Mobile support",
       "contextHash": "5781354201bb1ad5871220e926fdf48ef075ddc4040bd8ebbe11e689b3ed4b62",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "シートの一番上にあるアイコン行にあるさらに2つのアイコンで、左から右へ__TRILIUM_PH_0__ __TRILIUM_PH_1__New split__TRILIUM_PH_2__、__TRILIUM_PH_3__Note map__TRILIUM_PH_4__、__TRILIUM_PH_5__Find__TRILIUM_PH_6__、__TRILIUM_PH_7__ __TRILIUM_PH_8__Child note__TRILIUM_PH_9__となっています。__TRILIUM_PH_10__New split__TRILIUM_PH_11__は、タブに何もない状態で__TRILIUM_PH_12__Split View__TRILIUM_PH_13__を開き、__TRILIUM_PH_14__Child note__TRILIUM_PH_15__は現在のノートの下にノートを作成します。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T16:50:34.717Z"
     },
     {
       "id": "u_4377e2104ebf2bdd131e774b_0",
@@ -1329,8 +1476,15 @@
       "sourceHash": "4377e2104ebf2bdd131e774b81f2689510f82552e7743bee4b8ff521671f4797",
       "context": "Note menu > Mobile support",
       "contextHash": "5781354201bb1ad5871220e926fdf48ef075ddc4040bd8ebbe11e689b3ed4b62",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "アイコン行の下にある__TRILIUM_PH_0__Backlinks__TRILIUM_PH_1__および__TRILIUM_PH_2__Note paths__TRILIUM_PH_3__は、__TRILIUM_PH_4__Backlinks__TRILIUM_PH_5__とノートのその他の保存場所を開きます。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T16:50:34.717Z"
     },
     {
       "id": "u_a0bab580227d9e9e2e35e80b_0",
@@ -1339,8 +1493,15 @@
       "sourceHash": "a0bab580227d9e9e2e35e80bfcd84c0d9098772c17ce06596a1beaedd39511fd",
       "context": "Note menu > Mobile support",
       "contextHash": "5781354201bb1ad5871220e926fdf48ef075ddc4040bd8ebbe11e689b3ed4b62",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "その下にある__TRILIUM_PH_0__ __TRILIUM_PH_1__Attachments__TRILIUM_PH_2__と__TRILIUM_PH_3__ __TRILIUM_PH_4__Attributes__TRILIUM_PH_5__は、ノートが持つ数とともに、ノートの添付ファイルと属性を開きます。ノートのコンテンツによって作成されたリンクは属性としてカウントされません。__TRILIUM_PH_6__Attributes__TRILIUM_PH_7__は、ノートを編集できない場所では利用できません。モバイルでは、アイコン行の代わりにここで__TRILIUM_PH_8__Attachments__TRILIUM_PH_9__がリストに表示されます。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T16:50:34.717Z"
     },
     {
       "id": "u_d30637d3713cc5fae019bcea_0",
@@ -1389,8 +1550,15 @@
       "sourceHash": "4fc71e68114f59264c00c0d364a9be858646980b3cf0f1a8286da5312df3a6dd",
       "context": "Note menu > Mobile support",
       "contextHash": "5781354201bb1ad5871220e926fdf48ef075ddc4040bd8ebbe11e689b3ed4b62",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "__TRILIUM_PH_0__Note map__TRILIUM_PH_1__は、右サイドバーではなくポップアップでマップを開きます。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T16:50:34.717Z"
     },
     {
       "id": "u_b190d47815633246b0ab18a6_0",
@@ -1399,8 +1567,15 @@
       "sourceHash": "b190d47815633246b0ab18a61d9b8e8ea36504fe3f8bc230a7753096915c9ff2",
       "context": "Note menu > Mobile support",
       "contextHash": "5781354201bb1ad5871220e926fdf48ef075ddc4040bd8ebbe11e689b3ed4b62",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "記事画像",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T16:50:34.717Z"
     }
   ],
   "requests": [
@@ -1479,6 +1654,36 @@
         ],
         "serviceTier": "standard"
       }
+    },
+    {
+      "at": "2026-11-14T14:14:05.465Z",
+      "model": "gemini-3.5-flash-lite",
+      "batchJob": "batches/8vehrrvdpag09tp4gjf9dbgj006t9k2gkkyl",
+      "requestKey": "8YBEPzcpUgxw_427dc63dbefe90c0"
+    },
+    {
+      "at": "2026-11-14T14:14:05.465Z",
+      "model": "gemini-3.5-flash-lite",
+      "batchJob": "batches/8vehrrvdpag09tp4gjf9dbgj006t9k2gkkyl",
+      "requestKey": "8YBEPzcpUgxw_161777c0f22cd951"
+    },
+    {
+      "at": "2026-11-14T14:14:05.465Z",
+      "model": "gemini-3.5-flash-lite",
+      "batchJob": "batches/8vehrrvdpag09tp4gjf9dbgj006t9k2gkkyl",
+      "requestKey": "8YBEPzcpUgxw_479b0a61f245ded0"
+    },
+    {
+      "at": "2026-11-14T16:50:34.717Z",
+      "model": "gemini-3.5-flash-lite",
+      "batchJob": "batches/wazxmzaiela6jn8aqd7kybq00i98rm3g571n",
+      "requestKey": "8YBEPzcpUgxw_161777c0f22cd951"
+    },
+    {
+      "at": "2026-11-14T16:50:34.717Z",
+      "model": "gemini-3.5-flash-lite",
+      "batchJob": "batches/wazxmzaiela6jn8aqd7kybq00i98rm3g571n",
+      "requestKey": "8YBEPzcpUgxw_479b0a61f245ded0"
     }
   ]
 }
