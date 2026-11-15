@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "pageId": "NdowYOC1GFKS",
   "sourceFile": "docs/User Guide/User Guide/Note Types/Text/Tables.md",
-  "sourceRevision": "da5ab9cbf710478275ec99c1fb39e0454359591b",
+  "sourceRevision": "ca2ac058847722920483a4d76cdf95e43573552b",
   "units": [
     {
       "id": "u_a21e8379a182768471c1226e_0",
@@ -1129,8 +1129,15 @@
       "sourceHash": "921ef83b566d4ba3d9188f95ea8ba075453fa8dfaa448c9237b0eaf06453ff6d",
       "context": "Tables > Wide tables",
       "contextHash": "73808402f674485c4676e46f95fb821565e78cb07624de90fa1fa23aee421880",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "正確な幅を設定するには、__TRILIUM_PH_0__を超えるパーセンテージまたはピクセル単位の幅を__TRILIUM_PH_1__ __TRILIUM_PH_2__表のプロパティ__TRILIUM_PH_3__に入力します。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-15T03:45:36.968Z"
     },
     {
       "id": "u_3136f302c788b95ca79739b2_0",
@@ -3489,6 +3496,25 @@
       "model": "gemini-3.5-flash-lite",
       "batchJob": "batches/wazxmzaiela6jn8aqd7kybq00i98rm3g571n",
       "requestKey": "NdowYOC1GFKS_574f15533ae69b06"
+    },
+    {
+      "at": "2026-11-15T03:45:36.968Z",
+      "model": "gemini-3.5-flash-lite",
+      "batchJob": "batches/tf0thya3gi1fguffsk27fvt8onjn4z751dy8",
+      "requestKey": "NdowYOC1GFKS_d2749b80709ccc5c",
+      "modelVersion": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 1642,
+        "candidatesTokenCount": 1377,
+        "totalTokenCount": 3019,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 1642
+          }
+        ],
+        "serviceTier": "standard"
+      }
     }
   ]
 }

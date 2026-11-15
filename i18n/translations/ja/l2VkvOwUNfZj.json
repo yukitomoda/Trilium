@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "pageId": "l2VkvOwUNfZj",
   "sourceFile": "docs/User Guide/User Guide/Installation & Setup/Server Installation/HTTPS (TLS).md",
-  "sourceRevision": "da5ab9cbf710478275ec99c1fb39e0454359591b",
+  "sourceRevision": "ca2ac058847722920483a4d76cdf95e43573552b",
   "units": [
     {
       "id": "u_6ec107490532d6a305e89f40_0",
@@ -147,8 +147,15 @@
       "sourceHash": "a800944ea11c35d7fec81051a9cd1e1850dc21d1cb9cb363138e2ffd0fe66b9d",
       "context": "HTTPS (TLS) > Modifying config.ini",
       "contextHash": "467c27e374eeaad0f71162a16e6347a985457cffdc9aa50d868d94feef8c3fec",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "証明書を取得したら、__TRILIUM_PH_0__ ディレクトリ内にある __TRILIUM_PH_1__data directory__TRILIUM_PH_2__ ファイルを変更して、Trilium がそれを使用するように設定します。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-15T03:45:36.968Z"
     },
     {
       "id": "u_85119f0e56ff200612209ee8_0",
@@ -324,6 +331,25 @@
       "model": "gemini-3.5-flash-lite",
       "batchJob": "batches/wazxmzaiela6jn8aqd7kybq00i98rm3g571n",
       "requestKey": "l2VkvOwUNfZj_3ad8b6855a504eef"
+    },
+    {
+      "at": "2026-11-15T03:45:36.968Z",
+      "model": "gemini-3.5-flash-lite",
+      "batchJob": "batches/tf0thya3gi1fguffsk27fvt8onjn4z751dy8",
+      "requestKey": "l2VkvOwUNfZj_e1ae685a8a7d909e",
+      "modelVersion": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 410,
+        "candidatesTokenCount": 126,
+        "totalTokenCount": 536,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 410
+          }
+        ],
+        "serviceTier": "standard"
+      }
     }
   ]
 }

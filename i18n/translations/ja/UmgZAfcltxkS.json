@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "pageId": "UmgZAfcltxkS",
   "sourceFile": "docs/User Guide/User Guide/Note Types/Text/Link Previews.md",
-  "sourceRevision": "da5ab9cbf710478275ec99c1fb39e0454359591b",
+  "sourceRevision": "ca2ac058847722920483a4d76cdf95e43573552b",
   "units": [
     {
       "id": "u_e0cb5b978cfffd332dab10ac_0",
@@ -738,8 +738,15 @@
       "sourceHash": "857a1e5c9d3c29df01b7b7c817dc630579b3bd230cbc90f673ca371cfe9d1824",
       "context": "Link Previews > Altering an existing link preview",
       "contextHash": "fbfe0d0c7312ecacd9bd92de91cc63c4f6b0d60a88ca85e7926354379f6f805d",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "__TRILIUM_PH_0__ __TRILIUM_PH_1__リンクの編集__TRILIUM_PH_2__ボタンは、リンクプレビュー上で__TRILIUM_PH_3__リンクの編集__TRILIUM_PH_4__ダイアログを開きます。また、選択中に__TRILIUM_PH_5__Ctrl__TRILIUM_PH_6__+__TRILIUM_PH_7__K__TRILIUM_PH_8__を押すことでも開きます。このダイアログでは、アドレス、カードの__TRILIUM_PH_9__リンクタイトル__TRILIUM_PH_10__（タイトルがログイン画面の後ろに隠れている場合に特に便利です）、__TRILIUM_PH_11__説明__TRILIUM_PH_12__、およびその表示方法を変更します。自分で入力しない限り、新しいアドレスには新しいページのタイトルと説明が表示されます。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-15T03:45:36.968Z"
     },
     {
       "id": "u_6a7c929a11bd28072f063dbf_0",
@@ -1531,6 +1538,25 @@
       "model": "gemini-3.5-flash-lite",
       "batchJob": "batches/wazxmzaiela6jn8aqd7kybq00i98rm3g571n",
       "requestKey": "UmgZAfcltxkS_234f2de8e58d3646"
+    },
+    {
+      "at": "2026-11-15T03:45:36.968Z",
+      "model": "gemini-3.5-flash-lite",
+      "batchJob": "batches/tf0thya3gi1fguffsk27fvt8onjn4z751dy8",
+      "requestKey": "UmgZAfcltxkS_773de62a9240062d",
+      "modelVersion": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 1888,
+        "candidatesTokenCount": 1490,
+        "totalTokenCount": 3378,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 1888
+          }
+        ],
+        "serviceTier": "standard"
+      }
     }
   ]
 }

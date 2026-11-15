@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "pageId": "eIg8jdvaoNNd",
   "sourceFile": "docs/User Guide/User Guide/Basic Concepts and Features/Navigation/Search.md",
-  "sourceRevision": "da5ab9cbf710478275ec99c1fb39e0454359591b",
+  "sourceRevision": "ca2ac058847722920483a4d76cdf95e43573552b",
   "units": [
     {
       "id": "u_ff085f7a20503765797dbbe2_0",
@@ -249,8 +249,15 @@
       "sourceHash": "724d339facd9811d6ac8c664025706143cac9e02e24d4c742269c670aa15080f",
       "context": "Search > Accessing the search",
       "contextHash": "1b3a7feb7c4996fa233022919f2c27315e30499f5ec84e4dfb30ea40940b0bfa",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "__TRILIUM_PH_0__起動バー__TRILIUM_PH_1__から、専用の__TRILIUM_PH_2__検索ボタンを探してください。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-15T03:45:36.968Z"
     },
     {
       "id": "u_f3a3dc607089f70985fa0e05_0",
@@ -2900,6 +2907,25 @@
       "model": "gemini-3.5-flash-lite",
       "batchJob": "batches/wazxmzaiela6jn8aqd7kybq00i98rm3g571n",
       "requestKey": "eIg8jdvaoNNd_d6bc6b1048877588"
+    },
+    {
+      "at": "2026-11-15T03:45:36.968Z",
+      "model": "gemini-3.5-flash-lite",
+      "batchJob": "batches/tf0thya3gi1fguffsk27fvt8onjn4z751dy8",
+      "requestKey": "eIg8jdvaoNNd_89d2184276782b5d",
+      "modelVersion": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 1310,
+        "candidatesTokenCount": 974,
+        "totalTokenCount": 2284,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 1310
+          }
+        ],
+        "serviceTier": "standard"
+      }
     }
   ]
 }

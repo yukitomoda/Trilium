@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "pageId": "YtSN43OrfzaA",
   "sourceFile": "docs/User Guide/User Guide/Basic Concepts and Features/UI Elements/Note Tree/Note tree contextual menu.md",
-  "sourceRevision": "da5ab9cbf710478275ec99c1fb39e0454359591b",
+  "sourceRevision": "ca2ac058847722920483a4d76cdf95e43573552b",
   "units": [
     {
       "id": "u_f4eb8e971d59744792489bbc_0",
@@ -572,8 +572,15 @@
       "sourceHash": "e0817c69a514d412ab1e280171fe73044eb0ca460f1f0897ed669e45400647a8",
       "context": "Note tree contextual menu > Available options",
       "contextHash": "38607f375dc08f35f33c887fc784926de63909b7edd1abbb727dad4374058e61",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "モバイル版では、__TRILIUM_PH_0__Open__TRILIUM_PH_1__、__TRILIUM_PH_2__Open in a new tab__TRILIUM_PH_3__、__TRILIUM_PH_4__Open in a new split__TRILIUM_PH_5__が__TRILIUM_PH_6__Open note__TRILIUM_PH_7__の代わりに直接メニューにリストされ、__TRILIUM_PH_8__Open in a new window__TRILIUM_PH_9__は除外されます。__TRILIUM_PH_10__Open__TRILIUM_PH_11__は、現在のタブでノートを表示します。子を持つノートをタップすると子の一覧が表示されるため、この操作を行うことで子を持つノートも開きます。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-15T03:45:36.968Z"
     },
     {
       "id": "u_4e94c8331b06b24b346f59aa_0",
@@ -1736,6 +1743,25 @@
       "model": "gemini-3.5-flash-lite",
       "batchJob": "batches/wazxmzaiela6jn8aqd7kybq00i98rm3g571n",
       "requestKey": "YtSN43OrfzaA_bac3c65c26bada78"
+    },
+    {
+      "at": "2026-11-15T03:45:36.968Z",
+      "model": "gemini-3.5-flash-lite",
+      "batchJob": "batches/tf0thya3gi1fguffsk27fvt8onjn4z751dy8",
+      "requestKey": "YtSN43OrfzaA_0b96e8e0ee941f0f",
+      "modelVersion": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 692,
+        "candidatesTokenCount": 412,
+        "totalTokenCount": 1104,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 692
+          }
+        ],
+        "serviceTier": "standard"
+      }
     }
   ]
 }

@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "pageId": "uNtgN0cUKEBc",
   "sourceFile": "docs/User Guide/User Guide/Basic Concepts and Features/UI Elements/Right Sidebar/Attributes tab.md",
-  "sourceRevision": "da5ab9cbf710478275ec99c1fb39e0454359591b",
+  "sourceRevision": "ca2ac058847722920483a4d76cdf95e43573552b",
   "units": [
     {
       "id": "u_5f9f4cb0631ff5078301bdf2_0",
@@ -351,8 +351,15 @@
       "sourceHash": "36c82d4b508f351c9e824b89889ba5f6df4c63c044f9417566c798c9faa39846",
       "context": "Attributes tab > Owned attributes",
       "contextHash": "a4440a5e2c2ea3b656c5d6cd7c3ed62b2c8530d671d579ceccda07875d6d302a",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "Triliumで特別な意味を持つシステム属性には、アイコンの近くに小さな __TRILIUM_PH_0__ 歯車が表示され、ユーザー定義のものとは別にグループ化されます。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-15T03:45:36.968Z"
     },
     {
       "id": "u_fc4ae0b3d4843566243c61a7_0",
@@ -1397,6 +1404,25 @@
       "model": "gemini-3.5-flash-lite",
       "batchJob": "batches/wazxmzaiela6jn8aqd7kybq00i98rm3g571n",
       "requestKey": "uNtgN0cUKEBc_227487f7bf31e148"
+    },
+    {
+      "at": "2026-11-15T03:45:36.968Z",
+      "model": "gemini-3.5-flash-lite",
+      "batchJob": "batches/tf0thya3gi1fguffsk27fvt8onjn4z751dy8",
+      "requestKey": "uNtgN0cUKEBc_8c1933010acdd365",
+      "modelVersion": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 958,
+        "candidatesTokenCount": 639,
+        "totalTokenCount": 1597,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 958
+          }
+        ],
+        "serviceTier": "standard"
+      }
     }
   ]
 }

@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "pageId": "l7pigIGu01K2",
   "sourceFile": "docs/User Guide/User Guide/Basic Concepts and Features/Notes/Title.md",
-  "sourceRevision": "da5ab9cbf710478275ec99c1fb39e0454359591b",
+  "sourceRevision": "ca2ac058847722920483a4d76cdf95e43573552b",
   "units": [
     {
       "id": "u_d227d6b0394b23ff5099e891_0",
@@ -521,8 +521,15 @@
       "sourceHash": "c1ff30b0b0c362c7b7ab63b7f0a8329478d0fe95db0c3227c560ff648a18653c",
       "context": "Title > Inline title > Automatically generated titles",
       "contextHash": "dfdb352a29719694cf588c1de3d9f8433eb22a050ececb041dce0701561a3b61",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "__TRILIUM_PH_0__Day, week, month and year notes__TRILIUM_PH_1__ (__TRILIUM_PH_2__Day Notes__TRILIUM_PH_3__ 内) の名前は、設定可能な日付パターンから付けられます。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-15T03:45:36.968Z"
     },
     {
       "id": "u_d7894d3b506f01964471f632_0",
@@ -694,6 +701,25 @@
       "model": "gemini-3.5-flash-lite",
       "batchJob": "batches/wazxmzaiela6jn8aqd7kybq00i98rm3g571n",
       "requestKey": "l7pigIGu01K2_a69ebeef8de4219e"
+    },
+    {
+      "at": "2026-11-15T03:45:36.968Z",
+      "model": "gemini-3.5-flash-lite",
+      "batchJob": "batches/tf0thya3gi1fguffsk27fvt8onjn4z751dy8",
+      "requestKey": "l7pigIGu01K2_09ba0ad92a8a7f83",
+      "modelVersion": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 420,
+        "candidatesTokenCount": 134,
+        "totalTokenCount": 554,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 420
+          }
+        ],
+        "serviceTier": "standard"
+      }
     }
   ]
 }

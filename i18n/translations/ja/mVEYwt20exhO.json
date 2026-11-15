@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "pageId": "mVEYwt20exhO",
   "sourceFile": "docs/User Guide/User Guide/Note Types/Text/In-editor AI assistant/Custom AI quick actions.md",
-  "sourceRevision": "da5ab9cbf710478275ec99c1fb39e0454359591b",
+  "sourceRevision": "ca2ac058847722920483a4d76cdf95e43573552b",
   "units": [
     {
       "id": "u_842da0f0ee37ccaf5c527225_0",
@@ -249,8 +249,15 @@
       "sourceHash": "9e338b9c4da7e9265ff66152b92da4ce09a039ec8eb0773b9b428483d6613c97",
       "context": "Custom AI quick actions > Using a quick action",
       "contextHash": "47a4bf177ae4dff7fe6c78c00884526ffbbad4d8b7914543b1cf0144e6e7518b",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "クイックアクションが定義されると、そのアクションは __TRILIUM_PH_0__Quick Actions__TRILIUM_PH_1__ ドロップダウン内の __TRILIUM_PH_2__Custom__TRILIUM_PH_3__ というグループに表示されます。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-15T03:45:36.968Z"
     }
   ],
   "requests": [
@@ -265,6 +272,25 @@
       "model": "gemini-3.5-flash-lite",
       "batchJob": "batches/wazxmzaiela6jn8aqd7kybq00i98rm3g571n",
       "requestKey": "mVEYwt20exhO_68b844a2a028015f"
+    },
+    {
+      "at": "2026-11-15T03:45:36.968Z",
+      "model": "gemini-3.5-flash-lite",
+      "batchJob": "batches/tf0thya3gi1fguffsk27fvt8onjn4z751dy8",
+      "requestKey": "mVEYwt20exhO_47391177bc85df38",
+      "modelVersion": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 417,
+        "candidatesTokenCount": 134,
+        "totalTokenCount": 551,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 417
+          }
+        ],
+        "serviceTier": "standard"
+      }
     }
   ]
 }

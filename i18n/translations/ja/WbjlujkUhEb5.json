@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "pageId": "WbjlujkUhEb5",
   "sourceFile": "docs/User Guide/User Guide/Basic Concepts and Features/Navigation/Search/How search matches your text.md",
-  "sourceRevision": "da5ab9cbf710478275ec99c1fb39e0454359591b",
+  "sourceRevision": "ca2ac058847722920483a4d76cdf95e43573552b",
   "units": [
     {
       "id": "u_d3c0bca9c6b97c684b65268c_0",
@@ -1218,8 +1218,15 @@
       "sourceHash": "b9935b77c3d22840ba06948c6500a110ca912c0d3ab267162565b44d5519bb7a",
       "context": "How search matches your text > Attribute and property equality (=, !=)",
       "contextHash": "d77d0d92d163b931c6e0b44b09002abfb938c1e3bc91cdfb00f4954babf57415",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "値全体が __TRILIUM_PH_0__ であり、__TRILIUM_PH_1__ ではありません",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-15T03:45:36.968Z"
     },
     {
       "id": "u_3861c2186be47b0afbedaf6c_8",
@@ -3073,6 +3080,25 @@
       "model": "gemini-3.5-flash-lite",
       "batchJob": "batches/wazxmzaiela6jn8aqd7kybq00i98rm3g571n",
       "requestKey": "WbjlujkUhEb5_4e5b283bb2e7350a"
+    },
+    {
+      "at": "2026-11-15T03:45:36.968Z",
+      "model": "gemini-3.5-flash-lite",
+      "batchJob": "batches/tf0thya3gi1fguffsk27fvt8onjn4z751dy8",
+      "requestKey": "WbjlujkUhEb5_fef830b87217fc6e",
+      "modelVersion": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 388,
+        "candidatesTokenCount": 85,
+        "totalTokenCount": 473,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 388
+          }
+        ],
+        "serviceTier": "standard"
+      }
     }
   ]
 }

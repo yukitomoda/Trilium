@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "pageId": "nBAXQFj20hS1",
   "sourceFile": "docs/User Guide/User Guide/Note Types/Text/Include Note.md",
-  "sourceRevision": "da5ab9cbf710478275ec99c1fb39e0454359591b",
+  "sourceRevision": "ca2ac058847722920483a4d76cdf95e43573552b",
   "units": [
     {
       "id": "u_2ee9482bee8eeb1ceeafe3cb_0",
@@ -334,8 +334,15 @@
       "sourceHash": "4fe6b9f96fb9b98624ed747e61f6c8c98a5b39a6687ed315672919178faee3c5",
       "context": "Include Note > Box sizes",
       "contextHash": "4bb1b9c47fb35fa9f0361ef4e4826cafa8eeaa7fa8fca3a15c7532a08d358e08",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "__TRILIUM_PH_0__Full__TRILIUM_PH_1__ は、コードノートやコードファイル（__TRILIUM_PH_2__、__TRILIUM_PH_3__、__TRILIUM_PH_4__ などの添付ファイル）、およびテキストノートのブロックの抜粋に対して使用されます。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-15T03:45:36.968Z"
     },
     {
       "id": "u_813bbdec58b6d215265d9c96_0",
@@ -1961,8 +1968,15 @@
       "sourceHash": "06fa0feb1dcddb33bc34d07b048a161761793c9c5b1a1e356df637c2dff0b973",
       "context": "Include Note > Drawing canvases",
       "contextHash": "a2cd96259cee6528f22a378ae1235364e1c8c610c347d80d6d221ae70b4dd098",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "画像の上を描画または手書きするには、画像を選択し、そのツールバーの __TRILIUM_PH_0__ __TRILIUM_PH_1__Convert image to a drawing canvas__TRILIUM_PH_2__ ボタンを押します。画像は、タイトルが非表示でフォーカスが当たった __TRILIUM_PH_3__Resizable__TRILIUM_PH_4__ ボックス内の編集可能な描画カンバスに置き換えられます。画像はカンバスの中央に元のサイズで配置され、全体が表示されるようにズームされ、誤って選択または移動されないようにロックされます。ロックされている間は、カンバスの画像を拡大することはできますが、それ以上縮小したり、端を超えてスクロールしたりすることはできません。いずれにしても画像を移動またはサイズ変更するには、画像を右クリックして __TRILIUM_PH_5__Unlock__TRILIUM_PH_6__ を選択します。画像のキャプションは保持されますが、配置やリンクは保持されません。段落内ではなく、独自の行にある画像のみ変換できます。元に戻す（Undo）を実行すると画像を元に戻すことができます。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-15T03:45:36.968Z"
     },
     {
       "id": "u_a43b3b894a9b0b98b34f30e3_0",
@@ -2460,6 +2474,25 @@
       "model": "gemini-3.5-flash-lite",
       "batchJob": "batches/wazxmzaiela6jn8aqd7kybq00i98rm3g571n",
       "requestKey": "nBAXQFj20hS1_ebaeef2698db8732"
+    },
+    {
+      "at": "2026-11-15T03:45:36.968Z",
+      "model": "gemini-3.5-flash-lite",
+      "batchJob": "batches/tf0thya3gi1fguffsk27fvt8onjn4z751dy8",
+      "requestKey": "nBAXQFj20hS1_3a0f016302a3cb8e",
+      "modelVersion": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 2374,
+        "candidatesTokenCount": 2058,
+        "totalTokenCount": 4432,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 2374
+          }
+        ],
+        "serviceTier": "standard"
+      }
     }
   ]
 }

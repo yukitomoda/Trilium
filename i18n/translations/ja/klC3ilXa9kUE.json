@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "pageId": "klC3ilXa9kUE",
   "sourceFile": "docs/User Guide/User Guide/Note Types/Text/Block references.md",
-  "sourceRevision": "da5ab9cbf710478275ec99c1fb39e0454359591b",
+  "sourceRevision": "ca2ac058847722920483a4d76cdf95e43573552b",
   "units": [
     {
       "id": "u_dc56a233547389b86833fc82_0",
@@ -283,8 +283,15 @@
       "sourceHash": "403512d9028d29a9b8b9d54b114390106ddfb919b96ee8f7de325309f172cf20",
       "context": "Block references > Linking to a heading",
       "contextHash": "19b1d3ee9f8e428283f6c41d11be0311e736cf8a37d8fea6fec94bbf00ff36fd",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "__TRILIUM_PH_0__Ctrl__TRILIUM_PH_1__+__TRILIUM_PH_2__K__TRILIUM_PH_3__ または __TRILIUM_PH_4__書式設定ツールバー__TRILIUM_PH_5____TRILIUM_PH_6__ 内のボタンを押し、ダイアログの上部にある __TRILIUM_PH_7__見出し / アンカー__TRILIUM_PH_8__ を選択します。または、__TRILIUM_PH_9__スラッシュコマンド__TRILIUM_PH_10__ で __TRILIUM_PH_11__見出しまたはアンカーへのリンク__TRILIUM_PH_12__ を選択すると、そのページでダイアログが開きます。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-15T03:45:36.968Z"
     },
     {
       "id": "u_390aba33358a4c134ef07813_0",
@@ -602,6 +609,25 @@
       "model": "gemini-3.5-flash-lite",
       "batchJob": "batches/wazxmzaiela6jn8aqd7kybq00i98rm3g571n",
       "requestKey": "klC3ilXa9kUE_260fd9ab8e384b03"
+    },
+    {
+      "at": "2026-11-15T03:45:36.968Z",
+      "model": "gemini-3.5-flash-lite",
+      "batchJob": "batches/tf0thya3gi1fguffsk27fvt8onjn4z751dy8",
+      "requestKey": "klC3ilXa9kUE_7fb32d555ab8e00b",
+      "modelVersion": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 751,
+        "candidatesTokenCount": 473,
+        "totalTokenCount": 1224,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 751
+          }
+        ],
+        "serviceTier": "standard"
+      }
     }
   ]
 }
