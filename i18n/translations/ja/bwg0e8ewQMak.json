@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "pageId": "bwg0e8ewQMak",
   "sourceFile": "docs/User Guide/User Guide/Basic Concepts and Features/Notes/Protected Notes.md",
-  "sourceRevision": "da5ab9cbf710478275ec99c1fb39e0454359591b",
+  "sourceRevision": "3c96e23e41b9c687d38f641f019decd8af1ae892",
   "units": [
     {
       "id": "u_3fea256c3a37fbe1a613c607_0",
@@ -385,8 +385,15 @@
       "sourceHash": "556d314df628e3a1a4dc3b573bd470be9fbdb0776847593488a8b97262f393d3",
       "context": "Protected Notes > Encryption Details",
       "contextHash": "1e81386b5296d18ff106698772c0e2bf5a6643404f93b4c2a1fa8325873a925f",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "パスワードが正しいことを確認するため、パスワードは__TRILIUM_PH_0__scrypt__TRILIUM_PH_1__アルゴリズムによって、パスワード検証用の__TRILIUM_PH_2__salt__TRILIUM_PH_3__とともに処理されます。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-15T03:45:36.968Z"
     },
     {
       "id": "u_a31894b97dca5f600a5addea_0",
@@ -608,6 +615,25 @@
       "model": "gemini-3.5-flash-lite",
       "batchJob": "batches/wazxmzaiela6jn8aqd7kybq00i98rm3g571n",
       "requestKey": "bwg0e8ewQMak_d1bbf26b3e2593cb"
+    },
+    {
+      "at": "2026-11-15T03:45:36.968Z",
+      "model": "gemini-3.5-flash-lite",
+      "batchJob": "batches/tf0thya3gi1fguffsk27fvt8onjn4z751dy8",
+      "requestKey": "bwg0e8ewQMak_6e4fd9ae2d8ece11",
+      "modelVersion": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 505,
+        "candidatesTokenCount": 205,
+        "totalTokenCount": 710,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 505
+          }
+        ],
+        "serviceTier": "standard"
+      }
     }
   ]
 }

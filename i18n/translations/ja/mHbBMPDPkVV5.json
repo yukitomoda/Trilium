@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "pageId": "mHbBMPDPkVV5",
   "sourceFile": "docs/User Guide/User Guide/Basic Concepts and Features/Import & Export.md",
-  "sourceRevision": "da5ab9cbf710478275ec99c1fb39e0454359591b",
+  "sourceRevision": "3c96e23e41b9c687d38f641f019decd8af1ae892",
   "units": [
     {
       "id": "u_775f57647e155aabfa4b7a50_0",
@@ -368,8 +368,15 @@
       "sourceHash": "63ef6d4d8ca6ed8d48a8b932593f1a66fce5078ce4b08764e67b64cf5617531d",
       "context": "Import & Export > Maximum import size",
       "contextHash": "062b7d33178d690e0f864ac4f460eb8ad49df740d39d55e3c2056d2d1f36297c",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "v0.104.0未満のバージョンでは250 MiBのアップロード制限がありましたが、__TRILIUM_PH_0__環境変数によって回避することができました。v0.104.0からはこの制限が撤廃されました。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-15T03:45:36.968Z"
     },
     {
       "id": "u_c5bd2eae226dd8a6a4a14934_0",
@@ -830,6 +837,25 @@
       "model": "gemini-3.5-flash-lite",
       "batchJob": "batches/wazxmzaiela6jn8aqd7kybq00i98rm3g571n",
       "requestKey": "mHbBMPDPkVV5_f6d8577b69663a7c"
+    },
+    {
+      "at": "2026-11-15T03:45:36.968Z",
+      "model": "gemini-3.5-flash-lite",
+      "batchJob": "batches/tf0thya3gi1fguffsk27fvt8onjn4z751dy8",
+      "requestKey": "mHbBMPDPkVV5_0177f15480a0e63d",
+      "modelVersion": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 412,
+        "candidatesTokenCount": 130,
+        "totalTokenCount": 542,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 412
+          }
+        ],
+        "serviceTier": "standard"
+      }
     }
   ]
 }

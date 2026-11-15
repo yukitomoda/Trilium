@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "pageId": "NRnIZmSMc5sj",
   "sourceFile": "docs/User Guide/User Guide/Basic Concepts and Features/Notes/Printing & Exporting as PDF.md",
-  "sourceRevision": "da5ab9cbf710478275ec99c1fb39e0454359591b",
+  "sourceRevision": "3c96e23e41b9c687d38f641f019decd8af1ae892",
   "units": [
     {
       "id": "u_76c53368eca49e801691402f_0",
@@ -776,8 +776,15 @@
       "sourceHash": "9584470753fcfbbd5fd61d94b963818b1cdb76a4e9eb2654b09188b07a89bcf3",
       "context": "Printing & Exporting as PDF > Keyboard shortcut",
       "contextHash": "6916e85263f014602185cc4f9925be88487b599a6be7c1a56b90d579edf55cb4",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "__TRILIUM_PH_0__Options__TRILIUM_PH_1__ 内の __TRILIUM_PH_2__キーボードショートカット__TRILIUM_PH_3__ に移動し、以下の機能にキーの組み合わせを割り当てることで、キーボードから印刷およびPDFとしてのエクスポートの両方を実行できます。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-15T03:45:36.968Z"
     },
     {
       "id": "u_0cc5fbe0284c8d9c3d9c90d2_0",
@@ -871,8 +878,15 @@
       "sourceHash": "814a6b122bd4e8cdf6e75134363a02132287c53bc957d8ca82270ee3f53690c9",
       "context": "Printing & Exporting as PDF > Constraints & limitations",
       "contextHash": "28f10c79337036de32c7846da49f9c1db3ecd4a041634de19a71d71f26f3f5a5",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "__TRILIUM_PH_0__コード__TRILIUM_PH_1__ノートは、現在のテーマに関わらず、__TRILIUM_PH_2__Options__TRILIUM_PH_3__ → __TRILIUM_PH_4__コードノート__TRILIUM_PH_5__ → __TRILIUM_PH_6__外観__TRILIUM_PH_7__ の __TRILIUM_PH_8__ライトテーマ__TRILIUM_PH_9__ で、シンタックスハイライト付きで印刷されます。__TRILIUM_PH_10__コードノート__TRILIUM_PH_11__ → __TRILIUM_PH_12__エディタ__TRILIUM_PH_13__ → __TRILIUM_PH_14__行番号__TRILIUM_PH_15__ がオフになっていない限り、行番号が表示されます。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-15T03:45:36.968Z"
     },
     {
       "id": "u_883c6f0591d9bc1e63494684_0",
@@ -1187,8 +1201,15 @@
       "sourceHash": "d7d0ad606d08d33416cc17262defa64c82ace8b1a9362501faa1b708476cbcde",
       "context": "Printing & Exporting as PDF > Customizing the print CSS",
       "contextHash": "75c71adb569dde5aac4eee87bf0de93f58010e4ef468196668272f361c847e05",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "__TRILIUM_PH_0__を変更する際は、詳細度のルールの関係で反映されなくなってしまうため、__TRILIUM_PH_1__レベルで行われ、__TRILIUM_PH_2__レベルになっていないことを確認してください。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-15T03:45:36.968Z"
     },
     {
       "id": "u_2d1bd514287d52992a163d93_0",
@@ -1418,6 +1439,25 @@
       "model": "gemini-3.5-flash-lite",
       "batchJob": "batches/wazxmzaiela6jn8aqd7kybq00i98rm3g571n",
       "requestKey": "NRnIZmSMc5sj_22801d059a9b73fa"
+    },
+    {
+      "at": "2026-11-15T03:45:36.968Z",
+      "model": "gemini-3.5-flash-lite",
+      "batchJob": "batches/tf0thya3gi1fguffsk27fvt8onjn4z751dy8",
+      "requestKey": "NRnIZmSMc5sj_5df892f0661c5343",
+      "modelVersion": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 771,
+        "candidatesTokenCount": 462,
+        "totalTokenCount": 1233,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 771
+          }
+        ],
+        "serviceTier": "standard"
+      }
     }
   ]
 }

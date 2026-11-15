@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "pageId": "ZjLYv08Rp3qC",
   "sourceFile": "docs/User Guide/User Guide/Basic Concepts and Features/Navigation/Quick edit.md",
-  "sourceRevision": "da5ab9cbf710478275ec99c1fb39e0454359591b",
+  "sourceRevision": "3c96e23e41b9c687d38f641f019decd8af1ae892",
   "units": [
     {
       "id": "u_49a9ef63b300efa1138a4f30_0",
@@ -113,8 +113,15 @@
       "sourceHash": "7bcdfd4a31882f1e19f0b3ed16d8aeb1fc71eeac2e541e8e029382310c6555ef",
       "context": "Quick edit > Feature highlights",
       "contextHash": "cfe721a3078a0884d82e2e37ca0e72354a4d76bef64c5cb12ea25839c10fcc3b",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "__TRILIUM_PH_0__ノートリスト__TRILIUM_PH_1__は、__TRILIUM_PH_2__コレクション__TRILIUM_PH_3__タイプのノートを除き、表示されないことに注意してください。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-15T03:45:36.968Z"
     },
     {
       "id": "u_6b552d54263217e67fc674a7_0",
@@ -259,8 +266,15 @@
       "sourceHash": "058e6bfbd9218f173e80f19f93fcd593b7c1d4dec5182763c2c2a624362bb190",
       "context": "Quick edit > Feature highlights",
       "contextHash": "cfe721a3078a0884d82e2e37ca0e72354a4d76bef64c5cb12ea25839c10fcc3b",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "これは__TRILIUM_PH_0__コレクション__TRILIUM_PH_1__とよく統合されており、__TRILIUM_PH_2__開始日__TRILIUM_PH_3__や__TRILIUM_PH_4__終了日__TRILIUM_PH_5__などの事前定義された属性が存在するため、簡単に編集することができます。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-15T03:45:36.968Z"
     },
     {
       "id": "u_541f12380dd87c198fb6691a_0",
@@ -687,6 +701,25 @@
       "model": "gemini-3.5-flash-lite",
       "batchJob": "batches/wazxmzaiela6jn8aqd7kybq00i98rm3g571n",
       "requestKey": "ZjLYv08Rp3qC_c15ad9c3b7f0aab1"
+    },
+    {
+      "at": "2026-11-15T03:45:36.968Z",
+      "model": "gemini-3.5-flash-lite",
+      "batchJob": "batches/tf0thya3gi1fguffsk27fvt8onjn4z751dy8",
+      "requestKey": "ZjLYv08Rp3qC_04d2b3c82c9206b0",
+      "modelVersion": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 536,
+        "candidatesTokenCount": 236,
+        "totalTokenCount": 772,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 536
+          }
+        ],
+        "serviceTier": "standard"
+      }
     }
   ]
 }
