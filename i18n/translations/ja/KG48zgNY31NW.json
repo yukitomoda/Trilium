@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "pageId": "KG48zgNY31NW",
   "sourceFile": "docs/User Guide/User Guide/Note Types/File/Office documents.md",
-  "sourceRevision": "3c96e23e41b9c687d38f641f019decd8af1ae892",
+  "sourceRevision": "731bcf5b4e44f089698184c26f6a7b6e26f8af54",
   "units": [
     {
       "id": "u_e7241f2d13f6d96be6a13a5a_0",
@@ -419,8 +419,15 @@
       "sourceHash": "39b8e243204f65b1b1e7f3af089ed929c5f8a6bf321fd0156328823b1712c334",
       "context": "Office documents > Relation with other features",
       "contextHash": "bfa77ece066590f79cc412962027835c94f3d5bc9863efbb78966c37484976d4",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "同じプレビューは、オフィス文書が__TRILIUM_PH_0__ノートリスト__TRILIUM_PH_1__に表示されるときや、__TRILIUM_PH_2__ノートのインクルード__TRILIUM_PH_3__を介してテキストノートに埋め込まれるとき、および__TRILIUM_PH_4__添付ファイル__TRILIUM_PH_5__として保存されたオフィス文書に対しても使用されます。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-15T05:28:10.674Z"
     },
     {
       "id": "u_bd3fc21bd1a23a7f16fcadbb_0",
@@ -468,6 +475,25 @@
       "model": "gemini-3.5-flash-lite",
       "batchJob": "batches/8vehrrvdpag09tp4gjf9dbgj006t9k2gkkyl",
       "requestKey": "KG48zgNY31NW_446f0ba8805b800c"
+    },
+    {
+      "at": "2026-11-15T05:28:10.674Z",
+      "model": "gemini-3.5-flash-lite",
+      "batchJob": "batches/y1m7dv6ztg8px3tnf6u9hmq3c20sg5fvpix0",
+      "requestKey": "KG48zgNY31NW_6c6843e5390b5060",
+      "modelVersion": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 682,
+        "candidatesTokenCount": 374,
+        "totalTokenCount": 1056,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 682
+          }
+        ],
+        "serviceTier": "standard"
+      }
     }
   ]
 }

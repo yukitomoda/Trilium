@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "pageId": "YtSN43OrfzaA",
   "sourceFile": "docs/User Guide/User Guide/Basic Concepts and Features/UI Elements/Note Tree/Note tree contextual menu.md",
-  "sourceRevision": "3c96e23e41b9c687d38f641f019decd8af1ae892",
+  "sourceRevision": "731bcf5b4e44f089698184c26f6a7b6e26f8af54",
   "units": [
     {
       "id": "u_f4eb8e971d59744792489bbc_0",
@@ -725,8 +725,15 @@
       "sourceHash": "4f6846d02574242ad7021f5675167e903f14b564041f25fd3fad2f0624924103",
       "context": "Note tree contextual menu > Available options",
       "contextHash": "38607f375dc08f35f33c887fc784926de63909b7edd1abbb727dad4374058e61",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "__TRILIUM_PH_0__テンプレート__TRILIUM_PH_1__も、リストの最後にある__TRILIUM_PH_2__テンプレート__TRILIUM_PH_3__見出しの下に（存在する場合は）表示されます。見出しの横にある__TRILIUM_PH_4__ボタンをクリックすると、__TRILIUM_PH_5__オプション__TRILIUM_PH_6__内の__TRILIUM_PH_7__コンテンツマネージャー__TRILIUM_PH_8__が開き、そこでテンプレートを管理できます。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-15T05:28:10.674Z"
     },
     {
       "id": "u_a65a3eb975c388d1db81ff75_0",
@@ -1758,6 +1765,25 @@
           {
             "modality": "TEXT",
             "tokenCount": 692
+          }
+        ],
+        "serviceTier": "standard"
+      }
+    },
+    {
+      "at": "2026-11-15T05:28:10.674Z",
+      "model": "gemini-3.5-flash-lite",
+      "batchJob": "batches/y1m7dv6ztg8px3tnf6u9hmq3c20sg5fvpix0",
+      "requestKey": "YtSN43OrfzaA_6a8126bc5d3d147f",
+      "modelVersion": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 483,
+        "candidatesTokenCount": 199,
+        "totalTokenCount": 682,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 483
           }
         ],
         "serviceTier": "standard"

@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "pageId": "8YBEPzcpUgxw",
   "sourceFile": "docs/User Guide/User Guide/Basic Concepts and Features/UI Elements/Note menu.md",
-  "sourceRevision": "3c96e23e41b9c687d38f641f019decd8af1ae892",
+  "sourceRevision": "731bcf5b4e44f089698184c26f6a7b6e26f8af54",
   "units": [
     {
       "id": "u_1b8cc28e13de5ddd612b63bc_0",
@@ -1228,8 +1228,15 @@
       "sourceHash": "1493b36a433b03cd663c026290888547941125e0d5387ff86f72f23a61705262",
       "context": "Note menu > Open with > Adding an application to the chooser on Linux",
       "contextHash": "683c8c480066ce625f465acc641da7380a14aed4bb3ea0b5563b3bc93636aadc",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "デフォルトのアプリケーションを変更せずにエディタを表示させるには、__TRILIUM_PH_0__ の __TRILIUM_PH_1__ にエディタの __TRILIUM_PH_2__ ファイルの名前を使用して追加します:",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-15T05:28:10.674Z"
     },
     {
       "id": "u_b83d73e1764951311cf54dbc_0",
@@ -1684,6 +1691,25 @@
       "model": "gemini-3.5-flash-lite",
       "batchJob": "batches/wazxmzaiela6jn8aqd7kybq00i98rm3g571n",
       "requestKey": "8YBEPzcpUgxw_479b0a61f245ded0"
+    },
+    {
+      "at": "2026-11-15T05:28:10.674Z",
+      "model": "gemini-3.5-flash-lite",
+      "batchJob": "batches/y1m7dv6ztg8px3tnf6u9hmq3c20sg5fvpix0",
+      "requestKey": "8YBEPzcpUgxw_c5221952f34cbc50",
+      "modelVersion": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 1284,
+        "candidatesTokenCount": 987,
+        "totalTokenCount": 2271,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 1284
+          }
+        ],
+        "serviceTier": "standard"
+      }
     }
   ]
 }

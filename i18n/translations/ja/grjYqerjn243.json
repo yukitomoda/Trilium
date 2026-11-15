@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "pageId": "grjYqerjn243",
   "sourceFile": "docs/User Guide/User Guide/Note Types/Canvas.md",
-  "sourceRevision": "3c96e23e41b9c687d38f641f019decd8af1ae892",
+  "sourceRevision": "731bcf5b4e44f089698184c26f6a7b6e26f8af54",
   "units": [
     {
       "id": "u_1441babaef359e103d37363d_0",
@@ -177,8 +177,15 @@
       "sourceHash": "6dd42ff955ca4ccfffe38400071061fc4237513f9917012789848bb42c950581",
       "context": "Canvas > Embedding notes",
       "contextHash": "5a4718a8aeb2dc23cdedb8cb3dd21d6460024e62917c4c130b7805875d090431",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "Canvas内へのノートの埋め込みは __TRILIUM_PH_0__ノートのインクルード__TRILIUM_PH_1__ と同じルールに従います。一部のノートは画像として描画されますが（例: __TRILIUM_PH_2__マインドマップ__TRILIUM_PH_3__）、__TRILIUM_PH_4__コレクション__TRILIUM_PH_5__ のように完全にインタラクティブに描画されるものもあります。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-15T05:28:10.674Z"
     },
     {
       "id": "u_074fa956676eff7187e91dae_0",
@@ -238,8 +245,15 @@
       "sourceHash": "f5ce1f6cd4d8f9daf12310443d064387c761f609ba05515db86e9cd74ed393d7",
       "context": "Canvas > Linking to a note",
       "contextHash": "9f09c1f78c932343c3736a1493b35159bc9c71ce025bd63dabe31b4afbc7f35e",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "要素の右上に __TRILIUM_PH_0__ アイコンが表示され、クリックするとリンクされたノートに移動します。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-15T05:28:10.674Z"
     },
     {
       "id": "u_7fdeca2fab2713a8f554f975_0",
@@ -298,6 +312,25 @@
       "model": "gemini-3.5-flash-lite",
       "batchJob": "batches/8vehrrvdpag09tp4gjf9dbgj006t9k2gkkyl",
       "requestKey": "grjYqerjn243_797dec59046b137d"
+    },
+    {
+      "at": "2026-11-15T05:28:10.674Z",
+      "model": "gemini-3.5-flash-lite",
+      "batchJob": "batches/y1m7dv6ztg8px3tnf6u9hmq3c20sg5fvpix0",
+      "requestKey": "grjYqerjn243_eb9411dd5222d851",
+      "modelVersion": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 1059,
+        "candidatesTokenCount": 757,
+        "totalTokenCount": 1816,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 1059
+          }
+        ],
+        "serviceTier": "standard"
+      }
     }
   ]
 }

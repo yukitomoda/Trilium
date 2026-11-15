@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "pageId": "nBAXQFj20hS1",
   "sourceFile": "docs/User Guide/User Guide/Note Types/Text/Include Note.md",
-  "sourceRevision": "3c96e23e41b9c687d38f641f019decd8af1ae892",
+  "sourceRevision": "731bcf5b4e44f089698184c26f6a7b6e26f8af54",
   "units": [
     {
       "id": "u_2ee9482bee8eeb1ceeafe3cb_0",
@@ -793,8 +793,15 @@
       "sourceHash": "344cc190720dbdd82c8dda1ccd1c2aacf931c114751d134760169e6d16476ba7",
       "context": "Include Note > Title",
       "contextHash": "7aff4474c814b6d143e1006fc36ec8f4943f4b4207008b6d46ed1ee30b032494",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "インクルードのタイトル行は、インクルードされたノートへのリンクとなり、ボタンを保持しています。コンテンツのみを表示するには、インクルードのメニューで __TRILIUM_PH_0__Show title__TRILIUM_PH_1__ をオフにします。このメニューは、タイトル行を右クリックするか、__TRILIUM_PH_2__ __TRILIUM_PH_3__More actions__TRILIUM_PH_4__ ボタンを押すことで開きます（下記の __TRILIUM_PH_5__Opening an included note__TRILIUM_PH_6__ を参照してください）。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-15T05:28:10.674Z"
     },
     {
       "id": "u_95d318d4be2d7f0e940d40ab_0",
@@ -2489,6 +2496,25 @@
           {
             "modality": "TEXT",
             "tokenCount": 2374
+          }
+        ],
+        "serviceTier": "standard"
+      }
+    },
+    {
+      "at": "2026-11-15T05:28:10.674Z",
+      "model": "gemini-3.5-flash-lite",
+      "batchJob": "batches/y1m7dv6ztg8px3tnf6u9hmq3c20sg5fvpix0",
+      "requestKey": "nBAXQFj20hS1_98630ed4d3a59300",
+      "modelVersion": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 1999,
+        "candidatesTokenCount": 1746,
+        "totalTokenCount": 3745,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 1999
           }
         ],
         "serviceTier": "standard"

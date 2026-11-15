@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "pageId": "m523cpzocqaD",
   "sourceFile": "docs/User Guide/User Guide/Note Types/Saved Search.md",
-  "sourceRevision": "3c96e23e41b9c687d38f641f019decd8af1ae892",
+  "sourceRevision": "731bcf5b4e44f089698184c26f6a7b6e26f8af54",
   "units": [
     {
       "id": "u_3fa1901f7e8497c4275b1f88_0",
@@ -79,8 +79,15 @@
       "sourceHash": "f0b873a54c056d2e81371a2700d008e0b6be067799cc02a7721eecee52f8bc6d",
       "context": "Saved Search",
       "contextHash": "9b2b20ae76cce84582e1495ef1ab037fd4ffd93ebfb5a0c20975d9f944fcb06f",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "検索を保存した後も、後から設定を変更できるように __TRILIUM_PH_0__検索パラメータ__TRILIUM_PH_1__ が __TRILIUM_PH_2__タイトル__TRILIUM_PH_3__ の下に利用可能な状態で残りますが、デフォルトでは折りたたまれた状態で表示されます。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-15T05:28:10.674Z"
     },
     {
       "id": "u_9ac58578d5b986114bcf2349_0",
@@ -140,6 +147,25 @@
       "model": "gemini-3.5-flash-lite",
       "batchJob": "batches/8vehrrvdpag09tp4gjf9dbgj006t9k2gkkyl",
       "requestKey": "m523cpzocqaD_a202d067f21b429c"
+    },
+    {
+      "at": "2026-11-15T05:28:10.674Z",
+      "model": "gemini-3.5-flash-lite",
+      "batchJob": "batches/y1m7dv6ztg8px3tnf6u9hmq3c20sg5fvpix0",
+      "requestKey": "m523cpzocqaD_f1715957ff2b0a92",
+      "modelVersion": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 431,
+        "candidatesTokenCount": 147,
+        "totalTokenCount": 578,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 431
+          }
+        ],
+        "serviceTier": "standard"
+      }
     }
   ]
 }
