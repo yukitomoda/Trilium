@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "pageId": "3IDVtesTQ8ds",
   "sourceFile": "docs/User Guide/User Guide/Note Types/Text/Links/External links.md",
-  "sourceRevision": "da5ab9cbf710478275ec99c1fb39e0454359591b",
+  "sourceRevision": "3c96e23e41b9c687d38f641f019decd8af1ae892",
   "units": [
     {
       "id": "u_67d711c9d631cbcc8be6a5e9_0",
@@ -62,8 +62,15 @@
       "sourceHash": "b0991af44fd78e34296bd15039edd753a505000a934f5f05422c5d4745491e45",
       "context": "External links",
       "contextHash": "2cedb069633746f45f07d748666e17efa964159469f9e2c993d67c632f661d2a",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "__TRILIUM_PH_0__Formatting toolbar__TRILIUM_PH_1__の __TRILIUM_PH_2__ を押すか、__TRILIUM_PH_3__Ctrl__TRILIUM_PH_4__+__TRILIUM_PH_5__K__TRILIUM_PH_6__ を押します。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-15T03:45:36.968Z"
     },
     {
       "id": "u_f7140390fe79346ae6d6a05c_0",
@@ -89,8 +96,15 @@
       "sourceHash": "eef2a0eb0f81f0958f4f9e348b62ebd981ecddd098f76075ff1081f974151f21",
       "context": "External links",
       "contextHash": "2cedb069633746f45f07d748666e17efa964159469f9e2c993d67c632f661d2a",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "アドレス欄から移動するか __TRILIUM_PH_0__Paste__TRILIUM_PH_1__ ボタンで貼り付けると、空の __TRILIUM_PH_2__Link title__TRILIUM_PH_3__ にウェブページのタイトルが自動入力されます。読み込み中は末尾にスピナーが表示されます。入力したタイトルはそのまま保持されます。これを無効にするには、__TRILIUM_PH_4__Options__TRILIUM_PH_5__ → __TRILIUM_PH_6__Text Notes__TRILIUM_PH_7__ に移動し、__TRILIUM_PH_8__Features__TRILIUM_PH_9__ セクションの __TRILIUM_PH_10__Automatically retrieve titles for text links__TRILIUM_PH_11__ をオフにします。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-15T03:45:36.968Z"
     },
     {
       "id": "u_2acb6094c5f5ac948e25c90c_0",
@@ -385,6 +399,25 @@
       "model": "gemini-3.5-flash-lite",
       "batchJob": "batches/wazxmzaiela6jn8aqd7kybq00i98rm3g571n",
       "requestKey": "3IDVtesTQ8ds_623f06740c6375e7"
+    },
+    {
+      "at": "2026-11-15T03:45:36.968Z",
+      "model": "gemini-3.5-flash-lite",
+      "batchJob": "batches/tf0thya3gi1fguffsk27fvt8onjn4z751dy8",
+      "requestKey": "3IDVtesTQ8ds_ac58903eba5feaeb",
+      "modelVersion": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 1224,
+        "candidatesTokenCount": 905,
+        "totalTokenCount": 2129,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 1224
+          }
+        ],
+        "serviceTier": "standard"
+      }
     }
   ]
 }

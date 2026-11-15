@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "pageId": "gOKqSJgXLcIj",
   "sourceFile": "docs/User Guide/User Guide/Basic Concepts and Features/Themes/Icon Packs.md",
-  "sourceRevision": "da5ab9cbf710478275ec99c1fb39e0454359591b",
+  "sourceRevision": "3c96e23e41b9c687d38f641f019decd8af1ae892",
   "units": [
     {
       "id": "u_ab7e2aa6e95abd3a4810ace5_0",
@@ -487,8 +487,15 @@
       "sourceHash": "d7f5eea69a2b215a8f1e51056cfad5386d0e8710812050ad0832b26a099d4226",
       "context": "Icon Packs > What happens if I remove an icon pack",
       "contextHash": "df636904d19f4cb129a34e5eeab51ac8927a33c02d67e2a338f537b203cd3714",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "アイコンパックが削除または無効化された場合（__TRILIUM_PH_0__ラベルの削除や変更による）、そのアイコンパックを使用していたすべてのノートは、__TRILIUM_PH_1__ノートツリー__TRILIUM_PH_2__上でアイコンが表示されなくなります。見た目が不自然になる以外に、問題が発生することはありません。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-15T03:45:36.968Z"
     },
     {
       "id": "u_35f77fe8c9db5b40a795086e_0",
@@ -556,6 +563,25 @@
       "model": "gemini-3.5-flash-lite",
       "batchJob": "batches/wazxmzaiela6jn8aqd7kybq00i98rm3g571n",
       "requestKey": "gOKqSJgXLcIj_4816ff3e649640d7"
+    },
+    {
+      "at": "2026-11-15T03:45:36.968Z",
+      "model": "gemini-3.5-flash-lite",
+      "batchJob": "batches/tf0thya3gi1fguffsk27fvt8onjn4z751dy8",
+      "requestKey": "gOKqSJgXLcIj_f1b04ae03c490ec9",
+      "modelVersion": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 439,
+        "candidatesTokenCount": 151,
+        "totalTokenCount": 590,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 439
+          }
+        ],
+        "serviceTier": "standard"
+      }
     }
   ]
 }

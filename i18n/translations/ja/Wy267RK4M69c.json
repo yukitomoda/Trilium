@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "pageId": "Wy267RK4M69c",
   "sourceFile": "docs/User Guide/User Guide/Basic Concepts and Features/Themes.md",
-  "sourceRevision": "da5ab9cbf710478275ec99c1fb39e0454359591b",
+  "sourceRevision": "3c96e23e41b9c687d38f641f019decd8af1ae892",
   "units": [
     {
       "id": "u_11e717ce1ab761747a21163d_0",
@@ -106,8 +106,15 @@
       "sourceHash": "7bdccdeb05143c6d17cf1ac5cb95804fd56664c34ff770f6f18c0c82c0022225",
       "context": "Themes > Creating Custom CSS Themes",
       "contextHash": "eb387465d773d11bbd224c8791368ef83a2bc33e9070bd79c286b8792214f80a",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "__TRILIUM_PH_0__CSSコードノートを作成する__TRILIUM_PH_1__：まず、__TRILIUM_PH_2__のタイプの新しい__TRILIUM_PH_3__コードノート__TRILIUM_PH_4__を作成します。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-15T03:45:36.968Z"
     },
     {
       "id": "u_b2473aec3bb2996f64804f8a_0",
@@ -405,8 +412,15 @@
       "sourceHash": "307d7f009ad7684e30ec128131e4a0d8449ecc49f32ff49a252ae208d7bb7a0e",
       "context": "Themes > Creating Custom CSS Themes > Applying Custom CSS",
       "contextHash": "fc3283bbcead8397b33c5780a98482f48119ea445f59fbe7a871d5a7f013ca33",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "__TRILIUM_PH_0__CSSコードノートを作成する__TRILIUM_PH_1__：__TRILIUM_PH_2__のタイプの新しい__TRILIUM_PH_3__コード__TRILIUM_PH_4__ノートを作成します。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-15T03:45:36.968Z"
     },
     {
       "id": "u_565dd7e57e40f9ed85596a83_0",
@@ -741,6 +755,25 @@
       "model": "gemini-3.5-flash-lite",
       "batchJob": "batches/wazxmzaiela6jn8aqd7kybq00i98rm3g571n",
       "requestKey": "Wy267RK4M69c_e4bde109b2d871ac"
+    },
+    {
+      "at": "2026-11-15T03:45:36.968Z",
+      "model": "gemini-3.5-flash-lite",
+      "batchJob": "batches/tf0thya3gi1fguffsk27fvt8onjn4z751dy8",
+      "requestKey": "Wy267RK4M69c_2709797185dbd79b",
+      "modelVersion": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 687,
+        "candidatesTokenCount": 383,
+        "totalTokenCount": 1070,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 687
+          }
+        ],
+        "serviceTier": "standard"
+      }
     }
   ]
 }
