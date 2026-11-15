@@ -6,7 +6,7 @@ import { test } from "node:test";
 
 import { FinishReason, GenerateContentResponse, JobState } from "@google/genai";
 
-import { loadJobs, runBatchTranslation, type TranslationPage } from "./batch-jobs";
+import { loadJobs, runBatchTranslation, saveJob, type TranslationPage } from "./batch-jobs";
 import { type BatchRequest, type BatchService,createBatchService, parseBatchResponse, TranslationIdError } from "./gemini";
 import { loadMemory, reconcile } from "./memory";
 import { extractPage } from "./segments";
@@ -285,5 +285,78 @@ void test("keyed translations ignore order and reject unlabelled string arrays",
         data.candidates![0].content!.parts![0].text = JSON.stringify({
             requestKey: request.key, translations: keyed });
         assert.throws(() => parseBatchResponse(data, [ request ]), /translation count/);
+    } finally { await rm(root, { recursive: true, force: true }); }
+});
+
+void test("a broken unit does not discard valid siblings and only that unit is retried", async () => {
+    const root = await mkdtemp(join(tmpdir(), "trilium-partial-units-"));
+    try {
+        const pages = [ await page(root, "one") ];
+        let requests: BatchRequest[] = [];
+        let creates = 0;
+        let gets = 0;
+        const options = { directory: join(root, "jobs"), conditions,
+            submit: true, limit: 20, refresh: false,
+            service: { async create(input: BatchRequest[]) {
+                creates++; requests = input;
+                return { name: `batches/job-${creates}`, state: JobState.JOB_STATE_PENDING };
+            }, async get() {
+                gets++;
+                const result = response(requests[0]);
+                const payload = JSON.parse(result.candidates![0].content!.parts![0].text!);
+                payload.translations[1].translation += "__TRILIUM_PH_99__";
+                result.candidates![0].content!.parts![0].text = JSON.stringify(payload);
+                return { name: "batches/job-1", state: JobState.JOB_STATE_SUCCEEDED,
+                    dest: { inlinedResponses: [ { response: result } ] } };
+            } } };
+        await runBatchTranslation(pages, options);
+        const collected = await runBatchTranslation(pages, { ...options, submit: false });
+        assert.equal(collected.failed, true);
+        assert.equal(collected.received, 1);
+        assert.equal(pages[0].memory.units[0].translation, "Guide one");
+        assert.equal(pages[0].memory.units[1].translation, undefined);
+        const saved = (await loadJobs(options.directory))[0];
+        assert.equal(Object.keys(saved.requests[0].result!.translations).length, 1);
+        assert.equal(saved.requests[0].unitErrors![pages[0].memory.units[1].id],
+            "Translation changed protected placeholders");
+        assert.equal(saved.rejectedResponses!.length, 1);
+        const retry = await runBatchTranslation(pages, options);
+        assert.equal(retry.submitted, 1);
+        assert.deepEqual(requests[0].units.map((unit) => unit.id), [ pages[0].memory.units[1].id ]);
+        assert.equal(creates, 2);
+        assert.equal(gets, 1);
+    } finally { await rm(root, { recursive: true, force: true }); }
+});
+
+void test("archived rejected output recovers valid units offline and preserves human edits", async () => {
+    const root = await mkdtemp(join(tmpdir(), "trilium-offline-recover-"));
+    try {
+        const pages = [ await page(root, "one") ];
+        const request = { key: "old-request", pageId: "one", units: pages[0].memory.units };
+        const result = response(request);
+        const payload = JSON.parse(result.candidates![0].content!.parts![0].text!);
+        payload.translations[0].translation += "__TRILIUM_PH_99__";
+        const directory = join(root, "jobs");
+        await saveJob(directory, { schemaVersion: 1, id: "archived", name: "batches/old",
+            createdAt: "2026-11-14T00:00:00Z", conditions, phase: "complete",
+            requests: [ { ...request, error: "Missing or invalid batch response" } ],
+            rejectedResponses: [ { responseIndex: 0, finishReason: "STOP",
+                text: JSON.stringify(payload) } ] });
+        pages[0].memory.units[0].translation = "人手修正";
+        pages[0].memory.units[0].status = "reviewed";
+        const options = { directory, conditions, submit: false, limit: 20, refresh: false,
+            service: { async create() { throw new Error("Must not submit"); },
+                async get() { throw new Error("Must not fetch"); } } };
+        const recovered = await runBatchTranslation(pages, options);
+        assert.equal(recovered.received, 1);
+        assert.equal(recovered.failed, true);
+        assert.equal(pages[0].memory.units[1].translation, "こんにちは one");
+        assert.equal(pages[0].memory.units[0].translation, "人手修正");
+        const count = pages[0].memory.requests.length;
+        const repeated = await runBatchTranslation(pages, options);
+        assert.equal(repeated.received, 0);
+        assert.equal(repeated.failed, false);
+        assert.equal(pages[0].memory.requests.length, count);
+        assert.equal(Object.keys((await loadJobs(directory))[0].requests[0].result!.translations).length, 1);
     } finally { await rm(root, { recursive: true, force: true }); }
 });

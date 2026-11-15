@@ -28,7 +28,7 @@ export class TranslationIdError extends Error {
     }
 }
 
-export function parseBatchResponse(data: GenerateContentResponse, requests: BatchRequest[]) {
+export function parseBatchResponse(data: GenerateContentResponse, requests: BatchRequest[], allowPartial = false) {
     const candidate = data.candidates?.[0];
     if (candidate?.finishReason !== "STOP") throw new Error("Incomplete Gemini batch response");
     const text = candidate.content?.parts?.filter((part) => !part.thought)
@@ -61,15 +61,22 @@ export function parseBatchResponse(data: GenerateContentResponse, requests: Batc
             missingIds: [ ...expected.keys() ].filter((id) => !seenIds.has(id)) });
     }
     const translations: Record<string, string> = {};
+    const unitErrors: Record<string, string> = {};
     for (const entry of entries) {
         const unit = expected.get(entry.id);
         if (!unit || Object.hasOwn(translations, entry.id)) {
             throw new Error("Unexpected or duplicate translation ID");
         }
-        validateTranslation(unit.source, entry.translation);
-        translations[entry.id] = entry.translation;
+        try {
+            validateTranslation(unit.source, entry.translation);
+            translations[entry.id] = entry.translation;
+        } catch (error) {
+            if (!allowPartial) throw error;
+            unitErrors[entry.id] = typeof entry.translation !== "string" || !entry.translation.trim()
+                ? "Empty or invalid translation" : "Translation changed protected placeholders";
+        }
     }
-    return { key: request.key, translations, modelVersion: data.modelVersion,
+    return { key: request.key, translations, unitErrors, modelVersion: data.modelVersion,
         usage: data.usageMetadata };
 }
 

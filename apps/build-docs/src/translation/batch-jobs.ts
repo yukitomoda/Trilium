@@ -2,7 +2,7 @@ import { randomUUID } from "node:crypto";
 import { mkdir, readdir, readFile, rename, writeFile } from "node:fs/promises";
 import { join } from "node:path";
 
-import type { BatchJob } from "@google/genai";
+import { type BatchJob, FinishReason, GenerateContentResponse } from "@google/genai";
 
 import { type BatchRequest, type BatchService, parseBatchResponse, TranslationIdError } from "./gemini";
 import { type Conditions, type Memory, pendingUnits, saveMemory } from "./memory";
@@ -11,6 +11,7 @@ import { hash, validateTranslation } from "./segments";
 interface SavedRequest extends BatchRequest {
     result?: { translations: Record<string, string>; modelVersion?: string; usage?: unknown };
     error?: string;
+    unitErrors?: Record<string, string>;
 }
 export interface SavedJob {
     schemaVersion: 1;
@@ -69,6 +70,7 @@ export function replayResults(pages: TranslationPage[], jobs: SavedJob[], condit
                     continue;
                 }
                 const translation = request.result.translations[unit.id];
+                if (translation === undefined) continue;
                 validateTranslation(unit.source, translation);
                 unit.translation = translation;
                 unit.status = "translated";
@@ -85,6 +87,35 @@ export function replayResults(pages: TranslationPage[], jobs: SavedJob[], condit
             }
         }
     }
+}
+
+/** Salvages validated units from archived model output without a network request. */
+export function recoverSavedResponses(job: SavedJob) {
+    let recovered = 0;
+    if (job.phase !== "complete") return recovered;
+    for (const saved of job.rejectedResponses ?? []) {
+        if (saved.finishReason !== "STOP") continue;
+        const response = new GenerateContentResponse();
+        response.candidates = [ { finishReason: FinishReason.STOP,
+            content: { parts: [ { text: saved.text } ] } } ];
+        try {
+            const { unitErrors, ...result } = parseBatchResponse(response, job.requests, true);
+            const request = job.requests.find((request) => request.key === result.key)!;
+            for (const [ id, translation ] of Object.entries(result.translations)) {
+                if (request.result && Object.hasOwn(request.result.translations, id)) continue;
+                request.result ??= { translations: {} };
+                request.result.translations[id] = translation;
+                recovered++;
+            }
+            request.unitErrors = unitErrors;
+            if (Object.keys(unitErrors).length) request.error = "Some translation units failed validation";
+            else delete request.error;
+        } catch {
+            // Ambiguous IDs, incomplete output and invalid JSON are never guessed.
+        }
+    }
+    if (!job.requests.some((request) => request.error)) delete job.error;
+    return recovered;
 }
 
 export function reservedUnits(jobs: SavedJob[], conditions: Conditions) {
@@ -121,10 +152,23 @@ async function receive(directory: string, job: SavedJob, remote: BatchJob) {
             }
             try {
                 // The response's requestKey, not array order, determines its destination.
-                const result = parseBatchResponse(item.response, job.requests);
+                const { unitErrors, ...result } = parseBatchResponse(item.response, job.requests, true);
                 if (seen.has(result.key)) throw new Error("Duplicate batch response key");
                 seen.add(result.key);
-                job.requests.find((request) => request.key === result.key)!.result = result;
+                const request = job.requests.find((request) => request.key === result.key)!;
+                if (Object.keys(result.translations).length) {
+                    request.result = { ...result, translations: {
+                        ...request.result?.translations, ...result.translations
+                    } };
+                }
+                request.unitErrors = unitErrors;
+                if (Object.keys(unitErrors).length) {
+                    request.error = "Some translation units failed validation";
+                    console.error(`Batch ${job.name}, request ${result.key}: `
+                        + `${Object.keys(unitErrors).length} invalid units; `
+                        + `${Object.keys(result.translations).length} valid units retained`);
+                    throw new Error("Some translation units failed validation");
+                }
             } catch (error) {
                 // Preserve only generated documentation, never HTTP headers or SDK errors.
                 const candidate = item.response.candidates?.[0];
@@ -136,7 +180,8 @@ async function receive(directory: string, job: SavedJob, remote: BatchJob) {
                 const allowed = [ "Incomplete Gemini batch response", "Invalid batch response JSON",
                     "Unexpected batch request key or translation count",
                     "Unexpected or duplicate translation ID", "Empty or invalid translation",
-                    "Translation changed protected placeholders", "Duplicate batch response key" ];
+                    "Translation changed protected placeholders", "Duplicate batch response key",
+                    "Some translation units failed validation" ];
                 const reason = error instanceof Error && allowed.includes(error.message)
                     ? error.message : "Malformed batch response structure";
                 const requestKey = error instanceof TranslationIdError ? error.requestKey
@@ -150,6 +195,9 @@ async function receive(directory: string, job: SavedJob, remote: BatchJob) {
             }
         }
         for (const request of job.requests) {
+            if (Object.keys(request.unitErrors ?? {}).length && !request.error) {
+                request.error = "Some translation units failed validation";
+            }
             if (!request.result && !request.error) {
                 request.error = "Missing or invalid batch response";
             }
@@ -171,15 +219,24 @@ export async function runBatchTranslation(pages: TranslationPage[], options: {
     const jobs = await loadJobs(options.directory);
     const observed: SavedJob[] = [];
     for (const job of jobs) {
+        if (sameConditions(job.conditions, options.conditions)) {
+            const recovered = recoverSavedResponses(job);
+            if (recovered) {
+                console.log(`Recovered ${recovered} validated units from saved batch ${job.name}; no API call`);
+                await saveJob(options.directory, job);
+                observed.push(job);
+                await options.checkpoint?.();
+            }
+        }
         if ((job.phase === "submitting" || job.phase === "uncertain") && !job.name) {
             throw new Error(`Batch submission uncertain: ${job.id}; recover the job name`);
         }
         const recheck = options.recheckCompleted && job.phase === "complete"
-            && job.requests.some((request) => !request.result);
+            && job.requests.some((request) => !request.result || request.error);
         if (([ "pending", "submitting", "uncertain" ].includes(job.phase) || recheck)
             && job.name) {
             await receive(options.directory, job, await options.service.get(job.name));
-            observed.push(job);
+            if (!observed.includes(job)) observed.push(job);
             await options.checkpoint?.();
         }
     }

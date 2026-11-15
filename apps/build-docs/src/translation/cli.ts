@@ -2,7 +2,7 @@ import { execFileSync } from "node:child_process";
 import { appendFile, readFile } from "node:fs/promises";
 import { join, resolve } from "node:path";
 
-import { loadJobs, replayResults, reservedUnits, runBatchTranslation } from "./batch-jobs";
+import { loadJobs, recoverSavedResponses, replayResults, reservedUnits, runBatchTranslation } from "./batch-jobs";
 import { createBatchService } from "./gemini";
 import { loadMemory, pendingUnits, reconcile, saveMemory } from "./memory";
 import { extractPage, hash } from "./segments";
@@ -73,6 +73,7 @@ async function main() {
         await document.close();
         planned.push({ path, memory, title: page.title });
     }
+    for (const job of jobs) recoverSavedResponses(job);
     replayResults(planned, jobs, settings.conditions);
     const reserved = reservedUnits(jobs, settings.conditions);
     let remaining = command === "collect" ? 0 : limit;
