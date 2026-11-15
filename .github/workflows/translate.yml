@@ -127,6 +127,12 @@ jobs:
             pnpm docs:ja:plan "${args[@]}"
             pnpm docs:ja:translate "${args[@]}"
           fi
+      - name: Summarize translation progress
+        if: always() && (steps.translation.outcome == 'success' || steps.translation.outcome == 'failure')
+        continue-on-error: true
+        env:
+          TRANSLATION_OUTCOME: ${{ steps.translation.outcome }}
+        run: pnpm docs:ja:status
       - name: Preserve jobs and translations (including partial progress)
         if: always() && (steps.translation.outcome == 'success' || steps.translation.outcome == 'failure')
         uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7.0.2
@@ -135,7 +141,10 @@ jobs:
           path: |
             i18n/translations/ja/*.json
             i18n/batches/*.json
+            .generated/translation-status/status.json
+            .generated/translation-status/status.md
           if-no-files-found: error
+          include-hidden-files: true # Only the explicit translation/report paths above.
           retention-days: 30
       - name: Checkpoint Batch API jobs on the state branch
         if: always() && (steps.translation.outcome == 'success' || steps.translation.outcome == 'failure')
@@ -190,11 +199,14 @@ jobs:
           処理中ジョブは専用ブランチに保存し、定期実行で取得します。二重送信しません。
           マージ後にGitHub Pagesへ公開されます。APIキーや生成HTMLは含めていません。
           BODY
+          if [ -f .generated/translation-status/status.md ]; then
+            cat .generated/translation-status/status.md >> "$RUNNER_TEMP/translation-pr.md"
+          fi
           url=$(gh pr create --base "$DEFAULT_BRANCH" --head "$branch" \
             --title 'docs: Batch APIによる日本語訳を反映' --body-file "$RUNNER_TEMP/translation-pr.md")
           echo "Translation pull request: $url" >> "$GITHUB_STEP_SUMMARY"
       - name: Report incomplete translation
         if: steps.translation.outcome == 'failure'
         run: |
-          echo 'Batch API step failed. Inspect the journal artifact and state branch before retrying.' >&2
+          echo '翻訳処理の一部が失敗しました。実行のSummaryにある「翻訳の状況」と、Artifacts内のstatus.jsonを確認してください。正常な翻訳のPRが作成されている場合があります。' >&2
           exit 1

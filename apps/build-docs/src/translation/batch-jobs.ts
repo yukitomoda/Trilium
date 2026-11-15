@@ -294,7 +294,8 @@ export async function runBatchTranslation(pages: TranslationPage[], options: {
         replayResults(pages, [ job ], options.conditions);
         for (const page of pages) await saveMemory(page.path, page.memory);
     }
-    return { submitted: requests.reduce((sum, request) => sum + request.units.length, 0),
+    return { observedJobs: observed.map((job) => job.id),
+        submitted: requests.reduce((sum, request) => sum + request.units.length, 0),
         pending: jobs.filter((job) => job.phase === "pending").length,
         received: observed.reduce((sum, job) => sum
             + job.requests.filter((request) => request.result).length, 0),

@@ -91,6 +91,13 @@ GitHubの仕様により、Actionsが作成したPRのCIに **Approve workflows 
 翻訳ワークフロー内でもテスト・更新後のビルド・リンク検証を行っています。
 [公式説明](https://docs.github.com/en/actions/how-tos/write-workflows/choose-when-workflows-run/trigger-a-workflow)
 
+### 翻訳件数を確認する
+
+実行画面の **Summary → 翻訳の状況** に、翻訳反映済み・未解決の失敗・処理中の部分数、
+失敗理由、対象ページ、バッチ別の成否を表示します。翻訳ステップが失敗しても集計します。
+同じ集計をPR本文とartifact内の `status.md` / `status.json` に残します。
+全体集計では再試行の重複や、すでに成功した部分を失敗数へ重ねて数えません。
+
 ### 失敗時と再開
 
 ジョブ台帳を専用ブランチへ保存するため、ランナーが変わっても、完了PRをまだマージしていなくても

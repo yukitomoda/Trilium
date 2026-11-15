@@ -68,6 +68,7 @@
     "docs:ja:test": "pnpm --filter build-docs exec tsx --test src/translation/*.spec.ts src/documentation-links.spec.ts",
     "docs:ja:extract": "pnpm --filter build-docs exec tsx src/translation/cli.ts extract",
     "docs:ja:validate": "pnpm --filter build-docs exec node --max-old-space-size=4096 --import tsx src/translation/validate-site.ts",
+    "docs:ja:status": "pnpm --filter build-docs exec tsx src/translation/report.ts",
     "docs:ja:collect": "pnpm --filter build-docs exec tsx src/translation/cli.ts collect"
   },
   "private": true,

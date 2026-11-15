@@ -1,5 +1,5 @@
 import { execFileSync } from "node:child_process";
-import { appendFile, readFile } from "node:fs/promises";
+import { appendFile, readFile, writeFile } from "node:fs/promises";
 import { join, resolve } from "node:path";
 
 import { loadJobs, recoverSavedResponses, replayResults, reservedUnits, runBatchTranslation } from "./batch-jobs";
@@ -121,6 +121,8 @@ async function main() {
             });
         } : undefined
     });
+    await writeFile(join(root, ".generated/translation-preview/last-run.json"),
+        JSON.stringify(result, null, 2));
     if (process.env.GITHUB_OUTPUT) {
         await appendFile(process.env.GITHUB_OUTPUT, `received_requests=${result.received}\n`
             + `pending_jobs=${result.pending}\nsubmitted_units=${result.submitted}\n`);
