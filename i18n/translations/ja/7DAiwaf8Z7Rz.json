@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "pageId": "7DAiwaf8Z7Rz",
   "sourceFile": "docs/User Guide/User Guide/Installation & Setup/Server Installation/Multi-factor authentication with TOTP.md",
-  "sourceRevision": "f9d13f6c63cadab8586cbd99a6949884087fe858",
+  "sourceRevision": "da5ab9cbf710478275ec99c1fb39e0454359591b",
   "units": [
     {
       "id": "u_a928acd3195c959029731c5f_0",
@@ -13,13 +13,13 @@
       "contextHash": "bbd7d2549feefe885c6d1d30a62fb403e21ad07e8db2b431f39b4e6173902d55",
       "status": "translated",
       "active": true,
-      "translation": "TOTP による多要素認証",
+      "translation": "TOTPによる多要素認証",
       "conditions": {
         "model": "gemini-3.5-flash-lite",
         "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
         "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
       },
-      "translatedAt": "2026-11-14T14:14:05.465Z"
+      "translatedAt": "2026-11-14T11:28:45.803Z"
     },
     {
       "id": "u_e39c84710ab9912177e7608b_0",
@@ -30,13 +30,13 @@
       "contextHash": "bbd7d2549feefe885c6d1d30a62fb403e21ad07e8db2b431f39b4e6173902d55",
       "status": "translated",
       "active": true,
-      "translation": "多要素認証 (MFA) は、システム、アプリケーション、またはアカウントへのアクセスを許可する前に、ユーザーに 2 つ以上の検証要素の提供を求めるセキュリティプロセスです。これにより、パスワード単体よりも保護のレイヤーが追加されます。",
+      "translation": "多要素認証（MFA）は、システム、アプリケーション、またはアカウントへのアクセスを許可する前に、ユーザーに2つ以上の検証要素の提供を求めるセキュリティプロセスです。これにより、パスワードの使用だけを超えた追加の保護層が加わります。",
       "conditions": {
         "model": "gemini-3.5-flash-lite",
         "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
         "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
       },
-      "translatedAt": "2026-11-14T14:14:05.465Z"
+      "translatedAt": "2026-11-14T11:28:45.803Z"
     },
     {
       "id": "u_7f32891cc9d57b299c804771_0",
@@ -47,13 +47,13 @@
       "contextHash": "bbd7d2549feefe885c6d1d30a62fb403e21ad07e8db2b431f39b4e6173902d55",
       "status": "translated",
       "active": true,
-      "translation": "複数の検証方法を要求することで、MFA は万が一パスワードが漏洩した場合でも、不正アクセスのリスクを軽減するのに役立ちます。ノートに保存されている機密情報を保護するために強く推奨されます。",
+      "translation": "複数の検証方法を要求することにより、MFAは、万が一パスワードが流出した場合でも、不正アクセスのリスクを軽減するのに役立ちます。ノートに保存されている機密情報を保護するために強く推奨されます。",
       "conditions": {
         "model": "gemini-3.5-flash-lite",
         "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
         "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
       },
-      "translatedAt": "2026-11-14T14:14:05.465Z"
+      "translatedAt": "2026-11-14T11:28:45.803Z"
     },
     {
       "id": "u_9cb8d3997d6cc75e735cba9e_0",
@@ -70,7 +70,7 @@
         "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
         "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
       },
-      "translatedAt": "2026-11-14T14:14:05.465Z"
+      "translatedAt": "2026-11-14T11:28:45.803Z"
     },
     {
       "id": "u_108e618d5e1d0c67f4054cb2_0",
@@ -81,13 +81,13 @@
       "contextHash": "a95477ba317c148f2ecca69f1c6d672e4253260ba5413f2d8ceb4b6ef857d664",
       "status": "translated",
       "active": true,
-      "translation": "多要素認証は、パスワードとは別に本人確認の追加証明を要求することで、Trilium へのログインをより安全にします。__TRILIUM_PH_0__OpenID Connect でのサインイン__TRILIUM_PH_1__は、認証を外部プロバイダ（Google プロバイダや、Authelia などのセルフホスト型プロバイダなど）に委任するという異なる概念です。これらの認証プロバイダは、TOTP やパスキーなどの独自のセキュリティ機能を提供する場合があります。",
+      "translation": "多要素認証を使用すると、パスワード以外に身元の追加証明が要求されるため、Triliumへのログインがより安全になります。__TRILIUM_PH_0__OpenID Connectでのサインイン__TRILIUM_PH_1__は、認証を外部プロバイダ（Googleプロバイダや、Autheliaなどのセルフホスト型プロバイダなど）に委任する別の概念です。これらの認証プロバイダは、TOTPやパスキーなどの独自のセキュリティ機能を提供する場合があります。",
       "conditions": {
         "model": "gemini-3.5-flash-lite",
         "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
         "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
       },
-      "translatedAt": "2026-11-14T14:14:05.465Z"
+      "translatedAt": "2026-11-14T11:28:45.803Z"
     },
     {
       "id": "u_5964a9d63ad11d98b839ae40_0",
@@ -98,13 +98,13 @@
       "contextHash": "99341900a7b8e893359016cbffd2b9defb0bc790021222014f0a427fe72eea3a",
       "status": "translated",
       "active": true,
-      "translation": "時間制限付きワンタイムパスワード (TOTP)__TRILIUM_PH_0__",
+      "translation": "時間制限付きワンタイムパスワード（TOTP）__TRILIUM_PH_0__",
       "conditions": {
         "model": "gemini-3.5-flash-lite",
         "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
         "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
       },
-      "translatedAt": "2026-11-14T14:14:05.465Z"
+      "translatedAt": "2026-11-14T11:28:45.803Z"
     },
     {
       "id": "u_3d4c341094d9350b7ea7ae17_0",
@@ -115,13 +115,13 @@
       "contextHash": "99341900a7b8e893359016cbffd2b9defb0bc790021222014f0a427fe72eea3a",
       "status": "translated",
       "active": true,
-      "translation": "TOTP (Time-Based One-Time Password) は、スマートフォンなどのデバイス上で、30 秒ごとに変更される一意の一時コードを生成するセキュリティ機能です。パスワードと一緒にこのコードを使用してアカウントにログインするため、他のユーザーがアクセスすることが非常に難しくなります。",
+      "translation": "TOTP（Time-Based One-Time Password）は、スマートフォンなどのデバイス上で、30秒ごとに変更される一意の一時コードを生成するセキュリティ機能です。アカウントにログインする際にパスワードと一緒にこのコードを使用するため、他の人がアクセスすることが非常に難しくなります。",
       "conditions": {
         "model": "gemini-3.5-flash-lite",
         "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
         "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
       },
-      "translatedAt": "2026-11-14T14:14:05.465Z"
+      "translatedAt": "2026-11-14T11:28:45.803Z"
     },
     {
       "id": "u_f2bb324c737a8e6c52ce493e_0",
@@ -138,7 +138,7 @@
         "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
         "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
       },
-      "translatedAt": "2026-11-14T14:14:05.465Z"
+      "translatedAt": "2026-11-14T11:28:45.803Z"
     },
     {
       "id": "u_4d52dd345de3bea391cdda18_0",
@@ -149,13 +149,13 @@
       "contextHash": "99341900a7b8e893359016cbffd2b9defb0bc790021222014f0a427fe72eea3a",
       "status": "translated",
       "active": true,
-      "translation": "__TRILIUM_PH_0__サインイン方法__TRILIUM_PH_1__で__TRILIUM_PH_2__ローカルパスワード__TRILIUM_PH_3__が選択されていることを確認してください。",
+      "translation": "__TRILIUM_PH_0__サインイン方法__TRILIUM_PH_1__で__TRILIUM_PH_2__ローカルパスワード__TRILIUM_PH_3__が選択されていることを確認します。",
       "conditions": {
         "model": "gemini-3.5-flash-lite",
         "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
         "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
       },
-      "translatedAt": "2026-11-14T14:14:05.465Z"
+      "translatedAt": "2026-11-14T11:28:45.803Z"
     },
     {
       "id": "u_839c6af34bdad71b6573d3e6_0",
@@ -172,7 +172,7 @@
         "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
         "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
       },
-      "translatedAt": "2026-11-14T14:14:05.465Z"
+      "translatedAt": "2026-11-14T11:28:45.803Z"
     },
     {
       "id": "u_483d4c026dbdea5eef18e873_0",
@@ -183,13 +183,13 @@
       "contextHash": "99341900a7b8e893359016cbffd2b9defb0bc790021222014f0a427fe72eea3a",
       "status": "translated",
       "active": true,
-      "translation": "QR コードをスキャンするか、認証アプリにコードを手動で入力します。",
+      "translation": "QRコードをスキャンするか、認証アプリにコードを手動で入力します。",
       "conditions": {
         "model": "gemini-3.5-flash-lite",
         "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
         "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
       },
-      "translatedAt": "2026-11-14T14:14:05.465Z"
+      "translatedAt": "2026-11-14T11:28:45.803Z"
     },
     {
       "id": "u_59363289303ed25de41265cc_0",
@@ -206,7 +206,7 @@
         "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
         "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
       },
-      "translatedAt": "2026-11-14T14:14:05.465Z"
+      "translatedAt": "2026-11-14T11:28:45.803Z"
     },
     {
       "id": "u_bceb447d55e699eded027f7a_0",
@@ -234,13 +234,13 @@
       "contextHash": "99341900a7b8e893359016cbffd2b9defb0bc790021222014f0a427fe72eea3a",
       "status": "translated",
       "active": true,
-      "translation": "TOTP の設定完了後（ページを更新した後）、再度ログインする必要があります。",
+      "translation": "TOTPの設定が完了した後（ページを更新した後）、再度ログインする必要があります。",
       "conditions": {
         "model": "gemini-3.5-flash-lite",
         "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
         "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
       },
-      "translatedAt": "2026-11-14T14:14:05.465Z"
+      "translatedAt": "2026-11-14T11:28:45.803Z"
     },
     {
       "id": "u_4bb79cddb7ce50faaf8ec099_0",
@@ -257,7 +257,7 @@
         "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
         "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
       },
-      "translatedAt": "2026-11-14T14:14:05.465Z"
+      "translatedAt": "2026-11-14T11:28:45.803Z"
     },
     {
       "id": "u_50e7a983bd26776b8fb8e20a_0",
@@ -268,13 +268,13 @@
       "contextHash": "9240bdab2a5641a10d2f573f6aeb6f141067acc93561f063e99447ce54932aea",
       "status": "translated",
       "active": true,
-      "translation": "TOTP が有効になると、サインインページのパスワードの下にある__TRILIUM_PH_0__ワンタイムパスワードまたはリカバリコード__TRILIUM_PH_1__に、認証アプリからのコードの入力を求められます。",
+      "translation": "TOTPが有効になると、サインインページのパスワードの下にある__TRILIUM_PH_0__ワンタイムパスワードまたはリカバリコード__TRILIUM_PH_1__に、認証アプリからのコードを入力するよう求められます。",
       "conditions": {
         "model": "gemini-3.5-flash-lite",
         "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
         "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
       },
-      "translatedAt": "2026-11-14T14:14:05.465Z"
+      "translatedAt": "2026-11-14T11:28:45.803Z"
     },
     {
       "id": "u_387fc7acfec59b87c18b19e3_0",
@@ -283,8 +283,15 @@
       "sourceHash": "387fc7acfec59b87c18b19e353e370965aafe421595a367bd74b61af9cd2a423",
       "context": "Multi-factor authentication with TOTP > Signing in",
       "contextHash": "9240bdab2a5641a10d2f573f6aeb6f141067acc93561f063e99447ce54932aea",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "Triliumは、現在の30秒間のコードだけでなく、その直前および直後の期間のコードも受け付けるため、時計が多少ずれていても機能します。v0.106.0以降では、各コードは1回のみ受け付けられます。サインインが成功すると、そのコードおよびそれより古いコードは、まだ有効期間内であっても拒否されます。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T16:50:34.717Z"
     },
     {
       "id": "u_3bd7e22f2edddbb46f707974_0",
@@ -303,8 +310,15 @@
       "sourceHash": "351cd8310daf8979400f295ea1ecbe1ecd7f0fb14d386e4c555891db6c125a0e",
       "context": "Multi-factor authentication with TOTP > Connecting a device to the server",
       "contextHash": "9063bc7a5355701b342e539aeb2ecc97a1912fab7a3eaea3bf61b1e57dbae101",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "サーバーへのデバイスの接続__TRILIUM_PH_0__",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T16:50:34.717Z"
     },
     {
       "id": "u_3138fed037334440524e1a0c_0",
@@ -313,8 +327,15 @@
       "sourceHash": "3138fed037334440524e1a0c67ea8bd60beca10c996057342a9df01c25d965a5",
       "context": "Multi-factor authentication with TOTP > Connecting a device to the server",
       "contextHash": "9063bc7a5355701b342e539aeb2ecc97a1912fab7a3eaea3bf61b1e57dbae101",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "TOTPが有効になると、__TRILIUM_PH_0__Synchronization__TRILIUM_PH_1__ を介して新しいデスクトップまたはモバイルアプリをサーバーに接続する際にも、第2要素の入力が求められます。__TRILIUM_PH_2__Connect to an existing server__TRILIUM_PH_3__ 画面で、サーバーのパスワードの下にある __TRILIUM_PH_4__One-time password or recovery code__TRILIUM_PH_5__ に、一度限りのパスワードまたはリカバリコードを入力します。これがないと、サーバーは同期の設定を拒否します。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T16:50:34.717Z"
     },
     {
       "id": "u_e472eefa937feb6dc255dccd_0",
@@ -323,8 +344,15 @@
       "sourceHash": "e472eefa937feb6dc255dccd6f7af0721ee451db5058d68ce9c41bc6860908a8",
       "context": "Multi-factor authentication with TOTP > Connecting a device to the server",
       "contextHash": "9063bc7a5355701b342e539aeb2ecc97a1912fab7a3eaea3bf61b1e57dbae101",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "第2要素が求められるのは、デバイスを最初に接続するときのみです。すでに設定されているデバイスは、第2要素なしで同期を続けます。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T16:50:34.717Z"
     },
     {
       "id": "u_66aa46fdc2f9d31e67170acd_0",
@@ -333,8 +361,15 @@
       "sourceHash": "66aa46fdc2f9d31e67170acdfb9c8b0c36a6f81af10b8d002f984d2daa3ed081",
       "context": "Multi-factor authentication with TOTP > Connecting a device to the server",
       "contextHash": "9063bc7a5355701b342e539aeb2ecc97a1912fab7a3eaea3bf61b1e57dbae101",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "v0.107.0より前のバージョンでは、同期の設定時に第2要素の入力を求めません。古いアプリにはそれを送信するフィールドがないため、サーバーと一緒にデスクトップおよびモバイルアプリもアップデートしてください。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T16:50:34.717Z"
     },
     {
       "id": "u_a64c9836d4daae7150097d22_0",
@@ -343,8 +378,15 @@
       "sourceHash": "a64c9836d4daae7150097d2260f723538e801b1a28541016c0f37da5b6baca11",
       "context": "Multi-factor authentication with TOTP > Obtaining an ETAPI token with a password",
       "contextHash": "20ad262792f2b85c91b748e16ccb5b3ab382637b54d906a29cbb294e310c2ae0",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "パスワードを使用したETAPIトークンの取得__TRILIUM_PH_0__",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T16:50:34.717Z"
     },
     {
       "id": "u_f709abb2eb81463b4442e0db_0",
@@ -363,8 +405,15 @@
       "sourceHash": "546a631b342615359831b3812fbf57369833ccf181753c0f1924002f89caf53b",
       "context": "Multi-factor authentication with TOTP > Obtaining an ETAPI token with a password",
       "contextHash": "20ad262792f2b85c91b748e16ccb5b3ab382637b54d906a29cbb294e310c2ae0",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "無人で実行されるスクリプトやツールについては、代わりに __TRILIUM_PH_0__Options__TRILIUM_PH_1__ → __TRILIUM_PH_2__ETAPI__TRILIUM_PH_3__ でトークンを作成してください。このようなトークンは、TOTPに関係なく機能します。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T16:50:34.717Z"
     },
     {
       "id": "u_249e35591e07b35804c7ff34_0",
@@ -373,8 +422,15 @@
       "sourceHash": "249e35591e07b35804c7ff34bb1281617672003695a9e5ccacd25e9232e73874",
       "context": "Multi-factor authentication with TOTP > Obtaining an ETAPI token with a password",
       "contextHash": "20ad262792f2b85c91b748e16ccb5b3ab382637b54d906a29cbb294e310c2ae0",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "v0.107.0より前のバージョンでは、TOTPが有効であっても、パスワードのみでETAPIトークンが発行されます。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T16:50:34.717Z"
     },
     {
       "id": "u_a17642297c701b81adde0bc0_0",
@@ -383,8 +439,15 @@
       "sourceHash": "a17642297c701b81adde0bc091d31501257c71029b2109ce50d88798559e8732",
       "context": "Multi-factor authentication with TOTP > Recovery codes",
       "contextHash": "8b6c3ad1c3e2165f9547d3b6dd15f9a4e5cf9953b204244c7efa0ba3ef331bcb",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "リカバリコード__TRILIUM_PH_0__",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T16:50:34.717Z"
     },
     {
       "id": "u_fa79df1680b4a3bdcdee2565_0",
@@ -393,8 +456,15 @@
       "sourceHash": "fa79df1680b4a3bdcdee2565402c7a0a7d19941861625ade0dc3190676ea3b61",
       "context": "Multi-factor authentication with TOTP > Recovery codes",
       "contextHash": "8b6c3ad1c3e2165f9547d3b6dd15f9a4e5cf9953b204244c7efa0ba3ef331bcb",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "認証アプリへのアクセスを失った場合、TOTPの代わりにリカバリコードを使用できます。Triliumには8種類の異なるリカバリコードが用意されており、各リカバリコードは1回使用できます。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T16:50:34.717Z"
     },
     {
       "id": "u_84bbe4bbc6618ab7ff0651c9_0",
@@ -403,8 +473,15 @@
       "sourceHash": "84bbe4bbc6618ab7ff0651c96fdb14518bb8db550005072ffc7b9040eca234c4",
       "context": "Multi-factor authentication with TOTP > Recovery codes",
       "contextHash": "8b6c3ad1c3e2165f9547d3b6dd15f9a4e5cf9953b204244c7efa0ba3ef331bcb",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "リカバリコードを使用するには、単にパスワードでログインし、セキュリティトークンとしてリカバリコードを使用します。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T16:50:34.717Z"
     },
     {
       "id": "u_5efb20d9e80436eb25ffdf87_0",
@@ -413,8 +490,15 @@
       "sourceHash": "5efb20d9e80436eb25ffdf8799175679f1b6bab188882edfcb34a2939d065c9b",
       "context": "Multi-factor authentication with TOTP > Recovery codes",
       "contextHash": "8b6c3ad1c3e2165f9547d3b6dd15f9a4e5cf9953b204244c7efa0ba3ef331bcb",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "初期のリカバリコードセットは、初めてTOTPを設定するときに生成されます。 __TRILIUM_PH_0__Options__TRILIUM_PH_1__ → __TRILIUM_PH_2__Password & Auth__TRILIUM_PH_3__ に移動し、 __TRILIUM_PH_4__Regenerate recovery codes__TRILIUM_PH_5__ ボタンを押すことで、いつでも再生成できます。これにより、新しいリカバリコードのセットが生成されると同時に、以前のコードが無効になります。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-14T16:50:34.717Z"
     }
   ],
   "requests": [
@@ -436,6 +520,30 @@
         ],
         "serviceTier": "standard"
       }
+    },
+    {
+      "at": "2026-11-14T14:14:05.465Z",
+      "model": "gemini-3.5-flash-lite",
+      "batchJob": "batches/8vehrrvdpag09tp4gjf9dbgj006t9k2gkkyl",
+      "requestKey": "7DAiwaf8Z7Rz_2560dd8a607242d0"
+    },
+    {
+      "at": "2026-11-14T11:28:45.803Z",
+      "model": "gemini-3.5-flash-lite",
+      "batchJob": "batches/02spwqy837h8pi7qzqmeo4fgsqo7bgs45hwh",
+      "requestKey": "7DAiwaf8Z7Rz_3bd51cf4df8ceac1"
+    },
+    {
+      "at": "2026-11-14T11:28:45.803Z",
+      "model": "gemini-3.5-flash-lite",
+      "batchJob": "batches/02spwqy837h8pi7qzqmeo4fgsqo7bgs45hwh",
+      "requestKey": "7DAiwaf8Z7Rz_2560dd8a607242d0"
+    },
+    {
+      "at": "2026-11-14T16:50:34.717Z",
+      "model": "gemini-3.5-flash-lite",
+      "batchJob": "batches/wazxmzaiela6jn8aqd7kybq00i98rm3g571n",
+      "requestKey": "7DAiwaf8Z7Rz_2560dd8a607242d0"
     }
   ]
 }
