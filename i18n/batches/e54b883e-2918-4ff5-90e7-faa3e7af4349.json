@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "id": "e54b883e-2918-4ff5-90e7-faa3e7af4349",
-  "phase": "pending",
+  "phase": "complete",
   "createdAt": "2026-11-16T11:52:29.295Z",
   "conditions": {
     "model": "gemini-3.5-flash-lite",
@@ -22,7 +22,27 @@
           "contextHash": "c1e2ae4047b69b5e0f493740e2ade94867f348d6b2bbb2a50c8cbdcf59367fde"
         }
       ],
-      "format": "text-slots-v1"
+      "format": "text-slots-v1",
+      "result": {
+        "key": "nRqcgfTb97uV_62e882fcbd1982cf",
+        "translations": {
+          "u_970ed7996d9d73fbe7f0666f_0": "セキュリティ上の理由から、この機能は初期状態では __TRILIUM_PH_0__有効になっていません__TRILIUM_PH_1__ 。有効にするには、設定の __TRILIUM_PH_2__ネットワークアクセス__TRILIUM_PH_3__ を __TRILIUM_PH_4__セキュリティ__TRILIUM_PH_5__で有効にしてください。"
+        },
+        "modelVersion": "gemini-3.5-flash-lite",
+        "usage": {
+          "promptTokenCount": 521,
+          "candidatesTokenCount": 117,
+          "totalTokenCount": 638,
+          "promptTokensDetails": [
+            {
+              "modality": "TEXT",
+              "tokenCount": 521
+            }
+          ],
+          "serviceTier": "standard"
+        }
+      },
+      "unitErrors": {}
     },
     {
       "key": "7iwde4lsKc6O_cb2d14c6e933efd5",
@@ -37,7 +57,27 @@
           "contextHash": "49d5cd9cac34bb4fa95c61ed40db6231dc9079eaaa87d2ea933147a36820d6c5"
         }
       ],
-      "format": "text-slots-v1"
+      "format": "text-slots-v1",
+      "result": {
+        "key": "7iwde4lsKc6O_cb2d14c6e933efd5",
+        "translations": {
+          "u_9fde006f67464642484495a3_0": "Linuxでは、 __TRILIUM_PH_0__起動時に起動__TRILIUM_PH_1__ 機能によって、ユーザーの自動起動ディレクトリ（ __TRILIUM_PH_2__ ）に__TRILIUM_PH_3__エントリ（通常は __TRILIUM_PH_4__）が作成されます。その __TRILIUM_PH_5__ 行は、AppImageから実行されている場合はAppImageを指し、それ以外の場合は実行中の実行ファイルを指します。"
+        },
+        "modelVersion": "gemini-3.5-flash-lite",
+        "usage": {
+          "promptTokenCount": 569,
+          "candidatesTokenCount": 189,
+          "totalTokenCount": 758,
+          "promptTokensDetails": [
+            {
+              "modality": "TEXT",
+              "tokenCount": 569
+            }
+          ],
+          "serviceTier": "standard"
+        }
+      },
+      "unitErrors": {}
     },
     {
       "key": "rWX5eY045zbE_dea81c43a800c6b0",
@@ -76,7 +116,30 @@
           "contextHash": "154e7087c137f6942d25df100d0539e0b0afcd83afda4267e895b2b67603141a"
         }
       ],
-      "format": "text-slots-v1"
+      "format": "text-slots-v1",
+      "result": {
+        "key": "rWX5eY045zbE_dea81c43a800c6b0",
+        "translations": {
+          "u_edb3a397b8025ef18fecff79_0": "TriliumのデータディレクトリとしてSMB/CIFS共有またはフォルダを使用している場合、 __TRILIUM_PH_0__SMB共有の__TRILIUM_PH_1__ マウント時に __TRILIUM_PH_2__ と __TRILIUM_PH_3__ のマウントオプションを追加する必要があります。",
+          "u_a059f770a4141e9fc80c2a39_0": "データを別の場所に保存するには、 __TRILIUM_PH_0__ 内の __TRILIUM_PH_1__ エントリを編集し、コロンの前のホストパスを変更します（例： __TRILIUM_PH_2__）。コロンの後のパスは変更しないでください。",
+          "u_c6d4ac14f4e0658e165bb3f7_0": "タイムゾーンに関する問題が発生しており、docker-composeを使用していない場合は、 __TRILIUM_PH_0__ ローカルタイムゾーンの __TRILIUM_PH_1__TZ識別子を指定した__TRILIUM_PH_2__ 環境変数を追加する必要がある場合があります。",
+          "u_e45c7e575ff7e16f5d55ff64_0": "Docker Composeを使用する場合は、 __TRILIUM_PH_0__ 内のサービスに __TRILIUM_PH_1__を追加します"
+        },
+        "modelVersion": "gemini-3.5-flash-lite",
+        "usage": {
+          "promptTokenCount": 887,
+          "candidatesTokenCount": 414,
+          "totalTokenCount": 1301,
+          "promptTokensDetails": [
+            {
+              "modality": "TEXT",
+              "tokenCount": 887
+            }
+          ],
+          "serviceTier": "standard"
+        }
+      },
+      "unitErrors": {}
     },
     {
       "key": "lwAX5SvbrK2g_290cd4ca1c77c8be",
@@ -91,7 +154,27 @@
           "contextHash": "22003ee7eb6396af4605952a63f8e5b0e727ab21107382cec64094e0fc106895"
         }
       ],
-      "format": "text-slots-v1"
+      "format": "text-slots-v1",
+      "result": {
+        "key": "lwAX5SvbrK2g_290cd4ca1c77c8be",
+        "translations": {
+          "u_f1433df101d68aed7917edd9_0": "データディレクトリにある __TRILIUM_PH_0__データベース__TRILIUM_PH_1__ ファイルにアクセスします。 __TRILIUM_PH_2____TRILIUM_PH_3__SQLiteクライアント（例： __TRILIUM_PH_4__  __TRILIUM_PH_5__DB Browser__TRILIUM_PH_6__など）を使用してそのファイルを開きます。"
+        },
+        "modelVersion": "gemini-3.5-flash-lite",
+        "usage": {
+          "promptTokenCount": 528,
+          "candidatesTokenCount": 162,
+          "totalTokenCount": 690,
+          "promptTokensDetails": [
+            {
+              "modality": "TEXT",
+              "tokenCount": 528
+            }
+          ],
+          "serviceTier": "standard"
+        }
+      },
+      "unitErrors": {}
     },
     {
       "key": "0hzsNCP31IAB_a8f01a83f8c86599",
@@ -106,7 +189,27 @@
           "contextHash": "6d910eca40c2aa36e45b06aaaf9de45487ff914175aa502fb65e075cfc9d5e4f"
         }
       ],
-      "format": "text-slots-v1"
+      "format": "text-slots-v1",
+      "result": {
+        "key": "0hzsNCP31IAB_a8f01a83f8c86599",
+        "translations": {
+          "u_b8e55ba818bc6c938f9bf70f_0": "「ログイン状態を保持する」にチェックが入っている場合、ログインの有効期限は21日後になります。この期間は __TRILIUM_PH_0__ の値を変更することで調整できます。例えば、セッションの有効期限を1日にするには、 __TRILIUM_PH_1__を変更します。"
+        },
+        "modelVersion": "gemini-3.5-flash-lite",
+        "usage": {
+          "promptTokenCount": 543,
+          "candidatesTokenCount": 150,
+          "totalTokenCount": 693,
+          "promptTokensDetails": [
+            {
+              "modality": "TEXT",
+              "tokenCount": 543
+            }
+          ],
+          "serviceTier": "standard"
+        }
+      },
+      "unitErrors": {}
     },
     {
       "key": "7DAiwaf8Z7Rz_ff80ae0e0c10d6cb",
@@ -129,7 +232,28 @@
           "contextHash": "20ad262792f2b85c91b748e16ccb5b3ab382637b54d906a29cbb294e310c2ae0"
         }
       ],
-      "format": "text-slots-v1"
+      "format": "text-slots-v1",
+      "result": {
+        "key": "7DAiwaf8Z7Rz_ff80ae0e0c10d6cb",
+        "translations": {
+          "u_3bd7e22f2edddbb46f707974_0": "間違ったワンタイムパスワードも、通常のパスワードと同様に、失敗回数の制限のカウント対象となります。 __TRILIUM_PH_0__総当たり攻撃からの保護__TRILIUM_PH_1__ の __TRILIUM_PH_2__認証__TRILIUM_PH_3__を参照してください。",
+          "u_f709abb2eb81463b4442e0db_0": "TOTPが有効になると、 __TRILIUM_PH_0__ETAPI (REST API)__TRILIUM_PH_1__ 経由での __TRILIUM_PH_2__ の呼び出しによるトークンの取得にも、第2要素が必要になります。ワンタイムパスワードまたはリカバリコードを __TRILIUM_PH_3__として、 __TRILIUM_PH_4__と一緒に送信してください。各コードは一度のみ使用可能です。"
+        },
+        "modelVersion": "gemini-3.5-flash-lite",
+        "usage": {
+          "promptTokenCount": 699,
+          "candidatesTokenCount": 278,
+          "totalTokenCount": 977,
+          "promptTokensDetails": [
+            {
+              "modality": "TEXT",
+              "tokenCount": 699
+            }
+          ],
+          "serviceTier": "standard"
+        }
+      },
+      "unitErrors": {}
     },
     {
       "key": "IgkTHSaFfq6A_8a14c614c8d45ce4",
@@ -168,7 +292,30 @@
           "contextHash": "aed08d32912b31afd0bf72269d029e5f61b7e7e28478d8173d1d5b12d597f744"
         }
       ],
-      "format": "text-slots-v1"
+      "format": "text-slots-v1",
+      "result": {
+        "key": "IgkTHSaFfq6A_8a14c614c8d45ce4",
+        "translations": {
+          "u_8dfa0cd3aed9dd0ad1738655_0": "Authelia の __TRILIUM_PH_0__ にクライアントを追加し、 __TRILIUM_PH_1__を Trilium インスタンスの URL で __TRILIUM_PH_2__ 置き換えます：",
+          "u_4a255792f68ce2dab40b38e1_0": "ステップ 1 の __TRILIUM_PH_0__を使用して、 __TRILIUM_PH_1__ を調整します：",
+          "u_1e350e22c07aeab52b11d44a_0": " __TRILIUM_PH_0__設定しないで__TRILIUM_PH_1__ ください __TRILIUM_PH_2__ 。Authelia は機密クライアントのデフォルトを __TRILIUM_PH_3__ とし、他の方式を __TRILIUM_PH_4__で拒否しますが、これは Trilium がすでに使用しているデフォルトです。これは、以下の GitLab の場合とは逆になります。",
+          "u_39a951e59e894baa8978715d_0": "Pocket ID では、 __TRILIUM_PH_0__OIDC ディスカバリー URL__TRILIUM_PH_1__ が __TRILIUM_PH_2__で終わるものが提供されます。v0.105.0 以降では、そのまま貼り付けることができます。それより前のバージョンでは、その接尾辞を削除し、その前の部分のみを使用してください。"
+        },
+        "modelVersion": "gemini-3.5-flash-lite",
+        "usage": {
+          "promptTokenCount": 872,
+          "candidatesTokenCount": 440,
+          "totalTokenCount": 1312,
+          "promptTokensDetails": [
+            {
+              "modality": "TEXT",
+              "tokenCount": 872
+            }
+          ],
+          "serviceTier": "standard"
+        }
+      },
+      "unitErrors": {}
     },
     {
       "key": "x1lQNKQBqLcA_3ebc5f4e79f4b99a",
@@ -191,7 +338,28 @@
           "contextHash": "03165a1559a5e4e52bef9bd4fcab381084db665293fd9e811f01c3456555fada"
         }
       ],
-      "format": "text-slots-v1"
+      "format": "text-slots-v1",
+      "result": {
+        "key": "x1lQNKQBqLcA_3ebc5f4e79f4b99a",
+        "translations": {
+          "u_d573a44a2d5b8c862107e1b6_0": "デフォルトの OAuth 発行者は Google です。Authentik や Auth0 などの他のサービスを使用するには、設定を __TRILIUM_PH_0__、 __TRILIUM_PH_1__、および __TRILIUM_PH_2__ で構成します。または、これらの値を環境変数を使用して設定することもできます。 __TRILIUM_PH_3__ ファイル",
+          "u_9dfc05208b7ba5d100647337_0": "OIDC セッションの有効期間は、Trilium 自体のセッション Cookie の有効期間（ __TRILIUM_PH_0__ セクションの __TRILIUM_PH_1__ 設定、デフォルトでは 21 日）に自動的に結び付けられます。そのため、OIDC ライブラリの短い内部デフォルトで早期に期限切れになることなく、Trilium のセッションが有効である間はシングルサインインも有効なままになります。"
+        },
+        "modelVersion": "gemini-3.5-flash-lite",
+        "usage": {
+          "promptTokenCount": 755,
+          "candidatesTokenCount": 297,
+          "totalTokenCount": 1052,
+          "promptTokensDetails": [
+            {
+              "modality": "TEXT",
+              "tokenCount": 755
+            }
+          ],
+          "serviceTier": "standard"
+        }
+      },
+      "unitErrors": {}
     },
     {
       "key": "yeEaYqosGLSh_04238f25419e73a8",
@@ -206,7 +374,27 @@
           "contextHash": "fc562d90a46ebcf47cc5400f3053d7080664b44e55522c631bc4d4cb33296b87"
         }
       ],
-      "format": "text-slots-v1"
+      "format": "text-slots-v1",
+      "result": {
+        "key": "yeEaYqosGLSh_04238f25419e73a8",
+        "translations": {
+          "u_1e0a054aecea7b9ce62b79bc_0": "クラウドインスタンスと __TRILIUM_PH_0__同期__TRILIUM_PH_1__ を設定した後は、デスクトップ __TRILIUM_PH_2____TRILIUM_PH_3__ クライアントのバージョンとサーバーのバージョンが一致していることが重要ですのでご注意ください。"
+        },
+        "modelVersion": "gemini-3.5-flash-lite",
+        "usage": {
+          "promptTokenCount": 539,
+          "candidatesTokenCount": 142,
+          "totalTokenCount": 681,
+          "promptTokensDetails": [
+            {
+              "modality": "TEXT",
+              "tokenCount": 539
+            }
+          ],
+          "serviceTier": "standard"
+        }
+      },
+      "unitErrors": {}
     },
     {
       "key": "RDslemsQ6gCp_14d40aac0c955d3d",
@@ -253,7 +441,31 @@
           "contextHash": "20102e1873b8b598d504e69b14551bc6b1b4ceb8b39b1c8372101e98f051e04a"
         }
       ],
-      "format": "text-slots-v1"
+      "format": "text-slots-v1",
+      "result": {
+        "key": "RDslemsQ6gCp_14d40aac0c955d3d",
+        "translations": {
+          "u_aa26ae37cd587314bcf8afea_0": "エディターの隅に表示される、カーソル下の要素（TODO項目の状態やショートカットなど）を説明するヒントは、「 __TRILIUM_PH_0__コンテンツのヒント__TRILIUM_PH_1__ 」の設定（「 __TRILIUM_PH_2__オプション__TRILIUM_PH_3__ 」→「 __TRILIUM_PH_4__テキストノート__TRILIUM_PH_5__ 」→「 __TRILIUM_PH_6__機能__TRILIUM_PH_7__」）にかかわらず表示されません。",
+          "u_6fa42c26968a33745151484f_0": "ボタンの __TRILIUM_PH_0__ 後ろにある __TRILIUM_PH_1__ をタップして表示し、メイン行に戻るにはその先頭にある __TRILIUM_PH_2__ をタップします。",
+          "u_7d576cc61baf570c98c6584b_0": "この方法で作成されたすべてのノートには __TRILIUM_PH_0__ ラベルが付与され、ノート独自のアイコンがない限り、共有テキストノートに __TRILIUM_PH_1__ アイコンが付けられます。1回の共有で含めることができるファイルは最大20個です。 __TRILIUM_PH_2__ ",
+          "u_7eeaedf80348f02128c05d51_0": "Triliumは、モバイルフロントエンドとデスクトップフロントエンドのどちらを使用するかを自動的に判断します。これが適切でない場合は、ログインページで __TRILIUM_PH_0__ または __TRILIUM_PH_1__ クエリパラメータを使用できます（注：ログアウトが必要になる場合があります）。 __TRILIUM_PH_2____TRILIUM_PH_3__ ",
+          "u_815db267f62e96ca042305ba_0": "または、単に __TRILIUM_PH_0__モバイル版に切り替え__TRILIUM_PH_1__ を __TRILIUM_PH_2__グローバルメニュー__TRILIUM_PH_3__から選択します。モバイル版では、代わりにそこで __TRILIUM_PH_4__高度な設定__TRILIUM_PH_5__ → __TRILIUM_PH_6__デスクトップ版に切り替え__TRILIUM_PH_7__ を選択します。"
+        },
+        "modelVersion": "gemini-3.5-flash-lite",
+        "usage": {
+          "promptTokenCount": 1115,
+          "candidatesTokenCount": 660,
+          "totalTokenCount": 1775,
+          "promptTokensDetails": [
+            {
+              "modality": "TEXT",
+              "tokenCount": 1115
+            }
+          ],
+          "serviceTier": "standard"
+        }
+      },
+      "unitErrors": {}
     },
     {
       "key": "MtPxeAWVAzMg_7212a41ce632bd60",
@@ -284,7 +496,29 @@
           "contextHash": "553dfc9fb89f1f1d910581683ef45ecf88c6ebdc439a3c101527ac0d68e83611"
         }
       ],
-      "format": "text-slots-v1"
+      "format": "text-slots-v1",
+      "result": {
+        "key": "MtPxeAWVAzMg_7212a41ce632bd60",
+        "translations": {
+          "u_a90697760c11358d19ee942f_0": "拡張機能自体がクリッピングの画像をダウンロードし、ノートと一緒にTrilium内に保存します。（Webサイトがリクエストを拒否するなどして）一部の画像をダウンロードできない場合でもクリッピングは保存され、見つからない画像の数が通知されます。これらの画像は元のWebサイト上のアドレスを保持します。「オプション」→「メディア」で __TRILIUM_PH_0__画像を自動的にダウンロードする__TRILIUM_PH_1__ が有効になっている場合、Triliumはもう一度ダウンロードを試みます。有効になっていない場合、Webサイトが画像を提供し続ける限り、ノートはそれらの画像をWebサイトから表示します。 __TRILIUM_PH_2__オプション__TRILIUM_PH_3__ → __TRILIUM_PH_4__メディア__TRILIUM_PH_5__",
+          "u_4a6e29293c777e86fee15a67_0": "__TRILIUM_PH_0__GitHub Releases__TRILIUM_PH_1__ で __TRILIUM_PH_2__Web Clipper__TRILIUM_PH_3__で始まるリリースを探してください。",
+          "u_1f226dcc3bf8b772107ca58e_0": "「 __TRILIUM_PH_0__歯車__TRILIUM_PH_1__ 」アイコンを押してください。このアイコンは「 __TRILIUM_PH_2__拡張機能の管理__TRILIUM_PH_3__ 」タイトルの右側にあります。"
+        },
+        "modelVersion": "gemini-3.5-flash-lite",
+        "usage": {
+          "promptTokenCount": 860,
+          "candidatesTokenCount": 430,
+          "totalTokenCount": 1290,
+          "promptTokensDetails": [
+            {
+              "modality": "TEXT",
+              "tokenCount": 860
+            }
+          ],
+          "serviceTier": "standard"
+        }
+      },
+      "unitErrors": {}
     },
     {
       "key": "ODY7qQn5m2FT_270426c502d22c38",
@@ -299,7 +533,27 @@
           "contextHash": "838557924a5cdfb2f10f233635223e79be8443aef62f9d176cfe18787a2e8b03"
         }
       ],
-      "format": "text-slots-v1"
+      "format": "text-slots-v1",
+      "result": {
+        "key": "ODY7qQn5m2FT_270426c502d22c38",
+        "translations": {
+          "u_15c41da1bff6382b379b5f91_0": "このように、合計で最大4つの異なる時点からのバックアップが保持され、さまざまな問題から保護されます。これらのバックアップはデフォルトで __TRILIUM_PH_0__ ディレクトリに保存されます。このディレクトリは __TRILIUM_PH_1__データディレクトリ__TRILIUM_PH_2__内に配置されます。"
+        },
+        "modelVersion": "gemini-3.5-flash-lite",
+        "usage": {
+          "promptTokenCount": 536,
+          "candidatesTokenCount": 152,
+          "totalTokenCount": 688,
+          "promptTokensDetails": [
+            {
+              "modality": "TEXT",
+              "tokenCount": 536
+            }
+          ],
+          "serviceTier": "standard"
+        }
+      },
+      "unitErrors": {}
     },
     {
       "key": "tAassRL4RSQL_17dbcd1853a57f30",
@@ -322,7 +576,28 @@
           "contextHash": "181155562c4101f054ba6b46cc45e4b8712e6ba0d1109d19008fd57ef885b1ac"
         }
       ],
-      "format": "text-slots-v1"
+      "format": "text-slots-v1",
+      "result": {
+        "key": "tAassRL4RSQL_17dbcd1853a57f30",
+        "translations": {
+          "u_d87f0a4ff57fd51faedc5b8a_0": "で説明されているサービスファイルの __TRILIUM_PH_0__ セクションに __TRILIUM_PH_1__ 行を追加してください __TRILIUM_PH_2__Linux向けパッケージ版__TRILIUM_PH_3__：",
+          "u_17308624bde38eb35a0d2a37_0": "ログイン時に毎回正しく読み込ませるには、 __TRILIUM_PH_0__ の下に __TRILIUM_PH_1__ ファイルを作成する必要があります。"
+        },
+        "modelVersion": "gemini-3.5-flash-lite",
+        "usage": {
+          "promptTokenCount": 606,
+          "candidatesTokenCount": 203,
+          "totalTokenCount": 809,
+          "promptTokensDetails": [
+            {
+              "modality": "TEXT",
+              "tokenCount": 606
+            }
+          ],
+          "serviceTier": "standard"
+        }
+      },
+      "unitErrors": {}
     },
     {
       "key": "ebyr7ES2SwOW_17d75567c9ed465e",
@@ -337,7 +612,27 @@
           "contextHash": "a8fdb29aa9649ab0939f9c5846d8abe03885f42aa2924bd00b75ffa443221cec"
         }
       ],
-      "format": "text-slots-v1"
+      "format": "text-slots-v1",
+      "result": {
+        "key": "ebyr7ES2SwOW_17d75567c9ed465e",
+        "translations": {
+          "u_b475ebc545b4a66b9df8a654_0": "リソースは __TRILIUM_PH_0__ フォルダに保存されます。リソースごとに1つのフォルダが作成されます。別の場所に保存するには、Triliumを起動する前に __TRILIUM_PH_1__データディレクトリ__TRILIUM_PH_2__の __TRILIUM_PH_3__ 環境変数を別のフォルダに設定してください。"
+        },
+        "modelVersion": "gemini-3.5-flash-lite",
+        "usage": {
+          "promptTokenCount": 532,
+          "candidatesTokenCount": 157,
+          "totalTokenCount": 689,
+          "promptTokensDetails": [
+            {
+              "modality": "TEXT",
+              "tokenCount": 532
+            }
+          ],
+          "serviceTier": "standard"
+        }
+      },
+      "unitErrors": {}
     },
     {
       "key": "x0JgW8UqGXvq_a50159018eff3368",
@@ -368,7 +663,29 @@
           "contextHash": "b734b0e67c8520d31e9b8dd76307a2cf7dc3d0553e5993e685a16c6ee3d2271a"
         }
       ],
-      "format": "text-slots-v1"
+      "format": "text-slots-v1",
+      "result": {
+        "key": "x0JgW8UqGXvq_a50159018eff3368",
+        "translations": {
+          "u_f55bf9fada86e20402cb75fc_0": " __TRILIUM_PH_0__ノートツリー__TRILIUM_PH_1__ は、 __TRILIUM_PH_2__ の下部にあるボタンを押すことで折りたたむことができます。 __TRILIUM_PH_3__ローンチバー__TRILIUM_PH_4__折りたたまれている間は、 __TRILIUM_PH_5__ローンチバー__TRILIUM_PH_6__の右側にあるストリップを押すことで、コンテンツの上に一時的に表示して確認することができます。",
+          "u_d6ec3fc091eaa38665c2cdbe_0": " __TRILIUM_PH_0__グローバルメニュー__TRILIUM_PH_1__ には、 __TRILIUM_PH_2__ の上部にあるアイコンからアクセスできます。 __TRILIUM_PH_3__ローンチバー__TRILIUM_PH_4__.",
+          "u_0f939589747524ec3314485d_0": " __TRILIUM_PH_0__グローバルメニュー__TRILIUM_PH_1__ には、 __TRILIUM_PH_2__ の端にあるボタンからアクセスできます。 __TRILIUM_PH_3__ローンチバー__TRILIUM_PH_4__."
+        },
+        "modelVersion": "gemini-3.5-flash-lite",
+        "usage": {
+          "promptTokenCount": 798,
+          "candidatesTokenCount": 378,
+          "totalTokenCount": 1176,
+          "promptTokensDetails": [
+            {
+              "modality": "TEXT",
+              "tokenCount": 798
+            }
+          ],
+          "serviceTier": "standard"
+        }
+      },
+      "unitErrors": {}
     },
     {
       "key": "8YBEPzcpUgxw_02861ccdbf8943a3",
@@ -399,7 +716,29 @@
           "contextHash": "5781354201bb1ad5871220e926fdf48ef075ddc4040bd8ebbe11e689b3ed4b62"
         }
       ],
-      "format": "text-slots-v1"
+      "format": "text-slots-v1",
+      "result": {
+        "key": "8YBEPzcpUgxw_02861ccdbf8943a3",
+        "translations": {
+          "u_33b15371dd7608600c84815f_0": "「__TRILIUM_PH_0__」__TRILIUM_PH_1__プログラムから開く...__TRILIUM_PH_2__ 、 __TRILIUM_PH_3__高度な設定__TRILIUM_PH_4__ サブメニューでは、オペレーティングシステムがファイルの形式に関連付けているアプリケーションではなく、自分で選択したアプリケーションでノートを開きます。「 __TRILIUM_PH_5__外部で開く__TRILIUM_PH_6__」と同様に、Triliumはノートを一時ファイルに保存して監視し、変更されたバージョンをノートに再度アップロードするかどうかを確認します。この項目はデスクトップアプリケーションでのみ利用可能であり、添付ファイルでも同様の操作が可能です。",
+          "u_7616f279d6a849f5a9749714_0": "「__TRILIUM_PH_0__ 」__TRILIUM_PH_1__ノートの設定__TRILIUM_PH_2__は、「 __TRILIUM_PH_3__ノートを保護__TRILIUM_PH_4__」の下にあり、「 __TRILIUM_PH_5__共有とブックマーク__TRILIUM_PH_6__ 」、「 __TRILIUM_PH_7__ブックマーク__TRILIUM_PH_8__」、「 __TRILIUM_PH_9__ノートのタイプ__TRILIUM_PH_10__」、「 __TRILIUM_PH_11__テンプレート__TRILIUM_PH_12__ 」、「 __TRILIUM_PH_13__全幅__TRILIUM_PH_14__」を独自のページ上で開き、ノートの言語もあわせて設定できます。テキストノートの場合はコンテンツ言語（「 __TRILIUM_PH_15__テキスト__TRILIUM_PH_16__ ノート（ __TRILIUM_PH_17__コンテンツ言語と右から左への書き方のサポート__TRILIUM_PH_18__」を参照）であり、コードノートの場合はコードの言語になります。「 __TRILIUM_PH_19__コード__TRILIUM_PH_20__ 」ノートの「 __TRILIUM_PH_21__編集可能__TRILIUM_PH_22__ 」の選択肢は、別のサブメニューではなく、そのページの最下部に独自の見出しの下で一覧表示されます。",
+          "u_375fd95249f1dd78bf8bbd58_0": "「__TRILIUM_PH_0__ 」__TRILIUM_PH_1__ノート情報__TRILIUM_PH_2__は、「 __TRILIUM_PH_3__ノートの設定__TRILIUM_PH_4__」の下にあり、ノートの日付、タイプ、ID、サイズを独自のページ上で開き、最後に「 __TRILIUM_PH_5__類似のノートを表示__TRILIUM_PH_6__ 」（「 __TRILIUM_PH_7__類似のノート__TRILIUM_PH_8__」を参照）が続きます。"
+        },
+        "modelVersion": "gemini-3.5-flash-lite",
+        "usage": {
+          "promptTokenCount": 1129,
+          "candidatesTokenCount": 756,
+          "totalTokenCount": 1885,
+          "promptTokensDetails": [
+            {
+              "modality": "TEXT",
+              "tokenCount": 1129
+            }
+          ],
+          "serviceTier": "standard"
+        }
+      },
+      "unitErrors": {}
     },
     {
       "key": "uNtgN0cUKEBc_10bedb1160c5e60a",
@@ -438,7 +777,30 @@
           "contextHash": "dbddd42767cf2231919bebbfee10e293ab9b2d0e92cefbd874ae86c8590e07d6"
         }
       ],
-      "format": "text-slots-v1"
+      "format": "text-slots-v1",
+      "result": {
+        "key": "uNtgN0cUKEBc_10bedb1160c5e60a",
+        "translations": {
+          "u_0bb7471d69a389fdce66431d_0": "新しいラベル、リレーション、または属性の定義は、 __TRILIUM_PH_0__ にある __TRILIUM_PH_1__ボタン__TRILIUM_PH_2__から追加できます。これにより、詳細なポップアップが表示されます。",
+          "u_cda19cb7e3f2b6228ef915ad_0": "ラベルの定義を追加するには、リストの末尾にある「 __TRILIUM_PH_0__定義の追加__TRILIUM_PH_1__ __TRILIUM_PH_2__」項目をクリックします。ポップアップから種類をリレーションに変更できます。どちらの種類の定義も、 __TRILIUM_PH_3__ にある __TRILIUM_PH_4__ボタン__TRILIUM_PH_5__から追加することもできます。",
+          "u_889e0f45c51118ea41f1417d_0": "モバイル版では、属性はノートパネルの __TRILIUM_PH_0__Attributes__TRILIUM_PH_1__ タブ（ __TRILIUM_PH_2__右サイドバー__TRILIUM_PH_3__を参照）にあり、これは __TRILIUM_PH_4__ ノートメニュー __TRILIUM_PH_5__の横にある__TRILIUM_PH_6__ボタンから画面下部にシートとして開きます。ノートメニュー内の「 __TRILIUM_PH_7__Backlinks__TRILIUM_PH_8__ 」および「 __TRILIUM_PH_9__Note paths__TRILIUM_PH_10__ 」の下にある「 __TRILIUM_PH_11__Attributes__TRILIUM_PH_12__」を選択すると、そのタブでパネルが開きます。属性をタップすると専用のページで開き、リストに戻るための __TRILIUM_PH_13__ ボタンが表示されます。",
+          "u_e3fea80effd8c5d0abd03ace_0": "属性はヘッダー内の __TRILIUM_PH_0__ ボタン、または __TRILIUM_PH_1__ Definitions __TRILIUM_PH_2__カードの上にある__TRILIUM_PH_3__ ボタンから追加します。"
+        },
+        "modelVersion": "gemini-3.5-flash-lite",
+        "usage": {
+          "promptTokenCount": 1047,
+          "candidatesTokenCount": 595,
+          "totalTokenCount": 1642,
+          "promptTokensDetails": [
+            {
+              "modality": "TEXT",
+              "tokenCount": 1047
+            }
+          ],
+          "serviceTier": "standard"
+        }
+      },
+      "unitErrors": {}
     },
     {
       "key": "LrKznOtw9cQD_babb01ae24fb3c07",
@@ -453,7 +815,27 @@
           "contextHash": "833cf2f5704ba220954fb2c444395f603124d5d4d4821821733b8c101383981f"
         }
       ],
-      "format": "text-slots-v1"
+      "format": "text-slots-v1",
+      "result": {
+        "key": "LrKznOtw9cQD_babb01ae24fb3c07",
+        "translations": {
+          "u_2ef87dfc59c46165f3156c75_0": "AI __TRILIUM_PH_0____TRILIUM_PH_1__ 統合が有効になると、 __TRILIUM_PH_2____TRILIUM_PH_3__ エントリが __TRILIUM_PH_4__右サイドバー__TRILIUM_PH_5__に表示されます。"
+        },
+        "modelVersion": "gemini-3.5-flash-lite",
+        "usage": {
+          "promptTokenCount": 503,
+          "candidatesTokenCount": 147,
+          "totalTokenCount": 650,
+          "promptTokensDetails": [
+            {
+              "modality": "TEXT",
+              "tokenCount": 503
+            }
+          ],
+          "serviceTier": "standard"
+        }
+      },
+      "unitErrors": {}
     },
     {
       "key": "RnaPdbciOfeq_f9e020b3a74b2973",
@@ -468,7 +850,27 @@
           "contextHash": "e0867db1eeda22cb975959e089b2ad89c75acba5f49ccda3d7c5a8c329ffb9d0"
         }
       ],
-      "format": "text-slots-v1"
+      "format": "text-slots-v1",
+      "result": {
+        "key": "RnaPdbciOfeq_f9e020b3a74b2973",
+        "translations": {
+          "u_3fe4676ec9c7b996c491504a_0": "モバイル版では、右サイドバーの代わりにノートパネルが表示されます。このパネルは、 __TRILIUM_PH_0__ の隣にある __TRILIUM_PH_1__ノートメニュー__TRILIUM_PH_2__から、画面下部にシートとして開きます。"
+        },
+        "modelVersion": "gemini-3.5-flash-lite",
+        "usage": {
+          "promptTokenCount": 526,
+          "candidatesTokenCount": 143,
+          "totalTokenCount": 669,
+          "promptTokensDetails": [
+            {
+              "modality": "TEXT",
+              "tokenCount": 526
+            }
+          ],
+          "serviceTier": "standard"
+        }
+      },
+      "unitErrors": {}
     },
     {
       "key": "r5JGHN99bVKn_f8b61b2e248417b9",
@@ -491,7 +893,28 @@
           "contextHash": "e220afe65231f36456c6a0e02b69bdefd548c5bfe9f090ffedf8a23b3eefd0aa"
         }
       ],
-      "format": "text-slots-v1"
+      "format": "text-slots-v1",
+      "result": {
+        "key": "r5JGHN99bVKn_f8b61b2e248417b9",
+        "translations": {
+          "u_f755f96c7f677b0ba83d89f0_0": "すべてのドキュメントの変更の概要を確認するには、 __TRILIUM_PH_0__ の __TRILIUM_PH_1__ランチバー__TRILIUM_PH_2__にあるボタンを押します。",
+          "u_294f772bd2d55c621a640c36_0": "タブバーの __TRILIUM_PH_0__ ボタンを右クリックするか長押しすると、タブで開いていない最近変更されたノートの一覧が表示されます。そのメニューの一番下にある __TRILIUM_PH_1____TRILIUM_PH_2__  __TRILIUM_PH_3__すべての最近の変更__TRILIUM_PH_4__を選択すると、このダイアログが開きます。"
+        },
+        "modelVersion": "gemini-3.5-flash-lite",
+        "usage": {
+          "promptTokenCount": 665,
+          "candidatesTokenCount": 259,
+          "totalTokenCount": 924,
+          "promptTokensDetails": [
+            {
+              "modality": "TEXT",
+              "tokenCount": 665
+            }
+          ],
+          "serviceTier": "standard"
+        }
+      },
+      "unitErrors": {}
     },
     {
       "key": "SL5f1Auq7sVN_4e8476f0a09d7a59",
@@ -506,7 +929,27 @@
           "contextHash": "93f1b338210eee69922e4a51ca8340f1822692c99f0817777377273da5637eaf"
         }
       ],
-      "format": "text-slots-v1"
+      "format": "text-slots-v1",
+      "result": {
+        "key": "SL5f1Auq7sVN_4e8476f0a09d7a59",
+        "translations": {
+          "u_d151c511a9083e304148df00_0": "テキストノートに含まれている Markdown ノート、またはその中に埋め込まれた Markdown ファイルには、同じ 3 つの表示モードがあり、インクルードのタイトル行とツールバーから切り替えることができます。次を参照してください: __TRILIUM_PH_0__Included Markdown__TRILIUM_PH_1__  __TRILIUM_PH_2__Include Note__TRILIUM_PH_3__。"
+        },
+        "modelVersion": "gemini-3.5-flash-lite",
+        "usage": {
+          "promptTokenCount": 560,
+          "candidatesTokenCount": 170,
+          "totalTokenCount": 730,
+          "promptTokensDetails": [
+            {
+              "modality": "TEXT",
+              "tokenCount": 560
+            }
+          ],
+          "serviceTier": "standard"
+        }
+      },
+      "unitErrors": {}
     },
     {
       "key": "0vhv7lsOLy82_5fba9ece87ac9c36",
@@ -561,7 +1004,32 @@
           "contextHash": "85bcaa063bad2bd1970403b69607df8c8410f04b6488ec2cf5fb8e58bb21e77b"
         }
       ],
-      "format": "text-slots-v1"
+      "format": "text-slots-v1",
+      "result": {
+        "key": "0vhv7lsOLy82_5fba9ece87ac9c36",
+        "translations": {
+          "u_658ed969d4ed5907af4d0c2b_0": "または、ファイルエクスプローラーから1つ以上のファイルをリスト上の任意の場所にドラッグ＆ドロップします。画像は、 __TRILIUM_PH_0__自動画像圧縮__TRILIUM_PH_1__ が __TRILIUM_PH_2__オプション__TRILIUM_PH_3__ → __TRILIUM_PH_4__メディア__TRILIUM_PH_5__で有効になっている場合に圧縮されます。",
+          "u_5cbaf68b7caf117925a6b8c0_0": "ファイルを __TRILIUM_PH_0__テキスト__TRILIUM_PH_1__ ノートに添付してその内容に埋め込むには、書式設定ツールバーの __TRILIUM_PH_2____TRILIUM_PH_3__ファイルを添付__TRILIUM_PH_4__ ボタンを押し、「 __TRILIUM_PH_5__書式設定ツールバー__TRILIUM_PH_6__」から「 __TRILIUM_PH_7__ファイルを添付して埋め込む__TRILIUM_PH_8__ 」を選択し、1つ以上のファイルを選択します（以下の __TRILIUM_PH_9__添付ファイルの埋め込み__TRILIUM_PH_10__ を参照）。同じメニューには、画像挿入用の「 __TRILIUM_PH_11__画像__TRILIUM_PH_12__」（ __TRILIUM_PH_13__画像__TRILIUM_PH_14__を参照）や、ファイルをリンクとして追加する「 __TRILIUM_PH_15__ファイルをリンクとして添付__TRILIUM_PH_16__」もあります。どちらのファイル操作も、スラッシュコマンドの「 __TRILIUM_PH_17__ファイルをリンクとして添付__TRILIUM_PH_18__ 」および「 __TRILIUM_PH_19__ファイルを添付して埋め込む__TRILIUM_PH_20__ 」からも利用できます。スマートフォンでは、メニューに __TRILIUM_PH_21__スラッシュコマンド__TRILIUM_PH_22__（ __TRILIUM_PH_23__カメラ__TRILIUM_PH_24__ （ __TRILIUM_PH_25__モバイルフロントエンド__TRILIUM_PH_26__を参照）もあります。",
+          "u_d5d74f4350e979ff69ca3a89_0": "添付ファイルは、リンクする代わりにテキスト内に表示させることができます。これは __TRILIUM_PH_0__ノートのインクルード__TRILIUM_PH_1__ がノートを表示する方法と同様です。画像が表示され、PDF、動画、ドキュメントのプレビューが表示され、コードファイルやテキストファイルはシンタックスハイライト付きで表示され、Markdownファイル（ファイルなど）はレンダリングされて表示されます。埋め込みコードファイルは、その場で編集することもでき（「 __TRILIUM_PH_2__ 」を参照）、埋め込みMarkdownファイルは、インクルードされたMarkdownノートと同様に、ソース、レンダリング結果、あるいはその両方を示します（そこでの __TRILIUM_PH_3__インクルードされたMarkdownのインプレース編集__TRILIUM_PH_4__ における __TRILIUM_PH_5__ノートのインクルード__TRILIUM_PH_6__を参照）。 __TRILIUM_PH_7__インクルードされたMarkdown__TRILIUM_PH_8__ ",
+          "u_81550fc6b3b23d9addc095ea_0": "挿入メニューの __TRILIUM_PH_0____TRILIUM_PH_1__描画キャンバス__TRILIUM_PH_2__ で挿入される描画キャンバスは、その場で描画できる __TRILIUM_PH_3____TRILIUM_PH_4__挿入__TRILIUM_PH_5__ 添付ファイルの埋め込みです。添付されたExcalidrawファイル（ __TRILIUM_PH_6__ ）も描画キャンバスとして埋め込まれます（「__TRILIUM_PH_7__」の __TRILIUM_PH_8__描画キャンバス__TRILIUM_PH_9__ における __TRILIUM_PH_10__ノートのインクルード__TRILIUM_PH_11__を参照）。",
+          "u_0738b11127ef1db4de11e15a_0": "埋め込みには、新しいインクルードノートと同様に、添付ファイルに適したボックスサイズが適用されます（そこでの __TRILIUM_PH_0__ボックスサイズ__TRILIUM_PH_1__ を参照）。サイズを変更するには、埋め込みを選択し、ツールバーのボックスサイズメニュー、またはその「 __TRILIUM_PH_2__サイズ__TRILIUM_PH_3__ 」サブメニューを使用します。「 __TRILIUM_PH_4____TRILIUM_PH_5__詳細なアクション__TRILIUM_PH_6__ 」メニューの「 __TRILIUM_PH_7__サイズ変更可能__TRILIUM_PH_8__ 」な埋め込みは、ハンドルをドラッグしてサイズ変更することもでき、「 __TRILIUM_PH_9__展開可能__TRILIUM_PH_10__ 」な埋め込みは高さを変更できます（そこでの __TRILIUM_PH_11__サイズ変更__TRILIUM_PH_12__ を参照）。「 __TRILIUM_PH_13__サイズ変更可能__TRILIUM_PH_14__ 」な埋め込みは、メニューの「 __TRILIUM_PH_15__位置__TRILIUM_PH_16__ 」サブメニューから、テキストを周囲に回り込ませるかどうかにかかわらず、ノートの左右に配置できます（そこでの __TRILIUM_PH_17__位置調整__TRILIUM_PH_18__ を参照）。",
+          "u_0f5db71e07b4bda0300c4bfa_0": "添付ファイルのみを表示するには、インクルードノートの場合と同様に、埋め込みの「 __TRILIUM_PH_0__タイトルを表示__TRILIUM_PH_1__ 」メニューにある「 __TRILIUM_PH_2____TRILIUM_PH_3__詳細なアクション__TRILIUM_PH_4__ 」をオフにします（そこでの __TRILIUM_PH_5__タイトル__TRILIUM_PH_6__ を参照）。"
+        },
+        "modelVersion": "gemini-3.5-flash-lite",
+        "usage": {
+          "promptTokenCount": 1956,
+          "candidatesTokenCount": 1549,
+          "totalTokenCount": 3505,
+          "promptTokensDetails": [
+            {
+              "modality": "TEXT",
+              "tokenCount": 1956
+            }
+          ],
+          "serviceTier": "standard"
+        }
+      },
+      "unitErrors": {}
     },
     {
       "key": "0vhv7lsOLy82_82ff7bbcd09bf17a",
@@ -576,7 +1044,27 @@
           "contextHash": "85bcaa063bad2bd1970403b69607df8c8410f04b6488ec2cf5fb8e58bb21e77b"
         }
       ],
-      "format": "text-slots-v1"
+      "format": "text-slots-v1",
+      "result": {
+        "key": "0vhv7lsOLy82_82ff7bbcd09bf17a",
+        "translations": {
+          "u_f3db6f7efc5d1466ea7a2b3d_0": "埋め込みをリンクに戻すには、埋め込みのタイトル行を右クリックするか、 __TRILIUM_PH_0__リンクに変換__TRILIUM_PH_1__ を押して開くメニューから選択します。このメニューは、ノートから埋め込みを削除する __TRILIUM_PH_2____TRILIUM_PH_3__詳細アクション__TRILIUM_PH_4__ ボタンの後にあり、 __TRILIUM_PH_5____TRILIUM_PH_6__ブロックを削除__TRILIUM_PH_7__と、添付ファイル自体を削除する __TRILIUM_PH_8____TRILIUM_PH_9__添付ファイルを削除...__TRILIUM_PH_10__の最後のグループに含まれています。 __TRILIUM_PH_11____TRILIUM_PH_12__添付ファイルをノートに変換...__TRILIUM_PH_13__ がそれに続きます。"
+        },
+        "modelVersion": "gemini-3.5-flash-lite",
+        "usage": {
+          "promptTokenCount": 650,
+          "candidatesTokenCount": 280,
+          "totalTokenCount": 930,
+          "promptTokensDetails": [
+            {
+              "modality": "TEXT",
+              "tokenCount": 650
+            }
+          ],
+          "serviceTier": "standard"
+        }
+      },
+      "unitErrors": {}
     },
     {
       "key": "TBwsyfadTA18_9657269bf595615d",
@@ -591,7 +1079,27 @@
           "contextHash": "502ac0888c5587a395120df37f01697692fb768346ceccf52dc06d90e6c10805"
         }
       ],
-      "format": "text-slots-v1"
+      "format": "text-slots-v1",
+      "result": {
+        "key": "TBwsyfadTA18_9657269bf595615d",
+        "translations": {
+          "u_9a4f4a55bd33d77322a94a8e_0": "1つのノートが __TRILIUM_PH_0__ノートツリー__TRILIUM_PH_1__ と呼ばれるプロセスによって複数の場所に存在できるため、混乱を避けるために、特定の場所だけに特化したものではなく、すべての場所に適した一般的な名前を選択することをお勧めします。 __TRILIUM_PH_2__クローン__TRILIUM_PH_3__"
+        },
+        "modelVersion": "gemini-3.5-flash-lite",
+        "usage": {
+          "promptTokenCount": 555,
+          "candidatesTokenCount": 123,
+          "totalTokenCount": 678,
+          "promptTokensDetails": [
+            {
+              "modality": "TEXT",
+              "tokenCount": 555
+            }
+          ],
+          "serviceTier": "standard"
+        }
+      },
+      "unitErrors": {}
     },
     {
       "key": "IakOLONlIfGI_8a86f44a8ce7d95e",
@@ -606,7 +1114,27 @@
           "contextHash": "cfe382790fbe04a5e4adc84e2195c84faeec8571ad71d9dd50433f148957bac0"
         }
       ],
-      "format": "text-slots-v1"
+      "format": "text-slots-v1",
+      "result": {
+        "key": "IakOLONlIfGI_8a86f44a8ce7d95e",
+        "translations": {
+          "u_0a6ed9c2386b5c12de97acd6_0": "右サイドバーの __TRILIUM_PH_0__Connectionsタブ__TRILIUM_PH_1__ にある __TRILIUM_PH_2__Right Sidebar__TRILIUM_PH_3__で、 __TRILIUM_PH_4__Note paths__TRILIUM_PH_5__ セクションを確認することで見つけられます。"
+        },
+        "modelVersion": "gemini-3.5-flash-lite",
+        "usage": {
+          "promptTokenCount": 513,
+          "candidatesTokenCount": 153,
+          "totalTokenCount": 666,
+          "promptTokensDetails": [
+            {
+              "modality": "TEXT",
+              "tokenCount": 513
+            }
+          ],
+          "serviceTier": "standard"
+        }
+      },
+      "unitErrors": {}
     },
     {
       "key": "bwg0e8ewQMak_36c04ce52f607fbb",
@@ -621,7 +1149,27 @@
           "contextHash": "1e81386b5296d18ff106698772c0e2bf5a6643404f93b4c2a1fa8325873a925f"
         }
       ],
-      "format": "text-slots-v1"
+      "format": "text-slots-v1",
+      "result": {
+        "key": "bwg0e8ewQMak_36c04ce52f607fbb",
+        "translations": {
+          "u_94c9ddc55ccae5c09aa53d82_0": "データ暗号化キーは、 __TRILIUM_PH_0__AES-128__TRILIUM_PH_1__ をランダムな __TRILIUM_PH_2__IV__TRILIUM_PH_3__とともに使用して暗号化されます。"
+        },
+        "modelVersion": "gemini-3.5-flash-lite",
+        "usage": {
+          "promptTokenCount": 495,
+          "candidatesTokenCount": 139,
+          "totalTokenCount": 634,
+          "promptTokensDetails": [
+            {
+              "modality": "TEXT",
+              "tokenCount": 495
+            }
+          ],
+          "serviceTier": "standard"
+        }
+      },
+      "unitErrors": {}
     },
     {
       "key": "vZWERwf8U3nx_f31b27d2a9829ec3",
@@ -636,7 +1184,27 @@
           "contextHash": "7f9581294f748125dc4ca7ca622be07c0ef4c9aad32e03b8eedbb921870ccbd1"
         }
       ],
-      "format": "text-slots-v1"
+      "format": "text-slots-v1",
+      "result": {
+        "key": "vZWERwf8U3nx_f31b27d2a9829ec3",
+        "translations": {
+          "u_7c43d188dc748e11bfb1d006_0": "変更を即座に適用するには、 __TRILIUM_PH_0__今すぐ消去__TRILIUM_PH_1__ にある __TRILIUM_PH_2__過剰なリビジョンスナップショットの消去__TRILIUM_PH_3__ ボタンをクリックします。"
+        },
+        "modelVersion": "gemini-3.5-flash-lite",
+        "usage": {
+          "promptTokenCount": 509,
+          "candidatesTokenCount": 145,
+          "totalTokenCount": 654,
+          "promptTokensDetails": [
+            {
+              "modality": "TEXT",
+              "tokenCount": 509
+            }
+          ],
+          "serviceTier": "standard"
+        }
+      },
+      "unitErrors": {}
     },
     {
       "key": "CoFPLs3dRlXc_def394990f7d2132",
@@ -651,7 +1219,27 @@
           "contextHash": "c9147e0c053b018d7efd4b1cf53763f094eff19972ca7a535c84a74ffde8734c"
         }
       ],
-      "format": "text-slots-v1"
+      "format": "text-slots-v1",
+      "result": {
+        "key": "CoFPLs3dRlXc_def394990f7d2132",
+        "translations": {
+          "u_2208f3df9e996062975c3f83_0": "もし __TRILIUM_PH_0__編集可能__TRILIUM_PH_1__ セクションが __TRILIUM_PH_2__ノートメニュー__TRILIUM_PH_3__に見つからない場合、そのノートタイプは読み取り専用モードをサポートしていません。"
+        },
+        "modelVersion": "gemini-3.5-flash-lite",
+        "usage": {
+          "promptTokenCount": 521,
+          "candidatesTokenCount": 143,
+          "totalTokenCount": 664,
+          "promptTokensDetails": [
+            {
+              "modality": "TEXT",
+              "tokenCount": 521
+            }
+          ],
+          "serviceTier": "standard"
+        }
+      },
+      "unitErrors": {}
     },
     {
       "key": "S0Fos78ZfcY7_83033f544f601193",
@@ -690,7 +1278,30 @@
           "contextHash": "7af58b0a11ffa4d3d5a4b1a2bd964420494b0bca52c4599361ab02c1340c7b11"
         }
       ],
-      "format": "text-slots-v1"
+      "format": "text-slots-v1",
+      "result": {
+        "key": "S0Fos78ZfcY7_83033f544f601193",
+        "translations": {
+          "u_d6cc030d5d65c771f76816f8_0": " __TRILIUM_PH_0__新規ノート__TRILIUM_PH_1__ 作成ボタン（ __TRILIUM_PH_2__起動バー__TRILIUM_PH_3__内）",
+          "u_6b0797a11857caca4aaa62ff_0": " __TRILIUM_PH_0__新規ノート__TRILIUM_PH_1__ 作成アクション（ __TRILIUM_PH_2__トレイアイコンメニュー__TRILIUM_PH_3__内）",
+          "u_fc22939ab89929b396b040f3_0": " __TRILIUM_PH_0__ノート作成__TRILIUM_PH_1__ オプション（検索で一致する結果が見つからない場合、 __TRILIUM_PH_2__ジャンプ＆コマンドパレット__TRILIUM_PH_3__内、空のタブ、およびテキストノートの __TRILIUM_PH_4__ 補完機能で提供されます）。",
+          "u_9f7ce8a558dfb22df0cc52e8_0": "本日の __TRILIUM_PH_0__デイリーノート__TRILIUM_PH_1__（ワークスペースに __TRILIUM_PH_2__がある場合）"
+        },
+        "modelVersion": "gemini-3.5-flash-lite",
+        "usage": {
+          "promptTokenCount": 797,
+          "candidatesTokenCount": 406,
+          "totalTokenCount": 1203,
+          "promptTokensDetails": [
+            {
+              "modality": "TEXT",
+              "tokenCount": 797
+            }
+          ],
+          "serviceTier": "standard"
+        }
+      },
+      "unitErrors": {}
     },
     {
       "key": "m3VlURMSeOrd_894a617054d1f778",
@@ -705,7 +1316,27 @@
           "contextHash": "6c0648f925845f336eed1fe49afe5e44ff7e535b7b1bed2a7f7480c4c267bfed"
         }
       ],
-      "format": "text-slots-v1"
+      "format": "text-slots-v1",
+      "result": {
+        "key": "m3VlURMSeOrd_894a617054d1f778",
+        "translations": {
+          "u_4d0b7bfae8d5e32b3695feb5_0": "__TRILIUM_PH_0__ __TRILIUM_PH_1__すべての種類__TRILIUM_PH_2__ は、 __TRILIUM_PH_3__ノートを後ろに挿入__TRILIUM_PH_4__ の __TRILIUM_PH_5__ノートツリーのコンテキストメニュー__TRILIUM_PH_6__と同じメニューを表示し、すべてのノートの種類とテンプレートを利用できます。"
+        },
+        "modelVersion": "gemini-3.5-flash-lite",
+        "usage": {
+          "promptTokenCount": 528,
+          "candidatesTokenCount": 173,
+          "totalTokenCount": 701,
+          "promptTokensDetails": [
+            {
+              "modality": "TEXT",
+              "tokenCount": 528
+            }
+          ],
+          "serviceTier": "standard"
+        }
+      },
+      "unitErrors": {}
     },
     {
       "key": "MMiBEQljMQh2_4a725b9b64f9cc24",
@@ -720,7 +1351,27 @@
           "contextHash": "dcd8c20e6d6ecd8bc7b2fdee8dba63cf98926108f3f4075ad92206d2bb077510"
         }
       ],
-      "format": "text-slots-v1"
+      "format": "text-slots-v1",
+      "result": {
+        "key": "MMiBEQljMQh2_4a725b9b64f9cc24",
+        "translations": {
+          "u_4f383ac9747aef0ed34518e1_0": " __TRILIUM_PH_0__前のノートに移動__TRILIUM_PH_1__ および __TRILIUM_PH_2__次のノートに移動__TRILIUM_PH_3__ のランチャーは、 __TRILIUM_PH_4__Launch Bar__TRILIUM_PH_5__ 自体の項目の下に、同じノートの一覧を表示します。"
+        },
+        "modelVersion": "gemini-3.5-flash-lite",
+        "usage": {
+          "promptTokenCount": 536,
+          "candidatesTokenCount": 115,
+          "totalTokenCount": 651,
+          "promptTokensDetails": [
+            {
+              "modality": "TEXT",
+              "tokenCount": 536
+            }
+          ],
+          "serviceTier": "standard"
+        }
+      },
+      "unitErrors": {}
     },
     {
       "key": "eIg8jdvaoNNd_ffd5ec6e01a32744",
@@ -775,7 +1426,32 @@
           "contextHash": "afd7703feb3ee575503c23c63f07223fcfcee6410773486ea56b34e6d6c9cea0"
         }
       ],
-      "format": "text-slots-v1"
+      "format": "text-slots-v1",
+      "result": {
+        "key": "eIg8jdvaoNNd_ffd5ec6e01a32744",
+        "translations": {
+          "u_bee477584441ce45eb6caed1_0": "「 __TRILIUM_PH_0__検索とアクションの実行__TRILIUM_PH_1__ __TRILIUM_PH_2__」項目（検索の横にあるメニュー内）は、少なくとも1つのアクションが追加されている場合（以下のセクションで説明）にのみ意味を持ちます。 __TRILIUM_PH_3____TRILIUM_PH_4__ ",
+          "u_e6597dbb8beb19a26afc5b9d_0": "__TRILIUM_PH_0__ラベル__TRILIUM_PH_1__ 名を入力するには、次のように入力します： __TRILIUM_PH_2__",
+          "u_9a45a7accaaaa0608877034d_0": "__TRILIUM_PH_0__リレーション__TRILIUM_PH_1__ 名を入力するには、次のように入力します： __TRILIUM_PH_2__",
+          "u_e0f9755fe28e12b271ef35bd_0": "__TRILIUM_PH_0__ノートID__TRILIUM_PH_1__は、次のように入力してノートを検索することで、簡単に追加できます： __TRILIUM_PH_2__ ",
+          "u_50de7e20a39e12514a21a1df_0": "代わりに結果を通常のノートリストとして表示するには、 __TRILIUM_PH_0__リスト__TRILIUM_PH_1__ を __TRILIUM_PH_2__コレクションプロパティ__TRILIUM_PH_3__ バーから選択します。 __TRILIUM_PH_4__リスト__TRILIUM_PH_5__ ビューでは、ノートごとに1行が表示され、ノートのタイトルとコンテンツのプレビューが表示されます。",
+          "u_45dc8d28d08288689e530a03_0": "保存された検索は、検索プレビューまたは __TRILIUM_PH_0__印刷またはPDFとしてエクスポート__TRILIUM_PH_1__ することもできます（ __TRILIUM_PH_2__PDFへ印刷/エクスポート…__TRILIUM_PH_3__ 項目を使用、 __TRILIUM_PH_4__ノートメニュー__TRILIUM_PH_5__の __TRILIUM_PH_6__検索プレビュー__TRILIUM_PH_7__ または __TRILIUM_PH_8__リスト__TRILIUM_PH_9__ ビュー）。結果は、印刷開始時の状態でリストとしてレイアウトされます。"
+        },
+        "modelVersion": "gemini-3.5-flash-lite",
+        "usage": {
+          "promptTokenCount": 1090,
+          "candidatesTokenCount": 693,
+          "totalTokenCount": 1783,
+          "promptTokensDetails": [
+            {
+              "modality": "TEXT",
+              "tokenCount": 1090
+            }
+          ],
+          "serviceTier": "standard"
+        }
+      },
+      "unitErrors": {}
     },
     {
       "key": "u3YFHC9tQlpm_97de45c444fa3bb2",
@@ -798,7 +1474,28 @@
           "contextHash": "d5235890805d99473944cde7f61b6694d0793029906299dc38756421eb81c447"
         }
       ],
-      "format": "text-slots-v1"
+      "format": "text-slots-v1",
+      "result": {
+        "key": "u3YFHC9tQlpm_97de45c444fa3bb2",
+        "translations": {
+          "u_6bd9db96f61fca8beaf20b0b_0": "ブックマークが起動バーに表示されない場合、最も可能性が高いのはブックマークセクションが非表示になっていることです。 __TRILIUM_PH_0__起動バー__TRILIUM_PH_1__ の設定を __TRILIUM_PH_2__グローバルメニュー__TRILIUM_PH_3__ から開き、 __TRILIUM_PH_4__Bookmarks__TRILIUM_PH_5__ が __TRILIUM_PH_6__Visible Launchers__TRILIUM_PH_7__ セクションに含まれていることを確認してください。",
+          "u_ea940200f0fda58be113bcfb_0": "スマートフォンでは、ホイストされていないタブのルートを表示している間、 __TRILIUM_PH_0__ノートツリー__TRILIUM_PH_1__ の最上部、 __TRILIUM_PH_2__ワークスペース__TRILIUM_PH_3__の下にもブックマークの一覧が表示されます。ブックマークをタップして開くか、子ノートがある場合はツリー内の他のノートと同様に子ノートの一覧を表示できます。"
+        },
+        "modelVersion": "gemini-3.5-flash-lite",
+        "usage": {
+          "promptTokenCount": 755,
+          "candidatesTokenCount": 325,
+          "totalTokenCount": 1080,
+          "promptTokensDetails": [
+            {
+              "modality": "TEXT",
+              "tokenCount": 755
+            }
+          ],
+          "serviceTier": "standard"
+        }
+      },
+      "unitErrors": {}
     },
     {
       "key": "OR8WJ7Iz9K4U_c9cfabe1c79ff9f3",
@@ -813,7 +1510,27 @@
           "contextHash": "6e4a4f8bba5a646cdba6969df9c44b6386eca46d786288fc588cdbce5df84c6d"
         }
       ],
-      "format": "text-slots-v1"
+      "format": "text-slots-v1",
+      "result": {
+        "key": "OR8WJ7Iz9K4U_c9cfabe1c79ff9f3",
+        "translations": {
+          "u_a3a6c915c04a158d758120d3_0": "ノートがホイストされている間、デスクトップインターフェイスの __TRILIUM_PH_0__すべてのノートを表示__TRILIUM_PH_1__ ボタンが __TRILIUM_PH_2__ アイコンとともに __TRILIUM_PH_3__ノートツリー__TRILIUM_PH_4__の上に表示されます。これをクリックすると、ノートのホイストが解除され、ツリー全体が再び表示されます。"
+        },
+        "modelVersion": "gemini-3.5-flash-lite",
+        "usage": {
+          "promptTokenCount": 552,
+          "candidatesTokenCount": 176,
+          "totalTokenCount": 728,
+          "promptTokensDetails": [
+            {
+              "modality": "TEXT",
+              "tokenCount": 552
+            }
+          ],
+          "serviceTier": "standard"
+        }
+      },
+      "unitErrors": {}
     },
     {
       "key": "9sRHySam5fXb_3c716674d2b63c57",
@@ -828,7 +1545,27 @@
           "contextHash": "1377264ba3b0a7172621971b49ac3e82e33b64b14328d9275d02807e67ea8460"
         }
       ],
-      "format": "text-slots-v1"
+      "format": "text-slots-v1",
+      "result": {
+        "key": "9sRHySam5fXb_3c716674d2b63c57",
+        "translations": {
+          "u_96a6138d3b0ade40fd77d3e2_0": "ワークスペースを新しいタブで開くには、 __TRILIUM_PH_0__ のボタンを右クリックし、ワークスペースを選択します。 __TRILIUM_PH_1__タブ__TRILIUM_PH_2__ "
+        },
+        "modelVersion": "gemini-3.5-flash-lite",
+        "usage": {
+          "promptTokenCount": 503,
+          "candidatesTokenCount": 99,
+          "totalTokenCount": 602,
+          "promptTokensDetails": [
+            {
+              "modality": "TEXT",
+              "tokenCount": 503
+            }
+          ],
+          "serviceTier": "standard"
+        }
+      },
+      "unitErrors": {}
     },
     {
       "key": "xWtq5NUHOwql_8e916e73fbed5ee5",
@@ -851,7 +1588,28 @@
           "contextHash": "666e1189120575c78161fcbc7a5964988143db1124ded8eac4383fd71f003241"
         }
       ],
-      "format": "text-slots-v1"
+      "format": "text-slots-v1",
+      "result": {
+        "key": "xWtq5NUHOwql_8e916e73fbed5ee5",
+        "translations": {
+          "u_542add3c96cd233c2d35ff90_0": "右サイドバーの __TRILIUM_PH_0__「接続」タブ__TRILIUM_PH_1__ を開き、 __TRILIUM_PH_2__対応するセクション__TRILIUM_PH_3__ を探します。",
+          "u_8aff9172486c854189c91955_0": "または、ステータスバーの __TRILIUM_PH_0__  __TRILIUM_PH_1__を押して、__TRILIUM_PH_2__ 「 __TRILIUM_PH_3__類似ノートを表示__TRILIUM_PH_4__ 」を選択すると、下部にペインが開きます。"
+        },
+        "modelVersion": "gemini-3.5-flash-lite",
+        "usage": {
+          "promptTokenCount": 613,
+          "candidatesTokenCount": 238,
+          "totalTokenCount": 851,
+          "promptTokensDetails": [
+            {
+              "modality": "TEXT",
+              "tokenCount": 613
+            }
+          ],
+          "serviceTier": "standard"
+        }
+      },
+      "unitErrors": {}
     },
     {
       "key": "A9Oc6YKKc65v_743ceef878f1a480",
@@ -866,7 +1624,27 @@
           "contextHash": "2fd500bf7a787f546d791003f526915cf9342f09fb43abe065efbf10472c6927"
         }
       ],
-      "format": "text-slots-v1"
+      "format": "text-slots-v1",
+      "result": {
+        "key": "A9Oc6YKKc65v_743ceef878f1a480",
+        "translations": {
+          "u_3ddbdbd9d293130868ccef01_0": "次のように定義できます： __TRILIUM_PH_0__ラベル__TRILIUM_PH_1__ 、__TRILIUM_PH_2__ 例：値 __TRILIUM_PH_3__ 。このキーボードショートカットを押すと、それが定義されているノートへ移動できます。変更を有効にするには、Triliumを再読み込みまたは再起動（__TRILIUM_PH_4__Ctrl__TRILIUM_PH_5__＋__TRILIUM_PH_6__R__TRILIUM_PH_7__ ）する必要があることに注意してください。"
+        },
+        "modelVersion": "gemini-3.5-flash-lite",
+        "usage": {
+          "promptTokenCount": 591,
+          "candidatesTokenCount": 149,
+          "totalTokenCount": 740,
+          "promptTokensDetails": [
+            {
+              "modality": "TEXT",
+              "tokenCount": 591
+            }
+          ],
+          "serviceTier": "standard"
+        }
+      },
+      "unitErrors": {}
     },
     {
       "key": "w4rMEhJsALlA_4cb8314f9a12fc35",
@@ -881,7 +1659,27 @@
           "contextHash": "29279d67ff15acc956916d3528ac140a3422094f06c28267aeb605adea7b0a7f"
         }
       ],
-      "format": "text-slots-v1"
+      "format": "text-slots-v1",
+      "result": {
+        "key": "w4rMEhJsALlA_4cb8314f9a12fc35",
+        "translations": {
+          "u_7fa24301a8dae5b317d0a445_0": "プログラミング用リガチャーをサポートしているフォントもあり、次のような文字の組み合わせを __TRILIUM_PH_0__ に変換します。例えば、 __TRILIUM_PH_1__ や __TRILIUM_PH_2__ のように __TRILIUM_PH_3__ の __TRILIUM_PH_4__コードブロック__TRILIUM_PH_5__ および __TRILIUM_PH_6__コード__TRILIUM_PH_7__ ノート内で変換されます。"
+        },
+        "modelVersion": "gemini-3.5-flash-lite",
+        "usage": {
+          "promptTokenCount": 547,
+          "candidatesTokenCount": 191,
+          "totalTokenCount": 738,
+          "promptTokensDetails": [
+            {
+              "modality": "TEXT",
+              "tokenCount": 547
+            }
+          ],
+          "serviceTier": "standard"
+        }
+      },
+      "unitErrors": {}
     },
     {
       "key": "Wy267RK4M69c_cf9b88ade6254371",
@@ -896,7 +1694,27 @@
           "contextHash": "b0a5e05d5794d94a41a247e2a467ed3bd58b8548b226f36028e6356344bcd82a"
         }
       ],
-      "format": "text-slots-v1"
+      "format": "text-slots-v1",
+      "result": {
+        "key": "Wy267RK4M69c_cf9b88ade6254371",
+        "translations": {
+          "u_4671ec7f4e19637ec69da3ec_0": "Triliumには、いくつかのカラーテーマがプリインストールされており、デフォルトではライトテーマが適用されます。ダークテーマやその他の利用可能なテーマに切り替えるには、 __TRILIUM_PH_0__ （画面左上のアプリココンからアクセスできる）オプションメニューへ移動し、「外観」タブを選択して、お好みのテーマを選んでください。 __TRILIUM_PH_1__テーマ__TRILIUM_PH_2__ サブメニューでは、 __TRILIUM_PH_3__グローバルメニュー__TRILIUM_PH_4__ テーマと配色も切り替えることができます。"
+        },
+        "modelVersion": "gemini-3.5-flash-lite",
+        "usage": {
+          "promptTokenCount": 626,
+          "candidatesTokenCount": 205,
+          "totalTokenCount": 831,
+          "promptTokensDetails": [
+            {
+              "modality": "TEXT",
+              "tokenCount": 626
+            }
+          ],
+          "serviceTier": "standard"
+        }
+      },
+      "unitErrors": {}
     },
     {
       "key": "rJ9grSgoExl9_0eb013309bdd5508",
@@ -919,7 +1737,28 @@
           "contextHash": "5bd1365d66cf0a2f9ab351103aea279e32efd3448c62153c481ffacd787d848d"
         }
       ],
-      "format": "text-slots-v1"
+      "format": "text-slots-v1",
+      "result": {
+        "key": "rJ9grSgoExl9_0eb013309bdd5508",
+        "translations": {
+          "u_e476dbbcfd222f10b48d4a93_0": "__TRILIUM_PH_0__ は __TRILIUM_PH_1__ ディレクトリ内の __TRILIUM_PH_2__ ファイルを検索し、内部リンクに変換します。",
+          "u_97563139454f21e5c28f5889_0": "__TRILIUM_PH_0__ は __TRILIUM_PH_1__ ディレクトリ内の __TRILIUM_PH_2__ ファイルを検索し、画像に変換します。"
+        },
+        "modelVersion": "gemini-3.5-flash-lite",
+        "usage": {
+          "promptTokenCount": 587,
+          "candidatesTokenCount": 198,
+          "totalTokenCount": 785,
+          "promptTokensDetails": [
+            {
+              "modality": "TEXT",
+              "tokenCount": 587
+            }
+          ],
+          "serviceTier": "standard"
+        }
+      },
+      "unitErrors": {}
     },
     {
       "key": "Y5mKeJ6dsCld_907afb0a19e820af",
@@ -942,7 +1781,28 @@
           "contextHash": "07f0eaa3b88bfbd86027f00c0ab2aed803aa69ac4d6a518e3d0ee5782b787ec9"
         }
       ],
-      "format": "text-slots-v1"
+      "format": "text-slots-v1",
+      "result": {
+        "key": "Y5mKeJ6dsCld_907afb0a19e820af",
+        "translations": {
+          "u_6cfd70dee85f27c9d30d3704_0": "全般 __TRILIUM_PH_0__設定ページの「__TRILIUM_PH_1__ 」セクションを探し、「 __TRILIUM_PH_2__」に対応する「__TRILIUM_PH_3__ 」ボタンを押します __TRILIUM_PH_4____TRILIUM_PH_5__ 。 __TRILIUM_PH_6____TRILIUM_PH_7__",
+          "u_9e3d43fd09366e2f82f5da79_0": "エクスポートには画像が含まれないため、リンクのアイコンと画像はオンラインで取得する必要があります。この操作は、 __TRILIUM_PH_0____TRILIUM_PH_1__ が有効になっている場合にのみ実行されます。 __TRILIUM_PH_2____TRILIUM_PH_3__  __TRILIUM_PH_4____TRILIUM_PH_5__"
+        },
+        "modelVersion": "gemini-3.5-flash-lite",
+        "usage": {
+          "promptTokenCount": 679,
+          "candidatesTokenCount": 287,
+          "totalTokenCount": 966,
+          "promptTokensDetails": [
+            {
+              "modality": "TEXT",
+              "tokenCount": 679
+            }
+          ],
+          "serviceTier": "standard"
+        }
+      },
+      "unitErrors": {}
     },
     {
       "key": "i6dbnitykE5D_165b81ac198b6d54",
@@ -957,7 +1817,27 @@
           "contextHash": "0efa0e14e421f5e134b147495812bb8c02c90285b916632e88d93be4766c5293"
         }
       ],
-      "format": "text-slots-v1"
+      "format": "text-slots-v1",
+      "result": {
+        "key": "i6dbnitykE5D_165b81ac198b6d54",
+        "translations": {
+          "u_f036274aa59bd1ef7dc8aefc_0": "通常、これはサポートされていません。1つのTriliumプロセスが開くことができる __TRILIUM_PH_0__データベース__TRILIUM_PH_1__のインスタンスは1つだけです。しかし、それぞれが別々のドキュメントに接続された2つのTriliumプロセスを（同じインストールから）実行することは可能です。これを実現するには、 __TRILIUM_PH_2__データディレクトリ__TRILIUM_PH_3__ の場所を __TRILIUM_PH_4__ 環境変数に設定し、ポートを別の環境変数で分ける必要があります。その方法はプラットフォームによって異なりますが、Unix系システムでは次のようなコマンドを実行することで実現できます。 __TRILIUM_PH_5__ "
+        },
+        "modelVersion": "gemini-3.5-flash-lite",
+        "usage": {
+          "promptTokenCount": 662,
+          "candidatesTokenCount": 228,
+          "totalTokenCount": 890,
+          "promptTokensDetails": [
+            {
+              "modality": "TEXT",
+              "tokenCount": 662
+            }
+          ],
+          "serviceTier": "standard"
+        }
+      },
+      "unitErrors": {}
     },
     {
       "key": "oSuaNgyyKnhu_fcd1cfe4909849b0",
@@ -980,7 +1860,28 @@
           "contextHash": "ce2b7364c88edacb74beb95a82da62342d4c7bc04f8c68d75a00c11168642057"
         }
       ],
-      "format": "text-slots-v1"
+      "format": "text-slots-v1",
+      "result": {
+        "key": "oSuaNgyyKnhu_fcd1cfe4909849b0",
+        "translations": {
+          "u_e14ea6a47bebaf43f7e78596_0": "フォーマットツールバーの __TRILIUM_PH_0__ ボタンを探し、 __TRILIUM_PH_1____TRILIUM_PH_2__次に __TRILIUM_PH_3__ ボタンを押します。",
+          "u_bd7065fd8a0a4dcd04d5bc63_0": " __TRILIUM_PH_0____TRILIUM_PH_1____TRILIUM_PH_2____TRILIUM_PH_3__ を押すか、またはフォーマットツールバーの __TRILIUM_PH_4__  __TRILIUM_PH_5____TRILIUM_PH_6__をクリックし、「リンクの追加」ダイアログの上部にある __TRILIUM_PH_7____TRILIUM_PH_8__ を選択します。または、 __TRILIUM_PH_9____TRILIUM_PH_10____TRILIUM_PH_11__ ダイアログ__TRILIUM_PH_12__を開くには、スラッシュコマンドで __TRILIUM_PH_13____TRILIUM_PH_14__ を選択します。これにより、そのページでダイアログが開きます。 __TRILIUM_PH_15____TRILIUM_PH_16__"
+        },
+        "modelVersion": "gemini-3.5-flash-lite",
+        "usage": {
+          "promptTokenCount": 720,
+          "candidatesTokenCount": 241,
+          "totalTokenCount": 961,
+          "promptTokensDetails": [
+            {
+              "modality": "TEXT",
+              "tokenCount": 720
+            }
+          ],
+          "serviceTier": "standard"
+        }
+      },
+      "unitErrors": {}
     },
     {
       "key": "NwBbFdNZ9h7O_ec77826f37f40cd7",
@@ -995,7 +1896,27 @@
           "contextHash": "33ec9adb7996699b8160a77e45b4eeee947c43bb3d68a7009b0e8e9033b59f71"
         }
       ],
-      "format": "text-slots-v1"
+      "format": "text-slots-v1",
+      "result": {
+        "key": "NwBbFdNZ9h7O_ec77826f37f40cd7",
+        "translations": {
+          "u_892d30811660744d6f365679_0": "引用ブロックを作成するには、 __TRILIUM_PH_0__ の __TRILIUM_PH_1__書式設定ツールバー__TRILIUM_PH_2__から押します。また、 __TRILIUM_PH_3__>__TRILIUM_PH_4__を入力し、続けてスペースを入力することでも作成できます（ただし、カーソルが行頭にある場合のみです）。"
+        },
+        "modelVersion": "gemini-3.5-flash-lite",
+        "usage": {
+          "promptTokenCount": 560,
+          "candidatesTokenCount": 168,
+          "totalTokenCount": 728,
+          "promptTokensDetails": [
+            {
+              "modality": "TEXT",
+              "tokenCount": 560
+            }
+          ],
+          "serviceTier": "standard"
+        }
+      },
+      "unitErrors": {}
     },
     {
       "key": "klC3ilXa9kUE_13d85b26654b6f63",
@@ -1010,7 +1931,27 @@
           "contextHash": "8df03c46d78f23a717f63eb5a159dc24128b9cbfe7ef204537ec887614e56a72"
         }
       ],
-      "format": "text-slots-v1"
+      "format": "text-slots-v1",
+      "result": {
+        "key": "klC3ilXa9kUE_13d85b26654b6f63",
+        "translations": {
+          "u_7504f5441dccd5c44f2eac82_0": "ノートを離れずに参照されたブロックを編集するには、インクルードのタイトルにある __TRILIUM_PH_0__ __TRILIUM_PH_1__抜粋を編集__TRILIUM_PH_2__ ボタンを押すか、他の __TRILIUM_PH_3__編集可能__TRILIUM_PH_4__ __TRILIUM_PH_5__ノートと同様に、ツールバーで __TRILIUM_PH_6__インクルードノート__TRILIUM_PH_7__を有効にします。編集を終了するには、もう一度ボタンを押します。変更は参照されたブロックに保存され、ノートの残りの部分はそのまま維持されます。読み取り専用ノートなど、ブロックを編集できない場所では、ボタンはグレーアウトされます。抜粋には __TRILIUM_PH_8__全画面__TRILIUM_PH_9__ ボタンがありません。"
+        },
+        "modelVersion": "gemini-3.5-flash-lite",
+        "usage": {
+          "promptTokenCount": 686,
+          "candidatesTokenCount": 271,
+          "totalTokenCount": 957,
+          "promptTokensDetails": [
+            {
+              "modality": "TEXT",
+              "tokenCount": 686
+            }
+          ],
+          "serviceTier": "standard"
+        }
+      },
+      "unitErrors": {}
     },
     {
       "key": "EK2ckIZ74tbT_2922998c65af6c78",
@@ -1025,7 +1966,27 @@
           "contextHash": "003192350c03f8ef9d6afb3f7d0de9e132620ed78d4f0c0776221ace16fe5241"
         }
       ],
-      "format": "text-slots-v1"
+      "format": "text-slots-v1",
+      "result": {
+        "key": "EK2ckIZ74tbT_2922998c65af6c78",
+        "translations": {
+          "u_1c56eebea874f8e71dee983c_0": "または、 __TRILIUM_PH_0__ と入力して __TRILIUM_PH_1__Enter__TRILIUM_PH_2__を押します（ __TRILIUM_PH_3__Slash Commands__TRILIUM_PH_4__で説明されているとおりです）。"
+        },
+        "modelVersion": "gemini-3.5-flash-lite",
+        "usage": {
+          "promptTokenCount": 497,
+          "candidatesTokenCount": 141,
+          "totalTokenCount": 638,
+          "promptTokensDetails": [
+            {
+              "modality": "TEXT",
+              "tokenCount": 497
+            }
+          ],
+          "serviceTier": "standard"
+        }
+      },
+      "unitErrors": {}
     },
     {
       "key": "UYuUB1ZekNQU_2ab8fe42a0bb3ebc",
@@ -1040,7 +2001,27 @@
           "contextHash": "b2aafb8ab925e9dfc6a7085aae3c7c4a7a216314146ef09a2a1e2091329b6f67"
         }
       ],
-      "format": "text-slots-v1"
+      "format": "text-slots-v1",
+      "result": {
+        "key": "UYuUB1ZekNQU_2ab8fe42a0bb3ebc",
+        "translations": {
+          "u_c7e37d3a5528d651ce3be2b1_0": "このスタイルを適用するには、 __TRILIUM_PH_0__ 書式設定ツールバーの __TRILIUM_PH_1__ グループ内にある __TRILIUM_PH_2__ボタンを押してください__TRILIUM_PH_3__。フローティングツールバーでは、テキストを選択するとボタンが表示されます。"
+        },
+        "modelVersion": "gemini-3.5-flash-lite",
+        "usage": {
+          "promptTokenCount": 525,
+          "candidatesTokenCount": 146,
+          "totalTokenCount": 671,
+          "promptTokensDetails": [
+            {
+              "modality": "TEXT",
+              "tokenCount": 525
+            }
+          ],
+          "serviceTier": "standard"
+        }
+      },
+      "unitErrors": {}
     },
     {
       "key": "AgjCISero73a_b7e014f9040c7d59",
@@ -1055,7 +2036,27 @@
           "contextHash": "4add2d50b766d12b9fb1e8537dab8287b12f93989038200a3afb9ff53b11685c"
         }
       ],
-      "format": "text-slots-v1"
+      "format": "text-slots-v1",
+      "result": {
+        "key": "AgjCISero73a_b7e014f9040c7d59",
+        "translations": {
+          "u_96095304040a40f866aa6eec_0": "新しい脚注を挿入するには、 __TRILIUM_PH_0__ の__TRILIUM_PH_1__挿入__TRILIUM_PH_2__ メニューを開き、 __TRILIUM_PH_3__書式設定ツールバー__TRILIUM_PH_4__ から __TRILIUM_PH_5__ を選択します（または、サブメニューで__TRILIUM_PH_6__脚注__TRILIUM_PH_7__ を選択します、または __TRILIUM_PH_8__新しい脚注__TRILIUM_PH_9__ を選択します）。"
+        },
+        "modelVersion": "gemini-3.5-flash-lite",
+        "usage": {
+          "promptTokenCount": 547,
+          "candidatesTokenCount": 210,
+          "totalTokenCount": 757,
+          "promptTokensDetails": [
+            {
+              "modality": "TEXT",
+              "tokenCount": 547
+            }
+          ],
+          "serviceTier": "standard"
+        }
+      },
+      "unitErrors": {}
     },
     {
       "key": "Gr6xFaF6ioJ5_b434905ce8398944",
@@ -1070,7 +2071,27 @@
           "contextHash": "d9cd1595b18415a2b9ca92f7a644f21c935eafeeab8078424de179d1c834c5e6"
         }
       ],
-      "format": "text-slots-v1"
+      "format": "text-slots-v1",
+      "result": {
+        "key": "Gr6xFaF6ioJ5_b434905ce8398944",
+        "translations": {
+          "u_049e9db3bc5ee90895d214b9_0": "テキストは、書式設定ツールバーにある専用のボタン（ __TRILIUM_PH_0__太字、__TRILIUM_PH_1__ __TRILIUM_PH_2__斜体、__TRILIUM_PH_3__ 下線、または __TRILIUM_PH_4__取り消し線__TRILIUM_PH_5__ ）__TRILIUM_PH_6__、 __TRILIUM_PH_7__、 __TRILIUM_PH_8__、 __TRILIUM_PH_9__を使用してフォーマットできます。"
+        },
+        "modelVersion": "gemini-3.5-flash-lite",
+        "usage": {
+          "promptTokenCount": 559,
+          "candidatesTokenCount": 206,
+          "totalTokenCount": 765,
+          "promptTokensDetails": [
+            {
+              "modality": "TEXT",
+              "tokenCount": 559
+            }
+          ],
+          "serviceTier": "standard"
+        }
+      },
+      "unitErrors": {}
     },
     {
       "key": "mT0HEkOsz6i1_65662c724a80bc3c",
@@ -1085,7 +2106,27 @@
           "contextHash": "134091da858ebd286d5bd3d92925bc2c9d5faddb7502349e9ee127885aafb2c7"
         }
       ],
-      "format": "text-slots-v1"
+      "format": "text-slots-v1",
+      "result": {
+        "key": "mT0HEkOsz6i1_65662c724a80bc3c",
+        "translations": {
+          "u_745390b0b66b29a87fe23317_0": "画像を表示する代わりにリンクを設定するには、 __TRILIUM_PH_0__ファイルとしてリンクを添付__TRILIUM_PH_1__機能を使用して添付します。これには __TRILIUM_PH_2__の__TRILIUM_PH_3__ファイルを添付__TRILIUM_PH_4__ ボタンを使用します。詳しくは __TRILIUM_PH_5__添付ファイル__TRILIUM_PH_6__をご覧ください。"
+        },
+        "modelVersion": "gemini-3.5-flash-lite",
+        "usage": {
+          "promptTokenCount": 536,
+          "candidatesTokenCount": 178,
+          "totalTokenCount": 714,
+          "promptTokensDetails": [
+            {
+              "modality": "TEXT",
+              "tokenCount": 536
+            }
+          ],
+          "serviceTier": "standard"
+        }
+      },
+      "unitErrors": {}
     },
     {
       "key": "VRoP0g1uHHc2_abaf3e523241b53e",
@@ -1116,7 +2157,29 @@
           "contextHash": "20e460d6153fcf454f30926e4b4eae5715e7c28bd43c782b06f13f44b4365350"
         }
       ],
-      "format": "text-slots-v1"
+      "format": "text-slots-v1",
+      "result": {
+        "key": "VRoP0g1uHHc2_abaf3e523241b53e",
+        "translations": {
+          "u_0ccddba4263bedf90b7e1666_0": "書式設定ツールバーの __TRILIUM_PH_0__ ボタンを探します。 __TRILIUM_PH_1____TRILIUM_PH_2__ボタン自体を押すと __TRILIUM_PH_3__Ask AI__TRILIUM_PH_4__ モードになります。あるいは、その隣の矢印キーを押すと、クイックコマンドやモデル選択にアクセスできます。スマートフォンでは、ボタンに矢印がありません。タップすると画面の下部に同じメニューが開き、一番上に __TRILIUM_PH_5__Ask AI...__TRILIUM_PH_6__ が表示され、 __TRILIUM_PH_7__Translate__TRILIUM_PH_8__ などのグループが独自のページとして開きます。",
+          "u_dd668db6ce347e7950240fc2_0": "スラッシュコマンドで、 __TRILIUM_PH_0__AIアシスタント__TRILIUM_PH_1__ または __TRILIUM_PH_2__AI__TRILIUM_PH_3__接頭辞が付いたクイックコマンドを探します。 __TRILIUM_PH_4____TRILIUM_PH_5__",
+          "u_b68d3b7c366cce83919a463c_0": "テキストを選択し、 __TRILIUM_PH_0__ノートコンテキストメニュー__TRILIUM_PH_1__ で __TRILIUM_PH_2__AIアシスタント__TRILIUM_PH_3__オプションを選択します。"
+        },
+        "modelVersion": "gemini-3.5-flash-lite",
+        "usage": {
+          "promptTokenCount": 880,
+          "candidatesTokenCount": 435,
+          "totalTokenCount": 1315,
+          "promptTokensDetails": [
+            {
+              "modality": "TEXT",
+              "tokenCount": 880
+            }
+          ],
+          "serviceTier": "standard"
+        }
+      },
+      "unitErrors": {}
     },
     {
       "key": "nBAXQFj20hS1_2df218ea26c5314d",
@@ -1179,7 +2242,33 @@
           "contextHash": "a2cd96259cee6528f22a378ae1235364e1c8c610c347d80d6d221ae70b4dd098"
         }
       ],
-      "format": "text-slots-v1"
+      "format": "text-slots-v1",
+      "result": {
+        "key": "nBAXQFj20hS1_2df218ea26c5314d",
+        "translations": {
+          "u_ec02808762c8d80abc1e5b8d_0": "「__TRILIUM_PH_0__Word wrap__TRILIUM_PH_1__ 」は、長めの行をスクロールさせる代わりに折り返します。「Auto」は「 __TRILIUM_PH_2__Auto__TRILIUM_PH_3__ 」の設定に従います（「 __TRILIUM_PH_4__Options__TRILIUM_PH_5__ 」→「 __TRILIUM_PH_6__Code Notes__TRILIUM_PH_7__」）。インクルードされたノートの場合、コードノートの「Note」メニューにある「Word wrap」サブメニューと同様に、そのノートの __TRILIUM_PH_8__ ラベルを設定します。埋め込みファイルやMermaid図の場合、このインクルードのみを変更します。 __TRILIUM_PH_9__Word wrap__TRILIUM_PH_10__ サブメニューの __TRILIUM_PH_11__Note menu__TRILIUM_PH_12__ does for a code note. For an embedded file or a Mermaid diagram, it changes only this include.",
+          "u_339c5ff850572f4879706129_0": "ビューが選択されるまで、インクルードは「 __TRILIUM_PH_0__Preview__TRILIUM_PH_1__」を表示し、「Editable」が有効な間は「 __TRILIUM_PH_2__Split view__TRILIUM_PH_3__ 」を表示します（ただし __TRILIUM_PH_4__Editable__TRILIUM_PH_5__ が有効な場合）。",
+          "u_8ab7a94973a29ae2df0c56ca_0": "ソースには、Markdownノートのスラッシュコマンドと __TRILIUM_PH_0__ および __TRILIUM_PH_1__ ノートリンクが含まれています。 __TRILIUM_PH_2__Markdown__TRILIUM_PH_3__ ノートの __TRILIUM_PH_4__ または __TRILIUM_PH_5__ リストから作成されたノートはインクルードされたノートの下に配置され、埋め込みファイルの場合はそれをインクルードしているノートの下に配置され、 __TRILIUM_PH_6__ はそのノートに画像をアップロードします。",
+          "u_66da02eeda37f4766377c23b_0": "「 __TRILIUM_PH_0__Word wrap__TRILIUM_PH_1__ 」および「 __TRILIUM_PH_2__Line numbers__TRILIUM_PH_3__ 」サブメニュー（「 __TRILIUM_PH_4__More actions__TRILIUM_PH_5__ 」メニュー内）は、コードの場合と同様にソースの表示方法を変更します（上記の __TRILIUM_PH_6__Editing an include in place__TRILIUM_PH_7__ を参照してください）。",
+          "u_76bcc6a04817f60e7dbe4956_0": "描画キャンバスを挿入するには、 __TRILIUM_PH_0__ __TRILIUM_PH_1__Insert__TRILIUM_PH_2__ メニュー（ __TRILIUM_PH_3__Formatting toolbar__TRILIUM_PH_4__ 内）を開き、「Mermaid diagram」の上にある __TRILIUM_PH_5__ __TRILIUM_PH_6__Drawing canvas__TRILIUM_PH_7__を選択します。これはスラッシュコマンドの「 __TRILIUM_PH_8__Mermaid diagram__TRILIUM_PH_9__」からも利用できます。キャンバスは空の状態で編集可能として追加され、タイトルが非表示の __TRILIUM_PH_10__Drawing canvas__TRILIUM_PH_11__ に入り、 __TRILIUM_PH_12__Slash Commands__TRILIUM_PH_13__でフォーカスが当たってすぐに描画できる状態になります。 __TRILIUM_PH_14__Resizable__TRILIUM_PH_15__ ",
+          "u_a43b3b894a9b0b98b34f30e3_0": "「__TRILIUM_PH_0__」ボタンの下にある「Attach and embed file」で添付されたExcalidrawファイル（ __TRILIUM_PH_1__Attach and embed file__TRILIUM_PH_2__）も、ファイル名をタイトルとする __TRILIUM_PH_3____TRILIUM_PH_4__Attach file__TRILIUM_PH_5__ のボックス内で描画キャンバスになります。最初は「 __TRILIUM_PH_6__Resizable__TRILIUM_PH_7__ 」がオフの状態で始まるため、描画内容は表示されますが、「Editable」を有効にするまで変更できません（下記を参照）。 __TRILIUM_PH_8__Editable__TRILIUM_PH_9__  __TRILIUM_PH_10__Editable__TRILIUM_PH_11__ ",
+          "u_76e4facb4c91884be2e57f98_0": "完成した描画を誤って変更しないように保護するには、それを選択して __TRILIUM_PH_0__Editable__TRILIUM_PH_1__ の __TRILIUM_PH_2__ __TRILIUM_PH_3__More actions__TRILIUM_PH_4__ メニューでオフにします。これにより、描画は静止画として表示され、当時のズームや位置が保持され、変更、ズーム、移動ができなくなります。再び描画するには、ツールバーの先頭にある __TRILIUM_PH_5__ __TRILIUM_PH_6__Editable__TRILIUM_PH_7__ ボタンをオンにするか（このボタンはEditableがオフの間だけ表示されます）、メニューで「Editable」を再度オンにします。 __TRILIUM_PH_8__Editable__TRILIUM_PH_9__  __TRILIUM_PH_10__Editable__TRILIUM_PH_11__ "
+        },
+        "modelVersion": "gemini-3.5-flash-lite",
+        "usage": {
+          "promptTokenCount": 1822,
+          "candidatesTokenCount": 1463,
+          "totalTokenCount": 3285,
+          "promptTokensDetails": [
+            {
+              "modality": "TEXT",
+              "tokenCount": 1822
+            }
+          ],
+          "serviceTier": "standard"
+        }
+      },
+      "unitErrors": {}
     },
     {
       "key": "hD8GawVuazff_26417822e64a1472",
@@ -1194,7 +2283,27 @@
           "contextHash": "0d337cf3fa17997f2a48c4a0287aa69234aacc10de9c3191dfc96a2f56527bc4"
         }
       ],
-      "format": "text-slots-v1"
+      "format": "text-slots-v1",
+      "result": {
+        "key": "hD8GawVuazff_26417822e64a1472",
+        "translations": {
+          "u_018a3ed0038596c2054d156e_0": "アイコンは、__TRILIUM_PH_0__書式設定__TRILIUM_PH_1__ ツールバーの __TRILIUM_PH_2__一般的な書式設定ツール__TRILIUM_PH_3__を使用して変更できます。"
+        },
+        "modelVersion": "gemini-3.5-flash-lite",
+        "usage": {
+          "promptTokenCount": 498,
+          "candidatesTokenCount": 137,
+          "totalTokenCount": 635,
+          "promptTokensDetails": [
+            {
+              "modality": "TEXT",
+              "tokenCount": 498
+            }
+          ],
+          "serviceTier": "standard"
+        }
+      },
+      "unitErrors": {}
     },
     {
       "key": "CohkqWQC1iBv_3be1708e32ad8b93",
@@ -1265,7 +2374,34 @@
           "contextHash": "a6152c99eb4682c45afe599847fceac165d1d187c7885d409c2f8292ac58f137"
         }
       ],
-      "format": "text-slots-v1"
+      "format": "text-slots-v1",
+      "result": {
+        "key": "CohkqWQC1iBv_3be1708e32ad8b93",
+        "translations": {
+          "u_a511c71933501ae274d866b9_0": "コードノートとして編集されるコードブロックを挿入するには、 __TRILIUM_PH_0__ を選択します。この項目は実験的であり、有効にした場合にのみ表示されます。詳細は__TRILIUM_PH_1__拡張コードブロック__TRILIUM_PH_2__ の __TRILIUM_PH_3__拡張コードブロック__TRILIUM_PH_4__ を参照してください。 __TRILIUM_PH_5__コードブロック__TRILIUM_PH_6__",
+          "u_4869c1f8c372e2f614f548cf_0": "テキスト内でExcalidrawキャンバスに描画するには、 __TRILIUM_PH_0__ を選択します。詳細は__TRILIUM_PH_1__描画キャンバス__TRILIUM_PH_2__ の __TRILIUM_PH_3__描画キャンバス__TRILIUM_PH_4__ の __TRILIUM_PH_5__ノートの埋め込み__TRILIUM_PH_6__を参照してください。",
+          "u_ceb15c8bd40fef0530bc603e_0": "インラインのMermaid図を作成するには、 __TRILIUM_PH_0__ ボタンを押します。その横にある矢印には、各種類の図のテンプレートが一覧表示されます。この図は、 __TRILIUM_PH_1__スラッシュコマンド__TRILIUM_PH_2__ の __TRILIUM_PH_3__Mermaid図__TRILIUM_PH_4__としても利用できます。",
+          "u_bcc5be4cee1c498b4aadf2df_0": "図は埋め込みノートのような枠内に表示されるため、サイズの変更、__TRILIUM_PH_0__サイズ変更可能__TRILIUM_PH_1__ または __TRILIUM_PH_2__フルサイズ__TRILIUM_PH_3__の設定を __TRILIUM_PH_4__ __TRILIUM_PH_5__その他のアクション__TRILIUM_PH_6__ メニューから行うことや、 __TRILIUM_PH_7__ノートの埋め込み__TRILIUM_PH_8__で説明されているように全画面表示にすることができます。",
+          "u_82c828bd00c0309b382b92ec_0": "その __TRILIUM_PH_0__自動折り返し__TRILIUM_PH_1__ および __TRILIUM_PH_2__行番号__TRILIUM_PH_3__ のサブメニュー（ __TRILIUM_PH_4__その他のアクション__TRILIUM_PH_5__ メニュー内）では、埋め込みコードノートと同様に、それぞれ __TRILIUM_PH_6__自動__TRILIUM_PH_7__、 __TRILIUM_PH_8__オン__TRILIUM_PH_9__ 、 __TRILIUM_PH_10__オフ__TRILIUM_PH_11__の設定でソースの表示方法を変更できます（ __TRILIUM_PH_12__ノートの埋め込みにおけるその場での埋め込みの編集__TRILIUM_PH_13__ の __TRILIUM_PH_14__ノートの埋め込み__TRILIUM_PH_15__を参照）。",
+          "u_74a86aba43ff8222d6c7b891_0": "図のソースに対して行われた変更は、テキストノートの元に戻す履歴の一部となり、実行された順序で記録されます。 __TRILIUM_PH_0__Ctrl__TRILIUM_PH_1__+__TRILIUM_PH_2__Z__TRILIUM_PH_3__ および __TRILIUM_PH_4__Ctrl__TRILIUM_PH_5__+__TRILIUM_PH_6__Y__TRILIUM_PH_7__ を使用すると、 __TRILIUM_PH_8__ノートの埋め込みにおけるその場での埋め込みの編集__TRILIUM_PH_9__ で説明されているように、テキストからだけでなくソースからもそれらの操作を元に戻したりやり直したりすることができます。 __TRILIUM_PH_10__ノートの埋め込み__TRILIUM_PH_11__",
+          "u_0efbd605cf5cdeaca7fabe31_0": "ノート内で再生できるYouTube動画、またはWebアドレスから音声や動画ファイルを挿入するには、 __TRILIUM_PH_0__ を選択します。__TRILIUM_PH_1__音声/動画の埋め込み__TRILIUM_PH_2__ アドレスを貼り付けてから、 __TRILIUM_PH_3__メディアの挿入__TRILIUM_PH_4__ または __TRILIUM_PH_5__Enter__TRILIUM_PH_6__を押します。メディアは、 __TRILIUM_PH_7__リンクプレビュー__TRILIUM_PH_8__ で説明されている __TRILIUM_PH_9__埋め込み__TRILIUM_PH_10__表示モードのリンクプレビューとして挿入されます。同じ操作は、 __TRILIUM_PH_11__スラッシュコマンド__TRILIUM_PH_12__ の __TRILIUM_PH_13__音声/動画の埋め込み__TRILIUM_PH_14__としても利用できます。",
+          "u_129d32f3e33be0bc25187e8c_0": "この機能は水平線を表示します。これは通常、テキストの異なるセクションを区切るのに便利です。これを行うには、 __TRILIUM_PH_0__ の __TRILIUM_PH_1__書式設定ツールバー__TRILIUM_PH_2__ボタンを押します。"
+        },
+        "modelVersion": "gemini-3.5-flash-lite",
+        "usage": {
+          "promptTokenCount": 1832,
+          "candidatesTokenCount": 1422,
+          "totalTokenCount": 3254,
+          "promptTokensDetails": [
+            {
+              "modality": "TEXT",
+              "tokenCount": 1832
+            }
+          ],
+          "serviceTier": "standard"
+        }
+      },
+      "unitErrors": {}
     },
     {
       "key": "UmgZAfcltxkS_57ba70a7150d4adb",
@@ -1328,7 +2464,33 @@
           "contextHash": "c467f8a1d52c0bc9d49197125fbd0e0fec4d0061b716a29becb62ff6f91fca8e"
         }
       ],
-      "format": "text-slots-v1"
+      "format": "text-slots-v1",
+      "result": {
+        "key": "UmgZAfcltxkS_57ba70a7150d4adb",
+        "translations": {
+          "u_de65684c6003756a082ab13f_0": "この自動変換は、 __TRILIUM_PH_0__オプション__TRILIUM_PH_1__ → __TRILIUM_PH_2__テキストノート__TRILIUM_PH_3__ に移動し、「機能」セクションの __TRILIUM_PH_4__リンクプレビューを自動生成する__TRILIUM_PH_5__ のチェックを外すことで __TRILIUM_PH_6__機能__TRILIUM_PH_7__ 無効にできます。",
+          "u_f2c67f716b5ca8bffd953a36_0": "Webページ上でダイアログを開くには、フォーマットツールバーの __TRILIUM_PH_0__  __TRILIUM_PH_1__フォーマットツールバー__TRILIUM_PH_2__をクリックするか、 __TRILIUM_PH_3__Ctrl__TRILIUM_PH_4__+__TRILIUM_PH_5__K__TRILIUM_PH_6__を押します __TRILIUM_PH_7__Webページ__TRILIUM_PH_8__。",
+          "u_a8bd897832c96261259adcea_0": "挿入ボタンメニューまたはスラッシュコマンドから __TRILIUM_PH_0__ __TRILIUM_PH_1__音声/動画の埋め込み__TRILIUM_PH_2__ を選択します。 __TRILIUM_PH_3__挿入ボタン__TRILIUM_PH_4__ メニューまたは __TRILIUM_PH_5__スラッシュコマンド__TRILIUM_PH_6__YouTube動画、または音声ファイルもしくは動画ファイルののアドレスを貼り付け、「メディアを挿入」または「Enter」を押して埋め込みとして挿入します。フィールドの端にある「貼り付け」ボタンは、そのテキストをクリップボードのテキストに置き換えます。このボタンは、Triliumがクリップボードを読み取ることができる場所（デスクトップアプリ、およびクリップボードへのアクセスがブロックされていない限りHTTPS上のブラウザ）でのみ表示されます。 __TRILIUM_PH_7__メディアを挿入__TRILIUM_PH_8__ または __TRILIUM_PH_9__Enter__TRILIUM_PH_10__ を押して __TRILIUM_PH_11__埋め込み__TRILIUM_PH_12__として挿入します。フィールドの末尾にある __TRILIUM_PH_13__ __TRILIUM_PH_14__貼り付け__TRILIUM_PH_15__ ボタンを押すと、フィールド内のテキストがクリップボードのテキストに置き換わります。このボタンは、Triliumがクリップボードを読み取れる環境（デスクトップアプリ、およびクリップボードへのアクセスがブロックされていない場合のHTTPS接続ブラウザ）でのみ表示されます。",
+          "u_028ab948bca026cd4df0441e_0": "「埋め込み」オプションは、YouTube動画、音声ファイル、または動画ファイルに対してのみ表示されます。アドレスが既知の拡張子で終わっていないファイルの __TRILIUM_PH_0__カード__TRILIUM_PH_1__ （ __TRILIUM_PH_2__ など）では、このオプションは提供されなくなります。 __TRILIUM_PH_3__",
+          "u_18739552e3100605eec9ee83_0": "__TRILIUM_PH_0__ __TRILIUM_PH_1__編集...__TRILIUM_PH_2__ を選択すると、埋め込みが選択されている状態で __TRILIUM_PH_3__リンクを編集__TRILIUM_PH_4__ ダイアログが開き、メディアの __TRILIUM_PH_5__アドレス（URL）__TRILIUM_PH_6__ と __TRILIUM_PH_7__リンクタイトル__TRILIUM_PH_8__ のみが表示されます。これは、埋め込み選択時に __TRILIUM_PH_9__Ctrl__TRILIUM_PH_10__+__TRILIUM_PH_11__K__TRILIUM_PH_12__ を押すことでも同様です。別の住所を指定すると、埋め込みは新しいメディアを再生し、そのサイズ、位置、タイトル、キャプションを保持します。新しいメディアのサムネイルと形状を引き継ぎ、挿入時と同様に動画ファイルの場合はそのフレームの1つの画像が取得されます。最初のサイズの動画は新しい動画の最初のサイズになり、動画の代わりに音声ファイル、または音声ファイルの代わりに動画を指定した場合は新しいメディアのサイズになります。独自に入力しない限り、新しいアドレスには新しいメディアのタイトルが表示されます。アドレスがYouTube動画、音声ファイル、または動画ファイルのものではない場合、埋め込みはそのまま維持され、Triliumにエラーが表示されます。",
+          "u_cf7e05c94636cae456d4fa96_0": "の __TRILIUM_PH_0__表示__TRILIUM_PH_1__ メニューにある表示モード __TRILIUM_PH_2__ __TRILIUM_PH_3__として表示__TRILIUM_PH_4__。",
+          "u_34a8fb06e4427631c9396d1e_0": "サイズ変更可能な __TRILIUM_PH_0__サイズ変更可能__TRILIUM_PH_1__ な動画や音声ファイルのサイズを変更するには、ファイルを選択し、右下隅（右揃えの場合は左下隅）のハンドルをドラッグします。動画の高さは幅に連動します。サイズサブメニューの「デフォルト」 __TRILIUM_PH_2__デフォルト__TRILIUM_PH_3__ を選択すると、動画のサイズが最初のサイズに戻ります。 __TRILIUM_PH_4__サイズ__TRILIUM_PH_5__ サブメニューの「デフォルト」を選択すると、動画は元のサイズに戻ります。"
+        },
+        "modelVersion": "gemini-3.5-flash-lite",
+        "usage": {
+          "promptTokenCount": 1931,
+          "candidatesTokenCount": 1434,
+          "totalTokenCount": 3365,
+          "promptTokensDetails": [
+            {
+              "modality": "TEXT",
+              "tokenCount": 1931
+            }
+          ],
+          "serviceTier": "standard"
+        }
+      },
+      "unitErrors": {}
     },
     {
       "key": "3IDVtesTQ8ds_17a31c8358578d9c",
@@ -1359,7 +2521,29 @@
           "contextHash": "2cedb069633746f45f07d748666e17efa964159469f9e2c993d67c632f661d2a"
         }
       ],
-      "format": "text-slots-v1"
+      "format": "text-slots-v1",
+      "result": {
+        "key": "3IDVtesTQ8ds_17a31c8358578d9c",
+        "translations": {
+          "u_fa524990c878160b05f30a87_0": "上記と同様に（書式設定ツールバーまたは __TRILIUM_PH_0__リンクを追加__TRILIUM_PH_1__ ダイアログを開きます。または __TRILIUM_PH_2____TRILIUM_PH_3____TRILIUM_PH_4____TRILIUM_PH_5__）選択したテキストがリンクのテキストになるため、ダイアログには __TRILIUM_PH_6__表示名__TRILIUM_PH_7__の項目はありません。",
+          "u_e8046e51935339639168e067_0": "同じメニューには、 __TRILIUM_PH_0__リンクを開く__TRILIUM_PH_1__、 __TRILIUM_PH_2__リンクを編集__TRILIUM_PH_3__ 、 __TRILIUM_PH_4__アドレス（URL）をコピー__TRILIUM_PH_5__、およびポップアップの __TRILIUM_PH_6__表示名__TRILIUM_PH_7__があり、リンクを __TRILIUM_PH_8__リンクプレビュー__TRILIUM_PH_9__のいずれかに変換します（ポップアップの __TRILIUM_PH_10__表示__TRILIUM_PH_11__ メニューと同様です）。",
+          "u_8dea6f59aaf75a6382f6def2_0": "編集中のノート内の外部リンクを開くには、 __TRILIUM_PH_0____TRILIUM_PH_1__＋クリックまたはダブルクリックすると新しいタブまたはウィンドウで開きます。また、カーソルを置いて __TRILIUM_PH_2____TRILIUM_PH_3____TRILIUM_PH_4____TRILIUM_PH_5__を押すか、右クリックして __TRILIUM_PH_6__リンクを開く__TRILIUM_PH_7__を選択します。タッチデバイスでは、リンクを長押しして __TRILIUM_PH_8__リンクを開く__TRILIUM_PH_9__を選択します。 __TRILIUM_PH_10__インクルードされたノート__TRILIUM_PH_11__ 内の __TRILIUM_PH_12__編集可能__TRILIUM_PH_13__ ではないリンクは、読み取り専用ノートと同様に、クリックすると開きます。"
+        },
+        "modelVersion": "gemini-3.5-flash-lite",
+        "usage": {
+          "promptTokenCount": 1027,
+          "candidatesTokenCount": 620,
+          "totalTokenCount": 1647,
+          "promptTokensDetails": [
+            {
+              "modality": "TEXT",
+              "tokenCount": 1027
+            }
+          ],
+          "serviceTier": "standard"
+        }
+      },
+      "unitErrors": {}
     },
     {
       "key": "hrZ1D00cLbal_83c4c82ec7256dbd",
@@ -1382,7 +2566,28 @@
           "contextHash": "d5d8f35c7caca88eb039d810ddb709a57b01da6d469a3341b190d50dd6c1214e"
         }
       ],
-      "format": "text-slots-v1"
+      "format": "text-slots-v1",
+      "result": {
+        "key": "hrZ1D00cLbal_83c4c82ec7256dbd",
+        "translations": {
+          "u_28c434a56dcc7619fe62bdec_0": "Ctrl __TRILIUM_PH_0____TRILIUM_PH_1__ + __TRILIUM_PH_2__L__TRILIUM_PH_3__ を押すか、 __TRILIUM_PH_4__  __TRILIUM_PH_5__ の __TRILIUM_PH_6__書式設定ツールバー__TRILIUM_PH_7__にあるボタンをクリックするか、スラッシュコマンドで __TRILIUM_PH_8__ノートへのリンク（内部リンク）__TRILIUM_PH_9__  __TRILIUM_PH_10__を選択します__TRILIUM_PH_11__。デスクトップ版では、カーソルの横のポップアップに __TRILIUM_PH_12__リンクの追加__TRILIUM_PH_13__ ダイアログが開きます。",
+          "u_bce14c94920e906e87709ed8_0": "名前を付ける前の子ノートを作成してそこにリンクするには、「挿入ボタン」で説明されている __TRILIUM_PH_0__新しい子ノート__TRILIUM_PH_1__を使用します（ __TRILIUM_PH_2__挿入ボタン__TRILIUM_PH_3__）。"
+        },
+        "modelVersion": "gemini-3.5-flash-lite",
+        "usage": {
+          "promptTokenCount": 735,
+          "candidatesTokenCount": 358,
+          "totalTokenCount": 1093,
+          "promptTokensDetails": [
+            {
+              "modality": "TEXT",
+              "tokenCount": 735
+            }
+          ],
+          "serviceTier": "standard"
+        }
+      },
+      "unitErrors": {}
     },
     {
       "key": "wfGXLmm7x27z_1246d2d417d4f87a",
@@ -1397,7 +2602,27 @@
           "contextHash": "c1536af87ca41c626def21ac3924f7be7b5e6225c6c1011cc27a6f2381222d77"
         }
       ],
-      "format": "text-slots-v1"
+      "format": "text-slots-v1",
+      "result": {
+        "key": "wfGXLmm7x27z_1246d2d417d4f87a",
+        "translations": {
+          "u_38e1954419dff8c314031759_0": "右サイドバーの __TRILIUM_PH_0__Connections tab__TRILIUM_PH_1__ にある、 __TRILIUM_PH_2__Right Sidebar__TRILIUM_PH_3__専用のセクションとして表示されます。"
+        },
+        "modelVersion": "gemini-3.5-flash-lite",
+        "usage": {
+          "promptTokenCount": 503,
+          "candidatesTokenCount": 138,
+          "totalTokenCount": 641,
+          "promptTokensDetails": [
+            {
+              "modality": "TEXT",
+              "tokenCount": 503
+            }
+          ],
+          "serviceTier": "standard"
+        }
+      },
+      "unitErrors": {}
     },
     {
       "key": "S6Xx8QIWTV66_c1377174090ae222",
@@ -1412,7 +2637,27 @@
           "contextHash": "89ccfe44429bcfdfdbcddafcd67620e3a22cc27805048f233beb22a0622b0ab0"
         }
       ],
-      "format": "text-slots-v1"
+      "format": "text-slots-v1",
+      "result": {
+        "key": "S6Xx8QIWTV66_c1377174090ae222",
+        "translations": {
+          "u_4227794c6a7c0ddcaf69bcbe_0": "ネストされたリストを作成するには、単に __TRILIUM_PH_0__ ボタン（ __TRILIUM_PH_1__インデント__TRILIUM_PH_2__ の「 __TRILIUM_PH_3__その他の機能__TRILIUM_PH_4__」を参照）または __TRILIUM_PH_5__Tab__TRILIUM_PH_6__ キーを使用します。現在の要素のネストレベルを下げるには、 __TRILIUM_PH_7__Shift__TRILIUM_PH_8__+__TRILIUM_PH_9__Tab__TRILIUM_PH_10__を押します。"
+        },
+        "modelVersion": "gemini-3.5-flash-lite",
+        "usage": {
+          "promptTokenCount": 573,
+          "candidatesTokenCount": 220,
+          "totalTokenCount": 793,
+          "promptTokensDetails": [
+            {
+              "modality": "TEXT",
+              "tokenCount": 573
+            }
+          ],
+          "serviceTier": "standard"
+        }
+      },
+      "unitErrors": {}
     },
     {
       "key": "YfYAtQBcfo5V_abc415c38d4b8530",
@@ -1427,7 +2672,27 @@
           "contextHash": "9c28dd8ef9e6a3f1bd55d1e21b4350932bddb54c36117212375dbb731f8622b8"
         }
       ],
-      "format": "text-slots-v1"
+      "format": "text-slots-v1",
+      "result": {
+        "key": "YfYAtQBcfo5V_abc415c38d4b8530",
+        "translations": {
+          "u_b25341674ea75060c4715baa_0": "テキストノート内では、 __TRILIUM_PH_0__ ボタンを使用し、 __TRILIUM_PH_1__書式設定ツールバー__TRILIUM_PH_2__ （通常は __TRILIUM_PH_3__挿入ボタン__TRILIUM_PH_4__の中にあります）から数式を入力することができます。"
+        },
+        "modelVersion": "gemini-3.5-flash-lite",
+        "usage": {
+          "promptTokenCount": 526,
+          "candidatesTokenCount": 153,
+          "totalTokenCount": 679,
+          "promptTokensDetails": [
+            {
+              "modality": "TEXT",
+              "tokenCount": 526
+            }
+          ],
+          "serviceTier": "standard"
+        }
+      },
+      "unitErrors": {}
     },
     {
       "key": "wYDzQ1fBFgfT_77ed3df58a93a01b",
@@ -1442,7 +2707,27 @@
           "contextHash": "592c6894d32db61271bfb9b405aaeb3a46974f2ffc629a0c536b6bb26497cb67"
         }
       ],
-      "format": "text-slots-v1"
+      "format": "text-slots-v1",
+      "result": {
+        "key": "wYDzQ1fBFgfT_77ed3df58a93a01b",
+        "translations": {
+          "u_8762889c04d2a3ceec11d284_0": "または、 __TRILIUM_PH_0__ と入力して __TRILIUM_PH_1__2列レイアウト__TRILIUM_PH_2__、 __TRILIUM_PH_3__3列レイアウト__TRILIUM_PH_4__ または __TRILIUM_PH_5__4列レイアウト__TRILIUM_PH_6__を選択します（ __TRILIUM_PH_7__スラッシュコマンド__TRILIUM_PH_8__で説明されているとおりです）。"
+        },
+        "modelVersion": "gemini-3.5-flash-lite",
+        "usage": {
+          "promptTokenCount": 544,
+          "candidatesTokenCount": 195,
+          "totalTokenCount": 739,
+          "promptTokensDetails": [
+            {
+              "modality": "TEXT",
+              "tokenCount": 544
+            }
+          ],
+          "serviceTier": "standard"
+        }
+      },
+      "unitErrors": {}
     },
     {
       "key": "0vgWgxQAWj4a_26e2210135a47f0d",
@@ -1481,7 +2766,30 @@
           "contextHash": "3dde123871fc24faf493e07127f36cff3f9ca1dd5331722e82904d2e7995401a"
         }
       ],
-      "format": "text-slots-v1"
+      "format": "text-slots-v1",
+      "result": {
+        "key": "0vgWgxQAWj4a_26e2210135a47f0d",
+        "translations": {
+          "u_2eee2af9ddbcdbe517aaac8f_0": "選択範囲の並べ替えは実験的な機能であり、製品の成熟に伴い変更される可能性があります。使用するには、 __TRILIUM_PH_0__テキストエディタの選択範囲の並べ替え__TRILIUM_PH_1__ を有効にしてください（ __TRILIUM_PH_2__オプション__TRILIUM_PH_3__ → __TRILIUM_PH_4__詳細設定__TRILIUM_PH_5__ → __TRILIUM_PH_6__実験的オプション__TRILIUM_PH_7__）。",
+          "u_ed320789bacddcd02537ba3f_0": "並べ替えるには、カーソルをリストまたはテーブル内に置くか、並べ替える段落を選択し、 __TRILIUM_PH_0__ __TRILIUM_PH_1__並べ替え__TRILIUM_PH_2__ ボタンを __TRILIUM_PH_3__書式設定ツールバー__TRILIUM_PH_4__ から押して昇順で並べ替えます。その横にある矢印から __TRILIUM_PH_5__昇順__TRILIUM_PH_6__ と __TRILIUM_PH_7__降順__TRILIUM_PH_8__を選択できます。フロートツールバーを使用する場合、ボタンはブロックレベルのポップアップにあります。",
+          "u_1239dc7474768787165a3a4f_0": "__TRILIUM_PH_0__テーブルの行__TRILIUM_PH_1__： __TRILIUM_PH_2__行の並べ替え__TRILIUM_PH_3__ に __TRILIUM_PH_4__テーブル__TRILIUM_PH_5__で説明されているように、カーソルがある列に基づいて行が並べ替えられます。テーブルセル内では、行の代わりにリストまたは選択された複数の段落が並べ替えられます。",
+          "u_1483151a7805b92acb2a9e4c_0": "値はテーブルの行と同じ方法で比較されます。 __TRILIUM_PH_0__値の比較方法__TRILIUM_PH_1__ （ __TRILIUM_PH_2__テーブル__TRILIUM_PH_3__）を参照してください。"
+        },
+        "modelVersion": "gemini-3.5-flash-lite",
+        "usage": {
+          "promptTokenCount": 1006,
+          "candidatesTokenCount": 623,
+          "totalTokenCount": 1629,
+          "promptTokensDetails": [
+            {
+              "modality": "TEXT",
+              "tokenCount": 1006
+            }
+          ],
+          "serviceTier": "standard"
+        }
+      },
+      "unitErrors": {}
     },
     {
       "key": "NdowYOC1GFKS_3b7f23be4446cb79",
@@ -1552,7 +2860,34 @@
           "contextHash": "29aebca2de96b86a40999c4e95c89bac47faa2be79cacaaa9e46f7b096a93f55"
         }
       ],
-      "format": "text-slots-v1"
+      "format": "text-slots-v1",
+      "result": {
+        "key": "NdowYOC1GFKS_3b7f23be4446cb79",
+        "translations": {
+          "u_6ef6d308759490a685f2342f_0": "モバイルフロントエンドでは __TRILIUM_PH_0____TRILIUM_PH_1__ツールバーは表の上にフローティング表示されません。代わりに、画面下部の書式設定ツールバーにある __TRILIUM_PH_2__ ボタンを押して __TRILIUM_PH_3__元に戻す__TRILIUM_PH_4__ と __TRILIUM_PH_5__やり直し__TRILIUM_PH_6__ の後に、表のツールバーをそこに表示させます。",
+          "u_70adb6051fa862a81ae57577_0": "v0.107.0以降、 __TRILIUM_PH_0__上に行を貼り付け__TRILIUM_PH_1__ および __TRILIUM_PH_2__下に行を貼り付け__TRILIUM_PH_3__は、 __TRILIUM_PH_4__貼り付け__TRILIUM_PH_5__ サブメニューにおいて、カーソル位置からのセルを上書きするのではなく、現在のセルの行の隣に新しい行としてクリップボードの内容を貼り付けます。これらは、選択範囲が単一の行にあり、かつ __TRILIUM_PH_6__貼り付け__TRILIUM_PH_7__と同様にクリップボードを読み取れる場合にのみ表示されます。",
+          "u_5745e626db648b69d22c5f14_0": "複数の列に同じ幅を設定するには、それらの列にまたがってセルを選択し、書式設定ツールバーの __TRILIUM_PH_0__列の幅を均等にする__TRILIUM_PH_1__ ボタン、または __TRILIUM_PH_2__ から __TRILIUM_PH_3__コンテキストメニュー__TRILIUM_PH_4__を選択します。",
+          "u_846ab9ae23a20cf17cdf15b9_0": "モバイルフロントエンドでは __TRILIUM_PH_0____TRILIUM_PH_1__、表はデスクトップ上での幅を維持し、画面の幅に合わせて列を狭める代わりに横スクロールします。表の全体の幅は、モバイルデバイスの __TRILIUM_PH_2__最大コンテンツ幅__TRILIUM_PH_3__ （ __TRILIUM_PH_4__オプション__TRILIUM_PH_5__ → __TRILIUM_PH_6__外観__TRILIUM_PH_7__ → __TRILIUM_PH_8__コンテンツ幅__TRILIUM_PH_9__ で設定され、デフォルトでは1200ピクセル）になります。例えば、 __TRILIUM_PH_10__ に設定された表の幅は600ピクセルです。",
+          "u_91ee3d15b27441c1ec216806_0": "行をヘッダー行にするには、 __TRILIUM_PH_0__ヘッダーとして設定__TRILIUM_PH_1__ を __TRILIUM_PH_2__コンテキストメニュー__TRILIUM_PH_3__で使用するか、書式設定ツールバーの __TRILIUM_PH_4__ヘッダー行__TRILIUM_PH_5__ ボタンを __TRILIUM_PH_6__ 使用します。",
+          "u_bf3979edcd068fc744d60c9f_0": "表やセルの枠線と背景の色は、 __TRILIUM_PH_0__テーマ__TRILIUM_PH_1__に合わせて、 __TRILIUM_PH_2__テキストの色__TRILIUM_PH_3__ と同様に適応します。パレットから選択された色、カラーピッカーで選ばれた色、または入力された色は、現在のテーマに適した明るいまたは暗い色合いで表示されるため、背景上で枠線が見え続け、テキストが読みやすくなります。色相は同じままで、表は選択された通りの色を保持します。",
+          "u_60e22e53dfcedad77887920f_0": "ヘッダーセルは、現在のテーマに合わせて色分けされます。すべての表で背景を変更するには、 __TRILIUM_PH_0__ カスタムテーマ __TRILIUM_PH_1__または__TRILIUM_PH_2__ カスタムアプリ全体用CSS __TRILIUM_PH_3__で__TRILIUM_PH_4__変数を設定します。例： __TRILIUM_PH_5__。セルに対して選択された背景が引き続き優先されます。",
+          "u_a8e03d48116476613155fefd_0": "すべての表のデフォルトの枠線を変更するには、 __TRILIUM_PH_0__ カスタムテーマ __TRILIUM_PH_1__または__TRILIUM_PH_2__ カスタムアプリ全体用CSS __TRILIUM_PH_3__で__TRILIUM_PH_4__変数を設定します。例： __TRILIUM_PH_5__。独自の枠線を持たないすべての表の枠線を非表示にするには、 __TRILIUM_PH_6__ に設定します。"
+        },
+        "modelVersion": "gemini-3.5-flash-lite",
+        "usage": {
+          "promptTokenCount": 1886,
+          "candidatesTokenCount": 1305,
+          "totalTokenCount": 3191,
+          "promptTokensDetails": [
+            {
+              "modality": "TEXT",
+              "tokenCount": 1886
+            }
+          ],
+          "serviceTier": "standard"
+        }
+      },
+      "unitErrors": {}
     },
     {
       "key": "6f9hih2hXXZk_71de81d30c9ca6ea",
@@ -1583,7 +2918,29 @@
           "contextHash": "6223a7de6148abe5d4520b31bd3770f94a72c395bf9b47b2adbb15c13e2fec1f"
         }
       ],
-      "format": "text-slots-v1"
+      "format": "text-slots-v1",
+      "result": {
+        "key": "6f9hih2hXXZk_71de81d30c9ca6ea",
+        "translations": {
+          "u_3e941d1c3575b1e5dc33de05_0": "コードノートの言語を変更するには、 __TRILIUM_PH_0__ アイコンを __TRILIUM_PH_1__ステータスバー__TRILIUM_PH_2__で探してください。クリックすると、利用可能な言語のリストが表示されます（以下のセクションに従ってカスタマイズできます）。このメニューには、素早く絞り込むための検索バーと、一部のプログラミング言語を視覚的に区別するためのアイコンも備わっています。",
+          "u_36c42696e8df1294f7ec7e70_0": "言語のリストは、 __TRILIUM_PH_0__テキスト__TRILIUM_PH_1__ ノートの __TRILIUM_PH_2__コードブロック__TRILIUM_PH_3__ 機能とも共有されます。",
+          "u_bfe727450ef58c444be3bbd1_0": "含まれているコードノートや埋め込みコードファイルは、「 __TRILIUM_PH_0__行番号__TRILIUM_PH_1__ 」サブメニュー（「 __TRILIUM_PH_2__詳細な操作__TRILIUM_PH_3__ 」メニュー内、 __TRILIUM_PH_4__ノートの包含__TRILIUM_PH_5__を参照）を通じて、個別に行番号を表示または非表示にできます。その「 __TRILIUM_PH_6__自動__TRILIUM_PH_7__ 」項目はこの設定に従います。"
+        },
+        "modelVersion": "gemini-3.5-flash-lite",
+        "usage": {
+          "promptTokenCount": 857,
+          "candidatesTokenCount": 428,
+          "totalTokenCount": 1285,
+          "promptTokensDetails": [
+            {
+              "modality": "TEXT",
+              "tokenCount": 857
+            }
+          ],
+          "serviceTier": "standard"
+        }
+      },
+      "unitErrors": {}
     },
     {
       "key": "iRwzGnHPzonm_7f5029631b26774a",
@@ -1598,7 +2955,27 @@
           "contextHash": "02cf1edf9f59dfd8670245d830f37516eb641886dc7154e88dfd9087fbddcfbb"
         }
       ],
-      "format": "text-slots-v1"
+      "format": "text-slots-v1",
+      "result": {
+        "key": "iRwzGnHPzonm_7f5029631b26774a",
+        "translations": {
+          "u_606b2bb958e1a59416ed0ae5_0": "さて、少し予期せぬことがあります。別の __TRILIUM_PH_0__ リレーションを表示するためのリレーションも確認できます。これは、 __TRILIUM_PH_1__リレーション定義__TRILIUM_PH_2__ が存在し、 __TRILIUM_PH_3__ を__TRILIUM_PH_4__逆__TRILIUM_PH_5__のリレーションとして定義しているため（逆も同様）、 __TRILIUM_PH_6__ 自動的に作成されるからです。"
+        },
+        "modelVersion": "gemini-3.5-flash-lite",
+        "usage": {
+          "promptTokenCount": 577,
+          "candidatesTokenCount": 139,
+          "totalTokenCount": 716,
+          "promptTokensDetails": [
+            {
+              "modality": "TEXT",
+              "tokenCount": 577
+            }
+          ],
+          "serviceTier": "standard"
+        }
+      },
+      "unitErrors": {}
     },
     {
       "key": "HcABDtFCkbFN_ca6f8d1ef82a79ed",
@@ -1621,7 +2998,28 @@
           "contextHash": "1460eeca11e537a13b0658b1ac44ed6d552c5fff28bb85e3e5e998547004d301"
         }
       ],
-      "format": "text-slots-v1"
+      "format": "text-slots-v1",
+      "result": {
+        "key": "HcABDtFCkbFN_ca6f8d1ef82a79ed",
+        "translations": {
+          "u_2b4198be2af6ab1c623cd899_0": "レンダーノートは、 __TRILIUM_PH_0__ノート__TRILIUM_PH_1__ メニューから、その __TRILIUM_PH_2__ リレーションが設定されると（ __TRILIUM_PH_3__PDFとしての印刷とエクスポート__TRILIUM_PH_4__を参照）、印刷したりPDFとしてエクスポートしたりできます。他のノートとは異なり、表示されているとおりに正確に印刷されます。スクリプトは再実行されないため、ノートに入力、選択、または読み込まれた内容はそのまま保持されます。",
+          "u_b4b73208f4a8ee33c2e8941f_0": "__TRILIUM_PH_0__Weight Tracker__TRILIUM_PH_1__ （ __TRILIUM_PH_2__デモノート__TRILIUM_PH_3__に含まれています）"
+        },
+        "modelVersion": "gemini-3.5-flash-lite",
+        "usage": {
+          "promptTokenCount": 674,
+          "candidatesTokenCount": 277,
+          "totalTokenCount": 951,
+          "promptTokensDetails": [
+            {
+              "modality": "TEXT",
+              "tokenCount": 674
+            }
+          ],
+          "serviceTier": "standard"
+        }
+      },
+      "unitErrors": {}
     },
     {
       "key": "s1aBHPd79XYj_d0d512affa4613fa",
@@ -1644,7 +3042,28 @@
           "contextHash": "d4be8b16d61fdb09fbd52a80f0b028807ff673504053d8b2c3e0a78e083643ec"
         }
       ],
-      "format": "text-slots-v1"
+      "format": "text-slots-v1",
+      "result": {
+        "key": "s1aBHPd79XYj_d0d512affa4613fa",
+        "translations": {
+          "u_e3e5ff123bc0192dff3c5e10_0": "2つのレイアウトの間はいつでも切り替えることができます。切り替えるには __TRILIUM_PH_0__ アイコンを __TRILIUM_PH_1__ノートボタン__TRILIUM_PH_2__の中で押します。",
+          "u_b50e2f96795af1f34b202875_0": "図を専用のノートではなく __TRILIUM_PH_0__テキスト__TRILIUM_PH_1__ ノート内に表示するには、 __TRILIUM_PH_2__ __TRILIUM_PH_3__Mermaid diagram__TRILIUM_PH_4__ ボタンを __TRILIUM_PH_5__ __TRILIUM_PH_6__Insert__TRILIUM_PH_7__ メニューから選んで挿入します。Mermaidノートと同様の表示、ズーム、エラー表示機能を持ち、そのソースはテキストノート内にコードブロックとして保持されます。詳細は __TRILIUM_PH_8__Mermaid diagram__TRILIUM_PH_9__ （ __TRILIUM_PH_10__Insert buttons__TRILIUM_PH_11__内）を参照してください。"
+        },
+        "modelVersion": "gemini-3.5-flash-lite",
+        "usage": {
+          "promptTokenCount": 747,
+          "candidatesTokenCount": 340,
+          "totalTokenCount": 1087,
+          "promptTokensDetails": [
+            {
+              "modality": "TEXT",
+              "tokenCount": 747
+            }
+          ],
+          "serviceTier": "standard"
+        }
+      },
+      "unitErrors": {}
     },
     {
       "key": "grjYqerjn243_c3422ff8bbc2583a",
@@ -1683,7 +3102,30 @@
           "contextHash": "5a0cea5f7477e3c5d624bccc926fa7e2ffe491db4d7d309c7b914ee99e450929"
         }
       ],
-      "format": "text-slots-v1"
+      "format": "text-slots-v1",
+      "result": {
+        "key": "grjYqerjn243_c3422ff8bbc2583a",
+        "translations": {
+          "u_51674924947de2727249d0aa_0": "ノートは __TRILIUM_PH_0__読み取り専用__TRILIUM_PH_1__ に切り替えることができます。切り替えるには __TRILIUM_PH_2__ノート__TRILIUM_PH_3__メニューを使用します。",
+          "u_ddb6ae495450ad1ce978b4e9_0": "ペンは、プロパティパネルで選択された __TRILIUM_PH_0__ストローク幅__TRILIUM_PH_1__ の半分で描画します。これは手書きに適しています。代わりに全幅で描画するには、 __TRILIUM_PH_2__細いペンのストローク__TRILIUM_PH_3__ をオフにします。設定場所は __TRILIUM_PH_4__オプション__TRILIUM_PH_5__ → __TRILIUM_PH_6__その他__TRILIUM_PH_7__です。すでに描画されたストロークの幅は維持されます。",
+          "u_47717f581e80cff9c0578b1f_0": "v0.104.0以降、Canvasは、 __TRILIUM_PH_0__ノートのインクルード__TRILIUM_PH_1__ 機能と同様の方式で、 __TRILIUM_PH_2__テキスト__TRILIUM_PH_3__ ノート内にノートを埋め込むことをサポートしています。",
+          "u_dfa13da9a165fca503df1945_0": "独立したノートにするのではなく __TRILIUM_PH_0__テキスト__TRILIUM_PH_1__ ノートの中に直接描画するには、 __TRILIUM_PH_2____TRILIUM_PH_3__描画キャンバス__TRILIUM_PH_4__ を __TRILIUM_PH_5____TRILIUM_PH_6__挿入__TRILIUM_PH_7__ メニューから挿入します。詳細については、 __TRILIUM_PH_8__ノートのインクルード__TRILIUM_PH_9__ 内の __TRILIUM_PH_10__描画キャンバス__TRILIUM_PH_11__を参照してください。"
+        },
+        "modelVersion": "gemini-3.5-flash-lite",
+        "usage": {
+          "promptTokenCount": 964,
+          "candidatesTokenCount": 603,
+          "totalTokenCount": 1567,
+          "promptTokensDetails": [
+            {
+              "modality": "TEXT",
+              "tokenCount": 964
+            }
+          ],
+          "serviceTier": "standard"
+        }
+      },
+      "unitErrors": {}
     },
     {
       "key": "XJGJrpu7F9sh_646680daa4e93db3",
@@ -1698,7 +3140,27 @@
           "contextHash": "308af638a08c2dc4f987ef291e0caf80485d595bed6ad2dea420c59c7fa8da25"
         }
       ],
-      "format": "text-slots-v1"
+      "format": "text-slots-v1",
+      "result": {
+        "key": "XJGJrpu7F9sh_646680daa4e93db3",
+        "translations": {
+          "u_90672abf623492d2f22b61cf_0": "ページへのリンクを作成するには、 __TRILIUM_PH_0__ページ__TRILIUM_PH_1__ セクション内の __TRILIUM_PH_2__右サイドバー__TRILIUM_PH_3__ でそのページを右クリックし、 __TRILIUM_PH_4__参照をコピー__TRILIUM_PH_5__を選択します。"
+        },
+        "modelVersion": "gemini-3.5-flash-lite",
+        "usage": {
+          "promptTokenCount": 530,
+          "candidatesTokenCount": 114,
+          "totalTokenCount": 644,
+          "promptTokensDetails": [
+            {
+              "modality": "TEXT",
+              "tokenCount": 530
+            }
+          ],
+          "serviceTier": "standard"
+        }
+      },
+      "unitErrors": {}
     },
     {
       "key": "KG48zgNY31NW_146a45ce6ee85bba",
@@ -1721,7 +3183,28 @@
           "contextHash": "bfa77ece066590f79cc412962027835c94f3d5bc9863efbb78966c37484976d4"
         }
       ],
-      "format": "text-slots-v1"
+      "format": "text-slots-v1",
+      "result": {
+        "key": "KG48zgNY31NW_146a45ce6ee85bba",
+        "translations": {
+          "u_bd3fc21bd1a23a7f16fcadbb_0": "プレビューとは関係なく、オフィスのテキストコンテンツもバックグラウンドで抽出されるため、 __TRILIUM_PH_0__検索__TRILIUM_PH_1__ で __TRILIUM_PH_2__テキスト抽出 (OCR)__TRILIUM_PH_3__を使用して見つけることができます。",
+          "u_c02b296cf4e5049e18e26da9_0": "__TRILIUM_PH_0__ および __TRILIUM_PH_1__ のファイルは、 __TRILIUM_PH_2__スプレッドシート__TRILIUM_PH_3__ に __TRILIUM_PH_4__インポート__TRILIUM_PH_5__ 機能を使用して変換できます。"
+        },
+        "modelVersion": "gemini-3.5-flash-lite",
+        "usage": {
+          "promptTokenCount": 639,
+          "candidatesTokenCount": 249,
+          "totalTokenCount": 888,
+          "promptTokensDetails": [
+            {
+              "modality": "TEXT",
+              "tokenCount": 639
+            }
+          ],
+          "serviceTier": "standard"
+        }
+      },
+      "unitErrors": {}
     },
     {
       "key": "W8vYD3Q1zjCR_85ce3d7b321472fe",
@@ -1760,7 +3243,30 @@
           "contextHash": "ea294807c76316c9c74a8d0dedd39008b8bbb9ce0dc5f6bd32a4b965b2b939a4"
         }
       ],
-      "format": "text-slots-v1"
+      "format": "text-slots-v1",
+      "result": {
+        "key": "W8vYD3Q1zjCR_85ce3d7b321472fe",
+        "translations": {
+          "u_d1720a03f2c42b0df04a6f90_0": " __TRILIUM_PH_0__画像参照__TRILIUM_PH_1__ は、ノートボタンエリアにある __TRILIUM_PH_2__ アイコンを押すことでコピーでき、 __TRILIUM_PH_3____TRILIUM_PH_4__ を使ってテキストノートに貼り付けることができます。 __TRILIUM_PH_5__テキスト__TRILIUM_PH_6__ ノート",
+          "u_f8c012c9873d643cc5957f74_0": " __TRILIUM_PH_0__変更することは__TRILIUM_PH_1__ できません。 __TRILIUM_PH_2__ファイル__TRILIUM_PH_3__ ノートのノートタイプを",
+          "u_bb48d6ecf03b0025acc6dff8_0": "ノートメニューから __TRILIUM_PH_0__添付ファイル__TRILIUM_PH_1__ に __TRILIUM_PH_2__変換します__TRILIUM_PH_3__",
+          "u_775f3e57ea58c50d0b3a8060_0": "1つのファイルのサイズは 374 MiB を超えることはできません。詳細については、 __TRILIUM_PH_0__インポートの最大サイズ__TRILIUM_PH_1__ （ __TRILIUM_PH_2__インポートとエクスポート__TRILIUM_PH_3__）を参照してください。"
+        },
+        "modelVersion": "gemini-3.5-flash-lite",
+        "usage": {
+          "promptTokenCount": 828,
+          "candidatesTokenCount": 439,
+          "totalTokenCount": 1267,
+          "promptTokensDetails": [
+            {
+              "modality": "TEXT",
+              "tokenCount": 828
+            }
+          ],
+          "serviceTier": "standard"
+        }
+      },
+      "unitErrors": {}
     },
     {
       "key": "6RM1Q7ppFVoj_bb1165f5159056b0",
@@ -1823,7 +3329,33 @@
           "contextHash": "b5d4a1238931f01d899c9c94bf446df35554ffcb236220dc7c820b0ea7527e58"
         }
       ],
-      "format": "text-slots-v1"
+      "format": "text-slots-v1",
+      "result": {
+        "key": "6RM1Q7ppFVoj_bb1165f5159056b0",
+        "translations": {
+          "u_bc766d8161524cf901657783_0": "コードブロックは、 __TRILIUM_PH_0__テキスト__TRILIUM_PH_1__ セクションのテキスト折り返し設定を __TRILIUM_PH_2__オプション__TRILIUM_PH_3__から適用します。",
+          "u_0d65cea3f08b702e499f8a92_0": "__TRILIUM_PH_0__Mermaidダイアグラム__TRILIUM_PH_1__ の使用（ __TRILIUM_PH_2__",
+          "u_10001a630e79b8a226a3bd4f_0": "HTML構文、または__TRILIUM_PH_0__内部（参照）リンク__TRILIUM_PH_1__ （ __TRILIUM_PH_2__Wikilinks__TRILIUM_PH_3__に似た形式、 __TRILIUM_PH_4__ノートID__TRILIUM_PH_5__のみ）:",
+          "u_2ad269b4c38eeafcce82ed96_0": "ノートIDを手動で入力するか、__TRILIUM_PH_0__リンクの追加__TRILIUM_PH_1__ ダイアログを使用して、動的なタイトルを持つ他のノートへの __TRILIUM_PH_2__リンクを追加__TRILIUM_PH_3__ します：",
+          "u_8dfde17fb14519bc9cf3755b_0": " __TRILIUM_PH_0__リンクの追加__TRILIUM_PH_1__ ダイアログを使用するには、 __TRILIUM_PH_2__Ctrl__TRILIUM_PH_3__+__TRILIUM_PH_4__L__TRILIUM_PH_5__ を押すか、 __TRILIUM_PH_6__ コマンドを入力します。",
+          "u_cd3210f583bd3ebfe04fc1c9_0": "言語のリストは __TRILIUM_PH_0__コード__TRILIUM_PH_1__ ノート用に __TRILIUM_PH_2__オプション__TRILIUM_PH_3__で設定されたものと一致し、Triliumがサポートするすべての言語のリストではありません。",
+          "u_c1db3ec491d8c847243752fc_0": " __TRILIUM_PH_0__テキスト__TRILIUM_PH_1__ ノートに含まれるMarkdownノートは、そのソース、プレビュー、またはその両方目を表示し、その場で編集できます。「ノートのインクルード」の __TRILIUM_PH_2__インクルードされたMarkdown__TRILIUM_PH_3__ を __TRILIUM_PH_4__参照__TRILIUM_PH_5__してください。"
+        },
+        "modelVersion": "gemini-3.5-flash-lite",
+        "usage": {
+          "promptTokenCount": 1184,
+          "candidatesTokenCount": 764,
+          "totalTokenCount": 1948,
+          "promptTokensDetails": [
+            {
+              "modality": "TEXT",
+              "tokenCount": 1184
+            }
+          ],
+          "serviceTier": "standard"
+        }
+      },
+      "unitErrors": {}
     },
     {
       "key": "xWbu3jpNWapp_0e1fd2fafe346d58",
@@ -1878,7 +3410,32 @@
           "contextHash": "d3737d0e7181fd2388e8b1f80314efb5f55f06c3e87b9f75a5e0732912acf076"
         }
       ],
-      "format": "text-slots-v1"
+      "format": "text-slots-v1",
+      "result": {
+        "key": "xWbu3jpNWapp_0e1fd2fafe346d58",
+        "translations": {
+          "u_5d05915786929ca12ea325ad_0": "同じ設定は __TRILIUM_PH_0__一般__TRILIUM_PH_1__ （ __TRILIUM_PH_2__ ）の__TRILIUM_PH_3__カレンダーのプロパティ__TRILIUM_PH_4__ ダイアログ（開き方については __TRILIUM_PH_5__イベントのテンプレート__TRILIUM_PH_6__ を参照してください）の「一般」の下にも一覧表示されます。タイムスロットは、カレンダーがどの表示モードであってもそこに一覧表示されます。「 __TRILIUM_PH_7__含まれるノート__TRILIUM_PH_8__ 」セクションでは、アーカイブされたノートを表示するかどうかや、カレンダーがイベントを検索する深さを設定します（ __TRILIUM_PH_9__深さの制限__TRILIUM_PH_10__を参照してください）。",
+          "u_8639c3b5edaae0c38e97a8c8_0": "デフォルトでは、新規イベントは __TRILIUM_PH_0__テキスト__TRILIUM_PH_1__ ノートになります。他のノートタイプや、事前定義されたコンテンツと属性（色など）を持つ __TRILIUM_PH_2__テンプレート__TRILIUM_PH_3__ からイベントを作成するには、 __TRILIUM_PH_4__ __TRILIUM_PH_5__カレンダーのプロパティ__TRILIUM_PH_6__ ダイアログを __TRILIUM_PH_7__ノートメニュー__TRILIUM_PH_8__ または __TRILIUM_PH_9__コレクションプロパティ__TRILIUM_PH_10__の設定メニューから開き、 __TRILIUM_PH_11__イベントのテンプレート__TRILIUM_PH_12__を見つけてください。ここでは次の操作を行えます。",
+          "u_07c8f31510824f04d7a080ac_0": "開始日が設定されたテキストノートは、独自のアイコンが設定されていない限り（ __TRILIUM_PH_0__ で設定）、ノートツリーなどでアイコン付きで表示されます。開始日は、存在する場合はラベル __TRILIUM_PH_1__の名前から読み取られます。 __TRILIUM_PH_2__ ",
+          "u_333ca1ca3cfc4aa16026a4ae_0": "カレンダーがイベントを検索する深さを制限するには、 __TRILIUM_PH_0__最大ネスト深度__TRILIUM_PH_1__ を __TRILIUM_PH_2__含まれるノート__TRILIUM_PH_3__ の設定（ __TRILIUM_PH_4____TRILIUM_PH_5__カレンダーのプロパティ__TRILIUM_PH_6__ ダイアログ内、開き方は __TRILIUM_PH_7__イベントのテンプレート__TRILIUM_PH_8__ を参照）で設定するか、あるいは __TRILIUM_PH_9__ ラベル： __TRILIUM_PH_10__ を使用します。これは子ノートのみを表示し、 __TRILIUM_PH_11__ はその子を追加するといった動作をします。値を指定しない場合、イベントはすべてのレベルで検索されます。この設定はジャーナルでは適用されません。",
+          "u_5729c4e04383ac0888ad9802_0": "睡眠や勤務時間など、曜日の大部分で繰り返されるイベントは、月表示のすべてのセルを埋め尽くします。多くの日を一度に表示するビューからこれらを非表示にするには、 __TRILIUM_PH_0__ルーチンイベントを非表示にする__TRILIUM_PH_1__ を __TRILIUM_PH_2__コレクションプロパティ__TRILIUM_PH_3__ でチェックするか（または __TRILIUM_PH_4__を設定します）。",
+          "u_366866d12d4585f987d658ed_0": "カレンダーのイベントは、 __TRILIUM_PH_0__ ではなく __TRILIUM_PH_1__属性に基づいて描画されるようになりました。"
+        },
+        "modelVersion": "gemini-3.5-flash-lite",
+        "usage": {
+          "promptTokenCount": 1531,
+          "candidatesTokenCount": 1038,
+          "totalTokenCount": 2569,
+          "promptTokensDetails": [
+            {
+              "modality": "TEXT",
+              "tokenCount": 1531
+            }
+          ],
+          "serviceTier": "standard"
+        }
+      },
+      "unitErrors": {}
     },
     {
       "key": "2FvYrpmOXm29_50c3fe397066dccb",
@@ -1917,7 +3474,30 @@
           "contextHash": "493804b60eb237253154eb3fdef7f2dd0995fbc7eba9c05b886d6b54cb6982d0"
         }
       ],
-      "format": "text-slots-v1"
+      "format": "text-slots-v1",
+      "result": {
+        "key": "2FvYrpmOXm29_50c3fe397066dccb",
+        "translations": {
+          "u_77916930d0039fda39d5c454_0": "列ヘッダーの空白部分を右クリックし、[New column]セクションで __TRILIUM_PH_0__Label__TRILIUM_PH_1__ または __TRILIUM_PH_2__Relation__TRILIUM_PH_3__ を選択します。 __TRILIUM_PH_4__New column__TRILIUM_PH_5__ ",
+          "u_09d3b6598cda3ea90fd5d39e_0": "ネストが常に望ましいとは限らないため、ネストの階層数を制限したり、完全に無効にしたりすることが可能です。これを行うには、 __TRILIUM_PH_0__Note menu__TRILIUM_PH_1__ → __TRILIUM_PH_2__Table properties__TRILIUM_PH_3__ に移動し、（ __TRILIUM_PH_4__Maximum nesting depth__TRILIUM_PH_5__ セクション内の __TRILIUM_PH_6__Included notes__TRILIUM_PH_7__ ）を設定するか、コレクションの __TRILIUM_PH_8__ __TRILIUM_PH_9__label__TRILIUM_PH_10__ を設定します。",
+          "u_6dc895da72c4e6883aad3370_0": "テーブルビューは、 __TRILIUM_PH_0__Saved Search__TRILIUM_PH_1__ に __TRILIUM_PH_2__ 属性を追加することで使用できます。",
+          "u_f8aa95b606833263cd90074b_0": "列は、 __TRILIUM_PH_0__Saved Search__TRILIUM_PH_1__ ノートに対する __TRILIUM_PH_2__Promoted Attributes__TRILIUM_PH_3__ として定義することでサポートされます。"
+        },
+        "modelVersion": "gemini-3.5-flash-lite",
+        "usage": {
+          "promptTokenCount": 932,
+          "candidatesTokenCount": 519,
+          "totalTokenCount": 1451,
+          "promptTokensDetails": [
+            {
+              "modality": "TEXT",
+              "tokenCount": 932
+            }
+          ],
+          "serviceTier": "standard"
+        }
+      },
+      "unitErrors": {}
     },
     {
       "key": "CtBQqbwXDx1w_6d60249f88288bea",
@@ -1964,7 +3544,31 @@
           "contextHash": "c399e37cd9765d9ab49d5ffb5f91dbe8dba66ae272bb08019003d634a6a22adc"
         }
       ],
-      "format": "text-slots-v1"
+      "format": "text-slots-v1",
+      "result": {
+        "key": "CtBQqbwXDx1w_6d60249f88288bea",
+        "translations": {
+          "u_6e565f405d2b3c145e8468d8_0": "ボードの表示深度を制限するには、 __TRILIUM_PH_0__ノートメニュー__TRILIUM_PH_1__ → __TRILIUM_PH_2__ボードプロパティ__TRILIUM_PH_3__ に移動して、 __TRILIUM_PH_4__最大ネスト深度__TRILIUM_PH_5__ （ __TRILIUM_PH_6__含まれるノート__TRILIUM_PH_7__ セクション内）を設定するか、ボードノートに __TRILIUM_PH_8__ ラベルを適用します。 __TRILIUM_PH_9__ は子のみを表示し、 __TRILIUM_PH_10__ はその子を追加するといった具合になります。値を指定しない場合、すべてのレベルが表示されます。",
+          "u_77d08f64d2adc4e5f2e93f5d_0": "ボードを設定すると、 __TRILIUM_PH_0__列を追加__TRILIUM_PH_1__ ボタンを非表示にできます。これを行うには、 __TRILIUM_PH_2__ノートメニュー__TRILIUM_PH_3__ → __TRILIUM_PH_4__ボードプロパティ__TRILIUM_PH_5__ に移動して、 __TRILIUM_PH_6__「列を追加」ボタンを表示__TRILIUM_PH_7__ （ __TRILIUM_PH_8__一般__TRILIUM_PH_9__ セクション内）をオフにするか、ボードノートに __TRILIUM_PH_10__ ラベルを適用します。列は、上記 コンテキストメニューから引き続き追加できます。",
+          "u_647d0549cae53ddd0c628c93_0": "ボードのデフォルト以外の並び替えオプションを使用している列は、新しいデフォルトの影響を受けません。すべての列がデフォルトの並び替えオプションを使用するように上書きするには、 __TRILIUM_PH_0__ボードのデフォルト__TRILIUM_PH_1__ で、 __TRILIUM_PH_2__すべての列の並び替えオプションをデフォルトにリセット__TRILIUM_PH_3__ コマンドを __TRILIUM_PH_4__ボードプロパティ__TRILIUM_PH_5__で使用します。",
+          "u_00e6dfad8970aeaa4a330b0d_0": "アーカイブされた列を再度表示するには、 __TRILIUM_PH_0__ __TRILIUM_PH_1__コレクションオプション__TRILIUM_PH_2__ に移動して __TRILIUM_PH_3__ __TRILIUM_PH_4__アーカイブされたノートを表示__TRILIUM_PH_5__を切り替えるか、 __TRILIUM_PH_6__アーカイブされたカードと列を表示__TRILIUM_PH_7__ を __TRILIUM_PH_8__ノートメニュー__TRILIUM_PH_9__ → __TRILIUM_PH_10__ボードプロパティ__TRILIUM_PH_11__ （ __TRILIUM_PH_12__含まれるノート__TRILIUM_PH_13__ セクション内）でオンにします。アーカイブされた列は薄く表示されます。元に戻すには、その列のメニューを開いて __TRILIUM_PH_14__ __TRILIUM_PH_15__列のアーカイブを解除__TRILIUM_PH_16__を選択します。",
+          "u_ae805a62c4a9f6e32fdcfc00_0": "アーカイブされたカードを再度表示するには、 __TRILIUM_PH_0__ __TRILIUM_PH_1__コレクションオプション__TRILIUM_PH_2__ に移動して __TRILIUM_PH_3__ __TRILIUM_PH_4__アーカイブされたノートを表示__TRILIUM_PH_5__を切り替えるか、 __TRILIUM_PH_6__アーカイブされたカードと列を表示__TRILIUM_PH_7__ を __TRILIUM_PH_8__ノートメニュー__TRILIUM_PH_9__ → __TRILIUM_PH_10__ボードプロパティ__TRILIUM_PH_11__ （ __TRILIUM_PH_12__含まれるノート__TRILIUM_PH_13__ セクション内）でオンにします。アーカイブされたカードは薄く表示されます。元に戻すには、そのコンテキストメニューを開いて __TRILIUM_PH_14__ __TRILIUM_PH_15__ノートのアーカイブを解除__TRILIUM_PH_16__を選択します。"
+        },
+        "modelVersion": "gemini-3.5-flash-lite",
+        "usage": {
+          "promptTokenCount": 1552,
+          "candidatesTokenCount": 1122,
+          "totalTokenCount": 2674,
+          "promptTokensDetails": [
+            {
+              "modality": "TEXT",
+              "tokenCount": 1552
+            }
+          ],
+          "serviceTier": "standard"
+        }
+      },
+      "unitErrors": {}
     },
     {
       "key": "C2H9HK4BzwG7_015f6dc760e42d37",
@@ -1979,7 +3583,27 @@
           "contextHash": "aafac6ec88e649d62b6e3fa17c2880af8a244f528919dcbb09b830ea0f4abd07"
         }
       ],
-      "format": "text-slots-v1"
+      "format": "text-slots-v1",
+      "result": {
+        "key": "C2H9HK4BzwG7_015f6dc760e42d37",
+        "translations": {
+          "u_91347524f517771827a0ab82_0": "図形はマーカーと非常によく似た方法で表現されます。つまり、各図形は1つのノートです。それに関する情報は、次のような __TRILIUM_PH_0__ラベル__TRILIUM_PH_1__ を使用して保存されます __TRILIUM_PH_2__。"
+        },
+        "modelVersion": "gemini-3.5-flash-lite",
+        "usage": {
+          "promptTokenCount": 521,
+          "candidatesTokenCount": 115,
+          "totalTokenCount": 636,
+          "promptTokensDetails": [
+            {
+              "modality": "TEXT",
+              "tokenCount": 521
+            }
+          ],
+          "serviceTier": "standard"
+        }
+      },
+      "unitErrors": {}
     },
     {
       "key": "ZRDXGc0nAIh4_eeff5f42573dc31e",
@@ -2018,7 +3642,30 @@
           "contextHash": "314ff47ca1e102c8b077f2355d7c56cfdb49cc9a8dc1055f748bab850e6158b0"
         }
       ],
-      "format": "text-slots-v1"
+      "format": "text-slots-v1",
+      "result": {
+        "key": "ZRDXGc0nAIh4_eeff5f42573dc31e",
+        "translations": {
+          "u_7bbbd1685e4b845b468f45dc_0": "ノートメニューまたは __TRILIUM_PH_0____TRILIUM_PH_1__地理マップのプロパティ__TRILIUM_PH_2__ ダイアログを開くか、コレクションプロパティの設定メニューから開きます。 __TRILIUM_PH_3____TRILIUM_PH_4__  __TRILIUM_PH_5____TRILIUM_PH_6__",
+          "u_9938f7b08dae1c82067b02db_0": "「画像を圧縮」のチェックを外した状態で __TRILIUM_PH_0__インポート__TRILIUM_PH_1__ ダイアログから __TRILIUM_PH_2__画像を圧縮__TRILIUM_PH_3__ アップロードします。",
+          "u_4c530fb310ab0692e4efc802_0": "マーカータイトルの見た目は画像に追随します。画像が暗い場合は、地理マップのプロパティダイアログの「背景」にある __TRILIUM_PH_0__暗い画像__TRILIUM_PH_1__ を __TRILIUM_PH_2__背景__TRILIUM_PH_3__ の __TRILIUM_PH_4____TRILIUM_PH_5__ で有効にすると、タイトルが明るい色で描画されるようになります。これにより __TRILIUM_PH_6__ ラベルが設定されます。",
+          "u_2aca5bc83ac2a8bd6413b6bb_0": "代わりに独自の座標を使用するには、 __TRILIUM_PH_0__地理マップのプロパティ__TRILIUM_PH_1__ ダイアログを開き、 __TRILIUM_PH_2__座標__TRILIUM_PH_3__  __TRILIUM_PH_4__背景__TRILIUM_PH_5__ を __TRILIUM_PH_6__カスタム__TRILIUM_PH_7__に設定し、画像の __TRILIUM_PH_8__左上の角__TRILIUM_PH_9__ と __TRILIUM_PH_10__右下の角__TRILIUM_PH_11__の座標を入力します。 __TRILIUM_PH_12__カスタム__TRILIUM_PH_13__ に切り替えると画像のピクセルサイズから開始されるため、角が変更されるまでマーカーは元の位置に留まります。そのため、 __TRILIUM_PH_14__カスタム__TRILIUM_PH_15__ は画像の読み込みが完了した後にのみ選択できます。その後、コンテキストメニューやポップアップビューに表示されるものも含め、すべての位置情報の読み書きがそれらの座標で行われます。ピクセルに戻すには、 __TRILIUM_PH_16__座標__TRILIUM_PH_17__ を __TRILIUM_PH_18__画像ピクセル__TRILIUM_PH_19__に設定します。親ノートやテンプレートから地理マップが継承している角は、それを保持しているノート上でしか削除できません。このマップで他の角を入力すると、それらが上書きされます。"
+        },
+        "modelVersion": "gemini-3.5-flash-lite",
+        "usage": {
+          "promptTokenCount": 1222,
+          "candidatesTokenCount": 791,
+          "totalTokenCount": 2013,
+          "promptTokensDetails": [
+            {
+              "modality": "TEXT",
+              "tokenCount": 1222
+            }
+          ],
+          "serviceTier": "standard"
+        }
+      },
+      "unitErrors": {}
     },
     {
       "key": "81SGnPGMk7Xc_d282e70e37a12831",
@@ -2081,7 +3728,33 @@
           "contextHash": "22c2205f11fd7e63b60f2ca9f8999ae5d637bb34f4e402d6926c27ce9becd6af"
         }
       ],
-      "format": "text-slots-v1"
+      "format": "text-slots-v1",
+      "result": {
+        "key": "81SGnPGMk7Xc_d282e70e37a12831",
+        "translations": {
+          "u_7e7be3f1292bd6aa79df24a9_0": "マップ自体が場所に対して提供している __TRILIUM_PH_0__ リンク（ __TRILIUM_PH_1__Open location__TRILIUM_PH_2__ アクション経由）です。",
+          "u_05aa15542150d900810b7900_0": "3Dの建物を利用するには、 __TRILIUM_PH_0__VersaTiles__TRILIUM_PH_1__ スタイルを使用していることを確認してください。これにより、 __TRILIUM_PH_2__ ソースを介して建物の情報が提供されます。",
+          "u_67be3e8b750c5d56166fbcae_0": "ノートメニューから __TRILIUM_PH_0__Geo map properties__TRILIUM_PH_1__ ダイアログを開きます __TRILIUM_PH_2____TRILIUM_PH_3__。",
+          "u_99ad259e850969e3472aebae_0": "クアッドキーでタイルに番号を割り当てるサーバーは、 __TRILIUM_PH_0__ プレースホルダーを使用してサポートされています（ __TRILIUM_PH_1__、 __TRILIUM_PH_2__ 、および __TRILIUM_PH_3__の代わりに）。",
+          "u_754ce8055945dcbd8d081145_0": "以下のオプションは、 __TRILIUM_PH_0__Collection Properties__TRILIUM_PH_1__の設定（__TRILIUM_PH_2__）ボタンをクリックして設定できます。あるいは、これらのオプションにはそれぞれ手動で設定できる対応する __TRILIUM_PH_3__ラベル__TRILIUM_PH_4__ もあります。",
+          "u_c77d08a955d73ce5e28f654b_0": "単位は、 __TRILIUM_PH_0__Language & Region__TRILIUM_PH_1__ の __TRILIUM_PH_2__Formatting locale__TRILIUM_PH_3__オプションによって決定されます。",
+          "u_ff66bf70df51121acc9cfb09_0": "同じオプションは、ノートメニューまたは __TRILIUM_PH_0__Collection Properties__TRILIUM_PH_1__ の設定メニューから開いた __TRILIUM_PH_2____TRILIUM_PH_3__Geo map properties__TRILIUM_PH_4__ ダイアログの __TRILIUM_PH_5__General__TRILIUM_PH_6__ にも一覧表示されます。その __TRILIUM_PH_7__Included notes__TRILIUM_PH_8__セクションでは、アーカイブされたノートを表示するかどうかと __TRILIUM_PH_9__Maximum nesting depth__TRILIUM_PH_10__ （下記参照）を設定し、その __TRILIUM_PH_11__Background__TRILIUM_PH_12__ セクションには、マップスタイル、 __TRILIUM_PH_13__Type__TRILIUM_PH_14__ が __TRILIUM_PH_15__Custom tileset__TRILIUM_PH_16__ に設定されている場合のカスタムタイルセットのURL（上記参照）が保持されます。あるいは、 __TRILIUM_PH_17__Type__TRILIUM_PH_18__ を __TRILIUM_PH_19__Custom image__TRILIUM_PH_20__ に設定している場合は、 __TRILIUM_PH_21__Image maps__TRILIUM_PH_22__で説明されているように、代わりに独自のエーカー（画像）の上にマップを描画します。 __TRILIUM_PH_23____TRILIUM_PH_24__"
+        },
+        "modelVersion": "gemini-3.5-flash-lite",
+        "usage": {
+          "promptTokenCount": 1445,
+          "candidatesTokenCount": 973,
+          "totalTokenCount": 2418,
+          "promptTokensDetails": [
+            {
+              "modality": "TEXT",
+              "tokenCount": 1445
+            }
+          ],
+          "serviceTier": "standard"
+        }
+      },
+      "unitErrors": {}
     },
     {
       "key": "zP3PMqaG71Ct_eadbf03abb721970",
@@ -2096,7 +3769,27 @@
           "contextHash": "e2b3c02266370b7517ec3900c4bee509b28ad4be24261e19287eac77ea9e8c25"
         }
       ],
-      "format": "text-slots-v1"
+      "format": "text-slots-v1",
+      "result": {
+        "key": "zP3PMqaG71Ct_eadbf03abb721970",
+        "translations": {
+          "u_5284da7c0fb46bfb634711de_0": "ダイアグラムなどの他のノートタイプのスライドは __TRILIUM_PH_0__クイック編集__TRILIUM_PH_1__ から __TRILIUM_PH_2__ 、__TRILIUM_PH_3__このスライドを編集__TRILIUM_PH_4__ ボタンで開きます。読み取り専用の __TRILIUM_PH_5__読み取り専用の__TRILIUM_PH_6__ プレゼンテーションをインプレースで編集することはできず、独自のノートが読み取り専用であるスライドも同様に編集できません。"
+        },
+        "modelVersion": "gemini-3.5-flash-lite",
+        "usage": {
+          "promptTokenCount": 570,
+          "candidatesTokenCount": 200,
+          "totalTokenCount": 770,
+          "promptTokensDetails": [
+            {
+              "modality": "TEXT",
+              "tokenCount": 570
+            }
+          ],
+          "serviceTier": "standard"
+        }
+      },
+      "unitErrors": {}
     },
     {
       "key": "x59R8J8KV5Bp_18c8259869e7af8d",
@@ -2111,7 +3804,27 @@
           "contextHash": "a063b1a36454eb9ad4b7a0612b5cd5f1e82d39bedc423719a5509db0186451e4"
         }
       ],
-      "format": "text-slots-v1"
+      "format": "text-slots-v1",
+      "result": {
+        "key": "x59R8J8KV5Bp_18c8259869e7af8d",
+        "translations": {
+          "u_31d36330d93d6a635331e80a_0": "この機能は、機密データをすべて削除したデータベースのコピーを作成します。具体的には、更新日時などの全体的な構造やメタデータを保持したまま、ノートのタイトル、コンテンツ、リビジョン、履歴、および一部の非システム属性を除去します。匿名化の後、データベースに対して __TRILIUM_PH_0__バキューム処理__TRILIUM_PH_1__ が行われ、ファイル内に機密データの残骸が確実に残らないようにします。匿名化されたデータベースは、 __TRILIUM_PH_2__ 内の __TRILIUM_PH_3__ディレクトリ__TRILIUM_PH_4__に保存されるため、バグ報告と一緒に安全に共有できます。"
+        },
+        "modelVersion": "gemini-3.5-flash-lite",
+        "usage": {
+          "promptTokenCount": 657,
+          "candidatesTokenCount": 233,
+          "totalTokenCount": 890,
+          "promptTokensDetails": [
+            {
+              "modality": "TEXT",
+              "tokenCount": 657
+            }
+          ],
+          "serviceTier": "standard"
+        }
+      },
+      "unitErrors": {}
     },
     {
       "key": "bnyigUA2UK7s_5034d11547b75d2a",
@@ -2134,7 +3847,28 @@
           "contextHash": "d746aaa6d8c63fbf8e4affeadf612cedd88042768c69c3d8656fe1f233882153"
         }
       ],
-      "format": "text-slots-v1"
+      "format": "text-slots-v1",
+      "result": {
+        "key": "bnyigUA2UK7s_5034d11547b75d2a",
+        "translations": {
+          "u_a3b07ebcfb58027d81df63de_0": "ファイルは __TRILIUM_PH_0__ ボタンを使ってテキストファイルとしてダウンロードできます。 __TRILIUM_PH_1__ノートメニュー__TRILIUM_PH_2__ エリア内の",
+          "u_7f87b8a7c2c87ec0226038be_0": "保持期間を変更するには、 __TRILIUM_PH_0__設定（config.ini または環境変数）__TRILIUM_PH_1__ を __TRILIUM_PH_2__ ファイル経由で変更します。"
+        },
+        "modelVersion": "gemini-3.5-flash-lite",
+        "usage": {
+          "promptTokenCount": 630,
+          "candidatesTokenCount": 209,
+          "totalTokenCount": 839,
+          "promptTokensDetails": [
+            {
+              "modality": "TEXT",
+              "tokenCount": 630
+            }
+          ],
+          "serviceTier": "standard"
+        }
+      },
+      "unitErrors": {}
     },
     {
       "key": "7NfNr5pZpVKV_7e4e01f3fb80f44c",
@@ -2149,7 +3883,27 @@
           "contextHash": "b4d40ddb5362e783d017bf39b329fa4ddef8f2f6482275a24af5238b9449b4ba"
         }
       ],
-      "format": "text-slots-v1"
+      "format": "text-slots-v1",
+      "result": {
+        "key": "7NfNr5pZpVKV_7e4e01f3fb80f44c",
+        "translations": {
+          "u_93e4d68834a10ca74eeee4c0_0": "ノートの属性（ __TRILIUM_PH_0____TRILIUM_PH_1__ ボタン（ __TRILIUM_PH_2__ステータスバー__TRILIUM_PH_3__内））で、任意の名前を指すように __TRILIUM_PH_4__ 属性を定義します。これが、設定の外観セクションに表示される名前になります。"
+        },
+        "modelVersion": "gemini-3.5-flash-lite",
+        "usage": {
+          "promptTokenCount": 561,
+          "candidatesTokenCount": 165,
+          "totalTokenCount": 726,
+          "promptTokensDetails": [
+            {
+              "modality": "TEXT",
+              "tokenCount": 561
+            }
+          ],
+          "serviceTier": "standard"
+        }
+      },
+      "unitErrors": {}
     },
     {
       "key": "WFGzWeUK6arS_3a6cc4fd2ddbaaf1",
@@ -2164,7 +3918,27 @@
           "contextHash": "77c693151c8db2f2040fa38fc52794ea75a7b681d3e1ee8b34e9ce884288683c"
         }
       ],
-      "format": "text-slots-v1"
+      "format": "text-slots-v1",
+      "result": {
+        "key": "WFGzWeUK6arS_3a6cc4fd2ddbaaf1",
+        "translations": {
+          "u_d7bfa7bc2b7a77759c96b604_0": "TriliumNext テーマには、レガシーテーマよりも多くのオーバーライド機能があります。そのため、レガシーテーマの __TRILIUM_PH_0__ ではなく、次のテーマと __TRILIUM_PH_1__ を使用することをお勧めします。"
+        },
+        "modelVersion": "gemini-3.5-flash-lite",
+        "usage": {
+          "promptTokenCount": 534,
+          "candidatesTokenCount": 132,
+          "totalTokenCount": 666,
+          "promptTokensDetails": [
+            {
+              "modality": "TEXT",
+              "tokenCount": 534
+            }
+          ],
+          "serviceTier": "standard"
+        }
+      },
+      "unitErrors": {}
     },
     {
       "key": "WN5z4M8ASACJ_d80f9785333944b1",
@@ -2187,7 +3961,28 @@
           "contextHash": "0c17fbd88ee50ff22c8495f28b697397cf3a4805fb76fb4e5611805b0543077f"
         }
       ],
-      "format": "text-slots-v1"
+      "format": "text-slots-v1",
+      "result": {
+        "key": "WN5z4M8ASACJ_d80f9785333944b1",
+        "translations": {
+          "u_1c025fbcffa5c173853e41d4_0": "または、独自のフォントを提供するテーマのために、 __TRILIUM_PH_0__カスタムリソースプロバイダー__TRILIUM_PH_1__ を使用できます。Triliumにフォントをインポートして割り当て、 __TRILIUM_PH_2__ その後CSSでフォントをインポートします。 __TRILIUM_PH_3__Triliumサーバーを __TRILIUM_PH_4__ とは異なるパスで実行している場合は、 __TRILIUM_PH_5__を使用してください。",
+          "u_9a470a4b913ef4ef381497ee_0": "__TRILIUM_PH_0__ または __TRILIUM_PH_1__ は、制限が適用されるテーマの種類であり、次によって宣言されます __TRILIUM_PH_2__。"
+        },
+        "modelVersion": "gemini-3.5-flash-lite",
+        "usage": {
+          "promptTokenCount": 665,
+          "candidatesTokenCount": 269,
+          "totalTokenCount": 934,
+          "promptTokensDetails": [
+            {
+              "modality": "TEXT",
+              "tokenCount": 665
+            }
+          ],
+          "serviceTier": "standard"
+        }
+      },
+      "unitErrors": {}
     },
     {
       "key": "AlhDUqhENtH7_f10cba01096fcb01",
@@ -2202,9 +3997,31 @@
           "contextHash": "a00350be2b926056fbbf52b1937f7091e7f00ff006807567a396f0644473630a"
         }
       ],
-      "format": "text-slots-v1"
+      "format": "text-slots-v1",
+      "result": {
+        "key": "AlhDUqhENtH7_f10cba01096fcb01",
+        "translations": {
+          "u_db00ee506ac899bdbb733c97_0": "作成する最も手っ取り早い方法は、 __TRILIUM_PH_0__子ノートを挿入__TRILIUM_PH_1__ → __TRILIUM_PH_2__コード__TRILIUM_PH_3__ → __TRILIUM_PH_4__カスタム CSS__TRILIUM_PH_5__ を __TRILIUM_PH_6__ノートツリーのコンテキストメニュー__TRILIUM_PH_7__から選択することです。"
+        },
+        "modelVersion": "gemini-3.5-flash-lite",
+        "usage": {
+          "promptTokenCount": 526,
+          "candidatesTokenCount": 181,
+          "totalTokenCount": 707,
+          "promptTokensDetails": [
+            {
+              "modality": "TEXT",
+              "tokenCount": 526
+            }
+          ],
+          "serviceTier": "standard"
+        }
+      },
+      "unitErrors": {}
     }
   ],
   "name": "batches/yfm05orxz60fe1t80oz670gs2xgx5x0u8fkd",
-  "state": "JOB_STATE_PENDING"
+  "state": "JOB_STATE_SUCCEEDED",
+  "diagnostics": [],
+  "rejectedResponses": []
 }
