@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "pageId": "rWX5eY045zbE",
   "sourceFile": "docs/User Guide/User Guide/Installation & Setup/Server Installation/1. Installing the server/Using Docker.md",
-  "sourceRevision": "63f2489c2b2779f3767bcbd74ddc83a03055f10d",
+  "sourceRevision": "f782bf56148719d1461f07015cebd6e3f273f957",
   "units": [
     {
       "id": "u_9c25e25a1d08f692f9f6fe12_0",
@@ -113,8 +113,15 @@
       "sourceHash": "edb3a397b8025ef18fecff79026ba142a404f847d5681d095c1012ae63d9610b",
       "context": "Using Docker > Prerequisites",
       "contextHash": "bcca400598bf216ad3fe6fb2ddac463f706e7de777634ebb353b7a5ab17a6130",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "TriliumのデータディレクトリとしてSMB/CIFS共有またはフォルダを使用している場合、 __TRILIUM_PH_0__SMB共有の__TRILIUM_PH_1__ マウント時に __TRILIUM_PH_2__ と __TRILIUM_PH_3__ のマウントオプションを追加する必要があります。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-16T11:52:29.295Z"
     },
     {
       "id": "u_b837cabfe8aca0a58e7edd75_0",
@@ -174,8 +181,15 @@
       "sourceHash": "a059f770a4141e9fc80c2a3981f55ec51d2e866d8db883f92d2bfa1f5f2a2299",
       "context": "Using Docker > Running with Docker Compose > Grab the latest docker-compose.yml:",
       "contextHash": "15a8b728d5d1ad3fd05e7892cece30eb16456c244c43edc8023e001117186686",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "データを別の場所に保存するには、 __TRILIUM_PH_0__ 内の __TRILIUM_PH_1__ エントリを編集し、コロンの前のホストパスを変更します（例： __TRILIUM_PH_2__）。コロンの後のパスは変更しないでください。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-16T11:52:29.295Z"
     },
     {
       "id": "u_73eba93344ce6bfd62c4e481_0",
@@ -660,8 +674,15 @@
       "sourceHash": "c6d4ac14f4e0658e165bb3f747404e83ba1b41f2f668a0c58e444686008b6e44",
       "context": "Using Docker > Reverse Proxy > Note on timezones",
       "contextHash": "3421809bd893570d46863b280a03515b63e3bcece00e384c80b6f4d8dc97f631",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "タイムゾーンに関する問題が発生しており、docker-composeを使用していない場合は、 __TRILIUM_PH_0__ ローカルタイムゾーンの __TRILIUM_PH_1__TZ識別子を指定した__TRILIUM_PH_2__ 環境変数を追加する必要がある場合があります。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-16T11:52:29.295Z"
     },
     {
       "id": "u_2b75c98cfba2620f25f79886_0",
@@ -755,8 +776,15 @@
       "sourceHash": "e45c7e575ff7e16f5d55ff64c6d073caac46f96696770a87c78001e9c555e7bf",
       "context": "Using Docker > Running as a non-root user",
       "contextHash": "154e7087c137f6942d25df100d0539e0b0afcd83afda4267e895b2b67603141a",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "Docker Composeを使用する場合は、 __TRILIUM_PH_0__ 内のサービスに __TRILIUM_PH_1__を追加します",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-16T11:52:29.295Z"
     },
     {
       "id": "u_df11c821ae1c7e882c9fcdb6_0",
@@ -952,6 +980,25 @@
       "model": "gemini-3.5-flash-lite",
       "batchJob": "batches/wazxmzaiela6jn8aqd7kybq00i98rm3g571n",
       "requestKey": "rWX5eY045zbE_3242ff563d14a9c8"
+    },
+    {
+      "at": "2026-11-16T11:52:29.295Z",
+      "model": "gemini-3.5-flash-lite",
+      "batchJob": "batches/yfm05orxz60fe1t80oz670gs2xgx5x0u8fkd",
+      "requestKey": "rWX5eY045zbE_dea81c43a800c6b0",
+      "modelVersion": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 887,
+        "candidatesTokenCount": 414,
+        "totalTokenCount": 1301,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 887
+          }
+        ],
+        "serviceTier": "standard"
+      }
     }
   ]
 }

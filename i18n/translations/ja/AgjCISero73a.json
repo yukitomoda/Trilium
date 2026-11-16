@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "pageId": "AgjCISero73a",
   "sourceFile": "docs/User Guide/User Guide/Note Types/Text/Footnotes.md",
-  "sourceRevision": "63f2489c2b2779f3767bcbd74ddc83a03055f10d",
+  "sourceRevision": "f782bf56148719d1461f07015cebd6e3f273f957",
   "units": [
     {
       "id": "u_7f02a242c1a86dadf67da3a8_0",
@@ -62,8 +62,15 @@
       "sourceHash": "96095304040a40f866aa6eeca9c3d7ed320fe30aec0d3d6fc0b9654514462e12",
       "context": "Footnotes > Interaction",
       "contextHash": "4add2d50b766d12b9fb1e8537dab8287b12f93989038200a3afb9ff53b11685c",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "新しい脚注を挿入するには、 __TRILIUM_PH_0__ の__TRILIUM_PH_1__挿入__TRILIUM_PH_2__ メニューを開き、 __TRILIUM_PH_3__書式設定ツールバー__TRILIUM_PH_4__ から __TRILIUM_PH_5__ を選択します（または、サブメニューで__TRILIUM_PH_6__脚注__TRILIUM_PH_7__ を選択します、または __TRILIUM_PH_8__新しい脚注__TRILIUM_PH_9__ を選択します）。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-16T11:52:29.295Z"
     },
     {
       "id": "u_1ee7bb9a10ab04d77d3d23e1_0",
@@ -163,6 +170,25 @@
       "model": "gemini-3.5-flash-lite",
       "batchJob": "batches/wazxmzaiela6jn8aqd7kybq00i98rm3g571n",
       "requestKey": "AgjCISero73a_0bd4e96dae738ef6"
+    },
+    {
+      "at": "2026-11-16T11:52:29.295Z",
+      "model": "gemini-3.5-flash-lite",
+      "batchJob": "batches/yfm05orxz60fe1t80oz670gs2xgx5x0u8fkd",
+      "requestKey": "AgjCISero73a_b7e014f9040c7d59",
+      "modelVersion": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 547,
+        "candidatesTokenCount": 210,
+        "totalTokenCount": 757,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 547
+          }
+        ],
+        "serviceTier": "standard"
+      }
     }
   ]
 }

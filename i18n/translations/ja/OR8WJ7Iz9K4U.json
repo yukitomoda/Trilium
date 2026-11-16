@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "pageId": "OR8WJ7Iz9K4U",
   "sourceFile": "docs/User Guide/User Guide/Basic Concepts and Features/Navigation/Note Hoisting.md",
-  "sourceRevision": "63f2489c2b2779f3767bcbd74ddc83a03055f10d",
+  "sourceRevision": "f782bf56148719d1461f07015cebd6e3f273f957",
   "units": [
     {
       "id": "u_33976c33d0278c0d5e7eaf7b_0",
@@ -79,8 +79,15 @@
       "sourceHash": "a3a6c915c04a158d758120d3d94bb3b004c57c7698bfd9855818d89f9209a2d0",
       "context": "Note Hoisting > Showing all notes again",
       "contextHash": "6e4a4f8bba5a646cdba6969df9c44b6386eca46d786288fc588cdbce5df84c6d",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "ノートがホイストされている間、デスクトップインターフェイスの __TRILIUM_PH_0__すべてのノートを表示__TRILIUM_PH_1__ ボタンが __TRILIUM_PH_2__ アイコンとともに __TRILIUM_PH_3__ノートツリー__TRILIUM_PH_4__の上に表示されます。これをクリックすると、ノートのホイストが解除され、ツリー全体が再び表示されます。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-16T11:52:29.295Z"
     },
     {
       "id": "u_ae0640c654381a6179655fdc_0",
@@ -146,6 +153,25 @@
       "model": "gemini-3.5-flash-lite",
       "batchJob": "batches/wazxmzaiela6jn8aqd7kybq00i98rm3g571n",
       "requestKey": "OR8WJ7Iz9K4U_56556c2912789316"
+    },
+    {
+      "at": "2026-11-16T11:52:29.295Z",
+      "model": "gemini-3.5-flash-lite",
+      "batchJob": "batches/yfm05orxz60fe1t80oz670gs2xgx5x0u8fkd",
+      "requestKey": "OR8WJ7Iz9K4U_c9cfabe1c79ff9f3",
+      "modelVersion": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 552,
+        "candidatesTokenCount": 176,
+        "totalTokenCount": 728,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 552
+          }
+        ],
+        "serviceTier": "standard"
+      }
     }
   ]
 }

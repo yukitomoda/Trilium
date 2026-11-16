@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "pageId": "VRoP0g1uHHc2",
   "sourceFile": "docs/User Guide/User Guide/Note Types/Text/In-editor AI assistant.md",
-  "sourceRevision": "63f2489c2b2779f3767bcbd74ddc83a03055f10d",
+  "sourceRevision": "f782bf56148719d1461f07015cebd6e3f273f957",
   "units": [
     {
       "id": "u_9510483680f4ab7cc133da95_0",
@@ -113,8 +113,15 @@
       "sourceHash": "0ccddba4263bedf90b7e1666baec9d6ded6a578bbf515d9079a65f98f5c88b7a",
       "context": "In-editor AI assistant > Accessing the AI assistant",
       "contextHash": "20e460d6153fcf454f30926e4b4eae5715e7c28bd43c782b06f13f44b4365350",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "書式設定ツールバーの __TRILIUM_PH_0__ ボタンを探します。 __TRILIUM_PH_1____TRILIUM_PH_2__ボタン自体を押すと __TRILIUM_PH_3__Ask AI__TRILIUM_PH_4__ モードになります。あるいは、その隣の矢印キーを押すと、クイックコマンドやモデル選択にアクセスできます。スマートフォンでは、ボタンに矢印がありません。タップすると画面の下部に同じメニューが開き、一番上に __TRILIUM_PH_5__Ask AI...__TRILIUM_PH_6__ が表示され、 __TRILIUM_PH_7__Translate__TRILIUM_PH_8__ などのグループが独自のページとして開きます。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-16T11:52:29.295Z"
     },
     {
       "id": "u_dd668db6ce347e7950240fc2_0",
@@ -123,8 +130,15 @@
       "sourceHash": "dd668db6ce347e7950240fc293f9e6e3d0300a5ff3676735053dfb0be36cbb46",
       "context": "In-editor AI assistant > Accessing the AI assistant",
       "contextHash": "20e460d6153fcf454f30926e4b4eae5715e7c28bd43c782b06f13f44b4365350",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "スラッシュコマンドで、 __TRILIUM_PH_0__AIアシスタント__TRILIUM_PH_1__ または __TRILIUM_PH_2__AI__TRILIUM_PH_3__接頭辞が付いたクイックコマンドを探します。 __TRILIUM_PH_4____TRILIUM_PH_5__",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-16T11:52:29.295Z"
     },
     {
       "id": "u_ea94b88525f6c13dfe9d8bf9_0",
@@ -150,8 +164,15 @@
       "sourceHash": "b68d3b7c366cce83919a463c4a50a321376317e55f758e0c9ba0d86ebe955ea1",
       "context": "In-editor AI assistant > Accessing the AI assistant",
       "contextHash": "20e460d6153fcf454f30926e4b4eae5715e7c28bd43c782b06f13f44b4365350",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "テキストを選択し、 __TRILIUM_PH_0__ノートコンテキストメニュー__TRILIUM_PH_1__ で __TRILIUM_PH_2__AIアシスタント__TRILIUM_PH_3__オプションを選択します。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-16T11:52:29.295Z"
     },
     {
       "id": "u_8530c253cc62339a11a51dfe_0",
@@ -833,6 +854,25 @@
       "model": "gemini-3.5-flash-lite",
       "batchJob": "batches/wazxmzaiela6jn8aqd7kybq00i98rm3g571n",
       "requestKey": "VRoP0g1uHHc2_c2a73762033a5445"
+    },
+    {
+      "at": "2026-11-16T11:52:29.295Z",
+      "model": "gemini-3.5-flash-lite",
+      "batchJob": "batches/yfm05orxz60fe1t80oz670gs2xgx5x0u8fkd",
+      "requestKey": "VRoP0g1uHHc2_abaf3e523241b53e",
+      "modelVersion": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 880,
+        "candidatesTokenCount": 435,
+        "totalTokenCount": 1315,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 880
+          }
+        ],
+        "serviceTier": "standard"
+      }
     }
   ]
 }

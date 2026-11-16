@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "pageId": "6f9hih2hXXZk",
   "sourceFile": "docs/User Guide/User Guide/Note Types/Code.md",
-  "sourceRevision": "63f2489c2b2779f3767bcbd74ddc83a03055f10d",
+  "sourceRevision": "f782bf56148719d1461f07015cebd6e3f273f957",
   "units": [
     {
       "id": "u_ee250a4bbcba1f9fc404228a_0",
@@ -232,8 +232,15 @@
       "sourceHash": "3e941d1c3575b1e5dc33de0502d6ada1e6e017846ed23fe9f1c2bc09fe231d3b",
       "context": "Code > Adjusting the language of a code note",
       "contextHash": "d513cb54804c743a426daed01b0830dd50dbea1004a2dd54b18135e13a646f83",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "コードノートの言語を変更するには、 __TRILIUM_PH_0__ アイコンを __TRILIUM_PH_1__ステータスバー__TRILIUM_PH_2__で探してください。クリックすると、利用可能な言語のリストが表示されます（以下のセクションに従ってカスタマイズできます）。このメニューには、素早く絞り込むための検索バーと、一部のプログラミング言語を視覚的に区別するためのアイコンも備わっています。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-16T11:52:29.295Z"
     },
     {
       "id": "u_ecc4c04414aacc45981d750c_0",
@@ -429,8 +436,15 @@
       "sourceHash": "36c42696e8df1294f7ec7e70a64aafe53292f7bc410a8ff5b2b2baff68a47628",
       "context": "Code > Adjusting the list of languages",
       "contextHash": "1413c6c6a9bf65b86bf3c7ea8abcd610ba66efc9237db4c6faaf851421d6f66e",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "言語のリストは、 __TRILIUM_PH_0__テキスト__TRILIUM_PH_1__ ノートの __TRILIUM_PH_2__コードブロック__TRILIUM_PH_3__ 機能とも共有されます。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-16T11:52:29.295Z"
     },
     {
       "id": "u_814840bd626aac0696270ceb_0",
@@ -592,8 +606,15 @@
       "sourceHash": "bfe727450ef58c444be3bbd1d620516ed4cf05c5466b9bbfeb99f9805d8fdc8a",
       "context": "Code > Line numbers",
       "contextHash": "6223a7de6148abe5d4520b31bd3770f94a72c395bf9b47b2adbb15c13e2fec1f",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "含まれているコードノートや埋め込みコードファイルは、「 __TRILIUM_PH_0__行番号__TRILIUM_PH_1__ 」サブメニュー（「 __TRILIUM_PH_2__詳細な操作__TRILIUM_PH_3__ 」メニュー内、 __TRILIUM_PH_4__ノートの包含__TRILIUM_PH_5__を参照）を通じて、個別に行番号を表示または非表示にできます。その「 __TRILIUM_PH_6__自動__TRILIUM_PH_7__ 」項目はこの設定に従います。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-16T11:52:29.295Z"
     },
     {
       "id": "u_e85931f4bb8dab34efebaa7a_0",
@@ -1298,6 +1319,25 @@
       "model": "gemini-3.5-flash-lite",
       "batchJob": "batches/8vehrrvdpag09tp4gjf9dbgj006t9k2gkkyl",
       "requestKey": "6f9hih2hXXZk_81ee402955db7ec0"
+    },
+    {
+      "at": "2026-11-16T11:52:29.295Z",
+      "model": "gemini-3.5-flash-lite",
+      "batchJob": "batches/yfm05orxz60fe1t80oz670gs2xgx5x0u8fkd",
+      "requestKey": "6f9hih2hXXZk_71de81d30c9ca6ea",
+      "modelVersion": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 857,
+        "candidatesTokenCount": 428,
+        "totalTokenCount": 1285,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 857
+          }
+        ],
+        "serviceTier": "standard"
+      }
     }
   ]
 }

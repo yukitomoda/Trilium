@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "pageId": "s1aBHPd79XYj",
   "sourceFile": "docs/User Guide/User Guide/Note Types/Mermaid Diagrams.md",
-  "sourceRevision": "63f2489c2b2779f3767bcbd74ddc83a03055f10d",
+  "sourceRevision": "f782bf56148719d1461f07015cebd6e3f273f957",
   "units": [
     {
       "id": "u_38eb72d397d165749e1599fa_0",
@@ -215,8 +215,15 @@
       "sourceHash": "e3e5ff123bc0192dff3c5e10a148e55d81ae0ae1d37c2e7bdd31ac9e46d9be61",
       "context": "Mermaid Diagrams > Layouts",
       "contextHash": "bea5696c84d689d7d05d0a3e51180fbb03d718570a33852236db59876f9c7b84",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "2つのレイアウトの間はいつでも切り替えることができます。切り替えるには __TRILIUM_PH_0__ アイコンを __TRILIUM_PH_1__ノートボタン__TRILIUM_PH_2__の中で押します。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-16T11:52:29.295Z"
     },
     {
       "id": "u_27591f4e86746d469eb2d832_0",
@@ -684,8 +691,15 @@
       "sourceHash": "b50e2f96795af1f34b20287531c1b36ddf8b6d695aef06afb0374255603aed73",
       "context": "Mermaid Diagrams > Diagrams in a text note",
       "contextHash": "d4be8b16d61fdb09fbd52a80f0b028807ff673504053d8b2c3e0a78e083643ec",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "図を専用のノートではなく __TRILIUM_PH_0__テキスト__TRILIUM_PH_1__ ノート内に表示するには、 __TRILIUM_PH_2__ __TRILIUM_PH_3__Mermaid diagram__TRILIUM_PH_4__ ボタンを __TRILIUM_PH_5__ __TRILIUM_PH_6__Insert__TRILIUM_PH_7__ メニューから選んで挿入します。Mermaidノートと同様の表示、ズーム、エラー表示機能を持ち、そのソースはテキストノート内にコードブロックとして保持されます。詳細は __TRILIUM_PH_8__Mermaid diagram__TRILIUM_PH_9__ （ __TRILIUM_PH_10__Insert buttons__TRILIUM_PH_11__内）を参照してください。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-16T11:52:29.295Z"
     },
     {
       "id": "u_b190d47815633246b0ab18a6_0",
@@ -736,6 +750,25 @@
       "model": "gemini-3.5-flash-lite",
       "batchJob": "batches/8vehrrvdpag09tp4gjf9dbgj006t9k2gkkyl",
       "requestKey": "s1aBHPd79XYj_3f022f0a7d1223cb"
+    },
+    {
+      "at": "2026-11-16T11:52:29.295Z",
+      "model": "gemini-3.5-flash-lite",
+      "batchJob": "batches/yfm05orxz60fe1t80oz670gs2xgx5x0u8fkd",
+      "requestKey": "s1aBHPd79XYj_d0d512affa4613fa",
+      "modelVersion": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 747,
+        "candidatesTokenCount": 340,
+        "totalTokenCount": 1087,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 747
+          }
+        ],
+        "serviceTier": "standard"
+      }
     }
   ]
 }

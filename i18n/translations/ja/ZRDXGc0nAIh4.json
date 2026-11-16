@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "pageId": "ZRDXGc0nAIh4",
   "sourceFile": "docs/User Guide/User Guide/Collections/Geo Map/Image maps.md",
-  "sourceRevision": "63f2489c2b2779f3767bcbd74ddc83a03055f10d",
+  "sourceRevision": "f782bf56148719d1461f07015cebd6e3f273f957",
   "units": [
     {
       "id": "u_2791ba091758a67e28da2f73_0",
@@ -96,8 +96,15 @@
       "sourceHash": "7bbbd1685e4b845b468f45dcf1f93a927b7d621acfc26c2bf5f06eecae0ade8b",
       "context": "Image maps > Creating an image map",
       "contextHash": "6ff1b880d1a434d82b60668fc268dd9811a7bd00a5aea2bf25849f7da687fd09",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "ノートメニューまたは __TRILIUM_PH_0____TRILIUM_PH_1__地理マップのプロパティ__TRILIUM_PH_2__ ダイアログを開くか、コレクションプロパティの設定メニューから開きます。 __TRILIUM_PH_3____TRILIUM_PH_4__  __TRILIUM_PH_5____TRILIUM_PH_6__",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-16T11:52:29.295Z"
     },
     {
       "id": "u_b51eca451d5ee95707cdd22c_0",
@@ -208,8 +215,15 @@
       "sourceHash": "9938f7b08dae1c82067b02db3e53fb1c77f744aca190d62a8ad990565325ccc1",
       "context": "Image maps > Image size",
       "contextHash": "926eaed6a95beddefe7d8c5120ba3e439667e52428bc01118c87339b236aa7f3",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "「画像を圧縮」のチェックを外した状態で __TRILIUM_PH_0__インポート__TRILIUM_PH_1__ ダイアログから __TRILIUM_PH_2__画像を圧縮__TRILIUM_PH_3__ アップロードします。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-16T11:52:29.295Z"
     },
     {
       "id": "u_bd42fae5e10340efde93c970_0",
@@ -405,8 +419,15 @@
       "sourceHash": "4c530fb310ab0692e4efc802d5904ccdd82528acd354cce568c51fb1c0c999e0",
       "context": "Image maps > Interaction",
       "contextHash": "b6008cd9e8ded296d1d62093e69340fd0dc14c0ef1de1ce6c7c15ffdd5426598",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "マーカータイトルの見た目は画像に追随します。画像が暗い場合は、地理マップのプロパティダイアログの「背景」にある __TRILIUM_PH_0__暗い画像__TRILIUM_PH_1__ を __TRILIUM_PH_2__背景__TRILIUM_PH_3__ の __TRILIUM_PH_4____TRILIUM_PH_5__ で有効にすると、タイトルが明るい色で描画されるようになります。これにより __TRILIUM_PH_6__ ラベルが設定されます。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-16T11:52:29.295Z"
     },
     {
       "id": "u_f334cff7da9c307dc0289f54_0",
@@ -466,8 +487,15 @@
       "sourceHash": "2aca5bc83ac2a8bd6413b6bb7c1be56848289d56b144a73bcdf50b191552b562",
       "context": "Image maps > Choosing the coordinate system",
       "contextHash": "314ff47ca1e102c8b077f2355d7c56cfdb49cc9a8dc1055f748bab850e6158b0",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "代わりに独自の座標を使用するには、 __TRILIUM_PH_0__地理マップのプロパティ__TRILIUM_PH_1__ ダイアログを開き、 __TRILIUM_PH_2__座標__TRILIUM_PH_3__  __TRILIUM_PH_4__背景__TRILIUM_PH_5__ を __TRILIUM_PH_6__カスタム__TRILIUM_PH_7__に設定し、画像の __TRILIUM_PH_8__左上の角__TRILIUM_PH_9__ と __TRILIUM_PH_10__右下の角__TRILIUM_PH_11__の座標を入力します。 __TRILIUM_PH_12__カスタム__TRILIUM_PH_13__ に切り替えると画像のピクセルサイズから開始されるため、角が変更されるまでマーカーは元の位置に留まります。そのため、 __TRILIUM_PH_14__カスタム__TRILIUM_PH_15__ は画像の読み込みが完了した後にのみ選択できます。その後、コンテキストメニューやポップアップビューに表示されるものも含め、すべての位置情報の読み書きがそれらの座標で行われます。ピクセルに戻すには、 __TRILIUM_PH_16__座標__TRILIUM_PH_17__ を __TRILIUM_PH_18__画像ピクセル__TRILIUM_PH_19__に設定します。親ノートやテンプレートから地理マップが継承している角は、それを保持しているノート上でしか削除できません。このマップで他の角を入力すると、それらが上書きされます。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-16T11:52:29.295Z"
     },
     {
       "id": "u_f863747cbd444be8e96e1d46_0",
@@ -790,6 +818,25 @@
       "model": "gemini-3.5-flash-lite",
       "batchJob": "batches/8vehrrvdpag09tp4gjf9dbgj006t9k2gkkyl",
       "requestKey": "ZRDXGc0nAIh4_d5f0d78c6cd95e72"
+    },
+    {
+      "at": "2026-11-16T11:52:29.295Z",
+      "model": "gemini-3.5-flash-lite",
+      "batchJob": "batches/yfm05orxz60fe1t80oz670gs2xgx5x0u8fkd",
+      "requestKey": "ZRDXGc0nAIh4_eeff5f42573dc31e",
+      "modelVersion": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 1222,
+        "candidatesTokenCount": 791,
+        "totalTokenCount": 2013,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 1222
+          }
+        ],
+        "serviceTier": "standard"
+      }
     }
   ]
 }

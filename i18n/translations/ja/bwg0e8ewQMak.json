@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "pageId": "bwg0e8ewQMak",
   "sourceFile": "docs/User Guide/User Guide/Basic Concepts and Features/Notes/Protected Notes.md",
-  "sourceRevision": "63f2489c2b2779f3767bcbd74ddc83a03055f10d",
+  "sourceRevision": "f782bf56148719d1461f07015cebd6e3f273f957",
   "units": [
     {
       "id": "u_3fea256c3a37fbe1a613c607_0",
@@ -453,8 +453,15 @@
       "sourceHash": "94c9ddc55ccae5c09aa53d82160889279368b48ab832dfc36c3043ccf39af041",
       "context": "Protected Notes > Encryption Details",
       "contextHash": "1e81386b5296d18ff106698772c0e2bf5a6643404f93b4c2a1fa8325873a925f",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "データ暗号化キーは、 __TRILIUM_PH_0__AES-128__TRILIUM_PH_1__ をランダムな __TRILIUM_PH_2__IV__TRILIUM_PH_3__とともに使用して暗号化されます。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-16T11:52:29.295Z"
     },
     {
       "id": "u_3be84bcdf20db81e572f00c2_0",
@@ -630,6 +637,25 @@
           {
             "modality": "TEXT",
             "tokenCount": 505
+          }
+        ],
+        "serviceTier": "standard"
+      }
+    },
+    {
+      "at": "2026-11-16T11:52:29.295Z",
+      "model": "gemini-3.5-flash-lite",
+      "batchJob": "batches/yfm05orxz60fe1t80oz670gs2xgx5x0u8fkd",
+      "requestKey": "bwg0e8ewQMak_36c04ce52f607fbb",
+      "modelVersion": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 495,
+        "candidatesTokenCount": 139,
+        "totalTokenCount": 634,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 495
           }
         ],
         "serviceTier": "standard"

@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "pageId": "3IDVtesTQ8ds",
   "sourceFile": "docs/User Guide/User Guide/Note Types/Text/Links/External links.md",
-  "sourceRevision": "63f2489c2b2779f3767bcbd74ddc83a03055f10d",
+  "sourceRevision": "f782bf56148719d1461f07015cebd6e3f273f957",
   "units": [
     {
       "id": "u_67d711c9d631cbcc8be6a5e9_0",
@@ -249,8 +249,15 @@
       "sourceHash": "fa524990c878160b05f30a871d15203de745c1e0bef8c08da10cf36662d2bedc",
       "context": "External links",
       "contextHash": "2cedb069633746f45f07d748666e17efa964159469f9e2c993d67c632f661d2a",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "上記と同様に（書式設定ツールバーまたは __TRILIUM_PH_0__リンクを追加__TRILIUM_PH_1__ ダイアログを開きます。または __TRILIUM_PH_2____TRILIUM_PH_3____TRILIUM_PH_4____TRILIUM_PH_5__）選択したテキストがリンクのテキストになるため、ダイアログには __TRILIUM_PH_6__表示名__TRILIUM_PH_7__の項目はありません。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-16T11:52:29.295Z"
     },
     {
       "id": "u_92697742935023b6d5e9cdd1_0",
@@ -344,8 +351,15 @@
       "sourceHash": "e8046e51935339639168e067711dc061d267bbd734f11cb59dac6cdb0e091ba2",
       "context": "External links",
       "contextHash": "2cedb069633746f45f07d748666e17efa964159469f9e2c993d67c632f661d2a",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "同じメニューには、 __TRILIUM_PH_0__リンクを開く__TRILIUM_PH_1__、 __TRILIUM_PH_2__リンクを編集__TRILIUM_PH_3__ 、 __TRILIUM_PH_4__アドレス（URL）をコピー__TRILIUM_PH_5__、およびポップアップの __TRILIUM_PH_6__表示名__TRILIUM_PH_7__があり、リンクを __TRILIUM_PH_8__リンクプレビュー__TRILIUM_PH_9__のいずれかに変換します（ポップアップの __TRILIUM_PH_10__表示__TRILIUM_PH_11__ メニューと同様です）。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-16T11:52:29.295Z"
     },
     {
       "id": "u_eccf82884640cca74b41caeb_0",
@@ -371,8 +385,15 @@
       "sourceHash": "8dea6f59aaf75a6382f6def2fee036fc5f806a9569fe16592b402e55a89a2ee0",
       "context": "External links",
       "contextHash": "2cedb069633746f45f07d748666e17efa964159469f9e2c993d67c632f661d2a",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "編集中のノート内の外部リンクを開くには、 __TRILIUM_PH_0____TRILIUM_PH_1__＋クリックまたはダブルクリックすると新しいタブまたはウィンドウで開きます。また、カーソルを置いて __TRILIUM_PH_2____TRILIUM_PH_3____TRILIUM_PH_4____TRILIUM_PH_5__を押すか、右クリックして __TRILIUM_PH_6__リンクを開く__TRILIUM_PH_7__を選択します。タッチデバイスでは、リンクを長押しして __TRILIUM_PH_8__リンクを開く__TRILIUM_PH_9__を選択します。 __TRILIUM_PH_10__インクルードされたノート__TRILIUM_PH_11__ 内の __TRILIUM_PH_12__編集可能__TRILIUM_PH_13__ ではないリンクは、読み取り専用ノートと同様に、クリックすると開きます。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-16T11:52:29.295Z"
     }
   ],
   "requests": [
@@ -414,6 +435,25 @@
           {
             "modality": "TEXT",
             "tokenCount": 1224
+          }
+        ],
+        "serviceTier": "standard"
+      }
+    },
+    {
+      "at": "2026-11-16T11:52:29.295Z",
+      "model": "gemini-3.5-flash-lite",
+      "batchJob": "batches/yfm05orxz60fe1t80oz670gs2xgx5x0u8fkd",
+      "requestKey": "3IDVtesTQ8ds_17a31c8358578d9c",
+      "modelVersion": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 1027,
+        "candidatesTokenCount": 620,
+        "totalTokenCount": 1647,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 1027
           }
         ],
         "serviceTier": "standard"

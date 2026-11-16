@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "pageId": "WN5z4M8ASACJ",
   "sourceFile": "docs/User Guide/User Guide/Theme development/Reference.md",
-  "sourceRevision": "63f2489c2b2779f3767bcbd74ddc83a03055f10d",
+  "sourceRevision": "f782bf56148719d1461f07015cebd6e3f273f957",
   "units": [
     {
       "id": "u_724e4c7e1c49891fc3219014_0",
@@ -606,8 +606,15 @@
       "sourceHash": "1c025fbcffa5c173853e41d4448f46172265d158237556920b9f40133303751d",
       "context": "Reference > Custom fonts",
       "contextHash": "c63cd6869c23c53899c6691fe90f78782e4712ae5acbe2497f0aff11cb3d7b8c",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "または、独自のフォントを提供するテーマのために、 __TRILIUM_PH_0__カスタムリソースプロバイダー__TRILIUM_PH_1__ を使用できます。Triliumにフォントをインポートして割り当て、 __TRILIUM_PH_2__ その後CSSでフォントをインポートします。 __TRILIUM_PH_3__Triliumサーバーを __TRILIUM_PH_4__ とは異なるパスで実行している場合は、 __TRILIUM_PH_5__を使用してください。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-16T11:52:29.295Z"
     },
     {
       "id": "u_53772086d446b6daa3dc833a_0",
@@ -769,8 +776,15 @@
       "sourceHash": "9a470a4b913ef4ef381497ee89bd9057c8b18bcd75432dbd5b05870e1fe9dec2",
       "context": "Reference > Adaptive text and table colors",
       "contextHash": "0c17fbd88ee50ff22c8495f28b697397cf3a4805fb76fb4e5611805b0543077f",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "__TRILIUM_PH_0__ または __TRILIUM_PH_1__ は、制限が適用されるテーマの種類であり、次によって宣言されます __TRILIUM_PH_2__。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-16T11:52:29.295Z"
     },
     {
       "id": "u_b0f4ceaeadabd05b7defdf07_0",
@@ -1076,6 +1090,25 @@
           {
             "modality": "TEXT",
             "tokenCount": 641
+          }
+        ],
+        "serviceTier": "standard"
+      }
+    },
+    {
+      "at": "2026-11-16T11:52:29.295Z",
+      "model": "gemini-3.5-flash-lite",
+      "batchJob": "batches/yfm05orxz60fe1t80oz670gs2xgx5x0u8fkd",
+      "requestKey": "WN5z4M8ASACJ_d80f9785333944b1",
+      "modelVersion": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 665,
+        "candidatesTokenCount": 269,
+        "totalTokenCount": 934,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 665
           }
         ],
         "serviceTier": "standard"

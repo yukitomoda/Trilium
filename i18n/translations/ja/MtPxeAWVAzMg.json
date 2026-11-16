@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "pageId": "MtPxeAWVAzMg",
   "sourceFile": "docs/User Guide/User Guide/Installation & Setup/Web Clipper.md",
-  "sourceRevision": "63f2489c2b2779f3767bcbd74ddc83a03055f10d",
+  "sourceRevision": "f782bf56148719d1461f07015cebd6e3f273f957",
   "units": [
     {
       "id": "u_bf28095afc9f16e32b63fa8d_0",
@@ -1184,8 +1184,15 @@
       "sourceHash": "a90697760c11358d19ee942f3f84cb7b2eae002a4d00c7a661b70c7910215c7d",
       "context": "Web Clipper > Configuration > When a clipping fails",
       "contextHash": "52459f3163805b643e0d9b62bca8656e92db3252e171dda4534ba65865ba2954",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "拡張機能自体がクリッピングの画像をダウンロードし、ノートと一緒にTrilium内に保存します。（Webサイトがリクエストを拒否するなどして）一部の画像をダウンロードできない場合でもクリッピングは保存され、見つからない画像の数が通知されます。これらの画像は元のWebサイト上のアドレスを保持します。「オプション」→「メディア」で __TRILIUM_PH_0__画像を自動的にダウンロードする__TRILIUM_PH_1__ が有効になっている場合、Triliumはもう一度ダウンロードを試みます。有効になっていない場合、Webサイトが画像を提供し続ける限り、ノートはそれらの画像をWebサイトから表示します。 __TRILIUM_PH_2__オプション__TRILIUM_PH_3__ → __TRILIUM_PH_4__メディア__TRILIUM_PH_5__",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-16T11:52:29.295Z"
     },
     {
       "id": "u_4cb21e34f76d203fa3676d53_0",
@@ -1245,8 +1252,15 @@
       "sourceHash": "4a6e29293c777e86fee15a671f99007327b38572eaf7be4be077540f6ed14ffd",
       "context": "Web Clipper > Testing development versions",
       "contextHash": "553dfc9fb89f1f1d910581683ef45ecf88c6ebdc439a3c101527ac0d68e83611",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "__TRILIUM_PH_0__GitHub Releases__TRILIUM_PH_1__ で __TRILIUM_PH_2__Web Clipper__TRILIUM_PH_3__で始まるリリースを探してください。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-16T11:52:29.295Z"
     },
     {
       "id": "u_a1deeed35e7f8940722c5870_0",
@@ -1476,8 +1490,15 @@
       "sourceHash": "1f226dcc3bf8b772107ca58e372be80c278e78ba504611d1b76264a42acecb1e",
       "context": "Web Clipper > Testing development versions",
       "contextHash": "553dfc9fb89f1f1d910581683ef45ecf88c6ebdc439a3c101527ac0d68e83611",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "「 __TRILIUM_PH_0__歯車__TRILIUM_PH_1__ 」アイコンを押してください。このアイコンは「 __TRILIUM_PH_2__拡張機能の管理__TRILIUM_PH_3__ 」タイトルの右側にあります。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-16T11:52:29.295Z"
     },
     {
       "id": "u_37a7993cb0078bd1ffc8b96e_0",
@@ -1700,6 +1721,25 @@
       "model": "gemini-3.5-flash-lite",
       "batchJob": "batches/wazxmzaiela6jn8aqd7kybq00i98rm3g571n",
       "requestKey": "MtPxeAWVAzMg_f98014e9a16a34eb"
+    },
+    {
+      "at": "2026-11-16T11:52:29.295Z",
+      "model": "gemini-3.5-flash-lite",
+      "batchJob": "batches/yfm05orxz60fe1t80oz670gs2xgx5x0u8fkd",
+      "requestKey": "MtPxeAWVAzMg_7212a41ce632bd60",
+      "modelVersion": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 860,
+        "candidatesTokenCount": 430,
+        "totalTokenCount": 1290,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 860
+          }
+        ],
+        "serviceTier": "standard"
+      }
     }
   ]
 }

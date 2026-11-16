@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "pageId": "zP3PMqaG71Ct",
   "sourceFile": "docs/User Guide/User Guide/Collections/Presentation.md",
-  "sourceRevision": "63f2489c2b2779f3767bcbd74ddc83a03055f10d",
+  "sourceRevision": "f782bf56148719d1461f07015cebd6e3f273f957",
   "units": [
     {
       "id": "u_57e08f45689b6bdcde47ec84_0",
@@ -1218,8 +1218,15 @@
       "sourceHash": "5284da7c0fb46bfb634711de45bec79d8f99e17a41fda564a29997801eae27ed",
       "context": "Presentation > Editing a slide in place",
       "contextHash": "e2b3c02266370b7517ec3900c4bee509b28ad4be24261e19287eac77ea9e8c25",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "ダイアグラムなどの他のノートタイプのスライドは __TRILIUM_PH_0__クイック編集__TRILIUM_PH_1__ から __TRILIUM_PH_2__ 、__TRILIUM_PH_3__このスライドを編集__TRILIUM_PH_4__ ボタンで開きます。読み取り専用の __TRILIUM_PH_5__読み取り専用の__TRILIUM_PH_6__ プレゼンテーションをインプレースで編集することはできず、独自のノートが読み取り専用であるスライドも同様に編集できません。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-16T11:52:29.295Z"
     },
     {
       "id": "u_443716a8491c4e11b9fc5d44_0",
@@ -1930,6 +1937,25 @@
           {
             "modality": "TEXT",
             "tokenCount": 954
+          }
+        ],
+        "serviceTier": "standard"
+      }
+    },
+    {
+      "at": "2026-11-16T11:52:29.295Z",
+      "model": "gemini-3.5-flash-lite",
+      "batchJob": "batches/yfm05orxz60fe1t80oz670gs2xgx5x0u8fkd",
+      "requestKey": "zP3PMqaG71Ct_eadbf03abb721970",
+      "modelVersion": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 570,
+        "candidatesTokenCount": 200,
+        "totalTokenCount": 770,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 570
           }
         ],
         "serviceTier": "standard"

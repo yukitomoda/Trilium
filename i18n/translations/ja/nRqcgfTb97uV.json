@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "pageId": "nRqcgfTb97uV",
   "sourceFile": "docs/User Guide/User Guide/Installation & Setup/Desktop Installation/Using the desktop application as a server.md",
-  "sourceRevision": "63f2489c2b2779f3767bcbd74ddc83a03055f10d",
+  "sourceRevision": "f782bf56148719d1461f07015cebd6e3f273f957",
   "units": [
     {
       "id": "u_0ec4982d1aa404cf633bf9d3_0",
@@ -45,8 +45,15 @@
       "sourceHash": "970ed7996d9d73fbe7f0666f6482a2c9219a4a1415c7776a7ddee0b0b1eb95b9",
       "context": "Using the desktop application as a server",
       "contextHash": "c1e2ae4047b69b5e0f493740e2ade94867f348d6b2bbb2a50c8cbdcf59367fde",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "セキュリティ上の理由から、この機能は初期状態では __TRILIUM_PH_0__有効になっていません__TRILIUM_PH_1__ 。有効にするには、設定の __TRILIUM_PH_2__ネットワークアクセス__TRILIUM_PH_3__ を __TRILIUM_PH_4__セキュリティ__TRILIUM_PH_5__で有効にしてください。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-16T11:52:29.295Z"
     },
     {
       "id": "u_0544c57d39f976d74960a0c2_0",
@@ -358,6 +365,25 @@
       "model": "gemini-3.5-flash-lite",
       "batchJob": "batches/wazxmzaiela6jn8aqd7kybq00i98rm3g571n",
       "requestKey": "nRqcgfTb97uV_5908fc7b05ca8cd9"
+    },
+    {
+      "at": "2026-11-16T11:52:29.295Z",
+      "model": "gemini-3.5-flash-lite",
+      "batchJob": "batches/yfm05orxz60fe1t80oz670gs2xgx5x0u8fkd",
+      "requestKey": "nRqcgfTb97uV_62e882fcbd1982cf",
+      "modelVersion": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 521,
+        "candidatesTokenCount": 117,
+        "totalTokenCount": 638,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 521
+          }
+        ],
+        "serviceTier": "standard"
+      }
     }
   ]
 }

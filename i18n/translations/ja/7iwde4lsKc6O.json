@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "pageId": "7iwde4lsKc6O",
   "sourceFile": "docs/User Guide/User Guide/Installation & Setup/Desktop Installation/Tray icon & automatic startup.md",
-  "sourceRevision": "63f2489c2b2779f3767bcbd74ddc83a03055f10d",
+  "sourceRevision": "f782bf56148719d1461f07015cebd6e3f273f957",
   "units": [
     {
       "id": "u_1dd39d3a6ae1daa6e18c040c_0",
@@ -521,8 +521,15 @@
       "sourceHash": "9fde006f67464642484495a3a16a3ba3fde72d3dc96f22c949f042841b4c18aa",
       "context": "Tray icon & automatic startup > Automatic startup > Linux: custom launch command for packagers",
       "contextHash": "49d5cd9cac34bb4fa95c61ed40db6231dc9079eaaa87d2ea933147a36820d6c5",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "Linuxでは、 __TRILIUM_PH_0__起動時に起動__TRILIUM_PH_1__ 機能によって、ユーザーの自動起動ディレクトリ（ __TRILIUM_PH_2__ ）に__TRILIUM_PH_3__エントリ（通常は __TRILIUM_PH_4__）が作成されます。その __TRILIUM_PH_5__ 行は、AppImageから実行されている場合はAppImageを指し、それ以外の場合は実行中の実行ファイルを指します。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-16T11:52:29.295Z"
     },
     {
       "id": "u_59a4dd8f3803872734f2f02b_0",
@@ -632,6 +639,25 @@
       "model": "gemini-3.5-flash-lite",
       "batchJob": "batches/wazxmzaiela6jn8aqd7kybq00i98rm3g571n",
       "requestKey": "7iwde4lsKc6O_1601ea73eb6b0e5c"
+    },
+    {
+      "at": "2026-11-16T11:52:29.295Z",
+      "model": "gemini-3.5-flash-lite",
+      "batchJob": "batches/yfm05orxz60fe1t80oz670gs2xgx5x0u8fkd",
+      "requestKey": "7iwde4lsKc6O_cb2d14c6e933efd5",
+      "modelVersion": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 569,
+        "candidatesTokenCount": 189,
+        "totalTokenCount": 758,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 569
+          }
+        ],
+        "serviceTier": "standard"
+      }
     }
   ]
 }

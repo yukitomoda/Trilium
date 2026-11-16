@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "pageId": "wfGXLmm7x27z",
   "sourceFile": "docs/User Guide/User Guide/Note Types/Text/Links/Backlinks.md",
-  "sourceRevision": "63f2489c2b2779f3767bcbd74ddc83a03055f10d",
+  "sourceRevision": "f782bf56148719d1461f07015cebd6e3f273f957",
   "units": [
     {
       "id": "u_a1e86dff43af3cffe5237034_0",
@@ -368,8 +368,15 @@
       "sourceHash": "38e1954419dff8c314031759a5bba447a3d170d942386087f77cb6477e5e09e3",
       "context": "Backlinks > Where backlinks are shown",
       "contextHash": "c1536af87ca41c626def21ac3924f7be7b5e6225c6c1011cc27a6f2381222d77",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "右サイドバーの __TRILIUM_PH_0__Connections tab__TRILIUM_PH_1__ にある、 __TRILIUM_PH_2__Right Sidebar__TRILIUM_PH_3__専用のセクションとして表示されます。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-16T11:52:29.295Z"
     },
     {
       "id": "u_740800d43d415e2fde123350_0",
@@ -454,6 +461,25 @@
       "model": "gemini-3.5-flash-lite",
       "batchJob": "batches/wazxmzaiela6jn8aqd7kybq00i98rm3g571n",
       "requestKey": "wfGXLmm7x27z_22639867c241e3c4"
+    },
+    {
+      "at": "2026-11-16T11:52:29.295Z",
+      "model": "gemini-3.5-flash-lite",
+      "batchJob": "batches/yfm05orxz60fe1t80oz670gs2xgx5x0u8fkd",
+      "requestKey": "wfGXLmm7x27z_1246d2d417d4f87a",
+      "modelVersion": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 503,
+        "candidatesTokenCount": 138,
+        "totalTokenCount": 641,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 503
+          }
+        ],
+        "serviceTier": "standard"
+      }
     }
   ]
 }

@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "pageId": "x0JgW8UqGXvq",
   "sourceFile": "docs/User Guide/User Guide/Basic Concepts and Features/UI Elements/Vertical and horizontal layout.md",
-  "sourceRevision": "63f2489c2b2779f3767bcbd74ddc83a03055f10d",
+  "sourceRevision": "f782bf56148719d1461f07015cebd6e3f273f957",
   "units": [
     {
       "id": "u_f3422ef5ad4d6c2f61e5f6e0_0",
@@ -130,8 +130,15 @@
       "sourceHash": "f55bf9fada86e20402cb75fcd15f15f8cb91a69fbebf6605e3c47c7745216655",
       "context": "Vertical and horizontal layout > Vertical layout",
       "contextHash": "17bbaa98fefadbec8d06097b2b963842706e51535fc6881a227a80147203bd65",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": " __TRILIUM_PH_0__ノートツリー__TRILIUM_PH_1__ は、 __TRILIUM_PH_2__ の下部にあるボタンを押すことで折りたたむことができます。 __TRILIUM_PH_3__ローンチバー__TRILIUM_PH_4__折りたたまれている間は、 __TRILIUM_PH_5__ローンチバー__TRILIUM_PH_6__の右側にあるストリップを押すことで、コンテンツの上に一時的に表示して確認することができます。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-16T11:52:29.295Z"
     },
     {
       "id": "u_d6ec3fc091eaa38665c2cdbe_0",
@@ -140,8 +147,15 @@
       "sourceHash": "d6ec3fc091eaa38665c2cdbe5acd8a73c1cad91f2e1a9df568b08599b339ab3b",
       "context": "Vertical and horizontal layout > Vertical layout",
       "contextHash": "17bbaa98fefadbec8d06097b2b963842706e51535fc6881a227a80147203bd65",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": " __TRILIUM_PH_0__グローバルメニュー__TRILIUM_PH_1__ には、 __TRILIUM_PH_2__ の上部にあるアイコンからアクセスできます。 __TRILIUM_PH_3__ローンチバー__TRILIUM_PH_4__.",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-16T11:52:29.295Z"
     },
     {
       "id": "u_cd3fe6cc456108744eb4c484_0",
@@ -252,8 +266,15 @@
       "sourceHash": "0f939589747524ec3314485dd2f1602ea89f56fa92cae165f6c41def76475d3a",
       "context": "Vertical and horizontal layout > Horizontal layout",
       "contextHash": "b734b0e67c8520d31e9b8dd76307a2cf7dc3d0553e5993e685a16c6ee3d2271a",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": " __TRILIUM_PH_0__グローバルメニュー__TRILIUM_PH_1__ には、 __TRILIUM_PH_2__ の端にあるボタンからアクセスできます。 __TRILIUM_PH_3__ローンチバー__TRILIUM_PH_4__.",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-16T11:52:29.295Z"
     },
     {
       "id": "u_1d73b0be2e1075d37d86dc7b_0",
@@ -372,6 +393,25 @@
       "model": "gemini-3.5-flash-lite",
       "batchJob": "batches/wazxmzaiela6jn8aqd7kybq00i98rm3g571n",
       "requestKey": "x0JgW8UqGXvq_9e9aa9cb8cae4af6"
+    },
+    {
+      "at": "2026-11-16T11:52:29.295Z",
+      "model": "gemini-3.5-flash-lite",
+      "batchJob": "batches/yfm05orxz60fe1t80oz670gs2xgx5x0u8fkd",
+      "requestKey": "x0JgW8UqGXvq_a50159018eff3368",
+      "modelVersion": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 798,
+        "candidatesTokenCount": 378,
+        "totalTokenCount": 1176,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 798
+          }
+        ],
+        "serviceTier": "standard"
+      }
     }
   ]
 }

@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "pageId": "w4rMEhJsALlA",
   "sourceFile": "docs/User Guide/User Guide/Basic Concepts and Features/Themes/Personalizing the font.md",
-  "sourceRevision": "63f2489c2b2779f3767bcbd74ddc83a03055f10d",
+  "sourceRevision": "f782bf56148719d1461f07015cebd6e3f273f957",
   "units": [
     {
       "id": "u_05f3f89a1d6300d38cc1be7f_0",
@@ -708,8 +708,15 @@
       "sourceHash": "7fa24301a8dae5b317d0a445bacf594e5ad37ccb7947d514a734631580197104",
       "context": "Personalizing the font > Programming ligatures",
       "contextHash": "29279d67ff15acc956916d3528ac140a3422094f06c28267aeb605adea7b0a7f",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "プログラミング用リガチャーをサポートしているフォントもあり、次のような文字の組み合わせを __TRILIUM_PH_0__ に変換します。例えば、 __TRILIUM_PH_1__ や __TRILIUM_PH_2__ のように __TRILIUM_PH_3__ の __TRILIUM_PH_4__コードブロック__TRILIUM_PH_5__ および __TRILIUM_PH_6__コード__TRILIUM_PH_7__ ノート内で変換されます。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-16T11:52:29.295Z"
     },
     {
       "id": "u_b4112d2da49c43cfb296d02e_0",
@@ -806,6 +813,25 @@
           {
             "modality": "TEXT",
             "tokenCount": 755
+          }
+        ],
+        "serviceTier": "standard"
+      }
+    },
+    {
+      "at": "2026-11-16T11:52:29.295Z",
+      "model": "gemini-3.5-flash-lite",
+      "batchJob": "batches/yfm05orxz60fe1t80oz670gs2xgx5x0u8fkd",
+      "requestKey": "w4rMEhJsALlA_4cb8314f9a12fc35",
+      "modelVersion": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 547,
+        "candidatesTokenCount": 191,
+        "totalTokenCount": 738,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 547
           }
         ],
         "serviceTier": "standard"

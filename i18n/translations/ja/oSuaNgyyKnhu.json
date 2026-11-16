@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "pageId": "oSuaNgyyKnhu",
   "sourceFile": "docs/User Guide/User Guide/Note Types/Text/Anchors.md",
-  "sourceRevision": "63f2489c2b2779f3767bcbd74ddc83a03055f10d",
+  "sourceRevision": "f782bf56148719d1461f07015cebd6e3f273f957",
   "units": [
     {
       "id": "u_2041a433695e083946d73a46_0",
@@ -130,8 +130,15 @@
       "sourceHash": "e14ea6a47bebaf43f7e7859697e63745897db149bdf2fa124a23f0a4d3ac9fc5",
       "context": "Anchors > Interaction",
       "contextHash": "ce2b7364c88edacb74beb95a82da62342d4c7bc04f8c68d75a00c11168642057",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "フォーマットツールバーの __TRILIUM_PH_0__ ボタンを探し、 __TRILIUM_PH_1____TRILIUM_PH_2__次に __TRILIUM_PH_3__ ボタンを押します。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-16T11:52:29.295Z"
     },
     {
       "id": "u_b695e94d9959626deccae53a_0",
@@ -191,8 +198,15 @@
       "sourceHash": "bd7065fd8a0a4dcd04d5bc6399ef38c66f7224c8cf767e2c642824db073b79de",
       "context": "Anchors > Interaction",
       "contextHash": "ce2b7364c88edacb74beb95a82da62342d4c7bc04f8c68d75a00c11168642057",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": " __TRILIUM_PH_0____TRILIUM_PH_1____TRILIUM_PH_2____TRILIUM_PH_3__ を押すか、またはフォーマットツールバーの __TRILIUM_PH_4__  __TRILIUM_PH_5____TRILIUM_PH_6__をクリックし、「リンクの追加」ダイアログの上部にある __TRILIUM_PH_7____TRILIUM_PH_8__ を選択します。または、 __TRILIUM_PH_9____TRILIUM_PH_10____TRILIUM_PH_11__ ダイアログ__TRILIUM_PH_12__を開くには、スラッシュコマンドで __TRILIUM_PH_13____TRILIUM_PH_14__ を選択します。これにより、そのページでダイアログが開きます。 __TRILIUM_PH_15____TRILIUM_PH_16__",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-16T11:52:29.295Z"
     },
     {
       "id": "u_f9cd46863ab145b45bac5016_0",
@@ -619,6 +633,25 @@
       "model": "gemini-3.5-flash-lite",
       "batchJob": "batches/wazxmzaiela6jn8aqd7kybq00i98rm3g571n",
       "requestKey": "oSuaNgyyKnhu_4d96761a60c8f4f9"
+    },
+    {
+      "at": "2026-11-16T11:52:29.295Z",
+      "model": "gemini-3.5-flash-lite",
+      "batchJob": "batches/yfm05orxz60fe1t80oz670gs2xgx5x0u8fkd",
+      "requestKey": "oSuaNgyyKnhu_fcd1cfe4909849b0",
+      "modelVersion": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 720,
+        "candidatesTokenCount": 241,
+        "totalTokenCount": 961,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 720
+          }
+        ],
+        "serviceTier": "standard"
+      }
     }
   ]
 }

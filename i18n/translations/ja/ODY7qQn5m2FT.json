@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "pageId": "ODY7qQn5m2FT",
   "sourceFile": "docs/User Guide/User Guide/Installation & Setup/Backup.md",
-  "sourceRevision": "63f2489c2b2779f3767bcbd74ddc83a03055f10d",
+  "sourceRevision": "f782bf56148719d1461f07015cebd6e3f273f957",
   "units": [
     {
       "id": "u_491cd88f148de2a1a10f26fa_0",
@@ -113,8 +113,15 @@
       "sourceHash": "15c41da1bff6382b379b5f916d788a0b32d2ebf32c994b0a931630b922df273a",
       "context": "Backup",
       "contextHash": "838557924a5cdfb2f10f233635223e79be8443aef62f9d176cfe18787a2e8b03",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "このように、合計で最大4つの異なる時点からのバックアップが保持され、さまざまな問題から保護されます。これらのバックアップはデフォルトで __TRILIUM_PH_0__ ディレクトリに保存されます。このディレクトリは __TRILIUM_PH_1__データディレクトリ__TRILIUM_PH_2__内に配置されます。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-16T11:52:29.295Z"
     },
     {
       "id": "u_9b9dc1ab80af4aff88dd280a_0",
@@ -1260,6 +1267,25 @@
       "model": "gemini-3.5-flash-lite",
       "batchJob": "batches/wazxmzaiela6jn8aqd7kybq00i98rm3g571n",
       "requestKey": "ODY7qQn5m2FT_9e22aca7e0f8a25a"
+    },
+    {
+      "at": "2026-11-16T11:52:29.295Z",
+      "model": "gemini-3.5-flash-lite",
+      "batchJob": "batches/yfm05orxz60fe1t80oz670gs2xgx5x0u8fkd",
+      "requestKey": "ODY7qQn5m2FT_270426c502d22c38",
+      "modelVersion": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 536,
+        "candidatesTokenCount": 152,
+        "totalTokenCount": 688,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 536
+          }
+        ],
+        "serviceTier": "standard"
+      }
     }
   ]
 }

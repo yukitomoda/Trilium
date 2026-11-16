@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "pageId": "EK2ckIZ74tbT",
   "sourceFile": "docs/User Guide/User Guide/Note Types/Text/Content tabs.md",
-  "sourceRevision": "63f2489c2b2779f3767bcbd74ddc83a03055f10d",
+  "sourceRevision": "f782bf56148719d1461f07015cebd6e3f273f957",
   "units": [
     {
       "id": "u_20cbe4506c21906c307bd3c4_0",
@@ -130,8 +130,15 @@
       "sourceHash": "1c56eebea874f8e71dee983c082e7ac3dcd1783fc9134bae34529b42ac4f64bf",
       "context": "Content tabs > Inserting a tabs block",
       "contextHash": "003192350c03f8ef9d6afb3f7d0de9e132620ed78d4f0c0776221ace16fe5241",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "または、 __TRILIUM_PH_0__ と入力して __TRILIUM_PH_1__Enter__TRILIUM_PH_2__を押します（ __TRILIUM_PH_3__Slash Commands__TRILIUM_PH_4__で説明されているとおりです）。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-16T11:52:29.295Z"
     },
     {
       "id": "u_582304421f20610b33002f5a_0",
@@ -1378,6 +1385,25 @@
       "model": "gemini-3.5-flash-lite",
       "batchJob": "batches/wazxmzaiela6jn8aqd7kybq00i98rm3g571n",
       "requestKey": "EK2ckIZ74tbT_92996b7034a0da68"
+    },
+    {
+      "at": "2026-11-16T11:52:29.295Z",
+      "model": "gemini-3.5-flash-lite",
+      "batchJob": "batches/yfm05orxz60fe1t80oz670gs2xgx5x0u8fkd",
+      "requestKey": "EK2ckIZ74tbT_2922998c65af6c78",
+      "modelVersion": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 497,
+        "candidatesTokenCount": 141,
+        "totalTokenCount": 638,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 497
+          }
+        ],
+        "serviceTier": "standard"
+      }
     }
   ]
 }

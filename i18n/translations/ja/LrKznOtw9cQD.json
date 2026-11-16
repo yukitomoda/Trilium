@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "pageId": "LrKznOtw9cQD",
   "sourceFile": "docs/User Guide/User Guide/Basic Concepts and Features/UI Elements/Right Sidebar/AI chat tab.md",
-  "sourceRevision": "63f2489c2b2779f3767bcbd74ddc83a03055f10d",
+  "sourceRevision": "f782bf56148719d1461f07015cebd6e3f273f957",
   "units": [
     {
       "id": "u_db193e2204a52a257b986c24_0",
@@ -28,8 +28,15 @@
       "sourceHash": "2ef87dfc59c46165f3156c7586473ea2b4a67fa460f15c54099db4752f103beb",
       "context": "AI chat tab",
       "contextHash": "833cf2f5704ba220954fb2c444395f603124d5d4d4821821733b8c101383981f",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "AI __TRILIUM_PH_0____TRILIUM_PH_1__ 統合が有効になると、 __TRILIUM_PH_2____TRILIUM_PH_3__ エントリが __TRILIUM_PH_4__右サイドバー__TRILIUM_PH_5__に表示されます。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-16T11:52:29.295Z"
     },
     {
       "id": "u_81b049c756ccd2dd75ceda93_0",
@@ -248,6 +255,25 @@
       "model": "gemini-3.5-flash-lite",
       "batchJob": "batches/wazxmzaiela6jn8aqd7kybq00i98rm3g571n",
       "requestKey": "LrKznOtw9cQD_faa52513fbc2943e"
+    },
+    {
+      "at": "2026-11-16T11:52:29.295Z",
+      "model": "gemini-3.5-flash-lite",
+      "batchJob": "batches/yfm05orxz60fe1t80oz670gs2xgx5x0u8fkd",
+      "requestKey": "LrKznOtw9cQD_babb01ae24fb3c07",
+      "modelVersion": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 503,
+        "candidatesTokenCount": 147,
+        "totalTokenCount": 650,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 503
+          }
+        ],
+        "serviceTier": "standard"
+      }
     }
   ]
 }

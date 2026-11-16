@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "pageId": "iRwzGnHPzonm",
   "sourceFile": "docs/User Guide/User Guide/Note Types/Relation Map.md",
-  "sourceRevision": "63f2489c2b2779f3767bcbd74ddc83a03055f10d",
+  "sourceRevision": "f782bf56148719d1461f07015cebd6e3f273f957",
   "units": [
     {
       "id": "u_9b1ff078e11f1b9bcb9b20dd_0",
@@ -946,8 +946,15 @@
       "sourceHash": "606b2bb958e1a59416ed0ae529ebc895c0c1cfdec74187c6b3a750ed9cfec5ee",
       "context": "Relation Map > Family demo",
       "contextHash": "02cf1edf9f59dfd8670245d830f37516eb641886dc7154e88dfd9087fbddcfbb",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "さて、少し予期せぬことがあります。別の __TRILIUM_PH_0__ リレーションを表示するためのリレーションも確認できます。これは、 __TRILIUM_PH_1__リレーション定義__TRILIUM_PH_2__ が存在し、 __TRILIUM_PH_3__ を__TRILIUM_PH_4__逆__TRILIUM_PH_5__のリレーションとして定義しているため（逆も同様）、 __TRILIUM_PH_6__ 自動的に作成されるからです。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-16T11:52:29.295Z"
     },
     {
       "id": "u_5f5665a34febed96a8841387_0",
@@ -1238,6 +1245,25 @@
           {
             "modality": "TEXT",
             "tokenCount": 546
+          }
+        ],
+        "serviceTier": "standard"
+      }
+    },
+    {
+      "at": "2026-11-16T11:52:29.295Z",
+      "model": "gemini-3.5-flash-lite",
+      "batchJob": "batches/yfm05orxz60fe1t80oz670gs2xgx5x0u8fkd",
+      "requestKey": "iRwzGnHPzonm_7f5029631b26774a",
+      "modelVersion": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 577,
+        "candidatesTokenCount": 139,
+        "totalTokenCount": 716,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 577
           }
         ],
         "serviceTier": "standard"

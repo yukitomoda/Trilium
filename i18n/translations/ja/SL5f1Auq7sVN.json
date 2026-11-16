@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "pageId": "SL5f1Auq7sVN",
   "sourceFile": "docs/User Guide/User Guide/Basic Concepts and Features/UI Elements/Note types with split view.md",
-  "sourceRevision": "63f2489c2b2779f3767bcbd74ddc83a03055f10d",
+  "sourceRevision": "f782bf56148719d1461f07015cebd6e3f273f957",
   "units": [
     {
       "id": "u_311994ed3fa2bb57d6e6d0d1_0",
@@ -181,8 +181,15 @@
       "sourceHash": "d151c511a9083e304148df0085dcfcac0dd9756b296d90f59839b512631c6c63",
       "context": "Note types with split view > Display modes and interaction",
       "contextHash": "93f1b338210eee69922e4a51ca8340f1822692c99f0817777377273da5637eaf",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "テキストノートに含まれている Markdown ノート、またはその中に埋め込まれた Markdown ファイルには、同じ 3 つの表示モードがあり、インクルードのタイトル行とツールバーから切り替えることができます。次を参照してください: __TRILIUM_PH_0__Included Markdown__TRILIUM_PH_1__  __TRILIUM_PH_2__Include Note__TRILIUM_PH_3__。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-16T11:52:29.295Z"
     },
     {
       "id": "u_51af0528455524875fc38618_0",
@@ -231,6 +238,25 @@
       "model": "gemini-3.5-flash-lite",
       "batchJob": "batches/wazxmzaiela6jn8aqd7kybq00i98rm3g571n",
       "requestKey": "SL5f1Auq7sVN_3be168f53097c6ce"
+    },
+    {
+      "at": "2026-11-16T11:52:29.295Z",
+      "model": "gemini-3.5-flash-lite",
+      "batchJob": "batches/yfm05orxz60fe1t80oz670gs2xgx5x0u8fkd",
+      "requestKey": "SL5f1Auq7sVN_4e8476f0a09d7a59",
+      "modelVersion": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 560,
+        "candidatesTokenCount": 170,
+        "totalTokenCount": 730,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 560
+          }
+        ],
+        "serviceTier": "standard"
+      }
     }
   ]
 }

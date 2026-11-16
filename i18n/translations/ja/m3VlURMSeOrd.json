@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "pageId": "m3VlURMSeOrd",
   "sourceFile": "docs/User Guide/User Guide/Basic Concepts and Features/Notes/New note type switcher.md",
-  "sourceRevision": "63f2489c2b2779f3767bcbd74ddc83a03055f10d",
+  "sourceRevision": "f782bf56148719d1461f07015cebd6e3f273f957",
   "units": [
     {
       "id": "u_9cd6fce197367a9282f915eb_0",
@@ -96,8 +96,15 @@
       "sourceHash": "4d0b7bfae8d5e32b3695feb595e80e437b04296905a3ba9f2ad101276e360136",
       "context": "New note type switcher",
       "contextHash": "6c0648f925845f336eed1fe49afe5e44ff7e535b7b1bed2a7f7480c4c267bfed",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "__TRILIUM_PH_0__ __TRILIUM_PH_1__すべての種類__TRILIUM_PH_2__ は、 __TRILIUM_PH_3__ノートを後ろに挿入__TRILIUM_PH_4__ の __TRILIUM_PH_5__ノートツリーのコンテキストメニュー__TRILIUM_PH_6__と同じメニューを表示し、すべてのノートの種類とテンプレートを利用できます。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-16T11:52:29.295Z"
     },
     {
       "id": "u_bb31d575a137525b2249a45e_0",
@@ -163,6 +170,25 @@
       "model": "gemini-3.5-flash-lite",
       "batchJob": "batches/wazxmzaiela6jn8aqd7kybq00i98rm3g571n",
       "requestKey": "m3VlURMSeOrd_0f69fb4a6fc7b1d0"
+    },
+    {
+      "at": "2026-11-16T11:52:29.295Z",
+      "model": "gemini-3.5-flash-lite",
+      "batchJob": "batches/yfm05orxz60fe1t80oz670gs2xgx5x0u8fkd",
+      "requestKey": "m3VlURMSeOrd_894a617054d1f778",
+      "modelVersion": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 528,
+        "candidatesTokenCount": 173,
+        "totalTokenCount": 701,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 528
+          }
+        ],
+        "serviceTier": "standard"
+      }
     }
   ]
 }

@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "pageId": "C2H9HK4BzwG7",
   "sourceFile": "docs/User Guide/User Guide/Collections/Geo Map/Drawing shapes.md",
-  "sourceRevision": "63f2489c2b2779f3767bcbd74ddc83a03055f10d",
+  "sourceRevision": "f782bf56148719d1461f07015cebd6e3f273f957",
   "units": [
     {
       "id": "u_785ebc2bcc5469b58db0c1a5_0",
@@ -436,8 +436,15 @@
       "sourceHash": "91347524f517771827a0ab8240e9911e77a2707a005208f02066a6bd21538300",
       "context": "Drawing shapes > How shapes are represented",
       "contextHash": "aafac6ec88e649d62b6e3fa17c2880af8a244f528919dcbb09b830ea0f4abd07",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "図形はマーカーと非常によく似た方法で表現されます。つまり、各図形は1つのノートです。それに関する情報は、次のような __TRILIUM_PH_0__ラベル__TRILIUM_PH_1__ を使用して保存されます __TRILIUM_PH_2__。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-16T11:52:29.295Z"
     }
   ],
   "requests": [
@@ -465,6 +472,25 @@
       "model": "gemini-3.5-flash-lite",
       "batchJob": "batches/8vehrrvdpag09tp4gjf9dbgj006t9k2gkkyl",
       "requestKey": "C2H9HK4BzwG7_bee97e3d676af280"
+    },
+    {
+      "at": "2026-11-16T11:52:29.295Z",
+      "model": "gemini-3.5-flash-lite",
+      "batchJob": "batches/yfm05orxz60fe1t80oz670gs2xgx5x0u8fkd",
+      "requestKey": "C2H9HK4BzwG7_015f6dc760e42d37",
+      "modelVersion": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 521,
+        "candidatesTokenCount": 115,
+        "totalTokenCount": 636,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 521
+          }
+        ],
+        "serviceTier": "standard"
+      }
     }
   ]
 }

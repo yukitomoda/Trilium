@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "pageId": "0vhv7lsOLy82",
   "sourceFile": "docs/User Guide/User Guide/Basic Concepts and Features/Notes/Attachments.md",
-  "sourceRevision": "63f2489c2b2779f3767bcbd74ddc83a03055f10d",
+  "sourceRevision": "f782bf56148719d1461f07015cebd6e3f273f957",
   "units": [
     {
       "id": "u_03d2b920960f630f09345319_0",
@@ -317,8 +317,15 @@
       "sourceHash": "658ed969d4ed5907af4d0c2b06de8cddcea9c2024805ac85c6831d80c9b8fa18",
       "context": "Attachments > Uploading attachments",
       "contextHash": "3cb2711ce5de5f15e54a49651ed8a7eb4adf31fa9a9493ca079c30fdedde7d6a",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "または、ファイルエクスプローラーから1つ以上のファイルをリスト上の任意の場所にドラッグ＆ドロップします。画像は、 __TRILIUM_PH_0__自動画像圧縮__TRILIUM_PH_1__ が __TRILIUM_PH_2__オプション__TRILIUM_PH_3__ → __TRILIUM_PH_4__メディア__TRILIUM_PH_5__で有効になっている場合に圧縮されます。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-16T11:52:29.295Z"
     },
     {
       "id": "u_710735e4ded4488f17334229_0",
@@ -344,8 +351,15 @@
       "sourceHash": "5cbaf68b7caf117925a6b8c08d67fa7b578cca58e02cc30c8fead6d62bc0e681",
       "context": "Attachments > Attaching files from a text note",
       "contextHash": "78053f512f78ef57b7568ec8eab435b5b086b9803e77af1dba5086dfd76ee7d9",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "ファイルを __TRILIUM_PH_0__テキスト__TRILIUM_PH_1__ ノートに添付してその内容に埋め込むには、書式設定ツールバーの __TRILIUM_PH_2____TRILIUM_PH_3__ファイルを添付__TRILIUM_PH_4__ ボタンを押し、「 __TRILIUM_PH_5__書式設定ツールバー__TRILIUM_PH_6__」から「 __TRILIUM_PH_7__ファイルを添付して埋め込む__TRILIUM_PH_8__ 」を選択し、1つ以上のファイルを選択します（以下の __TRILIUM_PH_9__添付ファイルの埋め込み__TRILIUM_PH_10__ を参照）。同じメニューには、画像挿入用の「 __TRILIUM_PH_11__画像__TRILIUM_PH_12__」（ __TRILIUM_PH_13__画像__TRILIUM_PH_14__を参照）や、ファイルをリンクとして追加する「 __TRILIUM_PH_15__ファイルをリンクとして添付__TRILIUM_PH_16__」もあります。どちらのファイル操作も、スラッシュコマンドの「 __TRILIUM_PH_17__ファイルをリンクとして添付__TRILIUM_PH_18__ 」および「 __TRILIUM_PH_19__ファイルを添付して埋め込む__TRILIUM_PH_20__ 」からも利用できます。スマートフォンでは、メニューに __TRILIUM_PH_21__スラッシュコマンド__TRILIUM_PH_22__（ __TRILIUM_PH_23__カメラ__TRILIUM_PH_24__ （ __TRILIUM_PH_25__モバイルフロントエンド__TRILIUM_PH_26__を参照）もあります。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-16T11:52:29.295Z"
     },
     {
       "id": "u_4c4d6b3e0badd45a36ae0383_0",
@@ -507,8 +521,15 @@
       "sourceHash": "d5d74f4350e979ff69ca3a896d851159ecabbfea68d9f07da03bd6bba76f8513",
       "context": "Attachments > Embedding an attachment",
       "contextHash": "85bcaa063bad2bd1970403b69607df8c8410f04b6488ec2cf5fb8e58bb21e77b",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "添付ファイルは、リンクする代わりにテキスト内に表示させることができます。これは __TRILIUM_PH_0__ノートのインクルード__TRILIUM_PH_1__ がノートを表示する方法と同様です。画像が表示され、PDF、動画、ドキュメントのプレビューが表示され、コードファイルやテキストファイルはシンタックスハイライト付きで表示され、Markdownファイル（ファイルなど）はレンダリングされて表示されます。埋め込みコードファイルは、その場で編集することもでき（「 __TRILIUM_PH_2__ 」を参照）、埋め込みMarkdownファイルは、インクルードされたMarkdownノートと同様に、ソース、レンダリング結果、あるいはその両方を示します（そこでの __TRILIUM_PH_3__インクルードされたMarkdownのインプレース編集__TRILIUM_PH_4__ における __TRILIUM_PH_5__ノートのインクルード__TRILIUM_PH_6__を参照）。 __TRILIUM_PH_7__インクルードされたMarkdown__TRILIUM_PH_8__ ",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-16T11:52:29.295Z"
     },
     {
       "id": "u_59aed4fb03be127281d3a0ef_0",
@@ -551,8 +572,15 @@
       "sourceHash": "81550fc6b3b23d9addc095ea3dcf23b289b6a2e49c8c4b3bf5689882624744a7",
       "context": "Attachments > Embedding an attachment",
       "contextHash": "85bcaa063bad2bd1970403b69607df8c8410f04b6488ec2cf5fb8e58bb21e77b",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "挿入メニューの __TRILIUM_PH_0____TRILIUM_PH_1__描画キャンバス__TRILIUM_PH_2__ で挿入される描画キャンバスは、その場で描画できる __TRILIUM_PH_3____TRILIUM_PH_4__挿入__TRILIUM_PH_5__ 添付ファイルの埋め込みです。添付されたExcalidrawファイル（ __TRILIUM_PH_6__ ）も描画キャンバスとして埋め込まれます（「__TRILIUM_PH_7__」の __TRILIUM_PH_8__描画キャンバス__TRILIUM_PH_9__ における __TRILIUM_PH_10__ノートのインクルード__TRILIUM_PH_11__を参照）。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-16T11:52:29.295Z"
     },
     {
       "id": "u_0738b11127ef1db4de11e15a_0",
@@ -561,8 +589,15 @@
       "sourceHash": "0738b11127ef1db4de11e15a29e36eb7e4fba87aee8cd6890936f163b685617e",
       "context": "Attachments > Embedding an attachment",
       "contextHash": "85bcaa063bad2bd1970403b69607df8c8410f04b6488ec2cf5fb8e58bb21e77b",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "埋め込みには、新しいインクルードノートと同様に、添付ファイルに適したボックスサイズが適用されます（そこでの __TRILIUM_PH_0__ボックスサイズ__TRILIUM_PH_1__ を参照）。サイズを変更するには、埋め込みを選択し、ツールバーのボックスサイズメニュー、またはその「 __TRILIUM_PH_2__サイズ__TRILIUM_PH_3__ 」サブメニューを使用します。「 __TRILIUM_PH_4____TRILIUM_PH_5__詳細なアクション__TRILIUM_PH_6__ 」メニューの「 __TRILIUM_PH_7__サイズ変更可能__TRILIUM_PH_8__ 」な埋め込みは、ハンドルをドラッグしてサイズ変更することもでき、「 __TRILIUM_PH_9__展開可能__TRILIUM_PH_10__ 」な埋め込みは高さを変更できます（そこでの __TRILIUM_PH_11__サイズ変更__TRILIUM_PH_12__ を参照）。「 __TRILIUM_PH_13__サイズ変更可能__TRILIUM_PH_14__ 」な埋め込みは、メニューの「 __TRILIUM_PH_15__位置__TRILIUM_PH_16__ 」サブメニューから、テキストを周囲に回り込ませるかどうかにかかわらず、ノートの左右に配置できます（そこでの __TRILIUM_PH_17__位置調整__TRILIUM_PH_18__ を参照）。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-16T11:52:29.295Z"
     },
     {
       "id": "u_d3400afb0bac8e99e7f8fbec_0",
@@ -588,8 +623,15 @@
       "sourceHash": "0f5db71e07b4bda0300c4bfa56639c6f979aa17cfedf03e088cc2f1fe951c8a9",
       "context": "Attachments > Embedding an attachment",
       "contextHash": "85bcaa063bad2bd1970403b69607df8c8410f04b6488ec2cf5fb8e58bb21e77b",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "添付ファイルのみを表示するには、インクルードノートの場合と同様に、埋め込みの「 __TRILIUM_PH_0__タイトルを表示__TRILIUM_PH_1__ 」メニューにある「 __TRILIUM_PH_2____TRILIUM_PH_3__詳細なアクション__TRILIUM_PH_4__ 」をオフにします（そこでの __TRILIUM_PH_5__タイトル__TRILIUM_PH_6__ を参照）。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-16T11:52:29.295Z"
     },
     {
       "id": "u_9639d03fef71802ba511407d_0",
@@ -649,8 +691,15 @@
       "sourceHash": "f3db6f7efc5d1466ea7a2b3d21d611d91e0c271655d6b47e880efdc91f597766",
       "context": "Attachments > Embedding an attachment",
       "contextHash": "85bcaa063bad2bd1970403b69607df8c8410f04b6488ec2cf5fb8e58bb21e77b",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "埋め込みをリンクに戻すには、埋め込みのタイトル行を右クリックするか、 __TRILIUM_PH_0__リンクに変換__TRILIUM_PH_1__ を押して開くメニューから選択します。このメニューは、ノートから埋め込みを削除する __TRILIUM_PH_2____TRILIUM_PH_3__詳細アクション__TRILIUM_PH_4__ ボタンの後にあり、 __TRILIUM_PH_5____TRILIUM_PH_6__ブロックを削除__TRILIUM_PH_7__と、添付ファイル自体を削除する __TRILIUM_PH_8____TRILIUM_PH_9__添付ファイルを削除...__TRILIUM_PH_10__の最後のグループに含まれています。 __TRILIUM_PH_11____TRILIUM_PH_12__添付ファイルをノートに変換...__TRILIUM_PH_13__ がそれに続きます。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-16T11:52:29.295Z"
     },
     {
       "id": "u_e986ca1016d91203811e7bf9_0",
@@ -859,6 +908,44 @@
           {
             "modality": "TEXT",
             "tokenCount": 2120
+          }
+        ],
+        "serviceTier": "standard"
+      }
+    },
+    {
+      "at": "2026-11-16T11:52:29.295Z",
+      "model": "gemini-3.5-flash-lite",
+      "batchJob": "batches/yfm05orxz60fe1t80oz670gs2xgx5x0u8fkd",
+      "requestKey": "0vhv7lsOLy82_5fba9ece87ac9c36",
+      "modelVersion": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 1956,
+        "candidatesTokenCount": 1549,
+        "totalTokenCount": 3505,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 1956
+          }
+        ],
+        "serviceTier": "standard"
+      }
+    },
+    {
+      "at": "2026-11-16T11:52:29.295Z",
+      "model": "gemini-3.5-flash-lite",
+      "batchJob": "batches/yfm05orxz60fe1t80oz670gs2xgx5x0u8fkd",
+      "requestKey": "0vhv7lsOLy82_82ff7bbcd09bf17a",
+      "modelVersion": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 650,
+        "candidatesTokenCount": 280,
+        "totalTokenCount": 930,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 650
           }
         ],
         "serviceTier": "standard"

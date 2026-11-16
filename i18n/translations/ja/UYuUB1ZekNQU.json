@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "pageId": "UYuUB1ZekNQU",
   "sourceFile": "docs/User Guide/User Guide/Note Types/Text/Developer-specific formatting.md",
-  "sourceRevision": "63f2489c2b2779f3767bcbd74ddc83a03055f10d",
+  "sourceRevision": "f782bf56148719d1461f07015cebd6e3f273f957",
   "units": [
     {
       "id": "u_2fcf0c59d6f6c8f1e0764eaf_0",
@@ -266,8 +266,15 @@
       "sourceHash": "c7e37d3a5528d651ce3be2b1186776421899ea42dc58b27a0bb0eb4788345a9d",
       "context": "Developer-specific formatting > Keyboard shortcuts",
       "contextHash": "b2aafb8ab925e9dfc6a7085aae3c7c4a7a216314146ef09a2a1e2091329b6f67",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "このスタイルを適用するには、 __TRILIUM_PH_0__ 書式設定ツールバーの __TRILIUM_PH_1__ グループ内にある __TRILIUM_PH_2__ボタンを押してください__TRILIUM_PH_3__。フローティングツールバーでは、テキストを選択するとボタンが表示されます。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-16T11:52:29.295Z"
     },
     {
       "id": "u_f5e50e90875c169ca7547316_0",
@@ -386,6 +393,25 @@
       "model": "gemini-3.5-flash-lite",
       "batchJob": "batches/wazxmzaiela6jn8aqd7kybq00i98rm3g571n",
       "requestKey": "UYuUB1ZekNQU_5e71ddce50f0e0fc"
+    },
+    {
+      "at": "2026-11-16T11:52:29.295Z",
+      "model": "gemini-3.5-flash-lite",
+      "batchJob": "batches/yfm05orxz60fe1t80oz670gs2xgx5x0u8fkd",
+      "requestKey": "UYuUB1ZekNQU_2ab8fe42a0bb3ebc",
+      "modelVersion": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 525,
+        "candidatesTokenCount": 146,
+        "totalTokenCount": 671,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 525
+          }
+        ],
+        "serviceTier": "standard"
+      }
     }
   ]
 }

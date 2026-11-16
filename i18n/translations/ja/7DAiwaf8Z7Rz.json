@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "pageId": "7DAiwaf8Z7Rz",
   "sourceFile": "docs/User Guide/User Guide/Installation & Setup/Server Installation/Multi-factor authentication with TOTP.md",
-  "sourceRevision": "63f2489c2b2779f3767bcbd74ddc83a03055f10d",
+  "sourceRevision": "f782bf56148719d1461f07015cebd6e3f273f957",
   "units": [
     {
       "id": "u_a928acd3195c959029731c5f_0",
@@ -300,8 +300,15 @@
       "sourceHash": "3bd7e22f2edddbb46f707974c02f8b3062ea36623d7408687880d7740cc59663",
       "context": "Multi-factor authentication with TOTP > Signing in",
       "contextHash": "9240bdab2a5641a10d2f573f6aeb6f141067acc93561f063e99447ce54932aea",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "間違ったワンタイムパスワードも、通常のパスワードと同様に、失敗回数の制限のカウント対象となります。 __TRILIUM_PH_0__総当たり攻撃からの保護__TRILIUM_PH_1__ の __TRILIUM_PH_2__認証__TRILIUM_PH_3__を参照してください。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-16T11:52:29.295Z"
     },
     {
       "id": "u_351cd8310daf8979400f295e_0",
@@ -395,8 +402,15 @@
       "sourceHash": "f709abb2eb81463b4442e0dbd771386fa077d5835bd7486a59ccd9034a4f4f3b",
       "context": "Multi-factor authentication with TOTP > Obtaining an ETAPI token with a password",
       "contextHash": "20ad262792f2b85c91b748e16ccb5b3ab382637b54d906a29cbb294e310c2ae0",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "TOTPが有効になると、 __TRILIUM_PH_0__ETAPI (REST API)__TRILIUM_PH_1__ 経由での __TRILIUM_PH_2__ の呼び出しによるトークンの取得にも、第2要素が必要になります。ワンタイムパスワードまたはリカバリコードを __TRILIUM_PH_3__として、 __TRILIUM_PH_4__と一緒に送信してください。各コードは一度のみ使用可能です。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-16T11:52:29.295Z"
     },
     {
       "id": "u_546a631b342615359831b381_0",
@@ -544,6 +558,25 @@
       "model": "gemini-3.5-flash-lite",
       "batchJob": "batches/wazxmzaiela6jn8aqd7kybq00i98rm3g571n",
       "requestKey": "7DAiwaf8Z7Rz_2560dd8a607242d0"
+    },
+    {
+      "at": "2026-11-16T11:52:29.295Z",
+      "model": "gemini-3.5-flash-lite",
+      "batchJob": "batches/yfm05orxz60fe1t80oz670gs2xgx5x0u8fkd",
+      "requestKey": "7DAiwaf8Z7Rz_ff80ae0e0c10d6cb",
+      "modelVersion": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 699,
+        "candidatesTokenCount": 278,
+        "totalTokenCount": 977,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 699
+          }
+        ],
+        "serviceTier": "standard"
+      }
     }
   ]
 }

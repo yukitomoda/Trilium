@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "pageId": "IgkTHSaFfq6A",
   "sourceFile": "docs/User Guide/User Guide/Installation & Setup/Server Installation/Signing in with OpenID Connect/Setting up with various providers.md",
-  "sourceRevision": "63f2489c2b2779f3767bcbd74ddc83a03055f10d",
+  "sourceRevision": "f782bf56148719d1461f07015cebd6e3f273f957",
   "units": [
     {
       "id": "u_af501bd452952afb1e051c4e_0",
@@ -113,8 +113,15 @@
       "sourceHash": "8dfa0cd3aed9dd0ad17386559f9db0e20661fd60a007fbe562a69bc14d608cf7",
       "context": "Setting up with various providers",
       "contextHash": "aed08d32912b31afd0bf72269d029e5f61b7e7e28478d8173d1d5b12d597f744",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "Authelia の __TRILIUM_PH_0__ にクライアントを追加し、 __TRILIUM_PH_1__を Trilium インスタンスの URL で __TRILIUM_PH_2__ 置き換えます：",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-16T11:52:29.295Z"
     },
     {
       "id": "u_78cc76e89d32ec8dcbc05d53_0",
@@ -157,8 +164,15 @@
       "sourceHash": "4a255792f68ce2dab40b38e17e5c157ecce05f1ddc3750a25241da323ad6bc01",
       "context": "Setting up with various providers",
       "contextHash": "aed08d32912b31afd0bf72269d029e5f61b7e7e28478d8173d1d5b12d597f744",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "ステップ 1 の __TRILIUM_PH_0__を使用して、 __TRILIUM_PH_1__ を調整します：",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-16T11:52:29.295Z"
     },
     {
       "id": "u_1e350e22c07aeab52b11d44a_0",
@@ -167,8 +181,15 @@
       "sourceHash": "1e350e22c07aeab52b11d44abbc166f068fb6f208fd30f092189b12541adc647",
       "context": "Setting up with various providers",
       "contextHash": "aed08d32912b31afd0bf72269d029e5f61b7e7e28478d8173d1d5b12d597f744",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": " __TRILIUM_PH_0__設定しないで__TRILIUM_PH_1__ ください __TRILIUM_PH_2__ 。Authelia は機密クライアントのデフォルトを __TRILIUM_PH_3__ とし、他の方式を __TRILIUM_PH_4__で拒否しますが、これは Trilium がすでに使用しているデフォルトです。これは、以下の GitLab の場合とは逆になります。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-16T11:52:29.295Z"
     },
     {
       "id": "u_a8d2e4a7bf60c5fce2df5b84_0",
@@ -602,8 +623,15 @@
       "sourceHash": "39a951e59e894baa8978715ddc2db7d94be9b8650d72da958aca5d7893754850",
       "context": "Setting up with various providers",
       "contextHash": "aed08d32912b31afd0bf72269d029e5f61b7e7e28478d8173d1d5b12d597f744",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "Pocket ID では、 __TRILIUM_PH_0__OIDC ディスカバリー URL__TRILIUM_PH_1__ が __TRILIUM_PH_2__で終わるものが提供されます。v0.105.0 以降では、そのまま貼り付けることができます。それより前のバージョンでは、その接尾辞を削除し、その前の部分のみを使用してください。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-16T11:52:29.295Z"
     },
     {
       "id": "u_feae02ca01bb5ceabe565269_0",
@@ -814,6 +842,25 @@
       "model": "gemini-3.5-flash-lite",
       "batchJob": "batches/wazxmzaiela6jn8aqd7kybq00i98rm3g571n",
       "requestKey": "IgkTHSaFfq6A_b99a4b6ad9a7ac80"
+    },
+    {
+      "at": "2026-11-16T11:52:29.295Z",
+      "model": "gemini-3.5-flash-lite",
+      "batchJob": "batches/yfm05orxz60fe1t80oz670gs2xgx5x0u8fkd",
+      "requestKey": "IgkTHSaFfq6A_8a14c614c8d45ce4",
+      "modelVersion": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 872,
+        "candidatesTokenCount": 440,
+        "totalTokenCount": 1312,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 872
+          }
+        ],
+        "serviceTier": "standard"
+      }
     }
   ]
 }

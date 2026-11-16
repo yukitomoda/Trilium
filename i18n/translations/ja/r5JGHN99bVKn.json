@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "pageId": "r5JGHN99bVKn",
   "sourceFile": "docs/User Guide/User Guide/Basic Concepts and Features/UI Elements/Recent Changes.md",
-  "sourceRevision": "63f2489c2b2779f3767bcbd74ddc83a03055f10d",
+  "sourceRevision": "f782bf56148719d1461f07015cebd6e3f273f957",
   "units": [
     {
       "id": "u_80e0a04f315bc3e20327310d_0",
@@ -45,8 +45,15 @@
       "sourceHash": "f755f96c7f677b0ba83d89f0f9e9425803c07b55d26f2333deb62a13975ed804",
       "context": "Recent Changes > Accessing the recent changes",
       "contextHash": "e220afe65231f36456c6a0e02b69bdefd548c5bfe9f090ffedf8a23b3eefd0aa",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "すべてのドキュメントの変更の概要を確認するには、 __TRILIUM_PH_0__ の __TRILIUM_PH_1__ランチバー__TRILIUM_PH_2__にあるボタンを押します。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-16T11:52:29.295Z"
     },
     {
       "id": "u_41391d469ae48f1d13cfb376_0",
@@ -106,8 +113,15 @@
       "sourceHash": "294f772bd2d55c621a640c36f569296b97c155f3181a6533f11f4175fcd4d90d",
       "context": "Recent Changes > Accessing the recent changes",
       "contextHash": "e220afe65231f36456c6a0e02b69bdefd548c5bfe9f090ffedf8a23b3eefd0aa",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "タブバーの __TRILIUM_PH_0__ ボタンを右クリックするか長押しすると、タブで開いていない最近変更されたノートの一覧が表示されます。そのメニューの一番下にある __TRILIUM_PH_1____TRILIUM_PH_2__  __TRILIUM_PH_3__すべての最近の変更__TRILIUM_PH_4__を選択すると、このダイアログが開きます。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-16T11:52:29.295Z"
     },
     {
       "id": "u_27591f4e86746d469eb2d832_0",
@@ -207,6 +221,25 @@
       "model": "gemini-3.5-flash-lite",
       "batchJob": "batches/wazxmzaiela6jn8aqd7kybq00i98rm3g571n",
       "requestKey": "r5JGHN99bVKn_78119c7864884057"
+    },
+    {
+      "at": "2026-11-16T11:52:29.295Z",
+      "model": "gemini-3.5-flash-lite",
+      "batchJob": "batches/yfm05orxz60fe1t80oz670gs2xgx5x0u8fkd",
+      "requestKey": "r5JGHN99bVKn_f8b61b2e248417b9",
+      "modelVersion": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 665,
+        "candidatesTokenCount": 259,
+        "totalTokenCount": 924,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 665
+          }
+        ],
+        "serviceTier": "standard"
+      }
     }
   ]
 }

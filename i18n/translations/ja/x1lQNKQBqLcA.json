@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "pageId": "x1lQNKQBqLcA",
   "sourceFile": "docs/User Guide/User Guide/Installation & Setup/Server Installation/Signing in with OpenID Connect.md",
-  "sourceRevision": "63f2489c2b2779f3767bcbd74ddc83a03055f10d",
+  "sourceRevision": "f782bf56148719d1461f07015cebd6e3f273f957",
   "units": [
     {
       "id": "u_3689c7a08168cb1a2d58c4e2_0",
@@ -470,8 +470,15 @@
       "sourceHash": "d573a44a2d5b8c862107e1b6d3c688c46465b3557fe5635e8f11910541de7d59",
       "context": "Signing in with OpenID Connect > Setup > Configuring the authentication provider",
       "contextHash": "03165a1559a5e4e52bef9bd4fcab381084db665293fd9e811f01c3456555fada",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "デフォルトの OAuth 発行者は Google です。Authentik や Auth0 などの他のサービスを使用するには、設定を __TRILIUM_PH_0__、 __TRILIUM_PH_1__、および __TRILIUM_PH_2__ で構成します。または、これらの値を環境変数を使用して設定することもできます。 __TRILIUM_PH_3__ ファイル",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-16T11:52:29.295Z"
     },
     {
       "id": "u_d8ee7ff2e00f2a89725999cb_1",
@@ -820,8 +827,15 @@
       "sourceHash": "9dfc05208b7ba5d100647337d2754a02f0793d8a33b6837cb0e4410772629c4f",
       "context": "Signing in with OpenID Connect > Setup > Configuring the authentication provider",
       "contextHash": "03165a1559a5e4e52bef9bd4fcab381084db665293fd9e811f01c3456555fada",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "OIDC セッションの有効期間は、Trilium 自体のセッション Cookie の有効期間（ __TRILIUM_PH_0__ セクションの __TRILIUM_PH_1__ 設定、デフォルトでは 21 日）に自動的に結び付けられます。そのため、OIDC ライブラリの短い内部デフォルトで早期に期限切れになることなく、Trilium のセッションが有効である間はシングルサインインも有効なままになります。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-16T11:52:29.295Z"
     },
     {
       "id": "u_30d163f43e0f903e54042909_0",
@@ -1612,6 +1626,25 @@
           {
             "modality": "TEXT",
             "tokenCount": 777
+          }
+        ],
+        "serviceTier": "standard"
+      }
+    },
+    {
+      "at": "2026-11-16T11:52:29.295Z",
+      "model": "gemini-3.5-flash-lite",
+      "batchJob": "batches/yfm05orxz60fe1t80oz670gs2xgx5x0u8fkd",
+      "requestKey": "x1lQNKQBqLcA_3ebc5f4e79f4b99a",
+      "modelVersion": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 755,
+        "candidatesTokenCount": 297,
+        "totalTokenCount": 1052,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 755
           }
         ],
         "serviceTier": "standard"

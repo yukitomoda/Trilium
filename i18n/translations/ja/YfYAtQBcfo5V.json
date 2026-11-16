@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "pageId": "YfYAtQBcfo5V",
   "sourceFile": "docs/User Guide/User Guide/Note Types/Text/Math Equations.md",
-  "sourceRevision": "63f2489c2b2779f3767bcbd74ddc83a03055f10d",
+  "sourceRevision": "f782bf56148719d1461f07015cebd6e3f273f957",
   "units": [
     {
       "id": "u_c0440c50050323850e5763c0_0",
@@ -28,8 +28,15 @@
       "sourceHash": "b25341674ea75060c4715baaa75a74db13a93e72b6e567fa3771f71fcae1471d",
       "context": "Math Equations",
       "contextHash": "9c28dd8ef9e6a3f1bd55d1e21b4350932bddb54c36117212375dbb731f8622b8",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "テキストノート内では、 __TRILIUM_PH_0__ ボタンを使用し、 __TRILIUM_PH_1__書式設定ツールバー__TRILIUM_PH_2__ （通常は __TRILIUM_PH_3__挿入ボタン__TRILIUM_PH_4__の中にあります）から数式を入力することができます。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-16T11:52:29.295Z"
     },
     {
       "id": "u_3ebb38c428572272e95c0967_0",
@@ -282,6 +289,25 @@
       "model": "gemini-3.5-flash-lite",
       "batchJob": "batches/wazxmzaiela6jn8aqd7kybq00i98rm3g571n",
       "requestKey": "YfYAtQBcfo5V_5c9f75a5bef8bcb4"
+    },
+    {
+      "at": "2026-11-16T11:52:29.295Z",
+      "model": "gemini-3.5-flash-lite",
+      "batchJob": "batches/yfm05orxz60fe1t80oz670gs2xgx5x0u8fkd",
+      "requestKey": "YfYAtQBcfo5V_abc415c38d4b8530",
+      "modelVersion": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 526,
+        "candidatesTokenCount": 153,
+        "totalTokenCount": 679,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 526
+          }
+        ],
+        "serviceTier": "standard"
+      }
     }
   ]
 }
