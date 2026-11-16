@@ -18,7 +18,7 @@ try {
         await page.goto(`${origin}${path}`, { waitUntil: 'networkidle' });
         assert.equal(await page.locator('html').getAttribute('lang'), 'ja');
         assert.match(await page.locator('.translation-notice').innerText(), /非公式/);
-        assert.equal(await page.locator('.translation-actions a').getAttribute('href'), entry.sourceUrl);
+        assert.equal(await page.locator('.translation-actions a[href^="https://docs.triliumnotes.org"]').getAttribute('href'), entry.sourceUrl);
         assert.match(await page.locator('#translation-status').innerText(), /未翻訳|非公式|まだ行っていません/);
         const body = await page.locator('#translation-body').innerText();
         await page.locator('#translation-toggle').click();

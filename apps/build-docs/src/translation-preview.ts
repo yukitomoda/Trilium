@@ -9,6 +9,7 @@ import sanitize from "sanitize-filename";
 
 import type { NoteMeta, NoteMetaFile } from "../../../packages/trilium-core/src/meta";
 import { documentationPageKey, localizeDocumentationLink } from "./documentation-links";
+import { writeAboutPage } from "./translation/about";
 import { applyPagesBasePath, normalizeBasePath } from "./translation/pages-path";
 import { hash } from "./translation/segments";
 import { applySavedTranslations, type Snapshot } from "./translation/site";
@@ -227,6 +228,10 @@ async function main() {
     }
     await writeFile(join(generated, "pages.json"), JSON.stringify(snapshot, null, 2));
     if (mode === "translation") await applySavedTranslations(root, output, snapshot, config.model);
+    const modifiedAt = execFileSync("git", [
+        "show", "-s", "--format=%cI", revision
+    ], { cwd: root, encoding: "utf8" }).trim();
+    await writeAboutPage(root, output, { revision, modifiedAt });
     await applyPagesBasePath(output, basePath);
     await writeFile(join(output, ".nojekyll"), "");
     console.log(`Preview built: ${pages.length} pages → ${output} (${mode} mode, no API calls)`);
