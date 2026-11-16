@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "pageId": "0vhv7lsOLy82",
   "sourceFile": "docs/User Guide/User Guide/Basic Concepts and Features/Notes/Attachments.md",
-  "sourceRevision": "731bcf5b4e44f089698184c26f6a7b6e26f8af54",
+  "sourceRevision": "63f2489c2b2779f3767bcbd74ddc83a03055f10d",
   "units": [
     {
       "id": "u_03d2b920960f630f09345319_0",
@@ -232,8 +232,15 @@
       "sourceHash": "3610eeda7f5b4537590734d95916ee9f83d266fa06770c88da847a17e7a690bb",
       "context": "Attachments > Types of attachments",
       "contextHash": "1503c376a55df7c492037723b7b542d2f0799285ec1d5ab13818f9f1f52eccab",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "プレビューや共有ページで使用される、__TRILIUM_PH_0__Canvas__TRILIUM_PH_1__ノートのSVG画像（__TRILIUM_PH_2__）、およびテキストノート内の各描画キャンバス（__TRILIUM_PH_3__Include Note__TRILIUM_PH_4__の__TRILIUM_PH_5__Drawing canvases__TRILIUM_PH_6__を参照）のSVG画像です。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-16T10:18:13.154Z"
     },
     {
       "id": "u_5bf4ac31e7041deae434023e_0",
@@ -837,6 +844,25 @@
       "model": "gemini-3.5-flash-lite",
       "batchJob": "batches/wazxmzaiela6jn8aqd7kybq00i98rm3g571n",
       "requestKey": "0vhv7lsOLy82_0c7eb6f8bbbed727"
+    },
+    {
+      "at": "2026-11-16T10:18:13.154Z",
+      "model": "gemini-3.5-flash-lite",
+      "batchJob": "batches/pv3s6a45c9mct38ei9ubwv0didxm6r2rrbu7",
+      "requestKey": "0vhv7lsOLy82_44f60b8c5f3f2f51",
+      "modelVersion": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 2120,
+        "candidatesTokenCount": 1825,
+        "totalTokenCount": 3945,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 2120
+          }
+        ],
+        "serviceTier": "standard"
+      }
     }
   ]
 }

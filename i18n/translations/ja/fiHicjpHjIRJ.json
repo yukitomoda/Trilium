@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "pageId": "fiHicjpHjIRJ",
   "sourceFile": "docs/User Guide/User Guide/Scripting/Security.md",
-  "sourceRevision": "731bcf5b4e44f089698184c26f6a7b6e26f8af54",
+  "sourceRevision": "63f2489c2b2779f3767bcbd74ddc83a03055f10d",
   "units": [
     {
       "id": "u_3bc81758f53fcf91ba62e0fe_0",
@@ -79,8 +79,15 @@
       "sourceHash": "406804a10431a041fa531db23b28b2b3a6456be512cad1496799e9c41a145bdd",
       "context": "Security",
       "contextHash": "8f6fb4eb7f42c0e245e29e63f5b82cc3ba19852681d1ed9aed291f59cf75ec0e",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "__TRILIUM_PH_0__デスクトップ版のインストール__TRILIUM_PH_1__における__TRILIUM_PH_2__ネットワークアクセス__TRILIUM_PH_3__。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-16T10:18:13.154Z"
     },
     {
       "id": "u_8878d8b25a759d3b24c722aa_0",
@@ -208,6 +215,25 @@
       "model": "gemini-3.5-flash-lite",
       "batchJob": "batches/8vehrrvdpag09tp4gjf9dbgj006t9k2gkkyl",
       "requestKey": "fiHicjpHjIRJ_bb6dce37e99d5f3f"
+    },
+    {
+      "at": "2026-11-16T10:18:13.154Z",
+      "model": "gemini-3.5-flash-lite",
+      "batchJob": "batches/pv3s6a45c9mct38ei9ubwv0didxm6r2rrbu7",
+      "requestKey": "fiHicjpHjIRJ_f44915825d9c0929",
+      "modelVersion": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 400,
+        "candidatesTokenCount": 106,
+        "totalTokenCount": 506,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 400
+          }
+        ],
+        "serviceTier": "standard"
+      }
     }
   ]
 }

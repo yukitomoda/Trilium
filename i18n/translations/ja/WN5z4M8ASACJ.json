@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "pageId": "WN5z4M8ASACJ",
   "sourceFile": "docs/User Guide/User Guide/Theme development/Reference.md",
-  "sourceRevision": "731bcf5b4e44f089698184c26f6a7b6e26f8af54",
+  "sourceRevision": "63f2489c2b2779f3767bcbd74ddc83a03055f10d",
   "units": [
     {
       "id": "u_724e4c7e1c49891fc3219014_0",
@@ -453,8 +453,15 @@
       "sourceHash": "ffebbee1d7181d0705b7915e4d5adf5d0e88c90933fbd108f8bbd4a3a4955003",
       "context": "Reference > Detecting platform (Windows, macOS) or Electron > Background/transparency effects on Windows (Mica)",
       "contextHash": "69ad3a6529ad4054ad2e007f9bc90d5bda487b465e170aace8ebc9bccdc994ba",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "Windows 11にはMicaと呼ばれる特殊な背景/透明化効果があり、テーマ内で __TRILIUM_PH_0__ 変数を __TRILIUM_PH_1__ レベルで設定することで有効にできます:",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-16T10:18:13.154Z"
     },
     {
       "id": "u_5b2764ae104f9e80db297bbc_0",
@@ -1054,6 +1061,25 @@
       "model": "gemini-3.5-flash-lite",
       "batchJob": "batches/8vehrrvdpag09tp4gjf9dbgj006t9k2gkkyl",
       "requestKey": "WN5z4M8ASACJ_4ae4a6d478aef7a4"
+    },
+    {
+      "at": "2026-11-16T10:18:13.154Z",
+      "model": "gemini-3.5-flash-lite",
+      "batchJob": "batches/pv3s6a45c9mct38ei9ubwv0didxm6r2rrbu7",
+      "requestKey": "WN5z4M8ASACJ_4e60c1aa92469090",
+      "modelVersion": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 641,
+        "candidatesTokenCount": 335,
+        "totalTokenCount": 976,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 641
+          }
+        ],
+        "serviceTier": "standard"
+      }
     }
   ]
 }

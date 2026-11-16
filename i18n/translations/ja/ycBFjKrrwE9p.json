@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "pageId": "ycBFjKrrwE9p",
   "sourceFile": "docs/User Guide/User Guide/Advanced Usage/Sharing/Exporting static HTML for web publishing.md",
-  "sourceRevision": "731bcf5b4e44f089698184c26f6a7b6e26f8af54",
+  "sourceRevision": "63f2489c2b2779f3767bcbd74ddc83a03055f10d",
   "units": [
     {
       "id": "u_86d13ef844017bacbc254d5e_0",
@@ -45,8 +45,15 @@
       "sourceHash": "d60dd0a5c80289152014105cf1b089730359b9b23a621687a229c3ea103adfaf",
       "context": "Exporting static HTML for web publishing",
       "contextHash": "7f929eeac06e5afb072d78544448f6d28f8f92044e4959c141664b160ee4ce3c",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "__TRILIUM_PH_0__MkDocs__TRILIUM_PH_1__ などの他の静的サイトジェネレーターと同様に、静的な HTML ファイルを生成することも別の選択肢です。通常の HTML の ZIP エクスポートにはスタイリングや追加機能が含まれていないため、Trilium では __TRILIUM_PH_2__Sharing__TRILIUM_PH_3__ 機能と同じレイアウトおよびスタイルを静的 HTML ファイルにエクスポートする方法を提供しています。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-16T10:18:13.154Z"
     },
     {
       "id": "u_3477f91848997546b37c66af_0",
@@ -499,6 +506,25 @@
       "model": "gemini-3.5-flash-lite",
       "batchJob": "batches/8vehrrvdpag09tp4gjf9dbgj006t9k2gkkyl",
       "requestKey": "ycBFjKrrwE9p_2f0ce604220d23fc"
+    },
+    {
+      "at": "2026-11-16T10:18:13.154Z",
+      "model": "gemini-3.5-flash-lite",
+      "batchJob": "batches/pv3s6a45c9mct38ei9ubwv0didxm6r2rrbu7",
+      "requestKey": "ycBFjKrrwE9p_a5a578fa48e55fe0",
+      "modelVersion": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 455,
+        "candidatesTokenCount": 178,
+        "totalTokenCount": 633,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 455
+          }
+        ],
+        "serviceTier": "standard"
+      }
     }
   ]
 }

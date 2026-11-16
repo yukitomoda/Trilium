@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "pageId": "nBAXQFj20hS1",
   "sourceFile": "docs/User Guide/User Guide/Note Types/Text/Include Note.md",
-  "sourceRevision": "731bcf5b4e44f089698184c26f6a7b6e26f8af54",
+  "sourceRevision": "63f2489c2b2779f3767bcbd74ddc83a03055f10d",
   "units": [
     {
       "id": "u_2ee9482bee8eeb1ceeafe3cb_0",
@@ -1575,8 +1575,15 @@
       "sourceHash": "e91edc537015afcb4d1cc4a2a52762a6c3bcb03f515246b2d86de8dc9766318c",
       "context": "Include Note > Editing an include in place",
       "contextHash": "b0cb7b9e27b31b2e3c4161bc1115bc712cd6609d3317ada66b3f10fb5ba8fdb4",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "__TRILIUM_PH_0__ __TRILIUM_PH_1__その他の操作__TRILIUM_PH_2__ メニュー（インクルードされたコードまたはMarkdownノート、埋め込まれたコードまたはMarkdownファイル、および __TRILIUM_PH_3__Mermaidダイアグラム__TRILIUM_PH_4__のもの）には、__TRILIUM_PH_5__編集可能__TRILIUM_PH_6__の後にさらに2つのサブメニューがあり、それぞれ __TRILIUM_PH_7__自動__TRILIUM_PH_8__、__TRILIUM_PH_9__オン__TRILIUM_PH_10__、__TRILIUM_PH_11__オフ__TRILIUM_PH_12__を備えています。これらはコードエディタでのソースの表示方法を変更します。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-16T10:18:13.154Z"
     },
     {
       "id": "u_ec02808762c8d80abc1e5b8d_0",
@@ -2515,6 +2522,25 @@
           {
             "modality": "TEXT",
             "tokenCount": 1999
+          }
+        ],
+        "serviceTier": "standard"
+      }
+    },
+    {
+      "at": "2026-11-16T10:18:13.154Z",
+      "model": "gemini-3.5-flash-lite",
+      "batchJob": "batches/pv3s6a45c9mct38ei9ubwv0didxm6r2rrbu7",
+      "requestKey": "nBAXQFj20hS1_5a48a4238f634f2b",
+      "modelVersion": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 1846,
+        "candidatesTokenCount": 1585,
+        "totalTokenCount": 3431,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 1846
           }
         ],
         "serviceTier": "standard"

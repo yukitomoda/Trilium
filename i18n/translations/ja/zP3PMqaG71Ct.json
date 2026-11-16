@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "pageId": "zP3PMqaG71Ct",
   "sourceFile": "docs/User Guide/User Guide/Collections/Presentation.md",
-  "sourceRevision": "731bcf5b4e44f089698184c26f6a7b6e26f8af54",
+  "sourceRevision": "63f2489c2b2779f3767bcbd74ddc83a03055f10d",
   "units": [
     {
       "id": "u_57e08f45689b6bdcde47ec84_0",
@@ -130,8 +130,15 @@
       "sourceHash": "26c5a29e7250973eee69a21a73ea4bf4a70c2ba6472b5c6055187b613d971cc5",
       "context": "Presentation > How it works",
       "contextHash": "7e64bc22c8546ad9f25454c582b70b75757a19727f0733af65bbcccba0a26709",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "スライドサイドバーにすでにスライドの一覧が表示されているため、スライドはデフォルトでは __TRILIUM_PH_0__ノートツリー__TRILIUM_PH_1__ に表示されません（__TRILIUM_PH_2__サブツリーの非表示__TRILIUM_PH_3__ を参照してください）。表示するには、コレクションの __TRILIUM_PH_4__ 設定を開き、__TRILIUM_PH_5__ツリー内の子ノートを非表示__TRILIUM_PH_6__ をオフにしてください。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-16T10:18:13.154Z"
     },
     {
       "id": "u_1655c280dbe89919a10e3f2a_0",
@@ -854,8 +861,15 @@
       "sourceHash": "c451c6c0dab84e08087251d3f406f2f0e11b00afd597f76538a78ee2f388f721",
       "context": "Presentation > Interaction and navigation > Controls below the slides > Editing",
       "contextHash": "429f416db5605ac671df23228d11764d1a3136d9674aa887bcec7dbd3396e78c",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "__TRILIUM_PH_0__ウェブビュー__TRILIUM_PH_1__ および __TRILIUM_PH_2__スプレッドシート__TRILIUM_PH_3__ は、そのタイプの空のノートを作成します。その内容は、__TRILIUM_PH_4__クイック編集__TRILIUM_PH_5__ 内の __TRILIUM_PH_6__ __TRILIUM_PH_7__このスライドを編集__TRILIUM_PH_8__ ボタンから追加します。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-16T10:18:13.154Z"
     },
     {
       "id": "u_2cd16e6dca19551e2397dead_0",
@@ -1673,8 +1687,15 @@
       "sourceHash": "dbc38b29c91a9d39e1270b5be99f2cac2b7f91d1b65d629c890c85e2b6d366b3",
       "context": "Presentation > Tips and tricks",
       "contextHash": "e7fdebb7a4d6da113919112c1b82e7aec44d9f5338eef9f36dc1d9dc46d06d87",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "テキストノートだけでなく、他のノートタイプも使用してみてください。プレゼンテーションは __TRILIUM_PH_0__共有ノート__TRILIUM_PH_1__ や __TRILIUM_PH_2__ノートリスト__TRILIUM_PH_3__ と同じ仕組みを使用しているため、__TRILIUM_PH_4__Mermaidダイアグラム__TRILIUM_PH_5__、__TRILIUM_PH_6__キャンバス__TRILIUM_PH_7__、__TRILIUM_PH_8__マインドマップ__TRILIUM_PH_9__ を（インタラクティビティなしで）フルスクリーンで表示できるはずです。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-16T10:18:13.154Z"
     },
     {
       "id": "u_00fc183af15c2817c604c526_0",
@@ -1894,6 +1915,25 @@
       "model": "gemini-3.5-flash-lite",
       "batchJob": "batches/8vehrrvdpag09tp4gjf9dbgj006t9k2gkkyl",
       "requestKey": "zP3PMqaG71Ct_046f494a286c1d64"
+    },
+    {
+      "at": "2026-11-16T10:18:13.154Z",
+      "model": "gemini-3.5-flash-lite",
+      "batchJob": "batches/pv3s6a45c9mct38ei9ubwv0didxm6r2rrbu7",
+      "requestKey": "zP3PMqaG71Ct_6313b1767dad87fd",
+      "modelVersion": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 954,
+        "candidatesTokenCount": 663,
+        "totalTokenCount": 1617,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 954
+          }
+        ],
+        "serviceTier": "standard"
+      }
     }
   ]
 }

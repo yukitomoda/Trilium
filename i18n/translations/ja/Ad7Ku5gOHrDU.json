@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "pageId": "Ad7Ku5gOHrDU",
   "sourceFile": "docs/User Guide/User Guide/Advanced Usage/Sharing/Custom share template.md",
-  "sourceRevision": "731bcf5b4e44f089698184c26f6a7b6e26f8af54",
+  "sourceRevision": "63f2489c2b2779f3767bcbd74ddc83a03055f10d",
   "units": [
     {
       "id": "u_4791f6f1a7e71e4defbf0c3d_0",
@@ -463,8 +463,15 @@
       "sourceHash": "1200c18bb404652bed2f65cb476c4ef89024b1e3584690bc6e14e19f15587c07",
       "context": "Custom share template > Available variables",
       "contextHash": "7eb1865b944a5278eab7c2caf323fc49b44191f8a1ea8c1719b9c41f4b9ecda1",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "ページの言語：__TRILIUM_PH_0__ はアプリケーションの言語の __TRILIUM_PH_1__ および __TRILIUM_PH_2__ を使用し、__TRILIUM_PH_3__ はノートのコンテンツの言語を使用します。これらが同じ場合は __TRILIUM_PH_4__ になります。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-16T10:18:13.154Z"
     },
     {
       "id": "u_1340d8365ccf6e9f1907f0f3_0",
@@ -473,8 +480,15 @@
       "sourceHash": "1340d8365ccf6e9f1907f0f3ce778c9742be9819d5a938639455b9ff4912f118",
       "context": "Custom share template > Available variables",
       "contextHash": "7eb1865b944a5278eab7c2caf323fc49b44191f8a1ea8c1719b9c41f4b9ecda1",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "ノートが最後に変更された日時。__TRILIUM_PH_0__ 要素の場合は __TRILIUM_PH_1__ として、アプリケーションの言語の場合は __TRILIUM_PH_2__ として表されます。ページ全体を占めるノートの場合は __TRILIUM_PH_3__ になります。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-16T10:18:13.154Z"
     },
     {
       "id": "u_cbcf74fd2bda3e37a75e2e0d_0",
@@ -790,6 +804,25 @@
       "model": "gemini-3.5-flash-lite",
       "batchJob": "batches/8vehrrvdpag09tp4gjf9dbgj006t9k2gkkyl",
       "requestKey": "Ad7Ku5gOHrDU_43aff9bf16feb434"
+    },
+    {
+      "at": "2026-11-16T10:18:13.154Z",
+      "model": "gemini-3.5-flash-lite",
+      "batchJob": "batches/pv3s6a45c9mct38ei9ubwv0didxm6r2rrbu7",
+      "requestKey": "Ad7Ku5gOHrDU_67aaaff4c74c9ff7",
+      "modelVersion": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 717,
+        "candidatesTokenCount": 373,
+        "totalTokenCount": 1090,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 717
+          }
+        ],
+        "serviceTier": "standard"
+      }
     }
   ]
 }

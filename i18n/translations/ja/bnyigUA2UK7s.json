@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "pageId": "bnyigUA2UK7s",
   "sourceFile": "docs/User Guide/User Guide/Troubleshooting/Error logs/Backend (server) logs.md",
-  "sourceRevision": "731bcf5b4e44f089698184c26f6a7b6e26f8af54",
+  "sourceRevision": "63f2489c2b2779f3767bcbd74ddc83a03055f10d",
   "units": [
     {
       "id": "u_35eb95821576df09346c271d_0",
@@ -157,8 +157,15 @@
       "sourceHash": "6071380aa16ca8397c3f589f7a431381c6a26b002c465ccca57dbca2ebf05729",
       "context": "Backend (server) logs > Location on the disk",
       "contextHash": "94c8431a0942bf71111693387e8e7c84bb312fa8dae0876783d548f277a1e07a",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "バックエンドログはファイルシステムに保存されます。これらを見つけるには、__TRILIUM_PH_0__データディレクトリ__TRILIUM_PH_1__を開き、__TRILIUM_PH_2__サブディレクトリに移動して、__TRILIUM_PH_3__などの最新のログファイルを見つけてください。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-16T10:18:13.154Z"
     },
     {
       "id": "u_19aafb564dee4db8f78dd28f_0",
@@ -404,6 +411,25 @@
       "model": "gemini-3.5-flash-lite",
       "batchJob": "batches/8vehrrvdpag09tp4gjf9dbgj006t9k2gkkyl",
       "requestKey": "bnyigUA2UK7s_fdb19b63de83fc65"
+    },
+    {
+      "at": "2026-11-16T10:18:13.154Z",
+      "model": "gemini-3.5-flash-lite",
+      "batchJob": "batches/pv3s6a45c9mct38ei9ubwv0didxm6r2rrbu7",
+      "requestKey": "bnyigUA2UK7s_9cf2d5f2e0e6962b",
+      "modelVersion": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 633,
+        "candidatesTokenCount": 295,
+        "totalTokenCount": 928,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 633
+          }
+        ],
+        "serviceTier": "standard"
+      }
     }
   ]
 }

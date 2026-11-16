@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "pageId": "6RM1Q7ppFVoj",
   "sourceFile": "docs/User Guide/User Guide/Note Types/Markdown.md",
-  "sourceRevision": "731bcf5b4e44f089698184c26f6a7b6e26f8af54",
+  "sourceRevision": "63f2489c2b2779f3767bcbd74ddc83a03055f10d",
   "units": [
     {
       "id": "u_ee74dcdf15c392a79852c55a_0",
@@ -181,8 +181,15 @@
       "sourceHash": "d2714ada89b513efab6de80fca69b9355ae47d7d9c19ded4a1bc75f13b220ee0",
       "context": "Markdown > Features > Source view pane",
       "contextHash": "61767916234d2a9accbb8239c8b0879d918898802a788e54a5d4fe839d12f28e",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "__TRILIUM_PH_0__Mermaid Diagrams__TRILIUM_PH_1__ を含む __TRILIUM_PH_2__ ブロック内のコードに対する、ネストされたシンタックスハイライト。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-16T10:18:13.154Z"
     },
     {
       "id": "u_713585f3ec9e5eaf3205491d_0",
@@ -2106,6 +2113,25 @@
       "model": "gemini-3.5-flash-lite",
       "batchJob": "batches/8vehrrvdpag09tp4gjf9dbgj006t9k2gkkyl",
       "requestKey": "6RM1Q7ppFVoj_c38a91cded35c5c6"
+    },
+    {
+      "at": "2026-11-16T10:18:13.154Z",
+      "model": "gemini-3.5-flash-lite",
+      "batchJob": "batches/pv3s6a45c9mct38ei9ubwv0didxm6r2rrbu7",
+      "requestKey": "6RM1Q7ppFVoj_9d6f7d37dfb99c23",
+      "modelVersion": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 1149,
+        "candidatesTokenCount": 793,
+        "totalTokenCount": 1942,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 1149
+          }
+        ],
+        "serviceTier": "standard"
+      }
     }
   ]
 }

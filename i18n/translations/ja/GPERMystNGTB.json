@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "pageId": "GPERMystNGTB",
   "sourceFile": "docs/User Guide/User Guide/Scripting/Backend scripts/Backend Events.md",
-  "sourceRevision": "731bcf5b4e44f089698184c26f6a7b6e26f8af54",
+  "sourceRevision": "63f2489c2b2779f3767bcbd74ddc83a03055f10d",
   "units": [
     {
       "id": "u_8999fa2fd331bb64cedae09a_0",
@@ -742,8 +742,15 @@
       "sourceHash": "3bc02423a1d2f2d3a7251faa6e657aa1950f8c3551e63eed622ee5ab0bf956ef",
       "context": "Backend Events > Origin entity",
       "contextHash": "dccbf1e559e232c65b3aa61845d53c4bb3e4df632dc6ba1f9e47fff325ad907f",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "例えば、これは __TRILIUM_PH_0__ を使用したスクリプトで、__TRILIUM_PH_1__ ラベルの値に基づいてノートの色を自動的に変更します：",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-16T10:18:13.154Z"
     },
     {
       "id": "u_addc01a98074b4d4102b3a39_0",
@@ -824,6 +831,25 @@
       "model": "gemini-3.5-flash-lite",
       "batchJob": "batches/8vehrrvdpag09tp4gjf9dbgj006t9k2gkkyl",
       "requestKey": "GPERMystNGTB_693105ea96b7c5af"
+    },
+    {
+      "at": "2026-11-16T10:18:13.154Z",
+      "model": "gemini-3.5-flash-lite",
+      "batchJob": "batches/pv3s6a45c9mct38ei9ubwv0didxm6r2rrbu7",
+      "requestKey": "GPERMystNGTB_0d65218d54e46bf4",
+      "modelVersion": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 396,
+        "candidatesTokenCount": 112,
+        "totalTokenCount": 508,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 396
+          }
+        ],
+        "serviceTier": "standard"
+      }
     }
   ]
 }

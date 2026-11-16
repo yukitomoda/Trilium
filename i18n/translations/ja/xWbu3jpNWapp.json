@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "pageId": "xWbu3jpNWapp",
   "sourceFile": "docs/User Guide/User Guide/Collections/Calendar.md",
-  "sourceRevision": "731bcf5b4e44f089698184c26f6a7b6e26f8af54",
+  "sourceRevision": "63f2489c2b2779f3767bcbd74ddc83a03055f10d",
   "units": [
     {
       "id": "u_2a8fe63f879bccedcbd0119b_0",
@@ -1986,8 +1986,15 @@
       "sourceHash": "d2049e7903df5c36f58311f8d88c242ad8490f13027926c5adbc75d73d377ffb",
       "context": "Calendar > Configuring the calendar events using attributes",
       "contextHash": "7dd5f06fbab17c228c1cb5fb81be133f175c13f43b1856f40e9d3363e9252502",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "__TRILIUM_PH_0__以外の、開始日を表す別のラベルを使用できるようにします（例: __TRILIUM_PH_1__）。ラベル名には__TRILIUM_PH_2__必ず__TRILIUM_PH_3__ __TRILIUM_PH_4__を接頭辞として付けないでください。ノートにラベルが定義されていない場合は、代わりにデフォルトが使用されます。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-16T10:18:13.154Z"
     },
     {
       "id": "u_b580a44dd7f0500d9c299bfe_0",
@@ -3950,6 +3957,25 @@
           {
             "modality": "TEXT",
             "tokenCount": 1590
+          }
+        ],
+        "serviceTier": "standard"
+      }
+    },
+    {
+      "at": "2026-11-16T10:18:13.154Z",
+      "model": "gemini-3.5-flash-lite",
+      "batchJob": "batches/pv3s6a45c9mct38ei9ubwv0didxm6r2rrbu7",
+      "requestKey": "xWbu3jpNWapp_7f7eace7535b7459",
+      "modelVersion": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 1429,
+        "candidatesTokenCount": 1091,
+        "totalTokenCount": 2520,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 1429
           }
         ],
         "serviceTier": "standard"

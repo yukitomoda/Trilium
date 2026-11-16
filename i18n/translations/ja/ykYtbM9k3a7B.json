@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "pageId": "ykYtbM9k3a7B",
   "sourceFile": "docs/User Guide/User Guide/Scripting/Frontend Basics/Preact/Hooks.md",
-  "sourceRevision": "731bcf5b4e44f089698184c26f6a7b6e26f8af54",
+  "sourceRevision": "63f2489c2b2779f3767bcbd74ddc83a03055f10d",
   "units": [
     {
       "id": "u_60508343faeab0e538252cdd_0",
@@ -164,8 +164,15 @@
       "sourceHash": "5226d954735816f19bb31541ca0be2222c361f8e55875d58b0e0e3bcb20502c1",
       "context": "Hooks > Custom hooks > useNoteProperty",
       "contextHash": "083b6c76d40a0004eaab737a53b9503be5cf6bcb22871b44f1655b56aa651832",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "このフックを使用すると、__TRILIUM_PH_0__の特定の値（ノートの__TRILIUM_PH_1__や__TRILIUM_PH_2__など）の変更を「リッスン」できます。このフックを使用する利点は、例えばノートのタイトルやタイプが変更された場合に、実際にその変更に反応できることです。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-16T10:18:13.154Z"
     }
   ],
   "requests": [
@@ -174,6 +181,25 @@
       "model": "gemini-3.5-flash-lite",
       "batchJob": "batches/8vehrrvdpag09tp4gjf9dbgj006t9k2gkkyl",
       "requestKey": "ykYtbM9k3a7B_98f675bb84927d48"
+    },
+    {
+      "at": "2026-11-16T10:18:13.154Z",
+      "model": "gemini-3.5-flash-lite",
+      "batchJob": "batches/pv3s6a45c9mct38ei9ubwv0didxm6r2rrbu7",
+      "requestKey": "ykYtbM9k3a7B_d0a4ef194cd4dd75",
+      "modelVersion": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 435,
+        "candidatesTokenCount": 155,
+        "totalTokenCount": 590,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 435
+          }
+        ],
+        "serviceTier": "standard"
+      }
     }
   ]
 }

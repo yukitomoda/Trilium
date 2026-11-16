@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "pageId": "xYjQUYhpbUEW",
   "sourceFile": "docs/User Guide/User Guide/Advanced Usage/Advanced Showcases/Task Manager.md",
-  "sourceRevision": "731bcf5b4e44f089698184c26f6a7b6e26f8af54",
+  "sourceRevision": "63f2489c2b2779f3767bcbd74ddc83a03055f10d",
   "units": [
     {
       "id": "u_2907f6bee37bd508accd96b2_0",
@@ -79,8 +79,15 @@
       "sourceHash": "758ad999fbdbd0185076f551895bfc7e5bec50ba02701c591b09a97331a99d28",
       "context": "Task Manager > Demo",
       "contextHash": "be7f0a69a48e8298393bb092a6215f66564238b2148e54a3dae297fc8d39e804",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "タスクマネージャーは__TRILIUM_PH_0__デイリーノート__TRILIUM_PH_1__とも統合されています。ノートは__TRILIUM_PH_2__クローン__TRILIUM_PH_3__され、「TODO」または「DONE」の__TRILIUM_PH_4__プレフィックス__TRILIUM_PH_5__を付けて、todoDateノートとdoneDateノートの両方に配置されます。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-16T10:18:13.154Z"
     },
     {
       "id": "u_c788b3e403abfb1a09af9098_0",
@@ -312,6 +319,25 @@
       "model": "gemini-3.5-flash-lite",
       "batchJob": "batches/8vehrrvdpag09tp4gjf9dbgj006t9k2gkkyl",
       "requestKey": "xYjQUYhpbUEW_32f5897e06fcacaf"
+    },
+    {
+      "at": "2026-11-16T10:18:13.154Z",
+      "model": "gemini-3.5-flash-lite",
+      "batchJob": "batches/pv3s6a45c9mct38ei9ubwv0didxm6r2rrbu7",
+      "requestKey": "xYjQUYhpbUEW_2a41b96ea2530dca",
+      "modelVersion": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 446,
+        "candidatesTokenCount": 155,
+        "totalTokenCount": 601,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 446
+          }
+        ],
+        "serviceTier": "standard"
+      }
     }
   ]
 }
