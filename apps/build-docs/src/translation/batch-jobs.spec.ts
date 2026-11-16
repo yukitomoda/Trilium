@@ -10,6 +10,7 @@ import { loadJobs, runBatchTranslation, saveJob, type TranslationPage } from "./
 import { type BatchRequest, type BatchService,createBatchService, parseBatchResponse, TranslationIdError } from "./gemini";
 import { loadMemory, reconcile } from "./memory";
 import { extractPage } from "./segments";
+import { TEXT_SLOT_FORMAT, textSlots } from "./text-slots";
 
 const conditions = { model: "gemini-3.5-flash-lite", promptHash: "p", glossaryHash: "g" };
 async function page(root: string, id: string): Promise<TranslationPage> {
@@ -24,7 +25,10 @@ function response(request: BatchRequest) {
     const result = new GenerateContentResponse();
     result.candidates = [ { finishReason: FinishReason.STOP, content: { parts: [ {
         text: JSON.stringify({ requestKey: request.key, translations: request.units.map((unit) => ({
-            id: unit.id, translation: unit.source.replace("Hello", "こんにちは")
+            id: unit.id, translation: request.format === TEXT_SLOT_FORMAT
+                ? Object.fromEntries(Object.entries(textSlots(unit.source))
+                    .map(([ id, text ]) => [ id, text.replace("Hello", "こんにちは") ]))
+                : unit.source.replace("Hello", "こんにちは")
         })) })
     } ] } } ];
     result.usageMetadata = { totalTokenCount: 10 };
@@ -304,7 +308,7 @@ void test("a broken unit does not discard valid siblings and only that unit is r
                 gets++;
                 const result = response(requests[0]);
                 const payload = JSON.parse(result.candidates![0].content!.parts![0].text!);
-                payload.translations[1].translation += "__TRILIUM_PH_99__";
+                payload.translations[1].translation.t0 += "__TRILIUM_PH_99__";
                 result.candidates![0].content!.parts![0].text = JSON.stringify(payload);
                 return { name: "batches/job-1", state: JobState.JOB_STATE_SUCCEEDED,
                     dest: { inlinedResponses: [ { response: result } ] } };
@@ -318,7 +322,7 @@ void test("a broken unit does not discard valid siblings and only that unit is r
         const saved = (await loadJobs(options.directory))[0];
         assert.equal(Object.keys(saved.requests[0].result!.translations).length, 1);
         assert.equal(saved.requests[0].unitErrors![pages[0].memory.units[1].id],
-            "Translation changed protected placeholders");
+            "Invalid structured translation slots");
         assert.equal(saved.rejectedResponses!.length, 1);
         const retry = await runBatchTranslation(pages, options);
         assert.equal(retry.submitted, 1);
@@ -359,4 +363,53 @@ void test("archived rejected output recovers valid units offline and preserves h
         assert.equal(pages[0].memory.requests.length, count);
         assert.equal(Object.keys((await loadJobs(directory))[0].requests[0].result!.translations).length, 1);
     } finally { await rm(root, { recursive: true, force: true }); }
+});
+
+void test("pending legacy batches collect without conversion or resubmission", async () => {
+    const root = await mkdtemp(join(tmpdir(), "trilium-legacy-pending-"));
+    try {
+        const pages = [ await page(root, "one") ];
+        const request = { key: "legacy-request", pageId: "one", units: pages[0].memory.units };
+        const directory = join(root, "jobs");
+        await saveJob(directory, { schemaVersion: 1, id: "legacy", name: "batches/legacy",
+            createdAt: "2026-11-14T00:00:00Z", conditions, phase: "pending", requests: [ request ] });
+        const result = await runBatchTranslation(pages, { directory, conditions, submit: true,
+            limit: 20, refresh: false, service: {
+                async create() { throw new Error("Must not resubmit legacy units"); },
+                async get() { return { name: "batches/legacy", state: JobState.JOB_STATE_SUCCEEDED,
+                    dest: { inlinedResponses: [ { response: response(request) } ] } }; }
+            } });
+        assert.equal(result.submitted, 0);
+        assert.equal(result.failed, false);
+        assert.equal(pages[0].memory.units[1].translation, "こんにちは one");
+    } finally { await rm(root, { recursive: true, force: true }); }
+});
+
+void test("new requests persist the text-slot protocol and bound schema complexity", async () => {
+    const root = await mkdtemp(join(tmpdir(), "trilium-slot-limit-"));
+    const links = Array.from({ length: 30 }, (_, i) => ` before <a href="/p${i}">label${i}</a> after`).join("");
+    const document = extractPage(`<html><body><div id="translation-body">${
+        Array.from({ length: 4 }, (_, i) => `<p>Paragraph ${i}${links}</p>`).join("")
+    }</div></body></html>`, "Guide");
+    try {
+        const memory = reconcile(undefined, document.segments,
+            { pageId: "one", sourceFile: "one.md", sourceRevision: "rev" }, conditions);
+        const directory = join(root, "jobs");
+        await runBatchTranslation([ { path: join(root, "one.json"), memory } ], {
+            directory, conditions, submit: true, limit: 20, refresh: false,
+            service: { async create(requests) {
+                assert.ok(requests.length > 1);
+                assert.equal(requests.flatMap((r) => r.units).length, memory.units.length);
+                for (const request of requests) {
+                    assert.equal(request.format, TEXT_SLOT_FORMAT);
+                    assert.ok(request.units.reduce((n, u) => n + Object.keys(textSlots(u.source)).length, 0) <= 96);
+                }
+                return { name: "batches/slots", state: JobState.JOB_STATE_PENDING };
+            }, async get() { throw new Error("Not expected"); } }
+        });
+        assert.ok((await loadJobs(directory))[0].requests.every((r) => r.format === TEXT_SLOT_FORMAT));
+    } finally {
+        await document.close();
+        await rm(root, { recursive: true, force: true });
+    }
 });

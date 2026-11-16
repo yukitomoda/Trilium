@@ -7,6 +7,7 @@ import { type BatchJob, FinishReason, GenerateContentResponse } from "@google/ge
 import { type BatchRequest, type BatchService, parseBatchResponse, TranslationIdError } from "./gemini";
 import { type Conditions, type Memory, pendingUnits, saveMemory } from "./memory";
 import { hash, validateTranslation } from "./segments";
+import { TEXT_SLOT_FORMAT, textSlots } from "./text-slots";
 
 interface SavedRequest extends BatchRequest {
     result?: { translations: Record<string, string>; modelVersion?: string; usage?: unknown };
@@ -39,6 +40,10 @@ export async function loadJobs(directory: string): Promise<SavedJob[]> {
         if (job.schemaVersion !== 1 || !Array.isArray(job.requests)
             || job.id !== name.slice(0, -5) || !job.conditions) {
             throw new Error(`Invalid batch journal: ${name}`);
+        }
+        if (job.requests.some((request: BatchRequest) => request.format !== undefined
+            && request.format !== TEXT_SLOT_FORMAT)) {
+            throw new Error(`Unsupported batch response protocol: ${name}`);
         }
         return job as SavedJob;
     }));
@@ -181,7 +186,7 @@ async function receive(directory: string, job: SavedJob, remote: BatchJob) {
                     "Unexpected batch request key or translation count",
                     "Unexpected or duplicate translation ID", "Empty or invalid translation",
                     "Translation changed protected placeholders", "Duplicate batch response key",
-                    "Some translation units failed validation" ];
+                    "Some translation units failed validation", "Invalid structured translation slots" ];
                 const reason = error instanceof Error && allowed.includes(error.message)
                     ? error.message : "Malformed batch response structure";
                 const requestKey = error instanceof TranslationIdError ? error.requestKey
@@ -252,18 +257,21 @@ export async function runBatchTranslation(pages: TranslationPage[], options: {
         for (let offset = 0; offset < units.length;) {
             const chunk = [];
             let size = 0;
+            let slots = 0;
             while (offset < units.length && chunk.length < 16) {
                 const unit = units[offset];
-                if (chunk.length && size + unit.source.length > 10000) break;
+                const slotCount = Object.keys(textSlots(unit.source)).length;
+                if (chunk.length && (size + unit.source.length > 10000 || slots + slotCount > 96)) break;
+                slots += slotCount;
                 chunk.push({ id: unit.id, kind: unit.kind, source: unit.source,
                     sourceHash: unit.sourceHash, context: unit.context,
                     contextHash: unit.contextHash });
                 size += unit.source.length;
                 offset++;
             }
-            const key = `${page.memory.pageId}_${hash(JSON.stringify(chunk)).slice(0, 16)}`;
+            const key = `${page.memory.pageId}_${hash(JSON.stringify([ TEXT_SLOT_FORMAT, chunk ])).slice(0, 16)}`;
             requests.push({ key,
-                pageId: page.memory.pageId, units: chunk });
+                pageId: page.memory.pageId, units: chunk, format: TEXT_SLOT_FORMAT });
         }
     }
     // Save collected results before another network operation can fail.

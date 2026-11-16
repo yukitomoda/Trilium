@@ -1,11 +1,13 @@
 import { ApiError, type BatchJob, type GenerateContentResponse, GoogleGenAI, Type } from "@google/genai";
 
 import { type Segment, validateTranslation } from "./segments";
+import { restoreTextSlots, slotContext, TEXT_SLOT_FORMAT, textSlotPrompt, textSlots } from "./text-slots";
 
 export interface BatchRequest {
     key: string;
     pageId: string;
     units: Segment[];
+    format?: typeof TEXT_SLOT_FORMAT;
 }
 export interface GeminiOptions {
     apiKey: string;
@@ -33,7 +35,7 @@ export function parseBatchResponse(data: GenerateContentResponse, requests: Batc
     if (candidate?.finishReason !== "STOP") throw new Error("Incomplete Gemini batch response");
     const text = candidate.content?.parts?.filter((part) => !part.thought)
         .map((part) => part.text ?? "").join("") ?? "";
-    let result: { requestKey: string; translations: Record<string, string> | { id: string; translation: string }[] };
+    let result: { requestKey: string; translations: Record<string, unknown> | { id: string; translation: unknown }[] };
     try { result = JSON.parse(text); } catch { throw new Error("Invalid batch response JSON"); }
     const request = requests.find((request) => request.key === result?.requestKey);
     const entries = Array.isArray(result?.translations) ? result.translations
@@ -68,12 +70,16 @@ export function parseBatchResponse(data: GenerateContentResponse, requests: Batc
             throw new Error("Unexpected or duplicate translation ID");
         }
         try {
-            validateTranslation(unit.source, entry.translation);
-            translations[entry.id] = entry.translation;
+            const translation = request.format === TEXT_SLOT_FORMAT
+                ? restoreTextSlots(unit.source, entry.translation) : entry.translation;
+            if (typeof translation !== "string") throw new Error("Empty or invalid translation");
+            validateTranslation(unit.source, translation);
+            translations[entry.id] = translation;
         } catch (error) {
             if (!allowPartial) throw error;
-            unitErrors[entry.id] = typeof entry.translation !== "string" || !entry.translation.trim()
-                ? "Empty or invalid translation" : "Translation changed protected placeholders";
+            unitErrors[entry.id] = request.format === TEXT_SLOT_FORMAT ? "Invalid structured translation slots"
+                : typeof entry.translation !== "string" || !entry.translation.trim()
+                    ? "Empty or invalid translation" : "Translation changed protected placeholders";
         }
     }
     return { key: request.key, translations, unitErrors, modelVersion: data.modelVersion,
@@ -100,10 +106,12 @@ export function createBatchService(options: GeminiOptions): BatchService {
                 metadata: { key: request.key },
                 contents: [ { role: "user", parts: [ { text: JSON.stringify({
                     requestKey: request.key, glossary: options.glossary,
-                    units: request.units.map(({ id, source, context }) => ({ id, source, context }))
+                    units: request.units.map(({ id, source, context }) => request.format === TEXT_SLOT_FORMAT
+                        ? { id, source: slotContext(source), context, spans: textSlots(source) }
+                        : { id, source, context })
                 }) } ] } ],
                 config: {
-                    systemInstruction: options.prompt,
+                    systemInstruction: request.format === TEXT_SLOT_FORMAT ? textSlotPrompt(options.prompt) : options.prompt,
                     responseMimeType: "application/json",
                     responseSchema: {
                         type: Type.OBJECT, required: [ "requestKey", "translations" ],
@@ -112,7 +120,11 @@ export function createBatchService(options: GeminiOptions): BatchService {
                             translations: { type: Type.OBJECT,
                                 required: request.units.map((unit) => unit.id),
                                 properties: Object.fromEntries(request.units.map((unit) => [
-                                    unit.id, { type: Type.STRING }
+                                    unit.id, request.format === TEXT_SLOT_FORMAT ? { type: Type.OBJECT,
+                                        required: Object.keys(textSlots(unit.source)),
+                                        properties: Object.fromEntries(Object.keys(textSlots(unit.source))
+                                            .map((id) => [ id, { type: Type.STRING } ])) }
+                                        : { type: Type.STRING }
                                 ])) }
                         }
                     }

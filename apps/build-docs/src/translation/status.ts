@@ -9,6 +9,7 @@ const sameConditions = (left: Conditions, right: Conditions) => left.model === r
 
 function reasonLabel(reason: string) {
     if (reason === "Translation changed protected placeholders") return "保護マーカーの変更・欠落・順序不一致";
+    if (reason === "Invalid structured translation slots") return "構造化出力のテキスト枠の不足・形式不正";
     if (reason === "Empty or invalid translation") return "空または文字列でない訳文";
     if (/^Gemini Batch API HTTP \d{3}$/.test(reason)) return reason;
     if (reason.includes("JSON")) return "返答JSONの形式不正";
@@ -44,7 +45,9 @@ export function translationStatus(pages: StatusPage[], jobs: SavedJob[], conditi
             }
         }
         return { id: job.id, name: job.name ?? job.id, createdAt: job.createdAt,
-            phase: job.phase, succeeded, failed, pending: waiting, uncertain: unknown };
+            phase: job.phase, format: [ ...new Set(job.requests.map((request) => request.format
+                ? "固定テキスト枠" : "従来のマーカー形式")) ].join(" / "),
+            succeeded, failed, pending: waiting, uncertain: unknown };
     });
     const totals = { total: 0, translated: 0, needsReview: 0, available: 0,
         pending: 0, uncertain: 0, failed: 0, untracked: 0 };
@@ -103,12 +106,12 @@ export function statusMarkdown(status: ReturnType<typeof translationStatus>, obs
         ? status.batches.filter((batch) => observedJobs.includes(batch.id)) : status.batches.slice(-10);
     lines.push(observedJobs.length ? "### 今回確認したバッチ" : "### 最近のバッチ（今回の取得件数ではありません）", "",
         "成功は各バッチに保存された正常な部分数です。過去の取得結果を含み、バッチ間の再試行は重複するため、この表の件数を合計しないでください。日時はUTCです。", "",
-        "| バッチ | 作成日時 | 状態 | 成功 | 失敗 | 処理中 | 不明 |", "|---|---|---|---:|---:|---:|---:|");
+        "| バッチ | 作成日時 | 状態 | 形式 | 成功 | 失敗 | 処理中 | 不明 |", "|---|---|---|---|---:|---:|---:|---:|");
     for (const batch of selected) {
         const phase = { complete: batch.failed ? "回収済み（一部失敗）" : "回収済み",
             pending: "処理中", submitting: "送信準備・確認中", uncertain: "送信結果不明",
             failed: "ジョブ失敗" }[batch.phase];
-        lines.push(`| ${cell(batch.name)} | ${cell(batch.createdAt)} | ${phase} | ${batch.succeeded} | ${batch.failed} | ${batch.pending} | ${batch.uncertain} |`);
+        lines.push(`| ${cell(batch.name)} | ${cell(batch.createdAt)} | ${phase} | ${batch.format} | ${batch.succeeded} | ${batch.failed} | ${batch.pending} | ${batch.uncertain} |`);
     }
     lines.push("", "詳細な単位IDとページ別件数は、実行のArtifactsにあるtranslation-memory内のstatus.jsonを参照してください。", "");
     return lines.join("\n");
