@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "pageId": "lwAX5SvbrK2g",
   "sourceFile": "docs/User Guide/User Guide/Installation & Setup/Server Installation/Authentication/Resetting your password.md",
-  "sourceRevision": "63f2489c2b2779f3767bcbd74ddc83a03055f10d",
+  "sourceRevision": "f782bf56148719d1461f07015cebd6e3f273f957",
   "units": [
     {
       "id": "u_acfeb165dcf8765a8ff5f19c_0",
@@ -232,8 +232,15 @@
       "sourceHash": "f1433df101d68aed7917edd97f4431983312e2f5266c10033fb34f44944c5a2c",
       "context": "Resetting your password > By altering the database",
       "contextHash": "22003ee7eb6396af4605952a63f8e5b0e727ab21107382cec64094e0fc106895",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "データディレクトリにある __TRILIUM_PH_0__データベース__TRILIUM_PH_1__ ファイルにアクセスします。 __TRILIUM_PH_2____TRILIUM_PH_3__SQLiteクライアント（例： __TRILIUM_PH_4__  __TRILIUM_PH_5__DB Browser__TRILIUM_PH_6__など）を使用してそのファイルを開きます。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-16T11:52:29.295Z"
     },
     {
       "id": "u_163e64374481c9aaa659092a_0",
@@ -375,6 +382,25 @@
       "model": "gemini-3.5-flash-lite",
       "batchJob": "batches/wazxmzaiela6jn8aqd7kybq00i98rm3g571n",
       "requestKey": "lwAX5SvbrK2g_912c8a174c176c85"
+    },
+    {
+      "at": "2026-11-16T11:52:29.295Z",
+      "model": "gemini-3.5-flash-lite",
+      "batchJob": "batches/yfm05orxz60fe1t80oz670gs2xgx5x0u8fkd",
+      "requestKey": "lwAX5SvbrK2g_290cd4ca1c77c8be",
+      "modelVersion": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 528,
+        "candidatesTokenCount": 162,
+        "totalTokenCount": 690,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 528
+          }
+        ],
+        "serviceTier": "standard"
+      }
     }
   ]
 }

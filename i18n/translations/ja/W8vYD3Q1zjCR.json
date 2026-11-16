@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "pageId": "W8vYD3Q1zjCR",
   "sourceFile": "docs/User Guide/User Guide/Note Types/File.md",
-  "sourceRevision": "63f2489c2b2779f3767bcbd74ddc83a03055f10d",
+  "sourceRevision": "f782bf56148719d1461f07015cebd6e3f273f957",
   "units": [
     {
       "id": "u_72ea9d81f4543da90d7ad058_0",
@@ -232,8 +232,15 @@
       "sourceHash": "d1720a03f2c42b0df04a6f903db13eaeaeff28f446443a85803674ca7539acab",
       "context": "File > Office documents > Images",
       "contextHash": "cc50228b48724d7157af3fd58be1d4109a7d7582b161b6972b1a41bc8ce5e31d",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": " __TRILIUM_PH_0__画像参照__TRILIUM_PH_1__ は、ノートボタンエリアにある __TRILIUM_PH_2__ アイコンを押すことでコピーでき、 __TRILIUM_PH_3____TRILIUM_PH_4__ を使ってテキストノートに貼り付けることができます。 __TRILIUM_PH_5__テキスト__TRILIUM_PH_6__ ノート",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-16T11:52:29.295Z"
     },
     {
       "id": "u_eec0f845777bc8252b5ff328_0",
@@ -769,8 +776,15 @@
       "sourceHash": "f8c012c9873d643cc5957f747eea9ff3d17e548409208450bec2b5ac135ddb76",
       "context": "File > Interaction",
       "contextHash": "4a1d38d4a184687ea0a09bb3d1c732fc0fc93304d78d4ae175f7ecac4ba01ac8",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": " __TRILIUM_PH_0__変更することは__TRILIUM_PH_1__ できません。 __TRILIUM_PH_2__ファイル__TRILIUM_PH_3__ ノートのノートタイプを",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-16T11:52:29.295Z"
     },
     {
       "id": "u_bb48d6ecf03b0025acc6dff8_0",
@@ -779,8 +793,15 @@
       "sourceHash": "bb48d6ecf03b0025acc6dff85313587706c38e2458b89a82caab375725547560",
       "context": "File > Interaction",
       "contextHash": "4a1d38d4a184687ea0a09bb3d1c732fc0fc93304d78d4ae175f7ecac4ba01ac8",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "ノートメニューから __TRILIUM_PH_0__添付ファイル__TRILIUM_PH_1__ に __TRILIUM_PH_2__変換します__TRILIUM_PH_3__",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-16T11:52:29.295Z"
     },
     {
       "id": "u_942ca3d36839d97b5a712ac6_0",
@@ -874,8 +895,15 @@
       "sourceHash": "775f3e57ea58c50d0b3a8060fad9224007bbc13ab908a4e286a986508c0227d6",
       "context": "File > File size limit",
       "contextHash": "ea294807c76316c9c74a8d0dedd39008b8bbb9ce0dc5f6bd32a4b965b2b939a4",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "1つのファイルのサイズは 374 MiB を超えることはできません。詳細については、 __TRILIUM_PH_0__インポートの最大サイズ__TRILIUM_PH_1__ （ __TRILIUM_PH_2__インポートとエクスポート__TRILIUM_PH_3__）を参照してください。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-16T11:52:29.295Z"
     },
     {
       "id": "u_b190d47815633246b0ab18a6_0",
@@ -1017,6 +1045,25 @@
       "model": "gemini-3.5-flash-lite",
       "batchJob": "batches/8vehrrvdpag09tp4gjf9dbgj006t9k2gkkyl",
       "requestKey": "W8vYD3Q1zjCR_dcb4fb3e26e75967"
+    },
+    {
+      "at": "2026-11-16T11:52:29.295Z",
+      "model": "gemini-3.5-flash-lite",
+      "batchJob": "batches/yfm05orxz60fe1t80oz670gs2xgx5x0u8fkd",
+      "requestKey": "W8vYD3Q1zjCR_85ce3d7b321472fe",
+      "modelVersion": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 828,
+        "candidatesTokenCount": 439,
+        "totalTokenCount": 1267,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 828
+          }
+        ],
+        "serviceTier": "standard"
+      }
     }
   ]
 }

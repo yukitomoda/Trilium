@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "pageId": "Wy267RK4M69c",
   "sourceFile": "docs/User Guide/User Guide/Basic Concepts and Features/Themes.md",
-  "sourceRevision": "63f2489c2b2779f3767bcbd74ddc83a03055f10d",
+  "sourceRevision": "f782bf56148719d1461f07015cebd6e3f273f957",
   "units": [
     {
       "id": "u_11e717ce1ab761747a21163d_0",
@@ -45,8 +45,15 @@
       "sourceHash": "4671ec7f4e19637ec69da3ec2e3b1779db82cddad4f96df4d53b63202dcd4c02",
       "context": "Themes > Default Themes",
       "contextHash": "b0a5e05d5794d94a41a247e2a467ed3bd58b8548b226f36028e6356344bcd82a",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "Triliumには、いくつかのカラーテーマがプリインストールされており、デフォルトではライトテーマが適用されます。ダークテーマやその他の利用可能なテーマに切り替えるには、 __TRILIUM_PH_0__ （画面左上のアプリココンからアクセスできる）オプションメニューへ移動し、「外観」タブを選択して、お好みのテーマを選んでください。 __TRILIUM_PH_1__テーマ__TRILIUM_PH_2__ サブメニューでは、 __TRILIUM_PH_3__グローバルメニュー__TRILIUM_PH_4__ テーマと配色も切り替えることができます。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-16T11:52:29.295Z"
     },
     {
       "id": "u_7c6004538e52c55c81f09f84_0",
@@ -770,6 +777,25 @@
           {
             "modality": "TEXT",
             "tokenCount": 687
+          }
+        ],
+        "serviceTier": "standard"
+      }
+    },
+    {
+      "at": "2026-11-16T11:52:29.295Z",
+      "model": "gemini-3.5-flash-lite",
+      "batchJob": "batches/yfm05orxz60fe1t80oz670gs2xgx5x0u8fkd",
+      "requestKey": "Wy267RK4M69c_cf9b88ade6254371",
+      "modelVersion": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 626,
+        "candidatesTokenCount": 205,
+        "totalTokenCount": 831,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 626
           }
         ],
         "serviceTier": "standard"

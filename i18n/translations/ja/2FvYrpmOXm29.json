@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "pageId": "2FvYrpmOXm29",
   "sourceFile": "docs/User Guide/User Guide/Collections/Table.md",
-  "sourceRevision": "63f2489c2b2779f3767bcbd74ddc83a03055f10d",
+  "sourceRevision": "f782bf56148719d1461f07015cebd6e3f273f957",
   "units": [
     {
       "id": "u_b698781339b0da934de59408_0",
@@ -436,8 +436,15 @@
       "sourceHash": "77916930d0039fda39d5c454d27c2e1c7d109df9cca9b8db3d975fc8ffee3766",
       "context": "Table > Interaction > Adding columns",
       "contextHash": "7cd5aab28eb275cfa8419d4530317e9370435f7fe4e9766d3528ce9a2d003735",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "列ヘッダーの空白部分を右クリックし、[New column]セクションで __TRILIUM_PH_0__Label__TRILIUM_PH_1__ または __TRILIUM_PH_2__Relation__TRILIUM_PH_3__ を選択します。 __TRILIUM_PH_4__New column__TRILIUM_PH_5__ ",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-16T11:52:29.295Z"
     },
     {
       "id": "u_bc4c24ee1542bfda2da1acaa_0",
@@ -1500,8 +1507,15 @@
       "sourceHash": "09d3b6598cda3ea90fd5d39e771992d1d1beacc1a3d62b92ea76c560bb3bd324",
       "context": "Table > Working with the data > Nested trees",
       "contextHash": "74c9cee9dd307db99495f41885ef98182e23a6a8d122c28354b484578fbdb56d",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "ネストが常に望ましいとは限らないため、ネストの階層数を制限したり、完全に無効にしたりすることが可能です。これを行うには、 __TRILIUM_PH_0__Note menu__TRILIUM_PH_1__ → __TRILIUM_PH_2__Table properties__TRILIUM_PH_3__ に移動し、（ __TRILIUM_PH_4__Maximum nesting depth__TRILIUM_PH_5__ セクション内の __TRILIUM_PH_6__Included notes__TRILIUM_PH_7__ ）を設定するか、コレクションの __TRILIUM_PH_8__ __TRILIUM_PH_9__label__TRILIUM_PH_10__ を設定します。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-16T11:52:29.295Z"
     },
     {
       "id": "u_08305fb4bed57cae4ebb3f71_0",
@@ -1646,8 +1660,15 @@
       "sourceHash": "6dc895da72c4e6883aad3370173840b02302521d1814de15e9b9a5f450d025be",
       "context": "Table > Use in search",
       "contextHash": "493804b60eb237253154eb3fdef7f2dd0995fbc7eba9c05b886d6b54cb6982d0",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "テーブルビューは、 __TRILIUM_PH_0__Saved Search__TRILIUM_PH_1__ に __TRILIUM_PH_2__ 属性を追加することで使用できます。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-16T11:52:29.295Z"
     },
     {
       "id": "u_adfe8f70685416942c58cc5d_0",
@@ -1724,8 +1745,15 @@
       "sourceHash": "f8aa95b606833263cd90074bad05bcb352964acd0664fa32be5647040086f4a3",
       "context": "Table > Use in search",
       "contextHash": "493804b60eb237253154eb3fdef7f2dd0995fbc7eba9c05b886d6b54cb6982d0",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "列は、 __TRILIUM_PH_0__Saved Search__TRILIUM_PH_1__ ノートに対する __TRILIUM_PH_2__Promoted Attributes__TRILIUM_PH_3__ として定義することでサポートされます。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-16T11:52:29.295Z"
     },
     {
       "id": "u_50a99c271adf540028e099ed_0",
@@ -1856,6 +1884,25 @@
       "model": "gemini-3.5-flash-lite",
       "batchJob": "batches/8vehrrvdpag09tp4gjf9dbgj006t9k2gkkyl",
       "requestKey": "2FvYrpmOXm29_6c4705c1f877abfe"
+    },
+    {
+      "at": "2026-11-16T11:52:29.295Z",
+      "model": "gemini-3.5-flash-lite",
+      "batchJob": "batches/yfm05orxz60fe1t80oz670gs2xgx5x0u8fkd",
+      "requestKey": "2FvYrpmOXm29_50c3fe397066dccb",
+      "modelVersion": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 932,
+        "candidatesTokenCount": 519,
+        "totalTokenCount": 1451,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 932
+          }
+        ],
+        "serviceTier": "standard"
+      }
     }
   ]
 }

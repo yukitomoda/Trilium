@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "pageId": "vZWERwf8U3nx",
   "sourceFile": "docs/User Guide/User Guide/Basic Concepts and Features/Notes/Note Revisions.md",
-  "sourceRevision": "63f2489c2b2779f3767bcbd74ddc83a03055f10d",
+  "sourceRevision": "f782bf56148719d1461f07015cebd6e3f273f957",
   "units": [
     {
       "id": "u_5ce6cb59ccd2ee655d1bdc52_0",
@@ -776,8 +776,15 @@
       "sourceHash": "7c43d188dc748e11bfb1d006c0050ad7a8866f2fb883825333fc2019adfb905a",
       "context": "Note Revisions > When revisions are saved > Maximum revisions",
       "contextHash": "7f9581294f748125dc4ca7ca622be07c0ef4c9aad32e03b8eedbb921870ccbd1",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "変更を即座に適用するには、 __TRILIUM_PH_0__今すぐ消去__TRILIUM_PH_1__ にある __TRILIUM_PH_2__過剰なリビジョンスナップショットの消去__TRILIUM_PH_3__ ボタンをクリックします。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-16T11:52:29.295Z"
     },
     {
       "id": "u_b190d47815633246b0ab18a6_0",
@@ -847,6 +854,25 @@
       "model": "gemini-3.5-flash-lite",
       "batchJob": "batches/wazxmzaiela6jn8aqd7kybq00i98rm3g571n",
       "requestKey": "vZWERwf8U3nx_4407b9437e6e8ad7"
+    },
+    {
+      "at": "2026-11-16T11:52:29.295Z",
+      "model": "gemini-3.5-flash-lite",
+      "batchJob": "batches/yfm05orxz60fe1t80oz670gs2xgx5x0u8fkd",
+      "requestKey": "vZWERwf8U3nx_f31b27d2a9829ec3",
+      "modelVersion": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 509,
+        "candidatesTokenCount": 145,
+        "totalTokenCount": 654,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 509
+          }
+        ],
+        "serviceTier": "standard"
+      }
     }
   ]
 }

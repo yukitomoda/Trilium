@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "pageId": "hrZ1D00cLbal",
   "sourceFile": "docs/User Guide/User Guide/Note Types/Text/Links/Internal (reference) links.md",
-  "sourceRevision": "63f2489c2b2779f3767bcbd74ddc83a03055f10d",
+  "sourceRevision": "f782bf56148719d1461f07015cebd6e3f273f957",
   "units": [
     {
       "id": "u_8448ad1d03b4b9fe51d7c7a6_0",
@@ -232,8 +232,15 @@
       "sourceHash": "28c434a56dcc7619fe62bdecbef1d36b0b2ddea0f74aa69d6c55b8175e2fe5ff",
       "context": "Internal (reference) links > Inserting internal links",
       "contextHash": "634afc60784ce8c31c34b11456c634312244957564e87e23a38fcdba32330ec0",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "Ctrl __TRILIUM_PH_0____TRILIUM_PH_1__ + __TRILIUM_PH_2__L__TRILIUM_PH_3__ を押すか、 __TRILIUM_PH_4__  __TRILIUM_PH_5__ の __TRILIUM_PH_6__書式設定ツールバー__TRILIUM_PH_7__にあるボタンをクリックするか、スラッシュコマンドで __TRILIUM_PH_8__ノートへのリンク（内部リンク）__TRILIUM_PH_9__  __TRILIUM_PH_10__を選択します__TRILIUM_PH_11__。デスクトップ版では、カーソルの横のポップアップに __TRILIUM_PH_12__リンクの追加__TRILIUM_PH_13__ ダイアログが開きます。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-16T11:52:29.295Z"
     },
     {
       "id": "u_21931f78c5dc480b4f6a69d8_0",
@@ -463,8 +470,15 @@
       "sourceHash": "bce14c94920e906e87709ed8e7c527595d1503a0d7b616317dbef0a2eccdbd1b",
       "context": "Internal (reference) links > In-place linking",
       "contextHash": "d5d8f35c7caca88eb039d810ddb709a57b01da6d469a3341b190d50dd6c1214e",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "名前を付ける前の子ノートを作成してそこにリンクするには、「挿入ボタン」で説明されている __TRILIUM_PH_0__新しい子ノート__TRILIUM_PH_1__を使用します（ __TRILIUM_PH_2__挿入ボタン__TRILIUM_PH_3__）。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-16T11:52:29.295Z"
     },
     {
       "id": "u_4cea1d82233a73c5606824dd_0",
@@ -559,6 +573,25 @@
       "model": "gemini-3.5-flash-lite",
       "batchJob": "batches/wazxmzaiela6jn8aqd7kybq00i98rm3g571n",
       "requestKey": "hrZ1D00cLbal_a7941c00041515ab"
+    },
+    {
+      "at": "2026-11-16T11:52:29.295Z",
+      "model": "gemini-3.5-flash-lite",
+      "batchJob": "batches/yfm05orxz60fe1t80oz670gs2xgx5x0u8fkd",
+      "requestKey": "hrZ1D00cLbal_83c4c82ec7256dbd",
+      "modelVersion": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 735,
+        "candidatesTokenCount": 358,
+        "totalTokenCount": 1093,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 735
+          }
+        ],
+        "serviceTier": "standard"
+      }
     }
   ]
 }

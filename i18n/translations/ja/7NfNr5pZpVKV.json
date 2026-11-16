@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "pageId": "7NfNr5pZpVKV",
   "sourceFile": "docs/User Guide/User Guide/Theme development/Creating a custom theme.md",
-  "sourceRevision": "63f2489c2b2779f3767bcbd74ddc83a03055f10d",
+  "sourceRevision": "f782bf56148719d1461f07015cebd6e3f273f957",
   "units": [
     {
       "id": "u_e87caf57a561269ea8dc515b_0",
@@ -130,8 +130,15 @@
       "sourceHash": "93e4d68834a10ca74eeee4c0266f79b59c7d335a67bbfd5e7246cec97409b824",
       "context": "Creating a custom theme > Step 2. Create the theme",
       "contextHash": "b4d40ddb5362e783d017bf39b329fa4ddef8f2f6482275a24af5238b9449b4ba",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "ノートの属性（ __TRILIUM_PH_0____TRILIUM_PH_1__ ボタン（ __TRILIUM_PH_2__ステータスバー__TRILIUM_PH_3__内））で、任意の名前を指すように __TRILIUM_PH_4__ 属性を定義します。これが、設定の外観セクションに表示される名前になります。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-16T11:52:29.295Z"
     },
     {
       "id": "u_465b0c5be1e502d37a8265b2_0",
@@ -431,6 +438,25 @@
       "model": "gemini-3.5-flash-lite",
       "batchJob": "batches/8vehrrvdpag09tp4gjf9dbgj006t9k2gkkyl",
       "requestKey": "7NfNr5pZpVKV_5efb24cd00c80074"
+    },
+    {
+      "at": "2026-11-16T11:52:29.295Z",
+      "model": "gemini-3.5-flash-lite",
+      "batchJob": "batches/yfm05orxz60fe1t80oz670gs2xgx5x0u8fkd",
+      "requestKey": "7NfNr5pZpVKV_7e4e01f3fb80f44c",
+      "modelVersion": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 561,
+        "candidatesTokenCount": 165,
+        "totalTokenCount": 726,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 561
+          }
+        ],
+        "serviceTier": "standard"
+      }
     }
   ]
 }

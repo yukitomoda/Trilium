@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "pageId": "hD8GawVuazff",
   "sourceFile": "docs/User Guide/User Guide/Note Types/Text/Insert buttons/Icons.md",
-  "sourceRevision": "63f2489c2b2779f3767bcbd74ddc83a03055f10d",
+  "sourceRevision": "f782bf56148719d1461f07015cebd6e3f273f957",
   "units": [
     {
       "id": "u_30d4f6f9d0cc1a37291acc07_0",
@@ -62,8 +62,15 @@
       "sourceHash": "018a3ed0038596c2054d156ec707490018a8e423f024ce55eb326c5ad0f6496d",
       "context": "Icons > Features",
       "contextHash": "0d337cf3fa17997f2a48c4a0287aa69234aacc10de9c3191dfc96a2f56527bc4",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "アイコンは、__TRILIUM_PH_0__書式設定__TRILIUM_PH_1__ ツールバーの __TRILIUM_PH_2__一般的な書式設定ツール__TRILIUM_PH_3__を使用して変更できます。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-16T11:52:29.295Z"
     },
     {
       "id": "u_ef00354e1f54ee85cd988dfb_0",
@@ -454,6 +461,25 @@
       "model": "gemini-3.5-flash-lite",
       "batchJob": "batches/wazxmzaiela6jn8aqd7kybq00i98rm3g571n",
       "requestKey": "hD8GawVuazff_485ea4a97ca75c5e"
+    },
+    {
+      "at": "2026-11-16T11:52:29.295Z",
+      "model": "gemini-3.5-flash-lite",
+      "batchJob": "batches/yfm05orxz60fe1t80oz670gs2xgx5x0u8fkd",
+      "requestKey": "hD8GawVuazff_26417822e64a1472",
+      "modelVersion": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 498,
+        "candidatesTokenCount": 137,
+        "totalTokenCount": 635,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 498
+          }
+        ],
+        "serviceTier": "standard"
+      }
     }
   ]
 }

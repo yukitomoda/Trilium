@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "pageId": "IakOLONlIfGI",
   "sourceFile": "docs/User Guide/User Guide/Basic Concepts and Features/Notes/Cloning Notes.md",
-  "sourceRevision": "63f2489c2b2779f3767bcbd74ddc83a03055f10d",
+  "sourceRevision": "f782bf56148719d1461f07015cebd6e3f273f957",
   "units": [
     {
       "id": "u_d9c5aebd0c328cadad8633cf_0",
@@ -589,8 +589,15 @@
       "sourceHash": "0a6ed9c2386b5c12de97acd6c1ff2dc834e87680ac5d8ad3419cb8cdbfbd2938",
       "context": "Cloning Notes > Solution > Demo",
       "contextHash": "cfe382790fbe04a5e4adc84e2195c84faeec8571ad71d9dd50433f148957bac0",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "右サイドバーの __TRILIUM_PH_0__Connectionsタブ__TRILIUM_PH_1__ にある __TRILIUM_PH_2__Right Sidebar__TRILIUM_PH_3__で、 __TRILIUM_PH_4__Note paths__TRILIUM_PH_5__ セクションを確認することで見つけられます。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-16T11:52:29.295Z"
     },
     {
       "id": "u_eba4ca0d0030129f467ad1e6_0",
@@ -779,6 +786,25 @@
       "model": "gemini-3.5-flash-lite",
       "batchJob": "batches/wazxmzaiela6jn8aqd7kybq00i98rm3g571n",
       "requestKey": "IakOLONlIfGI_0b2fc16bfd49b596"
+    },
+    {
+      "at": "2026-11-16T11:52:29.295Z",
+      "model": "gemini-3.5-flash-lite",
+      "batchJob": "batches/yfm05orxz60fe1t80oz670gs2xgx5x0u8fkd",
+      "requestKey": "IakOLONlIfGI_8a86f44a8ce7d95e",
+      "modelVersion": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 513,
+        "candidatesTokenCount": 153,
+        "totalTokenCount": 666,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 513
+          }
+        ],
+        "serviceTier": "standard"
+      }
     }
   ]
 }

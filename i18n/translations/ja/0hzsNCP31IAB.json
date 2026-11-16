@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "pageId": "0hzsNCP31IAB",
   "sourceFile": "docs/User Guide/User Guide/Installation & Setup/Server Installation/Authentication.md",
-  "sourceRevision": "63f2489c2b2779f3767bcbd74ddc83a03055f10d",
+  "sourceRevision": "f782bf56148719d1461f07015cebd6e3f273f957",
   "units": [
     {
       "id": "u_629f90bb8a78d0e733ff9e84_0",
@@ -334,8 +334,15 @@
       "sourceHash": "b8e55ba818bc6c938f9bf70f20a9dabd0fe86c999639f1d08b8355da7227dcee",
       "context": "Authentication > Understanding how the session works",
       "contextHash": "6d910eca40c2aa36e45b06aaaf9de45487ff914175aa502fb65e075cfc9d5e4f",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "「ログイン状態を保持する」にチェックが入っている場合、ログインの有効期限は21日後になります。この期間は __TRILIUM_PH_0__ の値を変更することで調整できます。例えば、セッションの有効期限を1日にするには、 __TRILIUM_PH_1__を変更します。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-16T11:52:29.295Z"
     },
     {
       "id": "u_1fb9f000cd79ed86af89bb60_0",
@@ -534,6 +541,25 @@
       "model": "gemini-3.5-flash-lite",
       "batchJob": "batches/wazxmzaiela6jn8aqd7kybq00i98rm3g571n",
       "requestKey": "0hzsNCP31IAB_8583699ccce0cc53"
+    },
+    {
+      "at": "2026-11-16T11:52:29.295Z",
+      "model": "gemini-3.5-flash-lite",
+      "batchJob": "batches/yfm05orxz60fe1t80oz670gs2xgx5x0u8fkd",
+      "requestKey": "0hzsNCP31IAB_a8f01a83f8c86599",
+      "modelVersion": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 543,
+        "candidatesTokenCount": 150,
+        "totalTokenCount": 693,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 543
+          }
+        ],
+        "serviceTier": "standard"
+      }
     }
   ]
 }

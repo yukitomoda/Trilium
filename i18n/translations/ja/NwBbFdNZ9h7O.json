@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "pageId": "NwBbFdNZ9h7O",
   "sourceFile": "docs/User Guide/User Guide/Note Types/Text/Block quotes & admonitions.md",
-  "sourceRevision": "63f2489c2b2779f3767bcbd74ddc83a03055f10d",
+  "sourceRevision": "f782bf56148719d1461f07015cebd6e3f273f957",
   "units": [
     {
       "id": "u_3e56d2043a630a7b5bdab71b_0",
@@ -62,8 +62,15 @@
       "sourceHash": "892d30811660744d6f365679ac8cbf44360985264d488e515eeebd7c73058696",
       "context": "Block quotes & admonitions > Block quotes",
       "contextHash": "33ec9adb7996699b8160a77e45b4eeee947c43bb3d68a7009b0e8e9033b59f71",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "引用ブロックを作成するには、 __TRILIUM_PH_0__ の __TRILIUM_PH_1__書式設定ツールバー__TRILIUM_PH_2__から押します。また、 __TRILIUM_PH_3__>__TRILIUM_PH_4__を入力し、続けてスペースを入力することでも作成できます（ただし、カーソルが行頭にある場合のみです）。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-16T11:52:29.295Z"
     },
     {
       "id": "u_ea6421b2f207e7bbdca0964f_0",
@@ -488,6 +495,25 @@
       "model": "gemini-3.5-flash-lite",
       "batchJob": "batches/wazxmzaiela6jn8aqd7kybq00i98rm3g571n",
       "requestKey": "NwBbFdNZ9h7O_9786e0052c295c29"
+    },
+    {
+      "at": "2026-11-16T11:52:29.295Z",
+      "model": "gemini-3.5-flash-lite",
+      "batchJob": "batches/yfm05orxz60fe1t80oz670gs2xgx5x0u8fkd",
+      "requestKey": "NwBbFdNZ9h7O_ec77826f37f40cd7",
+      "modelVersion": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 560,
+        "candidatesTokenCount": 168,
+        "totalTokenCount": 728,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 560
+          }
+        ],
+        "serviceTier": "standard"
+      }
     }
   ]
 }

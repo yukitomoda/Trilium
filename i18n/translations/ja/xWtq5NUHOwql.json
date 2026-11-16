@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "pageId": "xWtq5NUHOwql",
   "sourceFile": "docs/User Guide/User Guide/Basic Concepts and Features/Navigation/Similar Notes.md",
-  "sourceRevision": "63f2489c2b2779f3767bcbd74ddc83a03055f10d",
+  "sourceRevision": "f782bf56148719d1461f07015cebd6e3f273f957",
   "units": [
     {
       "id": "u_188cf9768e4a6f21ddd10602_0",
@@ -62,8 +62,15 @@
       "sourceHash": "542add3c96cd233c2d35ff90ec5efda439d75f827a62beb7122b5d477c9368c1",
       "context": "Similar Notes",
       "contextHash": "666e1189120575c78161fcbc7a5964988143db1124ded8eac4383fd71f003241",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "右サイドバーの __TRILIUM_PH_0__「接続」タブ__TRILIUM_PH_1__ を開き、 __TRILIUM_PH_2__対応するセクション__TRILIUM_PH_3__ を探します。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-16T11:52:29.295Z"
     },
     {
       "id": "u_8aff9172486c854189c91955_0",
@@ -72,8 +79,15 @@
       "sourceHash": "8aff9172486c854189c919556126f072b62e00677cddab4ba1225f3e77dc0fab",
       "context": "Similar Notes",
       "contextHash": "666e1189120575c78161fcbc7a5964988143db1124ded8eac4383fd71f003241",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "または、ステータスバーの __TRILIUM_PH_0__  __TRILIUM_PH_1__を押して、__TRILIUM_PH_2__ 「 __TRILIUM_PH_3__類似ノートを表示__TRILIUM_PH_4__ 」を選択すると、下部にペインが開きます。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-16T11:52:29.295Z"
     },
     {
       "id": "u_a1a33e43f70a85f4e62147ce_0",
@@ -190,6 +204,25 @@
       "model": "gemini-3.5-flash-lite",
       "batchJob": "batches/wazxmzaiela6jn8aqd7kybq00i98rm3g571n",
       "requestKey": "xWtq5NUHOwql_cc9c4c0c1b28d38e"
+    },
+    {
+      "at": "2026-11-16T11:52:29.295Z",
+      "model": "gemini-3.5-flash-lite",
+      "batchJob": "batches/yfm05orxz60fe1t80oz670gs2xgx5x0u8fkd",
+      "requestKey": "xWtq5NUHOwql_8e916e73fbed5ee5",
+      "modelVersion": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 613,
+        "candidatesTokenCount": 238,
+        "totalTokenCount": 851,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 613
+          }
+        ],
+        "serviceTier": "standard"
+      }
     }
   ]
 }

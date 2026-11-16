@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "pageId": "grjYqerjn243",
   "sourceFile": "docs/User Guide/User Guide/Note Types/Canvas.md",
-  "sourceRevision": "63f2489c2b2779f3767bcbd74ddc83a03055f10d",
+  "sourceRevision": "f782bf56148719d1461f07015cebd6e3f273f957",
   "units": [
     {
       "id": "u_1441babaef359e103d37363d_0",
@@ -62,8 +62,15 @@
       "sourceHash": "51674924947de2727249d0aa1cbf38314805822c26bb5806d53f2df5b8e585d7",
       "context": "Canvas > Interaction",
       "contextHash": "a363574d2ea3af791ad60c6eda9fd6c19c5bf7d66d6cdadda0570477b1821866",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "ノートは __TRILIUM_PH_0__読み取り専用__TRILIUM_PH_1__ に切り替えることができます。切り替えるには __TRILIUM_PH_2__ノート__TRILIUM_PH_3__メニューを使用します。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-16T11:52:29.295Z"
     },
     {
       "id": "u_24d30d76aa2a0e9852781ab6_0",
@@ -89,8 +96,15 @@
       "sourceHash": "ddb6ae495450ad1ce978b4e92d39fba2ebb4af4db03020729b870d453690cc6a",
       "context": "Canvas > Pen width",
       "contextHash": "4845c6bb8eaca250a4a10b23b374a184ae8fed352562ac7a9a432a5b07e50f1c",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "ペンは、プロパティパネルで選択された __TRILIUM_PH_0__ストローク幅__TRILIUM_PH_1__ の半分で描画します。これは手書きに適しています。代わりに全幅で描画するには、 __TRILIUM_PH_2__細いペンのストローク__TRILIUM_PH_3__ をオフにします。設定場所は __TRILIUM_PH_4__オプション__TRILIUM_PH_5__ → __TRILIUM_PH_6__その他__TRILIUM_PH_7__です。すでに描画されたストロークの幅は維持されます。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-16T11:52:29.295Z"
     },
     {
       "id": "u_204047593548d4e38fba95b3_0",
@@ -116,8 +130,15 @@
       "sourceHash": "47717f581e80cff9c0578b1ffe096ef0b95013111af6485c73aafaaf148ade29",
       "context": "Canvas > Embedding notes",
       "contextHash": "5a4718a8aeb2dc23cdedb8cb3dd21d6460024e62917c4c130b7805875d090431",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "v0.104.0以降、Canvasは、 __TRILIUM_PH_0__ノートのインクルード__TRILIUM_PH_1__ 機能と同様の方式で、 __TRILIUM_PH_2__テキスト__TRILIUM_PH_3__ ノート内にノートを埋め込むことをサポートしています。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-16T11:52:29.295Z"
     },
     {
       "id": "u_c5cb37d941a19eb3e11ab115_0",
@@ -279,8 +300,15 @@
       "sourceHash": "dfa13da9a165fca503df1945bf41f96b2bcaa56743ebe238063d0e3c14074287",
       "context": "Canvas > Drawing in a text note",
       "contextHash": "5a0cea5f7477e3c5d624bccc926fa7e2ffe491db4d7d309c7b914ee99e450929",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "独立したノートにするのではなく __TRILIUM_PH_0__テキスト__TRILIUM_PH_1__ ノートの中に直接描画するには、 __TRILIUM_PH_2____TRILIUM_PH_3__描画キャンバス__TRILIUM_PH_4__ を __TRILIUM_PH_5____TRILIUM_PH_6__挿入__TRILIUM_PH_7__ メニューから挿入します。詳細については、 __TRILIUM_PH_8__ノートのインクルード__TRILIUM_PH_9__ 内の __TRILIUM_PH_10__描画キャンバス__TRILIUM_PH_11__を参照してください。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-16T11:52:29.295Z"
     },
     {
       "id": "u_e4724cd83f4b3941aef8bc3f_0",
@@ -327,6 +355,25 @@
           {
             "modality": "TEXT",
             "tokenCount": 1059
+          }
+        ],
+        "serviceTier": "standard"
+      }
+    },
+    {
+      "at": "2026-11-16T11:52:29.295Z",
+      "model": "gemini-3.5-flash-lite",
+      "batchJob": "batches/yfm05orxz60fe1t80oz670gs2xgx5x0u8fkd",
+      "requestKey": "grjYqerjn243_c3422ff8bbc2583a",
+      "modelVersion": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 964,
+        "candidatesTokenCount": 603,
+        "totalTokenCount": 1567,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 964
           }
         ],
         "serviceTier": "standard"

@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "pageId": "klC3ilXa9kUE",
   "sourceFile": "docs/User Guide/User Guide/Note Types/Text/Block references.md",
-  "sourceRevision": "63f2489c2b2779f3767bcbd74ddc83a03055f10d",
+  "sourceRevision": "f782bf56148719d1461f07015cebd6e3f273f957",
   "units": [
     {
       "id": "u_dc56a233547389b86833fc82_0",
@@ -453,8 +453,15 @@
       "sourceHash": "7504f5441dccd5c44f2eac823ad81ac04c2ce4d66ac2a96bae89616fe5ef85ba",
       "context": "Block references > Including the referenced blocks",
       "contextHash": "8df03c46d78f23a717f63eb5a159dc24128b9cbfe7ef204537ec887614e56a72",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "ノートを離れずに参照されたブロックを編集するには、インクルードのタイトルにある __TRILIUM_PH_0__ __TRILIUM_PH_1__抜粋を編集__TRILIUM_PH_2__ ボタンを押すか、他の __TRILIUM_PH_3__編集可能__TRILIUM_PH_4__ __TRILIUM_PH_5__ノートと同様に、ツールバーで __TRILIUM_PH_6__インクルードノート__TRILIUM_PH_7__を有効にします。編集を終了するには、もう一度ボタンを押します。変更は参照されたブロックに保存され、ノートの残りの部分はそのまま維持されます。読み取り専用ノートなど、ブロックを編集できない場所では、ボタンはグレーアウトされます。抜粋には __TRILIUM_PH_8__全画面__TRILIUM_PH_9__ ボタンがありません。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-16T11:52:29.295Z"
     },
     {
       "id": "u_9d3a2737161f09b2df291ac6_0",
@@ -624,6 +631,25 @@
           {
             "modality": "TEXT",
             "tokenCount": 751
+          }
+        ],
+        "serviceTier": "standard"
+      }
+    },
+    {
+      "at": "2026-11-16T11:52:29.295Z",
+      "model": "gemini-3.5-flash-lite",
+      "batchJob": "batches/yfm05orxz60fe1t80oz670gs2xgx5x0u8fkd",
+      "requestKey": "klC3ilXa9kUE_13d85b26654b6f63",
+      "modelVersion": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 686,
+        "candidatesTokenCount": 271,
+        "totalTokenCount": 957,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 686
           }
         ],
         "serviceTier": "standard"

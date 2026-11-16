@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "pageId": "CoFPLs3dRlXc",
   "sourceFile": "docs/User Guide/User Guide/Basic Concepts and Features/Notes/Read-Only Notes.md",
-  "sourceRevision": "63f2489c2b2779f3767bcbd74ddc83a03055f10d",
+  "sourceRevision": "f782bf56148719d1461f07015cebd6e3f273f957",
   "units": [
     {
       "id": "u_264197ffd8eef7ec8aa85174_0",
@@ -198,8 +198,15 @@
       "sourceHash": "2208f3df9e996062975c3f833f0f4cf26ab75b730c41044b4f8ead60ecfc55da",
       "context": "Read-Only Notes > Changing a note's read-only behavior",
       "contextHash": "c9147e0c053b018d7efd4b1cf53763f094eff19972ca7a535c84a74ffde8734c",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "もし __TRILIUM_PH_0__編集可能__TRILIUM_PH_1__ セクションが __TRILIUM_PH_2__ノートメニュー__TRILIUM_PH_3__に見つからない場合、そのノートタイプは読み取り専用モードをサポートしていません。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-16T11:52:29.295Z"
     },
     {
       "id": "u_73059720649054a757395128_0",
@@ -369,6 +376,25 @@
       "model": "gemini-3.5-flash-lite",
       "batchJob": "batches/wazxmzaiela6jn8aqd7kybq00i98rm3g571n",
       "requestKey": "CoFPLs3dRlXc_ed85f649838b5752"
+    },
+    {
+      "at": "2026-11-16T11:52:29.295Z",
+      "model": "gemini-3.5-flash-lite",
+      "batchJob": "batches/yfm05orxz60fe1t80oz670gs2xgx5x0u8fkd",
+      "requestKey": "CoFPLs3dRlXc_def394990f7d2132",
+      "modelVersion": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 521,
+        "candidatesTokenCount": 143,
+        "totalTokenCount": 664,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 521
+          }
+        ],
+        "serviceTier": "standard"
+      }
     }
   ]
 }

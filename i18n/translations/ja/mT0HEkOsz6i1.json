@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "pageId": "mT0HEkOsz6i1",
   "sourceFile": "docs/User Guide/User Guide/Note Types/Text/Images.md",
-  "sourceRevision": "63f2489c2b2779f3767bcbd74ddc83a03055f10d",
+  "sourceRevision": "f782bf56148719d1461f07015cebd6e3f273f957",
   "units": [
     {
       "id": "u_4490710d98baf597f2ed5860_0",
@@ -181,8 +181,15 @@
       "sourceHash": "745390b0b66b29a87fe233179d767ed242c3b37a9d1e5a55e9d3b1c0ac56a20e",
       "context": "Images > Uploading images",
       "contextHash": "134091da858ebd286d5bd3d92925bc2c9d5faddb7502349e9ee127885aafb2c7",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "画像を表示する代わりにリンクを設定するには、 __TRILIUM_PH_0__ファイルとしてリンクを添付__TRILIUM_PH_1__機能を使用して添付します。これには __TRILIUM_PH_2__の__TRILIUM_PH_3__ファイルを添付__TRILIUM_PH_4__ ボタンを使用します。詳しくは __TRILIUM_PH_5__添付ファイル__TRILIUM_PH_6__をご覧ください。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-16T11:52:29.295Z"
     },
     {
       "id": "u_cc94bd0c15693b8fceffab21_0",
@@ -830,6 +837,25 @@
       "model": "gemini-3.5-flash-lite",
       "batchJob": "batches/wazxmzaiela6jn8aqd7kybq00i98rm3g571n",
       "requestKey": "mT0HEkOsz6i1_89c3879d82a442c9"
+    },
+    {
+      "at": "2026-11-16T11:52:29.295Z",
+      "model": "gemini-3.5-flash-lite",
+      "batchJob": "batches/yfm05orxz60fe1t80oz670gs2xgx5x0u8fkd",
+      "requestKey": "mT0HEkOsz6i1_65662c724a80bc3c",
+      "modelVersion": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 536,
+        "candidatesTokenCount": 178,
+        "totalTokenCount": 714,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 536
+          }
+        ],
+        "serviceTier": "standard"
+      }
     }
   ]
 }

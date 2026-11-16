@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "pageId": "9sRHySam5fXb",
   "sourceFile": "docs/User Guide/User Guide/Basic Concepts and Features/Navigation/Workspaces.md",
-  "sourceRevision": "63f2489c2b2779f3767bcbd74ddc83a03055f10d",
+  "sourceRevision": "f782bf56148719d1461f07015cebd6e3f273f957",
   "units": [
     {
       "id": "u_0ec338de5c6d0e555b8a94ae_0",
@@ -96,8 +96,15 @@
       "sourceHash": "96a6138d3b0ade40fd77d3e2296bca49ee074871ffc3ed4db78ffacb1930f282",
       "context": "Workspaces",
       "contextHash": "1377264ba3b0a7172621971b49ac3e82e33b64b14328d9275d02807e67ea8460",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "ワークスペースを新しいタブで開くには、 __TRILIUM_PH_0__ のボタンを右クリックし、ワークスペースを選択します。 __TRILIUM_PH_1__タブ__TRILIUM_PH_2__ ",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-16T11:52:29.295Z"
     },
     {
       "id": "u_5c40d5bb0789f43a44ea6a92_0",
@@ -369,6 +376,25 @@
       "model": "gemini-3.5-flash-lite",
       "batchJob": "batches/wazxmzaiela6jn8aqd7kybq00i98rm3g571n",
       "requestKey": "9sRHySam5fXb_58c7333c0b9d749b"
+    },
+    {
+      "at": "2026-11-16T11:52:29.295Z",
+      "model": "gemini-3.5-flash-lite",
+      "batchJob": "batches/yfm05orxz60fe1t80oz670gs2xgx5x0u8fkd",
+      "requestKey": "9sRHySam5fXb_3c716674d2b63c57",
+      "modelVersion": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 503,
+        "candidatesTokenCount": 99,
+        "totalTokenCount": 602,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 503
+          }
+        ],
+        "serviceTier": "standard"
+      }
     }
   ]
 }

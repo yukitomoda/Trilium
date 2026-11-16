@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "pageId": "tAassRL4RSQL",
   "sourceFile": "docs/User Guide/User Guide/Installation & Setup/Data directory.md",
-  "sourceRevision": "63f2489c2b2779f3767bcbd74ddc83a03055f10d",
+  "sourceRevision": "f782bf56148719d1461f07015cebd6e3f273f957",
   "units": [
     {
       "id": "u_58bcb9fe93def7dbc3f07b2d_0",
@@ -691,8 +691,15 @@
       "sourceHash": "d87f0a4ff57fd51faedc5b8a1bfa2c4c91f0fe1758e1dbb4590f3741b7f4f63a",
       "context": "Data directory > Location of the data directory > Changing the location of data directory",
       "contextHash": "181155562c4101f054ba6b46cc45e4b8712e6ba0d1109d19008fd57ef885b1ac",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "で説明されているサービスファイルの __TRILIUM_PH_0__ セクションに __TRILIUM_PH_1__ 行を追加してください __TRILIUM_PH_2__Linux向けパッケージ版__TRILIUM_PH_3__：",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-16T11:52:29.295Z"
     },
     {
       "id": "u_c809a224f088a5a4f07e50d4_0",
@@ -752,8 +759,15 @@
       "sourceHash": "17308624bde38eb35a0d2a37e0999e88138cdae12dee7600d2cf29280eb52317",
       "context": "Data directory > Location of the data directory > Changing the location of data directory",
       "contextHash": "181155562c4101f054ba6b46cc45e4b8712e6ba0d1109d19008fd57ef885b1ac",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "ログイン時に毎回正しく読み込ませるには、 __TRILIUM_PH_0__ の下に __TRILIUM_PH_1__ ファイルを作成する必要があります。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-16T11:52:29.295Z"
     },
     {
       "id": "u_19d3be728cba3dfa2e28aad6_0",
@@ -1258,6 +1272,25 @@
       "model": "gemini-3.5-flash-lite",
       "batchJob": "batches/wazxmzaiela6jn8aqd7kybq00i98rm3g571n",
       "requestKey": "tAassRL4RSQL_a5e60087a25b6648"
+    },
+    {
+      "at": "2026-11-16T11:52:29.295Z",
+      "model": "gemini-3.5-flash-lite",
+      "batchJob": "batches/yfm05orxz60fe1t80oz670gs2xgx5x0u8fkd",
+      "requestKey": "tAassRL4RSQL_17dbcd1853a57f30",
+      "modelVersion": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 606,
+        "candidatesTokenCount": 203,
+        "totalTokenCount": 809,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 606
+          }
+        ],
+        "serviceTier": "standard"
+      }
     }
   ]
 }

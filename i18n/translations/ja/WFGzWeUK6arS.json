@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "pageId": "WFGzWeUK6arS",
   "sourceFile": "docs/User Guide/User Guide/Theme development/Customize the Next theme.md",
-  "sourceRevision": "63f2489c2b2779f3767bcbd74ddc83a03055f10d",
+  "sourceRevision": "f782bf56148719d1461f07015cebd6e3f273f957",
   "units": [
     {
       "id": "u_2792bcb094309df5fa92a4ea_0",
@@ -147,8 +147,15 @@
       "sourceHash": "d7bfa7bc2b7a77759c96b604091c4bb0fec88ea9a0f8973a9b4282986f5e152a",
       "context": "Customize the Next theme > Overrides",
       "contextHash": "77c693151c8db2f2040fa38fc52794ea75a7b681d3e1ee8b34e9ce884288683c",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "TriliumNext テーマには、レガシーテーマよりも多くのオーバーライド機能があります。そのため、レガシーテーマの __TRILIUM_PH_0__ ではなく、次のテーマと __TRILIUM_PH_1__ を使用することをお勧めします。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-16T11:52:29.295Z"
     },
     {
       "id": "u_b190d47815633246b0ab18a6_0",
@@ -174,6 +181,25 @@
       "model": "gemini-3.5-flash-lite",
       "batchJob": "batches/8vehrrvdpag09tp4gjf9dbgj006t9k2gkkyl",
       "requestKey": "WFGzWeUK6arS_66ea2f01b9f60e4f"
+    },
+    {
+      "at": "2026-11-16T11:52:29.295Z",
+      "model": "gemini-3.5-flash-lite",
+      "batchJob": "batches/yfm05orxz60fe1t80oz670gs2xgx5x0u8fkd",
+      "requestKey": "WFGzWeUK6arS_3a6cc4fd2ddbaaf1",
+      "modelVersion": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 534,
+        "candidatesTokenCount": 132,
+        "totalTokenCount": 666,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 534
+          }
+        ],
+        "serviceTier": "standard"
+      }
     }
   ]
 }

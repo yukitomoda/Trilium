@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "pageId": "wYDzQ1fBFgfT",
   "sourceFile": "docs/User Guide/User Guide/Note Types/Text/Multicolumn layout.md",
-  "sourceRevision": "63f2489c2b2779f3767bcbd74ddc83a03055f10d",
+  "sourceRevision": "f782bf56148719d1461f07015cebd6e3f273f957",
   "units": [
     {
       "id": "u_95a127f190448932a130c04f_0",
@@ -79,8 +79,15 @@
       "sourceHash": "8762889c04d2a3ceec11d284d2c64245221fd18dd7562ea04c8a5976c0fc31a2",
       "context": "Multicolumn layout > Inserting a layout",
       "contextHash": "592c6894d32db61271bfb9b405aaeb3a46974f2ffc629a0c536b6bb26497cb67",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "または、 __TRILIUM_PH_0__ と入力して __TRILIUM_PH_1__2列レイアウト__TRILIUM_PH_2__、 __TRILIUM_PH_3__3列レイアウト__TRILIUM_PH_4__ または __TRILIUM_PH_5__4列レイアウト__TRILIUM_PH_6__を選択します（ __TRILIUM_PH_7__スラッシュコマンド__TRILIUM_PH_8__で説明されているとおりです）。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-16T11:52:29.295Z"
     },
     {
       "id": "u_74b6148f587372424bf67531_0",
@@ -900,6 +907,25 @@
       "model": "gemini-3.5-flash-lite",
       "batchJob": "batches/wazxmzaiela6jn8aqd7kybq00i98rm3g571n",
       "requestKey": "wYDzQ1fBFgfT_8ac4d0e33c9afb50"
+    },
+    {
+      "at": "2026-11-16T11:52:29.295Z",
+      "model": "gemini-3.5-flash-lite",
+      "batchJob": "batches/yfm05orxz60fe1t80oz670gs2xgx5x0u8fkd",
+      "requestKey": "wYDzQ1fBFgfT_77ed3df58a93a01b",
+      "modelVersion": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 544,
+        "candidatesTokenCount": 195,
+        "totalTokenCount": 739,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 544
+          }
+        ],
+        "serviceTier": "standard"
+      }
     }
   ]
 }

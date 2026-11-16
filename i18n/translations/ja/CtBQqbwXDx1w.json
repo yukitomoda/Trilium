@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "pageId": "CtBQqbwXDx1w",
   "sourceFile": "docs/User Guide/User Guide/Collections/Kanban Board.md",
-  "sourceRevision": "63f2489c2b2779f3767bcbd74ddc83a03055f10d",
+  "sourceRevision": "f782bf56148719d1461f07015cebd6e3f273f957",
   "units": [
     {
       "id": "u_064c15f4634e702a83f8ad5c_0",
@@ -130,8 +130,15 @@
       "sourceHash": "6e565f405d2b3c145e8468d8e71ffb66efc21a9ef13ae8d71f6cc2325c283431",
       "context": "Kanban Board > How it works",
       "contextHash": "49fc93c857a68b6e59937547e054942602d25f69bf9e2cae349ab080108723d8",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "ボードの表示深度を制限するには、 __TRILIUM_PH_0__ノートメニュー__TRILIUM_PH_1__ → __TRILIUM_PH_2__ボードプロパティ__TRILIUM_PH_3__ に移動して、 __TRILIUM_PH_4__最大ネスト深度__TRILIUM_PH_5__ （ __TRILIUM_PH_6__含まれるノート__TRILIUM_PH_7__ セクション内）を設定するか、ボードノートに __TRILIUM_PH_8__ ラベルを適用します。 __TRILIUM_PH_9__ は子のみを表示し、 __TRILIUM_PH_10__ はその子を追加するといった具合になります。値を指定しない場合、すべてのレベルが表示されます。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-16T11:52:29.295Z"
     },
     {
       "id": "u_3bc1a48ec8a44075a1c412d9_0",
@@ -259,8 +266,15 @@
       "sourceHash": "77d08f64d2adc4e5f2e93f5d63af37178f4debf8abff1f54abd0b4857607572a",
       "context": "Kanban Board > Working with columns > Creating columns",
       "contextHash": "f1bcc8b9526730838183e2042c6a9819662319e32baceef3c35831d361e3ad6d",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "ボードを設定すると、 __TRILIUM_PH_0__列を追加__TRILIUM_PH_1__ ボタンを非表示にできます。これを行うには、 __TRILIUM_PH_2__ノートメニュー__TRILIUM_PH_3__ → __TRILIUM_PH_4__ボードプロパティ__TRILIUM_PH_5__ に移動して、 __TRILIUM_PH_6__「列を追加」ボタンを表示__TRILIUM_PH_7__ （ __TRILIUM_PH_8__一般__TRILIUM_PH_9__ セクション内）をオフにするか、ボードノートに __TRILIUM_PH_10__ ラベルを適用します。列は、上記 コンテキストメニューから引き続き追加できます。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-16T11:52:29.295Z"
     },
     {
       "id": "u_3e6d84c2d240a72cd62d5265_0",
@@ -1442,8 +1456,15 @@
       "sourceHash": "647d0549cae53ddd0c628c933796cba955e8bdf0d0e245212f9b396a1c553fb8",
       "context": "Kanban Board > Working with columns > Sorting cards within a column > Configuring the default sorting options",
       "contextHash": "abc6d756e557c340a914079de8b4d35e30bd0881196db7efa55ccc84c1a298fc",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "ボードのデフォルト以外の並び替えオプションを使用している列は、新しいデフォルトの影響を受けません。すべての列がデフォルトの並び替えオプションを使用するように上書きするには、 __TRILIUM_PH_0__ボードのデフォルト__TRILIUM_PH_1__ で、 __TRILIUM_PH_2__すべての列の並び替えオプションをデフォルトにリセット__TRILIUM_PH_3__ コマンドを __TRILIUM_PH_4__ボードプロパティ__TRILIUM_PH_5__で使用します。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-16T11:52:29.295Z"
     },
     {
       "id": "u_e17ffebf083c405b9e87f717_0",
@@ -1622,8 +1643,15 @@
       "sourceHash": "00e6dfad8970aeaa4a330b0d8314bceb1c5310854ce1a90dfd89037c7a1dbe97",
       "context": "Kanban Board > Working with columns > Archiving a column",
       "contextHash": "bb490280d87234f5b04511bf231850b49cbfe53e7685ae03feb70ece9fb15469",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "アーカイブされた列を再度表示するには、 __TRILIUM_PH_0__ __TRILIUM_PH_1__コレクションオプション__TRILIUM_PH_2__ に移動して __TRILIUM_PH_3__ __TRILIUM_PH_4__アーカイブされたノートを表示__TRILIUM_PH_5__を切り替えるか、 __TRILIUM_PH_6__アーカイブされたカードと列を表示__TRILIUM_PH_7__ を __TRILIUM_PH_8__ノートメニュー__TRILIUM_PH_9__ → __TRILIUM_PH_10__ボードプロパティ__TRILIUM_PH_11__ （ __TRILIUM_PH_12__含まれるノート__TRILIUM_PH_13__ セクション内）でオンにします。アーカイブされた列は薄く表示されます。元に戻すには、その列のメニューを開いて __TRILIUM_PH_14__ __TRILIUM_PH_15__列のアーカイブを解除__TRILIUM_PH_16__を選択します。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-16T11:52:29.295Z"
     },
     {
       "id": "u_110afcd81114b2de580d311d_0",
@@ -2907,8 +2935,15 @@
       "sourceHash": "ae805a62c4a9f6e32fdcfc00b07b72e4998debe7cf23d654e7908f41cc7a28d1",
       "context": "Kanban Board > Working with cards > Archiving a card",
       "contextHash": "c399e37cd9765d9ab49d5ffb5f91dbe8dba66ae272bb08019003d634a6a22adc",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "アーカイブされたカードを再度表示するには、 __TRILIUM_PH_0__ __TRILIUM_PH_1__コレクションオプション__TRILIUM_PH_2__ に移動して __TRILIUM_PH_3__ __TRILIUM_PH_4__アーカイブされたノートを表示__TRILIUM_PH_5__を切り替えるか、 __TRILIUM_PH_6__アーカイブされたカードと列を表示__TRILIUM_PH_7__ を __TRILIUM_PH_8__ノートメニュー__TRILIUM_PH_9__ → __TRILIUM_PH_10__ボードプロパティ__TRILIUM_PH_11__ （ __TRILIUM_PH_12__含まれるノート__TRILIUM_PH_13__ セクション内）でオンにします。アーカイブされたカードは薄く表示されます。元に戻すには、そのコンテキストメニューを開いて __TRILIUM_PH_14__ __TRILIUM_PH_15__ノートのアーカイブを解除__TRILIUM_PH_16__を選択します。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-16T11:52:29.295Z"
     },
     {
       "id": "u_a5ba4b4cae59bfb2a06ebefb_0",
@@ -4797,6 +4832,25 @@
       "model": "gemini-3.5-flash-lite",
       "batchJob": "batches/8vehrrvdpag09tp4gjf9dbgj006t9k2gkkyl",
       "requestKey": "CtBQqbwXDx1w_b5e21ff1b17d3dac"
+    },
+    {
+      "at": "2026-11-16T11:52:29.295Z",
+      "model": "gemini-3.5-flash-lite",
+      "batchJob": "batches/yfm05orxz60fe1t80oz670gs2xgx5x0u8fkd",
+      "requestKey": "CtBQqbwXDx1w_6d60249f88288bea",
+      "modelVersion": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 1552,
+        "candidatesTokenCount": 1122,
+        "totalTokenCount": 2674,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 1552
+          }
+        ],
+        "serviceTier": "standard"
+      }
     }
   ]
 }

@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "pageId": "NdowYOC1GFKS",
   "sourceFile": "docs/User Guide/User Guide/Note Types/Text/Tables.md",
-  "sourceRevision": "63f2489c2b2779f3767bcbd74ddc83a03055f10d",
+  "sourceRevision": "f782bf56148719d1461f07015cebd6e3f273f957",
   "units": [
     {
       "id": "u_a21e8379a182768471c1226e_0",
@@ -215,8 +215,15 @@
       "sourceHash": "6ef6d308759490a685f2342fe62f3007ea22e85f2276e249a753807518564b62",
       "context": "Tables > Formatting toolbar",
       "contextHash": "ee9198edab0a129717cbd2f9efc8dbe7963f983830c6af078dfe2d3eb6759d53",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "モバイルフロントエンドでは __TRILIUM_PH_0____TRILIUM_PH_1__ツールバーは表の上にフローティング表示されません。代わりに、画面下部の書式設定ツールバーにある __TRILIUM_PH_2__ ボタンを押して __TRILIUM_PH_3__元に戻す__TRILIUM_PH_4__ と __TRILIUM_PH_5__やり直し__TRILIUM_PH_6__ の後に、表のツールバーをそこに表示させます。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-16T11:52:29.295Z"
     },
     {
       "id": "u_6d030f491ae00a3dc5603aa5_0",
@@ -480,8 +487,15 @@
       "sourceHash": "70adb6051fa862a81ae575776a87dabc68b1701d2322b4b670f73c06968c72c7",
       "context": "Tables > Context menu",
       "contextHash": "0f3c10ac0590f592f083a509728fc9baff6476658a2152db1b623f3cf0262125",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "v0.107.0以降、 __TRILIUM_PH_0__上に行を貼り付け__TRILIUM_PH_1__ および __TRILIUM_PH_2__下に行を貼り付け__TRILIUM_PH_3__は、 __TRILIUM_PH_4__貼り付け__TRILIUM_PH_5__ サブメニューにおいて、カーソル位置からのセルを上書きするのではなく、現在のセルの行の隣に新しい行としてクリップボードの内容を貼り付けます。これらは、選択範囲が単一の行にあり、かつ __TRILIUM_PH_6__貼り付け__TRILIUM_PH_7__と同様にクリップボードを読み取れる場合にのみ表示されます。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-16T11:52:29.295Z"
     },
     {
       "id": "u_dadcb4014a1c2963bac193d1_0",
@@ -898,8 +912,15 @@
       "sourceHash": "5745e626db648b69d22c5f1433c9ba3750dfbaa752e217e6f739b39bf0f83e5e",
       "context": "Tables > Resizing cells",
       "contextHash": "fef6944da57842718cb9b29385c9fd2fb4325098a82ef30ef0e5f986789ad1fc",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "複数の列に同じ幅を設定するには、それらの列にまたがってセルを選択し、書式設定ツールバーの __TRILIUM_PH_0__列の幅を均等にする__TRILIUM_PH_1__ ボタン、または __TRILIUM_PH_2__ から __TRILIUM_PH_3__コンテキストメニュー__TRILIUM_PH_4__を選択します。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-16T11:52:29.295Z"
     },
     {
       "id": "u_0b830e78584830d1beb983d8_0",
@@ -1231,8 +1252,15 @@
       "sourceHash": "846ab9ae23a20cf17cdf15b917f57a17ea54dcc34a742c9024d2cc55f67051b9",
       "context": "Tables > Wide tables > Mobile support",
       "contextHash": "5374207d1df7e09b3f122692d8338786b87521d9ddad19e130d93756fb6a4828",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "モバイルフロントエンドでは __TRILIUM_PH_0____TRILIUM_PH_1__、表はデスクトップ上での幅を維持し、画面の幅に合わせて列を狭める代わりに横スクロールします。表の全体の幅は、モバイルデバイスの __TRILIUM_PH_2__最大コンテンツ幅__TRILIUM_PH_3__ （ __TRILIUM_PH_4__オプション__TRILIUM_PH_5__ → __TRILIUM_PH_6__外観__TRILIUM_PH_7__ → __TRILIUM_PH_8__コンテンツ幅__TRILIUM_PH_9__ で設定され、デフォルトでは1200ピクセル）になります。例えば、 __TRILIUM_PH_10__ に設定された表の幅は600ピクセルです。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-16T11:52:29.295Z"
     },
     {
       "id": "u_b74a5777f6f20df1dc01dfdc_0",
@@ -1292,8 +1320,15 @@
       "sourceHash": "91ee3d15b27441c1ec216806079a33518e800a335db6c4765176ae45e9da2a2a",
       "context": "Tables > Long tables",
       "contextHash": "2eb7c3d321c54c371c5bc88bb4d43e20c78d7d548866c2e15dd7384d70c3f4b4",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "行をヘッダー行にするには、 __TRILIUM_PH_0__ヘッダーとして設定__TRILIUM_PH_1__ を __TRILIUM_PH_2__コンテキストメニュー__TRILIUM_PH_3__で使用するか、書式設定ツールバーの __TRILIUM_PH_4__ヘッダー行__TRILIUM_PH_5__ ボタンを __TRILIUM_PH_6__ 使用します。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-16T11:52:29.295Z"
     },
     {
       "id": "u_d380f90fe5246dbdba11ecad_0",
@@ -2611,8 +2646,15 @@
       "sourceHash": "bf3979edcd068fc744d60c9f8c8f87c7ec44d2d9ca1ce1a4b8a399002361160f",
       "context": "Tables > Border and background colors",
       "contextHash": "f7069bc28acc2656a6634cb76a0f3b9156c79b697e2f2648eebbe5ed4ae57107",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "表やセルの枠線と背景の色は、 __TRILIUM_PH_0__テーマ__TRILIUM_PH_1__に合わせて、 __TRILIUM_PH_2__テキストの色__TRILIUM_PH_3__ と同様に適応します。パレットから選択された色、カラーピッカーで選ばれた色、または入力された色は、現在のテーマに適した明るいまたは暗い色合いで表示されるため、背景上で枠線が見え続け、テキストが読みやすくなります。色相は同じままで、表は選択された通りの色を保持します。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-16T11:52:29.295Z"
     },
     {
       "id": "u_456086078f390802d01b0d76_0",
@@ -2655,8 +2697,15 @@
       "sourceHash": "60e22e53dfcedad77887920fc81b4c6da62a4b612fc0495b61d16ef8ad16e008",
       "context": "Tables > Border and background colors",
       "contextHash": "f7069bc28acc2656a6634cb76a0f3b9156c79b697e2f2648eebbe5ed4ae57107",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "ヘッダーセルは、現在のテーマに合わせて色分けされます。すべての表で背景を変更するには、 __TRILIUM_PH_0__ カスタムテーマ __TRILIUM_PH_1__または__TRILIUM_PH_2__ カスタムアプリ全体用CSS __TRILIUM_PH_3__で__TRILIUM_PH_4__変数を設定します。例： __TRILIUM_PH_5__。セルに対して選択された背景が引き続き優先されます。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-16T11:52:29.295Z"
     },
     {
       "id": "u_a57bc25ef35c0b46deac68dc_0",
@@ -2733,8 +2782,15 @@
       "sourceHash": "a8e03d48116476613155fefd5a99f45b1d7ae0cf08b247232fdfd31aea2ea083",
       "context": "Tables > Table borders",
       "contextHash": "29aebca2de96b86a40999c4e95c89bac47faa2be79cacaaa9e46f7b096a93f55",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "すべての表のデフォルトの枠線を変更するには、 __TRILIUM_PH_0__ カスタムテーマ __TRILIUM_PH_1__または__TRILIUM_PH_2__ カスタムアプリ全体用CSS __TRILIUM_PH_3__で__TRILIUM_PH_4__変数を設定します。例： __TRILIUM_PH_5__。独自の枠線を持たないすべての表の枠線を非表示にするには、 __TRILIUM_PH_6__ に設定します。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-16T11:52:29.295Z"
     },
     {
       "id": "u_e4f195a36f3e4be2d087769d_0",
@@ -3511,6 +3567,25 @@
           {
             "modality": "TEXT",
             "tokenCount": 1642
+          }
+        ],
+        "serviceTier": "standard"
+      }
+    },
+    {
+      "at": "2026-11-16T11:52:29.295Z",
+      "model": "gemini-3.5-flash-lite",
+      "batchJob": "batches/yfm05orxz60fe1t80oz670gs2xgx5x0u8fkd",
+      "requestKey": "NdowYOC1GFKS_3b7f23be4446cb79",
+      "modelVersion": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 1886,
+        "candidatesTokenCount": 1305,
+        "totalTokenCount": 3191,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 1886
           }
         ],
         "serviceTier": "standard"

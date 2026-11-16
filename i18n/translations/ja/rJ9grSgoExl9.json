@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "pageId": "rJ9grSgoExl9",
   "sourceFile": "docs/User Guide/User Guide/Basic Concepts and Features/Import & Export/Markdown/Supported syntax.md",
-  "sourceRevision": "63f2489c2b2779f3767bcbd74ddc83a03055f10d",
+  "sourceRevision": "f782bf56148719d1461f07015cebd6e3f273f957",
   "units": [
     {
       "id": "u_f983eeb5adb0c15b64e65f4a_0",
@@ -351,8 +351,15 @@
       "sourceHash": "e476dbbcfd222f10b48d4a930ccd19789ea901d845f8e50ae74aece93c8c77e6",
       "context": "Supported syntax > Wikilinks",
       "contextHash": "5bd1365d66cf0a2f9ab351103aea279e32efd3448c62153c481ffacd787d848d",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "__TRILIUM_PH_0__ は __TRILIUM_PH_1__ ディレクトリ内の __TRILIUM_PH_2__ ファイルを検索し、内部リンクに変換します。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-16T11:52:29.295Z"
     },
     {
       "id": "u_97563139454f21e5c28f5889_0",
@@ -361,8 +368,15 @@
       "sourceHash": "97563139454f21e5c28f588979af380ba7d3334b5014fb7849b42fddb5527ce2",
       "context": "Supported syntax > Wikilinks",
       "contextHash": "5bd1365d66cf0a2f9ab351103aea279e32efd3448c62153c481ffacd787d848d",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "__TRILIUM_PH_0__ は __TRILIUM_PH_1__ ディレクトリ内の __TRILIUM_PH_2__ ファイルを検索し、画像に変換します。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-16T11:52:29.295Z"
     },
     {
       "id": "u_56041a14fe98bc166f950a79_0",
@@ -566,6 +580,25 @@
       "model": "gemini-3.5-flash-lite",
       "batchJob": "batches/wazxmzaiela6jn8aqd7kybq00i98rm3g571n",
       "requestKey": "rJ9grSgoExl9_93b2b912501ab69c"
+    },
+    {
+      "at": "2026-11-16T11:52:29.295Z",
+      "model": "gemini-3.5-flash-lite",
+      "batchJob": "batches/yfm05orxz60fe1t80oz670gs2xgx5x0u8fkd",
+      "requestKey": "rJ9grSgoExl9_0eb013309bdd5508",
+      "modelVersion": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 587,
+        "candidatesTokenCount": 198,
+        "totalTokenCount": 785,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 587
+          }
+        ],
+        "serviceTier": "standard"
+      }
     }
   ]
 }

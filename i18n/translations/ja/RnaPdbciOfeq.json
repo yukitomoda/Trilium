@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "pageId": "RnaPdbciOfeq",
   "sourceFile": "docs/User Guide/User Guide/Basic Concepts and Features/UI Elements/Right Sidebar.md",
-  "sourceRevision": "63f2489c2b2779f3767bcbd74ddc83a03055f10d",
+  "sourceRevision": "f782bf56148719d1461f07015cebd6e3f273f957",
   "units": [
     {
       "id": "u_45c2be42710b17dad1819014_0",
@@ -351,8 +351,15 @@
       "sourceHash": "3fe4676ec9c7b996c491504abe8bd484a7673d5d4a71a44f3c5c9c5372d66135",
       "context": "Right Sidebar > Mobile support",
       "contextHash": "e0867db1eeda22cb975959e089b2ad89c75acba5f49ccda3d7c5a8c329ffb9d0",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "モバイル版では、右サイドバーの代わりにノートパネルが表示されます。このパネルは、 __TRILIUM_PH_0__ の隣にある __TRILIUM_PH_1__ノートメニュー__TRILIUM_PH_2__から、画面下部にシートとして開きます。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-16T11:52:29.295Z"
     },
     {
       "id": "u_8494c90fa7d6b325a3076d9c_0",
@@ -471,6 +478,25 @@
       "model": "gemini-3.5-flash-lite",
       "batchJob": "batches/wazxmzaiela6jn8aqd7kybq00i98rm3g571n",
       "requestKey": "RnaPdbciOfeq_9a55a6ef68ebc5bb"
+    },
+    {
+      "at": "2026-11-16T11:52:29.295Z",
+      "model": "gemini-3.5-flash-lite",
+      "batchJob": "batches/yfm05orxz60fe1t80oz670gs2xgx5x0u8fkd",
+      "requestKey": "RnaPdbciOfeq_f9e020b3a74b2973",
+      "modelVersion": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 526,
+        "candidatesTokenCount": 143,
+        "totalTokenCount": 669,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 526
+          }
+        ],
+        "serviceTier": "standard"
+      }
     }
   ]
 }

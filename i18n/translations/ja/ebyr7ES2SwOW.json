@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "pageId": "ebyr7ES2SwOW",
   "sourceFile": "docs/User Guide/User Guide/Installation & Setup/Downloaded resources.md",
-  "sourceRevision": "63f2489c2b2779f3767bcbd74ddc83a03055f10d",
+  "sourceRevision": "f782bf56148719d1461f07015cebd6e3f273f957",
   "units": [
     {
       "id": "u_1e9854467c8521beee021c95_0",
@@ -708,8 +708,15 @@
       "sourceHash": "b475ebc545b4a66b9df8a6546c8c3c68425626e58a60016a51b81e1485aaf71b",
       "context": "Downloaded resources > Location",
       "contextHash": "a8fdb29aa9649ab0939f9c5846d8abe03885f42aa2924bd00b75ffa443221cec",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "リソースは __TRILIUM_PH_0__ フォルダに保存されます。リソースごとに1つのフォルダが作成されます。別の場所に保存するには、Triliumを起動する前に __TRILIUM_PH_1__データディレクトリ__TRILIUM_PH_2__の __TRILIUM_PH_3__ 環境変数を別のフォルダに設定してください。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-16T11:52:29.295Z"
     },
     {
       "id": "u_5c4b62e0d15a06fc35bb7859_0",
@@ -796,6 +803,25 @@
       "model": "gemini-3.5-flash-lite",
       "batchJob": "batches/wazxmzaiela6jn8aqd7kybq00i98rm3g571n",
       "requestKey": "ebyr7ES2SwOW_5e97f304a8daad6c"
+    },
+    {
+      "at": "2026-11-16T11:52:29.295Z",
+      "model": "gemini-3.5-flash-lite",
+      "batchJob": "batches/yfm05orxz60fe1t80oz670gs2xgx5x0u8fkd",
+      "requestKey": "ebyr7ES2SwOW_17d75567c9ed465e",
+      "modelVersion": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 532,
+        "candidatesTokenCount": 157,
+        "totalTokenCount": 689,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 532
+          }
+        ],
+        "serviceTier": "standard"
+      }
     }
   ]
 }

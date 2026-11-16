@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "pageId": "u3YFHC9tQlpm",
   "sourceFile": "docs/User Guide/User Guide/Basic Concepts and Features/Navigation/Bookmarks.md",
-  "sourceRevision": "63f2489c2b2779f3767bcbd74ddc83a03055f10d",
+  "sourceRevision": "f782bf56148719d1461f07015cebd6e3f273f957",
   "units": [
     {
       "id": "u_8edf59aafb000bd73dffba66_0",
@@ -62,8 +62,15 @@
       "sourceHash": "6bd9db96f61fca8beaf20b0b756dd475cf9b57003a80f5793ae4dd49b614002c",
       "context": "Bookmarks > Configuring the launch bar",
       "contextHash": "6492b6f42bc69833b899cf13657bca18cbba9046874c3a1ae3fdd1d2ac8da958",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "ブックマークが起動バーに表示されない場合、最も可能性が高いのはブックマークセクションが非表示になっていることです。 __TRILIUM_PH_0__起動バー__TRILIUM_PH_1__ の設定を __TRILIUM_PH_2__グローバルメニュー__TRILIUM_PH_3__ から開き、 __TRILIUM_PH_4__Bookmarks__TRILIUM_PH_5__ が __TRILIUM_PH_6__Visible Launchers__TRILIUM_PH_7__ セクションに含まれていることを確認してください。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-16T11:52:29.295Z"
     },
     {
       "id": "u_fd000e8efbc0160d3f8e77bb_0",
@@ -514,8 +521,15 @@
       "sourceHash": "ea940200f0fda58be113bcfbd9fbe6d9d2875279ec1d8e5316201afad9fffdf0",
       "context": "Bookmarks > Mobile",
       "contextHash": "d5235890805d99473944cde7f61b6694d0793029906299dc38756421eb81c447",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "スマートフォンでは、ホイストされていないタブのルートを表示している間、 __TRILIUM_PH_0__ノートツリー__TRILIUM_PH_1__ の最上部、 __TRILIUM_PH_2__ワークスペース__TRILIUM_PH_3__の下にもブックマークの一覧が表示されます。ブックマークをタップして開くか、子ノートがある場合はツリー内の他のノートと同様に子ノートの一覧を表示できます。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-16T11:52:29.295Z"
     }
   ],
   "requests": [
@@ -542,6 +556,25 @@
       "model": "gemini-3.5-flash-lite",
       "batchJob": "batches/wazxmzaiela6jn8aqd7kybq00i98rm3g571n",
       "requestKey": "u3YFHC9tQlpm_dc8beb6cc40066e4"
+    },
+    {
+      "at": "2026-11-16T11:52:29.295Z",
+      "model": "gemini-3.5-flash-lite",
+      "batchJob": "batches/yfm05orxz60fe1t80oz670gs2xgx5x0u8fkd",
+      "requestKey": "u3YFHC9tQlpm_97de45c444fa3bb2",
+      "modelVersion": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 755,
+        "candidatesTokenCount": 325,
+        "totalTokenCount": 1080,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 755
+          }
+        ],
+        "serviceTier": "standard"
+      }
     }
   ]
 }

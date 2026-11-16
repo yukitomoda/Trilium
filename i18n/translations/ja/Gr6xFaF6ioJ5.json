@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "pageId": "Gr6xFaF6ioJ5",
   "sourceFile": "docs/User Guide/User Guide/Note Types/Text/General formatting.md",
-  "sourceRevision": "63f2489c2b2779f3767bcbd74ddc83a03055f10d",
+  "sourceRevision": "f782bf56148719d1461f07015cebd6e3f273f957",
   "units": [
     {
       "id": "u_4377a0d4c304067105ef60d6_0",
@@ -317,8 +317,15 @@
       "sourceHash": "049e9db3bc5ee90895d214b9774c594446aced27d46c5d0b0090fc14ecdac24a",
       "context": "General formatting > Bold, italic, underline, strike-through",
       "contextHash": "d9cd1595b18415a2b9ca92f7a644f21c935eafeeab8078424de179d1c834c5e6",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "テキストは、書式設定ツールバーにある専用のボタン（ __TRILIUM_PH_0__太字、__TRILIUM_PH_1__ __TRILIUM_PH_2__斜体、__TRILIUM_PH_3__ 下線、または __TRILIUM_PH_4__取り消し線__TRILIUM_PH_5__ ）__TRILIUM_PH_6__、 __TRILIUM_PH_7__、 __TRILIUM_PH_8__、 __TRILIUM_PH_9__を使用してフォーマットできます。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-16T11:52:29.295Z"
     },
     {
       "id": "u_2c570bf4ce4bfe7e090655cb_0",
@@ -1104,6 +1111,25 @@
       "model": "gemini-3.5-flash-lite",
       "batchJob": "batches/wazxmzaiela6jn8aqd7kybq00i98rm3g571n",
       "requestKey": "Gr6xFaF6ioJ5_734428b52829dfe3"
+    },
+    {
+      "at": "2026-11-16T11:52:29.295Z",
+      "model": "gemini-3.5-flash-lite",
+      "batchJob": "batches/yfm05orxz60fe1t80oz670gs2xgx5x0u8fkd",
+      "requestKey": "Gr6xFaF6ioJ5_b434905ce8398944",
+      "modelVersion": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 559,
+        "candidatesTokenCount": 206,
+        "totalTokenCount": 765,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 559
+          }
+        ],
+        "serviceTier": "standard"
+      }
     }
   ]
 }

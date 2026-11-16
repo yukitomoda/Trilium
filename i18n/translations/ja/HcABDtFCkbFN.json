@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "pageId": "HcABDtFCkbFN",
   "sourceFile": "docs/User Guide/User Guide/Note Types/Render Note.md",
-  "sourceRevision": "63f2489c2b2779f3767bcbd74ddc83a03055f10d",
+  "sourceRevision": "f782bf56148719d1461f07015cebd6e3f273f957",
   "units": [
     {
       "id": "u_926211d135c65cdbaf7cc0d3_0",
@@ -487,8 +487,15 @@
       "sourceHash": "2b4198be2af6ab1c623cd899791a8903dd443e371d6c3e3076c12dcc1ebd5651",
       "context": "Render Note > Printing",
       "contextHash": "b833cf4da3010469929aa6a560c7adc3254c331a6a1990ca8154ee84c825b055",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "レンダーノートは、 __TRILIUM_PH_0__ノート__TRILIUM_PH_1__ メニューから、その __TRILIUM_PH_2__ リレーションが設定されると（ __TRILIUM_PH_3__PDFとしての印刷とエクスポート__TRILIUM_PH_4__を参照）、印刷したりPDFとしてエクスポートしたりできます。他のノートとは異なり、表示されているとおりに正確に印刷されます。スクリプトは再実行されないため、ノートに入力、選択、または読み込まれた内容はそのまま保持されます。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-16T11:52:29.295Z"
     },
     {
       "id": "u_643a0ae7927d57a8ce5cdefa_0",
@@ -599,8 +606,15 @@
       "sourceHash": "b4b73208f4a8ee33c2e8941f6d8e55796a5e351f213b88ca89dd9c8e19c6ef40",
       "context": "Render Note > Examples",
       "contextHash": "1460eeca11e537a13b0658b1ac44ed6d552c5fff28bb85e3e5e998547004d301",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "__TRILIUM_PH_0__Weight Tracker__TRILIUM_PH_1__ （ __TRILIUM_PH_2__デモノート__TRILIUM_PH_3__に含まれています）",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-16T11:52:29.295Z"
     },
     {
       "id": "u_b190d47815633246b0ab18a6_0",
@@ -685,6 +699,25 @@
           {
             "modality": "TEXT",
             "tokenCount": 633
+          }
+        ],
+        "serviceTier": "standard"
+      }
+    },
+    {
+      "at": "2026-11-16T11:52:29.295Z",
+      "model": "gemini-3.5-flash-lite",
+      "batchJob": "batches/yfm05orxz60fe1t80oz670gs2xgx5x0u8fkd",
+      "requestKey": "HcABDtFCkbFN_ca6f8d1ef82a79ed",
+      "modelVersion": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 674,
+        "candidatesTokenCount": 277,
+        "totalTokenCount": 951,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 674
           }
         ],
         "serviceTier": "standard"

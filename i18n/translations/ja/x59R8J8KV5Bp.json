@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "pageId": "x59R8J8KV5Bp",
   "sourceFile": "docs/User Guide/User Guide/Troubleshooting/Anonymized Database.md",
-  "sourceRevision": "63f2489c2b2779f3767bcbd74ddc83a03055f10d",
+  "sourceRevision": "f782bf56148719d1461f07015cebd6e3f273f957",
   "units": [
     {
       "id": "u_9a4493ffb9f1533d2f738ec8_0",
@@ -45,8 +45,15 @@
       "sourceHash": "31d36330d93d6a635331e80aadc6d43734edb1144c66c12b1a1b5f8ee3bbec40",
       "context": "Anonymized Database",
       "contextHash": "a063b1a36454eb9ad4b7a0612b5cd5f1e82d39bedc423719a5509db0186451e4",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "この機能は、機密データをすべて削除したデータベースのコピーを作成します。具体的には、更新日時などの全体的な構造やメタデータを保持したまま、ノートのタイトル、コンテンツ、リビジョン、履歴、および一部の非システム属性を除去します。匿名化の後、データベースに対して __TRILIUM_PH_0__バキューム処理__TRILIUM_PH_1__ が行われ、ファイル内に機密データの残骸が確実に残らないようにします。匿名化されたデータベースは、 __TRILIUM_PH_2__ 内の __TRILIUM_PH_3__ディレクトリ__TRILIUM_PH_4__に保存されるため、バグ報告と一緒に安全に共有できます。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-16T11:52:29.295Z"
     },
     {
       "id": "u_c7c435ee32b780b9de9a09a1_0",
@@ -140,6 +147,25 @@
       "model": "gemini-3.5-flash-lite",
       "batchJob": "batches/8vehrrvdpag09tp4gjf9dbgj006t9k2gkkyl",
       "requestKey": "x59R8J8KV5Bp_81b9e8f31244ed59"
+    },
+    {
+      "at": "2026-11-16T11:52:29.295Z",
+      "model": "gemini-3.5-flash-lite",
+      "batchJob": "batches/yfm05orxz60fe1t80oz670gs2xgx5x0u8fkd",
+      "requestKey": "x59R8J8KV5Bp_18c8259869e7af8d",
+      "modelVersion": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 657,
+        "candidatesTokenCount": 233,
+        "totalTokenCount": 890,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 657
+          }
+        ],
+        "serviceTier": "standard"
+      }
     }
   ]
 }

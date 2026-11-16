@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "pageId": "KG48zgNY31NW",
   "sourceFile": "docs/User Guide/User Guide/Note Types/File/Office documents.md",
-  "sourceRevision": "63f2489c2b2779f3767bcbd74ddc83a03055f10d",
+  "sourceRevision": "f782bf56148719d1461f07015cebd6e3f273f957",
   "units": [
     {
       "id": "u_e7241f2d13f6d96be6a13a5a_0",
@@ -436,8 +436,15 @@
       "sourceHash": "bd3fc21bd1a23a7f16fcadbb6a8c8cdb2c2f624db0d0a25af372a11528d52ad7",
       "context": "Office documents > Relation with other features",
       "contextHash": "bfa77ece066590f79cc412962027835c94f3d5bc9863efbb78966c37484976d4",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "プレビューとは関係なく、オフィスのテキストコンテンツもバックグラウンドで抽出されるため、 __TRILIUM_PH_0__検索__TRILIUM_PH_1__ で __TRILIUM_PH_2__テキスト抽出 (OCR)__TRILIUM_PH_3__を使用して見つけることができます。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-16T11:52:29.295Z"
     },
     {
       "id": "u_c02b296cf4e5049e18e26da9_0",
@@ -446,8 +453,15 @@
       "sourceHash": "c02b296cf4e5049e18e26da9d21a61dc58cea6b419cf8fe486962839281a7e75",
       "context": "Office documents > Relation with other features",
       "contextHash": "bfa77ece066590f79cc412962027835c94f3d5bc9863efbb78966c37484976d4",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "__TRILIUM_PH_0__ および __TRILIUM_PH_1__ のファイルは、 __TRILIUM_PH_2__スプレッドシート__TRILIUM_PH_3__ に __TRILIUM_PH_4__インポート__TRILIUM_PH_5__ 機能を使用して変換できます。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-16T11:52:29.295Z"
     }
   ],
   "requests": [
@@ -490,6 +504,25 @@
           {
             "modality": "TEXT",
             "tokenCount": 682
+          }
+        ],
+        "serviceTier": "standard"
+      }
+    },
+    {
+      "at": "2026-11-16T11:52:29.295Z",
+      "model": "gemini-3.5-flash-lite",
+      "batchJob": "batches/yfm05orxz60fe1t80oz670gs2xgx5x0u8fkd",
+      "requestKey": "KG48zgNY31NW_146a45ce6ee85bba",
+      "modelVersion": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 639,
+        "candidatesTokenCount": 249,
+        "totalTokenCount": 888,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 639
           }
         ],
         "serviceTier": "standard"

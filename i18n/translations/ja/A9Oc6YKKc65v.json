@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "pageId": "A9Oc6YKKc65v",
   "sourceFile": "docs/User Guide/User Guide/Basic Concepts and Features/Keyboard Shortcuts.md",
-  "sourceRevision": "63f2489c2b2779f3767bcbd74ddc83a03055f10d",
+  "sourceRevision": "f782bf56148719d1461f07015cebd6e3f273f957",
   "units": [
     {
       "id": "u_6646b0ec3d6c0892f5648d15_0",
@@ -351,8 +351,15 @@
       "sourceHash": "3ddbdbd9d293130868ccef014775de62d4af947713db4fe5959129fecb00465b",
       "context": "Keyboard Shortcuts > Shortcut reference > Note navigation",
       "contextHash": "2fd500bf7a787f546d791003f526915cf9342f09fb43abe065efbf10472c6927",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "次のように定義できます： __TRILIUM_PH_0__ラベル__TRILIUM_PH_1__ 、__TRILIUM_PH_2__ 例：値 __TRILIUM_PH_3__ 。このキーボードショートカットを押すと、それが定義されているノートへ移動できます。変更を有効にするには、Triliumを再読み込みまたは再起動（__TRILIUM_PH_4__Ctrl__TRILIUM_PH_5__＋__TRILIUM_PH_6__R__TRILIUM_PH_7__ ）する必要があることに注意してください。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-16T11:52:29.295Z"
     },
     {
       "id": "u_0ecec22ba92de65b28081c73_0",
@@ -1225,6 +1232,25 @@
       "model": "gemini-3.5-flash-lite",
       "batchJob": "batches/wazxmzaiela6jn8aqd7kybq00i98rm3g571n",
       "requestKey": "A9Oc6YKKc65v_0020506e3abb31ff"
+    },
+    {
+      "at": "2026-11-16T11:52:29.295Z",
+      "model": "gemini-3.5-flash-lite",
+      "batchJob": "batches/yfm05orxz60fe1t80oz670gs2xgx5x0u8fkd",
+      "requestKey": "A9Oc6YKKc65v_743ceef878f1a480",
+      "modelVersion": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 591,
+        "candidatesTokenCount": 149,
+        "totalTokenCount": 740,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 591
+          }
+        ],
+        "serviceTier": "standard"
+      }
     }
   ]
 }
