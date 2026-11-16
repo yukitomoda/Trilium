@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "pageId": "Q2z6av6JZVWm",
   "sourceFile": "docs/User Guide/User Guide/Scripting/Script API/Frontend API.md",
-  "sourceRevision": "731bcf5b4e44f089698184c26f6a7b6e26f8af54",
+  "sourceRevision": "63f2489c2b2779f3767bcbd74ddc83a03055f10d",
   "units": [
     {
       "id": "u_8d54f1160ad5381fc6964ec2_0",
@@ -939,8 +939,15 @@
       "sourceHash": "99c7e20388da521a0c147ce3b1b18127783c5946a9ecf527c16d7794193821b1",
       "context": "Frontend API > FrontendApi",
       "contextHash": "cd8534bb49846209ff1911d081a9d036b0c3568650571dfa767e3e8d03a555e8",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "__TRILIUM_PH_0____TRILIUM_PH_1__ノートが見つからない場合でもエラーを報告しない",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-16T10:18:13.154Z"
     },
     {
       "id": "u_a93122e10b2cafcf1d55ff36_0",
@@ -10389,6 +10396,25 @@
       "model": "gemini-3.5-flash-lite",
       "batchJob": "batches/8vehrrvdpag09tp4gjf9dbgj006t9k2gkkyl",
       "requestKey": "Q2z6av6JZVWm_40490c7362735e0c"
+    },
+    {
+      "at": "2026-11-16T10:18:13.154Z",
+      "model": "gemini-3.5-flash-lite",
+      "batchJob": "batches/pv3s6a45c9mct38ei9ubwv0didxm6r2rrbu7",
+      "requestKey": "Q2z6av6JZVWm_1138d544d21e4f1a",
+      "modelVersion": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 1779,
+        "candidatesTokenCount": 1462,
+        "totalTokenCount": 3241,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 1779
+          }
+        ],
+        "serviceTier": "standard"
+      }
     }
   ]
 }

@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "pageId": "Y84QCbArmK3z",
   "sourceFile": "docs/User Guide/User Guide/Meeting transcription.md",
-  "sourceRevision": "731bcf5b4e44f089698184c26f6a7b6e26f8af54",
+  "sourceRevision": "63f2489c2b2779f3767bcbd74ddc83a03055f10d",
   "units": [
     {
       "id": "u_67ed6bab35aa2cd7d1ea945a_0",
@@ -130,8 +130,15 @@
       "sourceHash": "d1fb26389ef837e1cf746607034415629166f3f58e5c5939a510ec42a33a79e8",
       "context": "Meeting transcription > Enabling meeting transcription",
       "contextHash": "637bfa4d60f755e174f7da7c92f1d1b0e7ddec59561f4c9dc3e1e743eb265497",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "ミーティングの文字起こしはデフォルトでオフになっています。有効にするには、__TRILIUM_PH_0__オプション__TRILIUM_PH_1__ → __TRILIUM_PH_2__文字起こし__TRILIUM_PH_3__に移動し、__TRILIUM_PH_4__ミーティングの文字起こし__TRILIUM_PH_5__をオンにします。これにより、__TRILIUM_PH_6__ __TRILIUM_PH_7__ミーティングの文字起こし__TRILIUM_PH_8__ボタンが__TRILIUM_PH_9__ランチバー__TRILIUM_PH_10__に追加され、__TRILIUM_PH_11__ベータ__TRILIUM_PH_12__バッジが表示されます。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-16T10:18:13.154Z"
     },
     {
       "id": "u_46a495f0e75a5fe6ac66b945_0",
@@ -602,8 +609,15 @@
       "sourceHash": "ed2d42c2d258556d5c18ef928fa67fa71d26c3213650999fa476035d87565790",
       "context": "Meeting transcription > Configuration",
       "contextHash": "0227e57f66b5c92029d02cefa17bfce120747281f7af71632430d978aaba396e",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "音声認識モデルです。どちらも NVIDIA の Parakeet TDT 0.6B v3 モデルのバージョンであり、25 種類のヨーロッパ言語を認識して話されている言語を判別します。__TRILIUM_PH_0__標準__TRILIUM_PH_1__はダウンロードサイズが小さく、ほとんどのコンピューターでスムーズに動作します。__TRILIUM_PH_2__高精度__TRILIUM_PH_3__は間違いが少なくなりますが、ダウンロードサイズが大きく、文字起こし中により多くのメモリ（約 1.6 GB）が必要になります。モデルは、初めて文字起こし機能を使用する際にダウンロードされます。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-16T10:18:13.154Z"
     },
     {
       "id": "u_27ffe5af28730c84aa2b0bbc_0",
@@ -966,6 +980,25 @@
       "model": "gemini-3.5-flash-lite",
       "batchJob": "batches/8vehrrvdpag09tp4gjf9dbgj006t9k2gkkyl",
       "requestKey": "Y84QCbArmK3z_e4c190c7a617afdb"
+    },
+    {
+      "at": "2026-11-16T10:18:13.154Z",
+      "model": "gemini-3.5-flash-lite",
+      "batchJob": "batches/pv3s6a45c9mct38ei9ubwv0didxm6r2rrbu7",
+      "requestKey": "Y84QCbArmK3z_b9dbb65446ad9683",
+      "modelVersion": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 924,
+        "candidatesTokenCount": 653,
+        "totalTokenCount": 1577,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 924
+          }
+        ],
+        "serviceTier": "standard"
+      }
     }
   ]
 }

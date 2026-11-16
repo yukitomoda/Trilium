@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "pageId": "9qPsTWBorUhQ",
   "sourceFile": "docs/User Guide/User Guide/Advanced Usage/ETAPI (REST API)/API Reference.md",
-  "sourceRevision": "731bcf5b4e44f089698184c26f6a7b6e26f8af54",
+  "sourceRevision": "63f2489c2b2779f3767bcbd74ddc83a03055f10d",
   "units": [
     {
       "id": "u_49745ba7fe21a0eccfd1a86c_0",
@@ -1116,8 +1116,15 @@
       "sourceHash": "3d5cfffa797496c7efb99a20e0cc4afd7abfd192ef767cbbde41de0c3f656a0b",
       "context": "API Reference >  Notes > Search notes",
       "contextHash": "01807513607598ed11712e163f2897e2283119959cdb71c9f5cdddc551381339",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "__TRILIUM_PH_0__  __TRILIUM_PH_1__は、__TRILIUM_PH_2__https://triliumnext.github.io/Docs/Wiki/search.html__TRILIUM_PH_3__で説明されている検索クエリ文字列です",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-16T10:18:13.154Z"
     },
     {
       "id": "u_db8a53fbba5e0bbb4ed590f8_0",
@@ -22033,6 +22040,25 @@
       "model": "gemini-3.5-flash-lite",
       "batchJob": "batches/8vehrrvdpag09tp4gjf9dbgj006t9k2gkkyl",
       "requestKey": "9qPsTWBorUhQ_7df6cb7ca9f3a7c3"
+    },
+    {
+      "at": "2026-11-16T10:18:13.154Z",
+      "model": "gemini-3.5-flash-lite",
+      "batchJob": "batches/pv3s6a45c9mct38ei9ubwv0didxm6r2rrbu7",
+      "requestKey": "9qPsTWBorUhQ_876a2c4967d1dc4b",
+      "modelVersion": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 419,
+        "candidatesTokenCount": 122,
+        "totalTokenCount": 541,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 419
+          }
+        ],
+        "serviceTier": "standard"
+      }
     }
   ]
 }

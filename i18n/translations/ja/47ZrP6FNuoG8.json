@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "pageId": "47ZrP6FNuoG8",
   "sourceFile": "docs/User Guide/User Guide/Advanced Usage/Default Note Title.md",
-  "sourceRevision": "731bcf5b4e44f089698184c26f6a7b6e26f8af54",
+  "sourceRevision": "63f2489c2b2779f3767bcbd74ddc83a03055f10d",
   "units": [
     {
       "id": "u_54384c0a4eadf00a1f72b4f2_0",
@@ -181,8 +181,15 @@
       "sourceHash": "cdb6eaf5ccb202a9e30d97ff641b571973cf1878317a380389b14094b3f13ac2",
       "context": "Default Note Title > Titles set by a template",
       "contextHash": "cd709c87a80926c138e0762b758695f25bfc1485f77b17a4c213c59205b6c3ae",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "テンプレートを使用すると、どこで作成された場合でも、そのテンプレートから作成されるノートに名前を付けることができます。これを行うには、テンプレートノートに __TRILIUM_PH_0__ ラベルを追加します。例えば、__TRILIUM_PH_1____TRILIUM_PH_2__ミーティング__TRILIUM_PH_3__テンプレートに設定します。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-16T10:18:13.154Z"
     },
     {
       "id": "u_c14d64bea73ee3342c4a06c5_0",
@@ -482,6 +489,25 @@
       "model": "gemini-3.5-flash-lite",
       "batchJob": "batches/8vehrrvdpag09tp4gjf9dbgj006t9k2gkkyl",
       "requestKey": "47ZrP6FNuoG8_80bd977170d141aa"
+    },
+    {
+      "at": "2026-11-16T10:18:13.154Z",
+      "model": "gemini-3.5-flash-lite",
+      "batchJob": "batches/pv3s6a45c9mct38ei9ubwv0didxm6r2rrbu7",
+      "requestKey": "47ZrP6FNuoG8_6dd011cba1e32482",
+      "modelVersion": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 429,
+        "candidatesTokenCount": 153,
+        "totalTokenCount": 582,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 429
+          }
+        ],
+        "serviceTier": "standard"
+      }
     }
   ]
 }

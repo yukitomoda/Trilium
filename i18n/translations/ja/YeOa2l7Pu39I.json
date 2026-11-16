@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "pageId": "YeOa2l7Pu39I",
   "sourceFile": "docs/User Guide/User Guide/Scripting/Breaking changes/v0.104.0 Disabling the Node integration in Electron.md",
-  "sourceRevision": "731bcf5b4e44f089698184c26f6a7b6e26f8af54",
+  "sourceRevision": "63f2489c2b2779f3767bcbd74ddc83a03055f10d",
   "units": [
     {
       "id": "u_13aee62627a27ebdd00fbd28_0",
@@ -164,8 +164,15 @@
       "sourceHash": "bc934138d232df238b99020bcee06264e907eedca919091e72cfe55f58ae1456",
       "context": "v0.104.0: Disabling the Node integration in Electron > Overview of the API",
       "contextHash": "a4320c26803b7a6a6211e77924fa72a1825fbf8350eebff703dc77717c80e513",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "Electron APIは異なります。__TRILIUM_PH_0__（デスクトップのプリロードスクリプトによって公開されます）に存在し、__TRILIUM_PH_1__には存在しません。また、Electronのデスクトップビルドでのみ利用可能です。これを使用するフロントエンドスクリプトは、__TRILIUM_PH_2__でガードを行うべきであり、これによりブラウザやスタンドアロン（WASM）ビルドで正常にフォールバックするようになります。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-16T10:18:13.154Z"
     },
     {
       "id": "u_2b20fc6fca115f1c62a6f33c_0",
@@ -225,6 +232,25 @@
       "model": "gemini-3.5-flash-lite",
       "batchJob": "batches/8vehrrvdpag09tp4gjf9dbgj006t9k2gkkyl",
       "requestKey": "YeOa2l7Pu39I_21beb845e160b145"
+    },
+    {
+      "at": "2026-11-16T10:18:13.154Z",
+      "model": "gemini-3.5-flash-lite",
+      "batchJob": "batches/pv3s6a45c9mct38ei9ubwv0didxm6r2rrbu7",
+      "requestKey": "YeOa2l7Pu39I_1d07d4d67c7c2916",
+      "modelVersion": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 455,
+        "candidatesTokenCount": 186,
+        "totalTokenCount": 641,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 455
+          }
+        ],
+        "serviceTier": "standard"
+      }
     }
   ]
 }

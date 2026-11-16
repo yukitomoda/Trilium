@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "pageId": "OFXdgB2nNk1F",
   "sourceFile": "docs/User Guide/User Guide/Advanced Usage/Attributes/Promoted Attributes.md",
-  "sourceRevision": "731bcf5b4e44f089698184c26f6a7b6e26f8af54",
+  "sourceRevision": "63f2489c2b2779f3767bcbd74ddc83a03055f10d",
   "units": [
     {
       "id": "u_79e5148a28d4d5d5c47fc61f_0",
@@ -1010,8 +1010,15 @@
       "sourceHash": "5ff2d928b29c86debd8d7eb4fedcb1db021b8b498a7252eafc88e54b6804a730",
       "context": "Promoted Attributes > Using system attributes",
       "contextHash": "2da68289163322cb7ea09c3df9dfe164d1fa1e56868033a1e0a8b63f4f52a268",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "__TRILIUM_PH_0__Presentation__TRILIUM_PH_1__は、各スライドのカスタマイズを簡単に行えるように、スライドごとに「Background」の昇格された属性を追加します。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-16T10:18:13.154Z"
     },
     {
       "id": "u_fe7c4a1fd795f842cb9d80fa_0",
@@ -1105,8 +1112,15 @@
       "sourceHash": "64c97593065ffd73e5e306efed12e9bd25e4274e9c60a81cb05a72581deeb714",
       "context": "Promoted Attributes > Using system attributes > Inverse relation",
       "contextHash": "2aed45eb30074eff1c1d277c538b39151365ede15d23f522a4d670fe704554e9",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "リレーション定義を使用すると、このような「逆リレーション」を指定できます。定義したリレーションに対して、どのリレーションが逆リレーションであるかを指定します。2番目の例では、__TRILIUM_PH_0__に対して__TRILIUM_PH_1__を逆リレーションとして定義するリレーション定義と、__TRILIUM_PH_2__に対して__TRILIUM_PH_3__を逆リレーションとして定義する2番目のリレーション定義の、2つのリレーション定義が必要になることに注意してください。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-16T10:18:13.154Z"
     },
     {
       "id": "u_52114eb87e544b9f79e9fa41_0",
@@ -1271,6 +1285,25 @@
       "model": "gemini-3.5-flash-lite",
       "batchJob": "batches/8vehrrvdpag09tp4gjf9dbgj006t9k2gkkyl",
       "requestKey": "OFXdgB2nNk1F_5a8cf42ef92c5cb9"
+    },
+    {
+      "at": "2026-11-16T10:18:13.154Z",
+      "model": "gemini-3.5-flash-lite",
+      "batchJob": "batches/pv3s6a45c9mct38ei9ubwv0didxm6r2rrbu7",
+      "requestKey": "OFXdgB2nNk1F_326b86912f04e7e2",
+      "modelVersion": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 833,
+        "candidatesTokenCount": 520,
+        "totalTokenCount": 1353,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 833
+          }
+        ],
+        "serviceTier": "standard"
+      }
     }
   ]
 }

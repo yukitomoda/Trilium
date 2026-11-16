@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "pageId": "81SGnPGMk7Xc",
   "sourceFile": "docs/User Guide/User Guide/Collections/Geo Map.md",
-  "sourceRevision": "731bcf5b4e44f089698184c26f6a7b6e26f8af54",
+  "sourceRevision": "63f2489c2b2779f3767bcbd74ddc83a03055f10d",
   "units": [
     {
       "id": "u_b00a712038b0887a14a8a0af_0",
@@ -3200,8 +3200,15 @@
       "sourceHash": "32e55a328821949286da4b549fe0c7cc6ddde1d2d3ebd2f33749c02db7406180",
       "context": "Geo Map > Adding GPS tracks (.gpx)",
       "contextHash": "20db1ddcd61a92d13c669cfd0b11167bc4715a290ee02e1e431c68a80e48b74a",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "ファイルが GPS トラックとして認識されるためには、__TRILIUM_PH_0__ フィールドに __TRILIUM_PH_1__File type__TRILIUM_PH_2__ として表示される必要があります。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-16T10:18:13.154Z"
     },
     {
       "id": "u_26bf042c5736f9a780718cc0_0",
@@ -4472,6 +4479,25 @@
       "model": "gemini-3.5-flash-lite",
       "batchJob": "batches/8vehrrvdpag09tp4gjf9dbgj006t9k2gkkyl",
       "requestKey": "81SGnPGMk7Xc_be297c807e9915e0"
+    },
+    {
+      "at": "2026-11-16T10:18:13.154Z",
+      "model": "gemini-3.5-flash-lite",
+      "batchJob": "batches/pv3s6a45c9mct38ei9ubwv0didxm6r2rrbu7",
+      "requestKey": "81SGnPGMk7Xc_5e7c7756e6651e0d",
+      "modelVersion": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 1394,
+        "candidatesTokenCount": 1002,
+        "totalTokenCount": 2396,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 1394
+          }
+        ],
+        "serviceTier": "standard"
+      }
     }
   ]
 }

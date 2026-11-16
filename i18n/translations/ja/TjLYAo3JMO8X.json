@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "pageId": "TjLYAo3JMO8X",
   "sourceFile": "docs/User Guide/User Guide/Scripting/Frontend Basics/Examples/New Task launcher button.md",
-  "sourceRevision": "731bcf5b4e44f089698184c26f6a7b6e26f8af54",
+  "sourceRevision": "63f2489c2b2779f3767bcbd74ddc83a03055f10d",
   "units": [
     {
       "id": "u_39952e55bad6f0ee6a28d2c4_0",
@@ -62,8 +62,15 @@
       "sourceHash": "8bd428ea61db5fb48f8192d77bcbc2cc547ef3736226c8521180380d4ef52734",
       "context": "\"New Task\" launcher button",
       "contextHash": "e359a17bb8e35d1e0432199c80e45e6063c94813c052941ac128dd70838d6e9b",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "この例では、__TRILIUM_PH_0__Task Manager__TRILIUM_PH_1__ のショーケース（Triliumにデフォルトで付属しています）の機能を拡張し、__TRILIUM_PH_2__Launch Bar__TRILIUM_PH_3__ (__TRILIUM_PH_4__) に新しいタスクを自動的に作成して開くボタンを追加します。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-16T10:18:13.154Z"
     },
     {
       "id": "u_aa3663ad912cee416701141c_0",
@@ -434,6 +441,25 @@
       "model": "gemini-3.5-flash-lite",
       "batchJob": "batches/8vehrrvdpag09tp4gjf9dbgj006t9k2gkkyl",
       "requestKey": "TjLYAo3JMO8X_e3a9c7d76594f164"
+    },
+    {
+      "at": "2026-11-16T10:18:13.154Z",
+      "model": "gemini-3.5-flash-lite",
+      "batchJob": "batches/pv3s6a45c9mct38ei9ubwv0didxm6r2rrbu7",
+      "requestKey": "TjLYAo3JMO8X_b96014989fb14979",
+      "modelVersion": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 636,
+        "candidatesTokenCount": 312,
+        "totalTokenCount": 948,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 636
+          }
+        ],
+        "serviceTier": "standard"
+      }
     }
   ]
 }

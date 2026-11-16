@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "pageId": "8YBEPzcpUgxw",
   "sourceFile": "docs/User Guide/User Guide/Basic Concepts and Features/UI Elements/Note menu.md",
-  "sourceRevision": "731bcf5b4e44f089698184c26f6a7b6e26f8af54",
+  "sourceRevision": "63f2489c2b2779f3767bcbd74ddc83a03055f10d",
   "units": [
     {
       "id": "u_1b8cc28e13de5ddd612b63bc_0",
@@ -1517,8 +1517,15 @@
       "sourceHash": "d30637d3713cc5fae019bcea58d1ba9a01469acc16f8b34d2aa8c5e180b9f74f",
       "context": "Note menu > Mobile support",
       "contextHash": "5781354201bb1ad5871220e926fdf48ef075ddc4040bd8ebbe11e689b3ed4b62",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "ノートタイプのカスタムボタン（__TRILIUM_PH_0____TRILIUM_PH_1__File__TRILIUM_PH_2__上の__TRILIUM_PH_3____TRILIUM_PH_4__Downloadなど）。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-16T10:18:13.154Z"
     },
     {
       "id": "u_d9473010f89206776db68ba5_0",
@@ -1527,8 +1534,15 @@
       "sourceHash": "d9473010f89206776db68ba5451b616a53c19791e7449bc833ec961379a89a76",
       "context": "Note menu > Mobile support",
       "contextHash": "5781354201bb1ad5871220e926fdf48ef075ddc4040bd8ebbe11e689b3ed4b62",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "__TRILIUM_PH_0__スプリットビュー__TRILIUM_PH_1__の2番目のノートにある__TRILIUM_PH_2__Close this pane__TRILIUM_PH_3__。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-16T10:18:13.154Z"
     },
     {
       "id": "u_7616f279d6a849f5a9749714_0",
@@ -1706,6 +1720,25 @@
           {
             "modality": "TEXT",
             "tokenCount": 1284
+          }
+        ],
+        "serviceTier": "standard"
+      }
+    },
+    {
+      "at": "2026-11-16T10:18:13.154Z",
+      "model": "gemini-3.5-flash-lite",
+      "batchJob": "batches/pv3s6a45c9mct38ei9ubwv0didxm6r2rrbu7",
+      "requestKey": "8YBEPzcpUgxw_8b261b960d952b64",
+      "modelVersion": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 1184,
+        "candidatesTokenCount": 895,
+        "totalTokenCount": 2079,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 1184
           }
         ],
         "serviceTier": "standard"

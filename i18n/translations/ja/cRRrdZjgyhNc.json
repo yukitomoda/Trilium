@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "pageId": "cRRrdZjgyhNc",
   "sourceFile": "docs/User Guide/User Guide/AI/Privacy.md",
-  "sourceRevision": "731bcf5b4e44f089698184c26f6a7b6e26f8af54",
+  "sourceRevision": "63f2489c2b2779f3767bcbd74ddc83a03055f10d",
   "units": [
     {
       "id": "u_7cc99ce4e694e1e72cf1c27a_0",
@@ -470,8 +470,15 @@
       "sourceHash": "864a216874869a07f26406b57f1abdb737f1486a45b889ce3d9140b78dabae38",
       "context": "Privacy > What is actually sent",
       "contextHash": "1459ca20eb313d8d74a144826c4c3f52b98c3d5ee2e8bf01778dadbbb55d5866",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "__TRILIUM_PH_0__添付ファイルとメンション__TRILIUM_PH_1__は、追加すると次のようになります。画像、PDF、テキストファイルがプロバイダーに送信され、__TRILIUM_PH_2__メンションによりそのノートが取得可能になります。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-16T10:18:13.154Z"
     },
     {
       "id": "u_0629cc663758f8906aa1034f_0",
@@ -1024,8 +1031,15 @@
       "sourceHash": "5a8bae20d73babfa5dcce679ef5cd6c8559e9123e931fbc0501ad8f3e3cfa3b9",
       "context": "Privacy > What you control",
       "contextHash": "3f25f1b54b590fa97e960fa266e8f7771a90f7821895605251990f278c2a11d7",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "__TRILIUM_PH_0__どのツール呼び出しで最初に確認するか：__TRILIUM_PH_1______TRILIUM_PH_2__ツール__TRILIUM_PH_3__メニューの__TRILIUM_PH_4__権限__TRILIUM_PH_5__サブメニューにあります。__TRILIUM_PH_6__常に確認する__TRILIUM_PH_7__を設定すると、読み取りも含めてすべての呼び出しで確認待ちになります。新しいチャットは最後に選択したモードで開始されるため、__TRILIUM_PH_8__確認しない__TRILIUM_PH_9__に設定した後のチャットでも何も確認されません。モードを選択するまでは、AIが確認なしでノートの読み取りと検索を行う__TRILIUM_PH_10__変更前に確認する__TRILIUM_PH_11__でチャットが開始されます。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-16T10:18:13.154Z"
     },
     {
       "id": "u_3bd47dc2881441df8e8a27aa_0",
@@ -1153,8 +1167,15 @@
       "sourceHash": "9bb7b90a1906fded2113f191b7ece5e7b38b0923be0071972ed8a641cfc576d2",
       "context": "Privacy > Telemetry & security",
       "contextHash": "88aba830d7112b7084bb82105155c0f79abbbc26b84f2e2a1a77642d3b318843",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "組み込みのMCPサーバーはデフォルトで無効になっています。有効にすると、すべてのリクエストにETAPIトークンを含める必要があります。このトークンはREST APIと同様にノートへの完全な読み取りおよび書き込みアクセス権を付与するため、パスワードと同様に取り扱ってください。デスクトップ版では、__TRILIUM_PH_0__を有効にしない限り、__TRILIUM_PH_1__ネットワークアクセス__TRILIUM_PH_2__からのみアクセス可能です。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-16T10:18:13.154Z"
     }
   ],
   "requests": [
@@ -1213,6 +1234,25 @@
       "model": "gemini-3.5-flash-lite",
       "batchJob": "batches/8vehrrvdpag09tp4gjf9dbgj006t9k2gkkyl",
       "requestKey": "cRRrdZjgyhNc_7e9327840dac5e47"
+    },
+    {
+      "at": "2026-11-16T10:18:13.154Z",
+      "model": "gemini-3.5-flash-lite",
+      "batchJob": "batches/pv3s6a45c9mct38ei9ubwv0didxm6r2rrbu7",
+      "requestKey": "cRRrdZjgyhNc_6a9231760fc26355",
+      "modelVersion": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 764,
+        "candidatesTokenCount": 502,
+        "totalTokenCount": 1266,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 764
+          }
+        ],
+        "serviceTier": "standard"
+      }
     }
   ]
 }
