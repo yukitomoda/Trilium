@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "pageId": "Qjt68inQ2bRj",
   "sourceFile": "docs/User Guide/User Guide/Advanced Usage/Sharing/Serving directly the content of a note.md",
-  "sourceRevision": "f782bf56148719d1461f07015cebd6e3f273f957",
+  "sourceRevision": "f7a823d607395a1483ee75489a9e6ae1244625b6",
   "units": [
     {
       "id": "u_b3c401a8a7ade6c1648f6160_0",
@@ -130,8 +130,15 @@
       "sourceHash": "d8ddb5a6e711a4630718525580cd8f20664611584c90184c4aa22483f722ad9f",
       "context": "Serving directly the content of a note > By altering the URL",
       "contextHash": "2e903958855b8a6c4559ad920ac2f436cf511a7ac378ba0fd43e5fd06cbede96",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "URLに __TRILIUM_PH_0__ を追加すると、属性がノートに追加されているかどうかにかかわらず、ノートを生の形式で表示できます。 __TRILIUM_PH_1__ ",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-17T03:02:39.937Z"
     },
     {
       "id": "u_b190d47815633246b0ab18a6_0",
@@ -191,6 +198,25 @@
       "model": "gemini-3.5-flash-lite",
       "batchJob": "batches/8vehrrvdpag09tp4gjf9dbgj006t9k2gkkyl",
       "requestKey": "Qjt68inQ2bRj_c3a71ab0eb1427f2"
+    },
+    {
+      "at": "2026-11-17T03:02:39.937Z",
+      "model": "gemini-3.5-flash-lite",
+      "batchJob": "batches/gqnw4vbwusa6us39siqk627b4dresx0ldah6",
+      "requestKey": "Qjt68inQ2bRj_fc0fc0bd510958b6",
+      "modelVersion": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 511,
+        "candidatesTokenCount": 124,
+        "totalTokenCount": 635,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 511
+          }
+        ],
+        "serviceTier": "standard"
+      }
     }
   ]
 }

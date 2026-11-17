@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "pageId": "fZ2IGYFXjkEy",
   "sourceFile": "docs/User Guide/User Guide/Scripting/Backend scripts/Server-side imports.md",
-  "sourceRevision": "f782bf56148719d1461f07015cebd6e3f273f957",
+  "sourceRevision": "f7a823d607395a1483ee75489a9e6ae1244625b6",
   "units": [
     {
       "id": "u_aa87356a0ee2aa21a3a4a612_0",
@@ -62,8 +62,15 @@
       "sourceHash": "98959fef03cb040da19300c86c43b1bae4343a04c6df11f3ea585ad731102bf9",
       "context": "Server-side imports",
       "contextHash": "db79e7f0117a962633b0c86cd0fba14c167e94aff37988e1708ec6ca999f88df",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "理論的には、次のようにサーバーディレクトリ内で手動で __TRILIUM_PH_0__ を設定し、 __TRILIUM_PH_1__ または __TRILIUM_PH_2__を使用してインポートを使用することは引き続き可能です。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-17T03:02:39.937Z"
     }
   ],
   "requests": [
@@ -72,6 +79,25 @@
       "model": "gemini-3.5-flash-lite",
       "batchJob": "batches/8vehrrvdpag09tp4gjf9dbgj006t9k2gkkyl",
       "requestKey": "fZ2IGYFXjkEy_f4613a4b98cd2633"
+    },
+    {
+      "at": "2026-11-17T03:02:39.937Z",
+      "model": "gemini-3.5-flash-lite",
+      "batchJob": "batches/gqnw4vbwusa6us39siqk627b4dresx0ldah6",
+      "requestKey": "fZ2IGYFXjkEy_0897a7ca84db4a0e",
+      "modelVersion": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 502,
+        "candidatesTokenCount": 129,
+        "totalTokenCount": 631,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 502
+          }
+        ],
+        "serviceTier": "standard"
+      }
     }
   ]
 }

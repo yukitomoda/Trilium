@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "pageId": "TjLYAo3JMO8X",
   "sourceFile": "docs/User Guide/User Guide/Scripting/Frontend Basics/Examples/New Task launcher button.md",
-  "sourceRevision": "f782bf56148719d1461f07015cebd6e3f273f957",
+  "sourceRevision": "f7a823d607395a1483ee75489a9e6ae1244625b6",
   "units": [
     {
       "id": "u_39952e55bad6f0ee6a28d2c4_0",
@@ -96,8 +96,15 @@
       "sourceHash": "5d9f467f3d51200696d3e66fdaa172699b6729713166874ec8902456ab1eab35",
       "context": "\"New Task\" launcher button > Creating the note",
       "contextHash": "732a9acdb18551f472c9781a43e9ab85e274f642a5a17650e9db3bc952c647d0",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "まず、新しい __TRILIUM_PH_0__コード__TRILIUM_PH_1__ ノートの種類を作成し、言語に __TRILIUM_PH_2__JavaScript (Trilium frontend)__TRILIUM_PH_3__ を指定します。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-17T03:02:39.937Z"
     },
     {
       "id": "u_c0bc249bb5b6b76770e2d0e5_0",
@@ -106,8 +113,15 @@
       "sourceHash": "c0bc249bb5b6b76770e2d0e539f2fdcf789465e138cc02bebebcba7f66757bb7",
       "context": "\"New Task\" launcher button > Creating the note",
       "contextHash": "732a9acdb18551f472c9781a43e9ab85e274f642a5a17650e9db3bc952c647d0",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": " __TRILIUM_PH_0__ ラベルを __TRILIUM_PH_1__属性__TRILIUM_PH_2__で定義します。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-17T03:02:39.937Z"
     },
     {
       "id": "u_7917bec3b03efe2b4d9d9091_0",
@@ -456,6 +470,25 @@
           {
             "modality": "TEXT",
             "tokenCount": 636
+          }
+        ],
+        "serviceTier": "standard"
+      }
+    },
+    {
+      "at": "2026-11-17T03:02:39.937Z",
+      "model": "gemini-3.5-flash-lite",
+      "batchJob": "batches/gqnw4vbwusa6us39siqk627b4dresx0ldah6",
+      "requestKey": "TjLYAo3JMO8X_d7b8b6f2e61cabf1",
+      "modelVersion": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 591,
+        "candidatesTokenCount": 209,
+        "totalTokenCount": 800,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 591
           }
         ],
         "serviceTier": "standard"

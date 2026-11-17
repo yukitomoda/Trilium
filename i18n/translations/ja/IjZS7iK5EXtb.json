@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "pageId": "IjZS7iK5EXtb",
   "sourceFile": "docs/User Guide/User Guide/Scripting/Breaking changes/v0.107.0 Removal of the old layout.md",
-  "sourceRevision": "f782bf56148719d1461f07015cebd6e3f273f957",
+  "sourceRevision": "f7a823d607395a1483ee75489a9e6ae1244625b6",
   "units": [
     {
       "id": "u_0e493718f3593b9bbca5e130_0",
@@ -504,8 +504,15 @@
       "sourceHash": "982fee4e773dac3a29bc7f6da3e8315b66b0fc243bbf8cf190e1c79f71f8ac21",
       "context": "v0.107.0: Removal of the old layout > Changing to the existing layout > Removal of the ribbon",
       "contextHash": "298a05057fd83d9181bb66f44be4ed6e17ea7457f7cc9724cf4bf0ab07e7b818",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "セクションが展開されるか折り畳まれるかは、 __TRILIUM_PH_0__「Options → Appearance →」内の__TRILIUM_PH_1__ 「User Interface」設定の __TRILIUM_PH_2__「Expand “Notes edited on this day” on day notes」に依存します__TRILIUM_PH_3__。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-17T03:02:39.937Z"
     },
     {
       "id": "u_77d00be0331a9bfecc4f69ac_0",
@@ -1253,6 +1260,25 @@
       "model": "gemini-3.5-flash-lite",
       "batchJob": "batches/8vehrrvdpag09tp4gjf9dbgj006t9k2gkkyl",
       "requestKey": "IjZS7iK5EXtb_0095566ae4165266"
+    },
+    {
+      "at": "2026-11-17T03:02:39.937Z",
+      "model": "gemini-3.5-flash-lite",
+      "batchJob": "batches/gqnw4vbwusa6us39siqk627b4dresx0ldah6",
+      "requestKey": "IjZS7iK5EXtb_5ad4353bde8cda97",
+      "modelVersion": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 539,
+        "candidatesTokenCount": 154,
+        "totalTokenCount": 693,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 539
+          }
+        ],
+        "serviceTier": "standard"
+      }
     }
   ]
 }

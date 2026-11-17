@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "pageId": "vElnKeDNPSVl",
   "sourceFile": "docs/User Guide/User Guide/Scripting/Logging.md",
-  "sourceRevision": "f782bf56148719d1461f07015cebd6e3f273f957",
+  "sourceRevision": "f7a823d607395a1483ee75489a9e6ae1244625b6",
   "units": [
     {
       "id": "u_afa37a67c4c9980635be491e_0",
@@ -79,8 +79,15 @@
       "sourceHash": "f9b1d96b6b2885426375c1d246b74df1d9c9df0d0f961a301df1cf57af5dc75d",
       "context": "Logging > UI logging via api.log",
       "contextHash": "ef159b2a3bc8068fff8a6125338bc670e2a971ee4673e9ea97daf348794ef783",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "APIログパネルは、次の機能を使用するスクリプトを実行した後にノートの下部に表示されます（以下を含みます： __TRILIUM_PH_0__クイック編集__TRILIUM_PH_1__）。パネルの右上にある閉じるボタンを押すと、一時的に非表示にすることができます。 __TRILIUM_PH_2__",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-17T03:02:39.937Z"
     },
     {
       "id": "u_adcc55539ded38f1d1f08797_0",
@@ -157,8 +164,15 @@
       "sourceHash": "45014d9d5e17ad9a89ac3e89b7180b961c6fdf3692829879d75ad77e84b338a3",
       "context": "Logging > Console logging",
       "contextHash": "214965454c6519962b94ac08057255bbf110929df3e2e333da3401c45d501cfe",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "バックエンドスクリプトの場合、ログは実行中のサーバー出力に表示されますが、 __TRILIUM_PH_0____TRILIUM_PH_1__ 次の場所では確認できません： __TRILIUM_PH_2__バックエンド（サーバー）ログ__TRILIUM_PH_3__。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-17T03:02:39.937Z"
     },
     {
       "id": "u_b190d47815633246b0ab18a6_0",
@@ -184,6 +198,25 @@
       "model": "gemini-3.5-flash-lite",
       "batchJob": "batches/8vehrrvdpag09tp4gjf9dbgj006t9k2gkkyl",
       "requestKey": "vElnKeDNPSVl_44d29a94d06be36e"
+    },
+    {
+      "at": "2026-11-17T03:02:39.937Z",
+      "model": "gemini-3.5-flash-lite",
+      "batchJob": "batches/gqnw4vbwusa6us39siqk627b4dresx0ldah6",
+      "requestKey": "vElnKeDNPSVl_7b4d8b8cd3fa92d5",
+      "modelVersion": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 679,
+        "candidatesTokenCount": 258,
+        "totalTokenCount": 937,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 679
+          }
+        ],
+        "serviceTier": "standard"
+      }
     }
   ]
 }

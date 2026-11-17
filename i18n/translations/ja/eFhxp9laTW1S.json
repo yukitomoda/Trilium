@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "pageId": "eFhxp9laTW1S",
   "sourceFile": "docs/User Guide/User Guide/AI/Providers/Subscription-based providers.md",
-  "sourceRevision": "f782bf56148719d1461f07015cebd6e3f273f957",
+  "sourceRevision": "f7a823d607395a1483ee75489a9e6ae1244625b6",
   "units": [
     {
       "id": "u_c2db2c359f5278eee5923ae2_0",
@@ -793,8 +793,15 @@
       "sourceHash": "42e4509948bc8e791915c28b8479f5937a852c09e2af2da656a0d3a8798533d4",
       "context": "Subscription-based providers >  Google Antigravity",
       "contextHash": "48373d2daaa7a28a2ece157a823dcfd27fd5641e72345c1e35a39733fd7117aa",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "を指す __TRILIUM_PH_0__ 環境変数を設定することにより __TRILIUM_PH_1__",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-17T03:02:39.937Z"
     },
     {
       "id": "u_2d9dd674ed1f38ef3fbe503d_0",
@@ -888,8 +895,15 @@
       "sourceHash": "42e4509948bc8e791915c28b8479f5937a852c09e2af2da656a0d3a8798533d4",
       "context": "Subscription-based providers >  Google Antigravity",
       "contextHash": "48373d2daaa7a28a2ece157a823dcfd27fd5641e72345c1e35a39733fd7117aa",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "を指す __TRILIUM_PH_0__ 環境変数を設定することにより __TRILIUM_PH_1__",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-17T03:02:39.937Z"
     },
     {
       "id": "u_2d9dd674ed1f38ef3fbe503d_1",
@@ -1490,6 +1504,25 @@
       "model": "gemini-3.5-flash-lite",
       "batchJob": "batches/8vehrrvdpag09tp4gjf9dbgj006t9k2gkkyl",
       "requestKey": "eFhxp9laTW1S_5ff75913dff64f19"
+    },
+    {
+      "at": "2026-11-17T03:02:39.937Z",
+      "model": "gemini-3.5-flash-lite",
+      "batchJob": "batches/gqnw4vbwusa6us39siqk627b4dresx0ldah6",
+      "requestKey": "eFhxp9laTW1S_e8aeb54d4a09af27",
+      "modelVersion": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 562,
+        "candidatesTokenCount": 176,
+        "totalTokenCount": 738,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 562
+          }
+        ],
+        "serviceTier": "standard"
+      }
     }
   ]
 }

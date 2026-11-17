@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "pageId": "J5Ex1ZrMbyJ6",
   "sourceFile": "docs/User Guide/User Guide/Advanced Usage/Custom Request Handler.md",
-  "sourceRevision": "f782bf56148719d1461f07015cebd6e3f273f957",
+  "sourceRevision": "f7a823d607395a1483ee75489a9e6ae1244625b6",
   "units": [
     {
       "id": "u_a2ba39b0c1eaf6dd0c92fc73_0",
@@ -113,8 +113,15 @@
       "sourceHash": "a4ed0306e0c62a7d6874b6e06835cfcd9767d5c73c908308e151ccbabe8f45cf",
       "context": "Custom Request Handler > Create note from outside Trilium",
       "contextHash": "d8ec78c981f0894f31578cd42e3f38521db38bb1c74916d9191d68ede01b4fef",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "ラベル __TRILIUM_PH_0__ の値 __TRILIUM_PH_1__付き",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-17T03:02:39.937Z"
     },
     {
       "id": "u_d47e924b0d9ace6d3aca0720_0",
@@ -431,6 +438,25 @@
       "model": "gemini-3.5-flash-lite",
       "batchJob": "batches/8vehrrvdpag09tp4gjf9dbgj006t9k2gkkyl",
       "requestKey": "J5Ex1ZrMbyJ6_4848135220a5ce03"
+    },
+    {
+      "at": "2026-11-17T03:02:39.937Z",
+      "model": "gemini-3.5-flash-lite",
+      "batchJob": "batches/gqnw4vbwusa6us39siqk627b4dresx0ldah6",
+      "requestKey": "J5Ex1ZrMbyJ6_cff3817d16a056b0",
+      "modelVersion": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 471,
+        "candidatesTokenCount": 107,
+        "totalTokenCount": 578,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 471
+          }
+        ],
+        "serviceTier": "standard"
+      }
     }
   ]
 }

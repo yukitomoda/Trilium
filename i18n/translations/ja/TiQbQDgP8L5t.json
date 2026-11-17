@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "pageId": "TiQbQDgP8L5t",
   "sourceFile": "docs/User Guide/User Guide/Advanced Usage/Text Extraction (OCR).md",
-  "sourceRevision": "f782bf56148719d1461f07015cebd6e3f273f957",
+  "sourceRevision": "f7a823d607395a1483ee75489a9e6ae1244625b6",
   "units": [
     {
       "id": "u_7db1fd9826661d34f544c88d_0",
@@ -878,8 +878,15 @@
       "sourceHash": "e0406edcc52c7409025455376f11c4c5f01b9caee53619d52f039a82c27af3ae",
       "context": "Text Extraction (OCR) > Language management",
       "contextHash": "76f5f2d444c2b824e3864a8fdaa58d72e8d2fbf3699a69d54e7897e98b8fa4a7",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "特定のノートで特定の言語による検出を強制するには、テキストコンテンツの言語と同様に、 __TRILIUM_PH_0__ __TRILIUM_PH_1__属性を使用します__TRILIUM_PH_2__。 __TRILIUM_PH_3__Attachments__TRILIUM_PH_4__の場合、 __TRILIUM_PH_5__言語を手動で調整することはできません__TRILIUM_PH_6__",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-17T03:02:39.937Z"
     },
     {
       "id": "u_3c0dbe31b817955c48f555bb_0",
@@ -973,8 +980,15 @@
       "sourceHash": "8ff816512273a3aa596ea35c9d35127d6655b7c92ecadda110e4dbb915a38b0b",
       "context": "Text Extraction (OCR) > Viewing extracted content for a single note",
       "contextHash": "c9fb8ed67d69f581e46bc5dc7648c587f5c9faf2b28412612faf85eaf573a265",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": " __TRILIUM_PH_0__Attachments__TRILIUM_PH_1__ （例： __TRILIUM_PH_2__Images__TRILIUM_PH_3__ in __TRILIUM_PH_4__Text__TRILIUM_PH_5__ notes）の場合は、添付ファイルをダブルクリックして詳細を表示し、左側の […] ボタンを押して __TRILIUM_PH_6__View extracted text (OCR)__TRILIUM_PH_7__を選択します。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-17T03:02:39.937Z"
     },
     {
       "id": "u_bf81af99e83e5c0be6ee44eb_0",
@@ -1108,6 +1122,25 @@
       "model": "gemini-3.5-flash-lite",
       "batchJob": "batches/8vehrrvdpag09tp4gjf9dbgj006t9k2gkkyl",
       "requestKey": "TiQbQDgP8L5t_c003d4a065078cf1"
+    },
+    {
+      "at": "2026-11-17T03:02:39.937Z",
+      "model": "gemini-3.5-flash-lite",
+      "batchJob": "batches/gqnw4vbwusa6us39siqk627b4dresx0ldah6",
+      "requestKey": "TiQbQDgP8L5t_8f9ff5655153f3d1",
+      "modelVersion": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 737,
+        "candidatesTokenCount": 316,
+        "totalTokenCount": 1053,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 737
+          }
+        ],
+        "serviceTier": "standard"
+      }
     }
   ]
 }

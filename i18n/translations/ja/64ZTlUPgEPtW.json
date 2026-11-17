@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "pageId": "64ZTlUPgEPtW",
   "sourceFile": "docs/User Guide/User Guide/Advanced Usage/Safe mode.md",
-  "sourceRevision": "f782bf56148719d1461f07015cebd6e3f273f957",
+  "sourceRevision": "f7a823d607395a1483ee75489a9e6ae1244625b6",
   "units": [
     {
       "id": "u_50c344c06d251997c32403af_0",
@@ -79,8 +79,15 @@
       "sourceHash": "ec759d1febd4b42dd0de9dcbc850de19ba00be8c9ae1f51d80f33cdc512a033e",
       "context": "Safe mode",
       "contextHash": "c6b735fc1558e9b941eb923171cb5eed1bdd95f6939416cf285bbfc965acf2d8",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "のランチャーのタイプを __TRILIUM_PH_0__ で無効にします __TRILIUM_PH_1__。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-17T03:02:39.937Z"
     },
     {
       "id": "u_9031d3edbd834fad77cbcd41_0",
@@ -157,6 +164,25 @@
       "model": "gemini-3.5-flash-lite",
       "batchJob": "batches/8vehrrvdpag09tp4gjf9dbgj006t9k2gkkyl",
       "requestKey": "64ZTlUPgEPtW_a19ee87cf4434618"
+    },
+    {
+      "at": "2026-11-17T03:02:39.937Z",
+      "model": "gemini-3.5-flash-lite",
+      "batchJob": "batches/gqnw4vbwusa6us39siqk627b4dresx0ldah6",
+      "requestKey": "64ZTlUPgEPtW_1cc3409bba05bebc",
+      "modelVersion": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 460,
+        "candidatesTokenCount": 106,
+        "totalTokenCount": 566,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 460
+          }
+        ],
+        "serviceTier": "standard"
+      }
     }
   ]
 }

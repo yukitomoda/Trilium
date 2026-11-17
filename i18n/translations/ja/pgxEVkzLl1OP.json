@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "pageId": "pgxEVkzLl1OP",
   "sourceFile": "docs/User Guide/User Guide/Advanced Usage/ETAPI (REST API).md",
-  "sourceRevision": "f782bf56148719d1461f07015cebd6e3f273f957",
+  "sourceRevision": "f7a823d607395a1483ee75489a9e6ae1244625b6",
   "units": [
     {
       "id": "u_a72e24ac283f09ef4a7d7095_0",
@@ -470,8 +470,15 @@
       "sourceHash": "0c20b319cadf616c93e98550d00ada572ba6116a671ed74d70aa01751a67a0cf",
       "context": "ETAPI (REST API) > Uploading binary content",
       "contextHash": "eb5e6c9cc620f56dd77308c42d6b56e798f0165041cefe50a9da759b8b56f1a1",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "JSONのリクエストボディはテキストしか運べないため、 __TRILIUM_PH_0__ の __TRILIUM_PH_1__ フィールドには、受け取った文字列がそのまま格納されます。画像、PDF、またはその他のバイナリファイルをアップロードするには、生のバイトデータをコンテンツエンドポイントに送信し、 __TRILIUM_PH_2__ コンテンツタイプを指定してください。これはノートのコンテンツ（__TRILIUM_PH_3__）についても同様です。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-17T03:02:39.937Z"
     },
     {
       "id": "u_19890e8552a162641faf97c9_0",
@@ -497,8 +504,15 @@
       "sourceHash": "bb131d37412bbe3c28e23219debc3f81b6b7a713bdba50d5480dfaa96bde3b17",
       "context": "ETAPI (REST API) > Uploading binary content",
       "contextHash": "eb5e6c9cc620f56dd77308c42d6b56e798f0165041cefe50a9da759b8b56f1a1",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "ファイルの改行を除去してしまう __TRILIUM_PH_0__ ではなく、 __TRILIUM_PH_1__を使用してください。画像の場合は、 __TRILIUM_PH_2__ を __TRILIUM_PH_3__ に設定し、 __TRILIUM_PH_4__ を次のような画像のタイプに設定します。 __TRILIUM_PH_5__",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-17T03:02:39.937Z"
     }
   ],
   "requests": [
@@ -526,6 +540,25 @@
       "model": "gemini-3.5-flash-lite",
       "batchJob": "batches/8vehrrvdpag09tp4gjf9dbgj006t9k2gkkyl",
       "requestKey": "pgxEVkzLl1OP_c11b65dc3de0a5e0"
+    },
+    {
+      "at": "2026-11-17T03:02:39.937Z",
+      "model": "gemini-3.5-flash-lite",
+      "batchJob": "batches/gqnw4vbwusa6us39siqk627b4dresx0ldah6",
+      "requestKey": "pgxEVkzLl1OP_ff8bde22bbb258a3",
+      "modelVersion": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 724,
+        "candidatesTokenCount": 294,
+        "totalTokenCount": 1018,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 724
+          }
+        ],
+        "serviceTier": "standard"
+      }
     }
   ]
 }

@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "pageId": "BCkXAVs63Ttv",
   "sourceFile": "docs/User Guide/User Guide/Advanced Usage/Note Map (Link map, Tree map).md",
-  "sourceRevision": "f782bf56148719d1461f07015cebd6e3f273f957",
+  "sourceRevision": "f7a823d607395a1483ee75489a9e6ae1244625b6",
   "units": [
     {
       "id": "u_41af604c89b119775837e820_0",
@@ -130,8 +130,15 @@
       "sourceHash": "f7210180c0ebf86a9cc5cab49b5baf81dffd4128c26a7d4f6640bb2fe7e20e97",
       "context": "Note Map (Link map, Tree map) > Accessing the note map",
       "contextHash": "34f3e387dbcaa2cc6c2e8a9e1f962dbd3e8f9821044e3e53d9f2ed7a0c81f294",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "ノートマップは、 __TRILIUM_PH_0__Connections__TRILIUM_PH_1__ タブの __TRILIUM_PH_2__右サイドバー__TRILIUM_PH_3__内にある __TRILIUM_PH_4__Note map__TRILIUM_PH_5__ セクションで利用できます。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-17T03:02:39.937Z"
     },
     {
       "id": "u_7a88ee942f9850d95b81cdd0_0",
@@ -174,8 +181,15 @@
       "sourceHash": "0a2755979d2ebea45c535342725c4d466093064966774013186d3a2c5800a3a6",
       "context": "Note Map (Link map, Tree map) > Accessing the note map",
       "contextHash": "34f3e387dbcaa2cc6c2e8a9e1f962dbd3e8f9821044e3e53d9f2ed7a0c81f294",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "（ナレッジベース内のすべてのノートの）グローバルなノートマップを表示するには、 __TRILIUM_PH_0__Note map__TRILIUM_PH_1__ ボタンが __TRILIUM_PH_2__ローンチバー__TRILIUM_PH_3__に用意されています。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-17T03:02:39.937Z"
     },
     {
       "id": "u_9638f4d5da9f0c7fd1fb6dea_0",
@@ -749,6 +763,25 @@
       "model": "gemini-3.5-flash-lite",
       "batchJob": "batches/8vehrrvdpag09tp4gjf9dbgj006t9k2gkkyl",
       "requestKey": "BCkXAVs63Ttv_428b47860018a9f1"
+    },
+    {
+      "at": "2026-11-17T03:02:39.937Z",
+      "model": "gemini-3.5-flash-lite",
+      "batchJob": "batches/gqnw4vbwusa6us39siqk627b4dresx0ldah6",
+      "requestKey": "BCkXAVs63Ttv_d7a5ab741b0caa2b",
+      "modelVersion": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 659,
+        "candidatesTokenCount": 254,
+        "totalTokenCount": 913,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 659
+          }
+        ],
+        "serviceTier": "standard"
+      }
     }
   ]
 }

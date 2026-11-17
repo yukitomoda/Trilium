@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "pageId": "KC1HB96bqqHX",
   "sourceFile": "docs/User Guide/User Guide/Advanced Usage/Templates.md",
-  "sourceRevision": "f782bf56148719d1461f07015cebd6e3f273f957",
+  "sourceRevision": "f7a823d607395a1483ee75489a9e6ae1244625b6",
   "units": [
     {
       "id": "u_ded25352ccedf0536262d854_0",
@@ -317,8 +317,15 @@
       "sourceHash": "5c8d8f551d4bc98d873b53b6a65ba5aef5099809903be4159073e362a9a0fdba",
       "context": "Templates > Default parent for new notes",
       "contextHash": "3e075c4bb3b5859a8b56379d60c43aa88440b2d9cf48a55e5d03f3395918159c",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "テンプレートは、作成されたノートが偶然作成された場所にバラバラに配置されるのを防ぎ、1か所に集めることができます。そのためには、テンプレートノートに __TRILIUM_PH_0__ を追加し、インスタンスを格納すべきノートを指定します。例えば、 __TRILIUM_PH_1__Person__TRILIUM_PH_2__ テンプレートから __TRILIUM_PH_3__People__TRILIUM_PH_4__ ノートを指定する場合などです。このリレーションは、ノートタイトルの横にあるテンプレートバッジをクリックして __TRILIUM_PH_5__Template properties...__TRILIUM_PH_6__を選択し、 __TRILIUM_PH_7__Default location of created notes__TRILIUM_PH_8__の下でノートを選択することでも設定できます。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-17T03:02:39.937Z"
     },
     {
       "id": "u_b3f58ea0fc7b22f2169f467b_0",
@@ -361,8 +368,15 @@
       "sourceHash": "d1436e72024cb211f0f17a42fd734a0c35b649129764641e37f1ab5f63e72dff",
       "context": "Templates > Default parent for new notes",
       "contextHash": "3e075c4bb3b5859a8b56379d60c43aa88440b2d9cf48a55e5d03f3395918159c",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": " __TRILIUM_PH_0__Create note__TRILIUM_PH_1__ オプション（ __TRILIUM_PH_2__テキストノート内の補完機能）経由 __TRILIUM_PH_3____TRILIUM_PH_4__ ",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-17T03:02:39.937Z"
     },
     {
       "id": "u_03254592e71e2fa9a692d9bf_0",
@@ -609,8 +623,15 @@
       "sourceHash": "fae501d168a15aa5ff538ebbf504b7787d50c6301bb78430ad9470be49676fe3",
       "context": "Templates > Additional Notes",
       "contextHash": "b0b3a16ea7383b0b8ba5a114148858a17f276a2ed9f46052f64d6a5d6396c92f",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": " __TRILIUM_PH_0__Demo Notes__TRILIUM_PH_1__でこの概念についてさらに詳しく確認できます。例として、 __TRILIUM_PH_2__Relation Map__TRILIUM_PH_3__、 __TRILIUM_PH_4__Task Manager__TRILIUM_PH_5__、および __TRILIUM_PH_6__Day Notes__TRILIUM_PH_7__などが挙げられます。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-17T03:02:39.937Z"
     },
     {
       "id": "u_ce001cbf39c8e08e637f02ed_0",
@@ -695,6 +716,25 @@
       "model": "gemini-3.5-flash-lite",
       "batchJob": "batches/8vehrrvdpag09tp4gjf9dbgj006t9k2gkkyl",
       "requestKey": "KC1HB96bqqHX_9f97d5b417c7e599"
+    },
+    {
+      "at": "2026-11-17T03:02:39.937Z",
+      "model": "gemini-3.5-flash-lite",
+      "batchJob": "batches/gqnw4vbwusa6us39siqk627b4dresx0ldah6",
+      "requestKey": "KC1HB96bqqHX_52a28158eaba0805",
+      "modelVersion": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 910,
+        "candidatesTokenCount": 480,
+        "totalTokenCount": 1390,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 910
+          }
+        ],
+        "serviceTier": "standard"
+      }
     }
   ]
 }

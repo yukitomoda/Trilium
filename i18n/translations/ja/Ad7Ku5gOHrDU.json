@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "pageId": "Ad7Ku5gOHrDU",
   "sourceFile": "docs/User Guide/User Guide/Advanced Usage/Sharing/Custom share template.md",
-  "sourceRevision": "f782bf56148719d1461f07015cebd6e3f273f957",
+  "sourceRevision": "f7a823d607395a1483ee75489a9e6ae1244625b6",
   "units": [
     {
       "id": "u_4791f6f1a7e71e4defbf0c3d_0",
@@ -96,8 +96,15 @@
       "sourceHash": "c742859710141464a8df571a3a813dc73d7487250f6c3aa325fbfc1e4a3936ad",
       "context": "Custom share template",
       "contextHash": "9ec8dc99510a02069b109458e92a6ef233148fb0e4b89e21d92fe3eccab7a10a",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "言語に __TRILIUM_PH_0__コード__TRILIUM_PH_1__ を指定した __TRILIUM_PH_2__Embedded JavaScript__TRILIUM_PH_3__ （EJS）のノートを作成します。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-17T03:02:39.937Z"
     },
     {
       "id": "u_5e99165399803f1860a80959_0",
@@ -531,8 +538,15 @@
       "sourceHash": "1c65ff2082b0c887895a7cef3d32f3396c153b076db9beb8be8cd865b45c10f5",
       "context": "Custom share template > Available variables",
       "contextHash": "7eb1865b944a5278eab7c2caf323fc49b44191f8a1ea8c1719b9c41f4b9ecda1",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "次のような各場所の __TRILIUM_PH_0__ スニペットのHTMLです： __TRILIUM_PH_1__。すべての場所が存在し、スニペットがない場所は空になります。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-17T03:02:39.937Z"
     },
     {
       "id": "u_ce141a115d134de778b6aec1_0",
@@ -819,6 +833,25 @@
           {
             "modality": "TEXT",
             "tokenCount": 717
+          }
+        ],
+        "serviceTier": "standard"
+      }
+    },
+    {
+      "at": "2026-11-17T03:02:39.937Z",
+      "model": "gemini-3.5-flash-lite",
+      "batchJob": "batches/gqnw4vbwusa6us39siqk627b4dresx0ldah6",
+      "requestKey": "Ad7Ku5gOHrDU_02eb53f0391af6a8",
+      "modelVersion": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 597,
+        "candidatesTokenCount": 216,
+        "totalTokenCount": 813,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 597
           }
         ],
         "serviceTier": "standard"

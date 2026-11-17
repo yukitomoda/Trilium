@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "pageId": "GBBMSlVSOIGP",
   "sourceFile": "docs/User Guide/User Guide/AI.md",
-  "sourceRevision": "f782bf56148719d1461f07015cebd6e3f273f957",
+  "sourceRevision": "f7a823d607395a1483ee75489a9e6ae1244625b6",
   "units": [
     {
       "id": "u_05906e7b73ccdae8ec8fcefc_0",
@@ -1014,8 +1014,15 @@
       "sourceHash": "24c49d59f05d0e793adf6bf5d15b72e93d9c200bef7e01ef03a90fe9ce11fddc",
       "context": "AI > Features > Web search",
       "contextHash": "40c22096c876311ad45ac4be012db374e96ca649f426eedd85875d1be92e5ba6",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "検索のソースは、チャット下部のモデル選択の横にある __TRILIUM_PH_0__Web search__TRILIUM_PH_1__ メニューのサブメニューから選択します。この行には使用中のソースが表示されます： __TRILIUM_PH_2____TRILIUM_PH_3__Tools__TRILIUM_PH_4__ メニュー",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-17T03:02:39.937Z"
     },
     {
       "id": "u_26b299968665eae2331026ea_0",
@@ -1075,8 +1082,15 @@
       "sourceHash": "393b20b4e03d70e9476e68f4ef9360e20b69847b781e533aa61ce7692bd208a4",
       "context": "AI > Features > Web search",
       "contextHash": "40c22096c876311ad45ac4be012db374e96ca649f426eedd85875d1be92e5ba6",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "SearXNGを使用するには、インスタンスの __TRILIUM_PH_0__ の検索フォーマットに追加してJSON出力を有効にします __TRILIUM_PH_1__。SearXNGではデフォルトでJSONが無効になっており、無効のままだとすべての検索が失敗します。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-17T03:02:39.937Z"
     },
     {
       "id": "u_4728c950de5fa483cbd2bbd7_0",
@@ -1204,8 +1218,15 @@
       "sourceHash": "7e2973a11870091fb3fb71ab9829ec2aa83879200d4301ba105082a9aeec4389",
       "context": "AI > Features > Thinking",
       "contextHash": "0b667c9c93c19c8622a6ccaf52961037dfc263219a0a5014a69bb3ae96d17ac7",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "ほとんどのモデルには、 __TRILIUM_PH_0____TRILIUM_PH_1__Extended thinking__TRILIUM_PH_2__ ボタンが __TRILIUM_PH_3____TRILIUM_PH_4__Tools__TRILIUM_PH_5__ ボタンの隣にあります。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-17T03:02:39.937Z"
     },
     {
       "id": "u_293475be865fcd86ca068b10_0",
@@ -2904,6 +2925,25 @@
       "model": "gemini-3.5-flash-lite",
       "batchJob": "batches/8vehrrvdpag09tp4gjf9dbgj006t9k2gkkyl",
       "requestKey": "GBBMSlVSOIGP_7d46fa88b73353d8"
+    },
+    {
+      "at": "2026-11-17T03:02:39.937Z",
+      "model": "gemini-3.5-flash-lite",
+      "batchJob": "batches/gqnw4vbwusa6us39siqk627b4dresx0ldah6",
+      "requestKey": "GBBMSlVSOIGP_05b3ae129a04e840",
+      "modelVersion": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 775,
+        "candidatesTokenCount": 368,
+        "totalTokenCount": 1143,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 775
+          }
+        ],
+        "serviceTier": "standard"
+      }
     }
   ]
 }

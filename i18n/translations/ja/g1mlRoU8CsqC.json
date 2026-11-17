@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "pageId": "g1mlRoU8CsqC",
   "sourceFile": "docs/User Guide/User Guide/Theme development/Creating an icon pack.md",
-  "sourceRevision": "f782bf56148719d1461f07015cebd6e3f273f957",
+  "sourceRevision": "f7a823d607395a1483ee75489a9e6ae1244625b6",
   "units": [
     {
       "id": "u_35b04a71503865f9df01910d_0",
@@ -555,8 +555,15 @@
       "sourceHash": "cda9756ccf018c1a0a907308d8771cc4b4042260090faabf720156d5d30ac4b1",
       "context": "Creating an icon pack > Manifest format",
       "contextHash": "cf4a1851ef1f0bd0faea98ea02919853095e9963bfd2ab1407a311bac213f00b",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "グリフはエスケープされた __TRILIUM_PH_0__ シーケンスとして、または実際のUTF‑8文字として指定できます。CSSの形式（__TRILIUM_PH_1__、スタイルシートの __TRILIUM_PH_2__に記述されているもの）も受け付けられるため、フォント独自のCSSからコピーしたグリフをそのまま使用できます。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-17T03:02:39.937Z"
     },
     {
       "id": "u_7ba50983081b5d2a3fb44d95_0",
@@ -786,8 +793,15 @@
       "sourceHash": "025287a126dc742732497dd19b87834a60b845555a25113c42a7750344234843",
       "context": "Creating an icon pack > Concrete example: Phosphor Icons",
       "contextHash": "98f3e57a48e640c2add138bcb5326f1af9785e86a209bdc01b4c3b9b292d1b22",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "Unicodeのエスケープ構文は、JSON（__TRILIUM_PH_0__）と比較してCSS（__TRILIUM_PH_1__）では異なります。JSONのエスケープが __TRILIUM_PH_2__ であり、 __TRILIUM_PH_3__ではないことに注意してください。両方の形式が受け入れられます。バックスラッシュ自体をJSON内で __TRILIUM_PH_4__ として記述してCSSのエスケープを維持するか、JSONのエスケープに変換します __TRILIUM_PH_5__。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-17T03:02:39.937Z"
     },
     {
       "id": "u_6de8ba6cd4e4a3ee59fe7b96_0",
@@ -1416,6 +1430,25 @@
       "model": "gemini-3.5-flash-lite",
       "batchJob": "batches/8vehrrvdpag09tp4gjf9dbgj006t9k2gkkyl",
       "requestKey": "g1mlRoU8CsqC_c4946f14edcffd22"
+    },
+    {
+      "at": "2026-11-17T03:02:39.937Z",
+      "model": "gemini-3.5-flash-lite",
+      "batchJob": "batches/gqnw4vbwusa6us39siqk627b4dresx0ldah6",
+      "requestKey": "g1mlRoU8CsqC_144dbdd2f894235b",
+      "modelVersion": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 750,
+        "candidatesTokenCount": 321,
+        "totalTokenCount": 1071,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 750
+          }
+        ],
+        "serviceTier": "standard"
+      }
     }
   ]
 }
