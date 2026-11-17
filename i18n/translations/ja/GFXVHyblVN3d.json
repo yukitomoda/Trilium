@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "pageId": "GFXVHyblVN3d",
   "sourceFile": "docs/User Guide/User Guide/Scripting/Script API/Electron API.md",
-  "sourceRevision": "f782bf56148719d1461f07015cebd6e3f273f957",
+  "sourceRevision": "f7a823d607395a1483ee75489a9e6ae1244625b6",
   "units": [
     {
       "id": "u_c58c95a3b3f6059bcbd8bf30_0",
@@ -62,8 +62,15 @@
       "sourceHash": "9e14521ebdf2541536464a8f7eaf4dc0a3b8baeba6c9a672aaeb0b8bf432b6a6",
       "context": "Electron API > Api",
       "contextHash": "fd3e934035c5b6ae55b3c7fe6d308544575e1937ea49e31d02cfa56cc7b69de9",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "レンダラーに公開される完全なインターフェースは __TRILIUM_PH_0__ 経由で __TRILIUM_PH_1__提供されます。レンダラーはElectron専用の機能にこのオブジェクトを介してアクセスする必要があります。 __TRILIUM_PH_2__ および __TRILIUM_PH_3__ は利用できません。なぜなら __TRILIUM_PH_4__ が無効化されており、 __TRILIUM_PH_5__ が有効化されているためです。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-17T03:02:39.937Z"
     },
     {
       "id": "u_2864d83ec6a12e89f027037e_0",
@@ -7534,6 +7541,25 @@
       "model": "gemini-3.5-flash-lite",
       "batchJob": "batches/8vehrrvdpag09tp4gjf9dbgj006t9k2gkkyl",
       "requestKey": "GFXVHyblVN3d_edd5a12be01e2104"
+    },
+    {
+      "at": "2026-11-17T03:02:39.937Z",
+      "model": "gemini-3.5-flash-lite",
+      "batchJob": "batches/gqnw4vbwusa6us39siqk627b4dresx0ldah6",
+      "requestKey": "GFXVHyblVN3d_6cae1bd296176898",
+      "modelVersion": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 542,
+        "candidatesTokenCount": 140,
+        "totalTokenCount": 682,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 542
+          }
+        ],
+        "serviceTier": "standard"
+      }
     }
   ]
 }

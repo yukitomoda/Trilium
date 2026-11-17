@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "pageId": "OFXdgB2nNk1F",
   "sourceFile": "docs/User Guide/User Guide/Advanced Usage/Attributes/Promoted Attributes.md",
-  "sourceRevision": "f782bf56148719d1461f07015cebd6e3f273f957",
+  "sourceRevision": "f7a823d607395a1483ee75489a9e6ae1244625b6",
   "units": [
     {
       "id": "u_79e5148a28d4d5d5c47fc61f_0",
@@ -538,8 +538,15 @@
       "sourceHash": "2ec7c4b17a9c5ccc4b87a1f0d8d17e2333b2ea81dd6988816786abac3d79b955",
       "context": "Promoted Attributes > Types of attributes",
       "contextHash": "ba3fb2fd35eb74fc252a6a9d665fdfd3f41d56793b8c8d9c45fd31ba12cce437",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "__TRILIUM_PH_0__リレーション__TRILIUM_PH_1__は別のノートを指し示すもので、ラベル __TRILIUM_PH_2__のリレーション__TRILIUM_PH_3__ の代わりに __TRILIUM_PH_4__を使用します__TRILIUM_PH_5__。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-17T03:02:39.937Z"
     },
     {
       "id": "u_37394eb5e10045f858a6330d_0",
@@ -684,8 +691,15 @@
       "sourceHash": "38b6d66202d9cf97db0c2511b0e4fec162e786dbca5832985c39b44321d6e487",
       "context": "Promoted Attributes > Creating a new promoted attribute definition",
       "contextHash": "b4bfadfa068b0a995a85d8afa8d4630204283743dfb05c5dac536ee7ff444e0e",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "右サイドバーの __TRILIUM_PH_0__属性タブ__TRILIUM_PH_1__ に __TRILIUM_PH_2__移動します__TRILIUM_PH_3__。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-17T03:02:39.937Z"
     },
     {
       "id": "u_720c3a97772e69021315406b_0",
@@ -694,8 +708,15 @@
       "sourceHash": "720c3a97772e69021315406b5e439997003359019f2d62ec49101cba7a754e06",
       "context": "Promoted Attributes > Creating a new promoted attribute definition",
       "contextHash": "b4bfadfa068b0a995a85d8afa8d4630204283743dfb05c5dac536ee7ff444e0e",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "一番上のセクション（ __TRILIUM_PH_0__ ）の__TRILIUM_PH_1__所有属性__TRILIUM_PH_2__ボタンを押します。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-17T03:02:39.937Z"
     },
     {
       "id": "u_468c77c68431b52ea6b3ca3c_0",
@@ -1300,6 +1321,25 @@
           {
             "modality": "TEXT",
             "tokenCount": 833
+          }
+        ],
+        "serviceTier": "standard"
+      }
+    },
+    {
+      "at": "2026-11-17T03:02:39.937Z",
+      "model": "gemini-3.5-flash-lite",
+      "batchJob": "batches/gqnw4vbwusa6us39siqk627b4dresx0ldah6",
+      "requestKey": "OFXdgB2nNk1F_2eed44cea22dd59c",
+      "modelVersion": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 695,
+        "candidatesTokenCount": 312,
+        "totalTokenCount": 1007,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 695
           }
         ],
         "serviceTier": "standard"

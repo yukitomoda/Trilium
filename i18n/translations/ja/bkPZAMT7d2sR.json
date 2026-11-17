@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "pageId": "bkPZAMT7d2sR",
   "sourceFile": "docs/User Guide/User Guide/AI/Providers.md",
-  "sourceRevision": "f782bf56148719d1461f07015cebd6e3f273f957",
+  "sourceRevision": "f7a823d607395a1483ee75489a9e6ae1244625b6",
   "units": [
     {
       "id": "u_f254fbfb0d30ad07af1e9005_0",
@@ -674,8 +674,15 @@
       "sourceHash": "04ee21f518cdb56bc7c4259f1585e69f47ff58f43d9498b5261b9fd29ecce803",
       "context": "Providers > Custom endpoints",
       "contextHash": "9670a5043e302bfb1dd527934357292d58d95a6b801741dc351b866839200bb0",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "利用したいホスト型（Groq、Mistral、Togetherなど）またはローカルのLLMプロバイダがTriliumに一覧表示されていない場合は、「カスタムエンドポイント」セクションにある専用の __TRILIUM_PH_0__OpenAI互換__TRILIUM_PH_1__ プロバイダを __TRILIUM_PH_2__カスタムエンドポイント__TRILIUM_PH_3__ セクションから使用できます。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-17T03:02:39.937Z"
     },
     {
       "id": "u_81782c393162cdfa37545395_0",
@@ -790,6 +797,25 @@
       "model": "gemini-3.5-flash-lite",
       "batchJob": "batches/8vehrrvdpag09tp4gjf9dbgj006t9k2gkkyl",
       "requestKey": "bkPZAMT7d2sR_62abfeee0904983c"
+    },
+    {
+      "at": "2026-11-17T03:02:39.937Z",
+      "model": "gemini-3.5-flash-lite",
+      "batchJob": "batches/gqnw4vbwusa6us39siqk627b4dresx0ldah6",
+      "requestKey": "bkPZAMT7d2sR_4d8aca1e6bb6cfba",
+      "modelVersion": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 548,
+        "candidatesTokenCount": 133,
+        "totalTokenCount": 681,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 548
+          }
+        ],
+        "serviceTier": "standard"
+      }
     }
   ]
 }

@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "pageId": "2mUhVmZK8RF3",
   "sourceFile": "docs/User Guide/User Guide/Advanced Usage/Hidden Notes.md",
-  "sourceRevision": "f782bf56148719d1461f07015cebd6e3f273f957",
+  "sourceRevision": "f7a823d607395a1483ee75489a9e6ae1244625b6",
   "units": [
     {
       "id": "u_9a689508b7813b74a9a98faa_0",
@@ -198,8 +198,15 @@
       "sourceHash": "6cfe46525aead7199babb63df3bc9b34bd37e3773b2738f85279b1bebf34ae4b",
       "context": "Hidden Notes > Contents of the hidden note tree",
       "contextHash": "0bb4c0f135ece8460ee107f7994e3347e6b03df27aa319f141c16e326c50c1b4",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "このノートは実際には __TRILIUM_PH_0__Note Map__TRILIUM_PH_1__ 機能を開いたときに開かれます。この機能へは __TRILIUM_PH_2__Launch Bar__TRILIUM_PH_3__からアクセスします。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-17T03:02:39.937Z"
     },
     {
       "id": "u_e2540d40fdd7ff44372a3092_0",
@@ -962,6 +969,25 @@
       "model": "gemini-3.5-flash-lite",
       "batchJob": "batches/8vehrrvdpag09tp4gjf9dbgj006t9k2gkkyl",
       "requestKey": "2mUhVmZK8RF3_25146b2948380ff3"
+    },
+    {
+      "at": "2026-11-17T03:02:39.937Z",
+      "model": "gemini-3.5-flash-lite",
+      "batchJob": "batches/gqnw4vbwusa6us39siqk627b4dresx0ldah6",
+      "requestKey": "2mUhVmZK8RF3_54187092ce1aa0a0",
+      "modelVersion": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 505,
+        "candidatesTokenCount": 137,
+        "totalTokenCount": 642,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 505
+          }
+        ],
+        "serviceTier": "standard"
+      }
     }
   ]
 }

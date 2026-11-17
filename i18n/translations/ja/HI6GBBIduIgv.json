@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "pageId": "HI6GBBIduIgv",
   "sourceFile": "docs/User Guide/User Guide/Advanced Usage/Attributes/Labels.md",
-  "sourceRevision": "f782bf56148719d1461f07015cebd6e3f273f957",
+  "sourceRevision": "f7a823d607395a1483ee75489a9e6ae1244625b6",
   "units": [
     {
       "id": "u_5d7d25708c6a67da8161750a_0",
@@ -317,8 +317,15 @@
       "sourceHash": "730bae2eb6e4b8b95910f7e07e51d429a9182178549fcebf5f5d53d61981db94",
       "context": "Labels > Creating a label manually",
       "contextHash": "c108a06ada409416ed9b37fcfefa40d4e716307a44509d3aa7c44e696488d404",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "値 __TRILIUM_PH_0__ を持つ __TRILIUM_PH_1__という名前のラベルを作成するには、単に __TRILIUM_PH_2__と入力します。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-17T03:02:39.937Z"
     },
     {
       "id": "u_74e150b43e6f776e6ee50fb2_0",
@@ -1347,8 +1354,15 @@
       "sourceHash": "80c72ac247c9db3808a57bc1a555b2aed0e971739d41bcd58bf1e682d98e8006",
       "context": "Labels > Predefined labels",
       "contextHash": "76dc05b35c3de00083f6c3c145b0359c692fdedc03fef503d6012ab163c82388",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "上に描画された __TRILIUM_PH_0__の点（例: area、rectangle、circle）の座標を示します。__TRILIUM_PH_1__  __TRILIUM_PH_2__Geo Map__TRILIUM_PH_3__ 形状",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-17T03:02:39.937Z"
     },
     {
       "id": "u_87f263d2a2a10e2d208b23fb_0",
@@ -1711,6 +1725,25 @@
       "model": "gemini-3.5-flash-lite",
       "batchJob": "batches/8vehrrvdpag09tp4gjf9dbgj006t9k2gkkyl",
       "requestKey": "HI6GBBIduIgv_cd7f479bba92cc15"
+    },
+    {
+      "at": "2026-11-17T03:02:39.937Z",
+      "model": "gemini-3.5-flash-lite",
+      "batchJob": "batches/gqnw4vbwusa6us39siqk627b4dresx0ldah6",
+      "requestKey": "HI6GBBIduIgv_b96e92c0b842ab81",
+      "modelVersion": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 605,
+        "candidatesTokenCount": 216,
+        "totalTokenCount": 821,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 605
+          }
+        ],
+        "serviceTier": "standard"
+      }
     }
   ]
 }

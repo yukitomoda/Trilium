@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "pageId": "AlhDUqhENtH7",
   "sourceFile": "docs/User Guide/User Guide/Theme development/Custom app-wide CSS.md",
-  "sourceRevision": "f782bf56148719d1461f07015cebd6e3f273f957",
+  "sourceRevision": "f7a823d607395a1483ee75489a9e6ae1244625b6",
   "units": [
     {
       "id": "u_de5019e9e4b97f31bf2fdd60_0",
@@ -232,8 +232,15 @@
       "sourceHash": "daea87c6476f75c2edbdb7170257b66a3325ae19680a0f8c9016d03aeeb2ef61",
       "context": "Custom app-wide CSS > Sample use cases > Per-workspace styles",
       "contextHash": "80e759ac1c9f93a4d51fc1986bb7885884d6b00a8f886de707d5c8399dd6a8d9",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "に、 __TRILIUM_PH_0__継承可能な属性を追加し、ワークスペースを一意に識別する値（例: __TRILIUM_PH_1__ ）を設定します。 __TRILIUM_PH_2__",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-17T03:02:39.937Z"
     },
     {
       "id": "u_b9a1c0842be82c5926c043e9_0",
@@ -463,6 +470,25 @@
           {
             "modality": "TEXT",
             "tokenCount": 526
+          }
+        ],
+        "serviceTier": "standard"
+      }
+    },
+    {
+      "at": "2026-11-17T03:02:39.937Z",
+      "model": "gemini-3.5-flash-lite",
+      "batchJob": "batches/gqnw4vbwusa6us39siqk627b4dresx0ldah6",
+      "requestKey": "AlhDUqhENtH7_eb4c25756a62aa1f",
+      "modelVersion": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 508,
+        "candidatesTokenCount": 127,
+        "totalTokenCount": 635,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 508
           }
         ],
         "serviceTier": "standard"

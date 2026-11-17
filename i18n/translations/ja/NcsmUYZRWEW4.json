@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "pageId": "NcsmUYZRWEW4",
   "sourceFile": "docs/User Guide/User Guide/Miscellaneous/Patterns of personal knowledge.md",
-  "sourceRevision": "f782bf56148719d1461f07015cebd6e3f273f957",
+  "sourceRevision": "f7a823d607395a1483ee75489a9e6ae1244625b6",
   "units": [
     {
       "id": "u_38a714aca3448570a4e768e7_0",
@@ -504,8 +504,15 @@
       "sourceHash": "aa797fbeb6f6880e21ddb1a25434bd58e85673befb57762e5a2acb608b033fb6",
       "context": "Patterns of personal knowledge > Meta patterns > Archiving notes",
       "contextHash": "a29c6d848bdbc906d4133d31a3a79c37c3130c26d80994a2d566d0bc09f331b8",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "関連するノートと関連しないノートの明確な __TRILIUM_PH_0__カテゴリ__TRILIUM_PH_1__ の分け方が決まっていない場合もあり、そのときは単に__TRILIUM_PH_2__OLD__TRILIUM_PH_3__という __TRILIUM_PH_4__ ラベルを付けたノートを作成し、関係のないノートをすべてそこに移動します。そのため、資格情報のノートは次のようになることがあります。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-17T03:02:39.937Z"
     },
     {
       "id": "u_4a9821dbcffdf1a8c6a99fc2_0",
@@ -1160,8 +1167,15 @@
       "sourceHash": "fc701588ec2843d0bda247d9db85e38b2280cd9d82a522f30dd3fa44d53a58aa",
       "context": "Patterns of personal knowledge > Patterns > Books",
       "contextHash": "15891500a3a69546ffcb66cff9f1bcbe98bbaa873c79d5475ba2d7ae39371497",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "本の一覧を管理しやすい状態に保つため、（読んだ）年ごとに分類しています。これにより、その年の「読書実績」の基本的な概要も把握できます。本の一覧の __TRILIUM_PH_0__スクリプト__TRILIUM_PH_1__ を作成し、本の属性を可視化するタイムラインチャートを表示して、 __TRILIUM_PH_2__ 読書 __TRILIUM_PH_3__ の傾向や勢いをより分かりやすく把握できるようにする予定です。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-17T03:02:39.937Z"
     },
     {
       "id": "u_0750cb56bc4904560ced10c2_0",
@@ -1575,6 +1589,25 @@
       "model": "gemini-3.5-flash-lite",
       "batchJob": "batches/8vehrrvdpag09tp4gjf9dbgj006t9k2gkkyl",
       "requestKey": "NcsmUYZRWEW4_c47cb3a407c20bc1"
+    },
+    {
+      "at": "2026-11-17T03:02:39.937Z",
+      "model": "gemini-3.5-flash-lite",
+      "batchJob": "batches/gqnw4vbwusa6us39siqk627b4dresx0ldah6",
+      "requestKey": "NcsmUYZRWEW4_f912390e5c6fcbf0",
+      "modelVersion": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 753,
+        "candidatesTokenCount": 323,
+        "totalTokenCount": 1076,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 753
+          }
+        ],
+        "serviceTier": "standard"
+      }
     }
   ]
 }

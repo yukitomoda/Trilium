@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "pageId": "l0tKav7yLHGF",
   "sourceFile": "docs/User Guide/User Guide/Advanced Usage/Advanced Showcases/Day Notes.md",
-  "sourceRevision": "f782bf56148719d1461f07015cebd6e3f273f957",
+  "sourceRevision": "f7a823d607395a1483ee75489a9e6ae1244625b6",
   "units": [
     {
       "id": "u_e46b40c15016da5e20987dfd_0",
@@ -198,8 +198,15 @@
       "sourceHash": "2d97e7bc0a15cefff7ef508a9d59af86e960eb242c28904b181cb9eb5c73ac12",
       "context": "Day Notes > Week Note and Quarter Note",
       "contextHash": "8f7141e0ae621e4ada4ffc080f8d0fbf7f01fba30f6796cc0b72871fd4997aae",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "週ノートと四半期ノートは、人によっては多すぎる可能性があるため、デフォルトでは無効になっています。有効にするには、 __TRILIUM_PH_0__ および __TRILIUM_PH_1__ の属性を、次のラベルで識別されるルートカレンダーノートに設定する必要があります。 __TRILIUM_PH_2__ 週ノートは「年の最初週」オプションの影響を受けます。すでに作成されている週ノートがある場合は注意してください。既存の週ノートが自動的に変更されるわけではないため、重複が生じる可能性があります。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-17T03:02:39.937Z"
     },
     {
       "id": "u_ecceb26ea8bad9a5b08b4eb3_0",
@@ -1236,6 +1243,25 @@
       "model": "gemini-3.5-flash-lite",
       "batchJob": "batches/8vehrrvdpag09tp4gjf9dbgj006t9k2gkkyl",
       "requestKey": "l0tKav7yLHGF_11494f67764823f8"
+    },
+    {
+      "at": "2026-11-17T03:02:39.937Z",
+      "model": "gemini-3.5-flash-lite",
+      "batchJob": "batches/gqnw4vbwusa6us39siqk627b4dresx0ldah6",
+      "requestKey": "l0tKav7yLHGF_4472a35c8bd59ea1",
+      "modelVersion": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 623,
+        "candidatesTokenCount": 190,
+        "totalTokenCount": 813,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 623
+          }
+        ],
+        "serviceTier": "standard"
+      }
     }
   ]
 }

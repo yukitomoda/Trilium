@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "pageId": "MgibgPcfeuGz",
   "sourceFile": "docs/User Guide/User Guide/Scripting/Frontend Basics/Custom Widgets.md",
-  "sourceRevision": "f782bf56148719d1461f07015cebd6e3f273f957",
+  "sourceRevision": "f7a823d607395a1483ee75489a9e6ae1244625b6",
   "units": [
     {
       "id": "u_be504f7cb634cdef06fe1f42_0",
@@ -147,8 +147,15 @@
       "sourceHash": "c4fefc0ac58202f8682cbfb2d840b609afa99b802869283ff0890431d211c2d3",
       "context": "Custom Widgets > Creating a custom widget",
       "contextHash": "ad0bf89f7fa011f9c8af9e920773ff9af81951ea8eb39b034c9f5249fb52e9e0",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "最も手軽な方法は、 __TRILIUM_PH_0__子ノートを追加__TRILIUM_PH_1__ → __TRILIUM_PH_2__コード__TRILIUM_PH_3__ → __TRILIUM_PH_4__ウィジェット__TRILIUM_PH_5__ を __TRILIUM_PH_6__ノートツリーのコンテキストメニュー__TRILIUM_PH_7__から選択することです。これにより、ラベルと、最初に参考にする最小限の Preact ウィジェットを持った JSX ノートが作成されます。 __TRILIUM_PH_8__ ",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-17T03:02:39.937Z"
     },
     {
       "id": "u_f0acc88edf2d14c78f3cea52_0",
@@ -667,8 +674,15 @@
       "sourceHash": "9e1924670e7ff53957bdff2b6287edbce1565e092836f4db6011dba36d0803a0",
       "context": "Custom Widgets > Widget location (parent widget)",
       "contextHash": "6d6116f99dc63eb3f6bc3bd8c58f170ec7f35bded248d2951bd30b98d17c1c0d",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "必須ではありませんが、 __TRILIUM_PH_0__ ではなく __TRILIUM_PH_1__ を使用するのが最適です。 __TRILIUM_PH_2__",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-17T03:02:39.937Z"
     },
     {
       "id": "u_f1a170e1d6c42e91789a21ab_0",
@@ -925,6 +939,25 @@
       "model": "gemini-3.5-flash-lite",
       "batchJob": "batches/8vehrrvdpag09tp4gjf9dbgj006t9k2gkkyl",
       "requestKey": "MgibgPcfeuGz_88af0e2a306dd204"
+    },
+    {
+      "at": "2026-11-17T03:02:39.937Z",
+      "model": "gemini-3.5-flash-lite",
+      "batchJob": "batches/gqnw4vbwusa6us39siqk627b4dresx0ldah6",
+      "requestKey": "MgibgPcfeuGz_f2e812f31b5a878a",
+      "modelVersion": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 665,
+        "candidatesTokenCount": 285,
+        "totalTokenCount": 950,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 665
+          }
+        ],
+        "serviceTier": "standard"
+      }
     }
   ]
 }

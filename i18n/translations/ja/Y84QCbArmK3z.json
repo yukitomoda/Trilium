@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "pageId": "Y84QCbArmK3z",
   "sourceFile": "docs/User Guide/User Guide/Meeting transcription.md",
-  "sourceRevision": "f782bf56148719d1461f07015cebd6e3f273f957",
+  "sourceRevision": "f7a823d607395a1483ee75489a9e6ae1244625b6",
   "units": [
     {
       "id": "u_67ed6bab35aa2cd7d1ea945a_0",
@@ -181,8 +181,15 @@
       "sourceHash": "7b5fdf9eea704d17121f0a0f3b03c48dc2809182300303c941dddd3513049b00",
       "context": "Meeting transcription > Transcribing a meeting",
       "contextHash": "eeb9e154d3da7e8bd2b3874dd1a6c7b3c81b952e4a9cdca8dd2cf778f0694e7f",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "ローンチバーの __TRILIUM_PH_0__ __TRILIUM_PH_1__会議の文字起こし__TRILIUM_PH_2__ ボタンを __TRILIUM_PH_3____TRILIUM_PH_4__押します。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-17T03:02:39.937Z"
     },
     {
       "id": "u_d0556f9b11977dc3d525f427_0",
@@ -446,8 +453,15 @@
       "sourceHash": "1179fd13525816a80dd5f8a5c981f6c383690112e0898aa5afd66ff2e0eb04af",
       "context": "Meeting transcription > The transcript",
       "contextHash": "a594811e4fa31edba221603a68933f2e3b69b16893ff5619778e1f76853c8bb4",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "他の参加者の発言は、 __TRILIUM_PH_0____TRILIUM_PH_1__、 __TRILIUM_PH_2____TRILIUM_PH_3__ などのように、話者の識別が有効な間は話者 1、話者 2 とラベル付けされ、そうでない場合は __TRILIUM_PH_4____TRILIUM_PH_5__ 「その他」と __TRILIUM_PH_6____TRILIUM_PH_7__ラベル付けされます。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-17T03:02:39.937Z"
     },
     {
       "id": "u_8abaef45f8d3b4af7de0ad52_0",
@@ -995,6 +1009,25 @@
           {
             "modality": "TEXT",
             "tokenCount": 924
+          }
+        ],
+        "serviceTier": "standard"
+      }
+    },
+    {
+      "at": "2026-11-17T03:02:39.937Z",
+      "model": "gemini-3.5-flash-lite",
+      "batchJob": "batches/gqnw4vbwusa6us39siqk627b4dresx0ldah6",
+      "requestKey": "Y84QCbArmK3z_b8024be4a1db1e84",
+      "modelVersion": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 638,
+        "candidatesTokenCount": 286,
+        "totalTokenCount": 924,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 638
           }
         ],
         "serviceTier": "standard"

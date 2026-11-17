@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "pageId": "MEtfsqa5VwNi",
   "sourceFile": "docs/User Guide/User Guide/Scripting/Script API/Backend API.md",
-  "sourceRevision": "f782bf56148719d1461f07015cebd6e3f273f957",
+  "sourceRevision": "f7a823d607395a1483ee75489a9e6ae1244625b6",
   "units": [
     {
       "id": "u_129dfaea4dec2c7c2a72037d_0",
@@ -113,8 +113,15 @@
       "sourceHash": "06255a0d954da2b38bf153152b27b1629f1b5bdf6d5e5c7078a7f250dbf1605a",
       "context": "Backend API > BackendApi",
       "contextHash": "06fae6ef3eb08d170053fdd4a34382e49b673267d574d4ed07b336420d8a79f8",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "__TRILIUM_PH_0____TRILIUM_PH_1____TRILIUM_PH_2____TRILIUM_PH_3__現在実行中のソースコードが含まれるノート（C言語の用語では __TRILIUM_PH_4__）。 __TRILIUM_PH_5__ 経由で読み込まれた子孫モジュールノートへ実行が移動していない限り、 __TRILIUM_PH_6__と等しくなります。UI上のアクティブなノートという概念と混同しないでください。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-17T03:02:39.937Z"
     },
     {
       "id": "u_27d177e789fa04e47af08634_1",
@@ -140,8 +147,15 @@
       "sourceHash": "16cdc098b241c87f1a69970812b8291f789747991b41b573781c50d22016be57",
       "context": "Backend API > BackendApi",
       "contextHash": "06fae6ef3eb08d170053fdd4a34382e49b673267d574d4ed07b336420d8a79f8",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "__TRILIUM_PH_0____TRILIUM_PH_1____TRILIUM_PH_2__ | __TRILIUM_PH_3____TRILIUM_PH_4____TRILIUM_PH_5__ | __TRILIUM_PH_6____TRILIUM_PH_7____TRILIUM_PH_8__ | __TRILIUM_PH_9____TRILIUM_PH_10__この実行をトリガーしたイベントのエティティ。実行がイベント駆動型でない場合（例：「スクリプトを実行」などで手動開始された場合や __TRILIUM_PH_11__ ）は __TRILIUM_PH_12__となります。保持される内容はトリガーによって異なります: - __TRILIUM_PH_13__、 __TRILIUM_PH_14__、 __TRILIUM_PH_15__、 __TRILIUM_PH_16__ — 影響を受けたノート、- __TRILIUM_PH_17__ — 新規作成された子ノート、- __TRILIUM_PH_18__、 __TRILIUM_PH_19__ — 属性、- __TRILIUM_PH_20__、 __TRILIUM_PH_21__、 __TRILIUM_PH_22__ — ブランチ、- スケジュール済みスクリプト（__TRILIUM_PH_23__ / __TRILIUM_PH_24__ / __TRILIUM_PH_25__） — スクリプトノート自体、- 検索スクリプト（__TRILIUM_PH_26__） — 検索ノート。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-17T03:02:39.937Z"
     },
     {
       "id": "u_791c57f287a69cec737b8fec_0",
@@ -3686,8 +3700,15 @@
       "sourceHash": "52c77a772a3ec8a630670751c399596e1aca441b2293bf503642859661275b70",
       "context": "Backend API > BNote",
       "contextHash": "5361529296608f8195ea9668fc59dfcb03c1515dd7055e30920cab2f19f6bfbb",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "__TRILIUM_PH_0__返り値__TRILIUM_PH_1__ __TRILIUM_PH_2__ __TRILIUM_PH_3____TRILIUM_PH_4____TRILIUM_PH_5____TRILIUM_PH_6__ __TRILIUM_PH_7____TRILIUM_PH_8____TRILIUM_PH_9____TRILIUM_PH_10__：このノートを含むサブツリーのノートである __TRILIUM_PH_11__と、それらを接続する __TRILIUM_PH_12__ペアである __TRILIUM_PH_13__ を持つオブジェクト。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-17T03:02:39.937Z"
     },
     {
       "id": "u_23bbcde33c2f86df5b600c48_0",
@@ -5090,8 +5111,15 @@
       "sourceHash": "a3a93cd0b08415b9fc7d88fcc8db5386b366842400b174ef12a15740db44491d",
       "context": "Backend API > BNote",
       "contextHash": "5361529296608f8195ea9668fc59dfcb03c1515dd7055e30920cab2f19f6bfbb",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "このノートの属性定義（継承されたものを含む）を返します。現在、 __TRILIUM_PH_0__ 定義ではなく、 __TRILIUM_PH_1__と同じ __TRILIUM_PH_2__ 定義を返します。ラベル定義を読み取るには、 __TRILIUM_PH_3__ で始まる名前で __TRILIUM_PH_4__をフィルタリングしてください。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-17T03:02:39.937Z"
     },
     {
       "id": "u_dba9d4bea8f091e49ed8acc9_0",
@@ -5100,8 +5128,15 @@
       "sourceHash": "dba9d4bea8f091e49ed8acc932ed034f0fc42b6f6d46e487c44fad7d06039d53",
       "context": "Backend API > BNote",
       "contextHash": "5361529296608f8195ea9668fc59dfcb03c1515dd7055e30920cab2f19f6bfbb",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "このノートのリレーション定義（継承されたものを含む）を返します。昇格されたリレーションを宣言する __TRILIUM_PH_0__ ラベル（ __TRILIUM_PH_1__など）です。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-17T03:02:39.937Z"
     },
     {
       "id": "u_b8bb3ca317ede4dca9d755da_0",
@@ -5382,8 +5417,15 @@
       "sourceHash": "2a3dfb5b9348049133cc5acdc2f208ee06dc51655d611d22576c5b75aaf3e7a0",
       "context": "Backend API > BNote",
       "contextHash": "5361529296608f8195ea9668fc59dfcb03c1515dd7055e30920cab2f19f6bfbb",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "ノートが所有または継承による継承可能な __TRILIUM_PH_0__ ラベルを持ち、ノートの子孫も同様にアーカイブされる場合に __TRILIUM_PH_1__ を返します。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-17T03:02:39.937Z"
     },
     {
       "id": "u_832c6f47ffd64db636120bf8_0",
@@ -6429,8 +6471,15 @@
       "sourceHash": "705752c62daa39973046e8e3964fdcb6fbdfed529137186a097e401df639a824",
       "context": "Backend API > BNote",
       "contextHash": "5361529296608f8195ea9668fc59dfcb03c1515dd7055e30920cab2f19f6bfbb",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": " __TRILIUM_PH_0__ が __TRILIUM_PH_1__ のときは __TRILIUM_PH_2__のようにラベルを設定し、 __TRILIUM_PH_3__ のときは __TRILIUM_PH_4__のように削除します。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-17T03:02:39.937Z"
     },
     {
       "id": "u_e5f8cdf3242c86d8bfe4f9bb_0",
@@ -6439,8 +6488,15 @@
       "sourceHash": "e5f8cdf3242c86d8bfe4f9bb66e889b87e6e803062a5480f049b27b13c23b73e",
       "context": "Backend API > BNote",
       "contextHash": "5361529296608f8195ea9668fc59dfcb03c1515dd7055e30920cab2f19f6bfbb",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": " __TRILIUM_PH_0__ が __TRILIUM_PH_1__ のときは __TRILIUM_PH_2__のようにリレーションを設定し、 __TRILIUM_PH_3__ のときは __TRILIUM_PH_4__のように削除します。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-17T03:02:39.937Z"
     },
     {
       "id": "u_d0ea24bdd89e09dce64d91c7_44",
@@ -6517,8 +6573,15 @@
       "sourceHash": "fc23562ab4e7a6eba13db16812eb49e0b46a7976012b32395debb4b73675e652",
       "context": "Backend API > BNote",
       "contextHash": "5361529296608f8195ea9668fc59dfcb03c1515dd7055e30920cab2f19f6bfbb",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": " __TRILIUM_PH_0__ が __TRILIUM_PH_1__ のときは __TRILIUM_PH_2__のように属性を設定し、 __TRILIUM_PH_3__ のときは __TRILIUM_PH_4__のように削除します。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-17T03:02:39.937Z"
     },
     {
       "id": "u_d0ea24bdd89e09dce64d91c7_45",
@@ -6867,8 +6930,15 @@
       "sourceHash": "74e67681cf28c924da3300179f3e3c59200feaf94a2354075cdf06ea2d33faa6",
       "context": "Backend API > BNote",
       "contextHash": "5361529296608f8195ea9668fc59dfcb03c1515dd7055e30920cab2f19f6bfbb",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "別のノートがこのノートをテンプレートまたは継承元として、 __TRILIUM_PH_0__ または __TRILIUM_PH_1__ リレーションを通じて使用している場合に __TRILIUM_PH_2__ を返します。名前とは異なり、このノート自身が属性を継承しているかどうかを示すわけではありません。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-17T03:02:39.937Z"
     },
     {
       "id": "u_1d4df40e2f906a48b7cbac0b_0",
@@ -6877,8 +6947,15 @@
       "sourceHash": "1d4df40e2f906a48b7cbac0bf5a728c0df57c07751c24edfa940be60cdb16c06",
       "context": "Backend API > BNote",
       "contextHash": "5361529296608f8195ea9668fc59dfcb03c1515dd7055e30920cab2f19f6bfbb",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "__TRILIUM_PH_0____TRILIUM_PH_1__このノートのリビジョン数。 __TRILIUM_PH_2__ またはサイズプロパティのいずれかでフィルタリングまたはソートする検索が実行されるまでは __TRILIUM_PH_3__ であり、 __TRILIUM_PH_4__ は常に機能します。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-17T03:02:39.937Z"
     },
     {
       "id": "u_1a74aeab5216319a2c818990_0",
@@ -7312,8 +7389,15 @@
       "sourceHash": "4e5af2ab2bd5e6ebc68d8e404a6121a2724ecdeb5983415e8a637803987232ea",
       "context": "Backend API > BNote",
       "contextHash": "5361529296608f8195ea9668fc59dfcb03c1515dd7055e30920cab2f19f6bfbb",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "__TRILIUM_PH_0____TRILIUM_PH_1__バイト単位でのノートコンテンツのサイズ。他のサイズプロパティと同様に、それらのいずれか、または __TRILIUM_PH_2__ によってフィルタリングまたはソートする検索が実行されるまでは __TRILIUM_PH_3__となります。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-17T03:02:39.937Z"
     },
     {
       "id": "u_0797dcebe7714d0d84d6dce8_0",
@@ -7543,8 +7627,15 @@
       "sourceHash": "7f6da47588ad1c7a4bc0dbd3310af724d922414ba035a68b5c13c34ccd77a290",
       "context": "Backend API > BNote",
       "contextHash": "5361529296608f8195ea9668fc59dfcb03c1515dd7055e30920cab2f19f6bfbb",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "このノートの __TRILIUM_PH_0__ 配列を各子ノートの に従ってメモリ内で並び替えます __TRILIUM_PH_1__。何も保存されず、ノートツリーに表示される順序も変更されません。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-17T03:02:39.937Z"
     },
     {
       "id": "u_9bcb075c74c5509fd6377c7c_0",
@@ -7723,8 +7814,15 @@
       "sourceHash": "6e0b0829e38a66ba8235ec6eb0477bffdc70869cb79aefae5c9bc6d80b552001",
       "context": "Backend API > BNote",
       "contextHash": "5361529296608f8195ea9668fc59dfcb03c1515dd7055e30920cab2f19f6bfbb",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "これが __TRILIUM_PH_0__ MIMEタイプを持つコードノートである場合に __TRILIUM_PH_1__を返します。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-17T03:02:39.937Z"
     },
     {
       "id": "u_03f213d2874535bc320ee5ba_0",
@@ -7767,8 +7865,15 @@
       "sourceHash": "abeca1dcf35d17660555ab8644e5fb1ce71eccad9be9fc3be30b86dafb6961c6",
       "context": "Backend API > BNote",
       "contextHash": "5361529296608f8195ea9668fc59dfcb03c1515dd7055e30920cab2f19f6bfbb",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "このノートが非表示サブツリー内の設定ページ（IDが __TRILIUM_PH_0__ で始まるもの）のいずれかである場合に __TRILIUM_PH_1__を返します。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-17T03:02:39.937Z"
     },
     {
       "id": "u_a93179557b4e7889738d596d_0",
@@ -7811,8 +7916,15 @@
       "sourceHash": "ef0dbd7560b50d81bb74284890bd15929a3b9161e93b716aacee06f66d3b9e5b",
       "context": "Backend API > BNote",
       "contextHash": "5361529296608f8195ea9668fc59dfcb03c1515dd7055e30920cab2f19f6bfbb",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "このノートが非表示ルートノート（ __TRILIUM_PH_0__ ）である場合、またはそのいずれかの配置においてその配下に位置する場合に__TRILIUM_PH_1__を返します。非表示サブツリーには、設定、ランチャー、テンプレートなどのTriliumのシステムノートが保持されます。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-17T03:02:39.937Z"
     },
     {
       "id": "u_ccc3608bd0f85fc4226ea14b_0",
@@ -7821,8 +7933,15 @@
       "sourceHash": "ccc3608bd0f85fc4226ea14b609bc6be7fc8eb99586fdd0dd561db1dc3e57dc2",
       "context": "Backend API > BNote",
       "contextHash": "5361529296608f8195ea9668fc59dfcb03c1515dd7055e30920cab2f19f6bfbb",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "ノートがスクリプトとして実行される場所を返します。MIMEタイプに __TRILIUM_PH_0__ が含まれるJavaScriptの場合は __TRILIUM_PH_1__ 、フロントエンドのJavaScript、JSX、HTML、およびレンダーノートの場合は __TRILIUM_PH_2__ 、スクリプトではないノートの場合は __TRILIUM_PH_3__ を返します。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-17T03:02:39.937Z"
     },
     {
       "id": "u_b66755996eadca3f3a1d878e_0",
@@ -8035,8 +8154,15 @@
       "sourceHash": "7ea53968bfcfcb2ea2b2eceb6daae3a43b62dfeae91ca3d7df1385b9b743cf3c",
       "context": "Backend API > Request",
       "contextHash": "d864086e89ec4017478a0c925eeb8a0bc2069ae00c13cf15473a5e08082c38e7",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "最小限のExpress __TRILIUM_PH_0__ サーフェスが __TRILIUM_PH_1__カスタムリクエストハンドラーで利用可能です__TRILIUM_PH_2__ （Expressの __TRILIUM_PH_3__ のサブセットであり、このモジュールを自己完結型に保つためにここで再宣言されています）。一般的に使用されるメンバーのみに型付けがされており、実際のオブジェクトは完全なExpressリクエストです。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-17T03:02:39.937Z"
     },
     {
       "id": "u_a33ca01911db4eb061a7b1f7_3",
@@ -8198,8 +8324,15 @@
       "sourceHash": "7a10b66f611260ee1969c4779fcb5f9bafb48c1fa21928c1763044670d898d58",
       "context": "Backend API > Response",
       "contextHash": "7c297e7923b0e9cfcaa5e300b122664577f164eb0f9ce935eedadecc80d9e307",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "最小限のExpress __TRILIUM_PH_0__ サーフェスが __TRILIUM_PH_1__カスタムリクエストハンドラーで利用可能です__TRILIUM_PH_2__ （Expressの __TRILIUM_PH_3__のサブセット）。このオブジェクトを介してHTTPレスポンスを書き込みます（例： __TRILIUM_PH_4__）。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-17T03:02:39.937Z"
     },
     {
       "id": "u_a33ca01911db4eb061a7b1f7_4",
@@ -9517,8 +9650,15 @@
       "sourceHash": "40e25b8c28c42da3be266b48823b145d2aae2d0710cfbe3076a744c0d659443c",
       "context": "Backend API > DayjsInstance",
       "contextHash": "94af3bb72352a6a672a68a1b49d44ead1ba374716ae0f4f59d599044c0a88fd7",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "日付をフォーマットします（例： __TRILIUM_PH_0__ の __TRILIUM_PH_1__）。テンプレートがない場合、UTCオフセット付きのISO 8601形式を返します（例： __TRILIUM_PH_2__）。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-17T03:02:39.937Z"
     },
     {
       "id": "u_cf13b45cc4bc05c6d24551b4_0",
@@ -11278,8 +11418,15 @@
       "sourceHash": "a45b3620e353d8590d6a80cb1f92e653822c85ad48048da9a1a2c105c7c90b23",
       "context": "Backend API > Types > NotePathRecord",
       "contextHash": "9c89dd16d9f1eff41b950f38ec4e3510fbed48e17fd16f09be3a309117fe5c56",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "__TRILIUM_PH_0__  __TRILIUM_PH_1__パスが __TRILIUM_PH_2__に渡されたホイストされたノートを通過するかどうかを示します。ホイストされたノートが __TRILIUM_PH_3__ である場合、常に __TRILIUM_PH_4__になります。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-17T03:02:39.937Z"
     },
     {
       "id": "u_685c42ecb0502ec1dcae3189_20",
@@ -12412,6 +12559,44 @@
           {
             "modality": "TEXT",
             "tokenCount": 1553
+          }
+        ],
+        "serviceTier": "standard"
+      }
+    },
+    {
+      "at": "2026-11-17T03:02:39.937Z",
+      "model": "gemini-3.5-flash-lite",
+      "batchJob": "batches/gqnw4vbwusa6us39siqk627b4dresx0ldah6",
+      "requestKey": "MEtfsqa5VwNi_994e2d270e86dffe",
+      "modelVersion": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 2119,
+        "candidatesTokenCount": 1645,
+        "totalTokenCount": 3764,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 2119
+          }
+        ],
+        "serviceTier": "standard"
+      }
+    },
+    {
+      "at": "2026-11-17T03:02:39.937Z",
+      "model": "gemini-3.5-flash-lite",
+      "batchJob": "batches/gqnw4vbwusa6us39siqk627b4dresx0ldah6",
+      "requestKey": "MEtfsqa5VwNi_49e780823248a7a9",
+      "modelVersion": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 1474,
+        "candidatesTokenCount": 974,
+        "totalTokenCount": 2448,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 1474
           }
         ],
         "serviceTier": "standard"

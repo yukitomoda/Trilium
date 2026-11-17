@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "pageId": "LWtBjFej3wX3",
   "sourceFile": "docs/User Guide/User Guide/Advanced Usage/Configuration (config.ini or environment variables)/Cross-Origin Resource Sharing (CORS).md",
-  "sourceRevision": "f782bf56148719d1461f07015cebd6e3f273f957",
+  "sourceRevision": "f7a823d607395a1483ee75489a9e6ae1244625b6",
   "units": [
     {
       "id": "u_7c7d0b89441cbf879450cd07_0",
@@ -45,8 +45,15 @@
       "sourceHash": "b5786df714ad1aa0f7ebc40181aafe3bade1b319f90c89dff3a35430ceb1be5d",
       "context": "Cross-Origin Resource Sharing (CORS)",
       "contextHash": "1a327d0ff830a6a2d3018e433f7fffbd20e325e34e37b21a7b3657c8f9e7738f",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "しかしながら、Trilium v0.93.0以降では、環境変数または __TRILIUM_PH_0__Cross-Origin Resource Sharing (CORS)__TRILIUM_PH_1__ を使用して、次のように手動で設定することが可能です __TRILIUM_PH_2__。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-17T03:02:39.937Z"
     },
     {
       "id": "u_3d8689bb131c5c247aa563ed_0",
@@ -89,8 +96,15 @@
       "sourceHash": "de28d998f994574c5bae0f707eb8292848444261aeb2e989e9c32ae2be982657",
       "context": "Cross-Origin Resource Sharing (CORS)",
       "contextHash": "1a327d0ff830a6a2d3018e433f7fffbd20e325e34e37b21a7b3657c8f9e7738f",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "セクション内の __TRILIUM_PH_0__ 変数における対応するオプション __TRILIUM_PH_1__ ",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-17T03:02:39.937Z"
     }
   ],
   "requests": [
@@ -99,6 +113,25 @@
       "model": "gemini-3.5-flash-lite",
       "batchJob": "batches/8vehrrvdpag09tp4gjf9dbgj006t9k2gkkyl",
       "requestKey": "LWtBjFej3wX3_1a6426a7ce733b77"
+    },
+    {
+      "at": "2026-11-17T03:02:39.937Z",
+      "model": "gemini-3.5-flash-lite",
+      "batchJob": "batches/gqnw4vbwusa6us39siqk627b4dresx0ldah6",
+      "requestKey": "LWtBjFej3wX3_04ad62bf12c8a1f0",
+      "modelVersion": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 607,
+        "candidatesTokenCount": 208,
+        "totalTokenCount": 815,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 607
+          }
+        ],
+        "serviceTier": "standard"
+      }
     }
   ]
 }

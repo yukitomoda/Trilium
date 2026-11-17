@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "pageId": "SPirpZypehBG",
   "sourceFile": "docs/User Guide/User Guide/Scripting/Backend scripts.md",
-  "sourceRevision": "f782bf56148719d1461f07015cebd6e3f273f957",
+  "sourceRevision": "f7a823d607395a1483ee75489a9e6ae1244625b6",
   "units": [
     {
       "id": "u_ee9a3811a2049fd739e92d75_0",
@@ -147,8 +147,15 @@
       "sourceHash": "98f65e49960699ed741b9710af59c43158c6e7ed3a26c120f4cf29f519037f06",
       "context": "Backend scripts > Creating a backend script",
       "contextHash": "d6716de92660dfb5c98418e2fc194ca1a02bd35bff9d77fc67dae8aa3c639cff",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "新しい __TRILIUM_PH_0__Code__TRILIUM_PH_1__ ノートを作成して言語に __TRILIUM_PH_2__JavaScript (Trilium backend)__TRILIUM_PH_3__を選択するか、 __TRILIUM_PH_4__Insert child note__TRILIUM_PH_5__ → __TRILIUM_PH_6__Code__TRILIUM_PH_7__ → __TRILIUM_PH_8__Backend script__TRILIUM_PH_9__ の順に選択します（ __TRILIUM_PH_10__Note treeのコンテキストメニュー__TRILIUM_PH_11__から実行すると、これら両方の操作を一度に行うことができます）。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-17T03:02:39.937Z"
     },
     {
       "id": "u_03e7ba46176c2a92ba21d22c_0",
@@ -259,6 +266,25 @@
       "model": "gemini-3.5-flash-lite",
       "batchJob": "batches/8vehrrvdpag09tp4gjf9dbgj006t9k2gkkyl",
       "requestKey": "SPirpZypehBG_e2c4008b59e0498b"
+    },
+    {
+      "at": "2026-11-17T03:02:39.937Z",
+      "model": "gemini-3.5-flash-lite",
+      "batchJob": "batches/gqnw4vbwusa6us39siqk627b4dresx0ldah6",
+      "requestKey": "SPirpZypehBG_a2e4d78e58d08387",
+      "modelVersion": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 591,
+        "candidatesTokenCount": 170,
+        "totalTokenCount": 761,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 591
+          }
+        ],
+        "serviceTier": "standard"
+      }
     }
   ]
 }
