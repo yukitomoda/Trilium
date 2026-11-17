@@ -1,0 +1,1816 @@
+{
+  "schemaVersion": 1,
+  "id": "36959081-6c6c-41f9-940b-9259a31811e6",
+  "phase": "submitting",
+  "createdAt": "2026-11-17T23:34:42.858Z",
+  "conditions": {
+    "model": "gemini-3.5-flash-lite",
+    "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+    "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+  },
+  "requests": [
+    {
+      "key": "3tW6mORuTHnB_1d23576b6a449248",
+      "pageId": "3tW6mORuTHnB",
+      "units": [
+        {
+          "id": "u_64583e21d68597b2d8ea6c2d_0",
+          "kind": "p",
+          "source": "The problem with above steps is that once you close the SSH connection or the terminal, the Trilium process is terminated. Generally, the best way to avoid that is to configure systemd to run Trilium in the background on every boot, as described in the next section. It also restarts Trilium if it stops unexpectedly.",
+          "sourceHash": "64583e21d68597b2d8ea6c2d671281bbd92906bf8d077a736769a9963d0b5715",
+          "context": "Packaged version for Linux > Steps",
+          "contextHash": "6bbbcdba61f98a6d7a1c96f9d8afb4ab0842c7c443cb4c50819185a5aec8d5df"
+        },
+        {
+          "id": "u_89d870502ece3dcf78bd76eb_0",
+          "kind": "p",
+          "source": "To keep Trilium running without a service, stop it (with __TRILIUM_PH_0__Ctrl__TRILIUM_PH_1__+__TRILIUM_PH_2__C__TRILIUM_PH_3__) and start it again detached from the terminal:",
+          "sourceHash": "89d870502ece3dcf78bd76eb4b5e3a85280872d05144130b337059353ca14f02",
+          "context": "Packaged version for Linux > Steps",
+          "contextHash": "6bbbcdba61f98a6d7a1c96f9d8afb4ab0842c7c443cb4c50819185a5aec8d5df"
+        },
+        {
+          "id": "u_7a3ef8b262931f7aea324efc_0",
+          "kind": "li",
+          "source": "__TRILIUM_PH_0__ starts Trilium in a new session, so closing the terminal does not reach it. Its output goes to __TRILIUM_PH_1__.",
+          "sourceHash": "7a3ef8b262931f7aea324efc0daf34dda9e9d3f6d82a29616a05c708976192ea",
+          "context": "Packaged version for Linux > Steps",
+          "contextHash": "6bbbcdba61f98a6d7a1c96f9d8afb4ab0842c7c443cb4c50819185a5aec8d5df"
+        },
+        {
+          "id": "u_9966a2a70112c4b2f3d2d5fc_0",
+          "kind": "li",
+          "source": "Alternatively, in Bash or Zsh, __TRILIUM_PH_0__ starts it in the background and removes it from the shell's jobs, so the shell does not stop it on exit.",
+          "sourceHash": "9966a2a70112c4b2f3d2d5fcbbe7123f9016adb648308b63ad3643766a7d7dfe",
+          "context": "Packaged version for Linux > Steps",
+          "contextHash": "6bbbcdba61f98a6d7a1c96f9d8afb4ab0842c7c443cb4c50819185a5aec8d5df"
+        },
+        {
+          "id": "u_ebe930d0430eeeb1b2600479_0",
+          "kind": "p",
+          "source": "__TRILIUM_PH_0__ does not keep Trilium running. Node.js resets the signal handlers at startup, so it no longer ignores the hang-up signal (__TRILIUM_PH_1__) that __TRILIUM_PH_2__ sets up, and Trilium stops as soon as the terminal closes.",
+          "sourceHash": "ebe930d0430eeeb1b2600479c52db06ddb8a49e3166cbf51a323eadb0e970888",
+          "context": "Packaged version for Linux > Steps",
+          "contextHash": "6bbbcdba61f98a6d7a1c96f9d8afb4ab0842c7c443cb4c50819185a5aec8d5df"
+        }
+      ],
+      "format": "text-slots-v1"
+    },
+    {
+      "key": "rWX5eY045zbE_253f4c0e28bfdfe4",
+      "pageId": "rWX5eY045zbE",
+      "units": [
+        {
+          "id": "u_3e5a441f7ca2ec5d0f48727e_0",
+          "kind": "p",
+          "source": "By default, the container runs in UTC. The provided __TRILIUM_PH_0__ mounts the host's __TRILIUM_PH_1__ so that the container uses the host's timezone instead. If the host has no __TRILIUM_PH_2__, or you are not using docker-compose, set a __TRILIUM_PH_3__ environment variable with the __TRILIUM_PH_4__TZ identifier__TRILIUM_PH_5__ of your local timezone (for example __TRILIUM_PH_6__).",
+          "sourceHash": "3e5a441f7ca2ec5d0f48727e8eeffa71df67a3372be43ce679d7dffa1b5e7879",
+          "context": "Using Docker > Reverse Proxy > Note on timezones",
+          "contextHash": "3421809bd893570d46863b280a03515b63e3bcece00e384c80b6f4d8dc97f631"
+        }
+      ],
+      "format": "text-slots-v1"
+    },
+    {
+      "key": "YtSN43OrfzaA_d7141c5f6b36c48a",
+      "pageId": "YtSN43OrfzaA",
+      "units": [
+        {
+          "id": "u_cb215628e3a8e3bc25879f2b_0",
+          "kind": "li",
+          "source": "On a note that is not protected, __TRILIUM_PH_0__Protect subtree__TRILIUM_PH_1__ marks this note and all of its descendants as protected. On a protected note, the item reads __TRILIUM_PH_2__Unprotect subtree__TRILIUM_PH_3__ and unprotects them instead, after asking for confirmation. Either action asks for the password if no protected session is running. See __TRILIUM_PH_4__Protected Notes__TRILIUM_PH_5__ for more information.",
+          "sourceHash": "cb215628e3a8e3bc25879f2b2d8fc5947fb60c9ca735bef36e1d7a52258f467a",
+          "context": "Note tree contextual menu > Available options",
+          "contextHash": "38607f375dc08f35f33c887fc784926de63909b7edd1abbb727dad4374058e61"
+        }
+      ],
+      "format": "text-slots-v1"
+    },
+    {
+      "key": "DvdZhoQZY9Yd_84b75b670454103b",
+      "pageId": "DvdZhoQZY9Yd",
+      "units": [
+        {
+          "id": "u_eb6eb708988c3a0d6d7d28a7_0",
+          "kind": "li",
+          "source": "__TRILIUM_PH_0____TRILIUM_PH_1__↑__TRILIUM_PH_2____TRILIUM_PH_3__ and __TRILIUM_PH_4____TRILIUM_PH_5__↓__TRILIUM_PH_6____TRILIUM_PH_7__ to navigate between notes.",
+          "sourceHash": "eb6eb708988c3a0d6d7d28a7d36620ad44c877dd87d0b3fa559a6b2529eec388",
+          "context": "Keyboard shortcuts > Navigation within the tree",
+          "contextHash": "97ff5a003bd2b6255c8c24a87836bbea9623e5fe686b49ffdc78e85f01fa5da2"
+        }
+      ],
+      "format": "text-slots-v1"
+    },
+    {
+      "key": "oPVyFC7WL2Lp_3974b48cd09b8b49",
+      "pageId": "oPVyFC7WL2Lp",
+      "units": [
+        {
+          "id": "u_3fca7be4c09bd6032eb0bf2f_0",
+          "kind": "li",
+          "source": "__TRILIUM_PH_0__Follow active note__TRILIUM_PH_1__: When enabled (default), the tree automatically scrolls and expands parent nodes to keep the currently active note visible. A parent of the active note that you collapse stays collapsed until you navigate to another note or the active note is moved. When disabled, the tree is fully detached from navigation — only the background highlight of the active note is updated, but the tree viewport and its expanded/collapsed state are never changed by navigation. Use the crosshair button to manually jump the tree to the active note at any time.",
+          "sourceHash": "3fca7be4c09bd6032eb0bf2f7de9fd196dda876f6878f21c8eb4f874826f0849",
+          "context": "Note Tree > Tree Settings",
+          "contextHash": "a908a39cb2d25f624a36be2cccadc674bfcd73b9f11bc37ea5ca404acf56042c"
+        }
+      ],
+      "format": "text-slots-v1"
+    },
+    {
+      "key": "3seOhtN8uLIY_9d9a59f06c9c262b",
+      "pageId": "3seOhtN8uLIY",
+      "units": [
+        {
+          "id": "u_bde0012a61507fbad3730d08_0",
+          "kind": "li",
+          "source": "An existing tab can be displayed in a new window by dragging the tab upwards or downwards; the new window opens under the mouse cursor, with the tab under the pointer. It is not possible to combine tabs back into another window.",
+          "sourceHash": "bde0012a61507fbad3730d08367dea2ea4342dc323d52756bbe4993d42092199",
+          "context": "Tabs > Interaction",
+          "contextHash": "d7c574d2284c3d9785abe9764ad3783de8566a839be4b0e631ffe151c477204e"
+        }
+      ],
+      "format": "text-slots-v1"
+    },
+    {
+      "key": "AlJ73vBCjWDw_cd6ea8753a733ce0",
+      "pageId": "AlJ73vBCjWDw",
+      "units": [
+        {
+          "id": "u_730fde0b6f6bd980a8b99c2b_0",
+          "kind": "li",
+          "source": "While __TRILIUM_PH_0__Vim mode__TRILIUM_PH_1__ is turned on in the options, a __TRILIUM_PH_2__Vim__TRILIUM_PH_3__ badge turns it on or off for the note, followed by the current mode of Vim.",
+          "sourceHash": "730fde0b6f6bd980a8b99c2b98f0c0a46afa6250974456b4406475fea2e7d0fe",
+          "context": "Status bar > Layout and interaction",
+          "contextHash": "cc0d6d67445706d64a152f0404071590bd7fecf9c725816dd9f9d2d5c36835c8"
+        }
+      ],
+      "format": "text-slots-v1"
+    },
+    {
+      "key": "bwg0e8ewQMak_76e9669459dc0c96",
+      "pageId": "bwg0e8ewQMak",
+      "units": [
+        {
+          "id": "u_7de238e4447f4a4c29868411_0",
+          "kind": "p",
+          "source": "To protect or unprotect a whole subtree at once, right-click its top note in the note tree and choose __TRILIUM_PH_0__Protect subtree__TRILIUM_PH_1__ or __TRILIUM_PH_2__Unprotect subtree__TRILIUM_PH_3__. If no protected session is running, a dialog explains what the action does and asks for your password, so you don't have to start a protected session beforehand.",
+          "sourceHash": "7de238e4447f4a4c2986841133f2f42b3c417c44282554804c8d46023aac99d8",
+          "context": "Protected Notes > Using Protected Notes",
+          "contextHash": "006b769c0913bb847efc2a042a8ce5002de9681db78a5ed8bef6e950db3b9c37"
+        },
+        {
+          "id": "u_07ad702175ba80a26b925741_0",
+          "kind": "h3",
+          "source": "Removing protection__TRILIUM_PH_0__",
+          "sourceHash": "07ad702175ba80a26b92574112c7bcd9892305df0c3f46e177b86516b5a045f4",
+          "context": "Protected Notes > Using Protected Notes > Removing protection",
+          "contextHash": "8badd15befacda9de2a8f4ab1adaa3a0c2ec2290ef1f2c744e4db187b28413a2"
+        },
+        {
+          "id": "u_bde35421933a9ee8afd04e7c_0",
+          "kind": "p",
+          "source": "Unprotecting decrypts the notes: their content, attachments and revisions are stored without encryption from then on, also in backups and on the sync server. Because of this, __TRILIUM_PH_0__Unprotect subtree__TRILIUM_PH_1__ always asks for confirmation first, even while a protected session is running.",
+          "sourceHash": "bde35421933a9ee8afd04e7c54dcbcbe389bd491a0f2e2ed3fb5b71325e0b6b4",
+          "context": "Protected Notes > Using Protected Notes > Removing protection",
+          "contextHash": "8badd15befacda9de2a8f4ab1adaa3a0c2ec2290ef1f2c744e4db187b28413a2"
+        }
+      ],
+      "format": "text-slots-v1"
+    },
+    {
+      "key": "A9Oc6YKKc65v_2886a27f7c511e7d",
+      "pageId": "A9Oc6YKKc65v",
+      "units": [
+        {
+          "id": "u_773445598dcfead84b343c63_0",
+          "kind": "li",
+          "source": "__TRILIUM_PH_0__F9__TRILIUM_PH_1__ – __TRILIUM_PH_2__Zen mode__TRILIUM_PH_3__ - display only note editor, everything else is hidden",
+          "sourceHash": "773445598dcfead84b343c633634b1b9602c41688f50e4c04ab0037c87a9c369",
+          "context": "Keyboard Shortcuts > Shortcut reference > Other",
+          "contextHash": "1dad8037f62b65c66ec4c19517eb25e7bd03695759089c92ade4dba4f53e31b1"
+        }
+      ],
+      "format": "text-slots-v1"
+    },
+    {
+      "key": "rJ9grSgoExl9_c765fc3a356ee53c",
+      "pageId": "rJ9grSgoExl9",
+      "units": [
+        {
+          "id": "u_71f0196f8610d9db8bd46980_0",
+          "kind": "h2",
+          "source": "Aside blocks__TRILIUM_PH_0__",
+          "sourceHash": "71f0196f8610d9db8bd46980c1938b97ed97e04945fb2af8339469dd2f86d3fc",
+          "context": "Supported syntax > Aside blocks",
+          "contextHash": "7c7cf92d10b6b4c38ba46e8ef1a85fbfe1430877ca1ac05aeaaf6b216a0f6996"
+        },
+        {
+          "id": "u_a2bd141fe807913df72a5c8d_0",
+          "kind": "p",
+          "source": "__TRILIUM_PH_0__Aside blocks__TRILIUM_PH_1__ are written as __TRILIUM_PH_2__ tags on lines of their own, with the content between them in Markdown:",
+          "sourceHash": "a2bd141fe807913df72a5c8de061251c3960fee97b864a01564806f6818cbc59",
+          "context": "Supported syntax > Aside blocks",
+          "contextHash": "7c7cf92d10b6b4c38ba46e8ef1a85fbfe1430877ca1ac05aeaaf6b216a0f6996"
+        },
+        {
+          "id": "u_72e37323a9768a137fe82fb8_0",
+          "kind": "p",
+          "source": "A plain __TRILIUM_PH_0__ tag is placed and colored like a newly inserted aside block: at the right, with the text wrapping around it, on a gray background. A tag with attributes takes only what they set. For another position, add a __TRILIUM_PH_1__ attribute with one of these values:",
+          "sourceHash": "72e37323a9768a137fe82fb870662e73b43f5c19747c0744245585faf9721cb7",
+          "context": "Supported syntax > Aside blocks",
+          "contextHash": "7c7cf92d10b6b4c38ba46e8ef1a85fbfe1430877ca1ac05aeaaf6b216a0f6996"
+        },
+        {
+          "id": "u_4c84cbff1153e6df8a060c3b_0",
+          "kind": "th",
+          "source": "Value",
+          "sourceHash": "4c84cbff1153e6df8a060c3bb5c15624b66d5173adb4aca1c13ed769658311ee",
+          "context": "Supported syntax > Aside blocks",
+          "contextHash": "7c7cf92d10b6b4c38ba46e8ef1a85fbfe1430877ca1ac05aeaaf6b216a0f6996"
+        },
+        {
+          "id": "u_316e63f18f5aae4930dc12e6_0",
+          "kind": "th",
+          "source": "Position",
+          "sourceHash": "316e63f18f5aae4930dc12e6d1be3ecf780d8c1fdc2f11d435375c468cbac028",
+          "context": "Supported syntax > Aside blocks",
+          "contextHash": "7c7cf92d10b6b4c38ba46e8ef1a85fbfe1430877ca1ac05aeaaf6b216a0f6996"
+        },
+        {
+          "id": "u_bfb2f3c95c4ef3c720a016f8_0",
+          "kind": "td",
+          "source": "__TRILIUM_PH_0__Wrap text__TRILIUM_PH_1__ → __TRILIUM_PH_2__Align left__TRILIUM_PH_3__",
+          "sourceHash": "bfb2f3c95c4ef3c720a016f85e4806ff6239a2ce3306d71a27630673f368766c",
+          "context": "Supported syntax > Aside blocks",
+          "contextHash": "7c7cf92d10b6b4c38ba46e8ef1a85fbfe1430877ca1ac05aeaaf6b216a0f6996"
+        },
+        {
+          "id": "u_3c164b89f39731aee0dc06c9_0",
+          "kind": "td",
+          "source": "__TRILIUM_PH_0__Wrap text__TRILIUM_PH_1__ → __TRILIUM_PH_2__Align right__TRILIUM_PH_3__, the default",
+          "sourceHash": "3c164b89f39731aee0dc06c9af971fabe6767771a6c427d1b26a2c19e69383cb",
+          "context": "Supported syntax > Aside blocks",
+          "contextHash": "7c7cf92d10b6b4c38ba46e8ef1a85fbfe1430877ca1ac05aeaaf6b216a0f6996"
+        },
+        {
+          "id": "u_9b2f5fd7c3ff1d8d58203e30_0",
+          "kind": "td",
+          "source": "__TRILIUM_PH_0__Break text__TRILIUM_PH_1__ → __TRILIUM_PH_2__Align left__TRILIUM_PH_3__",
+          "sourceHash": "9b2f5fd7c3ff1d8d58203e30d248bd633dec5f725f7455a69194100fe54fac90",
+          "context": "Supported syntax > Aside blocks",
+          "contextHash": "7c7cf92d10b6b4c38ba46e8ef1a85fbfe1430877ca1ac05aeaaf6b216a0f6996"
+        },
+        {
+          "id": "u_1fdc0c57823bd9e98bf75eeb_0",
+          "kind": "td",
+          "source": "__TRILIUM_PH_0__Break text__TRILIUM_PH_1__ → __TRILIUM_PH_2__Align center__TRILIUM_PH_3__",
+          "sourceHash": "1fdc0c57823bd9e98bf75eeb9bdbc5183a09146baec5a7e88eabd63dc35025c5",
+          "context": "Supported syntax > Aside blocks",
+          "contextHash": "7c7cf92d10b6b4c38ba46e8ef1a85fbfe1430877ca1ac05aeaaf6b216a0f6996"
+        },
+        {
+          "id": "u_7016c31b4736353df4c27b64_0",
+          "kind": "td",
+          "source": "__TRILIUM_PH_0__Break text__TRILIUM_PH_1__ → __TRILIUM_PH_2__Align right__TRILIUM_PH_3__",
+          "sourceHash": "7016c31b4736353df4c27b649f9fbd0f30dc938aa62cc04f14ef95a1ee1523b8",
+          "context": "Supported syntax > Aside blocks",
+          "contextHash": "7c7cf92d10b6b4c38ba46e8ef1a85fbfe1430877ca1ac05aeaaf6b216a0f6996"
+        },
+        {
+          "id": "u_8204681c078aa5af95906f7a_0",
+          "kind": "p",
+          "source": "For a background color, add a __TRILIUM_PH_0__ attribute such as __TRILIUM_PH_1__. Without one, a tag with attributes gives a transparent aside block.",
+          "sourceHash": "8204681c078aa5af95906f7ada6181a127c689981c5d2b5ac82bf7daa4ea9a30",
+          "context": "Supported syntax > Aside blocks",
+          "contextHash": "7c7cf92d10b6b4c38ba46e8ef1a85fbfe1430877ca1ac05aeaaf6b216a0f6996"
+        },
+        {
+          "id": "u_0119958cd722773f7187903e_0",
+          "kind": "p",
+          "source": "The export follows the same rules, and also keeps the width of a resized aside block.",
+          "sourceHash": "0119958cd722773f7187903e7274f83e566c198d1dd80150169449ae3952642e",
+          "context": "Supported syntax > Aside blocks",
+          "contextHash": "7c7cf92d10b6b4c38ba46e8ef1a85fbfe1430877ca1ac05aeaaf6b216a0f6996"
+        },
+        {
+          "id": "u_f10dce812f42057c1956a339_0",
+          "kind": "p",
+          "source": "The blank line after the opening tag is required. Without it, the content is read as plain text instead of Markdown, and the aside block takes the full width of the note.",
+          "sourceHash": "f10dce812f42057c1956a339cc6c523f6bf70b2eb84767e882fabf199be229f1",
+          "context": "Supported syntax > Aside blocks",
+          "contextHash": "7c7cf92d10b6b4c38ba46e8ef1a85fbfe1430877ca1ac05aeaaf6b216a0f6996"
+        }
+      ],
+      "format": "text-slots-v1"
+    },
+    {
+      "key": "oSuaNgyyKnhu_c32d5dd1579778bf",
+      "pageId": "oSuaNgyyKnhu",
+      "units": [
+        {
+          "id": "u_4a284ef8c3ccf665533c8d1b_0",
+          "kind": "li",
+          "source": "The headings and anchors of the target note are listed below the __TRILIUM_PH_0__Link title__TRILIUM_PH_1__. Under __TRILIUM_PH_2__Link to an anchor__TRILIUM_PH_3__, click the desired anchor to check it.",
+          "sourceHash": "4a284ef8c3ccf665533c8d1bfd702b4f3f452a821b7035ad7632ea447c409cff",
+          "context": "Anchors > Linking across notes > Linking to anchors through the Add link dialog",
+          "contextHash": "83c9ec56b43ceb98d169048a968d2e4d0a5388aef0eb456fc66567d89aaf673a"
+        },
+        {
+          "id": "u_8ecf815162bb7987d98d996a_0",
+          "kind": "h3",
+          "source": "Linking to anchors through the __TRILIUM_PH_0__ menu__TRILIUM_PH_1__",
+          "sourceHash": "8ecf815162bb7987d98d996a4703cf10f2b135fdeb07684c61781f052ec05fcb",
+          "context": "Anchors > Linking across notes > Linking to anchors through the @ menu",
+          "contextHash": "bf4f3c3b151de03a918abdc3478ef6306dcf1a82bd7c39e3512066aab24b135c"
+        },
+        {
+          "id": "u_ad025d98db1be4d054a06030_0",
+          "kind": "p",
+          "source": "Since v0.108.0, type __TRILIUM_PH_0__ in the text and pick the target note. Then type part of the anchor's name and press __TRILIUM_PH_1__Enter__TRILIUM_PH_2__, or select the anchor under __TRILIUM_PH_3__Link to an anchor__TRILIUM_PH_4__. See __TRILIUM_PH_5__In-place linking__TRILIUM_PH_6__.",
+          "sourceHash": "ad025d98db1be4d054a0603077f2845198d5070829a3dffb224b6ceb4b302a1c",
+          "context": "Anchors > Linking across notes > Linking to anchors through the @ menu",
+          "contextHash": "bf4f3c3b151de03a918abdc3478ef6306dcf1a82bd7c39e3512066aab24b135c"
+        }
+      ],
+      "format": "text-slots-v1"
+    },
+    {
+      "key": "dDYOyeOGdZRS_c8f7c739ff47a7f3",
+      "pageId": "dDYOyeOGdZRS",
+      "units": [
+        {
+          "id": "u_335759a362b81974a9ea0e38_0",
+          "kind": "title",
+          "source": "Aside blocks",
+          "sourceHash": "335759a362b81974a9ea0e388056bbaec9adaf1975e0b2ed2887fca7d258a168",
+          "context": "Aside blocks",
+          "contextHash": "a396837f03b03dae793abc05346522c5de20601428936221d4ced4c84e274944"
+        },
+        {
+          "id": "u_5bfc8a872a3d60880153570e_0",
+          "kind": "p",
+          "source": "An aside block sets content apart from the main text of a note, in a box that the main text can wrap around. It can hold any kind of content, such as formatted text, lists, tables or images, except another aside block.",
+          "sourceHash": "5bfc8a872a3d60880153570e41a9e8d2efea7c8753dfc57c9ea3fc22613812ca",
+          "context": "Aside blocks",
+          "contextHash": "a396837f03b03dae793abc05346522c5de20601428936221d4ced4c84e274944"
+        },
+        {
+          "id": "u_37173d5812ebbfcdf19cfe15_0",
+          "kind": "h2",
+          "source": "Inserting an aside block__TRILIUM_PH_0__",
+          "sourceHash": "37173d5812ebbfcdf19cfe155a55c937f36a4810343c1886774233b1d0dc6d83",
+          "context": "Aside blocks > Inserting an aside block",
+          "contextHash": "399df92f540cd31c41a44d301bc0bf114de08ff1a61febaddb0b3094fad18424"
+        },
+        {
+          "id": "u_c20d396c6a682556ceaf2630_0",
+          "kind": "li",
+          "source": "In the __TRILIUM_PH_0__Formatting toolbar__TRILIUM_PH_1__, go to __TRILIUM_PH_2__Insert__TRILIUM_PH_3__ → __TRILIUM_PH_4__ __TRILIUM_PH_5__Aside__TRILIUM_PH_6__.",
+          "sourceHash": "c20d396c6a682556ceaf263004de986b34ff83ad1c317b903e99faa0cece1a61",
+          "context": "Aside blocks > Inserting an aside block",
+          "contextHash": "399df92f540cd31c41a44d301bc0bf114de08ff1a61febaddb0b3094fad18424"
+        },
+        {
+          "id": "u_a276509c8ac4690deebca5cf_0",
+          "kind": "li",
+          "source": "Alternatively, type __TRILIUM_PH_0__ and press __TRILIUM_PH_1__Enter__TRILIUM_PH_2__, as described in __TRILIUM_PH_3__Slash Commands__TRILIUM_PH_4__.",
+          "sourceHash": "a276509c8ac4690deebca5cfe6c035691ae36cd2e4d72ba1ccbaed91267aba96",
+          "context": "Aside blocks > Inserting an aside block",
+          "contextHash": "399df92f540cd31c41a44d301bc0bf114de08ff1a61febaddb0b3094fad18424"
+        },
+        {
+          "id": "u_ad0cb26cdf45687cf4d3111e_0",
+          "kind": "p",
+          "source": "If you select content before inserting an aside, that content is relocated into the newly created block.",
+          "sourceHash": "ad0cb26cdf45687cf4d3111efa8cb0267ddacf7b751eee6169bde53fe4f12b58",
+          "context": "Aside blocks > Inserting an aside block",
+          "contextHash": "399df92f540cd31c41a44d301bc0bf114de08ff1a61febaddb0b3094fad18424"
+        },
+        {
+          "id": "u_6956df5e701f02e989e803b0_0",
+          "kind": "h2",
+          "source": "Color__TRILIUM_PH_0__",
+          "sourceHash": "6956df5e701f02e989e803b0d6d6164c61d701429603596e64592dcf1983e985",
+          "context": "Aside blocks > Color",
+          "contextHash": "6b452a2a3a121a278a57533778520f17b2f5be3b7bb10d1f4c5db43ac590ecf3"
+        },
+        {
+          "id": "u_472f963752e0381f069b143c_0",
+          "kind": "p",
+          "source": "A new aside block has a gray background, __TRILIUM_PH_0__Dim grey__TRILIUM_PH_1__ in the palette. To change it, put the cursor inside the block and click the __TRILIUM_PH_2__ __TRILIUM_PH_3__Background color__TRILIUM_PH_4__ button in the toolbar that appears above it. It offers the palette and the color picker (__TRILIUM_PH_5__) of the text background color, described in __TRILIUM_PH_6__General formatting__TRILIUM_PH_7__. __TRILIUM_PH_8__Remove color__TRILIUM_PH_9__ makes the block transparent.",
+          "sourceHash": "472f963752e0381f069b143c97b100188860f52f458171a12970a47da11bc0af",
+          "context": "Aside blocks > Color",
+          "contextHash": "6b452a2a3a121a278a57533778520f17b2f5be3b7bb10d1f4c5db43ac590ecf3"
+        },
+        {
+          "id": "u_bb1116ebbf22d5ab50723f88_0",
+          "kind": "p",
+          "source": "Like the colors of text, the background color adapts to the __TRILIUM_PH_0__theme__TRILIUM_PH_1__: Trilium shows it in a lighter or darker shade, so the text stays readable in both light and dark themes.",
+          "sourceHash": "bb1116ebbf22d5ab50723f88641e78009e0ba24c26b2a3da3143a7c011f60676",
+          "context": "Aside blocks > Color",
+          "contextHash": "6b452a2a3a121a278a57533778520f17b2f5be3b7bb10d1f4c5db43ac590ecf3"
+        },
+        {
+          "id": "u_2b84a53bd2f219c936c7883a_0",
+          "kind": "p",
+          "source": "The __TRILIUM_PH_0__Background color__TRILIUM_PH_1__ button is not available in the mobile layout.",
+          "sourceHash": "2b84a53bd2f219c936c7883a152f00495112ef7ddd4f3c3caa26c187d08fdc97",
+          "context": "Aside blocks > Color",
+          "contextHash": "6b452a2a3a121a278a57533778520f17b2f5be3b7bb10d1f4c5db43ac590ecf3"
+        },
+        {
+          "id": "u_f2417d3eccc4df1c42d50160_0",
+          "kind": "h2",
+          "source": "Positioning__TRILIUM_PH_0__",
+          "sourceHash": "f2417d3eccc4df1c42d501607fdad3a4d60f4c5392d0914b8024235490a54196",
+          "context": "Aside blocks > Positioning",
+          "contextHash": "8c23ea4e1aa88aaa75acc9e71fb254d98d7a57c4981f924d276d6d31895aa5fe"
+        },
+        {
+          "id": "u_e2d582d2151c417b273be3ad_0",
+          "kind": "p",
+          "source": "A new aside block sits at the right, with the main text wrapping around it. To place it elsewhere, put the cursor inside it and use the __TRILIUM_PH_0__Box position__TRILIUM_PH_1__ button in the toolbar that appears above it. The menu has two groups:",
+          "sourceHash": "e2d582d2151c417b273be3addb704d8595b73043acd576b3ca4e6d227a45afa5",
+          "context": "Aside blocks > Positioning",
+          "contextHash": "8c23ea4e1aa88aaa75acc9e71fb254d98d7a57c4981f924d276d6d31895aa5fe"
+        },
+        {
+          "id": "u_291e417f058470772540ebd2_0",
+          "kind": "li",
+          "source": "__TRILIUM_PH_0__Wrap text__TRILIUM_PH_1__ keeps the block at the side of the note, with the text flowing beside it: __TRILIUM_PH_2__ __TRILIUM_PH_3__Align left__TRILIUM_PH_4__ or __TRILIUM_PH_5__ __TRILIUM_PH_6__Align right__TRILIUM_PH_7__.",
+          "sourceHash": "291e417f058470772540ebd2b8a6e0ce4906043c47ee0709fa57e9dc81148170",
+          "context": "Aside blocks > Positioning",
+          "contextHash": "8c23ea4e1aa88aaa75acc9e71fb254d98d7a57c4981f924d276d6d31895aa5fe"
+        },
+        {
+          "id": "u_3a28c4e03c58345589c9b5bc_0",
+          "kind": "li",
+          "source": "__TRILIUM_PH_0__Break text__TRILIUM_PH_1__ gives the block lines of its own, so the text continues only above and below it. Besides __TRILIUM_PH_2__ __TRILIUM_PH_3__Align left__TRILIUM_PH_4__ and __TRILIUM_PH_5__ __TRILIUM_PH_6__Align right__TRILIUM_PH_7__, this group can also center the block (__TRILIUM_PH_8__ __TRILIUM_PH_9__Align center__TRILIUM_PH_10__).",
+          "sourceHash": "3a28c4e03c58345589c9b5bcb021dc24eaa655b733eb9d547ca74fdaa648f878",
+          "context": "Aside blocks > Positioning",
+          "contextHash": "8c23ea4e1aa88aaa75acc9e71fb254d98d7a57c4981f924d276d6d31895aa5fe"
+        },
+        {
+          "id": "u_f0b5b68842369c850bf6af92_0",
+          "kind": "p",
+          "source": "In the mobile layout, an aside block takes the full width of the note, so the text does not wrap around it and the block cannot be resized.",
+          "sourceHash": "f0b5b68842369c850bf6af92967e288eb51c18a3d95eb3ab6c2e22ffd44d8aa5",
+          "context": "Aside blocks > Positioning",
+          "contextHash": "8c23ea4e1aa88aaa75acc9e71fb254d98d7a57c4981f924d276d6d31895aa5fe"
+        },
+        {
+          "id": "u_dee2595aed0318a4439f4fd9_0",
+          "kind": "h2",
+          "source": "Resizing__TRILIUM_PH_0__",
+          "sourceHash": "dee2595aed0318a4439f4fd9534a6fdaeb05d47664e4fc5e0461c6c3f1477a64",
+          "context": "Aside blocks > Resizing",
+          "contextHash": "b03b0b960edc3e157edde42efd0c46a5ba223e0aa78512e76cff84195dd79c3b"
+        }
+      ],
+      "format": "text-slots-v1"
+    },
+    {
+      "key": "dDYOyeOGdZRS_cd338f6882b9f72b",
+      "pageId": "dDYOyeOGdZRS",
+      "units": [
+        {
+          "id": "u_bcc61a5f168e1923471b992f_0",
+          "kind": "p",
+          "source": "To change the width of an aside block, put the cursor inside it and drag the handle at its bottom corner. The height adjusts automatically.",
+          "sourceHash": "bcc61a5f168e1923471b992f0c6d4118bf35cf8e3bceb67099a5b2f09295ec31",
+          "context": "Aside blocks > Resizing",
+          "contextHash": "b03b0b960edc3e157edde42efd0c46a5ba223e0aa78512e76cff84195dd79c3b"
+        },
+        {
+          "id": "u_a6c4b314fb6beaedcc06d6ea_0",
+          "kind": "h2",
+          "source": "Removing an aside block__TRILIUM_PH_0__",
+          "sourceHash": "a6c4b314fb6beaedcc06d6eaa8222aa9b4e1f1cab568bc5d9455fb20c456dac2",
+          "context": "Aside blocks > Removing an aside block",
+          "contextHash": "4a8d1ab7bfa73e03c0bd3018ee7b2a2d22676083f6afb934622856e310525515"
+        },
+        {
+          "id": "u_9bd051f5689114b5e671d1e1_0",
+          "kind": "p",
+          "source": "To delete the aside along with everything in it, click the handle at its top-left corner and press __TRILIUM_PH_0__Delete__TRILIUM_PH_1__.",
+          "sourceHash": "9bd051f5689114b5e671d1e1666e37deae8085cd2f545fb00f14dcbbff55af13",
+          "context": "Aside blocks > Removing an aside block",
+          "contextHash": "4a8d1ab7bfa73e03c0bd3018ee7b2a2d22676083f6afb934622856e310525515"
+        },
+        {
+          "id": "u_94c10328ab327a6c45da70ae_0",
+          "kind": "h2",
+          "source": "Markdown__TRILIUM_PH_0__",
+          "sourceHash": "94c10328ab327a6c45da70aeb244b317e40628eebdf4fb3bd388f1223ebb2ba8",
+          "context": "Aside blocks > Markdown",
+          "contextHash": "8b82faed4ed26fcf354ead2a23371b345ae8f76f21351d52ea10cf24f870d0df"
+        },
+        {
+          "id": "u_eb100c9aa338e28119b51a08_0",
+          "kind": "p",
+          "source": "Aside blocks are kept when a note is exported to Markdown and imported back. For writing them by hand, see the aside section of __TRILIUM_PH_0__Supported syntax__TRILIUM_PH_1__.",
+          "sourceHash": "eb100c9aa338e28119b51a08689e9039e9f1cba7eba037e773db32b72e8052d0",
+          "context": "Aside blocks > Markdown",
+          "contextHash": "8b82faed4ed26fcf354ead2a23371b345ae8f76f21351d52ea10cf24f870d0df"
+        }
+      ],
+      "format": "text-slots-v1"
+    },
+    {
+      "key": "klC3ilXa9kUE_e1eeb586080e4ddd",
+      "pageId": "klC3ilXa9kUE",
+      "units": [
+        {
+          "id": "u_80e0c49e7f026b21ad3f0523_0",
+          "kind": "p",
+          "source": "Inside a __TRILIUM_PH_0__table__TRILIUM_PH_1__, an __TRILIUM_PH_2__aside__TRILIUM_PH_3__ or a __TRILIUM_PH_4__Content tabs__TRILIUM_PH_5__ block, the reference points to the whole block. To link to a single tab, use __TRILIUM_PH_6__Copy reference to this tab__TRILIUM_PH_7__ in the __TRILIUM_PH_8__ __TRILIUM_PH_9__More actions__TRILIUM_PH_10__ menu of the tabs block instead. Inside a __TRILIUM_PH_11__Multicolumn layout__TRILIUM_PH_12__, the reference points to the blocks in the column, and an include shows them without the layout around them.",
+          "sourceHash": "80e0c49e7f026b21ad3f05231d6b749a4d9f53e60b916bfe00715483f90ec83c",
+          "context": "Block references > Copying a reference",
+          "contextHash": "99f7b4f90b7f2102ad06bb6803edd79cdbf22cb65903ec70f4b8726fca64bf79"
+        },
+        {
+          "id": "u_a1e432aa2bcc96b13ad1f929_0",
+          "kind": "h3",
+          "source": "A heading of another note__TRILIUM_PH_0__",
+          "sourceHash": "a1e432aa2bcc96b13ad1f92984b851a0f7b6559ae7ef2298f14870f7eddb254a",
+          "context": "Block references > Linking to a heading > A heading of another note",
+          "contextHash": "008eb5f5be04223840040f94168d9ef4e99475fa785b0dd7912121aea87597de"
+        },
+        {
+          "id": "u_98193f7fd82b864c5685f773_0",
+          "kind": "p",
+          "source": "Since v0.108.0, a link can point at a heading of another note too:",
+          "sourceHash": "98193f7fd82b864c5685f7736a988a4ae97cd5c4fba476e5c312a1d5e5bdbe39",
+          "context": "Block references > Linking to a heading > A heading of another note",
+          "contextHash": "008eb5f5be04223840040f94168d9ef4e99475fa785b0dd7912121aea87597de"
+        },
+        {
+          "id": "u_43dad103ff7338a1f8e1ed6a_0",
+          "kind": "li",
+          "source": "In the __TRILIUM_PH_0__Add link__TRILIUM_PH_1__ dialog, pick the note on the __TRILIUM_PH_2__Note__TRILIUM_PH_3__ page. Its headings and anchors are listed below the __TRILIUM_PH_4__Link title__TRILIUM_PH_5__, after __TRILIUM_PH_6__Link to the whole note__TRILIUM_PH_7__.",
+          "sourceHash": "43dad103ff7338a1f8e1ed6a380ffc9a717e39971e462c729154dea1176b4d35",
+          "context": "Block references > Linking to a heading > A heading of another note",
+          "contextHash": "008eb5f5be04223840040f94168d9ef4e99475fa785b0dd7912121aea87597de"
+        },
+        {
+          "id": "u_62c6fb69ad66c023a95fea8a_0",
+          "kind": "li",
+          "source": "Under __TRILIUM_PH_0__Link to a heading__TRILIUM_PH_1__, click the desired heading to check it, then press __TRILIUM_PH_2__Enter__TRILIUM_PH_3__ or __TRILIUM_PH_4__Insert link__TRILIUM_PH_5__. The link can be inserted before the list appears; it then links to the note itself.",
+          "sourceHash": "62c6fb69ad66c023a95fea8a4ff77c1557302749adf8f9647144db2959852ad9",
+          "context": "Block references > Linking to a heading > A heading of another note",
+          "contextHash": "008eb5f5be04223840040f94168d9ef4e99475fa785b0dd7912121aea87597de"
+        },
+        {
+          "id": "u_636e7004719f0ee932b9afab_0",
+          "kind": "li",
+          "source": "Alternatively, type __TRILIUM_PH_0__ and pick the note: the menu then lists the same headings, and the text typed next narrows them down. See __TRILIUM_PH_1__In-place linking__TRILIUM_PH_2__.",
+          "sourceHash": "636e7004719f0ee932b9afab86f9dcffa5ff69b30da3eb52397ef6488ce32a11",
+          "context": "Block references > Linking to a heading > A heading of another note",
+          "contextHash": "008eb5f5be04223840040f94168d9ef4e99475fa785b0dd7912121aea87597de"
+        },
+        {
+          "id": "u_c7bcbf4e39128c8e90e28cc9_0",
+          "kind": "p",
+          "source": "This link is a block reference too. Linking to the heading saves an invisible identifier in it, also when that note is read-only. If the heading cannot be referenced, for example because it was changed in the meantime, an error is shown and no link is inserted. The dialog stays open. From the __TRILIUM_PH_0__ menu, the link keeps pointing at the whole note.",
+          "sourceHash": "c7bcbf4e39128c8e90e28cc9d779c8b160728fc22e310c54eff82038b06a34d3",
+          "context": "Block references > Linking to a heading > A heading of another note",
+          "contextHash": "008eb5f5be04223840040f94168d9ef4e99475fa785b0dd7912121aea87597de"
+        },
+        {
+          "id": "u_5e0442fa6271522d38edf169_0",
+          "kind": "p",
+          "source": "Clicking a block reference opens the note, scrolls to the referenced blocks and flashes them. If a referenced block was deleted, an error message is shown. When only the first or the last block of a range still exists, the note scrolls to that block.",
+          "sourceHash": "5e0442fa6271522d38edf169a7d88a4b3a8f591943b23e1bc34bf7b35a9dea9a",
+          "context": "Block references > Following a reference",
+          "contextHash": "49da8a48ad54701393aa747a0c631de044fffa8efac5a0f12ecf81b988c2bc9d"
+        },
+        {
+          "id": "u_7c316d1eae5ad25bb2a8e54e_0",
+          "kind": "li",
+          "source": "An include of a range that covers only part of a list or a quote, such as from its second item to a paragraph after it, cannot be edited in place. Neither can an include of a single code block or diagram.",
+          "sourceHash": "7c316d1eae5ad25bb2a8e54ea8e10e7df6733ddf97b8ea9178dea0f4988a247b",
+          "context": "Block references > Limitations",
+          "contextHash": "701f362379dd11f1b74674080e5c42e85b034677827d3a6cce11ebe76f3108f5"
+        },
+        {
+          "id": "u_280fbe3a53cfab9f33ea089a_0",
+          "kind": "li",
+          "source": "Deleting a block, or merging it into the block above with __TRILIUM_PH_0__Backspace__TRILIUM_PH_1__, breaks the references to it.",
+          "sourceHash": "280fbe3a53cfab9f33ea089a064f70d5c64d834d988bd40047f1c844a25b0c5c",
+          "context": "Block references > Limitations",
+          "contextHash": "701f362379dd11f1b74674080e5c42e85b034677827d3a6cce11ebe76f3108f5"
+        },
+        {
+          "id": "u_7199e350b1930644d9cdb4b4_0",
+          "kind": "li",
+          "source": "When a subtree is __TRILIUM_PH_0__exported__TRILIUM_PH_1__, links to blocks lead to the whole note. Exporting to Markdown also removes the invisible identifiers of most blocks, so references to them break when the note is imported again.",
+          "sourceHash": "7199e350b1930644d9cdb4b4c8c199e0fa0257a26e02df495047f788869ce360",
+          "context": "Block references > Limitations",
+          "contextHash": "701f362379dd11f1b74674080e5c42e85b034677827d3a6cce11ebe76f3108f5"
+        }
+      ],
+      "format": "text-slots-v1"
+    },
+    {
+      "key": "QxEyIjRBizuC_94759862b1a99b62",
+      "pageId": "QxEyIjRBizuC",
+      "units": [
+        {
+          "id": "u_0fe3a78821b79ae7993dfa09_0",
+          "kind": "p",
+          "source": "While the feature is on, every code block of a text note is an extended code block: the ones already in the notes, and the new ones.",
+          "sourceHash": "0fe3a78821b79ae7993dfa09cb3cc29e3f66b92c28b59519878f3541d68c8dc4",
+          "context": "Code blocks > Extended code blocks",
+          "contextHash": "dce8f46fc7687c91b68f9675d110b06189af52a9029dcd1ffd89986c90841f74"
+        },
+        {
+          "id": "u_7aecc0ae4e03a79c59ef6bab_0",
+          "kind": "li",
+          "source": "To insert one, insert a code block in any of the ways described in __TRILIUM_PH_0__Inserting a code block__TRILIUM_PH_1__.",
+          "sourceHash": "7aecc0ae4e03a79c59ef6bab638dc8737751751807eaf942550736d579cb5b2e",
+          "context": "Code blocks > Extended code blocks",
+          "contextHash": "dce8f46fc7687c91b68f9675d110b06189af52a9029dcd1ffd89986c90841f74"
+        },
+        {
+          "id": "u_30a1d072c4f6362d3c6f0e34_0",
+          "kind": "li",
+          "source": "A new block is editable, in a __TRILIUM_PH_0__Full__TRILIUM_PH_1__ box, and takes the focus. Its language is the one picked from the list of the __TRILIUM_PH_2__ button, otherwise the one set last on a code block, or __TRILIUM_PH_3__Plain text__TRILIUM_PH_4__.",
+          "sourceHash": "30a1d072c4f6362d3c6f0e346c68845138d78c3a6dfdf8f17e99c9fa3df37988",
+          "context": "Code blocks > Extended code blocks",
+          "contextHash": "dce8f46fc7687c91b68f9675d110b06189af52a9029dcd1ffd89986c90841f74"
+        },
+        {
+          "id": "u_e231d55aac2a4fe551298b7a_0",
+          "kind": "li",
+          "source": "The list of languages has no __TRILIUM_PH_0__Auto-detected__TRILIUM_PH_1__ entry. A code block saved as __TRILIUM_PH_2__Auto-detected__TRILIUM_PH_3__ takes the language that Trilium detects in its code, or __TRILIUM_PH_4__Plain text__TRILIUM_PH_5__, once its note is opened for editing. The language can then be changed from the toolbar of the block.",
+          "sourceHash": "e231d55aac2a4fe551298b7a3880d1818d7df53761515862a2b3bd3e16aa5ca3",
+          "context": "Code blocks > Extended code blocks",
+          "contextHash": "dce8f46fc7687c91b68f9675d110b06189af52a9029dcd1ffd89986c90841f74"
+        },
+        {
+          "id": "u_a56b87a2c30fdb966d8157af_0",
+          "kind": "li",
+          "source": "Its toolbar has the __TRILIUM_PH_0__Change language mode__TRILIUM_PH_1__ menu of an embedded code file, described in __TRILIUM_PH_2__Editing an include in place__TRILIUM_PH_3__ in __TRILIUM_PH_4__Include Note__TRILIUM_PH_5__, and the __TRILIUM_PH_6__ __TRILIUM_PH_7__Copy to clipboard__TRILIUM_PH_8__ button, which copies the code as the one of a code block does. Its __TRILIUM_PH_9__ __TRILIUM_PH_10__More actions__TRILIUM_PH_11__ menu has __TRILIUM_PH_12__Editable__TRILIUM_PH_13__, which shows the code read-only once unchecked, the __TRILIUM_PH_14__Word wrap__TRILIUM_PH_15__ and __TRILIUM_PH_16__Line numbers__TRILIUM_PH_17__ submenus, the __TRILIUM_PH_18__Tab width__TRILIUM_PH_19__ submenu, with the items of the __TRILIUM_PH_20__Change tab width__TRILIUM_PH_21__ menu of an embedded code file, the __TRILIUM_PH_22__Size__TRILIUM_PH_23__ submenu, with __TRILIUM_PH_24__Resizable__TRILIUM_PH_25__, __TRILIUM_PH_26__Full__TRILIUM_PH_27__ and __TRILIUM_PH_28__Default__TRILIUM_PH_29__, the __TRILIUM_PH_30__Position__TRILIUM_PH_31__ submenu, and __TRILIUM_PH_32__ __TRILIUM_PH_33__Delete block__TRILIUM_PH_34__, which removes the block from the note.",
+          "sourceHash": "a56b87a2c30fdb966d8157af626ad1db28787fa4ee91deff6d939b7a7c60a039",
+          "context": "Code blocks > Extended code blocks",
+          "contextHash": "dce8f46fc7687c91b68f9675d110b06189af52a9029dcd1ffd89986c90841f74"
+        },
+        {
+          "id": "u_01728eda3dc973c46dbe9058_0",
+          "kind": "p",
+          "source": "The code stays in the note as a code block of its language. The Markdown export, __TRILIUM_PH_0__shared pages__TRILIUM_PH_1__ and printing show it as a code block, and copying it into another application pastes a code block.",
+          "sourceHash": "01728eda3dc973c46dbe9058392321b7328b486015598ae6e3d51d9184ffc080",
+          "context": "Code blocks > Extended code blocks",
+          "contextHash": "dce8f46fc7687c91b68f9675d110b06189af52a9029dcd1ffd89986c90841f74"
+        },
+        {
+          "id": "u_00b55ebb34039d05094f37a0_0",
+          "kind": "p",
+          "source": "Turning __TRILIUM_PH_0__Extended code blocks__TRILIUM_PH_1__ off again shows the code blocks as before, as does a version of Trilium without this feature. Saving a note there drops the box size and the other settings of its blocks. An extended code block inserted from the __TRILIUM_PH_2__Insert__TRILIUM_PH_3__ menu of Trilium 0.107 stays one while the feature is off.",
+          "sourceHash": "00b55ebb34039d05094f37a06d59cd22c2beb54dd07d0eb0a441b8d550b81440",
+          "context": "Code blocks > Extended code blocks",
+          "contextHash": "dce8f46fc7687c91b68f9675d110b06189af52a9029dcd1ffd89986c90841f74"
+        }
+      ],
+      "format": "text-slots-v1"
+    },
+    {
+      "key": "Gr6xFaF6ioJ5_26edbfaf368d5fdf",
+      "pageId": "Gr6xFaF6ioJ5",
+      "units": [
+        {
+          "id": "u_b9b1e09008eb80a56642ac05_0",
+          "kind": "p",
+          "source": "The reason why Heading 1 is missing from the list is that it is being reserved for the title of note. A Heading 1 that is already in the text, for example in text pasted from another application, is kept as a heading.",
+          "sourceHash": "b9b1e09008eb80a56642ac053e71a77d9012caab9e3adef39edf0a2b04cf0a66",
+          "context": "General formatting > Headings",
+          "contextHash": "cd351c16e36c34804bb6494a22fb5c39a4efcdca75624d5f8a8ac420802e9b04"
+        },
+        {
+          "id": "u_129d950cb6313ff702ff126d_0",
+          "kind": "p",
+          "source": "Selected text can be colored with one of the predefined colors from a palette or any color can be selected using the color picker (__TRILIUM_PH_0__). A selected link preview can be colored the same way (see __TRILIUM_PH_1__Link Previews__TRILIUM_PH_2__).",
+          "sourceHash": "129d950cb6313ff702ff126d34fd54bc3ecd2762b009ff374b047a554498d09d",
+          "context": "General formatting > Font color and background color",
+          "contextHash": "2a6bf631edb7686e3f2cb5da813f13e85254933043f7b8ae6c1109b8d4b3b51f"
+        }
+      ],
+      "format": "text-slots-v1"
+    },
+    {
+      "key": "CohkqWQC1iBv_883b72e3f5882ede",
+      "pageId": "CohkqWQC1iBv",
+      "units": [
+        {
+          "id": "u_71f0196f8610d9db8bd46980_0",
+          "kind": "h2",
+          "source": "Aside blocks__TRILIUM_PH_0__",
+          "sourceHash": "71f0196f8610d9db8bd46980c1938b97ed97e04945fb2af8339469dd2f86d3fc",
+          "context": "Insert buttons > Aside blocks",
+          "contextHash": "c548d335d9005b84e952ae757376308adb1d66dd2f52a9596432207a882089e4"
+        },
+        {
+          "id": "u_abc297990bfee93e3e7ee13d_0",
+          "kind": "p",
+          "source": "See the dedicated __TRILIUM_PH_0__Aside blocks__TRILIUM_PH_1__ page.",
+          "sourceHash": "abc297990bfee93e3e7ee13d4af421dadcaf0e377fe3aea062c3143cdf6d39a9",
+          "context": "Insert buttons > Aside blocks",
+          "contextHash": "c548d335d9005b84e952ae757376308adb1d66dd2f52a9596432207a882089e4"
+        }
+      ],
+      "format": "text-slots-v1"
+    },
+    {
+      "key": "oiVPnW8QfnvS_c7ccd9e6e640033b",
+      "pageId": "oiVPnW8QfnvS",
+      "units": [
+        {
+          "id": "u_c9694675e0120de06d9de785_0",
+          "kind": "p",
+          "source": "With __TRILIUM_PH_0__Vim mode__TRILIUM_PH_1__ turned on, some of these shortcuts follow Vim instead, such as __TRILIUM_PH_2__Ctrl__TRILIUM_PH_3__+__TRILIUM_PH_4__B__TRILIUM_PH_5__, which scrolls a page up in Normal mode. See __TRILIUM_PH_6__Shortcuts that change in the editor__TRILIUM_PH_7__ on that page.",
+          "sourceHash": "c9694675e0120de06d9de785c28cf68df7793ba8aa6519608ca834a94df89989",
+          "context": "Keyboard shortcuts",
+          "contextHash": "e9bef0b0f3c25e6eaf3a754817a8b4f62e1c8473cb2be3e190975926dbf72d6f"
+        }
+      ],
+      "format": "text-slots-v1"
+    },
+    {
+      "key": "UmgZAfcltxkS_7bd764e3ea577a1f",
+      "pageId": "UmgZAfcltxkS",
+      "units": [
+        {
+          "id": "u_98aa4f9a1ed9928e2efb0ef9_0",
+          "kind": "p",
+          "source": "To color a link preview, select it and pick a color with the __TRILIUM_PH_0__ font color or __TRILIUM_PH_1__ background color button, as for text. The font color applies to the title of an __TRILIUM_PH_2__Icon & text__TRILIUM_PH_3__ link and to the text of a __TRILIUM_PH_4__Card__TRILIUM_PH_5__; the background color fills the whole preview. A preview keeps its colors when its display mode changes, except for an __TRILIUM_PH_6__Embed__TRILIUM_PH_7__, which cannot be colored.",
+          "sourceHash": "98aa4f9a1ed9928e2efb0ef9730ed9aef765a483101d461c1b7e9711bf53bd09",
+          "context": "Link Previews > Altering an existing link preview",
+          "contextHash": "fbfe0d0c7312ecacd9bd92de91cc63c4f6b0d60a88ca85e7926354379f6f805d"
+        }
+      ],
+      "format": "text-slots-v1"
+    },
+    {
+      "key": "hrZ1D00cLbal_d8a152afd184ff42",
+      "pageId": "hrZ1D00cLbal",
+      "units": [
+        {
+          "id": "u_1bc8f646e0e375b56152a2f4_0",
+          "kind": "li",
+          "source": "Pressing __TRILIUM_PH_0__Ctrl__TRILIUM_PH_1__ + __TRILIUM_PH_2__L__TRILIUM_PH_3__, or by choosing __TRILIUM_PH_4__Link to a note (internal link)__TRILIUM_PH_5__ in the __TRILIUM_PH_6__Slash Commands__TRILIUM_PH_7__. The __TRILIUM_PH_8__ button in the __TRILIUM_PH_9__Formatting toolbar__TRILIUM_PH_10__ opens the same dialog on __TRILIUM_PH_11__Web page__TRILIUM_PH_12__; select __TRILIUM_PH_13__Note__TRILIUM_PH_14__ at its top to link to a note. On desktop, the __TRILIUM_PH_15__Add link__TRILIUM_PH_16__ dialog opens in a popup next to the cursor.",
+          "sourceHash": "1bc8f646e0e375b56152a2f481d350af93d1e57d53fe5bf5105baff156bc3134",
+          "context": "Internal (reference) links > Inserting internal links",
+          "contextHash": "634afc60784ce8c31c34b11456c634312244957564e87e23a38fcdba32330ec0"
+        },
+        {
+          "id": "u_bfee3601714f1a8fe36e2729_0",
+          "kind": "p",
+          "source": "Since v0.107.0, to change a link, click it and press the __TRILIUM_PH_0__ __TRILIUM_PH_1__Edit link__TRILIUM_PH_2__ button in its popup. For a link with a title of its own, placing the cursor inside it and pressing __TRILIUM_PH_3__Ctrl__TRILIUM_PH_4__ + __TRILIUM_PH_5__L__TRILIUM_PH_6__ works too. The __TRILIUM_PH_7__Edit link__TRILIUM_PH_8__ dialog opens on the linked note, with its anchor and, for a link with a title of its own, the link's text; __TRILIUM_PH_9__Save link__TRILIUM_PH_10__ changes the whole link. Emptying the __TRILIUM_PH_11__Link title__TRILIUM_PH_12__ there turns the link into one that displays the title of the note, and typing one gives it a title of its own. For a link to an attachment, the dialog shows only the __TRILIUM_PH_13__Link title__TRILIUM_PH_14__, and emptying it makes the link display the title of the attachment.",
+          "sourceHash": "bfee3601714f1a8fe36e272944942e255386ee8fb6934b86cd66464de69458bc",
+          "context": "Internal (reference) links > Inserting internal links",
+          "contextHash": "634afc60784ce8c31c34b11456c634312244957564e87e23a38fcdba32330ec0"
+        },
+        {
+          "id": "u_02692fc8ad37c8cf7c5b32c1_0",
+          "kind": "p",
+          "source": "Type __TRILIUM_PH_0__ in a text note, which will open the note search menu.",
+          "sourceHash": "02692fc8ad37c8cf7c5b32c1a810336b0df9bf8e237a7b0822ab9fd6b1116c29",
+          "context": "Internal (reference) links > In-place linking",
+          "contextHash": "d5d8f35c7caca88eb039d810ddb709a57b01da6d469a3341b190d50dd6c1214e"
+        },
+        {
+          "id": "u_af714ca8f5055c474a95773d_0",
+          "kind": "p",
+          "source": "Search for the desired note's title by typing a few characters. Use __TRILIUM_PH_0__Up__TRILIUM_PH_1__ and __TRILIUM_PH_2__Down__TRILIUM_PH_3__ to select the correct note, and press __TRILIUM_PH_4__Enter__TRILIUM_PH_5__ or __TRILIUM_PH_6__Tab__TRILIUM_PH_7__ to pick it. It's also possible to create new notes with this method by typing a non-existing note title and selecting __TRILIUM_PH_8__Create note__TRILIUM_PH_9__, as described above, or __TRILIUM_PH_10__Create child note__TRILIUM_PH_11__. __TRILIUM_PH_12__Create child note__TRILIUM_PH_13__ creates the note under the note being edited without asking for its type, inserts the link and opens the new note in __TRILIUM_PH_14__Quick edit__TRILIUM_PH_15__, which offers the note types to turn it into while it is still empty.",
+          "sourceHash": "af714ca8f5055c474a95773d54e5da3b2a36883337fc3263aa8313c01de2bc5a",
+          "context": "Internal (reference) links > In-place linking",
+          "contextHash": "d5d8f35c7caca88eb039d810ddb709a57b01da6d469a3341b190d50dd6c1214e"
+        },
+        {
+          "id": "u_a2dd91fe92fa53d37b34d5e4_0",
+          "kind": "p",
+          "source": "Since v0.108.0, the note is linked as soon as it is picked. A ¶ then follows the link, and the menu lists where in the note the link can point: __TRILIUM_PH_0__Link to the whole note__TRILIUM_PH_1__, its headings and its anchors.",
+          "sourceHash": "a2dd91fe92fa53d37b34d5e423588b71bec1947f81ecd4872eed32255cd8519c",
+          "context": "Internal (reference) links > In-place linking",
+          "contextHash": "d5d8f35c7caca88eb039d810ddb709a57b01da6d469a3341b190d50dd6c1214e"
+        },
+        {
+          "id": "u_c2c0fc5964242cc68a8f4b05_0",
+          "kind": "li",
+          "source": "To point the link at a heading or an anchor, type part of its name after the ¶ and press __TRILIUM_PH_0__Enter__TRILIUM_PH_1__ or __TRILIUM_PH_2__Tab__TRILIUM_PH_3__, which takes the first match. __TRILIUM_PH_4__Up__TRILIUM_PH_5__ and __TRILIUM_PH_6__Down__TRILIUM_PH_7__ select another entry.",
+          "sourceHash": "c2c0fc5964242cc68a8f4b0509bf9b6459d16bce8ba0b53321c6ab3897ead080",
+          "context": "Internal (reference) links > In-place linking",
+          "contextHash": "d5d8f35c7caca88eb039d810ddb709a57b01da6d469a3341b190d50dd6c1214e"
+        },
+        {
+          "id": "u_db9db3c3f688c1ca37b9a5c2_0",
+          "kind": "li",
+          "source": "To keep the link to the whole note, press __TRILIUM_PH_0__Enter__TRILIUM_PH_1__ on __TRILIUM_PH_2__Link to the whole note__TRILIUM_PH_3__, or press __TRILIUM_PH_4__Esc__TRILIUM_PH_5__. Pressing __TRILIUM_PH_6__Backspace__TRILIUM_PH_7__ or typing a space right after the ¶ does the same, to go on writing.",
+          "sourceHash": "db9db3c3f688c1ca37b9a5c24d1d5c636f778d0efc4a0fed803f19c5e8869941",
+          "context": "Internal (reference) links > In-place linking",
+          "contextHash": "d5d8f35c7caca88eb039d810ddb709a57b01da6d469a3341b190d50dd6c1214e"
+        },
+        {
+          "id": "u_7f33e4fcc75d63c65928b1a6_0",
+          "kind": "li",
+          "source": "The ¶ is not part of the note: it disappears with the menu. Text typed after it stays in the note, unless a heading or an anchor is picked.",
+          "sourceHash": "7f33e4fcc75d63c65928b1a66d9bf3f4e5528f9954aa958bf62e5cc198476161",
+          "context": "Internal (reference) links > In-place linking",
+          "contextHash": "d5d8f35c7caca88eb039d810ddb709a57b01da6d469a3341b190d50dd6c1214e"
+        },
+        {
+          "id": "u_1712fabef22ddc94dca34f0e_0",
+          "kind": "p",
+          "source": "A note created from the menu is linked without this step. To skip it for every note, turn off __TRILIUM_PH_0__Suggest headings and anchors to link to__TRILIUM_PH_1__ under __TRILIUM_PH_2__Note auto-completion__TRILIUM_PH_3__ in __TRILIUM_PH_4__Options__TRILIUM_PH_5__ → __TRILIUM_PH_6__Text Notes__TRILIUM_PH_7__ → __TRILIUM_PH_8__Features__TRILIUM_PH_9__. See __TRILIUM_PH_10__Linking to a heading__TRILIUM_PH_11__ and __TRILIUM_PH_12__Anchors__TRILIUM_PH_13__.",
+          "sourceHash": "1712fabef22ddc94dca34f0e4b73c85a82103d1308b6844ff6260903ee8cfcc3",
+          "context": "Internal (reference) links > In-place linking",
+          "contextHash": "d5d8f35c7caca88eb039d810ddb709a57b01da6d469a3341b190d50dd6c1214e"
+        }
+      ],
+      "format": "text-slots-v1"
+    },
+    {
+      "key": "QEAPj01N5f7w_c80521e08a1e38f0",
+      "pageId": "QEAPj01N5f7w",
+      "units": [
+        {
+          "id": "u_cabebad12e7845fa5a75ddf7_0",
+          "kind": "p",
+          "source": "On the __TRILIUM_PH_0__Note__TRILIUM_PH_1__ page, the headings and anchors of the note picked are listed below the __TRILIUM_PH_2__Link title__TRILIUM_PH_3__, so that the link can point at one of them. __TRILIUM_PH_4__Link to the whole note__TRILIUM_PH_5__, checked at first, links to the note itself. See __TRILIUM_PH_6__Linking to a heading__TRILIUM_PH_7__ and __TRILIUM_PH_8__Anchors__TRILIUM_PH_9__.",
+          "sourceHash": "cabebad12e7845fa5a75ddf71932b8ff9a1ff0bdfef846913038f9380af5328f",
+          "context": "Links > The link dialog",
+          "contextHash": "9c6621e9938782e6ddc9300bee146a964f5e2b031fcfa3636b92bc707eeaa436"
+        }
+      ],
+      "format": "text-slots-v1"
+    },
+    {
+      "key": "qxtXjXzFOEn1_454c0d4d53de8ea5",
+      "pageId": "qxtXjXzFOEn1",
+      "units": [
+        {
+          "id": "u_c46ff66293e92a6c57bbf068_0",
+          "kind": "title",
+          "source": "Vim beginner guide",
+          "sourceHash": "c46ff66293e92a6c57bbf0681f93dedc25dd86a13e6ec852eb048ec5f5be14b1",
+          "context": "Vim beginner guide",
+          "contextHash": "72da1b652636e00abb12e9a75b26ca54a8a9705fd90c4d601cb419992b917694"
+        },
+        {
+          "id": "u_30a1f2f8a95b48b3a7383992_0",
+          "kind": "p",
+          "source": "Vim is a text editor built around the keyboard. Trilium can imitate the way it works, in text notes and in code notes, and this is called Vim mode. This page explains the idea behind it, what each mode does and which keys to learn first. It applies to both kinds of notes, and where they differ, the text says so.",
+          "sourceHash": "30a1f2f8a95b48b3a73839929cf7f05d4b5bd2beecf299178192688dcacf5ef0",
+          "context": "Vim beginner guide",
+          "contextHash": "72da1b652636e00abb12e9a75b26ca54a8a9705fd90c4d601cb419992b917694"
+        },
+        {
+          "id": "u_5504ef1ffef158f8c7643c16_0",
+          "kind": "p",
+          "source": "Vim mode is optional and off by default. Nothing on this page applies until it is turned on, see __TRILIUM_PH_0__Turning it on__TRILIUM_PH_1__ below.",
+          "sourceHash": "5504ef1ffef158f8c7643c1669e1df364d4231af06f6eb46d0cbb0ce795c0073",
+          "context": "Vim beginner guide",
+          "contextHash": "72da1b652636e00abb12e9a75b26ca54a8a9705fd90c4d601cb419992b917694"
+        },
+        {
+          "id": "u_cf204c2c0abbdfe817d4d2a9_0",
+          "kind": "h2",
+          "source": "How the keys are written__TRILIUM_PH_0__",
+          "sourceHash": "cf204c2c0abbdfe817d4d2a92014d45e7a35c6545097612d42e39ceb3e08b82a",
+          "context": "Vim beginner guide > How the keys are written",
+          "contextHash": "3d1755b9daca81094f53529a5ec204d65a13b3ddbc0d02841363f3a7eb69aa09"
+        },
+        {
+          "id": "u_70aed339070b0e0dba2bd8f9_0",
+          "kind": "p",
+          "source": "On these pages, a command is written as the keys to press, one after another. __TRILIUM_PH_0__ means pressing __TRILIUM_PH_1__ twice, and __TRILIUM_PH_2__ means pressing __TRILIUM_PH_3__, then __TRILIUM_PH_4__, then __TRILIUM_PH_5__. The keys are not held down together.",
+          "sourceHash": "70aed339070b0e0dba2bd8f92a57ccbe4ecd29a5f6b9d48b98e42cf4e7faebc8",
+          "context": "Vim beginner guide > How the keys are written",
+          "contextHash": "3d1755b9daca81094f53529a5ec204d65a13b3ddbc0d02841363f3a7eb69aa09"
+        },
+        {
+          "id": "u_74762ee4767c409c6e6d8406_0",
+          "kind": "p",
+          "source": "Keys that are held down together are written with a plus sign, such as __TRILIUM_PH_0__Ctrl__TRILIUM_PH_1__+__TRILIUM_PH_2__R__TRILIUM_PH_3__. Capital letters matter: __TRILIUM_PH_4__ is typed with __TRILIUM_PH_5__Shift__TRILIUM_PH_6__ and does something else than __TRILIUM_PH_7__.",
+          "sourceHash": "74762ee4767c409c6e6d840656f73109302ebed950ff7e4711660ae25e4c3881",
+          "context": "Vim beginner guide > How the keys are written",
+          "contextHash": "3d1755b9daca81094f53529a5ec204d65a13b3ddbc0d02841363f3a7eb69aa09"
+        },
+        {
+          "id": "u_c625773a3bcf7b5a0fd50abf_0",
+          "kind": "h2",
+          "source": "What is Vim?__TRILIUM_PH_0__",
+          "sourceHash": "c625773a3bcf7b5a0fd50abf2c5cd0e2a3561e7aa38560e5e7b9dfc3119100f0",
+          "context": "Vim beginner guide > What is Vim?",
+          "contextHash": "c20ab205c1fae45a07014007710bd492a1be2d0d2832c51adcfccb2f248b1814"
+        },
+        {
+          "id": "u_1dd514e781d1a3246e497d3e_0",
+          "kind": "p",
+          "source": "__TRILIUM_PH_0__Vim__TRILIUM_PH_1__ is a popular text editor. Its most distinctive feature is that it is a __TRILIUM_PH_2__modal__TRILIUM_PH_3__ editor. In most editors, pressing a letter always types that letter. In Vim, what a key does depends on the mode the editor is in: in one mode the letters type text, in another the same letters are commands that move the cursor, delete a word or copy a line.",
+          "sourceHash": "1dd514e781d1a3246e497d3e71cd8dfeab08955f3f88eb2263b8308f96810321",
+          "context": "Vim beginner guide > What is Vim?",
+          "contextHash": "c20ab205c1fae45a07014007710bd492a1be2d0d2832c51adcfccb2f248b1814"
+        },
+        {
+          "id": "u_e466b2f55c29678399427ed6_0",
+          "kind": "p",
+          "source": "Trilium does not contain Vim itself. It imitates Vim's keys inside its own editors, so your notes stay ordinary Trilium notes.",
+          "sourceHash": "e466b2f55c29678399427ed609e5a28c93d8db36eee50618a9e6bb54a7d9915e",
+          "context": "Vim beginner guide > What is Vim?",
+          "contextHash": "c20ab205c1fae45a07014007710bd492a1be2d0d2832c51adcfccb2f248b1814"
+        },
+        {
+          "id": "u_3e37107eb0e7d4fc9ffd2c61_0",
+          "kind": "h2",
+          "source": "Why use it?__TRILIUM_PH_0__",
+          "sourceHash": "3e37107eb0e7d4fc9ffd2c6174f372057270a816c4b8290c7e7699aa673a5b46",
+          "context": "Vim beginner guide > Why use it?",
+          "contextHash": "c5797aaa9d7b52399fbb7b836484cdae90ce9619d4061f68530bf2da6a2d777f"
+        },
+        {
+          "id": "u_51aa2599d2f2e00e18fb750a_0",
+          "kind": "li",
+          "source": "__TRILIUM_PH_0__The hands stay on the keyboard.__TRILIUM_PH_1__ Moving, selecting, copying and searching are all done with the letter keys, without reaching for the mouse or the arrow keys. The mouse keeps working as usual.",
+          "sourceHash": "51aa2599d2f2e00e18fb750ad9370b845f588864a3c0d55f2d394612752d96b4",
+          "context": "Vim beginner guide > Why use it?",
+          "contextHash": "c5797aaa9d7b52399fbb7b836484cdae90ce9619d4061f68530bf2da6a2d777f"
+        },
+        {
+          "id": "u_d4e9cbf9291ccefe1b2db59f_0",
+          "kind": "li",
+          "source": "__TRILIUM_PH_0__Commands combine.__TRILIUM_PH_1__ A few keys are learned once and then put together: __TRILIUM_PH_2__ means delete and __TRILIUM_PH_3__ means a word, so __TRILIUM_PH_4__ deletes a word.",
+          "sourceHash": "d4e9cbf9291ccefe1b2db59fb491778ddf7710e6d2224a52a8e4994888731eed",
+          "context": "Vim beginner guide > Why use it?",
+          "contextHash": "c5797aaa9d7b52399fbb7b836484cdae90ce9619d4061f68530bf2da6a2d777f"
+        },
+        {
+          "id": "u_dfcf1ef44c80b2391b33d86a_0",
+          "kind": "li",
+          "source": "__TRILIUM_PH_0__Changes can be repeated.__TRILIUM_PH_1__ __TRILIUM_PH_2__ repeats the last change, and a number in front of a command runs it that many times.",
+          "sourceHash": "dfcf1ef44c80b2391b33d86a018fca96de5b706050740cafcfe4078dc44d9bce",
+          "context": "Vim beginner guide > Why use it?",
+          "contextHash": "c5797aaa9d7b52399fbb7b836484cdae90ce9619d4061f68530bf2da6a2d777f"
+        },
+        {
+          "id": "u_41bb39b349b727d55d335a97_0",
+          "kind": "li",
+          "source": "__TRILIUM_PH_0__Much of it carries over.__TRILIUM_PH_1__ Many of the motions and editing commands also work in Vim itself and in the Vim modes of other editors. Trilium has some commands of its own, and text notes differ in places because they hold rich text, not plain text files.",
+          "sourceHash": "41bb39b349b727d55d335a97d394f176c2bdc787788298320b73c32cc862151e",
+          "context": "Vim beginner guide > Why use it?",
+          "contextHash": "c5797aaa9d7b52399fbb7b836484cdae90ce9619d4061f68530bf2da6a2d777f"
+        },
+        {
+          "id": "u_057b2d1fa896f21ab6053d31_0",
+          "kind": "p",
+          "source": "Vim mode can take some time to get used to. If it does not suit you, turning the option off brings the regular editor back.",
+          "sourceHash": "057b2d1fa896f21ab6053d313cb620d9413a15e628f6ec0e052b611c928a356e",
+          "context": "Vim beginner guide > Why use it?",
+          "contextHash": "c5797aaa9d7b52399fbb7b836484cdae90ce9619d4061f68530bf2da6a2d777f"
+        },
+        {
+          "id": "u_d02cf6760fe0178f1af21e5c_0",
+          "kind": "h2",
+          "source": "Turning it on__TRILIUM_PH_0__",
+          "sourceHash": "d02cf6760fe0178f1af21e5cd910ed57368c31b19aeeea53d1ce270736ca3827",
+          "context": "Vim beginner guide > Turning it on",
+          "contextHash": "8c6e66c2968f270480d3d422e462a6511e435bf19bfa955035800c6e8814a972"
+        }
+      ],
+      "format": "text-slots-v1"
+    },
+    {
+      "key": "qxtXjXzFOEn1_9499c9a5336a05c7",
+      "pageId": "qxtXjXzFOEn1",
+      "units": [
+        {
+          "id": "u_7a4c731fd9b9b8adb8bd0fa3_0",
+          "kind": "p",
+          "source": "Text notes and code notes each have their own option, and both apply to the current device only:",
+          "sourceHash": "7a4c731fd9b9b8adb8bd0fa3cea8c768b7eef38d9c6adeca083cdcaf7397f868",
+          "context": "Vim beginner guide > Turning it on",
+          "contextHash": "8c6e66c2968f270480d3d422e462a6511e435bf19bfa955035800c6e8814a972"
+        },
+        {
+          "id": "u_5e278194c22e5bbdd773a335_0",
+          "kind": "li",
+          "source": "For text notes, go to __TRILIUM_PH_0__Options__TRILIUM_PH_1__ → __TRILIUM_PH_2__Text Notes__TRILIUM_PH_3__ → __TRILIUM_PH_4__Features__TRILIUM_PH_5__ and turn on __TRILIUM_PH_6__Vim mode__TRILIUM_PH_7__. To turn it off for a single note, click the __TRILIUM_PH_8__Vim__TRILIUM_PH_9__ badge in the status bar. See __TRILIUM_PH_10__Vim mode__TRILIUM_PH_11__ for its settings.",
+          "sourceHash": "5e278194c22e5bbdd773a335a6455183d1ed4510608736236a6e9eff014b640a",
+          "context": "Vim beginner guide > Turning it on",
+          "contextHash": "8c6e66c2968f270480d3d422e462a6511e435bf19bfa955035800c6e8814a972"
+        },
+        {
+          "id": "u_871f3294fff91aa404bb55ed_0",
+          "kind": "li",
+          "source": "For code notes, go to __TRILIUM_PH_0__Options__TRILIUM_PH_1__ → __TRILIUM_PH_2__Code Notes__TRILIUM_PH_3__ → __TRILIUM_PH_4__Editor__TRILIUM_PH_5__ and turn on __TRILIUM_PH_6__Vim keybindings__TRILIUM_PH_7__.",
+          "sourceHash": "871f3294fff91aa404bb55ed764ca8080b69b29438cc1ebcc5c4acdb91ba16d3",
+          "context": "Vim beginner guide > Turning it on",
+          "contextHash": "8c6e66c2968f270480d3d422e462a6511e435bf19bfa955035800c6e8814a972"
+        },
+        {
+          "id": "u_b8b7967032c46f8cec9e0fd5_0",
+          "kind": "h2",
+          "source": "The modes__TRILIUM_PH_0__",
+          "sourceHash": "b8b7967032c46f8cec9e0fd5853a1d97357951d02e8a7b43755c07567892cf3f",
+          "context": "Vim beginner guide > The modes",
+          "contextHash": "0478cee21e51e0099b423c7f2bc0549dab1d530c51e26cd5a03d410e51f0bfe6"
+        },
+        {
+          "id": "u_1b38ccc273c4139f92f5b738_0",
+          "kind": "p",
+          "source": "A mode decides what the keyboard does. There are five main modes:",
+          "sourceHash": "1b38ccc273c4139f92f5b7388013e0d2b1eede942a4a0b92170a7ffdbb712bab",
+          "context": "Vim beginner guide > The modes",
+          "contextHash": "0478cee21e51e0099b423c7f2bc0549dab1d530c51e26cd5a03d410e51f0bfe6"
+        },
+        {
+          "id": "u_52e8286ebcc640c9974ce00d_0",
+          "kind": "th",
+          "source": "Mode",
+          "sourceHash": "52e8286ebcc640c9974ce00dc3261b4ec021e5020ac9aa196754b1bfe5a2e504",
+          "context": "Vim beginner guide > The modes",
+          "contextHash": "0478cee21e51e0099b423c7f2bc0549dab1d530c51e26cd5a03d410e51f0bfe6"
+        },
+        {
+          "id": "u_f82c1eff5b7c14234fc23257_0",
+          "kind": "th",
+          "source": "What the keys do",
+          "sourceHash": "f82c1eff5b7c14234fc23257095351af6ac1cdc8157ad5a4b7a18e72a3215f64",
+          "context": "Vim beginner guide > The modes",
+          "contextHash": "0478cee21e51e0099b423c7f2bc0549dab1d530c51e26cd5a03d410e51f0bfe6"
+        },
+        {
+          "id": "u_fba146aeabe682af7645eda2_0",
+          "kind": "th",
+          "source": "How to enter it",
+          "sourceHash": "fba146aeabe682af7645eda2baaa131c1d2777df6fe1c74ea19d7b1238d21f9f",
+          "context": "Vim beginner guide > The modes",
+          "contextHash": "0478cee21e51e0099b423c7f2bc0549dab1d530c51e26cd5a03d410e51f0bfe6"
+        },
+        {
+          "id": "u_bfc92f122ff39cdb857ba9f0_0",
+          "kind": "td",
+          "source": "Normal",
+          "sourceHash": "bfc92f122ff39cdb857ba9f096107feff1a852fb94f93dfc8cb9963c9be05079",
+          "context": "Vim beginner guide > The modes",
+          "contextHash": "0478cee21e51e0099b423c7f2bc0549dab1d530c51e26cd5a03d410e51f0bfe6"
+        },
+        {
+          "id": "u_e302cbc83c03e11b7dc05eec_0",
+          "kind": "td",
+          "source": "Run commands: move, delete, copy, paste.",
+          "sourceHash": "e302cbc83c03e11b7dc05eecd0c121a9ee25059eb2f2813b106b0cfbb30f6eb9",
+          "context": "Vim beginner guide > The modes",
+          "contextHash": "0478cee21e51e0099b423c7f2bc0549dab1d530c51e26cd5a03d410e51f0bfe6"
+        },
+        {
+          "id": "u_bce8b72b50da1b3693e604ab_0",
+          "kind": "td",
+          "source": "__TRILIUM_PH_0__Esc__TRILIUM_PH_1__ from any other mode",
+          "sourceHash": "bce8b72b50da1b3693e604ab452b46aadf0576659fccfc0aaecc799900759815",
+          "context": "Vim beginner guide > The modes",
+          "contextHash": "0478cee21e51e0099b423c7f2bc0549dab1d530c51e26cd5a03d410e51f0bfe6"
+        },
+        {
+          "id": "u_46bdc04d49ba4774e1ec4fe4_0",
+          "kind": "td",
+          "source": "Insert",
+          "sourceHash": "46bdc04d49ba4774e1ec4fe4bedf00072df388aa116c624406ede9901a400d53",
+          "context": "Vim beginner guide > The modes",
+          "contextHash": "0478cee21e51e0099b423c7f2bc0549dab1d530c51e26cd5a03d410e51f0bfe6"
+        },
+        {
+          "id": "u_b12d8d4656f924023a29695b_0",
+          "kind": "td",
+          "source": "Type text, as in a regular editor.",
+          "sourceHash": "b12d8d4656f924023a29695b7132412c2ec21cfe0e4109477b534c1e4d6bff3a",
+          "context": "Vim beginner guide > The modes",
+          "contextHash": "0478cee21e51e0099b423c7f2bc0549dab1d530c51e26cd5a03d410e51f0bfe6"
+        },
+        {
+          "id": "u_423d88203a34a266986f83cc_0",
+          "kind": "td",
+          "source": "Visual",
+          "sourceHash": "423d88203a34a266986f83ccf232f8cdca07b84558d103267428e50cc1c4d3b8",
+          "context": "Vim beginner guide > The modes",
+          "contextHash": "0478cee21e51e0099b423c7f2bc0549dab1d530c51e26cd5a03d410e51f0bfe6"
+        },
+        {
+          "id": "u_bb7c980e09c7c258b1618b07_0",
+          "kind": "td",
+          "source": "Select text.",
+          "sourceHash": "bb7c980e09c7c258b1618b0761dd70e2fb95d0c675347cbb2157e034e0f619de",
+          "context": "Vim beginner guide > The modes",
+          "contextHash": "0478cee21e51e0099b423c7f2bc0549dab1d530c51e26cd5a03d410e51f0bfe6"
+        },
+        {
+          "id": "u_c87151861005a64da45fe9dd_0",
+          "kind": "td",
+          "source": "__TRILIUM_PH_0__ for characters, __TRILIUM_PH_1__ for whole lines",
+          "sourceHash": "c87151861005a64da45fe9dd75f9d7a2f75eab863005307a83cf3f45dea387cd",
+          "context": "Vim beginner guide > The modes",
+          "contextHash": "0478cee21e51e0099b423c7f2bc0549dab1d530c51e26cd5a03d410e51f0bfe6"
+        }
+      ],
+      "format": "text-slots-v1"
+    },
+    {
+      "key": "qxtXjXzFOEn1_e6882272ae025068",
+      "pageId": "qxtXjXzFOEn1",
+      "units": [
+        {
+          "id": "u_9bb155960d521e70432b9d90_0",
+          "kind": "td",
+          "source": "Replace",
+          "sourceHash": "9bb155960d521e70432b9d90e4224ca9cc292a73ce60c312b257214b84c2f649",
+          "context": "Vim beginner guide > The modes",
+          "contextHash": "0478cee21e51e0099b423c7f2bc0549dab1d530c51e26cd5a03d410e51f0bfe6"
+        },
+        {
+          "id": "u_d1e48f48f977f31b6f4a2640_0",
+          "kind": "td",
+          "source": "Type over the existing text.",
+          "sourceHash": "d1e48f48f977f31b6f4a264024fb5a2e00a8dc38897930f00797f031ddc184b7",
+          "context": "Vim beginner guide > The modes",
+          "contextHash": "0478cee21e51e0099b423c7f2bc0549dab1d530c51e26cd5a03d410e51f0bfe6"
+        },
+        {
+          "id": "u_216a93b4fc65935e4cfdd209_0",
+          "kind": "td",
+          "source": "Command line",
+          "sourceHash": "216a93b4fc65935e4cfdd2090d0af100b69a126011118ef7f2dc92420d69e4f1",
+          "context": "Vim beginner guide > The modes",
+          "contextHash": "0478cee21e51e0099b423c7f2bc0549dab1d530c51e26cd5a03d410e51f0bfe6"
+        },
+        {
+          "id": "u_715d3869423b235010b0bf81_0",
+          "kind": "td",
+          "source": "Type a command by its name, or a text to search for.",
+          "sourceHash": "715d3869423b235010b0bf8178936bb508b0abe183c71e103852435faabe92ac",
+          "context": "Vim beginner guide > The modes",
+          "contextHash": "0478cee21e51e0099b423c7f2bc0549dab1d530c51e26cd5a03d410e51f0bfe6"
+        },
+        {
+          "id": "u_3a9912d03d488de8fb8221a5_0",
+          "kind": "td",
+          "source": "__TRILIUM_PH_0__ for a command, __TRILIUM_PH_1__ or __TRILIUM_PH_2__ to search",
+          "sourceHash": "3a9912d03d488de8fb8221a546420a14e4112485820d59e6c2caa6528df255b6",
+          "context": "Vim beginner guide > The modes",
+          "contextHash": "0478cee21e51e0099b423c7f2bc0549dab1d530c51e26cd5a03d410e51f0bfe6"
+        },
+        {
+          "id": "u_53722a8d69a4bd8cb381ad40_0",
+          "kind": "p",
+          "source": "Vim also has Visual Block mode, which selects a rectangle of text across several lines. It is not supported at present. In text notes, __TRILIUM_PH_0__Ctrl__TRILIUM_PH_1__+__TRILIUM_PH_2__V__TRILIUM_PH_3__ pastes in Normal and Visual mode, and while typing too, unless the __TRILIUM_PH_4__Vim keys in Insert mode__TRILIUM_PH_5__ setting is on. In code notes, __TRILIUM_PH_6__Ctrl__TRILIUM_PH_7__+__TRILIUM_PH_8__V__TRILIUM_PH_9__ or __TRILIUM_PH_10__Ctrl__TRILIUM_PH_11__+__TRILIUM_PH_12__Q__TRILIUM_PH_13__ does start the mode, but the selection stays on one line, so it does not work as a rectangle.",
+          "sourceHash": "53722a8d69a4bd8cb381ad405b1208d88c2509b1fe51b8267ba3656f85029979",
+          "context": "Vim beginner guide > The modes",
+          "contextHash": "0478cee21e51e0099b423c7f2bc0549dab1d530c51e26cd5a03d410e51f0bfe6"
+        },
+        {
+          "id": "u_104deb02e788360c454ed007_0",
+          "kind": "h3",
+          "source": "Normal mode__TRILIUM_PH_0__",
+          "sourceHash": "104deb02e788360c454ed007f4e627df6ca713998b96ae34806ada14a0ac60df",
+          "context": "Vim beginner guide > The modes > Normal mode",
+          "contextHash": "65e33a705aaa41549829f16ef57d7ab43a8e992d9ddd389bbce9198a60ca5b9c"
+        },
+        {
+          "id": "u_84784803a75d82dd94c7364b_0",
+          "kind": "p",
+          "source": "Normal mode is the mode a note opens in, and the one you return to between two edits. The letter keys do not type here. Each one is a command: __TRILIUM_PH_0__ moves down a line, __TRILIUM_PH_1__ deletes a character, __TRILIUM_PH_2__ undoes the last change.",
+          "sourceHash": "84784803a75d82dd94c7364b86f7c784847ee8924d9abeebdc4679422256fe2a",
+          "context": "Vim beginner guide > The modes > Normal mode",
+          "contextHash": "65e33a705aaa41549829f16ef57d7ab43a8e992d9ddd389bbce9198a60ca5b9c"
+        },
+        {
+          "id": "u_7301ed538314666211232945_0",
+          "kind": "p",
+          "source": "This is the part that feels strange at first. The idea is that most of the time spent in a note goes to reading, moving around and changing existing text, not to typing new text, so the keys under your fingers are given to those tasks.",
+          "sourceHash": "7301ed538314666211232945b00d72ed1d5a76efdf68d10821a2d9b90ccb9938",
+          "context": "Vim beginner guide > The modes > Normal mode",
+          "contextHash": "65e33a705aaa41549829f16ef57d7ab43a8e992d9ddd389bbce9198a60ca5b9c"
+        },
+        {
+          "id": "u_6f466e76eb04de08528cd555_0",
+          "kind": "p",
+          "source": "There is one exception to where a note starts: the text notes that were already open when Vim mode was turned on are in Insert mode, so that typing keeps working. Press __TRILIUM_PH_0__Esc__TRILIUM_PH_1__ to go to Normal mode.",
+          "sourceHash": "6f466e76eb04de08528cd555ca1623223c9eaa34bb566a448363c6697a47ef5b",
+          "context": "Vim beginner guide > The modes > Normal mode",
+          "contextHash": "65e33a705aaa41549829f16ef57d7ab43a8e992d9ddd389bbce9198a60ca5b9c"
+        },
+        {
+          "id": "u_b373873a38959aa5f43cab1a_0",
+          "kind": "h3",
+          "source": "Insert mode__TRILIUM_PH_0__",
+          "sourceHash": "b373873a38959aa5f43cab1a4664439212cfe27e09301ec005e97219637ef358",
+          "context": "Vim beginner guide > The modes > Insert mode",
+          "contextHash": "a23cf7b63710b58292d5b8f7cb49288c3f9245243019246c32cd3a72e9d6a709"
+        },
+        {
+          "id": "u_ad7e52d67098754729dce66b_0",
+          "kind": "p",
+          "source": "Insert mode is the editor you already know: the keys type text. Press __TRILIUM_PH_0__ in Normal mode to enter it, and __TRILIUM_PH_1__Esc__TRILIUM_PH_2__ to leave it.",
+          "sourceHash": "ad7e52d67098754729dce66b39fec0253b4198ec3f0b9337e5555076a1e8c3ec",
+          "context": "Vim beginner guide > The modes > Insert mode",
+          "contextHash": "a23cf7b63710b58292d5b8f7cb49288c3f9245243019246c32cd3a72e9d6a709"
+        },
+        {
+          "id": "u_14942487c845488b719ca9f3_0",
+          "kind": "p",
+          "source": "In text notes, the regular editing features stay available in Insert mode, such as the formatting shortcuts, slash commands and toolbars. A few __TRILIUM_PH_0__Ctrl__TRILIUM_PH_1__ shortcuts have a Vim meaning there: see __TRILIUM_PH_2__Vim mode__TRILIUM_PH_3__.",
+          "sourceHash": "14942487c845488b719ca9f31d958d78e654b668d45a20e66cf8c137a128a3b9",
+          "context": "Vim beginner guide > The modes > Insert mode",
+          "contextHash": "a23cf7b63710b58292d5b8f7cb49288c3f9245243019246c32cd3a72e9d6a709"
+        },
+        {
+          "id": "u_53efb3e0e8518ff6156be1b8_0",
+          "kind": "p",
+          "source": "There are several ways into Insert mode, depending on where you want to type: __TRILIUM_PH_0__ before the cursor, __TRILIUM_PH_1__ after it, __TRILIUM_PH_2__ at the end of the line, and __TRILIUM_PH_3__ on a new line below.",
+          "sourceHash": "53efb3e0e8518ff6156be1b8038fb09b90a00de230340a4ef2422af1ab748745",
+          "context": "Vim beginner guide > The modes > Insert mode",
+          "contextHash": "a23cf7b63710b58292d5b8f7cb49288c3f9245243019246c32cd3a72e9d6a709"
+        },
+        {
+          "id": "u_81e565f960ca074f24d3f85d_0",
+          "kind": "h3",
+          "source": "Visual mode__TRILIUM_PH_0__",
+          "sourceHash": "81e565f960ca074f24d3f85d77638d6a0af7ea22b226fdbc6102e17c67b636d1",
+          "context": "Vim beginner guide > The modes > Visual mode",
+          "contextHash": "ba471610edfc6cbaa3a4726e3e1fe07bbf2f0ff111846c48940f9174849ec455"
+        },
+        {
+          "id": "u_e7e7c224ffe69ab761dac214_0",
+          "kind": "p",
+          "source": "Visual mode selects text. Press __TRILIUM_PH_0__, then move the cursor: the selection follows it. Then press a key to act on the selection, for example __TRILIUM_PH_1__ to delete it or __TRILIUM_PH_2__ to copy it. __TRILIUM_PH_3__ selects whole lines in the same way. __TRILIUM_PH_4__Esc__TRILIUM_PH_5__ leaves Visual mode without changing anything.",
+          "sourceHash": "e7e7c224ffe69ab761dac214d5cd195beb9447f5b421bc4d70f4f38106879723",
+          "context": "Vim beginner guide > The modes > Visual mode",
+          "contextHash": "ba471610edfc6cbaa3a4726e3e1fe07bbf2f0ff111846c48940f9174849ec455"
+        }
+      ],
+      "format": "text-slots-v1"
+    },
+    {
+      "key": "qxtXjXzFOEn1_5e5d05902e9bbb84",
+      "pageId": "qxtXjXzFOEn1",
+      "units": [
+        {
+          "id": "u_ff809b7329e58c95751cd014_0",
+          "kind": "h3",
+          "source": "Replace mode__TRILIUM_PH_0__",
+          "sourceHash": "ff809b7329e58c95751cd014d9f5baf5d69f96bffd9572679adc3eb1883b1a1d",
+          "context": "Vim beginner guide > The modes > Replace mode",
+          "contextHash": "8a2bd4e792dcfb512934dae24aedc42ed08e3dec9c3db024a4920c4f2ecc51ee"
+        },
+        {
+          "id": "u_75a9dc22ba65b018c2519040_0",
+          "kind": "p",
+          "source": "In Replace mode, each character you type takes the place of the one under the cursor, instead of being added before it. Press __TRILIUM_PH_0__ to enter it and __TRILIUM_PH_1__Esc__TRILIUM_PH_2__ to leave it.",
+          "sourceHash": "75a9dc22ba65b018c2519040c70c8dea5fcccca9f42648f69e14b509ed4925c9",
+          "context": "Vim beginner guide > The modes > Replace mode",
+          "contextHash": "8a2bd4e792dcfb512934dae24aedc42ed08e3dec9c3db024a4920c4f2ecc51ee"
+        },
+        {
+          "id": "u_f3c93ac420eb0894f293a0e1_0",
+          "kind": "h3",
+          "source": "The command line__TRILIUM_PH_0__",
+          "sourceHash": "f3c93ac420eb0894f293a0e1fb8f01786725128ddfdaee80a028919e3bb87955",
+          "context": "Vim beginner guide > The modes > The command line",
+          "contextHash": "7bb43f597bfa7b89673d1729e1dac8ce8368e1b5df4169e7c49a2a81bf89e694"
+        },
+        {
+          "id": "u_28ccbaf9dcb988cfcc0506f8_0",
+          "kind": "p",
+          "source": "Some commands are typed by name. Pressing __TRILIUM_PH_0__ in Normal mode opens the command line, where you type the command and press __TRILIUM_PH_1__Enter__TRILIUM_PH_2__. For example, __TRILIUM_PH_3__ sorts lines. Pressing __TRILIUM_PH_4__ opens it for a search instead, and __TRILIUM_PH_5__ for a search backward. __TRILIUM_PH_6__Esc__TRILIUM_PH_7__ closes it without running anything.",
+          "sourceHash": "28ccbaf9dcb988cfcc0506f860d3c19b7732e0c0636489b7ce8d3e3e967baf86",
+          "context": "Vim beginner guide > The modes > The command line",
+          "contextHash": "7bb43f597bfa7b89673d1729e1dac8ce8368e1b5df4169e7c49a2a81bf89e694"
+        },
+        {
+          "id": "u_6d81be758060873a30db9a27_0",
+          "kind": "p",
+          "source": "In text notes, the command line opens in the __TRILIUM_PH_0__Status bar__TRILIUM_PH_1__, where the breadcrumb is. In code notes, it opens at the bottom of the editor.",
+          "sourceHash": "6d81be758060873a30db9a27a93fe69218dad85b7190eab4bf924c082ac74932",
+          "context": "Vim beginner guide > The modes > The command line",
+          "contextHash": "7bb43f597bfa7b89673d1729e1dac8ce8368e1b5df4169e7c49a2a81bf89e694"
+        },
+        {
+          "id": "u_01b878c9166e4a985799eadd_0",
+          "kind": "h3",
+          "source": "Which mode am I in?__TRILIUM_PH_0__",
+          "sourceHash": "01b878c9166e4a985799eadd100b5e6383b39bc36f2ea3eb08f8f41a0c75626b",
+          "context": "Vim beginner guide > The modes > Which mode am I in?",
+          "contextHash": "6d47d7ef7b236b988180613ac58ce607062324990cd549f5bbd78c0e45923775"
+        },
+        {
+          "id": "u_7c028cfec37275c35e77b1bc_0",
+          "kind": "li",
+          "source": "In text notes, the status bar shows the mode: __TRILIUM_PH_0__, __TRILIUM_PH_1__, __TRILIUM_PH_2__, __TRILIUM_PH_3__ or __TRILIUM_PH_4__.",
+          "sourceHash": "7c028cfec37275c35e77b1bc0de4071a9d83f555bb789024f867e7843098ecd2",
+          "context": "Vim beginner guide > The modes > Which mode am I in?",
+          "contextHash": "6d47d7ef7b236b988180613ac58ce607062324990cd549f5bbd78c0e45923775"
+        },
+        {
+          "id": "u_ec55ca5b07000d865cce721b_0",
+          "kind": "li",
+          "source": "In both kinds of notes, the cursor tells the mode as well. In Normal and Visual mode, it is a block that covers a character. In Insert mode, the block is gone and the ordinary thin caret shows in its place.",
+          "sourceHash": "ec55ca5b07000d865cce721b0288a81cd6ab03d2dec0d68e6f0eb9065c5a51b5",
+          "context": "Vim beginner guide > The modes > Which mode am I in?",
+          "contextHash": "6d47d7ef7b236b988180613ac58ce607062324990cd549f5bbd78c0e45923775"
+        },
+        {
+          "id": "u_b48ecd622923e4f18bb468ed_0",
+          "kind": "h2",
+          "source": "A first session__TRILIUM_PH_0__",
+          "sourceHash": "b48ecd622923e4f18bb468ed212844216087c10fbdec86b5d1e733f3fc676fcf",
+          "context": "Vim beginner guide > A first session",
+          "contextHash": "845a3c1f23b27efa08434f990468d70b5c096ceca71cf0dc369eef2caee31174"
+        },
+        {
+          "id": "u_b3f62d2fef4ad8d83f0db9b3_0",
+          "kind": "p",
+          "source": "This exercise is meant to give a feel for going between Normal and Insert mode, not to teach keys by heart. Use a note that you can experiment in, such as a new note or a copy of an existing one, and then:",
+          "sourceHash": "b3f62d2fef4ad8d83f0db9b30bf92a889955ad09e265b6139d66eaa3195ec79c",
+          "context": "Vim beginner guide > A first session",
+          "contextHash": "845a3c1f23b27efa08434f990468d70b5c096ceca71cf0dc369eef2caee31174"
+        },
+        {
+          "id": "u_03106aa7441ccb478323b6d4_0",
+          "kind": "li",
+          "source": "Press __TRILIUM_PH_0__ and type a few words. You are in Insert mode.",
+          "sourceHash": "03106aa7441ccb478323b6d4174f1f9b2783735b0f8e869fb8212e9e6506fabb",
+          "context": "Vim beginner guide > A first session",
+          "contextHash": "845a3c1f23b27efa08434f990468d70b5c096ceca71cf0dc369eef2caee31174"
+        },
+        {
+          "id": "u_9ba25f8c2862346e6382276e_0",
+          "kind": "li",
+          "source": "Press __TRILIUM_PH_0__Esc__TRILIUM_PH_1__. You are back in Normal mode, and the cursor becomes a block.",
+          "sourceHash": "9ba25f8c2862346e6382276e43dea36de6e7e2d7aeeaab9e54b266b1ba77311a",
+          "context": "Vim beginner guide > A first session",
+          "contextHash": "845a3c1f23b27efa08434f990468d70b5c096ceca71cf0dc369eef2caee31174"
+        },
+        {
+          "id": "u_c456ee30ac5581ca4593fde1_0",
+          "kind": "li",
+          "source": "Move the cursor with __TRILIUM_PH_0__ (left), __TRILIUM_PH_1__ (down), __TRILIUM_PH_2__ (up) and __TRILIUM_PH_3__ (right).",
+          "sourceHash": "c456ee30ac5581ca4593fde14e5eaedc310d7f9657950e074d15a7924572b7a9",
+          "context": "Vim beginner guide > A first session",
+          "contextHash": "845a3c1f23b27efa08434f990468d70b5c096ceca71cf0dc369eef2caee31174"
+        },
+        {
+          "id": "u_d4691e42a86f3841fb606f8e_0",
+          "kind": "li",
+          "source": "Press __TRILIUM_PH_0__ to delete the character under the cursor, and then __TRILIUM_PH_1__ to undo that.",
+          "sourceHash": "d4691e42a86f3841fb606f8eee6eaaf1544300f10f0482ec71ab98fd893187a0",
+          "context": "Vim beginner guide > A first session",
+          "contextHash": "845a3c1f23b27efa08434f990468d70b5c096ceca71cf0dc369eef2caee31174"
+        },
+        {
+          "id": "u_3f3e60740085965c63a27ba5_0",
+          "kind": "li",
+          "source": "Press __TRILIUM_PH_0__ to delete the whole line, and __TRILIUM_PH_1__ to bring it back.",
+          "sourceHash": "3f3e60740085965c63a27ba578a6cb4c06b71694347e6d73c94dec46c7d4bc3e",
+          "context": "Vim beginner guide > A first session",
+          "contextHash": "845a3c1f23b27efa08434f990468d70b5c096ceca71cf0dc369eef2caee31174"
+        },
+        {
+          "id": "u_9e26d07359043b37389fc19b_0",
+          "kind": "li",
+          "source": "Press __TRILIUM_PH_0__. The cursor jumps to the end of the line, in Insert mode. Type something, and then press __TRILIUM_PH_1__Esc__TRILIUM_PH_2__.",
+          "sourceHash": "9e26d07359043b37389fc19b018cfc77c46c3a2e8bf488a914c2a69b154fb865",
+          "context": "Vim beginner guide > A first session",
+          "contextHash": "845a3c1f23b27efa08434f990468d70b5c096ceca71cf0dc369eef2caee31174"
+        }
+      ],
+      "format": "text-slots-v1"
+    },
+    {
+      "key": "qxtXjXzFOEn1_0b075da40c50809e",
+      "pageId": "qxtXjXzFOEn1",
+      "units": [
+        {
+          "id": "u_3318e343efcf0482c2caaf83_0",
+          "kind": "li",
+          "source": "Press __TRILIUM_PH_0__, move a few characters with __TRILIUM_PH_1__, and then press __TRILIUM_PH_2__. The selected text is deleted.",
+          "sourceHash": "3318e343efcf0482c2caaf83c43266dad80a996fc0482fbd8c3d978be1714c85",
+          "context": "Vim beginner guide > A first session",
+          "contextHash": "845a3c1f23b27efa08434f990468d70b5c096ceca71cf0dc369eef2caee31174"
+        },
+        {
+          "id": "u_f58bcd733523bb5a0cf0849f_0",
+          "kind": "p",
+          "source": "That is the whole cycle: Normal mode to move and change, Insert mode to type, __TRILIUM_PH_0__Esc__TRILIUM_PH_1__ to go back.",
+          "sourceHash": "f58bcd733523bb5a0cf0849ff1680121857a7310e1f2b2cca0cbd655bb34a040",
+          "context": "Vim beginner guide > A first session",
+          "contextHash": "845a3c1f23b27efa08434f990468d70b5c096ceca71cf0dc369eef2caee31174"
+        },
+        {
+          "id": "u_049841d017273142c6c589e5_0",
+          "kind": "h2",
+          "source": "Moving the cursor__TRILIUM_PH_0__",
+          "sourceHash": "049841d017273142c6c589e57f41631ce830aa659a8fd0aea074bb5f065270c9",
+          "context": "Vim beginner guide > Moving the cursor",
+          "contextHash": "616851e01ac672de2b24959dee598c1475d984d971b9e4606fba7e4eef16f91f"
+        },
+        {
+          "id": "u_f131491c5e846ac5052e1bfd_0",
+          "kind": "th",
+          "source": "Keys",
+          "sourceHash": "f131491c5e846ac5052e1bfd198b24d12d869eb2a1ef5204c0e121f4d7e55d19",
+          "context": "Vim beginner guide > Moving the cursor",
+          "contextHash": "616851e01ac672de2b24959dee598c1475d984d971b9e4606fba7e4eef16f91f"
+        },
+        {
+          "id": "u_6e528c14e2bdcf15bc2872e5_0",
+          "kind": "th",
+          "source": "Moves to",
+          "sourceHash": "6e528c14e2bdcf15bc2872e5b3019849474081c97cd85052ecc611f8488f5736",
+          "context": "Vim beginner guide > Moving the cursor",
+          "contextHash": "616851e01ac672de2b24959dee598c1475d984d971b9e4606fba7e4eef16f91f"
+        },
+        {
+          "id": "u_e5ceed078984daae20141837_0",
+          "kind": "td",
+          "source": "Left, down, up, right. The arrow keys work as well.",
+          "sourceHash": "e5ceed078984daae2014183765ab527c6e46a87bc85734c89c9d31939d6e6cd1",
+          "context": "Vim beginner guide > Moving the cursor",
+          "contextHash": "616851e01ac672de2b24959dee598c1475d984d971b9e4606fba7e4eef16f91f"
+        },
+        {
+          "id": "u_9d782318ea1c7e4d838a67f9_0",
+          "kind": "td",
+          "source": "__TRILIUM_PH_0__ / __TRILIUM_PH_1__",
+          "sourceHash": "9d782318ea1c7e4d838a67f9f8c8b032b21049ebe42e27238061c5b9ddbe32f1",
+          "context": "Vim beginner guide > Moving the cursor",
+          "contextHash": "616851e01ac672de2b24959dee598c1475d984d971b9e4606fba7e4eef16f91f"
+        },
+        {
+          "id": "u_e741a978a4f549d898e015c3_0",
+          "kind": "td",
+          "source": "The next / previous word.",
+          "sourceHash": "e741a978a4f549d898e015c3f78a98c121df34d3646efb636b1f445859339bac",
+          "context": "Vim beginner guide > Moving the cursor",
+          "contextHash": "616851e01ac672de2b24959dee598c1475d984d971b9e4606fba7e4eef16f91f"
+        },
+        {
+          "id": "u_9d782318ea1c7e4d838a67f9_1",
+          "kind": "td",
+          "source": "__TRILIUM_PH_0__ / __TRILIUM_PH_1__",
+          "sourceHash": "9d782318ea1c7e4d838a67f9f8c8b032b21049ebe42e27238061c5b9ddbe32f1",
+          "context": "Vim beginner guide > Moving the cursor",
+          "contextHash": "616851e01ac672de2b24959dee598c1475d984d971b9e4606fba7e4eef16f91f"
+        },
+        {
+          "id": "u_acafb016d3375254db9084cd_0",
+          "kind": "td",
+          "source": "The start / end of the line.",
+          "sourceHash": "acafb016d3375254db9084cd0f50daf68da1438991544d83c6e9e4316927e944",
+          "context": "Vim beginner guide > Moving the cursor",
+          "contextHash": "616851e01ac672de2b24959dee598c1475d984d971b9e4606fba7e4eef16f91f"
+        },
+        {
+          "id": "u_9d782318ea1c7e4d838a67f9_2",
+          "kind": "td",
+          "source": "__TRILIUM_PH_0__ / __TRILIUM_PH_1__",
+          "sourceHash": "9d782318ea1c7e4d838a67f9f8c8b032b21049ebe42e27238061c5b9ddbe32f1",
+          "context": "Vim beginner guide > Moving the cursor",
+          "contextHash": "616851e01ac672de2b24959dee598c1475d984d971b9e4606fba7e4eef16f91f"
+        },
+        {
+          "id": "u_6cbfd54b9ed19a68848d6d63_0",
+          "kind": "td",
+          "source": "The first / last line of the note.",
+          "sourceHash": "6cbfd54b9ed19a68848d6d63e0fca09243a1638742254c4b5c1128dbab3e4274",
+          "context": "Vim beginner guide > Moving the cursor",
+          "contextHash": "616851e01ac672de2b24959dee598c1475d984d971b9e4606fba7e4eef16f91f"
+        },
+        {
+          "id": "u_5a154ea3c685379b3cd087e9_0",
+          "kind": "td",
+          "source": "__TRILIUM_PH_0__ and __TRILIUM_PH_1__Enter__TRILIUM_PH_2__",
+          "sourceHash": "5a154ea3c685379b3cd087e9d4d68f4134365f38803ebf4109e4cadf8647af66",
+          "context": "Vim beginner guide > Moving the cursor",
+          "contextHash": "616851e01ac672de2b24959dee598c1475d984d971b9e4606fba7e4eef16f91f"
+        },
+        {
+          "id": "u_6986d01578e36df4423b8f91_0",
+          "kind": "td",
+          "source": "The next place where \"text\" appears. __TRILIUM_PH_0__ goes to the following one.",
+          "sourceHash": "6986d01578e36df4423b8f91995a33405e480abe42310ee3282bb6a35f3fe05e",
+          "context": "Vim beginner guide > Moving the cursor",
+          "contextHash": "616851e01ac672de2b24959dee598c1475d984d971b9e4606fba7e4eef16f91f"
+        },
+        {
+          "id": "u_ada680f0cf9968d103a7eb03_0",
+          "kind": "p",
+          "source": "In a text note, a line is a whole paragraph, even when it takes several lines on the screen. So __TRILIUM_PH_0__ moves to the next paragraph, and __TRILIUM_PH_1__ and __TRILIUM_PH_2__ go to its start and end.",
+          "sourceHash": "ada680f0cf9968d103a7eb0357efb59c77f62aace150cfe0da77eec05ef8fb03",
+          "context": "Vim beginner guide > Moving the cursor",
+          "contextHash": "616851e01ac672de2b24959dee598c1475d984d971b9e4606fba7e4eef16f91f"
+        },
+        {
+          "id": "u_f6bda6b1047de4f069d18e70_0",
+          "kind": "h2",
+          "source": "Changing text__TRILIUM_PH_0__",
+          "sourceHash": "f6bda6b1047de4f069d18e7080ba5c03ed94afd630eec0f3d9d71635aaf30afe",
+          "context": "Vim beginner guide > Changing text",
+          "contextHash": "584f9712c88e912eabf84a55e3b7011595302802dfce29df6290597c74f57125"
+        }
+      ],
+      "format": "text-slots-v1"
+    },
+    {
+      "key": "qxtXjXzFOEn1_8e1e2d886944376b",
+      "pageId": "qxtXjXzFOEn1",
+      "units": [
+        {
+          "id": "u_f131491c5e846ac5052e1bfd_1",
+          "kind": "th",
+          "source": "Keys",
+          "sourceHash": "f131491c5e846ac5052e1bfd198b24d12d869eb2a1ef5204c0e121f4d7e55d19",
+          "context": "Vim beginner guide > Changing text",
+          "contextHash": "584f9712c88e912eabf84a55e3b7011595302802dfce29df6290597c74f57125"
+        },
+        {
+          "id": "u_0b639307b7da2206f6693374_0",
+          "kind": "th",
+          "source": "What it does",
+          "sourceHash": "0b639307b7da2206f66933749f1c4da9ef58aa79fdf67683fdea784d5c42599f",
+          "context": "Vim beginner guide > Changing text",
+          "contextHash": "584f9712c88e912eabf84a55e3b7011595302802dfce29df6290597c74f57125"
+        },
+        {
+          "id": "u_3ae42d7bfa70d65701a82f27_0",
+          "kind": "td",
+          "source": "Deletes the character under the cursor.",
+          "sourceHash": "3ae42d7bfa70d65701a82f2714ae6b9dac5cfaf10893afb0cdbda21be4fb4f1b",
+          "context": "Vim beginner guide > Changing text",
+          "contextHash": "584f9712c88e912eabf84a55e3b7011595302802dfce29df6290597c74f57125"
+        },
+        {
+          "id": "u_40189148d301e1c22c4d4f08_0",
+          "kind": "td",
+          "source": "Deletes the line.",
+          "sourceHash": "40189148d301e1c22c4d4f08739cdedc6ca847b309aef56b9a27512bb346b63d",
+          "context": "Vim beginner guide > Changing text",
+          "contextHash": "584f9712c88e912eabf84a55e3b7011595302802dfce29df6290597c74f57125"
+        },
+        {
+          "id": "u_fd24e738c0c6be1c41917e45_0",
+          "kind": "td",
+          "source": "Deletes the rest of the word and enters Insert mode, to type a new one.",
+          "sourceHash": "fd24e738c0c6be1c41917e45ccab912be6731d7447ecb873b4130f34ba3be4cd",
+          "context": "Vim beginner guide > Changing text",
+          "contextHash": "584f9712c88e912eabf84a55e3b7011595302802dfce29df6290597c74f57125"
+        },
+        {
+          "id": "u_0b0f4b4854506287a59b23e9_0",
+          "kind": "td",
+          "source": "__TRILIUM_PH_0__ and a character",
+          "sourceHash": "0b0f4b4854506287a59b23e95a6c7bee90a6cb1cd36a41138e784ada658b2c78",
+          "context": "Vim beginner guide > Changing text",
+          "contextHash": "584f9712c88e912eabf84a55e3b7011595302802dfce29df6290597c74f57125"
+        },
+        {
+          "id": "u_574e8d3e5400ce65a1a77f40_0",
+          "kind": "td",
+          "source": "Replaces the character under the cursor with that one.",
+          "sourceHash": "574e8d3e5400ce65a1a77f40bda55391528fc2213def6505778070695259f599",
+          "context": "Vim beginner guide > Changing text",
+          "contextHash": "584f9712c88e912eabf84a55e3b7011595302802dfce29df6290597c74f57125"
+        },
+        {
+          "id": "u_210690a145362227b0dfde6e_0",
+          "kind": "td",
+          "source": "Undoes the last change.",
+          "sourceHash": "210690a145362227b0dfde6e9574256fa22192ab8124b753b101ed4a1c5e84c6",
+          "context": "Vim beginner guide > Changing text",
+          "contextHash": "584f9712c88e912eabf84a55e3b7011595302802dfce29df6290597c74f57125"
+        },
+        {
+          "id": "u_9748d7feda7c16c3e40648bc_0",
+          "kind": "td",
+          "source": "__TRILIUM_PH_0__Ctrl__TRILIUM_PH_1__+__TRILIUM_PH_2__R__TRILIUM_PH_3__",
+          "sourceHash": "9748d7feda7c16c3e40648bcfc684c3433e312b6e33e423faf6486a75c62ff0d",
+          "context": "Vim beginner guide > Changing text",
+          "contextHash": "584f9712c88e912eabf84a55e3b7011595302802dfce29df6290597c74f57125"
+        },
+        {
+          "id": "u_0e9cccc8749c14d1d2350aed_0",
+          "kind": "td",
+          "source": "Redoes what was undone.",
+          "sourceHash": "0e9cccc8749c14d1d2350aed8456d1bdb9c3e0aac3a8cbe54a901edb01399b94",
+          "context": "Vim beginner guide > Changing text",
+          "contextHash": "584f9712c88e912eabf84a55e3b7011595302802dfce29df6290597c74f57125"
+        },
+        {
+          "id": "u_667ac454a38ed9cdeef7a31d_0",
+          "kind": "td",
+          "source": "Repeats the last change.",
+          "sourceHash": "667ac454a38ed9cdeef7a31d06cc1c868a73c7e15e737f568d74f0179f389e0f",
+          "context": "Vim beginner guide > Changing text",
+          "contextHash": "584f9712c88e912eabf84a55e3b7011595302802dfce29df6290597c74f57125"
+        },
+        {
+          "id": "u_4b610eb8b5dcb482066bda2c_0",
+          "kind": "h2",
+          "source": "Combining keys__TRILIUM_PH_0__",
+          "sourceHash": "4b610eb8b5dcb482066bda2cee0320e5bcb07444cbf03a038de18c6f322d7099",
+          "context": "Vim beginner guide > Combining keys",
+          "contextHash": "a2c1700278cf9ce344ea07b3ac5d751e5e46ad206f9744b901bbb2595a79ae75"
+        },
+        {
+          "id": "u_aefd4d821cfea339d0768a30_0",
+          "kind": "p",
+          "source": "Most commands of Vim are made of two parts, like a short sentence: what to do, and what to do it to.",
+          "sourceHash": "aefd4d821cfea339d0768a301c5711e9390bd989e682e5053bfce738de916887",
+          "context": "Vim beginner guide > Combining keys",
+          "contextHash": "a2c1700278cf9ce344ea07b3ac5d751e5e46ad206f9744b901bbb2595a79ae75"
+        },
+        {
+          "id": "u_f750ce1afd22bd05d0aa2520_0",
+          "kind": "li",
+          "source": "The first part is an __TRILIUM_PH_0__operator__TRILIUM_PH_1__: __TRILIUM_PH_2__ deletes, __TRILIUM_PH_3__ changes (deletes, then lets you type), __TRILIUM_PH_4__ copies.",
+          "sourceHash": "f750ce1afd22bd05d0aa2520312678c431a24d807535214a5a0316ffe90500b2",
+          "context": "Vim beginner guide > Combining keys",
+          "contextHash": "a2c1700278cf9ce344ea07b3ac5d751e5e46ad206f9744b901bbb2595a79ae75"
+        },
+        {
+          "id": "u_a97474ad2edd609faf3e5637_0",
+          "kind": "li",
+          "source": "The second part is a __TRILIUM_PH_0__motion__TRILIUM_PH_1__, which is any key that moves the cursor: __TRILIUM_PH_2__ for a word, __TRILIUM_PH_3__ for the end of the line, __TRILIUM_PH_4__ for the end of the note.",
+          "sourceHash": "a97474ad2edd609faf3e563797853999315b02c52bb7510aa61b6c52b1b8b6f8",
+          "context": "Vim beginner guide > Combining keys",
+          "contextHash": "a2c1700278cf9ce344ea07b3ac5d751e5e46ad206f9744b901bbb2595a79ae75"
+        },
+        {
+          "id": "u_f131491c5e846ac5052e1bfd_2",
+          "kind": "th",
+          "source": "Keys",
+          "sourceHash": "f131491c5e846ac5052e1bfd198b24d12d869eb2a1ef5204c0e121f4d7e55d19",
+          "context": "Vim beginner guide > Combining keys",
+          "contextHash": "a2c1700278cf9ce344ea07b3ac5d751e5e46ad206f9744b901bbb2595a79ae75"
+        }
+      ],
+      "format": "text-slots-v1"
+    },
+    {
+      "key": "qxtXjXzFOEn1_a79fe4f3a3bd6726",
+      "pageId": "qxtXjXzFOEn1",
+      "units": [
+        {
+          "id": "u_4d86e7e037b12533fd80d15b_0",
+          "kind": "th",
+          "source": "Meaning",
+          "sourceHash": "4d86e7e037b12533fd80d15b2acbf1cf7b9d85920883dd6a33d3bd3e3b48b9e6",
+          "context": "Vim beginner guide > Combining keys",
+          "contextHash": "a2c1700278cf9ce344ea07b3ac5d751e5e46ad206f9744b901bbb2595a79ae75"
+        },
+        {
+          "id": "u_57d9402fc84f134889a29115_0",
+          "kind": "td",
+          "source": "Delete up to the next word.",
+          "sourceHash": "57d9402fc84f134889a291159827d857befa6be7863e4bc2d5faebd8505b8e7d",
+          "context": "Vim beginner guide > Combining keys",
+          "contextHash": "a2c1700278cf9ce344ea07b3ac5d751e5e46ad206f9744b901bbb2595a79ae75"
+        },
+        {
+          "id": "u_e68b7cc6e4a79884e38beeab_0",
+          "kind": "td",
+          "source": "Delete up to the end of the line.",
+          "sourceHash": "e68b7cc6e4a79884e38beeab735f0ae750235c3c317b732b98a003e6fa43b5a9",
+          "context": "Vim beginner guide > Combining keys",
+          "contextHash": "a2c1700278cf9ce344ea07b3ac5d751e5e46ad206f9744b901bbb2595a79ae75"
+        },
+        {
+          "id": "u_b6302a691e0736d93aed86ac_0",
+          "kind": "td",
+          "source": "Change the rest of the word.",
+          "sourceHash": "b6302a691e0736d93aed86ac5ee65b9667ae4aca8ad7e7b734518aa089b444f0",
+          "context": "Vim beginner guide > Combining keys",
+          "contextHash": "a2c1700278cf9ce344ea07b3ac5d751e5e46ad206f9744b901bbb2595a79ae75"
+        },
+        {
+          "id": "u_b0e0fc2c1f5446e91ba0d05f_0",
+          "kind": "td",
+          "source": "Copy from here to the end of the note.",
+          "sourceHash": "b0e0fc2c1f5446e91ba0d05fccf1099ad2e96f3fca3bad221c78c3af1f9f4823",
+          "context": "Vim beginner guide > Combining keys",
+          "contextHash": "a2c1700278cf9ce344ea07b3ac5d751e5e46ad206f9744b901bbb2595a79ae75"
+        },
+        {
+          "id": "u_9adfe9e627d0a2d54b224120_0",
+          "kind": "p",
+          "source": "Two more ideas complete the picture:",
+          "sourceHash": "9adfe9e627d0a2d54b224120d19f46c2cc27ee2104e2b83eac10da9c983da015",
+          "context": "Vim beginner guide > Combining keys",
+          "contextHash": "a2c1700278cf9ce344ea07b3ac5d751e5e46ad206f9744b901bbb2595a79ae75"
+        },
+        {
+          "id": "u_61ebe9e700de20b0f1f7790f_0",
+          "kind": "li",
+          "source": "__TRILIUM_PH_0__A number repeats.__TRILIUM_PH_1__ __TRILIUM_PH_2__ moves three words forward, and __TRILIUM_PH_3__ deletes three lines.",
+          "sourceHash": "61ebe9e700de20b0f1f7790fbe6e962f9b4f4a1cb05019d2d43cdde3dd92d925",
+          "context": "Vim beginner guide > Combining keys",
+          "contextHash": "a2c1700278cf9ce344ea07b3ac5d751e5e46ad206f9744b901bbb2595a79ae75"
+        },
+        {
+          "id": "u_930b5acd46dea6d489fe81e3_0",
+          "kind": "li",
+          "source": "__TRILIUM_PH_0__Text objects name a thing around the cursor.__TRILIUM_PH_1__ __TRILIUM_PH_2__ is \"the word the cursor is in\" and __TRILIUM_PH_3__ is \"this paragraph\". So __TRILIUM_PH_4__ deletes the word under the cursor, wherever the cursor is in it, and __TRILIUM_PH_5__ copies the paragraph.",
+          "sourceHash": "930b5acd46dea6d489fe81e35b16448b736fe6a4ff09008cd47bac9afa9a2583",
+          "context": "Vim beginner guide > Combining keys",
+          "contextHash": "a2c1700278cf9ce344ea07b3ac5d751e5e46ad206f9744b901bbb2595a79ae75"
+        },
+        {
+          "id": "u_2780dee7fd89fa3e1a3f4272_0",
+          "kind": "p",
+          "source": "Since an operator can be combined with almost any motion and text object, a handful of keys gives a large number of commands, and there is no need to memorize them one by one.",
+          "sourceHash": "2780dee7fd89fa3e1a3f42729b98f4d9ebe54dad460b5a5870d249d9c39e647a",
+          "context": "Vim beginner guide > Combining keys",
+          "contextHash": "a2c1700278cf9ce344ea07b3ac5d751e5e46ad206f9744b901bbb2595a79ae75"
+        },
+        {
+          "id": "u_ad2fab907406a3ef64974924_0",
+          "kind": "h2",
+          "source": "Copying and pasting__TRILIUM_PH_0__",
+          "sourceHash": "ad2fab907406a3ef6497492473fdcf345385b2d0adf56185e308a973ba98125a",
+          "context": "Vim beginner guide > Copying and pasting",
+          "contextHash": "6daf17cc934afb303e49c9d2ee6ac9af25ef52f389f08dbc3054cef925f9882a"
+        },
+        {
+          "id": "u_8ad8707b691aaeabcd362fee_0",
+          "kind": "p",
+          "source": "Vim has its own words for these: to __TRILIUM_PH_0__yank__TRILIUM_PH_1__ is to copy, and to __TRILIUM_PH_2__put__TRILIUM_PH_3__ is to paste.",
+          "sourceHash": "8ad8707b691aaeabcd362fee10658082116d572fb905b8a147dfd619aab581a8",
+          "context": "Vim beginner guide > Copying and pasting",
+          "contextHash": "6daf17cc934afb303e49c9d2ee6ac9af25ef52f389f08dbc3054cef925f9882a"
+        },
+        {
+          "id": "u_ee448ba3f4da495d56ddac3a_0",
+          "kind": "li",
+          "source": "__TRILIUM_PH_0__ yanks the current line, and __TRILIUM_PH_1__ yanks a word.",
+          "sourceHash": "ee448ba3f4da495d56ddac3ac4bc75f095f02fe6e402e2352b1d7c2ee816c028",
+          "context": "Vim beginner guide > Copying and pasting",
+          "contextHash": "6daf17cc934afb303e49c9d2ee6ac9af25ef52f389f08dbc3054cef925f9882a"
+        },
+        {
+          "id": "u_827bee768f3bb9e0115463c7_0",
+          "kind": "li",
+          "source": "__TRILIUM_PH_0__ puts what was yanked after the cursor, and __TRILIUM_PH_1__ before it.",
+          "sourceHash": "827bee768f3bb9e0115463c785c7c928dcb41d7f7454426e0eadc1792ddef074",
+          "context": "Vim beginner guide > Copying and pasting",
+          "contextHash": "6daf17cc934afb303e49c9d2ee6ac9af25ef52f389f08dbc3054cef925f9882a"
+        },
+        {
+          "id": "u_37216f7776f58fde43d56718_0",
+          "kind": "li",
+          "source": "Deleted text can be put as well: __TRILIUM_PH_0__ followed by __TRILIUM_PH_1__ moves a line down.",
+          "sourceHash": "37216f7776f58fde43d567186c0861a159f2e4a6524015bd47e6fa9948f9b903",
+          "context": "Vim beginner guide > Copying and pasting",
+          "contextHash": "6daf17cc934afb303e49c9d2ee6ac9af25ef52f389f08dbc3054cef925f9882a"
+        },
+        {
+          "id": "u_e6df715dff4e6efff0bfc736_0",
+          "kind": "li",
+          "source": "In Visual mode, __TRILIUM_PH_0__ yanks the selection.",
+          "sourceHash": "e6df715dff4e6efff0bfc736e2fd8a9df994d4bcc0d4b5e5e3a0f1ac1c3f9235",
+          "context": "Vim beginner guide > Copying and pasting",
+          "contextHash": "6daf17cc934afb303e49c9d2ee6ac9af25ef52f389f08dbc3054cef925f9882a"
+        },
+        {
+          "id": "u_d0623e13f0625493b1bd8ee4_0",
+          "kind": "p",
+          "source": "Yanked text is kept in a __TRILIUM_PH_0__register__TRILIUM_PH_1__, which is Vim's own storage and is separate from the clipboard of your computer. To use the clipboard, type __TRILIUM_PH_2__ in front of the command: __TRILIUM_PH_3__ copies the line to the clipboard, and __TRILIUM_PH_4__ pastes from it. In text notes, __TRILIUM_PH_5__Ctrl__TRILIUM_PH_6__+__TRILIUM_PH_7__C__TRILIUM_PH_8__ and __TRILIUM_PH_9__Ctrl__TRILIUM_PH_10__+__TRILIUM_PH_11__V__TRILIUM_PH_12__ also keep working with the clipboard.",
+          "sourceHash": "d0623e13f0625493b1bd8ee41c3a77e7846216b68238c0244cacd4625aa344f1",
+          "context": "Vim beginner guide > Copying and pasting",
+          "contextHash": "6daf17cc934afb303e49c9d2ee6ac9af25ef52f389f08dbc3054cef925f9882a"
+        }
+      ],
+      "format": "text-slots-v1"
+    },
+    {
+      "key": "qxtXjXzFOEn1_a95d49e6abf1a463",
+      "pageId": "qxtXjXzFOEn1",
+      "units": [
+        {
+          "id": "u_586f1adb9b286190d53be6c5_0",
+          "kind": "p",
+          "source": "The clipboard is also the way to carry text between a text note and a code note, since the two kinds of notes do not share their registers: __TRILIUM_PH_0__ in one, __TRILIUM_PH_1__ in the other.",
+          "sourceHash": "586f1adb9b286190d53be6c54e70cdadc4531563967861c9b60bb748354266d0",
+          "context": "Vim beginner guide > Copying and pasting",
+          "contextHash": "6daf17cc934afb303e49c9d2ee6ac9af25ef52f389f08dbc3054cef925f9882a"
+        },
+        {
+          "id": "u_11584d3040c89f08c656bcec_0",
+          "kind": "h2",
+          "source": "Searching and replacing__TRILIUM_PH_0__",
+          "sourceHash": "11584d3040c89f08c656bcec2ecfbc7c3ec6d47070e91ccc55518ec6c8b96b74",
+          "context": "Vim beginner guide > Searching and replacing",
+          "contextHash": "ec28da0dcbe342ba0530cbaa37dad1881515c541c1e018acc0d088a269966380"
+        }
+      ],
+      "format": "text-slots-v1"
+    }
+  ]
+}
