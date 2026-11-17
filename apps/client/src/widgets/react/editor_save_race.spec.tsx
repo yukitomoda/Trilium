@@ -14,7 +14,7 @@
  * content holder standing in for CKEditor; note B's blob is a controllable deferred
  * standing in for a slow blob fetch (remote server / PWA).
  */
-import { deferred } from "@triliumnext/commons";
+import { deferred } from "@triliumnext/commons/src/lib/utils.js";
 import { render, type RefObject } from "preact";
 import { act } from "preact/test-utils";
 import { afterEach, beforeEach, describe, expect, it, vi } from "vitest";
@@ -28,7 +28,7 @@ import LoadResults from "../../services/load_results";
 import server from "../../services/server";
 import type SpacedUpdate from "../../services/spaced_update";
 import { buildNote } from "../../test/easy-froca";
-import { type SavedData, useEditorSpacedUpdate } from "./hooks";
+import { type SavedData, useEditorSpacedUpdate } from "./hooks/editor";
 import { noteSavedDataStore } from "./NoteStore";
 import { ParentComponent } from "./react_utils";
 
@@ -247,6 +247,25 @@ describe("note switch save race (#9614)", () => {
         await vi.advanceTimersByTimeAsync(1500);
         await reportSave(parent, noteA, "another-editor", "AAA typed elsewhere again");
         expect(editor.content).toBe("AAA typed elsewhere again");
+    });
+
+    it("saves its pending changes when asked to for its note, not for another", async () => {
+        const harness = setupEditorHarness({ withParent: true });
+        cleanupContainer = harness.container;
+        const { noteA, noteB, editor, parent, putsTo, show } = harness;
+        if (!parent) throw new Error("Harness misconfigured");
+        await show(noteA);
+
+        editor.content = "AAA typed here";
+        getSpacedUpdate().scheduleUpdate();
+        await parent.handleEvent("saveNoteChanges", { noteId: noteB.noteId });
+        expect(putsTo(noteA)).toEqual([]);
+
+        await parent.handleEvent("saveNoteChanges", { noteId: noteA.noteId });
+        expect(putsTo(noteA)).toEqual([
+            { url: `notes/${noteA.noteId}/data`, content: "AAA typed here" }
+        ]);
+        expect(getSpacedUpdate().hasUnsavedChanges()).toBe(false);
     });
 
     it("drops a save made elsewhere while hidden once a later save here replaces it", async () => {

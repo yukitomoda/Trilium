@@ -21,6 +21,7 @@ export interface BlockNode {
     textContent?: string | null;
     getAttribute?(name: string): string | null | undefined;
     setAttribute?(name: string, value: string): unknown;
+    removeAttribute?(name: string): unknown;
     remove?(): unknown;
     replaceWith?(...nodes: unknown[]): unknown;
 }
@@ -35,6 +36,14 @@ export interface BlockRun<T extends BlockNode> {
 /** Whether `id` can be a block id. An id can be any text without `:`, the range separator. */
 export function isValidBlockId(id: string | null | undefined): id is string {
     return !!id && !id.includes(":");
+}
+
+/** A new random block id, of letters and digits. */
+export function generateBlockId() {
+    const bytes = crypto.getRandomValues(new Uint8Array(BLOCK_ID_LENGTH));
+    const characters = Array.from(bytes, (byte) =>
+        BLOCK_ID_CHARACTERS[byte % BLOCK_ID_CHARACTERS.length]);
+    return characters.join("");
 }
 
 /** Parses the value of the `block` link parameter, `id` or `startId:endId`. */
@@ -94,7 +103,8 @@ export function resolveBlockReference<T extends BlockNode>(root: BlockNode, valu
 
 /**
  * Keeps in `root` only the blocks that `value`, a `block` link parameter, points at, inside their
- * ancestors. A multicolumn layout left with one column is replaced by the column's content.
+ * ancestors. A multicolumn layout left with one column is replaced by the column's content, and an
+ * aside that is the only block loses its position, as no text is left to sit beside it.
  * Returns `false` and changes nothing when a block is missing.
  */
 export function sliceToBlockReference(root: BlockNode, value: string) {
@@ -104,6 +114,9 @@ export function sliceToBlockReference(root: BlockNode, value: string) {
     }
 
     sliceToBlockRange(root, start, end);
+    if (start === end && isTag(start, "ASIDE")) {
+        start.removeAttribute?.("data-position");
+    }
     return true;
 }
 
@@ -155,6 +168,9 @@ export function getListItemNumber(list: BlockNode, index: number) {
     const first = Number.isNaN(start) ? (isReversed ? itemCount : 1) : start;
     return isReversed ? first - index : first + index;
 }
+
+const BLOCK_ID_LENGTH = 12;
+const BLOCK_ID_CHARACTERS = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";
 
 const RUN_CONTAINERS = new Set([
     "ASIDE", "BLOCKQUOTE", "DETAILS", "DIV", "LI", "OL", "SECTION", "UL"

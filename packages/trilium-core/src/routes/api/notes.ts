@@ -1,4 +1,8 @@
-import { type AttributeRow, type CreateChildrenResponse, type DeleteNotesPreview, isNoteType, type MetadataResponse } from "@triliumnext/commons";
+import {
+    type AttributeRow, type CreateChildrenResponse, type CreateReferenceRequest,
+    type CreateReferenceResponse, type DeleteNotesPreview, isNoteType, type MetadataResponse,
+    type NoteReferencesResponse, REFERENCE_KINDS, type ReferenceKind
+} from "@triliumnext/commons";
 import { t } from "i18next";
 
 import type { Request } from "../../http_interface";
@@ -9,93 +13,24 @@ import eraseService from "../../services/erase.js";
 import { NotFoundError, ValidationError } from "../../errors.js";
 import becca from "../../becca/becca.js";
 import type BBranch from "../../becca/entities/bbranch.js";
+import type BNote from "../../becca/entities/bnote.js";
 import { getLog } from "../../services/log.js";
 import noteFormatConversionService from "../../services/note_format_conversion.js";
 import noteService from "../../services/notes.js";
+import { createReference, findReferenceTargets } from "../../services/references/index.js";
 import { getSql } from "../../services/sql/index";
 import TaskContext from "../../services/task_context.js";
 import treeService from "../../services/tree.js";
 import { randomString } from "../../services/utils/index";
 
-/**
- * @swagger
- * /api/notes/{noteId}:
- *   get:
- *     summary: Retrieve note metadata
- *     operationId: notes-get
- *     parameters:
- *       - name: noteId
- *         in: path
- *         required: true
- *         schema:
- *           $ref: "#/components/schemas/NoteId"
- *     responses:
- *       '200':
- *         description: Note metadata
- *         content:
- *           application/json:
- *             schema:
- *              allOf:
- *                - $ref: '#/components/schemas/Note'
- *                - $ref: "#/components/schemas/Timestamps"
- *     security:
- *       - session: []
- *     tags: ["data"]
- */
 function getNote(req: Request<{ noteId: string }>) {
     return becca.getNoteOrThrow(req.params.noteId);
 }
 
-/**
- * @swagger
- * /api/notes/{noteId}/blob:
- *   get:
- *     summary: Retrieve note content
- *     operationId: notes-blob
- *     parameters:
- *       - name: noteId
- *         in: path
- *         required: true
- *         schema:
- *           $ref: "#/components/schemas/NoteId"
- *     responses:
- *       '304':
- *         description: Note content
- *         content:
- *           application/json:
- *             schema:
- *              $ref: '#/components/schemas/Blob'
- *     security:
- *       - session: []
- *     tags: ["data"]
- */
 function getNoteBlob(req: Request<{ noteId: string }>) {
     return blobService.getBlobPojo("notes", req.params.noteId);
 }
 
-/**
- * @swagger
- * /api/notes/{noteId}/metadata:
- *   get:
- *     summary: Retrieve note metadata (limited to timestamps)
- *     operationId: notes-metadata
- *     parameters:
- *       - name: noteId
- *         in: path
- *         required: true
- *         schema:
- *           $ref: "#/components/schemas/NoteId"
- *     responses:
- *       '200':
- *         description: Note metadata
- *         content:
- *           application/json:
- *             schema:
- *              $ref: "#/components/schemas/Timestamps"
- *     security:
- *       - session: []
- *     tags: ["data"]
- */
 function getNoteMetadata(req: Request<{ noteId: string }>) {
     const note = becca.getNoteOrThrow(req.params.noteId);
 
@@ -107,36 +42,6 @@ function getNoteMetadata(req: Request<{ noteId: string }>) {
     } satisfies MetadataResponse;
 }
 
-/**
- * @swagger
- * /api/notes/metadata:
- *   post:
- *     summary: Retrieve the timestamps of several notes at once
- *     operationId: notes-metadata-bulk
- *     requestBody:
- *       required: true
- *       content:
- *         application/json:
- *           schema:
- *             type: object
- *             properties:
- *               noteIds:
- *                 type: array
- *                 items:
- *                   $ref: "#/components/schemas/NoteId"
- *     responses:
- *       '200':
- *         description: The timestamps of each note found, keyed by note ID
- *         content:
- *           application/json:
- *             schema:
- *               type: object
- *               additionalProperties:
- *                 $ref: "#/components/schemas/Timestamps"
- *     security:
- *       - session: []
- *     tags: ["data"]
- */
 function getNotesMetadata(req: Request) {
     const { noteIds } = req.body as { noteIds?: unknown };
     if (!Array.isArray(noteIds) || noteIds.some((noteId) => typeof noteId !== "string")) {
@@ -234,62 +139,54 @@ function updateNoteBlocks(req: Request<{ noteId: string }>) {
     noteService.updateNoteData(req.params.noteId, newContent, attachments);
 }
 
+/** The places inside a note that a link can point at, such as its headings and anchors. */
+async function getNoteReferences(req: Request<{ noteId: string }>) {
+    const note = becca.getNoteOrThrow(req.params.noteId);
+    return { targets: await findReferenceTargets(note) } satisfies NoteReferencesResponse;
+}
+
+/** Gives a target of a note a reference, unless it has one, and returns its link parameters. */
+function createNoteReference(req: Request<{ noteId: string }>) {
+    const request = parseReferenceRequest(req.body);
+    const note = becca.getNoteOrThrow(req.params.noteId);
+    return { params: createReference(note, request) } satisfies CreateReferenceResponse;
+}
+
+function parseReferenceRequest(body: unknown): CreateReferenceRequest {
+    const { kind, index, title } = (body ?? {}) as Record<string, unknown>;
+    if (!isReferenceKind(kind) || typeof index !== "number" || !Number.isSafeInteger(index)
+        || index < 0 || typeof title !== "string" || !title) {
+        throw new ValidationError("Expected the 'kind', the 'index' and the 'title' of a target.");
+    }
+    return { kind, index, title };
+}
+
+function isReferenceKind(value: unknown): value is ReferenceKind {
+    return REFERENCE_KINDS.some((kind) => kind === value);
+}
+
 function getBlockRangeRequest(req: Request<{ noteId: string }>) {
     const { block } = req.query;
     if (typeof block !== "string") {
         throw new ValidationError("Missing the 'block' parameter.");
     }
 
-    const note = becca.getNoteOrThrow(req.params.noteId);
-    const content = note.type === "text" && note.isContentAvailable() ? note.getContent() : null;
-    if (typeof content !== "string") {
-        throw new ValidationError(`Note '${note.noteId}' has no text content to edit.`);
-    }
-
-    return { content, block };
+    return { content: getTextContent(becca.getNoteOrThrow(req.params.noteId)), block };
 }
 
 function getBlockRangeError(noteId: string, block: string) {
     return `Blocks '${block}' of note '${noteId}' do not exist or cannot be edited apart.`;
 }
 
-/**
- * @swagger
- * /api/notes/{noteId}:
- *   delete:
- *     summary: Delete note
- *     operationId: notes-delete
- *     parameters:
- *       - name: noteId
- *         in: path
- *         required: true
- *         schema:
- *           $ref: "#/components/schemas/NoteId"
- *       - name: taskId
- *         in: query
- *         required: true
- *         schema:
- *           type: string
- *         description: Task group identifier
- *       - name: eraseNotes
- *         in: query
- *         schema:
- *           type: boolean
- *         required: false
- *         description: Whether to erase the note immediately
- *       - name: last
- *         in: query
- *         schema:
- *           type: boolean
- *         required: true
- *         description: Whether this is the last request of this task group
- *     responses:
- *       '200':
- *         description: Note successfully deleted
- *     security:
- *       - session: []
- *     tags: ["data"]
- */
+/** The HTML of `note`, which must be a text note whose content is available. */
+function getTextContent(note: BNote) {
+    const content = note.type === "text" && note.isContentAvailable() ? note.getContent() : null;
+    if (typeof content !== "string") {
+        throw new ValidationError(`Note '${note.noteId}' has no text content available.`);
+    }
+    return content;
+}
+
 function deleteNote(req: Request<{ noteId: string }>) {
     const noteId = req.params.noteId;
     const taskId = req.query.taskId;
@@ -598,6 +495,8 @@ export default {
     updateNoteData,
     getNoteBlocks,
     updateNoteBlocks,
+    getNoteReferences,
+    createNoteReference,
     deleteNote,
     undeleteNote,
     createNote,

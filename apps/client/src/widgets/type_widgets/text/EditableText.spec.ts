@@ -74,21 +74,41 @@ vi.mock("../../dialogs/content_embed", () => ({
     }
 }));
 vi.mock("./snippets.js", () => ({ default: async () => [], updateTemplateCache: vi.fn() }));
-vi.mock("../../react/hooks", async (importOriginal) => ({
-    ...await importOriginal<typeof import("../../react/hooks")>(),
-    useEditorSpacedUpdate: () => ({}),
-    useLegacyImperativeHandlers: () => {},
-    useNoteLabel: () => [ null ],
-    useSameNoteSwitch: () => {},
-    useSearchTermsConsumer: () => {},
-    useTriliumEvent: () => {},
+vi.mock("../../react/hooks/events", async (importOriginal) => ({
+    ...(await importOriginal<typeof import("../../react/hooks/events")>()),
+    useTriliumEvent: () => {}
+}));
+vi.mock("../../react/hooks/note", async (importOriginal) => ({
+    ...(await importOriginal<typeof import("../../react/hooks/note")>()),
+    useNoteLabel: () => [ null ]
+}));
+vi.mock("../../react/hooks/options", async (importOriginal) => ({
+    ...(await importOriginal<typeof import("../../react/hooks/options")>()),
     useTriliumOption: () => [ "" ],
     useTriliumOptionBool: () => [ false ]
 }));
+vi.mock("../../react/hooks/note_context", async (importOriginal) => ({
+    ...(await importOriginal<typeof import("../../react/hooks/note_context")>()),
+    useSameNoteSwitch: () => {}
+}));
+vi.mock("../../react/hooks/editor", async (importOriginal) => ({
+    ...(await importOriginal<typeof import("../../react/hooks/editor")>()),
+    useEditorSpacedUpdate: () => ({})
+}));
+vi.mock("../../react/hooks/legacy", async (importOriginal) => ({
+    ...(await importOriginal<typeof import("../../react/hooks/legacy")>()),
+    useLegacyImperativeHandlers: () => {}
+}));
+vi.mock("../../react/hooks/note_context", async (importOriginal) => ({
+    ...(await importOriginal<typeof import("../../react/hooks/note_context")>()),
+    useSearchTermsConsumer: () => {}
+}));
 
+const { default: appContext } = await import("../../../components/app_context");
 const {
     default: EditableText,
     applyPendingAttachmentChanges,
+    followLink,
     getEditLinkOpts,
     getBlockData,
     isCaretInFocus,
@@ -363,6 +383,31 @@ describe("notifyAttachmentChanges", () => {
         applyPendingAttachmentChanges(editor, "note1", pending);
 
         expect(updateAttachmentLinks).not.toHaveBeenCalled();
+    });
+});
+
+describe("followLink", () => {
+    it("opens the note of a reference or a link in the active tab, and a web link in a window",
+        async () => {
+        const setNote = vi.fn();
+        const tabManager = appContext.tabManager;
+        appContext.tabManager = {
+            getActiveContext: () => ({ setNote })
+        } as unknown as typeof tabManager;
+        const open = vi.spyOn(window, "open").mockReturnValue(null);
+        try {
+            await followLink({ href: "#root/abcd?viewMode=attachments", isReference: true });
+            await followLink({ href: "#root/efgh", isReference: false });
+            await followLink({ href: "https://example.com/", isReference: false });
+            await followLink({ href: "https://example.com/", isReference: true });
+            await followLink({ href: undefined, isReference: true });
+            await followLink(null);
+            expect(setNote.mock.calls).toEqual([ [ "root/abcd" ], [ "root/efgh" ] ]);
+            expect(open.mock.calls).toEqual([ [ "https://example.com/", "_blank" ] ]);
+        } finally {
+            appContext.tabManager = tabManager;
+            open.mockRestore();
+        }
     });
 });
 
@@ -658,10 +703,17 @@ describe("getEditLinkOpts", () => {
     it("offers the headings of the note, which link to their blocks", () => {
         const heading = { element: {} as ModelElement, level: 2, text: "Intro" };
         const api = createApi(null, [], [ heading ]);
-        expect(getEditLinkOpts(api, ready).headings).toBeUndefined();
+        expect(getEditLinkOpts(api, ready)).toMatchObject({
+            headings: undefined, noteId: undefined
+        });
 
-        const headings = getEditLinkOpts(api, ready, { notePath: "root/abc" }).headings;
-        expect(headings).toMatchObject([ { title: "Intro", level: 2, blockId: undefined } ]);
+        const opts = getEditLinkOpts(api, ready, { notePath: "root/abc" });
+        // The note page lists the editor's headings for this note.
+        expect(opts.noteId).toBe("abc");
+        const headings = opts.headings;
+        expect(headings).toMatchObject([
+            { kind: "heading", title: "Intro", level: 2, params: undefined }
+        ]);
         expect(api.assignBlockId).not.toHaveBeenCalled();
         expect(headings?.[0]?.createLinkPath()).toBe("root/abc?block=new");
         expect(api.assignBlockId).toHaveBeenCalledExactlyOnceWith(heading);
@@ -680,7 +732,9 @@ describe("getEditLinkOpts", () => {
         );
 
         const opts = edit("#root/other/abc?block=a");
-        expect(opts).toMatchObject({ currentTitle: "See intro", currentHeading: { title: "Intro" } });
+        expect(opts).toMatchObject({
+            currentTitle: "See intro", currentHeading: { title: "Intro" }, noteId: "abc"
+        });
         expect(opts.currentHeading).toBe(opts.headings?.[0]);
         expect(opts.currentLink).toBeUndefined();
 

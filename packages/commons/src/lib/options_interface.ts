@@ -306,6 +306,11 @@ export interface OptionDefinitions extends KeyboardShortcutsOptions<KeyboardActi
     textNoteEmojiCompletionEnabled: boolean;
     /** Whether keyboard auto-completion for notes is triggered when typing `@` in text notes (attribute editing is not affected). */
     textNoteCompletionEnabled: boolean;
+    /**
+     * Whether a note picked after `@` is followed by a list of its headings and anchors to point
+     * the link at.
+     */
+    textNoteCompletionLinkTargetsEnabled: boolean;
     /** Whether keyboard auto-completion for editing commands is triggered when typing `/`. */
     textNoteSlashCommandsEnabled: boolean;
     /** Whether the MathLive visual editor is shown when editing math. If false, only the LaTeX textarea is used. */
@@ -337,6 +342,21 @@ export interface OptionDefinitions extends KeyboardShortcutsOptions<KeyboardActi
      * so an imported note shows them correctly until it is edited.
      */
     textNoteHtmlSupportEnabled: boolean;
+    /** Whether text notes are edited with the keys of Vim, on this device. */
+    textNoteVimModeEnabled: boolean;
+    /** Whether the notice that explains Vim mode was shown when it was first turned on. */
+    textNoteVimModeNoticeShown: boolean;
+    /** Whether six more Ctrl keys of Insert mode, such as `Ctrl+V`, follow Vim. */
+    textNoteVimInsertKeysEnabled: boolean;
+    /** The Ex commands that Vim mode runs when it starts, one per line, such as mappings. */
+    textNoteVimStartupCommands: string;
+    /** Whether Vim mode shows key hints, in text notes now and in code notes later. */
+    vimModeHintsEnabled: boolean;
+    /**
+     * Whether Normal and Visual mode show their keys in place of the breadcrumb. `Esc` in Normal
+     * mode with nothing pending switches it.
+     */
+    vimModeHintStripShown: boolean;
     /** Whether copying note content embeds internal images as data: URIs so they paste into external apps (internal paste stays reference-based). Hidden kill-switch. */
     clipboardImageEmbedEnabled: boolean;
     backgroundEffects: boolean;
