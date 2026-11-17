@@ -1,4 +1,4 @@
-name: Translate documentation
+name: 翻訳バッチを送信
 
 on:
   workflow_dispatch:
@@ -16,16 +16,6 @@ on:
         description: 'Refresh machine translations marked as needing review'
         type: boolean
         default: false
-      collect_only:
-        description: 'Only collect existing batch results; submit no new requests'
-        type: boolean
-        default: false
-      recheck_completed:
-        description: 'Re-fetch completed batches with missing results (collect_only required)'
-        type: boolean
-        default: false
-  schedule:
-    - cron: '23 * * * *'
 
 permissions:
   contents: read
@@ -38,13 +28,12 @@ env:
   ELECTRON_SKIP_BINARY_DOWNLOAD: '1'
 
 jobs:
-  translate:
+  submit:
     if: github.ref == format('refs/heads/{0}', github.event.repository.default_branch)
     runs-on: ubuntu-latest
     timeout-minutes: 60
     permissions:
       contents: write
-      pull-requests: write
     steps:
       - name: Checkout
         uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
@@ -60,39 +49,23 @@ jobs:
         run: |
           gh auth setup-git
           bash apps/build-docs/translation-preview/batch-state.sh restore
-      - name: Check work and inputs
-        id: work
+      - name: Check translation limit
         env:
-          EVENT_NAME: ${{ github.event_name }}
-          UNIT_LIMIT: ${{ inputs.limit || '20' }}
+          UNIT_LIMIT: ${{ inputs.limit }}
         run: |
           if ! [[ "$UNIT_LIMIT" =~ ^[1-9][0-9]*$ ]]; then
             echo 'The translation limit must be a positive integer.' >&2
             exit 1
           fi
-          node <<'JS'
-          const fs = require('node:fs');
-          const jobs = fs.readdirSync('i18n/batches').filter(name => name.endsWith('.json'))
-            .map(name => JSON.parse(fs.readFileSync(`i18n/batches/${name}`, 'utf8')));
-          const pending = jobs.some(job => job.name &&
-            ['pending', 'submitting', 'uncertain'].includes(job.phase));
-          const run = process.env.EVENT_NAME !== 'schedule' || pending;
-          fs.appendFileSync(process.env.GITHUB_OUTPUT, `run=${run}\n`);
-          JS
       - name: Set up pnpm
-        if: steps.work.outputs.run == 'true'
         uses: pnpm/action-setup@73e46992e05b19abd31f2f3c20e0e7370d762115 # v6.1.1
       - name: Install dependencies
-        if: steps.work.outputs.run == 'true'
         run: pnpm install --frozen-lockfile
       - name: Test translation pipeline
-        if: steps.work.outputs.run == 'true'
         run: pnpm docs:ja:test
       - name: Prepare current source snapshot
-        if: steps.work.outputs.run == 'true'
         run: pnpm docs:ja:build
-      - name: Submit or collect Gemini Batch API jobs
-        if: steps.work.outputs.run == 'true'
+      - name: Submit Gemini Batch API jobs
         id: translation
         timeout-minutes: 30
         continue-on-error: true
@@ -103,43 +76,28 @@ jobs:
           PAGE_ID: ${{ inputs.page_id }}
           UNIT_LIMIT: ${{ inputs.limit || '20' }}
           REFRESH: ${{ inputs.refresh }}
-          COLLECT_ONLY: ${{ inputs.collect_only }}
-          RECHECK_COMPLETED: ${{ inputs.recheck_completed }}
-          EVENT_NAME: ${{ github.event_name }}
         run: |
           if [ -z "$GEMINI_API_KEY" ]; then
             echo 'Set the repository Actions variable or secret GEMINI_API_KEY.' >&2
             exit 1
           fi
           printf '::add-mask::%s\n' "$GEMINI_API_KEY"
-          if [ "$EVENT_NAME" = schedule ] || [ "$COLLECT_ONLY" = true ]; then
-            args=()
-            if [ "$RECHECK_COMPLETED" = true ]; then args+=(--recheck-completed); fi
-            pnpm docs:ja:collect "${args[@]}"
-          else
-            if [ "$RECHECK_COMPLETED" = true ]; then
-              echo 'recheck_completed requires collect_only.' >&2
-              exit 1
-            fi
-            args=(--limit "$UNIT_LIMIT")
-            if [ -n "$PAGE_ID" ]; then args+=(--page "$PAGE_ID"); fi
-            if [ "$REFRESH" = true ]; then args+=(--refresh); fi
-            pnpm docs:ja:plan "${args[@]}"
-            pnpm docs:ja:translate "${args[@]}"
-          fi
+          args=(--limit "$UNIT_LIMIT")
+          if [ -n "$PAGE_ID" ]; then args+=(--page "$PAGE_ID"); fi
+          if [ "$REFRESH" = true ]; then args+=(--refresh); fi
+          pnpm docs:ja:translate --submit-only "${args[@]}"
       - name: Summarize translation progress
         if: always() && (steps.translation.outcome == 'success' || steps.translation.outcome == 'failure')
         continue-on-error: true
         env:
           TRANSLATION_OUTCOME: ${{ steps.translation.outcome }}
         run: pnpm docs:ja:status
-      - name: Preserve jobs and translations (including partial progress)
+      - name: Preserve batch jobs and submission report
         if: always() && (steps.translation.outcome == 'success' || steps.translation.outcome == 'failure')
         uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7.0.2
         with:
-          name: translation-memory-${{ github.run_id }}-${{ github.run_attempt }}
+          name: translation-submission-${{ github.run_id }}-${{ github.run_attempt }}
           path: |
-            i18n/translations/ja/*.json
             i18n/batches/*.json
             .generated/translation-status/status.json
             .generated/translation-status/status.md
@@ -153,60 +111,8 @@ jobs:
         run: |
           gh auth setup-git
           bash apps/build-docs/translation-preview/batch-state.sh save
-      - name: Build and validate updated translations
-        if: steps.work.outputs.run == 'true'
-        run: |
-          pnpm docs:ja:build --skip-client-build
-          pnpm docs:ja:validate
-      - name: Save completed translations as a pull request
-        if: steps.work.outputs.run == 'true' && (github.event_name == 'workflow_dispatch' || steps.translation.outputs.received_requests > 0)
-        env:
-          GH_TOKEN: ${{ github.token }}
-          GH_REPO: ${{ github.repository }}
-          DEFAULT_BRANCH: ${{ github.event.repository.default_branch }}
-          TRANSLATION_OUTCOME: ${{ steps.translation.outcome }}
-          RECEIVED: ${{ steps.translation.outputs.received_requests }}
-          PENDING: ${{ steps.translation.outputs.pending_jobs }}
-        run: |
-          git add -- i18n/translations/ja/
-          if git diff --cached --quiet; then
-            echo 'No translation changes.' >> "$GITHUB_STEP_SUMMARY"
-            exit 0
-          fi
-          # A submission alone does not warrant a metadata-only translation PR.
-          if ! git diff --cached --unified=0 -- i18n/translations/ja/ | grep -E '^\+.*"translation":' > /dev/null; then
-            git reset -- i18n/translations/ja/
-            echo 'Batch submitted or still running; no completed translations yet.' >> "$GITHUB_STEP_SUMMARY"
-            exit 0
-          fi
-          branch="translations/run-${GITHUB_RUN_ID}-${GITHUB_RUN_ATTEMPT}"
-          git switch --create "$branch"
-          git config user.name 'github-actions[bot]'
-          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git commit -m 'docs: collect Japanese translations from Gemini Batch API'
-          gh auth setup-git
-          git push origin "HEAD:refs/heads/$branch"
-          cat > "$RUNNER_TEMP/translation-pr.md" <<BODY
-          ## Gemini Batch APIによる日本語訳の更新
-
-          完了したバッチ結果を翻訳JSONへ反映し、ビルドと静的リンク検証を実行しました。
-
-          - 翻訳ステップの結果: ${TRANSLATION_OUTCOME}
-          - 今回取得したリクエスト数: ${RECEIVED}
-          - 残りの処理中ジョブ数: ${PENDING}
-          - 実行ログ: ${GITHUB_SERVER_URL}/${GITHUB_REPOSITORY}/actions/runs/${GITHUB_RUN_ID}
-
-          処理中ジョブは専用ブランチに保存し、定期実行で取得します。二重送信しません。
-          マージ後にGitHub Pagesへ公開されます。APIキーや生成HTMLは含めていません。
-          BODY
-          if [ -f .generated/translation-status/status.md ]; then
-            cat .generated/translation-status/status.md >> "$RUNNER_TEMP/translation-pr.md"
-          fi
-          url=$(gh pr create --base "$DEFAULT_BRANCH" --head "$branch" \
-            --title 'docs: Batch APIによる日本語訳を反映' --body-file "$RUNNER_TEMP/translation-pr.md")
-          echo "Translation pull request: $url" >> "$GITHUB_STEP_SUMMARY"
-      - name: Report incomplete translation
+      - name: Report submission failure
         if: steps.translation.outcome == 'failure'
         run: |
-          echo '翻訳処理の一部が失敗しました。実行のSummaryにある「翻訳の状況」と、Artifacts内のstatus.jsonを確認してください。正常な翻訳のPRが作成されている場合があります。' >&2
+          echo '翻訳バッチの送信に失敗しました。実行ログと専用ブランチのバッチ台帳を確認してください。' >&2
           exit 1

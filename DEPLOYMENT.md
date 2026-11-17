@@ -57,7 +57,7 @@ APIキーは翻訳ステップにだけ渡し、ログではマスクします�
 
 ### 実行方法（非同期Batch API）
 
-[Actions](https://github.com/yukitomoda/Trilium/actions) で **Translate documentation → Run workflow** を開きます。
+[Actions](https://github.com/yukitomoda/Trilium/actions) で **翻訳バッチを送信 → Run workflow** を開きます。
 デフォルトブランチを選択し、以下を入力します。
 
 | 入力 | 内容 |
@@ -65,7 +65,6 @@ APIキーは翻訳ステップにだけ渡し、ログではマスクします�
 | `page_id` | 新規送信するページ。空欄なら全対象。Quick Start は `s3YCWHBfmYuM` |
 | `limit` | 新規送信する翻訳単位数の上限。初期値20。正の整数 |
 | `refresh` | 要確認になった機械訳も再送する場合だけ有効化 |
-| `collect_only` | 有効なら既存ジョブの取得だけを行い、新規送信しない |
 
 初回は `page_id=s3YCWHBfmYuM`、`limit=10`、他のチェックは無効で試せます。
 通常の同期APIは使わず、Google公式SDKの `batches.create/get` を使います。
@@ -77,7 +76,8 @@ APIキーは翻訳ステップにだけ渡し、ログではマスクします�
 
 **毎時23分の定期実行**で、処理中ジョブがある場合だけ完了を確認します。
 定期実行で新規翻訳や失敗単位の再送はしません。GitHubの混雑などで実行が遅れることはあります。
-早めに確認したい場合は `collect_only=true` で手動実行できます。
+早めに確認したい場合は **翻訳結果を回収 → Run workflow** を実行します。
+完了済みバッチの取得をやり直す場合だけ `recheck_completed` をオンにします。
 Batch APIは即時完了を前提としません。
 [公式の非同期処理の説明](https://ai.google.dev/gemini-api/docs/batch-api)
 
@@ -102,14 +102,15 @@ GitHubの仕様により、Actionsが作成したPRのCIに **Approve workflows 
 
 ジョブ台帳を専用ブランチへ保存するため、ランナーが変わっても、完了PRをまだマージしていなくても
 同じジョブと取得済み結果を再利用できます。原文をAPIへ二重送信しません。
-API呼び出し失敗後も台帳と翻訳JSONを **Artifacts → translation-memory-...** に30日間保存します。
+API呼び出し失敗後も、送信時の台帳は **Artifacts → translation-submission-...** に、
+回収時の台帳と翻訳JSONは **Artifacts → translation-memory-...** に30日間保存します。
 
 送信時の通信結果が不明なら、ジョブの重複を避けるため停止します。
 その場合の復旧手順は [ジョブ台帳の説明](i18n/batches/README.md) を参照してください。
 GitHubへの台帳保存に失敗した場合は、次の送信前に成果物から台帳を復旧してください。
 
-APIキー・PR作成権限などを修正後、まず `collect_only=true` で再開します。
-保存済みの検証失敗返答も通常の `collect_only=true`（`recheck_completed=false`）で
+APIキー・PR作成権限などを修正後、まず **翻訳結果を回収** で再開します。
+保存済みの検証失敗返答も通常の回収（`recheck_completed=false`）で
 部分ごとに再検証し、正常な訳文を再送せず回収します。
 不正な部分が残るとワークフローはエラーでも、正常部分のPRは作成します。
 個別に失敗した翻訳単位を再送する場合だけ、新規翻訳を手動実行してください。

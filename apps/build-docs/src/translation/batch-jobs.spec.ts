@@ -87,6 +87,44 @@ void test("Batch jobs survive restarts and collect reordered results", async () 
     } finally { await rm(root, { recursive: true, force: true }); }
 });
 
+void test("Submit-only defers result collection even when creation returns a completed job", async () => {
+    const root = await mkdtemp(join(tmpdir(), "trilium-submit-only-"));
+    try {
+        const pages = [ await page(root, "one") ];
+        let creates = 0;
+        let gets = 0;
+        let requests: BatchRequest[] = [];
+        const completedBatch = () => ({ name: "batches/job", state: JobState.JOB_STATE_SUCCEEDED,
+            dest: { inlinedResponses: requests.map((request) => ({ response: response(request) })) } });
+        const service: BatchService = {
+            async create(input) {
+                creates++;
+                requests = input;
+                return completedBatch();
+            },
+            async get() {
+                gets++;
+                return completedBatch();
+            }
+        };
+        const options = { directory: join(root, "jobs"), conditions, service,
+            submit: true, submitOnly: true, limit: 20, refresh: false };
+        assert.equal((await runBatchTranslation(pages, options)).pending, 1);
+        assert.equal((await runBatchTranslation(pages, options)).submitted, 0);
+        assert.equal(creates, 1);
+        assert.equal(gets, 0);
+        assert.equal(await loadMemory(pages[0].path), undefined);
+
+        const collected = await runBatchTranslation(pages, { ...options, submit: false, submitOnly: false });
+        assert.equal(collected.received, 1);
+        assert.equal(collected.pending, 0);
+        assert.equal(creates, 1);
+        assert.equal(gets, 1);
+        assert.equal((await loadMemory(pages[0].path))!.units.find((unit) => unit.kind === "p")!
+            .translation, "こんにちは one");
+    } finally { await rm(root, { recursive: true, force: true }); }
+});
+
 void test("uncertain batch creation is not retried on another invocation", async () => {
     const root = await mkdtemp(join(tmpdir(), "trilium-uncertain-"));
     try {

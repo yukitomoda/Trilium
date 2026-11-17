@@ -217,6 +217,7 @@ export async function runBatchTranslation(pages: TranslationPage[], options: {
     submit: boolean; limit: number; pageId?: string; refresh: boolean;
     checkpoint?: () => Promise<void>;
     recheckCompleted?: boolean;
+    submitOnly?: boolean;
 }) {
     if (options.recheckCompleted && options.submit) {
         throw new Error("Rechecking completed batches requires collect mode");
@@ -226,7 +227,7 @@ export async function runBatchTranslation(pages: TranslationPage[], options: {
     for (const job of jobs) {
         if (sameConditions(job.conditions, options.conditions)) {
             const recovered = recoverSavedResponses(job);
-            if (recovered) {
+            if (recovered && !options.submitOnly) {
                 console.log(`Recovered ${recovered} validated units from saved batch ${job.name}; no API call`);
                 await saveJob(options.directory, job);
                 observed.push(job);
@@ -238,7 +239,7 @@ export async function runBatchTranslation(pages: TranslationPage[], options: {
         }
         const recheck = options.recheckCompleted && job.phase === "complete"
             && job.requests.some((request) => !request.result || request.error);
-        if (([ "pending", "submitting", "uncertain" ].includes(job.phase) || recheck)
+        if (!options.submitOnly && ([ "pending", "submitting", "uncertain" ].includes(job.phase) || recheck)
             && job.name) {
             await receive(options.directory, job, await options.service.get(job.name));
             if (!observed.includes(job)) observed.push(job);
@@ -275,7 +276,7 @@ export async function runBatchTranslation(pages: TranslationPage[], options: {
         }
     }
     // Save collected results before another network operation can fail.
-    for (const page of pages) await saveMemory(page.path, page.memory);
+    if (!options.submitOnly) for (const page of pages) await saveMemory(page.path, page.memory);
     if (requests.length) {
         const job: SavedJob = { schemaVersion: 1, id: randomUUID(), phase: "submitting",
             createdAt: new Date().toISOString(), conditions: options.conditions, requests };
@@ -286,7 +287,13 @@ export async function runBatchTranslation(pages: TranslationPage[], options: {
             const remote = await options.service.create(requests, `trilium-ja-${job.id}`);
             if (!remote.name) throw new Error("Batch create returned no job name");
             job.name = remote.name;
-            await receive(options.directory, job, remote);
+            if (options.submitOnly) {
+                job.phase = "pending";
+                job.state = remote.state;
+                await saveJob(options.directory, job);
+            } else {
+                await receive(options.directory, job, remote);
+            }
             jobs.push(job);
             observed.push(job);
             await options.checkpoint?.();
@@ -299,8 +306,10 @@ export async function runBatchTranslation(pages: TranslationPage[], options: {
             await saveJob(options.directory, job);
             throw error;
         }
-        replayResults(pages, [ job ], options.conditions);
-        for (const page of pages) await saveMemory(page.path, page.memory);
+        if (!options.submitOnly) {
+            replayResults(pages, [ job ], options.conditions);
+            for (const page of pages) await saveMemory(page.path, page.memory);
+        }
     }
     return { observedJobs: observed.map((job) => job.id),
         submitted: requests.reduce((sum, request) => sum + request.units.length, 0),
