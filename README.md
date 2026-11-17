@@ -1,3 +1,12 @@
+# Trilium Notes ドキュメント 非公式日本語訳
+
+このリポジトリは、Trilium Notes のドキュメントをAIで日本語に翻訳するプロジェクトです。非公式の翻訳であり、誤訳を含む可能性があります。必要に応じて原文もご確認ください。
+
+- [日本語ドキュメント](https://yukitomoda.github.io/Trilium/user-guide/)
+- [公式ドキュメント（英語）](https://docs.triliumnotes.org/user-guide/)
+
+---
+
 # Trilium Notes
 
 ![GitHub Sponsors](https://img.shields.io/github/sponsors/eliandoran) ![LiberaPay patrons](https://img.shields.io/liberapay/patrons/ElianDoran)  
