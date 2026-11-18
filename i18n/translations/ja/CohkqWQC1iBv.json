@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "pageId": "CohkqWQC1iBv",
   "sourceFile": "docs/User Guide/User Guide/Note Types/Text/Insert buttons.md",
-  "sourceRevision": "f7a823d607395a1483ee75489a9e6ae1244625b6",
+  "sourceRevision": "5cc485c830ae66544ae6b2ee67ef07e7ec418c2d",
   "units": [
     {
       "id": "u_855e8a3c41c8eeb5a0161a41_0",
@@ -335,7 +335,7 @@
       "context": "Insert buttons > Extended code block",
       "contextHash": "826c5b89b01bd305105b4f4dda27fee093e4291bc4aa68329af0c01455b1bc8e",
       "status": "translated",
-      "active": true,
+      "active": false,
       "translation": "拡張コードブロック__TRILIUM_PH_0__",
       "conditions": {
         "model": "gemini-3.5-flash-lite",
@@ -352,7 +352,7 @@
       "context": "Insert buttons > Extended code block",
       "contextHash": "826c5b89b01bd305105b4f4dda27fee093e4291bc4aa68329af0c01455b1bc8e",
       "status": "translated",
-      "active": true,
+      "active": false,
       "translation": "コードノートとして編集されるコードブロックを挿入するには、 __TRILIUM_PH_0__ を選択します。この項目は実験的であり、有効にした場合にのみ表示されます。詳細は__TRILIUM_PH_1__拡張コードブロック__TRILIUM_PH_2__ の __TRILIUM_PH_3__拡張コードブロック__TRILIUM_PH_4__ を参照してください。 __TRILIUM_PH_5__コードブロック__TRILIUM_PH_6__",
       "conditions": {
         "model": "gemini-3.5-flash-lite",
@@ -1108,6 +1108,40 @@
         "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
       },
       "translatedAt": "2026-11-14T14:14:05.465Z"
+    },
+    {
+      "id": "u_71f0196f8610d9db8bd46980_0",
+      "kind": "h2",
+      "source": "Aside blocks__TRILIUM_PH_0__",
+      "sourceHash": "71f0196f8610d9db8bd46980c1938b97ed97e04945fb2af8339469dd2f86d3fc",
+      "context": "Insert buttons > Aside blocks",
+      "contextHash": "c548d335d9005b84e952ae757376308adb1d66dd2f52a9596432207a882089e4",
+      "status": "translated",
+      "active": true,
+      "translation": "アサイドブロック__TRILIUM_PH_0__",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-17T23:34:42.858Z"
+    },
+    {
+      "id": "u_abc297990bfee93e3e7ee13d_0",
+      "kind": "p",
+      "source": "See the dedicated __TRILIUM_PH_0__Aside blocks__TRILIUM_PH_1__ page.",
+      "sourceHash": "abc297990bfee93e3e7ee13d4af421dadcaf0e377fe3aea062c3143cdf6d39a9",
+      "context": "Insert buttons > Aside blocks",
+      "contextHash": "c548d335d9005b84e952ae757376308adb1d66dd2f52a9596432207a882089e4",
+      "status": "translated",
+      "active": true,
+      "translation": "専用の __TRILIUM_PH_0__アサイドブロック__TRILIUM_PH_1__ ページをご覧ください。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-17T23:34:42.858Z"
     }
   ],
   "requests": [
@@ -1206,6 +1240,25 @@
           {
             "modality": "TEXT",
             "tokenCount": 1832
+          }
+        ],
+        "serviceTier": "standard"
+      }
+    },
+    {
+      "at": "2026-11-17T23:34:42.858Z",
+      "model": "gemini-3.5-flash-lite",
+      "batchJob": "batches/qbghghxkzsqc94705b6usendac48wssngsx9",
+      "requestKey": "CohkqWQC1iBv_883b72e3f5882ede",
+      "modelVersion": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 523,
+        "candidatesTokenCount": 157,
+        "totalTokenCount": 680,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 523
           }
         ],
         "serviceTier": "standard"

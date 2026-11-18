@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "pageId": "GBBMSlVSOIGP",
   "sourceFile": "docs/User Guide/User Guide/AI.md",
-  "sourceRevision": "f7a823d607395a1483ee75489a9e6ae1244625b6",
+  "sourceRevision": "5cc485c830ae66544ae6b2ee67ef07e7ec418c2d",
   "units": [
     {
       "id": "u_05906e7b73ccdae8ec8fcefc_0",
@@ -2740,6 +2740,26 @@
         "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
       },
       "translatedAt": "2026-11-14T14:14:05.465Z"
+    },
+    {
+      "id": "u_b68a74f729d8e5a448dc1cf4_0",
+      "kind": "p",
+      "source": "If the models can't be retrieved, the list shows why (for example a refused connection or a wrong API key). To try again after fixing the cause (such as starting a local server), press __TRILIUM_PH_0__Retry__TRILIUM_PH_1__.",
+      "sourceHash": "b68a74f729d8e5a448dc1cf40c41894eabacefac2056416261548e7f5af56c61",
+      "context": "AI > Creating a new chat > Model selection",
+      "contextHash": "9a1f6176dd2c49c69d879201e51b36314e41132f29e762cd5e92198798d5af9d",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_e94af146923f6c7c20b90d7f_0",
+      "kind": "p",
+      "source": "After the connection details, adding a search provider runs a test search and shows its first results, or the reason it failed (for example a refused connection or a wrong API key). __TRILIUM_PH_0__Retry__TRILIUM_PH_1__ runs the test again; __TRILIUM_PH_2__Add anyway__TRILIUM_PH_3__ adds the provider despite the failure, which helps when its service isn't running yet. Editing a search provider runs the test again only when its API key or address changed.",
+      "sourceHash": "e94af146923f6c7c20b90d7ff2a016dae740018a25c7cae5979871072eb2a7e3",
+      "context": "AI > Features > Web search",
+      "contextHash": "40c22096c876311ad45ac4be012db374e96ca649f426eedd85875d1be92e5ba6",
+      "status": "pending",
+      "active": true
     }
   ],
   "requests": [

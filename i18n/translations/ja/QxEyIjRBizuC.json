@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "pageId": "QxEyIjRBizuC",
   "sourceFile": "docs/User Guide/User Guide/Note Types/Text/Developer-specific formatting/Code blocks.md",
-  "sourceRevision": "f7a823d607395a1483ee75489a9e6ae1244625b6",
+  "sourceRevision": "5cc485c830ae66544ae6b2ee67ef07e7ec418c2d",
   "units": [
     {
       "id": "u_f56aa1a04883d47c59850afe_0",
@@ -828,7 +828,7 @@
       "context": "Code blocks > Extended code blocks",
       "contextHash": "dce8f46fc7687c91b68f9675d110b06189af52a9029dcd1ffd89986c90841f74",
       "status": "translated",
-      "active": true,
+      "active": false,
       "translation": "挿入するには、__TRILIUM_PH_0____TRILIUM_PH_1__書式設定ツールバー__TRILIUM_PH_2__の __TRILIUM_PH_3__挿入__TRILIUM_PH_4__ メニューを開き、__TRILIUM_PH_5__カラム__TRILIUM_PH_6__ の後にある __TRILIUM_PH_7____TRILIUM_PH_8__拡張コードブロック__TRILIUM_PH_9__ を選択します。__TRILIUM_PH_10__スラッシュコマンド__TRILIUM_PH_11__ の __TRILIUM_PH_12__拡張コードブロック__TRILIUM_PH_13__ からも利用できます。",
       "conditions": {
         "model": "gemini-3.5-flash-lite",
@@ -845,7 +845,7 @@
       "context": "Code blocks > Extended code blocks",
       "contextHash": "dce8f46fc7687c91b68f9675d110b06189af52a9029dcd1ffd89986c90841f74",
       "status": "translated",
-      "active": true,
+      "active": false,
       "translation": "新しいブロックは空かつ編集可能で、__TRILIUM_PH_0__全体__TRILIUM_PH_1__ボックスに配置され、フォーカスが当たります。その言語は、拡張コードブロックで最後に設定されたもの、または __TRILIUM_PH_2__プレーンテキスト__TRILIUM_PH_3__ です。",
       "conditions": {
         "model": "gemini-3.5-flash-lite",
@@ -896,7 +896,7 @@
       "context": "Code blocks > Extended code blocks",
       "contextHash": "dce8f46fc7687c91b68f9675d110b06189af52a9029dcd1ffd89986c90841f74",
       "status": "translated",
-      "active": true,
+      "active": false,
       "translation": "そのツールバーには、__TRILIUM_PH_0__インクルードノート__TRILIUM_PH_1__ の __TRILIUM_PH_2__インプレースでのインクルードの編集__TRILIUM_PH_3__ で説明されている、埋め込みコードファイルの __TRILIUM_PH_4__言語モードを変更__TRILIUM_PH_5__ および __TRILIUM_PH_6__タブ幅を変更__TRILIUM_PH_7__ メニューと、コードのコードとしてのコードブロックをコピーする __TRILIUM_PH_8____TRILIUM_PH_9__クリップボードにコピー__TRILIUM_PH_10__ ボタンがあります。その __TRILIUM_PH_11____TRILIUM_PH_12__その他のアクション__TRILIUM_PH_13__ メニューには、チェックを外すとコードが読み取り専用で表示される __TRILIUM_PH_14__編集可能__TRILIUM_PH_15__、__TRILIUM_PH_16__ワードラップ__TRILIUM_PH_17__ および __TRILIUM_PH_18__行番号__TRILIUM_PH_19__ サブメニュー、__TRILIUM_PH_20__サイズ__TRILIUM_PH_21__ サブメニュー（__TRILIUM_PH_22__サイズ変更可能__TRILIUM_PH_23__、__TRILIUM_PH_24__全体__TRILIUM_PH_25__、__TRILIUM_PH_26__デフォルト__TRILIUM_PH_27__ を含む）、__TRILIUM_PH_28__位置__TRILIUM_PH_29__ サブメニュー、およびノートからブロックを削除する __TRILIUM_PH_30____TRILIUM_PH_31__ブロックを削除__TRILIUM_PH_32__ があります。",
       "conditions": {
         "model": "gemini-3.5-flash-lite",
@@ -947,7 +947,7 @@
       "context": "Code blocks > Extended code blocks",
       "contextHash": "dce8f46fc7687c91b68f9675d110b06189af52a9029dcd1ffd89986c90841f74",
       "status": "translated",
-      "active": true,
+      "active": false,
       "translation": "コードはその言語のコードブロックとしてノート内に保持されます。Markdown エクスポート、__TRILIUM_PH_0__共有ページ__TRILIUM_PH_1__、および印刷ではコードブロックとして表示され、別のアプリケーションにコピーするとコードブロックが貼り付けられます。テキストノートに貼り付けられると、設定を維持したまま再び拡張コードブロックになります。",
       "conditions": {
         "model": "gemini-3.5-flash-lite",
@@ -964,7 +964,7 @@
       "context": "Code blocks > Extended code blocks",
       "contextHash": "dce8f46fc7687c91b68f9675d110b06189af52a9029dcd1ffd89986c90841f74",
       "status": "translated",
-      "active": true,
+      "active": false,
       "translation": "__TRILIUM_PH_0__拡張コードブロック__TRILIUM_PH_1__ を再度オフにすると、__TRILIUM_PH_2__挿入__TRILIUM_PH_3__ メニューとスラッシュコマンドからのみ削除されます。ノート内にある既存の拡張コードブロックは機能し続けます。この機能を持たない Trilium のバージョンでは、これらはボックスのサイズやその他の設定なしで、コードブロックとして表示され、コードブロックとして保存されます。",
       "conditions": {
         "model": "gemini-3.5-flash-lite",
@@ -1006,6 +1006,125 @@
         "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
       },
       "translatedAt": "2026-11-14T16:50:34.717Z"
+    },
+    {
+      "id": "u_0fe3a78821b79ae7993dfa09_0",
+      "kind": "p",
+      "source": "While the feature is on, every code block of a text note is an extended code block: the ones already in the notes, and the new ones.",
+      "sourceHash": "0fe3a78821b79ae7993dfa09cb3cc29e3f66b92c28b59519878f3541d68c8dc4",
+      "context": "Code blocks > Extended code blocks",
+      "contextHash": "dce8f46fc7687c91b68f9675d110b06189af52a9029dcd1ffd89986c90841f74",
+      "status": "translated",
+      "active": true,
+      "translation": "この機能がオンの間は、テキストノートのすべてのコードブロックが拡張コードブロックになります（すでにノート内にあるものと、新しく追加されるものの両方です）。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-17T23:34:42.858Z"
+    },
+    {
+      "id": "u_7aecc0ae4e03a79c59ef6bab_0",
+      "kind": "li",
+      "source": "To insert one, insert a code block in any of the ways described in __TRILIUM_PH_0__Inserting a code block__TRILIUM_PH_1__.",
+      "sourceHash": "7aecc0ae4e03a79c59ef6bab638dc8737751751807eaf942550736d579cb5b2e",
+      "context": "Code blocks > Extended code blocks",
+      "contextHash": "dce8f46fc7687c91b68f9675d110b06189af52a9029dcd1ffd89986c90841f74",
+      "status": "translated",
+      "active": true,
+      "translation": "挿入するには、 __TRILIUM_PH_0__コードブロックの挿入__TRILIUM_PH_1__で説明されているいずれかの方法でコードブロックを挿入します。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-17T23:34:42.858Z"
+    },
+    {
+      "id": "u_30a1d072c4f6362d3c6f0e34_0",
+      "kind": "li",
+      "source": "A new block is editable, in a __TRILIUM_PH_0__Full__TRILIUM_PH_1__ box, and takes the focus. Its language is the one picked from the list of the __TRILIUM_PH_2__ button, otherwise the one set last on a code block, or __TRILIUM_PH_3__Plain text__TRILIUM_PH_4__.",
+      "sourceHash": "30a1d072c4f6362d3c6f0e346c68845138d78c3a6dfdf8f17e99c9fa3df37988",
+      "context": "Code blocks > Extended code blocks",
+      "contextHash": "dce8f46fc7687c91b68f9675d110b06189af52a9029dcd1ffd89986c90841f74",
+      "status": "translated",
+      "active": true,
+      "translation": "新しいブロックは編集可能であり、 __TRILIUM_PH_0__Full__TRILIUM_PH_1__ ボックス内に表示され、フォーカスが当たります。その言語は __TRILIUM_PH_2__ ボタンのリストから選択されたものになりますが、それが指定されていない場合はコードブロックに最後に設定された言語、または __TRILIUM_PH_3__プレーンテキスト__TRILIUM_PH_4__になります。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-17T23:34:42.858Z"
+    },
+    {
+      "id": "u_e231d55aac2a4fe551298b7a_0",
+      "kind": "li",
+      "source": "The list of languages has no __TRILIUM_PH_0__Auto-detected__TRILIUM_PH_1__ entry. A code block saved as __TRILIUM_PH_2__Auto-detected__TRILIUM_PH_3__ takes the language that Trilium detects in its code, or __TRILIUM_PH_4__Plain text__TRILIUM_PH_5__, once its note is opened for editing. The language can then be changed from the toolbar of the block.",
+      "sourceHash": "e231d55aac2a4fe551298b7a3880d1818d7df53761515862a2b3bd3e16aa5ca3",
+      "context": "Code blocks > Extended code blocks",
+      "contextHash": "dce8f46fc7687c91b68f9675d110b06189af52a9029dcd1ffd89986c90841f74",
+      "status": "translated",
+      "active": true,
+      "translation": "言語のリストには __TRILIUM_PH_0__自動検出__TRILIUM_PH_1__ 項目がありません。 __TRILIUM_PH_2__自動検出__TRILIUM_PH_3__ として保存されたコードブロックは、ノートの編集が開かれたときにTriliumがそのコード内で検出した言語、または __TRILIUM_PH_4__プレーンテキスト__TRILIUM_PH_5__になります。言語はその後、ブロックのツールバーから変更できます。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-17T23:34:42.858Z"
+    },
+    {
+      "id": "u_a56b87a2c30fdb966d8157af_0",
+      "kind": "li",
+      "source": "Its toolbar has the __TRILIUM_PH_0__Change language mode__TRILIUM_PH_1__ menu of an embedded code file, described in __TRILIUM_PH_2__Editing an include in place__TRILIUM_PH_3__ in __TRILIUM_PH_4__Include Note__TRILIUM_PH_5__, and the __TRILIUM_PH_6__ __TRILIUM_PH_7__Copy to clipboard__TRILIUM_PH_8__ button, which copies the code as the one of a code block does. Its __TRILIUM_PH_9__ __TRILIUM_PH_10__More actions__TRILIUM_PH_11__ menu has __TRILIUM_PH_12__Editable__TRILIUM_PH_13__, which shows the code read-only once unchecked, the __TRILIUM_PH_14__Word wrap__TRILIUM_PH_15__ and __TRILIUM_PH_16__Line numbers__TRILIUM_PH_17__ submenus, the __TRILIUM_PH_18__Tab width__TRILIUM_PH_19__ submenu, with the items of the __TRILIUM_PH_20__Change tab width__TRILIUM_PH_21__ menu of an embedded code file, the __TRILIUM_PH_22__Size__TRILIUM_PH_23__ submenu, with __TRILIUM_PH_24__Resizable__TRILIUM_PH_25__, __TRILIUM_PH_26__Full__TRILIUM_PH_27__ and __TRILIUM_PH_28__Default__TRILIUM_PH_29__, the __TRILIUM_PH_30__Position__TRILIUM_PH_31__ submenu, and __TRILIUM_PH_32__ __TRILIUM_PH_33__Delete block__TRILIUM_PH_34__, which removes the block from the note.",
+      "sourceHash": "a56b87a2c30fdb966d8157af626ad1db28787fa4ee91deff6d939b7a7c60a039",
+      "context": "Code blocks > Extended code blocks",
+      "contextHash": "dce8f46fc7687c91b68f9675d110b06189af52a9029dcd1ffd89986c90841f74",
+      "status": "translated",
+      "active": true,
+      "translation": "そのツールバーには、 __TRILIUM_PH_0__Include Note__TRILIUM_PH_1__ の __TRILIUM_PH_2__インプレースでのインクルードの編集__TRILIUM_PH_3__ で説明されている、埋め込みコードファイルの __TRILIUM_PH_4__Change language mode__TRILIUM_PH_5__メニューと、通常のコードブロックと同様にコードをコピーする __TRILIUM_PH_6__ __TRILIUM_PH_7__クリップボードにコピー__TRILIUM_PH_8__ ボタンがあります。その __TRILIUM_PH_9__ __TRILIUM_PH_10__詳細な操作__TRILIUM_PH_11__ メニューには、チェックを外すとコードが読み取り専用で表示される __TRILIUM_PH_12__編集可能__TRILIUM_PH_13__、 __TRILIUM_PH_14__テキストの折り返し__TRILIUM_PH_15__ および __TRILIUM_PH_16__行番号__TRILIUM_PH_17__ サブメニュー、埋め込みコードファイルの __TRILIUM_PH_18__タブ幅の変更__TRILIUM_PH_19__ メニュー項目を持つ __TRILIUM_PH_20__タブ幅__TRILIUM_PH_21__ サブメニュー、 __TRILIUM_PH_22__サイズ__TRILIUM_PH_23__ サブメニュー（ __TRILIUM_PH_24__サイズ変更可能__TRILIUM_PH_25__、 __TRILIUM_PH_26__フル__TRILIUM_PH_27__ 、 __TRILIUM_PH_28__デフォルト__TRILIUM_PH_29__）、 __TRILIUM_PH_30__位置__TRILIUM_PH_31__ サブメニュー、およびノートからブロックを削除する __TRILIUM_PH_32__ __TRILIUM_PH_33__ブロックの削除__TRILIUM_PH_34__があります。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-17T23:34:42.858Z"
+    },
+    {
+      "id": "u_01728eda3dc973c46dbe9058_0",
+      "kind": "p",
+      "source": "The code stays in the note as a code block of its language. The Markdown export, __TRILIUM_PH_0__shared pages__TRILIUM_PH_1__ and printing show it as a code block, and copying it into another application pastes a code block.",
+      "sourceHash": "01728eda3dc973c46dbe9058392321b7328b486015598ae6e3d51d9184ffc080",
+      "context": "Code blocks > Extended code blocks",
+      "contextHash": "dce8f46fc7687c91b68f9675d110b06189af52a9029dcd1ffd89986c90841f74",
+      "status": "translated",
+      "active": true,
+      "translation": "コードは、その言語のコードブロックとしてノート内に留まります。Markdownエクスポート、 __TRILIUM_PH_0__共有ページ__TRILIUM_PH_1__ 、および印刷ではコードブロックとして表示され、別のアプリケーションにコピーするとコードブロックとして貼り付けられます。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-17T23:34:42.858Z"
+    },
+    {
+      "id": "u_00b55ebb34039d05094f37a0_0",
+      "kind": "p",
+      "source": "Turning __TRILIUM_PH_0__Extended code blocks__TRILIUM_PH_1__ off again shows the code blocks as before, as does a version of Trilium without this feature. Saving a note there drops the box size and the other settings of its blocks. An extended code block inserted from the __TRILIUM_PH_2__Insert__TRILIUM_PH_3__ menu of Trilium 0.107 stays one while the feature is off.",
+      "sourceHash": "00b55ebb34039d05094f37a06d59cd22c2beb54dd07d0eb0a441b8d550b81440",
+      "context": "Code blocks > Extended code blocks",
+      "contextHash": "dce8f46fc7687c91b68f9675d110b06189af52a9029dcd1ffd89986c90841f74",
+      "status": "translated",
+      "active": true,
+      "translation": "拡張コードブロック __TRILIUM_PH_0__を再度オフにすると、この機能がないTriliumのバージョンと同様に、コードブロックが以前のように表示されます。そこでノートを保存すると、ブロックのボックスサイズやその他の設定は失われます。Trilium 0.107の__TRILIUM_PH_1__ 挿入 __TRILIUM_PH_2__メニューから挿入された拡張コードブロックは、機能がオフの間もその状態が維持されます。__TRILIUM_PH_3__ ",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-17T23:34:42.858Z"
     }
   ],
   "requests": [
@@ -1098,6 +1217,25 @@
           {
             "modality": "TEXT",
             "tokenCount": 457
+          }
+        ],
+        "serviceTier": "standard"
+      }
+    },
+    {
+      "at": "2026-11-17T23:34:42.858Z",
+      "model": "gemini-3.5-flash-lite",
+      "batchJob": "batches/qbghghxkzsqc94705b6usendac48wssngsx9",
+      "requestKey": "QxEyIjRBizuC_94759862b1a99b62",
+      "modelVersion": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 1737,
+        "candidatesTokenCount": 1196,
+        "totalTokenCount": 2933,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 1737
           }
         ],
         "serviceTier": "standard"

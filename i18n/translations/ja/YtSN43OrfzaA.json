@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "pageId": "YtSN43OrfzaA",
   "sourceFile": "docs/User Guide/User Guide/Basic Concepts and Features/UI Elements/Note Tree/Note tree contextual menu.md",
-  "sourceRevision": "f7a823d607395a1483ee75489a9e6ae1244625b6",
+  "sourceRevision": "5cc485c830ae66544ae6b2ee67ef07e7ec418c2d",
   "units": [
     {
       "id": "u_f4eb8e971d59744792489bbc_0",
@@ -1083,7 +1083,7 @@
       "context": "Note tree contextual menu > Available options",
       "contextHash": "38607f375dc08f35f33c887fc784926de63909b7edd1abbb727dad4374058e61",
       "status": "translated",
-      "active": true,
+      "active": false,
       "translation": "保護されていないノートに対して__TRILIUM_PH_0__サブツリーを保護__TRILIUM_PH_1__を実行すると、このノートとそのすべての子孫が保護対象としてマークされます。保護されたノートでは、項目が__TRILIUM_PH_2__サブツリーの保護を解除__TRILIUM_PH_3__になり、代わりに保護が解除されます。詳細については、__TRILIUM_PH_4__保護されたノート__TRILIUM_PH_5__を参照してください。",
       "conditions": {
         "model": "gemini-3.5-flash-lite",
@@ -1635,6 +1635,23 @@
         "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
       },
       "translatedAt": "2026-11-14T16:50:34.717Z"
+    },
+    {
+      "id": "u_cb215628e3a8e3bc25879f2b_0",
+      "kind": "li",
+      "source": "On a note that is not protected, __TRILIUM_PH_0__Protect subtree__TRILIUM_PH_1__ marks this note and all of its descendants as protected. On a protected note, the item reads __TRILIUM_PH_2__Unprotect subtree__TRILIUM_PH_3__ and unprotects them instead, after asking for confirmation. Either action asks for the password if no protected session is running. See __TRILIUM_PH_4__Protected Notes__TRILIUM_PH_5__ for more information.",
+      "sourceHash": "cb215628e3a8e3bc25879f2b2d8fc5947fb60c9ca735bef36e1d7a52258f467a",
+      "context": "Note tree contextual menu > Available options",
+      "contextHash": "38607f375dc08f35f33c887fc784926de63909b7edd1abbb727dad4374058e61",
+      "status": "translated",
+      "active": true,
+      "translation": "保護されていないノートでは、 __TRILIUM_PH_0__サブツリーを保護__TRILIUM_PH_1__ を選択すると、このノートとそのすべての配下のノートが保護されます。保護されているノートでは、項目が __TRILIUM_PH_2__サブツリーの保護を解除__TRILIUM_PH_3__ に変わり、確認を求めた上で保護を解除します。どちらの操作も、保護セッションが実行されていない場合はパスワードの入力を求めます。詳細は __TRILIUM_PH_4__保護されたノート__TRILIUM_PH_5__ を参照してください。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-17T23:34:42.858Z"
     }
   ],
   "requests": [
@@ -1784,6 +1801,25 @@
           {
             "modality": "TEXT",
             "tokenCount": 483
+          }
+        ],
+        "serviceTier": "standard"
+      }
+    },
+    {
+      "at": "2026-11-17T23:34:42.858Z",
+      "model": "gemini-3.5-flash-lite",
+      "batchJob": "batches/qbghghxkzsqc94705b6usendac48wssngsx9",
+      "requestKey": "YtSN43OrfzaA_d7141c5f6b36c48a",
+      "modelVersion": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 606,
+        "candidatesTokenCount": 215,
+        "totalTokenCount": 821,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 606
           }
         ],
         "serviceTier": "standard"

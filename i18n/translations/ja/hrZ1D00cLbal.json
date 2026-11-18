@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "pageId": "hrZ1D00cLbal",
   "sourceFile": "docs/User Guide/User Guide/Note Types/Text/Links/Internal (reference) links.md",
-  "sourceRevision": "f7a823d607395a1483ee75489a9e6ae1244625b6",
+  "sourceRevision": "5cc485c830ae66544ae6b2ee67ef07e7ec418c2d",
   "units": [
     {
       "id": "u_8448ad1d03b4b9fe51d7c7a6_0",
@@ -233,7 +233,7 @@
       "context": "Internal (reference) links > Inserting internal links",
       "contextHash": "634afc60784ce8c31c34b11456c634312244957564e87e23a38fcdba32330ec0",
       "status": "translated",
-      "active": true,
+      "active": false,
       "translation": "Ctrl __TRILIUM_PH_0____TRILIUM_PH_1__ + __TRILIUM_PH_2__L__TRILIUM_PH_3__ を押すか、 __TRILIUM_PH_4__  __TRILIUM_PH_5__ の __TRILIUM_PH_6__書式設定ツールバー__TRILIUM_PH_7__にあるボタンをクリックするか、スラッシュコマンドで __TRILIUM_PH_8__ノートへのリンク（内部リンク）__TRILIUM_PH_9__  __TRILIUM_PH_10__を選択します__TRILIUM_PH_11__。デスクトップ版では、カーソルの横のポップアップに __TRILIUM_PH_12__リンクの追加__TRILIUM_PH_13__ ダイアログが開きます。",
       "conditions": {
         "model": "gemini-3.5-flash-lite",
@@ -386,7 +386,7 @@
       "context": "Internal (reference) links > Inserting internal links",
       "contextHash": "634afc60784ce8c31c34b11456c634312244957564e87e23a38fcdba32330ec0",
       "status": "translated",
-      "active": true,
+      "active": false,
       "translation": "v0.107.0以降では、リンクを変更するには、リンクをクリックしてポップアップ内の __TRILIUM_PH_0__ __TRILIUM_PH_1__Edit link__TRILIUM_PH_2__ ボタンを押します。独自のタイトルを持つリンクの場合、カーソルをその中に置いて __TRILIUM_PH_3__Ctrl__TRILIUM_PH_4__ + __TRILIUM_PH_5__L__TRILIUM_PH_6__ または __TRILIUM_PH_7__ ボタンを押しても機能します。__TRILIUM_PH_8__Edit link__TRILIUM_PH_9__ ダイアログがリンクされたノート上で開き、そのアンカーと、独自のタイトルを持つリンクの場合はリンクのテキストが表示されます。__TRILIUM_PH_10__Save link__TRILIUM_PH_11__ でリンク全体が変更されます。そこの __TRILIUM_PH_12__Link title__TRILIUM_PH_13__ を空にすると、ノートのタイトルを表示するリンクになり、何かを入力すると独自のタイトルが設定されます。添付ファイルへのリンクの場合、ダイアログには __TRILIUM_PH_14__Link title__TRILIUM_PH_15__ のみが表示され、空にすると添付ファイルのタイトルが表示されるようになります。",
       "conditions": {
         "model": "gemini-3.5-flash-lite",
@@ -437,7 +437,7 @@
       "context": "Internal (reference) links > In-place linking",
       "contextHash": "d5d8f35c7caca88eb039d810ddb709a57b01da6d469a3341b190d50dd6c1214e",
       "status": "translated",
-      "active": true,
+      "active": false,
       "translation": "テキストノート内で __TRILIUM_PH_0__ と入力すると、ノート検索メニューが開きます。",
       "conditions": {
         "model": "gemini-3.5-flash-lite",
@@ -454,7 +454,7 @@
       "context": "Internal (reference) links > In-place linking",
       "contextHash": "d5d8f35c7caca88eb039d810ddb709a57b01da6d469a3341b190d50dd6c1214e",
       "status": "translated",
-      "active": true,
+      "active": false,
       "translation": "数文字入力して、目的のノートのタイトルを検索します。__TRILIUM_PH_0__Up__TRILIUM_PH_1__ および __TRILIUM_PH_2__Down__TRILIUM_PH_3__ を使用して正しいノートを選択し、__TRILIUM_PH_4__Enter__TRILIUM_PH_5__ または __TRILIUM_PH_6__Tab__TRILIUM_PH_7__ を押してリンクを作成します。また、上記のように存在しないノートのタイトルを入力して __TRILIUM_PH_8__Create note__TRILIUM_PH_9__ を選択するか、__TRILIUM_PH_10__Create child note__TRILIUM_PH_11__ を選択することで、この方法で新しいノートを作成することも可能です。__TRILIUM_PH_12__Create child note__TRILIUM_PH_13__ は、タイプを尋ねることなく編集中のノートの下にノートを作成し、リンクを挿入して、空の状態の間にノートタイプを変更できる __TRILIUM_PH_14__Quick edit__TRILIUM_PH_15__ で新しいノートを開きます。",
       "conditions": {
         "model": "gemini-3.5-flash-lite",
@@ -547,6 +547,159 @@
         "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
       },
       "translatedAt": "2026-11-14T16:50:34.717Z"
+    },
+    {
+      "id": "u_1bc8f646e0e375b56152a2f4_0",
+      "kind": "li",
+      "source": "Pressing __TRILIUM_PH_0__Ctrl__TRILIUM_PH_1__ + __TRILIUM_PH_2__L__TRILIUM_PH_3__, or by choosing __TRILIUM_PH_4__Link to a note (internal link)__TRILIUM_PH_5__ in the __TRILIUM_PH_6__Slash Commands__TRILIUM_PH_7__. The __TRILIUM_PH_8__ button in the __TRILIUM_PH_9__Formatting toolbar__TRILIUM_PH_10__ opens the same dialog on __TRILIUM_PH_11__Web page__TRILIUM_PH_12__; select __TRILIUM_PH_13__Note__TRILIUM_PH_14__ at its top to link to a note. On desktop, the __TRILIUM_PH_15__Add link__TRILIUM_PH_16__ dialog opens in a popup next to the cursor.",
+      "sourceHash": "1bc8f646e0e375b56152a2f481d350af93d1e57d53fe5bf5105baff156bc3134",
+      "context": "Internal (reference) links > Inserting internal links",
+      "contextHash": "634afc60784ce8c31c34b11456c634312244957564e87e23a38fcdba32330ec0",
+      "status": "translated",
+      "active": true,
+      "translation": "Ctrl __TRILIUM_PH_0____TRILIUM_PH_1__ + __TRILIUM_PH_2____TRILIUM_PH_3__を押すか、スラッシュコマンド（ __TRILIUM_PH_4__Link to a note (internal link)__TRILIUM_PH_5__ ）から選択します。ウェブページの __TRILIUM_PH_6____TRILIUM_PH_7__。 __TRILIUM_PH_8__ ボタン __TRILIUM_PH_9__Formatting toolbar__TRILIUM_PH_10__ でも同じダイアログが開きます。ノートにリンクするには、その上部で __TRILIUM_PH_11__Note__TRILIUM_PH_12__を選択します。デスクトップ版では、カーソルの隣のポップアップで __TRILIUM_PH_13__Add link__TRILIUM_PH_14__  __TRILIUM_PH_15____TRILIUM_PH_16__ ダイアログが開きます。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-17T23:34:42.858Z"
+    },
+    {
+      "id": "u_bfee3601714f1a8fe36e2729_0",
+      "kind": "p",
+      "source": "Since v0.107.0, to change a link, click it and press the __TRILIUM_PH_0__ __TRILIUM_PH_1__Edit link__TRILIUM_PH_2__ button in its popup. For a link with a title of its own, placing the cursor inside it and pressing __TRILIUM_PH_3__Ctrl__TRILIUM_PH_4__ + __TRILIUM_PH_5__L__TRILIUM_PH_6__ works too. The __TRILIUM_PH_7__Edit link__TRILIUM_PH_8__ dialog opens on the linked note, with its anchor and, for a link with a title of its own, the link's text; __TRILIUM_PH_9__Save link__TRILIUM_PH_10__ changes the whole link. Emptying the __TRILIUM_PH_11__Link title__TRILIUM_PH_12__ there turns the link into one that displays the title of the note, and typing one gives it a title of its own. For a link to an attachment, the dialog shows only the __TRILIUM_PH_13__Link title__TRILIUM_PH_14__, and emptying it makes the link display the title of the attachment.",
+      "sourceHash": "bfee3601714f1a8fe36e272944942e255386ee8fb6934b86cd66464de69458bc",
+      "context": "Internal (reference) links > Inserting internal links",
+      "contextHash": "634afc60784ce8c31c34b11456c634312244957564e87e23a38fcdba32330ec0",
+      "status": "translated",
+      "active": true,
+      "translation": "v0.107.0以降、リンクを変更するには、リンクをクリックしてポップアップ内の __TRILIUM_PH_0__ __TRILIUM_PH_1__Edit link__TRILIUM_PH_2__ ボタンを押します。独自のタイトルを持つリンクの場合は、その中にカーソルを置いて __TRILIUM_PH_3__Ctrl__TRILIUM_PH_4__ + __TRILIUM_PH_5__L__TRILIUM_PH_6__ を押すことでも可能です。 __TRILIUM_PH_7__Edit link__TRILIUM_PH_8__ ダイアログがリンク先のノートで開き、アンカーや、独自のタイトルを持つリンクの場合はそのテキストが表示されます。 __TRILIUM_PH_9__Save link__TRILIUM_PH_10__ によりリンク全体が変更されます。そこの __TRILIUM_PH_11__Link title__TRILIUM_PH_12__ を空にすると、リンクはノートのタイトルを表示するものになり、入力すると独自のタイトルが設定されます。添付ファイルへのリンクの場合、ダイアログには __TRILIUM_PH_13__Link title__TRILIUM_PH_14__のみが表示され、それを空にすると添付ファイルのタイトルが表示されるようになります。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-17T23:34:42.858Z"
+    },
+    {
+      "id": "u_02692fc8ad37c8cf7c5b32c1_0",
+      "kind": "p",
+      "source": "Type __TRILIUM_PH_0__ in a text note, which will open the note search menu.",
+      "sourceHash": "02692fc8ad37c8cf7c5b32c1a810336b0df9bf8e237a7b0822ab9fd6b1116c29",
+      "context": "Internal (reference) links > In-place linking",
+      "contextHash": "d5d8f35c7caca88eb039d810ddb709a57b01da6d469a3341b190d50dd6c1214e",
+      "status": "translated",
+      "active": true,
+      "translation": "テキストノートで __TRILIUM_PH_0__ と入力すると、ノート検索メニューが開きます。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-17T23:34:42.858Z"
+    },
+    {
+      "id": "u_af714ca8f5055c474a95773d_0",
+      "kind": "p",
+      "source": "Search for the desired note's title by typing a few characters. Use __TRILIUM_PH_0__Up__TRILIUM_PH_1__ and __TRILIUM_PH_2__Down__TRILIUM_PH_3__ to select the correct note, and press __TRILIUM_PH_4__Enter__TRILIUM_PH_5__ or __TRILIUM_PH_6__Tab__TRILIUM_PH_7__ to pick it. It's also possible to create new notes with this method by typing a non-existing note title and selecting __TRILIUM_PH_8__Create note__TRILIUM_PH_9__, as described above, or __TRILIUM_PH_10__Create child note__TRILIUM_PH_11__. __TRILIUM_PH_12__Create child note__TRILIUM_PH_13__ creates the note under the note being edited without asking for its type, inserts the link and opens the new note in __TRILIUM_PH_14__Quick edit__TRILIUM_PH_15__, which offers the note types to turn it into while it is still empty.",
+      "sourceHash": "af714ca8f5055c474a95773d54e5da3b2a36883337fc3263aa8313c01de2bc5a",
+      "context": "Internal (reference) links > In-place linking",
+      "contextHash": "d5d8f35c7caca88eb039d810ddb709a57b01da6d469a3341b190d50dd6c1214e",
+      "status": "translated",
+      "active": true,
+      "translation": "数文字入力して、目的のノートのタイトルを検索します。 __TRILIUM_PH_0__Up__TRILIUM_PH_1__ および __TRILIUM_PH_2__Down__TRILIUM_PH_3__ を使用して正しいノートを選択し、 __TRILIUM_PH_4__Enter__TRILIUM_PH_5__ または __TRILIUM_PH_6__Tab__TRILIUM_PH_7__ を押して決定します。上記のように存在しないノートのタイトルを入力して __TRILIUM_PH_8__Create note__TRILIUM_PH_9__を選択するか、または __TRILIUM_PH_10__Create child note__TRILIUM_PH_11__を選択することで、この方法で新しいノートを作成することもできます。 __TRILIUM_PH_12__Create child note__TRILIUM_PH_13__ は、タイプを尋ねることなく編集中のノートの下にノートを作成し、リンクを挿入して、空のままでノートの種類を変更できる __TRILIUM_PH_14__Quick edit__TRILIUM_PH_15__で新しいノートを開きます。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-17T23:34:42.858Z"
+    },
+    {
+      "id": "u_a2dd91fe92fa53d37b34d5e4_0",
+      "kind": "p",
+      "source": "Since v0.108.0, the note is linked as soon as it is picked. A ¶ then follows the link, and the menu lists where in the note the link can point: __TRILIUM_PH_0__Link to the whole note__TRILIUM_PH_1__, its headings and its anchors.",
+      "sourceHash": "a2dd91fe92fa53d37b34d5e423588b71bec1947f81ecd4872eed32255cd8519c",
+      "context": "Internal (reference) links > In-place linking",
+      "contextHash": "d5d8f35c7caca88eb039d810ddb709a57b01da6d469a3341b190d50dd6c1214e",
+      "status": "translated",
+      "active": true,
+      "translation": "v0.108.0以降、ノートを選択するとすぐにリンクされます。その後、リンクの後に ¶ が続き、ノート内のどこにリンクを指すことができるかがメニューに表示されます。 __TRILIUM_PH_0__Link to the whole note__TRILIUM_PH_1__、その見出し、およびアンカーです。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-17T23:34:42.858Z"
+    },
+    {
+      "id": "u_c2c0fc5964242cc68a8f4b05_0",
+      "kind": "li",
+      "source": "To point the link at a heading or an anchor, type part of its name after the ¶ and press __TRILIUM_PH_0__Enter__TRILIUM_PH_1__ or __TRILIUM_PH_2__Tab__TRILIUM_PH_3__, which takes the first match. __TRILIUM_PH_4__Up__TRILIUM_PH_5__ and __TRILIUM_PH_6__Down__TRILIUM_PH_7__ select another entry.",
+      "sourceHash": "c2c0fc5964242cc68a8f4b0509bf9b6459d16bce8ba0b53321c6ab3897ead080",
+      "context": "Internal (reference) links > In-place linking",
+      "contextHash": "d5d8f35c7caca88eb039d810ddb709a57b01da6d469a3341b190d50dd6c1214e",
+      "status": "translated",
+      "active": true,
+      "translation": "リンクを見出しまたはアンカーに向けるには、¶ の後ろに名前の一部を入力し、最初の候補を採用する __TRILIUM_PH_0__Enter__TRILIUM_PH_1__ または __TRILIUM_PH_2__Tab__TRILIUM_PH_3__を押します。 __TRILIUM_PH_4__Up__TRILIUM_PH_5__ および __TRILIUM_PH_6__Down__TRILIUM_PH_7__ で別の項目を選択します。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-17T23:34:42.858Z"
+    },
+    {
+      "id": "u_db9db3c3f688c1ca37b9a5c2_0",
+      "kind": "li",
+      "source": "To keep the link to the whole note, press __TRILIUM_PH_0__Enter__TRILIUM_PH_1__ on __TRILIUM_PH_2__Link to the whole note__TRILIUM_PH_3__, or press __TRILIUM_PH_4__Esc__TRILIUM_PH_5__. Pressing __TRILIUM_PH_6__Backspace__TRILIUM_PH_7__ or typing a space right after the ¶ does the same, to go on writing.",
+      "sourceHash": "db9db3c3f688c1ca37b9a5c24d1d5c636f778d0efc4a0fed803f19c5e8869941",
+      "context": "Internal (reference) links > In-place linking",
+      "contextHash": "d5d8f35c7caca88eb039d810ddb709a57b01da6d469a3341b190d50dd6c1214e",
+      "status": "translated",
+      "active": true,
+      "translation": "ノート全体へのリンクを維持するには、 __TRILIUM_PH_0__Link to the whole note__TRILIUM_PH_1__ 上で __TRILIUM_PH_2__Enter__TRILIUM_PH_3__を押すか、 __TRILIUM_PH_4__Esc__TRILIUM_PH_5__を押します。¶ の直後に __TRILIUM_PH_6__Backspace__TRILIUM_PH_7__ を押すかスペースを入力しても同様に、書き込みを続けることができます。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-17T23:34:42.858Z"
+    },
+    {
+      "id": "u_7f33e4fcc75d63c65928b1a6_0",
+      "kind": "li",
+      "source": "The ¶ is not part of the note: it disappears with the menu. Text typed after it stays in the note, unless a heading or an anchor is picked.",
+      "sourceHash": "7f33e4fcc75d63c65928b1a66d9bf3f4e5528f9954aa958bf62e5cc198476161",
+      "context": "Internal (reference) links > In-place linking",
+      "contextHash": "d5d8f35c7caca88eb039d810ddb709a57b01da6d469a3341b190d50dd6c1214e",
+      "status": "translated",
+      "active": true,
+      "translation": "¶ はノートの一部ではなく、メニューと一緒に消えます。見出しやアンカーが選択されない限り、その後にに入力されたテキストはノートに残ります。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-17T23:34:42.858Z"
+    },
+    {
+      "id": "u_1712fabef22ddc94dca34f0e_0",
+      "kind": "p",
+      "source": "A note created from the menu is linked without this step. To skip it for every note, turn off __TRILIUM_PH_0__Suggest headings and anchors to link to__TRILIUM_PH_1__ under __TRILIUM_PH_2__Note auto-completion__TRILIUM_PH_3__ in __TRILIUM_PH_4__Options__TRILIUM_PH_5__ → __TRILIUM_PH_6__Text Notes__TRILIUM_PH_7__ → __TRILIUM_PH_8__Features__TRILIUM_PH_9__. See __TRILIUM_PH_10__Linking to a heading__TRILIUM_PH_11__ and __TRILIUM_PH_12__Anchors__TRILIUM_PH_13__.",
+      "sourceHash": "1712fabef22ddc94dca34f0e4b73c85a82103d1308b6844ff6260903ee8cfcc3",
+      "context": "Internal (reference) links > In-place linking",
+      "contextHash": "d5d8f35c7caca88eb039d810ddb709a57b01da6d469a3341b190d50dd6c1214e",
+      "status": "translated",
+      "active": true,
+      "translation": "メニューから作成されたノートは、この手順なしでリンクされます。すべてのノートでこれをスキップするには、 __TRILIUM_PH_0__Options__TRILIUM_PH_1__ → __TRILIUM_PH_2__Text Notes__TRILIUM_PH_3__ → __TRILIUM_PH_4__Features__TRILIUM_PH_5__ の __TRILIUM_PH_6__Note auto-completion__TRILIUM_PH_7__ にある __TRILIUM_PH_8__Suggest headings and anchors to link to__TRILIUM_PH_9__をオフにします。 __TRILIUM_PH_10__Linking to a heading__TRILIUM_PH_11__ および __TRILIUM_PH_12__Anchors__TRILIUM_PH_13__を参照してください。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-17T23:34:42.858Z"
     }
   ],
   "requests": [
@@ -588,6 +741,25 @@
           {
             "modality": "TEXT",
             "tokenCount": 735
+          }
+        ],
+        "serviceTier": "standard"
+      }
+    },
+    {
+      "at": "2026-11-17T23:34:42.858Z",
+      "model": "gemini-3.5-flash-lite",
+      "batchJob": "batches/qbghghxkzsqc94705b6usendac48wssngsx9",
+      "requestKey": "hrZ1D00cLbal_d8a152afd184ff42",
+      "modelVersion": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 2352,
+        "candidatesTokenCount": 1640,
+        "totalTokenCount": 3992,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 2352
           }
         ],
         "serviceTier": "standard"

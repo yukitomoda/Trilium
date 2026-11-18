@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "pageId": "A9Oc6YKKc65v",
   "sourceFile": "docs/User Guide/User Guide/Basic Concepts and Features/Keyboard Shortcuts.md",
-  "sourceRevision": "f7a823d607395a1483ee75489a9e6ae1244625b6",
+  "sourceRevision": "5cc485c830ae66544ae6b2ee67ef07e7ec418c2d",
   "units": [
     {
       "id": "u_6646b0ec3d6c0892f5648d15_0",
@@ -1083,7 +1083,7 @@
       "context": "Keyboard Shortcuts > Shortcut reference > Other",
       "contextHash": "1dad8037f62b65c66ec4c19517eb25e7bd03695759089c92ade4dba4f53e31b1",
       "status": "translated",
-      "active": true,
+      "active": false,
       "translation": "__TRILIUM_PH_0__Alt__TRILIUM_PH_1__+__TRILIUM_PH_2__M__TRILIUM_PH_3__ – 集中モード - ノートエディタのみを表示し、その他の要素をすべて非表示にします",
       "conditions": {
         "model": "gemini-3.5-flash-lite",
@@ -1142,6 +1142,23 @@
         "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
       },
       "translatedAt": "2026-11-14T14:14:05.465Z"
+    },
+    {
+      "id": "u_773445598dcfead84b343c63_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__F9__TRILIUM_PH_1__ – __TRILIUM_PH_2__Zen mode__TRILIUM_PH_3__ - display only note editor, everything else is hidden",
+      "sourceHash": "773445598dcfead84b343c633634b1b9602c41688f50e4c04ab0037c87a9c369",
+      "context": "Keyboard Shortcuts > Shortcut reference > Other",
+      "contextHash": "1dad8037f62b65c66ec4c19517eb25e7bd03695759089c92ade4dba4f53e31b1",
+      "status": "translated",
+      "active": true,
+      "translation": "__TRILIUM_PH_0__F9__TRILIUM_PH_1__ – __TRILIUM_PH_2__禅モード__TRILIUM_PH_3__ – ノートエディタのみを表示し、他の要素はすべて非表示にします",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-17T23:34:42.858Z"
     }
   ],
   "requests": [
@@ -1247,6 +1264,25 @@
           {
             "modality": "TEXT",
             "tokenCount": 591
+          }
+        ],
+        "serviceTier": "standard"
+      }
+    },
+    {
+      "at": "2026-11-17T23:34:42.858Z",
+      "model": "gemini-3.5-flash-lite",
+      "batchJob": "batches/qbghghxkzsqc94705b6usendac48wssngsx9",
+      "requestKey": "A9Oc6YKKc65v_2886a27f7c511e7d",
+      "modelVersion": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 497,
+        "candidatesTokenCount": 141,
+        "totalTokenCount": 638,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 497
           }
         ],
         "serviceTier": "standard"

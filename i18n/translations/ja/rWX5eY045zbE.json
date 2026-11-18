@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "pageId": "rWX5eY045zbE",
   "sourceFile": "docs/User Guide/User Guide/Installation & Setup/Server Installation/1. Installing the server/Using Docker.md",
-  "sourceRevision": "f7a823d607395a1483ee75489a9e6ae1244625b6",
+  "sourceRevision": "5cc485c830ae66544ae6b2ee67ef07e7ec418c2d",
   "units": [
     {
       "id": "u_9c25e25a1d08f692f9f6fe12_0",
@@ -675,7 +675,7 @@
       "context": "Using Docker > Reverse Proxy > Note on timezones",
       "contextHash": "3421809bd893570d46863b280a03515b63e3bcece00e384c80b6f4d8dc97f631",
       "status": "translated",
-      "active": true,
+      "active": false,
       "translation": "タイムゾーンに関する問題が発生しており、docker-composeを使用していない場合は、 __TRILIUM_PH_0__ ローカルタイムゾーンの __TRILIUM_PH_1__TZ識別子を指定した__TRILIUM_PH_2__ 環境変数を追加する必要がある場合があります。",
       "conditions": {
         "model": "gemini-3.5-flash-lite",
@@ -904,6 +904,23 @@
         "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
       },
       "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_3e5a441f7ca2ec5d0f48727e_0",
+      "kind": "p",
+      "source": "By default, the container runs in UTC. The provided __TRILIUM_PH_0__ mounts the host's __TRILIUM_PH_1__ so that the container uses the host's timezone instead. If the host has no __TRILIUM_PH_2__, or you are not using docker-compose, set a __TRILIUM_PH_3__ environment variable with the __TRILIUM_PH_4__TZ identifier__TRILIUM_PH_5__ of your local timezone (for example __TRILIUM_PH_6__).",
+      "sourceHash": "3e5a441f7ca2ec5d0f48727e8eeffa71df67a3372be43ce679d7dffa1b5e7879",
+      "context": "Using Docker > Reverse Proxy > Note on timezones",
+      "contextHash": "3421809bd893570d46863b280a03515b63e3bcece00e384c80b6f4d8dc97f631",
+      "status": "translated",
+      "active": true,
+      "translation": "デフォルトでは、コンテナは UTC で実行されます。提供されている __TRILIUM_PH_0__ は、ホストの __TRILIUM_PH_1__ をマウントするため、代わりにコンテナはホストのタイムゾーンを使用します。ホストに __TRILIUM_PH_2__がない場合、または docker-compose を使用していない場合は、 __TRILIUM_PH_3__ 環境変数を、 __TRILIUM_PH_4__TZ 識別子__TRILIUM_PH_5__ に設定してください（例： __TRILIUM_PH_6__）。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-17T23:34:42.858Z"
     }
   ],
   "requests": [
@@ -995,6 +1012,25 @@
           {
             "modality": "TEXT",
             "tokenCount": 887
+          }
+        ],
+        "serviceTier": "standard"
+      }
+    },
+    {
+      "at": "2026-11-17T23:34:42.858Z",
+      "model": "gemini-3.5-flash-lite",
+      "batchJob": "batches/qbghghxkzsqc94705b6usendac48wssngsx9",
+      "requestKey": "rWX5eY045zbE_253f4c0e28bfdfe4",
+      "modelVersion": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 607,
+        "candidatesTokenCount": 210,
+        "totalTokenCount": 817,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 607
           }
         ],
         "serviceTier": "standard"

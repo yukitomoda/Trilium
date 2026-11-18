@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "pageId": "DvdZhoQZY9Yd",
   "sourceFile": "docs/User Guide/User Guide/Basic Concepts and Features/UI Elements/Note Tree/Keyboard shortcuts.md",
-  "sourceRevision": "f7a823d607395a1483ee75489a9e6ae1244625b6",
+  "sourceRevision": "5cc485c830ae66544ae6b2ee67ef07e7ec418c2d",
   "units": [
     {
       "id": "u_cb4b2056d59de4fdd53c20ed_0",
@@ -63,7 +63,7 @@
       "context": "Keyboard shortcuts > Navigation within the tree",
       "contextHash": "97ff5a003bd2b6255c8c24a87836bbea9623e5fe686b49ffdc78e85f01fa5da2",
       "status": "translated",
-      "active": true,
+      "active": false,
       "translation": "__TRILIUM_PH_0____TRILIUM_PH_1__↑__TRILIUM_PH_2____TRILIUM_PH_3__ と __TRILIUM_PH_4____TRILIUM_PH_5__↑__TRILIUM_PH_6____TRILIUM_PH_7__ を使用して、ノート間を移動します。",
       "conditions": {
         "model": "gemini-3.5-flash-lite",
@@ -445,6 +445,23 @@
         "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
       },
       "translatedAt": "2026-11-14T14:14:05.465Z"
+    },
+    {
+      "id": "u_eb6eb708988c3a0d6d7d28a7_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0____TRILIUM_PH_1__↑__TRILIUM_PH_2____TRILIUM_PH_3__ and __TRILIUM_PH_4____TRILIUM_PH_5__↓__TRILIUM_PH_6____TRILIUM_PH_7__ to navigate between notes.",
+      "sourceHash": "eb6eb708988c3a0d6d7d28a7d36620ad44c877dd87d0b3fa559a6b2529eec388",
+      "context": "Keyboard shortcuts > Navigation within the tree",
+      "contextHash": "97ff5a003bd2b6255c8c24a87836bbea9623e5fe686b49ffdc78e85f01fa5da2",
+      "status": "translated",
+      "active": true,
+      "translation": "ノート__TRILIUM_PH_0__間で__TRILIUM_PH_1__↑__TRILIUM_PH_2__と__TRILIUM_PH_3__  __TRILIUM_PH_4____TRILIUM_PH_5__↓__TRILIUM_PH_6__を使用して__TRILIUM_PH_7__ 移動します。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-17T23:34:42.858Z"
     }
   ],
   "requests": [
@@ -481,6 +498,25 @@
           {
             "modality": "TEXT",
             "tokenCount": 1269
+          }
+        ],
+        "serviceTier": "standard"
+      }
+    },
+    {
+      "at": "2026-11-17T23:34:42.858Z",
+      "model": "gemini-3.5-flash-lite",
+      "batchJob": "batches/qbghghxkzsqc94705b6usendac48wssngsx9",
+      "requestKey": "DvdZhoQZY9Yd_84b75b670454103b",
+      "modelVersion": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 499,
+        "candidatesTokenCount": 162,
+        "totalTokenCount": 661,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 499
           }
         ],
         "serviceTier": "standard"

@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "pageId": "oiVPnW8QfnvS",
   "sourceFile": "docs/User Guide/User Guide/Note Types/Text/Keyboard shortcuts.md",
-  "sourceRevision": "f7a823d607395a1483ee75489a9e6ae1244625b6",
+  "sourceRevision": "5cc485c830ae66544ae6b2ee67ef07e7ec418c2d",
   "units": [
     {
       "id": "u_cb4b2056d59de4fdd53c20ed_0",
@@ -3114,6 +3114,23 @@
         "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
       },
       "translatedAt": "2026-11-14T14:14:05.465Z"
+    },
+    {
+      "id": "u_c9694675e0120de06d9de785_0",
+      "kind": "p",
+      "source": "With __TRILIUM_PH_0__Vim mode__TRILIUM_PH_1__ turned on, some of these shortcuts follow Vim instead, such as __TRILIUM_PH_2__Ctrl__TRILIUM_PH_3__+__TRILIUM_PH_4__B__TRILIUM_PH_5__, which scrolls a page up in Normal mode. See __TRILIUM_PH_6__Shortcuts that change in the editor__TRILIUM_PH_7__ on that page.",
+      "sourceHash": "c9694675e0120de06d9de785c28cf68df7793ba8aa6519608ca834a94df89989",
+      "context": "Keyboard shortcuts",
+      "contextHash": "e9bef0b0f3c25e6eaf3a754817a8b4f62e1c8473cb2be3e190975926dbf72d6f",
+      "status": "translated",
+      "active": true,
+      "translation": "Vimモードが __TRILIUM_PH_0____TRILIUM_PH_1__ 有効になっている場合、これらのショートカットの一部はVimに従います。例えば、ノーマルモードでページを上にスクロールする __TRILIUM_PH_2____TRILIUM_PH_3____TRILIUM_PH_4____TRILIUM_PH_5__などが該当します。該当ページ内の __TRILIUM_PH_6__エディターで変更されるショートカット__TRILIUM_PH_7__ をご覧ください。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-17T23:34:42.858Z"
     }
   ],
   "requests": [
@@ -3350,6 +3367,25 @@
       "model": "gemini-3.5-flash-lite",
       "batchJob": "batches/8vehrrvdpag09tp4gjf9dbgj006t9k2gkkyl",
       "requestKey": "oiVPnW8QfnvS_5b17aa9ac06663e2"
+    },
+    {
+      "at": "2026-11-17T23:34:42.858Z",
+      "model": "gemini-3.5-flash-lite",
+      "batchJob": "batches/qbghghxkzsqc94705b6usendac48wssngsx9",
+      "requestKey": "oiVPnW8QfnvS_c7ccd9e6e640033b",
+      "modelVersion": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 564,
+        "candidatesTokenCount": 196,
+        "totalTokenCount": 760,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 564
+          }
+        ],
+        "serviceTier": "standard"
+      }
     }
   ]
 }

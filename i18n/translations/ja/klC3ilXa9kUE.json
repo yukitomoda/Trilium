@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "pageId": "klC3ilXa9kUE",
   "sourceFile": "docs/User Guide/User Guide/Note Types/Text/Block references.md",
-  "sourceRevision": "f7a823d607395a1483ee75489a9e6ae1244625b6",
+  "sourceRevision": "5cc485c830ae66544ae6b2ee67ef07e7ec418c2d",
   "units": [
     {
       "id": "u_dc56a233547389b86833fc82_0",
@@ -114,7 +114,7 @@
       "context": "Block references > Copying a reference",
       "contextHash": "99f7b4f90b7f2102ad06bb6803edd79cdbf22cb65903ec70f4b8726fca64bf79",
       "status": "translated",
-      "active": true,
+      "active": false,
       "translation": "__TRILIUM_PH_0__Content tabs__TRILIUM_PH_1__ ブロック内では、参照はブロック全体を指します。単一のタブにリンクするには、代わりにタブブロックの __TRILIUM_PH_2__ __TRILIUM_PH_3__More actions__TRILIUM_PH_4__ メニューにある __TRILIUM_PH_5__Copy reference to this tab__TRILIUM_PH_6__ を使用します。__TRILIUM_PH_7__Multicolumn layout__TRILIUM_PH_8__ 内では、参照は列内のブロックを指し、インクルードはその周囲のレイアウトなしでそれらを表示します。",
       "conditions": {
         "model": "gemini-3.5-flash-lite",
@@ -386,7 +386,7 @@
       "context": "Block references > Following a reference",
       "contextHash": "49da8a48ad54701393aa747a0c631de044fffa8efac5a0f12ecf81b988c2bc9d",
       "status": "translated",
-      "active": true,
+      "active": false,
       "translation": "ブロック参照をクリックするとノートが開き、参照されたブロックまでスクロールしてフラッシュ表示されます。参照されたブロックが削除されていた場合、代わりにエラーメッセージと、まだ存在する範囲のブロックが表示されます。",
       "conditions": {
         "model": "gemini-3.5-flash-lite",
@@ -522,7 +522,7 @@
       "context": "Block references > Limitations",
       "contextHash": "701f362379dd11f1b74674080e5c42e85b034677827d3a6cce11ebe76f3108f5",
       "status": "translated",
-      "active": true,
+      "active": false,
       "translation": "リストや引用の一部のみ（2番目のアイテムからその後の段落までなど）をカバーする範囲のインクルードは、インプレースで編集することはできません。",
       "conditions": {
         "model": "gemini-3.5-flash-lite",
@@ -539,7 +539,7 @@
       "context": "Block references > Limitations",
       "contextHash": "701f362379dd11f1b74674080e5c42e85b034677827d3a6cce11ebe76f3108f5",
       "status": "translated",
-      "active": true,
+      "active": false,
       "translation": "ブロックを削除すると、それへの参照が切断されます。",
       "conditions": {
         "model": "gemini-3.5-flash-lite",
@@ -556,7 +556,7 @@
       "context": "Block references > Limitations",
       "contextHash": "701f362379dd11f1b74674080e5c42e85b034677827d3a6cce11ebe76f3108f5",
       "status": "translated",
-      "active": true,
+      "active": false,
       "translation": "Markdownへのエクスポート時、ブロック参照は維持されません。__TRILIUM_PH_0__共有ページ__TRILIUM_PH_1__上では、ブロック参照はノート全体を開きます。",
       "conditions": {
         "model": "gemini-3.5-flash-lite",
@@ -564,6 +564,193 @@
         "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
       },
       "translatedAt": "2026-11-14T14:14:05.465Z"
+    },
+    {
+      "id": "u_80e0c49e7f026b21ad3f0523_0",
+      "kind": "p",
+      "source": "Inside a __TRILIUM_PH_0__table__TRILIUM_PH_1__, an __TRILIUM_PH_2__aside__TRILIUM_PH_3__ or a __TRILIUM_PH_4__Content tabs__TRILIUM_PH_5__ block, the reference points to the whole block. To link to a single tab, use __TRILIUM_PH_6__Copy reference to this tab__TRILIUM_PH_7__ in the __TRILIUM_PH_8__ __TRILIUM_PH_9__More actions__TRILIUM_PH_10__ menu of the tabs block instead. Inside a __TRILIUM_PH_11__Multicolumn layout__TRILIUM_PH_12__, the reference points to the blocks in the column, and an include shows them without the layout around them.",
+      "sourceHash": "80e0c49e7f026b21ad3f05231d6b749a4d9f53e60b916bfe00715483f90ec83c",
+      "context": "Block references > Copying a reference",
+      "contextHash": "99f7b4f90b7f2102ad06bb6803edd79cdbf22cb65903ec70f4b8726fca64bf79",
+      "status": "translated",
+      "active": true,
+      "translation": "テーブル、アサイド、または __TRILIUM_PH_0____TRILIUM_PH_1__コンテンツタブブロックの __TRILIUM_PH_2____TRILIUM_PH_3__ 内では、参照はブロック全体を指します。単一のタブにリンクするには、代わりにタブブロックの __TRILIUM_PH_4____TRILIUM_PH_5__ メニューにある __TRILIUM_PH_6__このタブへの参照をコピー__TRILIUM_PH_7__ を使用します。 __TRILIUM_PH_8__ 詳細なアクション__TRILIUM_PH_9____TRILIUM_PH_10__ マルチカラムレイアウト __TRILIUM_PH_11____TRILIUM_PH_12__内では、参照は列内のブロックを指し、インクルードはその周囲のレイアウトなしでそれらを表示します。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-17T23:34:42.858Z"
+    },
+    {
+      "id": "u_a1e432aa2bcc96b13ad1f929_0",
+      "kind": "h3",
+      "source": "A heading of another note__TRILIUM_PH_0__",
+      "sourceHash": "a1e432aa2bcc96b13ad1f92984b851a0f7b6559ae7ef2298f14870f7eddb254a",
+      "context": "Block references > Linking to a heading > A heading of another note",
+      "contextHash": "008eb5f5be04223840040f94168d9ef4e99475fa785b0dd7912121aea87597de",
+      "status": "translated",
+      "active": true,
+      "translation": "別のノートの見出し__TRILIUM_PH_0__",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-17T23:34:42.858Z"
+    },
+    {
+      "id": "u_98193f7fd82b864c5685f773_0",
+      "kind": "p",
+      "source": "Since v0.108.0, a link can point at a heading of another note too:",
+      "sourceHash": "98193f7fd82b864c5685f7736a988a4ae97cd5c4fba476e5c312a1d5e5bdbe39",
+      "context": "Block references > Linking to a heading > A heading of another note",
+      "contextHash": "008eb5f5be04223840040f94168d9ef4e99475fa785b0dd7912121aea87597de",
+      "status": "translated",
+      "active": true,
+      "translation": "v0.108.0以降、リンクは別のノートの見出しを指すこともできます。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-17T23:34:42.858Z"
+    },
+    {
+      "id": "u_43dad103ff7338a1f8e1ed6a_0",
+      "kind": "li",
+      "source": "In the __TRILIUM_PH_0__Add link__TRILIUM_PH_1__ dialog, pick the note on the __TRILIUM_PH_2__Note__TRILIUM_PH_3__ page. Its headings and anchors are listed below the __TRILIUM_PH_4__Link title__TRILIUM_PH_5__, after __TRILIUM_PH_6__Link to the whole note__TRILIUM_PH_7__.",
+      "sourceHash": "43dad103ff7338a1f8e1ed6a380ffc9a717e39971e462c729154dea1176b4d35",
+      "context": "Block references > Linking to a heading > A heading of another note",
+      "contextHash": "008eb5f5be04223840040f94168d9ef4e99475fa785b0dd7912121aea87597de",
+      "status": "translated",
+      "active": true,
+      "translation": "リンクを追加ダイアログで、 __TRILIUM_PH_0____TRILIUM_PH_1__ ページ上でノートを選択します。その見出しとアンカーは、 __TRILIUM_PH_2__ノート__TRILIUM_PH_3__ の後に、 __TRILIUM_PH_4__リンクタイトル__TRILIUM_PH_5__の下にリストされます。 __TRILIUM_PH_6__ノート全体へのリンク__TRILIUM_PH_7__",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-17T23:34:42.858Z"
+    },
+    {
+      "id": "u_62c6fb69ad66c023a95fea8a_0",
+      "kind": "li",
+      "source": "Under __TRILIUM_PH_0__Link to a heading__TRILIUM_PH_1__, click the desired heading to check it, then press __TRILIUM_PH_2__Enter__TRILIUM_PH_3__ or __TRILIUM_PH_4__Insert link__TRILIUM_PH_5__. The link can be inserted before the list appears; it then links to the note itself.",
+      "sourceHash": "62c6fb69ad66c023a95fea8a4ff77c1557302749adf8f9647144db2959852ad9",
+      "context": "Block references > Linking to a heading > A heading of another note",
+      "contextHash": "008eb5f5be04223840040f94168d9ef4e99475fa785b0dd7912121aea87597de",
+      "status": "translated",
+      "active": true,
+      "translation": " __TRILIUM_PH_0__見出しへのリンク__TRILIUM_PH_1__の下で、目的の見出しをクリックしてチェックし、 __TRILIUM_PH_2____TRILIUM_PH_3__ または __TRILIUM_PH_4____TRILIUM_PH_5__を押します。リストが表示される前にリンクを挿入でき、その場合はノート自体にリンクします。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-17T23:34:42.858Z"
+    },
+    {
+      "id": "u_636e7004719f0ee932b9afab_0",
+      "kind": "li",
+      "source": "Alternatively, type __TRILIUM_PH_0__ and pick the note: the menu then lists the same headings, and the text typed next narrows them down. See __TRILIUM_PH_1__In-place linking__TRILIUM_PH_2__.",
+      "sourceHash": "636e7004719f0ee932b9afab86f9dcffa5ff69b30da3eb52397ef6488ce32a11",
+      "context": "Block references > Linking to a heading > A heading of another note",
+      "contextHash": "008eb5f5be04223840040f94168d9ef4e99475fa785b0dd7912121aea87597de",
+      "status": "translated",
+      "active": true,
+      "translation": "または、 __TRILIUM_PH_0__ を入力してノートを選択します。メニューには同じ見出しがリストされ、次に入力したテキストによって候補が絞り込まれます。「 __TRILIUM_PH_1__インプレースリンク__TRILIUM_PH_2__」を参照してください。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-17T23:34:42.858Z"
+    },
+    {
+      "id": "u_c7bcbf4e39128c8e90e28cc9_0",
+      "kind": "p",
+      "source": "This link is a block reference too. Linking to the heading saves an invisible identifier in it, also when that note is read-only. If the heading cannot be referenced, for example because it was changed in the meantime, an error is shown and no link is inserted. The dialog stays open. From the __TRILIUM_PH_0__ menu, the link keeps pointing at the whole note.",
+      "sourceHash": "c7bcbf4e39128c8e90e28cc9d779c8b160728fc22e310c54eff82038b06a34d3",
+      "context": "Block references > Linking to a heading > A heading of another note",
+      "contextHash": "008eb5f5be04223840040f94168d9ef4e99475fa785b0dd7912121aea87597de",
+      "status": "translated",
+      "active": true,
+      "translation": "このリンクもブロック参照です。見出しへのリンクは、そのノートが読み取り専用の場合も含め、見出し内に不可視の識別子を保存します。たとえば途中で変更されたなどの理由で見出しを参照できない場合は、エラーが表示され、リンクは挿入されません。ダイアログは開いたままになります。 __TRILIUM_PH_0__ メニューから、リンクはノート全体を指し続けます。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-17T23:34:42.858Z"
+    },
+    {
+      "id": "u_5e0442fa6271522d38edf169_0",
+      "kind": "p",
+      "source": "Clicking a block reference opens the note, scrolls to the referenced blocks and flashes them. If a referenced block was deleted, an error message is shown. When only the first or the last block of a range still exists, the note scrolls to that block.",
+      "sourceHash": "5e0442fa6271522d38edf169a7d88a4b3a8f591943b23e1bc34bf7b35a9dea9a",
+      "context": "Block references > Following a reference",
+      "contextHash": "49da8a48ad54701393aa747a0c631de044fffa8efac5a0f12ecf81b988c2bc9d",
+      "status": "translated",
+      "active": true,
+      "translation": "ブロック参照をクリックすると、ノートが開き、参照されたブロックまでスクロールしてそれらがハイライトされます。参照されたブロックが削除されていた場合は、エラーメッセージが表示されます。範囲の最初または最後のブロックのみがまだ存在する場合、ノートはそのブロックまでスクロールします。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-17T23:34:42.858Z"
+    },
+    {
+      "id": "u_7c316d1eae5ad25bb2a8e54e_0",
+      "kind": "li",
+      "source": "An include of a range that covers only part of a list or a quote, such as from its second item to a paragraph after it, cannot be edited in place. Neither can an include of a single code block or diagram.",
+      "sourceHash": "7c316d1eae5ad25bb2a8e54ea8e10e7df6733ddf97b8ea9178dea0f4988a247b",
+      "context": "Block references > Limitations",
+      "contextHash": "701f362379dd11f1b74674080e5c42e85b034677827d3a6cce11ebe76f3108f5",
+      "status": "translated",
+      "active": true,
+      "translation": "リストまたは引用の一部のみをカバーする範囲（2番目の項目からその後の段落までなど）のインクルードは、その場で編集できません。単一のコードブロックやダイアグラムのインクルードも同様です。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-17T23:34:42.858Z"
+    },
+    {
+      "id": "u_280fbe3a53cfab9f33ea089a_0",
+      "kind": "li",
+      "source": "Deleting a block, or merging it into the block above with __TRILIUM_PH_0__Backspace__TRILIUM_PH_1__, breaks the references to it.",
+      "sourceHash": "280fbe3a53cfab9f33ea089a064f70d5c64d834d988bd40047f1c844a25b0c5c",
+      "context": "Block references > Limitations",
+      "contextHash": "701f362379dd11f1b74674080e5c42e85b034677827d3a6cce11ebe76f3108f5",
+      "status": "translated",
+      "active": true,
+      "translation": "ブロックを削除するか、 __TRILIUM_PH_0____TRILIUM_PH_1__で上のブロックに結合すると、それへの参照が切断されます。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-17T23:34:42.858Z"
+    },
+    {
+      "id": "u_7199e350b1930644d9cdb4b4_0",
+      "kind": "li",
+      "source": "When a subtree is __TRILIUM_PH_0__exported__TRILIUM_PH_1__, links to blocks lead to the whole note. Exporting to Markdown also removes the invisible identifiers of most blocks, so references to them break when the note is imported again.",
+      "sourceHash": "7199e350b1930644d9cdb4b4c8c199e0fa0257a26e02df495047f788869ce360",
+      "context": "Block references > Limitations",
+      "contextHash": "701f362379dd11f1b74674080e5c42e85b034677827d3a6cce11ebe76f3108f5",
+      "status": "translated",
+      "active": true,
+      "translation": "サブツリーが __TRILIUM_PH_0____TRILIUM_PH_1__された場合、ブロックへのリンクはノート全体につながります。Markdownへのエクスポートではほとんどのブロックの不可視識別子も削除されるため、ノートを再度インポートしたときにそれらへの参照が切断されます。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-17T23:34:42.858Z"
     }
   ],
   "requests": [
@@ -650,6 +837,25 @@
           {
             "modality": "TEXT",
             "tokenCount": 686
+          }
+        ],
+        "serviceTier": "standard"
+      }
+    },
+    {
+      "at": "2026-11-17T23:34:42.858Z",
+      "model": "gemini-3.5-flash-lite",
+      "batchJob": "batches/qbghghxkzsqc94705b6usendac48wssngsx9",
+      "requestKey": "klC3ilXa9kUE_e1eeb586080e4ddd",
+      "modelVersion": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 1993,
+        "candidatesTokenCount": 1244,
+        "totalTokenCount": 3237,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 1993
           }
         ],
         "serviceTier": "standard"

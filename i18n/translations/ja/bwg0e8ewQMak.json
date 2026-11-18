@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "pageId": "bwg0e8ewQMak",
   "sourceFile": "docs/User Guide/User Guide/Basic Concepts and Features/Notes/Protected Notes.md",
-  "sourceRevision": "f7a823d607395a1483ee75489a9e6ae1244625b6",
+  "sourceRevision": "5cc485c830ae66544ae6b2ee67ef07e7ec418c2d",
   "units": [
     {
       "id": "u_3fea256c3a37fbe1a613c607_0",
@@ -564,6 +564,57 @@
         "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
       },
       "translatedAt": "2026-11-14T14:14:05.465Z"
+    },
+    {
+      "id": "u_7de238e4447f4a4c29868411_0",
+      "kind": "p",
+      "source": "To protect or unprotect a whole subtree at once, right-click its top note in the note tree and choose __TRILIUM_PH_0__Protect subtree__TRILIUM_PH_1__ or __TRILIUM_PH_2__Unprotect subtree__TRILIUM_PH_3__. If no protected session is running, a dialog explains what the action does and asks for your password, so you don't have to start a protected session beforehand.",
+      "sourceHash": "7de238e4447f4a4c2986841133f2f42b3c417c44282554804c8d46023aac99d8",
+      "context": "Protected Notes > Using Protected Notes",
+      "contextHash": "006b769c0913bb847efc2a042a8ce5002de9681db78a5ed8bef6e950db3b9c37",
+      "status": "translated",
+      "active": true,
+      "translation": "サブツリー全体を一度に保護または保護解除するには、ノートツリーでその一番上のノートを右クリックし、 __TRILIUM_PH_0__サブツリーを保護__TRILIUM_PH_1__ または __TRILIUM_PH_2__サブツリーの保護を解除__TRILIUM_PH_3__を選択します。保護されたセッションが実行されていない場合は、その操作内容を説明しパスワードを求めるダイアログが表示されるため、事前に保護されたセッションを開始しておく必要はありません。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-17T23:34:42.858Z"
+    },
+    {
+      "id": "u_07ad702175ba80a26b925741_0",
+      "kind": "h3",
+      "source": "Removing protection__TRILIUM_PH_0__",
+      "sourceHash": "07ad702175ba80a26b92574112c7bcd9892305df0c3f46e177b86516b5a045f4",
+      "context": "Protected Notes > Using Protected Notes > Removing protection",
+      "contextHash": "8badd15befacda9de2a8f4ab1adaa3a0c2ec2290ef1f2c744e4db187b28413a2",
+      "status": "translated",
+      "active": true,
+      "translation": "保護の解除__TRILIUM_PH_0__",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-17T23:34:42.858Z"
+    },
+    {
+      "id": "u_bde35421933a9ee8afd04e7c_0",
+      "kind": "p",
+      "source": "Unprotecting decrypts the notes: their content, attachments and revisions are stored without encryption from then on, also in backups and on the sync server. Because of this, __TRILIUM_PH_0__Unprotect subtree__TRILIUM_PH_1__ always asks for confirmation first, even while a protected session is running.",
+      "sourceHash": "bde35421933a9ee8afd04e7c54dcbcbe389bd491a0f2e2ed3fb5b71325e0b6b4",
+      "context": "Protected Notes > Using Protected Notes > Removing protection",
+      "contextHash": "8badd15befacda9de2a8f4ab1adaa3a0c2ec2290ef1f2c744e4db187b28413a2",
+      "status": "translated",
+      "active": true,
+      "translation": "保護を解除するとノートが復号されます。その内容、添付ファイル、リビジョンは、それ以降はバックアップや同期サーバー内も含めて暗号化されずに保存されます。このため、保護されたセッションの実行中であっても、 __TRILIUM_PH_0__サブツリーの保護を解除__TRILIUM_PH_1__ を実行すると必ず最初に確認画面が表示されます。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-17T23:34:42.858Z"
     }
   ],
   "requests": [
@@ -656,6 +707,25 @@
           {
             "modality": "TEXT",
             "tokenCount": 495
+          }
+        ],
+        "serviceTier": "standard"
+      }
+    },
+    {
+      "at": "2026-11-17T23:34:42.858Z",
+      "model": "gemini-3.5-flash-lite",
+      "batchJob": "batches/qbghghxkzsqc94705b6usendac48wssngsx9",
+      "requestKey": "bwg0e8ewQMak_76e9669459dc0c96",
+      "modelVersion": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 815,
+        "candidatesTokenCount": 373,
+        "totalTokenCount": 1188,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 815
           }
         ],
         "serviceTier": "standard"
