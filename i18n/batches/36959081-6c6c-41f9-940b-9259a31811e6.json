@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "id": "36959081-6c6c-41f9-940b-9259a31811e6",
-  "phase": "pending",
+  "phase": "complete",
   "createdAt": "2026-11-17T23:34:42.858Z",
   "conditions": {
     "model": "gemini-3.5-flash-lite",
@@ -54,7 +54,31 @@
           "contextHash": "6bbbcdba61f98a6d7a1c96f9d8afb4ab0842c7c443cb4c50819185a5aec8d5df"
         }
       ],
-      "format": "text-slots-v1"
+      "format": "text-slots-v1",
+      "result": {
+        "key": "3tW6mORuTHnB_1d23576b6a449248",
+        "translations": {
+          "u_64583e21d68597b2d8ea6c2d_0": "上記の手順における問題は、SSH接続やターミナルを閉じるとTriliumのプロセスが終了してしまうことです。一般的にこれを回避する最善の方法は、次のセクションで説明するように、システムの起動ごとにTriliumがバックグラウンドで実行されるようsystemdを設定することです。また、予期せず停止した場合にもTriliumを再起動します。",
+          "u_89d870502ece3dcf78bd76eb_0": "サービスを使用せずにTriliumを実行し続けるには、停止してから（ __TRILIUM_PH_0__Ctrl__TRILIUM_PH_1__+__TRILIUM_PH_2__C__TRILIUM_PH_3__）、ターミナルから切り離して再度起動します。",
+          "u_7a3ef8b262931f7aea324efc_0": "は__TRILIUM_PH_0__ 新しいセッションでTriliumを起動するため、ターミナルを閉じても影響を受けません。その出力はに送られます __TRILIUM_PH_1__。",
+          "u_9966a2a70112c4b2f3d2d5fc_0": "あるいは、BashやZshでは、 __TRILIUM_PH_0__ はバックグラウンドで起動し、シェルのジョブから外すため、シェルを終了しても停止しません。",
+          "u_ebe930d0430eeeb1b2600479_0": "では__TRILIUM_PH_0__ Triliumを実行し続けることはできません。Node.jsは起動時にシグナルハンドラーをリセットするため、__TRILIUM_PH_1__が設定するハングアップシグナル（ __TRILIUM_PH_2__ ）を無視しなくなり、ターミナルを閉じるとすぐにTriliumが停止します。"
+        },
+        "modelVersion": "gemini-3.5-flash-lite",
+        "usage": {
+          "promptTokenCount": 1066,
+          "candidatesTokenCount": 545,
+          "totalTokenCount": 1611,
+          "promptTokensDetails": [
+            {
+              "modality": "TEXT",
+              "tokenCount": 1066
+            }
+          ],
+          "serviceTier": "standard"
+        }
+      },
+      "unitErrors": {}
     },
     {
       "key": "rWX5eY045zbE_253f4c0e28bfdfe4",
@@ -69,7 +93,27 @@
           "contextHash": "3421809bd893570d46863b280a03515b63e3bcece00e384c80b6f4d8dc97f631"
         }
       ],
-      "format": "text-slots-v1"
+      "format": "text-slots-v1",
+      "result": {
+        "key": "rWX5eY045zbE_253f4c0e28bfdfe4",
+        "translations": {
+          "u_3e5a441f7ca2ec5d0f48727e_0": "デフォルトでは、コンテナは UTC で実行されます。提供されている __TRILIUM_PH_0__ は、ホストの __TRILIUM_PH_1__ をマウントするため、代わりにコンテナはホストのタイムゾーンを使用します。ホストに __TRILIUM_PH_2__がない場合、または docker-compose を使用していない場合は、 __TRILIUM_PH_3__ 環境変数を、 __TRILIUM_PH_4__TZ 識別子__TRILIUM_PH_5__ に設定してください（例： __TRILIUM_PH_6__）。"
+        },
+        "modelVersion": "gemini-3.5-flash-lite",
+        "usage": {
+          "promptTokenCount": 607,
+          "candidatesTokenCount": 210,
+          "totalTokenCount": 817,
+          "promptTokensDetails": [
+            {
+              "modality": "TEXT",
+              "tokenCount": 607
+            }
+          ],
+          "serviceTier": "standard"
+        }
+      },
+      "unitErrors": {}
     },
     {
       "key": "YtSN43OrfzaA_d7141c5f6b36c48a",
@@ -84,7 +128,27 @@
           "contextHash": "38607f375dc08f35f33c887fc784926de63909b7edd1abbb727dad4374058e61"
         }
       ],
-      "format": "text-slots-v1"
+      "format": "text-slots-v1",
+      "result": {
+        "key": "YtSN43OrfzaA_d7141c5f6b36c48a",
+        "translations": {
+          "u_cb215628e3a8e3bc25879f2b_0": "保護されていないノートでは、 __TRILIUM_PH_0__サブツリーを保護__TRILIUM_PH_1__ を選択すると、このノートとそのすべての配下のノートが保護されます。保護されているノートでは、項目が __TRILIUM_PH_2__サブツリーの保護を解除__TRILIUM_PH_3__ に変わり、確認を求めた上で保護を解除します。どちらの操作も、保護セッションが実行されていない場合はパスワードの入力を求めます。詳細は __TRILIUM_PH_4__保護されたノート__TRILIUM_PH_5__ を参照してください。"
+        },
+        "modelVersion": "gemini-3.5-flash-lite",
+        "usage": {
+          "promptTokenCount": 606,
+          "candidatesTokenCount": 215,
+          "totalTokenCount": 821,
+          "promptTokensDetails": [
+            {
+              "modality": "TEXT",
+              "tokenCount": 606
+            }
+          ],
+          "serviceTier": "standard"
+        }
+      },
+      "unitErrors": {}
     },
     {
       "key": "DvdZhoQZY9Yd_84b75b670454103b",
@@ -99,7 +163,27 @@
           "contextHash": "97ff5a003bd2b6255c8c24a87836bbea9623e5fe686b49ffdc78e85f01fa5da2"
         }
       ],
-      "format": "text-slots-v1"
+      "format": "text-slots-v1",
+      "result": {
+        "key": "DvdZhoQZY9Yd_84b75b670454103b",
+        "translations": {
+          "u_eb6eb708988c3a0d6d7d28a7_0": "ノート__TRILIUM_PH_0__間で__TRILIUM_PH_1__↑__TRILIUM_PH_2__と__TRILIUM_PH_3__  __TRILIUM_PH_4____TRILIUM_PH_5__↓__TRILIUM_PH_6__を使用して__TRILIUM_PH_7__ 移動します。"
+        },
+        "modelVersion": "gemini-3.5-flash-lite",
+        "usage": {
+          "promptTokenCount": 499,
+          "candidatesTokenCount": 162,
+          "totalTokenCount": 661,
+          "promptTokensDetails": [
+            {
+              "modality": "TEXT",
+              "tokenCount": 499
+            }
+          ],
+          "serviceTier": "standard"
+        }
+      },
+      "unitErrors": {}
     },
     {
       "key": "oPVyFC7WL2Lp_3974b48cd09b8b49",
@@ -114,7 +198,27 @@
           "contextHash": "a908a39cb2d25f624a36be2cccadc674bfcd73b9f11bc37ea5ca404acf56042c"
         }
       ],
-      "format": "text-slots-v1"
+      "format": "text-slots-v1",
+      "result": {
+        "key": "oPVyFC7WL2Lp_3974b48cd09b8b49",
+        "translations": {
+          "u_3fca7be4c09bd6032eb0bf2f_0": "アクティブノートに追従：__TRILIUM_PH_0__有効にすると（デフォルト）、現在アクティブなノートが見えるように、ツリーが自動的にスクロールし親ノードを展開します。折りたたんだアクティブノートの親は、別のノートに移動するかアクティブノートが移動されるまで、折りたたまれたままになります。無効にすると、ツリーはナビゲーションから完全に切り離され、アクティブノートの背景のハイライトのみが更新されますが、ツリーのビューポートとその展開・折りたたみ状態はナビゲーションによって変更されることはありません。クロスヘアボタンを使用すると、いつでも手動でツリーをアクティブノートにジャンプさせることができます。__TRILIUM_PH_1__"
+        },
+        "modelVersion": "gemini-3.5-flash-lite",
+        "usage": {
+          "promptTokenCount": 663,
+          "candidatesTokenCount": 238,
+          "totalTokenCount": 901,
+          "promptTokensDetails": [
+            {
+              "modality": "TEXT",
+              "tokenCount": 663
+            }
+          ],
+          "serviceTier": "standard"
+        }
+      },
+      "unitErrors": {}
     },
     {
       "key": "3seOhtN8uLIY_9d9a59f06c9c262b",
@@ -129,7 +233,27 @@
           "contextHash": "d7c574d2284c3d9785abe9764ad3783de8566a839be4b0e631ffe151c477204e"
         }
       ],
-      "format": "text-slots-v1"
+      "format": "text-slots-v1",
+      "result": {
+        "key": "3seOhtN8uLIY_9d9a59f06c9c262b",
+        "translations": {
+          "u_bde0012a61507fbad3730d08_0": "既存のタブを上下にドラッグすることで、新しいウィンドウに表示することができます。新しいウィンドウはマウスカーソルの下に開き、ポインタの下にタブが配置されます。タブを別のウィンドウに結合し直すことはできません。"
+        },
+        "modelVersion": "gemini-3.5-flash-lite",
+        "usage": {
+          "promptTokenCount": 539,
+          "candidatesTokenCount": 133,
+          "totalTokenCount": 672,
+          "promptTokensDetails": [
+            {
+              "modality": "TEXT",
+              "tokenCount": 539
+            }
+          ],
+          "serviceTier": "standard"
+        }
+      },
+      "unitErrors": {}
     },
     {
       "key": "AlJ73vBCjWDw_cd6ea8753a733ce0",
@@ -144,7 +268,27 @@
           "contextHash": "cc0d6d67445706d64a152f0404071590bd7fecf9c725816dd9f9d2d5c36835c8"
         }
       ],
-      "format": "text-slots-v1"
+      "format": "text-slots-v1",
+      "result": {
+        "key": "AlJ73vBCjWDw_cd6ea8753a733ce0",
+        "translations": {
+          "u_730fde0b6f6bd980a8b99c2b_0": "オプションで __TRILIUM_PH_0__Vim モード__TRILIUM_PH_1__ が有効になっている間、 __TRILIUM_PH_2__Vim__TRILIUM_PH_3__ バッジによってそのノートの Vim の有効/無効を切り替えることができ、その後に現在の Vim のモードが表示されます。"
+        },
+        "modelVersion": "gemini-3.5-flash-lite",
+        "usage": {
+          "promptTokenCount": 529,
+          "candidatesTokenCount": 157,
+          "totalTokenCount": 686,
+          "promptTokensDetails": [
+            {
+              "modality": "TEXT",
+              "tokenCount": 529
+            }
+          ],
+          "serviceTier": "standard"
+        }
+      },
+      "unitErrors": {}
     },
     {
       "key": "bwg0e8ewQMak_76e9669459dc0c96",
@@ -175,7 +319,29 @@
           "contextHash": "8badd15befacda9de2a8f4ab1adaa3a0c2ec2290ef1f2c744e4db187b28413a2"
         }
       ],
-      "format": "text-slots-v1"
+      "format": "text-slots-v1",
+      "result": {
+        "key": "bwg0e8ewQMak_76e9669459dc0c96",
+        "translations": {
+          "u_7de238e4447f4a4c29868411_0": "サブツリー全体を一度に保護または保護解除するには、ノートツリーでその一番上のノートを右クリックし、 __TRILIUM_PH_0__サブツリーを保護__TRILIUM_PH_1__ または __TRILIUM_PH_2__サブツリーの保護を解除__TRILIUM_PH_3__を選択します。保護されたセッションが実行されていない場合は、その操作内容を説明しパスワードを求めるダイアログが表示されるため、事前に保護されたセッションを開始しておく必要はありません。",
+          "u_07ad702175ba80a26b925741_0": "保護の解除__TRILIUM_PH_0__",
+          "u_bde35421933a9ee8afd04e7c_0": "保護を解除するとノートが復号されます。その内容、添付ファイル、リビジョンは、それ以降はバックアップや同期サーバー内も含めて暗号化されずに保存されます。このため、保護されたセッションの実行中であっても、 __TRILIUM_PH_0__サブツリーの保護を解除__TRILIUM_PH_1__ を実行すると必ず最初に確認画面が表示されます。"
+        },
+        "modelVersion": "gemini-3.5-flash-lite",
+        "usage": {
+          "promptTokenCount": 815,
+          "candidatesTokenCount": 373,
+          "totalTokenCount": 1188,
+          "promptTokensDetails": [
+            {
+              "modality": "TEXT",
+              "tokenCount": 815
+            }
+          ],
+          "serviceTier": "standard"
+        }
+      },
+      "unitErrors": {}
     },
     {
       "key": "A9Oc6YKKc65v_2886a27f7c511e7d",
@@ -190,7 +356,27 @@
           "contextHash": "1dad8037f62b65c66ec4c19517eb25e7bd03695759089c92ade4dba4f53e31b1"
         }
       ],
-      "format": "text-slots-v1"
+      "format": "text-slots-v1",
+      "result": {
+        "key": "A9Oc6YKKc65v_2886a27f7c511e7d",
+        "translations": {
+          "u_773445598dcfead84b343c63_0": "__TRILIUM_PH_0__F9__TRILIUM_PH_1__ – __TRILIUM_PH_2__禅モード__TRILIUM_PH_3__ – ノートエディタのみを表示し、他の要素はすべて非表示にします"
+        },
+        "modelVersion": "gemini-3.5-flash-lite",
+        "usage": {
+          "promptTokenCount": 497,
+          "candidatesTokenCount": 141,
+          "totalTokenCount": 638,
+          "promptTokensDetails": [
+            {
+              "modality": "TEXT",
+              "tokenCount": 497
+            }
+          ],
+          "serviceTier": "standard"
+        }
+      },
+      "unitErrors": {}
     },
     {
       "key": "rJ9grSgoExl9_c765fc3a356ee53c",
@@ -301,7 +487,39 @@
           "contextHash": "7c7cf92d10b6b4c38ba46e8ef1a85fbfe1430877ca1ac05aeaaf6b216a0f6996"
         }
       ],
-      "format": "text-slots-v1"
+      "format": "text-slots-v1",
+      "result": {
+        "key": "rJ9grSgoExl9_c765fc3a356ee53c",
+        "translations": {
+          "u_71f0196f8610d9db8bd46980_0": "アサイドブロック__TRILIUM_PH_0__",
+          "u_a2bd141fe807913df72a5c8d_0": "__TRILIUM_PH_0__アサイドブロック__TRILIUM_PH_1__ は、それ自体の行に __TRILIUM_PH_2__ タグとして記述し、その間のコンテンツはMarkdownで記述します。",
+          "u_72e37323a9768a137fe82fb8_0": "プレーンな __TRILIUM_PH_0__ タグは、新しく挿入されたアサイドブロックのように配置・色付けされます（右側に配置され、テキストが周囲に回り込み、灰色の背景になります）。属性を持つタグは、設定された内容のみが適用されます。別の位置にするには、次のいずれかの値を持つ __TRILIUM_PH_1__ 属性を追加します。",
+          "u_4c84cbff1153e6df8a060c3b_0": "値",
+          "u_316e63f18f5aae4930dc12e6_0": "位置",
+          "u_bfb2f3c95c4ef3c720a016f8_0": "__TRILIUM_PH_0__テキストの回り込み__TRILIUM_PH_1__ → __TRILIUM_PH_2__左揃え__TRILIUM_PH_3__",
+          "u_3c164b89f39731aee0dc06c9_0": "__TRILIUM_PH_0__テキストの回り込み__TRILIUM_PH_1__ → __TRILIUM_PH_2__右揃え__TRILIUM_PH_3__（デフォルト）",
+          "u_9b2f5fd7c3ff1d8d58203e30_0": "__TRILIUM_PH_0__テキストで分断__TRILIUM_PH_1__ → __TRILIUM_PH_2__左揃え__TRILIUM_PH_3__",
+          "u_1fdc0c57823bd9e98bf75eeb_0": "__TRILIUM_PH_0__テキストで分断__TRILIUM_PH_1__ → __TRILIUM_PH_2__中央揃え__TRILIUM_PH_3__",
+          "u_7016c31b4736353df4c27b64_0": "__TRILIUM_PH_0__テキストで分断__TRILIUM_PH_1__ → __TRILIUM_PH_2__右揃え__TRILIUM_PH_3__",
+          "u_8204681c078aa5af95906f7a_0": "背景色を設定するには、 __TRILIUM_PH_0__ のような __TRILIUM_PH_1__属性を追加します。属性を指定しない場合、属性付きのタグは透明なアサイドブロックになります。",
+          "u_0119958cd722773f7187903e_0": "エクスポートも同様のルールに従い、サイズ変更されたアサイドブロックの幅も保持されます。",
+          "u_f10dce812f42057c1956a339_0": "開始タグの後の空行は必須です。これがない場合、コンテンツはMarkdownではなくプレーンテキストとして読み込まれ、アサイドブロックはノートの全幅を取ります。"
+        },
+        "modelVersion": "gemini-3.5-flash-lite",
+        "usage": {
+          "promptTokenCount": 1507,
+          "candidatesTokenCount": 1020,
+          "totalTokenCount": 2527,
+          "promptTokensDetails": [
+            {
+              "modality": "TEXT",
+              "tokenCount": 1507
+            }
+          ],
+          "serviceTier": "standard"
+        }
+      },
+      "unitErrors": {}
     },
     {
       "key": "oSuaNgyyKnhu_c32d5dd1579778bf",
@@ -332,7 +550,29 @@
           "contextHash": "bf4f3c3b151de03a918abdc3478ef6306dcf1a82bd7c39e3512066aab24b135c"
         }
       ],
-      "format": "text-slots-v1"
+      "format": "text-slots-v1",
+      "result": {
+        "key": "oSuaNgyyKnhu_c32d5dd1579778bf",
+        "translations": {
+          "u_4a284ef8c3ccf665533c8d1b_0": "ターゲットノートの見出しとアンカーが __TRILIUM_PH_0__リンクタイトル__TRILIUM_PH_1__の下に表示されます。 __TRILIUM_PH_2__アンカーへのリンク__TRILIUM_PH_3__の下で、目的のアンカーをクリックして選択します。",
+          "u_8ecf815162bb7987d98d996a_0": " __TRILIUM_PH_0__ メニュー__TRILIUM_PH_1__を通じたアンカーへのリンク",
+          "u_ad025d98db1be4d054a06030_0": "v0.108.0以降、テキスト内に __TRILIUM_PH_0__ と入力してターゲットノートを選択します。次にアンカー名のパーツを入力して __TRILIUM_PH_1__Enter__TRILIUM_PH_2__を押すか、あるいは __TRILIUM_PH_3__アンカーへのリンク__TRILIUM_PH_4__の下からアンカーを選択します。「 __TRILIUM_PH_5__インプレースリンク__TRILIUM_PH_6__」を参照してください。"
+        },
+        "modelVersion": "gemini-3.5-flash-lite",
+        "usage": {
+          "promptTokenCount": 796,
+          "candidatesTokenCount": 268,
+          "totalTokenCount": 1064,
+          "promptTokensDetails": [
+            {
+              "modality": "TEXT",
+              "tokenCount": 796
+            }
+          ],
+          "serviceTier": "standard"
+        }
+      },
+      "unitErrors": {}
     },
     {
       "key": "dDYOyeOGdZRS_c8f7c739ff47a7f3",
@@ -467,7 +707,42 @@
           "contextHash": "b03b0b960edc3e157edde42efd0c46a5ba223e0aa78512e76cff84195dd79c3b"
         }
       ],
-      "format": "text-slots-v1"
+      "format": "text-slots-v1",
+      "result": {
+        "key": "dDYOyeOGdZRS_c8f7c739ff47a7f3",
+        "translations": {
+          "u_335759a362b81974a9ea0e38_0": "アサイドブロック",
+          "u_5bfc8a872a3d60880153570e_0": "アサイドブロックを使用すると、ノートのメインテキストとは別に、メインテキストが周囲に回り込むボックス内にコンテンツを配置できます。別のブロックの中に配置する場合を除き、整形済みテキスト、リスト、テーブル、画像など、あらゆる種類のコンテンツを格納できます。",
+          "u_37173d5812ebbfcdf19cfe15_0": "アサイドブロックの挿入__TRILIUM_PH_0__",
+          "u_c20d396c6a682556ceaf2630_0": " __TRILIUM_PH_0__書式設定ツールバー__TRILIUM_PH_1__の __TRILIUM_PH_2__挿入__TRILIUM_PH_3__ → __TRILIUM_PH_4__ __TRILIUM_PH_5__アサイド__TRILIUM_PH_6__に移動します。",
+          "u_a276509c8ac4690deebca5cf_0": "または、 __TRILIUM_PH_0__ で説明されているように __TRILIUM_PH_1__Enter__TRILIUM_PH_2__を押すか、 __TRILIUM_PH_3__スラッシュコマンド__TRILIUM_PH_4__を入力します。",
+          "u_ad0cb26cdf45687cf4d3111e_0": "アサイドを挿入する前にコンテンツを選択しておくと、そのコンテンツは新しく作成されたブロックに移動されます。",
+          "u_6956df5e701f02e989e803b0_0": "色__TRILIUM_PH_0__",
+          "u_472f963752e0381f069b143c_0": "新しいアサイドブロックの背景色は、パレット内の __TRILIUM_PH_0__暗いグレー__TRILIUM_PH_1__ （Dim grey）です。変更するには、ブロック内にカーソルを置き、その上に表示されるツールバーの __TRILIUM_PH_2__ __TRILIUM_PH_3__背景色__TRILIUM_PH_4__ ボタンをクリックします。ここにはパレットと、__TRILIUM_PH_5__一般書式設定 __TRILIUM_PH_6__で説明されているテキスト背景色のカラーピッカー（__TRILIUM_PH_7__）が表示されます。 __TRILIUM_PH_8__色の削除__TRILIUM_PH_9__ を選択すると、ブロックが透明になります。",
+          "u_bb1116ebbf22d5ab50723f88_0": "テキストの色と同様に、背景色も __TRILIUM_PH_0__テーマ__TRILIUM_PH_1__に順応します。Triliumは明色または暗色の濃淡で表示するため、ライトテーマとダークテーマの両方でテキストの視認性が保たれます。",
+          "u_2b84a53bd2f219c936c7883a_0": " __TRILIUM_PH_0__背景色__TRILIUM_PH_1__ ボタンはモバイルレイアウトでは利用できません。",
+          "u_f2417d3eccc4df1c42d50160_0": "配置__TRILIUM_PH_0__",
+          "u_e2d582d2151c417b273be3ad_0": "新しいアサイドブロックは右側に配置され、メインテキストがその周囲に回り込みます。別の場所に配置するには、ブロック内にカーソルを置き、その上に表示されるツールバーの __TRILIUM_PH_0__ボックスの位置__TRILIUM_PH_1__ ボタンを使用します。メニューには2つのグループがあります。",
+          "u_291e417f058470772540ebd2_0": "「__TRILIUM_PH_0__テキストの回り込み__TRILIUM_PH_1__ 」では、ブロックをノートの側面に配置し、テキストをその横に流し込みます（ __TRILIUM_PH_2__ __TRILIUM_PH_3__左揃え__TRILIUM_PH_4__ または __TRILIUM_PH_5__ __TRILIUM_PH_6__右揃え__TRILIUM_PH_7__）。",
+          "u_3a28c4e03c58345589c9b5bc_0": "「__TRILIUM_PH_0__テキストの改行__TRILIUM_PH_1__ 」では、ブロックに独自の行が割り当てられるため、テキストはブロックの上下でのみ続きます。 __TRILIUM_PH_2__ __TRILIUM_PH_3__左揃え__TRILIUM_PH_4__ と __TRILIUM_PH_5__ __TRILIUM_PH_6__右揃え__TRILIUM_PH_7__のほか、このグループではブロックを中央に配置することもできます（__TRILIUM_PH_8__ __TRILIUM_PH_9__中央揃え__TRILIUM_PH_10__）。",
+          "u_f0b5b68842369c850bf6af92_0": "モバイルレイアウトでは、アサイドブロックはノートの全幅を取るため、テキストが周囲に回り込むことはなく、ブロックのサイズ変更もできません。",
+          "u_dee2595aed0318a4439f4fd9_0": "サイズ変更__TRILIUM_PH_0__"
+        },
+        "modelVersion": "gemini-3.5-flash-lite",
+        "usage": {
+          "promptTokenCount": 2102,
+          "candidatesTokenCount": 1540,
+          "totalTokenCount": 3642,
+          "promptTokensDetails": [
+            {
+              "modality": "TEXT",
+              "tokenCount": 2102
+            }
+          ],
+          "serviceTier": "standard"
+        }
+      },
+      "unitErrors": {}
     },
     {
       "key": "dDYOyeOGdZRS_cd338f6882b9f72b",
@@ -514,7 +789,31 @@
           "contextHash": "8b82faed4ed26fcf354ead2a23371b345ae8f76f21351d52ea10cf24f870d0df"
         }
       ],
-      "format": "text-slots-v1"
+      "format": "text-slots-v1",
+      "result": {
+        "key": "dDYOyeOGdZRS_cd338f6882b9f72b",
+        "translations": {
+          "u_bcc61a5f168e1923471b992f_0": "アサイドブロックの幅を変更するには、カーソルをブロック内に置き、下隅にあるハンドルをドラッグします。高さは自動的に調整されます。",
+          "u_a6c4b314fb6beaedcc06d6ea_0": "アサイドブロックの削除__TRILIUM_PH_0__",
+          "u_9bd051f5689114b5e671d1e1_0": "アサイドをその中のすべてのコンテンツとともに削除するには、左上隅にあるハンドルをクリックして __TRILIUM_PH_0__Delete__TRILIUM_PH_1__キーを押します。",
+          "u_94c10328ab327a6c45da70ae_0": "Markdown__TRILIUM_PH_0__",
+          "u_eb100c9aa338e28119b51a08_0": "アサイドブロックは、ノートがMarkdownにエクスポートされ、再度インポートされた場合でも保持されます。手動で記述するには、 __TRILIUM_PH_0__Supported syntax__TRILIUM_PH_1__のアサイドセクションを参照してください。"
+        },
+        "modelVersion": "gemini-3.5-flash-lite",
+        "usage": {
+          "promptTokenCount": 834,
+          "candidatesTokenCount": 391,
+          "totalTokenCount": 1225,
+          "promptTokensDetails": [
+            {
+              "modality": "TEXT",
+              "tokenCount": 834
+            }
+          ],
+          "serviceTier": "standard"
+        }
+      },
+      "unitErrors": {}
     },
     {
       "key": "klC3ilXa9kUE_e1eeb586080e4ddd",
@@ -609,7 +908,37 @@
           "contextHash": "701f362379dd11f1b74674080e5c42e85b034677827d3a6cce11ebe76f3108f5"
         }
       ],
-      "format": "text-slots-v1"
+      "format": "text-slots-v1",
+      "result": {
+        "key": "klC3ilXa9kUE_e1eeb586080e4ddd",
+        "translations": {
+          "u_80e0c49e7f026b21ad3f0523_0": "テーブル、アサイド、または __TRILIUM_PH_0____TRILIUM_PH_1__コンテンツタブブロックの __TRILIUM_PH_2____TRILIUM_PH_3__ 内では、参照はブロック全体を指します。単一のタブにリンクするには、代わりにタブブロックの __TRILIUM_PH_4____TRILIUM_PH_5__ メニューにある __TRILIUM_PH_6__このタブへの参照をコピー__TRILIUM_PH_7__ を使用します。 __TRILIUM_PH_8__ 詳細なアクション__TRILIUM_PH_9____TRILIUM_PH_10__ マルチカラムレイアウト __TRILIUM_PH_11____TRILIUM_PH_12__内では、参照は列内のブロックを指し、インクルードはその周囲のレイアウトなしでそれらを表示します。",
+          "u_a1e432aa2bcc96b13ad1f929_0": "別のノートの見出し__TRILIUM_PH_0__",
+          "u_98193f7fd82b864c5685f773_0": "v0.108.0以降、リンクは別のノートの見出しを指すこともできます。",
+          "u_43dad103ff7338a1f8e1ed6a_0": "リンクを追加ダイアログで、 __TRILIUM_PH_0____TRILIUM_PH_1__ ページ上でノートを選択します。その見出しとアンカーは、 __TRILIUM_PH_2__ノート__TRILIUM_PH_3__ の後に、 __TRILIUM_PH_4__リンクタイトル__TRILIUM_PH_5__の下にリストされます。 __TRILIUM_PH_6__ノート全体へのリンク__TRILIUM_PH_7__",
+          "u_62c6fb69ad66c023a95fea8a_0": " __TRILIUM_PH_0__見出しへのリンク__TRILIUM_PH_1__の下で、目的の見出しをクリックしてチェックし、 __TRILIUM_PH_2____TRILIUM_PH_3__ または __TRILIUM_PH_4____TRILIUM_PH_5__を押します。リストが表示される前にリンクを挿入でき、その場合はノート自体にリンクします。",
+          "u_636e7004719f0ee932b9afab_0": "または、 __TRILIUM_PH_0__ を入力してノートを選択します。メニューには同じ見出しがリストされ、次に入力したテキストによって候補が絞り込まれます。「 __TRILIUM_PH_1__インプレースリンク__TRILIUM_PH_2__」を参照してください。",
+          "u_c7bcbf4e39128c8e90e28cc9_0": "このリンクもブロック参照です。見出しへのリンクは、そのノートが読み取り専用の場合も含め、見出し内に不可視の識別子を保存します。たとえば途中で変更されたなどの理由で見出しを参照できない場合は、エラーが表示され、リンクは挿入されません。ダイアログは開いたままになります。 __TRILIUM_PH_0__ メニューから、リンクはノート全体を指し続けます。",
+          "u_5e0442fa6271522d38edf169_0": "ブロック参照をクリックすると、ノートが開き、参照されたブロックまでスクロールしてそれらがハイライトされます。参照されたブロックが削除されていた場合は、エラーメッセージが表示されます。範囲の最初または最後のブロックのみがまだ存在する場合、ノートはそのブロックまでスクロールします。",
+          "u_7c316d1eae5ad25bb2a8e54e_0": "リストまたは引用の一部のみをカバーする範囲（2番目の項目からその後の段落までなど）のインクルードは、その場で編集できません。単一のコードブロックやダイアグラムのインクルードも同様です。",
+          "u_280fbe3a53cfab9f33ea089a_0": "ブロックを削除するか、 __TRILIUM_PH_0____TRILIUM_PH_1__で上のブロックに結合すると、それへの参照が切断されます。",
+          "u_7199e350b1930644d9cdb4b4_0": "サブツリーが __TRILIUM_PH_0____TRILIUM_PH_1__された場合、ブロックへのリンクはノート全体につながります。Markdownへのエクスポートではほとんどのブロックの不可視識別子も削除されるため、ノートを再度インポートしたときにそれらへの参照が切断されます。"
+        },
+        "modelVersion": "gemini-3.5-flash-lite",
+        "usage": {
+          "promptTokenCount": 1993,
+          "candidatesTokenCount": 1244,
+          "totalTokenCount": 3237,
+          "promptTokensDetails": [
+            {
+              "modality": "TEXT",
+              "tokenCount": 1993
+            }
+          ],
+          "serviceTier": "standard"
+        }
+      },
+      "unitErrors": {}
     },
     {
       "key": "QxEyIjRBizuC_94759862b1a99b62",
@@ -672,7 +1001,33 @@
           "contextHash": "dce8f46fc7687c91b68f9675d110b06189af52a9029dcd1ffd89986c90841f74"
         }
       ],
-      "format": "text-slots-v1"
+      "format": "text-slots-v1",
+      "result": {
+        "key": "QxEyIjRBizuC_94759862b1a99b62",
+        "translations": {
+          "u_0fe3a78821b79ae7993dfa09_0": "この機能がオンの間は、テキストノートのすべてのコードブロックが拡張コードブロックになります（すでにノート内にあるものと、新しく追加されるものの両方です）。",
+          "u_7aecc0ae4e03a79c59ef6bab_0": "挿入するには、 __TRILIUM_PH_0__コードブロックの挿入__TRILIUM_PH_1__で説明されているいずれかの方法でコードブロックを挿入します。",
+          "u_30a1d072c4f6362d3c6f0e34_0": "新しいブロックは編集可能であり、 __TRILIUM_PH_0__Full__TRILIUM_PH_1__ ボックス内に表示され、フォーカスが当たります。その言語は __TRILIUM_PH_2__ ボタンのリストから選択されたものになりますが、それが指定されていない場合はコードブロックに最後に設定された言語、または __TRILIUM_PH_3__プレーンテキスト__TRILIUM_PH_4__になります。",
+          "u_e231d55aac2a4fe551298b7a_0": "言語のリストには __TRILIUM_PH_0__自動検出__TRILIUM_PH_1__ 項目がありません。 __TRILIUM_PH_2__自動検出__TRILIUM_PH_3__ として保存されたコードブロックは、ノートの編集が開かれたときにTriliumがそのコード内で検出した言語、または __TRILIUM_PH_4__プレーンテキスト__TRILIUM_PH_5__になります。言語はその後、ブロックのツールバーから変更できます。",
+          "u_a56b87a2c30fdb966d8157af_0": "そのツールバーには、 __TRILIUM_PH_0__Include Note__TRILIUM_PH_1__ の __TRILIUM_PH_2__インプレースでのインクルードの編集__TRILIUM_PH_3__ で説明されている、埋め込みコードファイルの __TRILIUM_PH_4__Change language mode__TRILIUM_PH_5__メニューと、通常のコードブロックと同様にコードをコピーする __TRILIUM_PH_6__ __TRILIUM_PH_7__クリップボードにコピー__TRILIUM_PH_8__ ボタンがあります。その __TRILIUM_PH_9__ __TRILIUM_PH_10__詳細な操作__TRILIUM_PH_11__ メニューには、チェックを外すとコードが読み取り専用で表示される __TRILIUM_PH_12__編集可能__TRILIUM_PH_13__、 __TRILIUM_PH_14__テキストの折り返し__TRILIUM_PH_15__ および __TRILIUM_PH_16__行番号__TRILIUM_PH_17__ サブメニュー、埋め込みコードファイルの __TRILIUM_PH_18__タブ幅の変更__TRILIUM_PH_19__ メニュー項目を持つ __TRILIUM_PH_20__タブ幅__TRILIUM_PH_21__ サブメニュー、 __TRILIUM_PH_22__サイズ__TRILIUM_PH_23__ サブメニュー（ __TRILIUM_PH_24__サイズ変更可能__TRILIUM_PH_25__、 __TRILIUM_PH_26__フル__TRILIUM_PH_27__ 、 __TRILIUM_PH_28__デフォルト__TRILIUM_PH_29__）、 __TRILIUM_PH_30__位置__TRILIUM_PH_31__ サブメニュー、およびノートからブロックを削除する __TRILIUM_PH_32__ __TRILIUM_PH_33__ブロックの削除__TRILIUM_PH_34__があります。",
+          "u_01728eda3dc973c46dbe9058_0": "コードは、その言語のコードブロックとしてノート内に留まります。Markdownエクスポート、 __TRILIUM_PH_0__共有ページ__TRILIUM_PH_1__ 、および印刷ではコードブロックとして表示され、別のアプリケーションにコピーするとコードブロックとして貼り付けられます。",
+          "u_00b55ebb34039d05094f37a0_0": "拡張コードブロック __TRILIUM_PH_0__を再度オフにすると、この機能がないTriliumのバージョンと同様に、コードブロックが以前のように表示されます。そこでノートを保存すると、ブロックのボックスサイズやその他の設定は失われます。Trilium 0.107の__TRILIUM_PH_1__ 挿入 __TRILIUM_PH_2__メニューから挿入された拡張コードブロックは、機能がオフの間もその状態が維持されます。__TRILIUM_PH_3__ "
+        },
+        "modelVersion": "gemini-3.5-flash-lite",
+        "usage": {
+          "promptTokenCount": 1737,
+          "candidatesTokenCount": 1196,
+          "totalTokenCount": 2933,
+          "promptTokensDetails": [
+            {
+              "modality": "TEXT",
+              "tokenCount": 1737
+            }
+          ],
+          "serviceTier": "standard"
+        }
+      },
+      "unitErrors": {}
     },
     {
       "key": "Gr6xFaF6ioJ5_26edbfaf368d5fdf",
@@ -695,7 +1050,28 @@
           "contextHash": "2a6bf631edb7686e3f2cb5da813f13e85254933043f7b8ae6c1109b8d4b3b51f"
         }
       ],
-      "format": "text-slots-v1"
+      "format": "text-slots-v1",
+      "result": {
+        "key": "Gr6xFaF6ioJ5_26edbfaf368d5fdf",
+        "translations": {
+          "u_b9b1e09008eb80a56642ac05_0": "見出し1がリストから除外されているのは、ノートのタイトル用に予約されているためです。例えば他のアプリケーションから貼り付けられたテキストなど、すでにテキスト内に存在する見出し1は、見出しとしてそのまま保持されます。",
+          "u_129d950cb6313ff702ff126d_0": "選択したテキストは、パレット内の定義済みカラーのいずれかで色付けするか、カラーピッカー（__TRILIUM_PH_0__）を使用して任意の色を選択できます。選択したリンクプレビューも同様の方法で色付けできます（ __TRILIUM_PH_1__リンクプレビュー__TRILIUM_PH_2__を参照）。"
+        },
+        "modelVersion": "gemini-3.5-flash-lite",
+        "usage": {
+          "promptTokenCount": 691,
+          "candidatesTokenCount": 241,
+          "totalTokenCount": 932,
+          "promptTokensDetails": [
+            {
+              "modality": "TEXT",
+              "tokenCount": 691
+            }
+          ],
+          "serviceTier": "standard"
+        }
+      },
+      "unitErrors": {}
     },
     {
       "key": "CohkqWQC1iBv_883b72e3f5882ede",
@@ -718,7 +1094,28 @@
           "contextHash": "c548d335d9005b84e952ae757376308adb1d66dd2f52a9596432207a882089e4"
         }
       ],
-      "format": "text-slots-v1"
+      "format": "text-slots-v1",
+      "result": {
+        "key": "CohkqWQC1iBv_883b72e3f5882ede",
+        "translations": {
+          "u_71f0196f8610d9db8bd46980_0": "アサイドブロック__TRILIUM_PH_0__",
+          "u_abc297990bfee93e3e7ee13d_0": "専用の __TRILIUM_PH_0__アサイドブロック__TRILIUM_PH_1__ ページをご覧ください。"
+        },
+        "modelVersion": "gemini-3.5-flash-lite",
+        "usage": {
+          "promptTokenCount": 523,
+          "candidatesTokenCount": 157,
+          "totalTokenCount": 680,
+          "promptTokensDetails": [
+            {
+              "modality": "TEXT",
+              "tokenCount": 523
+            }
+          ],
+          "serviceTier": "standard"
+        }
+      },
+      "unitErrors": {}
     },
     {
       "key": "oiVPnW8QfnvS_c7ccd9e6e640033b",
@@ -733,7 +1130,27 @@
           "contextHash": "e9bef0b0f3c25e6eaf3a754817a8b4f62e1c8473cb2be3e190975926dbf72d6f"
         }
       ],
-      "format": "text-slots-v1"
+      "format": "text-slots-v1",
+      "result": {
+        "key": "oiVPnW8QfnvS_c7ccd9e6e640033b",
+        "translations": {
+          "u_c9694675e0120de06d9de785_0": "Vimモードが __TRILIUM_PH_0____TRILIUM_PH_1__ 有効になっている場合、これらのショートカットの一部はVimに従います。例えば、ノーマルモードでページを上にスクロールする __TRILIUM_PH_2____TRILIUM_PH_3____TRILIUM_PH_4____TRILIUM_PH_5__などが該当します。該当ページ内の __TRILIUM_PH_6__エディターで変更されるショートカット__TRILIUM_PH_7__ をご覧ください。"
+        },
+        "modelVersion": "gemini-3.5-flash-lite",
+        "usage": {
+          "promptTokenCount": 564,
+          "candidatesTokenCount": 196,
+          "totalTokenCount": 760,
+          "promptTokensDetails": [
+            {
+              "modality": "TEXT",
+              "tokenCount": 564
+            }
+          ],
+          "serviceTier": "standard"
+        }
+      },
+      "unitErrors": {}
     },
     {
       "key": "UmgZAfcltxkS_7bd764e3ea577a1f",
@@ -748,7 +1165,27 @@
           "contextHash": "fbfe0d0c7312ecacd9bd92de91cc63c4f6b0d60a88ca85e7926354379f6f805d"
         }
       ],
-      "format": "text-slots-v1"
+      "format": "text-slots-v1",
+      "result": {
+        "key": "UmgZAfcltxkS_7bd764e3ea577a1f",
+        "translations": {
+          "u_98aa4f9a1ed9928e2efb0ef9_0": "リンクプレビューに色を付けるには、それを選択し、テキストの場合と同様に __TRILIUM_PH_0__ フォントの色または __TRILIUM_PH_1__ 背景色のボタンで色を選択します。フォントの色は、「アイコンとテキスト」リンクのタイトルと __TRILIUM_PH_2__アイコンとテキスト__TRILIUM_PH_3__ リンク、および __TRILIUM_PH_4__カード__TRILIUM_PH_5__のテキストに適用されます。背景色はプレビュー全体を塗りつぶします。プレビューの色は、色付けができない __TRILIUM_PH_6__埋め込み__TRILIUM_PH_7__を除き、表示モードが変更されても保持されます。"
+        },
+        "modelVersion": "gemini-3.5-flash-lite",
+        "usage": {
+          "promptTokenCount": 638,
+          "candidatesTokenCount": 240,
+          "totalTokenCount": 878,
+          "promptTokensDetails": [
+            {
+              "modality": "TEXT",
+              "tokenCount": 638
+            }
+          ],
+          "serviceTier": "standard"
+        }
+      },
+      "unitErrors": {}
     },
     {
       "key": "hrZ1D00cLbal_d8a152afd184ff42",
@@ -827,7 +1264,35 @@
           "contextHash": "d5d8f35c7caca88eb039d810ddb709a57b01da6d469a3341b190d50dd6c1214e"
         }
       ],
-      "format": "text-slots-v1"
+      "format": "text-slots-v1",
+      "result": {
+        "key": "hrZ1D00cLbal_d8a152afd184ff42",
+        "translations": {
+          "u_1bc8f646e0e375b56152a2f4_0": "Ctrl __TRILIUM_PH_0____TRILIUM_PH_1__ + __TRILIUM_PH_2____TRILIUM_PH_3__を押すか、スラッシュコマンド（ __TRILIUM_PH_4__Link to a note (internal link)__TRILIUM_PH_5__ ）から選択します。ウェブページの __TRILIUM_PH_6____TRILIUM_PH_7__。 __TRILIUM_PH_8__ ボタン __TRILIUM_PH_9__Formatting toolbar__TRILIUM_PH_10__ でも同じダイアログが開きます。ノートにリンクするには、その上部で __TRILIUM_PH_11__Note__TRILIUM_PH_12__を選択します。デスクトップ版では、カーソルの隣のポップアップで __TRILIUM_PH_13__Add link__TRILIUM_PH_14__  __TRILIUM_PH_15____TRILIUM_PH_16__ ダイアログが開きます。",
+          "u_bfee3601714f1a8fe36e2729_0": "v0.107.0以降、リンクを変更するには、リンクをクリックしてポップアップ内の __TRILIUM_PH_0__ __TRILIUM_PH_1__Edit link__TRILIUM_PH_2__ ボタンを押します。独自のタイトルを持つリンクの場合は、その中にカーソルを置いて __TRILIUM_PH_3__Ctrl__TRILIUM_PH_4__ + __TRILIUM_PH_5__L__TRILIUM_PH_6__ を押すことでも可能です。 __TRILIUM_PH_7__Edit link__TRILIUM_PH_8__ ダイアログがリンク先のノートで開き、アンカーや、独自のタイトルを持つリンクの場合はそのテキストが表示されます。 __TRILIUM_PH_9__Save link__TRILIUM_PH_10__ によりリンク全体が変更されます。そこの __TRILIUM_PH_11__Link title__TRILIUM_PH_12__ を空にすると、リンクはノートのタイトルを表示するものになり、入力すると独自のタイトルが設定されます。添付ファイルへのリンクの場合、ダイアログには __TRILIUM_PH_13__Link title__TRILIUM_PH_14__のみが表示され、それを空にすると添付ファイルのタイトルが表示されるようになります。",
+          "u_02692fc8ad37c8cf7c5b32c1_0": "テキストノートで __TRILIUM_PH_0__ と入力すると、ノート検索メニューが開きます。",
+          "u_af714ca8f5055c474a95773d_0": "数文字入力して、目的のノートのタイトルを検索します。 __TRILIUM_PH_0__Up__TRILIUM_PH_1__ および __TRILIUM_PH_2__Down__TRILIUM_PH_3__ を使用して正しいノートを選択し、 __TRILIUM_PH_4__Enter__TRILIUM_PH_5__ または __TRILIUM_PH_6__Tab__TRILIUM_PH_7__ を押して決定します。上記のように存在しないノートのタイトルを入力して __TRILIUM_PH_8__Create note__TRILIUM_PH_9__を選択するか、または __TRILIUM_PH_10__Create child note__TRILIUM_PH_11__を選択することで、この方法で新しいノートを作成することもできます。 __TRILIUM_PH_12__Create child note__TRILIUM_PH_13__ は、タイプを尋ねることなく編集中のノートの下にノートを作成し、リンクを挿入して、空のままでノートの種類を変更できる __TRILIUM_PH_14__Quick edit__TRILIUM_PH_15__で新しいノートを開きます。",
+          "u_a2dd91fe92fa53d37b34d5e4_0": "v0.108.0以降、ノートを選択するとすぐにリンクされます。その後、リンクの後に ¶ が続き、ノート内のどこにリンクを指すことができるかがメニューに表示されます。 __TRILIUM_PH_0__Link to the whole note__TRILIUM_PH_1__、その見出し、およびアンカーです。",
+          "u_c2c0fc5964242cc68a8f4b05_0": "リンクを見出しまたはアンカーに向けるには、¶ の後ろに名前の一部を入力し、最初の候補を採用する __TRILIUM_PH_0__Enter__TRILIUM_PH_1__ または __TRILIUM_PH_2__Tab__TRILIUM_PH_3__を押します。 __TRILIUM_PH_4__Up__TRILIUM_PH_5__ および __TRILIUM_PH_6__Down__TRILIUM_PH_7__ で別の項目を選択します。",
+          "u_db9db3c3f688c1ca37b9a5c2_0": "ノート全体へのリンクを維持するには、 __TRILIUM_PH_0__Link to the whole note__TRILIUM_PH_1__ 上で __TRILIUM_PH_2__Enter__TRILIUM_PH_3__を押すか、 __TRILIUM_PH_4__Esc__TRILIUM_PH_5__を押します。¶ の直後に __TRILIUM_PH_6__Backspace__TRILIUM_PH_7__ を押すかスペースを入力しても同様に、書き込みを続けることができます。",
+          "u_7f33e4fcc75d63c65928b1a6_0": "¶ はノートの一部ではなく、メニューと一緒に消えます。見出しやアンカーが選択されない限り、その後にに入力されたテキストはノートに残ります。",
+          "u_1712fabef22ddc94dca34f0e_0": "メニューから作成されたノートは、この手順なしでリンクされます。すべてのノートでこれをスキップするには、 __TRILIUM_PH_0__Options__TRILIUM_PH_1__ → __TRILIUM_PH_2__Text Notes__TRILIUM_PH_3__ → __TRILIUM_PH_4__Features__TRILIUM_PH_5__ の __TRILIUM_PH_6__Note auto-completion__TRILIUM_PH_7__ にある __TRILIUM_PH_8__Suggest headings and anchors to link to__TRILIUM_PH_9__をオフにします。 __TRILIUM_PH_10__Linking to a heading__TRILIUM_PH_11__ および __TRILIUM_PH_12__Anchors__TRILIUM_PH_13__を参照してください。"
+        },
+        "modelVersion": "gemini-3.5-flash-lite",
+        "usage": {
+          "promptTokenCount": 2352,
+          "candidatesTokenCount": 1640,
+          "totalTokenCount": 3992,
+          "promptTokensDetails": [
+            {
+              "modality": "TEXT",
+              "tokenCount": 2352
+            }
+          ],
+          "serviceTier": "standard"
+        }
+      },
+      "unitErrors": {}
     },
     {
       "key": "QEAPj01N5f7w_c80521e08a1e38f0",
@@ -842,7 +1307,27 @@
           "contextHash": "9c6621e9938782e6ddc9300bee146a964f5e2b031fcfa3636b92bc707eeaa436"
         }
       ],
-      "format": "text-slots-v1"
+      "format": "text-slots-v1",
+      "result": {
+        "key": "QEAPj01N5f7w_c80521e08a1e38f0",
+        "translations": {
+          "u_cabebad12e7845fa5a75ddf7_0": "ノート __TRILIUM_PH_0__ページ__TRILIUM_PH_1__ では、選択されたノートの見出しとアンカーが、リンクタイトルの下に一覧表示され、その中の特定の箇所をリンク先として指定できるようになっています。最初にチェックが入っている __TRILIUM_PH_2__リンクタイトル__TRILIUM_PH_3__ __TRILIUM_PH_4__ノート全体へのリンク__TRILIUM_PH_5__は、ノート自体へとリンクします。詳細については、 __TRILIUM_PH_6__見出しへのリンク__TRILIUM_PH_7__ および __TRILIUM_PH_8__アンカー__TRILIUM_PH_9__を参照してください。"
+        },
+        "modelVersion": "gemini-3.5-flash-lite",
+        "usage": {
+          "promptTokenCount": 607,
+          "candidatesTokenCount": 236,
+          "totalTokenCount": 843,
+          "promptTokensDetails": [
+            {
+              "modality": "TEXT",
+              "tokenCount": 607
+            }
+          ],
+          "serviceTier": "standard"
+        }
+      },
+      "unitErrors": {}
     },
     {
       "key": "qxtXjXzFOEn1_454c0d4d53de8ea5",
@@ -977,7 +1462,42 @@
           "contextHash": "8c6e66c2968f270480d3d422e462a6511e435bf19bfa955035800c6e8814a972"
         }
       ],
-      "format": "text-slots-v1"
+      "format": "text-slots-v1",
+      "result": {
+        "key": "qxtXjXzFOEn1_454c0d4d53de8ea5",
+        "translations": {
+          "u_c46ff66293e92a6c57bbf068_0": "Vim初心者ガイド",
+          "u_30a1f2f8a95b48b3a7383992_0": "Vimはキーボード操作を中心として設計されたテキストエディタです。Triliumは、テキストノートやコードノート内でその動作を模倣することができ、これはVimモードと呼ばれています。このページでは、その背景にある考え方、各モードの動作、および最初に覚えるべきキーについて説明します。これは両方の種類のノートに適用され、両者の間で異なる点についてはその旨がテキストに記載されています。",
+          "u_5504ef1ffef158f8c7643c16_0": "Vimモードはオプションであり、デフォルトではオフになっています。有効にするまでは、このページのどの内容も適用されません。以下の __TRILIUM_PH_0__有効化__TRILIUM_PH_1__ を参照してください。",
+          "u_cf204c2c0abbdfe817d4d2a9_0": "キーの表記方法__TRILIUM_PH_0__",
+          "u_70aed339070b0e0dba2bd8f9_0": "これらのページでは、コマンドは押すべきキーを順番に並べて記述されます。 __TRILIUM_PH_0__ は __TRILIUM_PH_1__ を2回押すことを意味し、 __TRILIUM_PH_2__ は __TRILIUM_PH_3__、次に __TRILIUM_PH_4__、次に __TRILIUM_PH_5__を押すことを意味します。キーを同時に押し続けるわけではありません。",
+          "u_74762ee4767c409c6e6d8406_0": "同時に押し続けるキーは、 __TRILIUM_PH_0__Ctrl__TRILIUM_PH_1__+__TRILIUM_PH_2__R__TRILIUM_PH_3__のようにプラス記号で結んで記述されます。大文字と小文字は重要です。 __TRILIUM_PH_4__ は __TRILIUM_PH_5__Shift__TRILIUM_PH_6__ と一緒にタイプされ、 __TRILIUM_PH_7__とは異なる動作をします。",
+          "u_c625773a3bcf7b5a0fd50abf_0": "Vimとは何ですか？__TRILIUM_PH_0__",
+          "u_1dd514e781d1a3246e497d3e_0": "__TRILIUM_PH_0__Vim__TRILIUM_PH_1__ は人気の高いテキストエディタです。その最も際立った特徴は、モーダルエディタであるという点です。ほとんどのエディタでは、文字キーを押すと常にその文字が入力されます。Vimでは、キーがどのような動作をするかはエディタのモードによって異なります。あるモードでは文字がテキストとして入力され、別のモードでは同じ文字がカーソルの移動、単語の削除、行のコピーを行うコマンドになります。 __TRILIUM_PH_2__モーダル__TRILIUM_PH_3__ ",
+          "u_e466b2f55c29678399427ed6_0": "TriliumにはVimそのものが含まれているわけではありません。独自のエディタ内でVimのキー操作を模倣しているため、ノートは通常のTriliumノートのまま維持されます。",
+          "u_3e37107eb0e7d4fc9ffd2c61_0": "なぜ使用するのですか？__TRILIUM_PH_0__",
+          "u_51aa2599d2f2e00e18fb750a_0": "__TRILIUM_PH_0__手がキーボードの上に常に置かれます。__TRILIUM_PH_1__ マウスや矢印キーに手を伸ばすことなく、文字キーだけで移動、選択、コピー、検索のすべてを行うことができます。マウスはこれまで通り機能し続けます。",
+          "u_d4e9cbf9291ccefe1b2db59f_0": "__TRILIUM_PH_0__コマンドは組み合わせることができます。__TRILIUM_PH_1__ いくつかのキーを一度覚えてから組み合わせます。 __TRILIUM_PH_2__ は削除を意味し、 __TRILIUM_PH_3__ は単語を意味するため、 __TRILIUM_PH_4__ で1単語が削除されます。",
+          "u_dfcf1ef44c80b2391b33d86a_0": "__TRILIUM_PH_0__変更を繰り返すことができます。__TRILIUM_PH_1__ __TRILIUM_PH_2__ は直前の変更を繰り返し、コマンドの前に数字を付けるとその回数だけ実行されます。",
+          "u_41bb39b349b727d55d335a97_0": "__TRILIUM_PH_0__多くの知識を他の環境へ持ち越すことができます。__TRILIUM_PH_1__ 多くのカーソル移動や編集コマンドは、Vim自体や他のエディタのVimモードでも機能します。Triliumには独自のコマンドもあり、テキストノートはプレーンテキストファイルではなくリッチテキストを保持するため、部分的に異なる点があります。",
+          "u_057b2d1fa896f21ab6053d31_0": "Vimモードに慣れるまでには少し時間がかかる場合があります。自分に合わない場合は、オプションをオフにすることで通常のエディタに戻すことができます。",
+          "u_d02cf6760fe0178f1af21e5c_0": "有効化する方法__TRILIUM_PH_0__"
+        },
+        "modelVersion": "gemini-3.5-flash-lite",
+        "usage": {
+          "promptTokenCount": 2305,
+          "candidatesTokenCount": 1544,
+          "totalTokenCount": 3849,
+          "promptTokensDetails": [
+            {
+              "modality": "TEXT",
+              "tokenCount": 2305
+            }
+          ],
+          "serviceTier": "standard"
+        }
+      },
+      "unitErrors": {}
     },
     {
       "key": "qxtXjXzFOEn1_9499c9a5336a05c7",
@@ -1112,7 +1632,42 @@
           "contextHash": "0478cee21e51e0099b423c7f2bc0549dab1d530c51e26cd5a03d410e51f0bfe6"
         }
       ],
-      "format": "text-slots-v1"
+      "format": "text-slots-v1",
+      "result": {
+        "key": "qxtXjXzFOEn1_9499c9a5336a05c7",
+        "translations": {
+          "u_7a4c731fd9b9b8adb8bd0fa3_0": "テキストノートとコードノートにはそれぞれ独自のオプションがあり、どちらも現在のデバイスにのみ適用されます：",
+          "u_5e278194c22e5bbdd773a335_0": "テキストノートの場合は、 __TRILIUM_PH_0__オプション__TRILIUM_PH_1__ → __TRILIUM_PH_2__テキストノート__TRILIUM_PH_3__ → __TRILIUM_PH_4__機能__TRILIUM_PH_5__ に移動し、 __TRILIUM_PH_6__Vimモード__TRILIUM_PH_7__を有効にします。特定のノートで無効にするには、ステータスバーの __TRILIUM_PH_8__Vim__TRILIUM_PH_9__ バッジをクリックします。設定については __TRILIUM_PH_10__Vimモード__TRILIUM_PH_11__ を参照してください。",
+          "u_871f3294fff91aa404bb55ed_0": "コードノートの場合は、 __TRILIUM_PH_0__オプション__TRILIUM_PH_1__ → __TRILIUM_PH_2__コードノート__TRILIUM_PH_3__ → __TRILIUM_PH_4__エディタ__TRILIUM_PH_5__ に移動し、 __TRILIUM_PH_6__Vimキーバインド__TRILIUM_PH_7__を有効にします。",
+          "u_b8b7967032c46f8cec9e0fd5_0": "モード__TRILIUM_PH_0__",
+          "u_1b38ccc273c4139f92f5b738_0": "モードによって、キーボードの動作が決まります。主なモードには次の5つがあります：",
+          "u_52e8286ebcc640c9974ce00d_0": "モード",
+          "u_f82c1eff5b7c14234fc23257_0": "キーの動作",
+          "u_fba146aeabe682af7645eda2_0": "切り替え方法",
+          "u_bfc92f122ff39cdb857ba9f0_0": "通常",
+          "u_e302cbc83c03e11b7dc05eec_0": "コマンドの実行：移動、削除、コピー、貼り付け。",
+          "u_bce8b72b50da1b3693e604ab_0": "他のモードから__TRILIUM_PH_0__Esc__TRILIUM_PH_1__ を押す",
+          "u_46bdc04d49ba4774e1ec4fe4_0": "挿入",
+          "u_b12d8d4656f924023a29695b_0": "通常のエディタのようにテキストを入力します。",
+          "u_423d88203a34a266986f83cc_0": "ビジュアル",
+          "u_bb7c980e09c7c258b1618b07_0": "テキストを選択します。",
+          "u_c87151861005a64da45fe9dd_0": "文字単位、__TRILIUM_PH_0__ 行単位 __TRILIUM_PH_1__ "
+        },
+        "modelVersion": "gemini-3.5-flash-lite",
+        "usage": {
+          "promptTokenCount": 1604,
+          "candidatesTokenCount": 1064,
+          "totalTokenCount": 2668,
+          "promptTokensDetails": [
+            {
+              "modality": "TEXT",
+              "tokenCount": 1604
+            }
+          ],
+          "serviceTier": "standard"
+        }
+      },
+      "unitErrors": {}
     },
     {
       "key": "qxtXjXzFOEn1_e6882272ae025068",
@@ -1247,7 +1802,42 @@
           "contextHash": "ba471610edfc6cbaa3a4726e3e1fe07bbf2f0ff111846c48940f9174849ec455"
         }
       ],
-      "format": "text-slots-v1"
+      "format": "text-slots-v1",
+      "result": {
+        "key": "qxtXjXzFOEn1_e6882272ae025068",
+        "translations": {
+          "u_9bb155960d521e70432b9d90_0": "置換",
+          "u_d1e48f48f977f31b6f4a2640_0": "既存のテキストの上に上書きします。",
+          "u_216a93b4fc65935e4cfdd209_0": "コマンドライン",
+          "u_715d3869423b235010b0bf81_0": "コマンド名または検索するテキストを入力します。",
+          "u_3a9912d03d488de8fb8221a5_0": "__TRILIUM_PH_0__ コマンドを入力するか、 __TRILIUM_PH_1__ または __TRILIUM_PH_2__ を検索します",
+          "u_53722a8d69a4bd8cb381ad40_0": "Vimには複数の行にわたるテキストの矩形を選択するビジュアルブロックモードもあります。現在、これはサポートされていません。テキストノートでは、挿入モードでのVimキー設定が有効になっていない限り、 __TRILIUM_PH_0__Ctrl__TRILIUM_PH_1__+__TRILIUM_PH_2__V__TRILIUM_PH_3__ は通常モードおよびビジュアルモード、ならびにタイピング中にも貼り付けを行います。コードノートでは、 __TRILIUM_PH_4__Vim keys in Insert mode__TRILIUM_PH_5__ 設定に関わらず、 __TRILIUM_PH_6__Ctrl__TRILIUM_PH_7__+__TRILIUM_PH_8__V__TRILIUM_PH_9__ または __TRILIUM_PH_10__Ctrl__TRILIUM_PH_11__+__TRILIUM_PH_12__Q__TRILIUM_PH_13__ によってモードが開始されますが、選択範囲は1行にとどまるため、矩形としては機能しません。",
+          "u_104deb02e788360c454ed007_0": "通常モード__TRILIUM_PH_0__",
+          "u_84784803a75d82dd94c7364b_0": "通常モードは、ノートを開いたときや2つの編集の間に戻るモードです。ここではアルファベットキーで文字入力は行われません。それぞれがコマンドとなります。 __TRILIUM_PH_0__ は1行下へ移動し、 __TRILIUM_PH_1__ は1文字削除し、 __TRILIUM_PH_2__ は直前の変更を元に戻します。",
+          "u_7301ed538314666211232945_0": "これは、最初は奇妙に感じられる部分です。その考え方は、ノートで過ごす時間のほとんどは新しいテキストの入力ではなく、読書、移動、既存テキストの変更に費やされるため、指の下にあるキーをそれらのタスクに割り当てるというものです。",
+          "u_6f466e76eb04de08528cd555_0": "ノートの開始位置には1つ例外があります。Vimモードが有効化されたときにすでに開いていたテキストノートは挿入モードになり、タイピングがそのまま機能するようになっています。通常モードに戻るには __TRILIUM_PH_0__Esc__TRILIUM_PH_1__ を押します。",
+          "u_b373873a38959aa5f43cab1a_0": "挿入モード__TRILIUM_PH_0__",
+          "u_ad7e52d67098754729dce66b_0": "挿入モードは、すでに馴染みのあるエディタです。キーを押すとテキストが入力されます。通常モードで __TRILIUM_PH_0__ を押して入り、 __TRILIUM_PH_1__Esc__TRILIUM_PH_2__ を押して終了します。",
+          "u_14942487c845488b719ca9f3_0": "テキストノートでは、フォーマットのショートカット、スラッシュコマンド、ツールバーなど、通常の編集機能が挿入モードでも引き続き利用できます。一部の __TRILIUM_PH_0__Ctrl__TRILIUM_PH_1__ ショートカットにはVimでの意味があります。 __TRILIUM_PH_2__Vim mode__TRILIUM_PH_3__を参照してください。",
+          "u_53efb3e0e8518ff6156be1b8_0": "どこに入力したいかに応じて、挿入モードに入る方法がいくつかあります。 __TRILIUM_PH_0__ カーソルの前、 __TRILIUM_PH_1__ カーソルの後ろ、 __TRILIUM_PH_2__ 行末、および __TRILIUM_PH_3__ 下の新しい行です。",
+          "u_81e565f960ca074f24d3f85d_0": "ビジュアルモード__TRILIUM_PH_0__",
+          "u_e7e7c224ffe69ab761dac214_0": "ビジュアルモードではテキストを選択します。 __TRILIUM_PH_0__を押してからカーソルを動かすと、選択範囲がそれに追従します。次にキーを押して選択範囲に対する操作を行います。たとえば、削除するには __TRILIUM_PH_1__ を押し、コピーするには __TRILIUM_PH_2__ を押します。 __TRILIUM_PH_3__ を使うと同様に本当の行全体を選択します。 __TRILIUM_PH_4__Esc__TRILIUM_PH_5__ を押すと、何も変更せずにビジュアルモードを終了します。"
+        },
+        "modelVersion": "gemini-3.5-flash-lite",
+        "usage": {
+          "promptTokenCount": 2283,
+          "candidatesTokenCount": 1545,
+          "totalTokenCount": 3828,
+          "promptTokensDetails": [
+            {
+              "modality": "TEXT",
+              "tokenCount": 2283
+            }
+          ],
+          "serviceTier": "standard"
+        }
+      },
+      "unitErrors": {}
     },
     {
       "key": "qxtXjXzFOEn1_5e5d05902e9bbb84",
@@ -1382,7 +1972,42 @@
           "contextHash": "845a3c1f23b27efa08434f990468d70b5c096ceca71cf0dc369eef2caee31174"
         }
       ],
-      "format": "text-slots-v1"
+      "format": "text-slots-v1",
+      "result": {
+        "key": "qxtXjXzFOEn1_5e5d05902e9bbb84",
+        "translations": {
+          "u_ff809b7329e58c95751cd014_0": "置換モード__TRILIUM_PH_0__",
+          "u_75a9dc22ba65b018c2519040_0": "置換モードでは、入力した各文字が、その手前に追加されるのではなく、カーソル下にある文字と置き換わります。移行するには __TRILIUM_PH_0__ を押します。抜けるには __TRILIUM_PH_1__Esc__TRILIUM_PH_2__ を押します。",
+          "u_f3c93ac420eb0894f293a0e1_0": "コマンドライン__TRILIUM_PH_0__",
+          "u_28ccbaf9dcb988cfcc0506f8_0": "一部のコマンドは名前で入力します。ノーマルモードで __TRILIUM_PH_0__ を押すとコマンドラインが開き、そこでコマンドを入力して __TRILIUM_PH_1__Enter__TRILIUM_PH_2__を押します。たとえば、 __TRILIUM_PH_3__ は行をソートします。 __TRILIUM_PH_4__ を押すと代わりに検索用のコマンドラインが開き、 __TRILIUM_PH_5__ では後方検索になります。 __TRILIUM_PH_6__Esc__TRILIUM_PH_7__ を押すと、何も実行せずに閉じます。",
+          "u_6d81be758060873a30db9a27_0": "テキストノートの場合、コマンドラインはパンくずリストのある __TRILIUM_PH_0__ステータスバー__TRILIUM_PH_1__に開きます。コードノートの場合、エディターの下部に開きます。",
+          "u_01b878c9166e4a985799eadd_0": "自分がどのモードにいるかを確認するには__TRILIUM_PH_0__",
+          "u_7c028cfec37275c35e77b1bc_0": "テキストノートでは、ステータスバーにモードが表示されます： __TRILIUM_PH_0__、 __TRILIUM_PH_1__、 __TRILIUM_PH_2__、 __TRILIUM_PH_3__ 、または __TRILIUM_PH_4__。",
+          "u_ec55ca5b07000d865cce721b_0": "どちらの種類のノートでも、カーソルによってもモードがわかります。ノーマルモードおよびビジュアルモードでは、文字を覆うブロック状になります。インサートモードではブロックがなくなり、代わりに通常の細いキャレットが表示されます。",
+          "u_b48ecd622923e4f18bb468ed_0": "最初のセッション__TRILIUM_PH_0__",
+          "u_b3f62d2fef4ad8d83f0db9b3_0": "この演習は、キーを暗記させることではなく、ノーマルモードとインサートモードの間を行き来する感覚をつかむためのものです。新規ノートや既存ノートのコピーなど、自由に実験できるノートを使用して、次を行います：",
+          "u_03106aa7441ccb478323b6d4_0": "を押して、 __TRILIUM_PH_0__ いくつかの単語を入力します。これでインサートモードになります。",
+          "u_9ba25f8c2862346e6382276e_0": "を押します。 __TRILIUM_PH_0__Esc__TRILIUM_PH_1__これでノーマルモードに戻り、カーソルがブロック状になります。",
+          "u_c456ee30ac5581ca4593fde1_0": "カーソルを移動するには、 __TRILIUM_PH_0__ (左)、 __TRILIUM_PH_1__ (下)、 __TRILIUM_PH_2__ (上)、 __TRILIUM_PH_3__ (右)を使用します。",
+          "u_d4691e42a86f3841fb606f8e_0": "を押してカーソル下の文字を削除し、 __TRILIUM_PH_0__ を押してそれを元に戻します。 __TRILIUM_PH_1__ ",
+          "u_3f3e60740085965c63a27ba5_0": "を押して行全体を削除し、 __TRILIUM_PH_0__ を押して元に戻します。 __TRILIUM_PH_1__ ",
+          "u_9e26d07359043b37389fc19b_0": "を押します。 __TRILIUM_PH_0__カーソルがインサートモードのまま行末にジャンプします。何かを入力し、 __TRILIUM_PH_1__Esc__TRILIUM_PH_2__を押します。"
+        },
+        "modelVersion": "gemini-3.5-flash-lite",
+        "usage": {
+          "promptTokenCount": 2103,
+          "candidatesTokenCount": 1358,
+          "totalTokenCount": 3461,
+          "promptTokensDetails": [
+            {
+              "modality": "TEXT",
+              "tokenCount": 2103
+            }
+          ],
+          "serviceTier": "standard"
+        }
+      },
+      "unitErrors": {}
     },
     {
       "key": "qxtXjXzFOEn1_0b075da40c50809e",
@@ -1517,7 +2142,42 @@
           "contextHash": "584f9712c88e912eabf84a55e3b7011595302802dfce29df6290597c74f57125"
         }
       ],
-      "format": "text-slots-v1"
+      "format": "text-slots-v1",
+      "result": {
+        "key": "qxtXjXzFOEn1_0b075da40c50809e",
+        "translations": {
+          "u_3318e343efcf0482c2caaf83_0": " __TRILIUM_PH_0__を押して数文字移動し、 __TRILIUM_PH_1__を押します __TRILIUM_PH_2__。選択したテキストが削除されます。",
+          "u_f58bcd733523bb5a0cf0849f_0": "これがサイクル全体の流れです。移動と変更を行うノーマルモード、入力をする挿入モード、戻るための __TRILIUM_PH_0____TRILIUM_PH_1__ キーです。",
+          "u_049841d017273142c6c589e5_0": "カーソルの移動__TRILIUM_PH_0__",
+          "u_f131491c5e846ac5052e1bfd_0": "キー",
+          "u_6e528c14e2bdcf15bc2872e5_0": "移動先",
+          "u_e5ceed078984daae20141837_0": "左、下、上、右。矢印キーも機能します。",
+          "u_9d782318ea1c7e4d838a67f9_0": "__TRILIUM_PH_0__ / __TRILIUM_PH_1__",
+          "u_e741a978a4f549d898e015c3_0": "次の単語 / 前の単語。",
+          "u_9d782318ea1c7e4d838a67f9_1": "__TRILIUM_PH_0__ / __TRILIUM_PH_1__",
+          "u_acafb016d3375254db9084cd_0": "行の最初 / 最後。",
+          "u_9d782318ea1c7e4d838a67f9_2": "__TRILIUM_PH_0__ / __TRILIUM_PH_1__",
+          "u_6cbfd54b9ed19a68848d6d63_0": "ノートの最初 / 最後の行。",
+          "u_5a154ea3c685379b3cd087e9_0": "__TRILIUM_PH_0__ と __TRILIUM_PH_1__Enter__TRILIUM_PH_2__",
+          "u_6986d01578e36df4423b8f91_0": "\"text\" が現れる次の場所。は次の場所へ移動します。 __TRILIUM_PH_0__ ",
+          "u_ada680f0cf9968d103a7eb03_0": "テキストノートでは、画面上で複数行にわたる場合でも、1行は1つの段落全体になります。そのため __TRILIUM_PH_0__ は次の段落に移動し、 __TRILIUM_PH_1__ と __TRILIUM_PH_2__ はその開始と終了に移動します。",
+          "u_f6bda6b1047de4f069d18e70_0": "テキストの変更__TRILIUM_PH_0__"
+        },
+        "modelVersion": "gemini-3.5-flash-lite",
+        "usage": {
+          "promptTokenCount": 1590,
+          "candidatesTokenCount": 1006,
+          "totalTokenCount": 2596,
+          "promptTokensDetails": [
+            {
+              "modality": "TEXT",
+              "tokenCount": 1590
+            }
+          ],
+          "serviceTier": "standard"
+        }
+      },
+      "unitErrors": {}
     },
     {
       "key": "qxtXjXzFOEn1_8e1e2d886944376b",
@@ -1652,7 +2312,42 @@
           "contextHash": "a2c1700278cf9ce344ea07b3ac5d751e5e46ad206f9744b901bbb2595a79ae75"
         }
       ],
-      "format": "text-slots-v1"
+      "format": "text-slots-v1",
+      "result": {
+        "key": "qxtXjXzFOEn1_8e1e2d886944376b",
+        "translations": {
+          "u_f131491c5e846ac5052e1bfd_1": "キー",
+          "u_0b639307b7da2206f6693374_0": "動作内容",
+          "u_3ae42d7bfa70d65701a82f27_0": "カーソル下の文字を削除します。",
+          "u_40189148d301e1c22c4d4f08_0": "行を削除します。",
+          "u_fd24e738c0c6be1c41917e45_0": "単語の残りの部分を削除し、新しい文字を入力するために挿入モードに入ります。",
+          "u_0b0f4b4854506287a59b23e9_0": "__TRILIUM_PH_0__ と文字",
+          "u_574e8d3e5400ce65a1a77f40_0": "カーソル下の文字を指定した文字に置き換えます。",
+          "u_210690a145362227b0dfde6e_0": "直前の変更を元に戻します。",
+          "u_9748d7feda7c16c3e40648bc_0": "__TRILIUM_PH_0__Ctrl__TRILIUM_PH_1____TRILIUM_PH_2__R__TRILIUM_PH_3__",
+          "u_0e9cccc8749c14d1d2350aed_0": "元に戻した操作をやり直します。",
+          "u_667ac454a38ed9cdeef7a31d_0": "直前の変更を繰り返します。",
+          "u_4b610eb8b5dcb482066bda2c_0": "キーの組み合わせ__TRILIUM_PH_0__",
+          "u_aefd4d821cfea339d0768a30_0": "Vimのほとんどのコマンドは、「何をどのように実行するか」という短い文のように、2つの部分で構成されています。",
+          "u_f750ce1afd22bd05d0aa2520_0": "最初の部分は __TRILIUM_PH_0__演算子__TRILIUM_PH_1__です。 __TRILIUM_PH_2__ 削除、 __TRILIUM_PH_3__ 変更（削除してから入力可能にする）、 __TRILIUM_PH_4__ コピーを行います。",
+          "u_a97474ad2edd609faf3e5637_0": "2番目の部分は __TRILIUM_PH_0__モーション__TRILIUM_PH_1__であり、カーソルを移動させる任意のキーです。 __TRILIUM_PH_2__ 単語単位、 __TRILIUM_PH_3__ 行末まで、 __TRILIUM_PH_4__ ノートの末尾まで移動します。",
+          "u_f131491c5e846ac5052e1bfd_2": "キー"
+        },
+        "modelVersion": "gemini-3.5-flash-lite",
+        "usage": {
+          "promptTokenCount": 1579,
+          "candidatesTokenCount": 981,
+          "totalTokenCount": 2560,
+          "promptTokensDetails": [
+            {
+              "modality": "TEXT",
+              "tokenCount": 1579
+            }
+          ],
+          "serviceTier": "standard"
+        }
+      },
+      "unitErrors": {}
     },
     {
       "key": "qxtXjXzFOEn1_a79fe4f3a3bd6726",
@@ -1787,7 +2482,42 @@
           "contextHash": "6daf17cc934afb303e49c9d2ee6ac9af25ef52f389f08dbc3054cef925f9882a"
         }
       ],
-      "format": "text-slots-v1"
+      "format": "text-slots-v1",
+      "result": {
+        "key": "qxtXjXzFOEn1_a79fe4f3a3bd6726",
+        "translations": {
+          "u_4d86e7e037b12533fd80d15b_0": "意味",
+          "u_57d9402fc84f134889a29115_0": "次の単語の先頭まで削除します。",
+          "u_e68b7cc6e4a79884e38beeab_0": "行末まで削除します。",
+          "u_b6302a691e0736d93aed86ac_0": "残りの単語を変更します。",
+          "u_b0e0fc2c1f5446e91ba0d05f_0": "ここからノートの末尾までコピーします。",
+          "u_9adfe9e627d0a2d54b224120_0": "さらに2つの概念を理解すると完璧になります：",
+          "u_61ebe9e700de20b0f1f7790f_0": "__TRILIUM_PH_0__数字を指定して繰り返すことができます。__TRILIUM_PH_1__ __TRILIUM_PH_2__ で3単語分前方に移動し、 __TRILIUM_PH_3__ で3行削除します。",
+          "u_930b5acd46dea6d489fe81e3_0": "__TRILIUM_PH_0__テキストオブジェクトはカーソル周辺の要素を指定します。__TRILIUM_PH_1__ __TRILIUM_PH_2__ は「カーソルがある単語」、 __TRILIUM_PH_3__ は「この段落」を表します。したがって、 __TRILIUM_PH_4__ はカーソルがどこにあってもその単語を削除し、 __TRILIUM_PH_5__ はその段落をコピーします。",
+          "u_2780dee7fd89fa3e1a3f4272_0": "演算子はほとんどすべての移動やテキストオブジェクトと組み合わせることができるため、少数のキーで膨大な数のコマンドを実行でき、一つずつ暗記する必要はありません。",
+          "u_ad2fab907406a3ef64974924_0": "コピーと貼り付け__TRILIUM_PH_0__",
+          "u_8ad8707b691aaeabcd362fee_0": "Vimにはこれらに対する独自の用語があります。yankはコピーを意味し、 __TRILIUM_PH_0__yank__TRILIUM_PH_1__ はコピー、putは貼り付けを意味し、 __TRILIUM_PH_2__put__TRILIUM_PH_3__ は貼り付けです。",
+          "u_ee448ba3f4da495d56ddac3a_0": "__TRILIUM_PH_0__ は現在の行をヤンクし、 __TRILIUM_PH_1__ は1単語をヤンクします。",
+          "u_827bee768f3bb9e0115463c7_0": "__TRILIUM_PH_0__ はヤンクした内容をカーソルの後ろに貼り付け、 __TRILIUM_PH_1__ は前に貼り付けます。",
+          "u_37216f7776f58fde43d56718_0": "削除されたテキストも貼り付けることができます。 __TRILIUM_PH_0__ の後に __TRILIUM_PH_1__ を入力すると、行を1つ下に移動します。",
+          "u_e6df715dff4e6efff0bfc736_0": "ビジュアルモードでは、 __TRILIUM_PH_0__ で選択範囲をヤンクします。",
+          "u_d0623e13f0625493b1bd8ee4_0": "ヤンクしたテキストは __TRILIUM_PH_0__レジスタ__TRILIUM_PH_1__に保持されます。これはVim独自のストレージであり、コンピューターのクリップボードとは別個のものです。クリップボードを使用するには、コマンドの前に __TRILIUM_PH_2__ を入力します。 __TRILIUM_PH_3__ は行をクリップボードにコピーし、 __TRILIUM_PH_4__ はクリップボードから貼り付けます。テキストノート内では、 __TRILIUM_PH_5__Ctrl__TRILIUM_PH_6__+__TRILIUM_PH_7__C__TRILIUM_PH_8__ や __TRILIUM_PH_9__Ctrl__TRILIUM_PH_10__+__TRILIUM_PH_11__V__TRILIUM_PH_12__ もクリップボードに対して引き続き機能します。"
+        },
+        "modelVersion": "gemini-3.5-flash-lite",
+        "usage": {
+          "promptTokenCount": 1919,
+          "candidatesTokenCount": 1308,
+          "totalTokenCount": 3227,
+          "promptTokensDetails": [
+            {
+              "modality": "TEXT",
+              "tokenCount": 1919
+            }
+          ],
+          "serviceTier": "standard"
+        }
+      },
+      "unitErrors": {}
     },
     {
       "key": "qxtXjXzFOEn1_a95d49e6abf1a463",
@@ -1810,9 +2540,32 @@
           "contextHash": "ec28da0dcbe342ba0530cbaa37dad1881515c541c1e018acc0d088a269966380"
         }
       ],
-      "format": "text-slots-v1"
+      "format": "text-slots-v1",
+      "result": {
+        "key": "qxtXjXzFOEn1_a95d49e6abf1a463",
+        "translations": {
+          "u_586f1adb9b286190d53be6c5_0": "クリップボードは、テキストノートとコードノートの間でテキストをやり取りする方法でもあります。これら2種類のノートはレジスタを共有していないためです。 __TRILIUM_PH_0__ 一方では __TRILIUM_PH_1__ もう一方ではとなります。",
+          "u_11584d3040c89f08c656bcec_0": "検索と置換__TRILIUM_PH_0__"
+        },
+        "modelVersion": "gemini-3.5-flash-lite",
+        "usage": {
+          "promptTokenCount": 598,
+          "candidatesTokenCount": 196,
+          "totalTokenCount": 794,
+          "promptTokensDetails": [
+            {
+              "modality": "TEXT",
+              "tokenCount": 598
+            }
+          ],
+          "serviceTier": "standard"
+        }
+      },
+      "unitErrors": {}
     }
   ],
   "name": "batches/qbghghxkzsqc94705b6usendac48wssngsx9",
-  "state": "JOB_STATE_PENDING"
+  "state": "JOB_STATE_SUCCEEDED",
+  "diagnostics": [],
+  "rejectedResponses": []
 }
