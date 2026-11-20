@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "pageId": "GBBMSlVSOIGP",
   "sourceFile": "docs/User Guide/User Guide/AI.md",
-  "sourceRevision": "5cc485c830ae66544ae6b2ee67ef07e7ec418c2d",
+  "sourceRevision": "a74b13e10863eb545f855123f257e21cf0e11f2f",
   "units": [
     {
       "id": "u_05906e7b73ccdae8ec8fcefc_0",
@@ -2748,8 +2748,15 @@
       "sourceHash": "b68a74f729d8e5a448dc1cf40c41894eabacefac2056416261548e7f5af56c61",
       "context": "AI > Creating a new chat > Model selection",
       "contextHash": "9a1f6176dd2c49c69d879201e51b36314e41132f29e762cd5e92198798d5af9d",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "モデルを取得できない場合、リストにはその理由が表示されます（接続の拒否や誤ったAPIキーなど）。原因を修正した後（ローカルサーバーの起動など）にもう一度試すには、 __TRILIUM_PH_0__再試行__TRILIUM_PH_1__を押してください。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-20T03:27:01.499Z"
     },
     {
       "id": "u_e94af146923f6c7c20b90d7f_0",
@@ -2758,8 +2765,15 @@
       "sourceHash": "e94af146923f6c7c20b90d7ff2a016dae740018a25c7cae5979871072eb2a7e3",
       "context": "AI > Features > Web search",
       "contextHash": "40c22096c876311ad45ac4be012db374e96ca649f426eedd85875d1be92e5ba6",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "接続情報の入力後、検索プロバイダーを追加するとテスト検索が実行され、最初の結果、または失敗した理由（接続の拒否や誤ったAPIキーなど）が表示されます。 __TRILIUM_PH_0__再試行__TRILIUM_PH_1__ でテストを再度実行し、 __TRILIUM_PH_2__とにかく追加__TRILIUM_PH_3__ では失敗にかかわらずプロバイダーを追加します。これは、サービスがまだ実行されていない場合に役立ちます。検索プロバイダーの編集時は、APIキーまたはアドレスが変更された場合にのみテストが再実行されます。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-20T03:27:01.499Z"
     }
   ],
   "requests": [
@@ -2960,6 +2974,25 @@
           {
             "modality": "TEXT",
             "tokenCount": 775
+          }
+        ],
+        "serviceTier": "standard"
+      }
+    },
+    {
+      "at": "2026-11-20T03:27:01.499Z",
+      "model": "gemini-3.5-flash-lite",
+      "batchJob": "batches/szn1iq85i3jwlbcbe0l3g53c6vxfrl0nztcr",
+      "requestKey": "GBBMSlVSOIGP_92e619f4afb08c12",
+      "modelVersion": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 770,
+        "candidatesTokenCount": 318,
+        "totalTokenCount": 1088,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 770
           }
         ],
         "serviceTier": "standard"
