@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "pageId": "KG48zgNY31NW",
   "sourceFile": "docs/User Guide/User Guide/Note Types/File/Office documents.md",
-  "sourceRevision": "f7a823d607395a1483ee75489a9e6ae1244625b6",
+  "sourceRevision": "5cc485c830ae66544ae6b2ee67ef07e7ec418c2d",
   "units": [
     {
       "id": "u_e7241f2d13f6d96be6a13a5a_0",
@@ -369,7 +369,7 @@
       "context": "Office documents > Limitations",
       "contextHash": "90176f447878c483f6fc7e412bb7010a9f9e09eb631447bf6b6834550dac609e",
       "status": "translated",
-      "active": true,
+      "active": false,
       "translation": "サーバーの応答性を維持するため、20 MBを超えるドキュメントはプレビューされません。通常のダウンロードおよび開く操作は引き続き利用可能です。",
       "conditions": {
         "model": "gemini-3.5-flash-lite",
@@ -462,6 +462,16 @@
         "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
       },
       "translatedAt": "2026-11-16T11:52:29.295Z"
+    },
+    {
+      "id": "u_52260cf12ab4a024deab717c_0",
+      "kind": "li",
+      "source": "Documents larger than 20 MB are not previewed, to keep the server responsive. A message says the document is too large to preview, and the usual download and open actions remain available.",
+      "sourceHash": "52260cf12ab4a024deab717c3ad724d697ac466ad698875993b4054422243325",
+      "context": "Office documents > Limitations",
+      "contextHash": "90176f447878c483f6fc7e412bb7010a9f9e09eb631447bf6b6834550dac609e",
+      "status": "pending",
+      "active": true
     }
   ],
   "requests": [

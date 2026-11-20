@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "pageId": "UmgZAfcltxkS",
   "sourceFile": "docs/User Guide/User Guide/Note Types/Text/Link Previews.md",
-  "sourceRevision": "f7a823d607395a1483ee75489a9e6ae1244625b6",
+  "sourceRevision": "5cc485c830ae66544ae6b2ee67ef07e7ec418c2d",
   "units": [
     {
       "id": "u_e0cb5b978cfffd332dab10ac_0",
@@ -1499,6 +1499,23 @@
         "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
       },
       "translatedAt": "2026-11-14T14:14:05.465Z"
+    },
+    {
+      "id": "u_98aa4f9a1ed9928e2efb0ef9_0",
+      "kind": "p",
+      "source": "To color a link preview, select it and pick a color with the __TRILIUM_PH_0__ font color or __TRILIUM_PH_1__ background color button, as for text. The font color applies to the title of an __TRILIUM_PH_2__Icon & text__TRILIUM_PH_3__ link and to the text of a __TRILIUM_PH_4__Card__TRILIUM_PH_5__; the background color fills the whole preview. A preview keeps its colors when its display mode changes, except for an __TRILIUM_PH_6__Embed__TRILIUM_PH_7__, which cannot be colored.",
+      "sourceHash": "98aa4f9a1ed9928e2efb0ef9730ed9aef765a483101d461c1b7e9711bf53bd09",
+      "context": "Link Previews > Altering an existing link preview",
+      "contextHash": "fbfe0d0c7312ecacd9bd92de91cc63c4f6b0d60a88ca85e7926354379f6f805d",
+      "status": "translated",
+      "active": true,
+      "translation": "リンクプレビューに色を付けるには、それを選択し、テキストの場合と同様に __TRILIUM_PH_0__ フォントの色または __TRILIUM_PH_1__ 背景色のボタンで色を選択します。フォントの色は、「アイコンとテキスト」リンクのタイトルと __TRILIUM_PH_2__アイコンとテキスト__TRILIUM_PH_3__ リンク、および __TRILIUM_PH_4__カード__TRILIUM_PH_5__のテキストに適用されます。背景色はプレビュー全体を塗りつぶします。プレビューの色は、色付けができない __TRILIUM_PH_6__埋め込み__TRILIUM_PH_7__を除き、表示モードが変更されても保持されます。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-17T23:34:42.858Z"
     }
   ],
   "requests": [
@@ -1621,6 +1638,25 @@
           {
             "modality": "TEXT",
             "tokenCount": 1931
+          }
+        ],
+        "serviceTier": "standard"
+      }
+    },
+    {
+      "at": "2026-11-17T23:34:42.858Z",
+      "model": "gemini-3.5-flash-lite",
+      "batchJob": "batches/qbghghxkzsqc94705b6usendac48wssngsx9",
+      "requestKey": "UmgZAfcltxkS_7bd764e3ea577a1f",
+      "modelVersion": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 638,
+        "candidatesTokenCount": 240,
+        "totalTokenCount": 878,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 638
           }
         ],
         "serviceTier": "standard"

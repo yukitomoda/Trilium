@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "pageId": "3tW6mORuTHnB",
   "sourceFile": "docs/User Guide/User Guide/Installation & Setup/Server Installation/1. Installing the server/Packaged version for Linux.md",
-  "sourceRevision": "f7a823d607395a1483ee75489a9e6ae1244625b6",
+  "sourceRevision": "5cc485c830ae66544ae6b2ee67ef07e7ec418c2d",
   "units": [
     {
       "id": "u_cf40b69b567321847d74b9b4_0",
@@ -148,7 +148,7 @@
       "context": "Packaged version for Linux > Steps",
       "contextHash": "6bbbcdba61f98a6d7a1c96f9d8afb4ab0842c7c443cb4c50819185a5aec8d5df",
       "status": "translated",
-      "active": true,
+      "active": false,
       "translation": "上記の手順の問題点は、SSH接続を閉じるとTriliumのプロセスが終了してしまうことです。それを回避するには、次の2つの方法があります。",
       "conditions": {
         "model": "gemini-3.5-flash-lite",
@@ -165,7 +165,7 @@
       "context": "Packaged version for Linux > Steps",
       "contextHash": "6bbbcdba61f98a6d7a1c96f9d8afb4ab0842c7c443cb4c50819185a5aec8d5df",
       "status": "translated",
-      "active": true,
+      "active": false,
       "translation": "（例：__TRILIUM_PH_0__Ctrl__TRILIUM_PH_1__ + __TRILIUM_PH_2__C__TRILIUM_PH_3__で）プロセスを終了し、次のように再度実行します：__TRILIUM_PH_4__。（nohupはプロセスをバックグラウンドで実行し続け、__TRILIUM_PH_5__はバックグラウンドで実行します）",
       "conditions": {
         "model": "gemini-3.5-flash-lite",
@@ -182,7 +182,7 @@
       "context": "Packaged version for Linux > Steps",
       "contextHash": "6bbbcdba61f98a6d7a1c96f9d8afb4ab0842c7c443cb4c50819185a5aec8d5df",
       "status": "translated",
-      "active": true,
+      "active": false,
       "translation": "システム起動時にTriliumがバックグラウンドで自動実行されるようにsystemdを設定する",
       "conditions": {
         "model": "gemini-3.5-flash-lite",
@@ -496,6 +496,91 @@
         "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
       },
       "translatedAt": "2026-11-14T11:28:45.803Z"
+    },
+    {
+      "id": "u_64583e21d68597b2d8ea6c2d_0",
+      "kind": "p",
+      "source": "The problem with above steps is that once you close the SSH connection or the terminal, the Trilium process is terminated. Generally, the best way to avoid that is to configure systemd to run Trilium in the background on every boot, as described in the next section. It also restarts Trilium if it stops unexpectedly.",
+      "sourceHash": "64583e21d68597b2d8ea6c2d671281bbd92906bf8d077a736769a9963d0b5715",
+      "context": "Packaged version for Linux > Steps",
+      "contextHash": "6bbbcdba61f98a6d7a1c96f9d8afb4ab0842c7c443cb4c50819185a5aec8d5df",
+      "status": "translated",
+      "active": true,
+      "translation": "上記の手順における問題は、SSH接続やターミナルを閉じるとTriliumのプロセスが終了してしまうことです。一般的にこれを回避する最善の方法は、次のセクションで説明するように、システムの起動ごとにTriliumがバックグラウンドで実行されるようsystemdを設定することです。また、予期せず停止した場合にもTriliumを再起動します。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-17T23:34:42.858Z"
+    },
+    {
+      "id": "u_89d870502ece3dcf78bd76eb_0",
+      "kind": "p",
+      "source": "To keep Trilium running without a service, stop it (with __TRILIUM_PH_0__Ctrl__TRILIUM_PH_1__+__TRILIUM_PH_2__C__TRILIUM_PH_3__) and start it again detached from the terminal:",
+      "sourceHash": "89d870502ece3dcf78bd76eb4b5e3a85280872d05144130b337059353ca14f02",
+      "context": "Packaged version for Linux > Steps",
+      "contextHash": "6bbbcdba61f98a6d7a1c96f9d8afb4ab0842c7c443cb4c50819185a5aec8d5df",
+      "status": "translated",
+      "active": true,
+      "translation": "サービスを使用せずにTriliumを実行し続けるには、停止してから（ __TRILIUM_PH_0__Ctrl__TRILIUM_PH_1__+__TRILIUM_PH_2__C__TRILIUM_PH_3__）、ターミナルから切り離して再度起動します。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-17T23:34:42.858Z"
+    },
+    {
+      "id": "u_7a3ef8b262931f7aea324efc_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__ starts Trilium in a new session, so closing the terminal does not reach it. Its output goes to __TRILIUM_PH_1__.",
+      "sourceHash": "7a3ef8b262931f7aea324efc0daf34dda9e9d3f6d82a29616a05c708976192ea",
+      "context": "Packaged version for Linux > Steps",
+      "contextHash": "6bbbcdba61f98a6d7a1c96f9d8afb4ab0842c7c443cb4c50819185a5aec8d5df",
+      "status": "translated",
+      "active": true,
+      "translation": "は__TRILIUM_PH_0__ 新しいセッションでTriliumを起動するため、ターミナルを閉じても影響を受けません。その出力はに送られます __TRILIUM_PH_1__。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-17T23:34:42.858Z"
+    },
+    {
+      "id": "u_9966a2a70112c4b2f3d2d5fc_0",
+      "kind": "li",
+      "source": "Alternatively, in Bash or Zsh, __TRILIUM_PH_0__ starts it in the background and removes it from the shell's jobs, so the shell does not stop it on exit.",
+      "sourceHash": "9966a2a70112c4b2f3d2d5fcbbe7123f9016adb648308b63ad3643766a7d7dfe",
+      "context": "Packaged version for Linux > Steps",
+      "contextHash": "6bbbcdba61f98a6d7a1c96f9d8afb4ab0842c7c443cb4c50819185a5aec8d5df",
+      "status": "translated",
+      "active": true,
+      "translation": "あるいは、BashやZshでは、 __TRILIUM_PH_0__ はバックグラウンドで起動し、シェルのジョブから外すため、シェルを終了しても停止しません。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-17T23:34:42.858Z"
+    },
+    {
+      "id": "u_ebe930d0430eeeb1b2600479_0",
+      "kind": "p",
+      "source": "__TRILIUM_PH_0__ does not keep Trilium running. Node.js resets the signal handlers at startup, so it no longer ignores the hang-up signal (__TRILIUM_PH_1__) that __TRILIUM_PH_2__ sets up, and Trilium stops as soon as the terminal closes.",
+      "sourceHash": "ebe930d0430eeeb1b2600479c52db06ddb8a49e3166cbf51a323eadb0e970888",
+      "context": "Packaged version for Linux > Steps",
+      "contextHash": "6bbbcdba61f98a6d7a1c96f9d8afb4ab0842c7c443cb4c50819185a5aec8d5df",
+      "status": "translated",
+      "active": true,
+      "translation": "では__TRILIUM_PH_0__ Triliumを実行し続けることはできません。Node.jsは起動時にシグナルハンドラーをリセットするため、__TRILIUM_PH_1__が設定するハングアップシグナル（ __TRILIUM_PH_2__ ）を無視しなくなり、ターミナルを閉じるとすぐにTriliumが停止します。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-17T23:34:42.858Z"
     }
   ],
   "requests": [
@@ -532,6 +617,25 @@
           {
             "modality": "TEXT",
             "tokenCount": 1221
+          }
+        ],
+        "serviceTier": "standard"
+      }
+    },
+    {
+      "at": "2026-11-17T23:34:42.858Z",
+      "model": "gemini-3.5-flash-lite",
+      "batchJob": "batches/qbghghxkzsqc94705b6usendac48wssngsx9",
+      "requestKey": "3tW6mORuTHnB_1d23576b6a449248",
+      "modelVersion": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 1066,
+        "candidatesTokenCount": 545,
+        "totalTokenCount": 1611,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 1066
           }
         ],
         "serviceTier": "standard"

@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "pageId": "3seOhtN8uLIY",
   "sourceFile": "docs/User Guide/User Guide/Basic Concepts and Features/UI Elements/Tabs.md",
-  "sourceRevision": "f7a823d607395a1483ee75489a9e6ae1244625b6",
+  "sourceRevision": "5cc485c830ae66544ae6b2ee67ef07e7ec418c2d",
   "units": [
     {
       "id": "u_deecaa52d450b9e1c1a08ff2_0",
@@ -284,7 +284,7 @@
       "context": "Tabs > Interaction",
       "contextHash": "d7c574d2284c3d9785abe9764ad3783de8566a839be4b0e631ffe151c477204e",
       "status": "translated",
-      "active": true,
+      "active": false,
       "translation": "既存のタブを上下にドラッグすると、新しいウィンドウに表示させることができます。タブを別のウィンドウに結合し直すことはできません。",
       "conditions": {
         "model": "gemini-3.5-flash-lite",
@@ -649,6 +649,23 @@
         "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
       },
       "translatedAt": "2026-11-14T14:14:05.465Z"
+    },
+    {
+      "id": "u_bde0012a61507fbad3730d08_0",
+      "kind": "li",
+      "source": "An existing tab can be displayed in a new window by dragging the tab upwards or downwards; the new window opens under the mouse cursor, with the tab under the pointer. It is not possible to combine tabs back into another window.",
+      "sourceHash": "bde0012a61507fbad3730d08367dea2ea4342dc323d52756bbe4993d42092199",
+      "context": "Tabs > Interaction",
+      "contextHash": "d7c574d2284c3d9785abe9764ad3783de8566a839be4b0e631ffe151c477204e",
+      "status": "translated",
+      "active": true,
+      "translation": "既存のタブを上下にドラッグすることで、新しいウィンドウに表示することができます。新しいウィンドウはマウスカーソルの下に開き、ポインタの下にタブが配置されます。タブを別のウィンドウに結合し直すことはできません。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-17T23:34:42.858Z"
     }
   ],
   "requests": [
@@ -714,6 +731,25 @@
       "model": "gemini-3.5-flash-lite",
       "batchJob": "batches/8vehrrvdpag09tp4gjf9dbgj006t9k2gkkyl",
       "requestKey": "3seOhtN8uLIY_9d0b4ccfdd634368"
+    },
+    {
+      "at": "2026-11-17T23:34:42.858Z",
+      "model": "gemini-3.5-flash-lite",
+      "batchJob": "batches/qbghghxkzsqc94705b6usendac48wssngsx9",
+      "requestKey": "3seOhtN8uLIY_9d9a59f06c9c262b",
+      "modelVersion": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 539,
+        "candidatesTokenCount": 133,
+        "totalTokenCount": 672,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 539
+          }
+        ],
+        "serviceTier": "standard"
+      }
     }
   ]
 }

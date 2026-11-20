@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "pageId": "oSuaNgyyKnhu",
   "sourceFile": "docs/User Guide/User Guide/Note Types/Text/Anchors.md",
-  "sourceRevision": "f7a823d607395a1483ee75489a9e6ae1244625b6",
+  "sourceRevision": "5cc485c830ae66544ae6b2ee67ef07e7ec418c2d",
   "units": [
     {
       "id": "u_2041a433695e083946d73a46_0",
@@ -437,7 +437,7 @@
       "context": "Anchors > Linking across notes > Linking to anchors through the Add link dialog",
       "contextHash": "83c9ec56b43ceb98d169048a968d2e4d0a5388aef0eb456fc66567d89aaf673a",
       "status": "translated",
-      "active": true,
+      "active": false,
       "translation": "ターゲットノートにアンカーが含まれている場合、ノート選択の下にアンカーのリストが表示されたセクションが表示されます。",
       "conditions": {
         "model": "gemini-3.5-flash-lite",
@@ -581,6 +581,57 @@
         "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
       },
       "translatedAt": "2026-11-14T14:14:05.465Z"
+    },
+    {
+      "id": "u_4a284ef8c3ccf665533c8d1b_0",
+      "kind": "li",
+      "source": "The headings and anchors of the target note are listed below the __TRILIUM_PH_0__Link title__TRILIUM_PH_1__. Under __TRILIUM_PH_2__Link to an anchor__TRILIUM_PH_3__, click the desired anchor to check it.",
+      "sourceHash": "4a284ef8c3ccf665533c8d1bfd702b4f3f452a821b7035ad7632ea447c409cff",
+      "context": "Anchors > Linking across notes > Linking to anchors through the Add link dialog",
+      "contextHash": "83c9ec56b43ceb98d169048a968d2e4d0a5388aef0eb456fc66567d89aaf673a",
+      "status": "translated",
+      "active": true,
+      "translation": "ターゲットノートの見出しとアンカーが __TRILIUM_PH_0__リンクタイトル__TRILIUM_PH_1__の下に表示されます。 __TRILIUM_PH_2__アンカーへのリンク__TRILIUM_PH_3__の下で、目的のアンカーをクリックして選択します。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-17T23:34:42.858Z"
+    },
+    {
+      "id": "u_8ecf815162bb7987d98d996a_0",
+      "kind": "h3",
+      "source": "Linking to anchors through the __TRILIUM_PH_0__ menu__TRILIUM_PH_1__",
+      "sourceHash": "8ecf815162bb7987d98d996a4703cf10f2b135fdeb07684c61781f052ec05fcb",
+      "context": "Anchors > Linking across notes > Linking to anchors through the @ menu",
+      "contextHash": "bf4f3c3b151de03a918abdc3478ef6306dcf1a82bd7c39e3512066aab24b135c",
+      "status": "translated",
+      "active": true,
+      "translation": " __TRILIUM_PH_0__ メニュー__TRILIUM_PH_1__を通じたアンカーへのリンク",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-17T23:34:42.858Z"
+    },
+    {
+      "id": "u_ad025d98db1be4d054a06030_0",
+      "kind": "p",
+      "source": "Since v0.108.0, type __TRILIUM_PH_0__ in the text and pick the target note. Then type part of the anchor's name and press __TRILIUM_PH_1__Enter__TRILIUM_PH_2__, or select the anchor under __TRILIUM_PH_3__Link to an anchor__TRILIUM_PH_4__. See __TRILIUM_PH_5__In-place linking__TRILIUM_PH_6__.",
+      "sourceHash": "ad025d98db1be4d054a0603077f2845198d5070829a3dffb224b6ceb4b302a1c",
+      "context": "Anchors > Linking across notes > Linking to anchors through the @ menu",
+      "contextHash": "bf4f3c3b151de03a918abdc3478ef6306dcf1a82bd7c39e3512066aab24b135c",
+      "status": "translated",
+      "active": true,
+      "translation": "v0.108.0以降、テキスト内に __TRILIUM_PH_0__ と入力してターゲットノートを選択します。次にアンカー名のパーツを入力して __TRILIUM_PH_1__Enter__TRILIUM_PH_2__を押すか、あるいは __TRILIUM_PH_3__アンカーへのリンク__TRILIUM_PH_4__の下からアンカーを選択します。「 __TRILIUM_PH_5__インプレースリンク__TRILIUM_PH_6__」を参照してください。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-17T23:34:42.858Z"
     }
   ],
   "requests": [
@@ -648,6 +699,25 @@
           {
             "modality": "TEXT",
             "tokenCount": 720
+          }
+        ],
+        "serviceTier": "standard"
+      }
+    },
+    {
+      "at": "2026-11-17T23:34:42.858Z",
+      "model": "gemini-3.5-flash-lite",
+      "batchJob": "batches/qbghghxkzsqc94705b6usendac48wssngsx9",
+      "requestKey": "oSuaNgyyKnhu_c32d5dd1579778bf",
+      "modelVersion": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 796,
+        "candidatesTokenCount": 268,
+        "totalTokenCount": 1064,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 796
           }
         ],
         "serviceTier": "standard"

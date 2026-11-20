@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "pageId": "WN5z4M8ASACJ",
   "sourceFile": "docs/User Guide/User Guide/Theme development/Reference.md",
-  "sourceRevision": "f7a823d607395a1483ee75489a9e6ae1244625b6",
+  "sourceRevision": "5cc485c830ae66544ae6b2ee67ef07e7ec418c2d",
   "units": [
     {
       "id": "u_724e4c7e1c49891fc3219014_0",
@@ -437,7 +437,7 @@
       "context": "Reference > Detecting platform (Windows, macOS) or Electron > Background/transparency effects on Windows (Mica)",
       "contextHash": "69ad3a6529ad4054ad2e007f9bc90d5bda487b465e170aace8ebc9bccdc994ba",
       "status": "translated",
-      "active": true,
+      "active": false,
       "translation": "Windows上の背景/透明度エフェクト（Mica）__TRILIUM_PH_0__",
       "conditions": {
         "model": "gemini-3.5-flash-lite",
@@ -454,7 +454,7 @@
       "context": "Reference > Detecting platform (Windows, macOS) or Electron > Background/transparency effects on Windows (Mica)",
       "contextHash": "69ad3a6529ad4054ad2e007f9bc90d5bda487b465e170aace8ebc9bccdc994ba",
       "status": "translated",
-      "active": true,
+      "active": false,
       "translation": "Windows 11にはMicaと呼ばれる特殊な背景/透明化効果があり、テーマ内で __TRILIUM_PH_0__ 変数を __TRILIUM_PH_1__ レベルで設定することで有効にできます:",
       "conditions": {
         "model": "gemini-3.5-flash-lite",
@@ -471,7 +471,7 @@
       "context": "Reference > Detecting platform (Windows, macOS) or Electron > Background/transparency effects on Windows (Mica)",
       "contextHash": "69ad3a6529ad4054ad2e007f9bc90d5bda487b465e170aace8ebc9bccdc994ba",
       "status": "translated",
-      "active": true,
+      "active": false,
       "translation": "値には、__TRILIUM_PH_0__（水平レイアウトに特に便利です）または__TRILIUM_PH_1__（垂直レイアウトに最適です）を指定できます。",
       "conditions": {
         "model": "gemini-3.5-flash-lite",
@@ -488,7 +488,7 @@
       "context": "Reference > Detecting platform (Windows, macOS) or Electron > Background/transparency effects on Windows (Mica)",
       "contextHash": "69ad3a6529ad4054ad2e007f9bc90d5bda487b465e170aace8ebc9bccdc994ba",
       "status": "translated",
-      "active": true,
+      "active": false,
       "translation": "Micaエフェクトは__TRILIUM_PH_0__レベルで適用されるため、効果を表示するにはテーマ側で階層全体を（半）透明にする必要があることに注意してください。TriliumNextテーマを参考にしてください。",
       "conditions": {
         "model": "gemini-3.5-flash-lite",
@@ -726,7 +726,7 @@
       "context": "Reference > Adaptive text and table colors",
       "contextHash": "0c17fbd88ee50ff22c8495f28b697397cf3a4805fb76fb4e5611805b0543077f",
       "status": "translated",
-      "active": true,
+      "active": false,
       "translation": "テキストノート内でフォントカラーおよび背景色ボタン（__TRILIUM_PH_0__General formatting__TRILIUM_PH_1__を参照）またはテーブルおよびセルのプロパティ（__TRILIUM_PH_2__Tables__TRILIUM_PH_3__を参照）から適用された色は、テーマに適した色合いで表示されます：色相はそのまま維持され、明度と彩度は制限内に保たれます。テーマは、例えばページ背景が組み込みテーマのものよりもはるかに暗い場合や明るい場合などに、これらの制限を変更できます：",
       "conditions": {
         "model": "gemini-3.5-flash-lite",
@@ -760,7 +760,7 @@
       "context": "Reference > Adaptive text and table colors",
       "contextHash": "0c17fbd88ee50ff22c8495f28b697397cf3a4805fb76fb4e5611805b0543077f",
       "status": "translated",
-      "active": true,
+      "active": false,
       "translation": "役割は、__TRILIUM_PH_0__（フォントカラー）、__TRILIUM_PH_1__（フォント背景色）、__TRILIUM_PH_2__、または__TRILIUM_PH_3__（テーブルとセル）です。",
       "conditions": {
         "model": "gemini-3.5-flash-lite",
@@ -1023,6 +1023,76 @@
         "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
       },
       "translatedAt": "2026-11-14T14:14:05.465Z"
+    },
+    {
+      "id": "u_c462407b1e73ccc6cb1a7b6b_0",
+      "kind": "h3",
+      "source": "Background/transparency effects (Mica and vibrancy)__TRILIUM_PH_0__",
+      "sourceHash": "c462407b1e73ccc6cb1a7b6bafc8dfff8bc7777527af81420a802c1bece3d027",
+      "context": "Reference > Detecting platform (Windows, macOS) or Electron > Background/transparency effects (Mica and vibrancy)",
+      "contextHash": "290412d983271de4203e8188bb7f1506064765645f65f9ef5bbab80702a1c9d4",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_2701753db08486b63aae58e9_0",
+      "kind": "p",
+      "source": "When background effects are enabled in the desktop application, Trilium draws a translucent backdrop behind the window: Mica on Windows 11 (its __TRILIUM_PH_0__ variant in the horizontal layout) and vibrancy on macOS. Trilium chooses the backdrop itself and applies it only to the Next themes and to custom themes based on them through __TRILIUM_PH_1__ (see __TRILIUM_PH_2__Customize the Next theme__TRILIUM_PH_3__). Other themes get no backdrop.",
+      "sourceHash": "2701753db08486b63aae58e94c19e41a3f8bb9dbea9ae60b83bfb3c455c995d9",
+      "context": "Reference > Detecting platform (Windows, macOS) or Electron > Background/transparency effects (Mica and vibrancy)",
+      "contextHash": "290412d983271de4203e8188bb7f1506064765645f65f9ef5bbab80702a1c9d4",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_8bbc908db5e1378c529bfa17_0",
+      "kind": "p",
+      "source": "The backdrop is visible only where the theme leaves the page (semi-)transparent. Use the Next theme as an inspiration.",
+      "sourceHash": "8bbc908db5e1378c529bfa172fa4721d1415520df30954a5d3c8b66f97d4cc6c",
+      "context": "Reference > Detecting platform (Windows, macOS) or Electron > Background/transparency effects (Mica and vibrancy)",
+      "contextHash": "290412d983271de4203e8188bb7f1506064765645f65f9ef5bbab80702a1c9d4",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_5282e9392b7b9fb8bd4502fc_0",
+      "kind": "p",
+      "source": "Colors applied in a text note, from the font color and background color buttons (see __TRILIUM_PH_0__General formatting__TRILIUM_PH_1__), from the table and cell properties (see __TRILIUM_PH_2__Tables__TRILIUM_PH_3__) or to an aside block (see __TRILIUM_PH_4__Aside blocks__TRILIUM_PH_5__), are shown in a shade that suits the theme: the hue stays, while the lightness and the saturation are kept within limits. A theme can change these limits, for example if its page background is much darker or lighter than the one of the built-in themes:",
+      "sourceHash": "5282e9392b7b9fb8bd4502fcbc480868880c1b4b7943b187f2c3ddbcf7f68a6b",
+      "context": "Reference > Adaptive text and table colors",
+      "contextHash": "0c17fbd88ee50ff22c8495f28b697397cf3a4805fb76fb4e5611805b0543077f",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_fdef2b209077ab49f45ae201_0",
+      "kind": "li",
+      "source": "The role is __TRILIUM_PH_0__ (font color), __TRILIUM_PH_1__ (font background color), __TRILIUM_PH_2__ or __TRILIUM_PH_3__ (tables and cells), or __TRILIUM_PH_4__ (aside blocks).",
+      "sourceHash": "fdef2b209077ab49f45ae201d19e585189b4e6832ce1d71bbda211d9e70a1f19",
+      "context": "Reference > Adaptive text and table colors",
+      "contextHash": "0c17fbd88ee50ff22c8495f28b697397cf3a4805fb76fb4e5611805b0543077f",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_0a21de8c93afbce9b0583aa8_8",
+      "kind": "td",
+      "source": "__TRILIUM_PH_0__, __TRILIUM_PH_1__",
+      "sourceHash": "0a21de8c93afbce9b0583aa863adaf20995cd9952fa81b71db769a0a917216eb",
+      "context": "Reference > Adaptive text and table colors",
+      "contextHash": "0c17fbd88ee50ff22c8495f28b697397cf3a4805fb76fb4e5611805b0543077f",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_0a21de8c93afbce9b0583aa8_9",
+      "kind": "td",
+      "source": "__TRILIUM_PH_0__, __TRILIUM_PH_1__",
+      "sourceHash": "0a21de8c93afbce9b0583aa863adaf20995cd9952fa81b71db769a0a917216eb",
+      "context": "Reference > Adaptive text and table colors",
+      "contextHash": "0c17fbd88ee50ff22c8495f28b697397cf3a4805fb76fb4e5611805b0543077f",
+      "status": "pending",
+      "active": true
     }
   ],
   "requests": [

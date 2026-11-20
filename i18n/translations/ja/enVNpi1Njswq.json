@@ -1,0 +1,2219 @@
+{
+  "schemaVersion": 1,
+  "pageId": "enVNpi1Njswq",
+  "sourceFile": "docs/User Guide/User Guide/Note Types/Text/Vim mode.md",
+  "sourceRevision": "5cc485c830ae66544ae6b2ee67ef07e7ec418c2d",
+  "units": [
+    {
+      "id": "u_451f06d614312dd0990b5e5a_0",
+      "kind": "title",
+      "source": "Vim mode",
+      "sourceHash": "451f06d614312dd0990b5e5ae6febe579f3b9d4099e52c092b09d52fe090b095",
+      "context": "Vim mode",
+      "contextHash": "a497f378378c796112174cedd26df865b36619d9056152e4a1902e547b13c3c8",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_713169a64ce56d349c8feda2_0",
+      "kind": "p",
+      "source": "New to Vim? Start with the __TRILIUM_PH_0__Vim beginner guide__TRILIUM_PH_1__, which explains what the modes are and which keys to learn first.",
+      "sourceHash": "713169a64ce56d349c8feda21b6f4dc217db6c13d36d901cf161a9f28e02ca7f",
+      "context": "Vim mode",
+      "contextHash": "a497f378378c796112174cedd26df865b36619d9056152e4a1902e547b13c3c8",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_46699b08fcf9580542222586_0",
+      "kind": "p",
+      "source": "Vim mode brings Vim-style modal editing to text notes: the motions, operators and commands of the __TRILIUM_PH_0__Vim__TRILIUM_PH_1__ text editor, in Trilium's own editor. It understands the structure of rich text: a paragraph, a heading, a list item or a table cell is a line, and so is an image or an included note.",
+      "sourceHash": "46699b08fcf95805422225865b9bb1dc0475914c3c044377829b6df65a93256b",
+      "context": "Vim mode",
+      "contextHash": "a497f378378c796112174cedd26df865b36619d9056152e4a1902e547b13c3c8",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_f6538b28862f76724f641c36_0",
+      "kind": "p",
+      "source": "The most used keys are in the __TRILIUM_PH_0__Cheat sheet__TRILIUM_PH_1__ below, and all of them in the __TRILIUM_PH_2__Vim full reference__TRILIUM_PH_3__.",
+      "sourceHash": "f6538b28862f76724f641c36492fea43ec41ee4a4de637413c8d8c251aa5c007",
+      "context": "Vim mode",
+      "contextHash": "a497f378378c796112174cedd26df865b36619d9056152e4a1902e547b13c3c8",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_31a26b710f42cfa407624dcd_0",
+      "kind": "h2",
+      "source": "Enabling Vim mode__TRILIUM_PH_0__",
+      "sourceHash": "31a26b710f42cfa407624dcdff98e4e661b259f4860b7bb8d800eba900c23f53",
+      "context": "Vim mode > Enabling Vim mode",
+      "contextHash": "ea60a9ac7fc62c9487f2d3a3ea61d0e772920240115bb88bea34133b7b937af6",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_47088c997b864a17ed5f1462_0",
+      "kind": "li",
+      "source": "Go to __TRILIUM_PH_0__Options__TRILIUM_PH_1__ → __TRILIUM_PH_2__Text Notes__TRILIUM_PH_3__ → __TRILIUM_PH_4__Features__TRILIUM_PH_5__.",
+      "sourceHash": "47088c997b864a17ed5f14629c9a67318a32e939a246dcd487e60c619957b099",
+      "context": "Vim mode > Enabling Vim mode",
+      "contextHash": "ea60a9ac7fc62c9487f2d3a3ea61d0e772920240115bb88bea34133b7b937af6",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_c4bfc37b0375b0b44093b471_0",
+      "kind": "li",
+      "source": "Turn on __TRILIUM_PH_0__Vim mode__TRILIUM_PH_1__.",
+      "sourceHash": "c4bfc37b0375b0b44093b47184adc2f85451f27a11d598781058caa84724c556",
+      "context": "Vim mode > Enabling Vim mode",
+      "contextHash": "ea60a9ac7fc62c9487f2d3a3ea61d0e772920240115bb88bea34133b7b937af6",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_179f0460846b20eabb2b07be_0",
+      "kind": "p",
+      "source": "The option applies to the current device only, so repeat these steps on each device where you want Vim mode. It takes effect at once, without a reload. Code notes have an option of their own: __TRILIUM_PH_0__Options__TRILIUM_PH_1__ → __TRILIUM_PH_2__Code Notes__TRILIUM_PH_3__ → __TRILIUM_PH_4__Editor__TRILIUM_PH_5__ → __TRILIUM_PH_6__Vim keybindings__TRILIUM_PH_7__.",
+      "sourceHash": "179f0460846b20eabb2b07beb1505ec6802427e872ee93981639a1b37b9f25d3",
+      "context": "Vim mode > Enabling Vim mode",
+      "contextHash": "ea60a9ac7fc62c9487f2d3a3ea61d0e772920240115bb88bea34133b7b937af6",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_76fd5a13e821822ea88770f3_0",
+      "kind": "p",
+      "source": "Once Vim mode is on:",
+      "sourceHash": "76fd5a13e821822ea88770f364c3e959d8279cc266777ded98d7c8cad682a877",
+      "context": "Vim mode > Enabling Vim mode",
+      "contextHash": "ea60a9ac7fc62c9487f2d3a3ea61d0e772920240115bb88bea34133b7b937af6",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_43064251ac7ab51a0a22e69f_0",
+      "kind": "li",
+      "source": "Newly opened text notes start in Normal mode: press __TRILIUM_PH_0__ to type, and __TRILIUM_PH_1__Esc__TRILIUM_PH_2__ to return to the commands.",
+      "sourceHash": "43064251ac7ab51a0a22e69f9e6dfb8dc36cfd5fd9b58c0bb71b3cb58791db47",
+      "context": "Vim mode > Enabling Vim mode",
+      "contextHash": "ea60a9ac7fc62c9487f2d3a3ea61d0e772920240115bb88bea34133b7b937af6",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_7b2d274bbc8bf67c43dc51e1_0",
+      "kind": "li",
+      "source": "The notes that were already open when Vim mode was turned on switch to Insert mode, so you can continue typing.",
+      "sourceHash": "7b2d274bbc8bf67c43dc51e12b331313c4ef12e160de34ed1002dab93d80fd39",
+      "context": "Vim mode > Enabling Vim mode",
+      "contextHash": "ea60a9ac7fc62c9487f2d3a3ea61d0e772920240115bb88bea34133b7b937af6",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_16d1250113d44cce16f7ad8f_0",
+      "kind": "li",
+      "source": "In Insert mode, the regular editor stays available, with its formatting, slash commands, Markdown-like formatting and toolbars. A few shortcuts follow Vim there too, see __TRILIUM_PH_0__Shortcuts that change in the editor__TRILIUM_PH_1__ below.",
+      "sourceHash": "16d1250113d44cce16f7ad8f657f8035b6e8fbc8657dc0639590db8f3a70e3aa",
+      "context": "Vim mode > Enabling Vim mode",
+      "contextHash": "ea60a9ac7fc62c9487f2d3a3ea61d0e772920240115bb88bea34133b7b937af6",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_6b55894e0c3c37e52d0b2f1b_0",
+      "kind": "h3",
+      "source": "Where Vim mode shows__TRILIUM_PH_0__",
+      "sourceHash": "6b55894e0c3c37e52d0b2f1bbff886d5ed10c958018cfbc76ae598e0d3564a9f",
+      "context": "Vim mode > Enabling Vim mode > Where Vim mode shows",
+      "contextHash": "6afbf54ae2988f3acf35f4f89c5930e0b56a08e9a1d0d6681582bf654fe7adae",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_df14a833037cddbab9912212_0",
+      "kind": "p",
+      "source": "Vim mode uses three places of the __TRILIUM_PH_0__Status bar__TRILIUM_PH_1__, at the bottom of the window:",
+      "sourceHash": "df14a833037cddbab9912212206363693d1c0428865517e1d5fe33a6a4375389",
+      "context": "Vim mode > Enabling Vim mode > Where Vim mode shows",
+      "contextHash": "6afbf54ae2988f3acf35f4f89c5930e0b56a08e9a1d0d6681582bf654fe7adae",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_7ebd7c7268a74225cdfbcdec_0",
+      "kind": "li",
+      "source": "The __TRILIUM_PH_0__Vim__TRILIUM_PH_1__ badge, before the other indicators of the status bar, is highlighted while Vim mode is on for the current note. Click it to turn Vim mode off or on for that note, see __TRILIUM_PH_2__Vim mode for a single note__TRILIUM_PH_3__ below. Right-click it for a menu with the same switch, a switch for the key hints, the settings and this page.",
+      "sourceHash": "7ebd7c7268a74225cdfbcdec9d9a61033383a2fc3de01ad4600cac3bae27c250",
+      "context": "Vim mode > Enabling Vim mode > Where Vim mode shows",
+      "contextHash": "6afbf54ae2988f3acf35f4f89c5930e0b56a08e9a1d0d6681582bf654fe7adae",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_727b0b7d06f5cd7e16cf5924_0",
+      "kind": "li",
+      "source": "The __TRILIUM_PH_0__mode indicator__TRILIUM_PH_1__, after the badge, shows the current mode: __TRILIUM_PH_2__, __TRILIUM_PH_3__, __TRILIUM_PH_4__, __TRILIUM_PH_5__ or __TRILIUM_PH_6__. Beside it appear the keys of a command that is not complete yet, short messages and the macro being recorded.",
+      "sourceHash": "727b0b7d06f5cd7e16cf59243a3f8dfa9842bdb68902601e65d3d3ce2f626695",
+      "context": "Vim mode > Enabling Vim mode > Where Vim mode shows",
+      "contextHash": "6afbf54ae2988f3acf35f4f89c5930e0b56a08e9a1d0d6681582bf654fe7adae",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_a77308629465d43b657da6ee_0",
+      "kind": "li",
+      "source": "The area of the __TRILIUM_PH_0__Breadcrumb__TRILIUM_PH_1__ is used for two things: the key hints, described below, and the command line, which opens there when you press __TRILIUM_PH_2__, __TRILIUM_PH_3__ or __TRILIUM_PH_4__.",
+      "sourceHash": "a77308629465d43b657da6ee9d06169f2ced77969988b4a077e829e2c1255feb",
+      "context": "Vim mode > Enabling Vim mode > Where Vim mode shows",
+      "contextHash": "6afbf54ae2988f3acf35f4f89c5930e0b56a08e9a1d0d6681582bf654fe7adae",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_6875dc7d76a3fe574cf4f475_0",
+      "kind": "p",
+      "source": "In __TRILIUM_PH_0__Zen mode__TRILIUM_PH_1__, the key hints, the __TRILIUM_PH_2__Vim__TRILIUM_PH_3__ badge and the mode indicator are visible.",
+      "sourceHash": "6875dc7d76a3fe574cf4f475f8afc469d43cdfad55d9a3f66df9a2461309e6f6",
+      "context": "Vim mode > Enabling Vim mode > Where Vim mode shows",
+      "contextHash": "6afbf54ae2988f3acf35f4f89c5930e0b56a08e9a1d0d6681582bf654fe7adae",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_29675c918c5d3f73bdf11da0_0",
+      "kind": "h2",
+      "source": "Settings__TRILIUM_PH_0__",
+      "sourceHash": "29675c918c5d3f73bdf11da066177abdbd01e764226ac10b27e34eeeacb67d5a",
+      "context": "Vim mode > Settings",
+      "contextHash": "7a2ea73f22b48a2a3eb7bbf217c938674164f062c7684e1a977e5cfe3ad2dea0",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_39e67d3606940a82a3e970a4_0",
+      "kind": "p",
+      "source": "The settings are in __TRILIUM_PH_0__Options__TRILIUM_PH_1__ → __TRILIUM_PH_2__Text Notes__TRILIUM_PH_3__ → __TRILIUM_PH_4__Features__TRILIUM_PH_5__. The last three appear below __TRILIUM_PH_6__Vim mode__TRILIUM_PH_7__ once it is turned on. __TRILIUM_PH_8__Vim mode__TRILIUM_PH_9__ itself is kept per device, while the other three are synchronized.",
+      "sourceHash": "39e67d3606940a82a3e970a453d1283892e4bd43261f82f214797921de8ee1db",
+      "context": "Vim mode > Settings",
+      "contextHash": "7a2ea73f22b48a2a3eb7bbf217c938674164f062c7684e1a977e5cfe3ad2dea0",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_4fce3539e6c86aa78eaece0b_0",
+      "kind": "th",
+      "source": "Setting",
+      "sourceHash": "4fce3539e6c86aa78eaece0b98f47a0c63cc6caf38d1225d8a444f52f9480313",
+      "context": "Vim mode > Settings",
+      "contextHash": "7a2ea73f22b48a2a3eb7bbf217c938674164f062c7684e1a977e5cfe3ad2dea0",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_e765a6977fbd7d51b43aabab_0",
+      "kind": "th",
+      "source": "Default",
+      "sourceHash": "e765a6977fbd7d51b43aabab21c012d617ff3e30e02255a2c93b3a6a58bb18ae",
+      "context": "Vim mode > Settings",
+      "contextHash": "7a2ea73f22b48a2a3eb7bbf217c938674164f062c7684e1a977e5cfe3ad2dea0",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_1045d1aa034996dc82e10809_0",
+      "kind": "th",
+      "source": "Applies to",
+      "sourceHash": "1045d1aa034996dc82e108096e1df9fd30ff89ae48cf4df5c3986bb44e4d3df3",
+      "context": "Vim mode > Settings",
+      "contextHash": "7a2ea73f22b48a2a3eb7bbf217c938674164f062c7684e1a977e5cfe3ad2dea0",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_0b639307b7da2206f6693374_0",
+      "kind": "th",
+      "source": "What it does",
+      "sourceHash": "0b639307b7da2206f66933749f1c4da9ef58aa79fdf67683fdea784d5c42599f",
+      "context": "Vim mode > Settings",
+      "contextHash": "7a2ea73f22b48a2a3eb7bbf217c938674164f062c7684e1a977e5cfe3ad2dea0",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_30ffbb8bf33491a925738789_0",
+      "kind": "td",
+      "source": "__TRILIUM_PH_0__Vim mode__TRILIUM_PH_1__",
+      "sourceHash": "30ffbb8bf33491a925738789d95a9a47e1436cc9b9a4422dddc39773c7ade76d",
+      "context": "Vim mode > Settings",
+      "contextHash": "7a2ea73f22b48a2a3eb7bbf217c938674164f062c7684e1a977e5cfe3ad2dea0",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_943a31f66c2f80966074145a_0",
+      "kind": "td",
+      "source": "Off",
+      "sourceHash": "943a31f66c2f80966074145ac993786990af171342bf988448ff18309dd1616d",
+      "context": "Vim mode > Settings",
+      "contextHash": "7a2ea73f22b48a2a3eb7bbf217c938674164f062c7684e1a977e5cfe3ad2dea0",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_8a4414851424bf593a8b6738_0",
+      "kind": "td",
+      "source": "This device",
+      "sourceHash": "8a4414851424bf593a8b673890262e907327e565fffb988191f1665076b43c9e",
+      "context": "Vim mode > Settings",
+      "contextHash": "7a2ea73f22b48a2a3eb7bbf217c938674164f062c7684e1a977e5cfe3ad2dea0",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_36fd32f9627da2468e656475_0",
+      "kind": "td",
+      "source": "Turns Vim mode on in text notes.",
+      "sourceHash": "36fd32f9627da2468e6564758e45610e472e2459216ee603fd44d3dcb26ccf3d",
+      "context": "Vim mode > Settings",
+      "contextHash": "7a2ea73f22b48a2a3eb7bbf217c938674164f062c7684e1a977e5cfe3ad2dea0",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_9dfe0038816a7702a267a606_0",
+      "kind": "td",
+      "source": "__TRILIUM_PH_0__Key hints__TRILIUM_PH_1__",
+      "sourceHash": "9dfe0038816a7702a267a606ed56a445910030b18ed71ada2081f43570539eea",
+      "context": "Vim mode > Settings",
+      "contextHash": "7a2ea73f22b48a2a3eb7bbf217c938674164f062c7684e1a977e5cfe3ad2dea0",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_ff2f8202073fdbf957c04c59_0",
+      "kind": "td",
+      "source": "On",
+      "sourceHash": "ff2f8202073fdbf957c04c59d2a7c20126ea19ba5ecebf65ad14408d7af112a8",
+      "context": "Vim mode > Settings",
+      "contextHash": "7a2ea73f22b48a2a3eb7bbf217c938674164f062c7684e1a977e5cfe3ad2dea0",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_bd867e5e8a47cbc44250ceee_0",
+      "kind": "td",
+      "source": "All your devices",
+      "sourceHash": "bd867e5e8a47cbc44250ceee7525344472a34fd0c7fcee00e909cb9eac9625fe",
+      "context": "Vim mode > Settings",
+      "contextHash": "7a2ea73f22b48a2a3eb7bbf217c938674164f062c7684e1a977e5cfe3ad2dea0",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_c76d8a213c6d8685a4f40d7d_0",
+      "kind": "td",
+      "source": "Shows the keys of the current mode, the keys that can follow a command and the suggestions of the command line. See __TRILIUM_PH_0__Key hints__TRILIUM_PH_1__ below.",
+      "sourceHash": "c76d8a213c6d8685a4f40d7da236a17720c001152ceca15a0a9e42d1ebd6a604",
+      "context": "Vim mode > Settings",
+      "contextHash": "7a2ea73f22b48a2a3eb7bbf217c938674164f062c7684e1a977e5cfe3ad2dea0",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_41f6826f834d36da96a11747_0",
+      "kind": "td",
+      "source": "__TRILIUM_PH_0__Vim keys in Insert mode__TRILIUM_PH_1__",
+      "sourceHash": "41f6826f834d36da96a1174708fcb1c3ac879bef395de871b2e0a0d5e2fcebfb",
+      "context": "Vim mode > Settings",
+      "contextHash": "7a2ea73f22b48a2a3eb7bbf217c938674164f062c7684e1a977e5cfe3ad2dea0",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_943a31f66c2f80966074145a_1",
+      "kind": "td",
+      "source": "Off",
+      "sourceHash": "943a31f66c2f80966074145ac993786990af171342bf988448ff18309dd1616d",
+      "context": "Vim mode > Settings",
+      "contextHash": "7a2ea73f22b48a2a3eb7bbf217c938674164f062c7684e1a977e5cfe3ad2dea0",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_bd867e5e8a47cbc44250ceee_1",
+      "kind": "td",
+      "source": "All your devices",
+      "sourceHash": "bd867e5e8a47cbc44250ceee7525344472a34fd0c7fcee00e909cb9eac9625fe",
+      "context": "Vim mode > Settings",
+      "contextHash": "7a2ea73f22b48a2a3eb7bbf217c938674164f062c7684e1a977e5cfe3ad2dea0",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_e378fffed7c37db90f7b86f0_0",
+      "kind": "td",
+      "source": "Makes __TRILIUM_PH_0__Ctrl__TRILIUM_PH_1__+__TRILIUM_PH_2__U__TRILIUM_PH_3__, __TRILIUM_PH_4__Ctrl__TRILIUM_PH_5__+__TRILIUM_PH_6__E__TRILIUM_PH_7__, __TRILIUM_PH_8__Ctrl__TRILIUM_PH_9__+__TRILIUM_PH_10__Y__TRILIUM_PH_11__, __TRILIUM_PH_12__Ctrl__TRILIUM_PH_13__+__TRILIUM_PH_14__K__TRILIUM_PH_15__, __TRILIUM_PH_16__Ctrl__TRILIUM_PH_17__+__TRILIUM_PH_18__V__TRILIUM_PH_19__ and __TRILIUM_PH_20__Ctrl__TRILIUM_PH_21__+__TRILIUM_PH_22__A__TRILIUM_PH_23__ follow Vim while typing. When off, they keep the meaning the editor gives them, such as underline for __TRILIUM_PH_24__Ctrl__TRILIUM_PH_25__+__TRILIUM_PH_26__U__TRILIUM_PH_27__ and paste for __TRILIUM_PH_28__Ctrl__TRILIUM_PH_29__+__TRILIUM_PH_30__V__TRILIUM_PH_31__.",
+      "sourceHash": "e378fffed7c37db90f7b86f0533775337b9fe11933e8779582b6d5bb3bd5dc48",
+      "context": "Vim mode > Settings",
+      "contextHash": "7a2ea73f22b48a2a3eb7bbf217c938674164f062c7684e1a977e5cfe3ad2dea0",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_1b5292449d54792315d2f0a6_0",
+      "kind": "td",
+      "source": "__TRILIUM_PH_0__Startup commands__TRILIUM_PH_1__",
+      "sourceHash": "1b5292449d54792315d2f0a688fd661794caedc7da7af029191a72f59762f9c9",
+      "context": "Vim mode > Settings",
+      "contextHash": "7a2ea73f22b48a2a3eb7bbf217c938674164f062c7684e1a977e5cfe3ad2dea0",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_49493dcd1e103bc1010a9ba9_0",
+      "kind": "td",
+      "source": "Empty",
+      "sourceHash": "49493dcd1e103bc1010a9ba90b98e8da7e7c5c784994e2133f7b3840fa6bb7e4",
+      "context": "Vim mode > Settings",
+      "contextHash": "7a2ea73f22b48a2a3eb7bbf217c938674164f062c7684e1a977e5cfe3ad2dea0",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_bd867e5e8a47cbc44250ceee_2",
+      "kind": "td",
+      "source": "All your devices",
+      "sourceHash": "bd867e5e8a47cbc44250ceee7525344472a34fd0c7fcee00e909cb9eac9625fe",
+      "context": "Vim mode > Settings",
+      "contextHash": "7a2ea73f22b48a2a3eb7bbf217c938674164f062c7684e1a977e5cfe3ad2dea0",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_4f240eadba1f1915c2b2e4e6_0",
+      "kind": "td",
+      "source": "Runs commands when Vim mode starts, mostly to set up key mappings.",
+      "sourceHash": "4f240eadba1f1915c2b2e4e63a378e3b78ea4e8dae4d293bd569c5643b2400fa",
+      "context": "Vim mode > Settings",
+      "contextHash": "7a2ea73f22b48a2a3eb7bbf217c938674164f062c7684e1a977e5cfe3ad2dea0",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_52e6a5714e9810e05db68279_0",
+      "kind": "h3",
+      "source": "Startup commands__TRILIUM_PH_0__",
+      "sourceHash": "52e6a5714e9810e05db682794f5a7a0013ee3d4382e0bfb06a2b1bedfeeb7f8d",
+      "context": "Vim mode > Settings > Startup commands",
+      "contextHash": "6f1c444f41965a9f0868cb73f10cb25296a6fa42c4903bed366b472acb542d6f",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_5f9b19f68fccd49b0be55a40_0",
+      "kind": "p",
+      "source": "Write one command per line, as it would be typed after __TRILIUM_PH_0__. A line that starts with __TRILIUM_PH_1__ is a comment.",
+      "sourceHash": "5f9b19f68fccd49b0be55a40e0a65a336b5e8029c07fe5c13a6bd4b1ee4a3bef",
+      "context": "Vim mode > Settings > Startup commands",
+      "contextHash": "6f1c444f41965a9f0868cb73f10cb25296a6fa42c4903bed366b472acb542d6f",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_2cf2ede741f7c675157fb657_0",
+      "kind": "p",
+      "source": "When you edit the list, the commands run again as soon as you leave the field, and their mappings replace those of the previous list. Changing the other settings does not run them again. Only the commands of Vim mode are understood, so a __TRILIUM_PH_0__ file made for Vim does not work as it is.",
+      "sourceHash": "2cf2ede741f7c675157fb657eaa867600863c49b3b10e4fd19d6e21a7d0d15c2",
+      "context": "Vim mode > Settings > Startup commands",
+      "contextHash": "6f1c444f41965a9f0868cb73f10cb25296a6fa42c4903bed366b472acb542d6f",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_76755233a8ba5e4d4239ac62_0",
+      "kind": "h3",
+      "source": "Vim mode for a single note__TRILIUM_PH_0__",
+      "sourceHash": "76755233a8ba5e4d4239ac628832767fcaff3fef990160461c0101ae33fc443e",
+      "context": "Vim mode > Settings > Vim mode for a single note",
+      "contextHash": "abb54b373534036c09263a203fca143053e17658d9779f848accf660d235d167",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_bef19857d3bf8fcb000a0dd8_0",
+      "kind": "p",
+      "source": "To decide for one note, whatever the option says, add a __TRILIUM_PH_0__label__TRILIUM_PH_1__ to it:",
+      "sourceHash": "bef19857d3bf8fcb000a0dd8a18060d3b8d2e6c74cb4866ebbf16d467c54e669",
+      "context": "Vim mode > Settings > Vim mode for a single note",
+      "contextHash": "abb54b373534036c09263a203fca143053e17658d9779f848accf660d235d167",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_074a36bb412778604d16c149_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__ turns Vim mode on in that note.",
+      "sourceHash": "074a36bb412778604d16c149aef5974d474b7bb78e32f79e97eb39cf4a2fdc1a",
+      "context": "Vim mode > Settings > Vim mode for a single note",
+      "contextHash": "abb54b373534036c09263a203fca143053e17658d9779f848accf660d235d167",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_e0105791b562452301d2f070_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__ keeps that note in the regular editor.",
+      "sourceHash": "e0105791b562452301d2f0704f52ded54ef66b69e9f22f14aad16528bfe711f6",
+      "context": "Vim mode > Settings > Vim mode for a single note",
+      "contextHash": "abb54b373534036c09263a203fca143053e17658d9779f848accf660d235d167",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_bebb1c6b0e8533a7406bf5a4_0",
+      "kind": "p",
+      "source": "The label can be inherited, so one label can cover a whole subtree. A label set on the note itself wins over an inherited one: with an inheritable __TRILIUM_PH_0__ on a parent note, a child note that has __TRILIUM_PH_1__ stays in the regular editor.",
+      "sourceHash": "bebb1c6b0e8533a7406bf5a4e9ec8c769481dd5c72a032849f4b2112bca46b33",
+      "context": "Vim mode > Settings > Vim mode for a single note",
+      "contextHash": "abb54b373534036c09263a203fca143053e17658d9779f848accf660d235d167",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_61be8ff322a1754f647065ed_0",
+      "kind": "p",
+      "source": "While the __TRILIUM_PH_0__Vim mode__TRILIUM_PH_1__ option is on, the __TRILIUM_PH_2__Vim__TRILIUM_PH_3__ badge in the status bar sets this label for you: a click on it gives the current note __TRILIUM_PH_4__, and another click removes that label again, or sets __TRILIUM_PH_5__ where the note would inherit __TRILIUM_PH_6__. When the label of the note is inheritable, the click changes Vim mode for the notes under it too, and its menu says so.",
+      "sourceHash": "61be8ff322a1754f647065ed9b4e6ce3d3afbda83ada7659016863d062023698",
+      "context": "Vim mode > Settings > Vim mode for a single note",
+      "contextHash": "abb54b373534036c09263a203fca143053e17658d9779f848accf660d235d167",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_81a541351270dedc7d3efd38_0",
+      "kind": "h2",
+      "source": "Key hints__TRILIUM_PH_0__",
+      "sourceHash": "81a541351270dedc7d3efd387c57d7d19187ca489f460e9570bd324d85a34db2",
+      "context": "Vim mode > Key hints",
+      "contextHash": "a13a2462338b21110e8bdd5ce7decadc32031ffc8dbfab4805ca4e0c002c9922",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_a44e6d84a527f28a9ea5247e_0",
+      "kind": "p",
+      "source": "Key hints help while you learn, and can be turned off once the keys are familiar. They show in the status bar, in the area of the breadcrumb:",
+      "sourceHash": "a44e6d84a527f28a9ea5247ecb301095c3710edfd2d120209c2bac1a4e42387a",
+      "context": "Vim mode > Key hints",
+      "contextHash": "a13a2462338b21110e8bdd5ce7decadc32031ffc8dbfab4805ca4e0c002c9922",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_293725c8d32b55a35e9ef533_0",
+      "kind": "li",
+      "source": "In Normal and Visual mode, the most used keys of the mode take the place of the breadcrumb. To switch between the keys and the breadcrumb, press __TRILIUM_PH_0__Esc__TRILIUM_PH_1__ in Normal mode. This is the last thing __TRILIUM_PH_2__Esc__TRILIUM_PH_3__ does: when something else applies, such as search highlights to clear, that happens first and it takes another press. See __TRILIUM_PH_4__The Esc key__TRILIUM_PH_5__ below.",
+      "sourceHash": "293725c8d32b55a35e9ef5337b9e15c876bb4020d75114b783f0adef10e878e3",
+      "context": "Vim mode > Key hints",
+      "contextHash": "a13a2462338b21110e8bdd5ce7decadc32031ffc8dbfab4805ca4e0c002c9922",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_882d10cb64405e41d3d70fc1_0",
+      "kind": "li",
+      "source": "After a pause in the middle of a command, such as after __TRILIUM_PH_0__ or __TRILIUM_PH_1__, the keys that can follow are shown.",
+      "sourceHash": "882d10cb64405e41d3d70fc1f151f4832df3ef4c4b54bd985fd557d78cd66872",
+      "context": "Vim mode > Key hints",
+      "contextHash": "a13a2462338b21110e8bdd5ce7decadc32031ffc8dbfab4805ca4e0c002c9922",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_8af878cd52c5817f8f62eed7_0",
+      "kind": "li",
+      "source": "The command line suggests the commands that match what is typed, and __TRILIUM_PH_0__Tab__TRILIUM_PH_1__ or the arrow keys complete them. The search prompt tells how the pattern is read.",
+      "sourceHash": "8af878cd52c5817f8f62eed72b94f56f0d80b5a5fbf76878877c7578269ab3af",
+      "context": "Vim mode > Key hints",
+      "contextHash": "a13a2462338b21110e8bdd5ce7decadc32031ffc8dbfab4805ca4e0c002c9922",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_c230632efa327f2dc0699099_0",
+      "kind": "li",
+      "source": "To see every key of the current mode, click the mode indicator or press __TRILIUM_PH_0__Alt__TRILIUM_PH_1__+__TRILIUM_PH_2__F1__TRILIUM_PH_3__.",
+      "sourceHash": "c230632efa327f2dc0699099aabf90539352c975150bf4bcb48989154ffa4cf1",
+      "context": "Vim mode > Key hints",
+      "contextHash": "a13a2462338b21110e8bdd5ce7decadc32031ffc8dbfab4805ca4e0c002c9922",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_becf907aab05756fdb600b27_0",
+      "kind": "p",
+      "source": "To turn the hints off, use the __TRILIUM_PH_0__Key hints__TRILIUM_PH_1__ setting or type __TRILIUM_PH_2__. __TRILIUM_PH_3__ turns them back on.",
+      "sourceHash": "becf907aab05756fdb600b27343f60cca9907e9e6ae734ded6470de25caf103f",
+      "context": "Vim mode > Key hints",
+      "contextHash": "a13a2462338b21110e8bdd5ce7decadc32031ffc8dbfab4805ca4e0c002c9922",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_4c9a5cb133281547c0c13a8d_0",
+      "kind": "h2",
+      "source": "Cheat sheet__TRILIUM_PH_0__",
+      "sourceHash": "4c9a5cb133281547c0c13a8d340f46c43878a03c2d304dad334b8454bc5450c0",
+      "context": "Vim mode > Cheat sheet",
+      "contextHash": "df1216c6c40d2b098cc044739de00d25c2e3b38b7582d7ce6110f2fa7a8ca324",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_cf386c939392905275a3b667_0",
+      "kind": "p",
+      "source": "These are the keys and commands used most. Keys typed one after another are written together, such as __TRILIUM_PH_0__. Unless stated otherwise, they are typed in Normal mode.",
+      "sourceHash": "cf386c939392905275a3b66788df3f254c8f6511207af978a9b0ff3b6840c883",
+      "context": "Vim mode > Cheat sheet",
+      "contextHash": "df1216c6c40d2b098cc044739de00d25c2e3b38b7582d7ce6110f2fa7a8ca324",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_c0ef290e9362436ebe43e23f_0",
+      "kind": "h3",
+      "source": "Modes__TRILIUM_PH_0__",
+      "sourceHash": "c0ef290e9362436ebe43e23f318827c6027902a70ff71348948394a96481b1c5",
+      "context": "Vim mode > Cheat sheet > Modes",
+      "contextHash": "61ce0492920a1378bc4b5e0e9ac3cd7ca44ee62310cf64cf46896f8ecc603e99",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_84029ad57a013ebfc14f0a0a_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__ / __TRILIUM_PH_1__: type before / after the cursor.",
+      "sourceHash": "84029ad57a013ebfc14f0a0aaaa5083a0746e235d052c53ee23b0abb1eb41354",
+      "context": "Vim mode > Cheat sheet > Modes",
+      "contextHash": "61ce0492920a1378bc4b5e0e9ac3cd7ca44ee62310cf64cf46896f8ecc603e99",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_690088507a763b5b8d49e288_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__ / __TRILIUM_PH_1__: type at the start / end of the line.",
+      "sourceHash": "690088507a763b5b8d49e288e8accf306b6697a8ad8dc8199d4afb299259ee3c",
+      "context": "Vim mode > Cheat sheet > Modes",
+      "contextHash": "61ce0492920a1378bc4b5e0e9ac3cd7ca44ee62310cf64cf46896f8ecc603e99",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_16685f5f1766d0550b82aef0_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__ / __TRILIUM_PH_1__: open a line below / above and type.",
+      "sourceHash": "16685f5f1766d0550b82aef0120b26360e295bc5be0fa765fa97fd1dc2336a2d",
+      "context": "Vim mode > Cheat sheet > Modes",
+      "contextHash": "61ce0492920a1378bc4b5e0e9ac3cd7ca44ee62310cf64cf46896f8ecc603e99",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_98c00be7911c56cf13f1edec_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__ / __TRILIUM_PH_1__: select characters / whole lines.",
+      "sourceHash": "98c00be7911c56cf13f1edec9c16bbe6f1267155330fddac67484219e99a1b27",
+      "context": "Vim mode > Cheat sheet > Modes",
+      "contextHash": "61ce0492920a1378bc4b5e0e9ac3cd7ca44ee62310cf64cf46896f8ecc603e99",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_c89e3ac4a78f95cf075ff483_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__: type over the existing text.",
+      "sourceHash": "c89e3ac4a78f95cf075ff483051c2832fded3e45cf7095eef7b197ccc3bda828",
+      "context": "Vim mode > Cheat sheet > Modes",
+      "contextHash": "61ce0492920a1378bc4b5e0e9ac3cd7ca44ee62310cf64cf46896f8ecc603e99",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_7b6a99aeab90a0cb77a1649a_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__Esc__TRILIUM_PH_1__: return to Normal mode.",
+      "sourceHash": "7b6a99aeab90a0cb77a1649aa759ced43ac20ed405376e965be722c5bbb98d62",
+      "context": "Vim mode > Cheat sheet > Modes",
+      "contextHash": "61ce0492920a1378bc4b5e0e9ac3cd7ca44ee62310cf64cf46896f8ecc603e99",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_4d8151c8aa0c92083f13482e_0",
+      "kind": "h3",
+      "source": "Moving__TRILIUM_PH_0__",
+      "sourceHash": "4d8151c8aa0c92083f13482eb330feb3fe6fe921548fe608f2bfa8fb48f77906",
+      "context": "Vim mode > Cheat sheet > Moving",
+      "contextHash": "bc15e540279724d86933d5806d672be8a19a706f67b5d4568d9242b0d7d32217",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_1bb064481048e15f2dde2287_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__ __TRILIUM_PH_1__ __TRILIUM_PH_2__ __TRILIUM_PH_3__: left, down, up, right.",
+      "sourceHash": "1bb064481048e15f2dde22874f370f83f56edc954c064f6a6c9a852f8c6292b0",
+      "context": "Vim mode > Cheat sheet > Moving",
+      "contextHash": "bc15e540279724d86933d5806d672be8a19a706f67b5d4568d9242b0d7d32217",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_7917eb81ae9dbf794c5ca005_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__ / __TRILIUM_PH_1__ / __TRILIUM_PH_2__: next word, previous word, end of the word.",
+      "sourceHash": "7917eb81ae9dbf794c5ca0055373ddb70fe5d4f66075e3b73275d6c2456e7b0e",
+      "context": "Vim mode > Cheat sheet > Moving",
+      "contextHash": "bc15e540279724d86933d5806d672be8a19a706f67b5d4568d9242b0d7d32217",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_71082bdcc6453bb4da8d5491_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__ / __TRILIUM_PH_1__ / __TRILIUM_PH_2__: start of the line, first character, end of the line.",
+      "sourceHash": "71082bdcc6453bb4da8d5491d6a414cdacd7ebbf8824c840178e28ae3168ce83",
+      "context": "Vim mode > Cheat sheet > Moving",
+      "contextHash": "bc15e540279724d86933d5806d672be8a19a706f67b5d4568d9242b0d7d32217",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_da8754d27b8dac8dd23e5a10_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__ / __TRILIUM_PH_1__: first / last line of the note. __TRILIUM_PH_2__ goes to line 12.",
+      "sourceHash": "da8754d27b8dac8dd23e5a1081131e830be19f48ba98f07454de440eeedc3355",
+      "context": "Vim mode > Cheat sheet > Moving",
+      "contextHash": "bc15e540279724d86933d5806d672be8a19a706f67b5d4568d9242b0d7d32217",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_7979d4a6006af766dd32ed90_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__ / __TRILIUM_PH_1__: previous / next block.",
+      "sourceHash": "7979d4a6006af766dd32ed907d22ebe7ae9e9d2cb8ba6c77452432d7e43e42e7",
+      "context": "Vim mode > Cheat sheet > Moving",
+      "contextHash": "bc15e540279724d86933d5806d672be8a19a706f67b5d4568d9242b0d7d32217",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_2db6a4066c3a2dab3b5dd69e_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__ and a character: jump to that character in the line. __TRILIUM_PH_1__ repeats the jump.",
+      "sourceHash": "2db6a4066c3a2dab3b5dd69e5f0485e2ce0a824801124708e9336587930c0264",
+      "context": "Vim mode > Cheat sheet > Moving",
+      "contextHash": "bc15e540279724d86933d5806d672be8a19a706f67b5d4568d9242b0d7d32217",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_a609b5645c2216e871ce7779_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__: go to the matching bracket.",
+      "sourceHash": "a609b5645c2216e871ce7779c5e29c4cd7b04a3781eb791265c5f872e66353d0",
+      "context": "Vim mode > Cheat sheet > Moving",
+      "contextHash": "bc15e540279724d86933d5806d672be8a19a706f67b5d4568d9242b0d7d32217",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_3bd21a8bae8c4b9ee1d981ee_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__Ctrl__TRILIUM_PH_1__+__TRILIUM_PH_2__D__TRILIUM_PH_3__ / __TRILIUM_PH_4__Ctrl__TRILIUM_PH_5__+__TRILIUM_PH_6__U__TRILIUM_PH_7__: half a page down / up.",
+      "sourceHash": "3bd21a8bae8c4b9ee1d981ee33fcedec265652ba889767534c62dd542152d2ad",
+      "context": "Vim mode > Cheat sheet > Moving",
+      "contextHash": "bc15e540279724d86933d5806d672be8a19a706f67b5d4568d9242b0d7d32217",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_904945ddd81bbc2705de9869_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__Ctrl__TRILIUM_PH_1__+__TRILIUM_PH_2__O__TRILIUM_PH_3__ / __TRILIUM_PH_4__Ctrl__TRILIUM_PH_5__+__TRILIUM_PH_6__I__TRILIUM_PH_7__: back / forward through the places you jumped from.",
+      "sourceHash": "904945ddd81bbc2705de9869b4b47ec9091bc6bb62c76b3e533feba2c5222270",
+      "context": "Vim mode > Cheat sheet > Moving",
+      "contextHash": "bc15e540279724d86933d5806d672be8a19a706f67b5d4568d9242b0d7d32217",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_49f5d27bc22d3a4863aa4b32_0",
+      "kind": "h3",
+      "source": "Editing__TRILIUM_PH_0__",
+      "sourceHash": "49f5d27bc22d3a4863aa4b3293e9bb28be5a0a59dc76e66d486a3b688b22bbee",
+      "context": "Vim mode > Cheat sheet > Editing",
+      "contextHash": "ea54751385ef7b07ba88fd03e3df32beec779a8e07fbfff4748cb830aac7789f",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_575004273dcf3d53f7cab42e_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__: delete the character under the cursor.",
+      "sourceHash": "575004273dcf3d53f7cab42ebf91c26715d17c4cea1291b99772ee691151c20c",
+      "context": "Vim mode > Cheat sheet > Editing",
+      "contextHash": "ea54751385ef7b07ba88fd03e3df32beec779a8e07fbfff4748cb830aac7789f",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_7683d105394be716394060c2_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__ / __TRILIUM_PH_1__ / __TRILIUM_PH_2__: delete the line, the word, the rest of the line.",
+      "sourceHash": "7683d105394be716394060c22af49692c726c2eb80a25c1f6bb08bf704709c52",
+      "context": "Vim mode > Cheat sheet > Editing",
+      "contextHash": "ea54751385ef7b07ba88fd03e3df32beec779a8e07fbfff4748cb830aac7789f",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_ecdffa3b95bc806a105e48d5_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__ / __TRILIUM_PH_1__ / __TRILIUM_PH_2__: change the line, the word, the rest of the line.",
+      "sourceHash": "ecdffa3b95bc806a105e48d5bc7525cab73a64096ae06755a5c062f035baecdf",
+      "context": "Vim mode > Cheat sheet > Editing",
+      "contextHash": "ea54751385ef7b07ba88fd03e3df32beec779a8e07fbfff4748cb830aac7789f",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_873847edb88a65db6b1922db_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__: change the word under the cursor, wherever the cursor is in it.",
+      "sourceHash": "873847edb88a65db6b1922dbbe64015397b431745f1b15e5f7853eae3ff1bfe3",
+      "context": "Vim mode > Cheat sheet > Editing",
+      "contextHash": "ea54751385ef7b07ba88fd03e3df32beec779a8e07fbfff4748cb830aac7789f",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_a1e4a710b37ebadb62108ac6_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__ and a character: replace one character.",
+      "sourceHash": "a1e4a710b37ebadb62108ac6df8592a0c112db73fb683d4c19e59e927085a2da",
+      "context": "Vim mode > Cheat sheet > Editing",
+      "contextHash": "ea54751385ef7b07ba88fd03e3df32beec779a8e07fbfff4748cb830aac7789f",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_5ce9f8c6a185b729967a57fc_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__: join the next line to this one.",
+      "sourceHash": "5ce9f8c6a185b729967a57fc327cfcd5cdca9d02ac01773a3f196e4021aa6847",
+      "context": "Vim mode > Cheat sheet > Editing",
+      "contextHash": "ea54751385ef7b07ba88fd03e3df32beec779a8e07fbfff4748cb830aac7789f",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_0c43ea088dfce21b88c4c93e_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__ / __TRILIUM_PH_1__: indent / outdent the line.",
+      "sourceHash": "0c43ea088dfce21b88c4c93e6eb53eff929a72887bc1c16087e33f3e1280d094",
+      "context": "Vim mode > Cheat sheet > Editing",
+      "contextHash": "ea54751385ef7b07ba88fd03e3df32beec779a8e07fbfff4748cb830aac7789f",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_14d1e4ec0d62d0680a60d4b4_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__: switch between upper and lower case.",
+      "sourceHash": "14d1e4ec0d62d0680a60d4b4181ee610edd84549bafc360e6851adaa1b89d8ca",
+      "context": "Vim mode > Cheat sheet > Editing",
+      "contextHash": "ea54751385ef7b07ba88fd03e3df32beec779a8e07fbfff4748cb830aac7789f",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_38b3d4ef8f03a890d1cac5db_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__ / __TRILIUM_PH_1__Ctrl__TRILIUM_PH_2__+__TRILIUM_PH_3__R__TRILIUM_PH_4__: undo / redo.",
+      "sourceHash": "38b3d4ef8f03a890d1cac5dbd0a6ecc428bc4597736ab92bddb254c0c8e58385",
+      "context": "Vim mode > Cheat sheet > Editing",
+      "contextHash": "ea54751385ef7b07ba88fd03e3df32beec779a8e07fbfff4748cb830aac7789f",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_d3ae1bf6096d7f97acd5a0ec_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__: repeat the last change.",
+      "sourceHash": "d3ae1bf6096d7f97acd5a0ec9ea50b75b78fccf5a31978df442f1df902c202a7",
+      "context": "Vim mode > Cheat sheet > Editing",
+      "contextHash": "ea54751385ef7b07ba88fd03e3df32beec779a8e07fbfff4748cb830aac7789f",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_f65f35c3c953d821829e23a5_0",
+      "kind": "li",
+      "source": "A number repeats a command: __TRILIUM_PH_0__ deletes three lines, __TRILIUM_PH_1__ moves two words.",
+      "sourceHash": "f65f35c3c953d821829e23a5529cf497fe19fbcfdc0004e5ddc8a94cb6f1ffe4",
+      "context": "Vim mode > Cheat sheet > Editing",
+      "contextHash": "ea54751385ef7b07ba88fd03e3df32beec779a8e07fbfff4748cb830aac7789f",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_c69cedc332f08c918e310733_0",
+      "kind": "h3",
+      "source": "Copying and pasting__TRILIUM_PH_0__",
+      "sourceHash": "c69cedc332f08c918e3107334d37f5a2c40de6d52ed109541248979a1447e7f6",
+      "context": "Vim mode > Cheat sheet > Copying and pasting",
+      "contextHash": "82ddb9b220ab3365e6760f16d7ef6c2814b6a2a5a4bfdb61774d90665d531345",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_d222e1aeffbb087716295693_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__ / __TRILIUM_PH_1__ / __TRILIUM_PH_2__: yank (copy) the line, the word, the rest of the line.",
+      "sourceHash": "d222e1aeffbb08771629569329daa0c6a0213766bf6fee0936e8cfcceee018a5",
+      "context": "Vim mode > Cheat sheet > Copying and pasting",
+      "contextHash": "82ddb9b220ab3365e6760f16d7ef6c2814b6a2a5a4bfdb61774d90665d531345",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_8dfcb1927644320e0514f8d3_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__ / __TRILIUM_PH_1__: put (paste) after / before the cursor.",
+      "sourceHash": "8dfcb1927644320e0514f8d341611433b25e8fc4553254c2988289bc90201055",
+      "context": "Vim mode > Cheat sheet > Copying and pasting",
+      "contextHash": "82ddb9b220ab3365e6760f16d7ef6c2814b6a2a5a4bfdb61774d90665d531345",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_35991f1362e778fd2efb7560_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__ / __TRILIUM_PH_1__: yank the line into the register __TRILIUM_PH_2__ / put from it.",
+      "sourceHash": "35991f1362e778fd2efb756048bb605570b70cbf0bcbe0a9218450c57222175d",
+      "context": "Vim mode > Cheat sheet > Copying and pasting",
+      "contextHash": "82ddb9b220ab3365e6760f16d7ef6c2814b6a2a5a4bfdb61774d90665d531345",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_3625e7ad309df457643cb997_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__ / __TRILIUM_PH_1__: copy to / paste from the system clipboard.",
+      "sourceHash": "3625e7ad309df457643cb997b89371b3278899654c57376814404a0f31370dc6",
+      "context": "Vim mode > Cheat sheet > Copying and pasting",
+      "contextHash": "82ddb9b220ab3365e6760f16d7ef6c2814b6a2a5a4bfdb61774d90665d531345",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_2f01f7dd4dee039099f8678e_0",
+      "kind": "p",
+      "source": "Yanked text keeps its formatting, such as bold, links and colors.",
+      "sourceHash": "2f01f7dd4dee039099f8678e9d440d6d54868b7ec094ec87557eb1b5d4de775e",
+      "context": "Vim mode > Cheat sheet > Copying and pasting",
+      "contextHash": "82ddb9b220ab3365e6760f16d7ef6c2814b6a2a5a4bfdb61774d90665d531345",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_7ba827b13470a16543601343_0",
+      "kind": "h3",
+      "source": "Selecting__TRILIUM_PH_0__",
+      "sourceHash": "7ba827b13470a165436013432d64c5cd1f2a238aac0b3c77d3690b41b676e98b",
+      "context": "Vim mode > Cheat sheet > Selecting",
+      "contextHash": "46600d04b48c3eebd1000bb04507abd5dd75d2266b25104cc1c23c87e3ef7929",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_9b918d0ce6399f6b7a354d3e_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__ / __TRILIUM_PH_1__: start selecting characters / lines. Any motion extends the selection.",
+      "sourceHash": "9b918d0ce6399f6b7a354d3e5b0c9f8d996c1280b81bb5a6a56a97eda19f56e3",
+      "context": "Vim mode > Cheat sheet > Selecting",
+      "contextHash": "46600d04b48c3eebd1000bb04507abd5dd75d2266b25104cc1c23c87e3ef7929",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_395ddfe3b523040a720b2f24_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__, __TRILIUM_PH_1__, __TRILIUM_PH_2__, __TRILIUM_PH_3__: select a word, a block, the text inside quotes or parentheses. __TRILIUM_PH_4__ in place of __TRILIUM_PH_5__ also takes what surrounds it.",
+      "sourceHash": "395ddfe3b523040a720b2f2418b731b5f84f1286a7492e4e6462adc6f4239666",
+      "context": "Vim mode > Cheat sheet > Selecting",
+      "contextHash": "46600d04b48c3eebd1000bb04507abd5dd75d2266b25104cc1c23c87e3ef7929",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_c8a49ea7c3cc80728ee3c907_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__ / __TRILIUM_PH_1__ / __TRILIUM_PH_2__: yank, delete or change the selection.",
+      "sourceHash": "c8a49ea7c3cc80728ee3c907658f91da752e3a93d44b564d3710b46f3c6750c3",
+      "context": "Vim mode > Cheat sheet > Selecting",
+      "contextHash": "46600d04b48c3eebd1000bb04507abd5dd75d2266b25104cc1c23c87e3ef7929",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_0602a5e82a719064a83ec971_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__ / __TRILIUM_PH_1__: indent / outdent the selected lines.",
+      "sourceHash": "0602a5e82a719064a83ec9715ab4548d5007be2c5df502073b4433eac313e8c4",
+      "context": "Vim mode > Cheat sheet > Selecting",
+      "contextHash": "46600d04b48c3eebd1000bb04507abd5dd75d2266b25104cc1c23c87e3ef7929",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_62ab6942169b14dc6933b482_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__: jump to the other end of the selection.",
+      "sourceHash": "62ab6942169b14dc6933b48237b572103c937f843d58c3cd64bcde8d0e1e6c05",
+      "context": "Vim mode > Cheat sheet > Selecting",
+      "contextHash": "46600d04b48c3eebd1000bb04507abd5dd75d2266b25104cc1c23c87e3ef7929",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_b793444117a05a329c417d55_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__: select the previous selection again.",
+      "sourceHash": "b793444117a05a329c417d55dbe68cd8649a930f4aec707f63481a500651ba20",
+      "context": "Vim mode > Cheat sheet > Selecting",
+      "contextHash": "46600d04b48c3eebd1000bb04507abd5dd75d2266b25104cc1c23c87e3ef7929",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_f8c6c24f94114cf48e7e5379_0",
+      "kind": "h3",
+      "source": "Searching and replacing__TRILIUM_PH_0__",
+      "sourceHash": "f8c6c24f94114cf48e7e53791973d9913d09099e8d4bbf5f6fbfa5f9a66ab44e",
+      "context": "Vim mode > Cheat sheet > Searching and replacing",
+      "contextHash": "6d163db154be07293c57aea1b10f07e8c66e358023b4a38d225cbbf6e903e5c0",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_8b6b1833cf245763e9cce6a9_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__ / __TRILIUM_PH_1__: search forward / backward, then press __TRILIUM_PH_2__Enter__TRILIUM_PH_3__.",
+      "sourceHash": "8b6b1833cf245763e9cce6a9f1b34e7ff3f59dc992426f5f6d01a562cf1308b6",
+      "context": "Vim mode > Cheat sheet > Searching and replacing",
+      "contextHash": "6d163db154be07293c57aea1b10f07e8c66e358023b4a38d225cbbf6e903e5c0",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_db2334a614e5af776e1d8036_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__ / __TRILIUM_PH_1__: next / previous match.",
+      "sourceHash": "db2334a614e5af776e1d80361e4dd5160b91dbb60116b70a86a297e3c0205102",
+      "context": "Vim mode > Cheat sheet > Searching and replacing",
+      "contextHash": "6d163db154be07293c57aea1b10f07e8c66e358023b4a38d225cbbf6e903e5c0",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_4d71e1e46d773102c174ed4c_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__ / __TRILIUM_PH_1__: search for the word under the cursor, forward / backward.",
+      "sourceHash": "4d71e1e46d773102c174ed4c1beb912307f4a2a48dcdb7936cec03e73e0b7871",
+      "context": "Vim mode > Cheat sheet > Searching and replacing",
+      "contextHash": "6d163db154be07293c57aea1b10f07e8c66e358023b4a38d225cbbf6e903e5c0",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_9faf62af34154b983fbaf1be_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__: replace in the current line.",
+      "sourceHash": "9faf62af34154b983fbaf1be852791aed69f63ef01a5bd76ffdfe16e6ff80025",
+      "context": "Vim mode > Cheat sheet > Searching and replacing",
+      "contextHash": "6d163db154be07293c57aea1b10f07e8c66e358023b4a38d225cbbf6e903e5c0",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_55cef76b1e04b7c58d985994_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__: replace everywhere in the note. Add __TRILIUM_PH_1__ to confirm each match.",
+      "sourceHash": "55cef76b1e04b7c58d9859947fac67622da598eff5b8663deb362e095aa2ae15",
+      "context": "Vim mode > Cheat sheet > Searching and replacing",
+      "contextHash": "6d163db154be07293c57aea1b10f07e8c66e358023b4a38d225cbbf6e903e5c0",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_ef597b88a4f337601073ba77_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__: clear the search highlights.",
+      "sourceHash": "ef597b88a4f337601073ba77374edb5689c70db4115f76885d13f8da165b869e",
+      "context": "Vim mode > Cheat sheet > Searching and replacing",
+      "contextHash": "6d163db154be07293c57aea1b10f07e8c66e358023b4a38d225cbbf6e903e5c0",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_d4fbe7c29fc97eb4cd28cb3f_0",
+      "kind": "h3",
+      "source": "Trilium-specific features__TRILIUM_PH_0__",
+      "sourceHash": "d4fbe7c29fc97eb4cd28cb3f856b742968524908f9e2646c1b421bbccc07400b",
+      "context": "Vim mode > Cheat sheet > Trilium-specific features",
+      "contextHash": "082dc64769521b216c2116ec5459ae8786e0a62d4e97d6d10fdcb374217a8223",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_2c9e4f1f2723d8d3b27aef6e_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__: save the note now. Trilium also saves by itself.",
+      "sourceHash": "2c9e4f1f2723d8d3b27aef6efbcf70989d9135a7818e89cd4b41dd3e3aa793a1",
+      "context": "Vim mode > Cheat sheet > Trilium-specific features",
+      "contextHash": "082dc64769521b216c2116ec5459ae8786e0a62d4e97d6d10fdcb374217a8223",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_4eed4078665a44b7f60d3a66_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__ or __TRILIUM_PH_1__: close the tab of the note, or its split.",
+      "sourceHash": "4eed4078665a44b7f60d3a66d40a94eb5983902ff8712f121a96811e2e6bc6e3",
+      "context": "Vim mode > Cheat sheet > Trilium-specific features",
+      "contextHash": "082dc64769521b216c2116ec5459ae8786e0a62d4e97d6d10fdcb374217a8223",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_810fba8d947bc05039644218_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__: follow the link or link preview under the cursor.",
+      "sourceHash": "810fba8d947bc05039644218314b2f2f232e3ec50e79a3a2b8b4e8281b704771",
+      "context": "Vim mode > Cheat sheet > Trilium-specific features",
+      "contextHash": "082dc64769521b216c2116ec5459ae8786e0a62d4e97d6d10fdcb374217a8223",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_2e857406f0a510da80574f84_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__ / __TRILIUM_PH_1__: go to the next / previous heading.",
+      "sourceHash": "2e857406f0a510da80574f84dc10ac58a5ad0b8d98bbff9768fb8609b35a3a37",
+      "context": "Vim mode > Cheat sheet > Trilium-specific features",
+      "contextHash": "082dc64769521b216c2116ec5459ae8786e0a62d4e97d6d10fdcb374217a8223",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_0b415c70a1ef557595c66bd3_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__: collapse or expand the heading, list item or collapsible block at the cursor.",
+      "sourceHash": "0b415c70a1ef557595c66bd3b22a871ef8763c44d886276c72ecb6d47c1a8812",
+      "context": "Vim mode > Cheat sheet > Trilium-specific features",
+      "contextHash": "082dc64769521b216c2116ec5459ae8786e0a62d4e97d6d10fdcb374217a8223",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_88312ff094342bf214ed0633_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__: sort the selected paragraphs or list items, or the ones around the cursor.",
+      "sourceHash": "88312ff094342bf214ed063398f6699ca1e80a390a5f258c9f06a12acd72f49d",
+      "context": "Vim mode > Cheat sheet > Trilium-specific features",
+      "contextHash": "082dc64769521b216c2116ec5459ae8786e0a62d4e97d6d10fdcb374217a8223",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_36d6a9e83498c5824a23f0d5_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__: run a command of the text editor by its name, here on the selection.",
+      "sourceHash": "36d6a9e83498c5824a23f0d57700036a8fe1047f3fd007ed6b76102232a7fa61",
+      "context": "Vim mode > Cheat sheet > Trilium-specific features",
+      "contextHash": "082dc64769521b216c2116ec5459ae8786e0a62d4e97d6d10fdcb374217a8223",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_cb93632f7903cb6bd5eba3b9_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__ or __TRILIUM_PH_1__ on an image or an included note: edit its caption or its content.",
+      "sourceHash": "cb93632f7903cb6bd5eba3b9c8449ebafb27322f02e1b930b86003cf7e1db9d9",
+      "context": "Vim mode > Cheat sheet > Trilium-specific features",
+      "contextHash": "082dc64769521b216c2116ec5459ae8786e0a62d4e97d6d10fdcb374217a8223",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_39a1a7811f8e443c4aae640f_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__Alt__TRILIUM_PH_1__+__TRILIUM_PH_2__F1__TRILIUM_PH_3__: list every key of the current mode.",
+      "sourceHash": "39a1a7811f8e443c4aae640ff24edb84c2e606845aa1d87e6b254af217b60991",
+      "context": "Vim mode > Cheat sheet > Trilium-specific features",
+      "contextHash": "082dc64769521b216c2116ec5459ae8786e0a62d4e97d6d10fdcb374217a8223",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_589cf38dc422629388086d5f_0",
+      "kind": "p",
+      "source": "For the other keys and commands, see __TRILIUM_PH_0__Vim full reference__TRILIUM_PH_1__.",
+      "sourceHash": "589cf38dc422629388086d5fdb0765527bca6399445dd6565f024318a1e05505",
+      "context": "Vim mode > Cheat sheet > Trilium-specific features",
+      "contextHash": "082dc64769521b216c2116ec5459ae8786e0a62d4e97d6d10fdcb374217a8223",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_dc620026f6498edd4423d2ea_0",
+      "kind": "h2",
+      "source": "How Vim reads a text note__TRILIUM_PH_0__",
+      "sourceHash": "dc620026f6498edd4423d2eac7eb9add63835e45845fa79a81ff241fd3bd39c6",
+      "context": "Vim mode > How Vim reads a text note",
+      "contextHash": "4e14d65649460c817130c2226a989435e5540f293ebf386c69eed700ee7104bf",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_03e2e28fd29c267ff45bfaf9_0",
+      "kind": "p",
+      "source": "Vim works with lines, and a text note has none of its own. This is how the two fit together:",
+      "sourceHash": "03e2e28fd29c267ff45bfaf9d36e0bceaf0c961f12c1062a0127300a0176ea35",
+      "context": "Vim mode > How Vim reads a text note",
+      "contextHash": "4e14d65649460c817130c2226a989435e5540f293ebf386c69eed700ee7104bf",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_7d9ffbd050d4836df629abfe_0",
+      "kind": "li",
+      "source": "Each paragraph, heading, paragraph of a list item, paragraph of a table cell and line of a code block is one line, however many lines it takes on the screen. This is sometimes called a __TRILIUM_PH_0__logical line__TRILIUM_PH_1__, as opposed to a __TRILIUM_PH_2__screen line__TRILIUM_PH_3__. __TRILIUM_PH_4__, __TRILIUM_PH_5__, __TRILIUM_PH_6__ and __TRILIUM_PH_7__ act on logical lines, while __TRILIUM_PH_8__ and __TRILIUM_PH_9__ move by screen line.",
+      "sourceHash": "7d9ffbd050d4836df629abfecc4f5fa9819772f9a4234c42b429a37461212ec5",
+      "context": "Vim mode > How Vim reads a text note",
+      "contextHash": "4e14d65649460c817130c2226a989435e5540f293ebf386c69eed700ee7104bf",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_7b473b675eb91ccdb44b8a6b_0",
+      "kind": "li",
+      "source": "An image, a diagram, a horizontal rule or an included note is also one line: __TRILIUM_PH_0__ and __TRILIUM_PH_1__ stop on it and __TRILIUM_PH_2__ deletes it. __TRILIUM_PH_3__ or __TRILIUM_PH_4__ enters its caption or its content. To leave an included note, press __TRILIUM_PH_5__Esc__TRILIUM_PH_6__ in its Normal mode, __TRILIUM_PH_7__ on its first line or __TRILIUM_PH_8__ on its last line.",
+      "sourceHash": "7b473b675eb91ccdb44b8a6b93a84ee7c529e5deee0acbbe93655fa0246f215f",
+      "context": "Vim mode > How Vim reads a text note",
+      "contextHash": "4e14d65649460c817130c2226a989435e5540f293ebf386c69eed700ee7104bf",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_6c98c6078f8fd4d343d00a61_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__ and __TRILIUM_PH_1__ add what __TRILIUM_PH_2__Enter__TRILIUM_PH_3__ would add at that place, such as a paragraph, a list item or a code line. __TRILIUM_PH_4__ joins lines the way __TRILIUM_PH_5__Backspace__TRILIUM_PH_6__ does. __TRILIUM_PH_7__ and __TRILIUM_PH_8__ change the level of a list item or the indentation of a paragraph.",
+      "sourceHash": "6c98c6078f8fd4d343d00a6123a67cf76453b2d74180398b82fc86f6175f4a9b",
+      "context": "Vim mode > How Vim reads a text note",
+      "contextHash": "4e14d65649460c817130c2226a989435e5540f293ebf386c69eed700ee7104bf",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_a64d24dddab8a92f682030c4_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__, __TRILIUM_PH_1__, __TRILIUM_PH_2__ and __TRILIUM_PH_3__ work with blocks instead of blank lines: a paragraph, a list item, a quote, a table cell, a code block. On a heading, __TRILIUM_PH_4__ is the heading together with its section.",
+      "sourceHash": "a64d24dddab8a92f682030c4eb47c9bd53dbd2e89a2dc9834ea808354beab870",
+      "context": "Vim mode > How Vim reads a text note",
+      "contextHash": "4e14d65649460c817130c2226a989435e5540f293ebf386c69eed700ee7104bf",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_a1d521e2cd118f4591abe965_0",
+      "kind": "li",
+      "source": "In a table, __TRILIUM_PH_0__ and __TRILIUM_PH_1__ stay inside the cell, and __TRILIUM_PH_2__ and __TRILIUM_PH_3__ move down and up the column.",
+      "sourceHash": "a1d521e2cd118f4591abe9656005890c9574f6f936ff65f4aa65732f845181d4",
+      "context": "Vim mode > How Vim reads a text note",
+      "contextHash": "4e14d65649460c817130c2226a989435e5540f293ebf386c69eed700ee7104bf",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_cc5bd162ed85a9c7deb14576_0",
+      "kind": "li",
+      "source": "A collapsed heading or list item counts as one line for __TRILIUM_PH_0__ and __TRILIUM_PH_1__. Searching also looks inside it, and expands the one that holds a match.",
+      "sourceHash": "cc5bd162ed85a9c7deb14576c3d28721e34d2159cf2c17639a36a6a6dbabb600",
+      "context": "Vim mode > How Vim reads a text note",
+      "contextHash": "4e14d65649460c817130c2226a989435e5540f293ebf386c69eed700ee7104bf",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_bbba47cc7c1793fe6661b654_0",
+      "kind": "li",
+      "source": "Registers are shared by all text notes, but not with code notes. To carry text between the two, use the clipboard register __TRILIUM_PH_0__.",
+      "sourceHash": "bbba47cc7c1793fe6661b654650fb1fe5b6af01aa135d7821c32502bd6c7313f",
+      "context": "Vim mode > How Vim reads a text note",
+      "contextHash": "4e14d65649460c817130c2226a989435e5540f293ebf386c69eed700ee7104bf",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_8f7a6bedb892dfea7a4ee4f6_0",
+      "kind": "h2",
+      "source": "Shortcuts that change in the editor__TRILIUM_PH_0__",
+      "sourceHash": "8f7a6bedb892dfea7a4ee4f646664e39a5765cff29dad09ad7eeb544498f2a8c",
+      "context": "Vim mode > Shortcuts that change in the editor",
+      "contextHash": "aa8ebec0702ff4e4c1a99c6d29e9a75260c225d5bf54bd794cb2a1ebd3bfb493",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_4567b6fcde5853c9a47365fc_0",
+      "kind": "p",
+      "source": "Vim uses some of the __TRILIUM_PH_0__Ctrl__TRILIUM_PH_1__ shortcuts of Trilium. While the cursor is in a text note, Vim's meaning wins, as it already does in code notes. The last column shows Insert mode with the __TRILIUM_PH_2__Vim keys in Insert mode__TRILIUM_PH_3__ setting off, which is the default:",
+      "sourceHash": "4567b6fcde5853c9a47365fcc57bf26fc33af0c90268108669aa044e6f4866d8",
+      "context": "Vim mode > Shortcuts that change in the editor",
+      "contextHash": "aa8ebec0702ff4e4c1a99c6d29e9a75260c225d5bf54bd794cb2a1ebd3bfb493",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_1fb04a753c5bba03e4a9a68e_0",
+      "kind": "th",
+      "source": "Shortcut",
+      "sourceHash": "1fb04a753c5bba03e4a9a68e114f61b44d1d444d12c68bd6222a3f57bdd1000e",
+      "context": "Vim mode > Shortcuts that change in the editor",
+      "contextHash": "aa8ebec0702ff4e4c1a99c6d29e9a75260c225d5bf54bd794cb2a1ebd3bfb493",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_c513d0f58e8d168554919b95_0",
+      "kind": "th",
+      "source": "Without Vim mode",
+      "sourceHash": "c513d0f58e8d168554919b95f44d527cb9b1957e3e9e7e36520b5984d63e937c",
+      "context": "Vim mode > Shortcuts that change in the editor",
+      "contextHash": "aa8ebec0702ff4e4c1a99c6d29e9a75260c225d5bf54bd794cb2a1ebd3bfb493",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_9740e8782f92458a0042a976_0",
+      "kind": "th",
+      "source": "In Normal and Visual mode",
+      "sourceHash": "9740e8782f92458a0042a976da1445d9da0b0b070ae6ba67d89f38507b460863",
+      "context": "Vim mode > Shortcuts that change in the editor",
+      "contextHash": "aa8ebec0702ff4e4c1a99c6d29e9a75260c225d5bf54bd794cb2a1ebd3bfb493",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_3295fc580cce5b100b3a766d_0",
+      "kind": "th",
+      "source": "In Insert mode",
+      "sourceHash": "3295fc580cce5b100b3a766de519b49d50d1f0de101b2215db7bb61a335e6b20",
+      "context": "Vim mode > Shortcuts that change in the editor",
+      "contextHash": "aa8ebec0702ff4e4c1a99c6d29e9a75260c225d5bf54bd794cb2a1ebd3bfb493",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_9748d7feda7c16c3e40648bc_0",
+      "kind": "td",
+      "source": "__TRILIUM_PH_0__Ctrl__TRILIUM_PH_1__+__TRILIUM_PH_2__R__TRILIUM_PH_3__",
+      "sourceHash": "9748d7feda7c16c3e40648bcfc684c3433e312b6e33e423faf6486a75c62ff0d",
+      "context": "Vim mode > Shortcuts that change in the editor",
+      "contextHash": "aa8ebec0702ff4e4c1a99c6d29e9a75260c225d5bf54bd794cb2a1ebd3bfb493",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_0e28a0969d0afbe68d20c75f_0",
+      "kind": "td",
+      "source": "Reload the app (__TRILIUM_PH_0__F5__TRILIUM_PH_1__ still does)",
+      "sourceHash": "0e28a0969d0afbe68d20c75f2b0b16912f27bc6b4ece7dc8b5e8a6ad911ec918",
+      "context": "Vim mode > Shortcuts that change in the editor",
+      "contextHash": "aa8ebec0702ff4e4c1a99c6d29e9a75260c225d5bf54bd794cb2a1ebd3bfb493",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_9062d60b8206634ea23deb48_0",
+      "kind": "td",
+      "source": "Redo",
+      "sourceHash": "9062d60b8206634ea23deb480816212721761b664200e4a5582184dc1023591e",
+      "context": "Vim mode > Shortcuts that change in the editor",
+      "contextHash": "aa8ebec0702ff4e4c1a99c6d29e9a75260c225d5bf54bd794cb2a1ebd3bfb493",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_d24d373faaddbfdf0e8e9d12_0",
+      "kind": "td",
+      "source": "Insert the content of a register",
+      "sourceHash": "d24d373faaddbfdf0e8e9d12b5fdc670fcb6b9fbf42a83ea80a8c308fe9ccd6f",
+      "context": "Vim mode > Shortcuts that change in the editor",
+      "contextHash": "aa8ebec0702ff4e4c1a99c6d29e9a75260c225d5bf54bd794cb2a1ebd3bfb493",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_6a575432f6af1705efe3ad91_0",
+      "kind": "td",
+      "source": "__TRILIUM_PH_0__Ctrl__TRILIUM_PH_1__+__TRILIUM_PH_2__O__TRILIUM_PH_3__",
+      "sourceHash": "6a575432f6af1705efe3ad919792a5b4a54970e1421e3069c1afdee36c410c8a",
+      "context": "Vim mode > Shortcuts that change in the editor",
+      "contextHash": "aa8ebec0702ff4e4c1a99c6d29e9a75260c225d5bf54bd794cb2a1ebd3bfb493",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_22eef3847d8b70140dceab67_0",
+      "kind": "td",
+      "source": "Create a note after the current one",
+      "sourceHash": "22eef3847d8b70140dceab67767b007402b5f374751c4a94f96cc54468aacaae",
+      "context": "Vim mode > Shortcuts that change in the editor",
+      "contextHash": "aa8ebec0702ff4e4c1a99c6d29e9a75260c225d5bf54bd794cb2a1ebd3bfb493",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_e414cf8f9098a934a4766ace_0",
+      "kind": "td",
+      "source": "Go back to the previous jump",
+      "sourceHash": "e414cf8f9098a934a4766ace16a60276460f8defa950a0c3c2ef089278e086fe",
+      "context": "Vim mode > Shortcuts that change in the editor",
+      "contextHash": "aa8ebec0702ff4e4c1a99c6d29e9a75260c225d5bf54bd794cb2a1ebd3bfb493",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_dc4bbfeecf10ed8692cbb4a4_0",
+      "kind": "td",
+      "source": "Run one Normal-mode command",
+      "sourceHash": "dc4bbfeecf10ed8692cbb4a4165dd5af1dd6a1ee460a6624911039ad6b8ac153",
+      "context": "Vim mode > Shortcuts that change in the editor",
+      "contextHash": "aa8ebec0702ff4e4c1a99c6d29e9a75260c225d5bf54bd794cb2a1ebd3bfb493",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_8d2437097be3721144428ec3_0",
+      "kind": "td",
+      "source": "__TRILIUM_PH_0__Ctrl__TRILIUM_PH_1__+__TRILIUM_PH_2__P__TRILIUM_PH_3__",
+      "sourceHash": "8d2437097be3721144428ec312b311566232c6d92d1a569a6f45688e9b8c5e24",
+      "context": "Vim mode > Shortcuts that change in the editor",
+      "contextHash": "aa8ebec0702ff4e4c1a99c6d29e9a75260c225d5bf54bd794cb2a1ebd3bfb493",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_e468e87769b1c9d28dd115f6_0",
+      "kind": "td",
+      "source": "Create a child note",
+      "sourceHash": "e468e87769b1c9d28dd115f6c2efec37f670cf09a91bb4d130b7d331dc7b9fdb",
+      "context": "Vim mode > Shortcuts that change in the editor",
+      "contextHash": "aa8ebec0702ff4e4c1a99c6d29e9a75260c225d5bf54bd794cb2a1ebd3bfb493",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_4463338cc4c0417c7701152c_0",
+      "kind": "td",
+      "source": "Move up a line, as __TRILIUM_PH_0__",
+      "sourceHash": "4463338cc4c0417c7701152c4000239665c77221b41cb77b019c99cd687df3bc",
+      "context": "Vim mode > Shortcuts that change in the editor",
+      "contextHash": "aa8ebec0702ff4e4c1a99c6d29e9a75260c225d5bf54bd794cb2a1ebd3bfb493",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_79f6dd9b2b190fb54c79771b_0",
+      "kind": "td",
+      "source": "Nothing",
+      "sourceHash": "79f6dd9b2b190fb54c79771ba34af8c6114958451ba294220b508ccda700cd85",
+      "context": "Vim mode > Shortcuts that change in the editor",
+      "contextHash": "aa8ebec0702ff4e4c1a99c6d29e9a75260c225d5bf54bd794cb2a1ebd3bfb493",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_1e62a29e26fca8ce77d79467_0",
+      "kind": "td",
+      "source": "__TRILIUM_PH_0__Ctrl__TRILIUM_PH_1__+__TRILIUM_PH_2__F__TRILIUM_PH_3__",
+      "sourceHash": "1e62a29e26fca8ce77d794670eee286ccff61b74cce4eab0a596317a2f2c477d",
+      "context": "Vim mode > Shortcuts that change in the editor",
+      "contextHash": "aa8ebec0702ff4e4c1a99c6d29e9a75260c225d5bf54bd794cb2a1ebd3bfb493",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_625049a73ee64088fd158590_0",
+      "kind": "td",
+      "source": "Search in note (desktop app)",
+      "sourceHash": "625049a73ee64088fd158590247c7edab49e5da55da554574f4dd8dfcd1effd0",
+      "context": "Vim mode > Shortcuts that change in the editor",
+      "contextHash": "aa8ebec0702ff4e4c1a99c6d29e9a75260c225d5bf54bd794cb2a1ebd3bfb493",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_229e547feeb4d77dee628b4d_0",
+      "kind": "td",
+      "source": "Scroll a page down",
+      "sourceHash": "229e547feeb4d77dee628b4d8186d66833d05a83bbfee4407cd7ad2e79035052",
+      "context": "Vim mode > Shortcuts that change in the editor",
+      "contextHash": "aa8ebec0702ff4e4c1a99c6d29e9a75260c225d5bf54bd794cb2a1ebd3bfb493",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_4bbc2b2197b3be121018c82f_0",
+      "kind": "td",
+      "source": "Unchanged",
+      "sourceHash": "4bbc2b2197b3be121018c82f04c3190fbc15a44ac31f4979aa680fbcc552bc8a",
+      "context": "Vim mode > Shortcuts that change in the editor",
+      "contextHash": "aa8ebec0702ff4e4c1a99c6d29e9a75260c225d5bf54bd794cb2a1ebd3bfb493",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_4c4cccd7d4933ed48569fc9e_0",
+      "kind": "td",
+      "source": "__TRILIUM_PH_0__Ctrl__TRILIUM_PH_1__+__TRILIUM_PH_2__B__TRILIUM_PH_3__, __TRILIUM_PH_4__Ctrl__TRILIUM_PH_5__+__TRILIUM_PH_6__I__TRILIUM_PH_7__, __TRILIUM_PH_8__Ctrl__TRILIUM_PH_9__+__TRILIUM_PH_10__U__TRILIUM_PH_11__",
+      "sourceHash": "4c4cccd7d4933ed48569fc9eb33b6b9736f7e8600b71630d9f5c9e9414d49c19",
+      "context": "Vim mode > Shortcuts that change in the editor",
+      "contextHash": "aa8ebec0702ff4e4c1a99c6d29e9a75260c225d5bf54bd794cb2a1ebd3bfb493",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_ab29b7008f103164ebe3449d_0",
+      "kind": "td",
+      "source": "Bold, italic, underline",
+      "sourceHash": "ab29b7008f103164ebe3449de2764128505f86927eaf1cd5f9ab1aa89b1d31ec",
+      "context": "Vim mode > Shortcuts that change in the editor",
+      "contextHash": "aa8ebec0702ff4e4c1a99c6d29e9a75260c225d5bf54bd794cb2a1ebd3bfb493",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_0fa5dbb69be3e098e03ffd22_0",
+      "kind": "td",
+      "source": "Scroll a page up, go forward to the next jump, scroll half a page up",
+      "sourceHash": "0fa5dbb69be3e098e03ffd22b30115264a6dab3431c26f677c4c38105ff9f25b",
+      "context": "Vim mode > Shortcuts that change in the editor",
+      "contextHash": "aa8ebec0702ff4e4c1a99c6d29e9a75260c225d5bf54bd794cb2a1ebd3bfb493",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_4bbc2b2197b3be121018c82f_1",
+      "kind": "td",
+      "source": "Unchanged",
+      "sourceHash": "4bbc2b2197b3be121018c82f04c3190fbc15a44ac31f4979aa680fbcc552bc8a",
+      "context": "Vim mode > Shortcuts that change in the editor",
+      "contextHash": "aa8ebec0702ff4e4c1a99c6d29e9a75260c225d5bf54bd794cb2a1ebd3bfb493",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_edad9cc8edf25636c77d8126_0",
+      "kind": "td",
+      "source": "__TRILIUM_PH_0__Ctrl__TRILIUM_PH_1__+__TRILIUM_PH_2__A__TRILIUM_PH_3__, __TRILIUM_PH_4__Ctrl__TRILIUM_PH_5__+__TRILIUM_PH_6__X__TRILIUM_PH_7__",
+      "sourceHash": "edad9cc8edf25636c77d8126f9125e2b22fa900d81aefd81e732b53f65f8bb3f",
+      "context": "Vim mode > Shortcuts that change in the editor",
+      "contextHash": "aa8ebec0702ff4e4c1a99c6d29e9a75260c225d5bf54bd794cb2a1ebd3bfb493",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_fa439a303fcac153bc6ecbec_0",
+      "kind": "td",
+      "source": "Select all, cut",
+      "sourceHash": "fa439a303fcac153bc6ecbec999fc5e098ef4db49ee8803086a9a86e09a716a8",
+      "context": "Vim mode > Shortcuts that change in the editor",
+      "contextHash": "aa8ebec0702ff4e4c1a99c6d29e9a75260c225d5bf54bd794cb2a1ebd3bfb493",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_3273288694e27a12facb1427_0",
+      "kind": "td",
+      "source": "Increase, decrease the number at the cursor",
+      "sourceHash": "3273288694e27a12facb1427616214c1d79ed4158a27b93d31b9eb5df70fe9f6",
+      "context": "Vim mode > Shortcuts that change in the editor",
+      "contextHash": "aa8ebec0702ff4e4c1a99c6d29e9a75260c225d5bf54bd794cb2a1ebd3bfb493",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_4bbc2b2197b3be121018c82f_2",
+      "kind": "td",
+      "source": "Unchanged",
+      "sourceHash": "4bbc2b2197b3be121018c82f04c3190fbc15a44ac31f4979aa680fbcc552bc8a",
+      "context": "Vim mode > Shortcuts that change in the editor",
+      "contextHash": "aa8ebec0702ff4e4c1a99c6d29e9a75260c225d5bf54bd794cb2a1ebd3bfb493",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_b9c90164016c8cef28bd31b3_0",
+      "kind": "td",
+      "source": "__TRILIUM_PH_0__Ctrl__TRILIUM_PH_1__+__TRILIUM_PH_2__Z__TRILIUM_PH_3__, __TRILIUM_PH_4__Ctrl__TRILIUM_PH_5__+__TRILIUM_PH_6__Shift__TRILIUM_PH_7__+__TRILIUM_PH_8__Z__TRILIUM_PH_9__",
+      "sourceHash": "b9c90164016c8cef28bd31b3b5448c01e0c160db94f67421601b693bf1156400",
+      "context": "Vim mode > Shortcuts that change in the editor",
+      "contextHash": "aa8ebec0702ff4e4c1a99c6d29e9a75260c225d5bf54bd794cb2a1ebd3bfb493",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_944aaeb947d94eb1ab761262_0",
+      "kind": "td",
+      "source": "Undo, redo",
+      "sourceHash": "944aaeb947d94eb1ab761262e1a276f99d9ae6da1e6b46058a62cd4ee2644169",
+      "context": "Vim mode > Shortcuts that change in the editor",
+      "contextHash": "aa8ebec0702ff4e4c1a99c6d29e9a75260c225d5bf54bd794cb2a1ebd3bfb493",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_068e6e2cb9d4f312b6b8f6c3_0",
+      "kind": "td",
+      "source": "The same as __TRILIUM_PH_0__ and __TRILIUM_PH_1__Ctrl__TRILIUM_PH_2__+__TRILIUM_PH_3__R__TRILIUM_PH_4__",
+      "sourceHash": "068e6e2cb9d4f312b6b8f6c35cdceebab87e23974e63932197d22807fbab9791",
+      "context": "Vim mode > Shortcuts that change in the editor",
+      "contextHash": "aa8ebec0702ff4e4c1a99c6d29e9a75260c225d5bf54bd794cb2a1ebd3bfb493",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_4bbc2b2197b3be121018c82f_3",
+      "kind": "td",
+      "source": "Unchanged",
+      "sourceHash": "4bbc2b2197b3be121018c82f04c3190fbc15a44ac31f4979aa680fbcc552bc8a",
+      "context": "Vim mode > Shortcuts that change in the editor",
+      "contextHash": "aa8ebec0702ff4e4c1a99c6d29e9a75260c225d5bf54bd794cb2a1ebd3bfb493",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_1bc2227d0adf1583b70bf19c_0",
+      "kind": "td",
+      "source": "__TRILIUM_PH_0__Ctrl__TRILIUM_PH_1__+__TRILIUM_PH_2__W__TRILIUM_PH_3__",
+      "sourceHash": "1bc2227d0adf1583b70bf19cd794838665fa71e043b61901ebc899193b8da9b0",
+      "context": "Vim mode > Shortcuts that change in the editor",
+      "contextHash": "aa8ebec0702ff4e4c1a99c6d29e9a75260c225d5bf54bd794cb2a1ebd3bfb493",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_a3faab7bfd9a72ce52502a16_0",
+      "kind": "td",
+      "source": "Close the tab",
+      "sourceHash": "a3faab7bfd9a72ce52502a161f45ff9f2e866c226ee14cb205617d5150edfec3",
+      "context": "Vim mode > Shortcuts that change in the editor",
+      "contextHash": "aa8ebec0702ff4e4c1a99c6d29e9a75260c225d5bf54bd794cb2a1ebd3bfb493",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_79f6dd9b2b190fb54c79771b_1",
+      "kind": "td",
+      "source": "Nothing",
+      "sourceHash": "79f6dd9b2b190fb54c79771ba34af8c6114958451ba294220b508ccda700cd85",
+      "context": "Vim mode > Shortcuts that change in the editor",
+      "contextHash": "aa8ebec0702ff4e4c1a99c6d29e9a75260c225d5bf54bd794cb2a1ebd3bfb493",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_7438db71bbb6886f56294469_0",
+      "kind": "td",
+      "source": "Delete the word before the cursor",
+      "sourceHash": "7438db71bbb6886f5629446964a43ed40011bd99dad5843852b05b88d7cfa2b0",
+      "context": "Vim mode > Shortcuts that change in the editor",
+      "contextHash": "aa8ebec0702ff4e4c1a99c6d29e9a75260c225d5bf54bd794cb2a1ebd3bfb493",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_c171f72256a5460e72dbee14_0",
+      "kind": "td",
+      "source": "__TRILIUM_PH_0__Ctrl__TRILIUM_PH_1__+__TRILIUM_PH_2__T__TRILIUM_PH_3__, __TRILIUM_PH_4__Ctrl__TRILIUM_PH_5__+__TRILIUM_PH_6__D__TRILIUM_PH_7__",
+      "sourceHash": "c171f72256a5460e72dbee14a4cc2ec3183862e57ef2ede9208075a5229cd812",
+      "context": "Vim mode > Shortcuts that change in the editor",
+      "contextHash": "aa8ebec0702ff4e4c1a99c6d29e9a75260c225d5bf54bd794cb2a1ebd3bfb493",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_83ef013d5d3f23dd9a049443_0",
+      "kind": "td",
+      "source": "Open a new tab, nothing",
+      "sourceHash": "83ef013d5d3f23dd9a049443e4235a6d18ed42959625b39049ef3b8ab89637ff",
+      "context": "Vim mode > Shortcuts that change in the editor",
+      "contextHash": "aa8ebec0702ff4e4c1a99c6d29e9a75260c225d5bf54bd794cb2a1ebd3bfb493",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_5ee119ee1eece381d9f0fee2_0",
+      "kind": "td",
+      "source": "Unchanged, scroll half a page down",
+      "sourceHash": "5ee119ee1eece381d9f0fee20d0f3684a82155e015b31ec49e5eb4ebfc157905",
+      "context": "Vim mode > Shortcuts that change in the editor",
+      "contextHash": "aa8ebec0702ff4e4c1a99c6d29e9a75260c225d5bf54bd794cb2a1ebd3bfb493",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_d4ef6fcf2b05bcd891308f85_0",
+      "kind": "td",
+      "source": "Indent, outdent the line",
+      "sourceHash": "d4ef6fcf2b05bcd891308f857dd5810d5526fc391548d9275e9cb452992ddcfd",
+      "context": "Vim mode > Shortcuts that change in the editor",
+      "contextHash": "aa8ebec0702ff4e4c1a99c6d29e9a75260c225d5bf54bd794cb2a1ebd3bfb493",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_e5f1bdfd48f94e578f1a6a59_0",
+      "kind": "td",
+      "source": "__TRILIUM_PH_0__Ctrl__TRILIUM_PH_1__+__TRILIUM_PH_2__C__TRILIUM_PH_3__",
+      "sourceHash": "e5f1bdfd48f94e578f1a6a5983aaa4cbae2e8a32314641ec80daea095ac4aca0",
+      "context": "Vim mode > Shortcuts that change in the editor",
+      "contextHash": "aa8ebec0702ff4e4c1a99c6d29e9a75260c225d5bf54bd794cb2a1ebd3bfb493",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_bb17dc8089177d5bbf474be4_0",
+      "kind": "td",
+      "source": "Copy",
+      "sourceHash": "bb17dc8089177d5bbf474be43a690a573b2e6028048b22e0b458e74f0064d1de",
+      "context": "Vim mode > Shortcuts that change in the editor",
+      "contextHash": "aa8ebec0702ff4e4c1a99c6d29e9a75260c225d5bf54bd794cb2a1ebd3bfb493",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_1b290ad112060ca5aa02667b_0",
+      "kind": "td",
+      "source": "Copy the selection and leave Visual mode. With nothing selected, the same as __TRILIUM_PH_0__Esc__TRILIUM_PH_1__",
+      "sourceHash": "1b290ad112060ca5aa02667be1302f8d82723960a22c4e55537e2b2656cec4a2",
+      "context": "Vim mode > Shortcuts that change in the editor",
+      "contextHash": "aa8ebec0702ff4e4c1a99c6d29e9a75260c225d5bf54bd794cb2a1ebd3bfb493",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_e18c546de9df35b0eb70c1a5_0",
+      "kind": "td",
+      "source": "Copy the selection. With nothing selected, leave Insert mode",
+      "sourceHash": "e18c546de9df35b0eb70c1a53869b5ffb92d5ad8c432afa71cd75dab4572ea12",
+      "context": "Vim mode > Shortcuts that change in the editor",
+      "contextHash": "aa8ebec0702ff4e4c1a99c6d29e9a75260c225d5bf54bd794cb2a1ebd3bfb493",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_2b374e1442947f8fa7e0cf5a_0",
+      "kind": "td",
+      "source": "__TRILIUM_PH_0__ and __TRILIUM_PH_1__",
+      "sourceHash": "2b374e1442947f8fa7e0cf5a3c2f066f2d0dd9a3fe97118bd18e80cb8e7365d2",
+      "context": "Vim mode > Shortcuts that change in the editor",
+      "contextHash": "aa8ebec0702ff4e4c1a99c6d29e9a75260c225d5bf54bd794cb2a1ebd3bfb493",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_cb4936919d3abeb91cb6446a_0",
+      "kind": "td",
+      "source": "Slash commands and emoji completion",
+      "sourceHash": "cb4936919d3abeb91cb6446ac24fba2b832ffbac866ed1400bd2d00f3fd95a85",
+      "context": "Vim mode > Shortcuts that change in the editor",
+      "contextHash": "aa8ebec0702ff4e4c1a99c6d29e9a75260c225d5bf54bd794cb2a1ebd3bfb493",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_5e921b10a225c65b6b92765f_0",
+      "kind": "td",
+      "source": "Search and the command line",
+      "sourceHash": "5e921b10a225c65b6b92765f95ad10b07eece3356f4b8530ccee486fad7c7e0a",
+      "context": "Vim mode > Shortcuts that change in the editor",
+      "contextHash": "aa8ebec0702ff4e4c1a99c6d29e9a75260c225d5bf54bd794cb2a1ebd3bfb493",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_4bbc2b2197b3be121018c82f_4",
+      "kind": "td",
+      "source": "Unchanged",
+      "sourceHash": "4bbc2b2197b3be121018c82f04c3190fbc15a44ac31f4979aa680fbcc552bc8a",
+      "context": "Vim mode > Shortcuts that change in the editor",
+      "contextHash": "aa8ebec0702ff4e4c1a99c6d29e9a75260c225d5bf54bd794cb2a1ebd3bfb493",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_1cfbc4ad648c2c8ef85247cd_0",
+      "kind": "p",
+      "source": "With __TRILIUM_PH_0__Vim keys in Insert mode__TRILIUM_PH_1__ turned on, six more shortcuts follow Vim while typing. In Normal and Visual mode, the setting changes nothing.",
+      "sourceHash": "1cfbc4ad648c2c8ef85247cd862009b771ce16e88ecdd7d04ee5d0fc1422b9d1",
+      "context": "Vim mode > Shortcuts that change in the editor",
+      "contextHash": "aa8ebec0702ff4e4c1a99c6d29e9a75260c225d5bf54bd794cb2a1ebd3bfb493",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_1fb04a753c5bba03e4a9a68e_1",
+      "kind": "th",
+      "source": "Shortcut",
+      "sourceHash": "1fb04a753c5bba03e4a9a68e114f61b44d1d444d12c68bd6222a3f57bdd1000e",
+      "context": "Vim mode > Shortcuts that change in the editor",
+      "contextHash": "aa8ebec0702ff4e4c1a99c6d29e9a75260c225d5bf54bd794cb2a1ebd3bfb493",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_9baa18e543ce21ee599f808a_0",
+      "kind": "th",
+      "source": "In Insert mode, setting off",
+      "sourceHash": "9baa18e543ce21ee599f808a5e1b70f2fc83bea9a58f3367a52cf8489f105582",
+      "context": "Vim mode > Shortcuts that change in the editor",
+      "contextHash": "aa8ebec0702ff4e4c1a99c6d29e9a75260c225d5bf54bd794cb2a1ebd3bfb493",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_64ba4b7a80be2eca81286d19_0",
+      "kind": "th",
+      "source": "In Insert mode, setting on",
+      "sourceHash": "64ba4b7a80be2eca81286d19da91689f89e63527ca77363acb0b5cc3252b3542",
+      "context": "Vim mode > Shortcuts that change in the editor",
+      "contextHash": "aa8ebec0702ff4e4c1a99c6d29e9a75260c225d5bf54bd794cb2a1ebd3bfb493",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_0c5dd73877e2917974d57b4e_0",
+      "kind": "td",
+      "source": "__TRILIUM_PH_0__Ctrl__TRILIUM_PH_1__+__TRILIUM_PH_2__U__TRILIUM_PH_3__",
+      "sourceHash": "0c5dd73877e2917974d57b4eff76af298d31d91beecb85573b17d3eb211c29ce",
+      "context": "Vim mode > Shortcuts that change in the editor",
+      "contextHash": "aa8ebec0702ff4e4c1a99c6d29e9a75260c225d5bf54bd794cb2a1ebd3bfb493",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_691488c38fae7d664b866f14_0",
+      "kind": "td",
+      "source": "Underline",
+      "sourceHash": "691488c38fae7d664b866f1486c33796e1a7c64bcd6d57e73c379cded9de3759",
+      "context": "Vim mode > Shortcuts that change in the editor",
+      "contextHash": "aa8ebec0702ff4e4c1a99c6d29e9a75260c225d5bf54bd794cb2a1ebd3bfb493",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_6ed270b5b22f9d900907d23f_0",
+      "kind": "td",
+      "source": "Delete from the cursor to the start of the line",
+      "sourceHash": "6ed270b5b22f9d900907d23f332021133fa4731e2fb67a70cdb533b99191f8c6",
+      "context": "Vim mode > Shortcuts that change in the editor",
+      "contextHash": "aa8ebec0702ff4e4c1a99c6d29e9a75260c225d5bf54bd794cb2a1ebd3bfb493",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_b3dfb7029b6fd1ed85816008_0",
+      "kind": "td",
+      "source": "__TRILIUM_PH_0__Ctrl__TRILIUM_PH_1__+__TRILIUM_PH_2__E__TRILIUM_PH_3__",
+      "sourceHash": "b3dfb7029b6fd1ed85816008460a431dd63be92294e84809be3f02b695f7e805",
+      "context": "Vim mode > Shortcuts that change in the editor",
+      "contextHash": "aa8ebec0702ff4e4c1a99c6d29e9a75260c225d5bf54bd794cb2a1ebd3bfb493",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_79f6dd9b2b190fb54c79771b_2",
+      "kind": "td",
+      "source": "Nothing",
+      "sourceHash": "79f6dd9b2b190fb54c79771ba34af8c6114958451ba294220b508ccda700cd85",
+      "context": "Vim mode > Shortcuts that change in the editor",
+      "contextHash": "aa8ebec0702ff4e4c1a99c6d29e9a75260c225d5bf54bd794cb2a1ebd3bfb493",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_65a9f0c3a06a59b8ff763740_0",
+      "kind": "td",
+      "source": "Insert the character that is below the cursor",
+      "sourceHash": "65a9f0c3a06a59b8ff763740429628358966be4f54443eadb0359e541297a1fa",
+      "context": "Vim mode > Shortcuts that change in the editor",
+      "contextHash": "aa8ebec0702ff4e4c1a99c6d29e9a75260c225d5bf54bd794cb2a1ebd3bfb493",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_95f9b1291de08afc663dabcd_0",
+      "kind": "td",
+      "source": "__TRILIUM_PH_0__Ctrl__TRILIUM_PH_1__+__TRILIUM_PH_2__Y__TRILIUM_PH_3__",
+      "sourceHash": "95f9b1291de08afc663dabcd3c81ffc7ca167b8ad91a9704867e555709b64c59",
+      "context": "Vim mode > Shortcuts that change in the editor",
+      "contextHash": "aa8ebec0702ff4e4c1a99c6d29e9a75260c225d5bf54bd794cb2a1ebd3bfb493",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_9062d60b8206634ea23deb48_1",
+      "kind": "td",
+      "source": "Redo",
+      "sourceHash": "9062d60b8206634ea23deb480816212721761b664200e4a5582184dc1023591e",
+      "context": "Vim mode > Shortcuts that change in the editor",
+      "contextHash": "aa8ebec0702ff4e4c1a99c6d29e9a75260c225d5bf54bd794cb2a1ebd3bfb493",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_e617372a4fd85ecaa6fb9135_0",
+      "kind": "td",
+      "source": "Insert the character that is above the cursor",
+      "sourceHash": "e617372a4fd85ecaa6fb91350f8b7d6a9b2e4f5ec6dd9b0a09d1f343cebc5932",
+      "context": "Vim mode > Shortcuts that change in the editor",
+      "contextHash": "aa8ebec0702ff4e4c1a99c6d29e9a75260c225d5bf54bd794cb2a1ebd3bfb493",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_11cd394113c7260b28e0c7d4_0",
+      "kind": "td",
+      "source": "__TRILIUM_PH_0__Ctrl__TRILIUM_PH_1__+__TRILIUM_PH_2__K__TRILIUM_PH_3__",
+      "sourceHash": "11cd394113c7260b28e0c7d4ccc4f4cd91a8a8b52df579b22d2dd59625c64032",
+      "context": "Vim mode > Shortcuts that change in the editor",
+      "contextHash": "aa8ebec0702ff4e4c1a99c6d29e9a75260c225d5bf54bd794cb2a1ebd3bfb493",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_0b9cd35108b557e34075c225_0",
+      "kind": "td",
+      "source": "Create a link",
+      "sourceHash": "0b9cd35108b557e34075c2250fb97f61292c6097f627b96cd285196fad6faf0b",
+      "context": "Vim mode > Shortcuts that change in the editor",
+      "contextHash": "aa8ebec0702ff4e4c1a99c6d29e9a75260c225d5bf54bd794cb2a1ebd3bfb493",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_37a1786c566441a599638c9b_0",
+      "kind": "td",
+      "source": "Start a digraph, a character typed as two keys",
+      "sourceHash": "37a1786c566441a599638c9b1b9f69fc66844143c6abbcc647a14ced5a8a9c99",
+      "context": "Vim mode > Shortcuts that change in the editor",
+      "contextHash": "aa8ebec0702ff4e4c1a99c6d29e9a75260c225d5bf54bd794cb2a1ebd3bfb493",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_5a5ace179e4be32f7b0f2ae0_0",
+      "kind": "td",
+      "source": "__TRILIUM_PH_0__Ctrl__TRILIUM_PH_1__+__TRILIUM_PH_2__V__TRILIUM_PH_3__",
+      "sourceHash": "5a5ace179e4be32f7b0f2ae0e4306c628554deebc730937a88297e14187e0c07",
+      "context": "Vim mode > Shortcuts that change in the editor",
+      "contextHash": "aa8ebec0702ff4e4c1a99c6d29e9a75260c225d5bf54bd794cb2a1ebd3bfb493",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_944a522105947f952bf67d72_0",
+      "kind": "td",
+      "source": "Paste",
+      "sourceHash": "944a522105947f952bf67d728dc36016323d1da654af6520c36d836530bc756a",
+      "context": "Vim mode > Shortcuts that change in the editor",
+      "contextHash": "aa8ebec0702ff4e4c1a99c6d29e9a75260c225d5bf54bd794cb2a1ebd3bfb493",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_065fe73d6aaa1865c7bce805_0",
+      "kind": "td",
+      "source": "Insert the next key as it is",
+      "sourceHash": "065fe73d6aaa1865c7bce805fa5839b5475fe766b508de74d44521741d9f38f2",
+      "context": "Vim mode > Shortcuts that change in the editor",
+      "contextHash": "aa8ebec0702ff4e4c1a99c6d29e9a75260c225d5bf54bd794cb2a1ebd3bfb493",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_17cab9b76ace0d701f00c560_0",
+      "kind": "td",
+      "source": "__TRILIUM_PH_0__Ctrl__TRILIUM_PH_1__+__TRILIUM_PH_2__A__TRILIUM_PH_3__",
+      "sourceHash": "17cab9b76ace0d701f00c560af9a95569e4a427a245b2830d2f7a543588f8120",
+      "context": "Vim mode > Shortcuts that change in the editor",
+      "contextHash": "aa8ebec0702ff4e4c1a99c6d29e9a75260c225d5bf54bd794cb2a1ebd3bfb493",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_7ca96122bd904cbaac57bdca_0",
+      "kind": "td",
+      "source": "Select all",
+      "sourceHash": "7ca96122bd904cbaac57bdca527c2d5d0c1f7a7e928ab11a8f4e7089def586e3",
+      "context": "Vim mode > Shortcuts that change in the editor",
+      "contextHash": "aa8ebec0702ff4e4c1a99c6d29e9a75260c225d5bf54bd794cb2a1ebd3bfb493",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_aac51b5943a785749b864e37_0",
+      "kind": "td",
+      "source": "Insert the last inserted text again",
+      "sourceHash": "aac51b5943a785749b864e37075a4d933afec9459d3f18fab402e2ba196c499f",
+      "context": "Vim mode > Shortcuts that change in the editor",
+      "contextHash": "aa8ebec0702ff4e4c1a99c6d29e9a75260c225d5bf54bd794cb2a1ebd3bfb493",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_0d1c93f320dd0ac86e069371_0",
+      "kind": "p",
+      "source": "To paste while the setting is on, press __TRILIUM_PH_0__Esc__TRILIUM_PH_1__ first: in Normal and Visual mode, __TRILIUM_PH_2__Ctrl__TRILIUM_PH_3__+__TRILIUM_PH_4__V__TRILIUM_PH_5__ always pastes.",
+      "sourceHash": "0d1c93f320dd0ac86e069371625966a7bcb3567d0e1a7d9e04bc20de6f556eb7",
+      "context": "Vim mode > Shortcuts that change in the editor",
+      "contextHash": "aa8ebec0702ff4e4c1a99c6d29e9a75260c225d5bf54bd794cb2a1ebd3bfb493",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_324c1756fbfc2a779c24135d_0",
+      "kind": "li",
+      "source": "Shortcuts with __TRILIUM_PH_0__Alt__TRILIUM_PH_1__, with __TRILIUM_PH_2__Ctrl__TRILIUM_PH_3__+__TRILIUM_PH_4__Shift__TRILIUM_PH_5__ or __TRILIUM_PH_6__Ctrl__TRILIUM_PH_7__+__TRILIUM_PH_8__Alt__TRILIUM_PH_9__, and the function keys keep their meaning in every mode, apart from __TRILIUM_PH_10__Ctrl__TRILIUM_PH_11__+__TRILIUM_PH_12__Shift__TRILIUM_PH_13__+__TRILIUM_PH_14__Z__TRILIUM_PH_15__ above. So do the shortcuts that Vim does not use, such as __TRILIUM_PH_16__Ctrl__TRILIUM_PH_17__+__TRILIUM_PH_18__L__TRILIUM_PH_19__ for a link to a note. __TRILIUM_PH_20__Ctrl__TRILIUM_PH_21__+__TRILIUM_PH_22__K__TRILIUM_PH_23__ for a link is one of them too, except in Insert mode with the setting above turned on.",
+      "sourceHash": "324c1756fbfc2a779c24135d46800df21ce94a9a68c35f82230249167f83b6e2",
+      "context": "Vim mode > Shortcuts that change in the editor",
+      "contextHash": "aa8ebec0702ff4e4c1a99c6d29e9a75260c225d5bf54bd794cb2a1ebd3bfb493",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_cdb2ab2bd8dfaf452b37e28a_0",
+      "kind": "li",
+      "source": "On macOS, the shortcuts of Trilium use __TRILIUM_PH_0__⌘__TRILIUM_PH_1__ and those of Vim use __TRILIUM_PH_2__Ctrl__TRILIUM_PH_3__, so nothing is taken over. __TRILIUM_PH_4__⌘__TRILIUM_PH_5__+__TRILIUM_PH_6__Z__TRILIUM_PH_7__ and __TRILIUM_PH_8__⌘__TRILIUM_PH_9__+__TRILIUM_PH_10__Shift__TRILIUM_PH_11__+__TRILIUM_PH_12__Z__TRILIUM_PH_13__ undo and redo.",
+      "sourceHash": "cdb2ab2bd8dfaf452b37e28a47aa4961c0f0a6b55b7183af2c7fad197ea1d1a3",
+      "context": "Vim mode > Shortcuts that change in the editor",
+      "contextHash": "aa8ebec0702ff4e4c1a99c6d29e9a75260c225d5bf54bd794cb2a1ebd3bfb493",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_4ea34ec605bf5861635f25de_0",
+      "kind": "li",
+      "source": "In a browser on Windows and Linux, __TRILIUM_PH_0__Ctrl__TRILIUM_PH_1__+__TRILIUM_PH_2__W__TRILIUM_PH_3__, __TRILIUM_PH_4__Ctrl__TRILIUM_PH_5__+__TRILIUM_PH_6__T__TRILIUM_PH_7__ and __TRILIUM_PH_8__Ctrl__TRILIUM_PH_9__+__TRILIUM_PH_10__N__TRILIUM_PH_11__ always belong to the browser.",
+      "sourceHash": "4ea34ec605bf5861635f25de803709fcfc9df73820143a44cf553b730098122a",
+      "context": "Vim mode > Shortcuts that change in the editor",
+      "contextHash": "aa8ebec0702ff4e4c1a99c6d29e9a75260c225d5bf54bd794cb2a1ebd3bfb493",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_865572a267d4d62e2ab411bb_0",
+      "kind": "h3",
+      "source": "The Esc key__TRILIUM_PH_0__",
+      "sourceHash": "865572a267d4d62e2ab411bb1a12ab0711356cb5c7e3159dd72988e4024ed332",
+      "context": "Vim mode > Shortcuts that change in the editor > The Esc key",
+      "contextHash": "92080208c4799a34a993686d9d9111c1db97406849391a6a6352524934a77179",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_cd98f950e87ff538fca03ba5_0",
+      "kind": "p",
+      "source": "__TRILIUM_PH_0__Esc__TRILIUM_PH_1__ does one thing per press, the first of these that applies:",
+      "sourceHash": "cd98f950e87ff538fca03ba58e723898c0df62a2eeb36d7df5a60e1959d2812a",
+      "context": "Vim mode > Shortcuts that change in the editor > The Esc key",
+      "contextHash": "92080208c4799a34a993686d9d9111c1db97406849391a6a6352524934a77179",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_5f06ef86ba925e148d35733a_0",
+      "kind": "li",
+      "source": "Closes what is open: the command line or the search prompt, a popup such as the link balloon, a completion list or the list of keys.",
+      "sourceHash": "5f06ef86ba925e148d35733a1686e185502543e95683a0cc63b4749515e69088",
+      "context": "Vim mode > Shortcuts that change in the editor > The Esc key",
+      "contextHash": "92080208c4799a34a993686d9d9111c1db97406849391a6a6352524934a77179",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_099ce0028d443d455181dd6f_0",
+      "kind": "li",
+      "source": "Cancels the keys typed so far of a command.",
+      "sourceHash": "099ce0028d443d455181dd6f06dfd0df0faa158a71f4a186cba9cd3f80ffdf3b",
+      "context": "Vim mode > Shortcuts that change in the editor > The Esc key",
+      "contextHash": "92080208c4799a34a993686d9d9111c1db97406849391a6a6352524934a77179",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_0c63da8b1361ca2271c8a918_0",
+      "kind": "li",
+      "source": "Leaves Visual or Insert mode.",
+      "sourceHash": "0c63da8b1361ca2271c8a9189c9f400db834a86f172234b429073c1cc1b225da",
+      "context": "Vim mode > Shortcuts that change in the editor > The Esc key",
+      "contextHash": "92080208c4799a34a993686d9d9111c1db97406849391a6a6352524934a77179",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_ffdadfa02d8df1f6c3f8749c_0",
+      "kind": "li",
+      "source": "Clears the search highlights.",
+      "sourceHash": "ffdadfa02d8df1f6c3f8749ca7114db5529a270f5f90d532fad325cc8bddec14",
+      "context": "Vim mode > Shortcuts that change in the editor > The Esc key",
+      "contextHash": "92080208c4799a34a993686d9d9111c1db97406849391a6a6352524934a77179",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_54c2b291f6bc2231e527ea44_0",
+      "kind": "li",
+      "source": "In an included note, returns to the note around it.",
+      "sourceHash": "54c2b291f6bc2231e527ea44dafc9e36c717ddd76c5483078c8bff1b3e00da6f",
+      "context": "Vim mode > Shortcuts that change in the editor > The Esc key",
+      "contextHash": "92080208c4799a34a993686d9d9111c1db97406849391a6a6352524934a77179",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_281d73716c376a7eac7dde3b_0",
+      "kind": "li",
+      "source": "Switches between the key hints and the breadcrumb, when the key hints are on.",
+      "sourceHash": "281d73716c376a7eac7dde3b875816eb6f29d4a2a60739ab9560fd9de5502a02",
+      "context": "Vim mode > Shortcuts that change in the editor > The Esc key",
+      "contextHash": "92080208c4799a34a993686d9d9111c1db97406849391a6a6352524934a77179",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_8f598c4c9b9845ac82adfeca_0",
+      "kind": "p",
+      "source": "So with a link balloon open in Insert mode, the first press closes the balloon and the second one leaves Insert mode. __TRILIUM_PH_0__Ctrl__TRILIUM_PH_1__+__TRILIUM_PH_2__[__TRILIUM_PH_3__ does the same as __TRILIUM_PH_4__Esc__TRILIUM_PH_5__.",
+      "sourceHash": "8f598c4c9b9845ac82adfeca09f118047057f2f3fb4d29548ce48cf55fe28b8b",
+      "context": "Vim mode > Shortcuts that change in the editor > The Esc key",
+      "contextHash": "92080208c4799a34a993686d9d9111c1db97406849391a6a6352524934a77179",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_2d166eed4e46d147ae179d3f_0",
+      "kind": "h2",
+      "source": "Limitations__TRILIUM_PH_0__",
+      "sourceHash": "2d166eed4e46d147ae179d3feba2dbd0d28887b22a99884dc255c7ff2e43988d",
+      "context": "Vim mode > Limitations",
+      "contextHash": "9b1d820991841aade6f9b2dd18a6a2daebb5fa6d810fe7517ef3fc463c23dd71",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_4696905fe2f8bbaabf6a0dc8_0",
+      "kind": "li",
+      "source": "Vim mode imitates Vim, it does not run Vim itself. Plugins and scripts made for Vim are not available, and some of its commands are missing: see __TRILIUM_PH_0__Not supported__TRILIUM_PH_1__ in the __TRILIUM_PH_2__Vim full reference__TRILIUM_PH_3__.",
+      "sourceHash": "4696905fe2f8bbaabf6a0dc8c2513222b460ad53a63907773d72af73cc090275",
+      "context": "Vim mode > Limitations",
+      "contextHash": "9b1d820991841aade6f9b2dd18a6a2daebb5fa6d810fe7517ef3fc463c23dd71",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_641c093358d3cb88691a8fc1_0",
+      "kind": "li",
+      "source": "Vim mode is not available in the mobile layout, and read-only notes have no modes.",
+      "sourceHash": "641c093358d3cb88691a8fc14a8a87efc9c85363427b89f73bb3593e3940724e",
+      "context": "Vim mode > Limitations",
+      "contextHash": "9b1d820991841aade6f9b2dd18a6a2daebb5fa6d810fe7517ef3fc463c23dd71",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_cb22296c5b475af44319e076_0",
+      "kind": "li",
+      "source": "Visual Block mode is not supported. __TRILIUM_PH_0__Ctrl__TRILIUM_PH_1__+__TRILIUM_PH_2__V__TRILIUM_PH_3__ pastes, except in Insert mode when __TRILIUM_PH_4__Vim keys in Insert mode__TRILIUM_PH_5__ is on.",
+      "sourceHash": "cb22296c5b475af44319e0764f89404280e97e8600966fce98103768316fd5d8",
+      "context": "Vim mode > Limitations",
+      "contextHash": "9b1d820991841aade6f9b2dd18a6a2daebb5fa6d810fe7517ef3fc463c23dd71",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_f1cc8dc1618d5812807f2b12_0",
+      "kind": "li",
+      "source": "Search patterns are JavaScript regular expressions, not Vim's own, and a match cannot span more than one line.",
+      "sourceHash": "f1cc8dc1618d5812807f2b12f31ac7bfdaf71082d643ad4c6fc5da132ec881da",
+      "context": "Vim mode > Limitations",
+      "contextHash": "9b1d820991841aade6f9b2dd18a6a2daebb5fa6d810fe7517ef3fc463c23dd71",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_4dd082e1b2f4cd9731c5e856_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__ and __TRILIUM_PH_1__ only show a message: notes are saved as you type, so there is nothing to discard.",
+      "sourceHash": "4dd082e1b2f4cd9731c5e856a32c3187ce9863b62d2504943259b8a98337a0e8",
+      "context": "Vim mode > Limitations",
+      "contextHash": "9b1d820991841aade6f9b2dd18a6a2daebb5fa6d810fe7517ef3fc463c23dd71",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_b056715d5493280169407022_0",
+      "kind": "h2",
+      "source": "See also__TRILIUM_PH_0__",
+      "sourceHash": "b056715d549328016940702234a644413c07c0558c4f59edcc3d85ec15afe208",
+      "context": "Vim mode > See also",
+      "contextHash": "dbd57e8d9d7741d2fc3fbdf9645bbcfbbe1cdabfe9f03c5e6405f795578f89ad",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_393ae55b44507d44eeccebfb_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__Vim beginner guide__TRILIUM_PH_1__, for the modes and the first keys to learn.",
+      "sourceHash": "393ae55b44507d44eeccebfb3852cbd69de5434acc35c85cc1175bcabfc1e774",
+      "context": "Vim mode > See also",
+      "contextHash": "dbd57e8d9d7741d2fc3fbdf9645bbcfbbe1cdabfe9f03c5e6405f795578f89ad",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_9a62f45d1ce71a8ae5056bc4_0",
+      "kind": "li",
+      "source": "__TRILIUM_PH_0__Vim full reference__TRILIUM_PH_1__, for all the keys and commands.",
+      "sourceHash": "9a62f45d1ce71a8ae5056bc4afe5d05f9eec424cd452a450d6292c9dd610cac0",
+      "context": "Vim mode > See also",
+      "contextHash": "dbd57e8d9d7741d2fc3fbdf9645bbcfbbe1cdabfe9f03c5e6405f795578f89ad",
+      "status": "pending",
+      "active": true
+    }
+  ],
+  "requests": []
+}

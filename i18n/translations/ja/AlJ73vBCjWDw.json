@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "pageId": "AlJ73vBCjWDw",
   "sourceFile": "docs/User Guide/User Guide/Basic Concepts and Features/UI Elements/Status bar.md",
-  "sourceRevision": "f7a823d607395a1483ee75489a9e6ae1244625b6",
+  "sourceRevision": "5cc485c830ae66544ae6b2ee67ef07e7ec418c2d",
   "units": [
     {
       "id": "u_ab453f781760695f1fdbaebd_0",
@@ -394,6 +394,23 @@
         "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
       },
       "translatedAt": "2026-11-14T14:14:05.465Z"
+    },
+    {
+      "id": "u_730fde0b6f6bd980a8b99c2b_0",
+      "kind": "li",
+      "source": "While __TRILIUM_PH_0__Vim mode__TRILIUM_PH_1__ is turned on in the options, a __TRILIUM_PH_2__Vim__TRILIUM_PH_3__ badge turns it on or off for the note, followed by the current mode of Vim.",
+      "sourceHash": "730fde0b6f6bd980a8b99c2b98f0c0a46afa6250974456b4406475fea2e7d0fe",
+      "context": "Status bar > Layout and interaction",
+      "contextHash": "cc0d6d67445706d64a152f0404071590bd7fecf9c725816dd9f9d2d5c36835c8",
+      "status": "translated",
+      "active": true,
+      "translation": "オプションで __TRILIUM_PH_0__Vim モード__TRILIUM_PH_1__ が有効になっている間、 __TRILIUM_PH_2__Vim__TRILIUM_PH_3__ バッジによってそのノートの Vim の有効/無効を切り替えることができ、その後に現在の Vim のモードが表示されます。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-17T23:34:42.858Z"
     }
   ],
   "requests": [
@@ -430,6 +447,25 @@
           {
             "modality": "TEXT",
             "tokenCount": 747
+          }
+        ],
+        "serviceTier": "standard"
+      }
+    },
+    {
+      "at": "2026-11-17T23:34:42.858Z",
+      "model": "gemini-3.5-flash-lite",
+      "batchJob": "batches/qbghghxkzsqc94705b6usendac48wssngsx9",
+      "requestKey": "AlJ73vBCjWDw_cd6ea8753a733ce0",
+      "modelVersion": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 529,
+        "candidatesTokenCount": 157,
+        "totalTokenCount": 686,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 529
           }
         ],
         "serviceTier": "standard"

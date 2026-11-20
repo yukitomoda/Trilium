@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "pageId": "QEAPj01N5f7w",
   "sourceFile": "docs/User Guide/User Guide/Note Types/Text/Links.md",
-  "sourceRevision": "f7a823d607395a1483ee75489a9e6ae1244625b6",
+  "sourceRevision": "5cc485c830ae66544ae6b2ee67ef07e7ec418c2d",
   "units": [
     {
       "id": "u_e3fbd9ac7407c5dd05bf8f81_0",
@@ -156,6 +156,23 @@
         "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
       },
       "translatedAt": "2026-11-14T14:14:05.465Z"
+    },
+    {
+      "id": "u_cabebad12e7845fa5a75ddf7_0",
+      "kind": "p",
+      "source": "On the __TRILIUM_PH_0__Note__TRILIUM_PH_1__ page, the headings and anchors of the note picked are listed below the __TRILIUM_PH_2__Link title__TRILIUM_PH_3__, so that the link can point at one of them. __TRILIUM_PH_4__Link to the whole note__TRILIUM_PH_5__, checked at first, links to the note itself. See __TRILIUM_PH_6__Linking to a heading__TRILIUM_PH_7__ and __TRILIUM_PH_8__Anchors__TRILIUM_PH_9__.",
+      "sourceHash": "cabebad12e7845fa5a75ddf71932b8ff9a1ff0bdfef846913038f9380af5328f",
+      "context": "Links > The link dialog",
+      "contextHash": "9c6621e9938782e6ddc9300bee146a964f5e2b031fcfa3636b92bc707eeaa436",
+      "status": "translated",
+      "active": true,
+      "translation": "ノート __TRILIUM_PH_0__ページ__TRILIUM_PH_1__ では、選択されたノートの見出しとアンカーが、リンクタイトルの下に一覧表示され、その中の特定の箇所をリンク先として指定できるようになっています。最初にチェックが入っている __TRILIUM_PH_2__リンクタイトル__TRILIUM_PH_3__ __TRILIUM_PH_4__ノート全体へのリンク__TRILIUM_PH_5__は、ノート自体へとリンクします。詳細については、 __TRILIUM_PH_6__見出しへのリンク__TRILIUM_PH_7__ および __TRILIUM_PH_8__アンカー__TRILIUM_PH_9__を参照してください。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-17T23:34:42.858Z"
     }
   ],
   "requests": [
@@ -173,6 +190,25 @@
           {
             "modality": "TEXT",
             "tokenCount": 992
+          }
+        ],
+        "serviceTier": "standard"
+      }
+    },
+    {
+      "at": "2026-11-17T23:34:42.858Z",
+      "model": "gemini-3.5-flash-lite",
+      "batchJob": "batches/qbghghxkzsqc94705b6usendac48wssngsx9",
+      "requestKey": "QEAPj01N5f7w_c80521e08a1e38f0",
+      "modelVersion": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 607,
+        "candidatesTokenCount": 236,
+        "totalTokenCount": 843,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 607
           }
         ],
         "serviceTier": "standard"

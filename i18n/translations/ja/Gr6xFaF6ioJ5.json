@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "pageId": "Gr6xFaF6ioJ5",
   "sourceFile": "docs/User Guide/User Guide/Note Types/Text/General formatting.md",
-  "sourceRevision": "f7a823d607395a1483ee75489a9e6ae1244625b6",
+  "sourceRevision": "5cc485c830ae66544ae6b2ee67ef07e7ec418c2d",
   "units": [
     {
       "id": "u_4377a0d4c304067105ef60d6_0",
@@ -63,7 +63,7 @@
       "context": "General formatting > Headings",
       "contextHash": "cd351c16e36c34804bb6494a22fb5c39a4efcdca75624d5f8a8ac420802e9b04",
       "status": "translated",
-      "active": true,
+      "active": false,
       "translation": "見出し1がリストから除外されている理由は、ノートのタイトル用に予約されているためです。",
       "conditions": {
         "model": "gemini-3.5-flash-lite",
@@ -573,7 +573,7 @@
       "context": "General formatting > Font color and background color",
       "contextHash": "2a6bf631edb7686e3f2cb5da813f13e85254933043f7b8ae6c1109b8d4b3b51f",
       "status": "translated",
-      "active": true,
+      "active": false,
       "translation": "選択したテキストには、パレット内の定義済みカラーのいずれかを使用することも、カラーピッカーを使用して任意の色を選択することもできます (__TRILIUM_PH_0__)。",
       "conditions": {
         "model": "gemini-3.5-flash-lite",
@@ -1040,6 +1040,40 @@
         "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
       },
       "translatedAt": "2026-11-14T14:14:05.465Z"
+    },
+    {
+      "id": "u_b9b1e09008eb80a56642ac05_0",
+      "kind": "p",
+      "source": "The reason why Heading 1 is missing from the list is that it is being reserved for the title of note. A Heading 1 that is already in the text, for example in text pasted from another application, is kept as a heading.",
+      "sourceHash": "b9b1e09008eb80a56642ac053e71a77d9012caab9e3adef39edf0a2b04cf0a66",
+      "context": "General formatting > Headings",
+      "contextHash": "cd351c16e36c34804bb6494a22fb5c39a4efcdca75624d5f8a8ac420802e9b04",
+      "status": "translated",
+      "active": true,
+      "translation": "見出し1がリストから除外されているのは、ノートのタイトル用に予約されているためです。例えば他のアプリケーションから貼り付けられたテキストなど、すでにテキスト内に存在する見出し1は、見出しとしてそのまま保持されます。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-17T23:34:42.858Z"
+    },
+    {
+      "id": "u_129d950cb6313ff702ff126d_0",
+      "kind": "p",
+      "source": "Selected text can be colored with one of the predefined colors from a palette or any color can be selected using the color picker (__TRILIUM_PH_0__). A selected link preview can be colored the same way (see __TRILIUM_PH_1__Link Previews__TRILIUM_PH_2__).",
+      "sourceHash": "129d950cb6313ff702ff126d34fd54bc3ecd2762b009ff374b047a554498d09d",
+      "context": "General formatting > Font color and background color",
+      "contextHash": "2a6bf631edb7686e3f2cb5da813f13e85254933043f7b8ae6c1109b8d4b3b51f",
+      "status": "translated",
+      "active": true,
+      "translation": "選択したテキストは、パレット内の定義済みカラーのいずれかで色付けするか、カラーピッカー（__TRILIUM_PH_0__）を使用して任意の色を選択できます。選択したリンクプレビューも同様の方法で色付けできます（ __TRILIUM_PH_1__リンクプレビュー__TRILIUM_PH_2__を参照）。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-17T23:34:42.858Z"
     }
   ],
   "requests": [
@@ -1126,6 +1160,25 @@
           {
             "modality": "TEXT",
             "tokenCount": 559
+          }
+        ],
+        "serviceTier": "standard"
+      }
+    },
+    {
+      "at": "2026-11-17T23:34:42.858Z",
+      "model": "gemini-3.5-flash-lite",
+      "batchJob": "batches/qbghghxkzsqc94705b6usendac48wssngsx9",
+      "requestKey": "Gr6xFaF6ioJ5_26edbfaf368d5fdf",
+      "modelVersion": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 691,
+        "candidatesTokenCount": 241,
+        "totalTokenCount": 932,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 691
           }
         ],
         "serviceTier": "standard"

@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "pageId": "6RM1Q7ppFVoj",
   "sourceFile": "docs/User Guide/User Guide/Note Types/Markdown.md",
-  "sourceRevision": "f7a823d607395a1483ee75489a9e6ae1244625b6",
+  "sourceRevision": "5cc485c830ae66544ae6b2ee67ef07e7ec418c2d",
   "units": [
     {
       "id": "u_ee74dcdf15c392a79852c55a_0",
@@ -1457,7 +1457,7 @@
       "context": "Markdown > Features > Auto-completion > Linking notes with @ or [[",
       "contextHash": "d9656410dd1e692872fdd5f85ba847d4fe8e71677a8280e3691460184ec26a7d",
       "status": "translated",
-      "active": true,
+      "active": false,
       "translation": "エディタでは、__TRILIUM_PH_0__ リンクはノートのアイコンとタイトルとして表示されるため、IDを調べなくてもどのノートを指しているかがわかります。クリックするか、カーソルをその隣に移動すると、リンクが編集可能な状態で記述どおりに表示されます。コードブロックやインラインコード内のリンクはそのまま残ります。",
       "conditions": {
         "model": "gemini-3.5-flash-lite",
@@ -2060,6 +2060,96 @@
         "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
       },
       "translatedAt": "2026-11-14T14:14:05.465Z"
+    },
+    {
+      "id": "u_8a4ed751929a2bae456794cf_0",
+      "kind": "p",
+      "source": "__TRILIUM_PH_0__Aside blocks__TRILIUM_PH_1__ set content apart in a gray box at the right, with the main text wrapping around it (for the other positions and colors, see __TRILIUM_PH_2__Supported syntax__TRILIUM_PH_3__). Write the __TRILIUM_PH_4__ tags on lines of their own, with blank lines around the content, which is read as Markdown:",
+      "sourceHash": "8a4ed751929a2bae456794cf628a25c32a60a61549919ca6009e3c5155e90de8",
+      "context": "Markdown > Features > Preview pane",
+      "contextHash": "4c898ca0f4dc2274f7e5757c04c38dd6bf79939590f21591ff5f54cb5c4fbea4",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_2a99c940768b25a1a6a58575_0",
+      "kind": "p",
+      "source": "Since v0.108.0, __TRILIUM_PH_0__reference link__TRILIUM_PH_1__ to a __TRILIUM_PH_2__heading__TRILIUM_PH_3__ or an __TRILIUM_PH_4__anchor__TRILIUM_PH_5__ of a __TRILIUM_PH_6__Text__TRILIUM_PH_7__ note, which shows the note's title followed by the heading or the anchor. The __TRILIUM_PH_8__Add link__TRILIUM_PH_9__ dialog and the __TRILIUM_PH_10__ list write the link with its target after the note ID:",
+      "sourceHash": "2a99c940768b25a1a6a58575c569997e9ea70e2a1bd99a36d441c7a41395b981",
+      "context": "Markdown > Features > Links",
+      "contextHash": "99b6e938c29a4795f6a36788522e2a02cc6d0a914da76e463eef3e27ec28dcb0",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_6bdc566bc98531f7baaab5de_0",
+      "kind": "li",
+      "source": "Inserting an __TRILIUM_PH_0__aside block__TRILIUM_PH_1__ (__TRILIUM_PH_2__), a gray box placed at the right with the text wrapping around it.",
+      "sourceHash": "6bdc566bc98531f7baaab5deb841018f6f9f205de0b01ec620eca6152d0ab0b8",
+      "context": "Markdown > Features > Auto-completion > Slash commands",
+      "contextHash": "4f492be01600b97974644329671ca6d57fa97195e6a2cdc983a1b7994023112f",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_60fc61a86ff5738433a95c79_0",
+      "kind": "p",
+      "source": "Since v0.108.0, the note is linked as soon as it is picked. A ¶ then follows the link, and the list shows where in the note the link can point: __TRILIUM_PH_0__Link to the whole note__TRILIUM_PH_1__, its headings and its anchors.",
+      "sourceHash": "60fc61a86ff5738433a95c79d118974bbc7c3270a91347d7647d302a465ff35a",
+      "context": "Markdown > Features > Auto-completion > Linking notes with @ or [[",
+      "contextHash": "d9656410dd1e692872fdd5f85ba847d4fe8e71677a8280e3691460184ec26a7d",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_7d236a450149603de26fd270_0",
+      "kind": "li",
+      "source": "To point the link at a heading or an anchor, type part of its name after the ¶ and press __TRILIUM_PH_0__Enter__TRILIUM_PH_1__ or __TRILIUM_PH_2__Tab__TRILIUM_PH_3__. The link then carries its target after the note ID, such as __TRILIUM_PH_4__.",
+      "sourceHash": "7d236a450149603de26fd2700ba977b5aaec2966bfd7a69c36bdcfee556e5771",
+      "context": "Markdown > Features > Auto-completion > Linking notes with @ or [[",
+      "contextHash": "d9656410dd1e692872fdd5f85ba847d4fe8e71677a8280e3691460184ec26a7d",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_2dac6abb898e404104446117_0",
+      "kind": "li",
+      "source": "To keep the link to the whole note, press __TRILIUM_PH_0__Enter__TRILIUM_PH_1__ on __TRILIUM_PH_2__Link to the whole note__TRILIUM_PH_3__, or press __TRILIUM_PH_4__Esc__TRILIUM_PH_5__. Pressing __TRILIUM_PH_6__Backspace__TRILIUM_PH_7__ or typing a space right after the ¶ does the same.",
+      "sourceHash": "2dac6abb898e404104446117052b81eb1287e176e76576cfbfb938b806330f54",
+      "context": "Markdown > Features > Auto-completion > Linking notes with @ or [[",
+      "contextHash": "d9656410dd1e692872fdd5f85ba847d4fe8e71677a8280e3691460184ec26a7d",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_84b9ce8b16733bd9bca662ab_0",
+      "kind": "li",
+      "source": "The ¶ is not part of the note. Text typed after it stays, unless a heading or an anchor is picked.",
+      "sourceHash": "84b9ce8b16733bd9bca662ab2edc016e6845823edd3c9aedd3ed09f620b8bd22",
+      "context": "Markdown > Features > Auto-completion > Linking notes with @ or [[",
+      "contextHash": "d9656410dd1e692872fdd5f85ba847d4fe8e71677a8280e3691460184ec26a7d",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_0f467baf87075dfa40f80ced_0",
+      "kind": "p",
+      "source": "Only __TRILIUM_PH_0__Text__TRILIUM_PH_1__ notes have headings and anchors to link to. A note created from the list is linked without this step. To skip it for every note, turn off __TRILIUM_PH_2__Suggest headings and anchors to link to__TRILIUM_PH_3__ under __TRILIUM_PH_4__Note auto-completion__TRILIUM_PH_5__ in __TRILIUM_PH_6__Options__TRILIUM_PH_7__ → __TRILIUM_PH_8__Text Notes__TRILIUM_PH_9__ → __TRILIUM_PH_10__Features__TRILIUM_PH_11__.",
+      "sourceHash": "0f467baf87075dfa40f80ced57f49715887c8d935055a9847a4378791591d850",
+      "context": "Markdown > Features > Auto-completion > Linking notes with @ or [[",
+      "contextHash": "d9656410dd1e692872fdd5f85ba847d4fe8e71677a8280e3691460184ec26a7d",
+      "status": "pending",
+      "active": true
+    },
+    {
+      "id": "u_1b6abb6d5184439bfa0bc491_0",
+      "kind": "p",
+      "source": "In the editor, a __TRILIUM_PH_0__ link shows as the note's icon and title, followed by the heading or the anchor it points at, so you can tell which note it points to without looking up its ID. Clicking it, or moving the cursor next to it, shows the link as written so it can be edited. Links inside code blocks and inline code are left as they are.",
+      "sourceHash": "1b6abb6d5184439bfa0bc4918c8f319abfa0101690b83bfbb66154e5cf98b1af",
+      "context": "Markdown > Features > Auto-completion > Linking notes with @ or [[",
+      "contextHash": "d9656410dd1e692872fdd5f85ba847d4fe8e71677a8280e3691460184ec26a7d",
+      "status": "pending",
+      "active": true
     }
   ],
   "requests": [
