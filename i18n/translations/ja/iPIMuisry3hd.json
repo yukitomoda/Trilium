@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "pageId": "iPIMuisry3hd",
   "sourceFile": "docs/User Guide/User Guide/Note Types/Text.md",
-  "sourceRevision": "5cc485c830ae66544ae6b2ee67ef07e7ec418c2d",
+  "sourceRevision": "a74b13e10863eb545f855123f257e21cf0e11f2f",
   "units": [
     {
       "id": "u_b761b07998a594bc8d04bd43_0",
@@ -1269,8 +1269,15 @@
       "sourceHash": "a1bc8242497d66930cdd99a35ea28a3d75b785d724f4da0d882a8d08cf4a201c",
       "context": "Text > Keyboard shortcuts",
       "contextHash": "0348ca8b974d68dfdd4abcfa06df9e01802e71e631c4704bc42b3648220ff052",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "Vimテキストエディタのキーを使用して編集するには、 __TRILIUM_PH_0__Vim モード__TRILIUM_PH_1__を参照してください。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-20T03:27:01.499Z"
     }
   ],
   "requests": [
@@ -1364,6 +1371,25 @@
           {
             "modality": "TEXT",
             "tokenCount": 1013
+          }
+        ],
+        "serviceTier": "standard"
+      }
+    },
+    {
+      "at": "2026-11-20T03:27:01.499Z",
+      "model": "gemini-3.5-flash-lite",
+      "batchJob": "batches/szn1iq85i3jwlbcbe0l3g53c6vxfrl0nztcr",
+      "requestKey": "iPIMuisry3hd_e7425dc12c26239d",
+      "modelVersion": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 488,
+        "candidatesTokenCount": 119,
+        "totalTokenCount": 607,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 488
           }
         ],
         "serviceTier": "standard"

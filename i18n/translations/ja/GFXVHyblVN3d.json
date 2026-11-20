@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "pageId": "GFXVHyblVN3d",
   "sourceFile": "docs/User Guide/User Guide/Scripting/Script API/Electron API.md",
-  "sourceRevision": "5cc485c830ae66544ae6b2ee67ef07e7ec418c2d",
+  "sourceRevision": "a74b13e10863eb545f855123f257e21cf0e11f2f",
   "units": [
     {
       "id": "u_c58c95a3b3f6059bcbd8bf30_0",
@@ -7066,8 +7066,15 @@
       "sourceHash": "50fd832e5c675f42df048d84b2f280bba6fc3921665dfe5744324bb7877ec1ec",
       "context": "Electron API > WindowApi",
       "contextHash": "77277e8c17896a13b0b70bdf931805023ed5fc4912b399770c1057c8ef17e228",
-      "status": "pending",
-      "active": true
+      "status": "translated",
+      "active": true,
+      "translation": "ウィンドウに最初の描画を行わせます。メインプロセスは、起動中のメインウィンドウまたは追加ウィンドウの最初の描画（およびウィンドウの表示）を、クライアントがインターフェースをレンダリングするまで保持し、ウィンドウ途中の不完全な状態が表示されないようにします。他のウィンドウや解放済みのウィンドウに対しては何も行いません。",
+      "conditions": {
+        "model": "gemini-3.5-flash-lite",
+        "promptHash": "716065651310a44dc7b240e50ada9f3b18164cb6a2471ec2ca8dd86023f06415",
+        "glossaryHash": "87275a9e032d2599a1276554b41c0fed0509e3ed6ee1594f83705051d453ee50"
+      },
+      "translatedAt": "2026-11-20T03:27:01.499Z"
     }
   ],
   "requests": [
@@ -7566,6 +7573,25 @@
           {
             "modality": "TEXT",
             "tokenCount": 542
+          }
+        ],
+        "serviceTier": "standard"
+      }
+    },
+    {
+      "at": "2026-11-20T03:27:01.499Z",
+      "model": "gemini-3.5-flash-lite",
+      "batchJob": "batches/szn1iq85i3jwlbcbe0l3g53c6vxfrl0nztcr",
+      "requestKey": "GFXVHyblVN3d_1145a3cec449d8be",
+      "modelVersion": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 571,
+        "candidatesTokenCount": 154,
+        "totalTokenCount": 725,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 571
           }
         ],
         "serviceTier": "standard"
