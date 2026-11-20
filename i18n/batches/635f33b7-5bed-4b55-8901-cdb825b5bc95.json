@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "id": "635f33b7-5bed-4b55-8901-cdb825b5bc95",
-  "phase": "pending",
+  "phase": "complete",
   "createdAt": "2026-11-20T03:27:01.499Z",
   "conditions": {
     "model": "gemini-3.5-flash-lite",
@@ -134,7 +134,41 @@
           "contextHash": "39bb599a18485bf84b6ecf0616995235d98e51924375565d8f5f1623126a22a1"
         }
       ],
-      "format": "text-slots-v1"
+      "format": "text-slots-v1",
+      "result": {
+        "key": "qxtXjXzFOEn1_1efde180e62357d6",
+        "translations": {
+          "u_13fc0387409fb37ec77e7a28_0": "検索するには __TRILIUM_PH_0__を押してテキストを入力し、 __TRILIUM_PH_1__Enter__TRILIUM_PH_2__を押します。 __TRILIUM_PH_3__ で次の一致箇所へ移動し、 __TRILIUM_PH_4__ で前の一致箇所へ移動します。",
+          "u_8528f94a7f0735d4d68ffaa3_0": "カーソル下の単語を検索するには、 __TRILIUM_PH_0__を押します。",
+          "u_7c1e0ba6f3d928fe86c49ffd_0": "現在の行で置換を行うには、 __TRILIUM_PH_0__を入力します。",
+          "u_35f2f6c2a1faaffe52fd1b0f_0": "ノート全体で置換を行うには、 __TRILIUM_PH_0__を入力します。",
+          "u_8409ce1b33953b4f16d60145_0": "検索するテキストは、JavaScriptの構文による正規表現として読み込まれます。文字、数字、スペースはそのままの意味を持ちますが、次のような文字には特別な意味があります： __TRILIUM_PH_0__ __TRILIUM_PH_1__ __TRILIUM_PH_2__ 、 __TRILIUM_PH_3__ 。これらをそのまま検索するには、その前に __TRILIUM_PH_4__ を付けます。例： __TRILIUM_PH_5__ は「1.5」を検索します。",
+          "u_1be56421cfccd131f4d2e0d2_0": "困ったときの対処法__TRILIUM_PH_0__",
+          "u_f134be2e2fce6d275bd7d1ac_0": "__TRILIUM_PH_0__どうすればよいか分からないですか？__TRILIUM_PH_1__  __TRILIUM_PH_2__Esc__TRILIUM_PH_3__を、必要に応じて2回押してください。途中で入力途中のコマンドがキャンセルされ、通常モードに戻ります。",
+          "u_70761ab2c7d53fcf6d9dc21d_0": "__TRILIUM_PH_0__キーを入力しても文字が入力されません。__TRILIUM_PH_1__ エディタが通常モードになっています。 __TRILIUM_PH_2__を押してください。",
+          "u_744a5659c15fda738b336a85_0": "__TRILIUM_PH_0__入力によってノートが予期せぬ形に変更されてしまいました。__TRILIUM_PH_1__ エディタが通常モードになっており、文字がコマンドとして実行されました。 __TRILIUM_PH_2__Esc__TRILIUM_PH_3__を押し、その後 __TRILIUM_PH_4__ を1回押して結果を確認してください。取り消す内容が残っている間だけこれを繰り返してください。さらに __TRILIUM_PH_5__ を押すと、それ以前の編集も取り消されてしまうためです。 __TRILIUM_PH_6__Ctrl__TRILIUM_PH_7__+__TRILIUM_PH_8__R__TRILIUM_PH_9__ で、行き過ぎた操作をやり直すことができます。",
+          "u_e788e97e96b44d8e83ed6fe9_0": "__TRILIUM_PH_0__Vimモードが邪魔になっています。__TRILIUM_PH_1__ オプションをオフにしてください。ノートの内容には影響しません。",
+          "u_7e8b4f321d33a20776b74cbf_0": "テキストノートでは、学習時にステータスバーが役立ちます。現在のモードのキーや、コマンドの途中で少し停止したときには次に入力可能なキーが表示されます。モードのすべてのキーを確認するには、ステータスバーのモードをクリックするか、 __TRILIUM_PH_0__Alt__TRILIUM_PH_1__+__TRILIUM_PH_2__F1__TRILIUM_PH_3__を押します。",
+          "u_a740f2c4d08225c20869c031_0": "次のステップ__TRILIUM_PH_0__",
+          "u_a3faf20f8fcf0246c3b5abb8_0": " __TRILIUM_PH_0__Vimモード__TRILIUM_PH_1__ のチートシートには、最もよく使用されるキーがリストされています（Triliumがテキストノート用に追加したキーも含みます）。",
+          "u_7e89c4569629152da4626564_0": " __TRILIUM_PH_0__Vim全リファレンス__TRILIUM_PH_1__ には、サポートされているキーとコマンドが記載されています。",
+          "u_5a951fb397b41c829f6e7021_0": "練習するには、 __TRILIUM_PH_0__OpenVim__TRILIUM_PH_1__ がブラウザで実行できる短いインタラクティブなチュートリアルとして用意されています。Vim自体にも、 __TRILIUM_PH_2__ コマンドで開始するより長いチュートリアルが付属しています。どちらも本物のVimを教えてくれます。大部分はそのまま通用しますが、VimのすべてのコマンドがTriliumに存在するわけではありません。"
+        },
+        "modelVersion": "gemini-3.5-flash-lite",
+        "usage": {
+          "promptTokenCount": 2160,
+          "candidatesTokenCount": 1480,
+          "totalTokenCount": 3640,
+          "promptTokensDetails": [
+            {
+              "modality": "TEXT",
+              "tokenCount": 2160
+            }
+          ],
+          "serviceTier": "standard"
+        }
+      },
+      "unitErrors": {}
     },
     {
       "key": "EF1o4L2hif4c_8e328013bc37a059",
@@ -269,7 +303,42 @@
           "contextHash": "1b013c7fa1a14bf9f1b3b5f4432187be9790607e7f5e6a356bb0731e13273177"
         }
       ],
-      "format": "text-slots-v1"
+      "format": "text-slots-v1",
+      "result": {
+        "key": "EF1o4L2hif4c_8e328013bc37a059",
+        "translations": {
+          "u_7894d53ef7c093421587e758_0": "Vim 完全リファレンス",
+          "u_559371126f240630aa2e5ca4_0": "このページでは、テキストノートおよび __TRILIUM_PH_0__コード__TRILIUM_PH_1__ ノートにおける Vim モードのキーとコマンドの一覧を掲載しています。特に記載のない限り、両方に適用されます。導入については「 __TRILIUM_PH_2__Vim 初心者ガイド__TRILIUM_PH_3__」、設定、よく使われるキー、およびテキストノートがどのように行として読み込まれるかについては「 __TRILIUM_PH_4__Vim モード__TRILIUM_PH_5__」をご覧ください。",
+          "u_216fca70750bea248a29a552_0": "表の見方__TRILIUM_PH_0__",
+          "u_b4d2251c50b3cdd143741250_0": "続けて入力するキーは続けて記述されます（例： __TRILIUM_PH_0__ は __TRILIUM_PH_1__ が 2 回押されることを示します）。同時に押すキーはプラス記号で結んで記述されます（例： __TRILIUM_PH_2__Ctrl__TRILIUM_PH_3__+__TRILIUM_PH_4__R__TRILIUM_PH_5__）。",
+          "u_fa51fba5a228df0763a24a48_0": "__TRILIUM_PH_0__ は「 __TRILIUM_PH_1__モーション__TRILIUM_PH_2__」からの任意のキー、 __TRILIUM_PH_3__ は任意の文字、 __TRILIUM_PH_4__ は数値、 __TRILIUM_PH_5__ はレジスタ名を表します。",
+          "u_c3bb5b6c2e3c7c6831e47b49_0": "特に記載のない限り、キーは通常モード（Normal mode）で入力します。",
+          "u_8f24fe23071df036729299ea_0": "Windows および Linux のブラウザでは、 __TRILIUM_PH_0__Ctrl__TRILIUM_PH_1__+__TRILIUM_PH_2__W__TRILIUM_PH_3__、 __TRILIUM_PH_4__Ctrl__TRILIUM_PH_5__+__TRILIUM_PH_6__T__TRILIUM_PH_7__ 、 __TRILIUM_PH_8__Ctrl__TRILIUM_PH_9__+__TRILIUM_PH_10__N__TRILIUM_PH_11__ はブラウザによって保持され、タブやウィンドウの閉じる・開く操作に使われるため、Trilium には届きません。これらを使用する行にはその旨が記載されています。デスクトップアプリおよび macOS では影響を受けません。",
+          "u_e0ca272128e5a6ef278b3cf9_0": "説明の末尾にあるバッジは、その行が適用される範囲を示しています。",
+          "u_877d8074cf024c1d669f7390_0": "テキストノート専用__TRILIUM_PH_0____TRILIUM_PH_1__：コードノートでは利用できません。",
+          "u_4cc40a7bc6f42377285e7c28_0": "コードノート専用__TRILIUM_PH_0____TRILIUM_PH_1__：テキストノートでは利用できません。",
+          "u_df4ac0fbe8bd9d1d1638b33f_0": "Trilium 固有__TRILIUM_PH_0____TRILIUM_PH_1__：Trilium が導入したコマンド、または動作が Trilium 向けに調整された Vim のコマンドです。",
+          "u_d865b5e223193ecfb3910832_0": "利用可能だが保証されない機能__TRILIUM_PH_0__",
+          "u_c5d570d36dc34798b1ab8007_0": "テキストノートでは、ほとんどのキーとコマンドがリッチテキストに合わせて調整され、テストされています。以下のものはプレーンテキスト上の Vim と同様に動作しますが、テーブル、画像、ネストされたリストなどのテキストノートの構造でのテストは少なくなっています。もし予期しない変更がテキストに加わった場合は、 __TRILIUM_PH_0__ を押して元に戻し、続行する前に結果を確認してください。アプリでは、キーの一覧やコマンドラインにおいてこれらを同じ名前で掲載しています。",
+          "u_f5a8c5cf7411da3bd88ff719_0": "マクロ： __TRILIUM_PH_0__ および __TRILIUM_PH_1__。",
+          "u_f8eab74dd134ad14120b88e9_0": "名前付きレジスタ： __TRILIUM_PH_0__ から __TRILIUM_PH_1__まで、番号付きレジスタ、および特殊レジスタ。これには、名前が指定されていない場合に使用されるレジスタや、クリップボードレジスタ __TRILIUM_PH_2__ および __TRILIUM_PH_3__は含まれません。",
+          "u_9d02f76439fa3f0624aba216_0": "マーク： __TRILIUM_PH_0__、 __TRILIUM_PH_1__ および __TRILIUM_PH_2__。"
+        },
+        "modelVersion": "gemini-3.5-flash-lite",
+        "usage": {
+          "promptTokenCount": 2248,
+          "candidatesTokenCount": 1548,
+          "totalTokenCount": 3796,
+          "promptTokensDetails": [
+            {
+              "modality": "TEXT",
+              "tokenCount": 2248
+            }
+          ],
+          "serviceTier": "standard"
+        }
+      },
+      "unitErrors": {}
     },
     {
       "key": "EF1o4L2hif4c_971db97f8628357e",
@@ -404,7 +473,42 @@
           "contextHash": "68cddd73e2cafeb3fd036b87a5423fdfbb70220b80eb37d60deee8f06cff6a7f"
         }
       ],
-      "format": "text-slots-v1"
+      "format": "text-slots-v1",
+      "result": {
+        "key": "EF1o4L2hif4c_971db97f8628357e",
+        "translations": {
+          "u_4772c997584b74670ff5f91f_0": "コマンドラインの以下のコマンド： __TRILIUM_PH_0__、 __TRILIUM_PH_1__、 __TRILIUM_PH_2__、 __TRILIUM_PH_3__、 __TRILIUM_PH_4__、 __TRILIUM_PH_5__、 __TRILIUM_PH_6__、 __TRILIUM_PH_7__、 __TRILIUM_PH_8__、 __TRILIUM_PH_9__、およびキーマッピング（__TRILIUM_PH_10__ およびその派生、 __TRILIUM_PH_11__、 __TRILIUM_PH_12__）",
+          "u_e8c8a1ddb4ef4aa09368cb1c_0": "該当する箇所では、以下のセクションで改めて説明しています。コードノートにはこのような区別はありません。",
+          "u_ce4ee23304b829dc9c822572_0": "ヘルプ__TRILIUM_PH_0__",
+          "u_f131491c5e846ac5052e1bfd_0": "キー",
+          "u_0f451f74bc80b326abe5a2b3_0": "アクション",
+          "u_a6717389209448daed3a594e_0": "__TRILIUM_PH_0__Alt__TRILIUM_PH_1__+__TRILIUM_PH_2__F1__TRILIUM_PH_3__",
+          "u_8905bb773786f67a72d3ca47_0": "現在のモードのキーの一覧を表示します。コマンドの入力中はその後に続く可能性のあるキーを、コマンドラインではそのキーとコマンドを表示します。ステータスバーのモードをクリックしても同じ一覧が開きます。 __TRILIUM_PH_0__Trilium専用の__TRILIUM_PH_1__ __TRILIUM_PH_2__テキストノートでのみ有効です__TRILIUM_PH_3__",
+          "u_942715c9bf4e302aec7f0bd8_0": "カウントと繰り返し__TRILIUM_PH_0__",
+          "u_f131491c5e846ac5052e1bfd_1": "キー",
+          "u_0f451f74bc80b326abe5a2b3_1": "アクション",
+          "u_5b8ac9a03000210d79337aad_0": "__TRILIUM_PH_0__ をコマンドの前に指定",
+          "u_e5ee2c1adbadda09142aacff_0": "指定した回数だけコマンドを実行します： __TRILIUM_PH_0__、 __TRILIUM_PH_1__、 __TRILIUM_PH_2__。",
+          "u_667ac454a38ed9cdeef7a31d_0": "直前の変更を繰り返します。",
+          "u_210690a145362227b0dfde6e_0": "直前の変更を取り消します（アンドゥ）。",
+          "u_9748d7feda7c16c3e40648bc_0": "__TRILIUM_PH_0__Ctrl__TRILIUM_PH_1__+__TRILIUM_PH_2__R__TRILIUM_PH_3__",
+          "u_f41fbd08ca183e2bb40add0a_0": "取り消した変更をやり直します（リドゥ）。"
+        },
+        "modelVersion": "gemini-3.5-flash-lite",
+        "usage": {
+          "promptTokenCount": 1630,
+          "candidatesTokenCount": 1106,
+          "totalTokenCount": 2736,
+          "promptTokensDetails": [
+            {
+              "modality": "TEXT",
+              "tokenCount": 1630
+            }
+          ],
+          "serviceTier": "standard"
+        }
+      },
+      "unitErrors": {}
     },
     {
       "key": "EF1o4L2hif4c_59cd43c8ae8038c9",
@@ -539,7 +643,42 @@
           "contextHash": "816450a44a5bef900d2423e47e289ae6b74dff9d48229a42f879bbf97752d4e6"
         }
       ],
-      "format": "text-slots-v1"
+      "format": "text-slots-v1",
+      "result": {
+        "key": "EF1o4L2hif4c_59cd43c8ae8038c9",
+        "translations": {
+          "u_7dc965f07092102616f7ca66_0": "モードの変更__TRILIUM_PH_0__",
+          "u_f131491c5e846ac5052e1bfd_2": "キー",
+          "u_0f451f74bc80b326abe5a2b3_2": "操作",
+          "u_9d782318ea1c7e4d838a67f9_0": "__TRILIUM_PH_0__ / __TRILIUM_PH_1__",
+          "u_ff4d2e90cc78a96961335920_0": "カートルの前/後に挿入します。画像またはテキストノートの埋め込みノート上で実行した場合、そのキャプションまたはコンテンツに入ります。",
+          "u_9d782318ea1c7e4d838a67f9_1": "__TRILIUM_PH_0__ / __TRILIUM_PH_1__",
+          "u_83cbcd85835f4251f80df01e_0": "空白以外の最初の文字の前/行末に挿入します。",
+          "u_cbd20fecfe3c92c8ff9049dc_0": "行の先頭に挿入します。",
+          "u_cef58758bdc964175f284772_0": "最後の変更が終了した位置に挿入します。",
+          "u_9d782318ea1c7e4d838a67f9_2": "__TRILIUM_PH_0__ / __TRILIUM_PH_1__",
+          "u_23781e22f9e1266e51758ed3_0": "の下/上に新しい行を開いて挿入します。テキストノートでは、新しい行はそこで __TRILIUM_PH_0__Enter__TRILIUM_PH_1__ を押した場合に追加されるもの（段落、リスト項目、コード行）になります。",
+          "u_7ab6fd8df0e9c10acbde645b_0": "カーソル下の文字を削除して挿入します。",
+          "u_b826f369a221b4dc1e1cf20a_0": "行をクリアして挿入します。",
+          "u_55debd096cb450f79b24f1cd_0": "置換モードに入ります。入力した文字が既存の文字を上書きします。 __TRILIUM_PH_0__Backspace__TRILIUM_PH_1__ で元に戻ります。",
+          "u_e011700fe1614bf5e5cf8f50_0": "__TRILIUM_PH_0__挿入__TRILIUM_PH_1__",
+          "u_d924954c4a81cd9132371011_0": "挿入モードに入ります。挿入モードでは、挿入モードと置換モードを切り替えます。"
+        },
+        "modelVersion": "gemini-3.5-flash-lite",
+        "usage": {
+          "promptTokenCount": 1544,
+          "candidatesTokenCount": 971,
+          "totalTokenCount": 2515,
+          "promptTokensDetails": [
+            {
+              "modality": "TEXT",
+              "tokenCount": 1544
+            }
+          ],
+          "serviceTier": "standard"
+        }
+      },
+      "unitErrors": {}
     },
     {
       "key": "EF1o4L2hif4c_7d230d5c29dc14b8",
@@ -674,7 +813,42 @@
           "contextHash": "54e8dad6430aee47e5f5f4e4c8a9e90994b8bae3dbc0647105a84ac42c56b559"
         }
       ],
-      "format": "text-slots-v1"
+      "format": "text-slots-v1",
+      "result": {
+        "key": "EF1o4L2hif4c_7d230d5c29dc14b8",
+        "translations": {
+          "u_1374434885739cdb5bbb28a0_0": "文字を選択するビジュアルモードに入ります。",
+          "u_cb3615838b8585194cb811ec_0": "行全体を選択するビジュアル行モードに入ります。",
+          "u_79adb3c12de9e62aaead6be1_0": "前の選択範囲を再度選択します。",
+          "u_446922513decdcf3cd8ba268_0": "コマンドラインを開きます。",
+          "u_729727cf9719856df86d0675_0": "__TRILIUM_PH_0__Esc__TRILIUM_PH_1__ または __TRILIUM_PH_2__Ctrl__TRILIUM_PH_3__+__TRILIUM_PH_4__[__TRILIUM_PH_5__",
+          "u_f0a81ded5d744c5be9d2531e_0": "通常モードに戻るか、これまでに入力したキーをキャンセルします。",
+          "u_e5f1bdfd48f94e578f1a6a59_0": "__TRILIUM_PH_0__Ctrl__TRILIUM_PH_1__+__TRILIUM_PH_2__C__TRILIUM_PH_3__",
+          "u_7400507a1a497e2dd24ef369_0": " __TRILIUM_PH_0__Esc__TRILIUM_PH_1__と同じです。テキストノートでは、何かを選択しているときにコピーします。",
+          "u_792bbdf8bd83be998e721fbd_0": "モーション__TRILIUM_PH_0__",
+          "u_c16d7122afe1f7c31cf2331c_0": "モーションはカーソルを移動させます。オペレータの後では、オペレータが処理するテキストの範囲を指定します。ビジュアルモードでは、選択範囲を拡張します。",
+          "u_495c8eb642585ad46cd81bfc_0": "文字と行__TRILIUM_PH_0__",
+          "u_f131491c5e846ac5052e1bfd_3": "キー",
+          "u_6e528c14e2bdcf15bc2872e5_0": "移動先",
+          "u_9d782318ea1c7e4d838a67f9_3": "__TRILIUM_PH_0__ / __TRILIUM_PH_1__",
+          "u_64e40428e32ede356a1c9663_0": "行内の左側 / 右側の文字。また、 __TRILIUM_PH_0__←__TRILIUM_PH_1__ または __TRILIUM_PH_2__Backspace__TRILIUM_PH_3__、および __TRILIUM_PH_4__→__TRILIUM_PH_5__ または __TRILIUM_PH_6__Space__TRILIUM_PH_7__。",
+          "u_9d782318ea1c7e4d838a67f9_4": "__TRILIUM_PH_0__ / __TRILIUM_PH_1__"
+        },
+        "modelVersion": "gemini-3.5-flash-lite",
+        "usage": {
+          "promptTokenCount": 1566,
+          "candidatesTokenCount": 1032,
+          "totalTokenCount": 2598,
+          "promptTokensDetails": [
+            {
+              "modality": "TEXT",
+              "tokenCount": 1566
+            }
+          ],
+          "serviceTier": "standard"
+        }
+      },
+      "unitErrors": {}
     },
     {
       "key": "EF1o4L2hif4c_ec3031598f8ce048",
@@ -809,7 +983,42 @@
           "contextHash": "54e8dad6430aee47e5f5f4e4c8a9e90994b8bae3dbc0647105a84ac42c56b559"
         }
       ],
-      "format": "text-slots-v1"
+      "format": "text-slots-v1",
+      "result": {
+        "key": "EF1o4L2hif4c_ec3031598f8ce048",
+        "translations": {
+          "u_3771a0efd7086bac44a0e6f1_0": "すぐ下／上の行。また __TRILIUM_PH_0__↓__TRILIUM_PH_1__ および __TRILIUM_PH_2__↑__TRILIUM_PH_3__。テキストノートの表内では、列の下／上方向への移動になります。",
+          "u_a5a643d0b7fc197d6d5a142c_0": "__TRILIUM_PH_0__Ctrl__TRILIUM_PH_1__+__TRILIUM_PH_2__N__TRILIUM_PH_3__ / __TRILIUM_PH_4__Ctrl__TRILIUM_PH_5__+__TRILIUM_PH_6__P__TRILIUM_PH_7__",
+          "u_962c25de72e308bef85e6d23_0": " __TRILIUM_PH_0__ / __TRILIUM_PH_1__と同じ。WindowsおよびLinuxのブラウザでは、 __TRILIUM_PH_2__Ctrl__TRILIUM_PH_3__+__TRILIUM_PH_4__N__TRILIUM_PH_5__ は機能しません。",
+          "u_9d782318ea1c7e4d838a67f9_5": "__TRILIUM_PH_0__ / __TRILIUM_PH_1__",
+          "u_2fdc3fac2be2b3e5352bbc6d_0": "折り返された行内での、すぐ下／上の画面上の行。",
+          "u_5494664d6d3ef47f5f67cfb2_0": "__TRILIUM_PH_0__ または __TRILIUM_PH_1__Home__TRILIUM_PH_2__",
+          "u_aa472ad770c3b1c7dc87c907_0": "行の先頭。",
+          "u_7636eedc778ba021cc12eedf_0": "行頭の空白以外の最初の文字。",
+          "u_bb5feb50505c00b5828b98dd_0": "__TRILIUM_PH_0__ または __TRILIUM_PH_1__End__TRILIUM_PH_2__",
+          "u_635d138c471b2aae46f80b37_0": "行の末尾。",
+          "u_a74fe6fd508f3e0af05054d6_0": "__TRILIUM_PH_0__ または __TRILIUM_PH_1__ / __TRILIUM_PH_2__",
+          "u_9af88a813d2211e7a8dea939_0": "画面上の行の先頭／末尾。",
+          "u_a9d16cb341eb2a03d5ccf4d5_0": "指定された番号の列。",
+          "u_c234a337814d04e9575caf94_0": "__TRILIUM_PH_0__ または __TRILIUM_PH_1__Enter__TRILIUM_PH_2__ / __TRILIUM_PH_3__",
+          "u_dd00517900c74ec611602aa8_0": "次／前の行の空白以外の最初の文字。",
+          "u_e6b0831c40c973211aaa84cf_0": "現在の行の空白以外の最初の文字。"
+        },
+        "modelVersion": "gemini-3.5-flash-lite",
+        "usage": {
+          "promptTokenCount": 1645,
+          "candidatesTokenCount": 1075,
+          "totalTokenCount": 2720,
+          "promptTokensDetails": [
+            {
+              "modality": "TEXT",
+              "tokenCount": 1645
+            }
+          ],
+          "serviceTier": "standard"
+        }
+      },
+      "unitErrors": {}
     },
     {
       "key": "EF1o4L2hif4c_ef6c2331234f2812",
@@ -944,7 +1153,42 @@
           "contextHash": "fe77f43b2c607c654e433d09e82152f9dba0eec2338387c72b9e37048163a959"
         }
       ],
-      "format": "text-slots-v1"
+      "format": "text-slots-v1",
+      "result": {
+        "key": "EF1o4L2hif4c_ef6c2331234f2812",
+        "translations": {
+          "u_faad4330e6b7219435fa2842_0": "単語と文__TRILIUM_PH_0__",
+          "u_f131491c5e846ac5052e1bfd_4": "キー",
+          "u_6e528c14e2bdcf15bc2872e5_1": "移動先：",
+          "u_9d782318ea1c7e4d838a67f9_6": "__TRILIUM_PH_0__ / __TRILIUM_PH_1__",
+          "u_2cf72a59ece663109f9dba4e_0": "次／前の単語の先頭。",
+          "u_9d782318ea1c7e4d838a67f9_7": "__TRILIUM_PH_0__ / __TRILIUM_PH_1__",
+          "u_f088b1ff347c880619d694b7_0": "単語の末尾／前の単語の末尾。",
+          "u_a63dc8d29a76fc6f0cb80240_0": "スペースのみで区切られた単語についても同様であり、句読点も単語の一部となります。",
+          "u_9d782318ea1c7e4d838a67f9_8": "__TRILIUM_PH_0__ / __TRILIUM_PH_1__",
+          "u_c6f969de39bbcbb047c6ada1_0": "前／次の文の先頭。",
+          "u_13b23326cec1cc3f3087d223_0": "行内__TRILIUM_PH_0__",
+          "u_f131491c5e846ac5052e1bfd_5": "キー",
+          "u_6e528c14e2bdcf15bc2872e5_2": "移動先：",
+          "u_9d782318ea1c7e4d838a67f9_9": "__TRILIUM_PH_0__ / __TRILIUM_PH_1__",
+          "u_1adc17eeb92e3c1a587153e5_0": "次／前 __TRILIUM_PH_0__ の文字。",
+          "u_9d782318ea1c7e4d838a67f9_10": "__TRILIUM_PH_0__ / __TRILIUM_PH_1__"
+        },
+        "modelVersion": "gemini-3.5-flash-lite",
+        "usage": {
+          "promptTokenCount": 1449,
+          "candidatesTokenCount": 873,
+          "totalTokenCount": 2322,
+          "promptTokensDetails": [
+            {
+              "modality": "TEXT",
+              "tokenCount": 1449
+            }
+          ],
+          "serviceTier": "standard"
+        }
+      },
+      "unitErrors": {}
     },
     {
       "key": "EF1o4L2hif4c_c2444e868ed1cde8",
@@ -1079,7 +1323,42 @@
           "contextHash": "9fa913313ffa8bb8e26ffc876162c380aed8a7cdf5b3ce23590e30bc24ffec4d"
         }
       ],
-      "format": "text-slots-v1"
+      "format": "text-slots-v1",
+      "result": {
+        "key": "EF1o4L2hif4c_c2444e868ed1cde8",
+        "translations": {
+          "u_26ded8d91a8d7df1408f0c3f_0": "行内の次の文字の直前 / 直前 __TRILIUM_PH_0__ 。",
+          "u_9d782318ea1c7e4d838a67f9_11": "__TRILIUM_PH_0__ / __TRILIUM_PH_1__",
+          "u_98d7a7586df81f588417c529_0": "最後を繰り返す __TRILIUM_PH_0__、 __TRILIUM_PH_1__、 __TRILIUM_PH_2__ または __TRILIUM_PH_3__。同じ方向 / 逆方向。",
+          "u_d25cefb26ab76f52eedd1e4d_0": "カーソル下にある括弧に対応する括弧： __TRILIUM_PH_0__、 __TRILIUM_PH_1__ または __TRILIUM_PH_2__。",
+          "u_9d782318ea1c7e4d838a67f9_12": "__TRILIUM_PH_0__ / __TRILIUM_PH_1__",
+          "u_daaa13eda87cfce7b3e32688_0": "カーソル周辺のペアを開く / 閉じる括弧。",
+          "u_9d782318ea1c7e4d838a67f9_13": "__TRILIUM_PH_0__ / __TRILIUM_PH_1__",
+          "u_494a2f049b6aa490b052f707_0": "カーソル周辺のペアを開く / 閉じる中括弧。",
+          "u_5164c72e962da5ab63ac6282_0": "ブロックと見出し__TRILIUM_PH_0__",
+          "u_f131491c5e846ac5052e1bfd_6": "キー",
+          "u_6e528c14e2bdcf15bc2872e5_3": "移動先",
+          "u_9d782318ea1c7e4d838a67f9_14": "__TRILIUM_PH_0__ / __TRILIUM_PH_1__",
+          "u_30f1629679c874070fc50e90_0": "前 / 次の段落（空行で区切られています）。テキストノートでは、カーソルのネストレベルにおける前 / 次のブロック（段落、リスト項目、表、引用など）。",
+          "u_9d782318ea1c7e4d838a67f9_15": "__TRILIUM_PH_0__ / __TRILIUM_PH_1__",
+          "u_34198cbe08e0af7dfd651eb1_0": "前 / 次の見出し。 __TRILIUM_PH_0__Trilium専用__TRILIUM_PH_1__ __TRILIUM_PH_2__テキストノートのみ__TRILIUM_PH_3__",
+          "u_9d782318ea1c7e4d838a67f9_16": "__TRILIUM_PH_0__ / __TRILIUM_PH_1__"
+        },
+        "modelVersion": "gemini-3.5-flash-lite",
+        "usage": {
+          "promptTokenCount": 1632,
+          "candidatesTokenCount": 1035,
+          "totalTokenCount": 2667,
+          "promptTokensDetails": [
+            {
+              "modality": "TEXT",
+              "tokenCount": 1632
+            }
+          ],
+          "serviceTier": "standard"
+        }
+      },
+      "unitErrors": {}
     },
     {
       "key": "EF1o4L2hif4c_c899a70965fec161",
@@ -1214,7 +1493,42 @@
           "contextHash": "4f0be2551eb46a393bc227b27db2d934b171b08be85162092f8ea2804bf9e22c"
         }
       ],
-      "format": "text-slots-v1"
+      "format": "text-slots-v1",
+      "result": {
+        "key": "EF1o4L2hif4c_c899a70965fec161",
+        "translations": {
+          "u_266773d72c0bfdcf735d09db_0": "前々回／前回または次回の見出しの前の行。 __TRILIUM_PH_0__Trilium専用__TRILIUM_PH_1__ __TRILIUM_PH_2__テキストノートのみ__TRILIUM_PH_3__",
+          "u_9d782318ea1c7e4d838a67f9_17": "__TRILIUM_PH_0__ ／ __TRILIUM_PH_1__",
+          "u_ab13bcef155b70008c65e6f4_0": "見出し、またはカーソルがあるセクションの最終行。 __TRILIUM_PH_0__Trilium専用__TRILIUM_PH_1__ __TRILIUM_PH_2__テキストノートのみ__TRILIUM_PH_3__",
+          "u_9d782318ea1c7e4d838a67f9_18": "__TRILIUM_PH_0__ ／ __TRILIUM_PH_1__",
+          "u_34198cbe08e0af7dfd651eb1_1": "前または次の見出し。 __TRILIUM_PH_0__Trilium専用__TRILIUM_PH_1__ __TRILIUM_PH_2__テキストノートのみ__TRILIUM_PH_3__",
+          "u_49f9f01b2ad5f13a6c679741_0": "ノートと画面__TRILIUM_PH_0__",
+          "u_f131491c5e846ac5052e1bfd_7": "キー",
+          "u_6e528c14e2bdcf15bc2872e5_4": "移動先",
+          "u_9d782318ea1c7e4d838a67f9_19": "__TRILIUM_PH_0__ ／ __TRILIUM_PH_1__",
+          "u_6cbfd54b9ed19a68848d6d63_0": "ノートの最初／最後の行。",
+          "u_2824292964b6210ad69b57a1_0": "__TRILIUM_PH_0__ または __TRILIUM_PH_1__",
+          "u_21ac5d7049c1135cd8623794_0": "指定した番号の行。",
+          "u_baf667aef6d078e91b56f228_0": "ノート内の指定されたパーセンテージの位置にある行。 __TRILIUM_PH_0__テキストノートのみ__TRILIUM_PH_1__",
+          "u_5d725d9728ddf6975e982f7b_0": "__TRILIUM_PH_0__ ／ __TRILIUM_PH_1__ ／ __TRILIUM_PH_2__",
+          "u_bb9fa7caad38a5f4c4f21ade_0": "画面の一番上／中央／一番下の行。",
+          "u_62453f4ca2e138b100b29dd9_0": "__TRILIUM_PH_0__Ctrl__TRILIUM_PH_1__+__TRILIUM_PH_2__D__TRILIUM_PH_3__ ／ __TRILIUM_PH_4__Ctrl__TRILIUM_PH_5__+__TRILIUM_PH_6__U__TRILIUM_PH_7__"
+        },
+        "modelVersion": "gemini-3.5-flash-lite",
+        "usage": {
+          "promptTokenCount": 1633,
+          "candidatesTokenCount": 1074,
+          "totalTokenCount": 2707,
+          "promptTokensDetails": [
+            {
+              "modality": "TEXT",
+              "tokenCount": 1633
+            }
+          ],
+          "serviceTier": "standard"
+        }
+      },
+      "unitErrors": {}
     },
     {
       "key": "EF1o4L2hif4c_b64be860b0435ce4",
@@ -1349,7 +1663,42 @@
           "contextHash": "a1c6e1217ffc6fc76dd42642e4d77fdcf04d45d3f45c533dc4a72e00151ad3d7"
         }
       ],
-      "format": "text-slots-v1"
+      "format": "text-slots-v1",
+      "result": {
+        "key": "EF1o4L2hif4c_b64be860b0435ce4",
+        "translations": {
+          "u_050877906a4aa985e0f8d823_0": "半ページ下/上に移動します。",
+          "u_8069b0a208683191ab80a0a8_0": "__TRILIUM_PH_0__Ctrl__TRILIUM_PH_1__+__TRILIUM_PH_2__F__TRILIUM_PH_3__ / __TRILIUM_PH_4__Ctrl__TRILIUM_PH_5__+__TRILIUM_PH_6__B__TRILIUM_PH_7__",
+          "u_8b974a7de7cec7feb7079c41_0": "1ページ下/上に移動します。また、 __TRILIUM_PH_0__Page Down__TRILIUM_PH_1__ および __TRILIUM_PH_2__Page Up__TRILIUM_PH_3__キーも使用できます。",
+          "u_893f63873e31a7e8b5725bfe_0": "スクロール__TRILIUM_PH_0__",
+          "u_1c4d57c2680f51011a7475f8_0": "これらのキーはノートをスクロールし、カーソルをその行に維持します。",
+          "u_f131491c5e846ac5052e1bfd_8": "キー",
+          "u_0f451f74bc80b326abe5a2b3_3": "操作",
+          "u_9d0b371c55bbd33ab941886e_0": "__TRILIUM_PH_0__Ctrl__TRILIUM_PH_1__+__TRILIUM_PH_2__E__TRILIUM_PH_3__ / __TRILIUM_PH_4__Ctrl__TRILIUM_PH_5__+__TRILIUM_PH_6__Y__TRILIUM_PH_7__",
+          "u_bbfcc5d2474ee561d27c7a29_0": "1行下/上にスクロールします。",
+          "u_5d725d9728ddf6975e982f7b_1": "__TRILIUM_PH_0__ / __TRILIUM_PH_1__ / __TRILIUM_PH_2__",
+          "u_c8b541b8eb424282a51418c7_0": "カーソルのある行を画面の中央/上部/下部にスクロールします。",
+          "u_26287eff6fd1db000d39faa3_0": "__TRILIUM_PH_0__ / __TRILIUM_PH_1____TRILIUM_PH_2__Enter__TRILIUM_PH_3__ / __TRILIUM_PH_4__",
+          "u_ffe79e29489bab43e85e3752_0": "同様に移動し、カーソルを最初の空白以外の文字に移動します。",
+          "u_94d2c6e973086bdcf071e082_0": "オペレータ__TRILIUM_PH_0__",
+          "u_26190b2ed8bd7249bfaf9483_0": "オペレータは、その後のモーションまたはテキストオブジェクトがカバーするテキストに対して動作します： __TRILIUM_PH_0__、 __TRILIUM_PH_1__、 __TRILIUM_PH_2__。オペレータの最後のキーを2回入力すると、行に対して適用されます： __TRILIUM_PH_3__、 __TRILIUM_PH_4__、 __TRILIUM_PH_5__、 __TRILIUM_PH_6__、 __TRILIUM_PH_7__、 __TRILIUM_PH_8__、 __TRILIUM_PH_9__。ビジュアルモードでは、オペレータは選択範囲に対して動作します。",
+          "u_f131491c5e846ac5052e1bfd_9": "キー"
+        },
+        "modelVersion": "gemini-3.5-flash-lite",
+        "usage": {
+          "promptTokenCount": 1666,
+          "candidatesTokenCount": 1203,
+          "totalTokenCount": 2869,
+          "promptTokensDetails": [
+            {
+              "modality": "TEXT",
+              "tokenCount": 1666
+            }
+          ],
+          "serviceTier": "standard"
+        }
+      },
+      "unitErrors": {}
     },
     {
       "key": "EF1o4L2hif4c_466be93ee54265e5",
@@ -1484,7 +1833,42 @@
           "contextHash": "1db98aa4fb9adb4119c5e1b9ce0f957dd3b62297190ba501447c96cb08fb0484"
         }
       ],
-      "format": "text-slots-v1"
+      "format": "text-slots-v1",
+      "result": {
+        "key": "EF1o4L2hif4c_466be93ee54265e5",
+        "translations": {
+          "u_0f451f74bc80b326abe5a2b3_4": "アクション",
+          "u_659631496317f240be3734bc_0": "削除します。削除されたテキストはレジスタに格納されるため、 __TRILIUM_PH_0__ で元に戻すことができます。",
+          "u_8fb5417bb704254dc1ee1725_0": "ヤンク（コピー）し、レジスタに格納します。",
+          "u_cb55abc7d98ea331d0b22228_0": "変更：削除してから挿入モードに入ります。",
+          "u_9d782318ea1c7e4d838a67f9_20": "__TRILIUM_PH_0__ / __TRILIUM_PH_1__",
+          "u_daf05080bf4f7ebd07119db0_0": "インデントの追加 / 削除を行います。テキストノートでは、リストアイテムのレベルや段落のインデントを変更します。",
+          "u_62f1872725918b8778a084c4_0": "大文字と小文字を切り替えます。",
+          "u_9d782318ea1c7e4d838a67f9_21": "__TRILIUM_PH_0__ / __TRILIUM_PH_1__",
+          "u_7454304b1105906dcffa4ac5_0": "小文字 / 大文字に変換します。",
+          "u_7f5ae934456e13429d8c06e0_0": "ROT13でエンコードします。",
+          "u_cfffc068f6b76480c19dce4f_0": "言語のルールに従ってコードのインデントを再度行います。 __TRILIUM_PH_0__ はその行に対して行います。 __TRILIUM_PH_1__コードノートのみ__TRILIUM_PH_2__",
+          "u_9d782318ea1c7e4d838a67f9_22": "__TRILIUM_PH_0__ / __TRILIUM_PH_1__",
+          "u_b6e6d7025b07e0ee0e61373f_0": "テキスト幅（変更しない限り80文字）で長い行を折り返します。 __TRILIUM_PH_0__ がそれを変更します。 __TRILIUM_PH_1__ カーソル位置はそのままで移動しません。 __TRILIUM_PH_2__コードノートのみ__TRILIUM_PH_3__",
+          "u_702d6ce9f04217ed746d6e66_0": "行コメントを持つ言語において、行をコメントアウトするか、またはコードに戻します。 __TRILIUM_PH_0__ はその行に対して行います。 __TRILIUM_PH_1__コードノートのみ__TRILIUM_PH_2__",
+          "u_2a5374ae260c73b8e44e738a_0": "短縮形__TRILIUM_PH_0__",
+          "u_f131491c5e846ac5052e1bfd_10": "キー"
+        },
+        "modelVersion": "gemini-3.5-flash-lite",
+        "usage": {
+          "promptTokenCount": 1601,
+          "candidatesTokenCount": 1031,
+          "totalTokenCount": 2632,
+          "promptTokensDetails": [
+            {
+              "modality": "TEXT",
+              "tokenCount": 1601
+            }
+          ],
+          "serviceTier": "standard"
+        }
+      },
+      "unitErrors": {}
     },
     {
       "key": "EF1o4L2hif4c_78d32c582ddf6e54",
@@ -1619,7 +2003,42 @@
           "contextHash": "87c809799098f1ca3235c50bdd5ff8a366eb4052c6949b3e98e43c5c83c1df7f"
         }
       ],
-      "format": "text-slots-v1"
+      "format": "text-slots-v1",
+      "result": {
+        "key": "EF1o4L2hif4c_78d32c582ddf6e54",
+        "translations": {
+          "u_8aa98422970645f6e353e338_0": "以下と同じです：",
+          "u_0f451f74bc80b326abe5a2b3_5": "操作",
+          "u_96d9fe6662f442d604fb31f1_0": "__TRILIUM_PH_0__ または __TRILIUM_PH_1__削除__TRILIUM_PH_2__",
+          "u_462d124ced8fa568579f79ed_0": "カーソル下の文字を削除します。テキストノート内の画像やその他のオブジェクト上で実行すると、それらを削除します。",
+          "u_f6871201713898eaeec25415_0": "カーソル前の文字を削除します。",
+          "u_08574443d9f3cb1640c9f6ad_0": "行末まで削除します。",
+          "u_c98fde56954d8d1b964d8682_0": "行末まで変更します。",
+          "u_648b2ea400cf76c6cf5d12a4_0": "行をヤンクします。",
+          "u_d51810497519b9315a176799_0": "カーソル下の文字を変更します。",
+          "u_b99396412ab06c036ca9376c_0": "行を変更します。",
+          "u_e7b6b50bbedb6404c552cb11_0": "カーソル下の文字の大文字と小文字を切り替えて右に移動します。",
+          "u_99f96f9f0facff99e60a4fdc_0": "その他の変更__TRILIUM_PH_0__",
+          "u_f131491c5e846ac5052e1bfd_11": "キー",
+          "u_0f451f74bc80b326abe5a2b3_6": "操作",
+          "u_b6fe57bf3839fd5b1b591084_0": "カーソル下の文字を __TRILIUM_PH_0__で置き換えます。",
+          "u_778d85927cb2654b044c3d39_0": "次の行をこの行に結合し、間にスペースを挿入します。テキストノートでは、次の行の先頭で __TRILIUM_PH_0__Backspace__TRILIUM_PH_1__ キーを押したときと同じように行が結合されます。"
+        },
+        "modelVersion": "gemini-3.5-flash-lite",
+        "usage": {
+          "promptTokenCount": 1519,
+          "candidatesTokenCount": 895,
+          "totalTokenCount": 2414,
+          "promptTokensDetails": [
+            {
+              "modality": "TEXT",
+              "tokenCount": 1519
+            }
+          ],
+          "serviceTier": "standard"
+        }
+      },
+      "unitErrors": {}
     },
     {
       "key": "EF1o4L2hif4c_cce15c9582895b37",
@@ -1754,7 +2173,42 @@
           "contextHash": "2b4badd8cbdbfce557b58518d9084521705f1483edc20bfb5929bc7023757b7d"
         }
       ],
-      "format": "text-slots-v1"
+      "format": "text-slots-v1",
+      "result": {
+        "key": "EF1o4L2hif4c_cce15c9582895b37",
+        "translations": {
+          "u_18f60da2ffa0eeff63edffab_0": "スペースを追加せずに結合します。",
+          "u_9d782318ea1c7e4d838a67f9_23": "__TRILIUM_PH_0__ / __TRILIUM_PH_1__",
+          "u_441014a5bd29c6d96a1b0e99_0": "レジスタの内容をカーソルの後ろ／前に貼り付けます。ヤンクされた行は、現在の行の下／上に配置されます。",
+          "u_9d782318ea1c7e4d838a67f9_24": "__TRILIUM_PH_0__ / __TRILIUM_PH_1__",
+          "u_d08b0b8681c3ebf85a73d6be_0": "現在の行のインデントを維持して貼り付けます。テキストノートでは __TRILIUM_PH_0__ および __TRILIUM_PH_1__と同じです。",
+          "u_d0f6f8ad0755b3000c4b1740_0": "__TRILIUM_PH_0__Ctrl__TRILIUM_PH_1__+__TRILIUM_PH_2__A__TRILIUM_PH_3__ / __TRILIUM_PH_4__Ctrl__TRILIUM_PH_5__+__TRILIUM_PH_6__X__TRILIUM_PH_7__",
+          "u_52898c878a957c37a7b87f72_0": "カーソル位置またはその後の数値に 1 を加算／減算します。カウントを指定した場合はその分だけ増減します。",
+          "u_9d1fa36e695918fcc6f63a6a_0": "__TRILIUM_PH_0__Ctrl__TRILIUM_PH_1__+__TRILIUM_PH_2__Z__TRILIUM_PH_3__ / __TRILIUM_PH_4__Ctrl__TRILIUM_PH_5__+__TRILIUM_PH_6__Shift__TRILIUM_PH_7__+__TRILIUM_PH_8__Z__TRILIUM_PH_9__",
+          "u_81bf8cbb06111b8f43c31356_0": " __TRILIUM_PH_0__ および __TRILIUM_PH_1__Ctrl__TRILIUM_PH_2__+__TRILIUM_PH_3__R__TRILIUM_PH_4__と同じです。 __TRILIUM_PH_5__テキストノートのみ__TRILIUM_PH_6__",
+          "u_79313ea1d56aa2cc2164a446_0": "テキストオブジェクト__TRILIUM_PH_0__",
+          "u_ff00844428d71279aadd658b_0": "テキストオブジェクトは、オペレータの後やビジュアルモードで入力し、カーソル周辺のテキストを指定します。 __TRILIUM_PH_0__ は内部を指定し、 __TRILIUM_PH_1__ は周囲のテキストも含めて指定します： __TRILIUM_PH_2__、 __TRILIUM_PH_3__、 __TRILIUM_PH_4__。",
+          "u_f131491c5e846ac5052e1bfd_12": "キー",
+          "u_0ea6ec8d38af9d631bf03400_0": "選択範囲",
+          "u_9d782318ea1c7e4d838a67f9_25": "__TRILIUM_PH_0__ / __TRILIUM_PH_1__",
+          "u_af3a0d803fef5b33dec52dc2_0": "隣接するスペースを含めない／含める単語。",
+          "u_9d782318ea1c7e4d838a67f9_26": "__TRILIUM_PH_0__ / __TRILIUM_PH_1__"
+        },
+        "modelVersion": "gemini-3.5-flash-lite",
+        "usage": {
+          "promptTokenCount": 1692,
+          "candidatesTokenCount": 1205,
+          "totalTokenCount": 2897,
+          "promptTokensDetails": [
+            {
+              "modality": "TEXT",
+              "tokenCount": 1692
+            }
+          ],
+          "serviceTier": "standard"
+        }
+      },
+      "unitErrors": {}
     },
     {
       "key": "EF1o4L2hif4c_969fa158b8d01c9b",
@@ -1889,7 +2343,42 @@
           "contextHash": "2b4badd8cbdbfce557b58518d9084521705f1483edc20bfb5929bc7023757b7d"
         }
       ],
-      "format": "text-slots-v1"
+      "format": "text-slots-v1",
+      "result": {
+        "key": "EF1o4L2hif4c_969fa158b8d01c9b",
+        "translations": {
+          "u_bd6d273ec41b50d72e1382b1_0": "空白文字のみで区切られた単語についても同様です。",
+          "u_9d782318ea1c7e4d838a67f9_27": "__TRILIUM_PH_0__ / __TRILIUM_PH_1__",
+          "u_d06b6bbb04ed88bbc3551a93_0": "文。",
+          "u_9d782318ea1c7e4d838a67f9_28": "__TRILIUM_PH_0__ / __TRILIUM_PH_1__",
+          "u_6fd201efc936690fad56fa5c_0": "末尾の空行を含めない／含める段落。テキストノートでは、カーソル周辺のブロック（段落、リスト項目（ __TRILIUM_PH_0__、そのネストされた項目も含む）、引用、テーブルセル、コードブロック）が対象となります。見出し上では、 __TRILIUM_PH_1__ は見出しであり、 __TRILIUM_PH_2__ は見出しとそのセクションです。",
+          "u_9d782318ea1c7e4d838a67f9_29": "__TRILIUM_PH_0__ / __TRILIUM_PH_1__",
+          "u_9a069928c6304319993a64d2_0": "括弧内のテキスト（括弧を含めない／含める）。また __TRILIUM_PH_0__ および __TRILIUM_PH_1__。",
+          "u_9d782318ea1c7e4d838a67f9_30": "__TRILIUM_PH_0__ / __TRILIUM_PH_1__",
+          "u_eb8b1d3a05a5ba0900d6852b_0": "角括弧内のテキスト（角括弧を含めない／含める）。",
+          "u_9d782318ea1c7e4d838a67f9_31": "__TRILIUM_PH_0__ / __TRILIUM_PH_1__",
+          "u_0d8db8d8f66122c18b31560c_0": "ブレース内のテキスト（ブレースを含めない／含める）。また __TRILIUM_PH_0__ および __TRILIUM_PH_1__。",
+          "u_9d782318ea1c7e4d838a67f9_32": "__TRILIUM_PH_0__ / __TRILIUM_PH_1__",
+          "u_bd29e1d184fe9e65c0168a1a_0": "山括弧内のテキスト（山括弧を含めない／含める）。",
+          "u_9d782318ea1c7e4d838a67f9_33": "__TRILIUM_PH_0__ / __TRILIUM_PH_1__",
+          "u_e644a78dce53a7e30ebe45fb_0": "二重引用符内のテキスト（二重引用符を含めない／含める）。",
+          "u_9d782318ea1c7e4d838a67f9_34": "__TRILIUM_PH_0__ / __TRILIUM_PH_1__"
+        },
+        "modelVersion": "gemini-3.5-flash-lite",
+        "usage": {
+          "promptTokenCount": 1595,
+          "candidatesTokenCount": 1066,
+          "totalTokenCount": 2661,
+          "promptTokensDetails": [
+            {
+              "modality": "TEXT",
+              "tokenCount": 1595
+            }
+          ],
+          "serviceTier": "standard"
+        }
+      },
+      "unitErrors": {}
     },
     {
       "key": "EF1o4L2hif4c_f0494e8efb424519",
@@ -2024,7 +2513,42 @@
           "contextHash": "78900f5b7fd7d18b5bd83cc2455e49e0b94046bde9daadecb2b1f9c9c1271fa6"
         }
       ],
-      "format": "text-slots-v1"
+      "format": "text-slots-v1",
+      "result": {
+        "key": "EF1o4L2hif4c_f0494e8efb424519",
+        "translations": {
+          "u_217aaaf5cdaae002998f1829_0": "シングルクォート内のテキスト（引用符を含めない / 含める）。",
+          "u_9d782318ea1c7e4d838a67f9_35": "__TRILIUM_PH_0__ / __TRILIUM_PH_1__",
+          "u_df81c1e6f19c2976410ce650_0": "2つのバッククォート間のテキスト（バッククォートを含めない / 含める）。2つ目のキーはバッククォートです。",
+          "u_9d782318ea1c7e4d838a67f9_36": "__TRILIUM_PH_0__ / __TRILIUM_PH_1__",
+          "u_5a56c83abb269aa041d85120_0": "HTMLなどのタグを持つ言語のノートにおける、タグの内容（タグを含めない / 含める）。 __TRILIUM_PH_0__コードノートのみ__TRILIUM_PH_1__",
+          "u_55da99168997c6563d2b1de3_0": "ビジュアルモード__TRILIUM_PH_0__",
+          "u_f131491c5e846ac5052e1bfd_13": "キー",
+          "u_0f451f74bc80b326abe5a2b3_7": "操作",
+          "u_3b57d1efcc30c42119aad135_0": "任意のエディタモーションまたはテキストオブジェクト",
+          "u_ed3fdcf480e99831c70ed52f_0": "選択範囲を拡張します。",
+          "u_bae9c0f89e17e09a61ff921d_0": "選択範囲のもう一方の端に移動します。",
+          "u_9d782318ea1c7e4d838a67f9_37": "__TRILIUM_PH_0__ / __TRILIUM_PH_1__",
+          "u_8259d2f78aabb907f63f5a73_0": "文字単位と行単位の選択を切り替えます。現在のモードのキーを押すとビジュアルモードを終了します。",
+          "u_2824292964b6210ad69b57a1_1": "__TRILIUM_PH_0__ または __TRILIUM_PH_1__",
+          "u_968293513506ea92118f00d0_0": "選択範囲を削除します。",
+          "u_90396f6e0eaa4051521c4811_0": "選択範囲をヤンク（コピー）します。"
+        },
+        "modelVersion": "gemini-3.5-flash-lite",
+        "usage": {
+          "promptTokenCount": 1470,
+          "candidatesTokenCount": 935,
+          "totalTokenCount": 2405,
+          "promptTokensDetails": [
+            {
+              "modality": "TEXT",
+              "tokenCount": 1470
+            }
+          ],
+          "serviceTier": "standard"
+        }
+      },
+      "unitErrors": {}
     },
     {
       "key": "EF1o4L2hif4c_47e6ec65bc95538e",
@@ -2159,7 +2683,42 @@
           "contextHash": "78900f5b7fd7d18b5bd83cc2455e49e0b94046bde9daadecb2b1f9c9c1271fa6"
         }
       ],
-      "format": "text-slots-v1"
+      "format": "text-slots-v1",
+      "result": {
+        "key": "EF1o4L2hif4c_47e6ec65bc95538e",
+        "translations": {
+          "u_2824292964b6210ad69b57a1_2": "__TRILIUM_PH_0__ または __TRILIUM_PH_1__",
+          "u_a56a26a64dc6f49259831f3e_0": "選択範囲を変更します。",
+          "u_9d782318ea1c7e4d838a67f9_38": "__TRILIUM_PH_0__ / __TRILIUM_PH_1__",
+          "u_2d7e0124be9ca1368d830ff6_0": "選択範囲の行全体を削除 / ヤンクします。",
+          "u_2824292964b6210ad69b57a1_3": "__TRILIUM_PH_0__ または __TRILIUM_PH_1__",
+          "u_655e7962251793c9ecc11645_0": "選択範囲の行全体を変更します。",
+          "u_9d782318ea1c7e4d838a67f9_39": "__TRILIUM_PH_0__ / __TRILIUM_PH_1__",
+          "u_f8775f5947e1922626ef1f46_0": "選択した行のインデントの追加 / 削除を行います。",
+          "u_5d725d9728ddf6975e982f7b_2": "__TRILIUM_PH_0__ / __TRILIUM_PH_1__ / __TRILIUM_PH_2__",
+          "u_9a66d8c85cce7cc1d3f8e6d2_0": "大文字小文字の切り替え / 小文字化 / 大文字化を行います。",
+          "u_9d782318ea1c7e4d838a67f9_40": "__TRILIUM_PH_0__ / __TRILIUM_PH_1__",
+          "u_b33cac2bd51b0dd3c0c6a871_0": "選択した行を結合します（スペースを挿入 / 挿入しない）。",
+          "u_2cd6a6572eee9810b317c613_0": "選択したすべての文字を __TRILIUM_PH_0__に置き換えます。",
+          "u_2824292964b6210ad69b57a1_4": "__TRILIUM_PH_0__ または __TRILIUM_PH_1__",
+          "u_1bf3038e8eacfbd82ba918d8_0": "選択範囲をレジスタの内容で置き換えます。",
+          "u_5192c04c4105a11e396a0abf_0": "選択した行に対してコマンドラインを開きます。"
+        },
+        "modelVersion": "gemini-3.5-flash-lite",
+        "usage": {
+          "promptTokenCount": 1442,
+          "candidatesTokenCount": 942,
+          "totalTokenCount": 2384,
+          "promptTokensDetails": [
+            {
+              "modality": "TEXT",
+              "tokenCount": 1442
+            }
+          ],
+          "serviceTier": "standard"
+        }
+      },
+      "unitErrors": {}
     },
     {
       "key": "EF1o4L2hif4c_0b7c98f56de84c03",
@@ -2294,7 +2853,42 @@
           "contextHash": "4a37f660774e663cb2820b1dc5d3263d652fe6761aab37830e5df861ca2a0247"
         }
       ],
-      "format": "text-slots-v1"
+      "format": "text-slots-v1",
+      "result": {
+        "key": "EF1o4L2hif4c_0b7c98f56de84c03",
+        "translations": {
+          "u_e5f1bdfd48f94e578f1a6a59_1": "__TRILIUM_PH_0__Ctrl__TRILIUM_PH_1__+__TRILIUM_PH_2__C__TRILIUM_PH_3__",
+          "u_aef2efc6a1d7a0a437264611_0": "選択範囲をフォーマット付きでクリップボードにコピーし、ビジュアルモードを終了します。 __TRILIUM_PH_0__テキストノートのみ__TRILIUM_PH_1__",
+          "u_c069d3342368b9e9a4c1212f_0": "__TRILIUM_PH_0__Esc__TRILIUM_PH_1__",
+          "u_568482876f1a836272517bbe_0": "ビジュアルモードを終了します。",
+          "u_044c95a81a974dd5cb39481d_0": "テキストノートでは、ノーマルモードでマウスを使用して選択するとビジュアルモードに入ります。",
+          "u_b57c417b377c78284c082aae_0": "レジスタ__TRILIUM_PH_0__",
+          "u_406024f455547ebc3cbbf2eb_0": "レジスタは、ヤンクまたは削除されたテキストを保持します。使用するには、コマンドの前に __TRILIUM_PH_0__ とその名前を入力します。 __TRILIUM_PH_1__ は行を __TRILIUM_PH_2__にヤンクし、 __TRILIUM_PH_3__ はそれを配置します。テキストノートでは、名前付きのレジスタは __TRILIUM_PH_4__利用可能ですが、動作が保証されているわけではありません__TRILIUM_PH_5__。",
+          "u_458d58f283d9a8a366b0eade_0": "レジスタ",
+          "u_cd5563e21bf67c26b5f54912_0": "保持内容",
+          "u_cd39cb37f36329d447075978_0": "最後にヤンクまたは削除されたテキスト。これは名前が指定されていない場合に使用されるレジスタです。",
+          "u_49c0884f7c780997ed85f503_0": "__TRILIUM_PH_0__ から __TRILIUM_PH_1__まで",
+          "u_1f2964b556cb2e7beb1c8e89_0": "そこに配置した内容。大文字を使用すると、 __TRILIUM_PH_0__ から __TRILIUM_PH_1__まで、テキストはレジスタが保持している内容に追加されます。",
+          "u_d50a9e50cc028621c02e4919_0": "最後にヤンクされたテキスト。",
+          "u_49c0884f7c780997ed85f503_1": "__TRILIUM_PH_0__ から __TRILIUM_PH_1__まで",
+          "u_f564bb564bf1d53112055c1b_0": "最後に削除された行（新しいものが先頭）。",
+          "u_fbf11800685522922edc4cb0_0": "1行未満だった、最後に削除されたテキスト。"
+        },
+        "modelVersion": "gemini-3.5-flash-lite",
+        "usage": {
+          "promptTokenCount": 1609,
+          "candidatesTokenCount": 1075,
+          "totalTokenCount": 2684,
+          "promptTokensDetails": [
+            {
+              "modality": "TEXT",
+              "tokenCount": 1609
+            }
+          ],
+          "serviceTier": "standard"
+        }
+      },
+      "unitErrors": {}
     },
     {
       "key": "EF1o4L2hif4c_7136816375036bc3",
@@ -2429,7 +3023,42 @@
           "contextHash": "454a7ae07a3539cb259503bb9f4fcf749ceb754f5c9c6882c202754344c7cc99"
         }
       ],
-      "format": "text-slots-v1"
+      "format": "text-slots-v1",
+      "result": {
+        "key": "EF1o4L2hif4c_7136816375036bc3",
+        "translations": {
+          "u_e393324d03b32a1a54a69f03_0": "何もなし：そこに削除されたテキストは消去され、他のレジスタはそのまま維持されます。",
+          "u_3fefaca831354d708d4c9770_0": "最後に挿入されたテキスト。",
+          "u_50869fa3509f568d187c4732_0": "コマンドラインの最後のコマンド。",
+          "u_96e248e85c67072ac86fdefb_0": "最後の検索パターン。",
+          "u_51cac1137598cb93701df454_0": "システムクリップボード。テキストノートでは、 __TRILIUM_PH_0__ 書式を保持したままコピーします。",
+          "u_b64fb714d6dc0114b5eeb96a_0": "こちらもシステムクリップボード。 __TRILIUM_PH_0__テキストノート専用__TRILIUM_PH_1__",
+          "u_f131491c5e846ac5052e1bfd_14": "キー",
+          "u_0f451f74bc80b326abe5a2b3_8": "操作",
+          "u_9dc3dff9f4d3f0b270abae8e_0": "__TRILIUM_PH_0__Ctrl__TRILIUM_PH_1__+__TRILIUM_PH_2__R__TRILIUM_PH_3__ __TRILIUM_PH_4__",
+          "u_53c778c4e13ffc4d79fbfa20_0": "挿入モードで、レジスタの内容を挿入します。",
+          "u_b81bd9960f91ee2ab1f631ad_0": "レジスタの一覧と、それに保持されている内容を表示します。",
+          "u_35a7e46493a88d9d75a0bb89_0": "テキストノートでは、レジスタは太字、リンク、色などのテキストの書式を保持します。すべてのテキストノートで1つのレジスタセットが共有され、コードノートには別のレジスタセットが用意されています。",
+          "u_3c1005b5eb2920ec1f52adf1_0": "マークとジャンプ__TRILIUM_PH_0__",
+          "u_d046073bf2a8d4d47b8c7e0e_0": "マークはノート内の位置を記憶します。ジャンプリストは、次のような大きな移動操作に残された位置を記憶します。 __TRILIUM_PH_0__、 __TRILIUM_PH_1__ および __TRILIUM_PH_2__。テキストノートでは、マークは __TRILIUM_PH_3__利用可能ですが、動作が保証されているわけではありません__TRILIUM_PH_4__。",
+          "u_85224306b005a873dfe30a72_0": "マークに移動するには2つのキーを使用します。バックティック（ __TRILIUM_PH_0__と表記）およびアポストロフィ（ __TRILIUM_PH_1__と表記）です。",
+          "u_f131491c5e846ac5052e1bfd_15": "キー"
+        },
+        "modelVersion": "gemini-3.5-flash-lite",
+        "usage": {
+          "promptTokenCount": 1612,
+          "candidatesTokenCount": 1048,
+          "totalTokenCount": 2660,
+          "promptTokensDetails": [
+            {
+              "modality": "TEXT",
+              "tokenCount": 1612
+            }
+          ],
+          "serviceTier": "standard"
+        }
+      },
+      "unitErrors": {}
     },
     {
       "key": "EF1o4L2hif4c_0370c27bf3dcb94c",
@@ -2564,7 +3193,42 @@
           "contextHash": "454a7ae07a3539cb259503bb9f4fcf749ceb754f5c9c6882c202754344c7cc99"
         }
       ],
-      "format": "text-slots-v1"
+      "format": "text-slots-v1",
+      "result": {
+        "key": "EF1o4L2hif4c_0370c27bf3dcb94c",
+        "translations": {
+          "u_0f451f74bc80b326abe5a2b3_9": "操作",
+          "u_357dd22f949d5369ddcb9b9c_0": "カーソル位置にその文字のマークを設定： __TRILIUM_PH_0__",
+          "u_d90e128677f2403abd0000af_0": "バックティック、続いて文字を入力",
+          "u_a77c0d4f9bdff9b9c676a060_0": "マークへ移動： __TRILIUM_PH_0__",
+          "u_6494e4766a2d232e7915fbcd_0": "アポストロフィ、続いて文字を入力",
+          "u_f297d9b22e325a0bfc6f22f6_0": "マークがある行の最初の非空白文字へ移動： __TRILIUM_PH_0__",
+          "u_8d26b3525b6964924a39d71a_0": "バックティックまたはアポストロフィを2回入力",
+          "u_651087c3b40140f619fd3013_0": "直前のジャンプ前の位置に戻る： __TRILIUM_PH_0__ または __TRILIUM_PH_1__",
+          "u_fdc33cf350a94c65f40d66db_0": "バックティック、続いて __TRILIUM_PH_0__",
+          "u_f51d74ffadb1ad4e10eb8af4_0": "最後の変更箇所へ移動： __TRILIUM_PH_0__",
+          "u_7d6aa8254a006b1cb0acf4ad_0": "バックティック、続いて __TRILIUM_PH_0__ または __TRILIUM_PH_1__",
+          "u_b7b328fa3385f5e5099aac1f_0": "前回の選択範囲の開始／終了位置へ移動： __TRILIUM_PH_0__ __TRILIUM_PH_1__",
+          "u_1a44a6bc92bc2e038e456e2c_0": "__TRILIUM_PH_0__、続いてバックティック ／ __TRILIUM_PH_1__、続いてバックティック",
+          "u_d360173506f52ec47df8b765_0": "次のマーク／前のマークへ移動します。",
+          "u_3933f909374512954435b6da_0": "__TRILIUM_PH_0__Ctrl__TRILIUM_PH_1__+__TRILIUM_PH_2__O__TRILIUM_PH_3__ ／ __TRILIUM_PH_4__Ctrl__TRILIUM_PH_5__+__TRILIUM_PH_6__I__TRILIUM_PH_7__",
+          "u_18ac36eb2da9013663958caf_0": "ジャンプリストの前後へ移動します。"
+        },
+        "modelVersion": "gemini-3.5-flash-lite",
+        "usage": {
+          "promptTokenCount": 1556,
+          "candidatesTokenCount": 984,
+          "totalTokenCount": 2540,
+          "promptTokensDetails": [
+            {
+              "modality": "TEXT",
+              "tokenCount": 1556
+            }
+          ],
+          "serviceTier": "standard"
+        }
+      },
+      "unitErrors": {}
     },
     {
       "key": "EF1o4L2hif4c_02ef748b7ae80830",
@@ -2699,7 +3363,42 @@
           "contextHash": "0838fb2827bdcda493d41d2b59561c84b14821bb3b287ac0426253c3f556e0f0"
         }
       ],
-      "format": "text-slots-v1"
+      "format": "text-slots-v1",
+      "result": {
+        "key": "EF1o4L2hif4c_02ef748b7ae80830",
+        "translations": {
+          "u_cf84c8640836d18a35fceb6d_0": "マークの一覧を表示します。",
+          "u_9b4c7c7a2ae7b693fc665e89_0": "次のマークを削除します: __TRILIUM_PH_0__、 __TRILIUM_PH_1__。",
+          "u_b5e17938e60a7c350907850d_0": "マクロ__TRILIUM_PH_0__",
+          "u_6d3ed99733d836ce8f40e70c_0": "マクロはキーの記録と再再生を行います。テキストノートではマクロを利用できますが、 __TRILIUM_PH_0__動作は保証されません__TRILIUM_PH_1__。",
+          "u_f131491c5e846ac5052e1bfd_16": "キー",
+          "u_0f451f74bc80b326abe5a2b3_10": "アクション",
+          "u_f941fb88a2948b08f4bcb3a6_0": "指定した文字のレジストリへの記録を開始します。 __TRILIUM_PH_0__ で記録を停止します。",
+          "u_2fdef24ecb4561780ff5976c_0": "該当するレジストリのマクロを再生します。カウントを指定すると、その回数分再生します。",
+          "u_67df6076b2045c5cb352fe2e_0": "最後に再生したマクロをもう一度再生します。",
+          "u_b9136a205fc826336d19a279_0": "検索__TRILIUM_PH_0__",
+          "u_f131491c5e846ac5052e1bfd_17": "キー",
+          "u_0f451f74bc80b326abe5a2b3_11": "アクション",
+          "u_5a154ea3c685379b3cd087e9_0": "__TRILIUM_PH_0__ と __TRILIUM_PH_1__Enter__TRILIUM_PH_2__",
+          "u_e250272d74f50cb02b156f96_0": "前方に検索します。入力に合わせて一致箇所がハイライトされます。",
+          "u_5a154ea3c685379b3cd087e9_1": "__TRILIUM_PH_0__ と __TRILIUM_PH_1__Enter__TRILIUM_PH_2__",
+          "u_f05c657275a08c22154d258a_0": "後方に検索します。"
+        },
+        "modelVersion": "gemini-3.5-flash-lite",
+        "usage": {
+          "promptTokenCount": 1432,
+          "candidatesTokenCount": 932,
+          "totalTokenCount": 2364,
+          "promptTokensDetails": [
+            {
+              "modality": "TEXT",
+              "tokenCount": 1432
+            }
+          ],
+          "serviceTier": "standard"
+        }
+      },
+      "unitErrors": {}
     },
     {
       "key": "EF1o4L2hif4c_8b4e78fba5269f71",
@@ -2834,7 +3533,42 @@
           "contextHash": "92ce0b8c55370efc5c6ea859bc4a7ba7da64c458ff7aeda21fd1622ce94c2cbc"
         }
       ],
-      "format": "text-slots-v1"
+      "format": "text-slots-v1",
+      "result": {
+        "key": "EF1o4L2hif4c_8b4e78fba5269f71",
+        "translations": {
+          "u_9d782318ea1c7e4d838a67f9_41": "__TRILIUM_PH_0__ / __TRILIUM_PH_1__",
+          "u_154efe2efcb63cfd8f8885a6_0": "次または前のマッチへ移動します。",
+          "u_9d782318ea1c7e4d838a67f9_42": "__TRILIUM_PH_0__ / __TRILIUM_PH_1__",
+          "u_782a1f4753dc57abe1c51e29_0": "カーソル下の単語に一致する単語を、完全一致で前方または後方に検索します。",
+          "u_9d782318ea1c7e4d838a67f9_43": "__TRILIUM_PH_0__ / __TRILIUM_PH_1__",
+          "u_d4524aeca66296e9034cef16_0": "上記と同様ですが、より長い単語の内部も検索対象になります。",
+          "u_9d782318ea1c7e4d838a67f9_44": "__TRILIUM_PH_0__ / __TRILIUM_PH_1__",
+          "u_853c27109604d4f9eb6ef860_0": "次または前のマッチを選択します。オペレーターの後に実行すると、そのマッチに対して操作を行います（例： __TRILIUM_PH_0__ は次のマッチを変更します）。",
+          "u_1932e7f9966a1f4c5311dff4_0": "ハイライトをクリアします。テキストノートでは、ノーマルモードでの __TRILIUM_PH_0__Esc__TRILIUM_PH_1__ キーでも同様の動作を行います。",
+          "u_7d4216b8e8f3e041536ac847_0": "パターンには、Vim独自の構文ではなく、JavaScriptの正規表現を使用します。",
+          "u_0916a70f9db3a96b6b5f3476_0": "パターンに大文字が含まれていない限り、大文字と小文字は同一視されます。",
+          "u_25c19b0662a4d5da21e67eba_0": "検索プロンプトで __TRILIUM_PH_0__↑__TRILIUM_PH_1__ および __TRILIUM_PH_2__↓__TRILIUM_PH_3__ を押すと過去の検索履歴が呼び出され、 __TRILIUM_PH_4__Ctrl__TRILIUM_PH_5__+__TRILIUM_PH_6__U__TRILIUM_PH_7__ でプロンプトがクリアされます。",
+          "u_c20eb4b870c8defd65c2d030_0": "テキストノートでは、1つのマッチが複数の行にまたがることはできません。検索は折りたたまれた見出しやリスト項目の内部も対象とし、マッチが含まれている項目を展開します。",
+          "u_43b2371471c6a392a8faa48c_0": "フォールディング__TRILIUM_PH_0__",
+          "u_959b894f5e9eb9e8fda8b468_0": "これらのキーは、 __TRILIUM_PH_0__折りたたみ可能な見出し__TRILIUM_PH_1__、折りたたみ可能なリスト項目、および __TRILIUM_PH_2__折りたたみ可能なブロック__TRILIUM_PH_3__に対して機能します。",
+          "u_f131491c5e846ac5052e1bfd_18": "キー"
+        },
+        "modelVersion": "gemini-3.5-flash-lite",
+        "usage": {
+          "promptTokenCount": 1646,
+          "candidatesTokenCount": 1131,
+          "totalTokenCount": 2777,
+          "promptTokensDetails": [
+            {
+              "modality": "TEXT",
+              "tokenCount": 1646
+            }
+          ],
+          "serviceTier": "standard"
+        }
+      },
+      "unitErrors": {}
     },
     {
       "key": "EF1o4L2hif4c_9e4eb30a84caf5c1",
@@ -2969,7 +3703,42 @@
           "contextHash": "cf670c822f461d26afb674170e02dbc8113265b66651cfbfee1bcf5fcb653ea2"
         }
       ],
-      "format": "text-slots-v1"
+      "format": "text-slots-v1",
+      "result": {
+        "key": "EF1o4L2hif4c_9e4eb30a84caf5c1",
+        "translations": {
+          "u_0f451f74bc80b326abe5a2b3_12": "アクション",
+          "u_82c60f83384751fa3d238829_0": "カーソル位置にあるものを折りたたむ、または展開します。 __TRILIUM_PH_0__Trilium固有の__TRILIUM_PH_1__ __TRILIUM_PH_2__テキストノートのみ__TRILIUM_PH_3__",
+          "u_9d782318ea1c7e4d838a67f9_45": "__TRILIUM_PH_0__ / __TRILIUM_PH_1__",
+          "u_15d4660723401dcb52e6eb2c_0": "展開/折りたたみを行います。 __TRILIUM_PH_0__Trilium固有の__TRILIUM_PH_1__ __TRILIUM_PH_2__テキストノートのみ__TRILIUM_PH_3__",
+          "u_5d725d9728ddf6975e982f7b_3": "__TRILIUM_PH_0__ / __TRILIUM_PH_1__ / __TRILIUM_PH_2__",
+          "u_1ce0186c1216d62734064798_0": " __TRILIUM_PH_0__、 __TRILIUM_PH_1__ および __TRILIUM_PH_2__と同様ですが、内部にネストされているセクションも含まれます。 __TRILIUM_PH_3__Trilium固有の__TRILIUM_PH_4__ __TRILIUM_PH_5__テキストノートのみ__TRILIUM_PH_6__",
+          "u_109e55619462113e9bff1f66_0": "リンクとタブ__TRILIUM_PH_0__",
+          "u_f131491c5e846ac5052e1bfd_19": "キー",
+          "u_0f451f74bc80b326abe5a2b3_13": "アクション",
+          "u_2dedc4969d30f7a318c63bdb_0": "カーソル下の __TRILIUM_PH_0__リンク__TRILIUM_PH_1__ または __TRILIUM_PH_2__リンクプレビュー__TRILIUM_PH_3__ を開きます。 __TRILIUM_PH_4__Trilium固有の__TRILIUM_PH_5__ __TRILIUM_PH_6__テキストノートのみ__TRILIUM_PH_7__",
+          "u_df5ad6ae873de8e6acc339e6_0": "ノートのタブ、またはその分割を閉じます。 __TRILIUM_PH_0__Trilium固有の__TRILIUM_PH_1__ __TRILIUM_PH_2__テキストノートのみ__TRILIUM_PH_3__",
+          "u_44a817546b4b344732d8aab4_0": "挿入モード__TRILIUM_PH_0__",
+          "u_52c80e8aaf81d90686ac58ac_0": "挿入モードでは、キーはテキストを入力します。以下のキーは例外であり、2つのグループに分かれています。",
+          "u_b0efdfa9c927cffd61d29210_0": "常にVimに従うキー__TRILIUM_PH_0__",
+          "u_f131491c5e846ac5052e1bfd_20": "キー",
+          "u_0f451f74bc80b326abe5a2b3_14": "アクション"
+        },
+        "modelVersion": "gemini-3.5-flash-lite",
+        "usage": {
+          "promptTokenCount": 1611,
+          "candidatesTokenCount": 1114,
+          "totalTokenCount": 2725,
+          "promptTokensDetails": [
+            {
+              "modality": "TEXT",
+              "tokenCount": 1611
+            }
+          ],
+          "serviceTier": "standard"
+        }
+      },
+      "unitErrors": {}
     },
     {
       "key": "EF1o4L2hif4c_47a1ea3ad4c09c19",
@@ -3104,7 +3873,42 @@
           "contextHash": "1d481b01928b2604dd58a3f80989b68d8255197b0fb230f1f9853f942446a59c"
         }
       ],
-      "format": "text-slots-v1"
+      "format": "text-slots-v1",
+      "result": {
+        "key": "EF1o4L2hif4c_47a1ea3ad4c09c19",
+        "translations": {
+          "u_0d4e640ff6f1e1327c3474af_0": "__TRILIUM_PH_0__Esc__TRILIUM_PH_1__、 __TRILIUM_PH_2__Ctrl__TRILIUM_PH_3__+__TRILIUM_PH_4__[__TRILIUM_PH_5__ または __TRILIUM_PH_6__Ctrl__TRILIUM_PH_7__+__TRILIUM_PH_8__C__TRILIUM_PH_9__",
+          "u_227eb3e85a81446a34af04ed_0": "通常モードに戻ります。テキストノートでは、 __TRILIUM_PH_0__Ctrl__TRILIUM_PH_1__+__TRILIUM_PH_2__C__TRILIUM_PH_3__ は選択されているものをコピーします。",
+          "u_6a575432f6af1705efe3ad91_0": "__TRILIUM_PH_0__Ctrl__TRILIUM_PH_1__+__TRILIUM_PH_2__O__TRILIUM_PH_3__",
+          "u_b27bcff1d0d05e1680958587_0": "通常モードのコマンドを1回実行してから、挿入モードに戻ります。",
+          "u_1bc2227d0adf1583b70bf19c_0": "__TRILIUM_PH_0__Ctrl__TRILIUM_PH_1__+__TRILIUM_PH_2__W__TRILIUM_PH_3__",
+          "u_239864e5c63f1c5f36505c6b_0": "カーソル前の単語を削除します。WindowsおよびLinuxのブラウザでは、ブラウザのタブが閉じられるため機能しません。",
+          "u_9dc3dff9f4d3f0b270abae8e_1": "__TRILIUM_PH_0__Ctrl__TRILIUM_PH_1__+__TRILIUM_PH_2__R__TRILIUM_PH_3__ __TRILIUM_PH_4__",
+          "u_dfe2d6003d23f36cc5ad6f16_0": "レジスタの内容を挿入します。",
+          "u_0f266ebc62e549dd94c485cc_0": "__TRILIUM_PH_0__Ctrl__TRILIUM_PH_1__+__TRILIUM_PH_2__T__TRILIUM_PH_3__ / __TRILIUM_PH_4__Ctrl__TRILIUM_PH_5__+__TRILIUM_PH_6__D__TRILIUM_PH_7__",
+          "u_a2d0f52f33a2faac5ac6cfe5_0": "行のインデントの追加/削除を行います。 __TRILIUM_PH_0__Ctrl__TRILIUM_PH_1__+__TRILIUM_PH_2__T__TRILIUM_PH_3__ はWindowsおよびLinuxのブラウザではブラウザのタブが開くため機能しません。",
+          "u_3b47805ffef93b7214637948_0": "設定に依存するキー__TRILIUM_PH_0__",
+          "u_20bf0bf085ce735c5d56333f_0": "テキストノートでは、以下の6つのショートカットは、 __TRILIUM_PH_0__Vim keys in Insert mode__TRILIUM_PH_1__ 設定が有効な場合にのみVimに従います（ __TRILIUM_PH_2__Vim mode__TRILIUM_PH_3__を参照）。デフォルトで無効になっている間は、エディタが提供する元の意味を維持します： __TRILIUM_PH_4__Ctrl__TRILIUM_PH_5__+__TRILIUM_PH_6__U__TRILIUM_PH_7__ は下線、 __TRILIUM_PH_8__Ctrl__TRILIUM_PH_9__+__TRILIUM_PH_10__Y__TRILIUM_PH_11__ はやり直し、 __TRILIUM_PH_12__Ctrl__TRILIUM_PH_13__+__TRILIUM_PH_14__K__TRILIUM_PH_15__ はリンクの作成、 __TRILIUM_PH_16__Ctrl__TRILIUM_PH_17__+__TRILIUM_PH_18__V__TRILIUM_PH_19__ は貼り付け、 __TRILIUM_PH_20__Ctrl__TRILIUM_PH_21__+__TRILIUM_PH_22__A__TRILIUM_PH_23__ はすべて選択を行います。",
+          "u_5b5c08c1173fac2f1443d631_0": "コードノートにはそのような設定はありません。そこでは __TRILIUM_PH_0__Ctrl__TRILIUM_PH_1__+__TRILIUM_PH_2__U__TRILIUM_PH_3__ は常にVimに従い、他の5つはVimキーではありません。",
+          "u_f131491c5e846ac5052e1bfd_21": "キー",
+          "u_0f451f74bc80b326abe5a2b3_15": "アクション",
+          "u_0c5dd73877e2917974d57b4e_0": "__TRILIUM_PH_0__Ctrl__TRILIUM_PH_1__+__TRILIUM_PH_2__U__TRILIUM_PH_3__"
+        },
+        "modelVersion": "gemini-3.5-flash-lite",
+        "usage": {
+          "promptTokenCount": 2057,
+          "candidatesTokenCount": 1532,
+          "totalTokenCount": 3589,
+          "promptTokensDetails": [
+            {
+              "modality": "TEXT",
+              "tokenCount": 2057
+            }
+          ],
+          "serviceTier": "standard"
+        }
+      },
+      "unitErrors": {}
     },
     {
       "key": "EF1o4L2hif4c_e2cff9d64189ac56",
@@ -3239,7 +4043,42 @@
           "contextHash": "75804aada2367093e7b7eb6f64f46a4e894a11f24aa3a4c176289345c46455de"
         }
       ],
-      "format": "text-slots-v1"
+      "format": "text-slots-v1",
+      "result": {
+        "key": "EF1o4L2hif4c_e2cff9d64189ac56",
+        "translations": {
+          "u_c4885b902624d5429382f91a_0": "カーソル位置から行頭までを削除します。テキストノートでは設定が有効な場合、コードノートでは常に有効です。",
+          "u_9d0b371c55bbd33ab941886e_1": "__TRILIUM_PH_0__Ctrl__TRILIUM_PH_1__+__TRILIUM_PH_2__E__TRILIUM_PH_3__ / __TRILIUM_PH_4__Ctrl__TRILIUM_PH_5__+__TRILIUM_PH_6__Y__TRILIUM_PH_7__",
+          "u_73022dffa033f039b888cd46_0": "カーソルの下または上の文字を挿入します。設定が有効な場合。テキストノートのみ __TRILIUM_PH_0____TRILIUM_PH_1__",
+          "u_4c8a414795bfb2c89f256507_0": "__TRILIUM_PH_0__Ctrl__TRILIUM_PH_1__+__TRILIUM_PH_2__K__TRILIUM_PH_3__ __TRILIUM_PH_4__",
+          "u_bcef61caca3c9e93c266b1a1_0": "2つのキーで入力する文字であるダイグラフを挿入します： __TRILIUM_PH_0__ は __TRILIUM_PH_1__となります。設定が有効な場合。 __TRILIUM_PH_2__テキストノートのみ__TRILIUM_PH_3__",
+          "u_383433735873f306e590085f_0": "__TRILIUM_PH_0__Ctrl__TRILIUM_PH_1__+__TRILIUM_PH_2__V__TRILIUM_PH_3__ __TRILIUM_PH_4__",
+          "u_87b04dcb4cf5b697e2cdc8b0_0": "Tabなどの次のキーをそのまま挿入します。 __TRILIUM_PH_0____TRILIUM_PH_1__設定が有効な場合。 __TRILIUM_PH_2__テキストノートのみ__TRILIUM_PH_3__",
+          "u_17cab9b76ace0d701f00c560_0": "__TRILIUM_PH_0__Ctrl__TRILIUM_PH_1__+__TRILIUM_PH_2__A__TRILIUM_PH_3__",
+          "u_7842dfa493b12b5c2ba6a324_0": "最後に入力したテキストをもう一度挿入します。設定が有効な場合。 __TRILIUM_PH_0__テキストノートのみ__TRILIUM_PH_1__",
+          "u_db6dcc5b50dddfa5fac33247_0": "コマンドライン__TRILIUM_PH_0__",
+          "u_087a316ecb7a78f3b15eb49a_0": "__TRILIUM_PH_0__ を開き、コマンドラインを表示します。コマンドを入力して __TRILIUM_PH_1__Enter__TRILIUM_PH_2__ を押して実行するか、 __TRILIUM_PH_3__Esc__TRILIUM_PH_4__ を押してキャンセルします。テーブルに示すように、コマンドは最初の数文字に短縮できます： __TRILIUM_PH_5__ は __TRILIUM_PH_6__です。テキストノートではコマンドラインがステータスバーに開き、コードノートではエディターの下部に開きます。",
+          "u_f131491c5e846ac5052e1bfd_22": "キー",
+          "u_0f451f74bc80b326abe5a2b3_16": "アクション",
+          "u_b0b1bb8132aa2a8745bf9630_0": "__TRILIUM_PH_0__Enter__TRILIUM_PH_1__",
+          "u_84791e43ffdb03c5226a433e_0": "コマンドを実行します。",
+          "u_c069d3342368b9e9a4c1212f_1": "__TRILIUM_PH_0__Esc__TRILIUM_PH_1__"
+        },
+        "modelVersion": "gemini-3.5-flash-lite",
+        "usage": {
+          "promptTokenCount": 1830,
+          "candidatesTokenCount": 1263,
+          "totalTokenCount": 3093,
+          "promptTokensDetails": [
+            {
+              "modality": "TEXT",
+              "tokenCount": 1830
+            }
+          ],
+          "serviceTier": "standard"
+        }
+      },
+      "unitErrors": {}
     },
     {
       "key": "EF1o4L2hif4c_da7581ba4da3db9c",
@@ -3374,7 +4213,42 @@
           "contextHash": "7bee22c412fbe8264fd76189a9bee0e07a8e2442c9db459e9b19b51a597f4b0c"
         }
       ],
-      "format": "text-slots-v1"
+      "format": "text-slots-v1",
+      "result": {
+        "key": "EF1o4L2hif4c_da7581ba4da3db9c",
+        "translations": {
+          "u_f001a495f617c6d1ce39efd3_0": "コマンドラインを閉じます。",
+          "u_e66438227e9b168be0cbb912_0": "__TRILIUM_PH_0__↑__TRILIUM_PH_1__ / __TRILIUM_PH_2__↓__TRILIUM_PH_3__",
+          "u_f45a7125db6bc3f5c365d221_0": "以前のコマンドを呼び出します。",
+          "u_0c5dd73877e2917974d57b4e_1": "__TRILIUM_PH_0__Ctrl__TRILIUM_PH_1__+__TRILIUM_PH_2__U__TRILIUM_PH_3__",
+          "u_74cd50b7c2eaa8eff4365b7f_0": "コマンドラインをクリアします。",
+          "u_a3ec67daad2edc22a898816a_0": "__TRILIUM_PH_0__Tab__TRILIUM_PH_1__ / __TRILIUM_PH_2__Shift__TRILIUM_PH_3__+__TRILIUM_PH_4__Tab__TRILIUM_PH_5__",
+          "u_f319ea8ba63257fc343b39f3_0": "次/前の候補に移動します。 __TRILIUM_PH_0__テキストノートのみ__TRILIUM_PH_1__",
+          "u_0f3d2495e93c5ad7bc520bef_0": "__TRILIUM_PH_0__↓__TRILIUM_PH_1__ / __TRILIUM_PH_2__↑__TRILIUM_PH_3__",
+          "u_897d124565f9b6d7c502ed35_0": "候補が表示されている間、次/前の候補に移動します。入力または候補の選択を行うまでは、代わりに __TRILIUM_PH_0__↑__TRILIUM_PH_1__ が以前のコマンドを呼び出します（その後の __TRILIUM_PH_2__↓__TRILIUM_PH_3__ も同様です）。 __TRILIUM_PH_4__テキストノートのみ__TRILIUM_PH_5__",
+          "u_f031076ca4bc7a629b1096b6_0": "範囲__TRILIUM_PH_0__",
+          "u_b7275993f6eb0873b1ca2f46_0": "多くのコマンドは、名前の前に記述された行の範囲に対して実行されます。範囲が指定されていない場合、現在の行に対して実行されます。",
+          "u_06068244a69b0534999b37dc_0": "範囲",
+          "u_6fc6e89bbcb8a0f6c0a90a53_0": "行",
+          "u_2309ba60639c8d8db436f3ac_0": "12行目。単独で入力すると、カーソルがその行に移動します。",
+          "u_9d782318ea1c7e4d838a67f9_46": "__TRILIUM_PH_0__ / __TRILIUM_PH_1__",
+          "u_b3b8024df73865cc0b013bd8_0": "現在の行 / 最後の行。"
+        },
+        "modelVersion": "gemini-3.5-flash-lite",
+        "usage": {
+          "promptTokenCount": 1588,
+          "candidatesTokenCount": 1068,
+          "totalTokenCount": 2656,
+          "promptTokensDetails": [
+            {
+              "modality": "TEXT",
+              "tokenCount": 1588
+            }
+          ],
+          "serviceTier": "standard"
+        }
+      },
+      "unitErrors": {}
     },
     {
       "key": "EF1o4L2hif4c_2d67f27b7969861f",
@@ -3509,7 +4383,42 @@
           "contextHash": "85d6c81d433eccbb41c88ea2739d63c0365c69bd92dd74e6d0e006fcf26686de"
         }
       ],
-      "format": "text-slots-v1"
+      "format": "text-slots-v1",
+      "result": {
+        "key": "EF1o4L2hif4c_2d67f27b7969861f",
+        "translations": {
+          "u_f6486e770d7efb19ace72ef6_0": "ノート全体。",
+          "u_5ff143436718ba13da0c7b76_0": "5行目から12行目。",
+          "u_5037ba177adfd702a081d96d_0": "現在の行と次の3行。",
+          "u_e4fe9509e1ac2703b203ee49_0": "現在の行から最後まで。",
+          "u_e1465807e221437b439906fe_0": "マーク __TRILIUM_PH_0__ からマーク __TRILIUM_PH_1__まで。",
+          "u_8d19b543f0b2683923261371_0": "選択範囲の行。ビジュアルモードで __TRILIUM_PH_0__ を押すと自動的に入力されます。",
+          "u_6b4fc33c0e18339463f465ea_0": "コマンド__TRILIUM_PH_0__",
+          "u_bb64be5588586262acee3e46_0": "コマンド",
+          "u_0f451f74bc80b326abe5a2b3_17": "アクション",
+          "u_c0f87f93b39c508b731dbe62_0": "範囲内の各行で、パターンに最初に一致する部分を置換します。以下の __TRILIUM_PH_0__置換__TRILIUM_PH_1__ を参照してください。",
+          "u_d6fabacc8a55de61c1e37f03_0": "行を並べ替えます。以下の __TRILIUM_PH_0__並べ替え__TRILIUM_PH_1__ を参照してください。",
+          "u_9d782318ea1c7e4d838a67f9_47": "__TRILIUM_PH_0__ / __TRILIUM_PH_1__",
+          "u_eefbcefe56ba1f32a9cd12e3_0": "元に戻す / やり直す。",
+          "u_6d31b768ec9a6e84b89a899d_0": "挿入モードに入ります。",
+          "u_688f663ffb0b0d9afcb05cd5_0": "検索のハイライトをクリアします。",
+          "u_e630466a2dd75846188a7b1e_0": "オプションを変更します。以下の __TRILIUM_PH_0__オプション__TRILIUM_PH_1__ を参照してください。"
+        },
+        "modelVersion": "gemini-3.5-flash-lite",
+        "usage": {
+          "promptTokenCount": 1485,
+          "candidatesTokenCount": 911,
+          "totalTokenCount": 2396,
+          "promptTokensDetails": [
+            {
+              "modality": "TEXT",
+              "tokenCount": 1485
+            }
+          ],
+          "serviceTier": "standard"
+        }
+      },
+      "unitErrors": {}
     },
     {
       "key": "EF1o4L2hif4c_3eecf723568df688",
@@ -3644,7 +4553,42 @@
           "contextHash": "159fed6d90bb7ad9a86ee6cf13a13c70db87ab9ec149338c72a2e02f127217dd"
         }
       ],
-      "format": "text-slots-v1"
+      "format": "text-slots-v1",
+      "result": {
+        "key": "EF1o4L2hif4c_3eecf723568df688",
+        "translations": {
+          "u_b349dd7d40ad90614c92be95_0": "テキストノートで使用可能ですが、動作が保証されていないコマンド__TRILIUM_PH_0__",
+          "u_ecf9cdc010ea238f4fc0b455_0": "これらは両方の種類のノートで機能します。テキストノートでは、以下のキーマッピングと同様に、 __TRILIUM_PH_0__使用可能だが保証されていない__TRILIUM_PH_1__の下で説明されているレベルに属します。",
+          "u_bb64be5588586262acee3e46_1": "コマンド",
+          "u_0f451f74bc80b326abe5a2b3_18": "アクション",
+          "u_72f6f8337eaafc606f5439b4_0": "パターンに一致するすべての行でコマンドを実行します： __TRILIUM_PH_0__。",
+          "u_73ad2b784166ef52e32f4ea5_0": "一致しないすべての行でコマンドを実行します。",
+          "u_ccbd3893932344fd64de8589_0": "行を削除します。",
+          "u_55f5771898f87199692b38cb_0": "行をヤンクします。",
+          "u_330ff1f0385313a068b33a2b_0": "レジスタの内容を行の下に配置します。",
+          "u_c756d1c169bd51cfcea9cd6b_0": "行を結合します。",
+          "u_96789b64d390a774dab3d2d4_0": "範囲の各行でノーマルモードのキーを入力します。",
+          "u_a0735e4fc4cbf6db95b426f5_0": "レジスタの一覧を表示します。",
+          "u_9d782318ea1c7e4d838a67f9_48": "__TRILIUM_PH_0__ / __TRILIUM_PH_1__",
+          "u_989fd49bd62b3cba6d0787b4_0": "マークの一覧表示 / 削除を行います。",
+          "u_3a5de809194a816ef11a0074_0": "Triliumコマンド__TRILIUM_PH_0__",
+          "u_1a21e0715d28e6d93d41306c_0": "コードノートにはこれらはありません。そこでは __TRILIUM_PH_0__ は何もせず、また __TRILIUM_PH_1__ はコマンドではありません。ノートはTrilium自体によって保存されるためです。"
+        },
+        "modelVersion": "gemini-3.5-flash-lite",
+        "usage": {
+          "promptTokenCount": 1693,
+          "candidatesTokenCount": 926,
+          "totalTokenCount": 2619,
+          "promptTokensDetails": [
+            {
+              "modality": "TEXT",
+              "tokenCount": 1693
+            }
+          ],
+          "serviceTier": "standard"
+        }
+      },
+      "unitErrors": {}
     },
     {
       "key": "EF1o4L2hif4c_4b364775a08ba1fb",
@@ -3779,7 +4723,42 @@
           "contextHash": "37e9fe424b9e38b297658b4af441c211d5d19289704962611fb29a6bff4a74f1"
         }
       ],
-      "format": "text-slots-v1"
+      "format": "text-slots-v1",
+      "result": {
+        "key": "EF1o4L2hif4c_4b364775a08ba1fb",
+        "translations": {
+          "u_bb64be5588586262acee3e46_2": "コマンド",
+          "u_0f451f74bc80b326abe5a2b3_19": "アクション",
+          "u_09a42565c2da5fa5b59a95b8_0": "ノートを今すぐ保存します。Triliumも自動的に保存を行います。 __TRILIUM_PH_0__Trilium専用__TRILIUM_PH_1__ __TRILIUM_PH_2__テキストノートのみ__TRILIUM_PH_3__",
+          "u_1afdaf20ce814eae1a3ea5ea_0": "保存後、ノートのタブまたは分割されたタブを閉じます。 __TRILIUM_PH_0__ および __TRILIUM_PH_1__ も同様の動作をします。 __TRILIUM_PH_2__Trilium専用__TRILIUM_PH_3__ __TRILIUM_PH_4__テキストノートのみ__TRILIUM_PH_5__",
+          "u_b4790c4dd78210212644e739_0": "テキストエディタのコマンドを名前で実行します: __TRILIUM_PH_0__, __TRILIUM_PH_1__, __TRILIUM_PH_2__。範囲を指定するか、テキストを選択した状態で実行すると、そのテキストに対して作用します。コマンドラインには、入力に応じてコマンドの一覧が表示されます。 __TRILIUM_PH_3__Trilium専用__TRILIUM_PH_4__ __TRILIUM_PH_5__テキストノートのみ__TRILIUM_PH_6__",
+          "u_9d782318ea1c7e4d838a67f9_49": "__TRILIUM_PH_0__ / __TRILIUM_PH_1__",
+          "u_88dfa2a6ff2f5cf10918716f_0": "キーヒントの表示/非表示を切り替えます。 __TRILIUM_PH_0__Trilium専用__TRILIUM_PH_1__ __TRILIUM_PH_2__テキストノートのみ__TRILIUM_PH_3__",
+          "u_243082ab76c78eb521fa6456_0": "置換__TRILIUM_PH_0__",
+          "u_8485f17c359f097314e1f7ee_0": "__TRILIUM_PH_0__ は現在の行のテキストを置換し、 __TRILIUM_PH_1__ はノート全体を置換し、 __TRILIUM_PH_2__ は選択された行のテキストを置換します。",
+          "u_837c208e5e9bb17a8a837c7f_0": "部分",
+          "u_4d86e7e037b12533fd80d15b_0": "意味",
+          "u_d0eb7af421ff96cc8f068d25_0": "JavaScriptの正規表現。",
+          "u_9a7e2e3f5055846599a03c08_0": "__TRILIUM_PH_0__, __TRILIUM_PH_1__ （置換文字列内）",
+          "u_9f65853a8687159258a3a8c7_0": "パターンのグループのテキスト。",
+          "u_c9a2da9cc6cf7297db5ade8f_0": "__TRILIUM_PH_0__ （置換文字列内）",
+          "u_d9685037f5df4adf92343f75_0": "テキストノートにおけるマッチ全体。コードノートでは、マッチ全体は __TRILIUM_PH_0__と記述されます。"
+        },
+        "modelVersion": "gemini-3.5-flash-lite",
+        "usage": {
+          "promptTokenCount": 1715,
+          "candidatesTokenCount": 1129,
+          "totalTokenCount": 2844,
+          "promptTokensDetails": [
+            {
+              "modality": "TEXT",
+              "tokenCount": 1715
+            }
+          ],
+          "serviceTier": "standard"
+        }
+      },
+      "unitErrors": {}
     },
     {
       "key": "EF1o4L2hif4c_09151e4085953534",
@@ -3914,7 +4893,42 @@
           "contextHash": "0e5284dcdb2e377ff00564ee51018381498c680144e3a75c2efb329dd4ef1833"
         }
       ],
-      "format": "text-slots-v1"
+      "format": "text-slots-v1",
+      "result": {
+        "key": "EF1o4L2hif4c_09151e4085953534",
+        "translations": {
+          "u_c9a2da9cc6cf7297db5ade8f_1": "置換後の文字列内__TRILIUM_PH_0__ ",
+          "u_f62acca30fcfeb1b16c9e93e_0": "改行。テキストノートでは、新しい段落を開始します。",
+          "u_c72285f9e7585d3181e068a6_0": "フラグ __TRILIUM_PH_0__",
+          "u_b21911ef1ca79b2abf88ef69_0": "最初だけでなく、行内のすべての一致箇所を置換します。",
+          "u_c72285f9e7585d3181e068a6_1": "フラグ __TRILIUM_PH_0__",
+          "u_942281ff476f25f29917c30f_0": "大文字と小文字を同一視します。",
+          "u_c72285f9e7585d3181e068a6_2": "フラグ __TRILIUM_PH_0__",
+          "u_ca3f1c5f6d6255dfcce693ee_0": "置換ごとに確認する: __TRILIUM_PH_0__ 置換、 __TRILIUM_PH_1__ スキップ、 __TRILIUM_PH_2__ 残りをすべて置換、 __TRILIUM_PH_3__ 停止、 __TRILIUM_PH_4__ これを置換して停止。",
+          "u_021e9720c8fa1897a6645f89_0": "並べ替え__TRILIUM_PH_0__",
+          "u_269e7b0f4a9c3da3606efe85_0": "範囲または選択範囲の行を並べ替えます。__TRILIUM_PH_0__ ",
+          "u_897672ff3ebdbcf95fbb4d81_0": "引数",
+          "u_4d86e7e037b12533fd80d15b_1": "意味",
+          "u_5d41e286d69070dc70e098e4_0": "順序を反転する: __TRILIUM_PH_0__。",
+          "u_942281ff476f25f29917c30f_1": "大文字と小文字を同一視します。",
+          "u_134e84ada397dbfac69e76fb_0": "各行の最初の数値で並べ替えます。 __TRILIUM_PH_0__ は16進数を読み取り、 __TRILIUM_PH_1__ は8進数を読み取ります。",
+          "u_8c155b90e625baefdb6deb17_0": "重複する行のうち1つだけを残します。"
+        },
+        "modelVersion": "gemini-3.5-flash-lite",
+        "usage": {
+          "promptTokenCount": 1540,
+          "candidatesTokenCount": 949,
+          "totalTokenCount": 2489,
+          "promptTokensDetails": [
+            {
+              "modality": "TEXT",
+              "tokenCount": 1540
+            }
+          ],
+          "serviceTier": "standard"
+        }
+      },
+      "unitErrors": {}
     },
     {
       "key": "EF1o4L2hif4c_2a689a8f1341c3f4",
@@ -4049,7 +5063,42 @@
           "contextHash": "30ddaed0d7cfcddfaf1d25020c04e88ae9e8316db3fb4cfcb0b41411119b100a"
         }
       ],
-      "format": "text-slots-v1"
+      "format": "text-slots-v1",
+      "result": {
+        "key": "EF1o4L2hif4c_2a689a8f1341c3f4",
+        "translations": {
+          "u_86e208a182fad4ca5b8739fa_0": "マッチしたテキストの次にあるテキストでソートします。 __TRILIUM_PH_0__。これを使用すると、マッチそのものでソートします。",
+          "u_995e496ded35a25903cf377c_0": "テキストノートでは、 __TRILIUM_PH_0__ は段落やリスト項目をその書式も含めて丸ごと移動し、リスト項目はそのネストされた項目も一緒に移動します。範囲を指定しない場合、カーソルがあるレベルのリスト、またはカーソル周辺の段落をソートします。コードノートでは、ノート全体をソートします。段落とリスト項目が混在しているような異なる種類の行や、テーブルの行はこの方法でソートできません。テーブルのソートやその他のオプションについては、 __TRILIUM_PH_1__ソート__TRILIUM_PH_2__を参照してください。",
+          "u_4a9a0606bbf003ecca8be94a_0": "キーマッピング__TRILIUM_PH_0__",
+          "u_606b0aa12adef5833d6ab0a3_0": "マッピングにより、キーに別の意味を持たせることができます。テキストノートではマッピングを利用できますが、 __TRILIUM_PH_0__動作は保証されません__TRILIUM_PH_1__。",
+          "u_bb64be5588586262acee3e46_3": "コマンド",
+          "u_0f451f74bc80b326abe5a2b3_20": "動作",
+          "u_d27a8f0c63ec29a096d7c832_0": " __TRILIUM_PH_0__ を、すべてのモードで __TRILIUM_PH_1__として機能させます。",
+          "u_5d725d9728ddf6975e982f7b_4": "__TRILIUM_PH_0__ / __TRILIUM_PH_1__ / __TRILIUM_PH_2__",
+          "u_cfafb1cc824547800b24fbe6_0": "上記と同様ですが、Normal / Visual / Insert モードでのみ有効です。",
+          "u_be6c0a47642cdd4ef34f1341_0": "__TRILIUM_PH_0__、 __TRILIUM_PH_1__、 __TRILIUM_PH_2__、 __TRILIUM_PH_3__",
+          "u_12cc51a9d904a92d5114a413_0": "上記と同様ですが、ターゲットのキーもマッピングされている場合であっても、それらのキーは元の意味を保持します。",
+          "u_529fe8bc71a8178f07ec5c98_0": "で作成されたマッピングを削除します __TRILIUM_PH_0__。単一モードのマッピングは削除されません。",
+          "u_770f137f59947770365510dd_0": "すべてのマッピングを削除します。 __TRILIUM_PH_0__、 __TRILIUM_PH_1__ 、および __TRILIUM_PH_2__ は、単一モードのものを削除します。",
+          "u_faab5c8c0ba8509b895c608f_0": "名前を持つキーは山括弧で記述します。 __TRILIUM_PH_0__、 __TRILIUM_PH_1__  __TRILIUM_PH_2__Enter__TRILIUM_PH_3__キー、 __TRILIUM_PH_4__ __TRILIUM_PH_5__  __TRILIUM_PH_6__Backspace__TRILIUM_PH_7__キー、 __TRILIUM_PH_8__  __TRILIUM_PH_9__Ctrl__TRILIUM_PH_10__+__TRILIUM_PH_11__R__TRILIUM_PH_12__用などがあります。",
+          "u_223575860ce8db2427f0e9cd_0": "で始まるターゲットは、 __TRILIUM_PH_0__ コマンドラインのコマンドです。すぐに実行するには __TRILIUM_PH_1__ で終了させます __TRILIUM_PH_2__。なし __TRILIUM_PH_3__の場合、コマンドラインはコマンドが入力された状態で開き、 __TRILIUM_PH_4__Enter__TRILIUM_PH_5__キーの入力を待ちます。",
+          "u_c9738bc3282ff8d478db091e_0": "__TRILIUM_PH_0__ は、 __TRILIUM_PH_1__ と __TRILIUM_PH_2__ を素早く続けて入力すると Insert モードを抜けます。"
+        },
+        "modelVersion": "gemini-3.5-flash-lite",
+        "usage": {
+          "promptTokenCount": 2000,
+          "candidatesTokenCount": 1369,
+          "totalTokenCount": 3369,
+          "promptTokensDetails": [
+            {
+              "modality": "TEXT",
+              "tokenCount": 2000
+            }
+          ],
+          "serviceTier": "standard"
+        }
+      },
+      "unitErrors": {}
     },
     {
       "key": "EF1o4L2hif4c_0d9ae7eb9e7ada7d",
@@ -4184,7 +5233,42 @@
           "contextHash": "cba5fbec06c2a10eeb4f508ac8126bc5857d5298e6b618fe86c043d1a8d38035"
         }
       ],
-      "format": "text-slots-v1"
+      "format": "text-slots-v1",
+      "result": {
+        "key": "EF1o4L2hif4c_0d9ae7eb9e7ada7d",
+        "translations": {
+          "u_d98a5e235a2c3f2ecf445677_0": "マッピングはTriliumが再読み込みされるまで有効です。テキストノートに維持するには、 __TRILIUM_PH_0__Startup commands__TRILIUM_PH_1__ の設定に追加してください。詳細は __TRILIUM_PH_2__Vim mode__TRILIUM_PH_3__を参照してください。",
+          "u_a2eeca965fc3e7d372117304_0": "オプション__TRILIUM_PH_0__",
+          "u_bb64be5588586262acee3e46_4": "コマンド",
+          "u_0f451f74bc80b326abe5a2b3_21": "アクション",
+          "u_9d782318ea1c7e4d838a67f9_50": "__TRILIUM_PH_0__ / __TRILIUM_PH_1__",
+          "u_88dfa2a6ff2f5cf10918716f_1": "キーヒントの有効/無効を切り替えます。 __TRILIUM_PH_0__Trilium専用の__TRILIUM_PH_1__ __TRILIUM_PH_2__テキストノートのみ__TRILIUM_PH_3__",
+          "u_8b03d22641a9ae73447811ef_0": "行の折り返し幅を設定します。また __TRILIUM_PH_0__  __TRILIUM_PH_1__。 __TRILIUM_PH_2__コードノートのみ__TRILIUM_PH_3__",
+          "u_69f67b175406984d61ca3559_0": "非対応__TRILIUM_PH_0__",
+          "u_a9c14dc1c263f5edf934ddb3_0": "Vimの以下の部分は、どちらの種類のノートでも利用できません：",
+          "u_588a7d91a8577c28f84e3299_0": "Vimのウィンドウ、バッファ、タブ、ファイル：ノーマルモードで __TRILIUM_PH_0__Ctrl__TRILIUM_PH_1__+__TRILIUM_PH_2__W__TRILIUM_PH_3__ で始まるウィンドウコマンド、および __TRILIUM_PH_4__ や __TRILIUM_PH_5__などのコマンド。インサートモードでは、 __TRILIUM_PH_6__Ctrl__TRILIUM_PH_7__+__TRILIUM_PH_8__W__TRILIUM_PH_9__ はサポートされており、単語を削除します。 __TRILIUM_PH_10__ および __TRILIUM_PH_11__ は、破棄する対象がないため、テキストノートではメッセージを表示するだけです。",
+          "u_49e5f13ab667f23b83f36756_0": "以下の表にあるノーマルモードのコマンド。",
+          "u_9478c4a1ab56c52b7612975d_0": "マーク __TRILIUM_PH_0__ および __TRILIUM_PH_1__。Vimでは最後に変更されたテキストの端を保持します。",
+          "u_8cc3fe33900f1af6d473af6d_0": "Vim独自の構文による検索パターン。",
+          "u_b410446957e8e561e576fa72_0": "Vim向けに作成されたプラグイン、スクリプト、および __TRILIUM_PH_0__ ファイル。",
+          "u_55326599d9b7df241f3a6637_0": "ビジュアルブロックモード。複数行にわたるテキストの矩形を選択します。テキストノートでは、ノーマルおよびビジュアルモードで __TRILIUM_PH_0__Ctrl__TRILIUM_PH_1__+__TRILIUM_PH_2__V__TRILIUM_PH_3__ で貼り付けを行います。コードノートでは、 __TRILIUM_PH_4__Ctrl__TRILIUM_PH_5__+__TRILIUM_PH_6__V__TRILIUM_PH_7__ または __TRILIUM_PH_8__Ctrl__TRILIUM_PH_9__+__TRILIUM_PH_10__Q__TRILIUM_PH_11__ でモードを開始できますが、選択範囲が1行にとどまるため、矩形としては機能しません。",
+          "u_2acc7df05f65db1beb218344_0": "ノーマルモードのキー"
+        },
+        "modelVersion": "gemini-3.5-flash-lite",
+        "usage": {
+          "promptTokenCount": 1903,
+          "candidatesTokenCount": 1326,
+          "totalTokenCount": 3229,
+          "promptTokensDetails": [
+            {
+              "modality": "TEXT",
+              "tokenCount": 1903
+            }
+          ],
+          "serviceTier": "standard"
+        }
+      },
+      "unitErrors": {}
     },
     {
       "key": "EF1o4L2hif4c_8920f3d0d0c2e184",
@@ -4303,7 +5387,40 @@
           "contextHash": "cba5fbec06c2a10eeb4f508ac8126bc5857d5298e6b618fe86c043d1a8d38035"
         }
       ],
-      "format": "text-slots-v1"
+      "format": "text-slots-v1",
+      "result": {
+        "key": "EF1o4L2hif4c_8920f3d0d0c2e184",
+        "translations": {
+          "u_c25fe50ac9c1b9ee6dbe7b93_0": "Vim での動作",
+          "u_9d782318ea1c7e4d838a67f9_51": "__TRILIUM_PH_0__ / __TRILIUM_PH_1__",
+          "u_9a06ff03cd2b8c1b767c9bf8_0": "貼り付けを行い、カーソルを貼り付けたテキストの後に残します。",
+          "u_cc354158ef8a6e86ec1a1371_0": "コマンドラインの最後のコマンドを繰り返します。",
+          "u_9d782318ea1c7e4d838a67f9_52": "__TRILIUM_PH_0__ / __TRILIUM_PH_1__",
+          "u_dd203f859c59808acdb5a13c_0": "行上の / すべての行上の最後の __TRILIUM_PH_0__を繰り返します。 __TRILIUM_PH_1__ の置き換え内部にある __TRILIUM_PH_2__ は別のものであり、 __TRILIUM_PH_3__置き換え__TRILIUM_PH_4__で説明されています。",
+          "u_9d782318ea1c7e4d838a67f9_53": "__TRILIUM_PH_0__ / __TRILIUM_PH_1__",
+          "u_1fe94d11b97234c26a4b21c6_0": "テキストが変更された前後の場所に移動します。",
+          "u_dbcf0a65215de2a33ded2728_0": "行に加えられたすべての変更を取り消します。ビジュアルモードでは、 __TRILIUM_PH_0__ は選択範囲を大文字にし、それはサポートされています。",
+          "u_4e64eae8960f363dee016995_0": "カーソル下の単語を検索します。",
+          "u_23c92881d54a6ed171f3c90a_0": "Ex モードに切り替えます。",
+          "u_7cb7c6c67d71297a767ab121_0": "__TRILIUM_PH_0__Ctrl__TRILIUM_PH_1__+__TRILIUM_PH_2__]__TRILIUM_PH_3__",
+          "u_68d1d284ee3c3fa181a933f4_0": "カーソル下の単語の定義にジャンプします。",
+          "u_103cb5143f19481d043262d0_0": "手動でフォールドを作成します。"
+        },
+        "modelVersion": "gemini-3.5-flash-lite",
+        "usage": {
+          "promptTokenCount": 1419,
+          "candidatesTokenCount": 882,
+          "totalTokenCount": 2301,
+          "promptTokensDetails": [
+            {
+              "modality": "TEXT",
+              "tokenCount": 1419
+            }
+          ],
+          "serviceTier": "standard"
+        }
+      },
+      "unitErrors": {}
     },
     {
       "key": "enVNpi1Njswq_5baacc5cbe5ce7c9",
@@ -4438,7 +5555,42 @@
           "contextHash": "6afbf54ae2988f3acf35f4f89c5930e0b56a08e9a1d0d6681582bf654fe7adae"
         }
       ],
-      "format": "text-slots-v1"
+      "format": "text-slots-v1",
+      "result": {
+        "key": "enVNpi1Njswq_5baacc5cbe5ce7c9",
+        "translations": {
+          "u_451f06d614312dd0990b5e5a_0": "Vim モード",
+          "u_713169a64ce56d349c8feda2_0": "Vim は初めてですか？まずは __TRILIUM_PH_0__Vim 初心者ガイド__TRILIUM_PH_1__をご覧ください。モードとは何か、どのキーを最初に学ぶべきかが説明されています。",
+          "u_46699b08fcf9580542222586_0": "Vim モードを使用すると、テキストノートで Vim スタイルのモーダル編集が可能になります。Trilium 独自のエディター内で、Vim テキストエディターのモーション、オペレーター、コマンドを使用できます。リッチテキストの構造を認識し、段落、見出し、リスト項目、テーブルセルだけでなく、画像や埋め込みノートも 1 行として扱われます。 __TRILIUM_PH_0__Vim__TRILIUM_PH_1__ ",
+          "u_f6538b28862f76724f641c36_0": "最もよく使われるキーについては以下の __TRILIUM_PH_0__早見表__TRILIUM_PH_1__ を、すべてのキーについては __TRILIUM_PH_2__Vim 完全リファレンス__TRILIUM_PH_3__をご覧ください。",
+          "u_31a26b710f42cfa407624dcd_0": "Vim モードの有効化__TRILIUM_PH_0__",
+          "u_47088c997b864a17ed5f1462_0": " __TRILIUM_PH_0__オプション__TRILIUM_PH_1__ → __TRILIUM_PH_2__テキストノート__TRILIUM_PH_3__ → __TRILIUM_PH_4__機能__TRILIUM_PH_5__に移動します。",
+          "u_c4bfc37b0375b0b44093b471_0": " __TRILIUM_PH_0__Vim モード__TRILIUM_PH_1__を有効にします。",
+          "u_179f0460846b20eabb2b07be_0": "この設定は現在のデバイスにのみ適用されるため、Vim モードを使用したいデバイスごとにこれらの手順を繰り返してください。再読み込みなしで即座に有効になります。コードノートには独自のオプションがあります： __TRILIUM_PH_0__オプション__TRILIUM_PH_1__ → __TRILIUM_PH_2__コードノート__TRILIUM_PH_3__ → __TRILIUM_PH_4__エディター__TRILIUM_PH_5__ → __TRILIUM_PH_6__Vim キーバインド__TRILIUM_PH_7__",
+          "u_76fd5a13e821822ea88770f3_0": "Vim モードが有効になると：",
+          "u_43064251ac7ab51a0a22e69f_0": "新しく開いたテキストノートは通常モードで始まります：入力するには __TRILIUM_PH_0__ を押す __TRILIUM_PH_1__、コマンドに戻るには__TRILIUM_PH_2__ Esc",
+          "u_7b2d274bbc8bf67c43dc51e1_0": "Vim モードが有効化された時点で既に開いていたノートは挿入モードに切り替わるため、そのまま入力を続けられます。",
+          "u_16d1250113d44cce16f7ad8f_0": "挿入モードでも、書式設定、スラッシュコマンド、Markdown 風の書式設定、ツールバーを備えた通常のエディターを引き続き使用できます。そこでもいくつかのショートカットが Vim に従います。詳細については、以下の __TRILIUM_PH_0__エディターで変更されるショートカット__TRILIUM_PH_1__ をご覧ください。",
+          "u_6b55894e0c3c37e52d0b2f1b_0": "Vim モードの表示場所__TRILIUM_PH_0__",
+          "u_df14a833037cddbab9912212_0": "Vim モードでは、ウィンドウの下部にある __TRILIUM_PH_0__ステータスバー__TRILIUM_PH_1__の 3 つの場所を使用します：",
+          "u_7ebd7c7268a74225cdfbcdec_0": "ステータスバーの他のインジケーターの先頭にある __TRILIUM_PH_0__Vim__TRILIUM_PH_1__ バッジは、現在のノートで Vim モードが有効な間ハイライト表示されます。クリックすると、そのノートの Vim モードをオフまたはオンに切り替えます。詳細は以下の __TRILIUM_PH_2__単一ノートの Vim モード__TRILIUM_PH_3__ をご覧ください。右クリックすると、同じスイッチ、キーヒントのスイッチ、設定、およびこのページへのメニューが表示されます。",
+          "u_727b0b7d06f5cd7e16cf5924_0": "バッジの次にある __TRILIUM_PH_0__モードインジケーター__TRILIUM_PH_1__は、現在のモードを示します： __TRILIUM_PH_2__ __TRILIUM_PH_3__ __TRILIUM_PH_4__ __TRILIUM_PH_5__ または __TRILIUM_PH_6__。その横には、完了していないコマンドのキー、短いメッセージ、および記録中のマクロが表示されます。"
+        },
+        "modelVersion": "gemini-3.5-flash-lite",
+        "usage": {
+          "promptTokenCount": 2229,
+          "candidatesTokenCount": 1546,
+          "totalTokenCount": 3775,
+          "promptTokensDetails": [
+            {
+              "modality": "TEXT",
+              "tokenCount": 2229
+            }
+          ],
+          "serviceTier": "standard"
+        }
+      },
+      "unitErrors": {}
     },
     {
       "key": "enVNpi1Njswq_5f4b85f66caeac76",
@@ -4573,7 +5725,42 @@
           "contextHash": "7a2ea73f22b48a2a3eb7bbf217c938674164f062c7684e1a977e5cfe3ad2dea0"
         }
       ],
-      "format": "text-slots-v1"
+      "format": "text-slots-v1",
+      "result": {
+        "key": "enVNpi1Njswq_5f4b85f66caeac76",
+        "translations": {
+          "u_a77308629465d43b657da6ee_0": "パンくずリストの領域は、後述するキーのヒントと、 __TRILIUM_PH_0____TRILIUM_PH_1__ を押したときにそこで開くコマンドラインの2つの用途に使用されます。 __TRILIUM_PH_2__、 __TRILIUM_PH_3__ または __TRILIUM_PH_4__。",
+          "u_6875dc7d76a3fe574cf4f475_0": "禅モードでは、キーのヒント、 __TRILIUM_PH_0____TRILIUM_PH_1__バッジ、およびモードインジケーターが表示されます。 __TRILIUM_PH_2____TRILIUM_PH_3__ ",
+          "u_29675c918c5d3f73bdf11da0_0": "設定__TRILIUM_PH_0__",
+          "u_39e67d3606940a82a3e970a4_0": "設定は __TRILIUM_PH_0__Options__TRILIUM_PH_1__ → __TRILIUM_PH_2__Text Notes__TRILIUM_PH_3__ → __TRILIUM_PH_4__Features__TRILIUM_PH_5__にあります。最後の3つは __TRILIUM_PH_6__Vim mode__TRILIUM_PH_7__ が有効になるとその下に表示されます。 __TRILIUM_PH_8__Vim mode__TRILIUM_PH_9__ 自体はデバイスごとに保持されますが、他の3つは同期されます。",
+          "u_4fce3539e6c86aa78eaece0b_0": "設定",
+          "u_e765a6977fbd7d51b43aabab_0": "デフォルト",
+          "u_1045d1aa034996dc82e10809_0": "適用先",
+          "u_0b639307b7da2206f6693374_0": "動作",
+          "u_30ffbb8bf33491a925738789_0": "__TRILIUM_PH_0__Vim mode__TRILIUM_PH_1__",
+          "u_943a31f66c2f80966074145a_0": "オフ",
+          "u_8a4414851424bf593a8b6738_0": "このデバイス",
+          "u_36fd32f9627da2468e656475_0": "テキストノートでVimモードを有効にします。",
+          "u_9dfe0038816a7702a267a606_0": "__TRILIUM_PH_0__Key hints__TRILIUM_PH_1__",
+          "u_ff2f8202073fdbf957c04c59_0": "オン",
+          "u_bd867e5e8a47cbc44250ceee_0": "すべてのデバイス",
+          "u_c76d8a213c6d8685a4f40d7d_0": "現在のモードのキー、コマンドに続く可能性のあるキー、およびコマンドラインの候補を表示します。以下の __TRILIUM_PH_0__Key hints__TRILIUM_PH_1__ を参照してください。"
+        },
+        "modelVersion": "gemini-3.5-flash-lite",
+        "usage": {
+          "promptTokenCount": 1601,
+          "candidatesTokenCount": 1064,
+          "totalTokenCount": 2665,
+          "promptTokensDetails": [
+            {
+              "modality": "TEXT",
+              "tokenCount": 1601
+            }
+          ],
+          "serviceTier": "standard"
+        }
+      },
+      "unitErrors": {}
     },
     {
       "key": "enVNpi1Njswq_01162cf486dfe27d",
@@ -4708,7 +5895,42 @@
           "contextHash": "abb54b373534036c09263a203fca143053e17658d9779f848accf660d235d167"
         }
       ],
-      "format": "text-slots-v1"
+      "format": "text-slots-v1",
+      "result": {
+        "key": "enVNpi1Njswq_01162cf486dfe27d",
+        "translations": {
+          "u_41f6826f834d36da96a11747_0": "入力モードでの__TRILIUM_PH_0__Vim キー__TRILIUM_PH_1__の動作",
+          "u_943a31f66c2f80966074145a_1": "オフ",
+          "u_bd867e5e8a47cbc44250ceee_1": "すべてのデバイス",
+          "u_e378fffed7c37db90f7b86f0_0": "入力時に、 __TRILIUM_PH_0__Ctrl__TRILIUM_PH_1__+__TRILIUM_PH_2__U__TRILIUM_PH_3__、 __TRILIUM_PH_4__Ctrl__TRILIUM_PH_5__+__TRILIUM_PH_6__E__TRILIUM_PH_7__、 __TRILIUM_PH_8__Ctrl__TRILIUM_PH_9__+__TRILIUM_PH_10__Y__TRILIUM_PH_11__、 __TRILIUM_PH_12__Ctrl__TRILIUM_PH_13__+__TRILIUM_PH_14__K__TRILIUM_PH_15__、 __TRILIUM_PH_16__Ctrl__TRILIUM_PH_17__+__TRILIUM_PH_18__V__TRILIUM_PH_19__ 、 __TRILIUM_PH_20__Ctrl__TRILIUM_PH_21__+__TRILIUM_PH_22__A__TRILIUM_PH_23__ が Vim の動作に従うようにします。オフの場合、 __TRILIUM_PH_24__Ctrl__TRILIUM_PH_25__+__TRILIUM_PH_26__U__TRILIUM_PH_27__ の下線や __TRILIUM_PH_28__Ctrl__TRILIUM_PH_29__+__TRILIUM_PH_30__V__TRILIUM_PH_31__の貼り付けなど、エディターが提供する本来の意味が維持されます。",
+          "u_1b5292449d54792315d2f0a6_0": "__TRILIUM_PH_0__起動コマンド__TRILIUM_PH_1__",
+          "u_49493dcd1e103bc1010a9ba9_0": "空",
+          "u_bd867e5e8a47cbc44250ceee_2": "すべてのデバイス",
+          "u_4f240eadba1f1915c2b2e4e6_0": "Vim モードの起動時にコマンドを実行します。主にキーマッピングを設定するためのものです。",
+          "u_52e6a5714e9810e05db68279_0": "起動コマンド__TRILIUM_PH_0__",
+          "u_5f9b19f68fccd49b0be55a40_0": " __TRILIUM_PH_0__の後に続くように、1行につき1つのコマンドを記述します。 __TRILIUM_PH_1__ で始まる行はコメントです。",
+          "u_2cf2ede741f7c675157fb657_0": "リストを編集してフィールドから離れるとすぐにコマンドが再実行され、そのマッピングが前のリストのものに置き換わります。他の設定を変更しても、コマンドは再実行されません。Vim モードのコマンドのみが認識されるため、Vim 用に作成された __TRILIUM_PH_0__ ファイルをそのまま使用することはできません。",
+          "u_76755233a8ba5e4d4239ac62_0": "単一ノートに対する Vim モード__TRILIUM_PH_0__",
+          "u_bef19857d3bf8fcb000a0dd8_0": "オプションの設定に関わらず、特定のノートに対して個別に対処するには、ノートに __TRILIUM_PH_0__ラベル__TRILIUM_PH_1__ を追加します：",
+          "u_074a36bb412778604d16c149_0": "により、そのノートで Vim モードが有効になります。__TRILIUM_PH_0__ ",
+          "u_e0105791b562452301d2f070_0": "により、そのノートは通常のエディターのままになります。__TRILIUM_PH_0__ ",
+          "u_bebb1c6b0e8533a7406bf5a4_0": "ラベルは継承できるため、1つのラベルでサブツリー全体をカバーできます。ノート自体に設定されたラベルは、継承されたラベルよりも優先されます。親ノートに継承可能な __TRILIUM_PH_0__ が設定されている場合でも、 __TRILIUM_PH_1__ を持つ子ノートは通常のエディターのままになります。"
+        },
+        "modelVersion": "gemini-3.5-flash-lite",
+        "usage": {
+          "promptTokenCount": 1931,
+          "candidatesTokenCount": 1384,
+          "totalTokenCount": 3315,
+          "promptTokensDetails": [
+            {
+              "modality": "TEXT",
+              "tokenCount": 1931
+            }
+          ],
+          "serviceTier": "standard"
+        }
+      },
+      "unitErrors": {}
     },
     {
       "key": "enVNpi1Njswq_a16760501a1a85ce",
@@ -4843,7 +6065,42 @@
           "contextHash": "61ce0492920a1378bc4b5e0e9ac3cd7ca44ee62310cf64cf46896f8ecc603e99"
         }
       ],
-      "format": "text-slots-v1"
+      "format": "text-slots-v1",
+      "result": {
+        "key": "enVNpi1Njswq_a16760501a1a85ce",
+        "translations": {
+          "u_61be8ff322a1754f647065ed_0": "Vim mode __TRILIUM_PH_0__オプションが有効な場合、ステータスバーの__TRILIUM_PH_1__ Vim __TRILIUM_PH_2__バッジがこのラベルを設定します。クリックすると現在のノートに対して設定され、もう一度クリックするとそのラベルが削除されるか、ノートが継承する__TRILIUM_PH_3__ 設定になります __TRILIUM_PH_4__。ノートのラベルが継承可能な場合、クリックするとその下位にあるノートのVim modeも変更され、メニューにその旨が表示されます __TRILIUM_PH_5__  __TRILIUM_PH_6__",
+          "u_81a541351270dedc7d3efd38_0": "キーヒント__TRILIUM_PH_0__",
+          "u_a44e6d84a527f28a9ea5247e_0": "キーヒントは学習中に役立ち、キーに慣れたらオフにすることができます。これらはステータスバーのパンくずリストの領域に表示されます：",
+          "u_293725c8d32b55a35e9ef533_0": "通常モードおよびビジュアルモードでは、そのモードで最もよく使用されるキーがパンくずリストの場所に置き換わります。キーとパンくずリストを切り替えるには、通常モードで __TRILIUM_PH_0__Esc__TRILIUM_PH_1__ を押します。これが __TRILIUM_PH_2__Esc__TRILIUM_PH_3__ の最後の動作です。クリアすべき検索のハイライトなど、他の処理が適用される場合はそれが最初に行われ、もう一度押す必要があります。下の __TRILIUM_PH_4__The Esc key__TRILIUM_PH_5__ を参照してください。",
+          "u_882d10cb64405e41d3d70fc1_0": "コマンドの途中で一時停止した後（ __TRILIUM_PH_0__ または __TRILIUM_PH_1__の後など）、続けられるキーが表示されます。",
+          "u_8af878cd52c5817f8f62eed7_0": "コマンドラインに入力内容に一致するコマンドが表示され、 __TRILIUM_PH_0__Tab__TRILIUM_PH_1__ または矢印キーで補完できます。検索プロンプトにはパターンがどのように読み取られるかが表示されます。",
+          "u_c230632efa327f2dc0699099_0": "現在のモードのすべてのキーを確認するには、モードインジケータをクリックするか、 __TRILIUM_PH_0__Alt__TRILIUM_PH_1__+__TRILIUM_PH_2__F1__TRILIUM_PH_3__を押します。",
+          "u_becf907aab05756fdb600b27_0": "ヒントをオフにするには、 __TRILIUM_PH_0__Key hints__TRILIUM_PH_1__ 設定を使用するか、 __TRILIUM_PH_2__と入力します。 __TRILIUM_PH_3__ で再びオンになります。",
+          "u_4c9a5cb133281547c0c13a8d_0": "チートシート__TRILIUM_PH_0__",
+          "u_cf386c939392905275a3b667_0": "これらは最もよく使用されるキーとコマンドです。続けて入力するキーは、 __TRILIUM_PH_0__のようにまとめて記述されます。特に断りがない限り、これらは通常モードで入力します。",
+          "u_c0ef290e9362436ebe43e23f_0": "モード__TRILIUM_PH_0__",
+          "u_84029ad57a013ebfc14f0a0a_0": "__TRILIUM_PH_0__ / __TRILIUM_PH_1__: カー的の前／後ろに入力します。",
+          "u_690088507a763b5b8d49e288_0": "__TRILIUM_PH_0__ / __TRILIUM_PH_1__: 行の最初／最後に入力します。",
+          "u_16685f5f1766d0550b82aef0_0": "__TRILIUM_PH_0__ / __TRILIUM_PH_1__: 下／上に新しい行を開いて入力します。",
+          "u_98c00be7911c56cf13f1edec_0": "__TRILIUM_PH_0__ / __TRILIUM_PH_1__: 文字／行全体を選択します。",
+          "u_c89e3ac4a78f95cf075ff483_0": "__TRILIUM_PH_0__: 既存のテキストの上に上書き入力します。"
+        },
+        "modelVersion": "gemini-3.5-flash-lite",
+        "usage": {
+          "promptTokenCount": 2067,
+          "candidatesTokenCount": 1389,
+          "totalTokenCount": 3456,
+          "promptTokensDetails": [
+            {
+              "modality": "TEXT",
+              "tokenCount": 2067
+            }
+          ],
+          "serviceTier": "standard"
+        }
+      },
+      "unitErrors": {}
     },
     {
       "key": "enVNpi1Njswq_c5bfe098c448b843",
@@ -4978,7 +6235,42 @@
           "contextHash": "ea54751385ef7b07ba88fd03e3df32beec779a8e07fbfff4748cb830aac7789f"
         }
       ],
-      "format": "text-slots-v1"
+      "format": "text-slots-v1",
+      "result": {
+        "key": "enVNpi1Njswq_c5bfe098c448b843",
+        "translations": {
+          "u_7b6a99aeab90a0cb77a1649a_0": "__TRILIUM_PH_0__Esc__TRILIUM_PH_1__：ノーマルモードに戻ります。",
+          "u_4d8151c8aa0c92083f13482e_0": "移動__TRILIUM_PH_0__",
+          "u_1bb064481048e15f2dde2287_0": "__TRILIUM_PH_0__ __TRILIUM_PH_1__ __TRILIUM_PH_2__ __TRILIUM_PH_3__：左、下、上、右へ移動します。",
+          "u_7917eb81ae9dbf794c5ca005_0": "__TRILIUM_PH_0__ w __TRILIUM_PH_1__ b __TRILIUM_PH_2__e：次の単語、前の単語、単語の末尾へ移動します。",
+          "u_71082bdcc6453bb4da8d5491_0": "__TRILIUM_PH_0__ 0 __TRILIUM_PH_1__ ^ __TRILIUM_PH_2__$：行頭、最初の文字、行末へ移動します。",
+          "u_da8754d27b8dac8dd23e5a10_0": "__TRILIUM_PH_0__ gg __TRILIUM_PH_1__G：ノートの最初／最後の行に移動します。 __TRILIUM_PH_2__ 12G は 12 行目に移動します。",
+          "u_7979d4a6006af766dd32ed90_0": "__TRILIUM_PH_0__ { __TRILIUM_PH_1__}：前／次のブロックに移動します。",
+          "u_2db6a4066c3a2dab3b5dd69e_0": "f__TRILIUM_PH_0__ と文字：行内でその文字までジャンプします。 __TRILIUM_PH_1__ ; はジャンプを繰り返します。",
+          "u_a609b5645c2216e871ce7779_0": "%__TRILIUM_PH_0__：対応する括弧に移動します。",
+          "u_3bd21a8bae8c4b9ee1d981ee_0": "__TRILIUM_PH_0__Ctrl__TRILIUM_PH_1__+__TRILIUM_PH_2__D__TRILIUM_PH_3__  __TRILIUM_PH_4__Ctrl__TRILIUM_PH_5__+__TRILIUM_PH_6__U__TRILIUM_PH_7__：半ページ下／上にスクロールします。",
+          "u_904945ddd81bbc2705de9869_0": "__TRILIUM_PH_0__Ctrl__TRILIUM_PH_1__+__TRILIUM_PH_2__O__TRILIUM_PH_3__  __TRILIUM_PH_4__Ctrl__TRILIUM_PH_5__+__TRILIUM_PH_6__I__TRILIUM_PH_7__：ジャンプ元の位置へ戻る／進む。",
+          "u_49f5d27bc22d3a4863aa4b32_0": "編集__TRILIUM_PH_0__",
+          "u_575004273dcf3d53f7cab42e_0": "x__TRILIUM_PH_0__：カーソル下の文字を削除します。",
+          "u_7683d105394be716394060c2_0": "__TRILIUM_PH_0__ dd __TRILIUM_PH_1__ dw __TRILIUM_PH_2__D：行、単語、行の残りの部分を削除します。",
+          "u_ecdffa3b95bc806a105e48d5_0": "__TRILIUM_PH_0__ cc __TRILIUM_PH_1__ cw __TRILIUM_PH_2__C：行、単語、行の残りの部分を変更します。",
+          "u_873847edb88a65db6b1922db_0": "ciw__TRILIUM_PH_0__：カーソルが単語のどこにあっても、その単語を変更します。"
+        },
+        "modelVersion": "gemini-3.5-flash-lite",
+        "usage": {
+          "promptTokenCount": 1744,
+          "candidatesTokenCount": 1253,
+          "totalTokenCount": 2997,
+          "promptTokensDetails": [
+            {
+              "modality": "TEXT",
+              "tokenCount": 1744
+            }
+          ],
+          "serviceTier": "standard"
+        }
+      },
+      "unitErrors": {}
     },
     {
       "key": "enVNpi1Njswq_37c15f8abb56415e",
@@ -5113,7 +6405,42 @@
           "contextHash": "46600d04b48c3eebd1000bb04507abd5dd75d2266b25104cc1c23c87e3ef7929"
         }
       ],
-      "format": "text-slots-v1"
+      "format": "text-slots-v1",
+      "result": {
+        "key": "enVNpi1Njswq_37c15f8abb56415e",
+        "translations": {
+          "u_a1e4a710b37ebadb62108ac6_0": "文字：__TRILIUM_PH_0__ 1文字を置き換えます。",
+          "u_5ce9f8c6a185b729967a57fc_0": "J__TRILIUM_PH_0__：次の行を現在の行に結合します。",
+          "u_0c43ea088dfce21b88c4c93e_0": ">>__TRILIUM_PH_0__ << __TRILIUM_PH_1__：行のインデント／インデント解除を行います。",
+          "u_14d1e4ec0d62d0680a60d4b4_0": "~__TRILIUM_PH_0__：大文字と小文字を切り替えます。",
+          "u_38b3d4ef8f03a890d1cac5db_0": "u__TRILIUM_PH_0__  __TRILIUM_PH_1____TRILIUM_PH_2____TRILIUM_PH_3____TRILIUM_PH_4__：元に戻す／やり直します。",
+          "u_d3ae1bf6096d7f97acd5a0ec_0": ".__TRILIUM_PH_0__：直前の変更を繰り返します。",
+          "u_f65f35c3c953d821829e23a5_0": "数字を指定するとコマンドを繰り返します。 __TRILIUM_PH_0__ 3行削除、 __TRILIUM_PH_1__ 2単語移動。",
+          "u_c69cedc332f08c918e310733_0": "コピーと貼り付け__TRILIUM_PH_0__",
+          "u_d222e1aeffbb087716295693_0": "yy__TRILIUM_PH_0__ yw __TRILIUM_PH_1__ y$ __TRILIUM_PH_2__：行、単語、行末までをヤンク（コピー）します。",
+          "u_8dfcb1927644320e0514f8d3_0": "p__TRILIUM_PH_0__ P __TRILIUM_PH_1__：カーソルの後ろ／前にプット（貼り付け）します。",
+          "u_35991f1362e778fd2efb7560_0": "\"1yy__TRILIUM_PH_0__ \"1p __TRILIUM_PH_1__：レジスタに行をヤンクします __TRILIUM_PH_2__ ／そこからプットします。",
+          "u_3625e7ad309df457643cb997_0": "\"+yy__TRILIUM_PH_0__ \"+p __TRILIUM_PH_1__：システムクリップボードにコピー／から貼り付けます。",
+          "u_2f01f7dd4dee039099f8678e_0": "ヤンクしたテキストは、太字、リンク、色などの書式を保持します。",
+          "u_7ba827b13470a16543601343_0": "選択__TRILIUM_PH_0__",
+          "u_9b918d0ce6399f6b7a354d3e_0": "v__TRILIUM_PH_0__ V __TRILIUM_PH_1__：文字／行の選択を開始します。移動操作を行うと選択範囲が拡張されます。",
+          "u_395ddfe3b523040a720b2f24_0": "aw__TRILIUM_PH_0__ab __TRILIUM_PH_1__a\" __TRILIUM_PH_2__a( __TRILIUM_PH_3__：単語、ブロック、引用符または括弧内のテキストを選択します。 __TRILIUM_PH_4__ a __TRILIUM_PH_5__ の代わりに i を使用すると、囲み要素を除外せずに取得することもできます。"
+        },
+        "modelVersion": "gemini-3.5-flash-lite",
+        "usage": {
+          "promptTokenCount": 1718,
+          "candidatesTokenCount": 1192,
+          "totalTokenCount": 2910,
+          "promptTokensDetails": [
+            {
+              "modality": "TEXT",
+              "tokenCount": 1718
+            }
+          ],
+          "serviceTier": "standard"
+        }
+      },
+      "unitErrors": {}
     },
     {
       "key": "enVNpi1Njswq_083f898115244323",
@@ -5248,7 +6575,42 @@
           "contextHash": "082dc64769521b216c2116ec5459ae8786e0a62d4e97d6d10fdcb374217a8223"
         }
       ],
-      "format": "text-slots-v1"
+      "format": "text-slots-v1",
+      "result": {
+        "key": "enVNpi1Njswq_083f898115244323",
+        "translations": {
+          "u_c8a49ea7c3cc80728ee3c907_0": "__TRILIUM_PH_0__ または __TRILIUM_PH_1__ 、 __TRILIUM_PH_2__選択範囲のヤンク、削除、または変更を行います。",
+          "u_0602a5e82a719064a83ec971_0": "__TRILIUM_PH_0__ または __TRILIUM_PH_1__選択した行のインデントの追加/削除を行います。",
+          "u_62ab6942169b14dc6933b482_0": "__TRILIUM_PH_0__選択範囲の反対側にジャンプします。",
+          "u_b793444117a05a329c417d55_0": "__TRILIUM_PH_0__直前の選択範囲を再度選択します。",
+          "u_f8c6c24f94114cf48e7e5379_0": "検索と置換__TRILIUM_PH_0__",
+          "u_8b6b1833cf245763e9cce6a9_0": "__TRILIUM_PH_0__ または __TRILIUM_PH_1__前方/後方に検索し、 __TRILIUM_PH_2__Enter__TRILIUM_PH_3__を押します。",
+          "u_db2334a614e5af776e1d8036_0": "__TRILIUM_PH_0__ または __TRILIUM_PH_1__次/前の一致箇所に移動します。",
+          "u_4d71e1e46d773102c174ed4c_0": "__TRILIUM_PH_0__ または __TRILIUM_PH_1__カーソル下の単語を前方/後方に検索します。",
+          "u_9faf62af34154b983fbaf1be_0": "__TRILIUM_PH_0__現在の行内で置換します。",
+          "u_55cef76b1e04b7c58d985994_0": "__TRILIUM_PH_0__ノート全体で置換します。 __TRILIUM_PH_1__ を追加して一致ごとに確認します。",
+          "u_ef597b88a4f337601073ba77_0": "__TRILIUM_PH_0__検索のハイライトをクリアします。",
+          "u_d4fbe7c29fc97eb4cd28cb3f_0": "Trilium固有の機能__TRILIUM_PH_0__",
+          "u_2c9e4f1f2723d8d3b27aef6e_0": "__TRILIUM_PH_0__今すぐノートを保存します。Triliumは自動的にも保存します。",
+          "u_4eed4078665a44b7f60d3a66_0": "__TRILIUM_PH_0__ または __TRILIUM_PH_1__ノートのタブ、または分割画面を閉じます。",
+          "u_810fba8d947bc05039644218_0": "__TRILIUM_PH_0__カーソル下のリンクまたはリンクプレビューを開きます。",
+          "u_2e857406f0a510da80574f84_0": "__TRILIUM_PH_0__ または __TRILIUM_PH_1__次/前の見出しに移動します。"
+        },
+        "modelVersion": "gemini-3.5-flash-lite",
+        "usage": {
+          "promptTokenCount": 1649,
+          "candidatesTokenCount": 1070,
+          "totalTokenCount": 2719,
+          "promptTokensDetails": [
+            {
+              "modality": "TEXT",
+              "tokenCount": 1649
+            }
+          ],
+          "serviceTier": "standard"
+        }
+      },
+      "unitErrors": {}
     },
     {
       "key": "enVNpi1Njswq_51a846b3c353c76b",
@@ -5383,7 +6745,42 @@
           "contextHash": "aa8ebec0702ff4e4c1a99c6d29e9a75260c225d5bf54bd794cb2a1ebd3bfb493"
         }
       ],
-      "format": "text-slots-v1"
+      "format": "text-slots-v1",
+      "result": {
+        "key": "enVNpi1Njswq_51a846b3c353c76b",
+        "translations": {
+          "u_0b415c70a1ef557595c66bd3_0": "カーソル位置の見出し、リスト項目、または折りたたみブロックを折りたたむか展開します__TRILIUM_PH_0__",
+          "u_88312ff094342bf214ed0633_0": "選択した段落やリスト項目、またはカーソル周辺の段落やリスト項目を並べ替えます__TRILIUM_PH_0__",
+          "u_36d6a9e83498c5824a23f0d5_0": "テキストエディタのコマンド名を実行し、ここでは選択範囲に適用します__TRILIUM_PH_0__",
+          "u_cb93632f7903cb6bd5eba3b9_0": "画像や埋め込みノート上で__TRILIUM_PH_0__ または __TRILIUM_PH_1__ ：キャプションまたはコンテンツを編集します。",
+          "u_39a1a7811f8e443c4aae640f_0": "現在のモードのすべてのキーを一覧表示します：__TRILIUM_PH_0____TRILIUM_PH_1____TRILIUM_PH_2____TRILIUM_PH_3__Alt+F1",
+          "u_589cf38dc422629388086d5f_0": "その他のキーとコマンドについては、 __TRILIUM_PH_0__Vimの完全なリファレンス__TRILIUM_PH_1__を参照してください。",
+          "u_dc620026f6498edd4423d2ea_0": "Vimがテキストノートを読み込む仕組み__TRILIUM_PH_0__",
+          "u_03e2e28fd29c267ff45bfaf9_0": "Vimは行を単位として動作しますが、テキストノートには独自の行がありません。両者は次のように連携します。",
+          "u_7d9ffbd050d4836df629abfe_0": "各段落、見出し、リスト項目の段落、テーブルセルの段落、コードブロックの行は、画面上で何行にわたるかにかかわらず、1行として扱われます。画面上の行とは異なり、これは __TRILIUM_PH_0__論理行__TRILIUM_PH_1__と呼ばれることがあります。 __TRILIUM_PH_2__画面行__TRILIUM_PH_3__とは対照的です。 __TRILIUM_PH_4__ __TRILIUM_PH_5__ __TRILIUM_PH_6__ および __TRILIUM_PH_7__ は論理行に対して動作し、一方 __TRILIUM_PH_8__ および __TRILIUM_PH_9__ は画面行単位で移動します。",
+          "u_7b473b675eb91ccdb44b8a6b_0": "画像、図、水平線、または埋め込みノートも1行です。 __TRILIUM_PH_0__ および __TRILIUM_PH_1__ はその場所で停止し、 __TRILIUM_PH_2__ はそれを削除します。 __TRILIUM_PH_3__ または __TRILIUM_PH_4__ は、そのキャプションまたはコンテンツに入ります。埋め込みノートから抜けるには、通常モードで __TRILIUM_PH_5____TRILIUM_PH_6__ を押すか、最初の行で __TRILIUM_PH_7__ を押すか、最後の行で __TRILIUM_PH_8__ を押します。",
+          "u_6c98c6078f8fd4d343d00a61_0": "__TRILIUM_PH_0__ および __TRILIUM_PH_1__ は、段落、リスト項目、コード行などの、その場所で __TRILIUM_PH_2____TRILIUM_PH_3__ が追加するものを追加します。 __TRILIUM_PH_4__ は、 __TRILIUM_PH_5____TRILIUM_PH_6__ と同様の方法で行を結合します。 __TRILIUM_PH_7__ および __TRILIUM_PH_8__ は、リスト項目のレベルまたは段落のインデントを変更します。",
+          "u_a64d24dddab8a92f682030c4_0": "__TRILIUM_PH_0__ __TRILIUM_PH_1__ __TRILIUM_PH_2__ および __TRILIUM_PH_3__ は、空行の代わりにブロック（段落、リスト項目、引用、テーブルセル、コードブロック）を対象として動作します。見出しの上では、 __TRILIUM_PH_4__ はそのセクションを含めた見出しになります。",
+          "u_a1d521e2cd118f4591abe965_0": "テーブル内では、 __TRILIUM_PH_0__ および __TRILIUM_PH_1__ はセル内に留まり、 __TRILIUM_PH_2__ および __TRILIUM_PH_3__ は列を上下に移動します。",
+          "u_cc5bd162ed85a9c7deb14576_0": "折りたたまれた見出しやリスト項目は、 __TRILIUM_PH_0__ および __TRILIUM_PH_1__にとって1行としてカウントされます。検索もその内部を対象とし、一致するものを含む項目を展開します。",
+          "u_bbba47cc7c1793fe6661b654_0": "レジスタはすべてのテキストノートで共有されますが、コードノートとは共有されません。両者の間でテキストを持ち運ぶには、クリップボードレジスタ __TRILIUM_PH_0__を使用します。",
+          "u_8f7a6bedb892dfea7a4ee4f6_0": "エディタ内で変更されるショートカット__TRILIUM_PH_0__"
+        },
+        "modelVersion": "gemini-3.5-flash-lite",
+        "usage": {
+          "promptTokenCount": 2312,
+          "candidatesTokenCount": 1590,
+          "totalTokenCount": 3902,
+          "promptTokensDetails": [
+            {
+              "modality": "TEXT",
+              "tokenCount": 2312
+            }
+          ],
+          "serviceTier": "standard"
+        }
+      },
+      "unitErrors": {}
     },
     {
       "key": "enVNpi1Njswq_c51b30a8414f93b7",
@@ -5518,7 +6915,42 @@
           "contextHash": "aa8ebec0702ff4e4c1a99c6d29e9a75260c225d5bf54bd794cb2a1ebd3bfb493"
         }
       ],
-      "format": "text-slots-v1"
+      "format": "text-slots-v1",
+      "result": {
+        "key": "enVNpi1Njswq_c51b30a8414f93b7",
+        "translations": {
+          "u_4567b6fcde5853c9a47365fc_0": "VimはTriliumの一部の __TRILIUM_PH_0__Ctrl__TRILIUM_PH_1__ ショートカットを使用します。カーソルがテキストノート内にある場合、コードノートですでにそうなっているのと同様に、Vim側の動作が優先されます。最後の列は、デフォルトである __TRILIUM_PH_2__Vim keys in Insert mode__TRILIUM_PH_3__ 設定が無効な場合の挿入モードを示しています。",
+          "u_1fb04a753c5bba03e4a9a68e_0": "ショートカット",
+          "u_c513d0f58e8d168554919b95_0": "Vimモードなし",
+          "u_9740e8782f92458a0042a976_0": "ノーマルモードおよびビジュアルモード",
+          "u_3295fc580cce5b100b3a766d_0": "挿入モード",
+          "u_9748d7feda7c16c3e40648bc_0": "__TRILIUM_PH_0__Ctrl__TRILIUM_PH_1__+__TRILIUM_PH_2__R__TRILIUM_PH_3__",
+          "u_0e28a0969d0afbe68d20c75f_0": "アプリの再読み込み（__TRILIUM_PH_0__F5__TRILIUM_PH_1__ でも可能）",
+          "u_9062d60b8206634ea23deb48_0": "やり直し (Redo)",
+          "u_d24d373faaddbfdf0e8e9d12_0": "レジスタの内容を挿入する",
+          "u_6a575432f6af1705efe3ad91_0": "__TRILIUM_PH_0__Ctrl__TRILIUM_PH_1__+__TRILIUM_PH_2__O__TRILIUM_PH_3__",
+          "u_22eef3847d8b70140dceab67_0": "現在のノートの後にノートを作成する",
+          "u_e414cf8f9098a934a4766ace_0": "前のジャンプに戻る",
+          "u_dc4bbfeecf10ed8692cbb4a4_0": "ノーマルモードのコマンドを1つ実行する",
+          "u_8d2437097be3721144428ec3_0": "__TRILIUM_PH_0__Ctrl__TRILIUM_PH_1__+__TRILIUM_PH_2__P__TRILIUM_PH_3__",
+          "u_e468e87769b1c9d28dd115f6_0": "子ノートを作成する",
+          "u_4463338cc4c0417c7701152c_0": "行を上に移動する、 __TRILIUM_PH_0__"
+        },
+        "modelVersion": "gemini-3.5-flash-lite",
+        "usage": {
+          "promptTokenCount": 1571,
+          "candidatesTokenCount": 993,
+          "totalTokenCount": 2564,
+          "promptTokensDetails": [
+            {
+              "modality": "TEXT",
+              "tokenCount": 1571
+            }
+          ],
+          "serviceTier": "standard"
+        }
+      },
+      "unitErrors": {}
     },
     {
       "key": "enVNpi1Njswq_c35244f71528f076",
@@ -5653,7 +7085,42 @@
           "contextHash": "aa8ebec0702ff4e4c1a99c6d29e9a75260c225d5bf54bd794cb2a1ebd3bfb493"
         }
       ],
-      "format": "text-slots-v1"
+      "format": "text-slots-v1",
+      "result": {
+        "key": "enVNpi1Njswq_c35244f71528f076",
+        "translations": {
+          "u_79f6dd9b2b190fb54c79771b_0": "なし",
+          "u_1e62a29e26fca8ce77d79467_0": "__TRILIUM_PH_0__Ctrl__TRILIUM_PH_1__+__TRILIUM_PH_2__F__TRILIUM_PH_3__",
+          "u_625049a73ee64088fd158590_0": "ノート内検索（デスクトップアプリ）",
+          "u_229e547feeb4d77dee628b4d_0": "1ページ下にスクロール",
+          "u_4bbc2b2197b3be121018c82f_0": "変更なし",
+          "u_4c4cccd7d4933ed48569fc9e_0": "__TRILIUM_PH_0__Ctrl__TRILIUM_PH_1__+__TRILIUM_PH_2__B__TRILIUM_PH_3__、 __TRILIUM_PH_4__Ctrl__TRILIUM_PH_5__+__TRILIUM_PH_6__I__TRILIUM_PH_7__、 __TRILIUM_PH_8__Ctrl__TRILIUM_PH_9__+__TRILIUM_PH_10__U__TRILIUM_PH_11__",
+          "u_ab29b7008f103164ebe3449d_0": "太字、斜体、下線",
+          "u_0fa5dbb69be3e098e03ffd22_0": "1ページ上にスクロール、次のジャンプへ進む、半ページ上にスクロール",
+          "u_4bbc2b2197b3be121018c82f_1": "変更なし",
+          "u_edad9cc8edf25636c77d8126_0": "__TRILIUM_PH_0__Ctrl__TRILIUM_PH_1__+__TRILIUM_PH_2__A__TRILIUM_PH_3__、 __TRILIUM_PH_4__Ctrl__TRILIUM_PH_5__+__TRILIUM_PH_6__X__TRILIUM_PH_7__",
+          "u_fa439a303fcac153bc6ecbec_0": "すべて選択、切り取り",
+          "u_3273288694e27a12facb1427_0": "カーソル位置の数値を増加、減少させる",
+          "u_4bbc2b2197b3be121018c82f_2": "変更なし",
+          "u_b9c90164016c8cef28bd31b3_0": "__TRILIUM_PH_0__Ctrl__TRILIUM_PH_1__+__TRILIUM_PH_2__Z__TRILIUM_PH_3__、 __TRILIUM_PH_4__Ctrl__TRILIUM_PH_5__+__TRILIUM_PH_6__Shift__TRILIUM_PH_7__+__TRILIUM_PH_8__Z__TRILIUM_PH_9__",
+          "u_944aaeb947d94eb1ab761262_0": "元に戻す、やり直す",
+          "u_068e6e2cb9d4f312b6b8f6c3_0": " __TRILIUM_PH_0__ および __TRILIUM_PH_1__Ctrl__TRILIUM_PH_2__+__TRILIUM_PH_3__R__TRILIUM_PH_4__と同じ"
+        },
+        "modelVersion": "gemini-3.5-flash-lite",
+        "usage": {
+          "promptTokenCount": 1587,
+          "candidatesTokenCount": 1110,
+          "totalTokenCount": 2697,
+          "promptTokensDetails": [
+            {
+              "modality": "TEXT",
+              "tokenCount": 1587
+            }
+          ],
+          "serviceTier": "standard"
+        }
+      },
+      "unitErrors": {}
     },
     {
       "key": "enVNpi1Njswq_7eb491eba1c553b7",
@@ -5788,7 +7255,42 @@
           "contextHash": "aa8ebec0702ff4e4c1a99c6d29e9a75260c225d5bf54bd794cb2a1ebd3bfb493"
         }
       ],
-      "format": "text-slots-v1"
+      "format": "text-slots-v1",
+      "result": {
+        "key": "enVNpi1Njswq_7eb491eba1c553b7",
+        "translations": {
+          "u_4bbc2b2197b3be121018c82f_3": "変更なし",
+          "u_1bc2227d0adf1583b70bf19c_0": "__TRILIUM_PH_0__Ctrl__TRILIUM_PH_1__+__TRILIUM_PH_2__W__TRILIUM_PH_3__",
+          "u_a3faab7bfd9a72ce52502a16_0": "タブを閉じる",
+          "u_79f6dd9b2b190fb54c79771b_1": "なし",
+          "u_7438db71bbb6886f56294469_0": "カーソル前の単語を削除する",
+          "u_c171f72256a5460e72dbee14_0": "__TRILIUM_PH_0__Ctrl__TRILIUM_PH_1__+__TRILIUM_PH_2__T__TRILIUM_PH_3__、 __TRILIUM_PH_4__Ctrl__TRILIUM_PH_5__+__TRILIUM_PH_6__D__TRILIUM_PH_7__",
+          "u_83ef013d5d3f23dd9a049443_0": "新しいタブを開く、なし",
+          "u_5ee119ee1eece381d9f0fee2_0": "変更なし、半ページ下にスクロールする",
+          "u_d4ef6fcf2b05bcd891308f85_0": "インデントする、行のインデントを解除する",
+          "u_e5f1bdfd48f94e578f1a6a59_0": "__TRILIUM_PH_0__Ctrl__TRILIUM_PH_1__+__TRILIUM_PH_2__C__TRILIUM_PH_3__",
+          "u_bb17dc8089177d5bbf474be4_0": "コピーする",
+          "u_1b290ad112060ca5aa02667b_0": "選択範囲をコピーしてビジュアルモードを終了します。何も選択されていない場合は __TRILIUM_PH_0__Esc__TRILIUM_PH_1__と同じです",
+          "u_e18c546de9df35b0eb70c1a5_0": "選択範囲をコピーします。何も選択されていない場合は挿入モードを終了します",
+          "u_2b374e1442947f8fa7e0cf5a_0": "__TRILIUM_PH_0__ と __TRILIUM_PH_1__",
+          "u_cb4936919d3abeb91cb6446a_0": "スラッシュコマンドと絵文字の補完",
+          "u_5e921b10a225c65b6b92765f_0": "検索とコマンドライン"
+        },
+        "modelVersion": "gemini-3.5-flash-lite",
+        "usage": {
+          "promptTokenCount": 1489,
+          "candidatesTokenCount": 957,
+          "totalTokenCount": 2446,
+          "promptTokensDetails": [
+            {
+              "modality": "TEXT",
+              "tokenCount": 1489
+            }
+          ],
+          "serviceTier": "standard"
+        }
+      },
+      "unitErrors": {}
     },
     {
       "key": "enVNpi1Njswq_3b077b79e58cddef",
@@ -5923,7 +7425,42 @@
           "contextHash": "aa8ebec0702ff4e4c1a99c6d29e9a75260c225d5bf54bd794cb2a1ebd3bfb493"
         }
       ],
-      "format": "text-slots-v1"
+      "format": "text-slots-v1",
+      "result": {
+        "key": "enVNpi1Njswq_3b077b79e58cddef",
+        "translations": {
+          "u_4bbc2b2197b3be121018c82f_4": "変更なし",
+          "u_1cfbc4ad648c2c8ef85247cd_0": "挿入モードの __TRILIUM_PH_0__Vimキー__TRILIUM_PH_1__ を有効にすると、入力時にさらに6つのショートカットがVimに従うようになります。通常モードおよびビジュアルモードでは、この設定を変更しても何も変わりません。",
+          "u_1fb04a753c5bba03e4a9a68e_1": "ショートカット",
+          "u_9baa18e543ce21ee599f808a_0": "挿入モード、設定オフ",
+          "u_64ba4b7a80be2eca81286d19_0": "挿入モード、設定オン",
+          "u_0c5dd73877e2917974d57b4e_0": "__TRILIUM_PH_0__Ctrl__TRILIUM_PH_1__+__TRILIUM_PH_2__U__TRILIUM_PH_3__",
+          "u_691488c38fae7d664b866f14_0": "下線",
+          "u_6ed270b5b22f9d900907d23f_0": "カーソル位置から行頭までを削除",
+          "u_b3dfb7029b6fd1ed85816008_0": "__TRILIUM_PH_0__Ctrl__TRILIUM_PH_1__+__TRILIUM_PH_2__E__TRILIUM_PH_3__",
+          "u_79f6dd9b2b190fb54c79771b_2": "なし",
+          "u_65a9f0c3a06a59b8ff763740_0": "カーソル下の文字を挿入",
+          "u_95f9b1291de08afc663dabcd_0": "__TRILIUM_PH_0__Ctrl__TRILIUM_PH_1__+__TRILIUM_PH_2__Y__TRILIUM_PH_3__",
+          "u_9062d60b8206634ea23deb48_1": "やり直す (Redo)",
+          "u_e617372a4fd85ecaa6fb9135_0": "カーソル上の文字を挿入",
+          "u_11cd394113c7260b28e0c7d4_0": "__TRILIUM_PH_0__Ctrl__TRILIUM_PH_1__+__TRILIUM_PH_2__K__TRILIUM_PH_3__",
+          "u_0b9cd35108b557e34075c225_0": "リンクを作成"
+        },
+        "modelVersion": "gemini-3.5-flash-lite",
+        "usage": {
+          "promptTokenCount": 1493,
+          "candidatesTokenCount": 940,
+          "totalTokenCount": 2433,
+          "promptTokensDetails": [
+            {
+              "modality": "TEXT",
+              "tokenCount": 1493
+            }
+          ],
+          "serviceTier": "standard"
+        }
+      },
+      "unitErrors": {}
     },
     {
       "key": "enVNpi1Njswq_7dc8d6e674a0654a",
@@ -6058,7 +7595,42 @@
           "contextHash": "92080208c4799a34a993686d9d9111c1db97406849391a6a6352524934a77179"
         }
       ],
-      "format": "text-slots-v1"
+      "format": "text-slots-v1",
+      "result": {
+        "key": "enVNpi1Njswq_7dc8d6e674a0654a",
+        "translations": {
+          "u_37a1786c566441a599638c9b_0": "2つのキーを入力する文字であるダイグラフを開始します",
+          "u_5a5ace179e4be32f7b0f2ae0_0": "__TRILIUM_PH_0__Ctrl__TRILIUM_PH_1__+__TRILIUM_PH_2__V__TRILIUM_PH_3__",
+          "u_944a522105947f952bf67d72_0": "貼り付け",
+          "u_065fe73d6aaa1865c7bce805_0": "次のキーをそのまま挿入します",
+          "u_17cab9b76ace0d701f00c560_0": "__TRILIUM_PH_0__Ctrl__TRILIUM_PH_1__+__TRILIUM_PH_2__A__TRILIUM_PH_3__",
+          "u_7ca96122bd904cbaac57bdca_0": "すべて選択",
+          "u_aac51b5943a785749b864e37_0": "最後に挿入したテキストをもう一度挿入します",
+          "u_0d1c93f320dd0ac86e069371_0": "設定がオンの状態で貼り付けるには、まず __TRILIUM_PH_0__Esc__TRILIUM_PH_1__ を押します。通常モードおよびビジュアルモードでは、 __TRILIUM_PH_2__Ctrl__TRILIUM_PH_3__+__TRILIUM_PH_4__V__TRILIUM_PH_5__ で常に貼り付けが行われます。",
+          "u_324c1756fbfc2a779c24135d_0": "Alt __TRILIUM_PH_0____TRILIUM_PH_1__、 __TRILIUM_PH_2__Ctrl__TRILIUM_PH_3__+__TRILIUM_PH_4__Shift__TRILIUM_PH_5__ 、または __TRILIUM_PH_6__Ctrl__TRILIUM_PH_7__+__TRILIUM_PH_8__Alt__TRILIUM_PH_9__を使用したショートカット、およびファンクションキーは、上記の __TRILIUM_PH_10__Ctrl__TRILIUM_PH_11__+__TRILIUM_PH_12__Shift__TRILIUM_PH_13__+__TRILIUM_PH_14__Z__TRILIUM_PH_15__ を除き、どのモードでもその機能を維持します。ノートへのリンクを作成するための __TRILIUM_PH_16__Ctrl__TRILIUM_PH_17__+__TRILIUM_PH_18__L__TRILIUM_PH_19__ など、Vimが使用しないショートカットも同様です。リンク用の __TRILIUM_PH_20__Ctrl__TRILIUM_PH_21__+__TRILIUM_PH_22__K__TRILIUM_PH_23__ も同様ですが、上記の設定がオンになっている挿入モードを除きます。",
+          "u_cdb2ab2bd8dfaf452b37e28a_0": "macOSでは、Triliumのショートカットは __TRILIUM_PH_0__⌘__TRILIUM_PH_1__ を使用し、Vimのショートカットは __TRILIUM_PH_2__Ctrl__TRILIUM_PH_3__を使用するため、競合することはありません。 __TRILIUM_PH_4__⌘__TRILIUM_PH_5__+__TRILIUM_PH_6__Z__TRILIUM_PH_7__ および __TRILIUM_PH_8__⌘__TRILIUM_PH_9__+__TRILIUM_PH_10__Shift__TRILIUM_PH_11__+__TRILIUM_PH_12__Z__TRILIUM_PH_13__ で元に戻す（アンドウ）とやり直す（リドゥ）を行います。",
+          "u_4ea34ec605bf5861635f25de_0": "WindowsおよびLinuxのブラウザでは、 __TRILIUM_PH_0__Ctrl__TRILIUM_PH_1__+__TRILIUM_PH_2__W__TRILIUM_PH_3__、 __TRILIUM_PH_4__Ctrl__TRILIUM_PH_5__+__TRILIUM_PH_6__T__TRILIUM_PH_7__ 、および __TRILIUM_PH_8__Ctrl__TRILIUM_PH_9__+__TRILIUM_PH_10__N__TRILIUM_PH_11__ は常にブラウザによって使用されます。",
+          "u_865572a267d4d62e2ab411bb_0": "Escキー__TRILIUM_PH_0__",
+          "u_cd98f950e87ff538fca03ba5_0": "__TRILIUM_PH_0__Esc__TRILIUM_PH_1__ キーを押すと、以下のうち該当する最初の1つのアクションが実行されます。",
+          "u_5f06ef86ba925e148d35733a_0": "コマンドラインや検索プロンプト、リンクバルーンなどのポップアップ、補完リスト、キーのリストなど、開いているものを閉じます。",
+          "u_099ce0028d443d455181dd6f_0": "コマンドの入力途中のキーをキャンセルします。",
+          "u_0c63da8b1361ca2271c8a918_0": "ビジュアルモードまたは挿入モードを終了します。"
+        },
+        "modelVersion": "gemini-3.5-flash-lite",
+        "usage": {
+          "promptTokenCount": 2076,
+          "candidatesTokenCount": 1550,
+          "totalTokenCount": 3626,
+          "promptTokensDetails": [
+            {
+              "modality": "TEXT",
+              "tokenCount": 2076
+            }
+          ],
+          "serviceTier": "standard"
+        }
+      },
+      "unitErrors": {}
     },
     {
       "key": "enVNpi1Njswq_2b67f1deda7d797d",
@@ -6169,7 +7741,39 @@
           "contextHash": "dbd57e8d9d7741d2fc3fbdf9645bbcfbbe1cdabfe9f03c5e6405f795578f89ad"
         }
       ],
-      "format": "text-slots-v1"
+      "format": "text-slots-v1",
+      "result": {
+        "key": "enVNpi1Njswq_2b67f1deda7d797d",
+        "translations": {
+          "u_ffdadfa02d8df1f6c3f8749c_0": "検索のハイライトをクリアします。",
+          "u_54c2b291f6bc2231e527ea44_0": "埋め込みノート内では、それを囲むノートに戻ります。",
+          "u_281d73716c376a7eac7dde3b_0": "キーのヒントが有効な場合、キーのヒントとパンくずリストの間で切り替えます。",
+          "u_8f598c4c9b9845ac82adfeca_0": "そのため、挿入モードでリンクバルーンが開いている場合、1回目の押下でバルーンが閉じ、2回目の押下で挿入モードが終了します。 __TRILIUM_PH_0__Ctrl__TRILIUM_PH_1__+__TRILIUM_PH_2__[__TRILIUM_PH_3__ は __TRILIUM_PH_4__Esc__TRILIUM_PH_5__と同じ動作をします。",
+          "u_2d166eed4e46d147ae179d3f_0": "制限事項__TRILIUM_PH_0__",
+          "u_4696905fe2f8bbaabf6a0dc8_0": "VimモードはVimを模倣するものであり、Vim自体を実行するわけではありません。Vim向けに作成されたプラグインやスクリプトは使用できず、一部のコマンドも欠落しています。詳細については、Vim完全リファレンスの __TRILIUM_PH_0__サポート対象外__TRILIUM_PH_1__ を __TRILIUM_PH_2__参照してください__TRILIUM_PH_3__。",
+          "u_641c093358d3cb88691a8fc1_0": "Vimモードはモバイルレイアウトでは使用できず、読み取り専用のノートにはモードがありません。",
+          "u_cb22296c5b475af44319e076_0": "ビジュアルブロックモードはサポートされていません。 __TRILIUM_PH_0__Ctrl__TRILIUM_PH_1__+__TRILIUM_PH_2__V__TRILIUM_PH_3__ は貼り付けを行います（「挿入モードでのVimキー」が有効な場合の挿入モードを除きます）。 __TRILIUM_PH_4__Vim keys in Insert mode__TRILIUM_PH_5__ が有効です。",
+          "u_f1cc8dc1618d5812807f2b12_0": "検索パターンはVim独自の正規表現ではなくJavaScriptの正規表現であり、一致が複数行にまたがることはできません。",
+          "u_4dd082e1b2f4cd9731c5e856_0": "__TRILIUM_PH_0__ および __TRILIUM_PH_1__ はメッセージを表示するだけです。ノートは入力時に保存されるため、破棄するものはありません。",
+          "u_b056715d5493280169407022_0": "関連項目__TRILIUM_PH_0__",
+          "u_393ae55b44507d44eeccebfb_0": "__TRILIUM_PH_0__Vim初心者ガイド__TRILIUM_PH_1__（モードと最初に覚えるべきキーについて説明しています）。",
+          "u_9a62f45d1ce71a8ae5056bc4_0": "__TRILIUM_PH_0__Vim完全リファレンス__TRILIUM_PH_1__（すべてのキーとコマンドについて記載されています）。"
+        },
+        "modelVersion": "gemini-3.5-flash-lite",
+        "usage": {
+          "promptTokenCount": 1609,
+          "candidatesTokenCount": 1057,
+          "totalTokenCount": 2666,
+          "promptTokensDetails": [
+            {
+              "modality": "TEXT",
+              "tokenCount": 1609
+            }
+          ],
+          "serviceTier": "standard"
+        }
+      },
+      "unitErrors": {}
     },
     {
       "key": "iPIMuisry3hd_e7425dc12c26239d",
@@ -6184,7 +7788,27 @@
           "contextHash": "0348ca8b974d68dfdd4abcfa06df9e01802e71e631c4704bc42b3648220ff052"
         }
       ],
-      "format": "text-slots-v1"
+      "format": "text-slots-v1",
+      "result": {
+        "key": "iPIMuisry3hd_e7425dc12c26239d",
+        "translations": {
+          "u_a1bc8242497d66930cdd99a3_0": "Vimテキストエディタのキーを使用して編集するには、 __TRILIUM_PH_0__Vim モード__TRILIUM_PH_1__を参照してください。"
+        },
+        "modelVersion": "gemini-3.5-flash-lite",
+        "usage": {
+          "promptTokenCount": 488,
+          "candidatesTokenCount": 119,
+          "totalTokenCount": 607,
+          "promptTokensDetails": [
+            {
+              "modality": "TEXT",
+              "tokenCount": 488
+            }
+          ],
+          "serviceTier": "standard"
+        }
+      },
+      "unitErrors": {}
     },
     {
       "key": "6f9hih2hXXZk_93a6a9a03462a7ce",
@@ -6231,7 +7855,31 @@
           "contextHash": "9b6634f03a812f14d8df61c10038cde8d8f12db18190f4f4453e1da9586da520"
         }
       ],
-      "format": "text-slots-v1"
+      "format": "text-slots-v1",
+      "result": {
+        "key": "6f9hih2hXXZk_93a6a9a03462a7ce",
+        "translations": {
+          "u_96bed497e2b925548cbafa8e_0": "Vimキーバインド__TRILIUM_PH_0__",
+          "u_78e4978993ff53d377cf6302_0": "コードノートは、 __TRILIUM_PH_0__Vim__TRILIUM_PH_1__ テキストエディタのキーを模倣したVimスタイルキーバインドで編集できます。有効にするには、 __TRILIUM_PH_2__Options__TRILIUM_PH_3__ → __TRILIUM_PH_4__Code Notes__TRILIUM_PH_5__ → __TRILIUM_PH_6__Editor__TRILIUM_PH_7__ に移動し、 __TRILIUM_PH_8__Vim keybindings__TRILIUM_PH_9__を有効にしてください。このオプションは現在のデバイスにのみ適用されます。",
+          "u_1ed34ad55ec337d263c960d3_0": "Vimが初めての場合は、 __TRILIUM_PH_0__Vim初心者ガイド__TRILIUM_PH_1__から始めてください。",
+          "u_3ff860bc98e1eaa9d839875d_0": "キーとコマンドについては、 __TRILIUM_PH_0__Vim完全リファレンス__TRILIUM_PH_1__を参照してください。「 __TRILIUM_PH_2__Text notes only__TRILIUM_PH_3__ 」とマークされている行はコードノートには適用されません。",
+          "u_a598888faabd42844957eaac_0": "テキストノートには独自のオプションと設定を持つ独自のVimモードがあります。 __TRILIUM_PH_0__Vim mode__TRILIUM_PH_1__を参照してください。"
+        },
+        "modelVersion": "gemini-3.5-flash-lite",
+        "usage": {
+          "promptTokenCount": 962,
+          "candidatesTokenCount": 529,
+          "totalTokenCount": 1491,
+          "promptTokensDetails": [
+            {
+              "modality": "TEXT",
+              "tokenCount": 962
+            }
+          ],
+          "serviceTier": "standard"
+        }
+      },
+      "unitErrors": {}
     },
     {
       "key": "KG48zgNY31NW_0fbd828c0cf34ad6",
@@ -6246,7 +7894,27 @@
           "contextHash": "90176f447878c483f6fc7e412bb7010a9f9e09eb631447bf6b6834550dac609e"
         }
       ],
-      "format": "text-slots-v1"
+      "format": "text-slots-v1",
+      "result": {
+        "key": "KG48zgNY31NW_0fbd828c0cf34ad6",
+        "translations": {
+          "u_52260cf12ab4a024deab717c_0": "サーバーの応答性を維持するため、20 MBを超えるドキュメントはプレビューされません。ドキュメントが大きすぎてプレビューできない旨のメッセージが表示されますが、通常のダウンロードおよび開く操作は引き続き利用できます。"
+        },
+        "modelVersion": "gemini-3.5-flash-lite",
+        "usage": {
+          "promptTokenCount": 521,
+          "candidatesTokenCount": 128,
+          "totalTokenCount": 649,
+          "promptTokensDetails": [
+            {
+              "modality": "TEXT",
+              "tokenCount": 521
+            }
+          ],
+          "serviceTier": "standard"
+        }
+      },
+      "unitErrors": {}
     },
     {
       "key": "6RM1Q7ppFVoj_17c19c50cf904633",
@@ -6325,7 +7993,35 @@
           "contextHash": "d9656410dd1e692872fdd5f85ba847d4fe8e71677a8280e3691460184ec26a7d"
         }
       ],
-      "format": "text-slots-v1"
+      "format": "text-slots-v1",
+      "result": {
+        "key": "6RM1Q7ppFVoj_17c19c50cf904633",
+        "translations": {
+          "u_8a4ed751929a2bae456794cf_0": "アサイドブロック（__TRILIUM_PH_0__アサイドブロック__TRILIUM_PH_1__ ）は、右側にグレーのボックスとしてコンテンツを配置し、メインテキストはその周囲に回り込みます（その他の配置や色については、 __TRILIUM_PH_2__サポートされている構文__TRILIUM_PH_3__を参照してください）。Markdownとして読み込まれるコンテンツの周囲に空行を挟み、 __TRILIUM_PH_4__ タグを独自の行に記述してください：",
+          "u_2a99c940768b25a1a6a58575_0": "v0.108.0以降では、 __TRILIUM_PH_0__参照リンク__TRILIUM_PH_1__ をテキスト __TRILIUM_PH_2__ノート__TRILIUM_PH_3__ の __TRILIUM_PH_4__見出し__TRILIUM_PH_5__ または __TRILIUM_PH_6__アンカー__TRILIUM_PH_7__ に対して設定でき、ノートのタイトルの後に見出しやアンカーが表示されます。「リンクを追加」ダイアログおよび __TRILIUM_PH_8__リンクを追加__TRILIUM_PH_9__ ダイアログと __TRILIUM_PH_10__ リストでは、ノートIDの後にターゲットを指定してリンクが書き込まれます：",
+          "u_6bdc566bc98531f7baaab5de_0": "アサイドブロック（ __TRILIUM_PH_0__アサイドブロック__TRILIUM_PH_1__ __TRILIUM_PH_2__）を挿入します。これは、テキストの回り込みを伴うグレーのボックスを右側に配置するものです。",
+          "u_60fc61a86ff5738433a95c79_0": "v0.108.0以降、ノートは選択されるとすぐにリンクされます。リンクの後には¶が続き、ノート内のどこにリンクを指すことができるかがリストに表示されます。 __TRILIUM_PH_0__ノート全体、その見出し、およびそのアンカーへのリンク__TRILIUM_PH_1__。",
+          "u_7d236a450149603de26fd270_0": "リンクを見出しやアンカーに向けるには、¶の後にその名前の一部を入力し、 __TRILIUM_PH_0__Enter__TRILIUM_PH_1__ または __TRILIUM_PH_2__Tab__TRILIUM_PH_3__を押します。これにより、リンクはノートIDの後にターゲットを持つようになります（ __TRILIUM_PH_4__など）。",
+          "u_2dac6abb898e404104446117_0": "ノート全体へのリンクを維持するには、 __TRILIUM_PH_0__Enter__TRILIUM_PH_1__ を __TRILIUM_PH_2__ノート全体へのリンク__TRILIUM_PH_3__上で押すか、 __TRILIUM_PH_4__Esc__TRILIUM_PH_5__を押します。¶のすぐ後ろで __TRILIUM_PH_6__Backspace__TRILIUM_PH_7__ を押すかスペースを入力しても同様です。",
+          "u_84b9ce8b16733bd9bca662ab_0": "¶はノートの一部ではありません。見出しやアンカーが選択されない限り、その後にに入力されたテキストはそのまま残ります。",
+          "u_0f467baf87075dfa40f80ced_0": "リンク先の見出しやアンカーを持つのは __TRILIUM_PH_0__テキスト__TRILIUM_PH_1__ ノートのみです。リストから作成されたノートはこの手順なしでリンクされます。すべてのノートでこれをスキップするには、「オプション」→「テキストノート」→「機能」の「 __TRILIUM_PH_2__リンク先の見出しとアンカーを提案する__TRILIUM_PH_3__ 」を __TRILIUM_PH_4__ノートの自動補完__TRILIUM_PH_5__ 設定（ __TRILIUM_PH_6__オプション__TRILIUM_PH_7__ → __TRILIUM_PH_8__テキストノート__TRILIUM_PH_9__ → __TRILIUM_PH_10__機能__TRILIUM_PH_11__）でオフにしてください。",
+          "u_1b6abb6d5184439bfa0bc491_0": "エディター内では、 __TRILIUM_PH_0__ リンクはノートのアイコンとタイトルとして表示され、その後に指し示している見出しやアンカーが続くため、IDを調べなくてもどのノートを指しているかがわかります。それをクリックするか、カーソルをその隣に移動すると、編集できるように記述された状態のリンクが表示されます。コードブロックやインラインコード内のリンクはそのまま残されます。"
+        },
+        "modelVersion": "gemini-3.5-flash-lite",
+        "usage": {
+          "promptTokenCount": 1917,
+          "candidatesTokenCount": 1283,
+          "totalTokenCount": 3200,
+          "promptTokensDetails": [
+            {
+              "modality": "TEXT",
+              "tokenCount": 1917
+            }
+          ],
+          "serviceTier": "standard"
+        }
+      },
+      "unitErrors": {}
     },
     {
       "key": "WN5z4M8ASACJ_a54490f037afdba8",
@@ -6388,7 +8084,33 @@
           "contextHash": "0c17fbd88ee50ff22c8495f28b697397cf3a4805fb76fb4e5611805b0543077f"
         }
       ],
-      "format": "text-slots-v1"
+      "format": "text-slots-v1",
+      "result": {
+        "key": "WN5z4M8ASACJ_a54490f037afdba8",
+        "translations": {
+          "u_c462407b1e73ccc6cb1a7b6b_0": "背景および透明化効果（Micaとビブラシー）__TRILIUM_PH_0__",
+          "u_2701753db08486b63aae58e9_0": "デスクトップアプリで背景効果が有効になっている場合、Triliumはウィンドウの背面に半透明の背景を描画します。Windows 11ではMica（水平レイアウトではその __TRILIUM_PH_0__ バリエーション）、macOSではビブラシーが適用されます。Triliumは背景を自動的に選択し、Nextテーマおよびそれをベースにしたカスタムテーマにのみ __TRILIUM_PH_1__ を通じて適用します（ __TRILIUM_PH_2__Nextテーマのカスタマイズ__TRILIUM_PH_3__を参照）。その他のテーマには背景は適用されません。",
+          "u_8bbc908db5e1378c529bfa17_0": "背景は、テーマによってページが（半）透明になっている部分でのみ表示されます。参考としてNextテーマをご活用ください。",
+          "u_5282e9392b7b9fb8bd4502fc_0": "テキストノート内で適用された色（フォントの色や背景色のボタンからの適用（ __TRILIUM_PH_0__一般的な書式設定__TRILIUM_PH_1__を参照）、表やセルのプロパティからの適用（ __TRILIUM_PH_2__テーブル__TRILIUM_PH_3__を参照）、またはアサイドブロックへの適用（ __TRILIUM_PH_4__アサイドブロック__TRILIUM_PH_5__を参照））は、テーマに適した色合いで表示されます。色相は維持され、明度と彩度は一定の制限内に保たれます。テーマによっては、ページ背景が組み込みテーマのものよりも非常に暗い場合や明るい場合などに、これらの制限を変更することができます。",
+          "u_fdef2b209077ab49f45ae201_0": "役割は __TRILIUM_PH_0__ （フォントの色）、 __TRILIUM_PH_1__ （フォントの背景色）、 __TRILIUM_PH_2__ または __TRILIUM_PH_3__ （表とセル）、あるいは __TRILIUM_PH_4__ （アサイドブロック）です。",
+          "u_0a21de8c93afbce9b0583aa8_8": "__TRILIUM_PH_0__、 __TRILIUM_PH_1__",
+          "u_0a21de8c93afbce9b0583aa8_9": "__TRILIUM_PH_0__、 __TRILIUM_PH_1__"
+        },
+        "modelVersion": "gemini-3.5-flash-lite",
+        "usage": {
+          "promptTokenCount": 1338,
+          "candidatesTokenCount": 749,
+          "totalTokenCount": 2087,
+          "promptTokensDetails": [
+            {
+              "modality": "TEXT",
+              "tokenCount": 1338
+            }
+          ],
+          "serviceTier": "standard"
+        }
+      },
+      "unitErrors": {}
     },
     {
       "key": "z8O2VG4ZZJD7_7a236324bdaca6de",
@@ -6523,7 +8245,42 @@
           "contextHash": "ba427b2e8ba42dcc7ed936524e7a8e50d3a7c255c4b88bfbd296c63334ca880f"
         }
       ],
-      "format": "text-slots-v1"
+      "format": "text-slots-v1",
+      "result": {
+        "key": "z8O2VG4ZZJD7_7a236324bdaca6de",
+        "translations": {
+          "u_42fa7a0d463f20c326296137_0": "400: 同期バージョンまたはドキュメントシークレットが一致しません",
+          "u_4da48320b40de55a6d2c74af_0": "401: タイムスタンプが一致しません",
+          "u_fce2db9b2a4e4ab5be3b7879_0": "__TRILIUM_PH_0____TRILIUM_PH_1____TRILIUM_PH_2__  __TRILIUM_PH_3__の __TRILIUM_PH_4__結果",
+          "u_fce2db9b2a4e4ab5be3b7879_1": "__TRILIUM_PH_0____TRILIUM_PH_1____TRILIUM_PH_2__  __TRILIUM_PH_3__の __TRILIUM_PH_4__結果",
+          "u_eb48f4f4ecf24a0f8dac1de2_0": "__TRILIUM_PH_0__  __TRILIUM_PH_1__タスクグループ識別子",
+          "u_94c7c4a071d95790c671b36a_0": "__TRILIUM_PH_0__  __TRILIUM_PH_1__これがこのタスクグループの最後のリクエストかどうか",
+          "u_f8418b5747304c63ec7f2247_0": "__TRILIUM_PH_0__  __TRILIUM_PH_1____TRILIUM_PH_2__ テキストではない場合。",
+          "u_fce2db9b2a4e4ab5be3b7879_2": "__TRILIUM_PH_0____TRILIUM_PH_1____TRILIUM_PH_2__  __TRILIUM_PH_3__の __TRILIUM_PH_4__結果",
+          "u_fce2db9b2a4e4ab5be3b7879_3": "__TRILIUM_PH_0____TRILIUM_PH_1____TRILIUM_PH_2__  __TRILIUM_PH_3__の __TRILIUM_PH_4__結果",
+          "u_fce2db9b2a4e4ab5be3b7879_4": "__TRILIUM_PH_0____TRILIUM_PH_1____TRILIUM_PH_2__  __TRILIUM_PH_3__の __TRILIUM_PH_4__結果",
+          "u_7247495f41b760da1aaeb189_0": "テキストノートのブロックを取得する__TRILIUM_PH_0__",
+          "u_5a21c4efc039321da63461a2_0": "テキストノートのブロックのうち、 __TRILIUM_PH_0__ が指し示すものを、正確な HTML ソースとして取得します。これにより、抜粋部分をノートの残りの部分とは別に編集できるようになります。範囲は、連続する完全な兄弟ブロックである必要があります。リスト項目の連続は、ノート内と同じように番号が振られた、そのリストのコピー内に含まれます。",
+          "u_da3badd63afe76d21dce4962_0": "__TRILIUM_PH_0__  __TRILIUM_PH_1__1 つのブロックのブロック ID、または範囲の最初と最後のブロックの ID を __TRILIUM_PH_2__で結合したもの",
+          "u_449fc7193e7ce379290a51d7_0": "200: ブロックの HTML",
+          "u_9ecb851be539517662330f1c_0": "400: __TRILIUM_PH_0__ パラメータがない、テキストノートではないノート、または保護されたセッションがない保護されたノート",
+          "u_40cdd03681008b3fbfbd1efb_0": "404: ノートまたは範囲内のブロックが存在しないか、範囲が連続する完全な兄弟ブロックではありません"
+        },
+        "modelVersion": "gemini-3.5-flash-lite",
+        "usage": {
+          "promptTokenCount": 1769,
+          "candidatesTokenCount": 1182,
+          "totalTokenCount": 2951,
+          "promptTokensDetails": [
+            {
+              "modality": "TEXT",
+              "tokenCount": 1769
+            }
+          ],
+          "serviceTier": "standard"
+        }
+      },
+      "unitErrors": {}
     },
     {
       "key": "z8O2VG4ZZJD7_4013ff11cf2f91cc",
@@ -6658,7 +8415,42 @@
           "contextHash": "04f4371c8e93da1cbeab70c0ff5339965522e87668c7e86f83a7ae90b2cab104"
         }
       ],
-      "format": "text-slots-v1"
+      "format": "text-slots-v1",
+      "result": {
+        "key": "z8O2VG4ZZJD7_4013ff11cf2f91cc",
+        "translations": {
+          "u_232cb7361fe41a7050f713fc_0": "テキストノートのブロックを置換する__TRILIUM_PH_0__",
+          "u_cf3db839247a7ca6ef7d3044_0": "が指すブロックを __TRILIUM_PH_0__ で置換し、必要に応じてリビジョンを作成しながら、 __TRILIUM_PH_1__ と同様にノートを保存します。ノートの残りの部分はバイトデータを維持します。範囲外にある、ノートが保持している __TRILIUM_PH_2__ 内のブロックIDは削除されます。リスト項目の連続に対して、 __TRILIUM_PH_3__ がリストである場合：そのタグと __TRILIUM_PH_4__ が元のリストと一致する場合、その項目がその連続を置換し、その他の属性がリスト全体に適用されます。そうでない場合、元のリストは __TRILIUM_PH_5__ の前後で分割されます。 __TRILIUM_PH_6__ __TRILIUM_PH_7__ は変更前にノートに格納されている時点の範囲です。エッジのブロックが変更されると、後続のリクエストでは新しい範囲が使用されます。",
+          "u_da3badd63afe76d21dce4962_1": "__TRILIUM_PH_0__  __TRILIUM_PH_1__1つのブロックのブロックID、または __TRILIUM_PH_2__で結合された範囲の最初と最後のブロックのID。",
+          "u_1b2f1ede827c003384466e52_0": "__TRILIUM_PH_0__  __TRILIUM_PH_1__ブロックのHTML",
+          "u_c043c1e6a3e125ed7d44f7c3_0": "204: ブロックが置換されました",
+          "u_e3bfadd639ec28d29e35b810_0": "400: __TRILIUM_PH_0__ パラメータがない、 __TRILIUM_PH_1__がない、テキストノートではないノート、または保護セッションのない保護されたノートです",
+          "u_40cdd03681008b3fbfbd1efb_1": "404: ノートまたは範囲のブロックが存在しないか、範囲が兄弟ブロック全体の連続ではありません",
+          "u_0638e27e785f9d57a7177b03_0": "リンクが指すことができるノート内の場所を一覧表示する__TRILIUM_PH_0__",
+          "u_87fda1c528256c37fb841e43_0": "テキストノートの見出しやアンカーなど、ノートのターゲットを、リンク一覧に表示される順序で、同じ種類のターゲットごとにまとめて一覧表示します。リンクは、ノートのパスに __TRILIUM_PH_0__ とブロックID（テキストノートの見出しの場合）、または __TRILIUM_PH_1__ （アンカーの場合）を追加することで、ターゲットを指します。 __TRILIUM_PH_2__のないターゲットは、まず参照が必要であり、それを __TRILIUM_PH_3__ が作成します。このようなターゲットは、ノートがそれを取得できる場合にのみ一覧表示されます。タイトルはプレーンテキストであり、HTMLではありません。ターゲットを持たないタイプのノートは、何も一覧表示しません。 __TRILIUM_PH_4__ ",
+          "u_a767f8631a2828d1e57b5b32_0": "200: ノートのターゲット",
+          "u_87e0056b25486499654cc111_0": "400: 保護セッションのない保護されたノート",
+          "u_6498842585a93caa3313e6f7_0": "ターゲットに参照を付与する__TRILIUM_PH_0__",
+          "u_8af32e8c5e548a3e61319227_0": "が __TRILIUM_PH_0__ なしで一覧表示するターゲットに、まだ持っていない場合は参照を付与し、それを指すリンクパラメータを返します。ターゲットは、 __TRILIUM_PH_1__ にある __TRILIUM_PH_2__ のターゲットのうち、そのタイトルがまだ __TRILIUM_PH_3__ であるものです。そうでない場合は、そのタイトルを持つその種類の唯一のターゲットです。テキストノートの見出しの場合、参照はブロックIDになります。読み取り専用ノートにも参照が付与されます。これはコンテンツに対する唯一の変更であり、リビジョンは保存されません。 __TRILIUM_PH_4__",
+          "u_1576bdac7666452a32118d5d_0": "__TRILIUM_PH_0____TRILIUM_PH_1____TRILIUM_PH_2__  __TRILIUM_PH_3__リンク一覧での表示方法を設定するターゲットの種類。 __TRILIUM_PH_4__、 __TRILIUM_PH_5__のいずれか。",
+          "u_a12848bec8970797b5a5d8ec_0": "__TRILIUM_PH_0__  __TRILIUM_PH_1__同じ種類のターゲットの中での、そのターゲットの位置",
+          "u_100dd9932346712802abefbd_0": "__TRILIUM_PH_0__  __TRILIUM_PH_1__その位置にあるターゲットのタイトル"
+        },
+        "modelVersion": "gemini-3.5-flash-lite",
+        "usage": {
+          "promptTokenCount": 2434,
+          "candidatesTokenCount": 1489,
+          "totalTokenCount": 3923,
+          "promptTokensDetails": [
+            {
+              "modality": "TEXT",
+              "tokenCount": 2434
+            }
+          ],
+          "serviceTier": "standard"
+        }
+      },
+      "unitErrors": {}
     },
     {
       "key": "z8O2VG4ZZJD7_4d521b4ee1c30e75",
@@ -6793,7 +8585,42 @@
           "contextHash": "8254cb208ef5e583ce66b768833f605a8c81b2c31659ec1eaf9a414953001711"
         }
       ],
-      "format": "text-slots-v1"
+      "format": "text-slots-v1",
+      "result": {
+        "key": "z8O2VG4ZZJD7_4d521b4ee1c30e75",
+        "translations": {
+          "u_81ab94aebe06248614829143_0": "200: ターゲットのリンクパラメータ",
+          "u_9369b2c9ef3e28a7bd49505f_0": "__TRILIUM_PH_0____TRILIUM_PH_1____TRILIUM_PH_2__  __TRILIUM_PH_3__エンコードされていない、ターゲットを指すリンクのパラメータ",
+          "u_7fd5e9db6d44c8eb38fdd036_0": "400: 不正なリクエスト、参照を持たないターゲットのノート、保護されたセッションのない保護されたノート、またはヘルプページなどコンテンツを変更できないノート",
+          "u_94b4eaca65418800d7b498ef_0": "409: リストされてからターゲットが変更されたため、一致するターゲットがありません",
+          "u_95ec214f784bde79f68bc2f6_9": "404: ノートが見つかりません",
+          "u_95ec214f784bde79f68bc2f6_10": "404: ノートが見つかりません",
+          "u_fce2db9b2a4e4ab5be3b7879_5": "__TRILIUM_PH_0____TRILIUM_PH_1____TRILIUM_PH_2__  __TRILIUM_PH_3__の __TRILIUM_PH_4__結果",
+          "u_fce2db9b2a4e4ab5be3b7879_6": "__TRILIUM_PH_0____TRILIUM_PH_1____TRILIUM_PH_2__  __TRILIUM_PH_3__の __TRILIUM_PH_4__結果",
+          "u_fce2db9b2a4e4ab5be3b7879_7": "__TRILIUM_PH_0____TRILIUM_PH_1____TRILIUM_PH_2__  __TRILIUM_PH_3__の __TRILIUM_PH_4__結果",
+          "u_fce2db9b2a4e4ab5be3b7879_8": "__TRILIUM_PH_0____TRILIUM_PH_1____TRILIUM_PH_2__  __TRILIUM_PH_3__の __TRILIUM_PH_4__結果",
+          "u_fac8ca04bea78b31524fad66_0": "複数のノートのタイムスタンプを一度に取得する__TRILIUM_PH_0__",
+          "u_f4c8dca08cfd0d8219338462_0": "200: 見つかった各ノートのタイムスタンプ（ノートIDをキーとする）",
+          "u_eb48f4f4ecf24a0f8dac1de2_1": "__TRILIUM_PH_0__  __TRILIUM_PH_1__タスクグループ識別子",
+          "u_94c7c4a071d95790c671b36a_1": "__TRILIUM_PH_0__  __TRILIUM_PH_1__これがこのタスクグループの最後のリクエストかどうか",
+          "u_648a1e87964ed47fb5d4a79e_0": "__TRILIUM_PH_0__  __TRILIUM_PH_1__最後のノートのクローンが削除されたかどうか",
+          "u_fce2db9b2a4e4ab5be3b7879_9": "__TRILIUM_PH_0____TRILIUM_PH_1____TRILIUM_PH_2__  __TRILIUM_PH_3__の __TRILIUM_PH_4__結果"
+        },
+        "modelVersion": "gemini-3.5-flash-lite",
+        "usage": {
+          "promptTokenCount": 1663,
+          "candidatesTokenCount": 1117,
+          "totalTokenCount": 2780,
+          "promptTokensDetails": [
+            {
+              "modality": "TEXT",
+              "tokenCount": 1663
+            }
+          ],
+          "serviceTier": "standard"
+        }
+      },
+      "unitErrors": {}
     },
     {
       "key": "z8O2VG4ZZJD7_0f37dd53a7636cb7",
@@ -6928,7 +8755,42 @@
           "contextHash": "03ea3ca321073110d66b5c0b2d1d38c9b7e456048f7c3d86d41d330ac167d3ce"
         }
       ],
-      "format": "text-slots-v1"
+      "format": "text-slots-v1",
+      "result": {
+        "key": "z8O2VG4ZZJD7_0f37dd53a7636cb7",
+        "translations": {
+          "u_fce2db9b2a4e4ab5be3b7879_10": "__TRILIUM_PH_0____TRILIUM_PH_1____TRILIUM_PH_2__  __TRILIUM_PH_3__の __TRILIUM_PH_4__結果",
+          "u_fce2db9b2a4e4ab5be3b7879_11": "__TRILIUM_PH_0____TRILIUM_PH_1____TRILIUM_PH_2__  __TRILIUM_PH_3__の __TRILIUM_PH_4__結果",
+          "u_fce2db9b2a4e4ab5be3b7879_12": "__TRILIUM_PH_0____TRILIUM_PH_1____TRILIUM_PH_2__  __TRILIUM_PH_3__の __TRILIUM_PH_4__結果",
+          "u_fce2db9b2a4e4ab5be3b7879_13": "__TRILIUM_PH_0____TRILIUM_PH_1____TRILIUM_PH_2__  __TRILIUM_PH_3__の __TRILIUM_PH_4__結果",
+          "u_fce2db9b2a4e4ab5be3b7879_14": "__TRILIUM_PH_0____TRILIUM_PH_1____TRILIUM_PH_2__  __TRILIUM_PH_3__の __TRILIUM_PH_4__結果",
+          "u_fce2db9b2a4e4ab5be3b7879_15": "__TRILIUM_PH_0____TRILIUM_PH_1____TRILIUM_PH_2__  __TRILIUM_PH_3__の __TRILIUM_PH_4__結果",
+          "u_fce2db9b2a4e4ab5be3b7879_16": "__TRILIUM_PH_0____TRILIUM_PH_1____TRILIUM_PH_2__  __TRILIUM_PH_3__の __TRILIUM_PH_4__結果",
+          "u_fce2db9b2a4e4ab5be3b7879_17": "__TRILIUM_PH_0____TRILIUM_PH_1____TRILIUM_PH_2__  __TRILIUM_PH_3__の __TRILIUM_PH_4__結果",
+          "u_e4d5ec26d1f772b317141e3e_0": "__TRILIUM_PH_0__ OCR__TRILIUM_PH_1__",
+          "u_1da6a70aca1f56e70efd5daf_0": "テキスト認識",
+          "u_6c0d0a2bf3f7a09cd22d54a3_0": "特定のノートに対する OCR 処理の実行__TRILIUM_PH_0__",
+          "u_1b8f931d1b59edcd1dac63bb_1": "__TRILIUM_PH_0__リクエストボディ__TRILIUM_PH_1__",
+          "u_6ea189c838ab9f209c4cc467_0": "__TRILIUM_PH_0__  __TRILIUM_PH_1__使用する Tesseract の言語コード（例: 'eng'、'fra'、'deu'、'eng+fra'）。省略した場合、言語はノートの言語ラベル、有効化されたコンテンツ言語、または UI のロケールから自動的に解決されます。",
+          "u_3cda12d3d351dcceafcac8ad_0": "__TRILIUM_PH_0__  __TRILIUM_PH_1__すでに OCR が存在する場合でも強制的に再処理を行う",
+          "u_16f988828a57b735fde42a29_0": "200: OCR 処理が正常に完了しました",
+          "u_8fe5cb3df9a1f0da00b78e1d_0": "400: 不正なリクエスト - サポートされていないファイル形式です"
+        },
+        "modelVersion": "gemini-3.5-flash-lite",
+        "usage": {
+          "promptTokenCount": 1621,
+          "candidatesTokenCount": 1179,
+          "totalTokenCount": 2800,
+          "promptTokensDetails": [
+            {
+              "modality": "TEXT",
+              "tokenCount": 1621
+            }
+          ],
+          "serviceTier": "standard"
+        }
+      },
+      "unitErrors": {}
     },
     {
       "key": "z8O2VG4ZZJD7_aed688722b2b658c",
@@ -7063,7 +8925,42 @@
           "contextHash": "dfb1a5cb26b0c8ff2aff6fcab6cc53490b3eae033f0505b361995607c3d2714d"
         }
       ],
-      "format": "text-slots-v1"
+      "format": "text-slots-v1",
+      "result": {
+        "key": "z8O2VG4ZZJD7_aed688722b2b658c",
+        "translations": {
+          "u_95ec214f784bde79f68bc2f6_11": "404: ノートが見つかりません",
+          "u_5c9a4fb929830623f9ac2966_0": "500: 内部サーバーエラー",
+          "u_bd947b82421b45dbfcd0add7_0": "特定のアタッチメントに対するOCR処理を実行する__TRILIUM_PH_0__",
+          "u_45cacce568b528bc8203d968_0": "__TRILIUM_PH_0__  __TRILIUM_PH_1__処理するアタッチメントのID",
+          "u_1b8f931d1b59edcd1dac63bb_2": "__TRILIUM_PH_0__リクエストボディ__TRILIUM_PH_1__",
+          "u_a350dea959063b9bf447aee5_0": "__TRILIUM_PH_0__  __TRILIUM_PH_1__使用するTesseractの言語コード（例：'eng', 'fra', 'deu', 'eng+fra'）。省略した場合、言語はオーナーノートの言語ラベル、有効なコンテンツ言語、またはUIロケールから自動的に解決されます。",
+          "u_3cda12d3d351dcceafcac8ad_1": "__TRILIUM_PH_0__  __TRILIUM_PH_1__OCRがすでに存在する場合でも強制的に再処理を行う",
+          "u_16f988828a57b735fde42a29_1": "200: OCR処理が正常に完了しました",
+          "u_8fe5cb3df9a1f0da00b78e1d_1": "400: 不正なリクエスト - サポートされていないファイル形式です",
+          "u_e18b3ffc74d5a8f9d2754032_0": "404: アタッチメントが見つかりません",
+          "u_5c9a4fb929830623f9ac2966_1": "500: 内部サーバーエラー",
+          "u_9d7cb1b42cce689f8f8ffc35_0": "OCR結果が存在しないすべての画像に対してOCR処理を実行する__TRILIUM_PH_0__",
+          "u_36660c6f325406e3f58607f0_0": "200: バッチ処理が正常に開始されました",
+          "u_7bbd09b5f8b7595ecc4dcb18_0": "400: 不正なリクエスト - OCRが無効であるか、すでに処理中です",
+          "u_5c9a4fb929830623f9ac2966_2": "500: 内部サーバーエラー",
+          "u_d43dce0ee7aa86f9524ab921_0": "バッチOCR処理の進捗状況を取得する__TRILIUM_PH_0__"
+        },
+        "modelVersion": "gemini-3.5-flash-lite",
+        "usage": {
+          "promptTokenCount": 1651,
+          "candidatesTokenCount": 982,
+          "totalTokenCount": 2633,
+          "promptTokensDetails": [
+            {
+              "modality": "TEXT",
+              "tokenCount": 1651
+            }
+          ],
+          "serviceTier": "standard"
+        }
+      },
+      "unitErrors": {}
     },
     {
       "key": "z8O2VG4ZZJD7_04767b79c465ec72",
@@ -7198,7 +9095,42 @@
           "contextHash": "9df8d59f08346590295c1d239ab4149d34c65921a7a80d218347af19114be3e1"
         }
       ],
-      "format": "text-slots-v1"
+      "format": "text-slots-v1",
+      "result": {
+        "key": "z8O2VG4ZZJD7_04767b79c465ec72",
+        "translations": {
+          "u_5ac488bb8e9605bd78831650_0": "200: バッチ処理の進捗情報",
+          "u_5c9a4fb929830623f9ac2966_3": "500: 内部サーバーエラー",
+          "u_6fb4599b6d3ff43f58a7f4dc_0": "__TRILIUM_PH_0__  __TRILIUM_PH_1__設定されている場合、コンテンツがこのバイト数を超えるBLOB行は空のコンテンツで返されます。entity_changeのメタデータ（ハッシュを含む）は影響を受けません。",
+          "u_936b2e71d4916ac051c0b6ee_9": " __TRILIUM_PH_0__の__TRILIUM_PH_1__配列__TRILIUM_PH_2__",
+          "u_b4faa01942f0ca368333d1e7_0": "__TRILIUM_PH_0__  __TRILIUM_PH_1__もし __TRILIUM_PH_2__が存在する場合、続行するにはこれを次のリクエストのパラメータとして渡してください。",
+          "u_b1c5fd6834754fe41649b273_0": "__TRILIUM_PH_0__  __TRILIUM_PH_1__リモートからまだ返されていない変更の数。",
+          "u_c4751132b53682073f520a08_0": "基本使用法: __TRILIUM_PH_0__、 __TRILIUM_PH_1__を設定し、 __TRILIUM_PH_2__を省略します。リクエストボディにエンティティの変更を指定してください。",
+          "u_936b2e71d4916ac051c0b6ee_10": " __TRILIUM_PH_0__の__TRILIUM_PH_1__配列__TRILIUM_PH_2__",
+          "u_044b66b3312ba4f162a9b95e_78": "コンテンツはありません。",
+          "u_044b66b3312ba4f162a9b95e_79": "コンテンツはありません。",
+          "u_044b66b3312ba4f162a9b95e_80": "コンテンツはありません。",
+          "u_044b66b3312ba4f162a9b95e_81": "コンテンツはありません。",
+          "u_044b66b3312ba4f162a9b95e_82": "コンテンツはありません。",
+          "u_044b66b3312ba4f162a9b95e_83": "コンテンツはありません。",
+          "u_044b66b3312ba4f162a9b95e_84": "コンテンツはありません。",
+          "u_8f038e57308f92d4b500f83d_0": "__TRILIUM_PH_0__  __TRILIUM_PH_1__ __TRILIUM_PH_2__ 、または __TRILIUM_PH_3__のいずれか。"
+        },
+        "modelVersion": "gemini-3.5-flash-lite",
+        "usage": {
+          "promptTokenCount": 1564,
+          "candidatesTokenCount": 1006,
+          "totalTokenCount": 2570,
+          "promptTokensDetails": [
+            {
+              "modality": "TEXT",
+              "tokenCount": 1564
+            }
+          ],
+          "serviceTier": "standard"
+        }
+      },
+      "unitErrors": {}
     },
     {
       "key": "z8O2VG4ZZJD7_f8978434432a3a9f",
@@ -7333,7 +9265,42 @@
           "contextHash": "e2d2eecc79a9cff69e896f7b276e07d7758ba0729f365be585afa62afffdff9c"
         }
       ],
-      "format": "text-slots-v1"
+      "format": "text-slots-v1",
+      "result": {
+        "key": "z8O2VG4ZZJD7_f8978434432a3a9f",
+        "translations": {
+          "u_044b66b3312ba4f162a9b95e_85": "コンテンツはありません。",
+          "u_044b66b3312ba4f162a9b95e_86": "コンテンツはありません。",
+          "u_044b66b3312ba4f162a9b95e_87": "コンテンツはありません。",
+          "u_044b66b3312ba4f162a9b95e_88": "コンテンツはありません。",
+          "u_044b66b3312ba4f162a9b95e_89": "コンテンツはありません。",
+          "u_044b66b3312ba4f162a9b95e_90": "コンテンツはありません。",
+          "u_044b66b3312ba4f162a9b95e_91": "コンテンツはありません。",
+          "u_044b66b3312ba4f162a9b95e_92": "コンテンツはありません。",
+          "u_044b66b3312ba4f162a9b95e_93": "コンテンツはありません。",
+          "u_044b66b3312ba4f162a9b95e_94": "コンテンツはありません。",
+          "u_044b66b3312ba4f162a9b95e_95": "コンテンツはありません。",
+          "u_044b66b3312ba4f162a9b95e_96": "コンテンツはありません。",
+          "u_fce2db9b2a4e4ab5be3b7879_18": "__TRILIUM_PH_0____TRILIUM_PH_1____TRILIUM_PH_2__  __TRILIUM_PH_3__の結果 __TRILIUM_PH_4__",
+          "u_fce2db9b2a4e4ab5be3b7879_19": "__TRILIUM_PH_0____TRILIUM_PH_1____TRILIUM_PH_2__  __TRILIUM_PH_3__の結果 __TRILIUM_PH_4__",
+          "u_fce2db9b2a4e4ab5be3b7879_20": "__TRILIUM_PH_0____TRILIUM_PH_1____TRILIUM_PH_2__  __TRILIUM_PH_3__の結果 __TRILIUM_PH_4__",
+          "u_fce2db9b2a4e4ab5be3b7879_21": "__TRILIUM_PH_0____TRILIUM_PH_1____TRILIUM_PH_2__  __TRILIUM_PH_3__の結果 __TRILIUM_PH_4__"
+        },
+        "modelVersion": "gemini-3.5-flash-lite",
+        "usage": {
+          "promptTokenCount": 1441,
+          "candidatesTokenCount": 910,
+          "totalTokenCount": 2351,
+          "promptTokensDetails": [
+            {
+              "modality": "TEXT",
+              "tokenCount": 1441
+            }
+          ],
+          "serviceTier": "standard"
+        }
+      },
+      "unitErrors": {}
     },
     {
       "key": "z8O2VG4ZZJD7_f24f4d69e26e0f9b",
@@ -7468,7 +9435,42 @@
           "contextHash": "b743e0a5808a3e099369b0f0424efb04c384b8edc2b263401ecbc58f685828c2"
         }
       ],
-      "format": "text-slots-v1"
+      "format": "text-slots-v1",
+      "result": {
+        "key": "z8O2VG4ZZJD7_f24f4d69e26e0f9b",
+        "translations": {
+          "u_fce2db9b2a4e4ab5be3b7879_22": "__TRILIUM_PH_0____TRILIUM_PH_1____TRILIUM_PH_2__  __TRILIUM_PH_3__の結果 __TRILIUM_PH_4__",
+          "u_fce2db9b2a4e4ab5be3b7879_23": "__TRILIUM_PH_0____TRILIUM_PH_1____TRILIUM_PH_2__  __TRILIUM_PH_3__の結果 __TRILIUM_PH_4__",
+          "u_fce2db9b2a4e4ab5be3b7879_24": "__TRILIUM_PH_0____TRILIUM_PH_1____TRILIUM_PH_2__  __TRILIUM_PH_3__の結果 __TRILIUM_PH_4__",
+          "u_fce2db9b2a4e4ab5be3b7879_25": "__TRILIUM_PH_0____TRILIUM_PH_1____TRILIUM_PH_2__  __TRILIUM_PH_3__の結果 __TRILIUM_PH_4__",
+          "u_fce2db9b2a4e4ab5be3b7879_26": "__TRILIUM_PH_0____TRILIUM_PH_1____TRILIUM_PH_2__  __TRILIUM_PH_3__の結果 __TRILIUM_PH_4__",
+          "u_fce2db9b2a4e4ab5be3b7879_27": "__TRILIUM_PH_0____TRILIUM_PH_1____TRILIUM_PH_2__  __TRILIUM_PH_3__の結果 __TRILIUM_PH_4__",
+          "u_fce2db9b2a4e4ab5be3b7879_28": "__TRILIUM_PH_0____TRILIUM_PH_1____TRILIUM_PH_2__  __TRILIUM_PH_3__の結果 __TRILIUM_PH_4__",
+          "u_fce2db9b2a4e4ab5be3b7879_29": "__TRILIUM_PH_0____TRILIUM_PH_1____TRILIUM_PH_2__  __TRILIUM_PH_3__の結果 __TRILIUM_PH_4__",
+          "u_fce2db9b2a4e4ab5be3b7879_30": "__TRILIUM_PH_0____TRILIUM_PH_1____TRILIUM_PH_2__  __TRILIUM_PH_3__の結果 __TRILIUM_PH_4__",
+          "u_fce2db9b2a4e4ab5be3b7879_31": "__TRILIUM_PH_0____TRILIUM_PH_1____TRILIUM_PH_2__  __TRILIUM_PH_3__の結果 __TRILIUM_PH_4__",
+          "u_fce2db9b2a4e4ab5be3b7879_32": "__TRILIUM_PH_0____TRILIUM_PH_1____TRILIUM_PH_2__  __TRILIUM_PH_3__の結果 __TRILIUM_PH_4__",
+          "u_fce2db9b2a4e4ab5be3b7879_33": "__TRILIUM_PH_0____TRILIUM_PH_1____TRILIUM_PH_2__  __TRILIUM_PH_3__の結果 __TRILIUM_PH_4__",
+          "u_fce2db9b2a4e4ab5be3b7879_34": "__TRILIUM_PH_0____TRILIUM_PH_1____TRILIUM_PH_2__  __TRILIUM_PH_3__の結果 __TRILIUM_PH_4__",
+          "u_fce2db9b2a4e4ab5be3b7879_35": "__TRILIUM_PH_0____TRILIUM_PH_1____TRILIUM_PH_2__  __TRILIUM_PH_3__の結果 __TRILIUM_PH_4__",
+          "u_fce2db9b2a4e4ab5be3b7879_36": "__TRILIUM_PH_0____TRILIUM_PH_1____TRILIUM_PH_2__  __TRILIUM_PH_3__の結果 __TRILIUM_PH_4__",
+          "u_fce2db9b2a4e4ab5be3b7879_37": "__TRILIUM_PH_0____TRILIUM_PH_1____TRILIUM_PH_2__  __TRILIUM_PH_3__の結果 __TRILIUM_PH_4__"
+        },
+        "modelVersion": "gemini-3.5-flash-lite",
+        "usage": {
+          "promptTokenCount": 1614,
+          "candidatesTokenCount": 1294,
+          "totalTokenCount": 2908,
+          "promptTokensDetails": [
+            {
+              "modality": "TEXT",
+              "tokenCount": 1614
+            }
+          ],
+          "serviceTier": "standard"
+        }
+      },
+      "unitErrors": {}
     },
     {
       "key": "z8O2VG4ZZJD7_08f1dd7e2cb9d151",
@@ -7603,7 +9605,42 @@
           "contextHash": "0236fe48b4e091a06e60d431589191b570ce8ae2611e3a491bd6caac933ff2c6"
         }
       ],
-      "format": "text-slots-v1"
+      "format": "text-slots-v1",
+      "result": {
+        "key": "z8O2VG4ZZJD7_08f1dd7e2cb9d151",
+        "translations": {
+          "u_fce2db9b2a4e4ab5be3b7879_38": "__TRILIUM_PH_0____TRILIUM_PH_1____TRILIUM_PH_2__  __TRILIUM_PH_3__の __TRILIUM_PH_4__結果",
+          "u_fce2db9b2a4e4ab5be3b7879_39": "__TRILIUM_PH_0____TRILIUM_PH_1____TRILIUM_PH_2__  __TRILIUM_PH_3__の __TRILIUM_PH_4__結果",
+          "u_fce2db9b2a4e4ab5be3b7879_40": "__TRILIUM_PH_0____TRILIUM_PH_1____TRILIUM_PH_2__  __TRILIUM_PH_3__の __TRILIUM_PH_4__結果",
+          "u_fce2db9b2a4e4ab5be3b7879_41": "__TRILIUM_PH_0____TRILIUM_PH_1____TRILIUM_PH_2__  __TRILIUM_PH_3__の __TRILIUM_PH_4__結果",
+          "u_fce2db9b2a4e4ab5be3b7879_42": "__TRILIUM_PH_0____TRILIUM_PH_1____TRILIUM_PH_2__  __TRILIUM_PH_3__の __TRILIUM_PH_4__結果",
+          "u_fce2db9b2a4e4ab5be3b7879_43": "__TRILIUM_PH_0____TRILIUM_PH_1____TRILIUM_PH_2__  __TRILIUM_PH_3__の __TRILIUM_PH_4__結果",
+          "u_fce2db9b2a4e4ab5be3b7879_44": "__TRILIUM_PH_0____TRILIUM_PH_1____TRILIUM_PH_2__  __TRILIUM_PH_3__の __TRILIUM_PH_4__結果",
+          "u_fce2db9b2a4e4ab5be3b7879_45": "__TRILIUM_PH_0____TRILIUM_PH_1____TRILIUM_PH_2__  __TRILIUM_PH_3__の __TRILIUM_PH_4__結果",
+          "u_fce2db9b2a4e4ab5be3b7879_46": "__TRILIUM_PH_0____TRILIUM_PH_1____TRILIUM_PH_2__  __TRILIUM_PH_3__の __TRILIUM_PH_4__結果",
+          "u_fce2db9b2a4e4ab5be3b7879_47": "__TRILIUM_PH_0____TRILIUM_PH_1____TRILIUM_PH_2__  __TRILIUM_PH_3__の __TRILIUM_PH_4__結果",
+          "u_cc426f201b653710907a0c3b_76": "__TRILIUM_PH_0__  __TRILIUM_PH_1__12文字のノートID",
+          "u_fce2db9b2a4e4ab5be3b7879_48": "__TRILIUM_PH_0____TRILIUM_PH_1____TRILIUM_PH_2__  __TRILIUM_PH_3__の __TRILIUM_PH_4__結果",
+          "u_fce2db9b2a4e4ab5be3b7879_49": "__TRILIUM_PH_0____TRILIUM_PH_1____TRILIUM_PH_2__  __TRILIUM_PH_3__の __TRILIUM_PH_4__結果",
+          "u_cc426f201b653710907a0c3b_77": "__TRILIUM_PH_0__  __TRILIUM_PH_1__12文字のノートID",
+          "u_fce2db9b2a4e4ab5be3b7879_50": "__TRILIUM_PH_0____TRILIUM_PH_1____TRILIUM_PH_2__  __TRILIUM_PH_3__の __TRILIUM_PH_4__結果",
+          "u_fce2db9b2a4e4ab5be3b7879_51": "__TRILIUM_PH_0____TRILIUM_PH_1____TRILIUM_PH_2__  __TRILIUM_PH_3__の __TRILIUM_PH_4__結果"
+        },
+        "modelVersion": "gemini-3.5-flash-lite",
+        "usage": {
+          "promptTokenCount": 1600,
+          "candidatesTokenCount": 1292,
+          "totalTokenCount": 2892,
+          "promptTokensDetails": [
+            {
+              "modality": "TEXT",
+              "tokenCount": 1600
+            }
+          ],
+          "serviceTier": "standard"
+        }
+      },
+      "unitErrors": {}
     },
     {
       "key": "z8O2VG4ZZJD7_f4dcc825dc9b956d",
@@ -7738,7 +9775,42 @@
           "contextHash": "9415eef7f1a96f5511193334d2b1d97450b7239661f8324626a2d8cf0ec7dccc"
         }
       ],
-      "format": "text-slots-v1"
+      "format": "text-slots-v1",
+      "result": {
+        "key": "z8O2VG4ZZJD7_f4dcc825dc9b956d",
+        "translations": {
+          "u_777980e543aba2dc6e3f39f1_0": "__TRILIUM_PH_0__  __TRILIUM_PH_1__レスポンス形式：Prometheusテキスト形式の場合は __TRILIUM_PH_2__、JSONの場合は __TRILIUM_PH_3__を指定します。指定可能な値：、",
+          "u_17f072846a378795f7b57ff1_0": "200: インスタンスのメトリクス",
+          "u_89f4779453357bd3779de55c_0": "400: 無効な形式パラメータです",
+          "u_044b66b3312ba4f162a9b95e_97": "コンテンツはありません。",
+          "u_efe846463f663050b7c9c781_0": "500: メトリクスの収集中にエラーが発生しました",
+          "u_044b66b3312ba4f162a9b95e_98": "コンテンツはありません。",
+          "u_cc426f201b653710907a0c3b_78": "__TRILIUM_PH_0__  __TRILIUM_PH_1__12文字のノートID",
+          "u_cc426f201b653710907a0c3b_79": "__TRILIUM_PH_0__  __TRILIUM_PH_1__12文字のノートID",
+          "u_044b66b3312ba4f162a9b95e_99": "コンテンツはありません。",
+          "u_eaf354348699ad395107098a_108": "__TRILIUM_PH_0__パスパラメータ__TRILIUM_PH_1__",
+          "u_35c0bf70ca5d522e8ba978b6_138": "名前",
+          "u_a9536eea6114feb283187123_21": "__TRILIUM_PH_0__クエリパラメータ__TRILIUM_PH_1__",
+          "u_35c0bf70ca5d522e8ba978b6_139": "名前",
+          "u_044b66b3312ba4f162a9b95e_100": "コンテンツはありません。",
+          "u_d367218c33182c89f803e46a_0": "すべてのアイコンのグリフを取得します__TRILIUM_PH_0__",
+          "u_d4ffeaaefb8ca32ba46bbcc2_0": "各アイコンパックの各アイコンの文字を配置する __TRILIUM_PH_0__ ルールを含むスタイルシート。ブートストラップデータにはパックのフォントが含まれており、コンテンツから派生した __TRILIUM_PH_1__ パラメータを使用してこのスタイルシートにリンクしているため、レスポンスを完全にキャッシュできます。ログイン画面で名前を指定するブートストラップデータと同様に、セッションなしで提供されます。"
+        },
+        "modelVersion": "gemini-3.5-flash-lite",
+        "usage": {
+          "promptTokenCount": 1615,
+          "candidatesTokenCount": 998,
+          "totalTokenCount": 2613,
+          "promptTokensDetails": [
+            {
+              "modality": "TEXT",
+              "tokenCount": 1615
+            }
+          ],
+          "serviceTier": "standard"
+        }
+      },
+      "unitErrors": {}
     },
     {
       "key": "z8O2VG4ZZJD7_c1c50b51711f40db",
@@ -7873,7 +9945,42 @@
           "contextHash": "7e029f9ad0a5ead1da07cde6baf3ea3c2afd455035a25732219d0a3b0ff54f43"
         }
       ],
-      "format": "text-slots-v1"
+      "format": "text-slots-v1",
+      "result": {
+        "key": "z8O2VG4ZZJD7_c1c50b51711f40db",
+        "translations": {
+          "u_5074621418103f817a7ea237_10": "__TRILIUM_PH_0__認証__TRILIUM_PH_1__: なし",
+          "u_a9536eea6114feb283187123_22": "__TRILIUM_PH_0__クエリパラメータ__TRILIUM_PH_1__",
+          "u_35c0bf70ca5d522e8ba978b6_140": "名前",
+          "u_1a9b8621c5296d609fa83fd9_0": "__TRILIUM_PH_0__  __TRILIUM_PH_1__ブートストラップデータが指すコンテンツのバージョン。任意の値を指定すると現在のスタイルシートが返されます。",
+          "u_7124ca7842c40f1e6dd593b6_0": "200: アイコンパックのグリフ規則",
+          "u_f5142cd5036a745740b800c4_0": "各アイコンパックのすべてのアイコンを取得する__TRILIUM_PH_0__",
+          "u_fa22471fbdabeea65abcac8f_0": "アイコンピッカーが検索するアイコンの一覧を返します。多くのパックがインストールされている場合、完全なリストのサイズは1メガバイトを超えるため、ブートストラップデータにはアイコンパック名のみが含まれます。",
+          "u_772ea2547449e0b161503b5a_0": "200: 各アイコンパックのアイコン",
+          "u_19c32e50a59ea2cf1a60f000_0": "__TRILIUM_PH_0__  __TRILIUM_PH_1__パックを識別するアイコンクラス",
+          "u_3180bf861aba34e6cfd3a074_0": "__TRILIUM_PH_0__  __TRILIUM_PH_1__以下のようなアイコンのクラス __TRILIUM_PH_2__",
+          "u_d6133fce29a234be9f3a9939_140": "__TRILIUM_PH_0__: __TRILIUM_PH_1__",
+          "u_d6133fce29a234be9f3a9939_141": "__TRILIUM_PH_0__: __TRILIUM_PH_1__",
+          "u_479c558bae6f2d810d9d3e91_203": "__TRILIUM_PH_0__ · __TRILIUM_PH_1__",
+          "u_d6133fce29a234be9f3a9939_142": "__TRILIUM_PH_0__: __TRILIUM_PH_1__",
+          "u_0803fed235eff4f25ddbce52_203": "__TRILIUM_PH_0__レスポンス__TRILIUM_PH_1__",
+          "u_d6133fce29a234be9f3a9939_143": "__TRILIUM_PH_0__: __TRILIUM_PH_1__"
+        },
+        "modelVersion": "gemini-3.5-flash-lite",
+        "usage": {
+          "promptTokenCount": 1590,
+          "candidatesTokenCount": 1005,
+          "totalTokenCount": 2595,
+          "promptTokensDetails": [
+            {
+              "modality": "TEXT",
+              "tokenCount": 1590
+            }
+          ],
+          "serviceTier": "standard"
+        }
+      },
+      "unitErrors": {}
     },
     {
       "key": "z8O2VG4ZZJD7_2df3f9d547f723dc",
@@ -8008,7 +10115,42 @@
           "contextHash": "96d560732a079927efe46ee50c8b0b783b4076c377dd290c6bfb9c81c47c94f2"
         }
       ],
-      "format": "text-slots-v1"
+      "format": "text-slots-v1",
+      "result": {
+        "key": "z8O2VG4ZZJD7_2df3f9d547f723dc",
+        "translations": {
+          "u_cc426f201b653710907a0c3b_80": "12文字の__TRILIUM_PH_0__  ノートID__TRILIUM_PH_1__12-character note ID",
+          "u_fce2db9b2a4e4ab5be3b7879_52": "__TRILIUM_PH_0____TRILIUM_PH_1__の__TRILIUM_PH_2__  __TRILIUM_PH_3__結果 __TRILIUM_PH_4__",
+          "u_fce2db9b2a4e4ab5be3b7879_53": "__TRILIUM_PH_0____TRILIUM_PH_1__の__TRILIUM_PH_2__  __TRILIUM_PH_3__結果 __TRILIUM_PH_4__",
+          "u_f8418b5747304c63ec7f2247_1": "テキスト__TRILIUM_PH_0__  ではない__TRILIUM_PH_1__場合__TRILIUM_PH_2__ if not text.",
+          "u_fce2db9b2a4e4ab5be3b7879_54": "__TRILIUM_PH_0____TRILIUM_PH_1__の__TRILIUM_PH_2__  __TRILIUM_PH_3__結果 __TRILIUM_PH_4__",
+          "u_84e91924cc7c004e423af7dc_381": "__TRILIUM_PH_0__  __TRILIUM_PH_1____TRILIUM_PH_2__必須__TRILIUM_PH_3__",
+          "u_84e91924cc7c004e423af7dc_382": "__TRILIUM_PH_0__  __TRILIUM_PH_1____TRILIUM_PH_2__必須__TRILIUM_PH_3__",
+          "u_84e91924cc7c004e423af7dc_383": "__TRILIUM_PH_0__  __TRILIUM_PH_1____TRILIUM_PH_2__必須__TRILIUM_PH_3__",
+          "u_84e91924cc7c004e423af7dc_384": "__TRILIUM_PH_0__  __TRILIUM_PH_1____TRILIUM_PH_2__必須__TRILIUM_PH_3__",
+          "u_84e91924cc7c004e423af7dc_385": "__TRILIUM_PH_0__  __TRILIUM_PH_1____TRILIUM_PH_2__必須__TRILIUM_PH_3__",
+          "u_84e91924cc7c004e423af7dc_386": "__TRILIUM_PH_0__  __TRILIUM_PH_1____TRILIUM_PH_2__必須__TRILIUM_PH_3__",
+          "u_84e91924cc7c004e423af7dc_387": "__TRILIUM_PH_0__  __TRILIUM_PH_1____TRILIUM_PH_2__必須__TRILIUM_PH_3__",
+          "u_84e91924cc7c004e423af7dc_388": "__TRILIUM_PH_0__  __TRILIUM_PH_1____TRILIUM_PH_2__必須__TRILIUM_PH_3__",
+          "u_84e91924cc7c004e423af7dc_389": "__TRILIUM_PH_0__  __TRILIUM_PH_1____TRILIUM_PH_2__必須__TRILIUM_PH_3__",
+          "u_84e91924cc7c004e423af7dc_390": "__TRILIUM_PH_0__  __TRILIUM_PH_1____TRILIUM_PH_2__必須__TRILIUM_PH_3__",
+          "u_fce2db9b2a4e4ab5be3b7879_55": "__TRILIUM_PH_0____TRILIUM_PH_1__の__TRILIUM_PH_2__  __TRILIUM_PH_3__結果 __TRILIUM_PH_4__"
+        },
+        "modelVersion": "gemini-3.5-flash-lite",
+        "usage": {
+          "promptTokenCount": 1509,
+          "candidatesTokenCount": 1229,
+          "totalTokenCount": 2738,
+          "promptTokensDetails": [
+            {
+              "modality": "TEXT",
+              "tokenCount": 1509
+            }
+          ],
+          "serviceTier": "standard"
+        }
+      },
+      "unitErrors": {}
     },
     {
       "key": "z8O2VG4ZZJD7_0c95021996318a5a",
@@ -8143,7 +10285,42 @@
           "contextHash": "890440d6124dbeda0a90cd17c6735d6765b1b48a7d83d9f6ef717a8cd79a10f7"
         }
       ],
-      "format": "text-slots-v1"
+      "format": "text-slots-v1",
+      "result": {
+        "key": "z8O2VG4ZZJD7_0c95021996318a5a",
+        "translations": {
+          "u_fce2db9b2a4e4ab5be3b7879_56": "__TRILIUM_PH_0____TRILIUM_PH_1____TRILIUM_PH_2__  __TRILIUM_PH_3__の __TRILIUM_PH_4__結果",
+          "u_b08d8a92b8d50739c7da469b_1": "型: __TRILIUM_PH_0__",
+          "u_305332e10f1ce38bf1246919_0": "例: __TRILIUM_PH_0__",
+          "u_3da7969c314e1d52e1c38db7_0": "の __TRILIUM_PH_0__結果",
+          "u_b08d8a92b8d50739c7da469b_2": "型: __TRILIUM_PH_0__",
+          "u_305332e10f1ce38bf1246919_1": "例: __TRILIUM_PH_0__",
+          "u_4b00baa636b92e18b7a75884_291": "説明",
+          "u_fce2db9b2a4e4ab5be3b7879_57": "__TRILIUM_PH_0____TRILIUM_PH_1____TRILIUM_PH_2__  __TRILIUM_PH_3__の __TRILIUM_PH_4__結果",
+          "u_fce2db9b2a4e4ab5be3b7879_58": "__TRILIUM_PH_0____TRILIUM_PH_1____TRILIUM_PH_2__  __TRILIUM_PH_3__の __TRILIUM_PH_4__結果",
+          "u_c034a3ba658439c7bbffdfcf_0": "リンク一覧での表示方法を決定するターゲットの種類",
+          "u_b08d8a92b8d50739c7da469b_3": "型: __TRILIUM_PH_0__",
+          "u_12773ffa88851221517e1226_0": "次のいずれか: __TRILIUM_PH_0__、 __TRILIUM_PH_1__",
+          "u_305332e10f1ce38bf1246919_2": "例: __TRILIUM_PH_0__",
+          "u_681abbca24df8b303ce70493_0": "エンコードされていない、ターゲットを指すリンクのパラメータ",
+          "u_b08d8a92b8d50739c7da469b_4": "型: __TRILIUM_PH_0__",
+          "u_305332e10f1ce38bf1246919_3": "例: __TRILIUM_PH_0__"
+        },
+        "modelVersion": "gemini-3.5-flash-lite",
+        "usage": {
+          "promptTokenCount": 1440,
+          "candidatesTokenCount": 948,
+          "totalTokenCount": 2388,
+          "promptTokensDetails": [
+            {
+              "modality": "TEXT",
+              "tokenCount": 1440
+            }
+          ],
+          "serviceTier": "standard"
+        }
+      },
+      "unitErrors": {}
     },
     {
       "key": "z8O2VG4ZZJD7_42d8c7ea17e9ef50",
@@ -8278,7 +10455,42 @@
           "contextHash": "c1d4dad39f8e13ffdeb941369c822a6259c2a64a9ce2fe1451e4a22c5eaf4357"
         }
       ],
-      "format": "text-slots-v1"
+      "format": "text-slots-v1",
+      "result": {
+        "key": "z8O2VG4ZZJD7_42d8c7ea17e9ef50",
+        "translations": {
+          "u_4b00baa636b92e18b7a75884_292": "説明",
+          "u_84e91924cc7c004e423af7dc_391": "__TRILIUM_PH_0__  __TRILIUM_PH_1____TRILIUM_PH_2__必須__TRILIUM_PH_3__",
+          "u_1576bdac7666452a32118d5d_1": "__TRILIUM_PH_0____TRILIUM_PH_1____TRILIUM_PH_2__  __TRILIUM_PH_3__リンクのリストでの表示方法を決定するターゲットの種類。次のいずれかです __TRILIUM_PH_4__、 __TRILIUM_PH_5__。",
+          "u_84e91924cc7c004e423af7dc_392": "__TRILIUM_PH_0__  __TRILIUM_PH_1____TRILIUM_PH_2__必須__TRILIUM_PH_3__",
+          "u_8db1b9862a528ffbfa65061f_0": "__TRILIUM_PH_0__  __TRILIUM_PH_1__リストに表示されるプレーンテキスト",
+          "u_b0b45fda762f6e331e2ca454_0": "__TRILIUM_PH_0__  __TRILIUM_PH_1__ネストする種類の場合、ターゲットの深度（例 __TRILIUM_PH_2__などの場合は 2）",
+          "u_374c595f117ab946bc3c19af_0": "__TRILIUM_PH_0____TRILIUM_PH_1____TRILIUM_PH_2__  __TRILIUM_PH_3__ターゲットを指すリンクパラメータ。参照が必要な間は存在しません",
+          "u_4b00baa636b92e18b7a75884_293": "説明",
+          "u_84e91924cc7c004e423af7dc_393": "__TRILIUM_PH_0__  __TRILIUM_PH_1____TRILIUM_PH_2__必須__TRILIUM_PH_3__",
+          "u_936b2e71d4916ac051c0b6ee_11": "の配列 __TRILIUM_PH_0____TRILIUM_PH_1____TRILIUM_PH_2__",
+          "u_2eba2c8872a2d818ecd73aa0_153": "プロパティ",
+          "u_4b00baa636b92e18b7a75884_294": "説明",
+          "u_84e91924cc7c004e423af7dc_394": "__TRILIUM_PH_0__  __TRILIUM_PH_1____TRILIUM_PH_2__必須__TRILIUM_PH_3__",
+          "u_84e91924cc7c004e423af7dc_395": "__TRILIUM_PH_0__  __TRILIUM_PH_1____TRILIUM_PH_2__必須__TRILIUM_PH_3__",
+          "u_2eba2c8872a2d818ecd73aa0_154": "プロパティ",
+          "u_4b00baa636b92e18b7a75884_295": "説明"
+        },
+        "modelVersion": "gemini-3.5-flash-lite",
+        "usage": {
+          "promptTokenCount": 1521,
+          "candidatesTokenCount": 1067,
+          "totalTokenCount": 2588,
+          "promptTokensDetails": [
+            {
+              "modality": "TEXT",
+              "tokenCount": 1521
+            }
+          ],
+          "serviceTier": "standard"
+        }
+      },
+      "unitErrors": {}
     },
     {
       "key": "z8O2VG4ZZJD7_a7c47d981797f405",
@@ -8317,7 +10529,30 @@
           "contextHash": "8c3dba789ad4e9c6e4c88cd817ccdc5ec874ee707c64c20f9b88858dfd094072"
         }
       ],
-      "format": "text-slots-v1"
+      "format": "text-slots-v1",
+      "result": {
+        "key": "z8O2VG4ZZJD7_a7c47d981797f405",
+        "translations": {
+          "u_2eba2c8872a2d818ecd73aa0_155": "プロパティ",
+          "u_4b00baa636b92e18b7a75884_296": "説明",
+          "u_2eba2c8872a2d818ecd73aa0_156": "プロパティ",
+          "u_4b00baa636b92e18b7a75884_297": "説明"
+        },
+        "modelVersion": "gemini-3.5-flash-lite",
+        "usage": {
+          "promptTokenCount": 621,
+          "candidatesTokenCount": 171,
+          "totalTokenCount": 792,
+          "promptTokensDetails": [
+            {
+              "modality": "TEXT",
+              "tokenCount": 621
+            }
+          ],
+          "serviceTier": "standard"
+        }
+      },
+      "unitErrors": {}
     },
     {
       "key": "GBBMSlVSOIGP_92e619f4afb08c12",
@@ -8340,7 +10575,28 @@
           "contextHash": "40c22096c876311ad45ac4be012db374e96ca649f426eedd85875d1be92e5ba6"
         }
       ],
-      "format": "text-slots-v1"
+      "format": "text-slots-v1",
+      "result": {
+        "key": "GBBMSlVSOIGP_92e619f4afb08c12",
+        "translations": {
+          "u_b68a74f729d8e5a448dc1cf4_0": "モデルを取得できない場合、リストにはその理由が表示されます（接続の拒否や誤ったAPIキーなど）。原因を修正した後（ローカルサーバーの起動など）にもう一度試すには、 __TRILIUM_PH_0__再試行__TRILIUM_PH_1__を押してください。",
+          "u_e94af146923f6c7c20b90d7f_0": "接続情報の入力後、検索プロバイダーを追加するとテスト検索が実行され、最初の結果、または失敗した理由（接続の拒否や誤ったAPIキーなど）が表示されます。 __TRILIUM_PH_0__再試行__TRILIUM_PH_1__ でテストを再度実行し、 __TRILIUM_PH_2__とにかく追加__TRILIUM_PH_3__ では失敗にかかわらずプロバイダーを追加します。これは、サービスがまだ実行されていない場合に役立ちます。検索プロバイダーの編集時は、APIキーまたはアドレスが変更された場合にのみテストが再実行されます。"
+        },
+        "modelVersion": "gemini-3.5-flash-lite",
+        "usage": {
+          "promptTokenCount": 770,
+          "candidatesTokenCount": 318,
+          "totalTokenCount": 1088,
+          "promptTokensDetails": [
+            {
+              "modality": "TEXT",
+              "tokenCount": 770
+            }
+          ],
+          "serviceTier": "standard"
+        }
+      },
+      "unitErrors": {}
     },
     {
       "key": "GFXVHyblVN3d_1145a3cec449d8be",
@@ -8355,9 +10611,31 @@
           "contextHash": "77277e8c17896a13b0b70bdf931805023ed5fc4912b399770c1057c8ef17e228"
         }
       ],
-      "format": "text-slots-v1"
+      "format": "text-slots-v1",
+      "result": {
+        "key": "GFXVHyblVN3d_1145a3cec449d8be",
+        "translations": {
+          "u_50fd832e5c675f42df048d84_0": "ウィンドウに最初の描画を行わせます。メインプロセスは、起動中のメインウィンドウまたは追加ウィンドウの最初の描画（およびウィンドウの表示）を、クライアントがインターフェースをレンダリングするまで保持し、ウィンドウ途中の不完全な状態が表示されないようにします。他のウィンドウや解放済みのウィンドウに対しては何も行いません。"
+        },
+        "modelVersion": "gemini-3.5-flash-lite",
+        "usage": {
+          "promptTokenCount": 571,
+          "candidatesTokenCount": 154,
+          "totalTokenCount": 725,
+          "promptTokensDetails": [
+            {
+              "modality": "TEXT",
+              "tokenCount": 571
+            }
+          ],
+          "serviceTier": "standard"
+        }
+      },
+      "unitErrors": {}
     }
   ],
   "name": "batches/szn1iq85i3jwlbcbe0l3g53c6vxfrl0nztcr",
-  "state": "JOB_STATE_PENDING"
+  "state": "JOB_STATE_SUCCEEDED",
+  "diagnostics": [],
+  "rejectedResponses": []
 }
